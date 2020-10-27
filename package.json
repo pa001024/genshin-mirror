@@ -27,11 +27,15 @@
     "@nuxt/typescript-runtime": "^2.0.0",
     "@nuxtjs/axios": "^5.12.2",
     "@nuxtjs/pwa": "^3.0.2",
+    "cookieparser": "^0.1.0",
     "core-js": "^3.6.5",
+    "js-cookie": "^2.2.1",
     "lodash-es": "^4.17.15",
     "nuxt": "^2.14.6",
+    "vue-class-component": "^7.2.6",
     "vue-i18n": "^8.22.1",
-    "vue-property-decorator": "^9.0.2"
+    "vue-property-decorator": "^9.0.2",
+    "vuex-class": "^0.3.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
@@ -54,6 +58,8 @@
     "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.3.0",
     "jest": "^26.5.0",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.2",
     "lint-staged": "^10.4.0",
     "prettier": "^2.1.2",
     "stylelint": "^13.7.2",

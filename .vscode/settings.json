@@ -1,4 +1,7 @@
 {
-    "vetur.format.defaultFormatter.html": "prettier",
-    "i18n-ally.localesPaths": "i18n"
+  "vetur.format.defaultFormatter.html": "prettier",
+  "i18n-ally.localesPaths": [
+    "i18n/locales"
+  ],
+  "i18n-ally.sourceLanguage": "en"
 }

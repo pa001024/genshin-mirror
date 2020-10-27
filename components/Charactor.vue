@@ -1,12 +1,15 @@
 <template>
-  <div class="gsm-charactor"></div>
+  <div class="gsm-charactor">
+    <div class="name">{{ name }}</div>
+  </div>
 </template>
 
 <script lang="ts">
-import { Vue, Component } from "vue-property-decorator";
+import { Vue, Component, Prop } from "vue-property-decorator";
 
 @Component({})
 export default class Charactor extends Vue {
+  @Prop() name!: string;
   // start
   mounted() {}
 }
