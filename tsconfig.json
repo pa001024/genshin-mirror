@@ -12,6 +12,7 @@
     "experimentalDecorators": true,
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
     "baseUrl": ".",
     "paths": {
       "~/*": ["./*"],
