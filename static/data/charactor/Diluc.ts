@@ -1,6 +1,6 @@
-import { ICharactor } from "~/core";
+import { ICharacter } from "~/core";
 
-export default <ICharactor>{
+export default <ICharacter>{
   name: "Diluc",
   region: 1,
   gender: 1,

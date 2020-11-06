@@ -1,10 +1,373 @@
 {
   "title": {
-    "main": "极镜 (Riven.IM)",
-    "sub": "{0} - 极镜 (Riven.IM)",
-    "weapon": "{0} 配卡",
-    "info": "{0} 资料",
-    "music": "{0} 编曲"
+    "main": "原神宝鉴 (genshin.im)",
+    "sub": "{0} - 原神宝鉴 (genshin.im)",
+    "map": "提瓦特大地图",
+    "char": "角色",
+    "weapon": "武器"
   },
-  "messages": {}
+  "element": {
+    "Anemo": "风",
+    "Geo": "岩",
+    "Electro": "雷",
+    "Dendro": "草",
+    "Hydro": "水",
+    "Pyro": "火",
+    "Cryo": "冰"
+  },
+  "reaction": {
+    "burning": "点燃",
+    "crystallize": "结晶",
+    "electroCharged": "感电",
+    "frozen": "冻结",
+    "melt": "融化",
+    "overloaded": "超载",
+    "superconduct": "超导",
+    "swirl": "扩散",
+    "vaporize": "蒸发"
+  },
+  "region": {
+    "Mondstadt": "蒙德",
+    "Liyue": "璃月",
+    "Inazuma": "稻妻",
+    "Sumeru": "须弥",
+    "Fontaine": "枫丹",
+    "Natlan": "纳特兰",
+    "Snezhnaya": "至冬国"
+  },
+  "enemy": {
+    "anemoSlime": "风史莱姆",
+    "geoSlime": "岩史莱姆",
+    "electroSlime": "雷史莱姆",
+    "dendroSlime": "草史莱姆",
+    "hydroSlime": "水史莱姆",
+    "pyroSlime": "火史莱姆",
+    "cryoSlime": "冰史莱姆",
+    "largeAnemoSlime": "大型风史莱姆",
+    "largeGeoSlime": "大型岩史莱姆",
+    "largeElectroSlime": "大型雷史莱姆",
+    "largeDendroSlime": "大型草史莱姆",
+    "largeHydroSlime": "大型水史莱姆",
+    "largePyroSlime": "大型火史莱姆",
+    "largeCryoSlime": "大型冰史莱姆",
+    "mutantElectroSlime": "变异雷史莱姆",
+    "hilichurlFighters": "打手丘丘人",
+    "hilichurlBerserker": "冲锋丘丘人",
+    "hilichurlGrenadier": "爆弹丘丘人",
+    "woodenShieldHilichurlGuard": "木盾丘丘人",
+    "rockShieldHilichurlGuard": "岩盾丘丘人",
+    "hilichurlShooter": "射手丘丘人",
+    "pyroHilichurlShooter": "火箭丘丘人",
+    "electroHilichurlShooter": "雷箭丘丘人",
+    "cryoHilichurlShooter": "冰箭丘丘人",
+    "hydroSamachurl": "水丘丘萨满",
+    "anemoSamachurl": "风丘丘萨满",
+    "dendroSamachurl": "草丘丘萨满",
+    "geoSamachurl": "岩丘丘萨满",
+    "woodenShieldMitachurl": "木盾丘丘暴徒",
+    "rockShieldwallMitachurl": "岩盾丘丘暴徒",
+    "blazingAxeMitachurl": "火斧丘丘暴徒",
+    "stonehideLawachurl": "丘丘岩盔王",
+    "pyroWhopperflower": "炽热骗骗花",
+    "cryoWhopperflower": "冰霜骗骗花",
+    "geovishapHatchling": "幼岩龙蜥",
+    "fatuiPyroAgent": "愚人众·火之债务处理人",
+    "fatuiElectroCicinMage": "愚人众·雷萤术士",
+    "cicin": "雷萤",
+    "fatuiSkirmisherAnemoboxerVanguard": "愚人众先遣队·风拳前锋军",
+    "fatuiSkirmisherElectroHammerVanguard": "愚人众先遣队·雷锤前锋军",
+    "fatuiSkirmisherGeoChanterBracer": "愚人众先遣队·岩使游击兵",
+    "fatuiSkirmisherPyroSlingerBracer": "愚人众先遣队·火铳游击兵",
+    "fatuiSkirmisherCryoGunnerLegionnaire": "愚人众先遣队·冰铳重卫士",
+    "fatuiSkirmisherHydroGunnerLegionnaire": "愚人众先遣队·水铳重卫士",
+    "pyroAbyssMage": "火深渊法师",
+    "cryoAbyssMage": "冰深渊法师",
+    "Hydro Abyss Mage": "水深渊法师",
+    "treasureHoardersScout": "斥候",
+    "treasureHoardersMarksman": "神射手",
+    "treasureHoardersPugilist": "拳术家",
+    "treasureHoardersPotioneer": "药剂师",
+    "treasureHoardersHandyman": "杂工",
+    "treasureHoardersCrusher": "粉碎者",
+    "treasureHoardersSeaman": "海上男儿",
+    "treasureHoardersGravedigger": "掘墓者",
+    "ruinGuard": "遗迹守卫",
+    "ruinHunter": "遗迹猎者"
+  },
+  "buff": {
+    "HP": "生命",
+    "ATK": "攻击",
+    "DEF": "防御",
+    "ExtHP": "生命点",
+    "ExtATK": "攻击点",
+    "ExtDEF": "防御点",
+    "ElementalMastery": "元素精通",
+    "MaxStamina": "体力上限",
+    "CRITRate": "暴击",
+    "CRITDMG": "暴伤",
+    "Heal": "治疗加成",
+    "Healen": "受治疗加成",
+    "EnergyRecharge": "元素充能效率",
+    "SkillCD": "冷却时间",
+    "SkillSPD": "冷却速度",
+    "ShieldEffectiveness": "护盾强效",
+    "PyroDMG": "火元素伤害加成",
+    "PyroRES": "火元素抗性",
+    "HydroDMG": "水元素伤害加成",
+    "HydroRES": "水元素抗性",
+    "DendroDMG": "草元素伤害加成",
+    "DendroRES": "草元素抗性",
+    "ElectroDMG": "雷元素伤害加成",
+    "ElectroRES": "雷元素抗性",
+    "AnemoDMG": "风元素伤害加成",
+    "AnemoRES": "风元素抗性",
+    "CryoDMG": "冰元素伤害加成",
+    "CryoRES": "冰元素抗性",
+    "GeoDMG": "岩元素伤害加成",
+    "GeoRES": "岩元素抗性",
+    "PhysicalDMG": "物理伤害加成",
+    "PhysicalRES": "物理抗性",
+    "ElementalDMG": "全元素伤害加成",
+    "AllRES": "全元素伤害抗性",
+    "AllDMG": "全伤害加成",
+    "MovementSPD": "移动速度",
+    "AttackSPD": "攻击速度",
+    "ElementalReactionDMG": "元素反应伤害",
+    "StaminaConsumption": "体力消耗",
+    "ElementalAffectDuration": "元素附着时间"
+  },
+  "artifact": {
+    "1": {
+      "name": "冒险家",
+      "flower": "冒险家之花",
+      "plume": "冒险家尾羽",
+      "sands": "冒险家怀表",
+      "goblet": "冒险家金杯",
+      "circlet": "冒险家头带"
+    },
+    "2": {
+      "name": "幸运儿",
+      "flower": "幸运儿绿花",
+      "plume": "幸运儿鹰羽",
+      "sands": "幸运儿沙漏",
+      "goblet": "幸运儿之杯",
+      "circlet": "幸运儿银冠"
+    },
+    "3": {
+      "name": "游医",
+      "flower": "游医的银莲",
+      "plume": "游医的枭羽",
+      "sands": "游医的怀钟",
+      "goblet": "游医的药壶",
+      "circlet": "游医的方巾"
+    },
+    "100": {
+      "name": "教官",
+      "flower": "教官的胸花",
+      "plume": "教官的羽饰",
+      "sands": "教官的怀表",
+      "goblet": "教官的茶杯",
+      "circlet": "教官的帽子"
+    },
+    "101": {
+      "name": "战狂",
+      "flower": "战狂的蔷薇",
+      "plume": "战狂的翎羽",
+      "sands": "战狂的时计",
+      "goblet": "战狂的骨杯",
+      "circlet": "战狂的鬼面"
+    },
+    "102": {
+      "name": "流放者",
+      "flower": "流放者之花",
+      "plume": "流放者之羽",
+      "sands": "流放者怀表",
+      "goblet": "流放者之杯",
+      "circlet": "流放者头冠"
+    },
+    "103": {
+      "name": "故人之心",
+      "flower": "故人之心",
+      "plume": "归乡之羽",
+      "sands": "逐光之石",
+      "goblet": "异国之盏",
+      "circlet": "感别之冠"
+    },
+    "104": {
+      "name": "武人",
+      "flower": "武人的红花",
+      "plume": "武人的羽饰",
+      "sands": "武人的水漏",
+      "goblet": "武人的酒杯",
+      "circlet": "武人的头巾"
+    },
+    "105": {
+      "name": "守护之心",
+      "flower": "守护之花",
+      "plume": "守护徽印",
+      "sands": "守护座钟",
+      "goblet": "守护之皿",
+      "circlet": "守护束带"
+    },
+    "106": {
+      "name": "奇迹",
+      "flower": "奇迹之花",
+      "plume": "奇迹之羽",
+      "sands": "奇迹之沙",
+      "goblet": "奇迹之杯",
+      "circlet": "奇迹耳坠"
+    },
+    "107": {
+      "name": "勇士之心",
+      "flower": "勇士的勋章",
+      "plume": "勇士的期许",
+      "sands": "勇士的坚毅",
+      "goblet": "勇士的壮行",
+      "circlet": "勇士的冠冕"
+    },
+    "108": {
+      "name": "赌徒",
+      "flower": "赌徒的胸花",
+      "plume": "赌徒的羽饰",
+      "sands": "赌徒的怀表",
+      "goblet": "赌徒的骰盅",
+      "circlet": "赌徒的耳环"
+    },
+    "109": {
+      "name": "学士",
+      "flower": "学士的书签",
+      "plume": "学士的羽笔",
+      "sands": "学士的时钟",
+      "goblet": "学士的墨杯",
+      "circlet": "学士的镜片"
+    },
+    "200": {
+      "name": "祭雷之人",
+      "circlet": "祭雷礼冠"
+    },
+    "201": {
+      "name": "祭冰之人",
+      "circlet": "祭冰礼冠"
+    },
+    "202": {
+      "name": "祭火之人",
+      "circlet": "祭火礼冠"
+    },
+    "300": {
+      "name": "祭水之人",
+      "circlet": "祭水礼冠"
+    },
+    "301": {
+      "name": "角斗士的终幕礼",
+      "flower": "角斗士的留恋",
+      "plume": "角斗士的归宿",
+      "sands": "角斗士的希冀",
+      "goblet": "角斗士的酣醉",
+      "circlet": "角斗士的凯旋"
+    },
+    "302": {
+      "name": "被怜爱的少女",
+      "flower": "远方的少女之心",
+      "plume": "少女飘摇的思念",
+      "sands": "少女苦短的良辰",
+      "goblet": "少女片刻的闲暇",
+      "circlet": "少女易逝的芳颜"
+    },
+    "303": {
+      "name": "昔日宗室之仪",
+      "flower": "宗室之花",
+      "plume": "宗室之翎",
+      "sands": "宗室时计",
+      "goblet": "宗室银瓮",
+      "circlet": "宗室面具"
+    },
+    "304": {
+      "name": "染血的骑士道",
+      "flower": "染血的铁之心",
+      "plume": "染血的黑之羽",
+      "sands": "骑士染血之时",
+      "goblet": "染血骑士之杯",
+      "circlet": "染血的铁假面"
+    },
+    "305": {
+      "name": "流浪大地的乐团",
+      "flower": "乐团的晨光",
+      "plume": "琴师的箭羽",
+      "sands": "终幕的时计",
+      "goblet": "吟游者之壶",
+      "circlet": "指挥的礼帽"
+    },
+    "306": {
+      "name": "翠绿之影",
+      "flower": "野花记忆的绿野",
+      "plume": "猎人青翠的箭羽",
+      "sands": "翠绿猎人的笃定",
+      "goblet": "翠绿猎人的容器",
+      "circlet": "翠绿的猎人之冠"
+    },
+    "307": {
+      "name": "如雷的盛怒",
+      "flower": "雷鸟的怜悯",
+      "plume": "雷灾的孑遗",
+      "sands": "雷霆的时计",
+      "goblet": "降雷的凶兆",
+      "circlet": "唤雷的头冠"
+    },
+    "308": {
+      "name": "平息鸣雷的尊者",
+      "flower": "平雷之心",
+      "plume": "平雷之羽",
+      "sands": "平雷之刻",
+      "goblet": "平雷之器",
+      "circlet": "平雷之冠"
+    },
+    "309": {
+      "name": "炽烈的炎之魔女",
+      "flower": "魔女的炎之花",
+      "plume": "魔女常燃之羽",
+      "sands": "魔女破灭之时",
+      "goblet": "魔女的心之火",
+      "circlet": "焦灼的魔女帽"
+    },
+    "310": {
+      "name": "渡过烈火的贤人",
+      "flower": "渡火者的决绝",
+      "plume": "渡火者的解脱",
+      "sands": "渡火者的煎熬",
+      "goblet": "渡火者的醒悟",
+      "circlet": "渡火者的智慧"
+    },
+    "311": {
+      "name": "悠古的磐岩",
+      "flower": "磐陀裂生之花",
+      "plume": "嵯峨群峰之翼",
+      "sands": "星罗圭壁之晷",
+      "goblet": "巉岩琢塑之樽",
+      "circlet": "不动玄石之相"
+    },
+    "312": {
+      "name": "逆飞的流星",
+      "flower": "夏祭之花",
+      "plume": "夏祭终末",
+      "sands": "夏祭之刻",
+      "goblet": "夏祭水玉",
+      "circlet": "夏祭之面"
+    },
+    "313": {
+      "name": "冰之川与雪之砂",
+      "flower": "凛冬霜心",
+      "plume": "雪藏之羽",
+      "sands": "凝冰成砂",
+      "goblet": "北风之盏",
+      "circlet": "冰河之冠"
+    },
+    "314": {
+      "name": "征服寒冬的勇士",
+      "flower": "碎冰者的思念",
+      "plume": "碎冰者的自矜",
+      "sands": "碎冰者的终期",
+      "goblet": "碎冰者的傲骨",
+      "circlet": "碎冰者的骄傲"
+    }
+  }
 }

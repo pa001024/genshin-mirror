@@ -1,9 +1,9 @@
 import { mount } from "@vue/test-utils";
-import Charactor from "@/components/Charactor.vue";
+import Character from "@/components/Character.vue";
 
-describe("Charactor", () => {
+describe("Character", () => {
   test("is a Vue instance", () => {
-    const wrapper = mount(Charactor);
+    const wrapper = mount(Character);
     expect(wrapper.vm).toBeTruthy();
   });
 });
