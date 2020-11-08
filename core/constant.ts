@@ -67,6 +67,8 @@ export namespace WEAPON {
   ];
 }
 
+const percent = (a: number[]) => a.map(v => v / 1e3);
+
 /** 圣遗物 */
 export namespace ARTIFACT {
   /** 到等级上限升级所需经验(总量) */
@@ -79,6 +81,55 @@ export namespace ARTIFACT {
   ];
   /** 到等级上限升级所需摩拉(总量) */
   export const GOLD_TO_NEXT_LEVEL = EXP_TO_NEXT_LEVEL;
+
+  /** 强化提供经验 */
+  export const RARYTIY_TO_EXP = [420, 840, 1260, 2520, 3780];
+
+  /** 强化暴击概率 */
+  export const ENHANCE_CRIT_RATE = [
+    [2, 0.05],
+    [5, 0.01],
+  ];
+
+  /** 主词条 */
+  export const MAIN_PROPERTY: { [k: number]: number[] } = {};
+  /** 稀有度-主词条缩放 */
+  export const MAIN_PROPERTY_SCALE = [0, 0.4, 0.6, 0.8, 1];
+
+  /** 部位主词条范围 */
+  export const PART_MAIN_PROPERTY = [
+    [BuffType.ExtHP],
+    [BuffType.ExtATK],
+    [BuffType.HP, BuffType.ATK, BuffType.DEF, BuffType.ElementalMastery, BuffType.EnergyRecharge],
+    [
+      BuffType.HP,
+      BuffType.ATK,
+      BuffType.DEF,
+      BuffType.ElementalMastery,
+      BuffType.PyroDMG,
+      BuffType.HydroDMG,
+      BuffType.ElectroDMG,
+      BuffType.AnemoDMG,
+      BuffType.CryoDMG,
+      BuffType.GeoDMG,
+      BuffType.PhysicalDMG,
+    ],
+    [BuffType.HP, BuffType.ATK, BuffType.DEF, BuffType.ElementalMastery, BuffType.CRITRate, BuffType.CRITDMG, BuffType.Heal],
+  ];
+
+  /** 副词条取值 */
+  export const SUB_PROPERTY: { [k: number]: number[] } = {
+    [BuffType.ExtHP]: [209, 239, 269, 299],
+    [BuffType.ExtATK]: [14, 16, 18, 19],
+    [BuffType.ExtDEF]: [16, 19, 21, 23],
+    [BuffType.ElementalMastery]: [16, 19, 21, 23],
+    [BuffType.EnergyRecharge]: percent([45, 52, 58, 65]),
+    [BuffType.DEF]: percent([51, 58, 66, 73]),
+    [BuffType.HP]: percent([41, 47, 53, 58]),
+    [BuffType.ATK]: percent([41, 47, 53, 58]),
+    [BuffType.CRITRate]: percent([27, 31, 35, 39]),
+    [BuffType.CRITDMG]: percent([54, 62, 70, 78]),
+  };
 
   /** 系列对应稀有度 */
   export const SERIES_TO_RARITY: { [k: number]: number[] } = {
