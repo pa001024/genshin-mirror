@@ -73,5 +73,36 @@ export default {
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {},
+  build: {
+    extend(_config, { isClient, loaders }) {
+      // Extend only webpack config for client-bundle
+      if (isClient) {
+        // config.devtool = "source-map";
+      }
+      loaders.push({
+        use: "protobuf-preloader",
+        options: {
+          /* controls the "target" flag to pbjs - true for
+           * json-module, false for static-module.
+           * default: false
+           */
+          json: false,
+
+          /* import paths provided to pbjs.
+           * default: webpack import paths (i.e. config.resolve.modules)
+           */
+          paths: ["@/proto"],
+
+          /* additional command line arguments passed to
+           * pbjs, see https://github.com/dcodeIO/ProtoBuf.js/#pbjs-for-javascript
+           * for a list of what's available.
+           * default: []
+           */
+          pbjsArgs: [
+            // "--no-encode"
+          ],
+        },
+      });
+    },
+  },
 };

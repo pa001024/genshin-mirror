@@ -1,0 +1,28 @@
+syntax = "proto3";
+// ver 1.0
+// complie with:
+// npx pbjs -t static-module --no-encode -w es6 -o artifact.js artifact.proto
+// npx pbts -o artifact.d.ts artifact.js
+
+message Artifacts {
+  message Artifact {
+    message Attr {
+      int8 type = 1;
+      float32 value = 2;
+    }
+
+    // 部位
+    int8 type = 1;
+    // 等级
+    int8 level = 2;
+    // ArtifactSeries 圣遗物套装
+    int32 series = 3;
+    // 稀有度 1-5
+    int8 rarity = 4;
+    // 主属性
+    BuffType mainAttr = 5;
+    // 副属性
+    repeated Attr subAttrs = 6;
+  }
+  repeated Artifact artifacts = 1;
+}

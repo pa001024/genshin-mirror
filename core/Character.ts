@@ -1,5 +1,5 @@
 import { CHARACTER } from "./constant";
-import { IArtifact, ICharacter } from ".";
+import { IArtifact, ICharacter, Weapon } from ".";
 
 export class Character {
   /** 静态数据 */
@@ -12,6 +12,9 @@ export class Character {
   ascensionLevel = 0;
   /** 命座等级 */
   constellationLevel = 0;
+
+  /** 武器 */
+  weapon?: Weapon;
 
   /** 圣遗物 */
   artifacts: IArtifact[] = [];
@@ -39,22 +42,26 @@ export class Character {
     return current - (current - last) * this.baseLevel;
   }
 
-  /** 生命值 */
-  get HP() {
+  /** 基础生命值 */
+  get baseHP() {
     const current = this.data.baseHP[this.ascensionLevel * 2];
     const next = this.data.baseHP[this.ascensionLevel * 2 + 1];
     return current + (next - current) * this.baseLevel;
   }
 
-  /** 攻击力 */
-  get ATK() {
+  /** 人物基础攻击力 */
+  get charBaseATK() {
     const current = this.data.baseATK[this.ascensionLevel * 2];
     const next = this.data.baseATK[this.ascensionLevel * 2 + 1];
     return current + (next - current) * this.baseLevel;
   }
 
-  /** 防御力 */
-  get DEF() {
+  get baseATK() {
+    return (this.weapon?.baseATK || 0) + this.charBaseATK;
+  }
+
+  /** 基础防御力 */
+  get baseDEF() {
     const current = this.data.baseDEF[this.ascensionLevel * 2];
     const next = this.data.baseDEF[this.ascensionLevel * 2 + 1];
     return current + (next - current) * this.baseLevel;

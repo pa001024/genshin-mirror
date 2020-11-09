@@ -1,0 +1,19 @@
+syntax = "proto3";
+// ver 1.0
+// complie with:
+// npx pbjs -t static-module --no-encode -w es6 -o weapon.js weapon.proto
+// npx pbts -o weapon.d.ts weapon.js
+
+message Weapons {
+  message Weapon {
+    // 武器id
+    int32 id = 1;
+    // 等级
+    int8 level = 2;
+    // 突破
+    int8 star = 3;
+    // 精炼
+    int8 evolve = 4;
+  }
+  repeated weapon weapons = 1;
+}

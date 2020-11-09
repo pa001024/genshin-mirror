@@ -2,6 +2,7 @@ import { ArtifactSeries, ArtifactType, BuffCondition, BuffType, ElementType, Reg
 
 /** 武器 */
 export interface IWeapon {
+  /** 序号 */ id: number;
   /** 名称 */ name: string;
   /** 类型 */ type: WeaponType;
   /** 基础攻击力 */ baseATK: number[];
@@ -13,7 +14,8 @@ export interface IWeapon {
 
 /** 圣遗物 */
 export interface IArtifact {
-  /** 类型 */ type: ArtifactType;
+  /** 部位 */ type: ArtifactType;
+  /** 等级 */ level: number;
   /** 系列 */ series: ArtifactSeries;
   /** 稀有度 */ rarity: number;
   /** 主属性 */ mainAttr: IAttr[];

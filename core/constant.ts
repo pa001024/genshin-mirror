@@ -1,5 +1,5 @@
 import { ArtifactSeries, BuffCondition, BuffTarget, BuffType, ElementType } from "./enum";
-import { IArtifactSetBonus, IBuff } from "./interface";
+import { IArtifactSetBonus, IBuff, IWeapon } from "./interface";
 
 /** 角色 */
 export namespace CHARACTER {
@@ -65,6 +65,16 @@ export namespace WEAPON {
     [8100, 54612, 111485, 193325, 309930, 461617, 754265],
     [12155, 84435, 167250, 290017, 464930, 694967, 1131445],
   ];
+
+  export const WEAPONS: { [id: number]: IWeapon } = {};
+
+  // export const DEFAULT_WEAPON: { [k: number]: IWeapon } = {
+  //   [WeaponType.Sword]: { id: "风鹰剑" },
+  //   [WeaponType.Bow]: {},
+  //   [WeaponType.Polearm]: {},
+  //   [WeaponType.Claymore]: {},
+  //   [WeaponType.Catalyst]: {},
+  // };
 }
 
 const percent = (a: number[]) => a.map(v => v / 1e3);
