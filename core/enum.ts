@@ -29,8 +29,8 @@ export enum Region {
   /** 稻妻 */ Inazuma,
   /** 须弥 */ Sumeru,
   /** 枫丹 */ Fontaine,
-  /** 纳特兰 */ Natlan,
-  /** 至冬国 */ Snezhnaya,
+  /** 纳塔 */ Natlan,
+  /** 至冬 */ Snezhnaya,
 }
 
 /** 加成类型 */
@@ -81,17 +81,17 @@ export enum BuffType {
 
 /** 加成条件 */
 export enum BuffCondition {
-  /** 普攻 */ NormalAttack = 1,
-  /** 重击 */ ChargeAttack = 2,
-  /** 元素战技 */ ElementalSkill = 4,
-  /** 元素爆发 */ ElementalBurst = 8,
-  /** 元素附着 */ ElementAffect = 16,
-  /** 空中 */ Air = 32,
-  /** 倒地 */ KnockDown = 64,
-  /** 元素反应 */ ElementalReaction = 128,
-  /** 击杀 */ Defeating = 256,
-  /** 护盾 */ Shield = 512,
-  /** 表达式 */ Expression = 1024,
+  /** 普攻 */ NormalAttack = 1 >> 1,
+  /** 重击 */ ChargeAttack = 1 >> 2,
+  /** 元素战技 */ ElementalSkill = 1 >> 3,
+  /** 元素爆发 */ ElementalBurst = 1 >> 4,
+  /** 元素附着 */ ElementAffect = 1 >> 5,
+  /** 空中 */ Air = 1 >> 6,
+  /** 倒地 */ KnockDown = 1 >> 7,
+  /** 元素反应 */ ElementalReaction = 1 >> 8,
+  /** 击杀 */ Defeating = 1 >> 9,
+  /** 护盾 */ Shield = 1 >> 10,
+  /** 表达式 */ Expression = 1 >> 11,
 }
 
 /** 加成对象 */
