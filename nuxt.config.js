@@ -40,8 +40,41 @@ export default {
     "@nuxtjs/pwa",
     // https://go.nuxtjs.dev/content
     "@nuxt/content",
+    // https://i18n.nuxtjs.org/
+    "nuxt-i18n",
   ],
-
+  // i18n config
+  i18n: {
+    defaultLocale: "en-US",
+    vueI18n: {
+      fallbackLocale: {
+        "zh-Hans": ["zh", "zh-CN", "zh-SG"],
+        // "zh-Hant": ["zh-TW", "zh-HK", "zh-MO"],
+        default: ["en"],
+      },
+    },
+    strategy: "no_prefix",
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: "i18n_redirected",
+      onlyOnRoot: true, // recommended
+    },
+    lazy: true,
+    langDir: "locales/",
+    locales: [
+      // ** ADD YOUR LOCALE FILE HERE **
+      {
+        code: "en-US",
+        file: "en-US.json",
+        name: "English",
+      },
+      {
+        code: "zh-Hans",
+        file: "zh-Hans.json",
+        name: "简体中文",
+      },
+    ],
+  },
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
 
@@ -77,32 +110,35 @@ export default {
     extend(_config, { isClient, loaders }) {
       // Extend only webpack config for client-bundle
       if (isClient) {
+        _config.node = {
+          fs: "empty",
+        };
         // config.devtool = "source-map";
+        loaders.protobuf = {
+          use: "protobuf-preloader",
+          options: {
+            /* controls the "target" flag to pbjs - true for
+             * json-module, false for static-module.
+             * default: false
+             */
+            json: false,
+
+            /* import paths provided to pbjs.
+             * default: webpack import paths (i.e. config.resolve.modules)
+             */
+            paths: ["@/proto"],
+
+            /* additional command line arguments passed to
+             * pbjs, see https://github.com/dcodeIO/ProtoBuf.js/#pbjs-for-javascript
+             * for a list of what's available.
+             * default: []
+             */
+            pbjsArgs: [
+              // "--no-encode"
+            ],
+          },
+        };
       }
-      loaders.push({
-        use: "protobuf-preloader",
-        options: {
-          /* controls the "target" flag to pbjs - true for
-           * json-module, false for static-module.
-           * default: false
-           */
-          json: false,
-
-          /* import paths provided to pbjs.
-           * default: webpack import paths (i.e. config.resolve.modules)
-           */
-          paths: ["@/proto"],
-
-          /* additional command line arguments passed to
-           * pbjs, see https://github.com/dcodeIO/ProtoBuf.js/#pbjs-for-javascript
-           * for a list of what's available.
-           * default: []
-           */
-          pbjsArgs: [
-            // "--no-encode"
-          ],
-        },
-      });
     },
   },
 };

@@ -14,6 +14,25 @@ export enum ElementType {
   /** 火 */ Pyro,
   /** 冰 */ Cryo,
   /** 最后 */ Last,
+  /** 附着 */ Ing,
+}
+
+/**
+ * 反应类型
+ * Element's reaction type
+ *
+ * @enum {number}
+ */
+export enum ReactionType {
+  /** 扩散 */ Swirl,
+  /** 结晶 */ Crystallize,
+  /** 感电 */ ElectroCharged,
+  /** 超载 */ Overloaded,
+  /** 超导 */ Superconduct,
+  /** 燃烧 */ Burning,
+  /** 冻结 */ Frozen,
+  /** 蒸发 */ Vaporize,
+  /** 融化 */ Melt,
 }
 
 /**
@@ -77,6 +96,8 @@ export enum BuffType {
   /** 体力消耗 */ StaminaConsumption,
   /** 抗打断能力 */ InterruptionRES,
   /** 元素附着时间 */ ElementalAffectDuration,
+  /** 技能冷却时间 */ SkillCDReduce,
+  /** 产生元素晶球 */ GenerateElementalParticle,
 }
 
 /** 加成条件 */
@@ -85,22 +106,24 @@ export enum BuffCondition {
   /** 重击 */ ChargeAttack = 1 >> 2,
   /** 元素战技 */ ElementalSkill = 1 >> 3,
   /** 元素爆发 */ ElementalBurst = 1 >> 4,
-  /** 元素附着 */ ElementAffect = 1 >> 5,
+  /** 元素附着 */ ElementalAffect = 1 >> 5,
   /** 空中 */ Air = 1 >> 6,
   /** 倒地 */ KnockDown = 1 >> 7,
   /** 元素反应 */ ElementalReaction = 1 >> 8,
   /** 击杀 */ Defeating = 1 >> 9,
   /** 护盾 */ Shield = 1 >> 10,
   /** 表达式 */ Expression = 1 >> 11,
+  /** 冻结 */ Frozen = 1 >> 12,
+  /** 受到伤害 */ Damaged = 1 >> 13,
 }
 
 /** 加成对象 */
 export enum BuffTarget {
-  /** 普攻 */ NormalAttack = 1,
-  /** 重击 */ ChargeAttack = 2,
-  /** 空中 */ PlungeAttack = 4,
-  /** 元素战技 */ ElementalSkill = 8,
-  /** 元素爆发 */ ElementalBurst = 16,
+  /** 普攻 */ NormalAttack = 1 >> 1,
+  /** 重击 */ ChargeAttack = 1 >> 2,
+  /** 空中 */ PlungeAttack = 1 >> 3,
+  /** 元素战技 */ ElementalSkill = 1 >> 4,
+  /** 元素爆发 */ ElementalBurst = 1 >> 5,
 }
 
 /** 武器类型 */
@@ -148,8 +171,8 @@ export enum ArtifactSeries {
   /** 渡过烈火的贤人 */ Lavawalker,
   /** 悠古的磐岩 */ ArchaicPetra,
   /** 逆飞的流星 */ RetracingBolide,
-  /** 冰之川与雪之砂 */ GlacierAndSnowfield,
-  /** 征服寒冬的勇士 */ Icebreaker,
+  /** 冰风迷途的勇士 */ Icebreaker,
+  /** 沉沦之心 */ OceanConqueror,
 }
 
 /** 圣遗物部位 */
@@ -170,4 +193,5 @@ export enum EnemyType {
   /** 盗宝团 */ TreasureHoarders,
   /** 愚人众 */ Fatui,
   /** BOSS */ Boss,
+  /** 公子 */ Childe,
 }

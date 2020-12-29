@@ -1,4 +1,4 @@
-import { ArtifactSeries, ArtifactType, BuffCondition, BuffType, ElementType, Region, WeaponType, BuffTarget } from "./enum";
+import { ArtifactSeries, ArtifactType, BuffCondition, BuffType, ElementType, Region, WeaponType, BuffTarget, ReactionType } from "./enum";
 
 /** 武器 */
 export interface IWeapon {
@@ -18,8 +18,7 @@ export interface IArtifact {
   /** 等级 */ level: number;
   /** 系列 */ series: ArtifactSeries;
   /** 稀有度 */ rarity: number;
-  /** 主属性 */ mainAttr: IAttr[];
-  /** 副属性 */ subAttrs: IAttr[];
+  /** 主副属性 */ attrs: IAttr[];
 }
 
 /** 角色 */
@@ -156,9 +155,13 @@ export interface IAttr {
 /** 加成 */
 export interface IBuff extends IAttr {
   cond?: BuffCondition;
+  trigger?: BuffCondition;
   target?: BuffTarget;
   duration?: number;
-  element?: ElementType;
+  chance?: number;
+  cd?: number;
+  element?: ElementType; // for type == ElementalReactionDMG/ElementalAffectDuration
+  reaction?: ReactionType[]; // for cond == ElementalReaction
   maxStack?: number;
   expr?: string;
 }

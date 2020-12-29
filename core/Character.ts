@@ -1,4 +1,5 @@
 import { CHARACTER } from "./constant";
+import { BuffType } from "./enum";
 import { IArtifact, ICharacter, Weapon } from ".";
 
 export class Character {
@@ -30,15 +31,15 @@ export class Character {
 
   /** 升级所需经验 */
   get levelCostExp() {
-    const last = CHARACTER.EXP_TO_NEXT_LEVEL[this.ascensionLevel - 1] || 0;
-    const current = CHARACTER.EXP_TO_NEXT_LEVEL[this.ascensionLevel];
+    const last = CHARACTER.EXP_COST[this.ascensionLevel - 1] || 0;
+    const current = CHARACTER.EXP_COST[this.ascensionLevel];
     return current - (current - last) * this.baseLevel;
   }
 
   /** 升级所需摩拉 */
   get levelCostGold() {
-    const last = CHARACTER.GOLD_TO_NEXT_LEVEL[this.ascensionLevel - 1] || 0;
-    const current = CHARACTER.GOLD_TO_NEXT_LEVEL[this.ascensionLevel];
+    const last = CHARACTER.GOLD_COST[this.ascensionLevel - 1] || 0;
+    const current = CHARACTER.GOLD_COST[this.ascensionLevel];
     return current - (current - last) * this.baseLevel;
   }
 
@@ -56,6 +57,7 @@ export class Character {
     return current + (next - current) * this.baseLevel;
   }
 
+  /** 总基础攻击力 */
   get baseATK() {
     return (this.weapon?.baseATK || 0) + this.charBaseATK;
   }
@@ -66,4 +68,38 @@ export class Character {
     const next = this.data.baseDEF[this.ascensionLevel * 2 + 1];
     return current + (next - current) * this.baseLevel;
   }
+
+  /** 暴击率 */
+  get critRate() {
+    return (
+      5 +
+      this.artifacts.reduce(
+        (r, v) =>
+          r +
+          v.attrs
+            .filter(a => a.type === BuffType.CRITRate)
+            .map(a => a.value)
+            .reduce((a, b) => a + b),
+        0
+      )
+    );
+  }
+
+  /** 暴击伤害 */
+  get critDMG() {
+    return (
+      50 +
+      this.artifacts.reduce(
+        (r, v) =>
+          r +
+          v.attrs
+            .filter(a => a.type === BuffType.CRITDMG)
+            .map(a => a.value)
+            .reduce((a, b) => a + b),
+        0
+      )
+    );
+  }
+
+  recalc() {}
 }

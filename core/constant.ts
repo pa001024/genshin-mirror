@@ -1,4 +1,4 @@
-import { ArtifactSeries, BuffCondition, BuffTarget, BuffType, ElementType } from "./enum";
+import { ArtifactSeries, BuffCondition, BuffTarget, BuffType, ElementType, ReactionType } from "./enum";
 import { IArtifactSetBonus, IBuff, IWeapon } from "./interface";
 
 /** 角色 */
@@ -8,9 +8,9 @@ export namespace CHARACTER {
   /** 需要冒险等级 */
   export const REQUIRED_ADVENTURE_RANK = [0, 15, 25, 30, 35, 40, 50];
   /** 到等级上限升级所需经验(总量) */
-  export const EXP_TO_NEXT_LEVEL = [120175, 696500, 1277600, 2131725, 3327650, 4939525, 8362650];
+  export const EXP_COST = [120175, 696500, 1277600, 2131725, 3327650, 4939525, 8362650];
   /** 到等级上限升级所需摩拉(总量) */
-  export const GOLD_TO_NEXT_LEVEL = [24035, 159700, 315520, 546345, 866345, 1287905, 2092530];
+  export const GOLD_COST = [24035, 159700, 315520, 546345, 866345, 1287905, 2092530];
 
   /** 元素共鸣 */
   export const ELEMENTAL_RESONANCE: { [name: string]: IBuff[] } = {
@@ -26,7 +26,15 @@ export namespace CHARACTER {
     ],
     HighVoltage: [
       { type: BuffType.ElementalAffectDuration, value: -0.4, element: ElementType.Hydro },
-      // TODO: Superconduct, Overloaded, and Electro-Charged have a 100% chance to generate an Electro Elemental Particle (CD: 5s).
+      // Superconduct, Overloaded, and Electro-Charged have a 100% chance to generate an Electro Elemental Particle (CD: 5s).
+      {
+        type: BuffType.GenerateElementalParticle,
+        value: 1,
+        element: ElementType.Electro,
+        cd: 5,
+        cond: BuffCondition.ElementalReaction,
+        reaction: [ReactionType.Superconduct, ReactionType.Overloaded, ReactionType.ElectroCharged],
+      },
     ],
     SoothingWater: [
       { type: BuffType.ElementalAffectDuration, value: -0.4, element: ElementType.Pyro },
@@ -38,8 +46,14 @@ export namespace CHARACTER {
     ],
     ShatteringIce: [
       { type: BuffType.ElementalAffectDuration, value: -0.4, element: ElementType.Electro },
-      { type: BuffType.CRITRate, value: 0.15, cond: BuffCondition.ElementAffect, element: ElementType.Cryo },
+      { type: BuffType.CRITRate, value: 0.15, cond: BuffCondition.ElementalAffect, element: ElementType.Cryo },
     ],
+  };
+
+  export const elementalResonanceCheck = (eles: string[]) => {
+    if (!eles) return [];
+    const resonances: { name: string; buff: IBuff[] }[] = [];
+    if ([...new Set(eles)].length >= 4) resonances.push({ name: "ProtectiveCanopy", buff: ELEMENTAL_RESONANCE.ProtectiveCanopy });
   };
 }
 
@@ -50,7 +64,7 @@ export namespace WEAPON {
   /** 需要冒险等级 */
   export const REQUIRED_ADVENTURE_RANK = [0, 15, 25, 30, 35, 40, 50];
   /** 到等级上限升级所需经验(总量) */
-  export const EXP_TO_NEXT_LEVEL = [
+  export const EXP_COST = [
     [24325, 148875, 274500, 460025, 719875],
     [36400, 223225, 411650, 689950, 1079675],
     [53475, 327475, 603825, 1011975, 1583600, 2353725, 3988200],
@@ -58,7 +72,7 @@ export namespace WEAPON {
     [121550, 744350, 1372500, 2300175, 3599300, 5349675, 9064450],
   ];
   /** 到等级上限升级所需摩拉(总量) */
-  export const GOLD_TO_NEXT_LEVEL = [
+  export const GOLD_COST = [
     [2432, 14887, 32450, 56002, 91987],
     [3640, 27322, 51165, 88995, 1079675],
     [5347, 37747, 75382, 131197, 208360, 310372, 503820],
@@ -82,7 +96,7 @@ const percent = (a: number[]) => a.map(v => v / 1e3);
 /** 圣遗物 */
 export namespace ARTIFACT {
   /** 到等级上限升级所需经验(总量) */
-  export const EXP_TO_NEXT_LEVEL = [
+  export const EXP_COST = [
     [600, 1350, 2225, 3250],
     [1200, 2700, 4475, 6525],
     [1800, 4025, 6675, 9775, 13325, 17325, 21825, 26825, 32550, 38425, 45050, 52275],
@@ -90,7 +104,7 @@ export namespace ARTIFACT {
     [3000, 6725, 11150, 16300, 22200, 28875, 36375, 44725, 53950, 64075, 75125, 87150, 100175, 115325, 132925, 153300, 176800, 203850, 234900, 270475],
   ];
   /** 到等级上限升级所需摩拉(总量) */
-  export const GOLD_TO_NEXT_LEVEL = EXP_TO_NEXT_LEVEL;
+  export const GOLD_COST = EXP_COST;
 
   /** 强化提供经验 */
   export const RARYTIY_TO_EXP = [420, 840, 1260, 2520, 3780];
@@ -172,8 +186,8 @@ export namespace ARTIFACT {
     [ArtifactSeries.Lavawalker]: [4, 5],
     [ArtifactSeries.ArchaicPetra]: [4, 5],
     [ArtifactSeries.RetracingBolide]: [4, 5],
-    [ArtifactSeries.GlacierAndSnowfield]: [4, 5],
     [ArtifactSeries.Icebreaker]: [4, 5],
+    [ArtifactSeries.OceanConqueror]: [4, 5],
   };
 
   /** 圣遗物套装效果 */
@@ -303,7 +317,7 @@ export namespace ARTIFACT {
       {
         pieces: 4,
         // Incoming elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s.
-        buffs: [],
+        buffs: [{ type: BuffType.AllRES, value: 0.3, cond: BuffCondition.Damaged, element: ElementType.Last }],
       },
     ],
     [ArtifactSeries.BraveHeart]: [
@@ -327,7 +341,7 @@ export namespace ARTIFACT {
       {
         pieces: 4,
         // Defeating an enemy has 100% chance to remove Elemental Skill CD. Can only occur once every 15s.
-        buffs: [],
+        buffs: [{ type: BuffType.SkillCDReduce, value: 999, cd: 15 }],
       },
     ],
     [ArtifactSeries.Scholar]: [
@@ -346,28 +360,28 @@ export namespace ARTIFACT {
       {
         pieces: 1,
         // Affected by Electro for 40% less time.
-        buffs: [],
+        buffs: [{ type: BuffType.ElementalAffectDuration, value: -0.4, element: ElementType.Electro }],
       },
     ],
     [ArtifactSeries.PrayersToSpringtime]: [
       {
         pieces: 1,
         // Affected by Cryo for 40% less time.
-        buffs: [],
+        buffs: [{ type: BuffType.ElementalAffectDuration, value: -0.4, element: ElementType.Cryo }],
       },
     ],
     [ArtifactSeries.PrayersForIllumination]: [
       {
         pieces: 1,
         // Affected by Pyro for 40% less time.
-        buffs: [],
+        buffs: [{ type: BuffType.ElementalAffectDuration, value: -0.4, element: ElementType.Pyro }],
       },
     ],
     [ArtifactSeries.PrayersForDestiny]: [
       {
         pieces: 1,
         // Affected by Hydro for 40% less time.
-        buffs: [],
+        buffs: [{ type: BuffType.ElementalAffectDuration, value: -0.4, element: ElementType.Hydro }],
       },
     ],
     [ArtifactSeries.GladiatorSFinale]: [
@@ -453,7 +467,13 @@ export namespace ARTIFACT {
         // Increases damage caused by Overloaded, Electro-Charged, and Superconduct DMG by 40%. Triggering such effects decreases Elemental Skill CD by 1s. Can only occur once every 0.8s.
         buffs: [
           { type: BuffType.ElementalReactionDMG, value: 0.4, element: ElementType.Electro },
-          { type: BuffType.SkillCD, value: 1, element: ElementType.Electro },
+          {
+            type: BuffType.SkillCDReduce,
+            value: 1,
+            cd: 0.8,
+            cond: BuffCondition.ElementalReaction,
+            reaction: [ReactionType.Superconduct, ReactionType.Overloaded, ReactionType.ElectroCharged],
+          },
         ],
       },
     ],
@@ -466,7 +486,7 @@ export namespace ARTIFACT {
       {
         pieces: 4,
         // Increases DMG against enemies affected by Electro by 35%.
-        buffs: [{ type: BuffType.AllDMG, value: 0.35, cond: BuffCondition.ElementAffect, element: ElementType.Electro }],
+        buffs: [{ type: BuffType.AllDMG, value: 0.35, cond: BuffCondition.ElementalAffect, element: ElementType.Electro }],
       },
     ],
     [ArtifactSeries.CrimsonWitchOfFlames]: [
@@ -480,7 +500,7 @@ export namespace ARTIFACT {
         // Increases Overloaded and Burning DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using an Elemental Skill increases 2-Piece Set effects by 50% for 10s. Max 3 stacks.
         buffs: [
           { type: BuffType.ElementalReactionDMG, value: 0.4, element: ElementType.Pyro },
-          { type: BuffType.PyroDMG, value: 0.075, maxStack: 3 },
+          { type: BuffType.PyroDMG, value: 0.075, maxStack: 3, trigger: BuffCondition.ElementalSkill, duration: 10 },
         ],
       },
     ],
@@ -493,7 +513,7 @@ export namespace ARTIFACT {
       {
         pieces: 4,
         // Increases DMG against enemies that are Burning or affected by Pyro by 35%.
-        buffs: [{ type: BuffType.AllDMG, value: 0.35, cond: BuffCondition.ElementAffect, element: ElementType.Pyro }],
+        buffs: [{ type: BuffType.AllDMG, value: 0.35, cond: BuffCondition.ElementalAffect, element: ElementType.Pyro }],
       },
     ],
     [ArtifactSeries.ArchaicPetra]: [
@@ -520,7 +540,7 @@ export namespace ARTIFACT {
         buffs: [{ type: BuffType.AllDMG, value: 0.4, target: BuffTarget.NormalAttack | BuffTarget.ChargeAttack, cond: BuffCondition.Shield }],
       },
     ],
-    [ArtifactSeries.GlacierAndSnowfield]: [
+    [ArtifactSeries.Icebreaker]: [
       {
         pieces: 2,
         // Cryo DMG Bonus +15%
@@ -528,25 +548,97 @@ export namespace ARTIFACT {
       },
       {
         pieces: 4,
-        // Increases Superconduct DMG by 50%. Increases Melt DMG by 15%. Using an Elemental Burst increases Cryo DMG by 25% for 10s.
-        buffs: [],
+        // When a character attacks an enemy affected by Cryo, their CRIT Rate is increased by 20%. If the enemy is Frozen, CRIT Rate is increased by an additional 20%.
+        buffs: [
+          { type: BuffType.CRITRate, value: 0.2, cond: BuffCondition.ElementalAffect, element: ElementType.Cryo },
+          { type: BuffType.CRITRate, value: 0.2, cond: BuffCondition.Frozen, element: ElementType.Cryo },
+        ],
       },
     ],
-    [ArtifactSeries.Icebreaker]: [
+    [ArtifactSeries.OceanConqueror]: [
       {
         pieces: 2,
-        // Cryo RES increased by 40%
-        buffs: [{ type: BuffType.CryoRES, value: 0.4 }],
+        // Hydro DMG Bonus +15%
+        buffs: [{ type: BuffType.HydroDMG, value: 0.15 }],
       },
       {
         pieces: 4,
-        // Increases DMG against enemies in a Frozen state or affected by cryo by 35%.
-        buffs: [{ type: BuffType.AllDMG, value: 0.35, cond: BuffCondition.ElementAffect, element: ElementType.Cryo }],
+        // After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s.
+        buffs: [{ type: BuffType.AllDMG, value: 0.3, cond: BuffCondition.NormalAttack, trigger: BuffCondition.ElementalSkill, duration: 15 }],
       },
     ],
   };
 }
 
 export namespace ENEMY {
-  // 怪物抗性
+  // 怪物抗性 [风,岩,雷,草,水,火,冰,物]
+  export const RES_TABLE: { [name: string]: number[] } = {
+    AnemoSlime: [NaN, 10, 10, 10, 10, 10, 10, 10],
+    GeoSlime: [10, NaN, 10, 10, 10, 10, 10, 10],
+    ElectroSlime: [10, 10, NaN, 10, 10, 10, 10, 10],
+    DendroSlime: [10, 10, 10, NaN, 10, 10, 10, 10],
+    HydroSlime: [10, 10, 10, 10, NaN, 10, 10, 10],
+    PyroSlime: [10, 10, 10, 10, 10, NaN, 10, 10],
+    CryoSlime: [10, 10, 10, 10, 10, 10, NaN, 10],
+    LargeAnemoSlime: [NaN, 10, 10, 10, 10, 10, 10, 10],
+    LargeGeoSlime: [10, NaN, 10, 10, 10, 10, 10, 10],
+    LargeElectroSlime: [10, 10, NaN, 10, 10, 10, 10, 10],
+    LargeDendroSlime: [10, 10, 10, NaN, 10, 10, 10, 10],
+    LargeHydroSlime: [10, 10, 10, 10, NaN, 10, 10, 10],
+    LargePyroSlime: [10, 10, 10, 10, 10, NaN, 10, 10],
+    LargeCryoSlime: [10, 10, 10, 10, 10, 10, NaN, 10],
+    MutantElectroSlime: [10, 10, NaN, 10, 10, 10, 10, 10],
+    HilichurlFighters: [10, 10, 10, 10, 10, 10, 10, 10],
+    HilichurlBerserker: [10, 10, 10, 10, 10, 10, 10, 10],
+    HilichurlGrenadier: [10, 10, 10, 10, 10, 10, 10, 10],
+    WoodenShieldHilichurlGuard: [10, 10, 10, 10, 10, 10, 10, 10],
+    RockShieldHilichurlGuard: [10, 10, 10, 10, 10, 10, 10, 10],
+    HilichurlShooter: [10, 10, 10, 10, 10, 10, 10, 10],
+    PyroHilichurlShooter: [10, 10, 10, 10, 10, 10, 10, 10],
+    ElectroHilichurlShooter: [10, 10, 10, 10, 10, 10, 10, 10],
+    CryoHilichurlShooter: [10, 10, 10, 10, 10, 10, 10, 10],
+    HydroSamachurl: [10, 10, 10, 10, 50, 10, 10, 10],
+    AnemoSamachurl: [50, 10, 10, 10, 10, 10, 10, 10],
+    DendroSamachurl: [10, 10, 10, 50, 10, 10, 10, 10],
+    GeoSamachurl: [10, 50, 10, 10, 10, 10, 10, 10],
+    WoodenShieldMitachurl: [10, 10, 10, 10, 10, 10, 10, 30],
+    RockShieldwallMitachurl: [10, 10, 10, 10, 10, 10, 10, 30],
+    BlazingAxeMitachurl: [10, 10, 10, 10, 10, 10, 10, 30],
+    StonehideLawachurl: [10, 70, 10, 10, 10, 10, 10, 50],
+    PyroWhopperflower: [35, 35, 35, 35, 35, 75, 35, 35],
+    CryoWhopperflower: [35, 35, 35, 35, 35, 35, 75, 35],
+    GeovishapHatchling: [10, 50, 10, 10, 10, 10, 10, 30],
+    FatuiPyroAgent: [10, 10, 10, 10, 10, 50, 10, -20],
+    FatuiElectroCicinMage: [10, 10, 50, 10, 10, 10, 10, -20],
+    Cicin: [10, 10, 50, 10, 10, 10, 10, -50],
+    FatuiSkirmisherAnemoboxerVanguard: [10, 10, 10, 10, 10, 10, 10, -20],
+    FatuiSkirmisherElectroHammerVanguard: [10, 10, 10, 10, 10, 10, 10, -20],
+    FatuiSkirmisherGeoChanterBracer: [10, 10, 10, 10, 10, 10, 10, -20],
+    FatuiSkirmisherPyroSlingerBracer: [10, 10, 10, 10, 10, 10, 10, -20],
+    FatuiSkirmisherCryoGunnerLegionnaire: [10, 10, 10, 10, 10, 10, 10, -20],
+    FatuiSkirmisherHydroGunnerLegionnaire: [10, 10, 10, 10, 10, 10, 10, -20],
+    PyroAbyssMage: [10, 10, 10, 10, 10, 10, 10, 10],
+    CryoAbyssMage: [10, 10, 10, 10, 10, 10, 10, 10],
+    HydroAbyssMage: [10, 10, 10, 10, 10, 10, 10, 10],
+    TreasureHoardersScout: [10, 10, 10, 10, 10, 10, 10, -20],
+    TreasureHoardersMarksman: [10, 10, 10, 10, 10, 10, 10, -20],
+    TreasureHoardersPugilist: [10, 10, 10, 10, 10, 10, 10, -20],
+    TreasureHoardersPotioneer: [10, 10, 10, 10, 10, 10, 10, -20],
+    TreasureHoardersHandyman: [10, 10, 10, 10, 10, 10, 10, -20],
+    TreasureHoardersCrusher: [10, 10, 10, 10, 10, 10, 10, -20],
+    TreasureHoardersSeaman: [10, 10, 10, 10, 10, 10, 10, -20],
+    TreasureHoardersGravedigger: [10, 10, 10, 10, 10, 10, 10, -20],
+    RuinGuard: [10, 10, 10, 10, 10, 10, 10, 70],
+    RuinHunter: [10, 10, 10, 10, 10, 10, 10, 50],
+    AnemoHypostasis: [NaN, 10, 10, 10, 10, 10, 10, 10],
+    GeoHypostasis: [10, NaN, 10, 10, 10, 10, 10, 10],
+    ElectroHypostasis: [10, 10, NaN, 10, 10, 10, 10, 10],
+    DendroHypostasis: [10, 10, 10, NaN, 10, 10, 10, 10], // placeholder
+    Oceanid: [10, 10, 10, 10, NaN, 10, 10, -20],
+    PyroRegisvine: [10, 10, 10, 10, 10, NaN, 10, 10],
+    CryoRegisvine: [10, 10, 10, 10, 10, 10, NaN, 10],
+    Andrius: [NaN, 10, 10, 10, 10, 10, NaN, 10],
+    Dvalin: [10, 10, 10, 10, 10, 10, 10, 10],
+    Childe: [0, 0, 0, 0, 0, 0, 0, 0],
+  };
 }

@@ -1,0 +1,382 @@
+{
+  "title": {
+    "main": "Genshin Mirror (genshin.im)",
+    "sub": "{0} - Genshin Mirror (genshin.im)",
+    "map": "Map of Teyvat",
+    "char": "Character",
+    "weapon": "Weapon"
+  },
+  "element": {
+    "Anemo": "Anemo",
+    "Geo": "Geo",
+    "Electro": "Electro",
+    "Dendro": "Dendro",
+    "Hydro": "Hydro",
+    "Pyro": "Pyro",
+    "Cryo": "Cryo"
+  },
+  "resonance": {
+    "ProtectiveCanopy": "Protective Canopy",
+    "ImpetuousWinds": "Impetuous Winds",
+    "EnduringRock": "Enduring Rock",
+    "HighVoltage": "High Voltage",
+    "SoothingWater": "Soothing Water",
+    "FerventFlames": "Fervent Flames",
+    "ShatteringIce": "Shattering Ice"
+  },
+  "reaction": {
+    "burning": "Burning",
+    "crystallize": "Crystallize",
+    "electroCharged": "Electro-Charged",
+    "frozen": "Frozen",
+    "melt": "Melt",
+    "overloaded": "Overloaded",
+    "superconduct": "Superconduct",
+    "swirl": "Swirl",
+    "vaporize": "Vaporize"
+  },
+  "region": {
+    "Mondstadt": "Mondstadt",
+    "Liyue": "Liyue",
+    "Inazuma": "Inazuma",
+    "Sumeru": "Sumeru",
+    "Fontaine": "Fontaine",
+    "Natlan": "Natlan",
+    "Snezhnaya": "Snezhnaya"
+  },
+  "enemy": {
+    "anemoSlime": "Anemo Slime",
+    "geoSlime": "Geo Slime",
+    "electroSlime": "Electro Slime",
+    "dendroSlime": "Dendro Slime",
+    "hydroSlime": "Hydro Slime",
+    "pyroSlime": "Pyro Slime",
+    "cryoSlime": "Cryo Slime",
+    "largeAnemoSlime": "Large Anemo Slime",
+    "largeGeoSlime": "Large Geo Slime",
+    "largeElectroSlime": "Large Electro Slime",
+    "largeDendroSlime": "Large Dendro Slime",
+    "largeHydroSlime": "Large Hydro Slime",
+    "largePyroSlime": "Large Pyro Slime",
+    "largeCryoSlime": "Large Cryo Slime",
+    "mutantElectroSlime": "Mutant Electro Slime",
+    "hilichurlFighters": "Hilichurl Fighters",
+    "hilichurlBerserker": "Hilichurl Berserker",
+    "hilichurlGrenadier": "Hilichurl Grenadier",
+    "woodenShieldHilichurlGuard": "Wooden Shield Hilichurl Guard",
+    "rockShieldHilichurlGuard": "Rock Shield Hilichurl Guard",
+    "hilichurlShooter": "Hilichurl Shooter",
+    "pyroHilichurlShooter": "Pyro Hilichurl Shooter",
+    "electroHilichurlShooter": "Electro Hilichurl Shooter",
+    "cryoHilichurlShooter": "Cryo Hilichurl Shooter",
+    "hydroSamachurl": "Hydro Samachurl",
+    "anemoSamachurl": "Anemo Samachurl",
+    "dendroSamachurl": "Dendro Samachurl",
+    "geoSamachurl": "Geo Samachurl",
+    "woodenShieldMitachurl": "Wooden Shield Mitachurl",
+    "rockShieldwallMitachurl": "Rock Shieldwall Mitachurl",
+    "blazingAxeMitachurl": "Blazing Axe Mitachurl",
+    "stonehideLawachurl": "Stonehide Lawachurl",
+    "pyroWhopperflower": "Pyro Whopperflower",
+    "cryoWhopperflower": "Cryo Whopperflower",
+    "geovishapHatchling": "Geovishap Hatchling",
+    "fatuiPyroAgent": "Fatui Pyro Agent",
+    "fatuiElectroCicinMage": "Fatui Electro Cicin Mage",
+    "cicin": "Cicin",
+    "fatuiSkirmisherAnemoboxerVanguard": "Fatui Skirmisher - Anemoboxer Vanguard",
+    "fatuiSkirmisherElectroHammerVanguard": "Fatui Skirmisher - Electro-hammer Vanguard",
+    "fatuiSkirmisherGeoChanterBracer": "Fatui Skirmisher - Geo-chanter Bracer",
+    "fatuiSkirmisherPyroSlingerBracer": "Fatui Skirmisher - Pyro-slinger Bracer",
+    "fatuiSkirmisherCryoGunnerLegionnaire": "Fatui Skirmisher - Cryo-gunner Legionnaire",
+    "fatuiSkirmisherHydroGunnerLegionnaire": "Fatui Skirmisher - Hydro-gunner Legionnaire",
+    "pyroAbyssMage": "Pyro Abyss Mage",
+    "cryoAbyssMage": "Cryo Abyss Mage",
+    "Hydro Abyss Mage": "Hydro Abyss Mage",
+    "treasureHoardersScout": "Treasure Hoarders - Scout",
+    "treasureHoardersMarksman": "Treasure Hoarders - Marksman",
+    "treasureHoardersPugilist": "Treasure Hoarders - Pugilist",
+    "treasureHoardersPotioneer": "Treasure Hoarders - Potioneer",
+    "treasureHoardersHandyman": "Treasure Hoarders - Handyman",
+    "treasureHoardersCrusher": "Treasure Hoarders - Crusher",
+    "treasureHoardersSeaman": "Treasure Hoarders - Seaman",
+    "treasureHoardersGravedigger": "Treasure Hoarders - Gravedigger",
+    "ruinGuard": "Ruin Guard",
+    "ruinHunter": "Ruin Hunter"
+  },
+  "buff": {
+    "HP": "HP",
+    "ATK": "ATK",
+    "DEF": "DEF",
+    "ExtHP": "Ext HP",
+    "ExtATK": "Ext ATK",
+    "ExtDEF": "Ext DEF",
+    "ElementalMastery": "Elemental Mastery",
+    "MaxStamina": "Max Stamina",
+    "CRITRate": "CRIT Rate",
+    "CRITDMG": "CRIT DMG",
+    "Heal": "Heal",
+    "Healen": "Healen",
+    "EnergyRecharge": "Energy Recharge",
+    "SkillCD": "Skill CD",
+    "SkillSPD": "Skill SPD",
+    "ShieldEffectiveness": "Shield Effectiveness",
+    "PyroDMG": "Pyro DMG",
+    "PyroRES": "Pyro RES",
+    "HydroDMG": "Hydro DMG",
+    "HydroRES": "Hydro RES",
+    "DendroDMG": "Dendro DMG",
+    "DendroRES": "Dendro RES",
+    "ElectroDMG": "Electro DMG",
+    "ElectroRES": "Electro RES",
+    "AnemoDMG": "Anemo DMG",
+    "AnemoRES": "Anemo RES",
+    "CryoDMG": "Cryo DMG",
+    "CryoRES": "Cryo RES",
+    "GeoDMG": "Geo  DMG",
+    "GeoRES": "Geo RES",
+    "PhysicalDMG": "Physical DMG",
+    "PhysicalRES": "Physical RES",
+    "ElementalDMG": "Elemental DMG",
+    "AllRES": "All RES",
+    "AllDMG": "All DMG",
+    "MovementSPD": "Movement SPD",
+    "AttackSPD": "Attack SPD",
+    "ElementalReactionDMG": "Elemental Reaction DMG",
+    "StaminaConsumption": "Stamina Consumption",
+    "ElementalAffectDuration": "Elemental Affect Duration"
+  },
+  "artifact": {
+    "1": {
+      "name": "Adventurer",
+      "flower": "Adventurer's Flower",
+      "plume": "Adventurer's Tail Feather",
+      "sands": "Adventurer's Pocket Watch",
+      "goblet": "Adventurer's Golden Goblet",
+      "circlet": "Adventurer's Bandana"
+    },
+    "2": {
+      "name": "Lucky Dog",
+      "flower": "Lucky Dog's Clover",
+      "plume": "Lucky Dog's Eagle Feather",
+      "sands": "Lucky Dog's Hourglass",
+      "goblet": "Lucky Dog's Goblet",
+      "circlet": "Lucky Dog's Silver Circlet"
+    },
+    "3": {
+      "name": "Traveling Doctor",
+      "flower": "Traveling Doctor's Silver Lotus",
+      "plume": "Traveling Doctor's Owl Feather",
+      "sands": "Traveling Doctor's Pocket Watch",
+      "goblet": "Traveling Doctor's Medicine Pot",
+      "circlet": "Traveling Doctor's Handkerchief"
+    },
+    "100": {
+      "name": "Instructor",
+      "flower": "Instructor's Brooch",
+      "plume": "Instructor's Feather Accessory",
+      "sands": "Instructor's Pocket Watch",
+      "goblet": "Instructor's Tea Cup",
+      "circlet": "Instructor's Cap"
+    },
+    "101": {
+      "name": "Berserker",
+      "flower": "Berserker's Rose",
+      "plume": "Berserker's Indigo Feather",
+      "sands": "Berserker's Timepiece",
+      "goblet": "Berserker's Bone Goblet",
+      "circlet": "Berserker's Battle Mask"
+    },
+    "102": {
+      "name": "The Exile",
+      "flower": "Exile's Flower",
+      "plume": "Exile's Feather",
+      "sands": "Exile's Pocket Watch",
+      "goblet": "Exile's Goblet",
+      "circlet": "Exile's Circlet"
+    },
+    "103": {
+      "name": "故人之心",
+      "flower": "故人之心",
+      "plume": "归乡之羽",
+      "sands": "逐光之石",
+      "goblet": "异国之盏",
+      "circlet": "感别之冠"
+    },
+    "104": {
+      "name": "武人",
+      "flower": "武人的红花",
+      "plume": "武人的羽饰",
+      "sands": "武人的水漏",
+      "goblet": "武人的酒杯",
+      "circlet": "武人的头巾"
+    },
+    "105": {
+      "name": "守护之心",
+      "flower": "守护之花",
+      "plume": "守护徽印",
+      "sands": "守护座钟",
+      "goblet": "守护之皿",
+      "circlet": "守护束带"
+    },
+    "106": {
+      "name": "奇迹",
+      "flower": "奇迹之花",
+      "plume": "奇迹之羽",
+      "sands": "奇迹之沙",
+      "goblet": "奇迹之杯",
+      "circlet": "奇迹耳坠"
+    },
+    "107": {
+      "name": "勇士之心",
+      "flower": "勇士的勋章",
+      "plume": "勇士的期许",
+      "sands": "勇士的坚毅",
+      "goblet": "勇士的壮行",
+      "circlet": "勇士的冠冕"
+    },
+    "108": {
+      "name": "赌徒",
+      "flower": "赌徒的胸花",
+      "plume": "赌徒的羽饰",
+      "sands": "赌徒的怀表",
+      "goblet": "赌徒的骰盅",
+      "circlet": "赌徒的耳环"
+    },
+    "109": {
+      "name": "学士",
+      "flower": "学士的书签",
+      "plume": "学士的羽笔",
+      "sands": "学士的时钟",
+      "goblet": "学士的墨杯",
+      "circlet": "学士的镜片"
+    },
+    "200": {
+      "name": "祭雷之人",
+      "circlet": "祭雷礼冠"
+    },
+    "201": {
+      "name": "祭冰之人",
+      "circlet": "祭冰礼冠"
+    },
+    "202": {
+      "name": "祭火之人",
+      "circlet": "祭火礼冠"
+    },
+    "203": {
+      "name": "祭水之人",
+      "circlet": "祭水礼冠"
+    },
+    "300": {
+      "name": "角斗士的终幕礼",
+      "flower": "角斗士的留恋",
+      "plume": "角斗士的归宿",
+      "sands": "角斗士的希冀",
+      "goblet": "角斗士的酣醉",
+      "circlet": "角斗士的凯旋"
+    },
+    "301": {
+      "name": "被怜爱的少女",
+      "flower": "远方的少女之心",
+      "plume": "少女飘摇的思念",
+      "sands": "少女苦短的良辰",
+      "goblet": "少女片刻的闲暇",
+      "circlet": "少女易逝的芳颜"
+    },
+    "302": {
+      "name": "昔日宗室之仪",
+      "flower": "宗室之花",
+      "plume": "宗室之翎",
+      "sands": "宗室时计",
+      "goblet": "宗室银瓮",
+      "circlet": "宗室面具"
+    },
+    "303": {
+      "name": "染血的骑士道",
+      "flower": "染血的铁之心",
+      "plume": "染血的黑之羽",
+      "sands": "骑士染血之时",
+      "goblet": "染血骑士之杯",
+      "circlet": "染血的铁假面"
+    },
+    "304": {
+      "name": "流浪大地的乐团",
+      "flower": "乐团的晨光",
+      "plume": "琴师的箭羽",
+      "sands": "终幕的时计",
+      "goblet": "吟游者之壶",
+      "circlet": "指挥的礼帽"
+    },
+    "305": {
+      "name": "翠绿之影",
+      "flower": "野花记忆的绿野",
+      "plume": "猎人青翠的箭羽",
+      "sands": "翠绿猎人的笃定",
+      "goblet": "翠绿猎人的容器",
+      "circlet": "翠绿的猎人之冠"
+    },
+    "306": {
+      "name": "如雷的盛怒",
+      "flower": "雷鸟的怜悯",
+      "plume": "雷灾的孑遗",
+      "sands": "雷霆的时计",
+      "goblet": "降雷的凶兆",
+      "circlet": "唤雷的头冠"
+    },
+    "307": {
+      "name": "平息鸣雷的尊者",
+      "flower": "平雷之心",
+      "plume": "平雷之羽",
+      "sands": "平雷之刻",
+      "goblet": "平雷之器",
+      "circlet": "平雷之冠"
+    },
+    "308": {
+      "name": "炽烈的炎之魔女",
+      "flower": "魔女的炎之花",
+      "plume": "魔女常燃之羽",
+      "sands": "魔女破灭之时",
+      "goblet": "魔女的心之火",
+      "circlet": "焦灼的魔女帽"
+    },
+    "309": {
+      "name": "渡过烈火的贤人",
+      "flower": "渡火者的决绝",
+      "plume": "渡火者的解脱",
+      "sands": "渡火者的煎熬",
+      "goblet": "渡火者的醒悟",
+      "circlet": "渡火者的智慧"
+    },
+    "310": {
+      "name": "悠古的磐岩",
+      "flower": "磐陀裂生之花",
+      "plume": "嵯峨群峰之翼",
+      "sands": "星罗圭壁之晷",
+      "goblet": "巉岩琢塑之樽",
+      "circlet": "不动玄石之相"
+    },
+    "311": {
+      "name": "逆飞的流星",
+      "flower": "夏祭之花",
+      "plume": "夏祭终末",
+      "sands": "夏祭之刻",
+      "goblet": "夏祭水玉",
+      "circlet": "夏祭之面"
+    },
+    "312": {
+      "name": "冰风迷途的勇士",
+      "flower": "历经风雪的思念",
+      "plume": "摧冰而行的执望",
+      "sands": "冰雪故园的终期",
+      "goblet": "遍结寒霜的傲骨",
+      "circlet": "破冰踏雪的回音"
+    },
+    "313": {
+      "name": "沉沦之心",
+      "flower": "饰金胸花",
+      "plume": "追忆之风",
+      "sands": "坚铜罗盘",
+      "goblet": "沉波之盏",
+      "circlet": "酒渍船帽"
+    }
+  }
+}

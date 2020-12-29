@@ -36,63 +36,69 @@
     "Snezhnaya": "至冬国"
   },
   "enemy": {
-    "anemoSlime": "风史莱姆",
-    "geoSlime": "岩史莱姆",
-    "electroSlime": "雷史莱姆",
-    "dendroSlime": "草史莱姆",
-    "hydroSlime": "水史莱姆",
-    "pyroSlime": "火史莱姆",
-    "cryoSlime": "冰史莱姆",
-    "largeAnemoSlime": "大型风史莱姆",
-    "largeGeoSlime": "大型岩史莱姆",
-    "largeElectroSlime": "大型雷史莱姆",
-    "largeDendroSlime": "大型草史莱姆",
-    "largeHydroSlime": "大型水史莱姆",
-    "largePyroSlime": "大型火史莱姆",
-    "largeCryoSlime": "大型冰史莱姆",
-    "mutantElectroSlime": "变异雷史莱姆",
-    "hilichurlFighters": "打手丘丘人",
-    "hilichurlBerserker": "冲锋丘丘人",
-    "hilichurlGrenadier": "爆弹丘丘人",
-    "woodenShieldHilichurlGuard": "木盾丘丘人",
-    "rockShieldHilichurlGuard": "岩盾丘丘人",
-    "hilichurlShooter": "射手丘丘人",
-    "pyroHilichurlShooter": "火箭丘丘人",
-    "electroHilichurlShooter": "雷箭丘丘人",
-    "cryoHilichurlShooter": "冰箭丘丘人",
-    "hydroSamachurl": "水丘丘萨满",
-    "anemoSamachurl": "风丘丘萨满",
-    "dendroSamachurl": "草丘丘萨满",
-    "geoSamachurl": "岩丘丘萨满",
-    "woodenShieldMitachurl": "木盾丘丘暴徒",
-    "rockShieldwallMitachurl": "岩盾丘丘暴徒",
-    "blazingAxeMitachurl": "火斧丘丘暴徒",
-    "stonehideLawachurl": "丘丘岩盔王",
-    "pyroWhopperflower": "炽热骗骗花",
-    "cryoWhopperflower": "冰霜骗骗花",
-    "geovishapHatchling": "幼岩龙蜥",
-    "fatuiPyroAgent": "愚人众·火之债务处理人",
-    "fatuiElectroCicinMage": "愚人众·雷萤术士",
-    "cicin": "雷萤",
-    "fatuiSkirmisherAnemoboxerVanguard": "愚人众先遣队·风拳前锋军",
-    "fatuiSkirmisherElectroHammerVanguard": "愚人众先遣队·雷锤前锋军",
-    "fatuiSkirmisherGeoChanterBracer": "愚人众先遣队·岩使游击兵",
-    "fatuiSkirmisherPyroSlingerBracer": "愚人众先遣队·火铳游击兵",
-    "fatuiSkirmisherCryoGunnerLegionnaire": "愚人众先遣队·冰铳重卫士",
-    "fatuiSkirmisherHydroGunnerLegionnaire": "愚人众先遣队·水铳重卫士",
-    "pyroAbyssMage": "火深渊法师",
-    "cryoAbyssMage": "冰深渊法师",
-    "Hydro Abyss Mage": "水深渊法师",
-    "treasureHoardersScout": "斥候",
-    "treasureHoardersMarksman": "神射手",
-    "treasureHoardersPugilist": "拳术家",
-    "treasureHoardersPotioneer": "药剂师",
-    "treasureHoardersHandyman": "杂工",
-    "treasureHoardersCrusher": "粉碎者",
-    "treasureHoardersSeaman": "海上男儿",
-    "treasureHoardersGravedigger": "掘墓者",
-    "ruinGuard": "遗迹守卫",
-    "ruinHunter": "遗迹猎者"
+    "AnemoSlime": "风史莱姆",
+    "GeoSlime": "岩史莱姆",
+    "ElectroSlime": "雷史莱姆",
+    "DendroSlime": "草史莱姆",
+    "HydroSlime": "水史莱姆",
+    "PyroSlime": "火史莱姆",
+    "CryoSlime": "冰史莱姆",
+    "LargeAnemoSlime": "大型风史莱姆",
+    "LargeGeoSlime": "大型岩史莱姆",
+    "LargeElectroSlime": "大型雷史莱姆",
+    "LargeDendroSlime": "大型草史莱姆",
+    "LargeHydroSlime": "大型水史莱姆",
+    "LargePyroSlime": "大型火史莱姆",
+    "LargeCryoSlime": "大型冰史莱姆",
+    "MutantElectroSlime": "变异雷史莱姆",
+    "HilichurlFighters": "打手丘丘人",
+    "HilichurlBerserker": "冲锋丘丘人",
+    "HilichurlGrenadier": "爆弹丘丘人",
+    "WoodenShieldHilichurlGuard": "木盾丘丘人",
+    "RockShieldHilichurlGuard": "岩盾丘丘人",
+    "HilichurlShooter": "射手丘丘人",
+    "PyroHilichurlShooter": "火箭丘丘人",
+    "ElectroHilichurlShooter": "雷箭丘丘人",
+    "CryoHilichurlShooter": "冰箭丘丘人",
+    "HydroSamachurl": "水丘丘萨满",
+    "AnemoSamachurl": "风丘丘萨满",
+    "DendroSamachurl": "草丘丘萨满",
+    "GeoSamachurl": "岩丘丘萨满",
+    "WoodenShieldMitachurl": "木盾丘丘暴徒",
+    "RockShieldwallMitachurl": "岩盾丘丘暴徒",
+    "BlazingAxeMitachurl": "火斧丘丘暴徒",
+    "StonehideLawachurl": "丘丘岩盔王",
+    "PyroWhopperflower": "炽热骗骗花",
+    "CryoWhopperflower": "冰霜骗骗花",
+    "GeovishapHatchling": "幼岩龙蜥",
+    "FatuiPyroAgent": "愚人众·火之债务处理人",
+    "FatuiElectroCicinMage": "愚人众·雷萤术士",
+    "Cicin": "雷萤",
+    "FatuiSkirmisherAnemoboxerVanguard": "愚人众先遣队·风拳前锋军",
+    "FatuiSkirmisherElectroHammerVanguard": "愚人众先遣队·雷锤前锋军",
+    "FatuiSkirmisherGeoChanterBracer": "愚人众先遣队·岩使游击兵",
+    "FatuiSkirmisherPyroSlingerBracer": "愚人众先遣队·火铳游击兵",
+    "FatuiSkirmisherCryoGunnerLegionnaire": "愚人众先遣队·冰铳重卫士",
+    "FatuiSkirmisherHydroGunnerLegionnaire": "愚人众先遣队·水铳重卫士",
+    "PyroAbyssMage": "火深渊法师",
+    "CryoAbyssMage": "冰深渊法师",
+    "HydroAbyssMage": "水深渊法师",
+    "TreasureHoardersScout": "斥候",
+    "TreasureHoardersMarksman": "神射手",
+    "TreasureHoardersPugilist": "拳术家",
+    "TreasureHoardersPotioneer": "药剂师",
+    "TreasureHoardersHandyman": "杂工",
+    "TreasureHoardersCrusher": "粉碎者",
+    "TreasureHoardersSeaman": "海上男儿",
+    "TreasureHoardersGravedigger": "掘墓者",
+    "RuinGuard": "遗迹守卫",
+    "RuinHunter": "遗迹猎者",
+    "AnemoHypostasis": "无相之风",
+    "GeoHypostasis": "无相之岩",
+    "ElectroHypostasis": "无相之雷",
+    "CryoRegisvine": "急冻树",
+    "Oceanid": "纯水精灵",
+    "PyroRegisvine": "爆炎树"
   },
   "buff": {
     "HP": "生命",
@@ -253,11 +259,11 @@
       "name": "祭火之人",
       "circlet": "祭火礼冠"
     },
-    "300": {
+    "203": {
       "name": "祭水之人",
       "circlet": "祭水礼冠"
     },
-    "301": {
+    "300": {
       "name": "角斗士的终幕礼",
       "flower": "角斗士的留恋",
       "plume": "角斗士的归宿",
@@ -265,7 +271,7 @@
       "goblet": "角斗士的酣醉",
       "circlet": "角斗士的凯旋"
     },
-    "302": {
+    "301": {
       "name": "被怜爱的少女",
       "flower": "远方的少女之心",
       "plume": "少女飘摇的思念",
@@ -273,7 +279,7 @@
       "goblet": "少女片刻的闲暇",
       "circlet": "少女易逝的芳颜"
     },
-    "303": {
+    "302": {
       "name": "昔日宗室之仪",
       "flower": "宗室之花",
       "plume": "宗室之翎",
@@ -281,7 +287,7 @@
       "goblet": "宗室银瓮",
       "circlet": "宗室面具"
     },
-    "304": {
+    "303": {
       "name": "染血的骑士道",
       "flower": "染血的铁之心",
       "plume": "染血的黑之羽",
@@ -289,7 +295,7 @@
       "goblet": "染血骑士之杯",
       "circlet": "染血的铁假面"
     },
-    "305": {
+    "304": {
       "name": "流浪大地的乐团",
       "flower": "乐团的晨光",
       "plume": "琴师的箭羽",
@@ -297,7 +303,7 @@
       "goblet": "吟游者之壶",
       "circlet": "指挥的礼帽"
     },
-    "306": {
+    "305": {
       "name": "翠绿之影",
       "flower": "野花记忆的绿野",
       "plume": "猎人青翠的箭羽",
@@ -305,7 +311,7 @@
       "goblet": "翠绿猎人的容器",
       "circlet": "翠绿的猎人之冠"
     },
-    "307": {
+    "306": {
       "name": "如雷的盛怒",
       "flower": "雷鸟的怜悯",
       "plume": "雷灾的孑遗",
@@ -313,7 +319,7 @@
       "goblet": "降雷的凶兆",
       "circlet": "唤雷的头冠"
     },
-    "308": {
+    "307": {
       "name": "平息鸣雷的尊者",
       "flower": "平雷之心",
       "plume": "平雷之羽",
@@ -321,7 +327,7 @@
       "goblet": "平雷之器",
       "circlet": "平雷之冠"
     },
-    "309": {
+    "308": {
       "name": "炽烈的炎之魔女",
       "flower": "魔女的炎之花",
       "plume": "魔女常燃之羽",
@@ -329,7 +335,7 @@
       "goblet": "魔女的心之火",
       "circlet": "焦灼的魔女帽"
     },
-    "310": {
+    "309": {
       "name": "渡过烈火的贤人",
       "flower": "渡火者的决绝",
       "plume": "渡火者的解脱",
@@ -337,7 +343,7 @@
       "goblet": "渡火者的醒悟",
       "circlet": "渡火者的智慧"
     },
-    "311": {
+    "310": {
       "name": "悠古的磐岩",
       "flower": "磐陀裂生之花",
       "plume": "嵯峨群峰之翼",
@@ -345,7 +351,7 @@
       "goblet": "巉岩琢塑之樽",
       "circlet": "不动玄石之相"
     },
-    "312": {
+    "311": {
       "name": "逆飞的流星",
       "flower": "夏祭之花",
       "plume": "夏祭终末",
@@ -353,21 +359,21 @@
       "goblet": "夏祭水玉",
       "circlet": "夏祭之面"
     },
-    "313": {
-      "name": "冰之川与雪之砂",
-      "flower": "凛冬霜心",
-      "plume": "雪藏之羽",
-      "sands": "凝冰成砂",
-      "goblet": "北风之盏",
-      "circlet": "冰河之冠"
+    "312": {
+      "name": "冰风迷途的勇士",
+      "flower": "历经风雪的思念",
+      "plume": "摧冰而行的执望",
+      "sands": "冰雪故园的终期",
+      "goblet": "遍结寒霜的傲骨",
+      "circlet": "破冰踏雪的回音"
     },
-    "314": {
-      "name": "征服寒冬的勇士",
-      "flower": "碎冰者的思念",
-      "plume": "碎冰者的自矜",
-      "sands": "碎冰者的终期",
-      "goblet": "碎冰者的傲骨",
-      "circlet": "碎冰者的骄傲"
+    "313": {
+      "name": "沉沦之心",
+      "flower": "饰金胸花",
+      "plume": "追忆之风",
+      "sands": "坚铜罗盘",
+      "goblet": "沉波之盏",
+      "circlet": "酒渍船帽"
     }
   }
 }
