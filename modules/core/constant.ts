@@ -50,12 +50,31 @@ export namespace CHARACTER {
     ],
   };
 
-  export const elementalResonanceCheck = (eles: string[]) => {
+  export const elementalResonanceCheck = (eles: ElementType[]) => {
     if (!eles) return [];
     const resonances: { name: string; buff: IBuff[] }[] = [];
     if ([...new Set(eles)].length >= 4) resonances.push({ name: "ProtectiveCanopy", buff: ELEMENTAL_RESONANCE.ProtectiveCanopy });
+    if (eles.filter(v => v === ElementType.Anemo).length >= 2) resonances.push({ name: "ImpetuousWinds", buff: ELEMENTAL_RESONANCE.ImpetuousWinds });
+    if (eles.filter(v => v === ElementType.Geo).length >= 2) resonances.push({ name: "EnduringRock", buff: ELEMENTAL_RESONANCE.EnduringRock });
+    if (eles.filter(v => v === ElementType.Electro).length >= 2) resonances.push({ name: "HighVoltage", buff: ELEMENTAL_RESONANCE.HighVoltage });
+    if (eles.filter(v => v === ElementType.Hydro).length >= 2) resonances.push({ name: "SoothingWater", buff: ELEMENTAL_RESONANCE.SoothingWater });
+    if (eles.filter(v => v === ElementType.Pyro).length >= 2) resonances.push({ name: "FerventFlames", buff: ELEMENTAL_RESONANCE.FerventFlames });
+    if (eles.filter(v => v === ElementType.Cryo).length >= 2) resonances.push({ name: "ShatteringIce", buff: ELEMENTAL_RESONANCE.ShatteringIce });
   };
 }
+
+/** 颜色 */
+// export namespace COLOR {
+//   export const ELEMENT_COLOR = {
+//     [ElementType.Anemo]: "#A3F3CB",
+//     [ElementType.Cryo]: "#72EBF1",
+//     [ElementType.Dendro]: "#B0E828",
+//     [ElementType.Electro]: "#DCBAFC",
+//     [ElementType.Geo]: "#F3D25F",
+//     [ElementType.Hydro]: "#0AE3FC",
+//     [ElementType.Pyro]: "#EA630E",
+//   }
+// }
 
 /** 武器 */
 export namespace WEAPON {

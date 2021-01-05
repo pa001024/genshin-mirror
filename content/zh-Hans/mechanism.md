@@ -1,14 +1,7 @@
-# 提瓦特指南
-
-
-
-
-
-
-
-# 游戏机制
-
-无论冒险还是做生意，机会都稍纵即逝！
+---
+title: 游戏机制
+description: '无论冒险还是做生意，机会都稍纵即逝！'
+---
 
 ## 伤害公式
 
@@ -198,6 +191,16 @@ $$
 - 愚人众先遣队/爆炎树/急冻树护盾效果 全抗+100% 对应元素额外增加50%
 - 公子一阶段在虚弱状态时会全属性抗性下降30%，二阶段虚弱时会全属性抗性下降50%，虚弱状态结束时会恢复正常抗性。
 
+#### 额外抗性
+
+**元素节点**
+
+强化怪物时提供50%全抗以及对对应元素额外50%的抗性。
+
+- 冰: 防御提高100%
+- Electro: double energy charge rate (for enemies such as [Electro Cicin Mages](https://genshin-impact.fandom.com/wiki/Electro_Cicin_Mage) and [Fatui Skirmishers](https://genshin-impact.fandom.com/wiki/Fatui_Skirmishers); no effect for enemies that do not have energy-based attacks).
+- 火: 造成伤害提高40%
+
 ## 圣遗物
 
 圣遗物**副属性**和**主属性**不会重复。
@@ -241,4 +244,6 @@ $$
 |暴击率|2.7%|3.1%|3.5%|3.9%|
 |暴击伤害|5.4% | 6.2%|7.0%|7.8%|
 
-4星在5星的基础上乘0.8
+4星数值为80%
+
+3星数值为60%

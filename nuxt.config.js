@@ -107,6 +107,9 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+    // Enable thread-loader in webpack building
+    parallel: true,
+
     extend(_config, { isClient, loaders }) {
       // Extend only webpack config for client-bundle
       if (isClient) {

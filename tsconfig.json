@@ -11,6 +11,7 @@
     "noEmit": true,
     "experimentalDecorators": true,
     "resolveJsonModule": true,
+    "strictPropertyInitialization": true,
     "allowSyntheticDefaultImports": true,
     "isolatedModules": true,
     "baseUrl": ".",
@@ -18,7 +19,15 @@
       "~/*": ["./*"],
       "@/*": ["./*"]
     },
-    "types": ["@types/node", "@nuxt/types", "@nuxtjs/vuetify", "nuxt-i18n", "node"]
+    "types": [
+      //
+      "@types/node",
+      "@nuxt/types",
+      "@nuxt/content",
+      "@nuxtjs/vuetify",
+      "nuxt-i18n",
+      "node"
+    ]
   },
   "exclude": ["node_modules", ".nuxt", "dist"]
 }

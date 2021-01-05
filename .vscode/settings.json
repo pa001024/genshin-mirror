@@ -1,7 +1,8 @@
 {
   "vetur.format.defaultFormatter.html": "prettier",
-  "i18n-ally.localesPaths": [
-    "i18n/locales"
-  ],
-  "i18n-ally.sourceLanguage": "en"
+  "i18n-ally.localesPaths": ["locales"],
+  "i18n-ally.sourceLanguage": "zh-Hans",
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.languageTagSystem": "bcp47",
+  "commentTranslate.targetLanguage": "en"
 }
