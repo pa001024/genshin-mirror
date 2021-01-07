@@ -1,15 +1,13 @@
 import { GetterTree, ActionTree, MutationTree } from "vuex";
 const cookieparser = process.server ? require("cookieparser") : undefined;
 
-interface AuthState {
-  auth: string | null;
-}
-
-export const state = (): AuthState => {
-  return {
-    auth: null,
-  };
+const initialState = {
+  userid: null,
+  auth: null,
 };
+type AuthState = typeof initialState;
+
+export const state = (): AuthState => initialState;
 export const mutations: MutationTree<AuthState> = {
   setAuth(state, auth) {
     state.auth = auth;

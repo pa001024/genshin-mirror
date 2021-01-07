@@ -17,7 +17,10 @@ export default {
   css: [],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [],
+  plugins: [
+    // vuex-persist
+    { src: "~/plugins/vuex-persist", ssr: false },
+  ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
@@ -30,6 +33,15 @@ export default {
     "@nuxtjs/stylelint-module",
     // https://go.nuxtjs.dev/vuetify
     "@nuxtjs/vuetify",
+
+    [
+      "@nuxtjs/localforage",
+      {
+        /* module options */
+        name: "gsMirror",
+        storeName: "gsMirrorLocal",
+      },
+    ],
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -45,7 +57,7 @@ export default {
   ],
   // i18n config
   i18n: {
-    defaultLocale: "en-US",
+    defaultLocale: "en",
     vueI18n: {
       fallbackLocale: {
         "zh-Hans": ["zh", "zh-CN", "zh-SG"],
@@ -64,7 +76,8 @@ export default {
     locales: [
       // ** ADD YOUR LOCALE FILE HERE **
       {
-        code: "en-US",
+        code: "en",
+        iso: "en-US",
         file: "en-US.json",
         name: "English",
       },

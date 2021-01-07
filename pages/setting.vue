@@ -1,8 +1,12 @@
 <template>
   <v-row justify="center" align="center">
     <v-col cols="12" sm="8" md="6">
-      <v-card> nothing </v-card>
-      <nuxt-link to="/char/Diluc">Diluc</nuxt-link>
+      语言
+      <div class="switch-lang">
+        <v-btn v-for="locale in availableLocales" :key="locale.code" :disabled="$i18n.locale === locale.code" @click="changeLang(locale.code)">{{
+          locale.name
+        }}</v-btn>
+      </div>
     </v-col>
   </v-row>
 </template>

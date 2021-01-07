@@ -7,6 +7,7 @@
       <v-icon>mdi-triangle</v-icon>
     </v-system-bar>
 
+    <!-- 顶栏 -->
     <v-app-bar app clipped-right flat height="72">
       <v-spacer></v-spacer>
 
@@ -15,34 +16,38 @@
       </v-responsive>
     </v-app-bar>
 
-    <v-navigation-drawer v-model="drawer" app width="300">
-      <v-navigation-drawer v-model="drawer" absolute color="grey lighten-3" mini-variant>
-        <v-avatar class="d-block text-center mx-auto mt-4" color="grey darken-1" size="36"></v-avatar>
+    <v-navigation-drawer v-model="drawer" app width="56">
+      <v-navigation-drawer v-model="drawer" absolute color="indigo darken-3" mini-variant>
+        <!-- 站头 -->
+        <nuxt-link to="/">
+          <v-btn color="transparent" fab elevation="0" small class="d-block text-center mx-auto mt-4 main-site-btn"><GsIcon type="logo" /></v-btn>
+        </nuxt-link>
+        <v-divider color="white" class="mx-3 my-5"></v-divider>
 
-        <v-divider class="mx-3 my-5"></v-divider>
-
-        <v-avatar v-for="n in 6" :key="n" class="d-block text-center mx-auto mb-9" color="grey lighten-1" size="28"></v-avatar>
+        <!-- 主导航栏 -->
+        <v-tooltip v-for="item in links" :key="item.name" right>
+          <template v-slot:activator="{ on, attrs }">
+            <nuxt-link :to="item.path">
+              <v-btn color="indigo" v-bind="attrs" fab elevation="0" small class="d-block text-center mx-auto mb-4 main-nav-btn" v-on="on"
+                ><GsIcon :type="item.icon"
+              /></v-btn>
+            </nuxt-link>
+          </template>
+          <span>{{ $t(`navigate.${item.name}`) }}</span>
+        </v-tooltip>
       </v-navigation-drawer>
 
-      <v-sheet color="grey lighten-5" height="128" width="100%"></v-sheet>
+      <template v-if="injectedMenu.length">
+        <v-sheet color="indigo lighten-5" height="128" width="100%"></v-sheet>
 
-      <v-list class="pl-14" shaped>
-        <v-list-item v-for="n in 5" :key="n" link>
-          <v-list-item-content>
-            <v-list-item-title>Item {{ n }}</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-      </v-list>
-    </v-navigation-drawer>
-
-    <v-navigation-drawer app clipped right>
-      <v-list>
-        <v-list-item v-for="n in 5" :key="n" link>
-          <v-list-item-content>
-            <v-list-item-title>Item {{ n }}</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-      </v-list>
+        <v-list class="pl-14" shaped>
+          <v-list-item v-for="item in injectedMenu" :key="item.name" link>
+            <v-list-item-content>
+              <v-list-item-title>{{ item.name }}</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+        </v-list>
+      </template>
     </v-navigation-drawer>
 
     <v-main>
@@ -51,22 +56,45 @@
       </v-container>
     </v-main>
 
-    <v-footer app color="transparent" height="72" inset>
+    <!-- <v-footer app color="transparent" height="72" inset>
       <v-text-field background-color="grey lighten-1" dense flat hide-details rounded solo></v-text-field>
-    </v-footer>
+    </v-footer> -->
   </v-app>
 </template>
 
-<script>
+<script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
-// import { Getter, Action } from "vuex-class";
+import { Getter } from "vuex-class";
+import { InjectedMenu } from "~/types/store";
 
-@Component({ components: {} })
+@Component({})
 export default class DefaultLayout extends Vue {
   get isStandlone() {
     return false;
   }
 
+  @Getter("app/injectedMenu") injectedMenu!: InjectedMenu[];
+
+  links = [
+    { name: "char", path: "/char", icon: "people" },
+    { name: "weapon", path: "/weapon", icon: "weapon" },
+    { name: "artifact", path: "/artifact", icon: "artifact" },
+    { name: "enemy", path: "/enemy", icon: "enemy" },
+    { name: "material", path: "/material", icon: "material" },
+    { name: "setting", path: "/setting", icon: "setting" },
+  ];
+
   drawer = null;
 }
 </script>
+
+<style lang="less" scoped>
+.main-nav-btn {
+  color: white;
+  font-size: 1rem;
+}
+.main-site-btn {
+  color: white;
+  font-size: 2rem;
+}
+</style>

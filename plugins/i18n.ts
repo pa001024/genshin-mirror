@@ -5,7 +5,7 @@ import VueI18n from "vue-i18n";
 import vuetifyEn from "vuetify/src/locale/en";
 import vuetifyZhHans from "vuetify/src/locale/zh-Hans";
 import vuetifyZhHant from "vuetify/src/locale/zh-Hant";
-import langEn from "../i18n/locales/en.json";
+import langEn from "../locales/en-US.json";
 
 Vue.use(VueI18n);
 
