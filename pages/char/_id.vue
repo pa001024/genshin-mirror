@@ -64,14 +64,11 @@ import { ICharacter } from "~/modules/core";
   async asyncData({ params: { id }, $content, app }) {
     const rst: Partial<Char> = { id, data: null, page: null };
     if (id.includes("../")) return { id };
-    try {
-      const res = (await $content("common/char/" + id).fetch()) as any;
-      rst.data = res;
-    } catch (e) {
-      // console.error("[SSR] render Char error", e);
-    }
+    const res = (await $content("common/char", id).fetch().catch()) as any;
+    rst.data = res;
+
     if (rst.data) {
-      rst.page = await $content(app.i18n.locale + "/" + id).fetch();
+      rst.page = await $content(app.i18n.locale, id).fetch().catch();
     }
     return rst;
   },
