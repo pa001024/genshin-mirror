@@ -1,7 +1,6 @@
 <template>
   <div v-if="data" class="gsm-Character">
     <v-card>
-      <v-parallax src="/img/Diluc_Card.jpg" height="360" />
       <v-card-title>{{ localeName }}</v-card-title>
       <v-card-text>
         <v-container>
@@ -64,11 +63,11 @@ import { ICharacter } from "~/modules/core";
   async asyncData({ params: { id }, $content, app }) {
     const rst: Partial<Char> = { id, data: null, page: null };
     if (id.includes("../")) return { id };
-    const res = (await $content("common/char", id).fetch().catch()) as any;
+    const res = (await $content("common/char", id).fetch().catch(console.error)) as any;
     rst.data = res;
 
     if (rst.data) {
-      rst.page = await $content(app.i18n.locale, id).fetch().catch();
+      rst.page = await $content(app.i18n.locale, id).fetch().catch(console.error);
     }
     return rst;
   },

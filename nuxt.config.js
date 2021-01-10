@@ -77,8 +77,7 @@ export default {
       // ** ADD YOUR LOCALE FILE HERE **
       {
         code: "en",
-        iso: "en-US",
-        file: "en-US.json",
+        file: "en.json",
         name: "English",
       },
       {

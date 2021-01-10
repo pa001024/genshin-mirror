@@ -5,11 +5,30 @@ export interface IWeapon {
   /** 序号 */ id: number;
   /** 名称 */ name: string;
   /** 类型 */ type: WeaponType;
-  /** 基础攻击力 */ baseATK: number[];
-  /** 副属性类型 */ subPropType: BuffType;
-  /** 副属性值 */ subPropValue: number[];
-  /** 特效名称 */ buffName?: string;
-  /** 特效 */ buffs?: IBuff[];
+  /** 稀有度 */ rarity: number;
+  /** 基础攻击力 */ baseATK: number;
+  /** 基础攻击力成长曲线 */ baseATKCurve: string;
+  /** 武器突破阶段 */ promoteStages: IWeaponPromoteStage[];
+  /** 副属性类型 */ subAttr?: IWeaponSubAttr;
+  /** 特效 */ affix?: IWeaponAffix;
+}
+
+/** 武器突破阶段 */
+export interface IWeaponPromoteStage {
+  level: number;
+  baseATK: number;
+  cost: [string, number][];
+}
+
+/** 武器特效 */
+export interface IWeaponAffix {
+  name: string;
+  levels: IWeaponAffixLevel[];
+}
+
+export interface IWeaponAffixLevel {
+  /** 属性 */ attrs: IAttr[];
+  /** 参数 */ params: number[];
 }
 
 /** 圣遗物 */
@@ -66,16 +85,17 @@ export interface ICharacter {
    */
   weapon: WeaponType;
 
-  /** 普通攻击 */ attack: IAttackGroup;
-  /** 元素战技 */ elementalSkill: ISkill;
-  /** 元素爆发 */ elementalBurst: ISkill;
-  /** 天赋 */ talents: ITalent[];
-  /** 基础生命 */ baseHP: number[];
-  /** 基础攻击 */ baseATK: number[];
-  /** 基础防御 */ baseDEF: number[];
+  /** 基础生命 */ baseHP: number;
+  /** 基础攻击 */ baseATK: number;
+  /** 基础防御 */ baseDEF: number;
   /** 突破属性 */ ascensionType: BuffType;
-  /** 突破属性值 */ ascensionValue: number[];
-  /** 命座提升 */ constellations: IConstellation[];
+  // /** 突破属性值 */ ascensionValue: number[];
+
+  /** 普通攻击 */ attack?: IAttackGroup;
+  /** 元素战技 */ elementalSkill?: ISkill;
+  /** 元素爆发 */ elementalBurst?: ISkill;
+  /** 天赋 */ talents?: ITalent[];
+  /** 命座提升 */ constellations?: IConstellation[];
 }
 
 /** 攻击组 */
@@ -150,6 +170,11 @@ export interface ITalentEffect {
 export interface IAttr {
   type: BuffType;
   value: number;
+}
+export interface IWeaponSubAttr {
+  type: BuffType;
+  value: number;
+  curve: number;
 }
 
 /** 加成 */

@@ -14,7 +14,13 @@
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
 
-@Component({})
+@Component({
+  head() {
+    // Set Meta Tags for this Page
+    const title = this.$t("navigate.setting") as string;
+    return { title };
+  },
+})
 export default class IndexPage extends Vue {
   get availableLocales() {
     return this.$i18n.locales?.filter((v: any) => v.name);

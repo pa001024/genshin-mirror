@@ -76,11 +76,11 @@ export default class DefaultLayout extends Vue {
   @Getter("app/injectedMenu") injectedMenu!: InjectedMenu[];
 
   links = [
-    { name: "char", path: "/char", icon: "people" },
+    { name: "char", path: "/char", icon: "char" },
     { name: "weapon", path: "/weapon", icon: "weapon" },
     { name: "artifact", path: "/artifact", icon: "artifact" },
-    { name: "enemy", path: "/enemy", icon: "enemy" },
-    { name: "material", path: "/material", icon: "material" },
+    { name: "enemy", path: "/enemy", icon: "quest" },
+    { name: "material", path: "/material", icon: "mineral" },
     { name: "setting", path: "/setting", icon: "setting" },
   ];
 
@@ -91,7 +91,7 @@ export default class DefaultLayout extends Vue {
 <style lang="less" scoped>
 .main-nav-btn {
   color: white;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .main-site-btn {
   color: white;

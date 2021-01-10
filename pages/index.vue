@@ -10,8 +10,26 @@
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
 
-@Component({})
-export default class IndexPage extends Vue {
+@Component({
+  // server
+  async asyncData({ $content }) {
+    const rst: Partial<Page> = { page: null };
+    rst.page = await $content("todo")
+      .fetch()
+      .catch(err => {
+        console.error(err);
+      });
+    return rst;
+  },
+  // set html header
+  head() {
+    // Set Meta Tags for this Page
+    const title = this.$t("title.char") as string;
+    return { title };
+  },
+})
+export default class Page extends Vue {
+  page: any = null;
   get availableLocales() {
     return this.$i18n.locales?.filter((v: any) => v.name);
   }
