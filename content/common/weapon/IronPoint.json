@@ -1,0 +1,46 @@
+{
+  "id": 13201,
+  "name": "IronPoint",
+  "rarity": 2,
+  "type": 3,
+  "promoteStages": [
+    {
+      "level": 1,
+      "baseATK": 11.7,
+      "cost": [
+        ["Fetters of the Dandelion Gladiator", 1],
+        ["Chaos Device", 1],
+        ["Divining Scroll", 1]
+      ]
+    },
+    {
+      "level": 2,
+      "baseATK": 23.3,
+      "cost": [
+        ["Chains of the Dandelion Gladiator", 1],
+        ["Chaos Device", 5],
+        ["Divining Scroll", 4]
+      ]
+    },
+    {
+      "level": 3,
+      "baseATK": 35,
+      "cost": [
+        ["Chains of the Dandelion Gladiator", 3],
+        ["Chaos Circuit", 3],
+        ["Sealed Scroll", 3]
+      ]
+    },
+    {
+      "level": 4,
+      "baseATK": 46.7,
+      "cost": [
+        ["Shackles of the Dandelion Gladiator", 1],
+        ["Chaos Circuit", 5],
+        ["Sealed Scroll", 4]
+      ]
+    }
+  ],
+  "baseATK": 32.93,
+  "baseATKCurve": 1
+}

@@ -1,0 +1,75 @@
+{
+  "id": 14303,
+  "name": "OtherworldlyStory",
+  "rarity": 3,
+  "type": 5,
+  "promoteStages": [
+    {
+      "level": 1,
+      "baseATK": 19.5,
+      "cost": [
+        ["Fetters of the Dandelion Gladiator", 2],
+        ["Chaos Device", 2],
+        ["Damaged Mask", 1]
+      ]
+    },
+    {
+      "level": 2,
+      "baseATK": 38.9,
+      "cost": [
+        ["Chains of the Dandelion Gladiator", 2],
+        ["Chaos Device", 8],
+        ["Damaged Mask", 5]
+      ]
+    },
+    {
+      "level": 3,
+      "baseATK": 58.4,
+      "cost": [
+        ["Chains of the Dandelion Gladiator", 4],
+        ["Chaos Circuit", 4],
+        ["Stained Mask", 4]
+      ]
+    },
+    {
+      "level": 4,
+      "baseATK": 77.8,
+      "cost": [
+        ["Shackles of the Dandelion Gladiator", 2],
+        ["Chaos Circuit", 8],
+        ["Stained Mask", 6]
+      ]
+    },
+    {
+      "level": 5,
+      "baseATK": 97.3,
+      "cost": [
+        ["Shackles of the Dandelion Gladiator", 4],
+        ["Chaos Core", 6],
+        ["Ominous Mask", 4]
+      ]
+    },
+    {
+      "level": 6,
+      "baseATK": 116.7,
+      "cost": [
+        ["Dream of the Dandelion Gladiator", 3],
+        ["Chaos Core", 12],
+        ["Ominous Mask", 8]
+      ]
+    }
+  ],
+  "baseATK": 38.741,
+  "baseATKCurve": 1,
+  "subAttr": { "type": 7, "value": 0.085, "curve": 16 },
+  "affix": {
+    "name": "Energy Shower",
+    "levels": [
+      { "attrs": [], "params": [0.01] },
+      { "attrs": [], "params": [0.0125] },
+      { "attrs": [], "params": [0.015] },
+      { "attrs": [], "params": [0.0175] },
+      { "attrs": [], "params": [0.02] }
+    ]
+  }
+}

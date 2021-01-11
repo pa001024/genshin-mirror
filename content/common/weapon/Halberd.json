@@ -1,0 +1,75 @@
+{
+  "id": 13302,
+  "name": "Halberd",
+  "rarity": 3,
+  "type": 3,
+  "promoteStages": [
+    {
+      "level": 1,
+      "baseATK": 19.5,
+      "cost": [
+        ["Mist Veiled Lead Elixir", 2],
+        ["Mist Grass Pollen", 2],
+        ["Whopperflower Nectar", 1]
+      ]
+    },
+    {
+      "level": 2,
+      "baseATK": 38.9,
+      "cost": [
+        ["Mist Veiled Mercury Elixir", 2],
+        ["Mist Grass Pollen", 8],
+        ["Whopperflower Nectar", 5]
+      ]
+    },
+    {
+      "level": 3,
+      "baseATK": 58.4,
+      "cost": [
+        ["Mist Veiled Mercury Elixir", 4],
+        ["Mist Grass", 4],
+        ["Shimmering Nectar", 4]
+      ]
+    },
+    {
+      "level": 4,
+      "baseATK": 77.8,
+      "cost": [
+        ["Mist Veiled Gold Elixir", 2],
+        ["Mist Grass", 8],
+        ["Shimmering Nectar", 6]
+      ]
+    },
+    {
+      "level": 5,
+      "baseATK": 97.3,
+      "cost": [
+        ["Mist Veiled Gold Elixir", 4],
+        ["Mist Grass Wick", 6],
+        ["Energy Nectar", 4]
+      ]
+    },
+    {
+      "level": 6,
+      "baseATK": 116.7,
+      "cost": [
+        ["Mist Veiled Primo Elixir", 3],
+        ["Mist Grass Wick", 12],
+        ["Energy Nectar", 8]
+      ]
+    }
+  ],
+  "baseATK": 39.875,
+  "baseATKCurve": 2,
+  "subAttr": { "type": 4, "value": 0.051067, "curve": 16 },
+  "affix": {
+    "name": "Heavy",
+    "levels": [
+      { "attrs": [], "params": [1.6, 10] },
+      { "attrs": [], "params": [2, 10] },
+      { "attrs": [], "params": [2.4, 10] },
+      { "attrs": [], "params": [2.8, 10] },
+      { "attrs": [], "params": [3.2, 10] }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": 11412,
+  "name": "SwordOfDescension",
+  "rarity": 4,
+  "type": 1,
+  "promoteStages": [
+    {
+      "level": 1,
+      "baseATK": 25.9,
+      "cost": [
+        ["Boreal Wolf's Milk Tooth", 3],
+        ["Dead Ley Line Branch", 3],
+        ["Treasure Hoarder Insignia", 2]
+      ]
+    },
+    {
+      "level": 2,
+      "baseATK": 51.9,
+      "cost": [
+        ["Boreal Wolf's Cracked Tooth", 3],
+        ["Dead Ley Line Branch", 12],
+        ["Treasure Hoarder Insignia", 8]
+      ]
+    },
+    {
+      "level": 3,
+      "baseATK": 77.8,
+      "cost": [
+        ["Boreal Wolf's Cracked Tooth", 6],
+        ["Dead Ley Line Leaves", 6],
+        ["Silver Raven Insignia", 6]
+      ]
+    },
+    {
+      "level": 4,
+      "baseATK": 103.7,
+      "cost": [
+        ["Boreal Wolf's Broken Fang", 3],
+        ["Dead Ley Line Leaves", 12],
+        ["Silver Raven Insignia", 9]
+      ]
+    },
+    {
+      "level": 5,
+      "baseATK": 129.7,
+      "cost": [
+        ["Boreal Wolf's Broken Fang", 6],
+        ["Ley Line Sprout", 9],
+        ["Golden Raven Insignia", 6]
+      ]
+    },
+    {
+      "level": 6,
+      "baseATK": 155.6,
+      "cost": [
+        ["Boreal Wolf's Nostalgia", 4],
+        ["Ley Line Sprout", 18],
+        ["Golden Raven Insignia", 12]
+      ]
+    }
+  ],
+  "baseATK": 38.741,
+  "baseATKCurve": 1,
+  "subAttr": { "type": 4, "value": 0.0766, "curve": 16 },
+  "affix": {
+    "name": "Descension",
+    "levels": [{ "attrs": [], "params": [0.5, 2, 10, 66] }]
+  }
+}

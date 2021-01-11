@@ -4,6 +4,7 @@ import chalk from "chalk";
 
 import { BuffType, WeaponType } from "../modules/core/enum";
 import type { IAttr, IWeaponAffix } from "../modules/core/interface";
+import { startCase } from "lodash";
 
 export type Dict<T = string> = { [x: string]: T };
 
@@ -41,6 +42,10 @@ export const locales: Dict = {
 };
 
 export const enLang: Dict = fs.readJsonSync(DATA_DIR + locales.en);
+
+export function toNormalName(NameTextMapHash: number) {
+  return startCase(enLang[NameTextMapHash]).replace(/ /g, "");
+}
 
 export async function saveObject(domain: string, file: string, obj: any) {
   const data = prettier.format(JSON.stringify(obj), { parser: "json" });

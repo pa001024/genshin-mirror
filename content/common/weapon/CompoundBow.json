@@ -1,0 +1,75 @@
+{
+  "id": 15407,
+  "name": "CompoundBow",
+  "rarity": 4,
+  "type": 2,
+  "promoteStages": [
+    {
+      "level": 1,
+      "baseATK": 25.9,
+      "cost": [
+        ["Grain of Aerosiderite", 3],
+        ["Fragile Bone Shard", 3],
+        ["Recruit's Insignia", 2]
+      ]
+    },
+    {
+      "level": 2,
+      "baseATK": 51.9,
+      "cost": [
+        ["Piece of Aerosiderite", 3],
+        ["Fragile Bone Shard", 12],
+        ["Recruit's Insignia", 8]
+      ]
+    },
+    {
+      "level": 3,
+      "baseATK": 77.8,
+      "cost": [
+        ["Piece of Aerosiderite", 6],
+        ["Sturdy Bone Shard", 6],
+        ["Sergeant's Insignia", 6]
+      ]
+    },
+    {
+      "level": 4,
+      "baseATK": 103.7,
+      "cost": [
+        ["Bit of Aerosiderite", 3],
+        ["Sturdy Bone Shard", 12],
+        ["Sergeant's Insignia", 9]
+      ]
+    },
+    {
+      "level": 5,
+      "baseATK": 129.7,
+      "cost": [
+        ["Bit of Aerosiderite", 6],
+        ["Fossilized Bone Shard", 9],
+        ["Lieutenant's Insignia", 6]
+      ]
+    },
+    {
+      "level": 6,
+      "baseATK": 155.6,
+      "cost": [
+        ["Chunk of Aerosiderite", 4],
+        ["Fossilized Bone Shard", 18],
+        ["Lieutenant's Insignia", 12]
+      ]
+    }
+  ],
+  "baseATK": 41.067,
+  "baseATKCurve": 9,
+  "subAttr": { "type": 30, "value": 0.15013, "curve": 17 },
+  "affix": {
+    "name": "Infusion Arrow",
+    "levels": [
+      { "attrs": [], "params": [0.04, 0.012, 0.3] },
+      { "attrs": [], "params": [0.05, 0.015, 0.3] },
+      { "attrs": [], "params": [0.06, 0.018, 0.3] },
+      { "attrs": [], "params": [0.07, 0.021, 0.3] },
+      { "attrs": [], "params": [0.08, 0.024, 0.3] }
+    ]
+  }
+}

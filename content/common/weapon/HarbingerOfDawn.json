@@ -1,0 +1,75 @@
+{
+  "id": 11302,
+  "name": "HarbingerOfDawn",
+  "rarity": 3,
+  "type": 1,
+  "promoteStages": [
+    {
+      "level": 1,
+      "baseATK": 19.5,
+      "cost": [
+        ["Boreal Wolf's Milk Tooth", 2],
+        ["Dead Ley Line Branch", 2],
+        ["Slime Condensate", 1]
+      ]
+    },
+    {
+      "level": 2,
+      "baseATK": 38.9,
+      "cost": [
+        ["Boreal Wolf's Cracked Tooth", 2],
+        ["Dead Ley Line Branch", 8],
+        ["Slime Condensate", 5]
+      ]
+    },
+    {
+      "level": 3,
+      "baseATK": 58.4,
+      "cost": [
+        ["Boreal Wolf's Cracked Tooth", 4],
+        ["Dead Ley Line Leaves", 4],
+        ["Slime Secretions", 4]
+      ]
+    },
+    {
+      "level": 4,
+      "baseATK": 77.8,
+      "cost": [
+        ["Boreal Wolf's Broken Fang", 2],
+        ["Dead Ley Line Leaves", 8],
+        ["Slime Secretions", 6]
+      ]
+    },
+    {
+      "level": 5,
+      "baseATK": 97.3,
+      "cost": [
+        ["Boreal Wolf's Broken Fang", 4],
+        ["Ley Line Sprout", 6],
+        ["Slime Concentrate", 4]
+      ]
+    },
+    {
+      "level": 6,
+      "baseATK": 116.7,
+      "cost": [
+        ["Boreal Wolf's Nostalgia", 3],
+        ["Ley Line Sprout", 12],
+        ["Slime Concentrate", 8]
+      ]
+    }
+  ],
+  "baseATK": 38.741,
+  "baseATKCurve": 1,
+  "subAttr": { "type": 10, "value": 0.102, "curve": 16 },
+  "affix": {
+    "name": "Vigorous",
+    "levels": [
+      { "attrs": [], "params": [0.14] },
+      { "attrs": [], "params": [0.175] },
+      { "attrs": [], "params": [0.21] },
+      { "attrs": [], "params": [0.245] },
+      { "attrs": [], "params": [0.28] }
+    ]
+  }
+}

@@ -7,7 +7,7 @@ export interface IWeapon {
   /** 类型 */ type: WeaponType;
   /** 稀有度 */ rarity: number;
   /** 基础攻击力 */ baseATK: number;
-  /** 基础攻击力成长曲线 */ baseATKCurve: string;
+  /** 基础攻击力成长曲线 */ baseATKCurve: number;
   /** 武器突破阶段 */ promoteStages: IWeaponPromoteStage[];
   /** 副属性类型 */ subAttr?: IWeaponSubAttr;
   /** 特效 */ affix?: IWeaponAffix;

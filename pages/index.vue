@@ -1,10 +1,13 @@
 <template>
-  <v-row justify="center" align="center">
-    <v-col cols="12" sm="8" md="6">
-      <v-card> nothing </v-card>
-      <nuxt-link to="/char/Diluc">Diluc</nuxt-link>
-    </v-col>
-  </v-row>
+  <v-container class="weapon">
+    <v-row justify="center" align="center">
+      <v-col cols="12" sm="8" md="6">
+        <nuxt-link to="/login" class="nolink">
+          <v-btn block>{{ $t("ui.login") }}</v-btn>
+        </nuxt-link>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script lang="ts">
@@ -41,3 +44,10 @@ export default class Page extends Vue {
   }
 }
 </script>
+
+<style lang="less" scoped>
+.nolink {
+  color: unset;
+  text-decoration: none;
+}
+</style>

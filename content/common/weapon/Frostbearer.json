@@ -1,0 +1,75 @@
+{
+  "id": 14412,
+  "name": "Frostbearer",
+  "rarity": 4,
+  "type": 5,
+  "promoteStages": [
+    {
+      "level": 1,
+      "baseATK": 25.9,
+      "cost": [
+        ["Fetters of the Dandelion Gladiator", 3],
+        ["Chaos Device", 3],
+        ["Whopperflower Nectar", 2]
+      ]
+    },
+    {
+      "level": 2,
+      "baseATK": 51.9,
+      "cost": [
+        ["Chains of the Dandelion Gladiator", 3],
+        ["Chaos Device", 12],
+        ["Whopperflower Nectar", 8]
+      ]
+    },
+    {
+      "level": 3,
+      "baseATK": 77.8,
+      "cost": [
+        ["Chains of the Dandelion Gladiator", 6],
+        ["Chaos Circuit", 6],
+        ["Shimmering Nectar", 6]
+      ]
+    },
+    {
+      "level": 4,
+      "baseATK": 103.7,
+      "cost": [
+        ["Shackles of the Dandelion Gladiator", 3],
+        ["Chaos Circuit", 12],
+        ["Shimmering Nectar", 9]
+      ]
+    },
+    {
+      "level": 5,
+      "baseATK": 129.7,
+      "cost": [
+        ["Shackles of the Dandelion Gladiator", 6],
+        ["Chaos Core", 9],
+        ["Energy Nectar", 6]
+      ]
+    },
+    {
+      "level": 6,
+      "baseATK": 155.6,
+      "cost": [
+        ["Dream of the Dandelion Gladiator", 4],
+        ["Chaos Core", 18],
+        ["Energy Nectar", 12]
+      ]
+    }
+  ],
+  "baseATK": 42.401,
+  "baseATKCurve": 6,
+  "subAttr": { "type": 4, "value": 0.09, "curve": 17 },
+  "affix": {
+    "name": "Frost Burial",
+    "levels": [
+      { "attrs": [], "params": [0.6, 0.8, 2, 10] },
+      { "attrs": [], "params": [0.7, 0.95, 2.4, 10] },
+      { "attrs": [], "params": [0.8, 1.1, 2.8, 10] },
+      { "attrs": [], "params": [0.9, 1.25, 3.2, 10] },
+      { "attrs": [], "params": [1, 1.4, 3.6, 10] }
+    ]
+  }
+}

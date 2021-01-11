@@ -1,0 +1,75 @@
+{
+  "id": 14504,
+  "name": "MemoryOfDust",
+  "rarity": 5,
+  "type": 5,
+  "promoteStages": [
+    {
+      "level": 1,
+      "baseATK": 31.1,
+      "cost": [
+        ["Grain of Aerosiderite", 5],
+        ["Fragile Bone Shard", 5],
+        ["Damaged Mask", 3]
+      ]
+    },
+    {
+      "level": 2,
+      "baseATK": 62.2,
+      "cost": [
+        ["Piece of Aerosiderite", 5],
+        ["Fragile Bone Shard", 18],
+        ["Damaged Mask", 12]
+      ]
+    },
+    {
+      "level": 3,
+      "baseATK": 93.4,
+      "cost": [
+        ["Piece of Aerosiderite", 9],
+        ["Sturdy Bone Shard", 9],
+        ["Stained Mask", 9]
+      ]
+    },
+    {
+      "level": 4,
+      "baseATK": 124.5,
+      "cost": [
+        ["Bit of Aerosiderite", 5],
+        ["Sturdy Bone Shard", 18],
+        ["Stained Mask", 14]
+      ]
+    },
+    {
+      "level": 5,
+      "baseATK": 155.6,
+      "cost": [
+        ["Bit of Aerosiderite", 9],
+        ["Fossilized Bone Shard", 14],
+        ["Ominous Mask", 9]
+      ]
+    },
+    {
+      "level": 6,
+      "baseATK": 186.7,
+      "cost": [
+        ["Chunk of Aerosiderite", 6],
+        ["Fossilized Bone Shard", 27],
+        ["Ominous Mask", 18]
+      ]
+    }
+  ],
+  "baseATK": 45.936,
+  "baseATKCurve": 11,
+  "subAttr": { "type": 4, "value": 0.108, "curve": 18 },
+  "affix": {
+    "name": "Golden Majesty",
+    "levels": [
+      { "attrs": [{ "type": 15, "value": 0.2 }], "params": [0.2, 0.04, 8] },
+      { "attrs": [{ "type": 15, "value": 0.25 }], "params": [0.25, 0.05, 8] },
+      { "attrs": [{ "type": 15, "value": 0.3 }], "params": [0.3, 0.06, 8] },
+      { "attrs": [{ "type": 15, "value": 0.35 }], "params": [0.35, 0.07, 8] },
+      { "attrs": [{ "type": 15, "value": 0.4 }], "params": [0.4, 0.08, 8] }
+    ]
+  }
+}

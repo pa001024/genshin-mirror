@@ -1,0 +1,75 @@
+{
+  "id": 14502,
+  "name": "LostPrayerToTheSacredWinds",
+  "rarity": 5,
+  "type": 5,
+  "promoteStages": [
+    {
+      "level": 1,
+      "baseATK": 31.1,
+      "cost": [
+        ["Fetters of the Dandelion Gladiator", 5],
+        ["Chaos Device", 5],
+        ["Slime Condensate", 3]
+      ]
+    },
+    {
+      "level": 2,
+      "baseATK": 62.2,
+      "cost": [
+        ["Chains of the Dandelion Gladiator", 5],
+        ["Chaos Device", 18],
+        ["Slime Condensate", 12]
+      ]
+    },
+    {
+      "level": 3,
+      "baseATK": 93.4,
+      "cost": [
+        ["Chains of the Dandelion Gladiator", 9],
+        ["Chaos Circuit", 9],
+        ["Slime Secretions", 9]
+      ]
+    },
+    {
+      "level": 4,
+      "baseATK": 124.5,
+      "cost": [
+        ["Shackles of the Dandelion Gladiator", 5],
+        ["Chaos Circuit", 18],
+        ["Slime Secretions", 14]
+      ]
+    },
+    {
+      "level": 5,
+      "baseATK": 155.6,
+      "cost": [
+        ["Shackles of the Dandelion Gladiator", 9],
+        ["Chaos Core", 14],
+        ["Slime Concentrate", 9]
+      ]
+    },
+    {
+      "level": 6,
+      "baseATK": 186.7,
+      "cost": [
+        ["Dream of the Dandelion Gladiator", 6],
+        ["Chaos Core", 27],
+        ["Slime Concentrate", 18]
+      ]
+    }
+  ],
+  "baseATK": 45.936,
+  "baseATKCurve": 11,
+  "subAttr": { "type": 9, "value": 0.072, "curve": 18 },
+  "affix": {
+    "name": "Boundless Blessing",
+    "levels": [
+      { "attrs": [], "params": [0.1, 0.08] },
+      { "attrs": [], "params": [0.1, 0.1] },
+      { "attrs": [], "params": [0.1, 0.12] },
+      { "attrs": [], "params": [0.1, 0.14] },
+      { "attrs": [], "params": [0.1, 0.16] }
+    ]
+  }
+}

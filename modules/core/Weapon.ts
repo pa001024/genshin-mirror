@@ -14,6 +14,6 @@ export class Weapon {
   }
 
   get baseATK() {
-    return this.data.baseATK[this.ascensionLevel];
+    return this.data.baseATK;
   }
 }

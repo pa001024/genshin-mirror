@@ -1,0 +1,75 @@
+{
+  "id": 12502,
+  "name": "WolfsGravestone",
+  "rarity": 5,
+  "type": 4,
+  "promoteStages": [
+    {
+      "level": 1,
+      "baseATK": 31.1,
+      "cost": [
+        ["Fetters of the Dandelion Gladiator", 5],
+        ["Chaos Device", 5],
+        ["Divining Scroll", 3]
+      ]
+    },
+    {
+      "level": 2,
+      "baseATK": 62.2,
+      "cost": [
+        ["Chains of the Dandelion Gladiator", 5],
+        ["Chaos Device", 18],
+        ["Divining Scroll", 12]
+      ]
+    },
+    {
+      "level": 3,
+      "baseATK": 93.4,
+      "cost": [
+        ["Chains of the Dandelion Gladiator", 9],
+        ["Chaos Circuit", 9],
+        ["Sealed Scroll", 9]
+      ]
+    },
+    {
+      "level": 4,
+      "baseATK": 124.5,
+      "cost": [
+        ["Shackles of the Dandelion Gladiator", 5],
+        ["Chaos Circuit", 18],
+        ["Sealed Scroll", 14]
+      ]
+    },
+    {
+      "level": 5,
+      "baseATK": 155.6,
+      "cost": [
+        ["Shackles of the Dandelion Gladiator", 9],
+        ["Chaos Core", 14],
+        ["Forbidden Curse Scroll", 9]
+      ]
+    },
+    {
+      "level": 6,
+      "baseATK": 186.7,
+      "cost": [
+        ["Dream of the Dandelion Gladiator", 6],
+        ["Chaos Core", 27],
+        ["Forbidden Curse Scroll", 18]
+      ]
+    }
+  ],
+  "baseATK": 45.936,
+  "baseATKCurve": 11,
+  "subAttr": { "type": 4, "value": 0.108, "curve": 18 },
+  "affix": {
+    "name": "Wolfish Tracker",
+    "levels": [
+      { "attrs": [{ "type": 4, "value": 0.2 }], "params": [0.2, 0.4] },
+      { "attrs": [{ "type": 4, "value": 0.25 }], "params": [0.25, 0.5] },
+      { "attrs": [{ "type": 4, "value": 0.3 }], "params": [0.3, 0.6] },
+      { "attrs": [{ "type": 4, "value": 0.35 }], "params": [0.35, 0.7] },
+      { "attrs": [{ "type": 4, "value": 0.4 }], "params": [0.4, 0.8] }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": 15201,
+  "name": "SeasonedHuntersBow",
+  "rarity": 2,
+  "type": 2,
+  "promoteStages": [
+    {
+      "level": 1,
+      "baseATK": 11.7,
+      "cost": [
+        ["Boreal Wolf's Milk Tooth", 1],
+        ["Dead Ley Line Branch", 1],
+        ["Treasure Hoarder Insignia", 1]
+      ]
+    },
+    {
+      "level": 2,
+      "baseATK": 23.3,
+      "cost": [
+        ["Boreal Wolf's Cracked Tooth", 1],
+        ["Dead Ley Line Branch", 5],
+        ["Treasure Hoarder Insignia", 4]
+      ]
+    },
+    {
+      "level": 3,
+      "baseATK": 35,
+      "cost": [
+        ["Boreal Wolf's Cracked Tooth", 3],
+        ["Dead Ley Line Leaves", 3],
+        ["Silver Raven Insignia", 3]
+      ]
+    },
+    {
+      "level": 4,
+      "baseATK": 46.7,
+      "cost": [
+        ["Boreal Wolf's Broken Fang", 1],
+        ["Dead Ley Line Leaves", 5],
+        ["Silver Raven Insignia", 4]
+      ]
+    }
+  ],
+  "baseATK": 32.93,
+  "baseATKCurve": 1
+}

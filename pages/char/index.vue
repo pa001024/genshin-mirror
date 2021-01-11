@@ -34,7 +34,7 @@
 
               <v-list-item-content>
                 <v-list-item-title>
-                  {{ $t(`char.${item.name}`) }}
+                  {{ $t(`${item.name}`) }}
                 </v-list-item-title>
               </v-list-item-content>
             </v-list-item>
@@ -59,7 +59,11 @@ interface FilterOption {
   // server
   async asyncData({ $content, app }) {
     const rst: Partial<Page> = { data: null, page: null };
-    const res = (await $content("common/char").only(["name", "region", "element", "gender", "rarity"]).sortBy("region", "asc").fetch().catch()) as any;
+    const res = (await $content("common/char")
+      .only(["name", "region", "element", "gender", "rarity", "weapon"])
+      .sortBy("region", "asc")
+      .fetch()
+      .catch()) as any;
     rst.data = res;
     if (rst.data) {
       rst.page = await $content(app.i18n.locale, "char").fetch().catch(console.error);
@@ -95,6 +99,10 @@ export default class Page extends Vue {
     return [...new Set(this.data?.map(v => v.rarity) || [])].map(v => ({ text: this.$t("rarity." + v) as string, prop: "rarity", value: v }));
   }
 
+  get weapons(): FilterOption[] {
+    return [...new Set(this.data?.map(v => v.weapon) || [])].map(v => ({ text: this.$t("weapon." + v) as string, prop: "weapon", value: v }));
+  }
+
   get filters() {
     return [
       { header: this.$t("region.title") },
@@ -108,6 +116,9 @@ export default class Page extends Vue {
       { divider: true },
       { header: this.$t("rarity.title") },
       ...this.rarities,
+      { divider: true },
+      { header: this.$t("weapon.title") },
+      ...this.weapons,
     ];
   }
 

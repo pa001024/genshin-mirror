@@ -1,0 +1,75 @@
+{
+  "id": 11303,
+  "name": "TravelersHandySword",
+  "rarity": 3,
+  "type": 1,
+  "promoteStages": [
+    {
+      "level": 1,
+      "baseATK": 19.5,
+      "cost": [
+        ["Fetters of the Dandelion Gladiator", 2],
+        ["Chaos Device", 2],
+        ["Divining Scroll", 1]
+      ]
+    },
+    {
+      "level": 2,
+      "baseATK": 38.9,
+      "cost": [
+        ["Chains of the Dandelion Gladiator", 2],
+        ["Chaos Device", 8],
+        ["Divining Scroll", 5]
+      ]
+    },
+    {
+      "level": 3,
+      "baseATK": 58.4,
+      "cost": [
+        ["Chains of the Dandelion Gladiator", 4],
+        ["Chaos Circuit", 4],
+        ["Sealed Scroll", 4]
+      ]
+    },
+    {
+      "level": 4,
+      "baseATK": 77.8,
+      "cost": [
+        ["Shackles of the Dandelion Gladiator", 2],
+        ["Chaos Circuit", 8],
+        ["Sealed Scroll", 6]
+      ]
+    },
+    {
+      "level": 5,
+      "baseATK": 97.3,
+      "cost": [
+        ["Shackles of the Dandelion Gladiator", 4],
+        ["Chaos Core", 6],
+        ["Forbidden Curse Scroll", 4]
+      ]
+    },
+    {
+      "level": 6,
+      "baseATK": 116.7,
+      "cost": [
+        ["Dream of the Dandelion Gladiator", 3],
+        ["Chaos Core", 12],
+        ["Forbidden Curse Scroll", 8]
+      ]
+    }
+  ],
+  "baseATK": 39.875,
+  "baseATKCurve": 2,
+  "subAttr": { "type": 6, "value": 0.063733, "curve": 16 },
+  "affix": {
+    "name": "Journey",
+    "levels": [
+      { "attrs": [], "params": [0.01, 1] },
+      { "attrs": [], "params": [0.0125, 1] },
+      { "attrs": [], "params": [0.015, 1] },
+      { "attrs": [], "params": [0.0175, 1] },
+      { "attrs": [], "params": [0.02, 1] }
+    ]
+  }
+}

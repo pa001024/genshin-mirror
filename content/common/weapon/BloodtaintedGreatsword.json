@@ -1,0 +1,75 @@
+{
+  "id": 12302,
+  "name": "BloodtaintedGreatsword",
+  "rarity": 3,
+  "type": 4,
+  "promoteStages": [
+    {
+      "level": 1,
+      "baseATK": 19.5,
+      "cost": [
+        ["Boreal Wolf's Milk Tooth", 2],
+        ["Dead Ley Line Branch", 2],
+        ["Firm Arrowhead", 1]
+      ]
+    },
+    {
+      "level": 2,
+      "baseATK": 38.9,
+      "cost": [
+        ["Boreal Wolf's Cracked Tooth", 2],
+        ["Dead Ley Line Branch", 8],
+        ["Firm Arrowhead", 5]
+      ]
+    },
+    {
+      "level": 3,
+      "baseATK": 58.4,
+      "cost": [
+        ["Boreal Wolf's Cracked Tooth", 4],
+        ["Dead Ley Line Leaves", 4],
+        ["Sharp Arrowhead", 4]
+      ]
+    },
+    {
+      "level": 4,
+      "baseATK": 77.8,
+      "cost": [
+        ["Boreal Wolf's Broken Fang", 2],
+        ["Dead Ley Line Leaves", 8],
+        ["Sharp Arrowhead", 6]
+      ]
+    },
+    {
+      "level": 5,
+      "baseATK": 97.3,
+      "cost": [
+        ["Boreal Wolf's Broken Fang", 4],
+        ["Ley Line Sprout", 6],
+        ["Weathered Arrowhead", 4]
+      ]
+    },
+    {
+      "level": 6,
+      "baseATK": 116.7,
+      "cost": [
+        ["Boreal Wolf's Nostalgia", 3],
+        ["Ley Line Sprout", 12],
+        ["Weathered Arrowhead", 8]
+      ]
+    }
+  ],
+  "baseATK": 37.607,
+  "baseATKCurve": 4,
+  "subAttr": { "type": 8, "value": 40.8, "curve": 16 },
+  "affix": {
+    "name": "Bane of Fire and Thunder",
+    "levels": [
+      { "attrs": [], "params": [0.12] },
+      { "attrs": [], "params": [0.15] },
+      { "attrs": [], "params": [0.18] },
+      { "attrs": [], "params": [0.21] },
+      { "attrs": [], "params": [0.24] }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": 12101,
+  "name": "WasterGreatsword",
+  "rarity": 1,
+  "type": 4,
+  "promoteStages": [
+    {
+      "level": 1,
+      "baseATK": 11.7,
+      "cost": [
+        ["Boreal Wolf's Milk Tooth", 1],
+        ["Dead Ley Line Branch", 1],
+        ["Slime Condensate", 1]
+      ]
+    },
+    {
+      "level": 2,
+      "baseATK": 23.3,
+      "cost": [
+        ["Boreal Wolf's Cracked Tooth", 1],
+        ["Dead Ley Line Branch", 4],
+        ["Slime Condensate", 2]
+      ]
+    },
+    {
+      "level": 3,
+      "baseATK": 35,
+      "cost": [
+        ["Boreal Wolf's Cracked Tooth", 2],
+        ["Dead Ley Line Leaves", 2],
+        ["Slime Secretions", 2]
+      ]
+    },
+    {
+      "level": 4,
+      "baseATK": 46.7,
+      "cost": [
+        ["Boreal Wolf's Broken Fang", 1],
+        ["Dead Ley Line Leaves", 4],
+        ["Slime Secretions", 3]
+      ]
+    }
+  ],
+  "baseATK": 23.245,
+  "baseATKCurve": 1
+}

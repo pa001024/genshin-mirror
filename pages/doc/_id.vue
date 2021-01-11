@@ -20,7 +20,7 @@ import { Vue, Component } from "vue-property-decorator";
   // set html header
   head() {
     // Set Meta Tags for this Page
-    const title = this.$t("title.sub", [this.$t(`char.${this.id}`)]) as string;
+    const title = this.$t("title.sub", [this.$t(`${this.id}`)]) as string;
     return { title };
   },
 })
@@ -29,7 +29,7 @@ export default class Page extends Vue {
   page: any = null;
 
   get localeName() {
-    return this.$te(`char.${this.id}`) ? this.$t(`char.${this.id}`) : this.id;
+    return this.$te(`${this.id}`) ? this.$t(`${this.id}`) : this.id;
   }
 }
 </script>

@@ -1,0 +1,75 @@
+{
+  "id": 12402,
+  "name": "TheBell",
+  "rarity": 4,
+  "type": 4,
+  "promoteStages": [
+    {
+      "level": 1,
+      "baseATK": 25.9,
+      "cost": [
+        ["Tile of Decarabian's Tower", 3],
+        ["Heavy Horn", 3],
+        ["Whopperflower Nectar", 2]
+      ]
+    },
+    {
+      "level": 2,
+      "baseATK": 51.9,
+      "cost": [
+        ["Debris of Decarabian's City", 3],
+        ["Heavy Horn", 12],
+        ["Whopperflower Nectar", 8]
+      ]
+    },
+    {
+      "level": 3,
+      "baseATK": 77.8,
+      "cost": [
+        ["Debris of Decarabian's City", 6],
+        ["Black Bronze Horn", 6],
+        ["Shimmering Nectar", 6]
+      ]
+    },
+    {
+      "level": 4,
+      "baseATK": 103.7,
+      "cost": [
+        ["Fragment of Decarabian's Epic", 3],
+        ["Black Bronze Horn", 12],
+        ["Shimmering Nectar", 9]
+      ]
+    },
+    {
+      "level": 5,
+      "baseATK": 129.7,
+      "cost": [
+        ["Fragment of Decarabian's Epic", 6],
+        ["Black Crystal Horn", 9],
+        ["Energy Nectar", 6]
+      ]
+    },
+    {
+      "level": 6,
+      "baseATK": 155.6,
+      "cost": [
+        ["Scattered Piece of Decarabian's Dream", 4],
+        ["Black Crystal Horn", 18],
+        ["Energy Nectar", 12]
+      ]
+    }
+  ],
+  "baseATK": 42.401,
+  "baseATKCurve": 6,
+  "subAttr": { "type": 2, "value": 0.09, "curve": 17 },
+  "affix": {
+    "name": "Rebellious Guardian",
+    "levels": [
+      { "attrs": [], "params": [0.2, 45, 0.12] },
+      { "attrs": [], "params": [0.23, 45, 0.15] },
+      { "attrs": [], "params": [0.26, 45, 0.18] },
+      { "attrs": [], "params": [0.29, 45, 0.21] },
+      { "attrs": [], "params": [0.32, 45, 0.24] }
+    ]
+  }
+}

@@ -1,10 +1,9 @@
 import fs from "fs-extra";
 import chalk from "chalk";
-import { startCase } from "lodash";
 
 // extra
 import type { IWeapon, IWeaponPromoteStage } from "../../modules/core/interface";
-import { Dict, DATA_DIR, saveObject, itemMap, toAttrType, toCurve, toNum, toWeaponType, enLang, toAffix, locales } from "../util";
+import { Dict, DATA_DIR, saveObject, itemMap, toAttrType, toCurve, toNum, toWeaponType, enLang, toAffix, locales, toNormalName } from "../util";
 
 export async function run() {
   const data: WeaponData[] = await fs.readJSON(DATA_DIR + "Excel/WeaponExcelConfigData.json");
@@ -24,7 +23,7 @@ export async function run() {
 
   await Promise.all(
     data.map(async weapon => {
-      const name = startCase(enLang[weapon.NameTextMapHash]).replace(/ /g, "");
+      const name = toNormalName(weapon.NameTextMapHash);
       if (!name) {
         console.warn(`${chalk.red("[weapon]")} id ${weapon.Id} no translation skiped`);
         return;
@@ -39,6 +38,7 @@ export async function run() {
         type: toWeaponType(weapon.WeaponType),
         promoteStages: toPromoteStage(promote),
         baseATK: toNum(weapon.WeaponProp[0].InitValue!),
+        baseATKCurve: toCurve(weapon.WeaponProp[0].Type),
       };
       if (weapon.WeaponProp[1].PropType && weapon.WeaponProp[1].InitValue)
         rst.subAttr = {
@@ -54,12 +54,13 @@ export async function run() {
     })
   );
 
-  const localeKeys = [...allKeys.keys()].sort();
+  // 导出翻译
+  const localeKeys = [...allKeys.keys()];
   await Promise.all(
     Object.keys(locales).map(async locale => {
       const localeFile = await fs.readJSON(DATA_DIR + locales[locale]);
-      const localeData = localeKeys.reduce<Dict>((r, v) => ((r[v] = localeFile[v]), r), {});
-      saveObject("weapon_locales", locale + ".json", localeData);
+      const localeData = localeKeys.reduce<Dict>((r, v) => ((r[v] = localeFile[allKeys.get(v)!]), r), {});
+      await saveObject("weapon_locales", locale + ".json", localeData);
     })
   );
   function toPromoteStage(data: WeaponPromoteData[]): IWeaponPromoteStage[] {

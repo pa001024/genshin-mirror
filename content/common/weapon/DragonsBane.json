@@ -1,0 +1,75 @@
+{
+  "id": 13401,
+  "name": "DragonsBane",
+  "rarity": 4,
+  "type": 3,
+  "promoteStages": [
+    {
+      "level": 1,
+      "baseATK": 25.9,
+      "cost": [
+        ["Mist Veiled Lead Elixir", 3],
+        ["Mist Grass Pollen", 3],
+        ["Divining Scroll", 2]
+      ]
+    },
+    {
+      "level": 2,
+      "baseATK": 51.9,
+      "cost": [
+        ["Mist Veiled Mercury Elixir", 3],
+        ["Mist Grass Pollen", 12],
+        ["Divining Scroll", 8]
+      ]
+    },
+    {
+      "level": 3,
+      "baseATK": 77.8,
+      "cost": [
+        ["Mist Veiled Mercury Elixir", 6],
+        ["Mist Grass", 6],
+        ["Sealed Scroll", 6]
+      ]
+    },
+    {
+      "level": 4,
+      "baseATK": 103.7,
+      "cost": [
+        ["Mist Veiled Gold Elixir", 3],
+        ["Mist Grass", 12],
+        ["Sealed Scroll", 9]
+      ]
+    },
+    {
+      "level": 5,
+      "baseATK": 129.7,
+      "cost": [
+        ["Mist Veiled Gold Elixir", 6],
+        ["Mist Grass Wick", 9],
+        ["Forbidden Curse Scroll", 6]
+      ]
+    },
+    {
+      "level": 6,
+      "baseATK": 155.6,
+      "cost": [
+        ["Mist Veiled Primo Elixir", 4],
+        ["Mist Grass Wick", 18],
+        ["Forbidden Curse Scroll", 12]
+      ]
+    }
+  ],
+  "baseATK": 41.067,
+  "baseATKCurve": 9,
+  "subAttr": { "type": 8, "value": 48, "curve": 17 },
+  "affix": {
+    "name": "Bane of Flame and Water",
+    "levels": [
+      { "attrs": [], "params": [0.2] },
+      { "attrs": [], "params": [0.24] },
+      { "attrs": [], "params": [0.28] },
+      { "attrs": [], "params": [0.32] },
+      { "attrs": [], "params": [0.36] }
+    ]
+  }
+}

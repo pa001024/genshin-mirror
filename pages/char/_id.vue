@@ -1,5 +1,5 @@
 <template>
-  <div v-if="data" class="gsm-Character">
+  <div v-if="data" class="gsm-character">
     <v-card>
       <v-card-title>{{ localeName }}</v-card-title>
       <v-card-text>
@@ -44,7 +44,7 @@
           </v-row>
         </v-container>
       </v-card-text>
-      <v-card>
+      <v-card v-if="page" class="mt-3">
         <v-card-text>
           <nuxt-content :document="page" />
         </v-card-text>
@@ -58,10 +58,10 @@
 import { Vue, Component } from "vue-property-decorator";
 import { ICharacter } from "~/modules/core";
 
-@Component<Char>({
+@Component<Page>({
   // server
   async asyncData({ params: { id }, $content, app }) {
-    const rst: Partial<Char> = { id, data: null, page: null };
+    const rst: Partial<Page> = { id, data: null, page: null };
     if (id.includes("../")) return { id };
     const res = (await $content("common/char", id).fetch().catch(console.error)) as any;
     rst.data = res;
@@ -74,17 +74,17 @@ import { ICharacter } from "~/modules/core";
   // set html header
   head() {
     // Set Meta Tags for this Page
-    const title = this.$t("title.sub", [this.$t(`char.${this.id}`)]) as string;
+    const title = this.$t("title.sub", [this.$t(`${this.id}`)]) as string;
     return { title };
   },
 })
-export default class Char extends Vue {
+export default class Page extends Vue {
   id: string = "";
   data: ICharacter | null = null;
   page: any = null;
 
   get localeName() {
-    return this.$te(`char.${this.id}`) ? this.$t(`char.${this.id}`) : this.id;
+    return this.$te(`${this.id}`) ? this.$t(`${this.id}`) : this.id;
   }
 }
 </script>

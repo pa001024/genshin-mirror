@@ -1,0 +1,75 @@
+{
+  "id": 15306,
+  "name": "EbonyBow",
+  "rarity": 3,
+  "type": 2,
+  "promoteStages": [
+    {
+      "level": 1,
+      "baseATK": 19.5,
+      "cost": [
+        ["Grain of Aerosiderite", 2],
+        ["Fragile Bone Shard", 2],
+        ["Recruit's Insignia", 1]
+      ]
+    },
+    {
+      "level": 2,
+      "baseATK": 38.9,
+      "cost": [
+        ["Piece of Aerosiderite", 2],
+        ["Fragile Bone Shard", 8],
+        ["Recruit's Insignia", 5]
+      ]
+    },
+    {
+      "level": 3,
+      "baseATK": 58.4,
+      "cost": [
+        ["Piece of Aerosiderite", 4],
+        ["Sturdy Bone Shard", 4],
+        ["Sergeant's Insignia", 4]
+      ]
+    },
+    {
+      "level": 4,
+      "baseATK": 77.8,
+      "cost": [
+        ["Bit of Aerosiderite", 2],
+        ["Sturdy Bone Shard", 8],
+        ["Sergeant's Insignia", 6]
+      ]
+    },
+    {
+      "level": 5,
+      "baseATK": 97.3,
+      "cost": [
+        ["Bit of Aerosiderite", 4],
+        ["Fossilized Bone Shard", 6],
+        ["Lieutenant's Insignia", 4]
+      ]
+    },
+    {
+      "level": 6,
+      "baseATK": 116.7,
+      "cost": [
+        ["Chunk of Aerosiderite", 3],
+        ["Fossilized Bone Shard", 12],
+        ["Lieutenant's Insignia", 8]
+      ]
+    }
+  ],
+  "baseATK": 38.741,
+  "baseATKCurve": 1,
+  "subAttr": { "type": 4, "value": 0.0766, "curve": 16 },
+  "affix": {
+    "name": "Decimate",
+    "levels": [
+      { "attrs": [], "params": [0.4] },
+      { "attrs": [], "params": [0.5] },
+      { "attrs": [], "params": [0.6] },
+      { "attrs": [], "params": [0.7] },
+      { "attrs": [], "params": [0.8] }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": 14401,
+  "name": "FavoniusCodex",
+  "rarity": 4,
+  "type": 5,
+  "promoteStages": [
+    {
+      "level": 1,
+      "baseATK": 25.9,
+      "cost": [
+        ["Tile of Decarabian's Tower", 3],
+        ["Heavy Horn", 3],
+        ["Divining Scroll", 2]
+      ]
+    },
+    {
+      "level": 2,
+      "baseATK": 51.9,
+      "cost": [
+        ["Debris of Decarabian's City", 3],
+        ["Heavy Horn", 12],
+        ["Divining Scroll", 8]
+      ]
+    },
+    {
+      "level": 3,
+      "baseATK": 77.8,
+      "cost": [
+        ["Debris of Decarabian's City", 6],
+        ["Black Bronze Horn", 6],
+        ["Sealed Scroll", 6]
+      ]
+    },
+    {
+      "level": 4,
+      "baseATK": 103.7,
+      "cost": [
+        ["Fragment of Decarabian's Epic", 3],
+        ["Black Bronze Horn", 12],
+        ["Sealed Scroll", 9]
+      ]
+    },
+    {
+      "level": 5,
+      "baseATK": 129.7,
+      "cost": [
+        ["Fragment of Decarabian's Epic", 6],
+        ["Black Crystal Horn", 9],
+        ["Forbidden Curse Scroll", 6]
+      ]
+    },
+    {
+      "level": 6,
+      "baseATK": 155.6,
+      "cost": [
+        ["Scattered Piece of Decarabian's Dream", 4],
+        ["Black Crystal Horn", 18],
+        ["Forbidden Curse Scroll", 12]
+      ]
+    }
+  ],
+  "baseATK": 42.401,
+  "baseATKCurve": 6,
+  "subAttr": { "type": 7, "value": 0.1, "curve": 17 },
+  "affix": {
+    "name": "Windfall",
+    "levels": [
+      { "attrs": [], "params": [0.6, 12] },
+      { "attrs": [], "params": [0.7, 10.5] },
+      { "attrs": [], "params": [0.8, 9] },
+      { "attrs": [], "params": [0.9, 7.5] },
+      { "attrs": [], "params": [1, 6] }
+    ]
+  }
+}
