@@ -99,7 +99,7 @@ export default {
     theme: {
       themes: {
         light: {
-          primary: colors.purple,
+          primary: colors.indigo,
           secondary: colors.grey.darken1,
           accent: colors.shades.black,
           error: colors.red.accent3,
