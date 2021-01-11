@@ -1,7 +1,8 @@
 <template>
   <div v-if="data" class="gsm-character">
     <v-card>
-      <v-card-title>{{ localeName }}</v-card-title>
+      <v-card-title v-text="localeName" />
+      <v-card-subtitle v-if="$i18n.locale !== 'en'" v-text="$t(data.name, 'en')" />
       <v-card-text>
         <v-container>
           <v-row>

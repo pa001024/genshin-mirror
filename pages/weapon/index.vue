@@ -6,9 +6,7 @@
         <v-combobox v-model="filterOptions" :items="filters" :label="$t('ui.filter')" multiple chips clearable :item-value="d => d.prop + '=' + d.value">
           <template v-slot:selection="{ attrs, item, parent, selected }">
             <v-chip v-bind="attrs" :color="`${item.color} lighten-3`" :input-value="selected" label small>
-              <span class="pr-2">
-                {{ item.text }}
-              </span>
+              <span class="pr-2" v-text="item.text" />
               <v-icon small @click="parent.selectItem(item)">mdi-close</v-icon>
             </v-chip>
           </template>
@@ -26,20 +24,23 @@
             {{ item.subtitle }}
           </v-subheader>
           <!-- 内容 -->
-          <nuxt-link :key="item.name" :to="'weapon/' + item.name" class="nolink">
-            <v-list-item v-if="item.name">
+          <v-list-item v-if="item.name" :key="item.name">
+            <nuxt-link :to="'weapon/' + item.name" class="nolink">
               <v-list-item-action>
-                <Rarity :star="item.rarity" />
-                <!-- <v-avatar><CharImage :name="item.name" /></v-avatar> -->
-              </v-list-item-action>
-
-              <v-list-item-content>
                 <v-list-item-title>
-                  {{ $t(`${item.name}`) }}
+                  <WeaponImage :id="item.name" :fallback="item.type" />
                 </v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
-          </nuxt-link>
+                <v-list-item-subtitle align="center">
+                  <Rarity :star="item.rarity" fixed />
+                </v-list-item-subtitle>
+              </v-list-item-action>
+            </nuxt-link>
+
+            <v-list-item-content>
+              <v-list-item-title v-text="$t(item.name)" />
+              <v-list-item-subtitle v-if="$i18n.locale !== 'en'" v-text="$t(item.name, 'en')" />
+            </v-list-item-content>
+          </v-list-item>
         </template>
       </v-list>
     </v-card>
@@ -65,7 +66,7 @@ interface FilterOption {
       .sortBy("type", "asc")
       .sortBy("rarity", "desc")
       .fetch()
-      .catch()) as any;
+      .catch(console.error)) as any;
     rst.data = res;
     if (rst.data) {
       rst.page = await $content(app.i18n.locale, "weapon")
@@ -92,7 +93,7 @@ export default class Page extends Vue {
   }
 
   get rarities(): FilterOption[] {
-    return [...new Set(this.data?.map(v => v.rarity) || [])].map(v => ({ text: this.$t("rarity." + v) as string, prop: "rarity", value: v }));
+    return [...new Set(this.data?.map(v => v.rarity) || [])].map(v => ({ text: "★".repeat(v), prop: "rarity", value: v }));
   }
 
   get filters() {

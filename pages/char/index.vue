@@ -96,7 +96,7 @@ export default class Page extends Vue {
   }
 
   get rarities(): FilterOption[] {
-    return [...new Set(this.data?.map(v => v.rarity) || [])].map(v => ({ text: this.$t("rarity." + v) as string, prop: "rarity", value: v }));
+    return [...new Set(this.data?.map(v => v.rarity) || [])].map(v => ({ text: "★".repeat(v), prop: "rarity", value: v }));
   }
 
   get weapons(): FilterOption[] {

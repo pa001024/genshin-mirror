@@ -45,15 +45,15 @@ export class Character {
 
   /** 基础生命值 */
   get baseHP() {
-    const current = this.data.baseHP[this.ascensionLevel * 2];
-    const next = this.data.baseHP[this.ascensionLevel * 2 + 1];
+    const current = this.data.baseHP;
+    const next = this.data.baseHP;
     return current + (next - current) * this.baseLevel;
   }
 
   /** 人物基础攻击力 */
   get charBaseATK() {
-    const current = this.data.baseATK[this.ascensionLevel * 2];
-    const next = this.data.baseATK[this.ascensionLevel * 2 + 1];
+    const current = this.data.baseATK;
+    const next = this.data.baseATK;
     return current + (next - current) * this.baseLevel;
   }
 
@@ -64,8 +64,8 @@ export class Character {
 
   /** 基础防御力 */
   get baseDEF() {
-    const current = this.data.baseDEF[this.ascensionLevel * 2];
-    const next = this.data.baseDEF[this.ascensionLevel * 2 + 1];
+    const current = this.data.baseDEF;
+    const next = this.data.baseDEF;
     return current + (next - current) * this.baseLevel;
   }
 
