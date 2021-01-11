@@ -14,7 +14,7 @@
             <v-col cols="6" sm="4" md="2">
               <v-card class="info-block">
                 <v-card-title class="info-title">{{ $t("rarity.title") }}</v-card-title>
-                <v-card-text class="info-content">{{ $t(`rarity.${data.rarity}`) }}</v-card-text>
+                <v-card-text class="info-content"><Rarity :star="data.rarity" /></v-card-text>
               </v-card>
             </v-col>
             <v-col cols="6" sm="4" md="2">

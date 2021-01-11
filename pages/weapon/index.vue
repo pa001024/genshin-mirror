@@ -28,9 +28,10 @@
           <!-- 内容 -->
           <nuxt-link :key="item.name" :to="'weapon/' + item.name" class="nolink">
             <v-list-item v-if="item.name">
-              <!-- <v-list-item-action>
-                <v-avatar><CharImage :name="item.name" /></v-avatar>
-              </v-list-item-action> -->
+              <v-list-item-action>
+                <Rarity :star="item.rarity" />
+                <!-- <v-avatar><CharImage :name="item.name" /></v-avatar> -->
+              </v-list-item-action>
 
               <v-list-item-content>
                 <v-list-item-title>

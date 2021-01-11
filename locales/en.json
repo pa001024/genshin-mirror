@@ -6,14 +6,23 @@
     "char": "Character",
     "weapon": "Weapon"
   },
+  "gender": {
+    "0": "Female",
+    "1": "Male",
+    "title": "Gender"
+  },
+  "rarity": {
+    "title": "Rarity"
+  },
   "element": {
-    "Anemo": "Anemo",
-    "Geo": "Geo",
-    "Electro": "Electro",
-    "Dendro": "Dendro",
-    "Hydro": "Hydro",
-    "Pyro": "Pyro",
-    "Cryo": "Cryo"
+    "0": "None",
+    "1": "Anemo",
+    "2": "Geo",
+    "3": "Electro",
+    "4": "Dendro",
+    "5": "Hydro",
+    "6": "Pyro",
+    "7": "Cryo"
   },
   "resonance": {
     "ProtectiveCanopy": "Protective Canopy",
