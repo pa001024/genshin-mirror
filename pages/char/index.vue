@@ -20,22 +20,27 @@
       <v-list>
         <template v-for="(item, index) in items">
           <!-- 分割线 -->
-          <v-divider v-if="index > 0 && item.subtitle" :key="index"></v-divider>
+          <v-divider v-if="index > 0 && item.subtitle" :key="index" />
           <!-- 分类标题 -->
-          <v-subheader v-if="item.subtitle" :key="item.subtitle">
-            {{ item.subtitle }}
-          </v-subheader>
+          <v-subheader v-if="item.subtitle" :key="item.subtitle" v-text="item.subtitle" />
           <!-- 内容 -->
           <nuxt-link :key="item.name" :to="'char/' + item.name" class="nolink">
             <v-list-item v-if="item.name">
               <v-list-item-action>
-                <v-avatar><CharImage :name="item.name" /></v-avatar>
+                <v-list-item-title>
+                  <CharImage :name="item.name" :element="item.element" avatar :size="48" />
+                </v-list-item-title>
+                <v-list-item-subtitle align="center">
+                  <Rarity :star="item.rarity" fixed />
+                </v-list-item-subtitle>
               </v-list-item-action>
 
               <v-list-item-content>
-                <v-list-item-title>
-                  {{ $t(`${item.name}`) }}
-                </v-list-item-title>
+                <v-list-item-title v-text="$t(item.name)" />
+                <v-list-item-subtitle v-if="$i18n.locale !== 'en'" v-text="$t(item.name, 'en')" />
+                <!-- <v-list-item-content>
+                  <v-chip v-text="$t(`weapon.${item.weapon}`)" />
+                </v-list-item-content> -->
               </v-list-item-content>
             </v-list-item>
           </nuxt-link>
