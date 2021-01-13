@@ -6,6 +6,7 @@ import { InjectedMenu } from "~/types/store";
 const initialState = {
   user: "null",
   injectedMenu: [] as InjectedMenu[],
+  travelerGender: 0,
 };
 type AppState = typeof initialState;
 
@@ -17,8 +18,8 @@ const vuexLocal = new VuexPersistence<AppState>({
 export const plugins = [vuexLocal.plugin];
 export const state = (): AppState => initialState;
 export const mutations: MutationTree<AppState> = {
-  setAuth(state, auth) {
-    state.user = auth;
+  setTravelerGender(state, v) {
+    state.travelerGender = v;
   },
 };
 export const actions: ActionTree<AppState, {}> = {
@@ -37,4 +38,5 @@ export const actions: ActionTree<AppState, {}> = {
 };
 export const getters: GetterTree<AppState, {}> = {
   injectedMenu: ({ injectedMenu }) => injectedMenu,
+  travelerGender: ({ travelerGender }) => travelerGender,
 };

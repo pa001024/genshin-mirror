@@ -1,18 +1,26 @@
 <template>
-  <v-row justify="center" align="center">
-    <v-col cols="12" sm="8" md="6">
-      语言
-      <div class="switch-lang">
-        <v-btn v-for="locale in availableLocales" :key="locale.code" :disabled="$i18n.locale === locale.code" @click="changeLang(locale.code)">{{
-          locale.name
-        }}</v-btn>
-      </div>
-    </v-col>
-  </v-row>
+  <v-form ref="form">
+    <v-container>
+      <!-- <v-row>
+        <v-col cols="12" md="4"> -->
+      <v-radio-group :value="travelerGender" row @change="setTravelerGender($event)">
+        <template v-slot:label>{{ $t("ui.travelerGender") }}</template>
+        <v-radio v-for="gender in [0, 1]" :key="gender" :label="$t(`gender.${gender}`)" :value="gender"></v-radio>
+      </v-radio-group>
+      <v-radio-group :value="$i18n.locale" row @change="changeLang">
+        <template v-slot:label>{{ $t("ui.language") }}</template>
+        <v-radio v-for="locale in availableLocales" :key="locale.code" :label="locale.name" :value="locale.code"></v-radio>
+      </v-radio-group>
+      <!-- </v-col>
+      </v-row> -->
+      <v-btn color="error" class="mr-4" @click="reset" v-text="$t('ui.reset')" />
+    </v-container>
+  </v-form>
 </template>
 
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
+import { Getter, Mutation } from "vuex-class";
 
 @Component({
   head() {
@@ -22,14 +30,22 @@ import { Vue, Component } from "vue-property-decorator";
   },
 })
 export default class IndexPage extends Vue {
+  @Getter("app/travelerGender") travelerGender!: number;
+  @Mutation("app/setTravelerGender") setTravelerGender!: (v: number) => void;
+
   get availableLocales() {
     return this.$i18n.locales?.filter((v: any) => v.name);
   }
 
-  changeLang(code: string) {
-    // eslint-disable-next-line no-console
-    console.log("set locale to", code);
-    this.$i18n.setLocale(code);
+  changeLang(code?: string) {
+    const to = code || this.$i18n.defaultLocale || "en";
+    console.log("set locale to", to);
+    this.$i18n.setLocale(to);
+  }
+
+  reset() {
+    this.changeLang();
+    this.setTravelerGender(0);
   }
 }
 </script>
