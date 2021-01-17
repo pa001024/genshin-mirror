@@ -1,4 +1,4 @@
-import { ArtifactSeries, ArtifactType, BuffCondition, BuffType, ElementType, Region, WeaponType, BuffTarget, ReactionType } from "./enum";
+import { ArtifactSeries, ArtifactType, BuffCondition, BuffType, ElementType, Region, WeaponType, BuffTarget, ReactionType, BodyType } from "./enum";
 
 /** 武器 */
 export interface IWeapon {
@@ -41,7 +41,7 @@ export interface IArtifact {
 }
 
 /** 角色 */
-export interface ICharacter {
+export interface IAvatar {
   /**
    * 名字
    *
@@ -49,6 +49,21 @@ export interface ICharacter {
    * @example 迪卢克
    */
   name: string;
+
+  /**
+   * 描述
+   *
+   * @type {string}
+   */
+  desc: string;
+
+  /**
+   * 体型
+   *
+   * @type {BodyType}
+   */
+  bodyType: BodyType;
+
   /**
    * 地区
    *
@@ -56,13 +71,7 @@ export interface ICharacter {
    * @example 1(蒙德)
    */
   region: Region;
-  /**
-   * 性别
-   *
-   * @type {(0 | 1)}
-   * @example 1(男)
-   */
-  gender: 0 | 1;
+
   /**
    * 稀有度
    *
@@ -93,7 +102,7 @@ export interface ICharacter {
 
   /** 普通攻击 */ attack?: IAttackGroup;
   /** 元素战技 */ elementalSkill?: ISkill;
-  /** 元素爆发 */ elementalBurst?: ISkill;
+  /** 元素爆发 */ elementalBurst?: ISkill & IElemSkill;
   /** 天赋 */ talents?: ITalent[];
   /** 命座提升 */ constellations?: IConstellation[];
 }
@@ -136,6 +145,10 @@ export interface ISkill {
   cd: number;
   charges?: number;
   attrs: ISkillAttribute[];
+}
+
+export interface IElemSkill {
+  costElemVal: number;
 }
 
 /** 技能参数 */

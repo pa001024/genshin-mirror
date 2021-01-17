@@ -1,12 +1,17 @@
 <template>
   <v-container class="weapon">
-    <v-row justify="center" align="center">
+    <v-row>
+      <v-col cols="12">
+        <nuxt-content :document="page" />
+      </v-col>
+    </v-row>
+    <!-- <v-row justify="center" align="center">
       <v-col cols="12" sm="8" md="6">
         <nuxt-link to="/login" class="nolink">
           <v-btn block>{{ $t("ui.login") }}</v-btn>
         </nuxt-link>
       </v-col>
-    </v-row>
+    </v-row> -->
   </v-container>
 </template>
 
@@ -17,17 +22,13 @@ import { Vue, Component } from "vue-property-decorator";
   // server
   async asyncData({ $content }) {
     const rst: Partial<Page> = { page: null };
-    rst.page = await $content("todo")
-      .fetch()
-      .catch(err => {
-        console.error(err);
-      });
+    rst.page = await $content("todo").fetch().catch(console.error);
     return rst;
   },
   // set html header
   head() {
     // Set Meta Tags for this Page
-    const title = this.$t("title.char") as string;
+    const title = this.$t("title.avatar") as string;
     return { title };
   },
 })

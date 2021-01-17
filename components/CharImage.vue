@@ -1,10 +1,10 @@
 <template>
-  <div class="char-image">
+  <div class="avatar-image">
     <v-avatar v-if="avatar" :width="size" :height="size">
       <img :src="url" />
     </v-avatar>
     <img v-else :src="url" :width="size" :height="size" />
-    <GsIcon v-if="elementIcon" :type="elementIcon" class="char-element-icon" />
+    <GsIcon v-if="elementIcon" :type="elementIcon" class="avatar-element-icon" />
   </div>
 </template>
 <script lang="ts">
@@ -20,7 +20,7 @@ export default class CharImage extends Vue {
   @Prop({ type: Boolean }) avatar!: boolean;
 
   get url() {
-    return "/img/char/" + this.type + "/" + this.name + ".png";
+    return "/img/avatar/" + this.type + "/" + this.name + ".png";
   }
 
   get elementIcon(): string {
@@ -41,7 +41,7 @@ export default class CharImage extends Vue {
 <style lang="less">
 @import "~/assets/global.less";
 
-.char-image {
+.avatar-image {
   display: inline-block;
   user-select: none;
   width: inherit;
@@ -49,7 +49,7 @@ export default class CharImage extends Vue {
   position: relative;
   padding: 0 8px;
 }
-.char-element-icon {
+.avatar-element-icon {
   && {
     position: absolute;
     width: 20px;

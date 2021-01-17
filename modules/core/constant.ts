@@ -2,7 +2,7 @@ import { ArtifactSeries, BuffCondition, BuffTarget, BuffType, ElementType, React
 import { IArtifactSetBonus, IBuff } from "./interface";
 
 /** 角色 */
-export namespace CHARACTER {
+export namespace AVATAR {
   /** 突破对应等级上限 */
   export const MAX_BASE_LEVEL = [20, 40, 50, 60, 70, 80, 90];
   /** 需要冒险等级 */
@@ -620,7 +620,7 @@ export namespace ARTIFACT {
     [ArtifactSeries.MaidenBeloved]: [
       {
         pieces: 2,
-        // Character Healing Effectiveness +15%
+        // Avatar Healing Effectiveness +15%
         buffs: [{ type: BuffType.Heal, value: 0.15 }],
       },
       {
@@ -661,7 +661,7 @@ export namespace ARTIFACT {
       },
       {
         pieces: 4,
-        // Increases Charged Attack DMG by 35% if the character uses a Catalyst or Bow.
+        // Increases Charged Attack DMG by 35% if the avatar uses a Catalyst or Bow.
         buffs: [{ type: BuffType.AllDMG, value: 0.35, target: BuffTarget.ChargeAttack, cond: BuffCondition.Expression, expr: "WeaponType = Ranged" }],
       },
     ],
@@ -769,7 +769,7 @@ export namespace ARTIFACT {
       },
       {
         pieces: 4,
-        // When a character attacks an enemy affected by Cryo, their CRIT Rate is increased by 20%. If the enemy is Frozen, CRIT Rate is increased by an additional 20%.
+        // When a avatar attacks an enemy affected by Cryo, their CRIT Rate is increased by 20%. If the enemy is Frozen, CRIT Rate is increased by an additional 20%.
         buffs: [
           { type: BuffType.CRITRate, value: 0.2, cond: BuffCondition.ElementalAffect, element: ElementType.Cryo },
           { type: BuffType.CRITRate, value: 0.2, cond: BuffCondition.Frozen, element: ElementType.Cryo },

@@ -1,10 +1,10 @@
-import { CHARACTER } from "./constant";
+import { AVATAR } from "./constant";
 import { BuffType } from "./enum";
-import { IArtifact, ICharacter, Weapon } from ".";
+import { IArtifact, IAvatar, Weapon } from ".";
 
-export class Character {
+export class Avatar {
   /** 静态数据 */
-  readonly data: ICharacter;
+  readonly data: IAvatar;
 
   /// 动态数据
   /** 角色等级 */
@@ -20,26 +20,26 @@ export class Character {
   /** 圣遗物 */
   artifacts: IArtifact[] = [];
 
-  constructor(data: ICharacter) {
+  constructor(data: IAvatar) {
     this.data = data;
   }
 
   /** 突破层基础等级 */
   get baseLevel() {
-    return this.level - CHARACTER.MAX_BASE_LEVEL[this.ascensionLevel];
+    return this.level - AVATAR.MAX_BASE_LEVEL[this.ascensionLevel];
   }
 
   /** 升级所需经验 */
   get levelCostExp() {
-    const last = CHARACTER.EXP_COST[this.ascensionLevel - 1] || 0;
-    const current = CHARACTER.EXP_COST[this.ascensionLevel];
+    const last = AVATAR.EXP_COST[this.ascensionLevel - 1] || 0;
+    const current = AVATAR.EXP_COST[this.ascensionLevel];
     return current - (current - last) * this.baseLevel;
   }
 
   /** 升级所需摩拉 */
   get levelCostGold() {
-    const last = CHARACTER.GOLD_COST[this.ascensionLevel - 1] || 0;
-    const current = CHARACTER.GOLD_COST[this.ascensionLevel];
+    const last = AVATAR.GOLD_COST[this.ascensionLevel - 1] || 0;
+    const current = AVATAR.GOLD_COST[this.ascensionLevel];
     return current - (current - last) * this.baseLevel;
   }
 

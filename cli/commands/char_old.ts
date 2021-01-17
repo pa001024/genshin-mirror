@@ -6,7 +6,7 @@ import { URL } from "url";
 import { JSDOM } from "jsdom";
 
 // extra
-import type { ICharacter } from "../../modules/core/interface";
+import type { IAvatar } from "../../modules/core/interface";
 import { BuffType, ElementType, Region, WeaponType } from "../../modules/core/enum";
 import { saveObject } from "../util";
 
@@ -70,10 +70,10 @@ export async function run() {
       const urlName = name.replace(/[()]/g, "").replace(" ", "_").toLowerCase();
       const charPage$ = await loadPage(`https://genshin.honeyhunterworld.com/db/char/${urlName}/`);
 
-      const char: ICharacter = {
+      const char: IAvatar = {
         name,
         element: toElement(charPage$("#live_data > table:nth-child(1) tr:nth-child(6) > td:nth-child(2) > img").attr("src")!),
-        gender: toGender(name),
+        // gender: toGender(name),
         rarity: charPage$("#live_data .item_main_table .sea_char_stars").length,
         region: toRegion(name, charPage$("#scroll_stories ~ table:first tr:nth-child(2)").text()),
         weapon: toWeaponType(charPage$("#live_data > table:nth-child(1) tr:nth-child(5) > td:nth-child(2)").text()),

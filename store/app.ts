@@ -1,6 +1,5 @@
 import { GetterTree, ActionTree, MutationTree } from "vuex";
-import { AsyncStorage, VuexPersistence } from "vuex-persist";
-import localforage from "localforage";
+import { vuexPersistenceInstance } from "~/plugins/vuex-persist";
 import { InjectedMenu } from "~/types/store";
 
 const initialState = {
@@ -10,32 +9,14 @@ const initialState = {
 };
 type AppState = typeof initialState;
 
-const vuexLocal = new VuexPersistence<AppState>({
-  storage: localforage as AsyncStorage,
-  asyncStorage: true,
-});
-
-export const plugins = [vuexLocal.plugin];
+export const plugins = [vuexPersistenceInstance.plugin];
 export const state = (): AppState => initialState;
 export const mutations: MutationTree<AppState> = {
   setTravelerGender(state, v) {
     state.travelerGender = v;
   },
 };
-export const actions: ActionTree<AppState, {}> = {
-  // nuxtServerInit({ commit }, { req }) {
-  //   let auth = null;
-  //   if (req.headers.cookie) {
-  //     const parsed = cookieparser.parse(req.headers.cookie);
-  //     try {
-  //       auth = JSON.parse(parsed.auth);
-  //     } catch (err) {
-  //       // No valid cookie found
-  //     }
-  //   }
-  //   commit("setAuth", auth);
-  // },
-};
+export const actions: ActionTree<AppState, {}> = {};
 export const getters: GetterTree<AppState, {}> = {
   injectedMenu: ({ injectedMenu }) => injectedMenu,
   travelerGender: ({ travelerGender }) => travelerGender,

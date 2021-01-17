@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <!-- 筛选 -->
-    <v-card class="char-filter mb-3">
+    <v-card class="avatar-filter mb-3">
       <v-card-text>
         <v-combobox v-model="filterOptions" :items="filters" :label="$t('ui.filter')" multiple chips clearable :item-value="d => d.prop + '=' + d.value">
           <template v-slot:selection="{ attrs, item, parent, selected }">
@@ -24,7 +24,7 @@
           <!-- 分类标题 -->
           <v-subheader v-if="item.subtitle" :key="item.subtitle" v-text="item.subtitle" />
           <!-- 内容 -->
-          <nuxt-link :key="item.name" :to="'char/' + item.name" class="nolink">
+          <nuxt-link :key="item.name" :to="'avatar/' + item.name" class="nolink">
             <v-list-item v-if="item.name">
               <v-list-item-action>
                 <v-list-item-title>
@@ -52,11 +52,11 @@
 
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
-import { ICharacter } from "~/modules/core";
+import { IAvatar } from "~/modules/core";
 
 interface FilterOption {
   text: string;
-  prop: keyof ICharacter;
+  prop: keyof IAvatar;
   value: any;
 }
 
@@ -64,26 +64,26 @@ interface FilterOption {
   // server
   async asyncData({ $content, app }) {
     const rst: Partial<Page> = { data: null, page: null };
-    const res = (await $content("common/char")
+    const res = (await $content("common/avatar")
       .only(["name", "region", "element", "gender", "rarity", "weapon"])
       .sortBy("region", "asc")
       .fetch()
       .catch()) as any;
     rst.data = res;
     if (rst.data) {
-      rst.page = await $content(app.i18n.locale, "char").fetch().catch(console.error);
+      rst.page = await $content(app.i18n.locale, "avatar").fetch().catch(console.error);
     }
     return rst;
   },
   // set html header
   head() {
     // Set Meta Tags for this Page
-    const title = this.$t("title.char") as string;
+    const title = this.$t("title.avatar") as string;
     return { title };
   },
 })
 export default class Page extends Vue {
-  data: ICharacter[] | null = null;
+  data: IAvatar[] | null = null;
   page: any = null;
 
   filterOptions: FilterOption[] = [];
@@ -92,9 +92,9 @@ export default class Page extends Vue {
     return [...new Set(this.data?.map(v => v.region) || [])].map(v => ({ text: this.$t("region." + v) as string, prop: "region", value: v }));
   }
 
-  get genders(): FilterOption[] {
-    return [0, 1].map(v => ({ text: this.$t("gender." + v) as string, prop: "gender", value: v }));
-  }
+  // get genders(): FilterOption[] {
+  //   return [0, 1].map(v => ({ text: this.$t("gender." + v) as string, prop: "gender", value: v }));
+  // }
 
   get elements(): FilterOption[] {
     return [...new Set(this.data?.map(v => v.element) || [])].map(v => ({ text: this.$t("element." + v) as string, prop: "element", value: v }));
@@ -113,9 +113,9 @@ export default class Page extends Vue {
       { header: this.$t("region.title") },
       ...this.regions,
       { divider: true },
-      { header: this.$t("gender.title") },
-      ...this.genders,
-      { divider: true },
+      // { header: this.$t("gender.title") },
+      // ...this.genders,
+      // { divider: true },
       { header: this.$t("element.title") },
       ...this.elements,
       { divider: true },
@@ -136,7 +136,7 @@ export default class Page extends Vue {
         }
         r.push(item);
         return r;
-      }, [] as Partial<ICharacter & { subtitle: string }>[]);
+      }, [] as Partial<IAvatar & { subtitle: string }>[]);
   }
 
   json(a: any) {

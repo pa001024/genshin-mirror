@@ -1,53 +1,72 @@
 // 数据处理
-// require('../../../GenshinData/Excel/')
 import chalk from "chalk";
 import { program } from "commander";
 
-// commands
-import * as icon from "./commands/icon";
-import * as char from "./commands/char";
-import * as curve from "./commands/curve";
-import * as weapon from "./commands/weapon";
-import * as mainattr from "./commands/mainattr";
-import * as subattr from "./commands/subattr";
-
 program.version("0.0.1");
 
-program.option("-d, --debug", "output extra debugging");
-program.option("-i, --icon", "只处理icon");
-program.option("-c, --curve", "只处理curve");
-program.option("-w, --weapon", "只处理weapon");
-program.option("-m, --mainattr", "只处理mainattr");
-program.option("-a, --subattr", "只处理subattr");
+program.option("-o, --output", "输出到content目录");
+program.option("--icon", "处理icon");
+program.option("-a, --avatar", "处理char");
+program.option("-c, --curve", "处理curve");
+program.option("-w, --weapon", "处理weapon");
+program.option("-i, --item", "处理item");
+program.option("-s, --subattr", "处理subattr");
+program.option("-e, --enemy", "处理enemy");
+program
+  .command("clear")
+  .description("清空")
+  .action(async args => {
+    await runCommand("clear");
+  });
+program
+  .command("parse")
+  .aliases(["p"])
+  .description("处理")
+  .action(async args => {
+    // 输出前清理
+    if (program.output) {
+      console.log(`${chalk.green("[CLI]")} output to content...`);
+      await runCommand("clear");
+    }
+
+    // 对象处理
+    if (program.icon) {
+      console.log(`${chalk.green("[CLI]")} processing icon...`);
+      await runCommand("icon");
+    }
+    if (program.curve) {
+      console.log(`${chalk.green("[CLI]")} processing curve...`);
+      await runCommand("curve");
+    }
+    if (program.weapon) {
+      console.log(`${chalk.green("[CLI]")} processing weapon...`);
+      await runCommand("weapon");
+    }
+    if (program.subattr) {
+      console.log(`${chalk.green("[CLI]")} processing subattr...`);
+      await runCommand("subattr");
+    }
+    if (program.item) {
+      console.log(`${chalk.green("[CLI]")} processing items...`);
+      await runCommand("item");
+    }
+    if (program.enemy) {
+      console.log(`${chalk.green("[CLI]")} processing enemy...`);
+      await runCommand("enemy");
+    }
+    if (program.avatar) {
+      console.log(`${chalk.green("[CLI]")} fetch charactors...`);
+      await runCommand("avatar");
+    }
+
+    /// 输出
+    if (program.output) {
+      console.log(`${chalk.green("[CLI]")} output to content...`);
+      await runCommand("output");
+    }
+  });
 program.parse(process.argv);
 
-(async function main() {
-  if (program.icon) {
-    console.log(`${chalk.green("[EXTRA]")} processing icon...`);
-    await icon.run();
-    return;
-  }
-  if (program.curve) {
-    console.log(`${chalk.green("[EXTRA]")} processing curve...`);
-    await curve.run();
-    return;
-  }
-  if (program.weapon) {
-    console.log(`${chalk.green("[EXTRA]")} processing weapon...`);
-    await weapon.run();
-    return;
-  }
-  if (program.mainattr) {
-    console.log(`${chalk.green("[EXTRA]")} processing mainattr...`);
-    await mainattr.run();
-    return;
-  }
-  if (program.subattr) {
-    console.log(`${chalk.green("[EXTRA]")} processing subattr...`);
-    await subattr.run();
-    return;
-  }
-
-  console.log(`${chalk.green("[STEP1]")} fetch charactors...`);
-  await char.run();
-})();
+function runCommand(name: string): Promise<any> {
+  return require("./commands/" + name).run();
+}

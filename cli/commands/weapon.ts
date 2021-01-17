@@ -3,7 +3,7 @@ import chalk from "chalk";
 
 // extra
 import type { IWeapon, IWeaponPromoteStage } from "../../modules/core/interface";
-import { Dict, DATA_DIR, saveObject, itemMap, toAttrType, toCurve, toNum, toWeaponType, enLang, toAffix, locales, toNormalName } from "../util";
+import { Dict, DATA_DIR, saveObject, itemMap, toAttrType, toCurve, toNum, toWeaponType, toAffix, locales, toNormalName, toText } from "../util";
 
 export async function run() {
   const data: WeaponData[] = await fs.readJSON(DATA_DIR + "Excel/WeaponExcelConfigData.json");
@@ -72,7 +72,7 @@ export async function run() {
           baseATK: toNum(lv.AddProps[0].Value!),
           cost: lv.CostItems.filter(v => v.Id).map(v => {
             const item = itemMap[v.Id!];
-            return [enLang[item.NameTextMapHash], v.Count!];
+            return [toText(item.NameTextMapHash), v.Count!];
           }),
         };
       });

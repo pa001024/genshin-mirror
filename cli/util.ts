@@ -25,26 +25,36 @@ export const affixMap = (fs.readJSONSync(DATA_DIR + "Excel/EquipAffixExcelConfig
   return r;
 }, {});
 
+export const tagMap = (fs.readJsonSync(DATA_DIR + "Excel/FeatureTagExcelConfigData.json") as FeatureTagExcelConfigData[]).reduce<{
+  [x: number]: FeatureTagExcelConfigData;
+}>((r, v) => ((r[v.TagId] = v), r), {});
+
+export const tagGroupMap = (fs.readJsonSync(DATA_DIR + "Excel/FeatureTagGroupExcelConfigData.json") as FeatureTagGroupExcelConfigData[]).reduce<{
+  [x: number]: FeatureTagGroupExcelConfigData;
+}>((r, v) => ((r[v.GroupId] = v), r), {});
+
 export const locales: Dict = {
-  de: "TextMap/TextDE.json",
-  en: "TextMap/TextEN.json",
-  es: "TextMap/TextES.json",
-  fr: "TextMap/TextFR.json",
-  id: "TextMap/TextID.json",
-  ja: "TextMap/TextJA.json",
-  ko: "TextMap/TextKO.json",
-  pt: "TextMap/TextPT.json",
-  ru: "TextMap/TextRU.json",
-  th: "TextMap/TextTH.json",
-  vi: "TextMap/TextVI.json",
-  "zh-Hans": "TextMap/TextZHS.json",
-  "zh-Hant": "TextMap/TextZHT.json",
+  // de: fs.readJsonSync(DATA_DIR + "TextMap/TextDE.json"),
+  en: fs.readJsonSync(DATA_DIR + "TextMap/TextEN.json"),
+  // es: fs.readJsonSync(DATA_DIR + "TextMap/TextES.json"),
+  // fr: fs.readJsonSync(DATA_DIR + "TextMap/TextFR.json"),
+  // id: fs.readJsonSync(DATA_DIR + "TextMap/TextID.json"),
+  ja: fs.readJsonSync(DATA_DIR + "TextMap/TextJA.json"),
+  // ko: fs.readJsonSync(DATA_DIR + "TextMap/TextKO.json"),
+  // pt: fs.readJsonSync(DATA_DIR + "TextMap/TextPT.json"),
+  // ru: fs.readJsonSync(DATA_DIR + "TextMap/TextRU.json"),
+  // th: fs.readJsonSync(DATA_DIR + "TextMap/TextTH.json"),
+  // vi: fs.readJsonSync(DATA_DIR + "TextMap/TextVI.json"),
+  "zh-Hans": fs.readJsonSync(DATA_DIR + "TextMap/TextZHS.json"),
+  "zh-Hant": fs.readJsonSync(DATA_DIR + "TextMap/TextZHT.json"),
 };
 
-export const enLang: Dict = fs.readJsonSync(DATA_DIR + locales.en);
+export function toText(hash: number, lang = "en") {
+  return locales[lang][hash];
+}
 
 export function toNormalName(NameTextMapHash: number) {
-  return startCase(enLang[NameTextMapHash]).replace(/ /g, "");
+  return startCase(toText(NameTextMapHash)).replace(/ /g, "");
 }
 
 export async function saveObject(domain: string, file: string, obj: any) {
@@ -56,12 +66,22 @@ export function toAffix(id: number): IWeaponAffix {
   const affixLevels = affixMap[id];
   const affix = affixLevels[0];
   return {
-    name: enLang[affix.NameTextMapHash] || "???",
+    name: toText(affix.NameTextMapHash) || "???",
     levels: affixLevels.map(v => {
       return { attrs: toAttr(v.AddProps), params: v.Param.filter(Boolean).map(toNum) };
     }),
   };
 }
+
+// 生成大段文字的国际化文件
+export async function saveTranslation(domain: string, file: string, produce: (t: (hash: number) => string) => any) {
+  for (const lang in locales) {
+    const t = (n: number) => toText(n, lang);
+    const obj = produce(t);
+    await saveObject(lang + "/" + domain, file, obj);
+  }
+}
+
 export function toCurve(str: string) {
   const nameMap: { [x: string]: number } = {
     GROW_CURVE_ATTACK_101: 1,
@@ -98,6 +118,11 @@ export function toWeaponType(str: string) {
     WEAPON_CLAYMORE: WeaponType.Claymore,
   };
   return nameMap[str] || WeaponType.Unknown;
+}
+
+export function toTags(id: number) {
+  const group = tagGroupMap[id];
+  return group.TagIds.filter(Boolean).map(v => tagMap[v]);
 }
 
 export function toAttrType(str: string) {
@@ -151,6 +176,37 @@ export function toAttr(src: WeaponAffixAddProp[]): IAttr[] {
   return src.filter(v => v.Type && v.Value).map(v => ({ type: toAttrType(v.Type!), value: toNum(v.Value!) }));
 }
 
+const _BASE62_ST = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+
+export function base62(src: number): string {
+  let rst = "",
+    negative = src < 0;
+  if (negative) src = -src;
+  while (1) {
+    let a = ~~src % 62;
+    rst = _BASE62_ST[a] + rst;
+    src = ~~(src / 62);
+    if (src <= 0) {
+      break;
+    }
+  }
+  return negative ? "-" + rst : rst;
+}
+
+export function debase62(src: string): number {
+  let rst = 0,
+    negative = src[0] === "-";
+  if (negative) src = src.substr(1);
+  for (let i = 0; i < src.length; i++) {
+    const a = _BASE62_ST.indexOf(src[i]);
+    if (a < 0) {
+      continue;
+    }
+    rst = rst * 62 + a;
+  }
+  return negative ? -rst : rst;
+}
+
 interface Item {
   InteractionTitleTextMapHash: number;
   MaterialType: string;
@@ -191,4 +247,14 @@ interface WeaponAffixData {
 interface WeaponAffixAddProp {
   Type?: string;
   Value?: number;
+}
+
+interface FeatureTagExcelConfigData {
+  TagId: number;
+  TagName: string;
+  TagDesp: string;
+}
+interface FeatureTagGroupExcelConfigData {
+  GroupId: number;
+  TagIds: number[];
 }

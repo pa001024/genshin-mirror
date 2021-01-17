@@ -4,9 +4,9 @@
   "private": true,
   "main": "index.ts",
   "scripts": {
-    "mon": "nodemon --delay 2 -e ts --exec \"tsc && node bin/cli/index\"",
-    "dev": "rimraf bin && tsc && node bin/cli/index",
-    "build": "rimraf bin && tsc"
+    "mon": "nodemon --delay 2 -e ts --exec \"ts-node index p -a -c -w -i -s -e\"",
+    "dev": "ts-node index p -a -c -w -i -s -e",
+    "build": "rimraf bin && tsc && node bin/cli/index"
   },
   "dependencies": {
     "axios": "^0.21.1",

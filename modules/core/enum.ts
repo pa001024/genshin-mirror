@@ -1,6 +1,6 @@
 /**
  * 角色神之眼类型
- * Character's Vision's type
+ * Avatar's Vision's type
  *
  * @enum {number}
  */
@@ -50,6 +50,34 @@ export enum Region {
   /** 枫丹 */ Fontaine,
   /** 纳塔 */ Natlan,
   /** 至冬 */ Snezhnaya,
+}
+
+/**
+ * 怪物稀有度
+ * Monster Rarity
+ *
+ * @enum {number}
+ */
+export enum MonsterRarity {
+  MONSTER_RARITY_SMALL_ENV_ANIMAL,
+  MONSTER_RARITY_SMALL_MONSTER,
+  MONSTER_RARITY_ELITE_MONSTER,
+  MONSTER_RARITY_BOSS_MONSTER,
+  MONSTER_RARITY_BIG_BOSS_MONSTER,
+}
+
+/**
+ * 角色体型
+ *
+ * @export
+ * @enum {number}
+ */
+export enum BodyType {
+  BODY_BOY,
+  BODY_MALE,
+  BODY_LOLI,
+  BODY_GIRL,
+  BODY_LADY,
 }
 
 /** 加成类型 */
