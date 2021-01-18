@@ -1,0 +1,153 @@
+{
+  "id": "Klee",
+  "name": "クレー",
+  "desc": "西風騎士団反省室の常連、モンドの爆破スペシャリスト。人呼んで「逃げ回る太陽」。",
+  "baseHP": 800.79,
+  "baseATK": 24.206,
+  "baseDEF": 47.864,
+  "bodyType": 2,
+  "rarity": 5,
+  "weapon": 5,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "AgnidusAgateSliver", "count": 1 },
+        { "name": "PhilanemoMushroom", "count": 3 },
+        { "name": "DiviningScroll", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 686.6 },
+        { "type": 3, "value": 41.04 },
+        { "type": 2, "value": 20.753 },
+        { "type": 19, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "AgnidusAgateFragment", "count": 3 },
+        { "name": "EverflameSeed", "count": 2 },
+        { "name": "PhilanemoMushroom", "count": 10 },
+        { "name": "DiviningScroll", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1174.5 },
+        { "type": 3, "value": 70.2 },
+        { "type": 2, "value": 35.498 },
+        { "type": 19, "value": 0.072 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "AgnidusAgateFragment", "count": 6 },
+        { "name": "EverflameSeed", "count": 4 },
+        { "name": "PhilanemoMushroom", "count": 20 },
+        { "name": "SealedScroll", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1824.9 },
+        { "type": 3, "value": 109.08 },
+        { "type": 2, "value": 55.159 },
+        { "type": 19, "value": 0.144 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "AgnidusAgateChunk", "count": 3 },
+        { "name": "EverflameSeed", "count": 8 },
+        { "name": "PhilanemoMushroom", "count": 30 },
+        { "name": "SealedScroll", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2312.8 },
+        { "type": 3, "value": 138.24 },
+        { "type": 2, "value": 69.905 },
+        { "type": 19, "value": 0.144 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "AgnidusAgateChunk", "count": 6 },
+        { "name": "EverflameSeed", "count": 12 },
+        { "name": "PhilanemoMushroom", "count": 45 },
+        { "name": "ForbiddenCurseScroll", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2800.6 },
+        { "type": 3, "value": 167.4 },
+        { "type": 2, "value": 84.65 },
+        { "type": 19, "value": 0.216 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "AgnidusAgateGemstone", "count": 6 },
+        { "name": "EverflameSeed", "count": 20 },
+        { "name": "PhilanemoMushroom", "count": 60 },
+        { "name": "ForbiddenCurseScroll", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3288.5 },
+        { "type": 3, "value": 196.56 },
+        { "type": 2, "value": 99.396 },
+        { "type": 19, "value": 0.288 }
+      ]
+    }
+  ],
+  "ascensionType": 19,
+  "element": 6,
+  "elemSkill": {
+    "name": "ボンボン爆弾",
+    "desc": "巨大な威力を持つボンボン爆弾を投げ出す！\\nボンボン爆弾は連続で3回跳ね、1回毎に爆発を起こし、<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。\\n\\n3回跳ねた後、爆弾は複数のブービートラップに分裂する。\\nブービートラップは敵に触れるか、または一定時間後に爆発し、<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。\\n\\n初期使用可能回数2回。\\n\\n<i>ボンボンはクレーの「友達」…クレーはいつも人々にそう紹介している。</i>",
+    "cd": 20
+  },
+  "elemBurst": {
+    "name": "ドッカン花火",
+    "desc": "クレー火力全開！スキル継続中、ドッカン花火を立て続けに召喚して周囲の敵を攻撃し、<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。\\n\\n<i>クレーが自分の爆弾で怪我をしないのは、きっと幸運の神に恵まれているからだと、騎士団のみんなはそう信じている。</i>",
+    "cd": 15,
+    "energyCost": 60
+  },
+  "attackSkill": {
+    "name": "通常攻撃·バンバン",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\\nぶつかると爆発するものを投げ出す！最大3段の爆弾攻撃を行い、<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。\\n\\n<color=#FFD780FF>重撃</color>\\n一定のスタミナを消費し、短い詠唱をした後、敵に<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。\\n\\n<color=#FFD780FF>落下攻撃</color>\\n空中から烈焔の力を凝集しながら落下し、地面に衝撃を与える。経路上の敵を攻撃し、落下時に<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "ゴロゴロコンボ",
+      "desc": "攻撃やスキル発動時、一定の確率で花火を召喚して敵を攻撃し、<color=#FFD780FF>ドッカン花火</color>の攻撃力120%分のダメージを与える。",
+      "values": []
+    },
+    {
+      "name": "弾丸の破片",
+      "desc": "<color=#FFD780FF>ボンボン爆弾</color>ビートラップのダメージを受けた敵の防御力-23%、継続時間10秒。",
+      "values": []
+    },
+    {
+      "name": "クレー特製",
+      "desc": "<color=#FFD780FF>ボンボン爆弾</color>のスキルLv.+3。\\n最大Lv.15まで。",
+      "values": []
+    },
+    {
+      "name": "一触即発",
+      "desc": "<color=#FFD780FF>ドッカン花火</color>継続中にキャラクターを切り替えると、爆発が発生し、攻撃力555%分の<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。",
+      "values": []
+    },
+    {
+      "name": "轟撃の星",
+      "desc": "<color=#FFD780FF>ドッカン花火</color>のスキルLv.+3。\\n最大Lv.15まで。",
+      "values": []
+    },
+    {
+      "name": "火力全開",
+      "desc": "<color=#FFD780FF>ドッカン花火</color>状態中、クレーは3秒毎にチーム全員（クレーを除く）の元素エネルギーを3回復する。\\n<color=#FFD780FF>ドッカン花火</color>発動後25秒間、チーム全員の<color=#FF9999FF>炎元素ダメージ</color>+10%。",
+      "values": []
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "id": "Venti",
+  "name": "温迪",
+  "desc": "蒙德城诸多吟游诗人中的一位，自由自在地穿行在街头巷尾。",
+  "baseHP": 819.86,
+  "baseATK": 20.482,
+  "baseDEF": 52.052,
+  "bodyType": 0,
+  "rarity": 5,
+  "weapon": 2,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "VayudaTurquoiseSliver", "count": 1 },
+        { "name": "Cecilia", "count": 3 },
+        { "name": "SlimeCondensate", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 702.95 },
+        { "type": 3, "value": 44.631 },
+        { "type": 2, "value": 17.56 },
+        { "type": 10, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "VayudaTurquoiseFragment", "count": 3 },
+        { "name": "HurricaneSeed", "count": 2 },
+        { "name": "Cecilia", "count": 10 },
+        { "name": "SlimeCondensate", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1202.4 },
+        { "type": 3, "value": 76.342 },
+        { "type": 2, "value": 30.037 },
+        { "type": 10, "value": 0.08 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "VayudaTurquoiseFragment", "count": 6 },
+        { "name": "HurricaneSeed", "count": 4 },
+        { "name": "Cecilia", "count": 20 },
+        { "name": "SlimeSecretions", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1868.4 },
+        { "type": 3, "value": 118.62 },
+        { "type": 2, "value": 46.673 },
+        { "type": 10, "value": 0.16 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "VayudaTurquoiseChunk", "count": 3 },
+        { "name": "HurricaneSeed", "count": 8 },
+        { "name": "Cecilia", "count": 30 },
+        { "name": "SlimeSecretions", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2367.8 },
+        { "type": 3, "value": 150.34 },
+        { "type": 2, "value": 59.15 },
+        { "type": 10, "value": 0.16 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "VayudaTurquoiseChunk", "count": 6 },
+        { "name": "HurricaneSeed", "count": 12 },
+        { "name": "Cecilia", "count": 45 },
+        { "name": "SlimeConcentrate", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2867.3 },
+        { "type": 3, "value": 182.05 },
+        { "type": 2, "value": 71.627 },
+        { "type": 10, "value": 0.24 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "VayudaTurquoiseGemstone", "count": 6 },
+        { "name": "HurricaneSeed", "count": 20 },
+        { "name": "Cecilia", "count": 60 },
+        { "name": "SlimeConcentrate", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3366.8 },
+        { "type": 3, "value": 213.76 },
+        { "type": 2, "value": 84.104 },
+        { "type": 10, "value": 0.32 }
+      ]
+    }
+  ],
+  "ascensionType": 10,
+  "element": 1,
+  "elemSkill": {
+    "name": "高天之歌",
+    "desc": "呼唤与诗和乐协鸣的风，将在尘泥中行走的事物送上高空吧。\\n\\n<color=#FFD780FF>点按</color>\\n在敌人所在的位置唤出风域，造成<color=#80FFD7FF>风元素范围伤害</color>，并击飞其中的敌人。\\n\\n<color=#FFD780FF>长按</color>\\n以自身为中心，唤出更大的风域，造成<color=#80FFD7FF>风元素范围伤害</color>，并击飞其中的敌人。\\n长按施放后，温迪会乘风飞到空中。\\n\\n被高天之歌击飞的敌人，在短时间内会缓慢坠落。\\n\\n<i>在人与神还同行于大地的时代，无数的歌曲传遍四方的天空。这是早已被遗忘的曲调。</i>",
+    "cd": 6
+  },
+  "elemBurst": {
+    "name": "风神之诗",
+    "desc": "射出千风汇聚而成的箭矢，在前方造出巨大的暴风之眼，将敌人卷入，持续造成<color=#80FFD7FF>风元素伤害</color>。\\n\\n<color=#FFD780FF>元素转化</color>\\n若暴风之眼在技能持续期间接触了<color=#80C0FFFF>水元素</color>/<color=#FF9999FF>火元素</color>/<color=#99FFFFFF>冰元素</color>/<color=#FFACFFFF>雷元素</color>，则会获得对应元素属性，额外造成该元素的附加伤害。\\n元素转化在技能持续期间仅会发生一次。\\n\\n<i>称颂风之神的诗篇有许多已经佚失。其中这一首描述的是他与风的力量。</i>",
+    "cd": 15,
+    "energyCost": 60
+  },
+  "attackSkill": {
+    "name": "普通攻击·神代射术",
+    "desc": "<color=#FFD780FF>普通攻击</color>\\n进行至多六段的连续弓箭射击。\\n\\n<color=#FFD780FF>重击</color>\\n进行伤害更高、更为精准的<color=#FFD780FF>瞄准射击</color>。\\n瞄准时，眷顾天地的风会在箭矢上持续积聚。聚满了风之力的箭矢会造成<color=#80FFD7FF>风元素伤害</color>。\\n\\n<color=#FFD780FF>下落攻击</color>\\n从空中射出箭雨，并迅速下坠冲击地面，在落地时造成范围伤害。",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "弦发的苍风",
+      "desc": "<color=#FFD780FF>瞄准射击</color>会额外发射两枚分裂箭，分别造成原本33%的伤害。",
+      "values": []
+    },
+    {
+      "name": "眷恋的泠风",
+      "desc": "<color=#FFD780FF>高天之歌</color>会使敌人的<color=#80FFD7FF>风元素抗性</color>与物理抗性降低12%，持续10秒。\\n被<color=#FFD780FF>高天之歌</color>击飞的敌人在落地前，<color=#80FFD7FF>风元素抗性</color>与物理抗性额外降低12%。",
+      "values": []
+    },
+    {
+      "name": "千风的诗篇",
+      "desc": "<color=#FFD780FF>风神之诗</color>的技能等级提高3级。\\n至多提升至15级。",
+      "values": []
+    },
+    {
+      "name": "自由的凛风",
+      "desc": "温迪获取元素晶球或元素微粒后，获得25%<color=#80FFD7FF>风元素伤害加成</color>，持续10秒。",
+      "values": []
+    },
+    {
+      "name": "高天的协奏",
+      "desc": "<color=#FFD780FF>高天之歌</color>的技能等级提高3级。\\n至多提升至15级。",
+      "values": []
+    },
+    {
+      "name": "抗争的暴风",
+      "desc": "受<color=#FFD780FF>风神之诗</color>伤害的敌人，<color=#80FFD7FF>风元素抗性</color>降低20%；\\n若产生了元素转化，则使转换的元素抗性也降低20%。",
+      "values": []
+    }
+  ]
+}

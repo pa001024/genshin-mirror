@@ -1,0 +1,153 @@
+{
+  "id": "Zhongli",
+  "name": "Zhongli",
+  "desc": "A mysterious expert contracted by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things.",
+  "baseHP": 1144,
+  "baseATK": 19.551,
+  "baseDEF": 57.437,
+  "bodyType": 1,
+  "rarity": 5,
+  "weapon": 3,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "PrithivaTopazSliver", "count": 1 },
+        { "name": "CorLapis", "count": 3 },
+        { "name": "SlimeCondensate", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 980.86 },
+        { "type": 3, "value": 49.248 },
+        { "type": 2, "value": 16.762 },
+        { "type": 31, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "PrithivaTopazFragment", "count": 3 },
+        { "name": "BasaltPillar", "count": 2 },
+        { "name": "CorLapis", "count": 10 },
+        { "name": "SlimeCondensate", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1677.8 },
+        { "type": 3, "value": 84.24 },
+        { "type": 2, "value": 28.672 },
+        { "type": 31, "value": 0.072 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "PrithivaTopazFragment", "count": 6 },
+        { "name": "BasaltPillar", "count": 4 },
+        { "name": "CorLapis", "count": 20 },
+        { "name": "SlimeSecretions", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2607 },
+        { "type": 3, "value": 130.9 },
+        { "type": 2, "value": 44.552 },
+        { "type": 31, "value": 0.144 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "PrithivaTopazChunk", "count": 3 },
+        { "name": "BasaltPillar", "count": 8 },
+        { "name": "CorLapis", "count": 30 },
+        { "name": "SlimeSecretions", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3304 },
+        { "type": 3, "value": 165.89 },
+        { "type": 2, "value": 56.461 },
+        { "type": 31, "value": 0.144 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "PrithivaTopazChunk", "count": 6 },
+        { "name": "BasaltPillar", "count": 12 },
+        { "name": "CorLapis", "count": 45 },
+        { "name": "SlimeConcentrate", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 4000.9 },
+        { "type": 3, "value": 200.88 },
+        { "type": 2, "value": 68.371 },
+        { "type": 31, "value": 0.216 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "PrithivaTopazGemstone", "count": 6 },
+        { "name": "BasaltPillar", "count": 20 },
+        { "name": "CorLapis", "count": 60 },
+        { "name": "SlimeConcentrate", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 4697.8 },
+        { "type": 3, "value": 235.87 },
+        { "type": 2, "value": 80.281 },
+        { "type": 31, "value": 0.288 }
+      ]
+    }
+  ],
+  "ascensionType": 31,
+  "element": 2,
+  "elemSkill": {
+    "name": "Dominus Lapidis",
+    "desc": "#Every mountain, rock and inch of land is filled with the power of Geo, but those who can wield such powers freely are few and far between.\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nCommands the omnipresent power of earth to solidify into a Stone Stele, dealing <color=#FFE699FF>AoE Geo DMG</color>.\\nAdditionally, the Stone Stele will resonate with other <color=#FFE699FF>Geo Constructs</color> in the vicinity, dealing <color=#FFE699FF>Geo DMG</color> to surrounding opponents.\\nThe Stone Stele is considered a <color=#FFE699FF>Geo Construct</color>, and can both be climbed and used to block attacks. Only one may exist at any one time.\\n\\n<color=#FFD780FF>Hold</color>\\nCauses nearby Geo energy to explode, causing the following effects:\\n·Creates a shield of jade. The shield's DMG Absorption scales based on Zhongli's Max HP, and absorbs <color=#FFE699FF>Geo DMG</color> 250% more effectively.\\n·Deals <color=#FFE699FF>AoE Geo DMG</color>.\\n·If there are nearby targets with the <color=#FFE699FF>Geo element</color>, it will drain a large amount of <color=#FFE699FF>Geo element</color> from a maximum of 2 such targets. This effect does not cause DMG.\\n\\n<i>A true master of stone may carve jade and shape gold.</i>",
+    "cd": 12
+  },
+  "elemBurst": {
+    "name": "Planet Befall",
+    "desc": "Brings a falling meteor down to earth, dealing massive <color=#FFE699FF>Geo DMG</color> to opponents caught in its AoE and applying the <color=#FFE699FF>Petrification</color> status to them.\\n\\n<color=#FFD780FF>Petrification</color>\\nOpponents affected by the <color=#FFE699FF>Petrification</color> status cannot move.\\n\\n<i>The falling meteor punishes the unjust.</i>",
+    "cd": 12,
+    "energyCost": 40
+  },
+  "attackSkill": {
+    "name": "Normal Attack: Rain of Stone",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 6 consecutive spear strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to lunge forward, causing stone spears to fall along his path.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "Rock, the Backbone of Earth",
+      "desc": "Increases the maximum number of Stone Steles created by <color=#FFD780FF>Dominus Lapidis</color> that may exist simultaneously to 2.",
+      "values": []
+    },
+    {
+      "name": "Stone, the Cradle of Jade",
+      "desc": "<color=#FFD780FF>Planet Befall</color> grants nearby characters on the field a Jade Shield when it descends.",
+      "values": []
+    },
+    {
+      "name": "Jade, Shimmering through Darkness",
+      "desc": "Increases the Level of <color=#FFD780FF>Dominus Lapidis</color> by 3.\\nMaximum upgrade level is 15.",
+      "values": []
+    },
+    {
+      "name": "Topaz, Unbreakable and Fearless",
+      "desc": "Increases <color=#FFD780FF>Planet Befall</color>'s AoE by 20% and increases the duration of Planet Befall's Petrification effect by 2s.",
+      "values": [0.2, 2]
+    },
+    {
+      "name": "Lazuli, Herald of the Order",
+      "desc": "Increases the Level of <color=#FFD780FF>Planet Befall</color> by 3.\\nMaximum upgrade level is 15.",
+      "values": []
+    },
+    {
+      "name": "Chrysos, Bounty of Dominator",
+      "desc": "When the Jade Shield takes DMG, 40% of that incoming DMG is converted to HP for the current character.\\nA single instance of regeneration cannot exceed 8% of that character's Max HP.",
+      "values": [0.4, 0.08]
+    }
+  ]
+}

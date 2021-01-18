@@ -1,0 +1,153 @@
+{
+  "id": "Bennett",
+  "name": "Bennett",
+  "desc": "A good-natured adventurer from Mondstadt who's unfortunately extremely unlucky.",
+  "baseHP": 1039.4,
+  "baseATK": 16.027,
+  "baseDEF": 64.664,
+  "bodyType": 0,
+  "rarity": 4,
+  "weapon": 1,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "AgnidusAgateSliver", "count": 1 },
+        { "name": "WindwheelAster", "count": 3 },
+        { "name": "TreasureHoarderInsignia", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 776.52 },
+        { "type": 3, "value": 48.307 },
+        { "type": 2, "value": 11.973 },
+        { "type": 10, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "AgnidusAgateFragment", "count": 3 },
+        { "name": "EverflameSeed", "count": 2 },
+        { "name": "WindwheelAster", "count": 10 },
+        { "name": "TreasureHoarderInsignia", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1328.3 },
+        { "type": 3, "value": 82.631 },
+        { "type": 2, "value": 20.481 },
+        { "type": 10, "value": 0.0667 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "AgnidusAgateFragment", "count": 6 },
+        { "name": "EverflameSeed", "count": 4 },
+        { "name": "WindwheelAster", "count": 20 },
+        { "name": "SilverRavenInsignia", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2063.9 },
+        { "type": 3, "value": 128.4 },
+        { "type": 2, "value": 31.824 },
+        { "type": 10, "value": 0.1333 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "AgnidusAgateChunk", "count": 3 },
+        { "name": "EverflameSeed", "count": 8 },
+        { "name": "WindwheelAster", "count": 30 },
+        { "name": "SilverRavenInsignia", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2615.6 },
+        { "type": 3, "value": 162.72 },
+        { "type": 2, "value": 40.332 },
+        { "type": 10, "value": 0.1333 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "AgnidusAgateChunk", "count": 6 },
+        { "name": "EverflameSeed", "count": 12 },
+        { "name": "WindwheelAster", "count": 45 },
+        { "name": "GoldenRavenInsignia", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3167.4 },
+        { "type": 3, "value": 197.04 },
+        { "type": 2, "value": 48.839 },
+        { "type": 10, "value": 0.2 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "AgnidusAgateGemstone", "count": 6 },
+        { "name": "EverflameSeed", "count": 20 },
+        { "name": "WindwheelAster", "count": 60 },
+        { "name": "GoldenRavenInsignia", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3719.1 },
+        { "type": 3, "value": 231.37 },
+        { "type": 2, "value": 57.346 },
+        { "type": 10, "value": 0.2667 }
+      ]
+    }
+  ],
+  "ascensionType": 10,
+  "element": 6,
+  "elemSkill": {
+    "name": "Passion Overload",
+    "desc": "#Bennett puts all his fire and passion for adventuring into his sword. Results may vary based on how fired up he is...\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nA single, swift flame strike that deals <color=#FF9999FF>Pyro DMG</color>.\\n\\n<color=#FFD780FF>Hold (Short)</color>\\nCharges up, resulting in different effects when unleashed based on the Charge Level.\\n·Level 1: Strikes twice, dealing <color=#FF9999FF>Pyro DMG</color> and launching opponents.\\n·Level 2: Unleashes 3 consecutive attacks that deal impressive <color=#FF9999FF>Pyro DMG</color>, but the last attack triggers an explosion that launches both Bennett and the enemy.\\nBennett takes no damage from being launched.\\n\\n<i>An attack that combines Bennett's dreams and passion with Pyro. But passion is sometimes overblown, and Pyro sometimes blows over.</i>",
+    "cd": 5
+  },
+  "elemBurst": {
+    "name": "Fantastic Voyage",
+    "desc": "Bennett performs a jumping attack that deals <color=#FF9999FF>Pyro DMG</color>, creating an Inspiration Field.\\n\\n<color=#FFD780FF>Inspiration Field</color>\\n·If the health of a character within the AoE is equal to or falls below 70%, their health will continuously regenerate. The amount of HP restored scales off Bennett's Max HP.\\n·If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK.\\n·Imbues characters within the AoE with <color=#FF9999FF>Pyro</color>.\\n\\n<i>Benny's Adventure Team's adventures are always fraught with unexpected danger. However, Bennett is more inclined to call them \"journeys full of wonder, excitement, and beauty.\"</i>",
+    "cd": 15,
+    "energyCost": 60
+  },
+  "attackSkill": {
+    "name": "Normal Attack: Strike of Fortune",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "Grand Expectation",
+      "desc": "<color=#FFD780FF>Fantastic Voyage</color>'s ATK increase no longer has an HP restriction, and gains an additional 20% of Bennett's Base ATK.",
+      "values": [0.2]
+    },
+    {
+      "name": "Impasse Conqueror",
+      "desc": "When Bennett's HP falls below 70%, his Energy Recharge is increased by 30%.",
+      "values": [0.7, 0.3]
+    },
+    {
+      "name": "Unstoppable Fervor",
+      "desc": "Increases the Level of <color=#FFD780FF>Passion Overload</color> by 3.\\nMaximum upgrade level is 15.",
+      "values": []
+    },
+    {
+      "name": "Unexpected Odyssey",
+      "desc": "Using a Normal Attack when executing the second attack of <color=#FFD780FF>Passion Overload</color>'s Charge Level 1 allows an additional attack to be performed.\\nThis additional attack does 135% of the second attack's DMG.",
+      "values": [1.35]
+    },
+    {
+      "name": "True Explorer",
+      "desc": "Increases the Level of <color=#FFD780FF>Fantastic Voyage</color> by 3.\\nMaximum upgrade level is 15.",
+      "values": []
+    },
+    {
+      "name": "Fire Ventures with Me",
+      "desc": "Sword, Claymore, or Polearm-wielding characters inside <color=#FFD780FF>Fantastic Voyage</color>'s radius gain a 15% <color=#FF9999FF>Pyro DMG Bonus</color> and their weapons are infused with <color=#FF9999FF>Pyro</color>.",
+      "values": [0.15]
+    }
+  ]
+}

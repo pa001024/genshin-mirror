@@ -42,6 +42,7 @@ export interface IArtifact {
 
 /** 角色 */
 export interface IAvatar {
+  /** id */ id: string;
   /**
    * 名字
    *
@@ -97,14 +98,13 @@ export interface IAvatar {
   /** 基础生命 */ baseHP: number;
   /** 基础攻击 */ baseATK: number;
   /** 基础防御 */ baseDEF: number;
+  /** 突破属性 */ ascensions: IAscension[];
   /** 突破属性 */ ascensionType: BuffType;
-  // /** 突破属性值 */ ascensionValue: number[];
-
-  /** 普通攻击 */ attack?: IAttackGroup;
-  /** 元素战技 */ elementalSkill?: ISkill;
-  /** 元素爆发 */ elementalBurst?: ISkill & IElemSkill;
+  /** 普通攻击 */ attackSkill?: ISkill;
+  /** 元素战技 */ elemSkill?: ISkill;
+  /** 元素爆发 */ elemBurst?: ISkill;
   /** 天赋 */ talents?: ITalent[];
-  /** 命座提升 */ constellations?: IConstellation[];
+  /** 命座提升 */ c13ns?: IConstellation[];
 }
 
 /** 攻击组 */
@@ -116,6 +116,19 @@ export interface IAttackGroup {
   chargeAttack: IAttack[];
   /** 下落攻击 */
   plungeAttack: IAttack[];
+}
+
+/** 突破 */
+export interface IAscension {
+  level: number;
+  itemCost: IItemStack[];
+  attrs: IAttr[];
+}
+
+/** 物品 */
+export interface IItemStack {
+  name: string;
+  count: number;
 }
 
 /** 攻击 */
@@ -142,13 +155,13 @@ export interface IAttack {
 /** 技能 */
 export interface ISkill {
   name: string;
+  desc: string;
   cd: number;
+  energyCost?: number;
   charges?: number;
-  attrs: ISkillAttribute[];
-}
-
-export interface IElemSkill {
-  costElemVal: number;
+  paramTpls?: string[];
+  paramVals?: number[][];
+  attrs?: ISkillAttribute[]; // 人工补充
 }
 
 /** 技能参数 */
@@ -169,14 +182,16 @@ export interface ISkillAttribute {
 /** 天赋 */
 export interface ITalent {
   name: string;
-  /** 效果 */
-  effects?: ITalentEffect[];
+  desc: string;
+  values: number[];
 }
 
-/** 天赋效果 */
-export interface ITalentEffect {
-  path: string;
-  value: any;
+/** 命之座 */
+export interface IConstellation {
+  name: string;
+  desc: string;
+  values?: number[];
+  buffs?: IBuff[];
 }
 
 /** 属性 */
@@ -210,9 +225,10 @@ export interface IArtifactSetBonus {
   buffs: IBuff[];
 }
 
-/** 命之座 */
-export interface IConstellation {
+export interface IEnemy {
   name: string;
-  buffs?: IBuff[];
-  values?: number[];
+  desc?: string;
+  /** 基础生命 */ baseHP: number;
+  /** 基础攻击 */ baseATK: number;
+  /** 基础防御 */ baseDEF: number;
 }

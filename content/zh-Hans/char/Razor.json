@@ -1,0 +1,153 @@
+{
+  "id": "Razor",
+  "name": "雷泽",
+  "desc": "住在蒙德地区奔狼领，远离城市与人群，和狼一同生活的少年。直觉锐利，身姿迅捷。",
+  "baseHP": 1003,
+  "baseATK": 19.589,
+  "baseDEF": 62.947,
+  "bodyType": 0,
+  "rarity": 4,
+  "weapon": 4,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "VajradaAmethystSliver", "count": 1 },
+        { "name": "Wolfhook", "count": 3 },
+        { "name": "DamagedMask", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 749.27 },
+        { "type": 3, "value": 47.025 },
+        { "type": 2, "value": 14.634 },
+        { "type": 33, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "VajradaAmethystFragment", "count": 3 },
+        { "name": "LightningPrism", "count": 2 },
+        { "name": "Wolfhook", "count": 10 },
+        { "name": "DamagedMask", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1281.6 },
+        { "type": 3, "value": 80.438 },
+        { "type": 2, "value": 25.032 },
+        { "type": 33, "value": 0.075 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "VajradaAmethystFragment", "count": 6 },
+        { "name": "LightningPrism", "count": 4 },
+        { "name": "Wolfhook", "count": 20 },
+        { "name": "StainedMask", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1991.5 },
+        { "type": 3, "value": 124.99 },
+        { "type": 2, "value": 38.896 },
+        { "type": 33, "value": 0.15 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "VajradaAmethystChunk", "count": 3 },
+        { "name": "LightningPrism", "count": 8 },
+        { "name": "Wolfhook", "count": 30 },
+        { "name": "StainedMask", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2523.9 },
+        { "type": 3, "value": 158.4 },
+        { "type": 2, "value": 49.294 },
+        { "type": 33, "value": 0.15 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "VajradaAmethystChunk", "count": 6 },
+        { "name": "LightningPrism", "count": 12 },
+        { "name": "Wolfhook", "count": 45 },
+        { "name": "OminousMask", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3056.2 },
+        { "type": 3, "value": 191.81 },
+        { "type": 2, "value": 59.692 },
+        { "type": 33, "value": 0.225 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "VajradaAmethystGemstone", "count": 6 },
+        { "name": "LightningPrism", "count": 20 },
+        { "name": "Wolfhook", "count": 60 },
+        { "name": "OminousMask", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3588.6 },
+        { "type": 3, "value": 225.23 },
+        { "type": 2, "value": 70.09 },
+        { "type": 33, "value": 0.3 }
+      ]
+    }
+  ],
+  "ascensionType": 33,
+  "element": 3,
+  "elemSkill": {
+    "name": "利爪与苍雷",
+    "desc": "用师父与他的「家人」教他的方法，来解决猎物。\\n\\n<color=#FFD780FF>点按</color>\\n向前挥动雷狼之爪，对前方的敌人造成<color=#FFACFFFF>雷元素伤害</color>。\\n若命中敌人，则会为雷泽积攒一个雷之印，提高雷泽的元素充能效率。\\n最多同时存在3个雷之印，叠加刷新持续时间。\\n\\n<color=#FFD780FF>长按</color>\\n积聚雷电力量引发小范围的雷爆，造成大量<color=#FFACFFFF>雷元素伤害</color>，并清除已有的雷之印。\\n每个因此被清除的雷之印，都会转为雷泽的元素能量。\\n\\n<i>雷击落下的一瞬，偶尔能瞥见雷泽灵魂深处那头狼打量猎物的眼神。</i>",
+    "cd": 6
+  },
+  "elemBurst": {
+    "name": "雷牙",
+    "desc": "唤醒无形的雷狼守护自己，对周围的敌人造成<color=#FFACFFFF>雷元素伤害</color>，并消耗所有雷之印，为雷泽恢复元素能量。\\n雷狼存在期间，会与雷泽共同战斗。\\n\\n<color=#FFD780FF>雷狼</color>\\n·会随雷泽的普通攻击协同攻击，造成<color=#FFACFFFF>雷元素伤害</color>；\\n·提高雷泽的攻击速度、<color=#FFACFFFF>雷元素抗性</color>；\\n·使雷泽免疫<color=#FFACFFFF>感电</color>反应的伤害；\\n·无法施放重击；\\n·提高雷泽的抗打断能力。\\n\\n效果将在雷泽退场时解除。\\n退场时，会依据剩余的持续时间，返还至多10点元素能量。\\n\\n<i>狼苏醒了。狩猎的时候到了。</i>",
+    "cd": 20,
+    "energyCost": 80
+  },
+  "attackSkill": {
+    "name": "普通攻击·钢脊",
+    "desc": "<color=#FFD780FF>普通攻击</color>\\n进行至多四段的连续挥砍。\\n\\n<color=#FFD780FF>重击</color>\\n持续消耗体力，旋转大剑攻击周围的敌人。\\n停止旋转时，会进行一次格外有力的挥砍。\\n\\n<color=#FFD780FF>下落攻击</color>\\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "狼性",
+      "desc": "雷泽获取元素晶球或元素微粒后的8秒内，造成的伤害提高10%。",
+      "values": []
+    },
+    {
+      "name": "压制",
+      "desc": "雷泽攻击生命值低于30%的敌人时，暴击率提高10%。",
+      "values": []
+    },
+    {
+      "name": "兽魂",
+      "desc": "<color=#FFD780FF>雷牙</color>的技能等级提高3级。\\n至多提升至15级。",
+      "values": []
+    },
+    {
+      "name": "撕咬",
+      "desc": "<color=#FFD780FF>利爪与苍雷</color>点按时，会使命中的敌人防御力降低15%，持续7秒。",
+      "values": []
+    },
+    {
+      "name": "利爪",
+      "desc": "<color=#FFD780FF>利爪与苍雷</color>的技能等级提高3级。\\n至多提升至15级。",
+      "values": []
+    },
+    {
+      "name": "天狼",
+      "desc": "每10秒，雷泽的大剑将自动充能，使下一次普通攻击引发落雷，造成100%攻击力的<color=#FFACFFFF>雷元素伤害</color>。\\n不处于<color=#FFD780FF>雷牙</color>状态下时，若落雷击中敌人，会为雷泽积攒一个<color=#FFD780FF>利爪与苍雷</color>的雷之印。",
+      "values": []
+    }
+  ]
+}

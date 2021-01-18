@@ -5,22 +5,24 @@
     </v-avatar>
     <img v-else :src="url" :width="size" :height="size" />
     <GsIcon v-if="elementIcon" :type="elementIcon" class="avatar-element-icon" />
+    <GsIcon v-if="visionIcon" :type="visionIcon" class="avatar-vision-icon" />
   </div>
 </template>
 <script lang="ts">
 import { Vue, Component, Prop } from "vue-property-decorator";
-import { ElementType } from "~/modules/core";
+import { ElementType, Region } from "~/modules/core";
 
 @Component({})
 export default class CharImage extends Vue {
-  @Prop() name!: string;
+  @Prop() id!: string;
   @Prop() element!: ElementType;
+  @Prop() region!: Region;
   @Prop({ default: "thumb" }) type!: "thumb" | "portrait";
   @Prop({ default: 32 }) size!: number;
   @Prop({ type: Boolean }) avatar!: boolean;
 
   get url() {
-    return "/img/avatar/" + this.type + "/" + this.name + ".png";
+    return "/img/char/" + this.type + "/" + this.id + ".png";
   }
 
   get elementIcon(): string {
@@ -34,6 +36,15 @@ export default class CharImage extends Vue {
       [ElementType.Cryo]: "cryo",
     };
     return vMap[this.element as number];
+  }
+
+  get visionIcon(): string {
+    const vMap: { [x: number]: string } = {
+      [Region.Mondstadt]: "mondstadt-vision",
+      [Region.Liyue]: "liyue-vision",
+      [Region.Snezhnaya]: "liyue-vision",
+    };
+    return vMap[this.region as number];
   }
 }
 </script>
@@ -49,6 +60,17 @@ export default class CharImage extends Vue {
   position: relative;
   padding: 0 8px;
 }
+.avatar-vision-icon {
+  && {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 0;
+    bottom: 0;
+    color: gray;
+  }
+}
+
 .avatar-element-icon {
   && {
     position: absolute;

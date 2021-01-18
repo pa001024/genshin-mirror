@@ -1,0 +1,153 @@
+{
+  "id": "Xinyan",
+  "name": "辛焱",
+  "desc": "璃月港唯一的摇滚乐手，以音乐和热情歌颂着对「成见」的反抗。",
+  "baseHP": 939.14,
+  "baseATK": 20.835,
+  "baseDEF": 66.953,
+  "bodyType": 3,
+  "rarity": 4,
+  "weapon": 4,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "AgnidusAgateSliver", "count": 1 },
+        { "name": "Violetgrass", "count": 3 },
+        { "name": "TreasureHoarderInsignia", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 701.59 },
+        { "type": 3, "value": 50.018 },
+        { "type": 2, "value": 15.565 },
+        { "type": 7, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "AgnidusAgateFragment", "count": 3 },
+        { "name": "EverflameSeed", "count": 2 },
+        { "name": "Violetgrass", "count": 10 },
+        { "name": "TreasureHoarderInsignia", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1200.1 },
+        { "type": 3, "value": 85.556 },
+        { "type": 2, "value": 26.625 },
+        { "type": 7, "value": 0.06 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "AgnidusAgateFragment", "count": 6 },
+        { "name": "EverflameSeed", "count": 4 },
+        { "name": "Violetgrass", "count": 20 },
+        { "name": "SilverRavenInsignia", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1864.8 },
+        { "type": 3, "value": 132.94 },
+        { "type": 2, "value": 41.371 },
+        { "type": 7, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "AgnidusAgateChunk", "count": 3 },
+        { "name": "EverflameSeed", "count": 8 },
+        { "name": "Violetgrass", "count": 30 },
+        { "name": "SilverRavenInsignia", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2363.2 },
+        { "type": 3, "value": 168.48 },
+        { "type": 2, "value": 52.431 },
+        { "type": 7, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "AgnidusAgateChunk", "count": 6 },
+        { "name": "EverflameSeed", "count": 12 },
+        { "name": "Violetgrass", "count": 45 },
+        { "name": "GoldenRavenInsignia", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2861.7 },
+        { "type": 3, "value": 204.02 },
+        { "type": 2, "value": 63.491 },
+        { "type": 7, "value": 0.18 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "AgnidusAgateGemstone", "count": 6 },
+        { "name": "EverflameSeed", "count": 20 },
+        { "name": "Violetgrass", "count": 60 },
+        { "name": "GoldenRavenInsignia", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3360.2 },
+        { "type": 3, "value": 239.56 },
+        { "type": 2, "value": 74.55 },
+        { "type": 7, "value": 0.24 }
+      ]
+    }
+  ],
+  "ascensionType": 7,
+  "element": 6,
+  "elemSkill": {
+    "name": "热情拂扫",
+    "desc": "辛焱挥动乐器，对周围的敌人造成<color=#FF9999FF>火元素伤害</color>，并借由「观众」的「热情」，形成护盾。\\n护盾的伤害吸收量受益于辛焱的防御力，并基于命中敌人的数目：\\n·未命中或命中一名敌人：一级护盾·散序节拍；\\n·命中二名敌人：二级护盾·歌头节拍；\\n·命中三名或更多敌人时，将产生三级护盾·舞遍节拍。除了吸收伤害，还会间歇性对周围的敌人造成<color=#FF9999FF>火元素伤害</color>。\\n\\n护盾具有如下特性：\\n·施放的瞬间，为辛焱施加<color=#FF9999FF>火元素附着</color>；\\n·对<color=#FF9999FF>火元素伤害</color>有250%的吸收效果。\\n\\n<i>辛焱坚称这些火花是演奏技术到极致时的表现，是物理现象，和神之眼无关。</i>",
+    "cd": 18
+  },
+  "elemBurst": {
+    "name": "叛逆刮弦",
+    "desc": "迅速扫弦引发音波，击退敌人，对周围的敌人造成物理伤害，激起「舞台」上的氛围。\\n因为氛围实在太过炙烈，所以会引起烈焰，对周围的敌人持续造成<color=#FF9999FF>火元素伤害</color>。\\n\\n<i>曾经辛焱每次演出结束都会来这么一出。后来不这么弄了倒不是因为危险。要是被喊了「安可」的话，她弄不出更炸裂的闭幕了。</i>",
+    "cd": 15,
+    "energyCost": 60
+  },
+  "attackSkill": {
+    "name": "普通攻击·炎舞",
+    "desc": "<color=#FFD780FF>普通攻击</color>\\n进行至多四段的连续挥砍。\\n\\n<color=#FFD780FF>重击</color>\\n持续消耗体力，旋转大剑攻击周围的敌人。\\n停止旋转时，会进行一次格外有力的挥砍。\\n\\n<color=#FFD780FF>下落攻击</color>\\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "绝命的加速",
+      "desc": "辛焱造成暴击后的5秒内，普通攻击和重击的攻击速度提升12%。\\n该效果每5秒只能触发一次。",
+      "values": [0.12, 5]
+    },
+    {
+      "name": "开场即兴段",
+      "desc": "<color=#FFD780FF>叛逆刮弦</color>造成的物理伤害暴击率提升100%，并会在施放时形成三级护盾·舞遍节拍。",
+      "values": [1]
+    },
+    {
+      "name": "摭分的指法",
+      "desc": "<color=#FFD780FF>热情拂扫</color>的技能等级提高3级。\\n至多提升至15级。",
+      "values": []
+    },
+    {
+      "name": "节奏的传染",
+      "desc": "<color=#FFD780FF>热情拂扫</color>的挥舞伤害，会使敌人的物理抗性降低15%，持续12秒。",
+      "values": [-0.15, 12]
+    },
+    {
+      "name": "返场的高呼",
+      "desc": "<color=#FFD780FF>叛逆刮弦</color>的技能等级提高3级。\\n至多提升至15级。",
+      "values": []
+    },
+    {
+      "name": "地狱里摇摆",
+      "desc": "辛焱的重击的体力消耗降低30%；此外，进行重击时，将基于防御力的50%获得攻击力加成。",
+      "values": [-0.3, 0.5]
+    }
+  ]
+}

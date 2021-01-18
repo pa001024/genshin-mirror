@@ -1,0 +1,149 @@
+{
+  "id": "Xingqiu",
+  "name": "行秋",
+  "desc": "经常能在书摊看到的少年人。手执长剑，胸中常怀侠义之心。",
+  "baseHP": 857.08,
+  "baseATK": 16.918,
+  "baseDEF": 63.52,
+  "bodyType": 0,
+  "rarity": 4,
+  "weapon": 1,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "VarunadaLazuriteSliver", "count": 1 },
+        { "name": "SilkFlower", "count": 3 },
+        { "name": "DamagedMask", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 640.29 },
+        { "type": 3, "value": 47.452 },
+        { "type": 2, "value": 12.639 },
+        { "type": 7, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "VarunadaLazuriteFragment", "count": 3 },
+        { "name": "CleansingHeart", "count": 2 },
+        { "name": "SilkFlower", "count": 10 },
+        { "name": "DamagedMask", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1095.2 },
+        { "type": 3, "value": 81.169 },
+        { "type": 2, "value": 21.619 },
+        { "type": 7, "value": 0.06 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "VarunadaLazuriteFragment", "count": 6 },
+        { "name": "CleansingHeart", "count": 4 },
+        { "name": "SilkFlower", "count": 20 },
+        { "name": "StainedMask", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1701.8 },
+        { "type": 3, "value": 126.12 },
+        { "type": 2, "value": 33.592 },
+        { "type": 7, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "VarunadaLazuriteChunk", "count": 3 },
+        { "name": "CleansingHeart", "count": 8 },
+        { "name": "SilkFlower", "count": 30 },
+        { "name": "StainedMask", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2156.8 },
+        { "type": 3, "value": 159.84 },
+        { "type": 2, "value": 42.572 },
+        { "type": 7, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "VarunadaLazuriteChunk", "count": 6 },
+        { "name": "CleansingHeart", "count": 12 },
+        { "name": "SilkFlower", "count": 45 },
+        { "name": "OminousMask", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2611.7 },
+        { "type": 3, "value": 193.56 },
+        { "type": 2, "value": 51.552 },
+        { "type": 7, "value": 0.18 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "VarunadaLazuriteGemstone", "count": 6 },
+        { "name": "CleansingHeart", "count": 20 },
+        { "name": "SilkFlower", "count": 60 },
+        { "name": "OminousMask", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3066.6 },
+        { "type": 3, "value": 227.27 },
+        { "type": 2, "value": 60.532 },
+        { "type": 7, "value": 0.24 }
+      ]
+    }
+  ],
+  "ascensionType": 7,
+  "element": 5,
+  "elemSkill": {
+    "name": "古华剑·画雨笼山",
+    "desc": "使出连续两段的剑技，对前方的敌人造成<color=#80C0FFFF>水元素伤害</color>。同时，生成最大数量的雨帘剑围绕在当前场上自己的角色身边。\\n具有如下特性：\\n·角色受到伤害时会破碎，降低受到的伤害；\\n·提高角色的抗打断能力。\\n行秋<color=#80C0FFFF>水元素伤害加成</color>的20%将转换为雨帘剑的额外伤害减免。\\n\\n最多通过这种方式获得24%额外伤害减免。\\n初始雨帘剑的最大数量为3柄。\\n施放的瞬间，为角色施加<color=#80C0FFFF>潮湿</color>状态。\\n\\n<i>「蛟龙易斩，雨线难画」。</i>",
+    "cd": 21
+  },
+  "elemBurst": {
+    "name": "古华剑·裁雨留虹",
+    "desc": "展开虹剑势，驾御幻影剑雨战斗，并生成最大数量的雨帘剑。\\n\\n<color=#FFD780FF>虹剑势</color>\\n·当前场上自己的角色进行普通攻击时，会产生剑雨连携攻击，造成<color=#80C0FFFF>水元素伤害</color>；\\n·雨帘剑的数量将始终维持在最大数量。\\n\\n<i>「裁雨法」不传绝学，古华镇派秘诀之一。</i>",
+    "cd": 20,
+    "energyCost": 80
+  },
+  "attackSkill": {
+    "name": "普通攻击·古华剑法",
+    "desc": "<color=#FFD780FF>普通攻击</color>\\n进行至多五段的连续剑击。\\n\\n<color=#FFD780FF>重击</color>\\n消耗一定体力，瞬间向前方挥出两剑。\\n\\n<color=#FFD780FF>下落攻击</color>\\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
+    "cd": 0
+  },
+  "c13ns": [
+    { "name": "重帘留香", "desc": "雨帘剑的最大数量增加1柄。", "values": [] },
+    {
+      "name": "天青现虹",
+      "desc": "<color=#FFD780FF>古华剑·裁雨留虹</color>的持续时间延长3秒；\\n此外，受到剑雨攻击的敌人，<color=#80C0FFFF>水元素抗性</color>降低15%，持续4秒。",
+      "values": []
+    },
+    {
+      "name": "织诗成锦",
+      "desc": "<color=#FFD780FF>古华剑·裁雨留虹</color>的技能等级提高3级。\\n至多提升至15级。",
+      "values": []
+    },
+    {
+      "name": "孤舟斩蛟",
+      "desc": "在<color=#FFD780FF>古华剑·裁雨留虹</color>效果持续期间，<color=#FFD780FF>古华剑·画雨笼山</color>造成的伤害提升50%。",
+      "values": []
+    },
+    {
+      "name": "雨深闭门",
+      "desc": "<color=#FFD780FF>古华剑·画雨笼山</color>的技能等级提高3级。\\n至多提升至15级。",
+      "values": []
+    },
+    {
+      "name": "万文集此",
+      "desc": "<color=#FFD780FF>古华剑·裁雨留虹</color>每发动2次剑雨攻击，就大幅增强下一次剑雨攻击，并在命中敌人时为行秋恢复3点元素能量。",
+      "values": []
+    }
+  ]
+}

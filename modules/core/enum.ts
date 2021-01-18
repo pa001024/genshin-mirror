@@ -83,6 +83,9 @@ export enum BodyType {
 /** 加成类型 */
 export enum BuffType {
   /** 未知 */ Unknown,
+  /** 基础生命 */ BaseHP,
+  /** 基础攻击 */ BaseATK,
+  /** 基础防御 */ BaseDEF,
   /** 固定生命 */ HPDelta,
   /** 生命 */ HPRatio,
   /** 固定攻击 */ ATKDelta,
@@ -129,9 +132,6 @@ export enum BuffType {
   /** 产生元素晶球 */ GenerateElementalParticle,
   /** 蓄力速度 */ ChargeSpeed,
   /** 爆头伤害 */ HitHeadDMG,
-  /** 基础生命 */ BaseHP,
-  /** 基础攻击 */ BaseATK,
-  /** 基础防御 */ BaseDEF,
   /** 体力上限 */ MaxStamina,
   /** 反暴击率 */ AntiCRITRate,
 }

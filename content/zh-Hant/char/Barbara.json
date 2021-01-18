@@ -1,0 +1,153 @@
+{
+  "id": "Barbara",
+  "name": "芭芭拉",
+  "desc": "蒙德城的大家都喜歡芭芭拉。「偶像」這個詞是她從一本雜誌裡看到的。",
+  "baseHP": 820.61,
+  "baseATK": 13.356,
+  "baseDEF": 56.081,
+  "bodyType": 3,
+  "rarity": 4,
+  "weapon": 5,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "VarunadaLazuriteSliver", "count": 1 },
+        { "name": "PhilanemoMushroom", "count": 3 },
+        { "name": "DiviningScroll", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 613.04 },
+        { "type": 3, "value": 41.895 },
+        { "type": 2, "value": 9.9778 },
+        { "type": 5, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "VarunadaLazuriteFragment", "count": 3 },
+        { "name": "CleansingHeart", "count": 2 },
+        { "name": "PhilanemoMushroom", "count": 10 },
+        { "name": "DiviningScroll", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1048.6 },
+        { "type": 3, "value": 71.662 },
+        { "type": 2, "value": 17.067 },
+        { "type": 5, "value": 0.06 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "VarunadaLazuriteFragment", "count": 6 },
+        { "name": "CleansingHeart", "count": 4 },
+        { "name": "PhilanemoMushroom", "count": 20 },
+        { "name": "SealedScroll", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1629.4 },
+        { "type": 3, "value": 111.35 },
+        { "type": 2, "value": 26.52 },
+        { "type": 5, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "VarunadaLazuriteChunk", "count": 3 },
+        { "name": "CleansingHeart", "count": 8 },
+        { "name": "PhilanemoMushroom", "count": 30 },
+        { "name": "SealedScroll", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2065 },
+        { "type": 3, "value": 141.12 },
+        { "type": 2, "value": 33.61 },
+        { "type": 5, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "VarunadaLazuriteChunk", "count": 6 },
+        { "name": "CleansingHeart", "count": 12 },
+        { "name": "PhilanemoMushroom", "count": 45 },
+        { "name": "ForbiddenCurseScroll", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2500.6 },
+        { "type": 3, "value": 170.89 },
+        { "type": 2, "value": 40.699 },
+        { "type": 5, "value": 0.18 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "VarunadaLazuriteGemstone", "count": 6 },
+        { "name": "CleansingHeart", "count": 20 },
+        { "name": "PhilanemoMushroom", "count": 60 },
+        { "name": "ForbiddenCurseScroll", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2936.1 },
+        { "type": 3, "value": 200.65 },
+        { "type": 2, "value": 47.789 },
+        { "type": 5, "value": 0.24 }
+      ]
+    }
+  ],
+  "ascensionType": 5,
+  "element": 5,
+  "elemSkill": {
+    "name": "演唱，開始♪",
+    "desc": "喚出歌聲般躍動的水珠，形成歌聲之環，對周圍的敵人造成<color=#80C0FFFF>水元素傷害</color>，並施加<color=#80C0FFFF>潮濕</color>狀態。\\n\\n<color=#FFD780FF>歌聲之環</color>\\n·芭芭拉的普通攻擊命中時，為隊伍中自己的角色，以及附近的友方角色恢復生命值，回復量受益於芭芭拉的生命值上限；\\n·重擊命中時，能產生四倍回復量；\\n·每隔一段時間，為當前場上自己的角色恢復生命值；\\n·對角色與觸及歌聲之環的敵人施加<color=#80C0FFFF>潮濕</color>狀態。\\n\\n<i>芭芭拉的音樂就是治療大家的魔法。</i>",
+    "cd": 32
+  },
+  "elemBurst": {
+    "name": "閃耀奇跡♪",
+    "desc": "為附近的友方角色與隊伍中自己的角色恢復大量生命值，回復量受益於芭芭拉的生命值上限。\\n\\n<i>治癒大家的心就是芭芭拉戰鬥與歌唱的力量。</i>",
+    "cd": 20,
+    "energyCost": 80
+  },
+  "attackSkill": {
+    "name": "普通攻擊·水之淺唱",
+    "desc": "<color=#FFD780FF>普通攻擊</color>\\n進行至多四段的水花攻擊，造成<color=#80C0FFFF>水元素傷害</color>。\\n\\n<color=#FFD780FF>重擊</color>\\n消耗一定體力，短暫詠唱後，造成<color=#80C0FFFF>水元素範圍傷害</color>。\\n\\n<color=#FFD780FF>下落攻擊</color>\\n凝聚水元素的力量，從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成<color=#80C0FFFF>水元素範圍傷害</color>。",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "彩色歌謠",
+      "desc": "芭芭拉每10秒恢復1點元素能量。",
+      "values": []
+    },
+    {
+      "name": "元氣迸發",
+      "desc": "<color=#FFD780FF>演唱，開始♪</color>的冷卻時間降低15%；\\n技能持續期間，當前場上自己的角色獲得15%<color=#80C0FFFF>水元素傷害加成</color>。",
+      "values": []
+    },
+    {
+      "name": "明日之星",
+      "desc": "<color=#FFD780FF>閃耀奇跡♪</color>的技能等級提高3級。\\n至多提升至15級。",
+      "values": []
+    },
+    {
+      "name": "努力即魔法",
+      "desc": "芭芭拉使用重擊時，每命中一個敵人，就恢復1點元素能量。\\n透過這種方式，一次至多回復5點元素能量。",
+      "values": []
+    },
+    {
+      "name": "純真的羈絆",
+      "desc": "<color=#FFD780FF>演唱，開始♪</color>的技能等級提高3級。\\n至多提升至15級。",
+      "values": []
+    },
+    {
+      "name": "將一切美好獻給你",
+      "desc": "芭芭拉處於隊伍後台時，隊伍中自己的角色倒下時，則立即：\\n·復甦該角色；\\n·將該角色生命值恢復至100%。\\n該效果每15分鐘只能觸發一次。",
+      "values": []
+    }
+  ]
+}

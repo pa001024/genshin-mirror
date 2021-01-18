@@ -1,0 +1,153 @@
+{
+  "id": "Venti",
+  "name": "ウェンティ",
+  "desc": "モンドの街にいる数多くの自由な吟遊詩人の一人。",
+  "baseHP": 819.86,
+  "baseATK": 20.482,
+  "baseDEF": 52.052,
+  "bodyType": 0,
+  "rarity": 5,
+  "weapon": 2,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "VayudaTurquoiseSliver", "count": 1 },
+        { "name": "Cecilia", "count": 3 },
+        { "name": "SlimeCondensate", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 702.95 },
+        { "type": 3, "value": 44.631 },
+        { "type": 2, "value": 17.56 },
+        { "type": 10, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "VayudaTurquoiseFragment", "count": 3 },
+        { "name": "HurricaneSeed", "count": 2 },
+        { "name": "Cecilia", "count": 10 },
+        { "name": "SlimeCondensate", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1202.4 },
+        { "type": 3, "value": 76.342 },
+        { "type": 2, "value": 30.037 },
+        { "type": 10, "value": 0.08 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "VayudaTurquoiseFragment", "count": 6 },
+        { "name": "HurricaneSeed", "count": 4 },
+        { "name": "Cecilia", "count": 20 },
+        { "name": "SlimeSecretions", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1868.4 },
+        { "type": 3, "value": 118.62 },
+        { "type": 2, "value": 46.673 },
+        { "type": 10, "value": 0.16 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "VayudaTurquoiseChunk", "count": 3 },
+        { "name": "HurricaneSeed", "count": 8 },
+        { "name": "Cecilia", "count": 30 },
+        { "name": "SlimeSecretions", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2367.8 },
+        { "type": 3, "value": 150.34 },
+        { "type": 2, "value": 59.15 },
+        { "type": 10, "value": 0.16 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "VayudaTurquoiseChunk", "count": 6 },
+        { "name": "HurricaneSeed", "count": 12 },
+        { "name": "Cecilia", "count": 45 },
+        { "name": "SlimeConcentrate", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2867.3 },
+        { "type": 3, "value": 182.05 },
+        { "type": 2, "value": 71.627 },
+        { "type": 10, "value": 0.24 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "VayudaTurquoiseGemstone", "count": 6 },
+        { "name": "HurricaneSeed", "count": 20 },
+        { "name": "Cecilia", "count": 60 },
+        { "name": "SlimeConcentrate", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3366.8 },
+        { "type": 3, "value": 213.76 },
+        { "type": 2, "value": 84.104 },
+        { "type": 10, "value": 0.32 }
+      ]
+    }
+  ],
+  "ascensionType": 10,
+  "element": 1,
+  "elemSkill": {
+    "name": "高天の歌",
+    "desc": "詩を奏でる風を呼び、塵泥の中を歩くものを高空まで届ける。\\n\\n<color=#FFD780FF>一回押し</color>\\n目標の足もとに風域を召喚し、<color=#80FFD7FF>風元素範囲ダメージ</color>を与え、敵をノックバックする。\\n\\n<color=#FFD780FF>長押し</color>\\n自身を中心に更に大きい風域を召喚し、<color=#80FFD7FF>風元素範囲ダメージ</color>を与え、敵をノックバックする。\\n長押しで発動した後、ウェンティは風に乗り空中へ飛ぶ。\\n高天の歌にノックバックされた敵はゆっくりと落下する。\\n\\n<i>人と神がまだ共に大地にいた時代、無数の歌が四方の空に伝わっていた。それらはすでに忘れ去られた曲である。</i>",
+    "cd": 6
+  },
+  "elemBurst": {
+    "name": "風神の詩",
+    "desc": "千の風を集めた矢を放ち、前方に巨大な暴風の目を作る。爆風は敵を巻き込み、<color=#80FFD7FF>風元素ダメージ</color>を持続的に与える。\\n\\n<color=#FFD780FF>元素変化</color>\\n暴風の目がスキル継続中に<color=#80C0FFFF>水元素</color>/<color=#FF9999FF>炎元素</color>/<color=#99FFFFFF>氷元素</color>/<color=#FFACFFFF>雷元素</color>に接触すると、接触した元素の属性を獲得し、該当元素の付加ダメージを追加で与える。\\n元素変化はスキル継続中に1回のみ発生する。\\n\\n<i>風の神を讃頌する詩の多くはすでに散逸した。その中でこの詩は、彼と風の力を物語っている。</i>",
+    "cd": 15,
+    "energyCost": 60
+  },
+  "attackSkill": {
+    "name": "通常攻撃·神代の射術",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\\n最大6段の連続射撃を行う。\\n\\n<color=#FFD780FF>重撃</color>\\nダメージがより高く、より精確な<color=#FFD780FF>狙い撃ち</color>を発動する。\\n照準時、天地の風を矢先に凝集させ、風の力に満ちた矢で敵に<color=#80FFD7FF>風元素ダメージ</color>を与える。\\n\\n<color=#FFD780FF>落下攻撃</color>\\n空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "矢先の蒼風",
+      "desc": "<color=#FFD780FF>狙い撃ち</color>する時、分裂した矢を追加で2本放つ。それぞれ元の矢の33%のダメージを与える。",
+      "values": []
+    },
+    {
+      "name": "恋い焦がれるそよ風",
+      "desc": "<color=#FFD780FF>高天の歌</color>発動後、敵の<color=#80FFD7FF>風元素耐性</color>と物理耐性-12%、継続時間10秒。\\n<color=#FFD780FF>高天の歌</color>によってノックバックされた敵が着地するまで、<color=#80FFD7FF>風元素耐性</color>と物理耐性が更に-12%。",
+      "values": []
+    },
+    {
+      "name": "千の風の詩",
+      "desc": "<color=#FFD780FF>風神の詩</color>のスキルLv.+3。\\n最大Lv.15まで。",
+      "values": []
+    },
+    {
+      "name": "自由の凛風",
+      "desc": "ウェンティが元素オーブまたは元素粒子を獲得した時、<color=#80FFD7FF>風元素ダメージ</color>+25%、継続時間10秒。",
+      "values": []
+    },
+    {
+      "name": "高天の協奏",
+      "desc": "<color=#FFD780FF>高天の歌</color>のスキルLv.+3。\\n最大Lv.15まで。",
+      "values": []
+    },
+    {
+      "name": "抗争の暴風",
+      "desc": "<color=#FFD780FF>風神の詩</color>のダメージを受けた敵の<color=#80FFD7FF>風元素耐性</color>-20%。\\n元素変化があった場合、変化した元素の耐性も-20%。",
+      "values": []
+    }
+  ]
+}

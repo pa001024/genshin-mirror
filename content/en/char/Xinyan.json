@@ -1,0 +1,153 @@
+{
+  "id": "Xinyan",
+  "name": "Xinyan",
+  "desc": "Liyue's sole rock 'n' roll musician. She rebels against ossified prejudices using her music and passionate singing.",
+  "baseHP": 939.14,
+  "baseATK": 20.835,
+  "baseDEF": 66.953,
+  "bodyType": 3,
+  "rarity": 4,
+  "weapon": 4,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "AgnidusAgateSliver", "count": 1 },
+        { "name": "Violetgrass", "count": 3 },
+        { "name": "TreasureHoarderInsignia", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 701.59 },
+        { "type": 3, "value": 50.018 },
+        { "type": 2, "value": 15.565 },
+        { "type": 7, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "AgnidusAgateFragment", "count": 3 },
+        { "name": "EverflameSeed", "count": 2 },
+        { "name": "Violetgrass", "count": 10 },
+        { "name": "TreasureHoarderInsignia", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1200.1 },
+        { "type": 3, "value": 85.556 },
+        { "type": 2, "value": 26.625 },
+        { "type": 7, "value": 0.06 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "AgnidusAgateFragment", "count": 6 },
+        { "name": "EverflameSeed", "count": 4 },
+        { "name": "Violetgrass", "count": 20 },
+        { "name": "SilverRavenInsignia", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1864.8 },
+        { "type": 3, "value": 132.94 },
+        { "type": 2, "value": 41.371 },
+        { "type": 7, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "AgnidusAgateChunk", "count": 3 },
+        { "name": "EverflameSeed", "count": 8 },
+        { "name": "Violetgrass", "count": 30 },
+        { "name": "SilverRavenInsignia", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2363.2 },
+        { "type": 3, "value": 168.48 },
+        { "type": 2, "value": 52.431 },
+        { "type": 7, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "AgnidusAgateChunk", "count": 6 },
+        { "name": "EverflameSeed", "count": 12 },
+        { "name": "Violetgrass", "count": 45 },
+        { "name": "GoldenRavenInsignia", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2861.7 },
+        { "type": 3, "value": 204.02 },
+        { "type": 2, "value": 63.491 },
+        { "type": 7, "value": 0.18 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "AgnidusAgateGemstone", "count": 6 },
+        { "name": "EverflameSeed", "count": 20 },
+        { "name": "Violetgrass", "count": 60 },
+        { "name": "GoldenRavenInsignia", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3360.2 },
+        { "type": 3, "value": 239.56 },
+        { "type": 2, "value": 74.55 },
+        { "type": 7, "value": 0.24 }
+      ]
+    }
+  ],
+  "ascensionType": 7,
+  "element": 6,
+  "elemSkill": {
+    "name": "Sweeping Fervor",
+    "desc": "Xinyan brandishes her instrument, dealing <color=#FF9999FF>Pyro DMG</color> on nearby opponents, forming a shield made out of her audience's passion.\\nThe shield's DMG Absorption scales based on Xinyan's DEF and on the number of opponents hit.\\n·Hitting 0–1 opponents grants Shield Level 1: Ad Lib.\\n·Hitting 2 opponents grants Shield Level 2: Lead-In.\\n·Hitting 3 or more opponents grants Shield Level 3: Rave, which will also deal intermittent <color=#FF9999FF>Pyro DMG</color> to nearby opponents.\\n\\nThe shield has the following special properties:\\n·When unleashed, it infuses Xinyan with <color=#FF9999FF>Pyro</color>.\\n·It has 250% DMG Absorption effectiveness against <color=#FF9999FF>Pyro DMG</color>.\\n\\n<i>Xinyan insists that these pyrotechnics are the apex of performative art, and that they are physical phenomena that have nothing to do with her Vision.</i>",
+    "cd": 18
+  },
+  "elemBurst": {
+    "name": "Riff Revolution",
+    "desc": "Strumming rapidly, Xinyan launches nearby opponents and deals Physical DMG to them, hyping up the crowd.\\nThe sheer intensity of the atmosphere will cause explosions that deal <color=#FF9999FF>Pyro DMG</color> to nearby opponents.\\n\\n<i>Xinyan used to end all her performances with this move. She didn't stop because it was dangerous, however, but because she didn't have a more epic finale in case someone shouted \"Encore!\"</i>",
+    "cd": 15,
+    "energyCost": 60
+  },
+  "attackSkill": {
+    "name": "Normal Attack: Dance on Fire",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 4 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt end of the sequence, perform a more powerful slash. \\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "Fatal Acceleration",
+      "desc": "Upon scoring a CRIT Hit, increases ATK SPD of Xinyan's Normal and Charged Attacks by 12% for 5s.\\nCan only occur once every 5s.",
+      "values": [0.12, 5]
+    },
+    {
+      "name": "Impromptu Opening",
+      "desc": "<color=#FFD780FF>Riff Revolution</color>'s Physical DMG has its Crit Rate increased by 100%, and will form a shield at Shield Level 3: Rave when cast.",
+      "values": [1]
+    },
+    {
+      "name": "Double-Stop",
+      "desc": "Increases the Level of <color=#FFD780FF>Sweeping Fervor</color> by 3.\\nMaximum upgrade level is 15.",
+      "values": []
+    },
+    {
+      "name": "Wildfire Rhythm",
+      "desc": "<color=#FFD780FF>Sweeping Fervor</color>'s swing DMG decreases opponent's Physical RES by 15% for 12s.",
+      "values": [-0.15, 12]
+    },
+    {
+      "name": "Screamin' for an Encore",
+      "desc": "Increases the Level of <color=#FFD780FF>Riff Revolution</color> by 3.\\nMaximum upgrade level is 15.",
+      "values": []
+    },
+    {
+      "name": "Rockin' in a Flaming World",
+      "desc": "Decreases the Stamina Consumption of Xinyan's Charged Attacks by 30%. Additionally, Xinyan's Charged Attacks gain an ATK Bonus equal to 50% of her DEF.",
+      "values": [-0.3, 0.5]
+    }
+  ]
+}

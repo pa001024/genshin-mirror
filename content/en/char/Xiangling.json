@@ -1,0 +1,153 @@
+{
+  "id": "Xiangling",
+  "name": "Xiangling",
+  "desc": "A renowned chef from Liyue. She's extremely passionate about cooking and excels at making her signature hot and spicy dishes.",
+  "baseHP": 911.79,
+  "baseATK": 18.876,
+  "baseDEF": 56.081,
+  "bodyType": 3,
+  "rarity": 4,
+  "weapon": 3,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "AgnidusAgateSliver", "count": 1 },
+        { "name": "JueyunChili", "count": 3 },
+        { "name": "SlimeCondensate", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 681.15 },
+        { "type": 3, "value": 41.895 },
+        { "type": 2, "value": 14.102 },
+        { "type": 11, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "AgnidusAgateFragment", "count": 3 },
+        { "name": "EverflameSeed", "count": 2 },
+        { "name": "JueyunChili", "count": 10 },
+        { "name": "SlimeCondensate", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1165.1 },
+        { "type": 3, "value": 71.662 },
+        { "type": 2, "value": 24.122 },
+        { "type": 11, "value": 24 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "AgnidusAgateFragment", "count": 6 },
+        { "name": "EverflameSeed", "count": 4 },
+        { "name": "JueyunChili", "count": 20 },
+        { "name": "SlimeSecretions", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1810.4 },
+        { "type": 3, "value": 111.35 },
+        { "type": 2, "value": 37.482 },
+        { "type": 11, "value": 48 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "AgnidusAgateChunk", "count": 3 },
+        { "name": "EverflameSeed", "count": 8 },
+        { "name": "JueyunChili", "count": 30 },
+        { "name": "SlimeSecretions", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2294.4 },
+        { "type": 3, "value": 141.12 },
+        { "type": 2, "value": 47.502 },
+        { "type": 11, "value": 48 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "AgnidusAgateChunk", "count": 6 },
+        { "name": "EverflameSeed", "count": 12 },
+        { "name": "JueyunChili", "count": 45 },
+        { "name": "SlimeConcentrate", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2778.4 },
+        { "type": 3, "value": 170.89 },
+        { "type": 2, "value": 57.521 },
+        { "type": 11, "value": 72 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "AgnidusAgateGemstone", "count": 6 },
+        { "name": "EverflameSeed", "count": 20 },
+        { "name": "JueyunChili", "count": 60 },
+        { "name": "SlimeConcentrate", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3262.4 },
+        { "type": 3, "value": 200.65 },
+        { "type": 2, "value": 67.541 },
+        { "type": 11, "value": 96 }
+      ]
+    }
+  ],
+  "ascensionType": 11,
+  "element": 6,
+  "elemSkill": {
+    "name": "Guoba Attack",
+    "desc": "Summons Guoba the Panda. Guoba continuously breathes fire at opponents, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\\n\\n<i>Guoba loves to eat spicy food. Problem is, his stomach can't handle something this spicy.</i>",
+    "cd": 12
+  },
+  "elemBurst": {
+    "name": "Pyronado",
+    "desc": "Displaying her mastery over both fire and polearms, Xiangling sends a Pyronado whirling around her.\\nThe Pyronado will move with your character for the ability's duration, dealing <color=#FF9999FF>Pyro DMG</color> to all opponents in its path.\\n\\n<i>There will never be enough heat. Never.</i>",
+    "cd": 20,
+    "energyCost": 80
+  },
+  "attackSkill": {
+    "name": "Normal Attack: Dough-Fu",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to five consecutive spear strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "Crispy Outside, Tender Inside",
+      "desc": "Opponents hit by Guoba's attacks have their <color=#FF9999FF>Pyro RES</color> reduced by 15% for 6s.",
+      "values": [0.15, 6]
+    },
+    {
+      "name": "Oil Meets Fire",
+      "desc": "The last attack in a Normal Attack sequence applies the Implode status onto the opponent for 2s. An explosion will occur once this duration ends, dealing 75% of Xiangling's ATK as <color=#FF9999FF>AoE Pyro DMG</color>.",
+      "values": [2, 2, 0.75]
+    },
+    {
+      "name": "Deepfry",
+      "desc": "Increases the Level of <color=#FFD780FF>Pyronado</color> by 3.\\nMaximum upgrade level is 15.",
+      "values": []
+    },
+    {
+      "name": "Slowbake",
+      "desc": "<color=#FFD780FF>Pyronado</color>'s duration is increased by 40%.",
+      "values": [0.4]
+    },
+    {
+      "name": "Guoba Mad",
+      "desc": "Increases the Level of <color=#FFD780FF>Guoba Attack</color> by 3.\\nMaximum upgrade level is 15.",
+      "values": []
+    },
+    {
+      "name": "Condensed Pyronado",
+      "desc": "For the duration of <color=#FFD780FF>Pyronado</color>, all party members receive a 15% <color=#FF9999FF>Pyro DMG Bonus</color>.",
+      "values": [0.15]
+    }
+  ]
+}

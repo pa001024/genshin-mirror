@@ -1,0 +1,153 @@
+{
+  "id": "Amber",
+  "name": "安柏",
+  "desc": "永远充满活力的女孩，骑士团最优秀，同时也是最后的侦察骑士。",
+  "baseHP": 793.26,
+  "baseATK": 18.698,
+  "baseDEF": 50.358,
+  "bodyType": 3,
+  "rarity": 4,
+  "weapon": 2,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "AgnidusAgateSliver", "count": 1 },
+        { "name": "SmallLampGrass", "count": 3 },
+        { "name": "FirmArrowhead", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 592.6 },
+        { "type": 3, "value": 37.62 },
+        { "type": 2, "value": 13.969 },
+        { "type": 7, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "AgnidusAgateFragment", "count": 3 },
+        { "name": "EverflameSeed", "count": 2 },
+        { "name": "SmallLampGrass", "count": 10 },
+        { "name": "FirmArrowhead", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1013.7 },
+        { "type": 3, "value": 64.35 },
+        { "type": 2, "value": 23.894 },
+        { "type": 7, "value": 0.06 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "AgnidusAgateFragment", "count": 6 },
+        { "name": "EverflameSeed", "count": 4 },
+        { "name": "SmallLampGrass", "count": 20 },
+        { "name": "SharpArrowhead", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1575.1 },
+        { "type": 3, "value": 99.99 },
+        { "type": 2, "value": 37.128 },
+        { "type": 7, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "AgnidusAgateChunk", "count": 3 },
+        { "name": "EverflameSeed", "count": 8 },
+        { "name": "SmallLampGrass", "count": 30 },
+        { "name": "SharpArrowhead", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1996.1 },
+        { "type": 3, "value": 126.72 },
+        { "type": 2, "value": 47.053 },
+        { "type": 7, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "AgnidusAgateChunk", "count": 6 },
+        { "name": "EverflameSeed", "count": 12 },
+        { "name": "SmallLampGrass", "count": 45 },
+        { "name": "WeatheredArrowhead", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2417.2 },
+        { "type": 3, "value": 153.45 },
+        { "type": 2, "value": 56.979 },
+        { "type": 7, "value": 0.18 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "AgnidusAgateGemstone", "count": 6 },
+        { "name": "EverflameSeed", "count": 20 },
+        { "name": "SmallLampGrass", "count": 60 },
+        { "name": "WeatheredArrowhead", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2838.3 },
+        { "type": 3, "value": 180.18 },
+        { "type": 2, "value": 66.904 },
+        { "type": 7, "value": 0.24 }
+      ]
+    }
+  ],
+  "ascensionType": 7,
+  "element": 6,
+  "elemSkill": {
+    "name": "爆弹玩偶",
+    "desc": "请可靠的兔兔伯爵上阵。\\n\\n<color=#FFD780FF>兔兔伯爵</color>\\n·持续嘲讽周围的敌人，吸引火力；\\n·耐久度按比例继承安柏的生命值上限；\\n·被摧毁或持续时间结束时，会发生剧烈的爆炸，造成<color=#FF9999FF>火元素范围伤害</color>。\\n\\n<color=#FFD780FF>长按</color>\\n调整投掷方向。\\n投掷距离随长按时间增加。\\n\\n<i>兔兔伯爵有着悠久的家系。但从兔兔八百九十三世开始，安柏就停止计数了。</i>",
+    "cd": 15
+  },
+  "elemBurst": {
+    "name": "箭雨",
+    "desc": "射出火焰箭雨，持续造成<color=#FF9999FF>火元素范围伤害</color>。\\n\\n<i>满心热诚的安柏真的很热。</i>",
+    "cd": 12,
+    "energyCost": 40
+  },
+  "attackSkill": {
+    "name": "普通攻击·神射手",
+    "desc": "<color=#FFD780FF>普通攻击</color>\\n进行至多五段的连续弓箭射击。\\n\\n<color=#FFD780FF>重击</color>\\n进行伤害更高、更为精准的<color=#FFD780FF>瞄准射击</color>。\\n瞄准时，烈焰会在箭矢上持续积聚。聚满了烈焰的箭矢会造成<color=#FF9999FF>火元素伤害</color>。\\n\\n<color=#FFD780FF>下落攻击</color>\\n从空中射出箭雨，并迅速下坠冲击地面，在落地时造成范围伤害。",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "一箭双丘丘！",
+      "desc": "<color=#FFD780FF>瞄准射击</color>时，会连续射出2支箭。第二支箭能造成原本20%的伤害。",
+      "values": [0.2]
+    },
+    {
+      "name": "一触即发",
+      "desc": "兔兔伯爵进行了全新改良！蓄力完成的瞄准射击命中兔兔伯爵脚部时，能直接引爆兔兔伯爵…\\n通过这种方式主动引爆兔兔伯爵时，会额外造成200%伤害。",
+      "values": [2]
+    },
+    {
+      "name": "烧起来啦！",
+      "desc": "<color=#FFD780FF>箭雨</color>的技能等级提高3级。\\n至多提升至15级。",
+      "values": []
+    },
+    {
+      "name": "才不是普通的布偶",
+      "desc": "<color=#FFD780FF>爆弹玩偶</color>的冷却时间减少20%，并增加1次可使用次数。",
+      "values": []
+    },
+    {
+      "name": "是兔兔伯爵！",
+      "desc": "<color=#FFD780FF>爆弹玩偶</color>的技能等级提高3级。\\n至多提升至15级。",
+      "values": []
+    },
+    {
+      "name": "疾如野火",
+      "desc": "使用<color=#FFD780FF>箭雨</color>后的10秒内，队伍中所有角色的移动速度提升15%，攻击力提升15%。",
+      "values": [0.15, 0.15, 10]
+    }
+  ]
+}

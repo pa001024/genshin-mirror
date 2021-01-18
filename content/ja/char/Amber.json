@@ -1,0 +1,153 @@
+{
+  "id": "Amber",
+  "name": "アンバー",
+  "desc": "元気満々な女の子、騎士団で最も優秀で、最後の偵察騎士である。",
+  "baseHP": 793.26,
+  "baseATK": 18.698,
+  "baseDEF": 50.358,
+  "bodyType": 3,
+  "rarity": 4,
+  "weapon": 2,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "AgnidusAgateSliver", "count": 1 },
+        { "name": "SmallLampGrass", "count": 3 },
+        { "name": "FirmArrowhead", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 592.6 },
+        { "type": 3, "value": 37.62 },
+        { "type": 2, "value": 13.969 },
+        { "type": 7, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "AgnidusAgateFragment", "count": 3 },
+        { "name": "EverflameSeed", "count": 2 },
+        { "name": "SmallLampGrass", "count": 10 },
+        { "name": "FirmArrowhead", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1013.7 },
+        { "type": 3, "value": 64.35 },
+        { "type": 2, "value": 23.894 },
+        { "type": 7, "value": 0.06 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "AgnidusAgateFragment", "count": 6 },
+        { "name": "EverflameSeed", "count": 4 },
+        { "name": "SmallLampGrass", "count": 20 },
+        { "name": "SharpArrowhead", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1575.1 },
+        { "type": 3, "value": 99.99 },
+        { "type": 2, "value": 37.128 },
+        { "type": 7, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "AgnidusAgateChunk", "count": 3 },
+        { "name": "EverflameSeed", "count": 8 },
+        { "name": "SmallLampGrass", "count": 30 },
+        { "name": "SharpArrowhead", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1996.1 },
+        { "type": 3, "value": 126.72 },
+        { "type": 2, "value": 47.053 },
+        { "type": 7, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "AgnidusAgateChunk", "count": 6 },
+        { "name": "EverflameSeed", "count": 12 },
+        { "name": "SmallLampGrass", "count": 45 },
+        { "name": "WeatheredArrowhead", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2417.2 },
+        { "type": 3, "value": 153.45 },
+        { "type": 2, "value": 56.979 },
+        { "type": 7, "value": 0.18 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "AgnidusAgateGemstone", "count": 6 },
+        { "name": "EverflameSeed", "count": 20 },
+        { "name": "SmallLampGrass", "count": 60 },
+        { "name": "WeatheredArrowhead", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2838.3 },
+        { "type": 3, "value": 180.18 },
+        { "type": 2, "value": 66.904 },
+        { "type": 7, "value": 0.24 }
+      ]
+    }
+  ],
+  "ascensionType": 7,
+  "element": 6,
+  "elemSkill": {
+    "name": "爆弾人形",
+    "desc": "頼もしいウサギ伯爵の出番。\\n\\n<color=#FFD780FF>ウサギ伯爵</color>\\n·周囲の敵を挑発し、攻撃を引き付ける。\\n耐久度はアンバーのHP上限によって決まる。\\n·破壊された時または継続時間が終了した時に爆発し、<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。\\n\\n<color=#FFD780FF>長押し</color>\\n投擲方向を調整できる。\\n投擲距離は長押しする時間によって増加する。\\n\\n<i>ウサギ伯爵の家系には長い歴史があるが、ウサギ893世からアンバーは数えるのをやめた。</i>",
+    "cd": 15
+  },
+  "elemBurst": {
+    "name": "矢の雨",
+    "desc": "前方に炎の矢の雨を放ち、<color=#FF9999FF>炎元素範囲ダメージ</color>を持続的に与える。\\n\\n<i>情熱的なアンバーは本当に熱い。</i>",
+    "cd": 12,
+    "energyCost": 40
+  },
+  "attackSkill": {
+    "name": "通常攻撃·一流射手",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\\n最高5段の連続射撃を行う。\\n\\n<color=#FFD780FF>重撃</color>\\nダメージがより高く、より精確な<color=#FFD780FF>狙い撃ち</color>を発動する。\\n照準時、烈炎を矢先に凝集させ、烈炎に満ちた矢で敵に<color=#FF9999FF>炎元素ダメージ</color>を与える。\\n\\n<color=#FFD780FF>落下攻撃</color>\\n空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "一挙双擒！",
+      "desc": "<color=#FFD780FF>狙い撃ち</color>する時、矢を連続で2本放つ。2本目の矢は元の矢の20%のダメージを与える。",
+      "values": [0.2]
+    },
+    {
+      "name": "一触即発",
+      "desc": "ウサギ伯爵が改良された！フルチャージの狙い撃ちがウサギ伯爵の足に命中するとウサギ伯爵を直接起爆させることができる。\\nこの方法で自らウサギ伯爵を起爆した場合、追加で200%のダメージを与える。",
+      "values": [2]
+    },
+    {
+      "name": "燃やせ！",
+      "desc": "<color=#FFD780FF>矢の雨</color>のスキルLv.+3。\\n最大Lv.15まで。",
+      "values": []
+    },
+    {
+      "name": "ただの人形じゃない",
+      "desc": "<color=#FFD780FF>爆弾人形</color>のクールタイム-20%、使用可能回数+1。",
+      "values": []
+    },
+    {
+      "name": "ウサギ伯爵だよ！",
+      "desc": "<color=#FFD780FF>爆弾人形</color>のスキルLv.+3。\\n最大Lv.15まで。",
+      "values": []
+    },
+    {
+      "name": "野火の如く",
+      "desc": "<color=#FFD780FF>矢の雨</color>を発動した10秒間、チーム全員の移動速度+15%、攻撃力+15%。",
+      "values": [0.15, 0.15, 10]
+    }
+  ]
+}

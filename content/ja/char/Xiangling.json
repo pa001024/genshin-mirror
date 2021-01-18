@@ -1,0 +1,153 @@
+{
+  "id": "Xiangling",
+  "name": "香菱",
+  "desc": "璃月出身の少女シェフ。料理に対して人一倍情熱を持っており、激辛料理を得意とする。",
+  "baseHP": 911.79,
+  "baseATK": 18.876,
+  "baseDEF": 56.081,
+  "bodyType": 3,
+  "rarity": 4,
+  "weapon": 3,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "AgnidusAgateSliver", "count": 1 },
+        { "name": "JueyunChili", "count": 3 },
+        { "name": "SlimeCondensate", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 681.15 },
+        { "type": 3, "value": 41.895 },
+        { "type": 2, "value": 14.102 },
+        { "type": 11, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "AgnidusAgateFragment", "count": 3 },
+        { "name": "EverflameSeed", "count": 2 },
+        { "name": "JueyunChili", "count": 10 },
+        { "name": "SlimeCondensate", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1165.1 },
+        { "type": 3, "value": 71.662 },
+        { "type": 2, "value": 24.122 },
+        { "type": 11, "value": 24 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "AgnidusAgateFragment", "count": 6 },
+        { "name": "EverflameSeed", "count": 4 },
+        { "name": "JueyunChili", "count": 20 },
+        { "name": "SlimeSecretions", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1810.4 },
+        { "type": 3, "value": 111.35 },
+        { "type": 2, "value": 37.482 },
+        { "type": 11, "value": 48 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "AgnidusAgateChunk", "count": 3 },
+        { "name": "EverflameSeed", "count": 8 },
+        { "name": "JueyunChili", "count": 30 },
+        { "name": "SlimeSecretions", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2294.4 },
+        { "type": 3, "value": 141.12 },
+        { "type": 2, "value": 47.502 },
+        { "type": 11, "value": 48 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "AgnidusAgateChunk", "count": 6 },
+        { "name": "EverflameSeed", "count": 12 },
+        { "name": "JueyunChili", "count": 45 },
+        { "name": "SlimeConcentrate", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2778.4 },
+        { "type": 3, "value": 170.89 },
+        { "type": 2, "value": 57.521 },
+        { "type": 11, "value": 72 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "AgnidusAgateGemstone", "count": 6 },
+        { "name": "EverflameSeed", "count": 20 },
+        { "name": "JueyunChili", "count": 60 },
+        { "name": "SlimeConcentrate", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3262.4 },
+        { "type": 3, "value": 200.65 },
+        { "type": 2, "value": 67.541 },
+        { "type": 11, "value": 96 }
+      ]
+    }
+  ],
+  "ascensionType": 11,
+  "element": 6,
+  "elemSkill": {
+    "name": "グゥオパァー出撃",
+    "desc": "火を噴くグゥオパァーを召喚し、継続期間中に敵に火を噴き続け、<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。\\n\\n<i>グゥオパァーは辛い食べ物が好き。でもこんなに辛いものはさすがに耐えられない。</i>",
+    "cd": 12
+  },
+  "elemBurst": {
+    "name": "旋火輪",
+    "desc": "炎と槍をコントロールするコツで、自身を中心に素早く回転する旋火輪を投げ出す。\\n旋火輪はキャラクターと共に移動し、経路上の敵に<color=#FF9999FF>炎元素ダメージ</color>を与える。\\n\\n<i>火力が足りない、全然足りないよ。</i>",
+    "cd": 20,
+    "energyCost": 80
+  },
+  "attackSkill": {
+    "name": "通常攻撃·料理技法",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\\n槍による最大5段の連続攻撃を行う。\\n\\n<color=#FFD780FF>重撃</color>\\n一定のスタミナを消費して前方に突進し、経路上の敵にダメージを与える。\\n\\n<color=#FFD780FF>落下攻撃</color>\\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "外カリ中フワ",
+      "desc": "グゥオパァーに攻撃された敵の<color=#FF9999FF>炎元素耐性</color>-15%、継続時間6秒。",
+      "values": [0.15, 6]
+    },
+    {
+      "name": "強火と油",
+      "desc": "通常攻撃の最後の1撃で敵に2秒継続する爆縮効果を与える。効果終了時に爆発し、敵に攻撃力75%分の<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。",
+      "values": [2, 2, 0.75]
+    },
+    {
+      "name": "武火調理",
+      "desc": "<color=#FFD780FF>旋火輪</color>のスキルLv.+3。\\n最大Lv.15まで。",
+      "values": []
+    },
+    {
+      "name": "弱火でじっくり",
+      "desc": "<color=#FFD780FF>旋火輪</color>の継続時間+40%。",
+      "values": [0.4]
+    },
+    {
+      "name": "凶猛なグゥオパァー",
+      "desc": "<color=#FFD780FF>グゥオパァー出撃</color>のスキルLv.+3。\\n最大Lv.15まで。",
+      "values": []
+    },
+    {
+      "name": "竜巻旋火輪",
+      "desc": "<color=#FFD780FF>旋火輪</color>継続中、チーム全員の<color=#FF9999FF>炎元素ダメージ</color>+15%。",
+      "values": [0.15]
+    }
+  ]
+}

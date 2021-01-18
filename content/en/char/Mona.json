@@ -1,0 +1,153 @@
+{
+  "id": "Mona",
+  "name": "Mona",
+  "desc": "A mysterious young astrologer who proclaims herself to be \"Astrologist Mona Megistus,\" and who possesses abilities to match the title. Erudite, but prideful.",
+  "baseHP": 810.32,
+  "baseATK": 22.344,
+  "baseDEF": 50.855,
+  "bodyType": 3,
+  "rarity": 5,
+  "weapon": 5,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "VarunadaLazuriteSliver", "count": 1 },
+        { "name": "PhilanemoMushroom", "count": 3 },
+        { "name": "WhopperflowerNectar", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 694.78 },
+        { "type": 3, "value": 43.605 },
+        { "type": 2, "value": 19.157 },
+        { "type": 10, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "VarunadaLazuriteFragment", "count": 3 },
+        { "name": "CleansingHeart", "count": 2 },
+        { "name": "PhilanemoMushroom", "count": 10 },
+        { "name": "WhopperflowerNectar", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1188.4 },
+        { "type": 3, "value": 74.588 },
+        { "type": 2, "value": 32.768 },
+        { "type": 10, "value": 0.08 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "VarunadaLazuriteFragment", "count": 6 },
+        { "name": "CleansingHeart", "count": 4 },
+        { "name": "PhilanemoMushroom", "count": 20 },
+        { "name": "ShimmeringNectar", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1846.6 },
+        { "type": 3, "value": 115.9 },
+        { "type": 2, "value": 50.916 },
+        { "type": 10, "value": 0.16 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "VarunadaLazuriteChunk", "count": 3 },
+        { "name": "CleansingHeart", "count": 8 },
+        { "name": "PhilanemoMushroom", "count": 30 },
+        { "name": "ShimmeringNectar", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2340.3 },
+        { "type": 3, "value": 146.88 },
+        { "type": 2, "value": 64.527 },
+        { "type": 10, "value": 0.16 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "VarunadaLazuriteChunk", "count": 6 },
+        { "name": "CleansingHeart", "count": 12 },
+        { "name": "PhilanemoMushroom", "count": 45 },
+        { "name": "EnergyNectar", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2834 },
+        { "type": 3, "value": 177.86 },
+        { "type": 2, "value": 78.139 },
+        { "type": 10, "value": 0.24 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "VarunadaLazuriteGemstone", "count": 6 },
+        { "name": "CleansingHeart", "count": 20 },
+        { "name": "PhilanemoMushroom", "count": 60 },
+        { "name": "EnergyNectar", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3327.6 },
+        { "type": 3, "value": 208.85 },
+        { "type": 2, "value": 91.75 },
+        { "type": 10, "value": 0.32 }
+      ]
+    }
+  ],
+  "ascensionType": 10,
+  "element": 5,
+  "elemSkill": {
+    "name": "Mirror Reflection of Doom",
+    "desc": "Creates an illusory Phantom of Fate from coalesced waterspouts.\\n\\nThe <color=#FFD780FF>Phantom</color> has the following special properties:\\n·Continuously taunts nearby opponents, attracting their fire.\\n·Continuously deals <color=#80C0FFFF>Hydro DMG</color> to nearby opponents.\\n·When its duration expires, the Phantom explodes, dealing <color=#80C0FFFF>AoE Hydro DMG</color>.\\n\\n<color=#FFD780FF>Hold</color>\\nUtilizes water currents to move backwards swiftly before conjuring a Phantom.\\n\\nOnly one Phantom created by Mirror Reflection of Doom can exist at any time.\\n\\n<i>Skilled astrologers have always dreamed of using a phantom facsimile of themselves to ward off imminent ill fate, but Mona must be the first to make such a mockery of it in all of Teyvat.</i>",
+    "cd": 12
+  },
+  "elemBurst": {
+    "name": "Stellaris Phantasm",
+    "desc": "Mona summons the sparkling waves and creates a reflection of the starry sky, applying the Illusory Bubble status to opponents in a large AoE.\\n\\n<color=#FFD780FF>Illusory Bubble</color>\\nTraps opponents inside a pocket of destiny and also makes them <color=#80C0FFFF>Wet</color>. Renders weaker opponents immobile.\\nWhen an opponent affected by Illusory Bubble sustains DMG, it has the following effects:\\n·Applies an Omen to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it.\\n·Removes the Illusory Bubble, dealing <color=#80C0FFFF>Hydro</color> DMG in the process.\\n\\n<color=#FFD780FF>Omen</color>\\nDuring its duration, increases DMG taken by opponents.\\n\\n<i>It was from the time that gods first traced the lights in the heavens with their eyes that the notion of \"fate\" was born.</i>",
+    "cd": 15,
+    "energyCost": 60
+  },
+  "attackSkill": {
+    "name": "Normal Attack: Ripple of Fate",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 4 water splash attacks that deal <color=#80C0FFFF>Hydro DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to deal <color=#80C0FFFF>AoE Hydro DMG</color> after a short casting time.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nGathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80C0FFFF>AoE Hydro DMG</color> upon impact with the ground.",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "Prophecy of Submersion",
+      "desc": "When any of your own party members hits an opponent affected by an Omen, the effects of <color=#80C0FFFF>Hydro-related Elemental Reactions</color> are enhanced for 8s:\\n·Electro-Charged DMG increases by 15%.\\n·Vaporize DMG increases by 15%.\\n·Hydro Swirl DMG increases by 15%.\\n·Frozen duration is extended by 15%.",
+      "values": [0.15, 0.15, 0.15, 0.15, 5, 8]
+    },
+    {
+      "name": "Lunar Chain",
+      "desc": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack.\\nThis effect can only occur once every 5s.",
+      "values": [0.2, 1, 5]
+    },
+    {
+      "name": "Restless Revolution",
+      "desc": "Increases the Level of <color=#FFD780FF>Stellaris Phantasm</color> by 3.\\nMaximum upgrade level is 15.",
+      "values": []
+    },
+    {
+      "name": "Prophecy of Oblivion",
+      "desc": "When any party member attacks an opponent affected by an Omen, their CRIT Rate is increased by 15%.",
+      "values": [-0.15]
+    },
+    {
+      "name": "Mockery of Fortuna",
+      "desc": "Increases the Level of <color=#FFD780FF>Mirror Reflection of Doom</color> by 3.\\nMaximum upgrade level is 15.",
+      "values": []
+    },
+    {
+      "name": "Rhetorics of Calamitas",
+      "desc": "Upon entering <color=#FFD780FF>Illusory Torrent</color>, Mona gains a 60% increase to the DMG of her next Charged Attack per second of movement.\\nA maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s.",
+      "values": [1, 0.6, 1.8, 8]
+    }
+  ]
+}

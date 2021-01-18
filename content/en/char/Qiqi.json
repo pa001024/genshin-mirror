@@ -1,0 +1,153 @@
+{
+  "id": "Qiqi",
+  "name": "Qiqi",
+  "desc": "An apprentice and herb gatherer at Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion.",
+  "baseHP": 962.85,
+  "baseATK": 22.344,
+  "baseDEF": 71.796,
+  "bodyType": 2,
+  "rarity": 5,
+  "weapon": 1,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "ShivadaJadeSliver", "count": 1 },
+        { "name": "Violetgrass", "count": 3 },
+        { "name": "DiviningScroll", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 825.56 },
+        { "type": 3, "value": 61.56 },
+        { "type": 2, "value": 19.157 },
+        { "type": 14, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "ShivadaJadeFragment", "count": 3 },
+        { "name": "HoarfrostCore", "count": 2 },
+        { "name": "Violetgrass", "count": 10 },
+        { "name": "DiviningScroll", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1412.1 },
+        { "type": 3, "value": 105.3 },
+        { "type": 2, "value": 32.768 },
+        { "type": 14, "value": 0.0554 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "ShivadaJadeFragment", "count": 6 },
+        { "name": "HoarfrostCore", "count": 4 },
+        { "name": "Violetgrass", "count": 20 },
+        { "name": "SealedScroll", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2194.3 },
+        { "type": 3, "value": 163.62 },
+        { "type": 2, "value": 50.916 },
+        { "type": 14, "value": 0.1108 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "ShivadaJadeChunk", "count": 3 },
+        { "name": "HoarfrostCore", "count": 8 },
+        { "name": "Violetgrass", "count": 30 },
+        { "name": "SealedScroll", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2780.8 },
+        { "type": 3, "value": 207.36 },
+        { "type": 2, "value": 64.527 },
+        { "type": 14, "value": 0.1108 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "ShivadaJadeChunk", "count": 6 },
+        { "name": "HoarfrostCore", "count": 12 },
+        { "name": "Violetgrass", "count": 45 },
+        { "name": "ForbiddenCurseScroll", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3367.4 },
+        { "type": 3, "value": 251.1 },
+        { "type": 2, "value": 78.139 },
+        { "type": 14, "value": 0.1662 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "ShivadaJadeGemstone", "count": 6 },
+        { "name": "HoarfrostCore", "count": 20 },
+        { "name": "Violetgrass", "count": 60 },
+        { "name": "ForbiddenCurseScroll", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3954 },
+        { "type": 3, "value": 294.84 },
+        { "type": 2, "value": 91.75 },
+        { "type": 14, "value": 0.2215 }
+      ]
+    }
+  ],
+  "ascensionType": 14,
+  "element": 7,
+  "elemSkill": {
+    "name": "Adeptus Art: Herald of Frost",
+    "desc": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing <color=#99FFFFFF>Cryo DMG</color> to surrounding opponents.\\n\\n<color=#FFD780FF>Herald of Frost</color>\\n·On hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.\\n·Periodically regenerates your active character's HP.\\n·Follows the character around, dealing <color=#99FFFFFF>Cryo DMG</color> to opponents in their path.\\n\\n<i>I use this to prevent warming and rot... of Dr. Bai's precious ingredients. Yes.</i>",
+    "cd": 30
+  },
+  "elemBurst": {
+    "name": "Adeptus Art: Preserver of Fortune",
+    "desc": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals <color=#99FFFFFF>Cryo DMG</color>.\\n\\n<color=#FFD780FF>Fortune-Preserving Talisman</color>\\nWhen opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.\\n\\n<i>\"I am the Fortune Preserver, the Maiden of Resurrection.\"</i>\\n<i>— Qiqi does not remember these words.</i>",
+    "cd": 20,
+    "energyCost": 80
+  },
+  "attackSkill": {
+    "name": "Normal Attack: Ancient Sword Art",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "Ascetics of Frost",
+      "desc": "When the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 Energy.",
+      "values": []
+    },
+    {
+      "name": "Frozen to the Bone",
+      "desc": "Qiqi's Normal and Charge Attack DMG against opponents affected by <color=#99FFFFFF>Cryo</color> is increased by 15%.",
+      "values": []
+    },
+    {
+      "name": "Ascendant Praise",
+      "desc": "Increases the Level of <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> by 3.\\nMaximum upgrade level is 15.",
+      "values": []
+    },
+    {
+      "name": "Divine Suppression",
+      "desc": "Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%.",
+      "values": []
+    },
+    {
+      "name": "Crimson Lotus Bloom",
+      "desc": "Increases the Level of <color=#FFD780FF>Adeptus Art: Herald of Frost</color> by 3.\\nMaximum upgrade level is 15.",
+      "values": []
+    },
+    {
+      "name": "Rite of Resurrection",
+      "desc": "Using <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> revives all fallen party members nearby and regenerates 50% of their HP.\\nThis effect can only occur once every 15 mins.",
+      "values": []
+    }
+  ]
+}

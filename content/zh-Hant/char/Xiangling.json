@@ -1,0 +1,153 @@
+{
+  "id": "Xiangling",
+  "name": "香菱",
+  "desc": "來自璃月，名聲在外的少女廚師，對料理之道極具熱情，拿手麻辣菜餚堪稱一絕。",
+  "baseHP": 911.79,
+  "baseATK": 18.876,
+  "baseDEF": 56.081,
+  "bodyType": 3,
+  "rarity": 4,
+  "weapon": 3,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "AgnidusAgateSliver", "count": 1 },
+        { "name": "JueyunChili", "count": 3 },
+        { "name": "SlimeCondensate", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 681.15 },
+        { "type": 3, "value": 41.895 },
+        { "type": 2, "value": 14.102 },
+        { "type": 11, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "AgnidusAgateFragment", "count": 3 },
+        { "name": "EverflameSeed", "count": 2 },
+        { "name": "JueyunChili", "count": 10 },
+        { "name": "SlimeCondensate", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1165.1 },
+        { "type": 3, "value": 71.662 },
+        { "type": 2, "value": 24.122 },
+        { "type": 11, "value": 24 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "AgnidusAgateFragment", "count": 6 },
+        { "name": "EverflameSeed", "count": 4 },
+        { "name": "JueyunChili", "count": 20 },
+        { "name": "SlimeSecretions", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1810.4 },
+        { "type": 3, "value": 111.35 },
+        { "type": 2, "value": 37.482 },
+        { "type": 11, "value": 48 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "AgnidusAgateChunk", "count": 3 },
+        { "name": "EverflameSeed", "count": 8 },
+        { "name": "JueyunChili", "count": 30 },
+        { "name": "SlimeSecretions", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2294.4 },
+        { "type": 3, "value": 141.12 },
+        { "type": 2, "value": 47.502 },
+        { "type": 11, "value": 48 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "AgnidusAgateChunk", "count": 6 },
+        { "name": "EverflameSeed", "count": 12 },
+        { "name": "JueyunChili", "count": 45 },
+        { "name": "SlimeConcentrate", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2778.4 },
+        { "type": 3, "value": 170.89 },
+        { "type": 2, "value": 57.521 },
+        { "type": 11, "value": 72 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "AgnidusAgateGemstone", "count": 6 },
+        { "name": "EverflameSeed", "count": 20 },
+        { "name": "JueyunChili", "count": 60 },
+        { "name": "SlimeConcentrate", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3262.4 },
+        { "type": 3, "value": 200.65 },
+        { "type": 2, "value": 67.541 },
+        { "type": 11, "value": 96 }
+      ]
+    }
+  ],
+  "ascensionType": 11,
+  "element": 6,
+  "elemSkill": {
+    "name": "鍋巴出擊",
+    "desc": "喚出噴火的鍋巴，存在期間內，不斷對敵人噴火，造成<color=#FF9999FF>火元素範圍傷害</color>。\\n\\n<i>鍋巴喜歡吃火辣的食物。但鍋巴承受不了如此火辣的食物。</i>",
+    "cd": 12
+  },
+  "elemBurst": {
+    "name": "旋火輪",
+    "desc": "以控制火候與槍術的精湛技巧，甩出圍繞自己快速旋轉的旋火輪。\\n存在期間內，旋火輪會跟隨角色行動，對路徑上的敵人造成<color=#FF9999FF>火元素傷害</color>。\\n\\n<i>火力永遠不夠。遠遠不夠。</i>",
+    "cd": 20,
+    "energyCost": 80
+  },
+  "attackSkill": {
+    "name": "普通攻擊·白案功夫",
+    "desc": "<color=#FFD780FF>普通攻擊</color>\\n進行至多五段的連續槍擊。\\n\\n<color=#FFD780FF>重擊</color>\\n消耗一定體力，向前方突進，對路徑上的敵人造成傷害。\\n\\n<color=#FFD780FF>下落攻擊</color>\\n從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "外酥裡嫩",
+      "desc": "受到鍋巴攻擊的敵人，<color=#FF9999FF>火元素抗性</color>降低15%，持續6秒。",
+      "values": [0.15, 6]
+    },
+    {
+      "name": "大火寬油",
+      "desc": "普通攻擊的最後一擊會對敵人施加持續2秒的內爆效果，持續時間結束時會發生爆炸，造成75%攻擊力的<color=#FF9999FF>火元素範圍傷害</color>。",
+      "values": [2, 2, 0.75]
+    },
+    {
+      "name": "武火急烹",
+      "desc": "<color=#FFD780FF>旋火輪</color>的技能等級提高3級。\\n至多提升至15級。",
+      "values": []
+    },
+    {
+      "name": "文火慢煨",
+      "desc": "<color=#FFD780FF>旋火輪</color>的持續時間延長40%。",
+      "values": [0.4]
+    },
+    {
+      "name": "鍋巴兇猛",
+      "desc": "<color=#FFD780FF>鍋巴出擊</color>的技能等級提高3級。\\n至多提升至15級。",
+      "values": []
+    },
+    {
+      "name": "大龍捲旋火輪",
+      "desc": "<color=#FFD780FF>旋火輪</color>持續期間，隊伍中所有角色獲得15%<color=#FF9999FF>火元素傷害加成</color>。",
+      "values": [0.15]
+    }
+  ]
+}

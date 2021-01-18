@@ -13,8 +13,23 @@ export async function run() {
   await parseCoeff();
   await parseMainattr();
   await parsePlayerLevel();
+  await parseMonsterLevel();
 }
 
+async function parseMonsterLevel() {
+  const data: MonsterCurveExcelConfigData[] = await fs.readJSON(DATA_DIR + "Excel/MonsterCurveExcelConfigData.json");
+
+  const cols = data[0].CurveInfos.map(v => v.Type);
+
+  await saveObject(
+    "curve",
+    "enemy.json",
+    cols.reduce<Dict<number[]>>((r, v, i) => {
+      r[v] = data.map(v => toNum(v.CurveInfos[i].Value! || 0));
+      return r;
+    }, {})
+  );
+}
 async function parsePlayerLevel() {
   const data: PlayerLevelExcelConfigData[] = await fs.readJSON(DATA_DIR + "Excel/PlayerLevelExcelConfigData.json");
 
@@ -201,4 +216,15 @@ interface PlayerLevelExcelConfigData {
   Level: number;
   Exp: number;
   UnlockDescTextMapHash: number;
+}
+
+interface MonsterCurveExcelConfigData {
+  Level: number;
+  CurveInfos: CurveInfo[];
+}
+
+interface CurveInfo {
+  Type: string;
+  Arith: string;
+  Value?: number;
 }

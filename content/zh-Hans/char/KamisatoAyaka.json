@@ -1,0 +1,116 @@
+{
+  "id": "KamisatoAyaka",
+  "name": "神里绫华",
+  "desc": "稻妻名门「神里家」的千金，高贵而又优雅的美丽少女。",
+  "baseHP": 1058.2,
+  "baseATK": 22.716,
+  "baseDEF": 61.027,
+  "bodyType": 3,
+  "rarity": 5,
+  "weapon": 1,
+  "region": 3,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "ShivadaJadeSliver", "count": 1 },
+        { "name": "SmallLampGrass", "count": 3 },
+        { "name": "DiviningScroll", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 907.3 },
+        { "type": 3, "value": 52.326 },
+        { "type": 2, "value": 19.476 },
+        { "type": 29, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "ShivadaJadeFragment", "count": 3 },
+        { "name": "HoarfrostCore", "count": 2 },
+        { "name": "SmallLampGrass", "count": 10 },
+        { "name": "DiviningScroll", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1552 },
+        { "type": 3, "value": 89.505 },
+        { "type": 2, "value": 33.314 },
+        { "type": 29, "value": 0.072 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "ShivadaJadeFragment", "count": 6 },
+        { "name": "HoarfrostCore", "count": 4 },
+        { "name": "SmallLampGrass", "count": 20 },
+        { "name": "SealedScroll", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2411.5 },
+        { "type": 3, "value": 139.08 },
+        { "type": 2, "value": 51.765 },
+        { "type": 29, "value": 0.144 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "ShivadaJadeChunk", "count": 3 },
+        { "name": "HoarfrostCore", "count": 8 },
+        { "name": "SmallLampGrass", "count": 30 },
+        { "name": "SealedScroll", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3056.2 },
+        { "type": 3, "value": 176.26 },
+        { "type": 2, "value": 65.603 },
+        { "type": 29, "value": 0.144 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "ShivadaJadeChunk", "count": 6 },
+        { "name": "HoarfrostCore", "count": 12 },
+        { "name": "SmallLampGrass", "count": 45 },
+        { "name": "ForbiddenCurseScroll", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3700.8 },
+        { "type": 3, "value": 213.43 },
+        { "type": 2, "value": 79.441 },
+        { "type": 29, "value": 0.216 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "ShivadaJadeGemstone", "count": 6 },
+        { "name": "HoarfrostCore", "count": 20 },
+        { "name": "SmallLampGrass", "count": 60 },
+        { "name": "ForbiddenCurseScroll", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 4345.5 },
+        { "type": 3, "value": 250.61 },
+        { "type": 2, "value": 93.279 },
+        { "type": 29, "value": 0.288 }
+      ]
+    }
+  ],
+  "ascensionType": 29,
+  "element": 7,
+  "elemSkill": { "name": "元素战技", "desc": "", "cd": 8 },
+  "elemBurst": { "name": "元素爆发", "desc": "", "cd": 15, "energyCost": 60 },
+  "attackSkill": { "name": "普通攻击", "desc": "", "cd": 0 },
+  "c13ns": [
+    { "name": "命之座1", "desc": "", "values": [] },
+    { "name": "命之座2", "desc": "", "values": [] },
+    { "name": "命之座3", "desc": "", "values": [] },
+    { "name": "命之座4", "desc": "", "values": [] },
+    { "name": "命之座5", "desc": "", "values": [] },
+    { "name": "命之座6", "desc": "", "values": [] }
+  ]
+}

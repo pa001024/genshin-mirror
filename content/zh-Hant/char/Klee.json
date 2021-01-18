@@ -1,0 +1,153 @@
+{
+  "id": "Klee",
+  "name": "可莉",
+  "desc": "西風騎士團禁閉室的常客，蒙德的爆破大師。人稱「逃跑的太陽」。",
+  "baseHP": 800.79,
+  "baseATK": 24.206,
+  "baseDEF": 47.864,
+  "bodyType": 2,
+  "rarity": 5,
+  "weapon": 5,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "AgnidusAgateSliver", "count": 1 },
+        { "name": "PhilanemoMushroom", "count": 3 },
+        { "name": "DiviningScroll", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 686.6 },
+        { "type": 3, "value": 41.04 },
+        { "type": 2, "value": 20.753 },
+        { "type": 19, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "AgnidusAgateFragment", "count": 3 },
+        { "name": "EverflameSeed", "count": 2 },
+        { "name": "PhilanemoMushroom", "count": 10 },
+        { "name": "DiviningScroll", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1174.5 },
+        { "type": 3, "value": 70.2 },
+        { "type": 2, "value": 35.498 },
+        { "type": 19, "value": 0.072 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "AgnidusAgateFragment", "count": 6 },
+        { "name": "EverflameSeed", "count": 4 },
+        { "name": "PhilanemoMushroom", "count": 20 },
+        { "name": "SealedScroll", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1824.9 },
+        { "type": 3, "value": 109.08 },
+        { "type": 2, "value": 55.159 },
+        { "type": 19, "value": 0.144 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "AgnidusAgateChunk", "count": 3 },
+        { "name": "EverflameSeed", "count": 8 },
+        { "name": "PhilanemoMushroom", "count": 30 },
+        { "name": "SealedScroll", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2312.8 },
+        { "type": 3, "value": 138.24 },
+        { "type": 2, "value": 69.905 },
+        { "type": 19, "value": 0.144 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "AgnidusAgateChunk", "count": 6 },
+        { "name": "EverflameSeed", "count": 12 },
+        { "name": "PhilanemoMushroom", "count": 45 },
+        { "name": "ForbiddenCurseScroll", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2800.6 },
+        { "type": 3, "value": 167.4 },
+        { "type": 2, "value": 84.65 },
+        { "type": 19, "value": 0.216 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "AgnidusAgateGemstone", "count": 6 },
+        { "name": "EverflameSeed", "count": 20 },
+        { "name": "PhilanemoMushroom", "count": 60 },
+        { "name": "ForbiddenCurseScroll", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3288.5 },
+        { "type": 3, "value": 196.56 },
+        { "type": 2, "value": 99.396 },
+        { "type": 19, "value": 0.288 }
+      ]
+    }
+  ],
+  "ascensionType": 19,
+  "element": 6,
+  "elemSkill": {
+    "name": "蹦蹦炸彈",
+    "desc": "投出帶來無限快樂的蹦蹦炸彈！\\n蹦蹦炸彈會連續彈跳三次，每次彈跳都會引發爆炸，造成<color=#FF9999FF>火元素範圍傷害</color>。\\n\\n第三次彈跳後，將分裂成許多詭雷。\\n詭雷會在接觸到敵人或一段時間後爆炸，造成<color=#FF9999FF>火元素範圍傷害</color>。\\n\\n初始擁有兩次可使用次數。\\n\\n<i>蹦蹦是可莉的「好朋友」…可莉總是忍不住向人介紹他們。</i>",
+    "cd": 20
+  },
+  "elemBurst": {
+    "name": "轟轟火花",
+    "desc": "可莉火力全開！在技能持續時間內，不停召喚轟轟火花攻擊附近的敵人，造成<color=#FF9999FF>火元素範圍傷害</color>。\\n\\n<i>騎士團的人相信，可莉從來不被自己的炸彈所傷，一定有幸運星眷顧著她吧…</i>",
+    "cd": 15,
+    "energyCost": 60
+  },
+  "attackSkill": {
+    "name": "普通攻擊·砰砰",
+    "desc": "<color=#FFD780FF>普通攻擊</color>\\n投擲在碰撞後會爆炸的好東西！進行至多三段的炸彈攻擊，造成<color=#FF9999FF>火元素範圍傷害</color>。\\n\\n<color=#FFD780FF>重擊</color>\\n消耗一定體力，短暫詠唱後，轟擊敵人，造成<color=#FF9999FF>火元素範圍傷害</color>。\\n\\n<color=#FFD780FF>下落攻擊</color>\\n凝聚烈焰的力量，從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成<color=#FF9999FF>火元素範圍傷害</color>。",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "連環轟隆",
+      "desc": "攻擊與施放技能時，有機率召喚火花轟擊敵人，造成相當於<color=#FFD780FF>轟轟火花</color>攻擊傷害120%的傷害。",
+      "values": []
+    },
+    {
+      "name": "破破彈片",
+      "desc": "<color=#FFD780FF>蹦蹦炸彈</color>的詭雷會使敵人的防禦力降低23%，持續10秒。",
+      "values": []
+    },
+    {
+      "name": "可莉特調",
+      "desc": "<color=#FFD780FF>蹦蹦炸彈</color>的技能等級提高3級。\\n至多提升至15級。",
+      "values": []
+    },
+    {
+      "name": "一觸即發",
+      "desc": "如果在<color=#FFD780FF>轟轟火花</color>持續期間內退場，會引發爆炸，造成555%攻擊力的<color=#FF9999FF>火元素範圍傷害</color>。",
+      "values": []
+    },
+    {
+      "name": "轟擊之星",
+      "desc": "<color=#FFD780FF>轟轟火花</color>的技能等級提高3級。\\n至多提升至15級。",
+      "values": []
+    },
+    {
+      "name": "火力全開",
+      "desc": "在<color=#FFD780FF>轟轟火花</color>的狀態下，可莉每3秒會為隊伍中所有角色（不包括可莉自身）恢復3點元素能量；\\n施放<color=#FFD780FF>轟轟火花</color>後的25秒內，隊伍中所有角色獲得10%<color=#FF9999FF>火元素傷害加成</color>。",
+      "values": []
+    }
+  ]
+}

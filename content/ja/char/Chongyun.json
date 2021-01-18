@@ -1,0 +1,153 @@
+{
+  "id": "Chongyun",
+  "name": "重雲",
+  "desc": "妖魔退治一族の方士少年、自身の「純陽の体」を抑えるためにいろいろ苦労している。",
+  "baseHP": 920.91,
+  "baseATK": 18.698,
+  "baseDEF": 54.364,
+  "bodyType": 0,
+  "rarity": 4,
+  "weapon": 4,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "ShivadaJadeSliver", "count": 1 },
+        { "name": "CorLapis", "count": 3 },
+        { "name": "DamagedMask", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 687.97 },
+        { "type": 3, "value": 40.612 },
+        { "type": 2, "value": 13.969 },
+        { "type": 7, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "ShivadaJadeFragment", "count": 3 },
+        { "name": "HoarfrostCore", "count": 2 },
+        { "name": "CorLapis", "count": 10 },
+        { "name": "DamagedMask", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1176.8 },
+        { "type": 3, "value": 69.469 },
+        { "type": 2, "value": 23.894 },
+        { "type": 7, "value": 0.06 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "ShivadaJadeFragment", "count": 6 },
+        { "name": "HoarfrostCore", "count": 4 },
+        { "name": "CorLapis", "count": 20 },
+        { "name": "StainedMask", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1828.5 },
+        { "type": 3, "value": 107.94 },
+        { "type": 2, "value": 37.128 },
+        { "type": 7, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "ShivadaJadeChunk", "count": 3 },
+        { "name": "HoarfrostCore", "count": 8 },
+        { "name": "CorLapis", "count": 30 },
+        { "name": "StainedMask", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2317.4 },
+        { "type": 3, "value": 136.8 },
+        { "type": 2, "value": 47.053 },
+        { "type": 7, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "ShivadaJadeChunk", "count": 6 },
+        { "name": "HoarfrostCore", "count": 12 },
+        { "name": "CorLapis", "count": 45 },
+        { "name": "OminousMask", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2806.2 },
+        { "type": 3, "value": 165.66 },
+        { "type": 2, "value": 56.979 },
+        { "type": 7, "value": 0.18 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "ShivadaJadeGemstone", "count": 6 },
+        { "name": "HoarfrostCore", "count": 20 },
+        { "name": "CorLapis", "count": 60 },
+        { "name": "OminousMask", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3295 },
+        { "type": 3, "value": 194.51 },
+        { "type": 2, "value": 66.904 },
+        { "type": 7, "value": 0.24 }
+      ]
+    }
+  ],
+  "ascensionType": 7,
+  "element": 7,
+  "elemSkill": {
+    "name": "霊刃·重華積霜",
+    "desc": "巨大な剣を振って地面を叩き、前方の円形範囲内に氷爆を起こし、敵に<color=#99FFFFFF>氷元素ダメージ</color>を与える。\\nその後、氷爆による寒気が重華積霜エリアになり、エリア内の片手剣、両手剣、長柄武器キャラクターは<color=#99FFFFFF>氷元素バフ</color>を獲得する。\\n\\n<i>「仏具が鳴り、世界は静まる。川が停止し、重い雲は霜となる。如法開壇、妖魔退散。」</i>",
+    "cd": 15
+  },
+  "elemBurst": {
+    "name": "霊刃·雲開星落",
+    "desc": "印を結び、前方の空中に3本の巨大霊刃を召喚する。霊刃は短時間内に1本ずつ地面に落ちて爆裂する。\\n霊刃が爆裂する時、<color=#99FFFFFF>氷元素範囲ダメージ</color>を与え、敵を吹き飛ばす。\\n\\n<i>「卓越した剣が天地を行き交い、寒光がつららとなる。如律令！」</i>",
+    "cd": 12,
+    "energyCost": 40
+  },
+  "attackSkill": {
+    "name": "通常攻撃·滅邪四式",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\\n最大4段の連続攻撃を行う。\\n\\n<color=#FFD780FF>重撃</color>\\n持続的にスタミナを消費し、大剣を振り回して周囲の敵を攻撃する。\\n重撃が終了した時に、さらに強力な攻撃を1回放つ。\\n\\n<color=#FFD780FF>落下攻撃</color>\\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "釈凌詠氷",
+      "desc": "通常攻撃の最後の一撃が前方に3つの氷の刃を放ち、経路上の敵に重雲の攻撃力50%分の<color=#99FFFFFF>氷元素ダメージ</color>を与える。",
+      "values": [0.5]
+    },
+    {
+      "name": "周天の回転",
+      "desc": "<color=#FFD780FF>霊刃·重華積霜</color>エリア内で発動した元素スキルと元素爆発のクールタイム-15%。",
+      "values": [0.15]
+    },
+    {
+      "name": "雲の果てに光あり",
+      "desc": "<color=#FFD780FF>霊刃·雲開星落</color>のスキルLv.+3。\\n最大Lv.15まで。",
+      "values": []
+    },
+    {
+      "name": "浮雲霜天",
+      "desc": "重雲の攻撃が<color=#99FFFFFF>氷元素</color>の影響を受けた敵に命中した時、自身の元素エネルギーを1回復する。\\nこの効果は2秒毎に1回のみ発動可能。",
+      "values": [1, 2]
+    },
+    {
+      "name": "真道の正理",
+      "desc": "<color=#FFD780FF>霊刃·重華積霜</color>のスキルLv.+3。\\n最大Lv.15まで。",
+      "values": []
+    },
+    {
+      "name": "四霊の捧げ",
+      "desc": "HPの割合が重雲より低い敵に<color=#FFD780FF>霊刃·雲開星落</color>が命中した時、ダメージ+15%。\\nまた、スキル発動時さらに追加で霊刃を1本を召喚する。",
+      "values": [0.15]
+    }
+  ]
+}

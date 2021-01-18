@@ -1,0 +1,153 @@
+{
+  "id": "Ningguang",
+  "name": "Ningguang",
+  "desc": "The Tianquan of the Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
+  "baseHP": 820.61,
+  "baseATK": 17.808,
+  "baseDEF": 48.069,
+  "bodyType": 4,
+  "rarity": 4,
+  "weapon": 5,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "PrithivaTopazSliver", "count": 1 },
+        { "name": "GlazeLily", "count": 3 },
+        { "name": "RecruitsInsignia", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 613.04 },
+        { "type": 3, "value": 35.91 },
+        { "type": 2, "value": 13.304 },
+        { "type": 31, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "PrithivaTopazFragment", "count": 3 },
+        { "name": "BasaltPillar", "count": 2 },
+        { "name": "GlazeLily", "count": 10 },
+        { "name": "RecruitsInsignia", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1048.6 },
+        { "type": 3, "value": 61.425 },
+        { "type": 2, "value": 22.757 },
+        { "type": 31, "value": 0.06 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "PrithivaTopazFragment", "count": 6 },
+        { "name": "BasaltPillar", "count": 4 },
+        { "name": "GlazeLily", "count": 20 },
+        { "name": "SergeantsInsignia", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1629.4 },
+        { "type": 3, "value": 95.445 },
+        { "type": 2, "value": 35.36 },
+        { "type": 31, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "PrithivaTopazChunk", "count": 3 },
+        { "name": "BasaltPillar", "count": 8 },
+        { "name": "GlazeLily", "count": 30 },
+        { "name": "SergeantsInsignia", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2065 },
+        { "type": 3, "value": 120.96 },
+        { "type": 2, "value": 44.813 },
+        { "type": 31, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "PrithivaTopazChunk", "count": 6 },
+        { "name": "BasaltPillar", "count": 12 },
+        { "name": "GlazeLily", "count": 45 },
+        { "name": "LieutenantsInsignia", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2500.6 },
+        { "type": 3, "value": 146.48 },
+        { "type": 2, "value": 54.265 },
+        { "type": 31, "value": 0.18 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "PrithivaTopazGemstone", "count": 6 },
+        { "name": "BasaltPillar", "count": 20 },
+        { "name": "GlazeLily", "count": 60 },
+        { "name": "LieutenantsInsignia", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2936.1 },
+        { "type": 3, "value": 171.99 },
+        { "type": 2, "value": 63.718 },
+        { "type": 31, "value": 0.24 }
+      ]
+    }
+  ],
+  "ascensionType": 31,
+  "element": 2,
+  "elemSkill": {
+    "name": "Jade Screen",
+    "desc": "Ningguang creates a Jade Screen out of gold, obsidian and her great opulence, dealing <color=#FFE699FF>AoE Geo DMG</color>.\\n\\n<color=#FFD780FF>Jade Screen</color>\\n·Blocks opponents' projectiles.\\n·Endurance scales based on Ningguang's Max HP.\\n\\nJade Screen is considered a <color=#FFE699FF>Geo Construct</color> and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.\\n\\n<i>The canvas of stars is written upon this jade screen.</i>",
+    "cd": 12
+  },
+  "elemBurst": {
+    "name": "Starshatter",
+    "desc": "Gathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her opponents that deal massive <color=#FFE699FF>Geo DMG</color>.\\nIf Starshatter is cast when a Jade Screen is nearby, the Jade Screen will fire additional gem projectiles at the same time.\\n\\n<i>Stars shatter. Silence falls.</i>",
+    "cd": 12,
+    "energyCost": 40
+  },
+  "attackSkill": {
+    "name": "Normal Attack: Sparkling Scatter",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\\nShoots gems that deal <color=#FFE699FF>Geo DMG</color>.\\nUpon hit, this grants Ningguang 1 Star Jade.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of stamina to fire off a giant gem that deals <color=#FFE699FF>Geo DMG</color>.\\nIf Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nGathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#FFE699FF>AoE Geo DMG</color> upon impact with the ground.",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "Piercing Fragments",
+      "desc": "When a Normal Attack hits, it deals AoE DMG.",
+      "values": []
+    },
+    {
+      "name": "Shock Effect",
+      "desc": "When <color=#FFD780FF>Jade Screen</color> is shattered, its CD will reset.\\nCan occur once every 6s.",
+      "values": []
+    },
+    {
+      "name": "Majesty be the Array of Stars",
+      "desc": "Increases the Level of <color=#FFD780FF>Starshatter</color> by 3.\\nMaximum upgrade level is 15.",
+      "values": []
+    },
+    {
+      "name": "Exquisite be the Jade, Outshining All Beneath",
+      "desc": "<color=#FFD780FF>Jade Screen</color> increases nearby characters' Elemental RES by 10%.",
+      "values": []
+    },
+    {
+      "name": "Invincible be the Jade Screen",
+      "desc": "Increases the Level of <color=#FFD780FF>Jade Screen</color> by 3.\\nMaximum upgrade level is 15.",
+      "values": []
+    },
+    {
+      "name": "Grandeur be the Seven Stars",
+      "desc": "When <color=#FFD780FF>Starshatter</color> is used, Ningguang gains 7 Star Jades.",
+      "values": []
+    }
+  ]
+}

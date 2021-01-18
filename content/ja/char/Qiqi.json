@@ -1,0 +1,153 @@
+{
+  "id": "Qiqi",
+  "name": "七七",
+  "desc": "薬舗「不卜廬」の薬採り兼弟子、紙のように白い顔色で不死身。口数が少なく、あまり表情がない。",
+  "baseHP": 962.85,
+  "baseATK": 22.344,
+  "baseDEF": 71.796,
+  "bodyType": 2,
+  "rarity": 5,
+  "weapon": 1,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "ShivadaJadeSliver", "count": 1 },
+        { "name": "Violetgrass", "count": 3 },
+        { "name": "DiviningScroll", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 825.56 },
+        { "type": 3, "value": 61.56 },
+        { "type": 2, "value": 19.157 },
+        { "type": 14, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "ShivadaJadeFragment", "count": 3 },
+        { "name": "HoarfrostCore", "count": 2 },
+        { "name": "Violetgrass", "count": 10 },
+        { "name": "DiviningScroll", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1412.1 },
+        { "type": 3, "value": 105.3 },
+        { "type": 2, "value": 32.768 },
+        { "type": 14, "value": 0.0554 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "ShivadaJadeFragment", "count": 6 },
+        { "name": "HoarfrostCore", "count": 4 },
+        { "name": "Violetgrass", "count": 20 },
+        { "name": "SealedScroll", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2194.3 },
+        { "type": 3, "value": 163.62 },
+        { "type": 2, "value": 50.916 },
+        { "type": 14, "value": 0.1108 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "ShivadaJadeChunk", "count": 3 },
+        { "name": "HoarfrostCore", "count": 8 },
+        { "name": "Violetgrass", "count": 30 },
+        { "name": "SealedScroll", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2780.8 },
+        { "type": 3, "value": 207.36 },
+        { "type": 2, "value": 64.527 },
+        { "type": 14, "value": 0.1108 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "ShivadaJadeChunk", "count": 6 },
+        { "name": "HoarfrostCore", "count": 12 },
+        { "name": "Violetgrass", "count": 45 },
+        { "name": "ForbiddenCurseScroll", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3367.4 },
+        { "type": 3, "value": 251.1 },
+        { "type": 2, "value": 78.139 },
+        { "type": 14, "value": 0.1662 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "ShivadaJadeGemstone", "count": 6 },
+        { "name": "HoarfrostCore", "count": 20 },
+        { "name": "Violetgrass", "count": 60 },
+        { "name": "ForbiddenCurseScroll", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3954 },
+        { "type": 3, "value": 294.84 },
+        { "type": 2, "value": 91.75 },
+        { "type": 14, "value": 0.2215 }
+      ]
+    }
+  ],
+  "ascensionType": 14,
+  "element": 7,
+  "elemSkill": {
+    "name": "仙法·寒病鬼差",
+    "desc": "氷血がお札となり、寒病鬼差を召喚し、周囲の敵に<color=#99FFFFFF>氷元素ダメージ</color>を与える。\\n\\n<color=#FFD780FF>寒病鬼差</color>\\n·七七の通常攻撃と重撃が命中した時、チーム内の自身のキャラクター全員または付近の味方のHPを回復する。回復量は七七の攻撃力によって決まる。\\n·一定時間の間隔で、出場している自身のキャラクターのHPを回復する。\\n·キャラクターと共に行動し、経路上の敵に<color=#99FFFFFF>氷元素ダメージ</color>を与える。\\n\\n<i>「こいつらは温度の上昇による腐敗を防止するためだよ…うん、白先生のあの高い薬剤のことを言ってるのだ。」</i>",
+    "cd": 30
+  },
+  "elemBurst": {
+    "name": "仙法·救苦度厄",
+    "desc": "体内に封印された仙力を解放し、度厄のお札で付近の敵にマークをつけ、<color=#99FFFFFF>氷元素ダメージ</color>を与える。\\n\\n<color=#FFD780FF>度厄のお札</color>\\n度厄のお札に影響された敵にダメージを与えた時、そのキャラクター自身のHPを回復する。\\n\\n<i>「本名、救苦度厄真君、起死回骸童子。」</i>\\n<i>——だが七七はこの言葉を思い出せない。</i>",
+    "cd": 20,
+    "energyCost": 80
+  },
+  "attackSkill": {
+    "name": "通常攻撃·雲来古剣法",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\\n剣による最大5段の連続攻撃を行う。\\n\\n<color=#FFD780FF>重撃</color>\\n一定のスタミナを消費し、前方に斬撃を2回放つ。\\n\\n<color=#FFD780FF>落下攻撃</color>\\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "寒苦回向",
+      "desc": "度厄のお札マークがついている敵に寒病鬼差が命中した時、七七の元素エネルギーを2回復する。",
+      "values": []
+    },
+    {
+      "name": "氷寒蝕骨",
+      "desc": "<color=#99FFFFFF>氷元素</color>の影響を受けた敵に、七七の通常攻撃と重撃の与えるダメージ+15%。",
+      "values": []
+    },
+    {
+      "name": "昇天宝誥",
+      "desc": "<color=#FFD780FF>仙法·救苦度厄</color>のスキルLv.+3。\\n最大Lv.15まで。",
+      "values": []
+    },
+    {
+      "name": "天威圧衆",
+      "desc": "度厄のお札マークがついている敵の攻撃力-20%。",
+      "values": []
+    },
+    {
+      "name": "紅蓮開花",
+      "desc": "<color=#FFD780FF>仙法·寒病鬼差</color>のスキルLv.+3。\\n最大Lv.15まで。",
+      "values": []
+    },
+    {
+      "name": "起死回骸",
+      "desc": "<color=#FFD780FF>仙法·救苦度厄</color>を発動する時、近くにいるチーム内全ての戦闘不能状態のキャラクターを復活し、HPを50%まで回復させる。\\nこの効果は15分毎に1回のみ発動可能。",
+      "values": []
+    }
+  ]
+}

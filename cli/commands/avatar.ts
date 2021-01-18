@@ -1,9 +1,9 @@
 import fs from "fs-extra";
-import { BodyType, ElementType, Region } from "../../modules/core/enum";
-import { IAvatar as IAvatar } from "../../modules/core/interface";
+import { BodyType, Region } from "../../modules/core/enum";
+import { IAvatar, ISkill, IAscension, IConstellation } from "../../modules/core/interface";
 
 // extra
-import { DATA_DIR, Dict, saveTranslation, toNum, toText, toWeaponType, toTags } from "../util";
+import { DATA_DIR, Dict, saveTranslation, toNum, toText, toWeaponType, toTags, toElement, toItem, toID, toAttrType } from "../util";
 
 export async function run() {
   // await fs.emptyDir("dist/char");
@@ -17,95 +17,139 @@ async function parseChar() {
   const skillIndex = new Map(skillData.map(v => [v.Id, v]));
   const depotData: AvatarSkillDepotExcelConfigData[] = await fs.readJSON(DATA_DIR + "Excel/AvatarSkillDepotExcelConfigData.json");
   const depotIndex = new Map(depotData.map(v => [v.Id, v]));
-  const promoteData: AvatarPromoteExcelConfigData[] = await fs.readJSON(DATA_DIR + "Excel/AvatarPromoteExcelConfigData.json");
-  const promoteIndex = new Map(promoteData.map(v => [v.AvatarPromoteId, v]));
   const talentData: AvatarTalentExcelConfigData[] = await fs.readJSON(DATA_DIR + "Excel/AvatarTalentExcelConfigData.json");
   const talentIndex = new Map(talentData.map(v => [v.TalentId, v]));
   const proudSkillData: ProudSkillExcelConfigData[] = await fs.readJSON(DATA_DIR + "Excel/ProudSkillExcelConfigData.json");
   const proudSkillIndex = proudSkillData.reduce<Dict<ProudSkillExcelConfigData[]>>((r, v) => {
-    if (v.ProudSkillGroupId in r) r[v.ProudSkillGroupId].push(v);
-    else r[v.ProudSkillGroupId] = [v];
+    if (v.ProudSkillId in r) r[v.ProudSkillId].push(v);
+    else r[v.ProudSkillId] = [v];
+    return r;
+  }, {});
+  const promoteData: AvatarPromoteExcelConfigData[] = await fs.readJSON(DATA_DIR + "Excel/AvatarPromoteExcelConfigData.json");
+  const promoteIndex = promoteData.reduce<Dict<AvatarPromoteExcelConfigData[]>>((r, v) => {
+    if (v.AvatarPromoteId in r) r[v.AvatarPromoteId].push(v);
+    else r[v.AvatarPromoteId] = [v];
     return r;
   }, {});
 
-  for (const char of data) {
+  const normalAvatars = data.filter(v => v.UseType === "AVATAR_FORMAL");
+
+  for (const char of normalAvatars) {
     const id = toText(char.NameTextMapHash).replace(/ /g, "");
     if (id.includes("(Test)") || char.UseType === "AVATAR_ABANDON" || char.UseType === "AVATAR_SYNC_TEST") continue;
     await saveTranslation("char", id + ".json", t => {
-      const rst = data.map(v => {
-        const promote = promoteIndex.get(v.AvatarPromoteId)!;
-        const tags = toTags(v.FeatureTagGroupId);
-        const skills = toSkills(v.SkillDepotId);
-        const avatar: IAvatar = {
-          name: t(v.NameTextMapHash),
-          desc: t(v.DescTextMapHash),
-          baseHP: toNum(v.HpBase || 0),
-          baseATK: toNum(v.AttackBase || 0),
-          baseDEF: toNum(v.DefenseBase || 0),
-          bodyType: toBodyType(v.BodyType),
-          rarity: toRarity(v.QualityType),
-          weapon: toWeaponType(v.WeaponType),
-          region: toRegion(tags),
-          promote,
-          element: skills.energy.CostElemType ? toElement(skills.energy.CostElemType) : 0,
-          elementalSkill: skills.subSkill,
-          attack: skills.attackMode,
+      const tags = toTags(char.FeatureTagGroupId);
+      const skills = toSkills(char.SkillDepotId);
+      const ascensions = toAscension(char.AvatarPromoteId);
+      const avatar: IAvatar = {
+        id: toID(char.NameTextMapHash),
+        name: t(char.NameTextMapHash),
+        desc: t(char.DescTextMapHash),
+        baseHP: toNum(char.HpBase || 0),
+        baseATK: toNum(char.AttackBase || 0),
+        baseDEF: toNum(char.DefenseBase || 0),
+        bodyType: toBodyType(char.BodyType),
+        rarity: toRarity(char.QualityType),
+        weapon: toWeaponType(char.WeaponType),
+        region: toRegion(tags),
+        ascensions,
+        ascensionType: ascensions ? ascensions[0].attrs[3].type : 0,
+        element: skills.element,
+        elemSkill: skills.eSkill,
+        elemBurst: skills.qSkill,
+        attackSkill: skills.aSkill,
+        c13ns: skills.talents,
+      };
+      return avatar;
+
+      function toAscension(aid: number) {
+        const promote = promoteIndex[aid];
+        return promote
+          .filter(v => v.PromoteLevel)
+          .map(v => {
+            const rst: IAscension = {
+              level: v.PromoteLevel || 0,
+              itemCost: v.CostItems.filter(v => v.Id).map(it => {
+                const item = toItem(it.Id!);
+                if (!item) {
+                  // console.warn(`[item] ${id}:${it.Id} not found`);
+                  return { name: "???", count: it.Count! };
+                }
+                return { name: toID(item.NameTextMapHash), count: it.Count! };
+              }),
+              attrs: v.AddProps.filter(p => p.PropType).map(p => {
+                return { type: toAttrType(p.PropType!), value: p.Value ? toNum(p.Value) : 0 };
+              }),
+            };
+            return rst;
+          });
+      }
+
+      function toSkills(depotId: number) {
+        const depot = depotIndex.get(depotId)!;
+        const [aSkill, eSkill] = depot.Skills.filter(Boolean).map(toSkill);
+        // const [aimPress,aim,weaponCD,teamCD]=depot.SubSkills.filter(Boolean).map(toSkill)
+        // attackMode: depot.AttackModeSkill && toSkill(depot.AttackModeSkill),
+
+        const elem = skillIndex.get(depot.EnergySkill)!;
+        if (!elem) {
+          // console.warn(`[skill] no elem of ${id}(${depotId}):${depot.EnergySkill}`);
+        }
+        return {
+          aSkill, // 普攻
+          eSkill, // E技能
+          qSkill: depot.EnergySkill ? toSkill(depot.EnergySkill) : undefined,
+          talents: depot.Talents.filter(Boolean).map(toC13n),
+          element: elem ? toElement(elem.CostElemType!) : 0, // 元素
         };
-        return avatar;
-      });
-      return rst;
+      }
+
+      function toC13n(talentId: number) {
+        const talent = talentIndex.get(talentId)!;
+        const rst: IConstellation = {
+          name: t(talent.NameTextMapHash),
+          desc: t(talent.DescTextMapHash),
+          values: talent.Param.map(toNum).filter(Boolean),
+        };
+        return rst;
+      }
+      function toSkill(skillId: number) {
+        const skill = skillIndex.get(skillId)!;
+        const proud = (skill.ProudSkillGroupId && proudSkillIndex[skill.ProudSkillGroupId]) || undefined;
+        const rst: ISkill = {
+          name: t(skill.NameTextMapHash),
+          desc: t(skill.DescTextMapHash),
+          cd: toNum(skill.CdTime || 0),
+        };
+        if (proud) {
+          rst.paramTpls = proud[0].ParamDescList.map(v => t(v));
+          rst.paramVals = proud.map(lv => lv.Param.map(toNum));
+        }
+        if (skill.CostElemVal) rst.energyCost = skill.CostElemVal;
+        return rst;
+      }
+
+      function toRegion(tags: ReturnType<typeof toTags>) {
+        const ids = new Set(tags.map(v => v.TagId));
+        if (ids.has(1001)) return Region.Mondstadt;
+        if (ids.has(1002)) return Region.Liyue;
+        if (ids.has(1003)) return Region.Inazuma;
+        if (ids.has(1004)) return Region.Sumeru;
+        if (ids.has(1005)) return Region.Fontaine;
+        if (ids.has(1006)) return Region.Natlan;
+        if (ids.has(1007)) return Region.Snezhnaya;
+        return Region.Snezhnaya;
+      }
+
+      function toBodyType(raw: string) {
+        return (BodyType[raw as any] as any) as BodyType;
+      }
+
+      function toRarity(raw: string) {
+        const nm: Dict<number> = { QUALITY_BLUE: 3, QUALITY_PURPLE: 4, QUALITY_ORANGE: 5 };
+        return nm[raw];
+      }
     });
-  }
-
-  function toSkills(depotId: number) {
-    const depot = depotIndex.get(depotId)!;
-    return {
-      energy: toSkill(depot.EnergySkill),
-      skill: depot.Skills.filter(Boolean).map(toSkill),
-      subSkill: depot.SubSkills.filter(Boolean).map(toSkill),
-      attackMode: depot.AttackModeSkill && toSkill(depot.AttackModeSkill),
-      talents: depot.Talents.map(toTelent),
-    };
-  }
-
-  function toTelent(telentId: number) {
-    return talentIndex.get(telentId)!;
-  }
-  function toSkill(skillId: number) {
-    return skillIndex.get(skillId)!;
-  }
-
-  function toRegion(tags: ReturnType<typeof toTags>) {
-    const ids = new Set(tags.map(v => v.TagId));
-    if (ids.has(1001)) return Region.Mondstadt;
-    if (ids.has(1002)) return Region.Liyue;
-    if (ids.has(1003)) return Region.Inazuma;
-    if (ids.has(1004)) return Region.Sumeru;
-    if (ids.has(1005)) return Region.Fontaine;
-    if (ids.has(1006)) return Region.Natlan;
-    if (ids.has(1007)) return Region.Snezhnaya;
-    return Region.Snezhnaya;
-  }
-
-  function toElement(skill: string) {
-    const nm: Dict<ElementType> = {
-      ELECTRIC: ElementType.Electro,
-      FIRE: ElementType.Pyro,
-      ICE: ElementType.Cryo,
-      ROCK: ElementType.Geo,
-      WATER: ElementType.Hydro,
-      WIND: ElementType.Anemo,
-    };
-    return nm[skill];
-  }
-
-  function toBodyType(raw: string) {
-    return (BodyType[raw as any] as any) as BodyType;
-  }
-
-  function toRarity(raw: string) {
-    const nm: Dict<number> = { QUALITY_BLUE: 3, QUALITY_ORANGE: 4, QUALITY_PURPLE: 5 };
-    return nm[raw];
   }
 }
 
@@ -272,11 +316,4 @@ interface ProudSkillExcelConfigData {
   Param: number[];
   LifeEffectType?: string;
   CoinCost?: number;
-}
-
-interface AddProp {}
-
-interface CostItem {
-  Id?: number;
-  Count?: number;
 }

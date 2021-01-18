@@ -1,0 +1,153 @@
+{
+  "id": "Bennett",
+  "name": "ベネット",
+  "desc": "モンドの冒険者少年、その優しさとそぐわない不運を持っている。",
+  "baseHP": 1039.4,
+  "baseATK": 16.027,
+  "baseDEF": 64.664,
+  "bodyType": 0,
+  "rarity": 4,
+  "weapon": 1,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "AgnidusAgateSliver", "count": 1 },
+        { "name": "WindwheelAster", "count": 3 },
+        { "name": "TreasureHoarderInsignia", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 776.52 },
+        { "type": 3, "value": 48.307 },
+        { "type": 2, "value": 11.973 },
+        { "type": 10, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "AgnidusAgateFragment", "count": 3 },
+        { "name": "EverflameSeed", "count": 2 },
+        { "name": "WindwheelAster", "count": 10 },
+        { "name": "TreasureHoarderInsignia", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1328.3 },
+        { "type": 3, "value": 82.631 },
+        { "type": 2, "value": 20.481 },
+        { "type": 10, "value": 0.0667 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "AgnidusAgateFragment", "count": 6 },
+        { "name": "EverflameSeed", "count": 4 },
+        { "name": "WindwheelAster", "count": 20 },
+        { "name": "SilverRavenInsignia", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2063.9 },
+        { "type": 3, "value": 128.4 },
+        { "type": 2, "value": 31.824 },
+        { "type": 10, "value": 0.1333 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "AgnidusAgateChunk", "count": 3 },
+        { "name": "EverflameSeed", "count": 8 },
+        { "name": "WindwheelAster", "count": 30 },
+        { "name": "SilverRavenInsignia", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2615.6 },
+        { "type": 3, "value": 162.72 },
+        { "type": 2, "value": 40.332 },
+        { "type": 10, "value": 0.1333 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "AgnidusAgateChunk", "count": 6 },
+        { "name": "EverflameSeed", "count": 12 },
+        { "name": "WindwheelAster", "count": 45 },
+        { "name": "GoldenRavenInsignia", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3167.4 },
+        { "type": 3, "value": 197.04 },
+        { "type": 2, "value": 48.839 },
+        { "type": 10, "value": 0.2 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "AgnidusAgateGemstone", "count": 6 },
+        { "name": "EverflameSeed", "count": 20 },
+        { "name": "WindwheelAster", "count": 60 },
+        { "name": "GoldenRavenInsignia", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3719.1 },
+        { "type": 3, "value": 231.37 },
+        { "type": 2, "value": 57.346 },
+        { "type": 10, "value": 0.2667 }
+      ]
+    }
+  ],
+  "ascensionType": 10,
+  "element": 6,
+  "elemSkill": {
+    "name": "溢れる情熱",
+    "desc": "炎元素と冒険への情熱を剣に込める。込めた情熱の強さによって、違う効果が現れることがある…\\n\\n<color=#FFD780FF>一回押し</color>\\n前方に素早く炎の一撃を仕掛け、<color=#FF9999FF>炎元素ダメージ</color>を与える。\\n\\n<color=#FFD780FF>長押し</color>\\n長押しでチャージし、チャージ段数により効果が変わる。\\n·1段チャージ：二段攻撃を仕掛け、<color=#FF9999FF>炎元素ダメージ</color>を与え、敵をノックバックする。\\n·2段チャージ：三段攻撃を発動し、大量の<color=#FF9999FF>炎元素ダメージ</color>を与え、最後の一撃に爆発が発生し、自身と敵を同時にノックバックする。ベネットがノックバックされた時に、ダメージを受けることはない。\\n\\n<i>ベネットの情熱と夢と炎を込めた一撃。しかし情熱があふれすぎて、炎元素が爆発することもある。</i>",
+    "cd": 5
+  },
+  "elemBurst": {
+    "name": "素晴らしい旅",
+    "desc": "ジャンプして地面を叩き、<color=#FF9999FF>炎元素ダメージ</color>を与え、鼓舞エリアを生成する。\\n\\n<color=#FFD780FF>鼓舞エリア</color>\\n·エリア内のキャラクターのHPが最大値の70%を下回ると、HPが持続的に回復する。回復量はベネットのHP上限によって決まる。\\n·エリア内のキャラクターのHPが最大値の70%以上の場合、ベネットの基礎攻撃力を基準に、一定割合の攻撃力がアップする。\\n·エリア内のキャラクターに<color=#FF9999FF>炎元素付着</color>効果を付与する。\\n\\n<i>ベニー冒険団の探険の旅はいつも予想外の危険でいっぱいだ。しかし唯一のメンバーであるベネットはそれを「刺激的で素晴らしい旅」だと思っている。</i>",
+    "cd": 15,
+    "energyCost": 60
+  },
+  "attackSkill": {
+    "name": "通常攻撃·好運の剣",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\\n剣による最大5段の連続攻撃を行う。\\n\\n<color=#FFD780FF>重撃</color>\\n一定のスタミナを消費し、前方に斬撃を2回放つ。\\n\\n<color=#FFD780FF>落下攻撃</color>\\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "冒険の憧れ",
+      "desc": "<color=#FFD780FF>素晴らしい旅</color>の攻撃力アップ効果のHPによる制限がなくなり、更にベネットの基礎攻撃力の20%に当たる数値を追加する。",
+      "values": [0.2]
+    },
+    {
+      "name": "絶境踏破",
+      "desc": "HPが70%以下になると、元素チャージ効率+30%。",
+      "values": [0.7, 0.3]
+    },
+    {
+      "name": "炎のような情熱",
+      "desc": "<color=#FFD780FF>溢れる情熱</color>のスキルLv.+3。\\n最大Lv.15まで。",
+      "values": []
+    },
+    {
+      "name": "消えない情熱",
+      "desc": "1段チャージ<color=#FFD780FF>溢れる情熱</color>を発動する時、二段目攻撃中に通常攻撃をすると追加攻撃を発動できる。\\n二段目攻撃の135%の追加ダメージを与える。",
+      "values": [1.35]
+    },
+    {
+      "name": "開拓の心意気",
+      "desc": "<color=#FFD780FF>素晴らしい旅</color>のスキルLv.+3。\\n最大Lv.15まで。",
+      "values": []
+    },
+    {
+      "name": "烈火と勇気",
+      "desc": "<color=#FFD780FF>素晴らしい旅</color>エリア内にいる片手剣、両手剣、長柄武器キャラクターの<color=#FF9999FF>炎元素ダメージ</color>+15%、さらに<color=#FF9999FF>炎元素バフ</color>を獲得する。",
+      "values": [0.15]
+    }
+  ]
+}

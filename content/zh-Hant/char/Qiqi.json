@@ -1,0 +1,153 @@
+{
+  "id": "Qiqi",
+  "name": "七七",
+  "desc": "藥廬「不卜廬」的採藥姑娘兼學徒，面色蒼白如紙的不死之人。話很少，也沒有什麼表情。",
+  "baseHP": 962.85,
+  "baseATK": 22.344,
+  "baseDEF": 71.796,
+  "bodyType": 2,
+  "rarity": 5,
+  "weapon": 1,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "ShivadaJadeSliver", "count": 1 },
+        { "name": "Violetgrass", "count": 3 },
+        { "name": "DiviningScroll", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 825.56 },
+        { "type": 3, "value": 61.56 },
+        { "type": 2, "value": 19.157 },
+        { "type": 14, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "ShivadaJadeFragment", "count": 3 },
+        { "name": "HoarfrostCore", "count": 2 },
+        { "name": "Violetgrass", "count": 10 },
+        { "name": "DiviningScroll", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1412.1 },
+        { "type": 3, "value": 105.3 },
+        { "type": 2, "value": 32.768 },
+        { "type": 14, "value": 0.0554 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "ShivadaJadeFragment", "count": 6 },
+        { "name": "HoarfrostCore", "count": 4 },
+        { "name": "Violetgrass", "count": 20 },
+        { "name": "SealedScroll", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2194.3 },
+        { "type": 3, "value": 163.62 },
+        { "type": 2, "value": 50.916 },
+        { "type": 14, "value": 0.1108 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "ShivadaJadeChunk", "count": 3 },
+        { "name": "HoarfrostCore", "count": 8 },
+        { "name": "Violetgrass", "count": 30 },
+        { "name": "SealedScroll", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2780.8 },
+        { "type": 3, "value": 207.36 },
+        { "type": 2, "value": 64.527 },
+        { "type": 14, "value": 0.1108 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "ShivadaJadeChunk", "count": 6 },
+        { "name": "HoarfrostCore", "count": 12 },
+        { "name": "Violetgrass", "count": 45 },
+        { "name": "ForbiddenCurseScroll", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3367.4 },
+        { "type": 3, "value": 251.1 },
+        { "type": 2, "value": 78.139 },
+        { "type": 14, "value": 0.1662 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "ShivadaJadeGemstone", "count": 6 },
+        { "name": "HoarfrostCore", "count": 20 },
+        { "name": "Violetgrass", "count": 60 },
+        { "name": "ForbiddenCurseScroll", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3954 },
+        { "type": 3, "value": 294.84 },
+        { "type": 2, "value": 91.75 },
+        { "type": 14, "value": 0.2215 }
+      ]
+    }
+  ],
+  "ascensionType": 14,
+  "element": 7,
+  "elemSkill": {
+    "name": "仙法·寒病鬼差",
+    "desc": "冰血化符，召喚寒病鬼差，並對周圍的敵人造成<color=#99FFFFFF>冰元素傷害</color>。\\n\\n<color=#FFD780FF>寒病鬼差</color>\\n·七七的普通攻擊與重擊命中時，為隊伍中自己的角色，以及附近的友方角色恢復生命值，回復量受益於七七的攻擊力；\\n·每隔一段時間，為當前場上自己的角色恢復生命值；\\n·跟隨角色行動，對路徑上的敵人造成<color=#99FFFFFF>冰元素傷害</color>。\\n\\n<i>「這傢伙主要是用來防止升溫腐爛的…嗯，我說的是白先生那些精貴藥材。」</i>",
+    "cd": 30
+  },
+  "elemBurst": {
+    "name": "仙法·救苦渡厄",
+    "desc": "七七釋放體內封印的仙力，以渡厄真符標記附近的敵人，並造成<color=#99FFFFFF>冰元素傷害</color>。\\n\\n<color=#FFD780FF>渡厄真符</color>\\n處於渡厄真符影響下的敵人受到傷害時，為造成傷害的角色恢復生命值。\\n\\n<i>「真名，救苦渡厄真君，起死回骸童子。」</i>\\n<i>——七七並不能記起這句話。</i>",
+    "cd": 20,
+    "energyCost": 80
+  },
+  "attackSkill": {
+    "name": "普通攻擊·雲來古劍法",
+    "desc": "<color=#FFD780FF>普通攻擊</color>\\n進行至多五段的連續劍擊。\\n\\n<color=#FFD780FF>重擊</color>\\n消耗一定體力，瞬間向前方揮出兩劍。\\n\\n<color=#FFD780FF>下落攻擊</color>\\n從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "寒苦迴向",
+      "desc": "寒病鬼差命中被渡厄真符標記的敵人時，為七七恢復2點元素能量。",
+      "values": []
+    },
+    {
+      "name": "冰寒蝕骨",
+      "desc": "對受到<color=#99FFFFFF>冰元素</color>影響的敵人，七七的普通攻擊與重擊造成的傷害提升15%。",
+      "values": []
+    },
+    {
+      "name": "升天寶誥",
+      "desc": "<color=#FFD780FF>仙法·救苦渡厄</color>的技能等級提高3級。\\n至多提升至15級。",
+      "values": []
+    },
+    {
+      "name": "天威壓眾",
+      "desc": "被渡厄真符標記的目標，攻擊力下降20%。",
+      "values": []
+    },
+    {
+      "name": "紅蓮開綻",
+      "desc": "<color=#FFD780FF>仙法·寒病鬼差</color>的技能等級提高3級。\\n至多提升至15級。",
+      "values": []
+    },
+    {
+      "name": "起死回骸",
+      "desc": "施放<color=#FFD780FF>「仙法·救苦渡厄」</color>時，復甦附近隊伍中所有倒下的角色，並恢復其生命值至50%。\\n該效果每15分鐘只能觸發一次。",
+      "values": []
+    }
+  ]
+}

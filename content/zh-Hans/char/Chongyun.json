@@ -1,0 +1,153 @@
+{
+  "id": "Chongyun",
+  "name": "重云",
+  "desc": "驱邪世家的年轻方士，为压制自身的「纯阳之体」费尽心机。",
+  "baseHP": 920.91,
+  "baseATK": 18.698,
+  "baseDEF": 54.364,
+  "bodyType": 0,
+  "rarity": 4,
+  "weapon": 4,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "ShivadaJadeSliver", "count": 1 },
+        { "name": "CorLapis", "count": 3 },
+        { "name": "DamagedMask", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 687.97 },
+        { "type": 3, "value": 40.612 },
+        { "type": 2, "value": 13.969 },
+        { "type": 7, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "ShivadaJadeFragment", "count": 3 },
+        { "name": "HoarfrostCore", "count": 2 },
+        { "name": "CorLapis", "count": 10 },
+        { "name": "DamagedMask", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1176.8 },
+        { "type": 3, "value": 69.469 },
+        { "type": 2, "value": 23.894 },
+        { "type": 7, "value": 0.06 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "ShivadaJadeFragment", "count": 6 },
+        { "name": "HoarfrostCore", "count": 4 },
+        { "name": "CorLapis", "count": 20 },
+        { "name": "StainedMask", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1828.5 },
+        { "type": 3, "value": 107.94 },
+        { "type": 2, "value": 37.128 },
+        { "type": 7, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "ShivadaJadeChunk", "count": 3 },
+        { "name": "HoarfrostCore", "count": 8 },
+        { "name": "CorLapis", "count": 30 },
+        { "name": "StainedMask", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2317.4 },
+        { "type": 3, "value": 136.8 },
+        { "type": 2, "value": 47.053 },
+        { "type": 7, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "ShivadaJadeChunk", "count": 6 },
+        { "name": "HoarfrostCore", "count": 12 },
+        { "name": "CorLapis", "count": 45 },
+        { "name": "OminousMask", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2806.2 },
+        { "type": 3, "value": 165.66 },
+        { "type": 2, "value": 56.979 },
+        { "type": 7, "value": 0.18 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "ShivadaJadeGemstone", "count": 6 },
+        { "name": "HoarfrostCore", "count": 20 },
+        { "name": "CorLapis", "count": 60 },
+        { "name": "OminousMask", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3295 },
+        { "type": 3, "value": 194.51 },
+        { "type": 2, "value": 66.904 },
+        { "type": 7, "value": 0.24 }
+      ]
+    }
+  ],
+  "ascensionType": 7,
+  "element": 7,
+  "elemSkill": {
+    "name": "灵刃·重华叠霜",
+    "desc": "重云挥动巨剑猛击地面，在前方圆形范围内引发冰爆，并对敌人造成<color=#99FFFFFF>冰元素伤害</color>。\\n短暂延迟后，冰爆引发的寒气汇聚成重华叠霜领域，其中的单手剑、大剑、长柄武器角色获得<color=#99FFFFFF>冰元素附魔</color>。\\n\\n<i>「琳琅振响，十方静默。江河不动，重云凝霜。如法开坛，诸邪退散。」</i>",
+    "cd": 15
+  },
+  "elemBurst": {
+    "name": "灵刃·云开星落",
+    "desc": "重云结印，在前方半空中连续召唤出三柄巨大灵刃，短时间内依次落向地面并爆裂。\\n灵刃爆裂时，会造成<color=#99FFFFFF>冰元素范围伤害</color>，并击飞敌人。\\n\\n<i>「卓剑天地动，冰凌霜寒生。如律令！」</i>",
+    "cd": 12,
+    "energyCost": 40
+  },
+  "attackSkill": {
+    "name": "普通攻击·灭邪四式",
+    "desc": "<color=#FFD780FF>普通攻击</color>\\n进行至多四段的连续挥砍。\\n\\n<color=#FFD780FF>重击</color>\\n持续消耗体力，旋转大剑攻击周围的敌人。\\n停止旋转时，会进行一次格外有力的挥砍。\\n\\n<color=#FFD780FF>下落攻击</color>\\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "释凌咏冰",
+      "desc": "普通攻击的最后一击会向前方释放三道冰之刃，每道冰之刃对沿途的敌人造成重云50%攻击力的<color=#99FFFFFF>冰元素伤害</color>。",
+      "values": [0.5]
+    },
+    {
+      "name": "周天运转",
+      "desc": "在<color=#FFD780FF>灵刃·重华叠霜</color>领域内施放的元素战技与元素爆发的冷却时间减少15%。",
+      "values": [0.15]
+    },
+    {
+      "name": "云尽光生",
+      "desc": "<color=#FFD780FF>灵刃·云开星落</color>的技能等级提高3级。\\n至多提升至15级。",
+      "values": []
+    },
+    {
+      "name": "浮云霜天",
+      "desc": "重云的所有攻击命中受到<color=#99FFFFFF>冰元素</color>影响的敌人时，自身将恢复1点元素能量。\\n该效果每2秒最多触发一次。",
+      "values": [1, 2]
+    },
+    {
+      "name": "真道正理",
+      "desc": "<color=#FFD780FF>灵刃·重华叠霜</color>的技能等级提高3级。\\n至多提升至15级。",
+      "values": []
+    },
+    {
+      "name": "四灵捧圣",
+      "desc": "<color=#FFD780FF>灵刃·云开星落</color>对生命值百分比低于重云的敌人造成伤害时，伤害提升15%；\\n此外，施放时，会召唤一柄额外的灵刃。",
+      "values": [0.15]
+    }
+  ]
+}

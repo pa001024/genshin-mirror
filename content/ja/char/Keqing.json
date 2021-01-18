@@ -1,0 +1,153 @@
+{
+  "id": "Keqing",
+  "name": "刻晴",
+  "desc": "「璃月七星」の一人、「玉衡」。「帝君の一言で決まる璃月」に不満を持っている——だが実のところ、神は彼女のような者を高く評価している。",
+  "baseHP": 1020.1,
+  "baseATK": 25.137,
+  "baseDEF": 62.223,
+  "bodyType": 3,
+  "rarity": 5,
+  "weapon": 1,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "VajradaAmethystSliver", "count": 1 },
+        { "name": "CorLapis", "count": 3 },
+        { "name": "WhopperflowerNectar", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 874.6 },
+        { "type": 3, "value": 53.352 },
+        { "type": 2, "value": 21.551 },
+        { "type": 13, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "VajradaAmethystFragment", "count": 3 },
+        { "name": "LightningPrism", "count": 2 },
+        { "name": "CorLapis", "count": 10 },
+        { "name": "WhopperflowerNectar", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1496 },
+        { "type": 3, "value": 91.26 },
+        { "type": 2, "value": 36.864 },
+        { "type": 13, "value": 0.096 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "VajradaAmethystFragment", "count": 6 },
+        { "name": "LightningPrism", "count": 4 },
+        { "name": "CorLapis", "count": 20 },
+        { "name": "ShimmeringNectar", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2324.6 },
+        { "type": 3, "value": 141.8 },
+        { "type": 2, "value": 57.281 },
+        { "type": 13, "value": 0.192 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "VajradaAmethystChunk", "count": 3 },
+        { "name": "LightningPrism", "count": 8 },
+        { "name": "CorLapis", "count": 30 },
+        { "name": "ShimmeringNectar", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2946 },
+        { "type": 3, "value": 179.71 },
+        { "type": 2, "value": 72.593 },
+        { "type": 13, "value": 0.192 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "VajradaAmethystChunk", "count": 6 },
+        { "name": "LightningPrism", "count": 12 },
+        { "name": "CorLapis", "count": 45 },
+        { "name": "EnergyNectar", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3567.5 },
+        { "type": 3, "value": 217.62 },
+        { "type": 2, "value": 87.906 },
+        { "type": 13, "value": 0.288 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "VajradaAmethystGemstone", "count": 6 },
+        { "name": "LightningPrism", "count": 20 },
+        { "name": "CorLapis", "count": 60 },
+        { "name": "EnergyNectar", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 4188.9 },
+        { "type": 3, "value": 255.53 },
+        { "type": 2, "value": 103.22 },
+        { "type": 13, "value": 0.384 }
+      ]
+    }
+  ],
+  "ascensionType": 13,
+  "element": 3,
+  "elemSkill": {
+    "name": "星辰帰位",
+    "desc": "雷楔を素早く投げ出し、疾雷の勢いで敵を殲滅する。\\n雷楔が命中した時に狭範囲の敵に<color=#FFACFFFF>雷元素ダメージ</color>を与え、命中した位置に雷楔マークを残す。\\n\\n<color=#FFD780FF>長押し</color>\\n長押しで雷楔マークを投げる方向を調整できる。\\n長押しで投げ出した雷楔は空中に浮遊させることができる。刻晴が再び星辰帰位を発動する時、地形を無視できる。\\n\\n<color=#FFD780FF>雷楔</color>\\n雷楔継続中、刻晴が再び星辰帰位また重撃を発動すると、雷楔マークは消され、異なる効果を発動できる：\\n·再び星辰帰位を発動すると、マークした位置に瞬間移動し斬撃を1回仕掛け、<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。長押しで投げ出した雷楔の位置に瞬間移動する場合は地形を無視する。\\n·重撃を行った場合、マークした位置に暴雷連斬を引き起こし、数回の<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。\\n\\n<i>「人は蛾のように、飛んで神という火の光に入る。だが私の光は私自身が灯す。」</i>",
+    "cd": 7.5
+  },
+  "elemBurst": {
+    "name": "天街巡遊",
+    "desc": "雷電の力を爆発させ、<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。\\nその後、剣影に隠れ、敵に迅雷の如き高速連斬を発動し、連続で<color=#FFACFFFF>雷元素ダメージ</color>を与える。最後の一撃は大量の<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。\\n\\n<i>刻晴が生みだした剣術の中で最も速い技、満天の星すらも斬り落とせる。</i>",
+    "cd": 12,
+    "energyCost": 40
+  },
+  "attackSkill": {
+    "name": "通常攻撃·雲来剣法",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\\n剣による最大5段の連続攻撃を行う。\\n\\n<color=#FFD780FF>重撃</color>\\n一定のスタミナを消費し、前方に斬撃を2回放つ。\\n\\n<color=#FFD780FF>落下攻撃</color>\\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "迅雷",
+      "desc": "雷楔継続中に再び<color=#FFD780FF>星辰帰位</color>を発動すると、刻晴は消失位置と出現位置に攻撃力50%分の<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。",
+      "values": [0.5]
+    },
+    {
+      "name": "苛捐",
+      "desc": "刻晴の通常攻撃と重撃が<color=#FFACFFFF>雷元素</color>の影響を受けた敵に命中した時、50%の確率で元素粒子を1個生成する。\\n5秒毎に1回のみ発動可能。",
+      "values": [0.5, 5]
+    },
+    {
+      "name": "登楼",
+      "desc": "<color=#FFD780FF>天街巡遊</color>のスキルLv.+3。\\n最大Lv.15まで。",
+      "values": []
+    },
+    {
+      "name": "調律",
+      "desc": "刻晴が<color=#FFACFFFF>雷元素の関連反応</color>を起こした10秒間、攻撃力+25%。",
+      "values": [10, 0.25]
+    },
+    {
+      "name": "移燈",
+      "desc": "<color=#FFD780FF>星辰帰位</color>のスキルLv.+3。\\n最大Lv.15まで。",
+      "values": []
+    },
+    {
+      "name": "廉貞",
+      "desc": "通常攻撃、重撃、元素スキルまたは元素爆発を発動する時、刻晴の与える<color=#FFACFFFF>雷元素ダメージ</color>+6%、継続時間8秒。\\n通常攻撃、重撃、元素スキルまたは元素爆発の発動による効果はそれぞれ別々でカウントされる。",
+      "values": [0.06, 8]
+    }
+  ]
+}

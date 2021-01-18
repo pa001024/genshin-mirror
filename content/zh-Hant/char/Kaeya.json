@@ -1,0 +1,153 @@
+{
+  "id": "Kaeya",
+  "name": "凱亞",
+  "desc": "異國面容的劍鬥士，西風騎士團的頭腦派人物。",
+  "baseHP": 975.62,
+  "baseATK": 18.698,
+  "baseDEF": 66.381,
+  "bodyType": 1,
+  "rarity": 4,
+  "weapon": 1,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "ShivadaJadeSliver", "count": 1 },
+        { "name": "CallaLily", "count": 3 },
+        { "name": "TreasureHoarderInsignia", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 728.84 },
+        { "type": 3, "value": 49.59 },
+        { "type": 2, "value": 13.969 },
+        { "type": 10, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "ShivadaJadeFragment", "count": 3 },
+        { "name": "HoarfrostCore", "count": 2 },
+        { "name": "CallaLily", "count": 10 },
+        { "name": "TreasureHoarderInsignia", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1246.7 },
+        { "type": 3, "value": 84.825 },
+        { "type": 2, "value": 23.894 },
+        { "type": 10, "value": 0.0667 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "ShivadaJadeFragment", "count": 6 },
+        { "name": "HoarfrostCore", "count": 4 },
+        { "name": "CallaLily", "count": 20 },
+        { "name": "SilverRavenInsignia", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1937.2 },
+        { "type": 3, "value": 131.8 },
+        { "type": 2, "value": 37.128 },
+        { "type": 10, "value": 0.1333 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "ShivadaJadeChunk", "count": 3 },
+        { "name": "HoarfrostCore", "count": 8 },
+        { "name": "CallaLily", "count": 30 },
+        { "name": "SilverRavenInsignia", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2455 },
+        { "type": 3, "value": 167.04 },
+        { "type": 2, "value": 47.053 },
+        { "type": 10, "value": 0.1333 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "ShivadaJadeChunk", "count": 6 },
+        { "name": "HoarfrostCore", "count": 12 },
+        { "name": "CallaLily", "count": 45 },
+        { "name": "GoldenRavenInsignia", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2972.9 },
+        { "type": 3, "value": 202.27 },
+        { "type": 2, "value": 56.979 },
+        { "type": 10, "value": 0.2 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "ShivadaJadeGemstone", "count": 6 },
+        { "name": "HoarfrostCore", "count": 20 },
+        { "name": "CallaLily", "count": 60 },
+        { "name": "GoldenRavenInsignia", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3490.7 },
+        { "type": 3, "value": 237.51 },
+        { "type": 2, "value": 66.904 },
+        { "type": 10, "value": 0.2667 }
+      ]
+    }
+  ],
+  "ascensionType": 10,
+  "element": 7,
+  "elemSkill": {
+    "name": "霜襲",
+    "desc": "瞬間放出急凍的寒氣，對前方的敵人造成<color=#99FFFFFF>冰元素傷害</color>。\\n\\n<i>看起來如此親切的凱亞，是誰也無法融化的堅冰。</i>",
+    "cd": 6
+  },
+  "elemBurst": {
+    "name": "凜冽輪舞",
+    "desc": "凝聚空氣中的寒霜，召喚三枚圍繞自身旋轉的寒冰之凌。\\n存在期間內，寒冰之冰凌會跟隨角色行動，對路徑上的敵人造成<color=#99FFFFFF>冰元素傷害</color>。\\n\\n<i>親切的笑容、和善的話語，和潛藏在這兩者之下的毫不留情的冰霜，都是凱亞的武器。</i>",
+    "cd": 15,
+    "energyCost": 60
+  },
+  "attackSkill": {
+    "name": "普通攻擊·儀典劍術",
+    "desc": "<color=#FFD780FF>普通攻擊</color>\\n進行至多五段的連續劍擊。\\n\\n<color=#FFD780FF>重擊</color>\\n消耗一定體力，瞬間向前方揮出兩劍。\\n\\n<color=#FFD780FF>下落攻擊</color>\\n從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "卓越的血脈",
+      "desc": "對受到<color=#99FFFFFF>冰元素</color>影響的敵人，凱亞的普通攻擊與重擊的暴擊率提升15%。",
+      "values": []
+    },
+    {
+      "name": "無盡的霜舞",
+      "desc": "在<color=#FFD780FF>凜冽輪舞</color>的持續時間內擊敗敵人時，持續時間延長2.5秒，最多不會超過15秒。",
+      "values": []
+    },
+    {
+      "name": "凜冽的冰戲",
+      "desc": "<color=#FFD780FF>霜襲</color>的技能等級提高3級。\\n至多提升至15級。",
+      "values": []
+    },
+    {
+      "name": "極寒的輕吻",
+      "desc": "凱亞的生命值低於20%時自動觸發：\\n產生一個傷害吸收量等於生命值上限30%的護盾，持續20秒。\\n該護盾對<color=#99FFFFFF>冰元素傷害</color>有250%的吸收效果。\\n該效果每60秒只能觸發一次。",
+      "values": []
+    },
+    {
+      "name": "至冷的擁抱",
+      "desc": "<color=#FFD780FF>凜冽輪舞</color>的技能等級提高3級。\\n至多提升至15級。",
+      "values": []
+    },
+    {
+      "name": "輪旋的冰淩",
+      "desc": "<color=#FFD780FF>凜冽輪舞</color>會產生一個額外的寒冰之棱，並在施放時歸還15點元素能量。",
+      "values": []
+    }
+  ]
+}

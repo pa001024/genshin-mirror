@@ -1,0 +1,153 @@
+{
+  "id": "Sucrose",
+  "name": "砂糖",
+  "desc": "對萬物充滿好奇的煉金術士，「生物煉金」學派的研究者。",
+  "baseHP": 775.02,
+  "baseATK": 14.246,
+  "baseDEF": 58.942,
+  "bodyType": 3,
+  "rarity": 4,
+  "weapon": 5,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "VayudaTurquoiseSliver", "count": 1 },
+        { "name": "WindwheelAster", "count": 3 },
+        { "name": "WhopperflowerNectar", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 578.98 },
+        { "type": 3, "value": 44.033 },
+        { "type": 2, "value": 10.643 },
+        { "type": 27, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "VayudaTurquoiseFragment", "count": 3 },
+        { "name": "HurricaneSeed", "count": 2 },
+        { "name": "WindwheelAster", "count": 10 },
+        { "name": "WhopperflowerNectar", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 990.36 },
+        { "type": 3, "value": 75.319 },
+        { "type": 2, "value": 18.205 },
+        { "type": 27, "value": 0.06 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "VayudaTurquoiseFragment", "count": 6 },
+        { "name": "HurricaneSeed", "count": 4 },
+        { "name": "WindwheelAster", "count": 20 },
+        { "name": "ShimmeringNectar", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1538.9 },
+        { "type": 3, "value": 117.03 },
+        { "type": 2, "value": 28.288 },
+        { "type": 27, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "VayudaTurquoiseChunk", "count": 3 },
+        { "name": "HurricaneSeed", "count": 8 },
+        { "name": "WindwheelAster", "count": 30 },
+        { "name": "ShimmeringNectar", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1950.3 },
+        { "type": 3, "value": 148.32 },
+        { "type": 2, "value": 35.85 },
+        { "type": 27, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "VayudaTurquoiseChunk", "count": 6 },
+        { "name": "HurricaneSeed", "count": 12 },
+        { "name": "WindwheelAster", "count": 45 },
+        { "name": "EnergyNectar", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2361.6 },
+        { "type": 3, "value": 179.61 },
+        { "type": 2, "value": 43.412 },
+        { "type": 27, "value": 0.18 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "VayudaTurquoiseGemstone", "count": 6 },
+        { "name": "HurricaneSeed", "count": 20 },
+        { "name": "WindwheelAster", "count": 60 },
+        { "name": "EnergyNectar", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2773 },
+        { "type": 3, "value": 210.89 },
+        { "type": 2, "value": 50.975 },
+        { "type": 27, "value": 0.24 }
+      ]
+    }
+  ],
+  "ascensionType": 27,
+  "element": 1,
+  "elemSkill": {
+    "name": "風靈作成·陸參零捌",
+    "desc": "召喚出小型風靈，將敵人與物體牽引至風靈所在位置，擊飛範圍內的敵人，並造成<color=#80FFD7FF>風元素傷害</color>。\\n\\n<i>說來很不好意思，雖然術式裡誕生的元素生命迅速就消散了，但是在冒險裡真的很好用。失敗的實驗也會誕生實用技術。</i>",
+    "cd": 15
+  },
+  "elemBurst": {
+    "name": "禁·風靈作成·柒伍同構貳型",
+    "desc": "砂糖拋出不穩定的燒瓶，生成大型風靈。\\n存在期間，大型風靈會持續牽引附近的敵人與物體，擊飛附近的敵人，並造成<color=#80FFD7FF>風元素傷害</color>。\\n\\n<color=#FFD780FF>元素轉化</color>\\n若風靈在技能持續期間接觸了<color=#80C0FFFF>水元素</color>/<color=#FF9999FF>火元素</color>/<color=#99FFFFFF>冰元素</color>/<color=#FFACFFFF>雷元素</color>，則會獲得對應元素屬性，額外造成該元素的附加傷害。\\n元素轉化在技能持續期間僅會發生一次。\\n\\n<i>砂糖也曾經想給每一個不穩態無相之風取名字。但是其世系迅速超過了兔兔伯爵的八百九十三世。</i>",
+    "cd": 20,
+    "energyCost": 80
+  },
+  "attackSkill": {
+    "name": "普通攻擊·簡式風靈作成",
+    "desc": "<color=#FFD780FF>普通攻擊</color>\\n進行至多四段的風靈攻擊，造成<color=#80FFD7FF>風元素傷害</color>。\\n\\n<color=#FFD780FF>重擊</color>\\n消耗一定體力，短暫詠唱後，造成<color=#80FFD7FF>風元素範圍傷害</color>。\\n\\n<color=#FFD780FF>下落攻擊</color>\\n凝聚風靈的力量，從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成<color=#80FFD7FF>風元素範圍傷害</color>。",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "堆疊真空域",
+      "desc": "<color=#FFD780FF>風靈作成·陸參零捌</color>的可使用次數增加一次。",
+      "values": []
+    },
+    {
+      "name": "不羈型貝特",
+      "desc": "<color=#FFD780FF>禁·風靈作成·柒伍同構貳型</color>的技能持續時間延長2秒。",
+      "values": [2]
+    },
+    {
+      "name": "零失誤少女",
+      "desc": "<color=#FFD780FF>風靈作成·陸參零捌</color>的技能等級提高3級。\\n至多提升至15級。",
+      "values": []
+    },
+    {
+      "name": "煉金的偏執",
+      "desc": "砂糖每進行7次普通攻擊或者重擊，<color=#FFD780FF>風靈作成·陸參零捌</color>的冷卻時間就會隨機減少1-7秒。",
+      "values": []
+    },
+    {
+      "name": "認真普通瓶",
+      "desc": "<color=#FFD780FF>禁·風靈作成·柒伍同構貳型</color>的技能等級提高3級。\\n至多提升至15級。",
+      "values": []
+    },
+    {
+      "name": "混元熵增論",
+      "desc": "<color=#FFD780FF>禁·風靈作成·柒伍同構貳型</color>如果發生了元素轉化，則使隊伍中所有角色在技能持續時間內獲得20%的對應元素傷害加成。",
+      "values": [0.2]
+    }
+  ]
+}

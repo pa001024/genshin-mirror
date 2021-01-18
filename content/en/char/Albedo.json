@@ -1,0 +1,153 @@
+{
+  "id": "Albedo",
+  "name": "Albedo",
+  "desc": "A genius known as the Kreideprinz, he is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius.",
+  "baseHP": 1029.6,
+  "baseATK": 19.551,
+  "baseDEF": 68.206,
+  "bodyType": 0,
+  "rarity": 5,
+  "weapon": 1,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "PrithivaTopazSliver", "count": 1 },
+        { "name": "Cecilia", "count": 3 },
+        { "name": "DiviningScroll", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 882.78 },
+        { "type": 3, "value": 58.482 },
+        { "type": 2, "value": 16.762 },
+        { "type": 31, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "PrithivaTopazFragment", "count": 3 },
+        { "name": "BasaltPillar", "count": 2 },
+        { "name": "Cecilia", "count": 10 },
+        { "name": "DiviningScroll", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1510 },
+        { "type": 3, "value": 100.04 },
+        { "type": 2, "value": 28.672 },
+        { "type": 31, "value": 0.072 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "PrithivaTopazFragment", "count": 6 },
+        { "name": "BasaltPillar", "count": 4 },
+        { "name": "Cecilia", "count": 20 },
+        { "name": "SealedScroll", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2346.3 },
+        { "type": 3, "value": 155.44 },
+        { "type": 2, "value": 44.552 },
+        { "type": 31, "value": 0.144 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "PrithivaTopazChunk", "count": 3 },
+        { "name": "BasaltPillar", "count": 8 },
+        { "name": "Cecilia", "count": 30 },
+        { "name": "SealedScroll", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2973.6 },
+        { "type": 3, "value": 196.99 },
+        { "type": 2, "value": 56.461 },
+        { "type": 31, "value": 0.144 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "PrithivaTopazChunk", "count": 6 },
+        { "name": "BasaltPillar", "count": 12 },
+        { "name": "Cecilia", "count": 45 },
+        { "name": "ForbiddenCurseScroll", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3600.8 },
+        { "type": 3, "value": 238.54 },
+        { "type": 2, "value": 68.371 },
+        { "type": 31, "value": 0.216 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "PrithivaTopazGemstone", "count": 6 },
+        { "name": "BasaltPillar", "count": 20 },
+        { "name": "Cecilia", "count": 60 },
+        { "name": "ForbiddenCurseScroll", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 4228 },
+        { "type": 3, "value": 280.1 },
+        { "type": 2, "value": 80.281 },
+        { "type": 31, "value": 0.288 }
+      ]
+    }
+  ],
+  "ascensionType": 31,
+  "element": 2,
+  "elemSkill": {
+    "name": "Abiogenesis: Solar Isotoma",
+    "desc": "Albedo creates a Solar Isotoma using alchemy, which deals <color=#FFE699FF>AoE Geo DMG</color> on appearance.\\n\\n<color=#FFD780FF>Solar Isotoma</color>\\nhas the following properties:\\n·When enemies within the Solar Isotoma field take DMG, the Solar Isotoma will generate Transient Blossoms which deal <color=#FFE699FF>AoE Geo DMG</color>. DMG dealt scales off Albedo's DEF. \\n·Transient Blossoms can only be generated once every 2s.\\n·When a character is located at the locus of the Solar Isotoma, the Solar Isotoma will accumulate Geo power to form a crystallized platform that lifts the character up to a certain height. Only one crystallized platform can exist at a time.\\n·Only one Solar Isotoma created by Albedo can exist at a time, and it is considered a <color=#FFE699FF>Geo construct</color>.\\n\\n<color=#FFD780FF>Hold</color> to designate the location of the skill.\\n\\n<i>This Geo bloom has an unusual property mirrored in the aim of alchemy. To rise from the earth, soar into the sky, and become the sun.</i>",
+    "cd": 4
+  },
+  "elemBurst": {
+    "name": "Rite of Progeniture: Tectonic Tide",
+    "desc": "Under Albedo's command, Geo crystals surge and burst forth, dealing <color=#FFE699FF>AoE Geo DMG</color> in front of him.\\nIf a Solar Isotoma created by Albedo himself is on the field, 7 Fatal Blossoms will be generated in the Solar Isotoma field, bursting violently into bloom and dealing <color=#FFE699FF>AoE Geo DMG</color>.\\n\\nTectonic Tide DMG and Fatal Blossom DMG will not generate Transient Blossoms.\\n\\n<i>Under the Kreideprinz's command, the tectonic tide of creation seethes into life.</i>",
+    "cd": 12,
+    "energyCost": 40
+  },
+  "attackSkill": {
+    "name": "Normal Attack: Favonius Bladework - Weiss",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "Flower of Eden",
+      "desc": "Transient Blossoms generated by Albedo's <color=#FFD780FF>Abiogenesis: Solar Isotoma</color> regenerate 1.2 Energy for Albedo.",
+      "values": [1.2]
+    },
+    {
+      "name": "Opening of Phanerozoic",
+      "desc": "Transient Blossoms generated by <color=#FFD780FF>Abiogenesis: Solar Isotoma</color> grant Albedo Fatal Reckoning for 30s:\\n·Unleashing <color=#FFD780FF>Rite of Progeniture: Tectonic Tide</color> consumes all stacks of Fatal Reckoning. Each stack of Fatal Reckoning consumed increases the DMG dealt by Fatal Blossoms and Rite of Progeniture: Tectonic Tide's burst DMG by 30% of Albedo's DEF.\\n·This effect stacks up to 4 times.",
+      "values": [0.3]
+    },
+    {
+      "name": "Grace of Helios",
+      "desc": "Increases the Level of <color=#FFD780FF>Abiogenesis: Solar Isotoma</color> by 3.\\nMaximum upgrade level is 15.",
+      "values": []
+    },
+    {
+      "name": "Descent of Divinity",
+      "desc": "Solar Isotoma increases Plunging Attack DMG by 30% for active party members within the AoE.",
+      "values": []
+    },
+    {
+      "name": "Tide of Hadean",
+      "desc": "Increases the Level of <color=#FFD780FF>Rite of Progeniture: Tectonic Tide</color> by 3.\\nMaximum upgrade level is 15.",
+      "values": []
+    },
+    {
+      "name": "Dust of Purification",
+      "desc": "If active party members within the AoE are protected by a shield created by Crystallize, Solar Isotoma increases their DMG by 17%.",
+      "values": []
+    }
+  ]
+}

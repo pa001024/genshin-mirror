@@ -1,0 +1,153 @@
+{
+  "id": "Xingqiu",
+  "name": "Xingqiu",
+  "desc": "A young man carrying a longsword who is frequently seen at book booths. He has a chivalrous heart and yearns for justice and fairness for all.",
+  "baseHP": 857.08,
+  "baseATK": 16.918,
+  "baseDEF": 63.52,
+  "bodyType": 0,
+  "rarity": 4,
+  "weapon": 1,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "VarunadaLazuriteSliver", "count": 1 },
+        { "name": "SilkFlower", "count": 3 },
+        { "name": "DamagedMask", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 640.29 },
+        { "type": 3, "value": 47.452 },
+        { "type": 2, "value": 12.639 },
+        { "type": 7, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "VarunadaLazuriteFragment", "count": 3 },
+        { "name": "CleansingHeart", "count": 2 },
+        { "name": "SilkFlower", "count": 10 },
+        { "name": "DamagedMask", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1095.2 },
+        { "type": 3, "value": 81.169 },
+        { "type": 2, "value": 21.619 },
+        { "type": 7, "value": 0.06 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "VarunadaLazuriteFragment", "count": 6 },
+        { "name": "CleansingHeart", "count": 4 },
+        { "name": "SilkFlower", "count": 20 },
+        { "name": "StainedMask", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1701.8 },
+        { "type": 3, "value": 126.12 },
+        { "type": 2, "value": 33.592 },
+        { "type": 7, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "VarunadaLazuriteChunk", "count": 3 },
+        { "name": "CleansingHeart", "count": 8 },
+        { "name": "SilkFlower", "count": 30 },
+        { "name": "StainedMask", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2156.8 },
+        { "type": 3, "value": 159.84 },
+        { "type": 2, "value": 42.572 },
+        { "type": 7, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "VarunadaLazuriteChunk", "count": 6 },
+        { "name": "CleansingHeart", "count": 12 },
+        { "name": "SilkFlower", "count": 45 },
+        { "name": "OminousMask", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2611.7 },
+        { "type": 3, "value": 193.56 },
+        { "type": 2, "value": 51.552 },
+        { "type": 7, "value": 0.18 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "VarunadaLazuriteGemstone", "count": 6 },
+        { "name": "CleansingHeart", "count": 20 },
+        { "name": "SilkFlower", "count": 60 },
+        { "name": "OminousMask", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3066.6 },
+        { "type": 3, "value": 227.27 },
+        { "type": 2, "value": 60.532 },
+        { "type": 7, "value": 0.24 }
+      ]
+    }
+  ],
+  "ascensionType": 7,
+  "element": 5,
+  "elemSkill": {
+    "name": "Guhua Sword: Fatal Rainscreen",
+    "desc": "Xingqiu performs twin strikes with his sword, dealing <color=#80C0FFFF>Hydro DMG</color>. At the same time, this ability creates the maximum number of Rain Swords, which will orbit your active character.\\nThe Rain Swords have the following properties:\\n·When a character takes DMG, the Rain Sword will shatter, reducing the amount of DMG taken.\\n·Increases the character's resistance to interruption.\\n20% of Xingqiu's <color=#80C0FFFF>Hydro DMG Bonus</color> will be converted to additional DMG Reduction for the Rain Swords.\\n\\nThe maximum amount of additional DMG Reduction that can be gained this way is 24%.\\nThe initial maximum number of Rain Swords is 3.\\nUsing this ability applies the <color=#80C0FFFF>Wet</color> status onto the character.\\n\\n<i>\"Easier to slay a rain dragon than to sever the rain.\"</i>",
+    "cd": 21
+  },
+  "elemBurst": {
+    "name": "Guhua Sword: Raincutter",
+    "desc": "Initiate Rainbow Bladework and fight using an illusory sword rain, while creating the maximum number of Rain Swords.\\n\\n<color=#FFD780FF>Rainbow Bladework</color>\\n·Your active character's Normal Attacks will trigger consecutive sword rain attacks, dealing <color=#80C0FFFF>Hydro DMG</color>.\\n·Rain Swords will remain at the maximum number throughout the ability's duration.\\n\\n<i>The \"Way of the Rain Cutter\" is one of the esoteric secret techniques of the Guhua Sect.</i>",
+    "cd": 20,
+    "energyCost": 80
+  },
+  "attackSkill": {
+    "name": "Normal Attack: Guhua Style",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "The Scent Remained",
+      "desc": "Increases the maximum number of Rain Swords by 1.",
+      "values": []
+    },
+    {
+      "name": "Rainbow Upon the Azure Sky",
+      "desc": "Extends the duration of <color=#FFD780FF>Guhua Sword: Raincutter</color> by 3s.\\nDecreases the <color=#80C0FFFF>Hydro RES</color> of opponents hit by sword rain attacks by 15% for 4s.",
+      "values": []
+    },
+    {
+      "name": "Weaver of Verses",
+      "desc": "Increases the Level of <color=#FFD780FF>Guhua Sword: Raincutter</color> by 3.\\nMaximum upgrade level is 15.",
+      "values": []
+    },
+    {
+      "name": "Evilsoother",
+      "desc": "Throughout the duration of <color=#FFD780FF>Guhua Sword: Raincutter</color>, the DMG dealt by <color=#FFD780FF>Guhua Sword: Fatal Rainscreen</color> is increased by 50%.",
+      "values": []
+    },
+    {
+      "name": "Embrace of Rain",
+      "desc": "Increases the Level of <color=#FFD780FF>Guhua Sword: Fatal Rainscreen</color> by 3.\\nMaximum upgrade level is 15.",
+      "values": []
+    },
+    {
+      "name": "Hence, Call Them My Own Verses",
+      "desc": "Activating 2 of <color=#FFD780FF>Guhua Sword: Raincutter</color>'s sword rain attacks greatly increases the DMG of the third. Xingqiu regenerates 3 Energy when sword rain attacks hit opponents.",
+      "values": []
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "id": "Diona",
+  "name": "迪奥娜",
+  "desc": "遗传了稀薄的「非人」血统的少女，「猫尾酒馆」的超人气调酒师。",
+  "baseHP": 802.38,
+  "baseATK": 17.808,
+  "baseDEF": 50.358,
+  "bodyType": 2,
+  "rarity": 4,
+  "weapon": 2,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "ShivadaJadeSliver", "count": 1 },
+        { "name": "CallaLily", "count": 3 },
+        { "name": "FirmArrowhead", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 599.42 },
+        { "type": 3, "value": 37.62 },
+        { "type": 2, "value": 13.304 },
+        { "type": 29, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "ShivadaJadeFragment", "count": 3 },
+        { "name": "HoarfrostCore", "count": 2 },
+        { "name": "CallaLily", "count": 10 },
+        { "name": "FirmArrowhead", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1025.3 },
+        { "type": 3, "value": 64.35 },
+        { "type": 2, "value": 22.757 },
+        { "type": 29, "value": 0.06 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "ShivadaJadeFragment", "count": 6 },
+        { "name": "HoarfrostCore", "count": 4 },
+        { "name": "CallaLily", "count": 20 },
+        { "name": "SharpArrowhead", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1593.2 },
+        { "type": 3, "value": 99.99 },
+        { "type": 2, "value": 35.36 },
+        { "type": 29, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "ShivadaJadeChunk", "count": 3 },
+        { "name": "HoarfrostCore", "count": 8 },
+        { "name": "CallaLily", "count": 30 },
+        { "name": "SharpArrowhead", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2019.1 },
+        { "type": 3, "value": 126.72 },
+        { "type": 2, "value": 44.813 },
+        { "type": 29, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "ShivadaJadeChunk", "count": 6 },
+        { "name": "HoarfrostCore", "count": 12 },
+        { "name": "CallaLily", "count": 45 },
+        { "name": "WeatheredArrowhead", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2445 },
+        { "type": 3, "value": 153.45 },
+        { "type": 2, "value": 54.265 },
+        { "type": 29, "value": 0.18 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "ShivadaJadeGemstone", "count": 6 },
+        { "name": "HoarfrostCore", "count": 20 },
+        { "name": "CallaLily", "count": 60 },
+        { "name": "WeatheredArrowhead", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2870.9 },
+        { "type": 3, "value": 180.18 },
+        { "type": 2, "value": 63.718 },
+        { "type": 29, "value": 0.24 }
+      ]
+    }
+  ],
+  "ascensionType": 29,
+  "element": 7,
+  "elemSkill": {
+    "name": "猫爪冻冻",
+    "desc": "发射冻冻猫猫爪，对敌人造成<color=#99FFFFFF>冰元素伤害</color>，并在命中时形成护盾。\\n护盾的伤害吸收量受益于迪奥娜的生命值上限，持续时间基于命中的冻冻猫猫爪数目。\\n\\n<color=#FFD780FF>点按</color>\\n快速发射二枚冻冻猫猫爪。\\n\\n<color=#FFD780FF>长按</color>\\n迅速后撤，并发射五枚冻冻猫猫爪。\\n通过长按产生的护盾获得75%伤害吸收量加成。\\n\\n护盾对<color=#99FFFFFF>冰元素伤害</color>有250%的吸收效果，并会在形成时，为当前角色施加短暂的<color=#99FFFFFF>冰元素附着</color>。\\n\\n<i>一开始，酒里加多少冰也伤害不了酒鬼。直到迪奥娜有了神之眼，然后就有了这些冻得人太阳穴疼的冰。好评！</i>",
+    "cd": 6
+  },
+  "elemBurst": {
+    "name": "最烈特调",
+    "desc": "抛出特别调制的冰酿烈调，造成<color=#99FFFFFF>冰元素范围伤害</color>，并产生冰气酒雾领域。\\n\\n<color=#FFD780FF>冰气酒雾领域</color>\\n·对其中的敌人持续造成<color=#99FFFFFF>冰元素伤害</color>；\\n·为其中的角色持续恢复生命值。\\n\\n<i>迪奥娜自己都觉得不人道的恐怖配方。前味恐怖，推荐留给敌人；后劲清冽，可惜只能用鼻子和皮肤享用。</i>",
+    "cd": 20,
+    "energyCost": 80
+  },
+  "attackSkill": {
+    "name": "普通攻击·猎人射术",
+    "desc": "<color=#FFD780FF>普通攻击</color>\\n进行至多五段的连续弓箭射击。\\n\\n<color=#FFD780FF>重击</color>\\n进行伤害更高、更为精准的<color=#FFD780FF>瞄准射击</color>。\\n瞄准时，冰霜散发的寒气会凭附在箭矢上。聚满了寒气的箭矢会造成<color=#99FFFFFF>冰元素伤害</color>。\\n\\n<color=#FFD780FF>下落攻击</color>\\n从空中射出箭雨，并迅速下坠冲击地面，在落地时造成范围伤害。",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "特调的余韵",
+      "desc": "<color=#FFD780FF>最烈特调</color>的效果结束时，为迪奥娜恢复15点元素能量。",
+      "values": [15]
+    },
+    {
+      "name": "猫爪冰摇",
+      "desc": "<color=#FFD780FF>猫爪冻冻</color>造成的伤害提高15%，护盾的伤害吸收量提高15%；\\n此外，命中时，将为附近的当前其他场上角色生成一个伤害吸收量为<color=#FFD780FF>猫爪冻冻</color>50%的护盾，持续5秒。",
+      "values": [0.15, 0.15, 0.5, 5]
+    },
+    {
+      "name": "还、还要续杯？",
+      "desc": "<color=#FFD780FF>最烈特调</color>的技能等级提高3级。\\n至多提升至15级。",
+      "values": []
+    },
+    {
+      "name": "「酒业杀手」",
+      "desc": "在<color=#FFD780FF>最烈特调</color>的领域内，迪奥娜的瞄准射击的所需的蓄力时间减少60%。",
+      "values": []
+    },
+    {
+      "name": "双份加冰",
+      "desc": "<color=#FFD780FF>猫爪冻冻</color>的技能等级提高3级。\\n至多提升至15级。",
+      "values": []
+    },
+    {
+      "name": "猫尾打烊之时",
+      "desc": "处在<color=#FFD780FF>最烈特调</color>领域内的角色，依据生命值获得如下效果：\\n·生命值低于或等于50%时，受治疗加成提升30%；\\n·生命值高于50%时，元素精通提升200。",
+      "values": [0.3, 200]
+    }
+  ]
+}

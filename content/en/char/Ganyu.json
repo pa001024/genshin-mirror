@@ -1,0 +1,153 @@
+{
+  "id": "Ganyu",
+  "name": "Ganyu",
+  "desc": "The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.",
+  "baseHP": 762.66,
+  "baseATK": 26.068,
+  "baseDEF": 49.061,
+  "bodyType": 3,
+  "rarity": 5,
+  "weapon": 2,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "ShivadaJadeSliver", "count": 1 },
+        { "name": "Qingxin", "count": 3 },
+        { "name": "WhopperflowerNectar", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 653.91 },
+        { "type": 3, "value": 42.066 },
+        { "type": 2, "value": 22.349 },
+        { "type": 13, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "ShivadaJadeFragment", "count": 3 },
+        { "name": "HoarfrostCore", "count": 2 },
+        { "name": "Qingxin", "count": 10 },
+        { "name": "WhopperflowerNectar", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1118.5 },
+        { "type": 3, "value": 71.955 },
+        { "type": 2, "value": 38.229 },
+        { "type": 13, "value": 0.096 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "ShivadaJadeFragment", "count": 6 },
+        { "name": "HoarfrostCore", "count": 4 },
+        { "name": "Qingxin", "count": 20 },
+        { "name": "ShimmeringNectar", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1738 },
+        { "type": 3, "value": 111.81 },
+        { "type": 2, "value": 59.402 },
+        { "type": 13, "value": 0.192 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "ShivadaJadeChunk", "count": 3 },
+        { "name": "HoarfrostCore", "count": 8 },
+        { "name": "Qingxin", "count": 30 },
+        { "name": "ShimmeringNectar", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2202.6 },
+        { "type": 3, "value": 141.7 },
+        { "type": 2, "value": 75.282 },
+        { "type": 13, "value": 0.192 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "ShivadaJadeChunk", "count": 6 },
+        { "name": "HoarfrostCore", "count": 12 },
+        { "name": "Qingxin", "count": 45 },
+        { "name": "EnergyNectar", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2667.3 },
+        { "type": 3, "value": 171.59 },
+        { "type": 2, "value": 91.162 },
+        { "type": 13, "value": 0.288 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "ShivadaJadeGemstone", "count": 6 },
+        { "name": "HoarfrostCore", "count": 20 },
+        { "name": "Qingxin", "count": 60 },
+        { "name": "EnergyNectar", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3131.9 },
+        { "type": 3, "value": 201.47 },
+        { "type": 2, "value": 107.04 },
+        { "type": 13, "value": 0.384 }
+      ]
+    }
+  ],
+  "ascensionType": 13,
+  "element": 7,
+  "elemSkill": {
+    "name": "Trail of the Qilin",
+    "desc": "Leaving a single Ice Lotus behind, Ganyu dashes backward, shunning all impurity and dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\\n\\n<color=#FFD780FF>Ice Lotus</color>\\n·Continuously taunts surrounding opponents, attracting them to attack it.\\n·Endurance scales based on Ganyu's Max HP.\\n·Blooms profusely when destroyed or once its duration ends, dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\\n\\n<i>\"You saw me, you say? You must be mistaken. I was working overtime then.\"</i>",
+    "cd": 10
+  },
+  "elemBurst": {
+    "name": "Celestial Shower",
+    "desc": "Coalesces atmospheric frost and snow to summon a Sacred Cryo Pearl that exorcises evil.\\nDuring its ability duration, the Sacred Cryo Pearl will continuously rain down shards of ice, striking opponents within an AoE and dealing <color=#99FFFFFF>Cryo DMG</color>.\\n\\n<i>Ganyu can bring down sweet rains as a matter of course. But against demons and heretics, they become bitter, freezing snow.</i>",
+    "cd": 15,
+    "energyCost": 60
+  },
+  "attackSkill": {
+    "name": "Normal Attack: Liutian Archery",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 6 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, an icy aura will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:\\n·Charge Level 1: Fires off an icy arrow that deals <color=#99FFFFFF>Cryo DMG</color>.\\n·Charge Level 2: Fires off a Frostflake Arrow that deals <color=#99FFFFFF>Cryo DMG</color>. The Frostflake Arrow blooms after hitting its target, dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "Dew-Drinker",
+      "desc": "Taking DMG from a Charge Level 2 Frostflake Arrow or Frostflake Arrow Bloom decreases opponents' <color=#99FFFFFF>Cryo RES</color> by 15% for 6s.\\nA hit regenerates 2 Energy for Ganyu. This effect can only occur once per Charge Level 2 Frostflake Arrow, regardless if Frostflake Arrow itself or its Bloom hit the target.",
+      "values": [-0.15, 6, 2]
+    },
+    {
+      "name": "The Auspicious",
+      "desc": "<color=#FFD780FF>Trail of the Qilin</color> gains 1 additional charge.",
+      "values": []
+    },
+    {
+      "name": "Cloud-Strider",
+      "desc": "Increases the Level of <color=#FFD780FF>Celestial Shower</color> by 3.\\nMaximum upgrade level is 15.",
+      "values": []
+    },
+    {
+      "name": "Westward Sojourn",
+      "desc": "Opponents standing within the AoE of <color=#FFD780FF>Celestial Shower</color> take increased DMG. This effect strengthens over time.\\nIncreased DMG taken begins at 5% and increases by 5% every 3s, up to a maximum of 25%.\\nThe effect lingers for 3s after the opponent leaves the AoE.",
+      "values": []
+    },
+    {
+      "name": "The Merciful",
+      "desc": "Increases the Level of <color=#FFD780FF>Trail of the Qilin</color> by 3.\\nMaximum upgrade level is 15.",
+      "values": []
+    },
+    {
+      "name": "The Clement",
+      "desc": "Using <color=#FFD780FF>Trail of the Qilin</color> causes the next Frostflake Arrow shot within 30s to not require charging.",
+      "values": []
+    }
+  ]
+}

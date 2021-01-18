@@ -1,0 +1,153 @@
+{
+  "id": "Ganyu",
+  "name": "甘雨",
+  "desc": "月海亭の秘書、その身には仙獣「麒麟」の血が流れている。",
+  "baseHP": 762.66,
+  "baseATK": 26.068,
+  "baseDEF": 49.061,
+  "bodyType": 3,
+  "rarity": 5,
+  "weapon": 2,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "ShivadaJadeSliver", "count": 1 },
+        { "name": "Qingxin", "count": 3 },
+        { "name": "WhopperflowerNectar", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 653.91 },
+        { "type": 3, "value": 42.066 },
+        { "type": 2, "value": 22.349 },
+        { "type": 13, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "ShivadaJadeFragment", "count": 3 },
+        { "name": "HoarfrostCore", "count": 2 },
+        { "name": "Qingxin", "count": 10 },
+        { "name": "WhopperflowerNectar", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1118.5 },
+        { "type": 3, "value": 71.955 },
+        { "type": 2, "value": 38.229 },
+        { "type": 13, "value": 0.096 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "ShivadaJadeFragment", "count": 6 },
+        { "name": "HoarfrostCore", "count": 4 },
+        { "name": "Qingxin", "count": 20 },
+        { "name": "ShimmeringNectar", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1738 },
+        { "type": 3, "value": 111.81 },
+        { "type": 2, "value": 59.402 },
+        { "type": 13, "value": 0.192 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "ShivadaJadeChunk", "count": 3 },
+        { "name": "HoarfrostCore", "count": 8 },
+        { "name": "Qingxin", "count": 30 },
+        { "name": "ShimmeringNectar", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2202.6 },
+        { "type": 3, "value": 141.7 },
+        { "type": 2, "value": 75.282 },
+        { "type": 13, "value": 0.192 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "ShivadaJadeChunk", "count": 6 },
+        { "name": "HoarfrostCore", "count": 12 },
+        { "name": "Qingxin", "count": 45 },
+        { "name": "EnergyNectar", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2667.3 },
+        { "type": 3, "value": 171.59 },
+        { "type": 2, "value": 91.162 },
+        { "type": 13, "value": 0.288 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "ShivadaJadeGemstone", "count": 6 },
+        { "name": "HoarfrostCore", "count": 20 },
+        { "name": "Qingxin", "count": 60 },
+        { "name": "EnergyNectar", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3131.9 },
+        { "type": 3, "value": 201.47 },
+        { "type": 2, "value": 107.04 },
+        { "type": 13, "value": 0.384 }
+      ]
+    }
+  ],
+  "ascensionType": 13,
+  "element": 7,
+  "elemSkill": {
+    "name": "山沢麟跡",
+    "desc": "一輪の氷蓮を残して後退し、全ての魑魅魍魎から離れ、<color=#99FFFFFF>氷元素範囲ダメージ</color>を与える。\\n\\n<color=#FFD780FF>氷蓮</color>\\n·持続的に周囲の敵を挑発し、攻撃を引きつける。\\n·耐久度は甘雨のHP上限によって決まる。\\n·破壊された時または継続時間終了後に激しく開花し、<color=#99FFFFFF>氷元素範囲ダメージ</color>を与える。\\n\\n<i>「私を見かけたと？それは気のせいでしょう。その時間はまだ残業中です。」</i>",
+    "cd": 10
+  },
+  "elemBurst": {
+    "name": "降衆天華",
+    "desc": "大気中の霜雪を集め、退魔の氷霊珠を召喚する。\\n氷霊珠が存在している間、持続的に氷柱を降らし、範囲内の敵に<color=#99FFFFFF>氷元素ダメージ</color>を与える。\\n\\n<i>甘雨は甘い雨を降らすことができる。だが、邪魔者や外道にとってその甘い雨は、寒苦の雨でもある。</i>",
+    "cd": 15,
+    "energyCost": 60
+  },
+  "attackSkill": {
+    "name": "通常攻撃·流天射術",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\\n最大6段の連続射撃を行う。\\n\\n<color=#FFD780FF>重撃</color>\\nダメージがより高く、より精確な<color=#FFD780FF>狙い撃ち</color>を発動する。\\n照準時、氷寒の気が矢先に集まり、攻撃と共に発射される。チャージの時間のより、異なる効果を発動する：\\n·1段チャージ：氷寒の気が集まった矢を放ち、<color=#99FFFFFF>氷元素ダメージ</color>を与える。\\n·2段チャージ：霜華の矢を放ち、<color=#99FFFFFF>氷元素ダメージ</color>を与える。命中後、霜華満開が発生し、さらに<color=#99FFFFFF>氷元素範囲ダメージ</color>を与える。\\n\\n<color=#FFD780FF>落下攻撃</color>\\n空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "飲露",
+      "desc": "二段チャージ重撃の霜華の矢または霜華満開が命中した時、敵の<color=#99FFFFFF>氷元素耐性</color>-15%、継続時間6秒。\\n命中時に甘雨の元素エネルギーを2回復。二段チャージの重撃による元素エネルギーの回復効果は、1回の重撃で1度のみ発動可能。",
+      "values": [-0.15, 6, 2]
+    },
+    {
+      "name": "獲麟",
+      "desc": "<color=#FFD780FF>山沢麟跡</color>の発動可能回数+1。",
+      "values": []
+    },
+    {
+      "name": "雲行",
+      "desc": "<color=#FFD780FF>降衆天華</color>のスキルLv.+3。\\n最大Lv.15まで。",
+      "values": []
+    },
+    {
+      "name": "西狩",
+      "desc": "<color=#FFD780FF>降衆天華</color>エリア内、敵の受けるダメージが増加する。\\n受けるダメージの増加量は初期が5%、3秒毎に5%上昇し、最大25%まで上昇する。\\nエリアを出た後、継続時間3秒。",
+      "values": []
+    },
+    {
+      "name": "折草",
+      "desc": "<color=#FFD780FF>山沢麟跡</color>のスキルLv.+3。\\n最大Lv.15まで。",
+      "values": []
+    },
+    {
+      "name": "履虫",
+      "desc": "<color=#FFD780FF>山沢麟跡</color>を発動すると、30秒以内に放つ最初の霜華の矢が、チャージせずに発動可能になる。",
+      "values": []
+    }
+  ]
+}

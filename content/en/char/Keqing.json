@@ -1,0 +1,153 @@
+{
+  "id": "Keqing",
+  "name": "Keqing",
+  "desc": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis' unilateral approach to policymaking in Liyue — but in truth, gods admire skeptics such as her quite a lot.",
+  "baseHP": 1020.1,
+  "baseATK": 25.137,
+  "baseDEF": 62.223,
+  "bodyType": 3,
+  "rarity": 5,
+  "weapon": 1,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "VajradaAmethystSliver", "count": 1 },
+        { "name": "CorLapis", "count": 3 },
+        { "name": "WhopperflowerNectar", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 874.6 },
+        { "type": 3, "value": 53.352 },
+        { "type": 2, "value": 21.551 },
+        { "type": 13, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "VajradaAmethystFragment", "count": 3 },
+        { "name": "LightningPrism", "count": 2 },
+        { "name": "CorLapis", "count": 10 },
+        { "name": "WhopperflowerNectar", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1496 },
+        { "type": 3, "value": 91.26 },
+        { "type": 2, "value": 36.864 },
+        { "type": 13, "value": 0.096 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "VajradaAmethystFragment", "count": 6 },
+        { "name": "LightningPrism", "count": 4 },
+        { "name": "CorLapis", "count": 20 },
+        { "name": "ShimmeringNectar", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2324.6 },
+        { "type": 3, "value": 141.8 },
+        { "type": 2, "value": 57.281 },
+        { "type": 13, "value": 0.192 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "VajradaAmethystChunk", "count": 3 },
+        { "name": "LightningPrism", "count": 8 },
+        { "name": "CorLapis", "count": 30 },
+        { "name": "ShimmeringNectar", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2946 },
+        { "type": 3, "value": 179.71 },
+        { "type": 2, "value": 72.593 },
+        { "type": 13, "value": 0.192 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "VajradaAmethystChunk", "count": 6 },
+        { "name": "LightningPrism", "count": 12 },
+        { "name": "CorLapis", "count": 45 },
+        { "name": "EnergyNectar", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3567.5 },
+        { "type": 3, "value": 217.62 },
+        { "type": 2, "value": 87.906 },
+        { "type": 13, "value": 0.288 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "VajradaAmethystGemstone", "count": 6 },
+        { "name": "LightningPrism", "count": 20 },
+        { "name": "CorLapis", "count": 60 },
+        { "name": "EnergyNectar", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 4188.9 },
+        { "type": 3, "value": 255.53 },
+        { "type": 2, "value": 103.22 },
+        { "type": 13, "value": 0.384 }
+      ]
+    }
+  ],
+  "ascensionType": 13,
+  "element": 3,
+  "elemSkill": {
+    "name": "Stellar Restoration",
+    "desc": "Hurls a Lightning Stiletto that annihilates her opponents like the swift thunder.\\nWhen the Stiletto hits its target, it deals <color=#FFACFFFF>Electro DMG</color> to opponents in a small AoE, and places a Stiletto Mark on the spot hit.\\n\\n<color=#FFD780FF>Hold</color>\\nHold to adjust the direction in which the Stiletto shall be thrown.\\nStilettos thrown by the Hold attack mode can be suspended in mid-air, allowing Keqing to jump to them when using Stellar Restoration a second time.\\n\\n<color=#FFD780FF>Lightning Stiletto</color>\\n If Keqing uses Stellar Restoration again or uses a Charged Attack while its duration lasts, it will clear the Stiletto Mark and produce different effects:\\n·If she uses Stellar Restoration again, she will blink to the location of the Mark and unleash one slashing attack that deals <color=#FFACFFFF>AoE Electro DMG</color>. When blinking to a Stiletto that was thrown from a Holding attack, Keqing can leap across obstructing terrain.\\n·If Keqing uses a Charged Attack, she will ignite a series of thundering cuts at the Mark's location, dealing <color=#FFACFFFF>AoE Electro DMG</color>.\\n\\n<i>\"Humans are like moths, endlessly chasing the flame we call gods and adepti. But this light that I have here is my own.\"</i>",
+    "cd": 7.5
+  },
+  "elemBurst": {
+    "name": "Starward Sword",
+    "desc": "Keqing unleashes the power of lightning, dealing <color=#FFACFFFF>Electro DMG</color> in an AOE.\\nShe then blends into the shadow of her blade, striking a series of thunderclap-blows to nearby opponents simultaneously that deal multiple instances of <color=#FFACFFFF>Electro DMG</color>. The final attack deals massive <color=#FFACFFFF>AoE Electro DMG</color>.\\n\\n<i>The swiftest technique in Keqing's personal arsenal is fast enough to bring stars crashing down.</i>",
+    "cd": 12,
+    "energyCost": 40
+  },
+  "attackSkill": {
+    "name": "Normal Attack: Yunlai Swordsmanship",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "Thundering Might",
+      "desc": "Recasting <color=#FFD780FF>Stellar Restoration</color> while a Lightning Stiletto is present causes Keqing to deal 50% of her ATK as <color=#FFACFFFF>AoE Electro DMG</color> at the start point and terminus of her Blink.",
+      "values": [0.5]
+    },
+    {
+      "name": "Keen Extraction",
+      "desc": "When Keqing's Normal and Charged Attack's hit opponents affected by <color=#FFACFFFF>Electro</color>, they have a 50% chance of producing an Elemental Particle.\\nThis effect can only occur once every 5s.",
+      "values": [0.5, 5]
+    },
+    {
+      "name": "Foreseen Reformation",
+      "desc": "Increases the Level of <color=#FFD780FF>Starward Sword</color> by 3.\\nMaximum upgrade level is 15.",
+      "values": []
+    },
+    {
+      "name": "Attunement",
+      "desc": "For 10s after Keqing triggers an <color=#FFACFFFF>Electro-related Elemental Reaction</color>, her ATK is increased by 25%.",
+      "values": [10, 0.25]
+    },
+    {
+      "name": "Beckoning Stars",
+      "desc": "Increases the Level of <color=#FFD780FF>Stellar Restoration</color> by 3.\\nMaximum upgrade level is 15.",
+      "values": []
+    },
+    {
+      "name": "Tenacious Star",
+      "desc": "When initiating a Normal Attack, a Charged Attack, Elemental Skill or Elemental Burst, Keqing gains a 6% <color=#FFACFFFF>Electro DMG Bonus</color> for 8s.\\nEffects triggered by Normal Attacks, Charged Attacks, Elemental Skills and Elemental Bursts are considered independent entities.",
+      "values": [0.06, 8]
+    }
+  ]
+}

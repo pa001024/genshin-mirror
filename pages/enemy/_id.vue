@@ -52,7 +52,7 @@
 
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
-import { Ienemy } from "~/modules/core";
+import { IEnemy } from "~/modules/core";
 
 @Component<Page>({
   // server
@@ -78,7 +78,7 @@ import { Ienemy } from "~/modules/core";
 })
 export default class Page extends Vue {
   id: string = "";
-  data: Ienemy | null = null;
+  data: IEnemy | null = null;
   page: any = null;
 
   get localeName() {

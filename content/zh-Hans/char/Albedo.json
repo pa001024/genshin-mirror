@@ -1,0 +1,153 @@
+{
+  "id": "Albedo",
+  "name": "阿贝多",
+  "desc": "西风骑士团首席炼金术士兼调查小队队长，被称做「白垩之子」的天才。",
+  "baseHP": 1029.6,
+  "baseATK": 19.551,
+  "baseDEF": 68.206,
+  "bodyType": 0,
+  "rarity": 5,
+  "weapon": 1,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "PrithivaTopazSliver", "count": 1 },
+        { "name": "Cecilia", "count": 3 },
+        { "name": "DiviningScroll", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 882.78 },
+        { "type": 3, "value": 58.482 },
+        { "type": 2, "value": 16.762 },
+        { "type": 31, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "PrithivaTopazFragment", "count": 3 },
+        { "name": "BasaltPillar", "count": 2 },
+        { "name": "Cecilia", "count": 10 },
+        { "name": "DiviningScroll", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1510 },
+        { "type": 3, "value": 100.04 },
+        { "type": 2, "value": 28.672 },
+        { "type": 31, "value": 0.072 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "PrithivaTopazFragment", "count": 6 },
+        { "name": "BasaltPillar", "count": 4 },
+        { "name": "Cecilia", "count": 20 },
+        { "name": "SealedScroll", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2346.3 },
+        { "type": 3, "value": 155.44 },
+        { "type": 2, "value": 44.552 },
+        { "type": 31, "value": 0.144 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "PrithivaTopazChunk", "count": 3 },
+        { "name": "BasaltPillar", "count": 8 },
+        { "name": "Cecilia", "count": 30 },
+        { "name": "SealedScroll", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2973.6 },
+        { "type": 3, "value": 196.99 },
+        { "type": 2, "value": 56.461 },
+        { "type": 31, "value": 0.144 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "PrithivaTopazChunk", "count": 6 },
+        { "name": "BasaltPillar", "count": 12 },
+        { "name": "Cecilia", "count": 45 },
+        { "name": "ForbiddenCurseScroll", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3600.8 },
+        { "type": 3, "value": 238.54 },
+        { "type": 2, "value": 68.371 },
+        { "type": 31, "value": 0.216 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "PrithivaTopazGemstone", "count": 6 },
+        { "name": "BasaltPillar", "count": 20 },
+        { "name": "Cecilia", "count": 60 },
+        { "name": "ForbiddenCurseScroll", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 4228 },
+        { "type": 3, "value": 280.1 },
+        { "type": 2, "value": 80.281 },
+        { "type": 31, "value": 0.288 }
+      ]
+    }
+  ],
+  "ascensionType": 31,
+  "element": 2,
+  "elemSkill": {
+    "name": "创生法·拟造阳华",
+    "desc": "炼成阳华，造成<color=#FFE699FF>岩元素范围伤害</color>。\\n\\n<color=#FFD780FF>阳华</color>\\n具有如下特性：\\n·以阳华为中心的领域中的敌人受到伤害时，阳华将会生成刹那之花，绽放造成<color=#FFE699FF>岩元素范围伤害</color>，伤害基于阿贝多的防御力。\\n·每2秒只能生成一次刹那之花。\\n·角色处在阳华上时，阳华将会凝聚岩元素的力量，形成将角色托起至一定高度的晶台。同时只能存在一个晶台。\\n·同时只能存在一个由阿贝多自己创造的阳华，视为<color=#FFE699FF>岩元素创造物</color>。\\n\\n<color=#FFD780FF>长按</color>\\n可以调整技能生效位置。\\n\\n<i>这种岩花有着奇异的特性，和炼金术的目的一致。诞生自大地，却一直希望上升至高天，化作太阳。</i>",
+    "cd": 4
+  },
+  "elemBurst": {
+    "name": "诞生式·大地之潮",
+    "desc": "岩晶在阿贝多的指示下涌动爆发，在阿贝多前方造成<color=#FFE699FF>岩元素范围伤害</color>。\\n场上存在阿贝多自己创造的阳华时，会在阳华的领域内生成7朵生灭之花，猛烈绽放并造成<color=#FFE699FF>岩元素范围伤害</color>。\\n\\n爆发伤害与生灭之花的伤害不会生成刹那之花。\\n\\n<i>在白垩色王子的命令之下，大地的造物之潮翻涌了起来。</i>",
+    "cd": 12,
+    "energyCost": 40
+  },
+  "attackSkill": {
+    "name": "普通攻击·西风剑术·白",
+    "desc": "<color=#FFD780FF>普通攻击</color>\\n进行至多五段的连续剑击。\\n\\n<color=#FFD780FF>重击</color>\\n消耗一定体力，瞬间向前方挥出两剑。\\n\\n<color=#FFD780FF>下落攻击</color>\\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "伊甸之花",
+      "desc": "阿贝多的<color=#FFD780FF>创生法·拟造阳华</color>生成的刹那之花绽放时，为阿贝多自己回复1.2点元素能量。",
+      "values": [1.2]
+    },
+    {
+      "name": "显生之宙",
+      "desc": "<color=#FFD780FF>创生法·拟造阳华</color>的刹那之花绽放时，会为阿贝多赋予生灭计数效果，持续30秒：\\n·施放<color=#FFD780FF>诞生式·大地之潮</color>时，清除所有生灭计数效果，并根据清除的层数，提高诞生式·大地之潮的爆发伤害与生灭之花造成的伤害；\\n·每层生灭计数，会提高等同于阿贝多防御力的30%的伤害；\\n·该效果至多叠加4次。",
+      "values": [0.3]
+    },
+    {
+      "name": "太阳之华",
+      "desc": "<color=#FFD780FF>创生法·拟造阳华</color>的技能等级提高3级。\\n至多提升至15级。",
+      "values": []
+    },
+    {
+      "name": "神性之陨",
+      "desc": "处于阳华的领域中的队伍中当前场上角色，造成的下落攻击伤害提高30%。",
+      "values": []
+    },
+    {
+      "name": "冥古之潮",
+      "desc": "<color=#FFD780FF>诞生式·大地之潮</color>的技能等级提高3级。\\n至多提升至15级。",
+      "values": []
+    },
+    {
+      "name": "无垢之土",
+      "desc": "处在阳华的领域中的队伍中当前场上角色，若处于结晶反应产生的护盾庇护下，造成的伤害提高17%。",
+      "values": []
+    }
+  ]
+}

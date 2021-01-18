@@ -1,0 +1,153 @@
+{
+  "id": "Ningguang",
+  "name": "凝光",
+  "desc": "「璃月七星」の一人、「天権」。富の多さで有名であり、全大陸で彼女に匹敵する者はまずいない。",
+  "baseHP": 820.61,
+  "baseATK": 17.808,
+  "baseDEF": 48.069,
+  "bodyType": 4,
+  "rarity": 4,
+  "weapon": 5,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "PrithivaTopazSliver", "count": 1 },
+        { "name": "GlazeLily", "count": 3 },
+        { "name": "RecruitsInsignia", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 613.04 },
+        { "type": 3, "value": 35.91 },
+        { "type": 2, "value": 13.304 },
+        { "type": 31, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "PrithivaTopazFragment", "count": 3 },
+        { "name": "BasaltPillar", "count": 2 },
+        { "name": "GlazeLily", "count": 10 },
+        { "name": "RecruitsInsignia", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1048.6 },
+        { "type": 3, "value": 61.425 },
+        { "type": 2, "value": 22.757 },
+        { "type": 31, "value": 0.06 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "PrithivaTopazFragment", "count": 6 },
+        { "name": "BasaltPillar", "count": 4 },
+        { "name": "GlazeLily", "count": 20 },
+        { "name": "SergeantsInsignia", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1629.4 },
+        { "type": 3, "value": 95.445 },
+        { "type": 2, "value": 35.36 },
+        { "type": 31, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "PrithivaTopazChunk", "count": 3 },
+        { "name": "BasaltPillar", "count": 8 },
+        { "name": "GlazeLily", "count": 30 },
+        { "name": "SergeantsInsignia", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2065 },
+        { "type": 3, "value": 120.96 },
+        { "type": 2, "value": 44.813 },
+        { "type": 31, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "PrithivaTopazChunk", "count": 6 },
+        { "name": "BasaltPillar", "count": 12 },
+        { "name": "GlazeLily", "count": 45 },
+        { "name": "LieutenantsInsignia", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2500.6 },
+        { "type": 3, "value": 146.48 },
+        { "type": 2, "value": 54.265 },
+        { "type": 31, "value": 0.18 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "PrithivaTopazGemstone", "count": 6 },
+        { "name": "BasaltPillar", "count": 20 },
+        { "name": "GlazeLily", "count": 60 },
+        { "name": "LieutenantsInsignia", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2936.1 },
+        { "type": 3, "value": 171.99 },
+        { "type": 2, "value": 63.718 },
+        { "type": 31, "value": 0.24 }
+      ]
+    }
+  ],
+  "ascensionType": 31,
+  "element": 2,
+  "elemSkill": {
+    "name": "璇璣屏",
+    "desc": "黄金、黒曜岩、強者の余裕で璇璣屏を作り、<color=#FFE699FF>岩元素範囲ダメージ</color>を与える。\\n\\n<color=#FFD780FF>璇璣屏</color>\\n·敵の投擲攻撃を防御する。\\n·耐久度は凝光のHPによって決まる。\\n\\n璇璣屏は<color=#FFE699FF>岩元素創造物</color>と見なされ、一部の攻撃を防ぐことができるが、璇璣屏に登ることはできない。同時に最大1つまで存在可能。\\n\\n<i>星羅棋布、璇璣合屏。</i>",
+    "cd": 12
+  },
+  "elemBurst": {
+    "name": "天権崩玉",
+    "desc": "自身の周りに宝石を凝聚させ、それらを一気に放つ。自動索敵する宝石は周りの敵を攻撃し、大量の<color=#FFE699FF>岩元素ダメージ</color>を与える。\\n周りに璇璣屏が存在する時に天権崩玉を発動すると、璇璣屏から追加で宝石が放たれ、敵を攻撃する。\\n\\n<i>星が散り、敵を滅ぼす。</i>",
+    "cd": 12,
+    "energyCost": 40
+  },
+  "attackSkill": {
+    "name": "通常攻撃·千金擲",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\\n宝石を発射し、<color=#FFE699FF>岩元素ダメージ</color>を与える。\\n命中した時、凝光に星璇を一枚付与する。\\n\\n<color=#FFD780FF>重撃</color>\\nスタミナを消費して巨大な宝石を発射し、<color=#FFE699FF>岩元素ダメージ</color>を与える。\\n凝光に星璇がついている状態下で重撃を行うと、全ての星璇を一斉に発射し、さらにダメージを与える。\\n\\n<color=#FFD780FF>落下攻撃</color>\\n空中から晶岩の力を凝集しながら落下し、地面に衝撃を与える。経路上の敵を攻撃し、落下時に<color=#FFE699FF>岩元素範囲ダメージ</color>を与える。",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "散る星の破片",
+      "desc": "通常攻撃が命中すると範囲ダメージを与える。",
+      "values": []
+    },
+    {
+      "name": "璇璣、崑崙を鎮める",
+      "desc": "<color=#FFD780FF>璇璣屏</color>が破裂した時、クールタイムがリセットする。\\n6秒毎に1回のみ発動可能。",
+      "values": []
+    },
+    {
+      "name": "森羅星列の囲い",
+      "desc": "<color=#FFD780FF>天権崩玉</color>のスキルLv.+3。\\n最大Lv.15まで。",
+      "values": []
+    },
+    {
+      "name": "神機妙道の陣組み",
+      "desc": "<color=#FFD780FF>璇璣屏</color>付近のキャラクターの全元素耐性+10%。",
+      "values": []
+    },
+    {
+      "name": "瓊屏と千扇の守り",
+      "desc": "<color=#FFD780FF>璇璣屏</color>のスキルLv.+3。\\n最大Lv.15まで。",
+      "values": []
+    },
+    {
+      "name": "燦々たる七星",
+      "desc": "<color=#FFD780FF>天権崩玉</color>を放つ時、凝光に七枚の星璇を生成する。",
+      "values": []
+    }
+  ]
+}

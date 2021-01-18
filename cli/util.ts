@@ -2,7 +2,7 @@ import prettier from "prettier";
 import fs from "fs-extra";
 import chalk from "chalk";
 
-import { BuffType, WeaponType } from "../modules/core/enum";
+import { BuffType, ElementType, WeaponType } from "../modules/core/enum";
 import type { IAttr, IWeaponAffix } from "../modules/core/interface";
 import { startCase } from "lodash";
 
@@ -53,6 +53,10 @@ export function toText(hash: number, lang = "en") {
   return locales[lang][hash];
 }
 
+export function toID(hash: number, lang = "en") {
+  return locales[lang][hash].replace(/\W+/g, "");
+}
+
 export function toNormalName(NameTextMapHash: number) {
   return startCase(toText(NameTextMapHash)).replace(/ /g, "");
 }
@@ -71,6 +75,10 @@ export function toAffix(id: number): IWeaponAffix {
       return { attrs: toAttr(v.AddProps), params: v.Param.filter(Boolean).map(toNum) };
     }),
   };
+}
+
+export function toItem(id: number) {
+  return itemMap[id];
 }
 
 // 生成大段文字的国际化文件
@@ -118,6 +126,18 @@ export function toWeaponType(str: string) {
     WEAPON_CLAYMORE: WeaponType.Claymore,
   };
   return nameMap[str] || WeaponType.Unknown;
+}
+
+export function toElement(skill: string) {
+  const nm: Dict<ElementType> = {
+    ELECTRIC: ElementType.Electro,
+    FIRE: ElementType.Pyro,
+    ICE: ElementType.Cryo,
+    ROCK: ElementType.Geo,
+    WATER: ElementType.Hydro,
+    WIND: ElementType.Anemo,
+  };
+  return nm[skill];
 }
 
 export function toTags(id: number) {

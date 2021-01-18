@@ -76,7 +76,7 @@ export default class DefaultLayout extends Vue {
   @Getter("app/injectedMenu") injectedMenu!: InjectedMenu[];
 
   links = [
-    { name: "avatar", path: "/avatar", icon: "avatar" },
+    { name: "avatar", path: "/char", icon: "avatar" },
     { name: "weapon", path: "/weapon", icon: "weapon" },
     { name: "artifact", path: "/artifact", icon: "artifact" },
     { name: "enemy", path: "/enemy", icon: "quest" },

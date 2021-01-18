@@ -1,0 +1,153 @@
+{
+  "id": "Sucrose",
+  "name": "Sucrose",
+  "desc": "An alchemist filled with curiosity about all things. She researches bio-alchemy.",
+  "baseHP": 775.02,
+  "baseATK": 14.246,
+  "baseDEF": 58.942,
+  "bodyType": 3,
+  "rarity": 4,
+  "weapon": 5,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "VayudaTurquoiseSliver", "count": 1 },
+        { "name": "WindwheelAster", "count": 3 },
+        { "name": "WhopperflowerNectar", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 578.98 },
+        { "type": 3, "value": 44.033 },
+        { "type": 2, "value": 10.643 },
+        { "type": 27, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "VayudaTurquoiseFragment", "count": 3 },
+        { "name": "HurricaneSeed", "count": 2 },
+        { "name": "WindwheelAster", "count": 10 },
+        { "name": "WhopperflowerNectar", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 990.36 },
+        { "type": 3, "value": 75.319 },
+        { "type": 2, "value": 18.205 },
+        { "type": 27, "value": 0.06 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "VayudaTurquoiseFragment", "count": 6 },
+        { "name": "HurricaneSeed", "count": 4 },
+        { "name": "WindwheelAster", "count": 20 },
+        { "name": "ShimmeringNectar", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1538.9 },
+        { "type": 3, "value": 117.03 },
+        { "type": 2, "value": 28.288 },
+        { "type": 27, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "VayudaTurquoiseChunk", "count": 3 },
+        { "name": "HurricaneSeed", "count": 8 },
+        { "name": "WindwheelAster", "count": 30 },
+        { "name": "ShimmeringNectar", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1950.3 },
+        { "type": 3, "value": 148.32 },
+        { "type": 2, "value": 35.85 },
+        { "type": 27, "value": 0.12 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "VayudaTurquoiseChunk", "count": 6 },
+        { "name": "HurricaneSeed", "count": 12 },
+        { "name": "WindwheelAster", "count": 45 },
+        { "name": "EnergyNectar", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2361.6 },
+        { "type": 3, "value": 179.61 },
+        { "type": 2, "value": 43.412 },
+        { "type": 27, "value": 0.18 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "VayudaTurquoiseGemstone", "count": 6 },
+        { "name": "HurricaneSeed", "count": 20 },
+        { "name": "WindwheelAster", "count": 60 },
+        { "name": "EnergyNectar", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2773 },
+        { "type": 3, "value": 210.89 },
+        { "type": 2, "value": 50.975 },
+        { "type": 27, "value": 0.24 }
+      ]
+    }
+  ],
+  "ascensionType": 27,
+  "element": 1,
+  "elemSkill": {
+    "name": "Astable Anemohypostasis Creation - 6308",
+    "desc": "Creates a small Wind Spirit that pulls opponents and objects towards its location, launches opponents within its AoE, and deals <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<i>This is a little embarrassing, but though the elemental lifeforms birthed through this procedure dissipate very rapidly, they are incredibly useful when adventuring. Even failed experiments can have practical applications.</i>",
+    "cd": 15
+  },
+  "elemBurst": {
+    "name": "Forbidden Creation - Isomer 75 / Type II",
+    "desc": "Sucrose hurls an unstable concoction that creates a Large Wind Spirit.\\nWhile it persists, the Large Wind Spirit will continuously pull in surrounding opponents and objects, launch nearby opponents, and deal <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Elemental Absorption</color>\\nIf the Wind Spirit comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color> energy, it will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use.\\n\\n<i>Sucrose used to give names to her volatile Anemo Hypostases, but their line of heirs quickly grew to surpass Baron Bunny the 893rd.</i>",
+    "cd": 20,
+    "energyCost": 80
+  },
+  "attackSkill": {
+    "name": "Normal Attack: Wind Spirit Creation",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 attacks using Wind Spirits, dealing <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina and deals <color=#80FFD7FF>AoE Anemo DMG</color> after a short casting time.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nCalling upon the power of her Wind Spirits, Sucrose plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80FFD7FF>AoE Anemo DMG</color> upon impact with the ground.",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "Clustered Vacuum Field",
+      "desc": "<color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> gains 1 additional charge.",
+      "values": []
+    },
+    {
+      "name": "Beth: Unbound Form",
+      "desc": "The duration of <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> is increased by 2s.",
+      "values": [2]
+    },
+    {
+      "name": "Flawless Alchemistress",
+      "desc": "Increases the Level of <color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> by 3.\\nMaximum upgrade level is 15.",
+      "values": []
+    },
+    {
+      "name": "Alchemania",
+      "desc": "Every 7 Normal and Charged Attacks, Sucrose will reduce the CD of <color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> by 1-7s.",
+      "values": []
+    },
+    {
+      "name": "Caution: Standard Flask",
+      "desc": "Increases the Level of <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> by 3.\\nMaximum upgrade level is 15.",
+      "values": []
+    },
+    {
+      "name": "Chaotic Entropy",
+      "desc": "If <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> triggers an Elemental Absorption, all party members gain a 20% Elemental DMG Bonus for the corresponding absorbed element during its duration.",
+      "values": [0.2]
+    }
+  ]
+}

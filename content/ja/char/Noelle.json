@@ -1,0 +1,153 @@
+{
+  "id": "Noelle",
+  "name": "ノエル",
+  "desc": "「西風騎士団」の頼もしいメイド、いつか本当の騎士になることを夢見る。",
+  "baseHP": 1012.1,
+  "baseATK": 16.027,
+  "baseDEF": 66.953,
+  "bodyType": 3,
+  "rarity": 4,
+  "weapon": 4,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "name": "PrithivaTopazSliver", "count": 1 },
+        { "name": "Valberry", "count": 3 },
+        { "name": "DamagedMask", "count": 3 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 756.08 },
+        { "type": 3, "value": 50.018 },
+        { "type": 2, "value": 11.973 },
+        { "type": 9, "value": 0 }
+      ]
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "name": "PrithivaTopazFragment", "count": 3 },
+        { "name": "BasaltPillar", "count": 2 },
+        { "name": "Valberry", "count": 10 },
+        { "name": "DamagedMask", "count": 15 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 1293.3 },
+        { "type": 3, "value": 85.556 },
+        { "type": 2, "value": 20.481 },
+        { "type": 9, "value": 0.075 }
+      ]
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "name": "PrithivaTopazFragment", "count": 6 },
+        { "name": "BasaltPillar", "count": 4 },
+        { "name": "Valberry", "count": 20 },
+        { "name": "StainedMask", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2009.6 },
+        { "type": 3, "value": 132.94 },
+        { "type": 2, "value": 31.824 },
+        { "type": 9, "value": 0.15 }
+      ]
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "name": "PrithivaTopazChunk", "count": 3 },
+        { "name": "BasaltPillar", "count": 8 },
+        { "name": "Valberry", "count": 30 },
+        { "name": "StainedMask", "count": 18 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 2546.8 },
+        { "type": 3, "value": 168.48 },
+        { "type": 2, "value": 40.332 },
+        { "type": 9, "value": 0.15 }
+      ]
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "name": "PrithivaTopazChunk", "count": 6 },
+        { "name": "BasaltPillar", "count": 12 },
+        { "name": "Valberry", "count": 45 },
+        { "name": "OminousMask", "count": 12 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3084 },
+        { "type": 3, "value": 204.02 },
+        { "type": 2, "value": 48.839 },
+        { "type": 9, "value": 0.225 }
+      ]
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "name": "PrithivaTopazGemstone", "count": 6 },
+        { "name": "BasaltPillar", "count": 20 },
+        { "name": "Valberry", "count": 60 },
+        { "name": "OminousMask", "count": 24 }
+      ],
+      "attrs": [
+        { "type": 1, "value": 3621.2 },
+        { "type": 3, "value": 239.56 },
+        { "type": 2, "value": 57.346 },
+        { "type": 9, "value": 0.3 }
+      ]
+    }
+  ],
+  "ascensionType": 9,
+  "element": 2,
+  "elemSkill": {
+    "name": "護心鎧",
+    "desc": "護身の岩鎧を召喚し、周囲の敵に<color=#FFE699FF>岩元素ダメージ</color>を与え、シールドを生成する、ダメージ吸収量はノエルの防御力によって決まる。\\nシールドは下記の効果が発動する：\\n·ノエルの通常攻撃または重撃が命中した時、一定の確率でチーム全員のHPを回復する。\\n·<color=#FFE699FF>岩元素ダメージ</color>に対して、250%の吸収効果がある。\\n\\n回復効果の回復量はノエルの防御力によって決まる。\\n\\n<i>ノエルは奉仕するメイドであり、毅然たる騎士でもある。</i>",
+    "cd": 24
+  },
+  "elemBurst": {
+    "name": "大掃除",
+    "desc": "盤石の力を武器に凝集させ、周囲の敵に衝撃を与えて広範囲攻撃を1回行い、<color=#FFE699FF>岩元素ダメージ</color>を与える。\\nその後、下記の効果が発動される：\\n·ノエルの攻撃範囲が大幅にアップする。\\n·攻撃ダメージは<color=#FFE699FF>岩元素ダメージ</color>に変化される。バフによって他の元素に変化することはない。\\n·ノエルの防御力を基準に攻撃力がアップする。\\n\\n<i>時に掃除が必要なのは、埃だけではありませんね…</i>",
+    "cd": 15,
+    "energyCost": 60
+  },
+  "attackSkill": {
+    "name": "通常攻撃·西風剣術·メイド",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\\n最大4段の連続攻撃を行う。\\n\\n<color=#FFD780FF>重撃</color>\\n持続的にスタミナを消費し、大剣を振り回して周囲の敵を攻撃する。\\n重撃が終了した時に、さらに強力な攻撃を1回放つ。\\n\\n<color=#FFD780FF>落下攻撃</color>\\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+    "cd": 0
+  },
+  "c13ns": [
+    {
+      "name": "支援はお任せください",
+      "desc": "同時に<color=#FFD780FF>大掃除</color>と<color=#FFD780FF>護心鎧</color>状態にいる時、護心鎧のHP回復効果の発動率が100%になる。",
+      "values": [1]
+    },
+    {
+      "name": "旋風のメイド",
+      "desc": "ノエルの重撃によるスタミナ消費-20%、与えるダメージ+15%。",
+      "values": [-0.2, 0.15]
+    },
+    {
+      "name": "怪我はしません",
+      "desc": "<color=#FFD780FF>護心鎧</color>のスキルLv.+3。\\n最大Lv.15まで。",
+      "values": []
+    },
+    {
+      "name": "綺麗にしますから",
+      "desc": "<color=#FFD780FF>護心鎧</color>効果終了時、またはダメージによって破壊された時、周囲の敵に攻撃力400%分の<color=#FFE699FF>岩元素ダメージ</color>を与える。",
+      "values": [4]
+    },
+    {
+      "name": "騎士団の掃除達人",
+      "desc": "<color=#FFD780FF>大掃除</color>のスキルLv.+3。\\n最大Lv.15まで。",
+      "values": []
+    },
+    {
+      "name": "埃は許しません",
+      "desc": "<color=#FFD780FF>大掃除</color>発動で、ノエルの防御力50%分の攻撃力を追加でアップする。\\nスキル継続中、敵1体倒す度に継続時間+1秒。最大10秒まで。",
+      "values": [0.5, 10]
+    }
+  ]
+}
