@@ -43,6 +43,7 @@ export interface IArtifact {
 /** 角色 */
 export interface IAvatar {
   /** id */ id: string;
+  /** 本地化名称 */ localeName: string;
   /**
    * 名字
    *

@@ -1,0 +1,1542 @@
+[
+  {
+    "id": "Hilichurl",
+    "name": "Hilichurl",
+    "localeName": "丘丘人",
+    "desc": "",
+    "baseHP": 13.584,
+    "baseATK": 22.608,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "WoodenShieldwallMitachurl",
+    "name": "Wooden Shieldwall Mitachurl",
+    "localeName": "木盾丘丘暴徒",
+    "desc": "丘丘人的部落當中，百裡挑一的強壯勇士，使用木製的巨盾戰鬥。\\n對於丘丘人而言，最重要的事情就是吃肉和打架，讓身體變得強壯。如果能成為丘丘暴徒這樣又大又壯的戰士，就能吃更多肉、打更多架了。",
+    "baseHP": 40.752,
+    "baseATK": 30.144,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.3]
+  },
+  {
+    "id": "BlazingAxeMitachurl",
+    "name": "Blazing Axe Mitachurl",
+    "localeName": "火斧丘丘暴徒",
+    "desc": "",
+    "baseHP": 40.752,
+    "baseATK": 30.144,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.3]
+  },
+  {
+    "id": "BlazingAxeMitachurl",
+    "name": "Blazing Axe Mitachurl",
+    "localeName": "火斧丘丘暴徒",
+    "desc": "",
+    "baseHP": 40.752,
+    "baseATK": 30.144,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.3]
+  },
+  {
+    "id": "RockShieldwallMitachurl",
+    "name": "Rock Shieldwall Mitachurl",
+    "localeName": "岩盾丘丘暴徒",
+    "desc": "丘丘人的部落當中，百裡挑一的強壯勇士，使用牢固的岩石巨盾戰鬥。\\n丘丘人的文明中沒有神，也沒有秩序。只要夠強壯，打架夠狠，就能成為它們的領袖。",
+    "baseHP": 40.752,
+    "baseATK": 30.144,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.3]
+  },
+  {
+    "id": "FrostarmLawachurl",
+    "name": "Frostarm Lawachurl",
+    "localeName": "丘丘霜鎧王",
+    "desc": "",
+    "baseHP": 122.26,
+    "baseATK": 75.36,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.7, 0.1, 0.5]
+  },
+  {
+    "id": "StonehideLawachurl",
+    "name": "Stonehide Lawachurl",
+    "localeName": "丘丘岩盔王",
+    "desc": "",
+    "baseHP": 122.26,
+    "baseATK": 75.36,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.7, 0.5]
+  },
+  {
+    "id": "IceShieldwallMitachurl",
+    "name": "Ice Shieldwall Mitachurl",
+    "localeName": "冰盾丘丘暴徒",
+    "desc": "",
+    "baseHP": 40.752,
+    "baseATK": 30.144,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.3]
+  },
+  {
+    "id": "DendroSlime",
+    "name": "Dendro Slime",
+    "localeName": "草史萊姆",
+    "desc": "",
+    "baseHP": 10.867,
+    "baseATK": 7.536,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "LargeDendroSlime",
+    "name": "Large Dendro Slime",
+    "localeName": "大型草史萊姆",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 17.584,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "LargeDendroSlime",
+    "name": "Large Dendro Slime",
+    "localeName": "大型草史萊姆",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 17.584,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "AnemoSlime",
+    "name": "Anemo Slime",
+    "localeName": "風史萊姆",
+    "desc": "",
+    "baseHP": 10.867,
+    "baseATK": 7.536,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "LargeAnemoSlime",
+    "name": "Large Anemo Slime",
+    "localeName": "大型風史萊姆",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 17.584,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "LargeAnemoSlime",
+    "name": "Large Anemo Slime",
+    "localeName": "大型風史萊姆",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 17.584,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "Stormterror",
+    "name": "Stormterror",
+    "localeName": "裂空的魔龍",
+    "desc": "盤踞在廢墟當中的風之魔龍。\\n乘風而行，操使著暴風的偉大力量，對蒙德的和平構成了巨大的威脅。\\n在它的陰影之下，似乎還藏著其他的秘密…",
+    "baseHP": 150,
+    "baseATK": 100,
+    "type": 4,
+    "resist": [0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  {
+    "id": "Stormterror",
+    "name": "Stormterror",
+    "localeName": "裂空的魔龍",
+    "desc": "盤踞在廢墟當中的風之魔龍。\\n乘風而行，操使著暴風的偉大力量，對蒙德的和平構成了巨大的威脅。\\n在它的陰影之下，似乎還藏著其他的秘密…",
+    "baseHP": 67.92,
+    "baseATK": 56.52,
+    "type": 4,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "Stormterror",
+    "name": "Stormterror",
+    "localeName": "裂空的魔龍",
+    "desc": "盤踞在廢墟當中的風之魔龍。\\n乘風而行，操使著暴風的偉大力量，對蒙德的和平構成了巨大的威脅。\\n在它的陰影之下，似乎還藏著其他的秘密…",
+    "baseHP": 200,
+    "baseATK": 100,
+    "type": 4,
+    "resist": [0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  {
+    "id": "Stormterror",
+    "name": "Stormterror",
+    "localeName": "裂空的魔龍",
+    "desc": "盤踞在廢墟當中的風之魔龍。\\n乘風而行，操使著暴風的偉大力量，對蒙德的和平構成了巨大的威脅。\\n在它的陰影之下，似乎還藏著其他的秘密…",
+    "baseHP": 122.26,
+    "baseATK": 75.36,
+    "type": 4,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "LupusBoreasDominatorofWolves",
+    "name": "Lupus Boreas, Dominator of Wolves",
+    "localeName": "北風的王狼，奔狼的領主",
+    "desc": "守望著奔狼領的崇高靈魂。\\n當群狼受到威脅時，會以狼的姿態現世，展現自己的蒼牙與利爪。傳說其力量來自遠古的魔神。",
+    "baseHP": 244.51,
+    "baseATK": 75.36,
+    "type": 4,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.3, 0.5, 0.1, 0.1]
+  },
+  {
+    "id": "LupusBoreasDominatorofWolves",
+    "name": "Lupus Boreas, Dominator of Wolves",
+    "localeName": "北風的王狼，奔狼的領主",
+    "desc": "守望著奔狼領的崇高靈魂。\\n當群狼受到威脅時，會以狼的姿態現世，展現自己的蒼牙與利爪。傳說其力量來自遠古的魔神。",
+    "baseHP": 244.51,
+    "baseATK": 75.36,
+    "type": 4,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.3, 0.5, 0.1, 0.1]
+  },
+  {
+    "id": "Childe",
+    "name": "Childe",
+    "localeName": "「公子」",
+    "desc": "守望著奔狼領的崇高靈魂。\\n當群狼受到威脅時，會以狼的姿態現世，展現自己的蒼牙與利爪。傳說其力量來自遠古的魔神。",
+    "baseHP": 81.504,
+    "baseATK": 37.68,
+    "type": 4,
+    "resist": [0, 0, 0.5, 0, 0, 0, 0, 0]
+  },
+  {
+    "id": "Childe",
+    "name": "Childe",
+    "localeName": "「公子」",
+    "desc": "守望著奔狼領的崇高靈魂。\\n當群狼受到威脅時，會以狼的姿態現世，展現自己的蒼牙與利爪。傳說其力量來自遠古的魔神。",
+    "baseHP": 81.504,
+    "baseATK": 37.68,
+    "type": 4,
+    "resist": [0, 0, 0, 0.5, 0, 0, 0, 0]
+  },
+  {
+    "id": "Childe",
+    "name": "Childe",
+    "localeName": "「公子」",
+    "desc": "守望著奔狼領的崇高靈魂。\\n當群狼受到威脅時，會以狼的姿態現世，展現自己的蒼牙與利爪。傳說其力量來自遠古的魔神。",
+    "baseHP": 135.84,
+    "baseATK": 50.24,
+    "type": 4,
+    "resist": [0, 0, 0.7, 0.7, 0, 0, 0, 0]
+  },
+  {
+    "id": "Childe",
+    "name": "Childe",
+    "localeName": "「公子」",
+    "desc": "守望著奔狼領的崇高靈魂。\\n當群狼受到威脅時，會以狼的姿態現世，展現自己的蒼牙與利爪。傳說其力量來自遠古的魔神。",
+    "baseHP": 81.504,
+    "baseATK": 62.8,
+    "type": 4,
+    "resist": [0, 0, 0.5, 0, 0, 0, 0, 0]
+  },
+  {
+    "id": "Childe",
+    "name": "Childe",
+    "localeName": "「公子」",
+    "desc": "守望著奔狼領的崇高靈魂。\\n當群狼受到威脅時，會以狼的姿態現世，展現自己的蒼牙與利爪。傳說其力量來自遠古的魔神。",
+    "baseHP": 81.504,
+    "baseATK": 62.8,
+    "type": 4,
+    "resist": [0, 0, 0, 0.5, 0, 0, 0, 0]
+  },
+  {
+    "id": "Childe",
+    "name": "Childe",
+    "localeName": "「公子」",
+    "desc": "守望著奔狼領的崇高靈魂。\\n當群狼受到威脅時，會以狼的姿態現世，展現自己的蒼牙與利爪。傳說其力量來自遠古的魔神。",
+    "baseHP": 135.84,
+    "baseATK": 87.92,
+    "type": 4,
+    "resist": [0, 0, 0.7, 0.7, 0, 0, 0, 0]
+  },
+  {
+    "id": "EyeoftheStorm",
+    "name": "Eye of the Storm",
+    "localeName": "狂風之核",
+    "desc": "",
+    "baseHP": 67.92,
+    "baseATK": 62.8,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "ElectroHypostasis",
+    "name": "Electro Hypostasis",
+    "localeName": "無相之雷",
+    "desc": "代號為「阿萊夫」的高級雷元素生命。\\n無相元素是頂尖的元素構造體，會在元素能量噴湧的位置，或元素地脈阻塞的地點形成。\\n不同的無相元素會基於其元素特性，進化出不同殲敵方式。",
+    "baseHP": 95.088,
+    "baseATK": 75.36,
+    "type": 3,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "ElectroHypostasis",
+    "name": "Electro Hypostasis",
+    "localeName": "無相之雷",
+    "desc": "代號為「阿萊夫」的高級雷元素生命。\\n無相元素是頂尖的元素構造體，會在元素能量噴湧的位置，或元素地脈阻塞的地點形成。\\n不同的無相元素會基於其元素特性，進化出不同殲敵方式。",
+    "baseHP": 149.42,
+    "baseATK": 75.36,
+    "type": 3,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "AnemoHypostasis",
+    "name": "Anemo Hypostasis",
+    "localeName": "無相之風",
+    "desc": "代號為「貝特」的高級風元素生命。\\n「無相」指的是拋棄了其他元素生物的形態與生態，達到的純粹境地。\\n針對無相元素的研究，主要由須彌教令院的學者來主導進行。但由於其危險性，除了代號與命名以外，基本上沒有取得什麼值得參考的研究成果…",
+    "baseHP": 95.088,
+    "baseATK": 75.36,
+    "type": 3,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "AnemoHypostasis",
+    "name": "Anemo Hypostasis",
+    "localeName": "無相之風",
+    "desc": "代號為「貝特」的高級風元素生命。\\n「無相」指的是拋棄了其他元素生物的形態與生態，達到的純粹境地。\\n針對無相元素的研究，主要由須彌教令院的學者來主導進行。但由於其危險性，除了代號與命名以外，基本上沒有取得什麼值得參考的研究成果…",
+    "baseHP": 149.42,
+    "baseATK": 75.36,
+    "type": 3,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "GeoHypostasis",
+    "name": "Geo Hypostasis",
+    "localeName": "無相之岩",
+    "desc": "代號為「基末爾」的高級岩元素生命。\\n無相元素本身是超濃縮的構造體，擁有極高的質量。\\n濃縮成硬質固體的元素超質殼是惰性的，只有內部的核會活躍產生元素反應。",
+    "baseHP": 95.088,
+    "baseATK": 75.36,
+    "type": 3,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "GeoHypostasis",
+    "name": "Geo Hypostasis",
+    "localeName": "無相之岩",
+    "desc": "代號為「基末爾」的高級岩元素生命。\\n無相元素本身是超濃縮的構造體，擁有極高的質量。\\n濃縮成硬質固體的元素超質殼是惰性的，只有內部的核會活躍產生元素反應。",
+    "baseHP": 149.42,
+    "baseATK": 75.36,
+    "type": 3,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "HydroHypostasis",
+    "name": "Hydro Hypostasis",
+    "localeName": "無相之水",
+    "desc": "代號為「基末爾」的高級岩元素生命。\\n無相元素本身是超濃縮的構造體，擁有極高的質量。\\n濃縮成硬質固體的元素超質殼是惰性的，只有內部的核會活躍產生元素反應。",
+    "baseHP": 95.088,
+    "baseATK": 75.36,
+    "type": 3,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "ElectroSlime",
+    "name": "Electro Slime",
+    "localeName": "雷史萊姆",
+    "desc": "",
+    "baseHP": 10.867,
+    "baseATK": 7.536,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "LargeElectroSlime",
+    "name": "Large Electro Slime",
+    "localeName": "大型雷史萊姆",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 17.584,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "LargeElectroSlime",
+    "name": "Large Electro Slime",
+    "localeName": "大型雷史萊姆",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 17.584,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "MutantElectroSlime",
+    "name": "Mutant Electro Slime",
+    "localeName": "變異雷史萊姆",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 17.584,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "MutantElectroSlime",
+    "name": "Mutant Electro Slime",
+    "localeName": "變異雷史萊姆",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 17.584,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "CryoSlime",
+    "name": "Cryo Slime",
+    "localeName": "冰史萊姆",
+    "desc": "",
+    "baseHP": 10.867,
+    "baseATK": 7.536,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "CryoSlime",
+    "name": "Cryo Slime",
+    "localeName": "冰史萊姆",
+    "desc": "",
+    "baseHP": 10.867,
+    "baseATK": 7.536,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "LargeCryoSlime",
+    "name": "Large Cryo Slime",
+    "localeName": "大型冰史萊姆",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 17.584,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "LargeCryoSlime",
+    "name": "Large Cryo Slime",
+    "localeName": "大型冰史萊姆",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 17.584,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "LargeCryoSlime",
+    "name": "Large Cryo Slime",
+    "localeName": "大型冰史萊姆",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 17.584,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "HydroSlime",
+    "name": "Hydro Slime",
+    "localeName": "水史萊姆",
+    "desc": "",
+    "baseHP": 10.867,
+    "baseATK": 7.536,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "LargeHydroSlime",
+    "name": "Large Hydro Slime",
+    "localeName": "大型水史萊姆",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 17.584,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "LargeHydroSlime",
+    "name": "Large Hydro Slime",
+    "localeName": "大型水史萊姆",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 17.584,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "HydroHypostasisSummon",
+    "name": "Hydro Hypostasis Summon",
+    "localeName": "無相之水·召喚物",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 17.584,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "HydroHypostasisSummon",
+    "name": "Hydro Hypostasis Summon",
+    "localeName": "無相之水·召喚物",
+    "desc": "",
+    "baseHP": 10.867,
+    "baseATK": 7.536,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "HydroHypostasisSummon",
+    "name": "Hydro Hypostasis Summon",
+    "localeName": "無相之水·召喚物",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 17.584,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "HydroHypostasisSummon",
+    "name": "Hydro Hypostasis Summon",
+    "localeName": "無相之水·召喚物",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 17.584,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "Oceanid",
+    "name": "Oceanid",
+    "localeName": "純水精靈",
+    "desc": "\\n極純的水元素凝結成的生命體。\\n常與水體相伴。據說，水體越純淨，其中的水元素越豐沛，純水精靈的力量就越強。\\n又有傳說認為，純水精靈曾是來自異鄉的水之親眷。懷著已歿之神的碎片，流落到了世界各處，或許是為了讓她們的神對世界的愛，循著水流廣布大地…",
+    "baseHP": 135.84,
+    "baseATK": 75.36,
+    "type": 3,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "HydroMimicBoar",
+    "name": "Hydro Mimic Boar",
+    "localeName": "幻形豕獸·水",
+    "desc": "",
+    "baseHP": 21.734,
+    "baseATK": 25.12,
+    "type": 0,
+    "resist": [-0.4, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15]
+  },
+  {
+    "id": "HydroMimicCrane",
+    "name": "Hydro Mimic Crane",
+    "localeName": "幻形鶴·水",
+    "desc": "",
+    "baseHP": 10.867,
+    "baseATK": 62.8,
+    "type": 0,
+    "resist": [0.15, 0.15, 0.15, -0.4, 0.15, 0.15, 0.15, 0.15]
+  },
+  {
+    "id": "HydroMimicCrab",
+    "name": "Hydro Mimic Crab",
+    "localeName": "幻形蟹·水",
+    "desc": "",
+    "baseHP": 21.734,
+    "baseATK": 50.24,
+    "type": 0,
+    "resist": [0.15, 0.15, 0.15, 0.15, 0.15, -0.4, 0.15, 0.15]
+  },
+  {
+    "id": "HydroMimicFinch",
+    "name": "Hydro Mimic Finch",
+    "localeName": "幻形雀·水",
+    "desc": "",
+    "baseHP": 40.752,
+    "baseATK": 62.8,
+    "type": 0,
+    "resist": [0.15, 0.15, 0.15, 0.15, 0.15, 0.15, -0.4, 0.15]
+  },
+  {
+    "id": "HydroMimicMallard",
+    "name": "Hydro Mimic Mallard",
+    "localeName": "幻形游禽·水",
+    "desc": "",
+    "baseHP": 21.734,
+    "baseATK": 25.12,
+    "type": 0,
+    "resist": [0.15, 0.15, 0.15, 0.15, 0.15, -0.4, 0.15, 0.15]
+  },
+  {
+    "id": "HydroMimicFerret",
+    "name": "Hydro Mimic Ferret",
+    "localeName": "幻形花鼠·水",
+    "desc": "",
+    "baseHP": 19.018,
+    "baseATK": 37.68,
+    "type": 0,
+    "resist": [-0.4, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15]
+  },
+  {
+    "id": "HydroMimicFrog",
+    "name": "Hydro Mimic Frog",
+    "localeName": "幻形蛙·水",
+    "desc": "",
+    "baseHP": 40.752,
+    "baseATK": 62.8,
+    "type": 0,
+    "resist": [0.15, 0.15, 0.15, 0.15, 0.15, 0.15, -0.4, 0.15]
+  },
+  {
+    "id": "HydroMimicRaptor",
+    "name": "Hydro Mimic Raptor",
+    "localeName": "幻形飛鳶·水",
+    "desc": "",
+    "baseHP": 10.867,
+    "baseATK": 50.24,
+    "type": 0,
+    "resist": [0.15, 0.15, 0.15, -0.4, 0.15, 0.15, 0.15, 0.15]
+  },
+  {
+    "id": "HilichurlFighter",
+    "name": "Hilichurl Fighter",
+    "localeName": "打手丘丘人",
+    "desc": "",
+    "baseHP": 13.584,
+    "baseATK": 22.608,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "WoodenShieldHilichurlGuard",
+    "name": "Wooden Shield Hilichurl Guard",
+    "localeName": "木盾丘丘人",
+    "desc": "",
+    "baseHP": 13.584,
+    "baseATK": 22.608,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "HilichurlShooter",
+    "name": "Hilichurl Shooter",
+    "localeName": "射手丘丘人",
+    "desc": "",
+    "baseHP": 10.867,
+    "baseATK": 11.304,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "HilichurlShooter",
+    "name": "Hilichurl Shooter",
+    "localeName": "射手丘丘人",
+    "desc": "",
+    "baseHP": 10.867,
+    "baseATK": 11.304,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "PyroHilichurlShooter",
+    "name": "Pyro Hilichurl Shooter",
+    "localeName": "火箭丘丘人",
+    "desc": "",
+    "baseHP": 10.867,
+    "baseATK": 11.304,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "PyroHilichurlShooter",
+    "name": "Pyro Hilichurl Shooter",
+    "localeName": "火箭丘丘人",
+    "desc": "",
+    "baseHP": 10.867,
+    "baseATK": 11.304,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "HilichurlGrenadier",
+    "name": "Hilichurl Grenadier",
+    "localeName": "爆彈丘丘人",
+    "desc": "",
+    "baseHP": 13.584,
+    "baseATK": 22.608,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "HilichurlGrenadier",
+    "name": "Hilichurl Grenadier",
+    "localeName": "爆彈丘丘人",
+    "desc": "",
+    "baseHP": 13.584,
+    "baseATK": 22.608,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "HilichurlBerserker",
+    "name": "Hilichurl Berserker",
+    "localeName": "衝鋒丘丘人",
+    "desc": "",
+    "baseHP": 13.584,
+    "baseATK": 22.608,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "CryoHilichurlShooter",
+    "name": "Cryo Hilichurl Shooter",
+    "localeName": "冰箭丘丘人",
+    "desc": "",
+    "baseHP": 10.867,
+    "baseATK": 11.304,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "CryoHilichurlShooter",
+    "name": "Cryo Hilichurl Shooter",
+    "localeName": "冰箭丘丘人",
+    "desc": "",
+    "baseHP": 10.867,
+    "baseATK": 11.304,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "ElectroHilichurlShooter",
+    "name": "Electro Hilichurl Shooter",
+    "localeName": "雷箭丘丘人",
+    "desc": "",
+    "baseHP": 10.867,
+    "baseATK": 11.304,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "ElectroHilichurlShooter",
+    "name": "Electro Hilichurl Shooter",
+    "localeName": "雷箭丘丘人",
+    "desc": "",
+    "baseHP": 10.867,
+    "baseATK": 11.304,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "RockShieldHilichurlGuard",
+    "name": "Rock Shield Hilichurl Guard",
+    "localeName": "岩盾丘丘人",
+    "desc": "",
+    "baseHP": 13.584,
+    "baseATK": 22.608,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "CryoHilichurlGrenadier",
+    "name": "Cryo Hilichurl Grenadier",
+    "localeName": "冰彈丘丘人",
+    "desc": "",
+    "baseHP": 10.867,
+    "baseATK": 11.304,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "IceShieldHilichurlGuard",
+    "name": "Ice Shield Hilichurl Guard",
+    "localeName": "冰盾丘丘人",
+    "desc": "",
+    "baseHP": 13.584,
+    "baseATK": 22.608,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "UnusualHilichurl",
+    "name": "Unusual Hilichurl",
+    "localeName": "奇怪的丘丘人",
+    "desc": "",
+    "baseHP": 21.734,
+    "baseATK": 22.608,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "PyroSlime",
+    "name": "Pyro Slime",
+    "localeName": "火史萊姆",
+    "desc": "",
+    "baseHP": 10.867,
+    "baseATK": 7.536,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "PyroSlime",
+    "name": "Pyro Slime",
+    "localeName": "火史萊姆",
+    "desc": "",
+    "baseHP": 7,
+    "baseATK": 0,
+    "type": 1,
+    "resist": [0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  {
+    "id": "LargePyroSlime",
+    "name": "Large Pyro Slime",
+    "localeName": "大型火史萊姆",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 17.584,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "LargePyroSlime",
+    "name": "Large Pyro Slime",
+    "localeName": "大型火史萊姆",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 17.584,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "GeoSlime",
+    "name": "Geo Slime",
+    "localeName": "岩史萊姆",
+    "desc": "",
+    "baseHP": 10.867,
+    "baseATK": 7.536,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "LargeGeoSlime",
+    "name": "Large Geo Slime",
+    "localeName": "大型岩史萊姆",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 17.584,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "LargeGeoSlime",
+    "name": "Large Geo Slime",
+    "localeName": "大型岩史萊姆",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 17.584,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "PyroAbyssMage",
+    "name": "Pyro Abyss Mage",
+    "localeName": "火深淵法師",
+    "desc": "擁有魔力，利用火元素戰鬥的深淵魔物。\\n出於某種不為人知的緣由，深淵法師精通丘丘人的笨拙語言，能駕馭它們的心智。",
+    "baseHP": 27.168,
+    "baseATK": 37.68,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "PyroAbyssMage",
+    "name": "Pyro Abyss Mage",
+    "localeName": "火深淵法師",
+    "desc": "擁有魔力，利用火元素戰鬥的深淵魔物。\\n出於某種不為人知的緣由，深淵法師精通丘丘人的笨拙語言，能駕馭它們的心智。",
+    "baseHP": 27.168,
+    "baseATK": 37.68,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "PyroAbyssMage",
+    "name": "Pyro Abyss Mage",
+    "localeName": "火深淵法師",
+    "desc": "擁有魔力，利用火元素戰鬥的深淵魔物。\\n出於某種不為人知的緣由，深淵法師精通丘丘人的笨拙語言，能駕馭它們的心智。",
+    "baseHP": 27.168,
+    "baseATK": 37.68,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "PyroAbyssMage",
+    "name": "Pyro Abyss Mage",
+    "localeName": "火深淵法師",
+    "desc": "擁有魔力，利用火元素戰鬥的深淵魔物。\\n出於某種不為人知的緣由，深淵法師精通丘丘人的笨拙語言，能駕馭它們的心智。",
+    "baseHP": 27.168,
+    "baseATK": 37.68,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "CryoAbyssMage",
+    "name": "Cryo Abyss Mage",
+    "localeName": "冰深淵法師",
+    "desc": "駕馭著極寒的冰元素進行戰鬥的深淵魔物。\\n據說深淵法師在一定程度上理解如今幾乎無人可解的失落古語，並利用這種語言的力量行使魔法…",
+    "baseHP": 27.168,
+    "baseATK": 37.68,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "CryoAbyssMage",
+    "name": "Cryo Abyss Mage",
+    "localeName": "冰深淵法師",
+    "desc": "駕馭著極寒的冰元素進行戰鬥的深淵魔物。\\n據說深淵法師在一定程度上理解如今幾乎無人可解的失落古語，並利用這種語言的力量行使魔法…",
+    "baseHP": 27.168,
+    "baseATK": 37.68,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "CryoAbyssMage",
+    "name": "Cryo Abyss Mage",
+    "localeName": "冰深淵法師",
+    "desc": "駕馭著極寒的冰元素進行戰鬥的深淵魔物。\\n據說深淵法師在一定程度上理解如今幾乎無人可解的失落古語，並利用這種語言的力量行使魔法…",
+    "baseHP": 27.168,
+    "baseATK": 37.68,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "CryoAbyssMage",
+    "name": "Cryo Abyss Mage",
+    "localeName": "冰深淵法師",
+    "desc": "駕馭著極寒的冰元素進行戰鬥的深淵魔物。\\n據說深淵法師在一定程度上理解如今幾乎無人可解的失落古語，並利用這種語言的力量行使魔法…",
+    "baseHP": 27.168,
+    "baseATK": 37.68,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "HydroAbyssMage",
+    "name": "Hydro Abyss Mage",
+    "localeName": "水深淵法師",
+    "desc": "利用水元素戰鬥的深淵魔物。\\n儘管冒險家中，有人戲稱這種深淵法師的最大危害是會導致風濕發作，其實它們有著不容小覷的力量。",
+    "baseHP": 27.168,
+    "baseATK": 37.68,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "HydroAbyssMage",
+    "name": "Hydro Abyss Mage",
+    "localeName": "水深淵法師",
+    "desc": "利用水元素戰鬥的深淵魔物。\\n儘管冒險家中，有人戲稱這種深淵法師的最大危害是會導致風濕發作，其實它們有著不容小覷的力量。",
+    "baseHP": 27.168,
+    "baseATK": 37.68,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "HydroAbyssMage",
+    "name": "Hydro Abyss Mage",
+    "localeName": "水深淵法師",
+    "desc": "利用水元素戰鬥的深淵魔物。\\n儘管冒險家中，有人戲稱這種深淵法師的最大危害是會導致風濕發作，其實它們有著不容小覷的力量。",
+    "baseHP": 27.168,
+    "baseATK": 37.68,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "HydroAbyssMage",
+    "name": "Hydro Abyss Mage",
+    "localeName": "水深淵法師",
+    "desc": "利用水元素戰鬥的深淵魔物。\\n儘管冒險家中，有人戲稱這種深淵法師的最大危害是會導致風濕發作，其實它們有著不容小覷的力量。",
+    "baseHP": 27.168,
+    "baseATK": 37.68,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "HydroSamachurl",
+    "name": "Hydro Samachurl",
+    "localeName": "水丘丘薩滿",
+    "desc": "",
+    "baseHP": 13.584,
+    "baseATK": 25.12,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.5, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "HydroSamachurl",
+    "name": "Hydro Samachurl",
+    "localeName": "水丘丘薩滿",
+    "desc": "",
+    "baseHP": 13.584,
+    "baseATK": 25.12,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.5, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "DendroSamachurl",
+    "name": "Dendro Samachurl",
+    "localeName": "草丘丘薩滿",
+    "desc": "",
+    "baseHP": 13.584,
+    "baseATK": 25.12,
+    "type": 1,
+    "resist": [0.1, 0.5, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "DendroSamachurl",
+    "name": "Dendro Samachurl",
+    "localeName": "草丘丘薩滿",
+    "desc": "",
+    "baseHP": 13.584,
+    "baseATK": 25.12,
+    "type": 1,
+    "resist": [0.1, 0.5, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "AnemoSamachurl",
+    "name": "Anemo Samachurl",
+    "localeName": "風丘丘薩滿",
+    "desc": "",
+    "baseHP": 13.584,
+    "baseATK": 25.12,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.5, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "AnemoSamachurl",
+    "name": "Anemo Samachurl",
+    "localeName": "風丘丘薩滿",
+    "desc": "",
+    "baseHP": 13.584,
+    "baseATK": 25.12,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.5, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "AnemoSamachurl",
+    "name": "Anemo Samachurl",
+    "localeName": "風丘丘薩滿",
+    "desc": "",
+    "baseHP": 13.584,
+    "baseATK": 25.12,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.5, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "GeoSamachurl",
+    "name": "Geo Samachurl",
+    "localeName": "岩丘丘薩滿",
+    "desc": "",
+    "baseHP": 13.584,
+    "baseATK": 25.12,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.1]
+  },
+  {
+    "id": "GeoSamachurl",
+    "name": "Geo Samachurl",
+    "localeName": "岩丘丘薩滿",
+    "desc": "",
+    "baseHP": 13.584,
+    "baseATK": 25.12,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.1]
+  },
+  {
+    "id": "CryoSamachurl",
+    "name": "Cryo Samachurl",
+    "localeName": "冰丘丘薩滿",
+    "desc": "",
+    "baseHP": 13.584,
+    "baseATK": 25.12,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.1, 0.1]
+  },
+  {
+    "id": "RuinGuard",
+    "name": "Ruin Guard",
+    "localeName": "遺蹟守衛",
+    "desc": "古老的人形戰鬥機械。\\n傳說是已經覆滅的國度留下的戰爭機械，但也有人認為，這款機器開發的目的不是為了戰鬥，而是為了守護過去留下的遺蹟。\\n雖然這無法解釋，為何它們會在理應守護的遺蹟中，使用爆炸性的火力攻擊就是了…",
+    "baseHP": 95.088,
+    "baseATK": 75.36,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.7]
+  },
+  {
+    "id": "RuinHunter",
+    "name": "Ruin Hunter",
+    "localeName": "遺蹟獵者",
+    "desc": "巨大的異形戰鬥機械。\\n傳說是已經覆滅的國度留下的戰爭機械。似乎是為了提高戰鬥性能，設計上放棄了低效的擬人形態。無論是白刃戰還是遠程炮火的威力都相當恐怖。\\n僅僅是廢棄的古代兵器就有如此能力，曾經能生產這種兵器的文明又是如何呢…",
+    "baseHP": 81.504,
+    "baseATK": 87.92,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.5]
+  },
+  {
+    "id": "RuinGrader",
+    "name": "Ruin Grader",
+    "localeName": "遺蹟重機",
+    "desc": "巨大的異形戰鬥機械。\\n傳說是已經覆滅的國度留下的戰爭機械。似乎是為了提高戰鬥性能，設計上放棄了低效的擬人形態。無論是白刃戰還是遠程炮火的威力都相當恐怖。\\n僅僅是廢棄的古代兵器就有如此能力，曾經能生產這種兵器的文明又是如何呢…",
+    "baseHP": 122.26,
+    "baseATK": 87.92,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.7]
+  },
+  {
+    "id": "FatuiSkirmisherCryogunnerLegionnaire",
+    "name": "Fatui Skirmisher - Cryogunner Legionnaire",
+    "localeName": "愚人眾先遣隊·冰銃重衛士",
+    "desc": "愚人眾戰爭機器中的士兵。\\n配備著能在一定程度上制禦元素的裝備，可以利用銃形的武器噴射急凍的寒霜。\\n雖然擁有常人不能企及的元素力量，但這種力量或許也是有其代價的吧…",
+    "baseHP": 54.336,
+    "baseATK": 37.68,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "FatuiSkirmisherHydrogunnerLegionnaire",
+    "name": "Fatui Skirmisher - Hydrogunner Legionnaire",
+    "localeName": "愚人眾先遣隊·水銃重衛士",
+    "desc": "愚人眾戰爭機器中的士兵。\\n配備著能在一定程度上制禦元素的裝備，可以利用銃形的武器噴射激烈的水流。\\n「先遣隊」之名意味著生死不問，深入祖國以外的土地完成前期任務，為未來的某些行動打下基礎。",
+    "baseHP": 40.752,
+    "baseATK": 25.12,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "FatuiSkirmisherElectrohammerVanguard",
+    "name": "Fatui Skirmisher - Electrohammer Vanguard",
+    "localeName": "愚人眾先遣隊·雷錘前鋒軍",
+    "desc": "體格健壯的先遣隊士兵，裝備了附有雷元素的戰錘。\\n成為愚人眾的軍人意味著優渥的資源：軍餉、武裝與物資。\\n但與此同時，也意味著遠離故土與親眷，將餘命交給過去不曾謀面的戰友。",
+    "baseHP": 54.336,
+    "baseATK": 50.24,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "FatuiSkirmisherGeochanterBracer",
+    "name": "Fatui Skirmisher - Geochanter Bracer",
+    "localeName": "愚人眾先遣隊·岩使遊擊兵",
+    "desc": "能驅使岩元素構成護罩，保護戰友的先遣隊士兵。\\n不同於少數精銳的債務處理人與螢術士，先遣隊的單兵實力與裝備較為薄弱。\\n為了完成任務，為了減少人員與物資的損耗，先遣隊的戰術更講究團隊合作。",
+    "baseHP": 40.752,
+    "baseATK": 25.12,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "FatuiSkirmisherAnemoboxerVanguard",
+    "name": "Fatui Skirmisher - Anemoboxer Vanguard",
+    "localeName": "愚人眾先遣隊·風拳前鋒軍",
+    "desc": "能利用風的力量，復甦戰友的先遣隊士兵。\\n遠離故土又為了故鄉。告別了親人卻獲得了能相託以生死的戰友。\\n——或許他們以任務的名義幹著醜惡的勾當時，也帶著這樣的想法。",
+    "baseHP": 40.752,
+    "baseATK": 25.12,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "FatuiSkirmisherPyroslingerBracer",
+    "name": "Fatui Skirmisher - Pyroslinger Bracer",
+    "localeName": "愚人眾先遣隊·火銃遊擊兵",
+    "desc": "操使著烈焰之銃的愚人眾士兵。\\n先遣隊配置的武器在一定程度上能制禦元素，戰鬥策略上則會利用元素反應。\\n因為擁有這樣的武裝與知識，先遣隊團隊作戰時能帶來無法小覷的威脅。",
+    "baseHP": 40.752,
+    "baseATK": 37.68,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "FatuiPyroAgent",
+    "name": "Fatui Pyro Agent",
+    "localeName": "愚人眾·火之債務處理人",
+    "desc": "隸屬愚人眾的特務人員。\\n債務處理人所處理的「債務」，並不侷限於錢貨往來的清算。\\n「以眼還眼，以牙還牙」也是一種債。無論是誰，只要損害了愚人眾的利益，那就要十倍奉還。",
+    "baseHP": 67.92,
+    "baseATK": 50.24,
+    "type": 2,
+    "resist": [0.5, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "FatuiPyroAgent",
+    "name": "Fatui Pyro Agent",
+    "localeName": "愚人眾·火之債務處理人",
+    "desc": "隸屬愚人眾的特務人員。\\n債務處理人所處理的「債務」，並不侷限於錢貨往來的清算。\\n「以眼還眼，以牙還牙」也是一種債。無論是誰，只要損害了愚人眾的利益，那就要十倍奉還。",
+    "baseHP": 67.92,
+    "baseATK": 50.24,
+    "type": 2,
+    "resist": [0.5, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "FatuiElectroCicinMage",
+    "name": "Fatui Electro Cicin Mage",
+    "localeName": "愚人眾·雷螢術士",
+    "desc": "操控著雷螢進行戰鬥的愚人眾術士。\\n正如霧虛草的氣味會令雷螢迷醉，嗜虐的術士也貪戀著戲弄對手的快感。\\n看似漫無目的地四處遊蕩的她們，又領受著何種不為人知的使命呢…",
+    "baseHP": 67.92,
+    "baseATK": 50.24,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.5, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "FatuiElectroCicinMage",
+    "name": "Fatui Electro Cicin Mage",
+    "localeName": "愚人眾·雷螢術士",
+    "desc": "操控著雷螢進行戰鬥的愚人眾術士。\\n正如霧虛草的氣味會令雷螢迷醉，嗜虐的術士也貪戀著戲弄對手的快感。\\n看似漫無目的地四處遊蕩的她們，又領受著何種不為人知的使命呢…",
+    "baseHP": 67.92,
+    "baseATK": 50.24,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.5, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "FatuiCryoCicinMage",
+    "name": "Fatui Cryo Cicin Mage",
+    "localeName": "愚人眾·冰螢術士",
+    "desc": "",
+    "baseHP": 67.92,
+    "baseATK": 50.24,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.1, -0.2]
+  },
+  {
+    "id": "TreasureHoardersLiuliu",
+    "name": "Treasure Hoarders - Liuliu",
+    "localeName": "盜寶團·「溜溜」",
+    "desc": "",
+    "baseHP": 32.602,
+    "baseATK": 25.12,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "TreasureHoardersLiuliu",
+    "name": "Treasure Hoarders - Liuliu",
+    "localeName": "盜寶團·「溜溜」",
+    "desc": "",
+    "baseHP": 32.602,
+    "baseATK": 25.12,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "TreasureHoardersLiuliu",
+    "name": "Treasure Hoarders - Liuliu",
+    "localeName": "盜寶團·「溜溜」",
+    "desc": "",
+    "baseHP": 32.602,
+    "baseATK": 25.12,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "TreasureHoardersLiuliu",
+    "name": "Treasure Hoarders - Liuliu",
+    "localeName": "盜寶團·「溜溜」",
+    "desc": "",
+    "baseHP": 32.602,
+    "baseATK": 25.12,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "TreasureHoardersScout",
+    "name": "Treasure Hoarders - Scout",
+    "localeName": "盜寶團·斥候",
+    "desc": "",
+    "baseHP": 16.301,
+    "baseATK": 15.072,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "TreasureHoardersScout",
+    "name": "Treasure Hoarders - Scout",
+    "localeName": "盜寶團·斥候",
+    "desc": "",
+    "baseHP": 16.301,
+    "baseATK": 15.072,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "TreasureHoardersScout",
+    "name": "Treasure Hoarders - Scout",
+    "localeName": "盜寶團·斥候",
+    "desc": "",
+    "baseHP": 16.301,
+    "baseATK": 15.072,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "TreasureHoardersPyroPotioneer",
+    "name": "Treasure Hoarders: Pyro Potioneer",
+    "localeName": "盜寶團·火之藥劑師",
+    "desc": "",
+    "baseHP": 21.734,
+    "baseATK": 20.096,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "TreasureHoardersPyroPotioneer",
+    "name": "Treasure Hoarders: Pyro Potioneer",
+    "localeName": "盜寶團·火之藥劑師",
+    "desc": "",
+    "baseHP": 21.734,
+    "baseATK": 20.096,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "TreasureHoardersHydroPotioneer",
+    "name": "Treasure Hoarders: Hydro Potioneer",
+    "localeName": "盜寶團·水之藥劑師",
+    "desc": "",
+    "baseHP": 21.734,
+    "baseATK": 20.096,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "TreasureHoardersElectroPotioneer",
+    "name": "Treasure Hoarders: Electro Potioneer",
+    "localeName": "盜寶團·雷之藥劑師",
+    "desc": "",
+    "baseHP": 21.734,
+    "baseATK": 20.096,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "TreasureHoardersCryoPotioneer",
+    "name": "Treasure Hoarders: Cryo Potioneer",
+    "localeName": "盜寶團·冰之藥劑師",
+    "desc": "",
+    "baseHP": 21.734,
+    "baseATK": 20.096,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "TreasureHoardersHandyman",
+    "name": "Treasure Hoarders: Handyman",
+    "localeName": "盜寶團·雜工",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 20.096,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "TreasureHoardersRaptor",
+    "name": "Treasure Hoarders - Raptor",
+    "localeName": "盜寶團·「怪鳥」",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 25.12,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "TreasureHoardersMarksman",
+    "name": "Treasure Hoarders - Marksman",
+    "localeName": "盜寶團·神射手",
+    "desc": "",
+    "baseHP": 16.301,
+    "baseATK": 15.072,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "TreasureHoardersMarksman",
+    "name": "Treasure Hoarders - Marksman",
+    "localeName": "盜寶團·神射手",
+    "desc": "",
+    "baseHP": 16.301,
+    "baseATK": 15.072,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "TreasureHoardersCarmen",
+    "name": "Treasure Hoarders - Carmen",
+    "localeName": "盜寶團·「卡門」",
+    "desc": "",
+    "baseHP": 40.752,
+    "baseATK": 25.12,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "TreasureHoardersGravedigger",
+    "name": "Treasure Hoarders: Gravedigger",
+    "localeName": "盜寶團·掘墓者",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 20.096,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "TreasureHoardersSeaman",
+    "name": "Treasure Hoarders - Seaman",
+    "localeName": "盜寶團·海上男兒",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 20.096,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "TreasureHoardersBoss",
+    "name": "Treasure Hoarders - Boss",
+    "localeName": "盜寶團·「大姐頭」",
+    "desc": "",
+    "baseHP": 32.602,
+    "baseATK": 25.12,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "MillelithSoldier",
+    "name": "Millelith Soldier",
+    "localeName": "千岩軍士兵",
+    "desc": "",
+    "baseHP": 21.734,
+    "baseATK": 20.096,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "MillelithSergeant",
+    "name": "Millelith Sergeant",
+    "localeName": "千岩軍教頭",
+    "desc": "",
+    "baseHP": 32.602,
+    "baseATK": 25.12,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "TreasureHoardersPugilist",
+    "name": "Treasure Hoarders - Pugilist",
+    "localeName": "盜寶團·拳術家",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 20.096,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "TreasureHoardersCrusher",
+    "name": "Treasure Hoarders - Crusher",
+    "localeName": "盜寶團·粉碎者",
+    "desc": "",
+    "baseHP": 27.168,
+    "baseATK": 20.096,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
+  },
+  {
+    "id": "CryoWhopperflower",
+    "name": "Cryo Whopperflower",
+    "localeName": "冰霜騙騙花",
+    "desc": "神出鬼沒的擬態植物魔物，會利用冰元素戰鬥。\\n有時會隱藏在地表下，捕獵渾然不覺的獵物。如果有足夠的年月、養分與環境，或許能紮根某處，長成巨大的急凍樹…",
+    "baseHP": 40.752,
+    "baseATK": 25.12,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.1, 0.1]
+  },
+  {
+    "id": "CryoWhopperflower",
+    "name": "Cryo Whopperflower",
+    "localeName": "冰霜騙騙花",
+    "desc": "神出鬼沒的擬態植物魔物，會利用冰元素戰鬥。\\n有時會隱藏在地表下，捕獵渾然不覺的獵物。如果有足夠的年月、養分與環境，或許能紮根某處，長成巨大的急凍樹…",
+    "baseHP": 40.752,
+    "baseATK": 25.12,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.1, 0.1]
+  },
+  {
+    "id": "PyroWhopperflower",
+    "name": "Pyro Whopperflower",
+    "localeName": "熾熱騙騙花",
+    "desc": "古靈精怪的擬態植物魔物，會用火元素攻擊獵物。\\n提瓦特的世界中，存在著元素憑附的植物。因此獲得了智性的它們，對「養分」的需求也大大提升了…",
+    "baseHP": 40.752,
+    "baseATK": 25.12,
+    "type": 1,
+    "resist": [0.5, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "CryoRegisvine",
+    "name": "Cryo Regisvine",
+    "localeName": "急凍樹",
+    "desc": "地脈中的寒霜附著在藤蔓上，由此形成的魔物。\\n有研究認為，植物就像世界的器官一樣，調和著元素奔湧的地脈；而這種生態在地表上的結晶就是冰霧花、騙騙花等，充滿了元素能量的產物。\\n而生長在特定環境的特定植物，經年累月或許就會成為急凍樹這樣的，如同魔獸一般龐大而兇猛的生命體吧…",
+    "baseHP": 95.088,
+    "baseATK": 62.8,
+    "type": 3,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.7, 0.1, 0.3]
+  },
+  {
+    "id": "CryoRegisvine",
+    "name": "Cryo Regisvine",
+    "localeName": "急凍樹",
+    "desc": "地脈中的寒霜附著在藤蔓上，由此形成的魔物。\\n有研究認為，植物就像世界的器官一樣，調和著元素奔湧的地脈；而這種生態在地表上的結晶就是冰霧花、騙騙花等，充滿了元素能量的產物。\\n而生長在特定環境的特定植物，經年累月或許就會成為急凍樹這樣的，如同魔獸一般龐大而兇猛的生命體吧…",
+    "baseHP": 149.42,
+    "baseATK": 75.36,
+    "type": 3,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.7, 0.1, 0.3]
+  },
+  {
+    "id": "PyroRegisvine",
+    "name": "Pyro Regisvine",
+    "localeName": "爆炎樹",
+    "desc": "吸收了地脈中奔湧的古老烈焰的巨大藤蔓。\\n如同充滿怒火一般，永不止息的植物。\\n詩人、歌手乃至一些學者認為「元素」中蘊含著情感和願望。如果屬實，又是什麼情感與願望驅使著爆炎樹恒常燃燒，如同渴求著掙脫大地的束縛一般掙扎舞動呢…",
+    "baseHP": 95.088,
+    "baseATK": 62.8,
+    "type": 3,
+    "resist": [0.7, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.3]
+  },
+  {
+    "id": "GeovishapHatchling",
+    "name": "Geovishap Hatchling",
+    "localeName": "幼岩龍蜥",
+    "desc": "有著堅硬岩質甲殼的小型龍蜥。\\n行動非常靈活，是不容小覷的對手。須彌教令院的研究認為，即使是這種幼獸，也有成為「龍」的潛質。假以時日，如果不受天災與敵害，或許也有一天能成為撼動高山的巨大魔物吧。",
+    "baseHP": 40.752,
+    "baseATK": 30.144,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.3]
+  },
+  {
+    "id": "ElectroCicin",
+    "name": "Electro Cicin",
+    "localeName": "雷螢",
+    "desc": "",
+    "baseHP": 6.792,
+    "baseATK": 10.048,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.5, 0.1, 0.1, 0.1, -0.5]
+  },
+  {
+    "id": "HydroCicin",
+    "name": "Hydro Cicin",
+    "localeName": "水螢",
+    "desc": "",
+    "baseHP": 6.792,
+    "baseATK": 10.048,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.5, 0.1, 0.1, 0.1, 0.1, -0.5]
+  },
+  {
+    "id": "CryoCicin",
+    "name": "Cryo Cicin",
+    "localeName": "冰螢",
+    "desc": "",
+    "baseHP": 6.792,
+    "baseATK": 10.048,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.1, -0.5]
+  }
+]

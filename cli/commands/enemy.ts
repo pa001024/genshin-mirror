@@ -2,7 +2,7 @@ import fs from "fs-extra";
 import { MonsterRarity } from "../../modules/core/enum";
 
 // extra
-import { DATA_DIR, saveTranslation, toNum } from "../util";
+import { DATA_DIR, saveTranslation, toID, toNum, toText } from "../util";
 
 export async function run() {
   // await fs.emptyDir("dist/enemy");
@@ -93,11 +93,13 @@ async function parseEnemy() {
         const desc = descIndex.get(v.DescribeId)!;
         const rel = relIndex.get(v.DescribeId);
         return {
-          name: t(desc.NameTextMapHash),
-          desc: t(desc.DescTextMapHash),
+          id: toID(desc.NameTextMapHash),
+          name: toText(desc.NameTextMapHash),
+          localeName: t(desc.NameTextMapHash),
+          desc: t(desc.DescTextMapHash).replace(/\\\\n/g, "\n"),
           baseHP: toNum(v.HpBase || 0),
           baseATK: toNum(v.AttackBase || 0),
-          // baseDEF:v.DefenseBase, 固定500
+          baseDEF: toNum(v.DefenseBase || 0), // 固定500
           type: MonsterRarity[rel?.MonsterRarity as any],
           resist: [
             //

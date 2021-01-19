@@ -24,8 +24,8 @@
           <!-- 分类标题 -->
           <v-subheader v-if="item.subtitle" :key="item.subtitle" v-text="item.subtitle" />
           <!-- 内容 -->
-          <nuxt-link :key="item.name" :to="'char/' + item.id" class="nolink">
-            <v-list-item v-if="item.name">
+          <v-list-item v-if="item.id" :key="item.id">
+            <nuxt-link :to="'char/' + item.id" class="nolink">
               <v-list-item-action>
                 <v-list-item-title>
                   <CharImage :id="item.id" :element="item.element" avatar :size="48" />
@@ -34,16 +34,15 @@
                   <Rarity :star="item.rarity" fixed />
                 </v-list-item-subtitle>
               </v-list-item-action>
-
-              <v-list-item-content>
-                <v-list-item-title v-text="item.name" />
-                <v-list-item-subtitle v-if="$i18n.locale !== 'en'" v-text="item.id" />
-                <!-- <v-list-item-content>
+            </nuxt-link>
+            <v-list-item-content>
+              <v-list-item-title v-text="item.localeName" />
+              <v-list-item-subtitle v-if="$i18n.locale !== 'en'" v-text="item.name" />
+              <!-- <v-list-item-content>
                   <v-chip v-text="$t(`weapon.${item.weapon}`)" />
                 </v-list-item-content> -->
-              </v-list-item-content>
-            </v-list-item>
-          </nuxt-link>
+            </v-list-item-content>
+          </v-list-item>
         </template>
       </v-list>
     </v-card>
@@ -65,7 +64,7 @@ interface FilterOption {
   async asyncData({ $content, app }) {
     const rst: Partial<Page> = { data: null };
     const res = (await $content(app.i18n.locale, "char")
-      .only(["id", "name", "region", "element", "gender", "rarity", "weapon"])
+      .only(["id", "name", "localeName", "region", "element", "gender", "rarity", "weapon"])
       .sortBy("region", "asc")
       .fetch()
       .catch()) as any;

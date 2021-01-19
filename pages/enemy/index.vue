@@ -25,21 +25,21 @@
           </v-subheader>
           <!-- 内容 -->
           <v-list-item v-if="item.id" :key="item.id">
-            <nuxt-link :to="'enemy/' + item.id" class="nolink">
-              <v-list-item-action>
-                <v-list-item-title>
-                  <EnemyImage :id="item.id" :fallback="item.type" />
-                </v-list-item-title>
-                <v-list-item-subtitle align="center">
-                  <Rarity :star="item.rarity" fixed />
-                </v-list-item-subtitle>
-              </v-list-item-action>
-            </nuxt-link>
+            <v-list-item-action>
+              <v-list-item-title>
+                <EnemyImage :id="item.id" :fallback="item.type" />
+              </v-list-item-title>
+              <v-list-item-subtitle align="center">
+                <Rarity :star="item.rarity" fixed />
+              </v-list-item-subtitle>
+            </v-list-item-action>
 
-            <v-list-item-content>
-              <v-list-item-title v-text="$t(item.name)" />
-              <v-list-item-subtitle v-if="$i18n.locale !== 'en'" v-text="$t(item.name, 'en')" />
-            </v-list-item-content>
+            <nuxt-link :to="'enemy/' + item.id" class="nolink">
+              <v-list-item-content>
+                <v-list-item-title v-text="item.localeName" />
+                <v-list-item-subtitle v-if="$i18n.locale !== 'en'" v-text="item.name" />
+              </v-list-item-content>
+            </nuxt-link>
           </v-list-item>
         </template>
       </v-list>
@@ -61,7 +61,7 @@ interface FilterOption {
   // server
   async asyncData({ $content, app }) {
     const rst: Partial<Page> = { data: null };
-    const res = (await $content(app.i18n.locale, "enemy").only(["name", "type"]).sortBy("type", "asc").fetch().catch(console.error)) as any;
+    const res = (await $content(app.i18n.locale, "enemy").only(["id", "name", "localeName", "type"]).sortBy("type", "asc").fetch().catch(console.error)) as any;
     rst.data = res;
 
     return rst;
@@ -69,7 +69,7 @@ interface FilterOption {
   // set html header
   head() {
     // Set Meta Tags for this Page
-    const title = this.$t("title.weapon") as string;
+    const title = this.$t("title.enemy") as string;
     return { title };
   },
 })
@@ -79,15 +79,15 @@ export default class Page extends Vue {
   filterOptions: FilterOption[] = [];
 
   get types(): FilterOption[] {
-    return [...new Set(this.data?.map(v => v.type) || [])].map(v => ({ text: this.$t("weapon." + v) as string, prop: "type", value: v }));
-  }
-
-  get rarities(): FilterOption[] {
-    return [...new Set(this.data?.map(v => v.rarity) || [])].map(v => ({ text: "★".repeat(v), prop: "rarity", value: v }));
+    return [...new Set(this.data?.map(v => v.type) || [])].map(v => ({ text: this.$t("enemy." + v) as string, prop: "type", value: v }));
   }
 
   get filters() {
-    return [{ header: this.$t("ui.weaponType") }, ...this.types, { divider: true }, { header: this.$t("rarity.title") }, ...this.rarities];
+    return [
+      { header: this.$t("ui.weaponType") },
+      ...this.types,
+      // , { divider: true }, { header: this.$t("rarity.title") }, ...this.rarities
+    ];
   }
 
   get items() {
@@ -95,15 +95,11 @@ export default class Page extends Vue {
       ?.filter(v => !this.filterOptions.some(filter => v[filter.prop] !== filter.value))
       .reduce((r, item: any, index) => {
         if (index === 0 || r[index - 1].type !== item.type) {
-          item = { ...item, subtitle: this.$t(`weapon.${item.type}`) as string };
+          item = { ...item, subtitle: this.$t(`enemy.${item.type}`) as string };
         }
         r.push(item);
         return r;
       }, [] as Partial<IWeapon & { subtitle: string }>[]);
-  }
-
-  json(a: any) {
-    return JSON.stringify(a);
   }
 }
 </script>

@@ -43,8 +43,9 @@ async function parseChar() {
       const ascensions = toAscension(char.AvatarPromoteId);
       const avatar: IAvatar = {
         id: toID(char.NameTextMapHash),
-        name: t(char.NameTextMapHash),
-        desc: t(char.DescTextMapHash),
+        name: toText(char.NameTextMapHash),
+        localeName: t(char.NameTextMapHash),
+        desc: t(char.DescTextMapHash).replace(/\\\\n/g, "\n"),
         baseHP: toNum(char.HpBase || 0),
         baseATK: toNum(char.AttackBase || 0),
         baseDEF: toNum(char.DefenseBase || 0),

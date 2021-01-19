@@ -1,8 +1,11 @@
 <template>
   <div v-if="data" class="gsm-avatar">
     <v-card>
-      <v-card-title v-text="data.name" />
-      <v-card-subtitle v-if="$i18n.locale !== 'en'" v-text="data.id" />
+      <v-card-title>
+        <CharImage :id="data.id" :element="data.element" avatar :size="56" />
+        {{ data.localeName }}
+        <v-card-subtitle v-if="$i18n.locale !== 'en'" v-text="data.id" />
+      </v-card-title>
       <v-card-text>
         <v-container>
           <v-row>
@@ -36,6 +39,8 @@
                 <v-card-text class="info-content">{{ $t(`buff.${data.ascensionType}`) }}</v-card-text>
               </v-card>
             </v-col>
+          </v-row>
+          <v-row>
             <v-col cols="6" sm="4" md="2">
               <v-card class="info-block">
                 <v-card-title class="info-title" v-text="$t('buff.1')" />
