@@ -24,11 +24,11 @@
             {{ item.subtitle }}
           </v-subheader>
           <!-- 内容 -->
-          <v-list-item v-if="item.name" :key="item.name">
-            <nuxt-link :to="'weapon/' + item.name" class="nolink">
+          <v-list-item v-if="item.id" :key="item.id">
+            <nuxt-link :to="'enemy/' + item.id" class="nolink">
               <v-list-item-action>
                 <v-list-item-title>
-                  <WeaponImage :id="item.name" :fallback="item.type" />
+                  <EnemyImage :id="item.id" :fallback="item.type" />
                 </v-list-item-title>
                 <v-list-item-subtitle align="center">
                   <Rarity :star="item.rarity" fixed />
@@ -60,19 +60,10 @@ interface FilterOption {
 @Component<Page>({
   // server
   async asyncData({ $content, app }) {
-    const rst: Partial<Page> = { data: null, page: null };
-    const res = (await $content("common/weapon")
-      .only(["name", "type", "rarity", "baseATK", "subAttr"])
-      .sortBy("type", "asc")
-      .sortBy("rarity", "desc")
-      .fetch()
-      .catch(console.error)) as any;
+    const rst: Partial<Page> = { data: null };
+    const res = (await $content(app.i18n.locale, "enemy").only(["name", "type"]).sortBy("type", "asc").fetch().catch(console.error)) as any;
     rst.data = res;
-    if (rst.data) {
-      rst.page = await $content(app.i18n.locale, "weapon")
-        .fetch()
-        .catch(() => {});
-    }
+
     return rst;
   },
   // set html header
@@ -84,7 +75,6 @@ interface FilterOption {
 })
 export default class Page extends Vue {
   data: IWeapon[] | null = null;
-  page: any = null;
 
   filterOptions: FilterOption[] = [];
 

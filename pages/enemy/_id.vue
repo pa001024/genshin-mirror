@@ -14,27 +14,20 @@
             </v-col>
             <v-col cols="6" sm="4" md="2">
               <v-card class="info-block">
-                <v-card-title class="info-title">{{ $t("rarity.title") }}</v-card-title>
-                <v-card-text class="info-content"><Rarity :star="data.rarity" /></v-card-text>
+                <v-card-title class="info-title">{{ $t("buff.1") }}</v-card-title>
+                <v-card-text class="info-content">{{ data.baseHP }}</v-card-text>
               </v-card>
             </v-col>
             <v-col cols="6" sm="4" md="2">
               <v-card class="info-block">
-                <v-card-title class="info-title">{{ $t("buff.48") }}</v-card-title>
+                <v-card-title class="info-title">{{ $t("buff.2") }}</v-card-title>
                 <v-card-text class="info-content">{{ data.baseATK }}</v-card-text>
               </v-card>
             </v-col>
             <v-col cols="6" sm="4" md="2">
               <v-card class="info-block">
-                <v-card-title class="info-title">{{ $t("ui.subAttr") }}</v-card-title>
-                <v-card-text v-if="data.subAttr" class="info-content">{{ $t(`buff.${data.subAttr.type}`) }}</v-card-text>
-                <v-card-text v-else class="info-content">{{ $t(`buff.0`) }}</v-card-text>
-              </v-card>
-            </v-col>
-            <v-col v-if="data.affix" cols="6" sm="4" md="2">
-              <v-card class="info-block">
-                <v-card-title class="info-title">{{ $t("ascension.title") }}</v-card-title>
-                <v-card-text class="info-content">{{ l10n(data.affix.name) }}</v-card-text>
+                <v-card-title class="info-title">{{ $t("buff.3") }}</v-card-title>
+                <v-card-text class="info-content">{{ data.baseDEF }}</v-card-text>
               </v-card>
             </v-col>
           </v-row>
@@ -57,16 +50,11 @@ import { IEnemy } from "~/modules/core";
 @Component<Page>({
   // server
   async asyncData({ params: { id }, $content, app }) {
-    const rst: Partial<Page> = { id, data: null, page: null };
+    const rst: Partial<Page> = { id, data: null };
     if (id.includes("../")) return { id };
-    const res = (await $content("common/enemy", id).fetch().catch(console.error)) as any;
+    const res = (await $content(app.i18n.locale, "enemy", id).fetch().catch(console.error)) as any;
     rst.data = res;
 
-    if (rst.data) {
-      rst.page = await $content(app.i18n.locale, id)
-        .fetch()
-        .catch(() => {});
-    }
     return rst;
   },
   // set html header
@@ -79,7 +67,6 @@ import { IEnemy } from "~/modules/core";
 export default class Page extends Vue {
   id: string = "";
   data: IEnemy | null = null;
-  page: any = null;
 
   get localeName() {
     return this.$te(`${this.id}`) ? this.$t(`${this.id}`) : this.id;
