@@ -77,7 +77,7 @@ type Subtitle<T> = T & { subtitle?: string };
   // set html header
   head() {
     // Set Meta Tags for this Page
-    const title = this.$t("title.sub", [this.$t("item.title")]) as string;
+    const title = this.$t("title.sub", [this.$t("title.item")]) as string;
     return { title };
   },
 })

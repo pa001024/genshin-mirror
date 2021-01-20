@@ -78,7 +78,7 @@ interface FilterOption {
   // set html header
   head() {
     // Set Meta Tags for this Page
-    const title = this.$t("title.weapon") as string;
+    const title = this.$t("title.sub", [this.$t("title.weapon")]) as string;
     return { title };
   },
 })
@@ -110,10 +110,6 @@ export default class Page extends Vue {
         r.push(item);
         return r;
       }, [] as Partial<IWeapon & { subtitle: string }>[]);
-  }
-
-  json(a: any) {
-    return JSON.stringify(a);
   }
 }
 </script>
