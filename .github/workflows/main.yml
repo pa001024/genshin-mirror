@@ -1,9 +1,11 @@
 name: Publish And Deploy
 on:
+  # 手动触发
+  workflow_dispatch:
+  # 提交tag触发 以v开头的 例如v0.0.1
   push:
     tags:
       - 'v*'
-      # 提交一个标签 tag的时候 才会触发 自动部署  以v开头的 例如v0.0.1
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -15,9 +17,9 @@ jobs:
 
     # 打包构建
     - name: Build
-      uses: actions/setup-node@master
-    - run: npm install
-    - run: npm run build
+      uses: actions/setup-node@v2
+    - run: yarn install
+    - run: yarn build
     - run: tar -zcvf release.tgz .nuxt static nuxt.config.js package.json package-lock.json pm2.config.json
     # 基于这次的tag标签来下载依赖 打包 然后把 后续几个文件生成 tgz 压缩包
 
