@@ -1,4 +1,5 @@
 import fs from "fs-extra";
+import { uniqBy } from "lodash";
 import { MonsterRarity } from "../../modules/core/enum";
 
 // extra
@@ -14,11 +15,11 @@ async function parseEnemy() {
   interface MonsterExcelConfigData {
     MonsterName: string;
     Type: string;
-    ScriptDataPathHashPre: number;
-    ScriptDataPathHashSuffix: number;
+    // ScriptDataPathHashPre: number;
+    // ScriptDataPathHashSuffix: number;
     ServerScript: string;
-    CombatConfigHashPre: number;
-    CombatConfigHashSuffix: number;
+    // CombatConfigHashPre: number;
+    // CombatConfigHashSuffix: number;
     Affix: any[];
     AI: string;
     IsAIHashCheck: boolean;
@@ -43,18 +44,18 @@ async function parseEnemy() {
     RockSubHurt: number;
     PropGrowCurves: PropGrowCurve[];
     PhysicalSubHurt: number;
-    PrefabPathRagdollHashPre: number;
-    PrefabPathRagdollHashSuffix: number;
+    // PrefabPathRagdollHashPre: number;
+    // PrefabPathRagdollHashSuffix: number;
     Id: number;
     NameTextMapHash: number;
-    PrefabPathHashPre: number;
-    PrefabPathHashSuffix: number;
-    PrefabPathRemoteHashPre: number;
-    PrefabPathRemoteHashSuffix: number;
-    ControllerPathHashPre: number;
-    ControllerPathHashSuffix: number;
-    ControllerPathRemoteHashPre: number;
-    ControllerPathRemoteHashSuffix: number;
+    // PrefabPathHashPre: number;
+    // PrefabPathHashSuffix: number;
+    // PrefabPathRemoteHashPre: number;
+    // PrefabPathRemoteHashSuffix: number;
+    // ControllerPathHashPre: number;
+    // ControllerPathHashSuffix: number;
+    // ControllerPathRemoteHashPre: number;
+    // ControllerPathRemoteHashSuffix: number;
     CampId: number;
     LODPatternName: string;
   }
@@ -114,6 +115,7 @@ async function parseEnemy() {
           ],
         };
       });
-    return rst;
+
+    return uniqBy(rst, "id"); // TODO: 简单去重可能丢信息 之后可能有不同变种
   });
 }

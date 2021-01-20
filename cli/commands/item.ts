@@ -1,9 +1,10 @@
 import fs from "fs-extra";
-import { groupBy, keyBy, map } from "lodash";
-import { BuffType } from "../../modules/core/enum";
+import { uniqBy } from "lodash";
+import { MaterialType } from "../../modules/core/enum";
+import { IItem } from "../../modules/core/interface";
 
 // extra
-import { DATA_DIR, Dict, saveObject, saveTranslation, toAttrType, toNum, toText } from "../util";
+import { DATA_DIR, saveTranslation, toID, toText } from "../util";
 
 export async function run() {
   // await fs.emptyDir("dist/item");
@@ -43,40 +44,27 @@ async function parseMaterial() {
   }
   const data: MaterialExcelConfigData[] = await fs.readJSON(DATA_DIR + "Excel/MaterialExcelConfigData.json");
 
-  await saveTranslation("item", "material.json", t => {
+  await saveTranslation("item", "item.json", t => {
     const rst = data
       .filter(v => {
         if (v.RankLevel && v.MaterialType && v.MaterialType in MaterialType) {
-          const enName = toText(v.NameTextMapHash);
-          if (enName.includes("(Invalidated)") || enName.includes("(test)")) return false;
+          const enName = toText(v.NameTextMapHash, "zh-Hans");
+          if (enName.includes("（废弃）") || enName.includes("(test)")) return false;
           return true;
         }
         return false;
       })
       .map(v => {
-        return {
-          id: v.Id,
-          name: t(v.NameTextMapHash),
+        const item: IItem = {
+          id: toID(v.NameTextMapHash),
+          name: toText(v.NameTextMapHash),
+          localeName: t(v.NameTextMapHash),
           desc: t(v.DescTextMapHash),
-          rank: v.RankLevel,
-          type: MaterialType[v.MaterialType as any],
+          rarity: v.RankLevel,
+          type: (MaterialType[v.MaterialType as any] as any) as MaterialType,
         };
+        return item;
       });
-    return rst;
+    return uniqBy(rst, "id");
   });
-}
-
-enum MaterialType {
-  MATERIAL_TALENT, // 天赋材料
-  MATERIAL_AVATAR_MATERIAL, // 突破材料
-  MATERIAL_AVATAR, // 角色
-  MATERIAL_FOOD, // 料理
-  MATERIAL_NOTICE_ADD_HP, // 加血道具
-  MATERIAL_EXCHANGE, // 食材
-  MATERIAL_FLYCLOAK, // 风之翼
-  MATERIAL_NAMECARD, // 名片
-  MATERIAL_CONSUME, // 消耗品
-  // MATERIAL_QUEST,
-  // MATERIAL_CHEST, // 宝箱
-  // MATERIAL_SELECTABLE_CHEST, // 宝箱
 }

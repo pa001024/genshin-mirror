@@ -1,4 +1,16 @@
-import { ArtifactSeries, ArtifactType, BuffCondition, BuffType, ElementType, Region, WeaponType, BuffTarget, ReactionType, BodyType } from "./enum";
+import {
+  ArtifactSeries,
+  ArtifactType,
+  BuffCondition,
+  BuffType,
+  ElementType,
+  Region,
+  WeaponType,
+  BuffTarget,
+  ReactionType,
+  BodyType,
+  MaterialType,
+} from "./enum";
 
 /** 武器 */
 export interface IWeapon {
@@ -227,9 +239,20 @@ export interface IArtifactSetBonus {
 }
 
 export interface IEnemy {
+  id: string;
   name: string;
+  localeName: string;
   desc?: string;
   /** 基础生命 */ baseHP: number;
   /** 基础攻击 */ baseATK: number;
   /** 基础防御 */ baseDEF: number;
+}
+
+export interface IItem {
+  id: string;
+  name: string;
+  localeName: string;
+  desc?: string;
+  type?: MaterialType;
+  rarity: number;
 }

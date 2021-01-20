@@ -6,6 +6,7 @@
     "desc": "",
     "baseHP": 13.584,
     "baseATK": 22.608,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -16,6 +17,7 @@
     "desc": "Formidable warriors of the hilichurl tribes who fight with giant wooden shields.\\nFighting and eating meat are the two most important things to hilichurls, because those are what make them grow stronger. All young hilichurls dream of growing up to become a big and strong mitachurl, because that way they can eat more meat, and fight more battles.",
     "baseHP": 40.752,
     "baseATK": 30.144,
+    "baseDEF": 500,
     "type": 2,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.3]
   },
@@ -26,16 +28,7 @@
     "desc": "",
     "baseHP": 40.752,
     "baseATK": 30.144,
-    "type": 2,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.3]
-  },
-  {
-    "id": "BlazingAxeMitachurl",
-    "name": "Blazing Axe Mitachurl",
-    "localeName": "Blazing Axe Mitachurl",
-    "desc": "",
-    "baseHP": 40.752,
-    "baseATK": 30.144,
+    "baseDEF": 500,
     "type": 2,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.3]
   },
@@ -46,6 +39,7 @@
     "desc": "Formidable warriors of the hilichurl tribes who fight with rock greatshields.\\nHilichurls worship no gods and follow no order or discipline. The strongest and the most ferocious one among them is seen as fit to lead the tribe.",
     "baseHP": 40.752,
     "baseATK": 30.144,
+    "baseDEF": 500,
     "type": 2,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.3]
   },
@@ -56,6 +50,7 @@
     "desc": "",
     "baseHP": 122.26,
     "baseATK": 75.36,
+    "baseDEF": 500,
     "type": 2,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.7, 0.1, 0.5]
   },
@@ -66,6 +61,7 @@
     "desc": "",
     "baseHP": 122.26,
     "baseATK": 75.36,
+    "baseDEF": 500,
     "type": 2,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.7, 0.5]
   },
@@ -76,6 +72,7 @@
     "desc": "",
     "baseHP": 40.752,
     "baseATK": 30.144,
+    "baseDEF": 500,
     "type": 2,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.3]
   },
@@ -86,6 +83,7 @@
     "desc": "",
     "baseHP": 10.867,
     "baseATK": 7.536,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -96,16 +94,7 @@
     "desc": "",
     "baseHP": 27.168,
     "baseATK": 17.584,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "LargeDendroSlime",
-    "name": "Large Dendro Slime",
-    "localeName": "Large Dendro Slime",
-    "desc": "",
-    "baseHP": 27.168,
-    "baseATK": 17.584,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -116,6 +105,7 @@
     "desc": "",
     "baseHP": 10.867,
     "baseATK": 7.536,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -126,16 +116,7 @@
     "desc": "",
     "baseHP": 27.168,
     "baseATK": 17.584,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "LargeAnemoSlime",
-    "name": "Large Anemo Slime",
-    "localeName": "Large Anemo Slime",
-    "desc": "",
-    "baseHP": 27.168,
-    "baseATK": 17.584,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -146,38 +127,9 @@
     "desc": "The Anemo dragon that lives among ruins.\\nIt rides the wind and controls the power of the storms, threatening the peace of Mondstadt.\\nIt also seems to hide a great secret in its shadow...",
     "baseHP": 150,
     "baseATK": 100,
+    "baseDEF": 0,
     "type": 4,
     "resist": [0, 0, 0, 0, 0, 0, 0, 0]
-  },
-  {
-    "id": "Stormterror",
-    "name": "Stormterror",
-    "localeName": "Stormterror",
-    "desc": "The Anemo dragon that lives among ruins.\\nIt rides the wind and controls the power of the storms, threatening the peace of Mondstadt.\\nIt also seems to hide a great secret in its shadow...",
-    "baseHP": 67.92,
-    "baseATK": 56.52,
-    "type": 4,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "Stormterror",
-    "name": "Stormterror",
-    "localeName": "Stormterror",
-    "desc": "The Anemo dragon that lives among ruins.\\nIt rides the wind and controls the power of the storms, threatening the peace of Mondstadt.\\nIt also seems to hide a great secret in its shadow...",
-    "baseHP": 200,
-    "baseATK": 100,
-    "type": 4,
-    "resist": [0, 0, 0, 0, 0, 0, 0, 0]
-  },
-  {
-    "id": "Stormterror",
-    "name": "Stormterror",
-    "localeName": "Stormterror",
-    "desc": "The Anemo dragon that lives among ruins.\\nIt rides the wind and controls the power of the storms, threatening the peace of Mondstadt.\\nIt also seems to hide a great secret in its shadow...",
-    "baseHP": 122.26,
-    "baseATK": 75.36,
-    "type": 4,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
   {
     "id": "LupusBoreasDominatorofWolves",
@@ -186,16 +138,7 @@
     "desc": "A noble soul that watches over Wolvendom.\\nWhen the safety of the wolves is threatened, it will take the form of a wolf and bare its fangs and claws. It is said that its powers were given to it by an ancient god.",
     "baseHP": 244.51,
     "baseATK": 75.36,
-    "type": 4,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.3, 0.5, 0.1, 0.1]
-  },
-  {
-    "id": "LupusBoreasDominatorofWolves",
-    "name": "Lupus Boreas, Dominator of Wolves",
-    "localeName": "Lupus Boreas, Dominator of Wolves",
-    "desc": "A noble soul that watches over Wolvendom.\\nWhen the safety of the wolves is threatened, it will take the form of a wolf and bare its fangs and claws. It is said that its powers were given to it by an ancient god.",
-    "baseHP": 244.51,
-    "baseATK": 75.36,
+    "baseDEF": 500,
     "type": 4,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.3, 0.5, 0.1, 0.1]
   },
@@ -206,58 +149,9 @@
     "desc": "A noble soul that watches over Wolvendom.\\nWhen the safety of the wolves is threatened, it will take the form of a wolf and bare its fangs and claws. It is said that its powers were given to it by an ancient god.",
     "baseHP": 81.504,
     "baseATK": 37.68,
+    "baseDEF": 500,
     "type": 4,
     "resist": [0, 0, 0.5, 0, 0, 0, 0, 0]
-  },
-  {
-    "id": "Childe",
-    "name": "Childe",
-    "localeName": "Childe",
-    "desc": "A noble soul that watches over Wolvendom.\\nWhen the safety of the wolves is threatened, it will take the form of a wolf and bare its fangs and claws. It is said that its powers were given to it by an ancient god.",
-    "baseHP": 81.504,
-    "baseATK": 37.68,
-    "type": 4,
-    "resist": [0, 0, 0, 0.5, 0, 0, 0, 0]
-  },
-  {
-    "id": "Childe",
-    "name": "Childe",
-    "localeName": "Childe",
-    "desc": "A noble soul that watches over Wolvendom.\\nWhen the safety of the wolves is threatened, it will take the form of a wolf and bare its fangs and claws. It is said that its powers were given to it by an ancient god.",
-    "baseHP": 135.84,
-    "baseATK": 50.24,
-    "type": 4,
-    "resist": [0, 0, 0.7, 0.7, 0, 0, 0, 0]
-  },
-  {
-    "id": "Childe",
-    "name": "Childe",
-    "localeName": "Childe",
-    "desc": "A noble soul that watches over Wolvendom.\\nWhen the safety of the wolves is threatened, it will take the form of a wolf and bare its fangs and claws. It is said that its powers were given to it by an ancient god.",
-    "baseHP": 81.504,
-    "baseATK": 62.8,
-    "type": 4,
-    "resist": [0, 0, 0.5, 0, 0, 0, 0, 0]
-  },
-  {
-    "id": "Childe",
-    "name": "Childe",
-    "localeName": "Childe",
-    "desc": "A noble soul that watches over Wolvendom.\\nWhen the safety of the wolves is threatened, it will take the form of a wolf and bare its fangs and claws. It is said that its powers were given to it by an ancient god.",
-    "baseHP": 81.504,
-    "baseATK": 62.8,
-    "type": 4,
-    "resist": [0, 0, 0, 0.5, 0, 0, 0, 0]
-  },
-  {
-    "id": "Childe",
-    "name": "Childe",
-    "localeName": "Childe",
-    "desc": "A noble soul that watches over Wolvendom.\\nWhen the safety of the wolves is threatened, it will take the form of a wolf and bare its fangs and claws. It is said that its powers were given to it by an ancient god.",
-    "baseHP": 135.84,
-    "baseATK": 87.92,
-    "type": 4,
-    "resist": [0, 0, 0.7, 0.7, 0, 0, 0, 0]
   },
   {
     "id": "EyeoftheStorm",
@@ -266,6 +160,7 @@
     "desc": "",
     "baseHP": 67.92,
     "baseATK": 62.8,
+    "baseDEF": 500,
     "type": 2,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -276,16 +171,7 @@
     "desc": "Code name: Aleph. A high-purity Electro entity.\\nElemental hypostases are the highest forms of elemental structures, usually formed either at a location bursting with elemental energy or at a clogged ley line.\\nElemental hypostases have developed defensive mechanisms based on their elemental attributes.",
     "baseHP": 95.088,
     "baseATK": 75.36,
-    "type": 3,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "ElectroHypostasis",
-    "name": "Electro Hypostasis",
-    "localeName": "Electro Hypostasis",
-    "desc": "Code name: Aleph. A high-purity Electro entity.\\nElemental hypostases are the highest forms of elemental structures, usually formed either at a location bursting with elemental energy or at a clogged ley line.\\nElemental hypostases have developed defensive mechanisms based on their elemental attributes.",
-    "baseHP": 149.42,
-    "baseATK": 75.36,
+    "baseDEF": 500,
     "type": 3,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -296,16 +182,7 @@
     "desc": "Code name: Beth. A high-purity Anemo entity.\\nElemental hypostases are life forms which have completely abandoned their former appearance and biological structure, making them able to reach the highest level of elemental purity.\\nResearch into hypostases is mainly led by scholars of Sumeru Academia, but due to the level of danger that they pose, little of substance is known about hypostases beyond their scientific name and code name.",
     "baseHP": 95.088,
     "baseATK": 75.36,
-    "type": 3,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "AnemoHypostasis",
-    "name": "Anemo Hypostasis",
-    "localeName": "Anemo Hypostasis",
-    "desc": "Code name: Beth. A high-purity Anemo entity.\\nElemental hypostases are life forms which have completely abandoned their former appearance and biological structure, making them able to reach the highest level of elemental purity.\\nResearch into hypostases is mainly led by scholars of Sumeru Academia, but due to the level of danger that they pose, little of substance is known about hypostases beyond their scientific name and code name.",
-    "baseHP": 149.42,
-    "baseATK": 75.36,
+    "baseDEF": 500,
     "type": 3,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -316,16 +193,7 @@
     "desc": "Code name: Gimel. A high-purity Geo entity.\\nElemental hypostases are ultra-compact structures with a high mass.\\nConcentrated elemental energy forms a solid shell around the core of the hypostasis, leaving only the core reactive to elemental stimuli.",
     "baseHP": 95.088,
     "baseATK": 75.36,
-    "type": 3,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "GeoHypostasis",
-    "name": "Geo Hypostasis",
-    "localeName": "Geo Hypostasis",
-    "desc": "Code name: Gimel. A high-purity Geo entity.\\nElemental hypostases are ultra-compact structures with a high mass.\\nConcentrated elemental energy forms a solid shell around the core of the hypostasis, leaving only the core reactive to elemental stimuli.",
-    "baseHP": 149.42,
-    "baseATK": 75.36,
+    "baseDEF": 500,
     "type": 3,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -336,6 +204,7 @@
     "desc": "Code name: Gimel. A high-purity Geo entity.\\nElemental hypostases are ultra-compact structures with a high mass.\\nConcentrated elemental energy forms a solid shell around the core of the hypostasis, leaving only the core reactive to elemental stimuli.",
     "baseHP": 95.088,
     "baseATK": 75.36,
+    "baseDEF": 500,
     "type": 3,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -346,6 +215,7 @@
     "desc": "",
     "baseHP": 10.867,
     "baseATK": 7.536,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -356,16 +226,7 @@
     "desc": "",
     "baseHP": 27.168,
     "baseATK": 17.584,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "LargeElectroSlime",
-    "name": "Large Electro Slime",
-    "localeName": "Large Electro Slime",
-    "desc": "",
-    "baseHP": 27.168,
-    "baseATK": 17.584,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -376,16 +237,7 @@
     "desc": "",
     "baseHP": 27.168,
     "baseATK": 17.584,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "MutantElectroSlime",
-    "name": "Mutant Electro Slime",
-    "localeName": "Mutant Electro Slime",
-    "desc": "",
-    "baseHP": 27.168,
-    "baseATK": 17.584,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -396,16 +248,7 @@
     "desc": "",
     "baseHP": 10.867,
     "baseATK": 7.536,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "CryoSlime",
-    "name": "Cryo Slime",
-    "localeName": "Cryo Slime",
-    "desc": "",
-    "baseHP": 10.867,
-    "baseATK": 7.536,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -416,26 +259,7 @@
     "desc": "",
     "baseHP": 27.168,
     "baseATK": 17.584,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "LargeCryoSlime",
-    "name": "Large Cryo Slime",
-    "localeName": "Large Cryo Slime",
-    "desc": "",
-    "baseHP": 27.168,
-    "baseATK": 17.584,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "LargeCryoSlime",
-    "name": "Large Cryo Slime",
-    "localeName": "Large Cryo Slime",
-    "desc": "",
-    "baseHP": 27.168,
-    "baseATK": 17.584,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -446,6 +270,7 @@
     "desc": "",
     "baseHP": 10.867,
     "baseATK": 7.536,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -456,16 +281,7 @@
     "desc": "",
     "baseHP": 27.168,
     "baseATK": 17.584,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "LargeHydroSlime",
-    "name": "Large Hydro Slime",
-    "localeName": "Large Hydro Slime",
-    "desc": "",
-    "baseHP": 27.168,
-    "baseATK": 17.584,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -476,36 +292,7 @@
     "desc": "",
     "baseHP": 27.168,
     "baseATK": 17.584,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "HydroHypostasisSummon",
-    "name": "Hydro Hypostasis Summon",
-    "localeName": "Hydro Hypostasis Summon",
-    "desc": "",
-    "baseHP": 10.867,
-    "baseATK": 7.536,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "HydroHypostasisSummon",
-    "name": "Hydro Hypostasis Summon",
-    "localeName": "Hydro Hypostasis Summon",
-    "desc": "",
-    "baseHP": 27.168,
-    "baseATK": 17.584,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "HydroHypostasisSummon",
-    "name": "Hydro Hypostasis Summon",
-    "localeName": "Hydro Hypostasis Summon",
-    "desc": "",
-    "baseHP": 27.168,
-    "baseATK": 17.584,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -516,6 +303,7 @@
     "desc": "A life-form created from condensed Hydro elements of incredible purity.\\nOften attached to bodies of water. It is said that as water bodies become purer, the Hydro elements within grow more abundant, causing the Oceanids to grow more powerful.\\nIt is also said by some that Oceanids were once sea creatures from a home far away who carried the fragments of a long-dead god to the many corners of this world. Perhaps they did this so that the love their god held for this world could be spread through the waters to all the land...",
     "baseHP": 135.84,
     "baseATK": 75.36,
+    "baseDEF": 500,
     "type": 3,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -526,6 +314,7 @@
     "desc": "",
     "baseHP": 21.734,
     "baseATK": 25.12,
+    "baseDEF": 500,
     "type": 0,
     "resist": [-0.4, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15]
   },
@@ -536,6 +325,7 @@
     "desc": "",
     "baseHP": 10.867,
     "baseATK": 62.8,
+    "baseDEF": 500,
     "type": 0,
     "resist": [0.15, 0.15, 0.15, -0.4, 0.15, 0.15, 0.15, 0.15]
   },
@@ -546,6 +336,7 @@
     "desc": "",
     "baseHP": 21.734,
     "baseATK": 50.24,
+    "baseDEF": 500,
     "type": 0,
     "resist": [0.15, 0.15, 0.15, 0.15, 0.15, -0.4, 0.15, 0.15]
   },
@@ -556,6 +347,7 @@
     "desc": "",
     "baseHP": 40.752,
     "baseATK": 62.8,
+    "baseDEF": 500,
     "type": 0,
     "resist": [0.15, 0.15, 0.15, 0.15, 0.15, 0.15, -0.4, 0.15]
   },
@@ -566,6 +358,7 @@
     "desc": "",
     "baseHP": 21.734,
     "baseATK": 25.12,
+    "baseDEF": 500,
     "type": 0,
     "resist": [0.15, 0.15, 0.15, 0.15, 0.15, -0.4, 0.15, 0.15]
   },
@@ -576,6 +369,7 @@
     "desc": "",
     "baseHP": 19.018,
     "baseATK": 37.68,
+    "baseDEF": 500,
     "type": 0,
     "resist": [-0.4, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15]
   },
@@ -586,6 +380,7 @@
     "desc": "",
     "baseHP": 40.752,
     "baseATK": 62.8,
+    "baseDEF": 500,
     "type": 0,
     "resist": [0.15, 0.15, 0.15, 0.15, 0.15, 0.15, -0.4, 0.15]
   },
@@ -596,6 +391,7 @@
     "desc": "",
     "baseHP": 10.867,
     "baseATK": 50.24,
+    "baseDEF": 500,
     "type": 0,
     "resist": [0.15, 0.15, 0.15, -0.4, 0.15, 0.15, 0.15, 0.15]
   },
@@ -606,6 +402,7 @@
     "desc": "",
     "baseHP": 13.584,
     "baseATK": 22.608,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -616,6 +413,7 @@
     "desc": "",
     "baseHP": 13.584,
     "baseATK": 22.608,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -626,16 +424,7 @@
     "desc": "",
     "baseHP": 10.867,
     "baseATK": 11.304,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "HilichurlShooter",
-    "name": "Hilichurl Shooter",
-    "localeName": "Hilichurl Shooter",
-    "desc": "",
-    "baseHP": 10.867,
-    "baseATK": 11.304,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -646,16 +435,7 @@
     "desc": "",
     "baseHP": 10.867,
     "baseATK": 11.304,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "PyroHilichurlShooter",
-    "name": "Pyro Hilichurl Shooter",
-    "localeName": "Pyro Hilichurl Shooter",
-    "desc": "",
-    "baseHP": 10.867,
-    "baseATK": 11.304,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -666,16 +446,7 @@
     "desc": "",
     "baseHP": 13.584,
     "baseATK": 22.608,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "HilichurlGrenadier",
-    "name": "Hilichurl Grenadier",
-    "localeName": "Hilichurl Grenadier",
-    "desc": "",
-    "baseHP": 13.584,
-    "baseATK": 22.608,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -686,6 +457,7 @@
     "desc": "",
     "baseHP": 13.584,
     "baseATK": 22.608,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -696,16 +468,7 @@
     "desc": "",
     "baseHP": 10.867,
     "baseATK": 11.304,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "CryoHilichurlShooter",
-    "name": "Cryo Hilichurl Shooter",
-    "localeName": "Cryo Hilichurl Shooter",
-    "desc": "",
-    "baseHP": 10.867,
-    "baseATK": 11.304,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -716,16 +479,7 @@
     "desc": "",
     "baseHP": 10.867,
     "baseATK": 11.304,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "ElectroHilichurlShooter",
-    "name": "Electro Hilichurl Shooter",
-    "localeName": "Electro Hilichurl Shooter",
-    "desc": "",
-    "baseHP": 10.867,
-    "baseATK": 11.304,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -736,6 +490,7 @@
     "desc": "",
     "baseHP": 13.584,
     "baseATK": 22.608,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -746,6 +501,7 @@
     "desc": "",
     "baseHP": 10.867,
     "baseATK": 11.304,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -756,6 +512,7 @@
     "desc": "",
     "baseHP": 13.584,
     "baseATK": 22.608,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -766,6 +523,7 @@
     "desc": "",
     "baseHP": 21.734,
     "baseATK": 22.608,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -776,26 +534,7 @@
     "desc": "",
     "baseHP": 10.867,
     "baseATK": 7.536,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "PyroSlime",
-    "name": "Pyro Slime",
-    "localeName": "Pyro Slime",
-    "desc": "",
-    "baseHP": 7,
-    "baseATK": 0,
-    "type": 1,
-    "resist": [0, 0, 0, 0, 0, 0, 0, 0]
-  },
-  {
-    "id": "LargePyroSlime",
-    "name": "Large Pyro Slime",
-    "localeName": "Large Pyro Slime",
-    "desc": "",
-    "baseHP": 27.168,
-    "baseATK": 17.584,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -806,6 +545,7 @@
     "desc": "",
     "baseHP": 27.168,
     "baseATK": 17.584,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -816,6 +556,7 @@
     "desc": "",
     "baseHP": 10.867,
     "baseATK": 7.536,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -826,16 +567,7 @@
     "desc": "",
     "baseHP": 27.168,
     "baseATK": 17.584,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "LargeGeoSlime",
-    "name": "Large Geo Slime",
-    "localeName": "Large Geo Slime",
-    "desc": "",
-    "baseHP": 27.168,
-    "baseATK": 17.584,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -846,36 +578,7 @@
     "desc": "Abyss mages who fight with their Pyro magic.\\nFor unknown reasons, abyss mages are able to communicate with the hilichurls, thus enabling them to manipulate their minds easily.",
     "baseHP": 27.168,
     "baseATK": 37.68,
-    "type": 2,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "PyroAbyssMage",
-    "name": "Pyro Abyss Mage",
-    "localeName": "Pyro Abyss Mage",
-    "desc": "Abyss mages who fight with their Pyro magic.\\nFor unknown reasons, abyss mages are able to communicate with the hilichurls, thus enabling them to manipulate their minds easily.",
-    "baseHP": 27.168,
-    "baseATK": 37.68,
-    "type": 2,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "PyroAbyssMage",
-    "name": "Pyro Abyss Mage",
-    "localeName": "Pyro Abyss Mage",
-    "desc": "Abyss mages who fight with their Pyro magic.\\nFor unknown reasons, abyss mages are able to communicate with the hilichurls, thus enabling them to manipulate their minds easily.",
-    "baseHP": 27.168,
-    "baseATK": 37.68,
-    "type": 2,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "PyroAbyssMage",
-    "name": "Pyro Abyss Mage",
-    "localeName": "Pyro Abyss Mage",
-    "desc": "Abyss mages who fight with their Pyro magic.\\nFor unknown reasons, abyss mages are able to communicate with the hilichurls, thus enabling them to manipulate their minds easily.",
-    "baseHP": 27.168,
-    "baseATK": 37.68,
+    "baseDEF": 500,
     "type": 2,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -886,36 +589,7 @@
     "desc": "Abyss creatures who command the power of Cryo in combat.\\nThey say abyss mages speak in a long-forgotten language from which they draw magical power.",
     "baseHP": 27.168,
     "baseATK": 37.68,
-    "type": 2,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "CryoAbyssMage",
-    "name": "Cryo Abyss Mage",
-    "localeName": "Cryo Abyss Mage",
-    "desc": "Abyss creatures who command the power of Cryo in combat.\\nThey say abyss mages speak in a long-forgotten language from which they draw magical power.",
-    "baseHP": 27.168,
-    "baseATK": 37.68,
-    "type": 2,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "CryoAbyssMage",
-    "name": "Cryo Abyss Mage",
-    "localeName": "Cryo Abyss Mage",
-    "desc": "Abyss creatures who command the power of Cryo in combat.\\nThey say abyss mages speak in a long-forgotten language from which they draw magical power.",
-    "baseHP": 27.168,
-    "baseATK": 37.68,
-    "type": 2,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "CryoAbyssMage",
-    "name": "Cryo Abyss Mage",
-    "localeName": "Cryo Abyss Mage",
-    "desc": "Abyss creatures who command the power of Cryo in combat.\\nThey say abyss mages speak in a long-forgotten language from which they draw magical power.",
-    "baseHP": 27.168,
-    "baseATK": 37.68,
+    "baseDEF": 500,
     "type": 2,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -926,36 +600,7 @@
     "desc": "Abyss creatures which utilize Hydro energy in battle.\\nAdventurers often make fun of these abyss mages, saying that the most harm they can do is to cause rheumatism or a common cold, but in actuality their power is not to be underestimated.",
     "baseHP": 27.168,
     "baseATK": 37.68,
-    "type": 2,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "HydroAbyssMage",
-    "name": "Hydro Abyss Mage",
-    "localeName": "Hydro Abyss Mage",
-    "desc": "Abyss creatures which utilize Hydro energy in battle.\\nAdventurers often make fun of these abyss mages, saying that the most harm they can do is to cause rheumatism or a common cold, but in actuality their power is not to be underestimated.",
-    "baseHP": 27.168,
-    "baseATK": 37.68,
-    "type": 2,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "HydroAbyssMage",
-    "name": "Hydro Abyss Mage",
-    "localeName": "Hydro Abyss Mage",
-    "desc": "Abyss creatures which utilize Hydro energy in battle.\\nAdventurers often make fun of these abyss mages, saying that the most harm they can do is to cause rheumatism or a common cold, but in actuality their power is not to be underestimated.",
-    "baseHP": 27.168,
-    "baseATK": 37.68,
-    "type": 2,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "HydroAbyssMage",
-    "name": "Hydro Abyss Mage",
-    "localeName": "Hydro Abyss Mage",
-    "desc": "Abyss creatures which utilize Hydro energy in battle.\\nAdventurers often make fun of these abyss mages, saying that the most harm they can do is to cause rheumatism or a common cold, but in actuality their power is not to be underestimated.",
-    "baseHP": 27.168,
-    "baseATK": 37.68,
+    "baseDEF": 500,
     "type": 2,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -966,16 +611,7 @@
     "desc": "",
     "baseHP": 13.584,
     "baseATK": 25.12,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.5, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "HydroSamachurl",
-    "name": "Hydro Samachurl",
-    "localeName": "Hydro Samachurl",
-    "desc": "",
-    "baseHP": 13.584,
-    "baseATK": 25.12,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.5, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -986,16 +622,7 @@
     "desc": "",
     "baseHP": 13.584,
     "baseATK": 25.12,
-    "type": 1,
-    "resist": [0.1, 0.5, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "DendroSamachurl",
-    "name": "Dendro Samachurl",
-    "localeName": "Dendro Samachurl",
-    "desc": "",
-    "baseHP": 13.584,
-    "baseATK": 25.12,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.5, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -1006,26 +633,7 @@
     "desc": "",
     "baseHP": 13.584,
     "baseATK": 25.12,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.5, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "AnemoSamachurl",
-    "name": "Anemo Samachurl",
-    "localeName": "Anemo Samachurl",
-    "desc": "",
-    "baseHP": 13.584,
-    "baseATK": 25.12,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.5, 0.1, 0.1, 0.1]
-  },
-  {
-    "id": "AnemoSamachurl",
-    "name": "Anemo Samachurl",
-    "localeName": "Anemo Samachurl",
-    "desc": "",
-    "baseHP": 13.584,
-    "baseATK": 25.12,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.5, 0.1, 0.1, 0.1]
   },
@@ -1036,16 +644,7 @@
     "desc": "",
     "baseHP": 13.584,
     "baseATK": 25.12,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.1]
-  },
-  {
-    "id": "GeoSamachurl",
-    "name": "Geo Samachurl",
-    "localeName": "Geo Samachurl",
-    "desc": "",
-    "baseHP": 13.584,
-    "baseATK": 25.12,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.1]
   },
@@ -1056,6 +655,7 @@
     "desc": "",
     "baseHP": 13.584,
     "baseATK": 25.12,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.1, 0.1]
   },
@@ -1066,6 +666,7 @@
     "desc": "An ancient humanoid war machine.\\nThey are said to be remnants from a lost ancient nation. Some believe that they were developed not as war machines, but as protectors of the ruins.\\nThough that hypothesis does not explain why would they choose to employ explosive weaponry inside the very ruins they are supposed to protect...",
     "baseHP": 95.088,
     "baseATK": 75.36,
+    "baseDEF": 500,
     "type": 2,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.7]
   },
@@ -1076,6 +677,7 @@
     "desc": "A giant alien war machine.\\nThey are said to be remnants from a lost ancient nation. Apparently, the creators opted to forgo the low-performing humanoid-design in pursuit of improved combat effectiveness. They are extremely dangerous both in melee and ranged combat.\\nConsidering these mere relics possess such extraordinary power, one cannot help but wonder what the civilization that produced them must have looked like at its height.",
     "baseHP": 81.504,
     "baseATK": 87.92,
+    "baseDEF": 500,
     "type": 2,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.5]
   },
@@ -1086,6 +688,7 @@
     "desc": "A giant alien war machine.\\nThey are said to be remnants from a lost ancient nation. Apparently, the creators opted to forgo the low-performing humanoid-design in pursuit of improved combat effectiveness. They are extremely dangerous both in melee and ranged combat.\\nConsidering these mere relics possess such extraordinary power, one cannot help but wonder what the civilization that produced them must have looked like at its height.",
     "baseHP": 122.26,
     "baseATK": 87.92,
+    "baseDEF": 500,
     "type": 2,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.7]
   },
@@ -1096,6 +699,7 @@
     "desc": "A soldier encased within a Fatui war machine.\\nArmed with equipment that can control the elements to a certain extent, their guns are capable of firing jets of frost.\\nThough this may confer elemental power beyond the ken of ordinary humans, that power may yet come at a price...",
     "baseHP": 54.336,
     "baseATK": 37.68,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
   },
@@ -1106,6 +710,7 @@
     "desc": "A soldier encased within a Fatui war machine.\\nArmed with equipment that can control the elements to certain extent, their guns are capable of firing jets of water.\\nThese skirmishers do not question if they shall live or die as they advance into nations far from home to complete advance missions and lay the groundwork for operations to come.",
     "baseHP": 40.752,
     "baseATK": 25.12,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
   },
@@ -1116,6 +721,7 @@
     "desc": "A sturdily-built skirmisher armed with an Electro-powered war-hammer.\\nAs a Fatui soldier, one has access to munificent resources: salaries, armaments, and supplies.\\nBut at the same time, it also means much time away from home and family, and putting one's life in the hands of comrades one has never met.",
     "baseHP": 54.336,
     "baseATK": 50.24,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
   },
@@ -1126,6 +732,7 @@
     "desc": "A skirmisher with the ability to generate a Geo Shield and defend their allies.\\nUnlike the elite Mages and Agents, Fatui Skirmishers are soldiers of lesser individual might.\\nTo complete their tasks and reduce losses in men and materiel, their tactics are thus more reliant on teamwork.",
     "baseHP": 40.752,
     "baseATK": 25.12,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
   },
@@ -1136,6 +743,7 @@
     "desc": "A skirmisher armed with the ability to manipulate Anemo and heal their comrades.\\nThey departed from their motherland, but did so for its sake. They left their family, yet gained allies to stick through thick and thin with.\\n—Perhaps such thoughts are what get them through the unscrupulous work that their missions entail.",
     "baseHP": 40.752,
     "baseATK": 25.12,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
   },
@@ -1146,6 +754,7 @@
     "desc": "A Fatui soldier who wields a flaming gun.\\nSkirmisher weapons can control the elements to a certain extent, and their combat tactics utilize elemental reactions.\\nTheir ordnance and combat knowledge thus constitute no small threat in battle.",
     "baseHP": 40.752,
     "baseATK": 37.68,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
   },
@@ -1156,16 +765,7 @@
     "desc": "A Fatui secret agent.\\nThe duty of a Fatui agent is to settle debts — but not only those of a monetary or goods-in-kind nature.\\nThey also ensure dues are paid when it comes to the principle of \"an eye for an eye.\" If there is one thing the Fatui are not known for, it is leniency, and whoever dares to oppose them will invoke the full force of their wrath upon them.",
     "baseHP": 67.92,
     "baseATK": 50.24,
-    "type": 2,
-    "resist": [0.5, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
-  },
-  {
-    "id": "FatuiPyroAgent",
-    "name": "Fatui Pyro Agent",
-    "localeName": "Fatui Pyro Agent",
-    "desc": "A Fatui secret agent.\\nThe duty of a Fatui agent is to settle debts — but not only those of a monetary or goods-in-kind nature.\\nThey also ensure dues are paid when it comes to the principle of \"an eye for an eye.\" If there is one thing the Fatui are not known for, it is leniency, and whoever dares to oppose them will invoke the full force of their wrath upon them.",
-    "baseHP": 67.92,
-    "baseATK": 50.24,
+    "baseDEF": 500,
     "type": 2,
     "resist": [0.5, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
   },
@@ -1176,16 +776,7 @@
     "desc": "A Fatui mage who can command Electro Cicins in battle.\\nSimilarly to the way that Electro Cicins go crazy for Mist Grass, Cicin Mages take great pleasure in toying with their prey.\\nThey seem to wander the land aimlessly, as if compelled by some unknown duty.",
     "baseHP": 67.92,
     "baseATK": 50.24,
-    "type": 2,
-    "resist": [0.1, 0.1, 0.1, 0.5, 0.1, 0.1, 0.1, -0.2]
-  },
-  {
-    "id": "FatuiElectroCicinMage",
-    "name": "Fatui Electro Cicin Mage",
-    "localeName": "Fatui Electro Cicin Mage",
-    "desc": "A Fatui mage who can command Electro Cicins in battle.\\nSimilarly to the way that Electro Cicins go crazy for Mist Grass, Cicin Mages take great pleasure in toying with their prey.\\nThey seem to wander the land aimlessly, as if compelled by some unknown duty.",
-    "baseHP": 67.92,
-    "baseATK": 50.24,
+    "baseDEF": 500,
     "type": 2,
     "resist": [0.1, 0.1, 0.1, 0.5, 0.1, 0.1, 0.1, -0.2]
   },
@@ -1196,6 +787,7 @@
     "desc": "",
     "baseHP": 67.92,
     "baseATK": 50.24,
+    "baseDEF": 500,
     "type": 2,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.1, -0.2]
   },
@@ -1206,36 +798,7 @@
     "desc": "",
     "baseHP": 32.602,
     "baseATK": 25.12,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
-  },
-  {
-    "id": "TreasureHoardersLiuliu",
-    "name": "Treasure Hoarders - Liuliu",
-    "localeName": "Treasure Hoarders - Liuliu",
-    "desc": "",
-    "baseHP": 32.602,
-    "baseATK": 25.12,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
-  },
-  {
-    "id": "TreasureHoardersLiuliu",
-    "name": "Treasure Hoarders - Liuliu",
-    "localeName": "Treasure Hoarders - Liuliu",
-    "desc": "",
-    "baseHP": 32.602,
-    "baseATK": 25.12,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
-  },
-  {
-    "id": "TreasureHoardersLiuliu",
-    "name": "Treasure Hoarders - Liuliu",
-    "localeName": "Treasure Hoarders - Liuliu",
-    "desc": "",
-    "baseHP": 32.602,
-    "baseATK": 25.12,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
   },
@@ -1246,26 +809,7 @@
     "desc": "",
     "baseHP": 16.301,
     "baseATK": 15.072,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
-  },
-  {
-    "id": "TreasureHoardersScout",
-    "name": "Treasure Hoarders - Scout",
-    "localeName": "Treasure Hoarders - Scout",
-    "desc": "",
-    "baseHP": 16.301,
-    "baseATK": 15.072,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
-  },
-  {
-    "id": "TreasureHoardersScout",
-    "name": "Treasure Hoarders - Scout",
-    "localeName": "Treasure Hoarders - Scout",
-    "desc": "",
-    "baseHP": 16.301,
-    "baseATK": 15.072,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
   },
@@ -1276,16 +820,7 @@
     "desc": "",
     "baseHP": 21.734,
     "baseATK": 20.096,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
-  },
-  {
-    "id": "TreasureHoardersPyroPotioneer",
-    "name": "Treasure Hoarders: Pyro Potioneer",
-    "localeName": "Treasure Hoarders: Pyro Potioneer",
-    "desc": "",
-    "baseHP": 21.734,
-    "baseATK": 20.096,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
   },
@@ -1296,6 +831,7 @@
     "desc": "",
     "baseHP": 21.734,
     "baseATK": 20.096,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
   },
@@ -1306,6 +842,7 @@
     "desc": "",
     "baseHP": 21.734,
     "baseATK": 20.096,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
   },
@@ -1316,6 +853,7 @@
     "desc": "",
     "baseHP": 21.734,
     "baseATK": 20.096,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
   },
@@ -1326,6 +864,7 @@
     "desc": "",
     "baseHP": 27.168,
     "baseATK": 20.096,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
   },
@@ -1336,6 +875,7 @@
     "desc": "",
     "baseHP": 27.168,
     "baseATK": 25.12,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
   },
@@ -1346,16 +886,7 @@
     "desc": "",
     "baseHP": 16.301,
     "baseATK": 15.072,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
-  },
-  {
-    "id": "TreasureHoardersMarksman",
-    "name": "Treasure Hoarders - Marksman",
-    "localeName": "Treasure Hoarders - Marksman",
-    "desc": "",
-    "baseHP": 16.301,
-    "baseATK": 15.072,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
   },
@@ -1366,6 +897,7 @@
     "desc": "",
     "baseHP": 40.752,
     "baseATK": 25.12,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
   },
@@ -1376,6 +908,7 @@
     "desc": "",
     "baseHP": 27.168,
     "baseATK": 20.096,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
   },
@@ -1386,6 +919,7 @@
     "desc": "",
     "baseHP": 27.168,
     "baseATK": 20.096,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
   },
@@ -1396,6 +930,7 @@
     "desc": "",
     "baseHP": 32.602,
     "baseATK": 25.12,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
   },
@@ -1406,6 +941,7 @@
     "desc": "",
     "baseHP": 21.734,
     "baseATK": 20.096,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
   },
@@ -1416,6 +952,7 @@
     "desc": "",
     "baseHP": 32.602,
     "baseATK": 25.12,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
   },
@@ -1426,6 +963,7 @@
     "desc": "",
     "baseHP": 27.168,
     "baseATK": 20.096,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
   },
@@ -1436,6 +974,7 @@
     "desc": "",
     "baseHP": 27.168,
     "baseATK": 20.096,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2]
   },
@@ -1446,16 +985,7 @@
     "desc": "A mimetic plant monster that appears out of nowhere and uses Cryo in combat.\\nThese plants lurk under the surface and ambush unsuspecting prey. With the passage of years, sufficient nutrition, and the right environment, it could even take root somewhere and grow into a giant Cryo Regisvine...",
     "baseHP": 40.752,
     "baseATK": 25.12,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.1, 0.1]
-  },
-  {
-    "id": "CryoWhopperflower",
-    "name": "Cryo Whopperflower",
-    "localeName": "Cryo Whopperflower",
-    "desc": "A mimetic plant monster that appears out of nowhere and uses Cryo in combat.\\nThese plants lurk under the surface and ambush unsuspecting prey. With the passage of years, sufficient nutrition, and the right environment, it could even take root somewhere and grow into a giant Cryo Regisvine...",
-    "baseHP": 40.752,
-    "baseATK": 25.12,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.1, 0.1]
   },
@@ -1466,6 +996,7 @@
     "desc": "A mimetic plant monster that attacks without warning and uses Pyro to hunt its prey.\\nThe world of Teyvat plays host to plants infused with the elements. Having gained a measure of intellect, their \"nutritional needs\" have also greatly increased...",
     "baseHP": 40.752,
     "baseATK": 25.12,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.5, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
@@ -1476,16 +1007,7 @@
     "desc": "A monster formed from a vine that was imbued with the essence of biting frost within the Ley Lines.\\nSome studies suggest that plants are like the organs of the world, harmonizing the turbulent elemental energies of the Ley Lines. Concrete examples of this phenomena are Mist Flowers, Whopperflowers and the like, which brim over with elemental energy.\\nIn certain circumstances, certain plants will turn into creatures of monstrous size and intent — such as the Cryo Regisvines — over the course of many years.",
     "baseHP": 95.088,
     "baseATK": 62.8,
-    "type": 3,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.7, 0.1, 0.3]
-  },
-  {
-    "id": "CryoRegisvine",
-    "name": "Cryo Regisvine",
-    "localeName": "Cryo Regisvine",
-    "desc": "A monster formed from a vine that was imbued with the essence of biting frost within the Ley Lines.\\nSome studies suggest that plants are like the organs of the world, harmonizing the turbulent elemental energies of the Ley Lines. Concrete examples of this phenomena are Mist Flowers, Whopperflowers and the like, which brim over with elemental energy.\\nIn certain circumstances, certain plants will turn into creatures of monstrous size and intent — such as the Cryo Regisvines — over the course of many years.",
-    "baseHP": 149.42,
-    "baseATK": 75.36,
+    "baseDEF": 500,
     "type": 3,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.7, 0.1, 0.3]
   },
@@ -1496,6 +1018,7 @@
     "desc": "A giant vine that has absorbed the ancient flame that rages within the Ley Lines.\\nIt is restless, as if filled with an endless fury.\\nPoets, bards and even some academics believe that elements also contain emotions and hope. If this is true, then one can only wonder what emotions cause the Pyro Regisvine to burn eternally, writhing like one longing to be free of the confines of the earth...",
     "baseHP": 95.088,
     "baseATK": 62.8,
+    "baseDEF": 500,
     "type": 3,
     "resist": [0.7, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.3]
   },
@@ -1506,6 +1029,7 @@
     "desc": "A young vishap with a hard Geo exoskeleton.\\nVishaps are exceptionally agile creatures that one would be wise not to underestimate in battle. Experts from Sumeru Academia believe that they become dragons when fully grown. By avoiding predators and natural disasters, perhaps they can even live long enough to become formidable beasts that reign over entire mountains.",
     "baseHP": 40.752,
     "baseATK": 30.144,
+    "baseDEF": 500,
     "type": 2,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.3]
   },
@@ -1516,6 +1040,7 @@
     "desc": "",
     "baseHP": 6.792,
     "baseATK": 10.048,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.5, 0.1, 0.1, 0.1, -0.5]
   },
@@ -1526,6 +1051,7 @@
     "desc": "",
     "baseHP": 6.792,
     "baseATK": 10.048,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.5, 0.1, 0.1, 0.1, 0.1, -0.5]
   },
@@ -1536,6 +1062,7 @@
     "desc": "",
     "baseHP": 6.792,
     "baseATK": 10.048,
+    "baseDEF": 500,
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.1, -0.5]
   }

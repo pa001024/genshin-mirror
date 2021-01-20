@@ -1,7 +1,7 @@
 <template>
-  <v-container class="weapon">
+  <v-container class="item">
     <!-- 筛选 -->
-    <v-card class="weapon-filter mb-3">
+    <v-card class="item-filter mb-3">
       <v-card-text>
         <v-combobox v-model="filterOptions" :items="filters" :label="$t('ui.filter')" multiple chips clearable :item-value="d => d.prop + '=' + d.value">
           <template v-slot:selection="{ attrs, item, parent, selected }">
@@ -29,9 +29,12 @@
               <v-list-item-title>
                 <v-avatar color="indigo" />
               </v-list-item-title>
+              <v-list-item-subtitle align="center">
+                <Rarity :star="item.rarity" fixed />
+              </v-list-item-subtitle>
             </v-list-item-action>
 
-            <nuxt-link :to="'enemy/' + item.id" class="nolink">
+            <nuxt-link :to="'item/' + item.id" class="nolink">
               <v-list-item-content>
                 <v-list-item-title v-text="item.localeName" />
                 <v-list-item-subtitle v-if="$i18n.locale !== 'en'" v-text="item.name" />
@@ -46,19 +49,27 @@
 
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
-import { IWeapon } from "~/modules/core";
+import { Dictionary, groupBy, map } from "lodash";
+import { IItem } from "~/modules/core";
 
 interface FilterOption {
   text: string;
-  prop: keyof IWeapon;
+  prop: keyof IItem;
   value: any;
 }
+
+type Subtitle<T> = T & { subtitle?: string };
 
 @Component<Page>({
   // server
   async asyncData({ $content, app }) {
     const rst: Partial<Page> = { data: null };
-    const res = (await $content(app.i18n.locale, "enemy").only(["id", "name", "localeName", "type"]).sortBy("type", "asc").fetch().catch(console.error)) as any;
+    const res = (await $content(app.i18n.locale, "item")
+      .only(["id", "name", "localeName", "type", "rarity"])
+      .sortBy("type", "asc")
+      .sortBy("rarity", "asc")
+      .fetch()
+      .catch(console.error)) as any;
     rst.data = res;
 
     return rst;
@@ -66,37 +77,44 @@ interface FilterOption {
   // set html header
   head() {
     // Set Meta Tags for this Page
-    const title = this.$t("title.sub", [this.$t("title.enemy")]) as string;
+    const title = this.$t("title.sub", [this.$t("item.title")]) as string;
     return { title };
   },
 })
 export default class Page extends Vue {
-  data: IWeapon[] | null = null;
+  data: IItem[] | null = null;
 
   filterOptions: FilterOption[] = [];
 
   get types(): FilterOption[] {
-    return [...new Set(this.data?.map(v => v.type) || [])].map(v => ({ text: this.$t("enemy." + v) as string, prop: "type", value: v }));
+    return [...new Set(this.data?.map(v => v.type) || [])].map(v => ({ text: this.$t("item." + v) as string, prop: "type", value: v }));
+  }
+
+  get rarities(): FilterOption[] {
+    return [5, 4, 3, 2, 1].map(v => ({ text: "★".repeat(v), prop: "rarity", value: v }));
   }
 
   get filters() {
     return [
-      { header: this.$t("ui.weaponType") },
+      //
+      { header: this.$t("ui.itemType") },
       ...this.types,
-      // , { divider: true }, { header: this.$t("rarity.title") }, ...this.rarities
+      { divider: true },
+      { header: this.$t("rarity.title") },
+      ...this.rarities,
     ];
   }
 
   get items() {
-    return this.data
-      ?.filter(v => !this.filterOptions.some(filter => v[filter.prop] !== filter.value))
-      .reduce((r, item: any, index) => {
-        if (index === 0 || r[index - 1].type !== item.type) {
-          item = { ...item, subtitle: this.$t(`enemy.${item.type}`) as string };
-        }
-        r.push(item);
-        return r;
-      }, [] as Partial<IWeapon & { subtitle: string }>[]);
+    if (!this.data) return [];
+    const items = this.data.filter(v => !this.filterOptions.some(filter => v[filter.prop] !== filter.value));
+    const groups = map<Dictionary<IItem[]>, Subtitle<IItem>[]>(groupBy(items, "type"), (g: Subtitle<IItem>[]) => {
+      const item = g[0];
+      g[0] = { ...item, subtitle: (this.$t(`item.${item.type}`) as string) + ` (${g.length})` };
+      return g;
+    });
+    const rst = ([] as Subtitle<IItem>[]).concat(...groups);
+    return rst;
   }
 }
 </script>

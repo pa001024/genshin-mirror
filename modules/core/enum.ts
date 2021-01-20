@@ -231,3 +231,18 @@ export enum EnemyType {
   /** BOSS */ Boss,
   /** 公子 */ Childe,
 }
+
+export enum MaterialType {
+  /** 命星 */ MATERIAL_TALENT,
+  /** 突破材料 */ MATERIAL_AVATAR_MATERIAL,
+  // /** 角色 */ MATERIAL_AVATAR,
+  /** 料理 */ MATERIAL_FOOD,
+  /** 加血道具 */ MATERIAL_NOTICE_ADD_HP,
+  /** 食材 */ MATERIAL_EXCHANGE,
+  /** 风之翼 */ MATERIAL_FLYCLOAK,
+  /** 名片 */ MATERIAL_NAMECARD,
+  /** 消耗品 */ MATERIAL_CONSUME,
+  // MATERIAL_QUEST,
+  // MATERIAL_CHEST, // 宝箱
+  // MATERIAL_SELECTABLE_CHEST, // 宝箱
+}
