@@ -20,7 +20,7 @@ jobs:
       uses: actions/setup-node@v2
     - run: yarn install
     - run: yarn build
-    - run: tar -zcvf release.tgz .nuxt static nuxt.config.js package.json package-lock.json pm2.config.json
+    - run: tar -zcvf release.tgz .nuxt static nuxt.config.js package.json yarn.lock pm2.config.json
     # 基于这次的tag标签来下载依赖 打包 然后把 后续几个文件生成 tgz 压缩包
 
     # 发布 Release
@@ -66,5 +66,5 @@ jobs:
           cd ~/genshin-mirror
           wget https://github.com/pa001024/genshin-mirror/releases/latest/download/release.tgz -O release.tgz
           tar zxvf release.tgz
-          npm install --production
+          yarn install --production
           pm2 reload pm2.config.json
