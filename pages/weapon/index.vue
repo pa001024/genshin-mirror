@@ -24,11 +24,11 @@
             {{ item.subtitle }}
           </v-subheader>
           <!-- 内容 -->
-          <v-list-item v-if="item.name" :key="item.name">
-            <nuxt-link :to="'weapon/' + item.name" class="nolink">
+          <v-list-item v-if="item.id" :key="item.id">
+            <nuxt-link :to="'weapon/' + item.id" class="nolink">
               <v-list-item-action>
                 <v-list-item-title>
-                  <WeaponImage :id="item.name" :fallback="item.type" />
+                  <WeaponImage :id="item.id" :fallback="item.type" />
                 </v-list-item-title>
                 <v-list-item-subtitle align="center">
                   <Rarity :star="item.rarity" fixed />
@@ -37,8 +37,8 @@
             </nuxt-link>
 
             <v-list-item-content>
-              <v-list-item-title v-text="$t(item.name)" />
-              <v-list-item-subtitle v-if="$i18n.locale !== 'en'" v-text="$t(item.name, 'en')" />
+              <v-list-item-title v-text="item.localeName" />
+              <v-list-item-subtitle v-if="$i18n.locale !== 'en'" v-text="item.name" />
             </v-list-item-content>
           </v-list-item>
         </template>
@@ -61,18 +61,18 @@ interface FilterOption {
   // server
   async asyncData({ $content, app }) {
     const rst: Partial<Page> = { data: null, page: null };
-    const res = (await $content("common/weapon")
-      .only(["name", "type", "rarity", "baseATK", "subAttr"])
+    const res = (await $content(app.i18n.locale, "weapon")
+      .only(["id", "name", "localeName", "type", "rarity", "baseATK", "subAttr"])
       .sortBy("type", "asc")
       .sortBy("rarity", "desc")
       .fetch()
       .catch(console.error)) as any;
     rst.data = res;
-    if (rst.data) {
-      rst.page = await $content(app.i18n.locale, "weapon")
-        .fetch()
-        .catch(() => {});
-    }
+    // if (rst.data) {
+    //   rst.page = await $content(app.i18n.locale, "weapon")
+    //     .fetch()
+    //     .catch(() => {});
+    // }
     return rst;
   },
   // set html header

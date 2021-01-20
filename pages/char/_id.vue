@@ -1,70 +1,95 @@
 <template>
   <div v-if="data" class="gsm-avatar">
-    <v-card>
+    <v-card max-width="560" class="mx-auto">
       <v-card-title>
-        <CharImage :id="data.id" :element="data.element" avatar :size="56" />
-        {{ data.localeName }}
-        <v-card-subtitle v-if="$i18n.locale !== 'en'" v-text="data.id" />
+        <v-list-item two-line>
+          <v-list-item-action>
+            <CharImage :id="data.id" :element="data.element" avatar :size="48" />
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title class="headline">{{ data.localeName }}</v-list-item-title>
+            <v-list-item-subtitle v-text="data.name" />
+          </v-list-item-content>
+        </v-list-item>
       </v-card-title>
       <v-card-text>
-        <v-container>
-          <v-row>
-            <v-col cols="6" sm="4" md="2">
-              <v-card class="info-block">
-                <v-card-title class="info-title">{{ $t("region.title") }}</v-card-title>
-                <v-card-text class="info-content">{{ $t(`region.${data.region}`) }}</v-card-text>
-              </v-card>
-            </v-col>
-            <v-col cols="6" sm="4" md="2">
-              <v-card class="info-block">
-                <v-card-title class="info-title">{{ $t("rarity.title") }}</v-card-title>
-                <v-card-text class="info-content"><Rarity :star="data.rarity" /></v-card-text>
-              </v-card>
-            </v-col>
-            <v-col cols="6" sm="4" md="2">
-              <v-card class="info-block">
-                <v-card-title class="info-title">{{ $t("element.title") }}</v-card-title>
-                <v-card-text class="info-content">{{ $t(`element.${data.element}`) }}</v-card-text>
-              </v-card>
-            </v-col>
-            <v-col cols="6" sm="4" md="2">
-              <v-card class="info-block">
-                <v-card-title class="info-title">{{ $t("weapon.title") }}</v-card-title>
-                <v-card-text class="info-content">{{ $t(`weapon.${data.weapon}`) }}</v-card-text>
-              </v-card>
-            </v-col>
-            <v-col cols="6" sm="4" md="2">
-              <v-card class="info-block">
-                <v-card-title class="info-title">{{ $t("ascension.title") }}</v-card-title>
-                <v-card-text class="info-content">{{ $t(`buff.${data.ascensionType}`) }}</v-card-text>
-              </v-card>
-            </v-col>
-          </v-row>
-          <v-row>
-            <v-col cols="6" sm="4" md="2">
-              <v-card class="info-block">
-                <v-card-title class="info-title" v-text="$t('buff.1')" />
-                <v-card-text class="info-content" v-text="data.baseHP" />
-              </v-card>
-            </v-col>
-            <v-col cols="6" sm="4" md="2">
-              <v-card class="info-block">
-                <v-card-title class="info-title" v-text="$t('buff.2')" />
-                <v-card-text class="info-content" v-text="data.baseATK" />
-              </v-card>
-            </v-col>
-            <v-col cols="6" sm="4" md="2">
-              <v-card class="info-block">
-                <v-card-title class="info-title" v-text="$t('buff.3')" />
-                <v-card-text class="info-content" v-text="data.baseDEF" />
-              </v-card>
-            </v-col>
-          </v-row>
-        </v-container>
+        <!-- 基础信息 -->
+        <v-row>
+          <v-col cols="6">
+            <v-list-item two-line>
+              <v-list-item-content>
+                <v-list-item-subtitle v-text="$t('region.title')" />
+                <v-list-item-title class="headline" v-text="$t(`region.${data.region}`)" />
+              </v-list-item-content>
+            </v-list-item>
+          </v-col>
+          <v-col cols="6">
+            <v-list-item two-line>
+              <v-list-item-content>
+                <v-list-item-subtitle v-text="$t('rarity.title')" />
+                <v-list-item-title class="headline"><Rarity :star="data.rarity" /></v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+          </v-col>
+          <v-col cols="6">
+            <v-list-item two-line>
+              <v-list-item-content>
+                <v-list-item-subtitle v-text="$t('element.title')" />
+                <v-list-item-title class="headline">{{ $t(`element.${data.element}`) }}</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+          </v-col>
+          <v-col cols="6">
+            <v-list-item two-line>
+              <v-list-item-content>
+                <v-list-item-subtitle v-text="$t('weapon.title')" />
+                <v-list-item-title class="headline">{{ $t(`weapon.${data.weapon}`) }}</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+          </v-col>
+          <v-col cols="6">
+            <v-list-item two-line>
+              <v-list-item-content>
+                <v-list-item-subtitle v-text="$t('ascension.title')" />
+                <v-list-item-title class="headline">{{ $t(`buff.${data.ascensionType}`) }}</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+          </v-col>
+        </v-row>
+        <v-divider class="mb-2 mt-2" />
+        <!-- 基础数值 -->
+        <v-row>
+          <v-col cols="6">
+            <v-list-item two-line>
+              <v-list-item-content>
+                <v-list-item-subtitle v-text="$t('buff.1')" />
+                <v-list-item-title class="headline" v-text="data.baseHP" />
+              </v-list-item-content>
+            </v-list-item>
+          </v-col>
+          <v-col cols="6">
+            <v-list-item two-line>
+              <v-list-item-content>
+                <v-list-item-subtitle v-text="$t('buff.2')" />
+                <v-list-item-title class="headline" v-text="data.baseATK" />
+              </v-list-item-content>
+            </v-list-item>
+          </v-col>
+          <v-col cols="6">
+            <v-list-item two-line>
+              <v-list-item-content>
+                <v-list-item-subtitle v-text="$t('buff.3')" />
+                <v-list-item-title class="headline" v-text="data.baseDEF" />
+              </v-list-item-content>
+            </v-list-item>
+          </v-col>
+        </v-row>
+        <v-divider class="mb-2 mt-2" />
+        <v-card-text v-text="data.desc" />
       </v-card-text>
     </v-card>
   </div>
-  <div v-else class="error">找不到此角色</div>
+  <div v-else class="error">{{ $t("ui.char404") }}</div>
 </template>
 
 <script lang="ts">
@@ -77,7 +102,6 @@ import { IAvatar } from "~/modules/core";
     const rst: Partial<Page> = { id, data: null };
     if (id.includes("../")) return { id };
     const res = (await $content(app.i18n.locale, "char", id).fetch().catch(console.error)) as any;
-    console.log(res);
     rst.data = res;
     return rst;
   },

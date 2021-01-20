@@ -1,0 +1,7639 @@
+[
+  {
+    "id": "DullBlade",
+    "name": "Dull Blade",
+    "localeName": "無鋒劍",
+    "desc": "少年人的夢想、踏上旅途的興奮——如果這兩種珍貴的特質還不夠鋒利，那就用勇氣補足吧。",
+    "rarity": 1,
+    "type": 1,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 11.7,
+        "cost": [
+          ["TileofDecarabiansTower", 1],
+          ["HeavyHorn", 1],
+          ["FirmArrowhead", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 23.3,
+        "cost": [
+          ["DebrisofDecarabiansCity", 1],
+          ["HeavyHorn", 4],
+          ["FirmArrowhead", 2]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 35,
+        "cost": [
+          ["DebrisofDecarabiansCity", 2],
+          ["BlackBronzeHorn", 2],
+          ["SharpArrowhead", 2]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 46.7,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 1],
+          ["BlackBronzeHorn", 4],
+          ["SharpArrowhead", 3]
+        ]
+      }
+    ],
+    "baseATK": 23.245,
+    "baseATKCurve": 1
+  },
+  {
+    "id": "SilverSword",
+    "name": "Silver Sword",
+    "localeName": "銀劍",
+    "desc": "能退魔的銀劍。大家都知道，其實用料是銀合金而不是純銀。",
+    "rarity": 2,
+    "type": 1,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 11.7,
+        "cost": [
+          ["TileofDecarabiansTower", 1],
+          ["HeavyHorn", 1],
+          ["FirmArrowhead", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 23.3,
+        "cost": [
+          ["DebrisofDecarabiansCity", 1],
+          ["HeavyHorn", 5],
+          ["FirmArrowhead", 4]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 35,
+        "cost": [
+          ["DebrisofDecarabiansCity", 3],
+          ["BlackBronzeHorn", 3],
+          ["SharpArrowhead", 3]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 46.7,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 1],
+          ["BlackBronzeHorn", 5],
+          ["SharpArrowhead", 4]
+        ]
+      }
+    ],
+    "baseATK": 32.93,
+    "baseATKCurve": 1
+  },
+  {
+    "id": "CoolSteel",
+    "name": "Cool Steel",
+    "localeName": "冷刃",
+    "desc": "多層鍛打的精鋼鑄就的可靠兵器，曾見證舊主諸多冒險奇譚。",
+    "rarity": 3,
+    "type": 1,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["TileofDecarabiansTower", 2],
+          ["HeavyHorn", 2],
+          ["FirmArrowhead", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["DebrisofDecarabiansCity", 2],
+          ["HeavyHorn", 8],
+          ["FirmArrowhead", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["DebrisofDecarabiansCity", 4],
+          ["BlackBronzeHorn", 4],
+          ["SharpArrowhead", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 2],
+          ["BlackBronzeHorn", 8],
+          ["SharpArrowhead", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 4],
+          ["BlackCrystalHorn", 6],
+          ["WeatheredArrowhead", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["ScatteredPieceofDecarabiansDream", 3],
+          ["BlackCrystalHorn", 12],
+          ["WeatheredArrowhead", 8]
+        ]
+      }
+    ],
+    "baseATK": 38.741,
+    "baseATKCurve": 1,
+    "subAttr": { "type": 7, "value": 0.0766, "curve": 16 },
+    "affix": {
+      "name": "止水融冰",
+      "desc": "對處於水元素或冰元素影響下的敵人，造成的傷害提高<color=#99FFFFFF>12%</color>。",
+      "levels": [
+        { "attrs": [], "params": [0.12] },
+        { "attrs": [], "params": [0.15] },
+        { "attrs": [], "params": [0.18] },
+        { "attrs": [], "params": [0.21] },
+        { "attrs": [], "params": [0.24] }
+      ]
+    }
+  },
+  {
+    "id": "HarbingerofDawn",
+    "name": "Harbinger of Dawn",
+    "localeName": "黎明神劍",
+    "desc": "一把曾經耀若朝陽的寶劍，掌握它的人會獲得「自我感覺良好」的力量加持。劍身的發光材料已經褪去。",
+    "rarity": 3,
+    "type": 1,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["BorealWolfsMilkTooth", 2],
+          ["DeadLeyLineBranch", 2],
+          ["SlimeCondensate", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 2],
+          ["DeadLeyLineBranch", 8],
+          ["SlimeCondensate", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 4],
+          ["DeadLeyLineLeaves", 4],
+          ["SlimeSecretions", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["BorealWolfsBrokenFang", 2],
+          ["DeadLeyLineLeaves", 8],
+          ["SlimeSecretions", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["BorealWolfsBrokenFang", 4],
+          ["LeyLineSprout", 6],
+          ["SlimeConcentrate", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["BorealWolfsNostalgia", 3],
+          ["LeyLineSprout", 12],
+          ["SlimeConcentrate", 8]
+        ]
+      }
+    ],
+    "baseATK": 38.741,
+    "baseATKCurve": 1,
+    "subAttr": { "type": 13, "value": 0.102, "curve": 16 },
+    "affix": {
+      "name": "激勵",
+      "desc": "生命值高於90%時，暴擊率提升<color=#99FFFFFF>14%</color>。",
+      "levels": [
+        { "attrs": [], "params": [0.14] },
+        { "attrs": [], "params": [0.175] },
+        { "attrs": [], "params": [0.21] },
+        { "attrs": [], "params": [0.245] },
+        { "attrs": [], "params": [0.28] }
+      ]
+    }
+  },
+  {
+    "id": "TravelersHandySword",
+    "name": "Traveler's Handy Sword",
+    "localeName": "旅行劍",
+    "desc": "稱手的鋼劍，劍柄裡藏著剪刀、放大鏡、火絨等方便旅行的小東西。",
+    "rarity": 3,
+    "type": 1,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["FettersoftheDandelionGladiator", 2],
+          ["ChaosDevice", 2],
+          ["DiviningScroll", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 2],
+          ["ChaosDevice", 8],
+          ["DiviningScroll", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 4],
+          ["ChaosCircuit", 4],
+          ["SealedScroll", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 2],
+          ["ChaosCircuit", 8],
+          ["SealedScroll", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 4],
+          ["ChaosCore", 6],
+          ["ForbiddenCurseScroll", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["DreamoftheDandelionGladiator", 3],
+          ["ChaosCore", 12],
+          ["ForbiddenCurseScroll", 8]
+        ]
+      }
+    ],
+    "baseATK": 39.875,
+    "baseATKCurve": 2,
+    "subAttr": { "type": 9, "value": 0.063733, "curve": 16 },
+    "affix": {
+      "name": "旅程",
+      "desc": "獲得元素晶球或元素微粒時，恢復<color=#99FFFFFF>1%</color>生命值。",
+      "levels": [
+        { "attrs": [], "params": [0.01, 1] },
+        { "attrs": [], "params": [0.0125, 1] },
+        { "attrs": [], "params": [0.015, 1] },
+        { "attrs": [], "params": [0.0175, 1] },
+        { "attrs": [], "params": [0.02, 1] }
+      ]
+    }
+  },
+  {
+    "id": "DarkIronSword",
+    "name": "Dark Iron Sword",
+    "localeName": "暗鐵劍",
+    "desc": "其實就是稍微有點黑的鐵劍。",
+    "rarity": 3,
+    "type": 1,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["LuminousSandsfromGuyun", 2],
+          ["HuntersSacrificialKnife", 2],
+          ["DamagedMask", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["LustrousStonefromGuyun", 2],
+          ["HuntersSacrificialKnife", 8],
+          ["DamagedMask", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["LustrousStonefromGuyun", 4],
+          ["AgentsSacrificialKnife", 4],
+          ["StainedMask", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["RelicfromGuyun", 2],
+          ["AgentsSacrificialKnife", 8],
+          ["StainedMask", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["RelicfromGuyun", 4],
+          ["InspectorsSacrificialKnife", 6],
+          ["OminousMask", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["DivineBodyfromGuyun", 3],
+          ["InspectorsSacrificialKnife", 12],
+          ["OminousMask", 8]
+        ]
+      }
+    ],
+    "baseATK": 38.741,
+    "baseATKCurve": 1,
+    "subAttr": { "type": 11, "value": 30.6, "curve": 16 },
+    "affix": {
+      "name": "過載",
+      "desc": "觸發超載、超導、感電或雷元素擴散反應後的12秒內，攻擊力提高<color=#99FFFFFF>20%</color>。",
+      "levels": [
+        { "attrs": [], "params": [0.2, 12] },
+        { "attrs": [], "params": [0.25, 12] },
+        { "attrs": [], "params": [0.3, 12] },
+        { "attrs": [], "params": [0.35, 12] },
+        { "attrs": [], "params": [0.4, 12] }
+      ]
+    }
+  },
+  {
+    "id": "FilletBlade",
+    "name": "Fillet Blade",
+    "localeName": "吃虎魚刀",
+    "desc": "用來剖魚的鋒利鐵刀，刀身狹長，非常鋒利。",
+    "rarity": 3,
+    "type": 1,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["MistVeiledLeadElixir", 2],
+          ["MistGrassPollen", 2],
+          ["TreasureHoarderInsignia", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["MistVeiledMercuryElixir", 2],
+          ["MistGrassPollen", 8],
+          ["TreasureHoarderInsignia", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["MistVeiledMercuryElixir", 4],
+          ["MistGrass", 4],
+          ["SilverRavenInsignia", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["MistVeiledGoldElixir", 2],
+          ["MistGrass", 8],
+          ["SilverRavenInsignia", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["MistVeiledGoldElixir", 4],
+          ["MistGrassWick", 6],
+          ["GoldenRavenInsignia", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["MistVeiledPrimoElixir", 3],
+          ["MistGrassWick", 12],
+          ["GoldenRavenInsignia", 8]
+        ]
+      }
+    ],
+    "baseATK": 38.741,
+    "baseATKCurve": 1,
+    "subAttr": { "type": 7, "value": 0.0766, "curve": 16 },
+    "affix": {
+      "name": "決",
+      "desc": "攻擊命中時，有50%的機率對單個敵人造成<color=#99FFFFFF>240%</color>攻擊力的傷害。該效果每<color=#99FFFFFF>15</color>秒只能觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [0.5, 2.4, 15] },
+        { "attrs": [], "params": [0.5, 2.8, 14] },
+        { "attrs": [], "params": [0.5, 3.2, 13] },
+        { "attrs": [], "params": [0.5, 3.6, 12] },
+        { "attrs": [], "params": [0.5, 4, 11] }
+      ]
+    }
+  },
+  {
+    "id": "SkyriderSword",
+    "name": "Skyrider Sword",
+    "localeName": "飛天御劍",
+    "desc": "可靠的鋼劍，傳說著名的「御劍公子」曾試圖借助它飛天。",
+    "rarity": 3,
+    "type": 1,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["GrainofAerosiderite", 2],
+          ["FragileBoneShard", 2],
+          ["RecruitsInsignia", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["PieceofAerosiderite", 2],
+          ["FragileBoneShard", 8],
+          ["RecruitsInsignia", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["PieceofAerosiderite", 4],
+          ["SturdyBoneShard", 4],
+          ["SergeantsInsignia", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["BitofAerosiderite", 2],
+          ["SturdyBoneShard", 8],
+          ["SergeantsInsignia", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["BitofAerosiderite", 4],
+          ["FossilizedBoneShard", 6],
+          ["LieutenantsInsignia", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["ChunkofAerosiderite", 3],
+          ["FossilizedBoneShard", 12],
+          ["LieutenantsInsignia", 8]
+        ]
+      }
+    ],
+    "baseATK": 37.607,
+    "baseATKCurve": 4,
+    "subAttr": { "type": 10, "value": 0.11333, "curve": 16 },
+    "affix": {
+      "name": "決心",
+      "desc": "施放元素爆發後，提高<color=#99FFFFFF>12%</color>攻擊力和移動速度，持續15秒。",
+      "levels": [
+        { "attrs": [], "params": [0.12, 15] },
+        { "attrs": [], "params": [0.15, 15] },
+        { "attrs": [], "params": [0.18, 15] },
+        { "attrs": [], "params": [0.21, 15] },
+        { "attrs": [], "params": [0.24, 15] }
+      ]
+    }
+  },
+  {
+    "id": "FavoniusSword",
+    "name": "Favonius Sword",
+    "localeName": "西風劍",
+    "desc": "西風騎士團的制式長劍。輕快銳利之餘，也能輕易導出元素力量。",
+    "rarity": 4,
+    "type": 1,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["TileofDecarabiansTower", 3],
+          ["HeavyHorn", 3],
+          ["FirmArrowhead", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["DebrisofDecarabiansCity", 3],
+          ["HeavyHorn", 12],
+          ["FirmArrowhead", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["DebrisofDecarabiansCity", 6],
+          ["BlackBronzeHorn", 6],
+          ["SharpArrowhead", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 3],
+          ["BlackBronzeHorn", 12],
+          ["SharpArrowhead", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 6],
+          ["BlackCrystalHorn", 9],
+          ["WeatheredArrowhead", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["ScatteredPieceofDecarabiansDream", 4],
+          ["BlackCrystalHorn", 18],
+          ["WeatheredArrowhead", 12]
+        ]
+      }
+    ],
+    "baseATK": 41.067,
+    "baseATKCurve": 9,
+    "subAttr": { "type": 10, "value": 0.13333, "curve": 17 },
+    "affix": {
+      "name": "順風而行",
+      "desc": "攻擊造成暴擊時，有<color=#99FFFFFF>60%</color>的機率產生少量元素微粒，能為角色恢復6點元素能量。該效果每<color=#99FFFFFF>12</color>秒只能觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [0.6, 12] },
+        { "attrs": [], "params": [0.7, 10.5] },
+        { "attrs": [], "params": [0.8, 9] },
+        { "attrs": [], "params": [0.9, 7.5] },
+        { "attrs": [], "params": [1, 6] }
+      ]
+    }
+  },
+  {
+    "id": "TheFlute",
+    "name": "The Flute",
+    "localeName": "笛劍",
+    "desc": "細劍的鏽跡下透露出原本華麗的裝飾，揮舞時輕若無物。",
+    "rarity": 4,
+    "type": 1,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["BorealWolfsMilkTooth", 3],
+          ["DeadLeyLineBranch", 3],
+          ["SlimeCondensate", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 3],
+          ["DeadLeyLineBranch", 12],
+          ["SlimeCondensate", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 6],
+          ["DeadLeyLineLeaves", 6],
+          ["SlimeSecretions", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["BorealWolfsBrokenFang", 3],
+          ["DeadLeyLineLeaves", 12],
+          ["SlimeSecretions", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["BorealWolfsBrokenFang", 6],
+          ["LeyLineSprout", 9],
+          ["SlimeConcentrate", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["BorealWolfsNostalgia", 4],
+          ["LeyLineSprout", 18],
+          ["SlimeConcentrate", 12]
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
+    "affix": {
+      "name": "和弦",
+      "desc": "普通攻擊或重擊命中時，會獲得一個和音。累積了五個和音後，釋放音律的力量，對週圍的敵人造成<color=#99FFFFFF>100%</color>攻擊力的傷害。和音最多存在30秒，每0.5秒至多獲得一個和音。",
+      "levels": [
+        { "attrs": [], "params": [1, 1] },
+        { "attrs": [], "params": [1, 1.25] },
+        { "attrs": [], "params": [1, 1.5] },
+        { "attrs": [], "params": [1, 1.75] },
+        { "attrs": [], "params": [1, 2] }
+      ]
+    }
+  },
+  {
+    "id": "SacrificialSword",
+    "name": "Sacrificial Sword",
+    "localeName": "祭禮劍",
+    "desc": "在漫長歲月中石化的道具劍，上面的儀式性裝飾依然清晰可見。擁有受時間之風沖刷的祝福力量。",
+    "rarity": 4,
+    "type": 1,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["FettersoftheDandelionGladiator", 3],
+          ["ChaosDevice", 3],
+          ["DiviningScroll", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 3],
+          ["ChaosDevice", 12],
+          ["DiviningScroll", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 6],
+          ["ChaosCircuit", 6],
+          ["SealedScroll", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 3],
+          ["ChaosCircuit", 12],
+          ["SealedScroll", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 6],
+          ["ChaosCore", 9],
+          ["ForbiddenCurseScroll", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["DreamoftheDandelionGladiator", 4],
+          ["ChaosCore", 18],
+          ["ForbiddenCurseScroll", 12]
+        ]
+      }
+    ],
+    "baseATK": 41.067,
+    "baseATKCurve": 9,
+    "subAttr": { "type": 10, "value": 0.13333, "curve": 17 },
+    "affix": {
+      "name": "氣定神閒",
+      "desc": "元素戰技造成傷害時，有<color=#99FFFFFF>40%</color>的機率重置該技能的冷卻時間，該效果每<color=#99FFFFFF>30</color>秒只能觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [0.4, 30] },
+        { "attrs": [], "params": [0.5, 26] },
+        { "attrs": [], "params": [0.6, 22] },
+        { "attrs": [], "params": [0.7, 19] },
+        { "attrs": [], "params": [0.8, 16] }
+      ]
+    }
+  },
+  {
+    "id": "RoyalLongsword",
+    "name": "Royal Longsword",
+    "localeName": "宗室長劍",
+    "desc": "曾支配蒙德的舊日貴族的佩劍。做工精良，裝飾與雕花彰顯著揮舞者的身份。",
+    "rarity": 4,
+    "type": 1,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["TileofDecarabiansTower", 3],
+          ["HeavyHorn", 3],
+          ["DamagedMask", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["DebrisofDecarabiansCity", 3],
+          ["HeavyHorn", 12],
+          ["DamagedMask", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["DebrisofDecarabiansCity", 6],
+          ["BlackBronzeHorn", 6],
+          ["StainedMask", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 3],
+          ["BlackBronzeHorn", 12],
+          ["StainedMask", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 6],
+          ["BlackCrystalHorn", 9],
+          ["OminousMask", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["ScatteredPieceofDecarabiansDream", 4],
+          ["BlackCrystalHorn", 18],
+          ["OminousMask", 12]
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
+    "affix": {
+      "name": "專注",
+      "desc": "攻擊造成傷害時，暴擊率提升<color=#99FFFFFF>8%</color>，效果最多疊加五層。攻擊造成暴擊後，移除已有的專注效果。",
+      "levels": [
+        { "attrs": [], "params": [0.08] },
+        { "attrs": [], "params": [0.1] },
+        { "attrs": [], "params": [0.12] },
+        { "attrs": [], "params": [0.14] },
+        { "attrs": [], "params": [0.16] }
+      ]
+    }
+  },
+  {
+    "id": "LionsRoar",
+    "name": "Lion's Roar",
+    "localeName": "匣裡龍吟",
+    "desc": "雕飾浮華的利刃，卻絲毫不損它的柔韌與鋒銳。破空之聲有如龍吟。",
+    "rarity": 4,
+    "type": 1,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["LuminousSandsfromGuyun", 3],
+          ["HuntersSacrificialKnife", 3],
+          ["TreasureHoarderInsignia", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["LustrousStonefromGuyun", 3],
+          ["HuntersSacrificialKnife", 12],
+          ["TreasureHoarderInsignia", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["LustrousStonefromGuyun", 6],
+          ["AgentsSacrificialKnife", 6],
+          ["SilverRavenInsignia", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["RelicfromGuyun", 3],
+          ["AgentsSacrificialKnife", 12],
+          ["SilverRavenInsignia", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["RelicfromGuyun", 6],
+          ["InspectorsSacrificialKnife", 9],
+          ["GoldenRavenInsignia", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["DivineBodyfromGuyun", 4],
+          ["InspectorsSacrificialKnife", 18],
+          ["GoldenRavenInsignia", 12]
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
+    "affix": {
+      "name": "踏火息雷",
+      "desc": "對處於火元素或雷元素影響下的敵人，造成的傷害提高<color=#99FFFFFF>20%</color>。",
+      "levels": [
+        { "attrs": [], "params": [0.2] },
+        { "attrs": [], "params": [0.24] },
+        { "attrs": [], "params": [0.28] },
+        { "attrs": [], "params": [0.32] },
+        { "attrs": [], "params": [0.36] }
+      ]
+    }
+  },
+  {
+    "id": "PrototypeRancour",
+    "name": "Prototype Rancour",
+    "localeName": "試作斬岩",
+    "desc": "黑岩廠中密藏的古老長劍。可揮砍斷岩而刃不卷。",
+    "rarity": 4,
+    "type": 1,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["MistVeiledLeadElixir", 3],
+          ["MistGrassPollen", 3],
+          ["RecruitsInsignia", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["MistVeiledMercuryElixir", 3],
+          ["MistGrassPollen", 12],
+          ["RecruitsInsignia", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["MistVeiledMercuryElixir", 6],
+          ["MistGrass", 6],
+          ["SergeantsInsignia", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["MistVeiledGoldElixir", 3],
+          ["MistGrass", 12],
+          ["SergeantsInsignia", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["MistVeiledGoldElixir", 6],
+          ["MistGrassWick", 9],
+          ["LieutenantsInsignia", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["MistVeiledPrimoElixir", 4],
+          ["MistGrassWick", 18],
+          ["LieutenantsInsignia", 12]
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "subAttr": { "type": 33, "value": 0.075067, "curve": 17 },
+    "affix": {
+      "name": "碎石",
+      "desc": "普通攻擊或重擊命中時，攻擊力和防禦力提高<color=#99FFFFFF>4%</color>，持續6秒，最多疊加四層。該效果每0.3秒只能觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [0.04] },
+        { "attrs": [], "params": [0.05] },
+        { "attrs": [], "params": [0.06] },
+        { "attrs": [], "params": [0.07] },
+        { "attrs": [], "params": [0.08] }
+      ]
+    }
+  },
+  {
+    "id": "IronSting",
+    "name": "Iron Sting",
+    "localeName": "鐵蜂刺",
+    "desc": "外形流利的細長刺劍，是從異國經由商路流落到璃月的奇異兵器。輕快無比，劍芒極其銳利。",
+    "rarity": 4,
+    "type": 1,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["GrainofAerosiderite", 3],
+          ["FragileBoneShard", 3],
+          ["WhopperflowerNectar", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["PieceofAerosiderite", 3],
+          ["FragileBoneShard", 12],
+          ["WhopperflowerNectar", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["PieceofAerosiderite", 6],
+          ["SturdyBoneShard", 6],
+          ["ShimmeringNectar", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["BitofAerosiderite", 3],
+          ["SturdyBoneShard", 12],
+          ["ShimmeringNectar", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["BitofAerosiderite", 6],
+          ["FossilizedBoneShard", 9],
+          ["EnergyNectar", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["ChunkofAerosiderite", 4],
+          ["FossilizedBoneShard", 18],
+          ["EnergyNectar", 12]
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "subAttr": { "type": 11, "value": 36, "curve": 17 },
+    "affix": {
+      "name": "注能之刺",
+      "desc": "造成元素傷害後的6秒內，角色造成的傷害提高<color=#99FFFFFF>6%</color>，最多疊加兩層。該效果每秒只能觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [0.06, 1, 6] },
+        { "attrs": [], "params": [0.075, 1, 6] },
+        { "attrs": [], "params": [0.09, 1, 6] },
+        { "attrs": [], "params": [0.105, 1, 6] },
+        { "attrs": [], "params": [0.12, 1, 6] }
+      ]
+    }
+  },
+  {
+    "id": "BlackcliffLongsword",
+    "name": "Blackcliff Longsword",
+    "localeName": "黑岩長劍",
+    "desc": "黑岩鍛造而成的長劍。玄色的劍身隱隱流漏血光。",
+    "rarity": 4,
+    "type": 1,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["LuminousSandsfromGuyun", 3],
+          ["HuntersSacrificialKnife", 3],
+          ["FirmArrowhead", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["LustrousStonefromGuyun", 3],
+          ["HuntersSacrificialKnife", 12],
+          ["FirmArrowhead", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["LustrousStonefromGuyun", 6],
+          ["AgentsSacrificialKnife", 6],
+          ["SharpArrowhead", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["RelicfromGuyun", 3],
+          ["AgentsSacrificialKnife", 12],
+          ["SharpArrowhead", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["RelicfromGuyun", 6],
+          ["InspectorsSacrificialKnife", 9],
+          ["WeatheredArrowhead", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["DivineBodyfromGuyun", 4],
+          ["InspectorsSacrificialKnife", 18],
+          ["WeatheredArrowhead", 12]
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "subAttr": { "type": 13, "value": 0.08, "curve": 17 },
+    "affix": {
+      "name": "乘勝追擊",
+      "desc": "擊敗敵人後，攻擊力提升<color=#99FFFFFF>12%</color>，持續30秒。該效果至多疊加三層，每層持續時間獨立。",
+      "levels": [
+        { "attrs": [], "params": [0.12, 30] },
+        { "attrs": [], "params": [0.15, 30] },
+        { "attrs": [], "params": [0.18, 30] },
+        { "attrs": [], "params": [0.21, 30] },
+        { "attrs": [], "params": [0.24, 30] }
+      ]
+    }
+  },
+  {
+    "id": "TheBlackSword",
+    "name": "The Black Sword",
+    "localeName": "黑劍",
+    "desc": "渴求著紛爭與砍殺的漆黑長劍，據說會讓人沉醉在浴血廝殺的亢奮中。",
+    "rarity": 4,
+    "type": 1,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["BorealWolfsMilkTooth", 3],
+          ["DeadLeyLineBranch", 3],
+          ["SlimeCondensate", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 3],
+          ["DeadLeyLineBranch", 12],
+          ["SlimeCondensate", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 6],
+          ["DeadLeyLineLeaves", 6],
+          ["SlimeSecretions", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["BorealWolfsBrokenFang", 3],
+          ["DeadLeyLineLeaves", 12],
+          ["SlimeSecretions", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["BorealWolfsBrokenFang", 6],
+          ["LeyLineSprout", 9],
+          ["SlimeConcentrate", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["BorealWolfsNostalgia", 4],
+          ["LeyLineSprout", 18],
+          ["SlimeConcentrate", 12]
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "subAttr": { "type": 12, "value": 0.06, "curve": 17 },
+    "affix": {
+      "name": "「正義」",
+      "desc": "普通攻擊與重擊的造成的傷害提升<color=#99FFFFFF>20%</color>；此外，普通攻擊與重擊暴擊時，回復等同於攻擊力<color=#99FFFFFF>60%</color>的生命值。該效果每5秒至多發動一次。",
+      "levels": [
+        { "attrs": [], "params": [0.2, 0.6, 5, 1] },
+        { "attrs": [], "params": [0.25, 0.7, 5, 1] },
+        { "attrs": [], "params": [0.3, 0.8, 5, 1] },
+        { "attrs": [], "params": [0.35, 0.9, 5, 1] },
+        { "attrs": [], "params": [0.4, 1, 5, 1] }
+      ]
+    }
+  },
+  {
+    "id": "SwordofDescension",
+    "name": "Sword of Descension",
+    "localeName": "降臨之劍",
+    "desc": "造型獨特的劍。看起來並不屬於這個世界。",
+    "rarity": 4,
+    "type": 1,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["BorealWolfsMilkTooth", 3],
+          ["DeadLeyLineBranch", 3],
+          ["TreasureHoarderInsignia", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 3],
+          ["DeadLeyLineBranch", 12],
+          ["TreasureHoarderInsignia", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 6],
+          ["DeadLeyLineLeaves", 6],
+          ["SilverRavenInsignia", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["BorealWolfsBrokenFang", 3],
+          ["DeadLeyLineLeaves", 12],
+          ["SilverRavenInsignia", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["BorealWolfsBrokenFang", 6],
+          ["LeyLineSprout", 9],
+          ["GoldenRavenInsignia", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["BorealWolfsNostalgia", 4],
+          ["LeyLineSprout", 18],
+          ["GoldenRavenInsignia", 12]
+        ]
+      }
+    ],
+    "baseATK": 38.741,
+    "baseATKCurve": 1,
+    "subAttr": { "type": 7, "value": 0.0766, "curve": 16 },
+    "affix": {
+      "name": "降世",
+      "desc": "普通攻擊與重擊命中敵人後有<color=#99FFFFFF>50%</color>概率在小範圍內造成<color=#99FFFFFF>200%</color>攻擊力的傷害。該效果每10秒只能觸發一次；此外，旅行者裝備降臨之劍時，攻擊力提升<color=#99FFFFFF>66</color>點。",
+      "levels": [{ "attrs": [], "params": [0.5, 2, 10, 66] }]
+    }
+  },
+  {
+    "id": "FesteringDesire",
+    "name": "Festering Desire",
+    "localeName": "腐殖之劍",
+    "desc": "希冀著生命的詭譎直劍，附有連龍也能侵蝕的腐殖之毒。",
+    "rarity": 4,
+    "type": 1,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["FettersoftheDandelionGladiator", 3],
+          ["HeavyHorn", 3],
+          ["RecruitsInsignia", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 3],
+          ["HeavyHorn", 12],
+          ["RecruitsInsignia", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 6],
+          ["BlackBronzeHorn", 6],
+          ["SergeantsInsignia", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 3],
+          ["BlackBronzeHorn", 12],
+          ["SergeantsInsignia", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 6],
+          ["BlackCrystalHorn", 9],
+          ["LieutenantsInsignia", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["DreamoftheDandelionGladiator", 4],
+          ["BlackCrystalHorn", 18],
+          ["LieutenantsInsignia", 12]
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "subAttr": { "type": 10, "value": 0.1, "curve": 17 },
+    "affix": {
+      "name": "無盡的渴慕",
+      "desc": "元素戰技造成的傷害增加<color=#99FFFFFF>16%</color>，元素戰技的暴擊率提升<color=#99FFFFFF>6%</color>。",
+      "levels": [
+        { "attrs": [], "params": [0.16, 0.06] },
+        { "attrs": [], "params": [0.2, 0.075] },
+        { "attrs": [], "params": [0.24, 0.09] },
+        { "attrs": [], "params": [0.28, 0.105] },
+        { "attrs": [], "params": [0.32, 0.12] }
+      ]
+    }
+  },
+  {
+    "id": "AquilaFavonia",
+    "name": "Aquila Favonia",
+    "localeName": "風鷹劍",
+    "desc": "#西風騎士團的靈魂。歷經千年仍在呼喚{F#妳}{M#你}捲起正義之風，拔除奸邪，一如上一位揮舞此劍的女傑。",
+    "rarity": 5,
+    "type": 1,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          ["TileofDecarabiansTower", 5],
+          ["HeavyHorn", 5],
+          ["FirmArrowhead", 3]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          ["DebrisofDecarabiansCity", 5],
+          ["HeavyHorn", 18],
+          ["FirmArrowhead", 12]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          ["DebrisofDecarabiansCity", 9],
+          ["BlackBronzeHorn", 9],
+          ["SharpArrowhead", 9]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 5],
+          ["BlackBronzeHorn", 18],
+          ["SharpArrowhead", 14]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 9],
+          ["BlackCrystalHorn", 14],
+          ["WeatheredArrowhead", 9]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          ["ScatteredPieceofDecarabiansDream", 6],
+          ["BlackCrystalHorn", 27],
+          ["WeatheredArrowhead", 18]
+        ]
+      }
+    ],
+    "baseATK": 47.537,
+    "baseATKCurve": 12,
+    "subAttr": { "type": 33, "value": 0.09, "curve": 18 },
+    "affix": {
+      "name": "西風之鷹的抗爭",
+      "desc": "攻擊力提高<color=#99FFFFFF>20%</color>；受到傷害時觸發：高揚抗爭旗號的西風鷹之魂甦醒，恢復等同於攻擊力的<color=#99FFFFFF>100%</color>的生命值，並對周圍的敵人造成<color=#99FFFFFF>200%</color>攻擊力的傷害。該效果每15秒只能觸發一次。",
+      "levels": [
+        { "attrs": [{ "type": 7, "value": 0.2 }], "params": [0.2, 1, 2, 15] },
+        {
+          "attrs": [{ "type": 7, "value": 0.25 }],
+          "params": [0.25, 1.15, 2.3, 15]
+        },
+        {
+          "attrs": [{ "type": 7, "value": 0.3 }],
+          "params": [0.3, 1.3, 2.6, 15]
+        },
+        {
+          "attrs": [{ "type": 7, "value": 0.35 }],
+          "params": [0.35, 1.45, 2.9, 15]
+        },
+        {
+          "attrs": [{ "type": 7, "value": 0.4 }],
+          "params": [0.4, 1.6, 3.2, 15]
+        }
+      ]
+    }
+  },
+  {
+    "id": "SkywardBlade",
+    "name": "Skyward Blade",
+    "localeName": "天空之刃",
+    "desc": "象徵風龍的榮譽的騎士劍，如今失而復得。劍脊上吹息著風之神的賜福，蘊含蒼空與長風的力量。",
+    "rarity": 5,
+    "type": 1,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          ["BorealWolfsMilkTooth", 5],
+          ["DeadLeyLineBranch", 5],
+          ["SlimeCondensate", 3]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 5],
+          ["DeadLeyLineBranch", 18],
+          ["SlimeCondensate", 12]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 9],
+          ["DeadLeyLineLeaves", 9],
+          ["SlimeSecretions", 9]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          ["BorealWolfsBrokenFang", 5],
+          ["DeadLeyLineLeaves", 18],
+          ["SlimeSecretions", 14]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          ["BorealWolfsBrokenFang", 9],
+          ["LeyLineSprout", 14],
+          ["SlimeConcentrate", 9]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          ["BorealWolfsNostalgia", 6],
+          ["LeyLineSprout", 27],
+          ["SlimeConcentrate", 18]
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "subAttr": { "type": 10, "value": 0.12, "curve": 18 },
+    "affix": {
+      "name": "穿刺高天的利齒",
+      "desc": "暴擊率提升<color=#99FFFFFF>4%</color>；施放元素爆發時，獲得破空之勢：移動速度提升<color=#99FFFFFF>10%</color>，攻擊速度提升<color=#99FFFFFF>10%</color>，普通攻擊與重擊命中時，額外造成<color=#99FFFFFF>20%</color>攻擊力的傷害，持續12秒。",
+      "levels": [
+        {
+          "attrs": [{ "type": 12, "value": 0.04 }],
+          "params": [0.04, 0.1, 0.1, 0.2, 12]
+        },
+        {
+          "attrs": [{ "type": 12, "value": 0.05 }],
+          "params": [0.05, 0.1, 0.1, 0.25, 12]
+        },
+        {
+          "attrs": [{ "type": 12, "value": 0.06 }],
+          "params": [0.06, 0.1, 0.1, 0.3, 12]
+        },
+        {
+          "attrs": [{ "type": 12, "value": 0.07 }],
+          "params": [0.07, 0.1, 0.1, 0.35, 12]
+        },
+        {
+          "attrs": [{ "type": 12, "value": 0.08 }],
+          "params": [0.08, 0.1, 0.1, 0.4, 12]
+        }
+      ]
+    }
+  },
+  {
+    "id": "SummitShaper",
+    "name": "Summit Shaper",
+    "localeName": "斫峰之刃",
+    "desc": "傳說中象徵著某一則特定契約的利刃，曾經斬落山岳的尖端。",
+    "rarity": 5,
+    "type": 1,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          ["LuminousSandsfromGuyun", 5],
+          ["HuntersSacrificialKnife", 5],
+          ["DamagedMask", 3]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          ["LustrousStonefromGuyun", 5],
+          ["HuntersSacrificialKnife", 18],
+          ["DamagedMask", 12]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          ["LustrousStonefromGuyun", 9],
+          ["AgentsSacrificialKnife", 9],
+          ["StainedMask", 9]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          ["RelicfromGuyun", 5],
+          ["AgentsSacrificialKnife", 18],
+          ["StainedMask", 14]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          ["RelicfromGuyun", 9],
+          ["InspectorsSacrificialKnife", 14],
+          ["OminousMask", 9]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          ["DivineBodyfromGuyun", 6],
+          ["InspectorsSacrificialKnife", 27],
+          ["OminousMask", 18]
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "subAttr": { "type": 7, "value": 0.108, "curve": 18 },
+    "affix": {
+      "name": "金璋皇極",
+      "desc": "護盾強效提升<color=#99FFFFFF>20%</color>。攻擊命中後的8秒內，攻擊力提升<color=#99FFFFFF>4%</color>。該效果至多可疊加5層，每0.3秒只能觸發一次。此外，處於護盾庇護下時，該效果的攻擊力提升效果提高100%。",
+      "levels": [
+        { "attrs": [{ "type": 18, "value": 0.2 }], "params": [0.2, 0.04, 8] },
+        { "attrs": [{ "type": 18, "value": 0.25 }], "params": [0.25, 0.05, 8] },
+        { "attrs": [{ "type": 18, "value": 0.3 }], "params": [0.3, 0.06, 8] },
+        { "attrs": [{ "type": 18, "value": 0.35 }], "params": [0.35, 0.07, 8] },
+        { "attrs": [{ "type": 18, "value": 0.4 }], "params": [0.4, 0.08, 8] }
+      ]
+    }
+  },
+  {
+    "id": "WasterGreatsword",
+    "name": "Waster Greatsword",
+    "localeName": "訓練大劍",
+    "desc": "僅僅是削出了劍形的厚重鐵片。在意志強韌的人手裡，也有劈開磐石的力量。",
+    "rarity": 1,
+    "type": 4,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 11.7,
+        "cost": [
+          ["BorealWolfsMilkTooth", 1],
+          ["DeadLeyLineBranch", 1],
+          ["SlimeCondensate", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 23.3,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 1],
+          ["DeadLeyLineBranch", 4],
+          ["SlimeCondensate", 2]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 35,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 2],
+          ["DeadLeyLineLeaves", 2],
+          ["SlimeSecretions", 2]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 46.7,
+        "cost": [
+          ["BorealWolfsBrokenFang", 1],
+          ["DeadLeyLineLeaves", 4],
+          ["SlimeSecretions", 3]
+        ]
+      }
+    ],
+    "baseATK": 23.245,
+    "baseATKCurve": 1
+  },
+  {
+    "id": "OldMercsPal",
+    "name": "Old Merc's Pal",
+    "localeName": "傭兵重劍",
+    "desc": "沉重堅實的古舊大劍，飽經戰火與歲月的洗鍊。",
+    "rarity": 2,
+    "type": 4,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 11.7,
+        "cost": [
+          ["BorealWolfsMilkTooth", 1],
+          ["DeadLeyLineBranch", 1],
+          ["SlimeCondensate", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 23.3,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 1],
+          ["DeadLeyLineBranch", 5],
+          ["SlimeCondensate", 4]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 35,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 3],
+          ["DeadLeyLineLeaves", 3],
+          ["SlimeSecretions", 3]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 46.7,
+        "cost": [
+          ["BorealWolfsBrokenFang", 1],
+          ["DeadLeyLineLeaves", 5],
+          ["SlimeSecretions", 4]
+        ]
+      }
+    ],
+    "baseATK": 32.93,
+    "baseATKCurve": 1
+  },
+  {
+    "id": "FerrousShadow",
+    "name": "Ferrous Shadow",
+    "localeName": "鐵影闊劍",
+    "desc": "這把劍是著名的光之獅艾倫德林佩劍的仿製品。握緊它，感受傳說中大英雄的力量吧！注意：幻想請適度。",
+    "rarity": 3,
+    "type": 4,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["TileofDecarabiansTower", 2],
+          ["HeavyHorn", 2],
+          ["WhopperflowerNectar", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["DebrisofDecarabiansCity", 2],
+          ["HeavyHorn", 8],
+          ["WhopperflowerNectar", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["DebrisofDecarabiansCity", 4],
+          ["BlackBronzeHorn", 4],
+          ["ShimmeringNectar", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 2],
+          ["BlackBronzeHorn", 8],
+          ["ShimmeringNectar", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 4],
+          ["BlackCrystalHorn", 6],
+          ["EnergyNectar", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["ScatteredPieceofDecarabiansDream", 3],
+          ["BlackCrystalHorn", 12],
+          ["EnergyNectar", 8]
+        ]
+      }
+    ],
+    "baseATK": 38.741,
+    "baseATKCurve": 1,
+    "subAttr": { "type": 5, "value": 0.0766, "curve": 16 },
+    "affix": {
+      "name": "不屈",
+      "desc": "生命值低於<color=#99FFFFFF>70%</color>時，重擊不會輕易被打斷，並提高<color=#99FFFFFF>30%</color>重擊傷害。",
+      "levels": [
+        { "attrs": [], "params": [0.7, 0.3] },
+        { "attrs": [], "params": [0.75, 0.35] },
+        { "attrs": [], "params": [0.8, 0.4] },
+        { "attrs": [], "params": [0.85, 0.45] },
+        { "attrs": [], "params": [0.9, 0.5] }
+      ]
+    }
+  },
+  {
+    "id": "BloodtaintedGreatsword",
+    "name": "Bloodtainted Greatsword",
+    "localeName": "沐浴龍血的劍",
+    "desc": "據說是北方英雄浸過龍血的鋼鐵大劍，有刀槍不入的神力…這種護佑並不會延伸到揮舞它的人身上。",
+    "rarity": 3,
+    "type": 4,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["BorealWolfsMilkTooth", 2],
+          ["DeadLeyLineBranch", 2],
+          ["FirmArrowhead", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 2],
+          ["DeadLeyLineBranch", 8],
+          ["FirmArrowhead", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 4],
+          ["DeadLeyLineLeaves", 4],
+          ["SharpArrowhead", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["BorealWolfsBrokenFang", 2],
+          ["DeadLeyLineLeaves", 8],
+          ["SharpArrowhead", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["BorealWolfsBrokenFang", 4],
+          ["LeyLineSprout", 6],
+          ["WeatheredArrowhead", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["BorealWolfsNostalgia", 3],
+          ["LeyLineSprout", 12],
+          ["WeatheredArrowhead", 8]
+        ]
+      }
+    ],
+    "baseATK": 37.607,
+    "baseATKCurve": 4,
+    "subAttr": { "type": 11, "value": 40.8, "curve": 16 },
+    "affix": {
+      "name": "踏火息雷",
+      "desc": "對處於火元素或雷元素影響下的敵人，造成的傷害提高<color=#99FFFFFF>12%</color>。",
+      "levels": [
+        { "attrs": [], "params": [0.12] },
+        { "attrs": [], "params": [0.15] },
+        { "attrs": [], "params": [0.18] },
+        { "attrs": [], "params": [0.21] },
+        { "attrs": [], "params": [0.24] }
+      ]
+    }
+  },
+  {
+    "id": "WhiteIronGreatsword",
+    "name": "White Iron Greatsword",
+    "localeName": "白鐵大劍",
+    "desc": "白鐵鍛成的雙手劍，兼顧了重量與強度。即使臂力一般的人也能舞得生風，在力量強大者手中更是威力無窮。",
+    "rarity": 3,
+    "type": 4,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["FettersoftheDandelionGladiator", 2],
+          ["ChaosDevice", 2],
+          ["SlimeCondensate", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 2],
+          ["ChaosDevice", 8],
+          ["SlimeCondensate", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 4],
+          ["ChaosCircuit", 4],
+          ["SlimeSecretions", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 2],
+          ["ChaosCircuit", 8],
+          ["SlimeSecretions", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 4],
+          ["ChaosCore", 6],
+          ["SlimeConcentrate", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["DreamoftheDandelionGladiator", 3],
+          ["ChaosCore", 12],
+          ["SlimeConcentrate", 8]
+        ]
+      }
+    ],
+    "baseATK": 38.741,
+    "baseATKCurve": 1,
+    "subAttr": { "type": 9, "value": 0.0956, "curve": 16 },
+    "affix": {
+      "name": "收割",
+      "desc": "擊敗敵人時，恢復<color=#99FFFFFF>8%</color>生命值。",
+      "levels": [
+        { "attrs": [], "params": [0.08] },
+        { "attrs": [], "params": [0.1] },
+        { "attrs": [], "params": [0.12] },
+        { "attrs": [], "params": [0.14] },
+        { "attrs": [], "params": [0.16] }
+      ]
+    }
+  },
+  {
+    "id": "Quartz",
+    "name": "Quartz",
+    "localeName": "石英大劍",
+    "desc": "古樸厚重的大劍，由堅固的黑色石英雕琢打磨而成，上面有著鎏金的花紋，盡顯優雅莊嚴。",
+    "rarity": 3,
+    "type": 4,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["LuminousSandsfromGuyun", 2],
+          ["HuntersSacrificialKnife", 2],
+          ["DiviningScroll", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["LustrousStonefromGuyun", 2],
+          ["HuntersSacrificialKnife", 8],
+          ["DiviningScroll", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["LustrousStonefromGuyun", 4],
+          ["AgentsSacrificialKnife", 4],
+          ["SealedScroll", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["RelicfromGuyun", 2],
+          ["AgentsSacrificialKnife", 8],
+          ["SealedScroll", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["RelicfromGuyun", 4],
+          ["InspectorsSacrificialKnife", 6],
+          ["ForbiddenCurseScroll", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["DivineBodyfromGuyun", 3],
+          ["InspectorsSacrificialKnife", 12],
+          ["ForbiddenCurseScroll", 8]
+        ]
+      }
+    ],
+    "baseATK": 38.741,
+    "baseATKCurve": 1,
+    "subAttr": { "type": 11, "value": 30.6, "curve": 16 },
+    "affix": {
+      "name": "餘熱",
+      "desc": "觸發超載、融化、點燃、蒸發或火元素擴散反應後的12秒內，攻擊力提高<color=#99FFFFFF>20%</color>。",
+      "levels": [
+        { "attrs": [], "params": [0.2] },
+        { "attrs": [], "params": [0.25] },
+        { "attrs": [], "params": [0.3] },
+        { "attrs": [], "params": [0.35] },
+        { "attrs": [], "params": [0.4] }
+      ]
+    }
+  },
+  {
+    "id": "DebateClub",
+    "name": "Debate Club",
+    "localeName": "以理服人",
+    "desc": "精鋼打造的稱手大鐵棒子。最好的理論依據。",
+    "rarity": 3,
+    "type": 4,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["MistVeiledLeadElixir", 2],
+          ["MistGrassPollen", 2],
+          ["DamagedMask", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["MistVeiledMercuryElixir", 2],
+          ["MistGrassPollen", 8],
+          ["DamagedMask", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["MistVeiledMercuryElixir", 4],
+          ["MistGrass", 4],
+          ["StainedMask", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["MistVeiledGoldElixir", 2],
+          ["MistGrass", 8],
+          ["StainedMask", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["MistVeiledGoldElixir", 4],
+          ["MistGrassWick", 6],
+          ["OminousMask", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["MistVeiledPrimoElixir", 3],
+          ["MistGrassWick", 12],
+          ["OminousMask", 8]
+        ]
+      }
+    ],
+    "baseATK": 38.741,
+    "baseATKCurve": 1,
+    "subAttr": { "type": 7, "value": 0.0766, "curve": 16 },
+    "affix": {
+      "name": "有話直說",
+      "desc": "施放元素戰技後，普通攻擊和重擊命中時會在小範圍內額外造成<color=#99FFFFFF>60%</color>攻擊力的傷害。該效果持續15秒，傷害每3秒只能觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [0.6, 15, 3] },
+        { "attrs": [], "params": [0.75, 15, 3] },
+        { "attrs": [], "params": [0.9, 15, 3] },
+        { "attrs": [], "params": [1.05, 15, 3] },
+        { "attrs": [], "params": [1.2, 15, 3] }
+      ]
+    }
+  },
+  {
+    "id": "SkyriderGreatsword",
+    "name": "Skyrider Greatsword",
+    "localeName": "飛天大御劍",
+    "desc": "可靠的大劍，傳說著名的「御劍公子」曾試圖借助它二度飛天。",
+    "rarity": 3,
+    "type": 4,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["GrainofAerosiderite", 2],
+          ["FragileBoneShard", 2],
+          ["TreasureHoarderInsignia", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["PieceofAerosiderite", 2],
+          ["FragileBoneShard", 8],
+          ["TreasureHoarderInsignia", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["PieceofAerosiderite", 4],
+          ["SturdyBoneShard", 4],
+          ["SilverRavenInsignia", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["BitofAerosiderite", 2],
+          ["SturdyBoneShard", 8],
+          ["SilverRavenInsignia", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["BitofAerosiderite", 4],
+          ["FossilizedBoneShard", 6],
+          ["GoldenRavenInsignia", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["ChunkofAerosiderite", 3],
+          ["FossilizedBoneShard", 12],
+          ["GoldenRavenInsignia", 8]
+        ]
+      }
+    ],
+    "baseATK": 38.741,
+    "baseATKCurve": 1,
+    "subAttr": { "type": 33, "value": 0.0956, "curve": 16 },
+    "affix": {
+      "name": "勇氣",
+      "desc": "普通攻擊和重擊命中時，攻擊力提高<color=#99FFFFFF>6%</color>，持續6秒，最多疊加四層。該效果每0.5秒只能觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [0.06] },
+        { "attrs": [], "params": [0.07] },
+        { "attrs": [], "params": [0.08] },
+        { "attrs": [], "params": [0.09] },
+        { "attrs": [], "params": [0.1] }
+      ]
+    }
+  },
+  {
+    "id": "FavoniusGreatsword",
+    "name": "Favonius Greatsword",
+    "localeName": "西風大劍",
+    "desc": "西風騎士團的重型儀式劍。能輕易導出元素力量，具有卓越的破壞力。",
+    "rarity": 4,
+    "type": 4,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["FettersoftheDandelionGladiator", 3],
+          ["ChaosDevice", 3],
+          ["RecruitsInsignia", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 3],
+          ["ChaosDevice", 12],
+          ["RecruitsInsignia", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 6],
+          ["ChaosCircuit", 6],
+          ["SergeantsInsignia", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 3],
+          ["ChaosCircuit", 12],
+          ["SergeantsInsignia", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 6],
+          ["ChaosCore", 9],
+          ["LieutenantsInsignia", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["DreamoftheDandelionGladiator", 4],
+          ["ChaosCore", 18],
+          ["LieutenantsInsignia", 12]
+        ]
+      }
+    ],
+    "baseATK": 41.067,
+    "baseATKCurve": 9,
+    "subAttr": { "type": 10, "value": 0.13333, "curve": 17 },
+    "affix": {
+      "name": "順風而行",
+      "desc": "攻擊造成暴擊時，有<color=#99FFFFFF>60%</color>的機率產生少量元素微粒，能為角色恢復6點元素能量。該效果每<color=#99FFFFFF>12</color>秒只能觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [0.6, 12] },
+        { "attrs": [], "params": [0.7, 10.5] },
+        { "attrs": [], "params": [0.8, 9] },
+        { "attrs": [], "params": [0.9, 7.5] },
+        { "attrs": [], "params": [1, 6] }
+      ]
+    }
+  },
+  {
+    "id": "TheBell",
+    "name": "The Bell",
+    "localeName": "鐘劍",
+    "desc": "裝有時鐘的厚重大劍，其中的計時機關早已被破壞。",
+    "rarity": 4,
+    "type": 4,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["TileofDecarabiansTower", 3],
+          ["HeavyHorn", 3],
+          ["WhopperflowerNectar", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["DebrisofDecarabiansCity", 3],
+          ["HeavyHorn", 12],
+          ["WhopperflowerNectar", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["DebrisofDecarabiansCity", 6],
+          ["BlackBronzeHorn", 6],
+          ["ShimmeringNectar", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 3],
+          ["BlackBronzeHorn", 12],
+          ["ShimmeringNectar", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 6],
+          ["BlackCrystalHorn", 9],
+          ["EnergyNectar", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["ScatteredPieceofDecarabiansDream", 4],
+          ["BlackCrystalHorn", 18],
+          ["EnergyNectar", 12]
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "subAttr": { "type": 5, "value": 0.09, "curve": 17 },
+    "affix": {
+      "name": "叛逆的守護者",
+      "desc": "受到傷害時，產生一個傷害吸收量等同於生命值上限<color=#99FFFFFF>20%</color>的護盾，持續10秒或直到護盾失效,每<color=#99FFFFFF>45</color>秒只能觸發一次。角色處於護盾庇護下時，造成的傷害提升<color=#99FFFFFF>12%</color>。",
+      "levels": [
+        { "attrs": [], "params": [0.2, 45, 0.12] },
+        { "attrs": [], "params": [0.23, 45, 0.15] },
+        { "attrs": [], "params": [0.26, 45, 0.18] },
+        { "attrs": [], "params": [0.29, 45, 0.21] },
+        { "attrs": [], "params": [0.32, 45, 0.24] }
+      ]
+    }
+  },
+  {
+    "id": "SacrificialGreatsword",
+    "name": "Sacrificial Greatsword",
+    "localeName": "祭禮大劍",
+    "desc": "在漫長歲月中石化的道具大劍，上面的儀式性裝飾依然清晰可見。擁有受時間之風沖刷的祝福力量。",
+    "rarity": 4,
+    "type": 4,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["BorealWolfsMilkTooth", 3],
+          ["DeadLeyLineBranch", 3],
+          ["FirmArrowhead", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 3],
+          ["DeadLeyLineBranch", 12],
+          ["FirmArrowhead", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 6],
+          ["DeadLeyLineLeaves", 6],
+          ["SharpArrowhead", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["BorealWolfsBrokenFang", 3],
+          ["DeadLeyLineLeaves", 12],
+          ["SharpArrowhead", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["BorealWolfsBrokenFang", 6],
+          ["LeyLineSprout", 9],
+          ["WeatheredArrowhead", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["BorealWolfsNostalgia", 4],
+          ["LeyLineSprout", 18],
+          ["WeatheredArrowhead", 12]
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "subAttr": { "type": 10, "value": 0.066667, "curve": 17 },
+    "affix": {
+      "name": "氣定神閒",
+      "desc": "元素戰技造成傷害時，有<color=#99FFFFFF>40%</color>的機率重置該技能的冷卻時間，該效果每<color=#99FFFFFF>30</color>秒只能觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [0.4, 30] },
+        { "attrs": [], "params": [0.5, 26] },
+        { "attrs": [], "params": [0.6, 22] },
+        { "attrs": [], "params": [0.7, 19] },
+        { "attrs": [], "params": [0.8, 16] }
+      ]
+    }
+  },
+  {
+    "id": "RoyalGreatsword",
+    "name": "Royal Greatsword",
+    "localeName": "宗室大劍",
+    "desc": "曾支配蒙德的舊日貴族的大劍。用料極佳，歷久猶彌新。是貴族的戰鬥兵器。",
+    "rarity": 4,
+    "type": 4,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["FettersoftheDandelionGladiator", 3],
+          ["ChaosDevice", 3],
+          ["SlimeCondensate", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 3],
+          ["ChaosDevice", 12],
+          ["SlimeCondensate", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 6],
+          ["ChaosCircuit", 6],
+          ["SlimeSecretions", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 3],
+          ["ChaosCircuit", 12],
+          ["SlimeSecretions", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 6],
+          ["ChaosCore", 9],
+          ["SlimeConcentrate", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["DreamoftheDandelionGladiator", 4],
+          ["ChaosCore", 18],
+          ["SlimeConcentrate", 12]
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "subAttr": { "type": 7, "value": 0.06, "curve": 17 },
+    "affix": {
+      "name": "專注",
+      "desc": "攻擊造成傷害時，暴擊率提升<color=#99FFFFFF>8%</color>，效果最多疊加五層。攻擊造成暴擊後，移除已有的專注效果。",
+      "levels": [
+        { "attrs": [], "params": [0.08] },
+        { "attrs": [], "params": [0.1] },
+        { "attrs": [], "params": [0.12] },
+        { "attrs": [], "params": [0.14] },
+        { "attrs": [], "params": [0.16] }
+      ]
+    }
+  },
+  {
+    "id": "Rainslasher",
+    "name": "Rainslasher",
+    "localeName": "雨裁",
+    "desc": "散發著黯淡螢光的無鋒大劍，純粹以氣勢和力量碾碎敵人。",
+    "rarity": 4,
+    "type": 4,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["MistVeiledLeadElixir", 3],
+          ["MistGrassPollen", 3],
+          ["DiviningScroll", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["MistVeiledMercuryElixir", 3],
+          ["MistGrassPollen", 12],
+          ["DiviningScroll", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["MistVeiledMercuryElixir", 6],
+          ["MistGrass", 6],
+          ["SealedScroll", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["MistVeiledGoldElixir", 3],
+          ["MistGrass", 12],
+          ["SealedScroll", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["MistVeiledGoldElixir", 6],
+          ["MistGrassWick", 9],
+          ["ForbiddenCurseScroll", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["MistVeiledPrimoElixir", 4],
+          ["MistGrassWick", 18],
+          ["ForbiddenCurseScroll", 12]
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "subAttr": { "type": 11, "value": 36, "curve": 17 },
+    "affix": {
+      "name": "止水息雷",
+      "desc": "對處於水元素或雷元素影響下的敵人，造成的傷害提高<color=#99FFFFFF>20%</color>。",
+      "levels": [
+        { "attrs": [], "params": [0.2] },
+        { "attrs": [], "params": [0.24] },
+        { "attrs": [], "params": [0.28] },
+        { "attrs": [], "params": [0.32] },
+        { "attrs": [], "params": [0.36] }
+      ]
+    }
+  },
+  {
+    "id": "PrototypeArchaic",
+    "name": "Prototype Archaic",
+    "localeName": "試作古華",
+    "desc": "黑岩廠中密藏的古老大刀。揮舞時，彷彿連空間本身也要被一刀兩斷。",
+    "rarity": 4,
+    "type": 4,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["GrainofAerosiderite", 3],
+          ["FragileBoneShard", 3],
+          ["DamagedMask", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["PieceofAerosiderite", 3],
+          ["FragileBoneShard", 12],
+          ["DamagedMask", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["PieceofAerosiderite", 6],
+          ["SturdyBoneShard", 6],
+          ["StainedMask", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["BitofAerosiderite", 3],
+          ["SturdyBoneShard", 12],
+          ["StainedMask", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["BitofAerosiderite", 6],
+          ["FossilizedBoneShard", 9],
+          ["OminousMask", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["ChunkofAerosiderite", 4],
+          ["FossilizedBoneShard", 18],
+          ["OminousMask", 12]
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "subAttr": { "type": 7, "value": 0.06, "curve": 17 },
+    "affix": {
+      "name": "粉碎",
+      "desc": "普通攻擊和重擊命中時，有50%的機率對小範圍內的敵人造成<color=#99FFFFFF>240%</color>攻擊力的額外傷害。該效果每15秒只能觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [0.5, 2.4] },
+        { "attrs": [], "params": [0.5, 3] },
+        { "attrs": [], "params": [0.5, 3.6] },
+        { "attrs": [], "params": [0.5, 4.2] },
+        { "attrs": [], "params": [0.5, 4.8] }
+      ]
+    }
+  },
+  {
+    "id": "Whiteblind",
+    "name": "Whiteblind",
+    "localeName": "白影劍",
+    "desc": "劍身上有一面未開刃的異國大劍，經商路流落到璃月。在瞭解它的人手裡，破壞力極為可觀。",
+    "rarity": 4,
+    "type": 4,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["LuminousSandsfromGuyun", 3],
+          ["HuntersSacrificialKnife", 3],
+          ["TreasureHoarderInsignia", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["LustrousStonefromGuyun", 3],
+          ["HuntersSacrificialKnife", 12],
+          ["TreasureHoarderInsignia", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["LustrousStonefromGuyun", 6],
+          ["AgentsSacrificialKnife", 6],
+          ["SilverRavenInsignia", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["RelicfromGuyun", 3],
+          ["AgentsSacrificialKnife", 12],
+          ["SilverRavenInsignia", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["RelicfromGuyun", 6],
+          ["InspectorsSacrificialKnife", 9],
+          ["GoldenRavenInsignia", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["DivineBodyfromGuyun", 4],
+          ["InspectorsSacrificialKnife", 18],
+          ["GoldenRavenInsignia", 12]
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "subAttr": { "type": 9, "value": 0.1126, "curve": 17 },
+    "affix": {
+      "name": "注能之鋒",
+      "desc": "普通攻擊和重擊命中後，攻擊力和防禦力提高<color=#99FFFFFF>6%</color>。該效果持續6秒，最多疊加四層，每0.5秒只能觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [0.06] },
+        { "attrs": [], "params": [0.075] },
+        { "attrs": [], "params": [0.09] },
+        { "attrs": [], "params": [0.105] },
+        { "attrs": [], "params": [0.12] }
+      ]
+    }
+  },
+  {
+    "id": "BlackcliffSlasher",
+    "name": "Blackcliff Slasher",
+    "localeName": "黑岩斬刀",
+    "desc": "堅韌無比的黑岩大刀，通體皆為玄赤之色。",
+    "rarity": 4,
+    "type": 4,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["MistVeiledLeadElixir", 3],
+          ["MistGrassPollen", 3],
+          ["RecruitsInsignia", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["MistVeiledMercuryElixir", 3],
+          ["MistGrassPollen", 12],
+          ["RecruitsInsignia", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["MistVeiledMercuryElixir", 6],
+          ["MistGrass", 6],
+          ["SergeantsInsignia", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["MistVeiledGoldElixir", 3],
+          ["MistGrass", 12],
+          ["SergeantsInsignia", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["MistVeiledGoldElixir", 6],
+          ["MistGrassWick", 9],
+          ["LieutenantsInsignia", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["MistVeiledPrimoElixir", 4],
+          ["MistGrassWick", 18],
+          ["LieutenantsInsignia", 12]
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "subAttr": { "type": 13, "value": 0.12, "curve": 17 },
+    "affix": {
+      "name": "乘勝追擊",
+      "desc": "擊敗敵人後，攻擊力提升<color=#99FFFFFF>12%</color>，持續30秒。該效果至多疊加三層，每層持續時間獨立。",
+      "levels": [
+        { "attrs": [], "params": [0.12, 30] },
+        { "attrs": [], "params": [0.15, 30] },
+        { "attrs": [], "params": [0.18, 30] },
+        { "attrs": [], "params": [0.21, 30] },
+        { "attrs": [], "params": [0.24, 30] }
+      ]
+    }
+  },
+  {
+    "id": "SerpentSpine",
+    "name": "Serpent Spine",
+    "localeName": "螭骨劍",
+    "desc": "來自古代大海的稀有兵器，舞劍獵獵宛如太古的濤聲。",
+    "rarity": 4,
+    "type": 4,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["GrainofAerosiderite", 3],
+          ["FragileBoneShard", 3],
+          ["WhopperflowerNectar", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["PieceofAerosiderite", 3],
+          ["FragileBoneShard", 12],
+          ["WhopperflowerNectar", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["PieceofAerosiderite", 6],
+          ["SturdyBoneShard", 6],
+          ["ShimmeringNectar", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["BitofAerosiderite", 3],
+          ["SturdyBoneShard", 12],
+          ["ShimmeringNectar", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["BitofAerosiderite", 6],
+          ["FossilizedBoneShard", 9],
+          ["EnergyNectar", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["ChunkofAerosiderite", 4],
+          ["FossilizedBoneShard", 18],
+          ["EnergyNectar", 12]
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "subAttr": { "type": 12, "value": 0.06, "curve": 17 },
+    "affix": {
+      "name": "破浪",
+      "desc": "角色在場上時，每4秒提升<color=#99FFFFFF>6%</color>造成的傷害，同時增加<color=#99FFFFFF>3%</color>所受到的傷害。該效果最多疊加五層，不隨角色退場重置，受到傷害後會失去一層效果。",
+      "levels": [
+        { "attrs": [], "params": [4, 0.06, 0.03] },
+        { "attrs": [], "params": [4, 0.07, 0.027] },
+        { "attrs": [], "params": [4, 0.08, 0.024] },
+        { "attrs": [], "params": [4, 0.09, 0.022] },
+        { "attrs": [], "params": [4, 0.1, 0.02] }
+      ]
+    }
+  },
+  {
+    "id": "SnowTombedStarsilver",
+    "name": "Snow-Tombed Starsilver",
+    "localeName": "雪葬的星銀",
+    "desc": "儲存在壁畫之間的古老大劍。由星銀鑄成，似乎擁有斬開冰雪的力量。",
+    "rarity": 4,
+    "type": 4,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["TileofDecarabiansTower", 3],
+          ["HeavyHorn", 3],
+          ["SlimeCondensate", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["DebrisofDecarabiansCity", 3],
+          ["HeavyHorn", 12],
+          ["SlimeCondensate", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["DebrisofDecarabiansCity", 6],
+          ["BlackBronzeHorn", 6],
+          ["SlimeSecretions", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 3],
+          ["BlackBronzeHorn", 12],
+          ["SlimeSecretions", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 6],
+          ["BlackCrystalHorn", 9],
+          ["SlimeConcentrate", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["ScatteredPieceofDecarabiansDream", 4],
+          ["BlackCrystalHorn", 18],
+          ["SlimeConcentrate", 12]
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "subAttr": { "type": 33, "value": 0.075067, "curve": 17 },
+    "affix": {
+      "name": "霜葬",
+      "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>60%</color>機率在敵人上方生成恒冰晶核並墜落，造成<color=#99FFFFFF>80%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>200%</color>攻擊力的傷害。該效果每10秒至多觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [0.6, 0.8, 2, 10] },
+        { "attrs": [], "params": [0.7, 0.95, 2.4, 10] },
+        { "attrs": [], "params": [0.8, 1.1, 2.8, 10] },
+        { "attrs": [], "params": [0.9, 1.25, 3.2, 10] },
+        { "attrs": [], "params": [1, 1.4, 3.6, 10] }
+      ]
+    }
+  },
+  {
+    "id": "SkywardPride",
+    "name": "Skyward Pride",
+    "localeName": "天空之傲",
+    "desc": "象徵風龍的驕傲廣布長空的雙手劍。揮舞時的低吟是風龍的氣勢，蘊含蒼空與長風的力量。",
+    "rarity": 5,
+    "type": 4,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          ["BorealWolfsMilkTooth", 5],
+          ["DeadLeyLineBranch", 5],
+          ["SlimeCondensate", 3]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 5],
+          ["DeadLeyLineBranch", 18],
+          ["SlimeCondensate", 12]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 9],
+          ["DeadLeyLineLeaves", 9],
+          ["SlimeSecretions", 9]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          ["BorealWolfsBrokenFang", 5],
+          ["DeadLeyLineLeaves", 18],
+          ["SlimeSecretions", 14]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          ["BorealWolfsBrokenFang", 9],
+          ["LeyLineSprout", 14],
+          ["SlimeConcentrate", 9]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          ["BorealWolfsNostalgia", 6],
+          ["LeyLineSprout", 27],
+          ["SlimeConcentrate", 18]
+        ]
+      }
+    ],
+    "baseATK": 47.537,
+    "baseATKCurve": 12,
+    "subAttr": { "type": 10, "value": 0.08, "curve": 18 },
+    "affix": {
+      "name": "斬裂晴空的龍脊",
+      "desc": "造成的傷害提高<color=#99FFFFFF>8%</color>；施放元素爆發後：普通攻擊和重擊命中時會發出真空刃，對路徑上的敵人造成<color=#99FFFFFF>80%</color>攻擊力的傷害，持續20秒或直至發出8次真空刃。",
+      "levels": [
+        {
+          "attrs": [{ "type": 37, "value": 0.08 }],
+          "params": [0.08, 0.8, 20, 8]
+        },
+        { "attrs": [{ "type": 37, "value": 0.1 }], "params": [0.1, 1, 20, 8] },
+        {
+          "attrs": [{ "type": 37, "value": 0.12 }],
+          "params": [0.12, 1.2, 20, 8]
+        },
+        {
+          "attrs": [{ "type": 37, "value": 0.14 }],
+          "params": [0.14, 1.4, 20, 8]
+        },
+        {
+          "attrs": [{ "type": 37, "value": 0.16 }],
+          "params": [0.16, 1.6, 20, 8]
+        }
+      ]
+    }
+  },
+  {
+    "id": "WolfsGravestone",
+    "name": "Wolf's Gravestone",
+    "localeName": "狼的末路",
+    "desc": "狼的騎士所使的大劍。原本只是城中鐵匠贈予的厚重的鐵片，卻在他與狼的情誼中，獲得神話般的力量。",
+    "rarity": 5,
+    "type": 4,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          ["FettersoftheDandelionGladiator", 5],
+          ["ChaosDevice", 5],
+          ["DiviningScroll", 3]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 5],
+          ["ChaosDevice", 18],
+          ["DiviningScroll", 12]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 9],
+          ["ChaosCircuit", 9],
+          ["SealedScroll", 9]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 5],
+          ["ChaosCircuit", 18],
+          ["SealedScroll", 14]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 9],
+          ["ChaosCore", 14],
+          ["ForbiddenCurseScroll", 9]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          ["DreamoftheDandelionGladiator", 6],
+          ["ChaosCore", 27],
+          ["ForbiddenCurseScroll", 18]
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "subAttr": { "type": 7, "value": 0.108, "curve": 18 },
+    "affix": {
+      "name": "如狼般狩獵者",
+      "desc": "攻擊力提高<color=#99FFFFFF>20%</color>；攻擊命中生命值低於30%的敵人時，隊伍中所有成員的攻擊力提高<color=#99FFFFFF>40%</color>，持續12秒。該效果30秒只能觸發一次。",
+      "levels": [
+        { "attrs": [{ "type": 7, "value": 0.2 }], "params": [0.2, 0.4] },
+        { "attrs": [{ "type": 7, "value": 0.25 }], "params": [0.25, 0.5] },
+        { "attrs": [{ "type": 7, "value": 0.3 }], "params": [0.3, 0.6] },
+        { "attrs": [{ "type": 7, "value": 0.35 }], "params": [0.35, 0.7] },
+        { "attrs": [{ "type": 7, "value": 0.4 }], "params": [0.4, 0.8] }
+      ]
+    }
+  },
+  {
+    "id": "TheUnforged",
+    "name": "The Unforged",
+    "localeName": "無工之劍",
+    "desc": "能靖祛妖魔佞，彷彿有神威的無鋒大劍。",
+    "rarity": 5,
+    "type": 4,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          ["MistVeiledLeadElixir", 5],
+          ["MistGrassPollen", 5],
+          ["TreasureHoarderInsignia", 3]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          ["MistVeiledMercuryElixir", 5],
+          ["MistGrassPollen", 18],
+          ["TreasureHoarderInsignia", 12]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          ["MistVeiledMercuryElixir", 9],
+          ["MistGrass", 9],
+          ["SilverRavenInsignia", 9]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          ["MistVeiledGoldElixir", 5],
+          ["MistGrass", 18],
+          ["SilverRavenInsignia", 14]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          ["MistVeiledGoldElixir", 9],
+          ["MistGrassWick", 14],
+          ["GoldenRavenInsignia", 9]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          ["MistVeiledPrimoElixir", 6],
+          ["MistGrassWick", 27],
+          ["GoldenRavenInsignia", 18]
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "subAttr": { "type": 7, "value": 0.108, "curve": 18 },
+    "affix": {
+      "name": "金璋皇極",
+      "desc": "護盾強效提升<color=#99FFFFFF>20%</color>。攻擊命中後的8秒內，攻擊力提升<color=#99FFFFFF>4%</color>。該效果至多可疊加5層，每0.3秒只能觸發一次。此外，處於護盾庇護下時，該效果的攻擊力提升效果提高100%。",
+      "levels": [
+        { "attrs": [{ "type": 18, "value": 0.2 }], "params": [0.2, 0.04, 8] },
+        { "attrs": [{ "type": 18, "value": 0.25 }], "params": [0.25, 0.05, 8] },
+        { "attrs": [{ "type": 18, "value": 0.3 }], "params": [0.3, 0.06, 8] },
+        { "attrs": [{ "type": 18, "value": 0.35 }], "params": [0.35, 0.07, 8] },
+        { "attrs": [{ "type": 18, "value": 0.4 }], "params": [0.4, 0.08, 8] }
+      ]
+    }
+  },
+  {
+    "id": "BeginnersProtector",
+    "name": "Beginner's Protector",
+    "localeName": "新手長槍",
+    "desc": "筆直得像旗杆一般的長槍，揮舞起來頗具氣勢。足以應付大多數情況。",
+    "rarity": 1,
+    "type": 3,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 11.7,
+        "cost": [
+          ["FettersoftheDandelionGladiator", 1],
+          ["ChaosDevice", 1],
+          ["DiviningScroll", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 23.3,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 1],
+          ["ChaosDevice", 4],
+          ["DiviningScroll", 2]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 35,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 2],
+          ["ChaosCircuit", 2],
+          ["SealedScroll", 2]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 46.7,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 1],
+          ["ChaosCircuit", 4],
+          ["SealedScroll", 3]
+        ]
+      }
+    ],
+    "baseATK": 23.245,
+    "baseATKCurve": 1
+  },
+  {
+    "id": "IronPoint",
+    "name": "Iron Point",
+    "localeName": "鐵尖槍",
+    "desc": "一頭有尖，可攻可守的護身武器。在旅者之間十分流行。",
+    "rarity": 2,
+    "type": 3,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 11.7,
+        "cost": [
+          ["FettersoftheDandelionGladiator", 1],
+          ["ChaosDevice", 1],
+          ["DiviningScroll", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 23.3,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 1],
+          ["ChaosDevice", 5],
+          ["DiviningScroll", 4]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 35,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 3],
+          ["ChaosCircuit", 3],
+          ["SealedScroll", 3]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 46.7,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 1],
+          ["ChaosCircuit", 5],
+          ["SealedScroll", 4]
+        ]
+      }
+    ],
+    "baseATK": 32.93,
+    "baseATKCurve": 1
+  },
+  {
+    "id": "WhiteTassel",
+    "name": "White Tassel",
+    "localeName": "白纓槍",
+    "desc": "千岩軍士兵的制式裝備，槍身牢靠，槍尖鋒銳，是無比可靠的武器。",
+    "rarity": 3,
+    "type": 3,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["LuminousSandsfromGuyun", 2],
+          ["HuntersSacrificialKnife", 2],
+          ["RecruitsInsignia", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["LustrousStonefromGuyun", 2],
+          ["HuntersSacrificialKnife", 8],
+          ["RecruitsInsignia", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["LustrousStonefromGuyun", 4],
+          ["AgentsSacrificialKnife", 4],
+          ["SergeantsInsignia", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["RelicfromGuyun", 2],
+          ["AgentsSacrificialKnife", 8],
+          ["SergeantsInsignia", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["RelicfromGuyun", 4],
+          ["InspectorsSacrificialKnife", 6],
+          ["LieutenantsInsignia", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["DivineBodyfromGuyun", 3],
+          ["InspectorsSacrificialKnife", 12],
+          ["LieutenantsInsignia", 8]
+        ]
+      }
+    ],
+    "baseATK": 38.741,
+    "baseATKCurve": 1,
+    "subAttr": { "type": 12, "value": 0.051, "curve": 16 },
+    "affix": {
+      "name": "銳利",
+      "desc": "普通攻擊造成的傷害提升<color=#99FFFFFF>24%</color>。",
+      "levels": [
+        { "attrs": [], "params": [0.24] },
+        { "attrs": [], "params": [0.3] },
+        { "attrs": [], "params": [0.36] },
+        { "attrs": [], "params": [0.42] },
+        { "attrs": [], "params": [0.48] }
+      ]
+    }
+  },
+  {
+    "id": "Halberd",
+    "name": "Halberd",
+    "localeName": "鉞矛",
+    "desc": "在矛上增加斧刃的兵器，有不俗的破壞力。是千岩軍軍官青睞的武器。",
+    "rarity": 3,
+    "type": 3,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["MistVeiledLeadElixir", 2],
+          ["MistGrassPollen", 2],
+          ["WhopperflowerNectar", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["MistVeiledMercuryElixir", 2],
+          ["MistGrassPollen", 8],
+          ["WhopperflowerNectar", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["MistVeiledMercuryElixir", 4],
+          ["MistGrass", 4],
+          ["ShimmeringNectar", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["MistVeiledGoldElixir", 2],
+          ["MistGrass", 8],
+          ["ShimmeringNectar", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["MistVeiledGoldElixir", 4],
+          ["MistGrassWick", 6],
+          ["EnergyNectar", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["MistVeiledPrimoElixir", 3],
+          ["MistGrassWick", 12],
+          ["EnergyNectar", 8]
+        ]
+      }
+    ],
+    "baseATK": 39.875,
+    "baseATKCurve": 2,
+    "subAttr": { "type": 7, "value": 0.051067, "curve": 16 },
+    "affix": {
+      "name": "沉重",
+      "desc": "對普通攻擊所命中的敵人造成<color=#99FFFFFF>160%</color>攻擊力的額外傷害。該效果每10秒只能觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [1.6, 10] },
+        { "attrs": [], "params": [2, 10] },
+        { "attrs": [], "params": [2.4, 10] },
+        { "attrs": [], "params": [2.8, 10] },
+        { "attrs": [], "params": [3.2, 10] }
+      ]
+    }
+  },
+  {
+    "id": "BlackTassel",
+    "name": "Black Tassel",
+    "localeName": "黑纓槍",
+    "desc": "解決了白纓容易弄髒問題的絕世好槍。",
+    "rarity": 3,
+    "type": 3,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["GrainofAerosiderite", 2],
+          ["FragileBoneShard", 2],
+          ["FirmArrowhead", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["PieceofAerosiderite", 2],
+          ["FragileBoneShard", 8],
+          ["FirmArrowhead", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["PieceofAerosiderite", 4],
+          ["SturdyBoneShard", 4],
+          ["SharpArrowhead", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["BitofAerosiderite", 2],
+          ["SturdyBoneShard", 8],
+          ["SharpArrowhead", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["BitofAerosiderite", 4],
+          ["FossilizedBoneShard", 6],
+          ["WeatheredArrowhead", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["ChunkofAerosiderite", 3],
+          ["FossilizedBoneShard", 12],
+          ["WeatheredArrowhead", 8]
+        ]
+      }
+    ],
+    "baseATK": 37.607,
+    "baseATKCurve": 4,
+    "subAttr": { "type": 5, "value": 0.10213, "curve": 16 },
+    "affix": {
+      "name": "克柔",
+      "desc": "對史萊姆類敵人造成的傷害增加<color=#99FFFFFF>40%</color>。",
+      "levels": [
+        { "attrs": [], "params": [0.4] },
+        { "attrs": [], "params": [0.5] },
+        { "attrs": [], "params": [0.6] },
+        { "attrs": [], "params": [0.7] },
+        { "attrs": [], "params": [0.8] }
+      ]
+    }
+  },
+  {
+    "id": "TheFlagstaff",
+    "name": "The Flagstaff",
+    "localeName": "「旗桿」",
+    "desc": "備用",
+    "rarity": 3,
+    "type": 3,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["GrainofAerosiderite", 2],
+          ["FragileBoneShard", 2],
+          ["WhopperflowerNectar", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["PieceofAerosiderite", 2],
+          ["FragileBoneShard", 8],
+          ["WhopperflowerNectar", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["PieceofAerosiderite", 4],
+          ["SturdyBoneShard", 4],
+          ["ShimmeringNectar", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["BitofAerosiderite", 2],
+          ["SturdyBoneShard", 8],
+          ["ShimmeringNectar", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["BitofAerosiderite", 4],
+          ["FossilizedBoneShard", 6],
+          ["EnergyNectar", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["ChunkofAerosiderite", 3],
+          ["FossilizedBoneShard", 12],
+          ["EnergyNectar", 8]
+        ]
+      }
+    ],
+    "baseATK": 9.9,
+    "baseATKCurve": 1,
+    "affix": {
+      "name": "待定",
+      "desc": "擊敗敵人時，恢復<color=#99FFFFFF>8%</color>生命值。",
+      "levels": [
+        { "attrs": [], "params": [0.08] },
+        { "attrs": [], "params": [0.1] },
+        { "attrs": [], "params": [0.12] },
+        { "attrs": [], "params": [0.14] },
+        { "attrs": [], "params": [0.16] }
+      ]
+    }
+  },
+  {
+    "id": "DragonsBane",
+    "name": "Dragon's Bane",
+    "localeName": "匣裡滅辰",
+    "desc": "金龍纏繞的長槍，輕快銳利無比。大概真能輕易屠龍。",
+    "rarity": 4,
+    "type": 3,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["MistVeiledLeadElixir", 3],
+          ["MistGrassPollen", 3],
+          ["DiviningScroll", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["MistVeiledMercuryElixir", 3],
+          ["MistGrassPollen", 12],
+          ["DiviningScroll", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["MistVeiledMercuryElixir", 6],
+          ["MistGrass", 6],
+          ["SealedScroll", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["MistVeiledGoldElixir", 3],
+          ["MistGrass", 12],
+          ["SealedScroll", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["MistVeiledGoldElixir", 6],
+          ["MistGrassWick", 9],
+          ["ForbiddenCurseScroll", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["MistVeiledPrimoElixir", 4],
+          ["MistGrassWick", 18],
+          ["ForbiddenCurseScroll", 12]
+        ]
+      }
+    ],
+    "baseATK": 41.067,
+    "baseATKCurve": 9,
+    "subAttr": { "type": 11, "value": 48, "curve": 17 },
+    "affix": {
+      "name": "踏火止水",
+      "desc": "對處於水元素或火元素影響下的敵人，造成的傷害提高<color=#99FFFFFF>20%</color>。",
+      "levels": [
+        { "attrs": [], "params": [0.2] },
+        { "attrs": [], "params": [0.24] },
+        { "attrs": [], "params": [0.28] },
+        { "attrs": [], "params": [0.32] },
+        { "attrs": [], "params": [0.36] }
+      ]
+    }
+  },
+  {
+    "id": "PrototypeStarglitter",
+    "name": "Prototype Starglitter",
+    "localeName": "試作星鐮",
+    "desc": "黑岩廠中密藏的古老鉤槍。鋒芒上點點的閃光有如夜空稀星。",
+    "rarity": 4,
+    "type": 3,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["GrainofAerosiderite", 3],
+          ["FragileBoneShard", 3],
+          ["DamagedMask", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["PieceofAerosiderite", 3],
+          ["FragileBoneShard", 12],
+          ["DamagedMask", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["PieceofAerosiderite", 6],
+          ["SturdyBoneShard", 6],
+          ["StainedMask", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["BitofAerosiderite", 3],
+          ["SturdyBoneShard", 12],
+          ["StainedMask", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["BitofAerosiderite", 6],
+          ["FossilizedBoneShard", 9],
+          ["OminousMask", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["ChunkofAerosiderite", 4],
+          ["FossilizedBoneShard", 18],
+          ["OminousMask", 12]
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "subAttr": { "type": 10, "value": 0.1, "curve": 17 },
+    "affix": {
+      "name": "嗜魔",
+      "desc": "施放元素戰技後，普通攻擊和重擊造成的傷害提高<color=#99FFFFFF>8%</color>。該效果持續12秒，最多疊加兩層。",
+      "levels": [
+        { "attrs": [], "params": [0.08] },
+        { "attrs": [], "params": [0.1] },
+        { "attrs": [], "params": [0.12] },
+        { "attrs": [], "params": [0.14] },
+        { "attrs": [], "params": [0.16] }
+      ]
+    }
+  },
+  {
+    "id": "CrescentPike",
+    "name": "Crescent Pike",
+    "localeName": "流月針",
+    "desc": "槍尖狹長，尾部分出半月刀刃的異國兵器，經由商路流落到璃月。稍事練習掌握，便有極其出眾的殺傷力。",
+    "rarity": 4,
+    "type": 3,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["LuminousSandsfromGuyun", 3],
+          ["HuntersSacrificialKnife", 3],
+          ["TreasureHoarderInsignia", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["LustrousStonefromGuyun", 3],
+          ["HuntersSacrificialKnife", 12],
+          ["TreasureHoarderInsignia", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["LustrousStonefromGuyun", 6],
+          ["AgentsSacrificialKnife", 6],
+          ["SilverRavenInsignia", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["RelicfromGuyun", 3],
+          ["AgentsSacrificialKnife", 12],
+          ["SilverRavenInsignia", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["RelicfromGuyun", 6],
+          ["InspectorsSacrificialKnife", 9],
+          ["GoldenRavenInsignia", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["DivineBodyfromGuyun", 4],
+          ["InspectorsSacrificialKnife", 18],
+          ["GoldenRavenInsignia", 12]
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "subAttr": { "type": 33, "value": 0.075067, "curve": 17 },
+    "affix": {
+      "name": "注能之針",
+      "desc": "獲得元素微粒或元素晶球後的5秒內，普通攻擊和重擊額外造成<color=#99FFFFFF>20</color>%攻擊力傷害。",
+      "levels": [
+        { "attrs": [], "params": [0.2] },
+        { "attrs": [], "params": [0.25] },
+        { "attrs": [], "params": [0.3] },
+        { "attrs": [], "params": [0.35] },
+        { "attrs": [], "params": [0.4] }
+      ]
+    }
+  },
+  {
+    "id": "BlackcliffPole",
+    "name": "Blackcliff Pole",
+    "localeName": "黑岩刺槍",
+    "desc": "以黑岩與隕鐵鑄成的兵器，玄鋒清凜的光澤中彷彿隱隱可見血色。",
+    "rarity": 4,
+    "type": 3,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["MistVeiledLeadElixir", 3],
+          ["MistGrassPollen", 3],
+          ["RecruitsInsignia", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["MistVeiledMercuryElixir", 3],
+          ["MistGrassPollen", 12],
+          ["RecruitsInsignia", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["MistVeiledMercuryElixir", 6],
+          ["MistGrass", 6],
+          ["SergeantsInsignia", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["MistVeiledGoldElixir", 3],
+          ["MistGrass", 12],
+          ["SergeantsInsignia", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["MistVeiledGoldElixir", 6],
+          ["MistGrassWick", 9],
+          ["LieutenantsInsignia", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["MistVeiledPrimoElixir", 4],
+          ["MistGrassWick", 18],
+          ["LieutenantsInsignia", 12]
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "subAttr": { "type": 13, "value": 0.12, "curve": 17 },
+    "affix": {
+      "name": "乘勝追擊",
+      "desc": "擊敗敵人後，攻擊力提升<color=#99FFFFFF>12%</color>，持續30秒。該效果至多疊加三層，每層持續時間獨立。",
+      "levels": [
+        { "attrs": [], "params": [0.12, 30] },
+        { "attrs": [], "params": [0.15, 30] },
+        { "attrs": [], "params": [0.18, 30] },
+        { "attrs": [], "params": [0.21, 30] },
+        { "attrs": [], "params": [0.24, 30] }
+      ]
+    }
+  },
+  {
+    "id": "Deathmatch",
+    "name": "Deathmatch",
+    "localeName": "決鬥之槍",
+    "desc": "血紅色的鋒利長槍，過去是某位角鬥士無比珍視的寶物。槍芒上曾沾染了無數野獸與人的鮮血。",
+    "rarity": 4,
+    "type": 3,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["BorealWolfsMilkTooth", 3],
+          ["DeadLeyLineBranch", 3],
+          ["WhopperflowerNectar", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 3],
+          ["DeadLeyLineBranch", 12],
+          ["WhopperflowerNectar", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 6],
+          ["DeadLeyLineLeaves", 6],
+          ["ShimmeringNectar", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["BorealWolfsBrokenFang", 3],
+          ["DeadLeyLineLeaves", 12],
+          ["ShimmeringNectar", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["BorealWolfsBrokenFang", 6],
+          ["LeyLineSprout", 9],
+          ["EnergyNectar", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["BorealWolfsNostalgia", 4],
+          ["LeyLineSprout", 18],
+          ["EnergyNectar", 12]
+        ]
+      }
+    ],
+    "baseATK": 41.067,
+    "baseATKCurve": 9,
+    "subAttr": { "type": 12, "value": 0.08, "curve": 17 },
+    "affix": {
+      "name": "角鬥士",
+      "desc": "身邊至少有2個敵人時，獲得<color=#99FFFFFF>16%</color>攻擊力提升與<color=#99FFFFFF>16%</color>防禦力提升；身邊的敵人少於2個時，獲得<color=#99FFFFFF>24%</color>攻擊力提升。",
+      "levels": [
+        { "attrs": [], "params": [2, 0.24, 0.16, 0.16] },
+        { "attrs": [], "params": [2, 0.3, 0.2, 0.2] },
+        { "attrs": [], "params": [2, 0.36, 0.24, 0.24] },
+        { "attrs": [], "params": [2, 0.42, 0.28, 0.28] },
+        { "attrs": [], "params": [2, 0.48, 0.32, 0.32] }
+      ]
+    }
+  },
+  {
+    "id": "FavoniusLance",
+    "name": "Favonius Lance",
+    "localeName": "西風長槍",
+    "desc": "西風騎士團的制式長槍。槍桿直挺，槍尖輕風流溢。",
+    "rarity": 4,
+    "type": 3,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["FettersoftheDandelionGladiator", 3],
+          ["ChaosDevice", 3],
+          ["SlimeCondensate", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 3],
+          ["ChaosDevice", 12],
+          ["SlimeCondensate", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 6],
+          ["ChaosCircuit", 6],
+          ["SlimeSecretions", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 3],
+          ["ChaosCircuit", 12],
+          ["SlimeSecretions", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 6],
+          ["ChaosCore", 9],
+          ["SlimeConcentrate", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["DreamoftheDandelionGladiator", 4],
+          ["ChaosCore", 18],
+          ["SlimeConcentrate", 12]
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "subAttr": { "type": 10, "value": 0.066667, "curve": 17 },
+    "affix": {
+      "name": "順風而行",
+      "desc": "攻擊造成暴擊時，有<color=#99FFFFFF>60%</color>的機率產生少量元素微粒，能為角色恢復6點元素能量。該效果每<color=#99FFFFFF>12</color>秒只能觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [0.6, 12] },
+        { "attrs": [], "params": [0.7, 10.5] },
+        { "attrs": [], "params": [0.8, 9] },
+        { "attrs": [], "params": [0.9, 7.5] },
+        { "attrs": [], "params": [1, 6] }
+      ]
+    }
+  },
+  {
+    "id": "RoyalSpear",
+    "name": "Royal Spear",
+    "localeName": "宗室獵槍",
+    "desc": "某位曾支配蒙德的舊日貴族曾經珍愛的長槍。過去不曾見過天日，但如今依然尖銳無比。",
+    "rarity": 4,
+    "type": 3,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["MistVeiledLeadElixir", 3],
+          ["MistGrassPollen", 3],
+          ["RecruitsInsignia", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["MistVeiledMercuryElixir", 3],
+          ["MistGrassPollen", 12],
+          ["RecruitsInsignia", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["MistVeiledMercuryElixir", 6],
+          ["MistGrass", 6],
+          ["SergeantsInsignia", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["MistVeiledGoldElixir", 3],
+          ["MistGrass", 12],
+          ["SergeantsInsignia", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["MistVeiledGoldElixir", 6],
+          ["MistGrassWick", 9],
+          ["LieutenantsInsignia", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["MistVeiledPrimoElixir", 4],
+          ["MistGrassWick", 18],
+          ["LieutenantsInsignia", 12]
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "subAttr": { "type": 7, "value": 0.06, "curve": 17 },
+    "affix": {
+      "name": "專注",
+      "desc": "攻擊造成傷害時，暴擊率提升<color=#99FFFFFF>8%</color>，效果最多疊加五層。攻擊造成暴擊後，移除已有的專注效果。",
+      "levels": [
+        { "attrs": [], "params": [0.08] },
+        { "attrs": [], "params": [0.1] },
+        { "attrs": [], "params": [0.12] },
+        { "attrs": [], "params": [0.14] },
+        { "attrs": [], "params": [0.16] }
+      ]
+    }
+  },
+  {
+    "id": "DragonspineSpear",
+    "name": "Dragonspine Spear",
+    "localeName": "龍脊長槍",
+    "desc": "利用龍之牙制成的長槍。有著奇異的溫暖觸感。",
+    "rarity": 4,
+    "type": 3,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["BorealWolfsMilkTooth", 3],
+          ["MistGrassPollen", 3],
+          ["RecruitsInsignia", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 3],
+          ["MistGrassPollen", 12],
+          ["RecruitsInsignia", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 6],
+          ["MistGrass", 6],
+          ["SergeantsInsignia", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["BorealWolfsBrokenFang", 3],
+          ["MistGrass", 12],
+          ["SergeantsInsignia", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["BorealWolfsBrokenFang", 6],
+          ["MistGrassWick", 9],
+          ["LieutenantsInsignia", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["BorealWolfsNostalgia", 4],
+          ["MistGrassWick", 18],
+          ["LieutenantsInsignia", 12]
+        ]
+      }
+    ],
+    "baseATK": 41.067,
+    "baseATKCurve": 9,
+    "subAttr": { "type": 33, "value": 0.15013, "curve": 17 },
+    "affix": {
+      "name": "霜葬",
+      "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>60%</color>機率在敵人上方生成恒冰晶核並墜落，造成<color=#99FFFFFF>80%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>200%</color>攻擊力的傷害。該效果每10秒至多觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [0.6, 0.8, 2, 10] },
+        { "attrs": [], "params": [0.7, 0.95, 2.4, 10] },
+        { "attrs": [], "params": [0.8, 1.1, 2.8, 10] },
+        { "attrs": [], "params": [0.9, 1.25, 3.2, 10] },
+        { "attrs": [], "params": [1, 1.4, 3.6, 10] }
+      ]
+    }
+  },
+  {
+    "id": "SkywardSpine",
+    "name": "Skyward Spine",
+    "localeName": "天空之脊",
+    "desc": "象徵風龍堅定決心的長槍。直挺的槍桿直指天穹，蘊含蒼空與長風的力量。",
+    "rarity": 5,
+    "type": 3,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          ["FettersoftheDandelionGladiator", 5],
+          ["ChaosDevice", 5],
+          ["DiviningScroll", 3]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 5],
+          ["ChaosDevice", 18],
+          ["DiviningScroll", 12]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 9],
+          ["ChaosCircuit", 9],
+          ["SealedScroll", 9]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 5],
+          ["ChaosCircuit", 18],
+          ["SealedScroll", 14]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 9],
+          ["ChaosCore", 14],
+          ["ForbiddenCurseScroll", 9]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          ["DreamoftheDandelionGladiator", 6],
+          ["ChaosCore", 27],
+          ["ForbiddenCurseScroll", 18]
+        ]
+      }
+    ],
+    "baseATK": 47.537,
+    "baseATKCurve": 12,
+    "subAttr": { "type": 10, "value": 0.08, "curve": 18 },
+    "affix": {
+      "name": "斫斷黑翼的利齒",
+      "desc": "暴擊率提升<color=#99FFFFFF>8%</color>，普通攻擊速度提升<color=#99FFFFFF>12%</color>。此外，普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>50%</color>的機率觸發真空刃，在小範圍內造成額外<color=#99FFFFFF>40%</color>攻擊力的傷害。該效果每2秒至多觸發一次。",
+      "levels": [
+        {
+          "attrs": [{ "type": 12, "value": 0.08 }],
+          "params": [0.08, 0.12, 0.5, 0.4, 2]
+        },
+        {
+          "attrs": [{ "type": 12, "value": 0.1 }],
+          "params": [0.1, 0.12, 0.5, 0.55, 2]
+        },
+        {
+          "attrs": [{ "type": 12, "value": 0.12 }],
+          "params": [0.12, 0.12, 0.5, 0.7, 2]
+        },
+        {
+          "attrs": [{ "type": 12, "value": 0.14 }],
+          "params": [0.14, 0.12, 0.5, 0.85, 2]
+        },
+        {
+          "attrs": [{ "type": 12, "value": 0.16 }],
+          "params": [0.16, 0.12, 0.5, 1, 2]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VortexVanquisher",
+    "name": "Vortex Vanquisher",
+    "localeName": "貫虹之槊",
+    "desc": "或許能貫穿一切的鋒利長槍。揮舞當中，彷彿能見到空氣被槍尖劃破的裂痕。",
+    "rarity": 5,
+    "type": 3,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          ["GrainofAerosiderite", 5],
+          ["FragileBoneShard", 5],
+          ["TreasureHoarderInsignia", 3]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          ["PieceofAerosiderite", 5],
+          ["FragileBoneShard", 18],
+          ["TreasureHoarderInsignia", 12]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          ["PieceofAerosiderite", 9],
+          ["SturdyBoneShard", 9],
+          ["SilverRavenInsignia", 9]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          ["BitofAerosiderite", 5],
+          ["SturdyBoneShard", 18],
+          ["SilverRavenInsignia", 14]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          ["BitofAerosiderite", 9],
+          ["FossilizedBoneShard", 14],
+          ["GoldenRavenInsignia", 9]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          ["ChunkofAerosiderite", 6],
+          ["FossilizedBoneShard", 27],
+          ["GoldenRavenInsignia", 18]
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "subAttr": { "type": 7, "value": 0.108, "curve": 18 },
+    "affix": {
+      "name": "金璋皇極",
+      "desc": "護盾強效提升<color=#99FFFFFF>20%</color>。攻擊命中後的8秒內，攻擊力提升<color=#99FFFFFF>4%</color>。該效果至多可疊加5層，每0.3秒只能觸發一次。此外，處於護盾庇護下時，該效果的攻擊力提升效果提高100%。",
+      "levels": [
+        { "attrs": [{ "type": 18, "value": 0.2 }], "params": [0.2, 0.04, 8] },
+        { "attrs": [{ "type": 18, "value": 0.25 }], "params": [0.25, 0.05, 8] },
+        { "attrs": [{ "type": 18, "value": 0.3 }], "params": [0.3, 0.06, 8] },
+        { "attrs": [{ "type": 18, "value": 0.35 }], "params": [0.35, 0.07, 8] },
+        { "attrs": [{ "type": 18, "value": 0.4 }], "params": [0.4, 0.08, 8] }
+      ]
+    }
+  },
+  {
+    "id": "PrimordialJadeWingedSpear",
+    "name": "Primordial Jade Winged-Spear",
+    "localeName": "和璞鳶",
+    "desc": "魔神翡玉化作的長槍，擁有刺殺遠古海獸的沉重與鋒利。",
+    "rarity": 5,
+    "type": 3,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          ["LuminousSandsfromGuyun", 5],
+          ["HuntersSacrificialKnife", 5],
+          ["RecruitsInsignia", 3]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          ["LustrousStonefromGuyun", 5],
+          ["HuntersSacrificialKnife", 18],
+          ["RecruitsInsignia", 12]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          ["LustrousStonefromGuyun", 9],
+          ["AgentsSacrificialKnife", 9],
+          ["SergeantsInsignia", 9]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          ["RelicfromGuyun", 5],
+          ["AgentsSacrificialKnife", 18],
+          ["SergeantsInsignia", 14]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          ["RelicfromGuyun", 9],
+          ["InspectorsSacrificialKnife", 14],
+          ["LieutenantsInsignia", 9]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          ["DivineBodyfromGuyun", 6],
+          ["InspectorsSacrificialKnife", 27],
+          ["LieutenantsInsignia", 18]
+        ]
+      }
+    ],
+    "baseATK": 47.537,
+    "baseATKCurve": 12,
+    "subAttr": { "type": 12, "value": 0.048, "curve": 18 },
+    "affix": {
+      "name": "昭理的鳶之槍",
+      "desc": "命中敵人時自身攻擊力提高<color=#99FFFFFF>3.2%</color>，持續6秒，最高可以疊加七層。該效果每0.3秒最多觸發一次。疊滿狀態時傷害提升<color=#99FFFFFF>12%</color>。",
+      "levels": [
+        { "attrs": [], "params": [0.032, 0.12] },
+        { "attrs": [], "params": [0.039, 0.15] },
+        { "attrs": [], "params": [0.046, 0.18] },
+        { "attrs": [], "params": [0.053, 0.21] },
+        { "attrs": [], "params": [0.06, 0.24] }
+      ]
+    }
+  },
+  {
+    "id": "ApprenticesNotes",
+    "name": "Apprentice's Notes",
+    "localeName": "學徒筆記",
+    "desc": "某個優等生留下的學習筆記，娟秀的字跡非常好看。記錄了不少實用的咒語。",
+    "rarity": 1,
+    "type": 5,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 11.7,
+        "cost": [
+          ["TileofDecarabiansTower", 1],
+          ["HeavyHorn", 1],
+          ["DamagedMask", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 23.3,
+        "cost": [
+          ["DebrisofDecarabiansCity", 1],
+          ["HeavyHorn", 4],
+          ["DamagedMask", 2]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 35,
+        "cost": [
+          ["DebrisofDecarabiansCity", 2],
+          ["BlackBronzeHorn", 2],
+          ["StainedMask", 2]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 46.7,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 1],
+          ["BlackBronzeHorn", 4],
+          ["StainedMask", 3]
+        ]
+      }
+    ],
+    "baseATK": 23.245,
+    "baseATKCurve": 1
+  },
+  {
+    "id": "PocketGrimoire",
+    "name": "Pocket Grimoire",
+    "localeName": "口袋魔導書",
+    "desc": "精心編纂，只留下考試重點的魔導參考小冊。",
+    "rarity": 2,
+    "type": 5,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 11.7,
+        "cost": [
+          ["TileofDecarabiansTower", 1],
+          ["HeavyHorn", 1],
+          ["DamagedMask", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 23.3,
+        "cost": [
+          ["DebrisofDecarabiansCity", 1],
+          ["HeavyHorn", 5],
+          ["DamagedMask", 4]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 35,
+        "cost": [
+          ["DebrisofDecarabiansCity", 3],
+          ["BlackBronzeHorn", 3],
+          ["StainedMask", 3]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 46.7,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 1],
+          ["BlackBronzeHorn", 5],
+          ["StainedMask", 4]
+        ]
+      }
+    ],
+    "baseATK": 32.93,
+    "baseATKCurve": 1
+  },
+  {
+    "id": "MagicGuide",
+    "name": "Magic Guide",
+    "localeName": "魔導緒論",
+    "desc": "第十二版。結合時代發展加註了新內容，並修訂了第十一版的錯別字。",
+    "rarity": 3,
+    "type": 5,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["TileofDecarabiansTower", 2],
+          ["HeavyHorn", 2],
+          ["SlimeCondensate", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["DebrisofDecarabiansCity", 2],
+          ["HeavyHorn", 8],
+          ["SlimeCondensate", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["DebrisofDecarabiansCity", 4],
+          ["BlackBronzeHorn", 4],
+          ["SlimeSecretions", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 2],
+          ["BlackBronzeHorn", 8],
+          ["SlimeSecretions", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 4],
+          ["BlackCrystalHorn", 6],
+          ["SlimeConcentrate", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["ScatteredPieceofDecarabiansDream", 3],
+          ["BlackCrystalHorn", 12],
+          ["SlimeConcentrate", 8]
+        ]
+      }
+    ],
+    "baseATK": 37.607,
+    "baseATKCurve": 4,
+    "subAttr": { "type": 11, "value": 40.8, "curve": 16 },
+    "affix": {
+      "name": "止水息雷",
+      "desc": "對受水元素或雷元素影響的敵人，造成的傷害提高<color=#99FFFFFF>12%</color>。",
+      "levels": [
+        { "attrs": [], "params": [0.12] },
+        { "attrs": [], "params": [0.15] },
+        { "attrs": [], "params": [0.18] },
+        { "attrs": [], "params": [0.21] },
+        { "attrs": [], "params": [0.24] }
+      ]
+    }
+  },
+  {
+    "id": "ThrillingTalesofDragonSlayers",
+    "name": "Thrilling Tales of Dragon Slayers",
+    "localeName": "討龍英傑譚",
+    "desc": "五名英雄踏上屠龍征途的虛構故事。文筆很差，結構散亂。失敗的教訓是這本書所擁有的偉大力量。",
+    "rarity": 3,
+    "type": 5,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["BorealWolfsMilkTooth", 2],
+          ["DeadLeyLineBranch", 2],
+          ["DiviningScroll", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 2],
+          ["DeadLeyLineBranch", 8],
+          ["DiviningScroll", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 4],
+          ["DeadLeyLineLeaves", 4],
+          ["SealedScroll", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["BorealWolfsBrokenFang", 2],
+          ["DeadLeyLineLeaves", 8],
+          ["SealedScroll", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["BorealWolfsBrokenFang", 4],
+          ["LeyLineSprout", 6],
+          ["ForbiddenCurseScroll", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["BorealWolfsNostalgia", 3],
+          ["LeyLineSprout", 12],
+          ["ForbiddenCurseScroll", 8]
+        ]
+      }
+    ],
+    "baseATK": 38.741,
+    "baseATKCurve": 1,
+    "subAttr": { "type": 5, "value": 0.0766, "curve": 16 },
+    "affix": {
+      "name": "傳承",
+      "desc": "主動切換角色時，新登場的角色攻擊力提升<color=#99FFFFFF>24%</color>，持續10秒。該效果每20秒只能觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [0.24, 10, 20] },
+        { "attrs": [], "params": [0.3, 10, 20] },
+        { "attrs": [], "params": [0.36, 10, 20] },
+        { "attrs": [], "params": [0.42, 10, 20] },
+        { "attrs": [], "params": [0.48, 10, 20] }
+      ]
+    }
+  },
+  {
+    "id": "OtherworldlyStory",
+    "name": "Otherworldly Story",
+    "localeName": "異世界行記",
+    "desc": "廉價的幻想小說，不具備參考價值。作為法器的力量當然也來自幻想。",
+    "rarity": 3,
+    "type": 5,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["FettersoftheDandelionGladiator", 2],
+          ["ChaosDevice", 2],
+          ["DamagedMask", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 2],
+          ["ChaosDevice", 8],
+          ["DamagedMask", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 4],
+          ["ChaosCircuit", 4],
+          ["StainedMask", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 2],
+          ["ChaosCircuit", 8],
+          ["StainedMask", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 4],
+          ["ChaosCore", 6],
+          ["OminousMask", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["DreamoftheDandelionGladiator", 3],
+          ["ChaosCore", 12],
+          ["OminousMask", 8]
+        ]
+      }
+    ],
+    "baseATK": 38.741,
+    "baseATKCurve": 1,
+    "subAttr": { "type": 10, "value": 0.085, "curve": 16 },
+    "affix": {
+      "name": "能量沐浴",
+      "desc": "獲得元素微粒或元素晶球時，恢復<color=#99FFFFFF>1%</color>生命值。",
+      "levels": [
+        { "attrs": [], "params": [0.01] },
+        { "attrs": [], "params": [0.0125] },
+        { "attrs": [], "params": [0.015] },
+        { "attrs": [], "params": [0.0175] },
+        { "attrs": [], "params": [0.02] }
+      ]
+    }
+  },
+  {
+    "id": "EmeraldOrb",
+    "name": "Emerald Orb",
+    "localeName": "翡玉法球",
+    "desc": "由璃月北郊絕雲間出產的硬玉雕琢而成的法器。小巧輕盈，經久耐用，江湖人稱「翡玉丸」。",
+    "rarity": 3,
+    "type": 5,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["LuminousSandsfromGuyun", 2],
+          ["HuntersSacrificialKnife", 2],
+          ["TreasureHoarderInsignia", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["LustrousStonefromGuyun", 2],
+          ["HuntersSacrificialKnife", 8],
+          ["TreasureHoarderInsignia", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["LustrousStonefromGuyun", 4],
+          ["AgentsSacrificialKnife", 4],
+          ["SilverRavenInsignia", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["RelicfromGuyun", 2],
+          ["AgentsSacrificialKnife", 8],
+          ["SilverRavenInsignia", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["RelicfromGuyun", 4],
+          ["InspectorsSacrificialKnife", 6],
+          ["GoldenRavenInsignia", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["DivineBodyfromGuyun", 3],
+          ["InspectorsSacrificialKnife", 12],
+          ["GoldenRavenInsignia", 8]
+        ]
+      }
+    ],
+    "baseATK": 39.875,
+    "baseATKCurve": 2,
+    "subAttr": { "type": 11, "value": 20.4, "curve": 16 },
+    "affix": {
+      "name": "激流",
+      "desc": "觸發蒸發、感電、冰凍或水元素擴散反應後的12秒內，攻擊力提高<color=#99FFFFFF>20%</color>。",
+      "levels": [
+        { "attrs": [], "params": [0.2] },
+        { "attrs": [], "params": [0.25] },
+        { "attrs": [], "params": [0.3] },
+        { "attrs": [], "params": [0.35] },
+        { "attrs": [], "params": [0.4] }
+      ]
+    }
+  },
+  {
+    "id": "TwinNephrite",
+    "name": "Twin Nephrite",
+    "localeName": "甲級寶玨",
+    "desc": "兩塊玉石拼成的精緻玉珮。",
+    "rarity": 3,
+    "type": 5,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["MistVeiledLeadElixir", 2],
+          ["MistGrassPollen", 2],
+          ["RecruitsInsignia", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["MistVeiledMercuryElixir", 2],
+          ["MistGrassPollen", 8],
+          ["RecruitsInsignia", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["MistVeiledMercuryElixir", 4],
+          ["MistGrass", 4],
+          ["SergeantsInsignia", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["MistVeiledGoldElixir", 2],
+          ["MistGrass", 8],
+          ["SergeantsInsignia", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["MistVeiledGoldElixir", 4],
+          ["MistGrassWick", 6],
+          ["LieutenantsInsignia", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["MistVeiledPrimoElixir", 3],
+          ["MistGrassWick", 12],
+          ["LieutenantsInsignia", 8]
+        ]
+      }
+    ],
+    "baseATK": 39.875,
+    "baseATKCurve": 2,
+    "subAttr": { "type": 12, "value": 0.034, "curve": 16 },
+    "affix": {
+      "name": "奔襲戰術",
+      "desc": "擊敗敵人後的15秒內，移動速度和攻擊力提升<color=#99FFFFFF>12%</color>。",
+      "levels": [
+        { "attrs": [], "params": [0.12, 15] },
+        { "attrs": [], "params": [0.14, 15] },
+        { "attrs": [], "params": [0.16, 15] },
+        { "attrs": [], "params": [0.18, 15] },
+        { "attrs": [], "params": [0.2, 15] }
+      ]
+    }
+  },
+  {
+    "id": "AmberBead",
+    "name": "Amber Bead",
+    "localeName": "琥珀玥",
+    "desc": "用琥珀雕磨製成的法器，在日照下會散發出溫暖的光暈。",
+    "rarity": 3,
+    "type": 5,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["GrainofAerosiderite", 2],
+          ["FragileBoneShard", 2],
+          ["WhopperflowerNectar", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["PieceofAerosiderite", 2],
+          ["FragileBoneShard", 8],
+          ["WhopperflowerNectar", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["PieceofAerosiderite", 4],
+          ["SturdyBoneShard", 4],
+          ["ShimmeringNectar", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["BitofAerosiderite", 2],
+          ["SturdyBoneShard", 8],
+          ["ShimmeringNectar", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["BitofAerosiderite", 4],
+          ["FossilizedBoneShard", 6],
+          ["EnergyNectar", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["ChunkofAerosiderite", 3],
+          ["FossilizedBoneShard", 12],
+          ["EnergyNectar", 8]
+        ]
+      }
+    ],
+    "baseATK": 38.741,
+    "baseATKCurve": 1,
+    "subAttr": { "type": 11, "value": 30.6, "curve": 16 },
+    "affix": {
+      "name": "元素熟練",
+      "desc": "普通攻擊命中後，獲得<color=#99FFFFFF>6%</color>元素傷害加成。該效果持續6秒，最多可以疊加兩層。",
+      "levels": [
+        { "attrs": [], "params": [0.06, 6] },
+        { "attrs": [], "params": [0.075, 6] },
+        { "attrs": [], "params": [0.09, 6] },
+        { "attrs": [], "params": [0.105, 6] },
+        { "attrs": [], "params": [0.12, 6] }
+      ]
+    }
+  },
+  {
+    "id": "FavoniusCodex",
+    "name": "Favonius Codex",
+    "localeName": "西風秘典",
+    "desc": "西風騎士團學者間流傳的秘典。記載著元素與物質的道理和力量。",
+    "rarity": 4,
+    "type": 5,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["TileofDecarabiansTower", 3],
+          ["HeavyHorn", 3],
+          ["DiviningScroll", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["DebrisofDecarabiansCity", 3],
+          ["HeavyHorn", 12],
+          ["DiviningScroll", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["DebrisofDecarabiansCity", 6],
+          ["BlackBronzeHorn", 6],
+          ["SealedScroll", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 3],
+          ["BlackBronzeHorn", 12],
+          ["SealedScroll", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 6],
+          ["BlackCrystalHorn", 9],
+          ["ForbiddenCurseScroll", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["ScatteredPieceofDecarabiansDream", 4],
+          ["BlackCrystalHorn", 18],
+          ["ForbiddenCurseScroll", 12]
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "subAttr": { "type": 10, "value": 0.1, "curve": 17 },
+    "affix": {
+      "name": "順風而行",
+      "desc": "攻擊造成暴擊時，有<color=#99FFFFFF>60%</color>的機率產生少量元素微粒，能為角色恢復6點元素能量。該效果每<color=#99FFFFFF>12</color>秒只能觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [0.6, 12] },
+        { "attrs": [], "params": [0.7, 10.5] },
+        { "attrs": [], "params": [0.8, 9] },
+        { "attrs": [], "params": [0.9, 7.5] },
+        { "attrs": [], "params": [1, 6] }
+      ]
+    }
+  },
+  {
+    "id": "TheWidsith",
+    "name": "The Widsith",
+    "localeName": "流浪樂章",
+    "desc": "記載著歌譜的厚重記事簿。儘管遭受了蟲蛀和風化，殘留的手跡仍透露出力量。",
+    "rarity": 4,
+    "type": 5,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["BorealWolfsMilkTooth", 3],
+          ["DeadLeyLineBranch", 3],
+          ["DamagedMask", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 3],
+          ["DeadLeyLineBranch", 12],
+          ["DamagedMask", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 6],
+          ["DeadLeyLineLeaves", 6],
+          ["StainedMask", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["BorealWolfsBrokenFang", 3],
+          ["DeadLeyLineLeaves", 12],
+          ["StainedMask", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["BorealWolfsBrokenFang", 6],
+          ["LeyLineSprout", 9],
+          ["OminousMask", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["BorealWolfsNostalgia", 4],
+          ["LeyLineSprout", 18],
+          ["OminousMask", 12]
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "subAttr": { "type": 13, "value": 0.12, "curve": 17 },
+    "affix": {
+      "name": "登場樂",
+      "desc": "角色登場時，隨機獲得一個主題曲，持續10秒。每30秒只能觸發一次。宣敘調：攻擊力提升<color=#99FFFFFF>60%</color>；詠嘆調：全元素傷害提升<color=#99FFFFFF>48%</color>;間奏曲：元素精通提升<color=#99FFFFFF>240</color>。",
+      "levels": [
+        { "attrs": [], "params": [0.6, 0.48, 240, 10, 30] },
+        { "attrs": [], "params": [0.75, 0.6, 300, 10, 30] },
+        { "attrs": [], "params": [0.9, 0.72, 360, 10, 30] },
+        { "attrs": [], "params": [1.05, 0.84, 420, 10, 30] },
+        { "attrs": [], "params": [1.2, 0.96, 480, 10, 30] }
+      ]
+    }
+  },
+  {
+    "id": "SacrificialFragments",
+    "name": "Sacrificial Fragments",
+    "localeName": "祭禮殘章",
+    "desc": "經歷漫長歲月的劇本，所記載的頌詞和劇本已經無法辨認。被下了受時間之風侵蝕毀壞的詛咒。",
+    "rarity": 4,
+    "type": 5,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["FettersoftheDandelionGladiator", 3],
+          ["ChaosDevice", 3],
+          ["TreasureHoarderInsignia", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 3],
+          ["ChaosDevice", 12],
+          ["TreasureHoarderInsignia", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 6],
+          ["ChaosCircuit", 6],
+          ["SilverRavenInsignia", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 3],
+          ["ChaosCircuit", 12],
+          ["SilverRavenInsignia", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 6],
+          ["ChaosCore", 9],
+          ["GoldenRavenInsignia", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["DreamoftheDandelionGladiator", 4],
+          ["ChaosCore", 18],
+          ["GoldenRavenInsignia", 12]
+        ]
+      }
+    ],
+    "baseATK": 41.067,
+    "baseATKCurve": 9,
+    "subAttr": { "type": 11, "value": 48, "curve": 17 },
+    "affix": {
+      "name": "氣定神閒",
+      "desc": "元素戰技造成傷害時，有<color=#99FFFFFF>40%</color>的機率重置該技能的冷卻時間，該效果每<color=#99FFFFFF>30</color>秒只能觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [0.4, 30] },
+        { "attrs": [], "params": [0.5, 26] },
+        { "attrs": [], "params": [0.6, 22] },
+        { "attrs": [], "params": [0.7, 19] },
+        { "attrs": [], "params": [0.8, 16] }
+      ]
+    }
+  },
+  {
+    "id": "RoyalGrimoire",
+    "name": "Royal Grimoire",
+    "localeName": "宗室秘法錄",
+    "desc": "屬於曾支配蒙德的貴族麾下的宮廷魔導師，其中記載的史話與法術同樣詳實。",
+    "rarity": 4,
+    "type": 5,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["TileofDecarabiansTower", 3],
+          ["HeavyHorn", 3],
+          ["RecruitsInsignia", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["DebrisofDecarabiansCity", 3],
+          ["HeavyHorn", 12],
+          ["RecruitsInsignia", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["DebrisofDecarabiansCity", 6],
+          ["BlackBronzeHorn", 6],
+          ["SergeantsInsignia", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 3],
+          ["BlackBronzeHorn", 12],
+          ["SergeantsInsignia", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 6],
+          ["BlackCrystalHorn", 9],
+          ["LieutenantsInsignia", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["ScatteredPieceofDecarabiansDream", 4],
+          ["BlackCrystalHorn", 18],
+          ["LieutenantsInsignia", 12]
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "subAttr": { "type": 7, "value": 0.06, "curve": 17 },
+    "affix": {
+      "name": "專注",
+      "desc": "攻擊造成傷害時，暴擊率提升<color=#99FFFFFF>8%</color>，效果最多疊加五層。攻擊造成暴擊後，移除已有的專注效果。",
+      "levels": [
+        { "attrs": [], "params": [0.08] },
+        { "attrs": [], "params": [0.1] },
+        { "attrs": [], "params": [0.12] },
+        { "attrs": [], "params": [0.14] },
+        { "attrs": [], "params": [0.16] }
+      ]
+    }
+  },
+  {
+    "id": "SolarPearl",
+    "name": "Solar Pearl",
+    "localeName": "匣裡日月",
+    "desc": "材質難解的暗金珠寶，飽含日月天地的光輝，脈動著溫暖的力量。",
+    "rarity": 4,
+    "type": 5,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["LuminousSandsfromGuyun", 3],
+          ["HuntersSacrificialKnife", 3],
+          ["WhopperflowerNectar", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["LustrousStonefromGuyun", 3],
+          ["HuntersSacrificialKnife", 12],
+          ["WhopperflowerNectar", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["LustrousStonefromGuyun", 6],
+          ["AgentsSacrificialKnife", 6],
+          ["ShimmeringNectar", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["RelicfromGuyun", 3],
+          ["AgentsSacrificialKnife", 12],
+          ["ShimmeringNectar", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["RelicfromGuyun", 6],
+          ["InspectorsSacrificialKnife", 9],
+          ["EnergyNectar", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["DivineBodyfromGuyun", 4],
+          ["InspectorsSacrificialKnife", 18],
+          ["EnergyNectar", 12]
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "subAttr": { "type": 12, "value": 0.06, "curve": 17 },
+    "affix": {
+      "name": "日月輝",
+      "desc": "普通攻擊命中後的6秒內，元素戰技與元素爆發的傷害提高<color=#99FFFFFF>20%</color>；元素戰技與元素爆發命中後的6秒內，普通攻擊的傷害提高<color=#99FFFFFF>20%</color>。",
+      "levels": [
+        { "attrs": [], "params": [0.2] },
+        { "attrs": [], "params": [0.25] },
+        { "attrs": [], "params": [0.3] },
+        { "attrs": [], "params": [0.35] },
+        { "attrs": [], "params": [0.4] }
+      ]
+    }
+  },
+  {
+    "id": "PrototypeAmber",
+    "name": "Prototype Amber",
+    "localeName": "試作金珀",
+    "desc": "黑岩廠中密藏的金珀法器。其中黯黯綻放著日月星光。",
+    "rarity": 4,
+    "type": 5,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["MistVeiledLeadElixir", 3],
+          ["MistGrassPollen", 3],
+          ["FirmArrowhead", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["MistVeiledMercuryElixir", 3],
+          ["MistGrassPollen", 12],
+          ["FirmArrowhead", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["MistVeiledMercuryElixir", 6],
+          ["MistGrass", 6],
+          ["SharpArrowhead", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["MistVeiledGoldElixir", 3],
+          ["MistGrass", 12],
+          ["SharpArrowhead", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["MistVeiledGoldElixir", 6],
+          ["MistGrassWick", 9],
+          ["WeatheredArrowhead", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["MistVeiledPrimoElixir", 4],
+          ["MistGrassWick", 18],
+          ["WeatheredArrowhead", 12]
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "subAttr": { "type": 5, "value": 0.09, "curve": 17 },
+    "affix": {
+      "name": "炊金",
+      "desc": "施放元素爆發後6秒內，每2秒恢復<color=#99FFFFFF>4</color>點元素能量，隊伍中的所有角色每2秒恢復<color=#99FFFFFF>4%</color>生命值。",
+      "levels": [
+        { "attrs": [], "params": [6, 2, 4, 0.04] },
+        { "attrs": [], "params": [6, 2, 4.5, 0.045] },
+        { "attrs": [], "params": [6, 2, 5, 0.05] },
+        { "attrs": [], "params": [6, 2, 5.5, 0.055] },
+        { "attrs": [], "params": [6, 2, 6, 0.06] }
+      ]
+    }
+  },
+  {
+    "id": "MappaMare",
+    "name": "Mappa Mare",
+    "localeName": "萬國諸海圖譜",
+    "desc": "詳盡記載了大陸週邊海流氣候的海圖，是從異國經由商路流落到璃月的奇異典籍。",
+    "rarity": 4,
+    "type": 5,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["GrainofAerosiderite", 3],
+          ["FragileBoneShard", 3],
+          ["SlimeCondensate", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["PieceofAerosiderite", 3],
+          ["FragileBoneShard", 12],
+          ["SlimeCondensate", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["PieceofAerosiderite", 6],
+          ["SturdyBoneShard", 6],
+          ["SlimeSecretions", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["BitofAerosiderite", 3],
+          ["SturdyBoneShard", 12],
+          ["SlimeSecretions", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["BitofAerosiderite", 6],
+          ["FossilizedBoneShard", 9],
+          ["SlimeConcentrate", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["ChunkofAerosiderite", 4],
+          ["FossilizedBoneShard", 18],
+          ["SlimeConcentrate", 12]
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "subAttr": { "type": 11, "value": 24, "curve": 17 },
+    "affix": {
+      "name": "注能之卷",
+      "desc": "觸發元素反應後的10秒內，獲得<color=#99FFFFFF>8%</color>元素傷害加成，該效果最多可以疊加兩層。",
+      "levels": [
+        { "attrs": [], "params": [0.08] },
+        { "attrs": [], "params": [0.1] },
+        { "attrs": [], "params": [0.12] },
+        { "attrs": [], "params": [0.14] },
+        { "attrs": [], "params": [0.16] }
+      ]
+    }
+  },
+  {
+    "id": "BlackcliffAgate",
+    "name": "Blackcliff Agate",
+    "localeName": "黑岩緋玉",
+    "desc": "由黑岩製成的神祕法器，無常的赤色閃光彷彿與大地深處的悸動同調。",
+    "rarity": 4,
+    "type": 5,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["LuminousSandsfromGuyun", 3],
+          ["HuntersSacrificialKnife", 3],
+          ["DiviningScroll", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["LustrousStonefromGuyun", 3],
+          ["HuntersSacrificialKnife", 12],
+          ["DiviningScroll", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["LustrousStonefromGuyun", 6],
+          ["AgentsSacrificialKnife", 6],
+          ["SealedScroll", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["RelicfromGuyun", 3],
+          ["AgentsSacrificialKnife", 12],
+          ["SealedScroll", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["RelicfromGuyun", 6],
+          ["InspectorsSacrificialKnife", 9],
+          ["ForbiddenCurseScroll", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["DivineBodyfromGuyun", 4],
+          ["InspectorsSacrificialKnife", 18],
+          ["ForbiddenCurseScroll", 12]
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "subAttr": { "type": 13, "value": 0.12, "curve": 17 },
+    "affix": {
+      "name": "乘勝追擊",
+      "desc": "擊敗敵人後，攻擊力提升<color=#99FFFFFF>12%</color>，持續30秒。該效果至多疊加三層，每層持續時間獨立。",
+      "levels": [
+        { "attrs": [], "params": [0.12, 30] },
+        { "attrs": [], "params": [0.15, 30] },
+        { "attrs": [], "params": [0.18, 30] },
+        { "attrs": [], "params": [0.21, 30] },
+        { "attrs": [], "params": [0.24, 30] }
+      ]
+    }
+  },
+  {
+    "id": "EyeofPerception",
+    "name": "Eye of Perception",
+    "localeName": "昭心",
+    "desc": "幽暗的琉璃寶珠，傳說中擁有洞察人心清白的力量。",
+    "rarity": 4,
+    "type": 5,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["MistVeiledLeadElixir", 3],
+          ["MistGrassPollen", 3],
+          ["DamagedMask", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["MistVeiledMercuryElixir", 3],
+          ["MistGrassPollen", 12],
+          ["DamagedMask", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["MistVeiledMercuryElixir", 6],
+          ["MistGrass", 6],
+          ["StainedMask", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["MistVeiledGoldElixir", 3],
+          ["MistGrass", 12],
+          ["StainedMask", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["MistVeiledGoldElixir", 6],
+          ["MistGrassWick", 9],
+          ["OminousMask", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["MistVeiledPrimoElixir", 4],
+          ["MistGrassWick", 18],
+          ["OminousMask", 12]
+        ]
+      }
+    ],
+    "baseATK": 41.067,
+    "baseATKCurve": 9,
+    "subAttr": { "type": 7, "value": 0.12, "curve": 17 },
+    "affix": {
+      "name": "迴響",
+      "desc": "普通攻擊與重擊命中時，有50%機率發射一枚昭心法球，造成<color=#99FFFFFF>240%</color>攻擊力傷害，至多在敵人之間彈射四次。該效果每<color=#99FFFFFF>12</color>秒至多觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [0.5, 4, 2.4, 12] },
+        { "attrs": [], "params": [0.5, 4, 2.7, 11] },
+        { "attrs": [], "params": [0.5, 4, 3, 10] },
+        { "attrs": [], "params": [0.5, 4, 3.3, 9] },
+        { "attrs": [], "params": [0.5, 4, 3.6, 8] }
+      ]
+    }
+  },
+  {
+    "id": "Frostbearer",
+    "name": "Frostbearer",
+    "localeName": "忍冬之果",
+    "desc": "具有某種冰冷意志的奇特果實，散發著微弱的苦澀氣息。",
+    "rarity": 4,
+    "type": 5,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["FettersoftheDandelionGladiator", 3],
+          ["ChaosDevice", 3],
+          ["WhopperflowerNectar", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 3],
+          ["ChaosDevice", 12],
+          ["WhopperflowerNectar", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 6],
+          ["ChaosCircuit", 6],
+          ["ShimmeringNectar", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 3],
+          ["ChaosCircuit", 12],
+          ["ShimmeringNectar", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 6],
+          ["ChaosCore", 9],
+          ["EnergyNectar", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["DreamoftheDandelionGladiator", 4],
+          ["ChaosCore", 18],
+          ["EnergyNectar", 12]
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
+    "affix": {
+      "name": "霜葬",
+      "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>60%</color>機率在敵人上方生成恒冰晶核並墜落，造成<color=#99FFFFFF>80%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>200%</color>攻擊力的傷害。該效果每10秒至多觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [0.6, 0.8, 2, 10] },
+        { "attrs": [], "params": [0.7, 0.95, 2.4, 10] },
+        { "attrs": [], "params": [0.8, 1.1, 2.8, 10] },
+        { "attrs": [], "params": [0.9, 1.25, 3.2, 10] },
+        { "attrs": [], "params": [1, 1.4, 3.6, 10] }
+      ]
+    }
+  },
+  {
+    "id": "SkywardAtlas",
+    "name": "Skyward Atlas",
+    "localeName": "天空之卷",
+    "desc": "象徵風龍與其主風之神的雲圖集。細緻記載了北地天空的風與雲，蘊含蒼空與長風的力量。",
+    "rarity": 5,
+    "type": 5,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          ["BorealWolfsMilkTooth", 5],
+          ["DeadLeyLineBranch", 5],
+          ["FirmArrowhead", 3]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 5],
+          ["DeadLeyLineBranch", 18],
+          ["FirmArrowhead", 12]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 9],
+          ["DeadLeyLineLeaves", 9],
+          ["SharpArrowhead", 9]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          ["BorealWolfsBrokenFang", 5],
+          ["DeadLeyLineLeaves", 18],
+          ["SharpArrowhead", 14]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          ["BorealWolfsBrokenFang", 9],
+          ["LeyLineSprout", 14],
+          ["WeatheredArrowhead", 9]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          ["BorealWolfsNostalgia", 6],
+          ["LeyLineSprout", 27],
+          ["WeatheredArrowhead", 18]
+        ]
+      }
+    ],
+    "baseATK": 47.537,
+    "baseATKCurve": 12,
+    "subAttr": { "type": 7, "value": 0.072, "curve": 18 },
+    "affix": {
+      "name": "浮游四方的靈雲",
+      "desc": "元素傷害加成提升<color=#99FFFFFF>12%</color>；普通攻擊命中時，有50%的機率獲得高天流雲的青睞，在15秒內主動攻擊附近的敵人，造成等同於<color=#99FFFFFF>160%</color>攻擊力的傷害。該效果每30秒只能觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [0.12, 0.5, 1.6, 30] },
+        { "attrs": [], "params": [0.15, 0.5, 2, 30] },
+        { "attrs": [], "params": [0.18, 0.5, 2.4, 30] },
+        { "attrs": [], "params": [0.21, 0.5, 2.8, 30] },
+        { "attrs": [], "params": [0.24, 0.5, 3.2, 30] }
+      ]
+    }
+  },
+  {
+    "id": "LostPrayertotheSacredWinds",
+    "name": "Lost Prayer to the Sacred Winds",
+    "localeName": "四風原典",
+    "desc": "崇信風的無名先民所寫的教典珍本。數千年流傳的信仰之力得到了風的青睞，飽含祝福與力量。",
+    "rarity": 5,
+    "type": 5,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          ["FettersoftheDandelionGladiator", 5],
+          ["ChaosDevice", 5],
+          ["SlimeCondensate", 3]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 5],
+          ["ChaosDevice", 18],
+          ["SlimeCondensate", 12]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 9],
+          ["ChaosCircuit", 9],
+          ["SlimeSecretions", 9]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 5],
+          ["ChaosCircuit", 18],
+          ["SlimeSecretions", 14]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 9],
+          ["ChaosCore", 14],
+          ["SlimeConcentrate", 9]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          ["DreamoftheDandelionGladiator", 6],
+          ["ChaosCore", 27],
+          ["SlimeConcentrate", 18]
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "subAttr": { "type": 12, "value": 0.072, "curve": 18 },
+    "affix": {
+      "name": "無邊際的眷顧",
+      "desc": "移動速度提高10%；在場上每4秒獲得<color=#99FFFFFF>8%</color>元素傷害加成。該效果最多疊加四層，持續直到角色倒下或離場。",
+      "levels": [
+        { "attrs": [], "params": [0.1, 0.08] },
+        { "attrs": [], "params": [0.1, 0.1] },
+        { "attrs": [], "params": [0.1, 0.12] },
+        { "attrs": [], "params": [0.1, 0.14] },
+        { "attrs": [], "params": [0.1, 0.16] }
+      ]
+    }
+  },
+  {
+    "id": "MemoryofDust",
+    "name": "Memory of Dust",
+    "localeName": "塵世之鎖",
+    "desc": "蘊含著某種悠遠記憶的石鎖，隨著無窮的變換透露出其中的力量。",
+    "rarity": 5,
+    "type": 5,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          ["GrainofAerosiderite", 5],
+          ["FragileBoneShard", 5],
+          ["DamagedMask", 3]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          ["PieceofAerosiderite", 5],
+          ["FragileBoneShard", 18],
+          ["DamagedMask", 12]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          ["PieceofAerosiderite", 9],
+          ["SturdyBoneShard", 9],
+          ["StainedMask", 9]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          ["BitofAerosiderite", 5],
+          ["SturdyBoneShard", 18],
+          ["StainedMask", 14]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          ["BitofAerosiderite", 9],
+          ["FossilizedBoneShard", 14],
+          ["OminousMask", 9]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          ["ChunkofAerosiderite", 6],
+          ["FossilizedBoneShard", 27],
+          ["OminousMask", 18]
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "subAttr": { "type": 7, "value": 0.108, "curve": 18 },
+    "affix": {
+      "name": "金璋皇極",
+      "desc": "護盾強效提升<color=#99FFFFFF>20%</color>。攻擊命中後的8秒內，攻擊力提升<color=#99FFFFFF>4%</color>。該效果至多可疊加5層，每0.3秒只能觸發一次。此外，處於護盾庇護下時，該效果的攻擊力提升效果提高100%。",
+      "levels": [
+        { "attrs": [{ "type": 18, "value": 0.2 }], "params": [0.2, 0.04, 8] },
+        { "attrs": [{ "type": 18, "value": 0.25 }], "params": [0.25, 0.05, 8] },
+        { "attrs": [{ "type": 18, "value": 0.3 }], "params": [0.3, 0.06, 8] },
+        { "attrs": [{ "type": 18, "value": 0.35 }], "params": [0.35, 0.07, 8] },
+        { "attrs": [{ "type": 18, "value": 0.4 }], "params": [0.4, 0.08, 8] }
+      ]
+    }
+  },
+  {
+    "id": "HuntersBow",
+    "name": "Hunter's Bow",
+    "localeName": "獵弓",
+    "desc": "獵手演奏的音樂由兩種音色組成：弓弦顫抖的聲音，和羽箭破空的低嘯。",
+    "rarity": 1,
+    "type": 2,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 11.7,
+        "cost": [
+          ["BorealWolfsMilkTooth", 1],
+          ["DeadLeyLineBranch", 1],
+          ["TreasureHoarderInsignia", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 23.3,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 1],
+          ["DeadLeyLineBranch", 4],
+          ["TreasureHoarderInsignia", 2]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 35,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 2],
+          ["DeadLeyLineLeaves", 2],
+          ["SilverRavenInsignia", 2]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 46.7,
+        "cost": [
+          ["BorealWolfsBrokenFang", 1],
+          ["DeadLeyLineLeaves", 4],
+          ["SilverRavenInsignia", 3]
+        ]
+      }
+    ],
+    "baseATK": 23.245,
+    "baseATKCurve": 1
+  },
+  {
+    "id": "SeasonedHuntersBow",
+    "name": "Seasoned Hunter's Bow",
+    "localeName": "歷練的獵弓",
+    "desc": "飽經磨煉又精心護養的弓。經歷了漫長的歲月，彷彿會主動配合射手的動作一般好用。",
+    "rarity": 2,
+    "type": 2,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 11.7,
+        "cost": [
+          ["BorealWolfsMilkTooth", 1],
+          ["DeadLeyLineBranch", 1],
+          ["TreasureHoarderInsignia", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 23.3,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 1],
+          ["DeadLeyLineBranch", 5],
+          ["TreasureHoarderInsignia", 4]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 35,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 3],
+          ["DeadLeyLineLeaves", 3],
+          ["SilverRavenInsignia", 3]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 46.7,
+        "cost": [
+          ["BorealWolfsBrokenFang", 1],
+          ["DeadLeyLineLeaves", 5],
+          ["SilverRavenInsignia", 4]
+        ]
+      }
+    ],
+    "baseATK": 32.93,
+    "baseATKCurve": 1
+  },
+  {
+    "id": "RavenBow",
+    "name": "Raven Bow",
+    "localeName": "鴉羽弓",
+    "desc": "相傳渡鴉是死的使者。將鴉羽裝飾在弓臂上，射出的每一箭都宣告著獵物的終末。",
+    "rarity": 3,
+    "type": 2,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["TileofDecarabiansTower", 2],
+          ["HeavyHorn", 2],
+          ["FirmArrowhead", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["DebrisofDecarabiansCity", 2],
+          ["HeavyHorn", 8],
+          ["FirmArrowhead", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["DebrisofDecarabiansCity", 4],
+          ["BlackBronzeHorn", 4],
+          ["SharpArrowhead", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 2],
+          ["BlackBronzeHorn", 8],
+          ["SharpArrowhead", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 4],
+          ["BlackCrystalHorn", 6],
+          ["WeatheredArrowhead", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["ScatteredPieceofDecarabiansDream", 3],
+          ["BlackCrystalHorn", 12],
+          ["WeatheredArrowhead", 8]
+        ]
+      }
+    ],
+    "baseATK": 39.875,
+    "baseATKCurve": 2,
+    "subAttr": { "type": 11, "value": 20.4, "curve": 16 },
+    "affix": {
+      "name": "踏火止水",
+      "desc": "對處於水元素或火元素影響下的敵人，造成的傷害提高<color=#99FFFFFF>12%</color>。",
+      "levels": [
+        { "attrs": [], "params": [0.12] },
+        { "attrs": [], "params": [0.15] },
+        { "attrs": [], "params": [0.18] },
+        { "attrs": [], "params": [0.21] },
+        { "attrs": [], "params": [0.24] }
+      ]
+    }
+  },
+  {
+    "id": "SharpshootersOath",
+    "name": "Sharpshooter's Oath",
+    "localeName": "神射手之誓",
+    "desc": "據說曾屬於技藝高強的射手，是一把上好的弓。因為散發出強烈的氣息，難以用於狩獵。",
+    "rarity": 3,
+    "type": 2,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["BorealWolfsMilkTooth", 2],
+          ["DeadLeyLineBranch", 2],
+          ["SlimeCondensate", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 2],
+          ["DeadLeyLineBranch", 8],
+          ["SlimeCondensate", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 4],
+          ["DeadLeyLineLeaves", 4],
+          ["SlimeSecretions", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["BorealWolfsBrokenFang", 2],
+          ["DeadLeyLineLeaves", 8],
+          ["SlimeSecretions", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["BorealWolfsBrokenFang", 4],
+          ["LeyLineSprout", 6],
+          ["SlimeConcentrate", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["BorealWolfsNostalgia", 3],
+          ["LeyLineSprout", 12],
+          ["SlimeConcentrate", 8]
+        ]
+      }
+    ],
+    "baseATK": 38.741,
+    "baseATKCurve": 1,
+    "subAttr": { "type": 13, "value": 0.102, "curve": 16 },
+    "affix": {
+      "name": "精準",
+      "desc": "針對要害造成的傷害提升<color=#99FFFFFF>24%</color>。",
+      "levels": [
+        { "attrs": [], "params": [0.24] },
+        { "attrs": [], "params": [0.3] },
+        { "attrs": [], "params": [0.36] },
+        { "attrs": [], "params": [0.42] },
+        { "attrs": [], "params": [0.48] }
+      ]
+    }
+  },
+  {
+    "id": "RecurveBow",
+    "name": "Recurve Bow",
+    "localeName": "反曲弓",
+    "desc": "據說能射下蒼鷹的獵弓，但能不能做到主要還得看弓手的技術。",
+    "rarity": 3,
+    "type": 2,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["FettersoftheDandelionGladiator", 2],
+          ["ChaosDevice", 2],
+          ["DiviningScroll", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 2],
+          ["ChaosDevice", 8],
+          ["DiviningScroll", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 4],
+          ["ChaosCircuit", 4],
+          ["SealedScroll", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 2],
+          ["ChaosCircuit", 8],
+          ["SealedScroll", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 4],
+          ["ChaosCore", 6],
+          ["ForbiddenCurseScroll", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["DreamoftheDandelionGladiator", 3],
+          ["ChaosCore", 12],
+          ["ForbiddenCurseScroll", 8]
+        ]
+      }
+    ],
+    "baseATK": 37.607,
+    "baseATKCurve": 4,
+    "subAttr": { "type": 5, "value": 0.10213, "curve": 16 },
+    "affix": {
+      "name": "收割",
+      "desc": "擊敗敵人時，恢復<color=#99FFFFFF>8%</color>生命值。",
+      "levels": [
+        { "attrs": [], "params": [0.08] },
+        { "attrs": [], "params": [0.1] },
+        { "attrs": [], "params": [0.12] },
+        { "attrs": [], "params": [0.14] },
+        { "attrs": [], "params": [0.16] }
+      ]
+    }
+  },
+  {
+    "id": "Slingshot",
+    "name": "Slingshot",
+    "localeName": "彈弓",
+    "desc": "其實就是一把弓。在無數的改進和實驗中，發明出究極彈弓的人發現自己做了一把弓。",
+    "rarity": 3,
+    "type": 2,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["LuminousSandsfromGuyun", 2],
+          ["HuntersSacrificialKnife", 2],
+          ["DamagedMask", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["LustrousStonefromGuyun", 2],
+          ["HuntersSacrificialKnife", 8],
+          ["DamagedMask", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["LustrousStonefromGuyun", 4],
+          ["AgentsSacrificialKnife", 4],
+          ["StainedMask", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["RelicfromGuyun", 2],
+          ["AgentsSacrificialKnife", 8],
+          ["StainedMask", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["RelicfromGuyun", 4],
+          ["InspectorsSacrificialKnife", 6],
+          ["OminousMask", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["DivineBodyfromGuyun", 3],
+          ["InspectorsSacrificialKnife", 12],
+          ["OminousMask", 8]
+        ]
+      }
+    ],
+    "baseATK": 37.607,
+    "baseATKCurve": 4,
+    "subAttr": { "type": 12, "value": 0.068, "curve": 16 },
+    "affix": {
+      "name": "彈弓",
+      "desc": "普通攻擊與重擊的箭矢若在發射後的0.3秒內擊中敵人，則造成的傷害增加<color=#99FFFFFF>36%</color>；否則，造成的傷害下降10%。",
+      "levels": [
+        { "attrs": [], "params": [0.3, 0.36, 0.1] },
+        { "attrs": [], "params": [0.3, 0.42, 0.1] },
+        { "attrs": [], "params": [0.3, 0.48, 0.1] },
+        { "attrs": [], "params": [0.3, 0.54, 0.1] },
+        { "attrs": [], "params": [0.3, 0.6, 0.1] }
+      ]
+    }
+  },
+  {
+    "id": "Messenger",
+    "name": "Messenger",
+    "localeName": "信使",
+    "desc": "造型簡單的木製弓。傳說它曾被人用做遠程通訊的道具。",
+    "rarity": 3,
+    "type": 2,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["MistVeiledLeadElixir", 2],
+          ["MistGrassPollen", 2],
+          ["TreasureHoarderInsignia", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["MistVeiledMercuryElixir", 2],
+          ["MistGrassPollen", 8],
+          ["TreasureHoarderInsignia", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["MistVeiledMercuryElixir", 4],
+          ["MistGrass", 4],
+          ["SilverRavenInsignia", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["MistVeiledGoldElixir", 2],
+          ["MistGrass", 8],
+          ["SilverRavenInsignia", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["MistVeiledGoldElixir", 4],
+          ["MistGrassWick", 6],
+          ["GoldenRavenInsignia", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["MistVeiledPrimoElixir", 3],
+          ["MistGrassWick", 12],
+          ["GoldenRavenInsignia", 8]
+        ]
+      }
+    ],
+    "baseATK": 39.875,
+    "baseATKCurve": 2,
+    "subAttr": { "type": 13, "value": 0.068, "curve": 16 },
+    "affix": {
+      "name": "飛矢傳書",
+      "desc": "重擊若命中要害，則額外造成<color=#99FFFFFF>100%</color>攻擊力的傷害，該傷害必定暴擊。此效果每10秒只能觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [1] },
+        { "attrs": [], "params": [1.25] },
+        { "attrs": [], "params": [1.5] },
+        { "attrs": [], "params": [1.75] },
+        { "attrs": [], "params": [2] }
+      ]
+    }
+  },
+  {
+    "id": "EbonyBow",
+    "name": "Ebony Bow",
+    "localeName": "黑檀弓",
+    "desc": "用檀木製成的長弓，弓臂比尋常木材硬。因此力量也更大。",
+    "rarity": 3,
+    "type": 2,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 19.5,
+        "cost": [
+          ["GrainofAerosiderite", 2],
+          ["FragileBoneShard", 2],
+          ["RecruitsInsignia", 1]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 38.9,
+        "cost": [
+          ["PieceofAerosiderite", 2],
+          ["FragileBoneShard", 8],
+          ["RecruitsInsignia", 5]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 58.4,
+        "cost": [
+          ["PieceofAerosiderite", 4],
+          ["SturdyBoneShard", 4],
+          ["SergeantsInsignia", 4]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 77.8,
+        "cost": [
+          ["BitofAerosiderite", 2],
+          ["SturdyBoneShard", 8],
+          ["SergeantsInsignia", 6]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 97.3,
+        "cost": [
+          ["BitofAerosiderite", 4],
+          ["FossilizedBoneShard", 6],
+          ["LieutenantsInsignia", 4]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 116.7,
+        "cost": [
+          ["ChunkofAerosiderite", 3],
+          ["FossilizedBoneShard", 12],
+          ["LieutenantsInsignia", 8]
+        ]
+      }
+    ],
+    "baseATK": 38.741,
+    "baseATKCurve": 1,
+    "subAttr": { "type": 7, "value": 0.0766, "curve": 16 },
+    "affix": {
+      "name": "摧堅",
+      "desc": "對遺蹟機關類敵人：造成的傷害提高<color=#99FFFFFF>40%</color>。",
+      "levels": [
+        { "attrs": [], "params": [0.4] },
+        { "attrs": [], "params": [0.5] },
+        { "attrs": [], "params": [0.6] },
+        { "attrs": [], "params": [0.7] },
+        { "attrs": [], "params": [0.8] }
+      ]
+    }
+  },
+  {
+    "id": "FavoniusWarbow",
+    "name": "Favonius Warbow",
+    "localeName": "西風獵弓",
+    "desc": "西風騎士團的制式反曲弓，只有傑出的弓手能與它的傑出性能相襯。",
+    "rarity": 4,
+    "type": 2,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["FettersoftheDandelionGladiator", 3],
+          ["ChaosDevice", 3],
+          ["WhopperflowerNectar", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 3],
+          ["ChaosDevice", 12],
+          ["WhopperflowerNectar", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 6],
+          ["ChaosCircuit", 6],
+          ["ShimmeringNectar", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 3],
+          ["ChaosCircuit", 12],
+          ["ShimmeringNectar", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 6],
+          ["ChaosCore", 9],
+          ["EnergyNectar", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["DreamoftheDandelionGladiator", 4],
+          ["ChaosCore", 18],
+          ["EnergyNectar", 12]
+        ]
+      }
+    ],
+    "baseATK": 41.067,
+    "baseATKCurve": 9,
+    "subAttr": { "type": 10, "value": 0.13333, "curve": 17 },
+    "affix": {
+      "name": "順風而行",
+      "desc": "攻擊造成暴擊時，有<color=#99FFFFFF>60%</color>的機率產生少量元素微粒，能為角色恢復6點元素能量。該效果每<color=#99FFFFFF>12</color>秒只能觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [0.6, 12] },
+        { "attrs": [], "params": [0.7, 10.5] },
+        { "attrs": [], "params": [0.8, 9] },
+        { "attrs": [], "params": [0.9, 7.5] },
+        { "attrs": [], "params": [1, 6] }
+      ]
+    }
+  },
+  {
+    "id": "TheStringless",
+    "name": "The Stringless",
+    "localeName": "絕弦",
+    "desc": "曾經作為樂器大放異彩的弓。如今已經不再能令人起舞。",
+    "rarity": 4,
+    "type": 2,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["TileofDecarabiansTower", 3],
+          ["HeavyHorn", 3],
+          ["FirmArrowhead", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["DebrisofDecarabiansCity", 3],
+          ["HeavyHorn", 12],
+          ["FirmArrowhead", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["DebrisofDecarabiansCity", 6],
+          ["BlackBronzeHorn", 6],
+          ["SharpArrowhead", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 3],
+          ["BlackBronzeHorn", 12],
+          ["SharpArrowhead", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 6],
+          ["BlackCrystalHorn", 9],
+          ["WeatheredArrowhead", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["ScatteredPieceofDecarabiansDream", 4],
+          ["BlackCrystalHorn", 18],
+          ["WeatheredArrowhead", 12]
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "subAttr": { "type": 11, "value": 36, "curve": 17 },
+    "affix": {
+      "name": "無矢之歌",
+      "desc": "元素戰技與元素爆發的傷害提高<color=#99FFFFFF>24%</color>。",
+      "levels": [
+        { "attrs": [], "params": [0.24] },
+        { "attrs": [], "params": [0.3] },
+        { "attrs": [], "params": [0.36] },
+        { "attrs": [], "params": [0.42] },
+        { "attrs": [], "params": [0.48] }
+      ]
+    }
+  },
+  {
+    "id": "SacrificialBow",
+    "name": "Sacrificial Bow",
+    "localeName": "祭禮弓",
+    "desc": "在漫長歲月中石化的道具獵弓，上面的儀式性裝飾依然清晰可見。擁有受時間之風沖刷的祝福力量。",
+    "rarity": 4,
+    "type": 2,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["BorealWolfsMilkTooth", 3],
+          ["DeadLeyLineBranch", 3],
+          ["SlimeCondensate", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 3],
+          ["DeadLeyLineBranch", 12],
+          ["SlimeCondensate", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 6],
+          ["DeadLeyLineLeaves", 6],
+          ["SlimeSecretions", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["BorealWolfsBrokenFang", 3],
+          ["DeadLeyLineLeaves", 12],
+          ["SlimeSecretions", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["BorealWolfsBrokenFang", 6],
+          ["LeyLineSprout", 9],
+          ["SlimeConcentrate", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["BorealWolfsNostalgia", 4],
+          ["LeyLineSprout", 18],
+          ["SlimeConcentrate", 12]
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "subAttr": { "type": 10, "value": 0.066667, "curve": 17 },
+    "affix": {
+      "name": "氣定神閒",
+      "desc": "元素戰技造成傷害時，有<color=#99FFFFFF>40%</color>的機率重置該技能的冷卻時間，該效果每<color=#99FFFFFF>30</color>秒只能觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [0.4, 30] },
+        { "attrs": [], "params": [0.5, 26] },
+        { "attrs": [], "params": [0.6, 22] },
+        { "attrs": [], "params": [0.7, 19] },
+        { "attrs": [], "params": [0.8, 16] }
+      ]
+    }
+  },
+  {
+    "id": "RoyalBow",
+    "name": "Royal Bow",
+    "localeName": "宗室長弓",
+    "desc": "曾支配蒙德的舊日貴族的長弓。經過無數世代，弓弦仍十分有力，擊發迅猛。",
+    "rarity": 4,
+    "type": 2,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["FettersoftheDandelionGladiator", 3],
+          ["ChaosDevice", 3],
+          ["DiviningScroll", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 3],
+          ["ChaosDevice", 12],
+          ["DiviningScroll", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 6],
+          ["ChaosCircuit", 6],
+          ["SealedScroll", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 3],
+          ["ChaosCircuit", 12],
+          ["SealedScroll", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 6],
+          ["ChaosCore", 9],
+          ["ForbiddenCurseScroll", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["DreamoftheDandelionGladiator", 4],
+          ["ChaosCore", 18],
+          ["ForbiddenCurseScroll", 12]
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
+    "affix": {
+      "name": "專注",
+      "desc": "攻擊造成傷害時，暴擊率提升<color=#99FFFFFF>8%</color>，效果最多疊加五層。攻擊造成暴擊後，移除已有的專注效果。",
+      "levels": [
+        { "attrs": [], "params": [0.08] },
+        { "attrs": [], "params": [0.1] },
+        { "attrs": [], "params": [0.12] },
+        { "attrs": [], "params": [0.14] },
+        { "attrs": [], "params": [0.16] }
+      ]
+    }
+  },
+  {
+    "id": "Rust",
+    "name": "Rust",
+    "localeName": "弓藏",
+    "desc": "佈滿鏽跡的鐵造大弓，一般人根本拿不動，遑論引弓放矢。",
+    "rarity": 4,
+    "type": 2,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["LuminousSandsfromGuyun", 3],
+          ["HuntersSacrificialKnife", 3],
+          ["DamagedMask", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["LustrousStonefromGuyun", 3],
+          ["HuntersSacrificialKnife", 12],
+          ["DamagedMask", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["LustrousStonefromGuyun", 6],
+          ["AgentsSacrificialKnife", 6],
+          ["StainedMask", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["RelicfromGuyun", 3],
+          ["AgentsSacrificialKnife", 12],
+          ["StainedMask", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["RelicfromGuyun", 6],
+          ["InspectorsSacrificialKnife", 9],
+          ["OminousMask", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["DivineBodyfromGuyun", 4],
+          ["InspectorsSacrificialKnife", 18],
+          ["OminousMask", 12]
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
+    "affix": {
+      "name": "速射弓鬥",
+      "desc": "普通攻擊造成的傷害提升<color=#99FFFFFF>40%</color>，重擊造成的傷害下降10%。",
+      "levels": [
+        { "attrs": [], "params": [0.4, 0.1] },
+        { "attrs": [], "params": [0.5, 0.1] },
+        { "attrs": [], "params": [0.6, 0.1] },
+        { "attrs": [], "params": [0.7, 0.1] },
+        { "attrs": [], "params": [0.8, 0.1] }
+      ]
+    }
+  },
+  {
+    "id": "PrototypeCrescent",
+    "name": "Prototype Crescent",
+    "localeName": "試作澹月",
+    "desc": "黑岩廠中密藏的原型長弓。放矢之姿猶如透過薄暮的月光。",
+    "rarity": 4,
+    "type": 2,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["MistVeiledLeadElixir", 3],
+          ["MistGrassPollen", 3],
+          ["TreasureHoarderInsignia", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["MistVeiledMercuryElixir", 3],
+          ["MistGrassPollen", 12],
+          ["TreasureHoarderInsignia", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["MistVeiledMercuryElixir", 6],
+          ["MistGrass", 6],
+          ["SilverRavenInsignia", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["MistVeiledGoldElixir", 3],
+          ["MistGrass", 12],
+          ["SilverRavenInsignia", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["MistVeiledGoldElixir", 6],
+          ["MistGrassWick", 9],
+          ["GoldenRavenInsignia", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["MistVeiledPrimoElixir", 4],
+          ["MistGrassWick", 18],
+          ["GoldenRavenInsignia", 12]
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
+    "affix": {
+      "name": "離鏃不歸",
+      "desc": "重擊若命中要害，則提升10%移動速度與<color=#99FFFFFF>36%</color>攻擊力，持續10秒。",
+      "levels": [
+        { "attrs": [], "params": [0.1, 0.36, 10] },
+        { "attrs": [], "params": [0.1, 0.45, 10] },
+        { "attrs": [], "params": [0.1, 0.54, 10] },
+        { "attrs": [], "params": [0.1, 0.63, 10] },
+        { "attrs": [], "params": [0.1, 0.72, 10] }
+      ]
+    }
+  },
+  {
+    "id": "CompoundBow",
+    "name": "Compound Bow",
+    "localeName": "鋼輪弓",
+    "desc": "以金屬製成，用滑輪引弦的複合弓，來自異國。護養極其困難，但引弓輕鬆，威力驚人。",
+    "rarity": 4,
+    "type": 2,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["GrainofAerosiderite", 3],
+          ["FragileBoneShard", 3],
+          ["RecruitsInsignia", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["PieceofAerosiderite", 3],
+          ["FragileBoneShard", 12],
+          ["RecruitsInsignia", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["PieceofAerosiderite", 6],
+          ["SturdyBoneShard", 6],
+          ["SergeantsInsignia", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["BitofAerosiderite", 3],
+          ["SturdyBoneShard", 12],
+          ["SergeantsInsignia", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["BitofAerosiderite", 6],
+          ["FossilizedBoneShard", 9],
+          ["LieutenantsInsignia", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["ChunkofAerosiderite", 4],
+          ["FossilizedBoneShard", 18],
+          ["LieutenantsInsignia", 12]
+        ]
+      }
+    ],
+    "baseATK": 41.067,
+    "baseATKCurve": 9,
+    "subAttr": { "type": 33, "value": 0.15013, "curve": 17 },
+    "affix": {
+      "name": "注能之矢",
+      "desc": "普通攻擊和重擊命中時，提升<color=#99FFFFFF>4%</color>攻擊力與<color=#99FFFFFF>1.2%</color>普通攻擊速度。該效果持續6秒，最多可以疊加四層，每0.3秒只能觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [0.04, 0.012, 0.3] },
+        { "attrs": [], "params": [0.05, 0.015, 0.3] },
+        { "attrs": [], "params": [0.06, 0.018, 0.3] },
+        { "attrs": [], "params": [0.07, 0.021, 0.3] },
+        { "attrs": [], "params": [0.08, 0.024, 0.3] }
+      ]
+    }
+  },
+  {
+    "id": "BlackcliffWarbow",
+    "name": "Blackcliff Warbow",
+    "localeName": "黑岩戰弓",
+    "desc": "以黑岩塑成的弓。弓臂堅硬無比，只有膂力絕人的弓手才能盡心所欲地使用。",
+    "rarity": 4,
+    "type": 2,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["LuminousSandsfromGuyun", 3],
+          ["HuntersSacrificialKnife", 3],
+          ["WhopperflowerNectar", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["LustrousStonefromGuyun", 3],
+          ["HuntersSacrificialKnife", 12],
+          ["WhopperflowerNectar", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["LustrousStonefromGuyun", 6],
+          ["AgentsSacrificialKnife", 6],
+          ["ShimmeringNectar", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["RelicfromGuyun", 3],
+          ["AgentsSacrificialKnife", 12],
+          ["ShimmeringNectar", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["RelicfromGuyun", 6],
+          ["InspectorsSacrificialKnife", 9],
+          ["EnergyNectar", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["DivineBodyfromGuyun", 4],
+          ["InspectorsSacrificialKnife", 18],
+          ["EnergyNectar", 12]
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "subAttr": { "type": 13, "value": 0.08, "curve": 17 },
+    "affix": {
+      "name": "乘勝追擊",
+      "desc": "擊敗敵人後，攻擊力提升<color=#99FFFFFF>12%</color>，持續30秒。該效果至多疊加三層，每層持續時間獨立。",
+      "levels": [
+        { "attrs": [], "params": [0.12, 30] },
+        { "attrs": [], "params": [0.15, 30] },
+        { "attrs": [], "params": [0.18, 30] },
+        { "attrs": [], "params": [0.21, 30] },
+        { "attrs": [], "params": [0.24, 30] }
+      ]
+    }
+  },
+  {
+    "id": "TheViridescentHunt",
+    "name": "The Viridescent Hunt",
+    "localeName": "蒼翠獵弓",
+    "desc": "高潔的青綠獵弓，曾屬於在林間狩獵的某人。",
+    "rarity": 4,
+    "type": 2,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          ["TileofDecarabiansTower", 3],
+          ["HeavyHorn", 3],
+          ["FirmArrowhead", 2]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          ["DebrisofDecarabiansCity", 3],
+          ["HeavyHorn", 12],
+          ["FirmArrowhead", 8]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          ["DebrisofDecarabiansCity", 6],
+          ["BlackBronzeHorn", 6],
+          ["SharpArrowhead", 6]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 3],
+          ["BlackBronzeHorn", 12],
+          ["SharpArrowhead", 9]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          ["FragmentofDecarabiansEpic", 6],
+          ["BlackCrystalHorn", 9],
+          ["WeatheredArrowhead", 6]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          ["ScatteredPieceofDecarabiansDream", 4],
+          ["BlackCrystalHorn", 18],
+          ["WeatheredArrowhead", 12]
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "subAttr": { "type": 12, "value": 0.06, "curve": 17 },
+    "affix": {
+      "name": "蒼翠之風",
+      "desc": "普通攻擊與重擊命中時，有50%的機率產生一個風之眼，持續吸引周圍敵人，並對其中的敵人每0.5秒造成<color=#99FFFFFF>40%</color>攻擊的傷害。該效果持續4秒，每<color=#99FFFFFF>14</color>秒至多觸發一次。",
+      "levels": [
+        { "attrs": [], "params": [0.5, 0.4, 0.5, 4, 14] },
+        { "attrs": [], "params": [0.5, 0.5, 0.5, 4, 13] },
+        { "attrs": [], "params": [0.5, 0.6, 0.5, 4, 12] },
+        { "attrs": [], "params": [0.5, 0.7, 0.5, 4, 11] },
+        { "attrs": [], "params": [0.5, 0.8, 0.5, 4, 10] }
+      ]
+    }
+  },
+  {
+    "id": "SkywardHarp",
+    "name": "Skyward Harp",
+    "localeName": "天空之翼",
+    "desc": "象徵風龍身為風之神眷屬的大弓。釋弦時的鳴聲是風之神的偏愛，蘊含蒼空與長風的力量。",
+    "rarity": 5,
+    "type": 2,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          ["BorealWolfsMilkTooth", 5],
+          ["DeadLeyLineBranch", 5],
+          ["FirmArrowhead", 3]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 5],
+          ["DeadLeyLineBranch", 18],
+          ["FirmArrowhead", 12]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          ["BorealWolfsCrackedTooth", 9],
+          ["DeadLeyLineLeaves", 9],
+          ["SharpArrowhead", 9]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          ["BorealWolfsBrokenFang", 5],
+          ["DeadLeyLineLeaves", 18],
+          ["SharpArrowhead", 14]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          ["BorealWolfsBrokenFang", 9],
+          ["LeyLineSprout", 14],
+          ["WeatheredArrowhead", 9]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          ["BorealWolfsNostalgia", 6],
+          ["LeyLineSprout", 27],
+          ["WeatheredArrowhead", 18]
+        ]
+      }
+    ],
+    "baseATK": 47.537,
+    "baseATKCurve": 12,
+    "subAttr": { "type": 12, "value": 0.048, "curve": 18 },
+    "affix": {
+      "name": "迴響長天的詩歌",
+      "desc": "暴擊傷害提高<color=#99FFFFFF>20%</color>；攻擊命中時有<color=#99FFFFFF>60%</color>的機率造成125%攻擊力的小範圍物理傷害，該效果每<color=#99FFFFFF>4</color>秒只能觸發一次。",
+      "levels": [
+        {
+          "attrs": [{ "type": 13, "value": 0.2 }],
+          "params": [0.2, 0.6, 1.25, 4]
+        },
+        {
+          "attrs": [{ "type": 13, "value": 0.25 }],
+          "params": [0.25, 0.7, 1.25, 3.5]
+        },
+        {
+          "attrs": [{ "type": 13, "value": 0.3 }],
+          "params": [0.3, 0.8, 1.25, 3]
+        },
+        {
+          "attrs": [{ "type": 13, "value": 0.35 }],
+          "params": [0.35, 0.9, 1.25, 2.5]
+        },
+        { "attrs": [{ "type": 13, "value": 0.4 }], "params": [0.4, 1, 1.25, 2] }
+      ]
+    }
+  },
+  {
+    "id": "AmosBow",
+    "name": "Amos' Bow",
+    "localeName": "阿莫斯之弓",
+    "desc": "極為古老的弓。即使原主不復存在，其中蘊藏之力依舊——那種力量無主，卻在萬物當中。距離心繫之物越是遙遠，那種力量越是劇烈。",
+    "rarity": 5,
+    "type": 2,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          ["FettersoftheDandelionGladiator", 5],
+          ["ChaosDevice", 5],
+          ["SlimeCondensate", 3]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 5],
+          ["ChaosDevice", 18],
+          ["SlimeCondensate", 12]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          ["ChainsoftheDandelionGladiator", 9],
+          ["ChaosCircuit", 9],
+          ["SlimeSecretions", 9]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 5],
+          ["ChaosCircuit", 18],
+          ["SlimeSecretions", 14]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          ["ShacklesoftheDandelionGladiator", 9],
+          ["ChaosCore", 14],
+          ["SlimeConcentrate", 9]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          ["DreamoftheDandelionGladiator", 6],
+          ["ChaosCore", 27],
+          ["SlimeConcentrate", 18]
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "subAttr": { "type": 7, "value": 0.108, "curve": 18 },
+    "affix": {
+      "name": "矢志不忘",
+      "desc": "普通攻擊和重擊傷害提升<color=#99FFFFFF>12%</color>；普通攻擊與重擊的箭矢發射後每經過0.1秒，傷害還會提升<color=#99FFFFFF>8%</color>，至多提升五次。",
+      "levels": [
+        { "attrs": [], "params": [0.12, 0.08] },
+        { "attrs": [], "params": [0.15, 0.1] },
+        { "attrs": [], "params": [0.18, 0.12] },
+        { "attrs": [], "params": [0.21, 0.14] },
+        { "attrs": [], "params": [0.24, 0.16] }
+      ]
+    }
+  },
+  {
+    "id": "DreamsofDragonfell",
+    "name": "Dreams of Dragonfell",
+    "localeName": "隕龍之夢",
+    "desc": "在過去，曾經射穿巨龍的大弓。釋弦之勢有如驚蟄的黃雷。",
+    "rarity": 5,
+    "type": 2,
+    "promoteStages": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          ["LuminousSandsfromGuyun", 5],
+          ["HuntersSacrificialKnife", 5],
+          ["DamagedMask", 3]
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          ["LustrousStonefromGuyun", 5],
+          ["HuntersSacrificialKnife", 18],
+          ["DamagedMask", 12]
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          ["LustrousStonefromGuyun", 9],
+          ["AgentsSacrificialKnife", 9],
+          ["StainedMask", 9]
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          ["RelicfromGuyun", 5],
+          ["AgentsSacrificialKnife", 18],
+          ["StainedMask", 14]
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          ["RelicfromGuyun", 9],
+          ["InspectorsSacrificialKnife", 14],
+          ["OminousMask", 9]
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          ["DivineBodyfromGuyun", 6],
+          ["InspectorsSacrificialKnife", 27],
+          ["OminousMask", 18]
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "subAttr": { "type": 7, "value": 0.108, "curve": 18 },
+    "affix": {
+      "name": "金璋皇極",
+      "desc": "護盾強效提升<color=#99FFFFFF>20%</color>。攻擊命中後的8秒內，攻擊力提升<color=#99FFFFFF>4%</color>。該效果至多可疊加5層，每0.3秒只能觸發一次。此外，處於護盾庇護下時，該效果的攻擊力提升效果提高100%。",
+      "levels": [
+        { "attrs": [{ "type": 18, "value": 0.2 }], "params": [0.2, 0.04, 8] },
+        { "attrs": [{ "type": 18, "value": 0.25 }], "params": [0.25, 0.05, 8] },
+        { "attrs": [{ "type": 18, "value": 0.3 }], "params": [0.3, 0.06, 8] },
+        { "attrs": [{ "type": 18, "value": 0.35 }], "params": [0.35, 0.07, 8] },
+        { "attrs": [{ "type": 18, "value": 0.4 }], "params": [0.4, 0.08, 8] }
+      ]
+    }
+  }
+]

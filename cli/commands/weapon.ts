@@ -1,9 +1,9 @@
 import fs from "fs-extra";
-import chalk from "chalk";
 
 // extra
-import type { IWeapon, IWeaponPromoteStage } from "../../modules/core/interface";
-import { Dict, DATA_DIR, saveObject, itemMap, toAttrType, toCurve, toNum, toWeaponType, toAffix, locales, toNormalName, toText } from "../util";
+import type { IWeapon, IWeaponPromoteStage, IWeaponAffix } from "../../modules/core/interface";
+import { DATA_DIR, itemMap, toAttrType, toCurve, toNum, toWeaponType, toText, toID, saveTranslation, toDesc, toAttr, affixMap } from "../util";
+import { uniqBy } from "lodash";
 
 export async function run() {
   const data: WeaponData[] = await fs.readJSON(DATA_DIR + "Excel/WeaponExcelConfigData.json");
@@ -19,64 +19,62 @@ export async function run() {
     return r;
   }, {});
 
-  const allKeys: Map<string, number> = new Map();
-
-  await Promise.all(
-    data.map(async weapon => {
-      const name = toNormalName(weapon.NameTextMapHash);
-      if (!name) {
-        console.warn(`${chalk.red("[weapon]")} id ${weapon.Id} no translation skiped`);
-        return;
-      }
-
-      allKeys.set(name, weapon.NameTextMapHash);
-      const promote = promoteMap[weapon.WeaponPromoteId];
-      const rst: Partial<IWeapon> = {
-        id: weapon.Id,
-        name,
-        rarity: weapon.RankLevel,
-        type: toWeaponType(weapon.WeaponType),
-        promoteStages: toPromoteStage(promote),
-        baseATK: toNum(weapon.WeaponProp[0].InitValue!),
-        baseATKCurve: toCurve(weapon.WeaponProp[0].Type),
-      };
-      if (weapon.WeaponProp[1].PropType && weapon.WeaponProp[1].InitValue)
-        rst.subAttr = {
-          type: toAttrType(weapon.WeaponProp[1].PropType),
-          value: toNum(weapon.WeaponProp[1].InitValue),
-          curve: toCurve(weapon.WeaponProp[1].Type),
+  await saveTranslation("weapon", "weapon.json", t => {
+    const rst = data
+      .filter(weapon => {
+        return toID(weapon.NameTextMapHash);
+      })
+      .map(v => {
+        const promote = promoteMap[v.WeaponPromoteId];
+        const rst: IWeapon = {
+          id: toID(v.NameTextMapHash),
+          name: toText(v.NameTextMapHash),
+          localeName: t(v.NameTextMapHash),
+          desc: toDesc(t(v.DescTextMapHash)),
+          rarity: v.RankLevel,
+          type: toWeaponType(v.WeaponType),
+          promoteStages: toPromoteStage(promote),
+          baseATK: toNum(v.WeaponProp[0].InitValue!),
+          baseATKCurve: toCurve(v.WeaponProp[0].Type),
         };
+        if (v.WeaponProp[1].PropType && v.WeaponProp[1].InitValue)
+          rst.subAttr = {
+            type: toAttrType(v.WeaponProp[1].PropType),
+            value: toNum(v.WeaponProp[1].InitValue),
+            curve: toCurve(v.WeaponProp[1].Type),
+          };
 
-      // 特效
-      if (weapon.SkillAffix[0]) rst.affix = toAffix(weapon.SkillAffix[0]);
-
-      await saveObject("weapon", rst.name + ".json", rst);
-    })
-  );
-
-  // 导出翻译
-  const localeKeys = [...allKeys.keys()];
-  await Promise.all(
-    Object.keys(locales).map(async locale => {
-      const localeFile = await fs.readJSON(DATA_DIR + locales[locale]);
-      const localeData = localeKeys.reduce<Dict>((r, v) => ((r[v] = localeFile[allKeys.get(v)!]), r), {});
-      await saveObject("weapon_locales", locale + ".json", localeData);
-    })
-  );
-  function toPromoteStage(data: WeaponPromoteData[]): IWeaponPromoteStage[] {
-    return data
-      .filter(v => v.PromoteLevel)
-      .map(lv => {
-        return {
-          level: lv.PromoteLevel!,
-          baseATK: toNum(lv.AddProps[0].Value!),
-          cost: lv.CostItems.filter(v => v.Id).map(v => {
-            const item = itemMap[v.Id!];
-            return [toText(item.NameTextMapHash), v.Count!];
-          }),
-        };
+        // 特效
+        if (v.SkillAffix[0]) rst.affix = toAffix(v.SkillAffix[0]);
+        return rst;
       });
-  }
+    return uniqBy(rst, "id");
+    function toPromoteStage(data: WeaponPromoteData[]): IWeaponPromoteStage[] {
+      return data
+        .filter(v => v.PromoteLevel)
+        .map(lv => {
+          return {
+            level: lv.PromoteLevel!,
+            baseATK: toNum(lv.AddProps[0].Value!),
+            cost: lv.CostItems.filter(v => v.Id).map(v => {
+              const item = itemMap[v.Id!];
+              return [toID(item.NameTextMapHash), v.Count!];
+            }),
+          };
+        });
+    }
+    function toAffix(id: number): IWeaponAffix {
+      const affixLevels = affixMap[id];
+      const affix = affixLevels[0];
+      return {
+        name: t(affix.NameTextMapHash) || "???",
+        desc: toDesc(t(affix.DescTextMapHash)),
+        levels: affixLevels.map(v => {
+          return { attrs: toAttr(v.AddProps), params: v.Param.filter(Boolean).map(toNum) };
+        }),
+      };
+    }
+  });
 }
 
 interface WeaponData {

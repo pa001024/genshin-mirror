@@ -3,7 +3,7 @@ import { uniqBy } from "lodash";
 import { MonsterRarity } from "../../modules/core/enum";
 
 // extra
-import { DATA_DIR, saveTranslation, toID, toNum, toText } from "../util";
+import { DATA_DIR, saveTranslation, toDesc, toID, toNum, toText } from "../util";
 
 export async function run() {
   // await fs.emptyDir("dist/enemy");
@@ -97,7 +97,7 @@ async function parseEnemy() {
           id: toID(desc.NameTextMapHash),
           name: toText(desc.NameTextMapHash),
           localeName: t(desc.NameTextMapHash),
-          desc: t(desc.DescTextMapHash).replace(/\\\\n/g, "\n"),
+          desc: toDesc(t(desc.DescTextMapHash)),
           baseHP: toNum(v.HpBase || 0),
           baseATK: toNum(v.AttackBase || 0),
           baseDEF: toNum(v.DefenseBase || 0), // 固定500

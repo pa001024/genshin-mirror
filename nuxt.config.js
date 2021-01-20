@@ -85,6 +85,16 @@ export default {
         file: "zh-Hans.json",
         name: "简体中文",
       },
+      {
+        code: "zh-Hant",
+        file: "zh-Hant.json",
+        name: "繁體中文",
+      },
+      {
+        code: "ja",
+        file: "ja.json",
+        name: "日本語",
+      },
     ],
   },
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)

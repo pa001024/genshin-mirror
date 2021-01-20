@@ -3,7 +3,7 @@ import { BodyType, Region } from "../../modules/core/enum";
 import { IAvatar, ISkill, IAscension, IConstellation } from "../../modules/core/interface";
 
 // extra
-import { DATA_DIR, Dict, saveTranslation, toNum, toText, toWeaponType, toTags, toElement, toItem, toID, toAttrType } from "../util";
+import { DATA_DIR, Dict, saveTranslation, toNum, toText, toWeaponType, toTags, toElement, toItem, toID, toAttrType, toDesc } from "../util";
 
 export async function run() {
   // await fs.emptyDir("dist/char");
@@ -45,7 +45,7 @@ async function parseChar() {
         id: toID(char.NameTextMapHash),
         name: toText(char.NameTextMapHash),
         localeName: t(char.NameTextMapHash),
-        desc: t(char.DescTextMapHash).replace(/\\\\n/g, "\n"),
+        desc: toDesc(t(char.DescTextMapHash)),
         baseHP: toNum(char.HpBase || 0),
         baseATK: toNum(char.AttackBase || 0),
         baseDEF: toNum(char.DefenseBase || 0),

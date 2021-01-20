@@ -14,8 +14,10 @@ import {
 
 /** 武器 */
 export interface IWeapon {
-  /** 序号 */ id: number;
+  /** 序号 */ id: string;
   /** 名称 */ name: string;
+  /** 本地化名称 */ localeName: string;
+  /** 描述 */ desc?: string;
   /** 类型 */ type: WeaponType;
   /** 稀有度 */ rarity: number;
   /** 基础攻击力 */ baseATK: number;
@@ -35,6 +37,7 @@ export interface IWeaponPromoteStage {
 /** 武器特效 */
 export interface IWeaponAffix {
   name: string;
+  desc?: string;
   levels: IWeaponAffixLevel[];
 }
 

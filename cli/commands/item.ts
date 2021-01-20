@@ -4,7 +4,7 @@ import { MaterialType } from "../../modules/core/enum";
 import { IItem } from "../../modules/core/interface";
 
 // extra
-import { DATA_DIR, saveTranslation, toID, toText } from "../util";
+import { DATA_DIR, saveTranslation, toDesc, toID, toText } from "../util";
 
 export async function run() {
   // await fs.emptyDir("dist/item");
@@ -59,7 +59,7 @@ async function parseMaterial() {
           id: toID(v.NameTextMapHash),
           name: toText(v.NameTextMapHash),
           localeName: t(v.NameTextMapHash),
-          desc: t(v.DescTextMapHash),
+          desc: toDesc(t(v.DescTextMapHash)),
           rarity: v.RankLevel,
           type: (MaterialType[v.MaterialType as any] as any) as MaterialType,
         };

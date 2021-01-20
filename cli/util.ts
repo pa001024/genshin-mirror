@@ -57,28 +57,18 @@ export function toID(hash: number, lang = "en") {
   return locales[lang][hash].replace(/\W+/g, "");
 }
 
-export function toNormalName(NameTextMapHash: number) {
-  return startCase(toText(NameTextMapHash)).replace(/ /g, "");
-}
-
 export async function saveObject(domain: string, file: string, obj: any) {
   const data = prettier.format(JSON.stringify(obj), { parser: "json" });
   await fs.ensureDir("dist/" + domain);
   await fs.writeFile("dist/" + domain + "/" + file, data);
 }
-export function toAffix(id: number): IWeaponAffix {
-  const affixLevels = affixMap[id];
-  const affix = affixLevels[0];
-  return {
-    name: toText(affix.NameTextMapHash) || "???",
-    levels: affixLevels.map(v => {
-      return { attrs: toAttr(v.AddProps), params: v.Param.filter(Boolean).map(toNum) };
-    }),
-  };
-}
 
 export function toItem(id: number) {
   return itemMap[id];
+}
+
+export function toDesc(raw: string) {
+  return raw.replace(/\\\\n/g, "\n");
 }
 
 // 生成大段文字的国际化文件

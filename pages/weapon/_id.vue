@@ -1,50 +1,64 @@
 <template>
   <div v-if="data" class="gsm-weapon">
-    <v-card>
-      <v-card-title v-text="localeName" />
-      <v-card-subtitle v-if="$i18n.locale !== 'en'" v-text="$t(data.name, 'en')" />
+    <v-card max-width="560" class="mx-auto">
+      <v-card-title>
+        <v-list-item two-line>
+          <v-list-item-action>
+            <WeaponImage :id="data.id" :fallback="data.type" :size="48" />
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title class="headline"> {{ data.localeName }}</v-list-item-title>
+            <v-list-item-subtitle v-if="$i18n.locale !== 'en'" v-text="data.name" />
+          </v-list-item-content>
+        </v-list-item>
+      </v-card-title>
       <v-card-text>
-        <v-container>
-          <v-row>
-            <v-col cols="6" sm="4" md="2">
-              <v-card class="info-block">
-                <v-card-title class="info-title">{{ $t("ui.weaponType") }}</v-card-title>
-                <v-card-text class="info-content">{{ $t(`weapon.${data.type}`) }}</v-card-text>
-              </v-card>
-            </v-col>
-            <v-col cols="6" sm="4" md="2">
-              <v-card class="info-block">
-                <v-card-title class="info-title">{{ $t("rarity.title") }}</v-card-title>
-                <v-card-text class="info-content"><Rarity :star="data.rarity" /></v-card-text>
-              </v-card>
-            </v-col>
-            <v-col cols="6" sm="4" md="2">
-              <v-card class="info-block">
-                <v-card-title class="info-title">{{ $t("buff.48") }}</v-card-title>
-                <v-card-text class="info-content">{{ data.baseATK }}</v-card-text>
-              </v-card>
-            </v-col>
-            <v-col cols="6" sm="4" md="2">
-              <v-card class="info-block">
-                <v-card-title class="info-title">{{ $t("ui.subAttr") }}</v-card-title>
-                <v-card-text v-if="data.subAttr" class="info-content">{{ $t(`buff.${data.subAttr.type}`) }}</v-card-text>
-                <v-card-text v-else class="info-content">{{ $t(`buff.0`) }}</v-card-text>
-              </v-card>
-            </v-col>
-            <v-col v-if="data.affix" cols="6" sm="4" md="2">
-              <v-card class="info-block">
-                <v-card-title class="info-title">{{ $t("ascension.title") }}</v-card-title>
-                <v-card-text class="info-content">{{ l10n(data.affix.name) }}</v-card-text>
-              </v-card>
-            </v-col>
-          </v-row>
-        </v-container>
+        <v-row>
+          <v-col cols="6">
+            <v-list-item two-line>
+              <v-list-item-content>
+                <v-list-item-subtitle v-text="$t('ui.weaponType')" />
+                <v-list-item-title class="headline" v-text="$t(`weapon.${data.type}`)" />
+              </v-list-item-content>
+            </v-list-item>
+          </v-col>
+          <v-col cols="6">
+            <v-list-item two-line>
+              <v-list-item-content>
+                <v-list-item-subtitle v-text="$t('rarity.title')" />
+                <v-list-item-title class="headline"><Rarity :star="data.rarity" /></v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+          </v-col>
+          <v-col cols="6">
+            <v-list-item two-line>
+              <v-list-item-content>
+                <v-list-item-subtitle v-text="$t('buff.2')" />
+                <v-list-item-title class="headline" v-text="data.baseATK" />
+              </v-list-item-content>
+            </v-list-item>
+          </v-col>
+          <v-col v-if="data.subAttr" cols="6">
+            <v-list-item two-line>
+              <v-list-item-content>
+                <v-list-item-subtitle v-text="$t(`buff.${data.subAttr.type}`)" />
+                <v-list-item-title class="headline" v-text="percent(data.subAttr.value)" />
+              </v-list-item-content>
+            </v-list-item>
+          </v-col>
+        </v-row>
+        <v-list-item v-if="data.affix" two-line>
+          <v-list-item-content>
+            <v-list-item-subtitle v-text="$t('affix.title')" />
+            <v-list-item-title class="headline" v-text="data.affix.name" />
+            <v-list-item-content>
+              <p style="line-height: 1.5" v-html="parseDesc(data.affix.desc)"></p>
+            </v-list-item-content>
+          </v-list-item-content>
+        </v-list-item>
+        <v-divider class="mb-2 mt-2" />
+        <v-card-text v-text="data.desc" />
       </v-card-text>
-      <v-card v-if="page" class="mt-3">
-        <v-card-text>
-          <nuxt-content :document="page" />
-        </v-card-text>
-      </v-card>
     </v-card>
   </div>
   <div v-else class="error">找不到此武器</div>
@@ -59,8 +73,8 @@ import { IWeapon } from "~/modules/core";
   async asyncData({ params: { id }, $content, app }) {
     const rst: Partial<Page> = { id, data: null, page: null };
     if (id.includes("../")) return { id };
-    const res = (await $content("common/weapon", id).fetch().catch(console.error)) as any;
-    rst.data = res;
+    const res = (await $content(app.i18n.locale, "weapon").where({ id }).fetch().catch(console.error)) as any;
+    rst.data = res && res[0];
 
     if (rst.data) {
       rst.page = await $content(app.i18n.locale, id)
@@ -81,13 +95,12 @@ export default class Page extends Vue {
   data: IWeapon | null = null;
   page: any = null;
 
-  get localeName() {
-    return this.$te(`${this.id}`) ? this.$t(`${this.id}`) : this.id;
+  parseDesc(str: string) {
+    return str.replace(/<color=(.+?)>(.+?)<\/color>/g, `<span style="color:$1">$2</span>`);
   }
 
-  l10n(str: string) {
-    const id = str.replace(/\W+/g, "");
-    return this.$te(`${id}`) ? this.$t(`${id}`) : str;
+  percent(num: number) {
+    return num * 100 + "%";
   }
 }
 </script>
