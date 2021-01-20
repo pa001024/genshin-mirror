@@ -27,7 +27,7 @@
           <v-list-item v-if="item.id" :key="item.id">
             <v-list-item-action>
               <v-list-item-title>
-                <v-avatar color="indigo" />
+                <v-avatar color="grey" />
               </v-list-item-title>
               <v-list-item-subtitle align="center">
                 <Rarity :star="item.rarity" fixed />
