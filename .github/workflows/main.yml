@@ -1,0 +1,68 @@
+name: Publish And Deploy Demo
+on:
+  push:
+    tags:
+      - 'v*'
+      # 提交一个标签 tag的时候 才会触发 自动部署  以v开头的 例如v0.0.1
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+
+    # 下载源码
+    - name: Checkout
+      uses: actions/checkout@master
+
+    # 打包构建
+    - name: Build
+      uses: actions/setup-node@master
+    - run: npm install
+    - run: npm run build
+    - run: tar -zcvf release.tgz .nuxt static nuxt.config.js package.json package-lock.json pm2.config.json
+    # 基于这次的tag标签来下载依赖 打包 然后把 后续几个文件生成 tgz 压缩包
+
+    # 发布 Release
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: Release ${{ github.ref }}
+        draft: false
+        prerelease: false
+
+    # 上传构建结果到 Release
+    - name: Upload Release Asset
+      id: upload-release-asset
+      uses: actions/upload-release-asset@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./release.tgz
+        asset_name: release.tgz
+        asset_content_type: application/x-tgz
+
+    # 部署到服务器
+    - name: Deploy
+      uses: appleboy/ssh-action@master
+      with:
+        # 远程服务器设置
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.KEY }}
+
+        # 然后
+        # 进入对应目录
+        # 下载压缩的tgz到服务器
+        # 解压
+        # 下载项目生成依赖
+        # 然后通过 pm2 进行管理启动
+        script: |
+          cd ~/genshin-mirror
+          wget https://github.com/pa001024/genshin-mirror/releases/latest/download/release.tgz -O release.tgz
+          tar zxvf release.tgz
+          npm install --production
+          pm2 reload pm2.config.json
