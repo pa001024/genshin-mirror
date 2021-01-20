@@ -108,7 +108,7 @@ import { IAvatar } from "~/modules/core";
   // set html header
   head() {
     // Set Meta Tags for this Page
-    const title = this.$t("title.sub", [this.$t(`${this.id}`)]) as string;
+    const title = this.$t("title.sub", [this.$t(`${this.data?.localeName}`)]) as string;
     return { title };
   },
 })
