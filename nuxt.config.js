@@ -127,6 +127,11 @@ export default {
     },
   },
 
+  server: {
+    host: "127.0.0.1",
+    port: 7333,
+  },
+
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
     // Enable thread-loader in webpack building
