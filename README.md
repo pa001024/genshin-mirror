@@ -3,7 +3,7 @@
 ## Documention
 
 中文:
-- 机制相关: [./content/zh-Hans/mechanism.md]
+- 机制相关: [mechanism.md](./content/zh-Hans/mechanism.md)
 
 ## Build Setup
 

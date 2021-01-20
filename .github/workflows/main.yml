@@ -18,7 +18,7 @@ jobs:
     # 打包构建
     - name: Build
       uses: actions/setup-node@v2
-    - run: yarn install
+    - run: yarn --no-lockfile
     - run: yarn build
     - run: tar -zcvf release.tgz .nuxt static nuxt.config.js package.json yarn.lock pm2.config.json
     # 基于这次的tag标签来下载依赖 打包 然后把 后续几个文件生成 tgz 压缩包
