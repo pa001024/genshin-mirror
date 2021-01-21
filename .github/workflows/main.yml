@@ -47,7 +47,10 @@ jobs:
         asset_path: ./release.tgz
         asset_name: release.tgz
         asset_content_type: application/x-tgz
-
+    - name: Sleep for 20 seconds
+      uses: jakejarvis/wait-action@master
+      with:
+        time: '20s'
     # 部署到服务器
     - name: Deploy
       uses: appleboy/ssh-action@master
@@ -67,5 +70,6 @@ jobs:
           cd ~/genshin-mirror
           wget https://github.com/pa001024/genshin-mirror/releases/latest/download/release.tgz -O release.tgz
           tar zxvf release.tgz
+          nvm use 14
           yarn install --production
           pm2 reload pm2.config.json
