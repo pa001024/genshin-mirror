@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "VajradaAmethystSliver", "count": 1 },
-        { "name": "Valberry", "count": 3 },
-        { "name": "SlimeCondensate", "count": 3 }
+        {
+          "id": "VajradaAmethystSliver",
+          "name": "Vajrada Amethyst Sliver",
+          "localeName": "最勝のアメシスト·砕屑",
+          "count": 1
+        },
+        {
+          "id": "Valberry",
+          "name": "Valberry",
+          "localeName": "ヴァルベリー",
+          "count": 3
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "Slime Condensate",
+          "localeName": "スライムの液体",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 599.42 },
-        { "type": 3, "value": 35.91 },
-        { "type": 2, "value": 14.501 },
-        { "type": 11, "value": 0 }
-      ]
+      "HP": 599.42,
+      "ATK": 14.501,
+      "DEF": 35.91,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "VajradaAmethystFragment", "count": 3 },
-        { "name": "LightningPrism", "count": 2 },
-        { "name": "Valberry", "count": 10 },
-        { "name": "SlimeCondensate", "count": 15 }
+        {
+          "id": "VajradaAmethystFragment",
+          "name": "Vajrada Amethyst Fragment",
+          "localeName": "最勝のアメシスト·欠片",
+          "count": 3
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "雷光のプリズム",
+          "count": 2
+        },
+        {
+          "id": "Valberry",
+          "name": "Valberry",
+          "localeName": "ヴァルベリー",
+          "count": 10
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "Slime Condensate",
+          "localeName": "スライムの液体",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1025.3 },
-        { "type": 3, "value": 61.425 },
-        { "type": 2, "value": 24.805 },
-        { "type": 11, "value": 24 }
-      ]
+      "HP": 1025.3,
+      "ATK": 24.805,
+      "DEF": 61.425,
+      "extra": 24
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "VajradaAmethystFragment", "count": 6 },
-        { "name": "LightningPrism", "count": 4 },
-        { "name": "Valberry", "count": 20 },
-        { "name": "SlimeSecretions", "count": 12 }
+        {
+          "id": "VajradaAmethystFragment",
+          "name": "Vajrada Amethyst Fragment",
+          "localeName": "最勝のアメシスト·欠片",
+          "count": 6
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "雷光のプリズム",
+          "count": 4
+        },
+        {
+          "id": "Valberry",
+          "name": "Valberry",
+          "localeName": "ヴァルベリー",
+          "count": 20
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "Slime Secretions",
+          "localeName": "スライムの分泌物",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1593.2 },
-        { "type": 3, "value": 95.445 },
-        { "type": 2, "value": 38.543 },
-        { "type": 11, "value": 48 }
-      ]
+      "HP": 1593.2,
+      "ATK": 38.543,
+      "DEF": 95.445,
+      "extra": 48
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "VajradaAmethystChunk", "count": 3 },
-        { "name": "LightningPrism", "count": 8 },
-        { "name": "Valberry", "count": 30 },
-        { "name": "SlimeSecretions", "count": 18 }
+        {
+          "id": "VajradaAmethystChunk",
+          "name": "Vajrada Amethyst Chunk",
+          "localeName": "最勝のアメシスト·塊",
+          "count": 3
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "雷光のプリズム",
+          "count": 8
+        },
+        {
+          "id": "Valberry",
+          "name": "Valberry",
+          "localeName": "ヴァルベリー",
+          "count": 30
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "Slime Secretions",
+          "localeName": "スライムの分泌物",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2019.1 },
-        { "type": 3, "value": 120.96 },
-        { "type": 2, "value": 48.846 },
-        { "type": 11, "value": 48 }
-      ]
+      "HP": 2019.1,
+      "ATK": 48.846,
+      "DEF": 120.96,
+      "extra": 48
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "VajradaAmethystChunk", "count": 6 },
-        { "name": "LightningPrism", "count": 12 },
-        { "name": "Valberry", "count": 45 },
-        { "name": "SlimeConcentrate", "count": 12 }
+        {
+          "id": "VajradaAmethystChunk",
+          "name": "Vajrada Amethyst Chunk",
+          "localeName": "最勝のアメシスト·塊",
+          "count": 6
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "雷光のプリズム",
+          "count": 12
+        },
+        {
+          "id": "Valberry",
+          "name": "Valberry",
+          "localeName": "ヴァルベリー",
+          "count": 45
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "Slime Concentrate",
+          "localeName": "スライムのピュレ",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2445 },
-        { "type": 3, "value": 146.48 },
-        { "type": 2, "value": 59.149 },
-        { "type": 11, "value": 72 }
-      ]
+      "HP": 2445,
+      "ATK": 59.149,
+      "DEF": 146.48,
+      "extra": 72
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "VajradaAmethystGemstone", "count": 6 },
-        { "name": "LightningPrism", "count": 20 },
-        { "name": "Valberry", "count": 60 },
-        { "name": "SlimeConcentrate", "count": 24 }
+        {
+          "id": "VajradaAmethystGemstone",
+          "name": "Vajrada Amethyst Gemstone",
+          "localeName": "最勝のアメシスト",
+          "count": 6
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "雷光のプリズム",
+          "count": 20
+        },
+        {
+          "id": "Valberry",
+          "name": "Valberry",
+          "localeName": "ヴァルベリー",
+          "count": 60
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "Slime Concentrate",
+          "localeName": "スライムのピュレ",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2870.9 },
-        { "type": 3, "value": 171.99 },
-        { "type": 2, "value": 69.453 },
-        { "type": 11, "value": 96 }
-      ]
+      "HP": 2870.9,
+      "ATK": 69.453,
+      "DEF": 171.99,
+      "extra": 96
     }
   ],
   "ascensionType": 11,
   "element": 3,
   "elemSkill": {
     "name": "蒼雷",
-    "desc": "雷の力で、面倒なものを全て綺麗に片付ける。\\n\\n<color=#FFD780FF>一回押し</color>\\n自動で索敵する球状の稲妻を放つ。\\n命中後、標的に<color=#FFACFFFF>雷元素ダメージ</color>を与え、狭範囲の敵に最大3重までの誘雷効果を付与する。\\n\\n<color=#FFD780FF>長押し</color>\\n短い詠唱をした後、雷を落下させ、周囲にいる全ての敵に<color=#FFACFFFF>雷元素ダメージ</color>を与える。\\n敵が誘雷状態の場合、誘雷効果を解除し、重ねた回数をもとに追加ダメージを与える。\\n\\n<i>雷電の色は薔薇の魔女の色である。</i>",
+    "desc": "雷の力で、面倒なものを全て綺麗に片付ける。\n\n<color=#FFD780FF>一回押し</color>\n自動で索敵する球状の稲妻を放つ。\n命中後、標的に<color=#FFACFFFF>雷元素ダメージ</color>を与え、狭範囲の敵に最大3重までの誘雷効果を付与する。\n\n<color=#FFD780FF>長押し</color>\n短い詠唱をした後、雷を落下させ、周囲にいる全ての敵に<color=#FFACFFFF>雷元素ダメージ</color>を与える。\n敵が誘雷状態の場合、誘雷効果を解除し、重ねた回数をもとに追加ダメージを与える。\n\n<i>雷電の色は薔薇の魔女の色である。</i>",
     "cd": 16
   },
   "elemBurst": {
     "name": "薔薇の雷光",
-    "desc": "薔薇の雷光を召喚し、強い雷の力で周囲の敵に<color=#FFACFFFF>雷元素ダメージ</color>を与え、ノックバックする。\\n継続時間中、薔薇の雷光は周囲の敵を攻撃し、<color=#FFACFFFF>雷元素ダメージ</color>を与える。\\n\\n<i>この薔薇は美しいが、致命的な棘がある。</i>",
+    "desc": "薔薇の雷光を召喚し、強い雷の力で周囲の敵に<color=#FFACFFFF>雷元素ダメージ</color>を与え、ノックバックする。\n継続時間中、薔薇の雷光は周囲の敵を攻撃し、<color=#FFACFFFF>雷元素ダメージ</color>を与える。\n\n<i>この薔薇は美しいが、致命的な棘がある。</i>",
     "cd": 20,
     "energyCost": 80
   },
   "attackSkill": {
     "name": "通常攻撃·指先の雷",
-    "desc": "<color=#FFD780FF>通常攻撃</color>\\n雷電による最大4段の連続攻撃を行い、<color=#FFACFFFF>雷元素ダメージ</color>を与える。\\n\\n<color=#FFD780FF>重撃</color>\\n一定のスタミナを消費し、短い詠唱をした後、<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。\\n\\n<color=#FFD780FF>落下攻撃</color>\\n空中から雷電の力を凝集しながら落下し、地面に衝撃を与える。経路上の敵を攻撃し、落下時に<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n雷電による最大4段の連続攻撃を行い、<color=#FFACFFFF>雷元素ダメージ</color>を与える。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、短い詠唱をした後、<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から雷電の力を凝集しながら落下し、地面に衝撃を与える。経路上の敵を攻撃し、落下時に<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。",
     "cd": 0
   },
   "c13ns": [

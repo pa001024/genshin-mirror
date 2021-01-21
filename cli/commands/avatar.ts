@@ -1,6 +1,6 @@
 import fs from "fs-extra";
-import { BodyType, Region } from "../../modules/core/enum";
-import { IAvatar, ISkill, IAscension, IConstellation } from "../../modules/core/interface";
+import { BodyType, BuffType, Region } from "../../modules/core/enum";
+import { IAvatar, ISkill, IAscension, IConstellation, IAscensionPhase } from "../../modules/core/interface";
 
 // extra
 import { DATA_DIR, Dict, saveTranslation, toNum, toText, toWeaponType, toTags, toElement, toItem, toID, toAttrType, toDesc } from "../util";
@@ -41,6 +41,7 @@ async function parseChar() {
       const tags = toTags(char.FeatureTagGroupId);
       const skills = toSkills(char.SkillDepotId);
       const ascensions = toAscension(char.AvatarPromoteId);
+      const ascensionType = ascensions ? ascensions[0].attrs[3].type : 0;
       const avatar: IAvatar = {
         id: toID(char.NameTextMapHash),
         name: toText(char.NameTextMapHash),
@@ -53,8 +54,18 @@ async function parseChar() {
         rarity: toRarity(char.QualityType),
         weapon: toWeaponType(char.WeaponType),
         region: toRegion(tags),
-        ascensions,
-        ascensionType: ascensions ? ascensions[0].attrs[3].type : 0,
+        ascensions: ascensions.map(v => {
+          const p: IAscensionPhase = {
+            level: v.level,
+            itemCost: v.itemCost,
+            HP: v.attrs.find(v => v.type === BuffType.BaseHP)?.value || 0,
+            ATK: v.attrs.find(v => v.type === BuffType.BaseATK)?.value || 0,
+            DEF: v.attrs.find(v => v.type === BuffType.BaseDEF)?.value || 0,
+            extra: v.attrs.find(v => v.type === ascensionType)?.value || 0,
+          };
+          return p;
+        }),
+        ascensionType,
         element: skills.element,
         elemSkill: skills.eSkill,
         elemBurst: skills.qSkill,
@@ -74,9 +85,9 @@ async function parseChar() {
                 const item = toItem(it.Id!);
                 if (!item) {
                   // console.warn(`[item] ${id}:${it.Id} not found`);
-                  return { name: "???", count: it.Count! };
+                  return { id: "unknown", name: "???", localeName: "???", count: it.Count! };
                 }
-                return { name: toID(item.NameTextMapHash), count: it.Count! };
+                return { id: toID(item.NameTextMapHash), name: toText(item.NameTextMapHash), localeName: t(item.NameTextMapHash), count: it.Count! };
               }),
               attrs: v.AddProps.filter(p => p.PropType).map(p => {
                 return { type: toAttrType(p.PropType!), value: p.Value ? toNum(p.Value) : 0 };
@@ -119,7 +130,7 @@ async function parseChar() {
         const proud = (skill.ProudSkillGroupId && proudSkillIndex[skill.ProudSkillGroupId]) || undefined;
         const rst: ISkill = {
           name: t(skill.NameTextMapHash),
-          desc: t(skill.DescTextMapHash),
+          desc: toDesc(t(skill.DescTextMapHash)),
           cd: toNum(skill.CdTime || 0),
         };
         if (proud) {

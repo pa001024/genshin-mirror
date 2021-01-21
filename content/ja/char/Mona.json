@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "VarunadaLazuriteSliver", "count": 1 },
-        { "name": "PhilanemoMushroom", "count": 3 },
-        { "name": "WhopperflowerNectar", "count": 3 }
+        {
+          "id": "VarunadaLazuriteSliver",
+          "name": "Varunada Lazurite Sliver",
+          "localeName": "澄明なラピスラズリ·砕屑",
+          "count": 1
+        },
+        {
+          "id": "PhilanemoMushroom",
+          "name": "Philanemo Mushroom",
+          "localeName": "慕風のマッシュルーム",
+          "count": 3
+        },
+        {
+          "id": "WhopperflowerNectar",
+          "name": "Whopperflower Nectar",
+          "localeName": "トリックフラワーの蜜",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 694.78 },
-        { "type": 3, "value": 43.605 },
-        { "type": 2, "value": 19.157 },
-        { "type": 10, "value": 0 }
-      ]
+      "HP": 694.78,
+      "ATK": 19.157,
+      "DEF": 43.605,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "VarunadaLazuriteFragment", "count": 3 },
-        { "name": "CleansingHeart", "count": 2 },
-        { "name": "PhilanemoMushroom", "count": 10 },
-        { "name": "WhopperflowerNectar", "count": 15 }
+        {
+          "id": "VarunadaLazuriteFragment",
+          "name": "Varunada Lazurite Fragment",
+          "localeName": "澄明なラピスラズリ·欠片",
+          "count": 3
+        },
+        {
+          "id": "CleansingHeart",
+          "name": "Cleansing Heart",
+          "localeName": "浄水の心",
+          "count": 2
+        },
+        {
+          "id": "PhilanemoMushroom",
+          "name": "Philanemo Mushroom",
+          "localeName": "慕風のマッシュルーム",
+          "count": 10
+        },
+        {
+          "id": "WhopperflowerNectar",
+          "name": "Whopperflower Nectar",
+          "localeName": "トリックフラワーの蜜",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1188.4 },
-        { "type": 3, "value": 74.588 },
-        { "type": 2, "value": 32.768 },
-        { "type": 10, "value": 0.08 }
-      ]
+      "HP": 1188.4,
+      "ATK": 32.768,
+      "DEF": 74.588,
+      "extra": 0.08
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "VarunadaLazuriteFragment", "count": 6 },
-        { "name": "CleansingHeart", "count": 4 },
-        { "name": "PhilanemoMushroom", "count": 20 },
-        { "name": "ShimmeringNectar", "count": 12 }
+        {
+          "id": "VarunadaLazuriteFragment",
+          "name": "Varunada Lazurite Fragment",
+          "localeName": "澄明なラピスラズリ·欠片",
+          "count": 6
+        },
+        {
+          "id": "CleansingHeart",
+          "name": "Cleansing Heart",
+          "localeName": "浄水の心",
+          "count": 4
+        },
+        {
+          "id": "PhilanemoMushroom",
+          "name": "Philanemo Mushroom",
+          "localeName": "慕風のマッシュルーム",
+          "count": 20
+        },
+        {
+          "id": "ShimmeringNectar",
+          "name": "Shimmering Nectar",
+          "localeName": "微光花の蜜",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1846.6 },
-        { "type": 3, "value": 115.9 },
-        { "type": 2, "value": 50.916 },
-        { "type": 10, "value": 0.16 }
-      ]
+      "HP": 1846.6,
+      "ATK": 50.916,
+      "DEF": 115.9,
+      "extra": 0.16
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "VarunadaLazuriteChunk", "count": 3 },
-        { "name": "CleansingHeart", "count": 8 },
-        { "name": "PhilanemoMushroom", "count": 30 },
-        { "name": "ShimmeringNectar", "count": 18 }
+        {
+          "id": "VarunadaLazuriteChunk",
+          "name": "Varunada Lazurite Chunk",
+          "localeName": "澄明なラピスラズリ·塊",
+          "count": 3
+        },
+        {
+          "id": "CleansingHeart",
+          "name": "Cleansing Heart",
+          "localeName": "浄水の心",
+          "count": 8
+        },
+        {
+          "id": "PhilanemoMushroom",
+          "name": "Philanemo Mushroom",
+          "localeName": "慕風のマッシュルーム",
+          "count": 30
+        },
+        {
+          "id": "ShimmeringNectar",
+          "name": "Shimmering Nectar",
+          "localeName": "微光花の蜜",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2340.3 },
-        { "type": 3, "value": 146.88 },
-        { "type": 2, "value": 64.527 },
-        { "type": 10, "value": 0.16 }
-      ]
+      "HP": 2340.3,
+      "ATK": 64.527,
+      "DEF": 146.88,
+      "extra": 0.16
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "VarunadaLazuriteChunk", "count": 6 },
-        { "name": "CleansingHeart", "count": 12 },
-        { "name": "PhilanemoMushroom", "count": 45 },
-        { "name": "EnergyNectar", "count": 12 }
+        {
+          "id": "VarunadaLazuriteChunk",
+          "name": "Varunada Lazurite Chunk",
+          "localeName": "澄明なラピスラズリ·塊",
+          "count": 6
+        },
+        {
+          "id": "CleansingHeart",
+          "name": "Cleansing Heart",
+          "localeName": "浄水の心",
+          "count": 12
+        },
+        {
+          "id": "PhilanemoMushroom",
+          "name": "Philanemo Mushroom",
+          "localeName": "慕風のマッシュルーム",
+          "count": 45
+        },
+        {
+          "id": "EnergyNectar",
+          "name": "Energy Nectar",
+          "localeName": "原素花の蜜",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2834 },
-        { "type": 3, "value": 177.86 },
-        { "type": 2, "value": 78.139 },
-        { "type": 10, "value": 0.24 }
-      ]
+      "HP": 2834,
+      "ATK": 78.139,
+      "DEF": 177.86,
+      "extra": 0.24
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "VarunadaLazuriteGemstone", "count": 6 },
-        { "name": "CleansingHeart", "count": 20 },
-        { "name": "PhilanemoMushroom", "count": 60 },
-        { "name": "EnergyNectar", "count": 24 }
+        {
+          "id": "VarunadaLazuriteGemstone",
+          "name": "Varunada Lazurite Gemstone",
+          "localeName": "澄明なラピスラズリ",
+          "count": 6
+        },
+        {
+          "id": "CleansingHeart",
+          "name": "Cleansing Heart",
+          "localeName": "浄水の心",
+          "count": 20
+        },
+        {
+          "id": "PhilanemoMushroom",
+          "name": "Philanemo Mushroom",
+          "localeName": "慕風のマッシュルーム",
+          "count": 60
+        },
+        {
+          "id": "EnergyNectar",
+          "name": "Energy Nectar",
+          "localeName": "原素花の蜜",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3327.6 },
-        { "type": 3, "value": 208.85 },
-        { "type": 2, "value": 91.75 },
-        { "type": 10, "value": 0.32 }
-      ]
+      "HP": 3327.6,
+      "ATK": 91.75,
+      "DEF": 208.85,
+      "extra": 0.32
     }
   ],
   "ascensionType": 10,
   "element": 5,
   "elemSkill": {
     "name": "水中幻願",
-    "desc": "水しぶきを集め、運命の虚影を形成する。\\n\\n<color=#FFD780FF>虚影</color>\\n以下の特性を持つ：\\n·持続的に敵を挑発し、攻撃を引き寄せる。\\n·持続的に付近の敵に<color=#80C0FFFF>水元素範囲ダメージ</color>を与える。\\n·継続時間終了時、虚影が破裂し、<color=#80C0FFFF>水元素範囲ダメージ</color>を与える。\\n\\n<color=#FFD780FF>長押し</color>\\n水流の勢いを利用し、素早く後退する。\\n\\n水中幻願によって作られた虚影は、同時に最大1つまで存在可能。\\n\\n<i>造詣が深い占星術師は自身が創造した虚影で厄運から免れる。だがここまで厄運を挑発する者は、テイワットでもモナだけであろう。</i>",
+    "desc": "水しぶきを集め、運命の虚影を形成する。\n\n<color=#FFD780FF>虚影</color>\n以下の特性を持つ：\n·持続的に敵を挑発し、攻撃を引き寄せる。\n·持続的に付近の敵に<color=#80C0FFFF>水元素範囲ダメージ</color>を与える。\n·継続時間終了時、虚影が破裂し、<color=#80C0FFFF>水元素範囲ダメージ</color>を与える。\n\n<color=#FFD780FF>長押し</color>\n水流の勢いを利用し、素早く後退する。\n\n水中幻願によって作られた虚影は、同時に最大1つまで存在可能。\n\n<i>造詣が深い占星術師は自身が創造した虚影で厄運から免れる。だがここまで厄運を挑発する者は、テイワットでもモナだけであろう。</i>",
     "cd": 12
   },
   "elemBurst": {
     "name": "星命定軌",
-    "desc": "清らかなさざなみを集め、虚幻の星空を映し、広範囲の敵に泡影状態を与える。\\n\\n<color=#FFD780FF>泡影</color>\\n星の泡で敵を拘束し、<color=#80C0FFFF>湿潤</color>状態を付与する。比較的に弱い敵は泡影に拘束され、行動不能になる。\\n泡影状態の敵がダメージを受けると、以下の効果を受ける：\\n·星異状態を与えられ、次に受けるダメージが上昇する。\\n·泡影の効果が解除する。解除時、<color=#80C0FFFF>水元素ダメージ</color>を受ける。\\n\\n<color=#FFD780FF>星異</color>\\n星異状態継続中、受けるダメージがアップする。\\n\\n<i>神の眼差しが天空の光を導き、運命は運命と呼ばれるようになった。</i>",
+    "desc": "清らかなさざなみを集め、虚幻の星空を映し、広範囲の敵に泡影状態を与える。\n\n<color=#FFD780FF>泡影</color>\n星の泡で敵を拘束し、<color=#80C0FFFF>湿潤</color>状態を付与する。比較的に弱い敵は泡影に拘束され、行動不能になる。\n泡影状態の敵がダメージを受けると、以下の効果を受ける：\n·星異状態を与えられ、次に受けるダメージが上昇する。\n·泡影の効果が解除する。解除時、<color=#80C0FFFF>水元素ダメージ</color>を受ける。\n\n<color=#FFD780FF>星異</color>\n星異状態継続中、受けるダメージがアップする。\n\n<i>神の眼差しが天空の光を導き、運命は運命と呼ばれるようになった。</i>",
     "cd": 15,
     "energyCost": 60
   },
   "attackSkill": {
     "name": "通常攻撃·因果点破",
-    "desc": "<color=#FFD780FF>通常攻撃</color>\\n最大4段の連続攻撃を行い、<color=#80C0FFFF>水元素ダメージ</color>を与える。\\n\\n<color=#FFD780FF>重撃</color>\\n一定のスタミナを消費し、短い詠唱をした後、敵に<color=#80C0FFFF>水元素範囲ダメージ</color>を与える。\\n\\n<color=#FFD780FF>落下攻撃</color>\\n空中から水元素の力を凝集しながら落下し、地面に衝撃を与える。経路上の敵を攻撃し、落下時に<color=#80C0FFFF>水元素範囲ダメージ</color>を与える。",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n最大4段の連続攻撃を行い、<color=#80C0FFFF>水元素ダメージ</color>を与える。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、短い詠唱をした後、敵に<color=#80C0FFFF>水元素範囲ダメージ</color>を与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から水元素の力を凝集しながら落下し、地面に衝撃を与える。経路上の敵を攻撃し、落下時に<color=#80C0FFFF>水元素範囲ダメージ</color>を与える。",
     "cd": 0
   },
   "c13ns": [

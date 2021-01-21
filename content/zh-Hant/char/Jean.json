@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "VayudaTurquoiseSliver", "count": 1 },
-        { "name": "DandelionSeed", "count": 3 },
-        { "name": "DamagedMask", "count": 3 }
+        {
+          "id": "VayudaTurquoiseSliver",
+          "name": "Vayuda Turquoise Sliver",
+          "localeName": "自在松石碎屑",
+          "count": 1
+        },
+        {
+          "id": "DandelionSeed",
+          "name": "Dandelion Seed",
+          "localeName": "蒲公英籽",
+          "count": 3
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Damaged Mask",
+          "localeName": "破損的面具",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 980.86 },
-        { "type": 3, "value": 51.3 },
-        { "type": 2, "value": 15.964 },
-        { "type": 14, "value": 0 }
-      ]
+      "HP": 980.86,
+      "ATK": 15.964,
+      "DEF": 51.3,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "VayudaTurquoiseFragment", "count": 3 },
-        { "name": "HurricaneSeed", "count": 2 },
-        { "name": "DandelionSeed", "count": 10 },
-        { "name": "DamagedMask", "count": 15 }
+        {
+          "id": "VayudaTurquoiseFragment",
+          "name": "Vayuda Turquoise Fragment",
+          "localeName": "自在松石斷片",
+          "count": 3
+        },
+        {
+          "id": "HurricaneSeed",
+          "name": "Hurricane Seed",
+          "localeName": "颶風之種",
+          "count": 2
+        },
+        {
+          "id": "DandelionSeed",
+          "name": "Dandelion Seed",
+          "localeName": "蒲公英籽",
+          "count": 10
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Damaged Mask",
+          "localeName": "破損的面具",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1677.8 },
-        { "type": 3, "value": 87.75 },
-        { "type": 2, "value": 27.306 },
-        { "type": 14, "value": 0.0554 }
-      ]
+      "HP": 1677.8,
+      "ATK": 27.306,
+      "DEF": 87.75,
+      "extra": 0.0554
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "VayudaTurquoiseFragment", "count": 6 },
-        { "name": "HurricaneSeed", "count": 4 },
-        { "name": "DandelionSeed", "count": 20 },
-        { "name": "StainedMask", "count": 12 }
+        {
+          "id": "VayudaTurquoiseFragment",
+          "name": "Vayuda Turquoise Fragment",
+          "localeName": "自在松石斷片",
+          "count": 6
+        },
+        {
+          "id": "HurricaneSeed",
+          "name": "Hurricane Seed",
+          "localeName": "颶風之種",
+          "count": 4
+        },
+        {
+          "id": "DandelionSeed",
+          "name": "Dandelion Seed",
+          "localeName": "蒲公英籽",
+          "count": 20
+        },
+        {
+          "id": "StainedMask",
+          "name": "Stained Mask",
+          "localeName": "汙穢的面具",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2607 },
-        { "type": 3, "value": 136.35 },
-        { "type": 2, "value": 42.43 },
-        { "type": 14, "value": 0.1108 }
-      ]
+      "HP": 2607,
+      "ATK": 42.43,
+      "DEF": 136.35,
+      "extra": 0.1108
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "VayudaTurquoiseChunk", "count": 3 },
-        { "name": "HurricaneSeed", "count": 8 },
-        { "name": "DandelionSeed", "count": 30 },
-        { "name": "StainedMask", "count": 18 }
+        {
+          "id": "VayudaTurquoiseChunk",
+          "name": "Vayuda Turquoise Chunk",
+          "localeName": "自在松石塊",
+          "count": 3
+        },
+        {
+          "id": "HurricaneSeed",
+          "name": "Hurricane Seed",
+          "localeName": "颶風之種",
+          "count": 8
+        },
+        {
+          "id": "DandelionSeed",
+          "name": "Dandelion Seed",
+          "localeName": "蒲公英籽",
+          "count": 30
+        },
+        {
+          "id": "StainedMask",
+          "name": "Stained Mask",
+          "localeName": "汙穢的面具",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3304 },
-        { "type": 3, "value": 172.8 },
-        { "type": 2, "value": 53.773 },
-        { "type": 14, "value": 0.1108 }
-      ]
+      "HP": 3304,
+      "ATK": 53.773,
+      "DEF": 172.8,
+      "extra": 0.1108
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "VayudaTurquoiseChunk", "count": 6 },
-        { "name": "HurricaneSeed", "count": 12 },
-        { "name": "DandelionSeed", "count": 45 },
-        { "name": "OminousMask", "count": 12 }
+        {
+          "id": "VayudaTurquoiseChunk",
+          "name": "Vayuda Turquoise Chunk",
+          "localeName": "自在松石塊",
+          "count": 6
+        },
+        {
+          "id": "HurricaneSeed",
+          "name": "Hurricane Seed",
+          "localeName": "颶風之種",
+          "count": 12
+        },
+        {
+          "id": "DandelionSeed",
+          "name": "Dandelion Seed",
+          "localeName": "蒲公英籽",
+          "count": 45
+        },
+        {
+          "id": "OminousMask",
+          "name": "Ominous Mask",
+          "localeName": "不祥的面具",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 4000.9 },
-        { "type": 3, "value": 209.25 },
-        { "type": 2, "value": 65.116 },
-        { "type": 14, "value": 0.1662 }
-      ]
+      "HP": 4000.9,
+      "ATK": 65.116,
+      "DEF": 209.25,
+      "extra": 0.1662
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "VayudaTurquoiseGemstone", "count": 6 },
-        { "name": "HurricaneSeed", "count": 20 },
-        { "name": "DandelionSeed", "count": 60 },
-        { "name": "OminousMask", "count": 24 }
+        {
+          "id": "VayudaTurquoiseGemstone",
+          "name": "Vayuda Turquoise Gemstone",
+          "localeName": "自在松石",
+          "count": 6
+        },
+        {
+          "id": "HurricaneSeed",
+          "name": "Hurricane Seed",
+          "localeName": "颶風之種",
+          "count": 20
+        },
+        {
+          "id": "DandelionSeed",
+          "name": "Dandelion Seed",
+          "localeName": "蒲公英籽",
+          "count": 60
+        },
+        {
+          "id": "OminousMask",
+          "name": "Ominous Mask",
+          "localeName": "不祥的面具",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 4697.8 },
-        { "type": 3, "value": 245.7 },
-        { "type": 2, "value": 76.458 },
-        { "type": 14, "value": 0.2215 }
-      ]
+      "HP": 4697.8,
+      "ATK": 76.458,
+      "DEF": 245.7,
+      "extra": 0.2215
     }
   ],
   "ascensionType": 14,
   "element": 1,
   "elemSkill": {
     "name": "風壓劍",
-    "desc": "將無形的風之力匯聚在劍上，釋放微型的風暴，將敵人朝瞄準的方向擊飛，造成大量<color=#80FFD7FF>風元素傷害</color>。\\n\\n<color=#FFD780FF>長按</color>\\n以持續消耗體力為代價，令旋風將周圍的敵人與物體牽引至面前。\\n可以調整方向。\\n期間無法移動。\\n\\n<i>與一心守護的琴同行的，是能將危險驅離夥伴身邊的守護之風。</i>",
+    "desc": "將無形的風之力匯聚在劍上，釋放微型的風暴，將敵人朝瞄準的方向擊飛，造成大量<color=#80FFD7FF>風元素傷害</color>。\n\n<color=#FFD780FF>長按</color>\n以持續消耗體力為代價，令旋風將周圍的敵人與物體牽引至面前。\n可以調整方向。\n期間無法移動。\n\n<i>與一心守護的琴同行的，是能將危險驅離夥伴身邊的守護之風。</i>",
     "cd": 6
   },
   "elemBurst": {
     "name": "蒲公英之風",
-    "desc": "呼喚風的護佑，創造千風湧動的蒲公英領域，擊退周圍的敵人並造成<color=#80FFD7FF>風元素傷害</color>。\\n同時，為隊伍中的所有角色瞬間恢復大量生命值，回復量受益於琴的攻擊力。\\n\\n<color=#FFD780FF>蒲公英領域</color>\\n·為其中的角色持續恢復生命值；\\n·令其中的角色持續受到<color=#80FFD7FF>風元素影響</color>；\\n·對出入領域的敵人造成<color=#80FFD7FF>風元素傷害</color>。\\n\\n<i>風的恩澤如同廣布大地的蒲公英，這就是琴守護的根源與心意。</i>",
+    "desc": "呼喚風的護佑，創造千風湧動的蒲公英領域，擊退周圍的敵人並造成<color=#80FFD7FF>風元素傷害</color>。\n同時，為隊伍中的所有角色瞬間恢復大量生命值，回復量受益於琴的攻擊力。\n\n<color=#FFD780FF>蒲公英領域</color>\n·為其中的角色持續恢復生命值；\n·令其中的角色持續受到<color=#80FFD7FF>風元素影響</color>；\n·對出入領域的敵人造成<color=#80FFD7FF>風元素傷害</color>。\n\n<i>風的恩澤如同廣布大地的蒲公英，這就是琴守護的根源與心意。</i>",
     "cd": 20,
     "energyCost": 80
   },
   "attackSkill": {
     "name": "普通攻擊·西風劍術",
-    "desc": "<color=#FFD780FF>普通攻擊</color>\\n進行至多五段的連續劍擊。\\n\\n<color=#FFD780FF>重擊</color>\\n消耗一定體力，進行飽含風之力的挑擊。\\n被挑飛的敵人，在短時間內會緩慢墜落。\\n\\n<color=#FFD780FF>下落攻擊</color>\\n從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。",
+    "desc": "<color=#FFD780FF>普通攻擊</color>\n進行至多五段的連續劍擊。\n\n<color=#FFD780FF>重擊</color>\n消耗一定體力，進行飽含風之力的挑擊。\n被挑飛的敵人，在短時間內會緩慢墜落。\n\n<color=#FFD780FF>下落攻擊</color>\n從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。",
     "cd": 0
   },
   "c13ns": [

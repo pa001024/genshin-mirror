@@ -68,8 +68,11 @@ jobs:
         # 然后通过 pm2 进行管理启动
         script: |
           cd ~/genshin-mirror
+          git pull
           wget https://github.com/pa001024/genshin-mirror/releases/latest/download/release.tgz -O release.tgz
           tar zxvf release.tgz
+          rm release.tgz
+          . ~/.nvm/nvm.sh
           nvm use 14
           yarn install --production
           pm2 reload pm2.config.json

@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "VajradaAmethystSliver", "count": 1 },
-        { "name": "Wolfhook", "count": 3 },
-        { "name": "DamagedMask", "count": 3 }
+        {
+          "id": "VajradaAmethystSliver",
+          "name": "Vajrada Amethyst Sliver",
+          "localeName": "最勝のアメシスト·砕屑",
+          "count": 1
+        },
+        {
+          "id": "Wolfhook",
+          "name": "Wolfhook",
+          "localeName": "ググプラム",
+          "count": 3
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Damaged Mask",
+          "localeName": "破損した仮面",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 749.27 },
-        { "type": 3, "value": 47.025 },
-        { "type": 2, "value": 14.634 },
-        { "type": 33, "value": 0 }
-      ]
+      "HP": 749.27,
+      "ATK": 14.634,
+      "DEF": 47.025,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "VajradaAmethystFragment", "count": 3 },
-        { "name": "LightningPrism", "count": 2 },
-        { "name": "Wolfhook", "count": 10 },
-        { "name": "DamagedMask", "count": 15 }
+        {
+          "id": "VajradaAmethystFragment",
+          "name": "Vajrada Amethyst Fragment",
+          "localeName": "最勝のアメシスト·欠片",
+          "count": 3
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "雷光のプリズム",
+          "count": 2
+        },
+        {
+          "id": "Wolfhook",
+          "name": "Wolfhook",
+          "localeName": "ググプラム",
+          "count": 10
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Damaged Mask",
+          "localeName": "破損した仮面",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1281.6 },
-        { "type": 3, "value": 80.438 },
-        { "type": 2, "value": 25.032 },
-        { "type": 33, "value": 0.075 }
-      ]
+      "HP": 1281.6,
+      "ATK": 25.032,
+      "DEF": 80.438,
+      "extra": 0.075
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "VajradaAmethystFragment", "count": 6 },
-        { "name": "LightningPrism", "count": 4 },
-        { "name": "Wolfhook", "count": 20 },
-        { "name": "StainedMask", "count": 12 }
+        {
+          "id": "VajradaAmethystFragment",
+          "name": "Vajrada Amethyst Fragment",
+          "localeName": "最勝のアメシスト·欠片",
+          "count": 6
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "雷光のプリズム",
+          "count": 4
+        },
+        {
+          "id": "Wolfhook",
+          "name": "Wolfhook",
+          "localeName": "ググプラム",
+          "count": 20
+        },
+        {
+          "id": "StainedMask",
+          "name": "Stained Mask",
+          "localeName": "汚れた仮面",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1991.5 },
-        { "type": 3, "value": 124.99 },
-        { "type": 2, "value": 38.896 },
-        { "type": 33, "value": 0.15 }
-      ]
+      "HP": 1991.5,
+      "ATK": 38.896,
+      "DEF": 124.99,
+      "extra": 0.15
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "VajradaAmethystChunk", "count": 3 },
-        { "name": "LightningPrism", "count": 8 },
-        { "name": "Wolfhook", "count": 30 },
-        { "name": "StainedMask", "count": 18 }
+        {
+          "id": "VajradaAmethystChunk",
+          "name": "Vajrada Amethyst Chunk",
+          "localeName": "最勝のアメシスト·塊",
+          "count": 3
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "雷光のプリズム",
+          "count": 8
+        },
+        {
+          "id": "Wolfhook",
+          "name": "Wolfhook",
+          "localeName": "ググプラム",
+          "count": 30
+        },
+        {
+          "id": "StainedMask",
+          "name": "Stained Mask",
+          "localeName": "汚れた仮面",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2523.9 },
-        { "type": 3, "value": 158.4 },
-        { "type": 2, "value": 49.294 },
-        { "type": 33, "value": 0.15 }
-      ]
+      "HP": 2523.9,
+      "ATK": 49.294,
+      "DEF": 158.4,
+      "extra": 0.15
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "VajradaAmethystChunk", "count": 6 },
-        { "name": "LightningPrism", "count": 12 },
-        { "name": "Wolfhook", "count": 45 },
-        { "name": "OminousMask", "count": 12 }
+        {
+          "id": "VajradaAmethystChunk",
+          "name": "Vajrada Amethyst Chunk",
+          "localeName": "最勝のアメシスト·塊",
+          "count": 6
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "雷光のプリズム",
+          "count": 12
+        },
+        {
+          "id": "Wolfhook",
+          "name": "Wolfhook",
+          "localeName": "ググプラム",
+          "count": 45
+        },
+        {
+          "id": "OminousMask",
+          "name": "Ominous Mask",
+          "localeName": "不吉な仮面",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3056.2 },
-        { "type": 3, "value": 191.81 },
-        { "type": 2, "value": 59.692 },
-        { "type": 33, "value": 0.225 }
-      ]
+      "HP": 3056.2,
+      "ATK": 59.692,
+      "DEF": 191.81,
+      "extra": 0.225
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "VajradaAmethystGemstone", "count": 6 },
-        { "name": "LightningPrism", "count": 20 },
-        { "name": "Wolfhook", "count": 60 },
-        { "name": "OminousMask", "count": 24 }
+        {
+          "id": "VajradaAmethystGemstone",
+          "name": "Vajrada Amethyst Gemstone",
+          "localeName": "最勝のアメシスト",
+          "count": 6
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "雷光のプリズム",
+          "count": 20
+        },
+        {
+          "id": "Wolfhook",
+          "name": "Wolfhook",
+          "localeName": "ググプラム",
+          "count": 60
+        },
+        {
+          "id": "OminousMask",
+          "name": "Ominous Mask",
+          "localeName": "不吉な仮面",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3588.6 },
-        { "type": 3, "value": 225.23 },
-        { "type": 2, "value": 70.09 },
-        { "type": 33, "value": 0.3 }
-      ]
+      "HP": 3588.6,
+      "ATK": 70.09,
+      "DEF": 225.23,
+      "extra": 0.3
     }
   ],
   "ascensionType": 33,
   "element": 3,
   "elemSkill": {
     "name": "鋭い爪と蒼雷",
-    "desc": "師匠と「家族」に教わった方法で、獲物を片付ける。\\n\\n<color=#FFD780FF>一回押し</color>\\n雷狼の爪を振り、前方の敵に<color=#FFACFFFF>雷元素ダメージ</color>を与える。\\n敵に命中すると、雷の印を1つ蓄積し、レザーの元素チャージ効率がアップする。\\n雷の印は同時に最大3つまで存在でき、新しい雷の印を獲得すると全ての雷の印の継続時間がリセットされる。\\n\\n<color=#FFD780FF>長押し</color>\\n雷の力を集めて狭範囲の雷爆発を起こし、大量の<color=#FFACFFFF>雷元素ダメージ</color>を与える。同時に、レザーの雷の印を全て取り除く。\\n取り除かれた雷の印は全てレザーの元素エネルギーに変換される。\\n\\n<i>雷が落ちる瞬間、レザーの魂の奥に眠る獲物を狙う眼光が垣間見える。</i>",
+    "desc": "師匠と「家族」に教わった方法で、獲物を片付ける。\n\n<color=#FFD780FF>一回押し</color>\n雷狼の爪を振り、前方の敵に<color=#FFACFFFF>雷元素ダメージ</color>を与える。\n敵に命中すると、雷の印を1つ蓄積し、レザーの元素チャージ効率がアップする。\n雷の印は同時に最大3つまで存在でき、新しい雷の印を獲得すると全ての雷の印の継続時間がリセットされる。\n\n<color=#FFD780FF>長押し</color>\n雷の力を集めて狭範囲の雷爆発を起こし、大量の<color=#FFACFFFF>雷元素ダメージ</color>を与える。同時に、レザーの雷の印を全て取り除く。\n取り除かれた雷の印は全てレザーの元素エネルギーに変換される。\n\n<i>雷が落ちる瞬間、レザーの魂の奥に眠る獲物を狙う眼光が垣間見える。</i>",
     "cd": 6
   },
   "elemBurst": {
     "name": "雷牙",
-    "desc": "無形の雷狼を召喚して自身を守り、周囲の敵に<color=#FFACFFFF>雷元素ダメージ</color>を与える。同時に、雷の印を消耗して自身の元素エネルギーを回復する。\\n雷狼が存在している間、レザーと共に戦う。\\n\\n<color=#FFD780FF>雷狼</color>\\n·レザーの通常攻撃に協力し、<color=#FFACFFFF>雷元素ダメージ</color>を与える。\\n·レザーの攻撃速度と<color=#FFACFFFF>雷元素耐性</color>がアップする。\\n·<color=#FFACFFFF>感電</color>反応によるダメージを無効化する。\\n·重撃の発動が不可になる。\\n·レザーの中断耐性がアップする。\\n\\nレザーが退場する時、効果が解除される。\\n退場時、残り時間を基準に、元素エネルギーを最大10まで回復する。\\n\\n<i>狼は目覚め、狩りの時間がやって来た。</i>",
+    "desc": "無形の雷狼を召喚して自身を守り、周囲の敵に<color=#FFACFFFF>雷元素ダメージ</color>を与える。同時に、雷の印を消耗して自身の元素エネルギーを回復する。\n雷狼が存在している間、レザーと共に戦う。\n\n<color=#FFD780FF>雷狼</color>\n·レザーの通常攻撃に協力し、<color=#FFACFFFF>雷元素ダメージ</color>を与える。\n·レザーの攻撃速度と<color=#FFACFFFF>雷元素耐性</color>がアップする。\n·<color=#FFACFFFF>感電</color>反応によるダメージを無効化する。\n·重撃の発動が不可になる。\n·レザーの中断耐性がアップする。\n\nレザーが退場する時、効果が解除される。\n退場時、残り時間を基準に、元素エネルギーを最大10まで回復する。\n\n<i>狼は目覚め、狩りの時間がやって来た。</i>",
     "cd": 20,
     "energyCost": 80
   },
   "attackSkill": {
     "name": "通常攻撃·鋼の脊",
-    "desc": "<color=#FFD780FF>通常攻撃</color>\\n最大4段の連続攻撃を行う。\\n\\n<color=#FFD780FF>重撃</color>\\n持続的にスタミナを消費し、大剣を振り回して周囲の敵を攻撃する。\\n重撃が終了した時に、さらに強力な攻撃を1回放つ。\\n\\n<color=#FFD780FF>落下攻撃</color>\\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n最大4段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n持続的にスタミナを消費し、大剣を振り回して周囲の敵を攻撃する。\n重撃が終了した時に、さらに強力な攻撃を1回放つ。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
     "cd": 0
   },
   "c13ns": [

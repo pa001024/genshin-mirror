@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "PrithivaTopazSliver", "count": 1 },
-        { "name": "GlazeLily", "count": 3 },
-        { "name": "RecruitsInsignia", "count": 3 }
+        {
+          "id": "PrithivaTopazSliver",
+          "name": "Prithiva Topaz Sliver",
+          "localeName": "堅牢なトパーズ·砕屑",
+          "count": 1
+        },
+        {
+          "id": "GlazeLily",
+          "name": "Glaze Lily",
+          "localeName": "琉璃百合",
+          "count": 3
+        },
+        {
+          "id": "RecruitsInsignia",
+          "name": "Recruit's Insignia",
+          "localeName": "新兵の記章",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 613.04 },
-        { "type": 3, "value": 35.91 },
-        { "type": 2, "value": 13.304 },
-        { "type": 31, "value": 0 }
-      ]
+      "HP": 613.04,
+      "ATK": 13.304,
+      "DEF": 35.91,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "PrithivaTopazFragment", "count": 3 },
-        { "name": "BasaltPillar", "count": 2 },
-        { "name": "GlazeLily", "count": 10 },
-        { "name": "RecruitsInsignia", "count": 15 }
+        {
+          "id": "PrithivaTopazFragment",
+          "name": "Prithiva Topaz Fragment",
+          "localeName": "堅牢なトパーズ·欠片",
+          "count": 3
+        },
+        {
+          "id": "BasaltPillar",
+          "name": "Basalt Pillar",
+          "localeName": "玄岩の塔",
+          "count": 2
+        },
+        {
+          "id": "GlazeLily",
+          "name": "Glaze Lily",
+          "localeName": "琉璃百合",
+          "count": 10
+        },
+        {
+          "id": "RecruitsInsignia",
+          "name": "Recruit's Insignia",
+          "localeName": "新兵の記章",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1048.6 },
-        { "type": 3, "value": 61.425 },
-        { "type": 2, "value": 22.757 },
-        { "type": 31, "value": 0.06 }
-      ]
+      "HP": 1048.6,
+      "ATK": 22.757,
+      "DEF": 61.425,
+      "extra": 0.06
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "PrithivaTopazFragment", "count": 6 },
-        { "name": "BasaltPillar", "count": 4 },
-        { "name": "GlazeLily", "count": 20 },
-        { "name": "SergeantsInsignia", "count": 12 }
+        {
+          "id": "PrithivaTopazFragment",
+          "name": "Prithiva Topaz Fragment",
+          "localeName": "堅牢なトパーズ·欠片",
+          "count": 6
+        },
+        {
+          "id": "BasaltPillar",
+          "name": "Basalt Pillar",
+          "localeName": "玄岩の塔",
+          "count": 4
+        },
+        {
+          "id": "GlazeLily",
+          "name": "Glaze Lily",
+          "localeName": "琉璃百合",
+          "count": 20
+        },
+        {
+          "id": "SergeantsInsignia",
+          "name": "Sergeant's Insignia",
+          "localeName": "士官の記章",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1629.4 },
-        { "type": 3, "value": 95.445 },
-        { "type": 2, "value": 35.36 },
-        { "type": 31, "value": 0.12 }
-      ]
+      "HP": 1629.4,
+      "ATK": 35.36,
+      "DEF": 95.445,
+      "extra": 0.12
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "PrithivaTopazChunk", "count": 3 },
-        { "name": "BasaltPillar", "count": 8 },
-        { "name": "GlazeLily", "count": 30 },
-        { "name": "SergeantsInsignia", "count": 18 }
+        {
+          "id": "PrithivaTopazChunk",
+          "name": "Prithiva Topaz Chunk",
+          "localeName": "堅牢なトパーズ·塊",
+          "count": 3
+        },
+        {
+          "id": "BasaltPillar",
+          "name": "Basalt Pillar",
+          "localeName": "玄岩の塔",
+          "count": 8
+        },
+        {
+          "id": "GlazeLily",
+          "name": "Glaze Lily",
+          "localeName": "琉璃百合",
+          "count": 30
+        },
+        {
+          "id": "SergeantsInsignia",
+          "name": "Sergeant's Insignia",
+          "localeName": "士官の記章",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2065 },
-        { "type": 3, "value": 120.96 },
-        { "type": 2, "value": 44.813 },
-        { "type": 31, "value": 0.12 }
-      ]
+      "HP": 2065,
+      "ATK": 44.813,
+      "DEF": 120.96,
+      "extra": 0.12
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "PrithivaTopazChunk", "count": 6 },
-        { "name": "BasaltPillar", "count": 12 },
-        { "name": "GlazeLily", "count": 45 },
-        { "name": "LieutenantsInsignia", "count": 12 }
+        {
+          "id": "PrithivaTopazChunk",
+          "name": "Prithiva Topaz Chunk",
+          "localeName": "堅牢なトパーズ·塊",
+          "count": 6
+        },
+        {
+          "id": "BasaltPillar",
+          "name": "Basalt Pillar",
+          "localeName": "玄岩の塔",
+          "count": 12
+        },
+        {
+          "id": "GlazeLily",
+          "name": "Glaze Lily",
+          "localeName": "琉璃百合",
+          "count": 45
+        },
+        {
+          "id": "LieutenantsInsignia",
+          "name": "Lieutenant's Insignia",
+          "localeName": "尉官の記章",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2500.6 },
-        { "type": 3, "value": 146.48 },
-        { "type": 2, "value": 54.265 },
-        { "type": 31, "value": 0.18 }
-      ]
+      "HP": 2500.6,
+      "ATK": 54.265,
+      "DEF": 146.48,
+      "extra": 0.18
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "PrithivaTopazGemstone", "count": 6 },
-        { "name": "BasaltPillar", "count": 20 },
-        { "name": "GlazeLily", "count": 60 },
-        { "name": "LieutenantsInsignia", "count": 24 }
+        {
+          "id": "PrithivaTopazGemstone",
+          "name": "Prithiva Topaz Gemstone",
+          "localeName": "堅牢なトパーズ",
+          "count": 6
+        },
+        {
+          "id": "BasaltPillar",
+          "name": "Basalt Pillar",
+          "localeName": "玄岩の塔",
+          "count": 20
+        },
+        {
+          "id": "GlazeLily",
+          "name": "Glaze Lily",
+          "localeName": "琉璃百合",
+          "count": 60
+        },
+        {
+          "id": "LieutenantsInsignia",
+          "name": "Lieutenant's Insignia",
+          "localeName": "尉官の記章",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2936.1 },
-        { "type": 3, "value": 171.99 },
-        { "type": 2, "value": 63.718 },
-        { "type": 31, "value": 0.24 }
-      ]
+      "HP": 2936.1,
+      "ATK": 63.718,
+      "DEF": 171.99,
+      "extra": 0.24
     }
   ],
   "ascensionType": 31,
   "element": 2,
   "elemSkill": {
     "name": "璇璣屏",
-    "desc": "黄金、黒曜岩、強者の余裕で璇璣屏を作り、<color=#FFE699FF>岩元素範囲ダメージ</color>を与える。\\n\\n<color=#FFD780FF>璇璣屏</color>\\n·敵の投擲攻撃を防御する。\\n·耐久度は凝光のHPによって決まる。\\n\\n璇璣屏は<color=#FFE699FF>岩元素創造物</color>と見なされ、一部の攻撃を防ぐことができるが、璇璣屏に登ることはできない。同時に最大1つまで存在可能。\\n\\n<i>星羅棋布、璇璣合屏。</i>",
+    "desc": "黄金、黒曜岩、強者の余裕で璇璣屏を作り、<color=#FFE699FF>岩元素範囲ダメージ</color>を与える。\n\n<color=#FFD780FF>璇璣屏</color>\n·敵の投擲攻撃を防御する。\n·耐久度は凝光のHPによって決まる。\n\n璇璣屏は<color=#FFE699FF>岩元素創造物</color>と見なされ、一部の攻撃を防ぐことができるが、璇璣屏に登ることはできない。同時に最大1つまで存在可能。\n\n<i>星羅棋布、璇璣合屏。</i>",
     "cd": 12
   },
   "elemBurst": {
     "name": "天権崩玉",
-    "desc": "自身の周りに宝石を凝聚させ、それらを一気に放つ。自動索敵する宝石は周りの敵を攻撃し、大量の<color=#FFE699FF>岩元素ダメージ</color>を与える。\\n周りに璇璣屏が存在する時に天権崩玉を発動すると、璇璣屏から追加で宝石が放たれ、敵を攻撃する。\\n\\n<i>星が散り、敵を滅ぼす。</i>",
+    "desc": "自身の周りに宝石を凝聚させ、それらを一気に放つ。自動索敵する宝石は周りの敵を攻撃し、大量の<color=#FFE699FF>岩元素ダメージ</color>を与える。\n周りに璇璣屏が存在する時に天権崩玉を発動すると、璇璣屏から追加で宝石が放たれ、敵を攻撃する。\n\n<i>星が散り、敵を滅ぼす。</i>",
     "cd": 12,
     "energyCost": 40
   },
   "attackSkill": {
     "name": "通常攻撃·千金擲",
-    "desc": "<color=#FFD780FF>通常攻撃</color>\\n宝石を発射し、<color=#FFE699FF>岩元素ダメージ</color>を与える。\\n命中した時、凝光に星璇を一枚付与する。\\n\\n<color=#FFD780FF>重撃</color>\\nスタミナを消費して巨大な宝石を発射し、<color=#FFE699FF>岩元素ダメージ</color>を与える。\\n凝光に星璇がついている状態下で重撃を行うと、全ての星璇を一斉に発射し、さらにダメージを与える。\\n\\n<color=#FFD780FF>落下攻撃</color>\\n空中から晶岩の力を凝集しながら落下し、地面に衝撃を与える。経路上の敵を攻撃し、落下時に<color=#FFE699FF>岩元素範囲ダメージ</color>を与える。",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n宝石を発射し、<color=#FFE699FF>岩元素ダメージ</color>を与える。\n命中した時、凝光に星璇を一枚付与する。\n\n<color=#FFD780FF>重撃</color>\nスタミナを消費して巨大な宝石を発射し、<color=#FFE699FF>岩元素ダメージ</color>を与える。\n凝光に星璇がついている状態下で重撃を行うと、全ての星璇を一斉に発射し、さらにダメージを与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から晶岩の力を凝集しながら落下し、地面に衝撃を与える。経路上の敵を攻撃し、落下時に<color=#FFE699FF>岩元素範囲ダメージ</color>を与える。",
     "cd": 0
   },
   "c13ns": [

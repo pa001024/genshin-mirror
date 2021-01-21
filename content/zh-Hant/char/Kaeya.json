@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "ShivadaJadeSliver", "count": 1 },
-        { "name": "CallaLily", "count": 3 },
-        { "name": "TreasureHoarderInsignia", "count": 3 }
+        {
+          "id": "ShivadaJadeSliver",
+          "name": "Shivada Jade Sliver",
+          "localeName": "哀敘冰玉碎屑",
+          "count": 1
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "嘟嘟蓮",
+          "count": 3
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "Treasure Hoarder Insignia",
+          "localeName": "尋寶鴉印",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 728.84 },
-        { "type": 3, "value": 49.59 },
-        { "type": 2, "value": 13.969 },
-        { "type": 10, "value": 0 }
-      ]
+      "HP": 728.84,
+      "ATK": 13.969,
+      "DEF": 49.59,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "ShivadaJadeFragment", "count": 3 },
-        { "name": "HoarfrostCore", "count": 2 },
-        { "name": "CallaLily", "count": 10 },
-        { "name": "TreasureHoarderInsignia", "count": 15 }
+        {
+          "id": "ShivadaJadeFragment",
+          "name": "Shivada Jade Fragment",
+          "localeName": "哀敘冰玉斷片",
+          "count": 3
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒之核",
+          "count": 2
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "嘟嘟蓮",
+          "count": 10
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "Treasure Hoarder Insignia",
+          "localeName": "尋寶鴉印",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1246.7 },
-        { "type": 3, "value": 84.825 },
-        { "type": 2, "value": 23.894 },
-        { "type": 10, "value": 0.0667 }
-      ]
+      "HP": 1246.7,
+      "ATK": 23.894,
+      "DEF": 84.825,
+      "extra": 0.0667
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "ShivadaJadeFragment", "count": 6 },
-        { "name": "HoarfrostCore", "count": 4 },
-        { "name": "CallaLily", "count": 20 },
-        { "name": "SilverRavenInsignia", "count": 12 }
+        {
+          "id": "ShivadaJadeFragment",
+          "name": "Shivada Jade Fragment",
+          "localeName": "哀敘冰玉斷片",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒之核",
+          "count": 4
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "嘟嘟蓮",
+          "count": 20
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "Silver Raven Insignia",
+          "localeName": "藏銀鴉印",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1937.2 },
-        { "type": 3, "value": 131.8 },
-        { "type": 2, "value": 37.128 },
-        { "type": 10, "value": 0.1333 }
-      ]
+      "HP": 1937.2,
+      "ATK": 37.128,
+      "DEF": 131.8,
+      "extra": 0.1333
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "ShivadaJadeChunk", "count": 3 },
-        { "name": "HoarfrostCore", "count": 8 },
-        { "name": "CallaLily", "count": 30 },
-        { "name": "SilverRavenInsignia", "count": 18 }
+        {
+          "id": "ShivadaJadeChunk",
+          "name": "Shivada Jade Chunk",
+          "localeName": "哀敘冰玉塊",
+          "count": 3
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒之核",
+          "count": 8
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "嘟嘟蓮",
+          "count": 30
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "Silver Raven Insignia",
+          "localeName": "藏銀鴉印",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2455 },
-        { "type": 3, "value": 167.04 },
-        { "type": 2, "value": 47.053 },
-        { "type": 10, "value": 0.1333 }
-      ]
+      "HP": 2455,
+      "ATK": 47.053,
+      "DEF": 167.04,
+      "extra": 0.1333
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "ShivadaJadeChunk", "count": 6 },
-        { "name": "HoarfrostCore", "count": 12 },
-        { "name": "CallaLily", "count": 45 },
-        { "name": "GoldenRavenInsignia", "count": 12 }
+        {
+          "id": "ShivadaJadeChunk",
+          "name": "Shivada Jade Chunk",
+          "localeName": "哀敘冰玉塊",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒之核",
+          "count": 12
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "嘟嘟蓮",
+          "count": 45
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "Golden Raven Insignia",
+          "localeName": "攫金鴉印",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2972.9 },
-        { "type": 3, "value": 202.27 },
-        { "type": 2, "value": 56.979 },
-        { "type": 10, "value": 0.2 }
-      ]
+      "HP": 2972.9,
+      "ATK": 56.979,
+      "DEF": 202.27,
+      "extra": 0.2
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "ShivadaJadeGemstone", "count": 6 },
-        { "name": "HoarfrostCore", "count": 20 },
-        { "name": "CallaLily", "count": 60 },
-        { "name": "GoldenRavenInsignia", "count": 24 }
+        {
+          "id": "ShivadaJadeGemstone",
+          "name": "Shivada Jade Gemstone",
+          "localeName": "哀敘冰玉",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒之核",
+          "count": 20
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "嘟嘟蓮",
+          "count": 60
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "Golden Raven Insignia",
+          "localeName": "攫金鴉印",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3490.7 },
-        { "type": 3, "value": 237.51 },
-        { "type": 2, "value": 66.904 },
-        { "type": 10, "value": 0.2667 }
-      ]
+      "HP": 3490.7,
+      "ATK": 66.904,
+      "DEF": 237.51,
+      "extra": 0.2667
     }
   ],
   "ascensionType": 10,
   "element": 7,
   "elemSkill": {
     "name": "霜襲",
-    "desc": "瞬間放出急凍的寒氣，對前方的敵人造成<color=#99FFFFFF>冰元素傷害</color>。\\n\\n<i>看起來如此親切的凱亞，是誰也無法融化的堅冰。</i>",
+    "desc": "瞬間放出急凍的寒氣，對前方的敵人造成<color=#99FFFFFF>冰元素傷害</color>。\n\n<i>看起來如此親切的凱亞，是誰也無法融化的堅冰。</i>",
     "cd": 6
   },
   "elemBurst": {
     "name": "凜冽輪舞",
-    "desc": "凝聚空氣中的寒霜，召喚三枚圍繞自身旋轉的寒冰之凌。\\n存在期間內，寒冰之冰凌會跟隨角色行動，對路徑上的敵人造成<color=#99FFFFFF>冰元素傷害</color>。\\n\\n<i>親切的笑容、和善的話語，和潛藏在這兩者之下的毫不留情的冰霜，都是凱亞的武器。</i>",
+    "desc": "凝聚空氣中的寒霜，召喚三枚圍繞自身旋轉的寒冰之凌。\n存在期間內，寒冰之冰凌會跟隨角色行動，對路徑上的敵人造成<color=#99FFFFFF>冰元素傷害</color>。\n\n<i>親切的笑容、和善的話語，和潛藏在這兩者之下的毫不留情的冰霜，都是凱亞的武器。</i>",
     "cd": 15,
     "energyCost": 60
   },
   "attackSkill": {
     "name": "普通攻擊·儀典劍術",
-    "desc": "<color=#FFD780FF>普通攻擊</color>\\n進行至多五段的連續劍擊。\\n\\n<color=#FFD780FF>重擊</color>\\n消耗一定體力，瞬間向前方揮出兩劍。\\n\\n<color=#FFD780FF>下落攻擊</color>\\n從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。",
+    "desc": "<color=#FFD780FF>普通攻擊</color>\n進行至多五段的連續劍擊。\n\n<color=#FFD780FF>重擊</color>\n消耗一定體力，瞬間向前方揮出兩劍。\n\n<color=#FFD780FF>下落攻擊</color>\n從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。",
     "cd": 0
   },
   "c13ns": [

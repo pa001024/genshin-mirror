@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "AgnidusAgateSliver", "count": 1 },
-        { "name": "JueyunChili", "count": 3 },
-        { "name": "SlimeCondensate", "count": 3 }
+        {
+          "id": "AgnidusAgateSliver",
+          "name": "Agnidus Agate Sliver",
+          "localeName": "炎願のアゲート·砕屑",
+          "count": 1
+        },
+        {
+          "id": "JueyunChili",
+          "name": "Jueyun Chili",
+          "localeName": "絶雲の唐辛子",
+          "count": 3
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "Slime Condensate",
+          "localeName": "スライムの液体",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 681.15 },
-        { "type": 3, "value": 41.895 },
-        { "type": 2, "value": 14.102 },
-        { "type": 11, "value": 0 }
-      ]
+      "HP": 681.15,
+      "ATK": 14.102,
+      "DEF": 41.895,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "AgnidusAgateFragment", "count": 3 },
-        { "name": "EverflameSeed", "count": 2 },
-        { "name": "JueyunChili", "count": 10 },
-        { "name": "SlimeCondensate", "count": 15 }
+        {
+          "id": "AgnidusAgateFragment",
+          "name": "Agnidus Agate Fragment",
+          "localeName": "炎願のアゲート·欠片",
+          "count": 3
+        },
+        {
+          "id": "EverflameSeed",
+          "name": "Everflame Seed",
+          "localeName": "常燃の火種",
+          "count": 2
+        },
+        {
+          "id": "JueyunChili",
+          "name": "Jueyun Chili",
+          "localeName": "絶雲の唐辛子",
+          "count": 10
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "Slime Condensate",
+          "localeName": "スライムの液体",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1165.1 },
-        { "type": 3, "value": 71.662 },
-        { "type": 2, "value": 24.122 },
-        { "type": 11, "value": 24 }
-      ]
+      "HP": 1165.1,
+      "ATK": 24.122,
+      "DEF": 71.662,
+      "extra": 24
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "AgnidusAgateFragment", "count": 6 },
-        { "name": "EverflameSeed", "count": 4 },
-        { "name": "JueyunChili", "count": 20 },
-        { "name": "SlimeSecretions", "count": 12 }
+        {
+          "id": "AgnidusAgateFragment",
+          "name": "Agnidus Agate Fragment",
+          "localeName": "炎願のアゲート·欠片",
+          "count": 6
+        },
+        {
+          "id": "EverflameSeed",
+          "name": "Everflame Seed",
+          "localeName": "常燃の火種",
+          "count": 4
+        },
+        {
+          "id": "JueyunChili",
+          "name": "Jueyun Chili",
+          "localeName": "絶雲の唐辛子",
+          "count": 20
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "Slime Secretions",
+          "localeName": "スライムの分泌物",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1810.4 },
-        { "type": 3, "value": 111.35 },
-        { "type": 2, "value": 37.482 },
-        { "type": 11, "value": 48 }
-      ]
+      "HP": 1810.4,
+      "ATK": 37.482,
+      "DEF": 111.35,
+      "extra": 48
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "AgnidusAgateChunk", "count": 3 },
-        { "name": "EverflameSeed", "count": 8 },
-        { "name": "JueyunChili", "count": 30 },
-        { "name": "SlimeSecretions", "count": 18 }
+        {
+          "id": "AgnidusAgateChunk",
+          "name": "Agnidus Agate Chunk",
+          "localeName": "炎願のアゲート·塊",
+          "count": 3
+        },
+        {
+          "id": "EverflameSeed",
+          "name": "Everflame Seed",
+          "localeName": "常燃の火種",
+          "count": 8
+        },
+        {
+          "id": "JueyunChili",
+          "name": "Jueyun Chili",
+          "localeName": "絶雲の唐辛子",
+          "count": 30
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "Slime Secretions",
+          "localeName": "スライムの分泌物",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2294.4 },
-        { "type": 3, "value": 141.12 },
-        { "type": 2, "value": 47.502 },
-        { "type": 11, "value": 48 }
-      ]
+      "HP": 2294.4,
+      "ATK": 47.502,
+      "DEF": 141.12,
+      "extra": 48
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "AgnidusAgateChunk", "count": 6 },
-        { "name": "EverflameSeed", "count": 12 },
-        { "name": "JueyunChili", "count": 45 },
-        { "name": "SlimeConcentrate", "count": 12 }
+        {
+          "id": "AgnidusAgateChunk",
+          "name": "Agnidus Agate Chunk",
+          "localeName": "炎願のアゲート·塊",
+          "count": 6
+        },
+        {
+          "id": "EverflameSeed",
+          "name": "Everflame Seed",
+          "localeName": "常燃の火種",
+          "count": 12
+        },
+        {
+          "id": "JueyunChili",
+          "name": "Jueyun Chili",
+          "localeName": "絶雲の唐辛子",
+          "count": 45
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "Slime Concentrate",
+          "localeName": "スライムのピュレ",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2778.4 },
-        { "type": 3, "value": 170.89 },
-        { "type": 2, "value": 57.521 },
-        { "type": 11, "value": 72 }
-      ]
+      "HP": 2778.4,
+      "ATK": 57.521,
+      "DEF": 170.89,
+      "extra": 72
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "AgnidusAgateGemstone", "count": 6 },
-        { "name": "EverflameSeed", "count": 20 },
-        { "name": "JueyunChili", "count": 60 },
-        { "name": "SlimeConcentrate", "count": 24 }
+        {
+          "id": "AgnidusAgateGemstone",
+          "name": "Agnidus Agate Gemstone",
+          "localeName": "炎願のアゲート",
+          "count": 6
+        },
+        {
+          "id": "EverflameSeed",
+          "name": "Everflame Seed",
+          "localeName": "常燃の火種",
+          "count": 20
+        },
+        {
+          "id": "JueyunChili",
+          "name": "Jueyun Chili",
+          "localeName": "絶雲の唐辛子",
+          "count": 60
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "Slime Concentrate",
+          "localeName": "スライムのピュレ",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3262.4 },
-        { "type": 3, "value": 200.65 },
-        { "type": 2, "value": 67.541 },
-        { "type": 11, "value": 96 }
-      ]
+      "HP": 3262.4,
+      "ATK": 67.541,
+      "DEF": 200.65,
+      "extra": 96
     }
   ],
   "ascensionType": 11,
   "element": 6,
   "elemSkill": {
     "name": "グゥオパァー出撃",
-    "desc": "火を噴くグゥオパァーを召喚し、継続期間中に敵に火を噴き続け、<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。\\n\\n<i>グゥオパァーは辛い食べ物が好き。でもこんなに辛いものはさすがに耐えられない。</i>",
+    "desc": "火を噴くグゥオパァーを召喚し、継続期間中に敵に火を噴き続け、<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。\n\n<i>グゥオパァーは辛い食べ物が好き。でもこんなに辛いものはさすがに耐えられない。</i>",
     "cd": 12
   },
   "elemBurst": {
     "name": "旋火輪",
-    "desc": "炎と槍をコントロールするコツで、自身を中心に素早く回転する旋火輪を投げ出す。\\n旋火輪はキャラクターと共に移動し、経路上の敵に<color=#FF9999FF>炎元素ダメージ</color>を与える。\\n\\n<i>火力が足りない、全然足りないよ。</i>",
+    "desc": "炎と槍をコントロールするコツで、自身を中心に素早く回転する旋火輪を投げ出す。\n旋火輪はキャラクターと共に移動し、経路上の敵に<color=#FF9999FF>炎元素ダメージ</color>を与える。\n\n<i>火力が足りない、全然足りないよ。</i>",
     "cd": 20,
     "energyCost": 80
   },
   "attackSkill": {
     "name": "通常攻撃·料理技法",
-    "desc": "<color=#FFD780FF>通常攻撃</color>\\n槍による最大5段の連続攻撃を行う。\\n\\n<color=#FFD780FF>重撃</color>\\n一定のスタミナを消費して前方に突進し、経路上の敵にダメージを与える。\\n\\n<color=#FFD780FF>落下攻撃</color>\\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n槍による最大5段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費して前方に突進し、経路上の敵にダメージを与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
     "cd": 0
   },
   "c13ns": [

@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "ShivadaJadeSliver", "count": 1 },
-        { "name": "Violetgrass", "count": 3 },
-        { "name": "DiviningScroll", "count": 3 }
+        {
+          "id": "ShivadaJadeSliver",
+          "name": "Shivada Jade Sliver",
+          "localeName": "Shivada Jade Sliver",
+          "count": 1
+        },
+        {
+          "id": "Violetgrass",
+          "name": "Violetgrass",
+          "localeName": "Violetgrass",
+          "count": 3
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "Divining Scroll",
+          "localeName": "Divining Scroll",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 825.56 },
-        { "type": 3, "value": 61.56 },
-        { "type": 2, "value": 19.157 },
-        { "type": 14, "value": 0 }
-      ]
+      "HP": 825.56,
+      "ATK": 19.157,
+      "DEF": 61.56,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "ShivadaJadeFragment", "count": 3 },
-        { "name": "HoarfrostCore", "count": 2 },
-        { "name": "Violetgrass", "count": 10 },
-        { "name": "DiviningScroll", "count": 15 }
+        {
+          "id": "ShivadaJadeFragment",
+          "name": "Shivada Jade Fragment",
+          "localeName": "Shivada Jade Fragment",
+          "count": 3
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "Hoarfrost Core",
+          "count": 2
+        },
+        {
+          "id": "Violetgrass",
+          "name": "Violetgrass",
+          "localeName": "Violetgrass",
+          "count": 10
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "Divining Scroll",
+          "localeName": "Divining Scroll",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1412.1 },
-        { "type": 3, "value": 105.3 },
-        { "type": 2, "value": 32.768 },
-        { "type": 14, "value": 0.0554 }
-      ]
+      "HP": 1412.1,
+      "ATK": 32.768,
+      "DEF": 105.3,
+      "extra": 0.0554
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "ShivadaJadeFragment", "count": 6 },
-        { "name": "HoarfrostCore", "count": 4 },
-        { "name": "Violetgrass", "count": 20 },
-        { "name": "SealedScroll", "count": 12 }
+        {
+          "id": "ShivadaJadeFragment",
+          "name": "Shivada Jade Fragment",
+          "localeName": "Shivada Jade Fragment",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "Hoarfrost Core",
+          "count": 4
+        },
+        {
+          "id": "Violetgrass",
+          "name": "Violetgrass",
+          "localeName": "Violetgrass",
+          "count": 20
+        },
+        {
+          "id": "SealedScroll",
+          "name": "Sealed Scroll",
+          "localeName": "Sealed Scroll",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2194.3 },
-        { "type": 3, "value": 163.62 },
-        { "type": 2, "value": 50.916 },
-        { "type": 14, "value": 0.1108 }
-      ]
+      "HP": 2194.3,
+      "ATK": 50.916,
+      "DEF": 163.62,
+      "extra": 0.1108
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "ShivadaJadeChunk", "count": 3 },
-        { "name": "HoarfrostCore", "count": 8 },
-        { "name": "Violetgrass", "count": 30 },
-        { "name": "SealedScroll", "count": 18 }
+        {
+          "id": "ShivadaJadeChunk",
+          "name": "Shivada Jade Chunk",
+          "localeName": "Shivada Jade Chunk",
+          "count": 3
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "Hoarfrost Core",
+          "count": 8
+        },
+        {
+          "id": "Violetgrass",
+          "name": "Violetgrass",
+          "localeName": "Violetgrass",
+          "count": 30
+        },
+        {
+          "id": "SealedScroll",
+          "name": "Sealed Scroll",
+          "localeName": "Sealed Scroll",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2780.8 },
-        { "type": 3, "value": 207.36 },
-        { "type": 2, "value": 64.527 },
-        { "type": 14, "value": 0.1108 }
-      ]
+      "HP": 2780.8,
+      "ATK": 64.527,
+      "DEF": 207.36,
+      "extra": 0.1108
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "ShivadaJadeChunk", "count": 6 },
-        { "name": "HoarfrostCore", "count": 12 },
-        { "name": "Violetgrass", "count": 45 },
-        { "name": "ForbiddenCurseScroll", "count": 12 }
+        {
+          "id": "ShivadaJadeChunk",
+          "name": "Shivada Jade Chunk",
+          "localeName": "Shivada Jade Chunk",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "Hoarfrost Core",
+          "count": 12
+        },
+        {
+          "id": "Violetgrass",
+          "name": "Violetgrass",
+          "localeName": "Violetgrass",
+          "count": 45
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "Forbidden Curse Scroll",
+          "localeName": "Forbidden Curse Scroll",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3367.4 },
-        { "type": 3, "value": 251.1 },
-        { "type": 2, "value": 78.139 },
-        { "type": 14, "value": 0.1662 }
-      ]
+      "HP": 3367.4,
+      "ATK": 78.139,
+      "DEF": 251.1,
+      "extra": 0.1662
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "ShivadaJadeGemstone", "count": 6 },
-        { "name": "HoarfrostCore", "count": 20 },
-        { "name": "Violetgrass", "count": 60 },
-        { "name": "ForbiddenCurseScroll", "count": 24 }
+        {
+          "id": "ShivadaJadeGemstone",
+          "name": "Shivada Jade Gemstone",
+          "localeName": "Shivada Jade Gemstone",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "Hoarfrost Core",
+          "count": 20
+        },
+        {
+          "id": "Violetgrass",
+          "name": "Violetgrass",
+          "localeName": "Violetgrass",
+          "count": 60
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "Forbidden Curse Scroll",
+          "localeName": "Forbidden Curse Scroll",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3954 },
-        { "type": 3, "value": 294.84 },
-        { "type": 2, "value": 91.75 },
-        { "type": 14, "value": 0.2215 }
-      ]
+      "HP": 3954,
+      "ATK": 91.75,
+      "DEF": 294.84,
+      "extra": 0.2215
     }
   ],
   "ascensionType": 14,
   "element": 7,
   "elemSkill": {
     "name": "Adeptus Art: Herald of Frost",
-    "desc": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing <color=#99FFFFFF>Cryo DMG</color> to surrounding opponents.\\n\\n<color=#FFD780FF>Herald of Frost</color>\\n·On hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.\\n·Periodically regenerates your active character's HP.\\n·Follows the character around, dealing <color=#99FFFFFF>Cryo DMG</color> to opponents in their path.\\n\\n<i>I use this to prevent warming and rot... of Dr. Bai's precious ingredients. Yes.</i>",
+    "desc": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing <color=#99FFFFFF>Cryo DMG</color> to surrounding opponents.\n\n<color=#FFD780FF>Herald of Frost</color>\n·On hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.\n·Periodically regenerates your active character's HP.\n·Follows the character around, dealing <color=#99FFFFFF>Cryo DMG</color> to opponents in their path.\n\n<i>I use this to prevent warming and rot... of Dr. Bai's precious ingredients. Yes.</i>",
     "cd": 30
   },
   "elemBurst": {
     "name": "Adeptus Art: Preserver of Fortune",
-    "desc": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals <color=#99FFFFFF>Cryo DMG</color>.\\n\\n<color=#FFD780FF>Fortune-Preserving Talisman</color>\\nWhen opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.\\n\\n<i>\"I am the Fortune Preserver, the Maiden of Resurrection.\"</i>\\n<i>— Qiqi does not remember these words.</i>",
+    "desc": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals <color=#99FFFFFF>Cryo DMG</color>.\n\n<color=#FFD780FF>Fortune-Preserving Talisman</color>\nWhen opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.\n\n<i>\"I am the Fortune Preserver, the Maiden of Resurrection.\"</i>\n<i>— Qiqi does not remember these words.</i>",
     "cd": 20,
     "energyCost": 80
   },
   "attackSkill": {
     "name": "Normal Attack: Ancient Sword Art",
-    "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "cd": 0
   },
   "c13ns": [

@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "ShivadaJadeSliver", "count": 1 },
-        { "name": "CallaLily", "count": 3 },
-        { "name": "FirmArrowhead", "count": 3 }
+        {
+          "id": "ShivadaJadeSliver",
+          "name": "Shivada Jade Sliver",
+          "localeName": "哀切なアイスクリスタル·砕屑",
+          "count": 1
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "ドドリアン",
+          "count": 3
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Firm Arrowhead",
+          "localeName": "牢固な矢先",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 599.42 },
-        { "type": 3, "value": 37.62 },
-        { "type": 2, "value": 13.304 },
-        { "type": 29, "value": 0 }
-      ]
+      "HP": 599.42,
+      "ATK": 13.304,
+      "DEF": 37.62,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "ShivadaJadeFragment", "count": 3 },
-        { "name": "HoarfrostCore", "count": 2 },
-        { "name": "CallaLily", "count": 10 },
-        { "name": "FirmArrowhead", "count": 15 }
+        {
+          "id": "ShivadaJadeFragment",
+          "name": "Shivada Jade Fragment",
+          "localeName": "哀切なアイスクリスタル·欠片",
+          "count": 3
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒のコア",
+          "count": 2
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "ドドリアン",
+          "count": 10
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Firm Arrowhead",
+          "localeName": "牢固な矢先",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1025.3 },
-        { "type": 3, "value": 64.35 },
-        { "type": 2, "value": 22.757 },
-        { "type": 29, "value": 0.06 }
-      ]
+      "HP": 1025.3,
+      "ATK": 22.757,
+      "DEF": 64.35,
+      "extra": 0.06
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "ShivadaJadeFragment", "count": 6 },
-        { "name": "HoarfrostCore", "count": 4 },
-        { "name": "CallaLily", "count": 20 },
-        { "name": "SharpArrowhead", "count": 12 }
+        {
+          "id": "ShivadaJadeFragment",
+          "name": "Shivada Jade Fragment",
+          "localeName": "哀切なアイスクリスタル·欠片",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒のコア",
+          "count": 4
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "ドドリアン",
+          "count": 20
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Sharp Arrowhead",
+          "localeName": "鋭利な矢先",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1593.2 },
-        { "type": 3, "value": 99.99 },
-        { "type": 2, "value": 35.36 },
-        { "type": 29, "value": 0.12 }
-      ]
+      "HP": 1593.2,
+      "ATK": 35.36,
+      "DEF": 99.99,
+      "extra": 0.12
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "ShivadaJadeChunk", "count": 3 },
-        { "name": "HoarfrostCore", "count": 8 },
-        { "name": "CallaLily", "count": 30 },
-        { "name": "SharpArrowhead", "count": 18 }
+        {
+          "id": "ShivadaJadeChunk",
+          "name": "Shivada Jade Chunk",
+          "localeName": "哀切なアイスクリスタル·塊",
+          "count": 3
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒のコア",
+          "count": 8
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "ドドリアン",
+          "count": 30
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Sharp Arrowhead",
+          "localeName": "鋭利な矢先",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2019.1 },
-        { "type": 3, "value": 126.72 },
-        { "type": 2, "value": 44.813 },
-        { "type": 29, "value": 0.12 }
-      ]
+      "HP": 2019.1,
+      "ATK": 44.813,
+      "DEF": 126.72,
+      "extra": 0.12
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "ShivadaJadeChunk", "count": 6 },
-        { "name": "HoarfrostCore", "count": 12 },
-        { "name": "CallaLily", "count": 45 },
-        { "name": "WeatheredArrowhead", "count": 12 }
+        {
+          "id": "ShivadaJadeChunk",
+          "name": "Shivada Jade Chunk",
+          "localeName": "哀切なアイスクリスタル·塊",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒のコア",
+          "count": 12
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "ドドリアン",
+          "count": 45
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Weathered Arrowhead",
+          "localeName": "歴戦の矢先",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2445 },
-        { "type": 3, "value": 153.45 },
-        { "type": 2, "value": 54.265 },
-        { "type": 29, "value": 0.18 }
-      ]
+      "HP": 2445,
+      "ATK": 54.265,
+      "DEF": 153.45,
+      "extra": 0.18
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "ShivadaJadeGemstone", "count": 6 },
-        { "name": "HoarfrostCore", "count": 20 },
-        { "name": "CallaLily", "count": 60 },
-        { "name": "WeatheredArrowhead", "count": 24 }
+        {
+          "id": "ShivadaJadeGemstone",
+          "name": "Shivada Jade Gemstone",
+          "localeName": "哀切なアイスクリスタル",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒のコア",
+          "count": 20
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "ドドリアン",
+          "count": 60
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Weathered Arrowhead",
+          "localeName": "歴戦の矢先",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2870.9 },
-        { "type": 3, "value": 180.18 },
-        { "type": 2, "value": 63.718 },
-        { "type": 29, "value": 0.24 }
-      ]
+      "HP": 2870.9,
+      "ATK": 63.718,
+      "DEF": 180.18,
+      "extra": 0.24
     }
   ],
   "ascensionType": 29,
   "element": 7,
   "elemSkill": {
     "name": "フリーズキャッツクロー",
-    "desc": "フリーズキャッツクローを放ち、敵に<color=#99FFFFFF>氷元素ダメージ</color>を与え、命中時にシールドを生成する。\\nシールドのダメージ吸収量はディオナのHP上限によって決まり、継続時間は命中したフリーズキャッツクローの数によって決まる。\\n\\n<color=#FFD780FF>一回押し</color>\\n素早くフリーズキャッツクローを2枚発射する。\\n\\n<color=#FFD780FF>長押し</color>\\n素早く後退し、フリーズキャッツクローを5枚発射する。\\n長押しで生成したシールドのダメージ吸収量+75%。\\n\\nシールドは<color=#99FFFFFF>氷元素ダメージ</color>に対して、250%の吸収効果がある。また、シールド生成時、キャラクターに短時間の<color=#99FFFFFF>氷元素付着</color>を与える。\\n\\n<i>最初はいくらお酒に氷を入れても、酔っ払いには効かなかった。だがディオナが神の目を手に入れてから状況が変わった。こんなにも頭が張り裂けそうな氷ができたから。やったね！</i>",
+    "desc": "フリーズキャッツクローを放ち、敵に<color=#99FFFFFF>氷元素ダメージ</color>を与え、命中時にシールドを生成する。\nシールドのダメージ吸収量はディオナのHP上限によって決まり、継続時間は命中したフリーズキャッツクローの数によって決まる。\n\n<color=#FFD780FF>一回押し</color>\n素早くフリーズキャッツクローを2枚発射する。\n\n<color=#FFD780FF>長押し</color>\n素早く後退し、フリーズキャッツクローを5枚発射する。\n長押しで生成したシールドのダメージ吸収量+75%。\n\nシールドは<color=#99FFFFFF>氷元素ダメージ</color>に対して、250%の吸収効果がある。また、シールド生成時、キャラクターに短時間の<color=#99FFFFFF>氷元素付着</color>を与える。\n\n<i>最初はいくらお酒に氷を入れても、酔っ払いには効かなかった。だがディオナが神の目を手に入れてから状況が変わった。こんなにも頭が張り裂けそうな氷ができたから。やったね！</i>",
     "cd": 6
   },
   "elemBurst": {
     "name": "特製スピリッツ",
-    "desc": "特製の氷入りスピリッツを投げ出し、<color=#99FFFFFF>氷元素範囲ダメージ</color>を与え、氷気の酒霧エリアを生成する。\\n\\n<color=#FFD780FF>氷気の酒霧エリア</color>\\n·エリアにいる敵に<color=#99FFFFFF>氷元素ダメージ</color>を持続的に与える。\\n·エリアにいるキャラクターのHPを持続的に回復する。\\n\\n<i>ディオナ自身ですら恐怖を感じる非人道的なレシピ。先味は恐ろしいため、敵にあげることをおすすめする。後味は清冽だが、鼻と肌でしか楽しめない。</i>",
+    "desc": "特製の氷入りスピリッツを投げ出し、<color=#99FFFFFF>氷元素範囲ダメージ</color>を与え、氷気の酒霧エリアを生成する。\n\n<color=#FFD780FF>氷気の酒霧エリア</color>\n·エリアにいる敵に<color=#99FFFFFF>氷元素ダメージ</color>を持続的に与える。\n·エリアにいるキャラクターのHPを持続的に回復する。\n\n<i>ディオナ自身ですら恐怖を感じる非人道的なレシピ。先味は恐ろしいため、敵にあげることをおすすめする。後味は清冽だが、鼻と肌でしか楽しめない。</i>",
     "cd": 20,
     "energyCost": 80
   },
   "attackSkill": {
     "name": "通常攻撃·狩人の射術",
-    "desc": "<color=#FFD780FF>通常攻撃</color>\\n最大5段の連続射撃を行う。\\n\\n<color=#FFD780FF>重撃</color>\\nダメージがより高く、より精確な<color=#FFD780FF>狙い撃ち</color>を発動する。\\n照準時、氷霜の寒気が矢先に付着する。寒気に満ちた矢は敵に<color=#99FFFFFF>氷元素ダメージ</color>を与える。\\n\\n<color=#FFD780FF>落下攻撃</color>\\n空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n最大5段の連続射撃を行う。\n\n<color=#FFD780FF>重撃</color>\nダメージがより高く、より精確な<color=#FFD780FF>狙い撃ち</color>を発動する。\n照準時、氷霜の寒気が矢先に付着する。寒気に満ちた矢は敵に<color=#99FFFFFF>氷元素ダメージ</color>を与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。",
     "cd": 0
   },
   "c13ns": [

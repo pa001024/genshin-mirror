@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "VarunadaLazuriteSliver", "count": 1 },
-        { "name": "PhilanemoMushroom", "count": 3 },
-        { "name": "DiviningScroll", "count": 3 }
+        {
+          "id": "VarunadaLazuriteSliver",
+          "name": "Varunada Lazurite Sliver",
+          "localeName": "Varunada Lazurite Sliver",
+          "count": 1
+        },
+        {
+          "id": "PhilanemoMushroom",
+          "name": "Philanemo Mushroom",
+          "localeName": "Philanemo Mushroom",
+          "count": 3
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "Divining Scroll",
+          "localeName": "Divining Scroll",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 613.04 },
-        { "type": 3, "value": 41.895 },
-        { "type": 2, "value": 9.9778 },
-        { "type": 5, "value": 0 }
-      ]
+      "HP": 613.04,
+      "ATK": 9.9778,
+      "DEF": 41.895,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "VarunadaLazuriteFragment", "count": 3 },
-        { "name": "CleansingHeart", "count": 2 },
-        { "name": "PhilanemoMushroom", "count": 10 },
-        { "name": "DiviningScroll", "count": 15 }
+        {
+          "id": "VarunadaLazuriteFragment",
+          "name": "Varunada Lazurite Fragment",
+          "localeName": "Varunada Lazurite Fragment",
+          "count": 3
+        },
+        {
+          "id": "CleansingHeart",
+          "name": "Cleansing Heart",
+          "localeName": "Cleansing Heart",
+          "count": 2
+        },
+        {
+          "id": "PhilanemoMushroom",
+          "name": "Philanemo Mushroom",
+          "localeName": "Philanemo Mushroom",
+          "count": 10
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "Divining Scroll",
+          "localeName": "Divining Scroll",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1048.6 },
-        { "type": 3, "value": 71.662 },
-        { "type": 2, "value": 17.067 },
-        { "type": 5, "value": 0.06 }
-      ]
+      "HP": 1048.6,
+      "ATK": 17.067,
+      "DEF": 71.662,
+      "extra": 0.06
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "VarunadaLazuriteFragment", "count": 6 },
-        { "name": "CleansingHeart", "count": 4 },
-        { "name": "PhilanemoMushroom", "count": 20 },
-        { "name": "SealedScroll", "count": 12 }
+        {
+          "id": "VarunadaLazuriteFragment",
+          "name": "Varunada Lazurite Fragment",
+          "localeName": "Varunada Lazurite Fragment",
+          "count": 6
+        },
+        {
+          "id": "CleansingHeart",
+          "name": "Cleansing Heart",
+          "localeName": "Cleansing Heart",
+          "count": 4
+        },
+        {
+          "id": "PhilanemoMushroom",
+          "name": "Philanemo Mushroom",
+          "localeName": "Philanemo Mushroom",
+          "count": 20
+        },
+        {
+          "id": "SealedScroll",
+          "name": "Sealed Scroll",
+          "localeName": "Sealed Scroll",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1629.4 },
-        { "type": 3, "value": 111.35 },
-        { "type": 2, "value": 26.52 },
-        { "type": 5, "value": 0.12 }
-      ]
+      "HP": 1629.4,
+      "ATK": 26.52,
+      "DEF": 111.35,
+      "extra": 0.12
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "VarunadaLazuriteChunk", "count": 3 },
-        { "name": "CleansingHeart", "count": 8 },
-        { "name": "PhilanemoMushroom", "count": 30 },
-        { "name": "SealedScroll", "count": 18 }
+        {
+          "id": "VarunadaLazuriteChunk",
+          "name": "Varunada Lazurite Chunk",
+          "localeName": "Varunada Lazurite Chunk",
+          "count": 3
+        },
+        {
+          "id": "CleansingHeart",
+          "name": "Cleansing Heart",
+          "localeName": "Cleansing Heart",
+          "count": 8
+        },
+        {
+          "id": "PhilanemoMushroom",
+          "name": "Philanemo Mushroom",
+          "localeName": "Philanemo Mushroom",
+          "count": 30
+        },
+        {
+          "id": "SealedScroll",
+          "name": "Sealed Scroll",
+          "localeName": "Sealed Scroll",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2065 },
-        { "type": 3, "value": 141.12 },
-        { "type": 2, "value": 33.61 },
-        { "type": 5, "value": 0.12 }
-      ]
+      "HP": 2065,
+      "ATK": 33.61,
+      "DEF": 141.12,
+      "extra": 0.12
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "VarunadaLazuriteChunk", "count": 6 },
-        { "name": "CleansingHeart", "count": 12 },
-        { "name": "PhilanemoMushroom", "count": 45 },
-        { "name": "ForbiddenCurseScroll", "count": 12 }
+        {
+          "id": "VarunadaLazuriteChunk",
+          "name": "Varunada Lazurite Chunk",
+          "localeName": "Varunada Lazurite Chunk",
+          "count": 6
+        },
+        {
+          "id": "CleansingHeart",
+          "name": "Cleansing Heart",
+          "localeName": "Cleansing Heart",
+          "count": 12
+        },
+        {
+          "id": "PhilanemoMushroom",
+          "name": "Philanemo Mushroom",
+          "localeName": "Philanemo Mushroom",
+          "count": 45
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "Forbidden Curse Scroll",
+          "localeName": "Forbidden Curse Scroll",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2500.6 },
-        { "type": 3, "value": 170.89 },
-        { "type": 2, "value": 40.699 },
-        { "type": 5, "value": 0.18 }
-      ]
+      "HP": 2500.6,
+      "ATK": 40.699,
+      "DEF": 170.89,
+      "extra": 0.18
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "VarunadaLazuriteGemstone", "count": 6 },
-        { "name": "CleansingHeart", "count": 20 },
-        { "name": "PhilanemoMushroom", "count": 60 },
-        { "name": "ForbiddenCurseScroll", "count": 24 }
+        {
+          "id": "VarunadaLazuriteGemstone",
+          "name": "Varunada Lazurite Gemstone",
+          "localeName": "Varunada Lazurite Gemstone",
+          "count": 6
+        },
+        {
+          "id": "CleansingHeart",
+          "name": "Cleansing Heart",
+          "localeName": "Cleansing Heart",
+          "count": 20
+        },
+        {
+          "id": "PhilanemoMushroom",
+          "name": "Philanemo Mushroom",
+          "localeName": "Philanemo Mushroom",
+          "count": 60
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "Forbidden Curse Scroll",
+          "localeName": "Forbidden Curse Scroll",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2936.1 },
-        { "type": 3, "value": 200.65 },
-        { "type": 2, "value": 47.789 },
-        { "type": 5, "value": 0.24 }
-      ]
+      "HP": 2936.1,
+      "ATK": 47.789,
+      "DEF": 200.65,
+      "extra": 0.24
     }
   ],
   "ascensionType": 5,
   "element": 5,
   "elemSkill": {
     "name": "Let the Show Begin♪",
-    "desc": "Summons water droplets resembling musical notes that form a Melody Loop, dealing <color=#80C0FFFF>Hydro DMG</color> to surrounding opponents and applying the <color=#80C0FFFF>Wet</color> status to them.\\n\\n<color=#FFD780FF>Melody Loop</color>\\n·On hit, Barbara's Normal Attacks heal your own party members and nearby teammates for a certain amount of HP, which scales with Barbara's Max HP.\\n·On hit, Barbara's Charged Attack generates 4 times the amount of healing.\\n·Periodically regenerates your own active character's HP.\\n·Applies the <color=#80C0FFFF>Wet</color> status to the character and to opponents who come in contact with them.\\n\\n<i>Barbara's music is the magic that heals her companions.</i>",
+    "desc": "Summons water droplets resembling musical notes that form a Melody Loop, dealing <color=#80C0FFFF>Hydro DMG</color> to surrounding opponents and applying the <color=#80C0FFFF>Wet</color> status to them.\n\n<color=#FFD780FF>Melody Loop</color>\n·On hit, Barbara's Normal Attacks heal your own party members and nearby teammates for a certain amount of HP, which scales with Barbara's Max HP.\n·On hit, Barbara's Charged Attack generates 4 times the amount of healing.\n·Periodically regenerates your own active character's HP.\n·Applies the <color=#80C0FFFF>Wet</color> status to the character and to opponents who come in contact with them.\n\n<i>Barbara's music is the magic that heals her companions.</i>",
     "cd": 32
   },
   "elemBurst": {
     "name": "Shining Miracle♪",
-    "desc": "Heals your own party members and nearby teammates for a large amount of HP that scales with Barbara's Max HP.\\n\\n<i>Barbara's desire to heal strengthens her will to fight and sing.</i>",
+    "desc": "Heals your own party members and nearby teammates for a large amount of HP that scales with Barbara's Max HP.\n\n<i>Barbara's desire to heal strengthens her will to fight and sing.</i>",
     "cd": 20,
     "energyCost": 80
   },
   "attackSkill": {
     "name": "Normal Attack: Whisper of Water",
-    "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 4 water splash attacks that deal <color=#80C0FFFF>Hydro DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to deal <color=#80C0FFFF>AoE Hydro DMG</color> after a short casting time.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nGathering the might of Hydro, Barbara plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80C0FFFF>AoE Hydro DMG</color> upon impact with the ground.",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 4 water splash attacks that deal <color=#80C0FFFF>Hydro DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to deal <color=#80C0FFFF>AoE Hydro DMG</color> after a short casting time.\n\n<color=#FFD780FF>Plunging Attack</color>\nGathering the might of Hydro, Barbara plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80C0FFFF>AoE Hydro DMG</color> upon impact with the ground.",
     "cd": 0
   },
   "c13ns": [

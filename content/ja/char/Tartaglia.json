@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "VarunadaLazuriteSliver", "count": 1 },
-        { "name": "Starconch", "count": 3 },
-        { "name": "RecruitsInsignia", "count": 3 }
+        {
+          "id": "VarunadaLazuriteSliver",
+          "name": "Varunada Lazurite Sliver",
+          "localeName": "澄明なラピスラズリ·砕屑",
+          "count": 1
+        },
+        {
+          "id": "Starconch",
+          "name": "Starconch",
+          "localeName": "星螺",
+          "count": 3
+        },
+        {
+          "id": "RecruitsInsignia",
+          "name": "Recruit's Insignia",
+          "localeName": "新兵の記章",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 874.6 },
-        { "type": 3, "value": 54.378 },
-        { "type": 2, "value": 20.114 },
-        { "type": 21, "value": 0 }
-      ]
+      "HP": 874.6,
+      "ATK": 20.114,
+      "DEF": 54.378,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "VarunadaLazuriteFragment", "count": 3 },
-        { "name": "CleansingHeart", "count": 2 },
-        { "name": "Starconch", "count": 10 },
-        { "name": "RecruitsInsignia", "count": 15 }
+        {
+          "id": "VarunadaLazuriteFragment",
+          "name": "Varunada Lazurite Fragment",
+          "localeName": "澄明なラピスラズリ·欠片",
+          "count": 3
+        },
+        {
+          "id": "CleansingHeart",
+          "name": "Cleansing Heart",
+          "localeName": "浄水の心",
+          "count": 2
+        },
+        {
+          "id": "Starconch",
+          "name": "Starconch",
+          "localeName": "星螺",
+          "count": 10
+        },
+        {
+          "id": "RecruitsInsignia",
+          "name": "Recruit's Insignia",
+          "localeName": "新兵の記章",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1496 },
-        { "type": 3, "value": 93.015 },
-        { "type": 2, "value": 34.406 },
-        { "type": 21, "value": 0.072 }
-      ]
+      "HP": 1496,
+      "ATK": 34.406,
+      "DEF": 93.015,
+      "extra": 0.072
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "VarunadaLazuriteFragment", "count": 6 },
-        { "name": "CleansingHeart", "count": 4 },
-        { "name": "Starconch", "count": 20 },
-        { "name": "SergeantsInsignia", "count": 12 }
+        {
+          "id": "VarunadaLazuriteFragment",
+          "name": "Varunada Lazurite Fragment",
+          "localeName": "澄明なラピスラズリ·欠片",
+          "count": 6
+        },
+        {
+          "id": "CleansingHeart",
+          "name": "Cleansing Heart",
+          "localeName": "浄水の心",
+          "count": 4
+        },
+        {
+          "id": "Starconch",
+          "name": "Starconch",
+          "localeName": "星螺",
+          "count": 20
+        },
+        {
+          "id": "SergeantsInsignia",
+          "name": "Sergeant's Insignia",
+          "localeName": "士官の記章",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2324.6 },
-        { "type": 3, "value": 144.53 },
-        { "type": 2, "value": 53.462 },
-        { "type": 21, "value": 0.144 }
-      ]
+      "HP": 2324.6,
+      "ATK": 53.462,
+      "DEF": 144.53,
+      "extra": 0.144
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "VarunadaLazuriteChunk", "count": 3 },
-        { "name": "CleansingHeart", "count": 8 },
-        { "name": "Starconch", "count": 30 },
-        { "name": "SergeantsInsignia", "count": 18 }
+        {
+          "id": "VarunadaLazuriteChunk",
+          "name": "Varunada Lazurite Chunk",
+          "localeName": "澄明なラピスラズリ·塊",
+          "count": 3
+        },
+        {
+          "id": "CleansingHeart",
+          "name": "Cleansing Heart",
+          "localeName": "浄水の心",
+          "count": 8
+        },
+        {
+          "id": "Starconch",
+          "name": "Starconch",
+          "localeName": "星螺",
+          "count": 30
+        },
+        {
+          "id": "SergeantsInsignia",
+          "name": "Sergeant's Insignia",
+          "localeName": "士官の記章",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2946 },
-        { "type": 3, "value": 183.17 },
-        { "type": 2, "value": 67.754 },
-        { "type": 21, "value": 0.144 }
-      ]
+      "HP": 2946,
+      "ATK": 67.754,
+      "DEF": 183.17,
+      "extra": 0.144
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "VarunadaLazuriteChunk", "count": 6 },
-        { "name": "CleansingHeart", "count": 12 },
-        { "name": "Starconch", "count": 45 },
-        { "name": "LieutenantsInsignia", "count": 12 }
+        {
+          "id": "VarunadaLazuriteChunk",
+          "name": "Varunada Lazurite Chunk",
+          "localeName": "澄明なラピスラズリ·塊",
+          "count": 6
+        },
+        {
+          "id": "CleansingHeart",
+          "name": "Cleansing Heart",
+          "localeName": "浄水の心",
+          "count": 12
+        },
+        {
+          "id": "Starconch",
+          "name": "Starconch",
+          "localeName": "星螺",
+          "count": 45
+        },
+        {
+          "id": "LieutenantsInsignia",
+          "name": "Lieutenant's Insignia",
+          "localeName": "尉官の記章",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3567.5 },
-        { "type": 3, "value": 221.8 },
-        { "type": 2, "value": 82.046 },
-        { "type": 21, "value": 0.216 }
-      ]
+      "HP": 3567.5,
+      "ATK": 82.046,
+      "DEF": 221.8,
+      "extra": 0.216
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "VarunadaLazuriteGemstone", "count": 6 },
-        { "name": "CleansingHeart", "count": 20 },
-        { "name": "Starconch", "count": 60 },
-        { "name": "LieutenantsInsignia", "count": 24 }
+        {
+          "id": "VarunadaLazuriteGemstone",
+          "name": "Varunada Lazurite Gemstone",
+          "localeName": "澄明なラピスラズリ",
+          "count": 6
+        },
+        {
+          "id": "CleansingHeart",
+          "name": "Cleansing Heart",
+          "localeName": "浄水の心",
+          "count": 20
+        },
+        {
+          "id": "Starconch",
+          "name": "Starconch",
+          "localeName": "星螺",
+          "count": 60
+        },
+        {
+          "id": "LieutenantsInsignia",
+          "name": "Lieutenant's Insignia",
+          "localeName": "尉官の記章",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 4188.9 },
-        { "type": 3, "value": 260.44 },
-        { "type": 2, "value": 96.337 },
-        { "type": 21, "value": 0.288 }
-      ]
+      "HP": 4188.9,
+      "ATK": 96.337,
+      "DEF": 260.44,
+      "extra": 0.288
     }
   ],
   "ascensionType": 21,
   "element": 5,
   "elemSkill": {
     "name": "魔王の武装·荒波",
-    "desc": "水で構成された武装を解放し、周囲の敵に<color=#80C0FFFF>水元素ダメージ</color>を与え、近接モードに入る。\\nこの状態の時、タルタリヤの通常攻撃と重撃は、バフによって他の元素に変化することのない<color=#80C0FFFF>水元素ダメージ</color>となり、下記のように変化する：\\n\\n<color=#FFD780FF>通常攻撃</color>\\n最大6段の<color=#80C0FFFF>水元素</color>斬撃を行う。\\n\\n<color=#FFD780FF>重撃</color>\\nスタミナを消費して前方に斬撃を2回放ち、<color=#80C0FFFF>水元素ダメージ</color>を与える。\\n\\n<color=#FFD780FF>断流·斬</color>\\n近接攻撃が断流状態の敵に命中すると断流·斬を1回発動し、<color=#80C0FFFF>水元素範囲ダメージ</color>を与える。断流·斬が与えたダメージは元素スキルダメージと見なされ、1.5秒毎に1回のみ発動可能。\\n\\nスキル発動30秒後、または再びスキルを発動すると効果が解除され、遠隔モードに戻り、クールタイムに入る。近接モードの継続時間が長いほど、クールタイムは長くなる。\\n30秒継続した後に自動的に遠隔モードに戻った場合、スキルのクールタイムは更に長くなる。\\n\\n<i>弓が苦手という弱点を克服するために、わざわざ弓を武器にしたのだ。しかし本当の戦いの中では、実力を見せなければならない時がある…</i>",
+    "desc": "水で構成された武装を解放し、周囲の敵に<color=#80C0FFFF>水元素ダメージ</color>を与え、近接モードに入る。\nこの状態の時、タルタリヤの通常攻撃と重撃は、バフによって他の元素に変化することのない<color=#80C0FFFF>水元素ダメージ</color>となり、下記のように変化する：\n\n<color=#FFD780FF>通常攻撃</color>\n最大6段の<color=#80C0FFFF>水元素</color>斬撃を行う。\n\n<color=#FFD780FF>重撃</color>\nスタミナを消費して前方に斬撃を2回放ち、<color=#80C0FFFF>水元素ダメージ</color>を与える。\n\n<color=#FFD780FF>断流·斬</color>\n近接攻撃が断流状態の敵に命中すると断流·斬を1回発動し、<color=#80C0FFFF>水元素範囲ダメージ</color>を与える。断流·斬が与えたダメージは元素スキルダメージと見なされ、1.5秒毎に1回のみ発動可能。\n\nスキル発動30秒後、または再びスキルを発動すると効果が解除され、遠隔モードに戻り、クールタイムに入る。近接モードの継続時間が長いほど、クールタイムは長くなる。\n30秒継続した後に自動的に遠隔モードに戻った場合、スキルのクールタイムは更に長くなる。\n\n<i>弓が苦手という弱点を克服するために、わざわざ弓を武器にしたのだ。しかし本当の戦いの中では、実力を見せなければならない時がある…</i>",
     "cd": 6
   },
   "elemBurst": {
     "name": "極悪技·尽滅閃",
-    "desc": "タルタリヤの戦闘モードによって、異なる攻撃を発動する：\\n\\n<color=#FFD780FF>遠隔モード·魔弾一閃</color>\\n前方に素早く水元素を込めた魔矢を放ち、<color=#80C0FFFF>水元素範囲ダメージ</color>を与え、敵に断流效果を付与する。\\n発動後、元素エネルギーが一部返還される。\\n\\n<color=#FFD780FF>近接モード·尽滅の水光</color>\\n広範囲の斬撃を1回仕掛け、周囲全ての敵に大量の<color=#80C0FFFF>水元素ダメージ</color>を与え、断流·爆を発動する。\\n\\n<color=#FFD780FF>断流·爆</color>\\n尽滅の水光が断流状態の敵に命中した場合、断流効果が消耗され、スチームバーストを発生させて<color=#80C0FFFF>水元素範囲ダメージ</color>を与える。断流·爆が与えたダメージは元素爆発ダメージと見なされる。\\n\\n<i>激しく流れる水、彼の故郷の雪国ではあまり見られない。水を操られるのは、水の大切さを理解しているからだろう。</i>",
+    "desc": "タルタリヤの戦闘モードによって、異なる攻撃を発動する：\n\n<color=#FFD780FF>遠隔モード·魔弾一閃</color>\n前方に素早く水元素を込めた魔矢を放ち、<color=#80C0FFFF>水元素範囲ダメージ</color>を与え、敵に断流效果を付与する。\n発動後、元素エネルギーが一部返還される。\n\n<color=#FFD780FF>近接モード·尽滅の水光</color>\n広範囲の斬撃を1回仕掛け、周囲全ての敵に大量の<color=#80C0FFFF>水元素ダメージ</color>を与え、断流·爆を発動する。\n\n<color=#FFD780FF>断流·爆</color>\n尽滅の水光が断流状態の敵に命中した場合、断流効果が消耗され、スチームバーストを発生させて<color=#80C0FFFF>水元素範囲ダメージ</color>を与える。断流·爆が与えたダメージは元素爆発ダメージと見なされる。\n\n<i>激しく流れる水、彼の故郷の雪国ではあまり見られない。水を操られるのは、水の大切さを理解しているからだろう。</i>",
     "cd": 15,
     "energyCost": 60
   },
   "attackSkill": {
     "name": "通常攻撃·断雨",
-    "desc": "<color=#FFD780FF>通常攻撃</color>\\n最大6段の連続射撃を行う。\\n\\n<color=#FFD780FF>重撃</color>\\nダメージがより高く、より精確な<color=#FFD780FF>狙い撃ち</color>を発動する。\\n照準時、水元素の力が矢先に集まる。激流を込めた矢が敵に命中する時に<color=#80C0FFFF>水元素ダメージ</color>を与え、断流効果を付与する。\\n\\n<color=#FFD780FF>断流</color>\\n断流状態の敵がタルタリヤの攻撃を受けると、<color=#80C0FFFF>水元素範囲ダメージ</color>が発生する。これらの効果によるダメージは通常攻撃ダメージと見なされる。\\n·断流·閃：フルチャージの狙い撃ち攻撃が断流状態の敵に命中した場合、連続範囲ダメージが発生する。断流·閃は0.7秒毎に1回のみ発動可能。\\n·断流·破：断流効果の敵を倒した時にウォーターブルームを放ち、近くの敵に断流効果を付与する。\\n\\n<color=#FFD780FF>落下攻撃</color>\\n空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。\\n魔王の武装·荒波の近接モード時、落下攻撃をすることはできない。",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n最大6段の連続射撃を行う。\n\n<color=#FFD780FF>重撃</color>\nダメージがより高く、より精確な<color=#FFD780FF>狙い撃ち</color>を発動する。\n照準時、水元素の力が矢先に集まる。激流を込めた矢が敵に命中する時に<color=#80C0FFFF>水元素ダメージ</color>を与え、断流効果を付与する。\n\n<color=#FFD780FF>断流</color>\n断流状態の敵がタルタリヤの攻撃を受けると、<color=#80C0FFFF>水元素範囲ダメージ</color>が発生する。これらの効果によるダメージは通常攻撃ダメージと見なされる。\n·断流·閃：フルチャージの狙い撃ち攻撃が断流状態の敵に命中した場合、連続範囲ダメージが発生する。断流·閃は0.7秒毎に1回のみ発動可能。\n·断流·破：断流効果の敵を倒した時にウォーターブルームを放ち、近くの敵に断流効果を付与する。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。\n魔王の武装·荒波の近接モード時、落下攻撃をすることはできない。",
     "cd": 0
   },
   "c13ns": [

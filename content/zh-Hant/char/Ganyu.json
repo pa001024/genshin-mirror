@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "ShivadaJadeSliver", "count": 1 },
-        { "name": "Qingxin", "count": 3 },
-        { "name": "WhopperflowerNectar", "count": 3 }
+        {
+          "id": "ShivadaJadeSliver",
+          "name": "Shivada Jade Sliver",
+          "localeName": "哀敘冰玉碎屑",
+          "count": 1
+        },
+        {
+          "id": "Qingxin",
+          "name": "Qingxin",
+          "localeName": "清心",
+          "count": 3
+        },
+        {
+          "id": "WhopperflowerNectar",
+          "name": "Whopperflower Nectar",
+          "localeName": "騙騙花蜜",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 653.91 },
-        { "type": 3, "value": 42.066 },
-        { "type": 2, "value": 22.349 },
-        { "type": 13, "value": 0 }
-      ]
+      "HP": 653.91,
+      "ATK": 22.349,
+      "DEF": 42.066,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "ShivadaJadeFragment", "count": 3 },
-        { "name": "HoarfrostCore", "count": 2 },
-        { "name": "Qingxin", "count": 10 },
-        { "name": "WhopperflowerNectar", "count": 15 }
+        {
+          "id": "ShivadaJadeFragment",
+          "name": "Shivada Jade Fragment",
+          "localeName": "哀敘冰玉斷片",
+          "count": 3
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒之核",
+          "count": 2
+        },
+        {
+          "id": "Qingxin",
+          "name": "Qingxin",
+          "localeName": "清心",
+          "count": 10
+        },
+        {
+          "id": "WhopperflowerNectar",
+          "name": "Whopperflower Nectar",
+          "localeName": "騙騙花蜜",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1118.5 },
-        { "type": 3, "value": 71.955 },
-        { "type": 2, "value": 38.229 },
-        { "type": 13, "value": 0.096 }
-      ]
+      "HP": 1118.5,
+      "ATK": 38.229,
+      "DEF": 71.955,
+      "extra": 0.096
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "ShivadaJadeFragment", "count": 6 },
-        { "name": "HoarfrostCore", "count": 4 },
-        { "name": "Qingxin", "count": 20 },
-        { "name": "ShimmeringNectar", "count": 12 }
+        {
+          "id": "ShivadaJadeFragment",
+          "name": "Shivada Jade Fragment",
+          "localeName": "哀敘冰玉斷片",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒之核",
+          "count": 4
+        },
+        {
+          "id": "Qingxin",
+          "name": "Qingxin",
+          "localeName": "清心",
+          "count": 20
+        },
+        {
+          "id": "ShimmeringNectar",
+          "name": "Shimmering Nectar",
+          "localeName": "微光花蜜",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1738 },
-        { "type": 3, "value": 111.81 },
-        { "type": 2, "value": 59.402 },
-        { "type": 13, "value": 0.192 }
-      ]
+      "HP": 1738,
+      "ATK": 59.402,
+      "DEF": 111.81,
+      "extra": 0.192
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "ShivadaJadeChunk", "count": 3 },
-        { "name": "HoarfrostCore", "count": 8 },
-        { "name": "Qingxin", "count": 30 },
-        { "name": "ShimmeringNectar", "count": 18 }
+        {
+          "id": "ShivadaJadeChunk",
+          "name": "Shivada Jade Chunk",
+          "localeName": "哀敘冰玉塊",
+          "count": 3
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒之核",
+          "count": 8
+        },
+        {
+          "id": "Qingxin",
+          "name": "Qingxin",
+          "localeName": "清心",
+          "count": 30
+        },
+        {
+          "id": "ShimmeringNectar",
+          "name": "Shimmering Nectar",
+          "localeName": "微光花蜜",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2202.6 },
-        { "type": 3, "value": 141.7 },
-        { "type": 2, "value": 75.282 },
-        { "type": 13, "value": 0.192 }
-      ]
+      "HP": 2202.6,
+      "ATK": 75.282,
+      "DEF": 141.7,
+      "extra": 0.192
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "ShivadaJadeChunk", "count": 6 },
-        { "name": "HoarfrostCore", "count": 12 },
-        { "name": "Qingxin", "count": 45 },
-        { "name": "EnergyNectar", "count": 12 }
+        {
+          "id": "ShivadaJadeChunk",
+          "name": "Shivada Jade Chunk",
+          "localeName": "哀敘冰玉塊",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒之核",
+          "count": 12
+        },
+        {
+          "id": "Qingxin",
+          "name": "Qingxin",
+          "localeName": "清心",
+          "count": 45
+        },
+        {
+          "id": "EnergyNectar",
+          "name": "Energy Nectar",
+          "localeName": "原素花蜜",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2667.3 },
-        { "type": 3, "value": 171.59 },
-        { "type": 2, "value": 91.162 },
-        { "type": 13, "value": 0.288 }
-      ]
+      "HP": 2667.3,
+      "ATK": 91.162,
+      "DEF": 171.59,
+      "extra": 0.288
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "ShivadaJadeGemstone", "count": 6 },
-        { "name": "HoarfrostCore", "count": 20 },
-        { "name": "Qingxin", "count": 60 },
-        { "name": "EnergyNectar", "count": 24 }
+        {
+          "id": "ShivadaJadeGemstone",
+          "name": "Shivada Jade Gemstone",
+          "localeName": "哀敘冰玉",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒之核",
+          "count": 20
+        },
+        {
+          "id": "Qingxin",
+          "name": "Qingxin",
+          "localeName": "清心",
+          "count": 60
+        },
+        {
+          "id": "EnergyNectar",
+          "name": "Energy Nectar",
+          "localeName": "原素花蜜",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3131.9 },
-        { "type": 3, "value": 201.47 },
-        { "type": 2, "value": 107.04 },
-        { "type": 13, "value": 0.384 }
-      ]
+      "HP": 3131.9,
+      "ATK": 107.04,
+      "DEF": 201.47,
+      "extra": 0.384
     }
   ],
   "ascensionType": 13,
   "element": 7,
   "elemSkill": {
     "name": "山澤麟跡",
-    "desc": "甘雨留下一朵冰蓮並迅速後退，遠離一切魑魅魍魎，造成<color=#99FFFFFF>冰元素範圍傷害</color>。\\n\\n<color=#FFD780FF>冰蓮</color>\\n·持續嘲諷周圍的敵人，吸引敵人攻擊；\\n·耐久度按比例繼承甘雨的生命值上限；\\n·被摧毀或持續時間結束時，會劇烈地綻放，造成<color=#99FFFFFF>冰元素範圍傷害</color>。\\n\\n<i>「你說你看到我了？那應該是錯覺吧。那個時間我應該在加班才對。」</i>",
+    "desc": "甘雨留下一朵冰蓮並迅速後退，遠離一切魑魅魍魎，造成<color=#99FFFFFF>冰元素範圍傷害</color>。\n\n<color=#FFD780FF>冰蓮</color>\n·持續嘲諷周圍的敵人，吸引敵人攻擊；\n·耐久度按比例繼承甘雨的生命值上限；\n·被摧毀或持續時間結束時，會劇烈地綻放，造成<color=#99FFFFFF>冰元素範圍傷害</color>。\n\n<i>「你說你看到我了？那應該是錯覺吧。那個時間我應該在加班才對。」</i>",
     "cd": 10
   },
   "elemBurst": {
     "name": "降眾天華",
-    "desc": "凝聚大氣中的霜雪，召喚退魔的冰靈珠。\\n存在期間內，冰靈珠會持續降下冰凌，攻擊範圍內的敵人，造成<color=#99FFFFFF>冰元素傷害</color>。\\n\\n<i>甘雨當然可以降下清甜之雨。但是對於邪魔外道，這些都會變成寒苦之雪。</i>",
+    "desc": "凝聚大氣中的霜雪，召喚退魔的冰靈珠。\n存在期間內，冰靈珠會持續降下冰凌，攻擊範圍內的敵人，造成<color=#99FFFFFF>冰元素傷害</color>。\n\n<i>甘雨當然可以降下清甜之雨。但是對於邪魔外道，這些都會變成寒苦之雪。</i>",
     "cd": 15,
     "energyCost": 60
   },
   "attackSkill": {
     "name": "普通攻擊·流天射術",
-    "desc": "<color=#FFD780FF>普通攻擊</color>\\n進行至多六段的連續弓箭射擊。\\n\\n<color=#FFD780FF>重擊</color>\\n進行傷害更高、更為精准的<color=#FFD780FF>瞄準射擊</color>。\\n瞄準時，冰寒之氣會在箭矢上持續匯聚，並隨攻擊發射出去。根據蓄力時間長短，能造成不同的效果：\\n·一段蓄力：射出附有寒氣的箭矢，造成<color=#99FFFFFF>冰元素傷害</color>；\\n·二段蓄力：發射霜華矢，造成<color=#99FFFFFF>冰元素傷害</color>；命中後霜華綻發，再次造成<color=#99FFFFFF>冰元素範圍傷害</color>。\\n\\n<color=#FFD780FF>下落攻擊</color>\\n從空中射出箭雨，並迅速下墜衝擊地面，在落地時造成範圍傷害。",
+    "desc": "<color=#FFD780FF>普通攻擊</color>\n進行至多六段的連續弓箭射擊。\n\n<color=#FFD780FF>重擊</color>\n進行傷害更高、更為精准的<color=#FFD780FF>瞄準射擊</color>。\n瞄準時，冰寒之氣會在箭矢上持續匯聚，並隨攻擊發射出去。根據蓄力時間長短，能造成不同的效果：\n·一段蓄力：射出附有寒氣的箭矢，造成<color=#99FFFFFF>冰元素傷害</color>；\n·二段蓄力：發射霜華矢，造成<color=#99FFFFFF>冰元素傷害</color>；命中後霜華綻發，再次造成<color=#99FFFFFF>冰元素範圍傷害</color>。\n\n<color=#FFD780FF>下落攻擊</color>\n從空中射出箭雨，並迅速下墜衝擊地面，在落地時造成範圍傷害。",
     "cd": 0
   },
   "c13ns": [

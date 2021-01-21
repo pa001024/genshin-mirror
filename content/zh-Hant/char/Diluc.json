@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "AgnidusAgateSliver", "count": 1 },
-        { "name": "SmallLampGrass", "count": 3 },
-        { "name": "RecruitsInsignia", "count": 3 }
+        {
+          "id": "AgnidusAgateSliver",
+          "name": "Agnidus Agate Sliver",
+          "localeName": "燃願瑪瑙碎屑",
+          "count": 1
+        },
+        {
+          "id": "SmallLampGrass",
+          "name": "Small Lamp Grass",
+          "localeName": "小燈草",
+          "count": 3
+        },
+        {
+          "id": "RecruitsInsignia",
+          "name": "Recruit's Insignia",
+          "localeName": "新兵的徽記",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 866.43 },
-        { "type": 3, "value": 52.326 },
-        { "type": 2, "value": 22.349 },
-        { "type": 12, "value": 0 }
-      ]
+      "HP": 866.43,
+      "ATK": 22.349,
+      "DEF": 52.326,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "AgnidusAgateFragment", "count": 3 },
-        { "name": "EverflameSeed", "count": 2 },
-        { "name": "SmallLampGrass", "count": 10 },
-        { "name": "RecruitsInsignia", "count": 15 }
+        {
+          "id": "AgnidusAgateFragment",
+          "name": "Agnidus Agate Fragment",
+          "localeName": "燃願瑪瑙斷片",
+          "count": 3
+        },
+        {
+          "id": "EverflameSeed",
+          "name": "Everflame Seed",
+          "localeName": "常燃火種",
+          "count": 2
+        },
+        {
+          "id": "SmallLampGrass",
+          "name": "Small Lamp Grass",
+          "localeName": "小燈草",
+          "count": 10
+        },
+        {
+          "id": "RecruitsInsignia",
+          "name": "Recruit's Insignia",
+          "localeName": "新兵的徽記",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1482 },
-        { "type": 3, "value": 89.505 },
-        { "type": 2, "value": 38.229 },
-        { "type": 12, "value": 0.048 }
-      ]
+      "HP": 1482,
+      "ATK": 38.229,
+      "DEF": 89.505,
+      "extra": 0.048
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "AgnidusAgateFragment", "count": 6 },
-        { "name": "EverflameSeed", "count": 4 },
-        { "name": "SmallLampGrass", "count": 20 },
-        { "name": "SergeantsInsignia", "count": 12 }
+        {
+          "id": "AgnidusAgateFragment",
+          "name": "Agnidus Agate Fragment",
+          "localeName": "燃願瑪瑙斷片",
+          "count": 6
+        },
+        {
+          "id": "EverflameSeed",
+          "name": "Everflame Seed",
+          "localeName": "常燃火種",
+          "count": 4
+        },
+        {
+          "id": "SmallLampGrass",
+          "name": "Small Lamp Grass",
+          "localeName": "小燈草",
+          "count": 20
+        },
+        {
+          "id": "SergeantsInsignia",
+          "name": "Sergeant's Insignia",
+          "localeName": "士官的徽記",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2302.9 },
-        { "type": 3, "value": 139.08 },
-        { "type": 2, "value": 59.402 },
-        { "type": 12, "value": 0.096 }
-      ]
+      "HP": 2302.9,
+      "ATK": 59.402,
+      "DEF": 139.08,
+      "extra": 0.096
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "AgnidusAgateChunk", "count": 3 },
-        { "name": "EverflameSeed", "count": 8 },
-        { "name": "SmallLampGrass", "count": 30 },
-        { "name": "SergeantsInsignia", "count": 18 }
+        {
+          "id": "AgnidusAgateChunk",
+          "name": "Agnidus Agate Chunk",
+          "localeName": "燃願瑪瑙塊",
+          "count": 3
+        },
+        {
+          "id": "EverflameSeed",
+          "name": "Everflame Seed",
+          "localeName": "常燃火種",
+          "count": 8
+        },
+        {
+          "id": "SmallLampGrass",
+          "name": "Small Lamp Grass",
+          "localeName": "小燈草",
+          "count": 30
+        },
+        {
+          "id": "SergeantsInsignia",
+          "name": "Sergeant's Insignia",
+          "localeName": "士官的徽記",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2918.5 },
-        { "type": 3, "value": 176.26 },
-        { "type": 2, "value": 75.282 },
-        { "type": 12, "value": 0.096 }
-      ]
+      "HP": 2918.5,
+      "ATK": 75.282,
+      "DEF": 176.26,
+      "extra": 0.096
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "AgnidusAgateChunk", "count": 6 },
-        { "name": "EverflameSeed", "count": 12 },
-        { "name": "SmallLampGrass", "count": 45 },
-        { "name": "LieutenantsInsignia", "count": 12 }
+        {
+          "id": "AgnidusAgateChunk",
+          "name": "Agnidus Agate Chunk",
+          "localeName": "燃願瑪瑙塊",
+          "count": 6
+        },
+        {
+          "id": "EverflameSeed",
+          "name": "Everflame Seed",
+          "localeName": "常燃火種",
+          "count": 12
+        },
+        {
+          "id": "SmallLampGrass",
+          "name": "Small Lamp Grass",
+          "localeName": "小燈草",
+          "count": 45
+        },
+        {
+          "id": "LieutenantsInsignia",
+          "name": "Lieutenant's Insignia",
+          "localeName": "尉官的徽記",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3534.1 },
-        { "type": 3, "value": 213.43 },
-        { "type": 2, "value": 91.162 },
-        { "type": 12, "value": 0.144 }
-      ]
+      "HP": 3534.1,
+      "ATK": 91.162,
+      "DEF": 213.43,
+      "extra": 0.144
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "AgnidusAgateGemstone", "count": 6 },
-        { "name": "EverflameSeed", "count": 20 },
-        { "name": "SmallLampGrass", "count": 60 },
-        { "name": "LieutenantsInsignia", "count": 24 }
+        {
+          "id": "AgnidusAgateGemstone",
+          "name": "Agnidus Agate Gemstone",
+          "localeName": "燃願瑪瑙",
+          "count": 6
+        },
+        {
+          "id": "EverflameSeed",
+          "name": "Everflame Seed",
+          "localeName": "常燃火種",
+          "count": 20
+        },
+        {
+          "id": "SmallLampGrass",
+          "name": "Small Lamp Grass",
+          "localeName": "小燈草",
+          "count": 60
+        },
+        {
+          "id": "LieutenantsInsignia",
+          "name": "Lieutenant's Insignia",
+          "localeName": "尉官的徽記",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 4149.7 },
-        { "type": 3, "value": 250.61 },
-        { "type": 2, "value": 107.04 },
-        { "type": 12, "value": 0.192 }
-      ]
+      "HP": 4149.7,
+      "ATK": 107.04,
+      "DEF": 250.61,
+      "extra": 0.192
     }
   ],
   "ascensionType": 12,
   "element": 6,
   "elemSkill": {
     "name": "逆焰之刃",
-    "desc": "揮舞大劍向前劈砍，造成<color=#FF9999FF>火元素傷害</color>。\\n\\n可以連續施放三次。\\n若在短時間內沒有施放，則會進入冷卻。\\n\\n<i>分別象徵迪盧克所秉持的正義、勇氣與責任。</i>",
+    "desc": "揮舞大劍向前劈砍，造成<color=#FF9999FF>火元素傷害</color>。\n\n可以連續施放三次。\n若在短時間內沒有施放，則會進入冷卻。\n\n<i>分別象徵迪盧克所秉持的正義、勇氣與責任。</i>",
     "cd": 10
   },
   "elemBurst": {
     "name": "黎明",
-    "desc": "爆發出烈焰的力量，擊退周圍的敵人，造成<color=#FF9999FF>火元素傷害</color>。隨後，將烈焰凝聚在武器上，揮出向前飛行的火之鳥，對路徑上的敵人造成高額<color=#FF9999FF>火元素傷害</color>，並在火之鳥行進的終點爆裂造成大量的<color=#FF9999FF>火元素範圍傷害</color>。\\n武器上凝聚的烈焰會使迪盧克獲得<color=#FF9999FF>火元素附魔</color>。\\n\\n<i>在黑暗中行走，是為了帶來光明。看遠方那在靜夜中亮起的火光，是破曉的先兆。</i>",
+    "desc": "爆發出烈焰的力量，擊退周圍的敵人，造成<color=#FF9999FF>火元素傷害</color>。隨後，將烈焰凝聚在武器上，揮出向前飛行的火之鳥，對路徑上的敵人造成高額<color=#FF9999FF>火元素傷害</color>，並在火之鳥行進的終點爆裂造成大量的<color=#FF9999FF>火元素範圍傷害</color>。\n武器上凝聚的烈焰會使迪盧克獲得<color=#FF9999FF>火元素附魔</color>。\n\n<i>在黑暗中行走，是為了帶來光明。看遠方那在靜夜中亮起的火光，是破曉的先兆。</i>",
     "cd": 12,
     "energyCost": 40
   },
   "attackSkill": {
     "name": "普通攻擊·淬煉之劍",
-    "desc": "<color=#FFD780FF>普通攻擊</color>\\n進行至多四段的連續揮砍。\\n\\n<color=#FFD780FF>重擊</color>\\n持續消耗體力，快速進行連續的斬擊。\\n重擊結束時，會進行一次格外有力的揮砍。\\n\\n<color=#FFD780FF>下落攻擊</color>\\n從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。",
+    "desc": "<color=#FFD780FF>普通攻擊</color>\n進行至多四段的連續揮砍。\n\n<color=#FFD780FF>重擊</color>\n持續消耗體力，快速進行連續的斬擊。\n重擊結束時，會進行一次格外有力的揮砍。\n\n<color=#FFD780FF>下落攻擊</color>\n從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。",
     "cd": 0
   },
   "c13ns": [

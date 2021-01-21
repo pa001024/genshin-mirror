@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "PrithivaTopazSliver", "count": 1 },
-        { "name": "Valberry", "count": 3 },
-        { "name": "DamagedMask", "count": 3 }
+        {
+          "id": "PrithivaTopazSliver",
+          "name": "Prithiva Topaz Sliver",
+          "localeName": "堅牢なトパーズ·砕屑",
+          "count": 1
+        },
+        {
+          "id": "Valberry",
+          "name": "Valberry",
+          "localeName": "ヴァルベリー",
+          "count": 3
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Damaged Mask",
+          "localeName": "破損した仮面",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 756.08 },
-        { "type": 3, "value": 50.018 },
-        { "type": 2, "value": 11.973 },
-        { "type": 9, "value": 0 }
-      ]
+      "HP": 756.08,
+      "ATK": 11.973,
+      "DEF": 50.018,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "PrithivaTopazFragment", "count": 3 },
-        { "name": "BasaltPillar", "count": 2 },
-        { "name": "Valberry", "count": 10 },
-        { "name": "DamagedMask", "count": 15 }
+        {
+          "id": "PrithivaTopazFragment",
+          "name": "Prithiva Topaz Fragment",
+          "localeName": "堅牢なトパーズ·欠片",
+          "count": 3
+        },
+        {
+          "id": "BasaltPillar",
+          "name": "Basalt Pillar",
+          "localeName": "玄岩の塔",
+          "count": 2
+        },
+        {
+          "id": "Valberry",
+          "name": "Valberry",
+          "localeName": "ヴァルベリー",
+          "count": 10
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Damaged Mask",
+          "localeName": "破損した仮面",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1293.3 },
-        { "type": 3, "value": 85.556 },
-        { "type": 2, "value": 20.481 },
-        { "type": 9, "value": 0.075 }
-      ]
+      "HP": 1293.3,
+      "ATK": 20.481,
+      "DEF": 85.556,
+      "extra": 0.075
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "PrithivaTopazFragment", "count": 6 },
-        { "name": "BasaltPillar", "count": 4 },
-        { "name": "Valberry", "count": 20 },
-        { "name": "StainedMask", "count": 12 }
+        {
+          "id": "PrithivaTopazFragment",
+          "name": "Prithiva Topaz Fragment",
+          "localeName": "堅牢なトパーズ·欠片",
+          "count": 6
+        },
+        {
+          "id": "BasaltPillar",
+          "name": "Basalt Pillar",
+          "localeName": "玄岩の塔",
+          "count": 4
+        },
+        {
+          "id": "Valberry",
+          "name": "Valberry",
+          "localeName": "ヴァルベリー",
+          "count": 20
+        },
+        {
+          "id": "StainedMask",
+          "name": "Stained Mask",
+          "localeName": "汚れた仮面",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2009.6 },
-        { "type": 3, "value": 132.94 },
-        { "type": 2, "value": 31.824 },
-        { "type": 9, "value": 0.15 }
-      ]
+      "HP": 2009.6,
+      "ATK": 31.824,
+      "DEF": 132.94,
+      "extra": 0.15
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "PrithivaTopazChunk", "count": 3 },
-        { "name": "BasaltPillar", "count": 8 },
-        { "name": "Valberry", "count": 30 },
-        { "name": "StainedMask", "count": 18 }
+        {
+          "id": "PrithivaTopazChunk",
+          "name": "Prithiva Topaz Chunk",
+          "localeName": "堅牢なトパーズ·塊",
+          "count": 3
+        },
+        {
+          "id": "BasaltPillar",
+          "name": "Basalt Pillar",
+          "localeName": "玄岩の塔",
+          "count": 8
+        },
+        {
+          "id": "Valberry",
+          "name": "Valberry",
+          "localeName": "ヴァルベリー",
+          "count": 30
+        },
+        {
+          "id": "StainedMask",
+          "name": "Stained Mask",
+          "localeName": "汚れた仮面",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2546.8 },
-        { "type": 3, "value": 168.48 },
-        { "type": 2, "value": 40.332 },
-        { "type": 9, "value": 0.15 }
-      ]
+      "HP": 2546.8,
+      "ATK": 40.332,
+      "DEF": 168.48,
+      "extra": 0.15
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "PrithivaTopazChunk", "count": 6 },
-        { "name": "BasaltPillar", "count": 12 },
-        { "name": "Valberry", "count": 45 },
-        { "name": "OminousMask", "count": 12 }
+        {
+          "id": "PrithivaTopazChunk",
+          "name": "Prithiva Topaz Chunk",
+          "localeName": "堅牢なトパーズ·塊",
+          "count": 6
+        },
+        {
+          "id": "BasaltPillar",
+          "name": "Basalt Pillar",
+          "localeName": "玄岩の塔",
+          "count": 12
+        },
+        {
+          "id": "Valberry",
+          "name": "Valberry",
+          "localeName": "ヴァルベリー",
+          "count": 45
+        },
+        {
+          "id": "OminousMask",
+          "name": "Ominous Mask",
+          "localeName": "不吉な仮面",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3084 },
-        { "type": 3, "value": 204.02 },
-        { "type": 2, "value": 48.839 },
-        { "type": 9, "value": 0.225 }
-      ]
+      "HP": 3084,
+      "ATK": 48.839,
+      "DEF": 204.02,
+      "extra": 0.225
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "PrithivaTopazGemstone", "count": 6 },
-        { "name": "BasaltPillar", "count": 20 },
-        { "name": "Valberry", "count": 60 },
-        { "name": "OminousMask", "count": 24 }
+        {
+          "id": "PrithivaTopazGemstone",
+          "name": "Prithiva Topaz Gemstone",
+          "localeName": "堅牢なトパーズ",
+          "count": 6
+        },
+        {
+          "id": "BasaltPillar",
+          "name": "Basalt Pillar",
+          "localeName": "玄岩の塔",
+          "count": 20
+        },
+        {
+          "id": "Valberry",
+          "name": "Valberry",
+          "localeName": "ヴァルベリー",
+          "count": 60
+        },
+        {
+          "id": "OminousMask",
+          "name": "Ominous Mask",
+          "localeName": "不吉な仮面",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3621.2 },
-        { "type": 3, "value": 239.56 },
-        { "type": 2, "value": 57.346 },
-        { "type": 9, "value": 0.3 }
-      ]
+      "HP": 3621.2,
+      "ATK": 57.346,
+      "DEF": 239.56,
+      "extra": 0.3
     }
   ],
   "ascensionType": 9,
   "element": 2,
   "elemSkill": {
     "name": "護心鎧",
-    "desc": "護身の岩鎧を召喚し、周囲の敵に<color=#FFE699FF>岩元素ダメージ</color>を与え、シールドを生成する、ダメージ吸収量はノエルの防御力によって決まる。\\nシールドは下記の効果が発動する：\\n·ノエルの通常攻撃または重撃が命中した時、一定の確率でチーム全員のHPを回復する。\\n·<color=#FFE699FF>岩元素ダメージ</color>に対して、250%の吸収効果がある。\\n\\n回復効果の回復量はノエルの防御力によって決まる。\\n\\n<i>ノエルは奉仕するメイドであり、毅然たる騎士でもある。</i>",
+    "desc": "護身の岩鎧を召喚し、周囲の敵に<color=#FFE699FF>岩元素ダメージ</color>を与え、シールドを生成する、ダメージ吸収量はノエルの防御力によって決まる。\nシールドは下記の効果が発動する：\n·ノエルの通常攻撃または重撃が命中した時、一定の確率でチーム全員のHPを回復する。\n·<color=#FFE699FF>岩元素ダメージ</color>に対して、250%の吸収効果がある。\n\n回復効果の回復量はノエルの防御力によって決まる。\n\n<i>ノエルは奉仕するメイドであり、毅然たる騎士でもある。</i>",
     "cd": 24
   },
   "elemBurst": {
     "name": "大掃除",
-    "desc": "盤石の力を武器に凝集させ、周囲の敵に衝撃を与えて広範囲攻撃を1回行い、<color=#FFE699FF>岩元素ダメージ</color>を与える。\\nその後、下記の効果が発動される：\\n·ノエルの攻撃範囲が大幅にアップする。\\n·攻撃ダメージは<color=#FFE699FF>岩元素ダメージ</color>に変化される。バフによって他の元素に変化することはない。\\n·ノエルの防御力を基準に攻撃力がアップする。\\n\\n<i>時に掃除が必要なのは、埃だけではありませんね…</i>",
+    "desc": "盤石の力を武器に凝集させ、周囲の敵に衝撃を与えて広範囲攻撃を1回行い、<color=#FFE699FF>岩元素ダメージ</color>を与える。\nその後、下記の効果が発動される：\n·ノエルの攻撃範囲が大幅にアップする。\n·攻撃ダメージは<color=#FFE699FF>岩元素ダメージ</color>に変化される。バフによって他の元素に変化することはない。\n·ノエルの防御力を基準に攻撃力がアップする。\n\n<i>時に掃除が必要なのは、埃だけではありませんね…</i>",
     "cd": 15,
     "energyCost": 60
   },
   "attackSkill": {
     "name": "通常攻撃·西風剣術·メイド",
-    "desc": "<color=#FFD780FF>通常攻撃</color>\\n最大4段の連続攻撃を行う。\\n\\n<color=#FFD780FF>重撃</color>\\n持続的にスタミナを消費し、大剣を振り回して周囲の敵を攻撃する。\\n重撃が終了した時に、さらに強力な攻撃を1回放つ。\\n\\n<color=#FFD780FF>落下攻撃</color>\\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n最大4段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n持続的にスタミナを消費し、大剣を振り回して周囲の敵を攻撃する。\n重撃が終了した時に、さらに強力な攻撃を1回放つ。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
     "cd": 0
   },
   "c13ns": [

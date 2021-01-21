@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "ShivadaJadeSliver", "count": 1 },
-        { "name": "CallaLily", "count": 3 },
-        { "name": "FirmArrowhead", "count": 3 }
+        {
+          "id": "ShivadaJadeSliver",
+          "name": "Shivada Jade Sliver",
+          "localeName": "Shivada Jade Sliver",
+          "count": 1
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "Calla Lily",
+          "count": 3
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Firm Arrowhead",
+          "localeName": "Firm Arrowhead",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 599.42 },
-        { "type": 3, "value": 37.62 },
-        { "type": 2, "value": 13.304 },
-        { "type": 29, "value": 0 }
-      ]
+      "HP": 599.42,
+      "ATK": 13.304,
+      "DEF": 37.62,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "ShivadaJadeFragment", "count": 3 },
-        { "name": "HoarfrostCore", "count": 2 },
-        { "name": "CallaLily", "count": 10 },
-        { "name": "FirmArrowhead", "count": 15 }
+        {
+          "id": "ShivadaJadeFragment",
+          "name": "Shivada Jade Fragment",
+          "localeName": "Shivada Jade Fragment",
+          "count": 3
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "Hoarfrost Core",
+          "count": 2
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "Calla Lily",
+          "count": 10
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Firm Arrowhead",
+          "localeName": "Firm Arrowhead",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1025.3 },
-        { "type": 3, "value": 64.35 },
-        { "type": 2, "value": 22.757 },
-        { "type": 29, "value": 0.06 }
-      ]
+      "HP": 1025.3,
+      "ATK": 22.757,
+      "DEF": 64.35,
+      "extra": 0.06
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "ShivadaJadeFragment", "count": 6 },
-        { "name": "HoarfrostCore", "count": 4 },
-        { "name": "CallaLily", "count": 20 },
-        { "name": "SharpArrowhead", "count": 12 }
+        {
+          "id": "ShivadaJadeFragment",
+          "name": "Shivada Jade Fragment",
+          "localeName": "Shivada Jade Fragment",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "Hoarfrost Core",
+          "count": 4
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "Calla Lily",
+          "count": 20
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Sharp Arrowhead",
+          "localeName": "Sharp Arrowhead",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1593.2 },
-        { "type": 3, "value": 99.99 },
-        { "type": 2, "value": 35.36 },
-        { "type": 29, "value": 0.12 }
-      ]
+      "HP": 1593.2,
+      "ATK": 35.36,
+      "DEF": 99.99,
+      "extra": 0.12
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "ShivadaJadeChunk", "count": 3 },
-        { "name": "HoarfrostCore", "count": 8 },
-        { "name": "CallaLily", "count": 30 },
-        { "name": "SharpArrowhead", "count": 18 }
+        {
+          "id": "ShivadaJadeChunk",
+          "name": "Shivada Jade Chunk",
+          "localeName": "Shivada Jade Chunk",
+          "count": 3
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "Hoarfrost Core",
+          "count": 8
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "Calla Lily",
+          "count": 30
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Sharp Arrowhead",
+          "localeName": "Sharp Arrowhead",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2019.1 },
-        { "type": 3, "value": 126.72 },
-        { "type": 2, "value": 44.813 },
-        { "type": 29, "value": 0.12 }
-      ]
+      "HP": 2019.1,
+      "ATK": 44.813,
+      "DEF": 126.72,
+      "extra": 0.12
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "ShivadaJadeChunk", "count": 6 },
-        { "name": "HoarfrostCore", "count": 12 },
-        { "name": "CallaLily", "count": 45 },
-        { "name": "WeatheredArrowhead", "count": 12 }
+        {
+          "id": "ShivadaJadeChunk",
+          "name": "Shivada Jade Chunk",
+          "localeName": "Shivada Jade Chunk",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "Hoarfrost Core",
+          "count": 12
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "Calla Lily",
+          "count": 45
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Weathered Arrowhead",
+          "localeName": "Weathered Arrowhead",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2445 },
-        { "type": 3, "value": 153.45 },
-        { "type": 2, "value": 54.265 },
-        { "type": 29, "value": 0.18 }
-      ]
+      "HP": 2445,
+      "ATK": 54.265,
+      "DEF": 153.45,
+      "extra": 0.18
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "ShivadaJadeGemstone", "count": 6 },
-        { "name": "HoarfrostCore", "count": 20 },
-        { "name": "CallaLily", "count": 60 },
-        { "name": "WeatheredArrowhead", "count": 24 }
+        {
+          "id": "ShivadaJadeGemstone",
+          "name": "Shivada Jade Gemstone",
+          "localeName": "Shivada Jade Gemstone",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "Hoarfrost Core",
+          "count": 20
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "Calla Lily",
+          "count": 60
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Weathered Arrowhead",
+          "localeName": "Weathered Arrowhead",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2870.9 },
-        { "type": 3, "value": 180.18 },
-        { "type": 2, "value": 63.718 },
-        { "type": 29, "value": 0.24 }
-      ]
+      "HP": 2870.9,
+      "ATK": 63.718,
+      "DEF": 180.18,
+      "extra": 0.24
     }
   ],
   "ascensionType": 29,
   "element": 7,
   "elemSkill": {
     "name": "Icy Paws",
-    "desc": "#Fires an Icy Paw that deals <color=#99FFFFFF>Cryo DMG</color> to opponents and forms a shield on hit.\\nThe shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nRapidly fires off 2 Icy Paws.\\n\\n<color=#FFD780FF>Hold</color>\\nDashes back quickly before firing five Icy Paws.\\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\\n\\nThe shield has a 250% <color=#99FFFFFF>Cryo DMG</color> Absorption Bonus, and will cause your active character to become affected by <color=#99FFFFFF>Cryo</color> at the point of formation for a short duration.\\n\\n<i>When she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision — now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!</i>",
+    "desc": "#Fires an Icy Paw that deals <color=#99FFFFFF>Cryo DMG</color> to opponents and forms a shield on hit.\nThe shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nRapidly fires off 2 Icy Paws.\n\n<color=#FFD780FF>Hold</color>\nDashes back quickly before firing five Icy Paws.\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\n\nThe shield has a 250% <color=#99FFFFFF>Cryo DMG</color> Absorption Bonus, and will cause your active character to become affected by <color=#99FFFFFF>Cryo</color> at the point of formation for a short duration.\n\n<i>When she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision — now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!</i>",
     "cd": 6
   },
   "elemBurst": {
     "name": "Signature Mix",
-    "desc": "Tosses out a special cold brew that deals <color=#99FFFFFF>AoE Cryo DMG</color> and creates a Drunken Mist in an AoE.\\n\\n<color=#FFD780FF>Drunken Mist</color>\\n·Deals continuous <color=#99FFFFFF>Cryo DMG</color> to opponents within the AoE.\\n·Continuously regenerates the HP of characters within the AoE.\\n\\n<i>A horrific mix that even Diona considers inhumane. The horrifying foretaste should be left for one's opponents. It has a crisp aftertaste, but unfortunately, one can only feel it on one's nose and skin.</i>",
+    "desc": "Tosses out a special cold brew that deals <color=#99FFFFFF>AoE Cryo DMG</color> and creates a Drunken Mist in an AoE.\n\n<color=#FFD780FF>Drunken Mist</color>\n·Deals continuous <color=#99FFFFFF>Cryo DMG</color> to opponents within the AoE.\n·Continuously regenerates the HP of characters within the AoE.\n\n<i>A horrific mix that even Diona considers inhumane. The horrifying foretaste should be left for one's opponents. It has a crisp aftertaste, but unfortunately, one can only feel it on one's nose and skin.</i>",
     "cd": 20,
     "energyCost": 80
   },
   "attackSkill": {
     "name": "Normal Attack: Kätzlein Style",
-    "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal <color=#99FFFFFF>Cryo DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 5 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal <color=#99FFFFFF>Cryo DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
     "cd": 0
   },
   "c13ns": [

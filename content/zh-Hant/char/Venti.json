@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "VayudaTurquoiseSliver", "count": 1 },
-        { "name": "Cecilia", "count": 3 },
-        { "name": "SlimeCondensate", "count": 3 }
+        {
+          "id": "VayudaTurquoiseSliver",
+          "name": "Vayuda Turquoise Sliver",
+          "localeName": "自在松石碎屑",
+          "count": 1
+        },
+        {
+          "id": "Cecilia",
+          "name": "Cecilia",
+          "localeName": "塞西莉亞花",
+          "count": 3
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "Slime Condensate",
+          "localeName": "史萊姆凝液",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 702.95 },
-        { "type": 3, "value": 44.631 },
-        { "type": 2, "value": 17.56 },
-        { "type": 10, "value": 0 }
-      ]
+      "HP": 702.95,
+      "ATK": 17.56,
+      "DEF": 44.631,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "VayudaTurquoiseFragment", "count": 3 },
-        { "name": "HurricaneSeed", "count": 2 },
-        { "name": "Cecilia", "count": 10 },
-        { "name": "SlimeCondensate", "count": 15 }
+        {
+          "id": "VayudaTurquoiseFragment",
+          "name": "Vayuda Turquoise Fragment",
+          "localeName": "自在松石斷片",
+          "count": 3
+        },
+        {
+          "id": "HurricaneSeed",
+          "name": "Hurricane Seed",
+          "localeName": "颶風之種",
+          "count": 2
+        },
+        {
+          "id": "Cecilia",
+          "name": "Cecilia",
+          "localeName": "塞西莉亞花",
+          "count": 10
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "Slime Condensate",
+          "localeName": "史萊姆凝液",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1202.4 },
-        { "type": 3, "value": 76.342 },
-        { "type": 2, "value": 30.037 },
-        { "type": 10, "value": 0.08 }
-      ]
+      "HP": 1202.4,
+      "ATK": 30.037,
+      "DEF": 76.342,
+      "extra": 0.08
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "VayudaTurquoiseFragment", "count": 6 },
-        { "name": "HurricaneSeed", "count": 4 },
-        { "name": "Cecilia", "count": 20 },
-        { "name": "SlimeSecretions", "count": 12 }
+        {
+          "id": "VayudaTurquoiseFragment",
+          "name": "Vayuda Turquoise Fragment",
+          "localeName": "自在松石斷片",
+          "count": 6
+        },
+        {
+          "id": "HurricaneSeed",
+          "name": "Hurricane Seed",
+          "localeName": "颶風之種",
+          "count": 4
+        },
+        {
+          "id": "Cecilia",
+          "name": "Cecilia",
+          "localeName": "塞西莉亞花",
+          "count": 20
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "Slime Secretions",
+          "localeName": "史萊姆清",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1868.4 },
-        { "type": 3, "value": 118.62 },
-        { "type": 2, "value": 46.673 },
-        { "type": 10, "value": 0.16 }
-      ]
+      "HP": 1868.4,
+      "ATK": 46.673,
+      "DEF": 118.62,
+      "extra": 0.16
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "VayudaTurquoiseChunk", "count": 3 },
-        { "name": "HurricaneSeed", "count": 8 },
-        { "name": "Cecilia", "count": 30 },
-        { "name": "SlimeSecretions", "count": 18 }
+        {
+          "id": "VayudaTurquoiseChunk",
+          "name": "Vayuda Turquoise Chunk",
+          "localeName": "自在松石塊",
+          "count": 3
+        },
+        {
+          "id": "HurricaneSeed",
+          "name": "Hurricane Seed",
+          "localeName": "颶風之種",
+          "count": 8
+        },
+        {
+          "id": "Cecilia",
+          "name": "Cecilia",
+          "localeName": "塞西莉亞花",
+          "count": 30
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "Slime Secretions",
+          "localeName": "史萊姆清",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2367.8 },
-        { "type": 3, "value": 150.34 },
-        { "type": 2, "value": 59.15 },
-        { "type": 10, "value": 0.16 }
-      ]
+      "HP": 2367.8,
+      "ATK": 59.15,
+      "DEF": 150.34,
+      "extra": 0.16
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "VayudaTurquoiseChunk", "count": 6 },
-        { "name": "HurricaneSeed", "count": 12 },
-        { "name": "Cecilia", "count": 45 },
-        { "name": "SlimeConcentrate", "count": 12 }
+        {
+          "id": "VayudaTurquoiseChunk",
+          "name": "Vayuda Turquoise Chunk",
+          "localeName": "自在松石塊",
+          "count": 6
+        },
+        {
+          "id": "HurricaneSeed",
+          "name": "Hurricane Seed",
+          "localeName": "颶風之種",
+          "count": 12
+        },
+        {
+          "id": "Cecilia",
+          "name": "Cecilia",
+          "localeName": "塞西莉亞花",
+          "count": 45
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "Slime Concentrate",
+          "localeName": "史萊姆原漿",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2867.3 },
-        { "type": 3, "value": 182.05 },
-        { "type": 2, "value": 71.627 },
-        { "type": 10, "value": 0.24 }
-      ]
+      "HP": 2867.3,
+      "ATK": 71.627,
+      "DEF": 182.05,
+      "extra": 0.24
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "VayudaTurquoiseGemstone", "count": 6 },
-        { "name": "HurricaneSeed", "count": 20 },
-        { "name": "Cecilia", "count": 60 },
-        { "name": "SlimeConcentrate", "count": 24 }
+        {
+          "id": "VayudaTurquoiseGemstone",
+          "name": "Vayuda Turquoise Gemstone",
+          "localeName": "自在松石",
+          "count": 6
+        },
+        {
+          "id": "HurricaneSeed",
+          "name": "Hurricane Seed",
+          "localeName": "颶風之種",
+          "count": 20
+        },
+        {
+          "id": "Cecilia",
+          "name": "Cecilia",
+          "localeName": "塞西莉亞花",
+          "count": 60
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "Slime Concentrate",
+          "localeName": "史萊姆原漿",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3366.8 },
-        { "type": 3, "value": 213.76 },
-        { "type": 2, "value": 84.104 },
-        { "type": 10, "value": 0.32 }
-      ]
+      "HP": 3366.8,
+      "ATK": 84.104,
+      "DEF": 213.76,
+      "extra": 0.32
     }
   ],
   "ascensionType": 10,
   "element": 1,
   "elemSkill": {
     "name": "高天之歌",
-    "desc": "呼喚與詩和樂協鳴的風，將在塵泥中行走的事物送上高空吧。\\n\\n<color=#FFD780FF>點按</color>\\n在敵人所在的位置喚出風域，造成<color=#80FFD7FF>風元素範圍傷害</color>，並擊飛其中的敵人。\\n\\n<color=#FFD780FF>長按</color>\\n以自身為中心，喚出更大的風域，造成<color=#80FFD7FF>風元素範圍傷害</color>，並擊飛其中的敵人。\\n長按施放後，溫迪會乘風飛到空中。\\n\\n被高天之歌擊飛的敵人，在短時間內會緩慢墜落。\\n\\n<i>在人與神還同行於大地的時代，無數的歌曲傳遍四方的天空。這是早已被遺忘的曲調。</i>",
+    "desc": "呼喚與詩和樂協鳴的風，將在塵泥中行走的事物送上高空吧。\n\n<color=#FFD780FF>點按</color>\n在敵人所在的位置喚出風域，造成<color=#80FFD7FF>風元素範圍傷害</color>，並擊飛其中的敵人。\n\n<color=#FFD780FF>長按</color>\n以自身為中心，喚出更大的風域，造成<color=#80FFD7FF>風元素範圍傷害</color>，並擊飛其中的敵人。\n長按施放後，溫迪會乘風飛到空中。\n\n被高天之歌擊飛的敵人，在短時間內會緩慢墜落。\n\n<i>在人與神還同行於大地的時代，無數的歌曲傳遍四方的天空。這是早已被遺忘的曲調。</i>",
     "cd": 6
   },
   "elemBurst": {
     "name": "風神之詩",
-    "desc": "射出千風彙聚而成的箭矢，在前方造出巨大的暴風之眼，將敵人捲入，持續造成<color=#80FFD7FF>風元素傷害</color>。\\n\\n<color=#FFD780FF>元素轉化</color>\\n若暴風之眼在技能持續期間接觸了<color=#80C0FFFF>水元素</color>/<color=#FF9999FF>火元素</color>/<color=#99FFFFFF>冰元素</color>/<color=#FFACFFFF>雷元素</color>，則會獲得對應元素屬性，額外造成該元素的附加傷害。\\n元素轉化在技能持續期間僅會發生一次。\\n\\n<i>稱頌風之神的詩篇有許多已經佚失。其中這一首描述的是他與風的力量。</i>",
+    "desc": "射出千風彙聚而成的箭矢，在前方造出巨大的暴風之眼，將敵人捲入，持續造成<color=#80FFD7FF>風元素傷害</color>。\n\n<color=#FFD780FF>元素轉化</color>\n若暴風之眼在技能持續期間接觸了<color=#80C0FFFF>水元素</color>/<color=#FF9999FF>火元素</color>/<color=#99FFFFFF>冰元素</color>/<color=#FFACFFFF>雷元素</color>，則會獲得對應元素屬性，額外造成該元素的附加傷害。\n元素轉化在技能持續期間僅會發生一次。\n\n<i>稱頌風之神的詩篇有許多已經佚失。其中這一首描述的是他與風的力量。</i>",
     "cd": 15,
     "energyCost": 60
   },
   "attackSkill": {
     "name": "普通攻擊·神代射術",
-    "desc": "<color=#FFD780FF>普通攻擊</color>\\n進行至多六段的連續弓箭射擊。\\n\\n<color=#FFD780FF>重擊</color>\\n進行傷害更高、更為精準的<color=#FFD780FF>瞄準射擊</color>。\\n瞄準時，眷顧天地的風會在箭矢上持續匯聚。聚滿了風之力的箭矢會造成<color=#80FFD7FF>風元素傷害</color>。\\n\\n<color=#FFD780FF>下落攻擊</color>\\n從空中射出箭雨，並迅速下墜衝擊地面，在落地時造成範圍傷害。",
+    "desc": "<color=#FFD780FF>普通攻擊</color>\n進行至多六段的連續弓箭射擊。\n\n<color=#FFD780FF>重擊</color>\n進行傷害更高、更為精準的<color=#FFD780FF>瞄準射擊</color>。\n瞄準時，眷顧天地的風會在箭矢上持續匯聚。聚滿了風之力的箭矢會造成<color=#80FFD7FF>風元素傷害</color>。\n\n<color=#FFD780FF>下落攻擊</color>\n從空中射出箭雨，並迅速下墜衝擊地面，在落地時造成範圍傷害。",
     "cd": 0
   },
   "c13ns": [

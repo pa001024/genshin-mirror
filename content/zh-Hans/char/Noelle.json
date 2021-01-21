@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "PrithivaTopazSliver", "count": 1 },
-        { "name": "Valberry", "count": 3 },
-        { "name": "DamagedMask", "count": 3 }
+        {
+          "id": "PrithivaTopazSliver",
+          "name": "Prithiva Topaz Sliver",
+          "localeName": "坚牢黄玉碎屑",
+          "count": 1
+        },
+        {
+          "id": "Valberry",
+          "name": "Valberry",
+          "localeName": "落落莓",
+          "count": 3
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Damaged Mask",
+          "localeName": "破损的面具",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 756.08 },
-        { "type": 3, "value": 50.018 },
-        { "type": 2, "value": 11.973 },
-        { "type": 9, "value": 0 }
-      ]
+      "HP": 756.08,
+      "ATK": 11.973,
+      "DEF": 50.018,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "PrithivaTopazFragment", "count": 3 },
-        { "name": "BasaltPillar", "count": 2 },
-        { "name": "Valberry", "count": 10 },
-        { "name": "DamagedMask", "count": 15 }
+        {
+          "id": "PrithivaTopazFragment",
+          "name": "Prithiva Topaz Fragment",
+          "localeName": "坚牢黄玉断片",
+          "count": 3
+        },
+        {
+          "id": "BasaltPillar",
+          "name": "Basalt Pillar",
+          "localeName": "玄岩之塔",
+          "count": 2
+        },
+        {
+          "id": "Valberry",
+          "name": "Valberry",
+          "localeName": "落落莓",
+          "count": 10
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Damaged Mask",
+          "localeName": "破损的面具",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1293.3 },
-        { "type": 3, "value": 85.556 },
-        { "type": 2, "value": 20.481 },
-        { "type": 9, "value": 0.075 }
-      ]
+      "HP": 1293.3,
+      "ATK": 20.481,
+      "DEF": 85.556,
+      "extra": 0.075
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "PrithivaTopazFragment", "count": 6 },
-        { "name": "BasaltPillar", "count": 4 },
-        { "name": "Valberry", "count": 20 },
-        { "name": "StainedMask", "count": 12 }
+        {
+          "id": "PrithivaTopazFragment",
+          "name": "Prithiva Topaz Fragment",
+          "localeName": "坚牢黄玉断片",
+          "count": 6
+        },
+        {
+          "id": "BasaltPillar",
+          "name": "Basalt Pillar",
+          "localeName": "玄岩之塔",
+          "count": 4
+        },
+        {
+          "id": "Valberry",
+          "name": "Valberry",
+          "localeName": "落落莓",
+          "count": 20
+        },
+        {
+          "id": "StainedMask",
+          "name": "Stained Mask",
+          "localeName": "污秽的面具",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2009.6 },
-        { "type": 3, "value": 132.94 },
-        { "type": 2, "value": 31.824 },
-        { "type": 9, "value": 0.15 }
-      ]
+      "HP": 2009.6,
+      "ATK": 31.824,
+      "DEF": 132.94,
+      "extra": 0.15
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "PrithivaTopazChunk", "count": 3 },
-        { "name": "BasaltPillar", "count": 8 },
-        { "name": "Valberry", "count": 30 },
-        { "name": "StainedMask", "count": 18 }
+        {
+          "id": "PrithivaTopazChunk",
+          "name": "Prithiva Topaz Chunk",
+          "localeName": "坚牢黄玉块",
+          "count": 3
+        },
+        {
+          "id": "BasaltPillar",
+          "name": "Basalt Pillar",
+          "localeName": "玄岩之塔",
+          "count": 8
+        },
+        {
+          "id": "Valberry",
+          "name": "Valberry",
+          "localeName": "落落莓",
+          "count": 30
+        },
+        {
+          "id": "StainedMask",
+          "name": "Stained Mask",
+          "localeName": "污秽的面具",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2546.8 },
-        { "type": 3, "value": 168.48 },
-        { "type": 2, "value": 40.332 },
-        { "type": 9, "value": 0.15 }
-      ]
+      "HP": 2546.8,
+      "ATK": 40.332,
+      "DEF": 168.48,
+      "extra": 0.15
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "PrithivaTopazChunk", "count": 6 },
-        { "name": "BasaltPillar", "count": 12 },
-        { "name": "Valberry", "count": 45 },
-        { "name": "OminousMask", "count": 12 }
+        {
+          "id": "PrithivaTopazChunk",
+          "name": "Prithiva Topaz Chunk",
+          "localeName": "坚牢黄玉块",
+          "count": 6
+        },
+        {
+          "id": "BasaltPillar",
+          "name": "Basalt Pillar",
+          "localeName": "玄岩之塔",
+          "count": 12
+        },
+        {
+          "id": "Valberry",
+          "name": "Valberry",
+          "localeName": "落落莓",
+          "count": 45
+        },
+        {
+          "id": "OminousMask",
+          "name": "Ominous Mask",
+          "localeName": "不祥的面具",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3084 },
-        { "type": 3, "value": 204.02 },
-        { "type": 2, "value": 48.839 },
-        { "type": 9, "value": 0.225 }
-      ]
+      "HP": 3084,
+      "ATK": 48.839,
+      "DEF": 204.02,
+      "extra": 0.225
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "PrithivaTopazGemstone", "count": 6 },
-        { "name": "BasaltPillar", "count": 20 },
-        { "name": "Valberry", "count": 60 },
-        { "name": "OminousMask", "count": 24 }
+        {
+          "id": "PrithivaTopazGemstone",
+          "name": "Prithiva Topaz Gemstone",
+          "localeName": "坚牢黄玉",
+          "count": 6
+        },
+        {
+          "id": "BasaltPillar",
+          "name": "Basalt Pillar",
+          "localeName": "玄岩之塔",
+          "count": 20
+        },
+        {
+          "id": "Valberry",
+          "name": "Valberry",
+          "localeName": "落落莓",
+          "count": 60
+        },
+        {
+          "id": "OminousMask",
+          "name": "Ominous Mask",
+          "localeName": "不祥的面具",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3621.2 },
-        { "type": 3, "value": 239.56 },
-        { "type": 2, "value": 57.346 },
-        { "type": 9, "value": 0.3 }
-      ]
+      "HP": 3621.2,
+      "ATK": 57.346,
+      "DEF": 239.56,
+      "extra": 0.3
     }
   ],
   "ascensionType": 9,
   "element": 2,
   "elemSkill": {
     "name": "护心铠",
-    "desc": "唤出护体的岩铠，对周围的敌人造成<color=#FFE699FF>岩元素伤害</color>，并形成护盾，伤害吸收量基于诺艾尔的防御力。\\n护盾具有如下效果：\\n·诺艾尔的普通攻击与重击命中时，都有几率为队伍中所有角色恢复生命值；\\n·对<color=#FFE699FF>岩元素伤害</color>有250%的吸收效果。\\n\\n触发治疗时的治疗量受益于诺艾尔的防御力。\\n\\n<i>诺艾尔既是侍奉的女仆，也是坚毅的骑士。</i>",
+    "desc": "唤出护体的岩铠，对周围的敌人造成<color=#FFE699FF>岩元素伤害</color>，并形成护盾，伤害吸收量基于诺艾尔的防御力。\n护盾具有如下效果：\n·诺艾尔的普通攻击与重击命中时，都有几率为队伍中所有角色恢复生命值；\n·对<color=#FFE699FF>岩元素伤害</color>有250%的吸收效果。\n\n触发治疗时的治疗量受益于诺艾尔的防御力。\n\n<i>诺艾尔既是侍奉的女仆，也是坚毅的骑士。</i>",
     "cd": 24
   },
   "elemBurst": {
     "name": "大扫除",
-    "desc": "将磐石的力量凝聚在武器上，冲击周围的敌人并进行一次大范围扫击，造成<color=#FFE699FF>岩元素伤害</color>。\\n此后，获得如下效果：\\n·提高诺艾尔的攻击范围；\\n·将攻击伤害转为<color=#FFE699FF>岩元素伤害</color>，该元素转化无法被附魔覆盖；\\n·基于诺艾尔的防御力，提高攻击力。\\n\\n<i>需要扫除的，有时不仅仅是灰尘…</i>",
+    "desc": "将磐石的力量凝聚在武器上，冲击周围的敌人并进行一次大范围扫击，造成<color=#FFE699FF>岩元素伤害</color>。\n此后，获得如下效果：\n·提高诺艾尔的攻击范围；\n·将攻击伤害转为<color=#FFE699FF>岩元素伤害</color>，该元素转化无法被附魔覆盖；\n·基于诺艾尔的防御力，提高攻击力。\n\n<i>需要扫除的，有时不仅仅是灰尘…</i>",
     "cd": 15,
     "energyCost": 60
   },
   "attackSkill": {
     "name": "普通攻击·西风剑术·女仆",
-    "desc": "<color=#FFD780FF>普通攻击</color>\\n进行至多四段的连续挥砍。\\n\\n<color=#FFD780FF>重击</color>\\n持续消耗体力，旋转大剑攻击周围的敌人。\\n停止旋转时，会进行一次格外有力的挥砍。\\n\\n<color=#FFD780FF>下落攻击</color>\\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
+    "desc": "<color=#FFD780FF>普通攻击</color>\n进行至多四段的连续挥砍。\n\n<color=#FFD780FF>重击</color>\n持续消耗体力，旋转大剑攻击周围的敌人。\n停止旋转时，会进行一次格外有力的挥砍。\n\n<color=#FFD780FF>下落攻击</color>\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
     "cd": 0
   },
   "c13ns": [

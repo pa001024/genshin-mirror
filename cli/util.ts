@@ -68,7 +68,7 @@ export function toItem(id: number) {
 }
 
 export function toDesc(raw: string) {
-  return raw.replace(/\\\\n/g, "\n");
+  return raw.replace(/\\n/g, "\n");
 }
 
 // 生成大段文字的国际化文件

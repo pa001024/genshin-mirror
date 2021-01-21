@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "ShivadaJadeSliver", "count": 1 },
-        { "name": "Violetgrass", "count": 3 },
-        { "name": "DiviningScroll", "count": 3 }
+        {
+          "id": "ShivadaJadeSliver",
+          "name": "Shivada Jade Sliver",
+          "localeName": "哀切なアイスクリスタル·砕屑",
+          "count": 1
+        },
+        {
+          "id": "Violetgrass",
+          "name": "Violetgrass",
+          "localeName": "琉璃袋",
+          "count": 3
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "Divining Scroll",
+          "localeName": "占いの絵巻",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 825.56 },
-        { "type": 3, "value": 61.56 },
-        { "type": 2, "value": 19.157 },
-        { "type": 14, "value": 0 }
-      ]
+      "HP": 825.56,
+      "ATK": 19.157,
+      "DEF": 61.56,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "ShivadaJadeFragment", "count": 3 },
-        { "name": "HoarfrostCore", "count": 2 },
-        { "name": "Violetgrass", "count": 10 },
-        { "name": "DiviningScroll", "count": 15 }
+        {
+          "id": "ShivadaJadeFragment",
+          "name": "Shivada Jade Fragment",
+          "localeName": "哀切なアイスクリスタル·欠片",
+          "count": 3
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒のコア",
+          "count": 2
+        },
+        {
+          "id": "Violetgrass",
+          "name": "Violetgrass",
+          "localeName": "琉璃袋",
+          "count": 10
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "Divining Scroll",
+          "localeName": "占いの絵巻",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1412.1 },
-        { "type": 3, "value": 105.3 },
-        { "type": 2, "value": 32.768 },
-        { "type": 14, "value": 0.0554 }
-      ]
+      "HP": 1412.1,
+      "ATK": 32.768,
+      "DEF": 105.3,
+      "extra": 0.0554
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "ShivadaJadeFragment", "count": 6 },
-        { "name": "HoarfrostCore", "count": 4 },
-        { "name": "Violetgrass", "count": 20 },
-        { "name": "SealedScroll", "count": 12 }
+        {
+          "id": "ShivadaJadeFragment",
+          "name": "Shivada Jade Fragment",
+          "localeName": "哀切なアイスクリスタル·欠片",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒のコア",
+          "count": 4
+        },
+        {
+          "id": "Violetgrass",
+          "name": "Violetgrass",
+          "localeName": "琉璃袋",
+          "count": 20
+        },
+        {
+          "id": "SealedScroll",
+          "name": "Sealed Scroll",
+          "localeName": "封魔の絵巻",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2194.3 },
-        { "type": 3, "value": 163.62 },
-        { "type": 2, "value": 50.916 },
-        { "type": 14, "value": 0.1108 }
-      ]
+      "HP": 2194.3,
+      "ATK": 50.916,
+      "DEF": 163.62,
+      "extra": 0.1108
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "ShivadaJadeChunk", "count": 3 },
-        { "name": "HoarfrostCore", "count": 8 },
-        { "name": "Violetgrass", "count": 30 },
-        { "name": "SealedScroll", "count": 18 }
+        {
+          "id": "ShivadaJadeChunk",
+          "name": "Shivada Jade Chunk",
+          "localeName": "哀切なアイスクリスタル·塊",
+          "count": 3
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒のコア",
+          "count": 8
+        },
+        {
+          "id": "Violetgrass",
+          "name": "Violetgrass",
+          "localeName": "琉璃袋",
+          "count": 30
+        },
+        {
+          "id": "SealedScroll",
+          "name": "Sealed Scroll",
+          "localeName": "封魔の絵巻",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2780.8 },
-        { "type": 3, "value": 207.36 },
-        { "type": 2, "value": 64.527 },
-        { "type": 14, "value": 0.1108 }
-      ]
+      "HP": 2780.8,
+      "ATK": 64.527,
+      "DEF": 207.36,
+      "extra": 0.1108
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "ShivadaJadeChunk", "count": 6 },
-        { "name": "HoarfrostCore", "count": 12 },
-        { "name": "Violetgrass", "count": 45 },
-        { "name": "ForbiddenCurseScroll", "count": 12 }
+        {
+          "id": "ShivadaJadeChunk",
+          "name": "Shivada Jade Chunk",
+          "localeName": "哀切なアイスクリスタル·塊",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒のコア",
+          "count": 12
+        },
+        {
+          "id": "Violetgrass",
+          "name": "Violetgrass",
+          "localeName": "琉璃袋",
+          "count": 45
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "Forbidden Curse Scroll",
+          "localeName": "禁呪の絵巻",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3367.4 },
-        { "type": 3, "value": 251.1 },
-        { "type": 2, "value": 78.139 },
-        { "type": 14, "value": 0.1662 }
-      ]
+      "HP": 3367.4,
+      "ATK": 78.139,
+      "DEF": 251.1,
+      "extra": 0.1662
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "ShivadaJadeGemstone", "count": 6 },
-        { "name": "HoarfrostCore", "count": 20 },
-        { "name": "Violetgrass", "count": 60 },
-        { "name": "ForbiddenCurseScroll", "count": 24 }
+        {
+          "id": "ShivadaJadeGemstone",
+          "name": "Shivada Jade Gemstone",
+          "localeName": "哀切なアイスクリスタル",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒のコア",
+          "count": 20
+        },
+        {
+          "id": "Violetgrass",
+          "name": "Violetgrass",
+          "localeName": "琉璃袋",
+          "count": 60
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "Forbidden Curse Scroll",
+          "localeName": "禁呪の絵巻",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3954 },
-        { "type": 3, "value": 294.84 },
-        { "type": 2, "value": 91.75 },
-        { "type": 14, "value": 0.2215 }
-      ]
+      "HP": 3954,
+      "ATK": 91.75,
+      "DEF": 294.84,
+      "extra": 0.2215
     }
   ],
   "ascensionType": 14,
   "element": 7,
   "elemSkill": {
     "name": "仙法·寒病鬼差",
-    "desc": "氷血がお札となり、寒病鬼差を召喚し、周囲の敵に<color=#99FFFFFF>氷元素ダメージ</color>を与える。\\n\\n<color=#FFD780FF>寒病鬼差</color>\\n·七七の通常攻撃と重撃が命中した時、チーム内の自身のキャラクター全員または付近の味方のHPを回復する。回復量は七七の攻撃力によって決まる。\\n·一定時間の間隔で、出場している自身のキャラクターのHPを回復する。\\n·キャラクターと共に行動し、経路上の敵に<color=#99FFFFFF>氷元素ダメージ</color>を与える。\\n\\n<i>「こいつらは温度の上昇による腐敗を防止するためだよ…うん、白先生のあの高い薬剤のことを言ってるのだ。」</i>",
+    "desc": "氷血がお札となり、寒病鬼差を召喚し、周囲の敵に<color=#99FFFFFF>氷元素ダメージ</color>を与える。\n\n<color=#FFD780FF>寒病鬼差</color>\n·七七の通常攻撃と重撃が命中した時、チーム内の自身のキャラクター全員または付近の味方のHPを回復する。回復量は七七の攻撃力によって決まる。\n·一定時間の間隔で、出場している自身のキャラクターのHPを回復する。\n·キャラクターと共に行動し、経路上の敵に<color=#99FFFFFF>氷元素ダメージ</color>を与える。\n\n<i>「こいつらは温度の上昇による腐敗を防止するためだよ…うん、白先生のあの高い薬剤のことを言ってるのだ。」</i>",
     "cd": 30
   },
   "elemBurst": {
     "name": "仙法·救苦度厄",
-    "desc": "体内に封印された仙力を解放し、度厄のお札で付近の敵にマークをつけ、<color=#99FFFFFF>氷元素ダメージ</color>を与える。\\n\\n<color=#FFD780FF>度厄のお札</color>\\n度厄のお札に影響された敵にダメージを与えた時、そのキャラクター自身のHPを回復する。\\n\\n<i>「本名、救苦度厄真君、起死回骸童子。」</i>\\n<i>——だが七七はこの言葉を思い出せない。</i>",
+    "desc": "体内に封印された仙力を解放し、度厄のお札で付近の敵にマークをつけ、<color=#99FFFFFF>氷元素ダメージ</color>を与える。\n\n<color=#FFD780FF>度厄のお札</color>\n度厄のお札に影響された敵にダメージを与えた時、そのキャラクター自身のHPを回復する。\n\n<i>「本名、救苦度厄真君、起死回骸童子。」</i>\n<i>——だが七七はこの言葉を思い出せない。</i>",
     "cd": 20,
     "energyCost": 80
   },
   "attackSkill": {
     "name": "通常攻撃·雲来古剣法",
-    "desc": "<color=#FFD780FF>通常攻撃</color>\\n剣による最大5段の連続攻撃を行う。\\n\\n<color=#FFD780FF>重撃</color>\\n一定のスタミナを消費し、前方に斬撃を2回放つ。\\n\\n<color=#FFD780FF>落下攻撃</color>\\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n剣による最大5段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、前方に斬撃を2回放つ。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
     "cd": 0
   },
   "c13ns": [

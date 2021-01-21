@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "VarunadaLazuriteSliver", "count": 1 },
-        { "name": "Starconch", "count": 3 },
-        { "name": "RecruitsInsignia", "count": 3 }
+        {
+          "id": "VarunadaLazuriteSliver",
+          "name": "Varunada Lazurite Sliver",
+          "localeName": "Varunada Lazurite Sliver",
+          "count": 1
+        },
+        {
+          "id": "Starconch",
+          "name": "Starconch",
+          "localeName": "Starconch",
+          "count": 3
+        },
+        {
+          "id": "RecruitsInsignia",
+          "name": "Recruit's Insignia",
+          "localeName": "Recruit's Insignia",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 874.6 },
-        { "type": 3, "value": 54.378 },
-        { "type": 2, "value": 20.114 },
-        { "type": 21, "value": 0 }
-      ]
+      "HP": 874.6,
+      "ATK": 20.114,
+      "DEF": 54.378,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "VarunadaLazuriteFragment", "count": 3 },
-        { "name": "CleansingHeart", "count": 2 },
-        { "name": "Starconch", "count": 10 },
-        { "name": "RecruitsInsignia", "count": 15 }
+        {
+          "id": "VarunadaLazuriteFragment",
+          "name": "Varunada Lazurite Fragment",
+          "localeName": "Varunada Lazurite Fragment",
+          "count": 3
+        },
+        {
+          "id": "CleansingHeart",
+          "name": "Cleansing Heart",
+          "localeName": "Cleansing Heart",
+          "count": 2
+        },
+        {
+          "id": "Starconch",
+          "name": "Starconch",
+          "localeName": "Starconch",
+          "count": 10
+        },
+        {
+          "id": "RecruitsInsignia",
+          "name": "Recruit's Insignia",
+          "localeName": "Recruit's Insignia",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1496 },
-        { "type": 3, "value": 93.015 },
-        { "type": 2, "value": 34.406 },
-        { "type": 21, "value": 0.072 }
-      ]
+      "HP": 1496,
+      "ATK": 34.406,
+      "DEF": 93.015,
+      "extra": 0.072
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "VarunadaLazuriteFragment", "count": 6 },
-        { "name": "CleansingHeart", "count": 4 },
-        { "name": "Starconch", "count": 20 },
-        { "name": "SergeantsInsignia", "count": 12 }
+        {
+          "id": "VarunadaLazuriteFragment",
+          "name": "Varunada Lazurite Fragment",
+          "localeName": "Varunada Lazurite Fragment",
+          "count": 6
+        },
+        {
+          "id": "CleansingHeart",
+          "name": "Cleansing Heart",
+          "localeName": "Cleansing Heart",
+          "count": 4
+        },
+        {
+          "id": "Starconch",
+          "name": "Starconch",
+          "localeName": "Starconch",
+          "count": 20
+        },
+        {
+          "id": "SergeantsInsignia",
+          "name": "Sergeant's Insignia",
+          "localeName": "Sergeant's Insignia",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2324.6 },
-        { "type": 3, "value": 144.53 },
-        { "type": 2, "value": 53.462 },
-        { "type": 21, "value": 0.144 }
-      ]
+      "HP": 2324.6,
+      "ATK": 53.462,
+      "DEF": 144.53,
+      "extra": 0.144
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "VarunadaLazuriteChunk", "count": 3 },
-        { "name": "CleansingHeart", "count": 8 },
-        { "name": "Starconch", "count": 30 },
-        { "name": "SergeantsInsignia", "count": 18 }
+        {
+          "id": "VarunadaLazuriteChunk",
+          "name": "Varunada Lazurite Chunk",
+          "localeName": "Varunada Lazurite Chunk",
+          "count": 3
+        },
+        {
+          "id": "CleansingHeart",
+          "name": "Cleansing Heart",
+          "localeName": "Cleansing Heart",
+          "count": 8
+        },
+        {
+          "id": "Starconch",
+          "name": "Starconch",
+          "localeName": "Starconch",
+          "count": 30
+        },
+        {
+          "id": "SergeantsInsignia",
+          "name": "Sergeant's Insignia",
+          "localeName": "Sergeant's Insignia",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2946 },
-        { "type": 3, "value": 183.17 },
-        { "type": 2, "value": 67.754 },
-        { "type": 21, "value": 0.144 }
-      ]
+      "HP": 2946,
+      "ATK": 67.754,
+      "DEF": 183.17,
+      "extra": 0.144
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "VarunadaLazuriteChunk", "count": 6 },
-        { "name": "CleansingHeart", "count": 12 },
-        { "name": "Starconch", "count": 45 },
-        { "name": "LieutenantsInsignia", "count": 12 }
+        {
+          "id": "VarunadaLazuriteChunk",
+          "name": "Varunada Lazurite Chunk",
+          "localeName": "Varunada Lazurite Chunk",
+          "count": 6
+        },
+        {
+          "id": "CleansingHeart",
+          "name": "Cleansing Heart",
+          "localeName": "Cleansing Heart",
+          "count": 12
+        },
+        {
+          "id": "Starconch",
+          "name": "Starconch",
+          "localeName": "Starconch",
+          "count": 45
+        },
+        {
+          "id": "LieutenantsInsignia",
+          "name": "Lieutenant's Insignia",
+          "localeName": "Lieutenant's Insignia",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3567.5 },
-        { "type": 3, "value": 221.8 },
-        { "type": 2, "value": 82.046 },
-        { "type": 21, "value": 0.216 }
-      ]
+      "HP": 3567.5,
+      "ATK": 82.046,
+      "DEF": 221.8,
+      "extra": 0.216
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "VarunadaLazuriteGemstone", "count": 6 },
-        { "name": "CleansingHeart", "count": 20 },
-        { "name": "Starconch", "count": 60 },
-        { "name": "LieutenantsInsignia", "count": 24 }
+        {
+          "id": "VarunadaLazuriteGemstone",
+          "name": "Varunada Lazurite Gemstone",
+          "localeName": "Varunada Lazurite Gemstone",
+          "count": 6
+        },
+        {
+          "id": "CleansingHeart",
+          "name": "Cleansing Heart",
+          "localeName": "Cleansing Heart",
+          "count": 20
+        },
+        {
+          "id": "Starconch",
+          "name": "Starconch",
+          "localeName": "Starconch",
+          "count": 60
+        },
+        {
+          "id": "LieutenantsInsignia",
+          "name": "Lieutenant's Insignia",
+          "localeName": "Lieutenant's Insignia",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 4188.9 },
-        { "type": 3, "value": 260.44 },
-        { "type": 2, "value": 96.337 },
-        { "type": 21, "value": 0.288 }
-      ]
+      "HP": 4188.9,
+      "ATK": 96.337,
+      "DEF": 260.44,
+      "extra": 0.288
     }
   ],
   "ascensionType": 21,
   "element": 5,
   "elemSkill": {
     "name": "Foul Legacy: Raging Tide",
-    "desc": "Unleashes a set of weaponry made of pure water, dealing <color=#80C0FFFF>Hydro DMG</color> to surrounding opponents and entering Melee Stance.\\nIn this Stance, Tartaglia's Normal and Charged Attacks are converted to <color=#80C0FFFF>Hydro DMG</color> that cannot be overridden by any other elemental infusion and change as follows:\\n\\n<color=#FFD780FF>Normal Attack</color>\\nPerform up to 6 consecutive <color=#80C0FFFF>Hydro</color> strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash a cross slash, dealing <color=#80C0FFFF>Hydro DMG</color>.\\n\\n<color=#FFD780FF>Riptide Slash</color>\\nHitting an opponent affected by Riptide with a melee attack unleashes a Riptide Slash that deals <color=#80C0FFFF>AoE Hydro DMG</color>. DMG dealt in this way is considered Elemental Skill DMG, and can only occur once every 1.5s.\\n\\nAfter 30s, or when the ability is unleashed again, this skill will end. Tartaglia will return to his Ranged Stance and this ability will enter CD. The longer Tartaglia stays in his Melee Stance, the longer the CD.\\nIf the return to a ranged stance occurs automatically after 30s, the CD is even longer.\\n\\n<i>He chose the bow as his weapon precisely to overcome his weakness with it. But a serious fight demands that he gets serious...</i>",
+    "desc": "Unleashes a set of weaponry made of pure water, dealing <color=#80C0FFFF>Hydro DMG</color> to surrounding opponents and entering Melee Stance.\nIn this Stance, Tartaglia's Normal and Charged Attacks are converted to <color=#80C0FFFF>Hydro DMG</color> that cannot be overridden by any other elemental infusion and change as follows:\n\n<color=#FFD780FF>Normal Attack</color>\nPerform up to 6 consecutive <color=#80C0FFFF>Hydro</color> strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash a cross slash, dealing <color=#80C0FFFF>Hydro DMG</color>.\n\n<color=#FFD780FF>Riptide Slash</color>\nHitting an opponent affected by Riptide with a melee attack unleashes a Riptide Slash that deals <color=#80C0FFFF>AoE Hydro DMG</color>. DMG dealt in this way is considered Elemental Skill DMG, and can only occur once every 1.5s.\n\nAfter 30s, or when the ability is unleashed again, this skill will end. Tartaglia will return to his Ranged Stance and this ability will enter CD. The longer Tartaglia stays in his Melee Stance, the longer the CD.\nIf the return to a ranged stance occurs automatically after 30s, the CD is even longer.\n\n<i>He chose the bow as his weapon precisely to overcome his weakness with it. But a serious fight demands that he gets serious...</i>",
     "cd": 6
   },
   "elemBurst": {
     "name": "Havoc: Obliteration",
-    "desc": "Performs different attacks based on what stance Tartaglia is in when casting.\\n\\n<color=#FFD780FF>Ranged Stance: Flash of Havoc</color>\\nSwiftly fires a Hydro-imbued magic arrow, dealing <color=#80C0FFFF>AoE Hydro DMG</color> and applying the Riptide status.\\nReturns a portion of its Energy Cost after use.\\n\\n<color=#FFD780FF>Melee Stance: Light of Obliteration</color>\\nPerforms a slash with a large AoE, dealing massive <color=#80C0FFFF>Hydro DMG</color> to all surrounding opponents, which triggers Riptide Blast.\\n\\n<color=#FFD780FF>Riptide Blast</color>\\nWhen the obliterating waters hit an opponent affected by Riptide, it clears their Riptide status and triggers a Hydro Explosion that deals <color=#80C0FFFF>AoE Hydro DMG</color>.\\nDMG dealt in this way is considered Elemental Burst DMG.\\n\\n<i>Rushing waters are rarely seen in his snowy homeland. Perhaps his ability to command water is due to his understanding of just how precious it is.</i>",
+    "desc": "Performs different attacks based on what stance Tartaglia is in when casting.\n\n<color=#FFD780FF>Ranged Stance: Flash of Havoc</color>\nSwiftly fires a Hydro-imbued magic arrow, dealing <color=#80C0FFFF>AoE Hydro DMG</color> and applying the Riptide status.\nReturns a portion of its Energy Cost after use.\n\n<color=#FFD780FF>Melee Stance: Light of Obliteration</color>\nPerforms a slash with a large AoE, dealing massive <color=#80C0FFFF>Hydro DMG</color> to all surrounding opponents, which triggers Riptide Blast.\n\n<color=#FFD780FF>Riptide Blast</color>\nWhen the obliterating waters hit an opponent affected by Riptide, it clears their Riptide status and triggers a Hydro Explosion that deals <color=#80C0FFFF>AoE Hydro DMG</color>.\nDMG dealt in this way is considered Elemental Burst DMG.\n\n<i>Rushing waters are rarely seen in his snowy homeland. Perhaps his ability to command water is due to his understanding of just how precious it is.</i>",
     "cd": 15,
     "energyCost": 60
   },
   "attackSkill": {
     "name": "Normal Attack: Cutting Torrent",
-    "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 6 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, the power of Hydro will accumulate on the arrowhead. A arrow fully charged with the torrent will deal <color=#80C0FFFF>Hydro DMG</color> and apply the Riptide status.\\n\\n<color=#FFD780FF>Riptide</color>\\nOpponents affected by Riptide will suffer from <color=#80C0FFFF>AoE Hydro DMG</color> effects when attacked by Tartaglia in various ways. DMG dealt in this way is considered Normal Attack DMG.\\n·Riptide Flash: A fully-charged Aimed Shot that hits an opponent affected by Riptide deals consecutive bouts of AoE DMG. Can occur once every 0.7s.\\n·Riptide Burst: Defeating an opponent affected by Riptide creates a Hydro burst that inflicts the Riptide status on nearby opponents hit.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.\\nWhen Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, he cannot perform a plunging attack.",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 6 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, the power of Hydro will accumulate on the arrowhead. A arrow fully charged with the torrent will deal <color=#80C0FFFF>Hydro DMG</color> and apply the Riptide status.\n\n<color=#FFD780FF>Riptide</color>\nOpponents affected by Riptide will suffer from <color=#80C0FFFF>AoE Hydro DMG</color> effects when attacked by Tartaglia in various ways. DMG dealt in this way is considered Normal Attack DMG.\n·Riptide Flash: A fully-charged Aimed Shot that hits an opponent affected by Riptide deals consecutive bouts of AoE DMG. Can occur once every 0.7s.\n·Riptide Burst: Defeating an opponent affected by Riptide creates a Hydro burst that inflicts the Riptide status on nearby opponents hit.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.\nWhen Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, he cannot perform a plunging attack.",
     "cd": 0
   },
   "c13ns": [

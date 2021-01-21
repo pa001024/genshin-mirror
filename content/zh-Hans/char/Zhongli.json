@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "PrithivaTopazSliver", "count": 1 },
-        { "name": "CorLapis", "count": 3 },
-        { "name": "SlimeCondensate", "count": 3 }
+        {
+          "id": "PrithivaTopazSliver",
+          "name": "Prithiva Topaz Sliver",
+          "localeName": "坚牢黄玉碎屑",
+          "count": 1
+        },
+        {
+          "id": "CorLapis",
+          "name": "Cor Lapis",
+          "localeName": "石珀",
+          "count": 3
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "Slime Condensate",
+          "localeName": "史莱姆凝液",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 980.86 },
-        { "type": 3, "value": 49.248 },
-        { "type": 2, "value": 16.762 },
-        { "type": 31, "value": 0 }
-      ]
+      "HP": 980.86,
+      "ATK": 16.762,
+      "DEF": 49.248,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "PrithivaTopazFragment", "count": 3 },
-        { "name": "BasaltPillar", "count": 2 },
-        { "name": "CorLapis", "count": 10 },
-        { "name": "SlimeCondensate", "count": 15 }
+        {
+          "id": "PrithivaTopazFragment",
+          "name": "Prithiva Topaz Fragment",
+          "localeName": "坚牢黄玉断片",
+          "count": 3
+        },
+        {
+          "id": "BasaltPillar",
+          "name": "Basalt Pillar",
+          "localeName": "玄岩之塔",
+          "count": 2
+        },
+        {
+          "id": "CorLapis",
+          "name": "Cor Lapis",
+          "localeName": "石珀",
+          "count": 10
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "Slime Condensate",
+          "localeName": "史莱姆凝液",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1677.8 },
-        { "type": 3, "value": 84.24 },
-        { "type": 2, "value": 28.672 },
-        { "type": 31, "value": 0.072 }
-      ]
+      "HP": 1677.8,
+      "ATK": 28.672,
+      "DEF": 84.24,
+      "extra": 0.072
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "PrithivaTopazFragment", "count": 6 },
-        { "name": "BasaltPillar", "count": 4 },
-        { "name": "CorLapis", "count": 20 },
-        { "name": "SlimeSecretions", "count": 12 }
+        {
+          "id": "PrithivaTopazFragment",
+          "name": "Prithiva Topaz Fragment",
+          "localeName": "坚牢黄玉断片",
+          "count": 6
+        },
+        {
+          "id": "BasaltPillar",
+          "name": "Basalt Pillar",
+          "localeName": "玄岩之塔",
+          "count": 4
+        },
+        {
+          "id": "CorLapis",
+          "name": "Cor Lapis",
+          "localeName": "石珀",
+          "count": 20
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "Slime Secretions",
+          "localeName": "史莱姆清",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2607 },
-        { "type": 3, "value": 130.9 },
-        { "type": 2, "value": 44.552 },
-        { "type": 31, "value": 0.144 }
-      ]
+      "HP": 2607,
+      "ATK": 44.552,
+      "DEF": 130.9,
+      "extra": 0.144
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "PrithivaTopazChunk", "count": 3 },
-        { "name": "BasaltPillar", "count": 8 },
-        { "name": "CorLapis", "count": 30 },
-        { "name": "SlimeSecretions", "count": 18 }
+        {
+          "id": "PrithivaTopazChunk",
+          "name": "Prithiva Topaz Chunk",
+          "localeName": "坚牢黄玉块",
+          "count": 3
+        },
+        {
+          "id": "BasaltPillar",
+          "name": "Basalt Pillar",
+          "localeName": "玄岩之塔",
+          "count": 8
+        },
+        {
+          "id": "CorLapis",
+          "name": "Cor Lapis",
+          "localeName": "石珀",
+          "count": 30
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "Slime Secretions",
+          "localeName": "史莱姆清",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3304 },
-        { "type": 3, "value": 165.89 },
-        { "type": 2, "value": 56.461 },
-        { "type": 31, "value": 0.144 }
-      ]
+      "HP": 3304,
+      "ATK": 56.461,
+      "DEF": 165.89,
+      "extra": 0.144
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "PrithivaTopazChunk", "count": 6 },
-        { "name": "BasaltPillar", "count": 12 },
-        { "name": "CorLapis", "count": 45 },
-        { "name": "SlimeConcentrate", "count": 12 }
+        {
+          "id": "PrithivaTopazChunk",
+          "name": "Prithiva Topaz Chunk",
+          "localeName": "坚牢黄玉块",
+          "count": 6
+        },
+        {
+          "id": "BasaltPillar",
+          "name": "Basalt Pillar",
+          "localeName": "玄岩之塔",
+          "count": 12
+        },
+        {
+          "id": "CorLapis",
+          "name": "Cor Lapis",
+          "localeName": "石珀",
+          "count": 45
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "Slime Concentrate",
+          "localeName": "史莱姆原浆",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 4000.9 },
-        { "type": 3, "value": 200.88 },
-        { "type": 2, "value": 68.371 },
-        { "type": 31, "value": 0.216 }
-      ]
+      "HP": 4000.9,
+      "ATK": 68.371,
+      "DEF": 200.88,
+      "extra": 0.216
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "PrithivaTopazGemstone", "count": 6 },
-        { "name": "BasaltPillar", "count": 20 },
-        { "name": "CorLapis", "count": 60 },
-        { "name": "SlimeConcentrate", "count": 24 }
+        {
+          "id": "PrithivaTopazGemstone",
+          "name": "Prithiva Topaz Gemstone",
+          "localeName": "坚牢黄玉",
+          "count": 6
+        },
+        {
+          "id": "BasaltPillar",
+          "name": "Basalt Pillar",
+          "localeName": "玄岩之塔",
+          "count": 20
+        },
+        {
+          "id": "CorLapis",
+          "name": "Cor Lapis",
+          "localeName": "石珀",
+          "count": 60
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "Slime Concentrate",
+          "localeName": "史莱姆原浆",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 4697.8 },
-        { "type": 3, "value": 235.87 },
-        { "type": 2, "value": 80.281 },
-        { "type": 31, "value": 0.288 }
-      ]
+      "HP": 4697.8,
+      "ATK": 80.281,
+      "DEF": 235.87,
+      "extra": 0.288
     }
   ],
   "ascensionType": 31,
   "element": 2,
   "elemSkill": {
     "name": "地心",
-    "desc": "山脉中、大地上、磐石间，都遍布着岩之力。能自如驱动这股力量的人却少之又少。\\n\\n<color=#FFD780FF>点按</color>\\n命令大地上无处不在的岩元素积聚而起，结为岩脊，造成<color=#FFE699FF>岩元素范围伤害</color>。\\n此外，存在期间会与周围的其他<color=#FFE699FF>岩元素创造物</color>间歇进行原岩共鸣，对周围的敌人造成<color=#FFE699FF>岩元素伤害</color>。\\n岩脊视为<color=#FFE699FF>岩元素创造物</color>，可以阻拦攻击，可以攀爬。同时只能存在一个。\\n\\n<color=#FFD780FF>长按</color>\\n令附近的岩元素爆发，造成以下效果：\\n·形成玉璋护盾，伤害吸收量受益于钟离的生命值上限，并对<color=#FFE699FF>岩元素伤害</color>有250%的吸收效果；\\n·造成<color=#FFE699FF>岩元素范围伤害</color>；\\n·身边如果有附带有<color=#FFE699FF>岩元素</color>的目标，则大量消耗至多两个目标的<color=#FFE699FF>岩元素</color>。这个效果不会造成伤害。\\n\\n<i>岩者坚也，可攻玉雕金。</i>",
+    "desc": "山脉中、大地上、磐石间，都遍布着岩之力。能自如驱动这股力量的人却少之又少。\n\n<color=#FFD780FF>点按</color>\n命令大地上无处不在的岩元素积聚而起，结为岩脊，造成<color=#FFE699FF>岩元素范围伤害</color>。\n此外，存在期间会与周围的其他<color=#FFE699FF>岩元素创造物</color>间歇进行原岩共鸣，对周围的敌人造成<color=#FFE699FF>岩元素伤害</color>。\n岩脊视为<color=#FFE699FF>岩元素创造物</color>，可以阻拦攻击，可以攀爬。同时只能存在一个。\n\n<color=#FFD780FF>长按</color>\n令附近的岩元素爆发，造成以下效果：\n·形成玉璋护盾，伤害吸收量受益于钟离的生命值上限，并对<color=#FFE699FF>岩元素伤害</color>有250%的吸收效果；\n·造成<color=#FFE699FF>岩元素范围伤害</color>；\n·身边如果有附带有<color=#FFE699FF>岩元素</color>的目标，则大量消耗至多两个目标的<color=#FFE699FF>岩元素</color>。这个效果不会造成伤害。\n\n<i>岩者坚也，可攻玉雕金。</i>",
     "cd": 12
   },
   "elemBurst": {
     "name": "天星",
-    "desc": "降下巨大的星岩，对坠落范围内的敌人造成巨额<color=#FFE699FF>岩元素伤害</color>，并使其<color=#FFE699FF>石化</color>。\\n\\n<color=#FFD780FF>石化</color>\\n处于<color=#FFE699FF>石化</color>状态下的敌人无法行动。\\n\\n<i>以陨天苍岩星，昭命理昏暝者。</i>",
+    "desc": "降下巨大的星岩，对坠落范围内的敌人造成巨额<color=#FFE699FF>岩元素伤害</color>，并使其<color=#FFE699FF>石化</color>。\n\n<color=#FFD780FF>石化</color>\n处于<color=#FFE699FF>石化</color>状态下的敌人无法行动。\n\n<i>以陨天苍岩星，昭命理昏暝者。</i>",
     "cd": 12,
     "energyCost": 40
   },
   "attackSkill": {
     "name": "普通攻击·岩雨",
-    "desc": "<color=#FFD780FF>普通攻击</color>\\n进行至多六段的连续枪击。\\n\\n<color=#FFD780FF>重击</color>\\n消耗一定体力，向前方疾行，在行动路径上和终点投下如雨的岩枪。\\n\\n<color=#FFD780FF>下落攻击</color>\\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
+    "desc": "<color=#FFD780FF>普通攻击</color>\n进行至多六段的连续枪击。\n\n<color=#FFD780FF>重击</color>\n消耗一定体力，向前方疾行，在行动路径上和终点投下如雨的岩枪。\n\n<color=#FFD780FF>下落攻击</color>\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
     "cd": 0
   },
   "c13ns": [

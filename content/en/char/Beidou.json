@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "VajradaAmethystSliver", "count": 1 },
-        { "name": "NoctilucousJade", "count": 3 },
-        { "name": "TreasureHoarderInsignia", "count": 3 }
+        {
+          "id": "VajradaAmethystSliver",
+          "name": "Vajrada Amethyst Sliver",
+          "localeName": "Vajrada Amethyst Sliver",
+          "count": 1
+        },
+        {
+          "id": "NoctilucousJade",
+          "name": "Noctilucous Jade",
+          "localeName": "Noctilucous Jade",
+          "count": 3
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "Treasure Hoarder Insignia",
+          "localeName": "Treasure Hoarder Insignia",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 817.39 },
-        { "type": 3, "value": 40.612 },
-        { "type": 2, "value": 14.102 },
-        { "type": 25, "value": 0 }
-      ]
+      "HP": 817.39,
+      "ATK": 14.102,
+      "DEF": 40.612,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "VajradaAmethystFragment", "count": 3 },
-        { "name": "LightningPrism", "count": 2 },
-        { "name": "NoctilucousJade", "count": 10 },
-        { "name": "TreasureHoarderInsignia", "count": 15 }
+        {
+          "id": "VajradaAmethystFragment",
+          "name": "Vajrada Amethyst Fragment",
+          "localeName": "Vajrada Amethyst Fragment",
+          "count": 3
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "Lightning Prism",
+          "count": 2
+        },
+        {
+          "id": "NoctilucousJade",
+          "name": "Noctilucous Jade",
+          "localeName": "Noctilucous Jade",
+          "count": 10
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "Treasure Hoarder Insignia",
+          "localeName": "Treasure Hoarder Insignia",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1398.2 },
-        { "type": 3, "value": 69.469 },
-        { "type": 2, "value": 24.122 },
-        { "type": 25, "value": 0.06 }
-      ]
+      "HP": 1398.2,
+      "ATK": 24.122,
+      "DEF": 69.469,
+      "extra": 0.06
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "VajradaAmethystFragment", "count": 6 },
-        { "name": "LightningPrism", "count": 4 },
-        { "name": "NoctilucousJade", "count": 20 },
-        { "name": "SilverRavenInsignia", "count": 12 }
+        {
+          "id": "VajradaAmethystFragment",
+          "name": "Vajrada Amethyst Fragment",
+          "localeName": "Vajrada Amethyst Fragment",
+          "count": 6
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "Lightning Prism",
+          "count": 4
+        },
+        {
+          "id": "NoctilucousJade",
+          "name": "Noctilucous Jade",
+          "localeName": "Noctilucous Jade",
+          "count": 20
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "Silver Raven Insignia",
+          "localeName": "Silver Raven Insignia",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2172.5 },
-        { "type": 3, "value": 107.94 },
-        { "type": 2, "value": 37.482 },
-        { "type": 25, "value": 0.12 }
-      ]
+      "HP": 2172.5,
+      "ATK": 37.482,
+      "DEF": 107.94,
+      "extra": 0.12
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "VajradaAmethystChunk", "count": 3 },
-        { "name": "LightningPrism", "count": 8 },
-        { "name": "NoctilucousJade", "count": 30 },
-        { "name": "SilverRavenInsignia", "count": 18 }
+        {
+          "id": "VajradaAmethystChunk",
+          "name": "Vajrada Amethyst Chunk",
+          "localeName": "Vajrada Amethyst Chunk",
+          "count": 3
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "Lightning Prism",
+          "count": 8
+        },
+        {
+          "id": "NoctilucousJade",
+          "name": "Noctilucous Jade",
+          "localeName": "Noctilucous Jade",
+          "count": 30
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "Silver Raven Insignia",
+          "localeName": "Silver Raven Insignia",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2753.3 },
-        { "type": 3, "value": 136.8 },
-        { "type": 2, "value": 47.502 },
-        { "type": 25, "value": 0.12 }
-      ]
+      "HP": 2753.3,
+      "ATK": 47.502,
+      "DEF": 136.8,
+      "extra": 0.12
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "VajradaAmethystChunk", "count": 6 },
-        { "name": "LightningPrism", "count": 12 },
-        { "name": "NoctilucousJade", "count": 45 },
-        { "name": "GoldenRavenInsignia", "count": 12 }
+        {
+          "id": "VajradaAmethystChunk",
+          "name": "Vajrada Amethyst Chunk",
+          "localeName": "Vajrada Amethyst Chunk",
+          "count": 6
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "Lightning Prism",
+          "count": 12
+        },
+        {
+          "id": "NoctilucousJade",
+          "name": "Noctilucous Jade",
+          "localeName": "Noctilucous Jade",
+          "count": 45
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "Golden Raven Insignia",
+          "localeName": "Golden Raven Insignia",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3334.1 },
-        { "type": 3, "value": 165.66 },
-        { "type": 2, "value": 57.521 },
-        { "type": 25, "value": 0.18 }
-      ]
+      "HP": 3334.1,
+      "ATK": 57.521,
+      "DEF": 165.66,
+      "extra": 0.18
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "VajradaAmethystGemstone", "count": 6 },
-        { "name": "LightningPrism", "count": 20 },
-        { "name": "NoctilucousJade", "count": 60 },
-        { "name": "GoldenRavenInsignia", "count": 24 }
+        {
+          "id": "VajradaAmethystGemstone",
+          "name": "Vajrada Amethyst Gemstone",
+          "localeName": "Vajrada Amethyst Gemstone",
+          "count": 6
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "Lightning Prism",
+          "count": 20
+        },
+        {
+          "id": "NoctilucousJade",
+          "name": "Noctilucous Jade",
+          "localeName": "Noctilucous Jade",
+          "count": 60
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "Golden Raven Insignia",
+          "localeName": "Golden Raven Insignia",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3914.8 },
-        { "type": 3, "value": 194.51 },
-        { "type": 2, "value": 67.541 },
-        { "type": 25, "value": 0.24 }
-      ]
+      "HP": 3914.8,
+      "ATK": 67.541,
+      "DEF": 194.51,
+      "extra": 0.24
     }
   ],
   "ascensionType": 25,
   "element": 3,
   "elemSkill": {
     "name": "Tidecaller",
-    "desc": "#Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nAccumulating the power of lightning, Beidou swings her blade forward fiercely, dealing <color=#FFACFFFF>Electro DMG</color>.\\n\\n<color=#FFD780FF>Hold</color>\\nLifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP.\\nAttacks using the energy stored within the greatsword upon release or once this ability's duration expires, dealing <color=#FFACFFFF>Electro DMG</color>. DMG dealt scales with the number of times Beidou is attacked in the skill's duration. The greatest DMG Bonus will be attained once this effect is triggered twice.\\nThe shield possesses the following properties:\\n·Has 250% <color=#FFACFFFF>Electro DMG</color> Absorption Efficiency.\\n·Applies the <color=#FFACFFFF>Electro element</color> to Beidou upon activation.\\n\\n<i>Conquer the high seas! Pursue the waves and chase the storm!</i>",
+    "desc": "#Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nAccumulating the power of lightning, Beidou swings her blade forward fiercely, dealing <color=#FFACFFFF>Electro DMG</color>.\n\n<color=#FFD780FF>Hold</color>\nLifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP.\nAttacks using the energy stored within the greatsword upon release or once this ability's duration expires, dealing <color=#FFACFFFF>Electro DMG</color>. DMG dealt scales with the number of times Beidou is attacked in the skill's duration. The greatest DMG Bonus will be attained once this effect is triggered twice.\nThe shield possesses the following properties:\n·Has 250% <color=#FFACFFFF>Electro DMG</color> Absorption Efficiency.\n·Applies the <color=#FFACFFFF>Electro element</color> to Beidou upon activation.\n\n<i>Conquer the high seas! Pursue the waves and chase the storm!</i>",
     "cd": 7.5
   },
   "elemBurst": {
     "name": "Stormbreaker",
-    "desc": "Recalling her slaying of the great beast Haishan, Beidou calls upon that monstrous strength and the lightning to create a Thunderbeast's Targe around herself, dealing <color=#FFACFFFF>Electro DMG</color> to nearby opponents.\\n\\n<color=#FFD780FF>Thunderbeast's Targe</color>\\n·When Normal and Charged Attacks hit, they create a lightning discharge that can jump between opponents, dealing <color=#FFACFFFF>Electro DMG</color>.\\n·Increases the character's resistance to interruption, and decreases DMG taken.\\n\\nA maximum of 1 lightning discharge can be triggered per second.\\n\\n<i>With a peal of thunder, Haishan is slain.</i>",
+    "desc": "Recalling her slaying of the great beast Haishan, Beidou calls upon that monstrous strength and the lightning to create a Thunderbeast's Targe around herself, dealing <color=#FFACFFFF>Electro DMG</color> to nearby opponents.\n\n<color=#FFD780FF>Thunderbeast's Targe</color>\n·When Normal and Charged Attacks hit, they create a lightning discharge that can jump between opponents, dealing <color=#FFACFFFF>Electro DMG</color>.\n·Increases the character's resistance to interruption, and decreases DMG taken.\n\nA maximum of 1 lightning discharge can be triggered per second.\n\n<i>With a peal of thunder, Haishan is slain.</i>",
     "cd": 20,
     "energyCost": 80
   },
   "attackSkill": {
     "name": "Normal Attack: Oceanborne",
-    "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous slashes.\\nAt end of the sequence, perform a more powerful slash.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 5 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nDrains Stamina over time to perform continuous slashes.\nAt end of the sequence, perform a more powerful slash.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
     "cd": 0
   },
   "c13ns": [

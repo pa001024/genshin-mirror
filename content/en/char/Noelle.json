@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "PrithivaTopazSliver", "count": 1 },
-        { "name": "Valberry", "count": 3 },
-        { "name": "DamagedMask", "count": 3 }
+        {
+          "id": "PrithivaTopazSliver",
+          "name": "Prithiva Topaz Sliver",
+          "localeName": "Prithiva Topaz Sliver",
+          "count": 1
+        },
+        {
+          "id": "Valberry",
+          "name": "Valberry",
+          "localeName": "Valberry",
+          "count": 3
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Damaged Mask",
+          "localeName": "Damaged Mask",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 756.08 },
-        { "type": 3, "value": 50.018 },
-        { "type": 2, "value": 11.973 },
-        { "type": 9, "value": 0 }
-      ]
+      "HP": 756.08,
+      "ATK": 11.973,
+      "DEF": 50.018,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "PrithivaTopazFragment", "count": 3 },
-        { "name": "BasaltPillar", "count": 2 },
-        { "name": "Valberry", "count": 10 },
-        { "name": "DamagedMask", "count": 15 }
+        {
+          "id": "PrithivaTopazFragment",
+          "name": "Prithiva Topaz Fragment",
+          "localeName": "Prithiva Topaz Fragment",
+          "count": 3
+        },
+        {
+          "id": "BasaltPillar",
+          "name": "Basalt Pillar",
+          "localeName": "Basalt Pillar",
+          "count": 2
+        },
+        {
+          "id": "Valberry",
+          "name": "Valberry",
+          "localeName": "Valberry",
+          "count": 10
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Damaged Mask",
+          "localeName": "Damaged Mask",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1293.3 },
-        { "type": 3, "value": 85.556 },
-        { "type": 2, "value": 20.481 },
-        { "type": 9, "value": 0.075 }
-      ]
+      "HP": 1293.3,
+      "ATK": 20.481,
+      "DEF": 85.556,
+      "extra": 0.075
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "PrithivaTopazFragment", "count": 6 },
-        { "name": "BasaltPillar", "count": 4 },
-        { "name": "Valberry", "count": 20 },
-        { "name": "StainedMask", "count": 12 }
+        {
+          "id": "PrithivaTopazFragment",
+          "name": "Prithiva Topaz Fragment",
+          "localeName": "Prithiva Topaz Fragment",
+          "count": 6
+        },
+        {
+          "id": "BasaltPillar",
+          "name": "Basalt Pillar",
+          "localeName": "Basalt Pillar",
+          "count": 4
+        },
+        {
+          "id": "Valberry",
+          "name": "Valberry",
+          "localeName": "Valberry",
+          "count": 20
+        },
+        {
+          "id": "StainedMask",
+          "name": "Stained Mask",
+          "localeName": "Stained Mask",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2009.6 },
-        { "type": 3, "value": 132.94 },
-        { "type": 2, "value": 31.824 },
-        { "type": 9, "value": 0.15 }
-      ]
+      "HP": 2009.6,
+      "ATK": 31.824,
+      "DEF": 132.94,
+      "extra": 0.15
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "PrithivaTopazChunk", "count": 3 },
-        { "name": "BasaltPillar", "count": 8 },
-        { "name": "Valberry", "count": 30 },
-        { "name": "StainedMask", "count": 18 }
+        {
+          "id": "PrithivaTopazChunk",
+          "name": "Prithiva Topaz Chunk",
+          "localeName": "Prithiva Topaz Chunk",
+          "count": 3
+        },
+        {
+          "id": "BasaltPillar",
+          "name": "Basalt Pillar",
+          "localeName": "Basalt Pillar",
+          "count": 8
+        },
+        {
+          "id": "Valberry",
+          "name": "Valberry",
+          "localeName": "Valberry",
+          "count": 30
+        },
+        {
+          "id": "StainedMask",
+          "name": "Stained Mask",
+          "localeName": "Stained Mask",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2546.8 },
-        { "type": 3, "value": 168.48 },
-        { "type": 2, "value": 40.332 },
-        { "type": 9, "value": 0.15 }
-      ]
+      "HP": 2546.8,
+      "ATK": 40.332,
+      "DEF": 168.48,
+      "extra": 0.15
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "PrithivaTopazChunk", "count": 6 },
-        { "name": "BasaltPillar", "count": 12 },
-        { "name": "Valberry", "count": 45 },
-        { "name": "OminousMask", "count": 12 }
+        {
+          "id": "PrithivaTopazChunk",
+          "name": "Prithiva Topaz Chunk",
+          "localeName": "Prithiva Topaz Chunk",
+          "count": 6
+        },
+        {
+          "id": "BasaltPillar",
+          "name": "Basalt Pillar",
+          "localeName": "Basalt Pillar",
+          "count": 12
+        },
+        {
+          "id": "Valberry",
+          "name": "Valberry",
+          "localeName": "Valberry",
+          "count": 45
+        },
+        {
+          "id": "OminousMask",
+          "name": "Ominous Mask",
+          "localeName": "Ominous Mask",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3084 },
-        { "type": 3, "value": 204.02 },
-        { "type": 2, "value": 48.839 },
-        { "type": 9, "value": 0.225 }
-      ]
+      "HP": 3084,
+      "ATK": 48.839,
+      "DEF": 204.02,
+      "extra": 0.225
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "PrithivaTopazGemstone", "count": 6 },
-        { "name": "BasaltPillar", "count": 20 },
-        { "name": "Valberry", "count": 60 },
-        { "name": "OminousMask", "count": 24 }
+        {
+          "id": "PrithivaTopazGemstone",
+          "name": "Prithiva Topaz Gemstone",
+          "localeName": "Prithiva Topaz Gemstone",
+          "count": 6
+        },
+        {
+          "id": "BasaltPillar",
+          "name": "Basalt Pillar",
+          "localeName": "Basalt Pillar",
+          "count": 20
+        },
+        {
+          "id": "Valberry",
+          "name": "Valberry",
+          "localeName": "Valberry",
+          "count": 60
+        },
+        {
+          "id": "OminousMask",
+          "name": "Ominous Mask",
+          "localeName": "Ominous Mask",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3621.2 },
-        { "type": 3, "value": 239.56 },
-        { "type": 2, "value": 57.346 },
-        { "type": 9, "value": 0.3 }
-      ]
+      "HP": 3621.2,
+      "ATK": 57.346,
+      "DEF": 239.56,
+      "extra": 0.3
     }
   ],
   "ascensionType": 9,
   "element": 2,
   "elemSkill": {
     "name": "Breastplate",
-    "desc": "Summons protective stone armor, dealing <color=#FFE699FF>Geo DMG</color> to surrounding opponents and creating a shield. The shield's DMG Absorption scales based on Noelle's DEF.\\nThe shield has the following properties:\\n·When Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters.\\n·Possesses 250% Absorption Efficiency against <color=#FFE699FF>Geo DMG</color>\\n\\nThe amount of HP healed when regeneration is triggered scales based on Noelle's DEF.\\n\\n<i>Noelle is both a dutiful maid and a valiant knight.</i>",
+    "desc": "Summons protective stone armor, dealing <color=#FFE699FF>Geo DMG</color> to surrounding opponents and creating a shield. The shield's DMG Absorption scales based on Noelle's DEF.\nThe shield has the following properties:\n·When Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters.\n·Possesses 250% Absorption Efficiency against <color=#FFE699FF>Geo DMG</color>\n\nThe amount of HP healed when regeneration is triggered scales based on Noelle's DEF.\n\n<i>Noelle is both a dutiful maid and a valiant knight.</i>",
     "cd": 24
   },
   "elemBurst": {
     "name": "Sweeping Time",
-    "desc": "Gathering the strength of stone around her weapon, Noelle strikes the opponents surrounding her within a large AoE, dealing <color=#FFE699FF>Geo DMG</color>.\\nAfterwards, Noelle gains the following effects:\\n·Larger attack AoE.\\n·Converts attack DMG to <color=#FFE699FF>Geo DMG</color> that cannot be overridden by any other elemental infusion.\\n·Increased ATK that scales based on her DEF.\\n\\n<i>Sometimes, it's not just dust that needs sweeping...</i>",
+    "desc": "Gathering the strength of stone around her weapon, Noelle strikes the opponents surrounding her within a large AoE, dealing <color=#FFE699FF>Geo DMG</color>.\nAfterwards, Noelle gains the following effects:\n·Larger attack AoE.\n·Converts attack DMG to <color=#FFE699FF>Geo DMG</color> that cannot be overridden by any other elemental infusion.\n·Increased ATK that scales based on her DEF.\n\n<i>Sometimes, it's not just dust that needs sweeping...</i>",
     "cd": 15,
     "energyCost": 60
   },
   "attackSkill": {
     "name": "Normal Attack: Favonius Bladework - Maid",
-    "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 4 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt end of the sequence, perform a more powerful slash. \\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 4 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt end of the sequence, perform a more powerful slash. \n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "cd": 0
   },
   "c13ns": [

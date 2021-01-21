@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "AgnidusAgateSliver", "count": 1 },
-        { "name": "JueyunChili", "count": 3 },
-        { "name": "SlimeCondensate", "count": 3 }
+        {
+          "id": "AgnidusAgateSliver",
+          "name": "Agnidus Agate Sliver",
+          "localeName": "Agnidus Agate Sliver",
+          "count": 1
+        },
+        {
+          "id": "JueyunChili",
+          "name": "Jueyun Chili",
+          "localeName": "Jueyun Chili",
+          "count": 3
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "Slime Condensate",
+          "localeName": "Slime Condensate",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 681.15 },
-        { "type": 3, "value": 41.895 },
-        { "type": 2, "value": 14.102 },
-        { "type": 11, "value": 0 }
-      ]
+      "HP": 681.15,
+      "ATK": 14.102,
+      "DEF": 41.895,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "AgnidusAgateFragment", "count": 3 },
-        { "name": "EverflameSeed", "count": 2 },
-        { "name": "JueyunChili", "count": 10 },
-        { "name": "SlimeCondensate", "count": 15 }
+        {
+          "id": "AgnidusAgateFragment",
+          "name": "Agnidus Agate Fragment",
+          "localeName": "Agnidus Agate Fragment",
+          "count": 3
+        },
+        {
+          "id": "EverflameSeed",
+          "name": "Everflame Seed",
+          "localeName": "Everflame Seed",
+          "count": 2
+        },
+        {
+          "id": "JueyunChili",
+          "name": "Jueyun Chili",
+          "localeName": "Jueyun Chili",
+          "count": 10
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "Slime Condensate",
+          "localeName": "Slime Condensate",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1165.1 },
-        { "type": 3, "value": 71.662 },
-        { "type": 2, "value": 24.122 },
-        { "type": 11, "value": 24 }
-      ]
+      "HP": 1165.1,
+      "ATK": 24.122,
+      "DEF": 71.662,
+      "extra": 24
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "AgnidusAgateFragment", "count": 6 },
-        { "name": "EverflameSeed", "count": 4 },
-        { "name": "JueyunChili", "count": 20 },
-        { "name": "SlimeSecretions", "count": 12 }
+        {
+          "id": "AgnidusAgateFragment",
+          "name": "Agnidus Agate Fragment",
+          "localeName": "Agnidus Agate Fragment",
+          "count": 6
+        },
+        {
+          "id": "EverflameSeed",
+          "name": "Everflame Seed",
+          "localeName": "Everflame Seed",
+          "count": 4
+        },
+        {
+          "id": "JueyunChili",
+          "name": "Jueyun Chili",
+          "localeName": "Jueyun Chili",
+          "count": 20
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "Slime Secretions",
+          "localeName": "Slime Secretions",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1810.4 },
-        { "type": 3, "value": 111.35 },
-        { "type": 2, "value": 37.482 },
-        { "type": 11, "value": 48 }
-      ]
+      "HP": 1810.4,
+      "ATK": 37.482,
+      "DEF": 111.35,
+      "extra": 48
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "AgnidusAgateChunk", "count": 3 },
-        { "name": "EverflameSeed", "count": 8 },
-        { "name": "JueyunChili", "count": 30 },
-        { "name": "SlimeSecretions", "count": 18 }
+        {
+          "id": "AgnidusAgateChunk",
+          "name": "Agnidus Agate Chunk",
+          "localeName": "Agnidus Agate Chunk",
+          "count": 3
+        },
+        {
+          "id": "EverflameSeed",
+          "name": "Everflame Seed",
+          "localeName": "Everflame Seed",
+          "count": 8
+        },
+        {
+          "id": "JueyunChili",
+          "name": "Jueyun Chili",
+          "localeName": "Jueyun Chili",
+          "count": 30
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "Slime Secretions",
+          "localeName": "Slime Secretions",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2294.4 },
-        { "type": 3, "value": 141.12 },
-        { "type": 2, "value": 47.502 },
-        { "type": 11, "value": 48 }
-      ]
+      "HP": 2294.4,
+      "ATK": 47.502,
+      "DEF": 141.12,
+      "extra": 48
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "AgnidusAgateChunk", "count": 6 },
-        { "name": "EverflameSeed", "count": 12 },
-        { "name": "JueyunChili", "count": 45 },
-        { "name": "SlimeConcentrate", "count": 12 }
+        {
+          "id": "AgnidusAgateChunk",
+          "name": "Agnidus Agate Chunk",
+          "localeName": "Agnidus Agate Chunk",
+          "count": 6
+        },
+        {
+          "id": "EverflameSeed",
+          "name": "Everflame Seed",
+          "localeName": "Everflame Seed",
+          "count": 12
+        },
+        {
+          "id": "JueyunChili",
+          "name": "Jueyun Chili",
+          "localeName": "Jueyun Chili",
+          "count": 45
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "Slime Concentrate",
+          "localeName": "Slime Concentrate",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2778.4 },
-        { "type": 3, "value": 170.89 },
-        { "type": 2, "value": 57.521 },
-        { "type": 11, "value": 72 }
-      ]
+      "HP": 2778.4,
+      "ATK": 57.521,
+      "DEF": 170.89,
+      "extra": 72
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "AgnidusAgateGemstone", "count": 6 },
-        { "name": "EverflameSeed", "count": 20 },
-        { "name": "JueyunChili", "count": 60 },
-        { "name": "SlimeConcentrate", "count": 24 }
+        {
+          "id": "AgnidusAgateGemstone",
+          "name": "Agnidus Agate Gemstone",
+          "localeName": "Agnidus Agate Gemstone",
+          "count": 6
+        },
+        {
+          "id": "EverflameSeed",
+          "name": "Everflame Seed",
+          "localeName": "Everflame Seed",
+          "count": 20
+        },
+        {
+          "id": "JueyunChili",
+          "name": "Jueyun Chili",
+          "localeName": "Jueyun Chili",
+          "count": 60
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "Slime Concentrate",
+          "localeName": "Slime Concentrate",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3262.4 },
-        { "type": 3, "value": 200.65 },
-        { "type": 2, "value": 67.541 },
-        { "type": 11, "value": 96 }
-      ]
+      "HP": 3262.4,
+      "ATK": 67.541,
+      "DEF": 200.65,
+      "extra": 96
     }
   ],
   "ascensionType": 11,
   "element": 6,
   "elemSkill": {
     "name": "Guoba Attack",
-    "desc": "Summons Guoba the Panda. Guoba continuously breathes fire at opponents, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\\n\\n<i>Guoba loves to eat spicy food. Problem is, his stomach can't handle something this spicy.</i>",
+    "desc": "Summons Guoba the Panda. Guoba continuously breathes fire at opponents, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\n\n<i>Guoba loves to eat spicy food. Problem is, his stomach can't handle something this spicy.</i>",
     "cd": 12
   },
   "elemBurst": {
     "name": "Pyronado",
-    "desc": "Displaying her mastery over both fire and polearms, Xiangling sends a Pyronado whirling around her.\\nThe Pyronado will move with your character for the ability's duration, dealing <color=#FF9999FF>Pyro DMG</color> to all opponents in its path.\\n\\n<i>There will never be enough heat. Never.</i>",
+    "desc": "Displaying her mastery over both fire and polearms, Xiangling sends a Pyronado whirling around her.\nThe Pyronado will move with your character for the ability's duration, dealing <color=#FF9999FF>Pyro DMG</color> to all opponents in its path.\n\n<i>There will never be enough heat. Never.</i>",
     "cd": 20,
     "energyCost": 80
   },
   "attackSkill": {
     "name": "Normal Attack: Dough-Fu",
-    "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to five consecutive spear strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to five consecutive spear strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "cd": 0
   },
   "c13ns": [

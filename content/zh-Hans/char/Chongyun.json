@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "ShivadaJadeSliver", "count": 1 },
-        { "name": "CorLapis", "count": 3 },
-        { "name": "DamagedMask", "count": 3 }
+        {
+          "id": "ShivadaJadeSliver",
+          "name": "Shivada Jade Sliver",
+          "localeName": "哀叙冰玉碎屑",
+          "count": 1
+        },
+        {
+          "id": "CorLapis",
+          "name": "Cor Lapis",
+          "localeName": "石珀",
+          "count": 3
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Damaged Mask",
+          "localeName": "破损的面具",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 687.97 },
-        { "type": 3, "value": 40.612 },
-        { "type": 2, "value": 13.969 },
-        { "type": 7, "value": 0 }
-      ]
+      "HP": 687.97,
+      "ATK": 13.969,
+      "DEF": 40.612,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "ShivadaJadeFragment", "count": 3 },
-        { "name": "HoarfrostCore", "count": 2 },
-        { "name": "CorLapis", "count": 10 },
-        { "name": "DamagedMask", "count": 15 }
+        {
+          "id": "ShivadaJadeFragment",
+          "name": "Shivada Jade Fragment",
+          "localeName": "哀叙冰玉断片",
+          "count": 3
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "极寒之核",
+          "count": 2
+        },
+        {
+          "id": "CorLapis",
+          "name": "Cor Lapis",
+          "localeName": "石珀",
+          "count": 10
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Damaged Mask",
+          "localeName": "破损的面具",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1176.8 },
-        { "type": 3, "value": 69.469 },
-        { "type": 2, "value": 23.894 },
-        { "type": 7, "value": 0.06 }
-      ]
+      "HP": 1176.8,
+      "ATK": 23.894,
+      "DEF": 69.469,
+      "extra": 0.06
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "ShivadaJadeFragment", "count": 6 },
-        { "name": "HoarfrostCore", "count": 4 },
-        { "name": "CorLapis", "count": 20 },
-        { "name": "StainedMask", "count": 12 }
+        {
+          "id": "ShivadaJadeFragment",
+          "name": "Shivada Jade Fragment",
+          "localeName": "哀叙冰玉断片",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "极寒之核",
+          "count": 4
+        },
+        {
+          "id": "CorLapis",
+          "name": "Cor Lapis",
+          "localeName": "石珀",
+          "count": 20
+        },
+        {
+          "id": "StainedMask",
+          "name": "Stained Mask",
+          "localeName": "污秽的面具",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1828.5 },
-        { "type": 3, "value": 107.94 },
-        { "type": 2, "value": 37.128 },
-        { "type": 7, "value": 0.12 }
-      ]
+      "HP": 1828.5,
+      "ATK": 37.128,
+      "DEF": 107.94,
+      "extra": 0.12
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "ShivadaJadeChunk", "count": 3 },
-        { "name": "HoarfrostCore", "count": 8 },
-        { "name": "CorLapis", "count": 30 },
-        { "name": "StainedMask", "count": 18 }
+        {
+          "id": "ShivadaJadeChunk",
+          "name": "Shivada Jade Chunk",
+          "localeName": "哀叙冰玉块",
+          "count": 3
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "极寒之核",
+          "count": 8
+        },
+        {
+          "id": "CorLapis",
+          "name": "Cor Lapis",
+          "localeName": "石珀",
+          "count": 30
+        },
+        {
+          "id": "StainedMask",
+          "name": "Stained Mask",
+          "localeName": "污秽的面具",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2317.4 },
-        { "type": 3, "value": 136.8 },
-        { "type": 2, "value": 47.053 },
-        { "type": 7, "value": 0.12 }
-      ]
+      "HP": 2317.4,
+      "ATK": 47.053,
+      "DEF": 136.8,
+      "extra": 0.12
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "ShivadaJadeChunk", "count": 6 },
-        { "name": "HoarfrostCore", "count": 12 },
-        { "name": "CorLapis", "count": 45 },
-        { "name": "OminousMask", "count": 12 }
+        {
+          "id": "ShivadaJadeChunk",
+          "name": "Shivada Jade Chunk",
+          "localeName": "哀叙冰玉块",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "极寒之核",
+          "count": 12
+        },
+        {
+          "id": "CorLapis",
+          "name": "Cor Lapis",
+          "localeName": "石珀",
+          "count": 45
+        },
+        {
+          "id": "OminousMask",
+          "name": "Ominous Mask",
+          "localeName": "不祥的面具",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2806.2 },
-        { "type": 3, "value": 165.66 },
-        { "type": 2, "value": 56.979 },
-        { "type": 7, "value": 0.18 }
-      ]
+      "HP": 2806.2,
+      "ATK": 56.979,
+      "DEF": 165.66,
+      "extra": 0.18
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "ShivadaJadeGemstone", "count": 6 },
-        { "name": "HoarfrostCore", "count": 20 },
-        { "name": "CorLapis", "count": 60 },
-        { "name": "OminousMask", "count": 24 }
+        {
+          "id": "ShivadaJadeGemstone",
+          "name": "Shivada Jade Gemstone",
+          "localeName": "哀叙冰玉",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "极寒之核",
+          "count": 20
+        },
+        {
+          "id": "CorLapis",
+          "name": "Cor Lapis",
+          "localeName": "石珀",
+          "count": 60
+        },
+        {
+          "id": "OminousMask",
+          "name": "Ominous Mask",
+          "localeName": "不祥的面具",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3295 },
-        { "type": 3, "value": 194.51 },
-        { "type": 2, "value": 66.904 },
-        { "type": 7, "value": 0.24 }
-      ]
+      "HP": 3295,
+      "ATK": 66.904,
+      "DEF": 194.51,
+      "extra": 0.24
     }
   ],
   "ascensionType": 7,
   "element": 7,
   "elemSkill": {
     "name": "灵刃·重华叠霜",
-    "desc": "重云挥动巨剑猛击地面，在前方圆形范围内引发冰爆，并对敌人造成<color=#99FFFFFF>冰元素伤害</color>。\\n短暂延迟后，冰爆引发的寒气汇聚成重华叠霜领域，其中的单手剑、大剑、长柄武器角色获得<color=#99FFFFFF>冰元素附魔</color>。\\n\\n<i>「琳琅振响，十方静默。江河不动，重云凝霜。如法开坛，诸邪退散。」</i>",
+    "desc": "重云挥动巨剑猛击地面，在前方圆形范围内引发冰爆，并对敌人造成<color=#99FFFFFF>冰元素伤害</color>。\n短暂延迟后，冰爆引发的寒气汇聚成重华叠霜领域，其中的单手剑、大剑、长柄武器角色获得<color=#99FFFFFF>冰元素附魔</color>。\n\n<i>「琳琅振响，十方静默。江河不动，重云凝霜。如法开坛，诸邪退散。」</i>",
     "cd": 15
   },
   "elemBurst": {
     "name": "灵刃·云开星落",
-    "desc": "重云结印，在前方半空中连续召唤出三柄巨大灵刃，短时间内依次落向地面并爆裂。\\n灵刃爆裂时，会造成<color=#99FFFFFF>冰元素范围伤害</color>，并击飞敌人。\\n\\n<i>「卓剑天地动，冰凌霜寒生。如律令！」</i>",
+    "desc": "重云结印，在前方半空中连续召唤出三柄巨大灵刃，短时间内依次落向地面并爆裂。\n灵刃爆裂时，会造成<color=#99FFFFFF>冰元素范围伤害</color>，并击飞敌人。\n\n<i>「卓剑天地动，冰凌霜寒生。如律令！」</i>",
     "cd": 12,
     "energyCost": 40
   },
   "attackSkill": {
     "name": "普通攻击·灭邪四式",
-    "desc": "<color=#FFD780FF>普通攻击</color>\\n进行至多四段的连续挥砍。\\n\\n<color=#FFD780FF>重击</color>\\n持续消耗体力，旋转大剑攻击周围的敌人。\\n停止旋转时，会进行一次格外有力的挥砍。\\n\\n<color=#FFD780FF>下落攻击</color>\\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
+    "desc": "<color=#FFD780FF>普通攻击</color>\n进行至多四段的连续挥砍。\n\n<color=#FFD780FF>重击</color>\n持续消耗体力，旋转大剑攻击周围的敌人。\n停止旋转时，会进行一次格外有力的挥砍。\n\n<color=#FFD780FF>下落攻击</color>\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
     "cd": 0
   },
   "c13ns": [

@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "AgnidusAgateSliver", "count": 1 },
-        { "name": "Violetgrass", "count": 3 },
-        { "name": "TreasureHoarderInsignia", "count": 3 }
+        {
+          "id": "AgnidusAgateSliver",
+          "name": "Agnidus Agate Sliver",
+          "localeName": "炎願のアゲート·砕屑",
+          "count": 1
+        },
+        {
+          "id": "Violetgrass",
+          "name": "Violetgrass",
+          "localeName": "琉璃袋",
+          "count": 3
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "Treasure Hoarder Insignia",
+          "localeName": "宝探しの鴉マーク",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 701.59 },
-        { "type": 3, "value": 50.018 },
-        { "type": 2, "value": 15.565 },
-        { "type": 7, "value": 0 }
-      ]
+      "HP": 701.59,
+      "ATK": 15.565,
+      "DEF": 50.018,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "AgnidusAgateFragment", "count": 3 },
-        { "name": "EverflameSeed", "count": 2 },
-        { "name": "Violetgrass", "count": 10 },
-        { "name": "TreasureHoarderInsignia", "count": 15 }
+        {
+          "id": "AgnidusAgateFragment",
+          "name": "Agnidus Agate Fragment",
+          "localeName": "炎願のアゲート·欠片",
+          "count": 3
+        },
+        {
+          "id": "EverflameSeed",
+          "name": "Everflame Seed",
+          "localeName": "常燃の火種",
+          "count": 2
+        },
+        {
+          "id": "Violetgrass",
+          "name": "Violetgrass",
+          "localeName": "琉璃袋",
+          "count": 10
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "Treasure Hoarder Insignia",
+          "localeName": "宝探しの鴉マーク",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1200.1 },
-        { "type": 3, "value": 85.556 },
-        { "type": 2, "value": 26.625 },
-        { "type": 7, "value": 0.06 }
-      ]
+      "HP": 1200.1,
+      "ATK": 26.625,
+      "DEF": 85.556,
+      "extra": 0.06
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "AgnidusAgateFragment", "count": 6 },
-        { "name": "EverflameSeed", "count": 4 },
-        { "name": "Violetgrass", "count": 20 },
-        { "name": "SilverRavenInsignia", "count": 12 }
+        {
+          "id": "AgnidusAgateFragment",
+          "name": "Agnidus Agate Fragment",
+          "localeName": "炎願のアゲート·欠片",
+          "count": 6
+        },
+        {
+          "id": "EverflameSeed",
+          "name": "Everflame Seed",
+          "localeName": "常燃の火種",
+          "count": 4
+        },
+        {
+          "id": "Violetgrass",
+          "name": "Violetgrass",
+          "localeName": "琉璃袋",
+          "count": 20
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "Silver Raven Insignia",
+          "localeName": "シルバーの鴉マーク",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1864.8 },
-        { "type": 3, "value": 132.94 },
-        { "type": 2, "value": 41.371 },
-        { "type": 7, "value": 0.12 }
-      ]
+      "HP": 1864.8,
+      "ATK": 41.371,
+      "DEF": 132.94,
+      "extra": 0.12
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "AgnidusAgateChunk", "count": 3 },
-        { "name": "EverflameSeed", "count": 8 },
-        { "name": "Violetgrass", "count": 30 },
-        { "name": "SilverRavenInsignia", "count": 18 }
+        {
+          "id": "AgnidusAgateChunk",
+          "name": "Agnidus Agate Chunk",
+          "localeName": "炎願のアゲート·塊",
+          "count": 3
+        },
+        {
+          "id": "EverflameSeed",
+          "name": "Everflame Seed",
+          "localeName": "常燃の火種",
+          "count": 8
+        },
+        {
+          "id": "Violetgrass",
+          "name": "Violetgrass",
+          "localeName": "琉璃袋",
+          "count": 30
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "Silver Raven Insignia",
+          "localeName": "シルバーの鴉マーク",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2363.2 },
-        { "type": 3, "value": 168.48 },
-        { "type": 2, "value": 52.431 },
-        { "type": 7, "value": 0.12 }
-      ]
+      "HP": 2363.2,
+      "ATK": 52.431,
+      "DEF": 168.48,
+      "extra": 0.12
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "AgnidusAgateChunk", "count": 6 },
-        { "name": "EverflameSeed", "count": 12 },
-        { "name": "Violetgrass", "count": 45 },
-        { "name": "GoldenRavenInsignia", "count": 12 }
+        {
+          "id": "AgnidusAgateChunk",
+          "name": "Agnidus Agate Chunk",
+          "localeName": "炎願のアゲート·塊",
+          "count": 6
+        },
+        {
+          "id": "EverflameSeed",
+          "name": "Everflame Seed",
+          "localeName": "常燃の火種",
+          "count": 12
+        },
+        {
+          "id": "Violetgrass",
+          "name": "Violetgrass",
+          "localeName": "琉璃袋",
+          "count": 45
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "Golden Raven Insignia",
+          "localeName": "ゴールドの鴉マーク",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2861.7 },
-        { "type": 3, "value": 204.02 },
-        { "type": 2, "value": 63.491 },
-        { "type": 7, "value": 0.18 }
-      ]
+      "HP": 2861.7,
+      "ATK": 63.491,
+      "DEF": 204.02,
+      "extra": 0.18
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "AgnidusAgateGemstone", "count": 6 },
-        { "name": "EverflameSeed", "count": 20 },
-        { "name": "Violetgrass", "count": 60 },
-        { "name": "GoldenRavenInsignia", "count": 24 }
+        {
+          "id": "AgnidusAgateGemstone",
+          "name": "Agnidus Agate Gemstone",
+          "localeName": "炎願のアゲート",
+          "count": 6
+        },
+        {
+          "id": "EverflameSeed",
+          "name": "Everflame Seed",
+          "localeName": "常燃の火種",
+          "count": 20
+        },
+        {
+          "id": "Violetgrass",
+          "name": "Violetgrass",
+          "localeName": "琉璃袋",
+          "count": 60
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "Golden Raven Insignia",
+          "localeName": "ゴールドの鴉マーク",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3360.2 },
-        { "type": 3, "value": 239.56 },
-        { "type": 2, "value": 74.55 },
-        { "type": 7, "value": 0.24 }
-      ]
+      "HP": 3360.2,
+      "ATK": 74.55,
+      "DEF": 239.56,
+      "extra": 0.24
     }
   ],
   "ascensionType": 7,
   "element": 6,
   "elemSkill": {
     "name": "情熱の薙ぎ払い",
-    "desc": "楽器を振り回し、周囲の敵に<color=#FF9999FF>炎元素ダメージ</color>を与え、「観客」の「情熱」でシールドを生成する。\\nシールドのダメージ吸収量は辛炎の防御力によって決まり、シールドのレベルは命中した敵の数によって変わる。\\n·敵に命中しなかった又は1名の敵に命中した場合：Lv.1シールド·イントロのリズム\\n·2名の敵に命中した場合：Lv.2シールド·指揮のリズム\\n·3名またはそれ以上の敵に命中した場合：Lv.3シールド·舞のリズムを生成する。シールドはダメージを吸収するほか、一定時間の間隔で周囲の敵に<color=#FF9999FF>炎元素ダメージ</color>を与える。\\n\\nシールドは以下の特性を持つ：\\n·発動する時、辛炎に<color=#FF9999FF>炎元素付着</color>を与える。\\n·<color=#FF9999FF>炎元素ダメージ</color>に対して、250%の吸収効果がある。\\n\\n<i>これらの火花は演奏スキルを極めた結果であり、ただの物理現象で、神の目とは関係ないと辛炎は主張している。</i>",
+    "desc": "楽器を振り回し、周囲の敵に<color=#FF9999FF>炎元素ダメージ</color>を与え、「観客」の「情熱」でシールドを生成する。\nシールドのダメージ吸収量は辛炎の防御力によって決まり、シールドのレベルは命中した敵の数によって変わる。\n·敵に命中しなかった又は1名の敵に命中した場合：Lv.1シールド·イントロのリズム\n·2名の敵に命中した場合：Lv.2シールド·指揮のリズム\n·3名またはそれ以上の敵に命中した場合：Lv.3シールド·舞のリズムを生成する。シールドはダメージを吸収するほか、一定時間の間隔で周囲の敵に<color=#FF9999FF>炎元素ダメージ</color>を与える。\n\nシールドは以下の特性を持つ：\n·発動する時、辛炎に<color=#FF9999FF>炎元素付着</color>を与える。\n·<color=#FF9999FF>炎元素ダメージ</color>に対して、250%の吸収効果がある。\n\n<i>これらの火花は演奏スキルを極めた結果であり、ただの物理現象で、神の目とは関係ないと辛炎は主張している。</i>",
     "cd": 18
   },
   "elemBurst": {
     "name": "反逆の弾き",
-    "desc": "弦を素早く弾き、音波を放出して敵をノックバックする。周囲の敵に物理ダメージを与え、「舞台」の雰囲気を盛り上げる。\\n雰囲気が熱さが烈焔を引き起こし、周囲の敵に<color=#FF9999FF>炎元素ダメージ</color>を持続的に与える。\\n\\n<i>この演出はライブの終わりに必ずやる定番だったが、現在はもうやめている。その理由は安全面の考慮ではなく、もし「アンコール」をされたら、これ以上完璧なエンディングがないからである。</i>",
+    "desc": "弦を素早く弾き、音波を放出して敵をノックバックする。周囲の敵に物理ダメージを与え、「舞台」の雰囲気を盛り上げる。\n雰囲気が熱さが烈焔を引き起こし、周囲の敵に<color=#FF9999FF>炎元素ダメージ</color>を持続的に与える。\n\n<i>この演出はライブの終わりに必ずやる定番だったが、現在はもうやめている。その理由は安全面の考慮ではなく、もし「アンコール」をされたら、これ以上完璧なエンディングがないからである。</i>",
     "cd": 15,
     "energyCost": 60
   },
   "attackSkill": {
     "name": "通常攻撃·炎舞",
-    "desc": "<color=#FFD780FF>通常攻撃</color>\\n最大4段の連続攻撃を行う。\\n\\n<color=#FFD780FF>重撃</color>\\n持続的にスタミナを消費し、大剣を振り回して周囲の敵を攻撃する。\\n重撃が終了した時に、さらに強力な攻撃を1回放つ。\\n\\n<color=#FFD780FF>落下攻撃</color>\\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n最大4段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n持続的にスタミナを消費し、大剣を振り回して周囲の敵を攻撃する。\n重撃が終了した時に、さらに強力な攻撃を1回放つ。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
     "cd": 0
   },
   "c13ns": [

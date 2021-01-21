@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "VayudaTurquoiseSliver", "count": 1 },
-        { "name": "Cecilia", "count": 3 },
-        { "name": "SlimeCondensate", "count": 3 }
+        {
+          "id": "VayudaTurquoiseSliver",
+          "name": "Vayuda Turquoise Sliver",
+          "localeName": "Vayuda Turquoise Sliver",
+          "count": 1
+        },
+        {
+          "id": "Cecilia",
+          "name": "Cecilia",
+          "localeName": "Cecilia",
+          "count": 3
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "Slime Condensate",
+          "localeName": "Slime Condensate",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 702.95 },
-        { "type": 3, "value": 44.631 },
-        { "type": 2, "value": 17.56 },
-        { "type": 10, "value": 0 }
-      ]
+      "HP": 702.95,
+      "ATK": 17.56,
+      "DEF": 44.631,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "VayudaTurquoiseFragment", "count": 3 },
-        { "name": "HurricaneSeed", "count": 2 },
-        { "name": "Cecilia", "count": 10 },
-        { "name": "SlimeCondensate", "count": 15 }
+        {
+          "id": "VayudaTurquoiseFragment",
+          "name": "Vayuda Turquoise Fragment",
+          "localeName": "Vayuda Turquoise Fragment",
+          "count": 3
+        },
+        {
+          "id": "HurricaneSeed",
+          "name": "Hurricane Seed",
+          "localeName": "Hurricane Seed",
+          "count": 2
+        },
+        {
+          "id": "Cecilia",
+          "name": "Cecilia",
+          "localeName": "Cecilia",
+          "count": 10
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "Slime Condensate",
+          "localeName": "Slime Condensate",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1202.4 },
-        { "type": 3, "value": 76.342 },
-        { "type": 2, "value": 30.037 },
-        { "type": 10, "value": 0.08 }
-      ]
+      "HP": 1202.4,
+      "ATK": 30.037,
+      "DEF": 76.342,
+      "extra": 0.08
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "VayudaTurquoiseFragment", "count": 6 },
-        { "name": "HurricaneSeed", "count": 4 },
-        { "name": "Cecilia", "count": 20 },
-        { "name": "SlimeSecretions", "count": 12 }
+        {
+          "id": "VayudaTurquoiseFragment",
+          "name": "Vayuda Turquoise Fragment",
+          "localeName": "Vayuda Turquoise Fragment",
+          "count": 6
+        },
+        {
+          "id": "HurricaneSeed",
+          "name": "Hurricane Seed",
+          "localeName": "Hurricane Seed",
+          "count": 4
+        },
+        {
+          "id": "Cecilia",
+          "name": "Cecilia",
+          "localeName": "Cecilia",
+          "count": 20
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "Slime Secretions",
+          "localeName": "Slime Secretions",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1868.4 },
-        { "type": 3, "value": 118.62 },
-        { "type": 2, "value": 46.673 },
-        { "type": 10, "value": 0.16 }
-      ]
+      "HP": 1868.4,
+      "ATK": 46.673,
+      "DEF": 118.62,
+      "extra": 0.16
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "VayudaTurquoiseChunk", "count": 3 },
-        { "name": "HurricaneSeed", "count": 8 },
-        { "name": "Cecilia", "count": 30 },
-        { "name": "SlimeSecretions", "count": 18 }
+        {
+          "id": "VayudaTurquoiseChunk",
+          "name": "Vayuda Turquoise Chunk",
+          "localeName": "Vayuda Turquoise Chunk",
+          "count": 3
+        },
+        {
+          "id": "HurricaneSeed",
+          "name": "Hurricane Seed",
+          "localeName": "Hurricane Seed",
+          "count": 8
+        },
+        {
+          "id": "Cecilia",
+          "name": "Cecilia",
+          "localeName": "Cecilia",
+          "count": 30
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "Slime Secretions",
+          "localeName": "Slime Secretions",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2367.8 },
-        { "type": 3, "value": 150.34 },
-        { "type": 2, "value": 59.15 },
-        { "type": 10, "value": 0.16 }
-      ]
+      "HP": 2367.8,
+      "ATK": 59.15,
+      "DEF": 150.34,
+      "extra": 0.16
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "VayudaTurquoiseChunk", "count": 6 },
-        { "name": "HurricaneSeed", "count": 12 },
-        { "name": "Cecilia", "count": 45 },
-        { "name": "SlimeConcentrate", "count": 12 }
+        {
+          "id": "VayudaTurquoiseChunk",
+          "name": "Vayuda Turquoise Chunk",
+          "localeName": "Vayuda Turquoise Chunk",
+          "count": 6
+        },
+        {
+          "id": "HurricaneSeed",
+          "name": "Hurricane Seed",
+          "localeName": "Hurricane Seed",
+          "count": 12
+        },
+        {
+          "id": "Cecilia",
+          "name": "Cecilia",
+          "localeName": "Cecilia",
+          "count": 45
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "Slime Concentrate",
+          "localeName": "Slime Concentrate",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2867.3 },
-        { "type": 3, "value": 182.05 },
-        { "type": 2, "value": 71.627 },
-        { "type": 10, "value": 0.24 }
-      ]
+      "HP": 2867.3,
+      "ATK": 71.627,
+      "DEF": 182.05,
+      "extra": 0.24
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "VayudaTurquoiseGemstone", "count": 6 },
-        { "name": "HurricaneSeed", "count": 20 },
-        { "name": "Cecilia", "count": 60 },
-        { "name": "SlimeConcentrate", "count": 24 }
+        {
+          "id": "VayudaTurquoiseGemstone",
+          "name": "Vayuda Turquoise Gemstone",
+          "localeName": "Vayuda Turquoise Gemstone",
+          "count": 6
+        },
+        {
+          "id": "HurricaneSeed",
+          "name": "Hurricane Seed",
+          "localeName": "Hurricane Seed",
+          "count": 20
+        },
+        {
+          "id": "Cecilia",
+          "name": "Cecilia",
+          "localeName": "Cecilia",
+          "count": 60
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "Slime Concentrate",
+          "localeName": "Slime Concentrate",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3366.8 },
-        { "type": 3, "value": 213.76 },
-        { "type": 2, "value": 84.104 },
-        { "type": 10, "value": 0.32 }
-      ]
+      "HP": 3366.8,
+      "ATK": 84.104,
+      "DEF": 213.76,
+      "extra": 0.32
     }
   ],
   "ascensionType": 10,
   "element": 1,
   "elemSkill": {
     "name": "Skyward Sonnet",
-    "desc": "#O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nSummons a Wind Domain at the opponent's location, dealing <color=#80FFD7FF>AoE Anemo DMG</color> and launching opponents into the air.\\n\\n<color=#FFD780FF>Hold</color>\\nSummons an even larger Wind Domain with Venti as the epicenter, dealing <color=#80FFD7FF>AoE Anemo DMG</color> and launching affected opponents into the air.\\nAfter unleashing the Hold version of this ability, Venti rides the wind into the air.\\n\\nOpponents hit by Skyward Sonnet will fall to the ground slowly.\\n\\n<i>In the days when gods and men walked the earth together, the heavens were filled with countless songs. This melody has long since been forgotten.</i>",
+    "desc": "#O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nSummons a Wind Domain at the opponent's location, dealing <color=#80FFD7FF>AoE Anemo DMG</color> and launching opponents into the air.\n\n<color=#FFD780FF>Hold</color>\nSummons an even larger Wind Domain with Venti as the epicenter, dealing <color=#80FFD7FF>AoE Anemo DMG</color> and launching affected opponents into the air.\nAfter unleashing the Hold version of this ability, Venti rides the wind into the air.\n\nOpponents hit by Skyward Sonnet will fall to the ground slowly.\n\n<i>In the days when gods and men walked the earth together, the heavens were filled with countless songs. This melody has long since been forgotten.</i>",
     "cd": 6
   },
   "elemBurst": {
     "name": "Wind's Grand Ode",
-    "desc": "Fires off an arrow made of countless coalesced winds, creating a huge Stormeye that sucks in opponents and deals continuous <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Elemental Absorption</color>\\nIf the Stormeye comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, it will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use.\\n\\n<i>Many hymns written in praise of the Anemo Archon have been lost to time. This one sings of his mastery over the wind.</i>",
+    "desc": "Fires off an arrow made of countless coalesced winds, creating a huge Stormeye that sucks in opponents and deals continuous <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Elemental Absorption</color>\nIf the Stormeye comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\n<i>Many hymns written in praise of the Anemo Archon have been lost to time. This one sings of his mastery over the wind.</i>",
     "cd": 15,
     "energyCost": 60
   },
   "attackSkill": {
     "name": "Normal Attack: Divine Marksmanship",
-    "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 6 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, favorable winds will accumulate on the arrowhead. A fully charged wind arrow will deal <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 6 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, favorable winds will accumulate on the arrowhead. A fully charged wind arrow will deal <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
     "cd": 0
   },
   "c13ns": [

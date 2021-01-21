@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "VajradaAmethystSliver", "count": 1 },
-        { "name": "Wolfhook", "count": 3 },
-        { "name": "DamagedMask", "count": 3 }
+        {
+          "id": "VajradaAmethystSliver",
+          "name": "Vajrada Amethyst Sliver",
+          "localeName": "最勝紫晶碎屑",
+          "count": 1
+        },
+        {
+          "id": "Wolfhook",
+          "name": "Wolfhook",
+          "localeName": "鉤鉤果",
+          "count": 3
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Damaged Mask",
+          "localeName": "破損的面具",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 749.27 },
-        { "type": 3, "value": 47.025 },
-        { "type": 2, "value": 14.634 },
-        { "type": 33, "value": 0 }
-      ]
+      "HP": 749.27,
+      "ATK": 14.634,
+      "DEF": 47.025,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "VajradaAmethystFragment", "count": 3 },
-        { "name": "LightningPrism", "count": 2 },
-        { "name": "Wolfhook", "count": 10 },
-        { "name": "DamagedMask", "count": 15 }
+        {
+          "id": "VajradaAmethystFragment",
+          "name": "Vajrada Amethyst Fragment",
+          "localeName": "最勝紫晶斷片",
+          "count": 3
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "雷光稜鏡",
+          "count": 2
+        },
+        {
+          "id": "Wolfhook",
+          "name": "Wolfhook",
+          "localeName": "鉤鉤果",
+          "count": 10
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Damaged Mask",
+          "localeName": "破損的面具",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1281.6 },
-        { "type": 3, "value": 80.438 },
-        { "type": 2, "value": 25.032 },
-        { "type": 33, "value": 0.075 }
-      ]
+      "HP": 1281.6,
+      "ATK": 25.032,
+      "DEF": 80.438,
+      "extra": 0.075
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "VajradaAmethystFragment", "count": 6 },
-        { "name": "LightningPrism", "count": 4 },
-        { "name": "Wolfhook", "count": 20 },
-        { "name": "StainedMask", "count": 12 }
+        {
+          "id": "VajradaAmethystFragment",
+          "name": "Vajrada Amethyst Fragment",
+          "localeName": "最勝紫晶斷片",
+          "count": 6
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "雷光稜鏡",
+          "count": 4
+        },
+        {
+          "id": "Wolfhook",
+          "name": "Wolfhook",
+          "localeName": "鉤鉤果",
+          "count": 20
+        },
+        {
+          "id": "StainedMask",
+          "name": "Stained Mask",
+          "localeName": "汙穢的面具",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1991.5 },
-        { "type": 3, "value": 124.99 },
-        { "type": 2, "value": 38.896 },
-        { "type": 33, "value": 0.15 }
-      ]
+      "HP": 1991.5,
+      "ATK": 38.896,
+      "DEF": 124.99,
+      "extra": 0.15
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "VajradaAmethystChunk", "count": 3 },
-        { "name": "LightningPrism", "count": 8 },
-        { "name": "Wolfhook", "count": 30 },
-        { "name": "StainedMask", "count": 18 }
+        {
+          "id": "VajradaAmethystChunk",
+          "name": "Vajrada Amethyst Chunk",
+          "localeName": "最勝紫晶塊",
+          "count": 3
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "雷光稜鏡",
+          "count": 8
+        },
+        {
+          "id": "Wolfhook",
+          "name": "Wolfhook",
+          "localeName": "鉤鉤果",
+          "count": 30
+        },
+        {
+          "id": "StainedMask",
+          "name": "Stained Mask",
+          "localeName": "汙穢的面具",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2523.9 },
-        { "type": 3, "value": 158.4 },
-        { "type": 2, "value": 49.294 },
-        { "type": 33, "value": 0.15 }
-      ]
+      "HP": 2523.9,
+      "ATK": 49.294,
+      "DEF": 158.4,
+      "extra": 0.15
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "VajradaAmethystChunk", "count": 6 },
-        { "name": "LightningPrism", "count": 12 },
-        { "name": "Wolfhook", "count": 45 },
-        { "name": "OminousMask", "count": 12 }
+        {
+          "id": "VajradaAmethystChunk",
+          "name": "Vajrada Amethyst Chunk",
+          "localeName": "最勝紫晶塊",
+          "count": 6
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "雷光稜鏡",
+          "count": 12
+        },
+        {
+          "id": "Wolfhook",
+          "name": "Wolfhook",
+          "localeName": "鉤鉤果",
+          "count": 45
+        },
+        {
+          "id": "OminousMask",
+          "name": "Ominous Mask",
+          "localeName": "不祥的面具",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3056.2 },
-        { "type": 3, "value": 191.81 },
-        { "type": 2, "value": 59.692 },
-        { "type": 33, "value": 0.225 }
-      ]
+      "HP": 3056.2,
+      "ATK": 59.692,
+      "DEF": 191.81,
+      "extra": 0.225
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "VajradaAmethystGemstone", "count": 6 },
-        { "name": "LightningPrism", "count": 20 },
-        { "name": "Wolfhook", "count": 60 },
-        { "name": "OminousMask", "count": 24 }
+        {
+          "id": "VajradaAmethystGemstone",
+          "name": "Vajrada Amethyst Gemstone",
+          "localeName": "最勝紫晶",
+          "count": 6
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "雷光稜鏡",
+          "count": 20
+        },
+        {
+          "id": "Wolfhook",
+          "name": "Wolfhook",
+          "localeName": "鉤鉤果",
+          "count": 60
+        },
+        {
+          "id": "OminousMask",
+          "name": "Ominous Mask",
+          "localeName": "不祥的面具",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3588.6 },
-        { "type": 3, "value": 225.23 },
-        { "type": 2, "value": 70.09 },
-        { "type": 33, "value": 0.3 }
-      ]
+      "HP": 3588.6,
+      "ATK": 70.09,
+      "DEF": 225.23,
+      "extra": 0.3
     }
   ],
   "ascensionType": 33,
   "element": 3,
   "elemSkill": {
     "name": "利爪與蒼雷",
-    "desc": "用師父與他的「家人」教他的方法，來解決獵物。\\n\\n<color=#FFD780FF>點按</color>\\n向前揮動雷狼之爪，對前方的敵人造成<color=#FFACFFFF>雷元素傷害</color>。\\n若命中敵人，則會為雷澤累積一個雷之印，提高雷澤的元素充能效率。\\n最多同時存在三個雷之印，疊加會刷新持續時間。\\n\\n<color=#FFD780FF>長按</color>\\n聚集雷電力量引發小範圍的雷爆，造成大量<color=#FFACFFFF>雷元素傷害</color>，並清除已有的雷之印。\\n每個因此被清除的雷之印，都會轉為雷澤的元素能量。\\n\\n<i>雷擊落下的一瞬，偶爾能瞥見雷澤靈魂深處那頭狼打量獵物的眼神。</i>",
+    "desc": "用師父與他的「家人」教他的方法，來解決獵物。\n\n<color=#FFD780FF>點按</color>\n向前揮動雷狼之爪，對前方的敵人造成<color=#FFACFFFF>雷元素傷害</color>。\n若命中敵人，則會為雷澤累積一個雷之印，提高雷澤的元素充能效率。\n最多同時存在三個雷之印，疊加會刷新持續時間。\n\n<color=#FFD780FF>長按</color>\n聚集雷電力量引發小範圍的雷爆，造成大量<color=#FFACFFFF>雷元素傷害</color>，並清除已有的雷之印。\n每個因此被清除的雷之印，都會轉為雷澤的元素能量。\n\n<i>雷擊落下的一瞬，偶爾能瞥見雷澤靈魂深處那頭狼打量獵物的眼神。</i>",
     "cd": 6
   },
   "elemBurst": {
     "name": "雷牙",
-    "desc": "喚醒無形的雷狼守護自己，對周圍的敵人造成<color=#FFACFFFF>雷元素傷害</color>，並消耗所有雷之印，為雷澤恢復元素能量。\\n雷狼存在期間，會與雷澤共同戰鬥。\\n\\n<color=#FFD780FF>雷狼</color>\\n·會隨雷澤的普通攻擊協力攻擊，造成<color=#FFACFFFF>雷元素傷害</color>；\\n·提高雷澤的攻擊速度、<color=#FFACFFFF>雷元素抗性</color>；\\n·使雷澤免疫<color=#FFACFFFF>感電</color>反應的傷害；\\n·無法施放重擊。；\\n·提高雷澤的抗打斷能力。\\n\\n效果將在雷澤退場時解除。\\n退場時，會依據剩餘的持續時間，歸還至多10點元素能量。\\n\\n<i>狼甦醒了。狩獵的時候到了。</i>",
+    "desc": "喚醒無形的雷狼守護自己，對周圍的敵人造成<color=#FFACFFFF>雷元素傷害</color>，並消耗所有雷之印，為雷澤恢復元素能量。\n雷狼存在期間，會與雷澤共同戰鬥。\n\n<color=#FFD780FF>雷狼</color>\n·會隨雷澤的普通攻擊協力攻擊，造成<color=#FFACFFFF>雷元素傷害</color>；\n·提高雷澤的攻擊速度、<color=#FFACFFFF>雷元素抗性</color>；\n·使雷澤免疫<color=#FFACFFFF>感電</color>反應的傷害；\n·無法施放重擊。；\n·提高雷澤的抗打斷能力。\n\n效果將在雷澤退場時解除。\n退場時，會依據剩餘的持續時間，歸還至多10點元素能量。\n\n<i>狼甦醒了。狩獵的時候到了。</i>",
     "cd": 20,
     "energyCost": 80
   },
   "attackSkill": {
     "name": "普通攻擊·鋼脊",
-    "desc": "<color=#FFD780FF>普通攻擊</color>\\n進行至多四段的連續揮砍。\\n\\n<color=#FFD780FF>重擊</color>\\n持續消耗體力，旋轉大劍攻擊周圍的敵人。\\n停止旋轉時，會進行一次格外有力的揮砍。\\n\\n<color=#FFD780FF>下落攻擊</color>\\n從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。",
+    "desc": "<color=#FFD780FF>普通攻擊</color>\n進行至多四段的連續揮砍。\n\n<color=#FFD780FF>重擊</color>\n持續消耗體力，旋轉大劍攻擊周圍的敵人。\n停止旋轉時，會進行一次格外有力的揮砍。\n\n<color=#FFD780FF>下落攻擊</color>\n從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。",
     "cd": 0
   },
   "c13ns": [

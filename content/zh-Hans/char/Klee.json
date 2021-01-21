@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "AgnidusAgateSliver", "count": 1 },
-        { "name": "PhilanemoMushroom", "count": 3 },
-        { "name": "DiviningScroll", "count": 3 }
+        {
+          "id": "AgnidusAgateSliver",
+          "name": "Agnidus Agate Sliver",
+          "localeName": "燃愿玛瑙碎屑",
+          "count": 1
+        },
+        {
+          "id": "PhilanemoMushroom",
+          "name": "Philanemo Mushroom",
+          "localeName": "慕风蘑菇",
+          "count": 3
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "Divining Scroll",
+          "localeName": "导能绘卷",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 686.6 },
-        { "type": 3, "value": 41.04 },
-        { "type": 2, "value": 20.753 },
-        { "type": 19, "value": 0 }
-      ]
+      "HP": 686.6,
+      "ATK": 20.753,
+      "DEF": 41.04,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "AgnidusAgateFragment", "count": 3 },
-        { "name": "EverflameSeed", "count": 2 },
-        { "name": "PhilanemoMushroom", "count": 10 },
-        { "name": "DiviningScroll", "count": 15 }
+        {
+          "id": "AgnidusAgateFragment",
+          "name": "Agnidus Agate Fragment",
+          "localeName": "燃愿玛瑙断片",
+          "count": 3
+        },
+        {
+          "id": "EverflameSeed",
+          "name": "Everflame Seed",
+          "localeName": "常燃火种",
+          "count": 2
+        },
+        {
+          "id": "PhilanemoMushroom",
+          "name": "Philanemo Mushroom",
+          "localeName": "慕风蘑菇",
+          "count": 10
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "Divining Scroll",
+          "localeName": "导能绘卷",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1174.5 },
-        { "type": 3, "value": 70.2 },
-        { "type": 2, "value": 35.498 },
-        { "type": 19, "value": 0.072 }
-      ]
+      "HP": 1174.5,
+      "ATK": 35.498,
+      "DEF": 70.2,
+      "extra": 0.072
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "AgnidusAgateFragment", "count": 6 },
-        { "name": "EverflameSeed", "count": 4 },
-        { "name": "PhilanemoMushroom", "count": 20 },
-        { "name": "SealedScroll", "count": 12 }
+        {
+          "id": "AgnidusAgateFragment",
+          "name": "Agnidus Agate Fragment",
+          "localeName": "燃愿玛瑙断片",
+          "count": 6
+        },
+        {
+          "id": "EverflameSeed",
+          "name": "Everflame Seed",
+          "localeName": "常燃火种",
+          "count": 4
+        },
+        {
+          "id": "PhilanemoMushroom",
+          "name": "Philanemo Mushroom",
+          "localeName": "慕风蘑菇",
+          "count": 20
+        },
+        {
+          "id": "SealedScroll",
+          "name": "Sealed Scroll",
+          "localeName": "封魔绘卷",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1824.9 },
-        { "type": 3, "value": 109.08 },
-        { "type": 2, "value": 55.159 },
-        { "type": 19, "value": 0.144 }
-      ]
+      "HP": 1824.9,
+      "ATK": 55.159,
+      "DEF": 109.08,
+      "extra": 0.144
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "AgnidusAgateChunk", "count": 3 },
-        { "name": "EverflameSeed", "count": 8 },
-        { "name": "PhilanemoMushroom", "count": 30 },
-        { "name": "SealedScroll", "count": 18 }
+        {
+          "id": "AgnidusAgateChunk",
+          "name": "Agnidus Agate Chunk",
+          "localeName": "燃愿玛瑙块",
+          "count": 3
+        },
+        {
+          "id": "EverflameSeed",
+          "name": "Everflame Seed",
+          "localeName": "常燃火种",
+          "count": 8
+        },
+        {
+          "id": "PhilanemoMushroom",
+          "name": "Philanemo Mushroom",
+          "localeName": "慕风蘑菇",
+          "count": 30
+        },
+        {
+          "id": "SealedScroll",
+          "name": "Sealed Scroll",
+          "localeName": "封魔绘卷",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2312.8 },
-        { "type": 3, "value": 138.24 },
-        { "type": 2, "value": 69.905 },
-        { "type": 19, "value": 0.144 }
-      ]
+      "HP": 2312.8,
+      "ATK": 69.905,
+      "DEF": 138.24,
+      "extra": 0.144
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "AgnidusAgateChunk", "count": 6 },
-        { "name": "EverflameSeed", "count": 12 },
-        { "name": "PhilanemoMushroom", "count": 45 },
-        { "name": "ForbiddenCurseScroll", "count": 12 }
+        {
+          "id": "AgnidusAgateChunk",
+          "name": "Agnidus Agate Chunk",
+          "localeName": "燃愿玛瑙块",
+          "count": 6
+        },
+        {
+          "id": "EverflameSeed",
+          "name": "Everflame Seed",
+          "localeName": "常燃火种",
+          "count": 12
+        },
+        {
+          "id": "PhilanemoMushroom",
+          "name": "Philanemo Mushroom",
+          "localeName": "慕风蘑菇",
+          "count": 45
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "Forbidden Curse Scroll",
+          "localeName": "禁咒绘卷",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2800.6 },
-        { "type": 3, "value": 167.4 },
-        { "type": 2, "value": 84.65 },
-        { "type": 19, "value": 0.216 }
-      ]
+      "HP": 2800.6,
+      "ATK": 84.65,
+      "DEF": 167.4,
+      "extra": 0.216
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "AgnidusAgateGemstone", "count": 6 },
-        { "name": "EverflameSeed", "count": 20 },
-        { "name": "PhilanemoMushroom", "count": 60 },
-        { "name": "ForbiddenCurseScroll", "count": 24 }
+        {
+          "id": "AgnidusAgateGemstone",
+          "name": "Agnidus Agate Gemstone",
+          "localeName": "燃愿玛瑙",
+          "count": 6
+        },
+        {
+          "id": "EverflameSeed",
+          "name": "Everflame Seed",
+          "localeName": "常燃火种",
+          "count": 20
+        },
+        {
+          "id": "PhilanemoMushroom",
+          "name": "Philanemo Mushroom",
+          "localeName": "慕风蘑菇",
+          "count": 60
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "Forbidden Curse Scroll",
+          "localeName": "禁咒绘卷",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3288.5 },
-        { "type": 3, "value": 196.56 },
-        { "type": 2, "value": 99.396 },
-        { "type": 19, "value": 0.288 }
-      ]
+      "HP": 3288.5,
+      "ATK": 99.396,
+      "DEF": 196.56,
+      "extra": 0.288
     }
   ],
   "ascensionType": 19,
   "element": 6,
   "elemSkill": {
     "name": "蹦蹦炸弹",
-    "desc": "投出带来无限快乐的蹦蹦炸弹！\\n蹦蹦炸弹会连续弹跳三次，每次弹跳都会引发爆炸，造成<color=#FF9999FF>火元素范围伤害</color>。\\n\\n第三次弹跳后，将分裂成许多诡雷。\\n诡雷会在接触到敌人或一段时间后爆炸，造成<color=#FF9999FF>火元素范围伤害</color>。\\n\\n初始拥有2次可使用次数。\\n\\n<i>蹦蹦是可莉的「好朋友」…可莉总是忍不住向人介绍他们。</i>",
+    "desc": "投出带来无限快乐的蹦蹦炸弹！\n蹦蹦炸弹会连续弹跳三次，每次弹跳都会引发爆炸，造成<color=#FF9999FF>火元素范围伤害</color>。\n\n第三次弹跳后，将分裂成许多诡雷。\n诡雷会在接触到敌人或一段时间后爆炸，造成<color=#FF9999FF>火元素范围伤害</color>。\n\n初始拥有2次可使用次数。\n\n<i>蹦蹦是可莉的「好朋友」…可莉总是忍不住向人介绍他们。</i>",
     "cd": 20
   },
   "elemBurst": {
     "name": "轰轰火花",
-    "desc": "可莉火力全开！在技能持续时间内，不停召唤轰轰火花攻击附近的敌人，造成<color=#FF9999FF>火元素范围伤害</color>。\\n\\n<i>骑士团的人相信，可莉从来不被自己的炸弹所伤，一定有幸运星眷顾着她吧…</i>",
+    "desc": "可莉火力全开！在技能持续时间内，不停召唤轰轰火花攻击附近的敌人，造成<color=#FF9999FF>火元素范围伤害</color>。\n\n<i>骑士团的人相信，可莉从来不被自己的炸弹所伤，一定有幸运星眷顾着她吧…</i>",
     "cd": 15,
     "energyCost": 60
   },
   "attackSkill": {
     "name": "普通攻击·砰砰",
-    "desc": "<color=#FFD780FF>普通攻击</color>\\n投掷在碰撞后会爆炸的好东西！进行至多三段的炸弹攻击，造成<color=#FF9999FF>火元素范围伤害</color>。\\n\\n<color=#FFD780FF>重击</color>\\n消耗一定体力，短暂咏唱后，轰击敌人，造成<color=#FF9999FF>火元素范围伤害</color>。\\n\\n<color=#FFD780FF>下落攻击</color>\\n凝聚烈焰的力量，从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成<color=#FF9999FF>火元素范围伤害</color>。",
+    "desc": "<color=#FFD780FF>普通攻击</color>\n投掷在碰撞后会爆炸的好东西！进行至多三段的炸弹攻击，造成<color=#FF9999FF>火元素范围伤害</color>。\n\n<color=#FFD780FF>重击</color>\n消耗一定体力，短暂咏唱后，轰击敌人，造成<color=#FF9999FF>火元素范围伤害</color>。\n\n<color=#FFD780FF>下落攻击</color>\n凝聚烈焰的力量，从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成<color=#FF9999FF>火元素范围伤害</color>。",
     "cd": 0
   },
   "c13ns": [

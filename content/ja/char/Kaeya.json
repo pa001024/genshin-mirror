@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "ShivadaJadeSliver", "count": 1 },
-        { "name": "CallaLily", "count": 3 },
-        { "name": "TreasureHoarderInsignia", "count": 3 }
+        {
+          "id": "ShivadaJadeSliver",
+          "name": "Shivada Jade Sliver",
+          "localeName": "哀切なアイスクリスタル·砕屑",
+          "count": 1
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "ドドリアン",
+          "count": 3
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "Treasure Hoarder Insignia",
+          "localeName": "宝探しの鴉マーク",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 728.84 },
-        { "type": 3, "value": 49.59 },
-        { "type": 2, "value": 13.969 },
-        { "type": 10, "value": 0 }
-      ]
+      "HP": 728.84,
+      "ATK": 13.969,
+      "DEF": 49.59,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "ShivadaJadeFragment", "count": 3 },
-        { "name": "HoarfrostCore", "count": 2 },
-        { "name": "CallaLily", "count": 10 },
-        { "name": "TreasureHoarderInsignia", "count": 15 }
+        {
+          "id": "ShivadaJadeFragment",
+          "name": "Shivada Jade Fragment",
+          "localeName": "哀切なアイスクリスタル·欠片",
+          "count": 3
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒のコア",
+          "count": 2
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "ドドリアン",
+          "count": 10
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "Treasure Hoarder Insignia",
+          "localeName": "宝探しの鴉マーク",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1246.7 },
-        { "type": 3, "value": 84.825 },
-        { "type": 2, "value": 23.894 },
-        { "type": 10, "value": 0.0667 }
-      ]
+      "HP": 1246.7,
+      "ATK": 23.894,
+      "DEF": 84.825,
+      "extra": 0.0667
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "ShivadaJadeFragment", "count": 6 },
-        { "name": "HoarfrostCore", "count": 4 },
-        { "name": "CallaLily", "count": 20 },
-        { "name": "SilverRavenInsignia", "count": 12 }
+        {
+          "id": "ShivadaJadeFragment",
+          "name": "Shivada Jade Fragment",
+          "localeName": "哀切なアイスクリスタル·欠片",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒のコア",
+          "count": 4
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "ドドリアン",
+          "count": 20
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "Silver Raven Insignia",
+          "localeName": "シルバーの鴉マーク",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1937.2 },
-        { "type": 3, "value": 131.8 },
-        { "type": 2, "value": 37.128 },
-        { "type": 10, "value": 0.1333 }
-      ]
+      "HP": 1937.2,
+      "ATK": 37.128,
+      "DEF": 131.8,
+      "extra": 0.1333
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "ShivadaJadeChunk", "count": 3 },
-        { "name": "HoarfrostCore", "count": 8 },
-        { "name": "CallaLily", "count": 30 },
-        { "name": "SilverRavenInsignia", "count": 18 }
+        {
+          "id": "ShivadaJadeChunk",
+          "name": "Shivada Jade Chunk",
+          "localeName": "哀切なアイスクリスタル·塊",
+          "count": 3
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒のコア",
+          "count": 8
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "ドドリアン",
+          "count": 30
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "Silver Raven Insignia",
+          "localeName": "シルバーの鴉マーク",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2455 },
-        { "type": 3, "value": 167.04 },
-        { "type": 2, "value": 47.053 },
-        { "type": 10, "value": 0.1333 }
-      ]
+      "HP": 2455,
+      "ATK": 47.053,
+      "DEF": 167.04,
+      "extra": 0.1333
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "ShivadaJadeChunk", "count": 6 },
-        { "name": "HoarfrostCore", "count": 12 },
-        { "name": "CallaLily", "count": 45 },
-        { "name": "GoldenRavenInsignia", "count": 12 }
+        {
+          "id": "ShivadaJadeChunk",
+          "name": "Shivada Jade Chunk",
+          "localeName": "哀切なアイスクリスタル·塊",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒のコア",
+          "count": 12
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "ドドリアン",
+          "count": 45
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "Golden Raven Insignia",
+          "localeName": "ゴールドの鴉マーク",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2972.9 },
-        { "type": 3, "value": 202.27 },
-        { "type": 2, "value": 56.979 },
-        { "type": 10, "value": 0.2 }
-      ]
+      "HP": 2972.9,
+      "ATK": 56.979,
+      "DEF": 202.27,
+      "extra": 0.2
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "ShivadaJadeGemstone", "count": 6 },
-        { "name": "HoarfrostCore", "count": 20 },
-        { "name": "CallaLily", "count": 60 },
-        { "name": "GoldenRavenInsignia", "count": 24 }
+        {
+          "id": "ShivadaJadeGemstone",
+          "name": "Shivada Jade Gemstone",
+          "localeName": "哀切なアイスクリスタル",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒のコア",
+          "count": 20
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "ドドリアン",
+          "count": 60
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "Golden Raven Insignia",
+          "localeName": "ゴールドの鴉マーク",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3490.7 },
-        { "type": 3, "value": 237.51 },
-        { "type": 2, "value": 66.904 },
-        { "type": 10, "value": 0.2667 }
-      ]
+      "HP": 3490.7,
+      "ATK": 66.904,
+      "DEF": 237.51,
+      "extra": 0.2667
     }
   ],
   "ascensionType": 10,
   "element": 7,
   "elemSkill": {
     "name": "霜の襲撃",
-    "desc": "急速に凍結する寒気を放ち、前方の敵に<color=#99FFFFFF>氷元素ダメージ</color>を与える。\\n\\n<i>優しくて親切なガイアだが、本当は誰にも溶かすことができない固い氷である。</i>",
+    "desc": "急速に凍結する寒気を放ち、前方の敵に<color=#99FFFFFF>氷元素ダメージ</color>を与える。\n\n<i>優しくて親切なガイアだが、本当は誰にも溶かすことができない固い氷である。</i>",
     "cd": 6
   },
   "elemBurst": {
     "name": "凛冽なる輪舞",
-    "desc": "空気中の霜を凝集させ、自身を囲む氷柱を3本召喚する。\\nスキル継続中、氷柱はキャラクターと共に動き、経路上の敵に<color=#99FFFFFF>氷元素ダメージ</color>を与える。\\n\\n<i>親切な笑顔と優しい言葉、そしてその二つに隠された無情の氷霜、それらは全てガイアの武器である。</i>",
+    "desc": "空気中の霜を凝集させ、自身を囲む氷柱を3本召喚する。\nスキル継続中、氷柱はキャラクターと共に動き、経路上の敵に<color=#99FFFFFF>氷元素ダメージ</color>を与える。\n\n<i>親切な笑顔と優しい言葉、そしてその二つに隠された無情の氷霜、それらは全てガイアの武器である。</i>",
     "cd": 15,
     "energyCost": 60
   },
   "attackSkill": {
     "name": "通常攻撃·儀典の剣術",
-    "desc": "<color=#FFD780FF>通常攻撃</color>\\n剣による最大5段の連続攻撃を行う。\\n\\n<color=#FFD780FF>重撃</color>\\n一定のスタミナを消費し、前方に斬撃を2回放つ。\\n\\n<color=#FFD780FF>落下攻撃</color>\\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n剣による最大5段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、前方に斬撃を2回放つ。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
     "cd": 0
   },
   "c13ns": [

@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "VarunadaLazuriteSliver", "count": 1 },
-        { "name": "SilkFlower", "count": 3 },
-        { "name": "DamagedMask", "count": 3 }
+        {
+          "id": "VarunadaLazuriteSliver",
+          "name": "Varunada Lazurite Sliver",
+          "localeName": "涤净青金碎屑",
+          "count": 1
+        },
+        {
+          "id": "SilkFlower",
+          "name": "Silk Flower",
+          "localeName": "霓裳花",
+          "count": 3
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Damaged Mask",
+          "localeName": "破损的面具",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 640.29 },
-        { "type": 3, "value": 47.452 },
-        { "type": 2, "value": 12.639 },
-        { "type": 7, "value": 0 }
-      ]
+      "HP": 640.29,
+      "ATK": 12.639,
+      "DEF": 47.452,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "VarunadaLazuriteFragment", "count": 3 },
-        { "name": "CleansingHeart", "count": 2 },
-        { "name": "SilkFlower", "count": 10 },
-        { "name": "DamagedMask", "count": 15 }
+        {
+          "id": "VarunadaLazuriteFragment",
+          "name": "Varunada Lazurite Fragment",
+          "localeName": "涤净青金断片",
+          "count": 3
+        },
+        {
+          "id": "CleansingHeart",
+          "name": "Cleansing Heart",
+          "localeName": "净水之心",
+          "count": 2
+        },
+        {
+          "id": "SilkFlower",
+          "name": "Silk Flower",
+          "localeName": "霓裳花",
+          "count": 10
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Damaged Mask",
+          "localeName": "破损的面具",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1095.2 },
-        { "type": 3, "value": 81.169 },
-        { "type": 2, "value": 21.619 },
-        { "type": 7, "value": 0.06 }
-      ]
+      "HP": 1095.2,
+      "ATK": 21.619,
+      "DEF": 81.169,
+      "extra": 0.06
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "VarunadaLazuriteFragment", "count": 6 },
-        { "name": "CleansingHeart", "count": 4 },
-        { "name": "SilkFlower", "count": 20 },
-        { "name": "StainedMask", "count": 12 }
+        {
+          "id": "VarunadaLazuriteFragment",
+          "name": "Varunada Lazurite Fragment",
+          "localeName": "涤净青金断片",
+          "count": 6
+        },
+        {
+          "id": "CleansingHeart",
+          "name": "Cleansing Heart",
+          "localeName": "净水之心",
+          "count": 4
+        },
+        {
+          "id": "SilkFlower",
+          "name": "Silk Flower",
+          "localeName": "霓裳花",
+          "count": 20
+        },
+        {
+          "id": "StainedMask",
+          "name": "Stained Mask",
+          "localeName": "污秽的面具",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1701.8 },
-        { "type": 3, "value": 126.12 },
-        { "type": 2, "value": 33.592 },
-        { "type": 7, "value": 0.12 }
-      ]
+      "HP": 1701.8,
+      "ATK": 33.592,
+      "DEF": 126.12,
+      "extra": 0.12
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "VarunadaLazuriteChunk", "count": 3 },
-        { "name": "CleansingHeart", "count": 8 },
-        { "name": "SilkFlower", "count": 30 },
-        { "name": "StainedMask", "count": 18 }
+        {
+          "id": "VarunadaLazuriteChunk",
+          "name": "Varunada Lazurite Chunk",
+          "localeName": "涤净青金块",
+          "count": 3
+        },
+        {
+          "id": "CleansingHeart",
+          "name": "Cleansing Heart",
+          "localeName": "净水之心",
+          "count": 8
+        },
+        {
+          "id": "SilkFlower",
+          "name": "Silk Flower",
+          "localeName": "霓裳花",
+          "count": 30
+        },
+        {
+          "id": "StainedMask",
+          "name": "Stained Mask",
+          "localeName": "污秽的面具",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2156.8 },
-        { "type": 3, "value": 159.84 },
-        { "type": 2, "value": 42.572 },
-        { "type": 7, "value": 0.12 }
-      ]
+      "HP": 2156.8,
+      "ATK": 42.572,
+      "DEF": 159.84,
+      "extra": 0.12
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "VarunadaLazuriteChunk", "count": 6 },
-        { "name": "CleansingHeart", "count": 12 },
-        { "name": "SilkFlower", "count": 45 },
-        { "name": "OminousMask", "count": 12 }
+        {
+          "id": "VarunadaLazuriteChunk",
+          "name": "Varunada Lazurite Chunk",
+          "localeName": "涤净青金块",
+          "count": 6
+        },
+        {
+          "id": "CleansingHeart",
+          "name": "Cleansing Heart",
+          "localeName": "净水之心",
+          "count": 12
+        },
+        {
+          "id": "SilkFlower",
+          "name": "Silk Flower",
+          "localeName": "霓裳花",
+          "count": 45
+        },
+        {
+          "id": "OminousMask",
+          "name": "Ominous Mask",
+          "localeName": "不祥的面具",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2611.7 },
-        { "type": 3, "value": 193.56 },
-        { "type": 2, "value": 51.552 },
-        { "type": 7, "value": 0.18 }
-      ]
+      "HP": 2611.7,
+      "ATK": 51.552,
+      "DEF": 193.56,
+      "extra": 0.18
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "VarunadaLazuriteGemstone", "count": 6 },
-        { "name": "CleansingHeart", "count": 20 },
-        { "name": "SilkFlower", "count": 60 },
-        { "name": "OminousMask", "count": 24 }
+        {
+          "id": "VarunadaLazuriteGemstone",
+          "name": "Varunada Lazurite Gemstone",
+          "localeName": "涤净青金",
+          "count": 6
+        },
+        {
+          "id": "CleansingHeart",
+          "name": "Cleansing Heart",
+          "localeName": "净水之心",
+          "count": 20
+        },
+        {
+          "id": "SilkFlower",
+          "name": "Silk Flower",
+          "localeName": "霓裳花",
+          "count": 60
+        },
+        {
+          "id": "OminousMask",
+          "name": "Ominous Mask",
+          "localeName": "不祥的面具",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3066.6 },
-        { "type": 3, "value": 227.27 },
-        { "type": 2, "value": 60.532 },
-        { "type": 7, "value": 0.24 }
-      ]
+      "HP": 3066.6,
+      "ATK": 60.532,
+      "DEF": 227.27,
+      "extra": 0.24
     }
   ],
   "ascensionType": 7,
   "element": 5,
   "elemSkill": {
     "name": "古华剑·画雨笼山",
-    "desc": "使出连续两段的剑技，对前方的敌人造成<color=#80C0FFFF>水元素伤害</color>。同时，生成最大数量的雨帘剑围绕在当前场上自己的角色身边。\\n具有如下特性：\\n·角色受到伤害时会破碎，降低受到的伤害；\\n·提高角色的抗打断能力。\\n行秋<color=#80C0FFFF>水元素伤害加成</color>的20%将转换为雨帘剑的额外伤害减免。\\n\\n最多通过这种方式获得24%额外伤害减免。\\n初始雨帘剑的最大数量为3柄。\\n施放的瞬间，为角色施加<color=#80C0FFFF>潮湿</color>状态。\\n\\n<i>「蛟龙易斩，雨线难画」。</i>",
+    "desc": "使出连续两段的剑技，对前方的敌人造成<color=#80C0FFFF>水元素伤害</color>。同时，生成最大数量的雨帘剑围绕在当前场上自己的角色身边。\n具有如下特性：\n·角色受到伤害时会破碎，降低受到的伤害；\n·提高角色的抗打断能力。\n行秋<color=#80C0FFFF>水元素伤害加成</color>的20%将转换为雨帘剑的额外伤害减免。\n\n最多通过这种方式获得24%额外伤害减免。\n初始雨帘剑的最大数量为3柄。\n施放的瞬间，为角色施加<color=#80C0FFFF>潮湿</color>状态。\n\n<i>「蛟龙易斩，雨线难画」。</i>",
     "cd": 21
   },
   "elemBurst": {
     "name": "古华剑·裁雨留虹",
-    "desc": "展开虹剑势，驾御幻影剑雨战斗，并生成最大数量的雨帘剑。\\n\\n<color=#FFD780FF>虹剑势</color>\\n·当前场上自己的角色进行普通攻击时，会产生剑雨连携攻击，造成<color=#80C0FFFF>水元素伤害</color>；\\n·雨帘剑的数量将始终维持在最大数量。\\n\\n<i>「裁雨法」不传绝学，古华镇派秘诀之一。</i>",
+    "desc": "展开虹剑势，驾御幻影剑雨战斗，并生成最大数量的雨帘剑。\n\n<color=#FFD780FF>虹剑势</color>\n·当前场上自己的角色进行普通攻击时，会产生剑雨连携攻击，造成<color=#80C0FFFF>水元素伤害</color>；\n·雨帘剑的数量将始终维持在最大数量。\n\n<i>「裁雨法」不传绝学，古华镇派秘诀之一。</i>",
     "cd": 20,
     "energyCost": 80
   },
   "attackSkill": {
     "name": "普通攻击·古华剑法",
-    "desc": "<color=#FFD780FF>普通攻击</color>\\n进行至多五段的连续剑击。\\n\\n<color=#FFD780FF>重击</color>\\n消耗一定体力，瞬间向前方挥出两剑。\\n\\n<color=#FFD780FF>下落攻击</color>\\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
+    "desc": "<color=#FFD780FF>普通攻击</color>\n进行至多五段的连续剑击。\n\n<color=#FFD780FF>重击</color>\n消耗一定体力，瞬间向前方挥出两剑。\n\n<color=#FFD780FF>下落攻击</color>\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
     "cd": 0
   },
   "c13ns": [

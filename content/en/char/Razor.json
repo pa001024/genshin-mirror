@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "VajradaAmethystSliver", "count": 1 },
-        { "name": "Wolfhook", "count": 3 },
-        { "name": "DamagedMask", "count": 3 }
+        {
+          "id": "VajradaAmethystSliver",
+          "name": "Vajrada Amethyst Sliver",
+          "localeName": "Vajrada Amethyst Sliver",
+          "count": 1
+        },
+        {
+          "id": "Wolfhook",
+          "name": "Wolfhook",
+          "localeName": "Wolfhook",
+          "count": 3
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Damaged Mask",
+          "localeName": "Damaged Mask",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 749.27 },
-        { "type": 3, "value": 47.025 },
-        { "type": 2, "value": 14.634 },
-        { "type": 33, "value": 0 }
-      ]
+      "HP": 749.27,
+      "ATK": 14.634,
+      "DEF": 47.025,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "VajradaAmethystFragment", "count": 3 },
-        { "name": "LightningPrism", "count": 2 },
-        { "name": "Wolfhook", "count": 10 },
-        { "name": "DamagedMask", "count": 15 }
+        {
+          "id": "VajradaAmethystFragment",
+          "name": "Vajrada Amethyst Fragment",
+          "localeName": "Vajrada Amethyst Fragment",
+          "count": 3
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "Lightning Prism",
+          "count": 2
+        },
+        {
+          "id": "Wolfhook",
+          "name": "Wolfhook",
+          "localeName": "Wolfhook",
+          "count": 10
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Damaged Mask",
+          "localeName": "Damaged Mask",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1281.6 },
-        { "type": 3, "value": 80.438 },
-        { "type": 2, "value": 25.032 },
-        { "type": 33, "value": 0.075 }
-      ]
+      "HP": 1281.6,
+      "ATK": 25.032,
+      "DEF": 80.438,
+      "extra": 0.075
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "VajradaAmethystFragment", "count": 6 },
-        { "name": "LightningPrism", "count": 4 },
-        { "name": "Wolfhook", "count": 20 },
-        { "name": "StainedMask", "count": 12 }
+        {
+          "id": "VajradaAmethystFragment",
+          "name": "Vajrada Amethyst Fragment",
+          "localeName": "Vajrada Amethyst Fragment",
+          "count": 6
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "Lightning Prism",
+          "count": 4
+        },
+        {
+          "id": "Wolfhook",
+          "name": "Wolfhook",
+          "localeName": "Wolfhook",
+          "count": 20
+        },
+        {
+          "id": "StainedMask",
+          "name": "Stained Mask",
+          "localeName": "Stained Mask",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1991.5 },
-        { "type": 3, "value": 124.99 },
-        { "type": 2, "value": 38.896 },
-        { "type": 33, "value": 0.15 }
-      ]
+      "HP": 1991.5,
+      "ATK": 38.896,
+      "DEF": 124.99,
+      "extra": 0.15
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "VajradaAmethystChunk", "count": 3 },
-        { "name": "LightningPrism", "count": 8 },
-        { "name": "Wolfhook", "count": 30 },
-        { "name": "StainedMask", "count": 18 }
+        {
+          "id": "VajradaAmethystChunk",
+          "name": "Vajrada Amethyst Chunk",
+          "localeName": "Vajrada Amethyst Chunk",
+          "count": 3
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "Lightning Prism",
+          "count": 8
+        },
+        {
+          "id": "Wolfhook",
+          "name": "Wolfhook",
+          "localeName": "Wolfhook",
+          "count": 30
+        },
+        {
+          "id": "StainedMask",
+          "name": "Stained Mask",
+          "localeName": "Stained Mask",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2523.9 },
-        { "type": 3, "value": 158.4 },
-        { "type": 2, "value": 49.294 },
-        { "type": 33, "value": 0.15 }
-      ]
+      "HP": 2523.9,
+      "ATK": 49.294,
+      "DEF": 158.4,
+      "extra": 0.15
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "VajradaAmethystChunk", "count": 6 },
-        { "name": "LightningPrism", "count": 12 },
-        { "name": "Wolfhook", "count": 45 },
-        { "name": "OminousMask", "count": 12 }
+        {
+          "id": "VajradaAmethystChunk",
+          "name": "Vajrada Amethyst Chunk",
+          "localeName": "Vajrada Amethyst Chunk",
+          "count": 6
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "Lightning Prism",
+          "count": 12
+        },
+        {
+          "id": "Wolfhook",
+          "name": "Wolfhook",
+          "localeName": "Wolfhook",
+          "count": 45
+        },
+        {
+          "id": "OminousMask",
+          "name": "Ominous Mask",
+          "localeName": "Ominous Mask",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3056.2 },
-        { "type": 3, "value": 191.81 },
-        { "type": 2, "value": 59.692 },
-        { "type": 33, "value": 0.225 }
-      ]
+      "HP": 3056.2,
+      "ATK": 59.692,
+      "DEF": 191.81,
+      "extra": 0.225
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "VajradaAmethystGemstone", "count": 6 },
-        { "name": "LightningPrism", "count": 20 },
-        { "name": "Wolfhook", "count": 60 },
-        { "name": "OminousMask", "count": 24 }
+        {
+          "id": "VajradaAmethystGemstone",
+          "name": "Vajrada Amethyst Gemstone",
+          "localeName": "Vajrada Amethyst Gemstone",
+          "count": 6
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "Lightning Prism",
+          "count": 20
+        },
+        {
+          "id": "Wolfhook",
+          "name": "Wolfhook",
+          "localeName": "Wolfhook",
+          "count": 60
+        },
+        {
+          "id": "OminousMask",
+          "name": "Ominous Mask",
+          "localeName": "Ominous Mask",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3588.6 },
-        { "type": 3, "value": 225.23 },
-        { "type": 2, "value": 70.09 },
-        { "type": 33, "value": 0.3 }
-      ]
+      "HP": 3588.6,
+      "ATK": 70.09,
+      "DEF": 225.23,
+      "extra": 0.3
     }
   ],
   "ascensionType": 33,
   "element": 3,
   "elemSkill": {
     "name": "Claw and Thunder",
-    "desc": "#Hunts his prey using the techniques taught to him by his master and his Lupical.\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nSwings the Thunder Wolf Claw, dealing <color=#FFACFFFF>Electro DMG</color> to opponents in front of Razor.\\nUpon striking an opponent, Razor will gain an Electro Sigil, which increases his Energy Recharge rate.\\nRazor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration.\\n\\n<color=#FFD780FF>Hold</color>\\nGathers Electro energy to unleash a lightning storm over a small AoE, causing massive <color=#FFACFFFF>Electro DMG</color>, and clears all of Razor's Electro Sigils.\\nEach Electro Sigil cleared in this manner will be converted into Energy for Razor.\\n\\n<i>In the moment when lightning strikes, you can sometimes glimpse the look of a predator sizing up his prey deep within Razor's eyes.</i>",
+    "desc": "#Hunts his prey using the techniques taught to him by his master and his Lupical.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nSwings the Thunder Wolf Claw, dealing <color=#FFACFFFF>Electro DMG</color> to opponents in front of Razor.\nUpon striking an opponent, Razor will gain an Electro Sigil, which increases his Energy Recharge rate.\nRazor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration.\n\n<color=#FFD780FF>Hold</color>\nGathers Electro energy to unleash a lightning storm over a small AoE, causing massive <color=#FFACFFFF>Electro DMG</color>, and clears all of Razor's Electro Sigils.\nEach Electro Sigil cleared in this manner will be converted into Energy for Razor.\n\n<i>In the moment when lightning strikes, you can sometimes glimpse the look of a predator sizing up his prey deep within Razor's eyes.</i>",
     "cd": 6
   },
   "elemBurst": {
     "name": "Lightning Fang",
-    "desc": "Summons the Wolf Within which deals <color=#FFACFFFF>Electro DMG</color> to all nearby opponents. This clears all of Razor's Electro Sigils, which will be converted into elemental energy for him.\\nThe Wolf Within will fight alongside Razor for the skill's duration.\\n\\n<color=#FFD780FF>The Wolf Within</color>\\n·Strikes alongside Razor's normal attacks, dealing <color=#FFACFFFF>Electro DMG</color>.\\n·Raises Razor's ATK SPD and <color=#FFACFFFF>Electro RES</color>.\\n·Causes Razor to be immune to DMG inflicted by the <color=#FFACFFFF>Electro-Charged</color> status.\\n·Disables Razor's Charged Attacks.\\n·Increases Razor's resistance to interruption.\\n\\nThese effects end when Razor leaves the battlefield.\\nWhen Razor leaves the field, a maximum of 10 Energy will be returned to him based off the duration remaining on this skill.\\n\\n<i>The wolf has awoken. The hunt is on.</i>",
+    "desc": "Summons the Wolf Within which deals <color=#FFACFFFF>Electro DMG</color> to all nearby opponents. This clears all of Razor's Electro Sigils, which will be converted into elemental energy for him.\nThe Wolf Within will fight alongside Razor for the skill's duration.\n\n<color=#FFD780FF>The Wolf Within</color>\n·Strikes alongside Razor's normal attacks, dealing <color=#FFACFFFF>Electro DMG</color>.\n·Raises Razor's ATK SPD and <color=#FFACFFFF>Electro RES</color>.\n·Causes Razor to be immune to DMG inflicted by the <color=#FFACFFFF>Electro-Charged</color> status.\n·Disables Razor's Charged Attacks.\n·Increases Razor's resistance to interruption.\n\nThese effects end when Razor leaves the battlefield.\nWhen Razor leaves the field, a maximum of 10 Energy will be returned to him based off the duration remaining on this skill.\n\n<i>The wolf has awoken. The hunt is on.</i>",
     "cd": 20,
     "energyCost": 80
   },
   "attackSkill": {
     "name": "Normal Attack: Steel Fang",
-    "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 4 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt end of the sequence, perform a more powerful slash. \\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 4 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt end of the sequence, perform a more powerful slash. \n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "cd": 0
   },
   "c13ns": [

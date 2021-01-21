@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "VajradaAmethystSliver", "count": 1 },
-        { "name": "SmallLampGrass", "count": 3 },
-        { "name": "FirmArrowhead", "count": 3 }
+        {
+          "id": "VajradaAmethystSliver",
+          "name": "Vajrada Amethyst Sliver",
+          "localeName": "Vajrada Amethyst Sliver",
+          "count": 1
+        },
+        {
+          "id": "SmallLampGrass",
+          "name": "Small Lamp Grass",
+          "localeName": "Small Lamp Grass",
+          "count": 3
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Firm Arrowhead",
+          "localeName": "Firm Arrowhead",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 575.58 },
-        { "type": 3, "value": 37.193 },
-        { "type": 2, "value": 15.299 },
-        { "type": 7, "value": 0 }
-      ]
+      "HP": 575.58,
+      "ATK": 15.299,
+      "DEF": 37.193,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "VajradaAmethystFragment", "count": 3 },
-        { "name": "LightningPrism", "count": 2 },
-        { "name": "SmallLampGrass", "count": 10 },
-        { "name": "FirmArrowhead", "count": 15 }
+        {
+          "id": "VajradaAmethystFragment",
+          "name": "Vajrada Amethyst Fragment",
+          "localeName": "Vajrada Amethyst Fragment",
+          "count": 3
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "Lightning Prism",
+          "count": 2
+        },
+        {
+          "id": "SmallLampGrass",
+          "name": "Small Lamp Grass",
+          "localeName": "Small Lamp Grass",
+          "count": 10
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Firm Arrowhead",
+          "localeName": "Firm Arrowhead",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 984.54 },
-        { "type": 3, "value": 63.619 },
-        { "type": 2, "value": 26.17 },
-        { "type": 7, "value": 0.06 }
-      ]
+      "HP": 984.54,
+      "ATK": 26.17,
+      "DEF": 63.619,
+      "extra": 0.06
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "VajradaAmethystFragment", "count": 6 },
-        { "name": "LightningPrism", "count": 4 },
-        { "name": "SmallLampGrass", "count": 20 },
-        { "name": "SharpArrowhead", "count": 12 }
+        {
+          "id": "VajradaAmethystFragment",
+          "name": "Vajrada Amethyst Fragment",
+          "localeName": "Vajrada Amethyst Fragment",
+          "count": 6
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "Lightning Prism",
+          "count": 4
+        },
+        {
+          "id": "SmallLampGrass",
+          "name": "Small Lamp Grass",
+          "localeName": "Small Lamp Grass",
+          "count": 20
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Sharp Arrowhead",
+          "localeName": "Sharp Arrowhead",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1529.8 },
-        { "type": 3, "value": 98.854 },
-        { "type": 2, "value": 40.664 },
-        { "type": 7, "value": 0.12 }
-      ]
+      "HP": 1529.8,
+      "ATK": 40.664,
+      "DEF": 98.854,
+      "extra": 0.12
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "VajradaAmethystChunk", "count": 3 },
-        { "name": "LightningPrism", "count": 8 },
-        { "name": "SmallLampGrass", "count": 30 },
-        { "name": "SharpArrowhead", "count": 18 }
+        {
+          "id": "VajradaAmethystChunk",
+          "name": "Vajrada Amethyst Chunk",
+          "localeName": "Vajrada Amethyst Chunk",
+          "count": 3
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "Lightning Prism",
+          "count": 8
+        },
+        {
+          "id": "SmallLampGrass",
+          "name": "Small Lamp Grass",
+          "localeName": "Small Lamp Grass",
+          "count": 30
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Sharp Arrowhead",
+          "localeName": "Sharp Arrowhead",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1938.8 },
-        { "type": 3, "value": 125.28 },
-        { "type": 2, "value": 51.535 },
-        { "type": 7, "value": 0.12 }
-      ]
+      "HP": 1938.8,
+      "ATK": 51.535,
+      "DEF": 125.28,
+      "extra": 0.12
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "VajradaAmethystChunk", "count": 6 },
-        { "name": "LightningPrism", "count": 12 },
-        { "name": "SmallLampGrass", "count": 45 },
-        { "name": "WeatheredArrowhead", "count": 12 }
+        {
+          "id": "VajradaAmethystChunk",
+          "name": "Vajrada Amethyst Chunk",
+          "localeName": "Vajrada Amethyst Chunk",
+          "count": 6
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "Lightning Prism",
+          "count": 12
+        },
+        {
+          "id": "SmallLampGrass",
+          "name": "Small Lamp Grass",
+          "localeName": "Small Lamp Grass",
+          "count": 45
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Weathered Arrowhead",
+          "localeName": "Weathered Arrowhead",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2347.7 },
-        { "type": 3, "value": 151.71 },
-        { "type": 2, "value": 62.405 },
-        { "type": 7, "value": 0.18 }
-      ]
+      "HP": 2347.7,
+      "ATK": 62.405,
+      "DEF": 151.71,
+      "extra": 0.18
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "VajradaAmethystGemstone", "count": 6 },
-        { "name": "LightningPrism", "count": 20 },
-        { "name": "SmallLampGrass", "count": 60 },
-        { "name": "WeatheredArrowhead", "count": 24 }
+        {
+          "id": "VajradaAmethystGemstone",
+          "name": "Vajrada Amethyst Gemstone",
+          "localeName": "Vajrada Amethyst Gemstone",
+          "count": 6
+        },
+        {
+          "id": "LightningPrism",
+          "name": "Lightning Prism",
+          "localeName": "Lightning Prism",
+          "count": 20
+        },
+        {
+          "id": "SmallLampGrass",
+          "name": "Small Lamp Grass",
+          "localeName": "Small Lamp Grass",
+          "count": 60
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Weathered Arrowhead",
+          "localeName": "Weathered Arrowhead",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2756.7 },
-        { "type": 3, "value": 178.13 },
-        { "type": 2, "value": 73.276 },
-        { "type": 7, "value": 0.24 }
-      ]
+      "HP": 2756.7,
+      "ATK": 73.276,
+      "DEF": 178.13,
+      "extra": 0.24
     }
   ],
   "ascensionType": 7,
   "element": 3,
   "elemSkill": {
     "name": "Nightrider",
-    "desc": "#Summons Oz. The night raven forged of darkness and lightning descends upon the land, dealing <color=#FFACFFFF>Electro DMG</color> in a small AoE.\\nFor the ability's duration, Oz will continuously attack nearby opponents with <color=#FFACFFFF>Freikugel</color>.\\n\\nHold to adjust the location Oz will be summoned to.\\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} again any time during the ability's duration to once again summon him to Fischl's side.\\n\\n<i>\"My time is most precious, and I shall not waste it on the likes of you... Go, Oz, fall upon them, and bring down upon them your Rachsüchtig Blitz, that which tears open the long night.\"</i>\\n<i>—Flowers for Princess Fischl (IV): Farewell Frau Welt</i>",
+    "desc": "#Summons Oz. The night raven forged of darkness and lightning descends upon the land, dealing <color=#FFACFFFF>Electro DMG</color> in a small AoE.\nFor the ability's duration, Oz will continuously attack nearby opponents with <color=#FFACFFFF>Freikugel</color>.\n\nHold to adjust the location Oz will be summoned to.\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} again any time during the ability's duration to once again summon him to Fischl's side.\n\n<i>\"My time is most precious, and I shall not waste it on the likes of you... Go, Oz, fall upon them, and bring down upon them your Rachsüchtig Blitz, that which tears open the long night.\"</i>\n<i>—Flowers for Princess Fischl (IV): Farewell Frau Welt</i>",
     "cd": 25
   },
   "elemBurst": {
     "name": "Midnight Phantasmagoria",
-    "desc": "Summons Oz to spread his twin wings of twilight and defend Fischl.\\nHas the following properties during the ability's duration:\\n·Fischl takes on Oz's form, greatly increasing her Movement Speed.\\n·Strikes nearby opponents with lightning, dealing <color=#FFACFFFF>Electro DMG</color> to opponents she comes into contact with. Each opponent can only be struck once.\\n·Once this ability's effects end, Oz will remain on the battlefield and attack his Prinzessin's foes. If Oz is already on the field, then this will reset the duration of his presence.\\n\\n<i>\"...In the hordes of beasts that follow the cursed blood, only Prince Nachtraben, who bore witness to the extinction of a thousand worlds, knows her true greatness. Thus the night wings he spreads are his eternal promise to protect Her Royal Highness.\"</i>\\n<i>—Flowers for Princess Fischl (I): End Time Zersetzung</i>",
+    "desc": "Summons Oz to spread his twin wings of twilight and defend Fischl.\nHas the following properties during the ability's duration:\n·Fischl takes on Oz's form, greatly increasing her Movement Speed.\n·Strikes nearby opponents with lightning, dealing <color=#FFACFFFF>Electro DMG</color> to opponents she comes into contact with. Each opponent can only be struck once.\n·Once this ability's effects end, Oz will remain on the battlefield and attack his Prinzessin's foes. If Oz is already on the field, then this will reset the duration of his presence.\n\n<i>\"...In the hordes of beasts that follow the cursed blood, only Prince Nachtraben, who bore witness to the extinction of a thousand worlds, knows her true greatness. Thus the night wings he spreads are his eternal promise to protect Her Royal Highness.\"</i>\n<i>—Flowers for Princess Fischl (I): End Time Zersetzung</i>",
     "cd": 15,
     "energyCost": 60
   },
   "attackSkill": {
     "name": "Normal Attack: Bolts of Downfall",
-    "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, the dark lightning spirits of Immernachtreich shall heed the call of their Prinzessin and indwell the enchanted arrowhead. When fully indwelt, the Rachsüchtig Blitz shall deal immense <color=#FFACFFFF>Electro DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 5 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, the dark lightning spirits of Immernachtreich shall heed the call of their Prinzessin and indwell the enchanted arrowhead. When fully indwelt, the Rachsüchtig Blitz shall deal immense <color=#FFACFFFF>Electro DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
     "cd": 0
   },
   "c13ns": [

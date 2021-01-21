@@ -48,7 +48,7 @@ import { IItem } from "~/modules/core";
   // set html header
   head() {
     // Set Meta Tags for this Page
-    const title = this.$t("title.sub", [this.$t(`${this.data?.localeName}`)]) as string;
+    const title = this.$t("title.sub", [this.data?.localeName]) as string;
     return { title };
   },
 })

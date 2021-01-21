@@ -14,91 +14,194 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "ShivadaJadeSliver", "count": 1 },
-        { "name": "SmallLampGrass", "count": 3 },
-        { "name": "DiviningScroll", "count": 3 }
+        {
+          "id": "ShivadaJadeSliver",
+          "name": "Shivada Jade Sliver",
+          "localeName": "哀切なアイスクリスタル·砕屑",
+          "count": 1
+        },
+        {
+          "id": "SmallLampGrass",
+          "name": "Small Lamp Grass",
+          "localeName": "イグサ",
+          "count": 3
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "Divining Scroll",
+          "localeName": "占いの絵巻",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 907.3 },
-        { "type": 3, "value": 52.326 },
-        { "type": 2, "value": 19.476 },
-        { "type": 29, "value": 0 }
-      ]
+      "HP": 907.3,
+      "ATK": 19.476,
+      "DEF": 52.326,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "ShivadaJadeFragment", "count": 3 },
-        { "name": "HoarfrostCore", "count": 2 },
-        { "name": "SmallLampGrass", "count": 10 },
-        { "name": "DiviningScroll", "count": 15 }
+        {
+          "id": "ShivadaJadeFragment",
+          "name": "Shivada Jade Fragment",
+          "localeName": "哀切なアイスクリスタル·欠片",
+          "count": 3
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒のコア",
+          "count": 2
+        },
+        {
+          "id": "SmallLampGrass",
+          "name": "Small Lamp Grass",
+          "localeName": "イグサ",
+          "count": 10
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "Divining Scroll",
+          "localeName": "占いの絵巻",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1552 },
-        { "type": 3, "value": 89.505 },
-        { "type": 2, "value": 33.314 },
-        { "type": 29, "value": 0.072 }
-      ]
+      "HP": 1552,
+      "ATK": 33.314,
+      "DEF": 89.505,
+      "extra": 0.072
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "ShivadaJadeFragment", "count": 6 },
-        { "name": "HoarfrostCore", "count": 4 },
-        { "name": "SmallLampGrass", "count": 20 },
-        { "name": "SealedScroll", "count": 12 }
+        {
+          "id": "ShivadaJadeFragment",
+          "name": "Shivada Jade Fragment",
+          "localeName": "哀切なアイスクリスタル·欠片",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒のコア",
+          "count": 4
+        },
+        {
+          "id": "SmallLampGrass",
+          "name": "Small Lamp Grass",
+          "localeName": "イグサ",
+          "count": 20
+        },
+        {
+          "id": "SealedScroll",
+          "name": "Sealed Scroll",
+          "localeName": "封魔の絵巻",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2411.5 },
-        { "type": 3, "value": 139.08 },
-        { "type": 2, "value": 51.765 },
-        { "type": 29, "value": 0.144 }
-      ]
+      "HP": 2411.5,
+      "ATK": 51.765,
+      "DEF": 139.08,
+      "extra": 0.144
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "ShivadaJadeChunk", "count": 3 },
-        { "name": "HoarfrostCore", "count": 8 },
-        { "name": "SmallLampGrass", "count": 30 },
-        { "name": "SealedScroll", "count": 18 }
+        {
+          "id": "ShivadaJadeChunk",
+          "name": "Shivada Jade Chunk",
+          "localeName": "哀切なアイスクリスタル·塊",
+          "count": 3
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒のコア",
+          "count": 8
+        },
+        {
+          "id": "SmallLampGrass",
+          "name": "Small Lamp Grass",
+          "localeName": "イグサ",
+          "count": 30
+        },
+        {
+          "id": "SealedScroll",
+          "name": "Sealed Scroll",
+          "localeName": "封魔の絵巻",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3056.2 },
-        { "type": 3, "value": 176.26 },
-        { "type": 2, "value": 65.603 },
-        { "type": 29, "value": 0.144 }
-      ]
+      "HP": 3056.2,
+      "ATK": 65.603,
+      "DEF": 176.26,
+      "extra": 0.144
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "ShivadaJadeChunk", "count": 6 },
-        { "name": "HoarfrostCore", "count": 12 },
-        { "name": "SmallLampGrass", "count": 45 },
-        { "name": "ForbiddenCurseScroll", "count": 12 }
+        {
+          "id": "ShivadaJadeChunk",
+          "name": "Shivada Jade Chunk",
+          "localeName": "哀切なアイスクリスタル·塊",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒のコア",
+          "count": 12
+        },
+        {
+          "id": "SmallLampGrass",
+          "name": "Small Lamp Grass",
+          "localeName": "イグサ",
+          "count": 45
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "Forbidden Curse Scroll",
+          "localeName": "禁呪の絵巻",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3700.8 },
-        { "type": 3, "value": 213.43 },
-        { "type": 2, "value": 79.441 },
-        { "type": 29, "value": 0.216 }
-      ]
+      "HP": 3700.8,
+      "ATK": 79.441,
+      "DEF": 213.43,
+      "extra": 0.216
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "ShivadaJadeGemstone", "count": 6 },
-        { "name": "HoarfrostCore", "count": 20 },
-        { "name": "SmallLampGrass", "count": 60 },
-        { "name": "ForbiddenCurseScroll", "count": 24 }
+        {
+          "id": "ShivadaJadeGemstone",
+          "name": "Shivada Jade Gemstone",
+          "localeName": "哀切なアイスクリスタル",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒のコア",
+          "count": 20
+        },
+        {
+          "id": "SmallLampGrass",
+          "name": "Small Lamp Grass",
+          "localeName": "イグサ",
+          "count": 60
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "Forbidden Curse Scroll",
+          "localeName": "禁呪の絵巻",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 4345.5 },
-        { "type": 3, "value": 250.61 },
-        { "type": 2, "value": 93.279 },
-        { "type": 29, "value": 0.288 }
-      ]
+      "HP": 4345.5,
+      "ATK": 93.279,
+      "DEF": 250.61,
+      "extra": 0.288
     }
   ],
   "ascensionType": 29,

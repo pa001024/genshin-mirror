@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "VayudaTurquoiseSliver", "count": 1 },
-        { "name": "WindwheelAster", "count": 3 },
-        { "name": "WhopperflowerNectar", "count": 3 }
+        {
+          "id": "VayudaTurquoiseSliver",
+          "name": "Vayuda Turquoise Sliver",
+          "localeName": "Vayuda Turquoise Sliver",
+          "count": 1
+        },
+        {
+          "id": "WindwheelAster",
+          "name": "Windwheel Aster",
+          "localeName": "Windwheel Aster",
+          "count": 3
+        },
+        {
+          "id": "WhopperflowerNectar",
+          "name": "Whopperflower Nectar",
+          "localeName": "Whopperflower Nectar",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 578.98 },
-        { "type": 3, "value": 44.033 },
-        { "type": 2, "value": 10.643 },
-        { "type": 27, "value": 0 }
-      ]
+      "HP": 578.98,
+      "ATK": 10.643,
+      "DEF": 44.033,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "VayudaTurquoiseFragment", "count": 3 },
-        { "name": "HurricaneSeed", "count": 2 },
-        { "name": "WindwheelAster", "count": 10 },
-        { "name": "WhopperflowerNectar", "count": 15 }
+        {
+          "id": "VayudaTurquoiseFragment",
+          "name": "Vayuda Turquoise Fragment",
+          "localeName": "Vayuda Turquoise Fragment",
+          "count": 3
+        },
+        {
+          "id": "HurricaneSeed",
+          "name": "Hurricane Seed",
+          "localeName": "Hurricane Seed",
+          "count": 2
+        },
+        {
+          "id": "WindwheelAster",
+          "name": "Windwheel Aster",
+          "localeName": "Windwheel Aster",
+          "count": 10
+        },
+        {
+          "id": "WhopperflowerNectar",
+          "name": "Whopperflower Nectar",
+          "localeName": "Whopperflower Nectar",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 990.36 },
-        { "type": 3, "value": 75.319 },
-        { "type": 2, "value": 18.205 },
-        { "type": 27, "value": 0.06 }
-      ]
+      "HP": 990.36,
+      "ATK": 18.205,
+      "DEF": 75.319,
+      "extra": 0.06
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "VayudaTurquoiseFragment", "count": 6 },
-        { "name": "HurricaneSeed", "count": 4 },
-        { "name": "WindwheelAster", "count": 20 },
-        { "name": "ShimmeringNectar", "count": 12 }
+        {
+          "id": "VayudaTurquoiseFragment",
+          "name": "Vayuda Turquoise Fragment",
+          "localeName": "Vayuda Turquoise Fragment",
+          "count": 6
+        },
+        {
+          "id": "HurricaneSeed",
+          "name": "Hurricane Seed",
+          "localeName": "Hurricane Seed",
+          "count": 4
+        },
+        {
+          "id": "WindwheelAster",
+          "name": "Windwheel Aster",
+          "localeName": "Windwheel Aster",
+          "count": 20
+        },
+        {
+          "id": "ShimmeringNectar",
+          "name": "Shimmering Nectar",
+          "localeName": "Shimmering Nectar",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1538.9 },
-        { "type": 3, "value": 117.03 },
-        { "type": 2, "value": 28.288 },
-        { "type": 27, "value": 0.12 }
-      ]
+      "HP": 1538.9,
+      "ATK": 28.288,
+      "DEF": 117.03,
+      "extra": 0.12
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "VayudaTurquoiseChunk", "count": 3 },
-        { "name": "HurricaneSeed", "count": 8 },
-        { "name": "WindwheelAster", "count": 30 },
-        { "name": "ShimmeringNectar", "count": 18 }
+        {
+          "id": "VayudaTurquoiseChunk",
+          "name": "Vayuda Turquoise Chunk",
+          "localeName": "Vayuda Turquoise Chunk",
+          "count": 3
+        },
+        {
+          "id": "HurricaneSeed",
+          "name": "Hurricane Seed",
+          "localeName": "Hurricane Seed",
+          "count": 8
+        },
+        {
+          "id": "WindwheelAster",
+          "name": "Windwheel Aster",
+          "localeName": "Windwheel Aster",
+          "count": 30
+        },
+        {
+          "id": "ShimmeringNectar",
+          "name": "Shimmering Nectar",
+          "localeName": "Shimmering Nectar",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1950.3 },
-        { "type": 3, "value": 148.32 },
-        { "type": 2, "value": 35.85 },
-        { "type": 27, "value": 0.12 }
-      ]
+      "HP": 1950.3,
+      "ATK": 35.85,
+      "DEF": 148.32,
+      "extra": 0.12
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "VayudaTurquoiseChunk", "count": 6 },
-        { "name": "HurricaneSeed", "count": 12 },
-        { "name": "WindwheelAster", "count": 45 },
-        { "name": "EnergyNectar", "count": 12 }
+        {
+          "id": "VayudaTurquoiseChunk",
+          "name": "Vayuda Turquoise Chunk",
+          "localeName": "Vayuda Turquoise Chunk",
+          "count": 6
+        },
+        {
+          "id": "HurricaneSeed",
+          "name": "Hurricane Seed",
+          "localeName": "Hurricane Seed",
+          "count": 12
+        },
+        {
+          "id": "WindwheelAster",
+          "name": "Windwheel Aster",
+          "localeName": "Windwheel Aster",
+          "count": 45
+        },
+        {
+          "id": "EnergyNectar",
+          "name": "Energy Nectar",
+          "localeName": "Energy Nectar",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2361.6 },
-        { "type": 3, "value": 179.61 },
-        { "type": 2, "value": 43.412 },
-        { "type": 27, "value": 0.18 }
-      ]
+      "HP": 2361.6,
+      "ATK": 43.412,
+      "DEF": 179.61,
+      "extra": 0.18
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "VayudaTurquoiseGemstone", "count": 6 },
-        { "name": "HurricaneSeed", "count": 20 },
-        { "name": "WindwheelAster", "count": 60 },
-        { "name": "EnergyNectar", "count": 24 }
+        {
+          "id": "VayudaTurquoiseGemstone",
+          "name": "Vayuda Turquoise Gemstone",
+          "localeName": "Vayuda Turquoise Gemstone",
+          "count": 6
+        },
+        {
+          "id": "HurricaneSeed",
+          "name": "Hurricane Seed",
+          "localeName": "Hurricane Seed",
+          "count": 20
+        },
+        {
+          "id": "WindwheelAster",
+          "name": "Windwheel Aster",
+          "localeName": "Windwheel Aster",
+          "count": 60
+        },
+        {
+          "id": "EnergyNectar",
+          "name": "Energy Nectar",
+          "localeName": "Energy Nectar",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2773 },
-        { "type": 3, "value": 210.89 },
-        { "type": 2, "value": 50.975 },
-        { "type": 27, "value": 0.24 }
-      ]
+      "HP": 2773,
+      "ATK": 50.975,
+      "DEF": 210.89,
+      "extra": 0.24
     }
   ],
   "ascensionType": 27,
   "element": 1,
   "elemSkill": {
     "name": "Astable Anemohypostasis Creation - 6308",
-    "desc": "Creates a small Wind Spirit that pulls opponents and objects towards its location, launches opponents within its AoE, and deals <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<i>This is a little embarrassing, but though the elemental lifeforms birthed through this procedure dissipate very rapidly, they are incredibly useful when adventuring. Even failed experiments can have practical applications.</i>",
+    "desc": "Creates a small Wind Spirit that pulls opponents and objects towards its location, launches opponents within its AoE, and deals <color=#80FFD7FF>Anemo DMG</color>.\n\n<i>This is a little embarrassing, but though the elemental lifeforms birthed through this procedure dissipate very rapidly, they are incredibly useful when adventuring. Even failed experiments can have practical applications.</i>",
     "cd": 15
   },
   "elemBurst": {
     "name": "Forbidden Creation - Isomer 75 / Type II",
-    "desc": "Sucrose hurls an unstable concoction that creates a Large Wind Spirit.\\nWhile it persists, the Large Wind Spirit will continuously pull in surrounding opponents and objects, launch nearby opponents, and deal <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Elemental Absorption</color>\\nIf the Wind Spirit comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color> energy, it will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use.\\n\\n<i>Sucrose used to give names to her volatile Anemo Hypostases, but their line of heirs quickly grew to surpass Baron Bunny the 893rd.</i>",
+    "desc": "Sucrose hurls an unstable concoction that creates a Large Wind Spirit.\nWhile it persists, the Large Wind Spirit will continuously pull in surrounding opponents and objects, launch nearby opponents, and deal <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Elemental Absorption</color>\nIf the Wind Spirit comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color> energy, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\n<i>Sucrose used to give names to her volatile Anemo Hypostases, but their line of heirs quickly grew to surpass Baron Bunny the 893rd.</i>",
     "cd": 20,
     "energyCost": 80
   },
   "attackSkill": {
     "name": "Normal Attack: Wind Spirit Creation",
-    "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 attacks using Wind Spirits, dealing <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina and deals <color=#80FFD7FF>AoE Anemo DMG</color> after a short casting time.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nCalling upon the power of her Wind Spirits, Sucrose plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80FFD7FF>AoE Anemo DMG</color> upon impact with the ground.",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 attacks using Wind Spirits, dealing <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina and deals <color=#80FFD7FF>AoE Anemo DMG</color> after a short casting time.\n\n<color=#FFD780FF>Plunging Attack</color>\nCalling upon the power of her Wind Spirits, Sucrose plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80FFD7FF>AoE Anemo DMG</color> upon impact with the ground.",
     "cd": 0
   },
   "c13ns": [

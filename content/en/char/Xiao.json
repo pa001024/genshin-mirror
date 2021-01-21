@@ -14,109 +14,187 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "VayudaTurquoiseSliver", "count": 1 },
-        { "name": "Qingxin", "count": 3 },
-        { "name": "SlimeCondensate", "count": 3 }
+        {
+          "id": "VayudaTurquoiseSliver",
+          "name": "Vayuda Turquoise Sliver",
+          "localeName": "Vayuda Turquoise Sliver",
+          "count": 1
+        },
+        {
+          "id": "Qingxin",
+          "name": "Qingxin",
+          "localeName": "Qingxin",
+          "count": 3
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "Slime Condensate",
+          "localeName": "Slime Condensate",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 850.08 },
-        { "type": 3, "value": 54.891 },
-        { "type": 2, "value": 21.711 },
-        { "type": 27, "value": 0 }
-      ]
+      "HP": 850.08,
+      "ATK": 21.711,
+      "DEF": 54.891,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "VayudaTurquoiseFragment", "count": 3 },
-        { "name": "???", "count": 2 },
-        { "name": "Qingxin", "count": 10 },
-        { "name": "SlimeCondensate", "count": 15 }
+        {
+          "id": "VayudaTurquoiseFragment",
+          "name": "Vayuda Turquoise Fragment",
+          "localeName": "Vayuda Turquoise Fragment",
+          "count": 3
+        },
+        { "id": "unknown", "name": "???", "localeName": "???", "count": 2 },
+        {
+          "id": "Qingxin",
+          "name": "Qingxin",
+          "localeName": "Qingxin",
+          "count": 10
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "Slime Condensate",
+          "localeName": "Slime Condensate",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1454.1 },
-        { "type": 3, "value": 93.893 },
-        { "type": 2, "value": 37.137 },
-        { "type": 27, "value": 0.072 }
-      ]
+      "HP": 1454.1,
+      "ATK": 37.137,
+      "DEF": 93.893,
+      "extra": 0.072
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "VayudaTurquoiseFragment", "count": 6 },
-        { "name": "???", "count": 4 },
-        { "name": "Qingxin", "count": 20 },
-        { "name": "SlimeSecretions", "count": 12 }
+        {
+          "id": "VayudaTurquoiseFragment",
+          "name": "Vayuda Turquoise Fragment",
+          "localeName": "Vayuda Turquoise Fragment",
+          "count": 6
+        },
+        { "id": "unknown", "name": "???", "localeName": "???", "count": 4 },
+        {
+          "id": "Qingxin",
+          "name": "Qingxin",
+          "localeName": "Qingxin",
+          "count": 20
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "Slime Secretions",
+          "localeName": "Slime Secretions",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2259.4 },
-        { "type": 3, "value": 145.89 },
-        { "type": 2, "value": 57.705 },
-        { "type": 27, "value": 0.144 }
-      ]
+      "HP": 2259.4,
+      "ATK": 57.705,
+      "DEF": 145.89,
+      "extra": 0.144
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "VayudaTurquoiseChunk", "count": 3 },
-        { "name": "???", "count": 8 },
-        { "name": "Qingxin", "count": 30 },
-        { "name": "SlimeSecretions", "count": 18 }
+        {
+          "id": "VayudaTurquoiseChunk",
+          "name": "Vayuda Turquoise Chunk",
+          "localeName": "Vayuda Turquoise Chunk",
+          "count": 3
+        },
+        { "id": "unknown", "name": "???", "localeName": "???", "count": 8 },
+        {
+          "id": "Qingxin",
+          "name": "Qingxin",
+          "localeName": "Qingxin",
+          "count": 30
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "Slime Secretions",
+          "localeName": "Slime Secretions",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2863.4 },
-        { "type": 3, "value": 184.9 },
-        { "type": 2, "value": 73.131 },
-        { "type": 27, "value": 0.144 }
-      ]
+      "HP": 2863.4,
+      "ATK": 73.131,
+      "DEF": 184.9,
+      "extra": 0.144
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "VayudaTurquoiseChunk", "count": 6 },
-        { "name": "???", "count": 12 },
-        { "name": "Qingxin", "count": 45 },
-        { "name": "SlimeConcentrate", "count": 12 }
+        {
+          "id": "VayudaTurquoiseChunk",
+          "name": "Vayuda Turquoise Chunk",
+          "localeName": "Vayuda Turquoise Chunk",
+          "count": 6
+        },
+        { "id": "unknown", "name": "???", "localeName": "???", "count": 12 },
+        {
+          "id": "Qingxin",
+          "name": "Qingxin",
+          "localeName": "Qingxin",
+          "count": 45
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "Slime Concentrate",
+          "localeName": "Slime Concentrate",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3467.4 },
-        { "type": 3, "value": 223.9 },
-        { "type": 2, "value": 88.557 },
-        { "type": 27, "value": 0.216 }
-      ]
+      "HP": 3467.4,
+      "ATK": 88.557,
+      "DEF": 223.9,
+      "extra": 0.216
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "VayudaTurquoiseGemstone", "count": 6 },
-        { "name": "???", "count": 20 },
-        { "name": "Qingxin", "count": 60 },
-        { "name": "SlimeConcentrate", "count": 24 }
+        {
+          "id": "VayudaTurquoiseGemstone",
+          "name": "Vayuda Turquoise Gemstone",
+          "localeName": "Vayuda Turquoise Gemstone",
+          "count": 6
+        },
+        { "id": "unknown", "name": "???", "localeName": "???", "count": 20 },
+        {
+          "id": "Qingxin",
+          "name": "Qingxin",
+          "localeName": "Qingxin",
+          "count": 60
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "Slime Concentrate",
+          "localeName": "Slime Concentrate",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 4071.4 },
-        { "type": 3, "value": 262.9 },
-        { "type": 2, "value": 103.98 },
-        { "type": 27, "value": 0.288 }
-      ]
+      "HP": 4071.4,
+      "ATK": 103.98,
+      "DEF": 262.9,
+      "extra": 0.288
     }
   ],
   "ascensionType": 27,
   "element": 1,
   "elemSkill": {
     "name": "Lemniscatic Wind Cycling",
-    "desc": "Xiao lunges forward, dealing <color=#80FFD7FF>Anemo DMG</color> to opponents in his path.\\nCan be used in mid-air.\\nStarts with 2 charges.\\n\\n<i>According to the legends of another land, the world will someday be crushed by two great wind wheels. Xiao's mastery over polearms is transcendent, ripping his foes apart like those legendary wind wheels.</i>",
+    "desc": "Xiao lunges forward, dealing <color=#80FFD7FF>Anemo DMG</color> to opponents in his path.\nCan be used in mid-air.\nStarts with 2 charges.\n\n<i>According to the legends of another land, the world will someday be crushed by two great wind wheels. Xiao's mastery over polearms is transcendent, ripping his foes apart like those legendary wind wheels.</i>",
     "cd": 10
   },
   "elemBurst": {
     "name": "Bane of All Evil",
-    "desc": "Xiao dons the Yaksha Mask that set gods and demons trembling millennia ago.\\n\\n<color=#FFD780FF>Yaksha's Mask</color>\\n·Greatly increases Xiao's jumping ability.\\n·Increases his attack AoE and attack DMG.\\n·Converts attack DMG into <color=#80FFD7FF>Anemo DMG</color>, which cannot be overridden by any other elemental infusion.\\n\\nIn this state, Xiao will continuously lose HP.\\nThe effects of this skill end when Xiao leaves the field.\\n\\n<i>Donning the mask of the yaksha, Xiao becomes the Conqueror of Demons. But this great power has also brought him great suffering. Some call him \"The Bane of All Evil.\"</i>",
+    "desc": "Xiao dons the Yaksha Mask that set gods and demons trembling millennia ago.\n\n<color=#FFD780FF>Yaksha's Mask</color>\n·Greatly increases Xiao's jumping ability.\n·Increases his attack AoE and attack DMG.\n·Converts attack DMG into <color=#80FFD7FF>Anemo DMG</color>, which cannot be overridden by any other elemental infusion.\n\nIn this state, Xiao will continuously lose HP.\nThe effects of this skill end when Xiao leaves the field.\n\n<i>Donning the mask of the yaksha, Xiao becomes the Conqueror of Demons. But this great power has also brought him great suffering. Some call him \"The Bane of All Evil.\"</i>",
     "cd": 20,
     "energyCost": 80
   },
   "attackSkill": {
     "name": "Normal Attack: Whirlwind Thrust",
-    "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 6 consecutive spear strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to perform an upward thrust.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 6 consecutive spear strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to perform an upward thrust.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "cd": 0
   },
   "c13ns": [

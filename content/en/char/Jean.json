@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "VayudaTurquoiseSliver", "count": 1 },
-        { "name": "DandelionSeed", "count": 3 },
-        { "name": "DamagedMask", "count": 3 }
+        {
+          "id": "VayudaTurquoiseSliver",
+          "name": "Vayuda Turquoise Sliver",
+          "localeName": "Vayuda Turquoise Sliver",
+          "count": 1
+        },
+        {
+          "id": "DandelionSeed",
+          "name": "Dandelion Seed",
+          "localeName": "Dandelion Seed",
+          "count": 3
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Damaged Mask",
+          "localeName": "Damaged Mask",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 980.86 },
-        { "type": 3, "value": 51.3 },
-        { "type": 2, "value": 15.964 },
-        { "type": 14, "value": 0 }
-      ]
+      "HP": 980.86,
+      "ATK": 15.964,
+      "DEF": 51.3,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "VayudaTurquoiseFragment", "count": 3 },
-        { "name": "HurricaneSeed", "count": 2 },
-        { "name": "DandelionSeed", "count": 10 },
-        { "name": "DamagedMask", "count": 15 }
+        {
+          "id": "VayudaTurquoiseFragment",
+          "name": "Vayuda Turquoise Fragment",
+          "localeName": "Vayuda Turquoise Fragment",
+          "count": 3
+        },
+        {
+          "id": "HurricaneSeed",
+          "name": "Hurricane Seed",
+          "localeName": "Hurricane Seed",
+          "count": 2
+        },
+        {
+          "id": "DandelionSeed",
+          "name": "Dandelion Seed",
+          "localeName": "Dandelion Seed",
+          "count": 10
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Damaged Mask",
+          "localeName": "Damaged Mask",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1677.8 },
-        { "type": 3, "value": 87.75 },
-        { "type": 2, "value": 27.306 },
-        { "type": 14, "value": 0.0554 }
-      ]
+      "HP": 1677.8,
+      "ATK": 27.306,
+      "DEF": 87.75,
+      "extra": 0.0554
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "VayudaTurquoiseFragment", "count": 6 },
-        { "name": "HurricaneSeed", "count": 4 },
-        { "name": "DandelionSeed", "count": 20 },
-        { "name": "StainedMask", "count": 12 }
+        {
+          "id": "VayudaTurquoiseFragment",
+          "name": "Vayuda Turquoise Fragment",
+          "localeName": "Vayuda Turquoise Fragment",
+          "count": 6
+        },
+        {
+          "id": "HurricaneSeed",
+          "name": "Hurricane Seed",
+          "localeName": "Hurricane Seed",
+          "count": 4
+        },
+        {
+          "id": "DandelionSeed",
+          "name": "Dandelion Seed",
+          "localeName": "Dandelion Seed",
+          "count": 20
+        },
+        {
+          "id": "StainedMask",
+          "name": "Stained Mask",
+          "localeName": "Stained Mask",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2607 },
-        { "type": 3, "value": 136.35 },
-        { "type": 2, "value": 42.43 },
-        { "type": 14, "value": 0.1108 }
-      ]
+      "HP": 2607,
+      "ATK": 42.43,
+      "DEF": 136.35,
+      "extra": 0.1108
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "VayudaTurquoiseChunk", "count": 3 },
-        { "name": "HurricaneSeed", "count": 8 },
-        { "name": "DandelionSeed", "count": 30 },
-        { "name": "StainedMask", "count": 18 }
+        {
+          "id": "VayudaTurquoiseChunk",
+          "name": "Vayuda Turquoise Chunk",
+          "localeName": "Vayuda Turquoise Chunk",
+          "count": 3
+        },
+        {
+          "id": "HurricaneSeed",
+          "name": "Hurricane Seed",
+          "localeName": "Hurricane Seed",
+          "count": 8
+        },
+        {
+          "id": "DandelionSeed",
+          "name": "Dandelion Seed",
+          "localeName": "Dandelion Seed",
+          "count": 30
+        },
+        {
+          "id": "StainedMask",
+          "name": "Stained Mask",
+          "localeName": "Stained Mask",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3304 },
-        { "type": 3, "value": 172.8 },
-        { "type": 2, "value": 53.773 },
-        { "type": 14, "value": 0.1108 }
-      ]
+      "HP": 3304,
+      "ATK": 53.773,
+      "DEF": 172.8,
+      "extra": 0.1108
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "VayudaTurquoiseChunk", "count": 6 },
-        { "name": "HurricaneSeed", "count": 12 },
-        { "name": "DandelionSeed", "count": 45 },
-        { "name": "OminousMask", "count": 12 }
+        {
+          "id": "VayudaTurquoiseChunk",
+          "name": "Vayuda Turquoise Chunk",
+          "localeName": "Vayuda Turquoise Chunk",
+          "count": 6
+        },
+        {
+          "id": "HurricaneSeed",
+          "name": "Hurricane Seed",
+          "localeName": "Hurricane Seed",
+          "count": 12
+        },
+        {
+          "id": "DandelionSeed",
+          "name": "Dandelion Seed",
+          "localeName": "Dandelion Seed",
+          "count": 45
+        },
+        {
+          "id": "OminousMask",
+          "name": "Ominous Mask",
+          "localeName": "Ominous Mask",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 4000.9 },
-        { "type": 3, "value": 209.25 },
-        { "type": 2, "value": 65.116 },
-        { "type": 14, "value": 0.1662 }
-      ]
+      "HP": 4000.9,
+      "ATK": 65.116,
+      "DEF": 209.25,
+      "extra": 0.1662
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "VayudaTurquoiseGemstone", "count": 6 },
-        { "name": "HurricaneSeed", "count": 20 },
-        { "name": "DandelionSeed", "count": 60 },
-        { "name": "OminousMask", "count": 24 }
+        {
+          "id": "VayudaTurquoiseGemstone",
+          "name": "Vayuda Turquoise Gemstone",
+          "localeName": "Vayuda Turquoise Gemstone",
+          "count": 6
+        },
+        {
+          "id": "HurricaneSeed",
+          "name": "Hurricane Seed",
+          "localeName": "Hurricane Seed",
+          "count": 20
+        },
+        {
+          "id": "DandelionSeed",
+          "name": "Dandelion Seed",
+          "localeName": "Dandelion Seed",
+          "count": 60
+        },
+        {
+          "id": "OminousMask",
+          "name": "Ominous Mask",
+          "localeName": "Ominous Mask",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 4697.8 },
-        { "type": 3, "value": 245.7 },
-        { "type": 2, "value": 76.458 },
-        { "type": 14, "value": 0.2215 }
-      ]
+      "HP": 4697.8,
+      "ATK": 76.458,
+      "DEF": 245.7,
+      "extra": 0.2215
     }
   ],
   "ascensionType": 14,
   "element": 1,
   "elemSkill": {
     "name": "Gale Blade",
-    "desc": "Focusing the might of the formless wind around her blade, Jean releases a miniature storm, launching opponents in the direction she aims at, dealing massive <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Hold</color>\\nAt the cost of continued stamina consumption, Jean can command the whirlwind to pull surrounding opponents and objects towards her front.\\nDirection can be adjusted.\\nCharacter is immobile during skill duration.\\n\\n<i>That which follows Jean, the wholehearted defender, is a guardian wind that can banish danger from her comrades' presence.</i>",
+    "desc": "Focusing the might of the formless wind around her blade, Jean releases a miniature storm, launching opponents in the direction she aims at, dealing massive <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Hold</color>\nAt the cost of continued stamina consumption, Jean can command the whirlwind to pull surrounding opponents and objects towards her front.\nDirection can be adjusted.\nCharacter is immobile during skill duration.\n\n<i>That which follows Jean, the wholehearted defender, is a guardian wind that can banish danger from her comrades' presence.</i>",
     "cd": 6
   },
   "elemBurst": {
     "name": "Dandelion Breeze",
-    "desc": "Calling upon the wind's protection, Jean creates a swirling Dandelion Field, launching surrounding opponents and dealing <color=#80FFD7FF>Anemo DMG</color>.\\nAt the same time, she instantly regenerates a large amount of HP for all party members. The amount of HP restored scales off Jean's ATK.\\n\\n<color=#FFD780FF>Dandelion Field</color>\\n·Continuously regenerates HP of characters within the AoE and continuously imbues them with <color=#80FFD7FF>Anemo</color>.\\n·Deals <color=#80FFD7FF>Anemo DMG</color> to opponents entering or exiting the Dandelion Field.\\n\\n<i>Jean's magnanimity is as vast as the dandelion fields, and it is the root of her wish to protect others.</i>",
+    "desc": "Calling upon the wind's protection, Jean creates a swirling Dandelion Field, launching surrounding opponents and dealing <color=#80FFD7FF>Anemo DMG</color>.\nAt the same time, she instantly regenerates a large amount of HP for all party members. The amount of HP restored scales off Jean's ATK.\n\n<color=#FFD780FF>Dandelion Field</color>\n·Continuously regenerates HP of characters within the AoE and continuously imbues them with <color=#80FFD7FF>Anemo</color>.\n·Deals <color=#80FFD7FF>Anemo DMG</color> to opponents entering or exiting the Dandelion Field.\n\n<i>Jean's magnanimity is as vast as the dandelion fields, and it is the root of her wish to protect others.</i>",
     "cd": 20,
     "energyCost": 80
   },
   "attackSkill": {
     "name": "Normal Attack: Favonius Bladework",
-    "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 5 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of stamina to launch an opponent using the power of wind.\\nLaunched opponents will slowly fall to the ground.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of stamina to launch an opponent using the power of wind.\nLaunched opponents will slowly fall to the ground.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "cd": 0
   },
   "c13ns": [

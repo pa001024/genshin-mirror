@@ -6,13 +6,51 @@ export class Avatar {
   /** 静态数据 */
   readonly data: IAvatar;
 
+  constructor(data: IAvatar) {
+    this.data = data;
+  }
+
+  lazy = false;
+
   /// 动态数据
   /** 角色等级 */
-  level = 20;
+  private _level = 90;
+  public get level() {
+    return this._level;
+  }
+
+  public set level(value) {
+    this._level = Math.max(this._minLevel, Math.min(this._maxLevel, value));
+    // if (!this.lazy) this.recalc();
+  }
+
+  private _minLevel: number = 80;
+  public get minLevel(): number {
+    return this._minLevel;
+  }
+
+  private _maxLevel: number = 90;
+  public get maxLevel(): number {
+    return this._maxLevel;
+  }
+
   /** 突破等级 */
-  ascensionLevel = 0;
+  private _promoteLevel = 6;
+  public get promoteLevel() {
+    return this._promoteLevel;
+  }
+
+  public set promoteLevel(value) {
+    if (this._promoteLevel !== value) {
+      this._promoteLevel = value;
+      this._minLevel = [1, 20, 40, 50, 60, 70, 80][value];
+      this._maxLevel = this._level = [20, 40, 50, 60, 70, 80, 90][value];
+    }
+    // if (!this.lazy) this.recalc();
+  }
+
   /** 命座等级 */
-  constellationLevel = 0;
+  talentLevel = 0;
 
   /** 武器 */
   weapon?: Weapon;
@@ -20,41 +58,18 @@ export class Avatar {
   /** 圣遗物 */
   artifacts: IArtifact[] = [];
 
-  constructor(data: IAvatar) {
-    this.data = data;
-  }
-
-  /** 突破层基础等级 */
-  get baseLevel() {
-    return this.level - AVATAR.MAX_BASE_LEVEL[this.ascensionLevel];
-  }
-
-  /** 升级所需经验 */
-  get levelCostExp() {
-    const last = AVATAR.EXP_COST[this.ascensionLevel - 1] || 0;
-    const current = AVATAR.EXP_COST[this.ascensionLevel];
-    return current - (current - last) * this.baseLevel;
-  }
-
-  /** 升级所需摩拉 */
-  get levelCostGold() {
-    const last = AVATAR.GOLD_COST[this.ascensionLevel - 1] || 0;
-    const current = AVATAR.GOLD_COST[this.ascensionLevel];
-    return current - (current - last) * this.baseLevel;
-  }
-
   /** 基础生命值 */
   get baseHP() {
-    const current = this.data.baseHP;
-    const next = this.data.baseHP;
-    return current + (next - current) * this.baseLevel;
+    const base = this.data.baseHP * AVATAR.CURVE[this.data.rarity][this._level - 1];
+    const promote = this.data.ascensions[this._promoteLevel - 1].HP;
+    return base + promote;
   }
 
   /** 人物基础攻击力 */
   get charBaseATK() {
-    const current = this.data.baseATK;
-    const next = this.data.baseATK;
-    return current + (next - current) * this.baseLevel;
+    const base = this.data.baseATK * AVATAR.CURVE[this.data.rarity][this._level - 1];
+    const promote = this.data.ascensions[this._promoteLevel - 1].ATK;
+    return base + promote;
   }
 
   /** 总基础攻击力 */
@@ -64,9 +79,15 @@ export class Avatar {
 
   /** 基础防御力 */
   get baseDEF() {
-    const current = this.data.baseDEF;
-    const next = this.data.baseDEF;
-    return current + (next - current) * this.baseLevel;
+    const base = this.data.baseDEF * AVATAR.CURVE[this.data.rarity][this._level - 1];
+    const promote = this.data.ascensions[this._promoteLevel - 1].DEF;
+    return base + promote;
+  }
+
+  /** 突破加成 */
+  get extra() {
+    const promote = this.data.ascensions[this._promoteLevel - 1].extra;
+    return promote;
   }
 
   /** 暴击率 */
@@ -101,5 +122,8 @@ export class Avatar {
     );
   }
 
-  recalc() {}
+  /** 稀有度 4/5 */
+  get rarity() {
+    return this.data.rarity;
+  }
 }

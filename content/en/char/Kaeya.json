@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "ShivadaJadeSliver", "count": 1 },
-        { "name": "CallaLily", "count": 3 },
-        { "name": "TreasureHoarderInsignia", "count": 3 }
+        {
+          "id": "ShivadaJadeSliver",
+          "name": "Shivada Jade Sliver",
+          "localeName": "Shivada Jade Sliver",
+          "count": 1
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "Calla Lily",
+          "count": 3
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "Treasure Hoarder Insignia",
+          "localeName": "Treasure Hoarder Insignia",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 728.84 },
-        { "type": 3, "value": 49.59 },
-        { "type": 2, "value": 13.969 },
-        { "type": 10, "value": 0 }
-      ]
+      "HP": 728.84,
+      "ATK": 13.969,
+      "DEF": 49.59,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "ShivadaJadeFragment", "count": 3 },
-        { "name": "HoarfrostCore", "count": 2 },
-        { "name": "CallaLily", "count": 10 },
-        { "name": "TreasureHoarderInsignia", "count": 15 }
+        {
+          "id": "ShivadaJadeFragment",
+          "name": "Shivada Jade Fragment",
+          "localeName": "Shivada Jade Fragment",
+          "count": 3
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "Hoarfrost Core",
+          "count": 2
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "Calla Lily",
+          "count": 10
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "Treasure Hoarder Insignia",
+          "localeName": "Treasure Hoarder Insignia",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1246.7 },
-        { "type": 3, "value": 84.825 },
-        { "type": 2, "value": 23.894 },
-        { "type": 10, "value": 0.0667 }
-      ]
+      "HP": 1246.7,
+      "ATK": 23.894,
+      "DEF": 84.825,
+      "extra": 0.0667
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "ShivadaJadeFragment", "count": 6 },
-        { "name": "HoarfrostCore", "count": 4 },
-        { "name": "CallaLily", "count": 20 },
-        { "name": "SilverRavenInsignia", "count": 12 }
+        {
+          "id": "ShivadaJadeFragment",
+          "name": "Shivada Jade Fragment",
+          "localeName": "Shivada Jade Fragment",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "Hoarfrost Core",
+          "count": 4
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "Calla Lily",
+          "count": 20
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "Silver Raven Insignia",
+          "localeName": "Silver Raven Insignia",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1937.2 },
-        { "type": 3, "value": 131.8 },
-        { "type": 2, "value": 37.128 },
-        { "type": 10, "value": 0.1333 }
-      ]
+      "HP": 1937.2,
+      "ATK": 37.128,
+      "DEF": 131.8,
+      "extra": 0.1333
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "ShivadaJadeChunk", "count": 3 },
-        { "name": "HoarfrostCore", "count": 8 },
-        { "name": "CallaLily", "count": 30 },
-        { "name": "SilverRavenInsignia", "count": 18 }
+        {
+          "id": "ShivadaJadeChunk",
+          "name": "Shivada Jade Chunk",
+          "localeName": "Shivada Jade Chunk",
+          "count": 3
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "Hoarfrost Core",
+          "count": 8
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "Calla Lily",
+          "count": 30
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "Silver Raven Insignia",
+          "localeName": "Silver Raven Insignia",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2455 },
-        { "type": 3, "value": 167.04 },
-        { "type": 2, "value": 47.053 },
-        { "type": 10, "value": 0.1333 }
-      ]
+      "HP": 2455,
+      "ATK": 47.053,
+      "DEF": 167.04,
+      "extra": 0.1333
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "ShivadaJadeChunk", "count": 6 },
-        { "name": "HoarfrostCore", "count": 12 },
-        { "name": "CallaLily", "count": 45 },
-        { "name": "GoldenRavenInsignia", "count": 12 }
+        {
+          "id": "ShivadaJadeChunk",
+          "name": "Shivada Jade Chunk",
+          "localeName": "Shivada Jade Chunk",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "Hoarfrost Core",
+          "count": 12
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "Calla Lily",
+          "count": 45
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "Golden Raven Insignia",
+          "localeName": "Golden Raven Insignia",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2972.9 },
-        { "type": 3, "value": 202.27 },
-        { "type": 2, "value": 56.979 },
-        { "type": 10, "value": 0.2 }
-      ]
+      "HP": 2972.9,
+      "ATK": 56.979,
+      "DEF": 202.27,
+      "extra": 0.2
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "ShivadaJadeGemstone", "count": 6 },
-        { "name": "HoarfrostCore", "count": 20 },
-        { "name": "CallaLily", "count": 60 },
-        { "name": "GoldenRavenInsignia", "count": 24 }
+        {
+          "id": "ShivadaJadeGemstone",
+          "name": "Shivada Jade Gemstone",
+          "localeName": "Shivada Jade Gemstone",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "Hoarfrost Core",
+          "count": 20
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "Calla Lily",
+          "count": 60
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "Golden Raven Insignia",
+          "localeName": "Golden Raven Insignia",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3490.7 },
-        { "type": 3, "value": 237.51 },
-        { "type": 2, "value": 66.904 },
-        { "type": 10, "value": 0.2667 }
-      ]
+      "HP": 3490.7,
+      "ATK": 66.904,
+      "DEF": 237.51,
+      "extra": 0.2667
     }
   ],
   "ascensionType": 10,
   "element": 7,
   "elemSkill": {
     "name": "Frostgnaw",
-    "desc": "Unleashes a frigid blast, dealing <color=#99FFFFFF>Cryo DMG</color> to opponents in front of Kaeya.\\n\\n<i>Kaeya seems affable, but his nature is that of unyielding ice.</i>",
+    "desc": "Unleashes a frigid blast, dealing <color=#99FFFFFF>Cryo DMG</color> to opponents in front of Kaeya.\n\n<i>Kaeya seems affable, but his nature is that of unyielding ice.</i>",
     "cd": 6
   },
   "elemBurst": {
     "name": "Glacial Waltz",
-    "desc": "Coalescing the frost in the air, Kaeya summons 3 icicles that revolve around him.\\nThese icicles will follow the character around and deal <color=#99FFFFFF>Cryo DMG</color> to opponents in their path for the ability's duration.\\n\\n<i>A winsome smile, genial words, and the merciless hoarfrost that lies beneath... These are all Kaeya's weapons.</i>",
+    "desc": "Coalescing the frost in the air, Kaeya summons 3 icicles that revolve around him.\nThese icicles will follow the character around and deal <color=#99FFFFFF>Cryo DMG</color> to opponents in their path for the ability's duration.\n\n<i>A winsome smile, genial words, and the merciless hoarfrost that lies beneath... These are all Kaeya's weapons.</i>",
     "cd": 15,
     "energyCost": 60
   },
   "attackSkill": {
     "name": "Normal Attack: Ceremonial Bladework",
-    "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerform up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "cd": 0
   },
   "c13ns": [

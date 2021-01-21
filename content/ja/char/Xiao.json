@@ -14,109 +14,187 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "VayudaTurquoiseSliver", "count": 1 },
-        { "name": "Qingxin", "count": 3 },
-        { "name": "SlimeCondensate", "count": 3 }
+        {
+          "id": "VayudaTurquoiseSliver",
+          "name": "Vayuda Turquoise Sliver",
+          "localeName": "自由のターコイズ·砕屑",
+          "count": 1
+        },
+        {
+          "id": "Qingxin",
+          "name": "Qingxin",
+          "localeName": "清心",
+          "count": 3
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "Slime Condensate",
+          "localeName": "スライムの液体",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 850.08 },
-        { "type": 3, "value": 54.891 },
-        { "type": 2, "value": 21.711 },
-        { "type": 27, "value": 0 }
-      ]
+      "HP": 850.08,
+      "ATK": 21.711,
+      "DEF": 54.891,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "VayudaTurquoiseFragment", "count": 3 },
-        { "name": "???", "count": 2 },
-        { "name": "Qingxin", "count": 10 },
-        { "name": "SlimeCondensate", "count": 15 }
+        {
+          "id": "VayudaTurquoiseFragment",
+          "name": "Vayuda Turquoise Fragment",
+          "localeName": "自由のターコイズ·欠片",
+          "count": 3
+        },
+        { "id": "unknown", "name": "???", "localeName": "???", "count": 2 },
+        {
+          "id": "Qingxin",
+          "name": "Qingxin",
+          "localeName": "清心",
+          "count": 10
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "Slime Condensate",
+          "localeName": "スライムの液体",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1454.1 },
-        { "type": 3, "value": 93.893 },
-        { "type": 2, "value": 37.137 },
-        { "type": 27, "value": 0.072 }
-      ]
+      "HP": 1454.1,
+      "ATK": 37.137,
+      "DEF": 93.893,
+      "extra": 0.072
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "VayudaTurquoiseFragment", "count": 6 },
-        { "name": "???", "count": 4 },
-        { "name": "Qingxin", "count": 20 },
-        { "name": "SlimeSecretions", "count": 12 }
+        {
+          "id": "VayudaTurquoiseFragment",
+          "name": "Vayuda Turquoise Fragment",
+          "localeName": "自由のターコイズ·欠片",
+          "count": 6
+        },
+        { "id": "unknown", "name": "???", "localeName": "???", "count": 4 },
+        {
+          "id": "Qingxin",
+          "name": "Qingxin",
+          "localeName": "清心",
+          "count": 20
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "Slime Secretions",
+          "localeName": "スライムの分泌物",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2259.4 },
-        { "type": 3, "value": 145.89 },
-        { "type": 2, "value": 57.705 },
-        { "type": 27, "value": 0.144 }
-      ]
+      "HP": 2259.4,
+      "ATK": 57.705,
+      "DEF": 145.89,
+      "extra": 0.144
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "VayudaTurquoiseChunk", "count": 3 },
-        { "name": "???", "count": 8 },
-        { "name": "Qingxin", "count": 30 },
-        { "name": "SlimeSecretions", "count": 18 }
+        {
+          "id": "VayudaTurquoiseChunk",
+          "name": "Vayuda Turquoise Chunk",
+          "localeName": "自由のターコイズ·塊",
+          "count": 3
+        },
+        { "id": "unknown", "name": "???", "localeName": "???", "count": 8 },
+        {
+          "id": "Qingxin",
+          "name": "Qingxin",
+          "localeName": "清心",
+          "count": 30
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "Slime Secretions",
+          "localeName": "スライムの分泌物",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2863.4 },
-        { "type": 3, "value": 184.9 },
-        { "type": 2, "value": 73.131 },
-        { "type": 27, "value": 0.144 }
-      ]
+      "HP": 2863.4,
+      "ATK": 73.131,
+      "DEF": 184.9,
+      "extra": 0.144
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "VayudaTurquoiseChunk", "count": 6 },
-        { "name": "???", "count": 12 },
-        { "name": "Qingxin", "count": 45 },
-        { "name": "SlimeConcentrate", "count": 12 }
+        {
+          "id": "VayudaTurquoiseChunk",
+          "name": "Vayuda Turquoise Chunk",
+          "localeName": "自由のターコイズ·塊",
+          "count": 6
+        },
+        { "id": "unknown", "name": "???", "localeName": "???", "count": 12 },
+        {
+          "id": "Qingxin",
+          "name": "Qingxin",
+          "localeName": "清心",
+          "count": 45
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "Slime Concentrate",
+          "localeName": "スライムのピュレ",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 3467.4 },
-        { "type": 3, "value": 223.9 },
-        { "type": 2, "value": 88.557 },
-        { "type": 27, "value": 0.216 }
-      ]
+      "HP": 3467.4,
+      "ATK": 88.557,
+      "DEF": 223.9,
+      "extra": 0.216
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "VayudaTurquoiseGemstone", "count": 6 },
-        { "name": "???", "count": 20 },
-        { "name": "Qingxin", "count": 60 },
-        { "name": "SlimeConcentrate", "count": 24 }
+        {
+          "id": "VayudaTurquoiseGemstone",
+          "name": "Vayuda Turquoise Gemstone",
+          "localeName": "自由のターコイズ",
+          "count": 6
+        },
+        { "id": "unknown", "name": "???", "localeName": "???", "count": 20 },
+        {
+          "id": "Qingxin",
+          "name": "Qingxin",
+          "localeName": "清心",
+          "count": 60
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "Slime Concentrate",
+          "localeName": "スライムのピュレ",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 4071.4 },
-        { "type": 3, "value": 262.9 },
-        { "type": 2, "value": 103.98 },
-        { "type": 27, "value": 0.288 }
-      ]
+      "HP": 4071.4,
+      "ATK": 103.98,
+      "DEF": 262.9,
+      "extra": 0.288
     }
   ],
   "ascensionType": 27,
   "element": 1,
   "elemSkill": {
     "name": "風輪両立",
-    "desc": "疾速突進し、経路上の敵に<color=#80FFD7FF>風元素ダメージ</color>を与える。\\n空中での発動が可能。\\n初期使用可能回数2回。\\n\\n<i>異郷の伝説では、世界は二つの大きな風輪によって破壊されるという。魈の槍術はすでに神の域に達し、まるで二つの風輪のように敵を切り裂く。</i>",
+    "desc": "疾速突進し、経路上の敵に<color=#80FFD7FF>風元素ダメージ</color>を与える。\n空中での発動が可能。\n初期使用可能回数2回。\n\n<i>異郷の伝説では、世界は二つの大きな風輪によって破壊されるという。魈の槍術はすでに神の域に達し、まるで二つの風輪のように敵を切り裂く。</i>",
     "cd": 10
   },
   "elemBurst": {
     "name": "靖妖儺舞",
-    "desc": "数千年前に妖魔たちに恐れられた夜叉の儺面を見せる。\\n\\n<color=#FFD780FF>夜叉の儺面</color>\\n·魈のジャンプ力が大幅にアップする。\\n·攻撃範囲が増え、与えるダメージがアップする。\\n·攻撃ダメージを<color=#80FFD7FF>風元素ダメージ</color>に変換する。なお、変換された元素がバフによって他の元素に変化することはない。n\\nこの状態中、魈のHPは持続的に減少する。\\n効果は魈が退場する時に解除される。\\n\\n<i>降魔の儺面を被り、妖魔を殺す悪鬼となる。強い力を手に入れる分、強い苦しみを背負う式、その名は「靖妖儺舞」。</i>",
+    "desc": "数千年前に妖魔たちに恐れられた夜叉の儺面を見せる。\n\n<color=#FFD780FF>夜叉の儺面</color>\n·魈のジャンプ力が大幅にアップする。\n·攻撃範囲が増え、与えるダメージがアップする。\n·攻撃ダメージを<color=#80FFD7FF>風元素ダメージ</color>に変換する。なお、変換された元素がバフによって他の元素に変化することはない。n\nこの状態中、魈のHPは持続的に減少する。\n効果は魈が退場する時に解除される。\n\n<i>降魔の儺面を被り、妖魔を殺す悪鬼となる。強い力を手に入れる分、強い苦しみを背負う式、その名は「靖妖儺舞」。</i>",
     "cd": 20,
     "energyCost": 80
   },
   "attackSkill": {
     "name": "通常攻撃·微塵突進",
-    "desc": "<color=#FFD780FF>通常攻撃</color>\\n槍による最大6段の連続攻撃を行う。\\n\\n<color=#FFD780FF>重撃</color>\\n一定のスタミナを消費し、斬り上げ攻撃を発動する。\\n\\n<color=#FFD780FF>落下攻撃</color>\\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n槍による最大6段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、斬り上げ攻撃を発動する。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
     "cd": 0
   },
   "c13ns": [

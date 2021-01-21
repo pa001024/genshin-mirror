@@ -14,109 +14,212 @@
     {
       "level": 1,
       "itemCost": [
-        { "name": "ShivadaJadeSliver", "count": 1 },
-        { "name": "CallaLily", "count": 3 },
-        { "name": "FirmArrowhead", "count": 3 }
+        {
+          "id": "ShivadaJadeSliver",
+          "name": "Shivada Jade Sliver",
+          "localeName": "哀敘冰玉碎屑",
+          "count": 1
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "嘟嘟蓮",
+          "count": 3
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Firm Arrowhead",
+          "localeName": "牢固的箭鏃",
+          "count": 3
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 599.42 },
-        { "type": 3, "value": 37.62 },
-        { "type": 2, "value": 13.304 },
-        { "type": 29, "value": 0 }
-      ]
+      "HP": 599.42,
+      "ATK": 13.304,
+      "DEF": 37.62,
+      "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
-        { "name": "ShivadaJadeFragment", "count": 3 },
-        { "name": "HoarfrostCore", "count": 2 },
-        { "name": "CallaLily", "count": 10 },
-        { "name": "FirmArrowhead", "count": 15 }
+        {
+          "id": "ShivadaJadeFragment",
+          "name": "Shivada Jade Fragment",
+          "localeName": "哀敘冰玉斷片",
+          "count": 3
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒之核",
+          "count": 2
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "嘟嘟蓮",
+          "count": 10
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Firm Arrowhead",
+          "localeName": "牢固的箭鏃",
+          "count": 15
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1025.3 },
-        { "type": 3, "value": 64.35 },
-        { "type": 2, "value": 22.757 },
-        { "type": 29, "value": 0.06 }
-      ]
+      "HP": 1025.3,
+      "ATK": 22.757,
+      "DEF": 64.35,
+      "extra": 0.06
     },
     {
       "level": 3,
       "itemCost": [
-        { "name": "ShivadaJadeFragment", "count": 6 },
-        { "name": "HoarfrostCore", "count": 4 },
-        { "name": "CallaLily", "count": 20 },
-        { "name": "SharpArrowhead", "count": 12 }
+        {
+          "id": "ShivadaJadeFragment",
+          "name": "Shivada Jade Fragment",
+          "localeName": "哀敘冰玉斷片",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒之核",
+          "count": 4
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "嘟嘟蓮",
+          "count": 20
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Sharp Arrowhead",
+          "localeName": "銳利的箭鏃",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 1593.2 },
-        { "type": 3, "value": 99.99 },
-        { "type": 2, "value": 35.36 },
-        { "type": 29, "value": 0.12 }
-      ]
+      "HP": 1593.2,
+      "ATK": 35.36,
+      "DEF": 99.99,
+      "extra": 0.12
     },
     {
       "level": 4,
       "itemCost": [
-        { "name": "ShivadaJadeChunk", "count": 3 },
-        { "name": "HoarfrostCore", "count": 8 },
-        { "name": "CallaLily", "count": 30 },
-        { "name": "SharpArrowhead", "count": 18 }
+        {
+          "id": "ShivadaJadeChunk",
+          "name": "Shivada Jade Chunk",
+          "localeName": "哀敘冰玉塊",
+          "count": 3
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒之核",
+          "count": 8
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "嘟嘟蓮",
+          "count": 30
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Sharp Arrowhead",
+          "localeName": "銳利的箭鏃",
+          "count": 18
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2019.1 },
-        { "type": 3, "value": 126.72 },
-        { "type": 2, "value": 44.813 },
-        { "type": 29, "value": 0.12 }
-      ]
+      "HP": 2019.1,
+      "ATK": 44.813,
+      "DEF": 126.72,
+      "extra": 0.12
     },
     {
       "level": 5,
       "itemCost": [
-        { "name": "ShivadaJadeChunk", "count": 6 },
-        { "name": "HoarfrostCore", "count": 12 },
-        { "name": "CallaLily", "count": 45 },
-        { "name": "WeatheredArrowhead", "count": 12 }
+        {
+          "id": "ShivadaJadeChunk",
+          "name": "Shivada Jade Chunk",
+          "localeName": "哀敘冰玉塊",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒之核",
+          "count": 12
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "嘟嘟蓮",
+          "count": 45
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Weathered Arrowhead",
+          "localeName": "歷戰的箭鏃",
+          "count": 12
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2445 },
-        { "type": 3, "value": 153.45 },
-        { "type": 2, "value": 54.265 },
-        { "type": 29, "value": 0.18 }
-      ]
+      "HP": 2445,
+      "ATK": 54.265,
+      "DEF": 153.45,
+      "extra": 0.18
     },
     {
       "level": 6,
       "itemCost": [
-        { "name": "ShivadaJadeGemstone", "count": 6 },
-        { "name": "HoarfrostCore", "count": 20 },
-        { "name": "CallaLily", "count": 60 },
-        { "name": "WeatheredArrowhead", "count": 24 }
+        {
+          "id": "ShivadaJadeGemstone",
+          "name": "Shivada Jade Gemstone",
+          "localeName": "哀敘冰玉",
+          "count": 6
+        },
+        {
+          "id": "HoarfrostCore",
+          "name": "Hoarfrost Core",
+          "localeName": "極寒之核",
+          "count": 20
+        },
+        {
+          "id": "CallaLily",
+          "name": "Calla Lily",
+          "localeName": "嘟嘟蓮",
+          "count": 60
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Weathered Arrowhead",
+          "localeName": "歷戰的箭鏃",
+          "count": 24
+        }
       ],
-      "attrs": [
-        { "type": 1, "value": 2870.9 },
-        { "type": 3, "value": 180.18 },
-        { "type": 2, "value": 63.718 },
-        { "type": 29, "value": 0.24 }
-      ]
+      "HP": 2870.9,
+      "ATK": 63.718,
+      "DEF": 180.18,
+      "extra": 0.24
     }
   ],
   "ascensionType": 29,
   "element": 7,
   "elemSkill": {
     "name": "貓爪凍凍",
-    "desc": "發射凍凍貓貓爪，對敵人造成<color=#99FFFFFF>冰元素傷害</color>，並在命中時形成護盾。\\n護盾的傷害吸收量受益於迪奧娜的生命值上限，持續時間基於命中的凍凍貓貓爪數目。\\n\\n<color=#FFD780FF>點按</color>\\n快速發射二枚凍凍貓貓爪。\\n\\n<color=#FFD780FF>長按</color>\\n迅速後撤，並發射五枚凍凍貓貓爪。\\n藉由長按產生的護盾獲得75%傷害吸收量加成。\\n\\n護盾對<color=#99FFFFFF>冰元素傷害</color>有250%的吸收效果，並會在形成時，為當前角色施加短暫的<color=#99FFFFFF>冰元素附著</color>。\\n\\n<i>一開始，酒裡加多少冰也傷害不了酒鬼。直到迪奧娜有了神之眼，然後就有了這些凍得人太陽穴痛的冰，讚啦！</i>",
+    "desc": "發射凍凍貓貓爪，對敵人造成<color=#99FFFFFF>冰元素傷害</color>，並在命中時形成護盾。\n護盾的傷害吸收量受益於迪奧娜的生命值上限，持續時間基於命中的凍凍貓貓爪數目。\n\n<color=#FFD780FF>點按</color>\n快速發射二枚凍凍貓貓爪。\n\n<color=#FFD780FF>長按</color>\n迅速後撤，並發射五枚凍凍貓貓爪。\n藉由長按產生的護盾獲得75%傷害吸收量加成。\n\n護盾對<color=#99FFFFFF>冰元素傷害</color>有250%的吸收效果，並會在形成時，為當前角色施加短暫的<color=#99FFFFFF>冰元素附著</color>。\n\n<i>一開始，酒裡加多少冰也傷害不了酒鬼。直到迪奧娜有了神之眼，然後就有了這些凍得人太陽穴痛的冰，讚啦！</i>",
     "cd": 6
   },
   "elemBurst": {
     "name": "最烈特調",
-    "desc": "拋出特別調製的冰釀特調，造成<color=#99FFFFFF>冰元素範圍傷害</color>，並產生冰氣酒霧領域。\\n\\n<color=#FFD780FF>冰氣酒霧領域</color>\\n·對其中的敵人持續造成<color=#99FFFFFF>冰元素傷害</color>；\\n·為其中的角色持續恢復生命值。\\n\\n<i>迪奧娜自己都覺得不人道的恐怖配方。前味恐怖，推薦留給敵人；後勁清冽，可惜只能用鼻子和皮膚享用。</i>",
+    "desc": "拋出特別調製的冰釀特調，造成<color=#99FFFFFF>冰元素範圍傷害</color>，並產生冰氣酒霧領域。\n\n<color=#FFD780FF>冰氣酒霧領域</color>\n·對其中的敵人持續造成<color=#99FFFFFF>冰元素傷害</color>；\n·為其中的角色持續恢復生命值。\n\n<i>迪奧娜自己都覺得不人道的恐怖配方。前味恐怖，推薦留給敵人；後勁清冽，可惜只能用鼻子和皮膚享用。</i>",
     "cd": 20,
     "energyCost": 80
   },
   "attackSkill": {
     "name": "普通攻擊·獵人射術",
-    "desc": "<color=#FFD780FF>普通攻擊</color>\\n進行至多五段的連續弓箭射擊。\\n\\n<color=#FFD780FF>重擊</color>\\n進行傷害更高、更為精準的<color=#FFD780FF>瞄準射擊</color>。\\n瞄準時，冰霜散發的寒氣會憑附在箭矢上。聚滿了寒氣的箭矢會造成<color=#99FFFFFF>冰元素傷害</color>。\\n\\n<color=#FFD780FF>下落攻擊</color>\\n從空中射出箭雨，並迅速下墜衝擊地面，在落地時造成範圍傷害。",
+    "desc": "<color=#FFD780FF>普通攻擊</color>\n進行至多五段的連續弓箭射擊。\n\n<color=#FFD780FF>重擊</color>\n進行傷害更高、更為精準的<color=#FFD780FF>瞄準射擊</color>。\n瞄準時，冰霜散發的寒氣會憑附在箭矢上。聚滿了寒氣的箭矢會造成<color=#99FFFFFF>冰元素傷害</color>。\n\n<color=#FFD780FF>下落攻擊</color>\n從空中射出箭雨，並迅速下墜衝擊地面，在落地時造成範圍傷害。",
     "cd": 0
   },
   "c13ns": [

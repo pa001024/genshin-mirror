@@ -114,7 +114,7 @@ export interface IAvatar {
   /** 基础生命 */ baseHP: number;
   /** 基础攻击 */ baseATK: number;
   /** 基础防御 */ baseDEF: number;
-  /** 突破属性 */ ascensions: IAscension[];
+  /** 突破属性 */ ascensions: IAscensionPhase[];
   /** 突破属性 */ ascensionType: BuffType;
   /** 普通攻击 */ attackSkill?: ISkill;
   /** 元素战技 */ elemSkill?: ISkill;
@@ -135,6 +135,15 @@ export interface IAttackGroup {
 }
 
 /** 突破 */
+export interface IAscensionPhase {
+  level: number;
+  itemCost: IItemStack[];
+  HP: number;
+  ATK: number;
+  DEF: number;
+  extra: number;
+}
+/** 突破 */
 export interface IAscension {
   level: number;
   itemCost: IItemStack[];
@@ -143,7 +152,9 @@ export interface IAscension {
 
 /** 物品 */
 export interface IItemStack {
-  name: string;
+  id: string;
+  name?: string;
+  localeName?: string;
   count: number;
 }
 
