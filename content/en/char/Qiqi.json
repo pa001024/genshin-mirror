@@ -209,18 +209,249 @@
   "elemSkill": {
     "name": "Adeptus Art: Herald of Frost",
     "desc": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing <color=#99FFFFFF>Cryo DMG</color> to surrounding opponents.\n\n<color=#FFD780FF>Herald of Frost</color>\n·On hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.\n·Periodically regenerates your active character's HP.\n·Follows the character around, dealing <color=#99FFFFFF>Cryo DMG</color> to opponents in their path.\n\n<i>I use this to prevent warming and rot... of Dr. Bai's precious ingredients. Yes.</i>",
-    "cd": 30
+    "cd": 30,
+    "paramTpls": [
+      "Skill DMG|{param8:P}",
+      "Regeneration on Hit|{param1:F2P} ATK+{param2:I}",
+      "Continuous Regeneration|{param3:F2P} ATK+{param4:I}",
+      "Herald of Frost DMG|{param5:F1P}",
+      "Duration|{param6:F1}s",
+      "CD|{param7:F1}s"
+    ],
+    "paramVals": [
+      [0.1056, 67.408, 0.696, 450.55, 0.36, 15, 30, 0.96],
+      [0.11352, 74.15, 0.7482, 495.61, 0.387, 15, 30, 1.032],
+      [0.12144, 81.453, 0.8004, 544.43, 0.414, 15, 30, 1.104],
+      [0.132, 89.318, 0.87, 597, 0.45, 15, 30, 1.2],
+      [0.13992, 97.746, 0.9222, 653.33, 0.477, 15, 30, 1.272],
+      [0.14784, 106.73, 0.9744, 713.41, 0.504, 15, 30, 1.344],
+      [0.1584, 116.29, 1.044, 777.25, 0.54, 15, 30, 1.44],
+      [0.16896, 126.4, 1.1136, 844.84, 0.576, 15, 30, 1.536],
+      [0.17952, 137.07, 1.1832, 916.18, 0.612, 15, 30, 1.632],
+      [0.19008, 148.31, 1.2528, 991.29, 0.648, 15, 30, 1.728],
+      [0.20064, 160.11, 1.3224, 1070.1, 0.684, 15, 30, 1.824],
+      [0.2112, 172.47, 1.392, 1152.8, 0.72, 15, 30, 1.92],
+      [0.2244, 185.39, 1.479, 1239.1, 0.765, 15, 30, 2.04],
+      [0.2376, 198.87, 1.566, 1329.2, 0.81, 15, 30, 2.16],
+      [0.2508, 212.92, 1.653, 1423.1, 0.855, 15, 30, 2.28]
+    ]
   },
   "elemBurst": {
     "name": "Adeptus Art: Preserver of Fortune",
     "desc": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals <color=#99FFFFFF>Cryo DMG</color>.\n\n<color=#FFD780FF>Fortune-Preserving Talisman</color>\nWhen opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.\n\n<i>\"I am the Fortune Preserver, the Maiden of Resurrection.\"</i>\n<i>— Qiqi does not remember these words.</i>",
     "cd": 20,
-    "energyCost": 80
+    "energyCost": 80,
+    "paramTpls": [
+      "Skill DMG|{param3:P}",
+      "Healing|{param1:F1P} ATK+{param2:I}",
+      "Duration|{param4:F1}s",
+      "CD|{param5:F1}s",
+      "Energy Cost|{param6:I}"
+    ],
+    "paramVals": [
+      [0.9, 577.34, 2.848, 15, 20, 80],
+      [0.9675, 635.08, 3.0616, 15, 20, 80],
+      [1.035, 697.63, 3.2752, 15, 20, 80],
+      [1.125, 765, 3.56, 15, 20, 80],
+      [1.1925, 837.18, 3.7736, 15, 20, 80],
+      [1.26, 914.17, 3.9872, 15, 20, 80],
+      [1.35, 995.97, 4.272, 15, 20, 80],
+      [1.44, 1082.6, 4.5568, 15, 20, 80],
+      [1.53, 1174, 4.8416, 15, 20, 80],
+      [1.62, 1270.2, 5.1264, 15, 20, 80],
+      [1.71, 1371.3, 5.4112, 15, 20, 80],
+      [1.8, 1477.2, 5.696, 15, 20, 80],
+      [1.9125, 1587.8, 6.052, 15, 20, 80],
+      [2.025, 1703.3, 6.408, 15, 20, 80],
+      [2.1375, 1823.6, 6.764, 15, 20, 80]
+    ]
   },
   "attackSkill": {
     "name": "Normal Attack: Ancient Sword Art",
     "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-    "cd": 0
+    "cd": 0,
+    "paramTpls": [
+      "1-Hit DMG|{param1:F1P}",
+      "2-Hit DMG|{param2:F1P}",
+      "3-Hit DMG|{param3:F1P}+{param3:F1P}",
+      "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+      "5-Hit DMG|{param5:F1P}",
+      "Charged Attack DMG|{param6:F1P}+{param6:F1P}",
+      "Charged Attack Stamina Cost|{param7:F1}",
+      "Plunge DMG|{param8:F1P}",
+      "Low/High Plunge DMG|{param9:P}/{param10:P}"
+    ],
+    "paramVals": [
+      [
+        0.37754,
+        0.38872,
+        0.24166,
+        0.24682,
+        0.63038,
+        0.64328,
+        20,
+        0.63932,
+        1.2784,
+        1.5968
+      ],
+      [
+        0.40827,
+        0.42036,
+        0.26133,
+        0.26691,
+        0.68169,
+        0.69564,
+        20,
+        0.69136,
+        1.3824,
+        1.7267
+      ],
+      [0.439, 0.452, 0.281, 0.287, 0.733, 0.748, 20, 0.7434, 1.4865, 1.8567],
+      [
+        0.4829,
+        0.4972,
+        0.3091,
+        0.3157,
+        0.8063,
+        0.8228,
+        20,
+        0.81774,
+        1.6351,
+        2.0424
+      ],
+      [
+        0.51363,
+        0.52884,
+        0.32877,
+        0.33579,
+        0.85761,
+        0.87516,
+        20,
+        0.86978,
+        1.7392,
+        2.1723
+      ],
+      [
+        0.54875,
+        0.565,
+        0.35125,
+        0.35875,
+        0.91625,
+        0.935,
+        20,
+        0.92925,
+        1.8581,
+        2.3209
+      ],
+      [
+        0.59704,
+        0.61472,
+        0.38216,
+        0.39032,
+        0.99688,
+        1.0173,
+        20,
+        1.011,
+        2.0216,
+        2.5251
+      ],
+      [
+        0.64533,
+        0.66444,
+        0.41307,
+        0.42189,
+        1.0775,
+        1.0996,
+        20,
+        1.0928,
+        2.1851,
+        2.7293
+      ],
+      [
+        0.69362,
+        0.71416,
+        0.44398,
+        0.45346,
+        1.1581,
+        1.1818,
+        20,
+        1.1746,
+        2.3486,
+        2.9336
+      ],
+      [
+        0.7463,
+        0.7684,
+        0.4777,
+        0.4879,
+        1.2461,
+        1.2716,
+        20,
+        1.2638,
+        2.527,
+        3.1564
+      ],
+      [
+        0.79898,
+        0.82264,
+        0.51142,
+        0.52234,
+        1.3341,
+        1.3614,
+        20,
+        1.353,
+        2.7054,
+        3.3792
+      ],
+      [
+        0.85166,
+        0.87688,
+        0.54514,
+        0.55678,
+        1.422,
+        1.4511,
+        20,
+        1.4422,
+        2.8838,
+        3.602
+      ],
+      [
+        0.90434,
+        0.93112,
+        0.57886,
+        0.59122,
+        1.51,
+        1.5409,
+        20,
+        1.5314,
+        3.0622,
+        3.8248
+      ],
+      [
+        0.95702,
+        0.98536,
+        0.61258,
+        0.62566,
+        1.5979,
+        1.6306,
+        20,
+        1.6206,
+        3.2405,
+        4.0476
+      ],
+      [
+        1.0097,
+        1.0396,
+        0.6463,
+        0.6601,
+        1.6859,
+        1.7204,
+        20,
+        1.7098,
+        3.4189,
+        4.2704
+      ]
+    ]
   },
   "c13ns": [
     {

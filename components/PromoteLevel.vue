@@ -1,16 +1,18 @@
 <template>
   <div class="promote-level">
-    <v-btn icon :size="size" @click="promoteLevel = Math.max(0, promoteLevel - 1)">
+    <v-btn icon :size="size" :disabled="promoteLevel === 0" @click="promoteLevel--">
       <v-icon>mdi-chevron-left</v-icon>
     </v-btn>
-    <v-rating v-model="promoteLevel" :length="6" hover :size="24">
+    <v-rating v-model="promoteLevel" :length="6" hover :size="size">
       <template v-slot:item="props">
-        <v-icon :size="size" :color="props.isFilled ? 'grey' : 'grey lighten-2'" @click="props.click">
-          {{ props.isFilled ? "mdi-star" : "mdi-star-outline" }}
+        <v-icon :size="size" :color="props.isFilled ? 'grey lighten-4' : 'grey darken-2'" @click="props.click">
+          {{
+            "M12.33 1.127c2.391 7.311 3.266 8.155 10.544 10.541 0.319 0.105 0.318 0.556-0 0.66-7.312 2.392-8.156 3.267-10.542 10.545-0.104 0.319-0.556 0.318-0.66-0-2.392-7.312-3.267-8.155-10.545-10.542-0.319-0.105-0.318-0.556 0-0.66 7.312-2.392 8.155-3.267 10.543-10.544 0.104-0.319 0.556-0.319 0.66 0z"
+          }}
         </v-icon>
       </template>
     </v-rating>
-    <v-btn icon :size="size" @click="promoteLevel = Math.min(6, promoteLevel + 1)">
+    <v-btn icon :size="size" :disabled="promoteLevel === 6" @click="promoteLevel++">
       <v-icon>mdi-chevron-right</v-icon>
     </v-btn>
   </div>
@@ -22,7 +24,7 @@ import { Vue, Component, VModel, Prop } from "vue-property-decorator";
 @Component({})
 export default class PromoteLevel extends Vue {
   @VModel() promoteLevel!: number;
-  @Prop({ default: 30 }) size!: number;
+  @Prop({ default: 36 }) size!: number;
 }
 </script>
 

@@ -1,7 +1,7 @@
 <template>
   <div v-if="char" class="gsm-avatar d-lg-flex">
     <!-- 角色主体 -->
-    <v-card max-width="560" class="mx-auto">
+    <v-card max-width="560" min-width="360" class="mx-auto">
       <v-card-title>
         <v-list-item two-line>
           <v-list-item-action>
@@ -61,24 +61,33 @@
           <v-col cols="6">
             <v-list-item two-line>
               <v-list-item-content>
-                <v-list-item-subtitle v-text="$t('buff.1')" />
-                <v-list-item-title class="headline" v-text="num(char.baseHP)" />
+                <v-list-item-subtitle>
+                  <GsIcon type="hp" />
+                  {{ $t("buff.1") }}
+                </v-list-item-subtitle>
+                <v-list-item-title class="headline" v-text="F(char.baseHP)" />
               </v-list-item-content>
             </v-list-item>
           </v-col>
           <v-col cols="6">
             <v-list-item two-line>
               <v-list-item-content>
-                <v-list-item-subtitle v-text="$t('buff.2')" />
-                <v-list-item-title class="headline" v-text="num(char.baseATK)" />
+                <v-list-item-subtitle>
+                  <GsIcon type="atk" />
+                  {{ $t("buff.2") }}
+                </v-list-item-subtitle>
+                <v-list-item-title class="headline" v-text="F(char.baseATK)" />
               </v-list-item-content>
             </v-list-item>
           </v-col>
           <v-col cols="6">
             <v-list-item two-line>
               <v-list-item-content>
-                <v-list-item-subtitle v-text="$t('buff.3')" />
-                <v-list-item-title class="headline" v-text="num(char.baseDEF)" />
+                <v-list-item-subtitle>
+                  <GsIcon type="def" />
+                  {{ $t("buff.3") }}
+                </v-list-item-subtitle>
+                <v-list-item-title class="headline" v-text="F(char.baseDEF)" />
               </v-list-item-content>
             </v-list-item>
           </v-col>
@@ -86,7 +95,7 @@
             <v-list-item two-line>
               <v-list-item-content>
                 <v-list-item-subtitle v-text="$t(`buff.${data.ascensionType}`)" />
-                <v-list-item-title class="headline" v-text="per(char.extra)" />
+                <v-list-item-title class="headline" v-text="P(char.extra)" />
               </v-list-item-content>
             </v-list-item>
           </v-col>
@@ -100,29 +109,39 @@
       <v-card>
         <v-tabs v-model="skillTab">
           <v-tabs-slider></v-tabs-slider>
-          <v-tab href="#attack">{{ $t("ui.attackSkill") }}</v-tab>
-          <v-tab href="#skill">{{ $t("ui.elemSkill") }}</v-tab>
-          <v-tab href="#burst">{{ $t("ui.elemBurst") }}</v-tab>
+          <v-tab href="#attackSkill">{{ $t("ui.attackSkill") }}</v-tab>
+          <v-tab href="#elemSkill">{{ $t("ui.elemSkill") }}</v-tab>
+          <v-tab href="#elemBurst">{{ $t("ui.elemBurst") }}</v-tab>
         </v-tabs>
         <v-tabs-items v-model="skillTab">
-          <v-tab-item value="attack">
+          <v-tab-item v-for="skillType in skillTypes" :key="skillType" :value="skillType">
             <v-card flat>
-              <v-card-title>{{ data.attackSkill.name }}</v-card-title>
-              <v-card-text><pre class="desc" v-html="parseDesc(data.attackSkill.desc)" /></v-card-text>
+              <v-card-title class="headline">{{ data[skillType].name }}</v-card-title>
+              <v-card-text>
+                <v-row>
+                  <v-col cols="12" lg="6">
+                    <div class="desc" v-html="parseDesc(data[skillType].desc)" />
+                  </v-col>
+                  <v-col cols="12" lg="6">
+                    <!-- <v-tabs v-model="skillLvlTab">
+                      <v-tab v-for="lv in parseSkillLevelMax(data[skillType])" :key="lv">{{ lv }}</v-tab>
+                    </v-tabs> -->
+                    <v-slider v-model="skillLvlTab" :label="$t('ui.level', [skillLvlTab])" :max="parseSkillLevelMax(data[skillType])" min="1"></v-slider>
+                    <v-tabs-items v-model="skillLvlTab">
+                      <v-tab-item v-for="(lvData, lv) in parseSkillLevelData(data[skillType])" :key="lv" :value="lv + 1">
+                        <v-list-item v-for="(item, index) in lvData" :key="index">
+                          <v-list-item-subtitle>{{ item.name }}</v-list-item-subtitle>
+                          <v-spacer />
+                          <v-list-item-title v-text="item.value" />
+                        </v-list-item>
+                      </v-tab-item>
+                    </v-tabs-items>
+                  </v-col>
+                </v-row>
+              </v-card-text>
             </v-card>
           </v-tab-item>
-          <v-tab-item value="skill">
-            <v-card flat>
-              <v-card-title>{{ data.elemSkill.name }}</v-card-title>
-              <v-card-text><pre class="desc" v-html="parseDesc(data.elemSkill.desc)" /></v-card-text>
-            </v-card>
-          </v-tab-item>
-          <v-tab-item value="burst">
-            <v-card flat>
-              <v-card-title>{{ data.elemBurst.name }}</v-card-title>
-              <v-card-text><pre class="desc" v-html="parseDesc(data.elemBurst.desc)" /></v-card-text>
-            </v-card> </v-tab-item
-        ></v-tabs-items>
+        </v-tabs-items>
       </v-card>
     </div>
   </div>
@@ -131,7 +150,7 @@
 
 <script lang="ts">
 import { Vue, Component, Watch } from "vue-property-decorator";
-import { Avatar, IAvatar } from "~/modules/core";
+import { Avatar, IAvatar, ISkill } from "~/modules/core";
 
 @Component<Page>({
   // server
@@ -154,7 +173,9 @@ export default class Page extends Vue {
   data: IAvatar | null = null;
   char: Avatar | null = null;
 
-  skillTab = "attack";
+  skillTab = "attackSkill";
+  skillLvlTab = 10;
+  skillTypes = ["attackSkill", "elemSkill", "elemBurst"];
 
   @Watch("data")
   created() {
@@ -162,18 +183,44 @@ export default class Page extends Vue {
     this.char = new Avatar(this.data);
   }
 
-  num(n: number) {
-    if (!n) return n;
-    return +n.toFixed(2);
+  F(n = 0, p = 2) {
+    return n.toFixed(p);
   }
 
-  per(n: number) {
-    if (!n) return n;
-    return +(n * 100).toFixed(2) + "%";
+  P(n = 0, p = 2) {
+    return +(n * 100).toFixed(p) + "%";
+  }
+
+  FP(n = 0, p = 1) {
+    return (n * 100).toFixed(p) + "%";
   }
 
   parseDesc(str: string) {
-    return str.replace(/<color=(.+?)>(.+?)<\/color>/g, `<span style="color:$1">$2</span>`);
+    return str.replace(/<color=(.+?)>(.+?)<\/color>/g, `<span style="color:$1">$2</span>`).replace(/\n/g, "<br>");
+  }
+
+  parseSkillLevelMax(skill: ISkill) {
+    if (!skill?.paramVals) return 0;
+    return skill.paramVals.length - 1;
+  }
+
+  parseSkillLevelData(skill: ISkill) {
+    if (!skill?.paramTpls) return null;
+    return skill.paramVals!.map(params => {
+      return skill.paramTpls?.map(tpl => {
+        const [name, vTpl] = tpl.split("|");
+        const value = vTpl.replace(/\{param(\d+?):(.+?)\}/g, (_, index: string, format: string) => {
+          const val = params[+index - 1];
+          if (format.startsWith("F")) {
+            const p = parseInt(format.substr(1));
+            if (format.endsWith("P")) return this.FP(val, p);
+            return this.F(val, p);
+          } else if (format.endsWith("P")) return this.P(val);
+          return val + "";
+        });
+        return { name, value };
+      });
+    });
   }
 }
 </script>

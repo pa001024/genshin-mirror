@@ -209,18 +209,87 @@
   "elemSkill": {
     "name": "Jade Screen",
     "desc": "Ningguang creates a Jade Screen out of gold, obsidian and her great opulence, dealing <color=#FFE699FF>AoE Geo DMG</color>.\n\n<color=#FFD780FF>Jade Screen</color>\n·Blocks opponents' projectiles.\n·Endurance scales based on Ningguang's Max HP.\n\nJade Screen is considered a <color=#FFE699FF>Geo Construct</color> and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.\n\n<i>The canvas of stars is written upon this jade screen.</i>",
-    "cd": 12
+    "cd": 12,
+    "paramTpls": [
+      "Inherited HP|{param3:F1P}",
+      "Skill DMG|{param2:P}",
+      "CD|{param4:F1}s"
+    ],
+    "paramVals": [
+      [-0.499, 2.304, 0.501, 12],
+      [-0.469, 2.4768, 0.531, 12],
+      [-0.439, 2.6496, 0.561, 12],
+      [-0.4, 2.88, 0.6, 12],
+      [-0.37, 3.0528, 0.63, 12],
+      [-0.34, 3.2256, 0.66, 12],
+      [-0.301, 3.456, 0.699, 12],
+      [-0.262, 3.6864, 0.738, 12],
+      [-0.223, 3.9168, 0.777, 12],
+      [-0.184, 4.1472, 0.816, 12],
+      [-0.145, 4.3776, 0.855, 12],
+      [-0.106, 4.608, 0.894, 12],
+      [-0.067, 4.896, 0.933, 12],
+      [-0.028, 5.184, 0.972, 12],
+      [0.011, 5.472, 1.011, 12]
+    ]
   },
   "elemBurst": {
     "name": "Starshatter",
     "desc": "Gathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her opponents that deal massive <color=#FFE699FF>Geo DMG</color>.\nIf Starshatter is cast when a Jade Screen is nearby, the Jade Screen will fire additional gem projectiles at the same time.\n\n<i>Stars shatter. Silence falls.</i>",
     "cd": 12,
-    "energyCost": 40
+    "energyCost": 40,
+    "paramTpls": [
+      "DMG Per Gem|{param1:F1P}",
+      "CD|{param2:F1}s",
+      "Energy Cost|{param3:I}"
+    ],
+    "paramVals": [
+      [0.8696, 12, 40],
+      [0.93482, 12, 40],
+      [1, 12, 40],
+      [1.087, 12, 40],
+      [1.1522, 12, 40],
+      [1.2174, 12, 40],
+      [1.3044, 12, 40],
+      [1.3914, 12, 40],
+      [1.4783, 12, 40],
+      [1.5653, 12, 40],
+      [1.6522, 12, 40],
+      [1.7392, 12, 40],
+      [1.8479, 12, 40],
+      [1.9566, 12, 40],
+      [2.0653, 12, 40]
+    ]
   },
   "attackSkill": {
     "name": "Normal Attack: Sparkling Scatter",
     "desc": "<color=#FFD780FF>Normal Attack</color>\nShoots gems that deal <color=#FFE699FF>Geo DMG</color>.\nUpon hit, this grants Ningguang 1 Star Jade.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of stamina to fire off a giant gem that deals <color=#FFE699FF>Geo DMG</color>.\nIf Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.\n\n<color=#FFD780FF>Plunging Attack</color>\nGathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#FFE699FF>AoE Geo DMG</color> upon impact with the ground.",
-    "cd": 0
+    "cd": 0,
+    "paramTpls": [
+      "Normal Attack DMG|{param1:F1P}",
+      "Charged Attack DMG|{param2:P}",
+      "DMG per Star Jade|{param3:F1P}",
+      "Charged Attack Stamina Cost|{param4:F1}",
+      "Plunge DMG|{param5:F1P}",
+      "Low/High Plunge DMG|{param6:P}/{param7:P}"
+    ],
+    "paramVals": [
+      [0.28, 1.7408, 0.496, 50, 0.56829, 1.1363, 1.4193],
+      [0.301, 1.8714, 0.5332, 50, 0.61454, 1.2288, 1.5349],
+      [0.322, 2.0019, 0.5704, 50, 0.6608, 1.3213, 1.6504],
+      [0.35, 2.176, 0.62, 50, 0.72688, 1.4535, 1.8154],
+      [0.371, 2.3066, 0.6572, 50, 0.77314, 1.5459, 1.931],
+      [0.392, 2.4371, 0.6944, 50, 0.826, 1.6516, 2.063],
+      [0.42, 2.6112, 0.744, 50, 0.89869, 1.797, 2.2445],
+      [0.448, 2.7853, 0.7936, 50, 0.97138, 1.9423, 2.4261],
+      [0.476, 2.9594, 0.8432, 50, 1.0441, 2.0877, 2.6076],
+      [0.504, 3.1334, 0.8928, 50, 1.1234, 2.2462, 2.8057],
+      [0.53312, 3.3145, 0.94438, 50, 1.2027, 2.4048, 3.0037],
+      [0.5712, 3.5512, 1.0118, 50, 1.282, 2.5634, 3.2018],
+      [0.60928, 3.788, 1.0793, 50, 1.3612, 2.7219, 3.3998],
+      [0.64736, 4.0247, 1.1468, 50, 1.4405, 2.8805, 3.5979],
+      [0.68544, 4.2615, 1.2142, 50, 1.5198, 3.039, 3.7959]
+    ]
   },
   "c13ns": [
     {

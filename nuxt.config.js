@@ -13,6 +13,9 @@ export default {
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
 
+  // Automatically generate or serve dynamic sitemap.xml (https://www.npmjs.com/package/@nuxtjs/sitemap)
+  sitemap: {},
+
   ignore: ["**/*.test.*", "**/*.spec.*", "cli/**"],
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
@@ -56,6 +59,8 @@ export default {
     "@nuxt/content",
     // https://i18n.nuxtjs.org/
     "nuxt-i18n",
+    // https://www.npmjs.com/package/@nuxtjs/sitemap
+    "@nuxtjs/sitemap",
   ],
   // i18n config
   i18n: {
@@ -109,6 +114,7 @@ export default {
   vuetify: {
     customVariables: ["~/assets/variables.scss"],
     theme: {
+      dark: true,
       themes: {
         light: {
           primary: colors.indigo,
@@ -138,39 +144,36 @@ export default {
   build: {
     // Enable thread-loader in webpack building
     // parallel: true,
-
-    extend(_config, { isClient, loaders }) {
-      // Extend only webpack config for client-bundle
-      if (isClient) {
-        _config.node = {
-          fs: "empty",
-        };
-        // config.devtool = "source-map";
-        loaders.protobuf = {
-          use: "protobuf-preloader",
-          options: {
-            /* controls the "target" flag to pbjs - true for
-             * json-module, false for static-module.
-             * default: false
-             */
-            json: false,
-
-            /* import paths provided to pbjs.
-             * default: webpack import paths (i.e. config.resolve.modules)
-             */
-            paths: ["@/proto"],
-
-            /* additional command line arguments passed to
-             * pbjs, see https://github.com/dcodeIO/ProtoBuf.js/#pbjs-for-javascript
-             * for a list of what's available.
-             * default: []
-             */
-            pbjsArgs: [
-              // "--no-encode"
-            ],
-          },
-        };
-      }
-    },
+    // extend(_config, { isClient, loaders }) {
+    //   // Extend only webpack config for client-bundle
+    //   if (isClient) {
+    //     _config.node = {
+    //       fs: "empty",
+    //     };
+    //     // config.devtool = "source-map";
+    //     loaders.protobuf = {
+    //       use: "protobuf-preloader",
+    //       options: {
+    //         /* controls the "target" flag to pbjs - true for
+    //          * json-module, false for static-module.
+    //          * default: false
+    //          */
+    //         json: false,
+    //         /* import paths provided to pbjs.
+    //          * default: webpack import paths (i.e. config.resolve.modules)
+    //          */
+    //         paths: ["@/proto"],
+    //         /* additional command line arguments passed to
+    //          * pbjs, see https://github.com/dcodeIO/ProtoBuf.js/#pbjs-for-javascript
+    //          * for a list of what's available.
+    //          * default: []
+    //          */
+    //         pbjsArgs: [
+    //           // "--no-encode"
+    //         ],
+    //       },
+    //     };
+    //   }
+    // },
   },
 };

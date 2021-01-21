@@ -21,8 +21,8 @@ async function parseChar() {
   const talentIndex = new Map(talentData.map(v => [v.TalentId, v]));
   const proudSkillData: ProudSkillExcelConfigData[] = await fs.readJSON(DATA_DIR + "Excel/ProudSkillExcelConfigData.json");
   const proudSkillIndex = proudSkillData.reduce<Dict<ProudSkillExcelConfigData[]>>((r, v) => {
-    if (v.ProudSkillId in r) r[v.ProudSkillId].push(v);
-    else r[v.ProudSkillId] = [v];
+    if (v.ProudSkillGroupId in r) r[v.ProudSkillGroupId].push(v);
+    else r[v.ProudSkillGroupId] = [v];
     return r;
   }, {});
   const promoteData: AvatarPromoteExcelConfigData[] = await fs.readJSON(DATA_DIR + "Excel/AvatarPromoteExcelConfigData.json");
@@ -133,11 +133,13 @@ async function parseChar() {
           desc: toDesc(t(skill.DescTextMapHash)),
           cd: toNum(skill.CdTime || 0),
         };
-        if (proud) {
-          rst.paramTpls = proud[0].ParamDescList.map(v => t(v));
-          rst.paramVals = proud.map(lv => lv.Param.map(toNum));
-        }
         if (skill.CostElemVal) rst.energyCost = skill.CostElemVal;
+        if (proud) {
+          const tplLen = proud[0].ParamDescList.map(v => toText(v)).findIndex(v => v === "");
+          const valLen = proud[0].Param.findIndex(v => v === 0);
+          rst.paramTpls = proud[0].ParamDescList.slice(0, tplLen).map(v => t(v));
+          rst.paramVals = proud.map(lv => lv.Param.slice(0, valLen).map(toNum));
+        }
         return rst;
       }
 

@@ -209,18 +209,95 @@
   "elemSkill": {
     "name": "Icy Paws",
     "desc": "#Fires an Icy Paw that deals <color=#99FFFFFF>Cryo DMG</color> to opponents and forms a shield on hit.\nThe shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nRapidly fires off 2 Icy Paws.\n\n<color=#FFD780FF>Hold</color>\nDashes back quickly before firing five Icy Paws.\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\n\nThe shield has a 250% <color=#99FFFFFF>Cryo DMG</color> Absorption Bonus, and will cause your active character to become affected by <color=#99FFFFFF>Cryo</color> at the point of formation for a short duration.\n\n<i>When she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision — now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!</i>",
-    "cd": 6
+    "cd": 6,
+    "paramTpls": [
+      "Icy Paw DMG|{param1:F1P} per Paw",
+      "Base Shield DMG Absorption|{param2:F1P} Max HP+{param3:I}",
+      "Duration|{param6:F1}s per Claw",
+      "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param4:F1}s",
+      "Holding CD|{param5:F1}s"
+    ],
+    "paramVals": [
+      [0.4192, 0.072, 692.81, 6, 15, 1.8],
+      [0.45064, 0.0774, 762.1, 6, 15, 1.9],
+      [0.48208, 0.0828, 837.16, 6, 15, 2],
+      [0.524, 0.09, 918, 6, 15, 2.1],
+      [0.55544, 0.0954, 1004.6, 6, 15, 2.2],
+      [0.58688, 0.1008, 1097, 6, 15, 2.3],
+      [0.6288, 0.108, 1195.2, 6, 15, 2.4],
+      [0.67072, 0.1152, 1299.1, 6, 15, 2.4],
+      [0.71264, 0.1224, 1408.8, 6, 15, 2.4],
+      [0.75456, 0.1296, 1524.3, 6, 15, 2.4],
+      [0.79648, 0.1368, 1645.5, 6, 15, 2.4],
+      [0.8384, 0.144, 1772.6, 6, 15, 2.4],
+      [0.8908, 0.153, 1905.4, 6, 15, 2.4],
+      [0.9432, 0.162, 2044, 6, 15, 2.4],
+      [0.9956, 0.171, 2188.3, 6, 15, 2.4]
+    ]
   },
   "elemBurst": {
     "name": "Signature Mix",
     "desc": "Tosses out a special cold brew that deals <color=#99FFFFFF>AoE Cryo DMG</color> and creates a Drunken Mist in an AoE.\n\n<color=#FFD780FF>Drunken Mist</color>\n·Deals continuous <color=#99FFFFFF>Cryo DMG</color> to opponents within the AoE.\n·Continuously regenerates the HP of characters within the AoE.\n\n<i>A horrific mix that even Diona considers inhumane. The horrifying foretaste should be left for one's opponents. It has a crisp aftertaste, but unfortunately, one can only feel it on one's nose and skin.</i>",
     "cd": 20,
-    "energyCost": 80
+    "energyCost": 80,
+    "paramTpls": [
+      "Skill DMG|{param1:P}",
+      "Continuous Field DMG|{param2:F1P}",
+      "HP Regeneration Over Time|{param3:F2P} Max HP+{param4:I}",
+      "Duration|{param7:F1}s",
+      "CD|{param5:F1}s",
+      "Energy Cost|{param6:I}"
+    ],
+    "paramVals": [
+      [0.8, 0.5264, 0.05336, 513.19, 20, 80, 12],
+      [0.86, 0.56588, 0.057362, 564.52, 20, 80, 12],
+      [0.92, 0.60536, 0.061364, 620.12, 20, 80, 12],
+      [1, 0.658, 0.0667, 680, 20, 80, 12],
+      [1.06, 0.69748, 0.070702, 744.16, 20, 80, 12],
+      [1.12, 0.73696, 0.074704, 812.59, 20, 80, 12],
+      [1.2, 0.7896, 0.08004, 885.3, 20, 80, 12],
+      [1.28, 0.84224, 0.085376, 962.29, 20, 80, 12],
+      [1.36, 0.89488, 0.090712, 1043.6, 20, 80, 12],
+      [1.44, 0.94752, 0.096048, 1129.1, 20, 80, 12],
+      [1.52, 1.0002, 0.10138, 1218.9, 20, 80, 12],
+      [1.6, 1.0528, 0.10672, 1313, 20, 80, 12],
+      [1.7, 1.1186, 0.11339, 1411.4, 20, 80, 12],
+      [1.8, 1.1844, 0.12006, 1514, 20, 80, 12],
+      [1.9, 1.2502, 0.12673, 1621, 20, 80, 12]
+    ]
   },
   "attackSkill": {
     "name": "Normal Attack: Kätzlein Style",
     "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 5 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal <color=#99FFFFFF>Cryo DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
-    "cd": 0
+    "cd": 0,
+    "paramTpls": [
+      "1-Hit DMG|{param1:F1P}",
+      "2-Hit DMG|{param2:F1P}",
+      "3-Hit DMG|{param3:F1P}",
+      "4-Hit DMG|{param4:F1P}",
+      "5-Hit DMG|{param5:F1P}",
+      "Aimed Shot|{param7:F1P}",
+      "Fully-Charged Aimed Shot|{param8:P}",
+      "Plunge DMG|{param9:F1P}",
+      "Low/High Plunge DMG|{param10:P}/{param11:P}"
+    ],
+    "paramVals": [
+      [0.3612, 0.3354, 0.4558, 0.43, 0.5375],
+      [0.3906, 0.3627, 0.4929, 0.465, 0.58125],
+      [0.42, 0.39, 0.53, 0.5, 0.625],
+      [0.462, 0.429, 0.583, 0.55, 0.6875],
+      [0.4914, 0.4563, 0.6201, 0.585, 0.73125],
+      [0.525, 0.4875, 0.6625, 0.625, 0.78125],
+      [0.5712, 0.5304, 0.7208, 0.68, 0.85],
+      [0.6174, 0.5733, 0.7791, 0.735, 0.91875],
+      [0.6636, 0.6162, 0.8374, 0.79, 0.9875],
+      [0.714, 0.663, 0.901, 0.85, 1.0625],
+      [0.77175, 0.71662, 0.97387, 0.91875, 1.1484],
+      [0.83966, 0.77969, 1.0596, 0.9996, 1.2495],
+      [0.90758, 0.84275, 1.1453, 1.0805, 1.3506],
+      [0.97549, 0.90581, 1.231, 1.1613, 1.4516],
+      [1.0496, 0.97461, 1.3245, 1.2495, 1.5619]
+    ]
   },
   "c13ns": [
     {

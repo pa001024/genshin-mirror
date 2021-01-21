@@ -10,44 +10,32 @@
     <!-- 顶栏 -->
     <v-app-bar app clipped-right flat height="72">
       <v-spacer></v-spacer>
-
+      <div style="height: 24px" class="mr-4">
+        <v-switch v-model="$vuetify.theme.dark" inset :label="$t('ui.switchTheme')" />
+      </div>
       <v-responsive max-width="156">
         <v-text-field dense flat hide-details rounded solo-inverted></v-text-field>
       </v-responsive>
     </v-app-bar>
 
-    <v-navigation-drawer v-model="drawer" app width="56">
-      <v-navigation-drawer v-model="drawer" absolute color="indigo darken-3" mini-variant>
-        <!-- 站头 -->
-        <nuxt-link to="/">
-          <v-btn color="transparent" fab elevation="0" small class="d-block text-center mx-auto mt-4 main-site-btn"><GsIcon type="logo" /></v-btn>
-        </nuxt-link>
-        <v-divider color="white" class="mx-3 my-5"></v-divider>
+    <v-navigation-drawer v-model="drawer" app width="56" absolute mini-variant>
+      <!-- 站头 -->
+      <nuxt-link to="/">
+        <v-btn color="transparent" fab elevation="0" small class="d-block text-center mx-auto mt-4 main-site-btn"><GsIcon type="logo" /></v-btn>
+      </nuxt-link>
+      <v-divider color="white" class="mx-3 my-5"></v-divider>
 
-        <!-- 主导航栏 -->
-        <v-tooltip v-for="item in links" :key="item.name" right>
-          <template v-slot:activator="{ on, attrs }">
-            <nuxt-link :to="item.path">
-              <v-btn color="indigo" v-bind="attrs" fab elevation="0" small class="d-block text-center mx-auto mb-4 main-nav-btn" v-on="on"
-                ><GsIcon :type="item.icon"
-              /></v-btn>
-            </nuxt-link>
-          </template>
-          <span>{{ $t(`navigate.${item.name}`) }}</span>
-        </v-tooltip>
-      </v-navigation-drawer>
-
-      <template v-if="injectedMenu.length">
-        <v-sheet color="indigo lighten-5" height="128" width="100%"></v-sheet>
-
-        <v-list class="pl-14" shaped>
-          <v-list-item v-for="item in injectedMenu" :key="item.name" link>
-            <v-list-item-content>
-              <v-list-item-title>{{ item.name }}</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-        </v-list>
-      </template>
+      <!-- 主导航栏 -->
+      <v-tooltip v-for="item in links" :key="item.name" right>
+        <template v-slot:activator="{ on, attrs }">
+          <nuxt-link :to="item.path">
+            <v-btn color="transparent" v-bind="attrs" fab elevation="0" small class="d-block text-center mx-auto mb-4 main-nav-btn" v-on="on"
+              ><GsIcon :type="item.icon"
+            /></v-btn>
+          </nuxt-link>
+        </template>
+        <span>{{ $t(`navigate.${item.name}`) }}</span>
+      </v-tooltip>
     </v-navigation-drawer>
 
     <v-main>
@@ -64,16 +52,12 @@
 
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
-import { Getter } from "vuex-class";
-import { InjectedMenu } from "~/types/store";
 
 @Component({})
 export default class DefaultLayout extends Vue {
   get isStandlone() {
     return false;
   }
-
-  @Getter("app/injectedMenu") injectedMenu!: InjectedMenu[];
 
   links = [
     { name: "avatar", path: "/char", icon: "avatar" },
@@ -90,11 +74,9 @@ export default class DefaultLayout extends Vue {
 
 <style lang="less" scoped>
 .main-nav-btn {
-  color: white;
   font-size: 1.5rem;
 }
 .main-site-btn {
-  color: white;
   font-size: 2rem;
 }
 </style>

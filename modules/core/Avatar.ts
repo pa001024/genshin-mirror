@@ -61,14 +61,14 @@ export class Avatar {
   /** 基础生命值 */
   get baseHP() {
     const base = this.data.baseHP * AVATAR.CURVE[this.data.rarity][this._level - 1];
-    const promote = this.data.ascensions[this._promoteLevel - 1].HP;
+    const promote = this.data.ascensions[this._promoteLevel - 1]?.HP || 0;
     return base + promote;
   }
 
   /** 人物基础攻击力 */
   get charBaseATK() {
     const base = this.data.baseATK * AVATAR.CURVE[this.data.rarity][this._level - 1];
-    const promote = this.data.ascensions[this._promoteLevel - 1].ATK;
+    const promote = this.data.ascensions[this._promoteLevel - 1]?.ATK || 0;
     return base + promote;
   }
 
@@ -80,13 +80,13 @@ export class Avatar {
   /** 基础防御力 */
   get baseDEF() {
     const base = this.data.baseDEF * AVATAR.CURVE[this.data.rarity][this._level - 1];
-    const promote = this.data.ascensions[this._promoteLevel - 1].DEF;
+    const promote = this.data.ascensions[this._promoteLevel - 1]?.DEF || 0;
     return base + promote;
   }
 
   /** 突破加成 */
   get extra() {
-    const promote = this.data.ascensions[this._promoteLevel - 1].extra;
+    const promote = this.data.ascensions[this._promoteLevel - 1]?.extra || 0;
     return promote;
   }
 

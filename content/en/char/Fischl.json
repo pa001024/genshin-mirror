@@ -209,18 +209,245 @@
   "elemSkill": {
     "name": "Nightrider",
     "desc": "#Summons Oz. The night raven forged of darkness and lightning descends upon the land, dealing <color=#FFACFFFF>Electro DMG</color> in a small AoE.\nFor the ability's duration, Oz will continuously attack nearby opponents with <color=#FFACFFFF>Freikugel</color>.\n\nHold to adjust the location Oz will be summoned to.\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} again any time during the ability's duration to once again summon him to Fischl's side.\n\n<i>\"My time is most precious, and I shall not waste it on the likes of you... Go, Oz, fall upon them, and bring down upon them your Rachsüchtig Blitz, that which tears open the long night.\"</i>\n<i>—Flowers for Princess Fischl (IV): Farewell Frau Welt</i>",
-    "cd": 25
+    "cd": 25,
+    "paramTpls": [
+      "Oz's ATK DMG|{param1:F1P}",
+      "Summoning DMG|{param2:P}",
+      "Oz's Duration|{param4:F1}s",
+      "CD|{param5:F1}s"
+    ],
+    "paramVals": [
+      [0.888, 1.1544],
+      [0.9546, 1.241],
+      [1.0212, 1.3276],
+      [1.11, 1.443],
+      [1.1766, 1.5296],
+      [1.2432, 1.6162],
+      [1.332, 1.7316],
+      [1.4208, 1.847],
+      [1.5096, 1.9625],
+      [1.5984, 2.0779],
+      [1.6872, 2.1934],
+      [1.776, 2.3088],
+      [1.887, 2.4531],
+      [1.998, 2.5974],
+      [2.109, 2.7417]
+    ]
   },
   "elemBurst": {
     "name": "Midnight Phantasmagoria",
     "desc": "Summons Oz to spread his twin wings of twilight and defend Fischl.\nHas the following properties during the ability's duration:\n·Fischl takes on Oz's form, greatly increasing her Movement Speed.\n·Strikes nearby opponents with lightning, dealing <color=#FFACFFFF>Electro DMG</color> to opponents she comes into contact with. Each opponent can only be struck once.\n·Once this ability's effects end, Oz will remain on the battlefield and attack his Prinzessin's foes. If Oz is already on the field, then this will reset the duration of his presence.\n\n<i>\"...In the hordes of beasts that follow the cursed blood, only Prince Nachtraben, who bore witness to the extinction of a thousand worlds, knows her true greatness. Thus the night wings he spreads are his eternal promise to protect Her Royal Highness.\"</i>\n<i>—Flowers for Princess Fischl (I): End Time Zersetzung</i>",
     "cd": 15,
-    "energyCost": 60
+    "energyCost": 60,
+    "paramTpls": [
+      "Falling Thunder DMG|{param1:P}",
+      "CD|{param5:F1}s",
+      "Energy Cost|{param6:I}"
+    ],
+    "paramVals": [
+      [2.08],
+      [2.236],
+      [2.392],
+      [2.6],
+      [2.756],
+      [2.912],
+      [3.12],
+      [3.328],
+      [3.536],
+      [3.744],
+      [3.952],
+      [4.16],
+      [4.42],
+      [4.68],
+      [4.94]
+    ]
   },
   "attackSkill": {
     "name": "Normal Attack: Bolts of Downfall",
     "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 5 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, the dark lightning spirits of Immernachtreich shall heed the call of their Prinzessin and indwell the enchanted arrowhead. When fully indwelt, the Rachsüchtig Blitz shall deal immense <color=#FFACFFFF>Electro DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
-    "cd": 0
+    "cd": 0,
+    "paramTpls": [
+      "1-Hit DMG|{param1:F1P}",
+      "2-Hit DMG|{param2:F1P}",
+      "3-Hit DMG|{param3:F1P}",
+      "4-Hit DMG|{param4:F1P}",
+      "5-Hit DMG|{param5:F1P}",
+      "Aimed Shot|{param6:F1P}",
+      "Fully-Charged Aimed Shot|{param7:P}",
+      "Plunge DMG|{param8:F1P}",
+      "Low/High Plunge DMG|{param9:P}/{param10:P}"
+    ],
+    "paramVals": [
+      [
+        0.44118,
+        0.46784,
+        0.58136,
+        0.57706,
+        0.72068,
+        0.4386,
+        1.24,
+        0.56829,
+        1.1363,
+        1.4193
+      ],
+      [
+        0.47709,
+        0.50592,
+        0.62868,
+        0.62403,
+        0.77934,
+        0.4743,
+        1.333,
+        0.61454,
+        1.2288,
+        1.5349
+      ],
+      [0.513, 0.544, 0.676, 0.671, 0.838, 0.51, 1.426, 0.6608, 1.3213, 1.6504],
+      [
+        0.5643,
+        0.5984,
+        0.7436,
+        0.7381,
+        0.9218,
+        0.561,
+        1.55,
+        0.72688,
+        1.4535,
+        1.8154
+      ],
+      [
+        0.60021,
+        0.63648,
+        0.79092,
+        0.78507,
+        0.98046,
+        0.5967,
+        1.643,
+        0.77314,
+        1.5459,
+        1.931
+      ],
+      [
+        0.64125,
+        0.68,
+        0.845,
+        0.83875,
+        1.0475,
+        0.6375,
+        1.736,
+        0.826,
+        1.6516,
+        2.063
+      ],
+      [
+        0.69768,
+        0.73984,
+        0.91936,
+        0.91256,
+        1.1397,
+        0.6936,
+        1.86,
+        0.89869,
+        1.797,
+        2.2445
+      ],
+      [
+        0.75411,
+        0.79968,
+        0.99372,
+        0.98637,
+        1.2319,
+        0.7497,
+        1.984,
+        0.97138,
+        1.9423,
+        2.4261
+      ],
+      [
+        0.81054,
+        0.85952,
+        1.0681,
+        1.0602,
+        1.324,
+        0.8058,
+        2.108,
+        1.0441,
+        2.0877,
+        2.6076
+      ],
+      [
+        0.8721,
+        0.9248,
+        1.1492,
+        1.1407,
+        1.4246,
+        0.867,
+        2.232,
+        1.1234,
+        2.2462,
+        2.8057
+      ],
+      [
+        0.93366,
+        0.99008,
+        1.2303,
+        1.2212,
+        1.5252,
+        0.9282,
+        2.356,
+        1.2027,
+        2.4048,
+        3.0037
+      ],
+      [
+        0.99522,
+        1.0554,
+        1.3114,
+        1.3017,
+        1.6257,
+        0.9894,
+        2.48,
+        1.282,
+        2.5634,
+        3.2018
+      ],
+      [
+        1.0568,
+        1.1206,
+        1.3926,
+        1.3823,
+        1.7263,
+        1.0506,
+        2.635,
+        1.3612,
+        2.7219,
+        3.3998
+      ],
+      [
+        1.1183,
+        1.1859,
+        1.4737,
+        1.4628,
+        1.8268,
+        1.1118,
+        2.79,
+        1.4405,
+        2.8805,
+        3.5979
+      ],
+      [
+        1.1799,
+        1.2512,
+        1.5548,
+        1.5433,
+        1.9274,
+        1.173,
+        2.945,
+        1.5198,
+        3.039,
+        3.7959
+      ]
+    ]
   },
   "c13ns": [
     {

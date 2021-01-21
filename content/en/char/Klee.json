@@ -209,18 +209,90 @@
   "elemSkill": {
     "name": "Jumpy Dumpty",
     "desc": "Jumpy Dumpty is tons of boom-bang-fun! \nWhen thrown, Jumpy Dumpty bounces thrice, igniting and dealing <color=#FF9999FF>AoE Pyro DMG</color> with every bounce.\n\nOn the third bounce, the bomb splits into many mines.\nThe mines will explode upon contact with opponents, or after a short period of time, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\n\nStarts with 2 charges.\n\n<i>Jumpy Dumpty is Klee's good friend! She can't help but introduce him to everyone.</i>",
-    "cd": 20
+    "cd": 20,
+    "paramTpls": [
+      "Jumpy Dumpty DMG|{param1:F1P}",
+      "Mine DMG|{param4:F1P}",
+      "Mine Duration|{param5:F1}s",
+      "CD|{param6:F1}s"
+    ],
+    "paramVals": [
+      [0.952, 0.952, 0.952, 0.328, 15, 20],
+      [1.0234, 1.0234, 1.0234, 0.3526, 15, 20],
+      [1.0948, 1.0948, 1.0948, 0.3772, 15, 20],
+      [1.19, 1.19, 1.19, 0.41, 15, 20],
+      [1.2614, 1.2614, 1.2614, 0.4346, 15, 20],
+      [1.3328, 1.3328, 1.3328, 0.4592, 15, 20],
+      [1.428, 1.428, 1.428, 0.492, 15, 20],
+      [1.5232, 1.5232, 1.5232, 0.5248, 15, 20],
+      [1.6184, 1.6184, 1.6184, 0.5576, 15, 20],
+      [1.7136, 1.7136, 1.7136, 0.5904, 15, 20],
+      [1.8088, 1.8088, 1.8088, 0.6232, 15, 20],
+      [1.904, 1.904, 1.904, 0.656, 15, 20],
+      [2.023, 2.023, 2.023, 0.697, 15, 20],
+      [2.142, 2.142, 2.142, 0.738, 15, 20],
+      [2.261, 2.261, 2.261, 0.779, 15, 20]
+    ]
   },
   "elemBurst": {
     "name": "Sparks 'n' Splash",
     "desc": "Klee's Blazing Delight! For the duration of this ability, continuously summons Sparks 'n' Splash to attack nearby opponents, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\n\n<i>The knights all believe that Klee must have a lucky star watching over her to have never been hurt by any of her own bombs...</i>",
     "cd": 15,
-    "energyCost": 60
+    "energyCost": 60,
+    "paramTpls": [
+      "Sparks 'n' Splash DMG|{param1:F1P}",
+      "Duration|{param5:F1}s",
+      "CD|{param2:F1}s",
+      "Energy Cost|{param3:I}"
+    ],
+    "paramVals": [
+      [0.4264, 15, 60, 0.51168, 10],
+      [0.45838, 15, 60, 0.55006, 10],
+      [0.49036, 15, 60, 0.58843, 10],
+      [0.533, 15, 60, 0.6396, 10],
+      [0.56498, 15, 60, 0.67798, 10],
+      [0.59696, 15, 60, 0.71635, 10],
+      [0.6396, 15, 60, 0.76752, 10],
+      [0.68224, 15, 60, 0.81869, 10],
+      [0.72488, 15, 60, 0.86986, 10],
+      [0.76752, 15, 60, 0.92102, 10],
+      [0.81016, 15, 60, 0.97219, 10],
+      [0.8528, 15, 60, 1.0234, 10],
+      [0.9061, 15, 60, 1.0873, 10],
+      [0.9594, 15, 60, 1.1513, 10],
+      [1.0127, 15, 60, 1.2152, 10]
+    ]
   },
   "attackSkill": {
     "name": "Normal Attack: Kaboom!",
     "desc": "<color=#FFD780FF>Normal Attack</color>\nThrows things that go boom when they hit things! Perform up to 3 explosive attacks, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina and deals <color=#FF9999FF>AoE Pyro DMG</color> to opponents after a short casting time.\n\n<color=#FFD780FF>Plunging Attack</color>\nGathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#FF9999FF>AoE Pyro DMG</color> upon impact with the ground.",
-    "cd": 0
+    "cd": 0,
+    "paramTpls": [
+      "1-Hit DMG|{param1:F1P}",
+      "2-Hit DMG|{param2:F1P}",
+      "3-Hit DMG|{param3:F1P}",
+      "Charged Attack DMG|{param4:P}",
+      "Charged Attack Stamina Cost|{param5:F1}",
+      "Plunge DMG|{param6:F1P}",
+      "Low/High Plunge DMG|{param7:P}/{param8:P}"
+    ],
+    "paramVals": [
+      [0.7216, 0.624, 0.8992, 1.5736, 50, 0.56829, 1.1363, 1.4193],
+      [0.77572, 0.6708, 0.96664, 1.6916, 50, 0.61454, 1.2288, 1.5349],
+      [0.82984, 0.7176, 1.0341, 1.8096, 50, 0.6608, 1.3213, 1.6504],
+      [0.902, 0.78, 1.124, 1.967, 50, 0.72688, 1.4535, 1.8154],
+      [0.95612, 0.8268, 1.1914, 2.085, 50, 0.77314, 1.5459, 1.931],
+      [1.0102, 0.8736, 1.2589, 2.203, 50, 0.826, 1.6516, 2.063],
+      [1.0824, 0.936, 1.3488, 2.3604, 50, 0.89869, 1.797, 2.2445],
+      [1.1546, 0.9984, 1.4387, 2.5178, 50, 0.97138, 1.9423, 2.4261],
+      [1.2267, 1.0608, 1.5286, 2.6751, 50, 1.0441, 2.0877, 2.6076],
+      [1.2989, 1.1232, 1.6186, 2.8325, 50, 1.1234, 2.2462, 2.8057],
+      [1.3739, 1.1881, 1.7121, 2.9961, 50, 1.2027, 2.4048, 3.0037],
+      [1.4721, 1.273, 1.8344, 3.2101, 50, 1.282, 2.5634, 3.2018],
+      [1.5702, 1.3578, 1.9567, 3.4242, 50, 1.3612, 2.7219, 3.3998],
+      [1.6683, 1.4427, 2.0789, 3.6382, 50, 1.4405, 2.8805, 3.5979],
+      [1.7665, 1.5276, 2.2012, 3.8522, 50, 1.5198, 3.039, 3.7959]
+    ]
   },
   "c13ns": [
     {
