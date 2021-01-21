@@ -96,39 +96,33 @@
       </v-card-text>
     </v-card>
     <!-- 技能 -->
-    <div class="ml-lg-4 mt-3 mt-lg-0">
-      <v-card class="mb-3">
-        <v-card-title>
-          <v-list-item two-line>
-            <v-list-item-content>
-              <v-list-item-title class="headline">{{ data.attackSkill.name }}</v-list-item-title>
-              <v-list-item-subtitle v-text="$t('ui.attackSkill')" />
-            </v-list-item-content>
-          </v-list-item>
-        </v-card-title>
-        <v-card-text v-html="parseDesc(data.attackSkill.desc)" />
-      </v-card>
-      <v-card class="mb-3">
-        <v-card-title>
-          <v-list-item two-line>
-            <v-list-item-content>
-              <v-list-item-title class="headline">{{ data.elemSkill.name }}</v-list-item-title>
-              <v-list-item-subtitle v-text="$t('ui.elemSkill')" />
-            </v-list-item-content>
-          </v-list-item>
-        </v-card-title>
-        <v-card-text v-html="parseDesc(data.elemSkill.desc)" />
-      </v-card>
-      <v-card class="mb-3">
-        <v-card-title>
-          <v-list-item two-line>
-            <v-list-item-content>
-              <v-list-item-title class="headline">{{ data.elemBurst.name }}</v-list-item-title>
-              <v-list-item-subtitle v-text="$t('ui.elemBurst')" />
-            </v-list-item-content>
-          </v-list-item>
-        </v-card-title>
-        <v-card-text v-html="parseDesc(data.elemBurst.desc)" />
+    <div class="ml-lg-4 mt-3 mt-lg-0 flex-grow-1">
+      <v-card>
+        <v-tabs v-model="skillTab">
+          <v-tabs-slider></v-tabs-slider>
+          <v-tab href="#attack">{{ $t("ui.attackSkill") }}</v-tab>
+          <v-tab href="#skill">{{ $t("ui.elemSkill") }}</v-tab>
+          <v-tab href="#burst">{{ $t("ui.elemBurst") }}</v-tab>
+        </v-tabs>
+        <v-tabs-items v-model="skillTab">
+          <v-tab-item value="attack">
+            <v-card flat>
+              <v-card-title>{{ data.attackSkill.name }}</v-card-title>
+              <v-card-text><pre class="desc" v-html="parseDesc(data.attackSkill.desc)" /></v-card-text>
+            </v-card>
+          </v-tab-item>
+          <v-tab-item value="skill">
+            <v-card flat>
+              <v-card-title>{{ data.elemSkill.name }}</v-card-title>
+              <v-card-text><pre class="desc" v-html="parseDesc(data.elemSkill.desc)" /></v-card-text>
+            </v-card>
+          </v-tab-item>
+          <v-tab-item value="burst">
+            <v-card flat>
+              <v-card-title>{{ data.elemBurst.name }}</v-card-title>
+              <v-card-text><pre class="desc" v-html="parseDesc(data.elemBurst.desc)" /></v-card-text>
+            </v-card> </v-tab-item
+        ></v-tabs-items>
       </v-card>
     </div>
   </div>
@@ -160,6 +154,8 @@ export default class Page extends Vue {
   data: IAvatar | null = null;
   char: Avatar | null = null;
 
+  skillTab = "attack";
+
   @Watch("data")
   created() {
     if (!this.data) return;
@@ -181,3 +177,9 @@ export default class Page extends Vue {
   }
 }
 </script>
+
+<style lang="less" scoped>
+.desc {
+  font-family: inherit !important;
+}
+</style>
