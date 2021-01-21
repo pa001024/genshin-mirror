@@ -114,7 +114,7 @@ export default class Page extends Vue {
       { header: this.$t("element.title") },
       ...this.elements,
       { divider: true },
-      { header: this.$t("rarity.title") },
+      { header: this.$t("ui.rarity") },
       ...this.rarities,
       { divider: true },
       { header: this.$t("weapon.title") },

@@ -100,7 +100,7 @@ export default class Page extends Vue {
       { header: this.$t("ui.itemType") },
       ...this.types,
       { divider: true },
-      { header: this.$t("rarity.title") },
+      { header: this.$t("ui.rarity") },
       ...this.rarities,
     ];
   }

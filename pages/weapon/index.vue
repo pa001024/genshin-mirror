@@ -97,7 +97,7 @@ export default class Page extends Vue {
   }
 
   get filters() {
-    return [{ header: this.$t("ui.weaponType") }, ...this.types, { divider: true }, { header: this.$t("rarity.title") }, ...this.rarities];
+    return [{ header: this.$t("ui.weaponType") }, ...this.types, { divider: true }, { header: this.$t("ui.rarity") }, ...this.rarities];
   }
 
   get items() {
