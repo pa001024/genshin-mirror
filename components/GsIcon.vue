@@ -1,9 +1,10 @@
 <template>
-  <svg class="icon" :class="[`gs-icon-` + name, { shadow }]" :viewBox="size">
+  <svg class="icon" :class="[`gs-icon-` + name, { shadow }]" :style="size && { fontSize: size + 'px' }" :viewBox="viewBox">
     <path :d="path"></path>
   </svg>
 </template>
 <script lang="ts">
+import "reflect-metadata";
 import { Vue, Component, Prop } from "vue-property-decorator";
 import { SVGData } from "../assets/svgicons";
 
@@ -12,6 +13,7 @@ const AliasTable: { [key: string]: string } = {};
 @Component({})
 export default class GsIcon extends Vue {
   @Prop() type!: string;
+  @Prop() size!: number;
   @Prop({ type: Boolean }) shadow!: boolean;
   get name() {
     const type = this.type.toLowerCase();
@@ -27,7 +29,7 @@ export default class GsIcon extends Vue {
     return this.raw && this.raw.path;
   }
 
-  get size() {
+  get viewBox() {
     const vs = (this.raw && this.raw.size) || 32;
     return `0 0 ${vs} ${vs}`;
   }

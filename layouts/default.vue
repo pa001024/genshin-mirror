@@ -9,6 +9,9 @@
 
     <!-- 顶栏 -->
     <v-app-bar app clipped-right flat height="72">
+      <v-btn icon @click="drawer = true">
+        <GsIcon v-if="!drawer" type="logo" :size="32" />
+      </v-btn>
       <v-spacer></v-spacer>
       <div style="height: 24px" class="mr-4">
         <v-switch v-model="$vuetify.theme.dark" inset :label="$t('ui.switchTheme')" />
@@ -18,7 +21,7 @@
       </v-responsive>
     </v-app-bar>
 
-    <v-navigation-drawer v-model="drawer" app width="56" absolute mini-variant>
+    <v-navigation-drawer v-model="drawer" app width="56">
       <!-- 站头 -->
       <nuxt-link to="/">
         <v-btn color="transparent" fab elevation="0" small class="d-block text-center mx-auto mt-4 main-site-btn"><GsIcon type="logo" /></v-btn>
