@@ -151,24 +151,14 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+    extractCSS: true,
     optimization: {
-      // extractCSS
       splitChunks: {
-        chunks: "all",
         cacheGroups: {
-          libs: {
-            name: "chunk-libs",
-            chunks: "initial",
-            priority: -10,
-            reuseExistingChunk: false,
-            test: /node_modules\/(.*)\.js/,
-          },
           styles: {
-            name: "chunk-styles",
-            test: /\.(scss|css|less)$/,
+            name: "styles",
+            test: /\.(css|vue)$/,
             chunks: "all",
-            minChunks: 1,
-            reuseExistingChunk: true,
             enforce: true,
           },
         },
