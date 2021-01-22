@@ -1,6 +1,11 @@
 import colors from "vuetify/es5/util/colors";
 
 export default {
+  // Server Middleware
+  serverMiddleware: {
+    "/api": "~/api",
+  },
+
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     titleTemplate: "%s",
@@ -112,7 +117,7 @@ export default {
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
   vuetify: {
-    customVariables: ["~/assets/variables.scss"],
+    // customVariables: ["~/assets/variables.scss"],
     theme: {
       dark: true,
       themes: {
@@ -142,6 +147,7 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+    extractCSS: { allChunks: true },
     // Enable thread-loader in webpack building
     // parallel: true,
     // extend(_config, { isClient, loaders }) {

@@ -1,9 +1,9 @@
 <template>
   <div class="promote-level">
-    <v-btn icon :size="size" :disabled="promoteLevel === 0" @click="promoteLevel--">
+    <v-btn icon :size="size" :disabled="level <= 0" @click="level--">
       <v-icon>mdi-chevron-left</v-icon>
     </v-btn>
-    <v-rating v-model="promoteLevel" :length="6" hover :size="size">
+    <v-rating v-model="level" :length="6" hover :size="size">
       <template v-slot:item="props">
         <v-icon :size="size" :color="props.isFilled ? 'grey lighten-4' : 'grey darken-2'" @click="props.click">
           {{
@@ -12,7 +12,7 @@
         </v-icon>
       </template>
     </v-rating>
-    <v-btn icon :size="size" :disabled="promoteLevel === 6" @click="promoteLevel++">
+    <v-btn icon :size="size" :disabled="level >= 6" @click="level++">
       <v-icon>mdi-chevron-right</v-icon>
     </v-btn>
   </div>
@@ -23,7 +23,7 @@ import { Vue, Component, VModel, Prop } from "vue-property-decorator";
 
 @Component({})
 export default class PromoteLevel extends Vue {
-  @VModel() promoteLevel!: number;
+  @VModel() level!: number;
   @Prop({ default: 36 }) size!: number;
 }
 </script>

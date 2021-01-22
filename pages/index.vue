@@ -25,12 +25,6 @@ import { Vue, Component } from "vue-property-decorator";
     rst.page = await $content("todo").fetch().catch(console.error);
     return rst;
   },
-  // set html header
-  head() {
-    // Set Meta Tags for this Page
-    const title = this.$t("title.avatar") as string;
-    return { title };
-  },
 })
 export default class Page extends Vue {
   page: any = null;

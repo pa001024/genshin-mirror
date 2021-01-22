@@ -13,15 +13,14 @@ export class Avatar {
   lazy = false;
 
   /// 动态数据
-  /** 角色等级 */
   private _level = 90;
+  /** 等级 */
   public get level() {
     return this._level;
   }
 
   public set level(value) {
     this._level = Math.max(this._minLevel, Math.min(this._maxLevel, value));
-    // if (!this.lazy) this.recalc();
   }
 
   private _minLevel: number = 80;
@@ -46,7 +45,6 @@ export class Avatar {
       this._minLevel = [1, 20, 40, 50, 60, 70, 80][value];
       this._maxLevel = this._level = [20, 40, 50, 60, 70, 80, 90][value];
     }
-    // if (!this.lazy) this.recalc();
   }
 
   /** 命座等级 */

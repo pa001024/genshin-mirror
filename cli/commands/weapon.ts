@@ -1,8 +1,8 @@
 import fs from "fs-extra";
 
 // extra
-import type { IWeapon, IWeaponPromoteStage, IWeaponAffix } from "../../modules/core/interface";
-import { DATA_DIR, itemMap, toAttrType, toCurve, toNum, toWeaponType, toText, toID, saveTranslation, toDesc, toAttr, affixMap } from "../util";
+import type { IWeapon, IWeaponAscension, IWeaponAffix } from "../../modules/core/interface";
+import { DATA_DIR, toAttrType, toCurve, toNum, toWeaponType, toText, toID, saveTranslation, toDesc, toAttr, affixMap, toItem } from "../util";
 import { uniqBy } from "lodash";
 
 export async function run() {
@@ -33,7 +33,7 @@ export async function run() {
           desc: toDesc(t(v.DescTextMapHash)),
           rarity: v.RankLevel,
           type: toWeaponType(v.WeaponType),
-          promoteStages: toPromoteStage(promote),
+          ascensions: toPromoteStage(promote),
           baseATK: toNum(v.WeaponProp[0].InitValue!),
           baseATKCurve: toCurve(v.WeaponProp[0].Type),
         };
@@ -49,7 +49,7 @@ export async function run() {
         return rst;
       });
     return uniqBy(rst, "id");
-    function toPromoteStage(data: WeaponPromoteData[]): IWeaponPromoteStage[] {
+    function toPromoteStage(data: WeaponPromoteData[]): IWeaponAscension[] {
       return data
         .filter(v => v.PromoteLevel)
         .map(lv => {
@@ -57,8 +57,12 @@ export async function run() {
             level: lv.PromoteLevel!,
             baseATK: toNum(lv.AddProps[0].Value!),
             cost: lv.CostItems.filter(v => v.Id).map(v => {
-              const item = itemMap[v.Id!];
-              return [toID(item.NameTextMapHash), v.Count!];
+              const item = toItem(v.Id!);
+              if (!item) {
+                // console.warn(`[item] ${id}:${it.Id} not found`);
+                return { id: "unknown", name: "???", count: v.Count! };
+              }
+              return { id: toID(item.NameTextMapHash), name: t(item.NameTextMapHash), count: v.Count! };
             }),
           };
         });

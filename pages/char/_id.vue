@@ -1,5 +1,5 @@
 <template>
-  <div v-if="char" class="gsm-avatar d-lg-flex">
+  <div v-if="data && char" class="gsm-avatar d-lg-flex">
     <!-- 角色主体 -->
     <v-card max-width="560" min-width="360" class="mx-auto">
       <v-card-title>
@@ -108,36 +108,28 @@
     <div class="ml-lg-4 mt-3 mt-lg-0 flex-grow-1">
       <v-card>
         <v-tabs v-model="skillTab">
-          <v-tabs-slider></v-tabs-slider>
+          <v-tabs-slider />
           <v-tab href="#attackSkill">{{ $t("ui.attackSkill") }}</v-tab>
           <v-tab href="#elemSkill">{{ $t("ui.elemSkill") }}</v-tab>
           <v-tab href="#elemBurst">{{ $t("ui.elemBurst") }}</v-tab>
         </v-tabs>
         <v-tabs-items v-model="skillTab">
-          <v-tab-item v-for="skillType in skillTypes" :key="skillType" :value="skillType">
+          <v-tab-item v-for="(skillType, sindex) in skillTypes" :key="skillType" :value="skillType">
             <v-card flat>
               <v-card-title class="headline">{{ data[skillType].name }}</v-card-title>
               <v-card-text>
-                <v-row>
-                  <v-col cols="12" lg="6">
-                    <div class="desc" v-html="parseDesc(data[skillType].desc)" />
-                  </v-col>
-                  <v-col cols="12" lg="6">
-                    <!-- <v-tabs v-model="skillLvlTab">
-                      <v-tab v-for="lv in parseSkillLevelMax(data[skillType])" :key="lv">{{ lv }}</v-tab>
-                    </v-tabs> -->
-                    <v-slider v-model="skillLvlTab" :label="$t('ui.level', [skillLvlTab])" :max="parseSkillLevelMax(data[skillType])" min="1"></v-slider>
-                    <v-tabs-items v-model="skillLvlTab">
-                      <v-tab-item v-for="(lvData, lv) in parseSkillLevelData(data[skillType])" :key="lv" :value="lv + 1">
-                        <v-list-item v-for="(item, index) in lvData" :key="index">
-                          <v-list-item-subtitle>{{ item.name }}</v-list-item-subtitle>
-                          <v-spacer />
-                          <v-list-item-title v-text="item.value" />
-                        </v-list-item>
-                      </v-tab-item>
-                    </v-tabs-items>
-                  </v-col>
-                </v-row>
+                <div class="desc" v-html="parseDesc(data[skillType].desc)" />
+                <v-divider class="mb-2 mt-4" />
+                <SkillLevel v-model="skillLvlTab[sindex]" :max="data[skillType].paramVals.length" />
+                <v-tabs-items v-model="skillLvlTab[sindex]">
+                  <v-tab-item v-for="(lvData, lv) in parseSkillLevelData(data[skillType])" :key="lv" :value="lv + 1">
+                    <v-list-item v-for="(item, index) in lvData" :key="index">
+                      <v-list-item-subtitle>{{ item.name }}</v-list-item-subtitle>
+                      <v-spacer />
+                      <v-list-item-title v-text="item.value" />
+                    </v-list-item>
+                  </v-tab-item>
+                </v-tabs-items>
               </v-card-text>
             </v-card>
           </v-tab-item>
@@ -174,7 +166,7 @@ export default class Page extends Vue {
   char: Avatar | null = null;
 
   skillTab = "attackSkill";
-  skillLvlTab = 10;
+  skillLvlTab = [10, 13, 13];
   skillTypes = ["attackSkill", "elemSkill", "elemBurst"];
 
   @Watch("data")
@@ -197,11 +189,6 @@ export default class Page extends Vue {
 
   parseDesc(str: string) {
     return str.replace(/<color=(.+?)>(.+?)<\/color>/g, `<span style="color:$1">$2</span>`).replace(/\n/g, "<br>");
-  }
-
-  parseSkillLevelMax(skill: ISkill) {
-    if (!skill?.paramVals) return 0;
-    return skill.paramVals.length - 1;
   }
 
   parseSkillLevelData(skill: ISkill) {

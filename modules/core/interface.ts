@@ -22,16 +22,16 @@ export interface IWeapon {
   /** 稀有度 */ rarity: number;
   /** 基础攻击力 */ baseATK: number;
   /** 基础攻击力成长曲线 */ baseATKCurve: number;
-  /** 武器突破阶段 */ promoteStages: IWeaponPromoteStage[];
+  /** 武器突破阶段 */ ascensions: IWeaponAscension[];
   /** 副属性类型 */ subAttr?: IWeaponSubAttr;
   /** 特效 */ affix?: IWeaponAffix;
 }
 
 /** 武器突破阶段 */
-export interface IWeaponPromoteStage {
+export interface IWeaponAscension {
   level: number;
   baseATK: number;
-  cost: [string, number][];
+  cost: IItemStack[];
 }
 
 /** 武器特效 */
@@ -153,8 +153,7 @@ export interface IAscension {
 /** 物品 */
 export interface IItemStack {
   id: string;
-  name?: string;
-  localeName?: string;
+  name: string;
   count: number;
 }
 

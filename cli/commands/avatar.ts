@@ -85,9 +85,9 @@ async function parseChar() {
                 const item = toItem(it.Id!);
                 if (!item) {
                   // console.warn(`[item] ${id}:${it.Id} not found`);
-                  return { id: "unknown", name: "???", localeName: "???", count: it.Count! };
+                  return { id: "unknown", name: "???", count: it.Count! };
                 }
-                return { id: toID(item.NameTextMapHash), name: toText(item.NameTextMapHash), localeName: t(item.NameTextMapHash), count: it.Count! };
+                return { id: toID(item.NameTextMapHash), name: t(item.NameTextMapHash), count: it.Count! };
               }),
               attrs: v.AddProps.filter(p => p.PropType).map(p => {
                 return { type: toAttrType(p.PropType!), value: p.Value ? toNum(p.Value) : 0 };
