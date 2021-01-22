@@ -1,16 +1,26 @@
 import { prop, getModelForClass } from "@typegoose/typegoose";
 import mongoose from "mongoose";
 
-class UserModel {
-  @prop({ required: true, unique: true }) email!: string;
-  @prop({ required: true }) hash!: string;
-  @prop() name?: string;
-  @prop() type?: number;
+export class User {
+  @prop({ type: String, required: true, unique: true })
+  public email!: string;
+
+  @prop({ type: String })
+  public username?: string;
+
+  @prop({ type: Number })
+  public type?: number;
+
+  // password
+  @prop({ type: String, required: true })
+  public pass!: string;
 }
 
-export const User = getModelForClass(UserModel);
+export const UserModel = getModelForClass(User);
 
-mongoose.connect("mongodb://localhost/genshin-im", {
+const DB = process.env.DB!;
+
+mongoose.connect(DB, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,
@@ -20,5 +30,5 @@ mongoose.connect("mongodb://localhost/genshin-im", {
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "connection error:"));
 db.once("open", function () {
-  console.log("mongodb connected");
+  console.log("connected to", DB);
 });

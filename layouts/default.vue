@@ -16,9 +16,12 @@
       <div style="height: 24px" class="mr-4">
         <v-switch v-model="$vuetify.theme.dark" inset :label="$t('ui.switchTheme')" />
       </div>
-      <v-responsive max-width="156">
+      <div class="username">
+        {{ username }}
+      </div>
+      <!-- <v-responsive max-width="156">
         <v-text-field dense flat hide-details rounded solo-inverted></v-text-field>
-      </v-responsive>
+      </v-responsive> -->
     </v-app-bar>
 
     <v-navigation-drawer v-model="drawer" app width="56">
@@ -55,9 +58,12 @@
 
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
+import { Getter } from "vuex-class";
 
 @Component({})
 export default class DefaultLayout extends Vue {
+  @Getter("app/username") username!: string;
+
   get isStandlone() {
     return false;
   }

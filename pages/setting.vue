@@ -24,8 +24,7 @@ import { Getter, Mutation } from "vuex-class";
 
 @Component({
   head() {
-    // Set Meta Tags for this Page
-    const title = this.$t("navigate.setting") as string;
+    const title = this.$t("title.sub", [this.$t("navigate.setting")]) as string;
     return { title };
   },
 })

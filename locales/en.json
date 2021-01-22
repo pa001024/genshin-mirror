@@ -8,13 +8,18 @@
     "enemy": "Enemy list",
     "item": "Item list"
   },
+  "navigate": {
+    "avatar": "Avatar",
+    "weapon": "Weapon",
+    "artifact": "Artifact",
+    "enemy": "Enemy",
+    "material": "Material",
+    "setting": "Setting"
+  },
   "gender": {
     "0": "Female",
     "1": "Male",
     "title": "Gender"
-  },
-  "rarity": {
-    "title": "Rarity"
   },
   "element": {
     "0": "None",
@@ -26,6 +31,14 @@
     "6": "Pyro",
     "7": "Cryo",
     "title": "Vision"
+  },
+  "weapon": {
+    "1": "Sword",
+    "2": "Bow",
+    "3": "Spear",
+    "4": "Claymore",
+    "5": "Catalyst",
+    "title": "Weapon"
   },
   "resonance": {
     "ProtectiveCanopy": "Protective Canopy",
@@ -380,25 +393,36 @@
     "enemyType": "Enemy type",
     "itemType": "Item type",
     "char404": "Can't find this role",
-    "item404": "Can't find this item"
-  },
-  "weapon": {
-    "1": "Sword",
-    "2": "Bow",
-    "3": "Spear",
-    "4": "Claymore",
-    "5": "Catalyst",
-    "title": "Weapon"
-  },
-  "navigate": {
-    "weapon": "Weapon",
-    "setting": "Setting",
-    "material": "Material",
-    "avatar": "Avatar",
-    "artifact": "Artifact",
-    "enemy": "Enemy"
-  },
-  "affix": {
-    "title": "Special effects"
+    "item404": "Can't find this item",
+    "affix": "Special effects",
+    "agreeTOS": "Agree to use agreement",
+    "attackSkill": "Normal Attack",
+    "close": "shut down",
+    "confirmPassword": "confirm password",
+    "eMail": "E-mail",
+    "eMailIsRequired": "please input your email",
+    "eMailMustBeValid": "Invalid email address",
+    "elemBurst": "Elemental explosion",
+    "elemSkill": "Elemental combat skills",
+    "forgotPassword": "forget password",
+    "level": "{0} level",
+    "loginFailed": "Login failed",
+    "loginSuccess": "Automatically redirect after successful login in {0} seconds...",
+    "password": "password",
+    "passwordEasy": "Password complexity is too low",
+    "passwordIsRequired": "Please enter password",
+    "passwordNotMatch": "Passwords do not match",
+    "passwordShort": "Password length must not be less than 6 digits",
+    "rarity": "rarity",
+    "signup": "registered",
+    "signupFailed": "Registration failed: {0}",
+    "signupSuccess": "Automatically redirect after successful registration in {0} seconds...",
+    "switchTheme": "at night",
+    "talent": "talent",
+    "userLogin": "User login",
+    "userRegister": "User registration",
+    "username": "username",
+    "usernameIsRequired": "please enter user name",
+    "usernameShort": "Username is too short"
   }
 }

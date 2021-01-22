@@ -16,32 +16,36 @@
     <!-- 数据 -->
     <v-card class="mx-auto">
       <v-list>
-        <template v-for="(item, index) in items">
-          <!-- 分割线 -->
-          <v-divider v-if="index > 0 && item.subtitle" :key="index"></v-divider>
-          <!-- 分类标题 -->
-          <v-subheader v-if="item.subtitle" :key="item.subtitle">
-            {{ item.subtitle }}
-          </v-subheader>
-          <!-- 内容 -->
-          <v-list-item v-if="item.id" :key="item.id">
-            <v-list-item-action>
-              <v-list-item-title>
-                <v-avatar color="grey" />
-              </v-list-item-title>
-              <v-list-item-subtitle align="center">
-                <Rarity :star="item.rarity" fixed />
-              </v-list-item-subtitle>
-            </v-list-item-action>
+        <v-virtual-scroll :bench="2" :items="items" :height="height" item-height="88">
+          <template v-slot:default="{ item, index }">
+            <!-- 分割线 -->
+            <div v-if="item.subtitle" :key="index" class="mt-4">
+              <v-divider v-if="index > 0"></v-divider>
+              <!-- 分类标题 -->
+              <v-subheader>
+                {{ item.subtitle }}
+              </v-subheader>
+            </div>
+            <!-- 内容 -->
+            <v-list-item v-else :key="item.id">
+              <div class="linehead mr-2">
+                <v-list-item-title>
+                  <v-avatar color="grey" />
+                </v-list-item-title>
+                <v-list-item-subtitle align="center">
+                  <Rarity :star="item.rarity" fixed />
+                </v-list-item-subtitle>
+              </div>
 
-            <nuxt-link :to="'item/' + item.id" class="nolink">
-              <v-list-item-content>
-                <v-list-item-title v-text="item.localeName" />
-                <v-list-item-subtitle v-if="$i18n.locale !== 'en'" v-text="item.name" />
-              </v-list-item-content>
-            </nuxt-link>
-          </v-list-item>
-        </template>
+              <nuxt-link :to="'item/' + item.id" class="nolink">
+                <v-list-item-content>
+                  <v-list-item-title v-text="item.localeName" />
+                  <v-list-item-subtitle v-if="$i18n.locale !== 'en'" v-text="item.name" />
+                </v-list-item-content>
+              </nuxt-link>
+            </v-list-item>
+          </template>
+        </v-virtual-scroll>
       </v-list>
     </v-card>
   </v-container>
@@ -50,6 +54,7 @@
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
 import { Dictionary, groupBy, map } from "lodash";
+import ResizeObserver from "resize-observer-polyfill";
 import { IItem } from "~/modules/core";
 
 interface FilterOption {
@@ -110,11 +115,26 @@ export default class Page extends Vue {
     const items = this.data.filter(v => !this.filterOptions.some(filter => v[filter.prop] !== filter.value));
     const groups = map<Dictionary<IItem[]>, Subtitle<IItem>[]>(groupBy(items, "type"), (g: Subtitle<IItem>[]) => {
       const item = g[0];
-      g[0] = { ...item, subtitle: (this.$t(`item.${item.type}`) as string) + ` (${g.length})` };
+      g.unshift({ subtitle: (this.$t(`item.${item.type}`) as string) + ` (${g.length})` } as any);
       return g;
     });
     const rst = ([] as Subtitle<IItem>[]).concat(...groups);
     return rst;
+  }
+
+  height = process.client ? document.body.clientHeight - 270 : 800;
+  ob?: ResizeObserver;
+  mounted() {
+    this.ob = new ResizeObserver(els => {
+      for (const el of els) {
+        this.height = el.contentRect.height - 270;
+      }
+    });
+    this.ob.observe(document.body);
+  }
+
+  destroyed() {
+    this.ob?.disconnect();
   }
 }
 </script>
@@ -123,5 +143,10 @@ export default class Page extends Vue {
 .nolink {
   color: unset;
   text-decoration: none;
+}
+.linehead {
+  text-align: center;
+  width: 80px;
+  flex: none;
 }
 </style>

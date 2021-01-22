@@ -3,16 +3,13 @@ title: todo list
 description: "..."
 ---
 
-*偷偷跟你说 甘雨真的很好玩*
+_偷偷跟你说 甘雨真的很好玩_
 
-## TODO:
+## 参与开发
 
-- [x] 图标绘制
-  - [x] 武器类型和元素 svg
-  - [x] 导航图标
-  - [x] 站点图标
+开源项目 [Github 项目地址](https://github.com/pa001024/genshin-mirror/)
 
-## 功能规划
+## 功能规划 (TODO):
 
 - 离线
   - [ ] 整体配装
@@ -20,10 +17,10 @@ description: "..."
 - 在线
   - [ ] 圣遗物数据上传同步
   - [ ] 掉落数据统计
-
-## 加入开发
-
-开源项目 [Github项目地址](https://github.com/pa001024/genshin-mirror/)
+- [x] 图标绘制
+  - [x] 武器类型和元素 svg
+  - [x] 导航图标
+  - [x] 站点图标
 
 ## 数据来源
 
@@ -36,7 +33,7 @@ description: "..."
 - 技能归属: Excel/AvatarSkillDepotExcelConfigData.json
 - 曲线: Excel/AvatarCurveExcelConfigData.json
 - 突破: Excel/AvatarPromoteExcelConfigData.json
-- 天赋/命座: Excel/AvatarTalentExcelConfigData.json
+- 命座: Excel/AvatarTalentExcelConfigData.json
 - 技能
   - Excel/AbilityPropExcelConfigData.json
   - Excel/ProudSkillExcelConfigData.json

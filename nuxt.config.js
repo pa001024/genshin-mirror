@@ -1,5 +1,7 @@
 import colors from "vuetify/es5/util/colors";
 
+require("dotenv").config();
+
 export default {
   // Server Middleware
   serverMiddleware: {
@@ -110,7 +112,9 @@ export default {
     ],
   },
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
-  axios: {},
+  axios: {
+    baseURL: process.env.BASE_URL,
+  },
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
   content: {},
@@ -147,7 +151,29 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-    extractCSS: { allChunks: true },
+    optimization: {
+      // extractCSS
+      splitChunks: {
+        chunks: "all",
+        cacheGroups: {
+          libs: {
+            name: "chunk-libs",
+            chunks: "initial",
+            priority: -10,
+            reuseExistingChunk: false,
+            test: /node_modules\/(.*)\.js/,
+          },
+          styles: {
+            name: "chunk-styles",
+            test: /\.(scss|css|less)$/,
+            chunks: "all",
+            minChunks: 1,
+            reuseExistingChunk: true,
+            enforce: true,
+          },
+        },
+      },
+    },
     // Enable thread-loader in webpack building
     // parallel: true,
     // extend(_config, { isClient, loaders }) {

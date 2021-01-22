@@ -8,13 +8,18 @@
     "enemy": "敵人列表",
     "item": "物品列表"
   },
+  "navigate": {
+    "weapon": "武器",
+    "setting": "設置",
+    "material": "材料",
+    "avatar": "角色",
+    "artifact": "聖遺物",
+    "enemy": "敵人"
+  },
   "gender": {
     "0": "女",
     "1": "男",
     "title": "性別"
-  },
-  "rarity": {
-    "title": "稀有度"
   },
   "element": {
     "0": "無",
@@ -36,14 +41,14 @@
     "title": "武器"
   },
   "resonance": {
-    "title": "元素共鳴",
-    "ProtectiveCanopy": "Protective Canopy",
-    "ImpetuousWinds": "Impetuous Winds",
-    "EnduringRock": "Enduring Rock",
-    "HighVoltage": "High Voltage",
-    "SoothingWater": "Soothing Water",
-    "FerventFlames": "Fervent Flames",
-    "ShatteringIce": "Shattering Ice"
+    "title": "元素共鸣",
+    "ProtectiveCanopy": "交織之護",
+    "ImpetuousWinds": "迅捷之風",
+    "EnduringRock": "堅定之巖",
+    "HighVoltage": "強能之雷",
+    "SoothingWater": "愈療之水",
+    "FerventFlames": "熱誠之火",
+    "ShatteringIce": "粉碎之冰"
   },
   "reaction": {
     "burning": "點燃",
@@ -388,17 +393,36 @@
     "enemyType": "類型",
     "itemType": "物品類型",
     "char404": "找不到此角色",
-    "item404": "找不到此物品"
-  },
-  "navigate": {
-    "weapon": "武器",
-    "setting": "設置",
-    "material": "材料",
-    "avatar": "角色",
-    "artifact": "聖遺物",
-    "enemy": "敵人"
-  },
-  "affix": {
-    "title": "特效"
+    "item404": "找不到此物品",
+    "affix": "特效",
+    "agreeTOS": "同意使用協議",
+    "attackSkill": "普通攻擊",
+    "close": "關閉",
+    "confirmPassword": "確認密碼",
+    "eMail": "電子郵箱",
+    "eMailIsRequired": "請輸入郵箱",
+    "eMailMustBeValid": "電子郵箱無效",
+    "elemBurst": "元素爆發",
+    "elemSkill": "元素戰技",
+    "forgotPassword": "忘記密碼",
+    "level": "{0}級",
+    "loginFailed": "登錄失敗",
+    "loginSuccess": "登錄成功 {0}秒後自動跳轉...",
+    "password": "密碼",
+    "passwordEasy": "密碼複雜度太低",
+    "passwordIsRequired": "請輸入密碼",
+    "passwordNotMatch": "密碼不匹配",
+    "passwordShort": "密碼長度不得低於6位",
+    "rarity": "稀有度",
+    "signup": "註冊",
+    "signupFailed": "註冊失敗: {0}",
+    "signupSuccess": "註冊成功 {0}秒後自動跳轉...",
+    "switchTheme": "夜間",
+    "talent": "天賦",
+    "userLogin": "用戶登錄",
+    "userRegister": "用戶註冊",
+    "username": "用戶名",
+    "usernameIsRequired": "請輸入用戶名",
+    "usernameShort": "用戶名過短"
   }
 }

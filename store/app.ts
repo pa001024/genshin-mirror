@@ -1,10 +1,9 @@
 import { GetterTree, ActionTree, MutationTree } from "vuex";
 import { vuexPersistenceInstance } from "~/plugins/vuex-persist";
-import { InjectedMenu } from "~/types/store";
 
 const initialState = {
-  user: "null",
-  injectedMenu: [] as InjectedMenu[],
+  user: "",
+  auth: "",
   travelerGender: 0,
 };
 type AppState = typeof initialState;
@@ -15,9 +14,29 @@ export const mutations: MutationTree<AppState> = {
   setTravelerGender(state, v) {
     state.travelerGender = v;
   },
+  setAuth(state, v) {
+    state.auth = v;
+  },
+  setUser(state, v) {
+    state.user = v;
+  },
 };
-export const actions: ActionTree<AppState, {}> = {};
+export const actions: ActionTree<AppState, {}> = {
+  login: ({ commit }, { user, auth }) => {
+    commit("setUser", user);
+    commit("setAuth", auth);
+  },
+  nuxtServerInit({ commit, state } /*, { req } */) {
+    if (!state.auth) return;
+    // logout when state
+    const res = this.$axios.get("/api/user/check", { headers: { Authorization: state.auth } }).catch(() => {});
+    if (!res) {
+      commit("setUser", "");
+      commit("setAuth", "");
+    }
+  },
+};
 export const getters: GetterTree<AppState, {}> = {
-  injectedMenu: ({ injectedMenu }) => injectedMenu,
   travelerGender: ({ travelerGender }) => travelerGender,
+  username: ({ user }) => user,
 };

@@ -21,14 +21,11 @@
     "1": "男性",
     "title": "性別"
   },
-  "rarity": {
-    "title": "希少性"
-  },
   "element": {
-    "0": "番号",
+    "0": "無",
     "1": "風",
     "2": "岩",
-    "3": "私の",
+    "3": "雷",
     "4": "草",
     "5": "水",
     "6": "火",
@@ -45,13 +42,13 @@
   },
   "resonance": {
     "title": "元素共鳴",
-    "ProtectiveCanopy": "保護キャノピー",
-    "ImpetuousWinds": "衝動的な風",
-    "EnduringRock": "不朽の岩",
-    "HighVoltage": "高電圧",
-    "SoothingWater": "なだめるような水",
-    "FerventFlames": "熱烈な炎",
-    "ShatteringIce": "砕ける氷"
+    "ProtectiveCanopy": "交錯の護り",
+    "ImpetuousWinds": "迅速の風",
+    "EnduringRock": "不動の岩",
+    "HighVoltage": "強権の雷",
+    "SoothingWater": "治療の水",
+    "FerventFlames": "熱誠の炎",
+    "ShatteringIce": "粉砕の氷"
   },
   "reaction": {
     "burning": "発火",
@@ -396,9 +393,36 @@
     "enemyType": "の種類",
     "itemType": "アイテムタイプ",
     "item404": "このアイテムが見つかりません",
-    "char404": "この役割が見つかりません"
-  },
-  "affix": {
-    "title": "特殊効果"
+    "char404": "この役割が見つかりません",
+    "affix": "特殊効果",
+    "agreeTOS": "同意書を使用することに同意する",
+    "attackSkill": "通常攻撃",
+    "close": "シャットダウン",
+    "confirmPassword": "パスワードを認証する",
+    "eMail": "Eメール",
+    "eMailIsRequired": "メールアドレスを入力してください",
+    "eMailMustBeValid": "無効なメールアドレス",
+    "elemBurst": "元素爆発",
+    "elemSkill": "エレメンタル戦闘スキル",
+    "forgotPassword": "パスワードを忘れる",
+    "level": "{0}レベル",
+    "loginFailed": "ログインに失敗しました",
+    "loginSuccess": "ログインに成功すると、{0}秒で自動的にリダイレクトされます。",
+    "password": "パスワード",
+    "passwordEasy": "パスワードの複雑さが低すぎる",
+    "passwordIsRequired": "パスワードを入力してください",
+    "passwordNotMatch": "パスワードが一致していません",
+    "passwordShort": "パスワードの長さは6桁以上である必要があります",
+    "rarity": "希少性",
+    "signup": "登録済み",
+    "signupFailed": "登録に失敗しました：{0}",
+    "signupSuccess": "{0}秒で登録が成功すると自動的にリダイレクトされます...",
+    "switchTheme": "夜に",
+    "talent": "才能",
+    "userLogin": "ユーザーログイン",
+    "userRegister": "ユーザー登録",
+    "username": "ユーザー名",
+    "usernameIsRequired": "ユーザー名を入力してください",
+    "usernameShort": "ユーザー名が短すぎます"
   }
 }

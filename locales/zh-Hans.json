@@ -42,13 +42,13 @@
   },
   "resonance": {
     "title": "元素共鸣",
-    "ProtectiveCanopy": "Protective Canopy",
-    "ImpetuousWinds": "Impetuous Winds",
-    "EnduringRock": "Enduring Rock",
-    "HighVoltage": "High Voltage",
-    "SoothingWater": "Soothing Water",
-    "FerventFlames": "Fervent Flames",
-    "ShatteringIce": "Shattering Ice"
+    "ProtectiveCanopy": "交织之护",
+    "ImpetuousWinds": "迅捷之风",
+    "EnduringRock": "坚定之岩",
+    "HighVoltage": "强能之雷",
+    "SoothingWater": "愈疗之水",
+    "FerventFlames": "热诚之火",
+    "ShatteringIce": "粉碎之冰"
   },
   "reaction": {
     "burning": "点燃",
@@ -400,14 +400,29 @@
     "elemBurst": "元素爆发",
     "talent": "天赋",
     "rarity": "稀有度",
-    "switchTheme": "黑色",
+    "switchTheme": "夜间",
     "affix": "特效",
     "password": "密码",
-    "eMailIsRequired": "邮箱为必填项",
+    "usernameIsRequired": "请输入用户名",
+    "eMailIsRequired": "请输入邮箱",
+    "passwordIsRequired": "请输入密码",
     "eMail": "电子邮箱",
     "eMailMustBeValid": "电子邮箱无效",
-    "userLogin": "用户登录"
-  },
-  "passwordIsRequired": "密码为必填项",
-  "forgotPassword": "忘记密码"
+    "userLogin": "用户登录",
+    "passwordShort": "密码长度不得低于6位",
+    "forgotPassword": "忘记密码",
+    "passwordNotMatch": "密码不匹配",
+    "passwordEasy": "密码复杂度太低",
+    "userRegister": "用户注册",
+    "username": "用户名",
+    "signup": "注册",
+    "close": "关闭",
+    "loginFailed": "登录失败",
+    "loginSuccess": "登录成功 {0}秒后自动跳转...",
+    "signupFailed": "注册失败: {0}",
+    "signupSuccess": "注册成功 {0}秒后自动跳转...",
+    "usernameShort": "用户名过短",
+    "agreeTOS": "同意使用协议",
+    "confirmPassword": "确认密码"
+  }
 }
