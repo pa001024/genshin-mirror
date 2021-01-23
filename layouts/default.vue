@@ -83,9 +83,9 @@ export default class DefaultLayout extends Vue {
 
 <style lang="less" scoped>
 .main-nav-btn {
-  font-size: 1.5rem;
+  font-size: 1.5rem !important;
 }
 .main-site-btn {
-  font-size: 2rem;
+  font-size: 2rem !important;
 }
 </style>
