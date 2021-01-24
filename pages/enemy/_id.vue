@@ -13,22 +13,28 @@
         </v-list-item>
       </v-card-title>
       <v-card-text>
-        <v-divider class="mb-3 mt-4" />
-        <v-card-text v-text="data.desc" />
+        <div class="desc" v-html="parseDesc(data.desc)" />
+        <v-divider class="mb-2 mt-4" />
         <v-row>
-          <v-col cols="6">
+          <!-- <v-col cols="6">
             <v-list-item two-line>
               <v-list-item-content>
                 <v-list-item-subtitle v-text="$t('ui.enemyType')" />
                 <v-list-item-title class="headline" v-text="$t(`enemy.${data.type}`)" />
               </v-list-item-content>
             </v-list-item>
+          </v-col> -->
+          <v-col cols="12">
+            <!-- 基础数值 -->
+            <div class="level-slider ml-4 mr-4 mt-2">
+              <v-slider v-model="enemy.level" label="等级" persistent-hint :hint="$t('ui.level', [enemy.level])" :max="enemy.maxLevel" :min="enemy.minLevel" />
+            </div>
           </v-col>
           <v-col cols="6">
             <v-list-item two-line>
               <v-list-item-content>
                 <v-list-item-subtitle v-text="$t('buff.1')" />
-                <v-list-item-title class="headline" v-text="data.baseHP" />
+                <v-list-item-title class="headline" v-text="F(enemy.baseHP)" />
               </v-list-item-content>
             </v-list-item>
           </v-col>
@@ -36,7 +42,7 @@
             <v-list-item two-line>
               <v-list-item-content>
                 <v-list-item-subtitle v-text="$t('buff.2')" />
-                <v-list-item-title class="headline" v-text="data.baseATK" />
+                <v-list-item-title class="headline" v-text="F(enemy.baseATK)" />
               </v-list-item-content>
             </v-list-item>
           </v-col>
@@ -44,22 +50,23 @@
             <v-list-item two-line>
               <v-list-item-content>
                 <v-list-item-subtitle v-text="$t('buff.3')" />
-                <v-list-item-title class="headline" v-text="data.baseDEF" />
+                <v-list-item-title class="headline" v-text="F(enemy.baseDEF)" />
               </v-list-item-content>
             </v-list-item>
           </v-col>
         </v-row>
         <v-divider class="mb-3 mt-4" />
-        <v-list v-if="data.resist" class="transparent">
+        <v-list v-if="data.resist" class="transparent resist-table">
           <v-list-item v-for="(item, index) in data.resist" :key="index">
-            <v-list-item-title>{{ $t("buff." + (20 + index * 2)) }}</v-list-item-title>
-
-            <v-list-item-icon>
+            <v-list-item-icon class="align-self-center mr-4">
               <ElementIcon :element="indexToIcon(index)" :size="32" />
             </v-list-item-icon>
+            <v-list-item-title>
+              {{ $t("buff." + (20 + index * 2)) }}
+            </v-list-item-title>
 
             <v-list-item-subtitle class="text-right">
-              {{ percent(item) }}
+              {{ P(item) }}
             </v-list-item-subtitle>
           </v-list-item>
         </v-list>
@@ -70,8 +77,8 @@
 </template>
 
 <script lang="ts">
-import { Vue, Component } from "vue-property-decorator";
-import { ElementType, IEnemy } from "~/modules/core";
+import { Vue, Component, Watch } from "vue-property-decorator";
+import { ElementType, Enemy, IEnemy } from "~/modules/core";
 
 @Component<Page>({
   // server
@@ -93,9 +100,24 @@ import { ElementType, IEnemy } from "~/modules/core";
 export default class Page extends Vue {
   id: string = "";
   data: IEnemy | null = null;
+  enemy: Enemy | null = null;
 
-  percent(num: number) {
-    return num * 100 + "%";
+  @Watch("data")
+  created() {
+    if (!this.data) return;
+    this.enemy = new Enemy(this.data);
+  }
+
+  F(n = 0, p = 1) {
+    return n.toFixed(p);
+  }
+
+  P(n = 0, p = 1) {
+    return +(n * 100).toFixed(p) + "%";
+  }
+
+  FP(n = 0, p = 1) {
+    return (n * 100).toFixed(p) + "%";
   }
 
   indexToIcon(v: number) {
@@ -110,5 +132,16 @@ export default class Page extends Vue {
       ElementType.Any,
     ][v];
   }
+
+  parseDesc(str: string) {
+    return str.replace(/<color=(.+?)>(.+?)<\/color>/g, `<span style="color:$1">$2</span>`).replace(/\n/g, "<br>");
+  }
 }
 </script>
+<style lang="less" scoped>
+.resist-table {
+  .v-list-item__icon {
+    margin: 0;
+  }
+}
+</style>

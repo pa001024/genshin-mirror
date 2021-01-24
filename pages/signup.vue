@@ -48,7 +48,7 @@ import sha256 from "crypto-js/sha256";
   },
 })
 export default class Signup extends Vue {
-  @Action("app/login") login!: (payload: { user: string; auth: string }) => void;
+  @Action("app/setAuth") setAuth!: (auth: string) => void;
 
   email: string = "";
   username: string = "";
@@ -100,9 +100,8 @@ export default class Signup extends Vue {
       this.msg = this.$t("ui.signupFailed", [res ? res.data.message : "unknown"]) as string;
       return;
     }
-    const user = res.data.username;
     const auth = res.headers.authorization;
-    this.login({ user, auth });
+    this.setAuth(auth);
     this.showMsg = true;
     this.msg = this.$t("ui.signupSuccess", [4]) as string;
     let i = 4;

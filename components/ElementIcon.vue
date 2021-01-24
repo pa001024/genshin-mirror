@@ -1,7 +1,5 @@
 <template>
-  <span class="element-icon-item" :style="{ fontSize: size + 'px' }">
-    <GsIcon v-if="elementIcon" :type="elementIcon" class="element-icon" />
-  </span>
+  <GsIcon v-if="elementIcon" :type="elementIcon" class="element-icon" :size="size" />
 </template>
 <script lang="ts">
 import { Vue, Component, Prop } from "vue-property-decorator";

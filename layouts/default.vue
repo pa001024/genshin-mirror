@@ -16,9 +16,10 @@
       <div style="height: 24px" class="mr-4">
         <v-switch v-model="$vuetify.theme.dark" inset :label="$t('ui.switchTheme')" />
       </div>
-      <div class="username">
+      <div v-if="username" class="username">
         {{ username }}
       </div>
+      <v-btn></v-btn>
       <!-- <v-responsive max-width="156">
         <v-text-field dense flat hide-details rounded solo-inverted></v-text-field>
       </v-responsive> -->
@@ -69,15 +70,22 @@ export default class DefaultLayout extends Vue {
   }
 
   links = [
-    { name: "avatar", path: "/char", icon: "avatar" },
+    { name: "avatar", path: "/char", icon: "char" },
     { name: "weapon", path: "/weapon", icon: "weapon" },
     { name: "artifact", path: "/artifact", icon: "artifact" },
-    { name: "enemy", path: "/enemy", icon: "quest" },
+    { name: "enemy", path: "/enemy", icon: "enemy" },
     { name: "material", path: "/item", icon: "mineral" },
     { name: "setting", path: "/setting", icon: "setting" },
   ];
 
   drawer = null;
+
+  created() {
+    if (this.$store.state.app.auth) {
+      console.log("user has login");
+      this.$axios.setHeader("Authorization", this.$store.state.app.auth);
+    }
+  }
 }
 </script>
 

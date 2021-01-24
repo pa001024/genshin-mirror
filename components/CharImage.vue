@@ -59,7 +59,7 @@ export default class CharImage extends Vue {
   width: inherit;
   height: inherit;
   position: relative;
-  padding: 0 8px;
+  // padding: 0 8px;
 }
 .avatar-vision-icon {
   && {

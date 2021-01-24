@@ -17,34 +17,16 @@
     </v-card>
     <!-- 数据 -->
     <v-card class="mx-auto">
-      <v-list>
+      <v-container fluid>
         <template v-for="(item, index) in items">
           <!-- 分割线 -->
           <v-divider v-if="index > 0 && item.subtitle" :key="index" />
           <!-- 分类标题 -->
           <v-subheader v-if="item.subtitle" :key="item.subtitle" v-text="item.subtitle" />
           <!-- 内容 -->
-          <v-list-item v-if="item.id" :key="item.id">
-            <nuxt-link :to="'char/' + item.id" class="nolink">
-              <v-list-item-action>
-                <v-list-item-title>
-                  <CharImage :id="item.id" :element="item.element" avatar :size="48" />
-                </v-list-item-title>
-                <v-list-item-subtitle align="center">
-                  <Rarity :star="item.rarity" fixed />
-                </v-list-item-subtitle>
-              </v-list-item-action>
-            </nuxt-link>
-            <v-list-item-content>
-              <v-list-item-title v-text="item.localeName" />
-              <v-list-item-subtitle v-if="$i18n.locale !== 'en'" v-text="item.name" />
-              <!-- <v-list-item-content>
-                  <v-chip v-text="$t(`weapon.${item.weapon}`)" />
-                </v-list-item-content> -->
-            </v-list-item-content>
-          </v-list-item>
+          <CharCard v-if="item.id" :key="item.id" :value="item" class="ma-1" />
         </template>
-      </v-list>
+      </v-container>
     </v-card>
   </v-container>
 </template>
@@ -136,9 +118,44 @@ export default class Page extends Vue {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="less">
 .nolink {
   color: unset;
   text-decoration: none;
+}
+.char-card {
+  && {
+    display: inline-block;
+    width: 106px;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .char-avatar {
+    justify-items: center;
+    height: 106px;
+    background: var(--white);
+    border-bottom-right-radius: 25px;
+    overflow: hidden;
+
+    .ele-icon {
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 1;
+    }
+    &.rarity-4 {
+      background: #9181bd;
+    }
+    &.rarity-5 {
+      background: #a57c3f;
+    }
+  }
+  .char-name {
+    color: var(--black);
+    text-align: center;
+    padding: 4px 0;
+    font-weight: 600;
+  }
 }
 </style>

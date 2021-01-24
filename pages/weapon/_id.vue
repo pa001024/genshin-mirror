@@ -79,7 +79,7 @@
 
 <script lang="ts">
 import { Vue, Component, Watch } from "vue-property-decorator";
-import { IWeapon, Weapon } from "~/modules/core";
+import { IWeaponType, Weapon } from "~/modules/core";
 
 @Component<Page>({
   // server
@@ -105,7 +105,7 @@ import { IWeapon, Weapon } from "~/modules/core";
 })
 export default class Page extends Vue {
   id: string = "";
-  data: IWeapon | null = null;
+  data: IWeaponType | null = null;
   weapon: Weapon | null = null;
   page: any = null;
 

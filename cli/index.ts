@@ -22,6 +22,7 @@ program
   .option("-s, --subattr", "处理subattr")
   .option("-e, --enemy", "处理enemy")
   .option("-m, --misc", "处理misc")
+  .option("-r, --relic", "处理relic")
   .action(async args => {
     // 输出前清理
     if (args.output) {
@@ -61,6 +62,10 @@ program
     if (args.misc) {
       console.log(`${chalk.green("[CLI]")} processing misc...`);
       await runCommand("misc");
+    }
+    if (args.relic) {
+      console.log(`${chalk.green("[CLI]")} processing relic...`);
+      await runCommand("relic");
     }
 
     /// 输出

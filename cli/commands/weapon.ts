@@ -1,7 +1,7 @@
 import fs from "fs-extra";
 
 // extra
-import type { IWeapon, IWeaponAscension, IWeaponAffix } from "../../modules/core/interface";
+import type { IWeaponAscension, IWeaponAffix, IWeaponType } from "../../modules/core/interface";
 import { DATA_DIR, toAttrType, toCurve, toNum, toWeaponType, toText, toID, saveTranslation, toDesc, toAttr, affixMap, toItem } from "../util";
 import { uniqBy } from "lodash";
 
@@ -26,7 +26,7 @@ export async function run() {
       })
       .map(v => {
         const promote = promoteMap[v.WeaponPromoteId];
-        const rst: IWeapon = {
+        const rst: IWeaponType = {
           id: toID(v.NameTextMapHash),
           name: toText(v.NameTextMapHash),
           localeName: t(v.NameTextMapHash),

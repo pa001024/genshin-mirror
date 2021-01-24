@@ -152,6 +152,31 @@ export default {
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
     extractCSS: true,
+    // loaders: {
+    //   file: {},
+    //   fontUrl: { limit: 1000 },
+    //   imgUrl: { limit: 1000 },
+    //   pugPlain: {},
+    //   vue: {
+    //     transformAssetUrls: {
+    //       video: "src",
+    //       source: "src",
+    //       object: "src",
+    //       embed: "src",
+    //     },
+    //   },
+    //   css: {},
+    //   cssModules: {
+    //     localIdentName: "[local]_[hash:base64:5]",
+    //   },
+    //   less: {},
+    //   sass: {
+    //     indentedSyntax: true,
+    //   },
+    //   scss: {},
+    //   stylus: {},
+    //   vueStyle: {},
+    // },
     // optimization: {
     //   splitChunks: {
     //     cacheGroups: {

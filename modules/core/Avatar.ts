@@ -90,34 +90,30 @@ export class Avatar {
 
   /** 暴击率 */
   get critRate() {
-    return (
-      5 +
-      this.artifacts.reduce(
-        (r, v) =>
-          r +
-          v.attrs
-            .filter(a => a.type === BuffType.CRITRate)
-            .map(a => a.value)
-            .reduce((a, b) => a + b),
-        0
-      )
+    const art = this.artifacts.reduce(
+      (r, v) =>
+        r +
+        v.attrs
+          .filter(a => a.type === BuffType.CRITRate)
+          .map(a => a.value)
+          .reduce((a, b) => a + b),
+      0
     );
+    return 5 + art;
   }
 
   /** 暴击伤害 */
   get critDMG() {
-    return (
-      50 +
-      this.artifacts.reduce(
-        (r, v) =>
-          r +
-          v.attrs
-            .filter(a => a.type === BuffType.CRITDMG)
-            .map(a => a.value)
-            .reduce((a, b) => a + b),
-        0
-      )
+    const art = this.artifacts.reduce(
+      (r, v) =>
+        r +
+        v.attrs
+          .filter(a => a.type === BuffType.CRITDMG)
+          .map(a => a.value)
+          .reduce((a, b) => a + b),
+      0
     );
+    return 50 + art;
   }
 
   /** 稀有度 4/5 */

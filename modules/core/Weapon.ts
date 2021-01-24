@@ -1,10 +1,10 @@
 import { IAttr } from "./interface";
-import { IWeapon, WEAPON } from ".";
+import { IWeaponType, WEAPON } from ".";
 
 export class Weapon {
   /** 静态数据 */
-  data: IWeapon;
-  constructor(weapon: IWeapon) {
+  data: IWeaponType;
+  constructor(weapon: IWeaponType) {
     this.data = weapon;
   }
 

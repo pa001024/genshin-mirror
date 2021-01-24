@@ -20,7 +20,7 @@
 
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
-import { Getter, Mutation } from "vuex-class";
+import { Action, Getter } from "vuex-class";
 
 @Component({
   head() {
@@ -30,7 +30,7 @@ import { Getter, Mutation } from "vuex-class";
 })
 export default class IndexPage extends Vue {
   @Getter("app/travelerGender") travelerGender!: number;
-  @Mutation("app/setTravelerGender") setTravelerGender!: (v: number) => void;
+  @Action("app/setTravelerGender") setTravelerGender!: (v: number) => void;
 
   get availableLocales() {
     return this.$i18n.locales?.filter((v: any) => v.name);

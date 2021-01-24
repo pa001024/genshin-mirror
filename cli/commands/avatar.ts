@@ -53,7 +53,7 @@ async function parseChar() {
         bodyType: toBodyType(char.BodyType),
         rarity: toRarity(char.QualityType),
         weapon: toWeaponType(char.WeaponType),
-        region: toRegion(tags),
+        region: toRegion(char, tags),
         ascensions: ascensions.map(v => {
           const p: IAscensionPhase = {
             level: v.level,
@@ -143,7 +143,7 @@ async function parseChar() {
         return rst;
       }
 
-      function toRegion(tags: ReturnType<typeof toTags>) {
+      function toRegion(char: AvatarExcelConfigData, tags: ReturnType<typeof toTags>) {
         const ids = new Set(tags.map(v => v.TagId));
         if (ids.has(1001)) return Region.Mondstadt;
         if (ids.has(1002)) return Region.Liyue;
@@ -152,6 +152,7 @@ async function parseChar() {
         if (ids.has(1005)) return Region.Fontaine;
         if (ids.has(1006)) return Region.Natlan;
         if (ids.has(1007)) return Region.Snezhnaya;
+        if (toID(char.NameTextMapHash) === "Traveler") return Region.Unknown;
         return Region.Snezhnaya;
       }
 

@@ -49,11 +49,11 @@
 
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
-import { IWeapon } from "~/modules/core";
+import { IWeaponType } from "~/modules/core";
 
 interface FilterOption {
   text: string;
-  prop: keyof IWeapon;
+  prop: keyof IWeaponType;
   value: any;
 }
 
@@ -83,7 +83,7 @@ interface FilterOption {
   },
 })
 export default class Page extends Vue {
-  data: IWeapon[] | null = null;
+  data: IWeaponType[] | null = null;
   page: any = null;
 
   filterOptions: FilterOption[] = [];
@@ -109,7 +109,7 @@ export default class Page extends Vue {
         }
         r.push(item);
         return r;
-      }, [] as Partial<IWeapon & { subtitle: string }>[]);
+      }, [] as Partial<IWeaponType & { subtitle: string }>[]);
   }
 }
 </script>

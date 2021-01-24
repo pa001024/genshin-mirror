@@ -50,7 +50,7 @@ import sha256 from "crypto-js/sha256";
   },
 })
 export default class Login extends Vue {
-  @Action("app/login") login!: (payload: { user: string; auth: string }) => void;
+  @Action("app/setAuth") setAuth!: (auth: string) => void;
 
   email = "";
   password = "";
@@ -83,13 +83,12 @@ export default class Login extends Vue {
       return;
     }
     const auth = res.headers.authorization;
-    const user = res.data.username;
-    this.login({ user, auth });
+    this.setAuth(auth);
     this.showMsg = true;
     this.msg = this.$t("ui.loginSuccess", [4]) as string;
     let i = 2;
     const cls = setInterval(() => {
-      if (--i >= 0) {
+      if (--i) {
         this.msg = this.$t("ui.loginSuccess", [i]) as string;
       } else {
         clearInterval(cls);

@@ -1,19 +1,14 @@
-import {
-  ArtifactSeries,
-  ArtifactType,
-  BuffCondition,
-  BuffType,
-  ElementType,
-  Region,
-  WeaponType,
-  BuffTarget,
-  ReactionType,
-  BodyType,
-  MaterialType,
-} from "./enum";
+import { BuffCondition, BuffType, ElementType, Region, WeaponType, BuffTarget, ReactionType, BodyType, MaterialType, EnemyType } from "./enum";
 
 /** 武器 */
 export interface IWeapon {
+  typeId: number;
+  level: number;
+  promoteLevel: number;
+}
+
+/** 武器类型 */
+export interface IWeaponType {
   /** 序号 */ id: string;
   /** 名称 */ name: string;
   /** 本地化名称 */ localeName: string;
@@ -48,11 +43,36 @@ export interface IWeaponAffixLevel {
 
 /** 圣遗物 */
 export interface IArtifact {
-  /** 部位 */ type: ArtifactType;
+  /** 套装和部位引用id ref: IArtifactType */ typeId: number;
   /** 等级 */ level: number;
-  /** 系列 */ series: ArtifactSeries;
+  /** 主属性 */ main: BuffType;
+  /** 副属性 */ attrs: IAttr[];
+}
+
+/** 圣遗物类型 */
+export interface IArtifactType {
+  /** 用于索引 */ id: number;
+  /** 图片 */ name: string;
+  /** 本地化名称 */ localeName: string;
+  /** 描述 */ desc: string;
   /** 稀有度 */ rarity: number;
-  /** 主副属性 */ attrs: IAttr[];
+  /** 部位 */ type: number;
+  /** 套装 ref: IArtifactSet */ setId: number;
+}
+
+/** 圣遗物套装 */
+export interface IArtifactSet {
+  id: number;
+  /** 名字 */ name: string;
+  /** 成套要求 */ need: number[];
+  affixs: IArtifactSetAffix[];
+}
+
+export interface IArtifactSetAffix {
+  /** 激活 */
+  level?: number;
+  /** 描述 */ desc: string;
+  attrs: IAttr[];
 }
 
 /** 角色 */
@@ -254,6 +274,7 @@ export interface IArtifactSetBonus {
 export interface IEnemy {
   id: string;
   name: string;
+  type: EnemyType;
   localeName: string;
   desc?: string;
   /** 基础生命 */ baseHP: number;

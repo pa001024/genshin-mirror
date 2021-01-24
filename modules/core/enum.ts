@@ -172,45 +172,6 @@ export enum WeaponType {
   /** 法器 */ Catalyst,
 }
 
-/** 圣遗物套装 */
-export enum ArtifactSeries {
-  // ==== 1-3 ====
-  /** 冒险家 */ Adventurer = 1,
-  /** 幸运儿 */ LuckyDog,
-  /** 游医 */ TravelingDoctor,
-  // ==== 3-4 ====
-  /** 教官 */ Instructor = 100,
-  /** 战狂 */ Berserker,
-  /** 流放者 */ TheExile,
-  /** 故人之心 */ ResolutionOfSojourner,
-  /** 武人 */ MartialArtist,
-  /** 守护之心 */ DefenderSWill,
-  /** 奇迹 */ TinyMiracle,
-  /** 勇士之心 */ BraveHeart,
-  /** 赌徒 */ Gambler,
-  /** 学士 */ Scholar,
-  // ==== 3-4 特殊(只有理之冠) ====
-  /** 祭雷之人 */ PrayersForWisdom = 200,
-  /** 祭冰之人 */ PrayersToSpringtime,
-  /** 祭火之人 */ PrayersForIllumination,
-  /** 祭水之人 */ PrayersForDestiny,
-  // ==== 4-5 ====
-  /** 角斗士的终幕礼 */ GladiatorSFinale = 300,
-  /** 被怜爱的少女 */ MaidenBeloved,
-  /** 昔日宗室之仪 */ NoblesseOblige,
-  /** 染血的骑士道 */ BloodstainedChivalry,
-  /** 流浪大地的乐团 */ WandererSTroupe,
-  /** 翠绿之影 */ ViridescentVenerer,
-  /** 如雷的盛怒 */ ThunderingFury,
-  /** 平息鸣雷的尊者 */ Thundersoother,
-  /** 炽烈的炎之魔女 */ CrimsonWitchOfFlames,
-  /** 渡过烈火的贤人 */ Lavawalker,
-  /** 悠古的磐岩 */ ArchaicPetra,
-  /** 逆飞的流星 */ RetracingBolide,
-  /** 冰风迷途的勇士 */ Icebreaker,
-  /** 沉沦之心 */ OceanConqueror,
-}
-
 /** 圣遗物部位 */
 export enum ArtifactType {
   /** 生之花 */ FlowerOfLife,

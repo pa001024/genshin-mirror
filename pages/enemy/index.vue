@@ -46,11 +46,11 @@
 
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
-import { IWeapon } from "~/modules/core";
+import { IEnemy } from "~/modules/core";
 
 interface FilterOption {
   text: string;
-  prop: keyof IWeapon;
+  prop: keyof IEnemy;
   value: any;
 }
 
@@ -71,7 +71,7 @@ interface FilterOption {
   },
 })
 export default class Page extends Vue {
-  data: IWeapon[] | null = null;
+  data: IEnemy[] | null = null;
 
   filterOptions: FilterOption[] = [];
 
@@ -96,7 +96,7 @@ export default class Page extends Vue {
         }
         r.push(item);
         return r;
-      }, [] as Partial<IWeapon & { subtitle: string }>[]);
+      }, [] as Partial<IEnemy & { subtitle: string }>[]);
   }
 }
 </script>

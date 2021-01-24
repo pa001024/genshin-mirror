@@ -5,7 +5,7 @@
       <v-card-title>
         <v-list-item two-line>
           <v-list-item-action>
-            <CharImage :id="data.id" :element="data.element" avatar :size="48" />
+            <CharImage :id="data.id" avatar :size="48" />
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title class="headline">{{ data.localeName }}</v-list-item-title>
@@ -36,7 +36,10 @@
             <v-list-item two-line>
               <v-list-item-content>
                 <v-list-item-subtitle v-text="$t('element.title')" />
-                <v-list-item-title class="headline">{{ $t(`element.${data.element}`) }}</v-list-item-title>
+                <v-list-item-title class="headline">
+                  <ElementIcon :element="data.element" :size="32" />
+                  {{ $t(`element.${data.element}`) }}
+                </v-list-item-title>
               </v-list-item-content>
             </v-list-item>
           </v-col>
@@ -109,9 +112,7 @@
       <v-card>
         <v-tabs v-model="skillTab">
           <v-tabs-slider />
-          <v-tab href="#attackSkill">{{ $t("ui.attackSkill") }}</v-tab>
-          <v-tab href="#elemSkill">{{ $t("ui.elemSkill") }}</v-tab>
-          <v-tab href="#elemBurst">{{ $t("ui.elemBurst") }}</v-tab>
+          <v-tab v-for="type in skillTypes" :key="type" :href="'#' + type">{{ $t(`ui.${type}`) }}</v-tab>
         </v-tabs>
         <v-tabs-items v-model="skillTab">
           <v-tab-item v-for="(skillType, sindex) in skillTypes" :key="skillType" :value="skillType">
@@ -119,7 +120,7 @@
               <v-card-title class="headline">{{ data[skillType].name }}</v-card-title>
               <v-card-text>
                 <div class="desc" v-html="parseDesc(data[skillType].desc)" />
-                <v-divider class="mb-2 mt-4" />
+                <v-divider class="my-4" />
                 <SkillLevel v-model="skillLvlTab[sindex]" :max="data[skillType].paramVals.length" />
                 <v-tabs-items v-model="skillLvlTab[sindex]">
                   <v-tab-item v-for="(lvData, lv) in parseSkillLevelData(data[skillType])" :key="lv" :value="lv + 1">
@@ -167,7 +168,10 @@ export default class Page extends Vue {
 
   skillTab = "attackSkill";
   skillLvlTab = [10, 13, 13];
-  skillTypes = ["attackSkill", "elemSkill", "elemBurst"];
+  get skillTypes() {
+    const keys: (keyof IAvatar)[] = ["attackSkill", "elemSkill", "elemBurst"];
+    return keys.filter(v => v in this.data!);
+  }
 
   @Watch("data")
   created() {
@@ -175,11 +179,11 @@ export default class Page extends Vue {
     this.char = new Avatar(this.data);
   }
 
-  F(n = 0, p = 2) {
+  F(n = 0, p = 1) {
     return n.toFixed(p);
   }
 
-  P(n = 0, p = 2) {
+  P(n = 0, p = 1) {
     return +(n * 100).toFixed(p) + "%";
   }
 
