@@ -69,6 +69,13 @@ export default {
     // https://www.npmjs.com/package/@nuxtjs/sitemap
     "@nuxtjs/sitemap",
   ],
+
+  pwa: {
+    icon: {
+      source: "~/static/icon.png",
+    },
+  },
+
   // i18n config
   i18n: {
     defaultLocale: "en",
