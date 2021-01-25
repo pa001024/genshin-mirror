@@ -13,7 +13,7 @@ export default class Rarity extends Vue {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="less">
 .rarity {
   display: inline-block;
   user-select: none;

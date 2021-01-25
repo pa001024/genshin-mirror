@@ -28,7 +28,7 @@
             </div>
             <!-- 内容 -->
             <v-list-item v-else :key="item.id">
-              <div class="linehead mr-2">
+              <div class="item-linehead mr-2">
                 <v-list-item-title>
                   <v-avatar color="grey" />
                 </v-list-item-title>
@@ -139,12 +139,8 @@ export default class Page extends Vue {
 }
 </script>
 
-<style lang="less" scoped>
-.nolink {
-  color: unset;
-  text-decoration: none;
-}
-.linehead {
+<style lang="less">
+.item-linehead {
   text-align: center;
   width: 80px;
   flex: none;

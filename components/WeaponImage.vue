@@ -28,7 +28,7 @@ export default class WeaponImage extends Vue {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="less">
 .weapon-image {
   display: inline-block;
   user-select: none;

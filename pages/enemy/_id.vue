@@ -138,7 +138,7 @@ export default class Page extends Vue {
   }
 }
 </script>
-<style lang="less" scoped>
+<style lang="less">
 .resist-table {
   .v-list-item__icon {
     margin: 0;

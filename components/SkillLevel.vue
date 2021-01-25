@@ -23,7 +23,7 @@ export default class SkillLevel extends Vue {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="less">
 .skill-level {
   display: flex;
   align-items: center;

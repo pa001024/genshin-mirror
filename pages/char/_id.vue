@@ -215,9 +215,3 @@ export default class Page extends Vue {
   }
 }
 </script>
-
-<style lang="less" scoped>
-.desc {
-  font-family: inherit !important;
-}
-</style>

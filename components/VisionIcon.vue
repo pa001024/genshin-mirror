@@ -16,7 +16,7 @@ export default class VisionIcon extends Vue {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="less">
 .vision-icon {
   display: inline-block;
   user-select: none;

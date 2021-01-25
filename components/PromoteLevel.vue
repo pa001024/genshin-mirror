@@ -28,7 +28,7 @@ export default class PromoteLevel extends Vue {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="less">
 .promote-level {
   display: flex;
   align-items: center;

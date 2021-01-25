@@ -67,10 +67,3 @@ export default class Page extends Vue {
   }
 }
 </script>
-
-<style lang="less" scoped>
-.nolink {
-  color: unset;
-  text-decoration: none;
-}
-</style>
