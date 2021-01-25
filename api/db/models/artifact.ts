@@ -13,7 +13,7 @@ export class Artifact implements IArtifact {
   @prop({ ref: () => User, index: true })
   public owner!: string;
 
-  /** 部位 */
+  /** 类型id */
   @prop({ type: Number, required: true })
   public typeId!: number;
 

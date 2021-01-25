@@ -26,7 +26,7 @@ export default {
   ignore: ["**/*.test.*", "**/*.spec.*", "cli/**"],
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: [],
+  css: ["~/assets/global.less"],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [

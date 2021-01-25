@@ -1,5 +1,5 @@
 <template>
-  <div class="rarity" :class="{ fixed: fixed }">
+  <div class="rarity" :class="{ fixed }">
     <GsIcon v-for="i in star" :key="i" type="star" />
   </div>
 </template>
