@@ -1,4 +1,11 @@
-import { BuffCondition, BuffType, ElementType, Region, WeaponType, BuffTarget, ReactionType, BodyType, MaterialType, EnemyType } from "./enum";
+import { BuffCondition, BuffType, ElementType, Region, WeaponType, BuffTarget, ReactionType, BodyType, MaterialType, EnemyType, ArtifactType } from "./enum";
+
+export interface IUser {
+  uid: string;
+  username: string;
+  artifacts: IArtifact[];
+  weapons: IUserWeapon[];
+}
 
 /** 武器 */
 export interface IUserWeapon {
@@ -57,7 +64,7 @@ export interface IArtifactType {
   /** 本地化名称 */ localeName: string;
   /** 描述 */ desc: string;
   /** 稀有度 */ rarity: number;
-  /** 部位 */ type: number;
+  /** 部位 */ type: ArtifactType;
   /** 套装 ref: IArtifactSet */ setId: number;
 }
 

@@ -6,6 +6,7 @@ import { vuexPersistenceInstance } from "~/plugins/vuex-persist";
 import type { IArtifact, IArtifactSet, IArtifactType, IAvatar, IUserAvatar, IUserWeapon, IWeapon } from "~/modules/core";
 
 const initialState = {
+  uid: "",
   user: "",
   auth: "",
   travelerGender: 0,
@@ -28,9 +29,10 @@ export const mutations: MutationTree<AppState> = {
   UPDATE_TRAVELER_GENDER(state, v) {
     state.travelerGender = v;
   },
-  UPDATE_AUTH(state, { user, auth }) {
+  UPDATE_AUTH(state, { user, auth, uid }) {
     state.auth = auth;
     state.user = user;
+    state.uid = uid;
   },
   UPDATE_ARTIFACTS(state, { v, hash }) {
     state.artifacts = v;
@@ -57,8 +59,8 @@ export const mutations: MutationTree<AppState> = {
 export const actions: ActionTree<AppState, {}> = {
   setAuth({ commit }, auth: string) {
     if (auth.startsWith("Bearer ")) {
-      const { user }: any = jwt.decode(auth.substr(7));
-      commit("UPDATE_AUTH", { user, auth });
+      const { user, id }: any = jwt.decode(auth.substr(7));
+      commit("UPDATE_AUTH", { uid: id, user, auth });
     }
   },
   /** 从云端加载圣遗物 */
@@ -142,6 +144,7 @@ export const actions: ActionTree<AppState, {}> = {
 export const getters: GetterTree<AppState, {}> = {
   travelerGender: ({ travelerGender }) => travelerGender,
   username: ({ user }) => user,
+  uid: ({ uid }) => uid,
   artifacts: ({ artifacts }) => artifacts,
   artifactTypes: ({ artifactTypes }) => artifactTypes,
   artifactsHash: ({ artifactsHash }) => artifactsHash,

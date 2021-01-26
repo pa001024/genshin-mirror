@@ -6,17 +6,17 @@ import { IArtifact, ARTIFACT } from ".";
 // const data: IArtifactType[] = require("~/content/en/relic/relic");
 // const dataMap = data.reduce<{ [x: number]: IArtifactType }>((r, v) => (r[v.id] = v) && r, {});
 
-export class Artifact implements IArtifact {
-  static relicMap: { [x: number]: IArtifactType };
+export interface IRelicMap {
+  [x: number]: IArtifactType;
+}
 
+export class Artifact implements IArtifact {
   /** 静态数据 */
   data: IArtifact;
   type: IArtifactType;
-  typeId: number;
-  constructor(artifact: IArtifact) {
+  constructor(artifact: IArtifact, relicMap: IRelicMap = {}) {
     this.data = artifact;
-    this.typeId = artifact.typeId;
-    this.type = Artifact.relicMap[artifact.typeId];
+    this.type = relicMap[artifact.typeId];
   }
 
   lazy = false;
@@ -46,7 +46,7 @@ export class Artifact implements IArtifact {
   get attrs() {
     const mainAttr: IAttr = {
       type: this.data.main,
-      value: ARTIFACT.MAIN_PROPERTY_CURVE[this.type.rarity][this._level][this.data.main],
+      value: ARTIFACT.MAIN_PROPERTY_CURVE[this.type.rarity - 1][this._level][ARTIFACT.MAIN_PROPERTY_CURVE_ORDER[this.data.main]],
     };
     return [mainAttr, ...this.data.attrs];
   }
@@ -59,6 +59,11 @@ export class Artifact implements IArtifact {
   /** 主属性 */
   get main() {
     return this.data.main;
+  }
+
+  /** 类型id */
+  get typeId() {
+    return this.data.typeId;
   }
 
   /**
@@ -88,9 +93,9 @@ export class Artifact implements IArtifact {
    * @param atype 类型
    * @param [level=0] 等级
    */
-  static random(atype: IArtifactType | string | number, level = 0) {
-    if (typeof atype === "string") atype = Artifact.relicMap[+atype];
-    else if (typeof atype === "number") atype = Artifact.relicMap[atype];
+  static random(relicMap: IRelicMap, atype: IArtifactType | string | number, level = 0) {
+    if (typeof atype === "string") atype = relicMap[+atype];
+    else if (typeof atype === "number") atype = relicMap[atype];
 
     // 随机主属性
     const mainWeights = ARTIFACT.MAIN_PROPERTY_WEIGHT[atype.type];
@@ -110,12 +115,15 @@ export class Artifact implements IArtifact {
       subs.push({ type: sub, value });
     }
 
-    return new Artifact({
-      typeId: atype.id,
-      level,
-      main,
-      attrs: subs,
-    });
+    return new Artifact(
+      {
+        typeId: atype.id,
+        level,
+        main,
+        attrs: subs,
+      },
+      relicMap
+    );
   }
 
   // 序列化
@@ -126,7 +134,7 @@ export class Artifact implements IArtifact {
     );
   }
 
-  static fromCode(value: string) {
+  static fromCode(value: string, relicMap: IRelicMap = {}) {
     const typeId = debase62(value.substr(0, 4));
     const main = debase62(value.substr(4, 1));
     const level = debase62(value.substr(5, 1));
@@ -136,10 +144,41 @@ export class Artifact implements IArtifact {
       const type = debase62(subs.substr(i, 1));
       attrs.push({
         type,
-        value: debase62(subs.substr(i + 1, 2)) / (type in ARTIFACT.ENCODE_RATIO ? 1 : 10),
+        value: debase62(subs.substr(i + 1, 2)) / (type in ARTIFACT.ENCODE_RATIO ? 1 : 1000),
       });
     }
-    return new Artifact({ typeId, main, level, attrs });
+    return new Artifact({ typeId, main, level, attrs }, relicMap);
+  }
+
+  static getTypeId(value: string) {
+    const typeId = debase62(value.substr(0, 4));
+    return typeId;
+  }
+
+  toString() {
+    return this.type.localeName + " +" + this.level;
+  }
+
+  get localeName() {
+    return this.type.localeName;
+  }
+
+  get desc() {
+    return this.type.desc;
+  }
+
+  get part() {
+    return this.type.type;
+  }
+
+  toJSON() {
+    const {
+      typeId,
+      level,
+      main,
+      data: { attrs },
+    } = this;
+    return JSON.stringify({ typeId, level, main, attrs });
   }
 }
 

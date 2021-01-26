@@ -1,5 +1,5 @@
 <template>
-  <div v-if="data && weapon" class="gsm-weapon">
+  <div v-if="data && weapon" class="gsm-user">
     <v-card max-width="560" class="mx-auto">
       <v-card-title>
         <v-list-item two-line>
@@ -78,56 +78,28 @@
 </template>
 
 <script lang="ts">
-import { Vue, Component, Watch } from "vue-property-decorator";
-import { IWeapon, Weapon } from "~/modules/core";
+import { Prop } from "@typegoose/typegoose";
+import { Vue, Component } from "vue-property-decorator";
+import { IUser } from "~/modules/core";
 
 @Component<Page>({
   // server
-  async asyncData({ params: { id }, $content, app }) {
-    const rst: Partial<Page> = { id, data: null, page: null };
-    if (id.includes("../")) return { id };
-    const res = (await $content(app.i18n.locale, "weapon").where({ id }).fetch().catch(console.error)) as any;
-    rst.data = res && res[0];
+  async asyncData({ params: { id }, app }) {
+    const rst: Partial<Page> = { user: null };
+    const res = await app.$axios.get("/api/user/" + id);
+    rst.user = res.data;
 
-    if (rst.data) {
-      rst.page = await $content(app.i18n.locale, id)
-        .fetch()
-        .catch(() => {});
-    }
     return rst;
   },
   // set html header
   head() {
     // Set Meta Tags for this Page
-    const title = this.$t("title.sub", [this.data?.localeName]) as string;
+    const title = this.$t("title.sub", [this.user?.username]) as string;
     return { title };
   },
 })
 export default class Page extends Vue {
-  id: string = "";
-  data: IWeapon | null = null;
-  weapon: Weapon | null = null;
-  page: any = null;
-
-  parseDesc(str: string) {
-    return str.replace(/<color=(.+?)>(.+?)<\/color>/g, `<span style="color:$1">$2</span>`).replace(/\n/g, "<br>");
-  }
-
-  F(n = 0, p = 2) {
-    return n.toFixed(p);
-  }
-
-  P(n = 0, p = 2) {
-    return +(n * 100).toFixed(p) + "%";
-  }
-
-  FP(n = 0, p = 1) {
-    return (n * 100).toFixed(p) + "%";
-  }
-
-  @Watch("data")
-  created() {
-    if (this.data) this.weapon = new Weapon(this.data);
-  }
+  @Prop() id!: string;
+  user: IUser | null = null;
 }
 </script>

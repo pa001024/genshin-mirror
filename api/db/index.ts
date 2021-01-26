@@ -13,7 +13,7 @@ mongoose.connect(DB, {
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "connection error:"));
 db.once("open", function () {
-  console.log(chalk.green("✔"), "connected to", chalk.blue(DB));
+  console.log(chalk.green("✔"), "Connected to", chalk.blue(DB));
 });
 
 export * from "./models/User";

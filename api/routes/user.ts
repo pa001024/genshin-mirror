@@ -28,6 +28,16 @@ function signUser(user: DocumentType<User>) {
 }
 
 /* GET users listing. */
+router.post("/user/_id", async function (req, res) {
+  const id = req.params.id;
+  const u = await UserModel.findById(id);
+  if (u) {
+    return res.json({ code: 200, data: u });
+  }
+  return res.json({ code: 404, message: "not found" });
+});
+
+/* GET users listing. */
 router.post("/user/login", async function (req, res) {
   // Timing Hack
   await delay();
@@ -48,7 +58,7 @@ router.post("/user/login", async function (req, res) {
 
 /* 用户注册 */
 router.post("/user/signup", async function ({ body: { email, username, hash } }, res) {
-  if (!email || !username || !hash) return res.json({ code: 400, message: "invalid input" });
+  if (!email || !username || !hash || username.length > 40 || email.length > 80) return res.json({ code: 400, message: "invalid input" });
   const user = await UserModel.findOne({ email });
   if (user) return res.json({ code: 403, message: "user exists" });
 

@@ -13,10 +13,10 @@
         <GsIcon v-if="!drawer" type="logo" :size="32" />
       </v-btn>
       <v-spacer></v-spacer>
-      <div style="height: 24px" class="mr-4">
-        <v-switch v-model="$vuetify.theme.dark" inset :label="$t('ui.switchTheme')" />
-      </div>
-      <nuxt-link v-if="username" tag="div" :to="'/user/' + username" class="username">
+      <v-btn icon class="mr-2" @click="$vuetify.theme.dark = !$vuetify.theme.dark">
+        <v-icon>{{ $vuetify.theme.dark ? "mdi-brightness-2" : "mdi-white-balance-sunny" }}</v-icon>
+      </v-btn>
+      <nuxt-link v-if="username" tag="div" :to="'/user/' + uid" class="username">
         <v-btn plain>
           {{ username }}
         </v-btn>
@@ -70,6 +70,7 @@ import { Getter } from "vuex-class";
 @Component({})
 export default class DefaultLayout extends Vue {
   @Getter("app/username") username!: string;
+  @Getter("app/uid") uid!: string;
 
   get isStandlone() {
     return false;

@@ -73,7 +73,7 @@
       </v-card-text>
     </v-card>
   </div>
-  <div v-else class="error">找不到此敌人</div>
+  <div v-else class="error">{{ $t("ui.enemy404") }}</div>
 </template>
 
 <script lang="ts">

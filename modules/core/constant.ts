@@ -262,28 +262,28 @@ export namespace ARTIFACT {
   ];
 
   /** 主词条属性成长顺序 */
-  export const MAIN_PROPERTY_CURVE_ORDER: BuffType[] = [
-    BuffType.HPDelta,
-    BuffType.HPRatio,
-    BuffType.ATKDelta,
-    BuffType.ATKRatio,
-    BuffType.DEFDelta,
-    BuffType.DEFRatio,
-    BuffType.CRITRate,
-    BuffType.CRITDMG,
-    BuffType.EnergyRecharge,
-    BuffType.Heal,
-    BuffType.ElementalMastery,
-    BuffType.PyroDMG,
-    BuffType.ElectroDMG,
-    BuffType.HydroDMG,
-    BuffType.AnemoDMG,
-    BuffType.GeoDMG,
-    BuffType.DendroDMG,
-    BuffType.CryoDMG,
-    BuffType.PhysicalDMG,
-    BuffType.PyroRES,
-  ];
+  export const MAIN_PROPERTY_CURVE_ORDER: { [x: number]: number } = {
+    [BuffType.HPDelta]: 0,
+    [BuffType.HPRatio]: 1,
+    [BuffType.ATKDelta]: 2,
+    [BuffType.ATKRatio]: 3,
+    [BuffType.DEFDelta]: 4,
+    [BuffType.DEFRatio]: 5,
+    [BuffType.CRITRate]: 6,
+    [BuffType.CRITDMG]: 7,
+    [BuffType.EnergyRecharge]: 8,
+    [BuffType.Heal]: 9,
+    [BuffType.ElementalMastery]: 10,
+    [BuffType.PyroDMG]: 11,
+    [BuffType.ElectroDMG]: 12,
+    [BuffType.HydroDMG]: 13,
+    [BuffType.AnemoDMG]: 14,
+    [BuffType.GeoDMG]: 15,
+    [BuffType.DendroDMG]: 16,
+    [BuffType.CryoDMG]: 17,
+    [BuffType.PhysicalDMG]: 18,
+    [BuffType.PyroRES]: 19,
+  };
 
   /** 各部位主属性权重 */
   export const MAIN_PROPERTY_WEIGHT: [BuffType, number][][] = [

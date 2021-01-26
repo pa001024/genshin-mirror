@@ -3,6 +3,20 @@ import { User } from "./User";
 import { UserArtifact } from "./UserArtifact";
 import { IUserAvatar, IUserWeapon } from "~/modules/core";
 
+class UserWeapon implements IUserWeapon {
+  @prop({ type: String })
+  public typeId!: string;
+
+  @prop({ type: Number })
+  public level!: number;
+
+  @prop({ type: Number })
+  public promoteLevel!: number;
+
+  @prop({ type: Number })
+  public refineLevel!: number;
+}
+
 /**
  * 角色
  *
@@ -48,20 +62,6 @@ export class UserAvatar implements IUserAvatar {
   /** 武器 */
   @prop({ type: () => UserWeapon })
   public weapon?: UserWeapon;
-}
-
-class UserWeapon implements IUserWeapon {
-  @prop({ type: String })
-  public typeId!: string;
-
-  @prop({ type: Number })
-  public level!: number;
-
-  @prop({ type: Number })
-  public promoteLevel!: number;
-
-  @prop({ type: Number })
-  public refineLevel!: number;
 }
 
 export const UserAvatarModel = getModelForClass(UserAvatar);
