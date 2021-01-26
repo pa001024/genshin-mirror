@@ -4,7 +4,7 @@
     <v-card class="weapon-filter mb-3">
       <v-card-text>
         <v-combobox v-model="filterOptions" :items="filters" :label="$t('ui.filter')" multiple chips clearable :item-value="d => d.prop + '=' + d.value">
-          <template v-slot:selection="{ attrs, item, parent, selected }">
+          <template #selection="{ attrs, item, parent, selected }">
             <v-chip v-bind="attrs" :color="`${item.color} lighten-3`" :input-value="selected" label small>
               <span class="pr-2" v-text="item.text" />
               <v-icon small @click="parent.selectItem(item)">mdi-close</v-icon>
@@ -49,11 +49,11 @@
 
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
-import { IWeaponType } from "~/modules/core";
+import { IWeapon } from "~/modules/core";
 
 interface FilterOption {
   text: string;
-  prop: keyof IWeaponType;
+  prop: keyof IWeapon;
   value: any;
 }
 
@@ -83,7 +83,7 @@ interface FilterOption {
   },
 })
 export default class Page extends Vue {
-  data: IWeaponType[] | null = null;
+  data: IWeapon[] | null = null;
   page: any = null;
 
   filterOptions: FilterOption[] = [];
@@ -109,7 +109,7 @@ export default class Page extends Vue {
         }
         r.push(item);
         return r;
-      }, [] as Partial<IWeaponType & { subtitle: string }>[]);
+      }, [] as Partial<IWeapon & { subtitle: string }>[]);
   }
 }
 </script>

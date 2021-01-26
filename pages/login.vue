@@ -29,7 +29,7 @@
     </v-card>
     <v-snackbar v-model="showMsg" :timeout="4000">
       {{ msg }}
-      <template v-slot:action="{ attrs }">
+      <template #action="{ attrs }">
         <v-btn color="blue" text v-bind="attrs" @click="snackbar = false">{{ $t("ui.close") }}</v-btn>
       </template>
     </v-snackbar>
@@ -78,6 +78,7 @@ export default class Login extends Vue {
       .catch(console.error);
     this.loading = false;
     if (!res || res.data.code !== 200) {
+      this.showMsg = false;
       this.showMsg = true;
       this.msg = this.$t("ui.loginFailed") as string;
       return;

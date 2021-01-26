@@ -32,6 +32,7 @@ export default {
   plugins: [
     // vuex-persist
     { src: "~/plugins/vuex-persist", ssr: false },
+    { src: "~/plugins/vue-class-component", ssr: false },
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)

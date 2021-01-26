@@ -1,7 +1,7 @@
 import { getModelForClass, prop } from "@typegoose/typegoose";
-import { User } from "./user";
-import { Artifact } from "./artifact";
-import { IWeapon } from "~/modules/core";
+import { User } from "./User";
+import { UserArtifact } from "./UserArtifact";
+import { IUserAvatar, IUserWeapon } from "~/modules/core";
 
 /**
  * 角色
@@ -9,10 +9,13 @@ import { IWeapon } from "~/modules/core";
  * @export
  * @class Char
  */
-export class Char {
+export class UserAvatar implements IUserAvatar {
   /** 拥有者 */
   @prop({ ref: () => User, index: true })
-  public owner!: string;
+  public owner!: User;
+
+  @prop({ type: String, required: true })
+  public avatarId!: string;
 
   /** 等级 */
   @prop({ type: Number, required: true, default: 0 })
@@ -39,23 +42,26 @@ export class Char {
   public qLevel!: number;
 
   /** 圣遗物 */
-  @prop({ ref: () => Artifact })
-  public artifacts!: Artifact[];
+  @prop({ ref: () => UserArtifact })
+  public artifacts!: UserArtifact[];
 
   /** 武器 */
-  @prop({ type: () => Weapon })
-  public weaponId!: Weapon;
+  @prop({ type: () => UserWeapon })
+  public weapon?: UserWeapon;
 }
 
-class Weapon implements IWeapon {
-  @prop({ type: Number })
-  public typeId!: number;
+class UserWeapon implements IUserWeapon {
+  @prop({ type: String })
+  public typeId!: string;
 
   @prop({ type: Number })
   public level!: number;
 
   @prop({ type: Number })
   public promoteLevel!: number;
+
+  @prop({ type: Number })
+  public refineLevel!: number;
 }
 
-export const CharModel = getModelForClass(Char);
+export const UserAvatarModel = getModelForClass(UserAvatar);

@@ -1,14 +1,20 @@
 import { AVATAR } from "./constant";
 import { BuffType } from "./enum";
-import { IArtifact, IAvatar, Weapon } from ".";
+import { IArtifact, IAvatar, Weapon, IUserAvatar } from ".";
 
-export class Avatar {
+export class Avatar implements IUserAvatar {
   /** 静态数据 */
   readonly data: IAvatar;
+  readonly avatarId: string;
 
   constructor(data: IAvatar) {
     this.data = data;
+    this.avatarId = data.id;
   }
+
+  attackLevel: number = 1;
+  eLevel: number = 1;
+  qLevel: number = 1;
 
   lazy = false;
 

@@ -1,6 +1,6 @@
 import { getModelForClass, prop } from "@typegoose/typegoose";
-import { User } from "./user";
-import type { IArtifact, IAttr } from "~/modules/core";
+import { User } from "./User";
+import type { IArtifact as IUserArtifact, IAttr } from "~/modules/core";
 
 /**
  * 圣遗物
@@ -8,7 +8,7 @@ import type { IArtifact, IAttr } from "~/modules/core";
  * @export
  * @class Artifact
  */
-export class Artifact implements IArtifact {
+export class UserArtifact implements IUserArtifact {
   /** 拥有者 */
   @prop({ ref: () => User, index: true })
   public owner!: string;
@@ -48,4 +48,4 @@ export class Attr implements IAttr {
   value!: number;
 }
 
-export const ArtifactModel = getModelForClass(Artifact);
+export const UserArtifactModel = getModelForClass(UserArtifact);

@@ -1,3 +1,4 @@
+import { base62, debase62 } from "../util/base62";
 import { IArtifactType, IAttr } from "./interface";
 import { IArtifact, ARTIFACT } from ".";
 
@@ -5,14 +6,16 @@ import { IArtifact, ARTIFACT } from ".";
 // const data: IArtifactType[] = require("~/content/en/relic/relic");
 // const dataMap = data.reduce<{ [x: number]: IArtifactType }>((r, v) => (r[v.id] = v) && r, {});
 
-export class Artifact {
+export class Artifact implements IArtifact {
   static relicMap: { [x: number]: IArtifactType };
 
   /** 静态数据 */
   data: IArtifact;
   type: IArtifactType;
+  typeId: number;
   constructor(artifact: IArtifact) {
     this.data = artifact;
+    this.typeId = artifact.typeId;
     this.type = Artifact.relicMap[artifact.typeId];
   }
 
@@ -53,6 +56,11 @@ export class Artifact {
     return this._attrPowerUpInfo;
   }
 
+  /** 主属性 */
+  get main() {
+    return this.data.main;
+  }
+
   /**
    * 回溯副属性强化情况 (高开销)
    */
@@ -90,7 +98,7 @@ export class Artifact {
     const main = mainWeights.find(([, w]) => (total -= w) < 0)![0];
 
     // 随机副属性
-    const subCount = ARTIFACT.MAX_SUB_PROPS[atype.rarity] - ~~(Math.random() + 0.5);
+    const subCount = Math.max(0, ARTIFACT.MAX_SUB_PROPS[atype.rarity] - ~~(Math.random() + 0.5));
     const subs: IAttr[] = [];
     for (let i = 0; i < subCount; i++) {
       const used = [main, ...subs.map(v => v.type)];
@@ -108,6 +116,30 @@ export class Artifact {
       main,
       attrs: subs,
     });
+  }
+
+  // 序列化
+  get code() {
+    return this.attrs.reduce(
+      (r, v) => r + (base62(v.type) + base62(v.type in ARTIFACT.ENCODE_RATIO ? v.value : v.value * 10, 2), 3),
+      `${base62(this.typeId, 4)}${base62(this.main)}${base62(this.level)}`
+    );
+  }
+
+  static fromCode(value: string) {
+    const typeId = debase62(value.substr(0, 4));
+    const main = debase62(value.substr(4, 1));
+    const level = debase62(value.substr(5, 1));
+    const subs = value.substr(6);
+    const attrs: IAttr[] = [];
+    for (let i = 0; i < subs.length; i += 3) {
+      const type = debase62(subs.substr(i, 1));
+      attrs.push({
+        type,
+        value: debase62(subs.substr(i + 1, 2)) / (type in ARTIFACT.ENCODE_RATIO ? 1 : 10),
+      });
+    }
+    return new Artifact({ typeId, main, level, attrs });
   }
 }
 

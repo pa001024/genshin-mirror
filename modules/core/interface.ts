@@ -1,14 +1,15 @@
 import { BuffCondition, BuffType, ElementType, Region, WeaponType, BuffTarget, ReactionType, BodyType, MaterialType, EnemyType } from "./enum";
 
 /** 武器 */
-export interface IWeapon {
-  typeId: number;
+export interface IUserWeapon {
+  typeId: string;
   level: number;
   promoteLevel: number;
+  refineLevel: number;
 }
 
 /** 武器类型 */
-export interface IWeaponType {
+export interface IWeapon {
   /** 序号 */ id: string;
   /** 名称 */ name: string;
   /** 本地化名称 */ localeName: string;
@@ -73,6 +74,29 @@ export interface IArtifactSetAffix {
   level?: number;
   /** 描述 */ desc: string;
   attrs: IAttr[];
+}
+
+export interface IUserAvatar {
+  avatarId: string;
+  /** ref IAvatar.id */
+  data?: IAvatar;
+
+  /** 等级 */
+  level: number;
+  /** 突破等级 */
+  promoteLevel: number;
+  /** 命座等级 */
+  talentLevel: number;
+  /** 普攻等级 */
+  attackLevel: number;
+  /** E等级 */
+  eLevel: number;
+  /** Q等级 */
+  qLevel: number;
+  /** 圣遗物 */
+  artifacts: IArtifact[];
+  /** 武器 */
+  weapon?: IUserWeapon;
 }
 
 /** 角色 */

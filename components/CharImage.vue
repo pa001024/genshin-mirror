@@ -11,6 +11,7 @@
 <script lang="ts">
 import "reflect-metadata";
 import { Vue, Component, Prop } from "vue-property-decorator";
+import { Getter } from "vuex-class";
 import { ElementType, Region } from "~/modules/core";
 
 @Component({})
@@ -21,9 +22,11 @@ export default class CharImage extends Vue {
   @Prop({ default: "thumb" }) type!: "thumb" | "portrait";
   @Prop({ default: 32 }) size!: number;
   @Prop({ type: Boolean }) avatar!: boolean;
+  @Getter("app/travelerGender") travelerGender!: number;
 
   get url() {
-    return "/img/char/" + this.type + "/" + this.id + ".png";
+    const id = this.id === "Traveler" ? (this.travelerGender ? "Aether" : "Lumine") : this.id;
+    return "/img/char/" + this.type + "/" + id + ".png";
   }
 
   get elementIcon(): string {

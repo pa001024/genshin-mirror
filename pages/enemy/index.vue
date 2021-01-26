@@ -4,7 +4,7 @@
     <v-card class="weapon-filter mb-3">
       <v-card-text>
         <v-combobox v-model="filterOptions" :items="filters" :label="$t('ui.filter')" multiple chips clearable :item-value="d => d.prop + '=' + d.value">
-          <template v-slot:selection="{ attrs, item, parent, selected }">
+          <template #selection="{ attrs, item, parent, selected }">
             <v-chip v-bind="attrs" :color="`${item.color} lighten-3`" :input-value="selected" label small>
               <span class="pr-2" v-text="item.text" />
               <v-icon small @click="parent.selectItem(item)">mdi-close</v-icon>
@@ -25,11 +25,11 @@
           </v-subheader>
           <!-- 内容 -->
           <v-list-item v-if="item.id" :key="item.id">
-            <v-list-item-action>
+            <div class="enemy-linehead">
               <v-list-item-title>
                 <v-avatar color="grey" />
               </v-list-item-title>
-            </v-list-item-action>
+            </div>
 
             <nuxt-link :to="'enemy/' + item.id" class="nolink">
               <v-list-item-content>
@@ -100,3 +100,11 @@ export default class Page extends Vue {
   }
 }
 </script>
+
+<style lang="less">
+.enemy-linehead {
+  text-align: center;
+  width: 80px;
+  flex: none;
+}
+</style>

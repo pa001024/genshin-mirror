@@ -1,4 +1,4 @@
-import { getModelForClass, prop } from "@typegoose/typegoose";
+import { getModelForClass, pre, prop } from "@typegoose/typegoose";
 
 /**
  * 用户
@@ -6,6 +6,9 @@ import { getModelForClass, prop } from "@typegoose/typegoose";
  * @export
  * @class User
  */
+@pre<User>("save", function () {
+  this.lastUpdate = new Date();
+})
 export class User {
   @prop({ type: String, required: true, unique: true })
   public email!: string;
@@ -33,9 +36,13 @@ export class User {
   @prop({ type: String })
   public server!: string;
 
-  // 圣遗物hash
-  @prop({ type: String })
-  public artifactHash!: string;
+  // 最后更新
+  @prop({ type: Date, default: Date.now })
+  public lastUpdate!: Date;
+
+  // 最后登录
+  @prop({ type: Date, default: Date.now })
+  public lastLogin!: Date;
 }
 
 export const UserModel = getModelForClass(User);

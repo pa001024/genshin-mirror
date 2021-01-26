@@ -1,12 +1,17 @@
 import { IAttr } from "./interface";
-import { IWeaponType, WEAPON } from ".";
+import { IWeapon, WEAPON, IUserWeapon } from ".";
 
-export class Weapon {
+export class Weapon implements IUserWeapon {
   /** 静态数据 */
-  data: IWeaponType;
-  constructor(weapon: IWeaponType) {
+  data: IWeapon;
+  typeId: string;
+  constructor(weapon: IWeapon) {
+    this.typeId = weapon.id;
     this.data = weapon;
   }
+
+  /** 精练等级 */
+  refineLevel = 1;
 
   lazy = false;
 

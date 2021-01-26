@@ -2,24 +2,28 @@ import { Router } from "express";
 import ejwt from "express-jwt";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
-import { UserModel, User } from "../db";
+import { DocumentType } from "@typegoose/typegoose";
+import { UserModel, User, UserAvatarModel } from "../db";
+import { IUserAvatar } from "~/modules/core";
 
 const router = Router();
 const SECRET = process.env.JWT_SECRET!;
+
+const PROTECTED = ejwt({ secret: SECRET, algorithms: ["HS256"] });
 
 function delay(d = Math.random() * 500) {
   return new Promise(resolve => setTimeout(() => resolve(d), d));
 }
 
-function signUser(user: User) {
-  const sign = jwt.sign(
-    {
-      user: user.username,
-      type: user.type,
-    },
-    SECRET,
-    { expiresIn: "30d" }
-  );
+interface JWTPayload {
+  id: string;
+  user: string;
+  type: number;
+}
+
+function signUser(user: DocumentType<User>) {
+  const payload: JWTPayload = { id: user.id, user: user.username!, type: user.type! };
+  const sign = jwt.sign(payload, SECRET, { expiresIn: "30d" });
   return sign;
 }
 
@@ -63,8 +67,36 @@ router.post("/user/signup", async function ({ body: { email, username, hash } },
  * test:
  * $nuxt.$axios.get("/api/user/check",{headers:{Authorization:$nuxt.$store.state.app.auth}})
  */
-router.get("/user/check", ejwt({ secret: SECRET, algorithms: ["HS256"] }), function (req: any, res) {
+router.get("/user/check", PROTECTED, function (req: any, res) {
   if (!req.user) return res.status(403).json({ code: 403, message: "not login" });
+  return res.json({ code: 200 });
+});
+
+router.put("/user/char", PROTECTED, async function (req, res) {
+  const newData: IUserAvatar = req.body.data;
+  const jwtPayload = (req as any) as JWTPayload;
+  const user = await UserModel.findById(jwtPayload.id);
+  if (!user) return res.json({ code: 403, message: "not login" });
+
+  const avatar = await UserAvatarModel.findOne({ owner: user.id, avatarId: newData.avatarId });
+  // 不存在则新建
+  if (!avatar) {
+    const userData = new UserAvatarModel({ ...newData });
+    await userData.save();
+  } else {
+    // 存在则更新
+    avatar.avatarId = newData.avatarId;
+    avatar.level = newData.level;
+    avatar.promoteLevel = newData.promoteLevel;
+    avatar.talentLevel = newData.talentLevel;
+    avatar.attackLevel = newData.attackLevel;
+    avatar.eLevel = newData.eLevel;
+    avatar.qLevel = newData.qLevel;
+    avatar.weapon = newData.weapon;
+    // avatar.artifacts = newData.artifacts;
+    await avatar.save();
+  }
+
   return res.json({ code: 200 });
 });
 

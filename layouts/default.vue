@@ -16,10 +16,16 @@
       <div style="height: 24px" class="mr-4">
         <v-switch v-model="$vuetify.theme.dark" inset :label="$t('ui.switchTheme')" />
       </div>
-      <div v-if="username" class="username">
-        {{ username }}
-      </div>
-      <v-btn></v-btn>
+      <nuxt-link v-if="username" tag="div" :to="'/user/' + username" class="username">
+        <v-btn plain>
+          {{ username }}
+        </v-btn>
+      </nuxt-link>
+      <nuxt-link v-else to="/login" tag="div">
+        <v-btn icon>
+          <v-icon>mdi-account</v-icon>
+        </v-btn>
+      </nuxt-link>
       <!-- <v-responsive max-width="156">
         <v-text-field dense flat hide-details rounded solo-inverted></v-text-field>
       </v-responsive> -->
@@ -27,14 +33,14 @@
 
     <v-navigation-drawer v-model="drawer" app width="56">
       <!-- 站头 -->
-      <nuxt-link to="/">
+      <nuxt-link to="/" exact>
         <v-btn color="transparent" fab elevation="0" small class="d-block text-center mx-auto mt-4 main-site-btn"><GsIcon type="logo" /></v-btn>
       </nuxt-link>
       <v-divider color="white" class="mx-3 my-5"></v-divider>
 
       <!-- 主导航栏 -->
       <v-tooltip v-for="item in links" :key="item.name" right>
-        <template v-slot:activator="{ on, attrs }">
+        <template #activator="{ on, attrs }">
           <nuxt-link :to="item.path">
             <v-btn color="transparent" v-bind="attrs" fab elevation="0" small class="d-block text-center mx-auto mb-4 main-nav-btn" v-on="on"
               ><GsIcon :type="item.icon"
@@ -75,6 +81,7 @@ export default class DefaultLayout extends Vue {
     { name: "artifact", path: "/artifact", icon: "artifact" },
     { name: "enemy", path: "/enemy", icon: "enemy" },
     { name: "material", path: "/item", icon: "mineral" },
+    { name: "inv", path: "/inv", icon: "char_item" },
     { name: "setting", path: "/setting", icon: "setting" },
   ];
 
@@ -95,5 +102,8 @@ export default class DefaultLayout extends Vue {
 }
 .main-site-btn {
   font-size: 2rem !important;
+}
+.nuxt-link-active .v-btn::before {
+  opacity: 0.1;
 }
 </style>

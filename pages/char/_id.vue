@@ -57,7 +57,14 @@
           <v-col cols="12">
             <!-- 基础数值 -->
             <div class="level-slider ml-4 mr-4 mt-2">
-              <v-slider v-model="char.level" label="等级" persistent-hint :hint="$t('ui.level', [char.level])" :max="char.maxLevel" :min="char.minLevel" />
+              <v-slider
+                v-model="char.level"
+                :label="$t('ui.levels')"
+                persistent-hint
+                :hint="$t('ui.level', [char.level])"
+                :max="char.maxLevel"
+                :min="char.minLevel"
+              />
             </div>
             <PromoteLevel v-model="char.promoteLevel" />
           </v-col>

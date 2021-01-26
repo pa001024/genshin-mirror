@@ -29,7 +29,7 @@
     </v-card>
     <v-snackbar v-model="showMsg" :timeout="4000">
       {{ msg }}
-      <template v-slot:action="{ attrs }">
+      <template #action="{ attrs }">
         <v-btn color="blue" text v-bind="attrs" @click="snackbar = false">{{ $t("ui.close") }}</v-btn>
       </template>
     </v-snackbar>
@@ -78,13 +78,12 @@ export default class Signup extends Vue {
   }
 
   get confirmPasswordRules() {
-    return [
-      //
-      (v: string) => v === this.password || this.$t("ui.passwordNotMatch"),
-    ];
+    return [(v: string) => v === this.password || this.$t("ui.passwordNotMatch")];
   }
 
   async postSignUp() {
+    this.email = this.email.trim();
+    this.username = this.username.trim();
     if (!this.email || !this.password) return;
     this.loading = true;
     const res = await this.$axios
@@ -96,6 +95,7 @@ export default class Signup extends Vue {
       .catch(console.error);
     this.loading = false;
     if (!res || res.data.code !== 200) {
+      this.showMsg = false;
       this.showMsg = true;
       this.msg = this.$t("ui.signupFailed", [res ? res.data.message : "unknown"]) as string;
       return;
