@@ -14,11 +14,7 @@
     {
       "level": 1,
       "itemCost": [
-        {
-          "id": "ShivadaJadeSliver",
-          "name": "Shivada Jade Sliver",
-          "count": 1
-        },
+        { "id": "ShivadaJadeSliver", "name": "Shivada Jade Sliver", "count": 1 },
         { "id": "CorLapis", "name": "Cor Lapis", "count": 3 },
         { "id": "DamagedMask", "name": "Damaged Mask", "count": 3 }
       ],
@@ -30,11 +26,7 @@
     {
       "level": 2,
       "itemCost": [
-        {
-          "id": "ShivadaJadeFragment",
-          "name": "Shivada Jade Fragment",
-          "count": 3
-        },
+        { "id": "ShivadaJadeFragment", "name": "Shivada Jade Fragment", "count": 3 },
         { "id": "HoarfrostCore", "name": "Hoarfrost Core", "count": 2 },
         { "id": "CorLapis", "name": "Cor Lapis", "count": 10 },
         { "id": "DamagedMask", "name": "Damaged Mask", "count": 15 }
@@ -47,11 +39,7 @@
     {
       "level": 3,
       "itemCost": [
-        {
-          "id": "ShivadaJadeFragment",
-          "name": "Shivada Jade Fragment",
-          "count": 6
-        },
+        { "id": "ShivadaJadeFragment", "name": "Shivada Jade Fragment", "count": 6 },
         { "id": "HoarfrostCore", "name": "Hoarfrost Core", "count": 4 },
         { "id": "CorLapis", "name": "Cor Lapis", "count": 20 },
         { "id": "StainedMask", "name": "Stained Mask", "count": 12 }
@@ -90,11 +78,7 @@
     {
       "level": 6,
       "itemCost": [
-        {
-          "id": "ShivadaJadeGemstone",
-          "name": "Shivada Jade Gemstone",
-          "count": 6
-        },
+        { "id": "ShivadaJadeGemstone", "name": "Shivada Jade Gemstone", "count": 6 },
         { "id": "HoarfrostCore", "name": "Hoarfrost Core", "count": 20 },
         { "id": "CorLapis", "name": "Cor Lapis", "count": 60 },
         { "id": "OminousMask", "name": "Ominous Mask", "count": 24 }
@@ -111,12 +95,7 @@
     "name": "Spirit Blade: Chonghua's Layered Frost",
     "desc": "Chongyun strikes the ground with his greatsword, causing a Cryo explosion in a circular AoE in front of him that deals <color=#99FFFFFF>Cryo DMG</color>.\nAfter a short delay, the cold air created by the Cryo explosion will coalesce into a Chonghua Frost Field, within which all Sword, Claymore and Polearm-wielding characters' weapons will be infused with <color=#99FFFFFF>Cryo</color>.\n\n<i>\"A crystal-clear ring, and all is silent. The rivers move not, and the clouds are heavy with frost. The altar gates open, and evil is banished.\"</i>",
     "cd": 15,
-    "paramTpls": [
-      "Skill DMG|{param1:P}",
-      "Infusion Duration|{param2:F1}s",
-      "Field Duration|{param4:F1}s",
-      "CD|{param3:F1}s"
-    ],
+    "paramTpls": ["Skill DMG|{param1:P}", "Infusion Duration|{param2:F1}s", "Field Duration|{param4:F1}s", "CD|{param3:F1}s"],
     "paramVals": [
       [1.7204, 2, 15, 10],
       [1.8494, 2.1, 15, 10],
@@ -140,11 +119,7 @@
     "desc": "Performing the secret hand seals, Chongyun summons 3 giant spirit blades in mid-air that fall to the earth one by one after a short delay, exploding as they hit the ground.\nWhen the spirit blades explode, they will deal <color=#99FFFFFF>AoE Cryo DMG</color> and launch opponents.\n\n<i>\"As ice doth give the biting frost birth, My transcendent blade shakes heaven and earth. Heed my summons and come hence!\"</i>",
     "cd": 12,
     "energyCost": 40,
-    "paramTpls": [
-      "Skill DMG|{param1:P}",
-      "CD|{param2:F1}s",
-      "Energy Cost|{param3:I}"
-    ],
+    "paramTpls": ["Skill DMG|{param1:P}", "CD|{param2:F1}s", "Energy Cost|{param3:I}"],
     "paramVals": [
       [1.424, 12, 40],
       [1.5308, 12, 40],
@@ -180,203 +155,38 @@
       "Low/High Plunge DMG|{param10:P}/{param11:P}"
     ],
     "paramVals": [
-      [
-        0.70004,
-        0.63124,
-        0.80324,
-        1.0122,
-        0.56285,
-        1.0178,
-        40,
-        5,
-        0.74588,
-        1.4914,
-        1.8629
-      ],
-      [
-        0.75702,
-        0.68262,
-        0.86862,
-        1.0946,
-        0.60867,
-        1.1007,
-        40,
-        5,
-        0.80659,
-        1.6128,
-        2.0145
-      ],
-      [
-        0.814,
-        0.734,
-        0.934,
-        1.177,
-        0.65448,
-        1.1835,
-        40,
-        5,
-        0.8673,
-        1.7342,
-        2.1662
-      ],
-      [
-        0.8954,
-        0.8074,
-        1.0274,
-        1.2947,
-        0.71993,
-        1.3018,
-        40,
-        5,
-        0.95403,
-        1.9077,
-        2.3828
-      ],
-      [
-        0.95238,
-        0.85878,
-        1.0928,
-        1.3771,
-        0.76574,
-        1.3847,
-        40,
-        5,
-        1.0147,
-        2.0291,
-        2.5344
-      ],
-      [
-        1.0175,
-        0.9175,
-        1.1675,
-        1.4713,
-        0.8181,
-        1.4794,
-        40,
-        5,
-        1.0841,
-        2.1678,
-        2.7077
-      ],
-      [
-        1.107,
-        0.99824,
-        1.2702,
-        1.6007,
-        0.89009,
-        1.6096,
-        40,
-        5,
-        1.1795,
-        2.3586,
-        2.946
-      ],
-      [
-        1.1966,
-        1.079,
-        1.373,
-        1.7302,
-        0.96209,
-        1.7397,
-        40,
-        5,
-        1.2749,
-        2.5493,
-        3.1842
-      ],
-      [
-        1.2861,
-        1.1597,
-        1.4757,
-        1.8597,
-        1.0341,
-        1.8699,
-        40,
-        5,
-        1.3703,
-        2.7401,
-        3.4225
-      ],
-      [
-        1.3838,
-        1.2478,
-        1.5878,
-        2.0009,
-        1.1126,
-        2.012,
-        40,
-        5,
-        1.4744,
-        2.9482,
-        3.6825
-      ],
-      [
-        1.4815,
-        1.3359,
-        1.6999,
-        2.1421,
-        1.1912,
-        2.154,
-        40,
-        5,
-        1.5785,
-        3.1563,
-        3.9424
-      ],
-      [
-        1.5792,
-        1.424,
-        1.812,
-        2.2834,
-        1.2697,
-        2.296,
-        40,
-        5,
-        1.6826,
-        3.3644,
-        4.2023
-      ],
-      [
-        1.6768,
-        1.512,
-        1.924,
-        2.4246,
-        1.3482,
-        2.438,
-        40,
-        5,
-        1.7866,
-        3.5725,
-        4.4623
-      ],
-      [
-        1.7745,
-        1.6001,
-        2.0361,
-        2.5659,
-        1.4268,
-        2.58,
-        40,
-        5,
-        1.8907,
-        3.7806,
-        4.7222
-      ],
-      [
-        1.8722,
-        1.6882,
-        2.1482,
-        2.7071,
-        1.5053,
-        2.722,
-        40,
-        5,
-        1.9948,
-        3.9887,
-        4.9821
-      ]
+      [0.70004, 0.63124, 0.80324, 1.0122, 0.56285, 1.0178, 40, 5, 0.74588, 1.4914, 1.8629],
+      [0.75702, 0.68262, 0.86862, 1.0946, 0.60867, 1.1007, 40, 5, 0.80659, 1.6128, 2.0145],
+      [0.814, 0.734, 0.934, 1.177, 0.65448, 1.1835, 40, 5, 0.8673, 1.7342, 2.1662],
+      [0.8954, 0.8074, 1.0274, 1.2947, 0.71993, 1.3018, 40, 5, 0.95403, 1.9077, 2.3828],
+      [0.95238, 0.85878, 1.0928, 1.3771, 0.76574, 1.3847, 40, 5, 1.0147, 2.0291, 2.5344],
+      [1.0175, 0.9175, 1.1675, 1.4713, 0.8181, 1.4794, 40, 5, 1.0841, 2.1678, 2.7077],
+      [1.107, 0.99824, 1.2702, 1.6007, 0.89009, 1.6096, 40, 5, 1.1795, 2.3586, 2.946],
+      [1.1966, 1.079, 1.373, 1.7302, 0.96209, 1.7397, 40, 5, 1.2749, 2.5493, 3.1842],
+      [1.2861, 1.1597, 1.4757, 1.8597, 1.0341, 1.8699, 40, 5, 1.3703, 2.7401, 3.4225],
+      [1.3838, 1.2478, 1.5878, 2.0009, 1.1126, 2.012, 40, 5, 1.4744, 2.9482, 3.6825],
+      [1.4815, 1.3359, 1.6999, 2.1421, 1.1912, 2.154, 40, 5, 1.5785, 3.1563, 3.9424],
+      [1.5792, 1.424, 1.812, 2.2834, 1.2697, 2.296, 40, 5, 1.6826, 3.3644, 4.2023],
+      [1.6768, 1.512, 1.924, 2.4246, 1.3482, 2.438, 40, 5, 1.7866, 3.5725, 4.4623],
+      [1.7745, 1.6001, 2.0361, 2.5659, 1.4268, 2.58, 40, 5, 1.8907, 3.7806, 4.7222],
+      [1.8722, 1.6882, 2.1482, 2.7071, 1.5053, 2.722, 40, 5, 1.9948, 3.9887, 4.9821]
     ]
   },
+  "talents": [
+    {
+      "name": "Steady Breathing",
+      "desc": "Sword, Claymore, or Polearm-wielding characters within the field created by <color=#FFD780FF>Spirit Blade: Chonghua's Layered Frost</color> have their Normal ATK SPD increased by 8%.",
+      "unlock": 1,
+      "values": [0.08]
+    },
+    {
+      "name": "Rimechaser Blade",
+      "desc": "When the field created by <color=#FFD780FF>Spirit Blade: Chonghua's Layered Frost</color> disappears, another spirit blade will be summoned to strike nearby opponents, dealing 100% of Chonghua's Layered Frost's Skill DMG as <color=#99FFFFFF>AoE Cryo DMG</color>. Opponents hit by this blade will have their <color=#99FFFFFF>Cryo RES</color> decreased by 10% for 8s.",
+      "unlock": 4,
+      "values": [1, -0.1, 8]
+    },
+    { "name": "Gallant Journey", "desc": "When dispatched on an expedition in Liyue, time consumed is reduced by 25%." }
+  ],
   "c13ns": [
     {
       "name": "Ice Unleashed",
@@ -388,24 +198,16 @@
       "desc": "Elemental Skills and Elemental Bursts cast within the Frost Field created by <color=#FFD780FF>Spirit Blade: Chonghua's Layered Frost</color> have their CD time decreased by 15%.",
       "values": [0.15]
     },
-    {
-      "name": "Cloudburst",
-      "desc": "Increases the Level of <color=#FFD780FF>Spirit Blade: Cloud-parting Star</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
+    { "name": "Cloudburst", "desc": "Increases the Level of <color=#FFD780FF>Spirit Blade: Cloud-parting Star</color> by 3.\nMaximum upgrade level is 15." },
     {
       "name": "Frozen Skies",
-      "desc": "Chongyun regenerates 1 Energy every time he hits an opponent affected by <color=#99FFFFFF>Cryo</color>.\\nThis effect can only occur once every 2s.",
+      "desc": "Chongyun regenerates 1 Energy every time he hits an opponent affected by <color=#99FFFFFF>Cryo</color>.\nThis effect can only occur once every 2s.",
       "values": [1, 2]
     },
-    {
-      "name": "The True Path",
-      "desc": "Increases the Level of <color=#FFD780FF>Spirit Blade: Chonghua's Layered Frost</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
+    { "name": "The True Path", "desc": "Increases the Level of <color=#FFD780FF>Spirit Blade: Chonghua's Layered Frost</color> by 3.\nMaximum upgrade level is 15." },
     {
       "name": "Rally of Four Blades",
-      "desc": "<color=#FFD780FF>Spirit Blade: Cloud-parting Star</color> deals 15% more DMG to opponents with a lower percentage of their Max HP remaining than Chongyun.\\nThis skill will also summon 1 additional spirit blade.",
+      "desc": "<color=#FFD780FF>Spirit Blade: Cloud-parting Star</color> deals 15% more DMG to opponents with a lower percentage of their Max HP remaining than Chongyun.\nThis skill will also summon 1 additional spirit blade.",
       "values": [0.15]
     }
   ]

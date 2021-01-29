@@ -14,11 +14,7 @@
     {
       "level": 1,
       "itemCost": [
-        {
-          "id": "ShivadaJadeSliver",
-          "name": "哀切なアイスクリスタル·砕屑",
-          "count": 1
-        },
+        { "id": "ShivadaJadeSliver", "name": "哀切なアイスクリスタル·砕屑", "count": 1 },
         { "id": "CallaLily", "name": "ドドリアン", "count": 3 },
         { "id": "FirmArrowhead", "name": "牢固な矢先", "count": 3 }
       ],
@@ -30,11 +26,7 @@
     {
       "level": 2,
       "itemCost": [
-        {
-          "id": "ShivadaJadeFragment",
-          "name": "哀切なアイスクリスタル·欠片",
-          "count": 3
-        },
+        { "id": "ShivadaJadeFragment", "name": "哀切なアイスクリスタル·欠片", "count": 3 },
         { "id": "HoarfrostCore", "name": "極寒のコア", "count": 2 },
         { "id": "CallaLily", "name": "ドドリアン", "count": 10 },
         { "id": "FirmArrowhead", "name": "牢固な矢先", "count": 15 }
@@ -47,11 +39,7 @@
     {
       "level": 3,
       "itemCost": [
-        {
-          "id": "ShivadaJadeFragment",
-          "name": "哀切なアイスクリスタル·欠片",
-          "count": 6
-        },
+        { "id": "ShivadaJadeFragment", "name": "哀切なアイスクリスタル·欠片", "count": 6 },
         { "id": "HoarfrostCore", "name": "極寒のコア", "count": 4 },
         { "id": "CallaLily", "name": "ドドリアン", "count": 20 },
         { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 12 }
@@ -64,11 +52,7 @@
     {
       "level": 4,
       "itemCost": [
-        {
-          "id": "ShivadaJadeChunk",
-          "name": "哀切なアイスクリスタル·塊",
-          "count": 3
-        },
+        { "id": "ShivadaJadeChunk", "name": "哀切なアイスクリスタル·塊", "count": 3 },
         { "id": "HoarfrostCore", "name": "極寒のコア", "count": 8 },
         { "id": "CallaLily", "name": "ドドリアン", "count": 30 },
         { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 18 }
@@ -81,11 +65,7 @@
     {
       "level": 5,
       "itemCost": [
-        {
-          "id": "ShivadaJadeChunk",
-          "name": "哀切なアイスクリスタル·塊",
-          "count": 6
-        },
+        { "id": "ShivadaJadeChunk", "name": "哀切なアイスクリスタル·塊", "count": 6 },
         { "id": "HoarfrostCore", "name": "極寒のコア", "count": 12 },
         { "id": "CallaLily", "name": "ドドリアン", "count": 45 },
         { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 12 }
@@ -98,11 +78,7 @@
     {
       "level": 6,
       "itemCost": [
-        {
-          "id": "ShivadaJadeGemstone",
-          "name": "哀切なアイスクリスタル",
-          "count": 6
-        },
+        { "id": "ShivadaJadeGemstone", "name": "哀切なアイスクリスタル", "count": 6 },
         { "id": "HoarfrostCore", "name": "極寒のコア", "count": 20 },
         { "id": "CallaLily", "name": "ドドリアン", "count": 60 },
         { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 24 }
@@ -208,35 +184,29 @@
       [1.0496, 0.97461, 1.3245, 1.2495, 1.5619]
     ]
   },
-  "c13ns": [
+  "talents": [
     {
-      "name": "特製の余韻",
-      "desc": "<color=#FFD780FF>特製スピリッツ</color>の効果終了時、ディオナの元素エネルギーを15回復する。",
-      "values": [15]
+      "name": "キャッツテールの裏メニュー",
+      "desc": "<color=#FFD780FF>フリーズキャッツクロー</color>のシールドが存在する時、キャラクターの移動速度+10%、スタミナ消費-10%。",
+      "unlock": 1,
+      "values": [0.1, -0.1]
     },
+    { "name": "滑稽な酔態", "desc": "<color=#FFD780FF>特製スピリッツ</color>のエリアに入った敵の攻撃力が15秒間-10%。", "unlock": 4, "values": [-0.1, 15] },
+    { "name": "おまけのおつまみ", "desc": "回復系料理を完璧調理した時、12%の確率で料理を2倍獲得する。" }
+  ],
+  "c13ns": [
+    { "name": "特製の余韻", "desc": "<color=#FFD780FF>特製スピリッツ</color>の効果終了時、ディオナの元素エネルギーを15回復する。", "values": [15] },
     {
       "name": "クールキャッツクロー",
-      "desc": "<color=#FFD780FF>フリーズキャッツクロー</color>によるダメージ+15%、シールドのダメージ吸収量+15%。\\n命中時、近くに出場している他のキャラクターに<color=#FFD780FF>フリーズキャッツクロー</color>50%分のダメージを吸収するシールドを付与する、継続時間5秒。",
+      "desc": "<color=#FFD780FF>フリーズキャッツクロー</color>によるダメージ+15%、シールドのダメージ吸収量+15%。\n命中時、近くに出場している他のキャラクターに<color=#FFD780FF>フリーズキャッツクロー</color>50%分のダメージを吸収するシールドを付与する、継続時間5秒。",
       "values": [0.15, 0.15, 0.5, 5]
     },
-    {
-      "name": "お、おかわり？",
-      "desc": "<color=#FFD780FF>特製スピリッツ</color>のスキルLv.+3。\\n最大Lv.15まで。",
-      "values": []
-    },
-    {
-      "name": "「酒造業キラー」",
-      "desc": "<color=#FFD780FF>特製スピリッツ</color>のエリアにいる時、ディオナの狙い撃ちのチャージ時間-60%。",
-      "values": []
-    },
-    {
-      "name": "エクストラアイス",
-      "desc": "<color=#FFD780FF>フリーズキャッツクロー</color>のスキルLv.+3。\\n最大Lv.15まで。",
-      "values": []
-    },
+    { "name": "お、おかわり？", "desc": "<color=#FFD780FF>特製スピリッツ</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "「酒造業キラー」", "desc": "<color=#FFD780FF>特製スピリッツ</color>のエリアにいる時、ディオナの狙い撃ちのチャージ時間-60%。" },
+    { "name": "エクストラアイス", "desc": "<color=#FFD780FF>フリーズキャッツクロー</color>のスキルLv.+3。\n最大Lv.15まで。" },
     {
       "name": "キャッツテールが閉店の時",
-      "desc": "<color=#FFD780FF>特製スピリッツ</color>のエリアにいるキャラクターは自身の現在HPによって以下の効果を獲得する：\\n·HPが50%以下の時、受ける治療効果+30%。\\n·HPが50%より上回る時、元素熟知+200。",
+      "desc": "<color=#FFD780FF>特製スピリッツ</color>のエリアにいるキャラクターは自身の現在HPによって以下の効果を獲得する：\n·HPが50%以下の時、受ける治療効果+30%。\n·HPが50%より上回る時、元素熟知+200。",
       "values": [0.3, 200]
     }
   ]

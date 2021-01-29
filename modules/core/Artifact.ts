@@ -1,6 +1,7 @@
+import { memoize } from "lodash";
 import { base62, debase62 } from "../util/base62";
-import { IArtifactType, IAttr } from "./interface";
-import { IArtifact, ARTIFACT } from ".";
+import { ARTIFACT, BuffType } from ".";
+import type { IArtifactType, IAttr, IArtifact } from ".";
 
 // move to component created()
 // const data: IArtifactType[] = require("~/content/en/relic/relic");
@@ -43,12 +44,20 @@ export class Artifact implements IArtifact {
     return this._maxLevel;
   }
 
-  get attrs() {
+  get mainAttr() {
     const mainAttr: IAttr = {
       type: this.data.main,
       value: ARTIFACT.MAIN_PROPERTY_CURVE[this.type.rarity - 1][this._level][ARTIFACT.MAIN_PROPERTY_CURVE_ORDER[this.data.main]],
     };
-    return [mainAttr, ...this.data.attrs];
+    return mainAttr;
+  }
+
+  get allAttrs() {
+    return [this.mainAttr, ...this.attrs];
+  }
+
+  get attrs() {
+    return this.data.attrs;
   }
 
   private _attrPowerUpInfo = [];
@@ -69,21 +78,57 @@ export class Artifact implements IArtifact {
   /**
    * 回溯副属性强化情况 (高开销)
    */
-  getPowerupInfo() {
-    const pmap = new Map(ARTIFACT.SUB_PROPERTY[this.type.rarity - 1]);
+  get powerupInfo() {
+    const pmap = ARTIFACT.SUB_PROPERTY[this.type.rarity - 1];
     const maxN = ARTIFACT.MAX_POWERUP_PROPS[this.type.rarity - 1];
-    return this.attrs.map(attr => {
-      const probs = pmap.get(attr.type)!;
-      // TODO: 考虑缓存
+    const maxT = pmap[BuffType.HPDelta].length;
+    const cs = this.attrs.map((attr, index) => {
+      const ratio = attr.type in ARTIFACT.ENCODE_RATIO ? 1 : 1000;
+      const probs = ratio === 1 ? pmap[attr.type] : pmap[attr.type].map(v => v * ratio);
       const rainbow = getNRainbow(probs, maxN);
-      const params = rainbow.get(attr.value)! || [0, 0, 0, 0];
+      const params = rainbow[attr.value * ratio] || [];
       return {
+        index,
         ...attr,
         params,
-        // 分解后数值
-        values: [].concat(probs.map((v, i) => Array(params[i]).fill(v)) as any),
-      } as IAttrPowerUpInfo;
+        maxN: params.length ? params[0].length : 1,
+        probs,
+        ratio,
+      };
     });
+    let remainN = maxN;
+    const np = cs
+      .sort((a, b) => a.maxN - b.maxN)
+      .map(v => {
+        const params = v.params.find(v => v.reduce((a, b) => a + b) <= remainN) || Array(maxT).fill(0);
+        const n = params.reduce((a, b) => a + b);
+        remainN -= n - 1;
+        return {
+          ...v,
+          params,
+          n,
+          values: v.probs
+            .map<[number, number, number]>((u, i) => [maxT - i, u / v.ratio, params[i]])
+            .filter(v => v[2]),
+        };
+      })
+      .sort((a, b) => a.index - b.index)
+      .map(v => {
+        const tier = v.values.reduce((a, b) => a + b[0], 0) / v.values.length;
+        const tierR = Math.round(tier);
+        const plus = tier === tierR ? "" : tier > tierR ? "+" : "-";
+        const res: IAttrPowerUpInfo = {
+          type: v.type,
+          value: v.value,
+          tier: tierR + plus,
+          params: v.params,
+          values: v.values,
+          n: v.n,
+        };
+        return res;
+      });
+
+    return np;
   }
 
   /**
@@ -110,7 +155,7 @@ export class Artifact implements IArtifact {
       const subWeights = ARTIFACT.SUB_PROPERTY_WEIGHT.filter(v => !used.includes(v[0]));
       total = subWeights.reduce((r, [, w]) => r + w, 0) * Math.random();
       const sub = subWeights.find(([, w]) => (total -= w) < 0)![0];
-      const valueRange = ARTIFACT.SUB_PROPERTY[atype.rarity].find(v => v[0] === sub)![1];
+      const valueRange = ARTIFACT.SUB_PROPERTY[atype.rarity][sub];
       const value = valueRange[~~(Math.random() * valueRange.length)];
       subs.push({ type: sub, value });
     }
@@ -171,6 +216,10 @@ export class Artifact implements IArtifact {
     return this.type.type;
   }
 
+  get rarity() {
+    return this.type.rarity;
+  }
+
   toJSON() {
     const {
       typeId,
@@ -210,23 +259,29 @@ function wnMatrix(w: number, n: number) {
  * @param values 取值范围
  * @param maxN 最大强化次数
  */
-function getNRainbow(values: number[], maxN: number) {
-  const all: number[][] = [].concat(
-    ...(Array(maxN)
-      .fill(0)
-      .map((_, n) => wnMatrix(values.length, n + 1)) as any)
-  );
+const getNRainbow = memoize(
+  (values: number[], maxN: number) => {
+    const all: number[][] = [].concat(
+      ...(Array(maxN)
+        .fill(0)
+        .map((_, n) => wnMatrix(values.length, n + 1)) as any)
+    );
 
-  const vm = new Map(
-    all.map(m => {
+    const amap = all.reduce<{ [x: number]: number[][] }>((r, m) => {
       const val = values.reduce((r, v, i) => r + v * m[i], 0);
-      return [+val.toFixed(1), m];
-    })
-  );
+      const k = +val.toFixed(0);
+      if (k in r) r[k].push(m);
+      else r[k] = [m];
+      return r;
+    }, {});
 
-  return vm;
-}
-interface IAttrPowerUpInfo extends IAttr {
+    return amap;
+  },
+  (values: number[], maxN: number) => values.join(",") + "-" + maxN
+);
+export interface IAttrPowerUpInfo extends IAttr {
+  tier: string;
   params: number[];
-  values: number[];
+  values: [number, number, number][];
+  n: number;
 }

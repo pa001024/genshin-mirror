@@ -4,7 +4,7 @@
     <v-card class="avatar-filter mb-3">
       <v-card-text>
         <v-combobox v-model="filterOptions" :items="filters" :label="$t('ui.filter')" multiple chips clearable :item-value="d => d.prop + '=' + d.value">
-          <template v-slot:selection="{ attrs, item, parent, selected }">
+          <template #selection="{ attrs, item, parent, selected }">
             <v-chip v-bind="attrs" :color="`${item.color} lighten-3`" :input-value="selected" label small>
               <span class="pr-2">
                 {{ item.text }}
@@ -45,12 +45,12 @@ interface FilterOption {
   // server
   async asyncData({ $content, app }) {
     const rst: Partial<Page> = { data: null };
-    const res = (await $content(app.i18n.locale, "char")
-      .only(["id", "name", "localeName", "region", "element", "gender", "rarity", "weapon"])
+    const res = await $content(app.i18n.locale, "char")
+      .only(["id", "name", "localeName", "region", "element", "rarity", "weapon"])
       .sortBy("region", "asc")
-      .fetch()
-      .catch()) as any;
-    rst.data = res;
+      .fetch<IAvatar>()
+      .catch(console.error);
+    if (Array.isArray(res)) rst.data = res;
     return rst;
   },
   // set html header
@@ -69,10 +69,6 @@ export default class Page extends Vue {
     return [...new Set(this.data?.map(v => v.region) || [])].map(v => ({ text: this.$t("region." + v) as string, prop: "region", value: v }));
   }
 
-  // get genders(): FilterOption[] {
-  //   return [0, 1].map(v => ({ text: this.$t("gender." + v) as string, prop: "gender", value: v }));
-  // }
-
   get elements(): FilterOption[] {
     return [...new Set(this.data?.map(v => v.element) || [])].map(v => ({ text: this.$t("element." + v) as string, prop: "element", value: v }));
   }
@@ -90,9 +86,6 @@ export default class Page extends Vue {
       { header: this.$t("region.title") },
       ...this.regions,
       { divider: true },
-      // { header: this.$t("gender.title") },
-      // ...this.genders,
-      // { divider: true },
       { header: this.$t("element.title") },
       ...this.elements,
       { divider: true },
@@ -117,41 +110,3 @@ export default class Page extends Vue {
   }
 }
 </script>
-
-<style lang="less">
-.char-card {
-  && {
-    display: inline-block;
-    width: 106px;
-    position: relative;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-  .char-avatar {
-    justify-items: center;
-    height: 106px;
-    background: var(--white);
-    border-bottom-right-radius: 25px;
-    overflow: hidden;
-
-    .ele-icon {
-      position: absolute;
-      left: 0;
-      top: 0;
-      z-index: 1;
-    }
-    &.rarity-4 {
-      background: #9181bd;
-    }
-    &.rarity-5 {
-      background: #a57c3f;
-    }
-  }
-  .char-name {
-    color: var(--black);
-    text-align: center;
-    padding: 4px 0;
-    font-weight: 600;
-  }
-}
-</style>

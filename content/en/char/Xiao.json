@@ -14,11 +14,7 @@
     {
       "level": 1,
       "itemCost": [
-        {
-          "id": "VayudaTurquoiseSliver",
-          "name": "Vayuda Turquoise Sliver",
-          "count": 1
-        },
+        { "id": "VayudaTurquoiseSliver", "name": "Vayuda Turquoise Sliver", "count": 1 },
         { "id": "Qingxin", "name": "Qingxin", "count": 3 },
         { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 3 }
       ],
@@ -30,11 +26,7 @@
     {
       "level": 2,
       "itemCost": [
-        {
-          "id": "VayudaTurquoiseFragment",
-          "name": "Vayuda Turquoise Fragment",
-          "count": 3
-        },
+        { "id": "VayudaTurquoiseFragment", "name": "Vayuda Turquoise Fragment", "count": 3 },
         { "id": "unknown", "name": "???", "count": 2 },
         { "id": "Qingxin", "name": "Qingxin", "count": 10 },
         { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 15 }
@@ -47,11 +39,7 @@
     {
       "level": 3,
       "itemCost": [
-        {
-          "id": "VayudaTurquoiseFragment",
-          "name": "Vayuda Turquoise Fragment",
-          "count": 6
-        },
+        { "id": "VayudaTurquoiseFragment", "name": "Vayuda Turquoise Fragment", "count": 6 },
         { "id": "unknown", "name": "???", "count": 4 },
         { "id": "Qingxin", "name": "Qingxin", "count": 20 },
         { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 12 }
@@ -64,11 +52,7 @@
     {
       "level": 4,
       "itemCost": [
-        {
-          "id": "VayudaTurquoiseChunk",
-          "name": "Vayuda Turquoise Chunk",
-          "count": 3
-        },
+        { "id": "VayudaTurquoiseChunk", "name": "Vayuda Turquoise Chunk", "count": 3 },
         { "id": "unknown", "name": "???", "count": 8 },
         { "id": "Qingxin", "name": "Qingxin", "count": 30 },
         { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 18 }
@@ -81,11 +65,7 @@
     {
       "level": 5,
       "itemCost": [
-        {
-          "id": "VayudaTurquoiseChunk",
-          "name": "Vayuda Turquoise Chunk",
-          "count": 6
-        },
+        { "id": "VayudaTurquoiseChunk", "name": "Vayuda Turquoise Chunk", "count": 6 },
         { "id": "unknown", "name": "???", "count": 12 },
         { "id": "Qingxin", "name": "Qingxin", "count": 45 },
         { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 12 }
@@ -98,11 +78,7 @@
     {
       "level": 6,
       "itemCost": [
-        {
-          "id": "VayudaTurquoiseGemstone",
-          "name": "Vayuda Turquoise Gemstone",
-          "count": 6
-        },
+        { "id": "VayudaTurquoiseGemstone", "name": "Vayuda Turquoise Gemstone", "count": 6 },
         { "id": "unknown", "name": "???", "count": 20 },
         { "id": "Qingxin", "name": "Qingxin", "count": 60 },
         { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 24 }
@@ -143,13 +119,7 @@
     "desc": "Xiao dons the Yaksha Mask that set gods and demons trembling millennia ago.\n\n<color=#FFD780FF>Yaksha's Mask</color>\n·Greatly increases Xiao's jumping ability.\n·Increases his attack AoE and attack DMG.\n·Converts attack DMG into <color=#80FFD7FF>Anemo DMG</color>, which cannot be overridden by any other elemental infusion.\n\nIn this state, Xiao will continuously lose HP.\nThe effects of this skill end when Xiao leaves the field.\n\n<i>Donning the mask of the yaksha, Xiao becomes the Conqueror of Demons. But this great power has also brought him great suffering. Some call him \"The Bane of All Evil.\"</i>",
     "cd": 20,
     "energyCost": 80,
-    "paramTpls": [
-      "Normal Attack/Charged Attack DMG Bonus|{param1:F1P}",
-      "Life Drain|{param2:F1P} Current HP Per Second",
-      "Duration|{param3:F1}s",
-      "CD|{param4:F1}s",
-      "Energy Cost|{param5:I}"
-    ],
+    "paramTpls": ["Normal Attack/Charged Attack DMG Bonus|{param1:F1P}", "Life Drain|{param2:F1P} Current HP Per Second", "Duration|{param3:F1}s", "CD|{param4:F1}s", "Energy Cost|{param5:I}"],
     "paramVals": [
       [0.62625, 0.03, 15, 20, 80],
       [0.66375, 0.03, 15, 20, 80],
@@ -183,229 +153,47 @@
       "Low/High Plunge DMG|{param10:P}/{param11:P}"
     ],
     "paramVals": [
-      [
-        0.27544,
-        0.27544,
-        0.56936,
-        0.68552,
-        0.37664,
-        0.37664,
-        0.71544,
-        0.95832,
-        0.72688,
-        1.4538,
-        1.8172
-      ],
-      [
-        0.29422,
-        0.29422,
-        0.60818,
-        0.73226,
-        0.40232,
-        0.40232,
-        0.76422,
-        1.0237,
-        0.77644,
-        1.5529,
-        1.9411
-      ],
-      [
-        0.313,
-        0.313,
-        0.647,
-        0.779,
-        0.428,
-        0.428,
-        0.813,
-        1.089,
-        0.826,
-        1.652,
-        2.065
-      ],
-      [
-        0.33804,
-        0.33804,
-        0.69876,
-        0.84132,
-        0.46224,
-        0.46224,
-        0.87804,
-        1.1761,
-        0.89208,
-        1.7842,
-        2.2302
-      ],
-      [
-        0.35682,
-        0.35682,
-        0.73758,
-        0.88806,
-        0.48792,
-        0.48792,
-        0.92682,
-        1.2415,
-        0.94164,
-        1.8833,
-        2.3541
-      ],
-      [
-        0.37873,
-        0.37873,
-        0.78287,
-        0.94259,
-        0.51788,
-        0.51788,
-        0.98373,
-        1.3177,
-        0.99946,
-        1.9989,
-        2.4987
-      ],
-      [
-        0.4069,
-        0.4069,
-        0.8411,
-        1.0127,
-        0.5564,
-        0.5564,
-        1.0569,
-        1.4157,
-        1.0738,
-        2.1476,
-        2.6845
-      ],
-      [
-        0.43507,
-        0.43507,
-        0.89933,
-        1.0828,
-        0.59492,
-        0.59492,
-        1.1301,
-        1.5137,
-        1.1481,
-        2.2963,
-        2.8703
-      ],
-      [
-        0.46324,
-        0.46324,
-        0.95756,
-        1.1529,
-        0.63344,
-        0.63344,
-        1.2032,
-        1.6117,
-        1.2225,
-        2.445,
-        3.0562
-      ],
-      [
-        0.49141,
-        0.49141,
-        1.0158,
-        1.223,
-        0.67196,
-        0.67196,
-        1.2764,
-        1.7097,
-        1.2968,
-        2.5936,
-        3.242
-      ],
-      [
-        0.51958,
-        0.51958,
-        1.074,
-        1.2931,
-        0.71048,
-        0.71048,
-        1.3496,
-        1.8077,
-        1.3712,
-        2.7423,
-        3.4279
-      ],
-      [
-        0.54775,
-        0.54775,
-        1.1322,
-        1.3633,
-        0.749,
-        0.749,
-        1.4227,
-        1.9058,
-        1.4455,
-        2.891,
-        3.6137
-      ],
-      [
-        0.57592,
-        0.57592,
-        1.1905,
-        1.4334,
-        0.78752,
-        0.78752,
-        1.4959,
-        2.0038,
-        1.5198,
-        3.0397,
-        3.7996
-      ],
-      [
-        0.60409,
-        0.60409,
-        1.2487,
-        1.5035,
-        0.82604,
-        0.82604,
-        1.5691,
-        2.1018,
-        1.5942,
-        3.1884,
-        3.9855
-      ],
-      [
-        0.63226,
-        0.63226,
-        1.3069,
-        1.5736,
-        0.86456,
-        0.86456,
-        1.6423,
-        2.1998,
-        1.6685,
-        3.337,
-        4.1713
-      ]
+      [0.27544, 0.27544, 0.56936, 0.68552, 0.37664, 0.37664, 0.71544, 0.95832, 0.72688, 1.4538, 1.8172],
+      [0.29422, 0.29422, 0.60818, 0.73226, 0.40232, 0.40232, 0.76422, 1.0237, 0.77644, 1.5529, 1.9411],
+      [0.313, 0.313, 0.647, 0.779, 0.428, 0.428, 0.813, 1.089, 0.826, 1.652, 2.065],
+      [0.33804, 0.33804, 0.69876, 0.84132, 0.46224, 0.46224, 0.87804, 1.1761, 0.89208, 1.7842, 2.2302],
+      [0.35682, 0.35682, 0.73758, 0.88806, 0.48792, 0.48792, 0.92682, 1.2415, 0.94164, 1.8833, 2.3541],
+      [0.37873, 0.37873, 0.78287, 0.94259, 0.51788, 0.51788, 0.98373, 1.3177, 0.99946, 1.9989, 2.4987],
+      [0.4069, 0.4069, 0.8411, 1.0127, 0.5564, 0.5564, 1.0569, 1.4157, 1.0738, 2.1476, 2.6845],
+      [0.43507, 0.43507, 0.89933, 1.0828, 0.59492, 0.59492, 1.1301, 1.5137, 1.1481, 2.2963, 2.8703],
+      [0.46324, 0.46324, 0.95756, 1.1529, 0.63344, 0.63344, 1.2032, 1.6117, 1.2225, 2.445, 3.0562],
+      [0.49141, 0.49141, 1.0158, 1.223, 0.67196, 0.67196, 1.2764, 1.7097, 1.2968, 2.5936, 3.242],
+      [0.51958, 0.51958, 1.074, 1.2931, 0.71048, 0.71048, 1.3496, 1.8077, 1.3712, 2.7423, 3.4279],
+      [0.54775, 0.54775, 1.1322, 1.3633, 0.749, 0.749, 1.4227, 1.9058, 1.4455, 2.891, 3.6137],
+      [0.57592, 0.57592, 1.1905, 1.4334, 0.78752, 0.78752, 1.4959, 2.0038, 1.5198, 3.0397, 3.7996],
+      [0.60409, 0.60409, 1.2487, 1.5035, 0.82604, 0.82604, 1.5691, 2.1018, 1.5942, 3.1884, 3.9855],
+      [0.63226, 0.63226, 1.3069, 1.5736, 0.86456, 0.86456, 1.6423, 2.1998, 1.6685, 3.337, 4.1713]
     ]
   },
+  "talents": [
+    {
+      "name": "Conqueror of Evil: Tamer of Demons",
+      "desc": "While under the effects of <color=#FFD780FF>Bane of All Evil</color>, all DMG dealt by Xiao increases by 5%. DMG increases by a further 5% for every 3s the ability persists.\nThe maximum DMG Bonus is 25%.",
+      "unlock": 1,
+      "values": [0.05]
+    },
+    {
+      "name": "Dissolution Eon: Heaven Fall",
+      "desc": "Using <color=#FFD780FF>Lemniscatic Wind Cycling</color> increases the DMG of subsequent uses of Lemniscatic Wind Cycling by 15%.\nThis effect lasts for 6s, and has a maximum of 3 stacks. Gaining a new stack refreshes the effect's duration.",
+      "unlock": 4,
+      "values": [6, 0.15, 3]
+    },
+    {
+      "name": "Transcension: Gravity Defier",
+      "desc": "Decreases climbing Stamina consumption for your own party members by 20%, and decreases fall DMG by 50%.\nNot stackable with Passive Talents that provide the exact same effects."
+    }
+  ],
   "c13ns": [
-    {
-      "name": "Dissolution Eon: Destroyer of Worlds",
-      "desc": "Increases <color=#FFD780FF>Lemniscatic Wind Cycling</color>'s charges by 1.",
-      "values": []
-    },
-    {
-      "name": "Annihilation Eon: Blossom of Kaleidos",
-      "desc": "When in the party and not on the field, Xiao's Energy Recharge is increased by 25%.",
-      "values": [0.25]
-    },
-    {
-      "name": "Conqueror of Evil: Wrath Deity",
-      "desc": "Increases the Level of <color=#FFD780FF>Lemniscatic Wind Cycling</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
-    {
-      "name": "Transcension: Extinction of Suffering",
-      "desc": "When Xiao's HP falls below 50%, he gains a 100% DEF Bonus.",
-      "values": [0.5, 1]
-    },
-    {
-      "name": "Evolution Eon: Origin of Ignorance",
-      "desc": "Increases the Level of <color=#FFD780FF>Bane of All Evil</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
+    { "name": "Dissolution Eon: Destroyer of Worlds", "desc": "Increases <color=#FFD780FF>Lemniscatic Wind Cycling</color>'s charges by 1." },
+    { "name": "Annihilation Eon: Blossom of Kaleidos", "desc": "When in the party and not on the field, Xiao's Energy Recharge is increased by 25%.", "values": [0.25] },
+    { "name": "Conqueror of Evil: Wrath Deity", "desc": "Increases the Level of <color=#FFD780FF>Lemniscatic Wind Cycling</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "Transcension: Extinction of Suffering", "desc": "When Xiao's HP falls below 50%, he gains a 100% DEF Bonus.", "values": [0.5, 1] },
+    { "name": "Evolution Eon: Origin of Ignorance", "desc": "Increases the Level of <color=#FFD780FF>Bane of All Evil</color> by 3.\nMaximum upgrade level is 15." },
     {
       "name": "Conqueror of Evil: Guardian Yaksha",
       "desc": "While under the effects of <color=#FFD780FF>Bane of All Evil</color>, hitting at least 2 opponents with Xiao's Plunging Attack will immediately grant him 1 charge of <color=#FFD780FF>Lemniscatic Wind Cycling</color>, and for the next 1s, he may use Lemniscatic Wind Cycling while ignoring its CD.",

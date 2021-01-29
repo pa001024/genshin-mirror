@@ -105,7 +105,7 @@
             <v-list-item two-line>
               <v-list-item-content>
                 <v-list-item-subtitle v-text="$t(`buff.${data.ascensionType}`)" />
-                <v-list-item-title class="headline" v-text="P(char.extra)" />
+                <v-list-item-title class="headline" v-text="TP(data.ascensionType, char.extra)" />
               </v-list-item-content>
             </v-list-item>
           </v-col>
@@ -120,6 +120,8 @@
         <v-tabs v-model="skillTab">
           <v-tabs-slider />
           <v-tab v-for="type in skillTypes" :key="type" :href="'#' + type">{{ $t(`ui.${type}`) }}</v-tab>
+          <v-tab href="#talent">{{ $t("ui.talent") }}</v-tab>
+          <v-tab href="#c13ns">{{ $t("ui.c13ns") }}</v-tab>
         </v-tabs>
         <v-tabs-items v-model="skillTab">
           <v-tab-item v-for="(skillType, sindex) in skillTypes" :key="skillType" :value="skillType">
@@ -141,6 +143,30 @@
               </v-card-text>
             </v-card>
           </v-tab-item>
+          <v-tab-item value="talent">
+            <v-card v-for="tal in data.talents" :key="tal.name" flat>
+              <v-card-title class="headline">{{ tal.name }}</v-card-title>
+              <v-card-text>
+                <div v-if="tal.unlock" class="unlock">
+                  <v-icon>mdi-lock-open</v-icon>
+                  {{ $t("ui.promoteLevel") }} {{ tal.unlock }}
+                </div>
+                <div class="desc" v-html="parseDesc(tal.desc)" />
+              </v-card-text>
+            </v-card>
+          </v-tab-item>
+          <v-tab-item value="c13ns">
+            <v-card v-for="(c13n, unlock) in data.c13ns" :key="c13n.name" flat>
+              <v-card-title class="headline">{{ c13n.name }}</v-card-title>
+              <v-card-text>
+                <div class="unlock">
+                  <v-icon>mdi-lock-open</v-icon>
+                  {{ $t("ui.c13nsFormat", [unlock + 1]) }}
+                </div>
+                <div class="desc" v-html="parseDesc(c13n.desc)" />
+              </v-card-text>
+            </v-card>
+          </v-tab-item>
         </v-tabs-items>
       </v-card>
     </div>
@@ -150,7 +176,7 @@
 
 <script lang="ts">
 import { Vue, Component, Watch } from "vue-property-decorator";
-import { Avatar, IAvatar, ISkill } from "~/modules/core";
+import { ARTIFACT, Avatar, IAvatar, ISkill } from "~/modules/core";
 
 @Component<Page>({
   // server
@@ -196,6 +222,14 @@ export default class Page extends Vue {
 
   FP(n = 0, p = 1) {
     return (n * 100).toFixed(p) + "%";
+  }
+
+  TP(type: number, value: number) {
+    if (type in ARTIFACT.ENCODE_RATIO) {
+      return value.toFixed(0);
+    } else {
+      return (value * 100).toFixed(1) + "%";
+    }
   }
 
   parseDesc(str: string) {

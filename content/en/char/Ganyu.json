@@ -14,17 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        {
-          "id": "ShivadaJadeSliver",
-          "name": "Shivada Jade Sliver",
-          "count": 1
-        },
+        { "id": "ShivadaJadeSliver", "name": "Shivada Jade Sliver", "count": 1 },
         { "id": "Qingxin", "name": "Qingxin", "count": 3 },
-        {
-          "id": "WhopperflowerNectar",
-          "name": "Whopperflower Nectar",
-          "count": 3
-        }
+        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 3 }
       ],
       "HP": 653.91,
       "ATK": 22.349,
@@ -34,18 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        {
-          "id": "ShivadaJadeFragment",
-          "name": "Shivada Jade Fragment",
-          "count": 3
-        },
+        { "id": "ShivadaJadeFragment", "name": "Shivada Jade Fragment", "count": 3 },
         { "id": "HoarfrostCore", "name": "Hoarfrost Core", "count": 2 },
         { "id": "Qingxin", "name": "Qingxin", "count": 10 },
-        {
-          "id": "WhopperflowerNectar",
-          "name": "Whopperflower Nectar",
-          "count": 15
-        }
+        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 15 }
       ],
       "HP": 1118.5,
       "ATK": 38.229,
@@ -55,11 +39,7 @@
     {
       "level": 3,
       "itemCost": [
-        {
-          "id": "ShivadaJadeFragment",
-          "name": "Shivada Jade Fragment",
-          "count": 6
-        },
+        { "id": "ShivadaJadeFragment", "name": "Shivada Jade Fragment", "count": 6 },
         { "id": "HoarfrostCore", "name": "Hoarfrost Core", "count": 4 },
         { "id": "Qingxin", "name": "Qingxin", "count": 20 },
         { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 12 }
@@ -98,11 +78,7 @@
     {
       "level": 6,
       "itemCost": [
-        {
-          "id": "ShivadaJadeGemstone",
-          "name": "Shivada Jade Gemstone",
-          "count": 6
-        },
+        { "id": "ShivadaJadeGemstone", "name": "Shivada Jade Gemstone", "count": 6 },
         { "id": "HoarfrostCore", "name": "Hoarfrost Core", "count": 20 },
         { "id": "Qingxin", "name": "Qingxin", "count": 60 },
         { "id": "EnergyNectar", "name": "Energy Nectar", "count": 24 }
@@ -119,12 +95,7 @@
     "name": "Trail of the Qilin",
     "desc": "Leaving a single Ice Lotus behind, Ganyu dashes backward, shunning all impurity and dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\n\n<color=#FFD780FF>Ice Lotus</color>\n·Continuously taunts surrounding opponents, attracting them to attack it.\n·Endurance scales based on Ganyu's Max HP.\n·Blooms profusely when destroyed or once its duration ends, dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\n\n<i>\"You saw me, you say? You must be mistaken. I was working overtime then.\"</i>",
     "cd": 10,
-    "paramTpls": [
-      "Inherited HP|{param1:P}",
-      "Skill DMG|{param2:P}",
-      "Duration|{param3:F1}s",
-      "CD|{param4:F1}s"
-    ],
+    "paramTpls": ["Inherited HP|{param1:P}", "Skill DMG|{param2:P}", "Duration|{param3:F1}s", "CD|{param4:F1}s"],
     "paramVals": [
       [1.2, 1.32, 6, 10],
       [1.29, 1.419, 6, 10],
@@ -148,12 +119,7 @@
     "desc": "Coalesces atmospheric frost and snow to summon a Sacred Cryo Pearl that exorcises evil.\nDuring its ability duration, the Sacred Cryo Pearl will continuously rain down shards of ice, striking opponents within an AoE and dealing <color=#99FFFFFF>Cryo DMG</color>.\n\n<i>Ganyu can bring down sweet rains as a matter of course. But against demons and heretics, they become bitter, freezing snow.</i>",
     "cd": 15,
     "energyCost": 60,
-    "paramTpls": [
-      "Ice Shard DMG|{param1:P}",
-      "Duration|{param2:F1}s",
-      "CD|{param3:F1}s",
-      "Energy Cost|{param4:I}"
-    ],
+    "paramTpls": ["Ice Shard DMG|{param1:P}", "Duration|{param2:F1}s", "CD|{param3:F1}s", "Energy Cost|{param4:I}"],
     "paramVals": [
       [0.70272, 15, 15, 60],
       [0.75542, 15, 15, 60],
@@ -191,263 +157,51 @@
       "Low/High Plunge DMG|{param12:P}/{param13:P}"
     ],
     "paramVals": [
-      [
-        0.31734,
-        0.35604,
-        0.45494,
-        0.45494,
-        0.48246,
-        0.5762,
-        0.4386,
-        1.24,
-        1.28,
-        2.176,
-        0.56829,
-        1.1363,
-        1.4193
-      ],
-      [
-        0.34317,
-        0.38502,
-        0.49197,
-        0.49197,
-        0.52173,
-        0.6231,
-        0.4743,
-        1.333,
-        1.376,
-        2.3392,
-        0.61454,
-        1.2288,
-        1.5349
-      ],
-      [
-        0.369,
-        0.414,
-        0.529,
-        0.529,
-        0.561,
-        0.67,
-        0.51,
-        1.426,
-        1.472,
-        2.5024,
-        0.6608,
-        1.3213,
-        1.6504
-      ],
-      [
-        0.4059,
-        0.4554,
-        0.5819,
-        0.5819,
-        0.6171,
-        0.737,
-        0.561,
-        1.55,
-        1.6,
-        2.72,
-        0.72688,
-        1.4535,
-        1.8154
-      ],
-      [
-        0.43173,
-        0.48438,
-        0.61893,
-        0.61893,
-        0.65637,
-        0.7839,
-        0.5967,
-        1.643,
-        1.696,
-        2.8832,
-        0.77314,
-        1.5459,
-        1.931
-      ],
-      [
-        0.46125,
-        0.5175,
-        0.66125,
-        0.66125,
-        0.70125,
-        0.8375,
-        0.6375,
-        1.736,
-        1.792,
-        3.0464,
-        0.826,
-        1.6516,
-        2.063
-      ],
-      [
-        0.50184,
-        0.56304,
-        0.71944,
-        0.71944,
-        0.76296,
-        0.9112,
-        0.6936,
-        1.86,
-        1.92,
-        3.264,
-        0.89869,
-        1.797,
-        2.2445
-      ],
-      [
-        0.54243,
-        0.60858,
-        0.77763,
-        0.77763,
-        0.82467,
-        0.9849,
-        0.7497,
-        1.984,
-        2.048,
-        3.4816,
-        0.97138,
-        1.9423,
-        2.4261
-      ],
-      [
-        0.58302,
-        0.65412,
-        0.83582,
-        0.83582,
-        0.88638,
-        1.0586,
-        0.8058,
-        2.108,
-        2.176,
-        3.6992,
-        1.0441,
-        2.0877,
-        2.6076
-      ],
-      [
-        0.6273,
-        0.7038,
-        0.8993,
-        0.8993,
-        0.9537,
-        1.139,
-        0.867,
-        2.232,
-        2.304,
-        3.9168,
-        1.1234,
-        2.2462,
-        2.8057
-      ],
-      [
-        0.67804,
-        0.76073,
-        0.97204,
-        0.97204,
-        1.0308,
-        1.2311,
-        0.9282,
-        2.356,
-        2.432,
-        4.1344,
-        1.2027,
-        2.4048,
-        3.0037
-      ],
-      [
-        0.7377,
-        0.82767,
-        1.0576,
-        1.0576,
-        1.1216,
-        1.3395,
-        0.9894,
-        2.48,
-        2.56,
-        4.352,
-        1.282,
-        2.5634,
-        3.2018
-      ],
-      [
-        0.79737,
-        0.89461,
-        1.1431,
-        1.1431,
-        1.2123,
-        1.4478,
-        1.0506,
-        2.635,
-        2.72,
-        4.624,
-        1.3612,
-        2.7219,
-        3.3998
-      ],
-      [
-        0.85704,
-        0.96156,
-        1.2287,
-        1.2287,
-        1.303,
-        1.5561,
-        1.1118,
-        2.79,
-        2.88,
-        4.896,
-        1.4405,
-        2.8805,
-        3.5979
-      ],
-      [
-        0.92213,
-        1.0346,
-        1.322,
-        1.322,
-        1.4019,
-        1.6743,
-        1.173,
-        2.945,
-        3.04,
-        5.168,
-        1.5198,
-        3.039,
-        3.7959
-      ]
+      [0.31734, 0.35604, 0.45494, 0.45494, 0.48246, 0.5762, 0.4386, 1.24, 1.28, 2.176, 0.56829, 1.1363, 1.4193],
+      [0.34317, 0.38502, 0.49197, 0.49197, 0.52173, 0.6231, 0.4743, 1.333, 1.376, 2.3392, 0.61454, 1.2288, 1.5349],
+      [0.369, 0.414, 0.529, 0.529, 0.561, 0.67, 0.51, 1.426, 1.472, 2.5024, 0.6608, 1.3213, 1.6504],
+      [0.4059, 0.4554, 0.5819, 0.5819, 0.6171, 0.737, 0.561, 1.55, 1.6, 2.72, 0.72688, 1.4535, 1.8154],
+      [0.43173, 0.48438, 0.61893, 0.61893, 0.65637, 0.7839, 0.5967, 1.643, 1.696, 2.8832, 0.77314, 1.5459, 1.931],
+      [0.46125, 0.5175, 0.66125, 0.66125, 0.70125, 0.8375, 0.6375, 1.736, 1.792, 3.0464, 0.826, 1.6516, 2.063],
+      [0.50184, 0.56304, 0.71944, 0.71944, 0.76296, 0.9112, 0.6936, 1.86, 1.92, 3.264, 0.89869, 1.797, 2.2445],
+      [0.54243, 0.60858, 0.77763, 0.77763, 0.82467, 0.9849, 0.7497, 1.984, 2.048, 3.4816, 0.97138, 1.9423, 2.4261],
+      [0.58302, 0.65412, 0.83582, 0.83582, 0.88638, 1.0586, 0.8058, 2.108, 2.176, 3.6992, 1.0441, 2.0877, 2.6076],
+      [0.6273, 0.7038, 0.8993, 0.8993, 0.9537, 1.139, 0.867, 2.232, 2.304, 3.9168, 1.1234, 2.2462, 2.8057],
+      [0.67804, 0.76073, 0.97204, 0.97204, 1.0308, 1.2311, 0.9282, 2.356, 2.432, 4.1344, 1.2027, 2.4048, 3.0037],
+      [0.7377, 0.82767, 1.0576, 1.0576, 1.1216, 1.3395, 0.9894, 2.48, 2.56, 4.352, 1.282, 2.5634, 3.2018],
+      [0.79737, 0.89461, 1.1431, 1.1431, 1.2123, 1.4478, 1.0506, 2.635, 2.72, 4.624, 1.3612, 2.7219, 3.3998],
+      [0.85704, 0.96156, 1.2287, 1.2287, 1.303, 1.5561, 1.1118, 2.79, 2.88, 4.896, 1.4405, 2.8805, 3.5979],
+      [0.92213, 1.0346, 1.322, 1.322, 1.4019, 1.6743, 1.173, 2.945, 3.04, 5.168, 1.5198, 3.039, 3.7959]
     ]
   },
+  "talents": [
+    {
+      "name": "Undivided Heart",
+      "desc": "After firing a Frostflake Arrow, the CRIT Rate of subsequent Frostflake Arrows and their resulting bloom effects is increased by 20% for 5s.",
+      "unlock": 1,
+      "values": [5, 0.2]
+    },
+    {
+      "name": "Harmony between Heaven and Earth",
+      "desc": "<color=#FFD780FF>Celestial Shower</color> grants a 20% <color=#99FFFFFF>Cryo DMG Bonus</color> to active party members in the AoE.",
+      "unlock": 4,
+      "values": [0.2]
+    },
+    { "name": "Preserved for the Hunt", "desc": "Refunds 15% of the ores used when crafting Bow-type weapons." }
+  ],
   "c13ns": [
     {
       "name": "Dew-Drinker",
-      "desc": "Taking DMG from a Charge Level 2 Frostflake Arrow or Frostflake Arrow Bloom decreases opponents' <color=#99FFFFFF>Cryo RES</color> by 15% for 6s.\\nA hit regenerates 2 Energy for Ganyu. This effect can only occur once per Charge Level 2 Frostflake Arrow, regardless if Frostflake Arrow itself or its Bloom hit the target.",
+      "desc": "Taking DMG from a Charge Level 2 Frostflake Arrow or Frostflake Arrow Bloom decreases opponents' <color=#99FFFFFF>Cryo RES</color> by 15% for 6s.\nA hit regenerates 2 Energy for Ganyu. This effect can only occur once per Charge Level 2 Frostflake Arrow, regardless if Frostflake Arrow itself or its Bloom hit the target.",
       "values": [-0.15, 6, 2]
     },
-    {
-      "name": "The Auspicious",
-      "desc": "<color=#FFD780FF>Trail of the Qilin</color> gains 1 additional charge.",
-      "values": []
-    },
-    {
-      "name": "Cloud-Strider",
-      "desc": "Increases the Level of <color=#FFD780FF>Celestial Shower</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
+    { "name": "The Auspicious", "desc": "<color=#FFD780FF>Trail of the Qilin</color> gains 1 additional charge." },
+    { "name": "Cloud-Strider", "desc": "Increases the Level of <color=#FFD780FF>Celestial Shower</color> by 3.\nMaximum upgrade level is 15." },
     {
       "name": "Westward Sojourn",
-      "desc": "Opponents standing within the AoE of <color=#FFD780FF>Celestial Shower</color> take increased DMG. This effect strengthens over time.\\nIncreased DMG taken begins at 5% and increases by 5% every 3s, up to a maximum of 25%.\\nThe effect lingers for 3s after the opponent leaves the AoE.",
-      "values": []
+      "desc": "Opponents standing within the AoE of <color=#FFD780FF>Celestial Shower</color> take increased DMG. This effect strengthens over time.\nIncreased DMG taken begins at 5% and increases by 5% every 3s, up to a maximum of 25%.\nThe effect lingers for 3s after the opponent leaves the AoE."
     },
-    {
-      "name": "The Merciful",
-      "desc": "Increases the Level of <color=#FFD780FF>Trail of the Qilin</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
-    {
-      "name": "The Clement",
-      "desc": "Using <color=#FFD780FF>Trail of the Qilin</color> causes the next Frostflake Arrow shot within 30s to not require charging.",
-      "values": []
-    }
+    { "name": "The Merciful", "desc": "Increases the Level of <color=#FFD780FF>Trail of the Qilin</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "The Clement", "desc": "Using <color=#FFD780FF>Trail of the Qilin</color> causes the next Frostflake Arrow shot within 30s to not require charging." }
   ]
 }

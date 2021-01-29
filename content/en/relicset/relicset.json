@@ -2,307 +2,176 @@
   {
     "id": 10001,
     "name": "Resolution of Sojourner",
-    "need": [2, 4],
-    "affixs": [
-      {
-        "desc": "ATK +18%.",
-        "attrs": [{ "type": 7, "value": 0.18 }],
-        "params": []
-      },
-      { "desc": "ATK +18%.", "attrs": [], "params": [0.3] }
+    "levels": [
+      { "need": 2, "desc": "ATK +18%.", "attrs": [{ "type": 7, "value": 0.18 }], "params": [] },
+      { "need": 4, "desc": "Increases Charged Attack CRIT Rate by 30%.", "attrs": [], "params": [0.3] }
     ]
   },
   {
     "id": 10002,
     "name": "Brave Heart",
-    "need": [2, 4],
-    "affixs": [
-      {
-        "desc": "ATK +18%.",
-        "attrs": [{ "type": 7, "value": 0.18 }],
-        "params": []
-      },
-      { "desc": "ATK +18%.", "attrs": [], "params": [0.3, 0.5] }
+    "levels": [
+      { "need": 2, "desc": "ATK +18%.", "attrs": [{ "type": 7, "value": 0.18 }], "params": [] },
+      { "need": 4, "desc": "Increases DMG by 30% against opponents with more than 50% HP.", "attrs": [], "params": [0.3, 0.5] }
     ]
   },
   {
     "id": 10003,
     "name": "Defender's Will",
-    "need": [2, 4],
-    "affixs": [
-      {
-        "desc": "DEF +30%",
-        "attrs": [{ "type": 9, "value": 0.3 }],
-        "params": []
-      },
-      { "desc": "DEF +30%", "attrs": [], "params": [0.3] }
+    "levels": [
+      { "need": 2, "desc": "DEF +30%", "attrs": [{ "type": 9, "value": 0.3 }], "params": [] },
+      { "need": 4, "desc": "For each different element present in your own party, the wearer's Elemental RES to that corresponding element is increased by 30%.", "attrs": [], "params": [0.3] }
     ]
   },
   {
     "id": 10004,
     "name": "Tiny Miracle",
-    "need": [2, 4],
-    "affixs": [
-      {
-        "desc": "All Elemental RES increased by 20%.",
-        "attrs": [],
-        "params": [0.2]
-      },
-      {
-        "desc": "All Elemental RES increased by 20%.",
-        "attrs": [],
-        "params": [0.3, 10, 10]
-      }
+    "levels": [
+      { "need": 2, "desc": "All Elemental RES increased by 20%.", "attrs": [], "params": [0.2] },
+      { "need": 4, "desc": "Incoming elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s.", "attrs": [], "params": [0.3, 10, 10] }
     ]
   },
   {
     "id": 10005,
     "name": "Berserker",
-    "need": [2, 4],
-    "affixs": [
-      {
-        "desc": "CRIT Rate +12%",
-        "attrs": [{ "type": 12, "value": 0.12 }],
-        "params": []
-      },
-      { "desc": "CRIT Rate +12%", "attrs": [], "params": [0.24, 0.7] }
+    "levels": [
+      { "need": 2, "desc": "CRIT Rate +12%", "attrs": [{ "type": 12, "value": 0.12 }], "params": [] },
+      { "need": 4, "desc": "When HP is below 70%, CRIT Rate increases by an additional 24%.", "attrs": [], "params": [0.24, 0.7] }
     ]
   },
   {
     "id": 10006,
     "name": "Martial Artist",
-    "need": [2, 4],
-    "affixs": [
-      {
-        "desc": "Increases Normal Attack and Charged Attack DMG by 15%.",
-        "attrs": [],
-        "params": [0.15]
-      },
-      {
-        "desc": "Increases Normal Attack and Charged Attack DMG by 15%.",
-        "attrs": [],
-        "params": [8, 1, 0.25]
-      }
+    "levels": [
+      { "need": 2, "desc": "Increases Normal Attack and Charged Attack DMG by 15%.", "attrs": [], "params": [0.15] },
+      { "need": 4, "desc": "After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 25% for 8s.", "attrs": [], "params": [8, 1, 0.25] }
     ]
   },
   {
     "id": 10007,
     "name": "Instructor",
-    "need": [2, 4],
-    "affixs": [
-      {
-        "desc": "Increases Elemental Mastery by 80.",
-        "attrs": [{ "type": 11, "value": 80 }],
-        "params": []
-      },
-      {
-        "desc": "Increases Elemental Mastery by 80.",
-        "attrs": [],
-        "params": [8, 120]
-      }
+    "levels": [
+      { "need": 2, "desc": "Increases Elemental Mastery by 80.", "attrs": [{ "type": 11, "value": 80 }], "params": [] },
+      { "need": 4, "desc": "Upon triggering an Elemental Reaction, increases all party members' Elemental Mastery by 120 for 8s.", "attrs": [], "params": [8, 120] }
     ]
   },
   {
     "id": 10008,
     "name": "Gambler",
-    "need": [2, 4],
-    "affixs": [
-      {
-        "desc": "Increases Elemental Skill DMG by 20%.",
-        "attrs": [],
-        "params": [0.2]
-      },
-      {
-        "desc": "Increases Elemental Skill DMG by 20%.",
-        "attrs": [],
-        "params": [15, 1]
-      }
+    "levels": [
+      { "need": 2, "desc": "Increases Elemental Skill DMG by 20%.", "attrs": [], "params": [0.2] },
+      { "need": 4, "desc": "Defeating an opponent has a 100% chance to remove Elemental Skill CD. Can only occur once every 15s.", "attrs": [], "params": [15, 1] }
     ]
   },
   {
     "id": 10009,
     "name": "The Exile",
-    "need": [2, 4],
-    "affixs": [
-      {
-        "desc": "Energy Recharge +20%",
-        "attrs": [{ "type": 10, "value": 0.2 }],
-        "params": []
-      },
-      { "desc": "Energy Recharge +20%", "attrs": [], "params": [2, 6] }
+    "levels": [
+      { "need": 2, "desc": "Energy Recharge +20%", "attrs": [{ "type": 10, "value": 0.2 }], "params": [] },
+      { "need": 4, "desc": "Using an Elemental Burst regenerates 2 Energy for all party members (excluding the wearer) every 2s for 6s. This effect cannot stack.", "attrs": [], "params": [2, 6] }
     ]
   },
   {
     "id": 10010,
     "name": "Adventurer",
-    "need": [2, 4],
-    "affixs": [
-      {
-        "desc": "Max HP increased by 1000.",
-        "attrs": [{ "type": 4, "value": 1000 }],
-        "params": []
-      },
-      {
-        "desc": "Max HP increased by 1000.",
-        "attrs": [],
-        "params": [5, 1, 0.06]
-      }
+    "levels": [
+      { "need": 2, "desc": "Max HP increased by 1000.", "attrs": [{ "type": 4, "value": 1000 }], "params": [] },
+      { "need": 4, "desc": "Opening a chest regenerates 30% Max HP over 5s.", "attrs": [], "params": [5, 1, 0.06] }
     ]
   },
   {
     "id": 10011,
     "name": "Lucky Dog",
-    "need": [2, 4],
-    "affixs": [
-      {
-        "desc": "DEF increased by 100.",
-        "attrs": [{ "type": 8, "value": 100 }],
-        "params": []
-      },
-      { "desc": "DEF increased by 100.", "attrs": [], "params": [300] }
+    "levels": [
+      { "need": 2, "desc": "DEF increased by 100.", "attrs": [{ "type": 8, "value": 100 }], "params": [] },
+      { "need": 4, "desc": "Picking up Mora restores 300 HP.", "attrs": [], "params": [300] }
     ]
   },
   {
     "id": 10012,
     "name": "Scholar",
-    "need": [2, 4],
-    "affixs": [
-      {
-        "desc": "Energy Recharge +20%",
-        "attrs": [{ "type": 10, "value": 0.2 }],
-        "params": []
-      },
-      { "desc": "Energy Recharge +20%", "attrs": [], "params": [3] }
+    "levels": [
+      { "need": 2, "desc": "Energy Recharge +20%", "attrs": [{ "type": 10, "value": 0.2 }], "params": [] },
+      { "need": 4, "desc": "Gaining Elemental Particles or Orbs gives 3 Energy to all party members who have a bow or a catalyst equipped. Can only occur once every 3s.", "attrs": [], "params": [3] }
     ]
   },
   {
     "id": 10013,
     "name": "Traveling Doctor",
-    "need": [2, 4],
-    "affixs": [
-      {
-        "desc": "Increases incoming healing by 20%.",
-        "attrs": [{ "type": 15, "value": 0.2 }],
-        "params": []
-      },
-      {
-        "desc": "Increases incoming healing by 20%.",
-        "attrs": [],
-        "params": [0.2]
-      }
+    "levels": [
+      { "need": 2, "desc": "Increases incoming healing by 20%.", "attrs": [{ "type": 15, "value": 0.2 }], "params": [] },
+      { "need": 4, "desc": "Using Elemental Burst restores 20% HP.", "attrs": [], "params": [0.2] }
     ]
   },
   {
     "id": 14001,
     "name": "Blizzard Strayer",
-    "need": [2, 4],
-    "affixs": [
+    "levels": [
+      { "need": 2, "desc": "Cryo DMG Bonus +15%", "attrs": [{ "type": 29, "value": 0.15 }], "params": [] },
       {
-        "desc": "Cryo DMG Bonus +15%",
-        "attrs": [{ "type": 29, "value": 0.15 }],
-        "params": []
-      },
-      { "desc": "Cryo DMG Bonus +15%", "attrs": [], "params": [0.2, 0.2] }
+        "need": 4,
+        "desc": "When a character attacks an opponent affected by Cryo, their CRIT Rate is increased by 20%. If the opponent is Frozen, CRIT Rate is increased by an additional 20%.",
+        "attrs": [],
+        "params": [0.2, 0.2]
+      }
     ]
   },
   {
     "id": 14002,
     "name": "Thundersoother",
-    "need": [2, 4],
-    "affixs": [
-      {
-        "desc": "Electro RES increased by 40%.",
-        "attrs": [{ "type": 26, "value": 0.4 }],
-        "params": []
-      },
-      { "desc": "Electro RES increased by 40%.", "attrs": [], "params": [0.35] }
+    "levels": [
+      { "need": 2, "desc": "Electro RES increased by 40%.", "attrs": [{ "type": 26, "value": 0.4 }], "params": [] },
+      { "need": 4, "desc": "Increases DMG against opponents affected by Electro by 35%.", "attrs": [], "params": [0.35] }
     ]
   },
   {
     "id": 14003,
     "name": "Lavawalker",
-    "need": [2, 4],
-    "affixs": [
-      {
-        "desc": "Pyro RES increased by 40%.",
-        "attrs": [{ "type": 20, "value": 0.4 }],
-        "params": []
-      },
-      { "desc": "Pyro RES increased by 40%.", "attrs": [], "params": [0.35] }
+    "levels": [
+      { "need": 2, "desc": "Pyro RES increased by 40%.", "attrs": [{ "type": 20, "value": 0.4 }], "params": [] },
+      { "need": 4, "desc": "Increases DMG against opponents affected by Pyro by 35%.", "attrs": [], "params": [0.35] }
     ]
   },
   {
     "id": 14004,
     "name": "Maiden Beloved",
-    "need": [2, 4],
-    "affixs": [
-      {
-        "desc": "Character Healing Effectiveness +15%",
-        "attrs": [{ "type": 14, "value": 0.15 }],
-        "params": []
-      },
-      {
-        "desc": "Character Healing Effectiveness +15%",
-        "attrs": [],
-        "params": [0.2, 10]
-      }
+    "levels": [
+      { "need": 2, "desc": "Character Healing Effectiveness +15%", "attrs": [{ "type": 14, "value": 0.15 }], "params": [] },
+      { "need": 4, "desc": "Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s.", "attrs": [], "params": [0.2, 10] }
     ]
   },
   {
     "id": 15001,
     "name": "Gladiator's Finale",
-    "need": [2, 4],
-    "affixs": [
-      {
-        "desc": "ATK +18%.",
-        "attrs": [{ "type": 7, "value": 0.18 }],
-        "params": []
-      },
-      { "desc": "ATK +18%.", "attrs": [], "params": [0.35] }
+    "levels": [
+      { "need": 2, "desc": "ATK +18%.", "attrs": [{ "type": 7, "value": 0.18 }], "params": [] },
+      { "need": 4, "desc": "If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%.", "attrs": [], "params": [0.35] }
     ]
   },
   {
     "id": 15002,
     "name": "Viridescent Venerer",
-    "need": [2, 4],
-    "affixs": [
-      {
-        "desc": "Anemo DMG Bonus +15%",
-        "attrs": [{ "type": 27, "value": 0.15 }],
-        "params": []
-      },
-      { "desc": "Anemo DMG Bonus +15%", "attrs": [], "params": [0.6, 0.4, 10] }
+    "levels": [
+      { "need": 2, "desc": "Anemo DMG Bonus +15%", "attrs": [{ "type": 27, "value": 0.15 }], "params": [] },
+      { "need": 4, "desc": "Increases Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s.", "attrs": [], "params": [0.6, 0.4, 10] }
     ]
   },
   {
     "id": 15003,
     "name": "Wanderer's Troupe",
-    "need": [2, 4],
-    "affixs": [
-      {
-        "desc": "Increases Elemental Mastery by 80.",
-        "attrs": [{ "type": 11, "value": 80 }],
-        "params": []
-      },
-      {
-        "desc": "Increases Elemental Mastery by 80.",
-        "attrs": [],
-        "params": [0.35]
-      }
+    "levels": [
+      { "need": 2, "desc": "Increases Elemental Mastery by 80.", "attrs": [{ "type": 11, "value": 80 }], "params": [] },
+      { "need": 4, "desc": "Increases Charged Attack DMG by 35% if the character uses a Catalyst or a Bow.", "attrs": [], "params": [0.35] }
     ]
   },
   {
     "id": 15004,
     "name": "Glacier and Snowfield",
-    "need": [2, 4],
-    "affixs": [
+    "levels": [
+      { "need": 2, "desc": "Cryo DMG Bonus +15%", "attrs": [{ "type": 29, "value": 0.15 }], "params": [] },
       {
-        "desc": "Cryo DMG Bonus +15%",
-        "attrs": [{ "type": 29, "value": 0.15 }],
-        "params": []
-      },
-      {
-        "desc": "Cryo DMG Bonus +15%",
+        "need": 4,
+        "desc": "Increases Superconduct DMG by 100%. Increases Melt DMG by 15%. Using an Elemental Burst increases Cryo DMG Bonus by 30% for 10s.",
         "attrs": [],
         "params": [1, 0.15, 10, 0.3]
       }
@@ -311,28 +180,24 @@
   {
     "id": 15005,
     "name": "Thundering Fury",
-    "need": [2, 4],
-    "affixs": [
+    "levels": [
+      { "need": 2, "desc": "Electro DMG Bonus +15%", "attrs": [{ "type": 25, "value": 0.15 }], "params": [] },
       {
-        "desc": "Electro DMG Bonus +15%",
-        "attrs": [{ "type": 25, "value": 0.15 }],
-        "params": []
-      },
-      { "desc": "Electro DMG Bonus +15%", "attrs": [], "params": [0.4, 0.8] }
+        "need": 4,
+        "desc": "Increases damage caused by Overloaded, Electro-Charged and Superconduct by 40%. Triggering such effects decreases Elemental Skill CD by 1s. Can only occur once every 0.8s.",
+        "attrs": [],
+        "params": [0.4, 0.8]
+      }
     ]
   },
   {
     "id": 15006,
     "name": "Crimson Witch of Flames",
-    "need": [2, 4],
-    "affixs": [
+    "levels": [
+      { "need": 2, "desc": "Pyro DMG Bonus +15%", "attrs": [{ "type": 19, "value": 0.15 }], "params": [] },
       {
-        "desc": "Pyro DMG Bonus +15%",
-        "attrs": [{ "type": 19, "value": 0.15 }],
-        "params": []
-      },
-      {
-        "desc": "Pyro DMG Bonus +15%",
+        "need": 4,
+        "desc": "Increases Overloaded and Burning DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using Elemental Skill increases the 2-Piece Set Bonus by 50% of its starting value for 10s. Max 3 stacks.",
         "attrs": [],
         "params": [0.4, 0.15, 0.15, 0.5, 10]
       }
@@ -341,126 +206,51 @@
   {
     "id": 15007,
     "name": "Noblesse Oblige",
-    "need": [2, 4],
-    "affixs": [
-      { "desc": "Elemental Burst DMG +20%", "attrs": [], "params": [0.2] },
-      { "desc": "Elemental Burst DMG +20%", "attrs": [], "params": [0.2, 12] }
+    "levels": [
+      { "need": 2, "desc": "Elemental Burst DMG +20%", "attrs": [], "params": [0.2] },
+      { "need": 4, "desc": "Using an Elemental Burst increases all party members' ATK by 20% for 12s. This effect cannot stack.", "attrs": [], "params": [0.2, 12] }
     ]
   },
   {
     "id": 15008,
     "name": "Bloodstained Chivalry",
-    "need": [2, 4],
-    "affixs": [
-      {
-        "desc": "Physical DMG +25%",
-        "attrs": [{ "type": 33, "value": 0.25 }],
-        "params": []
-      },
-      { "desc": "Physical DMG +25%", "attrs": [], "params": [10, 0.5, -5, 0.1] }
+    "levels": [
+      { "need": 2, "desc": "Physical DMG +25%", "attrs": [{ "type": 33, "value": 0.25 }], "params": [] },
+      { "need": 4, "desc": "After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s.", "attrs": [], "params": [10, 0.5, -5, 0.1] }
     ]
   },
-  {
-    "id": 15009,
-    "name": "Prayers for Illumination",
-    "need": [1],
-    "affixs": [
-      {
-        "desc": "Affected by Pyro for 40% less time.",
-        "attrs": [],
-        "params": [0.4]
-      }
-    ]
-  },
-  {
-    "id": 15010,
-    "name": "Prayers for Destiny",
-    "need": [1],
-    "affixs": [
-      {
-        "desc": "Affected by Hydro for 40% less time.",
-        "attrs": [],
-        "params": [0.4]
-      }
-    ]
-  },
-  {
-    "id": 15011,
-    "name": "Prayers for Wisdom",
-    "need": [1],
-    "affixs": [
-      {
-        "desc": "Affected by Electro for 40% less time.",
-        "attrs": [],
-        "params": [0.4]
-      }
-    ]
-  },
-  {
-    "id": 15012,
-    "name": "Prayers to the Firmament",
-    "need": [1],
-    "affixs": [
-      {
-        "desc": "Affected by Anemo for 40% less time.",
-        "attrs": [],
-        "params": [0.4]
-      }
-    ]
-  },
-  {
-    "id": 15013,
-    "name": "Prayers to Springtime",
-    "need": [1],
-    "affixs": [
-      {
-        "desc": "Affected by Cryo for 40% less time.",
-        "attrs": [],
-        "params": [0.4]
-      }
-    ]
-  },
+  { "id": 15009, "name": "Prayers for Illumination", "levels": [{ "need": 1, "desc": "Affected by Pyro for 40% less time.", "attrs": [], "params": [0.4] }] },
+  { "id": 15010, "name": "Prayers for Destiny", "levels": [{ "need": 1, "desc": "Affected by Hydro for 40% less time.", "attrs": [], "params": [0.4] }] },
+  { "id": 15011, "name": "Prayers for Wisdom", "levels": [{ "need": 1, "desc": "Affected by Electro for 40% less time.", "attrs": [], "params": [0.4] }] },
+  { "id": 15012, "name": "Prayers to the Firmament", "levels": [{ "need": 1, "desc": "Affected by Anemo for 40% less time.", "attrs": [], "params": [0.4] }] },
+  { "id": 15013, "name": "Prayers to Springtime", "levels": [{ "need": 1, "desc": "Affected by Cryo for 40% less time.", "attrs": [], "params": [0.4] }] },
   {
     "id": 15014,
     "name": "Archaic Petra",
-    "need": [2, 4],
-    "affixs": [
+    "levels": [
+      { "need": 2, "desc": "Gain a 15% Geo DMG Bonus.", "attrs": [{ "type": 31, "value": 0.15 }], "params": [] },
       {
-        "desc": "Gain a 15% Geo DMG Bonus.",
-        "attrs": [{ "type": 31, "value": 0.15 }],
-        "params": []
-      },
-      { "desc": "Gain a 15% Geo DMG Bonus.", "attrs": [], "params": [0.35, 10] }
+        "need": 4,
+        "desc": "Upon obtaining an Elemental Shard created through a Crystallize Reaction, all party members gain a 35% DMG Bonus for that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time.",
+        "attrs": [],
+        "params": [0.35, 10]
+      }
     ]
   },
   {
     "id": 15015,
     "name": "Retracing Bolide",
-    "need": [2, 4],
-    "affixs": [
-      {
-        "desc": "Increases Shield Strength by 35%.",
-        "attrs": [{ "type": 18, "value": 0.35 }],
-        "params": []
-      },
-      {
-        "desc": "Increases Shield Strength by 35%.",
-        "attrs": [],
-        "params": [0.4]
-      }
+    "levels": [
+      { "need": 2, "desc": "Increases Shield Strength by 35%.", "attrs": [{ "type": 18, "value": 0.35 }], "params": [] },
+      { "need": 4, "desc": "While protected by a shield, gain an additional 40% Normal and Charged Attack DMG.", "attrs": [], "params": [0.4] }
     ]
   },
   {
     "id": 15016,
     "name": "Heart of Depth",
-    "need": [2, 4],
-    "affixs": [
-      {
-        "desc": "Hydro DMG Bonus +15%",
-        "attrs": [{ "type": 21, "value": 0.15 }],
-        "params": []
-      },
-      { "desc": "Hydro DMG Bonus +15%", "attrs": [], "params": [0.3, 1, 15] }
+    "levels": [
+      { "need": 2, "desc": "Hydro DMG Bonus +15%", "attrs": [{ "type": 21, "value": 0.15 }], "params": [] },
+      { "need": 4, "desc": "After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s.", "attrs": [], "params": [0.3, 1, 15] }
     ]
   }
 ]

@@ -1,7 +1,11 @@
 <template>
   <div class="mx-auto">
-    <!-- <nuxt-link to="/doc/artifact">文档</nuxt-link> -->
-    <v-row> </v-row>
+    <v-row class="ma-2">
+      <nuxt-link to="/inv">inventory</nuxt-link>
+    </v-row>
+    <v-row class="ma-2">
+      <nuxt-link to="/artifact/0KwsDKB0J43NA1gC2l">test</nuxt-link>
+    </v-row>
   </div>
 </template>
 

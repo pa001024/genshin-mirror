@@ -18,6 +18,9 @@ export default {
       { hid: "description", name: "description", content: "" },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    // HMT
+    script:
+      process.env.BASE_URL === "https://genshin.im" ? [{ src: "https://hm.baidu.com/hm.js?543c5e05f8df5c5dadd8b355c3ee8d16", defer: true, body: true }] : [],
   },
 
   // Automatically generate or serve dynamic sitemap.xml (https://www.npmjs.com/package/@nuxtjs/sitemap)

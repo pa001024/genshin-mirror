@@ -14,17 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        {
-          "id": "VayudaTurquoiseSliver",
-          "name": "Vayuda Turquoise Sliver",
-          "count": 1
-        },
+        { "id": "VayudaTurquoiseSliver", "name": "Vayuda Turquoise Sliver", "count": 1 },
         { "id": "WindwheelAster", "name": "Windwheel Aster", "count": 3 },
-        {
-          "id": "WhopperflowerNectar",
-          "name": "Whopperflower Nectar",
-          "count": 3
-        }
+        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 3 }
       ],
       "HP": 578.98,
       "ATK": 10.643,
@@ -34,18 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        {
-          "id": "VayudaTurquoiseFragment",
-          "name": "Vayuda Turquoise Fragment",
-          "count": 3
-        },
+        { "id": "VayudaTurquoiseFragment", "name": "Vayuda Turquoise Fragment", "count": 3 },
         { "id": "HurricaneSeed", "name": "Hurricane Seed", "count": 2 },
         { "id": "WindwheelAster", "name": "Windwheel Aster", "count": 10 },
-        {
-          "id": "WhopperflowerNectar",
-          "name": "Whopperflower Nectar",
-          "count": 15
-        }
+        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 15 }
       ],
       "HP": 990.36,
       "ATK": 18.205,
@@ -55,11 +39,7 @@
     {
       "level": 3,
       "itemCost": [
-        {
-          "id": "VayudaTurquoiseFragment",
-          "name": "Vayuda Turquoise Fragment",
-          "count": 6
-        },
+        { "id": "VayudaTurquoiseFragment", "name": "Vayuda Turquoise Fragment", "count": 6 },
         { "id": "HurricaneSeed", "name": "Hurricane Seed", "count": 4 },
         { "id": "WindwheelAster", "name": "Windwheel Aster", "count": 20 },
         { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 12 }
@@ -72,11 +52,7 @@
     {
       "level": 4,
       "itemCost": [
-        {
-          "id": "VayudaTurquoiseChunk",
-          "name": "Vayuda Turquoise Chunk",
-          "count": 3
-        },
+        { "id": "VayudaTurquoiseChunk", "name": "Vayuda Turquoise Chunk", "count": 3 },
         { "id": "HurricaneSeed", "name": "Hurricane Seed", "count": 8 },
         { "id": "WindwheelAster", "name": "Windwheel Aster", "count": 30 },
         { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 18 }
@@ -89,11 +65,7 @@
     {
       "level": 5,
       "itemCost": [
-        {
-          "id": "VayudaTurquoiseChunk",
-          "name": "Vayuda Turquoise Chunk",
-          "count": 6
-        },
+        { "id": "VayudaTurquoiseChunk", "name": "Vayuda Turquoise Chunk", "count": 6 },
         { "id": "HurricaneSeed", "name": "Hurricane Seed", "count": 12 },
         { "id": "WindwheelAster", "name": "Windwheel Aster", "count": 45 },
         { "id": "EnergyNectar", "name": "Energy Nectar", "count": 12 }
@@ -106,11 +78,7 @@
     {
       "level": 6,
       "itemCost": [
-        {
-          "id": "VayudaTurquoiseGemstone",
-          "name": "Vayuda Turquoise Gemstone",
-          "count": 6
-        },
+        { "id": "VayudaTurquoiseGemstone", "name": "Vayuda Turquoise Gemstone", "count": 6 },
         { "id": "HurricaneSeed", "name": "Hurricane Seed", "count": 20 },
         { "id": "WindwheelAster", "name": "Windwheel Aster", "count": 60 },
         { "id": "EnergyNectar", "name": "Energy Nectar", "count": 24 }
@@ -151,13 +119,7 @@
     "desc": "Sucrose hurls an unstable concoction that creates a Large Wind Spirit.\nWhile it persists, the Large Wind Spirit will continuously pull in surrounding opponents and objects, launch nearby opponents, and deal <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Elemental Absorption</color>\nIf the Wind Spirit comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color> energy, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\n<i>Sucrose used to give names to her volatile Anemo Hypostases, but their line of heirs quickly grew to surpass Baron Bunny the 893rd.</i>",
     "cd": 20,
     "energyCost": 80,
-    "paramTpls": [
-      "DoT|{param1:P}",
-      "Additional Elemental DMG|{param2:F1P}",
-      "Duration|{param3:F1}s",
-      "CD|{param4:F1}s",
-      "Energy Cost|{param5:I}"
-    ],
+    "paramTpls": ["DoT|{param1:P}", "Additional Elemental DMG|{param2:F1P}", "Duration|{param3:F1}s", "CD|{param4:F1}s", "Energy Cost|{param5:I}"],
     "paramVals": [
       [1.48, 0.44, 6, 20, 80],
       [1.591, 0.473, 6, 20, 80],
@@ -208,32 +170,27 @@
       [0.79477, 0.72713, 0.91314, 1.138, 2.8538, 50, 1.5198, 3.039, 3.7959]
     ]
   },
+  "talents": [
+    {
+      "name": "Catalyst Conversion",
+      "desc": "When Sucrose triggers a Swirl reaction, all characters in the party with the matching element (excluding Sucrose) have their Elemental Mastery increased by 50 for 8s.",
+      "unlock": 1,
+      "values": [50, 8]
+    },
+    {
+      "name": "Mollis Favonius",
+      "desc": "When <color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> or <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> hit an opponent, increases all party members' (excluding Sucrose) Elemental Mastery by an amount equal to 20% of Sucrose's Elemental Mastery for 8s.",
+      "unlock": 4,
+      "values": [0.2, 8]
+    },
+    { "name": "Astable Invention", "desc": "When Sucrose crafts Character and Weapon Enhancement Materials, she has a 10% to obtain double the product." }
+  ],
   "c13ns": [
-    {
-      "name": "Clustered Vacuum Field",
-      "desc": "<color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> gains 1 additional charge.",
-      "values": []
-    },
-    {
-      "name": "Beth: Unbound Form",
-      "desc": "The duration of <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> is increased by 2s.",
-      "values": [2]
-    },
-    {
-      "name": "Flawless Alchemistress",
-      "desc": "Increases the Level of <color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
-    {
-      "name": "Alchemania",
-      "desc": "Every 7 Normal and Charged Attacks, Sucrose will reduce the CD of <color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> by 1-7s.",
-      "values": []
-    },
-    {
-      "name": "Caution: Standard Flask",
-      "desc": "Increases the Level of <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
+    { "name": "Clustered Vacuum Field", "desc": "<color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> gains 1 additional charge." },
+    { "name": "Beth: Unbound Form", "desc": "The duration of <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> is increased by 2s.", "values": [2] },
+    { "name": "Flawless Alchemistress", "desc": "Increases the Level of <color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "Alchemania", "desc": "Every 7 Normal and Charged Attacks, Sucrose will reduce the CD of <color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> by 1-7s." },
+    { "name": "Caution: Standard Flask", "desc": "Increases the Level of <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> by 3.\nMaximum upgrade level is 15." },
     {
       "name": "Chaotic Entropy",
       "desc": "If <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> triggers an Elemental Absorption, all party members gain a 20% Elemental DMG Bonus for the corresponding absorbed element during its duration.",

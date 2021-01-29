@@ -14,11 +14,7 @@
     {
       "level": 1,
       "itemCost": [
-        {
-          "id": "PrithivaTopazSliver",
-          "name": "Prithiva Topaz Sliver",
-          "count": 1
-        },
+        { "id": "PrithivaTopazSliver", "name": "Prithiva Topaz Sliver", "count": 1 },
         { "id": "Valberry", "name": "Valberry", "count": 3 },
         { "id": "DamagedMask", "name": "Damaged Mask", "count": 3 }
       ],
@@ -30,11 +26,7 @@
     {
       "level": 2,
       "itemCost": [
-        {
-          "id": "PrithivaTopazFragment",
-          "name": "Prithiva Topaz Fragment",
-          "count": 3
-        },
+        { "id": "PrithivaTopazFragment", "name": "Prithiva Topaz Fragment", "count": 3 },
         { "id": "BasaltPillar", "name": "Basalt Pillar", "count": 2 },
         { "id": "Valberry", "name": "Valberry", "count": 10 },
         { "id": "DamagedMask", "name": "Damaged Mask", "count": 15 }
@@ -47,11 +39,7 @@
     {
       "level": 3,
       "itemCost": [
-        {
-          "id": "PrithivaTopazFragment",
-          "name": "Prithiva Topaz Fragment",
-          "count": 6
-        },
+        { "id": "PrithivaTopazFragment", "name": "Prithiva Topaz Fragment", "count": 6 },
         { "id": "BasaltPillar", "name": "Basalt Pillar", "count": 4 },
         { "id": "Valberry", "name": "Valberry", "count": 20 },
         { "id": "StainedMask", "name": "Stained Mask", "count": 12 }
@@ -64,11 +52,7 @@
     {
       "level": 4,
       "itemCost": [
-        {
-          "id": "PrithivaTopazChunk",
-          "name": "Prithiva Topaz Chunk",
-          "count": 3
-        },
+        { "id": "PrithivaTopazChunk", "name": "Prithiva Topaz Chunk", "count": 3 },
         { "id": "BasaltPillar", "name": "Basalt Pillar", "count": 8 },
         { "id": "Valberry", "name": "Valberry", "count": 30 },
         { "id": "StainedMask", "name": "Stained Mask", "count": 18 }
@@ -81,11 +65,7 @@
     {
       "level": 5,
       "itemCost": [
-        {
-          "id": "PrithivaTopazChunk",
-          "name": "Prithiva Topaz Chunk",
-          "count": 6
-        },
+        { "id": "PrithivaTopazChunk", "name": "Prithiva Topaz Chunk", "count": 6 },
         { "id": "BasaltPillar", "name": "Basalt Pillar", "count": 12 },
         { "id": "Valberry", "name": "Valberry", "count": 45 },
         { "id": "OminousMask", "name": "Ominous Mask", "count": 12 }
@@ -98,11 +78,7 @@
     {
       "level": 6,
       "itemCost": [
-        {
-          "id": "PrithivaTopazGemstone",
-          "name": "Prithiva Topaz Gemstone",
-          "count": 6
-        },
+        { "id": "PrithivaTopazGemstone", "name": "Prithiva Topaz Gemstone", "count": 6 },
         { "id": "BasaltPillar", "name": "Basalt Pillar", "count": 20 },
         { "id": "Valberry", "name": "Valberry", "count": 60 },
         { "id": "OminousMask", "name": "Ominous Mask", "count": 24 }
@@ -150,14 +126,7 @@
     "desc": "Gathering the strength of stone around her weapon, Noelle strikes the opponents surrounding her within a large AoE, dealing <color=#FFE699FF>Geo DMG</color>.\nAfterwards, Noelle gains the following effects:\n·Larger attack AoE.\n·Converts attack DMG to <color=#FFE699FF>Geo DMG</color> that cannot be overridden by any other elemental infusion.\n·Increased ATK that scales based on her DEF.\n\n<i>Sometimes, it's not just dust that needs sweeping...</i>",
     "cd": 15,
     "energyCost": 60,
-    "paramTpls": [
-      "Burst DMG|{param1:F1P}",
-      "Skill DMG|{param2:F1P}",
-      "ATK Bonus|{param3:P} DEF",
-      "Duration|{param4:F1}s",
-      "CD|{param5:F1}s",
-      "Energy Cost|{param6:I}"
-    ],
+    "paramTpls": ["Burst DMG|{param1:F1P}", "Skill DMG|{param2:F1P}", "ATK Bonus|{param3:P} DEF", "Duration|{param4:F1}s", "CD|{param5:F1}s", "Energy Cost|{param6:I}"],
     "paramVals": [
       [0.672, 0.928, 0.4, 15, 15, 60],
       [0.7224, 0.9976, 0.43, 15, 15, 60],
@@ -193,220 +162,55 @@
       "Low/High Plunge DMG|{param10:P}/{param11:P}"
     ],
     "paramVals": [
-      [
-        0.7912,
-        0.73358,
-        0.86258,
-        1.1343,
-        0.5074,
-        0.90472,
-        40,
-        5,
-        0.74588,
-        1.4914,
-        1.8629
-      ],
-      [
-        0.8556,
-        0.79329,
-        0.93279,
-        1.2267,
-        0.5487,
-        0.97836,
-        40,
-        5,
-        0.80659,
-        1.6128,
-        2.0145
-      ],
+      [0.7912, 0.73358, 0.86258, 1.1343, 0.5074, 0.90472, 40, 5, 0.74588, 1.4914, 1.8629],
+      [0.8556, 0.79329, 0.93279, 1.2267, 0.5487, 0.97836, 40, 5, 0.80659, 1.6128, 2.0145],
       [0.92, 0.853, 1.003, 1.319, 0.59, 1.052, 40, 5, 0.8673, 1.7342, 2.1662],
-      [
-        1.012,
-        0.9383,
-        1.1033,
-        1.4509,
-        0.649,
-        1.1572,
-        40,
-        5,
-        0.95403,
-        1.9077,
-        2.3828
-      ],
-      [
-        1.0764,
-        0.99801,
-        1.1735,
-        1.5432,
-        0.6903,
-        1.2308,
-        40,
-        5,
-        1.0147,
-        2.0291,
-        2.5344
-      ],
-      [
-        1.15,
-        1.0662,
-        1.2537,
-        1.6487,
-        0.7375,
-        1.315,
-        40,
-        5,
-        1.0841,
-        2.1678,
-        2.7077
-      ],
-      [
-        1.2512,
-        1.1601,
-        1.3641,
-        1.7938,
-        0.8024,
-        1.4307,
-        40,
-        5,
-        1.1795,
-        2.3586,
-        2.946
-      ],
-      [
-        1.3524,
-        1.2539,
-        1.4744,
-        1.9389,
-        0.8673,
-        1.5464,
-        40,
-        5,
-        1.2749,
-        2.5493,
-        3.1842
-      ],
-      [
-        1.4536,
-        1.3477,
-        1.5847,
-        2.084,
-        0.9322,
-        1.6622,
-        40,
-        5,
-        1.3703,
-        2.7401,
-        3.4225
-      ],
-      [
-        1.564,
-        1.4501,
-        1.7051,
-        2.2423,
-        1.003,
-        1.7884,
-        40,
-        5,
-        1.4744,
-        2.9482,
-        3.6825
-      ],
-      [
-        1.6744,
-        1.5525,
-        1.8255,
-        2.4006,
-        1.0738,
-        1.9146,
-        40,
-        5,
-        1.5785,
-        3.1563,
-        3.9424
-      ],
-      [
-        1.7848,
-        1.6548,
-        1.9458,
-        2.5589,
-        1.1446,
-        2.0409,
-        40,
-        5,
-        1.6826,
-        3.3644,
-        4.2023
-      ],
-      [
-        1.8952,
-        1.7572,
-        2.0662,
-        2.7171,
-        1.2154,
-        2.1671,
-        40,
-        5,
-        1.7866,
-        3.5725,
-        4.4623
-      ],
-      [
-        2.0056,
-        1.8595,
-        2.1865,
-        2.8754,
-        1.2862,
-        2.2934,
-        40,
-        5,
-        1.8907,
-        3.7806,
-        4.7222
-      ],
-      [
-        2.116,
-        1.9619,
-        2.3069,
-        3.0337,
-        1.357,
-        2.4196,
-        40,
-        5,
-        1.9948,
-        3.9887,
-        4.9821
-      ]
+      [1.012, 0.9383, 1.1033, 1.4509, 0.649, 1.1572, 40, 5, 0.95403, 1.9077, 2.3828],
+      [1.0764, 0.99801, 1.1735, 1.5432, 0.6903, 1.2308, 40, 5, 1.0147, 2.0291, 2.5344],
+      [1.15, 1.0662, 1.2537, 1.6487, 0.7375, 1.315, 40, 5, 1.0841, 2.1678, 2.7077],
+      [1.2512, 1.1601, 1.3641, 1.7938, 0.8024, 1.4307, 40, 5, 1.1795, 2.3586, 2.946],
+      [1.3524, 1.2539, 1.4744, 1.9389, 0.8673, 1.5464, 40, 5, 1.2749, 2.5493, 3.1842],
+      [1.4536, 1.3477, 1.5847, 2.084, 0.9322, 1.6622, 40, 5, 1.3703, 2.7401, 3.4225],
+      [1.564, 1.4501, 1.7051, 2.2423, 1.003, 1.7884, 40, 5, 1.4744, 2.9482, 3.6825],
+      [1.6744, 1.5525, 1.8255, 2.4006, 1.0738, 1.9146, 40, 5, 1.5785, 3.1563, 3.9424],
+      [1.7848, 1.6548, 1.9458, 2.5589, 1.1446, 2.0409, 40, 5, 1.6826, 3.3644, 4.2023],
+      [1.8952, 1.7572, 2.0662, 2.7171, 1.2154, 2.1671, 40, 5, 1.7866, 3.5725, 4.4623],
+      [2.0056, 1.8595, 2.1865, 2.8754, 1.2862, 2.2934, 40, 5, 1.8907, 3.7806, 4.7222],
+      [2.116, 1.9619, 2.3069, 3.0337, 1.357, 2.4196, 40, 5, 1.9948, 3.9887, 4.9821]
     ]
   },
+  "talents": [
+    {
+      "name": "Devotion",
+      "desc": "When Noelle is in the party but not on the field, this ability triggers automatically when your active character's HP falls below 30%:\nCreates a shield for your active character that lasts for 20s and absorbs DMG equal to 400% of Noelle's DEF.\nThe shield has a 250% DMG Absorption effectiveness against <color=#FFE699FF>Geo DMG</color>.\nThis effect can only occur once every 60s.",
+      "unlock": 1,
+      "values": [0.3, 4, 20, 60]
+    },
+    {
+      "name": "Nice and Clean",
+      "desc": "Every 4 Normal or Charged Attack hits will decrease the CD of <color=#FFD780FF>Breastplate</color> by 1s.\nHitting multiple opponents with a single attack is only counted as 1 hit.",
+      "unlock": 4,
+      "values": [-1]
+    },
+    { "name": "Maid's Knighthood", "desc": "When a Perfect Cooking is achieved on a DEF-boosting dish, Noelle has a 12% chance to obtain double the product." }
+  ],
   "c13ns": [
     {
       "name": "I Got Your Back",
       "desc": "While <color=#FFD780FF>Sweeping Time</color> and <color=#FFD780FF>Breastplate</color> are both in effect, the chance of Breastplate's healing effects activating is increased to 100%.",
       "values": [1]
     },
-    {
-      "name": "Combat Maid",
-      "desc": "Decreases the Stamina Consumption of Noelle's Charged Attacks by 20% and increases her Charged Attack DMG by 15%.",
-      "values": [-0.2, 0.15]
-    },
-    {
-      "name": "Invulnerable Maid",
-      "desc": "Increases the Level of <color=#FFD780FF>Breastplate</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
+    { "name": "Combat Maid", "desc": "Decreases the Stamina Consumption of Noelle's Charged Attacks by 20% and increases her Charged Attack DMG by 15%.", "values": [-0.2, 0.15] },
+    { "name": "Invulnerable Maid", "desc": "Increases the Level of <color=#FFD780FF>Breastplate</color> by 3.\nMaximum upgrade level is 15." },
     {
       "name": "To Be Cleaned",
       "desc": "When <color=#FFD780FF>Breastplate</color>'s duration expires or it is destroyed by DMG, it will deal 400% ATK of <color=#FFE699FF>Geo DMG</color> to surrounding opponents.",
       "values": [4]
     },
-    {
-      "name": "Favonius Sweeper Master",
-      "desc": "Increases the Level of <color=#FFD780FF>Sweeping Time</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
+    { "name": "Favonius Sweeper Master", "desc": "Increases the Level of <color=#FFD780FF>Sweeping Time</color> by 3.\nMaximum upgrade level is 15." },
     {
       "name": "Must Be Spotless",
-      "desc": "<color=#FFD780FF>Sweeping Time</color> increases Noelle's ATK by an additional 50% of her DEF.\\nAdditionally, every opponent defeated during the skill's duration adds 1s to the duration, up to 10s.",
+      "desc": "<color=#FFD780FF>Sweeping Time</color> increases Noelle's ATK by an additional 50% of her DEF.\nAdditionally, every opponent defeated during the skill's duration adds 1s to the duration, up to 10s.",
       "values": [0.5, 10]
     }
   ]

@@ -14,11 +14,7 @@
     {
       "level": 1,
       "itemCost": [
-        {
-          "id": "AgnidusAgateSliver",
-          "name": "Agnidus Agate Sliver",
-          "count": 1
-        },
+        { "id": "AgnidusAgateSliver", "name": "Agnidus Agate Sliver", "count": 1 },
         { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 3 },
         { "id": "RecruitsInsignia", "name": "Recruit's Insignia", "count": 3 }
       ],
@@ -30,11 +26,7 @@
     {
       "level": 2,
       "itemCost": [
-        {
-          "id": "AgnidusAgateFragment",
-          "name": "Agnidus Agate Fragment",
-          "count": 3
-        },
+        { "id": "AgnidusAgateFragment", "name": "Agnidus Agate Fragment", "count": 3 },
         { "id": "EverflameSeed", "name": "Everflame Seed", "count": 2 },
         { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 10 },
         { "id": "RecruitsInsignia", "name": "Recruit's Insignia", "count": 15 }
@@ -47,18 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        {
-          "id": "AgnidusAgateFragment",
-          "name": "Agnidus Agate Fragment",
-          "count": 6
-        },
+        { "id": "AgnidusAgateFragment", "name": "Agnidus Agate Fragment", "count": 6 },
         { "id": "EverflameSeed", "name": "Everflame Seed", "count": 4 },
         { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 20 },
-        {
-          "id": "SergeantsInsignia",
-          "name": "Sergeant's Insignia",
-          "count": 12
-        }
+        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 12 }
       ],
       "HP": 2302.9,
       "ATK": 59.402,
@@ -68,18 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        {
-          "id": "AgnidusAgateChunk",
-          "name": "Agnidus Agate Chunk",
-          "count": 3
-        },
+        { "id": "AgnidusAgateChunk", "name": "Agnidus Agate Chunk", "count": 3 },
         { "id": "EverflameSeed", "name": "Everflame Seed", "count": 8 },
         { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 30 },
-        {
-          "id": "SergeantsInsignia",
-          "name": "Sergeant's Insignia",
-          "count": 18
-        }
+        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 18 }
       ],
       "HP": 2918.5,
       "ATK": 75.282,
@@ -89,18 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        {
-          "id": "AgnidusAgateChunk",
-          "name": "Agnidus Agate Chunk",
-          "count": 6
-        },
+        { "id": "AgnidusAgateChunk", "name": "Agnidus Agate Chunk", "count": 6 },
         { "id": "EverflameSeed", "name": "Everflame Seed", "count": 12 },
         { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 45 },
-        {
-          "id": "LieutenantsInsignia",
-          "name": "Lieutenant's Insignia",
-          "count": 12
-        }
+        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 12 }
       ],
       "HP": 3534.1,
       "ATK": 91.162,
@@ -110,18 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        {
-          "id": "AgnidusAgateGemstone",
-          "name": "Agnidus Agate Gemstone",
-          "count": 6
-        },
+        { "id": "AgnidusAgateGemstone", "name": "Agnidus Agate Gemstone", "count": 6 },
         { "id": "EverflameSeed", "name": "Everflame Seed", "count": 20 },
         { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 60 },
-        {
-          "id": "LieutenantsInsignia",
-          "name": "Lieutenant's Insignia",
-          "count": 24
-        }
+        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 24 }
       ],
       "HP": 4149.7,
       "ATK": 107.04,
@@ -135,12 +95,7 @@
     "name": "Searing Onslaught",
     "desc": "Performs a forward slash that deals <color=#FF9999FF>Pyro DMG</color>.\n\nThis skill can be used 3 times consecutively. Enters CD if not cast again within a short period.\n\n<i>The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty.</i>",
     "cd": 10,
-    "paramTpls": [
-      "1-Hit DMG|{param1:F1P}",
-      "2-Hit DMG|{param2:F1P}",
-      "3-hit DMG|{param3:P}",
-      "CD|{param4:F1}s"
-    ],
+    "paramTpls": ["1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-hit DMG|{param3:P}", "CD|{param4:F1}s"],
     "paramVals": [
       [0.944, 0.976, 1.288, 10],
       [1.0148, 1.0492, 1.3846, 10],
@@ -164,14 +119,7 @@
     "desc": "Releases intense flames to knock nearby opponents back, dealing <color=#FF9999FF>Pyro DMG</color>. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive <color=#FF9999FF>Pyro DMG</color> to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of <color=#FF9999FF>AoE Pyro DMG</color>.\nThe searing flames that run down his blade cause it to be infused with <color=#FF9999FF>Pyro</color>.\n\n<i>The only reason to walk in the darkness is to light it up. Behold, that fleeing light in the dead of night is the herald of the coming dawn.</i>",
     "cd": 12,
     "energyCost": 40,
-    "paramTpls": [
-      "Slashing DMG|{param1:P}",
-      "DoT|{param2:F1P}",
-      "Explosion DMG|{param3:P}",
-      "CD|{param4:F1}s",
-      "Infusion Duration|{param5:F1}s",
-      "Energy Cost|{param6:I}"
-    ],
+    "paramTpls": ["Slashing DMG|{param1:P}", "DoT|{param2:F1P}", "Explosion DMG|{param3:P}", "CD|{param4:F1}s", "Infusion Duration|{param5:F1}s", "Energy Cost|{param6:I}"],
     "paramVals": [
       [2.04, 0.6, 2.04, 12, 8, 40],
       [2.193, 0.645, 2.193, 12, 8, 40],
@@ -207,208 +155,50 @@
       "Low/High Plunge DMG|{param10:P}/{param11:P}"
     ],
     "paramVals": [
-      [
-        0.89698,
-        0.87634,
-        0.98814,
-        1.3399,
-        0.688,
-        1.247,
-        40,
-        5,
-        0.89505,
-        1.7897,
-        2.2355
-      ],
-      [
-        0.96999,
-        0.94767,
-        1.0686,
-        1.4489,
-        0.744,
-        1.3485,
-        40,
-        5,
-        0.96791,
-        1.9354,
-        2.4174
-      ],
+      [0.89698, 0.87634, 0.98814, 1.3399, 0.688, 1.247, 40, 5, 0.89505, 1.7897, 2.2355],
+      [0.96999, 0.94767, 1.0686, 1.4489, 0.744, 1.3485, 40, 5, 0.96791, 1.9354, 2.4174],
       [1.043, 1.019, 1.149, 1.558, 0.8, 1.45, 40, 5, 1.0408, 2.0811, 2.5994],
-      [
-        1.1473,
-        1.1209,
-        1.2639,
-        1.7138,
-        0.88,
-        1.595,
-        40,
-        5,
-        1.1448,
-        2.2892,
-        2.8593
-      ],
-      [
-        1.2203,
-        1.1922,
-        1.3443,
-        1.8229,
-        0.936,
-        1.6965,
-        40,
-        5,
-        1.2177,
-        2.4349,
-        3.0413
-      ],
+      [1.1473, 1.1209, 1.2639, 1.7138, 0.88, 1.595, 40, 5, 1.1448, 2.2892, 2.8593],
+      [1.2203, 1.1922, 1.3443, 1.8229, 0.936, 1.6965, 40, 5, 1.2177, 2.4349, 3.0413],
       [1.3038, 1.2737, 1.4362, 1.9475, 1, 1.8125, 40, 5, 1.301, 2.6013, 3.2492],
-      [
-        1.4185,
-        1.3858,
-        1.5626,
-        2.1189,
-        1.088,
-        1.972,
-        40,
-        5,
-        1.4154,
-        2.8303,
-        3.5352
-      ],
-      [
-        1.5332,
-        1.4979,
-        1.689,
-        2.2903,
-        1.176,
-        2.1315,
-        40,
-        5,
-        1.5299,
-        3.0592,
-        3.8211
-      ],
-      [
-        1.6479,
-        1.61,
-        1.8154,
-        2.4616,
-        1.264,
-        2.291,
-        40,
-        5,
-        1.6444,
-        3.2881,
-        4.107
-      ],
-      [
-        1.7731,
-        1.7323,
-        1.9533,
-        2.6486,
-        1.36,
-        2.465,
-        40,
-        5,
-        1.7693,
-        3.5378,
-        4.4189
-      ],
-      [
-        1.9165,
-        1.8724,
-        2.1113,
-        2.8628,
-        1.47,
-        2.6644,
-        40,
-        5,
-        1.8942,
-        3.7876,
-        4.7309
-      ],
-      [
-        2.0852,
-        2.0372,
-        2.2971,
-        3.1148,
-        1.5994,
-        2.8988,
-        40,
-        5,
-        2.0191,
-        4.0373,
-        5.0428
-      ],
-      [
-        2.2538,
-        2.202,
-        2.4829,
-        3.3667,
-        1.7287,
-        3.1333,
-        40,
-        5,
-        2.144,
-        4.287,
-        5.3547
-      ],
-      [
-        2.4225,
-        2.3667,
-        2.6687,
-        3.6186,
-        1.8581,
-        3.3678,
-        40,
-        5,
-        2.2689,
-        4.5368,
-        5.6666
-      ],
-      [
-        2.6065,
-        2.5465,
-        2.8714,
-        3.8934,
-        1.9992,
-        3.6235,
-        40,
-        5,
-        2.3937,
-        4.7865,
-        5.9786
-      ]
+      [1.4185, 1.3858, 1.5626, 2.1189, 1.088, 1.972, 40, 5, 1.4154, 2.8303, 3.5352],
+      [1.5332, 1.4979, 1.689, 2.2903, 1.176, 2.1315, 40, 5, 1.5299, 3.0592, 3.8211],
+      [1.6479, 1.61, 1.8154, 2.4616, 1.264, 2.291, 40, 5, 1.6444, 3.2881, 4.107],
+      [1.7731, 1.7323, 1.9533, 2.6486, 1.36, 2.465, 40, 5, 1.7693, 3.5378, 4.4189],
+      [1.9165, 1.8724, 2.1113, 2.8628, 1.47, 2.6644, 40, 5, 1.8942, 3.7876, 4.7309],
+      [2.0852, 2.0372, 2.2971, 3.1148, 1.5994, 2.8988, 40, 5, 2.0191, 4.0373, 5.0428],
+      [2.2538, 2.202, 2.4829, 3.3667, 1.7287, 3.1333, 40, 5, 2.144, 4.287, 5.3547],
+      [2.4225, 2.3667, 2.6687, 3.6186, 1.8581, 3.3678, 40, 5, 2.2689, 4.5368, 5.6666],
+      [2.6065, 2.5465, 2.8714, 3.8934, 1.9992, 3.6235, 40, 5, 2.3937, 4.7865, 5.9786]
     ]
   },
-  "c13ns": [
+  "talents": [
+    { "name": "Relentless", "desc": "Diluc's Charged Attack Stamina Cost is decreased by 50%, and its duration is increased by 3s.", "unlock": 1, "values": [0.5, 3] },
     {
-      "name": "Conviction",
-      "desc": "Diluc deals 15% more DMG to opponents whose HP is above 50%.",
-      "values": [0.15]
+      "name": "Blessing of Phoenix",
+      "desc": "The <color=#FF9999FF>Pyro Infusion</color> provided by <color=#FFD780FF>Dawn</color> lasts for 4s longer. Additionally, Diluc gains 20% <color=#FF9999FF>Pyro DMG Bonus</color> during the duration of this effect.",
+      "unlock": 4,
+      "values": [4, 0.2]
     },
+    { "name": "Tradition of the Dawn Knight", "desc": "Refunds 15% of the ores used when crafting Claymore-type weapons." }
+  ],
+  "c13ns": [
+    { "name": "Conviction", "desc": "Diluc deals 15% more DMG to opponents whose HP is above 50%.", "values": [0.15] },
     {
       "name": "Searing Ember",
-      "desc": "When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\\nThis effect can stack up to 3 times and can only occur once every 1.5s.",
+      "desc": "When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\nThis effect can stack up to 3 times and can only occur once every 1.5s.",
       "values": [0.1, 0.05, 10, 3, 1.5]
     },
-    {
-      "name": "Fire and Steel",
-      "desc": "Increases the Level of <color=#FFD780FF>Searing Onslaught</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
+    { "name": "Fire and Steel", "desc": "Increases the Level of <color=#FFD780FF>Searing Onslaught</color> by 3.\nMaximum upgrade level is 15." },
     {
       "name": "Flowing Flame",
-      "desc": "Casting <color=#FFD780FF>Searing Onslaught</color> in sequence greatly increases damage dealt.\\nWithin 2s of using <color=#FFD780FF>Searing Onslaught</color>, casting the next Searing Onslaught in the combo deals 40% additional DMG. This effect lasts for the next 2s.",
+      "desc": "Casting <color=#FFD780FF>Searing Onslaught</color> in sequence greatly increases damage dealt.\nWithin 2s of using <color=#FFD780FF>Searing Onslaught</color>, casting the next Searing Onslaught in the combo deals 40% additional DMG. This effect lasts for the next 2s.",
       "values": [0.4]
     },
-    {
-      "name": "Phoenix, Harbinger of Dawn",
-      "desc": "Increases the Level of <color=#FFD780FF>Dawn</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
+    { "name": "Phoenix, Harbinger of Dawn", "desc": "Increases the Level of <color=#FFD780FF>Dawn</color> by 3.\nMaximum upgrade level is 15." },
     {
       "name": "Flaming Sword, Nemesis of the Dark",
-      "desc": "After casting <color=#FFD780FF>Searing Onslaught</color>, the next 2 Normal Attacks within the next 6s will have their DMG and ATK SPD increased by 30%.\\nAdditionally, Searing Onslaught will not interrupt the Normal Attack combo.",
+      "desc": "After casting <color=#FFD780FF>Searing Onslaught</color>, the next 2 Normal Attacks within the next 6s will have their DMG and ATK SPD increased by 30%.\nAdditionally, Searing Onslaught will not interrupt the Normal Attack combo.",
       "values": [6, 0.3, 0.3]
     }
   ]

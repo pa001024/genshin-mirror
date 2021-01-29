@@ -82,7 +82,7 @@ export default class DefaultLayout extends Vue {
     { name: "artifact", path: "/artifact", icon: "artifact" },
     { name: "enemy", path: "/enemy", icon: "enemy" },
     { name: "material", path: "/item", icon: "mineral" },
-    { name: "inv", path: "/inv", icon: "char_item" },
+    { name: "inv", path: "/my", icon: "char_item" },
     { name: "setting", path: "/setting", icon: "setting" },
   ];
 

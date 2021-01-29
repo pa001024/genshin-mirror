@@ -14,11 +14,7 @@
     {
       "level": 1,
       "itemCost": [
-        {
-          "id": "AgnidusAgateSliver",
-          "name": "Agnidus Agate Sliver",
-          "count": 1
-        },
+        { "id": "AgnidusAgateSliver", "name": "Agnidus Agate Sliver", "count": 1 },
         { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom", "count": 3 },
         { "id": "DiviningScroll", "name": "Divining Scroll", "count": 3 }
       ],
@@ -30,17 +26,9 @@
     {
       "level": 2,
       "itemCost": [
-        {
-          "id": "AgnidusAgateFragment",
-          "name": "Agnidus Agate Fragment",
-          "count": 3
-        },
+        { "id": "AgnidusAgateFragment", "name": "Agnidus Agate Fragment", "count": 3 },
         { "id": "EverflameSeed", "name": "Everflame Seed", "count": 2 },
-        {
-          "id": "PhilanemoMushroom",
-          "name": "Philanemo Mushroom",
-          "count": 10
-        },
+        { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom", "count": 10 },
         { "id": "DiviningScroll", "name": "Divining Scroll", "count": 15 }
       ],
       "HP": 1174.5,
@@ -51,17 +39,9 @@
     {
       "level": 3,
       "itemCost": [
-        {
-          "id": "AgnidusAgateFragment",
-          "name": "Agnidus Agate Fragment",
-          "count": 6
-        },
+        { "id": "AgnidusAgateFragment", "name": "Agnidus Agate Fragment", "count": 6 },
         { "id": "EverflameSeed", "name": "Everflame Seed", "count": 4 },
-        {
-          "id": "PhilanemoMushroom",
-          "name": "Philanemo Mushroom",
-          "count": 20
-        },
+        { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom", "count": 20 },
         { "id": "SealedScroll", "name": "Sealed Scroll", "count": 12 }
       ],
       "HP": 1824.9,
@@ -72,17 +52,9 @@
     {
       "level": 4,
       "itemCost": [
-        {
-          "id": "AgnidusAgateChunk",
-          "name": "Agnidus Agate Chunk",
-          "count": 3
-        },
+        { "id": "AgnidusAgateChunk", "name": "Agnidus Agate Chunk", "count": 3 },
         { "id": "EverflameSeed", "name": "Everflame Seed", "count": 8 },
-        {
-          "id": "PhilanemoMushroom",
-          "name": "Philanemo Mushroom",
-          "count": 30
-        },
+        { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom", "count": 30 },
         { "id": "SealedScroll", "name": "Sealed Scroll", "count": 18 }
       ],
       "HP": 2312.8,
@@ -93,22 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        {
-          "id": "AgnidusAgateChunk",
-          "name": "Agnidus Agate Chunk",
-          "count": 6
-        },
+        { "id": "AgnidusAgateChunk", "name": "Agnidus Agate Chunk", "count": 6 },
         { "id": "EverflameSeed", "name": "Everflame Seed", "count": 12 },
-        {
-          "id": "PhilanemoMushroom",
-          "name": "Philanemo Mushroom",
-          "count": 45
-        },
-        {
-          "id": "ForbiddenCurseScroll",
-          "name": "Forbidden Curse Scroll",
-          "count": 12
-        }
+        { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom", "count": 45 },
+        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 12 }
       ],
       "HP": 2800.6,
       "ATK": 84.65,
@@ -118,22 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        {
-          "id": "AgnidusAgateGemstone",
-          "name": "Agnidus Agate Gemstone",
-          "count": 6
-        },
+        { "id": "AgnidusAgateGemstone", "name": "Agnidus Agate Gemstone", "count": 6 },
         { "id": "EverflameSeed", "name": "Everflame Seed", "count": 20 },
-        {
-          "id": "PhilanemoMushroom",
-          "name": "Philanemo Mushroom",
-          "count": 60
-        },
-        {
-          "id": "ForbiddenCurseScroll",
-          "name": "Forbidden Curse Scroll",
-          "count": 24
-        }
+        { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom", "count": 60 },
+        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 24 }
       ],
       "HP": 3288.5,
       "ATK": 99.396,
@@ -147,12 +95,7 @@
     "name": "Jumpy Dumpty",
     "desc": "Jumpy Dumpty is tons of boom-bang-fun! \nWhen thrown, Jumpy Dumpty bounces thrice, igniting and dealing <color=#FF9999FF>AoE Pyro DMG</color> with every bounce.\n\nOn the third bounce, the bomb splits into many mines.\nThe mines will explode upon contact with opponents, or after a short period of time, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\n\nStarts with 2 charges.\n\n<i>Jumpy Dumpty is Klee's good friend! She can't help but introduce him to everyone.</i>",
     "cd": 20,
-    "paramTpls": [
-      "Jumpy Dumpty DMG|{param1:F1P}",
-      "Mine DMG|{param4:F1P}",
-      "Mine Duration|{param5:F1}s",
-      "CD|{param6:F1}s"
-    ],
+    "paramTpls": ["Jumpy Dumpty DMG|{param1:F1P}", "Mine DMG|{param4:F1P}", "Mine Duration|{param5:F1}s", "CD|{param6:F1}s"],
     "paramVals": [
       [0.952, 0.952, 0.952, 0.328, 15, 20],
       [1.0234, 1.0234, 1.0234, 0.3526, 15, 20],
@@ -176,12 +119,7 @@
     "desc": "Klee's Blazing Delight! For the duration of this ability, continuously summons Sparks 'n' Splash to attack nearby opponents, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\n\n<i>The knights all believe that Klee must have a lucky star watching over her to have never been hurt by any of her own bombs...</i>",
     "cd": 15,
     "energyCost": 60,
-    "paramTpls": [
-      "Sparks 'n' Splash DMG|{param1:F1P}",
-      "Duration|{param5:F1}s",
-      "CD|{param2:F1}s",
-      "Energy Cost|{param3:I}"
-    ],
+    "paramTpls": ["Sparks 'n' Splash DMG|{param1:F1P}", "Duration|{param5:F1}s", "CD|{param2:F1}s", "Energy Cost|{param3:I}"],
     "paramVals": [
       [0.4264, 15, 60, 0.51168, 10],
       [0.45838, 15, 60, 0.55006, 10],
@@ -231,36 +169,30 @@
       [1.7665, 1.5276, 2.2012, 3.8522, 50, 1.5198, 3.039, 3.7959]
     ]
   },
+  "talents": [
+    {
+      "name": "Pounding Surprise",
+      "desc": "When <color=#FFD780FF>Jumpy Dumpty</color> and Normal Attacks deal DMG, Klee has a 50% chance to obtain an Explosive Spark.\nThis Explosive Spark is consumed by the next Charged Attack, which costs no Stamina and deals 50% increased DMG.",
+      "unlock": 1
+    },
+    { "name": "Sparkling Burst", "desc": "When Klee's Charged Attack results in a CRIT Hit, all party members gain 2 Elemental Energy.", "unlock": 4 },
+    { "name": "All Of My Treasures!", "desc": "Displays the location of nearby <color=#FFD780FF>resources unique to Mondstadt</color> on the mini-map." }
+  ],
   "c13ns": [
     {
       "name": "Chained Reactions",
-      "desc": "Attacks and Skills have a certain chance to summon sparks that bombard opponents, dealing DMG equal to 120% of <color=#FFD780FF>Sparks 'n' Splash</color>'s DMG.",
-      "values": []
+      "desc": "Attacks and Skills have a certain chance to summon sparks that bombard opponents, dealing DMG equal to 120% of <color=#FFD780FF>Sparks 'n' Splash</color>'s DMG."
     },
-    {
-      "name": "Explosive Frags",
-      "desc": "Being hit by <color=#FFD780FF>Jumpy Dumpty</color>'s mines decreases opponents' DEF by 23% for 10s.",
-      "values": []
-    },
-    {
-      "name": "Exquisite Compound",
-      "desc": "Increases the Level of <color=#FFD780FF>Jumpy Dumpty</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
+    { "name": "Explosive Frags", "desc": "Being hit by <color=#FFD780FF>Jumpy Dumpty</color>'s mines decreases opponents' DEF by 23% for 10s." },
+    { "name": "Exquisite Compound", "desc": "Increases the Level of <color=#FFD780FF>Jumpy Dumpty</color> by 3.\nMaximum upgrade level is 15." },
     {
       "name": "Sparkly Explosion",
-      "desc": "If Klee leaves the field during the duration of <color=#FFD780FF>Sparks 'n' Splash</color>, her departure triggers an explosion that deals 555% of her ATK as <color=#FF9999FF>AoE Pyro DMG</color>.",
-      "values": []
+      "desc": "If Klee leaves the field during the duration of <color=#FFD780FF>Sparks 'n' Splash</color>, her departure triggers an explosion that deals 555% of her ATK as <color=#FF9999FF>AoE Pyro DMG</color>."
     },
-    {
-      "name": "Nova Burst",
-      "desc": "Increases the Level of <color=#FFD780FF>Sparks 'n' Splash</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
+    { "name": "Nova Burst", "desc": "Increases the Level of <color=#FFD780FF>Sparks 'n' Splash</color> by 3.\nMaximum upgrade level is 15." },
     {
       "name": "Blazing Delight",
-      "desc": "While under the effects of <color=#FFD780FF>Sparks 'n' Splash</color>, Klee will regenerate 3 Energy for all members of the party (excluding Klee) every 3s.\\nWhen <color=#FFD780FF>Sparks 'n' Splash</color> is used, all party members will gain a 10% <color=#FF9999FF>Pyro DMG Bonus</color> for 25s.",
-      "values": []
+      "desc": "While under the effects of <color=#FFD780FF>Sparks 'n' Splash</color>, Klee will regenerate 3 Energy for all members of the party (excluding Klee) every 3s.\nWhen <color=#FFD780FF>Sparks 'n' Splash</color> is used, all party members will gain a 10% <color=#FF9999FF>Pyro DMG Bonus</color> for 25s."
     }
   ]
 }

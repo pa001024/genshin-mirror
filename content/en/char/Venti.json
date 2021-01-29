@@ -14,11 +14,7 @@
     {
       "level": 1,
       "itemCost": [
-        {
-          "id": "VayudaTurquoiseSliver",
-          "name": "Vayuda Turquoise Sliver",
-          "count": 1
-        },
+        { "id": "VayudaTurquoiseSliver", "name": "Vayuda Turquoise Sliver", "count": 1 },
         { "id": "Cecilia", "name": "Cecilia", "count": 3 },
         { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 3 }
       ],
@@ -30,11 +26,7 @@
     {
       "level": 2,
       "itemCost": [
-        {
-          "id": "VayudaTurquoiseFragment",
-          "name": "Vayuda Turquoise Fragment",
-          "count": 3
-        },
+        { "id": "VayudaTurquoiseFragment", "name": "Vayuda Turquoise Fragment", "count": 3 },
         { "id": "HurricaneSeed", "name": "Hurricane Seed", "count": 2 },
         { "id": "Cecilia", "name": "Cecilia", "count": 10 },
         { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 15 }
@@ -47,11 +39,7 @@
     {
       "level": 3,
       "itemCost": [
-        {
-          "id": "VayudaTurquoiseFragment",
-          "name": "Vayuda Turquoise Fragment",
-          "count": 6
-        },
+        { "id": "VayudaTurquoiseFragment", "name": "Vayuda Turquoise Fragment", "count": 6 },
         { "id": "HurricaneSeed", "name": "Hurricane Seed", "count": 4 },
         { "id": "Cecilia", "name": "Cecilia", "count": 20 },
         { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 12 }
@@ -64,11 +52,7 @@
     {
       "level": 4,
       "itemCost": [
-        {
-          "id": "VayudaTurquoiseChunk",
-          "name": "Vayuda Turquoise Chunk",
-          "count": 3
-        },
+        { "id": "VayudaTurquoiseChunk", "name": "Vayuda Turquoise Chunk", "count": 3 },
         { "id": "HurricaneSeed", "name": "Hurricane Seed", "count": 8 },
         { "id": "Cecilia", "name": "Cecilia", "count": 30 },
         { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 18 }
@@ -81,11 +65,7 @@
     {
       "level": 5,
       "itemCost": [
-        {
-          "id": "VayudaTurquoiseChunk",
-          "name": "Vayuda Turquoise Chunk",
-          "count": 6
-        },
+        { "id": "VayudaTurquoiseChunk", "name": "Vayuda Turquoise Chunk", "count": 6 },
         { "id": "HurricaneSeed", "name": "Hurricane Seed", "count": 12 },
         { "id": "Cecilia", "name": "Cecilia", "count": 45 },
         { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 12 }
@@ -98,11 +78,7 @@
     {
       "level": 6,
       "itemCost": [
-        {
-          "id": "VayudaTurquoiseGemstone",
-          "name": "Vayuda Turquoise Gemstone",
-          "count": 6
-        },
+        { "id": "VayudaTurquoiseGemstone", "name": "Vayuda Turquoise Gemstone", "count": 6 },
         { "id": "HurricaneSeed", "name": "Hurricane Seed", "count": 20 },
         { "id": "Cecilia", "name": "Cecilia", "count": 60 },
         { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 24 }
@@ -148,13 +124,7 @@
     "desc": "Fires off an arrow made of countless coalesced winds, creating a huge Stormeye that sucks in opponents and deals continuous <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Elemental Absorption</color>\nIf the Stormeye comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\n<i>Many hymns written in praise of the Anemo Archon have been lost to time. This one sings of his mastery over the wind.</i>",
     "cd": 15,
     "energyCost": 60,
-    "paramTpls": [
-      "DoT|{param1:F1P}",
-      "Additional Elemental DMG|{param2:F1P}",
-      "Duration|{param3:F1}s",
-      "CD|{param4:F1}s",
-      "Energy Cost|{param5:I}"
-    ],
+    "paramTpls": ["DoT|{param1:F1P}", "Additional Elemental DMG|{param2:F1P}", "Duration|{param3:F1}s", "CD|{param4:F1}s", "Energy Cost|{param5:I}"],
     "paramVals": [
       [0.376, 0.188, 8, 15, 60],
       [0.4042, 0.2021, 8, 15, 60],
@@ -190,233 +160,45 @@
       "Low/High Plunge DMG|{param10:P}/{param11:P}"
     ],
     "paramVals": [
-      [
-        0.20382,
-        0.44376,
-        0.52374,
-        0.26058,
-        0.50654,
-        0.7095,
-        0.4386,
-        1.24,
-        0.56829,
-        1.1363,
-        1.4193
-      ],
-      [
-        0.22041,
-        0.47988,
-        0.56637,
-        0.28179,
-        0.54777,
-        0.76725,
-        0.4743,
-        1.333,
-        0.61454,
-        1.2288,
-        1.5349
-      ],
-      [
-        0.237,
-        0.516,
-        0.609,
-        0.303,
-        0.589,
-        0.825,
-        0.51,
-        1.426,
-        0.6608,
-        1.3213,
-        1.6504
-      ],
-      [
-        0.2607,
-        0.5676,
-        0.6699,
-        0.3333,
-        0.6479,
-        0.9075,
-        0.561,
-        1.55,
-        0.72688,
-        1.4535,
-        1.8154
-      ],
-      [
-        0.27729,
-        0.60372,
-        0.71253,
-        0.35451,
-        0.68913,
-        0.96525,
-        0.5967,
-        1.643,
-        0.77314,
-        1.5459,
-        1.931
-      ],
-      [
-        0.29625,
-        0.645,
-        0.76125,
-        0.37875,
-        0.73625,
-        1.0313,
-        0.6375,
-        1.736,
-        0.826,
-        1.6516,
-        2.063
-      ],
-      [
-        0.32232,
-        0.70176,
-        0.82824,
-        0.41208,
-        0.80104,
-        1.122,
-        0.6936,
-        1.86,
-        0.89869,
-        1.797,
-        2.2445
-      ],
-      [
-        0.34839,
-        0.75852,
-        0.89523,
-        0.44541,
-        0.86583,
-        1.2127,
-        0.7497,
-        1.984,
-        0.97138,
-        1.9423,
-        2.4261
-      ],
-      [
-        0.37446,
-        0.81528,
-        0.96222,
-        0.47874,
-        0.93062,
-        1.3035,
-        0.8058,
-        2.108,
-        1.0441,
-        2.0877,
-        2.6076
-      ],
-      [
-        0.4029,
-        0.8772,
-        1.0353,
-        0.5151,
-        1.0013,
-        1.4025,
-        0.867,
-        2.232,
-        1.1234,
-        2.2462,
-        2.8057
-      ],
-      [
-        0.43549,
-        0.94815,
-        1.119,
-        0.55676,
-        1.0823,
-        1.5159,
-        0.93713,
-        2.361,
-        1.2027,
-        2.4048,
-        3.0037
-      ],
-      [
-        0.47381,
-        1.0316,
-        1.2175,
-        0.60576,
-        1.1775,
-        1.6493,
-        1.0196,
-        2.5296,
-        1.282,
-        2.5634,
-        3.2018
-      ],
-      [
-        0.51213,
-        1.115,
-        1.316,
-        0.65475,
-        1.2728,
-        1.7827,
-        1.1021,
-        2.6982,
-        1.3612,
-        2.7219,
-        3.3998
-      ],
-      [
-        0.55046,
-        1.1985,
-        1.4145,
-        0.70375,
-        1.368,
-        1.9161,
-        1.1845,
-        2.8669,
-        1.4405,
-        2.8805,
-        3.5979
-      ],
-      [
-        0.59226,
-        1.2895,
-        1.5219,
-        0.7572,
-        1.4719,
-        2.0617,
-        1.2745,
-        3.0355,
-        1.5198,
-        3.039,
-        3.7959
-      ]
+      [0.20382, 0.44376, 0.52374, 0.26058, 0.50654, 0.7095, 0.4386, 1.24, 0.56829, 1.1363, 1.4193],
+      [0.22041, 0.47988, 0.56637, 0.28179, 0.54777, 0.76725, 0.4743, 1.333, 0.61454, 1.2288, 1.5349],
+      [0.237, 0.516, 0.609, 0.303, 0.589, 0.825, 0.51, 1.426, 0.6608, 1.3213, 1.6504],
+      [0.2607, 0.5676, 0.6699, 0.3333, 0.6479, 0.9075, 0.561, 1.55, 0.72688, 1.4535, 1.8154],
+      [0.27729, 0.60372, 0.71253, 0.35451, 0.68913, 0.96525, 0.5967, 1.643, 0.77314, 1.5459, 1.931],
+      [0.29625, 0.645, 0.76125, 0.37875, 0.73625, 1.0313, 0.6375, 1.736, 0.826, 1.6516, 2.063],
+      [0.32232, 0.70176, 0.82824, 0.41208, 0.80104, 1.122, 0.6936, 1.86, 0.89869, 1.797, 2.2445],
+      [0.34839, 0.75852, 0.89523, 0.44541, 0.86583, 1.2127, 0.7497, 1.984, 0.97138, 1.9423, 2.4261],
+      [0.37446, 0.81528, 0.96222, 0.47874, 0.93062, 1.3035, 0.8058, 2.108, 1.0441, 2.0877, 2.6076],
+      [0.4029, 0.8772, 1.0353, 0.5151, 1.0013, 1.4025, 0.867, 2.232, 1.1234, 2.2462, 2.8057],
+      [0.43549, 0.94815, 1.119, 0.55676, 1.0823, 1.5159, 0.93713, 2.361, 1.2027, 2.4048, 3.0037],
+      [0.47381, 1.0316, 1.2175, 0.60576, 1.1775, 1.6493, 1.0196, 2.5296, 1.282, 2.5634, 3.2018],
+      [0.51213, 1.115, 1.316, 0.65475, 1.2728, 1.7827, 1.1021, 2.6982, 1.3612, 2.7219, 3.3998],
+      [0.55046, 1.1985, 1.4145, 0.70375, 1.368, 1.9161, 1.1845, 2.8669, 1.4405, 2.8805, 3.5979],
+      [0.59226, 1.2895, 1.5219, 0.7572, 1.4719, 2.0617, 1.2745, 3.0355, 1.5198, 3.039, 3.7959]
     ]
   },
-  "c13ns": [
+  "talents": [
+    { "name": "Embrace of Winds", "desc": "Holding <color=#FFD780FF>Skyward Sonnet</color> creates an upcurrent that lasts for 20s.", "unlock": 1, "values": [20] },
     {
-      "name": "Splitting Gales",
-      "desc": "Fires 2 additional arrows per <color=#FFD780FF>Aimed Shot</color>, each dealing 33% of the original arrow's DMG.",
-      "values": []
+      "name": "Stormeye",
+      "desc": "Regenerates 15 Energy for Venti after the effects of <color=#FFD780FF>Wind's Grand Ode</color> end.\nIf an Elemental Absorption occurred, this also restores 15 Energy to all characters of that corresponding element in the party.",
+      "unlock": 4,
+      "values": [15, 15]
     },
+    { "name": "Windrider", "desc": "Decreases gliding Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects." }
+  ],
+  "c13ns": [
+    { "name": "Splitting Gales", "desc": "Fires 2 additional arrows per <color=#FFD780FF>Aimed Shot</color>, each dealing 33% of the original arrow's DMG." },
     {
       "name": "Breeze of Reminiscence",
-      "desc": "<color=#FFD780FF>Skyward Sonnet</color> decreases opponents' <color=#80FFD7FF>Anemo RES</color> and Physical RES by 12% for 10s.\\nOpponents launched by <color=#FFD780FF>Skyward Sonnet</color> suffer an additional 12% <color=#80FFD7FF>Anemo RES</color> and Physical RES decrease while airborne.",
-      "values": []
+      "desc": "<color=#FFD780FF>Skyward Sonnet</color> decreases opponents' <color=#80FFD7FF>Anemo RES</color> and Physical RES by 12% for 10s.\nOpponents launched by <color=#FFD780FF>Skyward Sonnet</color> suffer an additional 12% <color=#80FFD7FF>Anemo RES</color> and Physical RES decrease while airborne."
     },
-    {
-      "name": "Ode to Thousand Winds",
-      "desc": "Increases the Level of <color=#FFD780FF>Wind's Grand Ode</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
-    {
-      "name": "Hurricane of Freedom",
-      "desc": "When Venti picks up an Elemental Orb or Particle, he receives a 25% <color=#80FFD7FF>Anemo DMG Bonus</color> for 10s.",
-      "values": []
-    },
-    {
-      "name": "Concerto dal Cielo",
-      "desc": "Increases the Level of <color=#FFD780FF>Skyward Sonnet</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
+    { "name": "Ode to Thousand Winds", "desc": "Increases the Level of <color=#FFD780FF>Wind's Grand Ode</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "Hurricane of Freedom", "desc": "When Venti picks up an Elemental Orb or Particle, he receives a 25% <color=#80FFD7FF>Anemo DMG Bonus</color> for 10s." },
+    { "name": "Concerto dal Cielo", "desc": "Increases the Level of <color=#FFD780FF>Skyward Sonnet</color> by 3.\nMaximum upgrade level is 15." },
     {
       "name": "Storm of Defiance",
-      "desc": "Targets who take DMG from <color=#FFD780FF>Wind's Grand Ode</color> have their <color=#80FFD7FF>Anemo RES</color> decreased by 20%.\\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%.",
-      "values": []
+      "desc": "Targets who take DMG from <color=#FFD780FF>Wind's Grand Ode</color> have their <color=#80FFD7FF>Anemo RES</color> decreased by 20%.\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%."
     }
   ]
 }

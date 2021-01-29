@@ -8,7 +8,7 @@ import { ElementType } from "~/modules/core";
 @Component({})
 export default class ElementIcon extends Vue {
   @Prop() element!: ElementType;
-  @Prop({ default: 32 }) size!: number;
+  @Prop({ type: Number, default: 32 }) size!: number;
 
   get elementIcon(): string {
     const vMap: { [x: number]: string } = {

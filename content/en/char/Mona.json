@@ -14,17 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        {
-          "id": "VarunadaLazuriteSliver",
-          "name": "Varunada Lazurite Sliver",
-          "count": 1
-        },
+        { "id": "VarunadaLazuriteSliver", "name": "Varunada Lazurite Sliver", "count": 1 },
         { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom", "count": 3 },
-        {
-          "id": "WhopperflowerNectar",
-          "name": "Whopperflower Nectar",
-          "count": 3
-        }
+        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 3 }
       ],
       "HP": 694.78,
       "ATK": 19.157,
@@ -34,22 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        {
-          "id": "VarunadaLazuriteFragment",
-          "name": "Varunada Lazurite Fragment",
-          "count": 3
-        },
+        { "id": "VarunadaLazuriteFragment", "name": "Varunada Lazurite Fragment", "count": 3 },
         { "id": "CleansingHeart", "name": "Cleansing Heart", "count": 2 },
-        {
-          "id": "PhilanemoMushroom",
-          "name": "Philanemo Mushroom",
-          "count": 10
-        },
-        {
-          "id": "WhopperflowerNectar",
-          "name": "Whopperflower Nectar",
-          "count": 15
-        }
+        { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom", "count": 10 },
+        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 15 }
       ],
       "HP": 1188.4,
       "ATK": 32.768,
@@ -59,17 +39,9 @@
     {
       "level": 3,
       "itemCost": [
-        {
-          "id": "VarunadaLazuriteFragment",
-          "name": "Varunada Lazurite Fragment",
-          "count": 6
-        },
+        { "id": "VarunadaLazuriteFragment", "name": "Varunada Lazurite Fragment", "count": 6 },
         { "id": "CleansingHeart", "name": "Cleansing Heart", "count": 4 },
-        {
-          "id": "PhilanemoMushroom",
-          "name": "Philanemo Mushroom",
-          "count": 20
-        },
+        { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom", "count": 20 },
         { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 12 }
       ],
       "HP": 1846.6,
@@ -80,17 +52,9 @@
     {
       "level": 4,
       "itemCost": [
-        {
-          "id": "VarunadaLazuriteChunk",
-          "name": "Varunada Lazurite Chunk",
-          "count": 3
-        },
+        { "id": "VarunadaLazuriteChunk", "name": "Varunada Lazurite Chunk", "count": 3 },
         { "id": "CleansingHeart", "name": "Cleansing Heart", "count": 8 },
-        {
-          "id": "PhilanemoMushroom",
-          "name": "Philanemo Mushroom",
-          "count": 30
-        },
+        { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom", "count": 30 },
         { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 18 }
       ],
       "HP": 2340.3,
@@ -101,17 +65,9 @@
     {
       "level": 5,
       "itemCost": [
-        {
-          "id": "VarunadaLazuriteChunk",
-          "name": "Varunada Lazurite Chunk",
-          "count": 6
-        },
+        { "id": "VarunadaLazuriteChunk", "name": "Varunada Lazurite Chunk", "count": 6 },
         { "id": "CleansingHeart", "name": "Cleansing Heart", "count": 12 },
-        {
-          "id": "PhilanemoMushroom",
-          "name": "Philanemo Mushroom",
-          "count": 45
-        },
+        { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom", "count": 45 },
         { "id": "EnergyNectar", "name": "Energy Nectar", "count": 12 }
       ],
       "HP": 2834,
@@ -122,17 +78,9 @@
     {
       "level": 6,
       "itemCost": [
-        {
-          "id": "VarunadaLazuriteGemstone",
-          "name": "Varunada Lazurite Gemstone",
-          "count": 6
-        },
+        { "id": "VarunadaLazuriteGemstone", "name": "Varunada Lazurite Gemstone", "count": 6 },
         { "id": "CleansingHeart", "name": "Cleansing Heart", "count": 20 },
-        {
-          "id": "PhilanemoMushroom",
-          "name": "Philanemo Mushroom",
-          "count": 60
-        },
+        { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom", "count": 60 },
         { "id": "EnergyNectar", "name": "Energy Nectar", "count": 24 }
       ],
       "HP": 3327.6,
@@ -147,11 +95,7 @@
     "name": "Mirror Reflection of Doom",
     "desc": "Creates an illusory Phantom of Fate from coalesced waterspouts.\n\nThe <color=#FFD780FF>Phantom</color> has the following special properties:\n·Continuously taunts nearby opponents, attracting their fire.\n·Continuously deals <color=#80C0FFFF>Hydro DMG</color> to nearby opponents.\n·When its duration expires, the Phantom explodes, dealing <color=#80C0FFFF>AoE Hydro DMG</color>.\n\n<color=#FFD780FF>Hold</color>\nUtilizes water currents to move backwards swiftly before conjuring a Phantom.\n\nOnly one Phantom created by Mirror Reflection of Doom can exist at any time.\n\n<i>Skilled astrologers have always dreamed of using a phantom facsimile of themselves to ward off imminent ill fate, but Mona must be the first to make such a mockery of it in all of Teyvat.</i>",
     "cd": 12,
-    "paramTpls": [
-      "DoT|{param1:F1P}",
-      "Explosion DMG|{param2:P}",
-      "CD|{param5:F1}s"
-    ],
+    "paramTpls": ["DoT|{param1:F1P}", "Explosion DMG|{param2:P}", "CD|{param5:F1}s"],
     "paramVals": [
       [0.32, 1.328],
       [0.344, 1.4276],
@@ -233,35 +177,33 @@
       [0.893, 0.855, 1.064, 1.3338, 3.6651, 50, 1.5198, 3.039, 3.7959]
     ]
   },
+  "talents": [
+    {
+      "name": "\"Come 'n' Get Me, Hag!\"",
+      "desc": "After she has used <color=#FFD780FF>Illusory Torrent</color> for 2s, if there are any opponents nearby, Mona will automatically create a Phantom.\nA Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of <color=#FFD780FF>Mirror Reflection of Doom</color>.",
+      "unlock": 1,
+      "values": [2, 2, 0.5]
+    },
+    { "name": "Waterborne Destiny", "desc": "Increases Mona's <color=#80C0FFFF>Hydro DMG Bonus</color> by a degree equivalent to 20% of her Energy Recharge rate.", "unlock": 4, "values": [1, 0.2] },
+    { "name": "Principium of Astrology", "desc": "When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund a portion of the crafting materials used." }
+  ],
   "c13ns": [
     {
       "name": "Prophecy of Submersion",
-      "desc": "When any of your own party members hits an opponent affected by an Omen, the effects of <color=#80C0FFFF>Hydro-related Elemental Reactions</color> are enhanced for 8s:\\n·Electro-Charged DMG increases by 15%.\\n·Vaporize DMG increases by 15%.\\n·Hydro Swirl DMG increases by 15%.\\n·Frozen duration is extended by 15%.",
+      "desc": "When any of your own party members hits an opponent affected by an Omen, the effects of <color=#80C0FFFF>Hydro-related Elemental Reactions</color> are enhanced for 8s:\n·Electro-Charged DMG increases by 15%.\n·Vaporize DMG increases by 15%.\n·Hydro Swirl DMG increases by 15%.\n·Frozen duration is extended by 15%.",
       "values": [0.15, 0.15, 0.15, 0.15, 5, 8]
     },
     {
       "name": "Lunar Chain",
-      "desc": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack.\\nThis effect can only occur once every 5s.",
+      "desc": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack.\nThis effect can only occur once every 5s.",
       "values": [0.2, 1, 5]
     },
-    {
-      "name": "Restless Revolution",
-      "desc": "Increases the Level of <color=#FFD780FF>Stellaris Phantasm</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
-    {
-      "name": "Prophecy of Oblivion",
-      "desc": "When any party member attacks an opponent affected by an Omen, their CRIT Rate is increased by 15%.",
-      "values": [-0.15]
-    },
-    {
-      "name": "Mockery of Fortuna",
-      "desc": "Increases the Level of <color=#FFD780FF>Mirror Reflection of Doom</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
+    { "name": "Restless Revolution", "desc": "Increases the Level of <color=#FFD780FF>Stellaris Phantasm</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "Prophecy of Oblivion", "desc": "When any party member attacks an opponent affected by an Omen, their CRIT Rate is increased by 15%.", "values": [-0.15] },
+    { "name": "Mockery of Fortuna", "desc": "Increases the Level of <color=#FFD780FF>Mirror Reflection of Doom</color> by 3.\nMaximum upgrade level is 15." },
     {
       "name": "Rhetorics of Calamitas",
-      "desc": "Upon entering <color=#FFD780FF>Illusory Torrent</color>, Mona gains a 60% increase to the DMG of her next Charged Attack per second of movement.\\nA maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s.",
+      "desc": "Upon entering <color=#FFD780FF>Illusory Torrent</color>, Mona gains a 60% increase to the DMG of her next Charged Attack per second of movement.\nA maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s.",
       "values": [1, 0.6, 1.8, 8]
     }
   ]

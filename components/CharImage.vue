@@ -9,7 +9,6 @@
   </div>
 </template>
 <script lang="ts">
-import "reflect-metadata";
 import { Vue, Component, Prop } from "vue-property-decorator";
 import { Getter } from "vuex-class";
 import { ElementType, Region } from "~/modules/core";
@@ -20,7 +19,7 @@ export default class CharImage extends Vue {
   @Prop() element!: ElementType;
   @Prop() region!: Region;
   @Prop({ default: "thumb" }) type!: "thumb" | "portrait";
-  @Prop({ default: 32 }) size!: number;
+  @Prop({ type: Number, default: 32 }) size!: number;
   @Prop({ type: Boolean }) avatar!: boolean;
   @Getter("app/travelerGender") travelerGender!: number;
 
@@ -63,6 +62,9 @@ export default class CharImage extends Vue {
   height: inherit;
   position: relative;
   // padding: 0 8px;
+  img {
+    pointer-events: none;
+  }
 }
 .avatar-vision-icon {
   && {

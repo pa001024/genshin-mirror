@@ -14,16 +14,8 @@
     {
       "level": 1,
       "itemCost": [
-        {
-          "id": "VarunadaLazuriteSliver",
-          "name": "澄明なラピスラズリ·砕屑",
-          "count": 1
-        },
-        {
-          "id": "PhilanemoMushroom",
-          "name": "慕風のマッシュルーム",
-          "count": 3
-        },
+        { "id": "VarunadaLazuriteSliver", "name": "澄明なラピスラズリ·砕屑", "count": 1 },
+        { "id": "PhilanemoMushroom", "name": "慕風のマッシュルーム", "count": 3 },
         { "id": "DiviningScroll", "name": "占いの絵巻", "count": 3 }
       ],
       "HP": 613.04,
@@ -34,17 +26,9 @@
     {
       "level": 2,
       "itemCost": [
-        {
-          "id": "VarunadaLazuriteFragment",
-          "name": "澄明なラピスラズリ·欠片",
-          "count": 3
-        },
+        { "id": "VarunadaLazuriteFragment", "name": "澄明なラピスラズリ·欠片", "count": 3 },
         { "id": "CleansingHeart", "name": "浄水の心", "count": 2 },
-        {
-          "id": "PhilanemoMushroom",
-          "name": "慕風のマッシュルーム",
-          "count": 10
-        },
+        { "id": "PhilanemoMushroom", "name": "慕風のマッシュルーム", "count": 10 },
         { "id": "DiviningScroll", "name": "占いの絵巻", "count": 15 }
       ],
       "HP": 1048.6,
@@ -55,17 +39,9 @@
     {
       "level": 3,
       "itemCost": [
-        {
-          "id": "VarunadaLazuriteFragment",
-          "name": "澄明なラピスラズリ·欠片",
-          "count": 6
-        },
+        { "id": "VarunadaLazuriteFragment", "name": "澄明なラピスラズリ·欠片", "count": 6 },
         { "id": "CleansingHeart", "name": "浄水の心", "count": 4 },
-        {
-          "id": "PhilanemoMushroom",
-          "name": "慕風のマッシュルーム",
-          "count": 20
-        },
+        { "id": "PhilanemoMushroom", "name": "慕風のマッシュルーム", "count": 20 },
         { "id": "SealedScroll", "name": "封魔の絵巻", "count": 12 }
       ],
       "HP": 1629.4,
@@ -76,17 +52,9 @@
     {
       "level": 4,
       "itemCost": [
-        {
-          "id": "VarunadaLazuriteChunk",
-          "name": "澄明なラピスラズリ·塊",
-          "count": 3
-        },
+        { "id": "VarunadaLazuriteChunk", "name": "澄明なラピスラズリ·塊", "count": 3 },
         { "id": "CleansingHeart", "name": "浄水の心", "count": 8 },
-        {
-          "id": "PhilanemoMushroom",
-          "name": "慕風のマッシュルーム",
-          "count": 30
-        },
+        { "id": "PhilanemoMushroom", "name": "慕風のマッシュルーム", "count": 30 },
         { "id": "SealedScroll", "name": "封魔の絵巻", "count": 18 }
       ],
       "HP": 2065,
@@ -97,17 +65,9 @@
     {
       "level": 5,
       "itemCost": [
-        {
-          "id": "VarunadaLazuriteChunk",
-          "name": "澄明なラピスラズリ·塊",
-          "count": 6
-        },
+        { "id": "VarunadaLazuriteChunk", "name": "澄明なラピスラズリ·塊", "count": 6 },
         { "id": "CleansingHeart", "name": "浄水の心", "count": 12 },
-        {
-          "id": "PhilanemoMushroom",
-          "name": "慕風のマッシュルーム",
-          "count": 45
-        },
+        { "id": "PhilanemoMushroom", "name": "慕風のマッシュルーム", "count": 45 },
         { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 12 }
       ],
       "HP": 2500.6,
@@ -118,17 +78,9 @@
     {
       "level": 6,
       "itemCost": [
-        {
-          "id": "VarunadaLazuriteGemstone",
-          "name": "澄明なラピスラズリ",
-          "count": 6
-        },
+        { "id": "VarunadaLazuriteGemstone", "name": "澄明なラピスラズリ", "count": 6 },
         { "id": "CleansingHeart", "name": "浄水の心", "count": 20 },
-        {
-          "id": "PhilanemoMushroom",
-          "name": "慕風のマッシュルーム",
-          "count": 60
-        },
+        { "id": "PhilanemoMushroom", "name": "慕風のマッシュルーム", "count": 60 },
         { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 24 }
       ],
       "HP": 2936.1,
@@ -143,13 +95,7 @@
     "name": "公演、開始♪",
     "desc": "躍動する歌声のような水の玉を召喚し、歌声の輪を作って周囲の敵に<color=#80C0FFFF>水元素ダメージ</color>を与え、さらに<color=#80C0FFFF>湿潤</color>状態を付与する。\n\n<color=#FFD780FF>歌声の輪</color>\n·バーバラの通常攻撃が命中した時、チーム内の自身のキャラクター全員または付近の味方のHPを回復する。回復量はバーバラのHP上限によって決まる。\n·重撃が命中した時、回復量は4倍になる。\n·一定時間の間隔で、出場している自身のキャラクターのHPを回復する。\n·キャラクター、または接触した敵に<color=#80C0FFFF>湿潤</color>状態を付与する。\n\n<i>バーバラの音楽はみんなを治療する魔法。</i>",
     "cd": 32,
-    "paramTpls": [
-      "命中回復量|{param3:F2P}HP上限+{param4:I}",
-      "継続回復量|{param1:F2P}HP上限+{param2:I}",
-      "水玉ダメージ|{param5:F1P}",
-      "継続時間|{param6:F1}秒",
-      "クールタイム|{param7:F1}秒"
-    ],
+    "paramTpls": ["命中回復量|{param3:F2P}HP上限+{param4:I}", "継続回復量|{param1:F2P}HP上限+{param2:I}", "水玉ダメージ|{param5:F1P}", "継続時間|{param6:F1}秒", "クールタイム|{param7:F1}秒"],
     "paramVals": [
       [0.04, 385.19, 0.0075, 72.223, 0.584, 15, 32],
       [0.043, 423.71, 0.008063, 79.446, 0.6278, 15, 32],
@@ -173,11 +119,7 @@
     "desc": "周囲にいる味方とチーム内の自身のキャラクター全員のHPを大量に回復する、回復量はバーバラのHP上限を基準とする。\n\n<i>人々を癒す心はバーバラの戦う源であり、歌う力である。</i>",
     "cd": 20,
     "energyCost": 80,
-    "paramTpls": [
-      "回復量|{param1:F1P}HP上限+{param2:I}",
-      "クールタイム|{param3:F1}秒",
-      "元素エネルギー|{param4:I}"
-    ],
+    "paramTpls": ["回復量|{param1:F1P}HP上限+{param2:I}", "クールタイム|{param3:F1}秒", "元素エネルギー|{param4:I}"],
     "paramVals": [
       [0.176, 1694.3, 20, 80],
       [0.1892, 1863.7, 20, 80],
@@ -228,36 +170,25 @@
       [0.92632, 0.86953, 1.0047, 1.3513, 4.0696, 50, 1.5198, 3.039, 3.7959]
     ]
   },
+  "talents": [
+    { "name": "輝く季節", "desc": "<color=#FFD780FF>公演、開始♪</color>歌声の輪が継続している間、スタミナ消費-12%。", "unlock": 1, "values": [0.12] },
+    {
+      "name": "アンコール",
+      "desc": "出場している自身のキャラクターが元素オーブまたは元素粒子を獲得した時、<color=#FFD780FF>公演、開始♪</color>の歌声の輪の継続時間+1秒。\nこの方法で最大5秒まで延長可能。",
+      "unlock": 4,
+      "values": [1, 5]
+    },
+    { "name": "気持ち♪注入", "desc": "回復系料理を完璧調理した時、12%の確率で料理を2倍獲得する。" }
+  ],
   "c13ns": [
-    {
-      "name": "虹色の歌",
-      "desc": "10秒毎に元素エネルギーを1回復する。",
-      "values": []
-    },
-    {
-      "name": "元気溌剌",
-      "desc": "<color=#FFD780FF>公演、開始♪</color>のクールタイム-15%。\\nスキル継続中、出場している自身のキャラクターの与える<color=#80C0FFFF>水元素ダメージ</color>+15%。",
-      "values": []
-    },
-    {
-      "name": "明日の星",
-      "desc": "<color=#FFD780FF>シャイニングミラクル♪</color>のスキルLv.+3。\\n最大Lv.15まで。",
-      "values": []
-    },
-    {
-      "name": "努力が魔法なの",
-      "desc": "重撃が敵に命中する度に、バーバラの元素エネルギーが1回復する。\\n一回で最大元素エネルギーが5まで回復できる。",
-      "values": []
-    },
-    {
-      "name": "純真な絆",
-      "desc": "<color=#FFD780FF>公演、開始♪</color>のスキルLv.+3。\\n最大Lv.15まで。",
-      "values": []
-    },
+    { "name": "虹色の歌", "desc": "10秒毎に元素エネルギーを1回復する。" },
+    { "name": "元気溌剌", "desc": "<color=#FFD780FF>公演、開始♪</color>のクールタイム-15%。\nスキル継続中、出場している自身のキャラクターの与える<color=#80C0FFFF>水元素ダメージ</color>+15%。" },
+    { "name": "明日の星", "desc": "<color=#FFD780FF>シャイニングミラクル♪</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "努力が魔法なの", "desc": "重撃が敵に命中する度に、バーバラの元素エネルギーが1回復する。\n一回で最大元素エネルギーが5まで回復できる。" },
+    { "name": "純真な絆", "desc": "<color=#FFD780FF>公演、開始♪</color>のスキルLv.+3。\n最大Lv.15まで。" },
     {
       "name": "美しいものをあなたに",
-      "desc": "バーバラ待機中に出場している自身のキャラクターが戦闘不能になると、下記の効果が発動される：\\n·戦闘不能になったキャラクターを復活させる。\\n·該当キャラクターのHPが100%回復される。\\nこの効果は15分毎に1回のみ発動可能。",
-      "values": []
+      "desc": "バーバラ待機中に出場している自身のキャラクターが戦闘不能になると、下記の効果が発動される：\n·戦闘不能になったキャラクターを復活させる。\n·該当キャラクターのHPが100%回復される。\nこの効果は15分毎に1回のみ発動可能。"
     }
   ]
 }

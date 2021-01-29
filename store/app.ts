@@ -149,6 +149,7 @@ export const getters: GetterTree<AppState, {}> = {
   artifactTypes: ({ artifactTypes }) => artifactTypes,
   artifactsHash: ({ artifactsHash }) => artifactsHash,
   avatars: ({ avatars }) => avatars,
+  userAvatars: ({ userAvatars }) => userAvatars,
   weapons: ({ weapons }) => weapons,
 };
 declare module "vuex/types/index" {

@@ -14,11 +14,7 @@
     {
       "level": 1,
       "itemCost": [
-        {
-          "id": "AgnidusAgateSliver",
-          "name": "Agnidus Agate Sliver",
-          "count": 1
-        },
+        { "id": "AgnidusAgateSliver", "name": "Agnidus Agate Sliver", "count": 1 },
         { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 3 },
         { "id": "FirmArrowhead", "name": "Firm Arrowhead", "count": 3 }
       ],
@@ -30,11 +26,7 @@
     {
       "level": 2,
       "itemCost": [
-        {
-          "id": "AgnidusAgateFragment",
-          "name": "Agnidus Agate Fragment",
-          "count": 3
-        },
+        { "id": "AgnidusAgateFragment", "name": "Agnidus Agate Fragment", "count": 3 },
         { "id": "EverflameSeed", "name": "Everflame Seed", "count": 2 },
         { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 10 },
         { "id": "FirmArrowhead", "name": "Firm Arrowhead", "count": 15 }
@@ -47,11 +39,7 @@
     {
       "level": 3,
       "itemCost": [
-        {
-          "id": "AgnidusAgateFragment",
-          "name": "Agnidus Agate Fragment",
-          "count": 6
-        },
+        { "id": "AgnidusAgateFragment", "name": "Agnidus Agate Fragment", "count": 6 },
         { "id": "EverflameSeed", "name": "Everflame Seed", "count": 4 },
         { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 20 },
         { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 12 }
@@ -64,11 +52,7 @@
     {
       "level": 4,
       "itemCost": [
-        {
-          "id": "AgnidusAgateChunk",
-          "name": "Agnidus Agate Chunk",
-          "count": 3
-        },
+        { "id": "AgnidusAgateChunk", "name": "Agnidus Agate Chunk", "count": 3 },
         { "id": "EverflameSeed", "name": "Everflame Seed", "count": 8 },
         { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 30 },
         { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 18 }
@@ -81,18 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        {
-          "id": "AgnidusAgateChunk",
-          "name": "Agnidus Agate Chunk",
-          "count": 6
-        },
+        { "id": "AgnidusAgateChunk", "name": "Agnidus Agate Chunk", "count": 6 },
         { "id": "EverflameSeed", "name": "Everflame Seed", "count": 12 },
         { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 45 },
-        {
-          "id": "WeatheredArrowhead",
-          "name": "Weathered Arrowhead",
-          "count": 12
-        }
+        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 12 }
       ],
       "HP": 2417.2,
       "ATK": 56.979,
@@ -102,18 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        {
-          "id": "AgnidusAgateGemstone",
-          "name": "Agnidus Agate Gemstone",
-          "count": 6
-        },
+        { "id": "AgnidusAgateGemstone", "name": "Agnidus Agate Gemstone", "count": 6 },
         { "id": "EverflameSeed", "name": "Everflame Seed", "count": 20 },
         { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 60 },
-        {
-          "id": "WeatheredArrowhead",
-          "name": "Weathered Arrowhead",
-          "count": 24
-        }
+        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 24 }
       ],
       "HP": 2838.3,
       "ATK": 66.904,
@@ -127,11 +95,7 @@
     "name": "Explosive Puppet",
     "desc": "The ever-reliable Baron Bunny takes the stage.\n\n<color=#FFD780FF>Baron Bunny</color>\n·Continuously taunts the enemy, drawing their fire.\n·Baron Bunny's HP scales with Amber's Max HP.\n·When destroyed or when its timer expires, Baron Bunny explodes, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\n\n<color=#FFD780FF>Hold</color>\nAdjusts the throwing direction of Baron Bunny.\nThe longer the button is held, the further the throw.\n\n<i>Baron Bunny hails from a storied lineage, but Amber has stopped keeping count since Baron Bunny the 893rd.</i>",
     "cd": 15,
-    "paramTpls": [
-      "Inherited HP|{param1:F1P}",
-      "Explosion DMG|{param2:P}",
-      "CD|{param4:F1}s"
-    ],
+    "paramTpls": ["Inherited HP|{param1:F1P}", "Explosion DMG|{param2:P}", "CD|{param4:F1}s"],
     "paramVals": [
       [0.4136, 1.232, -0.5864, 15],
       [0.44462, 1.3244, -0.55538, 15],
@@ -155,13 +119,7 @@
     "desc": "Fires off a shower of arrows, dealing continuous <color=#FF9999FF>AoE Pyro DMG</color>.\n\n<i>Amber's passion truly burns hot.</i>",
     "cd": 12,
     "energyCost": 40,
-    "paramTpls": [
-      "Fiery Rain DMG Per Wave|{param1:F1P}",
-      "Total Fiery Rain DMG|{param4:P}",
-      "Duration|{param5:F1}s",
-      "CD|{param2:F1}s",
-      "Energy Cost|{param3:I}"
-    ],
+    "paramTpls": ["Fiery Rain DMG Per Wave|{param1:F1P}", "Total Fiery Rain DMG|{param4:P}", "Duration|{param5:F1}s", "CD|{param2:F1}s", "Energy Cost|{param3:I}"],
     "paramVals": [
       [0.2808, 12, 40, 5.0544, 2],
       [0.30186, 12, 40, 5.4335, 2],
@@ -196,174 +154,38 @@
       "Low/High Plunge DMG|{param9:P}/{param10:P}"
     ],
     "paramVals": [
-      [
-        0.3612,
-        0.3612,
-        0.4644,
-        0.473,
-        0.5934,
-        0.4386,
-        1.24,
-        0.56829,
-        1.1363,
-        1.4193
-      ],
-      [
-        0.3906,
-        0.3906,
-        0.5022,
-        0.5115,
-        0.6417,
-        0.4743,
-        1.333,
-        0.61454,
-        1.2288,
-        1.5349
-      ],
+      [0.3612, 0.3612, 0.4644, 0.473, 0.5934, 0.4386, 1.24, 0.56829, 1.1363, 1.4193],
+      [0.3906, 0.3906, 0.5022, 0.5115, 0.6417, 0.4743, 1.333, 0.61454, 1.2288, 1.5349],
       [0.42, 0.42, 0.54, 0.55, 0.69, 0.51, 1.426, 0.6608, 1.3213, 1.6504],
       [0.462, 0.462, 0.594, 0.605, 0.759, 0.561, 1.55, 0.72688, 1.4535, 1.8154],
-      [
-        0.4914,
-        0.4914,
-        0.6318,
-        0.6435,
-        0.8073,
-        0.5967,
-        1.643,
-        0.77314,
-        1.5459,
-        1.931
-      ],
-      [
-        0.525,
-        0.525,
-        0.675,
-        0.6875,
-        0.8625,
-        0.6375,
-        1.736,
-        0.826,
-        1.6516,
-        2.063
-      ],
-      [
-        0.5712,
-        0.5712,
-        0.7344,
-        0.748,
-        0.9384,
-        0.6936,
-        1.86,
-        0.89869,
-        1.797,
-        2.2445
-      ],
-      [
-        0.6174,
-        0.6174,
-        0.7938,
-        0.8085,
-        1.0143,
-        0.7497,
-        1.984,
-        0.97138,
-        1.9423,
-        2.4261
-      ],
-      [
-        0.6636,
-        0.6636,
-        0.8532,
-        0.869,
-        1.0902,
-        0.8058,
-        2.108,
-        1.0441,
-        2.0877,
-        2.6076
-      ],
+      [0.4914, 0.4914, 0.6318, 0.6435, 0.8073, 0.5967, 1.643, 0.77314, 1.5459, 1.931],
+      [0.525, 0.525, 0.675, 0.6875, 0.8625, 0.6375, 1.736, 0.826, 1.6516, 2.063],
+      [0.5712, 0.5712, 0.7344, 0.748, 0.9384, 0.6936, 1.86, 0.89869, 1.797, 2.2445],
+      [0.6174, 0.6174, 0.7938, 0.8085, 1.0143, 0.7497, 1.984, 0.97138, 1.9423, 2.4261],
+      [0.6636, 0.6636, 0.8532, 0.869, 1.0902, 0.8058, 2.108, 1.0441, 2.0877, 2.6076],
       [0.714, 0.714, 0.918, 0.935, 1.173, 0.867, 2.232, 1.1234, 2.2462, 2.8057],
-      [
-        0.7644,
-        0.7644,
-        0.9828,
-        1.001,
-        1.2558,
-        0.9282,
-        2.356,
-        1.2027,
-        2.4048,
-        3.0037
-      ],
-      [
-        0.8148,
-        0.8148,
-        1.0476,
-        1.067,
-        1.3386,
-        0.9894,
-        2.48,
-        1.282,
-        2.5634,
-        3.2018
-      ],
-      [
-        0.8652,
-        0.8652,
-        1.1124,
-        1.133,
-        1.4214,
-        1.0506,
-        2.635,
-        1.3612,
-        2.7219,
-        3.3998
-      ],
-      [
-        0.9156,
-        0.9156,
-        1.1772,
-        1.199,
-        1.5042,
-        1.1118,
-        2.79,
-        1.4405,
-        2.8805,
-        3.5979
-      ],
+      [0.7644, 0.7644, 0.9828, 1.001, 1.2558, 0.9282, 2.356, 1.2027, 2.4048, 3.0037],
+      [0.8148, 0.8148, 1.0476, 1.067, 1.3386, 0.9894, 2.48, 1.282, 2.5634, 3.2018],
+      [0.8652, 0.8652, 1.1124, 1.133, 1.4214, 1.0506, 2.635, 1.3612, 2.7219, 3.3998],
+      [0.9156, 0.9156, 1.1772, 1.199, 1.5042, 1.1118, 2.79, 1.4405, 2.8805, 3.5979],
       [0.966, 0.966, 1.242, 1.265, 1.587, 1.173, 2.945, 1.5198, 3.039, 3.7959]
     ]
   },
+  "talents": [
+    { "name": "Every Arrow Finds Its Target", "desc": "Increases the CRIT Rate of <color=#FFD780FF>Fiery Rain</color> by 10% and widens its AoE by 30%.", "unlock": 1, "values": [0.1, 0.3] },
+    { "name": "Precise Shot", "desc": "Aimed Shot hits on weak points increase ATK by 15% for 10s.", "unlock": 4, "values": [0.15, 10] },
+    { "name": "Gliding Champion", "desc": "Decreases gliding Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects." }
+  ],
   "c13ns": [
-    {
-      "name": "One Arrow to Rule Them All",
-      "desc": "Fires 2 arrows per <color=#FFD780FF>Aimed Shot</color>. The second arrow deals 20% of the first arrow's DMG.",
-      "values": [0.2]
-    },
+    { "name": "One Arrow to Rule Them All", "desc": "Fires 2 arrows per <color=#FFD780FF>Aimed Shot</color>. The second arrow deals 20% of the first arrow's DMG.", "values": [0.2] },
     {
       "name": "Bunny Triggered",
-      "desc": "Baron Bunny, new and improved! Hitting Baron Bunny's foot with a fully-charged Aimed Shot manually detonates it.\\nExplosion via manual detonation deals 200% additional DMG.",
+      "desc": "Baron Bunny, new and improved! Hitting Baron Bunny's foot with a fully-charged Aimed Shot manually detonates it.\nExplosion via manual detonation deals 200% additional DMG.",
       "values": [2]
     },
-    {
-      "name": "It Burns!",
-      "desc": "Increases the Level of <color=#FFD780FF>Fiery Rain</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
-    {
-      "name": "It's Not Just Any Doll...",
-      "desc": "Decreases <color=#FFD780FF>Explosive Puppet</color>'s CD by 20%. Adds 1 additional charge.",
-      "values": []
-    },
-    {
-      "name": "It's Baron Bunny!",
-      "desc": "Increases the Level of <color=#FFD780FF>Explosive Puppet</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
-    {
-      "name": "Wildfire",
-      "desc": "<color=#FFD780FF>Fiery Rain</color> increases all party members' Movement SPD by 15% and ATK by 15% for 10s.",
-      "values": [0.15, 0.15, 10]
-    }
+    { "name": "It Burns!", "desc": "Increases the Level of <color=#FFD780FF>Fiery Rain</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "It's Not Just Any Doll...", "desc": "Decreases <color=#FFD780FF>Explosive Puppet</color>'s CD by 20%. Adds 1 additional charge." },
+    { "name": "It's Baron Bunny!", "desc": "Increases the Level of <color=#FFD780FF>Explosive Puppet</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "Wildfire", "desc": "<color=#FFD780FF>Fiery Rain</color> increases all party members' Movement SPD by 15% and ATK by 15% for 10s.", "values": [0.15, 0.15, 10] }
   ]
 }

@@ -70,17 +70,16 @@ export interface IArtifactType {
 
 /** 圣遗物套装 */
 export interface IArtifactSet {
-  id: number;
+  /** 用于索引 */ id: number;
   /** 名字 */ name: string;
-  /** 成套要求 */ need: number[];
-  affixs: IArtifactSetAffix[];
+  /** 套装等级 */ levels: IArtifactSetLevel[];
 }
 
-export interface IArtifactSetAffix {
-  /** 激活 */
-  level?: number;
+export interface IArtifactSetLevel {
+  /** 激活条件 */ need: number;
   /** 描述 */ desc: string;
-  attrs: IAttr[];
+  /** 增幅 */ attrs: IAttr[];
+  /** 参数 */ params: number[];
 }
 
 export interface IUserAvatar {
@@ -260,7 +259,10 @@ export interface ISkillAttribute {
 export interface ITalent {
   name: string;
   desc: string;
-  values: number[];
+  unlock?: number;
+  unlockDesc?: string;
+  tpl?: string[];
+  values?: number[];
 }
 
 /** 命之座 */

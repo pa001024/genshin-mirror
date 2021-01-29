@@ -14,11 +14,7 @@
     {
       "level": 1,
       "itemCost": [
-        {
-          "id": "PrithivaTopazSliver",
-          "name": "堅牢なトパーズ·砕屑",
-          "count": 1
-        },
+        { "id": "PrithivaTopazSliver", "name": "堅牢なトパーズ·砕屑", "count": 1 },
         { "id": "GlazeLily", "name": "琉璃百合", "count": 3 },
         { "id": "RecruitsInsignia", "name": "新兵の記章", "count": 3 }
       ],
@@ -30,11 +26,7 @@
     {
       "level": 2,
       "itemCost": [
-        {
-          "id": "PrithivaTopazFragment",
-          "name": "堅牢なトパーズ·欠片",
-          "count": 3
-        },
+        { "id": "PrithivaTopazFragment", "name": "堅牢なトパーズ·欠片", "count": 3 },
         { "id": "BasaltPillar", "name": "玄岩の塔", "count": 2 },
         { "id": "GlazeLily", "name": "琉璃百合", "count": 10 },
         { "id": "RecruitsInsignia", "name": "新兵の記章", "count": 15 }
@@ -47,11 +39,7 @@
     {
       "level": 3,
       "itemCost": [
-        {
-          "id": "PrithivaTopazFragment",
-          "name": "堅牢なトパーズ·欠片",
-          "count": 6
-        },
+        { "id": "PrithivaTopazFragment", "name": "堅牢なトパーズ·欠片", "count": 6 },
         { "id": "BasaltPillar", "name": "玄岩の塔", "count": 4 },
         { "id": "GlazeLily", "name": "琉璃百合", "count": 20 },
         { "id": "SergeantsInsignia", "name": "士官の記章", "count": 12 }
@@ -107,11 +95,7 @@
     "name": "璇璣屏",
     "desc": "黄金、黒曜岩、強者の余裕で璇璣屏を作り、<color=#FFE699FF>岩元素範囲ダメージ</color>を与える。\n\n<color=#FFD780FF>璇璣屏</color>\n·敵の投擲攻撃を防御する。\n·耐久度は凝光のHPによって決まる。\n\n璇璣屏は<color=#FFE699FF>岩元素創造物</color>と見なされ、一部の攻撃を防ぐことができるが、璇璣屏に登ることはできない。同時に最大1つまで存在可能。\n\n<i>星羅棋布、璇璣合屏。</i>",
     "cd": 12,
-    "paramTpls": [
-      "HP継承|{param3:F1P}",
-      "スキルダメージ|{param2:P}",
-      "クールタイム|{param4:F1}秒"
-    ],
+    "paramTpls": ["HP継承|{param3:F1P}", "スキルダメージ|{param2:P}", "クールタイム|{param4:F1}秒"],
     "paramVals": [
       [-0.499, 2.304, 0.501, 12],
       [-0.469, 2.4768, 0.531, 12],
@@ -135,11 +119,7 @@
     "desc": "自身の周りに宝石を凝聚させ、それらを一気に放つ。自動索敵する宝石は周りの敵を攻撃し、大量の<color=#FFE699FF>岩元素ダメージ</color>を与える。\n周りに璇璣屏が存在する時に天権崩玉を発動すると、璇璣屏から追加で宝石が放たれ、敵を攻撃する。\n\n<i>星が散り、敵を滅ぼす。</i>",
     "cd": 12,
     "energyCost": 40,
-    "paramTpls": [
-      "宝石ダメージ|1つにつき{param1:F1P}",
-      "クールタイム|{param2:F1}秒",
-      "元素エネルギー|{param3:I}"
-    ],
+    "paramTpls": ["宝石ダメージ|1つにつき{param1:F1P}", "クールタイム|{param2:F1}秒", "元素エネルギー|{param3:I}"],
     "paramVals": [
       [0.8696, 12, 40],
       [0.93482, 12, 40],
@@ -188,36 +168,17 @@
       [0.68544, 4.2615, 1.2142, 50, 1.5198, 3.039, 3.7959]
     ]
   },
+  "talents": [
+    { "name": "物換星移", "desc": "星璇がついている間、凝光の重撃はスタミナを消費しない。", "unlock": 1 },
+    { "name": "備えあれば憂いなし", "desc": "<color=#FFD780FF>璇璣屏</color>を突き抜けたキャラクターの<color=#FFE699FF>岩元素ダメージ</color>+12%、継続時間10秒。", "unlock": 4, "values": [0.12, 10] },
+    { "name": "奇石宝物録", "desc": "ミニマップで周囲の<color=#FFD780FF>鉱脈</color>（鉄鉱、白鉄鉱、水晶鉱、魔晶鉱、星銀鉱）の位置を表示する。" }
+  ],
   "c13ns": [
-    {
-      "name": "散る星の破片",
-      "desc": "通常攻撃が命中すると範囲ダメージを与える。",
-      "values": []
-    },
-    {
-      "name": "璇璣、崑崙を鎮める",
-      "desc": "<color=#FFD780FF>璇璣屏</color>が破裂した時、クールタイムがリセットする。\\n6秒毎に1回のみ発動可能。",
-      "values": []
-    },
-    {
-      "name": "森羅星列の囲い",
-      "desc": "<color=#FFD780FF>天権崩玉</color>のスキルLv.+3。\\n最大Lv.15まで。",
-      "values": []
-    },
-    {
-      "name": "神機妙道の陣組み",
-      "desc": "<color=#FFD780FF>璇璣屏</color>付近のキャラクターの全元素耐性+10%。",
-      "values": []
-    },
-    {
-      "name": "瓊屏と千扇の守り",
-      "desc": "<color=#FFD780FF>璇璣屏</color>のスキルLv.+3。\\n最大Lv.15まで。",
-      "values": []
-    },
-    {
-      "name": "燦々たる七星",
-      "desc": "<color=#FFD780FF>天権崩玉</color>を放つ時、凝光に七枚の星璇を生成する。",
-      "values": []
-    }
+    { "name": "散る星の破片", "desc": "通常攻撃が命中すると範囲ダメージを与える。" },
+    { "name": "璇璣、崑崙を鎮める", "desc": "<color=#FFD780FF>璇璣屏</color>が破裂した時、クールタイムがリセットする。\n6秒毎に1回のみ発動可能。" },
+    { "name": "森羅星列の囲い", "desc": "<color=#FFD780FF>天権崩玉</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "神機妙道の陣組み", "desc": "<color=#FFD780FF>璇璣屏</color>付近のキャラクターの全元素耐性+10%。" },
+    { "name": "瓊屏と千扇の守り", "desc": "<color=#FFD780FF>璇璣屏</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "燦々たる七星", "desc": "<color=#FFD780FF>天権崩玉</color>を放つ時、凝光に七枚の星璇を生成する。" }
   ]
 }

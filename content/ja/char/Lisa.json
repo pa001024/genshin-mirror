@@ -14,11 +14,7 @@
     {
       "level": 1,
       "itemCost": [
-        {
-          "id": "VajradaAmethystSliver",
-          "name": "最勝のアメシスト·砕屑",
-          "count": 1
-        },
+        { "id": "VajradaAmethystSliver", "name": "最勝のアメシスト·砕屑", "count": 1 },
         { "id": "Valberry", "name": "ヴァルベリー", "count": 3 },
         { "id": "SlimeCondensate", "name": "スライムの液体", "count": 3 }
       ],
@@ -30,11 +26,7 @@
     {
       "level": 2,
       "itemCost": [
-        {
-          "id": "VajradaAmethystFragment",
-          "name": "最勝のアメシスト·欠片",
-          "count": 3
-        },
+        { "id": "VajradaAmethystFragment", "name": "最勝のアメシスト·欠片", "count": 3 },
         { "id": "LightningPrism", "name": "雷光のプリズム", "count": 2 },
         { "id": "Valberry", "name": "ヴァルベリー", "count": 10 },
         { "id": "SlimeCondensate", "name": "スライムの液体", "count": 15 }
@@ -47,11 +39,7 @@
     {
       "level": 3,
       "itemCost": [
-        {
-          "id": "VajradaAmethystFragment",
-          "name": "最勝のアメシスト·欠片",
-          "count": 6
-        },
+        { "id": "VajradaAmethystFragment", "name": "最勝のアメシスト·欠片", "count": 6 },
         { "id": "LightningPrism", "name": "雷光のプリズム", "count": 4 },
         { "id": "Valberry", "name": "ヴァルベリー", "count": 20 },
         { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 12 }
@@ -64,11 +52,7 @@
     {
       "level": 4,
       "itemCost": [
-        {
-          "id": "VajradaAmethystChunk",
-          "name": "最勝のアメシスト·塊",
-          "count": 3
-        },
+        { "id": "VajradaAmethystChunk", "name": "最勝のアメシスト·塊", "count": 3 },
         { "id": "LightningPrism", "name": "雷光のプリズム", "count": 8 },
         { "id": "Valberry", "name": "ヴァルベリー", "count": 30 },
         { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 18 }
@@ -81,11 +65,7 @@
     {
       "level": 5,
       "itemCost": [
-        {
-          "id": "VajradaAmethystChunk",
-          "name": "最勝のアメシスト·塊",
-          "count": 6
-        },
+        { "id": "VajradaAmethystChunk", "name": "最勝のアメシスト·塊", "count": 6 },
         { "id": "LightningPrism", "name": "雷光のプリズム", "count": 12 },
         { "id": "Valberry", "name": "ヴァルベリー", "count": 45 },
         { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 12 }
@@ -98,11 +78,7 @@
     {
       "level": 6,
       "itemCost": [
-        {
-          "id": "VajradaAmethystGemstone",
-          "name": "最勝のアメシスト",
-          "count": 6
-        },
+        { "id": "VajradaAmethystGemstone", "name": "最勝のアメシスト", "count": 6 },
         { "id": "LightningPrism", "name": "雷光のプリズム", "count": 20 },
         { "id": "Valberry", "name": "ヴァルベリー", "count": 60 },
         { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 24 }
@@ -151,12 +127,7 @@
     "desc": "薔薇の雷光を召喚し、強い雷の力で周囲の敵に<color=#FFACFFFF>雷元素ダメージ</color>を与え、ノックバックする。\n継続時間中、薔薇の雷光は周囲の敵を攻撃し、<color=#FFACFFFF>雷元素ダメージ</color>を与える。\n\n<i>この薔薇は美しいが、致命的な棘がある。</i>",
     "cd": 20,
     "energyCost": 80,
-    "paramTpls": [
-      "放電ダメージ|{param1:F1P}",
-      "継続時間|{param2:F1}秒",
-      "クールタイム|{param3:F1}秒",
-      "元素エネルギー|{param4:I}"
-    ],
+    "paramTpls": ["放電ダメージ|{param1:F1P}", "継続時間|{param2:F1}秒", "クールタイム|{param3:F1}秒", "元素エネルギー|{param4:I}"],
     "paramVals": [
       [0.3656, 15, 20, 80],
       [0.39302, 15, 20, 80],
@@ -207,36 +178,17 @@
       [0.96941, 0.87932, 1.0477, 1.3454, 4.3359, 50, 1.5198, 3.039, 3.7959]
     ]
   },
+  "talents": [
+    { "name": "感電余震", "desc": "重撃が命中した時、敵に<color=#FFD780FF>蒼雷</color>の誘雷效果を付与する。", "unlock": 1, "values": [0.7] },
+    { "name": "静電気フィールド", "desc": "<color=#FFD780FF>蔷薇の雷光</color>攻撃を受けた敵の防御力-15%。継続時間10秒。", "unlock": 4, "values": [0.15, 10] },
+    { "name": "薬剤の知識", "desc": "薬剤を合成する時、20%の確率で材料が返還される。" }
+  ],
   "c13ns": [
-    {
-      "name": "無限の電気回路",
-      "desc": "<color=#FFD780FF>蒼雷</color>を長押しで発動した後、敵に命中する度にリサの元素エネルギーが2回復する。\\n一回で最大10まで回復可能。",
-      "values": []
-    },
-    {
-      "name": "空間電位の結界",
-      "desc": "<color=#FFD780FF>蒼雷</color>長押し時に下記の効果が付与される：\\n·防御力+25%。\\n·リサの中断耐性をアップする。",
-      "values": []
-    },
-    {
-      "name": "共振の雷光",
-      "desc": "<color=#FFD780FF>薔薇の雷光</color>のスキルLv.+3。\\n最大Lv.15まで。",
-      "values": []
-    },
-    {
-      "name": "雨の如くプラズマ",
-      "desc": "<color=#FFD780FF>薔薇の雷光</color>が攻撃する時、放つ稲妻が1~3本に増加する。",
-      "values": []
-    },
-    {
-      "name": "プラズマ落雷",
-      "desc": "<color=#FFD780FF>蒼雷</color>のスキルLv.+3。\\n最大Lv.15まで。",
-      "values": []
-    },
-    {
-      "name": "パルスの魔女",
-      "desc": "登場時、周囲の敵に<color=#FFD780FF>蒼雷</color>の誘雷効果を3重付与する。\\nこの効果は5秒毎に1回のみ発動可能。",
-      "values": []
-    }
+    { "name": "無限の電気回路", "desc": "<color=#FFD780FF>蒼雷</color>を長押しで発動した後、敵に命中する度にリサの元素エネルギーが2回復する。\n一回で最大10まで回復可能。" },
+    { "name": "空間電位の結界", "desc": "<color=#FFD780FF>蒼雷</color>長押し時に下記の効果が付与される：\n·防御力+25%。\n·リサの中断耐性をアップする。" },
+    { "name": "共振の雷光", "desc": "<color=#FFD780FF>薔薇の雷光</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "雨の如くプラズマ", "desc": "<color=#FFD780FF>薔薇の雷光</color>が攻撃する時、放つ稲妻が1~3本に増加する。" },
+    { "name": "プラズマ落雷", "desc": "<color=#FFD780FF>蒼雷</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "パルスの魔女", "desc": "登場時、周囲の敵に<color=#FFD780FF>蒼雷</color>の誘雷効果を3重付与する。\nこの効果は5秒毎に1回のみ発動可能。" }
   ]
 }

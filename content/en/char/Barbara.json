@@ -14,11 +14,7 @@
     {
       "level": 1,
       "itemCost": [
-        {
-          "id": "VarunadaLazuriteSliver",
-          "name": "Varunada Lazurite Sliver",
-          "count": 1
-        },
+        { "id": "VarunadaLazuriteSliver", "name": "Varunada Lazurite Sliver", "count": 1 },
         { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom", "count": 3 },
         { "id": "DiviningScroll", "name": "Divining Scroll", "count": 3 }
       ],
@@ -30,17 +26,9 @@
     {
       "level": 2,
       "itemCost": [
-        {
-          "id": "VarunadaLazuriteFragment",
-          "name": "Varunada Lazurite Fragment",
-          "count": 3
-        },
+        { "id": "VarunadaLazuriteFragment", "name": "Varunada Lazurite Fragment", "count": 3 },
         { "id": "CleansingHeart", "name": "Cleansing Heart", "count": 2 },
-        {
-          "id": "PhilanemoMushroom",
-          "name": "Philanemo Mushroom",
-          "count": 10
-        },
+        { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom", "count": 10 },
         { "id": "DiviningScroll", "name": "Divining Scroll", "count": 15 }
       ],
       "HP": 1048.6,
@@ -51,17 +39,9 @@
     {
       "level": 3,
       "itemCost": [
-        {
-          "id": "VarunadaLazuriteFragment",
-          "name": "Varunada Lazurite Fragment",
-          "count": 6
-        },
+        { "id": "VarunadaLazuriteFragment", "name": "Varunada Lazurite Fragment", "count": 6 },
         { "id": "CleansingHeart", "name": "Cleansing Heart", "count": 4 },
-        {
-          "id": "PhilanemoMushroom",
-          "name": "Philanemo Mushroom",
-          "count": 20
-        },
+        { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom", "count": 20 },
         { "id": "SealedScroll", "name": "Sealed Scroll", "count": 12 }
       ],
       "HP": 1629.4,
@@ -72,17 +52,9 @@
     {
       "level": 4,
       "itemCost": [
-        {
-          "id": "VarunadaLazuriteChunk",
-          "name": "Varunada Lazurite Chunk",
-          "count": 3
-        },
+        { "id": "VarunadaLazuriteChunk", "name": "Varunada Lazurite Chunk", "count": 3 },
         { "id": "CleansingHeart", "name": "Cleansing Heart", "count": 8 },
-        {
-          "id": "PhilanemoMushroom",
-          "name": "Philanemo Mushroom",
-          "count": 30
-        },
+        { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom", "count": 30 },
         { "id": "SealedScroll", "name": "Sealed Scroll", "count": 18 }
       ],
       "HP": 2065,
@@ -93,22 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        {
-          "id": "VarunadaLazuriteChunk",
-          "name": "Varunada Lazurite Chunk",
-          "count": 6
-        },
+        { "id": "VarunadaLazuriteChunk", "name": "Varunada Lazurite Chunk", "count": 6 },
         { "id": "CleansingHeart", "name": "Cleansing Heart", "count": 12 },
-        {
-          "id": "PhilanemoMushroom",
-          "name": "Philanemo Mushroom",
-          "count": 45
-        },
-        {
-          "id": "ForbiddenCurseScroll",
-          "name": "Forbidden Curse Scroll",
-          "count": 12
-        }
+        { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom", "count": 45 },
+        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 12 }
       ],
       "HP": 2500.6,
       "ATK": 40.699,
@@ -118,22 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        {
-          "id": "VarunadaLazuriteGemstone",
-          "name": "Varunada Lazurite Gemstone",
-          "count": 6
-        },
+        { "id": "VarunadaLazuriteGemstone", "name": "Varunada Lazurite Gemstone", "count": 6 },
         { "id": "CleansingHeart", "name": "Cleansing Heart", "count": 20 },
-        {
-          "id": "PhilanemoMushroom",
-          "name": "Philanemo Mushroom",
-          "count": 60
-        },
-        {
-          "id": "ForbiddenCurseScroll",
-          "name": "Forbidden Curse Scroll",
-          "count": 24
-        }
+        { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom", "count": 60 },
+        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 24 }
       ],
       "HP": 2936.1,
       "ATK": 47.789,
@@ -177,11 +125,7 @@
     "desc": "Heals your own party members and nearby teammates for a large amount of HP that scales with Barbara's Max HP.\n\n<i>Barbara's desire to heal strengthens her will to fight and sing.</i>",
     "cd": 20,
     "energyCost": 80,
-    "paramTpls": [
-      "Regeneration|{param1:F1P} Max HP+{param2:I}",
-      "CD|{param3:F1}s",
-      "Energy Cost|{param4:I}"
-    ],
+    "paramTpls": ["Regeneration|{param1:F1P} Max HP+{param2:I}", "CD|{param3:F1}s", "Energy Cost|{param4:I}"],
     "paramVals": [
       [0.176, 1694.3, 20, 80],
       [0.1892, 1863.7, 20, 80],
@@ -232,36 +176,31 @@
       [0.92632, 0.86953, 1.0047, 1.3513, 4.0696, 50, 1.5198, 3.039, 3.7959]
     ]
   },
-  "c13ns": [
+  "talents": [
+    { "name": "Glorious Season", "desc": "The Stamina Consumption of characters within <color=#FFD780FF>Let the Show Begin♪</color>'s Melody Loop is reduced by 12%.", "unlock": 1, "values": [0.12] },
     {
-      "name": "Gleeful Songs",
-      "desc": "Barbara regenerates 1 Energy every 10s.",
-      "values": []
+      "name": "Encore",
+      "desc": "When your active character gains an Elemental Orb/Particle, the duration of the Melody Loop of <color=#FFD780FF>Let the Show Begin♪</color> is extended by 1s.\nThe maximum extension is 5s.",
+      "unlock": 4,
+      "values": [1, 5]
     },
+    { "name": "With My Whole Heart♪", "desc": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product." }
+  ],
+  "c13ns": [
+    { "name": "Gleeful Songs", "desc": "Barbara regenerates 1 Energy every 10s." },
     {
       "name": "Vitality Burst",
-      "desc": "Decreases the CD of <color=#FFD780FF>Let the Show Begin♪</color> by 15%.\\nDuring the ability's duration, your active character gains a 15% <color=#80C0FFFF>Hydro DMG Bonus</color>.",
-      "values": []
+      "desc": "Decreases the CD of <color=#FFD780FF>Let the Show Begin♪</color> by 15%.\nDuring the ability's duration, your active character gains a 15% <color=#80C0FFFF>Hydro DMG Bonus</color>."
     },
-    {
-      "name": "Star of Tomorrow",
-      "desc": "Increases the Level of <color=#FFD780FF>Shining Miracle♪</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
+    { "name": "Star of Tomorrow", "desc": "Increases the Level of <color=#FFD780FF>Shining Miracle♪</color> by 3.\nMaximum upgrade level is 15." },
     {
       "name": "Attentiveness be My Power",
-      "desc": "Every opponent Barbara hits with her Charged Attack regenerates 1 Energy for her.\\nA maximum of 5 energy can be regenerated in this manner with any one Charged Attack.",
-      "values": []
+      "desc": "Every opponent Barbara hits with her Charged Attack regenerates 1 Energy for her.\nA maximum of 5 energy can be regenerated in this manner with any one Charged Attack."
     },
-    {
-      "name": "The Purest Companionship",
-      "desc": "Increases the Level of <color=#FFD780FF>Let the Show Begin♪</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
+    { "name": "The Purest Companionship", "desc": "Increases the Level of <color=#FFD780FF>Let the Show Begin♪</color> by 3.\nMaximum upgrade level is 15." },
     {
       "name": "Dedicating Everything to You",
-      "desc": "When Barbara is in the party but not on the field, and one of your own party members falls:\\n·Automatically revives the fallen character.\\n·Fully restores the revived character's HP to 100%.\\nThis effect can only occur once every 15 mins.",
-      "values": []
+      "desc": "When Barbara is in the party but not on the field, and one of your own party members falls:\n·Automatically revives the fallen character.\n·Fully restores the revived character's HP to 100%.\nThis effect can only occur once every 15 mins."
     }
   ]
 }

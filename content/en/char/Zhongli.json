@@ -14,11 +14,7 @@
     {
       "level": 1,
       "itemCost": [
-        {
-          "id": "PrithivaTopazSliver",
-          "name": "Prithiva Topaz Sliver",
-          "count": 1
-        },
+        { "id": "PrithivaTopazSliver", "name": "Prithiva Topaz Sliver", "count": 1 },
         { "id": "CorLapis", "name": "Cor Lapis", "count": 3 },
         { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 3 }
       ],
@@ -30,11 +26,7 @@
     {
       "level": 2,
       "itemCost": [
-        {
-          "id": "PrithivaTopazFragment",
-          "name": "Prithiva Topaz Fragment",
-          "count": 3
-        },
+        { "id": "PrithivaTopazFragment", "name": "Prithiva Topaz Fragment", "count": 3 },
         { "id": "BasaltPillar", "name": "Basalt Pillar", "count": 2 },
         { "id": "CorLapis", "name": "Cor Lapis", "count": 10 },
         { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 15 }
@@ -47,11 +39,7 @@
     {
       "level": 3,
       "itemCost": [
-        {
-          "id": "PrithivaTopazFragment",
-          "name": "Prithiva Topaz Fragment",
-          "count": 6
-        },
+        { "id": "PrithivaTopazFragment", "name": "Prithiva Topaz Fragment", "count": 6 },
         { "id": "BasaltPillar", "name": "Basalt Pillar", "count": 4 },
         { "id": "CorLapis", "name": "Cor Lapis", "count": 20 },
         { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 12 }
@@ -64,11 +52,7 @@
     {
       "level": 4,
       "itemCost": [
-        {
-          "id": "PrithivaTopazChunk",
-          "name": "Prithiva Topaz Chunk",
-          "count": 3
-        },
+        { "id": "PrithivaTopazChunk", "name": "Prithiva Topaz Chunk", "count": 3 },
         { "id": "BasaltPillar", "name": "Basalt Pillar", "count": 8 },
         { "id": "CorLapis", "name": "Cor Lapis", "count": 30 },
         { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 18 }
@@ -81,11 +65,7 @@
     {
       "level": 5,
       "itemCost": [
-        {
-          "id": "PrithivaTopazChunk",
-          "name": "Prithiva Topaz Chunk",
-          "count": 6
-        },
+        { "id": "PrithivaTopazChunk", "name": "Prithiva Topaz Chunk", "count": 6 },
         { "id": "BasaltPillar", "name": "Basalt Pillar", "count": 12 },
         { "id": "CorLapis", "name": "Cor Lapis", "count": 45 },
         { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 12 }
@@ -98,11 +78,7 @@
     {
       "level": 6,
       "itemCost": [
-        {
-          "id": "PrithivaTopazGemstone",
-          "name": "Prithiva Topaz Gemstone",
-          "count": 6
-        },
+        { "id": "PrithivaTopazGemstone", "name": "Prithiva Topaz Gemstone", "count": 6 },
         { "id": "BasaltPillar", "name": "Basalt Pillar", "count": 20 },
         { "id": "CorLapis", "name": "Cor Lapis", "count": 60 },
         { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 24 }
@@ -151,12 +127,7 @@
     "desc": "Brings a falling meteor down to earth, dealing massive <color=#FFE699FF>Geo DMG</color> to opponents caught in its AoE and applying the <color=#FFE699FF>Petrification</color> status to them.\n\n<color=#FFD780FF>Petrification</color>\nOpponents affected by the <color=#FFE699FF>Petrification</color> status cannot move.\n\n<i>The falling meteor punishes the unjust.</i>",
     "cd": 12,
     "energyCost": 40,
-    "paramTpls": [
-      "Skill DMG|{param1:P}",
-      "Petrification Duration|{param2:F1}s",
-      "CD|{param3:F1}s",
-      "Energy Cost|{param4:I}"
-    ],
+    "paramTpls": ["Skill DMG|{param1:P}", "Petrification Duration|{param2:F1}s", "CD|{param3:F1}s", "Energy Cost|{param4:I}"],
     "paramVals": [
       [4.0108, 3.1, 12, 40],
       [4.4444, 3.2, 12, 40],
@@ -192,232 +163,46 @@
       "Low/High Plunge DMG|{param10:P}/{param11:P}"
     ],
     "paramVals": [
-      [
-        0.30769,
-        0.31152,
-        0.38576,
-        0.42939,
-        0.1075,
-        0.54497,
-        1.1103,
-        25,
-        0.63932,
-        1.2784,
-        1.5968
-      ],
-      [
-        0.33274,
-        0.33687,
-        0.41716,
-        0.46434,
-        0.11625,
-        0.58932,
-        1.2006,
-        25,
-        0.69136,
-        1.3824,
-        1.7267
-      ],
-      [
-        0.35778,
-        0.36223,
-        0.44856,
-        0.49929,
-        0.125,
-        0.63368,
-        1.291,
-        25,
-        0.7434,
-        1.4865,
-        1.8567
-      ],
-      [
-        0.39356,
-        0.39845,
-        0.49342,
-        0.54922,
-        0.1375,
-        0.69705,
-        1.4201,
-        25,
-        0.81774,
-        1.6351,
-        2.0424
-      ],
-      [
-        0.4186,
-        0.42381,
-        0.52482,
-        0.58417,
-        0.14625,
-        0.74141,
-        1.5105,
-        25,
-        0.86978,
-        1.7392,
-        2.1723
-      ],
-      [
-        0.44723,
-        0.45279,
-        0.5607,
-        0.62411,
-        0.15625,
-        0.7921,
-        1.6137,
-        25,
-        0.92925,
-        1.8581,
-        2.3209
-      ],
-      [
-        0.48658,
-        0.49263,
-        0.61004,
-        0.67903,
-        0.17,
-        0.86181,
-        1.7558,
-        25,
-        1.011,
-        2.0216,
-        2.5251
-      ],
-      [
-        0.52594,
-        0.53248,
-        0.65938,
-        0.73396,
-        0.18375,
-        0.93151,
-        1.8978,
-        25,
-        1.0928,
-        2.1851,
-        2.7293
-      ],
-      [
-        0.56529,
-        0.57232,
-        0.70872,
-        0.78888,
-        0.1975,
-        1.0012,
-        2.0398,
-        25,
-        1.1746,
-        2.3486,
-        2.9336
-      ],
-      [
-        0.60823,
-        0.61579,
-        0.76255,
-        0.84879,
-        0.2125,
-        1.0773,
-        2.1947,
-        25,
-        1.2638,
-        2.527,
-        3.1564
-      ],
-      [
-        0.65742,
-        0.6656,
-        0.82423,
-        0.91745,
-        0.22969,
-        1.1644,
-        2.3722,
-        25,
-        1.353,
-        2.7054,
-        3.3792
-      ],
-      [
-        0.71527,
-        0.72417,
-        0.89676,
-        0.99818,
-        0.2499,
-        1.2669,
-        2.581,
-        25,
-        1.4422,
-        2.8838,
-        3.602
-      ],
-      [
-        0.77313,
-        0.78274,
-        0.96929,
-        1.0789,
-        0.27011,
-        1.3693,
-        2.7897,
-        25,
-        1.5314,
-        3.0622,
-        3.8248
-      ],
-      [
-        0.83098,
-        0.84131,
-        1.0418,
-        1.1597,
-        0.29032,
-        1.4718,
-        2.9985,
-        25,
-        1.6206,
-        3.2405,
-        4.0476
-      ],
-      [
-        0.89409,
-        0.90521,
-        1.121,
-        1.2477,
-        0.31238,
-        1.5836,
-        3.2262,
-        25,
-        1.7098,
-        3.4189,
-        4.2704
-      ]
+      [0.30769, 0.31152, 0.38576, 0.42939, 0.1075, 0.54497, 1.1103, 25, 0.63932, 1.2784, 1.5968],
+      [0.33274, 0.33687, 0.41716, 0.46434, 0.11625, 0.58932, 1.2006, 25, 0.69136, 1.3824, 1.7267],
+      [0.35778, 0.36223, 0.44856, 0.49929, 0.125, 0.63368, 1.291, 25, 0.7434, 1.4865, 1.8567],
+      [0.39356, 0.39845, 0.49342, 0.54922, 0.1375, 0.69705, 1.4201, 25, 0.81774, 1.6351, 2.0424],
+      [0.4186, 0.42381, 0.52482, 0.58417, 0.14625, 0.74141, 1.5105, 25, 0.86978, 1.7392, 2.1723],
+      [0.44723, 0.45279, 0.5607, 0.62411, 0.15625, 0.7921, 1.6137, 25, 0.92925, 1.8581, 2.3209],
+      [0.48658, 0.49263, 0.61004, 0.67903, 0.17, 0.86181, 1.7558, 25, 1.011, 2.0216, 2.5251],
+      [0.52594, 0.53248, 0.65938, 0.73396, 0.18375, 0.93151, 1.8978, 25, 1.0928, 2.1851, 2.7293],
+      [0.56529, 0.57232, 0.70872, 0.78888, 0.1975, 1.0012, 2.0398, 25, 1.1746, 2.3486, 2.9336],
+      [0.60823, 0.61579, 0.76255, 0.84879, 0.2125, 1.0773, 2.1947, 25, 1.2638, 2.527, 3.1564],
+      [0.65742, 0.6656, 0.82423, 0.91745, 0.22969, 1.1644, 2.3722, 25, 1.353, 2.7054, 3.3792],
+      [0.71527, 0.72417, 0.89676, 0.99818, 0.2499, 1.2669, 2.581, 25, 1.4422, 2.8838, 3.602],
+      [0.77313, 0.78274, 0.96929, 1.0789, 0.27011, 1.3693, 2.7897, 25, 1.5314, 3.0622, 3.8248],
+      [0.83098, 0.84131, 1.0418, 1.1597, 0.29032, 1.4718, 2.9985, 25, 1.6206, 3.2405, 4.0476],
+      [0.89409, 0.90521, 1.121, 1.2477, 0.31238, 1.5836, 3.2262, 25, 1.7098, 3.4189, 4.2704]
     ]
   },
+  "talents": [
+    {
+      "name": "Resonant Waves",
+      "desc": "When the Jade Shield takes DMG, it will Fortify:\n·Fortified characters have 5% increased Shield Strength.\nCan stack up to 5 times, and lasts until the Jade Shield disappears.",
+      "unlock": 1,
+      "values": [0.05]
+    },
+    { "name": "Dominance of Earth", "desc": "<color=#FFD780FF>Planet Befall</color> deals additional DMG equal to 33% of Zhongli's Max HP.", "unlock": 4, "values": [0.33] },
+    { "name": "Arcanum of Crystal", "desc": "Refunds 15% of the ores used when crafting Polearm-type weapons." }
+  ],
   "c13ns": [
-    {
-      "name": "Rock, the Backbone of Earth",
-      "desc": "Increases the maximum number of Stone Steles created by <color=#FFD780FF>Dominus Lapidis</color> that may exist simultaneously to 2.",
-      "values": []
-    },
-    {
-      "name": "Stone, the Cradle of Jade",
-      "desc": "<color=#FFD780FF>Planet Befall</color> grants nearby characters on the field a Jade Shield when it descends.",
-      "values": []
-    },
-    {
-      "name": "Jade, Shimmering through Darkness",
-      "desc": "Increases the Level of <color=#FFD780FF>Dominus Lapidis</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
+    { "name": "Rock, the Backbone of Earth", "desc": "Increases the maximum number of Stone Steles created by <color=#FFD780FF>Dominus Lapidis</color> that may exist simultaneously to 2." },
+    { "name": "Stone, the Cradle of Jade", "desc": "<color=#FFD780FF>Planet Befall</color> grants nearby characters on the field a Jade Shield when it descends." },
+    { "name": "Jade, Shimmering through Darkness", "desc": "Increases the Level of <color=#FFD780FF>Dominus Lapidis</color> by 3.\nMaximum upgrade level is 15." },
     {
       "name": "Topaz, Unbreakable and Fearless",
       "desc": "Increases <color=#FFD780FF>Planet Befall</color>'s AoE by 20% and increases the duration of Planet Befall's Petrification effect by 2s.",
       "values": [0.2, 2]
     },
-    {
-      "name": "Lazuli, Herald of the Order",
-      "desc": "Increases the Level of <color=#FFD780FF>Planet Befall</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
+    { "name": "Lazuli, Herald of the Order", "desc": "Increases the Level of <color=#FFD780FF>Planet Befall</color> by 3.\nMaximum upgrade level is 15." },
     {
       "name": "Chrysos, Bounty of Dominator",
-      "desc": "When the Jade Shield takes DMG, 40% of that incoming DMG is converted to HP for the current character.\\nA single instance of regeneration cannot exceed 8% of that character's Max HP.",
+      "desc": "When the Jade Shield takes DMG, 40% of that incoming DMG is converted to HP for the current character.\nA single instance of regeneration cannot exceed 8% of that character's Max HP.",
       "values": [0.4, 0.08]
     }
   ]

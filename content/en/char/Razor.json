@@ -14,11 +14,7 @@
     {
       "level": 1,
       "itemCost": [
-        {
-          "id": "VajradaAmethystSliver",
-          "name": "Vajrada Amethyst Sliver",
-          "count": 1
-        },
+        { "id": "VajradaAmethystSliver", "name": "Vajrada Amethyst Sliver", "count": 1 },
         { "id": "Wolfhook", "name": "Wolfhook", "count": 3 },
         { "id": "DamagedMask", "name": "Damaged Mask", "count": 3 }
       ],
@@ -30,11 +26,7 @@
     {
       "level": 2,
       "itemCost": [
-        {
-          "id": "VajradaAmethystFragment",
-          "name": "Vajrada Amethyst Fragment",
-          "count": 3
-        },
+        { "id": "VajradaAmethystFragment", "name": "Vajrada Amethyst Fragment", "count": 3 },
         { "id": "LightningPrism", "name": "Lightning Prism", "count": 2 },
         { "id": "Wolfhook", "name": "Wolfhook", "count": 10 },
         { "id": "DamagedMask", "name": "Damaged Mask", "count": 15 }
@@ -47,11 +39,7 @@
     {
       "level": 3,
       "itemCost": [
-        {
-          "id": "VajradaAmethystFragment",
-          "name": "Vajrada Amethyst Fragment",
-          "count": 6
-        },
+        { "id": "VajradaAmethystFragment", "name": "Vajrada Amethyst Fragment", "count": 6 },
         { "id": "LightningPrism", "name": "Lightning Prism", "count": 4 },
         { "id": "Wolfhook", "name": "Wolfhook", "count": 20 },
         { "id": "StainedMask", "name": "Stained Mask", "count": 12 }
@@ -64,11 +52,7 @@
     {
       "level": 4,
       "itemCost": [
-        {
-          "id": "VajradaAmethystChunk",
-          "name": "Vajrada Amethyst Chunk",
-          "count": 3
-        },
+        { "id": "VajradaAmethystChunk", "name": "Vajrada Amethyst Chunk", "count": 3 },
         { "id": "LightningPrism", "name": "Lightning Prism", "count": 8 },
         { "id": "Wolfhook", "name": "Wolfhook", "count": 30 },
         { "id": "StainedMask", "name": "Stained Mask", "count": 18 }
@@ -81,11 +65,7 @@
     {
       "level": 5,
       "itemCost": [
-        {
-          "id": "VajradaAmethystChunk",
-          "name": "Vajrada Amethyst Chunk",
-          "count": 6
-        },
+        { "id": "VajradaAmethystChunk", "name": "Vajrada Amethyst Chunk", "count": 6 },
         { "id": "LightningPrism", "name": "Lightning Prism", "count": 12 },
         { "id": "Wolfhook", "name": "Wolfhook", "count": 45 },
         { "id": "OminousMask", "name": "Ominous Mask", "count": 12 }
@@ -98,11 +78,7 @@
     {
       "level": 6,
       "itemCost": [
-        {
-          "id": "VajradaAmethystGemstone",
-          "name": "Vajrada Amethyst Gemstone",
-          "count": 6
-        },
+        { "id": "VajradaAmethystGemstone", "name": "Vajrada Amethyst Gemstone", "count": 6 },
         { "id": "LightningPrism", "name": "Lightning Prism", "count": 20 },
         { "id": "Wolfhook", "name": "Wolfhook", "count": 60 },
         { "id": "OminousMask", "name": "Ominous Mask", "count": 24 }
@@ -195,233 +171,44 @@
       "Low/High Plunge DMG|{param10:P}/{param11:P}"
     ],
     "paramVals": [
-      [
-        0.9592,
-        0.82632,
-        1.0331,
-        1.3605,
-        0.62539,
-        1.1309,
-        40,
-        5,
-        0.82047,
-        1.6406,
-        2.0492
-      ],
-      [
-        1.0246,
-        0.88266,
-        1.1036,
-        1.4532,
-        0.6763,
-        1.2229,
-        40,
-        5,
-        0.88725,
-        1.7741,
-        2.216
-      ],
-      [
-        1.09,
-        0.939,
-        1.174,
-        1.546,
-        0.7272,
-        1.315,
-        40,
-        5,
-        0.95403,
-        1.9077,
-        2.3828
-      ],
-      [
-        1.1772,
-        1.0141,
-        1.2679,
-        1.6697,
-        0.79992,
-        1.4465,
-        40,
-        5,
-        1.0494,
-        2.0984,
-        2.621
-      ],
-      [
-        1.2426,
-        1.0705,
-        1.3384,
-        1.7624,
-        0.85082,
-        1.5386,
-        40,
-        5,
-        1.1162,
-        2.232,
-        2.7878
-      ],
-      [
-        1.3189,
-        1.1362,
-        1.4205,
-        1.8707,
-        0.909,
-        1.6437,
-        40,
-        5,
-        1.1925,
-        2.3846,
-        2.9785
-      ],
-      [
-        1.417,
-        1.2207,
-        1.5262,
-        2.0098,
-        0.98899,
-        1.7884,
-        40,
-        5,
-        1.2975,
-        2.5944,
-        3.2406
-      ],
-      [
-        1.5151,
-        1.3052,
-        1.6319,
-        2.1489,
-        1.069,
-        1.9331,
-        40,
-        5,
-        1.4024,
-        2.8043,
-        3.5027
-      ],
-      [
-        1.6132,
-        1.3897,
-        1.7375,
-        2.2881,
-        1.149,
-        2.0777,
-        40,
-        5,
-        1.5074,
-        3.0141,
-        3.7648
-      ],
-      [
-        1.7113,
-        1.4742,
-        1.8432,
-        2.4272,
-        1.2362,
-        2.2355,
-        40,
-        5,
-        1.6219,
-        3.243,
-        4.0507
-      ],
-      [
-        1.8094,
-        1.5587,
-        1.9488,
-        2.5664,
-        1.3235,
-        2.3933,
-        40,
-        5,
-        1.7363,
-        3.4719,
-        4.3366
-      ],
-      [
-        1.9075,
-        1.6432,
-        2.0545,
-        2.7055,
-        1.4108,
-        2.5511,
-        40,
-        5,
-        1.8508,
-        3.7009,
-        4.6226
-      ],
-      [
-        2.0056,
-        1.7278,
-        2.1602,
-        2.8446,
-        1.498,
-        2.7089,
-        40,
-        5,
-        1.9653,
-        3.9298,
-        4.9085
-      ],
-      [
-        2.1037,
-        1.8123,
-        2.2658,
-        2.9838,
-        1.5853,
-        2.8667,
-        40,
-        5,
-        2.0798,
-        4.1587,
-        5.1944
-      ],
-      [
-        2.2018,
-        1.8968,
-        2.3715,
-        3.1229,
-        1.6726,
-        3.0245,
-        40,
-        5,
-        2.1943,
-        4.3876,
-        5.4804
-      ]
+      [0.9592, 0.82632, 1.0331, 1.3605, 0.62539, 1.1309, 40, 5, 0.82047, 1.6406, 2.0492],
+      [1.0246, 0.88266, 1.1036, 1.4532, 0.6763, 1.2229, 40, 5, 0.88725, 1.7741, 2.216],
+      [1.09, 0.939, 1.174, 1.546, 0.7272, 1.315, 40, 5, 0.95403, 1.9077, 2.3828],
+      [1.1772, 1.0141, 1.2679, 1.6697, 0.79992, 1.4465, 40, 5, 1.0494, 2.0984, 2.621],
+      [1.2426, 1.0705, 1.3384, 1.7624, 0.85082, 1.5386, 40, 5, 1.1162, 2.232, 2.7878],
+      [1.3189, 1.1362, 1.4205, 1.8707, 0.909, 1.6437, 40, 5, 1.1925, 2.3846, 2.9785],
+      [1.417, 1.2207, 1.5262, 2.0098, 0.98899, 1.7884, 40, 5, 1.2975, 2.5944, 3.2406],
+      [1.5151, 1.3052, 1.6319, 2.1489, 1.069, 1.9331, 40, 5, 1.4024, 2.8043, 3.5027],
+      [1.6132, 1.3897, 1.7375, 2.2881, 1.149, 2.0777, 40, 5, 1.5074, 3.0141, 3.7648],
+      [1.7113, 1.4742, 1.8432, 2.4272, 1.2362, 2.2355, 40, 5, 1.6219, 3.243, 4.0507],
+      [1.8094, 1.5587, 1.9488, 2.5664, 1.3235, 2.3933, 40, 5, 1.7363, 3.4719, 4.3366],
+      [1.9075, 1.6432, 2.0545, 2.7055, 1.4108, 2.5511, 40, 5, 1.8508, 3.7009, 4.6226],
+      [2.0056, 1.7278, 2.1602, 2.8446, 1.498, 2.7089, 40, 5, 1.9653, 3.9298, 4.9085],
+      [2.1037, 1.8123, 2.2658, 2.9838, 1.5853, 2.8667, 40, 5, 2.0798, 4.1587, 5.1944],
+      [2.2018, 1.8968, 2.3715, 3.1229, 1.6726, 3.0245, 40, 5, 2.1943, 4.3876, 5.4804]
     ]
   },
+  "talents": [
+    {
+      "name": "Awakening",
+      "desc": "Decreases <color=#FFD780FF>Claw and Thunder</color>'s CD by 18%.\nUsing <color=#FFD780FF>Lightning Fang</color> resets the CD of <color=#FFD780FF>Claw and Thunder</color>.",
+      "unlock": 1
+    },
+    { "name": "Hunger", "desc": "When Razor's Energy is below 50%, increases Energy Recharge by 30%.", "unlock": 4 },
+    { "name": "Wolvensprint", "desc": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects." }
+  ],
   "c13ns": [
-    {
-      "name": "Wolf's Instinct",
-      "desc": "Picking up an Elemental Orb or Particle increases Razor's DMG by 10% for 8s.",
-      "values": []
-    },
-    {
-      "name": "Suppression",
-      "desc": "Increases CRIT Rate against opponents with less than 30% HP by 10%.",
-      "values": []
-    },
-    {
-      "name": "Soul Companion",
-      "desc": "Increases the Level of <color=#FFD780FF>Lightning Fang</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
+    { "name": "Wolf's Instinct", "desc": "Picking up an Elemental Orb or Particle increases Razor's DMG by 10% for 8s." },
+    { "name": "Suppression", "desc": "Increases CRIT Rate against opponents with less than 30% HP by 10%." },
+    { "name": "Soul Companion", "desc": "Increases the Level of <color=#FFD780FF>Lightning Fang</color> by 3.\nMaximum upgrade level is 15." },
     {
       "name": "Bite",
-      "desc": "#When casting <color=#FFD780FF>Claw and Thunder</color> ({LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}), opponents hit will have their DEF decreased by 15% for 7s.",
-      "values": []
+      "desc": "#When casting <color=#FFD780FF>Claw and Thunder</color> ({LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}), opponents hit will have their DEF decreased by 15% for 7s."
     },
-    {
-      "name": "Sharpened Claws",
-      "desc": "Increases the Level of <color=#FFD780FF>Claw and Thunder</color> by 3.\\nMaximum upgrade level is 15.",
-      "values": []
-    },
+    { "name": "Sharpened Claws", "desc": "Increases the Level of <color=#FFD780FF>Claw and Thunder</color> by 3.\nMaximum upgrade level is 15." },
     {
       "name": "Lupus Fulguris",
-      "desc": "Every 10s, Razor's sword charges up, causing the next Normal Attack to release lightning that deals 100% of Razor's ATK as <color=#FFACFFFF>Electro DMG</color>.\\nWhen Razor is not using <color=#FFD780FF>Lightning Fang</color>, a lightning strike on an opponent will grant Razor an Electro Sigil for <color=#FFD780FF>Claw and Thunder</color>.",
-      "values": []
+      "desc": "Every 10s, Razor's sword charges up, causing the next Normal Attack to release lightning that deals 100% of Razor's ATK as <color=#FFACFFFF>Electro DMG</color>.\nWhen Razor is not using <color=#FFD780FF>Lightning Fang</color>, a lightning strike on an opponent will grant Razor an Electro Sigil for <color=#FFD780FF>Claw and Thunder</color>."
     }
   ]
 }
