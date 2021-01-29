@@ -1,7 +1,6 @@
 import { GetterTree, ActionTree, MutationTree } from "vuex";
 import { nanoid } from "nanoid";
 import jwt from "jsonwebtoken";
-import type { contentFunc } from "@nuxt/content/types/content";
 import { vuexPersistenceInstance } from "~/plugins/vuex-persist";
 import type { IArtifact, IArtifactSet, IArtifactType, IAvatar, IUserAvatar, IUserWeapon, IWeapon } from "~/modules/core";
 
@@ -152,9 +151,3 @@ export const getters: GetterTree<AppState, {}> = {
   userAvatars: ({ userAvatars }) => userAvatars,
   weapons: ({ weapons }) => weapons,
 };
-declare module "vuex/types/index" {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  interface Store<S> {
-    $content: contentFunc;
-  }
-}
