@@ -63,14 +63,13 @@
     "swirl": "扩散",
     "vaporize": "蒸发"
   },
-  "artifact": {
-    "part": {
-      "0": "生之花",
-      "1": "死之羽",
-      "2": "时之沙",
-      "3": "空之杯",
-      "4": "理之冠"
-    }
+  "artifactPart": {
+    "title": "部位",
+    "0": "生之花",
+    "1": "死之羽",
+    "2": "时之沙",
+    "3": "空之杯",
+    "4": "理之冠"
   },
   "region": {
     "0": "未知",
@@ -208,8 +207,9 @@
     "selected": "已选择:",
     "skillLevelDesc": "(不包含命座与其他加成)",
     "promoteLevel": "突破阶段",
+    "promoteLevelFormat": "突破阶段{0}",
     "c13ns": "命之座",
-    "c13nsFormat": "命之座{0}层"
-  },
-  "pleaseSelectAvatar": "请选择角色"
+    "c13nsFormat": "命之座{0}层",
+    "pleaseSelectAvatar": "请选择角色"
+  }
 }

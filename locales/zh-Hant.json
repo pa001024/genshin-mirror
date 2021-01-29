@@ -6,15 +6,17 @@
     "avatar": "角色列表",
     "weapon": "武器列表",
     "enemy": "敵人列表",
-    "item": "物品列表"
+    "item": "物品列表",
+    "artifact": "聖遺物"
   },
   "navigate": {
-    "weapon": "武器",
-    "setting": "設置",
-    "material": "材料",
     "avatar": "角色",
+    "weapon": "武器",
     "artifact": "聖遺物",
-    "enemy": "敵人"
+    "enemy": "敵人",
+    "material": "素材",
+    "setting": "設定",
+    "inv": "庫存"
   },
   "gender": {
     "0": "女",
@@ -24,7 +26,7 @@
   "element": {
     "0": "無",
     "1": "風",
-    "2": "巖",
+    "2": "岩",
     "3": "雷",
     "4": "草",
     "5": "水",
@@ -41,12 +43,12 @@
     "title": "武器"
   },
   "resonance": {
-    "title": "元素共鸣",
+    "title": "元素共鳴",
     "ProtectiveCanopy": "交織之護",
     "ImpetuousWinds": "迅捷之風",
-    "EnduringRock": "堅定之巖",
+    "EnduringRock": "堅定之岩",
     "HighVoltage": "強能之雷",
-    "SoothingWater": "愈療之水",
+    "SoothingWater": "癒療之水",
     "FerventFlames": "熱誠之火",
     "ShatteringIce": "粉碎之冰"
   },
@@ -60,6 +62,14 @@
     "superconduct": "超導",
     "swirl": "擴散",
     "vaporize": "蒸發"
+  },
+  "artifactPart": {
+    "0": "生之花",
+    "1": "死之羽",
+    "2": "時之沙",
+    "3": "空之杯",
+    "4": "理之冠",
+    "title": "部位"
   },
   "region": {
     "0": "未知",
@@ -148,281 +158,58 @@
     "51": "反暴擊率",
     "title": "加成"
   },
-  "artifact": {
-    "1": {
-      "name": "冒險家",
-      "flower": "冒險家之花",
-      "plume": "冒險家尾羽",
-      "sands": "冒險家懷錶",
-      "goblet": "冒險家金盃",
-      "circlet": "冒險家頭帶"
-    },
-    "2": {
-      "name": "幸運兒",
-      "flower": "幸運兒綠花",
-      "plume": "幸運兒鷹羽",
-      "sands": "幸運兒沙漏",
-      "goblet": "幸運兒之杯",
-      "circlet": "幸運兒銀冠"
-    },
-    "3": {
-      "name": "遊醫",
-      "flower": "遊醫的銀蓮",
-      "plume": "遊醫的梟羽",
-      "sands": "遊醫的懷鐘",
-      "goblet": "遊醫的藥壺",
-      "circlet": "遊醫的方巾"
-    },
-    "100": {
-      "name": "教官",
-      "flower": "教官的胸花",
-      "plume": "教官的羽飾",
-      "sands": "教官的懷錶",
-      "goblet": "教官的茶杯",
-      "circlet": "教官的帽子"
-    },
-    "101": {
-      "name": "戰狂",
-      "flower": "戰狂的薔薇",
-      "plume": "戰狂的翎羽",
-      "sands": "戰狂的時計",
-      "goblet": "戰狂的骨杯",
-      "circlet": "戰狂的鬼面"
-    },
-    "102": {
-      "name": "流放者",
-      "flower": "流放者之花",
-      "plume": "流放者之羽",
-      "sands": "流放者懷錶",
-      "goblet": "流放者之杯",
-      "circlet": "流放者頭冠"
-    },
-    "103": {
-      "name": "故人之心",
-      "flower": "故人之心",
-      "plume": "歸鄉之羽",
-      "sands": "逐光之石",
-      "goblet": "異國之盞",
-      "circlet": "感別之冠"
-    },
-    "104": {
-      "name": "武人",
-      "flower": "武人的紅花",
-      "plume": "武人的羽飾",
-      "sands": "武人的水漏",
-      "goblet": "武人的酒杯",
-      "circlet": "武人的頭巾"
-    },
-    "105": {
-      "name": "守護之心",
-      "flower": "守護之花",
-      "plume": "守護徽印",
-      "sands": "守護座鐘",
-      "goblet": "守護之皿",
-      "circlet": "守護束帶"
-    },
-    "106": {
-      "name": "奇蹟",
-      "flower": "奇蹟之花",
-      "plume": "奇蹟之羽",
-      "sands": "奇蹟之沙",
-      "goblet": "奇蹟之杯",
-      "circlet": "奇蹟耳墜"
-    },
-    "107": {
-      "name": "勇士之心",
-      "flower": "勇士的勳章",
-      "plume": "勇士的期許",
-      "sands": "勇士的堅毅",
-      "goblet": "勇士的壯行",
-      "circlet": "勇士的冠冕"
-    },
-    "108": {
-      "name": "賭徒",
-      "flower": "賭徒的胸花",
-      "plume": "賭徒的羽飾",
-      "sands": "賭徒的懷錶",
-      "goblet": "賭徒的骰盅",
-      "circlet": "賭徒的耳環"
-    },
-    "109": {
-      "name": "學士",
-      "flower": "學士的書籤",
-      "plume": "學士的羽筆",
-      "sands": "學士的時鐘",
-      "goblet": "學士的墨杯",
-      "circlet": "學士的鏡片"
-    },
-    "200": {
-      "name": "祭雷之人",
-      "circlet": "祭雷禮冠"
-    },
-    "201": {
-      "name": "祭冰之人",
-      "circlet": "祭冰禮冠"
-    },
-    "202": {
-      "name": "祭火之人",
-      "circlet": "祭火禮冠"
-    },
-    "203": {
-      "name": "祭水之人",
-      "circlet": "祭水禮冠"
-    },
-    "300": {
-      "name": "角鬥士的終幕禮",
-      "flower": "角鬥士的留戀",
-      "plume": "角鬥士的歸宿",
-      "sands": "角鬥士的希冀",
-      "goblet": "角鬥士的酣醉",
-      "circlet": "角鬥士的凱旋"
-    },
-    "301": {
-      "name": "被憐愛的少女",
-      "flower": "遠方的少女之心",
-      "plume": "少女飄搖的思念",
-      "sands": "少女苦短的良辰",
-      "goblet": "少女片刻的閒暇",
-      "circlet": "少女易逝的芳顏"
-    },
-    "302": {
-      "name": "昔日宗室之儀",
-      "flower": "宗室之花",
-      "plume": "宗室之翎",
-      "sands": "宗室時計",
-      "goblet": "宗室銀甕",
-      "circlet": "宗室面具"
-    },
-    "303": {
-      "name": "染血的騎士道",
-      "flower": "染血的鐵之心",
-      "plume": "染血的黑之羽",
-      "sands": "騎士染血之時",
-      "goblet": "染血騎士之杯",
-      "circlet": "染血的鐵假面"
-    },
-    "304": {
-      "name": "流浪大地的樂團",
-      "flower": "樂團的晨光",
-      "plume": "琴師的箭羽",
-      "sands": "終幕的時計",
-      "goblet": "吟遊者之壺",
-      "circlet": "指揮的禮帽"
-    },
-    "305": {
-      "name": "翠綠之影",
-      "flower": "野花記憶的綠野",
-      "plume": "獵人青翠的箭羽",
-      "sands": "翠綠獵人的篤定",
-      "goblet": "翠綠獵人的容器",
-      "circlet": "翠綠的獵人之冠"
-    },
-    "306": {
-      "name": "如雷的盛怒",
-      "flower": "雷鳥的憐憫",
-      "plume": "雷災的孑遺",
-      "sands": "雷霆的時計",
-      "goblet": "降雷的凶兆",
-      "circlet": "喚雷的頭冠"
-    },
-    "307": {
-      "name": "平息鳴雷的尊者",
-      "flower": "平雷之心",
-      "plume": "平雷之羽",
-      "sands": "平雷之刻",
-      "goblet": "平雷之器",
-      "circlet": "平雷之冠"
-    },
-    "308": {
-      "name": "熾烈的炎之魔女",
-      "flower": "魔女的炎之花",
-      "plume": "魔女常燃之羽",
-      "sands": "魔女破滅之時",
-      "goblet": "魔女的心之火",
-      "circlet": "焦灼的魔女帽"
-    },
-    "309": {
-      "name": "渡過烈火的賢人",
-      "flower": "渡火者的決絕",
-      "plume": "渡火者的解脫",
-      "sands": "渡火者的煎熬",
-      "goblet": "渡火者的醒悟",
-      "circlet": "渡火者的智慧"
-    },
-    "310": {
-      "name": "悠古的磐巖",
-      "flower": "磐陀裂生之花",
-      "plume": "嵯峨群峰之翼",
-      "sands": "星羅圭壁之晷",
-      "goblet": "巉巖琢塑之樽",
-      "circlet": "不動玄石之相"
-    },
-    "311": {
-      "name": "逆飛的流星",
-      "flower": "夏祭之花",
-      "plume": "夏祭終末",
-      "sands": "夏祭之刻",
-      "goblet": "夏祭水玉",
-      "circlet": "夏祭之面"
-    },
-    "312": {
-      "name": "冰風迷途的勇士",
-      "flower": "歷經風雪的思念",
-      "plume": "摧冰而行的執望",
-      "sands": "冰雪故園的終期",
-      "goblet": "遍結寒霜的傲骨",
-      "circlet": "破冰踏雪的迴音"
-    },
-    "313": {
-      "name": "沉淪之心",
-      "flower": "飾金胸花",
-      "plume": "追憶之風",
-      "sands": "堅銅羅盤",
-      "goblet": "沉波之盞",
-      "circlet": "酒漬船帽"
-    }
-  },
   "ui": {
-    "weaponType": "類型",
-    "language": "語言",
-    "login": "登錄",
     "filter": "篩選",
+    "weaponType": "類型",
     "subAttr": "副屬性",
+    "login": "登入",
     "reset": "重置",
+    "language": "語言",
     "travelerGender": "旅行者性別",
     "enemyType": "類型",
     "itemType": "物品類型",
-    "char404": "找不到此角色",
     "item404": "找不到此物品",
-    "affix": "特效",
-    "agreeTOS": "同意使用協議",
-    "attackSkill": "普通攻擊",
-    "close": "關閉",
-    "confirmPassword": "確認密碼",
-    "eMail": "電子郵箱",
-    "eMailIsRequired": "請輸入郵箱",
-    "eMailMustBeValid": "電子郵箱無效",
-    "elemBurst": "元素爆發",
-    "elemSkill": "元素戰技",
-    "forgotPassword": "忘記密碼",
+    "char404": "找不到此角色",
     "level": "{0}級",
-    "loginFailed": "登錄失敗",
-    "loginSuccess": "登錄成功 {0}秒後自動跳轉...",
-    "password": "密碼",
-    "passwordEasy": "密碼複雜度太低",
-    "passwordIsRequired": "請輸入密碼",
-    "passwordNotMatch": "密碼不匹配",
-    "passwordShort": "密碼長度不得低於6位",
-    "rarity": "稀有度",
-    "signup": "註冊",
-    "signupFailed": "註冊失敗: {0}",
-    "signupSuccess": "註冊成功 {0}秒後自動跳轉...",
-    "switchTheme": "夜間",
+    "elemSkill": "元素戰技",
+    "attackSkill": "普通攻擊",
+    "elemBurst": "元素爆發",
     "talent": "天賦",
+    "rarity": "稀有度",
+    "switchTheme": "夜間",
+    "affix": "特效",
+    "password": "密碼",
+    "usernameIsRequired": "請輸入用戶名",
+    "eMailIsRequired": "請輸入郵箱",
+    "passwordIsRequired": "請輸入密碼",
+    "eMail": "電子郵箱",
+    "eMailMustBeValid": "電子郵箱無效",
     "userLogin": "用戶登錄",
+    "passwordShort": "密碼長度不得低於6位",
+    "forgotPassword": "忘記密碼",
+    "passwordNotMatch": "密碼不匹配",
+    "passwordEasy": "密碼複雜度太低",
     "userRegister": "用戶註冊",
     "username": "用戶名",
-    "usernameIsRequired": "請輸入用戶名",
-    "usernameShort": "用戶名過短"
+    "signup": "註冊",
+    "close": "關閉",
+    "loginFailed": "登入失敗",
+    "loginSuccess": "登錄成功 {0}秒後自動跳轉...",
+    "signupFailed": "註冊失敗: {0}",
+    "signupSuccess": "註冊成功 {0}秒後自動跳轉...",
+    "usernameShort": "用戶名過短",
+    "agreeTOS": "同意使用協議",
+    "confirmPassword": "確認密碼",
+    "levels": "等級",
+    "notFound": "找不到此項目",
+    "enemy404": "找不到此敵人",
+    "setDesc": "{0}件套",
+    "selected": "已選擇:",
+    "skillLevelDesc": "(不包含命座與其他加成)",
+    "promoteLevel": "突破階段",
+    "promoteLevelFormat": "突破階段{0}",
+    "c13ns": "命之座",
+    "c13nsFormat": "命之座{0}層",
+    "pleaseSelectAvatar": "請選擇角色"
   }
 }

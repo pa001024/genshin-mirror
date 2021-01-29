@@ -8,7 +8,7 @@
           </v-list-item-action> -->
           <v-list-item-content>
             <v-list-item-title class="headline"> {{ artifact.localeName }}</v-list-item-title>
-            <v-list-item-subtitle v-text="$t(`artifact.part.${artifact.part}`)" />
+            <v-list-item-subtitle v-text="$t(`artifactPart.${artifact.part}`)" />
           </v-list-item-content>
         </v-list-item>
       </v-card-title>

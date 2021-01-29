@@ -3,18 +3,20 @@
     "main": "Genshin Mirror (genshin.im)",
     "sub": "{0} - Genshin Mirror (genshin.im)",
     "map": "Map of Teyvat",
-    "avatar": "Character list",
+    "avatar": "Character List",
     "weapon": "Weapon list",
     "enemy": "Enemy list",
-    "item": "Item list"
+    "item": "Item list",
+    "artifact": "Artifacts"
   },
   "navigate": {
-    "avatar": "Avatar",
+    "avatar": "Character",
     "weapon": "Weapon",
-    "artifact": "Artifact",
-    "enemy": "Enemy",
-    "material": "Material",
-    "setting": "Setting"
+    "artifact": "Artifacts",
+    "enemy": "Enemies",
+    "material": "Materials",
+    "setting": "Settings",
+    "inv": "Inventory"
   },
   "gender": {
     "0": "Female",
@@ -41,14 +43,14 @@
     "title": "Weapon"
   },
   "resonance": {
+    "title": "Elemental Resonance",
     "ProtectiveCanopy": "Protective Canopy",
     "ImpetuousWinds": "Impetuous Winds",
     "EnduringRock": "Enduring Rock",
     "HighVoltage": "High Voltage",
     "SoothingWater": "Soothing Water",
     "FerventFlames": "Fervent Flames",
-    "ShatteringIce": "Shattering Ice",
-    "title": "Elemental resonance"
+    "ShatteringIce": "Shattering Ice"
   },
   "reaction": {
     "burning": "Burning",
@@ -60,6 +62,14 @@
     "superconduct": "Superconduct",
     "swirl": "Swirl",
     "vaporize": "Vaporize"
+  },
+  "artifactPart": {
+    "0": "Flower of Life",
+    "1": "Plume of Death",
+    "2": "Sands of Eon",
+    "3": "Goblet of Eonothem",
+    "4": "Circlet of Logos",
+    "title": "Part"
   },
   "region": {
     "0": "Unknown",
@@ -82,19 +92,19 @@
   "item": {
     "0": "Talent materials",
     "1": "Breakthrough material",
-    "2": "Cooking",
+    "2": "Dish",
     "3": "Add blood items",
-    "4": "Ingredients",
-    "5": "Wind wings",
+    "4": "Cooking Ingredient",
+    "5": "Wind Gliders",
     "6": "business card",
-    "7": "Consumables",
-    "title": "article"
+    "7": "Consumable",
+    "title": "Sourcing Items"
   },
   "ascension": {
-    "title": "Ascension"
+    "title": "Ascend"
   },
   "buff": {
-    "0": "Unknown",
+    "0": "None",
     "1": "Base HP",
     "2": "Base ATK",
     "3": "Base DEF",
@@ -106,28 +116,28 @@
     "9": "DEF%",
     "10": "Energy Recharge",
     "11": "Elemental Mastery",
-    "12": "CRITRate",
-    "13": "CRITDMG",
-    "14": "Heal",
-    "15": "Healed",
-    "16": "Skill CD Speed",
+    "12": "CRIT Rate",
+    "13": "CRIT DMG",
+    "14": "Healing Bonus",
+    "15": "Incoming Healing Bonus",
+    "16": "Reduce CD",
     "17": "Skill CD Skip",
-    "18": "Shield Effectiveness",
-    "19": "Pyro DMG",
+    "18": "Powerful Shield",
+    "19": "Pyro DMG Bonus",
     "20": "Pyro RES",
-    "21": "Hydro DMG",
+    "21": "Hydro DMG Bonus",
     "22": "Hydro RES",
-    "23": "Dendro DMG",
+    "23": "Dendro DMG Bonus",
     "24": "Dendro RES",
-    "25": "Electro DMG",
+    "25": "Electro DMG Bonus",
     "26": "Electro RES",
-    "27": "Anemo DMG",
+    "27": "Anemo DMG Bonus",
     "28": "Anemo RES",
-    "29": "Cryo DMG",
+    "29": "Cryo DMG Bonus",
     "30": "Cryo RES",
-    "31": "Geo DMG",
+    "31": "Geo DMG Bonus",
     "32": "Geo RES",
-    "33": "Physical DMG",
+    "33": "Physical DMG Bonus",
     "34": "Physical RES",
     "35": "Elemental DMG",
     "36": "All RES",
@@ -148,281 +158,58 @@
     "51": "Anti CRITRate",
     "title": "Buff"
   },
-  "artifact": {
-    "1": {
-      "name": "Adventurer",
-      "flower": "Adventurer's Flower",
-      "plume": "Adventurer's Tail Feather",
-      "sands": "Adventurer's Pocket Watch",
-      "goblet": "Adventurer's Golden Goblet",
-      "circlet": "Adventurer's Bandana"
-    },
-    "2": {
-      "name": "Lucky Dog",
-      "flower": "Lucky Dog's Clover",
-      "plume": "Lucky Dog's Eagle Feather",
-      "sands": "Lucky Dog's Hourglass",
-      "goblet": "Lucky Dog's Goblet",
-      "circlet": "Lucky Dog's Silver Circlet"
-    },
-    "3": {
-      "name": "Traveling Doctor",
-      "flower": "Traveling Doctor's Silver Lotus",
-      "plume": "Traveling Doctor's Owl Feather",
-      "sands": "Traveling Doctor's Pocket Watch",
-      "goblet": "Traveling Doctor's Medicine Pot",
-      "circlet": "Traveling Doctor's Handkerchief"
-    },
-    "100": {
-      "name": "Instructor",
-      "flower": "Instructor's Brooch",
-      "plume": "Instructor's Feather Accessory",
-      "sands": "Instructor's Pocket Watch",
-      "goblet": "Instructor's Tea Cup",
-      "circlet": "Instructor's Cap"
-    },
-    "101": {
-      "name": "Berserker",
-      "flower": "Berserker's Rose",
-      "plume": "Berserker's Indigo Feather",
-      "sands": "Berserker's Timepiece",
-      "goblet": "Berserker's Bone Goblet",
-      "circlet": "Berserker's Battle Mask"
-    },
-    "102": {
-      "name": "The Exile",
-      "flower": "Exile's Flower",
-      "plume": "Exile's Feather",
-      "sands": "Exile's Pocket Watch",
-      "goblet": "Exile's Goblet",
-      "circlet": "Exile's Circlet"
-    },
-    "103": {
-      "name": "故人之心",
-      "flower": "故人之心",
-      "plume": "归乡之羽",
-      "sands": "逐光之石",
-      "goblet": "异国之盏",
-      "circlet": "感别之冠"
-    },
-    "104": {
-      "name": "武人",
-      "flower": "武人的红花",
-      "plume": "武人的羽饰",
-      "sands": "武人的水漏",
-      "goblet": "武人的酒杯",
-      "circlet": "武人的头巾"
-    },
-    "105": {
-      "name": "守护之心",
-      "flower": "守护之花",
-      "plume": "守护徽印",
-      "sands": "守护座钟",
-      "goblet": "守护之皿",
-      "circlet": "守护束带"
-    },
-    "106": {
-      "name": "奇迹",
-      "flower": "奇迹之花",
-      "plume": "奇迹之羽",
-      "sands": "奇迹之沙",
-      "goblet": "奇迹之杯",
-      "circlet": "奇迹耳坠"
-    },
-    "107": {
-      "name": "勇士之心",
-      "flower": "勇士的勋章",
-      "plume": "勇士的期许",
-      "sands": "勇士的坚毅",
-      "goblet": "勇士的壮行",
-      "circlet": "勇士的冠冕"
-    },
-    "108": {
-      "name": "赌徒",
-      "flower": "赌徒的胸花",
-      "plume": "赌徒的羽饰",
-      "sands": "赌徒的怀表",
-      "goblet": "赌徒的骰盅",
-      "circlet": "赌徒的耳环"
-    },
-    "109": {
-      "name": "学士",
-      "flower": "学士的书签",
-      "plume": "学士的羽笔",
-      "sands": "学士的时钟",
-      "goblet": "学士的墨杯",
-      "circlet": "学士的镜片"
-    },
-    "200": {
-      "name": "祭雷之人",
-      "circlet": "祭雷礼冠"
-    },
-    "201": {
-      "name": "祭冰之人",
-      "circlet": "祭冰礼冠"
-    },
-    "202": {
-      "name": "祭火之人",
-      "circlet": "祭火礼冠"
-    },
-    "203": {
-      "name": "祭水之人",
-      "circlet": "祭水礼冠"
-    },
-    "300": {
-      "name": "角斗士的终幕礼",
-      "flower": "角斗士的留恋",
-      "plume": "角斗士的归宿",
-      "sands": "角斗士的希冀",
-      "goblet": "角斗士的酣醉",
-      "circlet": "角斗士的凯旋"
-    },
-    "301": {
-      "name": "被怜爱的少女",
-      "flower": "远方的少女之心",
-      "plume": "少女飘摇的思念",
-      "sands": "少女苦短的良辰",
-      "goblet": "少女片刻的闲暇",
-      "circlet": "少女易逝的芳颜"
-    },
-    "302": {
-      "name": "昔日宗室之仪",
-      "flower": "宗室之花",
-      "plume": "宗室之翎",
-      "sands": "宗室时计",
-      "goblet": "宗室银瓮",
-      "circlet": "宗室面具"
-    },
-    "303": {
-      "name": "染血的骑士道",
-      "flower": "染血的铁之心",
-      "plume": "染血的黑之羽",
-      "sands": "骑士染血之时",
-      "goblet": "染血骑士之杯",
-      "circlet": "染血的铁假面"
-    },
-    "304": {
-      "name": "流浪大地的乐团",
-      "flower": "乐团的晨光",
-      "plume": "琴师的箭羽",
-      "sands": "终幕的时计",
-      "goblet": "吟游者之壶",
-      "circlet": "指挥的礼帽"
-    },
-    "305": {
-      "name": "翠绿之影",
-      "flower": "野花记忆的绿野",
-      "plume": "猎人青翠的箭羽",
-      "sands": "翠绿猎人的笃定",
-      "goblet": "翠绿猎人的容器",
-      "circlet": "翠绿的猎人之冠"
-    },
-    "306": {
-      "name": "如雷的盛怒",
-      "flower": "雷鸟的怜悯",
-      "plume": "雷灾的孑遗",
-      "sands": "雷霆的时计",
-      "goblet": "降雷的凶兆",
-      "circlet": "唤雷的头冠"
-    },
-    "307": {
-      "name": "平息鸣雷的尊者",
-      "flower": "平雷之心",
-      "plume": "平雷之羽",
-      "sands": "平雷之刻",
-      "goblet": "平雷之器",
-      "circlet": "平雷之冠"
-    },
-    "308": {
-      "name": "炽烈的炎之魔女",
-      "flower": "魔女的炎之花",
-      "plume": "魔女常燃之羽",
-      "sands": "魔女破灭之时",
-      "goblet": "魔女的心之火",
-      "circlet": "焦灼的魔女帽"
-    },
-    "309": {
-      "name": "渡过烈火的贤人",
-      "flower": "渡火者的决绝",
-      "plume": "渡火者的解脱",
-      "sands": "渡火者的煎熬",
-      "goblet": "渡火者的醒悟",
-      "circlet": "渡火者的智慧"
-    },
-    "310": {
-      "name": "悠古的磐岩",
-      "flower": "磐陀裂生之花",
-      "plume": "嵯峨群峰之翼",
-      "sands": "星罗圭壁之晷",
-      "goblet": "巉岩琢塑之樽",
-      "circlet": "不动玄石之相"
-    },
-    "311": {
-      "name": "逆飞的流星",
-      "flower": "夏祭之花",
-      "plume": "夏祭终末",
-      "sands": "夏祭之刻",
-      "goblet": "夏祭水玉",
-      "circlet": "夏祭之面"
-    },
-    "312": {
-      "name": "冰风迷途的勇士",
-      "flower": "历经风雪的思念",
-      "plume": "摧冰而行的执望",
-      "sands": "冰雪故园的终期",
-      "goblet": "遍结寒霜的傲骨",
-      "circlet": "破冰踏雪的回音"
-    },
-    "313": {
-      "name": "沉沦之心",
-      "flower": "饰金胸花",
-      "plume": "追忆之风",
-      "sands": "坚铜罗盘",
-      "goblet": "沉波之盏",
-      "circlet": "酒渍船帽"
-    }
-  },
   "ui": {
+    "filter": "Filter",
     "weaponType": "Weapon Type",
-    "language": "Language",
-    "login": "log in",
-    "filter": "filter",
     "subAttr": "Sub attributes",
+    "login": "Log In",
     "reset": "Reset",
+    "language": "Language",
     "travelerGender": "Traveler gender",
     "enemyType": "Enemy type",
     "itemType": "Item type",
-    "char404": "Can't find this role",
     "item404": "Can't find this item",
-    "affix": "Special effects",
-    "agreeTOS": "Agree to use agreement",
+    "char404": "Can't find this role",
+    "level": "Lv. {0}",
+    "elemSkill": "Elemental Skill",
     "attackSkill": "Normal Attack",
-    "close": "shut down",
-    "confirmPassword": "confirm password",
-    "eMail": "E-mail",
-    "eMailIsRequired": "please input your email",
-    "eMailMustBeValid": "Invalid email address",
     "elemBurst": "Elemental explosion",
-    "elemSkill": "Elemental combat skills",
-    "forgotPassword": "forget password",
-    "level": "{0} level",
-    "loginFailed": "Login failed",
-    "loginSuccess": "Automatically redirect after successful login in {0} seconds...",
-    "password": "password",
-    "passwordEasy": "Password complexity is too low",
-    "passwordIsRequired": "Please enter password",
-    "passwordNotMatch": "Passwords do not match",
-    "passwordShort": "Password length must not be less than 6 digits",
+    "talent": "Talents",
     "rarity": "rarity",
-    "signup": "registered",
-    "signupFailed": "Registration failed: {0}",
-    "signupSuccess": "Automatically redirect after successful registration in {0} seconds...",
     "switchTheme": "at night",
-    "talent": "talent",
+    "affix": "Special effects",
+    "password": "Password",
+    "usernameIsRequired": "please enter user name",
+    "eMailIsRequired": "please input your email",
+    "passwordIsRequired": "Please enter password",
+    "eMail": "E-mail",
+    "eMailMustBeValid": "Invalid email address",
     "userLogin": "User login",
+    "passwordShort": "Password length must not be less than 6 digits",
+    "forgotPassword": "forget password",
+    "passwordNotMatch": "Passwords do not match",
+    "passwordEasy": "Password complexity is too low",
     "userRegister": "User registration",
     "username": "username",
-    "usernameIsRequired": "please enter user name",
-    "usernameShort": "Username is too short"
+    "signup": "registered",
+    "close": "Close",
+    "loginFailed": "Login failed",
+    "loginSuccess": "Automatically redirect after successful login in {0} seconds...",
+    "signupFailed": "Registration failed: {0}",
+    "signupSuccess": "Automatically redirect after successful registration in {0} seconds...",
+    "usernameShort": "Username is too short",
+    "agreeTOS": "Agree to use agreement",
+    "confirmPassword": "confirm password",
+    "levels": "Lv.",
+    "notFound": "Can't find this item",
+    "enemy404": "Can't find this enemy",
+    "setDesc": "{0} piece set",
+    "selected": "chosen:",
+    "skillLevelDesc": "(Does not include life seat and other bonuses)",
+    "promoteLevel": "Breakthrough stage",
+    "promoteLevelFormat": "Breakthrough stage {0}",
+    "c13ns": "Constellation",
+    "c13nsFormat": "Fate Seat {0} Floor",
+    "pleaseSelectAvatar": "Please choose a role"
   }
 }

@@ -66,7 +66,7 @@
                 </v-card-text>
               </v-card>
             </v-col>
-            <v-col v-else cols="12" lg="8">{{ $t("pleaseSelectAvatar") }}</v-col>
+            <v-col v-else cols="12" lg="8">{{ $t("ui.pleaseSelectAvatar") }}</v-col>
           </v-row>
           <v-menu
             v-for="ua in userAvatars"
