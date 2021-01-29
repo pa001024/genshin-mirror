@@ -145,24 +145,28 @@
           </v-tab-item>
           <v-tab-item value="talent">
             <v-card v-for="tal in data.talents" :key="tal.name" flat>
-              <v-card-title class="headline pb-1">{{ tal.name }}</v-card-title>
-              <v-card-text>
-                <div v-if="tal.unlock" class="unlock mb-1">
+              <v-card-title class="headline pb-1">
+                {{ tal.name }}
+                <div v-if="tal.unlock" class="unlock ml-4">
                   <v-icon>mdi-lock-open</v-icon>
                   {{ $t("ui.promoteLevelFormat", [tal.unlock]) }}
                 </div>
+              </v-card-title>
+              <v-card-text>
                 <div class="desc" v-html="parseDesc(tal.desc)" />
               </v-card-text>
             </v-card>
           </v-tab-item>
           <v-tab-item value="c13ns">
             <v-card v-for="(c13n, unlock) in data.c13ns" :key="c13n.name" flat>
-              <v-card-title class="headline pb-1">{{ c13n.name }}</v-card-title>
-              <v-card-text>
-                <div class="unlock mb-1">
+              <v-card-title class="headline pb-1">
+                {{ c13n.name }}
+                <div class="unlock ml-4">
                   <v-icon>mdi-lock-open</v-icon>
                   {{ $t("ui.c13nsFormat", [unlock + 1]) }}
                 </div>
+              </v-card-title>
+              <v-card-text>
                 <div class="desc" v-html="parseDesc(c13n.desc)" />
               </v-card-text>
             </v-card>
@@ -265,6 +269,7 @@ export default class Page extends Vue {
     border: 1px solid;
     border-radius: 3px;
     font-size: 0.7rem;
+    line-height: 1.5;
     .v-icon {
       font-size: 0.9rem;
     }
