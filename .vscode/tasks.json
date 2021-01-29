@@ -6,7 +6,7 @@
     {
       "label": "Publish",
       "type": "shell",
-      "command": "yarn build && ./pub.sh",
+      "command": "yarn build && wsl ./pub.sh",
       "problemMatcher": []
     }
   ]

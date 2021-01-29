@@ -24,21 +24,17 @@
         <div class="inv-char-list pa-4">
           <v-row>
             <v-col cols="12" :lg="4">
-              <v-container fluid>
-                <template v-for="item in avatars">
-                  <!-- 内容 -->
-                  <CharCard
-                    v-if="item.id"
-                    :key="item.id"
-                    :value="item"
-                    class="ma-1"
-                    small
-                    :link="false"
-                    :class="{ selected: selectedAvatar && selectedAvatar.avatarId === item.id }"
-                    @click="selectAvatar(item)"
-                  />
-                </template>
-              </v-container>
+              <!-- 内容 -->
+              <CharCard
+                v-for="item in avatars"
+                :key="item.id"
+                :value="item"
+                class="ma-1"
+                small
+                :link="false"
+                :class="{ selected: selectedAvatar && selectedAvatar.avatarId === item.id }"
+                @click="selectAvatar(item)"
+              />
             </v-col>
             <v-col v-if="selectedAvatar" cols="12" lg="8">
               <v-card class="avatar-level-edit" flat>
