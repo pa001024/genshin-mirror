@@ -25,6 +25,12 @@
         </v-row>
         <v-divider class="mb-2 mt-2" />
         <v-card-text v-text="data.desc" />
+        <v-card-text v-if="data.drop" class="mb-4">
+          <div class="desc mb-4"><v-icon size="16">mdi-map-marker</v-icon> {{ $t("ui.source") }}</div>
+          <div v-for="drop in data.drop" :key="drop" class="drop-info">
+            {{ drop }}
+          </div>
+        </v-card-text>
       </v-card-text>
     </v-card>
   </div>
@@ -57,3 +63,11 @@ export default class Page extends Vue {
   data: IItem | null = null;
 }
 </script>
+<style lang="less">
+.gsm-item {
+  .drop-info {
+    border: 1px solid;
+    padding: 12px 8px;
+  }
+}
+</style>

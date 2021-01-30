@@ -50,7 +50,8 @@ _偷偷跟你说 甘雨真的很好玩_
 
 **材料**
 
-- Excel/MaterialExcelConfigData.json
+- 材料: Excel/MaterialExcelConfigData.json
+- 掉落: Excel/MaterialSourceDataExcelConfigData.json
 
 **怪物**
 

@@ -322,4 +322,5 @@ export interface IItem {
   desc?: string;
   type?: MaterialType;
   rarity: number;
+  drop?: string[];
 }

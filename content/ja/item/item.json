@@ -3,23 +3,25 @@
     "id": "MasterlessStarglitter",
     "name": "Masterless Starglitter",
     "localeName": "無主のスターライト",
-    "desc": "ショップでレアなものと交換できるコイン。\\n過剰な運命の星の光。その輝きは宇宙の至るところを照らせるかもしれない。",
+    "desc": "ショップでレアなものと交換できるコイン。\n過剰な運命の星の光。その輝きは宇宙の至るところを照らせるかもしれない。",
     "rarity": 5,
-    "type": 7
+    "type": 7,
+    "drop": ["祈願"]
   },
   {
     "id": "MasterlessStardust",
     "name": "Masterless Stardust",
     "localeName": "無主のスターダスト",
-    "desc": "ショップでレアなものと交換できるコイン。\\n過剰な運命の星のダスト。積もれば新たな運命を切り拓けるかもしれない。",
+    "desc": "ショップでレアなものと交換できるコイン。\n過剰な運命の星のダスト。積もれば新たな運命を切り拓けるかもしれない。",
     "rarity": 4,
-    "type": 7
+    "type": 7,
+    "drop": ["祈願"]
   },
   {
     "id": "IntertwinedFate",
     "name": "Intertwined Fate",
     "localeName": "紡がれた運命",
-    "desc": "夢をつなぐ運命の種。\\n石の輝きは本来交わらない運命を交差させ、互いの夢を繋げ、まさにこの輝きは星々を心の赴く形に繋げると同じである。",
+    "desc": "夢をつなぐ運命の種。\n石の輝きは本来交わらない運命を交差させ、互いの夢を繋げ、まさにこの輝きは星々を心の赴く形に繋げると同じである。",
     "rarity": 5,
     "type": 7
   },
@@ -27,65 +29,32 @@
     "id": "AcquaintFate",
     "name": "Acquaint Fate",
     "localeName": "出会いの縁",
-    "desc": "星空を照らす希望の種。\\nどんなに離れても、縁石の導きで、運命の二人は星空の下で巡り会える。",
+    "desc": "星空を照らす希望の種。\nどんなに離れても、縁石の導きで、運命の二人は星空の下で巡り会える。",
     "rarity": 5,
     "type": 7
   },
-  {
-    "id": "PyroSigil",
-    "name": "Pyro Sigil",
-    "localeName": "炎の印",
-    "desc": "モンド周辺の特殊な記念貨幣。街のショップでレアアイテムと交換できる",
-    "rarity": 3,
-    "type": 7
-  },
-  {
-    "id": "HydroSigil",
-    "name": "Hydro Sigil",
-    "localeName": "水の印",
-    "desc": "モンド周辺の特殊な記念貨幣。街のショップでレアアイテムと交換できる",
-    "rarity": 3,
-    "type": 7
-  },
-  {
-    "id": "DendroSigil",
-    "name": "Dendro Sigil",
-    "localeName": "草の印",
-    "desc": "モンド周辺の特殊な記念貨幣。街のショップでレアアイテムと交換できる",
-    "rarity": 3,
-    "type": 7
-  },
-  {
-    "id": "ElectroSigil",
-    "name": "Electro Sigil",
-    "localeName": "雷の印",
-    "desc": "モンド周辺の特殊な記念貨幣。街のショップでレアアイテムと交換できる",
-    "rarity": 3,
-    "type": 7
-  },
+  { "id": "PyroSigil", "name": "Pyro Sigil", "localeName": "炎の印", "desc": "モンド周辺の特殊な記念貨幣。街のショップでレアアイテムと交換できる", "rarity": 3, "type": 7, "drop": ["探索報酬"] },
+  { "id": "HydroSigil", "name": "Hydro Sigil", "localeName": "水の印", "desc": "モンド周辺の特殊な記念貨幣。街のショップでレアアイテムと交換できる", "rarity": 3, "type": 7, "drop": ["探索報酬"] },
+  { "id": "DendroSigil", "name": "Dendro Sigil", "localeName": "草の印", "desc": "モンド周辺の特殊な記念貨幣。街のショップでレアアイテムと交換できる", "rarity": 3, "type": 7, "drop": ["探索報酬"] },
+  { "id": "ElectroSigil", "name": "Electro Sigil", "localeName": "雷の印", "desc": "モンド周辺の特殊な記念貨幣。街のショップでレアアイテムと交換できる", "rarity": 3, "type": 7, "drop": ["探索報酬"] },
   {
     "id": "AnemoSigil",
     "name": "Anemo Sigil",
     "localeName": "風の印",
-    "desc": "モンドの風に認められ、授かった印記。\\nモンド城の記念品ショップで特別なアイテムと交換できる。",
+    "desc": "モンドの風に認められ、授かった印記。\nモンド城の記念品ショップで特別なアイテムと交換できる。",
     "rarity": 3,
-    "type": 7
+    "type": 7,
+    "drop": ["モンド地域探索報酬"]
   },
-  {
-    "id": "CryoSigil",
-    "name": "Cryo Sigil",
-    "localeName": "氷の印",
-    "desc": "モンド周辺の特殊な記念貨幣。街のショップでレアアイテムと交換できる",
-    "rarity": 3,
-    "type": 7
-  },
+  { "id": "CryoSigil", "name": "Cryo Sigil", "localeName": "氷の印", "desc": "モンド周辺の特殊な記念貨幣。街のショップでレアアイテムと交換できる", "rarity": 3, "type": 7, "drop": ["探索報酬"] },
   {
     "id": "GeoSigil",
     "name": "Geo Sigil",
     "localeName": "岩の印",
-    "desc": "璃月の岩に認められ、授かった印記。\\n璃月港の記念品ショップで特別なアイテムと交換できる。",
+    "desc": "璃月の岩に認められ、授かった印記。\n璃月港の記念品ショップで特別なアイテムと交換できる。",
     "rarity": 3,
-    "type": 7
+    "type": 7,
+    "drop": ["璃月地域探索報酬"]
   },
   {
     "id": "MemoryofEternalFlames",
@@ -93,7 +62,8 @@
     "localeName": "恒常燃焼の記憶",
     "desc": "炎元素を持つ旅人の命ノ星座が欠けた星屑。",
     "rarity": 5,
-    "type": 0
+    "type": 0,
+    "drop": ["メインシナリオ報酬"]
   },
   {
     "id": "MemoryofRunningStream",
@@ -101,7 +71,8 @@
     "localeName": "永久奔流の記憶",
     "desc": "水元素を持つ旅人の命ノ星座が欠けた星屑。",
     "rarity": 5,
-    "type": 0
+    "type": 0,
+    "drop": ["メインシナリオ報酬"]
   },
   {
     "id": "MemoryofFlourishingGreen",
@@ -109,7 +80,8 @@
     "localeName": "草木繁茂の記憶",
     "desc": "草元素を持つ旅人の命ノ星座が欠けた星屑。",
     "rarity": 5,
-    "type": 0
+    "type": 0,
+    "drop": ["メインシナリオ報酬"]
   },
   {
     "id": "MemoryofVioletFlash",
@@ -117,7 +89,8 @@
     "localeName": "蒼雷紫電の記憶",
     "desc": "雷元素を持つ旅人の命ノ星座が欠けた星屑。",
     "rarity": 5,
-    "type": 0
+    "type": 0,
+    "drop": ["メインシナリオ報酬"]
   },
   {
     "id": "MemoryofRovingGales",
@@ -125,7 +98,8 @@
     "localeName": "四方の風の記憶",
     "desc": "風元素を持つ旅人の命ノ星座が欠けた星屑。",
     "rarity": 5,
-    "type": 0
+    "type": 0,
+    "drop": ["メインシナリオ報酬", "冒険ランク報酬", "記念品ショップ交換"]
   },
   {
     "id": "MemoryofPiercingFrost",
@@ -133,7 +107,8 @@
     "localeName": "極寒厳冬の記憶",
     "desc": "氷元素を持つ旅人の命ノ星座が欠けた星屑。",
     "rarity": 5,
-    "type": 0
+    "type": 0,
+    "drop": ["メインシナリオ報酬"]
   },
   {
     "id": "MemoryofImmovableCrystals",
@@ -141,7 +116,8 @@
     "localeName": "不動晶石の記憶",
     "desc": "岩元素を持つ旅人の命ノ星座が欠けた星屑。",
     "rarity": 5,
-    "type": 0
+    "type": 0,
+    "drop": ["メインシナリオ報酬", "記念品ショップ交換"]
   },
   {
     "id": "KamisatoAyakasStellaFortuna",
@@ -149,253 +125,44 @@
     "localeName": "神里綾華の星屑",
     "desc": "神里綾華の命ノ星座アンロック用素材",
     "rarity": 5,
-    "type": 0
+    "type": 0,
+    "drop": ["祈願"]
   },
-  {
-    "id": "JeansStellaFortuna",
-    "name": "Jean's Stella Fortuna",
-    "localeName": "ジンの星屑",
-    "desc": "ジンの命ノ星座アンロック用素材",
-    "rarity": 5,
-    "type": 0
-  },
-  {
-    "id": "TravelerMalesStellaFortuna",
-    "name": "Traveler (Male)'s Stella Fortuna",
-    "localeName": "旅人（男）の星屑",
-    "desc": "アイテム廃棄",
-    "rarity": 5,
-    "type": 0
-  },
-  {
-    "id": "LisasStellaFortuna",
-    "name": "Lisa's Stella Fortuna",
-    "localeName": "リサの星屑",
-    "desc": "リサの命ノ星座アンロック用素材",
-    "rarity": 4,
-    "type": 0
-  },
-  {
-    "id": "TravelerFemalesStellaFortuna",
-    "name": "Traveler (Female)'s Stella Fortuna",
-    "localeName": "旅人（女）の星屑",
-    "desc": "アイテム廃棄",
-    "rarity": 5,
-    "type": 0
-  },
-  {
-    "id": "BarbarasStellaFortuna",
-    "name": "Barbara's Stella Fortuna",
-    "localeName": "バーバラの星屑",
-    "desc": "バーバラの命ノ星座アンロック用素材",
-    "rarity": 4,
-    "type": 0
-  },
-  {
-    "id": "KaeyasStellaFortuna",
-    "name": "Kaeya's Stella Fortuna",
-    "localeName": "ガイアの星屑",
-    "desc": "ガイアの命ノ星座アンロック用素材",
-    "rarity": 4,
-    "type": 0
-  },
-  {
-    "id": "DilucsStellaFortuna",
-    "name": "Diluc's Stella Fortuna",
-    "localeName": "ディルックの星屑",
-    "desc": "ディルックの命ノ星座アンロック用素材",
-    "rarity": 5,
-    "type": 0
-  },
-  {
-    "id": "RazorsStellaFortuna",
-    "name": "Razor's Stella Fortuna",
-    "localeName": "レザーの星屑",
-    "desc": "レザーの命ノ星座アンロック用素材",
-    "rarity": 4,
-    "type": 0
-  },
-  {
-    "id": "AmbersStellaFortuna",
-    "name": "Amber's Stella Fortuna",
-    "localeName": "アンバーの星屑",
-    "desc": "アンバーの命ノ星座アンロック用素材",
-    "rarity": 4,
-    "type": 0
-  },
-  {
-    "id": "VentisStellaFortuna",
-    "name": "Venti's Stella Fortuna",
-    "localeName": "ウェンティの星屑",
-    "desc": "ウェンティの命ノ星座アンロック用素材",
-    "rarity": 5,
-    "type": 0
-  },
-  {
-    "id": "XianglingsStellaFortuna",
-    "name": "Xiangling's Stella Fortuna",
-    "localeName": "香菱の星屑",
-    "desc": "香菱の命ノ星座アンロック用素材",
-    "rarity": 4,
-    "type": 0
-  },
-  {
-    "id": "BeidousStellaFortuna",
-    "name": "Beidou's Stella Fortuna",
-    "localeName": "北斗の星屑",
-    "desc": "北斗の命ノ星座アンロック用素材",
-    "rarity": 4,
-    "type": 0
-  },
-  {
-    "id": "XingqiusStellaFortuna",
-    "name": "Xingqiu's Stella Fortuna",
-    "localeName": "行秋の星屑",
-    "desc": "行秋の命ノ星座アンロック用素材",
-    "rarity": 4,
-    "type": 0
-  },
-  {
-    "id": "XiaosStellaFortuna",
-    "name": "Xiao's Stella Fortuna",
-    "localeName": "魈の星屑",
-    "desc": "魈の命ノ星座アンロック用素材",
-    "rarity": 5,
-    "type": 0
-  },
-  {
-    "id": "NingguangsStellaFortuna",
-    "name": "Ningguang's Stella Fortuna",
-    "localeName": "凝光の星屑",
-    "desc": "凝光の命ノ星座アンロック用素材",
-    "rarity": 4,
-    "type": 0
-  },
-  {
-    "id": "KleesStellaFortuna",
-    "name": "Klee's Stella Fortuna",
-    "localeName": "クレーの星屑",
-    "desc": "クレーの命ノ星座アンロック用素材",
-    "rarity": 5,
-    "type": 0
-  },
-  {
-    "id": "ZhonglisStellaFortuna",
-    "name": "Zhongli's Stella Fortuna",
-    "localeName": "鍾離の星屑",
-    "desc": "鍾離の命ノ星座アンロック用素材",
-    "rarity": 5,
-    "type": 0
-  },
-  {
-    "id": "FischlsStellaFortuna",
-    "name": "Fischl's Stella Fortuna",
-    "localeName": "フィッシュルの星屑",
-    "desc": "フィッシュルの命ノ星座アンロック用素材",
-    "rarity": 4,
-    "type": 0
-  },
-  {
-    "id": "BennettsStellaFortuna",
-    "name": "Bennett's Stella Fortuna",
-    "localeName": "ベネットの星屑",
-    "desc": "ベネットの命ノ星座アンロック用素材",
-    "rarity": 4,
-    "type": 0
-  },
-  {
-    "id": "TartagliasStellaFortuna",
-    "name": "Tartaglia's Stella Fortuna",
-    "localeName": "タルタリヤの星屑",
-    "desc": "タルタリヤの命ノ星座アンロック用素材",
-    "rarity": 5,
-    "type": 0
-  },
-  {
-    "id": "NoellesStellaFortuna",
-    "name": "Noelle's Stella Fortuna",
-    "localeName": "ノエルの星屑",
-    "desc": "ノエルの命ノ星座アンロック用素材",
-    "rarity": 4,
-    "type": 0
-  },
-  {
-    "id": "QiqisStellaFortuna",
-    "name": "Qiqi's Stella Fortuna",
-    "localeName": "七七の星屑",
-    "desc": "七七の命ノ星座アンロック用素材",
-    "rarity": 5,
-    "type": 0
-  },
-  {
-    "id": "ChongyunsStellaFortuna",
-    "name": "Chongyun's Stella Fortuna",
-    "localeName": "重雲の星屑",
-    "desc": "重雲の命ノ星座アンロック用素材",
-    "rarity": 4,
-    "type": 0
-  },
-  {
-    "id": "GanyusStellaFortuna",
-    "name": "Ganyu's Stella Fortuna",
-    "localeName": "甘雨の星屑",
-    "desc": "甘雨の命ノ星座アンロック用素材",
-    "rarity": 5,
-    "type": 0
-  },
-  {
-    "id": "AlbedosStellaFortuna",
-    "name": "Albedo's Stella Fortuna",
-    "localeName": "アルベドの星屑",
-    "desc": "アルベドの命ノ星座アンロック用素材",
-    "rarity": 5,
-    "type": 0
-  },
-  {
-    "id": "DionasStellaFortuna",
-    "name": "Diona's Stella Fortuna",
-    "localeName": "ディオナの星屑",
-    "desc": "ディオナの命ノ星座アンロック用素材",
-    "rarity": 4,
-    "type": 0
-  },
-  {
-    "id": "MonasStellaFortuna",
-    "name": "Mona's Stella Fortuna",
-    "localeName": "モナの星屑",
-    "desc": "モナの命ノ星座アンロック用素材",
-    "rarity": 5,
-    "type": 0
-  },
-  {
-    "id": "KeqingsStellaFortuna",
-    "name": "Keqing's Stella Fortuna",
-    "localeName": "刻晴の星屑",
-    "desc": "刻晴の命ノ星座アンロック用素材",
-    "rarity": 5,
-    "type": 0
-  },
-  {
-    "id": "SucrosesStellaFortuna",
-    "name": "Sucrose's Stella Fortuna",
-    "localeName": "スクロースの星屑",
-    "desc": "スクロースの命ノ星座アンロック用素材",
-    "rarity": 4,
-    "type": 0
-  },
-  {
-    "id": "XinyansStellaFortuna",
-    "name": "Xinyan's Stella Fortuna",
-    "localeName": "辛炎の星屑",
-    "desc": "辛炎の命ノ星座アンロック用素材",
-    "rarity": 4,
-    "type": 0
-  },
+  { "id": "JeansStellaFortuna", "name": "Jean's Stella Fortuna", "localeName": "ジンの星屑", "desc": "ジンの命ノ星座アンロック用素材", "rarity": 5, "type": 0, "drop": ["祈願"] },
+  { "id": "TravelerMalesStellaFortuna", "name": "Traveler (Male)'s Stella Fortuna", "localeName": "旅人（男）の星屑", "desc": "アイテム廃棄", "rarity": 5, "type": 0, "drop": ["祈願"] },
+  { "id": "LisasStellaFortuna", "name": "Lisa's Stella Fortuna", "localeName": "リサの星屑", "desc": "リサの命ノ星座アンロック用素材", "rarity": 4, "type": 0, "drop": ["祈願"] },
+  { "id": "TravelerFemalesStellaFortuna", "name": "Traveler (Female)'s Stella Fortuna", "localeName": "旅人（女）の星屑", "desc": "アイテム廃棄", "rarity": 5, "type": 0, "drop": ["祈願"] },
+  { "id": "BarbarasStellaFortuna", "name": "Barbara's Stella Fortuna", "localeName": "バーバラの星屑", "desc": "バーバラの命ノ星座アンロック用素材", "rarity": 4, "type": 0, "drop": ["祈願"] },
+  { "id": "KaeyasStellaFortuna", "name": "Kaeya's Stella Fortuna", "localeName": "ガイアの星屑", "desc": "ガイアの命ノ星座アンロック用素材", "rarity": 4, "type": 0, "drop": ["祈願"] },
+  { "id": "DilucsStellaFortuna", "name": "Diluc's Stella Fortuna", "localeName": "ディルックの星屑", "desc": "ディルックの命ノ星座アンロック用素材", "rarity": 5, "type": 0, "drop": ["祈願"] },
+  { "id": "RazorsStellaFortuna", "name": "Razor's Stella Fortuna", "localeName": "レザーの星屑", "desc": "レザーの命ノ星座アンロック用素材", "rarity": 4, "type": 0, "drop": ["祈願"] },
+  { "id": "AmbersStellaFortuna", "name": "Amber's Stella Fortuna", "localeName": "アンバーの星屑", "desc": "アンバーの命ノ星座アンロック用素材", "rarity": 4, "type": 0, "drop": ["祈願"] },
+  { "id": "VentisStellaFortuna", "name": "Venti's Stella Fortuna", "localeName": "ウェンティの星屑", "desc": "ウェンティの命ノ星座アンロック用素材", "rarity": 5, "type": 0, "drop": ["祈願"] },
+  { "id": "XianglingsStellaFortuna", "name": "Xiangling's Stella Fortuna", "localeName": "香菱の星屑", "desc": "香菱の命ノ星座アンロック用素材", "rarity": 4, "type": 0, "drop": ["祈願"] },
+  { "id": "BeidousStellaFortuna", "name": "Beidou's Stella Fortuna", "localeName": "北斗の星屑", "desc": "北斗の命ノ星座アンロック用素材", "rarity": 4, "type": 0, "drop": ["祈願"] },
+  { "id": "XingqiusStellaFortuna", "name": "Xingqiu's Stella Fortuna", "localeName": "行秋の星屑", "desc": "行秋の命ノ星座アンロック用素材", "rarity": 4, "type": 0, "drop": ["祈願"] },
+  { "id": "XiaosStellaFortuna", "name": "Xiao's Stella Fortuna", "localeName": "魈の星屑", "desc": "魈の命ノ星座アンロック用素材", "rarity": 5, "type": 0, "drop": ["祈願"] },
+  { "id": "NingguangsStellaFortuna", "name": "Ningguang's Stella Fortuna", "localeName": "凝光の星屑", "desc": "凝光の命ノ星座アンロック用素材", "rarity": 4, "type": 0, "drop": ["祈願"] },
+  { "id": "KleesStellaFortuna", "name": "Klee's Stella Fortuna", "localeName": "クレーの星屑", "desc": "クレーの命ノ星座アンロック用素材", "rarity": 5, "type": 0, "drop": ["祈願"] },
+  { "id": "ZhonglisStellaFortuna", "name": "Zhongli's Stella Fortuna", "localeName": "鍾離の星屑", "desc": "鍾離の命ノ星座アンロック用素材", "rarity": 5, "type": 0, "drop": ["祈願"] },
+  { "id": "FischlsStellaFortuna", "name": "Fischl's Stella Fortuna", "localeName": "フィッシュルの星屑", "desc": "フィッシュルの命ノ星座アンロック用素材", "rarity": 4, "type": 0, "drop": ["祈願"] },
+  { "id": "BennettsStellaFortuna", "name": "Bennett's Stella Fortuna", "localeName": "ベネットの星屑", "desc": "ベネットの命ノ星座アンロック用素材", "rarity": 4, "type": 0, "drop": ["祈願"] },
+  { "id": "TartagliasStellaFortuna", "name": "Tartaglia's Stella Fortuna", "localeName": "タルタリヤの星屑", "desc": "タルタリヤの命ノ星座アンロック用素材", "rarity": 5, "type": 0, "drop": ["祈願"] },
+  { "id": "NoellesStellaFortuna", "name": "Noelle's Stella Fortuna", "localeName": "ノエルの星屑", "desc": "ノエルの命ノ星座アンロック用素材", "rarity": 4, "type": 0, "drop": ["祈願"] },
+  { "id": "QiqisStellaFortuna", "name": "Qiqi's Stella Fortuna", "localeName": "七七の星屑", "desc": "七七の命ノ星座アンロック用素材", "rarity": 5, "type": 0, "drop": ["祈願"] },
+  { "id": "ChongyunsStellaFortuna", "name": "Chongyun's Stella Fortuna", "localeName": "重雲の星屑", "desc": "重雲の命ノ星座アンロック用素材", "rarity": 4, "type": 0, "drop": ["祈願"] },
+  { "id": "GanyusStellaFortuna", "name": "Ganyu's Stella Fortuna", "localeName": "甘雨の星屑", "desc": "甘雨の命ノ星座アンロック用素材", "rarity": 5, "type": 0, "drop": ["祈願"] },
+  { "id": "AlbedosStellaFortuna", "name": "Albedo's Stella Fortuna", "localeName": "アルベドの星屑", "desc": "アルベドの命ノ星座アンロック用素材", "rarity": 5, "type": 0, "drop": ["祈願"] },
+  { "id": "DionasStellaFortuna", "name": "Diona's Stella Fortuna", "localeName": "ディオナの星屑", "desc": "ディオナの命ノ星座アンロック用素材", "rarity": 4, "type": 0, "drop": ["祈願"] },
+  { "id": "MonasStellaFortuna", "name": "Mona's Stella Fortuna", "localeName": "モナの星屑", "desc": "モナの命ノ星座アンロック用素材", "rarity": 5, "type": 0, "drop": ["祈願"] },
+  { "id": "KeqingsStellaFortuna", "name": "Keqing's Stella Fortuna", "localeName": "刻晴の星屑", "desc": "刻晴の命ノ星座アンロック用素材", "rarity": 5, "type": 0, "drop": ["祈願"] },
+  { "id": "SucrosesStellaFortuna", "name": "Sucrose's Stella Fortuna", "localeName": "スクロースの星屑", "desc": "スクロースの命ノ星座アンロック用素材", "rarity": 4, "type": 0, "drop": ["祈願"] },
+  { "id": "XinyansStellaFortuna", "name": "Xinyan's Stella Fortuna", "localeName": "辛炎の星屑", "desc": "辛炎の命ノ星座アンロック用素材", "rarity": 4, "type": 0, "drop": ["祈願"] },
   {
     "id": "GnosticHymnOldNotes",
     "name": "Gnostic Hymn - Old Notes",
     "localeName": "天空紀行·原稿",
-    "desc": "紀行文体で書かれた、大陸での旅の見聞を記録した旅行記。何故この原稿が存在するかわからない、もしかして以前来たことがある？\\n\\n使用すると今期の天空紀行が開放される。",
+    "desc": "紀行文体で書かれた、大陸での旅の見聞を記録した旅行記。何故この原稿が存在するかわからない、もしかして以前来たことがある？\n\n使用すると今期の天空紀行が開放される。",
     "rarity": 5,
     "type": 7
   },
@@ -403,7 +170,7 @@
     "id": "BlessingoftheWelkinMoonNewMoon",
     "name": "Blessing of the Welkin Moon - New Moon",
     "localeName": "空月の祝福·新月",
-    "desc": "新月が昇る時、天空の月に富と好運を祈る儀式。テイワットの最初の新月だと思って頂ければいい、少なくともこれはあなたにとって最初の新月ですから。\\n\\n使用すると有効期限が30日間の空月の祝福を獲得できます。",
+    "desc": "新月が昇る時、天空の月に富と好運を祈る儀式。テイワットの最初の新月だと思って頂ければいい、少なくともこれはあなたにとって最初の新月ですから。\n\n使用すると有効期限が30日間の空月の祝福を獲得できます。",
     "rarity": 5,
     "type": 7
   },
@@ -411,73 +178,82 @@
     "id": "NorthlanderSwordPrototype",
     "name": "Northlander Sword Prototype",
     "localeName": "北陸片手剣の原型",
-    "desc": "武器鍛造に必要な材料。鍛造により、☆4の片手剣が製造できる。\\n大理石は美しい彫刻になる可能性が秘められているように、この原型にも無限の可能性がある。",
+    "desc": "武器鍛造に必要な材料。鍛造により、☆4の片手剣が製造できる。\n大理石は美しい彫刻になる可能性が秘められているように、この原型にも無限の可能性がある。",
     "rarity": 4,
-    "type": 4
+    "type": 4,
+    "drop": ["BOSSドロップ"]
   },
   {
     "id": "NorthlanderBowPrototype",
     "name": "Northlander Bow Prototype",
     "localeName": "北陸弓の原型",
-    "desc": "武器鍛造に必要な材料。鍛造により、☆4の弓が製造できる。\\n大理石は美しい彫刻になる可能性が秘められているように、この原型にも無限の可能性がある。",
+    "desc": "武器鍛造に必要な材料。鍛造により、☆4の弓が製造できる。\n大理石は美しい彫刻になる可能性が秘められているように、この原型にも無限の可能性がある。",
     "rarity": 4,
-    "type": 4
+    "type": 4,
+    "drop": ["BOSSドロップ"]
   },
   {
     "id": "NorthlanderClaymorePrototype",
     "name": "Northlander Claymore Prototype",
     "localeName": "北陸両手剣の原型",
-    "desc": "武器鍛造に必要な材料。鍛造により、☆4の両手剣が製造できる。\\n大理石は美しい彫刻になる可能性が秘められているように、この原型にも無限の可能性がある。",
+    "desc": "武器鍛造に必要な材料。鍛造により、☆4の両手剣が製造できる。\n大理石は美しい彫刻になる可能性が秘められているように、この原型にも無限の可能性がある。",
     "rarity": 4,
-    "type": 4
+    "type": 4,
+    "drop": ["BOSSドロップ"]
   },
   {
     "id": "NorthlanderCatalystPrototype",
     "name": "Northlander Catalyst Prototype",
     "localeName": "北陸法器の原型",
-    "desc": "武器鍛造に必要な材料。鍛造により、☆4の法器が製造できる。\\n大理石は美しい彫刻になる可能性が秘められているように、この原型にも無限の可能性がある。",
+    "desc": "武器鍛造に必要な材料。鍛造により、☆4の法器が製造できる。\n大理石は美しい彫刻になる可能性が秘められているように、この原型にも無限の可能性がある。",
     "rarity": 4,
-    "type": 4
+    "type": 4,
+    "drop": ["BOSSドロップ"]
   },
   {
     "id": "NorthlanderPolearmPrototype",
     "name": "Northlander Polearm Prototype",
     "localeName": "北陸長柄武器の原型",
-    "desc": "武器鍛造に必要な材料。鍛造により、☆4の長柄武器が製造できる。\\n大理石は美しい彫刻になる可能性が秘められているように、この原型にも無限の可能性がある。",
+    "desc": "武器鍛造に必要な材料。鍛造により、☆4の長柄武器が製造できる。\n大理石は美しい彫刻になる可能性が秘められているように、この原型にも無限の可能性がある。",
     "rarity": 4,
-    "type": 4
+    "type": 4,
+    "drop": ["BOSSドロップ"]
   },
   {
     "id": "BrilliantDiamondSliver",
     "name": "Brilliant Diamond Sliver",
     "localeName": "輝くダイヤ·砕屑",
-    "desc": "キャラクターの突破用アイテム。\\n「世界へようこそ。」",
+    "desc": "キャラクターの突破用アイテム。\n「世界へようこそ。」",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["冒険ランク報酬"]
   },
   {
     "id": "BrilliantDiamondFragment",
     "name": "Brilliant Diamond Fragment",
     "localeName": "輝くダイヤ·欠片",
-    "desc": "キャラクターの突破用アイテム。\\n「世界へようこそ。」",
+    "desc": "キャラクターの突破用アイテム。\n「世界へようこそ。」",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["冒険ランク報酬"]
   },
   {
     "id": "BrilliantDiamondChunk",
     "name": "Brilliant Diamond Chunk",
     "localeName": "輝くダイヤ·塊",
-    "desc": "キャラクターの突破用アイテム。\\n「世界へようこそ。」",
+    "desc": "キャラクターの突破用アイテム。\n「世界へようこそ。」",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["冒険ランク報酬"]
   },
   {
     "id": "BrilliantDiamondGemstone",
     "name": "Brilliant Diamond Gemstone",
     "localeName": "輝くダイヤ",
-    "desc": "キャラクターの突破用アイテム。\\n「世界へようこそ。」",
+    "desc": "キャラクターの突破用アイテム。\n「世界へようこそ。」",
     "rarity": 5,
-    "type": 1
+    "type": 1,
+    "drop": ["冒険ランク報酬"]
   },
   {
     "id": "AgnidusAgateSliver",
@@ -485,31 +261,35 @@
     "localeName": "炎願のアゲート·砕屑",
     "desc": "キャラクターの突破用アイテム。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["爆炎樹でドロップ", "記念品ショップ交換"]
   },
   {
     "id": "AgnidusAgateFragment",
     "name": "Agnidus Agate Fragment",
     "localeName": "炎願のアゲート·欠片",
-    "desc": "キャラクターの突破用アイテム。\\n「願いを叶うために旅立つ、最強になるために戦う…」",
+    "desc": "キャラクターの突破用アイテム。\n「願いを叶うために旅立つ、最強になるために戦う…」",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["爆炎樹（Lv.40以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "AgnidusAgateChunk",
     "name": "Agnidus Agate Chunk",
     "localeName": "炎願のアゲート·塊",
-    "desc": "キャラクターの突破用アイテム。\\n「願いを叶うために旅立つ、最強になるために戦う…」\\n「やがて夢の業火に燃え尽きる。」",
+    "desc": "キャラクターの突破用アイテム。\n「願いを叶うために旅立つ、最強になるために戦う…」\n「やがて夢の業火に燃え尽きる。」",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["爆炎樹（Lv.60以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "AgnidusAgateGemstone",
     "name": "Agnidus Agate Gemstone",
     "localeName": "炎願のアゲート",
-    "desc": "キャラクターの突破用アイテム。\\n「願いを叶うために旅立つ、最強になるために戦う…」\\n「やがて夢の業火に燃え尽きる。」\\n「その灰燼にまだ初心が残っていれば、██の真実に辿り着いたという。」",
+    "desc": "キャラクターの突破用アイテム。\n「願いを叶うために旅立つ、最強になるために戦う…」\n「やがて夢の業火に燃え尽きる。」\n「その灰燼にまだ初心が残っていれば、██の真実に辿り着いたという。」",
     "rarity": 5,
-    "type": 1
+    "type": 1,
+    "drop": ["爆炎樹（Lv.75以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "VarunadaLazuriteSliver",
@@ -517,63 +297,63 @@
     "localeName": "澄明なラピスラズリ·砕屑",
     "desc": "キャラクターの突破用アイテム。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["純水精霊でドロップ", "記念品ショップ交換"]
   },
   {
     "id": "VarunadaLazuriteFragment",
     "name": "Varunada Lazurite Fragment",
     "localeName": "澄明なラピスラズリ·欠片",
-    "desc": "キャラクターの突破用アイテム。\\n「吾の理想には一片の穢れも無い。」",
+    "desc": "キャラクターの突破用アイテム。\n「吾の理想には一片の穢れも無い。」",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["純水精霊（Lv.40以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "VarunadaLazuriteChunk",
     "name": "Varunada Lazurite Chunk",
     "localeName": "澄明なラピスラズリ·塊",
-    "desc": "キャラクターの突破用アイテム。\\n「吾の理想には一片の穢れも無い。」\\n「正そうか、ここでは、人間は神に罪を背負わん…」",
+    "desc": "キャラクターの突破用アイテム。\n「吾の理想には一片の穢れも無い。」\n「正そうか、ここでは、人間は神に罪を背負わん…」",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["純水精霊（Lv.60以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "VarunadaLazuriteGemstone",
     "name": "Varunada Lazurite Gemstone",
     "localeName": "澄明なラピスラズリ",
-    "desc": "キャラクターの突破用アイテム。\\n「吾の理想には一片の穢れも無い。」\\n「正そうか、ここでは、人間は神に罪を背負わん。裁きを下すのは、法律と裁判所だけ。」\\n「この吾にも裁きを受ける。さあ、吾の崇高と純潔を讃えよう。」",
+    "desc": "キャラクターの突破用アイテム。\n「吾の理想には一片の穢れも無い。」\n「正そうか、ここでは、人間は神に罪を背負わん。裁きを下すのは、法律と裁判所だけ。」\n「この吾にも裁きを受ける。さあ、吾の崇高と純潔を讃えよう。」",
     "rarity": 5,
-    "type": 1
+    "type": 1,
+    "drop": ["純水精霊（Lv.75以上）でドロップ", "合成で獲得"]
   },
-  {
-    "id": "NagadusEmeraldSliver",
-    "name": "Nagadus Emerald Sliver",
-    "localeName": "成長のエメラルド·砕屑",
-    "desc": "キャラクターの突破用アイテム。",
-    "rarity": 2,
-    "type": 1
-  },
+  { "id": "NagadusEmeraldSliver", "name": "Nagadus Emerald Sliver", "localeName": "成長のエメラルド·砕屑", "desc": "キャラクターの突破用アイテム。", "rarity": 2, "type": 1 },
   {
     "id": "NagadusEmeraldFragment",
     "name": "Nagadus Emerald Fragment",
     "localeName": "成長のエメラルド·欠片",
-    "desc": "キャラクターの突破用アイテム。\\n「命は最後、手を放した…」",
+    "desc": "キャラクターの突破用アイテム。\n「命は最後、手を放した…」",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "NagadusEmeraldChunk",
     "name": "Nagadus Emerald Chunk",
     "localeName": "成長のエメラルド·塊",
-    "desc": "キャラクターの突破用アイテム。\\n「命は最後、手を放した…」\\n「森羅万象に自由を与えた。」",
+    "desc": "キャラクターの突破用アイテム。\n「命は最後、手を放した…」\n「森羅万象に自由を与えた。」",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "NagadusEmeraldGemstone",
     "name": "Nagadus Emerald Gemstone",
     "localeName": "成長のエメラルド",
-    "desc": "キャラクターの突破用アイテム。\\n「命は最後、手を放した…」\\n「森羅万象に自由を与えた。」\\n「人類や動物は感情を表せるが、草木にはできない。だから代弁者は必要である。」",
+    "desc": "キャラクターの突破用アイテム。\n「命は最後、手を放した…」\n「森羅万象に自由を与えた。」\n「人類や動物は感情を表せるが、草木にはできない。だから代弁者は必要である。」",
     "rarity": 5,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "VajradaAmethystSliver",
@@ -581,31 +361,35 @@
     "localeName": "最勝のアメシスト·砕屑",
     "desc": "キャラクターの突破用アイテム。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["無相の雷でドロップ", "記念品ショップ交換"]
   },
   {
     "id": "VajradaAmethystFragment",
     "name": "Vajrada Amethyst Fragment",
     "localeName": "最勝のアメシスト·欠片",
-    "desc": "キャラクターの突破用アイテム。\\n「この身こそ、唯一無二の高貴なる者。」",
+    "desc": "キャラクターの突破用アイテム。\n「この身こそ、唯一無二の高貴なる者。」",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["無相の雷（Lv.40以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "VajradaAmethystChunk",
     "name": "Vajrada Amethyst Chunk",
     "localeName": "最勝のアメシスト·塊",
-    "desc": "キャラクターの突破用アイテム。\\n「この身こそ、唯一無二の高貴なる者。」\\n「天下を統べし者。」",
+    "desc": "キャラクターの突破用アイテム。\n「この身こそ、唯一無二の高貴なる者。」\n「天下を統べし者。」",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["無相の雷（Lv.60以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "VajradaAmethystGemstone",
     "name": "Vajrada Amethyst Gemstone",
     "localeName": "最勝のアメシスト",
-    "desc": "キャラクターの突破用アイテム。\\n「この身こそ、唯一無二の高貴なる者。」\\n「天下を統べし者。」\\n「臣民に夢を与えようと誓った。それは、未来永劫変わらない『永久』だ。」",
+    "desc": "キャラクターの突破用アイテム。\n「この身こそ、唯一無二の高貴なる者。」\n「天下を統べし者。」\n「臣民に夢を与えようと誓った。それは、未来永劫変わらない『永久』だ。」",
     "rarity": 5,
-    "type": 1
+    "type": 1,
+    "drop": ["無相の雷（Lv.75以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "VayudaTurquoiseSliver",
@@ -613,31 +397,35 @@
     "localeName": "自由のターコイズ·砕屑",
     "desc": "キャラクターの突破用アイテム。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["無相の風でドロップ", "記念品ショップ交換"]
   },
   {
     "id": "VayudaTurquoiseFragment",
     "name": "Vayuda Turquoise Fragment",
     "localeName": "自由のターコイズ·欠片",
-    "desc": "キャラクターの突破用アイテム。\\n「風向きは変わるもの。」",
+    "desc": "キャラクターの突破用アイテム。\n「風向きは変わるもの。」",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["無相の風（Lv.40以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "VayudaTurquoiseChunk",
     "name": "Vayuda Turquoise Chunk",
     "localeName": "自由のターコイズ·塊",
-    "desc": "キャラクターの突破用アイテム。\\n「風向きは変わるもの。」\\n「いつか、光射す方へと吹いてくる。」",
+    "desc": "キャラクターの突破用アイテム。\n「風向きは変わるもの。」\n「いつか、光射す方へと吹いてくる。」",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["無相の風（Lv.60以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "VayudaTurquoiseGemstone",
     "name": "Vayuda Turquoise Gemstone",
     "localeName": "自由のターコイズ",
-    "desc": "キャラクターの突破用アイテム。\\n「風向きは変わるもの。」\\n「いつか、光射す方へと吹いてくる。」\\n「これからは、ボクの祝福と共に、もっと自由に生きていこう。」",
+    "desc": "キャラクターの突破用アイテム。\n「風向きは変わるもの。」\n「いつか、光射す方へと吹いてくる。」\n「これからは、ボクの祝福と共に、もっと自由に生きていこう。」",
     "rarity": 5,
-    "type": 1
+    "type": 1,
+    "drop": ["無相の風（Lv.75以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "ShivadaJadeSliver",
@@ -645,31 +433,35 @@
     "localeName": "哀切なアイスクリスタル·砕屑",
     "desc": "キャラクターの突破用アイテム。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["急凍樹でドロップ", "記念品ショップ交換"]
   },
   {
     "id": "ShivadaJadeFragment",
     "name": "Shivada Jade Fragment",
     "localeName": "哀切なアイスクリスタル·欠片",
-    "desc": "キャラクターの突破用アイテム。\\n「…すみません…」",
+    "desc": "キャラクターの突破用アイテム。\n「…すみません…」",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["急凍樹（Lv.40以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "ShivadaJadeChunk",
     "name": "Shivada Jade Chunk",
     "localeName": "哀切なアイスクリスタル·塊",
-    "desc": "キャラクターの突破用アイテム。\\n「…すみません…」\\n「あなた達まで、わたしと一緒にこの世界の悲しみを背負わせるなんて…」",
+    "desc": "キャラクターの突破用アイテム。\n「…すみません…」\n「あなた達まで、わたしと一緒にこの世界の悲しみを背負わせるなんて…」",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["急凍樹（Lv.60以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "ShivadaJadeGemstone",
     "name": "Shivada Jade Gemstone",
     "localeName": "哀切なアイスクリスタル",
-    "desc": "キャラクターの突破用アイテム。\\n「…すみません、あなた達まで、わたしと一緒にこの世界の悲しみを背負わせるなんて…」\\n「わたしの寒さを耐えられる者は、きっと心の中に熱い欲望を持っているだろう？」\\n「なら、わたしの代わりに、旧世界を焼き尽くそう。」",
+    "desc": "キャラクターの突破用アイテム。\n「…すみません、あなた達まで、わたしと一緒にこの世界の悲しみを背負わせるなんて…」\n「わたしの寒さを耐えられる者は、きっと心の中に熱い欲望を持っているだろう？」\n「なら、わたしの代わりに、旧世界を焼き尽くそう。」",
     "rarity": 5,
-    "type": 1
+    "type": 1,
+    "drop": ["急凍樹（Lv.75以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "PrithivaTopazSliver",
@@ -677,37 +469,41 @@
     "localeName": "堅牢なトパーズ·砕屑",
     "desc": "キャラクターの突破用アイテム。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["無相の岩でドロップ", "記念品ショップ交換"]
   },
   {
     "id": "PrithivaTopazFragment",
     "name": "Prithiva Topaz Fragment",
     "localeName": "堅牢なトパーズ·欠片",
-    "desc": "キャラクターの突破用アイテム。\\n「この大陸の全ての金銭は俺の血肉。」",
+    "desc": "キャラクターの突破用アイテム。\n「この大陸の全ての金銭は俺の血肉。」",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["無相の岩（Lv.40以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "PrithivaTopazChunk",
     "name": "Prithiva Topaz Chunk",
     "localeName": "堅牢なトパーズ·塊",
-    "desc": "キャラクターの突破用アイテム。\\n「この大陸の全ての金銭は俺の血肉。」\\n「こんな形で俺は、人間の労働、知恵、未来を保証する。」",
+    "desc": "キャラクターの突破用アイテム。\n「この大陸の全ての金銭は俺の血肉。」\n「こんな形で俺は、人間の労働、知恵、未来を保証する。」",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["無相の岩（Lv.60以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "PrithivaTopazGemstone",
     "name": "Prithiva Topaz Gemstone",
     "localeName": "堅牢なトパーズ",
-    "desc": "キャラクターの突破用アイテム。\\n「この大陸の全ての金銭は俺の血肉。」\\n「こんな形で俺は、人間の労働、知恵、未来を保証する。」\\n「これが俺の人間への信頼。金銭に背くことは、俺の血を汚すと同然だ。」",
+    "desc": "キャラクターの突破用アイテム。\n「この大陸の全ての金銭は俺の血肉。」\n「こんな形で俺は、人間の労働、知恵、未来を保証する。」\n「これが俺の人間への信頼。金銭に背くことは、俺の血を汚すと同然だ。」",
     "rarity": 5,
-    "type": 1
+    "type": 1,
+    "drop": ["無相の岩（Lv.75以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "TeachingsofFreedom",
     "name": "Teachings of Freedom",
     "localeName": "「自由」の教え",
-    "desc": "天賦育成素材。\\n風の国の精神は自由である。\\n自由その1、生きる自由、すなわち健全、健康に生きること。いつ終わるか分からない自由の心配がないこと。",
+    "desc": "天賦育成素材。\n風の国の精神は自由である。\n自由その1、生きる自由、すなわち健全、健康に生きること。いつ終わるか分からない自由の心配がないこと。",
     "rarity": 2,
     "type": 1
   },
@@ -715,23 +511,25 @@
     "id": "GuidetoFreedom",
     "name": "Guide to Freedom",
     "localeName": "「自由」の導き",
-    "desc": "天賦育成素材。\\n風の国の精神は自由である。\\n自由その2、旅する自由、すなわち蒼翠なる土地で自由気ままに通行し、邪魔されない自由。",
+    "desc": "天賦育成素材。\n風の国の精神は自由である。\n自由その2、旅する自由、すなわち蒼翠なる土地で自由気ままに通行し、邪魔されない自由。",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "PhilosophiesofFreedom",
     "name": "Philosophies of Freedom",
     "localeName": "「自由」の哲学",
-    "desc": "天賦育成素材。\\n風の国の精神は自由である。\\n自由その3、歌う自由、すなわち風神が作った美しい場所で歌い、風のように自分の心を自由にすること。",
+    "desc": "天賦育成素材。\n風の国の精神は自由である。\n自由その3、歌う自由、すなわち風神が作った美しい場所で歌い、風のように自分の心を自由にすること。",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "TeachingsofResistance",
     "name": "Teachings of Resistance",
     "localeName": "「抗争」の教え",
-    "desc": "天賦育成素材。\\n風の国の支柱は抗争である。\\nモンドの歴史はすなわち抗争の歴史。モンドの全ての抗争が忘れられないように抗争する、それは草木が土を破り、風が石の壁を穿つと同じである。",
+    "desc": "天賦育成素材。\n風の国の支柱は抗争である。\nモンドの歴史はすなわち抗争の歴史。モンドの全ての抗争が忘れられないように抗争する、それは草木が土を破り、風が石の壁を穿つと同じである。",
     "rarity": 2,
     "type": 1
   },
@@ -739,23 +537,25 @@
     "id": "GuidetoResistance",
     "name": "Guide to Resistance",
     "localeName": "「抗争」の導き",
-    "desc": "天賦育成素材。\\n風の国の支柱は抗争である。\\nモンドの歴史はすなわち抗争の歴史。モンドの人々が自由であるために抗争する、それは風神が氷雪を散らし、ヴァネッサが立ち上がって戦うと同じである。",
+    "desc": "天賦育成素材。\n風の国の支柱は抗争である。\nモンドの歴史はすなわち抗争の歴史。モンドの人々が自由であるために抗争する、それは風神が氷雪を散らし、ヴァネッサが立ち上がって戦うと同じである。",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "PhilosophiesofResistance",
     "name": "Philosophies of Resistance",
     "localeName": "「抗争」の哲学",
-    "desc": "天賦育成素材。\\n風の国の支柱は抗争である。\\nモンドの歴史はすなわち抗争の歴史。モンドの未来の詩と文章が風と共に自由に遠くまで伝わるために抗争する。",
+    "desc": "天賦育成素材。\n風の国の支柱は抗争である。\nモンドの歴史はすなわち抗争の歴史。モンドの未来の詩と文章が風と共に自由に遠くまで伝わるために抗争する。",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "TeachingsofBallad",
     "name": "Teachings of Ballad",
     "localeName": "「詩文」の教え",
-    "desc": "天賦育成素材。\\n風の国の魂は詩と文章である。\\n詩と文章は美しい気持ちである。美しい日々に野原の風が田園の詩や愛の詩を連れて、風が葉を撫でるように、人々の心を優しく撫でる。",
+    "desc": "天賦育成素材。\n風の国の魂は詩と文章である。\n詩と文章は美しい気持ちである。美しい日々に野原の風が田園の詩や愛の詩を連れて、風が葉を撫でるように、人々の心を優しく撫でる。",
     "rarity": 2,
     "type": 1
   },
@@ -763,23 +563,25 @@
     "id": "GuidetoBallad",
     "name": "Guide to Ballad",
     "localeName": "「詩文」の導き",
-    "desc": "天賦育成素材。\\n風の国の魂は詩と文章である。\\n詩と文章は激励の心意気。暗い日々の中で、巷を通る風は怒りの詩を囁き、それは戦鼓、嵐の前の呟きである。",
+    "desc": "天賦育成素材。\n風の国の魂は詩と文章である。\n詩と文章は激励の心意気。暗い日々の中で、巷を通る風は怒りの詩を囁き、それは戦鼓、嵐の前の呟きである。",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "PhilosophiesofBallad",
     "name": "Philosophies of Ballad",
     "localeName": "「詩文」の哲学",
-    "desc": "天賦育成素材。\\n風の国の魂は詩と文章である。\\n詩と文章は謳う気持ちである。全てが消え、全てがなくなったとしても、風と共にある詩と歌はこの世の美しいものを何一つ残さず空、大地、海の片隅まで届ける。",
+    "desc": "天賦育成素材。\n風の国の魂は詩と文章である。\n詩と文章は謳う気持ちである。全てが消え、全てがなくなったとしても、風と共にある詩と歌はこの世の美しいものを何一つ残さず空、大地、海の片隅まで届ける。",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "TeachingsofProsperity",
     "name": "Teachings of Prosperity",
     "localeName": "「繁栄」の教え",
-    "desc": "天賦育成素材。\\n岩の国が追い求めるものは繁栄である。\\n繁栄は璃月の恵みであり、璃月の神と人間が共に作った偉大なる都市、そして璃月の大地の安全と平和を守る源である。",
+    "desc": "天賦育成素材。\n岩の国が追い求めるものは繁栄である。\n繁栄は璃月の恵みであり、璃月の神と人間が共に作った偉大なる都市、そして璃月の大地の安全と平和を守る源である。",
     "rarity": 2,
     "type": 1
   },
@@ -787,23 +589,25 @@
     "id": "GuidetoProsperity",
     "name": "Guide to Prosperity",
     "localeName": "「繁栄」の導き",
-    "desc": "天賦育成素材。\\n岩の国が追い求めるものは繁栄である。\\n繁栄は璃月がその民に対する約束である。働き者には繁栄を、この土地には黄金を。",
+    "desc": "天賦育成素材。\n岩の国が追い求めるものは繁栄である。\n繁栄は璃月がその民に対する約束である。働き者には繁栄を、この土地には黄金を。",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "PhilosophiesofProsperity",
     "name": "Philosophies of Prosperity",
     "localeName": "「繁栄」の哲学",
-    "desc": "天賦育成素材。\\n岩の国が追い求めるものは繁栄である。\\n繁栄は璃月の過去、現在、そして未来。この世界の全ての国がたどり着けないような繁栄は、璃月と璃月の民のものである。",
+    "desc": "天賦育成素材。\n岩の国が追い求めるものは繁栄である。\n繁栄は璃月の過去、現在、そして未来。この世界の全ての国がたどり着けないような繁栄は、璃月と璃月の民のものである。",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "TeachingsofDiligence",
     "name": "Teachings of Diligence",
     "localeName": "「勤労」の教え",
-    "desc": "天賦育成素材。\\n岩の国の根本は勤労である。\\n勤労とは人の努力で山と海を越え、繁栄と黄金を追い求める勇気と力である。",
+    "desc": "天賦育成素材。\n岩の国の根本は勤労である。\n勤労とは人の努力で山と海を越え、繁栄と黄金を追い求める勇気と力である。",
     "rarity": 2,
     "type": 1
   },
@@ -811,23 +615,25 @@
     "id": "GuidetoDiligence",
     "name": "Guide to Diligence",
     "localeName": "「勤労」の導き",
-    "desc": "天賦育成素材。\\n岩の国の根本は勤労である。\\n勤労は璃月の人々の血に流れる触媒、岩を黄金に変え、偉大なる商港が偉大なる商港になれる原因である。",
+    "desc": "天賦育成素材。\n岩の国の根本は勤労である。\n勤労は璃月の人々の血に流れる触媒、岩を黄金に変え、偉大なる商港が偉大なる商港になれる原因である。",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "PhilosophiesofDiligence",
     "name": "Philosophies of Diligence",
     "localeName": "「勤労」の哲学",
-    "desc": "天賦育成素材。\\n岩の国の根本は勤労である。\\n勤労はすなわち自分を信じ、汗、知恵と力を以て、神々の土地で誰でも自分の居場所を作れると信じることである。",
+    "desc": "天賦育成素材。\n岩の国の根本は勤労である。\n勤労はすなわち自分を信じ、汗、知恵と力を以て、神々の土地で誰でも自分の居場所を作れると信じることである。",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "TeachingsofGold",
     "name": "Teachings of Gold",
     "localeName": "「黄金」の教え",
-    "desc": "天賦育成素材。\\n岩の国の象徴は黄金である。\\n黄金は璃月の深部に流れる血、璃月の心臓を動かす筋肉、璃月がまっすぐでいれれるための骨である。",
+    "desc": "天賦育成素材。\n岩の国の象徴は黄金である。\n黄金は璃月の深部に流れる血、璃月の心臓を動かす筋肉、璃月がまっすぐでいれれるための骨である。",
     "rarity": 2,
     "type": 1
   },
@@ -835,31 +641,34 @@
     "id": "GuidetoGold",
     "name": "Guide to Gold",
     "localeName": "「黄金」の導き",
-    "desc": "天賦育成素材。\\n岩の国の象徴は黄金である。\\n黄金は転換を意味する。それは璃月の岩山、大地、港と人々の間では暗黙の了解である。璃月では、勤労は黄金に、そして黄金は繁栄に転換される。",
+    "desc": "天賦育成素材。\n岩の国の象徴は黄金である。\n黄金は転換を意味する。それは璃月の岩山、大地、港と人々の間では暗黙の了解である。璃月では、勤労は黄金に、そして黄金は繁栄に転換される。",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "PhilosophiesofGold",
     "name": "Philosophies of Gold",
     "localeName": "「黄金」の哲学",
-    "desc": "天賦育成素材。\\n岩の国の象徴は黄金である。\\n黄金は璃月の富である。しかし璃月の本当の富は、璃月の人々の黄金のように輝く心である。",
+    "desc": "天賦育成素材。\n岩の国の象徴は黄金である。\n黄金は璃月の富である。しかし璃月の本当の富は、璃月の人々の黄金のように輝く心である。",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "CrownofInsight",
     "name": "Crown of Insight",
     "localeName": "知恵の冠",
-    "desc": "天賦のLvUpに必要なレア素材。\\n遥か昔に、知恵の伝承に使用していた儀式の器具。現在、知恵はすでに言語や典籍と一体化している。しかし「知恵の冠」に残された力と知識は今の人に偉大なる突破をもたらしてくれる。",
+    "desc": "天賦のLvUpに必要なレア素材。\n遥か昔に、知恵の伝承に使用していた儀式の器具。現在、知恵はすでに言語や典籍と一体化している。しかし「知恵の冠」に残された力と知識は今の人に偉大なる突破をもたらしてくれる。",
     "rarity": 5,
-    "type": 1
+    "type": 1,
+    "drop": ["期間限定イベント報酬"]
   },
   {
     "id": "FragileResin",
     "name": "Fragile Resin",
     "localeName": "脆弱樹脂",
-    "desc": "天然樹脂の補充に使えるアイテム、1個につき60を補充できる。\\n少量のエネルギーが含まれている結晶、天然樹脂に吸収されることができる。\\n様々なエネルギーの流れはこの世界の美しさと挑戦を構築した。この結晶の中にもそういうエネルギーが含まれている。",
+    "desc": "天然樹脂の補充に使えるアイテム、1個につき60を補充できる。\n少量のエネルギーが含まれている結晶、天然樹脂に吸収されることができる。\n様々なエネルギーの流れはこの世界の美しさと挑戦を構築した。この結晶の中にもそういうエネルギーが含まれている。",
     "rarity": 4,
     "type": 7
   },
@@ -869,7 +678,8 @@
     "localeName": "微妙な漁師トースト",
     "desc": "玉ねぎを敷き詰めたトースト。焼き方が少しおかしくて、釣りをしながら食べても、味の違いははっきりと分かる。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "FishermansToast",
@@ -877,7 +687,8 @@
     "localeName": "漁師トースト",
     "desc": "玉ねぎを敷き詰めたトースト。漁師の間に流行っている主食。袋にいっぱい詰めて、一日川辺で過ごせる。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousFishermansToast",
@@ -885,7 +696,8 @@
     "localeName": "美味しそうな漁師トースト",
     "desc": "玉ねぎを敷き詰めたトースト。人を誘うような香りがする。エサとトースト、魚はどっちに引き寄せられたかは分からない。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousTeyvatFriedEgg",
@@ -893,7 +705,8 @@
     "localeName": "微妙なテイワット風目玉焼き",
     "desc": "鳥の卵の片面焼き。食感は少し硬めで、栄養が損なわれていないことしか期待できない。",
     "rarity": 1,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "TeyvatFriedEgg",
@@ -901,7 +714,8 @@
     "localeName": "テイワット風目玉焼き",
     "desc": "鳥の卵の片面焼き。箸先で黄身をプチッと突つくと中身がとろりと流れ出て、食欲をそそられる。",
     "rarity": 1,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousTeyvatFriedEgg",
@@ -909,7 +723,8 @@
     "localeName": "美味しそうなテイワット風目玉焼き",
     "desc": "鳥の卵の片面焼き。太陽のように温かい口当たり、一口食べるだけで生命力がみなぎってくる。",
     "rarity": 1,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousSteak",
@@ -917,23 +732,18 @@
     "localeName": "微妙なステーキ",
     "desc": "強火で焼いたステーキ。表面はやや黒っぽく、十分な美味しさを発揮できないことを嘆いているかのようだ",
     "rarity": 1,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
-  {
-    "id": "Steak",
-    "name": "Steak",
-    "localeName": "ステーキ",
-    "desc": "強火で焼いたステーキ。肉汁を逃さずに焼き上げたジューシーなお肉はたまらない。",
-    "rarity": 1,
-    "type": 2
-  },
+  { "id": "Steak", "name": "Steak", "localeName": "ステーキ", "desc": "強火で焼いたステーキ。肉汁を逃さずに焼き上げたジューシーなお肉はたまらない。", "rarity": 1, "type": 2, "drop": ["料理を作る"] },
   {
     "id": "DeliciousSteak",
     "name": "Delicious Steak",
     "localeName": "美味しそうなステーキ",
     "desc": "強火で焼いたステーキ。高温で焼くことで水分を中に閉じこめ、ナイフで切った後に流れ出る肉汁が楽しみで仕方ない。",
     "rarity": 1,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "OutridersChampionSteak",
@@ -941,7 +751,8 @@
     "localeName": "偵察騎士ステーキ！",
     "desc": "アンバーのオリジナル料理。片面は血の色をしており、もう片面からは焦げた肉の微妙な香りを放っている。目を閉じて一気に食べると、アンバーは喜んでくれるだろう。",
     "rarity": 1,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousChickenMushroomSkewer",
@@ -949,7 +760,8 @@
     "localeName": "微妙な鳥肉と野生キノコの串焼き",
     "desc": "キノコと鳥肉を組み合わせた串焼き。ちょっと見ただけでは両者の違いが分からないかもしれない。",
     "rarity": 1,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "ChickenMushroomSkewer",
@@ -957,7 +769,8 @@
     "localeName": "鳥肉と野生キノコの串焼き",
     "desc": "キノコと鳥肉を組み合わせた串焼き。ジューシーな鳥肉が香りのいいキノコを引き立てる。食べる時に好き嫌いをしないように。",
     "rarity": 1,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousChickenMushroomSkewer",
@@ -965,7 +778,8 @@
     "localeName": "美味しそうな鳥肉と野生キノコの串焼き",
     "desc": "キノコと鳥肉を組み合わせた串焼き。ちょうどいい火加減で、1本の串に山の幸の味を凝縮している。",
     "rarity": 1,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "FruitySkewers",
@@ -973,7 +787,8 @@
     "localeName": "フルーティーな串焼き",
     "desc": "ガイアのオリジナル料理。とても美味しそうな串焼き、しっかりとした濃厚な甘みを感じる。待って…本当にフルーツの香り？",
     "rarity": 1,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousFlamingRedBolognese",
@@ -981,7 +796,8 @@
     "localeName": "微妙な完熟トマトのミートソース",
     "desc": "ミートソースたっぷりのスパゲッティ。濃厚な口当たりで、歯にくっつく感覚が少し不快。",
     "rarity": 2,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "FlamingRedBolognese",
@@ -989,7 +805,8 @@
     "localeName": "完熟トマトのミートソース",
     "desc": "ミートソースたっぷりのスパゲッティ。スパゲッティがトマトソースで真っ赤に彩られている。甘酸っぱく美味しく、食欲をかきたてる。",
     "rarity": 2,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousFlamingRedBolognese",
@@ -997,7 +814,8 @@
     "localeName": "美味しそうな完熟トマトのミートソース",
     "desc": "ミートソースたっぷりのスパゲッティ。濃厚な甘酸っぱさで最後の一口まで美味しく感じる。",
     "rarity": 2,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "MysteriousBolognese",
@@ -1005,7 +823,8 @@
     "localeName": "魔法のミートソース",
     "desc": "リサのオリジナル料理。見た目はちょっと微妙なミートソーススパゲッティだが、一度口にしたらもう手が止められない。一体どんな魔法をかけたんだろうか？",
     "rarity": 2,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousRadishVeggieSoup",
@@ -1013,7 +832,8 @@
     "localeName": "微妙な大根入りの野菜スープ",
     "desc": "ダイコンをメインにした野菜スープ。スープの中の野菜は元気がなく、まるで真冬でも経験したかのようだ。",
     "rarity": 1,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "RadishVeggieSoup",
@@ -1021,7 +841,8 @@
     "localeName": "大根入りの野菜スープ",
     "desc": "ダイコンをメインにした野菜スープ。ほのかに甘酸っぱいスープの中に柔らかいダイコンが隠れている。栄養バランスがとれた一品。",
     "rarity": 1,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousRadishVeggieSoup",
@@ -1029,7 +850,8 @@
     "localeName": "美味しそうな大根入りの野菜スープ",
     "desc": "ダイコンをメインにした野菜スープ。爽やかで素朴な田園の香りがする。のんびりした午後の時間を楽しめるようだ。",
     "rarity": 1,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousTeaBreakPancake",
@@ -1037,7 +859,8 @@
     "localeName": "微妙な午後のパンケーキ",
     "desc": "丸いパンケーキ。パンケーキの香りが焦げ臭さに負けている。ラズベリーだけが唯一の良心。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "TeaBreakPancake",
@@ -1045,7 +868,8 @@
     "localeName": "午後のパンケーキ",
     "desc": "丸いパンケーキ。最初はアフタヌーンティーのおやつだったが、今は普通の主食になっている。飾りとして最高のラズベリーを使っている。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousTeaBreakPancake",
@@ -1053,7 +877,8 @@
     "localeName": "美味しそうな午後のパンケーキ",
     "desc": "丸いパンケーキ。いい香りにフワフワな食感、まるで雲の上を歩いているようだ。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousFriedRadishBalls",
@@ -1061,7 +886,8 @@
     "localeName": "微妙な大根の揚げ団子",
     "desc": "油で揚げた大根団子。食べてみると油っぽく、水と一緒じゃないと飲みこめない。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "FriedRadishBalls",
@@ -1069,7 +895,8 @@
     "localeName": "大根の揚げ団子",
     "desc": "油で揚げた大根団子。柔らかくて香りの良い独特な食感。熱いうちに食べるのがおススメ。璃月のレシピらしい。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousFriedRadishBalls",
@@ -1077,7 +904,8 @@
     "localeName": "美味しそうな大根の揚げ団子",
     "desc": "油で揚げた大根団子。材料が素朴なダイコンとは信じられないほどの美味しさ。食べたことのある人は、璃月の美味しそうな食事に想いを馳せるだろう！",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousSatisfyingSalad",
@@ -1085,7 +913,8 @@
     "localeName": "微妙な満足サラダ",
     "desc": "冷たいサラダ。盛り付けに気をとられ、ジャガイモと鳥の卵の調理時間が間違えられた残念な一品。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SatisfyingSalad",
@@ -1093,7 +922,8 @@
     "localeName": "満足サラダ",
     "desc": "冷たいサラダ。茹でたジャガイモ、新鮮な果物や野菜、さらに半熟の卵が添えられている。食べると満腹感を得られる。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousSatisfyingSalad",
@@ -1101,7 +931,8 @@
     "localeName": "美味しそうな満足サラダ",
     "desc": "冷たいサラダ。爽やかで軽い口当たり。残りの人生でこのサラダしか食べられなくなっても、飽きることはないだろう。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousSweetMadame",
@@ -1109,7 +940,8 @@
     "localeName": "微妙な鳥肉のスイートフラワー漬け焼き",
     "desc": "蜜漬けにしてから焼いた鳥肉。焼きすぎでスイートフラワーが萎れ、鳥肉の苦みしか残っていない。",
     "rarity": 2,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SweetMadame",
@@ -1117,7 +949,8 @@
     "localeName": "鳥肉のスイートフラワー漬け焼き",
     "desc": "蜜漬けにしてから焼いた鳥肉。ジューシーな鳥肉からスイートフラワーの蜜が滴り落ちる。甘くて美味しい。",
     "rarity": 2,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousSweetMadame",
@@ -1125,7 +958,8 @@
     "localeName": "美味しそうな鳥肉のスイートフラワー漬け焼き",
     "desc": "蜜漬けにしてから焼いた鳥肉。肉質は蜜のように甘くて柔らかい。骨まできれいに食べたくなってしまうほど。",
     "rarity": 2,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousNorthernSmokedChicken",
@@ -1133,7 +967,8 @@
     "localeName": "微妙な北地のスモークチキン",
     "desc": "野菜と燻製にした鳥肉の組合せ。誰かをもてなす前には、まず一口味見しよう。今から作り直すのがまだ間に合えるかも。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "NorthernSmokedChicken",
@@ -1141,7 +976,8 @@
     "localeName": "北地のスモークチキン",
     "desc": "野菜と燻製にした鳥肉の組合せ。北地の家庭料理の定番。大事な客をもてなす時に出す。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousNorthernSmokedChicken",
@@ -1149,7 +985,8 @@
     "localeName": "美味しそうな北地のスモークチキン",
     "desc": "野菜と燻製にした鳥肉の組合せ。完璧な食感をしており、国の主をもてなす時に出しても恥ずかしくない。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousCreamStew",
@@ -1157,7 +994,8 @@
     "localeName": "微妙なホワイトソースポトフ",
     "desc": "クリームで煮込んだポトフ。ソースが乾いているせいで、鉄板焼きのような料理になっている。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "CreamStew",
@@ -1165,7 +1003,8 @@
     "localeName": "ホワイトソースポトフ",
     "desc": "クリームで煮込んだポトフ。濃厚なソースによって、しっかりした口当たりとなっている。口に入れるとみずみずしくて柔らかい。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousCreamStew",
@@ -1173,7 +1012,8 @@
     "localeName": "美味しそうなホワイトソースポトフ",
     "desc": "クリームで煮込んだポトフ。食材が口の中で融け、ミルク風呂に入っているかのように全身がリラックスする。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SpicyStew",
@@ -1181,7 +1021,8 @@
     "localeName": "スパイシーポトフ",
     "desc": "バーバラのオリジナル料理。星の形に切ったニンジンで可愛さを増している…待って、この鬼のような辛さはどういうことだ？",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousMushroomPizza",
@@ -1189,7 +1030,8 @@
     "localeName": "微妙なキノコピザ",
     "desc": "キノコとチーズを敷き詰めたピザ。レンガのような食感を我慢すれば、主食としてしっかりとしたエネルギーを補給しくれる。",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "MushroomPizza",
@@ -1197,7 +1039,8 @@
     "localeName": "キノコピザ",
     "desc": "キノコとチーズを敷き詰めたピザ。熱いうちはチーズが細長い糸を引ける。ガブリと食べると止まらなくなる。",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousMushroomPizza",
@@ -1205,7 +1048,8 @@
     "localeName": "美味しそうなキノコピザ",
     "desc": "キノコとチーズを敷き詰めたピザ。柔らかいキノコと野菜がフワフワのチーズの絨毯を踏み、手をつなぎながら舌の上で踊っている。",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "InvigoratingPizza",
@@ -1213,7 +1057,8 @@
     "localeName": "眠気覚ましピザ",
     "desc": "ジンのオリジナル料理。工芸品のように整えられたピザ。一切れ食べるだけで元気がみなぎる。彼女が何時間も仕事を続けられる秘密は、これだろうか？",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousMondstadtHashBrown",
@@ -1221,7 +1066,8 @@
     "localeName": "微妙なモンド風ハッシュドポテト",
     "desc": "ジャガイモで作ったスナック。ジャムのないハッシュドポテトはモンドの名前を冠することができないらしい。しかし、この塊の様子を見ると…ハッシュドポテトとすら呼べないのでは？",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "MondstadtHashBrown",
@@ -1229,7 +1075,8 @@
     "localeName": "モンド風ハッシュドポテト",
     "desc": "ジャガイモで作ったスナック。少し加えたナッツが食感に変化をもたらしている。ジャムと一緒に食べてもよい。幅広い年齢層の人から慕われている。",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousMondstadtHashBrown",
@@ -1237,7 +1084,8 @@
     "localeName": "美味しそうなモンド風ハッシュドポテト",
     "desc": "ジャガイモで作ったスナック。目を閉じて小さなハッシュドポテトを食べる。すると爽やかな柔らかさと甘露のような甘みが広がるだろう。",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "PuppyPawHashBrown",
@@ -1245,7 +1093,8 @@
     "localeName": "ツメ型ハッシュドポテト",
     "desc": "レザーのオリジナル料理。丁寧に狼の爪の形にしたハッシュドポテト。素朴な味の中に甘い香りが広がり、人間の料理に対するレザーの努力を味わえる。",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousCallaLilySeafoodSoup",
@@ -1253,7 +1102,8 @@
     "localeName": "微妙なドドリアン海鮮スープ",
     "desc": "栄養バランスのとれた海鮮スープ。ドドリアンの苦み、ミントの渋み、カニ肉の生臭さ……食材の欠点を全部この一皿に凝縮させたのも、ある種の才能だろう。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "CallaLilySeafoodSoup",
@@ -1261,7 +1111,8 @@
     "localeName": "ドドリアン海鮮スープ",
     "desc": "栄養バランスのとれた海鮮スープ。透明なスープを一口飲むごとに、カニの旨味が広がる。ミントとドドリアンが爽やかさを添えている。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousCallaLilySeafoodSoup",
@@ -1269,7 +1120,8 @@
     "localeName": "美味しそうなドドリアン海鮮スープ",
     "desc": "栄養バランスのとれた海鮮スープ。カニの旨味が舌の上で踊り、爽やかなミントやドドリアンに合わせると、まるで裸足で夏の水辺で戯れるような爽やかさがある。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousSautedMatsutake",
@@ -1277,7 +1129,8 @@
     "localeName": "微妙な松茸のバター焼き",
     "desc": "松茸のスライスを焼いたもの。残念ながら火加減が悪く、作っているところを見ていない人は、焦げたジャガイモスライスを出されても分からないだろう。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SautedMatsutake",
@@ -1285,7 +1138,8 @@
     "localeName": "松茸のバター焼き",
     "desc": "松茸のスライスを焼いたもの。薄くスライスした松茸をバターで焼き、柔らかい口当たりにした。あっという間になくなってしまう。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousSautedMatsutake",
@@ -1293,7 +1147,8 @@
     "localeName": "美味しそうな松茸のバター焼き",
     "desc": "松茸のスライスを焼いたもの。滑らかな口当たり、口の中で広がる香り。まるで春の活力がお腹の中に入ってくるかのようだ。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousPileEmUp",
@@ -1301,7 +1156,8 @@
     "localeName": "微妙な「お肉ツミツミ」",
     "desc": "たくさんの材料を使った肉料理。おそらく積み重ねる順番を間違えたのだろう。この皿の上でグラついている料理をテーブルまで運べるのか、大きな問題になっている。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "PileEmUp",
@@ -1309,7 +1165,8 @@
     "localeName": "「お肉ツミツミ」",
     "desc": "たくさんの材料を使った肉料理。ステーキ、ジャガイモ、チーズを積み重ねたモンドの家庭料理だったが、後にバドルドー祭のフィナーレ料理として有名になった。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousPileEmUp",
@@ -1317,7 +1174,8 @@
     "localeName": "美味しそうな「お肉ツミツミ」",
     "desc": "たくさんの材料を使った肉料理。食材を積み重ねて目でも楽しめる。適切な割合になっているので、どの層の組合せを食べても食べ飽きない。あぁ、もっと高く積み重ねてみたいなぁ。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "OnceUponaTimeinMondstadt",
@@ -1325,7 +1183,8 @@
     "localeName": "「モンドの過去」",
     "desc": "ディルックのオリジナル料理。まずは目で綺麗な盛り付けを楽しむ。柔らかいステーキが口の中で融けていく。えっ…旦那様にこんな得意料理があったとは知らなかった。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousColdCutPlatter",
@@ -1333,7 +1192,8 @@
     "localeName": "微妙な冷製肉盛り合わせ",
     "desc": "肉類がたくさん入った盛り合わせ。冷やしすぎてしまったようで、歯や胃が弱い人にとっては一種の苦行になるかもしれない。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "ColdCutPlatter",
@@ -1341,7 +1201,8 @@
     "localeName": "冷製肉盛り合わせ",
     "desc": "肉類がたくさん入った盛り合わせ。ベーコン、ハム、ソーセージを同じ分量で組み合わせている。食べる時は、どの肉が一番美味しいかという議論は横に置き、平和に味わおう。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousColdCutPlatter",
@@ -1349,7 +1210,8 @@
     "localeName": "美味しそうな冷製肉盛り合わせ",
     "desc": "肉類がたくさん入った盛り合わせ。絶妙な調味料の加減で、食材の香りを引き立てている。3種類の肉のコンビネーションが口の中で最高の美味しさへと変わる。悩みを一時的に忘れさせてくれるだろう。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousStickyHoneyRoast",
@@ -1357,7 +1219,8 @@
     "localeName": "微妙なニンジンとお肉のハニーソテー",
     "desc": "ハチミツソースをたっぷりかけた肉料理。肉とハチミツソースが完璧に絡み合う。肉の香りも、ハチミツソースの甘味も分からなくなっている。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "StickyHoneyRoast",
@@ -1365,7 +1228,8 @@
     "localeName": "ニンジンとお肉のハニーソテー",
     "desc": "ハチミツソースをかけた肉料理。ニンジンが上手に肉の生臭さを消している。ハチミツソースに包まれ、口に入れると甘味が広がり、熱が後まで残っている。冬に食べるのがおススメ。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousStickyHoneyRoast",
@@ -1373,7 +1237,8 @@
     "localeName": "美味しそうなニンジンとお肉のハニーソテー",
     "desc": "ハチミツソースをたっぷりかけた肉料理。ジューシーな肉に熱々なソースがよく絡み、驚くほどの美味しさ！オレンジ色の日差しを浴びているかのようだ。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousCrabHamVeggieBake",
@@ -1381,7 +1246,8 @@
     "localeName": "微妙なかにみそとハムのグリル野菜",
     "desc": "トッピングが豪華なグリル。この濃厚な有様を見てしまうと、中に何を加えたのか、或いは何を加えなかったのかも分からなくなってしまうだろう。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "CrabHamVeggieBake",
@@ -1389,7 +1255,8 @@
     "localeName": "かにみそとハムのグリル野菜",
     "desc": "トッピングが豪華なグリル。黄金色の皮の下から、バラのように赤いハムと青々とした野菜が姿をのぞかせている。鮮やかな彩りに、思わず食欲がそそられる。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousCrabHamVeggieBake",
@@ -1397,7 +1264,8 @@
     "localeName": "美味しそうなかにみそとハムのグリル野菜",
     "desc": "トッピングが豪華なグリル。口に入れる前からかにみそとクリームの濃厚な香りが漂ってくる。最後にはペロリときれいに平らげてしまう。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousJadeParcels",
@@ -1405,7 +1273,8 @@
     "localeName": "微妙な翠玉福袋",
     "desc": "見栄えがいい料理。野菜が萎びてて、中の具材も半生。がっかりする一品。",
     "rarity": 4,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "JadeParcels",
@@ -1413,7 +1282,8 @@
     "localeName": "翠玉福袋",
     "desc": "見栄えがいい料理。歯応えのある野菜がハムの旨味を包む。スープと一緒に口にすると、そのピリ辛の旨さを忘れられない。",
     "rarity": 4,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousJadeParcels",
@@ -1421,7 +1291,8 @@
     "localeName": "美味しそうな翠玉福袋",
     "desc": "見栄えがいい料理。野菜包みの中にハムと蓮の実が入っている。ハムの旨味とクリスピー蓮の葉が相まって、濃厚なスープと一緒に食べるのがおすすめ。",
     "rarity": 4,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousZhongyuanChopSuey",
@@ -1429,7 +1300,8 @@
     "localeName": "微妙な中原のもつ焼き",
     "desc": "味付けしてから出来上がった肉料理。作り手のレベルは見た目から分かる。一番人気な屋台に置いても売れないかもしれない。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "ZhongyuanChopSuey",
@@ -1437,7 +1309,8 @@
     "localeName": "中原のもつ焼き",
     "desc": "味付けしてから出来上がった肉料理。材料は動物の内臓や小間切れだが、味付けなど下ごしらえをしたため、肉の生臭さはしない。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousZhongyuanChopSuey",
@@ -1445,7 +1318,8 @@
     "localeName": "美味しそうな中原のもつ焼き",
     "desc": "味付けしてから出来上がった肉料理。「璃月の味」がするお肉。年寄りが食べたら感激して泣いてしまいそう。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousBlackBackPerchStew",
@@ -1453,7 +1327,8 @@
     "localeName": "微妙な黒背スズキの唐辛子煮込み",
     "desc": "魚の煮込み料理。辛すぎて、魚本来の味を損なった。ごく一部の人だけが、この衝撃的な辛さを耐えられる。",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "BlackBackPerchStew",
@@ -1461,7 +1336,8 @@
     "localeName": "黒背スズキの唐辛子煮込み",
     "desc": "魚の煮込み料理。魚の身がぎゅっと締まって、味も染み込んでいる。この料理のコツは、最後にかける熱々な油に琉璃袋の粉を入れること。",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousBlackBackPerchStew",
@@ -1469,7 +1345,8 @@
     "localeName": "美味しそうな黒背スズキの唐辛子煮込み",
     "desc": "魚の煮込み料理。滑らかな魚肉は口からこぼれ落ちそうになる。一口食べたらまた次へと。",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousSquirrelFish",
@@ -1477,7 +1354,8 @@
     "localeName": "微妙な揚げ魚の甘酢あんかけ",
     "desc": "手間をかける魚料理。魚には見えるが、リスとの関係は全く分からない。手間をかける料理はそう簡単には行かない。",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SquirrelFish",
@@ -1485,7 +1363,8 @@
     "localeName": "揚げ魚の甘酢あんかけ",
     "desc": "手間をかける魚料理。骨を取り、片栗粉をつけて揚げた魚に、甘酸っぱいソースをかける。外はサクサク、中はしっとりしている。",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousSquirrelFish",
@@ -1493,7 +1372,8 @@
     "localeName": "美味しそうな揚げ魚の甘酢あんかけ",
     "desc": "手間をかける魚料理。見栄えがとても良く、甘酸っぱいソースが料理を昇華させた。料理人の凄腕が窺える。",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousAlmondTofu",
@@ -1501,7 +1381,8 @@
     "localeName": "微妙な杏仁豆腐",
     "desc": "杏仁が原材料のデザート。手抜きしたため、口触りはあまり良くない。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "AlmondTofu",
@@ -1509,7 +1390,8 @@
     "localeName": "杏仁豆腐",
     "desc": "杏仁が原材料のデザート。滑らかな舌触りと杏仁の香りがする。豆腐に似ていることが名前の由来。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousAlmondTofu",
@@ -1517,7 +1399,8 @@
     "localeName": "美味しそうな杏仁豆腐",
     "desc": "杏仁が原材料のデザート。形も色もまるで芸術品みたい。食べるのがもったいない。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousJueyunChiliChicken",
@@ -1525,7 +1408,8 @@
     "localeName": "微妙な椒椒鶏",
     "desc": "鶏肉の和え物。タレが染み込んでいないため、椒椒鶏というより、鶏肉の水煮と思われる。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "JueyunChiliChicken",
@@ -1533,7 +1417,8 @@
     "localeName": "椒椒鶏",
     "desc": "鶏肉の和え物。鶏肉のジューシさをそのままキープされ、金色の皮の下にあるピリ辛の味わいが魅力的である。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousJueyunChiliChicken",
@@ -1541,7 +1426,8 @@
     "localeName": "美味しそうな椒椒鶏",
     "desc": "鶏肉の和え物。柔らかな鶏肉を噛んでみると、ジュワッと溢れ出す肉汁。夢であるように、自分の居場所も分からなくなる。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousJewelrySoup",
@@ -1549,7 +1435,8 @@
     "localeName": "微妙な真珠翡翠白玉湯",
     "desc": "簡単な材料で作られたスープ。味は薄くて、萎びてる野菜は荒地を彷彿させる。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "JewelrySoup",
@@ -1557,7 +1444,8 @@
     "localeName": "真珠翡翠白玉湯",
     "desc": "簡単な材料で作られたスープ。沸騰したお湯に金魚草、豆腐、蓮の実を入れるだけ。緑野菜と豆腐は翡翠と白玉に見えるのが名前の由来だが、本当は簡単に作れる家庭料理。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousJewelrySoup",
@@ -1565,7 +1453,8 @@
     "localeName": "美味しそうな真珠翡翠白玉湯",
     "desc": "簡単な材料で作られたスープ。野菜本来の味がする。自然の味はどんな珍味よりも味わえる。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousMatsutakeMeatRolls",
@@ -1573,7 +1462,8 @@
     "localeName": "微妙な松茸の肉巻き",
     "desc": "肉を焼いた料理。乾いた松茸は想像と大違い。でも松茸の栄養素を考えると、捨てない方がいい。",
     "rarity": 2,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "MatsutakeMeatRolls",
@@ -1581,7 +1471,8 @@
     "localeName": "松茸の肉巻き",
     "desc": "肉を焼いた料理。松茸を肉で巻いて、弱火でじっくり焼く。肉汁を吸い込んだ松茸にもはや我慢できない。",
     "rarity": 2,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousMatsutakeMeatRolls",
@@ -1589,7 +1480,8 @@
     "localeName": "美味しそうな松茸の肉巻き",
     "desc": "肉を焼いた料理。自然の真髄と月日はここにある。栄養補給以外に、幸せも感じさせる一品。",
     "rarity": 2,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousMoraMeat",
@@ -1597,7 +1489,8 @@
     "localeName": "微妙なモラミート",
     "desc": "肉たっぷりの焼餅。しっかりしすぎた皮は硬く、とても食べづらい。脂っこさを我慢して、肉だけ食べれば、肉の香りを味わえなくもない。",
     "rarity": 1,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "MoraMeat",
@@ -1605,7 +1498,8 @@
     "localeName": "モラミート",
     "desc": "肉たっぷりの焼餅。焼餅を二つに分けると、中にはジューシーな肉が挟まれている。肉の脂っこさはなく、焼餅の甘さがより際立つ一品。縁起のいい食べ物として、その表には「モラ」の模様がついていることが多い。",
     "rarity": 1,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousMoraMeat",
@@ -1613,7 +1507,8 @@
     "localeName": "美味しそうなモラミート",
     "desc": "肉たっぷりの焼餅。パリパリの皮とジューシーな肉。一口でハマる美味しさ、たとえ目の前にモラがたくさん積まれても、気を取られることはないだろう。",
     "rarity": 1,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousMondstadtGrilledFish",
@@ -1621,7 +1516,8 @@
     "localeName": "微妙なモンド風焼き魚",
     "desc": "弱火でじっくり焼き上げた魚。焼き過ぎたせいか、魚肉はかなり硬い。",
     "rarity": 1,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "MondstadtGrilledFish",
@@ -1629,7 +1525,8 @@
     "localeName": "モンド風焼き魚",
     "desc": "弱火でじっくり焼き上げた魚。焼き加減がちょうどで、身が締まっている。コショウをかけると一層美味しくなる。",
     "rarity": 1,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousMondstadtGrilledFish",
@@ -1637,7 +1534,8 @@
     "localeName": "美味しそうなモンド風焼き魚",
     "desc": "弱火でじっくり焼き上げた魚。脂が乗ってて、一口で魚の旨味が口の中に広がる。",
     "rarity": 1,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousStirFriedFilet",
@@ -1645,7 +1543,8 @@
     "localeName": "微妙な豚肉の油炒め",
     "desc": "強火で炒めた獣の肉。焦げた肉と絶雲の唐辛子がぐちゃぐちゃになっている。あまりオススメしない。",
     "rarity": 1,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "StirFriedFilet",
@@ -1653,7 +1552,8 @@
     "localeName": "豚肉の油炒め",
     "desc": "強火で炒めた獣の肉。肉の香りと唐辛子の刺激。箸が止まらない。",
     "rarity": 1,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousStirFriedFilet",
@@ -1661,7 +1561,8 @@
     "localeName": "美味しそうな豚肉の油炒め",
     "desc": "強火で炒めた獣の肉。吹雪の中に燃える炎のように、刺激性が最強な料理。一度口にしたら、もう止められない。",
     "rarity": 1,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousGoldenCrab",
@@ -1669,7 +1570,8 @@
     "localeName": "微妙な黄金ガニ",
     "desc": "古いレシピ通りに作られたカニ料理。小麦粉はジャリのようにざらざらしていて、殻もたまに入っている。けど、味のないカニ肉より、殻の方が風味がある。",
     "rarity": 4,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "GoldenCrab",
@@ -1677,7 +1579,8 @@
     "localeName": "黄金ガニ",
     "desc": "古いレシピ通りに作られたかに料理。カニを数個に分けた後、小麦粉をつけて、金色になるまで強火で炒める。食欲をそそる香り、見た目もそのクオリティも黄金の名に負けないほどの絶品である。",
     "rarity": 4,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousGoldenCrab",
@@ -1685,7 +1588,8 @@
     "localeName": "美味しそうな黄金ガニ",
     "desc": "古いレシピ通りに作られたカニ料理。遠くからでも分かるカニの香り、一口食べてみるとその潮の香りが口に広がり、黄金のような華やかさと長く伝わる文化の美を体験できる一品。",
     "rarity": 4,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousCrystalShrimp",
@@ -1693,7 +1597,8 @@
     "localeName": "微妙な水晶蝦",
     "desc": "璃月の伝統点心の一つ。薄暗い皮にはべたべたした食感があり、中の餡は乾燥していて、口の中の水分は全部持っていかれそうだ。",
     "rarity": 2,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "CrystalShrimp",
@@ -1701,7 +1606,8 @@
     "localeName": "水晶蝦",
     "desc": "璃月の伝統点心の一つ。餡はエビのむき身を丸ごと使用し、明るいピンクは半透明の皮の下に隠れている。プリプリの食感がたまらない。",
     "rarity": 2,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousCrystalShrimp",
@@ -1709,7 +1615,8 @@
     "localeName": "美味しそうな水晶蝦",
     "desc": "璃月の伝統点心の一つ。皮は水晶のように透き通り、プリプリのエビが口の中で踊っているような食感が楽しめる、おかわりがしたくなる一品。",
     "rarity": 2,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousGrilledTigerFish",
@@ -1717,7 +1624,8 @@
     "localeName": "微妙なチ虎魚焼き",
     "desc": "強火で焼いた魚の串焼き。その焦げた見た目から、なんとなく焼き魚なのは分かるが、よく見たら鱗がまだたくさん残っている。",
     "rarity": 1,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "GrilledTigerFish",
@@ -1725,7 +1633,8 @@
     "localeName": "チ虎魚焼き",
     "desc": "強火で焼いた魚の串焼き。埠頭で引き上げられた魚を軽く漬け焼いたもの、その香りは野良猫をも虜にする。新鮮が美味しさの秘訣である。",
     "rarity": 1,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousGrilledTigerFish",
@@ -1733,7 +1642,8 @@
     "localeName": "美味しそうなチ虎魚焼き",
     "desc": "強火で焼いた魚の串焼き。金色の皮が柔らかい魚肉を包み、ハフハフしながら、串につくの細かい肉をも食べ尽くしたいほどの美味である。",
     "rarity": 1,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousBarbatosRatatouille",
@@ -1741,7 +1651,8 @@
     "localeName": "微妙な風神ヒュッツポット",
     "desc": "長い歴史を持つ簡単な料理。風神は自由の象徴とはいえ、この料理はあまりにも自由すぎる気がする。狂風ヒュッツポットという名前のほうがしっくりくる。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "BarbatosRatatouille",
@@ -1749,7 +1660,8 @@
     "localeName": "風神ヒュッツポット",
     "desc": "長い歴史を持つ簡単な料理、どこにもあるような材料しか使っていない。どこにいても、こういうアツアツの料理がくれる満足感に勝てるものはない。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousBarbatosRatatouille",
@@ -1757,7 +1669,8 @@
     "localeName": "美味しそうな風神ヒュッツポット",
     "desc": "長い歴史を持つ簡単な料理。じっくり煮込めば、三つの野菜の味が程よく溶け合う。「今まで食べた最高の料理」と褒める人も少なくないらしい。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "ABuoyantBreeze",
@@ -1765,7 +1678,8 @@
     "localeName": "真·風神ヒュッツポット",
     "desc": "ウェンティのオリジナル料理。装飾用のセシリアの花を除けば、普通の風神ヒュッツポットと何の変りもないように見えるが、ゆっくり食べてみると、「些細な転機と希望の風」の味がする。もしかして…これがウェンティの気持ち？",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DerWeisheitLetzterSchlussLife",
@@ -1773,7 +1687,8 @@
     "localeName": "最高の知恵·生活",
     "desc": "モナのオリジナル料理。偉大なる占星術師による偉大な料理、その偉大さはこの料理は効率よく空腹を満たせるところにある。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "FishFlavoredToast",
@@ -1781,7 +1696,8 @@
     "localeName": "魚香トースト",
     "desc": "クレーのオリジナル料理。爆弾を勝手に投げて魚を驚かせたクレーは、ジンの指導の下、このトーストを作って漁師たちに詫びを入れた。味がよく、満腹感を長く保つこの料理のおかげで、爆弾で魚が逃げても、クレーは怒られなくなった。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "TeyvatCharredEgg",
@@ -1789,7 +1705,8 @@
     "localeName": "テイワット風焦げ卵",
     "desc": "ベネットのオリジナル料理。目玉焼きのまわりはどうしても焦げがちだが、そのパリパリした食感は新しい風味をもたらしてくれる。",
     "rarity": 1,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DieHeiligeSinfonie",
@@ -1797,7 +1714,8 @@
     "localeName": "祈聖シンフォニー",
     "desc": "フィッシュルのオリジナル料理。精美に盛り付けられた料理には誰も知らない奥深さを感じる。料理を口にする時、フィッシュルに視線を向けると、その顔を隠す指の隙間から彼女の期待を込めた視線が見れるかもしれない…これも秘密の一部だろうか？",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "LighterThanAirPancake",
@@ -1805,7 +1723,8 @@
     "localeName": "ふわふわパンケーキ",
     "desc": "ノエルのオリジナル料理。この分厚いパンケーキは騎士団のアフタヌーンティーのお供、雲の中にいるような幸せな気分になれる一品。隣にいるノエルの笑顔を見ると、その甘さがまた少し増えたような気がする！",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousLotusSeedandBirdEggSoup",
@@ -1813,7 +1732,8 @@
     "localeName": "微妙なハスの実入り茶碗蒸し",
     "desc": "卵の茶碗蒸し。調理時間が長すぎて表面がでこぼこして蜂の巣のようになった。それと比べればハスの実の苦みは取るに足らない。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "LotusSeedandBirdEggSoup",
@@ -1821,7 +1741,8 @@
     "localeName": "ハスの実入り茶碗蒸し",
     "desc": "卵の茶碗蒸し。透き通った黄色の卵の上に、ハスの実が輝いている。朝食としても、食後のデザートとして、栄養バランスのとれた一品。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousLotusSeedandBirdEggSoup",
@@ -1829,7 +1750,8 @@
     "localeName": "美味しそうなハスの実入り茶碗蒸し",
     "desc": "卵の茶碗蒸し。滑らかな茶碗蒸しが口の中に溶けて、気がついたらすでにのどを通った。口の中に残る余韻が綻びるハスのように甘くて清々しい。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousAdeptusTemptation",
@@ -1837,7 +1759,8 @@
     "localeName": "微妙な仙跳牆",
     "desc": "手間をかける璃月の名物料理。スープの作り方を理解していないため、出来上がったものはしょっぱくて臭みがある。でも食材の値段を思うと…ああ、どうしようかな。",
     "rarity": 5,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "AdeptusTemptation",
@@ -1845,7 +1768,8 @@
     "localeName": "仙跳牆",
     "desc": "手間をかける璃月の名物料理。厳選した食材にそれをかぶるくらいのストックを加えて、弱火でじっくりと煮込めば完成。記憶を元にレシピを書いただけで、仙人が凡人のように心が揺れ動いて、人間界に赴いた。",
     "rarity": 5,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousAdeptusTemptation",
@@ -1853,7 +1777,8 @@
     "localeName": "美味しそうな仙跳牆",
     "desc": "手間をかける璃月の名物料理。山と海の幸が詰まった一品。一口食べてみると、その滑らかな食感がたまらない。よく味わってみると、口の中に残る余韻が素晴らしくてたまらない。仙人でさえも、その美味しさに住み処から誘い出せるらしい。",
     "rarity": 5,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousGoldenShrimpBalls",
@@ -1861,7 +1786,8 @@
     "localeName": "微妙なエビのポテト包み揚げ",
     "desc": "エビを使った揚げ料理。慌てて揚げたから、出来上がったものは生煮えだったり、焦げたりしした。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "GoldenShrimpBalls",
@@ -1869,7 +1795,8 @@
     "localeName": "エビのポテト包み揚げ",
     "desc": "エビを使った揚げ料理。サクサクしたジャガイモにエビの甘みが染み込んでいる。見た目もかわいらしく、食欲をそそる一品。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousGoldenShrimpBalls",
@@ -1877,7 +1804,8 @@
     "localeName": "美味しそうなエビのポテト包み揚げ",
     "desc": "エビを使った揚げ料理。黄金色のジャガイモの千切りにじゅわっと溢れるエビの甘い肉汁。一口食べてみるとその旨味が口の中に広がる。満足度が高い一品。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousQingceStirFry",
@@ -1885,7 +1813,8 @@
     "localeName": "微妙な軽策農家料理",
     "desc": "強火で炒めた料理。どうやらこれが失敗作らしい。味が苦くて辛い。白米を美味しく楽しみたいなら、この料理と一緒に食べないほうがいい。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "QingceStirFry",
@@ -1893,7 +1822,8 @@
     "localeName": "軽策農家料理",
     "desc": "強火で炒めた料理。もとは軽策荘地域の家庭料理だったが、その辛さは案外他の地域でもウケがよく、徐々に璃月地域で広く伝わる料理となった。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousQingceStirFry",
@@ -1901,7 +1831,8 @@
     "localeName": "美味しそうな軽策農家料理",
     "desc": "強火で炒めた料理。匂いだけで食欲をそそられる。病みつきになる辛さが刺激的で、ご飯10杯でも行ける気がする。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousComeandGetIt",
@@ -1909,7 +1840,8 @@
     "localeName": "微妙なお食べくだ菜",
     "desc": "具材たっぷりの一品。全ての食材を大ざっぱに混ぜただけで、食材の味が複雑で美味しいとは言えない。あれ…なんか砂が入っているけど？",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "ComeandGetIt",
@@ -1917,7 +1849,8 @@
     "localeName": "お食べくだ菜",
     "desc": "具材たっぷりの一品。具材の選択や作り方に特にこだわりはないが、璃月の祭りではよく登場する一品。名前は、「どうぞ、お食べてください」という意味から由来する。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousComeandGetIt",
@@ -1925,7 +1858,8 @@
     "localeName": "美味しそうなお食べくだ菜",
     "desc": "具材たっぷりの一品。盛り付けが綺麗で、野菜とお肉が入っている栄養バランスの良い一品。食材の旨味を凝縮したスープがあっという間になくなる。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DefinitelyNotBarFood",
@@ -1933,7 +1867,8 @@
     "localeName": "絶対オツマミじゃない",
     "desc": "ディオナのオリジナル料理。パリパリした魚の皮に、柔らかい魚肉、魚を愛する者だけが作れる美味しさ。もし何か酒とか…まずい、ディオナの視線を感じる！",
     "rarity": 1,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "WanminRestaurantsBoiledFish",
@@ -1941,7 +1876,8 @@
     "localeName": "万民堂水煮魚",
     "desc": "香菱のオリジナル料理。万民堂とっておきの一品。香菱が料理に対する情熱を込められている。食べた人はその爽快な味の中で、美食に対する純粋な感動を覚える。",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "AllDelicacyParcels",
@@ -1949,7 +1885,8 @@
     "localeName": "江湖百味",
     "desc": "行秋のオリジナル料理。工芸品のような見た目は食べるのがもったいないと思わせるが、一口食べてみるとすぐにその甘い味わいの虜になる。待って…ニンジンをこっそり捨ててないよね？",
     "rarity": 2,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SweetDream",
@@ -1957,7 +1894,8 @@
     "localeName": "「快夢」",
     "desc": "魈のオリジナル料理。「快夢」といってもとてもシンプル、ただのいい夢を見たいだけ。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "FlashFriedFilet",
@@ -1965,7 +1903,8 @@
     "localeName": "豚肉の唐辛子炒め",
     "desc": "北斗のオリジナル料理。香菱に教わった料理をさらに改良を加えたものらしい。一気に全部食べると、北斗の賞賛を得られるかもしれない。",
     "rarity": 1,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "QiankunMoraMeat",
@@ -1973,7 +1912,8 @@
     "localeName": "乾坤モラミート",
     "desc": "凝光のオリジナル料理。皮はちょうどいい柔らかさ、肉は上質なものしか使わない、蜜のような肉汁がジュワッっとあふれてくるのがたまらない一品。「天権」凝光様は一体どこでこの料理を学んだだろう？",
     "rarity": 1,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "NoTomorrow",
@@ -1981,7 +1921,8 @@
     "localeName": "アシタナシ",
     "desc": "七七のオリジナル料理。綺麗に並べられた食材はとても美味しそうに見える。白朮曰く、この料理は七七がかなり時間をかけた成果らしい…しかし七七は味覚がないから、食べるのにかなり勇気がいる。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousNoodleswithMountainDelicacies",
@@ -1989,7 +1930,8 @@
     "localeName": "微妙な山幸の麺",
     "desc": "栄養バランスが良い麺。強火で食材の水分が飛んだため、麺が非常に乾いている。ゆっくり食べても噎せてしまう。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "NoodleswithMountainDelicacies",
@@ -1997,7 +1939,8 @@
     "localeName": "山幸の麺",
     "desc": "栄養バランスが良い麺。具材たっぷりで、麺とスープが良く絡む。ごく普通の作り方だが、濃厚な味を楽しめる。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousNoodleswithMountainDelicacies",
@@ -2005,7 +1948,8 @@
     "localeName": "美味しそうな山幸の麺",
     "desc": "栄養バランスが良い麺。一見普通の麺に見えるが、山の幸を吸収しており、一口で旨味の極みを感じられる。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "ColdNoodleswithMountainDelicacies",
@@ -2013,7 +1957,8 @@
     "localeName": "山幸の冷やし麺",
     "desc": "重雲のオリジナル料理、歯ごたえのある麺は夏に最適だ。でも重雲は冬でも主食として食べている。本当に大変だ。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SurvivalGrilledFish",
@@ -2021,7 +1966,8 @@
     "localeName": "九死一生の焼き魚",
     "desc": "刻晴のオリジナル料理。火で焼くのではなく、雷元素で魚を内部から加熱した料理。程よく焦げた皮が身を包み、一口で旨味が広がる。彼女にはこういうサバイバルスキルもあるのか？人は見かけによらぬものだ。",
     "rarity": 1,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "NutritiousMealV593",
@@ -2029,23 +1975,18 @@
     "localeName": "五九三式栄養食",
     "desc": "スクロースのオリジナル料理。一見変わった錬金物に見えるが、スクロース本人は「これは何度も実験を繰り返した上でできた栄養食品」と主張している。「健康」の緑色はクリームに天然の野菜汁を入れているから…野菜汁？",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
-  {
-    "id": "HolyWater",
-    "name": "Holy Water",
-    "localeName": "聖水",
-    "desc": "透き通った無色で無垢な液体。清泉水と同じ用に見える。これに期待していい？",
-    "rarity": 3,
-    "type": 2
-  },
+  { "id": "HolyWater", "name": "Holy Water", "localeName": "聖水", "desc": "透き通った無色で無垢な液体。清泉水と同じ用に見える。これに期待していい？", "rarity": 3, "type": 2, "drop": ["商店で購入"] },
   {
     "id": "PopsTeas",
     "name": "Pop's Teas",
     "localeName": "大椀のお茶",
     "desc": "璃月の名物飲み物。領土が広い璃月で旅するのが大変なことである。故に大椀茶の容器が大きいほど助かる。",
     "rarity": 1,
-    "type": 3
+    "type": 3,
+    "drop": ["商店で購入"]
   },
   {
     "id": "WolfhookJuice",
@@ -2053,7 +1994,8 @@
     "localeName": "ググプラムのジュース",
     "desc": "最近流行っているノンアルコールドリンク。搾りたてのググプラムのジュースに氷を入れた、幻の紫色のドリンク。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["商店で購入"]
   },
   {
     "id": "BerryMintBurst",
@@ -2061,7 +2003,8 @@
     "localeName": "ミントベリージュース",
     "desc": "最近流行っているノンアルコールドリンク。爽やかなミントドリンクにラズベリーが入り、優雅な香りが仄かにする。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["商店で購入"]
   },
   {
     "id": "AppleCider",
@@ -2069,7 +2012,8 @@
     "localeName": "アップルサイダー",
     "desc": "最近流行っているノンアルコールドリンク。酔い覚めのドリンク。酒飲みたちが飲み会の最後にシメとして注文している。",
     "rarity": 2,
-    "type": 3
+    "type": 3,
+    "drop": ["商店で購入"]
   },
   {
     "id": "SuspiciousBambooShootSoup",
@@ -2077,7 +2021,8 @@
     "localeName": "微妙な腌篤鮮",
     "desc": "長い時間をかけて煮込んだスープ。火加減により肉は硬くなり、ソーセージの塩味が全ての素材の味を消した。2種類の肉の味がしみ込んだタケノコは、まだなんとか食べられるだろう。",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "BambooShootSoup",
@@ -2085,7 +2030,8 @@
     "localeName": "腌篤鮮",
     "desc": "長い時間をかけて煮込んだスープ。新鮮なタケノコ、豚肉、ハムを細かく切って、スープが白くなるまで弱火でじっくり煮込む。2種類の肉から異なる味がして、スープに旨味が凝縮される。",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousBambooShootSoup",
@@ -2093,7 +2039,8 @@
     "localeName": "美味しそうな腌篤鮮",
     "desc": "長い時間をかけて煮込んだスープ。匂いだけで食欲が湧き、一口飲めば凝縮された旨味が体を駆け巡る。翼を広げ香しい雲の間を散策している気分になる。",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousTripleLayeredConsomm",
@@ -2101,7 +2048,8 @@
     "localeName": "微妙な璃月三糸",
     "desc": "盛り合わせが綺麗な一品。だが、口に入れた時、それが水のような薄い味をであることに気づく。スープを希釈しすぎたのだろうか？",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "TripleLayeredConsomm",
@@ -2109,7 +2057,8 @@
     "localeName": "璃月三糸",
     "desc": "盛り合わせが綺麗な一品。ハム、豚肉、タケノコを同じ長さに千切りし、強火で蒸し焼きしたら裏返しして皿にのせる、旨味たっぷりのスープを掛けたら完成。くっきりとした味わいがする。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousTripleLayeredConsomm",
@@ -2117,7 +2066,8 @@
     "localeName": "美味しそうな璃月三糸",
     "desc": "盛り合わせが綺麗な一品。均一な細切りからは料理人の腕前が伺える。これは料理ではなく芸術品だ。口に入れれば、その美味しさに再度驚かされる。芸術品のままにしておくのはもったいない。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousTianshuMeat",
@@ -2125,7 +2075,8 @@
     "localeName": "微妙な天枢肉",
     "desc": "じっくり煮込んだ獣肉。長時間火にかけたことにより食感は皆無で脂身はギトギト。イグサに包むことで、ようやくなんとか飲み込める。",
     "rarity": 4,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "TianshuMeat",
@@ -2133,7 +2084,8 @@
     "localeName": "天枢肉",
     "desc": "じっくり煮込んだ獣肉。肉と脂のバランスが絶妙な獣肉に香辛料を揉み込んでじっくり煮込む。出来上がった肉は綺麗な色をしていて、柔らかくてとろける。噂によるとこの料理は歴代の天枢の中である人が研究を重ねて開発した傑作らしい。",
     "rarity": 4,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousTianshuMeat",
@@ -2141,7 +2093,8 @@
     "localeName": "美味しそうな天枢肉",
     "desc": "じっくり煮込んだ獣肉。香り豊かで味わい深く見た目も美しい。この料理の真髄はここにあるだろう。月海亭の宴会に並べても遜色ないだろう。",
     "rarity": 4,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousLotusFlowerCrisp",
@@ -2149,7 +2102,8 @@
     "localeName": "微妙なハスの花パイ",
     "desc": "璃月の伝統点心の1つ。花びらは退色し、焦げて黄色くなっている。油の温度は無情だ。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "LotusFlowerCrisp",
@@ -2157,7 +2111,8 @@
     "localeName": "ハスの花パイ",
     "desc": "璃月の伝統点心の1つ。油と粉を混ぜて甘い餡を入れたら、小麦粉の皮で包んで揚げると完成。花のように咲いていて、手のひらにのせると実に美しい。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousLotusFlowerCrisp",
@@ -2165,7 +2120,8 @@
     "localeName": "美味しそうなハスの花パイ",
     "desc": "璃月の伝統点心の1つ。そっと息を吹きかけると、生命を吹き込まれたかのように花びらが揺れる。目をつむって一口かじれば、甘さが口に広がり、まるで風が吹き、花が咲き、鳥が歌いだすよう。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousMoonPie",
@@ -2173,7 +2129,8 @@
     "localeName": "微妙なムーンパイ",
     "desc": "モンド伝統の主食。焦げたパイ生地はまだ許容範囲に見える。だが、モンド出身の人には見せないほうがいいだろう。手取り足取り成功するまで口出しされてしまうだろう…",
     "rarity": 4,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "MoonPie",
@@ -2181,7 +2138,8 @@
     "localeName": "ムーンパイ",
     "desc": "モンド伝統の主食。漬けた肉は風味が強く、パイ生地で包んで焼き上げると甘くて肉汁がたっぷり。モンドの祝日には欠かせない一品。",
     "rarity": 4,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousMoonPie",
@@ -2189,7 +2147,8 @@
     "localeName": "美味しそうなムーンパイ",
     "desc": "モンド伝統の主食。切れ込みを入れれば、バターと肉の香りが鼻をくすぐる。甘い食感は人々に祭りの日を思い起こさせ、自然と幸せな笑みがこぼれる。",
     "rarity": 4,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousAdventurersBreakfastSandwich",
@@ -2197,7 +2156,8 @@
     "localeName": "微妙な冒険者エッグバーガー",
     "desc": "栄養素たっぷりのたまご料理。固まったマヨネーズの下には、固ゆでの卵と噛み応えしかないソーセージがある。顔をしかめて完食すれば、腹は満たされるだろう。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "AdventurersBreakfastSandwich",
@@ -2205,7 +2165,8 @@
     "localeName": "冒険者エッグバーガー",
     "desc": "栄養素たっぷりのたまご料理。トーストにハムと温泉たまごを載せ、マヨネーズをたっぷりかけると完成。滑らかな食感で冒険者にエネルギーを与える。冒険者協会の中で最も好評な朝食。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousAdventurersBreakfastSandwich",
@@ -2213,7 +2174,8 @@
     "localeName": "美味しそうな冒険者エッグバーガー",
     "desc": "栄養素たっぷりのたまご料理。マヨネーズは波に差し込む朝日のように、温泉卵の上にかかっている。ツルリとした食感に心がざわめくと、ソーセージ特有の塩の香りが吹き込んでくる。朝日の光を止めるものはいない。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousNorthernAppleStew",
@@ -2221,7 +2183,8 @@
     "localeName": "微妙な北地のリンゴと肉の煮込み",
     "desc": "リンゴと一緒に煮込んだ肉料理。少しすっぱい以外に、フルーツの香りを感じられない普通の肉料理。リンゴを入れ忘れてしまったのだろうか。",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "NorthernAppleStew",
@@ -2229,7 +2192,8 @@
     "localeName": "北地のリンゴと肉の煮込み",
     "desc": "リンゴと一緒に煮込んだ肉料理。獣肉の滑らかな食感に溢れ出す肉汁とフルーツの香り。今までなかった爽やかな一品。",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousNorthernAppleStew",
@@ -2237,7 +2201,8 @@
     "localeName": "美味しそうな北地のリンゴと肉の煮込み",
     "desc": "リンゴと一緒に煮込んだ肉料理。獣肉に纏ったフルーツの香りは、完食してもまだ口に残っている。まるで、甘美な香りが漂うリンゴ園に寝っ転がっているようだ。",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SlowCookedBambooShootSoup",
@@ -2245,7 +2210,8 @@
     "localeName": "とろ火で煮込んだ腌篤鮮",
     "desc": "鍾離のオリジナル料理。ソーセージは月海亭の基準に満たした火瞳部位、肉は清泉町でその日捕れたばら肉、タケノコは軽策荘で取れたもの。それらを弱火でじっくり煮込みんだ…「こだわり」の美味。味の分かる人としか分かち合わない。",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "RockinRiffinChicken",
@@ -2253,7 +2219,8 @@
     "localeName": "ロック·チキン！",
     "desc": "辛炎のオリジナル料理。化け物のような見た目の中に化け物のような辛さが隠されている。食べると涙が溢れるが癖になる味。化け物にしか作れないだろう！",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "APrizeCatch",
@@ -2261,7 +2228,8 @@
     "localeName": "極みの一釣り",
     "desc": "タルタリヤのオリジナル料理。海を漂う野獣が、野垂れ死ぬ前に発した音のない咆哮のようだ…ただ、タルタリヤは笑いながら、海釣りの戦利品が勝手に故郷の土産を持ってきたのだろうと説明した。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousUniversalPeace",
@@ -2269,7 +2237,8 @@
     "localeName": "微妙な四方平和",
     "desc": "カラフルな主食。製作過程で大量の水分を失っているため、想像力と水を追加することで、ようやく本来の食感を取り戻せる。",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "UniversalPeace",
@@ -2277,7 +2246,8 @@
     "localeName": "四方平和",
     "desc": "カラフルな主食。柔らかくモチモチした米の間に、各種甘い食材が挟まっている。味よりも興隆と天下泰平の意味を込めることを重視している。込められた心は最高の調味料であるため、味もきっと悪くない。",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousUniversalPeace",
@@ -2285,7 +2255,8 @@
     "localeName": "美味しそうな四方平和",
     "desc": "カラフルな主食。甘酸っぱいドライフルーツは米と混ざり合い見えなくなっている。飲み込んだあとでも、ほのかな甘さと香りが口に残り、幸福感が倍増する。",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousGoulash",
@@ -2293,7 +2264,8 @@
     "localeName": "微妙なお肉と野菜のシチュー",
     "desc": "熱い煮込み料理。煮込むときに火力を少し間違えてしまったため、食感が少し硬い。ただ適当に食べるだけならそんなに悪くないし、寒さを凌ぐ効果はまだ残っている。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "Goulash",
@@ -2301,7 +2273,8 @@
     "localeName": "お肉と野菜のシチュー",
     "desc": "熱い煮込み料理。冷製鮮肉と野菜を細かく切り、トマトを加え長い間煮込んで作る。スープを纏ったほかほかの食材を飲み込めば、寒さを追い払ってくれる。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousGoulash",
@@ -2309,7 +2282,8 @@
     "localeName": "美味しそうなお肉と野菜のシチュー",
     "desc": "熱い煮込み料理。一口スープを味わうだけで、確かな満足感を心の底から感じられる。噛めば噛む程、肉の香りが溢れ、氷に包まれた地で生きる無尽の力を与えてくれるようだ。",
     "rarity": 2,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousSunshineSprat",
@@ -2317,7 +2291,8 @@
     "localeName": "微妙なバター魚焼き",
     "desc": "じっくり焼いた魚料理。焼き過ぎたせいで、魚肉は完全に鮮度と弾力を失った。少し動かすだけで、ポロポロと崩れてしまう。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SunshineSprat",
@@ -2325,7 +2300,8 @@
     "localeName": "バター魚焼き",
     "desc": "じっくり焼いた魚料理。丁度良い火加減で、魚肉の鮮度を最大限に保てている。口当たりは柔らかく、表面の焦がしバターが複雑な食感を作り出している。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousSunshineSprat",
@@ -2333,7 +2309,8 @@
     "localeName": "美味しそうなバター魚焼き",
     "desc": "じっくり焼いた魚料理。魚を口に入れた瞬間、海と陸の味がぶつかり合い、忘れ難い味となる。単純な料理でも、このような大層な味を産み出せるのだ。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "SuspiciousJueyunGuoba",
@@ -2341,7 +2318,8 @@
     "localeName": "微妙な絶雲のお焦げ",
     "desc": "璃月のご当地グルメの一つ。辛うじて香りが残っているお焦げの上では、褐色の絶雲の唐辛子とハムがくっ付いて一塊になっており、食感で判別するしかない。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "JueyunGuoba",
@@ -2349,7 +2327,8 @@
     "localeName": "絶雲お焦げ",
     "desc": "璃月のご当地グルメの一つ。薄切りにしたハムと絶雲の唐辛子を素早く炒め、米と馬尾の穂を焼いて作ったお焦げの上にのせる。肉と香辛料が混ざり合った香りによって、なんの変哲もない米が絶品の料理へと生まれ変わった。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "DeliciousJueyunGuoba",
@@ -2357,7 +2336,8 @@
     "localeName": "美味しそうな絶雲のお焦げ",
     "desc": "璃月のご当地グルメの一つ。サクッとしたお焦げに、熱々のハムをのせて口に放り込む。香りと辛さが我先にと鼻孔を突き抜ける、癖になる味。小さな欠片も食べ尽くしてしまう。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "ProsperousPeace",
@@ -2365,7 +2345,8 @@
     "localeName": "盛世太平",
     "desc": "甘雨の特製料理。麒麟が花畑で休んでいる光景は、見る者の心を穏やかにする。甘雨は世への願いをこの料理に込め、己が最も好んでいる清心の花びらを何も言わずにあなたに残した。",
     "rarity": 3,
-    "type": 3
+    "type": 3,
+    "drop": ["料理を作る"]
   },
   {
     "id": "WoodlandDream",
@@ -2373,7 +2354,8 @@
     "localeName": "「林の夢」",
     "desc": "アルベドの特製料理。平らに並べた果物は草を表し、立てたものは樹を表す。皿の上では世界が斑模様の城壁を囲み、茶色の小道に沿って歩けば、淡いオレンジの城に辿り着く。柔らかく甘い味は瞬時に咲き誇る。目を開けば、白髪の王子が目の前で微笑んでいた。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["料理を作る"]
   },
   {
     "id": "RecipeChickenMushroomSkewer",
@@ -2383,14 +2365,7 @@
     "rarity": 1,
     "type": 7
   },
-  {
-    "id": "RecipeFishermansToast",
-    "name": "Recipe: Fisherman's Toast",
-    "localeName": "レシピ：漁師トースト",
-    "desc": "「漁師トースト」の詳しい作り方が載っているレシピ。",
-    "rarity": 2,
-    "type": 7
-  },
+  { "id": "RecipeFishermansToast", "name": "Recipe: Fisherman's Toast", "localeName": "レシピ：漁師トースト", "desc": "「漁師トースト」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7 },
   {
     "id": "RecipeFlamingRedBolognese",
     "name": "Recipe: Flaming Red Bolognese",
@@ -2439,14 +2414,7 @@
     "rarity": 2,
     "type": 7
   },
-  {
-    "id": "RecipeCreamStew",
-    "name": "Recipe: Cream Stew",
-    "localeName": "レシピ：ホワイトソースポトフ",
-    "desc": "「ホワイトソースポトフ」の詳しい作り方が載っているレシピ。",
-    "rarity": 2,
-    "type": 7
-  },
+  { "id": "RecipeCreamStew", "name": "Recipe: Cream Stew", "localeName": "レシピ：ホワイトソースポトフ", "desc": "「ホワイトソースポトフ」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7 },
   {
     "id": "RecipeColdCutPlatter",
     "name": "Recipe: Cold Cut Platter",
@@ -2471,22 +2439,8 @@
     "rarity": 3,
     "type": 7
   },
-  {
-    "id": "RecipeMushroomPizza",
-    "name": "Recipe: Mushroom Pizza",
-    "localeName": "レシピ：キノコピザ",
-    "desc": "「キノコピザ」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7
-  },
-  {
-    "id": "RecipeSteak",
-    "name": "Recipe: Steak",
-    "localeName": "レシピ：ステーキ",
-    "desc": "「ステーキ」の詳しい作り方が載っているレシピ。",
-    "rarity": 1,
-    "type": 7
-  },
+  { "id": "RecipeMushroomPizza", "name": "Recipe: Mushroom Pizza", "localeName": "レシピ：キノコピザ", "desc": "「キノコピザ」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7 },
+  { "id": "RecipeSteak", "name": "Recipe: Steak", "localeName": "レシピ：ステーキ", "desc": "「ステーキ」の詳しい作り方が載っているレシピ。", "rarity": 1, "type": 7 },
   {
     "id": "RecipeRadishVeggieSoup",
     "name": "Recipe: Radish Veggie Soup",
@@ -2503,14 +2457,7 @@
     "rarity": 3,
     "type": 7
   },
-  {
-    "id": "RecipePileEmUp",
-    "name": "Recipe: \"Pile 'Em Up\"",
-    "localeName": "レシピ：「お肉ツミツミ」",
-    "desc": "「お肉ツミツミ」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7
-  },
+  { "id": "RecipePileEmUp", "name": "Recipe: \"Pile 'Em Up\"", "localeName": "レシピ：「お肉ツミツミ」", "desc": "「お肉ツミツミ」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7 },
   {
     "id": "RecipeTeaBreakPancake",
     "name": "Recipe: Tea Break Pancake",
@@ -2527,22 +2474,8 @@
     "rarity": 2,
     "type": 7
   },
-  {
-    "id": "RecipeSatisfyingSalad",
-    "name": "Recipe: Satisfying Salad",
-    "localeName": "レシピ：満足サラダ",
-    "desc": "「満足サラダ」の詳しい作り方が載っているレシピ。",
-    "rarity": 2,
-    "type": 7
-  },
-  {
-    "id": "RecipeJadeParcels",
-    "name": "Recipe: Jade Parcels",
-    "localeName": "レシピ：翠玉福袋",
-    "desc": "「翠玉福袋」の詳しい作り方が載っているレシピ。",
-    "rarity": 4,
-    "type": 7
-  },
+  { "id": "RecipeSatisfyingSalad", "name": "Recipe: Satisfying Salad", "localeName": "レシピ：満足サラダ", "desc": "「満足サラダ」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7 },
+  { "id": "RecipeJadeParcels", "name": "Recipe: Jade Parcels", "localeName": "レシピ：翠玉福袋", "desc": "「翠玉福袋」の詳しい作り方が載っているレシピ。", "rarity": 4, "type": 7 },
   {
     "id": "RecipeMondstadtGrilledFish",
     "name": "Recipe: Mondstadt Grilled Fish",
@@ -2551,46 +2484,11 @@
     "rarity": 1,
     "type": 7
   },
-  {
-    "id": "RecipeMoraMeat",
-    "name": "Recipe: Mora Meat",
-    "localeName": "レシピ：モラミート",
-    "desc": "「モラミート」の詳しい作り方が載っているレシピ。",
-    "rarity": 1,
-    "type": 7
-  },
-  {
-    "id": "RecipeStirFriedFilet",
-    "name": "Recipe: Stir-Fried Filet",
-    "localeName": "レシピ：豚肉の油炒め",
-    "desc": "「豚肉の油炒め」の詳しい作り方が載っているレシピ。",
-    "rarity": 1,
-    "type": 7
-  },
-  {
-    "id": "RecipeAlmondTofu",
-    "name": "Recipe: Almond Tofu",
-    "localeName": "レシピ：杏仁豆腐",
-    "desc": "「杏仁豆腐」の詳しい作り方が載っているレシピ。",
-    "rarity": 2,
-    "type": 7
-  },
-  {
-    "id": "RecipeJueyunChiliChicken",
-    "name": "Recipe: Jueyun Chili Chicken",
-    "localeName": "レシピ：椒椒鶏",
-    "desc": "「椒椒鶏」の詳しい作り方が載っているレシピ。",
-    "rarity": 2,
-    "type": 7
-  },
-  {
-    "id": "RecipeJewelrySoup",
-    "name": "Recipe: Jewelry Soup",
-    "localeName": "レシピ：真珠翡翠白玉湯",
-    "desc": "「真珠翡翠白玉湯」の詳しい作り方が載っているレシピ。",
-    "rarity": 2,
-    "type": 7
-  },
+  { "id": "RecipeMoraMeat", "name": "Recipe: Mora Meat", "localeName": "レシピ：モラミート", "desc": "「モラミート」の詳しい作り方が載っているレシピ。", "rarity": 1, "type": 7 },
+  { "id": "RecipeStirFriedFilet", "name": "Recipe: Stir-Fried Filet", "localeName": "レシピ：豚肉の油炒め", "desc": "「豚肉の油炒め」の詳しい作り方が載っているレシピ。", "rarity": 1, "type": 7 },
+  { "id": "RecipeAlmondTofu", "name": "Recipe: Almond Tofu", "localeName": "レシピ：杏仁豆腐", "desc": "「杏仁豆腐」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7 },
+  { "id": "RecipeJueyunChiliChicken", "name": "Recipe: Jueyun Chili Chicken", "localeName": "レシピ：椒椒鶏", "desc": "「椒椒鶏」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7 },
+  { "id": "RecipeJewelrySoup", "name": "Recipe: Jewelry Soup", "localeName": "レシピ：真珠翡翠白玉湯", "desc": "「真珠翡翠白玉湯」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7 },
   {
     "id": "RecipeMatsutakeMeatRolls",
     "name": "Recipe: Matsutake Meat Rolls",
@@ -2623,30 +2521,9 @@
     "rarity": 3,
     "type": 7
   },
-  {
-    "id": "RecipeGoldenCrab",
-    "name": "Recipe: Golden Crab",
-    "localeName": "レシピ：黄金ガニ",
-    "desc": "「黄金ガニ」の詳しい作り方が載っているレシピ。",
-    "rarity": 4,
-    "type": 7
-  },
-  {
-    "id": "RecipeCrystalShrimp",
-    "name": "Recipe: Crystal Shrimp",
-    "localeName": "レシピ：水晶蝦",
-    "desc": "「水晶蝦」の詳しい作り方が載っているレシピ。",
-    "rarity": 2,
-    "type": 7
-  },
-  {
-    "id": "RecipeGrilledTigerFish",
-    "name": "Recipe: Grilled Tiger Fish",
-    "localeName": "レシピ：チ虎魚焼き",
-    "desc": "「チ虎魚焼き」の詳しい作り方が載っているレシピ。",
-    "rarity": 1,
-    "type": 7
-  },
+  { "id": "RecipeGoldenCrab", "name": "Recipe: Golden Crab", "localeName": "レシピ：黄金ガニ", "desc": "「黄金ガニ」の詳しい作り方が載っているレシピ。", "rarity": 4, "type": 7 },
+  { "id": "RecipeCrystalShrimp", "name": "Recipe: Crystal Shrimp", "localeName": "レシピ：水晶蝦", "desc": "「水晶蝦」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7 },
+  { "id": "RecipeGrilledTigerFish", "name": "Recipe: Grilled Tiger Fish", "localeName": "レシピ：チ虎魚焼き", "desc": "「チ虎魚焼き」の詳しい作り方が載っているレシピ。", "rarity": 1, "type": 7 },
   {
     "id": "RecipeBarbatosRatatouille",
     "name": "Recipe: Barbatos Ratatouille",
@@ -2663,14 +2540,7 @@
     "rarity": 2,
     "type": 7
   },
-  {
-    "id": "RecipeAdeptusTemptation",
-    "name": "Recipe: Adeptus' Temptation",
-    "localeName": "レシピ：仙跳牆",
-    "desc": "「仙跳牆」の詳しい作り方が載っているレシピ。",
-    "rarity": 5,
-    "type": 7
-  },
+  { "id": "RecipeAdeptusTemptation", "name": "Recipe: Adeptus' Temptation", "localeName": "レシピ：仙跳牆", "desc": "「仙跳牆」の詳しい作り方が載っているレシピ。", "rarity": 5, "type": 7 },
   {
     "id": "RecipeGoldenShrimpBalls",
     "name": "Recipe: Golden Shrimp Balls",
@@ -2679,22 +2549,8 @@
     "rarity": 3,
     "type": 7
   },
-  {
-    "id": "RecipeQingceStirFry",
-    "name": "Recipe: Qingce Stir Fry",
-    "localeName": "レシピ：軽策農家料理",
-    "desc": "「軽策農家料理」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7
-  },
-  {
-    "id": "RecipeComeandGetIt",
-    "name": "Recipe: Come and Get It",
-    "localeName": "レシピ：お食べくだ菜",
-    "desc": "「お食べくだ菜」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7
-  },
+  { "id": "RecipeQingceStirFry", "name": "Recipe: Qingce Stir Fry", "localeName": "レシピ：軽策農家料理", "desc": "「軽策農家料理」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7 },
+  { "id": "RecipeComeandGetIt", "name": "Recipe: Come and Get It", "localeName": "レシピ：お食べくだ菜", "desc": "「お食べくだ菜」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7 },
   {
     "id": "RecipeNoodleswithMountainDelicacies",
     "name": "Recipe: Noodles with Mountain Delicacies",
@@ -2703,46 +2559,11 @@
     "rarity": 2,
     "type": 7
   },
-  {
-    "id": "RecipeBambooShootSoup",
-    "name": "Recipe: Bamboo Shoot Soup",
-    "localeName": "レシピ：腌篤鮮",
-    "desc": "「腌篤鮮」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7
-  },
-  {
-    "id": "RecipeTripleLayeredConsomm",
-    "name": "Recipe: Triple-Layered Consommé",
-    "localeName": "レシピ：璃月三糸",
-    "desc": "「璃月三糸」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7
-  },
-  {
-    "id": "RecipeTianshuMeat",
-    "name": "Recipe: Tianshu Meat",
-    "localeName": "レシピ：天枢肉",
-    "desc": "「天枢肉」の詳しい作り方が載っているレシピ。",
-    "rarity": 4,
-    "type": 7
-  },
-  {
-    "id": "RecipeLotusFlowerCrisp",
-    "name": "Recipe: Lotus Flower Crisp",
-    "localeName": "レシピ：ハスの花パイ",
-    "desc": "「ハスの花パイ」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7
-  },
-  {
-    "id": "RecipeMoonPie",
-    "name": "Recipe: Moon Pie",
-    "localeName": "レシピ：ムーンパイ",
-    "desc": "「ムーンパイ」の詳しい作り方が載っているレシピ。",
-    "rarity": 4,
-    "type": 7
-  },
+  { "id": "RecipeBambooShootSoup", "name": "Recipe: Bamboo Shoot Soup", "localeName": "レシピ：腌篤鮮", "desc": "「腌篤鮮」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7 },
+  { "id": "RecipeTripleLayeredConsomm", "name": "Recipe: Triple-Layered Consommé", "localeName": "レシピ：璃月三糸", "desc": "「璃月三糸」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7 },
+  { "id": "RecipeTianshuMeat", "name": "Recipe: Tianshu Meat", "localeName": "レシピ：天枢肉", "desc": "「天枢肉」の詳しい作り方が載っているレシピ。", "rarity": 4, "type": 7 },
+  { "id": "RecipeLotusFlowerCrisp", "name": "Recipe: Lotus Flower Crisp", "localeName": "レシピ：ハスの花パイ", "desc": "「ハスの花パイ」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7 },
+  { "id": "RecipeMoonPie", "name": "Recipe: Moon Pie", "localeName": "レシピ：ムーンパイ", "desc": "「ムーンパイ」の詳しい作り方が載っているレシピ。", "rarity": 4, "type": 7 },
   {
     "id": "RecipeAdventurersBreakfastSandwich",
     "name": "Recipe: Adventurer's Breakfast Sandwich",
@@ -2759,149 +2580,135 @@
     "rarity": 3,
     "type": 7
   },
-  {
-    "id": "RecipeGoulash",
-    "name": "Recipe: Goulash",
-    "localeName": "レシピ:お肉と野菜のシチュー",
-    "desc": "「お肉と野菜のシチュー」の詳しい作り方が載っているレシピ。",
-    "rarity": 2,
-    "type": 7
-  },
-  {
-    "id": "RecipeSunshineSprat",
-    "name": "Recipe: Sunshine Sprat",
-    "localeName": "レシピ:バター魚焼き",
-    "desc": "「バター魚焼き」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7
-  },
-  {
-    "id": "RecipeUniversalPeace",
-    "name": "Recipe: Universal Peace",
-    "localeName": "レシピ:四方平和",
-    "desc": "「四方平和」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7
-  },
-  {
-    "id": "RecipeJueyunGuoba",
-    "name": "Recipe: Jueyun Guoba",
-    "localeName": "レシピ:絶雲のお焦げ",
-    "desc": "「絶雲のお焦げ」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7
-  },
+  { "id": "RecipeGoulash", "name": "Recipe: Goulash", "localeName": "レシピ:お肉と野菜のシチュー", "desc": "「お肉と野菜のシチュー」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7 },
+  { "id": "RecipeSunshineSprat", "name": "Recipe: Sunshine Sprat", "localeName": "レシピ:バター魚焼き", "desc": "「バター魚焼き」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7 },
+  { "id": "RecipeUniversalPeace", "name": "Recipe: Universal Peace", "localeName": "レシピ:四方平和", "desc": "「四方平和」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7 },
+  { "id": "RecipeJueyunGuoba", "name": "Recipe: Jueyun Guoba", "localeName": "レシピ:絶雲のお焦げ", "desc": "「絶雲のお焦げ」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7 },
   {
     "id": "HeatshieldPotion",
     "name": "Heatshield Potion",
     "localeName": "耐熱薬剤",
-    "desc": "飲むと酷暑にも耐えられる不思議な薬剤。炎元素耐性が上がる。\\nその原理は体を冷やすのでなく、暑さに慣れさせることである。",
+    "desc": "飲むと酷暑にも耐えられる不思議な薬剤。炎元素耐性が上がる。\nその原理は体を冷やすのでなく、暑さに慣れさせることである。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "DesiccantPotion",
     "name": "Desiccant Potion",
     "localeName": "耐湿薬剤",
-    "desc": "飲むと湿っぽい環境にも耐えられる不思議な薬剤。水元素耐性が上がる。\\n防湿効果もあるらしい。リウマチ患者にとっては宝物。",
+    "desc": "飲むと湿っぽい環境にも耐えられる不思議な薬剤。水元素耐性が上がる。\n防湿効果もあるらしい。リウマチ患者にとっては宝物。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "FrostshieldPotion",
     "name": "Frostshield Potion",
     "localeName": "耐寒薬剤",
-    "desc": "飲むと極寒にも耐えられる不思議な薬剤。氷元素耐性が上がる。\\n飲むと冷気が舌から全身に響き渡るが、その後は寒気を感じなくなる。",
+    "desc": "飲むと極寒にも耐えられる不思議な薬剤。氷元素耐性が上がる。\n飲むと冷気が舌から全身に響き渡るが、その後は寒気を感じなくなる。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "WindbarrierPotion",
     "name": "Windbarrier Potion",
     "localeName": "耐風薬剤",
-    "desc": "飲むと強風にも耐えられる不思議な薬剤。風元素耐性が上がる。\\nよく野宿をする冒険者にとって非常に便利な薬剤。風邪予防にも使えるらしい。",
+    "desc": "飲むと強風にも耐えられる不思議な薬剤。風元素耐性が上がる。\nよく野宿をする冒険者にとって非常に便利な薬剤。風邪予防にも使えるらしい。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "InsulationPotion",
     "name": "Insulation Potion",
     "localeName": "耐電薬剤",
-    "desc": "飲むと感電にも耐えられる不思議な薬剤。雷元素耐性が上がる。\\n飲むと全身がピリピリと感じる。逆な交流電気を作ることにより、雷のダメージを相殺する。",
+    "desc": "飲むと感電にも耐えられる不思議な薬剤。雷元素耐性が上がる。\n飲むと全身がピリピリと感じる。逆な交流電気を作ることにより、雷のダメージを相殺する。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "DustproofPotion",
     "name": "Dustproof Potion",
     "localeName": "耐塵薬剤",
-    "desc": "飲むと砂嵐にも耐えられる不思議な薬剤。岩元素耐性が上がる。\\n飲むと、口の中にマグネットの匂いが広がる。疲れた旅人にとっては清潔感を保つ方法の一つである。",
+    "desc": "飲むと砂嵐にも耐えられる不思議な薬剤。岩元素耐性が上がる。\n飲むと、口の中にマグネットの匂いが広がる。疲れた旅人にとっては清潔感を保つ方法の一つである。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "DendrocidePotion",
     "name": "Dendrocide Potion",
     "localeName": "防草薬剤",
-    "desc": "草木の成長を抑制させられる薬剤。草元素耐性が上がる。\\nその原理は除草剤とは違い、草木を排除するではなく眠らせる。人間の体にも良さそうなので、直接飲むのもおすすめ。",
+    "desc": "草木の成長を抑制させられる薬剤。草元素耐性が上がる。\nその原理は除草剤とは違い、草木を排除するではなく眠らせる。人間の体にも良さそうなので、直接飲むのもおすすめ。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "FlamingEssentialOil",
     "name": "Flaming Essential Oil",
     "localeName": "烈火のオイル",
-    "desc": "炎元素ダメージを上げることができるオイル。\\n炎元素を育む物質で作られたもの、塗るとより効率的に炎元素を集めることができ、使用者自身もより情熱的になる。",
+    "desc": "炎元素ダメージを上げることができるオイル。\n炎元素を育む物質で作られたもの、塗るとより効率的に炎元素を集めることができ、使用者自身もより情熱的になる。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "StreamingEssentialOil",
     "name": "Streaming Essential Oil",
     "localeName": "激流のオイル",
-    "desc": "水元素ダメージを上げることができるオイル。\\nぬめりのある外用薬、水元素をより効率的に利用することができる。変わった匂いがする。",
+    "desc": "水元素ダメージを上げることができるオイル。\nぬめりのある外用薬、水元素をより効率的に利用することができる。変わった匂いがする。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "FrostingEssentialOil",
     "name": "Frosting Essential Oil",
     "localeName": "霜劫のオイル",
-    "desc": "氷元素ダメージを上げることができるオイル。\\n塗ると冷たく感じ、汗が出にくくなる。氷元素の魔導能力を高められる以外、頭をスッキリさせられる。",
+    "desc": "氷元素ダメージを上げることができるオイル。\n塗ると冷たく感じ、汗が出にくくなる。氷元素の魔導能力を高められる以外、頭をスッキリさせられる。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "GushingEssentialOil",
     "name": "Gushing Essential Oil",
     "localeName": "狂風のオイル",
-    "desc": "風元素ダメージを上げることができるオイル。\\n爽やかなにおいがする。野原で旅する時、この薬を使うと途中の風は全て追い風になると言われる。",
+    "desc": "風元素ダメージを上げることができるオイル。\n爽やかなにおいがする。野原で旅する時、この薬を使うと途中の風は全て追い風になると言われる。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "ShockingEssentialOil",
     "name": "Shocking Essential Oil",
     "localeName": "驚雷のオイル",
-    "desc": "雷元素ダメージを上げることができるオイル。\\n触れるとビリビリする。塗るとより効率よく雷元素を獲得するが、電気による火花も発生しやすくなるらしい。",
+    "desc": "雷元素ダメージを上げることができるオイル。\n触れるとビリビリする。塗るとより効率よく雷元素を獲得するが、電気による火花も発生しやすくなるらしい。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "UnmovingEssentialOil",
     "name": "Unmoving Essential Oil",
     "localeName": "磐石のオイル",
-    "desc": "岩元素ダメージを上げることができるオイル。\\n中には細かい粒が入っている薬、塗るとその岩元素を感じられる。外傷にいいと言われる。",
+    "desc": "岩元素ダメージを上げることができるオイル。\n中には細かい粒が入っている薬、塗るとその岩元素を感じられる。外傷にいいと言われる。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "ForestEssentialOil",
     "name": "Forest Essential Oil",
     "localeName": "叢林のオイル",
-    "desc": "草ダメージを上げることができるオイル。\\n栄養に富んだ外用薬剤。土に使うと植物の成長速度を高められるだろう。使うとより効率的に草元素を利用することができる。",
+    "desc": "草ダメージを上げることができるオイル。\n栄養に富んだ外用薬剤。土に使うと植物の成長速度を高められるだろう。使うとより効率的に草元素を利用することができる。",
     "rarity": 3,
-    "type": 2
+    "type": 2,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "PrimordialEssence",
@@ -2909,7 +2716,8 @@
     "localeName": "原質",
     "desc": "凝集された原始元素力の粒子。基礎的な素材として錬金術では広く使われている。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["元素生物でドロップ"]
   },
   {
     "id": "SlimeCondensate",
@@ -2917,7 +2725,8 @@
     "localeName": "スライムの液体",
     "desc": "スライムの表面にある液体、各地の元素工房では最もよくある原料である。",
     "rarity": 1,
-    "type": 1
+    "type": 1,
+    "drop": ["スライムでドロップ"]
   },
   {
     "id": "SlimeSecretions",
@@ -2925,7 +2734,8 @@
     "localeName": "スライムの分泌物",
     "desc": "純化されたスライムの分泌物、皮膚を傷つけるため、直接接触はしないように。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["スライム（Lv.40以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "SlimeConcentrate",
@@ -2933,31 +2743,47 @@
     "localeName": "スライムのピュレ",
     "desc": "スライムの濃縮ピュレ、静止した状態では不規則な動きをする。",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["スライム（Lv.60以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "DamagedMask",
     "name": "Damaged Mask",
     "localeName": "破損した仮面",
-    "desc": "破損した骨の仮面、あるヒルチャールの所持品だった。\\n破損した部分のほうが多く、仮面としての機能は失われている。",
+    "desc": "破損した骨の仮面、あるヒルチャールの所持品だった。\n破損した部分のほうが多く、仮面としての機能は失われている。",
     "rarity": 1,
-    "type": 1
+    "type": 1,
+    "drop": ["ヒルチャールでドロップ", "ヒルチャール·弓使いでレアドロップ", "ヒルチャールシャーマンでレアドロップ", "大型ヒルチャールでレアドロップ"]
   },
   {
     "id": "StainedMask",
     "name": "Stained Mask",
     "localeName": "汚れた仮面",
-    "desc": "汚れまみれで、何とも言えないにおいがする骨の仮面。\\nそれでも被るのは、ヒルチャールのこだわりだろうか。",
+    "desc": "汚れまみれで、何とも言えないにおいがする骨の仮面。\nそれでも被るのは、ヒルチャールのこだわりだろうか。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": [
+      "ヒルチャール（Lv.40以上）でドロップ",
+      "ヒルチャール·弓使い（Lv.40以上）でレアドロップ",
+      "ヒルチャールシャーマン（Lv.40以上）でレアドロップ",
+      "大型ヒルチャール（Lv.40以上）でレアドロップ",
+      "合成で獲得"
+    ]
   },
   {
     "id": "OminousMask",
     "name": "Ominous Mask",
     "localeName": "不吉な仮面",
-    "desc": "つるりとした骨の仮面の上には、敵を威嚇する絵が描かれている。\\nヒルチャールが仮面に対するこだわりは今でも解明されていない。一説では、水に反射する自分の倒影を見たくないかららしい。",
+    "desc": "つるりとした骨の仮面の上には、敵を威嚇する絵が描かれている。\nヒルチャールが仮面に対するこだわりは今でも解明されていない。一説では、水に反射する自分の倒影を見たくないかららしい。",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": [
+      "ヒルチャール（Lv.60以上）でドロップ",
+      "ヒルチャール·弓使い（Lv.60以上）でレアドロップ",
+      "ヒルチャールシャーマン（Lv.60以上）でレアドロップ",
+      "大型ヒルチャール（Lv.60以上）でレアドロップ",
+      "合成で獲得"
+    ]
   },
   {
     "id": "DiviningScroll",
@@ -2965,7 +2791,8 @@
     "localeName": "占いの絵巻",
     "desc": "ある魔法に関する絵巻残編だと考えられる。異様な、不吉な暖かさがある。",
     "rarity": 1,
-    "type": 1
+    "type": 1,
+    "drop": ["ヒルチャールシャーマンでドロップ"]
   },
   {
     "id": "SealedScroll",
@@ -2973,7 +2800,8 @@
     "localeName": "封魔の絵巻",
     "desc": "解読が難しい絵がある古書の断章。中の人物を真似することで、魔物も魔法を再現できるようになる。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["ヒルチャールシャーマン（Lv.40以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "ForbiddenCurseScroll",
@@ -2981,7 +2809,8 @@
     "localeName": "禁呪の絵巻",
     "desc": "古代の絵が描かれている古書の抄本。その意味を解読できる人は少なく、その本当の意味を理解した学者はみんな狂ってしまったという噂がある。",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["ヒルチャールシャーマン（Lv.60以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "FirmArrowhead",
@@ -2989,7 +2818,8 @@
     "localeName": "牢固な矢先",
     "desc": "粗末な矢先。それでもその威力はなめてはいけない。弓弩は危険な武器である。たとえ騎士のような人でも後ろからの矢に撃たれる可能性があるから。",
     "rarity": 1,
-    "type": 1
+    "type": 1,
+    "drop": ["ヒルチャール·弓使いでドロップ"]
   },
   {
     "id": "SharpArrowhead",
@@ -2997,7 +2827,8 @@
     "localeName": "鋭利な矢先",
     "desc": "精良に作られた矢先。鋭利な先端は石を水に投げるように簡単に敵の鎧を貫くことができる。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["ヒルチャール·弓使い（Lv.40以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "WeatheredArrowhead",
@@ -3005,7 +2836,8 @@
     "localeName": "歴戦の矢先",
     "desc": "古く、乾いた血がたくさんついた矢先。何度も使用されたため、その鋭さは失われ、武器としては使えなくなったが、狩人の誇りの象徴としてお守りや表彰として使用されている。",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["ヒルチャール·弓使い（Lv.60以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "HeavyHorn",
@@ -3013,7 +2845,8 @@
     "localeName": "重い角笛",
     "desc": "ざらざらした角笛、ヒルチャールが仲間に警告を送るための道具。破損箇所が多いため、音を出す機能は失われている。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["大型ヒルチャールでドロップ"]
   },
   {
     "id": "BlackBronzeHorn",
@@ -3021,7 +2854,8 @@
     "localeName": "黒銅の角笛",
     "desc": "金属性の角笛。この角笛を鳴らすには非常に力がいるため、通常は異常に逞しいヒルチャールからのみ獲得できる。",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["大型ヒルチャール（Lv.40以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "BlackCrystalHorn",
@@ -3029,7 +2863,8 @@
     "localeName": "黒晶の角笛",
     "desc": "不吉な光がぼんやりと見える金属性の角笛、素材不明の黒晶が飾られている。ほとんど使用されたことはなく、ヒルチャールの儀式用の道具だと考えられる。",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["大型ヒルチャール（Lv.60以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "GloomyStatuette",
@@ -3037,7 +2872,8 @@
     "localeName": "暗晦の彫刻",
     "desc": "誰かを描いた小さな彫刻。長い年月を経ても、何の傷もない。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["アビスの魔術師でドロップ"]
   },
   {
     "id": "DarkStatuette",
@@ -3045,7 +2881,8 @@
     "localeName": "黒夜の彫刻",
     "desc": "誰かを描いた漆黒の彫刻。幽邃なる正体不明の力に染められたため、手に持つだけで不安を感じる。",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["アビスの魔術師（Lv.40以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "DeathlyStatuette",
@@ -3053,7 +2890,8 @@
     "localeName": "幽邃なる彫刻",
     "desc": "微かに邪悪な力を放つ彫刻、どんな素材でできたかは誰も分からない。彫刻を見つめると、不思議な囁きが聞こえるらしい。",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["アビスの魔術師（Lv.60以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "DeadLeyLineBranch",
@@ -3061,7 +2899,8 @@
     "localeName": "地脈の旧枝",
     "desc": "深い地の底からの枯れ枝。長い年月を経ても、その色が入り交じった樹皮から力を感じられる。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["アビスの魔術師でドロップ"]
   },
   {
     "id": "DeadLeyLineLeaves",
@@ -3069,7 +2908,8 @@
     "localeName": "地脈の枯れ葉",
     "desc": "深い地の底からの枯れ葉。その元の主から遠く離れても、脈動する力は消えていない。",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["アビスの魔術師（Lv.40以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "LeyLineSprout",
@@ -3077,7 +2917,8 @@
     "localeName": "地脈の新芽",
     "desc": "遥か昔、世界各地を貫通したある巨木があり、この枝はまさにその一部らしい。誰かに折られて地表に持っていかれたが、その痕跡は全く感じられなく、今でも生気に満ちていて、若葉が生えてくる。",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["アビスの魔術師（Lv.60以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "ChaosDevice",
@@ -3085,7 +2926,8 @@
     "localeName": "混沌の装置",
     "desc": "活動しなくなった古代遺跡の構造体。かつてはその体を維持するある部位で、絶妙な工学的美しさがある。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["遺跡守衛でドロップ", "遺跡ハンターでドロップ"]
   },
   {
     "id": "ChaosCircuit",
@@ -3093,7 +2935,8 @@
     "localeName": "混沌の回路",
     "desc": "活動しなくなった古代遺跡の構造体。かつてはそれを動かす回路だった。中には偉大な技術が秘められているが、それを解明できる人はもういない。",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["遺跡守衛（Lv.40以上）でドロップ", "遺跡ハンター（Lv.40以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "ChaosCore",
@@ -3101,7 +2944,8 @@
     "localeName": "混沌の炉心",
     "desc": "活動しなくなった古代遺跡の構造体。かつてはそれを動かす心臓だった。この不思議な技術を理解し、再構築できるなら、この世界を変えられるかもしれない。",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["遺跡守衛（Lv.60以上）でドロップ", "遺跡ハンター（Lv.60以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "MistGrassPollen",
@@ -3109,7 +2953,8 @@
     "localeName": "霧虚ろの花粉",
     "desc": "霧虚ろの草は密閉空間の中では謎の胞子を飛ばす。飛蛍の大好物である。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["雷蛍術師でドロップ"]
   },
   {
     "id": "MistGrass",
@@ -3117,7 +2962,8 @@
     "localeName": "霧虚ろの草嚢",
     "desc": "綺麗に保存された霧虚ろの草。一部の人はこれを使って飛蛍をコントロールする。",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["雷蛍術師（Lv.40以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "MistGrassWick",
@@ -3125,7 +2971,8 @@
     "localeName": "霧虚ろの灯芯",
     "desc": "珍しい霧虚ろの草を束にしたもの、暗い光を放つ。こういう提灯を持つ人は飛蛍と不幸を招くことになる。",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["雷蛍術師（Lv.60以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "HuntersSacrificialKnife",
@@ -3133,7 +2980,8 @@
     "localeName": "猟兵の刀",
     "desc": "ある種鋭利な合金武器。元の持ち主がいなくなっても、幽々たる光を反射して不安を誘う。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["デットエージェントでドロップ"]
   },
   {
     "id": "AgentsSacrificialKnife",
@@ -3141,7 +2989,8 @@
     "localeName": "エージェントの刀",
     "desc": "スネージナヤの優れた技術で作られた異形の兵器、あるベテランエージェントの所持品だった。普通の人は訓練しないと、この変わった武器を使いこなすことができないだろう。",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["デットエージェント（Lv.40以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "InspectorsSacrificialKnife",
@@ -3149,7 +2998,8 @@
     "localeName": "検査官の刀",
     "desc": "元の主と共に数多くの「債務」を処理した恐ろしい武器。背中に目がある人は誰もいない、この武器はまさにこのために作られたのである。",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["デットエージェント（Lv.60以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "RecruitsInsignia",
@@ -3157,7 +3007,8 @@
     "localeName": "新兵の記章",
     "desc": "新兵の身分を記した記章。かつてこれをつけた人は、どんな気持ちでファデュイの戦争兵器になったのだろうか。",
     "rarity": 1,
-    "type": 1
+    "type": 1,
+    "drop": ["先遣隊でドロップ", "デットエージェントでレアドロップ", "雷蛍術師でレアドロップ"]
   },
   {
     "id": "SergeantsInsignia",
@@ -3165,7 +3016,8 @@
     "localeName": "士官の記章",
     "desc": "士官の身分を記した記章、一般兵士とは異なる独特なデザインがあるのは、その複雑な気持ちが含まれたからだろうか。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["先遣隊（Lv.40以上）でドロップ", "デットエージェント（Lv.40以上）でレアドロップ", "雷蛍術師（Lv.40以上）でレアドロップ", "合成で獲得"]
   },
   {
     "id": "LieutenantsInsignia",
@@ -3173,7 +3025,8 @@
     "localeName": "尉官の記章",
     "desc": "尉官の身分を記した記章。ファデュイには膨大な軍隊があり、その中で尉官になれる人はきっと優れた能力があるだろう。",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["先遣隊（Lv.60以上）でドロップ", "デットエージェント（Lv.60以上）でレアドロップ", "雷蛍術師（Lv.60以上）でレアドロップ", "合成で獲得"]
   },
   {
     "id": "TreasureHoarderInsignia",
@@ -3181,7 +3034,8 @@
     "localeName": "宝探しの鴉マーク",
     "desc": "宝盗団の誇りであるマーク、彼らの宝物に対する永遠不滅の情熱を示すものである。とはいえ、自分が盗賊ということを誇らしげに示す必要はあるかな…？",
     "rarity": 1,
-    "type": 1
+    "type": 1,
+    "drop": ["宝盗団メンバーでドロップ"]
   },
   {
     "id": "SilverRavenInsignia",
@@ -3189,7 +3043,8 @@
     "localeName": "シルバーの鴉マーク",
     "desc": "宝盗団のメンバーが互いの存在を証明する鴉マーク。宝盗団のメンバーは出身を問わず、宝物への貪欲さえあれば、「優秀」なメンバーになれる。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["宝盗団メンバー（Lv.40以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "GoldenRavenInsignia",
@@ -3197,381 +3052,420 @@
     "localeName": "ゴールドの鴉マーク",
     "desc": "宝盗団の信仰と誇りを示す鴉マーク。この広い大地、幽邃の深淵、未知な海に秘宝が存在していれば、宝盗団の信念は永遠に続く。",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["宝盗団メンバー（Lv.60以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "WhopperflowerNectar",
     "name": "Whopperflower Nectar",
     "localeName": "トリックフラワーの蜜",
-    "desc": "花蕊から抽出された花蜜、少量の元素が含まれている。\\nスイートフラワーの味と微妙に似ている。",
+    "desc": "花蕊から抽出された花蜜、少量の元素が含まれている。\nスイートフラワーの味と微妙に似ている。",
     "rarity": 1,
-    "type": 1
+    "type": 1,
+    "drop": ["トリックフラワーでドロップ"]
   },
   {
     "id": "ShimmeringNectar",
     "name": "Shimmering Nectar",
     "localeName": "微光花の蜜",
-    "desc": "元素純度がやや高めの花蜜。\\n学界の見解によるとトリックフラワーは元素植物の高等生命形態である。だがトリックフラワーの食性は未だ解明されていない。",
+    "desc": "元素純度がやや高めの花蜜。\n学界の見解によるとトリックフラワーは元素植物の高等生命形態である。だがトリックフラワーの食性は未だ解明されていない。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["トリックフラワー（Lv.40以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "EnergyNectar",
     "name": "Energy Nectar",
     "localeName": "原素花の蜜",
-    "desc": "エネルギーに満ちたネバネバの花蜜。\\nトリックフラワーが獲物を騙しているのは狩るためである。そして捕食しているのはより強くてより純粋な姿へと進化するためであろう…",
+    "desc": "エネルギーに満ちたネバネバの花蜜。\nトリックフラワーが獲物を騙しているのは狩るためである。そして捕食しているのはより強くてより純粋な姿へと進化するためであろう…",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["トリックフラワー（Lv.60以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "FragileBoneShard",
     "name": "Fragile Bone Shard",
     "localeName": "脆い骨片",
-    "desc": "ベビーヴィシャップの体から見つけたある骨片。\\n非常に脆いが、何ともいえない力が宿っているらしい。",
+    "desc": "ベビーヴィシャップの体から見つけたある骨片。\n非常に脆いが、何ともいえない力が宿っているらしい。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["ベビーヴィシャップ·岩でドロップ"]
   },
   {
     "id": "SturdyBoneShard",
     "name": "Sturdy Bone Shard",
     "localeName": "丈夫な骨片",
-    "desc": "何らかの理由で、ベビーヴィシャップが大切にしているある生き物の骨片。\\n例え人間の言葉が分からない生き物でも、このような遺骨に特別な憧れを持っているらしい。",
+    "desc": "何らかの理由で、ベビーヴィシャップが大切にしているある生き物の骨片。\n例え人間の言葉が分からない生き物でも、このような遺骨に特別な憧れを持っているらしい。",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["ベビーヴィシャップ·岩（Lv.40以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "FossilizedBoneShard",
     "name": "Fossilized Bone Shard",
     "localeName": "石化した骨片",
-    "desc": "ベビーヴィシャップを倒すと、たまに見つける石化した骨片。\\nベビーヴィシャップは、いつか本当の龍になれるとずっと夢見ている。古い化石を龍の骨と思い込んでいるのは、龍の永久不滅の命と強大な力を憧れているのだろう。",
+    "desc": "ベビーヴィシャップを倒すと、たまに見つける石化した骨片。\nベビーヴィシャップは、いつか本当の龍になれるとずっと夢見ている。古い化石を龍の骨と思い込んでいるのは、龍の永久不滅の命と強大な力を憧れているのだろう。",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["ベビーヴィシャップ·岩（Lv.60以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "HurricaneSeed",
     "name": "Hurricane Seed",
     "localeName": "暴風の種",
-    "desc": "無相の風が倒された後の形態、中には純粋な風の力が含まれている。\\n繊細な蝶々の中にも、暴風を引き起こす力がある。この純粋な風によって構成された蝶は、暴風を再び起こす日を待っているはずだ。",
+    "desc": "無相の風が倒された後の形態、中には純粋な風の力が含まれている。\n繊細な蝶々の中にも、暴風を引き起こす力がある。この純粋な風によって構成された蝶は、暴風を再び起こす日を待っているはずだ。",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["無相の風（Lv.30以上）でドロップ"]
   },
   {
     "id": "LightningPrism",
     "name": "Lightning Prism",
     "localeName": "雷光のプリズム",
-    "desc": "無相の雷が元素を集め、損傷を直すための物質。中には純粋な雷の力がある。\\nプリズムは光を構成する色彩の区別ができ、雷光のプリズムは流れるエネルギーを純粋な雷光に織り成すことができる。たとえを無相の雷が倒されたとしても、雷元素はこのプリズムの中で集まり続ける。",
+    "desc": "無相の雷が元素を集め、損傷を直すための物質。中には純粋な雷の力がある。\nプリズムは光を構成する色彩の区別ができ、雷光のプリズムは流れるエネルギーを純粋な雷光に織り成すことができる。たとえを無相の雷が倒されたとしても、雷元素はこのプリズムの中で集まり続ける。",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["無相の雷（Lv.30以上）でドロップ"]
   },
   {
     "id": "DvalinsPlume",
     "name": "Dvalin's Plume",
     "localeName": "東風の羽根",
-    "desc": "モンドの東風の主から取った羽根。\\nそれは千年の風と共にあった龍の羽根である。羽根の自由を追い求める本能はそよ風を呼び起こし、束縛から逃げようとするが、その旧主が君を認めたため、羽根は君の手のひらに止まることになった。",
+    "desc": "モンドの東風の主から取った羽根。\nそれは千年の風と共にあった龍の羽根である。羽根の自由を追い求める本能はそよ風を呼び起こし、束縛から逃げようとするが、その旧主が君を認めたため、羽根は君の手のひらに止まることになった。",
     "rarity": 5,
-    "type": 1
+    "type": 1,
+    "drop": ["風魔龍（Lv.70以上）挑戦報酬"]
   },
   {
     "id": "DvalinsClaw",
     "name": "Dvalin's Claw",
     "localeName": "東風の爪",
-    "desc": "モンドの東風の主から取った爪。\\nかつて魔龍「ドゥリン」の血肉を引き裂いたため、中には恐ろしい猛毒が含まれているが、君が浄化、治癒したおかげで、その毒はようやく落ち着いた。",
+    "desc": "モンドの東風の主から取った爪。\nかつて魔龍「ドゥリン」の血肉を引き裂いたため、中には恐ろしい猛毒が含まれているが、君が浄化、治癒したおかげで、その毒はようやく落ち着いた。",
     "rarity": 5,
-    "type": 1
+    "type": 1,
+    "drop": ["風魔龍（Lv.70以上）挑戦報酬"]
   },
   {
     "id": "DvalinsSigh",
     "name": "Dvalin's Sigh",
     "localeName": "東風の吐息",
-    "desc": "モンドの東風の主が呼び起こした狂風の中から取った力。\\n優雅で、透き通っていて、恒風と竜巻を使役することができる。風に乗ると、風は仲間、歌声、そして自由になる。\\nその敵は、風の敵でもある。",
+    "desc": "モンドの東風の主が呼び起こした狂風の中から取った力。\n優雅で、透き通っていて、恒風と竜巻を使役することができる。風に乗ると、風は仲間、歌声、そして自由になる。\nその敵は、風の敵でもある。",
     "rarity": 5,
-    "type": 1
+    "type": 1,
+    "drop": ["風魔龍（Lv.70以上）挑戦報酬"]
   },
   {
     "id": "TailofBoreas",
     "name": "Tail of Boreas",
     "localeName": "北風のしっぽ",
-    "desc": "北風の王狼の体から取ったごくわずかな尾鱗。\\n命と体を失っても北風の王狼には強い力がある。挑戦を迎えるために氷と風で再現したその体は彼の全てを収容できず、一部の魂は戦闘中に抜け落ちた氷の鱗に付着した。",
+    "desc": "北風の王狼の体から取ったごくわずかな尾鱗。\n命と体を失っても北風の王狼には強い力がある。挑戦を迎えるために氷と風で再現したその体は彼の全てを収容できず、一部の魂は戦闘中に抜け落ちた氷の鱗に付着した。",
     "rarity": 5,
-    "type": 1
+    "type": 1,
+    "drop": ["北風の狼（Lv.70以上）挑戦報酬"]
   },
   {
     "id": "RingofBoreas",
     "name": "Ring of Boreas",
     "localeName": "北風のリング",
-    "desc": "北風の王狼の体から取ったごくわずかな氷。\\nこの大地はかつて北風に吹かれ、氷霜に包まれていた。砂利のような氷と雪は寒風の中で叫び、肌を裂き、血を固まらせる。今の北風の王狼の力は昔より劣るが、大地を凍らせるほどの力はまだある。",
+    "desc": "北風の王狼の体から取ったごくわずかな氷。\nこの大地はかつて北風に吹かれ、氷霜に包まれていた。砂利のような氷と雪は寒風の中で叫び、肌を裂き、血を固まらせる。今の北風の王狼の力は昔より劣るが、大地を凍らせるほどの力はまだある。",
     "rarity": 5,
-    "type": 1
+    "type": 1,
+    "drop": ["北風の狼（Lv.70以上）挑戦報酬"]
   },
   {
     "id": "SpiritLocketofBoreas",
     "name": "Spirit Locket of Boreas",
     "localeName": "北風の魂箱",
-    "desc": "北風の王狼の魂から取ったごくわずかな力。\\nこの大地はかつて北風に吹かれ、氷霜に包まれていた。しかし強い北風は命を育むことはできず、命の苗を消すのみであったと、彼は最後にようやく理解した。命の終わりに、彼は自分の力を大地に込めて、大地とその住民を永遠に守ると誓った。",
+    "desc": "北風の王狼の魂から取ったごくわずかな力。\nこの大地はかつて北風に吹かれ、氷霜に包まれていた。しかし強い北風は命を育むことはできず、命の苗を消すのみであったと、彼は最後にようやく理解した。命の終わりに、彼は自分の力を大地に込めて、大地とその住民を永遠に守ると誓った。",
     "rarity": 5,
-    "type": 1
+    "type": 1,
+    "drop": ["北風の狼（Lv.70以上）挑戦報酬"]
   },
   {
     "id": "BasaltPillar",
     "name": "Basalt Pillar",
     "localeName": "玄岩の塔",
-    "desc": "無相の岩の外殻によって構成された石柱、純粋な岩元素が高度濃縮されたものである。\\n岩元素は最も重い元素である。無相の岩が外殻を高くそびえ立つ岩の柱にして、自身を高いところに上げたのは、敵から自身を守るだめではなく、自分の無縁な空により近づくためだったかもしれない。",
+    "desc": "無相の岩の外殻によって構成された石柱、純粋な岩元素が高度濃縮されたものである。\n岩元素は最も重い元素である。無相の岩が外殻を高くそびえ立つ岩の柱にして、自身を高いところに上げたのは、敵から自身を守るだめではなく、自分の無縁な空により近づくためだったかもしれない。",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["無相の岩（Lv.30以上）でドロップ"]
   },
   {
     "id": "HoarfrostCore",
     "name": "Hoarfrost Core",
     "localeName": "極寒のコア",
-    "desc": "急凍樹を倒した後に現れるコア。\\n今にも大地の深淵のエネルギーと思念が噴出しようとしている。哀悼のように静寂な氷霜もいずれ地上の生物に宿る。例え生き物を狩らないはずのツル植物でも、強く凶暴になるであろう。",
+    "desc": "急凍樹を倒した後に現れるコア。\n今にも大地の深淵のエネルギーと思念が噴出しようとしている。哀悼のように静寂な氷霜もいずれ地上の生物に宿る。例え生き物を狩らないはずのツル植物でも、強く凶暴になるであろう。",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["急凍樹（Lv.30以上）でドロップ"]
   },
   {
     "id": "EverflameSeed",
     "name": "Everflame Seed",
     "localeName": "常燃の火種",
-    "desc": "永遠に燃え続ける爆炎樹のエネルギー源である種。世の中にある全ての草木を焼き尽くすような炎元素の熱量を放っている。\\n大地の深所で湧いているエネルギーは無数の願いを背負っている。烈火と共に植物に纏って永遠に燃えさせて、そして爆裂の炎で全てを浄化させようとしている。いったいどんな願いかな？",
+    "desc": "永遠に燃え続ける爆炎樹のエネルギー源である種。世の中にある全ての草木を焼き尽くすような炎元素の熱量を放っている。\n大地の深所で湧いているエネルギーは無数の願いを背負っている。烈火と共に植物に纏って永遠に燃えさせて、そして爆裂の炎で全てを浄化させようとしている。いったいどんな願いかな？",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["爆炎樹（Lv.30以上）でドロップ"]
   },
   {
     "id": "CleansingHeart",
     "name": "Cleansing Heart",
     "localeName": "浄水の心",
-    "desc": "純水精霊が残した永遠に透き通る一掬の涙。\\n湖に溶いても希釈されないだろう。でもこんな高貴な純水精霊はなぜ浄水で変身してまで地上の生き物になろうとしているのかな？呼吸も、食事もする必要がないのに…",
+    "desc": "純水精霊が残した永遠に透き通る一掬の涙。\n湖に溶いても希釈されないだろう。でもこんな高貴な純水精霊はなぜ浄水で変身してまで地上の生き物になろうとしているのかな？呼吸も、食事もする必要がないのに…",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["純水精霊（Lv.30以上）でドロップ"]
   },
   {
     "id": "TuskofMonocerosCaeli",
     "name": "Tusk of Monoceros Caeli",
     "localeName": "呑天の鯨·只角",
-    "desc": "邪眼の力を解放した「公子」に勝利した後、手に入れた水鯨の角。\\n伝説によると、命ノ星座は人の気質を表している。漆黒の夜空を泳ぐ星の鯨は、恐らくすべてを粉砕し丸飲みする狂気的な理念を表していたのだろう…\\nこれを受け入れた彼は、世界を破滅させる水の鯨を呼び出し、戦いを挑んでくるだろう。",
+    "desc": "邪眼の力を解放した「公子」に勝利した後、手に入れた水鯨の角。\n伝説によると、命ノ星座は人の気質を表している。漆黒の夜空を泳ぐ星の鯨は、恐らくすべてを粉砕し丸飲みする狂気的な理念を表していたのだろう…\nこれを受け入れた彼は、世界を破滅させる水の鯨を呼び出し、戦いを挑んでくるだろう。",
     "rarity": 5,
-    "type": 1
+    "type": 1,
+    "drop": ["公子（Lv.70以上）挑戦報酬"]
   },
   {
     "id": "ShardofaFoulLegacy",
     "name": "Shard of a Foul Legacy",
     "localeName": "魔王の刃·残片",
-    "desc": "邪眼の力を解放した「公子」に勝利した後、手に入れた武器の欠片。\\nかつて、抗えぬ暗闇の地に捕らわれ、その国の闇を目の当たりにした少年は、この世界に存在してはならない暗黒に染まってしまった。\\n「邪眼」の力とは関係がないが、持ち物は主人に似るのだ…",
+    "desc": "邪眼の力を解放した「公子」に勝利した後、手に入れた武器の欠片。\nかつて、抗えぬ暗闇の地に捕らわれ、その国の闇を目の当たりにした少年は、この世界に存在してはならない暗黒に染まってしまった。\n「邪眼」の力とは関係がないが、持ち物は主人に似るのだ…",
     "rarity": 5,
-    "type": 1
+    "type": 1,
+    "drop": ["公子（Lv.70以上）挑戦報酬"]
   },
   {
     "id": "ShadowoftheWarrior",
     "name": "Shadow of the Warrior",
     "localeName": "武煉の魂·孤影",
-    "desc": "邪眼の力を解放した「公子」に勝利した後、手に入れた力。\\n無数の戦いを経験した気迫と戦意が、全力の交戦中に解き放たれ物質化したもの。\\nもし運命が実在しているなら、彼の運命は捻じ曲げられてしまったのだろう。そうでなければ、いつも闘争の中心にいるはずがないのだ。",
+    "desc": "邪眼の力を解放した「公子」に勝利した後、手に入れた力。\n無数の戦いを経験した気迫と戦意が、全力の交戦中に解き放たれ物質化したもの。\nもし運命が実在しているなら、彼の運命は捻じ曲げられてしまったのだろう。そうでなければ、いつも闘争の中心にいるはずがないのだ。",
     "rarity": 5,
-    "type": 1
+    "type": 1,
+    "drop": ["公子（Lv.70以上）挑戦報酬"]
   },
   {
     "id": "TileofDecarabiansTower",
     "name": "Tile of Decarabian's Tower",
     "localeName": "高塔の王の瓦",
-    "desc": "武器に突破の力を付与する材料。\\n最近風龍廃墟と呼ばれた場所は、かつての烈風の魔神「デカラビアン」が作った王都だった。繁華な夢はすべて魔神の力によって作られたため、夢が破った瞬間の瓦でも強い力がある。",
+    "desc": "武器に突破の力を付与する材料。\n最近風龍廃墟と呼ばれた場所は、かつての烈風の魔神「デカラビアン」が作った王都だった。繁華な夢はすべて魔神の力によって作られたため、夢が破った瞬間の瓦でも強い力がある。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["モンド記念品ショップ交換"]
   },
   {
     "id": "DebrisofDecarabiansCity",
     "name": "Debris of Decarabian's City",
     "localeName": "高塔の王の残壁",
-    "desc": "武器に突破の力を付与する材料。\\n烈風の魔神「デカラビアン」は自分が作った王城をとても満足していた。彼は高塔の上で信者たちの拝礼を受けていたが、その拝礼は心からの崇拝ではないことを誰は知らなかった。",
+    "desc": "武器に突破の力を付与する材料。\n烈風の魔神「デカラビアン」は自分が作った王城をとても満足していた。彼は高塔の上で信者たちの拝礼を受けていたが、その拝礼は心からの崇拝ではないことを誰は知らなかった。",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "FragmentofDecarabiansEpic",
     "name": "Fragment of Decarabian's Epic",
     "localeName": "高塔の王の断片",
-    "desc": "武器に突破の力を付与する材料。\\n「アンドリアス」はかつて高塔の王に宣戦布告をしたが、王都にダメージを与えることはできなかった。「自由」がこの都市を崩れさせなかったら、ここの全てはまだ夢を見続けていくだろう。",
+    "desc": "武器に突破の力を付与する材料。\n「アンドリアス」はかつて高塔の王に宣戦布告をしたが、王都にダメージを与えることはできなかった。「自由」がこの都市を崩れさせなかったら、ここの全てはまだ夢を見続けていくだろう。",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "ScatteredPieceofDecarabiansDream",
     "name": "Scattered Piece of Decarabian's Dream",
     "localeName": "高塔の王の砕けた夢",
-    "desc": "武器に突破の力を付与する材料。\\n衆人が高塔の王に対する拝礼は崇拝のためではなく、その烈風に吹かれて立ち上がることができなかったのである。これはバルバトスが頭角を現す前に、風神の一柱の野心と砕けた夢である。\\n全力で夢を見たからか、夢の欠片にも強い力がある。",
+    "desc": "武器に突破の力を付与する材料。\n衆人が高塔の王に対する拝礼は崇拝のためではなく、その烈風に吹かれて立ち上がることができなかったのである。これはバルバトスが頭角を現す前に、風神の一柱の野心と砕けた夢である。\n全力で夢を見たからか、夢の欠片にも強い力がある。",
     "rarity": 5,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "BorealWolfsMilkTooth",
     "name": "Boreal Wolf's Milk Tooth",
     "localeName": "凛風奔狼の乳歯",
-    "desc": "武器に突破の力を付与する材料。\\n狼の群れはその祝福を受けた親衛隊であり、たとえ子狼の乳歯でも侮れない。\\nかつての神々には人を愛する責任がある。そのため、狼を導く身として、捨て子や流浪者のみを受け入れる「アンドリアス」はかなり異常とされる。",
+    "desc": "武器に突破の力を付与する材料。\n狼の群れはその祝福を受けた親衛隊であり、たとえ子狼の乳歯でも侮れない。\nかつての神々には人を愛する責任がある。そのため、狼を導く身として、捨て子や流浪者のみを受け入れる「アンドリアス」はかなり異常とされる。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["モンド記念品ショップ交換"]
   },
   {
     "id": "BorealWolfsCrackedTooth",
     "name": "Boreal Wolf's Cracked Tooth",
     "localeName": "凛風奔狼の砕牙",
-    "desc": "武器に突破の力を付与する材料。\\n狼の生活において、殺戮、死に至る戦闘などの状況はよく見られる。\\n「アンドリアス」は人類は失望をもたらすが、純真な赤子に罪はないと考えている。狼の群れが子供を選び、その子もまた狼を選んだら、彼らは「ルピカ」——運命の家族になれる。",
+    "desc": "武器に突破の力を付与する材料。\n狼の生活において、殺戮、死に至る戦闘などの状況はよく見られる。\n「アンドリアス」は人類は失望をもたらすが、純真な赤子に罪はないと考えている。狼の群れが子供を選び、その子もまた狼を選んだら、彼らは「ルピカ」——運命の家族になれる。",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "BorealWolfsBrokenFang",
     "name": "Boreal Wolf's Broken Fang",
     "localeName": "凛風奔狼の断牙",
-    "desc": "武器に突破の力を付与する材料。\\n人は同類がいないと孤独を感じると、狼たちもよく理解している。栄光の断牙は狼たちの餞別であり、相手を守る力があるとされる。\\n遥か遠い世界の伝説で、ある雌狼が人の双子を育てた。狼と人が住む「家」は「狼の洞」と呼ばれ、すなわち「ルペカ」、この世界の「ルピカ」である。",
+    "desc": "武器に突破の力を付与する材料。\n人は同類がいないと孤独を感じると、狼たちもよく理解している。栄光の断牙は狼たちの餞別であり、相手を守る力があるとされる。\n遥か遠い世界の伝説で、ある雌狼が人の双子を育てた。狼と人が住む「家」は「狼の洞」と呼ばれ、すなわち「ルペカ」、この世界の「ルピカ」である。",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "BorealWolfsNostalgia",
     "name": "Boreal Wolf's Nostalgia",
     "localeName": "凛風奔狼の郷愁",
-    "desc": "武器に突破の力を付与する材料。\\n自分は人類が嫌いと認めた奔狼の王、人類の幸せな暮らしを描けないから、自分にはこの世界の風の王になる資格がないと自覚した。だから彼は消えることを選んだ。しかし事実はそうではなかった。なぜかというと、彼が捨てられた者を見る目はこんなにも優しいからだ。",
+    "desc": "武器に突破の力を付与する材料。\n自分は人類が嫌いと認めた奔狼の王、人類の幸せな暮らしを描けないから、自分にはこの世界の風の王になる資格がないと自覚した。だから彼は消えることを選んだ。しかし事実はそうではなかった。なぜかというと、彼が捨てられた者を見る目はこんなにも優しいからだ。",
     "rarity": 5,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "FettersoftheDandelionGladiator",
     "name": "Fetters of the Dandelion Gladiator",
     "localeName": "獅牙戦士の枷",
-    "desc": "武器に突破の力を付与する材料。\\n人々は英雄の物語を誇張して描く傾向がある。かつて英雄を束縛した枷まで、自由の敵として描かれている。\\nそのため、この枷も通常ではない力が付与された。",
+    "desc": "武器に突破の力を付与する材料。\n人々は英雄の物語を誇張して描く傾向がある。かつて英雄を束縛した枷まで、自由の敵として描かれている。\nそのため、この枷も通常ではない力が付与された。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["モンド記念品ショップ交換"]
   },
   {
     "id": "ChainsoftheDandelionGladiator",
     "name": "Chains of the Dandelion Gladiator",
     "localeName": "獅牙戦士の鎖",
-    "desc": "武器に突破の力を付与する材料。\\n遥か昔、剣闘士は鎖を背負っていた。獅牙の戦士、大英雄ヴァネッサも例外ではなかった。",
+    "desc": "武器に突破の力を付与する材料。\n遥か昔、剣闘士は鎖を背負っていた。獅牙の戦士、大英雄ヴァネッサも例外ではなかった。",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "ShacklesoftheDandelionGladiator",
     "name": "Shackles of the Dandelion Gladiator",
     "localeName": "獅牙戦士の手錠",
-    "desc": "武器に突破の力を付与する材料。\\nヴァネッサは手錠や鎖で束縛されたわけではない。彼女が抵抗しようとするなら、いつでもモンドの金属をバラバラにすることができる。なにせここには優れた鉱石も、故郷の神火もないから。\\n彼女を縛ったのは、一族を守りたい責任であった。",
+    "desc": "武器に突破の力を付与する材料。\nヴァネッサは手錠や鎖で束縛されたわけではない。彼女が抵抗しようとするなら、いつでもモンドの金属をバラバラにすることができる。なにせここには優れた鉱石も、故郷の神火もないから。\n彼女を縛ったのは、一族を守りたい責任であった。",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "DreamoftheDandelionGladiator",
     "name": "Dream of the Dandelion Gladiator",
     "localeName": "獅牙戦士の理想",
-    "desc": "武器に突破の力を付与する材料。\\nヴァネッサは自由を手に入れたが、結局彼女を縛るものは大きくなった。一族はモンドになり、そして「自由」になり、世界となった。\\nこの世界はもっと強くなってほしいと、彼女は本気で願った。",
+    "desc": "武器に突破の力を付与する材料。\nヴァネッサは自由を手に入れたが、結局彼女を縛るものは大きくなった。一族はモンドになり、そして「自由」になり、世界となった。\nこの世界はもっと強くなってほしいと、彼女は本気で願った。",
     "rarity": 5,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "LuminousSandsfromGuyun",
     "name": "Luminous Sands from Guyun",
     "localeName": "孤雲寒林の光砂",
-    "desc": "武器に突破の力を付与する材料。\\n孤雲閣にそびえ立つ岩柱はかつてモラクスが敵を降伏させるために降下した岩の槍である。時間が経つに連れ、魔神の体が岩柱に染み込み、聖性を持つようになった。たまに岩柱から憎しみや不吉な気配が含まれた砕片が剥がれて落ちる。",
+    "desc": "武器に突破の力を付与する材料。\n孤雲閣にそびえ立つ岩柱はかつてモラクスが敵を降伏させるために降下した岩の槍である。時間が経つに連れ、魔神の体が岩柱に染み込み、聖性を持つようになった。たまに岩柱から憎しみや不吉な気配が含まれた砕片が剥がれて落ちる。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["璃月記念品ショップ交換"]
   },
   {
     "id": "LustrousStonefromGuyun",
     "name": "Lustrous Stone from Guyun",
     "localeName": "孤雲寒林の輝岩",
-    "desc": "武器に突破の力を付与する材料。\\n事情を知っている人にとって、孤雲閣は楽しい観光名所ではなく、かつての璃月の神々の墓園である。確かに周期的に不吉な汚れが沸き上がるが、それは全て魔物を退治する少年によって片付けられた。",
+    "desc": "武器に突破の力を付与する材料。\n事情を知っている人にとって、孤雲閣は楽しい観光名所ではなく、かつての璃月の神々の墓園である。確かに周期的に不吉な汚れが沸き上がるが、それは全て魔物を退治する少年によって片付けられた。",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "RelicfromGuyun",
     "name": "Relic from Guyun",
     "localeName": "孤雲寒林の聖骸",
-    "desc": "武器に突破の力を付与する材料。\\n岩槍の核心は淡い光を放っている。それは敗北した魔神の力が岩石に入ったために形成したものである。それらの憎しみはモラクスに対するものではない。なぜなら、それらにはすでに自我がなく、個人的な憎しみがまだ残ってるわけがないからだ。",
+    "desc": "武器に突破の力を付与する材料。\n岩槍の核心は淡い光を放っている。それは敗北した魔神の力が岩石に入ったために形成したものである。それらの憎しみはモラクスに対するものではない。なぜなら、それらにはすでに自我がなく、個人的な憎しみがまだ残ってるわけがないからだ。",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "DivineBodyfromGuyun",
     "name": "Divine Body from Guyun",
     "localeName": "孤雲寒林の神体",
-    "desc": "武器に突破の力を付与する材料。\\nここで騒いで、災いしているのは嘆く神々の聖骸である。それは実現できなかった理想、人間のもう一つの幸せの描写、深海と岩層に収められながら、このまま夢に落ちることをよしとしない。",
+    "desc": "武器に突破の力を付与する材料。\nここで騒いで、災いしているのは嘆く神々の聖骸である。それは実現できなかった理想、人間のもう一つの幸せの描写、深海と岩層に収められながら、このまま夢に落ちることをよしとしない。",
     "rarity": 5,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "MistVeiledLeadElixir",
     "name": "Mist Veiled Lead Elixir",
     "localeName": "霧海雲間の鉛丹",
-    "desc": "武器に突破の力を付与する材料。\\n絶雲の間は仙人たちの住む場所。伝説によると、仙人は神通力、世の中の元素力を操る以外、伝授しない秘密が三つ、錬丹術、呪符、外景経である。",
+    "desc": "武器に突破の力を付与する材料。\n絶雲の間は仙人たちの住む場所。伝説によると、仙人は神通力、世の中の元素力を操る以外、伝授しない秘密が三つ、錬丹術、呪符、外景経である。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["璃月記念品ショップ交換"]
   },
   {
     "id": "MistVeiledMercuryElixir",
     "name": "Mist Veiled Mercury Elixir",
     "localeName": "霧海雲間の水銀",
-    "desc": "武器に突破の力を付与する材料。\\n呪符は仙人の力を符号という形で残すことができ、外景経は心像を使って宇宙を作ることができるが、錬丹術は今でも秘密に包まれている。なぜなら、これらの金丹を呑みこむことは死を意味するからである。",
+    "desc": "武器に突破の力を付与する材料。\n呪符は仙人の力を符号という形で残すことができ、外景経は心像を使って宇宙を作ることができるが、錬丹術は今でも秘密に包まれている。なぜなら、これらの金丹を呑みこむことは死を意味するからである。",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "MistVeiledGoldElixir",
     "name": "Mist Veiled Gold Elixir",
     "localeName": "霧海雲間の金丹",
-    "desc": "武器に突破の力を付与する材料。\\n金丹というのは、金属の丹薬である。それらは仙人たちが作った合金に神通力を融合させたもので、武器に力を与えることができる。武人たちは仙道より武道のほうが優れていると考えるため、仙人に訪れる者は少なく、金丹が誰かの手に渡ることも少ない。",
+    "desc": "武器に突破の力を付与する材料。\n金丹というのは、金属の丹薬である。それらは仙人たちが作った合金に神通力を融合させたもので、武器に力を与えることができる。武人たちは仙道より武道のほうが優れていると考えるため、仙人に訪れる者は少なく、金丹が誰かの手に渡ることも少ない。",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "MistVeiledPrimoElixir",
     "name": "Mist Veiled Primo Elixir",
     "localeName": "霧海雲間の転還",
-    "desc": "武器に突破の力を付与する材料。\\n最高品質の金丹、この世のはじめ、天地一体の状態を再現し、天地創世の縮図だと言われている。もちろん、世界の再現はこんなものではないのは分かっている。",
+    "desc": "武器に突破の力を付与する材料。\n最高品質の金丹、この世のはじめ、天地一体の状態を再現し、天地創世の縮図だと言われている。もちろん、世界の再現はこんなものではないのは分かっている。",
     "rarity": 5,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "GrainofAerosiderite",
     "name": "Grain of Aerosiderite",
     "localeName": "漆黒の隕鉄の一粒",
-    "desc": "武器に突破の力を付与する材料。\\nかつて魔物を退治するために、璃月雲来の海の外に漆黒の隕石が落ちてきた。しかし汚れた血に染めたため、この材料にはもう純粋な岩王帝君の力がなくなっている。",
+    "desc": "武器に突破の力を付与する材料。\nかつて魔物を退治するために、璃月雲来の海の外に漆黒の隕石が落ちてきた。しかし汚れた血に染めたため、この材料にはもう純粋な岩王帝君の力がなくなっている。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "drop": ["璃月記念品ショップ交換"]
   },
   {
     "id": "PieceofAerosiderite",
     "name": "Piece of Aerosiderite",
     "localeName": "漆黒の隕鉄の一片",
-    "desc": "武器に突破の力を付与する材料。\\n璃月には昔から海の怪物に関する伝説がある、なにせその彼方はテイワットの未知の領域である。七神の守護がない外の世界はどういうものか誰も知らない。岩王帝君の力を黒く染められたのは、まさにテイワットという秩序の外の力である。",
+    "desc": "武器に突破の力を付与する材料。\n璃月には昔から海の怪物に関する伝説がある、なにせその彼方はテイワットの未知の領域である。七神の守護がない外の世界はどういうものか誰も知らない。岩王帝君の力を黒く染められたのは、まさにテイワットという秩序の外の力である。",
     "rarity": 3,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "BitofAerosiderite",
     "name": "Bit of Aerosiderite",
     "localeName": "漆黒の隕鉄の一角",
-    "desc": "武器に突破の力を付与する材料。\\nテイワット沿海の国は七神の庇護を越えたところを「闇の外海」と呼んでいる。伝説によると、敗北した魔神たちが新たな七神の秩序の下で暮らしたくないと、遠い島々に逃げ、邪神となった。しかしそれらの力は岩王帝君の力とは本質的に同じもので、全てを呑みこんでしまうこの漆黒と全く違う。",
+    "desc": "武器に突破の力を付与する材料。\nテイワット沿海の国は七神の庇護を越えたところを「闇の外海」と呼んでいる。伝説によると、敗北した魔神たちが新たな七神の秩序の下で暮らしたくないと、遠い島々に逃げ、邪神となった。しかしそれらの力は岩王帝君の力とは本質的に同じもので、全てを呑みこんでしまうこの漆黒と全く違う。",
     "rarity": 4,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "ChunkofAerosiderite",
     "name": "Chunk of Aerosiderite",
     "localeName": "漆黒の隕鉄の塊",
-    "desc": "武器に突破の力を付与する材料。\\nカーンルイアが破滅した時代、ある罪人が無数の魔獣を作り出した。それらにはこの世とは相容れない黒い血が流れており、この大陸の生き物を踏みつけ、あらゆるものを破壊する。その命は変質的で、世界外の力によって与えられたものである。しいていえば、モンドを襲った「ドゥリン」も同じ類である。",
+    "desc": "武器に突破の力を付与する材料。\nカーンルイアが破滅した時代、ある罪人が無数の魔獣を作り出した。それらにはこの世とは相容れない黒い血が流れており、この大陸の生き物を踏みつけ、あらゆるものを破壊する。その命は変質的で、世界外の力によって与えられたものである。しいていえば、モンドを襲った「ドゥリン」も同じ類である。",
     "rarity": 5,
-    "type": 1
+    "type": 1,
+    "drop": ["合成で獲得"]
   },
-  {
-    "id": "BEP",
-    "name": "BEP",
-    "localeName": "紀行経験",
-    "desc": "紀行は長い旅の中で経験した全てを記録したものである。これらは詩の素材の一部。",
-    "rarity": 3,
-    "type": 7
-  },
+  { "id": "BEP", "name": "BEP", "localeName": "紀行経験", "desc": "紀行は長い旅の中で経験した全てを記録したものである。これらは詩の素材の一部。", "rarity": 3, "type": 7 },
   {
     "id": "CakeforTraveler",
     "name": "Cake for Traveler",
     "localeName": "旅人へのケーキ",
-    "desc": "ある大事な日にもらえるプレゼント。\\n\\n星の海に輝いている君へ。\\nこの大地での旅が幸せに満ちるように。\\n\\n「一緒に祝うのは初めてだね。オススメ料理は日替わりで、月の祝福は月替り。次に一緒に祝う時はなんと、およそ9000時間後！」",
+    "desc": "ある大事な日にもらえるプレゼント。\n\n星の海に輝いている君へ。\nこの大地での旅が幸せに満ちるように。\n\n「一緒に祝うのは初めてだね。オススメ料理は日替わりで、月の祝福は月替り。次に一緒に祝う時はなんと、およそ9000時間後！」",
     "rarity": 4,
     "type": 7
   },
@@ -3581,7 +3475,8 @@
     "localeName": "始まりの翼",
     "desc": "風の翼のデザイン。偵察騎士の熱い期待に満ちている。",
     "rarity": 4,
-    "type": 5
+    "type": 5,
+    "drop": ["モンドの魔神任務「自由の都」をクリアすると獲得"]
   },
   {
     "id": "WingsofCompanionship",
@@ -3589,7 +3484,8 @@
     "localeName": "見守りの翼",
     "desc": "風の翼のデザイン。あなたと共に飛べるように。",
     "rarity": 4,
-    "type": 5
+    "type": 5,
+    "drop": ["リリース報酬"]
   },
   {
     "id": "WingsofDescension",
@@ -3597,7 +3493,8 @@
     "localeName": "降臨の翼",
     "desc": "風の翼のデザイン。これでまた太陽と月の間を駆けることができる。",
     "rarity": 4,
-    "type": 5
+    "type": 5,
+    "drop": ["PlayStation®4のユーザー特典ボーナス"]
   },
   {
     "id": "WingsofAzureWind",
@@ -3605,7 +3502,8 @@
     "localeName": "蒼天清風の翼",
     "desc": "風の翼のデザイン。モンドの認可と褒賞を得てもらった贈り物。",
     "rarity": 4,
-    "type": 5
+    "type": 5,
+    "drop": ["モンドでの評判が一定Lvに到達すると獲得"]
   },
   {
     "id": "WingsofGoldenFlight",
@@ -3613,7 +3511,8 @@
     "localeName": "金琮天行の翼",
     "desc": "風の翼のデザイン。璃月の認可と褒賞を得てもらった贈り物。",
     "rarity": 4,
-    "type": 5
+    "type": 5,
+    "drop": ["璃月での評判が一定Lvに到達すると獲得"]
   },
   {
     "id": "WingsofConcealingSnow",
@@ -3621,13 +3520,14 @@
     "localeName": "雪隠れの翼",
     "desc": "風の翼のデザイン。かつて空を高く舞っていた猛獣が残した宝。",
     "rarity": 4,
-    "type": 5
+    "type": 5,
+    "drop": ["冬忍びの樹奉納が一定Lv到達で獲得"]
   },
   {
     "id": "LanternFiber",
     "name": "Lantern Fiber",
     "localeName": "紙の繊維",
-    "desc": "<color=#FF5E41FF>ファデュイ、ヒルチャール</color>そして<color=#FF5E41FF>アビスの魔術師</color>などの敵から獲得でき、植物からで採集することもある。\\nどこにでも見られる繊維、特殊処理すると、霄灯の紙として使用でき、美しい願いを乗せて遠くへ飛ばせることができる。\\n璃月で<color=#3399CCFF>梟総管</color>と交換できる。",
+    "desc": "<color=#FF5E41FF>ファデュイ、ヒルチャール</color>そして<color=#FF5E41FF>アビスの魔術師</color>などの敵から獲得でき、植物からで採集することもある。\nどこにでも見られる繊維、特殊処理すると、霄灯の紙として使用でき、美しい願いを乗せて遠くへ飛ばせることができる。\n璃月で<color=#3399CCFF>梟総管</color>と交換できる。",
     "rarity": 3,
     "type": 4
   },
@@ -3635,7 +3535,7 @@
     "id": "WickMaterial",
     "name": "Wick Material",
     "localeName": "灯芯素材",
-    "desc": "<color=#FF5E41FF>モフモフした敵</color>と<color=#FF5E41FF>小動物</color>から獲得でき、身物からで採集することもある。\\nどこにでも見られるモフモフ素材、特殊処理すると、霄灯の灯芯として使用でき、美しい願いを乗せて遠くへ飛ばせることができる。\\n璃月で<color=#3399CCFF>梟総管</color>と交換できる。",
+    "desc": "<color=#FF5E41FF>モフモフした敵</color>と<color=#FF5E41FF>小動物</color>から獲得でき、身物からで採集することもある。\nどこにでも見られるモフモフ素材、特殊処理すると、霄灯の灯芯として使用でき、美しい願いを乗せて遠くへ飛ばせることができる。\n璃月で<color=#3399CCFF>梟総管</color>と交換できる。",
     "rarity": 3,
     "type": 4
   },
@@ -3643,7 +3543,7 @@
     "id": "PlaustriteShard",
     "name": "Plaustrite Shard",
     "localeName": "浮生の石片",
-    "desc": "<color=#FF5E41FF>鉱物</color>と共に発生し、その魔力は<color=#FF5E41FF>魔物</color>や<color=#FF5E41FF>悪人</color>に対しても天然的な吸引力がある。\\n自身の力で浮遊できる不思議な元素石片、霄灯が遠く飛ぶ秘密であり、「群玉閣」が空中に浮遊する動力源でもあると言われる。\\n璃月で<color=#3399CCFF>梟総管</color>と交換できる。",
+    "desc": "<color=#FF5E41FF>鉱物</color>と共に発生し、その魔力は<color=#FF5E41FF>魔物</color>や<color=#FF5E41FF>悪人</color>に対しても天然的な吸引力がある。\n自身の力で浮遊できる不思議な元素石片、霄灯が遠く飛ぶ秘密であり、「群玉閣」が空中に浮遊する動力源でもあると言われる。\n璃月で<color=#3399CCFF>梟総管</color>と交換できる。",
     "rarity": 3,
     "type": 4
   },
@@ -3651,23 +3551,16 @@
     "id": "RimeWornFragment",
     "name": "Rime-Worn Fragment",
     "localeName": "霜噬砕屑",
-    "desc": "ドラゴンスパインの魔物から取り出した小さな結晶。\\n特殊な時期にのみ生成される。",
+    "desc": "ドラゴンスパインの魔物から取り出した小さな結晶。\n特殊な時期にのみ生成される。",
     "rarity": 3,
     "type": 7
   },
-  {
-    "id": "RimeWornCrystal",
-    "name": "Rime-Worn Crystal",
-    "localeName": "霜噬結晶",
-    "desc": "ドラゴンスパインの魔物から取り出した結晶の塊。\\n特殊な時期にのみ生成される。",
-    "rarity": 3,
-    "type": 7
-  },
+  { "id": "RimeWornCrystal", "name": "Rime-Worn Crystal", "localeName": "霜噬結晶", "desc": "ドラゴンスパインの魔物から取り出した結晶の塊。\n特殊な時期にのみ生成される。", "rarity": 3, "type": 7 },
   {
     "id": "FesteringDragonMarrow",
     "name": "Festering Dragon Marrow",
     "localeName": "腐植の龍髄",
-    "desc": "「腐植の剣」専用の精錬材料。\\nドラゴンスパインの地脈に散らばる「ドゥリン」の毒をろ過した後の物質。この物質に適合する「血を渇望する剣」に使えば、剣の力を上昇させられる。",
+    "desc": "「腐植の剣」専用の精錬材料。\nドラゴンスパインの地脈に散らばる「ドゥリン」の毒をろ過した後の物質。この物質に適合する「血を渇望する剣」に使えば、剣の力を上昇させられる。",
     "rarity": 4,
     "type": 1
   },
@@ -3675,433 +3568,487 @@
     "id": "GenshinImpactANewWorld",
     "name": "Genshin Impact: A New World",
     "localeName": "原神·印象",
-    "desc": "名刺の飾り紋。\\n「ようこそ、テイワットへ。」",
+    "desc": "名刺の飾り紋。\n「ようこそ、テイワットへ。」",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["初回ログインで獲得。"]
   },
   {
     "id": "TravelNotesCatchtheWind",
     "name": "Travel Notes: Catch the Wind",
     "localeName": "紀行·風捕り",
-    "desc": "名刺の飾り紋。\\n旅行記の作成の最難関である冒頭を完成した。",
+    "desc": "名刺の飾り紋。\n旅行記の作成の最難関である冒頭を完成した。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["紀行報酬で獲得。"]
   },
   {
     "id": "AmberBunny",
     "name": "Amber: Bunny",
     "localeName": "アンバー·ウサギ",
-    "desc": "名刺の飾り紋。\\n「ウサギ伯爵だよ！」",
+    "desc": "名刺の飾り紋。\n「ウサギ伯爵だよ！」",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["アンバーの好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "KleeExplosive",
     "name": "Klee: Explosive",
     "localeName": "クレー·爆弾",
-    "desc": "名刺の飾り紋。\\nクレーのラッキー爆弾。尻尾をちゃんと見て、ほら皆に教えて、これはボンボン爆弾か？それともドドコなのか？",
+    "desc": "名刺の飾り紋。\nクレーのラッキー爆弾。尻尾をちゃんと見て、ほら皆に教えて、これはボンボン爆弾か？それともドドコなのか？",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["クレーの好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "DilucFlames",
     "name": "Diluc: Flames",
     "localeName": "ディルック·燃焼",
-    "desc": "名刺の飾り紋。\\nクリプス様が生前よく鷹の絵を描いていた。しかし彼は想像もできなかった、自分が育てた人間がこんな灼熱の燃える鷹になるとは。",
+    "desc": "名刺の飾り紋。\nクリプス様が生前よく鷹の絵を描いていた。しかし彼は想像もできなかった、自分が育てた人間がこんな灼熱の燃える鷹になるとは。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["ディルックの好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "RazorWolvensprint",
     "name": "Razor: Wolvensprint",
     "localeName": "レザー·奔狼",
-    "desc": "名刺の飾り紋。\\nレザーが狼の群れと一緒に晩ごはんを作る姿はとても颯爽だ。ただしこの情景をクレーと旅人に見せてはいけない。",
+    "desc": "名刺の飾り紋。\nレザーが狼の群れと一緒に晩ごはんを作る姿はとても颯爽だ。ただしこの情景をクレーと旅人に見せてはいけない。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["レザーの好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "VentiAzureSky",
     "name": "Venti: Azure Sky",
     "localeName": "ウェンティ·青空",
-    "desc": "名刺の飾り紋。\\n天空の青色は「フリューリング」の音色と似合うはずだよね。",
+    "desc": "名刺の飾り紋。\n天空の青色は「フリューリング」の音色と似合うはずだよね。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["ウェンティの好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "JeanTheWindsCourse",
     "name": "Jean: The Winds' Course",
     "localeName": "ジン·風向き",
-    "desc": "名刺の飾り紋。\\n蒲公英の別称は「獅牙」、風向きに最も敏感な花である。",
+    "desc": "名刺の飾り紋。\n蒲公英の別称は「獅牙」、風向きに最も敏感な花である。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["ジンの好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "BarbaraFlow",
     "name": "Barbara: Flow",
     "localeName": "バーバラ·流れ",
-    "desc": "名刺の飾り紋。\\n流れるものと言えば？治療の清泉とバーバラの歌声とメロディだよ。",
+    "desc": "名刺の飾り紋。\n流れるものと言えば？治療の清泉とバーバラの歌声とメロディだよ。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["バーバラの好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "KaeyaPavoOcellus",
     "name": "Kaeya: Pavo Ocellus",
     "localeName": "ガイア·孔雀",
-    "desc": "名刺の飾り紋。\\n孔雀の綺麗な尾羽の模様は開いている瞳のようだ。だからガイアは片目を失ったではなく…",
+    "desc": "名刺の飾り紋。\n孔雀の綺麗な尾羽の模様は開いている瞳のようだ。だからガイアは片目を失ったではなく…",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["ガイアの好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "LisaTempusFugit",
     "name": "Lisa: Tempus Fugit",
     "localeName": "リサ·砂時計",
-    "desc": "名刺の飾り紋。\\n流れるものと言えば？時間と退勤までの時間を計算するリサの砂時計だ。",
+    "desc": "名刺の飾り紋。\n流れるものと言えば？時間と退勤までの時間を計算するリサの砂時計だ。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["リサの好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "SucroseBioAlchemy",
     "name": "Sucrose: Bio-Alchemy",
     "localeName": "スクロース·創生",
-    "desc": "名刺の飾り紋。\\n無相の風が消えてなくなる前の様子をよく観察すれば、無相の風は割と長方形のほうだったことに気付くよ。",
+    "desc": "名刺の飾り紋。\n無相の風が消えてなくなる前の様子をよく観察すれば、無相の風は割と長方形のほうだったことに気付くよ。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["スクロースの好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "FischlNightRaven",
     "name": "Fischl: Night Raven",
     "localeName": "フィッシュル·夜鴉",
-    "desc": "名刺の飾り紋。\\n空を覆う翼を持つ漆黒の鴉。「彼の拓画を描くことを許してあげるわ！」",
+    "desc": "名刺の飾り紋。\n空を覆う翼を持つ漆黒の鴉。「彼の拓画を描くことを許してあげるわ！」",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["フィッシュルの好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "NoelleProtector",
     "name": "Noelle: Protector",
     "localeName": "ノエル·守護",
-    "desc": "名刺の飾り紋。\\nノエルは少し特別だ。誰にもあなたを傷つけさせない。",
+    "desc": "名刺の飾り紋。\nノエルは少し特別だ。誰にもあなたを傷つけさせない。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["ノエルの好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "MonaStarrySky",
     "name": "Mona: Starry Sky",
     "localeName": "モナ·天星",
-    "desc": "名刺の飾り紋。\\n満天の星が水の中に映り、少女は俯いてその中の喜びと悲しみ、巡り合いと別れを見ている。",
+    "desc": "名刺の飾り紋。\n満天の星が水の中に映り、少女は俯いてその中の喜びと悲しみ、巡り合いと別れを見ている。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["モナの好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "BennettRecognition",
     "name": "Bennett: Recognition",
     "localeName": "ベネット·認可",
-    "desc": "名刺の飾り紋。\\nベネット冒険団の認可。",
+    "desc": "名刺の飾り紋。\nベネット冒険団の認可。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["ベネットの好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "XianglingFreshfromthePan",
     "name": "Xiangling: Fresh from the Pan",
     "localeName": "香菱·出来上がり",
-    "desc": "名刺の飾り紋。\\n早口で以下の言葉を正確に読んでください：「出来上がりグゥオパァー！」、「グゥオパァー出来上がり！」、「グゥオパァー出撃！」、「出撃グゥオパァー！」",
+    "desc": "名刺の飾り紋。\n早口で以下の言葉を正確に読んでください：「出来上がりグゥオパァー！」、「グゥオパァー出来上がり！」、「グゥオパァー出撃！」、「出撃グゥオパァー！」",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["香菱の好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "XingqiuRainbow",
     "name": "Xingqiu: Rainbow",
     "localeName": "行秋·雨虹",
-    "desc": "名刺の飾り紋。\\n断虹がかかり、宿雨を止ます。",
+    "desc": "名刺の飾り紋。\n断虹がかかり、宿雨を止ます。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["行秋の好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "QiqiColdStorage",
     "name": "Qiqi: Cold Storage",
     "localeName": "七七·冷蔵",
-    "desc": "名刺の飾り紋。\\n冷蔵が必要なもの？白先生の薬剤、ココナッツミルク…あと胡桃。",
+    "desc": "名刺の飾り紋。\n冷蔵が必要なもの？白先生の薬剤、ココナッツミルク…あと胡桃。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["七七の好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "KeqingLightningStiletto",
     "name": "Keqing: Lightning Stiletto",
     "localeName": "刻晴·雷楔",
-    "desc": "名刺の飾り紋。\\n元々は土地の鑑定をする際に、より簡単に高所に行けるために作ったのよ。",
+    "desc": "名刺の飾り紋。\n元々は土地の鑑定をする際に、より簡単に高所に行けるために作ったのよ。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["刻晴の好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "AchievementExplorer",
     "name": "Achievement: Explorer",
     "localeName": "アチーブメント·遍遊",
-    "desc": "名刺の飾り紋。\\n大陸の踏破した後も、初心を忘れるなよ。",
+    "desc": "名刺の飾り紋。\n大陸の踏破した後も、初心を忘れるなよ。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["「浮世巡遊·1」のアチーブメントを全て達成すると獲得。"]
   },
   {
     "id": "AchievementVirtuoso",
     "name": "Achievement: Virtuoso",
     "localeName": "アチーブメント·特技",
-    "desc": "名刺の飾り紋。\\nこれらの技を習得しておけば、もう戦闘をしなくてもちゃんと行きていけるだろう。使命を背負う身でなかったら。",
+    "desc": "名刺の飾り紋。\nこれらの技を習得しておけば、もう戦闘をしなくてもちゃんと行きていけるだろう。使命を背負う身でなかったら。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["「冒険手芸」のアチーブメントを全て達成すると獲得。"]
   },
   {
     "id": "AchievementHero",
     "name": "Achievement: Hero",
     "localeName": "アチーブメント·侠行",
-    "desc": "名刺の飾り紋。\\n英雄の旅の一念の間に始まる。大事なのは旅で得た経験だ。",
+    "desc": "名刺の飾り紋。\n英雄の旅の一念の間に始まる。大事なのは旅で得た経験だ。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["「英雄の旅」のアチーブメントを全て達成すると獲得。"]
   },
   {
     "id": "MondstadtWhistlingWind",
     "name": "Mondstadt: Whistling Wind",
     "localeName": "モンド·風吟",
-    "desc": "名刺の飾り紋。\\nモンドの鳥と風の詩を聞く。",
+    "desc": "名刺の飾り紋。\nモンドの鳥と風の詩を聞く。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["「モンド·風と牧歌の城」のアチーブメントを全て達成すると獲得。"]
   },
   {
     "id": "LiyueStillnessofStone",
     "name": "Liyue: Stillness of Stone",
     "localeName": "璃月·岩寂",
-    "desc": "名刺の飾り紋。\\n璃月の雲と岩の静寂を感じる。",
+    "desc": "名刺の飾り紋。\n璃月の雲と岩の静寂を感じる。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["「璃月·岩と契約の港」のアチーブメントを全て達成すると獲得。"]
   },
   {
     "id": "AchievementColorsoftheRainbow",
     "name": "Achievement: Colors of the Rainbow",
     "localeName": "アチーブメント·虹色",
-    "desc": "名刺の飾り紋。\\n白昼の光は無数の色でできている。しかし一々数えるのが面倒くさいから、人間は7色と決めつけた。元素もきっと同じだろう。",
+    "desc": "名刺の飾り紋。\n白昼の光は無数の色でできている。しかし一々数えるのが面倒くさいから、人間は7色と決めつけた。元素もきっと同じだろう。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["「元素専門家」のアチーブメントを全て達成すると獲得。"]
   },
   {
     "id": "AchievementBowmaster",
     "name": "Achievement: Bowmaster",
     "localeName": "アチーブメント·強弓",
-    "desc": "名刺の飾り紋。\\n弓を使うなら、最強の弓を使え！",
+    "desc": "名刺の飾り紋。\n弓を使うなら、最強の弓を使え！",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["「シャープシューター」のアチーブメントを全て達成すると獲得。"]
   },
   {
     "id": "AchievementChallenger",
     "name": "Achievement: Challenger",
     "localeName": "アチーブメント·挑戦",
-    "desc": "名刺の飾り紋。\\nどんなことでも簡単ではない、例え蒲公英を採ることも。でもあなたなら困難に遭っても諦めないでしょ！ね？",
+    "desc": "名刺の飾り紋。\nどんなことでも簡単ではない、例え蒲公英を採ることも。でもあなたなら困難に遭っても諦めないでしょ！ね？",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["「挑戦者·1」のアチーブメントを全て達成すると獲得。"]
   },
   {
     "id": "AchievementDeepDark",
     "name": "Achievement: Deep & Dark",
     "localeName": "アチーブメント·深秘",
-    "desc": "名刺の飾り紋。\\n星の中心に近づくほど、秘密が増える。",
+    "desc": "名刺の飾り紋。\n星の中心に近づくほど、秘密が増える。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["「秘境と深境螺旋·1」のアチーブメントを全て達成すると獲得。"]
   },
   {
     "id": "AchievementHillDwellers",
     "name": "Achievement: Hill Dwellers",
     "localeName": "アチーブメント·山民",
-    "desc": "名刺の飾り紋。\\n丘々人（ヒルチャール）は元々「丘の妖怪」と呼ばれていた。しかし、あるマスク一族の女の子が、彼らはが丘の民と頑に主張している。",
+    "desc": "名刺の飾り紋。\n丘々人（ヒルチャール）は元々「丘の妖怪」と呼ばれていた。しかし、あるマスク一族の女の子が、彼らはが丘の民と頑に主張している。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["「Olah！1」のアチーブメントを全て達成すると獲得。"]
   },
   {
     "id": "AchievementSnowyLand",
     "name": "Achievement: Snowy Land",
     "localeName": "アチーブメント·雪郷",
-    "desc": "名刺の飾り紋。\\nスネージナヤについての話しをたくさん聞いたね。スネージナヤに対してどんなイメージか？",
+    "desc": "名刺の飾り紋。\nスネージナヤについての話しをたくさん聞いたね。スネージナヤに対してどんなイメージか？",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["「涙を信じないスネージナヤ·1」のアチーブメントを全て達成すると獲得。"]
   },
   {
     "id": "AchievementCliffhanger",
     "name": "Achievement: Cliffhanger",
     "localeName": "アチーブメント·合扇",
-    "desc": "名刺の飾り紋。\\n講談師が扇子を閉じて物語の最初から話そうと——でもあなたは全部の物語を聞いてる。",
+    "desc": "名刺の飾り紋。\n講談師が扇子を閉じて物語の最初から話そうと——でもあなたは全部の物語を聞いてる。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["「岩港の過去·1」のアチーブメントを全て達成すると獲得。"]
   },
   {
     "id": "AchievementReunion",
     "name": "Achievement: Reunion",
     "localeName": "アチーブメント·出会い",
-    "desc": "名刺の飾り紋。\\n離れても、きっとまた何処かで巡り合える。",
+    "desc": "名刺の飾り紋。\n離れても、きっとまた何処かで巡り合える。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["「異世界の出会い·1」のアチーブメントを全て達成すると獲得。"]
   },
   {
     "id": "NingguangPhoenix",
     "name": "Ningguang: Phoenix",
     "localeName": "凝光·鳳儀",
-    "desc": "名刺の飾り紋。\\n 「麒麟や鳳凰に会いたくてもめったに会えない故、悩む」。もう一人の方はともかく、凝光様みたいな方は一人で十分です…",
+    "desc": "名刺の飾り紋。\n 「麒麟や鳳凰に会いたくてもめったに会えない故、悩む」。もう一人の方はともかく、凝光様みたいな方は一人で十分です…",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["凝光の好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "BeidouWeighingAnchor",
     "name": "Beidou: Weighing Anchor",
     "localeName": "北斗·拔錨",
-    "desc": "名刺の飾り紋。\\n 「海に進出すると方向を失うことがある。その時は空を見上げ、北斗星と北極星を確認せよ。」",
+    "desc": "名刺の飾り紋。\n 「海に進出すると方向を失うことがある。その時は空を見上げ、北斗星と北極星を確認せよ。」",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["北斗の好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "ChongyunSpiritBlade",
     "name": "Chongyun: Spirit Blade",
     "localeName": "重雲·霊刃",
-    "desc": "名刺の飾り紋。\\n氷で桃木剣を作りたかったが、結果思っていたより大きく作ったため、祓魔の面では桃木剣より使いやすい。",
+    "desc": "名刺の飾り紋。\n氷で桃木剣を作りたかったが、結果思っていたより大きく作ったため、祓魔の面では桃木剣より使いやすい。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["重雲の好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "AchievementChallengerII",
     "name": "Achievement: Challenger II",
     "localeName": "アチーブメント·挑戦·2",
-    "desc": "名刺の飾り紋。\\n挑戦の果てで見たのはなんと…",
+    "desc": "名刺の飾り紋。\n挑戦の果てで見たのはなんと…",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["「挑戦者·2」のアチーブメントを全て達成すると獲得。"]
   },
   {
     "id": "TravelNotesFadingStar",
     "name": "Travel Notes: Fading Star",
     "localeName": "紀行·熄星",
-    "desc": "名刺の飾り紋。\\nあなたの渇望が終わらない限り、頭を上げればあの光のない輝きが見えるだろう。",
+    "desc": "名刺の飾り紋。\nあなたの渇望が終わらない限り、頭を上げればあの光のない輝きが見えるだろう。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["紀行報酬で獲得。"]
   },
   {
     "id": "DionaMeow",
     "name": "Diona: Meow!",
     "localeName": "ディオナ·にゃん",
-    "desc": "名刺の飾り紋。\\nカッツェレイン一族にはこのような猫に似た特徴がある。昔の誰かの悪趣味なのだろう。",
+    "desc": "名刺の飾り紋。\nカッツェレイン一族にはこのような猫に似た特徴がある。昔の誰かの悪趣味なのだろう。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["ディオナの好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "ZhongliPlanetBefall",
     "name": "Zhongli: Planet Befall",
     "localeName": "鍾離·天星",
-    "desc": "名刺の飾り紋。\\n天から岩星が落ち、命に影が差す",
+    "desc": "名刺の飾り紋。\n天から岩星が落ち、命に影が差す",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["鍾離の好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "XinyanSongsEnd",
     "name": "Xinyan: Song's End",
     "localeName": "辛炎·演奏終了",
-    "desc": "名刺の飾り紋。\\n辛炎は演奏を終えるとたまにじっくりと楽器を観察する。楽器は静かな時でも美しい。",
+    "desc": "名刺の飾り紋。\n辛炎は演奏を終えるとたまにじっくりと楽器を観察する。楽器は静かな時でも美しい。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["辛炎の好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "ChildeFoulLegacy",
     "name": "Childe: Foul Legacy",
     "localeName": "公子·魔装",
-    "desc": "名刺の飾り紋。\\n多様に変化する技を身に着け、思うまま大地を駆ける彼の記号。だが「魔王」と名付けた武芸は彼が作り出したものではなく、暗い宇宙にいるあの孤高の少女から授かったものだ…",
+    "desc": "名刺の飾り紋。\n多様に変化する技を身に着け、思うまま大地を駆ける彼の記号。だが「魔王」と名付けた武芸は彼が作り出したものではなく、暗い宇宙にいるあの孤高の少女から授かったものだ…",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["タルタリヤの好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "MondstadtHerosFame",
     "name": "Mondstadt: Hero's Fame",
     "localeName": "モンド·英名",
-    "desc": "名刺の飾り紋。\\n栄誉騎士の声明は城内全てに広まっている。",
+    "desc": "名刺の飾り紋。\n栄誉騎士の声明は城内全てに広まっている。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["モンドでの評判がLv.4に到達すると獲得。"]
   },
   {
     "id": "MondstadtBlessing",
     "name": "Mondstadt: Blessing",
     "localeName": "モンド·祝福",
-    "desc": "名刺の飾り紋。\\n他人を助けることを喜びとする心は皆に祝福されるだろう。",
+    "desc": "名刺の飾り紋。\n他人を助けることを喜びとする心は皆に祝福されるだろう。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["モンドでの評判がLv.7に到達すると獲得。"]
   },
   {
     "id": "LiyueAThousandShips",
     "name": "Liyue: A Thousand Ships",
     "localeName": "璃月·千帆",
-    "desc": "名刺の飾り紋。\\n太陽と月を眺め、船と帆を数える。",
+    "desc": "名刺の飾り紋。\n太陽と月を眺め、船と帆を数える。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["璃月での評判がLv.4に到達すると獲得。"]
   },
   {
     "id": "LiyueIntheClouds",
     "name": "Liyue: In the Clouds",
     "localeName": "璃月·雲間",
-    "desc": "名刺の飾り紋。\\n岩の間の琉璃、雲の間の月。",
+    "desc": "名刺の飾り紋。\n岩の間の琉璃、雲の間の月。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["璃月での評判がLv.7に到達すると獲得。"]
   },
   {
     "id": "AchievementChallengerIII",
     "name": "Achievement: Challenger III",
     "localeName": "アチーブメント·挑戦·3",
-    "desc": "名刺の飾り紋。\\nようやく戦うに値する相手が現れた。この戦いは必ず歴史に刻まれる。",
+    "desc": "名刺の飾り紋。\nようやく戦うに値する相手が現れた。この戦いは必ず歴史に刻まれる。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["「挑戦者·3」のアチーブメントを全て達成すると獲得。"]
   },
   {
     "id": "AchievementSnowySummit",
     "name": "Achievement: Snowy Summit",
     "localeName": "アチーブメント·雪山",
-    "desc": "名刺の飾り紋。\\n極寒の山道を尋ねる。",
+    "desc": "名刺の飾り紋。\n極寒の山道を尋ねる。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["「雪山の来客」のアチーブメントを全て達成すると獲得。"]
   },
   {
     "id": "GanyuQilin",
     "name": "Ganyu: Qilin",
     "localeName": "甘雨·麒麟の跡",
-    "desc": "名刺の飾り紋。\\n草を折らず、虫を履まず。",
+    "desc": "名刺の飾り紋。\n草を折らず、虫を履まず。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["甘雨の好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "AlbedoSunBlossom",
     "name": "Albedo: Sun Blossom",
     "localeName": "アルベド·陽華",
-    "desc": "名刺の飾り紋。\\nこの奇跡の証人となろう。",
+    "desc": "名刺の飾り紋。\nこの奇跡の証人となろう。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["アルベドの好感度がLv.10に到達後獲得。"]
   },
   {
     "id": "TravelNotesChalk",
     "name": "Travel Notes: Chalk",
     "localeName": "紀行·白亜",
-    "desc": "名刺の飾り紋。\\n雪山に足を踏み入れる時は、防寒をしっかり。",
+    "desc": "名刺の飾り紋。\n雪山に足を踏み入れる時は、防寒をしっかり。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["紀行報酬で獲得。"]
   },
   {
     "id": "FrostbearingAncientTree",
     "name": "Frostbearing: Ancient Tree",
     "localeName": "冬忍び·古樹",
-    "desc": "名刺の飾り紋。\\n我らは必ず復活する、古木は既に新しい枝をつけた。",
+    "desc": "名刺の飾り紋。\n我らは必ず復活する、古木は既に新しい枝をつけた。",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["冬忍びの樹奉納がLv.9に到達後獲得。"]
   },
   {
     "id": "CelebrationHypostasis",
     "name": "Celebration: Hypostasis",
     "localeName": "祭典·無相",
-    "desc": "名刺の飾り紋。\\n今日の挑戦相手はどんな戦闘スタイルか？",
+    "desc": "名刺の飾り紋。\n今日の挑戦相手はどんな戦闘スタイルか？",
     "rarity": 4,
-    "type": 6
+    "type": 6,
+    "drop": ["イベント「無相の交響詩」にて獲得。"]
   },
   {
     "id": "CondensedResin",
     "name": "Condensed Resin",
     "localeName": "濃縮樹脂",
-    "desc": "同時に最大3つまで所持可能。\\n石化古樹と地脈の花を活性化させる天然樹脂の代替品。さらに貴重な濃縮樹脂を手に入れられる。\\n力に満ち溢れた結晶体。\\n白銀の古樹と花は地脈と繋がっており、樹脂の力は地脈を通って、その中にある物質を精製する。",
+    "desc": "同時に最大3つまで所持可能。\n石化古樹と地脈の花を活性化させる天然樹脂の代替品。さらに貴重な濃縮樹脂を手に入れられる。\n力に満ち溢れた結晶体。\n白銀の古樹と花は地脈と繋がっており、樹脂の力は地脈を通って、その中にある物質を精製する。",
     "rarity": 4,
-    "type": 7
+    "type": 7,
+    "drop": ["合成で獲得"]
   },
   {
     "id": "InstructionsAnemoculusResonanceStone",
