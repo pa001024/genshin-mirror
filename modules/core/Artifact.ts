@@ -174,7 +174,7 @@ export class Artifact implements IArtifact {
   // 序列化
   get code() {
     return this.attrs.reduce(
-      (r, v) => r + (base62(v.type) + base62(v.type in ARTIFACT.ENCODE_RATIO ? v.value : v.value * 10, 2), 3),
+      (r, v) => r + base62(v.type) + base62(v.type in ARTIFACT.ENCODE_RATIO ? v.value : v.value * 1e3, 2),
       `${base62(this.typeId, 4)}${base62(this.main)}${base62(this.level)}`
     );
   }
@@ -189,7 +189,7 @@ export class Artifact implements IArtifact {
       const type = debase62(subs.substr(i, 1));
       attrs.push({
         type,
-        value: debase62(subs.substr(i + 1, 2)) / (type in ARTIFACT.ENCODE_RATIO ? 1 : 1000),
+        value: debase62(subs.substr(i + 1, 2)) / (type in ARTIFACT.ENCODE_RATIO ? 1 : 1e3),
       });
     }
     return new Artifact({ typeId, main, level, attrs }, relicMap);
