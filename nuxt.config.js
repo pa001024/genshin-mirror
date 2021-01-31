@@ -161,7 +161,22 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-    extractCSS: true,
+    extractCSS: {
+      ignoreOrder: true,
+    },
+    // extract everything into a single file
+    optimization: {
+      splitChunks: {
+        cacheGroups: {
+          styles: {
+            name: "styles",
+            test: /\.vue$/,
+            chunks: "all",
+            enforce: true,
+          },
+        },
+      },
+    },
     // loaders: {
     //   file: {},
     //   fontUrl: { limit: 1000 },

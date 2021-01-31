@@ -1,5 +1,5 @@
 <template>
-  <v-card class="inv-main mx-auto">
+  <v-card v-if="uid" class="inv-main mx-auto">
     <v-tabs v-model="tab" centered icons-and-text>
       <v-tabs-slider></v-tabs-slider>
 
@@ -19,30 +19,56 @@
       </v-tab>
     </v-tabs>
 
-    <v-tabs-items v-model="tab">
-      <v-tab-item value="char">
-        <div class="inv-char-list pa-4">
-          <v-row>
-            <v-col cols="12" :lg="4">
-              <!-- 内容 -->
-              <CharCard
-                v-for="item in avatars"
-                :key="item.id"
-                :value="item"
-                class="ma-1"
-                small
-                :link="false"
-                :class="{ selected: selectedAvatar && selectedAvatar.avatarId === item.id }"
-                @click="selectAvatar(item)"
-              />
-            </v-col>
-            <v-col v-if="selectedAvatar" cols="12" lg="8">
-              <v-card class="avatar-level-edit" flat>
-                <v-card-title class="headline">{{ char.localeName }}</v-card-title>
+    <client-only>
+      <template #placeholder>
+        <div class="pa-8">Loading...</div>
+      </template>
+      <v-tabs-items v-model="tab">
+        <v-tab-item value="char">
+          <div class="inv-char-list pa-4">
+            <!-- 内容 -->
+            <CharCard
+              v-for="item in mergedAvatars"
+              :key="item.id"
+              :value="item"
+              class="ma-1"
+              small
+              :link="false"
+              :class="{ selected: selectedAvatar && selectedAvatar.avatarId === item.id }"
+              :c13n="item.c13n"
+              :lv="item.lv"
+              :inactive="item.inactive"
+              @click="selectAvatar(item)"
+            />
+            <v-overlay v-if="selectedAvatarId" :value="selectedAvatarId" transition="scroll-y-reverse-transition">
+              <v-card v-if="selectedAvatar" class="avatar-level-edit">
+                <v-card-title class="headline">
+                  <CharImage :id="selectedAvatarId" avatar />
+                  {{ avatars[selectedAvatarId].localeName }}
+                  <v-spacer />
+                  <v-btn icon @click="removeUserAvatar(selectedAvatarId)">
+                    <v-icon color="red darken-3">mdi-delete</v-icon>
+                  </v-btn>
+                  <v-slide-x-transition>
+                    <v-btn v-if="avatarChanged" icon @click="editUserAvatar(selectedAvatar)">
+                      <v-icon :class="{ spin: avatarSaveLoading }">{{ avatarSaveLoading ? "mdi-sync" : "mdi-check" }}</v-icon>
+                    </v-btn>
+                  </v-slide-x-transition>
+                  <v-btn icon @click="selectedAvatarId = ''">
+                    <v-icon>mdi-close</v-icon>
+                  </v-btn>
+                </v-card-title>
                 <v-card-text>
                   <div class="main-level">
+                    <C13nLevel v-model="selectedAvatar.talentLevel" class="mb-1" />
                     <PromoteLevel v-model="selectedAvatar.promoteLevel" />
-                    <v-slider v-model="selectedAvatar.level" :label="$t('ui.level', [selectedAvatar.level])" :min="minCharLvl" :max="maxCharLvl" />
+                    <v-slider
+                      v-model="selectedAvatar.level"
+                      :label="$t('ui.level', [selectedAvatar.level])"
+                      :min="minLvl(selectedAvatar.promoteLevel)"
+                      :max="maxLvl(selectedAvatar.promoteLevel)"
+                      hide-details
+                    />
                   </div>
                   <div class="skill-level">
                     <div class="skill-level__input">
@@ -61,89 +87,150 @@
                   <v-card-text align="center">{{ $t("ui.skillLevelDesc") }}</v-card-text>
                 </v-card-text>
               </v-card>
-            </v-col>
-            <v-col v-else cols="12" lg="8">{{ $t("ui.pleaseSelectAvatar") }}</v-col>
-          </v-row>
-          <v-menu
-            v-for="ua in userAvatars"
-            :key="ua.id"
-            v-model="menu"
-            bottom
-            right
-            transition="scale-transition"
-            origin="top left"
-            :close-on-content-click="false"
-          >
-            <template #activator="{ on }">
-              <v-chip pill close v-on="on" @click="loadAvatar(ua)" @click:close="deleteAvatar(ua)">
-                <CharImage id="Diluc" avatar />
-                Diluc
-              </v-chip>
-            </template>
-            <v-card width="300">
-              <v-list dark>
-                <v-list-item>
-                  <v-list-item-avatar>
-                    <CharImage id="Diluc" />
-                  </v-list-item-avatar>
-                  <v-list-item-content>
-                    <v-list-item-title>Diluc</v-list-item-title>
-                    <v-list-item-subtitle>Diluc</v-list-item-subtitle>
-                  </v-list-item-content>
-                  <v-list-item-action>
-                    <v-btn icon @click="menu = false">
-                      <v-icon>mdi-close-circle</v-icon>
+              <v-card v-else class="avatar-level-edit" flat>
+                <v-card-title class="py-0">
+                  <CharImage :id="selectedAvatarId" avatar :size="48" />
+                  <v-card flat>
+                    <v-card-title class="headline">
+                      <span class="name mr-2">{{ avatars[selectedAvatarId].localeName }}</span>
+                    </v-card-title>
+                    <v-card-subtitle>
+                      <Rarity :value="avatars[selectedAvatarId].rarity" />
+                    </v-card-subtitle>
+                  </v-card>
+                  <v-spacer />
+                  <v-btn icon @click="selectedAvatarId = ''">
+                    <v-icon>mdi-close</v-icon>
+                  </v-btn>
+                </v-card-title>
+                <v-card-actions>
+                  <v-btn block @click="addDefaultAvatar(selectedAvatarId)">
+                    <v-icon>mdi-lock-open</v-icon>
+                    {{ $t("ui.unlock") }}
+                  </v-btn>
+                </v-card-actions>
+              </v-card>
+            </v-overlay>
+          </div>
+        </v-tab-item>
+        <v-tab-item value="weapon">
+          <div class="inv-weapon-list pa-4">
+            <v-tabs v-model="weaponType" centered show-arrows>
+              <v-tabs-slider></v-tabs-slider>
+
+              <v-tab href="#1">{{ $t("weapon.1") }}</v-tab>
+              <v-tab href="#2">{{ $t("weapon.2") }}</v-tab>
+              <v-tab href="#3">{{ $t("weapon.3") }}</v-tab>
+              <v-tab href="#4">{{ $t("weapon.4") }}</v-tab>
+              <v-tab href="#5">{{ $t("weapon.5") }}</v-tab>
+            </v-tabs>
+            <!-- 内容 -->
+            <WeaponCard
+              v-for="item in mergedWeapons"
+              :key="item.id"
+              :value="item"
+              class="ma-1"
+              small
+              :link="false"
+              :class="{ selected: selectedWeapon && selectedWeapon.weaponId === item.id }"
+              :refine="item.refine"
+              :lv="item.lv"
+              :inactive="item.inactive"
+              @click="selectWeapon(item)"
+            />
+            <v-overlay v-if="selectedWeaponId" :value="selectedWeaponId">
+              <v-card v-if="selectedWeapon" class="weapon-level-edit">
+                <v-card-title class="headline">
+                  {{ weapons[selectedWeaponId].localeName }}
+                  <v-spacer />
+                  <v-btn icon @click="removeUserWeapon(selectedWeaponId)">
+                    <v-icon color="red darken-3">mdi-delete</v-icon>
+                  </v-btn>
+                  <v-slide-x-transition>
+                    <v-btn v-if="weaponChanged" icon @click="editUserWeapon(selectedWeapon)">
+                      <v-icon :class="{ spin: weaponSaveLoading }">{{ weaponSaveLoading ? "mdi-sync" : "mdi-check" }}</v-icon>
                     </v-btn>
-                  </v-list-item-action>
-                </v-list-item>
-              </v-list>
-              <v-list>
-                <v-list-item>
-                  <v-list-item-content v-if="char">
+                  </v-slide-x-transition>
+                  <v-btn icon @click="selectedWeaponId = ''">
+                    <v-icon>mdi-close</v-icon>
+                  </v-btn>
+                </v-card-title>
+                <v-card-text>
+                  <div class="main-level">
+                    <RefineLevel v-model="selectedWeapon.refineLevel" class="mb-1" />
+                    <PromoteLevel v-model="selectedWeapon.promoteLevel" />
                     <v-slider
-                      v-model="char.level"
-                      :label="$t('ui.levels')"
-                      persistent-hint
-                      :hint="$t('ui.level', [char.level])"
-                      :max="char.maxLevel"
-                      :min="char.minLevel"
+                      v-model="selectedWeapon.level"
+                      :label="$t('ui.level', [selectedWeapon.level])"
+                      :min="minLvl(selectedWeapon.promoteLevel)"
+                      :max="maxLvl(selectedWeapon.promoteLevel)"
+                      hide-details
                     />
-                    <PromoteLevel />
-                  </v-list-item-content>
-                </v-list-item>
-              </v-list>
-            </v-card>
-          </v-menu>
-        </div>
-      </v-tab-item>
-      <v-tab-item value="weapon"> </v-tab-item>
-      <v-tab-item value="artifact">
-        <v-card flat>
-          <!-- <nuxt-link to="/doc/artifact">文档</nuxt-link> -->
-          <v-row>
-            <v-col v-if="types" cols="6" class="d-flex flex-wrap">
-              <v-btn @click="overlay = !overlay">
-                <v-icon>mdi-plus</v-icon>
-              </v-btn>
-              <v-overlay absolute :value="overlay">
-                <AddArtifact />
-                <v-btn color="success" @click="overlay = false">
-                  <v-icon>mdi-close</v-icon>
+                  </div>
+                </v-card-text>
+              </v-card>
+              <v-card v-else class="weapon-level-edit" flat>
+                <v-card-title class="py-0">
+                  <WeaponImage :id="selectedWeaponId" :size="48" />
+                  <v-card flat>
+                    <v-card-title class="headline">
+                      <span class="name mr-2">{{ weapons[selectedWeaponId].localeName }}</span>
+                    </v-card-title>
+                    <v-card-subtitle>
+                      <Rarity :value="weapons[selectedWeaponId].rarity" />
+                    </v-card-subtitle>
+                  </v-card>
+                  <v-spacer />
+                  <v-btn icon @click="selectedWeaponId = ''">
+                    <v-icon>mdi-close</v-icon>
+                  </v-btn>
+                </v-card-title>
+                <v-card-actions>
+                  <v-btn block @click="addDefaultWeapon(selectedWeaponId)">
+                    <v-icon>mdi-lock-open</v-icon>
+                    {{ $t("ui.unlock") }}
+                  </v-btn>
+                </v-card-actions>
+              </v-card>
+            </v-overlay>
+          </div>
+        </v-tab-item>
+        <v-tab-item value="artifact">
+          <v-card flat>
+            <!-- <nuxt-link to="/doc/artifact">文档</nuxt-link> -->
+            <v-row>
+              <v-col v-if="types" cols="6" class="d-flex flex-wrap">
+                <v-btn @click="overlay = !overlay">
+                  <v-icon>mdi-plus</v-icon>
                 </v-btn>
-              </v-overlay>
-            </v-col>
-            <v-col cols="6"> </v-col>
-          </v-row>
-        </v-card>
-      </v-tab-item>
-    </v-tabs-items>
+                <v-overlay absolute :value="overlay">
+                  <AddArtifact />
+                  <v-btn color="success" @click="overlay = false">
+                    <v-icon>mdi-close</v-icon>
+                  </v-btn>
+                </v-overlay>
+              </v-col>
+              <v-col cols="6"> </v-col>
+            </v-row>
+          </v-card>
+        </v-tab-item>
+      </v-tabs-items>
+      <v-snackbar v-model="showMsg" :timeout="4000">
+        <v-icon size="24">mdi-alert</v-icon>
+        {{ msg }}
+        <template #action="{ attrs }">
+          <v-btn color="blue" text v-bind="attrs" @click="showMsg = false">{{ $t("ui.close") }}</v-btn>
+        </template>
+      </v-snackbar>
+    </client-only>
   </v-card>
+  <v-skeleton-loader v-else type="list-item-avatar, divider, list-item-three-line, card-heading, image, actions">{{ $t("ui.pleaseLogin") }}</v-skeleton-loader>
 </template>
 
 <script lang="ts">
-import { Vue, Component } from "vue-property-decorator";
+import { Vue, Component, Watch } from "vue-property-decorator";
 import { Action, Getter } from "vuex-class";
-import { cloneDeep } from "lodash";
+import { cloneDeep, filter, keyBy, partition } from "lodash";
 import type { IArtifact, IArtifactSet, IArtifactType, IAvatar, IUserAvatar, IUserWeapon, IWeapon } from "~/modules/core";
 
 /**
@@ -161,12 +248,17 @@ import type { IArtifact, IArtifactSet, IArtifactType, IAvatar, IUserAvatar, IUse
       .fetch<IAvatar>()
       .catch(console.error);
     if (Array.isArray(avatars)) rst.avatars = avatars.reduce<{ [id: string]: IAvatar }>((r, v) => (r[v.id] = v) && r, {});
-    const weapons = await $content(app.i18n.locale, "relic").only(["id", "name", "localeName"]).fetch<IWeapon>().catch(console.error);
+    const weapons = await $content(app.i18n.locale, "weapon")
+      .only(["id", "name", "localeName", "type", "rarity"])
+      .sortBy("rarity", "desc")
+      .fetch<IWeapon>()
+      .catch(console.error);
     if (Array.isArray(weapons)) rst.weapons = weapons.reduce<{ [id: string]: IWeapon }>((r, v) => (r[v.id] = v) && r, {});
     const types = await $content(app.i18n.locale, "relic").fetch<IArtifactType>().catch(console.error);
     if (Array.isArray(types)) rst.types = types.reduce<{ [id: string]: IArtifactType }>((r, v) => (r[v.id] = v) && r, {});
     const sets = await $content(app.i18n.locale, "relicset").fetch<IArtifactSet>().catch(console.error);
     if (Array.isArray(sets)) rst.sets = sets.reduce<{ [id: string]: IArtifactSet }>((r, v) => (r[v.id] = v) && r, {});
+
     return rst;
   },
   // set html header
@@ -177,11 +269,17 @@ import type { IArtifact, IArtifactSet, IArtifactType, IAvatar, IUserAvatar, IUse
   },
 })
 export default class Page extends Vue {
+  @Getter("app/uid") uid!: string;
   @Getter("app/userAvatars") userAvatars!: IUserAvatar[];
   @Getter("app/userWeapons") userWeapons!: IUserWeapon[];
   @Getter("app/artifacts") artifacts!: IArtifact[];
   @Action("app/loadArtifacts") loadArtifacts!: () => void;
+  @Action("app/addAvatar") addAvatar!: (ua: IUserAvatar) => void;
+  @Action("app/addWeapon") addWeapon!: (ua: IUserWeapon) => void;
   @Action("app/removeAvatar") removeAvatar!: (id: string) => void;
+  @Action("app/removeWeapon") removeWeapon!: (id: string) => void;
+  @Action("app/fetchAvatars") fetchAvatars!: () => void;
+  @Action("app/fetchWeapons") fetchWeapons!: () => void;
   overlay = false;
   menu = false;
   tab = "char";
@@ -190,37 +288,196 @@ export default class Page extends Vue {
   weapons: { [id: string]: IWeapon } | null = null;
   types: { [id: string]: IArtifactType } | null = null;
   sets: { [id: string]: IArtifactSet } | null = null;
-  // select bind
-  selectedAvatar: IUserAvatar | null = null;
-  selectedWeapon = null;
-  selectedArtifactType = null;
-  selectedArtifactSet = null;
 
-  get char() {
-    return this.avatars && this.selectedAvatar && this.avatars[this.selectedAvatar.avatarId];
+  // avatar
+  selectedAvatarId: string = "";
+  selectedAvatar: IUserAvatar | null = null;
+  avatarSaveLoading = false;
+  avatarChanged = false;
+
+  // weapon
+  weaponType = 1;
+  selectedWeaponId = "";
+  selectedWeapon: IUserWeapon | null = null;
+  weaponSaveLoading = false;
+  weaponChanged = false;
+
+  // artifact
+  selectedArtifactType = "";
+  selectedArtifactSet = "";
+
+  // common
+  showMsg = false;
+  msg = "";
+
+  @Watch("selectedAvatar", { deep: true })
+  onSelectedAvatarChange(next: IUserAvatar | null, prev: IUserAvatar | null) {
+    if (prev === null || next === null) {
+      this.avatarChanged = false;
+    } else if (prev.avatarId === next.avatarId) {
+      this.avatarChanged = true;
+    }
+  }
+
+  @Watch("selectedWeapon", { deep: true })
+  onSelectedWeaponChange(next: IUserWeapon | null, prev: IUserWeapon | null) {
+    if (prev === null || next === null) {
+      this.weaponChanged = false;
+    } else if (prev.weaponId === next.weaponId) {
+      this.weaponChanged = true;
+    }
   }
 
   selectAvatar(a: IAvatar) {
-    const current =
-      this.userAvatars.find(v => v.avatarId === a.id) ||
-      ({ avatarId: a.id, level: 90, promoteLevel: 6, talentLevel: 0, attackLevel: 6, eLevel: 6, qLevel: 6 } as IUserAvatar);
+    this.selectedAvatarId = a.id;
+    const current = this.userAvatars.find(v => v.avatarId === a.id);
+    if (!current) {
+      this.selectedAvatar = null;
+      return;
+    }
     this.selectedAvatar = cloneDeep(current);
   }
 
-  get minCharLvl() {
-    return [1, 20, 40, 50, 60, 70, 80][this.selectedAvatar!.promoteLevel];
+  selectWeapon(a: IWeapon) {
+    this.selectedWeaponId = a.id;
+    const current = this.userWeapons.find(v => v.weaponId === a.id);
+    if (!current) {
+      this.selectedWeapon = null;
+      return;
+    }
+    this.selectedWeapon = cloneDeep(current);
   }
 
-  get maxCharLvl() {
-    return [20, 40, 50, 60, 70, 80, 90][this.selectedAvatar!.promoteLevel];
+  removeUserAvatar(id: string) {
+    this.selectedAvatarId = "";
+    this.removeAvatar(id);
   }
 
-  deleteAvatar(_ua: IUserAvatar) {
-    //
+  removeUserWeapon(id: string) {
+    this.selectedWeaponId = "";
+    this.removeWeapon(id);
   }
 
-  // 加载角色数据
-  created() {}
+  async editUserAvatar(ua: IUserAvatar) {
+    this.avatarSaveLoading = true;
+    try {
+      await this.addAvatar({
+        avatarId: ua.avatarId,
+        level: +ua.level,
+        promoteLevel: +ua.promoteLevel,
+        talentLevel: +ua.talentLevel,
+        attackLevel: +ua.attackLevel,
+        eLevel: +ua.eLevel,
+        qLevel: +ua.qLevel,
+      });
+      this.avatarChanged = false;
+    } catch {
+      this.showMsg = true;
+      this.msg = this.$t("ui.syncFailed") as string;
+    }
+    this.avatarSaveLoading = false;
+  }
+
+  async editUserWeapon(uw: IUserWeapon) {
+    this.weaponSaveLoading = true;
+    try {
+      await this.addWeapon({
+        weaponId: uw.weaponId,
+        level: +uw.level,
+        promoteLevel: +uw.promoteLevel,
+        refineLevel: +uw.refineLevel,
+      });
+      this.weaponChanged = false;
+    } catch {
+      this.showMsg = true;
+      this.msg = this.$t("ui.syncFailed") as string;
+    }
+    this.weaponSaveLoading = false;
+  }
+
+  addDefaultAvatar(id: string) {
+    const ua: IUserAvatar = {
+      avatarId: id,
+      level: 90,
+      promoteLevel: 6,
+      talentLevel: 0,
+      attackLevel: 6,
+      eLevel: 6,
+      qLevel: 6,
+    };
+    this.addAvatar(ua);
+    this.selectedAvatar = cloneDeep(ua);
+  }
+
+  addDefaultWeapon(id: string) {
+    const uw: IUserWeapon = {
+      weaponId: id,
+      level: 90,
+      promoteLevel: 6,
+      refineLevel: 1,
+    };
+    this.addWeapon(uw);
+    this.selectedWeapon = cloneDeep(uw);
+  }
+
+  get mergedAvatars() {
+    const um = keyBy(this.userAvatars, "avatarId");
+    const [enabled, disabled] = partition(this.avatars, v => um[v.id]);
+    return enabled
+      .map(v => {
+        const u = um[v.id];
+        return {
+          ...v,
+          lv: u.level,
+          c13n: u.talentLevel,
+        } as IExtendedAvatar;
+      })
+      .concat(disabled.map(v => ({ ...v, inactive: true })));
+  }
+
+  get mergedWeapons() {
+    const um = keyBy(this.userWeapons, "weaponId");
+    const [enabled, disabled] = partition(
+      filter(this.weapons, v => v.type === +this.weaponType),
+      v => um[v.id]
+    );
+    return enabled
+      .map(v => {
+        const u = um[v.id];
+        return {
+          ...v,
+          lv: u.level,
+          refine: u.refineLevel,
+        } as IExtendedWeapon;
+      })
+      .concat(disabled.map(v => ({ ...v, inactive: true })));
+  }
+
+  minLvl(promoteLevel: number) {
+    return [1, 20, 40, 50, 60, 70, 80][promoteLevel];
+  }
+
+  maxLvl(promoteLevel: number) {
+    return [20, 40, 50, 60, 70, 80, 90][promoteLevel];
+  }
+
+  @Watch("uid")
+  reloadData() {
+    // console.log("reloadData...");
+    this.fetchAvatars();
+    this.fetchWeapons();
+  }
+}
+
+interface IExtendedAvatar extends IAvatar {
+  lv?: number;
+  c13n?: number;
+  inactive?: boolean;
+}
+interface IExtendedWeapon extends IWeapon {
+  lv?: number;
+  refine?: number;
+  inactive?: boolean;
 }
 </script>
 <style lang="less">

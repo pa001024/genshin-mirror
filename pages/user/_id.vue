@@ -18,7 +18,7 @@
             <v-list-item two-line>
               <v-list-item-content>
                 <v-list-item-subtitle v-text="$t('ui.rarity')" />
-                <v-list-item-title class="headline"><Rarity :star="data.rarity" /></v-list-item-title>
+                <v-list-item-title class="headline"><Rarity :value="data.rarity" /></v-list-item-title>
               </v-list-item-content>
             </v-list-item>
           </v-col>
@@ -86,8 +86,8 @@ import { IUser } from "~/modules/core";
   // server
   async asyncData({ params: { id }, app }) {
     const rst: Partial<Page> = { user: null };
-    const res = await app.$axios.get("/api/user/" + id);
-    rst.user = res.data;
+    const res = await app.$axios.get("/api/user/" + id).catch(console.error);
+    if (res) rst.user = res.data;
 
     return rst;
   },

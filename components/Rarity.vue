@@ -1,6 +1,6 @@
 <template>
   <div class="rarity" :class="{ fixed }">
-    <GsIcon v-for="i in star" :key="i" type="star" />
+    <GsIcon v-for="i in value" :key="i" type="star" />
   </div>
 </template>
 <script lang="ts">
@@ -8,7 +8,7 @@ import { Vue, Component, Prop } from "vue-property-decorator";
 
 @Component({})
 export default class Rarity extends Vue {
-  @Prop() star!: number;
+  @Prop({ type: Number }) value!: number;
   @Prop({ type: Boolean }) fixed!: boolean;
 }
 </script>

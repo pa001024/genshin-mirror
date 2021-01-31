@@ -4,9 +4,9 @@ import { IWeapon, WEAPON, IUserWeapon } from ".";
 export class Weapon implements IUserWeapon {
   /** 静态数据 */
   data: IWeapon;
-  typeId: string;
+  weaponId: string;
   constructor(weapon: IWeapon) {
-    this.typeId = weapon.id;
+    this.weaponId = weapon.id;
     this.data = weapon;
   }
 

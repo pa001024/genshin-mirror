@@ -4,7 +4,7 @@
     <v-card class="item-filter mb-3">
       <v-card-text>
         <v-combobox v-model="filterOptions" :items="filters" :label="$t('ui.filter')" multiple chips clearable :item-value="d => d.prop + '=' + d.value">
-          <template v-slot:selection="{ attrs, item, parent, selected }">
+          <template #selection="{ attrs, item, parent, selected }">
             <v-chip v-bind="attrs" :color="`${item.color} lighten-3`" :input-value="selected" label small>
               <span class="pr-2" v-text="item.text" />
               <v-icon small @click="parent.selectItem(item)">mdi-close</v-icon>
@@ -17,7 +17,7 @@
     <v-card class="mx-auto">
       <v-list>
         <v-virtual-scroll :bench="2" :items="items" :height="height" item-height="88">
-          <template v-slot:default="{ item, index }">
+          <template #default="{ item, index }">
             <!-- 分割线 -->
             <div v-if="item.subtitle" :key="index" class="mt-4">
               <v-divider v-if="index > 0"></v-divider>
@@ -33,7 +33,7 @@
                   <v-avatar color="grey" />
                 </v-list-item-title>
                 <v-list-item-subtitle align="center">
-                  <Rarity :star="item.rarity" fixed />
+                  <Rarity :value="item.rarity" fixed />
                 </v-list-item-subtitle>
               </div>
 

@@ -19,3 +19,4 @@ db.once("open", function () {
 export * from "./models/User";
 export * from "./models/UserArtifact";
 export * from "./models/UserAvatar";
+export * from "./models/UserWeapon";

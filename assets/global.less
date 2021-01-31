@@ -38,15 +38,30 @@
   --black: #000;
   --text-grey: rgba(0, 0, 0, 0.7);
   --shadow: rgba(0, 0, 0, 0.23);
+  --cover: rgba(255, 255, 255, 0.7);
 }
 .theme--dark {
   --white: #000;
   --black: #fff;
   --text-grey: rgba(255, 255, 255, 0.7);
   --shadow: rgba(255, 255, 255, 0.23);
+  --cover: rgba(0, 0, 0, 0.7);
 }
 
 .nolink.nolink {
   color: unset;
   text-decoration: none;
+}
+
+.spin {
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

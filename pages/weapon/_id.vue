@@ -18,7 +18,7 @@
             <v-list-item two-line>
               <v-list-item-content>
                 <v-list-item-subtitle v-text="$t('ui.rarity')" />
-                <v-list-item-title class="headline"><Rarity :star="data.rarity" /></v-list-item-title>
+                <v-list-item-title class="headline"><Rarity :value="data.rarity" /></v-list-item-title>
               </v-list-item-content>
             </v-list-item>
           </v-col>

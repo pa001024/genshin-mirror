@@ -2,7 +2,7 @@
   <nuxt-link :to="'artifact/' + type.id" tag="v-card" class="relic-card">
     <v-card-text>
       <div class="relic-name" v-text="type.localeName"></div>
-      <Rarity :star="type.rarity" />
+      <Rarity :value="type.rarity" />
     </v-card-text>
   </nuxt-link>
 </template>

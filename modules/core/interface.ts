@@ -9,10 +9,10 @@ export interface IUser {
 
 /** 武器 */
 export interface IUserWeapon {
-  typeId: string;
-  level: number;
-  promoteLevel: number;
-  refineLevel: number;
+  /** 武器ID */ weaponId: string;
+  /** 等级 */ level: number;
+  /** 突破等级 */ promoteLevel: number;
+  /** 精炼等级 */ refineLevel: number;
 }
 
 /** 武器类型 */
@@ -100,7 +100,7 @@ export interface IUserAvatar {
   /** Q等级 */
   qLevel: number;
   /** 圣遗物 */
-  artifacts: IArtifact[];
+  artifacts?: IArtifact[];
   /** 武器 */
   weapon?: IUserWeapon;
 }

@@ -18,7 +18,7 @@
             <v-list-item-content>
               <v-list-item-subtitle v-text="$t(`buff.${artifact.mainAttr.type}`)" />
               <v-list-item-title class="headline" v-text="renderAttr(artifact.mainAttr.type, artifact.mainAttr.value)" />
-              <Rarity :star="artifact.rarity" />
+              <Rarity :value="artifact.rarity" />
             </v-list-item-content>
           </v-list-item>
         </div>

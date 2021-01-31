@@ -16,11 +16,21 @@
       <v-btn icon class="mr-2" @click="$vuetify.theme.dark = !$vuetify.theme.dark">
         <v-icon>{{ $vuetify.theme.dark ? "mdi-brightness-2" : "mdi-white-balance-sunny" }}</v-icon>
       </v-btn>
-      <nuxt-link v-if="username" tag="div" :to="'/user/' + uid" class="username">
-        <v-btn plain>
-          {{ username }}
-        </v-btn>
-      </nuxt-link>
+      <v-menu v-if="username" offset-y>
+        <template #activator="{ on, attrs }">
+          <v-btn plain v-bind="attrs" v-on="on">
+            {{ username }}
+          </v-btn>
+        </template>
+        <v-list>
+          <v-list-item :to="'/user/' + uid">
+            <v-list-item-title>{{ $t("ui.mySpace") }}</v-list-item-title>
+          </v-list-item>
+          <v-list-item class="nolink" to="/" @click="logout">
+            <v-list-item-title>{{ $t("ui.logout") }}</v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </v-menu>
       <nuxt-link v-else to="/login" tag="div">
         <v-btn icon>
           <v-icon>mdi-account</v-icon>
@@ -65,12 +75,13 @@
 
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
-import { Getter } from "vuex-class";
+import { Action, Getter } from "vuex-class";
 
 @Component({})
 export default class DefaultLayout extends Vue {
   @Getter("app/username") username!: string;
   @Getter("app/uid") uid!: string;
+  @Action("app/logout") logout!: string;
 
   get isStandlone() {
     return false;

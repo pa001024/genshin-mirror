@@ -1,31 +1,10 @@
 import { Router } from "express";
-import ejwt from "express-jwt";
 import bcrypt from "bcrypt";
-import jwt from "jsonwebtoken";
-import { DocumentType } from "@typegoose/typegoose";
-import { UserModel, User, UserAvatarModel } from "../db";
-import { IUserAvatar } from "~/modules/core";
+import { UserModel, UserAvatarModel, UserWeaponModel, UserAvatar, UserWeapon } from "../db";
+import { delay, PROTECTED, signUser } from "../util";
+import type { IUserAvatar, IUserWeapon } from "~/modules/core";
 
 const router = Router();
-const SECRET = process.env.JWT_SECRET!;
-
-const PROTECTED = ejwt({ secret: SECRET, algorithms: ["HS256"] });
-
-function delay(d = Math.random() * 500) {
-  return new Promise(resolve => setTimeout(() => resolve(d), d));
-}
-
-interface JWTPayload {
-  id: string;
-  user: string;
-  type: number;
-}
-
-function signUser(user: DocumentType<User>) {
-  const payload: JWTPayload = { id: user.id, user: user.username!, type: user.type! };
-  const sign = jwt.sign(payload, SECRET, { expiresIn: "30d" });
-  return sign;
-}
 
 /* GET users listing. */
 router.post("/user/_id", async function (req, res) {
@@ -77,21 +56,37 @@ router.post("/user/signup", async function ({ body: { email, username, hash } },
  * test:
  * $nuxt.$axios.get("/api/user/check",{headers:{Authorization:$nuxt.$store.state.app.auth}})
  */
-router.get("/user/check", PROTECTED, function (req: any, res) {
+router.get("/user/check", PROTECTED, function (req, res) {
   if (!req.user) return res.status(403).json({ code: 403, message: "not login" });
   return res.json({ code: 200 });
 });
 
+router.get("/user/char", PROTECTED, async function (req, res) {
+  if (!req.user) return res.status(403).json({ code: 403, message: "not login" });
+  const avatar = await UserAvatarModel.find({ owner: req.user.uid });
+  return res.json(avatar);
+});
+
 router.put("/user/char", PROTECTED, async function (req, res) {
-  const newData: IUserAvatar = req.body.data;
-  const jwtPayload = (req as any) as JWTPayload;
-  const user = await UserModel.findById(jwtPayload.id);
-  if (!user) return res.json({ code: 403, message: "not login" });
+  const newData: IUserAvatar = req.body;
+  const user = await UserModel.findById(req.user.uid);
+  if (!user) return res.json({ code: 403, message: "user not found" });
 
   const avatar = await UserAvatarModel.findOne({ owner: user.id, avatarId: newData.avatarId });
   // 不存在则新建
   if (!avatar) {
-    const userData = new UserAvatarModel({ ...newData });
+    const newAvatar: UserAvatar = {
+      owner: user,
+      avatarId: newData.avatarId,
+      level: newData.level,
+      promoteLevel: newData.promoteLevel,
+      talentLevel: newData.talentLevel,
+      attackLevel: newData.attackLevel,
+      eLevel: newData.eLevel,
+      qLevel: newData.qLevel,
+      weapon: newData.weapon,
+    };
+    const userData = new UserAvatarModel(newAvatar);
     await userData.save();
   } else {
     // 存在则更新
@@ -106,6 +101,62 @@ router.put("/user/char", PROTECTED, async function (req, res) {
     // avatar.artifacts = newData.artifacts;
     await avatar.save();
   }
+
+  return res.json({ code: 200 });
+});
+router.delete("/user/char/:id", PROTECTED, async function (req, res) {
+  const id = req.params.id;
+  if (!id) return res.json({ code: 400, message: "bad request" });
+  const user = await UserModel.findById(req.user.uid);
+  if (!user) return res.json({ code: 403, message: "user not found" });
+
+  await UserAvatarModel.findOneAndDelete({ owner: user.id, avatarId: id });
+
+  return res.json({ code: 200 });
+});
+
+router.get("/user/weapon", PROTECTED, async function (req, res) {
+  if (!req.user) return res.status(403).json({ code: 403, message: "not login" });
+  const avatar = await UserWeaponModel.find({ owner: req.user.uid });
+  return res.json(avatar);
+});
+
+router.put("/user/weapon", PROTECTED, async function (req, res) {
+  const newData: IUserWeapon = req.body;
+  const user = await UserModel.findById(req.user.uid);
+  if (!user) return res.json({ code: 403, message: "user not found" });
+
+  const weapon = await UserWeaponModel.findOne({ owner: user.id, weaponId: newData.weaponId });
+  // 不存在则新建
+  if (!weapon) {
+    const newWeapon: UserWeapon = {
+      owner: user,
+      weaponId: newData.weaponId,
+      level: newData.level,
+      promoteLevel: newData.promoteLevel,
+      refineLevel: newData.refineLevel,
+    };
+    const userData = new UserWeaponModel(newWeapon);
+    await userData.save();
+  } else {
+    // 存在则更新
+    weapon.weaponId = newData.weaponId;
+    weapon.level = newData.level;
+    weapon.promoteLevel = newData.promoteLevel;
+    weapon.refineLevel = newData.refineLevel;
+    await weapon.save();
+  }
+
+  return res.json({ code: 200 });
+});
+
+router.delete("/user/weapon/:id", PROTECTED, async function (req, res) {
+  const id = req.params.id;
+  if (!id) return res.json({ code: 400, message: "bad request" });
+  const user = await UserModel.findById(req.user.uid);
+  if (!user) return res.json({ code: 403, message: "user not found" });
+
+  await UserWeaponModel.findOneAndDelete({ owner: user.id, weaponId: id });
 
   return res.json({ code: 200 });
 });

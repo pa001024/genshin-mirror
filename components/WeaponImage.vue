@@ -9,7 +9,7 @@ import { WeaponType } from "~/modules/core";
 export default class WeaponImage extends Vue {
   @Prop() id!: string;
   @Prop({ default: "thumb" }) type!: "thumb" | "full";
-  @Prop({ default: 64 }) size!: number;
+  @Prop({ type: Number, default: 64 }) size!: number;
   @Prop({ default: WeaponType.Sword }) fallback!: WeaponType;
 
   loadFailed = false;

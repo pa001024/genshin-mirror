@@ -28,9 +28,10 @@
       </v-card-text>
     </v-card>
     <v-snackbar v-model="showMsg" :timeout="4000">
+      <v-icon size="24">mdi-alert</v-icon>
       {{ msg }}
       <template #action="{ attrs }">
-        <v-btn color="blue" text v-bind="attrs" @click="snackbar = false">{{ $t("ui.close") }}</v-btn>
+        <v-btn color="blue" text v-bind="attrs" @click="showMsg = false">{{ $t("ui.close") }}</v-btn>
       </template>
     </v-snackbar>
   </v-responsive>
@@ -86,8 +87,8 @@ export default class Login extends Vue {
     const auth = res.headers.authorization;
     this.setAuth(auth);
     this.showMsg = true;
-    this.msg = this.$t("ui.loginSuccess", [4]) as string;
-    let i = 2;
+    let i = 3;
+    this.msg = this.$t("ui.loginSuccess", [i]) as string;
     const cls = setInterval(() => {
       if (--i) {
         this.msg = this.$t("ui.loginSuccess", [i]) as string;

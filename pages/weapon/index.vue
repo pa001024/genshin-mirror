@@ -31,7 +31,7 @@
                   <WeaponImage :id="item.id" :fallback="item.type" />
                 </v-list-item-title>
                 <v-list-item-subtitle align="center">
-                  <Rarity :star="item.rarity" fixed />
+                  <Rarity :value="item.rarity" fixed />
                 </v-list-item-subtitle>
               </v-list-item-action>
             </nuxt-link>
