@@ -1,5 +1,6 @@
 import { GetterTree, ActionTree, MutationTree } from "vuex";
 import { nanoid } from "nanoid";
+import cookie from "js-cookie";
 import jwt from "jsonwebtoken";
 import { vuexPersistenceInstance } from "~/plugins/vuex-persist";
 import type { IArtifact, IUserBuild } from "~/modules/core";
@@ -60,6 +61,7 @@ export const actions: ActionTree<AppState, {}> = {
   /** 登出 */
   logout({ commit }) {
     commit("RESET");
+    cookie.remove("apollo-token");
   },
   setTravelerGender({ commit }, v) {
     commit("UPDATE_TRAVELER_GENDER", v);

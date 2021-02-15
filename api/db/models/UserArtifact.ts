@@ -1,5 +1,6 @@
 import { getModelForClass, prop, Ref } from "@typegoose/typegoose";
 import { Field, ID, Int, ObjectType } from "type-graphql";
+import { Types } from "mongoose";
 import { User } from "./User";
 import type { IArtifact as IUserArtifact, IAttr } from "~/modules/core";
 
@@ -23,7 +24,7 @@ export class UserArtifact implements IUserArtifact {
 
   /** 拥有者 */
   @Field(() => User)
-  @prop({ ref: "User", required: true, index: true, localField: "owner", foreignField: "_id" })
+  @prop({ type: Types.ObjectId, index: true, required: true })
   public owner!: Ref<User>;
 
   /** 类型id */

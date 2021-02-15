@@ -327,7 +327,6 @@ export interface IItem {
 
 export interface IUserBuild {
   // /** 标识符 */ id?: string;
-  /** 用户ID */ author?: string;
   /** 标题 */ title?: string;
   /** 核心角色id */ cores?: string[];
   /** 标签 */ tags?: string[];

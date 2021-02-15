@@ -1,5 +1,6 @@
-import { getModelForClass, prop } from "@typegoose/typegoose";
+import { getModelForClass, prop, Ref } from "@typegoose/typegoose";
 import { Field, ID, ObjectType } from "type-graphql";
+import { Types } from "mongoose";
 import { User } from "./User";
 import { UserAvatar } from "./UserAvatar";
 import type { IUserBuild } from "~/modules/core";
@@ -17,8 +18,8 @@ export class UserBuild implements IUserBuild {
 
   /** 作者 */
   @Field(() => User)
-  @prop({ ref: () => User, index: true })
-  public author!: string;
+  @prop({ type: Types.ObjectId, index: true, required: true })
+  public author!: Ref<User>;
 
   @Field()
   @prop()
