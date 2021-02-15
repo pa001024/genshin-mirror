@@ -65,7 +65,7 @@ const build = async () => {
 
 build()
   .then(fastify => {
-    const PORT = +new URL(process.env.BASE_URL!).port;
+    const PORT = +(process.env.PORT || 7333);
     fastify.listen(PORT, err => {
       if (err) consola.error(err);
       else consola.success(`Backend server started on ${process.env.BASE_URL}`);
