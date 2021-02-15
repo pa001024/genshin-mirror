@@ -158,6 +158,7 @@
   { "id": "KeqingsStellaFortuna", "name": "Keqing's Stella Fortuna", "localeName": "刻晴の星屑", "desc": "刻晴の命ノ星座アンロック用素材", "rarity": 5, "type": 0, "drop": ["祈願"] },
   { "id": "SucrosesStellaFortuna", "name": "Sucrose's Stella Fortuna", "localeName": "スクロースの星屑", "desc": "スクロースの命ノ星座アンロック用素材", "rarity": 4, "type": 0, "drop": ["祈願"] },
   { "id": "XinyansStellaFortuna", "name": "Xinyan's Stella Fortuna", "localeName": "辛炎の星屑", "desc": "辛炎の命ノ星座アンロック用素材", "rarity": 4, "type": 0, "drop": ["祈願"] },
+  { "id": "HuTaosStellaFortuna", "name": "Hu Tao's Stella Fortuna", "localeName": "胡桃の星屑", "desc": "胡桃の命ノ星座アンロック用素材", "rarity": 5, "type": 0, "drop": ["祈願"] },
   {
     "id": "GnosticHymnOldNotes",
     "name": "Gnostic Hymn - Old Notes",
@@ -175,46 +176,46 @@
     "type": 7
   },
   {
-    "id": "NorthlanderSwordPrototype",
-    "name": "Northlander Sword Prototype",
+    "id": "NorthlanderSwordBillet",
+    "name": "Northlander Sword Billet",
     "localeName": "北陸片手剣の原型",
-    "desc": "武器鍛造に必要な材料。鍛造により、☆4の片手剣が製造できる。\n大理石は美しい彫刻になる可能性が秘められているように、この原型にも無限の可能性がある。",
+    "desc": "武器鍛造に必要な材料。鍛造により、★4の片手剣が製造できる。\n大理石は美しい彫刻になる可能性が秘められているように、この原型にも無限の可能性がある。",
     "rarity": 4,
     "type": 4,
     "drop": ["BOSSドロップ"]
   },
   {
-    "id": "NorthlanderBowPrototype",
-    "name": "Northlander Bow Prototype",
+    "id": "NorthlanderBowBillet",
+    "name": "Northlander Bow Billet",
     "localeName": "北陸弓の原型",
-    "desc": "武器鍛造に必要な材料。鍛造により、☆4の弓が製造できる。\n大理石は美しい彫刻になる可能性が秘められているように、この原型にも無限の可能性がある。",
+    "desc": "武器鍛造に必要な材料。鍛造により、★4の弓が製造できる。\n大理石は美しい彫刻になる可能性が秘められているように、この原型にも無限の可能性がある。",
     "rarity": 4,
     "type": 4,
     "drop": ["BOSSドロップ"]
   },
   {
-    "id": "NorthlanderClaymorePrototype",
-    "name": "Northlander Claymore Prototype",
+    "id": "NorthlanderClaymoreBillet",
+    "name": "Northlander Claymore Billet",
     "localeName": "北陸両手剣の原型",
-    "desc": "武器鍛造に必要な材料。鍛造により、☆4の両手剣が製造できる。\n大理石は美しい彫刻になる可能性が秘められているように、この原型にも無限の可能性がある。",
+    "desc": "武器鍛造に必要な材料。鍛造により、★4の両手剣が製造できる。\n大理石は美しい彫刻になる可能性が秘められているように、この原型にも無限の可能性がある。",
     "rarity": 4,
     "type": 4,
     "drop": ["BOSSドロップ"]
   },
   {
-    "id": "NorthlanderCatalystPrototype",
-    "name": "Northlander Catalyst Prototype",
+    "id": "NorthlanderCatalystBillet",
+    "name": "Northlander Catalyst Billet",
     "localeName": "北陸法器の原型",
-    "desc": "武器鍛造に必要な材料。鍛造により、☆4の法器が製造できる。\n大理石は美しい彫刻になる可能性が秘められているように、この原型にも無限の可能性がある。",
+    "desc": "武器鍛造に必要な材料。鍛造により、★4の法器が製造できる。\n大理石は美しい彫刻になる可能性が秘められているように、この原型にも無限の可能性がある。",
     "rarity": 4,
     "type": 4,
     "drop": ["BOSSドロップ"]
   },
   {
-    "id": "NorthlanderPolearmPrototype",
-    "name": "Northlander Polearm Prototype",
+    "id": "NorthlanderPolearmBillet",
+    "name": "Northlander Polearm Billet",
     "localeName": "北陸長柄武器の原型",
-    "desc": "武器鍛造に必要な材料。鍛造により、☆4の長柄武器が製造できる。\n大理石は美しい彫刻になる可能性が秘められているように、この原型にも無限の可能性がある。",
+    "desc": "武器鍛造に必要な材料。鍛造により、★4の長柄武器が製造できる。\n大理石は美しい彫刻になる可能性が秘められているように、この原型にも無限の可能性がある。",
     "rarity": 4,
     "type": 4,
     "drop": ["BOSSドロップ"]
@@ -268,7 +269,7 @@
     "id": "AgnidusAgateFragment",
     "name": "Agnidus Agate Fragment",
     "localeName": "炎願のアゲート·欠片",
-    "desc": "キャラクターの突破用アイテム。\n「願いを叶うために旅立つ、最強になるために戦う…」",
+    "desc": "キャラクターの突破用アイテム。\n「願いを叶えるために旅立つ、最強になるために戦う…」",
     "rarity": 3,
     "type": 1,
     "drop": ["爆炎樹（Lv.40以上）でドロップ", "合成で獲得"]
@@ -277,7 +278,7 @@
     "id": "AgnidusAgateChunk",
     "name": "Agnidus Agate Chunk",
     "localeName": "炎願のアゲート·塊",
-    "desc": "キャラクターの突破用アイテム。\n「願いを叶うために旅立つ、最強になるために戦う…」\n「やがて夢の業火に燃え尽きる。」",
+    "desc": "キャラクターの突破用アイテム。\n「願いを叶えるために旅立つ、最強になるために戦う…」\n「やがて夢の業火に燃え尽きる。」",
     "rarity": 4,
     "type": 1,
     "drop": ["爆炎樹（Lv.60以上）でドロップ", "合成で獲得"]
@@ -286,7 +287,7 @@
     "id": "AgnidusAgateGemstone",
     "name": "Agnidus Agate Gemstone",
     "localeName": "炎願のアゲート",
-    "desc": "キャラクターの突破用アイテム。\n「願いを叶うために旅立つ、最強になるために戦う…」\n「やがて夢の業火に燃え尽きる。」\n「その灰燼にまだ初心が残っていれば、██の真実に辿り着いたという。」",
+    "desc": "キャラクターの突破用アイテム。\n「願いを叶えるために旅立つ、最強になるために戦う…」\n「やがて夢の業火に燃え尽きる。」\n「その灰燼にまだ初心が残っていれば、██の真実に辿り着いたという。」",
     "rarity": 5,
     "type": 1,
     "drop": ["爆炎樹（Lv.75以上）でドロップ", "合成で獲得"]
@@ -500,6 +501,15 @@
     "drop": ["無相の岩（Lv.75以上）でドロップ", "合成で獲得"]
   },
   {
+    "id": "DustofAzoth",
+    "name": "Dust of Azoth",
+    "localeName": "変転の塵",
+    "desc": "突破素材の元素属性を変化させることが出来るアイテム。\n実用目的を除くと、錬金術は物質の性質とその変化の法則を研究する学科であり、最終的には世界と地脈の流れの法則につながる。\n誰がどのような目的で行ったのかは分からないが、地上文明に広がるこの錬金術の極みのような産物は、結晶化後の不活性元素物質を変換させる力を持つ。かなり使いやすく実用的だが、バランスを壊してしまう大きなリスクも抱えている…",
+    "rarity": 2,
+    "type": 7,
+    "drop": ["スターダスト交換で獲得"]
+  },
+  {
     "id": "TeachingsofFreedom",
     "name": "Teachings of Freedom",
     "localeName": "「自由」の教え",
@@ -633,7 +643,7 @@
     "id": "TeachingsofGold",
     "name": "Teachings of Gold",
     "localeName": "「黄金」の教え",
-    "desc": "天賦育成素材。\n岩の国の象徴は黄金である。\n黄金は璃月の深部に流れる血、璃月の心臓を動かす筋肉、璃月がまっすぐでいれれるための骨である。",
+    "desc": "天賦育成素材。\n岩の国の象徴は黄金である。\n黄金は璃月の深部に流れる血、璃月の心臓を動かす筋肉、璃月がまっすぐでいられるための骨である。",
     "rarity": 2,
     "type": 1
   },
@@ -893,7 +903,7 @@
     "id": "FriedRadishBalls",
     "name": "Fried Radish Balls",
     "localeName": "大根の揚げ団子",
-    "desc": "油で揚げた大根団子。柔らかくて香りの良い独特な食感。熱いうちに食べるのがおススメ。璃月のレシピらしい。",
+    "desc": "油で揚げた大根団子。香りがよく柔らかくて独特な食感を持つ。熱いうちに食べるのがオススメ。璃月のレシピらしい。",
     "rarity": 2,
     "type": 2,
     "drop": ["料理を作る"]
@@ -1406,7 +1416,7 @@
     "id": "SuspiciousJueyunChiliChicken",
     "name": "Suspicious Jueyun Chili Chicken",
     "localeName": "微妙な椒椒鶏",
-    "desc": "鶏肉の和え物。タレが染み込んでいないため、椒椒鶏というより、鶏肉の水煮と思われる。",
+    "desc": "鳥肉の和え物。タレが染み込んでいないため、椒椒鶏というより、鳥肉の水煮と思われる。",
     "rarity": 2,
     "type": 2,
     "drop": ["料理を作る"]
@@ -1415,7 +1425,7 @@
     "id": "JueyunChiliChicken",
     "name": "Jueyun Chili Chicken",
     "localeName": "椒椒鶏",
-    "desc": "鶏肉の和え物。鶏肉のジューシさをそのままキープされ、金色の皮の下にあるピリ辛の味わいが魅力的である。",
+    "desc": "鳥肉の和え物。鳥肉のジューシさをそのままキープされ、金色の皮の下にあるピリ辛の味わいが魅力的である。",
     "rarity": 2,
     "type": 2,
     "drop": ["料理を作る"]
@@ -1424,7 +1434,7 @@
     "id": "DeliciousJueyunChiliChicken",
     "name": "Delicious Jueyun Chili Chicken",
     "localeName": "美味しそうな椒椒鶏",
-    "desc": "鶏肉の和え物。柔らかな鶏肉を噛んでみると、ジュワッと溢れ出す肉汁。夢であるように、自分の居場所も分からなくなる。",
+    "desc": "鳥肉の和え物。柔らかな鳥肉を噛むと、ジュワッと肉汁が溢れ出る。まるで夢の中で飛んでいるかのように、自分の居場所も分からなくなる。",
     "rarity": 2,
     "type": 2,
     "drop": ["料理を作る"]
@@ -1888,15 +1898,7 @@
     "type": 3,
     "drop": ["料理を作る"]
   },
-  {
-    "id": "SweetDream",
-    "name": "\"Sweet Dream\"",
-    "localeName": "「快夢」",
-    "desc": "魈のオリジナル料理。「快夢」といってもとてもシンプル、ただのいい夢を見たいだけ。",
-    "rarity": 2,
-    "type": 2,
-    "drop": ["料理を作る"]
-  },
+  { "id": "SweetDream", "name": "\"Sweet Dream\"", "localeName": "「夢」", "desc": "魈のオリジナル料理。彼の「夢」は、ただ良い夢を見たいだけ。", "rarity": 2, "type": 2, "drop": ["料理を作る"] },
   {
     "id": "FlashFriedFilet",
     "name": "Flash-Fried Filet",
@@ -1983,7 +1985,7 @@
     "id": "PopsTeas",
     "name": "Pop's Teas",
     "localeName": "大椀のお茶",
-    "desc": "璃月の名物飲み物。領土が広い璃月で旅するのが大変なことである。故に大椀茶の容器が大きいほど助かる。",
+    "desc": "璃月の名物飲み物。領土が広い璃月で旅するのは大変なことである。故に大椀茶の容器が大きいほど助かる。",
     "rarity": 1,
     "type": 3,
     "drop": ["商店で購入"]
@@ -2073,7 +2075,7 @@
     "id": "SuspiciousTianshuMeat",
     "name": "Suspicious Tianshu Meat",
     "localeName": "微妙な天枢肉",
-    "desc": "じっくり煮込んだ獣肉。長時間火にかけたことにより食感は皆無で脂身はギトギト。イグサに包むことで、ようやくなんとか飲み込める。",
+    "desc": "じっくり煮込んだ獣肉。長時間火にかけたことにより歯応えは皆無で脂身はギトギト。清心の葉で包むことで、ようやくなんとか飲み込むことができる。",
     "rarity": 4,
     "type": 2,
     "drop": ["料理を作る"]
@@ -2208,7 +2210,7 @@
     "id": "SlowCookedBambooShootSoup",
     "name": "Slow-Cooked Bamboo Shoot Soup",
     "localeName": "とろ火で煮込んだ腌篤鮮",
-    "desc": "鍾離のオリジナル料理。ソーセージは月海亭の基準に満たした火瞳部位、肉は清泉町でその日捕れたばら肉、タケノコは軽策荘で取れたもの。それらを弱火でじっくり煮込みんだ…「こだわり」の美味。味の分かる人としか分かち合わない。",
+    "desc": "鍾離のオリジナル料理。ハムは月海亭の基準を満たした部位を使用し、肉は清泉町でその日捕れたばら肉、タケノコは軽策荘で取れたもの。それらを弱火でじっくり煮込みんだ…「こだわり」の美味。味の分かる人としか分かち合わない。",
     "rarity": 3,
     "type": 3,
     "drop": ["料理を作る"]
@@ -2228,6 +2230,96 @@
     "localeName": "極みの一釣り",
     "desc": "タルタリヤのオリジナル料理。海を漂う野獣が、野垂れ死ぬ前に発した音のない咆哮のようだ…ただ、タルタリヤは笑いながら、海釣りの戦利品が勝手に故郷の土産を持ってきたのだろうと説明した。",
     "rarity": 3,
+    "type": 2,
+    "drop": ["料理を作る"]
+  },
+  {
+    "id": "SuspiciousFullmoonEgg",
+    "name": "Suspicious Fullmoon Egg",
+    "localeName": "微妙な明月の玉子",
+    "desc": "璃月の伝統点心の1つ。違和感のある奇妙な皮で肉の具を包み、水分を吸い取られるほど乾燥し、小麦粉の固まりを食べているような食感だ。",
+    "rarity": 3,
+    "type": 2,
+    "drop": ["料理を作る"]
+  },
+  {
+    "id": "FullmoonEgg",
+    "name": "Fullmoon Egg",
+    "localeName": "明月の玉子",
+    "desc": "璃月の伝統点心の1つ。卵と小麦粉の皮でエビと魚肉の具を湯呑のように包み、エビ一匹丸ごと上に載せて蒸した点心である。雲が月を包む様な形である為、「明月の玉子」と名付けられた。",
+    "rarity": 3,
+    "type": 2,
+    "drop": ["料理を作る"]
+  },
+  {
+    "id": "DeliciousFullmoonEgg",
+    "name": "Delicious Fullmoon Egg",
+    "localeName": "美味しそうな明月の玉子",
+    "desc": "璃月の伝統点心の1つ。熱いうちに一口噛むと、じゅわっと肉汁が溢れだし、エビの甘味が全体のうまさを一気に引き出す。まるで秋の明月と小池、小舟が岸に泊まり、漁師の歌声が響く、この様な美しい風景を思わせる美味しさだ。",
+    "rarity": 3,
+    "type": 2,
+    "drop": ["料理を作る"]
+  },
+  {
+    "id": "SuspiciousVegetarianAbalone",
+    "name": "Suspicious Vegetarian Abalone",
+    "localeName": "微妙な松茸のアワビもどき",
+    "desc": "味が濃厚な菜食。濃すぎるタレが食材本来の味を完全に消している。水をどんなに飲んでもしょっぱく感じる、ただ調味料を食べているようだ。",
+    "rarity": 2,
+    "type": 2,
+    "drop": ["料理を作る"]
+  },
+  {
+    "id": "VegetarianAbalone",
+    "name": "Vegetarian Abalone",
+    "localeName": "松茸のアワビもどき",
+    "desc": "味が濃厚な菜食。松茸を薄切りにし、焦げ茶色に炒めた後、ソースを入れる。松茸はアワビのような食感と香りを持つため、ほぼ本物に近い料理だ。",
+    "rarity": 2,
+    "type": 2,
+    "drop": ["料理を作る"]
+  },
+  {
+    "id": "DeliciousVegetarianAbalone",
+    "name": "Delicious Vegetarian Abalone",
+    "localeName": "美味しそうな松茸のアワビもどき",
+    "desc": "味が濃厚な菜食。濃厚なタレによって、松茸を新鮮な貝類のように柔らかく、本物のアワビのように新鮮な、品のある食感に作り上げた。お客様に当ててもらい、「アワビではなく松茸です」と答えを明らかにすると、さぞ驚くだろう。",
+    "rarity": 2,
+    "type": 2,
+    "drop": ["料理を作る"]
+  },
+  {
+    "id": "SuspiciousStoneHarborDelicacies",
+    "name": "Suspicious Stone Harbor Delicacies",
+    "localeName": "微妙な岩港三鮮",
+    "desc": "多めの油で炒めた菜食。温度コントロールが出来ていないせいで、非常に脂っこく、口にすると少し気持ち悪い。希少な琉璃袋が台無しだ。",
+    "rarity": 2,
+    "type": 2,
+    "drop": ["料理を作る"]
+  },
+  {
+    "id": "StoneHarborDelicacies",
+    "name": "Stone Harbor Delicacies",
+    "localeName": "岩港三鮮",
+    "desc": "多めの油で炒めた菜食。三種の璃月特産品を使用した炒め料理。作り方は素朴だが、食材本来の旨味を十分に引き立てた、高級料理に負けない一品だ。",
+    "rarity": 2,
+    "type": 2,
+    "drop": ["料理を作る"]
+  },
+  {
+    "id": "DeliciousStoneHarborDelicacies",
+    "name": "Delicious Stone Harbor Delicacies",
+    "localeName": "美味しそうな岩港三鮮",
+    "desc": "多めの油で炒めた菜食。木漏れ日の涼しさ、大地の潤いがこの料理に終結する。シンプルな白米と合わせて食べると、味覚だけでなく、心も十分に魅了する。",
+    "rarity": 2,
+    "type": 2,
+    "drop": ["料理を作る"]
+  },
+  {
+    "id": "GhostlyMarch",
+    "name": "Ghostly March",
+    "localeName": "幽々大行軍",
+    "desc": "胡桃のオリジナル料理。丸い頭の幽霊が一か所に集まる様子がかわいい。もし好奇心を抑えきれず、その内の「一匹」を食べたら、きっと後悔するだろう…何故なら、口に入れたのは、味覚を完全に失わせるほど衝撃的な——「得体のしれない食材」だからだ。",
+    "rarity": 2,
     "type": 2,
     "drop": ["料理を作る"]
   },
@@ -2343,7 +2435,7 @@
     "id": "ProsperousPeace",
     "name": "Prosperous Peace",
     "localeName": "盛世太平",
-    "desc": "甘雨の特製料理。麒麟が花畑で休んでいる光景は、見る者の心を穏やかにする。甘雨は世への願いをこの料理に込め、己が最も好んでいる清心の花びらを何も言わずにあなたに残した。",
+    "desc": "甘雨のオリジナル料理。麒麟が花畑で休んでいる光景は、見る者の心を穏やかにする。甘雨は世への願いをこの料理に込め、己が最も好んでいる清心の花びらを何も言わずにあなたに残した。",
     "rarity": 3,
     "type": 3,
     "drop": ["料理を作る"]
@@ -2352,10 +2444,73 @@
     "id": "WoodlandDream",
     "name": "Woodland Dream",
     "localeName": "「林の夢」",
-    "desc": "アルベドの特製料理。平らに並べた果物は草を表し、立てたものは樹を表す。皿の上では世界が斑模様の城壁を囲み、茶色の小道に沿って歩けば、淡いオレンジの城に辿り着く。柔らかく甘い味は瞬時に咲き誇る。目を開けば、白髪の王子が目の前で微笑んでいた。",
+    "desc": "アルベドのオリジナル料理。平らに並べた果物は草を表し、立てたものは樹を表す。皿の上では世界が斑模様の城壁を囲み、茶色の小道に沿って歩けば、淡いオレンジの城に辿り着く。柔らかく甘い味は瞬時に咲き誇る。目を開けば、白髪の王子が目の前で微笑んでいた。",
     "rarity": 3,
     "type": 2,
     "drop": ["料理を作る"]
+  },
+  {
+    "id": "LanternRiteSpecialGrilledTigerFish",
+    "name": "Lantern Rite Special Grilled Tiger Fish",
+    "localeName": "海灯祭特別チ虎魚焼き",
+    "desc": "海灯祭を祝うために作られた伝統料理。埠頭で引き上げられた魚を軽く漬け焼いたもの、その香りは野良猫をも虜にする。新鮮が美味しさの秘訣である。",
+    "rarity": 1,
+    "type": 3,
+    "drop": ["海灯祭商店で獲得"]
+  },
+  {
+    "id": "LanternRiteSpecialFriedRadishBalls",
+    "name": "Lantern Rite Special Fried Radish Balls",
+    "localeName": "海灯祭特別大根の揚げ団子",
+    "desc": "海灯祭を祝うために作られた伝統料理。柔らかくて香りの良い独特な食感。熱いうちに食べるのがオススメ。",
+    "rarity": 2,
+    "type": 2,
+    "drop": ["海灯祭商店で獲得"]
+  },
+  {
+    "id": "LanternRiteSpecialLotusSeedandBirdEggSoup",
+    "name": "Lantern Rite Special Lotus Seed and Bird Egg Soup",
+    "localeName": "海灯祭特別茶碗蒸し",
+    "desc": "海灯祭を祝うために作られた伝統料理。透き通った黄色の卵の上に、ハスの実が輝いている。朝食にしてもよし、食後のデザートにしてもよし、栄養バランスのとれた一品だ。",
+    "rarity": 2,
+    "type": 2,
+    "drop": ["海灯祭商店で獲得"]
+  },
+  {
+    "id": "LanternRiteSpecialJewelrySoup",
+    "name": "Lantern Rite Special Jewelry Soup",
+    "localeName": "海灯祭特別白玉湯",
+    "desc": "海灯祭を祝うために作られた伝統料理。沸騰したお湯に金魚草、豆腐、蓮の実を入れるだけ。緑野菜と豆腐は翡翠と白玉に見えるのが名前の由来だが、本当は簡単に作れる家庭料理。",
+    "rarity": 2,
+    "type": 2,
+    "drop": ["海灯祭商店で獲得"]
+  },
+  {
+    "id": "LanternRiteSpecialNoodleswithMountainDelicacies",
+    "name": "Lantern Rite Special Noodles with Mountain Delicacies",
+    "localeName": "海灯祭特別山幸の麺",
+    "desc": "海灯祭を祝うために作られた伝統料理。具材たっぷりで、麺とスープが良く絡む。ごく普通の作り方だが、濃厚な味を楽しめる。",
+    "rarity": 2,
+    "type": 2,
+    "drop": ["海灯祭商店で獲得"]
+  },
+  {
+    "id": "LanternRiteSpecialComeandGetIt",
+    "name": "Lantern Rite Special Come and Get It",
+    "localeName": "海灯祭特別お食べくだ菜",
+    "desc": "海灯祭を祝うために作られた伝統料理。具材の選択や作り方に特にこだわりはないが、璃月の祭りではよく登場する一品。名前は、「どうぞ、お食べください」という意味から由来する。",
+    "rarity": 3,
+    "type": 2,
+    "drop": ["海灯祭商店で獲得"]
+  },
+  {
+    "id": "LanternRiteSpecialTripleLayeredConsomm",
+    "name": "Lantern Rite Special Triple-Layered Consommé",
+    "localeName": "海灯祭特別璃月三糸",
+    "desc": "海灯祭を祝うために作られた伝統料理。ハム、豚肉、タケノコを同じ長さに千切りし、強火で蒸し焼きしたら裏返しして皿にのせ、旨味たっぷりのスープを掛けたら完成。くっきりとした味わいがする。",
+    "rarity": 3,
+    "type": 2,
+    "drop": ["海灯祭商店で獲得"]
   },
   {
     "id": "RecipeChickenMushroomSkewer",
@@ -2578,6 +2733,23 @@
     "localeName": "レシピ：北地のリンゴと肉の煮込み",
     "desc": "「北地のリンゴと肉の煮込み」の詳しい作り方が載っているレシピ。",
     "rarity": 3,
+    "type": 7
+  },
+  { "id": "RecipeFullmoonEgg", "name": "Recipe: Fullmoon Egg", "localeName": "レシピ：明月の玉子", "desc": "「明月の玉子」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7 },
+  {
+    "id": "RecipeVegetarianAbalone",
+    "name": "Recipe:Vegetarian Abalone",
+    "localeName": "レシピ：松茸のアワビもどき",
+    "desc": "「松茸のアワビもどき」の詳しい作り方が載っているレシピ。",
+    "rarity": 2,
+    "type": 7
+  },
+  {
+    "id": "RecipeStoneHarborDelicacies",
+    "name": "Recipe: Stone Harbor Delicacies",
+    "localeName": "レシピ：岩港三鮮",
+    "desc": "「岩港三鮮」の詳しい作り方が載っているレシピ。",
+    "rarity": 2,
     "type": 7
   },
   { "id": "RecipeGoulash", "name": "Recipe: Goulash", "localeName": "レシピ:お肉と野菜のシチュー", "desc": "「お肉と野菜のシチュー」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7 },
@@ -2954,7 +3126,7 @@
     "desc": "霧虚ろの草は密閉空間の中では謎の胞子を飛ばす。飛蛍の大好物である。",
     "rarity": 2,
     "type": 1,
-    "drop": ["雷蛍術師でドロップ"]
+    "drop": ["ファデュイ·蛍術師でドロップ"]
   },
   {
     "id": "MistGrass",
@@ -2963,7 +3135,7 @@
     "desc": "綺麗に保存された霧虚ろの草。一部の人はこれを使って飛蛍をコントロールする。",
     "rarity": 3,
     "type": 1,
-    "drop": ["雷蛍術師（Lv.40以上）でドロップ", "合成で獲得"]
+    "drop": ["ファデュイ·蛍術師（Lv.40以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "MistGrassWick",
@@ -2972,7 +3144,7 @@
     "desc": "珍しい霧虚ろの草を束にしたもの、暗い光を放つ。こういう提灯を持つ人は飛蛍と不幸を招くことになる。",
     "rarity": 4,
     "type": 1,
-    "drop": ["雷蛍術師（Lv.60以上）でドロップ", "合成で獲得"]
+    "drop": ["ファデュイ·蛍術師（Lv.60以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "HuntersSacrificialKnife",
@@ -3086,28 +3258,28 @@
     "id": "FragileBoneShard",
     "name": "Fragile Bone Shard",
     "localeName": "脆い骨片",
-    "desc": "ベビーヴィシャップの体から見つけたある骨片。\n非常に脆いが、何ともいえない力が宿っているらしい。",
+    "desc": "ヴィシャップの体から見つけたある骨片。\n非常に脆いが、何ともいえない力が宿っているらしい。",
     "rarity": 2,
     "type": 1,
-    "drop": ["ベビーヴィシャップ·岩でドロップ"]
+    "drop": ["ベビーヴィシャップ·岩でドロップ", "ヴィシャップ·岩でドロップ"]
   },
   {
     "id": "SturdyBoneShard",
     "name": "Sturdy Bone Shard",
     "localeName": "丈夫な骨片",
-    "desc": "何らかの理由で、ベビーヴィシャップが大切にしているある生き物の骨片。\n例え人間の言葉が分からない生き物でも、このような遺骨に特別な憧れを持っているらしい。",
+    "desc": "何らかの理由で、ヴィシャップが大切にしているある生き物の骨片。\n見た感じある程度年月が経っている。例え人間の言葉が分からない生き物でも、このような遺骨に特別な憧れを持っているらしい。",
     "rarity": 3,
     "type": 1,
-    "drop": ["ベビーヴィシャップ·岩（Lv.40以上）でドロップ", "合成で獲得"]
+    "drop": ["ベビーヴィシャップ·岩（Lv.40以上）でドロップ", "ヴィシャップ·岩（Lv.40以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "FossilizedBoneShard",
     "name": "Fossilized Bone Shard",
     "localeName": "石化した骨片",
-    "desc": "ベビーヴィシャップを倒すと、たまに見つける石化した骨片。\nベビーヴィシャップは、いつか本当の龍になれるとずっと夢見ている。古い化石を龍の骨と思い込んでいるのは、龍の永久不滅の命と強大な力を憧れているのだろう。",
+    "desc": "ヴィシャップを倒すと、たまに見つける石化した骨片。\nヴィシャップは、いつか本当の龍になれるとずっと夢見ている。古い化石を龍の骨と思い込んでいるのは、龍の永久不滅の命と強大な力を憧れているのだろう。",
     "rarity": 4,
     "type": 1,
-    "drop": ["ベビーヴィシャップ·岩（Lv.60以上）でドロップ", "合成で獲得"]
+    "drop": ["ベビーヴィシャップ·岩（Lv.60以上）でドロップ", "ヴィシャップ·岩（Lv.60以上）でドロップ", "合成で獲得"]
   },
   {
     "id": "HurricaneSeed",
@@ -3122,7 +3294,7 @@
     "id": "LightningPrism",
     "name": "Lightning Prism",
     "localeName": "雷光のプリズム",
-    "desc": "無相の雷が元素を集め、損傷を直すための物質。中には純粋な雷の力がある。\nプリズムは光を構成する色彩の区別ができ、雷光のプリズムは流れるエネルギーを純粋な雷光に織り成すことができる。たとえを無相の雷が倒されたとしても、雷元素はこのプリズムの中で集まり続ける。",
+    "desc": "無相の雷が元素を集め、損傷を直すための物質。中には純粋な雷の力がある。\nプリズムは光を構成する色彩の区別ができ、雷光のプリズムは流れるエネルギーを純粋な雷光に織り成すことができる。たとえ無相の雷が倒されたとしても、雷元素はこのプリズムの中で集まり続ける。",
     "rarity": 4,
     "type": 1,
     "drop": ["無相の雷（Lv.30以上）でドロップ"]
@@ -3185,7 +3357,7 @@
     "id": "BasaltPillar",
     "name": "Basalt Pillar",
     "localeName": "玄岩の塔",
-    "desc": "無相の岩の外殻によって構成された石柱、純粋な岩元素が高度濃縮されたものである。\n岩元素は最も重い元素である。無相の岩が外殻を高くそびえ立つ岩の柱にして、自身を高いところに上げたのは、敵から自身を守るだめではなく、自分の無縁な空により近づくためだったかもしれない。",
+    "desc": "無相の岩の外殻によって構成された石柱、純粋な岩元素が高度に濃縮されたものである。\n岩元素は最も重い元素だ。無相の岩が、外殻を高くそびえ立つ岩の柱にし、自身を高いところに上げたのは、敵から身を守るためではなく、無縁だった天空により近づくためなのかもしれない。",
     "rarity": 4,
     "type": 1,
     "drop": ["無相の岩（Lv.30以上）でドロップ"]
@@ -3245,6 +3417,15 @@
     "drop": ["公子（Lv.70以上）挑戦報酬"]
   },
   {
+    "id": "JuvenileJade",
+    "name": "Juvenile Jade",
+    "localeName": "未熟の玉石",
+    "desc": "エンシェントヴィシャップ·岩から取り出した結晶物質。龍になれる可能性を秘めている。\n山で深く眠るヴィシャップは、この様な薄暗い結晶を沈殿させる。璃月の伝説によると、この結晶は時間とともに力が蓄積し、最終的に本来の心臓を取り替え、ヴィシャップも真の龍になり、山を揺るがし、大地を引き裂くという。",
+    "rarity": 4,
+    "type": 1,
+    "drop": ["エンシェントヴィシャップ·岩（Lv.30以上）でドロップ"]
+  },
+  {
     "id": "TileofDecarabiansTower",
     "name": "Tile of Decarabian's Tower",
     "localeName": "高塔の王の瓦",
@@ -3257,7 +3438,7 @@
     "id": "DebrisofDecarabiansCity",
     "name": "Debris of Decarabian's City",
     "localeName": "高塔の王の残壁",
-    "desc": "武器に突破の力を付与する材料。\n烈風の魔神「デカラビアン」は自分が作った王城をとても満足していた。彼は高塔の上で信者たちの拝礼を受けていたが、その拝礼は心からの崇拝ではないことを誰は知らなかった。",
+    "desc": "武器に突破の力を付与する材料。\n烈風の魔神「デカラビアン」は自分が作った王城にとても満足していた。彼は高塔の上で信者たちの拝礼を受けていたが、その拝礼は心からの崇拝ではないことを知らなかった。",
     "rarity": 3,
     "type": 1,
     "drop": ["合成で獲得"]
@@ -3266,7 +3447,7 @@
     "id": "FragmentofDecarabiansEpic",
     "name": "Fragment of Decarabian's Epic",
     "localeName": "高塔の王の断片",
-    "desc": "武器に突破の力を付与する材料。\n「アンドリアス」はかつて高塔の王に宣戦布告をしたが、王都にダメージを与えることはできなかった。「自由」がこの都市を崩れさせなかったら、ここの全てはまだ夢を見続けていくだろう。",
+    "desc": "武器に突破の力を付与する材料。\n「アンドリアス」はかつて高塔の王に宣戦布告をしたが、王都にダメージを与えることはできなかった。「自由」がこの都市を崩れさせなかったら、ここの全てはまだ夢を見続けていただろう。",
     "rarity": 4,
     "type": 1,
     "drop": ["合成で獲得"]
@@ -3527,25 +3708,28 @@
     "id": "LanternFiber",
     "name": "Lantern Fiber",
     "localeName": "紙の繊維",
-    "desc": "<color=#FF5E41FF>ファデュイ、ヒルチャール</color>そして<color=#FF5E41FF>アビスの魔術師</color>などの敵から獲得でき、植物からで採集することもある。\nどこにでも見られる繊維、特殊処理すると、霄灯の紙として使用でき、美しい願いを乗せて遠くへ飛ばせることができる。\n璃月で<color=#3399CCFF>梟総管</color>と交換できる。",
+    "desc": "海灯祭期間中、「霄灯」の作成に使用できる材料。\nどこにでも見られる繊維、特殊処理をすると、霄灯の紙袋として使用でき、美しい願いを乗せて遠くへ飛ばせることができる。",
     "rarity": 3,
-    "type": 4
+    "type": 4,
+    "drop": ["植物類採集物で獲得"]
   },
   {
     "id": "WickMaterial",
     "name": "Wick Material",
     "localeName": "灯芯素材",
-    "desc": "<color=#FF5E41FF>モフモフした敵</color>と<color=#FF5E41FF>小動物</color>から獲得でき、身物からで採集することもある。\nどこにでも見られるモフモフ素材、特殊処理すると、霄灯の灯芯として使用でき、美しい願いを乗せて遠くへ飛ばせることができる。\n璃月で<color=#3399CCFF>梟総管</color>と交換できる。",
+    "desc": "海灯祭期間中、「霄灯」の作成に使用できる材料。\nどこにでも見られるモフモフな素材、特殊処理をすると、霄灯の灯芯として使用でき、美しい願いを乗せて遠くへ飛ばせることができる。",
     "rarity": 3,
-    "type": 4
+    "type": 4,
+    "drop": ["ヒルチャールでドロップ", "ファデュイ精鋭でドロップ"]
   },
   {
     "id": "PlaustriteShard",
     "name": "Plaustrite Shard",
     "localeName": "浮生の石片",
-    "desc": "<color=#FF5E41FF>鉱物</color>と共に発生し、その魔力は<color=#FF5E41FF>魔物</color>や<color=#FF5E41FF>悪人</color>に対しても天然的な吸引力がある。\n自身の力で浮遊できる不思議な元素石片、霄灯が遠く飛ぶ秘密であり、「群玉閣」が空中に浮遊する動力源でもあると言われる。\n璃月で<color=#3399CCFF>梟総管</color>と交換できる。",
+    "desc": "海灯祭期間中、「霄灯」の作成に使用できる材料。\n自身の力で浮遊できる不思議な元素石片、霄灯が遠く飛べる秘密であり、「群玉閣」が空中に浮遊する動力源でもあると言われる。",
     "rarity": 3,
-    "type": 4
+    "type": 4,
+    "drop": ["鉱物類採集物で獲得", "ベビーヴィシャップ·岩、ヴィシャップ·岩でドロップ", "ヒルチャール·岩兜の王でドロップ"]
   },
   {
     "id": "RimeWornFragment",
@@ -4040,6 +4224,51 @@
     "rarity": 4,
     "type": 6,
     "drop": ["イベント「無相の交響詩」にて獲得。"]
+  },
+  {
+    "id": "XiaoMask",
+    "name": "Xiao: Mask",
+    "localeName": "魈·儺面",
+    "desc": "名刺の飾り紋。\nいつかこの儺面を被って、妖魔退治の為ではなく、花洲の笛の音に合わせて踊る事を望んでいる。",
+    "rarity": 4,
+    "type": 6,
+    "drop": ["魈の好感度がLv.10に到達後獲得。"]
+  },
+  {
+    "id": "HuTaoSpiritSoother",
+    "name": "Hu Tao: Spirit Soother",
+    "localeName": "胡桃·安神",
+    "desc": "名刺の飾り紋。\n胡桃堂主は全然怖くないよ、たぶん。",
+    "rarity": 4,
+    "type": 6,
+    "drop": ["胡桃の好感度がLv.10に到達後獲得。"]
+  },
+  {
+    "id": "TravelNotesMingxiao",
+    "name": "Travel Notes: Mingxiao",
+    "localeName": "紀行·明霄",
+    "desc": "名刺の飾り紋。\n皆の願いが集まれば、闇夜を照らす光となれる。",
+    "rarity": 4,
+    "type": 6,
+    "drop": ["紀行報酬で獲得。"]
+  },
+  {
+    "id": "CelebrationLanternLight",
+    "name": "Celebration: Lantern-Light",
+    "localeName": "祭典·灯昼",
+    "desc": "名刺の飾り紋。\n毎年、この日になると町の夜空は霄灯で昼間のように明るく照らされる。人の心が火の明かりのように永遠でありますように。",
+    "rarity": 4,
+    "type": 6,
+    "drop": ["海灯祭イベント商店で交換。"]
+  },
+  {
+    "id": "CelebrationMechanicus",
+    "name": "Celebration: Mechanicus",
+    "localeName": "祭典·棋譚",
+    "desc": "名刺の飾り紋。\n対局のあらゆる局面を計算済みだと言うが、自分も駒になる事は計算の内か？",
+    "rarity": 4,
+    "type": 6,
+    "drop": ["イベント「機関棋譚」で獲得。"]
   },
   {
     "id": "CondensedResin",

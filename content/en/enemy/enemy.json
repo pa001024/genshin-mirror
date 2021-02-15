@@ -1,15 +1,5 @@
 [
-  {
-    "id": "Hilichurl",
-    "name": "Hilichurl",
-    "localeName": "Hilichurl",
-    "desc": "",
-    "baseHP": 13.584,
-    "baseATK": 22.608,
-    "baseDEF": 500,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
+  { "id": "Hilichurl", "name": "Hilichurl", "localeName": "Hilichurl", "desc": "", "baseHP": 13.584, "baseATK": 22.608, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
   {
     "id": "WoodenShieldwallMitachurl",
     "name": "Wooden Shieldwall Mitachurl",
@@ -147,11 +137,22 @@
     "name": "Childe",
     "localeName": "Childe",
     "desc": "A noble soul that watches over Wolvendom.\nWhen the safety of the wolves is threatened, it will take the form of a wolf and bare its fangs and claws. It is said that its powers were given to it by an ancient god.",
-    "baseHP": 81.504,
-    "baseATK": 37.68,
+    "baseHP": 135.84,
+    "baseATK": 50.24,
     "baseDEF": 500,
     "type": 4,
-    "resist": [0, 0, 0.5, 0, 0, 0, 0, 0]
+    "resist": [0, 0, 0.7, 0.7, 0, 0, 0, 0]
+  },
+  {
+    "id": "Azhdaha",
+    "name": "Azhdaha",
+    "localeName": "Azhdaha",
+    "desc": "The Anemo dragon that lives among ruins.\nIt rides the wind and controls the power of the storms, threatening the peace of Mondstadt.\nIt also seems to hide a great secret in its shadow...",
+    "baseHP": 244.51,
+    "baseATK": 75.36,
+    "baseDEF": 500,
+    "type": 4,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
   {
     "id": "EyeoftheStorm",
@@ -549,17 +550,7 @@
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
-  {
-    "id": "GeoSlime",
-    "name": "Geo Slime",
-    "localeName": "Geo Slime",
-    "desc": "",
-    "baseHP": 10.867,
-    "baseATK": 7.536,
-    "baseDEF": 500,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
+  { "id": "GeoSlime", "name": "Geo Slime", "localeName": "Geo Slime", "desc": "", "baseHP": 10.867, "baseATK": 7.536, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
   {
     "id": "LargeGeoSlime",
     "name": "Large Geo Slime",
@@ -575,7 +566,7 @@
     "id": "PyroAbyssMage",
     "name": "Pyro Abyss Mage",
     "localeName": "Pyro Abyss Mage",
-    "desc": "Abyss mages who fight with their Pyro magic.\nFor unknown reasons, abyss mages are able to communicate with the hilichurls, thus enabling them to manipulate their minds easily.",
+    "desc": "Abyss Mages who fight with their Pyro magic.\nFor unknown reasons, Abyss Mages are able to communicate with the hilichurls, thus enabling them to manipulate their minds easily.",
     "baseHP": 27.168,
     "baseATK": 37.68,
     "baseDEF": 500,
@@ -586,7 +577,7 @@
     "id": "CryoAbyssMage",
     "name": "Cryo Abyss Mage",
     "localeName": "Cryo Abyss Mage",
-    "desc": "Abyss creatures who command the power of Cryo in combat.\nThey say abyss mages speak in a long-forgotten language from which they draw magical power.",
+    "desc": "Abyss creatures who command the power of Cryo in combat.\nThey say Abyss Mages speak in a long-forgotten language from which they draw magical power.",
     "baseHP": 27.168,
     "baseATK": 37.68,
     "baseDEF": 500,
@@ -597,7 +588,7 @@
     "id": "HydroAbyssMage",
     "name": "Hydro Abyss Mage",
     "localeName": "Hydro Abyss Mage",
-    "desc": "Abyss creatures which utilize Hydro energy in battle.\nAdventurers often make fun of these abyss mages, saying that the most harm they can do is to cause rheumatism or a common cold, but in actuality their power is not to be underestimated.",
+    "desc": "Abyss creatures which utilize Hydro energy in battle.\nAdventurers often make fun of these Abyss Mages, saying that the most harm they can do is to cause rheumatism or a common cold, but in actuality their power is not to be underestimated.",
     "baseHP": 27.168,
     "baseATK": 37.68,
     "baseDEF": 500,
@@ -740,7 +731,7 @@
     "id": "FatuiSkirmisherAnemoboxerVanguard",
     "name": "Fatui Skirmisher - Anemoboxer Vanguard",
     "localeName": "Fatui Skirmisher - Anemoboxer Vanguard",
-    "desc": "A skirmisher armed with the ability to manipulate Anemo and heal their comrades.\nThey departed from their motherland, but did so for its sake. They left their family, yet gained allies to stick through thick and thin with.\n—Perhaps such thoughts are what get them through the unscrupulous work that their missions entail.",
+    "desc": "A skirmisher armed with the ability to manipulate Anemo and heal their comrades.\nThey departed from their motherland and did so for its sake. They left their family, yet gained allies to stick through thick and thin with.\n—Perhaps such thoughts are what get them through the unscrupulous work that their missions entail.",
     "baseHP": 40.752,
     "baseATK": 25.12,
     "baseDEF": 500,
@@ -1004,7 +995,7 @@
     "id": "CryoRegisvine",
     "name": "Cryo Regisvine",
     "localeName": "Cryo Regisvine",
-    "desc": "A monster formed from a vine that was imbued with the essence of biting frost within the Ley Lines.\nSome studies suggest that plants are like the organs of the world, harmonizing the turbulent elemental energies of the Ley Lines. Concrete examples of this phenomena are Mist Flowers, Whopperflowers and the like, which brim over with elemental energy.\nIn certain circumstances, certain plants will turn into creatures of monstrous size and intent — such as the Cryo Regisvines — over the course of many years.",
+    "desc": "A monster formed from a vine that was imbued with the essence of biting frost within the ley lines.\nSome studies suggest that plants are like the organs of the world, harmonizing the turbulent elemental energies of the ley lines. Concrete examples of this phenomena are Mist Flowers, Whopperflowers, and the like, which brim over with elemental energy.\nIn certain circumstances, certain plants will turn into creatures of monstrous size and intent — such as the Cryo Regisvines — in the course of many years.",
     "baseHP": 95.088,
     "baseATK": 62.8,
     "baseDEF": 500,
@@ -1015,7 +1006,7 @@
     "id": "PyroRegisvine",
     "name": "Pyro Regisvine",
     "localeName": "Pyro Regisvine",
-    "desc": "A giant vine that has absorbed the ancient flame that rages within the Ley Lines.\nIt is restless, as if filled with an endless fury.\nPoets, bards and even some academics believe that elements also contain emotions and hope. If this is true, then one can only wonder what emotions cause the Pyro Regisvine to burn eternally, writhing like one longing to be free of the confines of the earth...",
+    "desc": "A giant vine that has absorbed the ancient flame that rages within the ley lines.\nIt is restless as if filled with endless fury.\nPoets, bards, and even some academics believe that elements also contain emotions and hopes. If this is true, then one can only wonder what emotions cause the Pyro Regisvine to burn eternally, writhing like one longing to be free of the confines of the earth...",
     "baseHP": 95.088,
     "baseATK": 62.8,
     "baseDEF": 500,
@@ -1031,6 +1022,18 @@
     "baseATK": 30.144,
     "baseDEF": 500,
     "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.3]
+  },
+  { "id": "Geovishap", "name": "Geovishap", "localeName": "Geovishap", "desc": "", "baseHP": 108.67, "baseATK": 37.68, "baseDEF": 500, "type": 2, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.3] },
+  {
+    "id": "PrimoGeovishap",
+    "name": "Primo Geovishap",
+    "localeName": "Primo Geovishap",
+    "desc": "",
+    "baseHP": 407.52,
+    "baseATK": 50.24,
+    "baseDEF": 500,
+    "type": 3,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.3]
   },
   {

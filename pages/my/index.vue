@@ -46,7 +46,7 @@
                   <CharImage :id="selectedAvatarId" avatar />
                   {{ avatars[selectedAvatarId].localeName }}
                   <v-spacer />
-                  <v-btn icon @click="removeUserAvatar(selectedAvatarId)">
+                  <v-btn icon @click="removeUserAvatar({ id: selectedAvatarId })">
                     <v-icon color="red darken-3">mdi-delete</v-icon>
                   </v-btn>
                   <v-slide-x-transition>
@@ -143,7 +143,7 @@
                 <v-card-title class="headline">
                   {{ weapons[selectedWeaponId].localeName }}
                   <v-spacer />
-                  <v-btn icon @click="removeUserWeapon(selectedWeaponId)">
+                  <v-btn icon @click="removeUserWeapon({ id: selectedWeaponId })">
                     <v-icon color="red darken-3">mdi-delete</v-icon>
                   </v-btn>
                   <v-slide-x-transition>
@@ -229,9 +229,27 @@
 
 <script lang="ts">
 import { Vue, Component, Watch } from "vue-property-decorator";
-import { Action, Getter } from "vuex-class";
 import { cloneDeep, filter, keyBy, partition } from "lodash";
 import type { IArtifact, IArtifactSet, IArtifactType, IAvatar, IUserAvatar, IUserWeapon, IWeapon } from "~/modules/core";
+import {
+  MeDocument,
+  RemoveUserCharacterDocument,
+  RemoveUserCharacterMutation,
+  RemoveUserCharacterMutationVariables,
+  RemoveUserWeaponDocument,
+  RemoveUserWeaponMutation,
+  RemoveUserWeaponMutationVariables,
+  SetUserCharacterDocument,
+  SetUserCharacterMutation,
+  SetUserCharacterMutationVariables,
+  SetUserWeaponDocument,
+  SetUserWeaponMutation,
+  SetUserWeaponMutationVariables,
+  UserCharactersDocument,
+  UserCharactersQuery,
+  UserWeaponsDocument,
+  UserWeaponsQuery,
+} from "~/api/generated/graphql";
 
 /**
  * 库存 inventory
@@ -267,19 +285,59 @@ import type { IArtifact, IArtifactSet, IArtifactType, IAvatar, IUserAvatar, IUse
     const title = this.$t("title.sub", [this.$t("navigate.inv")]) as string;
     return { title };
   },
+  apollo: {
+    me: MeDocument,
+    userCharacters: UserCharactersDocument,
+    userWeapons: UserWeaponsDocument,
+  },
 })
 export default class Page extends Vue {
-  @Getter("app/uid") uid!: string;
-  @Getter("app/userAvatars") userAvatars!: IUserAvatar[];
-  @Getter("app/userWeapons") userWeapons!: IUserWeapon[];
-  @Getter("app/artifacts") artifacts!: IArtifact[];
-  @Action("app/loadArtifacts") loadArtifacts!: () => void;
-  @Action("app/addAvatar") addAvatar!: (ua: IUserAvatar) => void;
-  @Action("app/addWeapon") addWeapon!: (ua: IUserWeapon) => void;
-  @Action("app/removeAvatar") removeAvatar!: (id: string) => void;
-  @Action("app/removeWeapon") removeWeapon!: (id: string) => void;
-  @Action("app/fetchAvatars") fetchAvatars!: () => void;
-  @Action("app/fetchWeapons") fetchWeapons!: () => void;
+  me?: { id: string; username: string };
+  get uid() {
+    return this.me?.id;
+  }
+
+  setUserAvatar(variables: SetUserCharacterMutationVariables) {
+    return this.$apollo.mutate<SetUserCharacterMutation>({
+      mutation: SetUserCharacterDocument,
+      variables,
+      refetchQueries: ["UserCharacters"],
+    });
+  }
+
+  removeUserAvatar(variables: RemoveUserCharacterMutationVariables) {
+    this.selectedAvatarId = "";
+    return this.$apollo.mutate<RemoveUserCharacterMutation>({
+      mutation: RemoveUserCharacterDocument,
+      variables,
+      update: (cache, { data }) => {
+        const avatars = cache.readQuery({ query: UserCharactersDocument }) as UserCharactersQuery;
+        avatars.userCharacters = avatars.userCharacters.filter(v => v.id !== data?.removeUserCharacter.id);
+        cache.writeQuery({ query: UserCharactersDocument, data: avatars });
+      },
+    });
+  }
+
+  setUserWeapon(variables: SetUserWeaponMutationVariables) {
+    return this.$apollo.mutate<SetUserWeaponMutation>({ mutation: SetUserWeaponDocument, variables, refetchQueries: ["UserWeapons"] });
+  }
+
+  removeUserWeapon(variables: RemoveUserWeaponMutationVariables) {
+    this.selectedWeaponId = "";
+    return this.$apollo.mutate<RemoveUserWeaponMutation>({
+      mutation: RemoveUserWeaponDocument,
+      variables,
+      update: (cache, { data }) => {
+        const avatars = cache.readQuery({ query: UserWeaponsDocument }) as UserWeaponsQuery;
+        avatars.userWeapons = avatars.userWeapons.filter(v => v.id !== data?.removeUserWeapon.id);
+        cache.writeQuery({ query: UserWeaponsDocument, data: avatars });
+      },
+    });
+  }
+
+  userCharacters!: IUserAvatar[];
+  userWeapons!: IUserWeapon[];
+
   overlay = false;
   menu = false;
   tab = "char";
@@ -330,7 +388,7 @@ export default class Page extends Vue {
 
   selectAvatar(a: IAvatar) {
     this.selectedAvatarId = a.id;
-    const current = this.userAvatars.find(v => v.avatarId === a.id);
+    const current = this.userCharacters.find(v => v.avatarId === a.id);
     if (!current) {
       this.selectedAvatar = null;
       return;
@@ -348,27 +406,19 @@ export default class Page extends Vue {
     this.selectedWeapon = cloneDeep(current);
   }
 
-  removeUserAvatar(id: string) {
-    this.selectedAvatarId = "";
-    this.removeAvatar(id);
-  }
-
-  removeUserWeapon(id: string) {
-    this.selectedWeaponId = "";
-    this.removeWeapon(id);
-  }
-
   async editUserAvatar(ua: IUserAvatar) {
     this.avatarSaveLoading = true;
     try {
-      await this.addAvatar({
-        avatarId: ua.avatarId,
-        level: +ua.level,
-        promoteLevel: +ua.promoteLevel,
-        talentLevel: +ua.talentLevel,
-        attackLevel: +ua.attackLevel,
-        eLevel: +ua.eLevel,
-        qLevel: +ua.qLevel,
+      await this.setUserAvatar({
+        data: {
+          avatarId: ua.avatarId,
+          level: +ua.level,
+          promoteLevel: +ua.promoteLevel,
+          talentLevel: +ua.talentLevel,
+          attackLevel: +ua.attackLevel,
+          eLevel: +ua.eLevel,
+          qLevel: +ua.qLevel,
+        },
       });
       this.avatarChanged = false;
     } catch {
@@ -381,11 +431,13 @@ export default class Page extends Vue {
   async editUserWeapon(uw: IUserWeapon) {
     this.weaponSaveLoading = true;
     try {
-      await this.addWeapon({
-        weaponId: uw.weaponId,
-        level: +uw.level,
-        promoteLevel: +uw.promoteLevel,
-        refineLevel: +uw.refineLevel,
+      await this.setUserWeapon({
+        data: {
+          weaponId: uw.weaponId,
+          level: +uw.level,
+          promoteLevel: +uw.promoteLevel,
+          refineLevel: +uw.refineLevel,
+        },
       });
       this.weaponChanged = false;
     } catch {
@@ -405,7 +457,7 @@ export default class Page extends Vue {
       eLevel: 6,
       qLevel: 6,
     };
-    this.addAvatar(ua);
+    this.setUserAvatar({ data: ua });
     this.selectedAvatar = cloneDeep(ua);
   }
 
@@ -416,12 +468,12 @@ export default class Page extends Vue {
       promoteLevel: 6,
       refineLevel: 1,
     };
-    this.addWeapon(uw);
+    this.setUserWeapon({ data: uw });
     this.selectedWeapon = cloneDeep(uw);
   }
 
   get mergedAvatars() {
-    const um = keyBy(this.userAvatars, "avatarId");
+    const um = keyBy(this.userCharacters, "avatarId");
     const [enabled, disabled] = partition(this.avatars, v => um[v.id]);
     return enabled
       .map(v => {
@@ -464,8 +516,8 @@ export default class Page extends Vue {
   @Watch("uid")
   reloadData() {
     // console.log("reloadData...");
-    this.fetchAvatars();
-    this.fetchWeapons();
+    // this.fetchAvatars();
+    // this.fetchWeapons();
   }
 }
 

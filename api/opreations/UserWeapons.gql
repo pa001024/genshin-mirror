@@ -1,0 +1,25 @@
+query UserWeapons {
+  userWeapons {
+    id
+    owner {
+      id
+    }
+    weaponId
+    level
+    promoteLevel
+    refineLevel
+  }
+}
+
+mutation SetUserWeapon($data: UserWeaponInput!) {
+  setUserWeapon(data: $data) {
+    id
+    weaponId
+  }
+}
+
+mutation RemoveUserWeapon($id: String!) {
+  removeUserWeapon(id: $id) {
+    id
+  }
+}

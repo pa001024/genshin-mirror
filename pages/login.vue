@@ -41,6 +41,7 @@
 import { Vue, Component } from "vue-property-decorator";
 import { Action } from "vuex-class";
 import sha256 from "crypto-js/sha256";
+import { LoginDocument, LoginMutation, LoginMutationVariables } from "~/api/generated/graphql";
 
 // const Cookie = process.client ? require("js-cookie") : undefined;
 
@@ -52,6 +53,10 @@ import sha256 from "crypto-js/sha256";
 })
 export default class Login extends Vue {
   @Action("app/setAuth") setAuth!: (auth: string) => void;
+
+  login(variables: LoginMutationVariables) {
+    return this.$apollo.mutate<LoginMutation>({ mutation: LoginDocument, variables });
+  }
 
   email = "";
   password = "";
@@ -71,20 +76,18 @@ export default class Login extends Vue {
   async postLogin() {
     if (!this.email || !this.password) return;
     this.loading = true;
-    const res = await this.$axios
-      .post("/api/user/login", {
-        email: this.email,
-        hash: sha256(this.password).toString(),
-      })
-      .catch(console.error);
+    const res = await this.login({
+      email: this.email,
+      hash: sha256(this.password).toString(),
+    });
     this.loading = false;
-    if (!res || res.data.code !== 200) {
+    if (!res || res.data?.login?.code !== 200) {
       this.showMsg = false;
       this.showMsg = true;
       this.msg = this.$t("ui.loginFailed") as string;
       return;
     }
-    const auth = res.headers.authorization;
+    const auth = res.data.login.token!;
     this.setAuth(auth);
     this.showMsg = true;
     let i = 3;

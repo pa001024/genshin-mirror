@@ -23,10 +23,13 @@
           </v-btn>
         </template>
         <v-list>
+          <v-list-item to="/my">
+            <v-list-item-title>{{ $t("navigate.inv") }}</v-list-item-title>
+          </v-list-item>
           <v-list-item :to="'/user/' + uid">
             <v-list-item-title>{{ $t("ui.mySpace") }}</v-list-item-title>
           </v-list-item>
-          <v-list-item class="nolink" to="/" @click="logout">
+          <v-list-item class="nolink" @click="logout">
             <v-list-item-title>{{ $t("ui.logout") }}</v-list-item-title>
           </v-list-item>
         </v-list>
@@ -88,12 +91,13 @@ export default class DefaultLayout extends Vue {
   }
 
   links = [
+    { name: "build", path: "/build", icon: "puzzle" },
     { name: "avatar", path: "/char", icon: "char" },
     { name: "weapon", path: "/weapon", icon: "weapon" },
     { name: "artifact", path: "/artifact", icon: "artifact" },
     { name: "enemy", path: "/enemy", icon: "enemy" },
     { name: "material", path: "/item", icon: "mineral" },
-    { name: "inv", path: "/my", icon: "char_item" },
+    // { name: "inv", path: "/my", icon: "char_item" },
     { name: "setting", path: "/setting", icon: "setting" },
   ];
 

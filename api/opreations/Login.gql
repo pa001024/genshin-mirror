@@ -1,0 +1,6 @@
+mutation Login($email: String!, $hash: String!) {
+  login(email: $email, password: $hash) {
+    code
+    token
+  }
+}

@@ -41,6 +41,7 @@
 import { Vue, Component } from "vue-property-decorator";
 import { Action } from "vuex-class";
 import sha256 from "crypto-js/sha256";
+import { SignupDocument, SignupMutation, SignupMutationVariables } from "~/api/generated/graphql";
 
 @Component({
   head() {
@@ -50,6 +51,10 @@ import sha256 from "crypto-js/sha256";
 })
 export default class Signup extends Vue {
   @Action("app/setAuth") setAuth!: (auth: string) => void;
+
+  signupMutation(variables: SignupMutationVariables) {
+    return this.$apollo.mutate<SignupMutation>({ mutation: SignupDocument, variables });
+  }
 
   email: string = "";
   username: string = "";
@@ -87,34 +92,36 @@ export default class Signup extends Vue {
     this.username = this.username.trim();
     if (!this.email || !this.password) return;
     this.loading = true;
-    const res = await this.$axios
-      .post("/api/user/signup", {
-        email: this.email,
-        username: this.username,
-        hash: sha256(this.password).toString(),
-      })
-      .catch(console.error);
-    this.loading = false;
-    if (!res || res.data.code !== 200) {
+    try {
+      const res = await this.signupMutation({
+        data: {
+          email: this.email,
+          username: this.username,
+          password: sha256(this.password).toString(),
+        },
+      });
+      const auth = res.data!.signup.token!;
+      this.setAuth(auth);
+      this.showMsg = true;
+      this.msg = this.$t("ui.signupSuccess", [4]) as string;
+      let i = 4;
+      const cls = setInterval(() => {
+        if (--i) {
+          this.msg = this.$t("ui.signupSuccess", [i]) as string;
+        } else {
+          clearInterval(cls);
+          this.showMsg = false;
+          this.$router.push("/");
+        }
+      }, 1e3);
+    } catch (e) {
       this.showMsg = false;
       this.showMsg = true;
-      this.msg = this.$t("ui.signupFailed", [res ? res.data.message : "unknown"]) as string;
+      this.msg = this.$t("ui.signupFailed", [e.message.replace("GraphQL error: ", "")]) as string;
       return;
+    } finally {
+      this.loading = false;
     }
-    const auth = res.headers.authorization;
-    this.setAuth(auth);
-    this.showMsg = true;
-    this.msg = this.$t("ui.signupSuccess", [4]) as string;
-    let i = 4;
-    const cls = setInterval(() => {
-      if (--i) {
-        this.msg = this.$t("ui.signupSuccess", [i]) as string;
-      } else {
-        clearInterval(cls);
-        this.showMsg = false;
-        this.$router.push("/");
-      }
-    }, 1e3);
   }
 }
 </script>

@@ -1,4 +1,5 @@
 import type { Route, RawLocation } from "vue-router";
+import type { DocumentNode } from "graphql";
 import type { VNode } from "vue";
 
 declare module "vue/types/vue" {
@@ -25,4 +26,14 @@ declare module "vue/types/vue" {
 
     beforeRouteUpdate?(to: Route, from: Route, next: (to?: RawLocation | false | ((vm: Vue) => void)) => void): void;
   }
+}
+
+declare module "*.gql" {
+  const content: DocumentNode;
+  export default content;
+}
+
+declare module "*.graphql" {
+  const content: DocumentNode;
+  export default content;
 }

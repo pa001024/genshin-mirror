@@ -11,5 +11,7 @@ module.exports = {
     "no-unused-vars": 0,
     "no-console": 0,
     "no-use-before-define": 0,
+    "require-await": 0,
+    "@typescript-eslint/no-unused-vars": 0,
   },
 };

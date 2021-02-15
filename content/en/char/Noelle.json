@@ -93,7 +93,7 @@
   "element": 2,
   "elemSkill": {
     "name": "Breastplate",
-    "desc": "Summons protective stone armor, dealing <color=#FFE699FF>Geo DMG</color> to surrounding opponents and creating a shield. The shield's DMG Absorption scales based on Noelle's DEF.\nThe shield has the following properties:\n·When Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters.\n·Possesses 250% Absorption Efficiency against <color=#FFE699FF>Geo DMG</color>\n\nThe amount of HP healed when regeneration is triggered scales based on Noelle's DEF.\n\n<i>Noelle is both a dutiful maid and a valiant knight.</i>",
+    "desc": "Summons protective stone armor, dealing <color=#FFE699FF>Geo DMG</color> to surrounding opponents and creating a shield. The shield's DMG Absorption scales based on Noelle's DEF.\nThe shield has the following properties:\n·When Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters.\n·Possesses 150% DMG Absorption efficiency against all Elemental and Physical DMG.\n\nThe amount of HP healed when regeneration is triggered scales based on Noelle's DEF.\n\n<i>Noelle is both a dutiful maid and a valiant knight.</i>",
     "cd": 24,
     "paramTpls": [
       "Skill DMG|{param6:P} DEF",
@@ -182,7 +182,7 @@
   "talents": [
     {
       "name": "Devotion",
-      "desc": "When Noelle is in the party but not on the field, this ability triggers automatically when your active character's HP falls below 30%:\nCreates a shield for your active character that lasts for 20s and absorbs DMG equal to 400% of Noelle's DEF.\nThe shield has a 250% DMG Absorption effectiveness against <color=#FFE699FF>Geo DMG</color>.\nThis effect can only occur once every 60s.",
+      "desc": "When Noelle is in the party but not on the field, this ability triggers automatically when your active character's HP falls below 30%:\nCreates a shield for your active character that lasts for 20s and absorbs DMG equal to 400% of Noelle's DEF.\nThe shield has a 150% DMG Absorption effectiveness against all Elemental and Physical DMG.\nThis effect can only occur once every 60s.",
       "unlock": 1,
       "values": [0.3, 4, 20, 60]
     },

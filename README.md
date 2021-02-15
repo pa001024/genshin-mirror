@@ -16,44 +16,45 @@
 
 ### 圣遗物序列化
 
-```
+```js
 paddingLeft(base62(id),4)
-paddingLeft(base62(main)base62(level),2)
-paddingLeft(base62(attrtype1)base62(attrvalue1),3)
-paddingLeft(base62(attrtype2)base62(attrvalue2),3)
-paddingLeft(base62(attrtype3)base62(attrvalue3),3)
-paddingLeft(base62(attrtype4)base62(attrvalue4),3)
-
+base62(main)base62(level)
+base62(attrtype1)paddingLeft(base62(attrvalue1),3)
+base62(attrtype2)paddingLeft(base62(attrvalue2),3)
+base62(attrtype3)paddingLeft(base62(attrvalue3),3)
+base62(attrtype4)paddingLeft(base62(attrvalue4),3)
 ```
 
-如20级魔女头 id 为 80530 主属性暴击伤害
+如 20 级魔女头 id 为 80530 主属性暴击伤害
 
 - 元素精通+19
 - 生命值+209
 - 元素充能效率+10.4%
 - 暴击率+17.1%
 
+```js
 base62(80530)=>"Kws"
 base62(20)=>"K"
+```
 
 查表得:
 
 1. 暴击伤害=13=>base62(13)=>"D"
-2. 元素精通=>"B"  对应数值base62为"J"
-3. 生命值=>"4"  数值同上,为"3N"
-4. 元素充能效率=>"A"  对应数值因为是小数所以乘10之后再base62, 为"1g"
-5. 暴击率=>"C"  数值同上,为"2l"
-因此最后结果为
+2. 元素精通=>"B" 对应数值 base62 为"J"
+3. 生命值=>"4" 数值同上,为"3N"
+4. 元素充能效率=>"A" 对应数值因为是小数所以乘 10 之后再 base62, 为"1g"
+5. 暴击率=>"C" 数值同上,为"2l"
+   因此最后结果为
 
 Kws-DK-BJ-43N-A1g-C2l
-然后按照4-2-3-3-3-3的长度对长度不足的补上0, 其中副属性的类型占一位 数值占两位 比如这里的B0J就是B+J 数值J因为只有一位所以补0变为B0J
+然后按照 4-2-3-3-3-3 的长度对长度不足的补上 0, 其中副属性的类型占一位 数值占两位 比如这里的 B0J 就是 B+J 数值 J 因为只有一位所以补 0 变为 B0J
 0Kws-DK-B0J-43N-A1g-C2l
 最后连起来就是
 0KwsDKB0J43NA1gC2l
 
-对于不足4个属性的则填0处理, 比如上面那个圣遗物去掉暴击率词条就是0KwsDK0BJ43N000
+对于不足 4 个属性的则填 0 处理, 比如上面那个圣遗物去掉暴击率词条就是 0KwsDK0BJ43N000
 
-当然像0KwsDKB0J43N这样直接去掉也是可以的 因为读取的时候会自动补0
+当然像 0KwsDKB0J43N 这样直接去掉也是可以的 因为读取的时候会自动补 0
 
 最后可得
 
@@ -81,16 +82,25 @@ Kws-DK-BJ-43N-A1g-C2l
 ```
 
 序列化实现
+
 ```ts
 get code() {
   return this.attrs.reduce(
-    (r, v) => r + (base62(v.type) + base62(v.type in ARTIFACT.ENCODE_RATIO ? v.value : v.value * 10, 2), 3),
+    (r, v) => r + (base62(v.type) + base62(v.type in ARTIFACT.ENCODE_RATIO ? v.value : v.value * 1e3, 2)),
     `${base62(this.typeId, 4)}${base62(this.main)}${base62(this.level)}`
   );
 }
 ```
 
-### 功能
+### 技术选型
+
+- 语言: Typescript
+- 前端渲染和 SSR: Nuxt.js (host by fastify Programmatically)
+- API: Apollo GraphQL type-graphql
+  - 使用Apollo codegen生成前端代码
+- 状态持久化: localforage
+- DB & ORM: mongodb & mongoose (typegoose)
+- 缓存: redis
 
 ## Build Setup
 

@@ -1,0 +1,33 @@
+[
+  { "id": "FerventFlames", "name": "Fervent Flames", "localeName": "熱誠の炎", "desc": "氷元素付着の効果継続時間-40%。攻撃力+25%。", "param": [0.25, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+  { "id": "SoothingWater", "name": "Soothing Water", "localeName": "治療の水", "desc": "炎元素付着の継続時間-40%。受ける治療効果+30%。", "param": [0.3, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+  {
+    "id": "ImpetuousWinds",
+    "name": "Impetuous Winds",
+    "localeName": "迅速の風",
+    "desc": "スタミナ消費-15%、移動速度+10%、スキルのクールタイム-5%。",
+    "param": [-0.15, 0.1, 0.05, 0, 0, 0, 0, 0, 0, 0]
+  },
+  {
+    "id": "HighVoltage",
+    "name": "High Voltage",
+    "localeName": "強権の雷",
+    "desc": "水元素付着の継続時間-40%。超電導、過負荷または感電反応を起こした時、100%の確率で雷元素粒子を生成する、クールタイム5秒。",
+    "param": [1, 5, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  {
+    "id": "ShatteringIce",
+    "name": "Shattering Ice",
+    "localeName": "粉砕の氷",
+    "desc": "雷元素付着の継続時間-40%。氷元素付着または凍結状態の敵を攻撃する時、会心率+15%。",
+    "param": [0.15, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  {
+    "id": "EnduringRock",
+    "name": "Enduring Rock",
+    "localeName": "不動の岩",
+    "desc": "シールド強化+15%。また、キャラクターがシールド状態の時、以下の効果を得る：与えるダメージ+15%。敵にダメージを与えた時、敵の岩元素耐性-20%、継続時間15秒。",
+    "param": [0.15, 0.15, 15, -0.2, 0, 0, 0, 0, 0, 0]
+  },
+  { "id": "ProtectiveCanopy", "name": "Protective Canopy", "localeName": "交錯の護り", "desc": "全元素耐性+15%、物理耐性+15%。", "param": [0.15, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+]

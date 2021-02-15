@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2018",
-    "module": "ESNext",
+    "module": "commonjs",
     "moduleResolution": "node",
     "lib": ["ESNext", "ESNext.AsyncIterable", "DOM"],
     "esModuleInterop": true,
@@ -27,8 +27,12 @@
       "@nuxt/content",
       "@nuxtjs/axios",
       "@nuxtjs/vuetify",
+      "@nuxtjs/apollo",
+      "fastify-jwt",
       "nuxt-i18n",
+      "vue-apollo",
       "node",
+      "~/plugins/hooks",
       "jest"
     ]
   },

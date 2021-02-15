@@ -1,4 +1,5 @@
 import chalk from "chalk";
+import consola from "consola";
 import mongoose from "mongoose";
 
 const DB = process.env.DB!;
@@ -11,10 +12,8 @@ mongoose.connect(DB, {
 });
 
 const db = mongoose.connection;
-db.on("error", console.error.bind(console, "connection error:"));
-db.once("open", function () {
-  console.log(chalk.green("✔"), "Connected to", chalk.blue(DB));
-});
+db.on("error", err => consola.error(err));
+db.once("open", () => consola.success("Connected to", chalk.blue(DB)));
 
 export * from "./models/User";
 export * from "./models/UserArtifact";

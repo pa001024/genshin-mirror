@@ -2,7 +2,7 @@ import { GetterTree, ActionTree, MutationTree } from "vuex";
 import { nanoid } from "nanoid";
 import jwt from "jsonwebtoken";
 import { vuexPersistenceInstance } from "~/plugins/vuex-persist";
-import type { IArtifact, IUserAvatar, IUserWeapon } from "~/modules/core";
+import type { IArtifact, IUserBuild } from "~/modules/core";
 
 const initialState = {
   uid: "",
@@ -11,8 +11,7 @@ const initialState = {
   travelerGender: 0,
   artifacts: [] as IArtifact[],
   artifactsTime: 0,
-  userAvatars: [] as IUserAvatar[],
-  userWeapons: [] as IUserWeapon[],
+  builds: [] as IUserBuild[],
   version: "",
 };
 type AppState = typeof initialState;
@@ -29,22 +28,6 @@ export const mutations: MutationTree<AppState> = {
     state.auth = auth;
     state.user = user;
     state.uid = uid;
-  },
-  UPDATE_ARTIFACTS(state, { v, time }) {
-    state.artifacts = v;
-    state.artifactsTime = time;
-  },
-  UPDATE_USER_AVATARS(state, v) {
-    state.userAvatars = v;
-  },
-  ADD_USER_AVATAR(state, v) {
-    state.userAvatars.push(v);
-  },
-  UPDATE_USER_WEAPONS(state, v) {
-    state.userWeapons = v;
-  },
-  ADD_USER_WEAPON(state, v) {
-    state.userWeapons.push(v);
   },
   RESET(state) {
     Object.assign(state, initialState);
@@ -78,89 +61,6 @@ export const actions: ActionTree<AppState, {}> = {
   logout({ commit }) {
     commit("RESET");
   },
-  /** 从云端加载圣遗物 */
-  async loadArtifacts({ commit, state }) {
-    const { data } = await this.$axios.get(`/api/artifacts?h=${state.artifactsTime}`, { headers: { Authorization: state.auth } });
-    if (data.code === 200) {
-      commit("UPDATE_ARTIFACTS", { v: data, time: state.artifactsTime });
-    } else if (data.code !== 304) {
-      console.error("load artifacts failed", data.message);
-    }
-  },
-  /** 获取用户角色 */
-  async fetchAvatars({ commit, state }) {
-    if (state.auth) {
-      const res = await this.$axios.get(`/api/user/char`, { headers: { Authorization: state.auth } });
-      commit("UPDATE_USER_AVATARS", res.data);
-    }
-  },
-  /** 删除用户角色 */
-  async removeAvatar({ commit, state }, id) {
-    const avatars = state.userAvatars.filter(v => v.avatarId !== id);
-    commit("UPDATE_USER_AVATARS", avatars);
-    if (state.auth) {
-      await this.$axios.delete(`/api/user/char/` + id, { headers: { Authorization: state.auth } }).catch(console.error);
-    }
-  },
-  /** 添加用户角色 */
-  async addAvatar({ commit, state }, ua: IUserAvatar) {
-    if (state.userAvatars.some(v => v.avatarId === ua.avatarId)) {
-      commit(
-        "UPDATE_USER_AVATARS",
-        state.userAvatars.map(v => {
-          if (v.avatarId !== ua.avatarId) return v;
-          return { ...v, ...ua };
-        })
-      );
-    } else {
-      commit("ADD_USER_AVATAR", ua);
-    }
-    if (state.auth) {
-      await this.$axios.put(`/api/user/char`, ua, { headers: { Authorization: state.auth } }).catch(console.error);
-    }
-  },
-  /** 获取用户角色 */
-  async fetchWeapons({ commit, state }) {
-    if (state.auth) {
-      const res = await this.$axios.get(`/api/user/weapon`, { headers: { Authorization: state.auth } });
-      commit("UPDATE_USER_WEAPONS", res.data);
-    }
-  },
-  /** 删除用户武器 */
-  async removeWeapon({ commit, state }, id) {
-    const weapons = state.userWeapons.filter(v => v.weaponId !== id);
-    commit("UPDATE_USER_WEAPONS", weapons);
-    if (state.auth) {
-      await this.$axios.delete(`/api/user/weapon/` + id, { headers: { Authorization: state.auth } }).catch(console.error);
-    }
-  },
-  /** 添加用户武器 */
-  async addWeapon({ commit, state }, uw: IUserWeapon) {
-    if (state.userWeapons.some(v => v.weaponId === uw.weaponId)) {
-      commit(
-        "UPDATE_USER_WEAPONS",
-        state.userWeapons.map(v => {
-          if (v.weaponId !== uw.weaponId) return v;
-          return { ...v, ...uw };
-        })
-      );
-    } else {
-      commit("ADD_USER_WEAPON", uw);
-    }
-    if (state.auth) {
-      await this.$axios.put(`/api/user/weapon`, uw, { headers: { Authorization: state.auth } }).catch(console.error);
-    }
-  },
-  async setArtifacts({ commit, state }, artifacts) {
-    const old = { v: state.artifacts, time: state.artifactsTime };
-    commit("UPDATE_ARTIFACTS", { v: artifacts, hash: nanoid() });
-    // 登录状态上传到云端
-    if (state.auth) {
-      const rst = await this.$axios.put("/api/artifacts", { artifacts }, { headers: { Authorization: state.auth } }).catch(console.error);
-      // 请求失败回滚
-      if (!rst) commit("UPDATE_ARTIFACTS", old);
-    }
-  },
   setTravelerGender({ commit }, v) {
     commit("UPDATE_TRAVELER_GENDER", v);
   },
@@ -177,6 +77,4 @@ export const getters: GetterTree<AppState, {}> = {
   uid: s => s.uid,
   artifacts: s => s.artifacts,
   artifactsTime: s => s.artifactsTime,
-  userAvatars: s => s.userAvatars,
-  userWeapons: s => s.userWeapons,
 };

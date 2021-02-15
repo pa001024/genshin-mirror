@@ -1,35 +1,14 @@
-import express from "express";
-import bodyParser from "body-parser";
+// import path from "path";
+import { buildSchema } from "type-graphql";
+import { AuthResolver } from "./modules/user/Auth.resolver";
+import { UserAvatarResolver } from "./modules/user/UserAvatar.resolver";
+import { UserWeaponResolver } from "./modules/user/UserWeapon.resolver";
 
-// Require API routes
-import user from "./routes/user";
-
-require("dotenv").config();
-
-// Create express instance
-const app = express();
-
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
-// Import API Routes
-app.use(user);
-
-// error handle
-app.use(function (err: any, _req: any, res: any, _next: any) {
-  // res.header("Access-Control-Allow-Origin", "*");
-
-  if (err.name === "UnauthorizedError") {
-    res.status(401).json({ code: 401, message: "unauthorized" });
-  }
-});
-
-// Export express app
-export default app;
-
-// Start standalone server if directly running
-if (require.main === module) {
-  const port = process.env.PORT || 3001;
-  app.listen(port, () => {
-    console.log(`API server listening on port ${port}`);
+export const createSchema = () =>
+  buildSchema({
+    resolvers: [AuthResolver, UserAvatarResolver, UserWeaponResolver],
+    authChecker: ({ context: { user } }, roles) => {
+      if (user) return roles?.length ? roles.includes(user.type) : !!user.uid;
+      return false;
+    },
   });
-}

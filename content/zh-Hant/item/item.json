@@ -135,6 +135,7 @@
   { "id": "KeqingsStellaFortuna", "name": "Keqing's Stella Fortuna", "localeName": "刻晴的命星", "desc": "刻晴的命之座啟用素材。", "rarity": 5, "type": 0, "drop": ["祈願"] },
   { "id": "SucrosesStellaFortuna", "name": "Sucrose's Stella Fortuna", "localeName": "砂糖的命星", "desc": "砂糖的命之座啟用素材。", "rarity": 4, "type": 0, "drop": ["祈願"] },
   { "id": "XinyansStellaFortuna", "name": "Xinyan's Stella Fortuna", "localeName": "辛焱的命星", "desc": "辛焱的命之座啟用素材", "rarity": 4, "type": 0, "drop": ["祈願"] },
+  { "id": "HuTaosStellaFortuna", "name": "Hu Tao's Stella Fortuna", "localeName": "胡桃的命星", "desc": "胡桃的命之座啟用素材", "rarity": 5, "type": 0, "drop": ["祈願"] },
   {
     "id": "GnosticHymnOldNotes",
     "name": "Gnostic Hymn - Old Notes",
@@ -152,8 +153,8 @@
     "type": 7
   },
   {
-    "id": "NorthlanderSwordPrototype",
-    "name": "Northlander Sword Prototype",
+    "id": "NorthlanderSwordBillet",
+    "name": "Northlander Sword Billet",
     "localeName": "北陸單手劍原胚",
     "desc": "生產武器的原素材。透過鍛造，可以生產出4星的單手劍。\n哲學中認為大理石蘊藏著成為美麗雕塑的潛能。這些原胚也孕育了無限可能。真讓人期待。",
     "rarity": 4,
@@ -161,8 +162,8 @@
     "drop": ["BOSS掉落"]
   },
   {
-    "id": "NorthlanderBowPrototype",
-    "name": "Northlander Bow Prototype",
+    "id": "NorthlanderBowBillet",
+    "name": "Northlander Bow Billet",
     "localeName": "北陸弓原胚",
     "desc": "生產武器的原素材。透過鍛造，可以生產出4星的弓。\n哲學中認為大理石蘊藏著成為美麗雕塑的潛能。這些原胚也孕育了無限可能。真讓人期待。",
     "rarity": 4,
@@ -170,8 +171,8 @@
     "drop": ["BOSS掉落"]
   },
   {
-    "id": "NorthlanderClaymorePrototype",
-    "name": "Northlander Claymore Prototype",
+    "id": "NorthlanderClaymoreBillet",
+    "name": "Northlander Claymore Billet",
     "localeName": "北陸雙手劍原胚",
     "desc": "生產武器的原素材。透過鍛造，可以生產出4星的雙手劍。\n哲學中認為大理石蘊藏著成為美麗雕塑的潛能。這些原胚也孕育了無限可能。真讓人期待。",
     "rarity": 4,
@@ -179,8 +180,8 @@
     "drop": ["BOSS掉落"]
   },
   {
-    "id": "NorthlanderCatalystPrototype",
-    "name": "Northlander Catalyst Prototype",
+    "id": "NorthlanderCatalystBillet",
+    "name": "Northlander Catalyst Billet",
     "localeName": "北陸法器原胚",
     "desc": "生產武器的原素材。透過鍛造，可以生產出4星的法器。\n哲學中認為大理石蘊藏著成為美麗雕塑的潛能。這些原胚也孕育了無限可能。真讓人期待。",
     "rarity": 4,
@@ -188,8 +189,8 @@
     "drop": ["BOSS掉落"]
   },
   {
-    "id": "NorthlanderPolearmPrototype",
-    "name": "Northlander Polearm Prototype",
+    "id": "NorthlanderPolearmBillet",
+    "name": "Northlander Polearm Billet",
     "localeName": "北陸長柄武器原胚",
     "desc": "生產武器的原素材。透過鍛造，可以生產出4星的長柄武器。\n哲學中認為大理石蘊藏著成為美麗雕塑的潛能。這些原胚也孕育了無限可能。真讓人期待。",
     "rarity": 4,
@@ -395,6 +396,15 @@
     "rarity": 5,
     "type": 1,
     "drop": ["75級以上無相之岩掉落", "合成獲得"]
+  },
+  {
+    "id": "DustofAzoth",
+    "name": "Dust of Azoth",
+    "localeName": "嬗變之塵",
+    "desc": "能夠使元素突破材料發生變質，轉變其元素屬性的道具。\n刨除實用目的的話，煉金術實際上是研討物質本質與其變化規律的學科，最終通向的是世界運轉、地脈流通的規律。\n不知何者出於何種目的，在地上的文明當中散佈的這種煉金術的極高成就產物，具有扭轉完全惰性化結晶後的元素物質的能力。雖然相當便利實用，但也隱藏著打破平衡的巨大危險性…",
+    "rarity": 2,
+    "type": 7,
+    "drop": ["星塵兌換獲得"]
   },
   {
     "id": "TeachingsofFreedom",
@@ -1127,7 +1137,7 @@
     "id": "DeliciousCrabHamVeggieBake",
     "name": "Delicious Crab, Ham & Veggie Bake",
     "localeName": "美味的蟹黃火腿焗時蔬",
-    "desc": "配料奢華的焗菜。還沒入口都能聞到蟹黃和鮮奶油散發出的的濃香，感覺最後能把盤子舔個一乾二淨。",
+    "desc": "配料奢華的焗菜。還沒入口都能聞到蟹黃和鮮奶油散發出的濃香，感覺最後能把盤子舔個一乾二淨。",
     "rarity": 3,
     "type": 2,
     "drop": ["烹飪獲得"]
@@ -1938,7 +1948,7 @@
     "id": "SuspiciousTianshuMeat",
     "name": "Suspicious Tianshu Meat",
     "localeName": "奇怪的天樞肉",
-    "desc": "燜煮而成的獸肉。長時間的燜煮讓口感過於軟爛，肥肉的部分膩得令人心驚驚，包在圍邊的小燈草裡才勉強可以下嚥。",
+    "desc": "燜煮而成的獸肉。長時間的燜煮讓口感過於軟爛，肥肉的部分膩得令人心驚驚，包在圍邊清心葉片裡才勉強可以下嚥。",
     "rarity": 4,
     "type": 2,
     "drop": ["烹飪獲得"]
@@ -2073,7 +2083,7 @@
     "id": "SlowCookedBambooShootSoup",
     "name": "Slow-Cooked Bamboo Shoot Soup",
     "localeName": "文火慢燉醃篤鮮",
-    "desc": "鍾離的特色料理。火腿要選用月海亭盛宴標準的火瞳部位，鮮肉要挑清泉鎮當天獵來的五花肉，竹筍要取輕策莊筍節緊密的春筍，秉承慢工細活的精神以文火慢燉…這樣「講究」的美味，他只願和懂得欣賞之人一同分享。",
+    "desc": "鍾離的特色料理。火腿要選用月海亭盛宴標準的火腿部位，鮮肉要挑清泉鎮當天獵來的五花肉，竹筍要取輕策莊筍節緊密的春筍，秉承慢工細活的精神以文火慢燉…這樣「講究」的美味，他只願和懂得欣賞之人一同分享。",
     "rarity": 3,
     "type": 3,
     "drop": ["烹飪獲得"]
@@ -2093,6 +2103,96 @@
     "localeName": "極致一釣",
     "desc": "達達利亞的特色料理。如同血海中漂泊的困獸，在垂死時發出人耳所不能聞的哀嚎…不過達達利亞卻笑著解釋說，只是海釣的戰利品加了一些老家特產而已。",
     "rarity": 3,
+    "type": 2,
+    "drop": ["烹飪獲得"]
+  },
+  {
+    "id": "SuspiciousFullmoonEgg",
+    "name": "Suspicious Fullmoon Egg",
+    "localeName": "奇怪的明月蛋",
+    "desc": "璃月的傳統點心之一。面皮以一種扭曲的姿態僵硬地包裹著肉餡，乾澀的口感讓人有種在吃一塊麵疙瘩的錯覺。",
+    "rarity": 3,
+    "type": 2,
+    "drop": ["烹飪獲得"]
+  },
+  {
+    "id": "FullmoonEgg",
+    "name": "Fullmoon Egg",
+    "localeName": "明月蛋",
+    "desc": "璃月的傳統點心之一。將蛋液混合麵粉製成面皮，蝦仁和魚肉剁碎製成肉餡，包成茶盞形狀，點綴完整蝦仁上鍋蒸熟。其造型如同雲朵抱月，因此得名「明月蛋」。",
+    "rarity": 3,
+    "type": 2,
+    "drop": ["烹飪獲得"]
+  },
+  {
+    "id": "DeliciousFullmoonEgg",
+    "name": "Delicious Fullmoon Egg",
+    "localeName": "美味的明月蛋",
+    "desc": "璃月的傳統點心之一。趁熱輕咬，彈嫩肉餡伴隨著鮮美汁水正中味蕾的軟肋，蝦肉的回甘更似畫龍點睛的一筆。眼前彷彿一輪明月，一汪秋水，漁船泊靠岸邊，漁歌唱遍豐年。",
+    "rarity": 3,
+    "type": 2,
+    "drop": ["烹飪獲得"]
+  },
+  {
+    "id": "SuspiciousVegetarianAbalone",
+    "name": "Suspicious Vegetarian Abalone",
+    "localeName": "奇怪的素鮑魚",
+    "desc": "滋味濃郁的素食。過於稠厚的醬汁完全掩蓋了食材應有的鮮味，感覺吃進肚子裡的是無論喝多少水還嫌口乾的調味料。",
+    "rarity": 2,
+    "type": 2,
+    "drop": ["烹飪獲得"]
+  },
+  {
+    "id": "VegetarianAbalone",
+    "name": "Vegetarian Abalone",
+    "localeName": "素鮑魚",
+    "desc": "滋味濃郁的素食。將松茸切成薄片，煎至焦黃後倒入醬汁。松茸肉質飽滿，嚼上去有著鮑魚般鮮香的滋味，是一道近乎能夠以假亂真的菜餚。",
+    "rarity": 2,
+    "type": 2,
+    "drop": ["烹飪獲得"]
+  },
+  {
+    "id": "DeliciousVegetarianAbalone",
+    "name": "Delicious Vegetarian Abalone",
+    "localeName": "美味的素鮑魚",
+    "desc": "滋味濃郁的素食。在醬汁的提點下，松茸呈現出了上等而高級的口感，嫩如鮮貝，鮮如鮑魚，難以辨別真身。若是先由食客隨意猜想，最後再揭曉答案，必然能贏得對方的驚羨。",
+    "rarity": 2,
+    "type": 2,
+    "drop": ["烹飪獲得"]
+  },
+  {
+    "id": "SuspiciousStoneHarborDelicacies",
+    "name": "Suspicious Stone Harbor Delicacies",
+    "localeName": "奇怪的岩港三鮮",
+    "desc": "寬油炒製的素食。油溫的控制不當讓食材的口感泛起過重的油味，令人吃一口搖三次頭，惋惜這來之不易的琉璃袋。",
+    "rarity": 2,
+    "type": 2,
+    "drop": ["烹飪獲得"]
+  },
+  {
+    "id": "StoneHarborDelicacies",
+    "name": "Stone Harbor Delicacies",
+    "localeName": "岩港三鮮",
+    "desc": "寬油炒製的素食。選取璃月當地盛產的三種食材煎炸翻炒。雖然做法樸素，卻充分調動了食材本身的濃郁鮮味，絲毫不輸玉盤珍饈。",
+    "rarity": 2,
+    "type": 2,
+    "drop": ["烹飪獲得"]
+  },
+  {
+    "id": "DeliciousStoneHarborDelicacies",
+    "name": "Delicious Stone Harbor Delicacies",
+    "localeName": "美味的岩港三鮮",
+    "desc": "寬油炒製的素食。泥土的芬芳、樹蔭的沁涼與嵐氣的潤澤，匯聚成盤中之鮮。配一碗簡單的白米飯，就能收穫令味蕾和心靈都倍感踏實的滿足。",
+    "rarity": 2,
+    "type": 2,
+    "drop": ["烹飪獲得"]
+  },
+  {
+    "id": "GhostlyMarch",
+    "name": "Ghostly March",
+    "localeName": "幽幽大行軍",
+    "desc": "胡桃的特色料理。圓頭幽靈擠作一堆的樣子有些滑稽可愛。不過，要是因為好奇抵不住誘惑而吃了其中「一隻」的話，可能會為此後悔很久吧…畢竟，盤子裡裝的是境界極高的、將味蕾轟炸到完全失靈的——「吃不出是什麼食材」。",
+    "rarity": 2,
     "type": 2,
     "drop": ["烹飪獲得"]
   },
@@ -2223,6 +2323,69 @@
     "drop": ["烹飪獲得"]
   },
   {
+    "id": "LanternRiteSpecialGrilledTigerFish",
+    "name": "Lantern Rite Special Grilled Tiger Fish",
+    "localeName": "海燈節特色烤吃虎魚",
+    "desc": "為慶祝海燈節而製作的傳統佳餚。將碼頭打撈上來的魚略加醃制後迅速烤熟，香味能吸引街邊的貓。而新鮮正是美味的秘訣。",
+    "rarity": 1,
+    "type": 3,
+    "drop": ["海燈節商店獲得"]
+  },
+  {
+    "id": "LanternRiteSpecialFriedRadishBalls",
+    "name": "Lantern Rite Special Fried Radish Balls",
+    "localeName": "海燈節特色炸蘿蔔丸子",
+    "desc": "為慶祝海燈節而製作的傳統佳餚。有著脆嫩酥香的獨特口感，適合趁熱吃。",
+    "rarity": 2,
+    "type": 2,
+    "drop": ["海燈節商店獲得"]
+  },
+  {
+    "id": "LanternRiteSpecialLotusSeedandBirdEggSoup",
+    "name": "Lantern Rite Special Lotus Seed and Bird Egg Soup",
+    "localeName": "海燈節特色禽蛋羹",
+    "desc": "為慶祝海燈節而製作的傳統佳餚。色澤澄澈金黃的禽蛋羹上點綴了幾顆蓮子。不管是作為早餐還是飯後點心，都能大量補充身體所需的優質營養。",
+    "rarity": 2,
+    "type": 2,
+    "drop": ["海燈節商店獲得"]
+  },
+  {
+    "id": "LanternRiteSpecialJewelrySoup",
+    "name": "Lantern Rite Special Jewelry Soup",
+    "localeName": "海燈節特色白玉湯",
+    "desc": "為慶祝海燈節而製作的傳統佳餚。熱水燒開後，將金魚草、豆腐和蓮子下鍋齊煮。因其造型寓意而被戲稱為「珍珠翡翠白玉湯」，實質上是一道非常家常的菜品。",
+    "rarity": 2,
+    "type": 2,
+    "drop": ["海燈節商店獲得"]
+  },
+  {
+    "id": "LanternRiteSpecialNoodleswithMountainDelicacies",
+    "name": "Lantern Rite Special Noodles with Mountain Delicacies",
+    "localeName": "海燈節特色熱滷麵",
+    "desc": "為慶祝海燈節而製作的傳統佳餚。分量十足的配菜拌入滷麵之中，醬味敦厚。雖然是普通家常的做法，卻能孕育出無比濃郁的回味。",
+    "rarity": 2,
+    "type": 2,
+    "drop": ["海燈節商店獲得"]
+  },
+  {
+    "id": "LanternRiteSpecialComeandGetIt",
+    "name": "Lantern Rite Special Come and Get It",
+    "localeName": "海燈節特色來來菜",
+    "desc": "為慶祝海燈節而製作的傳統佳餚。配料與做法上並沒有特別的講究，經常在璃月的節慶時分登場。每當這道菜上來以後，為首的人會說「來來，吃」，招呼大家動筷子，因此而得名。",
+    "rarity": 3,
+    "type": 2,
+    "drop": ["海燈節商店獲得"]
+  },
+  {
+    "id": "LanternRiteSpecialTripleLayeredConsomm",
+    "name": "Lantern Rite Special Triple-Layered Consommé",
+    "localeName": "海燈節特色扣三絲",
+    "desc": "為慶祝海燈節而製作的傳統佳餚。火腿、禽肉、竹筍切成同樣長短的細絲，旺火蒸熟後倒扣在湯盤中，淋上高湯。口感鹹鮮，層次分明。",
+    "rarity": 3,
+    "type": 2,
+    "drop": ["海燈節商店獲得"]
+  },
+  {
     "id": "RecipeChickenMushroomSkewer",
     "name": "Recipe: Chicken-Mushroom Skewer",
     "localeName": "食譜：野菇雞肉串",
@@ -2326,6 +2489,9 @@
     "type": 7
   },
   { "id": "RecipeNorthernAppleStew", "name": "Recipe: Northern Apple Stew", "localeName": "食譜：北地蘋果燜肉", "desc": "步驟詳實的食譜，記載著「北地蘋果燜肉」的製作方法。", "rarity": 3, "type": 7 },
+  { "id": "RecipeFullmoonEgg", "name": "Recipe: Fullmoon Egg", "localeName": "食譜：明月蛋", "desc": "步驟詳實的食譜，記載著「明月蛋」的製作方法。", "rarity": 3, "type": 7 },
+  { "id": "RecipeVegetarianAbalone", "name": "Recipe:Vegetarian Abalone", "localeName": "食譜：素鮑魚", "desc": "步驟詳實的食譜，記載著「素鮑魚」的製作方法。", "rarity": 2, "type": 7 },
+  { "id": "RecipeStoneHarborDelicacies", "name": "Recipe: Stone Harbor Delicacies", "localeName": "食譜：岩港三鮮", "desc": "步驟詳實的食譜，記載著「岩港三鮮」的製作方法。", "rarity": 2, "type": 7 },
   { "id": "RecipeGoulash", "name": "Recipe: Goulash", "localeName": "食譜：稠汁蔬菜燉肉", "desc": "步驟詳實的食譜，記載著「稠汁蔬菜燉肉」的製作方法。", "rarity": 2, "type": 7 },
   { "id": "RecipeSunshineSprat", "name": "Recipe: Sunshine Sprat", "localeName": "食譜：奶油煎魚", "desc": "步驟詳實的食譜，記載著「奶油煎魚」的製作方法。", "rarity": 3, "type": 7 },
   { "id": "RecipeUniversalPeace", "name": "Recipe: Universal Peace", "localeName": "食譜：四方和平", "desc": "步驟詳實的食譜，記載著「四方和平」的製作方法。", "rarity": 3, "type": 7 },
@@ -2680,7 +2846,7 @@
     "desc": "霧虛草在密閉空間中會產生的奇妙孢子，是飛螢喜好的食物。",
     "rarity": 2,
     "type": 1,
-    "drop": ["雷螢術士掉落"]
+    "drop": ["愚人眾·螢術士掉落"]
   },
   {
     "id": "MistGrass",
@@ -2689,7 +2855,7 @@
     "desc": "保存完好的霧虛草。有的人會利用飛螢對霧虛草的喜好，來控制它們。",
     "rarity": 3,
     "type": 1,
-    "drop": ["40級以上雷螢術士掉落", "合成獲得"]
+    "drop": ["40級以上愚人眾·螢術士掉落", "合成獲得"]
   },
   {
     "id": "MistGrassWick",
@@ -2698,7 +2864,7 @@
     "desc": "將本就罕見的霧虛草集結成的束，會散發出幽晦的冥光；提著這種燈的人，則會召來飛螢與不幸。",
     "rarity": 4,
     "type": 1,
-    "drop": ["60級以上雷螢術士掉落", "合成獲得"]
+    "drop": ["60級以上愚人眾·螢術士掉落", "合成獲得"]
   },
   {
     "id": "HuntersSacrificialKnife",
@@ -2812,28 +2978,28 @@
     "id": "FragileBoneShard",
     "name": "Fragile Bone Shard",
     "localeName": "脆弱的骨片",
-    "desc": "從幼龍蜥身上找到的某種骨片。\n儘管十分脆弱，其中似乎蘊含著某種難以言喻的力量。",
+    "desc": "從龍蜥身上找到的某種骨片。\n儘管十分脆弱，其中似乎蘊含著某種難以言喻的力量。",
     "rarity": 2,
     "type": 1,
-    "drop": ["幼岩龍蜥掉落"]
+    "drop": ["幼岩龍蜥掉落", "岩龍蜥掉落"]
   },
   {
     "id": "SturdyBoneShard",
     "name": "Sturdy Bone Shard",
     "localeName": "結實的骨片",
-    "desc": "出於某種理由，幼龍蜥十分珍惜的某種生物骨片。\n看上去有一定的年頭。即使是這種不通人言的龍獸，似乎對這種遺骸也擁有某種特殊的憧憬。",
+    "desc": "出於某種理由，龍蜥十分珍惜的某種生物骨片。\n看上去有一定的年頭。即使是這種不通人言的龍獸，似乎對這種遺骸也擁有某種特殊的憧憬。",
     "rarity": 3,
     "type": 1,
-    "drop": ["40級以上幼岩龍蜥掉落", "合成獲得"]
+    "drop": ["40級以上幼岩龍蜥掉落", "40級以上岩龍蜥掉落", "合成獲得"]
   },
   {
     "id": "FossilizedBoneShard",
     "name": "Fossilized Bone Shard",
     "localeName": "石化的骨片",
-    "desc": "擊敗幼龍蜥後有時能找到的石化骨片。\n幼龍蜥都夢想著成長為真正的龍。會把古老的化石認作是龍之骨而加以珍惜，或許是因為希冀著龍的永恆與強大吧。",
+    "desc": "擊敗龍蜥後有時能找到的石化骨片。\n龍蜥都夢想著成長為真正的龍。會把古老的化石認作是龍之骨而加以珍惜，或許是因為希冀著龍的永恆與強大吧。",
     "rarity": 4,
     "type": 1,
-    "drop": ["60級以上幼岩龍蜥掉落", "合成獲得"]
+    "drop": ["60級以上幼岩龍蜥掉落", "60級以上岩龍蜥掉落", "合成獲得"]
   },
   {
     "id": "HurricaneSeed",
@@ -2911,7 +3077,7 @@
     "id": "BasaltPillar",
     "name": "Basalt Pillar",
     "localeName": "玄岩之塔",
-    "desc": "無相之岩的外殼構成的石柱。由純粹的岩元素高度濃縮而成。\n岩元素之最為沉重的元素。無相之岩將外殼築成高聳的岩柱，將自己抬升至高處，或許不僅是為了應敵。或許也是為了更加接近與它無緣的天空吧。",
+    "desc": "無相之岩的外殼構成的石柱。由純粹的岩元素高度濃縮而成。\n岩元素是最為沉重的元素。無相之岩將外殼築成高聳的岩柱，將自己抬升至高處，或許不僅是為了應敵。或許也是為了更加接近與它無緣的天空吧。",
     "rarity": 4,
     "type": 1,
     "drop": ["30級以上無相之岩掉落"]
@@ -2969,6 +3135,15 @@
     "rarity": 5,
     "type": 1,
     "drop": ["70級以上公子挑戰獎勵"]
+  },
+  {
+    "id": "JuvenileJade",
+    "name": "Juvenile Jade",
+    "localeName": "未熟之玉",
+    "desc": "從古岩龍蜥處取來的結晶物質，蘊含著成為龍的可能性。\n沉眠在山岳中的龍蜥體內，會析出這種黯淡的晶石。璃月有坊間傳說認為，力量隨著年月積聚，而這種晶石最終會取代原本的心臟，而龍蜥也會成為真正的龍，撼動山岳、撕裂大地。",
+    "rarity": 4,
+    "type": 1,
+    "drop": ["30級以上古岩龍蜥掉落"]
   },
   {
     "id": "TileofDecarabiansTower",
@@ -3253,25 +3428,28 @@
     "id": "LanternFiber",
     "name": "Lantern Fiber",
     "localeName": "燈紙纖維",
-    "desc": "從<color=#FF5E41FF>愚人眾、丘丘人</color>與<color=#FF5E41FF>深淵法師</color>等敵人身上取得，也有可能從植物中採集獲得。\n隨處可見的纖維素。特殊處理後，可以製成霄燈的燈皮，讓它承載著良善的願望飄向遠方。\n可在璃月尋找<color=#3399CCFF>梟總管</color>兌換。",
+    "desc": "海燈節期間，用以製作「霄燈」的材料。\n隨處可見的纖維素。經特殊處理後，可以製成霄燈的燈芯，讓它承載著良善的願望飄向遠方。",
     "rarity": 3,
-    "type": 4
+    "type": 4,
+    "drop": ["植物類採集物中取得"]
   },
   {
     "id": "WickMaterial",
     "name": "Wick Material",
     "localeName": "燈芯絨材",
-    "desc": "從<color=#FF5E41FF>毛茸茸的敵人</color>與<color=#FF5E41FF>小動物</color>身上取得，也有可能從植物中採集獲得。\n隨處可見的絨材。特殊處理後，可以製成霄燈的燈芯，讓它承載著良善的願望飄向遠方。\n可在璃月尋找<color=#3399CCFF>梟總管</color>兌換。",
+    "desc": "海燈節期間，用以製作「霄燈」的材料。\n隨處可見的絨材。經特殊處理後，可以製成霄燈的燈芯，讓它承載著良善的願望飄向遠方。",
     "rarity": 3,
-    "type": 4
+    "type": 4,
+    "drop": ["丘丘人系列魔物產出", "愚人眾精英產出"]
   },
   {
     "id": "PlaustriteShard",
     "name": "Plaustrite Shard",
     "localeName": "浮生石片",
-    "desc": "伴生著<color=#FF5E41FF>礦物</color>產生，其中的魔力對<color=#FF5E41FF>魔物</color>與<color=#FF5E41FF>惡人</color>也有著天然的吸引力。\n能自行懸浮的神秘元素石片，是霄燈飛往遙遠天際線的秘密，傳說也是「群玉閣」漂浮的動力來源。\n可在璃月尋找<color=#3399CCFF>梟總管</color>兌換。",
+    "desc": "海燈節期間，用以製作「霄燈」的材料。\n能自行懸浮的神秘元素石片，是霄燈飛往遙遠天際線的秘密，傳說也是「群玉閣」漂浮的動力來源。",
     "rarity": 3,
-    "type": 4
+    "type": 4,
+    "drop": ["礦物類採集物中取得", "幼岩龍蜥、岩龍蜥產出", "丘丘岩盔王產出"]
   },
   { "id": "RimeWornFragment", "name": "Rime-Worn Fragment", "localeName": "霜噬碎屑", "desc": "從龍脊雪山的魔物處提取出來的小塊結晶。\n僅僅會在特殊的時期產生。", "rarity": 3, "type": 7 },
   { "id": "RimeWornCrystal", "name": "Rime-Worn Crystal", "localeName": "霜噬結晶", "desc": "從龍脊雪山的魔物處提取出來的結晶塊。\n僅僅會在特殊的時期產生。", "rarity": 3, "type": 7 },
@@ -3719,6 +3897,51 @@
     "rarity": 4,
     "type": 6,
     "drop": ["「無相交響詩」活動獲得。"]
+  },
+  {
+    "id": "XiaoMask",
+    "name": "Xiao: Mask",
+    "localeName": "魈·儺面",
+    "desc": "名片紋飾。\n他總想著有一天，能帶著這儺面起舞。不為除魔之故，只為伴隨那花洲的笛聲。",
+    "rarity": 4,
+    "type": 6,
+    "drop": ["魈的好感等級達10級時獲得。"]
+  },
+  {
+    "id": "HuTaoSpiritSoother",
+    "name": "Hu Tao: Spirit Soother",
+    "localeName": "胡桃·安神",
+    "desc": "名片紋飾。\n胡桃堂主一點都不可怕。大概。",
+    "rarity": 4,
+    "type": 6,
+    "drop": ["胡桃的好感等級達10級時獲得。"]
+  },
+  {
+    "id": "TravelNotesMingxiao",
+    "name": "Travel Notes: Mingxiao",
+    "localeName": "紀行·明霄",
+    "desc": "名片紋飾。\n大家的願望聚在一起，就能變成點亮長夜的光。",
+    "rarity": 4,
+    "type": 6,
+    "drop": ["紀行系統獎勵獲得。"]
+  },
+  {
+    "id": "CelebrationLanternLight",
+    "name": "Celebration: Lantern-Light",
+    "localeName": "慶典·燈晝",
+    "desc": "名片紋飾。\n年年今日，燈明如晝。願火不滅，願人依舊。",
+    "rarity": 4,
+    "type": 6,
+    "drop": ["海燈節活動商店兌換"]
+  },
+  {
+    "id": "CelebrationMechanicus",
+    "name": "Celebration: Mechanicus",
+    "localeName": "慶典·棋譚",
+    "desc": "名片紋飾。\n你道你見過機關算盡，可你真算到了自己也要下場當棋子嗎？",
+    "rarity": 4,
+    "type": 6,
+    "drop": ["「機關棋譚」活動取得。"]
   },
   {
     "id": "CondensedResin",

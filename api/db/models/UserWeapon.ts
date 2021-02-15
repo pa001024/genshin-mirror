@@ -1,4 +1,6 @@
-import { getModelForClass, prop } from "@typegoose/typegoose";
+import { getModelForClass, prop, Ref } from "@typegoose/typegoose";
+import { Field, ID, Int, ObjectType } from "type-graphql";
+import { Types } from "mongoose";
 import { User } from "./User";
 import type { IUserWeapon } from "~/modules/core";
 
@@ -8,25 +10,34 @@ import type { IUserWeapon } from "~/modules/core";
  * @export
  * @class Weapon
  */
+@ObjectType()
 export class UserWeapon implements IUserWeapon {
+  @Field(() => ID)
+  public id!: string;
+
   /** 拥有者 */
-  @prop({ ref: () => User, index: true, required: true })
-  public owner!: User | string;
+  @Field(() => User)
+  @prop({ type: Types.ObjectId, index: true, required: true })
+  public owner!: Ref<User>;
 
   /** 类型id */
-  @prop({ type: String, required: true })
+  @Field()
+  @prop({ required: true })
   public weaponId!: string;
 
   /** 等级 */
-  @prop({ type: Number, required: true, default: 1 })
+  @Field(() => Int)
+  @prop({ required: true, default: 1 })
   public level!: number;
 
   /** 突破等级 */
-  @prop({ type: Number, required: true })
+  @Field(() => Int)
+  @prop({ required: true })
   public promoteLevel!: number;
 
   /** 精炼等级 */
-  @prop({ type: Number, required: true })
+  @Field(() => Int)
+  @prop({ required: true })
   public refineLevel!: number;
 }
 

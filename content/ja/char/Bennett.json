@@ -98,7 +98,7 @@
     "paramTpls": [
       "一回押しダメージ|{param1:P}",
       "1段チャージダメージ|{param2:F1P}+{param3:F1P}",
-      "二段チャージダメージ|{param4:F1P}+{param5:F1P}",
+      "2段チャージダメージ|{param4:F1P}+{param5:F1P}",
       "爆発ダメージ|{param6:P}",
       "クールタイム|{param7:F1}/{param8:F1}/{param9:F1}秒"
     ],
@@ -205,7 +205,7 @@
     { "name": "開拓の心意気", "desc": "<color=#FFD780FF>素晴らしい旅</color>のスキルLv.+3。\n最大Lv.15まで。" },
     {
       "name": "烈火と勇気",
-      "desc": "<color=#FFD780FF>素晴らしい旅</color>エリア内にいる片手剣、両手剣、長柄武器キャラクターの<color=#FF9999FF>炎元素ダメージ</color>+15%、さらに<color=#FF9999FF>炎元素バフ</color>を獲得する。",
+      "desc": "<color=#FFD780FF>素晴らしい旅</color>エリア内にいる片手剣、両手剣、長柄武器キャラクターの<color=#FF9999FF>炎元素ダメージ</color>+15%、さらに<color=#FF9999FF>炎元素付与</color>状態を獲得する。",
       "values": [0.15]
     }
   ]

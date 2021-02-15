@@ -1,51 +1,55 @@
-import { getModelForClass, prop } from "@typegoose/typegoose";
+import { getModelForClass, prop, Ref } from "@typegoose/typegoose";
+import { Field, ID, Int, ObjectType } from "type-graphql";
 import { User } from "./User";
 import type { IArtifact as IUserArtifact, IAttr } from "~/modules/core";
 
-/**
- * 圣遗物
- *
- * @export
- * @class Artifact
- */
+/** 属性 */
+@ObjectType()
+export class Attr implements IAttr {
+  @Field()
+  @prop({ required: true })
+  type!: number;
+
+  @Field()
+  @prop({ required: true })
+  value!: number;
+}
+
+/** 圣遗物 */
+@ObjectType()
 export class UserArtifact implements IUserArtifact {
+  @Field(() => ID)
+  public id!: string;
+
   /** 拥有者 */
-  @prop({ ref: () => User, index: true })
-  public owner!: string;
+  @Field(() => User)
+  @prop({ ref: "User", required: true, index: true, localField: "owner", foreignField: "_id" })
+  public owner!: Ref<User>;
 
   /** 类型id */
-  @prop({ type: Number, required: true })
+  @Field(() => Int)
+  @prop({ required: true })
   public typeId!: number;
 
   /** 等级 */
-  @prop({ type: Number, required: true, default: 0 })
+  @Field(() => Int)
+  @prop({ required: true, default: 0 })
   public level!: number;
 
   /** 主属性类型 */
-  @prop({ type: Number, required: true })
+  @Field(() => Int)
+  @prop({ required: true })
   public main!: number;
 
   /** 副属性 */
-  @prop({ type: () => [Attr] })
+  @Field(() => [Attr])
+  @prop({ type: Attr })
   public attrs!: Attr[];
 
   // 评分
-  @prop({ type: Number })
+  @Field()
+  @prop()
   public score?: number;
-}
-
-/**
- * 属性
- *
- * @class Attr
- */
-export class Attr implements IAttr {
-  //
-  @prop({ type: Number, required: true })
-  type!: number;
-
-  @prop({ type: Number, required: true })
-  value!: number;
 }
 
 export const UserArtifactModel = getModelForClass(UserArtifact);

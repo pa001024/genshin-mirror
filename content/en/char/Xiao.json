@@ -2,10 +2,10 @@
   "id": "Xiao",
   "name": "Xiao",
   "localeName": "Xiao",
-  "desc": "A yaksha adeptus that defends Liyue. Also heralded as the \"Conqueror of Demons\" or \"Guardian Yaksha.\"",
+  "desc": "A yaksha adeptus who defends Liyue. Also heralded as the \"Conqueror of Demons\" and \"Vigilant Yaksha.\"",
   "baseHP": 991.45,
-  "baseATK": 25.323,
-  "baseDEF": 64.018,
+  "baseATK": 27.185,
+  "baseDEF": 62.223,
   "bodyType": 0,
   "rarity": 5,
   "weapon": 3,
@@ -19,77 +19,77 @@
         { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 3 }
       ],
       "HP": 850.08,
-      "ATK": 21.711,
-      "DEF": 54.891,
+      "ATK": 23.307,
+      "DEF": 53.352,
       "extra": 0
     },
     {
       "level": 2,
       "itemCost": [
         { "id": "VayudaTurquoiseFragment", "name": "Vayuda Turquoise Fragment", "count": 3 },
-        { "id": "unknown", "name": "???", "count": 2 },
+        { "id": "JuvenileJade", "name": "Juvenile Jade", "count": 2 },
         { "id": "Qingxin", "name": "Qingxin", "count": 10 },
         { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 15 }
       ],
       "HP": 1454.1,
-      "ATK": 37.137,
-      "DEF": 93.893,
-      "extra": 0.072
+      "ATK": 39.867,
+      "DEF": 91.26,
+      "extra": 0.048
     },
     {
       "level": 3,
       "itemCost": [
         { "id": "VayudaTurquoiseFragment", "name": "Vayuda Turquoise Fragment", "count": 6 },
-        { "id": "unknown", "name": "???", "count": 4 },
+        { "id": "JuvenileJade", "name": "Juvenile Jade", "count": 4 },
         { "id": "Qingxin", "name": "Qingxin", "count": 20 },
         { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 12 }
       ],
       "HP": 2259.4,
-      "ATK": 57.705,
-      "DEF": 145.89,
-      "extra": 0.144
+      "ATK": 61.948,
+      "DEF": 141.8,
+      "extra": 0.096
     },
     {
       "level": 4,
       "itemCost": [
         { "id": "VayudaTurquoiseChunk", "name": "Vayuda Turquoise Chunk", "count": 3 },
-        { "id": "unknown", "name": "???", "count": 8 },
+        { "id": "JuvenileJade", "name": "Juvenile Jade", "count": 8 },
         { "id": "Qingxin", "name": "Qingxin", "count": 30 },
         { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 18 }
       ],
       "HP": 2863.4,
-      "ATK": 73.131,
-      "DEF": 184.9,
-      "extra": 0.144
+      "ATK": 78.508,
+      "DEF": 179.71,
+      "extra": 0.096
     },
     {
       "level": 5,
       "itemCost": [
         { "id": "VayudaTurquoiseChunk", "name": "Vayuda Turquoise Chunk", "count": 6 },
-        { "id": "unknown", "name": "???", "count": 12 },
+        { "id": "JuvenileJade", "name": "Juvenile Jade", "count": 12 },
         { "id": "Qingxin", "name": "Qingxin", "count": 45 },
         { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 12 }
       ],
       "HP": 3467.4,
-      "ATK": 88.557,
-      "DEF": 223.9,
-      "extra": 0.216
+      "ATK": 95.069,
+      "DEF": 217.62,
+      "extra": 0.144
     },
     {
       "level": 6,
       "itemCost": [
         { "id": "VayudaTurquoiseGemstone", "name": "Vayuda Turquoise Gemstone", "count": 6 },
-        { "id": "unknown", "name": "???", "count": 20 },
+        { "id": "JuvenileJade", "name": "Juvenile Jade", "count": 20 },
         { "id": "Qingxin", "name": "Qingxin", "count": 60 },
         { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 24 }
       ],
       "HP": 4071.4,
-      "ATK": 103.98,
-      "DEF": 262.9,
-      "extra": 0.288
+      "ATK": 111.63,
+      "DEF": 255.53,
+      "extra": 0.192
     }
   ],
-  "ascensionType": 27,
+  "ascensionType": 12,
   "element": 1,
   "elemSkill": {
     "name": "Lemniscatic Wind Cycling",
@@ -97,77 +97,85 @@
     "cd": 10,
     "paramTpls": ["Skill DMG|{param1:P}", "CD|{param2:F1}s"],
     "paramVals": [
-      [2.288, 10],
-      [2.4596, 10],
-      [2.6312, 10],
-      [2.86, 10],
-      [3.0316, 10],
-      [3.2032, 10],
-      [3.432, 10],
-      [3.6608, 10],
-      [3.8896, 10],
-      [4.1184, 10],
-      [4.3472, 10],
-      [4.576, 10],
-      [4.862, 10],
-      [5.148, 10],
-      [5.434, 10]
+      [2.528, 10],
+      [2.7176, 10],
+      [2.9072, 10],
+      [3.16, 10],
+      [3.3496, 10],
+      [3.5392, 10],
+      [3.792, 10],
+      [4.0448, 10],
+      [4.2976, 10],
+      [4.5504, 10],
+      [4.8032, 10],
+      [5.056, 10],
+      [5.372, 10],
+      [5.688, 10],
+      [6.004, 10]
     ]
   },
   "elemBurst": {
     "name": "Bane of All Evil",
-    "desc": "Xiao dons the Yaksha Mask that set gods and demons trembling millennia ago.\n\n<color=#FFD780FF>Yaksha's Mask</color>\n·Greatly increases Xiao's jumping ability.\n·Increases his attack AoE and attack DMG.\n·Converts attack DMG into <color=#80FFD7FF>Anemo DMG</color>, which cannot be overridden by any other elemental infusion.\n\nIn this state, Xiao will continuously lose HP.\nThe effects of this skill end when Xiao leaves the field.\n\n<i>Donning the mask of the yaksha, Xiao becomes the Conqueror of Demons. But this great power has also brought him great suffering. Some call him \"The Bane of All Evil.\"</i>",
-    "cd": 20,
-    "energyCost": 80,
-    "paramTpls": ["Normal Attack/Charged Attack DMG Bonus|{param1:F1P}", "Life Drain|{param2:F1P} Current HP Per Second", "Duration|{param3:F1}s", "CD|{param4:F1}s", "Energy Cost|{param5:I}"],
+    "desc": "Xiao dons the Yaksha Mask that set gods and demons trembling millennia ago.\n\n<color=#FFD780FF>Yaksha's Mask</color>\n·Greatly increases Xiao's jumping ability.\n·Increases his attack AoE and attack DMG.\n·Converts attack DMG into <color=#80FFD7FF>Anemo DMG</color>, which cannot be overridden by any other elemental infusion.\n\nIn this state, Xiao will continuously lose HP.\nThe effects of this skill end when Xiao leaves the field.\n\n<i>Donning the Mask of the Yaksha, Xiao takes the terrifying, demon-conquering form of the Vigilant Yaksha. But this great power has also brought him great suffering. Some call him \"The Bane of All Evil.\"</i>",
+    "cd": 18,
+    "energyCost": 70,
+    "paramTpls": [
+      "Normal Attack/Charged Attack/Plunging Attack DMG Bonus|{param1:F1P}",
+      "Life Drain|{param2:F1P} Current HP Per Second",
+      "Duration|{param3:F1}s",
+      "CD|{param4:F1}s",
+      "Energy Cost|{param5:I}"
+    ],
     "paramVals": [
-      [0.62625, 0.03, 15, 20, 80],
-      [0.66375, 0.03, 15, 20, 80],
-      [0.70125, 0.03, 15, 20, 80],
-      [0.75, 0.025, 16, 20, 80],
-      [0.7875, 0.025, 16, 20, 80],
-      [0.825, 0.025, 16, 20, 80],
-      [0.87375, 0.02, 17, 20, 80],
-      [0.9225, 0.02, 17, 20, 80],
-      [0.97125, 0.02, 17, 20, 80],
-      [1.02, 0.02, 17, 20, 80],
-      [1.0688, 0.02, 17, 20, 80],
-      [1.1175, 0.02, 17, 20, 80],
-      [1.1662, 0.02, 17, 20, 80],
-      [1.215, 0.02, 17, 20, 80],
-      [1.2637, 0.02, 17, 20, 80]
+      [0.5845, 0.03, 15, 18, 70],
+      [0.6195, 0.03, 15, 18, 70],
+      [0.6545, 0.03, 15, 18, 70],
+      [0.7, 0.025, 15, 18, 70],
+      [0.735, 0.025, 15, 18, 70],
+      [0.77, 0.025, 15, 18, 70],
+      [0.8155, 0.02, 15, 18, 70],
+      [0.861, 0.02, 15, 18, 70],
+      [0.9065, 0.02, 15, 18, 70],
+      [0.952, 0.02, 15, 18, 70],
+      [0.9975, 0.02, 15, 18, 70],
+      [1.043, 0.02, 15, 18, 70],
+      [1.0885, 0.02, 15, 18, 70],
+      [1.134, 0.02, 15, 18, 70],
+      [1.1795, 0.02, 15, 18, 70]
     ]
   },
   "attackSkill": {
     "name": "Normal Attack: Whirlwind Thrust",
-    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 6 consecutive spear strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to perform an upward thrust.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 6 consecutive spear strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to perform an upward thrust.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\nXiao does not take DMG from performing Plunging Attacks.",
     "cd": 0,
     "paramTpls": [
-      "1-Hit DMG|{param1:P}+{param2:P}",
-      "2-Hit DMG|{param3:P}",
-      "3-Hit DMG|{param4:P}",
-      "4-Hit DMG|{param5:P}+{param6:P}",
-      "5-Hit DMG|{param7:P}",
-      "6-Hit DMG|{param8:P}",
-      "Plunge DMG|{param9:P}",
-      "Low/High Plunge DMG|{param10:P}/{param11:P}"
+      "1-Hit DMG|{param1:F1P}+{param2:F1P}",
+      "2-Hit DMG|{param3:F1P}",
+      "3-Hit DMG|{param4:F1P}",
+      "4-Hit DMG|{param5:F1P}+{param6:F1P}",
+      "5-Hit DMG|{param7:F1P}",
+      "6-Hit DMG|{param8:F1P}",
+      "Charged Attack DMG|{param9:P}",
+      "Charged Attack Stamina Cost|{param10:F1}",
+      "Plunge DMG|{param11:P}",
+      "Low/High Plunge DMG|{param12:P}/{param13:P}"
     ],
     "paramVals": [
-      [0.27544, 0.27544, 0.56936, 0.68552, 0.37664, 0.37664, 0.71544, 0.95832, 0.72688, 1.4538, 1.8172],
-      [0.29422, 0.29422, 0.60818, 0.73226, 0.40232, 0.40232, 0.76422, 1.0237, 0.77644, 1.5529, 1.9411],
-      [0.313, 0.313, 0.647, 0.779, 0.428, 0.428, 0.813, 1.089, 0.826, 1.652, 2.065],
-      [0.33804, 0.33804, 0.69876, 0.84132, 0.46224, 0.46224, 0.87804, 1.1761, 0.89208, 1.7842, 2.2302],
-      [0.35682, 0.35682, 0.73758, 0.88806, 0.48792, 0.48792, 0.92682, 1.2415, 0.94164, 1.8833, 2.3541],
-      [0.37873, 0.37873, 0.78287, 0.94259, 0.51788, 0.51788, 0.98373, 1.3177, 0.99946, 1.9989, 2.4987],
-      [0.4069, 0.4069, 0.8411, 1.0127, 0.5564, 0.5564, 1.0569, 1.4157, 1.0738, 2.1476, 2.6845],
-      [0.43507, 0.43507, 0.89933, 1.0828, 0.59492, 0.59492, 1.1301, 1.5137, 1.1481, 2.2963, 2.8703],
-      [0.46324, 0.46324, 0.95756, 1.1529, 0.63344, 0.63344, 1.2032, 1.6117, 1.2225, 2.445, 3.0562],
-      [0.49141, 0.49141, 1.0158, 1.223, 0.67196, 0.67196, 1.2764, 1.7097, 1.2968, 2.5936, 3.242],
-      [0.51958, 0.51958, 1.074, 1.2931, 0.71048, 0.71048, 1.3496, 1.8077, 1.3712, 2.7423, 3.4279],
-      [0.54775, 0.54775, 1.1322, 1.3633, 0.749, 0.749, 1.4227, 1.9058, 1.4455, 2.891, 3.6137],
-      [0.57592, 0.57592, 1.1905, 1.4334, 0.78752, 0.78752, 1.4959, 2.0038, 1.5198, 3.0397, 3.7996],
-      [0.60409, 0.60409, 1.2487, 1.5035, 0.82604, 0.82604, 1.5691, 2.1018, 1.5942, 3.1884, 3.9855],
-      [0.63226, 0.63226, 1.3069, 1.5736, 0.86456, 0.86456, 1.6423, 2.1998, 1.6685, 3.337, 4.1713]
+      [0.27544, 0.27544, 0.56936, 0.68552, 0.37664, 0.37664, 0.71544, 0.95832, 1.2109, 25, 0.81833, 1.6363, 2.0439],
+      [0.29422, 0.29422, 0.60818, 0.73226, 0.40232, 0.40232, 0.76422, 1.0237, 1.2934, 25, 0.88494, 1.7695, 2.2102],
+      [0.313, 0.313, 0.647, 0.779, 0.428, 0.428, 0.813, 1.089, 1.376, 25, 0.95155, 1.9027, 2.3766],
+      [0.33804, 0.33804, 0.69876, 0.84132, 0.46224, 0.46224, 0.87804, 1.1761, 1.4861, 25, 1.0467, 2.093, 2.6142],
+      [0.35682, 0.35682, 0.73758, 0.88806, 0.48792, 0.48792, 0.92682, 1.2415, 1.5686, 25, 1.1133, 2.2262, 2.7806],
+      [0.37873, 0.37873, 0.78287, 0.94259, 0.51788, 0.51788, 0.98373, 1.3177, 1.665, 25, 1.1894, 2.3784, 2.9707],
+      [0.4069, 0.4069, 0.8411, 1.0127, 0.5564, 0.5564, 1.0569, 1.4157, 1.7888, 25, 1.2941, 2.5877, 3.2321],
+      [0.43507, 0.43507, 0.89933, 1.0828, 0.59492, 0.59492, 1.1301, 1.5137, 1.9126, 25, 1.3988, 2.797, 3.4936],
+      [0.46324, 0.46324, 0.95756, 1.1529, 0.63344, 0.63344, 1.2032, 1.6117, 2.0365, 25, 1.5035, 3.0063, 3.755],
+      [0.49141, 0.49141, 1.0158, 1.223, 0.67196, 0.67196, 1.2764, 1.7097, 2.1603, 25, 1.6176, 3.2346, 4.0402],
+      [0.51958, 0.51958, 1.074, 1.2931, 0.71048, 0.71048, 1.3496, 1.8077, 2.2842, 25, 1.7318, 3.4629, 4.3254],
+      [0.54775, 0.54775, 1.1322, 1.3633, 0.749, 0.749, 1.4227, 1.9058, 2.408, 25, 1.846, 3.6912, 4.6106],
+      [0.57592, 0.57592, 1.1905, 1.4334, 0.78752, 0.78752, 1.4959, 2.0038, 2.5318, 25, 1.9602, 3.9196, 4.8957],
+      [0.60409, 0.60409, 1.2487, 1.5035, 0.82604, 0.82604, 1.5691, 2.1018, 2.6557, 25, 2.0744, 4.1479, 5.1809],
+      [0.63226, 0.63226, 1.3069, 1.5736, 0.86456, 0.86456, 1.6423, 2.1998, 2.7795, 25, 2.1886, 4.3762, 5.4661]
     ]
   },
   "talents": [
@@ -179,13 +187,13 @@
     },
     {
       "name": "Dissolution Eon: Heaven Fall",
-      "desc": "Using <color=#FFD780FF>Lemniscatic Wind Cycling</color> increases the DMG of subsequent uses of Lemniscatic Wind Cycling by 15%.\nThis effect lasts for 6s, and has a maximum of 3 stacks. Gaining a new stack refreshes the effect's duration.",
+      "desc": "Using <color=#FFD780FF>Lemniscatic Wind Cycling</color> increases the DMG of subsequent uses of Lemniscatic Wind Cycling by 15%.\nThis effect lasts for 7s, and has a maximum of 3 stacks. Gaining a new stack refreshes the effect's duration.",
       "unlock": 4,
-      "values": [6, 0.15, 3]
+      "values": [7, 0.15, 3]
     },
     {
       "name": "Transcension: Gravity Defier",
-      "desc": "Decreases climbing Stamina consumption for your own party members by 20%, and decreases fall DMG by 50%.\nNot stackable with Passive Talents that provide the exact same effects."
+      "desc": "Decreases climbing Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
     }
   ],
   "c13ns": [

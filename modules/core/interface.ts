@@ -324,3 +324,14 @@ export interface IItem {
   rarity: number;
   drop?: string[];
 }
+
+export interface IUserBuild {
+  // /** 标识符 */ id?: string;
+  /** 用户ID */ author?: string;
+  /** 标题 */ title?: string;
+  /** 核心角色id */ cores?: string[];
+  /** 标签 */ tags?: string[];
+  /** 封面图片地址 */ cover?: string;
+  /** 描述 */ desc?: string;
+  /** 角色 */ avatars: IUserAvatar[];
+}

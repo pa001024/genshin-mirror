@@ -1,0 +1,32 @@
+query UserCharacters {
+  userCharacters {
+    id
+    # owner {
+    #   id
+    #   username
+    # }
+    avatarId
+    level
+    promoteLevel
+    talentLevel
+    attackLevel
+    eLevel
+    qLevel
+    artifacts {
+      typeId
+    }
+  }
+}
+
+mutation SetUserCharacter($data: UserAvatarInput!) {
+  setUserCharacter(data: $data) {
+    id
+    avatarId
+  }
+}
+
+mutation RemoveUserCharacter($id: String!) {
+  removeUserCharacter(id: $id) {
+    id
+  }
+}

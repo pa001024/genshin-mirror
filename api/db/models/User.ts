@@ -1,4 +1,13 @@
-import { getModelForClass, pre, prop } from "@typegoose/typegoose";
+import { Types } from "mongoose";
+import { getModelForClass, pre, prop, Ref } from "@typegoose/typegoose";
+import { Field, ID, ObjectType } from "type-graphql";
+import { UserAvatar } from "./UserAvatar";
+
+export enum UserType {
+  BANNED,
+  NORMAL,
+  ADMIN,
+}
 
 /**
  * 用户
@@ -9,40 +18,60 @@ import { getModelForClass, pre, prop } from "@typegoose/typegoose";
 @pre<User>("save", function () {
   this.lastUpdate = new Date();
 })
+@ObjectType()
 export class User {
-  @prop({ type: String, required: true, unique: true })
+  @Field(() => ID)
+  public id!: string;
+
+  @Field()
+  @prop({ type: String, required: true, unique: true, index: true })
   public email!: string;
 
-  @prop({ type: String })
+  @Field()
+  @prop()
   public username?: string;
 
   // 类型 普通用户=1
-  @prop({ type: Number })
-  public type?: number;
+  @Field()
+  @prop({ enum: UserType, type: Number })
+  public type?: UserType;
 
   // password
-  @prop({ type: String, required: true })
+  @Field()
+  @prop({ required: true, select: false })
   public pass!: string;
 
   // 旅行者性别
-  @prop({ type: Number })
+  @Field()
+  @prop()
   public travelerGender!: number;
 
   // 平台
-  @prop({ type: String })
+  @Field()
+  @prop()
   public platform!: string;
 
   // 服务器
-  @prop({ type: String })
+  @Field()
+  @prop()
   public server!: string;
 
   // 最后更新
+  @Field()
   @prop({ type: Date, default: Date.now })
   public lastUpdate!: Date;
 
   // 最后登录
+  @Field()
   @prop({ type: Date, default: Date.now })
   public lastLogin!: Date;
+
+  @prop({
+    ref: () => UserAvatar,
+    foreignField: "owner",
+    localField: "_id",
+  })
+  public avatars?: Ref<UserAvatar>[];
 }
 
 export const UserModel = getModelForClass(User);

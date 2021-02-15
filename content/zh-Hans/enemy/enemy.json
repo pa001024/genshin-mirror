@@ -1,15 +1,5 @@
 [
-  {
-    "id": "Hilichurl",
-    "name": "Hilichurl",
-    "localeName": "丘丘人",
-    "desc": "",
-    "baseHP": 13.584,
-    "baseATK": 22.608,
-    "baseDEF": 500,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
+  { "id": "Hilichurl", "name": "Hilichurl", "localeName": "丘丘人", "desc": "", "baseHP": 13.584, "baseATK": 22.608, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
   {
     "id": "WoodenShieldwallMitachurl",
     "name": "Wooden Shieldwall Mitachurl",
@@ -147,11 +137,22 @@
     "name": "Childe",
     "localeName": "「公子」",
     "desc": "守望着奔狼领的崇高灵魂。\n当群狼受到威胁时，会以狼的姿态现世，展现自己的苍牙与利爪。传说其力量来自远古的魔神。",
-    "baseHP": 81.504,
-    "baseATK": 37.68,
+    "baseHP": 135.84,
+    "baseATK": 50.24,
     "baseDEF": 500,
     "type": 4,
-    "resist": [0, 0, 0.5, 0, 0, 0, 0, 0]
+    "resist": [0, 0, 0.7, 0.7, 0, 0, 0, 0]
+  },
+  {
+    "id": "Azhdaha",
+    "name": "Azhdaha",
+    "localeName": "若陀龙王",
+    "desc": "盘踞在废墟当中的风之魔龙。\n乘风而行，操使着暴风的伟大力量，对蒙德的和平构成了巨大的威胁。\n在它的阴影之下，似乎还有着其他的秘密…",
+    "baseHP": 244.51,
+    "baseATK": 75.36,
+    "baseDEF": 500,
+    "type": 4,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
   {
     "id": "EyeoftheStorm",
@@ -241,17 +242,7 @@
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
-  {
-    "id": "CryoSlime",
-    "name": "Cryo Slime",
-    "localeName": "冰史莱姆",
-    "desc": "",
-    "baseHP": 10.867,
-    "baseATK": 7.536,
-    "baseDEF": 500,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
+  { "id": "CryoSlime", "name": "Cryo Slime", "localeName": "冰史莱姆", "desc": "", "baseHP": 10.867, "baseATK": 7.536, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
   {
     "id": "LargeCryoSlime",
     "name": "Large Cryo Slime",
@@ -527,17 +518,7 @@
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
-  {
-    "id": "PyroSlime",
-    "name": "Pyro Slime",
-    "localeName": "火史莱姆",
-    "desc": "",
-    "baseHP": 10.867,
-    "baseATK": 7.536,
-    "baseDEF": 500,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
+  { "id": "PyroSlime", "name": "Pyro Slime", "localeName": "火史莱姆", "desc": "", "baseHP": 10.867, "baseATK": 7.536, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
   {
     "id": "LargePyroSlime",
     "name": "Large Pyro Slime",
@@ -549,17 +530,7 @@
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
-  {
-    "id": "GeoSlime",
-    "name": "Geo Slime",
-    "localeName": "岩史莱姆",
-    "desc": "",
-    "baseHP": 10.867,
-    "baseATK": 7.536,
-    "baseDEF": 500,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
-  },
+  { "id": "GeoSlime", "name": "Geo Slime", "localeName": "岩史莱姆", "desc": "", "baseHP": 10.867, "baseATK": 7.536, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
   {
     "id": "LargeGeoSlime",
     "name": "Large Geo Slime",
@@ -1033,6 +1004,18 @@
     "type": 2,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.3]
   },
+  { "id": "Geovishap", "name": "Geovishap", "localeName": "岩龙蜥", "desc": "", "baseHP": 108.67, "baseATK": 37.68, "baseDEF": 500, "type": 2, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.3] },
+  {
+    "id": "PrimoGeovishap",
+    "name": "Primo Geovishap",
+    "localeName": "古岩龙蜥",
+    "desc": "",
+    "baseHP": 407.52,
+    "baseATK": 50.24,
+    "baseDEF": 500,
+    "type": 3,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.3]
+  },
   {
     "id": "ElectroCicin",
     "name": "Electro Cicin",
@@ -1044,26 +1027,6 @@
     "type": 1,
     "resist": [0.1, 0.1, 0.1, 0.5, 0.1, 0.1, 0.1, -0.5]
   },
-  {
-    "id": "HydroCicin",
-    "name": "Hydro Cicin",
-    "localeName": "水萤",
-    "desc": "",
-    "baseHP": 6.792,
-    "baseATK": 10.048,
-    "baseDEF": 500,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.5, 0.1, 0.1, 0.1, 0.1, -0.5]
-  },
-  {
-    "id": "CryoCicin",
-    "name": "Cryo Cicin",
-    "localeName": "冰萤",
-    "desc": "",
-    "baseHP": 6.792,
-    "baseATK": 10.048,
-    "baseDEF": 500,
-    "type": 1,
-    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.1, -0.5]
-  }
+  { "id": "HydroCicin", "name": "Hydro Cicin", "localeName": "水萤", "desc": "", "baseHP": 6.792, "baseATK": 10.048, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.5, 0.1, 0.1, 0.1, 0.1, -0.5] },
+  { "id": "CryoCicin", "name": "Cryo Cicin", "localeName": "冰萤", "desc": "", "baseHP": 6.792, "baseATK": 10.048, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.1, -0.5] }
 ]

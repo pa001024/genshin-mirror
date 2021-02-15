@@ -1,21 +1,10 @@
-import { getModelForClass, prop } from "@typegoose/typegoose";
+import { getModelForClass, prop, Ref } from "@typegoose/typegoose";
+import { Field, ID, Int, ObjectType } from "type-graphql";
+import { Types } from "mongoose";
 import { User } from "./User";
 import { UserArtifact } from "./UserArtifact";
-import type { IUserAvatar, IUserWeapon } from "~/modules/core";
-
-class UserWeapon implements IUserWeapon {
-  @prop({ type: String })
-  public weaponId!: string;
-
-  @prop({ type: Number })
-  public level!: number;
-
-  @prop({ type: Number })
-  public promoteLevel!: number;
-
-  @prop({ type: Number })
-  public refineLevel!: number;
-}
+import { UserWeapon } from "./UserWeapon";
+import type { IUserAvatar } from "~/modules/core";
 
 /**
  * 角色
@@ -23,44 +12,58 @@ class UserWeapon implements IUserWeapon {
  * @export
  * @class Char
  */
+@ObjectType()
 export class UserAvatar implements IUserAvatar {
-  /** 拥有者 */
-  @prop({ ref: () => User, index: true, required: true })
-  public owner!: User | string;
+  @Field(() => ID)
+  public id!: string;
 
+  /** 拥有者 */
+  @Field(() => User)
+  @prop({ type: Types.ObjectId, index: true, required: true })
+  public owner!: Ref<User>;
+
+  @Field()
   @prop({ type: String, required: true })
   public avatarId!: string;
 
   /** 等级 */
+  @Field(() => Int)
   @prop({ type: Number, required: true, default: 0 })
   public level!: number;
 
   /** 突破等级 */
+  @Field(() => Int)
   @prop({ type: Number, required: true })
   public promoteLevel!: number;
 
   /** 命座等级 */
+  @Field(() => Int)
   @prop({ type: Number, required: true })
   public talentLevel!: number;
 
   /** 普攻等级 */
+  @Field(() => Int)
   @prop({ type: Number, required: true })
   public attackLevel!: number;
 
   /** E等级 */
+  @Field(() => Int)
   @prop({ type: Number, required: true })
   public eLevel!: number;
 
   /** Q等级 */
+  @Field(() => Int)
   @prop({ type: Number, required: true })
   public qLevel!: number;
 
   /** 圣遗物 */
-  @prop({ ref: () => UserArtifact })
+  @Field(() => [UserArtifact], { nullable: true })
+  @prop({ ref: UserArtifact })
   public artifacts?: UserArtifact[];
 
   /** 武器 */
-  @prop({ type: () => UserWeapon })
+  @Field(() => UserWeapon, { nullable: true })
+  @prop({ ref: "UserWeapon" })
   public weapon?: UserWeapon;
 }
 

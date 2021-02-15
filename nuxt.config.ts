@@ -1,13 +1,9 @@
+import { NuxtConfig } from "@nuxt/types";
 import colors from "vuetify/es5/util/colors";
 
 require("dotenv").config();
 
-export default {
-  // Server Middleware
-  serverMiddleware: {
-    "/api": "~/api",
-  },
-
+const config: NuxtConfig = {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     titleTemplate: "%s",
@@ -19,13 +15,13 @@ export default {
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     // HMT
-    script: process.env.CI ? [{ src: "https://hm.baidu.com/hm.js?543c5e05f8df5c5dadd8b355c3ee8d16", defer: true, body: true }] : [],
+    script: process.env.NODE_ENV === "production" ? [{ src: "https://hm.baidu.com/hm.js?543c5e05f8df5c5dadd8b355c3ee8d16", defer: true, body: true }] : [],
   },
 
   // Automatically generate or serve dynamic sitemap.xml (https://www.npmjs.com/package/@nuxtjs/sitemap)
   sitemap: {},
 
-  ignore: ["**/*.test.*", "**/*.spec.*", "cli/**"],
+  ignore: ["**/*.test.*", "**/*.spec.*"],
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: ["~/assets/global.less"],
@@ -69,9 +65,64 @@ export default {
     "@nuxt/content",
     // https://i18n.nuxtjs.org/
     "nuxt-i18n",
+    // https://www.npmjs.com/package/@nuxtjs/apollo
+    "@nuxtjs/apollo",
     // https://www.npmjs.com/package/@nuxtjs/sitemap
     "@nuxtjs/sitemap",
   ],
+
+  apollo: {
+    clientConfigs: {
+      default: {
+        httpEndpoint: process.env.BASE_URL + "/graphql",
+        browserHttpEndpoint: "/graphql",
+        tokenName: "apollo-token",
+        inMemoryCacheOptions: {
+          // typePolicies: {
+          //   userCharacters: {
+          //     keyFields: ["avatarId", "owner"],
+          //   },
+          // },
+        },
+      } as any,
+    },
+
+    // setup a global error handler (see below for example)
+    errorHandler: "~/plugins/apollo-error-handler.ts",
+
+    // Sets the authentication type for any authorized request.
+    authenticationType: "Bearer",
+
+    // Token name for the cookie which will be set in case of authentication
+    tokenName: "apollo-token",
+
+    // Cookie parameters used to store authentication token
+    cookieAttributes: {
+      /**
+       * Define when the cookie will be removed. Value can be a Number
+       * which will be interpreted as days from time of creation or a
+       * Date instance. If omitted, the cookie becomes a session cookie.
+       */
+      expires: 15,
+
+      /**
+       * Define the path where the cookie is available. Defaults to '/'
+       */
+      path: "/",
+
+      /**
+       * Define the domain where the cookie is available. Defaults to
+       * the domain of the page where the cookie was created.
+       */
+      domain: new URL(process.env.BASE_URL!).hostname,
+
+      /**
+       * A Boolean indicating if the cookie transmission requires a
+       * secure protocol (https). Defaults to false.
+       */
+      secure: process.env.NODE_ENV === "production",
+    },
+  },
 
   pwa: {
     icon: {
@@ -93,7 +144,7 @@ export default {
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: "i18n_redirected",
-      onlyOnRoot: true, // recommended
+      onlyOnRoot: true,
     },
     lazy: true,
     langDir: "locales/",
@@ -124,6 +175,7 @@ export default {
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {
     baseURL: process.env.BASE_URL,
+    browserBaseURL: "/api",
   },
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
@@ -134,20 +186,26 @@ export default {
     // customVariables: ["~/assets/variables.scss"],
     theme: {
       dark: true,
+      default: "dark",
+      disable: false,
+      options: {},
       themes: {
         light: {
-          primary: colors.indigo,
-          secondary: colors.grey.darken1,
+          primary: colors.indigo.base,
           accent: colors.shades.black,
+          secondary: colors.grey.darken1,
           error: colors.red.accent3,
+          info: colors.teal.lighten1,
+          warning: colors.amber.base,
+          success: colors.green.accent3,
         },
         dark: {
           primary: colors.blue.darken2,
           accent: colors.grey.darken3,
           secondary: colors.amber.darken3,
+          error: colors.deepOrange.accent4,
           info: colors.teal.lighten1,
           warning: colors.amber.base,
-          error: colors.deepOrange.accent4,
           success: colors.green.accent3,
         },
       },
@@ -177,75 +235,7 @@ export default {
         },
       },
     },
-    // loaders: {
-    //   file: {},
-    //   fontUrl: { limit: 1000 },
-    //   imgUrl: { limit: 1000 },
-    //   pugPlain: {},
-    //   vue: {
-    //     transformAssetUrls: {
-    //       video: "src",
-    //       source: "src",
-    //       object: "src",
-    //       embed: "src",
-    //     },
-    //   },
-    //   css: {},
-    //   cssModules: {
-    //     localIdentName: "[local]_[hash:base64:5]",
-    //   },
-    //   less: {},
-    //   sass: {
-    //     indentedSyntax: true,
-    //   },
-    //   scss: {},
-    //   stylus: {},
-    //   vueStyle: {},
-    // },
-    // optimization: {
-    //   splitChunks: {
-    //     cacheGroups: {
-    //       styles: {
-    //         name: "styles",
-    //         test: /\.(css|vue)$/,
-    //         chunks: "all",
-    //         enforce: true,
-    //       },
-    //     },
-    //   },
-    // },
-    // Enable thread-loader in webpack building
-    // parallel: true,
-    // extend(_config, { isClient, loaders }) {
-    //   // Extend only webpack config for client-bundle
-    //   if (isClient) {
-    //     _config.node = {
-    //       fs: "empty",
-    //     };
-    //     // config.devtool = "source-map";
-    //     loaders.protobuf = {
-    //       use: "protobuf-preloader",
-    //       options: {
-    //         /* controls the "target" flag to pbjs - true for
-    //          * json-module, false for static-module.
-    //          * default: false
-    //          */
-    //         json: false,
-    //         /* import paths provided to pbjs.
-    //          * default: webpack import paths (i.e. config.resolve.modules)
-    //          */
-    //         paths: ["@/proto"],
-    //         /* additional command line arguments passed to
-    //          * pbjs, see https://github.com/dcodeIO/ProtoBuf.js/#pbjs-for-javascript
-    //          * for a list of what's available.
-    //          * default: []
-    //          */
-    //         pbjsArgs: [
-    //           // "--no-encode"
-    //         ],
-    //       },
-    //     };
-    //   }
-    // },
   },
 };
+
+export default config;

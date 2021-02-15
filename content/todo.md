@@ -3,8 +3,6 @@ title: todo list
 description: "..."
 ---
 
-_偷偷跟你说 甘雨真的很好玩_
-
 ## 参与开发
 
 开源项目 [Github 项目地址](https://github.com/pa001024/genshin-mirror/)
@@ -23,6 +21,9 @@ _偷偷跟你说 甘雨真的很好玩_
   - [x] 武器类型和元素 svg
   - [x] 导航图标
   - [x] 站点图标
+- 其他
+  - 部分代码可以考虑用[XState](https://xstate.js.org/)重构
+
 
 ## 数据来源
 
