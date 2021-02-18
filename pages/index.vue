@@ -3,23 +3,21 @@
     <!-- 周常材料 -->
     <v-row>
       <v-col cols="12">
-        <div class="title">{{ timeString }}</div>
         <v-card>
+          <v-card-title class="headline">{{ timeString }}</v-card-title>
           <v-card-title>
             精通秘境
             <ItemCard v-for="g in todayItems.slice(0, 2)" :key="g.id" class="ml-2" :value="g" icon />
           </v-card-title>
           <v-card-text>
-            <CharCard v-for="g in weeklyGroupChar" :key="g.id" :value="g" class="ma-1" small />
+            <CharCard v-for="g in weeklyGroupChar" :key="g.id" :value="g" class="ma-1" small :item="getItem(g)" />
           </v-card-text>
-        </v-card>
-        <v-card>
           <v-card-title>
             炼武秘境
             <ItemCard v-for="g in todayItems.slice(2, 4)" :key="g.id" class="ml-2" :value="g" icon />
           </v-card-title>
           <v-card-text>
-            <WeaponCard v-for="g in weeklyGroupWeapon" :key="g.id" :value="g" class="ma-1" small />
+            <WeaponCard v-for="g in weeklyGroupWeapon" :key="g.id" :value="g" class="ma-1" small :item="getItem(g)" />
           </v-card-text>
         </v-card>
       </v-col>
@@ -88,18 +86,18 @@ import { IAvatar, IItem, IWeapon } from "~/modules/core";
       .where({
         id: {
           $in: [
-            "PhilosophiesofFreedom",
-            "PhilosophiesofProsperity",
-            "ScatteredPieceofDecarabiansDream",
-            "DivineBodyfromGuyun",
-            "PhilosophiesofResistance",
-            "PhilosophiesofDiligence",
+            "PhilosophiesOfFreedom",
+            "PhilosophiesOfProsperity",
+            "ScatteredPieceOfDecarabiansDream",
+            "DivineBodyFromGuyun",
+            "PhilosophiesOfResistance",
+            "PhilosophiesOfDiligence",
             "BorealWolfsNostalgia",
             "MistVeiledPrimoElixir",
-            "PhilosophiesofBallad",
-            "PhilosophiesofGold",
-            "DreamoftheDandelionGladiator",
-            "ChunkofAerosiderite",
+            "PhilosophiesOfBallad",
+            "PhilosophiesOfGold",
+            "DreamOftheDandelionGladiator",
+            "ChunkOfAerosiderite",
           ],
         },
       })
@@ -124,25 +122,30 @@ export default class Page extends Vue {
 
   weeklyData = [
     // 周一 周四 繁荣自由
-    ["PhilosophiesofFreedom", "PhilosophiesofProsperity", "ScatteredPieceofDecarabiansDream", "DivineBodyfromGuyun"],
+    ["PhilosophiesOfFreedom", "PhilosophiesOfProsperity", "ScatteredPieceOfDecarabiansDream", "DivineBodyFromGuyun"],
     // 周二 周五 勤劳抗争
-    ["PhilosophiesofResistance", "PhilosophiesofDiligence", "BorealWolfsNostalgia", "MistVeiledPrimoElixir"],
+    ["PhilosophiesOfResistance", "PhilosophiesOfDiligence", "BorealWolfsNostalgia", "MistVeiledPrimoElixir"],
     // 周三 周六 黄金诗文
-    ["PhilosophiesofBallad", "PhilosophiesofGold", "DreamoftheDandelionGladiator", "ChunkofAerosiderite"],
+    ["PhilosophiesOfBallad", "PhilosophiesOfGold", "DreamOftheDandelionGladiator", "ChunkOfAerosiderite"],
   ];
 
   get todayItems() {
-    const day = new Date().getDay();
+    const day = this.today.getDay();
     const filterItems = this.weeklyData[(day - 1) % 3];
-    return filterItems.map(v => this.items.find(i => i.id === v));
+    return filterItems.map(v => this.items.find(i => i.id === v) || { id: v });
   }
 
   get timeString() {
-    return new Date().toLocaleDateString();
+    const localeDate = new Intl.DateTimeFormat(this.$i18n.locale, { weekday: "long", month: "long", day: "numeric", year: "numeric" }).format(this.today);
+    return localeDate;
+  }
+
+  get today() {
+    return new Date(Date.now() - 3600 * 4 * 1e3);
   }
 
   get weeklyGroupChar() {
-    const day = new Date().getDay();
+    const day = this.today.getDay();
     if (day) {
       const filterItems = this.weeklyData[(day - 1) % 3];
       return this.char.filter(v => v.element && v.overviewItems?.some(v => filterItems.includes(v.id)));
@@ -151,12 +154,17 @@ export default class Page extends Vue {
   }
 
   get weeklyGroupWeapon() {
-    const day = new Date().getDay();
+    const day = this.today.getDay();
     if (day) {
       const filterItems = this.weeklyData[(day - 1) % 3];
       return this.weapon.filter(v => v.overviewItems?.some(v => filterItems.includes(v.id)));
     }
     return this.weapon;
+  }
+
+  getItem(g: Pick<IAvatar, "overviewItems">) {
+    const item = this.todayItems.find(v => g.overviewItems!.some(f => f.id === v.id));
+    return item?.id;
   }
 }
 </script>

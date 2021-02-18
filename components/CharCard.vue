@@ -2,7 +2,8 @@
   <v-card class="char-card" :class="{ inactive }" @click="$emit('click', $event)">
     <nuxt-link v-if="link" :to="'char/' + value.id" class="nolink">
       <div class="char-avatar" :class="['rarity-' + value.rarity]" :style="{ height: (small ? 80 : 106) + 'px' }">
-        <ElementIcon :element="value.element" :size="small ? 24 : 32" class="ele-icon" />
+        <ItemImage v-if="item" :id="item" :size="small ? 24 : 32" class="ele-icon" />
+        <ElementIcon v-else :element="value.element" :size="small ? 24 : 32" class="ele-icon" />
         <CharImage :id="value.id" :size="small ? 80 : 106" class="mx-auto" />
         <div v-if="c13n" class="c13n-view">C{{ c13n }}</div>
       </div>
@@ -11,7 +12,8 @@
     </nuxt-link>
     <template v-else>
       <div class="char-avatar" :class="['rarity-' + value.rarity]" :style="{ height: (small ? 80 : 106) + 'px' }">
-        <ElementIcon :element="value.element" :size="small ? 24 : 32" class="ele-icon" />
+        <ItemImage v-if="item" :id="item" :size="small ? 24 : 32" class="ele-icon" />
+        <ElementIcon v-else :element="value.element" :size="small ? 24 : 32" class="ele-icon" />
         <CharImage :id="value.id" :size="small ? 80 : 106" class="mx-auto" />
         <div v-if="c13n" class="c13n-view">C{{ c13n }}</div>
       </div>
@@ -33,6 +35,7 @@ export default class CharCard extends Vue {
   @Prop({ type: Boolean, default: false }) inactive!: boolean;
   @Prop({ type: Number }) c13n?: number;
   @Prop({ type: Number }) lv?: number;
+  @Prop({ type: String }) item?: string;
 }
 </script>
 

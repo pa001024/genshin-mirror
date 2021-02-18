@@ -2,6 +2,7 @@
   <v-card class="weapon-card" :class="{ inactive }" @click="$emit('click', $event)">
     <nuxt-link v-if="link" :to="'weapon/' + value.id" class="nolink">
       <div class="weapon-avatar" :class="['rarity-' + value.rarity]" :style="{ height: (small ? 80 : 106) + 'px' }">
+        <ItemImage v-if="item" :id="item" :size="small ? 24 : 32" class="ele-icon" />
         <WeaponImage :id="value.id" :size="small ? 80 : 106" class="mx-auto" />
         <div v-if="refine" class="refine-view">C{{ refine }}</div>
       </div>
@@ -10,6 +11,7 @@
     </nuxt-link>
     <template v-else>
       <div class="weapon-avatar" :class="['rarity-' + value.rarity]" :style="{ height: (small ? 80 : 106) + 'px' }">
+        <ItemImage v-if="item" :id="item" :size="small ? 24 : 32" class="ele-icon" />
         <WeaponImage :id="value.id" :size="small ? 80 : 106" :type="small ? 'thumb' : 'full'" class="mx-auto" />
         <div v-if="refine" class="refine-view" :class="{ refine5: refine === 5 }">{{ refine }}</div>
       </div>
@@ -31,6 +33,7 @@ export default class WeaponCard extends Vue {
   @Prop({ type: Boolean, default: false }) inactive!: boolean;
   @Prop({ type: Number }) refine?: number;
   @Prop({ type: Number }) lv?: number;
+  @Prop({ type: String }) item?: string;
 }
 </script>
 
