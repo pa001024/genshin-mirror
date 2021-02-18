@@ -97,21 +97,64 @@
     "cd": 25,
     "paramTpls": ["Oz's ATK DMG|{param1:F1P}", "Summoning DMG|{param2:P}", "Oz's Duration|{param4:F1}s", "CD|{param5:F1}s"],
     "paramVals": [
-      [0.888, 1.1544],
-      [0.9546, 1.241],
-      [1.0212, 1.3276],
-      [1.11, 1.443],
-      [1.1766, 1.5296],
-      [1.2432, 1.6162],
-      [1.332, 1.7316],
-      [1.4208, 1.847],
-      [1.5096, 1.9625],
-      [1.5984, 2.0779],
-      [1.6872, 2.1934],
-      [1.776, 2.3088],
-      [1.887, 2.4531],
-      [1.998, 2.5974],
-      [2.109, 2.7417]
+      [0.888, 1.1544, 0, 10, 25, 8],
+      [0.9546, 1.241, 0, 10, 25, 8],
+      [1.0212, 1.3276, 0, 10, 25, 8],
+      [1.11, 1.443, 0, 10, 25, 8],
+      [1.1766, 1.5296, 0, 10, 25, 8],
+      [1.2432, 1.6162, 0, 10, 25, 8],
+      [1.332, 1.7316, 0, 10, 25, 8],
+      [1.4208, 1.847, 0, 10, 25, 8],
+      [1.5096, 1.9625, 0, 10, 25, 8],
+      [1.5984, 2.0779, 0, 10, 25, 8],
+      [1.6872, 2.1934, 0, 10, 25, 8],
+      [1.776, 2.3088, 0, 10, 25, 8],
+      [1.887, 2.4531, 0, 10, 25, 8],
+      [1.998, 2.5974, 0, 10, 25, 8],
+      [2.109, 2.7417, 0, 10, 25, 8]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfBallad", "name": "Teachings of Ballad", "count": 3 },
+        { "id": "FirmArrowhead", "name": "Firm Arrowhead", "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 2 },
+        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 3 }
+      ],
+      [
+        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 4 },
+        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 4 }
+      ],
+      [
+        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 6 },
+        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 9 },
+        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 4 },
+        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 6 },
+        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 12 },
+        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 16 },
+        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 2 },
+        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+      ]
     ]
   },
   "elemBurst": {
@@ -120,7 +163,66 @@
     "cd": 15,
     "energyCost": 60,
     "paramTpls": ["Falling Thunder DMG|{param1:P}", "CD|{param5:F1}s", "Energy Cost|{param6:I}"],
-    "paramVals": [[2.08], [2.236], [2.392], [2.6], [2.756], [2.912], [3.12], [3.328], [3.536], [3.744], [3.952], [4.16], [4.42], [4.68], [4.94]]
+    "paramVals": [
+      [2.08, 0, 0, 0, 15, 60],
+      [2.236, 0, 0, 0, 15, 60],
+      [2.392, 0, 0, 0, 15, 60],
+      [2.6, 0, 0, 0, 15, 60],
+      [2.756, 0, 0, 0, 15, 60],
+      [2.912, 0, 0, 0, 15, 60],
+      [3.12, 0, 0, 0, 15, 60],
+      [3.328, 0, 0, 0, 15, 60],
+      [3.536, 0, 0, 0, 15, 60],
+      [3.744, 0, 0, 0, 15, 60],
+      [3.952, 0, 0, 0, 15, 60],
+      [4.16, 0, 0, 0, 15, 60],
+      [4.42, 0, 0, 0, 15, 60],
+      [4.68, 0, 0, 0, 15, 60],
+      [4.94, 0, 0, 0, 15, 60]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfBallad", "name": "Teachings of Ballad", "count": 3 },
+        { "id": "FirmArrowhead", "name": "Firm Arrowhead", "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 2 },
+        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 3 }
+      ],
+      [
+        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 4 },
+        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 4 }
+      ],
+      [
+        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 6 },
+        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 9 },
+        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 4 },
+        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 6 },
+        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 12 },
+        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 16 },
+        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 2 },
+        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+      ]
+    ]
   },
   "attackSkill": {
     "name": "Normal Attack: Bolts of Downfall",
@@ -153,6 +255,49 @@
       [1.0568, 1.1206, 1.3926, 1.3823, 1.7263, 1.0506, 2.635, 1.3612, 2.7219, 3.3998],
       [1.1183, 1.1859, 1.4737, 1.4628, 1.8268, 1.1118, 2.79, 1.4405, 2.8805, 3.5979],
       [1.1799, 1.2512, 1.5548, 1.5433, 1.9274, 1.173, 2.945, 1.5198, 3.039, 3.7959]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfBallad", "name": "Teachings of Ballad", "count": 3 },
+        { "id": "FirmArrowhead", "name": "Firm Arrowhead", "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 2 },
+        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 3 }
+      ],
+      [
+        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 4 },
+        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 4 }
+      ],
+      [
+        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 6 },
+        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 9 },
+        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 4 },
+        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 6 },
+        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 12 },
+        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 16 },
+        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 2 },
+        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+      ]
     ]
   },
   "talents": [
@@ -189,5 +334,13 @@
       "desc": "Extends the duration of Oz's presence on the field by 2s. Additionally, Oz performs joint attacks with your active character when present, dealing 30% of Fischl's ATK as <color=#FFACFFFF>Electro DMG</color>.",
       "values": [0.3, 2]
     }
+  ],
+  "overviewItems": [
+    { "id": "VajradaAmethystGemstone", "name": "Vajrada Amethyst Gemstone", "rarity": 5 },
+    { "id": "LightningPrism", "name": "Lightning Prism", "rarity": 4 },
+    { "id": "SmallLampGrass", "name": "Small Lamp Grass" },
+    { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "rarity": 3 },
+    { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "rarity": 4 },
+    { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "rarity": 5 }
   ]
 }

@@ -6,6 +6,7 @@
     "desc": "可以在商城兌換稀有資源的貨幣。\n過剩的命運星之光輝。或許可以點亮宇宙其他角落。",
     "rarity": 5,
     "type": 7,
+    "typeText": "高級兌換券",
     "drop": ["祈願"]
   },
   {
@@ -15,6 +16,7 @@
     "desc": "可以在商城兌換稀有資源的貨幣。\n過剩的命運星之晶塵。累積起來，或許可以創造新的命運。",
     "rarity": 4,
     "type": 7,
+    "typeText": "普通兌換券",
     "drop": ["祈願"]
   },
   {
@@ -23,13 +25,58 @@
     "localeName": "糾纏之緣",
     "desc": "連結夢想的命運之種。\n緣石輝光能讓本無交集的命運交錯，讓彼此的夢想相連，正如這種光輝將群星連成心之所向的圖形。",
     "rarity": 5,
-    "type": 7
+    "type": 7,
+    "typeText": "限定祈願道具"
   },
-  { "id": "AcquaintFate", "name": "Acquaint Fate", "localeName": "相遇之緣", "desc": "點亮星空的希望之種。\n無論相隔多遠，命定相遇的人都會受緣石輝光的指引，在星空下相會。", "rarity": 5, "type": 7 },
-  { "id": "PyroSigil", "name": "Pyro Sigil", "localeName": "火之印", "desc": "蒙德周圍的特殊紀念貨幣，可在城市商店中兌換珍稀物品。", "rarity": 3, "type": 7, "drop": ["探索獎勵"] },
-  { "id": "HydroSigil", "name": "Hydro Sigil", "localeName": "水之印", "desc": "蒙德周圍的特殊紀念貨幣，可在城市商店中兌換珍稀物品。", "rarity": 3, "type": 7, "drop": ["探索獎勵"] },
-  { "id": "DendroSigil", "name": "Dendro Sigil", "localeName": "草之印", "desc": "蒙德周圍的特殊紀念貨幣，可在城市商店中兌換珍稀物品。", "rarity": 3, "type": 7, "drop": ["探索獎勵"] },
-  { "id": "ElectroSigil", "name": "Electro Sigil", "localeName": "電之印", "desc": "蒙德周圍的特殊紀念貨幣，可在城市商店中兌換珍稀物品。", "rarity": 3, "type": 7, "drop": ["探索獎勵"] },
+  {
+    "id": "AcquaintFate",
+    "name": "Acquaint Fate",
+    "localeName": "相遇之緣",
+    "desc": "點亮星空的希望之種。\n無論相隔多遠，命定相遇的人都會受緣石輝光的指引，在星空下相會。",
+    "rarity": 5,
+    "type": 7,
+    "typeText": "祈願道具"
+  },
+  {
+    "id": "PyroSigil",
+    "name": "Pyro Sigil",
+    "localeName": "火之印",
+    "desc": "蒙德周圍的特殊紀念貨幣，可在城市商店中兌換珍稀物品。",
+    "rarity": 3,
+    "type": 7,
+    "typeText": "七國徽印",
+    "drop": ["探索獎勵"]
+  },
+  {
+    "id": "HydroSigil",
+    "name": "Hydro Sigil",
+    "localeName": "水之印",
+    "desc": "蒙德周圍的特殊紀念貨幣，可在城市商店中兌換珍稀物品。",
+    "rarity": 3,
+    "type": 7,
+    "typeText": "七國徽印",
+    "drop": ["探索獎勵"]
+  },
+  {
+    "id": "DendroSigil",
+    "name": "Dendro Sigil",
+    "localeName": "草之印",
+    "desc": "蒙德周圍的特殊紀念貨幣，可在城市商店中兌換珍稀物品。",
+    "rarity": 3,
+    "type": 7,
+    "typeText": "七國徽印",
+    "drop": ["探索獎勵"]
+  },
+  {
+    "id": "ElectroSigil",
+    "name": "Electro Sigil",
+    "localeName": "電之印",
+    "desc": "蒙德周圍的特殊紀念貨幣，可在城市商店中兌換珍稀物品。",
+    "rarity": 3,
+    "type": 7,
+    "typeText": "七國徽印",
+    "drop": ["探索獎勵"]
+  },
   {
     "id": "AnemoSigil",
     "name": "Anemo Sigil",
@@ -37,9 +84,19 @@
     "desc": "受到蒙德大地的千風認可，獲授的印記。\n用來在蒙德城內特定的地方兌換特殊道具。",
     "rarity": 3,
     "type": 7,
+    "typeText": "七國徽印",
     "drop": ["蒙德地區探索獎勵"]
   },
-  { "id": "CryoSigil", "name": "Cryo Sigil", "localeName": "冰之印", "desc": "蒙德周圍的特殊紀念貨幣，可在城市商店中兌換珍稀物品。", "rarity": 3, "type": 7, "drop": ["探索獎勵"] },
+  {
+    "id": "CryoSigil",
+    "name": "Cryo Sigil",
+    "localeName": "冰之印",
+    "desc": "蒙德周圍的特殊紀念貨幣，可在城市商店中兌換珍稀物品。",
+    "rarity": 3,
+    "type": 7,
+    "typeText": "七國徽印",
+    "drop": ["探索獎勵"]
+  },
   {
     "id": "GeoSigil",
     "name": "Geo Sigil",
@@ -47,110 +104,552 @@
     "desc": "受到璃月大地的岩石認可，獲授的印記。\n用來在璃月港內特定的地方兌換特殊道具。",
     "rarity": 3,
     "type": 7,
+    "typeText": "七國徽印",
     "drop": ["璃月地區探索獎勵"]
   },
-  {
-    "id": "MemoryofEternalFlames",
-    "name": "Memory of Eternal Flames",
-    "localeName": "恒常燃燒的記憶",
-    "desc": "火元素旅行者的命之座當中，缺失的星辰。",
-    "rarity": 5,
-    "type": 0,
-    "drop": ["主線任務獎勵"]
-  },
-  {
-    "id": "MemoryofRunningStream",
-    "name": "Memory of Running Stream",
-    "localeName": "奔流不息的記憶",
-    "desc": "水元素旅行者的命之座當中，缺失的星辰。",
-    "rarity": 5,
-    "type": 0,
-    "drop": ["主線任務獎勵"]
-  },
-  {
-    "id": "MemoryofFlourishingGreen",
-    "name": "Memory of Flourishing Green",
-    "localeName": "草木繁茂的記憶",
-    "desc": "草元素旅行者的命之座當中，缺失的星辰。",
-    "rarity": 5,
-    "type": 0,
-    "drop": ["主線任務獎勵"]
-  },
-  { "id": "MemoryofVioletFlash", "name": "Memory of Violet Flash", "localeName": "蒼雷紫電的記憶", "desc": "雷元素旅行者的命之座當中，缺失的星辰。", "rarity": 5, "type": 0, "drop": ["主線任務獎勵"] },
-  {
-    "id": "MemoryofRovingGales",
-    "name": "Memory of Roving Gales",
-    "localeName": "四方之風的記憶",
-    "desc": "風元素旅行者的命之座當中，缺失的星辰。",
-    "rarity": 5,
-    "type": 0,
-    "drop": ["主線任務獎勵", "冒險等階獎勵", "紀念品商店兌換"]
-  },
-  {
-    "id": "MemoryofPiercingFrost",
-    "name": "Memory of Piercing Frost",
-    "localeName": "至冬極寒的記憶",
-    "desc": "冰元素旅行者的命之座當中，缺失的星辰。",
-    "rarity": 5,
-    "type": 0,
-    "drop": ["主線任務獎勵"]
-  },
-  {
-    "id": "MemoryofImmovableCrystals",
-    "name": "Memory of Immovable Crystals",
-    "localeName": "不動晶石的記憶",
-    "desc": "岩元素旅行者的命之座當中，缺失的星辰。",
-    "rarity": 5,
-    "type": 0,
-    "drop": ["主線任務獎勵", "紀念品商店兌換"]
-  },
-  { "id": "KamisatoAyakasStellaFortuna", "name": "Kamisato Ayaka's Stella Fortuna", "localeName": "神里綾華的命星", "desc": "神里綾華的命之座啟用素材。", "rarity": 5, "type": 0, "drop": ["祈願"] },
-  { "id": "JeansStellaFortuna", "name": "Jean's Stella Fortuna", "localeName": "琴的命星", "desc": "琴的命之座啟用素材。", "rarity": 5, "type": 0, "drop": ["祈願"] },
-  { "id": "TravelerMalesStellaFortuna", "name": "Traveler (Male)'s Stella Fortuna", "localeName": "旅行者（男）的命星", "desc": "此道具廢棄", "rarity": 5, "type": 0, "drop": ["祈願"] },
-  { "id": "LisasStellaFortuna", "name": "Lisa's Stella Fortuna", "localeName": "麗莎的命星", "desc": "麗莎的命之座啟用素材。", "rarity": 4, "type": 0, "drop": ["祈願"] },
-  { "id": "TravelerFemalesStellaFortuna", "name": "Traveler (Female)'s Stella Fortuna", "localeName": "旅行者（女）的命星", "desc": "此道具廢棄", "rarity": 5, "type": 0, "drop": ["祈願"] },
-  { "id": "BarbarasStellaFortuna", "name": "Barbara's Stella Fortuna", "localeName": "芭芭拉的命星", "desc": "芭芭拉的命之座啟用素材。", "rarity": 4, "type": 0, "drop": ["祈願"] },
-  { "id": "KaeyasStellaFortuna", "name": "Kaeya's Stella Fortuna", "localeName": "凱亞的命星", "desc": "凱亞的命之座啟用素材。", "rarity": 4, "type": 0, "drop": ["祈願"] },
-  { "id": "DilucsStellaFortuna", "name": "Diluc's Stella Fortuna", "localeName": "迪盧克的命星", "desc": "迪盧克的命之座啟用素材。", "rarity": 5, "type": 0, "drop": ["祈願"] },
-  { "id": "RazorsStellaFortuna", "name": "Razor's Stella Fortuna", "localeName": "雷澤的命星", "desc": "雷澤的命之座啟用素材。", "rarity": 4, "type": 0, "drop": ["祈願"] },
-  { "id": "AmbersStellaFortuna", "name": "Amber's Stella Fortuna", "localeName": "安柏的命星", "desc": "安柏的命之座啟用素材。", "rarity": 4, "type": 0, "drop": ["祈願"] },
-  { "id": "VentisStellaFortuna", "name": "Venti's Stella Fortuna", "localeName": "溫迪的命星", "desc": "溫迪的命之座啟用素材。", "rarity": 5, "type": 0, "drop": ["祈願"] },
-  { "id": "XianglingsStellaFortuna", "name": "Xiangling's Stella Fortuna", "localeName": "香菱的命星", "desc": "香菱的命之座啟用素材。", "rarity": 4, "type": 0, "drop": ["祈願"] },
-  { "id": "BeidousStellaFortuna", "name": "Beidou's Stella Fortuna", "localeName": "北斗的命星", "desc": "北斗的命之座啟用素材。", "rarity": 4, "type": 0, "drop": ["祈願"] },
-  { "id": "XingqiusStellaFortuna", "name": "Xingqiu's Stella Fortuna", "localeName": "行秋的命星", "desc": "行秋的命之座啟用素材。", "rarity": 4, "type": 0, "drop": ["祈願"] },
-  { "id": "XiaosStellaFortuna", "name": "Xiao's Stella Fortuna", "localeName": "魈的命星", "desc": "魈的命之座啟用素材。", "rarity": 5, "type": 0, "drop": ["祈願"] },
-  { "id": "NingguangsStellaFortuna", "name": "Ningguang's Stella Fortuna", "localeName": "凝光的命星", "desc": "凝光的命之座啟用素材。", "rarity": 4, "type": 0, "drop": ["祈願"] },
-  { "id": "KleesStellaFortuna", "name": "Klee's Stella Fortuna", "localeName": "可莉的命星", "desc": "可莉的命之座啟用素材。", "rarity": 5, "type": 0, "drop": ["祈願"] },
-  { "id": "ZhonglisStellaFortuna", "name": "Zhongli's Stella Fortuna", "localeName": "鍾離的命星", "desc": "鍾離的命之座啟用素材。", "rarity": 5, "type": 0, "drop": ["祈願"] },
-  { "id": "FischlsStellaFortuna", "name": "Fischl's Stella Fortuna", "localeName": "菲謝爾的命星", "desc": "菲謝爾的命之座啟用素材。", "rarity": 4, "type": 0, "drop": ["祈願"] },
-  { "id": "BennettsStellaFortuna", "name": "Bennett's Stella Fortuna", "localeName": "班尼特的命星", "desc": "班尼特的命之座啟用素材。", "rarity": 4, "type": 0, "drop": ["祈願"] },
-  { "id": "TartagliasStellaFortuna", "name": "Tartaglia's Stella Fortuna", "localeName": "達達利亞的命星", "desc": "達達利亞的命之座啟用素材。", "rarity": 5, "type": 0, "drop": ["祈願"] },
-  { "id": "NoellesStellaFortuna", "name": "Noelle's Stella Fortuna", "localeName": "諾艾爾的命星", "desc": "諾艾爾的命之座啟用素材。", "rarity": 4, "type": 0, "drop": ["祈願"] },
-  { "id": "QiqisStellaFortuna", "name": "Qiqi's Stella Fortuna", "localeName": "七七的命星", "desc": "七七的命之座啟用素材。", "rarity": 5, "type": 0, "drop": ["祈願"] },
-  { "id": "ChongyunsStellaFortuna", "name": "Chongyun's Stella Fortuna", "localeName": "重雲的命星", "desc": "重雲的命之座啟用素材。", "rarity": 4, "type": 0, "drop": ["祈願"] },
-  { "id": "GanyusStellaFortuna", "name": "Ganyu's Stella Fortuna", "localeName": "甘雨的命星", "desc": "甘雨的命之座啟用素材。", "rarity": 5, "type": 0, "drop": ["祈願"] },
-  { "id": "AlbedosStellaFortuna", "name": "Albedo's Stella Fortuna", "localeName": "阿貝多的命星", "desc": "阿貝多的命之座啟用素材。", "rarity": 5, "type": 0, "drop": ["祈願"] },
-  { "id": "DionasStellaFortuna", "name": "Diona's Stella Fortuna", "localeName": "迪奥娜的命星", "desc": "迪奥娜的命之座啟用素材", "rarity": 4, "type": 0, "drop": ["祈願"] },
-  { "id": "MonasStellaFortuna", "name": "Mona's Stella Fortuna", "localeName": "莫娜的命星", "desc": "莫娜的命之座啟用素材。", "rarity": 5, "type": 0, "drop": ["祈願"] },
-  { "id": "KeqingsStellaFortuna", "name": "Keqing's Stella Fortuna", "localeName": "刻晴的命星", "desc": "刻晴的命之座啟用素材。", "rarity": 5, "type": 0, "drop": ["祈願"] },
-  { "id": "SucrosesStellaFortuna", "name": "Sucrose's Stella Fortuna", "localeName": "砂糖的命星", "desc": "砂糖的命之座啟用素材。", "rarity": 4, "type": 0, "drop": ["祈願"] },
-  { "id": "XinyansStellaFortuna", "name": "Xinyan's Stella Fortuna", "localeName": "辛焱的命星", "desc": "辛焱的命之座啟用素材", "rarity": 4, "type": 0, "drop": ["祈願"] },
-  { "id": "HuTaosStellaFortuna", "name": "Hu Tao's Stella Fortuna", "localeName": "胡桃的命星", "desc": "胡桃的命之座啟用素材", "rarity": 5, "type": 0, "drop": ["祈願"] },
   {
     "id": "GnosticHymnOldNotes",
     "name": "Gnostic Hymn - Old Notes",
     "localeName": "珍珠紀行·初稿",
     "desc": "用紀行文體寫成的遊記，記載了在大陸上旅行的種種見聞。不知道為什麼會有這個初稿，難道之前來過？\n\n使用後可以獲得當期的珍珠紀行使用資格。",
     "rarity": 5,
-    "type": 7
+    "type": 7,
+    "typeText": "功能開啟憑證"
   },
   {
-    "id": "BlessingoftheWelkinMoonNewMoon",
+    "id": "BlessingOfTheWelkinMoonNewMoon",
     "name": "Blessing of the Welkin Moon - New Moon",
     "localeName": "空月祝福·新月",
     "desc": "#於新月初升之時，向天空之月祈求財富與好運的儀式。{F#妳}{M#你}完全可以認為這是提瓦特的第一輪新月，至少是{F#妳}{M#你}見到的第一輪。\n\n使用後可以獲得30天的空月祝福時間。",
     "rarity": 5,
-    "type": 7
+    "type": 7,
+    "typeText": "功能開啟憑證"
+  },
+  { "id": "Apple", "name": "Apple", "localeName": "蘋果", "desc": "爽脆可口的酸甜果實，無論生食或是釀酒都很是美味。", "rarity": 1, "type": 3, "typeText": "食物", "drop": ["野外採集"] },
+  {
+    "id": "Sunsettia",
+    "name": "Sunsettia",
+    "localeName": "日落果",
+    "desc": "遍布提瓦特大陸的自然恩惠，如夕陽般亮麗美好的飽滿果實。有著奇異的香甜氣味，能讓人精神百倍。",
+    "rarity": 1,
+    "type": 3,
+    "typeText": "食物",
+    "drop": ["野外採集"]
+  },
+  {
+    "id": "Mushroom",
+    "name": "Mushroom",
+    "localeName": "蘑菇",
+    "desc": "生命力旺盛的常見菌類。只要擁有適宜的蔭蔽與水分，在何處都能蓬勃生長。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["野外採集"]
+  },
+  {
+    "id": "SweetFlower",
+    "name": "Sweet Flower",
+    "localeName": "甜甜花",
+    "desc": "香氣濃郁的植株。即便在黑暗中，也能循著芬芳的氣息找到的花朵。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["野外採集"]
+  },
+  {
+    "id": "Carrot",
+    "name": "Carrot",
+    "localeName": "胡蘿蔔",
+    "desc": "營養非常豐富的草本植物。易於種植與收穫的作物，口感清甜爽脆。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["野外採集"]
+  },
+  { "id": "Radish", "name": "Radish", "localeName": "白蘿蔔", "desc": "纖維分明的草本植物。易於種植與收穫的作物，富含纖維與營養。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["野外採集"] },
+  {
+    "id": "Snapdragon",
+    "name": "Snapdragon",
+    "localeName": "金魚草",
+    "desc": "烹飪後可食用的植株。作為香料能給食材帶來奇妙的滋味。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["河岸湖泊採集"]
+  },
+  { "id": "Mint", "name": "Mint", "localeName": "薄荷", "desc": "飽含清涼成分的植物葉子。清爽冰涼的滋味能將暑氣蕩滌一空。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["野外採集"] },
+  {
+    "id": "Wheat",
+    "name": "Wheat",
+    "localeName": "小麥",
+    "desc": "金燦燦的穗子，讓人充滿希望。要經過磨礪與水火才能成為終極形態。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["野外採集", "雜貨店購買"]
+  },
+  {
+    "id": "Cabbage",
+    "name": "Cabbage",
+    "localeName": "高麗菜",
+    "desc": "層層相裹的蔬菜。據說曾經是觀賞植物，如今在鍋裡的模樣也很棒。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["野外採集", "雜貨店購買"]
+  },
+  {
+    "id": "SilverLotus",
+    "name": "Silver Lotus",
+    "localeName": "天原銀蓮",
+    "desc": "珍貴的植物，生長在陡峭崖壁上的傲骨，在暗夜中發出高潔的光。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["野外採集"]
+  },
+  { "id": "Pinecone", "name": "Pinecone", "localeName": "松果", "desc": "富含油脂的肥美種子，並不會在松鼠的胃裡長成參天大樹。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["野外採集"] },
+  {
+    "id": "Wolfhook",
+    "name": "Wolfhook",
+    "localeName": "鉤鉤果",
+    "desc": "帶著鉤刺的莓果，會掛在狼的毛皮上來遷徙。看見它時，彷彿能聽見狼的淒嚎在林間迴盪…",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "蒙德區域特產",
+    "drop": ["野外採集", "推薦：奔狼領採集"]
+  },
+  {
+    "id": "Valberry",
+    "name": "Valberry",
+    "localeName": "落落莓",
+    "desc": "飽滿透亮的莓果，在口中綻放出清甜的花香。在過去，守望風暴的人僅有的慰藉便是落落莓的甜蜜與對城市安寧的希望。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "蒙德區域特產",
+    "drop": ["野外採集", "推薦：望風山地採集"]
+  },
+  {
+    "id": "Cecilia",
+    "name": "Cecilia",
+    "localeName": "塞西莉亞花",
+    "desc": "名子與外型同等美麗的花朵，只生長在清冷而風急的高處，如同浪子一樣真心難以觸碰。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "蒙德區域特產",
+    "drop": ["野外採集", "推薦：摘星崖採集"]
+  },
+  {
+    "id": "WindwheelAster",
+    "name": "Windwheel Aster",
+    "localeName": "風車菊",
+    "desc": "喜好風的植物。對於崇信風、本身也如風一般爽朗自在的蒙德人而言，風車菊便是「看得見的風」。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "蒙德區域特產",
+    "drop": ["風起地七天神像附近採集", "野外樹下採集", "推薦：風龍廢墟採集"]
+  },
+  {
+    "id": "PhilanemoMushroom",
+    "name": "Philanemo Mushroom",
+    "localeName": "慕風蘑菇",
+    "desc": "沐浴著和煦的風而生長的菌類，與風一樣生生不息，滋養生命。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "蒙德區域特產",
+    "drop": ["屋簷下採集"]
+  },
+  {
+    "id": "LotusHead",
+    "name": "Lotus Head",
+    "localeName": "蓮蓬",
+    "desc": "璃月水生的澤芝，花開兩株。一株盛放芳香，一株蓮蓬清苦。據說能入藥。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["河岸湖泊採集"]
+  },
+  {
+    "id": "JueyunChili",
+    "name": "Jueyun Chili",
+    "localeName": "絕雲椒椒",
+    "desc": "璃月地方特產的辛辣植物。只要聞到它的味道，身體就會變得熾熱，渴求水分。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "璃月區域特產",
+    "drop": ["野外採集", "推薦：輕策莊採集"]
+  },
+  {
+    "id": "NoctilucousJade",
+    "name": "Noctilucous Jade",
+    "localeName": "夜泊石",
+    "desc": "稀有的特質礦石，在靜謐的暗夜裡會幽幽地發光。據稱是天地間奔流的元素在異變中凝聚成的珍奇寶石。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "璃月區域特產",
+    "drop": ["璃月山洞內採集", "推薦：明蘊鎮採集"]
+  },
+  {
+    "id": "SilkFlower",
+    "name": "Silk Flower",
+    "localeName": "霓裳花",
+    "desc": "在璃月如霓雲般盛放的妖紅之花，能製成如水般順滑的織物。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "璃月區域特產",
+    "drop": ["璃月港玉京臺附近採集", "望舒客棧附近採集", "推薦：璃月港採集"]
+  },
+  {
+    "id": "GlazeLily",
+    "name": "Glaze Lily",
+    "localeName": "琉璃百合",
+    "desc": "極為古老的花卉。據說曾經遍佈璃月大地，能將大地的記憶積累成花期時的芬芳。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "璃月區域特產",
+    "drop": ["野外採集", "推薦：璃月港玉京臺採集", "推薦：輕策莊採集"]
+  },
+  {
+    "id": "Qingxin",
+    "name": "Qingxin",
+    "localeName": "清心",
+    "desc": "只生長在孤高石峰的通透白花。不願接受平原的溫暖與濕潤，寧可在清冷的尖峰眺望遠方。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "璃月區域特產",
+    "drop": ["石林頂端採集", "推薦：絕雲間採集", "推薦：孤雲閣採集"]
+  },
+  {
+    "id": "Horsetail",
+    "name": "Horsetail",
+    "localeName": "馬尾",
+    "desc": "偶然隨荻草生長的紫色植物。比周圍的荻草更為挺拔、飽滿，如同崇高的人。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "素材",
+    "drop": ["荻草叢中，濕地採集", "推薦：荻花洲採集"]
+  },
+  {
+    "id": "Starconch",
+    "name": "Starconch",
+    "localeName": "星螺",
+    "desc": "隨著海潮來到沙灘上的螺。將耳朵湊近空殼，能聽見海充滿思念的呼喚。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "璃月區域特產",
+    "drop": ["璃月海灘採集"]
+  },
+  {
+    "id": "Violetgrass",
+    "name": "Violetgrass",
+    "localeName": "琉璃袋",
+    "desc": "擁有旺盛生命力的小花，傳說朝下盛開的花姿是為了守住它的香氣。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "璃月區域特產",
+    "drop": ["璃月山壁採集"]
+  },
+  { "id": "Berry", "name": "Berry", "localeName": "樹莓", "desc": "顏色鮮豔的果實。遍佈野外的小小美好，能將路途疲憊一掃而空。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["野外採集"] },
+  {
+    "id": "MistFlowerCorolla",
+    "name": "Mist Flower Corolla",
+    "localeName": "冰霧花花朵",
+    "desc": "封閉在堅冰當中的花芯。即使離開了植株也持續散發著寒氣的冰涼植物。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "素材",
+    "drop": ["野外採集", "推薦：晨曦酒莊採集"]
+  },
+  {
+    "id": "FlamingFlowerStamen",
+    "name": "Flaming Flower Stamen",
+    "localeName": "烈焰花花蕊",
+    "desc": "火辣辣的花芯。熊熊燃燒的炙熱花朵，即使被水澆熄了也隱隱地放出熱量。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "素材",
+    "drop": ["野外採集", "推薦：千風神殿採集"]
+  },
+  {
+    "id": "ElectroCrystal",
+    "name": "Electro Crystal",
+    "localeName": "電氣水晶",
+    "desc": "富含電力的晶石，由逸散在大氣與大地中的電氣積聚而成。摸起來酥酥麻麻的。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "素材",
+    "drop": ["山壁下採集", "推薦：誓言岬採集"]
+  },
+  {
+    "id": "SmallLampGrass",
+    "name": "Small Lamp Grass",
+    "localeName": "小燈草",
+    "desc": "在夜間會隱隱散發輝光的野花。與其他食材一同烹飪能提升鮮味。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "蒙德區域特產",
+    "drop": ["夜間野外尋找", "推薦：奔狼領採集", "推薦：低語森林採集"]
+  },
+  {
+    "id": "CallaLily",
+    "name": "Calla Lily",
+    "localeName": "嘟嘟蓮",
+    "desc": "生長在水邊的花。花瓣經過烹製口感爽脆，清甜微苦。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "蒙德區域特產",
+    "drop": ["湖泊水邊採集", "推薦：清泉鎮採集"]
+  },
+  {
+    "id": "DandelionSeed",
+    "name": "Dandelion Seed",
+    "localeName": "蒲公英籽",
+    "desc": "隨風而行的細小種子。即使拔去了旅行的羽絮，其中也寄宿著遠方的希望吧。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "蒙德區域特產",
+    "drop": ["野外採集", "推薦：蒙德城門採集"]
+  },
+  {
+    "id": "CorLapis",
+    "name": "Cor Lapis",
+    "localeName": "石珀",
+    "desc": "極純的岩元素凝成的珍稀晶石，常與其他礦物伴生。也被稱為「岩之心」。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "璃月區域特產",
+    "drop": ["璃月山壁下採集", "推薦：琥牢山採集"]
+  },
+  { "id": "RawMeat", "name": "Raw Meat", "localeName": "獸肉", "desc": "獸類的新鮮肉塊。經過適當處理可以製成讓人元氣滿滿的美食。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["動物掉落"] },
+  { "id": "BirdEgg", "name": "Bird Egg", "localeName": "鳥蛋", "desc": "擁有無限可能性的禽類的卵，能帶來一整天所需的蛋白質。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["野外採集"] },
+  { "id": "Matsutake", "name": "Matsutake", "localeName": "松茸", "desc": "與松樹伴生的珍稀菌類，散發的淡雅鮮香暴露了它的位置。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["野外採集"] },
+  { "id": "Fowl", "name": "Fowl", "localeName": "禽肉", "desc": "禽類的新鮮肉塊。經過適當處理可以製成讓人精神一振的佳餚。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["動物掉落"] },
+  {
+    "id": "ButterflyWings",
+    "name": "Butterfly Wings",
+    "localeName": "蝴蝶翅膀",
+    "desc": "色彩靚麗的翅膀。散落的鱗粉微微地發著光，或許是讓蝴蝶能輕快飛翔的成分。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "素材",
+    "drop": ["野外採集"]
+  },
+  {
+    "id": "Crab",
+    "name": "Crab",
+    "localeName": "螃蟹",
+    "desc": "生活在近海區的甲殼類動物。細嫩鮮美的肉質，能夠很容易地被加工成美味佳餚。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["河岸湖泊海灘採集"]
+  },
+  {
+    "id": "CrabRoe",
+    "name": "Crab Roe",
+    "localeName": "蟹黃",
+    "desc": "母蟹體內獨有的美味。稀少而又珍貴的蟹黃，聚集了螃蟹的精華。但並非所有人都擅於品嘗這種美味。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["烹飪加工獲得"]
+  },
+  {
+    "id": "Salt",
+    "name": "Salt",
+    "localeName": "鹽",
+    "desc": "帶有鹹味的調味劑。只要在料理中準確把握「適量」的程度，就能讓菜品產生質的提升。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["雜貨店購買"]
+  },
+  {
+    "id": "Onion",
+    "name": "Onion",
+    "localeName": "洋蔥",
+    "desc": "球狀的草本植物。為了報復切碎它的人，不管人的心情好壞都會讓他落淚。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["雜貨店購買"]
+  },
+  {
+    "id": "Pepper",
+    "name": "Pepper",
+    "localeName": "胡椒",
+    "desc": "帶有香辛味的調味劑。能夠解膩並激發食材的香味，和肉搭配在一起最佳。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["雜貨店購買"]
+  },
+  { "id": "Milk", "name": "Milk", "localeName": "牛奶", "desc": "奶牛的乳汁。香香甜甜，嘴角的那滴也不想放過。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["雜貨店購買"] },
+  {
+    "id": "Tomato",
+    "name": "Tomato",
+    "localeName": "番茄",
+    "desc": "外皮鮮紅的草本植物。色澤豔麗，酸甜多汁。關於它到底屬於水果還是蔬菜的爭論自古有之。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["雜貨店購買"]
+  },
+  {
+    "id": "Potato",
+    "name": "Potato",
+    "localeName": "馬鈴薯",
+    "desc": "塊狀的草本植物。來自大地的饋贈，是不管怎樣加工都永遠吃不膩的一味神奇食材。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["雜貨店購買"]
+  },
+  {
+    "id": "Frog",
+    "name": "Frog",
+    "localeName": "青蛙",
+    "desc": "常見的蛙類，生活在潮濕的環境。總是富有活力。身上會分泌出讓人充滿活力的物質。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "素材",
+    "drop": ["淡水水域採集"]
+  },
+  {
+    "id": "LuminescentSpine",
+    "name": "Luminescent Spine",
+    "localeName": "發光髓",
+    "desc": "螢火蟲發出磷光的部位。對它而言是求偶的器官，對人則是能強健力量的良藥。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "素材",
+    "drop": ["野外採集"]
+  },
+  {
+    "id": "LizardTail",
+    "name": "Lizard Tail",
+    "localeName": "蜥蜴尾巴",
+    "desc": "失去生命後微微捲曲的蜥蜴尾巴。含有強烈的藥性，能讓人皮膚變硬。味道很苦。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "素材",
+    "drop": ["捕捉蜥蜴採集"]
+  },
+  { "id": "Fish", "name": "Fish", "localeName": "魚肉", "desc": "魚類的新鮮肉塊。經過適當處理可以製成讓人回味無窮的菜式。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["捕捉魚類採集"] },
+  {
+    "id": "CrystalCore",
+    "name": "Crystal Core",
+    "localeName": "晶核",
+    "desc": "晶蝶的核心。是吸食著大氣中逸散的細小元素的晶蝶長出的奇妙器官。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "素材",
+    "drop": ["捕捉晶蝶採集"]
+  },
+  {
+    "id": "RawMeatS",
+    "name": "Raw Meat (S)",
+    "localeName": "小塊獸肉",
+    "desc": "獸類的新鮮肉塊。經過適當處理可以製成讓人元氣滿滿的美食。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["動物掉落"]
+  },
+  { "id": "FowlS", "name": "Fowl (S)", "localeName": "小塊禽肉", "desc": "禽類的新鮮肉塊。經過適當處理可以製成讓人精神一振的佳餚。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["動物掉落"] },
+  { "id": "Tofu", "name": "Tofu", "localeName": "豆腐", "desc": "鮮嫩的豆製品。口感如凝乳般細膩。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["璃月雜貨店購買"] },
+  { "id": "Almond", "name": "Almond", "localeName": "杏仁", "desc": "有著奇特香味的種子。能為食物帶來全然不同的清新風味。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["璃月雜貨店購買"] },
+  {
+    "id": "LoachPearl",
+    "name": "Loach Pearl",
+    "localeName": "鰍鰍寶玉",
+    "desc": "鰍鰍吐出的閃亮珍珠，有神奇的藥用效果。\n鰍鰍會將攝入的礦物質和元素凝結成帶有微弱魔力的珠子，在緊急情況下，會將這些珠子吐出來迷惑狩獵者，以保全性命。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "素材",
+    "drop": ["野外採集"]
+  },
+  {
+    "id": "BambooShoot",
+    "name": "Bamboo Shoot",
+    "localeName": "竹筍",
+    "desc": "新鮮生長出土的竹子嫩芽。有著奇妙的芳香，是只有竹子生長的地方才會出產的美味食材。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["野外採集"]
+  },
+  {
+    "id": "Rice",
+    "name": "Rice",
+    "localeName": "稻米",
+    "desc": "提瓦特常見的禾本作物。無論是什麼樣的人，都能欣賞這種顆粒分明的飽滿口感，正所謂「一樣米養百樣人」。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["璃月雜貨店購買"]
+  },
+  {
+    "id": "ShrimpMeat",
+    "name": "Shrimp Meat",
+    "localeName": "蝦仁",
+    "desc": "飽滿的深海蝦仁。擁有豐富的營養與壓倒性的鮮美風味。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["璃月雜貨店購買"]
+  },
+  {
+    "id": "ChilledMeat",
+    "name": "Chilled Meat",
+    "localeName": "「冷鮮肉」",
+    "desc": "稀有的鮮美肉類。\n根據記載在數百年前已經滅絕的豬，因為龍脊雪山的極端天候而被保存了下來。對於提瓦特的老饕們而言，是福音般神聖的極佳食材。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["動物掉落"]
+  },
+  { "id": "IronChunk", "name": "Iron Chunk", "localeName": "鐵塊", "desc": "鐵的礦石，在擁有相應技能的工匠手中能綻放光彩吧。", "rarity": 1, "type": 4, "typeText": "素材", "drop": ["野外採集"] },
+  {
+    "id": "WhiteIronChunk",
+    "name": "White Iron Chunk",
+    "localeName": "白鐵塊",
+    "desc": "白鐵的礦石，在擁有相應技能的工匠手中能大放異彩吧。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "素材",
+    "drop": ["野外採集", "推薦：望風山地採集", "推薦：奔狼領採集"]
+  },
+  {
+    "id": "CrystalChunk",
+    "name": "Crystal Chunk",
+    "localeName": "水晶塊",
+    "desc": "未經削切的晶體。在專門處理後，才能真正展現價值吧。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "素材",
+    "drop": ["野外採集", "推薦：風龍廢墟採集"]
+  },
+  {
+    "id": "MagicalCrystalChunk",
+    "name": "Magical Crystal Chunk",
+    "localeName": "魔晶塊",
+    "desc": "可以通過「委託鍛造」，利用原粹樹脂，提煉成武器經驗材料。\n受地脈的能量侵蝕的水晶礦，尋常手段無法處理。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "素材",
+    "drop": ["野外採集"]
+  },
+  { "id": "ScarletQuartz", "name": "Scarlet Quartz", "localeName": "深赤之石", "desc": "深赤之石", "rarity": 1, "type": 7, "typeText": "龍血BUFF", "drop": ["野外採集"] },
+  {
+    "id": "Starsilver",
+    "name": "Starsilver",
+    "localeName": "星銀礦石",
+    "desc": "因為龍脊雪山的特殊地理環境與地脈，而產生的珍稀礦石。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "素材",
+    "drop": ["野外採集"]
   },
   {
     "id": "NorthlanderSwordBillet",
@@ -159,6 +658,7 @@
     "desc": "生產武器的原素材。透過鍛造，可以生產出4星的單手劍。\n哲學中認為大理石蘊藏著成為美麗雕塑的潛能。這些原胚也孕育了無限可能。真讓人期待。",
     "rarity": 4,
     "type": 4,
+    "typeText": "素材",
     "drop": ["BOSS掉落"]
   },
   {
@@ -168,6 +668,7 @@
     "desc": "生產武器的原素材。透過鍛造，可以生產出4星的弓。\n哲學中認為大理石蘊藏著成為美麗雕塑的潛能。這些原胚也孕育了無限可能。真讓人期待。",
     "rarity": 4,
     "type": 4,
+    "typeText": "素材",
     "drop": ["BOSS掉落"]
   },
   {
@@ -177,6 +678,7 @@
     "desc": "生產武器的原素材。透過鍛造，可以生產出4星的雙手劍。\n哲學中認為大理石蘊藏著成為美麗雕塑的潛能。這些原胚也孕育了無限可能。真讓人期待。",
     "rarity": 4,
     "type": 4,
+    "typeText": "素材",
     "drop": ["BOSS掉落"]
   },
   {
@@ -186,6 +688,7 @@
     "desc": "生產武器的原素材。透過鍛造，可以生產出4星的法器。\n哲學中認為大理石蘊藏著成為美麗雕塑的潛能。這些原胚也孕育了無限可能。真讓人期待。",
     "rarity": 4,
     "type": 4,
+    "typeText": "素材",
     "drop": ["BOSS掉落"]
   },
   {
@@ -195,9 +698,70 @@
     "desc": "生產武器的原素材。透過鍛造，可以生產出4星的長柄武器。\n哲學中認為大理石蘊藏著成為美麗雕塑的潛能。這些原胚也孕育了無限可能。真讓人期待。",
     "rarity": 4,
     "type": 4,
+    "typeText": "素材",
     "drop": ["BOSS掉落"]
   },
-  { "id": "BrilliantDiamondSliver", "name": "Brilliant Diamond Sliver", "localeName": "璀璨原鑽碎屑", "desc": "角色突破素材。\n「歡迎來到世界。」", "rarity": 2, "type": 1, "drop": ["冒險等階獎勵"] },
+  {
+    "id": "HuntingTrap",
+    "name": "Hunting Trap",
+    "localeName": "狩獵陷阱",
+    "desc": "用來捕捉一定體型的野獸。在野外用心搜集的話，還是能做出這樣一個陷阱的。佈置在地上，小心藏好。",
+    "rarity": 1,
+    "type": 7,
+    "typeText": "消耗品"
+  },
+  { "id": "StrangeTooth", "name": "Strange Tooth", "localeName": "奇異的「牙齒」", "desc": "從雪山上拾得的「牙齒」。也許有人會知道關於它的一些資訊…", "rarity": 1, "type": 4, "typeText": "素材" },
+  {
+    "id": "VitalizedDragontooth",
+    "name": "Vitalized Dragontooth",
+    "localeName": "汲取了生命力的龍牙",
+    "desc": "汲取了生命力的龍牙。無論是光澤還是質感，都愈加讓人不安…",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "素材"
+  },
+  { "id": "PyroShard", "name": "Pyro Shard", "localeName": "火元素晶片", "desc": "從火元素結晶上剝落下來的晶片，吸收後可獲得50點火元素能量。", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "HydroShard", "name": "Hydro Shard", "localeName": "水元素晶片", "desc": "從水元素結晶上剝落下來的晶片，吸收後可獲得50點水元素能量。", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "DendroShard", "name": "Dendro Shard", "localeName": "草元素晶片", "desc": "從草元素結晶上剝落下來的晶片，吸收後可獲得50點草元素能量。", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "ElectroShard", "name": "Electro Shard", "localeName": "雷元素晶片", "desc": "從電元素結晶上剝落下來的晶片，吸收後可獲得50點雷元素能量。", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "AnemoShard", "name": "Anemo Shard", "localeName": "風元素晶片", "desc": "從風元素結晶上剝落下來的晶片，吸收後可獲得50點風元素能量。", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "CryoShard", "name": "Cryo Shard", "localeName": "冰元素晶片", "desc": "從冰元素結晶上剝落下來的晶片，吸收後可獲得50點冰元素能量。", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "GeoShard", "name": "Geo Shard", "localeName": "岩元素晶片", "desc": "從岩元素結晶上剝落下來的晶片，吸收後可獲得50點岩元素能量。", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  {
+    "id": "PrimordialElementalShard",
+    "name": "Primordial Elemental Shard",
+    "localeName": "原初元素晶片",
+    "desc": "從無屬性結晶上剝落下來的晶片，吸收後可獲得50點無屬性能量。",
+    "rarity": 1,
+    "type": 2,
+    "typeText": "消耗品"
+  },
+  { "id": "PyroJikaka", "name": "Pyro Jikaka", "localeName": "火熾奇卡卡", "desc": "從火屬性的奇卡卡樹上採摘的果實，食用後可獲得30點火元素能量。", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "HydroJikaka", "name": "Hydro Jikaka", "localeName": "水潤奇卡卡", "desc": "從水屬性的奇卡卡樹上採摘的果實，食用後可獲得30點水元素能量。", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "DendroJikaka", "name": "Dendro Jikaka", "localeName": "草萌奇卡卡", "desc": "從草屬性的奇卡卡樹上採摘的果實，食用後可獲得30點草元素能量。", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "ElectroJikaka", "name": "Electro Jikaka", "localeName": "電擊奇卡卡", "desc": "從雷屬性的奇卡卡樹上採摘的果實，食用後可獲得30點雷元素能量。", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "AnemoJikaka", "name": "Anemo Jikaka", "localeName": "風紋奇卡卡", "desc": "從風屬性的奇卡卡樹上採摘的果實，食用後可獲得30點風元素能量。", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "CryoJikaka", "name": "Cryo Jikaka", "localeName": "冰結奇卡卡", "desc": "從冰屬性的奇卡卡樹上採摘的果實，食用後可獲得30點冰元素能量。", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "GeoJikaka", "name": "Geo Jikaka", "localeName": "岩皮奇卡卡", "desc": "從岩屬性的奇卡卡樹上採摘的果實，食用後可獲得30點岩元素能量。", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  {
+    "id": "StandardJikaka",
+    "name": "Standard Jikaka",
+    "localeName": "原初奇卡卡",
+    "desc": "從無屬性的奇卡卡樹上採摘的果實，食用後可獲得30點無屬性能量。",
+    "rarity": 1,
+    "type": 2,
+    "typeText": "消耗品"
+  },
+  {
+    "id": "BrilliantDiamondSliver",
+    "name": "Brilliant Diamond Sliver",
+    "localeName": "璀璨原鑽碎屑",
+    "desc": "角色突破素材。\n「歡迎來到世界。」",
+    "rarity": 2,
+    "type": 1,
+    "typeText": "角色培養素材",
+    "drop": ["冒險等階獎勵"]
+  },
   {
     "id": "BrilliantDiamondFragment",
     "name": "Brilliant Diamond Fragment",
@@ -205,11 +769,39 @@
     "desc": "角色突破素材。\n「歡迎來到世界。」",
     "rarity": 3,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["冒險等階獎勵"]
   },
-  { "id": "BrilliantDiamondChunk", "name": "Brilliant Diamond Chunk", "localeName": "璀璨原鑽塊", "desc": "角色突破素材。\n「歡迎來到世界。」", "rarity": 4, "type": 1, "drop": ["冒險等階獎勵"] },
-  { "id": "BrilliantDiamondGemstone", "name": "Brilliant Diamond Gemstone", "localeName": "璀璨原鑽", "desc": "角色突破素材。\n「歡迎來到世界。」", "rarity": 5, "type": 1, "drop": ["冒險等階獎勵"] },
-  { "id": "AgnidusAgateSliver", "name": "Agnidus Agate Sliver", "localeName": "燃願瑪瑙碎屑", "desc": "角色突破素材。", "rarity": 2, "type": 1, "drop": ["爆炎樹掉落", "紀念品商店兌換"] },
+  {
+    "id": "BrilliantDiamondChunk",
+    "name": "Brilliant Diamond Chunk",
+    "localeName": "璀璨原鑽塊",
+    "desc": "角色突破素材。\n「歡迎來到世界。」",
+    "rarity": 4,
+    "type": 1,
+    "typeText": "角色培養素材",
+    "drop": ["冒險等階獎勵"]
+  },
+  {
+    "id": "BrilliantDiamondGemstone",
+    "name": "Brilliant Diamond Gemstone",
+    "localeName": "璀璨原鑽",
+    "desc": "角色突破素材。\n「歡迎來到世界。」",
+    "rarity": 5,
+    "type": 1,
+    "typeText": "角色培養素材",
+    "drop": ["冒險等階獎勵"]
+  },
+  {
+    "id": "AgnidusAgateSliver",
+    "name": "Agnidus Agate Sliver",
+    "localeName": "燃願瑪瑙碎屑",
+    "desc": "角色突破素材。",
+    "rarity": 2,
+    "type": 1,
+    "typeText": "角色培養素材",
+    "drop": ["爆炎樹掉落", "紀念品商店兌換"]
+  },
   {
     "id": "AgnidusAgateFragment",
     "name": "Agnidus Agate Fragment",
@@ -217,6 +809,7 @@
     "desc": "角色突破素材。\n「為了願望而步上巡禮，為了最強之名而雲聚爭鬥…」",
     "rarity": 3,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["40級以上爆炎樹掉落", "合成獲得"]
   },
   {
@@ -226,6 +819,7 @@
     "desc": "角色突破素材。\n「為了願望而步上巡禮，為了最強之名而雲聚爭鬥…」\n「最後為了夢在劫火中燃盡。」",
     "rarity": 4,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["60級以上爆炎樹掉落", "合成獲得"]
   },
   {
@@ -235,9 +829,19 @@
     "desc": "角色突破素材。\n「為了願望而步上巡禮，為了最強之名而雲聚爭鬥…」\n「最後為了夢在劫火中燃盡。」\n「灰燼中如果留下了最初的心，那他就達成了██的真實。」",
     "rarity": 5,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["75級以上爆炎樹掉落", "合成獲得"]
   },
-  { "id": "VarunadaLazuriteSliver", "name": "Varunada Lazurite Sliver", "localeName": "滌淨青金碎屑", "desc": "角色突破素材。", "rarity": 2, "type": 1, "drop": ["純水精靈掉落", "紀念品商店兌換"] },
+  {
+    "id": "VarunadaLazuriteSliver",
+    "name": "Varunada Lazurite Sliver",
+    "localeName": "滌淨青金碎屑",
+    "desc": "角色突破素材。",
+    "rarity": 2,
+    "type": 1,
+    "typeText": "角色培養素材",
+    "drop": ["純水精靈掉落", "紀念品商店兌換"]
+  },
   {
     "id": "VarunadaLazuriteFragment",
     "name": "Varunada Lazurite Fragment",
@@ -245,6 +849,7 @@
     "desc": "角色突破素材。\n「我的理想之內並沒有一絲污濁。」",
     "rarity": 3,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["40級以上純水精靈掉落", "合成獲得"]
   },
   {
@@ -254,6 +859,7 @@
     "desc": "角色突破素材。\n「我的理想之內並沒有一絲污濁。」\n「我要糾正你，在這裡，人並不對神背負罪孽…」",
     "rarity": 4,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["60級以上純水精靈掉落", "合成獲得"]
   },
   {
@@ -263,10 +869,20 @@
     "desc": "角色突破素材。\n「我的理想之內並沒有一絲污濁。」\n「我要糾正你，在這裡，人並不對神背負罪孽，能下達判決的只有法律與裁判庭。」\n「他們甚至連我也可以裁判。讚美我的崇高與純潔吧。」",
     "rarity": 5,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["75級以上純水精靈掉落", "合成獲得"]
   },
-  { "id": "NagadusEmeraldSliver", "name": "Nagadus Emerald Sliver", "localeName": "生長碧翡碎屑", "desc": "角色突破素材。", "rarity": 2, "type": 1 },
-  { "id": "NagadusEmeraldFragment", "name": "Nagadus Emerald Fragment", "localeName": "生長碧翡斷片", "desc": "角色突破素材。\n「生命最後放開了手…」", "rarity": 3, "type": 1, "drop": ["合成獲得"] },
+  { "id": "NagadusEmeraldSliver", "name": "Nagadus Emerald Sliver", "localeName": "生長碧翡碎屑", "desc": "角色突破素材。", "rarity": 2, "type": 1, "typeText": "角色培養素材" },
+  {
+    "id": "NagadusEmeraldFragment",
+    "name": "Nagadus Emerald Fragment",
+    "localeName": "生長碧翡斷片",
+    "desc": "角色突破素材。\n「生命最後放開了手…」",
+    "rarity": 3,
+    "type": 1,
+    "typeText": "角色培養素材",
+    "drop": ["合成獲得"]
+  },
   {
     "id": "NagadusEmeraldChunk",
     "name": "Nagadus Emerald Chunk",
@@ -274,6 +890,7 @@
     "desc": "角色突破素材。\n「生命最後放開了手…」\n「施與眾生自由。」",
     "rarity": 4,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["合成獲得"]
   },
   {
@@ -283,9 +900,19 @@
     "desc": "角色突破素材。\n「生命最後放開了手…」\n「施與眾生自由。」\n「人與動物們都能表達自己，草木卻只有沉默。所以它們才需要一位代言。」",
     "rarity": 5,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["合成獲得"]
   },
-  { "id": "VajradaAmethystSliver", "name": "Vajrada Amethyst Sliver", "localeName": "最勝紫晶碎屑", "desc": "角色突破素材。", "rarity": 2, "type": 1, "drop": ["無相之雷掉落", "紀念品商店兌換"] },
+  {
+    "id": "VajradaAmethystSliver",
+    "name": "Vajrada Amethyst Sliver",
+    "localeName": "最勝紫晶碎屑",
+    "desc": "角色突破素材。",
+    "rarity": 2,
+    "type": 1,
+    "typeText": "角色培養素材",
+    "drop": ["無相之雷掉落", "紀念品商店兌換"]
+  },
   {
     "id": "VajradaAmethystFragment",
     "name": "Vajrada Amethyst Fragment",
@@ -293,6 +920,7 @@
     "desc": "角色突破素材。\n「此身即是塵世最為殊勝尊貴之身。」",
     "rarity": 3,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["40級以上無相之雷掉落", "合成獲得"]
   },
   {
@@ -302,6 +930,7 @@
     "desc": "角色突破素材。\n「此身即是塵世最為殊勝尊貴之身。」\n「應持天下之大權。」",
     "rarity": 4,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["60級以上無相之雷掉落", "合成獲得"]
   },
   {
@@ -311,9 +940,19 @@
     "desc": "角色突破素材。\n「此身即是塵世最為殊勝尊貴之身。」\n「應持天下之大權。」\n「此身曾許諾予臣民一夢，既是千世萬代不變不移的『永恆』。」",
     "rarity": 5,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["75級以上無相之雷掉落", "合成獲得"]
   },
-  { "id": "VayudaTurquoiseSliver", "name": "Vayuda Turquoise Sliver", "localeName": "自在松石碎屑", "desc": "角色突破素材。", "rarity": 2, "type": 1, "drop": ["無相之風掉落", "紀念品商店兌換"] },
+  {
+    "id": "VayudaTurquoiseSliver",
+    "name": "Vayuda Turquoise Sliver",
+    "localeName": "自在松石碎屑",
+    "desc": "角色突破素材。",
+    "rarity": 2,
+    "type": 1,
+    "typeText": "角色培養素材",
+    "drop": ["無相之風掉落", "紀念品商店兌換"]
+  },
   {
     "id": "VayudaTurquoiseFragment",
     "name": "Vayuda Turquoise Fragment",
@@ -321,6 +960,7 @@
     "desc": "角色突破素材。\n「但風向是會轉變的。」",
     "rarity": 3,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["40級以上無相之風掉落", "合成獲得"]
   },
   {
@@ -330,6 +970,7 @@
     "desc": "角色突破素材。\n「但風向是會轉變的。」\n「終有一天，會吹向更有光亮的方向。」",
     "rarity": 4,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["60級以上無相之風掉落", "合成獲得"]
   },
   {
@@ -339,9 +980,19 @@
     "desc": "角色突破素材。\n「但風向是會轉變的。」\n「終有一天，會吹向更有光亮的方向。」\n「從今往後，帶著我的祝福，活得更加從容一些吧。」",
     "rarity": 5,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["75級以上無相之風掉落", "合成獲得"]
   },
-  { "id": "ShivadaJadeSliver", "name": "Shivada Jade Sliver", "localeName": "哀敘冰玉碎屑", "desc": "角色突破素材。", "rarity": 2, "type": 1, "drop": ["急凍樹掉落", "紀念品商店兌換"] },
+  {
+    "id": "ShivadaJadeSliver",
+    "name": "Shivada Jade Sliver",
+    "localeName": "哀敘冰玉碎屑",
+    "desc": "角色突破素材。",
+    "rarity": 2,
+    "type": 1,
+    "typeText": "角色培養素材",
+    "drop": ["急凍樹掉落", "紀念品商店兌換"]
+  },
   {
     "id": "ShivadaJadeFragment",
     "name": "Shivada Jade Fragment",
@@ -349,6 +1000,7 @@
     "desc": "角色突破素材。\n「…抱歉…」",
     "rarity": 3,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["40級以上急凍樹掉落", "合成獲得"]
   },
   {
@@ -358,6 +1010,7 @@
     "desc": "角色突破素材。\n「…抱歉…」\n「讓你們一起和我背負了整個世界的哀思。」",
     "rarity": 4,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["60級以上急凍樹掉落", "合成獲得"]
   },
   {
@@ -367,9 +1020,19 @@
     "desc": "角色突破素材。\n「…抱歉讓你們一起和我背負了整個世界的哀思。」\n「你們既然能忍受我的苦寒，那心中一定都有熾烈的欲望吧？」\n「那麼，替我燃燒舊世界吧。」",
     "rarity": 5,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["75級以上急凍樹掉落", "合成獲得"]
   },
-  { "id": "PrithivaTopazSliver", "name": "Prithiva Topaz Sliver", "localeName": "堅牢黃玉碎屑", "desc": "角色突破素材。", "rarity": 2, "type": 1, "drop": ["無相之岩掉落", "紀念品商店兌換"] },
+  {
+    "id": "PrithivaTopazSliver",
+    "name": "Prithiva Topaz Sliver",
+    "localeName": "堅牢黃玉碎屑",
+    "desc": "角色突破素材。",
+    "rarity": 2,
+    "type": 1,
+    "typeText": "角色培養素材",
+    "drop": ["無相之岩掉落", "紀念品商店兌換"]
+  },
   {
     "id": "PrithivaTopazFragment",
     "name": "Prithiva Topaz Fragment",
@@ -377,6 +1040,7 @@
     "desc": "角色突破素材。\n「大陸所流通的一切銀錢皆是我的血肉。」",
     "rarity": 3,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["40級以上無相之岩掉落", "合成獲得"]
   },
   {
@@ -386,6 +1050,7 @@
     "desc": "角色突破素材。\n「大陸所流通的一切銀錢皆是我的血肉。」\n「我在以這樣的方式，為人類一切的汗水、智慧和未來做擔保。」",
     "rarity": 4,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["60級以上無相之岩掉落", "合成獲得"]
   },
   {
@@ -395,181 +1060,231 @@
     "desc": "角色突破素材。\n「大陸所流通的一切銀錢皆是我的血肉。」\n「我在以這樣的方式，為人類一切的汗水、智慧和未來做擔保。」\n「這是我對眾生的信任，辜負了它就是玷污了我的血。」",
     "rarity": 5,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["75級以上無相之岩掉落", "合成獲得"]
   },
   {
-    "id": "DustofAzoth",
+    "id": "DustOfAzoth",
     "name": "Dust of Azoth",
     "localeName": "嬗變之塵",
     "desc": "能夠使元素突破材料發生變質，轉變其元素屬性的道具。\n刨除實用目的的話，煉金術實際上是研討物質本質與其變化規律的學科，最終通向的是世界運轉、地脈流通的規律。\n不知何者出於何種目的，在地上的文明當中散佈的這種煉金術的極高成就產物，具有扭轉完全惰性化結晶後的元素物質的能力。雖然相當便利實用，但也隱藏著打破平衡的巨大危險性…",
     "rarity": 2,
     "type": 7,
+    "typeText": "消耗品",
     "drop": ["星塵兌換獲得"]
   },
   {
-    "id": "TeachingsofFreedom",
+    "id": "TeachingsOfFreedom",
     "name": "Teachings of Freedom",
     "localeName": "「自由」的教導",
     "desc": "天賦培養素材。\n風之國土的精神是自由。\n自由其一，是生存的自由，即是能健全、健康地生活，而不必擔心朝不保夕的自由。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "typeText": "天賦培養素材"
   },
   {
-    "id": "GuidetoFreedom",
+    "id": "GuideToFreedom",
     "name": "Guide to Freedom",
     "localeName": "「自由」的指引",
     "desc": "天賦培養素材。\n風之國土的精神是自由。\n自由其二，是漫遊的自由，即是能在蒼翠的土地上自由地通行，而不受阻饒的自由。",
     "rarity": 3,
     "type": 1,
+    "typeText": "天賦培養素材",
     "drop": ["合成獲得"]
   },
   {
-    "id": "PhilosophiesofFreedom",
+    "id": "PhilosophiesOfFreedom",
     "name": "Philosophies of Freedom",
     "localeName": "「自由」的哲學",
     "desc": "天賦培養素材。\n風之國土的精神是自由。\n自由其三，是歌唱的自由，即是能在風之神塑造的美好土地上歌唱，讓自己的心與歌一同隨風而去的自由。",
     "rarity": 4,
     "type": 1,
+    "typeText": "天賦培養素材",
     "drop": ["合成獲得"]
   },
   {
-    "id": "TeachingsofResistance",
+    "id": "TeachingsOfResistance",
     "name": "Teachings of Resistance",
     "localeName": "「抗爭」的教導",
     "desc": "天賦培養素材。\n風之國土的脊樑是抗爭。\n蒙德的歷史即是抗爭的歷史。抗爭是為了蒙德過去的一切抗爭不被遺忘，如同草木突破土壤，如同恒風洞穿石牆。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "typeText": "天賦培養素材"
   },
   {
-    "id": "GuidetoResistance",
+    "id": "GuideToResistance",
     "name": "Guide to Resistance",
     "localeName": "「抗爭」的指引",
     "desc": "天賦培養素材。\n風之國土的脊樑是抗爭。\n蒙德的歷史即是抗爭的歷史。抗爭是為了蒙德現在的人們能夠擁有自由，正如風之神吹散冰雪，正如溫妮莎奮起抗爭。",
     "rarity": 3,
     "type": 1,
+    "typeText": "天賦培養素材",
     "drop": ["合成獲得"]
   },
   {
-    "id": "PhilosophiesofResistance",
+    "id": "PhilosophiesOfResistance",
     "name": "Philosophies of Resistance",
     "localeName": "「抗爭」的哲學",
     "desc": "天賦培養素材。\n風之國土的脊樑是抗爭。\n蒙德的歷史即是抗爭的歷史。抗爭是為了蒙德未來的詩文，也能自由地隨著眷顧的風，傳到遠方。",
     "rarity": 4,
     "type": 1,
+    "typeText": "天賦培養素材",
     "drop": ["合成獲得"]
   },
   {
-    "id": "TeachingsofBallad",
+    "id": "TeachingsOfBallad",
     "name": "Teachings of Ballad",
     "localeName": "「詩文」的教導",
     "desc": "天賦培養素材。\n風之國土的靈魂是詩文。\n詩文是美好的心意。在美好的日子裡，吹拂原野的風中飄揚著田園詩、情詩，如和風撥動草葉般撥動人們的心。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "typeText": "天賦培養素材"
   },
   {
-    "id": "GuidetoBallad",
+    "id": "GuideToBallad",
     "name": "Guide to Ballad",
     "localeName": "「詩文」的指引",
     "desc": "天賦培養素材。\n風之國土的靈魂是詩文。\n詩文是激勵的心意。在黯淡的日子裡，穿過巷道的風中低語著憤怒的詩文，如同戰鼓，如同風暴前的低鳴。",
     "rarity": 3,
     "type": 1,
+    "typeText": "天賦培養素材",
     "drop": ["合成獲得"]
   },
   {
-    "id": "PhilosophiesofBallad",
+    "id": "PhilosophiesOfBallad",
     "name": "Philosophies of Ballad",
     "localeName": "「詩文」的哲學",
     "desc": "天賦培養素材。\n風之國土的靈魂是詩文。\n詩文是傳頌的心意。即使一切都將逝去，即使一切都將不再，隨風而行的詩歌，仍會將此世間一切美好傳遍天空、大地與海洋的一切角落。",
     "rarity": 4,
     "type": 1,
+    "typeText": "天賦培養素材",
     "drop": ["合成獲得"]
   },
   {
-    "id": "TeachingsofProsperity",
+    "id": "TeachingsOfProsperity",
     "name": "Teachings of Prosperity",
     "localeName": "「繁榮」的教導",
     "desc": "天賦培養素材。\n岩之國土的追求是繁榮。\n繁榮是璃月的恩惠，是璃月的神與人共同建立的偉大城市，是璃月的大地安全和平的源泉。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "typeText": "天賦培養素材"
   },
   {
-    "id": "GuidetoProsperity",
+    "id": "GuideToProsperity",
     "name": "Guide to Prosperity",
     "localeName": "「繁榮」的指引",
     "desc": "天賦培養素材。\n岩之國土的追求是繁榮。\n繁榮是璃月對它的子女的許諾：以繁榮回報勤勞者，以黃金照亮這片土地。",
     "rarity": 3,
     "type": 1,
+    "typeText": "天賦培養素材",
     "drop": ["合成獲得"]
   },
   {
-    "id": "PhilosophiesofProsperity",
+    "id": "PhilosophiesOfProsperity",
     "name": "Philosophies of Prosperity",
     "localeName": "「繁榮」的哲學",
     "desc": "天賦培養素材。\n岩之國土的追求是繁榮。\n繁榮是璃月的過去、現在與未來。在此世間一切國度都無法企及的繁榮，均歸於璃月，以及璃月的子女。",
     "rarity": 4,
     "type": 1,
+    "typeText": "天賦培養素材",
     "drop": ["合成獲得"]
   },
   {
-    "id": "TeachingsofDiligence",
+    "id": "TeachingsOfDiligence",
     "name": "Teachings of Diligence",
     "localeName": "「勤勞」的教導",
     "desc": "天賦培養素材。\n岩之國土的根基是勤勞。\n勤勞即為通過人的努力，克服高山與大海，追求繁榮與黃金的勇氣與力量。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "typeText": "天賦培養素材"
   },
   {
-    "id": "GuidetoDiligence",
+    "id": "GuideToDiligence",
     "name": "Guide to Diligence",
     "localeName": "「勤勞」的指引",
     "desc": "天賦培養素材。\n岩之國土的根基是勤勞。\n勤勞是是流傳在璃月人血脈中的催化劑，能將岩石化為黃金，是偉大商港之所以為偉大商港的原因。",
     "rarity": 3,
     "type": 1,
+    "typeText": "天賦培養素材",
     "drop": ["合成獲得"]
   },
   {
-    "id": "PhilosophiesofDiligence",
+    "id": "PhilosophiesOfDiligence",
     "name": "Philosophies of Diligence",
     "localeName": "「勤勞」的哲學",
     "desc": "天賦培養素材。\n岩之國土的根基是勤勞。\n勤勞即為相信自己，即為相信通過汗水、智慧與力量，在諸神的土地上，人人都可以擁有自己的一席之地。",
     "rarity": 4,
     "type": 1,
+    "typeText": "天賦培養素材",
     "drop": ["合成獲得"]
   },
   {
-    "id": "TeachingsofGold",
+    "id": "TeachingsOfGold",
     "name": "Teachings of Gold",
     "localeName": "「黃金」的教導",
     "desc": "天賦培養素材。\n岩之國土的象徵是黃金。\n黃金是流淌在璃月土地深處的血液，是鼓動璃月的心臟有力搏動的肌肉，是讓璃月傲然挺立的筋骨。",
     "rarity": 2,
-    "type": 1
+    "type": 1,
+    "typeText": "天賦培養素材"
   },
   {
-    "id": "GuidetoGold",
+    "id": "GuideToGold",
     "name": "Guide to Gold",
     "localeName": "「黃金」的指引",
     "desc": "天賦培養素材。\n岩之國土的象徵是黃金。\n黃金意味著轉換，這是璃月的岩山、大地、港城與人們的默契。在璃月，勤勞被轉換為黃金，而黃金被轉換為繁榮。",
     "rarity": 3,
     "type": 1,
+    "typeText": "天賦培養素材",
     "drop": ["合成獲得"]
   },
   {
-    "id": "PhilosophiesofGold",
+    "id": "PhilosophiesOfGold",
     "name": "Philosophies of Gold",
     "localeName": "「黃金」的哲學",
     "desc": "天賦培養素材。\n岩之國土的象徵是黃金。\n黃金是璃月的財富。但璃月真正的財富，是璃月的人們那如黃金般閃耀的心靈。",
     "rarity": 4,
     "type": 1,
+    "typeText": "天賦培養素材",
     "drop": ["合成獲得"]
   },
   {
-    "id": "CrownofInsight",
+    "id": "CrownOfInsight",
     "name": "Crown of Insight",
     "localeName": "智識之冕",
     "desc": "提升天賦所需的珍貴素材。\n遠古時期，承載與傳授智識所用的儀式器具。儘管如今，智慧居於言語及典籍中，但「智識之冕」中殘存的力量與智慧仍能給如今的人們帶來偉大的突破吧。",
     "rarity": 5,
     "type": 1,
+    "typeText": "天賦培養素材",
     "drop": ["限時活動獎勵"]
+  },
+  { "id": "TestStaminaGrowthItem", "name": "Test Stamina Growth Item", "localeName": "測試用體力成長道具", "desc": "用於體力成長的測試道具", "rarity": 1, "type": 7, "typeText": "消耗品" },
+  {
+    "id": "TestTemporaryStaminaGrowthItem",
+    "name": "Test Temporary stamina Growth Item",
+    "localeName": "測試用體力臨時增長道具",
+    "desc": "用於一次性增加體力上限的測試道具",
+    "rarity": 1,
+    "type": 7,
+    "typeText": "消耗品"
+  },
+  { "id": "ElementalDust", "name": "Elemental Dust", "localeName": "元素晶塵", "desc": "神瞳結晶破碎後的碎片，揭示附近隱藏寶箱。", "rarity": 1, "type": 7, "typeText": "冒險道具" },
+  {
+    "id": "MondstadtShrineOfDepthsKey",
+    "name": "Mondstadt Shrine of Depths Key",
+    "localeName": "蒙德地靈龕之鑰",
+    "desc": "能破除散佈在蒙德大地各處的遠古地靈龕封印。\n大地上矗立著的遠古神龕，隨著那個文明的覆滅，也將自己封鎖了。在幽深的秘境中尋得的密鑰能破除封印，或許只是利用過去的氣息，讓神龕忘記一切盡毀之事吧。",
+    "rarity": 1,
+    "type": 7,
+    "typeText": "冒險道具"
+  },
+  {
+    "id": "LiyueShrineOfDepthsKey",
+    "name": "Liyue Shrine of Depths Key",
+    "localeName": "璃月地靈龕之鑰",
+    "desc": "能破除散佈在璃月大地各處的遠古地靈龕封印。\n大地上矗立著的遠古神龕，隨著那個文明的覆滅，也將自己封鎖了。在幽深的秘境中尋得的密鑰能破除封印，或許只是利用過去的氣息，讓神龕忘記一切盡毀之事吧。",
+    "rarity": 1,
+    "type": 7,
+    "typeText": "冒險道具"
   },
   {
     "id": "FragileResin",
@@ -577,7 +1292,8 @@
     "localeName": "脆弱樹脂",
     "desc": "可以補充原粹樹脂的道具，一個能補充60點。\n蘊含著少許能量的晶體，可以被原粹樹脂吸收。\n種種能量的流動構成了這個世界的諸多美好與挑戰。這枚晶體中也蘊含著這些能量。",
     "rarity": 4,
-    "type": 7
+    "type": 7,
+    "typeText": "消耗品"
   },
   {
     "id": "SuspiciousFishermansToast",
@@ -586,6 +1302,7 @@
     "desc": "鋪滿洋蔥的吐司。但烤得有些不對勁，即使一邊釣魚一邊啃，也能嘗出味道的差別。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -595,6 +1312,7 @@
     "desc": "鋪滿洋蔥的吐司。是漁夫間流行的主食。他們會在包裡塞滿這種吐司，並在河邊蹲上一整天。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -604,6 +1322,7 @@
     "desc": "鋪滿洋蔥的吐司。散發誘人的香氣。很難判別吸引魚上鉤的究竟是魚餌還是吐司。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -613,9 +1332,19 @@
     "desc": "單面煎熟的禽蛋。口感有點硬，只能期望營養沒有流失。",
     "rarity": 1,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
-  { "id": "TeyvatFriedEgg", "name": "Teyvat Fried Egg", "localeName": "提瓦特煎蛋", "desc": "單面煎熟的禽蛋。蛋黃一戳就可以流出汁，非常適合解饞。", "rarity": 1, "type": 2, "drop": ["烹飪獲得"] },
+  {
+    "id": "TeyvatFriedEgg",
+    "name": "Teyvat Fried Egg",
+    "localeName": "提瓦特煎蛋",
+    "desc": "單面煎熟的禽蛋。蛋黃一戳就可以流出汁，非常適合解饞。",
+    "rarity": 1,
+    "type": 2,
+    "typeText": "食物",
+    "drop": ["烹飪獲得"]
+  },
   {
     "id": "DeliciousTeyvatFriedEgg",
     "name": "Delicious Teyvat Fried Egg",
@@ -623,6 +1352,7 @@
     "desc": "單面煎熟的禽蛋。有著陽光般和煦的口感，只要一口便湧入了蓬勃生命力。",
     "rarity": 1,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -632,10 +1362,29 @@
     "desc": "煎烤過的肉排。表面色澤有一絲黯淡，好像在遺憾自己沒有物盡其用。",
     "rarity": 1,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
-  { "id": "Steak", "name": "Steak", "localeName": "烤肉排", "desc": "煎烤過的肉排。高溫將水分緊鎖其中，令人期待它切開後流汁的樣子。", "rarity": 1, "type": 2, "drop": ["烹飪獲得"] },
-  { "id": "DeliciousSteak", "name": "Delicious Steak", "localeName": "美味的烤肉排", "desc": "煎烤過的肉排。滿溢在口中的肉香，能感到力量在體內迸發。", "rarity": 1, "type": 2, "drop": ["烹飪獲得"] },
+  {
+    "id": "Steak",
+    "name": "Steak",
+    "localeName": "烤肉排",
+    "desc": "煎烤過的肉排。高溫將水分緊鎖其中，令人期待它切開後流汁的樣子。",
+    "rarity": 1,
+    "type": 2,
+    "typeText": "食物",
+    "drop": ["烹飪獲得"]
+  },
+  {
+    "id": "DeliciousSteak",
+    "name": "Delicious Steak",
+    "localeName": "美味的烤肉排",
+    "desc": "煎烤過的肉排。滿溢在口中的肉香，能感到力量在體內迸發。",
+    "rarity": 1,
+    "type": 2,
+    "typeText": "食物",
+    "drop": ["烹飪獲得"]
+  },
   {
     "id": "OutridersChampionSteak",
     "name": "Outrider's Champion Steak!",
@@ -643,6 +1392,7 @@
     "desc": "安柏的特色料理。一面泛著血色，另一面散發著微妙焦香氣味的肉排。閉著眼大口吃下去，安柏會很高興的吧。",
     "rarity": 1,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -652,6 +1402,7 @@
     "desc": "由野菇和禽肉組成的烤串。乍一看有些難以區分兩者。",
     "rarity": 1,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -661,6 +1412,7 @@
     "desc": "由野菇和禽肉組成的烤串。鮮嫩禽肉佐以鮮香野菇，吃的時候也不要挑食哦。",
     "rarity": 1,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -670,6 +1422,7 @@
     "desc": "由野菇和禽肉組成的烤串。恰到好處的火候，讓一根小木棒串起了整片山野的味道。",
     "rarity": 1,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -679,6 +1432,7 @@
     "desc": "凱亞的特色料理。彈牙可口的烤串，隱約帶有一絲甘甜濃厚的回味。等等…這真的是果香嗎？",
     "rarity": 1,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -688,6 +1442,7 @@
     "desc": "淋滿肉醬的細麵。口感有些稠厚，黏在牙齒上的感覺有點不妙。",
     "rarity": 2,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -697,6 +1452,7 @@
     "desc": "淋滿肉醬的細麵。細麵被番茄醬染上紅紅火火的色彩，酸甜可口，非常開胃。",
     "rarity": 2,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -706,6 +1462,7 @@
     "desc": "淋滿肉醬的細麵。濃郁的酸甜讓最後一口都跟第一口一樣美妙。",
     "rarity": 2,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -715,6 +1472,7 @@
     "desc": "麗莎的特色料理。顏色有些奇妙的肉醬麵，可是一旦嘗過一口就再也不想停下來。她究竟施了什麼魔法？",
     "rarity": 2,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -724,6 +1482,7 @@
     "desc": "蘿蔔為主的菜湯。湯裡的蔬菜無精打采，如同經歷了一場霜寒。",
     "rarity": 1,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -733,6 +1492,7 @@
     "desc": "蘿蔔為主的菜湯。微酸微甜的湯裡藏著脆嫩的白蘿蔔，營養均衡。",
     "rarity": 1,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -742,6 +1502,7 @@
     "desc": "蘿蔔為主的菜湯。一股清新樸素的田園香氣撲面而來，如同重返無憂無慮的午後時光。",
     "rarity": 1,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -751,6 +1512,7 @@
     "desc": "圓形的烤餅。一絲焦味掩蓋了鬆餅應有的甜味，只有樹莓堅守崗位。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -760,6 +1522,7 @@
     "desc": "圓形的烤餅。從莊園的午後點心逐漸演變成為尋常主食，會用最好的樹莓進行點綴。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -769,6 +1532,7 @@
     "desc": "圓形的烤餅。香呼呼的鬆餅嚼上去有著軟綿綿的口感，味蕾也彷彿置身於雲端。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -778,6 +1542,7 @@
     "desc": "油炸的蘿蔔丸。吃上去總覺得過於油膩，喝兩口水才能勉強下嚥。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -787,6 +1552,7 @@
     "desc": "油炸的蘿蔔丸。有著脆嫩酥香的獨特口感，適合趁熱吃。據說是來自璃月的配方。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -796,6 +1562,7 @@
     "desc": "油炸的蘿蔔丸。美味得讓人難以置信原料只是樸素的蘿蔔，吃過的人都會感慨璃月美食名不虛傳！",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -805,6 +1572,7 @@
     "desc": "涼拌的鮮蔬拼盤。光顧著擺盤錯過了馬鈴薯和水煮蛋的起鍋時間，令人遺憾。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -814,6 +1582,7 @@
     "desc": "涼拌的鮮蔬拼盤。在水煮馬鈴薯和新鮮果蔬中間，擺上了半熟的雞蛋。能夠提供充足的飽腹感。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -823,6 +1592,7 @@
     "desc": "涼拌的鮮蔬拼盤。口感鮮爽而又輕盈，就算餘生只能吃到這種沙拉，也不會厭倦。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -832,9 +1602,19 @@
     "desc": "蜜釀後烤熟的禽肉。甜甜花在過度的烤製下凋謝了，只留下了禽肉柴苦的口感。",
     "rarity": 2,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
-  { "id": "SweetMadame", "name": "Sweet Madame", "localeName": "甜甜花釀雞", "desc": "蜜釀後烤熟的禽肉。細嫩的禽肉裡滲著甜甜花的絲絲蜜汁，香甜可口。", "rarity": 2, "type": 3, "drop": ["烹飪獲得"] },
+  {
+    "id": "SweetMadame",
+    "name": "Sweet Madame",
+    "localeName": "甜甜花釀雞",
+    "desc": "蜜釀後烤熟的禽肉。細嫩的禽肉裡滲著甜甜花的絲絲蜜汁，香甜可口。",
+    "rarity": 2,
+    "type": 3,
+    "typeText": "食物",
+    "drop": ["烹飪獲得"]
+  },
   {
     "id": "DeliciousSweetMadame",
     "name": "Delicious Sweet Madame",
@@ -842,6 +1622,7 @@
     "desc": "蜜釀後烤熟的禽肉。肉質如同流蜜一般香甜軟嫩，讓人想把每一根骨頭都吮吸乾淨。",
     "rarity": 2,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -851,6 +1632,7 @@
     "desc": "蔬菜搭配燻製好的禽肉。事實證明招待別人前先嘗一口是很有必要的，比如現在重做一份還來得及。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -860,6 +1642,7 @@
     "desc": "蔬菜搭配燻製好的禽肉。是北境家家戶戶都會做的菜餚，會用來招待重要的客人。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -869,6 +1652,7 @@
     "desc": "蔬菜搭配燻製好的禽肉。完美的口感讓人用這道料理招待一國之主也能保持自信。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -878,9 +1662,19 @@
     "desc": "鮮奶油燉煮的燴菜。過乾的收汁讓這道菜更像鐵板煎肉。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
-  { "id": "CreamStew", "name": "Cream Stew", "localeName": "白醬時蔬燴肉", "desc": "鮮奶油燉煮的燴菜。稠厚的湯汁成就了濃香的口感，入口溫潤柔和。", "rarity": 2, "type": 2, "drop": ["烹飪獲得"] },
+  {
+    "id": "CreamStew",
+    "name": "Cream Stew",
+    "localeName": "白醬時蔬燴肉",
+    "desc": "鮮奶油燉煮的燴菜。稠厚的湯汁成就了濃香的口感，入口溫潤柔和。",
+    "rarity": 2,
+    "type": 2,
+    "typeText": "食物",
+    "drop": ["烹飪獲得"]
+  },
   {
     "id": "DeliciousCreamStew",
     "name": "Delicious Cream Stew",
@@ -888,6 +1682,7 @@
     "desc": "鮮奶油燉煮的燴菜。伴隨著食材融化在唇齒，全身宛如享受牛奶浴般鬆弛。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -897,6 +1692,7 @@
     "desc": "芭芭拉的特色料理。切成星形的胡蘿蔔為菜品增添了不少可愛度…不對，這魔鬼般的辣度是怎麼回事？",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -906,6 +1702,7 @@
     "desc": "鋪滿蘑菇和乳酪的薄餅。只要能忍受像磚頭一樣的口感，它作為主食提供的能量還是很足夠的。",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -915,6 +1712,7 @@
     "desc": "鋪滿蘑菇和乳酪的薄餅。熱的時候乳酪可以拉出細長的絲，大口咬下去很過癮。",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -924,6 +1722,7 @@
     "desc": "鋪滿蘑菇和乳酪的薄餅。嫩菇和脆蔬像是牽起了手，踩著綿軟的乳酪地毯在舌尖起舞。",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -933,6 +1732,7 @@
     "desc": "琴的特色料理。規整得像是工藝品的薄餅，吃一片就可以大大地振奮精神。這就是她能夠連續工作的秘密武器嗎？",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -942,6 +1742,7 @@
     "desc": "馬鈴薯做的炸餅。據說沒有果醬的薯餅不能被冠上蒙德之名，而這兩塊的情況嘛…大概連薯餅都稱不上了？",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -951,6 +1752,7 @@
     "desc": "馬鈴薯做的炸餅。少量松果提供了富有變化的口感。可以搭配果醬食用，深受各個年齡階層的歡迎。",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -960,6 +1762,7 @@
     "desc": "馬鈴薯做的炸餅。閉上眼睛，小小的一塊薯餅，卻帶給人清風的柔潤和雨露的甘甜。",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -969,6 +1772,7 @@
     "desc": "雷澤的特色料理。被小心翼翼捏成狼爪形狀的薯餅，樸實中帶著香甜，能夠品嘗出他對於人類料理的努力。",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -978,6 +1782,7 @@
     "desc": "營養均衡的海鮮羹。嘟嘟蓮的苦、薄荷的澀、蟹肉的腥……能把食材的負面全部集中到一碗羹裡，似乎也是一種本事。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -987,6 +1792,7 @@
     "desc": "營養均衡的海鮮羹。色澤清亮的湯汁每一口都淌著螃蟹的鮮美，薄荷和嘟嘟蓮又為它增添了幾分清雅爽口。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -996,33 +1802,37 @@
     "desc": "營養均衡的海鮮羹。蟹肉的鮮美在舌尖躍然綻放，配合上清涼的薄荷和嘟嘟蓮，彷彿正赤腳在夏天的池邊嬉戲。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
-    "id": "SuspiciousSautedMatsutake",
+    "id": "SuspiciousSauteedMatsutake",
     "name": "Suspicious Sautéed Matsutake",
     "localeName": "奇怪的奶油松茸",
     "desc": "煎製而成的松茸片。可惜火候沒掌握好，只能說成焦香洋芋片來矇騙沒看見烹飪過程的人。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
-    "id": "SautedMatsutake",
+    "id": "SauteedMatsutake",
     "name": "Sautéed Matsutake",
     "localeName": "奶油松茸",
     "desc": "煎製而成的松茸片。切成薄片的松茸用奶油煎出外脆裡嫩的口感，很容易被一搶而空。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
-    "id": "DeliciousSautedMatsutake",
+    "id": "DeliciousSauteedMatsutake",
     "name": "Delicious Sautéed Matsutake",
     "localeName": "美味的奶油松茸",
     "desc": "煎製而成的松茸片。口感嫩滑，鮮香四溢，感覺像是把整個春天的活力吃進了肚子裡。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1032,6 +1842,7 @@
     "desc": "用料豐厚的肉料理。大概是堆疊的順序出了差錯，能否將這盤搖搖欲墜的料理端上餐桌，已經成為了一個問題。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1041,6 +1852,7 @@
     "desc": "用料豐厚的肉料理。原先是將烤肉排、馬鈴薯、乳酪堆疊而成的一道蒙德家常菜，後來作為羽球節的壓軸菜聲名遠揚。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1050,15 +1862,17 @@
     "desc": "用料豐厚的肉料理。食材堆成了賞心悅目的形狀，得當的比例讓每一層的搭配都好吃不膩。啊，真希望它堆得再高一點呀。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
-    "id": "OnceUponaTimeinMondstadt",
+    "id": "OnceUponATimeInMondstadt",
     "name": "\"Once Upon a Time in Mondstadt\"",
     "localeName": "「蒙德往事」",
     "desc": "迪盧克的特色料理。先用眼睛飽嘗精緻細緻的擺盤，再讓柔嫩的肉排在唇齒間微微融化。嗯…沒想到老爺還有這種手藝？",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1068,6 +1882,7 @@
     "desc": "擺滿肉類的拼盤。似乎做得太冷了一點，可能對牙齒和腸胃不好的人而言是一種折磨。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1077,6 +1892,7 @@
     "desc": "擺滿肉類的拼盤。由等量的培根、火腿和香腸組成。食客們可以暫且放下關於三大肉類哪種最好吃的爭論，和平地享用美味。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1086,6 +1902,7 @@
     "desc": "擺滿肉類的拼盤。絕妙的調味激發了食材的鮮香，三種肉類的組合在嘴裡拼接成了至高的美味，令人頓時忘記煩惱。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1095,6 +1912,7 @@
     "desc": "淋滿蜜汁的肉料理。獸肉和蜜汁完美地黏在了一起。儘管獸肉很難吃出肉香，蜜汁也難嘗出甜味。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1104,6 +1922,7 @@
     "desc": "淋滿蜜醬的肉料理。胡蘿蔔巧妙地解去了肉的腥味，裹上蜜醬，入口甘甜，回味炙熱，很適合冬天享用。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1113,6 +1932,7 @@
     "desc": "澆滿蜜醬的肉料理。炙熱的蜜醬讓香嫩多汁的獸肉爆發出驚人的美味，似乎整個身子都沐浴在了橘色的暖陽中。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1122,6 +1942,7 @@
     "desc": "配料奢華的焗菜。望著這濃濃的一灘，甚至都看不出之前在裡面加了什麼，或是少加了什麼。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1131,6 +1952,7 @@
     "desc": "配料奢華的焗菜。金黃的外皮下，隱約透著玫紅的火腿與青綠的蔬菜，豐富的配色讓人不由食指大動。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1140,6 +1962,7 @@
     "desc": "配料奢華的焗菜。還沒入口都能聞到蟹黃和鮮奶油散發出的濃香，感覺最後能把盤子舔個一乾二淨。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1149,6 +1972,7 @@
     "desc": "造型精緻的菜餚。乾癟的菜葉勉強包裹住了生熟程度不一的食材，低垂的樣子令人沮喪。",
     "rarity": 4,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1158,6 +1982,7 @@
     "desc": "造型精緻的菜餚。入口滑爽的菜葉緊緊鎖住了火腿的鮮味，淋上高湯，回味微辣鮮香，令人難忘。",
     "rarity": 4,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1167,6 +1992,7 @@
     "desc": "造型精緻的菜餚。咬開白嫩菜葉，鮮香火腿融合脆爽蓮子絲絲入味。濃厚高湯猶如暮光傾瀉，而舌尖則悠然快哉泛舟湖上。",
     "rarity": 4,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1176,6 +2002,7 @@
     "desc": "調味後烤熟的肉料理。菜餚的賣相無情地出賣了掌廚者的技藝，大概放在路邊最火爆的小吃攤也很難賣出去。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1185,6 +2012,7 @@
     "desc": "調味後烤熟的肉料理。雖然原料主要取自動物內臟及邊角料，但經過一番調味和加工，完全掩蓋了原本的肉腥味。很多人吃了一輩子才知道原來菜名中的雜碎不是在罵人。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1194,6 +2022,7 @@
     "desc": "調味後烤熟的肉料理。馥郁肉香飽含道地的璃月味道，可能會讓上了年紀的老人熱淚盈眶。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1203,6 +2032,7 @@
     "desc": "煮製而成的魚料理。過重的辣味幾乎覆蓋了魚肉本身的鮮味，只有極少數人才能接受這種對口腔的刺激。",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1212,6 +2042,7 @@
     "desc": "煮製而成的魚料理。魚片緊實飽滿，鮮香入味。而這道菜品的秘訣在於熱油中加入了磨成粉的琉璃袋，使得菜餚香氣四溢，辣而不燥。",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1221,6 +2052,7 @@
     "desc": "煮製而成的魚料理。魚片在唇舌間翻動，滑嫩得像是隨時想要溜走一樣。嚥下又覺得嘴中空空，讓人忍不住趕快補上下一片。",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1230,6 +2062,7 @@
     "desc": "工藝複雜的魚料理。勉強能夠看出魚的形狀，卻實在難以與松鼠尾巴產生什麼關聯。事實證明複雜的烹飪流程的確會讓出菜變得更為困難。",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1239,6 +2072,7 @@
     "desc": "工藝複雜的魚料理。取整魚去骨，改菱形刀紋，裹上麵粉後炸至金黃定型，裝盤後淋上番茄汁。因其狀似松鼠尾巴而得名，有著外脆內酥的獨特口感。",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1248,6 +2082,7 @@
     "desc": "工藝複雜的魚料理。紋路規整，造型雅緻，恰到好處的酸甜更是畫龍點睛之筆。多方面折射出令璃月大廚也拍手稱絕的精湛手藝。",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1257,6 +2092,7 @@
     "desc": "杏仁磨漿製成的甜品。未將杏仁奶漿磨細便草草冷凍，只能欺騙自己顆粒感也屬一大特色。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1266,6 +2102,7 @@
     "desc": "杏仁磨漿製成的甜品。有著嫩滑香甜的獨特口感和濃郁綿長的杏仁香味，因形似豆腐而得名。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1275,6 +2112,7 @@
     "desc": "杏仁磨漿製成的甜品。形態玲瓏，色如凝脂，如同名匠打造的藝術臻品，令人只願觀賞，不忍下口。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1284,6 +2122,7 @@
     "desc": "涼拌的禽肉。可能是製作過程中沒有讓配料入味，使得這道外鹹裡淡的菜餚更像是水煮禽肉。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1293,6 +2132,7 @@
     "desc": "涼拌的禽肉。涼拌的技法充分保留住了禽肉鮮美多汁的特點。金黃晶瑩的外皮之下，有著微辣的回味。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1302,6 +2142,7 @@
     "desc": "涼拌的禽肉。白嫩的禽肉仿佛吹彈可破，牙齒輕咬間汁水迸發，如至夢幻之境，讓人忘卻自己原本身在何方。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1311,6 +2152,7 @@
     "desc": "用料樸素的菜湯。湯汁稍嫌寡淡無味，黯淡的菜葉讓人想到閒置已久無人打理的荒地。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1320,6 +2162,7 @@
     "desc": "用料樸素的菜湯。熱水燒開後，將金魚草、豆腐和蓮子下鍋齊煮。因其造型寓意而被戲稱為「珍珠翡翠白玉湯」，實質上是一道非常家常的菜品。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1329,6 +2172,7 @@
     "desc": "用料樸素的菜湯。溫潤的湯中撲鼻而來蔬菜的清新。這一碗自然甘甜，抵得過玉盤珍饈。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1338,6 +2182,7 @@
     "desc": "煎製而成的肉料理。雖然乾癟的味道與想像中隔了一條碧水河，但鑑於松茸的營養價值，還是不要浪費為好。",
     "rarity": 2,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1347,6 +2192,7 @@
     "desc": "煎製而成的肉料理。肉泥裹上松茸細火慢煎，使松茸內吸滿了香濃的肉汁，令人垂涎欲滴。",
     "rarity": 2,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1356,6 +2202,7 @@
     "desc": "煎製而成的肉料理。山林的精華與日月的滋養在此匯聚融合，帶給人的除了豐富營養，還有滿溢而出的幸福感。",
     "rarity": 2,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1365,6 +2212,7 @@
     "desc": "包裹大塊肉餡的餅食。過於扎實的餅皮讓人有種牙齒會斷掉的錯覺，要是能忍著油膩只挖肉餡吃的話，倒是還能品味出一絲微弱的肉香。",
     "rarity": 1,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1374,6 +2222,7 @@
     "desc": "包裹大塊肉餡的餅食。將燒餅一分為二，夾入濃郁肉餡。既解去了肉的膩味，又烘托了餅的香甜。為圖富貴如意的口彩，通常還會印上「摩拉」的圖案。",
     "rarity": 1,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1383,6 +2232,7 @@
     "desc": "包裹大塊肉餡的餅食。餅酥肉嫩，飽滿多汁。只一口便能陶醉，有著即使摩拉在眼前也讓人不願意分心拾取的傳奇美味。",
     "rarity": 1,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1392,6 +2242,7 @@
     "desc": "小火慢烤的魚串。可惜魚香中摻入了過多的焦香，魚肉的口感也有點柴硬。",
     "rarity": 1,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1401,6 +2252,7 @@
     "desc": "小火慢烤的魚串。魚肉因烤製除去水分而變得緊實，胡椒的加入更進一步激發了它的鮮味。",
     "rarity": 1,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1410,6 +2262,7 @@
     "desc": "慢火細烤的魚串。火烤後的油脂細膩地分佈在酥脆魚皮與香嫩魚肉之間，輕輕一抿就已滿口留香。",
     "rarity": 1,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1419,6 +2272,7 @@
     "desc": "猛火快炒的獸肉。焦黃的肉片與絕雲椒椒糊作一團，僅推薦拌在米飯裡一股腦地吃下去。",
     "rarity": 1,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1428,6 +2282,7 @@
     "desc": "猛火快炒的獸肉。肉香混合著絕雲椒椒的絲絲辣味，無論用來開胃還是下飯都是非常棒的選擇。",
     "rarity": 1,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1437,6 +2292,7 @@
     "desc": "猛火快炒的獸肉。辣意如同雪地裡的一束火光，瞬間點亮味覺，令人食指大動，連呼過癮。",
     "rarity": 1,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1446,6 +2302,7 @@
     "desc": "古法烹製的蟹肉料理。麵粉顆粒咬起來像砂石一樣，裡面還混入了不少蟹殼。不過相比寡淡的蟹肉，蟹殼的滋味還是值得品一品的。",
     "rarity": 4,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1455,6 +2312,7 @@
     "desc": "古法烹製的蟹肉料理。將螃蟹斬塊後裹上麵粉，寬油炸製後再佐調料翻炒，成菜色澤金黃，香氣濃郁，無論是外形還是品質都不負黃金之名。",
     "rarity": 4,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1464,6 +2322,7 @@
     "desc": "古法烹製的蟹肉料理。蟹肉出鍋即飄香千里，淺嘗一口，唇齒間便滿是水鄉漁村的萬種風情，原來黃金的極度奢華，就藏於古樸雋永的文化之中。",
     "rarity": 4,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1473,6 +2332,7 @@
     "desc": "璃月的傳統點心之一。黯淡的外皮有著黏牙的口感，配合乾癟的內餡，讓人只想儘快結束這場折磨。",
     "rarity": 2,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1482,6 +2342,7 @@
     "desc": "璃月的傳統點心之一。餡料選取整顆鮮蝦仁，盈亮的粉色在半透明的薄皮下隱約可見。輕咬下去更是彈牙可口。",
     "rarity": 2,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1491,6 +2352,7 @@
     "desc": "璃月的傳統點心之一。外皮如水晶般晶瑩剔透，送入口中，舌尖仿佛有鮮活的蝦在蹦跳。直讓人感嘆一份四隻的數量實在不夠大快朵頤。",
     "rarity": 2,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1500,6 +2362,7 @@
     "desc": "急火烤製的魚串。勉強能從焦糊的形狀上判斷出是烤魚，吃了一口之後可知判斷正確，因為還有魚鱗混在裡面。",
     "rarity": 1,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1509,6 +2372,7 @@
     "desc": "急火烤製的魚串。將碼頭打撈上來的魚略加醃製後迅速烤熟，香味能吸引街邊的貓。而新鮮正是美味的秘訣。",
     "rarity": 1,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1518,6 +2382,7 @@
     "desc": "急火烤製的魚串。金閃閃的表皮鎖住鮮嫩嫩的魚肉，是剛出爐時忍不住一邊吹氣一邊咀嚼的美味。連最後黏在竹籤上的那幾絲魚肉都不想放過。",
     "rarity": 1,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1527,6 +2392,7 @@
     "desc": "歷史悠久的簡單菜餚。雖然說風神象徵著自由，但是這道菜似乎自由過了頭。或許狂風亂燉菜這個名字更適合這道菜。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1536,6 +2402,7 @@
     "desc": "歷史悠久的簡單菜餚。用料傳統而樸實。無論身處何方，這樣一碗熱乎乎雜燴菜所提供的滿足感都是無比真實的。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1545,6 +2412,7 @@
     "desc": "歷史悠久的簡單菜餚。經過一番精心燉煮，三種蔬菜的味道融合得恰到好處。如此一來，也不難想見為何曾有人說它是「這輩子吃過的最好吃的菜餚」。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1554,6 +2422,7 @@
     "desc": "溫迪的特色料理。除卻作為裝飾的塞西莉亞花，用料與一般料理並無二致。但細細品嘗，便能體會出「細小的轉機與希望之風」的味道。這莫非…正是他的心意？",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1563,6 +2432,7 @@
     "desc": "莫娜的特色料理。偉大占星術士的偉大之作，其中的最偉大之處在於這道菜餚能性價比極高地填飽肚子。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1572,6 +2442,7 @@
     "desc": "可莉的特色料理。因為亂丟炸彈嚇跑了魚，在琴的指導下，可莉認真地學做了這道吐司作為給漁人的賠禮。味道很好還吃得飽，從此以後，可莉炸一整天魚也不會餓肚子了。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1581,6 +2452,7 @@
     "desc": "班尼特的特色料理。不知道為什麼每份煎蛋邊緣都是焦焦的，但焦脆也帶來了別具一格的風味。",
     "rarity": 1,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1590,6 +2462,7 @@
     "desc": "菲謝爾的特色料理。精美的擺盤中似乎傳言著某種不為人知的深奧。如果在享受美味的同時看向菲謝爾的話，能透過她半遮臉龐的指尖看到她期待的眼神…這也是秘密的一部分嗎？",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1599,33 +2472,37 @@
     "desc": "諾艾爾的特色料理。厚厚的鬆餅，是騎士團的下午茶限定甜點，帶給人仿佛墜入柔軟雲端般的幸福感。看著身旁諾艾爾的笑容，甜度似乎又提高了一點！",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
-    "id": "SuspiciousLotusSeedandBirdEggSoup",
+    "id": "SuspiciousLotusSeedAndBirdEggSoup",
     "name": "Suspicious Lotus Seed and Bird Egg Soup",
     "localeName": "奇怪的蓮子禽蛋羹",
     "desc": "蒸製而成的蛋料理。過長時間的蒸製讓禽蛋羹的表面呈現出了奇怪的蜂窩狀，相比之下蓮子的苦澀已經不值一提了。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
-    "id": "LotusSeedandBirdEggSoup",
+    "id": "LotusSeedAndBirdEggSoup",
     "name": "Lotus Seed and Bird Egg Soup",
     "localeName": "蓮子禽蛋羹",
     "desc": "蒸製而成的蛋料理。色澤澄澈金黃的禽蛋羹上點綴了幾顆蓮子。不管是作為早餐還是飯後點心，都能大量補充身體所需的優質營養。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
-    "id": "DeliciousLotusSeedandBirdEggSoup",
+    "id": "DeliciousLotusSeedAndBirdEggSoup",
     "name": "Delicious Lotus Seed and Bird Egg Soup",
     "localeName": "美味的蓮子禽蛋羹",
     "desc": "蒸製而成的蛋料理。彈嫩的禽蛋羹融化於口中，一不留神便滑入喉頭。回過神來，唇齒之間留下的滿是如蓮花初綻般的清甜。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1635,6 +2512,7 @@
     "desc": "工藝複雜的璃月名菜。沒有掌握熬湯的工藝，致使亂燉出的產物口感腥鹹。考慮到食材的珍貴…唉，實在令人騎虎難下。",
     "rarity": 5,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1644,6 +2522,7 @@
     "desc": "工藝複雜的璃月名菜。以高湯浸沒精心挑選的食材，慢火熬煮而成。僅僅是憑著回憶抄寫食譜，就引得仙人動了凡心，歸復人間。",
     "rarity": 5,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1653,6 +2532,7 @@
     "desc": "工藝複雜的璃月名菜。山珍海味聚一堂，佳餚美饌開壇香。淺嘗一口，細滑軟嫩；細抿幾分，回味悠長。從此魂牽夢縈自難忘。足以引誘仙人離開自己的仙家洞府。",
     "rarity": 5,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1662,6 +2542,7 @@
     "desc": "油炸而成的蝦料理。油炸過程中的手忙腳亂，導致成品不是半生不熟就是焦過了頭。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1671,6 +2552,7 @@
     "desc": "油炸而成的蝦料理。乍一聞香氣撲鼻，酥脆的馬鈴薯中透出蝦肉的甘甜。配合小巧可愛的外形，令人食指大動。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1680,6 +2562,7 @@
     "desc": "油炸而成的蝦料理。金黃酥脆的馬鈴薯絲薯香濃郁，咖滋一聲，伴隨著蝦肉溢出的香甜汁水，滿足感油然而生。一口一隻，齒頰留香。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1689,6 +2572,7 @@
     "desc": "大火快炒的菜餚。這盤似乎是不幸的失敗品。吃起來又苦又辣，如果不想讓米飯變得更難吃的話，還是不要拿它拌進飯裡比較好。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1698,6 +2582,7 @@
     "desc": "大火快炒的菜餚。據說原本是輕策莊家家戶戶都會做的農家菜，但其脆辣的口味意外地受到了人們的認可，因而在璃月地區廣泛地流傳開來。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1707,33 +2592,37 @@
     "desc": "大火快炒的菜餚。光是聞到香氣，便能讓人食欲大開。過癮的辣意挑逗出渴望刺激的官感，有一種自己能一口氣吃下十碗米飯的錯覺。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
-    "id": "SuspiciousComeandGetIt",
+    "id": "SuspiciousComeAndGetIt",
     "name": "Suspicious Come and Get It",
     "localeName": "奇怪的來來菜",
     "desc": "用料豐富的菜餚。所有的食材被簡單粗暴地熬成一大鍋，各種食材混雜的味道實在不能說好。咦…怎麼菜裡還有沙子？",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
-    "id": "ComeandGetIt",
+    "id": "ComeAndGetIt",
     "name": "Come and Get It",
     "localeName": "來來菜",
     "desc": "用料豐富的菜餚。配料與做法上並沒有特別的講究，經常在璃月的節慶時分登場。每當這道菜上來以後，為首的人會說「來來，吃」，招呼大家動筷子，因此而得名。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
-    "id": "DeliciousComeandGetIt",
+    "id": "DeliciousComeAndGetIt",
     "name": "Delicious Come and Get It",
     "localeName": "美味的來來菜",
     "desc": "用料豐富的菜餚。不僅葷素搭配得當，擺盤也十分工整，鮮美的湯汁更是匯聚了食材的精華。不用主人招呼就已經少了一大半。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1743,6 +2632,7 @@
     "desc": "迪奧娜的特色料理。魚皮香脆，魚肉飽滿。只有對魚肉有著足夠的熱愛，才能烹調出如此美妙的味道。如果有一杯什麼喝的…不好，迪奧娜看過來了！",
     "rarity": 1,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1752,6 +2642,7 @@
     "desc": "香菱的特色料理。萬民堂的金字招牌菜，凝聚著香菱對烹飪全心全意的熱情。但凡嘗過的人，都能在這酣暢過癮的複合香味中，收穫對於美食的最純粹的感動。",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1761,9 +2652,19 @@
     "desc": "行秋的特色料理。如同工藝品般精緻的外形讓人捨不得下口，可一旦淺嘗，清甜甘美的鮮味就會誘人欲罷不能。等等…胡蘿蔔該不會被他偷偷丟掉了吧？",
     "rarity": 2,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
-  { "id": "SweetDream", "name": "\"Sweet Dream\"", "localeName": "「美夢」", "desc": "魈的特色料理。他的「美夢」很簡單，不過是做一個美夢而已。", "rarity": 2, "type": 2, "drop": ["烹飪獲得"] },
+  {
+    "id": "SweetDream",
+    "name": "\"Sweet Dream\"",
+    "localeName": "「美夢」",
+    "desc": "魈的特色料理。他的「美夢」很簡單，不過是做一個美夢而已。",
+    "rarity": 2,
+    "type": 2,
+    "typeText": "食物",
+    "drop": ["烹飪獲得"]
+  },
   {
     "id": "FlashFriedFilet",
     "name": "Flash-Fried Filet",
@@ -1771,6 +2672,7 @@
     "desc": "北斗的特色料理。據說北斗曾向香菱學了一手，並對這道菜餚加重了口味進行改良。要是豪放地一口氣吃完，或許能得到北斗的讚賞？",
     "rarity": 1,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1780,6 +2682,7 @@
     "desc": "凝光的特色料理。餅皮軟糯適中，肉塊肥瘦均勻，如蜜般的肉汁隨著擠壓絲絲滲出。看似高高在上的「天權」凝光大人，究竟是從哪裡學會的這門手藝呢？",
     "rarity": 1,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1789,42 +2692,47 @@
     "desc": "七七的特色料理。整齊排列的食材，看起來異常美味，難怪白朮說七七花了很長時間才做出來這道菜。呃…但是考慮到七七沒有味覺，下筷子真的需要勇氣。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
-    "id": "SuspiciousNoodleswithMountainDelicacies",
+    "id": "SuspiciousNoodlesWithMountainDelicacies",
     "name": "Suspicious Noodles with Mountain Delicacies",
     "localeName": "奇怪的山珍熱滷麵",
     "desc": "葷素搭配的滷麵。似乎所有水分都隨熱氣消散了，麵條的口感便得異常乾澀。就算放慢下嚥的速度還是很仍意被噎到。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
-    "id": "NoodleswithMountainDelicacies",
+    "id": "NoodlesWithMountainDelicacies",
     "name": "Noodles with Mountain Delicacies",
     "localeName": "山珍熱滷麵",
     "desc": "葷素搭配的滷麵。份量十足的配菜拌入滷麵之中，醬味敦厚。雖然是普通家常的做法，卻能孕育出無比濃郁的回味。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
-    "id": "DeliciousNoodleswithMountainDelicacies",
+    "id": "DeliciousNoodlesWithMountainDelicacies",
     "name": "Delicious Noodles with Mountain Delicacies",
     "localeName": "美味的山珍熱滷麵",
     "desc": "葷素搭配的滷麵。看似平凡的麵條吸收了山珍的精華，只須一口，舌尖便能領略到鮮味的極致。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
-    "id": "ColdNoodleswithMountainDelicacies",
+    "id": "ColdNoodlesWithMountainDelicacies",
     "name": "Cold Noodles with Mountain Delicacies",
     "localeName": "山珍涼滷麵",
     "desc": "重雲的特色料理。雖然嚼勁十足的麵條讓人在炎炎夏日欲罷不能，但就算是冬天，重雲也堅持食用這樣的主食，還真是不容易。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1834,6 +2742,7 @@
     "desc": "刻晴的特色料理。並非以火烤熟，而是藉由雷元素的精細操控將於肉從內部炸熟。輕輕一咬，微焦的魚皮包裹著香酥的魚肉，程度卻是恰到好處。露宿荒野時，她就是憑藉著這些技巧生存下去的嗎？真是不可貌相。",
     "rarity": 1,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1843,6 +2752,7 @@
     "desc": "砂糖的特色料理。乍看之下像是某種奇妙的煉金產物，但據砂糖本人堅稱是多次實驗改良後才研發成功的營養餐品。「健康」的綠色來源於加入到鮮奶油中的天然蔬菜汁…蔬菜汁？",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1852,6 +2762,7 @@
     "desc": "#質地透亮，無色無雜質的一小瓶液體。看起來與清泉水無異的這一瓶，真的值得{F#妳}{M#你}寄予厚望嗎？",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["商店購買"]
   },
   {
@@ -1861,6 +2772,7 @@
     "desc": "璃月特色的茶飲。在幅員遼闊的璃月旅行可是一件苦差事，所以看到賣大碗茶的茶攤時，只會期望它的茶碗越大越好。",
     "rarity": 1,
     "type": 3,
+    "typeText": "食物",
     "drop": ["商店購買"]
   },
   {
@@ -1870,6 +2782,7 @@
     "desc": "清新時尚的無酒精飲品。在鮮榨的鉤鉤果果汁中放入冰塊並稍加調製，泛起夢幻般的紫色。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["商店購買"]
   },
   {
@@ -1879,6 +2792,7 @@
     "desc": "清新時尚的無酒精飲品。十分提神的薄荷飲料，用樹莓加以裝飾，散發著雅致的清香。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["商店購買"]
   },
   {
@@ -1888,6 +2802,7 @@
     "desc": "清新時尚的無酒精飲品。據說有很不錯的醒酒功效，酒客們常點一杯作為聚會結束的標誌。",
     "rarity": 2,
     "type": 3,
+    "typeText": "食物",
     "drop": ["商店購買"]
   },
   {
@@ -1897,6 +2812,7 @@
     "desc": "久經燉煮的湯羹。火候的掌握不當讓鮮肉口感便得有點柴，火腿的鹹味也掩蓋了應有的鮮味。這樣看來，吸收了二者肉香的竹筍，算是勉強能被接受的一味食材了。",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1906,6 +2822,7 @@
     "desc": "久經燉煮的湯羹。將鮮竹筍、鮮肉和火腿切成小塊，小火慢燉直至湯色乳白。兩種不同質地的肉煥發出不同的風味，而湯汁則尤為鮮美。",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1915,33 +2832,37 @@
     "desc": "久經燉煮的湯羹。輕輕一聞已覺食欲大振，一勺高湯入口，濃縮至極的鮮味頃刻浸染周身。如同展開雙翼拂曉直上，淩空漫步在由香氣凝成的雲端。",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
-    "id": "SuspiciousTripleLayeredConsomm",
+    "id": "SuspiciousTripleLayeredConsomme",
     "name": "Suspicious Triple-Layered Consommé",
     "localeName": "奇怪的扣三絲",
     "desc": "造型齊整的菜餚。乍一看模樣尚可，仔細一嘗就會發現入口寡淡得近乎清水川燙三絲。是高湯稀釋得太多的關係嗎？",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
-    "id": "TripleLayeredConsomm",
+    "id": "TripleLayeredConsomme",
     "name": "Triple-Layered Consommé",
     "localeName": "扣三絲",
     "desc": "造型齊整的菜餚。火腿、禽肉、竹筍切成同樣長短的細絲，旺火蒸熟後倒扣在湯盤中，淋上高湯。口感鹹鮮，層次分明。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
-    "id": "DeliciousTripleLayeredConsomm",
+    "id": "DeliciousTripleLayeredConsomme",
     "name": "Delicious Triple-Layered Consommé",
     "localeName": "美味的扣三絲",
     "desc": "造型齊整的菜餚。均勻的細絲襯出精湛的刀工，與其說是一道菜，更像是一件藝術品。而一旦下足決心動筷品嘗，鮮美的滋味會再次令人喜悅而感慨——只作為藝術品，就太可惜了。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1951,6 +2872,7 @@
     "desc": "燜煮而成的獸肉。長時間的燜煮讓口感過於軟爛，肥肉的部分膩得令人心驚驚，包在圍邊清心葉片裡才勉強可以下嚥。",
     "rarity": 4,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1960,6 +2882,7 @@
     "desc": "燜煮而成的獸肉。將肥瘦相間的獸肉佐以調味料下鍋慢燉，直至燜酥。成品色澤透亮，軟糯不膩。據說是某代璃月七星中「天樞星」苦心研製的傑作。",
     "rarity": 4,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1969,6 +2892,7 @@
     "desc": "燜煮而成的獸肉。遠聞濃香，細品綿長，形色兼備，可謂傳承到了這道菜餚的精髓。即使擺在月海亭的盛宴宴席上也毫不遜色。",
     "rarity": 4,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1978,6 +2902,7 @@
     "desc": "璃月的傳統點心之一。花瓣褪去了色彩，變得焦黃乾枯，哭訴著油溫的無情。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1987,6 +2912,7 @@
     "desc": "璃月的傳統點心之一。以麵粉製的水油皮包裹油酥，嵌入香甜內餡穌炸而成。花瓣層層綻開，捧於掌心，美輪美奐。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -1996,6 +2922,7 @@
     "desc": "璃月的傳統點心之一。小心地吹一口氣，看那花瓣輕動，仿佛有了自己的生命；閉上眼睛輕咬，甜香化滿唇齒。仿佛風動，花開，笛揚，鳥起。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2005,6 +2932,7 @@
     "desc": "蒙德的傳統主食。焦黃的酥皮看起來有些差強人意。最好不要讓蒙德當地人看見這份成品，否則…他們可能會過來手把手教到成功為止。",
     "rarity": 4,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2014,6 +2942,7 @@
     "desc": "蒙德的傳統主食。醃漬過的肉類不僅風味濃郁，經過酥皮的烘烤後，更保持了香甜與濕潤。是蒙德節日不可缺少的組成部分。",
     "rarity": 4,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2023,6 +2952,7 @@
     "desc": "蒙德的傳統主食。切開嬌小肉派的一角，奶油奶香伴隨著豐富肉香一同湧入鼻腔。扎實香甜的口感更是令人回想起那些與節日、豐收相關聯的景象，不自覺洋溢起幸福的笑容。",
     "rarity": 4,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2032,6 +2962,7 @@
     "desc": "營養豐富的蛋料理。幾乎凝固的蛋黃醬下，堆疊著全熟的水煮蛋和口感僵硬的火腿。皺著眉頭吃完的話，勉強能提供一些飽腹感。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2041,6 +2972,7 @@
     "desc": "營養豐富的蛋料理。在疊有火腿和水波蛋的吐司片上，澆上飽滿濃厚的蛋黃醬。香滑的口感能為每一次冒險遠行提供充沛動力，是冒險家協會中最受好評的早餐。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2050,6 +2982,7 @@
     "desc": "營養豐富的蛋料理。蛋黃醬如一汪晨光傾瀉在宛如波濤的水波蛋上，嫩滑的口感剛在心中泛起漣漪，火腿獨有的鹹香就在頃刻間吹開了雲彩。旭日東昇，光芒無限。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2059,6 +2992,7 @@
     "desc": "加入蘋果燜製的肉料理。如同一道普通燜肉般扎實，除了有些酸澀，無法嘗出絲毫果香。讓人不免自我懷疑是否在熬製過程中忘記加了蘋果。",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2068,6 +3002,7 @@
     "desc": "加入蘋果燜製的肉料理。獸肉入口細滑而綿密，切開後流出的肉汁則是混合了絲絲果香。有著令人耳目一新的清爽風味。",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2077,6 +3012,7 @@
     "desc": "加入蘋果燜製的肉料理。獸肉中飽含的香甜多汁，即使吃完都覺得意猶未盡。仿佛躺在蘋果園裡，每一口呼吸都是淡雅的甜香。",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2086,6 +3022,7 @@
     "desc": "鍾離的特色料理。火腿要選用月海亭盛宴標準的火腿部位，鮮肉要挑清泉鎮當天獵來的五花肉，竹筍要取輕策莊筍節緊密的春筍，秉承慢工細活的精神以文火慢燉…這樣「講究」的美味，他只願和懂得欣賞之人一同分享。",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2095,6 +3032,7 @@
     "desc": "辛焱的特色料理。魔鬼般的造型隱藏著魔鬼般的辣度，一邊吃一邊流淚卻還越吃越上癮。只有魔鬼才做得出這樣的菜吧！",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2104,6 +3042,7 @@
     "desc": "達達利亞的特色料理。如同血海中漂泊的困獸，在垂死時發出人耳所不能聞的哀嚎…不過達達利亞卻笑著解釋說，只是海釣的戰利品加了一些老家特產而已。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2113,6 +3052,7 @@
     "desc": "璃月的傳統點心之一。面皮以一種扭曲的姿態僵硬地包裹著肉餡，乾澀的口感讓人有種在吃一塊麵疙瘩的錯覺。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2122,6 +3062,7 @@
     "desc": "璃月的傳統點心之一。將蛋液混合麵粉製成面皮，蝦仁和魚肉剁碎製成肉餡，包成茶盞形狀，點綴完整蝦仁上鍋蒸熟。其造型如同雲朵抱月，因此得名「明月蛋」。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2131,6 +3072,7 @@
     "desc": "璃月的傳統點心之一。趁熱輕咬，彈嫩肉餡伴隨著鮮美汁水正中味蕾的軟肋，蝦肉的回甘更似畫龍點睛的一筆。眼前彷彿一輪明月，一汪秋水，漁船泊靠岸邊，漁歌唱遍豐年。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2140,6 +3082,7 @@
     "desc": "滋味濃郁的素食。過於稠厚的醬汁完全掩蓋了食材應有的鮮味，感覺吃進肚子裡的是無論喝多少水還嫌口乾的調味料。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2149,6 +3092,7 @@
     "desc": "滋味濃郁的素食。將松茸切成薄片，煎至焦黃後倒入醬汁。松茸肉質飽滿，嚼上去有著鮑魚般鮮香的滋味，是一道近乎能夠以假亂真的菜餚。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2158,6 +3102,7 @@
     "desc": "滋味濃郁的素食。在醬汁的提點下，松茸呈現出了上等而高級的口感，嫩如鮮貝，鮮如鮑魚，難以辨別真身。若是先由食客隨意猜想，最後再揭曉答案，必然能贏得對方的驚羨。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2167,6 +3112,7 @@
     "desc": "寬油炒製的素食。油溫的控制不當讓食材的口感泛起過重的油味，令人吃一口搖三次頭，惋惜這來之不易的琉璃袋。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2176,6 +3122,7 @@
     "desc": "寬油炒製的素食。選取璃月當地盛產的三種食材煎炸翻炒。雖然做法樸素，卻充分調動了食材本身的濃郁鮮味，絲毫不輸玉盤珍饈。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2185,6 +3132,7 @@
     "desc": "寬油炒製的素食。泥土的芬芳、樹蔭的沁涼與嵐氣的潤澤，匯聚成盤中之鮮。配一碗簡單的白米飯，就能收穫令味蕾和心靈都倍感踏實的滿足。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2194,6 +3142,7 @@
     "desc": "胡桃的特色料理。圓頭幽靈擠作一堆的樣子有些滑稽可愛。不過，要是因為好奇抵不住誘惑而吃了其中「一隻」的話，可能會為此後悔很久吧…畢竟，盤子裡裝的是境界極高的、將味蕾轟炸到完全失靈的——「吃不出是什麼食材」。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2203,6 +3152,7 @@
     "desc": "色彩繽紛的主食。製作過程中流失過多水分，需要靠些許想像力和額外添加的水，才能還原應有的口感。",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2212,6 +3162,7 @@
     "desc": "色彩繽紛的主食。香軟潤口的稻米間，緊實地塞著各類甜味的食材。比起口味，更重要的是萬事興隆、天下太平的心意。而心意就是最好的調味料，所以口味一定不會差。",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2221,6 +3172,7 @@
     "desc": "色彩繽紛的主食。酸甜的果乾如一縷看不見的絲線，與口感飽滿的稻米交織。即使咽下，淡淡的香甜依然縈繞唇齒，令人幸福感倍增。",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2230,6 +3182,7 @@
     "desc": "熱呼呼的燉菜。在燉煮的火力選擇上出了一些差錯，讓成品的口感僵硬了幾分。如果只是胡亂喝下去的話也不算太壞，畢竟驅寒的效果還是有的。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2239,6 +3192,7 @@
     "desc": "熱呼呼的燉菜，將冷鮮肉與蔬菜切成小塊，加上蕃茄久煮燉成濃稠的菜餚。湯汁包裹著被煮得暖洋洋的食材下肚，有著驅趕寒冷的效果。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2248,6 +3202,7 @@
     "desc": "熱呼呼的燉菜。就算只品嘗了一口湯汁，踏實而滿足的感覺也會從心底裡傳來。越嚼越香的肉彷彿帶給了人無窮的力量，身處冰天雪地也絲毫不在話下。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2257,6 +3212,7 @@
     "desc": "慢火煎製的魚料理。魚肉的烹飪時間過長，已經完全失去了鮮味與彈性，似乎用餐具稍微觸動就會碎成小塊。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2266,6 +3222,7 @@
     "desc": "慢火煎製的魚料理。火侯得當的魚肉最大程度保持了鮮味，入口細膩柔軟，搭配表面帶有奶油香氣的微焦，形成了一種層次豐富的口感。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2275,6 +3232,7 @@
     "desc": "慢火煎製的魚料理。魚肉入口即化，海洋與陸地的風味在口中碰撞，令人久久難以忘懷。難怪做法如此簡單的一道菜，也能躋身大雅之堂。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2284,6 +3242,7 @@
     "desc": "璃月的特色小吃之一。在勉強保留住香味的鍋巴上，褐色的絕雲椒椒和火腿黏成一團，只能從口感來分辨兩者。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2293,6 +3252,7 @@
     "desc": "璃月的特色小吃之一。將切片的火腿與絕雲椒椒快炒，澆在稻米和馬尾穗混合煎熟的鍋巴上製成。混合著精製肉品與辛香的氣息，四處可見的尋常稻米在此時也變成了炙手可熱的美味菜品。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2302,6 +3262,7 @@
     "desc": "璃月的特色小吃之一。掰一片香脆的鍋巴，放上冒著熱氣的火腿片一同嚼下。脆香鮮辣爭先恐後般直奔鼻腔，這酣暢過癮的滋味，讓人連指尖的碎渣都不想放過。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2311,6 +3272,7 @@
     "desc": "#甘雨的特色料理。麒麟憩於花叢的畫面，光是觀賞就能讓心情平靜下來。甘雨懷揣著對世間的美好祈願烹製菜肴，再將自己最喜歡的清心花瓣，默不作聲地留給了珍視的{F#妳}{M#你}。",
     "rarity": 3,
     "type": 3,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2320,6 +3282,7 @@
     "desc": "阿貝多的特色料理。蔬果平鋪為草，直立為樹。在這盤中世界繞過斑駁城牆，沿著棕色小道，踏入淺橘色的城堡。細嫩而香甜的滋味瞬間如花般綻放。睜開雙眼，白髮的王子眼裡含笑。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["烹飪獲得"]
   },
   {
@@ -2329,6 +3292,7 @@
     "desc": "為慶祝海燈節而製作的傳統佳餚。將碼頭打撈上來的魚略加醃制後迅速烤熟，香味能吸引街邊的貓。而新鮮正是美味的秘訣。",
     "rarity": 1,
     "type": 3,
+    "typeText": "食物",
     "drop": ["海燈節商店獲得"]
   },
   {
@@ -2338,15 +3302,17 @@
     "desc": "為慶祝海燈節而製作的傳統佳餚。有著脆嫩酥香的獨特口感，適合趁熱吃。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["海燈節商店獲得"]
   },
   {
-    "id": "LanternRiteSpecialLotusSeedandBirdEggSoup",
+    "id": "LanternRiteSpecialLotusSeedAndBirdEggSoup",
     "name": "Lantern Rite Special Lotus Seed and Bird Egg Soup",
     "localeName": "海燈節特色禽蛋羹",
     "desc": "為慶祝海燈節而製作的傳統佳餚。色澤澄澈金黃的禽蛋羹上點綴了幾顆蓮子。不管是作為早餐還是飯後點心，都能大量補充身體所需的優質營養。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["海燈節商店獲得"]
   },
   {
@@ -2356,33 +3322,37 @@
     "desc": "為慶祝海燈節而製作的傳統佳餚。熱水燒開後，將金魚草、豆腐和蓮子下鍋齊煮。因其造型寓意而被戲稱為「珍珠翡翠白玉湯」，實質上是一道非常家常的菜品。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["海燈節商店獲得"]
   },
   {
-    "id": "LanternRiteSpecialNoodleswithMountainDelicacies",
+    "id": "LanternRiteSpecialNoodlesWithMountainDelicacies",
     "name": "Lantern Rite Special Noodles with Mountain Delicacies",
     "localeName": "海燈節特色熱滷麵",
     "desc": "為慶祝海燈節而製作的傳統佳餚。分量十足的配菜拌入滷麵之中，醬味敦厚。雖然是普通家常的做法，卻能孕育出無比濃郁的回味。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
     "drop": ["海燈節商店獲得"]
   },
   {
-    "id": "LanternRiteSpecialComeandGetIt",
+    "id": "LanternRiteSpecialComeAndGetIt",
     "name": "Lantern Rite Special Come and Get It",
     "localeName": "海燈節特色來來菜",
     "desc": "為慶祝海燈節而製作的傳統佳餚。配料與做法上並沒有特別的講究，經常在璃月的節慶時分登場。每當這道菜上來以後，為首的人會說「來來，吃」，招呼大家動筷子，因此而得名。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["海燈節商店獲得"]
   },
   {
-    "id": "LanternRiteSpecialTripleLayeredConsomm",
+    "id": "LanternRiteSpecialTripleLayeredConsomme",
     "name": "Lantern Rite Special Triple-Layered Consommé",
     "localeName": "海燈節特色扣三絲",
     "desc": "為慶祝海燈節而製作的傳統佳餚。火腿、禽肉、竹筍切成同樣長短的細絲，旺火蒸熟後倒扣在湯盤中，淋上高湯。口感鹹鮮，層次分明。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
     "drop": ["海燈節商店獲得"]
   },
   {
@@ -2391,38 +3361,98 @@
     "localeName": "食譜：野菇雞肉串",
     "desc": "步驟詳實的食譜，記載著「野菇雞肉串」的製作方法。",
     "rarity": 1,
-    "type": 7
+    "type": 7,
+    "typeText": "食譜"
   },
-  { "id": "RecipeFishermansToast", "name": "Recipe: Fisherman's Toast", "localeName": "食譜：漁人吐司", "desc": "步驟詳實的食譜，記載著「漁人吐司」的製作方法。", "rarity": 2, "type": 7 },
-  { "id": "RecipeFlamingRedBolognese", "name": "Recipe: Flaming Red Bolognese", "localeName": "食譜：火火肉醬麵", "desc": "步驟詳實的食譜，記載著「火火肉醬面」的製作方法。", "rarity": 2, "type": 7 },
-  { "id": "RecipeSweetMadame", "name": "Recipe: Sweet Madame", "localeName": "食譜：甜甜花釀雞", "desc": "步驟詳實的食譜，記載著「甜甜花釀雞」的製作方法。", "rarity": 2, "type": 7 },
+  {
+    "id": "RecipeFishermansToast",
+    "name": "Recipe: Fisherman's Toast",
+    "localeName": "食譜：漁人吐司",
+    "desc": "步驟詳實的食譜，記載著「漁人吐司」的製作方法。",
+    "rarity": 2,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  {
+    "id": "RecipeFlamingRedBolognese",
+    "name": "Recipe: Flaming Red Bolognese",
+    "localeName": "食譜：火火肉醬麵",
+    "desc": "步驟詳實的食譜，記載著「火火肉醬面」的製作方法。",
+    "rarity": 2,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  {
+    "id": "RecipeSweetMadame",
+    "name": "Recipe: Sweet Madame",
+    "localeName": "食譜：甜甜花釀雞",
+    "desc": "步驟詳實的食譜，記載著「甜甜花釀雞」的製作方法。",
+    "rarity": 2,
+    "type": 7,
+    "typeText": "食譜"
+  },
   {
     "id": "RecipeCallaLilySeafoodSoup",
     "name": "Recipe: Calla Lily Seafood Soup",
     "localeName": "食譜：嘟嘟蓮海鮮羹",
     "desc": "步驟詳實的食譜，記載著「嘟嘟蓮海鮮羹」的製作方法。",
     "rarity": 3,
-    "type": 7
+    "type": 7,
+    "typeText": "食譜"
   },
-  { "id": "RecipeSautedMatsutake", "name": "Recipe: Sautéed Matsutake", "localeName": "食譜：奶油松茸", "desc": "步驟詳實的食譜，記載著「奶油松茸」的製作方法。", "rarity": 3, "type": 7 },
-  { "id": "RecipeTeyvatFriedEgg", "name": "Recipe: Teyvat Fried Egg", "localeName": "食譜：提瓦特煎蛋", "desc": "步驟詳實的食譜，記載著「提瓦特煎蛋」的製作方法。", "rarity": 1, "type": 7 },
+  {
+    "id": "RecipeSauteedMatsutake",
+    "name": "Recipe: Sautéed Matsutake",
+    "localeName": "食譜：奶油松茸",
+    "desc": "步驟詳實的食譜，記載著「奶油松茸」的製作方法。",
+    "rarity": 3,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  {
+    "id": "RecipeTeyvatFriedEgg",
+    "name": "Recipe: Teyvat Fried Egg",
+    "localeName": "食譜：提瓦特煎蛋",
+    "desc": "步驟詳實的食譜，記載著「提瓦特煎蛋」的製作方法。",
+    "rarity": 1,
+    "type": 7,
+    "typeText": "食譜"
+  },
   {
     "id": "RecipeNorthernSmokedChicken",
     "name": "Recipe: Northern Smoked Chicken",
     "localeName": "食譜：北地煙燻雞",
     "desc": "步驟詳實的食譜，記載著「北地煙燻雞」的製作方法。",
     "rarity": 2,
-    "type": 7
+    "type": 7,
+    "typeText": "食譜"
   },
-  { "id": "RecipeCreamStew", "name": "Recipe: Cream Stew", "localeName": "食譜：白醬時蔬燴肉", "desc": "步驟詳實的食譜，記載著「白醬時蔬燴肉」的製作方法。", "rarity": 2, "type": 7 },
-  { "id": "RecipeColdCutPlatter", "name": "Recipe: Cold Cut Platter", "localeName": "食譜：冷肉拼盤", "desc": "步驟詳實的食譜，記載著「冷肉拼盤」的製作方法。", "rarity": 3, "type": 7 },
+  {
+    "id": "RecipeCreamStew",
+    "name": "Recipe: Cream Stew",
+    "localeName": "食譜：白醬時蔬燴肉",
+    "desc": "步驟詳實的食譜，記載著「白醬時蔬燴肉」的製作方法。",
+    "rarity": 2,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  {
+    "id": "RecipeColdCutPlatter",
+    "name": "Recipe: Cold Cut Platter",
+    "localeName": "食譜：冷肉拼盤",
+    "desc": "步驟詳實的食譜，記載著「冷肉拼盤」的製作方法。",
+    "rarity": 3,
+    "type": 7,
+    "typeText": "食譜"
+  },
   {
     "id": "RecipeStickyHoneyRoast",
     "name": "Recipe: Sticky Honey Roast",
     "localeName": "食譜：蜜醬胡蘿蔔煎肉",
     "desc": "步驟詳實的食譜，記載著「蜜醬胡蘿蔔煎肉」的製作方法。",
     "rarity": 3,
-    "type": 7
+    "type": 7,
+    "typeText": "食譜"
   },
   {
     "id": "RecipeCrabHamVeggieBake",
@@ -2430,72 +3460,367 @@
     "localeName": "食譜：蟹黃火腿焗時蔬",
     "desc": "步驟詳實的食譜，記載著「蟹黃火腿焗時蔬」的製作方法。",
     "rarity": 3,
-    "type": 7
+    "type": 7,
+    "typeText": "食譜"
   },
-  { "id": "RecipeMushroomPizza", "name": "Recipe: Mushroom Pizza", "localeName": "食譜：烤蘑菇披薩", "desc": "步驟詳實的食譜，記載著「烤蘑菇披薩」的製作方法。", "rarity": 3, "type": 7 },
-  { "id": "RecipeSteak", "name": "Recipe: Steak", "localeName": "食譜：烤肉排", "desc": "步驟詳實的食譜，記載著「烤肉排」的製作方法。", "rarity": 1, "type": 7 },
-  { "id": "RecipeRadishVeggieSoup", "name": "Recipe: Radish Veggie Soup", "localeName": "食譜：蘿蔔時蔬湯", "desc": "步驟詳實的食譜，記載著「蘿蔔時蔬湯」的製作方法。", "rarity": 1, "type": 7 },
-  { "id": "RecipeMondstadtHashBrown", "name": "Recipe: Mondstadt Hash Brown", "localeName": "食譜：蒙德薯餅", "desc": "步驟詳實的食譜，記載著「蒙德薯餅」的製作方法。", "rarity": 3, "type": 7 },
-  { "id": "RecipePileEmUp", "name": "Recipe: \"Pile 'Em Up\"", "localeName": "食譜：「堆高高」", "desc": "步驟詳實的食譜，記載著「堆高高」的製作方法。", "rarity": 3, "type": 7 },
-  { "id": "RecipeTeaBreakPancake", "name": "Recipe: Tea Break Pancake", "localeName": "食譜：莊園烤鬆餅", "desc": "步驟詳實的食譜，記載著「莊園烤鬆餅」的製作方法。", "rarity": 2, "type": 7 },
-  { "id": "RecipeFriedRadishBalls", "name": "Recipe: Fried Radish Balls", "localeName": "食譜：炸蘿蔔丸子", "desc": "步驟詳實的食譜，記載著「炸蘿蔔丸子」的製作方法。", "rarity": 2, "type": 7 },
-  { "id": "RecipeSatisfyingSalad", "name": "Recipe: Satisfying Salad", "localeName": "食譜：滿足沙拉", "desc": "步驟詳實的食譜，記載著「滿足沙拉」的製作方法。", "rarity": 2, "type": 7 },
-  { "id": "RecipeJadeParcels", "name": "Recipe: Jade Parcels", "localeName": "食譜：翡玉什錦袋", "desc": "步驟詳實的食譜，記載著「翡玉什錦袋」的製作方法。", "rarity": 4, "type": 7 },
-  { "id": "RecipeMondstadtGrilledFish", "name": "Recipe: Mondstadt Grilled Fish", "localeName": "食譜：蒙德烤魚", "desc": "步驟詳實的食譜，記載著「蒙德烤魚」的製作方法。", "rarity": 1, "type": 7 },
-  { "id": "RecipeMoraMeat", "name": "Recipe: Mora Meat", "localeName": "食譜：摩拉肉", "desc": "步驟詳實的食譜，記載著「摩拉肉」的製作方法。", "rarity": 1, "type": 7 },
-  { "id": "RecipeStirFriedFilet", "name": "Recipe: Stir-Fried Filet", "localeName": "食譜：爆炒肉片", "desc": "步驟詳實的食譜，記載著「爆炒肉片」的製作方法。", "rarity": 1, "type": 7 },
-  { "id": "RecipeAlmondTofu", "name": "Recipe: Almond Tofu", "localeName": "食譜：杏仁豆腐", "desc": "步驟詳實的食譜，記載著「杏仁豆腐」的製作方法。", "rarity": 2, "type": 7 },
-  { "id": "RecipeJueyunChiliChicken", "name": "Recipe: Jueyun Chili Chicken", "localeName": "食譜：香嫩椒椒雞", "desc": "步驟詳實的食譜，記載著「香嫩椒椒雞」的製作方法。", "rarity": 2, "type": 7 },
-  { "id": "RecipeJewelrySoup", "name": "Recipe: Jewelry Soup", "localeName": "食譜：珍珠翡翠白玉湯", "desc": "步驟詳實的食譜，記載著「珍珠翡翠白玉湯」的製作方法。", "rarity": 2, "type": 7 },
-  { "id": "RecipeMatsutakeMeatRolls", "name": "Recipe: Matsutake Meat Rolls", "localeName": "食譜：松茸釀肉捲", "desc": "步驟詳實的食譜，記載著「松茸釀肉捲」的製作方法。", "rarity": 2, "type": 7 },
-  { "id": "RecipeZhongyuanChopSuey", "name": "Recipe: Zhongyuan Chop Suey", "localeName": "食譜：中原雜碎", "desc": "步驟詳實的食譜，記載著「中原雜碎」的製作方法。", "rarity": 3, "type": 7 },
-  { "id": "RecipeBlackBackPerchStew", "name": "Recipe: Black-Back Perch Stew", "localeName": "食譜：水煮黑背鱸", "desc": "步驟詳實的食譜，記載著「水煮黑背鱸」的製作方法。", "rarity": 3, "type": 7 },
-  { "id": "RecipeSquirrelFish", "name": "Recipe: Squirrel Fish", "localeName": "食譜：松鼠魚", "desc": "步驟詳實的食譜，記載著「松鼠魚」的製作方法。", "rarity": 3, "type": 7 },
-  { "id": "RecipeGoldenCrab", "name": "Recipe: Golden Crab", "localeName": "食譜：黃金蟹", "desc": "步驟詳實的食譜，記載著「黃金蟹」的製作方法。", "rarity": 4, "type": 7 },
-  { "id": "RecipeCrystalShrimp", "name": "Recipe: Crystal Shrimp", "localeName": "食譜：水晶蝦", "desc": "步驟詳實的食譜，記載著「水晶蝦」的製作方法。", "rarity": 2, "type": 7 },
-  { "id": "RecipeGrilledTigerFish", "name": "Recipe: Grilled Tiger Fish", "localeName": "食譜：烤吃虎魚", "desc": "步驟詳實的食譜，記載著「烤吃虎魚」的製作方法。", "rarity": 1, "type": 7 },
-  { "id": "RecipeBarbatosRatatouille", "name": "Recipe: Barbatos Ratatouille", "localeName": "食譜：風神雜燴菜", "desc": "步驟詳實的食譜，記載著「風神雜燴菜」的製作方法。", "rarity": 3, "type": 7 },
   {
-    "id": "RecipeLotusSeedandBirdEggSoup",
+    "id": "RecipeMushroomPizza",
+    "name": "Recipe: Mushroom Pizza",
+    "localeName": "食譜：烤蘑菇披薩",
+    "desc": "步驟詳實的食譜，記載著「烤蘑菇披薩」的製作方法。",
+    "rarity": 3,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  { "id": "RecipeSteak", "name": "Recipe: Steak", "localeName": "食譜：烤肉排", "desc": "步驟詳實的食譜，記載著「烤肉排」的製作方法。", "rarity": 1, "type": 7, "typeText": "食譜" },
+  {
+    "id": "RecipeRadishVeggieSoup",
+    "name": "Recipe: Radish Veggie Soup",
+    "localeName": "食譜：蘿蔔時蔬湯",
+    "desc": "步驟詳實的食譜，記載著「蘿蔔時蔬湯」的製作方法。",
+    "rarity": 1,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  {
+    "id": "RecipeMondstadtHashBrown",
+    "name": "Recipe: Mondstadt Hash Brown",
+    "localeName": "食譜：蒙德薯餅",
+    "desc": "步驟詳實的食譜，記載著「蒙德薯餅」的製作方法。",
+    "rarity": 3,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  { "id": "RecipePileEmUp", "name": "Recipe: \"Pile 'Em Up\"", "localeName": "食譜：「堆高高」", "desc": "步驟詳實的食譜，記載著「堆高高」的製作方法。", "rarity": 3, "type": 7, "typeText": "食譜" },
+  {
+    "id": "RecipeTeaBreakPancake",
+    "name": "Recipe: Tea Break Pancake",
+    "localeName": "食譜：莊園烤鬆餅",
+    "desc": "步驟詳實的食譜，記載著「莊園烤鬆餅」的製作方法。",
+    "rarity": 2,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  {
+    "id": "RecipeFriedRadishBalls",
+    "name": "Recipe: Fried Radish Balls",
+    "localeName": "食譜：炸蘿蔔丸子",
+    "desc": "步驟詳實的食譜，記載著「炸蘿蔔丸子」的製作方法。",
+    "rarity": 2,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  {
+    "id": "RecipeSatisfyingSalad",
+    "name": "Recipe: Satisfying Salad",
+    "localeName": "食譜：滿足沙拉",
+    "desc": "步驟詳實的食譜，記載著「滿足沙拉」的製作方法。",
+    "rarity": 2,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  {
+    "id": "RecipeJadeParcels",
+    "name": "Recipe: Jade Parcels",
+    "localeName": "食譜：翡玉什錦袋",
+    "desc": "步驟詳實的食譜，記載著「翡玉什錦袋」的製作方法。",
+    "rarity": 4,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  {
+    "id": "RecipeMondstadtGrilledFish",
+    "name": "Recipe: Mondstadt Grilled Fish",
+    "localeName": "食譜：蒙德烤魚",
+    "desc": "步驟詳實的食譜，記載著「蒙德烤魚」的製作方法。",
+    "rarity": 1,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  { "id": "RecipeMoraMeat", "name": "Recipe: Mora Meat", "localeName": "食譜：摩拉肉", "desc": "步驟詳實的食譜，記載著「摩拉肉」的製作方法。", "rarity": 1, "type": 7, "typeText": "食譜" },
+  {
+    "id": "RecipeStirFriedFilet",
+    "name": "Recipe: Stir-Fried Filet",
+    "localeName": "食譜：爆炒肉片",
+    "desc": "步驟詳實的食譜，記載著「爆炒肉片」的製作方法。",
+    "rarity": 1,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  { "id": "RecipeAlmondTofu", "name": "Recipe: Almond Tofu", "localeName": "食譜：杏仁豆腐", "desc": "步驟詳實的食譜，記載著「杏仁豆腐」的製作方法。", "rarity": 2, "type": 7, "typeText": "食譜" },
+  {
+    "id": "RecipeJueyunChiliChicken",
+    "name": "Recipe: Jueyun Chili Chicken",
+    "localeName": "食譜：香嫩椒椒雞",
+    "desc": "步驟詳實的食譜，記載著「香嫩椒椒雞」的製作方法。",
+    "rarity": 2,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  {
+    "id": "RecipeJewelrySoup",
+    "name": "Recipe: Jewelry Soup",
+    "localeName": "食譜：珍珠翡翠白玉湯",
+    "desc": "步驟詳實的食譜，記載著「珍珠翡翠白玉湯」的製作方法。",
+    "rarity": 2,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  {
+    "id": "RecipeMatsutakeMeatRolls",
+    "name": "Recipe: Matsutake Meat Rolls",
+    "localeName": "食譜：松茸釀肉捲",
+    "desc": "步驟詳實的食譜，記載著「松茸釀肉捲」的製作方法。",
+    "rarity": 2,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  {
+    "id": "RecipeZhongyuanChopSuey",
+    "name": "Recipe: Zhongyuan Chop Suey",
+    "localeName": "食譜：中原雜碎",
+    "desc": "步驟詳實的食譜，記載著「中原雜碎」的製作方法。",
+    "rarity": 3,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  {
+    "id": "RecipeBlackBackPerchStew",
+    "name": "Recipe: Black-Back Perch Stew",
+    "localeName": "食譜：水煮黑背鱸",
+    "desc": "步驟詳實的食譜，記載著「水煮黑背鱸」的製作方法。",
+    "rarity": 3,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  { "id": "RecipeSquirrelFish", "name": "Recipe: Squirrel Fish", "localeName": "食譜：松鼠魚", "desc": "步驟詳實的食譜，記載著「松鼠魚」的製作方法。", "rarity": 3, "type": 7, "typeText": "食譜" },
+  { "id": "RecipeGoldenCrab", "name": "Recipe: Golden Crab", "localeName": "食譜：黃金蟹", "desc": "步驟詳實的食譜，記載著「黃金蟹」的製作方法。", "rarity": 4, "type": 7, "typeText": "食譜" },
+  { "id": "RecipeCrystalShrimp", "name": "Recipe: Crystal Shrimp", "localeName": "食譜：水晶蝦", "desc": "步驟詳實的食譜，記載著「水晶蝦」的製作方法。", "rarity": 2, "type": 7, "typeText": "食譜" },
+  {
+    "id": "RecipeGrilledTigerFish",
+    "name": "Recipe: Grilled Tiger Fish",
+    "localeName": "食譜：烤吃虎魚",
+    "desc": "步驟詳實的食譜，記載著「烤吃虎魚」的製作方法。",
+    "rarity": 1,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  {
+    "id": "RecipeBarbatosRatatouille",
+    "name": "Recipe: Barbatos Ratatouille",
+    "localeName": "食譜：風神雜燴菜",
+    "desc": "步驟詳實的食譜，記載著「風神雜燴菜」的製作方法。",
+    "rarity": 3,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  {
+    "id": "RecipeLotusSeedAndBirdEggSoup",
     "name": "Recipe: Lotus Seed and Bird Egg Soup",
     "localeName": "食譜：蓮子禽蛋羹",
     "desc": "步驟詳實的食譜，記載著「蓮子禽蛋羹」的製作方法。",
     "rarity": 2,
-    "type": 7
+    "type": 7,
+    "typeText": "食譜"
   },
-  { "id": "RecipeAdeptusTemptation", "name": "Recipe: Adeptus' Temptation", "localeName": "食譜：仙跳牆", "desc": "步驟詳實的食譜，記載著「仙跳牆」的製作方法。", "rarity": 5, "type": 7 },
-  { "id": "RecipeGoldenShrimpBalls", "name": "Recipe: Golden Shrimp Balls", "localeName": "食譜：金絲蝦球", "desc": "步驟詳實的食譜，記載著「金絲蝦球」的製作方法。", "rarity": 3, "type": 7 },
-  { "id": "RecipeQingceStirFry", "name": "Recipe: Qingce Stir Fry", "localeName": "食譜：輕策農家菜", "desc": "步驟詳實的食譜，記載著「輕策農家菜」的製作方法。", "rarity": 3, "type": 7 },
-  { "id": "RecipeComeandGetIt", "name": "Recipe: Come and Get It", "localeName": "食譜：來來菜", "desc": "步驟詳實的食譜，記載著「來來菜」的製作方法。", "rarity": 3, "type": 7 },
   {
-    "id": "RecipeNoodleswithMountainDelicacies",
+    "id": "RecipeAdeptusTemptation",
+    "name": "Recipe: Adeptus' Temptation",
+    "localeName": "食譜：仙跳牆",
+    "desc": "步驟詳實的食譜，記載著「仙跳牆」的製作方法。",
+    "rarity": 5,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  {
+    "id": "RecipeGoldenShrimpBalls",
+    "name": "Recipe: Golden Shrimp Balls",
+    "localeName": "食譜：金絲蝦球",
+    "desc": "步驟詳實的食譜，記載著「金絲蝦球」的製作方法。",
+    "rarity": 3,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  {
+    "id": "RecipeQingceStirFry",
+    "name": "Recipe: Qingce Stir Fry",
+    "localeName": "食譜：輕策農家菜",
+    "desc": "步驟詳實的食譜，記載著「輕策農家菜」的製作方法。",
+    "rarity": 3,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  { "id": "RecipeComeAndGetIt", "name": "Recipe: Come and Get It", "localeName": "食譜：來來菜", "desc": "步驟詳實的食譜，記載著「來來菜」的製作方法。", "rarity": 3, "type": 7, "typeText": "食譜" },
+  {
+    "id": "RecipeNoodlesWithMountainDelicacies",
     "name": "Recipe: Noodles with Mountain Delicacies",
     "localeName": "食譜：山珍熱滷麵",
     "desc": "步驟詳實的食譜，記載著「山珍熱滷麵」的製作方法。",
     "rarity": 2,
-    "type": 7
+    "type": 7,
+    "typeText": "食譜"
   },
-  { "id": "RecipeBambooShootSoup", "name": "Recipe: Bamboo Shoot Soup", "localeName": "食譜：醃篤鮮", "desc": "步驟詳實的食譜，記載著「醃篤鮮」的製作方法。", "rarity": 3, "type": 7 },
-  { "id": "RecipeTripleLayeredConsomm", "name": "Recipe: Triple-Layered Consommé", "localeName": "食譜：扣三絲", "desc": "步驟詳實的食譜，記載著「扣三絲」的製作方法。", "rarity": 3, "type": 7 },
-  { "id": "RecipeTianshuMeat", "name": "Recipe: Tianshu Meat", "localeName": "食譜：天樞肉", "desc": "步驟詳實的食譜，記載著「天樞肉」的製作方法。", "rarity": 4, "type": 7 },
-  { "id": "RecipeLotusFlowerCrisp", "name": "Recipe: Lotus Flower Crisp", "localeName": "食譜：蓮花酥", "desc": "步驟詳實的食譜，記載著「蓮花酥」的製作方法。", "rarity": 3, "type": 7 },
-  { "id": "RecipeMoonPie", "name": "Recipe: Moon Pie", "localeName": "食譜：月亮派", "desc": "步驟詳實的食譜，記載著「月亮派」的製作方法。", "rarity": 4, "type": 7 },
+  {
+    "id": "RecipeBambooShootSoup",
+    "name": "Recipe: Bamboo Shoot Soup",
+    "localeName": "食譜：醃篤鮮",
+    "desc": "步驟詳實的食譜，記載著「醃篤鮮」的製作方法。",
+    "rarity": 3,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  {
+    "id": "RecipeTripleLayeredConsomme",
+    "name": "Recipe: Triple-Layered Consommé",
+    "localeName": "食譜：扣三絲",
+    "desc": "步驟詳實的食譜，記載著「扣三絲」的製作方法。",
+    "rarity": 3,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  { "id": "RecipeTianshuMeat", "name": "Recipe: Tianshu Meat", "localeName": "食譜：天樞肉", "desc": "步驟詳實的食譜，記載著「天樞肉」的製作方法。", "rarity": 4, "type": 7, "typeText": "食譜" },
+  {
+    "id": "RecipeLotusFlowerCrisp",
+    "name": "Recipe: Lotus Flower Crisp",
+    "localeName": "食譜：蓮花酥",
+    "desc": "步驟詳實的食譜，記載著「蓮花酥」的製作方法。",
+    "rarity": 3,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  { "id": "RecipeMoonPie", "name": "Recipe: Moon Pie", "localeName": "食譜：月亮派", "desc": "步驟詳實的食譜，記載著「月亮派」的製作方法。", "rarity": 4, "type": 7, "typeText": "食譜" },
   {
     "id": "RecipeAdventurersBreakfastSandwich",
     "name": "Recipe: Adventurer's Breakfast Sandwich",
     "localeName": "食譜：冒險家蛋堡",
     "desc": "步驟詳實的食譜，記載著「冒險家蛋堡」的製作方法。",
     "rarity": 3,
-    "type": 7
+    "type": 7,
+    "typeText": "食譜"
   },
-  { "id": "RecipeNorthernAppleStew", "name": "Recipe: Northern Apple Stew", "localeName": "食譜：北地蘋果燜肉", "desc": "步驟詳實的食譜，記載著「北地蘋果燜肉」的製作方法。", "rarity": 3, "type": 7 },
-  { "id": "RecipeFullmoonEgg", "name": "Recipe: Fullmoon Egg", "localeName": "食譜：明月蛋", "desc": "步驟詳實的食譜，記載著「明月蛋」的製作方法。", "rarity": 3, "type": 7 },
-  { "id": "RecipeVegetarianAbalone", "name": "Recipe:Vegetarian Abalone", "localeName": "食譜：素鮑魚", "desc": "步驟詳實的食譜，記載著「素鮑魚」的製作方法。", "rarity": 2, "type": 7 },
-  { "id": "RecipeStoneHarborDelicacies", "name": "Recipe: Stone Harbor Delicacies", "localeName": "食譜：岩港三鮮", "desc": "步驟詳實的食譜，記載著「岩港三鮮」的製作方法。", "rarity": 2, "type": 7 },
-  { "id": "RecipeGoulash", "name": "Recipe: Goulash", "localeName": "食譜：稠汁蔬菜燉肉", "desc": "步驟詳實的食譜，記載著「稠汁蔬菜燉肉」的製作方法。", "rarity": 2, "type": 7 },
-  { "id": "RecipeSunshineSprat", "name": "Recipe: Sunshine Sprat", "localeName": "食譜：奶油煎魚", "desc": "步驟詳實的食譜，記載著「奶油煎魚」的製作方法。", "rarity": 3, "type": 7 },
-  { "id": "RecipeUniversalPeace", "name": "Recipe: Universal Peace", "localeName": "食譜：四方和平", "desc": "步驟詳實的食譜，記載著「四方和平」的製作方法。", "rarity": 3, "type": 7 },
-  { "id": "RecipeJueyunGuoba", "name": "Recipe: Jueyun Guoba", "localeName": "食譜：絕雲鍋巴", "desc": "步驟詳實的食譜，記載著「絕雲鍋巴」的製作方法。", "rarity": 3, "type": 7 },
+  {
+    "id": "RecipeNorthernAppleStew",
+    "name": "Recipe: Northern Apple Stew",
+    "localeName": "食譜：北地蘋果燜肉",
+    "desc": "步驟詳實的食譜，記載著「北地蘋果燜肉」的製作方法。",
+    "rarity": 3,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  { "id": "RecipeFullmoonEgg", "name": "Recipe: Fullmoon Egg", "localeName": "食譜：明月蛋", "desc": "步驟詳實的食譜，記載著「明月蛋」的製作方法。", "rarity": 3, "type": 7, "typeText": "食譜" },
+  {
+    "id": "RecipeVegetarianAbalone",
+    "name": "Recipe:Vegetarian Abalone",
+    "localeName": "食譜：素鮑魚",
+    "desc": "步驟詳實的食譜，記載著「素鮑魚」的製作方法。",
+    "rarity": 2,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  {
+    "id": "RecipeStoneHarborDelicacies",
+    "name": "Recipe: Stone Harbor Delicacies",
+    "localeName": "食譜：岩港三鮮",
+    "desc": "步驟詳實的食譜，記載著「岩港三鮮」的製作方法。",
+    "rarity": 2,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  { "id": "RecipeGoulash", "name": "Recipe: Goulash", "localeName": "食譜：稠汁蔬菜燉肉", "desc": "步驟詳實的食譜，記載著「稠汁蔬菜燉肉」的製作方法。", "rarity": 2, "type": 7, "typeText": "食譜" },
+  {
+    "id": "RecipeSunshineSprat",
+    "name": "Recipe: Sunshine Sprat",
+    "localeName": "食譜：奶油煎魚",
+    "desc": "步驟詳實的食譜，記載著「奶油煎魚」的製作方法。",
+    "rarity": 3,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  {
+    "id": "RecipeUniversalPeace",
+    "name": "Recipe: Universal Peace",
+    "localeName": "食譜：四方和平",
+    "desc": "步驟詳實的食譜，記載著「四方和平」的製作方法。",
+    "rarity": 3,
+    "type": 7,
+    "typeText": "食譜"
+  },
+  { "id": "RecipeJueyunGuoba", "name": "Recipe: Jueyun Guoba", "localeName": "食譜：絕雲鍋巴", "desc": "步驟詳實的食譜，記載著「絕雲鍋巴」的製作方法。", "rarity": 3, "type": 7, "typeText": "食譜" },
+  {
+    "id": "Flour",
+    "name": "Flour",
+    "localeName": "麵粉",
+    "desc": "由小麥磨成的粉末。無論做成怎樣的主食，都能給食客的胃帶來片刻充實。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["烹飪加工獲得"]
+  },
+  {
+    "id": "Cream",
+    "name": "Cream",
+    "localeName": "鮮奶油",
+    "desc": "將牛奶快速攪拌後提製的乳製品。是製作美味糕點時必備的材料之一。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["烹飪加工獲得"]
+  },
+  { "id": "SmokedFowl", "name": "Smoked Fowl", "localeName": "燻禽肉", "desc": "經過燻製的禽肉。緊實的肉質帶來別樣的味覺體驗。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["烹飪加工獲得"] },
+  {
+    "id": "Butter",
+    "name": "Butter",
+    "localeName": "奶油",
+    "desc": "從牛奶中分離提製的乳脂肪。適當添加，能讓哪怕平凡的原料，也散發出甜蜜濃厚的香氣。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["烹飪加工獲得"]
+  },
+  { "id": "Ham", "name": "Ham", "localeName": "火腿", "desc": "經過燻製的腿部獸肉。薄薄的一片就能帶來滿嘴的芳香。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["烹飪加工獲得"] },
+  {
+    "id": "Sugar",
+    "name": "Sugar",
+    "localeName": "糖",
+    "desc": "提煉自甜甜花的調味劑。它的甜味彷彿有著與人共鳴的力量，能夠驅散內心的陰霾。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["烹飪加工獲得"]
+  },
+  { "id": "Jam", "name": "Jam", "localeName": "果醬", "desc": "由水果和糖熬製而成的凝膠物質。只要少許就能輕易喚醒疲憊的味蕾。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["烹飪加工獲得"] },
+  {
+    "id": "Cheese",
+    "name": "Cheese",
+    "localeName": "乳酪",
+    "desc": "由牛奶濃縮發酵製成的乳製品。提供熱量的同時，賦予了烹飪無限可能性。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["烹飪加工獲得"]
+  },
+  {
+    "id": "Bacon",
+    "name": "Bacon",
+    "localeName": "培根",
+    "desc": "經過燻製的肋條獸肉。層次豐富、肥而不膩正是它廣受歡迎的原因。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["烹飪加工獲得"]
+  },
+  {
+    "id": "Sausage",
+    "name": "Sausage",
+    "localeName": "香腸",
+    "desc": "灌入腸衣後製成的條狀獸肉。便於儲存的特性，極大地滿足了肉食愛好者的日常需要。",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "食材",
+    "drop": ["烹飪加工獲得"]
+  },
+  { "id": "SmokedFish", "name": "Smoked Fish", "localeName": "燻魚", "desc": "", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["烹飪加工獲得"] },
+  { "id": "DriedFish", "name": "Dried Fish", "localeName": "魚乾", "desc": "", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["烹飪加工獲得"] },
   {
     "id": "HeatshieldPotion",
     "name": "Heatshield Potion",
@@ -2503,6 +3828,7 @@
     "desc": "讓人忍耐高熱的奇特藥劑，能提升火元素抗性。\n原理並不是讓人身體變得涼爽，而是讓人習慣高溫，以此降低置身其中的不適感。",
     "rarity": 3,
     "type": 2,
+    "typeText": "藥劑",
     "drop": ["合成獲得"]
   },
   {
@@ -2512,6 +3838,7 @@
     "desc": "讓人忍耐潮濕環境的藥物，能提升水元素抗性。\n這種藥劑據信能夠防潮，對於保存物品十分實用。內服亦可，對風濕病患者而言是寶物。",
     "rarity": 3,
     "type": 2,
+    "typeText": "藥劑",
     "drop": ["合成獲得"]
   },
   {
@@ -2521,6 +3848,7 @@
     "desc": "讓人忍耐寒冷的奇異藥水，能提升冰元素抗性。\n喝下去時，舌尖會有種凍僵的感覺。等這種感覺擴散到全身以後，就不再會感到寒冷了。",
     "rarity": 3,
     "type": 2,
+    "typeText": "藥劑",
     "drop": ["合成獲得"]
   },
   {
@@ -2530,6 +3858,7 @@
     "desc": "讓人抵抗強風的神秘藥劑，能提升風元素抗性。\n對於時常需要餐風露宿的冒險家來說，是非常實用的藥劑。據說能防止風寒。",
     "rarity": 3,
     "type": 2,
+    "typeText": "藥劑",
     "drop": ["合成獲得"]
   },
   {
@@ -2539,6 +3868,7 @@
     "desc": "可以防止觸電的藥水，能提升雷元素抗性。\n喝下去感覺酥酥麻麻的奇特藥物，據說絕緣的原理其實是讓人體內充滿相反的雷電，以此抵消電擊的傷害。",
     "rarity": 3,
     "type": 2,
+    "typeText": "藥劑",
     "drop": ["合成獲得"]
   },
   {
@@ -2548,6 +3878,7 @@
     "desc": "讓人不受沙塵侵擾的藥物，能提升岩元素抗性。\n喝下去時嘴裡會有磁石的奇特味道。對於風塵僕僕的旅人，可以保持渾身清潔。",
     "rarity": 3,
     "type": 2,
+    "typeText": "藥劑",
     "drop": ["合成獲得"]
   },
   {
@@ -2557,6 +3888,7 @@
     "desc": "可以抑制草木生長的藥物，能提升草元素抗性。\n原理和一般的除草劑不同，不是殺死草木，而是讓它們陷入沉睡。內服據說可以調理身體。",
     "rarity": 3,
     "type": 2,
+    "typeText": "藥劑",
     "drop": ["合成獲得"]
   },
   {
@@ -2566,6 +3898,7 @@
     "desc": "讓人更親和火元素的油膏，能提升造成的火元素傷害。\n以孕育火元素的物質製成，塗抹後能更有效地匯聚火元素。也會讓人變得熱情。",
     "rarity": 3,
     "type": 2,
+    "typeText": "藥劑",
     "drop": ["合成獲得"]
   },
   {
@@ -2575,6 +3908,7 @@
     "desc": "讓人更親和水元素的油膏，能提升造成的水元素傷害。\n濕濕滑滑的外用藥，能讓人更有效地引導水元素。有種微妙的氣味。",
     "rarity": 3,
     "type": 2,
+    "typeText": "藥劑",
     "drop": ["合成獲得"]
   },
   {
@@ -2584,6 +3918,7 @@
     "desc": "讓人更親和冰元素的油膏，能提升造成的冰元素傷害。\n塗抹後會感到冰冰涼涼，不容易出汗。提高冰元素魔導能力之餘，還能讓人渾身涼爽，頭腦冷靜。",
     "rarity": 3,
     "type": 2,
+    "typeText": "藥劑",
     "drop": ["合成獲得"]
   },
   {
@@ -2593,6 +3928,7 @@
     "desc": "讓人更親和風元素的油膏，能提升造成的風元素傷害。\n有著清香的氣味。據說，如果使用這種藥，在原野上旅行時，從來都是順風而行。",
     "rarity": 3,
     "type": 2,
+    "typeText": "藥劑",
     "drop": ["合成獲得"]
   },
   {
@@ -2602,6 +3938,7 @@
     "desc": "讓人更親和雷元素的油膏，能提升造成的雷元素傷害。\n觸碰時感覺酥酥麻麻，塗抹以後會讓人更容易導出雷元素。但據說有可能會引起電火花，可能會影響髮型。",
     "rarity": 3,
     "type": 2,
+    "typeText": "藥劑",
     "drop": ["合成獲得"]
   },
   {
@@ -2611,6 +3948,7 @@
     "desc": "讓人更親和岩元素的油膏，能提升造成的岩元素傷害。\n其中有著細小顆粒的藥，塗抹時能感受到其中含有的岩元素。據說對跌打損傷也有好處。",
     "rarity": 3,
     "type": 2,
+    "typeText": "藥劑",
     "drop": ["合成獲得"]
   },
   {
@@ -2620,8 +3958,12 @@
     "desc": "讓人更親和草元素的油膏，能提升造成的草元素傷害。\n富有營養的外用藥劑，如果用在土地中一定是強效的生長劑。能讓人更輕鬆地引導草元素。",
     "rarity": 3,
     "type": 2,
+    "typeText": "藥劑",
     "drop": ["合成獲得"]
   },
+  { "id": "SmallPrettyCrystal", "name": "Small Pretty Crystal", "localeName": "漂亮的小結晶", "desc": "合成的額外產物", "rarity": 1, "type": 7, "typeText": "合成產物", "drop": ["合成獲得"] },
+  { "id": "MediumPrettyCrystal", "name": "Medium Pretty Crystal", "localeName": "漂亮的中結晶", "desc": "合成的額外產物", "rarity": 1, "type": 7, "typeText": "合成產物", "drop": ["合成獲得"] },
+  { "id": "BigPrettyCrystal", "name": "Big Pretty Crystal", "localeName": "漂亮的大結晶", "desc": "合成的額外產物", "rarity": 1, "type": 7, "typeText": "合成產物", "drop": ["合成獲得"] },
   {
     "id": "PrimordialEssence",
     "name": "Primordial Essence",
@@ -2629,9 +3971,19 @@
     "desc": "原始元素力量凝成的微粒。作為基礎素材，在古典煉金術中獲得廣泛應用。",
     "rarity": 2,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["元素生物掉落"]
   },
-  { "id": "SlimeCondensate", "name": "Slime Condensate", "localeName": "史萊姆凝液", "desc": "覆於史萊姆體表的濃稠流體，各地元素工坊中最常見的原料。", "rarity": 1, "type": 1, "drop": ["史萊姆掉落"] },
+  {
+    "id": "SlimeCondensate",
+    "name": "Slime Condensate",
+    "localeName": "史萊姆凝液",
+    "desc": "覆於史萊姆體表的濃稠流體，各地元素工坊中最常見的原料。",
+    "rarity": 1,
+    "type": 1,
+    "typeText": "角色培養素材",
+    "drop": ["史萊姆掉落"]
+  },
   {
     "id": "SlimeSecretions",
     "name": "Slime Secretions",
@@ -2639,6 +3991,7 @@
     "desc": "略加純化的史萊姆分泌物，對皮膚有害，請務必避免沒有防護措施的接觸。",
     "rarity": 2,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["40級以上史萊姆掉落", "合成獲得"]
   },
   {
@@ -2648,6 +4001,7 @@
     "desc": "濃縮的史萊姆原漿，靜置時會自主進行不規則運動。",
     "rarity": 3,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["60級以上史萊姆掉落", "合成獲得"]
   },
   {
@@ -2657,6 +4011,7 @@
     "desc": "破碎的骨質面具，曾經屬於某個丘丘人。\n破損的部分比完整的部分更多，已經失去了假面應有的功能。",
     "rarity": 1,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["丘丘人掉落", "射手類丘丘人少量掉落", "丘丘薩滿少量掉落", "大體格丘丘人少量掉落"]
   },
   {
@@ -2666,6 +4021,7 @@
     "desc": "沾滿了難以辨認的污漬，散發著微妙氣味的骨質面具。\n即使這樣也要戴在臉上，這就是丘丘人的執著。",
     "rarity": 2,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["40級以上丘丘人掉落", "40級以上射手類丘丘人少量掉落", "40級以上丘丘薩滿少量掉落", "40級以上大體格丘丘人少量掉落", "合成獲得"]
   },
   {
@@ -2675,6 +4031,7 @@
     "desc": "光亮的骨質面具，上面塗繪著意在恐嚇敵人的油彩。\n丘丘人對面具的執著緣起為何，至今無人能解。一說認為是不願看見自己在水中的倒影。",
     "rarity": 3,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["60級以上丘丘人掉落", "60級以上射手類丘丘人少量掉落", "60級以上丘丘薩滿少量掉落", "60級以上大體格丘丘人少量掉落", "合成獲得"]
   },
   {
@@ -2684,6 +4041,7 @@
     "desc": "大抵是某種關於魔法的繪卷殘篇。隱隱地散發著某種異樣的、不詳的溫暖。",
     "rarity": 1,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["丘丘薩滿掉落"]
   },
   {
@@ -2693,6 +4051,7 @@
     "desc": "模糊地繪製了難解形象的古書斷章。透過模仿其中的人物形象，一些魔物能小小地再現魔法的奇蹟。",
     "rarity": 2,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["40級以上丘丘薩滿掉落", "合成獲得"]
   },
   {
@@ -2702,6 +4061,7 @@
     "desc": "繪製著古代形象的古書抄本。鮮有人能解讀它的含義；據說最終理解了其中真意的學者最後都陷入了癲狂。",
     "rarity": 3,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["60級以上丘丘薩滿掉落", "合成獲得"]
   },
   {
@@ -2711,6 +4071,7 @@
     "desc": "做工粗糙的箭鏃。即使如此，也不容小覷：弩是危險的武器，即使貴為騎士，也可能被從後方來的弩矢擊倒。",
     "rarity": 1,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["射手類丘丘人掉落"]
   },
   {
@@ -2720,6 +4081,7 @@
     "desc": "做工精良的箭鏃。銳利的尖端或許能像投石入水一樣輕易穿透敵人的甲冑，沒入獵物的體內。",
     "rarity": 2,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["40級以上射手類丘丘人掉落", "合成獲得"]
   },
   {
@@ -2729,6 +4091,7 @@
     "desc": "老舊的、沾染了乾涸血跡的箭鏃。箭頭在反覆的使用中已經失去了應有的銳利，根本不能作為武器使用。\n但它也代表著獵手的驕傲，是它們的護身符與獎章。",
     "rarity": 3,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["60級以上射手類丘丘人掉落", "合成獲得"]
   },
   {
@@ -2738,6 +4101,7 @@
     "desc": "粗礪的號角，是丘丘人用來警告同伴的道具。現在散布在號角上的戰損使其失去了發聲的功能。",
     "rarity": 2,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["大體格丘丘人掉落"]
   },
   {
@@ -2747,6 +4111,7 @@
     "desc": "金屬製的魔物號角。通常只能從格外強壯的丘丘人身上獲得，因為鳴響號角是需要力氣的事情。",
     "rarity": 3,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["40級以上大體格丘丘人掉落", "合成獲得"]
   },
   {
@@ -2756,6 +4121,7 @@
     "desc": "隱隱反射著不祥光芒的金屬號角，飾有材質不明的黑晶。幾乎沒有使用過，推測是丘丘人重要的儀式器具。",
     "rarity": 4,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["60級以上大體格丘丘人掉落", "合成獲得"]
   },
   {
@@ -2765,6 +4131,7 @@
     "desc": "模糊地刻畫著某人形象的小塑像。即使經過了長久的歲月，也沒有受到任何損傷。",
     "rarity": 2,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["深淵法師掉落"]
   },
   {
@@ -2774,6 +4141,7 @@
     "desc": "刻畫著某人形象的漆黑偶像。沾染了幽邃的不明力量，僅僅拿在手裡也會令人感到不安。",
     "rarity": 3,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["40級以上深淵法師掉落", "合成獲得"]
   },
   {
@@ -2783,6 +4151,7 @@
     "desc": "微微散發著邪穢的能量的刻像，是以何種材質製成則完全不可知。凝視著這尊偶像時，能聽見令人心神不安的奇妙低語。",
     "rarity": 4,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["60級以上深淵法師掉落", "合成獲得"]
   },
   {
@@ -2792,6 +4161,7 @@
     "desc": "來自深邃地底的脆弱枯枝。即使飽經歲月，也能從斑駁的樹皮下，看出尚未散盡的力量。",
     "rarity": 2,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["深淵法師掉落"]
   },
   {
@@ -2801,6 +4171,7 @@
     "desc": "來自深邃地底的植物枝條。即使遠離它的原主，其中也殘留著低沉脈動的力量。",
     "rarity": 3,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["40級以上深淵法師掉落", "合成獲得"]
   },
   {
@@ -2810,6 +4181,7 @@
     "desc": "據說有一株巨木曾經貫徹了世界的各處；據說這枝是它的一部分。仿佛從未被人折下帶到遙遠的地表，仍然充滿了勃發的生機，長出了新吐。",
     "rarity": 4,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["60級以上深淵法師掉落", "合成獲得"]
   },
   {
@@ -2819,6 +4191,7 @@
     "desc": "來自不再活動的古代遺蹟構裝體。曾經是維繫它身軀的某個部位，有著精妙的工學美感。",
     "rarity": 2,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["遺蹟守衛掉落", "遺蹟獵者掉落"]
   },
   {
@@ -2828,6 +4201,7 @@
     "desc": "來自不再活動的古代遺蹟構裝體。曾經是驅使它行動的邏輯迴路。其中蘊含的偉大技術，如今已經無人可解。",
     "rarity": 3,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["40級以上遺蹟守衛掉落", "40級以上遺蹟獵者掉落", "合成獲得"]
   },
   {
@@ -2837,6 +4211,7 @@
     "desc": "來自不再活動的古代遺蹟構裝體。曾經是驅動它活動的能源之心。若能理解、重構這樣的神秘技術，或許能改變這個世界也說不定。",
     "rarity": 4,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["60級以上遺蹟守衛掉落", "60級以上遺蹟獵者掉落", "合成獲得"]
   },
   {
@@ -2846,6 +4221,7 @@
     "desc": "霧虛草在密閉空間中會產生的奇妙孢子，是飛螢喜好的食物。",
     "rarity": 2,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["愚人眾·螢術士掉落"]
   },
   {
@@ -2855,6 +4231,7 @@
     "desc": "保存完好的霧虛草。有的人會利用飛螢對霧虛草的喜好，來控制它們。",
     "rarity": 3,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["40級以上愚人眾·螢術士掉落", "合成獲得"]
   },
   {
@@ -2864,6 +4241,7 @@
     "desc": "將本就罕見的霧虛草集結成的束，會散發出幽晦的冥光；提著這種燈的人，則會召來飛螢與不幸。",
     "rarity": 4,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["60級以上愚人眾·螢術士掉落", "合成獲得"]
   },
   {
@@ -2873,6 +4251,7 @@
     "desc": "某種鋒利的合金武具。即便失去了原本的主人，仍反射著令人不安的寒光。",
     "rarity": 2,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["債務處理人掉落"]
   },
   {
@@ -2882,6 +4261,7 @@
     "desc": "利用至冬國優越的技術製造的異形兵器，曾經屬於某位資深特工。一般人不經訓練，根本無法使用這種奇怪的武具。",
     "rarity": 3,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["40級以上債務處理人掉落", "合成獲得"]
   },
   {
@@ -2891,6 +4271,7 @@
     "desc": "在故主手中，曾處理過許多「債務」的兇惡武具。世上無人背後長眼，而這種兵器與相關的武藝則是針對這種弱點設計的。",
     "rarity": 4,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["60級以上債務處理人掉落", "合成獲得"]
   },
   {
@@ -2900,6 +4281,7 @@
     "desc": "標識著新兵身份的徽記。不知曾經帶著它的人，是懷著何種心情加入愚人眾的戰爭機器的呢。",
     "rarity": 1,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["先遣隊掉落", "債務處理人少量掉落", "雷螢術士少量掉落"]
   },
   {
@@ -2909,6 +4291,7 @@
     "desc": "標識著士官身份的徽記，有著區分一般士兵的奇異造型。其中或許蘊含著複雜的情緒吧。",
     "rarity": 2,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["40級以上先遣隊掉落", "40級以上債務處理人少量掉落", "40級以上雷螢術士少量掉落", "合成獲得"]
   },
   {
@@ -2918,6 +4301,7 @@
     "desc": "標識著尉官身份的徽記。愚人眾擁有龐大的軍隊，能在其中擔任尉官者，想必是有過人之處吧。",
     "rarity": 3,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["60級以上先遣隊掉落", "60級以上債務處理人少量掉落", "60級以上雷螢術士少量掉落", "合成獲得"]
   },
   {
@@ -2927,6 +4311,7 @@
     "desc": "驕傲地標示著盜寶團身分的印記，描繪著他們對寶藏永無止境的追求。話雖如此，盜賊的身分真的需要驕傲地展示嗎…？",
     "rarity": 1,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["盜寶團成員掉落"]
   },
   {
@@ -2936,6 +4321,7 @@
     "desc": "盜寶團的成員用於相互辨識的烏鴉紋章。盜寶團不問出身，無論何者，只要懷著貪求寶藏的心，有鋌而走險的膽識，都可以成為「優秀」的成員。",
     "rarity": 2,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["40級以上盜寶團成員掉落", "合成獲得"]
   },
   {
@@ -2945,6 +4331,7 @@
     "desc": "象徵著盜寶團唯一的原則與傲骨的徽印。只要廣袤的大地上、幽邃的深淵裡，未知的海洋中仍有待發掘的祕寶，那麼不論手段地征服寶藏的盜寶之魂，就永遠不會熄滅。",
     "rarity": 3,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["60級以上盜寶團成員掉落", "合成獲得"]
   },
   {
@@ -2954,6 +4341,7 @@
     "desc": "從花蕊中提取出的花蜜，其中含有少量元素。\n嘗起來和甜甜花的味道有些微妙地相似。",
     "rarity": 1,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["騙騙花掉落"]
   },
   {
@@ -2963,6 +4351,7 @@
     "desc": "元素純度較高的花蜜。\n學界一般認為騙騙花是元素植物的高級生命形態，但始終無法解明它的掠食習性。",
     "rarity": 2,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["40級以上騙騙花掉落", "合成獲得"]
   },
   {
@@ -2972,6 +4361,7 @@
     "desc": "飽含能量的黏稠蜜汁。\n騙騙花欺瞞獵物是為了狩獵，而狩獵進食或許是為了進化成某種更強大、更純粹的姿態吧…",
     "rarity": 3,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["60級以上騙騙花掉落", "合成獲得"]
   },
   {
@@ -2981,6 +4371,7 @@
     "desc": "從龍蜥身上找到的某種骨片。\n儘管十分脆弱，其中似乎蘊含著某種難以言喻的力量。",
     "rarity": 2,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["幼岩龍蜥掉落", "岩龍蜥掉落"]
   },
   {
@@ -2990,6 +4381,7 @@
     "desc": "出於某種理由，龍蜥十分珍惜的某種生物骨片。\n看上去有一定的年頭。即使是這種不通人言的龍獸，似乎對這種遺骸也擁有某種特殊的憧憬。",
     "rarity": 3,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["40級以上幼岩龍蜥掉落", "40級以上岩龍蜥掉落", "合成獲得"]
   },
   {
@@ -2999,6 +4391,7 @@
     "desc": "擊敗龍蜥後有時能找到的石化骨片。\n龍蜥都夢想著成長為真正的龍。會把古老的化石認作是龍之骨而加以珍惜，或許是因為希冀著龍的永恆與強大吧。",
     "rarity": 4,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["60級以上幼岩龍蜥掉落", "60級以上岩龍蜥掉落", "合成獲得"]
   },
   {
@@ -3008,6 +4401,7 @@
     "desc": "無相之風被擊敗後，所坍縮成的形態。其中蘊含著至純的風之力。\n傳說在纖細脆弱的蝴蝶體內，也藏有引發颶風的力量。這由純粹的風構成的蝴蝶，無疑在等待著再次召來暴風的那一天吧。",
     "rarity": 4,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["30級以上無相之風掉落"]
   },
   {
@@ -3017,6 +4411,7 @@
     "desc": "無相之雷用於匯聚元素，修復損傷的元素物質。其中蘊含著至純的雷之力。\n棱鏡能將構成光的色彩區分，而雷光棱鏡將奔流的能量編織成純粹的雷光。即使無相之雷已經被擊敗，雷元素也持續在這面棱鏡中匯聚。",
     "rarity": 4,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["30級以上無相之雷掉落"]
   },
   {
@@ -3026,6 +4421,7 @@
     "desc": "#從蒙德的東風之主身上，取下的一枚翎羽。\n那是經歷了千年之風的龍之羽。追求自由的本心使它幾乎喚起輕風，好逃離現今的桎梏；但它的舊主對{F#妳}{M#你}的賞識，使它留在了你的掌心裡。",
     "rarity": 5,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["70級以上風魔龍挑戰獎勵"]
   },
   {
@@ -3035,6 +4431,7 @@
     "desc": "從蒙德的東風之主身上，取下的一絲鋒銳。\n因為過去撕裂了偉大魔龍「杜林」的血肉的緣故，曾經蘊含著駭人的猛毒。但經過你的淨化與治癒，其中躁動的毒性終於平息。",
     "rarity": 5,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["70級以上風魔龍挑戰獎勵"]
   },
   {
@@ -3044,33 +4441,37 @@
     "desc": "從蒙德的東風之主喚起的狂風中，採來的些許力量。\n它的身軀是優美而通透的，信風與龍捲都願為它效力。只要乘風而行，風就是它的同伴、它的歌聲與它的自由。\n而它的敵人，就是一千種名字各異的風的敵人。",
     "rarity": 5,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["70級以上風魔龍挑戰獎勵"]
   },
   {
-    "id": "TailofBoreas",
+    "id": "TailOfBoreas",
     "name": "Tail of Boreas",
     "localeName": "北風之尾",
     "desc": "從北風的偉大王狼身上，取來的些許尾鱗。\n失去了生命與形體的北風王狼仍有超越凡俗的偉大力量。為了迎接挑戰而用冰與風復現的形體也無法容下它的全部，少數靈魂附在了於戰鬥中脫落的冰鱗上。",
     "rarity": 5,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["70級以上北風狼挑戰獎勵"]
   },
   {
-    "id": "RingofBoreas",
+    "id": "RingOfBoreas",
     "name": "Ring of Boreas",
     "localeName": "北風之環",
     "desc": "從北風的偉大王狼身上，取來的些許凝冰。\n這片大地曾經北風呼嘯，呼氣凝霜。如砂礫的冰與雪在寒風中囂叫，飛舞著將肌膚撕裂，讓血液凝結。如今的北風王狼力量雖然不如往昔，卻仍有能冰封大地的力量。",
     "rarity": 5,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["70級以上北風狼挑戰獎勵"]
   },
   {
-    "id": "SpiritLocketofBoreas",
+    "id": "SpiritLocketOfBoreas",
     "name": "Spirit Locket of Boreas",
     "localeName": "北風的魂匣",
     "desc": "從北風的偉大王狼之靈處，取來的些許力量。\n這片大地上曾經北風呼嘯，呼氣凝霜。但它在最後終於明白，酷烈的北風只能熄滅生命，不能滋養生命。在生命的末尾，它讓自己的力量流入這片大地，永遠守護大地與大地的住民。",
     "rarity": 5,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["70級以上北風狼挑戰獎勵"]
   },
   {
@@ -3080,6 +4481,7 @@
     "desc": "無相之岩的外殼構成的石柱。由純粹的岩元素高度濃縮而成。\n岩元素是最為沉重的元素。無相之岩將外殼築成高聳的岩柱，將自己抬升至高處，或許不僅是為了應敵。或許也是為了更加接近與它無緣的天空吧。",
     "rarity": 4,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["30級以上無相之岩掉落"]
   },
   {
@@ -3089,6 +4491,7 @@
     "desc": "急凍樹被擊敗後，裸露出的原核。其中蘊含著純淨的冰元素。\n在大地深處中奔湧的能量與思念終歸會噴發。就連哀思般沉寂的寒霜，也會附著在地面上的生命形態當中；即使原本不該狩獵生靈的藤蔓植物，也會變得龐大而兇悍吧。",
     "rarity": 4,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["30級以上急凍樹掉落"]
   },
   {
@@ -3098,6 +4501,7 @@
     "desc": "驅動爆炎樹持續燃燒的種子。仿佛要點燃世間的一切草木般放射著火元素的熱量。\n大地深處湍流不息的能量中運載著無窮的願望。挾著烈火憑依在植物上，使它恒常地燃燒，並且渴望用爆裂的火炎洗淨一切的，又是什麼樣的願望呢。",
     "rarity": 4,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["30級以上爆炎樹掉落"]
   },
   {
@@ -3107,33 +4511,37 @@
     "desc": "純水精靈留下的永遠透徹的一掬水。\n即使溶在了湖泊中，它的純淨也不會被稀釋吧。但高潔如此的純水精靈，又是為何渴望著地上生靈的模樣，以淨水模擬成生物的姿態呢，即使不需要呼吸、也不需要進食…",
     "rarity": 4,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["30級以上純水精靈掉落"]
   },
   {
-    "id": "TuskofMonocerosCaeli",
+    "id": "TuskOfMonocerosCaeli",
     "name": "Tusk of Monoceros Caeli",
     "localeName": "吞天之鯨·隻角",
     "desc": "#戰勝解放了邪眼之力的「公子」後，取來的水鯨之角。\n傳說中，命之座的圖形反映著人的氣質。而巡弋漆黑夜空的星辰之鯨，恐怕映照出的是粉碎一切、吞噬一切的狂傲理念吧…\n而接受了這一面的他，欣然喚出滅世的水之鯨，投身與{F#妳}{M#你}的戰鬥。",
     "rarity": 5,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["70級以上公子挑戰獎勵"]
   },
   {
-    "id": "ShardofaFoulLegacy",
+    "id": "ShardOfAFoulLegacy",
     "name": "Shard of a Foul Legacy",
     "localeName": "魔王之刃·殘片",
     "desc": "戰勝解放了邪眼之力的「公子」後，得到的武器破片。\n因為曾經抵達無窮的至暗之地，以少年的雙眼目睹了那個國度的漆黑，因此不可逆地染上了不應屬於這個世界的深邃色彩。\n縱使「邪眼」的力量與其無關，但物似主人形…",
     "rarity": 5,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["70級以上公子挑戰獎勵"]
   },
   {
-    "id": "ShadowoftheWarrior",
+    "id": "ShadowOfTheWarrior",
     "name": "Shadow of the Warrior",
     "localeName": "武煉之魂·孤影",
     "desc": "戰勝解放了邪眼之力的「公子」後，取來的些許力量。\n經過無盡歷練的氣勢與戰意在全力的廝殺中噴湧而出，物質化的產物。\n倘若人類擁有命運，那恐怕他的命運也為之歪曲了吧。否則，他又為何總是身處鬥爭的漩渦中心呢。",
     "rarity": 5,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["70級以上公子挑戰獎勵"]
   },
   {
@@ -3143,42 +4551,47 @@
     "desc": "從古岩龍蜥處取來的結晶物質，蘊含著成為龍的可能性。\n沉眠在山岳中的龍蜥體內，會析出這種黯淡的晶石。璃月有坊間傳說認為，力量隨著年月積聚，而這種晶石最終會取代原本的心臟，而龍蜥也會成為真正的龍，撼動山岳、撕裂大地。",
     "rarity": 4,
     "type": 1,
+    "typeText": "角色培養素材",
     "drop": ["30級以上古岩龍蜥掉落"]
   },
   {
-    "id": "TileofDecarabiansTower",
+    "id": "TileOfDecarabiansTower",
     "name": "Tile of Decarabian's Tower",
     "localeName": "高塔孤王的破瓦",
     "desc": "賦予武器突破之力的素材。\n最近被稱為風龍廢墟的地方，曾經是烈風的魔神「迭卡拉庇安」建造的王都。因這繁華之夢全是魔神之力所造，因此夢碎瞬間的破瓦斷片也有強大的力量。",
     "rarity": 2,
     "type": 1,
+    "typeText": "武器突破素材",
     "drop": ["蒙德紀念品商店兌換"]
   },
   {
-    "id": "DebrisofDecarabiansCity",
+    "id": "DebrisOfDecarabiansCity",
     "name": "Debris of Decarabian's City",
     "localeName": "高塔孤王的殘垣",
     "desc": "賦予武器突破之力的素材。\n烈風的魔神「迭卡拉庇安」對自己所造的王城十分滿意，他在高塔上接受所有追隨者的跪拜。但他卻不知道，眾人對他俯身並非出於敬仰愛戴。",
     "rarity": 3,
     "type": 1,
+    "typeText": "武器突破素材",
     "drop": ["合成獲得"]
   },
   {
-    "id": "FragmentofDecarabiansEpic",
+    "id": "FragmentOfDecarabiansEpic",
     "name": "Fragment of Decarabian's Epic",
     "localeName": "高塔孤王的斷片",
     "desc": "賦予武器突破之力的素材。\n「安德留斯」曾經對高塔的孤王宣戰，卻也無法損傷王都分毫。若不是「自由」高歌的瞬間讓這座城市土崩瓦解，這一切都會繼續永遠之夢。",
     "rarity": 4,
     "type": 1,
+    "typeText": "武器突破素材",
     "drop": ["合成獲得"]
   },
   {
-    "id": "ScatteredPieceofDecarabiansDream",
+    "id": "ScatteredPieceOfDecarabiansDream",
     "name": "Scattered Piece of Decarabian's Dream",
     "localeName": "高塔孤王的碎夢",
     "desc": "賦予武器突破之力的素材。\n眾人對高塔上的孤王俯身並非出於敬仰愛戴，而是被它的烈風吹得無法起身。這是巴巴托斯崛起之前，風神之一柱的野心與碎夢。\n它是如此用力地做夢，因此夢的碎片也帶著強大的力量。",
     "rarity": 5,
     "type": 1,
+    "typeText": "武器突破素材",
     "drop": ["合成獲得"]
   },
   {
@@ -3188,6 +4601,7 @@
     "desc": "賦予武器突破之力的素材。\n群狼是受它祝福的近衛軍，就算是小狼的乳牙也有相當的潛力。\n曾經的眾神皆背負愛人的責任。因此引導群狼，卻只收養棄嬰、接納流浪者的「安德留斯」十分異類。",
     "rarity": 2,
     "type": 1,
+    "typeText": "武器突破素材",
     "drop": ["蒙德紀念品商店兌換"]
   },
   {
@@ -3197,6 +4611,7 @@
     "desc": "賦予武器突破之力的素材。\n狼的生活經常伴有廝殺，斷骨裂齒的死鬥也不罕見。\n「安德留斯」認為人類只會帶來失望，但是純真的嬰兒是無辜的。狼群選擇了孩子，孩子如果也選擇了狼，那麼他們就結成了「盧皮卡」——命運的家族。",
     "rarity": 3,
     "type": 1,
+    "typeText": "武器突破素材",
     "drop": ["合成獲得"]
   },
   {
@@ -3206,6 +4621,7 @@
     "desc": "賦予武器突破之力的素材。\n狼群也充分理解，人如果沒有同類會感到孤獨。光榮的斷牙是狼們離別的贈禮，據說真的有保護平安的魔力。\n在遙遠世界的傳說裡，有一隻母狼領養了偉大的雙子。狼與人所同住的「家」則被稱為「狼之洞」，也就是「盧佩卡」，與這個世界的「盧皮卡」同義。",
     "rarity": 4,
     "type": 1,
+    "typeText": "武器突破素材",
     "drop": ["合成獲得"]
   },
   {
@@ -3215,78 +4631,87 @@
     "desc": "賦予武器突破之力的素材。\n認為自己討厭人類的奔狼之王，自覺無法去描繪人類的幸福生活，因此沒有資格成為塵世的風之王。於是它選擇了消失。但是事實不是這樣的，它看著被拋棄之人的眼神是如此溫柔。",
     "rarity": 5,
     "type": 1,
+    "typeText": "武器突破素材",
     "drop": ["合成獲得"]
   },
   {
-    "id": "FettersoftheDandelionGladiator",
+    "id": "FettersOfTheDandelionGladiator",
     "name": "Fetters of the Dandelion Gladiator",
     "localeName": "獅牙鬥士的枷鎖",
     "desc": "賦予武器突破之力的素材。\n人們總是會對英雄的故事過分誇大。甚至是曾經束縛英雄的枷鎖，都被昇華到了自由之敵的高度。\n因此這些鎖鏈也擁有了非凡的力量。",
     "rarity": 2,
     "type": 1,
+    "typeText": "武器突破素材",
     "drop": ["蒙德紀念品商店兌換"]
   },
   {
-    "id": "ChainsoftheDandelionGladiator",
+    "id": "ChainsOfTheDandelionGladiator",
     "name": "Chains of the Dandelion Gladiator",
     "localeName": "獅牙鬥士的鐵鍊",
     "desc": "賦予武器突破之力的素材。\n曾經施在大英雄溫妮莎身上的枷鎖——或者這麼說吧，那個時代裡，所有劍鬥士都會背負鐐銬。獅牙的鬥士也只是其中一員。",
     "rarity": 3,
     "type": 1,
+    "typeText": "武器突破素材",
     "drop": ["合成獲得"]
   },
   {
-    "id": "ShacklesoftheDandelionGladiator",
+    "id": "ShacklesOfTheDandelionGladiator",
     "name": "Shackles of the Dandelion Gladiator",
     "localeName": "獅牙鬥士的鐐銬",
     "desc": "賦予武器突破之力的素材。\n溫妮莎並不是被鐐銬或者鎖鏈困住的，她想要掙脫枷鎖和鐐銬的話，隨時都能擊碎蒙德融造的普通金屬。畢竟這裡既沒有優秀的礦石，也沒有故鄉的神火。\n鎖住她的，是守護族人的責任。",
     "rarity": 4,
     "type": 1,
+    "typeText": "武器突破素材",
     "drop": ["合成獲得"]
   },
   {
-    "id": "DreamoftheDandelionGladiator",
+    "id": "DreamOfTheDandelionGladiator",
     "name": "Dream of the Dandelion Gladiator",
     "localeName": "獅牙鬥士的理想",
     "desc": "賦予武器突破之力的素材。\n溫妮莎從奴役之中得到了自由。結果鎖住她的東西越來越大了：從族人變成了整個蒙德，甚至變成了「自由」，乃至這個世界。\n她是發自真心這麼希望著的：願這個世界變得更加堅強一些。",
     "rarity": 5,
     "type": 1,
+    "typeText": "武器突破素材",
     "drop": ["合成獲得"]
   },
   {
-    "id": "LuminousSandsfromGuyun",
+    "id": "LuminousSandsFromGuyun",
     "name": "Luminous Sands from Guyun",
     "localeName": "孤雲寒林的光砂",
     "desc": "賦予武器突破之力的素材。\n孤雲閣聳立的岩柱，曾經都是摩拉克斯為了鎮伏敵手降下的岩槍。久而久之，魔神之體滲入了岩柱，使之擁有了聖性。岩柱偶爾會剝落一些散發著怨恨和不祥的碎屑。",
     "rarity": 2,
     "type": 1,
+    "typeText": "武器突破素材",
     "drop": ["璃月紀念品商店兌換"]
   },
   {
-    "id": "LustrousStonefromGuyun",
+    "id": "LustrousStoneFromGuyun",
     "name": "Lustrous Stone from Guyun",
     "localeName": "孤雲寒林的輝岩",
     "desc": "賦予武器突破之力的素材。\n所以對於知情人士來說，孤雲閣並不是什麼愉快的海上奇觀，而是曾經璃月眾神的墓園。這裡的確會週期性地湧起不祥和污穢，不過那都被另一個降妖伏魔的少年平息了。",
     "rarity": 3,
     "type": 1,
+    "typeText": "武器突破素材",
     "drop": ["合成獲得"]
   },
   {
-    "id": "RelicfromGuyun",
+    "id": "RelicFromGuyun",
     "name": "Relic from Guyun",
     "localeName": "孤雲寒林的聖骸",
     "desc": "賦予武器突破之力的素材。\n岩槍的核心是發著暗淡光輝的核心，那是戰敗魔神的力量深入岩石形成的。他們的怨恨並不針對摩拉克斯，因為他們早就已經沒有自我了，不可能還殘留私怨。",
     "rarity": 4,
     "type": 1,
+    "typeText": "武器突破素材",
     "drop": ["合成獲得"]
   },
   {
-    "id": "DivineBodyfromGuyun",
+    "id": "DivineBodyFromGuyun",
     "name": "Divine Body from Guyun",
     "localeName": "孤雲寒林的神體",
     "desc": "賦予武器突破之力的素材。\n於此躁動、作祟的，正是嗟歎連綿的眾神聖骸之體。它們是未能實現的理想，對人類另一種幸福生活的描繪。它們以深海、層岩收納，卻不願意就此入夢。",
     "rarity": 5,
     "type": 1,
+    "typeText": "武器突破素材",
     "drop": ["合成獲得"]
   },
   {
@@ -3296,6 +4721,7 @@
     "desc": "賦予武器突破之力的材料。\n絕雲間乃是仙家府第。而相傳仙家除了三眼五顯神通，可以操縱塵世的元素之力外，另有三項不傳秘：丹鼎、符籙與外景。",
     "rarity": 2,
     "type": 1,
+    "typeText": "武器突破素材",
     "drop": ["璃月紀念品商店兌換"]
   },
   {
@@ -3305,6 +4731,7 @@
     "desc": "賦予武器突破之力的材料。\n符籙可以讓仙人力量借符號殘留，外景可以用心像造出宇宙洞天。丹鼎之術，則一直籠罩在秘密之中。畢竟嘗試吞下這些金丹的話，結果必定十死無生。",
     "rarity": 3,
     "type": 1,
+    "typeText": "武器突破素材",
     "drop": ["合成獲得"]
   },
   {
@@ -3314,6 +4741,7 @@
     "desc": "賦予武器突破之力的材料。\n其實所謂金丹，真的是字面意思的金屬之丹。這些都是仙人們製造的合金，融合了神通之力，可以給與武器超越的力量。武人似乎都覺得武道優於仙道，不怎麼訪神問仙。所以金丹並沒什麼機會給出去。",
     "rarity": 4,
     "type": 1,
+    "typeText": "武器突破素材",
     "drop": ["合成獲得"]
   },
   {
@@ -3323,106 +4751,58 @@
     "desc": "賦予武器突破之力的材料。\n這是金丹的最高品質，它模擬了混沌初開、清濁不分、天地一體的狀態。據說這個是天地創世的縮影。當然，那位是知道的，世界的重現不是這樣的。",
     "rarity": 5,
     "type": 1,
+    "typeText": "武器突破素材",
     "drop": ["合成獲得"]
   },
   {
-    "id": "GrainofAerosiderite",
+    "id": "GrainOfAerosiderite",
     "name": "Grain of Aerosiderite",
     "localeName": "漆黑隕鐵的一粒",
     "desc": "賦予武器突破之力的材料。\n曾經在璃月雲來海之外落下過一個漆黑隕鐵，據說也是為了降伏魔獸妖物。但是因為沾染了強大的污穢之血，這塊材料的特性已經不再是純粹的岩王帝君之力了。",
     "rarity": 2,
     "type": 1,
+    "typeText": "武器突破素材",
     "drop": ["璃月紀念品商店兌換"]
   },
   {
-    "id": "PieceofAerosiderite",
+    "id": "PieceOfAerosiderite",
     "name": "Piece of Aerosiderite",
     "localeName": "漆黑隕鐵的一片",
     "desc": "賦予武器突破之力的材料。\n璃月之地向來都有海怪的傳說，畢竟彼方是超越提瓦特的未知區域了。沒有了塵世七神的守護，外面不知道是怎樣的一團混沌。能把岩王帝君的力量都染黑的，正是提瓦特秩序之外的力量。",
     "rarity": 3,
     "type": 1,
+    "typeText": "武器突破素材",
     "drop": ["合成獲得"]
   },
   {
-    "id": "BitofAerosiderite",
+    "id": "BitOfAerosiderite",
     "name": "Bit of Aerosiderite",
     "localeName": "漆黑隕鐵的一角",
     "desc": "賦予武器突破之力的材料。\n提瓦特沿海的諸國把超越七神庇護的外部稱之為「暗之外海」，據說許多戰敗的魔神不願意活在新的七神秩序之下，於是逃到了遠島，化作了邪神。不過它們的力量和岩王帝君的力量本就同源，和這個吞噬一切的漆黑並不一樣。",
     "rarity": 4,
     "type": 1,
+    "typeText": "武器突破素材",
     "drop": ["合成獲得"]
   },
   {
-    "id": "ChunkofAerosiderite",
+    "id": "ChunkOfAerosiderite",
     "name": "Chunk of Aerosiderite",
     "localeName": "漆黑隕鐵的一塊",
     "desc": "賦予武器突破之力的材料。\n坎瑞亞覆滅的時代，某位大罪人製造了無數的魔獸。它們流淌著與此世不容的黑血，在大陸上踐踏眾生、破壞一切。它們的生命是變質的，由世界外的力量賜予的。硬要說的話，襲擊蒙德的「杜林」也是此類。",
     "rarity": 5,
     "type": 1,
+    "typeText": "武器突破素材",
     "drop": ["合成獲得"]
   },
-  { "id": "BEP", "name": "BEP", "localeName": "紀行經驗", "desc": "紀行即是將長旅中所經歷的一切都記錄下來。這些就是將被譜寫成詩的素材。", "rarity": 3, "type": 7 },
+  { "id": "BEP", "name": "BEP", "localeName": "紀行經驗", "desc": "紀行即是將長旅中所經歷的一切都記錄下來。這些就是將被譜寫成詩的素材。", "rarity": 3, "type": 7, "typeText": "紀行經驗" },
   {
-    "id": "CakeforTraveler",
+    "id": "CakeForTraveler",
     "name": "Cake for Traveler",
     "localeName": "給旅行者的小蛋糕",
     "desc": "#某個意義重大的日子留下的紀念品。\n\n獻給星海之中熠熠生輝的{F#妳}{M#你}。\n祈願{F#妳}{M#你}在這片大地上的旅程美好幸福。\n\n「這是第一次為{F#妳}{M#你}慶祝這個日子吧。每隔七天，推薦菜就會輪換一次。每隔三十天，月亮就會播撒新的祝福。下次為{F#妳}{M#你}慶祝，居然還要接近九千小時！」",
     "rarity": 4,
-    "type": 7
-  },
-  {
-    "id": "WingsofFirstFlight",
-    "name": "Wings of First Flight",
-    "localeName": "初始之翼",
-    "desc": "風之翼款式。飽含偵察騎士的熱烈期待。",
-    "rarity": 4,
-    "type": 5,
-    "drop": ["完成蒙德魔神任務「自由之都」後獲得"]
-  },
-  {
-    "id": "WingsofCompanionship",
-    "name": "Wings of Companionship",
-    "localeName": "守候之翼",
-    "desc": "#風之翼款式。希望能與{F#妳}{M#你}一起飛翔。",
-    "rarity": 4,
-    "type": 5,
-    "drop": ["正式上線答謝活動獎勵"]
-  },
-  {
-    "id": "WingsofDescension",
-    "name": "Wings of Descension",
-    "localeName": "降臨之翼",
-    "desc": "風之翼款式。可以再次戴著它穿梭日月了。",
-    "rarity": 4,
-    "type": 5,
-    "drop": ["PlayStation®4主機的玩家特典獎勵"]
-  },
-  {
-    "id": "WingsofAzureWind",
-    "name": "Wings of Azure Wind",
-    "localeName": "蒼天清風之翼",
-    "desc": "風之翼款式。因為得到蒙德的認可與嘉許，而獲贈的禮物。",
-    "rarity": 4,
-    "type": 5,
-    "drop": ["蒙德聲望達到一定等級後獲得。"]
-  },
-  {
-    "id": "WingsofGoldenFlight",
-    "name": "Wings of Golden Flight",
-    "localeName": "金琮天行之翼",
-    "desc": "風之翼款式。因為得到璃月的認可與嘉許，而獲贈的禮物。",
-    "rarity": 4,
-    "type": 5,
-    "drop": ["璃月聲望達到一定等級後獲得。"]
-  },
-  {
-    "id": "WingsofConcealingSnow",
-    "name": "Wings of Concealing Snow",
-    "localeName": "雪隱之翼",
-    "desc": "風之翼款式。是曾經翱翔在這座山上的猛禽留下的寶物。",
-    "rarity": 4,
-    "type": 5,
-    "drop": ["忍冬之樹供奉至一定等級後獲得"]
+    "type": 7,
+    "typeText": "貴重物品"
   },
   {
     "id": "LanternFiber",
@@ -3431,6 +4811,7 @@
     "desc": "海燈節期間，用以製作「霄燈」的材料。\n隨處可見的纖維素。經特殊處理後，可以製成霄燈的燈芯，讓它承載著良善的願望飄向遠方。",
     "rarity": 3,
     "type": 4,
+    "typeText": "海燈節素材",
     "drop": ["植物類採集物中取得"]
   },
   {
@@ -3440,6 +4821,7 @@
     "desc": "海燈節期間，用以製作「霄燈」的材料。\n隨處可見的絨材。經特殊處理後，可以製成霄燈的燈芯，讓它承載著良善的願望飄向遠方。",
     "rarity": 3,
     "type": 4,
+    "typeText": "海燈節素材",
     "drop": ["丘丘人系列魔物產出", "愚人眾精英產出"]
   },
   {
@@ -3449,499 +4831,35 @@
     "desc": "海燈節期間，用以製作「霄燈」的材料。\n能自行懸浮的神秘元素石片，是霄燈飛往遙遠天際線的秘密，傳說也是「群玉閣」漂浮的動力來源。",
     "rarity": 3,
     "type": 4,
+    "typeText": "海燈節素材",
     "drop": ["礦物類採集物中取得", "幼岩龍蜥、岩龍蜥產出", "丘丘岩盔王產出"]
   },
-  { "id": "RimeWornFragment", "name": "Rime-Worn Fragment", "localeName": "霜噬碎屑", "desc": "從龍脊雪山的魔物處提取出來的小塊結晶。\n僅僅會在特殊的時期產生。", "rarity": 3, "type": 7 },
-  { "id": "RimeWornCrystal", "name": "Rime-Worn Crystal", "localeName": "霜噬結晶", "desc": "從龍脊雪山的魔物處提取出來的結晶塊。\n僅僅會在特殊的時期產生。", "rarity": 3, "type": 7 },
+  {
+    "id": "RimeWornFragment",
+    "name": "Rime-Worn Fragment",
+    "localeName": "霜噬碎屑",
+    "desc": "從龍脊雪山的魔物處提取出來的小塊結晶。\n僅僅會在特殊的時期產生。",
+    "rarity": 3,
+    "type": 7,
+    "typeText": "雪山素材"
+  },
+  {
+    "id": "RimeWornCrystal",
+    "name": "Rime-Worn Crystal",
+    "localeName": "霜噬結晶",
+    "desc": "從龍脊雪山的魔物處提取出來的結晶塊。\n僅僅會在特殊的時期產生。",
+    "rarity": 3,
+    "type": 7,
+    "typeText": "雪山素材"
+  },
   {
     "id": "FesteringDragonMarrow",
     "name": "Festering Dragon Marrow",
     "localeName": "腐殖龍髓",
     "desc": "「腐殖之劍」專用的精煉道具。\n將散佈在龍脊雪山的地脈當中的，「杜林」的腐毒提煉後得到的物質。用在親和這種物質的「渴血之劍」上的話，可以提升這把劍的力量。",
     "rarity": 4,
-    "type": 1
-  },
-  {
-    "id": "GenshinImpactANewWorld",
-    "name": "Genshin Impact: A New World",
-    "localeName": "原神·印象",
-    "desc": "名片紋飾。\n「歡迎來到提瓦特。」",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["初次登入遊戲獲得。"]
-  },
-  {
-    "id": "TravelNotesCatchtheWind",
-    "name": "Travel Notes: Catch the Wind",
-    "localeName": "紀行·補風",
-    "desc": "名片紋飾。\n完成了遊記寫作最困難的部分，就是寫個開頭。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["紀行系統獎勵獲得。"]
-  },
-  { "id": "AmberBunny", "name": "Amber: Bunny", "localeName": "安柏·兔兔", "desc": "名片紋飾。\n「是兔兔伯爵哦！」", "rarity": 4, "type": 6, "drop": ["安柏的好感等級達到10級時獲得。"] },
-  {
-    "id": "KleeExplosive",
-    "name": "Klee: Explosive",
-    "localeName": "可莉·爆彈",
-    "desc": "名片紋飾。\n可莉的幸運爆彈。仔細觀察尾巴，告訴大家，這個是蹦蹦還是嘟嘟可？",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["可莉的好感等級達到10級時獲得。"]
-  },
-  {
-    "id": "DilucFlames",
-    "name": "Diluc: Flames",
-    "localeName": "迪盧克·燃燒",
-    "desc": "名片紋飾。\n克利普斯老爺生前經常畫鷹。但是他未曾預料如此熾烈燃燒的鷹，也出自自己之手。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["迪盧克的好感等級達到10級時獲得。"]
-  },
-  {
-    "id": "RazorWolvensprint",
-    "name": "Razor: Wolvensprint",
-    "localeName": "雷澤·奔狼",
-    "desc": "名片紋飾。\n雷澤和群狼一起弄晚飯的姿態十分颯爽。但是不能給可莉和旅行者看到。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["雷澤的好感等級達到10級時獲得。"]
-  },
-  {
-    "id": "VentiAzureSky",
-    "name": "Venti: Azure Sky",
-    "localeName": "溫迪·天青",
-    "desc": "名片紋飾。\n天空的青色和「斐林」的音色應該很般配吧。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["溫迪的好感等級達到10級時獲得。"]
-  },
-  {
-    "id": "JeanTheWindsCourse",
-    "name": "Jean: The Winds' Course",
-    "localeName": "琴·風向",
-    "desc": "名片紋飾。\n蒲公英又被叫做「獅子牙」，是對於風的方向感覺最敏銳的花。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["琴的好感等級達到10級時獲得。"]
-  },
-  {
-    "id": "BarbaraFlow",
-    "name": "Barbara: Flow",
-    "localeName": "芭芭拉·流淌",
-    "desc": "名片紋飾。\n什麼東西會流淌？治癒的清泉和芭芭拉的歌聲與旋律。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["芭芭拉的好感等級達到10級時獲得。"]
-  },
-  {
-    "id": "KaeyaPavoOcellus",
-    "name": "Kaeya: Pavo Ocellus",
-    "localeName": "凱亞·孔雀",
-    "desc": "名片紋飾。\n孔雀漂亮尾羽上的花紋很像是永不閉上的眼睛。所以凱亞並非少了一隻眼睛，而是…",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["凱亞的好感等級達到10級時獲得。"]
-  },
-  {
-    "id": "LisaTempusFugit",
-    "name": "Lisa: Tempus Fugit",
-    "localeName": "麗莎·沙漏",
-    "desc": "名片紋飾。\n什麼東西會流逝？時間，和麗莎計算下班時間的沙漏。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["麗莎的好感等級達到10級時獲得。"]
-  },
-  {
-    "id": "SucroseBioAlchemy",
-    "name": "Sucrose: Bio-Alchemy",
-    "localeName": "砂糖·創生",
-    "desc": "名片紋飾。\n如果在無相之風消逝前仔細觀察的話，會發現它們其實也挺方的。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["砂糖的好感等級達到10級時獲得。"]
-  },
-  {
-    "id": "FischlNightRaven",
-    "name": "Fischl: Night Raven",
-    "localeName": "菲謝爾·夜鴉",
-    "desc": "#名片紋飾。\n持有遮日擋月之翼的漆黑夜鴉。「許可{F#妳}{M#你}拓畫它的紋樣！」",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["菲謝爾的好感等級達到10級時獲得。"]
-  },
-  {
-    "id": "NoelleProtector",
-    "name": "Noelle: Protector",
-    "localeName": "諾艾爾·守護",
-    "desc": "#名片紋飾。\n諾艾爾比較特殊，諾艾爾不會讓{F#妳}{M#你}受傷。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["諾艾爾的好感等級達到10級時獲得。"]
-  },
-  {
-    "id": "MonaStarrySky",
-    "name": "Mona: Starry Sky",
-    "localeName": "莫娜·天星",
-    "desc": "名片紋飾。\n倒映著漫天的星辰，少女低頭看著水中的離合悲歡。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["莫娜的好感等級達到10級時獲得。"]
-  },
-  {
-    "id": "BennettRecognition",
-    "name": "Bennett: Recognition",
-    "localeName": "班尼特·認可",
-    "desc": "名片紋飾。\n班尼冒險團的認可。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["班尼特的好感等級達到10級時獲得。"]
-  },
-  {
-    "id": "XianglingFreshfromthePan",
-    "name": "Xiangling: Fresh from the Pan",
-    "localeName": "香菱·出鍋",
-    "desc": "名片紋飾。\n快速而且準確地讀出下面的話：「出鍋鍋巴！」、「鍋巴出鍋！」、「鍋巴出擊！」、「出擊鍋巴！」",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["香菱的好感等級達到10級時獲得。"]
-  },
-  { "id": "XingqiuRainbow", "name": "Xingqiu: Rainbow", "localeName": "行秋·雨虹", "desc": "名片紋飾。\n來看宿雨斷虹收。", "rarity": 4, "type": 6, "drop": ["行秋的好感等級達到10級時獲得。"] },
-  {
-    "id": "QiqiColdStorage",
-    "name": "Qiqi: Cold Storage",
-    "localeName": "七七·冷藏",
-    "desc": "名片紋飾。\n有什麼需要冷藏？白先生的藥材、椰奶…還有胡桃。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["七七的好感等級達到10級時獲得。"]
-  },
-  {
-    "id": "KeqingLightningStiletto",
-    "name": "Keqing: Lightning Stiletto",
-    "localeName": "刻晴·雷楔",
-    "desc": "名片紋飾。\n其實一開始這個是為了目測土地使用情況，方便登高而發明的。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["刻晴的好感等級達到10級時獲得。"]
-  },
-  {
-    "id": "AchievementExplorer",
-    "name": "Achievement: Explorer",
-    "localeName": "成就·遊遍",
-    "desc": "名片紋飾。\n走遍了大陸所有的地方之後，還要記得最初的心哦。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["達成「塵世巡遊·第一輯」下所有成就時獲得。"]
-  },
-  {
-    "id": "AchievementVirtuoso",
-    "name": "Achievement: Virtuoso",
-    "localeName": "成就·殊技",
-    "desc": "名片紋飾。\n既然掌握了這些技術，或許不需要戰鬥也能很好地活下去吧。如果沒有使命在身的話。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["達成「冒險手藝」下所有成就時獲得。"]
-  },
-  {
-    "id": "AchievementHero",
-    "name": "Achievement: Hero",
-    "localeName": "成就·俠行",
-    "desc": "名片紋飾。\n英雄的旅程在一念之間就開始了。重要的還是旅程中途經歷了多少事情。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["達成「英雄之旅」下所有成就時獲得。"]
-  },
-  {
-    "id": "MondstadtWhistlingWind",
-    "name": "Mondstadt: Whistling Wind",
-    "localeName": "蒙德·風吟",
-    "desc": "名片紋飾。\n聽蒙德的鳥吟風唱。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["達成「蒙德·風與牧歌的城邦」下所有成就時獲得。"]
-  },
-  {
-    "id": "LiyueStillnessofStone",
-    "name": "Liyue: Stillness of Stone",
-    "localeName": "璃月·岩寂",
-    "desc": "名片紋飾。\n看璃月的雲寂岩靜。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["達成「璃月·岩與契約的海港」下所有成就時獲得。"]
-  },
-  {
-    "id": "AchievementColorsoftheRainbow",
-    "name": "Achievement: Colors of the Rainbow",
-    "localeName": "成就·虹色",
-    "desc": "名片紋飾。\n其實白晝之光，可以被色散成為無數種顏色。但是人們懶得數了，就簡單分了七種。元素，大概也一樣吧。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["達成「元素專家」下所有成就時獲得。"]
-  },
-  {
-    "id": "AchievementBowmaster",
-    "name": "Achievement: Bowmaster",
-    "localeName": "成就·強弓",
-    "desc": "名片紋飾。\n 挽弓當挽強！",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["達成「神射手」下所有成就時獲得。"]
-  },
-  {
-    "id": "AchievementChallenger",
-    "name": "Achievement: Challenger",
-    "localeName": "成就·挑戰",
-    "desc": "名片紋飾。\n就算你只是想出門採一朵蒲公英，仍然會有阻礙橫在你的面前。你當然欣然接受一切挑戰，對吧？",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["達成「挑戰者·第一輯」下所有成就時獲得。"]
-  },
-  {
-    "id": "AchievementDeepDark",
-    "name": "Achievement: Deep & Dark",
-    "localeName": "成就·深秘",
-    "desc": "名片紋飾。\n行向地心越深，所知的秘密就越多。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["達成「秘境與深境螺旋·第一輯」下所有成就時獲得。"]
-  },
-  {
-    "id": "AchievementHillDwellers",
-    "name": "Achievement: Hill Dwellers",
-    "localeName": "成就·山民",
-    "desc": "名片紋飾。\n其實一開始丘丘人會被命名為「山丘的鬼怪」。但是有某個馬斯克小女孩堅持稱他們為山丘的子民。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["達成「Olah！第一輯」下所有成就時獲得。"]
-  },
-  {
-    "id": "AchievementSnowyLand",
-    "name": "Achievement: Snowy Land",
-    "localeName": "成就·雪鄉",
-    "desc": "名片紋飾。\n聽了很多關於至冬的故事呢。在你想像裡它是什麼樣的地方呢？",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["達成「至冬國不相信眼淚·第一輯」下所有成就時獲得。"]
-  },
-  {
-    "id": "AchievementCliffhanger",
-    "name": "Achievement: Cliffhanger",
-    "localeName": "成就·闔扇",
-    "desc": "#名片紋飾。\n說書人闔扇說從頭——但是{F#妳}{M#你}已經聽過所有的故事了。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["達成「岩港往事·第一輯」下所有成就時獲得。"]
-  },
-  {
-    "id": "AchievementReunion",
-    "name": "Achievement: Reunion",
-    "localeName": "成就·相逢",
-    "desc": "名片紋飾。\n人生何處不相逢。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["達成「異世相逢·第一輯」下所有成就時獲得。"]
-  },
-  {
-    "id": "NingguangPhoenix",
-    "name": "Ningguang: Phoenix",
-    "localeName": "凝光·鳳儀",
-    "desc": "名片紋飾。\n 常說「麟止鳳儀，所患在少」。另一位不論，凝光大人這樣的人，一個就夠了…",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["凝光的好感等級達到10級時獲得。"]
-  },
-  {
-    "id": "BeidouWeighingAnchor",
-    "name": "Beidou: Weighing Anchor",
-    "localeName": "北斗·拔錨",
-    "desc": "名片紋飾。\n 「若拔錨入海，惑而不知東西。則須仰天，識認北辰鬥極。」",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["北斗的好感等級達到10級時獲得。"]
-  },
-  {
-    "id": "ChongyunSpiritBlade",
-    "name": "Chongyun: Spirit Blade",
-    "localeName": "重雲·靈刃",
-    "desc": "名片紋飾。\n 本意只是用冰來製作桃木劍。不過做大了之後比起桃木更好驅魔了。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["重雲的好感等級達到10級時獲得。"]
-  },
-  {
-    "id": "AchievementChallengerII",
-    "name": "Achievement: Challenger II",
-    "localeName": "成就·挑戰·其二",
-    "desc": "名片紋飾。\n挑戰的盡頭看到的居然是…",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["達成「挑戰者·第二輯」下所有成就時獲得。"]
-  },
-  {
-    "id": "TravelNotesFadingStar",
-    "name": "Travel Notes: Fading Star",
-    "localeName": "紀行·熄星",
-    "desc": "#名片紋飾。\n只要{F#妳}{M#你}的渴望尚未平息，那抬頭應該可以看到那無光的閃耀吧。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["紀行系統獎勵獲得。"]
-  },
-  {
-    "id": "DionaMeow",
-    "name": "Diona: Meow!",
-    "localeName": "迪奥娜·嗚喵",
-    "desc": "名片紋飾。\n凱茨萊茵一家都有這種貓一樣的特徵。是遠古時代裡誰人的惡趣味吧。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["迪奥娜的好感等級達到10級時獲得。"]
-  },
-  {
-    "id": "ZhongliPlanetBefall",
-    "name": "Zhongli: Planet Befall",
-    "localeName": "鍾離·天星",
-    "desc": "名片紋飾。\n天隕岩星，命昭昏暝。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["鍾離的好感等級達到10級時獲得。"]
-  },
-  {
-    "id": "XinyanSongsEnd",
-    "name": "Xinyan: Song's End",
-    "localeName": "辛焱·唱罷",
-    "desc": "名片紋飾。\n辛焱唱罷之時才有機會仔細觀察她的樂器。其實它靜時也是一位美人。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["辛焱的好感等級達到10級時獲得。"]
-  },
-  {
-    "id": "ChildeFoulLegacy",
-    "name": "Childe: Foul Legacy",
-    "localeName": "公子·魔裝",
-    "desc": "名片紋飾。\n借由萬般變化的武煉之技，肆意馳騁大地的他的記號。但這名為「魔王」的武藝並非他的獨創，而是師承自踞身宇宙至暗之處的那位孤高少女…",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["達達利亞的好感等級達到10級時獲得。"]
-  },
-  {
-    "id": "MondstadtHerosFame",
-    "name": "Mondstadt: Hero's Fame",
-    "localeName": "蒙德·英名",
-    "desc": "名片紋飾。\n榮譽騎士的好名聲早已遠揚全城。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["蒙德的聲望等級達到4級時獲得。"]
-  },
-  {
-    "id": "MondstadtBlessing",
-    "name": "Mondstadt: Blessing",
-    "localeName": "蒙德·祝願",
-    "desc": "名片紋飾。\n喜歡幫助他人的仁心，大家都會相應地予之祝福。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["蒙德的聲望等級達到7級時獲得。"]
-  },
-  {
-    "id": "LiyueAThousandShips",
-    "name": "Liyue: A Thousand Ships",
-    "localeName": "璃月·千帆",
-    "desc": "名片紋飾。\n坐看日月行，細數千帆過。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["璃月的聲望等級達到4級時獲得。"]
-  },
-  { "id": "LiyueIntheClouds", "name": "Liyue: In the Clouds", "localeName": "璃月·雲間", "desc": "名片紋飾。\n岩間琉璃雲間月。", "rarity": 4, "type": 6, "drop": ["璃月的聲望等級達到7級時獲得。"] },
-  {
-    "id": "AchievementChallengerIII",
-    "name": "Achievement: Challenger III",
-    "localeName": "成就·挑戰·其三",
-    "desc": "名片紋飾。\n終於有一個值得一戰的對手了，這場戰鬥必定載入史詩。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["達成「挑戰者·第三輯」下所有成就時獲得。"]
-  },
-  {
-    "id": "AchievementSnowySummit",
-    "name": "Achievement: Snowy Summit",
-    "localeName": "成就·雪峰",
-    "desc": "名片紋飾。\n人問寒山道。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["達成「雪山上的來客」下所有成就時獲得。"]
-  },
-  { "id": "GanyuQilin", "name": "Ganyu: Qilin", "localeName": "甘雨·麟跡", "desc": "名片紋飾。\n不折草，不履蟲。", "rarity": 4, "type": 6, "drop": ["甘雨的好感度達到10級時獲得。"] },
-  {
-    "id": "AlbedoSunBlossom",
-    "name": "Albedo: Sun Blossom",
-    "localeName": "阿貝多·陽花",
-    "desc": "名片紋飾。\n請讓我來當這項奇蹟的見證者吧。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["阿貝多的好感度達到10級時獲得。"]
-  },
-  { "id": "TravelNotesChalk", "name": "Travel Notes: Chalk", "localeName": "纪行·白堊", "desc": "名片紋飾。\n踏足雪山，注意保暖。", "rarity": 4, "type": 6, "drop": ["紀行系統獎勵獲得。"] },
-  {
-    "id": "FrostbearingAncientTree",
-    "name": "Frostbearing: Ancient Tree",
-    "localeName": "忍冬·古樹",
-    "desc": "名片紋飾。\n我等必將復起，古木已發新枝。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["忍冬之樹供奉至9級時獲得。"]
-  },
-  {
-    "id": "CelebrationHypostasis",
-    "name": "Celebration: Hypostasis",
-    "localeName": "慶典·無相",
-    "desc": "名片紋飾。\n今天挑戰的對手是什麼藝術風格嗎？",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["「無相交響詩」活動獲得。"]
-  },
-  {
-    "id": "XiaoMask",
-    "name": "Xiao: Mask",
-    "localeName": "魈·儺面",
-    "desc": "名片紋飾。\n他總想著有一天，能帶著這儺面起舞。不為除魔之故，只為伴隨那花洲的笛聲。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["魈的好感等級達10級時獲得。"]
-  },
-  {
-    "id": "HuTaoSpiritSoother",
-    "name": "Hu Tao: Spirit Soother",
-    "localeName": "胡桃·安神",
-    "desc": "名片紋飾。\n胡桃堂主一點都不可怕。大概。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["胡桃的好感等級達10級時獲得。"]
-  },
-  {
-    "id": "TravelNotesMingxiao",
-    "name": "Travel Notes: Mingxiao",
-    "localeName": "紀行·明霄",
-    "desc": "名片紋飾。\n大家的願望聚在一起，就能變成點亮長夜的光。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["紀行系統獎勵獲得。"]
-  },
-  {
-    "id": "CelebrationLanternLight",
-    "name": "Celebration: Lantern-Light",
-    "localeName": "慶典·燈晝",
-    "desc": "名片紋飾。\n年年今日，燈明如晝。願火不滅，願人依舊。",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["海燈節活動商店兌換"]
-  },
-  {
-    "id": "CelebrationMechanicus",
-    "name": "Celebration: Mechanicus",
-    "localeName": "慶典·棋譚",
-    "desc": "名片紋飾。\n你道你見過機關算盡，可你真算到了自己也要下場當棋子嗎？",
-    "rarity": 4,
-    "type": 6,
-    "drop": ["「機關棋譚」活動取得。"]
+    "type": 1,
+    "typeText": "精煉材料"
   },
   {
     "id": "CondensedResin",
@@ -3950,6 +4868,7 @@
     "desc": "同時最多持有3個。\n能在活化石化古樹與地脈之花時替代原粹樹脂，以獲得更豐厚的寶藏的樹脂濃縮產物。\n蘊含著充沛能量的晶體。\n銀白的古樹與花連接著地脈，而樹脂蘊含的能量能疏通地脈的管道，提煉淤滯其中的物質。",
     "rarity": 4,
     "type": 7,
+    "typeText": "消耗品",
     "drop": ["合成獲得"]
   },
   {
@@ -3958,7 +4877,8 @@
     "localeName": "說明：風神瞳共鳴石",
     "desc": "步驟詳實的說明，記載著「風神瞳共鳴石」的製作方法。掌握後，可以製作尋找「散失的風神瞳」的道具。",
     "rarity": 3,
-    "type": 7
+    "type": 7,
+    "typeText": "合成圖紙"
   },
   {
     "id": "InstructionsGeoculusResonanceStone",
@@ -3966,7 +4886,8 @@
     "localeName": "說明：岩神瞳共鳴石",
     "desc": "步驟詳實的說明，記載著「岩神瞳共鳴石」的製作方法。掌握後，可以製作尋找「散失的岩神瞳」的道具。",
     "rarity": 3,
-    "type": 7
+    "type": 7,
+    "typeText": "合成圖紙"
   },
   {
     "id": "DiagramGeoTreasureCompass",
@@ -3974,7 +4895,8 @@
     "localeName": "圖譜：岩之尋寶羅盤",
     "desc": "步驟詳實的圖譜，記載著「岩之尋寶羅盤」的製作方法。利用這種羅盤，可以在璃月的土地上方便地尋找寶藏。",
     "rarity": 4,
-    "type": 7
+    "type": 7,
+    "typeText": "鍛造圖紙"
   },
   {
     "id": "DiagramWindCatcher",
@@ -3982,7 +4904,8 @@
     "localeName": "圖譜：捕風瓶",
     "desc": "步驟詳實的圖譜，記載著「捕風瓶」的製作方法。捕風瓶可以汲取「風種子」的力量，在需要的時候釋放風場。",
     "rarity": 4,
-    "type": 7
+    "type": 7,
+    "typeText": "鍛造圖紙"
   },
   {
     "id": "InstructionsPortableWaypoint",
@@ -3990,7 +4913,8 @@
     "localeName": "說明：口袋錨點",
     "desc": "步驟詳實的說明，記載著「口袋錨點」的製作方法。利用口袋錨點，可以在世界各地設置自己的傳送錨點。",
     "rarity": 4,
-    "type": 7
+    "type": 7,
+    "typeText": "合成圖紙"
   },
   {
     "id": "DiagramAdeptiSeekersStove",
@@ -3998,7 +4922,8 @@
     "localeName": "圖譜：「尋仙的美食家」",
     "desc": "步驟詳實的圖譜，記載著「尋仙的美食家」的製作方法。掌握後，便可以製作可隨身攜帶的烹飪鍋爐。",
     "rarity": 3,
-    "type": 7
+    "type": 7,
+    "typeText": "鍛造圖紙"
   },
   {
     "id": "InstructionsCondensedResin",
@@ -4006,7 +4931,8 @@
     "localeName": "說明：濃縮樹脂",
     "desc": "步驟詳實的說明，記載著「濃縮樹脂」的製作方法。活化一些地脈之花與石化古樹時，利用這種濃縮的樹脂可以提高效率。濃縮樹脂同時最多持有3個。",
     "rarity": 4,
-    "type": 7
+    "type": 7,
+    "typeText": "合成圖紙"
   },
   {
     "id": "DiagramNREMenu30",
@@ -4014,7 +4940,8 @@
     "localeName": "圖譜：參零式·隨身營養袋",
     "desc": "步驟詳實的圖譜，記載著「參零式·隨身營養袋」的製作方法。掌握後，可以製作讓人能快速進食的道具。",
     "rarity": 4,
-    "type": 7
+    "type": 7,
+    "typeText": "鍛造圖紙"
   },
   {
     "id": "DiagramAnemoTreasureCompass",
@@ -4022,7 +4949,8 @@
     "localeName": "圖譜：風之尋寶羅盤",
     "desc": "步驟詳實的圖譜，記載著「風之尋寶羅盤」的製作方法。利用這種羅盤，可以在蒙德的土地上方便地尋找寶藏。",
     "rarity": 4,
-    "type": 7
+    "type": 7,
+    "typeText": "鍛造圖紙"
   },
   {
     "id": "DiagramWarmingBottle",
@@ -4030,16 +4958,34 @@
     "localeName": "圖譜：放熱瓶",
     "desc": "步驟詳實的圖譜，記載著「放熱瓶」的製作方法。掌握後，可以製作抵抗嚴寒的消耗道具。",
     "rarity": 3,
-    "type": 7
+    "type": 7,
+    "typeText": "鍛造圖紙"
   },
-  { "id": "MemoryoftheEntombedCity", "name": "Memory of the Entombed City", "localeName": "雪葬之都的記憶", "desc": "通過這份記憶，能夠掌握雙手劍「雪葬的星銀」的製造方法。", "rarity": 4, "type": 7 },
   {
-    "id": "MemoryoftheFrostbearingTree",
+    "id": "MemoryOfTheEntombedCity",
+    "name": "Memory of the Entombed City",
+    "localeName": "雪葬之都的記憶",
+    "desc": "通過這份記憶，能夠掌握雙手劍「雪葬的星銀」的製造方法。",
+    "rarity": 4,
+    "type": 7,
+    "typeText": "鍛造圖紙"
+  },
+  {
+    "id": "MemoryOfTheFrostbearingTree",
     "name": "Memory of the Frostbearing Tree",
     "localeName": "忍冬之樹的記憶",
     "desc": "通過這份記憶，能夠掌握法器「忍冬之果」的製造方法。",
     "rarity": 4,
-    "type": 7
+    "type": 7,
+    "typeText": "鍛造圖紙"
   },
-  { "id": "DiagramDragonspineSpear", "name": "Diagram: Dragonspine Spear", "localeName": "圖譜：龍脊長槍", "desc": "步驟詳實的圖譜，記載著長柄武器「龍脊長槍」的製造方法。", "rarity": 4, "type": 7 }
+  {
+    "id": "DiagramDragonspineSpear",
+    "name": "Diagram: Dragonspine Spear",
+    "localeName": "圖譜：龍脊長槍",
+    "desc": "步驟詳實的圖譜，記載著長柄武器「龍脊長槍」的製造方法。",
+    "rarity": 4,
+    "type": 7,
+    "typeText": "鍛造圖紙"
+  }
 ]

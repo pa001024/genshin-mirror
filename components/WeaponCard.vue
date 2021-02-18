@@ -10,7 +10,7 @@
     </nuxt-link>
     <template v-else>
       <div class="weapon-avatar" :class="['rarity-' + value.rarity]" :style="{ height: (small ? 80 : 106) + 'px' }">
-        <WeaponImage :id="value.id" :size="small ? 80 : 106" class="mx-auto" />
+        <WeaponImage :id="value.id" :size="small ? 80 : 106" :type="small ? 'thumb' : 'full'" class="mx-auto" />
         <div v-if="refine" class="refine-view" :class="{ refine5: refine === 5 }">{{ refine }}</div>
       </div>
       <div v-if="lv" class="weapon-name" :class="{ small }">Lv.{{ lv }}</div>

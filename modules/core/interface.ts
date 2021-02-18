@@ -28,6 +28,7 @@ export interface IWeapon {
   /** 武器突破阶段 */ ascensions: IWeaponAscension[];
   /** 副属性类型 */ subAttr?: IWeaponSubAttr;
   /** 特效 */ affix?: IWeaponAffix;
+  /** 概览物品 */ overviewItems?: IItem[];
 }
 
 /** 武器突破阶段 */
@@ -161,6 +162,9 @@ export interface IAvatar {
    */
   weapon: WeaponType;
 
+  /** 概览物品 */
+  overviewItems?: IItem[];
+
   /** 基础生命 */ baseHP: number;
   /** 基础攻击 */ baseATK: number;
   /** 基础防御 */ baseDEF: number;
@@ -237,6 +241,7 @@ export interface ISkill {
   charges?: number;
   paramTpls?: string[];
   paramVals?: number[][];
+  costItems?: IItemStack[][];
   attrs?: ISkillAttribute[]; // 人工补充
 }
 
@@ -318,9 +323,10 @@ export interface IEnemy {
 export interface IItem {
   id: string;
   name: string;
-  localeName: string;
+  localeName?: string;
   desc?: string;
   type?: MaterialType;
+  typeText?: string;
   rarity: number;
   drop?: string[];
 }

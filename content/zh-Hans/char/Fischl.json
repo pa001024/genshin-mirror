@@ -97,21 +97,64 @@
     "cd": 25,
     "paramTpls": ["奥兹攻击伤害|{param1:F1P}", "召唤伤害|{param2:P}", "奥兹存在时间|{param4:F1}秒", "冷却时间|{param5:F1}秒"],
     "paramVals": [
-      [0.888, 1.1544],
-      [0.9546, 1.241],
-      [1.0212, 1.3276],
-      [1.11, 1.443],
-      [1.1766, 1.5296],
-      [1.2432, 1.6162],
-      [1.332, 1.7316],
-      [1.4208, 1.847],
-      [1.5096, 1.9625],
-      [1.5984, 2.0779],
-      [1.6872, 2.1934],
-      [1.776, 2.3088],
-      [1.887, 2.4531],
-      [1.998, 2.5974],
-      [2.109, 2.7417]
+      [0.888, 1.1544, 0, 10, 25, 8],
+      [0.9546, 1.241, 0, 10, 25, 8],
+      [1.0212, 1.3276, 0, 10, 25, 8],
+      [1.11, 1.443, 0, 10, 25, 8],
+      [1.1766, 1.5296, 0, 10, 25, 8],
+      [1.2432, 1.6162, 0, 10, 25, 8],
+      [1.332, 1.7316, 0, 10, 25, 8],
+      [1.4208, 1.847, 0, 10, 25, 8],
+      [1.5096, 1.9625, 0, 10, 25, 8],
+      [1.5984, 2.0779, 0, 10, 25, 8],
+      [1.6872, 2.1934, 0, 10, 25, 8],
+      [1.776, 2.3088, 0, 10, 25, 8],
+      [1.887, 2.4531, 0, 10, 25, 8],
+      [1.998, 2.5974, 0, 10, 25, 8],
+      [2.109, 2.7417, 0, 10, 25, 8]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfBallad", "name": "「诗文」的教导", "count": 3 },
+        { "id": "FirmArrowhead", "name": "牢固的箭簇", "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "name": "「诗文」的指引", "count": 2 },
+        { "id": "SharpArrowhead", "name": "锐利的箭簇", "count": 3 }
+      ],
+      [
+        { "id": "GuideToBallad", "name": "「诗文」的指引", "count": 4 },
+        { "id": "SharpArrowhead", "name": "锐利的箭簇", "count": 4 }
+      ],
+      [
+        { "id": "GuideToBallad", "name": "「诗文」的指引", "count": 6 },
+        { "id": "SharpArrowhead", "name": "锐利的箭簇", "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "name": "「诗文」的指引", "count": 9 },
+        { "id": "SharpArrowhead", "name": "锐利的箭簇", "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "name": "「诗文」的哲学", "count": 4 },
+        { "id": "WeatheredArrowhead", "name": "历战的箭簇", "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "name": "「诗文」的哲学", "count": 6 },
+        { "id": "WeatheredArrowhead", "name": "历战的箭簇", "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "name": "「诗文」的哲学", "count": 12 },
+        { "id": "WeatheredArrowhead", "name": "历战的箭簇", "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "name": "「诗文」的哲学", "count": 16 },
+        { "id": "WeatheredArrowhead", "name": "历战的箭簇", "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "count": 2 },
+        { "id": "CrownOfInsight", "name": "智识之冕", "count": 1 }
+      ]
     ]
   },
   "elemBurst": {
@@ -120,7 +163,66 @@
     "cd": 15,
     "energyCost": 60,
     "paramTpls": ["落雷伤害|{param1:P}", "冷却时间|{param5:F1}秒", "元素能量|{param6:I}"],
-    "paramVals": [[2.08], [2.236], [2.392], [2.6], [2.756], [2.912], [3.12], [3.328], [3.536], [3.744], [3.952], [4.16], [4.42], [4.68], [4.94]]
+    "paramVals": [
+      [2.08, 0, 0, 0, 15, 60],
+      [2.236, 0, 0, 0, 15, 60],
+      [2.392, 0, 0, 0, 15, 60],
+      [2.6, 0, 0, 0, 15, 60],
+      [2.756, 0, 0, 0, 15, 60],
+      [2.912, 0, 0, 0, 15, 60],
+      [3.12, 0, 0, 0, 15, 60],
+      [3.328, 0, 0, 0, 15, 60],
+      [3.536, 0, 0, 0, 15, 60],
+      [3.744, 0, 0, 0, 15, 60],
+      [3.952, 0, 0, 0, 15, 60],
+      [4.16, 0, 0, 0, 15, 60],
+      [4.42, 0, 0, 0, 15, 60],
+      [4.68, 0, 0, 0, 15, 60],
+      [4.94, 0, 0, 0, 15, 60]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfBallad", "name": "「诗文」的教导", "count": 3 },
+        { "id": "FirmArrowhead", "name": "牢固的箭簇", "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "name": "「诗文」的指引", "count": 2 },
+        { "id": "SharpArrowhead", "name": "锐利的箭簇", "count": 3 }
+      ],
+      [
+        { "id": "GuideToBallad", "name": "「诗文」的指引", "count": 4 },
+        { "id": "SharpArrowhead", "name": "锐利的箭簇", "count": 4 }
+      ],
+      [
+        { "id": "GuideToBallad", "name": "「诗文」的指引", "count": 6 },
+        { "id": "SharpArrowhead", "name": "锐利的箭簇", "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "name": "「诗文」的指引", "count": 9 },
+        { "id": "SharpArrowhead", "name": "锐利的箭簇", "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "name": "「诗文」的哲学", "count": 4 },
+        { "id": "WeatheredArrowhead", "name": "历战的箭簇", "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "name": "「诗文」的哲学", "count": 6 },
+        { "id": "WeatheredArrowhead", "name": "历战的箭簇", "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "name": "「诗文」的哲学", "count": 12 },
+        { "id": "WeatheredArrowhead", "name": "历战的箭簇", "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "name": "「诗文」的哲学", "count": 16 },
+        { "id": "WeatheredArrowhead", "name": "历战的箭簇", "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "count": 2 },
+        { "id": "CrownOfInsight", "name": "智识之冕", "count": 1 }
+      ]
+    ]
   },
   "attackSkill": {
     "name": "普通攻击·罪灭之矢",
@@ -153,6 +255,49 @@
       [1.0568, 1.1206, 1.3926, 1.3823, 1.7263, 1.0506, 2.635, 1.3612, 2.7219, 3.3998],
       [1.1183, 1.1859, 1.4737, 1.4628, 1.8268, 1.1118, 2.79, 1.4405, 2.8805, 3.5979],
       [1.1799, 1.2512, 1.5548, 1.5433, 1.9274, 1.173, 2.945, 1.5198, 3.039, 3.7959]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfBallad", "name": "「诗文」的教导", "count": 3 },
+        { "id": "FirmArrowhead", "name": "牢固的箭簇", "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "name": "「诗文」的指引", "count": 2 },
+        { "id": "SharpArrowhead", "name": "锐利的箭簇", "count": 3 }
+      ],
+      [
+        { "id": "GuideToBallad", "name": "「诗文」的指引", "count": 4 },
+        { "id": "SharpArrowhead", "name": "锐利的箭簇", "count": 4 }
+      ],
+      [
+        { "id": "GuideToBallad", "name": "「诗文」的指引", "count": 6 },
+        { "id": "SharpArrowhead", "name": "锐利的箭簇", "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "name": "「诗文」的指引", "count": 9 },
+        { "id": "SharpArrowhead", "name": "锐利的箭簇", "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "name": "「诗文」的哲学", "count": 4 },
+        { "id": "WeatheredArrowhead", "name": "历战的箭簇", "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "name": "「诗文」的哲学", "count": 6 },
+        { "id": "WeatheredArrowhead", "name": "历战的箭簇", "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "name": "「诗文」的哲学", "count": 12 },
+        { "id": "WeatheredArrowhead", "name": "历战的箭簇", "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "name": "「诗文」的哲学", "count": 16 },
+        { "id": "WeatheredArrowhead", "name": "历战的箭簇", "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "count": 2 },
+        { "id": "CrownOfInsight", "name": "智识之冕", "count": 1 }
+      ]
     ]
   },
   "talents": [
@@ -181,5 +326,13 @@
     },
     { "name": "至夜默示录", "desc": "<color=#FFD780FF>至夜幻现</color>的技能等级提高3级。\n至多提升至15级。" },
     { "name": "永夜之禽", "desc": "奥兹的存在时间延长2秒。此外，奥兹会协同当前场上自己的角色一起攻击，造成菲谢尔30%攻击力的<color=#FFACFFFF>雷元素伤害</color>。", "values": [0.3, 2] }
+  ],
+  "overviewItems": [
+    { "id": "VajradaAmethystGemstone", "name": "最胜紫晶", "rarity": 5 },
+    { "id": "LightningPrism", "name": "雷光棱镜", "rarity": 4 },
+    { "id": "SmallLampGrass", "name": "小灯草" },
+    { "id": "WeatheredArrowhead", "name": "历战的箭簇", "rarity": 3 },
+    { "id": "PhilosophiesOfBallad", "name": "「诗文」的哲学", "rarity": 4 },
+    { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "rarity": 5 }
   ]
 }

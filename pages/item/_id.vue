@@ -4,7 +4,7 @@
       <v-card-title>
         <v-list-item two-line>
           <v-list-item-action>
-            <v-avatar color="grey" size="48" />
+            <ItemImage :id="id" :size="48" />
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title class="headline"> {{ data.localeName }}</v-list-item-title>
@@ -18,7 +18,7 @@
             <v-list-item two-line>
               <v-list-item-content>
                 <v-list-item-subtitle v-text="$t('ui.itemType')" />
-                <v-list-item-title class="headline" v-text="$t(`item.${data.type}`)" />
+                <v-list-item-title class="headline" v-text="data.typeText" />
               </v-list-item-content>
             </v-list-item>
           </v-col>

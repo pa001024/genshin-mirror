@@ -194,12 +194,12 @@ export enum EnemyType {
 }
 
 export enum MaterialType {
-  /** 命星 */ MATERIAL_TALENT,
-  /** 突破材料 */ MATERIAL_AVATAR_MATERIAL,
+  // /** 命星 */ MATERIAL_TALENT,
+  /** 突破材料 */ MATERIAL_AVATAR_MATERIAL = 1,
   // /** 角色 */ MATERIAL_AVATAR,
   /** 料理 */ MATERIAL_FOOD,
   /** 加血道具 */ MATERIAL_NOTICE_ADD_HP,
-  /** 食材 */ MATERIAL_EXCHANGE,
+  /** 素材 */ MATERIAL_EXCHANGE,
   /** 风之翼 */ MATERIAL_FLYCLOAK,
   /** 名片 */ MATERIAL_NAMECARD,
   /** 消耗品 */ MATERIAL_CONSUME,

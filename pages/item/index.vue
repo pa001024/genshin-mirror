@@ -29,8 +29,8 @@
             <!-- 内容 -->
             <v-list-item v-else :key="item.id">
               <div class="item-linehead mr-2">
-                <v-list-item-title>
-                  <v-avatar color="grey" />
+                <v-list-item-title align="center">
+                  <ItemImage :id="item.id" :size="48" />
                 </v-list-item-title>
                 <v-list-item-subtitle align="center">
                   <Rarity :value="item.rarity" fixed />
