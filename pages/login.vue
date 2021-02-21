@@ -1,5 +1,9 @@
 <template>
   <v-responsive max-width="420" class="mx-auto">
+    <v-alert v-if="$route.query.return_url">
+      <v-icon>mdi-alert</v-icon>
+      {{ $t("ui.pleaseLogin") }}
+    </v-alert>
     <v-card class="pa-4">
       <v-card-title class="headline">
         {{ $t("ui.userLogin") }}
@@ -7,17 +11,9 @@
       <v-card-text>
         <v-form ref="form" v-model="valid" lazy-validation>
           <!-- email -->
-          <v-text-field v-model="email" name="email" type="email" :rules="emailRules" :label="$t('ui.eMail')" autocomplete="username" required></v-text-field>
+          <v-text-field v-model="email" name="email" type="email" :rules="emailRules" :label="$t('ui.eMail')" autocomplete="username" required />
           <!-- password -->
-          <v-text-field
-            v-model="password"
-            name="password"
-            type="password"
-            :rules="passwordRules"
-            :label="$t('ui.password')"
-            autocomplete="password"
-            required
-          ></v-text-field>
+          <v-text-field v-model="password" name="password" type="password" :rules="passwordRules" :label="$t('ui.password')" autocomplete="password" required />
           <div class="d-flex mb-3">
             <nuxt-link to="/signup">{{ $t("ui.signup") }}</nuxt-link>
             <v-spacer />
@@ -98,7 +94,8 @@ export default class Login extends Vue {
       } else {
         clearInterval(cls);
         this.showMsg = false;
-        this.$router.push("/");
+        const returnUrl = typeof this.$route.query.return_url === "string" ? this.$route.query.return_url : "/";
+        this.$router.push(returnUrl);
       }
     }, 1e3);
   }

@@ -298,11 +298,7 @@ export default class Page extends Vue {
   }
 
   setUserAvatar(variables: SetUserCharacterMutationVariables) {
-    return this.$apollo.mutate<SetUserCharacterMutation>({
-      mutation: SetUserCharacterDocument,
-      variables,
-      refetchQueries: ["UserCharacters"],
-    });
+    return this.$apollo.mutate<SetUserCharacterMutation>({ mutation: SetUserCharacterDocument, variables, refetchQueries: ["UserCharacters"] });
   }
 
   removeUserAvatar(variables: RemoveUserCharacterMutationVariables) {
@@ -311,8 +307,9 @@ export default class Page extends Vue {
       mutation: RemoveUserCharacterDocument,
       variables,
       update: (cache, { data }) => {
+        if (!data) return;
         const avatars = cache.readQuery({ query: UserCharactersDocument }) as UserCharactersQuery;
-        avatars.userCharacters = avatars.userCharacters.filter(v => v.id !== data?.removeUserCharacter.id);
+        avatars.userCharacters = avatars.userCharacters.filter(v => v.id !== data.removeUserCharacter.id);
         cache.writeQuery({ query: UserCharactersDocument, data: avatars });
       },
     });
@@ -328,8 +325,9 @@ export default class Page extends Vue {
       mutation: RemoveUserWeaponDocument,
       variables,
       update: (cache, { data }) => {
+        if (!data) return;
         const avatars = cache.readQuery({ query: UserWeaponsDocument }) as UserWeaponsQuery;
-        avatars.userWeapons = avatars.userWeapons.filter(v => v.id !== data?.removeUserWeapon.id);
+        avatars.userWeapons = avatars.userWeapons.filter(v => v.id !== data.removeUserWeapon.id);
         cache.writeQuery({ query: UserWeaponsDocument, data: avatars });
       },
     });

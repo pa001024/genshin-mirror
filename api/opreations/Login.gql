@@ -4,3 +4,8 @@ mutation Login($email: String!, $hash: String!) {
     token
   }
 }
+mutation Logout {
+  logout {
+    code
+  }
+}

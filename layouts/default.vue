@@ -29,7 +29,7 @@
           <v-list-item :to="'/user/' + uid">
             <v-list-item-title>{{ $t("ui.mySpace") }}</v-list-item-title>
           </v-list-item>
-          <v-list-item class="nolink" @click="logout">
+          <v-list-item class="nolink" @click="postLogout">
             <v-list-item-title>{{ $t("ui.logout") }}</v-list-item-title>
           </v-list-item>
         </v-list>
@@ -79,12 +79,13 @@
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
 import { Action, Getter } from "vuex-class";
+import { LogoutDocument, LogoutMutation } from "~/api/generated/graphql";
 
 @Component({})
 export default class DefaultLayout extends Vue {
   @Getter("app/username") username!: string;
   @Getter("app/uid") uid!: string;
-  @Action("app/logout") logout!: string;
+  @Action("app/logout") logout!: () => void;
 
   get isStandlone() {
     return false;
@@ -108,6 +109,12 @@ export default class DefaultLayout extends Vue {
       console.log("user has login");
       this.$axios.setHeader("Authorization", this.$store.state.app.auth);
     }
+  }
+
+  async postLogout() {
+    this.logout();
+    await this.$apollo.mutate<LogoutMutation>({ mutation: LogoutDocument });
+    location.reload();
   }
 }
 </script>

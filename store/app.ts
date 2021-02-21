@@ -61,7 +61,6 @@ export const actions: ActionTree<AppState, {}> = {
   /** 登出 */
   logout({ commit }) {
     commit("RESET");
-    cookie.remove("apollo-token");
   },
   setTravelerGender({ commit }, v) {
     commit("UPDATE_TRAVELER_GENDER", v);

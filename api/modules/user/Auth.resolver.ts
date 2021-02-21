@@ -90,10 +90,20 @@ export class AuthResolver {
           expires: new Date(Date.now() + 15 * 24 * 60 * 60 * 1e3), // 15d
           httpOnly: true,
           sameSite: true,
-          secure: true,
+          secure: process.env.NODE_ENV === "production",
         });
         return { code: 200, token: "Bearer " + sign };
       }
+    }
+
+    return null;
+  }
+
+  @Mutation(() => AuthInfo, { nullable: true })
+  async logout(@Ctx() ctx: JWTContext) {
+    if (ctx.user) {
+      ctx.res.clearCookie("apollo-token");
+      return { code: 200 };
     }
 
     return null;

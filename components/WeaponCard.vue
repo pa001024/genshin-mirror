@@ -100,10 +100,16 @@ export default class WeaponCard extends Vue {
   .weapon-name {
     color: var(--black);
     text-align: center;
-    padding: 4px 0;
+    padding: 4px 2px;
     font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-wrap: normal;
+    white-space: nowrap;
+    max-width: 106px;
     &.small {
       font-size: 12px;
+      max-width: 80px;
     }
   }
 }

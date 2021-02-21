@@ -81,6 +81,7 @@ export type Mutation = {
   __typename?: "Mutation";
   signup: AuthInfo;
   login?: Maybe<AuthInfo>;
+  logout?: Maybe<AuthInfo>;
   setUserCharacter: UserAvatar;
   removeUserCharacter: UserAvatar;
   setUserWeapon: UserWeapon;
@@ -149,6 +150,10 @@ export type LoginMutationVariables = Exact<{
 
 export type LoginMutation = { __typename?: "Mutation" } & { login?: Maybe<{ __typename?: "AuthInfo" } & Pick<AuthInfo, "code" | "token">> };
 
+export type LogoutMutationVariables = Exact<{ [key: string]: never }>;
+
+export type LogoutMutation = { __typename?: "Mutation" } & { logout?: Maybe<{ __typename?: "AuthInfo" } & Pick<AuthInfo, "code">> };
+
 export type MeQueryVariables = Exact<{ [key: string]: never }>;
 
 export type MeQuery = { __typename?: "Query" } & { me?: Maybe<{ __typename?: "User" } & Pick<User, "id" | "username">> };
@@ -208,6 +213,13 @@ export const LoginDocument = gql`
     login(email: $email, password: $hash) {
       code
       token
+    }
+  }
+`;
+export const LogoutDocument = gql`
+  mutation Logout {
+    logout {
+      code
     }
   }
 `;

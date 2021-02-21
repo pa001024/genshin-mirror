@@ -6,15 +6,15 @@
         <v-card>
           <v-card-title class="headline">{{ timeString }}</v-card-title>
           <v-card-title>
-            精通秘境
-            <ItemCard v-for="g in todayItems.slice(0, 2)" :key="g.id" class="ml-2" :value="g" icon />
+            {{ $t("dungeon.avatarTalent") }}
+            <ItemCard v-for="g in todayAvatarItems" :key="g.id" class="ml-2" :value="g" icon />
           </v-card-title>
           <v-card-text>
             <CharCard v-for="g in weeklyGroupChar" :key="g.id" :value="g" class="ma-1" small :item="getItem(g)" />
           </v-card-text>
           <v-card-title>
-            炼武秘境
-            <ItemCard v-for="g in todayItems.slice(2, 4)" :key="g.id" class="ml-2" :value="g" icon />
+            {{ $t("dungeon.weaponPromote") }}
+            <ItemCard v-for="g in todayWeaponItems" :key="g.id" class="ml-2" :value="g" icon />
           </v-card-title>
           <v-card-text>
             <WeaponCard v-for="g in weeklyGroupWeapon" :key="g.id" :value="g" class="ma-1" small :item="getItem(g)" />
@@ -67,7 +67,7 @@ import { IAvatar, IItem, IWeapon } from "~/modules/core";
 @Component({
   // server
   async asyncData({ $content, app }) {
-    const rst: Partial<Page> = { page: null, char: [], weapon: [], items: [] };
+    const rst: Partial<Page> = { page: null, char: [], weapon: [] };
     rst.page = await $content("todo").fetch().catch(console.error);
 
     const char = await $content(app.i18n.locale, "char")
@@ -82,30 +82,30 @@ import { IAvatar, IItem, IWeapon } from "~/modules/core";
       .fetch<IWeapon>()
       .catch(console.error);
     if (Array.isArray(weapon)) rst.weapon = weapon;
-    const items = await $content(app.i18n.locale, "item")
-      .where({
-        id: {
-          $in: [
-            "PhilosophiesOfFreedom",
-            "PhilosophiesOfProsperity",
-            "ScatteredPieceOfDecarabiansDream",
-            "DivineBodyFromGuyun",
-            "PhilosophiesOfResistance",
-            "PhilosophiesOfDiligence",
-            "BorealWolfsNostalgia",
-            "MistVeiledPrimoElixir",
-            "PhilosophiesOfBallad",
-            "PhilosophiesOfGold",
-            "DreamOftheDandelionGladiator",
-            "ChunkOfAerosiderite",
-          ],
-        },
-      })
-      .only(["id", "localeName", "rarity"])
-      .sortBy("rarity", "desc")
-      .fetch<IItem>()
-      .catch(console.error);
-    if (Array.isArray(items)) rst.items = items;
+    // const items = await $content(app.i18n.locale, "item")
+    //   .where({
+    //     id: {
+    //       $in: [
+    //         "PhilosophiesOfFreedom",
+    //         "PhilosophiesOfProsperity",
+    //         "ScatteredPieceOfDecarabiansDream",
+    //         "DivineBodyFromGuyun",
+    //         "PhilosophiesOfResistance",
+    //         "PhilosophiesOfDiligence",
+    //         "BorealWolfsNostalgia",
+    //         "MistVeiledPrimoElixir",
+    //         "PhilosophiesOfBallad",
+    //         "PhilosophiesOfGold",
+    //         "DreamOftheDandelionGladiator",
+    //         "ChunkOfAerosiderite",
+    //       ],
+    //     },
+    //   })
+    //   .only(["id", "localeName", "rarity"])
+    //   .sortBy("rarity", "desc")
+    //   .fetch<IItem>()
+    //   .catch(console.error);
+    // if (Array.isArray(items)) rst.items = items;
     return rst;
   },
   head() {
@@ -117,7 +117,7 @@ export default class Page extends Vue {
   page: any = null;
   char: IAvatar[] = [];
   weapon: IWeapon[] = [];
-  items: IItem[] = [];
+  // items: IItem[] = [];
   show = false;
 
   weeklyData = [
@@ -126,13 +126,21 @@ export default class Page extends Vue {
     // 周二 周五 勤劳抗争
     ["PhilosophiesOfResistance", "PhilosophiesOfDiligence", "BorealWolfsNostalgia", "MistVeiledPrimoElixir"],
     // 周三 周六 黄金诗文
-    ["PhilosophiesOfBallad", "PhilosophiesOfGold", "DreamOftheDandelionGladiator", "ChunkOfAerosiderite"],
+    ["PhilosophiesOfBallad", "PhilosophiesOfGold", "DreamOfTheDandelionGladiator", "ChunkOfAerosiderite"],
   ];
 
   get todayItems() {
     const day = this.today.getDay();
-    const filterItems = this.weeklyData[(day - 1) % 3];
-    return filterItems.map(v => this.items.find(i => i.id === v) || { id: v });
+    const filterItems = !day ? [].concat(...(this.weeklyData as any)) : this.weeklyData[(day - 1) % 3];
+    return filterItems.map(v => ({ id: v, rarity: 5 }));
+  }
+
+  get todayAvatarItems() {
+    return this.todayItems.filter(v => v.id.startsWith("Philosop"));
+  }
+
+  get todayWeaponItems() {
+    return this.todayItems.filter(v => !v.id.startsWith("Philosop"));
   }
 
   get timeString() {
@@ -150,7 +158,7 @@ export default class Page extends Vue {
       const filterItems = this.weeklyData[(day - 1) % 3];
       return this.char.filter(v => v.element && v.overviewItems?.some(v => filterItems.includes(v.id)));
     }
-    return this.char;
+    return this.char.filter(v => v.overviewItems);
   }
 
   get weeklyGroupWeapon() {
@@ -159,7 +167,7 @@ export default class Page extends Vue {
       const filterItems = this.weeklyData[(day - 1) % 3];
       return this.weapon.filter(v => v.overviewItems?.some(v => filterItems.includes(v.id)));
     }
-    return this.weapon;
+    return this.weapon.filter(v => v.overviewItems);
   }
 
   getItem(g: Pick<IAvatar, "overviewItems">) {
