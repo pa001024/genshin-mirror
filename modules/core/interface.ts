@@ -1,4 +1,17 @@
-import { BuffCondition, BuffType, ElementType, Region, WeaponType, BuffTarget, ReactionType, BodyType, MaterialType, EnemyType, ArtifactType } from "./enum";
+import {
+  BuffCondition,
+  BuffType,
+  ElementType,
+  Region,
+  WeaponType,
+  BuffTarget,
+  ReactionType,
+  BodyType,
+  MaterialType,
+  EnemyType,
+  ArtifactType,
+  DungeonType,
+} from "./enum";
 
 export interface IUser {
   uid: string;
@@ -41,12 +54,12 @@ export interface IWeaponAscension {
 /** 武器特效 */
 export interface IWeaponAffix {
   name: string;
-  desc?: string;
   levels: IWeaponAffixLevel[];
 }
 
 export interface IWeaponAffixLevel {
-  /** 属性 */ attrs: IAttr[];
+  /** 描述 */ desc: string;
+  /** 属性 */ attrs?: IAttr[];
   /** 参数 */ params: number[];
 }
 
@@ -339,4 +352,13 @@ export interface IUserBuild {
   /** 封面图片地址 */ cover?: string;
   /** 描述 */ desc?: string;
   /** 角色 */ avatars: IUserAvatar[];
+}
+
+export interface IDungeon {
+  id: number;
+  name: string;
+  localeName: string;
+  desc: string;
+  elements: ElementType[];
+  type: DungeonType;
 }

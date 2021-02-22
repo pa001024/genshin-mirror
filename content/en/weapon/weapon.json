@@ -168,13 +168,12 @@
     "subAttr": { "type": 7, "value": 0.0766, "curve": 16 },
     "affix": {
       "name": "Bane of Water and Ice",
-      "desc": "Increases DMG against opponents affected by Hydro or Cryo by <color=#99FFFFFF>12%</color>.",
       "levels": [
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.15] },
-        { "attrs": [], "params": [0.18] },
-        { "attrs": [], "params": [0.21] },
-        { "attrs": [], "params": [0.24] }
+        { "desc": "Increases DMG against opponents affected by Hydro or Cryo by <color=#99FFFFFF>12%</color>.", "params": [0.12] },
+        { "desc": "Increases DMG against opponents affected by Hydro or Cryo by <color=#99FFFFFF>15%</color>.", "params": [0.15] },
+        { "desc": "Increases DMG against opponents affected by Hydro or Cryo by <color=#99FFFFFF>18%</color>.", "params": [0.18] },
+        { "desc": "Increases DMG against opponents affected by Hydro or Cryo by <color=#99FFFFFF>21%</color>.", "params": [0.21] },
+        { "desc": "Increases DMG against opponents affected by Hydro or Cryo by <color=#99FFFFFF>24%</color>.", "params": [0.24] }
       ]
     }
   },
@@ -251,13 +250,12 @@
     "subAttr": { "type": 13, "value": 0.102, "curve": 16 },
     "affix": {
       "name": "Vigorous",
-      "desc": "When HP is above 90%, increases CRIT Rate by <color=#99FFFFFF>14%</color>.",
       "levels": [
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.175] },
-        { "attrs": [], "params": [0.21] },
-        { "attrs": [], "params": [0.245] },
-        { "attrs": [], "params": [0.28] }
+        { "desc": "When HP is above 90%, increases CRIT Rate by <color=#99FFFFFF>14%</color>.", "params": [0.14] },
+        { "desc": "When HP is above 90%, increases CRIT Rate by <color=#99FFFFFF>17.5%</color>.", "params": [0.175] },
+        { "desc": "When HP is above 90%, increases CRIT Rate by <color=#99FFFFFF>21%</color>.", "params": [0.21] },
+        { "desc": "When HP is above 90%, increases CRIT Rate by <color=#99FFFFFF>24.5%</color>.", "params": [0.245] },
+        { "desc": "When HP is above 90%, increases CRIT Rate by <color=#99FFFFFF>28%</color>.", "params": [0.28] }
       ]
     }
   },
@@ -334,13 +332,12 @@
     "subAttr": { "type": 9, "value": 0.063733, "curve": 16 },
     "affix": {
       "name": "Journey",
-      "desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>1%</color> HP.",
       "levels": [
-        { "attrs": [], "params": [0.01, 1] },
-        { "attrs": [], "params": [0.0125, 1] },
-        { "attrs": [], "params": [0.015, 1] },
-        { "attrs": [], "params": [0.0175, 1] },
-        { "attrs": [], "params": [0.02, 1] }
+        { "desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>1%</color> HP.", "params": [0.01, 1] },
+        { "desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>1.25%</color> HP.", "params": [0.0125, 1] },
+        { "desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>1.5%</color> HP.", "params": [0.015, 1] },
+        { "desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>1.75%</color> HP.", "params": [0.0175, 1] },
+        { "desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>2%</color> HP.", "params": [0.02, 1] }
       ]
     }
   },
@@ -417,13 +414,12 @@
     "subAttr": { "type": 11, "value": 30.6, "curve": 16 },
     "affix": {
       "name": "Overloaded",
-      "desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>20%</color> for 12s.",
       "levels": [
-        { "attrs": [], "params": [0.2, 12] },
-        { "attrs": [], "params": [0.25, 12] },
-        { "attrs": [], "params": [0.3, 12] },
-        { "attrs": [], "params": [0.35, 12] },
-        { "attrs": [], "params": [0.4, 12] }
+        { "desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>20%</color> for 12s.", "params": [0.2, 12] },
+        { "desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>25%</color> for 12s.", "params": [0.25, 12] },
+        { "desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>30%</color> for 12s.", "params": [0.3, 12] },
+        { "desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>35%</color> for 12s.", "params": [0.35, 12] },
+        { "desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>40%</color> for 12s.", "params": [0.4, 12] }
       ]
     }
   },
@@ -500,13 +496,12 @@
     "subAttr": { "type": 7, "value": 0.0766, "curve": 16 },
     "affix": {
       "name": "Gash",
-      "desc": "On hit, has a 50% chance to deal <color=#99FFFFFF>240%</color> ATK DMG to a single opponent. Can only occur once every <color=#99FFFFFF>15</color>s.",
       "levels": [
-        { "attrs": [], "params": [0.5, 2.4, 15] },
-        { "attrs": [], "params": [0.5, 2.8, 14] },
-        { "attrs": [], "params": [0.5, 3.2, 13] },
-        { "attrs": [], "params": [0.5, 3.6, 12] },
-        { "attrs": [], "params": [0.5, 4, 11] }
+        { "desc": "On hit, has a 50% chance to deal <color=#99FFFFFF>240%</color> ATK DMG to a single opponent. Can only occur once every <color=#99FFFFFF>15</color>s.", "params": [0.5, 2.4, 15] },
+        { "desc": "On hit, has a 50% chance to deal <color=#99FFFFFF>280%</color> ATK DMG to a single opponent. Can only occur once every <color=#99FFFFFF>14</color>s.", "params": [0.5, 2.8, 14] },
+        { "desc": "On hit, has a 50% chance to deal <color=#99FFFFFF>320%</color> ATK DMG to a single opponent. Can only occur once every <color=#99FFFFFF>13</color>s.", "params": [0.5, 3.2, 13] },
+        { "desc": "On hit, has a 50% chance to deal <color=#99FFFFFF>360%</color> ATK DMG to a single opponent. Can only occur once every <color=#99FFFFFF>12</color>s.", "params": [0.5, 3.6, 12] },
+        { "desc": "On hit, has a 50% chance to deal <color=#99FFFFFF>400%</color> ATK DMG to a single target. Can only occur once every <color=#99FFFFFF>11</color>s.", "params": [0.5, 4, 11] }
       ]
     }
   },
@@ -583,13 +578,12 @@
     "subAttr": { "type": 10, "value": 0.11333, "curve": 16 },
     "affix": {
       "name": "Determination",
-      "desc": "Using an Elemental Burst grants a <color=#99FFFFFF>12%</color> increase in ATK and Movement SPD for 15s.",
       "levels": [
-        { "attrs": [], "params": [0.12, 15] },
-        { "attrs": [], "params": [0.15, 15] },
-        { "attrs": [], "params": [0.18, 15] },
-        { "attrs": [], "params": [0.21, 15] },
-        { "attrs": [], "params": [0.24, 15] }
+        { "desc": "Using an Elemental Burst grants a <color=#99FFFFFF>12%</color> increase in ATK and Movement SPD for 15s.", "params": [0.12, 15] },
+        { "desc": "Using an Elemental Burst grants a <color=#99FFFFFF>15%</color> increase in ATK and Movement SPD for 15s.", "params": [0.15, 15] },
+        { "desc": "Using an Elemental Burst grants a <color=#99FFFFFF>18%</color> increase in ATK and Movement SPD for 15s.", "params": [0.18, 15] },
+        { "desc": "Using an Elemental Burst grants a <color=#99FFFFFF>21%</color> increase in ATK and Movement SPD for 15s.", "params": [0.21, 15] },
+        { "desc": "Using an Elemental Burst grants a <color=#99FFFFFF>24%</color> increase in ATK and Movement SPD for 15s.", "params": [0.24, 15] }
       ]
     }
   },
@@ -666,13 +660,27 @@
     "subAttr": { "type": 10, "value": 0.13333, "curve": 17 },
     "affix": {
       "name": "Windfall",
-      "desc": "CRIT Hits have a <color=#99FFFFFF>60%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>12</color>s.",
       "levels": [
-        { "attrs": [], "params": [0.6, 12] },
-        { "attrs": [], "params": [0.7, 10.5] },
-        { "attrs": [], "params": [0.8, 9] },
-        { "attrs": [], "params": [0.9, 7.5] },
-        { "attrs": [], "params": [1, 6] }
+        {
+          "desc": "CRIT Hits have a <color=#99FFFFFF>60%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>12</color>s.",
+          "params": [0.6, 12]
+        },
+        {
+          "desc": "CRIT Hits have a <color=#99FFFFFF>70%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>10.5</color>s.",
+          "params": [0.7, 10.5]
+        },
+        {
+          "desc": "CRIT Hits have a <color=#99FFFFFF>80%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>9</color>s.",
+          "params": [0.8, 9]
+        },
+        {
+          "desc": "CRIT Hits have a <color=#99FFFFFF>90%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>7.5</color>s.",
+          "params": [0.9, 7.5]
+        },
+        {
+          "desc": "CRIT Hits have a <color=#99FFFFFF>100%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>6</color>s.",
+          "params": [1, 6]
+        }
       ]
     }
   },
@@ -749,13 +757,27 @@
     "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "Chord",
-      "desc": "Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals <color=#99FFFFFF>100%</color> ATK DMG to surrounding opponents. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s.",
       "levels": [
-        { "attrs": [], "params": [1, 1] },
-        { "attrs": [], "params": [1, 1.25] },
-        { "attrs": [], "params": [1, 1.5] },
-        { "attrs": [], "params": [1, 1.75] },
-        { "attrs": [], "params": [1, 2] }
+        {
+          "desc": "Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals <color=#99FFFFFF>100%</color> ATK DMG to surrounding opponents. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s.",
+          "params": [1, 1]
+        },
+        {
+          "desc": "Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals <color=#99FFFFFF>125%</color> ATK DMG to surrounding opponents. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s.",
+          "params": [1, 1.25]
+        },
+        {
+          "desc": "Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals <color=#99FFFFFF>150%</color> ATK DMG to surrounding opponents. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s.",
+          "params": [1, 1.5]
+        },
+        {
+          "desc": "Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals <color=#99FFFFFF>175%</color> ATK DMG to surrounding opponents. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s.",
+          "params": [1, 1.75]
+        },
+        {
+          "desc": "Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals <color=#99FFFFFF>200%</color> ATK DMG to surrounding opponents. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s.",
+          "params": [1, 2]
+        }
       ]
     }
   },
@@ -832,13 +854,27 @@
     "subAttr": { "type": 10, "value": 0.13333, "curve": 17 },
     "affix": {
       "name": "Composed",
-      "desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>40%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>30</color>s.",
       "levels": [
-        { "attrs": [], "params": [0.4, 30] },
-        { "attrs": [], "params": [0.5, 26] },
-        { "attrs": [], "params": [0.6, 22] },
-        { "attrs": [], "params": [0.7, 19] },
-        { "attrs": [], "params": [0.8, 16] }
+        {
+          "desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>40%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>30</color>s.",
+          "params": [0.4, 30]
+        },
+        {
+          "desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>50%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>26</color>s.",
+          "params": [0.5, 26]
+        },
+        {
+          "desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>60%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>22s</color>.",
+          "params": [0.6, 22]
+        },
+        {
+          "desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>70%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>19</color>s.",
+          "params": [0.7, 19]
+        },
+        {
+          "desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>80%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>16s</color>.",
+          "params": [0.8, 16]
+        }
       ]
     }
   },
@@ -915,13 +951,12 @@
     "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "Focus",
-      "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>8%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>8%</color>. Max 5 stacks. A CRIT Hit removes all stacks.", "params": [0.08] },
+        { "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>10%</color>. Max 5 stacks. A CRIT Hit removes all stacks.", "params": [0.1] },
+        { "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>12%</color>. Max 5 stacks. A CRIT Hit removes all stacks.", "params": [0.12] },
+        { "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>14%</color>. Max 5 stacks. A CRIT Hit removes all stacks.", "params": [0.14] },
+        { "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>16%</color>. Max 5 stacks. A CRIT Hit removes all stacks.", "params": [0.16] }
       ]
     }
   },
@@ -998,13 +1033,12 @@
     "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "Bane of Fire and Thunder",
-      "desc": "Increases DMG against opponents affected by Pyro or Electro by <color=#99FFFFFF>20%</color>.",
       "levels": [
-        { "attrs": [], "params": [0.2] },
-        { "attrs": [], "params": [0.24] },
-        { "attrs": [], "params": [0.28] },
-        { "attrs": [], "params": [0.32] },
-        { "attrs": [], "params": [0.36] }
+        { "desc": "Increases DMG against opponents affected by Pyro or Electro by <color=#99FFFFFF>20%</color>.", "params": [0.2] },
+        { "desc": "Increases DMG against opponents affected by Pyro or Electro by <color=#99FFFFFF>24%</color>.", "params": [0.24] },
+        { "desc": "Increases DMG against opponents affected by Pyro or Electro by <color=#99FFFFFF>28%</color>.", "params": [0.28] },
+        { "desc": "Increases DMG against opponents affected by Pyro or Electro by <color=#99FFFFFF>32%</color>.", "params": [0.32] },
+        { "desc": "Increases DMG against opponents affected by Pyro or Electro by <color=#99FFFFFF>36%</color>.", "params": [0.36] }
       ]
     }
   },
@@ -1081,13 +1115,12 @@
     "subAttr": { "type": 33, "value": 0.075067, "curve": 17 },
     "affix": {
       "name": "Smashed Stone",
-      "desc": "On hit, Normal or Charged Attacks increase ATK and DEF by <color=#99FFFFFF>4%</color> for 6s. Max 4 stacks. This effect can only occur once every 0.3s.",
       "levels": [
-        { "attrs": [], "params": [0.04] },
-        { "attrs": [], "params": [0.05] },
-        { "attrs": [], "params": [0.06] },
-        { "attrs": [], "params": [0.07] },
-        { "attrs": [], "params": [0.08] }
+        { "desc": "On hit, Normal or Charged Attacks increase ATK and DEF by <color=#99FFFFFF>4%</color> for 6s. Max 4 stacks. This effect can only occur once every 0.3s.", "params": [0.04] },
+        { "desc": "On hit, Normal or Charged Attacks increase ATK and DEF by <color=#99FFFFFF>5%</color> for 6s. Max 4 stacks. This effect can only occur once every 0.3s.", "params": [0.05] },
+        { "desc": "On hit, Normal or Charged Attacks increase ATK and DEF by <color=#99FFFFFF>6%</color> for 6s. Max 4 stacks. This effect can only occur once every 0.3s.", "params": [0.06] },
+        { "desc": "On hit, Normal or Charged Attacks increase ATK and DEF by <color=#99FFFFFF>7%</color> for 6s. Max 4 stacks. This effect can only occur once every 0.3s.", "params": [0.07] },
+        { "desc": "On hit, Normal or Charged Attacks increase ATK and DEF by <color=#99FFFFFF>8%</color> for 6s. Max 4 stacks. This effect can only occur once every 0.3s.", "params": [0.08] }
       ]
     }
   },
@@ -1164,13 +1197,12 @@
     "subAttr": { "type": 11, "value": 36, "curve": 17 },
     "affix": {
       "name": "Infusion Stinger",
-      "desc": "Dealing Elemental DMG increases all DMG by <color=#99FFFFFF>6%</color> for 6s. Max 2 stacks. Can occur once every 1s.",
       "levels": [
-        { "attrs": [], "params": [0.06, 1, 6] },
-        { "attrs": [], "params": [0.075, 1, 6] },
-        { "attrs": [], "params": [0.09, 1, 6] },
-        { "attrs": [], "params": [0.105, 1, 6] },
-        { "attrs": [], "params": [0.12, 1, 6] }
+        { "desc": "Dealing Elemental DMG increases all DMG by <color=#99FFFFFF>6%</color> for 6s. Max 2 stacks. Can occur once every 1s.", "params": [0.06, 1, 6] },
+        { "desc": "Dealing Elemental DMG increases all DMG by <color=#99FFFFFF>7.5%</color> for 6s. Max 2 stacks. Can occur once every 1s.", "params": [0.075, 1, 6] },
+        { "desc": "Dealing Elemental DMG increases all DMG by <color=#99FFFFFF>9%</color> for 6s. Max 2 stacks. Can occur once every 1s.", "params": [0.09, 1, 6] },
+        { "desc": "Dealing Elemental DMG increases all DMG by <color=#99FFFFFF>10.5%</color> for 6s. Max 2 stacks. Can occur once every 1s.", "params": [0.105, 1, 6] },
+        { "desc": "Dealing Elemental DMG increases all DMG by <color=#99FFFFFF>12%</color> for 6s. Max 2 stacks. Can occur once every 1s.", "params": [0.12, 1, 6] }
       ]
     }
   },
@@ -1247,13 +1279,27 @@
     "subAttr": { "type": 13, "value": 0.08, "curve": 17 },
     "affix": {
       "name": "Press the Advantage",
-      "desc": "After defeating an opponent, ATK is increased by <color=#99FFFFFF>12%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
       "levels": [
-        { "attrs": [], "params": [0.12, 30] },
-        { "attrs": [], "params": [0.15, 30] },
-        { "attrs": [], "params": [0.18, 30] },
-        { "attrs": [], "params": [0.21, 30] },
-        { "attrs": [], "params": [0.24, 30] }
+        {
+          "desc": "After defeating an opponent, ATK is increased by <color=#99FFFFFF>12%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+          "params": [0.12, 30]
+        },
+        {
+          "desc": "After defeating an opponent, ATK is increased by <color=#99FFFFFF>15%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+          "params": [0.15, 30]
+        },
+        {
+          "desc": "After defeating an opponent, ATK is increased by <color=#99FFFFFF>18%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+          "params": [0.18, 30]
+        },
+        {
+          "desc": "After defeating an opponent, ATK is increased by <color=#99FFFFFF>21%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+          "params": [0.21, 30]
+        },
+        {
+          "desc": "After defeating an opponent, ATK is increased by <color=#99FFFFFF>24%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+          "params": [0.24, 30]
+        }
       ]
     }
   },
@@ -1330,13 +1376,27 @@
     "subAttr": { "type": 12, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "Justice",
-      "desc": "Increases DMG dealt by Normal and Charged Attacks by <color=#99FFFFFF>20%</color>. Additionally, regenerates <color=#99FFFFFF>60%</color> of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.6, 5, 1] },
-        { "attrs": [], "params": [0.25, 0.7, 5, 1] },
-        { "attrs": [], "params": [0.3, 0.8, 5, 1] },
-        { "attrs": [], "params": [0.35, 0.9, 5, 1] },
-        { "attrs": [], "params": [0.4, 1, 5, 1] }
+        {
+          "desc": "Increases DMG dealt by Normal and Charged Attacks by <color=#99FFFFFF>20%</color>. Additionally, regenerates <color=#99FFFFFF>60%</color> of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.",
+          "params": [0.2, 0.6, 5, 1]
+        },
+        {
+          "desc": "Increases DMG dealt by Normal and Charged Attacks by <color=#99FFFFFF>25%</color>. Additionally, regenerates <color=#99FFFFFF>70%</color> of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.",
+          "params": [0.25, 0.7, 5, 1]
+        },
+        {
+          "desc": "Increases DMG dealt by Normal and Charged Attacks by <color=#99FFFFFF>30%</color>. Additionally, regenerates <color=#99FFFFFF>80%</color> of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.",
+          "params": [0.3, 0.8, 5, 1]
+        },
+        {
+          "desc": "Increases DMG dealt by Normal and Charged Attacks by <color=#99FFFFFF>35%</color>. Additionally, regenerates <color=#99FFFFFF>90%</color> of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.",
+          "params": [0.35, 0.9, 5, 1]
+        },
+        {
+          "desc": "Increases DMG dealt by Normal and Charged Attacks by <color=#99FFFFFF>40%</color>. Additionally, regenerates <color=#99FFFFFF>100%</color> of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.",
+          "params": [0.4, 1, 5, 1]
+        }
       ]
     }
   },
@@ -1413,8 +1473,12 @@
     "subAttr": { "type": 7, "value": 0.0766, "curve": 16 },
     "affix": {
       "name": "Descension",
-      "desc": "Hitting opponents with Normal and Charged Attacks grants a <color=#99FFFFFF>50%</color> chance to deal <color=#99FFFFFF>200%</color> ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by <color=#99FFFFFF>66</color>.",
-      "levels": [{ "attrs": [], "params": [0.5, 2, 10, 66] }]
+      "levels": [
+        {
+          "desc": "Hitting opponents with Normal and Charged Attacks grants a <color=#99FFFFFF>50%</color> chance to deal <color=#99FFFFFF>200%</color> ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by <color=#99FFFFFF>66</color>.",
+          "params": [0.5, 2, 10, 66]
+        }
+      ]
     }
   },
   {
@@ -1490,13 +1554,12 @@
     "subAttr": { "type": 10, "value": 0.1, "curve": 17 },
     "affix": {
       "name": "Undying Admiration",
-      "desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>16%</color> and Elemental Skill CRIT Rate by <color=#99FFFFFF>6%</color>.",
       "levels": [
-        { "attrs": [], "params": [0.16, 0.06] },
-        { "attrs": [], "params": [0.2, 0.075] },
-        { "attrs": [], "params": [0.24, 0.09] },
-        { "attrs": [], "params": [0.28, 0.105] },
-        { "attrs": [], "params": [0.32, 0.12] }
+        { "desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>16%</color> and Elemental Skill CRIT Rate by <color=#99FFFFFF>6%</color>.", "params": [0.16, 0.06] },
+        { "desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>20%</color> and Elemental Skill CRIT Rate by <color=#99FFFFFF>7.5%</color>.", "params": [0.2, 0.075] },
+        { "desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>24%</color> and Elemental Skill CRIT Rate by <color=#99FFFFFF>9%</color>.", "params": [0.24, 0.09] },
+        { "desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>28%</color> and Elemental Skill CRIT Rate by <color=#99FFFFFF>10.5%</color>.", "params": [0.28, 0.105] },
+        { "desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>32%</color> and Elemental Skill CRIT Rate by <color=#99FFFFFF>12%</color>.", "params": [0.32, 0.12] }
       ]
     }
   },
@@ -1573,13 +1636,27 @@
     "subAttr": { "type": 33, "value": 0.09, "curve": 18 },
     "affix": {
       "name": "Falcon's Defiance",
-      "desc": "ATK is increased by <color=#99FFFFFF>20%</color>. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to <color=#99FFFFFF>100%</color> of ATK and dealing <color=#99FFFFFF>200%</color> of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
       "levels": [
-        { "attrs": [], "params": [0.2, 1, 2, 15] },
-        { "attrs": [], "params": [0.25, 1.15, 2.3, 15] },
-        { "attrs": [], "params": [0.3, 1.3, 2.6, 15] },
-        { "attrs": [], "params": [0.35, 1.45, 2.9, 15] },
-        { "attrs": [], "params": [0.4, 1.6, 3.2, 15] }
+        {
+          "desc": "ATK is increased by <color=#99FFFFFF>20%</color>. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to <color=#99FFFFFF>100%</color> of ATK and dealing <color=#99FFFFFF>200%</color> of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+          "params": [0.2, 1, 2, 15]
+        },
+        {
+          "desc": "ATK is increased by <color=#99FFFFFF>25%</color>. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to <color=#99FFFFFF>115%</color> of ATK and dealing <color=#99FFFFFF>230%</color> of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+          "params": [0.25, 1.15, 2.3, 15]
+        },
+        {
+          "desc": "ATK is increased by <color=#99FFFFFF>30%</color>. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to <color=#99FFFFFF>130%</color> of ATK and dealing <color=#99FFFFFF>260%</color> of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+          "params": [0.3, 1.3, 2.6, 15]
+        },
+        {
+          "desc": "ATK is increased by <color=#99FFFFFF>35%</color>. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to <color=#99FFFFFF>145%</color> of ATK and dealing <color=#99FFFFFF>290%</color> of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+          "params": [0.35, 1.45, 2.9, 15]
+        },
+        {
+          "desc": "ATK is increased by <color=#99FFFFFF>40%</color>. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to <color=#99FFFFFF>160%</color> of ATK and dealing <color=#99FFFFFF>320%</color> of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+          "params": [0.4, 1.6, 3.2, 15]
+        }
       ]
     }
   },
@@ -1656,13 +1733,27 @@
     "subAttr": { "type": 10, "value": 0.12, "curve": 18 },
     "affix": {
       "name": "Sky-Piercing Fang",
-      "desc": "CRIT Rate increased by <color=#99FFFFFF>4%</color>. Gains Skypiercing Might upon using an Elemental Burst: Increases Movement SPD by <color=#99FFFFFF>10%</color>, increases ATK SPD by <color=#99FFFFFF>10%</color>, and Normal and Charged hits deal additional DMG equal to <color=#99FFFFFF>20%</color> of ATK. Skypiercing Might lasts for 12s.",
       "levels": [
-        { "attrs": [], "params": [0.04, 0.1, 0.1, 0.2, 12] },
-        { "attrs": [], "params": [0.05, 0.1, 0.1, 0.25, 12] },
-        { "attrs": [], "params": [0.06, 0.1, 0.1, 0.3, 12] },
-        { "attrs": [], "params": [0.07, 0.1, 0.1, 0.35, 12] },
-        { "attrs": [], "params": [0.08, 0.1, 0.1, 0.4, 12] }
+        {
+          "desc": "CRIT Rate increased by <color=#99FFFFFF>4%</color>. Gains Skypiercing Might upon using an Elemental Burst: Increases Movement SPD by <color=#99FFFFFF>10%</color>, increases ATK SPD by <color=#99FFFFFF>10%</color>, and Normal and Charged hits deal additional DMG equal to <color=#99FFFFFF>20%</color> of ATK. Skypiercing Might lasts for 12s.",
+          "params": [0.04, 0.1, 0.1, 0.2, 12]
+        },
+        {
+          "desc": "CRIT Rate increased by <color=#99FFFFFF>5%</color>, Gains Skypiercing Might upon using an Elemental Burst: Increases Movement SPD by <color=#99FFFFFF>10%</color>, increases ATK SPD by <color=#99FFFFFF>10%</color>, and Normal and Charged hits deal additional DMG equal to <color=#99FFFFFF>25%</color> of ATK. Skypiercing Might lasts for 12s.",
+          "params": [0.05, 0.1, 0.1, 0.25, 12]
+        },
+        {
+          "desc": "CRIT Rate increased by <color=#99FFFFFF>6%</color>. Gains Skypiercing Might upon using an Elemental Burst: Increases Movement SPD by <color=#99FFFFFF>10%</color>, increases ATK SPD by <color=#99FFFFFF>10%</color>, and Normal and Charged hits deal additional DMG equal to <color=#99FFFFFF>30%</color> of ATK. Skypiercing Might lasts for 12s.",
+          "params": [0.06, 0.1, 0.1, 0.3, 12]
+        },
+        {
+          "desc": "CRIT Rate increased by <color=#99FFFFFF>7%</color>. Gains Skypiercing Might upon using an Elemental Burst: Increases Movement SPD by <color=#99FFFFFF>10%</color>, increases ATK SPD by <color=#99FFFFFF>10%</color>, and Normal and Charged hits deal additional DMG equal to <color=#99FFFFFF>35%</color> of ATK. Skypiercing Might lasts for 12s.",
+          "params": [0.07, 0.1, 0.1, 0.35, 12]
+        },
+        {
+          "desc": "CRIT Rate increased by <color=#99FFFFFF>8%</color>. Gains Skypiercing Might upon using an Elemental Burst: Increases Movement SPD by <color=#99FFFFFF>10%</color>, increases ATK SPD by <color=#99FFFFFF>10%</color>, and Normal and Charged hits deal additional DMG equal to <color=#99FFFFFF>40%</color> of ATK. Skypiercing Might lasts for 12s.",
+          "params": [0.08, 0.1, 0.1, 0.4, 12]
+        }
       ]
     }
   },
@@ -1787,13 +1878,27 @@
     "subAttr": { "type": 7, "value": 0.108, "curve": 18 },
     "affix": {
       "name": "Golden Majesty",
-      "desc": "Increases Shield Strength by <color=#99FFFFFF>20%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>4%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.04, 8] },
-        { "attrs": [], "params": [0.25, 0.05, 8] },
-        { "attrs": [], "params": [0.3, 0.06, 8] },
-        { "attrs": [], "params": [0.35, 0.07, 8] },
-        { "attrs": [], "params": [0.4, 0.08, 8] }
+        {
+          "desc": "Increases Shield Strength by <color=#99FFFFFF>20%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>4%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+          "params": [0.2, 0.04, 8]
+        },
+        {
+          "desc": "Increases Shield Strength by <color=#99FFFFFF>25%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>5%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+          "params": [0.25, 0.05, 8]
+        },
+        {
+          "desc": "Increases Shield Strength by <color=#99FFFFFF>30%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>6%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+          "params": [0.3, 0.06, 8]
+        },
+        {
+          "desc": "Increases Shield Strength by <color=#99FFFFFF>35%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>7%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+          "params": [0.35, 0.07, 8]
+        },
+        {
+          "desc": "Increases Shield Strength by <color=#99FFFFFF>40%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>8%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+          "params": [0.4, 0.08, 8]
+        }
       ]
     }
   },
@@ -1870,13 +1975,12 @@
     "subAttr": { "type": 12, "value": 0.096, "curve": 18 },
     "affix": {
       "name": "Protector's Virtue",
-      "desc": "HP increased by <color=#99FFFFFF>20%</color>. Additionally, provides an ATK Bonus based on <color=#99FFFFFF>1.2%</color> of the wielder's Max HP.",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.012] },
-        { "attrs": [], "params": [0.25, 0.015] },
-        { "attrs": [], "params": [0.3, 0.018] },
-        { "attrs": [], "params": [0.35, 0.021] },
-        { "attrs": [], "params": [0.4, 0.024] }
+        { "desc": "HP increased by <color=#99FFFFFF>20%</color>. Additionally, provides an ATK Bonus based on <color=#99FFFFFF>1.2%</color> of the wielder's Max HP.", "params": [0.2, 0.012] },
+        { "desc": "HP increased by <color=#99FFFFFF>25%</color>. Additionally, provides an ATK Bonus based on <color=#99FFFFFF>1.5%</color> of the wielder's Max HP.", "params": [0.25, 0.015] },
+        { "desc": "HP increased by <color=#99FFFFFF>30%</color>. Additionally, provides an ATK Bonus based on <color=#99FFFFFF>1.8%</color> of the wielder's Max HP.", "params": [0.3, 0.018] },
+        { "desc": "HP increased by <color=#99FFFFFF>35%</color>. Additionally, provides an ATK Bonus based on <color=#99FFFFFF>2.1%</color> of the wielder's Max HP.", "params": [0.35, 0.021] },
+        { "desc": "HP increased by <color=#99FFFFFF>40%</color>. Additionally, provides an ATK Bonus based on <color=#99FFFFFF>2.4%</color> of the wielder's Max HP.", "params": [0.4, 0.024] }
       ]
     }
   },
@@ -2097,13 +2201,27 @@
     "subAttr": { "type": 5, "value": 0.0766, "curve": 16 },
     "affix": {
       "name": "Unbending",
-      "desc": "When HP falls below <color=#99FFFFFF>70%</color>, increases Charged Attack DMG by <color=#99FFFFFF>30%</color> and Charged Attacks become harder to interrupt.",
       "levels": [
-        { "attrs": [], "params": [0.7, 0.3] },
-        { "attrs": [], "params": [0.75, 0.35] },
-        { "attrs": [], "params": [0.8, 0.4] },
-        { "attrs": [], "params": [0.85, 0.45] },
-        { "attrs": [], "params": [0.9, 0.5] }
+        {
+          "desc": "When HP falls below <color=#99FFFFFF>70%</color>, increases Charged Attack DMG by <color=#99FFFFFF>30%</color> and Charged Attacks become harder to interrupt.",
+          "params": [0.7, 0.3]
+        },
+        {
+          "desc": "When HP falls below <color=#99FFFFFF>75%</color>, increases Charged Attack DMG by <color=#99FFFFFF>35%</color> and Charged Attacks become harder to interrupt.",
+          "params": [0.75, 0.35]
+        },
+        {
+          "desc": "When HP falls below <color=#99FFFFFF>80%</color>, increases Charged Attack DMG by <color=#99FFFFFF>40%</color> and Charged Attacks become harder to interrupt.",
+          "params": [0.8, 0.4]
+        },
+        {
+          "desc": "When HP falls below <color=#99FFFFFF>85%</color>, increases Charged Attack DMG by <color=#99FFFFFF>45%</color> and Charged Attacks become harder to interrupt.",
+          "params": [0.85, 0.45]
+        },
+        {
+          "desc": "When HP falls below <color=#99FFFFFF>90%</color>, increases Charged Attack DMG by <color=#99FFFFFF>50%</color> and Charged Attacks become harder to interrupt.",
+          "params": [0.9, 0.5]
+        }
       ]
     }
   },
@@ -2180,13 +2298,12 @@
     "subAttr": { "type": 11, "value": 40.8, "curve": 16 },
     "affix": {
       "name": "Bane of Fire and Thunder",
-      "desc": "Increases DMG dealt against opponents affected by Pyro or Electro by <color=#99FFFFFF>12%</color>.",
       "levels": [
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.15] },
-        { "attrs": [], "params": [0.18] },
-        { "attrs": [], "params": [0.21] },
-        { "attrs": [], "params": [0.24] }
+        { "desc": "Increases DMG dealt against opponents affected by Pyro or Electro by <color=#99FFFFFF>12%</color>.", "params": [0.12] },
+        { "desc": "Increases DMG dealt against opponents affected by Pyro or Electro by <color=#99FFFFFF>15%</color>.", "params": [0.15] },
+        { "desc": "Increases DMG dealt against opponents affected by Pyro or Electro by <color=#99FFFFFF>18%</color>.", "params": [0.18] },
+        { "desc": "Increases DMG dealt against opponents affected by Pyro or Electro by <color=#99FFFFFF>21%</color>.", "params": [0.21] },
+        { "desc": "Increases DMG against opponents affected by Pyro or Electro by <color=#99FFFFFF>24%</color>.", "params": [0.24] }
       ]
     }
   },
@@ -2263,13 +2380,12 @@
     "subAttr": { "type": 9, "value": 0.0956, "curve": 16 },
     "affix": {
       "name": "Cull the Weak",
-      "desc": "Defeating an opponent restores <color=#99FFFFFF>8%</color> HP.",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "Defeating an opponent restores <color=#99FFFFFF>8%</color> HP.", "params": [0.08] },
+        { "desc": "Defeating an opponent restores <color=#99FFFFFF>10%</color> HP.", "params": [0.1] },
+        { "desc": "Defeating an opponent restores <color=#99FFFFFF>12%</color> HP.", "params": [0.12] },
+        { "desc": "Defeating an opponent restores <color=#99FFFFFF>14%</color> HP.", "params": [0.14] },
+        { "desc": "Defeating an opponent restores <color=#99FFFFFF>16%</color> HP.", "params": [0.16] }
       ]
     }
   },
@@ -2346,13 +2462,12 @@
     "subAttr": { "type": 11, "value": 30.6, "curve": 16 },
     "affix": {
       "name": "Residual Heat",
-      "desc": "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>20%</color> for 12s.",
       "levels": [
-        { "attrs": [], "params": [0.2] },
-        { "attrs": [], "params": [0.25] },
-        { "attrs": [], "params": [0.3] },
-        { "attrs": [], "params": [0.35] },
-        { "attrs": [], "params": [0.4] }
+        { "desc": "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>20%</color> for 12s.", "params": [0.2] },
+        { "desc": "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>25%</color> for 12s.", "params": [0.25] },
+        { "desc": "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>30%</color> for 12s.", "params": [0.3] },
+        { "desc": "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>35%</color> for 12s.", "params": [0.35] },
+        { "desc": "Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>40%</color> for 12s.", "params": [0.4] }
       ]
     }
   },
@@ -2429,13 +2544,27 @@
     "subAttr": { "type": 7, "value": 0.0766, "curve": 16 },
     "affix": {
       "name": "Blunt Conclusion",
-      "desc": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>60%</color> of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
       "levels": [
-        { "attrs": [], "params": [0.6, 15, 3] },
-        { "attrs": [], "params": [0.75, 15, 3] },
-        { "attrs": [], "params": [0.9, 15, 3] },
-        { "attrs": [], "params": [1.05, 15, 3] },
-        { "attrs": [], "params": [1.2, 15, 3] }
+        {
+          "desc": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>60%</color> of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+          "params": [0.6, 15, 3]
+        },
+        {
+          "desc": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>75%</color> of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+          "params": [0.75, 15, 3]
+        },
+        {
+          "desc": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>90%</color> of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+          "params": [0.9, 15, 3]
+        },
+        {
+          "desc": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>105%</color> of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+          "params": [1.05, 15, 3]
+        },
+        {
+          "desc": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>120%</color> of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+          "params": [1.2, 15, 3]
+        }
       ]
     }
   },
@@ -2512,13 +2641,12 @@
     "subAttr": { "type": 33, "value": 0.0956, "curve": 16 },
     "affix": {
       "name": "Courage",
-      "desc": "On hit, Normal or Charged Attacks increase ATK by <color=#99FFFFFF>6%</color> for 6s. Max 4 stacks. Can occur once every 0.5s.",
       "levels": [
-        { "attrs": [], "params": [0.06] },
-        { "attrs": [], "params": [0.07] },
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.09] },
-        { "attrs": [], "params": [0.1] }
+        { "desc": "On hit, Normal or Charged Attacks increase ATK by <color=#99FFFFFF>6%</color> for 6s. Max 4 stacks. Can occur once every 0.5s.", "params": [0.06] },
+        { "desc": "On hit, Normal or Charged Attacks increase ATK by <color=#99FFFFFF>7%</color> for 6s. Max 4 stacks. Can occur once every 0.5s.", "params": [0.07] },
+        { "desc": "On hit, Normal or Charged Attacks increase ATK by <color=#99FFFFFF>8%</color> for 6s. Max 4 stacks. Can occur once every 0.5s.", "params": [0.08] },
+        { "desc": "On hit, Normal or Charged Attacks increase ATK by <color=#99FFFFFF>9%</color> for 6s. Max 4 stacks. Can occur once every 0.5s.", "params": [0.09] },
+        { "desc": "On hit, Normal or Charged Attacks increase ATK by <color=#99FFFFFF>10%</color> for 6s. Max 4 stacks. Can occur once every 0.5s.", "params": [0.1] }
       ]
     }
   },
@@ -2595,13 +2723,27 @@
     "subAttr": { "type": 10, "value": 0.13333, "curve": 17 },
     "affix": {
       "name": "Windfall",
-      "desc": "CRIT Hits have a <color=#99FFFFFF>60%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>12</color>s.",
       "levels": [
-        { "attrs": [], "params": [0.6, 12] },
-        { "attrs": [], "params": [0.7, 10.5] },
-        { "attrs": [], "params": [0.8, 9] },
-        { "attrs": [], "params": [0.9, 7.5] },
-        { "attrs": [], "params": [1, 6] }
+        {
+          "desc": "CRIT Hits have a <color=#99FFFFFF>60%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>12</color>s.",
+          "params": [0.6, 12]
+        },
+        {
+          "desc": "CRIT Hits have a <color=#99FFFFFF>70%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>10.5</color>s.",
+          "params": [0.7, 10.5]
+        },
+        {
+          "desc": "CRIT Hits have a <color=#99FFFFFF>80%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>9</color>s.",
+          "params": [0.8, 9]
+        },
+        {
+          "desc": "CRIT Hits have a <color=#99FFFFFF>90%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>7.5</color>s.",
+          "params": [0.9, 7.5]
+        },
+        {
+          "desc": "CRIT Hits have a <color=#99FFFFFF>100%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>6</color>s.",
+          "params": [1, 6]
+        }
       ]
     }
   },
@@ -2678,13 +2820,27 @@
     "subAttr": { "type": 5, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "Rebellious Guardian",
-      "desc": "Taking DMG generates a shield which absorbs DMG up to <color=#99FFFFFF>20%</color> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <color=#99FFFFFF>45</color>s. While protected by the shield, the character gains <color=#99FFFFFF>12%</color> increased DMG.",
       "levels": [
-        { "attrs": [], "params": [0.2, 45, 0.12] },
-        { "attrs": [], "params": [0.23, 45, 0.15] },
-        { "attrs": [], "params": [0.26, 45, 0.18] },
-        { "attrs": [], "params": [0.29, 45, 0.21] },
-        { "attrs": [], "params": [0.32, 45, 0.24] }
+        {
+          "desc": "Taking DMG generates a shield which absorbs DMG up to <color=#99FFFFFF>20%</color> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <color=#99FFFFFF>45</color>s. While protected by the shield, the character gains <color=#99FFFFFF>12%</color> increased DMG.",
+          "params": [0.2, 45, 0.12]
+        },
+        {
+          "desc": "Taking DMG generates a shield which absorbs DMG up to <color=#99FFFFFF>23%</color> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <color=#99FFFFFF>45</color>s. While protected by the shield, the character gains <color=#99FFFFFF>15%</color> increased DMG.",
+          "params": [0.23, 45, 0.15]
+        },
+        {
+          "desc": "Taking DMG generates a shield which absorbs DMG up to <color=#99FFFFFF>26%</color> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <color=#99FFFFFF>45</color>s. While protected by the shield, the character gains <color=#99FFFFFF>18%</color> increased DMG.",
+          "params": [0.26, 45, 0.18]
+        },
+        {
+          "desc": "Taking DMG generates a shield which absorbs DMG up to <color=#99FFFFFF>29%</color> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <color=#99FFFFFF>45</color>s. While protected by the shield, the character gains <color=#99FFFFFF>21%</color> increased DMG.",
+          "params": [0.29, 45, 0.21]
+        },
+        {
+          "desc": "Taking DMG generates a shield which absorbs DMG up to <color=#99FFFFFF>32%</color> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <color=#99FFFFFF>45</color>s. While protected by the shield, the character gains <color=#99FFFFFF>24%</color> increased DMG.",
+          "params": [0.32, 45, 0.24]
+        }
       ]
     }
   },
@@ -2761,13 +2917,27 @@
     "subAttr": { "type": 10, "value": 0.066667, "curve": 17 },
     "affix": {
       "name": "Composed",
-      "desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>40%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>30</color>s.",
       "levels": [
-        { "attrs": [], "params": [0.4, 30] },
-        { "attrs": [], "params": [0.5, 26] },
-        { "attrs": [], "params": [0.6, 22] },
-        { "attrs": [], "params": [0.7, 19] },
-        { "attrs": [], "params": [0.8, 16] }
+        {
+          "desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>40%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>30</color>s.",
+          "params": [0.4, 30]
+        },
+        {
+          "desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>50%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>26</color>s.",
+          "params": [0.5, 26]
+        },
+        {
+          "desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>60%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>22s</color>.",
+          "params": [0.6, 22]
+        },
+        {
+          "desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>70%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>19</color>s.",
+          "params": [0.7, 19]
+        },
+        {
+          "desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>80%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>16s</color>.",
+          "params": [0.8, 16]
+        }
       ]
     }
   },
@@ -2844,13 +3014,12 @@
     "subAttr": { "type": 7, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "Focus",
-      "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>8%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>8%</color>. Max 5 stacks. A CRIT Hit removes all stacks.", "params": [0.08] },
+        { "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>10%</color>. Max 5 stacks. A CRIT Hit removes all stacks.", "params": [0.1] },
+        { "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>12%</color>. Max 5 stacks. A CRIT Hit removes all stacks.", "params": [0.12] },
+        { "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>14%</color>. Max 5 stacks. A CRIT Hit removes all stacks.", "params": [0.14] },
+        { "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>16%</color>. Max 5 stacks. A CRIT Hit removes all stacks.", "params": [0.16] }
       ]
     }
   },
@@ -2927,13 +3096,12 @@
     "subAttr": { "type": 11, "value": 36, "curve": 17 },
     "affix": {
       "name": "Bane of Storm and Tide",
-      "desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>20%</color>.",
       "levels": [
-        { "attrs": [], "params": [0.2] },
-        { "attrs": [], "params": [0.24] },
-        { "attrs": [], "params": [0.28] },
-        { "attrs": [], "params": [0.32] },
-        { "attrs": [], "params": [0.36] }
+        { "desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>20%</color>.", "params": [0.2] },
+        { "desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>24%</color>.", "params": [0.24] },
+        { "desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>28%</color>.", "params": [0.28] },
+        { "desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>32%</color>.", "params": [0.32] },
+        { "desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>36%</color>.", "params": [0.36] }
       ]
     }
   },
@@ -3010,13 +3178,27 @@
     "subAttr": { "type": 7, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "Crush",
-      "desc": "On hit, Normal or Charged Attacks have a 50% chance to deal an additional <color=#99FFFFFF>240%</color> ATK DMG to opponents within a small AoE. Can only occur once every 15s.",
       "levels": [
-        { "attrs": [], "params": [0.5, 2.4] },
-        { "attrs": [], "params": [0.5, 3] },
-        { "attrs": [], "params": [0.5, 3.6] },
-        { "attrs": [], "params": [0.5, 4.2] },
-        { "attrs": [], "params": [0.5, 4.8] }
+        {
+          "desc": "On hit, Normal or Charged Attacks have a 50% chance to deal an additional <color=#99FFFFFF>240%</color> ATK DMG to opponents within a small AoE. Can only occur once every 15s.",
+          "params": [0.5, 2.4]
+        },
+        {
+          "desc": "On hit, Normal or Charged Attacks have a 50% chance to deal an additional <color=#99FFFFFF>300%</color> ATK DMG to opponents within a small AoE. Can only occur once every 15s.",
+          "params": [0.5, 3]
+        },
+        {
+          "desc": "On hit, Normal or Charged Attacks have a 50% chance to deal an additional <color=#99FFFFFF>360%</color> ATK DMG to opponents within a small AoE. Can only occur once every 15s.",
+          "params": [0.5, 3.6]
+        },
+        {
+          "desc": "On hit, Normal or Charged Attacks have a 50% chance to deal an additional <color=#99FFFFFF>420%</color> ATK DMG to opponents within a small AoE. Can only occur once every 15s.",
+          "params": [0.5, 4.2]
+        },
+        {
+          "desc": "On hit, Normal or Charged Attacks have a 50% chance to deal an additional <color=#99FFFFFF>480%</color> ATK DMG to opponents within a small AoE. Can only occur once every 15s.",
+          "params": [0.5, 4.8]
+        }
       ]
     }
   },
@@ -3093,13 +3275,12 @@
     "subAttr": { "type": 9, "value": 0.1126, "curve": 17 },
     "affix": {
       "name": "Infusion Blade",
-      "desc": "On hit, Normal or Charged Attacks increase ATK and DEF by <color=#99FFFFFF>6%</color> for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
       "levels": [
-        { "attrs": [], "params": [0.06] },
-        { "attrs": [], "params": [0.075] },
-        { "attrs": [], "params": [0.09] },
-        { "attrs": [], "params": [0.105] },
-        { "attrs": [], "params": [0.12] }
+        { "desc": "On hit, Normal or Charged Attacks increase ATK and DEF by <color=#99FFFFFF>6%</color> for 6s. Max 4 stacks. This effect can only occur once every 0.5s.", "params": [0.06] },
+        { "desc": "On hit, Normal or Charged Attacks increase ATK and DEF by <color=#99FFFFFF>7.5%</color> for 6s. Max 4 stacks. This effect can only occur once every 0.5s.", "params": [0.075] },
+        { "desc": "On hit, Normal or Charged Attacks increase ATK and DEF by <color=#99FFFFFF>9%</color> for 6s. Max 4 stacks. This effect can only occur once every 0.5s.", "params": [0.09] },
+        { "desc": "On hit, Normal or Charged Attacks increase ATK and DEF by <color=#99FFFFFF>10.5%</color> for 6s. Max 4 stacks. This effect can only occur once every 0.5s.", "params": [0.105] },
+        { "desc": "On hit, Normal or Charged Attacks increase ATK and DEF by <color=#99FFFFFF>12%</color> for 6s. Max 4 stacks. This effect can only occur once every 0.5s.", "params": [0.12] }
       ]
     }
   },
@@ -3176,13 +3357,27 @@
     "subAttr": { "type": 13, "value": 0.12, "curve": 17 },
     "affix": {
       "name": "Press the Advantage",
-      "desc": "After defeating an opponent, ATK is increased by <color=#99FFFFFF>12%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
       "levels": [
-        { "attrs": [], "params": [0.12, 30] },
-        { "attrs": [], "params": [0.15, 30] },
-        { "attrs": [], "params": [0.18, 30] },
-        { "attrs": [], "params": [0.21, 30] },
-        { "attrs": [], "params": [0.24, 30] }
+        {
+          "desc": "After defeating an opponent, ATK is increased by <color=#99FFFFFF>12%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+          "params": [0.12, 30]
+        },
+        {
+          "desc": "After defeating an opponent, ATK is increased by <color=#99FFFFFF>15%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+          "params": [0.15, 30]
+        },
+        {
+          "desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>18%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+          "params": [0.18, 30]
+        },
+        {
+          "desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>21%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+          "params": [0.21, 30]
+        },
+        {
+          "desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>24%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+          "params": [0.24, 30]
+        }
       ]
     }
   },
@@ -3259,13 +3454,27 @@
     "subAttr": { "type": 12, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "Wavesplitter",
-      "desc": "Every 4s a character is on the field, they will deal <color=#99FFFFFF>6%</color> more DMG and take <color=#99FFFFFF>3%</color> more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
       "levels": [
-        { "attrs": [], "params": [4, 0.06, 0.03] },
-        { "attrs": [], "params": [4, 0.07, 0.027] },
-        { "attrs": [], "params": [4, 0.08, 0.024] },
-        { "attrs": [], "params": [4, 0.09, 0.022] },
-        { "attrs": [], "params": [4, 0.1, 0.02] }
+        {
+          "desc": "Every 4s a character is on the field, they will deal <color=#99FFFFFF>6%</color> more DMG and take <color=#99FFFFFF>3%</color> more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
+          "params": [4, 0.06, 0.03]
+        },
+        {
+          "desc": "Every 4s a character is on the field, they will deal <color=#99FFFFFF>7%</color> more DMG and take <color=#99FFFFFF>2.7%</color> more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
+          "params": [4, 0.07, 0.027]
+        },
+        {
+          "desc": "Every 4s a character is on the field, they will deal <color=#99FFFFFF>8%</color> more DMG and take <color=#99FFFFFF>2.4%</color> more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
+          "params": [4, 0.08, 0.024]
+        },
+        {
+          "desc": "Every 4s a character is on the field, they will deal <color=#99FFFFFF>9%</color> more DMG and take <color=#99FFFFFF>2.2%</color> more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
+          "params": [4, 0.09, 0.022]
+        },
+        {
+          "desc": "Every 4s a character is on the field, they will deal <color=#99FFFFFF>10%</color> more DMG and take <color=#99FFFFFF>2%</color> more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
+          "params": [4, 0.1, 0.02]
+        }
       ]
     }
   },
@@ -3342,13 +3551,27 @@
     "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "Lithic Axiom: Unity",
-      "desc": "For every character in the party who hails from Liyue, the character who equips this weapon gains a <color=#99FFFFFF>7%</color> ATK increase and a <color=#99FFFFFF>3%</color> CRIT Rate increase. This effect stacks up to 4 times.",
       "levels": [
-        { "attrs": [], "params": [0.07, 0.03, 4] },
-        { "attrs": [], "params": [0.08, 0.04, 4] },
-        { "attrs": [], "params": [0.09, 0.05, 4] },
-        { "attrs": [], "params": [0.1, 0.06, 4] },
-        { "attrs": [], "params": [0.11, 0.07, 4] }
+        {
+          "desc": "For every character in the party who hails from Liyue, the character who equips this weapon gains a <color=#99FFFFFF>7%</color> ATK increase and a <color=#99FFFFFF>3%</color> CRIT Rate increase. This effect stacks up to 4 times.",
+          "params": [0.07, 0.03, 4]
+        },
+        {
+          "desc": "For every character in the party who hails from Liyue, the character who equips this weapon gains a <color=#99FFFFFF>8%</color> ATK increase and a <color=#99FFFFFF>4%</color> CRIT Rate increase. This effect stacks up to 4 times.",
+          "params": [0.08, 0.04, 4]
+        },
+        {
+          "desc": "For every character in the party who hails from Liyue, the character who equips this weapon gains a <color=#99FFFFFF>9%</color> ATK increase and a <color=#99FFFFFF>5%</color> CRIT Rate increase. This effect stacks up to 4 times.",
+          "params": [0.09, 0.05, 4]
+        },
+        {
+          "desc": "For every character in the party who hails from Liyue, the character who equips this weapon gains a <color=#99FFFFFF>10%</color> ATK increase and a <color=#99FFFFFF>6%</color> CRIT Rate increase. This effect stacks up to 4 times.",
+          "params": [0.1, 0.06, 4]
+        },
+        {
+          "desc": "For every character in the party who hails from Liyue, the character who equips this weapon gains a <color=#99FFFFFF>11%</color> ATK increase and a <color=#99FFFFFF>7%</color> CRIT Rate increase. This effect stacks up to 4 times.",
+          "params": [0.11, 0.07, 4]
+        }
       ]
     }
   },
@@ -3425,13 +3648,27 @@
     "subAttr": { "type": 33, "value": 0.075067, "curve": 17 },
     "affix": {
       "name": "Frost Burial",
-      "desc": "Hitting an opponent with Normal and Charged Attacks has a <color=#99FFFFFF>60%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>80%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>200%</color> of ATK. Can only occur once every 10s.",
       "levels": [
-        { "attrs": [], "params": [0.6, 0.8, 2, 10] },
-        { "attrs": [], "params": [0.7, 0.95, 2.4, 10] },
-        { "attrs": [], "params": [0.8, 1.1, 2.8, 10] },
-        { "attrs": [], "params": [0.9, 1.25, 3.2, 10] },
-        { "attrs": [], "params": [1, 1.4, 3.6, 10] }
+        {
+          "desc": "Hitting an opponent with Normal and Charged Attacks has a <color=#99FFFFFF>60%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>80%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>200%</color> of ATK. Can only occur once every 10s.",
+          "params": [0.6, 0.8, 2, 10]
+        },
+        {
+          "desc": "Hitting an opponent with Normal and Charged Attacks has a <color=#99FFFFFF>70%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>95%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>240%</color> of ATK. Can only occur once every 10s.",
+          "params": [0.7, 0.95, 2.4, 10]
+        },
+        {
+          "desc": "Hitting an opponent with Normal and Charged Attacks has an <color=#99FFFFFF>80%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>110%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>280%</color> of ATK. Can only occur once every 10s.",
+          "params": [0.8, 1.1, 2.8, 10]
+        },
+        {
+          "desc": "Hitting an opponent with Normal and Charged Attacks has a <color=#99FFFFFF>90%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>125%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>320%</color> of ATK. Can only occur once every 10s.",
+          "params": [0.9, 1.25, 3.2, 10]
+        },
+        {
+          "desc": "Hitting an opponent with Normal and Charged Attacks has a <color=#99FFFFFF>100%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>140%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>360%</color> of ATK. Can only occur once every 10s.",
+          "params": [1, 1.4, 3.6, 10]
+        }
       ]
     }
   },
@@ -3508,13 +3745,27 @@
     "subAttr": { "type": 10, "value": 0.08, "curve": 18 },
     "affix": {
       "name": "Sky-ripping Dragon Spine",
-      "desc": "Increases all DMG by <color=#99FFFFFF>8%</color>. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does <color=#99FFFFFF>80%</color> of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades.",
       "levels": [
-        { "attrs": [], "params": [0.08, 0.8, 20, 8] },
-        { "attrs": [], "params": [0.1, 1, 20, 8] },
-        { "attrs": [], "params": [0.12, 1.2, 20, 8] },
-        { "attrs": [], "params": [0.14, 1.4, 20, 8] },
-        { "attrs": [], "params": [0.16, 1.6, 20, 8] }
+        {
+          "desc": "Increases all DMG by <color=#99FFFFFF>8%</color>. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does <color=#99FFFFFF>80%</color> of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades.",
+          "params": [0.08, 0.8, 20, 8]
+        },
+        {
+          "desc": "Increases all DMG by <color=#99FFFFFF>10%</color>. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does <color=#99FFFFFF>100%</color> of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades.",
+          "params": [0.1, 1, 20, 8]
+        },
+        {
+          "desc": "Increases all DMG by <color=#99FFFFFF>12%</color>. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does <color=#99FFFFFF>120%</color> of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades.",
+          "params": [0.12, 1.2, 20, 8]
+        },
+        {
+          "desc": "Increases all DMG by <color=#99FFFFFF>14%</color>. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does <color=#99FFFFFF>140%</color> of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades.",
+          "params": [0.14, 1.4, 20, 8]
+        },
+        {
+          "desc": "Increases all DMG by <color=#99FFFFFF>16%</color>. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does <color=#99FFFFFF>160%</color> of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades.",
+          "params": [0.16, 1.6, 20, 8]
+        }
       ]
     }
   },
@@ -3591,13 +3842,27 @@
     "subAttr": { "type": 7, "value": 0.108, "curve": 18 },
     "affix": {
       "name": "Wolfish Tracker",
-      "desc": "Increases ATK by <color=#99FFFFFF>20%</color>. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by <color=#99FFFFFF>40%</color> for 12s. Can only occur once every 30s.",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.4] },
-        { "attrs": [], "params": [0.25, 0.5] },
-        { "attrs": [], "params": [0.3, 0.6] },
-        { "attrs": [], "params": [0.35, 0.7] },
-        { "attrs": [], "params": [0.4, 0.8] }
+        {
+          "desc": "Increases ATK by <color=#99FFFFFF>20%</color>. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by <color=#99FFFFFF>40%</color> for 12s. Can only occur once every 30s.",
+          "params": [0.2, 0.4]
+        },
+        {
+          "desc": "Increases ATK by <color=#99FFFFFF>25%</color>. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by <color=#99FFFFFF>50%</color> for 12s. Can only occur once every 30s.",
+          "params": [0.25, 0.5]
+        },
+        {
+          "desc": "Increases ATK by <color=#99FFFFFF>30%</color>. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by <color=#99FFFFFF>60%</color> for 12s. Can only occur once every 30s.",
+          "params": [0.3, 0.6]
+        },
+        {
+          "desc": "Increases ATK by <color=#99FFFFFF>35%</color>. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by <color=#99FFFFFF>70%</color> for 12s. Can only occur once every 30s.",
+          "params": [0.35, 0.7]
+        },
+        {
+          "desc": "Increases ATK by <color=#99FFFFFF>40%</color>. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by <color=#99FFFFFF>80%</color> for 12s. Can only occur once every 30s.",
+          "params": [0.4, 0.8]
+        }
       ]
     }
   },
@@ -3722,13 +3987,27 @@
     "subAttr": { "type": 7, "value": 0.108, "curve": 18 },
     "affix": {
       "name": "Golden Majesty",
-      "desc": "Increases Shield Strength by <color=#99FFFFFF>20%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>4%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.04, 8] },
-        { "attrs": [], "params": [0.25, 0.05, 8] },
-        { "attrs": [], "params": [0.3, 0.06, 8] },
-        { "attrs": [], "params": [0.35, 0.07, 8] },
-        { "attrs": [], "params": [0.4, 0.08, 8] }
+        {
+          "desc": "Increases Shield Strength by <color=#99FFFFFF>20%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>4%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+          "params": [0.2, 0.04, 8]
+        },
+        {
+          "desc": "Increases Shield Strength by <color=#99FFFFFF>25%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>5%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+          "params": [0.25, 0.05, 8]
+        },
+        {
+          "desc": "Increases Shield Strength by <color=#99FFFFFF>30%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>6%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+          "params": [0.3, 0.06, 8]
+        },
+        {
+          "desc": "Increases Shield Strength by <color=#99FFFFFF>35%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>7%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+          "params": [0.35, 0.07, 8]
+        },
+        {
+          "desc": "Increases Shield Strength by <color=#99FFFFFF>40%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>8%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+          "params": [0.4, 0.08, 8]
+        }
       ]
     }
   },
@@ -3949,13 +4228,12 @@
     "subAttr": { "type": 12, "value": 0.051, "curve": 16 },
     "affix": {
       "name": "Sharp",
-      "desc": "Increases Normal Attack DMG by <color=#99FFFFFF>24%</color>.",
       "levels": [
-        { "attrs": [], "params": [0.24] },
-        { "attrs": [], "params": [0.3] },
-        { "attrs": [], "params": [0.36] },
-        { "attrs": [], "params": [0.42] },
-        { "attrs": [], "params": [0.48] }
+        { "desc": "Increases Normal Attack DMG by <color=#99FFFFFF>24%</color>.", "params": [0.24] },
+        { "desc": "Increases Normal Attack DMG by <color=#99FFFFFF>30%</color>.", "params": [0.3] },
+        { "desc": "Increases Normal Attack DMG by <color=#99FFFFFF>36%</color>.", "params": [0.36] },
+        { "desc": "Increases Normal Attack DMG by <color=#99FFFFFF>42%</color>.", "params": [0.42] },
+        { "desc": "Increases Normal Attack DMG by <color=#99FFFFFF>48%</color>.", "params": [0.48] }
       ]
     }
   },
@@ -4032,13 +4310,12 @@
     "subAttr": { "type": 7, "value": 0.051067, "curve": 16 },
     "affix": {
       "name": "Heavy",
-      "desc": "Normal Attacks deal an additional <color=#99FFFFFF>160%</color> ATK as DMG. Can only occur once every 10s.",
       "levels": [
-        { "attrs": [], "params": [1.6, 10] },
-        { "attrs": [], "params": [2, 10] },
-        { "attrs": [], "params": [2.4, 10] },
-        { "attrs": [], "params": [2.8, 10] },
-        { "attrs": [], "params": [3.2, 10] }
+        { "desc": "Normal Attacks deal an additional <color=#99FFFFFF>160%</color> ATK as DMG. Can only occur once every 10s.", "params": [1.6, 10] },
+        { "desc": "Normal Attacks deal an additional <color=#99FFFFFF>200%</color> ATK as DMG. This effect can only occur once every 10s.", "params": [2, 10] },
+        { "desc": "Normal Attacks deal an additional <color=#99FFFFFF>240%</color> ATK as DMG. This effect can only occur once every 10s.", "params": [2.4, 10] },
+        { "desc": "Normal Attacks deal an additional <color=#99FFFFFF>280%</color> ATK as DMG. This effect can only occur once every 10s.", "params": [2.8, 10] },
+        { "desc": "Normal Attacks deal an additional <color=#99FFFFFF>320%</color> ATK as DMG. This effect can only occur once every 10s.", "params": [3.2, 10] }
       ]
     }
   },
@@ -4115,13 +4392,12 @@
     "subAttr": { "type": 5, "value": 0.10213, "curve": 16 },
     "affix": {
       "name": "Bane of the Soft",
-      "desc": "Increases DMG against slimes by <color=#99FFFFFF>40%</color>.",
       "levels": [
-        { "attrs": [], "params": [0.4] },
-        { "attrs": [], "params": [0.5] },
-        { "attrs": [], "params": [0.6] },
-        { "attrs": [], "params": [0.7] },
-        { "attrs": [], "params": [0.8] }
+        { "desc": "Increases DMG against slimes by <color=#99FFFFFF>40%</color>.", "params": [0.4] },
+        { "desc": "Increases DMG against slimes by <color=#99FFFFFF>50%</color>.", "params": [0.5] },
+        { "desc": "Increases DMG against slimes by <color=#99FFFFFF>60%</color>.", "params": [0.6] },
+        { "desc": "Increases DMG against slimes by <color=#99FFFFFF>70%</color>.", "params": [0.7] },
+        { "desc": "Increases DMG against slimes by <color=#99FFFFFF>80%</color>.", "params": [0.8] }
       ]
     }
   },
@@ -4197,13 +4473,12 @@
     ],
     "affix": {
       "name": "TBD",
-      "desc": "Defeating an opponent restores <color=#99FFFFFF>8%</color> HP.",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "Defeating an opponent restores <color=#99FFFFFF>8%</color> HP.", "params": [0.08] },
+        { "desc": "Defeating an opponent restores <color=#99FFFFFF>10%</color> HP.", "params": [0.1] },
+        { "desc": "Defeating an opponent restores <color=#99FFFFFF>12%</color> HP.", "params": [0.12] },
+        { "desc": "Defeating an opponent restores <color=#99FFFFFF>14%</color> HP.", "params": [0.14] },
+        { "desc": "Defeating an opponent restores <color=#99FFFFFF>16%</color> HP.", "params": [0.16] }
       ]
     }
   },
@@ -4280,13 +4555,12 @@
     "subAttr": { "type": 11, "value": 48, "curve": 17 },
     "affix": {
       "name": "Bane of Flame and Water",
-      "desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>20%</color>.",
       "levels": [
-        { "attrs": [], "params": [0.2] },
-        { "attrs": [], "params": [0.24] },
-        { "attrs": [], "params": [0.28] },
-        { "attrs": [], "params": [0.32] },
-        { "attrs": [], "params": [0.36] }
+        { "desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>20%</color>.", "params": [0.2] },
+        { "desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>24%</color>.", "params": [0.24] },
+        { "desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>28%</color>.", "params": [0.28] },
+        { "desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>32%</color>.", "params": [0.32] },
+        { "desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>36%</color>.", "params": [0.36] }
       ]
     }
   },
@@ -4363,13 +4637,12 @@
     "subAttr": { "type": 10, "value": 0.1, "curve": 17 },
     "affix": {
       "name": "Magic Affinity",
-      "desc": "After using an Elemental Skill, increases Normal and Charged Attack DMG by <color=#99FFFFFF>8%</color> for 12s. Max 2 stacks.",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "After using an Elemental Skill, increases Normal and Charged Attack DMG by <color=#99FFFFFF>8%</color> for 12s. Max 2 stacks.", "params": [0.08] },
+        { "desc": "After using an Elemental Skill, increases Normal and Charged Attack DMG by <color=#99FFFFFF>10%</color> for 12s. Max 2 stacks.", "params": [0.1] },
+        { "desc": "After using an Elemental Skill, increases Normal and Charged Attack DMG by <color=#99FFFFFF>12%</color> for 12s. Max 2 stacks.", "params": [0.12] },
+        { "desc": "After using an Elemental Skill, increases Normal and Charged Attack DMG by <color=#99FFFFFF>14%</color> for 12s. Max 2 stacks.", "params": [0.14] },
+        { "desc": "After using an Elemental Skill, increases Normal and Charged Attack DMG by <color=#99FFFFFF>16%</color> for 12s. Max 2 stacks.", "params": [0.16] }
       ]
     }
   },
@@ -4446,13 +4719,12 @@
     "subAttr": { "type": 33, "value": 0.075067, "curve": 17 },
     "affix": {
       "name": "Infusion Needle",
-      "desc": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>20%</color> of ATK for 5s.",
       "levels": [
-        { "attrs": [], "params": [0.2] },
-        { "attrs": [], "params": [0.25] },
-        { "attrs": [], "params": [0.3] },
-        { "attrs": [], "params": [0.35] },
-        { "attrs": [], "params": [0.4] }
+        { "desc": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>20%</color> of ATK for 5s.", "params": [0.2] },
+        { "desc": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>25%</color> of ATK for 5s.", "params": [0.25] },
+        { "desc": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>30%</color> of ATK for 5s.", "params": [0.3] },
+        { "desc": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>35%</color> of ATK for 5s.", "params": [0.35] },
+        { "desc": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>40%</color> of ATK for 5s.", "params": [0.4] }
       ]
     }
   },
@@ -4529,13 +4801,27 @@
     "subAttr": { "type": 13, "value": 0.12, "curve": 17 },
     "affix": {
       "name": "Press the Advantage",
-      "desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>12%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
       "levels": [
-        { "attrs": [], "params": [0.12, 30] },
-        { "attrs": [], "params": [0.15, 30] },
-        { "attrs": [], "params": [0.18, 30] },
-        { "attrs": [], "params": [0.21, 30] },
-        { "attrs": [], "params": [0.24, 30] }
+        {
+          "desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>12%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+          "params": [0.12, 30]
+        },
+        {
+          "desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>15%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+          "params": [0.15, 30]
+        },
+        {
+          "desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>18%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+          "params": [0.18, 30]
+        },
+        {
+          "desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>21%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+          "params": [0.21, 30]
+        },
+        {
+          "desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>24%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+          "params": [0.24, 30]
+        }
       ]
     }
   },
@@ -4612,13 +4898,27 @@
     "subAttr": { "type": 12, "value": 0.08, "curve": 17 },
     "affix": {
       "name": "Gladiator",
-      "desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>16%</color> and DEF is increased by <color=#99FFFFFF>16%</color>. If there are less than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>24%</color>.",
       "levels": [
-        { "attrs": [], "params": [2, 0.24, 0.16, 0.16] },
-        { "attrs": [], "params": [2, 0.3, 0.2, 0.2] },
-        { "attrs": [], "params": [2, 0.36, 0.24, 0.24] },
-        { "attrs": [], "params": [2, 0.42, 0.28, 0.28] },
-        { "attrs": [], "params": [2, 0.48, 0.32, 0.32] }
+        {
+          "desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>16%</color> and DEF is increased by <color=#99FFFFFF>16%</color>. If there are less than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>24%</color>.",
+          "params": [2, 0.24, 0.16, 0.16]
+        },
+        {
+          "desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>20%</color> and DEF is increased by <color=#99FFFFFF>20%</color>. If there are less than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>30%</color>.",
+          "params": [2, 0.3, 0.2, 0.2]
+        },
+        {
+          "desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>24%</color> and DEF is increased by <color=#99FFFFFF>24%</color>. If there are less than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>36%</color>.",
+          "params": [2, 0.36, 0.24, 0.24]
+        },
+        {
+          "desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>28%</color> and DEF is increased by <color=#99FFFFFF>28%</color>. If there are less than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>42%</color>.",
+          "params": [2, 0.42, 0.28, 0.28]
+        },
+        {
+          "desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>32%</color> and DEF is increased by <color=#99FFFFFF>32%</color>. If there are less than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>48%</color>.",
+          "params": [2, 0.48, 0.32, 0.32]
+        }
       ]
     }
   },
@@ -4695,13 +4995,27 @@
     "subAttr": { "type": 7, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "Lithic Axiom: Unity",
-      "desc": "For every character in the party who hails from Liyue, the character who equips this weapon gains a <color=#99FFFFFF>7%</color> ATK increase and a <color=#99FFFFFF>3%</color> CRIT Rate increase. This effect stacks up to 4 times.",
       "levels": [
-        { "attrs": [], "params": [0.07, 0.03, 4] },
-        { "attrs": [], "params": [0.08, 0.04, 4] },
-        { "attrs": [], "params": [0.09, 0.05, 4] },
-        { "attrs": [], "params": [0.1, 0.06, 4] },
-        { "attrs": [], "params": [0.11, 0.07, 4] }
+        {
+          "desc": "For every character in the party who hails from Liyue, the character who equips this weapon gains a <color=#99FFFFFF>7%</color> ATK increase and a <color=#99FFFFFF>3%</color> CRIT Rate increase. This effect stacks up to 4 times.",
+          "params": [0.07, 0.03, 4]
+        },
+        {
+          "desc": "For every character in the party who hails from Liyue, the character who equips this weapon gains a <color=#99FFFFFF>8%</color> ATK increase and a <color=#99FFFFFF>4%</color> CRIT Rate increase. This effect stacks up to 4 times.",
+          "params": [0.08, 0.04, 4]
+        },
+        {
+          "desc": "For every character in the party who hails from Liyue, the character who equips this weapon gains a <color=#99FFFFFF>9%</color> ATK increase and a <color=#99FFFFFF>5%</color> CRIT Rate increase. This effect stacks up to 4 times.",
+          "params": [0.09, 0.05, 4]
+        },
+        {
+          "desc": "For every character in the party who hails from Liyue, the character who equips this weapon gains a <color=#99FFFFFF>10%</color> ATK increase and a <color=#99FFFFFF>6%</color> CRIT Rate increase. This effect stacks up to 4 times.",
+          "params": [0.1, 0.06, 4]
+        },
+        {
+          "desc": "For every character in the party who hails from Liyue, the character who equips this weapon gains a <color=#99FFFFFF>11%</color> ATK increase and a <color=#99FFFFFF>7%</color> CRIT Rate increase. This effect stacks up to 4 times.",
+          "params": [0.11, 0.07, 4]
+        }
       ]
     }
   },
@@ -4778,13 +5092,27 @@
     "subAttr": { "type": 10, "value": 0.066667, "curve": 17 },
     "affix": {
       "name": "Windfall",
-      "desc": "CRIT Hits have a <color=#99FFFFFF>60%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>12</color>s.",
       "levels": [
-        { "attrs": [], "params": [0.6, 12] },
-        { "attrs": [], "params": [0.7, 10.5] },
-        { "attrs": [], "params": [0.8, 9] },
-        { "attrs": [], "params": [0.9, 7.5] },
-        { "attrs": [], "params": [1, 6] }
+        {
+          "desc": "CRIT Hits have a <color=#99FFFFFF>60%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>12</color>s.",
+          "params": [0.6, 12]
+        },
+        {
+          "desc": "CRIT Hits have a <color=#99FFFFFF>70%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>10.5</color>s.",
+          "params": [0.7, 10.5]
+        },
+        {
+          "desc": "CRIT Hits have a <color=#99FFFFFF>80%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>9</color>s.",
+          "params": [0.8, 9]
+        },
+        {
+          "desc": "CRIT Hits have a <color=#99FFFFFF>90%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>7.5</color>s.",
+          "params": [0.9, 7.5]
+        },
+        {
+          "desc": "CRIT Hits have a <color=#99FFFFFF>100%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>6</color>s.",
+          "params": [1, 6]
+        }
       ]
     }
   },
@@ -4861,13 +5189,12 @@
     "subAttr": { "type": 7, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "Focus",
-      "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>8%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>8%</color>. Max 5 stacks. A CRIT Hit removes all stacks.", "params": [0.08] },
+        { "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>10%</color>. Max 5 stacks. A CRIT Hit removes all stacks.", "params": [0.1] },
+        { "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>12%</color>. Max 5 stacks. A CRIT Hit removes all stacks.", "params": [0.12] },
+        { "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>14%</color>. Max 5 stacks. A CRIT Hit removes all stacks.", "params": [0.14] },
+        { "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>16%</color>. Max 5 stacks. A CRIT Hit removes all stacks.", "params": [0.16] }
       ]
     }
   },
@@ -4944,13 +5271,27 @@
     "subAttr": { "type": 33, "value": 0.15013, "curve": 17 },
     "affix": {
       "name": "Frost Burial",
-      "desc": "Hitting an opponent with Normal and Charged Attacks has a <color=#99FFFFFF>60%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>80%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>200%</color> of ATK. Can only occur once every 10s.",
       "levels": [
-        { "attrs": [], "params": [0.6, 0.8, 2, 10] },
-        { "attrs": [], "params": [0.7, 0.95, 2.4, 10] },
-        { "attrs": [], "params": [0.8, 1.1, 2.8, 10] },
-        { "attrs": [], "params": [0.9, 1.25, 3.2, 10] },
-        { "attrs": [], "params": [1, 1.4, 3.6, 10] }
+        {
+          "desc": "Hitting an opponent with Normal and Charged Attacks has a <color=#99FFFFFF>60%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>80%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>200%</color> of ATK. Can only occur once every 10s.",
+          "params": [0.6, 0.8, 2, 10]
+        },
+        {
+          "desc": "Hitting an opponent with Normal and Charged Attacks has a <color=#99FFFFFF>70%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>95%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>240%</color> of ATK. Can only occur once every 10s.",
+          "params": [0.7, 0.95, 2.4, 10]
+        },
+        {
+          "desc": "Hitting an opponent with Normal and Charged Attacks has an <color=#99FFFFFF>80%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>110%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>280%</color> of ATK. Can only occur once every 10s.",
+          "params": [0.8, 1.1, 2.8, 10]
+        },
+        {
+          "desc": "Hitting an opponent with Normal and Charged Attacks has a <color=#99FFFFFF>90%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>125%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>320%</color> of ATK. Can only occur once every 10s.",
+          "params": [0.9, 1.25, 3.2, 10]
+        },
+        {
+          "desc": "Hitting an opponent with Normal and Charged Attacks has a <color=#99FFFFFF>100%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>140%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>360%</color> of ATK. Can only occur once every 10s.",
+          "params": [1, 1.4, 3.6, 10]
+        }
       ]
     }
   },
@@ -5027,13 +5368,27 @@
     "subAttr": { "type": 13, "value": 0.144, "curve": 18 },
     "affix": {
       "name": "Reckless Cinnabar",
-      "desc": "HP increased by <color=#99FFFFFF>20%</color>. Additionally, provides an ATK Bonus based on <color=#99FFFFFF>0.8%</color> of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional <color=#99FFFFFF>1%</color> of Max HP.",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.008, 0.01] },
-        { "attrs": [], "params": [0.25, 0.01, 0.012] },
-        { "attrs": [], "params": [0.3, 0.012, 0.014] },
-        { "attrs": [], "params": [0.35, 0.014, 0.016] },
-        { "attrs": [], "params": [0.4, 0.016, 0.018] }
+        {
+          "desc": "HP increased by <color=#99FFFFFF>20%</color>. Additionally, provides an ATK Bonus based on <color=#99FFFFFF>0.8%</color> of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional <color=#99FFFFFF>1%</color> of Max HP.",
+          "params": [0.2, 0.008, 0.01]
+        },
+        {
+          "desc": "HP increased by <color=#99FFFFFF>25%</color>. Additionally, provides an ATK Bonus based on <color=#99FFFFFF>1%</color> of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional <color=#99FFFFFF>1.2%</color> of Max HP.",
+          "params": [0.25, 0.01, 0.012]
+        },
+        {
+          "desc": "HP increased by <color=#99FFFFFF>30%</color>. Additionally, provides an ATK Bonus based on <color=#99FFFFFF>1.2%</color> of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional <color=#99FFFFFF>1.4%</color> of Max HP.",
+          "params": [0.3, 0.012, 0.014]
+        },
+        {
+          "desc": "HP increased by <color=#99FFFFFF>35%</color>. Additionally, provides an ATK Bonus based on <color=#99FFFFFF>1.4%</color> of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional <color=#99FFFFFF>1.6%</color> of Max HP.",
+          "params": [0.35, 0.014, 0.016]
+        },
+        {
+          "desc": "HP increased by <color=#99FFFFFF>40%</color>. Additionally, provides an ATK Bonus based on <color=#99FFFFFF>1.6%</color> of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional <color=#99FFFFFF>1.8%</color> of Max HP.",
+          "params": [0.4, 0.016, 0.018]
+        }
       ]
     }
   },
@@ -5110,13 +5465,27 @@
     "subAttr": { "type": 10, "value": 0.08, "curve": 18 },
     "affix": {
       "name": "Black Wing",
-      "desc": "Increases CRIT Rate by <color=#99FFFFFF>8%</color> and increases Normal ATK SPD by <color=#99FFFFFF>12%</color>. Additionally, Normal and Charged Attacks hits on opponents have a <color=#99FFFFFF>50%</color> chance to trigger a vacuum blade that deals <color=#99FFFFFF>40%</color> of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.",
       "levels": [
-        { "attrs": [], "params": [0.08, 0.12, 0.5, 0.4, 2] },
-        { "attrs": [], "params": [0.1, 0.12, 0.5, 0.55, 2] },
-        { "attrs": [], "params": [0.12, 0.12, 0.5, 0.7, 2] },
-        { "attrs": [], "params": [0.14, 0.12, 0.5, 0.85, 2] },
-        { "attrs": [], "params": [0.16, 0.12, 0.5, 1, 2] }
+        {
+          "desc": "Increases CRIT Rate by <color=#99FFFFFF>8%</color> and increases Normal ATK SPD by <color=#99FFFFFF>12%</color>. Additionally, Normal and Charged Attacks hits on opponents have a <color=#99FFFFFF>50%</color> chance to trigger a vacuum blade that deals <color=#99FFFFFF>40%</color> of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.",
+          "params": [0.08, 0.12, 0.5, 0.4, 2]
+        },
+        {
+          "desc": "Increases CRIT Rate by <color=#99FFFFFF>10%</color> and increases Normal ATK SPD by <color=#99FFFFFF>12%</color>. Additionally, Normal and Charged Attacks hits on opponents have a <color=#99FFFFFF>50%</color> chance to trigger a vacuum blade that deals <color=#99FFFFFF>55%</color> of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.",
+          "params": [0.1, 0.12, 0.5, 0.55, 2]
+        },
+        {
+          "desc": "Increases CRIT Rate by <color=#99FFFFFF>12%</color> and increases Normal ATK SPD by <color=#99FFFFFF>12%</color>. Additionally, Normal and Charged Attacks hits on opponents have a <color=#99FFFFFF>50%</color> chance to trigger a vacuum blade that deals <color=#99FFFFFF>70%</color> of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.",
+          "params": [0.12, 0.12, 0.5, 0.7, 2]
+        },
+        {
+          "desc": "Increases CRIT Rate by <color=#99FFFFFF>14%</color> and increases Normal ATK SPD by <color=#99FFFFFF>12%</color>. Additionally, Normal and Charged Attacks hits on opponents have a <color=#99FFFFFF>50%</color> chance to trigger a vacuum blade that deals <color=#99FFFFFF>85%</color> of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.",
+          "params": [0.14, 0.12, 0.5, 0.85, 2]
+        },
+        {
+          "desc": "Increases CRIT Rate by <color=#99FFFFFF>16%</color> and increases Normal ATK SPD by <color=#99FFFFFF>12%</color>. Additionally, Normal and Charged Attacks hits on opponents have a <color=#99FFFFFF>50%</color> chance to trigger a vacuum blade that deals <color=#99FFFFFF>100%</color> of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.",
+          "params": [0.16, 0.12, 0.5, 1, 2]
+        }
       ]
     }
   },
@@ -5193,13 +5562,27 @@
     "subAttr": { "type": 7, "value": 0.108, "curve": 18 },
     "affix": {
       "name": "Golden Majesty",
-      "desc": "Increases Shield Strength by <color=#99FFFFFF>20%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>4%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.04, 8] },
-        { "attrs": [], "params": [0.25, 0.05, 8] },
-        { "attrs": [], "params": [0.3, 0.06, 8] },
-        { "attrs": [], "params": [0.35, 0.07, 8] },
-        { "attrs": [], "params": [0.4, 0.08, 8] }
+        {
+          "desc": "Increases Shield Strength by <color=#99FFFFFF>20%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>4%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+          "params": [0.2, 0.04, 8]
+        },
+        {
+          "desc": "Increases Shield Strength by <color=#99FFFFFF>25%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>5%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+          "params": [0.25, 0.05, 8]
+        },
+        {
+          "desc": "Increases Shield Strength by <color=#99FFFFFF>30%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>6%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+          "params": [0.3, 0.06, 8]
+        },
+        {
+          "desc": "Increases Shield Strength by <color=#99FFFFFF>35%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>7%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+          "params": [0.35, 0.07, 8]
+        },
+        {
+          "desc": "Increases Shield Strength by <color=#99FFFFFF>40%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>8%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+          "params": [0.4, 0.08, 8]
+        }
       ]
     }
   },
@@ -5276,13 +5659,27 @@
     "subAttr": { "type": 12, "value": 0.048, "curve": 18 },
     "affix": {
       "name": "Eagle Spear of Justice",
-      "desc": "On hit, increases ATK by <color=#99FFFFFF>3.2%</color> for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by <color=#99FFFFFF>12%</color>.",
       "levels": [
-        { "attrs": [], "params": [0.032, 0.12] },
-        { "attrs": [], "params": [0.039, 0.15] },
-        { "attrs": [], "params": [0.046, 0.18] },
-        { "attrs": [], "params": [0.053, 0.21] },
-        { "attrs": [], "params": [0.06, 0.24] }
+        {
+          "desc": "On hit, increases ATK by <color=#99FFFFFF>3.2%</color> for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by <color=#99FFFFFF>12%</color>.",
+          "params": [0.032, 0.12]
+        },
+        {
+          "desc": "On hit, increases ATK by <color=#99FFFFFF>3.9%</color> for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by <color=#99FFFFFF>15%</color>.",
+          "params": [0.039, 0.15]
+        },
+        {
+          "desc": "On hit, increases ATK by <color=#99FFFFFF>4.6%</color> for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by <color=#99FFFFFF>18%</color>.",
+          "params": [0.046, 0.18]
+        },
+        {
+          "desc": "On hit, increases ATK by <color=#99FFFFFF>5.3%</color> for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by <color=#99FFFFFF>21%</color>.",
+          "params": [0.053, 0.21]
+        },
+        {
+          "desc": "On hit, increases ATK by <color=#99FFFFFF>6%</color> for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by <color=#99FFFFFF>24%</color>.",
+          "params": [0.06, 0.24]
+        }
       ]
     }
   },
@@ -5503,13 +5900,12 @@
     "subAttr": { "type": 11, "value": 40.8, "curve": 16 },
     "affix": {
       "name": "Bane of Storm and Tide",
-      "desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>12%</color>.",
       "levels": [
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.15] },
-        { "attrs": [], "params": [0.18] },
-        { "attrs": [], "params": [0.21] },
-        { "attrs": [], "params": [0.24] }
+        { "desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>12%</color>.", "params": [0.12] },
+        { "desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>15%</color>.", "params": [0.15] },
+        { "desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>18%</color>.", "params": [0.18] },
+        { "desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>21%</color>.", "params": [0.21] },
+        { "desc": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>24%</color>.", "params": [0.24] }
       ]
     }
   },
@@ -5586,13 +5982,27 @@
     "subAttr": { "type": 5, "value": 0.0766, "curve": 16 },
     "affix": {
       "name": "Heritage",
-      "desc": "When switching characters, the new character taking the field has their ATK increased by <color=#99FFFFFF>24%</color> for 10s. This effect can only occur once every 20s.",
       "levels": [
-        { "attrs": [], "params": [0.24, 10, 20] },
-        { "attrs": [], "params": [0.3, 10, 20] },
-        { "attrs": [], "params": [0.36, 10, 20] },
-        { "attrs": [], "params": [0.42, 10, 20] },
-        { "attrs": [], "params": [0.48, 10, 20] }
+        {
+          "desc": "When switching characters, the new character taking the field has their ATK increased by <color=#99FFFFFF>24%</color> for 10s. This effect can only occur once every 20s.",
+          "params": [0.24, 10, 20]
+        },
+        {
+          "desc": "When switching characters, the new character taking the field has their ATK increased by <color=#99FFFFFF>30%</color> for 10s. This effect can only occur once every 20s.",
+          "params": [0.3, 10, 20]
+        },
+        {
+          "desc": "When switching characters, the new character taking the field has their ATK increased by <color=#99FFFFFF>36%</color> for 10s. This effect can only occur once every 20s.",
+          "params": [0.36, 10, 20]
+        },
+        {
+          "desc": "When switching characters, the new character taking the field has their ATK increased by <color=#99FFFFFF>42%</color> for 10s. This effect can only occur once every 20s.",
+          "params": [0.42, 10, 20]
+        },
+        {
+          "desc": "When switching characters, the new character taking the field has their ATK increased by <color=#99FFFFFF>48%</color> for 10s. This effect can only occur once every 20s.",
+          "params": [0.48, 10, 20]
+        }
       ]
     }
   },
@@ -5669,13 +6079,12 @@
     "subAttr": { "type": 10, "value": 0.085, "curve": 16 },
     "affix": {
       "name": "Energy Shower",
-      "desc": "Picking up an Elemental Energy Orb/Particle recovers <color=#99FFFFFF>1%</color> HP.",
       "levels": [
-        { "attrs": [], "params": [0.01] },
-        { "attrs": [], "params": [0.0125] },
-        { "attrs": [], "params": [0.015] },
-        { "attrs": [], "params": [0.0175] },
-        { "attrs": [], "params": [0.02] }
+        { "desc": "Picking up an Elemental Energy Orb/Particle recovers <color=#99FFFFFF>1%</color> HP.", "params": [0.01] },
+        { "desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>1.25</color>% HP.", "params": [0.0125] },
+        { "desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>1.5%</color> HP.", "params": [0.015] },
+        { "desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>1.75%</color> HP.", "params": [0.0175] },
+        { "desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>2%</color> HP.", "params": [0.02] }
       ]
     }
   },
@@ -5752,13 +6161,12 @@
     "subAttr": { "type": 11, "value": 20.4, "curve": 16 },
     "affix": {
       "name": "Rapids",
-      "desc": "Upon causing a Vaporize, Electro-Charged, Frozen, or a Hydro-infused Swirl reaction, increases ATK by <color=#99FFFFFF>20%</color> for 12s.",
       "levels": [
-        { "attrs": [], "params": [0.2] },
-        { "attrs": [], "params": [0.25] },
-        { "attrs": [], "params": [0.3] },
-        { "attrs": [], "params": [0.35] },
-        { "attrs": [], "params": [0.4] }
+        { "desc": "Upon causing a Vaporize, Electro-Charged, Frozen, or a Hydro-infused Swirl reaction, increases ATK by <color=#99FFFFFF>20%</color> for 12s.", "params": [0.2] },
+        { "desc": "Upon causing a Vaporize, Electro-Charged, Frozen, or a Hydro-infused Swirl reaction, increases ATK by <color=#99FFFFFF>25%</color> for 12s.", "params": [0.25] },
+        { "desc": "Upon causing a Vaporize, Electro-Charged, Frozen, or a Hydro-infused Swirl reaction, increases ATK by <color=#99FFFFFF>30%</color> for 12s.", "params": [0.3] },
+        { "desc": "Upon causing a Vaporize, Electro-Charged, Frozen, or a Hydro-infused Swirl reaction, increases ATK by <color=#99FFFFFF>35%</color> for 12s.", "params": [0.35] },
+        { "desc": "Upon causing a Vaporize, Electro-Charged, Frozen, or a Hydro-infused Swirl reaction, increases ATK by <color=#99FFFFFF>40%</color> for 12s.", "params": [0.4] }
       ]
     }
   },
@@ -5835,13 +6243,12 @@
     "subAttr": { "type": 12, "value": 0.034, "curve": 16 },
     "affix": {
       "name": "Guerilla Tactics",
-      "desc": "Defeating an opponent increases Movement SPD and ATK by <color=#99FFFFFF>12%</color> for 15s.",
       "levels": [
-        { "attrs": [], "params": [0.12, 15] },
-        { "attrs": [], "params": [0.14, 15] },
-        { "attrs": [], "params": [0.16, 15] },
-        { "attrs": [], "params": [0.18, 15] },
-        { "attrs": [], "params": [0.2, 15] }
+        { "desc": "Defeating an opponent increases Movement SPD and ATK by <color=#99FFFFFF>12%</color> for 15s.", "params": [0.12, 15] },
+        { "desc": "Defeating an opponent increases Movement SPD and ATK by <color=#99FFFFFF>14%</color> for 15s.", "params": [0.14, 15] },
+        { "desc": "Defeating an opponent increases Movement SPD and ATK by <color=#99FFFFFF>16%</color> for 15s.", "params": [0.16, 15] },
+        { "desc": "Defeating an opponent increases Movement SPD and ATK by <color=#99FFFFFF>18%</color> for 15s.", "params": [0.18, 15] },
+        { "desc": "Defeating an opponent increases Movement SPD and ATK by <color=#99FFFFFF>20%</color> for 15s.", "params": [0.2, 15] }
       ]
     }
   },
@@ -5918,13 +6325,12 @@
     "subAttr": { "type": 11, "value": 30.6, "curve": 16 },
     "affix": {
       "name": "Elemental Mastery",
-      "desc": "Normal Attack hits increase all Elemental DMG by <color=#99FFFFFF>6%</color> for 6s. Max 2 stacks.",
       "levels": [
-        { "attrs": [], "params": [0.06, 6] },
-        { "attrs": [], "params": [0.075, 6] },
-        { "attrs": [], "params": [0.09, 6] },
-        { "attrs": [], "params": [0.105, 6] },
-        { "attrs": [], "params": [0.12, 6] }
+        { "desc": "Normal Attack hits increase all Elemental DMG by <color=#99FFFFFF>6%</color> for 6s. Max 2 stacks.", "params": [0.06, 6] },
+        { "desc": "Normal Attack hits increase all Elemental DMG by <color=#99FFFFFF>7.5%</color> for 6s. Max 2 stacks.", "params": [0.075, 6] },
+        { "desc": "Normal Attack hits increase all Elemental DMG by <color=#99FFFFFF>9%</color> for 6s. Max 2 stacks.", "params": [0.09, 6] },
+        { "desc": "Normal Attack hits increase all Elemental DMG by <color=#99FFFFFF>10.5%</color> for 6s. Max 2 stacks.", "params": [0.105, 6] },
+        { "desc": "Normal Attack hits increase all Elemental DMG by <color=#99FFFFFF>12%</color> for 6s. Max 2 stacks.", "params": [0.12, 6] }
       ]
     }
   },
@@ -6001,13 +6407,27 @@
     "subAttr": { "type": 10, "value": 0.1, "curve": 17 },
     "affix": {
       "name": "Windfall",
-      "desc": "CRIT Hits have a <color=#99FFFFFF>60%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>12</color>s.",
       "levels": [
-        { "attrs": [], "params": [0.6, 12] },
-        { "attrs": [], "params": [0.7, 10.5] },
-        { "attrs": [], "params": [0.8, 9] },
-        { "attrs": [], "params": [0.9, 7.5] },
-        { "attrs": [], "params": [1, 6] }
+        {
+          "desc": "CRIT Hits have a <color=#99FFFFFF>60%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>12</color>s.",
+          "params": [0.6, 12]
+        },
+        {
+          "desc": "CRIT Hits have a <color=#99FFFFFF>70%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>10.5</color>s.",
+          "params": [0.7, 10.5]
+        },
+        {
+          "desc": "CRIT Hits have a <color=#99FFFFFF>80%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>9</color>s.",
+          "params": [0.8, 9]
+        },
+        {
+          "desc": "CRIT Hits have a <color=#99FFFFFF>90%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>7.5</color>s.",
+          "params": [0.9, 7.5]
+        },
+        {
+          "desc": "CRIT Hits have a <color=#99FFFFFF>100%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>6</color>s.",
+          "params": [1, 6]
+        }
       ]
     }
   },
@@ -6084,13 +6504,27 @@
     "subAttr": { "type": 13, "value": 0.12, "curve": 17 },
     "affix": {
       "name": "Debut",
-      "desc": "When the character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s. Recitative: ATK is increased by <color=#99FFFFFF>60%</color>. Aria: Increases all Elemental DMG by <color=#99FFFFFF>48%</color>. Interlude: Elemental Mastery is increased by <color=#99FFFFFF>240</color>.",
       "levels": [
-        { "attrs": [], "params": [0.6, 0.48, 240, 10, 30] },
-        { "attrs": [], "params": [0.75, 0.6, 300, 10, 30] },
-        { "attrs": [], "params": [0.9, 0.72, 360, 10, 30] },
-        { "attrs": [], "params": [1.05, 0.84, 420, 10, 30] },
-        { "attrs": [], "params": [1.2, 0.96, 480, 10, 30] }
+        {
+          "desc": "When the character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s. Recitative: ATK is increased by <color=#99FFFFFF>60%</color>. Aria: Increases all Elemental DMG by <color=#99FFFFFF>48%</color>. Interlude: Elemental Mastery is increased by <color=#99FFFFFF>240</color>.",
+          "params": [0.6, 0.48, 240, 10, 30]
+        },
+        {
+          "desc": "When the character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s. Recitative: ATK is increased by <color=#99FFFFFF>75%</color>. Aria: Increases all Elemental DMG by <color=#99FFFFFF>60%</color>. Interlude: Elemental Mastery is increased by <color=#99FFFFFF>300</color>.",
+          "params": [0.75, 0.6, 300, 10, 30]
+        },
+        {
+          "desc": "When the character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s. Recitative: ATK is increased by <color=#99FFFFFF>90%</color>. Aria: Increases all Elemental DMG by <color=#99FFFFFF>72%</color>. Interlude: Elemental Mastery is increased by <color=#99FFFFFF>360</color>.",
+          "params": [0.9, 0.72, 360, 10, 30]
+        },
+        {
+          "desc": "When the character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s. Recitative: ATK is increased by <color=#99FFFFFF>105%</color>. Aria: Increases all Elemental DMG by <color=#99FFFFFF>84%</color>. Interlude: Elemental Mastery is increased by <color=#99FFFFFF>420</color>.",
+          "params": [1.05, 0.84, 420, 10, 30]
+        },
+        {
+          "desc": "When the character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s. Recitative: ATK is increased by <color=#99FFFFFF>120%</color>. Aria: Increases all Elemental DMG by <color=#99FFFFFF>96%</color>. Interlude: Elemental Mastery is increased by <color=#99FFFFFF>480</color>.",
+          "params": [1.2, 0.96, 480, 10, 30]
+        }
       ]
     }
   },
@@ -6167,13 +6601,27 @@
     "subAttr": { "type": 11, "value": 48, "curve": 17 },
     "affix": {
       "name": "Composed",
-      "desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>40%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>30</color>s.",
       "levels": [
-        { "attrs": [], "params": [0.4, 30] },
-        { "attrs": [], "params": [0.5, 26] },
-        { "attrs": [], "params": [0.6, 22] },
-        { "attrs": [], "params": [0.7, 19] },
-        { "attrs": [], "params": [0.8, 16] }
+        {
+          "desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>40%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>30</color>s.",
+          "params": [0.4, 30]
+        },
+        {
+          "desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>50%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>26</color>s.",
+          "params": [0.5, 26]
+        },
+        {
+          "desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>60%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>22s</color>.",
+          "params": [0.6, 22]
+        },
+        {
+          "desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>70%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>19</color>s.",
+          "params": [0.7, 19]
+        },
+        {
+          "desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>80%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>16s</color>.",
+          "params": [0.8, 16]
+        }
       ]
     }
   },
@@ -6250,13 +6698,12 @@
     "subAttr": { "type": 7, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "Focus",
-      "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>8%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>8%</color>. Max 5 stacks. A CRIT Hit removes all stacks.", "params": [0.08] },
+        { "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>10%</color>. Max 5 stacks. A CRIT Hit removes all stacks.", "params": [0.1] },
+        { "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>12%</color>. Max 5 stacks. A CRIT Hit removes all stacks.", "params": [0.12] },
+        { "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>14%</color>. Max 5 stacks. A CRIT Hit removes all stacks.", "params": [0.14] },
+        { "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>16%</color>. Max 5 stacks. A CRIT Hit removes all stacks.", "params": [0.16] }
       ]
     }
   },
@@ -6333,13 +6780,27 @@
     "subAttr": { "type": 12, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "Solar Shine",
-      "desc": "Normal Attack hits increase Elemental Skill and Elemental Burst DMG by <color=#99FFFFFF>20%</color> for 6s. Likewise, Elemental Skill or Elemental Burst hits increase Normal Attack DMG by <color=#99FFFFFF>20%</color> for 6s.",
       "levels": [
-        { "attrs": [], "params": [0.2] },
-        { "attrs": [], "params": [0.25] },
-        { "attrs": [], "params": [0.3] },
-        { "attrs": [], "params": [0.35] },
-        { "attrs": [], "params": [0.4] }
+        {
+          "desc": "Normal Attack hits increase Elemental Skill and Elemental Burst DMG by <color=#99FFFFFF>20%</color> for 6s. Likewise, Elemental Skill or Elemental Burst hits increase Normal Attack DMG by <color=#99FFFFFF>20%</color> for 6s.",
+          "params": [0.2]
+        },
+        {
+          "desc": "Normal Attack hits increase Elemental Skill and Elemental Burst DMG by <color=#99FFFFFF>25%</color> for 6s. Likewise, Elemental Skill or Elemental Burst hits increase Normal Attack DMG by <color=#99FFFFFF>25%</color> for 6s.",
+          "params": [0.25]
+        },
+        {
+          "desc": "Normal Attack hits increase Elemental Skill and Elemental Burst DMG by <color=#99FFFFFF>30%</color> for 6s. Likewise, Elemental Skill or Elemental Burst hits increase Normal Attack DMG by <color=#99FFFFFF>30%</color> for 6s.",
+          "params": [0.3]
+        },
+        {
+          "desc": "Normal Attack hits increase Elemental Skill and Elemental Burst DMG by <color=#99FFFFFF>35%</color> for 6s. Likewise, Elemental Skill or Elemental Burst hits increase Normal Attack DMG by <color=#99FFFFFF>35%</color> for 6s.",
+          "params": [0.35]
+        },
+        {
+          "desc": "Normal Attack hits increase Elemental Skill and Elemental Burst DMG by <color=#99FFFFFF>40%</color> for 6s. Likewise, Elemental Skill or Elemental Burst hits increase Normal Attack DMG by <color=#99FFFFFF>40%</color> for 6s.",
+          "params": [0.4]
+        }
       ]
     }
   },
@@ -6416,13 +6877,27 @@
     "subAttr": { "type": 5, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "Gilding",
-      "desc": "Using an Elemental Burst regenerates <color=#99FFFFFF>4</color> Energy every 2s for 6s. All party members will regenerate <color=#99FFFFFF>4%</color> HP every 2s for this duration.",
       "levels": [
-        { "attrs": [], "params": [6, 2, 4, 0.04] },
-        { "attrs": [], "params": [6, 2, 4.5, 0.045] },
-        { "attrs": [], "params": [6, 2, 5, 0.05] },
-        { "attrs": [], "params": [6, 2, 5.5, 0.055] },
-        { "attrs": [], "params": [6, 2, 6, 0.06] }
+        {
+          "desc": "Using an Elemental Burst regenerates <color=#99FFFFFF>4</color> Energy every 2s for 6s. All party members will regenerate <color=#99FFFFFF>4%</color> HP every 2s for this duration.",
+          "params": [6, 2, 4, 0.04]
+        },
+        {
+          "desc": "Using an Elemental Burst regenerates <color=#99FFFFFF>4.5</color> Energy every 2s for 6s. All party members will regenerate <color=#99FFFFFF>4.5%</color> HP every 2s for this duration.",
+          "params": [6, 2, 4.5, 0.045]
+        },
+        {
+          "desc": "Using an Elemental Burst regenerates <color=#99FFFFFF>5</color> Energy every 2s for 6s. All party members will regenerate <color=#99FFFFFF>5%</color> HP every 2s for this duration.",
+          "params": [6, 2, 5, 0.05]
+        },
+        {
+          "desc": "Using an Elemental Burst regenerates <color=#99FFFFFF>5.5</color> Energy every 2s for 6s. All party members will regenerate <color=#99FFFFFF>5.5%</color> HP every 2s for this duration.",
+          "params": [6, 2, 5.5, 0.055]
+        },
+        {
+          "desc": "Using an Elemental Burst regenerates <color=#99FFFFFF>6</color> Energy every 2s for 6s. All party members will regenerate <color=#99FFFFFF>6%</color> HP every 2s for this duration.",
+          "params": [6, 2, 6, 0.06]
+        }
       ]
     }
   },
@@ -6499,13 +6974,12 @@
     "subAttr": { "type": 11, "value": 24, "curve": 17 },
     "affix": {
       "name": "Infusion Scroll",
-      "desc": "Triggering an Elemental reaction grants a <color=#99FFFFFF>8%</color> Elemental DMG Bonus for 10s. Max 2 stacks.",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "Triggering an Elemental reaction grants a <color=#99FFFFFF>8%</color> Elemental DMG Bonus for 10s. Max 2 stacks.", "params": [0.08] },
+        { "desc": "Triggering an Elemental reaction grants a <color=#99FFFFFF>10%</color> Elemental DMG Bonus for 10s. Max 2 stacks.", "params": [0.1] },
+        { "desc": "Triggering an Elemental reaction grants a <color=#99FFFFFF>12%</color> Elemental DMG Bonus for 10s. Max 2 stacks.", "params": [0.12] },
+        { "desc": "Triggering an Elemental reaction grants a <color=#99FFFFFF>14%</color> Elemental DMG Bonus for 10s. Max 2 stacks.", "params": [0.14] },
+        { "desc": "Triggering an Elemental reaction grants a <color=#99FFFFFF>16%</color> Elemental DMG Bonus for 10s. Max 2 stacks.", "params": [0.16] }
       ]
     }
   },
@@ -6582,13 +7056,27 @@
     "subAttr": { "type": 13, "value": 0.12, "curve": 17 },
     "affix": {
       "name": "Press the Advantage",
-      "desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>12%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
       "levels": [
-        { "attrs": [], "params": [0.12, 30] },
-        { "attrs": [], "params": [0.15, 30] },
-        { "attrs": [], "params": [0.18, 30] },
-        { "attrs": [], "params": [0.21, 30] },
-        { "attrs": [], "params": [0.24, 30] }
+        {
+          "desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>12%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+          "params": [0.12, 30]
+        },
+        {
+          "desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>15%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+          "params": [0.15, 30]
+        },
+        {
+          "desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>18%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+          "params": [0.18, 30]
+        },
+        {
+          "desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>21%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+          "params": [0.21, 30]
+        },
+        {
+          "desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>24%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+          "params": [0.24, 30]
+        }
       ]
     }
   },
@@ -6665,13 +7153,27 @@
     "subAttr": { "type": 7, "value": 0.12, "curve": 17 },
     "affix": {
       "name": "Echo",
-      "desc": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing <color=#99FFFFFF>240%</color> ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every <color=#99FFFFFF>12</color>s.",
       "levels": [
-        { "attrs": [], "params": [0.5, 4, 2.4, 12] },
-        { "attrs": [], "params": [0.5, 4, 2.7, 11] },
-        { "attrs": [], "params": [0.5, 4, 3, 10] },
-        { "attrs": [], "params": [0.5, 4, 3.3, 9] },
-        { "attrs": [], "params": [0.5, 4, 3.6, 8] }
+        {
+          "desc": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing <color=#99FFFFFF>240%</color> ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every <color=#99FFFFFF>12</color>s.",
+          "params": [0.5, 4, 2.4, 12]
+        },
+        {
+          "desc": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing <color=#99FFFFFF>270%</color> ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every <color=#99FFFFFF>11</color>s.",
+          "params": [0.5, 4, 2.7, 11]
+        },
+        {
+          "desc": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing <color=#99FFFFFF>300%</color> ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every <color=#99FFFFFF>10</color>s.",
+          "params": [0.5, 4, 3, 10]
+        },
+        {
+          "desc": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing <color=#99FFFFFF>330%</color> ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every <color=#99FFFFFF>9</color>s.",
+          "params": [0.5, 4, 3.3, 9]
+        },
+        {
+          "desc": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing <color=#99FFFFFF>360%</color> ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every <color=#99FFFFFF>8</color>s.",
+          "params": [0.5, 4, 3.6, 8]
+        }
       ]
     }
   },
@@ -6748,13 +7250,27 @@
     "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "Frost Burial",
-      "desc": "Hitting an opponent with Normal and Charged Attacks has a <color=#99FFFFFF>60%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>80%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>200%</color> of ATK. Can only occur once every 10s.",
       "levels": [
-        { "attrs": [], "params": [0.6, 0.8, 2, 10] },
-        { "attrs": [], "params": [0.7, 0.95, 2.4, 10] },
-        { "attrs": [], "params": [0.8, 1.1, 2.8, 10] },
-        { "attrs": [], "params": [0.9, 1.25, 3.2, 10] },
-        { "attrs": [], "params": [1, 1.4, 3.6, 10] }
+        {
+          "desc": "Hitting an opponent with Normal and Charged Attacks has a <color=#99FFFFFF>60%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>80%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>200%</color> of ATK. Can only occur once every 10s.",
+          "params": [0.6, 0.8, 2, 10]
+        },
+        {
+          "desc": "Hitting an opponent with Normal and Charged Attacks has a <color=#99FFFFFF>70%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>95%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>240%</color> of ATK. Can only occur once every 10s.",
+          "params": [0.7, 0.95, 2.4, 10]
+        },
+        {
+          "desc": "Hitting an opponent with Normal and Charged Attacks has an <color=#99FFFFFF>80%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>110%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>280%</color> of ATK. Can only occur once every 10s.",
+          "params": [0.8, 1.1, 2.8, 10]
+        },
+        {
+          "desc": "Hitting an opponent with Normal and Charged Attacks has a <color=#99FFFFFF>90%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>125%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>320%</color> of ATK. Can only occur once every 10s.",
+          "params": [0.9, 1.25, 3.2, 10]
+        },
+        {
+          "desc": "Hitting an opponent with Normal and Charged Attacks has a <color=#99FFFFFF>100%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>140%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>360%</color> of ATK. Can only occur once every 10s.",
+          "params": [1, 1.4, 3.6, 10]
+        }
       ]
     }
   },
@@ -6831,13 +7347,27 @@
     "subAttr": { "type": 7, "value": 0.072, "curve": 18 },
     "affix": {
       "name": "Wandering Clouds",
-      "desc": "Increases Elemental DMG Bonus by <color=#99FFFFFF>12%</color>. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing <color=#99FFFFFF>160%</color> ATK DMG. Can only occur once every 30s.",
       "levels": [
-        { "attrs": [], "params": [0.12, 0.5, 1.6, 30] },
-        { "attrs": [], "params": [0.15, 0.5, 2, 30] },
-        { "attrs": [], "params": [0.18, 0.5, 2.4, 30] },
-        { "attrs": [], "params": [0.21, 0.5, 2.8, 30] },
-        { "attrs": [], "params": [0.24, 0.5, 3.2, 30] }
+        {
+          "desc": "Increases Elemental DMG Bonus by <color=#99FFFFFF>12%</color>. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing <color=#99FFFFFF>160%</color> ATK DMG. Can only occur once every 30s.",
+          "params": [0.12, 0.5, 1.6, 30]
+        },
+        {
+          "desc": "Increases Elemental DMG Bonus by <color=#99FFFFFF>15%</color>. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing <color=#99FFFFFF>200%</color> ATK DMG. Can only occur once every 30s.",
+          "params": [0.15, 0.5, 2, 30]
+        },
+        {
+          "desc": "Increases Elemental DMG Bonus by <color=#99FFFFFF>18%</color>. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing <color=#99FFFFFF>240%</color> ATK DMG. Can only occur once every 30s.",
+          "params": [0.18, 0.5, 2.4, 30]
+        },
+        {
+          "desc": "Increases Elemental DMG Bonus by <color=#99FFFFFF>21%</color>. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing <color=#99FFFFFF>280%</color> ATK DMG. Can only occur once every 30s.",
+          "params": [0.21, 0.5, 2.8, 30]
+        },
+        {
+          "desc": "Increases Elemental DMG Bonus by <color=#99FFFFFF>24%</color>. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing <color=#99FFFFFF>320%</color> ATK DMG. Can only occur once every 30s.",
+          "params": [0.24, 0.5, 3.2, 30]
+        }
       ]
     }
   },
@@ -6914,13 +7444,27 @@
     "subAttr": { "type": 12, "value": 0.072, "curve": 18 },
     "affix": {
       "name": "Boundless Blessing",
-      "desc": "Increases Movement SPD by 10%. When in battle, gain an <color=#99FFFFFF>8%</color> Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
       "levels": [
-        { "attrs": [], "params": [0.1, 0.08] },
-        { "attrs": [], "params": [0.1, 0.1] },
-        { "attrs": [], "params": [0.1, 0.12] },
-        { "attrs": [], "params": [0.1, 0.14] },
-        { "attrs": [], "params": [0.1, 0.16] }
+        {
+          "desc": "Increases Movement SPD by 10%. When in battle, gain an <color=#99FFFFFF>8%</color> Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
+          "params": [0.1, 0.08]
+        },
+        {
+          "desc": "Increases Movement SPD by 10%. When in battle, earn a <color=#99FFFFFF>10%</color> Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
+          "params": [0.1, 0.1]
+        },
+        {
+          "desc": "Increases Movement SPD by 10%. When in battle, gain a <color=#99FFFFFF>12%</color> Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
+          "params": [0.1, 0.12]
+        },
+        {
+          "desc": "Increases Movement SPD by 10%. When in battle, gain a <color=#99FFFFFF>14%</color> Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
+          "params": [0.1, 0.14]
+        },
+        {
+          "desc": "Increases Movement SPD by 10%. When in battle, gain a <color=#99FFFFFF>16%</color> Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
+          "params": [0.1, 0.16]
+        }
       ]
     }
   },
@@ -7045,13 +7589,27 @@
     "subAttr": { "type": 7, "value": 0.108, "curve": 18 },
     "affix": {
       "name": "Golden Majesty",
-      "desc": "Increases Shield Strength by <color=#99FFFFFF>20%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>4%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.04, 8] },
-        { "attrs": [], "params": [0.25, 0.05, 8] },
-        { "attrs": [], "params": [0.3, 0.06, 8] },
-        { "attrs": [], "params": [0.35, 0.07, 8] },
-        { "attrs": [], "params": [0.4, 0.08, 8] }
+        {
+          "desc": "Increases Shield Strength by <color=#99FFFFFF>20%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>4%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+          "params": [0.2, 0.04, 8]
+        },
+        {
+          "desc": "Increases Shield Strength by <color=#99FFFFFF>25%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>5%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+          "params": [0.25, 0.05, 8]
+        },
+        {
+          "desc": "Increases Shield Strength by <color=#99FFFFFF>30%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>6%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+          "params": [0.3, 0.06, 8]
+        },
+        {
+          "desc": "Increases Shield Strength by <color=#99FFFFFF>35%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>7%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+          "params": [0.35, 0.07, 8]
+        },
+        {
+          "desc": "Increases Shield Strength by <color=#99FFFFFF>40%</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>8%</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+          "params": [0.4, 0.08, 8]
+        }
       ]
     }
   },
@@ -7272,13 +7830,12 @@
     "subAttr": { "type": 11, "value": 20.4, "curve": 16 },
     "affix": {
       "name": "Bane of Flame and Water",
-      "desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>12%</color>.",
       "levels": [
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.15] },
-        { "attrs": [], "params": [0.18] },
-        { "attrs": [], "params": [0.21] },
-        { "attrs": [], "params": [0.24] }
+        { "desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>12%</color>.", "params": [0.12] },
+        { "desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>15%</color>.", "params": [0.15] },
+        { "desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>18%</color>.", "params": [0.18] },
+        { "desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>21%</color>.", "params": [0.21] },
+        { "desc": "Increases DMG against opponents affected by Hydro or Pyro by <color=#99FFFFFF>24%</color>.", "params": [0.24] }
       ]
     }
   },
@@ -7355,13 +7912,12 @@
     "subAttr": { "type": 13, "value": 0.102, "curve": 16 },
     "affix": {
       "name": "Precise",
-      "desc": "Increases DMG against weak spots by <color=#99FFFFFF>24%</color>.",
       "levels": [
-        { "attrs": [], "params": [0.24] },
-        { "attrs": [], "params": [0.3] },
-        { "attrs": [], "params": [0.36] },
-        { "attrs": [], "params": [0.42] },
-        { "attrs": [], "params": [0.48] }
+        { "desc": "Increases DMG against weak spots by <color=#99FFFFFF>24%</color>.", "params": [0.24] },
+        { "desc": "Increases DMG against weak spots by <color=#99FFFFFF>30%</color>.", "params": [0.3] },
+        { "desc": "Increases DMG against weak spots by <color=#99FFFFFF>36%</color>.", "params": [0.36] },
+        { "desc": "Increases DMG against weak spots by <color=#99FFFFFF>42%</color>.", "params": [0.42] },
+        { "desc": "Increases DMG against weak spots by <color=#99FFFFFF>48%</color>.", "params": [0.48] }
       ]
     }
   },
@@ -7438,13 +7994,12 @@
     "subAttr": { "type": 5, "value": 0.10213, "curve": 16 },
     "affix": {
       "name": "Cull the Weak",
-      "desc": "Defeating an opponent restores <color=#99FFFFFF>8%</color> HP.",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "Defeating an opponent restores <color=#99FFFFFF>8%</color> HP.", "params": [0.08] },
+        { "desc": "Defeating an opponent restores <color=#99FFFFFF>10%</color> HP.", "params": [0.1] },
+        { "desc": "Defeating an opponent restores <color=#99FFFFFF>12%</color> HP.", "params": [0.12] },
+        { "desc": "Defeating an opponent restores <color=#99FFFFFF>14%</color> HP.", "params": [0.14] },
+        { "desc": "Defeating an opponent restores <color=#99FFFFFF>16%</color> HP.", "params": [0.16] }
       ]
     }
   },
@@ -7521,13 +8076,24 @@
     "subAttr": { "type": 12, "value": 0.068, "curve": 16 },
     "affix": {
       "name": "Slingshot",
-      "desc": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by <color=#99FFFFFF>36%</color>. Otherwise, decreases DMG by 10%.",
       "levels": [
-        { "attrs": [], "params": [0.3, 0.36, 0.1] },
-        { "attrs": [], "params": [0.3, 0.42, 0.1] },
-        { "attrs": [], "params": [0.3, 0.48, 0.1] },
-        { "attrs": [], "params": [0.3, 0.54, 0.1] },
-        { "attrs": [], "params": [0.3, 0.6, 0.1] }
+        {
+          "desc": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by <color=#99FFFFFF>36%</color>. Otherwise, decreases DMG by 10%.",
+          "params": [0.3, 0.36, 0.1]
+        },
+        {
+          "desc": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by <color=#99FFFFFF>42%</color>. Otherwise, decreases DMG by 10%.",
+          "params": [0.3, 0.42, 0.1]
+        },
+        {
+          "desc": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by <color=#99FFFFFF>48%</color>. Otherwise, decreases DMG by 10%.",
+          "params": [0.3, 0.48, 0.1]
+        },
+        {
+          "desc": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by <color=#99FFFFFF>54%</color>. Otherwise, decreases DMG by 10%.",
+          "params": [0.3, 0.54, 0.1]
+        },
+        { "desc": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by <color=#99FFFFFF>60%</color>. Otherwise, decreases DMG by 10%.", "params": [0.3, 0.6, 0.1] }
       ]
     }
   },
@@ -7604,13 +8170,12 @@
     "subAttr": { "type": 13, "value": 0.068, "curve": 16 },
     "affix": {
       "name": "Archer's Message",
-      "desc": "Charged Attack hits on weak points deal an additional <color=#99FFFFFF>100%</color> ATK DMG as CRIT DMG. Can only occur once every 10s.",
       "levels": [
-        { "attrs": [], "params": [1] },
-        { "attrs": [], "params": [1.25] },
-        { "attrs": [], "params": [1.5] },
-        { "attrs": [], "params": [1.75] },
-        { "attrs": [], "params": [2] }
+        { "desc": "Charged Attack hits on weak points deal an additional <color=#99FFFFFF>100%</color> ATK DMG as CRIT DMG. Can only occur once every 10s.", "params": [1] },
+        { "desc": "Charged Attack hits on weak points deal an additional <color=#99FFFFFF>125%</color> ATK DMG as CRIT DMG. Can only occur once every 10s.", "params": [1.25] },
+        { "desc": "Charged Attack hits on weak points deal an additional <color=#99FFFFFF>150%</color> ATK DMG as CRIT DMG. Can only occur once every 10s.", "params": [1.5] },
+        { "desc": "Charged Attack hits on weak points deal an additional <color=#99FFFFFF>175%</color> ATK DMG as CRIT DMG. Can only occur once every 10s.", "params": [1.75] },
+        { "desc": "Charged Attack hits on weak points deal an additional <color=#99FFFFFF>200%</color> ATK DMG as CRIT DMG. Can only occur once every 10s.", "params": [2] }
       ]
     }
   },
@@ -7687,13 +8252,12 @@
     "subAttr": { "type": 7, "value": 0.0766, "curve": 16 },
     "affix": {
       "name": "Decimate",
-      "desc": "Increases DMG against mechanoid Ruin opponents by <color=#99FFFFFF>40%</color>.",
       "levels": [
-        { "attrs": [], "params": [0.4] },
-        { "attrs": [], "params": [0.5] },
-        { "attrs": [], "params": [0.6] },
-        { "attrs": [], "params": [0.7] },
-        { "attrs": [], "params": [0.8] }
+        { "desc": "Increases DMG against mechanoid Ruin opponents by <color=#99FFFFFF>40%</color>.", "params": [0.4] },
+        { "desc": "Increases DMG against mechanoid Ruin opponents by <color=#99FFFFFF>50%</color>.", "params": [0.5] },
+        { "desc": "Increases DMG against mechanoid Ruin opponents by <color=#99FFFFFF>60%</color>.", "params": [0.6] },
+        { "desc": "Increases DMG against mechanoid Ruin opponents by <color=#99FFFFFF>70%</color>.", "params": [0.7] },
+        { "desc": "Increases DMG against mechanoid Ruin opponents by <color=#99FFFFFF>80%</color>.", "params": [0.8] }
       ]
     }
   },
@@ -7770,13 +8334,27 @@
     "subAttr": { "type": 10, "value": 0.13333, "curve": 17 },
     "affix": {
       "name": "Windfall",
-      "desc": "CRIT Hits have a <color=#99FFFFFF>60%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>12</color>s.",
       "levels": [
-        { "attrs": [], "params": [0.6, 12] },
-        { "attrs": [], "params": [0.7, 10.5] },
-        { "attrs": [], "params": [0.8, 9] },
-        { "attrs": [], "params": [0.9, 7.5] },
-        { "attrs": [], "params": [1, 6] }
+        {
+          "desc": "CRIT Hits have a <color=#99FFFFFF>60%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>12</color>s.",
+          "params": [0.6, 12]
+        },
+        {
+          "desc": "CRIT Hits have a <color=#99FFFFFF>70%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>10.5</color>s.",
+          "params": [0.7, 10.5]
+        },
+        {
+          "desc": "CRIT Hits have a <color=#99FFFFFF>80%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>9</color>s.",
+          "params": [0.8, 9]
+        },
+        {
+          "desc": "CRIT Hits have a <color=#99FFFFFF>90%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>7.5</color>s.",
+          "params": [0.9, 7.5]
+        },
+        {
+          "desc": "CRIT Hits have a <color=#99FFFFFF>100%</color> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <color=#99FFFFFF>6</color>s.",
+          "params": [1, 6]
+        }
       ]
     }
   },
@@ -7853,13 +8431,12 @@
     "subAttr": { "type": 11, "value": 36, "curve": 17 },
     "affix": {
       "name": "Arrowless Song",
-      "desc": "Increases Elemental Skill and Elemental Burst DMG by <color=#99FFFFFF>24%</color>.",
       "levels": [
-        { "attrs": [], "params": [0.24] },
-        { "attrs": [], "params": [0.3] },
-        { "attrs": [], "params": [0.36] },
-        { "attrs": [], "params": [0.42] },
-        { "attrs": [], "params": [0.48] }
+        { "desc": "Increases Elemental Skill and Elemental Burst DMG by <color=#99FFFFFF>24%</color>.", "params": [0.24] },
+        { "desc": "Increases Elemental Skill and Elemental Burst DMG by <color=#99FFFFFF>30%</color>.", "params": [0.3] },
+        { "desc": "Increases Elemental Skill and Elemental Burst DMG by <color=#99FFFFFF>36%</color>.", "params": [0.36] },
+        { "desc": "Increases Elemental Skill and Elemental Burst DMG by <color=#99FFFFFF>42%</color>.", "params": [0.42] },
+        { "desc": "Increases Elemental Skill and Elemental Burst DMG by <color=#99FFFFFF>48%</color>.", "params": [0.48] }
       ]
     }
   },
@@ -7936,13 +8513,27 @@
     "subAttr": { "type": 10, "value": 0.066667, "curve": 17 },
     "affix": {
       "name": "Composed",
-      "desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>40%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>30</color>s.",
       "levels": [
-        { "attrs": [], "params": [0.4, 30] },
-        { "attrs": [], "params": [0.5, 26] },
-        { "attrs": [], "params": [0.6, 22] },
-        { "attrs": [], "params": [0.7, 19] },
-        { "attrs": [], "params": [0.8, 16] }
+        {
+          "desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>40%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>30</color>s.",
+          "params": [0.4, 30]
+        },
+        {
+          "desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>50%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>26</color>s.",
+          "params": [0.5, 26]
+        },
+        {
+          "desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>60%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>22s</color>.",
+          "params": [0.6, 22]
+        },
+        {
+          "desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>70%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>19</color>s.",
+          "params": [0.7, 19]
+        },
+        {
+          "desc": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>80%</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>16s</color>.",
+          "params": [0.8, 16]
+        }
       ]
     }
   },
@@ -8019,13 +8610,12 @@
     "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "Focus",
-      "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>8%</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>8%</color>. Max 5 stacks. A CRIT Hit removes all stacks.", "params": [0.08] },
+        { "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>10%</color>. Max 5 stacks. A CRIT Hit removes all stacks.", "params": [0.1] },
+        { "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>12%</color>. Max 5 stacks. A CRIT Hit removes all stacks.", "params": [0.12] },
+        { "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>14%</color>. Max 5 stacks. A CRIT Hit removes all stacks.", "params": [0.14] },
+        { "desc": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>16%</color>. Max 5 stacks. A CRIT Hit removes all stacks.", "params": [0.16] }
       ]
     }
   },
@@ -8102,13 +8692,12 @@
     "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "Rapid Firing",
-      "desc": "Increases Normal Attack DMG by <color=#99FFFFFF>40%</color> but decreases Charged Attack DMG by 10%.",
       "levels": [
-        { "attrs": [], "params": [0.4, 0.1] },
-        { "attrs": [], "params": [0.5, 0.1] },
-        { "attrs": [], "params": [0.6, 0.1] },
-        { "attrs": [], "params": [0.7, 0.1] },
-        { "attrs": [], "params": [0.8, 0.1] }
+        { "desc": "Increases Normal Attack DMG by <color=#99FFFFFF>40%</color> but decreases Charged Attack DMG by 10%.", "params": [0.4, 0.1] },
+        { "desc": "Increases Normal Attack DMG by <color=#99FFFFFF>50%</color> but decreases Charged Attack DMG by 10%.", "params": [0.5, 0.1] },
+        { "desc": "Increases Normal Attack DMG by <color=#99FFFFFF>60%</color> but decreases Charged Attack DMG by 10%.", "params": [0.6, 0.1] },
+        { "desc": "Increases Normal Attack DMG by <color=#99FFFFFF>70%</color> but decreases Charged Attack DMG by 10%.", "params": [0.7, 0.1] },
+        { "desc": "Increases Normal Attack DMG by <color=#99FFFFFF>80%</color> but decreases Charged Attack DMG by 10%.", "params": [0.8, 0.1] }
       ]
     }
   },
@@ -8185,13 +8774,12 @@
     "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "Unreturning",
-      "desc": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by <color=#99FFFFFF>36%</color> for 10s.",
       "levels": [
-        { "attrs": [], "params": [0.1, 0.36, 10] },
-        { "attrs": [], "params": [0.1, 0.45, 10] },
-        { "attrs": [], "params": [0.1, 0.54, 10] },
-        { "attrs": [], "params": [0.1, 0.63, 10] },
-        { "attrs": [], "params": [0.1, 0.72, 10] }
+        { "desc": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by <color=#99FFFFFF>36%</color> for 10s.", "params": [0.1, 0.36, 10] },
+        { "desc": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by <color=#99FFFFFF>45%</color> for 10s.", "params": [0.1, 0.45, 10] },
+        { "desc": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by <color=#99FFFFFF>54%</color> for 10s.", "params": [0.1, 0.54, 10] },
+        { "desc": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by <color=#99FFFFFF>63%</color> for 10s.", "params": [0.1, 0.63, 10] },
+        { "desc": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by <color=#99FFFFFF>72%</color> for 10s.", "params": [0.1, 0.72, 10] }
       ]
     }
   },
@@ -8268,13 +8856,27 @@
     "subAttr": { "type": 33, "value": 0.15013, "curve": 17 },
     "affix": {
       "name": "Infusion Arrow",
-      "desc": "Normal Attack and Charged Attack hits increase ATK by <color=#99FFFFFF>4%</color> and Normal ATK SPD by <color=#99FFFFFF>1.2%</color> for 6s. Max 4 stacks. Can only occur once every 0.3s.",
       "levels": [
-        { "attrs": [], "params": [0.04, 0.012, 0.3] },
-        { "attrs": [], "params": [0.05, 0.015, 0.3] },
-        { "attrs": [], "params": [0.06, 0.018, 0.3] },
-        { "attrs": [], "params": [0.07, 0.021, 0.3] },
-        { "attrs": [], "params": [0.08, 0.024, 0.3] }
+        {
+          "desc": "Normal Attack and Charged Attack hits increase ATK by <color=#99FFFFFF>4%</color> and Normal ATK SPD by <color=#99FFFFFF>1.2%</color> for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+          "params": [0.04, 0.012, 0.3]
+        },
+        {
+          "desc": "Normal Attack and Charged Attack hits increase ATK by <color=#99FFFFFF>5%</color> and Normal ATK SPD by <color=#99FFFFFF>1.5%</color> for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+          "params": [0.05, 0.015, 0.3]
+        },
+        {
+          "desc": "Normal Attack and Charged Attack hits increase ATK by <color=#99FFFFFF>6%</color> and Normal ATK SPD by <color=#99FFFFFF>1.8%</color> for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+          "params": [0.06, 0.018, 0.3]
+        },
+        {
+          "desc": "Normal Attack and Charged Attack hits increase ATK by <color=#99FFFFFF>7%</color> and Normal ATK SPD by <color=#99FFFFFF>2.1%</color> for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+          "params": [0.07, 0.021, 0.3]
+        },
+        {
+          "desc": "Normal Attack and Charged Attack hits increase ATK by <color=#99FFFFFF>8%</color> and Normal ATK SPD by <color=#99FFFFFF>2.4%</color> for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+          "params": [0.08, 0.024, 0.3]
+        }
       ]
     }
   },
@@ -8351,13 +8953,27 @@
     "subAttr": { "type": 13, "value": 0.08, "curve": 17 },
     "affix": {
       "name": "Press the Advantage",
-      "desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>12%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
       "levels": [
-        { "attrs": [], "params": [0.12, 30] },
-        { "attrs": [], "params": [0.15, 30] },
-        { "attrs": [], "params": [0.18, 30] },
-        { "attrs": [], "params": [0.21, 30] },
-        { "attrs": [], "params": [0.24, 30] }
+        {
+          "desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>12%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+          "params": [0.12, 30]
+        },
+        {
+          "desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>15%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+          "params": [0.15, 30]
+        },
+        {
+          "desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>18%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+          "params": [0.18, 30]
+        },
+        {
+          "desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>21%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+          "params": [0.21, 30]
+        },
+        {
+          "desc": "After defeating an enemy, ATK is increased by <color=#99FFFFFF>24%</color> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+          "params": [0.24, 30]
+        }
       ]
     }
   },
@@ -8434,13 +9050,27 @@
     "subAttr": { "type": 12, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "Verdant Wind",
-      "desc": "Upon hit, Normal and Aimed Shot Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing <color=#99FFFFFF>40%</color> of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every <color=#99FFFFFF>14</color>s.",
       "levels": [
-        { "attrs": [], "params": [0.5, 0.4, 0.5, 4, 14] },
-        { "attrs": [], "params": [0.5, 0.5, 0.5, 4, 13] },
-        { "attrs": [], "params": [0.5, 0.6, 0.5, 4, 12] },
-        { "attrs": [], "params": [0.5, 0.7, 0.5, 4, 11] },
-        { "attrs": [], "params": [0.5, 0.8, 0.5, 4, 10] }
+        {
+          "desc": "Upon hit, Normal and Aimed Shot Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing <color=#99FFFFFF>40%</color> of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every <color=#99FFFFFF>14</color>s.",
+          "params": [0.5, 0.4, 0.5, 4, 14]
+        },
+        {
+          "desc": "Upon hit, Normal and Aimed Shot Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing <color=#99FFFFFF>50%</color> of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every <color=#99FFFFFF>13</color>s.",
+          "params": [0.5, 0.5, 0.5, 4, 13]
+        },
+        {
+          "desc": "Upon hit, Normal and Aimed Shot Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing <color=#99FFFFFF>60%</color> of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every <color=#99FFFFFF>12</color>s.",
+          "params": [0.5, 0.6, 0.5, 4, 12]
+        },
+        {
+          "desc": "Upon hit, Normal and Aimed Shot Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing <color=#99FFFFFF>70%</color> of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every <color=#99FFFFFF>11</color>s.",
+          "params": [0.5, 0.7, 0.5, 4, 11]
+        },
+        {
+          "desc": "Upon hit, Normal and Aimed Shot Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing <color=#99FFFFFF>80%</color> of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every <color=#99FFFFFF>10</color>s.",
+          "params": [0.5, 0.8, 0.5, 4, 10]
+        }
       ]
     }
   },
@@ -8517,13 +9147,27 @@
     "subAttr": { "type": 12, "value": 0.048, "curve": 18 },
     "affix": {
       "name": "Echoing Ballad",
-      "desc": "Increases CRIT DMG by <color=#99FFFFFF>20%</color>. Hits have a <color=#99FFFFFF>60%</color> chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every <color=#99FFFFFF>4</color>s.",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.6, 1.25, 4] },
-        { "attrs": [], "params": [0.25, 0.7, 1.25, 3.5] },
-        { "attrs": [], "params": [0.3, 0.8, 1.25, 3] },
-        { "attrs": [], "params": [0.35, 0.9, 1.25, 2.5] },
-        { "attrs": [], "params": [0.4, 1, 1.25, 2] }
+        {
+          "desc": "Increases CRIT DMG by <color=#99FFFFFF>20%</color>. Hits have a <color=#99FFFFFF>60%</color> chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every <color=#99FFFFFF>4</color>s.",
+          "params": [0.2, 0.6, 1.25, 4]
+        },
+        {
+          "desc": "Increases CRIT DMG by <color=#99FFFFFF>25%</color>. Hits have a <color=#99FFFFFF>70%</color> chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every <color=#99FFFFFF>3.5</color>s.",
+          "params": [0.25, 0.7, 1.25, 3.5]
+        },
+        {
+          "desc": "Increases CRIT DMG by <color=#99FFFFFF>30%</color>. Hits have a <color=#99FFFFFF>80%</color> chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every <color=#99FFFFFF>3</color>s.",
+          "params": [0.3, 0.8, 1.25, 3]
+        },
+        {
+          "desc": "Increases CRIT DMG by <color=#99FFFFFF>35%</color>. Hits have a <color=#99FFFFFF>90%</color> chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every <color=#99FFFFFF>2.5</color>s.",
+          "params": [0.35, 0.9, 1.25, 2.5]
+        },
+        {
+          "desc": "Increases CRIT DMG by <color=#99FFFFFF>40%</color>. Hits have a <color=#99FFFFFF>100%</color> chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every <color=#99FFFFFF>2</color>s.",
+          "params": [0.4, 1, 1.25, 2]
+        }
       ]
     }
   },
@@ -8600,13 +9244,27 @@
     "subAttr": { "type": 7, "value": 0.108, "curve": 18 },
     "affix": {
       "name": "Strong-Willed",
-      "desc": "Increases Normal and Charged Attack DMG by <color=#99FFFFFF>12%</color>. After a Normal or Charged Attack is fired, DMG dealt increases by a further <color=#99FFFFFF>8%</color> every 0.1s up to 5 times.",
       "levels": [
-        { "attrs": [], "params": [0.12, 0.08] },
-        { "attrs": [], "params": [0.15, 0.1] },
-        { "attrs": [], "params": [0.18, 0.12] },
-        { "attrs": [], "params": [0.21, 0.14] },
-        { "attrs": [], "params": [0.24, 0.16] }
+        {
+          "desc": "Increases Normal and Charged Attack DMG by <color=#99FFFFFF>12%</color>. After a Normal or Charged Attack is fired, DMG dealt increases by a further <color=#99FFFFFF>8%</color> every 0.1s up to 5 times.",
+          "params": [0.12, 0.08]
+        },
+        {
+          "desc": "Increases Normal and Charged Attack DMG by <color=#99FFFFFF>15%</color>. After a Normal or Charged Attack is fired, DMG dealt increases by a further <color=#99FFFFFF>10%</color> every 0.1s up to 5 times.",
+          "params": [0.15, 0.1]
+        },
+        {
+          "desc": "Increases Normal and Charged Attack DMG by <color=#99FFFFFF>18%</color>. After a Normal or Charged Attack is fired, DMG dealt increases by a further <color=#99FFFFFF>12%</color> every 0.1s up to 5 times.",
+          "params": [0.18, 0.12]
+        },
+        {
+          "desc": "Increases Normal and Charged Attack DMG by <color=#99FFFFFF>21%</color>. After a Normal or Charged Attack is fired, DMG dealt increases by a further <color=#99FFFFFF>14%</color> every 0.1s up to 5 times.",
+          "params": [0.21, 0.14]
+        },
+        {
+          "desc": "Increases Normal and Charged Attack DMG by <color=#99FFFFFF>24%</color>. After a Normal or Charged Attack is fired, DMG dealt increases by a further <color=#99FFFFFF>16%</color> every 0.1s up to 5 times.",
+          "params": [0.24, 0.16]
+        }
       ]
     }
   },

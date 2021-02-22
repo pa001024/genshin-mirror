@@ -11,7 +11,19 @@ export class Weapon implements IUserWeapon {
   }
 
   /** 精练等级 */
-  refineLevel = 1;
+  private _refineLevel = 1;
+  public get refineLevel() {
+    return this._refineLevel;
+  }
+
+  public set refineLevel(value) {
+    if (value < 1 || value > this.maxRefineLevel) return;
+    this._refineLevel = value;
+  }
+
+  get maxRefineLevel() {
+    return this.data.affix?.levels.length || 1;
+  }
 
   lazy = false;
 
@@ -63,5 +75,11 @@ export class Weapon implements IUserWeapon {
     if (!this.data.subAttr) return null;
     const base = this.data.subAttr.value * WEAPON.CURVE[this.data.subAttr.curve][this._level - 1];
     return { type: this.data.subAttr.type, value: base };
+  }
+
+  /** 特效 */
+  get affix() {
+    if (!this.data.affix) return null;
+    return { ...this.data.affix, desc: this.data.affix.levels[this.refineLevel - 1].desc };
   }
 }

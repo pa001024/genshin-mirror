@@ -168,13 +168,12 @@
     "subAttr": { "type": 7, "value": 0.0766, "curve": 16 },
     "affix": {
       "name": "止水融冰",
-      "desc": "对处于水元素或冰元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>12%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.15] },
-        { "attrs": [], "params": [0.18] },
-        { "attrs": [], "params": [0.21] },
-        { "attrs": [], "params": [0.24] }
+        { "desc": "对处于水元素或冰元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>12%</color>。", "params": [0.12] },
+        { "desc": "对处于水元素或冰元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>15%</color>。", "params": [0.15] },
+        { "desc": "对处于水元素或冰元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>18%</color>。", "params": [0.18] },
+        { "desc": "对处于水元素或冰元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>21%</color>。", "params": [0.21] },
+        { "desc": "对处于水元素或冰元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>24%</color>。", "params": [0.24] }
       ]
     }
   },
@@ -251,13 +250,12 @@
     "subAttr": { "type": 13, "value": 0.102, "curve": 16 },
     "affix": {
       "name": "激励",
-      "desc": "生命值高于90%时，暴击率提升<color=#99FFFFFF>14%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.175] },
-        { "attrs": [], "params": [0.21] },
-        { "attrs": [], "params": [0.245] },
-        { "attrs": [], "params": [0.28] }
+        { "desc": "生命值高于90%时，暴击率提升<color=#99FFFFFF>14%</color>。", "params": [0.14] },
+        { "desc": "生命值高于90%时，暴击率提升<color=#99FFFFFF>17.5%</color>。", "params": [0.175] },
+        { "desc": "生命值高于90%时，暴击率提升<color=#99FFFFFF>21%</color>。", "params": [0.21] },
+        { "desc": "生命值高于90%时，暴击率提升<color=#99FFFFFF>24.5%</color>。", "params": [0.245] },
+        { "desc": "生命值高于90%时，暴击率提升<color=#99FFFFFF>28%</color>。", "params": [0.28] }
       ]
     }
   },
@@ -334,13 +332,12 @@
     "subAttr": { "type": 9, "value": 0.063733, "curve": 16 },
     "affix": {
       "name": "旅程",
-      "desc": "获得元素晶球或元素微粒时，恢复<color=#99FFFFFF>1%</color>生命值。",
       "levels": [
-        { "attrs": [], "params": [0.01, 1] },
-        { "attrs": [], "params": [0.0125, 1] },
-        { "attrs": [], "params": [0.015, 1] },
-        { "attrs": [], "params": [0.0175, 1] },
-        { "attrs": [], "params": [0.02, 1] }
+        { "desc": "获得元素晶球或元素微粒时，恢复<color=#99FFFFFF>1%</color>生命值。", "params": [0.01, 1] },
+        { "desc": "获得元素晶球或元素微粒时，恢复<color=#99FFFFFF>1.25%</color>生命值。", "params": [0.0125, 1] },
+        { "desc": "获得元素晶球或元素微粒时，恢复<color=#99FFFFFF>1.5%</color>生命值。", "params": [0.015, 1] },
+        { "desc": "获得元素晶球或元素微粒时，恢复<color=#99FFFFFF>1.75%</color>生命值。", "params": [0.0175, 1] },
+        { "desc": "获得元素晶球或元素微粒时，恢复<color=#99FFFFFF>2%</color>生命值。", "params": [0.02, 1] }
       ]
     }
   },
@@ -417,13 +414,12 @@
     "subAttr": { "type": 11, "value": 30.6, "curve": 16 },
     "affix": {
       "name": "过载",
-      "desc": "触发超载、超导、感电或雷元素扩散反应后的12秒内，攻击力提高<color=#99FFFFFF>20%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.2, 12] },
-        { "attrs": [], "params": [0.25, 12] },
-        { "attrs": [], "params": [0.3, 12] },
-        { "attrs": [], "params": [0.35, 12] },
-        { "attrs": [], "params": [0.4, 12] }
+        { "desc": "触发超载、超导、感电或雷元素扩散反应后的12秒内，攻击力提高<color=#99FFFFFF>20%</color>。", "params": [0.2, 12] },
+        { "desc": "触发超载、超导、感电或雷元素扩散反应后的12秒内，攻击力提高<color=#99FFFFFF>25%</color>。", "params": [0.25, 12] },
+        { "desc": "触发超载、超导、感电或雷元素扩散反应后的12秒内，攻击力提高<color=#99FFFFFF>30%</color>。", "params": [0.3, 12] },
+        { "desc": "触发超载、超导、感电或雷元素扩散反应后的12秒内，攻击力提高<color=#99FFFFFF>35%</color>。", "params": [0.35, 12] },
+        { "desc": "触发超载、超导、感电或雷元素扩散反应后的12秒内，攻击力提高<color=#99FFFFFF>40%</color>。", "params": [0.4, 12] }
       ]
     }
   },
@@ -500,13 +496,12 @@
     "subAttr": { "type": 7, "value": 0.0766, "curve": 16 },
     "affix": {
       "name": "决",
-      "desc": "攻击命中时，有50%的概率对单个敌人造成<color=#99FFFFFF>240%</color>攻击力的伤害。该效果每<color=#99FFFFFF>15</color>秒只能触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.5, 2.4, 15] },
-        { "attrs": [], "params": [0.5, 2.8, 14] },
-        { "attrs": [], "params": [0.5, 3.2, 13] },
-        { "attrs": [], "params": [0.5, 3.6, 12] },
-        { "attrs": [], "params": [0.5, 4, 11] }
+        { "desc": "攻击命中时，有50%的概率对单个敌人造成<color=#99FFFFFF>240%</color>攻击力的伤害。该效果每<color=#99FFFFFF>15</color>秒只能触发一次。", "params": [0.5, 2.4, 15] },
+        { "desc": "攻击命中时，有50%的概率对单个敌人造成<color=#99FFFFFF>280%</color>攻击力的伤害。该效果每<color=#99FFFFFF>14</color>秒只能触发一次。", "params": [0.5, 2.8, 14] },
+        { "desc": "攻击命中时，有50%的概率对单个敌人造成<color=#99FFFFFF>320%</color>攻击力的伤害。该效果每<color=#99FFFFFF>13</color>秒只能触发一次。", "params": [0.5, 3.2, 13] },
+        { "desc": "攻击命中时，有50%的概率对单个敌人造成<color=#99FFFFFF>360%</color>攻击力的伤害。该效果每<color=#99FFFFFF>12</color>秒只能触发一次。", "params": [0.5, 3.6, 12] },
+        { "desc": "攻击命中时，有50%的概率对单个敌人造成<color=#99FFFFFF>400%</color>攻击力的伤害。该效果每<color=#99FFFFFF>11</color>秒只能触发一次。", "params": [0.5, 4, 11] }
       ]
     }
   },
@@ -583,13 +578,12 @@
     "subAttr": { "type": 10, "value": 0.11333, "curve": 16 },
     "affix": {
       "name": "决心",
-      "desc": "施放元素爆发后，提高<color=#99FFFFFF>12%</color>攻击力和移动速度，持续15秒。",
       "levels": [
-        { "attrs": [], "params": [0.12, 15] },
-        { "attrs": [], "params": [0.15, 15] },
-        { "attrs": [], "params": [0.18, 15] },
-        { "attrs": [], "params": [0.21, 15] },
-        { "attrs": [], "params": [0.24, 15] }
+        { "desc": "施放元素爆发后，提高<color=#99FFFFFF>12%</color>攻击力和移动速度，持续15秒。", "params": [0.12, 15] },
+        { "desc": "施放元素爆发后，提高<color=#99FFFFFF>15%</color>攻击力和移动速度，持续15秒。", "params": [0.15, 15] },
+        { "desc": "施放元素爆发后，提高<color=#99FFFFFF>18%</color>攻击力和移动速度，持续15秒。", "params": [0.18, 15] },
+        { "desc": "施放元素爆发后，提高<color=#99FFFFFF>21%</color>攻击力和移动速度，持续15秒。", "params": [0.21, 15] },
+        { "desc": "施放元素爆发后，提高<color=#99FFFFFF>24%</color>攻击力和移动速度，持续15秒。", "params": [0.24, 15] }
       ]
     }
   },
@@ -666,13 +660,12 @@
     "subAttr": { "type": 10, "value": 0.13333, "curve": 17 },
     "affix": {
       "name": "顺风而行",
-      "desc": "攻击造成暴击时，有<color=#99FFFFFF>60%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>12</color>秒只能触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.6, 12] },
-        { "attrs": [], "params": [0.7, 10.5] },
-        { "attrs": [], "params": [0.8, 9] },
-        { "attrs": [], "params": [0.9, 7.5] },
-        { "attrs": [], "params": [1, 6] }
+        { "desc": "攻击造成暴击时，有<color=#99FFFFFF>60%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>12</color>秒只能触发一次。", "params": [0.6, 12] },
+        { "desc": "攻击造成暴击时，有<color=#99FFFFFF>70%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>10.5</color>秒只能触发一次。", "params": [0.7, 10.5] },
+        { "desc": "攻击造成暴击时，有<color=#99FFFFFF>80%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>9</color>秒只能触发一次。", "params": [0.8, 9] },
+        { "desc": "攻击造成暴击时，有<color=#99FFFFFF>90%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>7.5</color>秒只能触发一次。", "params": [0.9, 7.5] },
+        { "desc": "攻击造成暴击时，有<color=#99FFFFFF>100%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>6</color>秒只能触发一次。", "params": [1, 6] }
       ]
     }
   },
@@ -749,13 +742,27 @@
     "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "和弦",
-      "desc": "普通攻击或重击命中时，会获得一个和音。积攒了5个和音后，释放音律的力量，对周围的敌人造成<color=#99FFFFFF>100%</color>攻击力的伤害。和音最多存在30秒，每0.5秒至多获得1个和音。",
       "levels": [
-        { "attrs": [], "params": [1, 1] },
-        { "attrs": [], "params": [1, 1.25] },
-        { "attrs": [], "params": [1, 1.5] },
-        { "attrs": [], "params": [1, 1.75] },
-        { "attrs": [], "params": [1, 2] }
+        {
+          "desc": "普通攻击或重击命中时，会获得一个和音。积攒了5个和音后，释放音律的力量，对周围的敌人造成<color=#99FFFFFF>100%</color>攻击力的伤害。和音最多存在30秒，每0.5秒至多获得1个和音。",
+          "params": [1, 1]
+        },
+        {
+          "desc": "普通攻击或重击命中时，会获得一个和音。积攒了5个和音后，释放音律的力量，对周围的敌人造成<color=#99FFFFFF>125%</color>攻击力的伤害。和音最多存在30秒，每0.5秒至多获得1个和音。",
+          "params": [1, 1.25]
+        },
+        {
+          "desc": "普通攻击或重击命中时，会获得一个和音。积攒了5个和音后，释放音律的力量，对周围的敌人造成<color=#99FFFFFF>150%</color>攻击力的伤害。和音最多存在30秒，每0.5秒至多获得1个和音。",
+          "params": [1, 1.5]
+        },
+        {
+          "desc": "普通攻击或重击命中时，会获得一个和音。积攒了5个和音后，释放音律的力量，对周围的敌人造成<color=#99FFFFFF>175%</color>攻击力的伤害。和音最多存在30秒，每0.5秒至多获得1个和音。",
+          "params": [1, 1.75]
+        },
+        {
+          "desc": "普通攻击或重击命中时，会获得一个和音。积攒了5个和音后，释放音律的力量，对周围的敌人造成<color=#99FFFFFF>200%</color>攻击力的伤害。和音最多存在30秒，每0.5秒至多获得1个和音。",
+          "params": [1, 2]
+        }
       ]
     }
   },
@@ -832,13 +839,12 @@
     "subAttr": { "type": 10, "value": 0.13333, "curve": 17 },
     "affix": {
       "name": "气定神闲",
-      "desc": "元素战技造成伤害时，有<color=#99FFFFFF>40%</color>的概率重置该技能的冷却时间，该效果每<color=#99FFFFFF>30</color>秒只能触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.4, 30] },
-        { "attrs": [], "params": [0.5, 26] },
-        { "attrs": [], "params": [0.6, 22] },
-        { "attrs": [], "params": [0.7, 19] },
-        { "attrs": [], "params": [0.8, 16] }
+        { "desc": "元素战技造成伤害时，有<color=#99FFFFFF>40%</color>的概率重置该技能的冷却时间，该效果每<color=#99FFFFFF>30</color>秒只能触发一次。", "params": [0.4, 30] },
+        { "desc": "元素战技造成伤害时，有<color=#99FFFFFF>50%</color>的概率重置该技能的冷却时间，该效果每<color=#99FFFFFF>26</color>秒只能触发一次。", "params": [0.5, 26] },
+        { "desc": "元素战技造成伤害时，有<color=#99FFFFFF>60%</color>的概率重置该技能的冷却时间，该效果每<color=#99FFFFFF>22</color>秒只能触发一次。", "params": [0.6, 22] },
+        { "desc": "元素战技造成伤害时，有<color=#99FFFFFF>70%</color>的概率重置该技能的冷却时间，该效果每<color=#99FFFFFF>19</color>秒只能触发一次。", "params": [0.7, 19] },
+        { "desc": "元素战技造成伤害时，有<color=#99FFFFFF>80%</color>的概率重置该技能的冷却时间，该效果每<color=#99FFFFFF>16</color>秒只能触发一次。", "params": [0.8, 16] }
       ]
     }
   },
@@ -915,13 +921,12 @@
     "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "专注",
-      "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>8%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>8%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。", "params": [0.08] },
+        { "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>10%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。", "params": [0.1] },
+        { "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>12%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。", "params": [0.12] },
+        { "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>14%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。", "params": [0.14] },
+        { "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>16%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。", "params": [0.16] }
       ]
     }
   },
@@ -998,13 +1003,12 @@
     "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "踏火息雷",
-      "desc": "对处于火元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>20%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.2] },
-        { "attrs": [], "params": [0.24] },
-        { "attrs": [], "params": [0.28] },
-        { "attrs": [], "params": [0.32] },
-        { "attrs": [], "params": [0.36] }
+        { "desc": "对处于火元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>20%</color>。", "params": [0.2] },
+        { "desc": "对处于火元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>24%</color>。", "params": [0.24] },
+        { "desc": "对处于火元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>28%</color>。", "params": [0.28] },
+        { "desc": "对处于火元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>32%</color>。", "params": [0.32] },
+        { "desc": "对处于火元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>36%</color>。", "params": [0.36] }
       ]
     }
   },
@@ -1081,13 +1085,12 @@
     "subAttr": { "type": 33, "value": 0.075067, "curve": 17 },
     "affix": {
       "name": "碎石",
-      "desc": "普通攻击或重击命中时，攻击力和防御力提高<color=#99FFFFFF>4%</color>，持续6秒，最多叠加4层。该效果每0.3秒只能触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.04] },
-        { "attrs": [], "params": [0.05] },
-        { "attrs": [], "params": [0.06] },
-        { "attrs": [], "params": [0.07] },
-        { "attrs": [], "params": [0.08] }
+        { "desc": "普通攻击或重击命中时，攻击力和防御力提高<color=#99FFFFFF>4%</color>，持续6秒，最多叠加4层。该效果每0.3秒只能触发一次。", "params": [0.04] },
+        { "desc": "普通攻击或重击命中时，攻击力和防御力提高<color=#99FFFFFF>5%</color>，持续6秒，最多叠加4层。该效果每0.3秒只能触发一次。", "params": [0.05] },
+        { "desc": "普通攻击或重击命中时，攻击力和防御力提高<color=#99FFFFFF>6%</color>，持续6秒，最多叠加4层。该效果每0.3秒只能触发一次。", "params": [0.06] },
+        { "desc": "普通攻击或重击命中时，攻击力和防御力提高<color=#99FFFFFF>7%</color>，持续6秒，最多叠加4层。该效果每0.3秒只能触发一次。", "params": [0.07] },
+        { "desc": "普通攻击或重击命中时，攻击力和防御力提高<color=#99FFFFFF>8%</color>，持续6秒，最多叠加4层。该效果每0.3秒只能触发一次。", "params": [0.08] }
       ]
     }
   },
@@ -1164,13 +1167,12 @@
     "subAttr": { "type": 11, "value": 36, "curve": 17 },
     "affix": {
       "name": "注能之刺",
-      "desc": "造成元素伤害后的6秒内，角色造成的伤害提高<color=#99FFFFFF>6%</color>，该效果最多叠加2层。该效果每1秒可以触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.06, 1, 6] },
-        { "attrs": [], "params": [0.075, 1, 6] },
-        { "attrs": [], "params": [0.09, 1, 6] },
-        { "attrs": [], "params": [0.105, 1, 6] },
-        { "attrs": [], "params": [0.12, 1, 6] }
+        { "desc": "造成元素伤害后的6秒内，角色造成的伤害提高<color=#99FFFFFF>6%</color>，该效果最多叠加2层。该效果每1秒可以触发一次。", "params": [0.06, 1, 6] },
+        { "desc": "造成元素伤害后的6秒内，角色造成的伤害提高<color=#99FFFFFF>7.5%</color>，该效果最多叠加2层。该效果每1秒可以触发一次。", "params": [0.075, 1, 6] },
+        { "desc": "造成元素伤害后的6秒内，角色造成的伤害提高<color=#99FFFFFF>9%</color>，该效果最多叠加2层。该效果每1秒可以触发一次。", "params": [0.09, 1, 6] },
+        { "desc": "造成元素伤害后的6秒内，角色造成的伤害提高<color=#99FFFFFF>10.5%</color>，该效果最多叠加2层。该效果每1秒可以触发一次。", "params": [0.105, 1, 6] },
+        { "desc": "造成元素伤害后的6秒内，角色造成的伤害提高<color=#99FFFFFF>12%</color>，该效果最多叠加2层。该效果每1秒可以触发一次。", "params": [0.12, 1, 6] }
       ]
     }
   },
@@ -1247,13 +1249,12 @@
     "subAttr": { "type": 13, "value": 0.08, "curve": 17 },
     "affix": {
       "name": "乘胜追击",
-      "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>12%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。",
       "levels": [
-        { "attrs": [], "params": [0.12, 30] },
-        { "attrs": [], "params": [0.15, 30] },
-        { "attrs": [], "params": [0.18, 30] },
-        { "attrs": [], "params": [0.21, 30] },
-        { "attrs": [], "params": [0.24, 30] }
+        { "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>12%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。", "params": [0.12, 30] },
+        { "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>15%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。", "params": [0.15, 30] },
+        { "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>18%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。", "params": [0.18, 30] },
+        { "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>21%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。", "params": [0.21, 30] },
+        { "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>24%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。", "params": [0.24, 30] }
       ]
     }
   },
@@ -1330,13 +1331,27 @@
     "subAttr": { "type": 12, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "「正义」",
-      "desc": "普通攻击与重击的造成的伤害提升<color=#99FFFFFF>20%</color>；此外，普通攻击与重击暴击时，回复等同于攻击力<color=#99FFFFFF>60%</color>的生命值。该效果每5秒至多发动一次。",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.6, 5, 1] },
-        { "attrs": [], "params": [0.25, 0.7, 5, 1] },
-        { "attrs": [], "params": [0.3, 0.8, 5, 1] },
-        { "attrs": [], "params": [0.35, 0.9, 5, 1] },
-        { "attrs": [], "params": [0.4, 1, 5, 1] }
+        {
+          "desc": "普通攻击与重击的造成的伤害提升<color=#99FFFFFF>20%</color>；此外，普通攻击与重击暴击时，回复等同于攻击力<color=#99FFFFFF>60%</color>的生命值。该效果每5秒至多发动一次。",
+          "params": [0.2, 0.6, 5, 1]
+        },
+        {
+          "desc": "普通攻击与重击的造成的伤害提升<color=#99FFFFFF>25%</color>；此外，普通攻击与重击暴击时，回复等同于攻击力<color=#99FFFFFF>70%</color>的生命值。该效果每5秒至多发动一次。",
+          "params": [0.25, 0.7, 5, 1]
+        },
+        {
+          "desc": "普通攻击与重击的造成的伤害提升<color=#99FFFFFF>30%</color>；此外，普通攻击与重击暴击时，回复等同于攻击力<color=#99FFFFFF>80%</color>的生命值。该效果每5秒至多发动一次。",
+          "params": [0.3, 0.8, 5, 1]
+        },
+        {
+          "desc": "普通攻击与重击的造成的伤害提升<color=#99FFFFFF>35%</color>；此外，普通攻击与重击暴击时，回复等同于攻击力<color=#99FFFFFF>90%</color>的生命值。该效果每5秒至多发动一次。",
+          "params": [0.35, 0.9, 5, 1]
+        },
+        {
+          "desc": "普通攻击与重击的造成的伤害提升<color=#99FFFFFF>40%</color>；此外，普通攻击与重击暴击时，回复等同于攻击力<color=#99FFFFFF>100%</color>的生命值。该效果每5秒至多发动一次。",
+          "params": [0.4, 1, 5, 1]
+        }
       ]
     }
   },
@@ -1413,8 +1428,12 @@
     "subAttr": { "type": 7, "value": 0.0766, "curve": 16 },
     "affix": {
       "name": "降世",
-      "desc": "普通攻击与重击命中敌人后有<color=#99FFFFFF>50%</color>概率在小范围内造成<color=#99FFFFFF>200%</color>攻击力的伤害。该效果每10秒只能触发一次；此外，旅行者装备降临之剑时，攻击力提升<color=#99FFFFFF>66</color>点。",
-      "levels": [{ "attrs": [], "params": [0.5, 2, 10, 66] }]
+      "levels": [
+        {
+          "desc": "普通攻击与重击命中敌人后有<color=#99FFFFFF>50%</color>概率在小范围内造成<color=#99FFFFFF>200%</color>攻击力的伤害。该效果每10秒只能触发一次；此外，旅行者装备降临之剑时，攻击力提升<color=#99FFFFFF>66</color>点。",
+          "params": [0.5, 2, 10, 66]
+        }
+      ]
     }
   },
   {
@@ -1490,13 +1509,12 @@
     "subAttr": { "type": 10, "value": 0.1, "curve": 17 },
     "affix": {
       "name": "无尽的渴慕",
-      "desc": "元素战技造成的伤害增加<color=#99FFFFFF>16%</color>，元素战技的暴击率提升<color=#99FFFFFF>6%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.16, 0.06] },
-        { "attrs": [], "params": [0.2, 0.075] },
-        { "attrs": [], "params": [0.24, 0.09] },
-        { "attrs": [], "params": [0.28, 0.105] },
-        { "attrs": [], "params": [0.32, 0.12] }
+        { "desc": "元素战技造成的伤害增加<color=#99FFFFFF>16%</color>，元素战技的暴击率提升<color=#99FFFFFF>6%</color>。", "params": [0.16, 0.06] },
+        { "desc": "元素战技造成的伤害增加<color=#99FFFFFF>20%</color>，元素战技的暴击率提升<color=#99FFFFFF>7.5%</color>。", "params": [0.2, 0.075] },
+        { "desc": "元素战技造成的伤害增加<color=#99FFFFFF>24%</color>，元素战技的暴击率提升<color=#99FFFFFF>9%</color>。", "params": [0.24, 0.09] },
+        { "desc": "元素战技造成的伤害增加<color=#99FFFFFF>28%</color>，元素战技的暴击率提升<color=#99FFFFFF>10.5%</color>。", "params": [0.28, 0.105] },
+        { "desc": "元素战技造成的伤害增加<color=#99FFFFFF>32%</color>，元素战技的暴击率提升<color=#99FFFFFF>12%</color>。", "params": [0.32, 0.12] }
       ]
     }
   },
@@ -1573,13 +1591,27 @@
     "subAttr": { "type": 33, "value": 0.09, "curve": 18 },
     "affix": {
       "name": "西风之鹰的抗争",
-      "desc": "攻击力提高<color=#99FFFFFF>20%</color>；受到伤害时触发：高扬抗争旗号的西风鹰之魂苏醒，恢复等同于攻击力的<color=#99FFFFFF>100%</color>的生命值，并对周围的敌人造成<color=#99FFFFFF>200%</color>攻击力的伤害。该效果每15秒只能触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.2, 1, 2, 15] },
-        { "attrs": [], "params": [0.25, 1.15, 2.3, 15] },
-        { "attrs": [], "params": [0.3, 1.3, 2.6, 15] },
-        { "attrs": [], "params": [0.35, 1.45, 2.9, 15] },
-        { "attrs": [], "params": [0.4, 1.6, 3.2, 15] }
+        {
+          "desc": "攻击力提高<color=#99FFFFFF>20%</color>；受到伤害时触发：高扬抗争旗号的西风鹰之魂苏醒，恢复等同于攻击力的<color=#99FFFFFF>100%</color>的生命值，并对周围的敌人造成<color=#99FFFFFF>200%</color>攻击力的伤害。该效果每15秒只能触发一次。",
+          "params": [0.2, 1, 2, 15]
+        },
+        {
+          "desc": "攻击力提高<color=#99FFFFFF>25%</color>；受到伤害时触发：高扬抗争旗号的西风鹰之魂苏醒，恢复等同于攻击力的<color=#99FFFFFF>115%</color>的生命值，并对周围的敌人造成<color=#99FFFFFF>230%</color>攻击力的伤害。该效果每15秒只能触发一次。",
+          "params": [0.25, 1.15, 2.3, 15]
+        },
+        {
+          "desc": "攻击力提高<color=#99FFFFFF>30%</color>；受到伤害时触发：高扬抗争旗号的西风鹰之魂苏醒，恢复等同于攻击力的<color=#99FFFFFF>130%</color>的生命值，并对周围的敌人造成<color=#99FFFFFF>260%</color>攻击力的伤害。该效果每15秒只能触发一次。",
+          "params": [0.3, 1.3, 2.6, 15]
+        },
+        {
+          "desc": "攻击力提高<color=#99FFFFFF>35%</color>；受到伤害时触发：高扬抗争旗号的西风鹰之魂苏醒，恢复等同于攻击力的<color=#99FFFFFF>145%</color>的生命值，并对周围的敌人造成<color=#99FFFFFF>290%</color>攻击力的伤害。该效果每15秒只能触发一次。",
+          "params": [0.35, 1.45, 2.9, 15]
+        },
+        {
+          "desc": "攻击力提高<color=#99FFFFFF>40%</color>；受到伤害时触发：高扬抗争旗号的西风鹰之魂苏醒，恢复等同于攻击力的<color=#99FFFFFF>160%</color>的生命值，并对周围的敌人造成<color=#99FFFFFF>320%</color>攻击力的伤害。该效果每15秒只能触发一次。",
+          "params": [0.4, 1.6, 3.2, 15]
+        }
       ]
     }
   },
@@ -1656,13 +1688,27 @@
     "subAttr": { "type": 10, "value": 0.12, "curve": 18 },
     "affix": {
       "name": "穿刺高天的利齿",
-      "desc": "暴击率提升<color=#99FFFFFF>4%</color>；施放元素爆发时，获得破空之势：移动速度提升<color=#99FFFFFF>10%</color>，攻击速度提升<color=#99FFFFFF>10%</color>，普通攻击与重击命中时，额外造成<color=#99FFFFFF>20%</color>攻击力的伤害，持续12秒。",
       "levels": [
-        { "attrs": [], "params": [0.04, 0.1, 0.1, 0.2, 12] },
-        { "attrs": [], "params": [0.05, 0.1, 0.1, 0.25, 12] },
-        { "attrs": [], "params": [0.06, 0.1, 0.1, 0.3, 12] },
-        { "attrs": [], "params": [0.07, 0.1, 0.1, 0.35, 12] },
-        { "attrs": [], "params": [0.08, 0.1, 0.1, 0.4, 12] }
+        {
+          "desc": "暴击率提升<color=#99FFFFFF>4%</color>；施放元素爆发时，获得破空之势：移动速度提升<color=#99FFFFFF>10%</color>，攻击速度提升<color=#99FFFFFF>10%</color>，普通攻击与重击命中时，额外造成<color=#99FFFFFF>20%</color>攻击力的伤害，持续12秒。",
+          "params": [0.04, 0.1, 0.1, 0.2, 12]
+        },
+        {
+          "desc": "暴击率提升<color=#99FFFFFF>5%</color>；施放元素爆发时，获得破空之势：移动速度提升<color=#99FFFFFF>10%</color>，攻击速度提升<color=#99FFFFFF>10%</color>，普通攻击与重击命中时，额外造成<color=#99FFFFFF>25%</color>攻击力的伤害，持续12秒。",
+          "params": [0.05, 0.1, 0.1, 0.25, 12]
+        },
+        {
+          "desc": "暴击率提升<color=#99FFFFFF>6%</color>；施放元素爆发时，获得破空之势：移动速度提升<color=#99FFFFFF>10%</color>，攻击速度提升<color=#99FFFFFF>10%</color>，普通攻击与重击命中时，额外造成<color=#99FFFFFF>30%</color>攻击力的伤害，持续12秒。",
+          "params": [0.06, 0.1, 0.1, 0.3, 12]
+        },
+        {
+          "desc": "暴击率提升<color=#99FFFFFF>7%</color>；施放元素爆发时，获得破空之势：移动速度提升<color=#99FFFFFF>10%</color>，攻击速度提升<color=#99FFFFFF>10%</color>，普通攻击与重击命中时，额外造成<color=#99FFFFFF>35%</color>攻击力的伤害，持续12秒。",
+          "params": [0.07, 0.1, 0.1, 0.35, 12]
+        },
+        {
+          "desc": "暴击率提升<color=#99FFFFFF>8%</color>；施放元素爆发时，获得破空之势：移动速度提升<color=#99FFFFFF>10%</color>，攻击速度提升<color=#99FFFFFF>10%</color>，普通攻击与重击命中时，额外造成<color=#99FFFFFF>40%</color>攻击力的伤害，持续12秒。",
+          "params": [0.08, 0.1, 0.1, 0.4, 12]
+        }
       ]
     }
   },
@@ -1787,13 +1833,27 @@
     "subAttr": { "type": 7, "value": 0.108, "curve": 18 },
     "affix": {
       "name": "金璋皇极",
-      "desc": "护盾强效提升<color=#99FFFFFF>20%</color>。攻击命中后的8秒内，攻击力提升<color=#99FFFFFF>4%</color>。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.04, 8] },
-        { "attrs": [], "params": [0.25, 0.05, 8] },
-        { "attrs": [], "params": [0.3, 0.06, 8] },
-        { "attrs": [], "params": [0.35, 0.07, 8] },
-        { "attrs": [], "params": [0.4, 0.08, 8] }
+        {
+          "desc": "护盾强效提升<color=#99FFFFFF>20%</color>。攻击命中后的8秒内，攻击力提升<color=#99FFFFFF>4%</color>。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。",
+          "params": [0.2, 0.04, 8]
+        },
+        {
+          "desc": "护盾强效提升<color=#99FFFFFF>25%</color>。攻击命中后的8秒内，攻击力提升<color=#99FFFFFF>5%</color>。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。",
+          "params": [0.25, 0.05, 8]
+        },
+        {
+          "desc": "护盾强效提升<color=#99FFFFFF>30%</color>。攻击命中后的8秒内，攻击力提升<color=#99FFFFFF>6%</color>。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。",
+          "params": [0.3, 0.06, 8]
+        },
+        {
+          "desc": "护盾强效提升<color=#99FFFFFF>35%</color>。攻击命中后的8秒内，攻击力提升<color=#99FFFFFF>7%</color>。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。",
+          "params": [0.35, 0.07, 8]
+        },
+        {
+          "desc": "护盾强效提升<color=#99FFFFFF>40%</color>。攻击命中后的8秒内，攻击力提升<color=#99FFFFFF>8%</color>。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。",
+          "params": [0.4, 0.08, 8]
+        }
       ]
     }
   },
@@ -1870,13 +1930,12 @@
     "subAttr": { "type": 12, "value": 0.096, "curve": 18 },
     "affix": {
       "name": "护国的无垢之心",
-      "desc": "生命值提升<color=#99FFFFFF>20%</color>。此外，基于装备该武器的角色生命值上限的<color=#99FFFFFF>1.2%</color>，获得攻击力加成。",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.012] },
-        { "attrs": [], "params": [0.25, 0.015] },
-        { "attrs": [], "params": [0.3, 0.018] },
-        { "attrs": [], "params": [0.35, 0.021] },
-        { "attrs": [], "params": [0.4, 0.024] }
+        { "desc": "生命值提升<color=#99FFFFFF>20%</color>。此外，基于装备该武器的角色生命值上限的<color=#99FFFFFF>1.2%</color>，获得攻击力加成。", "params": [0.2, 0.012] },
+        { "desc": "生命值提升<color=#99FFFFFF>25%</color>。此外，基于装备该武器的角色生命值上限的<color=#99FFFFFF>1.5%</color>，获得攻击力加成。", "params": [0.25, 0.015] },
+        { "desc": "生命值提升<color=#99FFFFFF>30%</color>。此外，基于装备该武器的角色生命值上限的<color=#99FFFFFF>1.8%</color>，获得攻击力加成。", "params": [0.3, 0.018] },
+        { "desc": "生命值提升<color=#99FFFFFF>35%</color>。此外，基于装备该武器的角色生命值上限的<color=#99FFFFFF>2.1%</color>，获得攻击力加成。", "params": [0.35, 0.021] },
+        { "desc": "生命值提升<color=#99FFFFFF>40%</color>。此外，基于装备该武器的角色生命值上限的<color=#99FFFFFF>2.4%</color>，获得攻击力加成。", "params": [0.4, 0.024] }
       ]
     }
   },
@@ -2097,13 +2156,12 @@
     "subAttr": { "type": 5, "value": 0.0766, "curve": 16 },
     "affix": {
       "name": "不屈",
-      "desc": "生命值低于<color=#99FFFFFF>70%</color>时，重击不会轻易被打断，并提高<color=#99FFFFFF>30%</color>重击伤害。",
       "levels": [
-        { "attrs": [], "params": [0.7, 0.3] },
-        { "attrs": [], "params": [0.75, 0.35] },
-        { "attrs": [], "params": [0.8, 0.4] },
-        { "attrs": [], "params": [0.85, 0.45] },
-        { "attrs": [], "params": [0.9, 0.5] }
+        { "desc": "生命值低于<color=#99FFFFFF>70%</color>时，重击不会轻易被打断，并提高<color=#99FFFFFF>30%</color>重击伤害。", "params": [0.7, 0.3] },
+        { "desc": "生命值低于<color=#99FFFFFF>75%</color>时，重击不会轻易被打断，并提高<color=#99FFFFFF>35%</color>重击伤害。", "params": [0.75, 0.35] },
+        { "desc": "生命值低于<color=#99FFFFFF>80%</color>时，重击不会轻易被打断，并提高<color=#99FFFFFF>40%</color>重击伤害。", "params": [0.8, 0.4] },
+        { "desc": "生命值低于<color=#99FFFFFF>85%</color>时，重击不会轻易被打断，并提高<color=#99FFFFFF>45%</color>重击伤害。", "params": [0.85, 0.45] },
+        { "desc": "生命值低于<color=#99FFFFFF>90%</color>时，重击不会轻易被打断，并提高<color=#99FFFFFF>50%</color>重击伤害。", "params": [0.9, 0.5] }
       ]
     }
   },
@@ -2180,13 +2238,12 @@
     "subAttr": { "type": 11, "value": 40.8, "curve": 16 },
     "affix": {
       "name": "踏火息雷",
-      "desc": "对处于火元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>12%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.15] },
-        { "attrs": [], "params": [0.18] },
-        { "attrs": [], "params": [0.21] },
-        { "attrs": [], "params": [0.24] }
+        { "desc": "对处于火元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>12%</color>。", "params": [0.12] },
+        { "desc": "对处于火元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>15%</color>。", "params": [0.15] },
+        { "desc": "对处于火元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>18%</color>。", "params": [0.18] },
+        { "desc": "对处于火元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>21%</color>。", "params": [0.21] },
+        { "desc": "对处于火元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>24%</color>。", "params": [0.24] }
       ]
     }
   },
@@ -2263,13 +2320,12 @@
     "subAttr": { "type": 9, "value": 0.0956, "curve": 16 },
     "affix": {
       "name": "收割",
-      "desc": "击败敌人时，恢复<color=#99FFFFFF>8%</color>生命值。",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "击败敌人时，恢复<color=#99FFFFFF>8%</color>生命值。", "params": [0.08] },
+        { "desc": "击败敌人时，恢复<color=#99FFFFFF>10%</color>生命值。", "params": [0.1] },
+        { "desc": "击败敌人时，恢复<color=#99FFFFFF>12%</color>生命值。", "params": [0.12] },
+        { "desc": "击败敌人时，恢复<color=#99FFFFFF>14%</color>生命值。", "params": [0.14] },
+        { "desc": "击败敌人时，恢复<color=#99FFFFFF>16%</color>生命值。", "params": [0.16] }
       ]
     }
   },
@@ -2346,13 +2402,12 @@
     "subAttr": { "type": 11, "value": 30.6, "curve": 16 },
     "affix": {
       "name": "余热",
-      "desc": "触发超载、融化、点燃、蒸发或火元素扩散反应后的12秒内，攻击力提高<color=#99FFFFFF>20%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.2] },
-        { "attrs": [], "params": [0.25] },
-        { "attrs": [], "params": [0.3] },
-        { "attrs": [], "params": [0.35] },
-        { "attrs": [], "params": [0.4] }
+        { "desc": "触发超载、融化、点燃、蒸发或火元素扩散反应后的12秒内，攻击力提高<color=#99FFFFFF>20%</color>。", "params": [0.2] },
+        { "desc": "触发超载、融化、点燃、蒸发或火元素扩散反应后的12秒内，攻击力提高<color=#99FFFFFF>25%</color>。", "params": [0.25] },
+        { "desc": "触发超载、融化、点燃、蒸发或火元素扩散反应后的12秒内，攻击力提高<color=#99FFFFFF>30%</color>。", "params": [0.3] },
+        { "desc": "触发超载、融化、点燃、蒸发或火元素扩散反应后的12秒内，攻击力提高<color=#99FFFFFF>35%</color>。", "params": [0.35] },
+        { "desc": "触发超载、融化、点燃、蒸发或火元素扩散反应后的12秒内，攻击力提高<color=#99FFFFFF>40%</color>。", "params": [0.4] }
       ]
     }
   },
@@ -2429,13 +2484,12 @@
     "subAttr": { "type": 7, "value": 0.0766, "curve": 16 },
     "affix": {
       "name": "有话直说",
-      "desc": "施放元素战技后，普通攻击和重击命中时会在小范围内额外造成<color=#99FFFFFF>60%</color>攻击力的伤害。该效果持续15秒，伤害每3秒只能触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.6, 15, 3] },
-        { "attrs": [], "params": [0.75, 15, 3] },
-        { "attrs": [], "params": [0.9, 15, 3] },
-        { "attrs": [], "params": [1.05, 15, 3] },
-        { "attrs": [], "params": [1.2, 15, 3] }
+        { "desc": "施放元素战技后，普通攻击和重击命中时会在小范围内额外造成<color=#99FFFFFF>60%</color>攻击力的伤害。该效果持续15秒，伤害每3秒只能触发一次。", "params": [0.6, 15, 3] },
+        { "desc": "施放元素战技后，普通攻击和重击命中时会在小范围内额外造成<color=#99FFFFFF>75%</color>攻击力的伤害。该效果持续15秒，伤害每3秒只能触发一次。", "params": [0.75, 15, 3] },
+        { "desc": "施放元素战技后，普通攻击和重击命中时会在小范围内额外造成<color=#99FFFFFF>90%</color>攻击力的伤害。该效果持续15秒，伤害每3秒只能触发一次。", "params": [0.9, 15, 3] },
+        { "desc": "施放元素战技后，普通攻击和重击命中时会在小范围内额外造成<color=#99FFFFFF>105%</color>攻击力的伤害。该效果持续15秒，伤害每3秒只能触发一次。", "params": [1.05, 15, 3] },
+        { "desc": "施放元素战技后，普通攻击和重击命中时会在小范围内额外造成<color=#99FFFFFF>120%</color>攻击力的伤害。该效果持续15秒，伤害每3秒只能触发一次。", "params": [1.2, 15, 3] }
       ]
     }
   },
@@ -2512,13 +2566,12 @@
     "subAttr": { "type": 33, "value": 0.0956, "curve": 16 },
     "affix": {
       "name": "勇气",
-      "desc": "普通攻击和重击命中时，攻击力提高<color=#99FFFFFF>6%</color>，持续6秒，最多叠加4层。该效果每0.5秒只能触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.06] },
-        { "attrs": [], "params": [0.07] },
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.09] },
-        { "attrs": [], "params": [0.1] }
+        { "desc": "普通攻击和重击命中时，攻击力提高<color=#99FFFFFF>6%</color>，持续6秒，最多叠加4层。该效果每0.5秒只能触发一次。", "params": [0.06] },
+        { "desc": "普通攻击和重击命中时，攻击力提高<color=#99FFFFFF>7%</color>，持续6秒，最多叠加4层。该效果每0.5秒只能触发一次。", "params": [0.07] },
+        { "desc": "普通攻击和重击命中时，攻击力提高<color=#99FFFFFF>8%</color>，持续6秒，最多叠加4层。该效果每0.5秒只能触发一次。", "params": [0.08] },
+        { "desc": "普通攻击和重击命中时，攻击力提高<color=#99FFFFFF>9%</color>，持续6秒，最多叠加4层。该效果每0.5秒只能触发一次。", "params": [0.09] },
+        { "desc": "普通攻击和重击命中时，攻击力提高<color=#99FFFFFF>10%</color>，持续6秒，最多叠加4层。该效果每0.5秒只能触发一次。", "params": [0.1] }
       ]
     }
   },
@@ -2595,13 +2648,12 @@
     "subAttr": { "type": 10, "value": 0.13333, "curve": 17 },
     "affix": {
       "name": "顺风而行",
-      "desc": "攻击造成暴击时，有<color=#99FFFFFF>60%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>12</color>秒只能触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.6, 12] },
-        { "attrs": [], "params": [0.7, 10.5] },
-        { "attrs": [], "params": [0.8, 9] },
-        { "attrs": [], "params": [0.9, 7.5] },
-        { "attrs": [], "params": [1, 6] }
+        { "desc": "攻击造成暴击时，有<color=#99FFFFFF>60%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>12</color>秒只能触发一次。", "params": [0.6, 12] },
+        { "desc": "攻击造成暴击时，有<color=#99FFFFFF>70%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>10.5</color>秒只能触发一次。", "params": [0.7, 10.5] },
+        { "desc": "攻击造成暴击时，有<color=#99FFFFFF>80%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>9</color>秒只能触发一次。", "params": [0.8, 9] },
+        { "desc": "攻击造成暴击时，有<color=#99FFFFFF>90%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>7.5</color>秒只能触发一次。", "params": [0.9, 7.5] },
+        { "desc": "攻击造成暴击时，有<color=#99FFFFFF>100%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>6</color>秒只能触发一次。", "params": [1, 6] }
       ]
     }
   },
@@ -2678,13 +2730,27 @@
     "subAttr": { "type": 5, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "叛逆的守护者",
-      "desc": "受到伤害时，生成一个伤害吸收量等同于生命值上限<color=#99FFFFFF>20%</color>的护盾，持续10秒或直到护盾失效,每<color=#99FFFFFF>45</color>秒只能触发一次。角色处于护盾庇护下时，造成的伤害提升<color=#99FFFFFF>12%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.2, 45, 0.12] },
-        { "attrs": [], "params": [0.23, 45, 0.15] },
-        { "attrs": [], "params": [0.26, 45, 0.18] },
-        { "attrs": [], "params": [0.29, 45, 0.21] },
-        { "attrs": [], "params": [0.32, 45, 0.24] }
+        {
+          "desc": "受到伤害时，生成一个伤害吸收量等同于生命值上限<color=#99FFFFFF>20%</color>的护盾，持续10秒或直到护盾失效,每<color=#99FFFFFF>45</color>秒只能触发一次。角色处于护盾庇护下时，造成的伤害提升<color=#99FFFFFF>12%</color>。",
+          "params": [0.2, 45, 0.12]
+        },
+        {
+          "desc": "受到伤害时，生成一个伤害吸收量等同于生命值上限<color=#99FFFFFF>23%</color>的护盾，持续10秒或直到护盾失效,每<color=#99FFFFFF>45</color>秒只能触发一次。角色处于护盾庇护下时，造成的伤害提升<color=#99FFFFFF>15%</color>。",
+          "params": [0.23, 45, 0.15]
+        },
+        {
+          "desc": "受到伤害时，生成一个伤害吸收量等同于生命值上限<color=#99FFFFFF>26%</color>的护盾，持续10秒或直到护盾失效,每<color=#99FFFFFF>45</color>秒只能触发一次。角色处于护盾庇护下时，造成的伤害提升<color=#99FFFFFF>18%</color>。",
+          "params": [0.26, 45, 0.18]
+        },
+        {
+          "desc": "受到伤害时，生成一个伤害吸收量等同于生命值上限<color=#99FFFFFF>29%</color>的护盾，持续10秒或直到护盾失效,每<color=#99FFFFFF>45</color>秒只能触发一次。角色处于护盾庇护下时，造成的伤害提升<color=#99FFFFFF>21%</color>。",
+          "params": [0.29, 45, 0.21]
+        },
+        {
+          "desc": "受到伤害时，生成一个伤害吸收量等同于生命值上限<color=#99FFFFFF>32%</color>的护盾，持续10秒或直到护盾失效,每<color=#99FFFFFF>45</color>秒只能触发一次。角色处于护盾庇护下时，造成的伤害提升<color=#99FFFFFF>24%</color>。",
+          "params": [0.32, 45, 0.24]
+        }
       ]
     }
   },
@@ -2761,13 +2827,12 @@
     "subAttr": { "type": 10, "value": 0.066667, "curve": 17 },
     "affix": {
       "name": "气定神闲",
-      "desc": "元素战技造成伤害时，有<color=#99FFFFFF>40%</color>的概率重置该技能的冷却时间，该效果每<color=#99FFFFFF>30</color>秒只能触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.4, 30] },
-        { "attrs": [], "params": [0.5, 26] },
-        { "attrs": [], "params": [0.6, 22] },
-        { "attrs": [], "params": [0.7, 19] },
-        { "attrs": [], "params": [0.8, 16] }
+        { "desc": "元素战技造成伤害时，有<color=#99FFFFFF>40%</color>的概率重置该技能的冷却时间，该效果每<color=#99FFFFFF>30</color>秒只能触发一次。", "params": [0.4, 30] },
+        { "desc": "元素战技造成伤害时，有<color=#99FFFFFF>50%</color>的概率重置该技能的冷却时间，该效果每<color=#99FFFFFF>26</color>秒只能触发一次。", "params": [0.5, 26] },
+        { "desc": "元素战技造成伤害时，有<color=#99FFFFFF>60%</color>的概率重置该技能的冷却时间，该效果每<color=#99FFFFFF>22</color>秒只能触发一次。", "params": [0.6, 22] },
+        { "desc": "元素战技造成伤害时，有<color=#99FFFFFF>70%</color>的概率重置该技能的冷却时间，该效果每<color=#99FFFFFF>19</color>秒只能触发一次。", "params": [0.7, 19] },
+        { "desc": "元素战技造成伤害时，有<color=#99FFFFFF>80%</color>的概率重置该技能的冷却时间，该效果每<color=#99FFFFFF>16</color>秒只能触发一次。", "params": [0.8, 16] }
       ]
     }
   },
@@ -2844,13 +2909,12 @@
     "subAttr": { "type": 7, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "专注",
-      "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>8%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>8%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。", "params": [0.08] },
+        { "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>10%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。", "params": [0.1] },
+        { "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>12%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。", "params": [0.12] },
+        { "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>14%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。", "params": [0.14] },
+        { "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>16%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。", "params": [0.16] }
       ]
     }
   },
@@ -2927,13 +2991,12 @@
     "subAttr": { "type": 11, "value": 36, "curve": 17 },
     "affix": {
       "name": "止水息雷",
-      "desc": "对处于水元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>20%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.2] },
-        { "attrs": [], "params": [0.24] },
-        { "attrs": [], "params": [0.28] },
-        { "attrs": [], "params": [0.32] },
-        { "attrs": [], "params": [0.36] }
+        { "desc": "对处于水元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>20%</color>。", "params": [0.2] },
+        { "desc": "对处于水元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>24%</color>。", "params": [0.24] },
+        { "desc": "对处于水元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>28%</color>。", "params": [0.28] },
+        { "desc": "对处于水元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>32%</color>。", "params": [0.32] },
+        { "desc": "对处于水元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>36%</color>。", "params": [0.36] }
       ]
     }
   },
@@ -3010,13 +3073,12 @@
     "subAttr": { "type": 7, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "粉碎",
-      "desc": "普通攻击和重击命中时，有50%的概率对小范围内的敌人造成<color=#99FFFFFF>240%</color>攻击力的额外伤害。该效果每15秒只能触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.5, 2.4] },
-        { "attrs": [], "params": [0.5, 3] },
-        { "attrs": [], "params": [0.5, 3.6] },
-        { "attrs": [], "params": [0.5, 4.2] },
-        { "attrs": [], "params": [0.5, 4.8] }
+        { "desc": "普通攻击和重击命中时，有50%的概率对小范围内的敌人造成<color=#99FFFFFF>240%</color>攻击力的额外伤害。该效果每15秒只能触发一次。", "params": [0.5, 2.4] },
+        { "desc": "普通攻击和重击命中时，有50%的概率对小范围内的敌人造成<color=#99FFFFFF>300%</color>攻击力的额外伤害。该效果每15秒只能触发一次。", "params": [0.5, 3] },
+        { "desc": "普通攻击和重击命中时，有50%的概率对小范围内的敌人造成<color=#99FFFFFF>360%</color>攻击力的额外伤害。该效果每15秒只能触发一次。", "params": [0.5, 3.6] },
+        { "desc": "普通攻击和重击命中时，有50%的概率对小范围内的敌人造成<color=#99FFFFFF>420%</color>攻击力的额外伤害。该效果每15秒只能触发一次。", "params": [0.5, 4.2] },
+        { "desc": "普通攻击和重击命中时，有50%的概率对小范围内的敌人造成<color=#99FFFFFF>480%</color>攻击力的额外伤害。该效果每15秒只能触发一次。", "params": [0.5, 4.8] }
       ]
     }
   },
@@ -3093,13 +3155,12 @@
     "subAttr": { "type": 9, "value": 0.1126, "curve": 17 },
     "affix": {
       "name": "注能之锋",
-      "desc": "普通攻击和重击命中后，攻击力和防御力提高<color=#99FFFFFF>6%</color>。该效果持续6秒，最多叠加4层，每0.5秒只能触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.06] },
-        { "attrs": [], "params": [0.075] },
-        { "attrs": [], "params": [0.09] },
-        { "attrs": [], "params": [0.105] },
-        { "attrs": [], "params": [0.12] }
+        { "desc": "普通攻击和重击命中后，攻击力和防御力提高<color=#99FFFFFF>6%</color>。该效果持续6秒，最多叠加4层，每0.5秒只能触发一次。", "params": [0.06] },
+        { "desc": "普通攻击和重击命中后，攻击力和防御力提高<color=#99FFFFFF>7.5%</color>。该效果持续6秒，最多叠加4层，每0.5秒只能触发一次。", "params": [0.075] },
+        { "desc": "普通攻击和重击命中后，攻击力和防御力提高<color=#99FFFFFF>9%</color>。该效果持续6秒，最多叠加4层，每0.5秒只能触发一次。", "params": [0.09] },
+        { "desc": "普通攻击和重击命中后，攻击力和防御力提高<color=#99FFFFFF>10.5%</color>。该效果持续6秒，最多叠加4层，每0.5秒只能触发一次。", "params": [0.105] },
+        { "desc": "普通攻击和重击命中后，攻击力和防御力提高<color=#99FFFFFF>12%</color>。该效果持续6秒，最多叠加4层，每0.5秒只能触发一次。", "params": [0.12] }
       ]
     }
   },
@@ -3176,13 +3237,12 @@
     "subAttr": { "type": 13, "value": 0.12, "curve": 17 },
     "affix": {
       "name": "乘胜追击",
-      "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>12%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。",
       "levels": [
-        { "attrs": [], "params": [0.12, 30] },
-        { "attrs": [], "params": [0.15, 30] },
-        { "attrs": [], "params": [0.18, 30] },
-        { "attrs": [], "params": [0.21, 30] },
-        { "attrs": [], "params": [0.24, 30] }
+        { "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>12%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。", "params": [0.12, 30] },
+        { "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>15%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。", "params": [0.15, 30] },
+        { "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>18%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。", "params": [0.18, 30] },
+        { "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>21%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。", "params": [0.21, 30] },
+        { "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>24%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。", "params": [0.24, 30] }
       ]
     }
   },
@@ -3259,13 +3319,27 @@
     "subAttr": { "type": 12, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "破浪",
-      "desc": "角色在场上时，每4秒提升<color=#99FFFFFF>6%</color>造成的伤害，<color=#99FFFFFF>3%</color>受到的伤害。该效果最多叠加5层，不随角色退场重置，受到伤害后会减少1层效果。",
       "levels": [
-        { "attrs": [], "params": [4, 0.06, 0.03] },
-        { "attrs": [], "params": [4, 0.07, 0.027] },
-        { "attrs": [], "params": [4, 0.08, 0.024] },
-        { "attrs": [], "params": [4, 0.09, 0.022] },
-        { "attrs": [], "params": [4, 0.1, 0.02] }
+        {
+          "desc": "角色在场上时，每4秒提升<color=#99FFFFFF>6%</color>造成的伤害，<color=#99FFFFFF>3%</color>受到的伤害。该效果最多叠加5层，不随角色退场重置，受到伤害后会减少1层效果。",
+          "params": [4, 0.06, 0.03]
+        },
+        {
+          "desc": "角色在场上时，每4秒提升<color=#99FFFFFF>7%</color>造成的伤害，<color=#99FFFFFF>2.7%</color>受到的伤害。该效果最多叠加5层，不随角色退场重置，受到伤害后会减少1层效果。",
+          "params": [4, 0.07, 0.027]
+        },
+        {
+          "desc": "角色在场上时，每4秒提升<color=#99FFFFFF>8%</color>造成的伤害，<color=#99FFFFFF>2.4%</color>受到的伤害。该效果最多叠加5层，不随角色退场重置，受到伤害后会减少1层效果。",
+          "params": [4, 0.08, 0.024]
+        },
+        {
+          "desc": "角色在场上时，每4秒提升<color=#99FFFFFF>9%</color>造成的伤害，<color=#99FFFFFF>2.2%</color>受到的伤害。该效果最多叠加5层，不随角色退场重置，受到伤害后会减少1层效果。",
+          "params": [4, 0.09, 0.022]
+        },
+        {
+          "desc": "角色在场上时，每4秒提升<color=#99FFFFFF>10%</color>造成的伤害，<color=#99FFFFFF>2%</color>受到的伤害。该效果最多叠加5层，不随角色退场重置，受到伤害后会减少1层效果。",
+          "params": [4, 0.1, 0.02]
+        }
       ]
     }
   },
@@ -3342,13 +3416,12 @@
     "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "千岩诀·同心",
-      "desc": "队伍中每有一位璃月角色，装备该武器的角色便获得<color=#99FFFFFF>7%</color>攻击力提升与<color=#99FFFFFF>3%</color>暴击率提升。至多获得4层提升效果。",
       "levels": [
-        { "attrs": [], "params": [0.07, 0.03, 4] },
-        { "attrs": [], "params": [0.08, 0.04, 4] },
-        { "attrs": [], "params": [0.09, 0.05, 4] },
-        { "attrs": [], "params": [0.1, 0.06, 4] },
-        { "attrs": [], "params": [0.11, 0.07, 4] }
+        { "desc": "队伍中每有一位璃月角色，装备该武器的角色便获得<color=#99FFFFFF>7%</color>攻击力提升与<color=#99FFFFFF>3%</color>暴击率提升。至多获得4层提升效果。", "params": [0.07, 0.03, 4] },
+        { "desc": "队伍中每有一位璃月角色，装备该武器的角色便获得<color=#99FFFFFF>8%</color>攻击力提升与<color=#99FFFFFF>4%</color>暴击率提升。至多获得4层提升效果。", "params": [0.08, 0.04, 4] },
+        { "desc": "队伍中每有一位璃月角色，装备该武器的角色便获得<color=#99FFFFFF>9%</color>攻击力提升与<color=#99FFFFFF>5%</color>暴击率提升。至多获得4层提升效果。", "params": [0.09, 0.05, 4] },
+        { "desc": "队伍中每有一位璃月角色，装备该武器的角色便获得<color=#99FFFFFF>10%</color>攻击力提升与<color=#99FFFFFF>6%</color>暴击率提升。至多获得4层提升效果。", "params": [0.1, 0.06, 4] },
+        { "desc": "队伍中每有一位璃月角色，装备该武器的角色便获得<color=#99FFFFFF>11%</color>攻击力提升与<color=#99FFFFFF>7%</color>暴击率提升。至多获得4层提升效果。", "params": [0.11, 0.07, 4] }
       ]
     }
   },
@@ -3425,13 +3498,27 @@
     "subAttr": { "type": 33, "value": 0.075067, "curve": 17 },
     "affix": {
       "name": "霜葬",
-      "desc": "普通攻击与重击命中敌人时，有<color=#99FFFFFF>60%</color>概率在敌人上方生成恒冰晶核并坠落，造成<color=#99FFFFFF>80%</color>攻击力的范围伤害。若敌人处于冰元素影响下，则造成<color=#99FFFFFF>200%</color>攻击力的伤害。该效果每10秒至多触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.6, 0.8, 2, 10] },
-        { "attrs": [], "params": [0.7, 0.95, 2.4, 10] },
-        { "attrs": [], "params": [0.8, 1.1, 2.8, 10] },
-        { "attrs": [], "params": [0.9, 1.25, 3.2, 10] },
-        { "attrs": [], "params": [1, 1.4, 3.6, 10] }
+        {
+          "desc": "普通攻击与重击命中敌人时，有<color=#99FFFFFF>60%</color>概率在敌人上方生成恒冰晶核并坠落，造成<color=#99FFFFFF>80%</color>攻击力的范围伤害。若敌人处于冰元素影响下，则造成<color=#99FFFFFF>200%</color>攻击力的伤害。该效果每10秒至多触发一次。",
+          "params": [0.6, 0.8, 2, 10]
+        },
+        {
+          "desc": "普通攻击与重击命中敌人时，有<color=#99FFFFFF>70%</color>概率在敌人上方生成恒冰晶核并坠落，造成<color=#99FFFFFF>95%</color>攻击力的范围伤害。若敌人处于冰元素影响下，则造成<color=#99FFFFFF>240%</color>攻击力的伤害。该效果每10秒至多触发一次。",
+          "params": [0.7, 0.95, 2.4, 10]
+        },
+        {
+          "desc": "普通攻击与重击命中敌人时，有<color=#99FFFFFF>80%</color>概率在敌人上方生成恒冰晶核并坠落，造成<color=#99FFFFFF>110%</color>攻击力的范围伤害。若敌人处于冰元素影响下，则造成<color=#99FFFFFF>280%</color>攻击力的伤害。该效果每10秒至多触发一次。",
+          "params": [0.8, 1.1, 2.8, 10]
+        },
+        {
+          "desc": "普通攻击与重击命中敌人时，有<color=#99FFFFFF>90%</color>概率在敌人上方生成恒冰晶核并坠落，造成<color=#99FFFFFF>125%</color>攻击力的范围伤害。若敌人处于冰元素影响下，则造成<color=#99FFFFFF>320%</color>攻击力的伤害。该效果每10秒至多触发一次。",
+          "params": [0.9, 1.25, 3.2, 10]
+        },
+        {
+          "desc": "普通攻击与重击命中敌人时，有<color=#99FFFFFF>100%</color>概率在敌人上方生成恒冰晶核并坠落，造成<color=#99FFFFFF>140%</color>攻击力的范围伤害。若敌人处于冰元素影响下，则造成<color=#99FFFFFF>360%</color>攻击力的伤害。该效果每10秒至多触发一次。",
+          "params": [1, 1.4, 3.6, 10]
+        }
       ]
     }
   },
@@ -3508,13 +3595,27 @@
     "subAttr": { "type": 10, "value": 0.08, "curve": 18 },
     "affix": {
       "name": "斩裂晴空的龙脊",
-      "desc": "造成的伤害提高<color=#99FFFFFF>8%</color>；施放元素爆发后：普通攻击和重击命中时会发出真空刃，对路径上的敌人造成<color=#99FFFFFF>80%</color>攻击力的伤害，持续20秒或直至发出8次真空刃。",
       "levels": [
-        { "attrs": [], "params": [0.08, 0.8, 20, 8] },
-        { "attrs": [], "params": [0.1, 1, 20, 8] },
-        { "attrs": [], "params": [0.12, 1.2, 20, 8] },
-        { "attrs": [], "params": [0.14, 1.4, 20, 8] },
-        { "attrs": [], "params": [0.16, 1.6, 20, 8] }
+        {
+          "desc": "造成的伤害提高<color=#99FFFFFF>8%</color>；施放元素爆发后：普通攻击和重击命中时会发出真空刃，对路径上的敌人造成<color=#99FFFFFF>80%</color>攻击力的伤害，持续20秒或直至发出8次真空刃。",
+          "params": [0.08, 0.8, 20, 8]
+        },
+        {
+          "desc": "造成的伤害提高<color=#99FFFFFF>10%</color>；施放元素爆发后：普通攻击和重击命中时会发出真空刃，对路径上的敌人造成<color=#99FFFFFF>100%</color>攻击力的伤害，持续20秒或直至发出8次真空刃。",
+          "params": [0.1, 1, 20, 8]
+        },
+        {
+          "desc": "造成的伤害提高<color=#99FFFFFF>12%</color>；施放元素爆发后：普通攻击和重击命中时会发出真空刃，对路径上的敌人造成<color=#99FFFFFF>120%</color>攻击力的伤害，持续20秒或直至发出8次真空刃。",
+          "params": [0.12, 1.2, 20, 8]
+        },
+        {
+          "desc": "造成的伤害提高<color=#99FFFFFF>14%</color>；施放元素爆发后：普通攻击和重击命中时会发出真空刃，对路径上的敌人造成<color=#99FFFFFF>140%</color>攻击力的伤害，持续20秒或直至发出8次真空刃。",
+          "params": [0.14, 1.4, 20, 8]
+        },
+        {
+          "desc": "造成的伤害提高<color=#99FFFFFF>16%</color>；施放元素爆发后：普通攻击和重击命中时会发出真空刃，对路径上的敌人造成<color=#99FFFFFF>160%</color>攻击力的伤害，持续20秒或直至发出8次真空刃。",
+          "params": [0.16, 1.6, 20, 8]
+        }
       ]
     }
   },
@@ -3591,13 +3692,27 @@
     "subAttr": { "type": 7, "value": 0.108, "curve": 18 },
     "affix": {
       "name": "如狼般狩猎者",
-      "desc": "攻击力提高<color=#99FFFFFF>20%</color>；攻击命中生命值低于30%的敌人时，队伍中所有成员的攻击力提高<color=#99FFFFFF>40%</color>，持续12秒。该效果30秒只能触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.4] },
-        { "attrs": [], "params": [0.25, 0.5] },
-        { "attrs": [], "params": [0.3, 0.6] },
-        { "attrs": [], "params": [0.35, 0.7] },
-        { "attrs": [], "params": [0.4, 0.8] }
+        {
+          "desc": "攻击力提高<color=#99FFFFFF>20%</color>；攻击命中生命值低于30%的敌人时，队伍中所有成员的攻击力提高<color=#99FFFFFF>40%</color>，持续12秒。该效果30秒只能触发一次。",
+          "params": [0.2, 0.4]
+        },
+        {
+          "desc": "攻击力提高<color=#99FFFFFF>25%</color>；攻击命中生命值低于30%的敌人时，队伍中所有成员的攻击力提高<color=#99FFFFFF>50%</color>，持续12秒。该效果30秒只能触发一次。",
+          "params": [0.25, 0.5]
+        },
+        {
+          "desc": "攻击力提高<color=#99FFFFFF>30%</color>；攻击命中生命值低于30%的敌人时，队伍中所有成员的攻击力提高<color=#99FFFFFF>60%</color>，持续12秒。该效果30秒只能触发一次。",
+          "params": [0.3, 0.6]
+        },
+        {
+          "desc": "攻击力提高<color=#99FFFFFF>35%</color>；攻击命中生命值低于30%的敌人时，队伍中所有成员的攻击力提高<color=#99FFFFFF>70%</color>，持续12秒。该效果30秒只能触发一次。",
+          "params": [0.35, 0.7]
+        },
+        {
+          "desc": "攻击力提高<color=#99FFFFFF>40%</color>；攻击命中生命值低于30%的敌人时，队伍中所有成员的攻击力提高<color=#99FFFFFF>80%</color>，持续12秒。该效果30秒只能触发一次。",
+          "params": [0.4, 0.8]
+        }
       ]
     }
   },
@@ -3722,13 +3837,27 @@
     "subAttr": { "type": 7, "value": 0.108, "curve": 18 },
     "affix": {
       "name": "金璋皇极",
-      "desc": "护盾强效提升<color=#99FFFFFF>20%</color>。攻击命中后的8秒内，攻击力提升<color=#99FFFFFF>4%</color>。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.04, 8] },
-        { "attrs": [], "params": [0.25, 0.05, 8] },
-        { "attrs": [], "params": [0.3, 0.06, 8] },
-        { "attrs": [], "params": [0.35, 0.07, 8] },
-        { "attrs": [], "params": [0.4, 0.08, 8] }
+        {
+          "desc": "护盾强效提升<color=#99FFFFFF>20%</color>。攻击命中后的8秒内，攻击力提升<color=#99FFFFFF>4%</color>。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。",
+          "params": [0.2, 0.04, 8]
+        },
+        {
+          "desc": "护盾强效提升<color=#99FFFFFF>25%</color>。攻击命中后的8秒内，攻击力提升<color=#99FFFFFF>5%</color>。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。",
+          "params": [0.25, 0.05, 8]
+        },
+        {
+          "desc": "护盾强效提升<color=#99FFFFFF>30%</color>。攻击命中后的8秒内，攻击力提升<color=#99FFFFFF>6%</color>。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。",
+          "params": [0.3, 0.06, 8]
+        },
+        {
+          "desc": "护盾强效提升<color=#99FFFFFF>35%</color>。攻击命中后的8秒内，攻击力提升<color=#99FFFFFF>7%</color>。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。",
+          "params": [0.35, 0.07, 8]
+        },
+        {
+          "desc": "护盾强效提升<color=#99FFFFFF>40%</color>。攻击命中后的8秒内，攻击力提升<color=#99FFFFFF>8%</color>。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。",
+          "params": [0.4, 0.08, 8]
+        }
       ]
     }
   },
@@ -3949,13 +4078,12 @@
     "subAttr": { "type": 12, "value": 0.051, "curve": 16 },
     "affix": {
       "name": "锐利",
-      "desc": "普通攻击造成的伤害提升<color=#99FFFFFF>24%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.24] },
-        { "attrs": [], "params": [0.3] },
-        { "attrs": [], "params": [0.36] },
-        { "attrs": [], "params": [0.42] },
-        { "attrs": [], "params": [0.48] }
+        { "desc": "普通攻击造成的伤害提升<color=#99FFFFFF>24%</color>。", "params": [0.24] },
+        { "desc": "普通攻击造成的伤害提升<color=#99FFFFFF>30%</color>。", "params": [0.3] },
+        { "desc": "普通攻击造成的伤害提升<color=#99FFFFFF>36%</color>。", "params": [0.36] },
+        { "desc": "普通攻击造成的伤害提升<color=#99FFFFFF>42%</color>。", "params": [0.42] },
+        { "desc": "普通攻击造成的伤害提升<color=#99FFFFFF>48%</color>。", "params": [0.48] }
       ]
     }
   },
@@ -4032,13 +4160,12 @@
     "subAttr": { "type": 7, "value": 0.051067, "curve": 16 },
     "affix": {
       "name": "沉重",
-      "desc": "对普通攻击命中的敌人造成<color=#99FFFFFF>160%</color>攻击力的额外伤害。该效果每10秒只能触发一次。",
       "levels": [
-        { "attrs": [], "params": [1.6, 10] },
-        { "attrs": [], "params": [2, 10] },
-        { "attrs": [], "params": [2.4, 10] },
-        { "attrs": [], "params": [2.8, 10] },
-        { "attrs": [], "params": [3.2, 10] }
+        { "desc": "对普通攻击命中的敌人造成<color=#99FFFFFF>160%</color>攻击力的额外伤害。该效果每10秒只能触发一次。", "params": [1.6, 10] },
+        { "desc": "对普通攻击命中的敌人造成<color=#99FFFFFF>200%</color>攻击力的额外伤害。该效果每10秒只能触发一次。", "params": [2, 10] },
+        { "desc": "对普通攻击命中的敌人造成<color=#99FFFFFF>240%</color>攻击力的额外伤害。该效果每10秒只能触发一次。", "params": [2.4, 10] },
+        { "desc": "对普通攻击命中的敌人造成<color=#99FFFFFF>280%</color>攻击力的额外伤害。该效果每10秒只能触发一次。", "params": [2.8, 10] },
+        { "desc": "对普通攻击命中的敌人造成<color=#99FFFFFF>320%</color>攻击力的额外伤害。该效果每10秒只能触发一次。", "params": [3.2, 10] }
       ]
     }
   },
@@ -4115,13 +4242,12 @@
     "subAttr": { "type": 5, "value": 0.10213, "curve": 16 },
     "affix": {
       "name": "克柔",
-      "desc": "对史莱姆类敌人造成的伤害增加<color=#99FFFFFF>40%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.4] },
-        { "attrs": [], "params": [0.5] },
-        { "attrs": [], "params": [0.6] },
-        { "attrs": [], "params": [0.7] },
-        { "attrs": [], "params": [0.8] }
+        { "desc": "对史莱姆类敌人造成的伤害增加<color=#99FFFFFF>40%</color>。", "params": [0.4] },
+        { "desc": "对史莱姆类敌人造成的伤害增加<color=#99FFFFFF>50%</color>。", "params": [0.5] },
+        { "desc": "对史莱姆类敌人造成的伤害增加<color=#99FFFFFF>60%</color>。", "params": [0.6] },
+        { "desc": "对史莱姆类敌人造成的伤害增加<color=#99FFFFFF>70%</color>。", "params": [0.7] },
+        { "desc": "对史莱姆类敌人造成的伤害增加<color=#99FFFFFF>80%</color>。", "params": [0.8] }
       ]
     }
   },
@@ -4197,13 +4323,12 @@
     ],
     "affix": {
       "name": "待定",
-      "desc": "击败敌人时，恢复<color=#99FFFFFF>8%</color>生命值。",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "击败敌人时，恢复<color=#99FFFFFF>8%</color>生命值。", "params": [0.08] },
+        { "desc": "击败敌人时，恢复<color=#99FFFFFF>10%</color>生命值。", "params": [0.1] },
+        { "desc": "击败敌人时，恢复<color=#99FFFFFF>12%</color>生命值。", "params": [0.12] },
+        { "desc": "击败敌人时，恢复<color=#99FFFFFF>14%</color>生命值。", "params": [0.14] },
+        { "desc": "击败敌人时，恢复<color=#99FFFFFF>16%</color>生命值。", "params": [0.16] }
       ]
     }
   },
@@ -4280,13 +4405,12 @@
     "subAttr": { "type": 11, "value": 48, "curve": 17 },
     "affix": {
       "name": "踏火止水",
-      "desc": "对处于水元素或火元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>20%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.2] },
-        { "attrs": [], "params": [0.24] },
-        { "attrs": [], "params": [0.28] },
-        { "attrs": [], "params": [0.32] },
-        { "attrs": [], "params": [0.36] }
+        { "desc": "对处于水元素或火元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>20%</color>。", "params": [0.2] },
+        { "desc": "对处于水元素或火元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>24%</color>。", "params": [0.24] },
+        { "desc": "对处于水元素或火元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>28%</color>。", "params": [0.28] },
+        { "desc": "对处于水元素或火元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>32%</color>。", "params": [0.32] },
+        { "desc": "对处于水元素或火元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>36%</color>。", "params": [0.36] }
       ]
     }
   },
@@ -4363,13 +4487,12 @@
     "subAttr": { "type": 10, "value": 0.1, "curve": 17 },
     "affix": {
       "name": "嗜魔",
-      "desc": "施放元素战技后，普通攻击和重击造成的伤害提高<color=#99FFFFFF>8%</color>。该效果持续12秒，最多叠加2层。",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "施放元素战技后，普通攻击和重击造成的伤害提高<color=#99FFFFFF>8%</color>。该效果持续12秒，最多叠加2层。", "params": [0.08] },
+        { "desc": "施放元素战技后，普通攻击和重击造成的伤害提高<color=#99FFFFFF>10%</color>。该效果持续12秒，最多叠加2层。", "params": [0.1] },
+        { "desc": "施放元素战技后，普通攻击和重击造成的伤害提高<color=#99FFFFFF>12%</color>。该效果持续12秒，最多叠加2层。", "params": [0.12] },
+        { "desc": "施放元素战技后，普通攻击和重击造成的伤害提高<color=#99FFFFFF>14%</color>。该效果持续12秒，最多叠加2层。", "params": [0.14] },
+        { "desc": "施放元素战技后，普通攻击和重击造成的伤害提高<color=#99FFFFFF>16%</color>。该效果持续12秒，最多叠加2层。", "params": [0.16] }
       ]
     }
   },
@@ -4446,13 +4569,12 @@
     "subAttr": { "type": 33, "value": 0.075067, "curve": 17 },
     "affix": {
       "name": "注能之针",
-      "desc": "获得元素微粒或元素晶球后的5秒内，普通攻击和重击额外造成<color=#99FFFFFF>20</color>%攻击力伤害。",
       "levels": [
-        { "attrs": [], "params": [0.2] },
-        { "attrs": [], "params": [0.25] },
-        { "attrs": [], "params": [0.3] },
-        { "attrs": [], "params": [0.35] },
-        { "attrs": [], "params": [0.4] }
+        { "desc": "获得元素微粒或元素晶球后的5秒内，普通攻击和重击额外造成<color=#99FFFFFF>20</color>%攻击力伤害。", "params": [0.2] },
+        { "desc": "获得元素微粒或元素晶球后的5秒内，普通攻击和重击额外造成<color=#99FFFFFF>25</color>%攻击力伤害。", "params": [0.25] },
+        { "desc": "获得元素微粒或元素晶球后的5秒内，普通攻击和重击额外造成<color=#99FFFFFF>30</color>%攻击力伤害。", "params": [0.3] },
+        { "desc": "获得元素微粒或元素晶球后的5秒内，普通攻击和重击额外造成<color=#99FFFFFF>35</color>%攻击力伤害。", "params": [0.35] },
+        { "desc": "获得元素微粒或元素晶球后的5秒内，普通攻击和重击额外造成<color=#99FFFFFF>40</color>%攻击力伤害。", "params": [0.4] }
       ]
     }
   },
@@ -4529,13 +4651,12 @@
     "subAttr": { "type": 13, "value": 0.12, "curve": 17 },
     "affix": {
       "name": "乘胜追击",
-      "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>12%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。",
       "levels": [
-        { "attrs": [], "params": [0.12, 30] },
-        { "attrs": [], "params": [0.15, 30] },
-        { "attrs": [], "params": [0.18, 30] },
-        { "attrs": [], "params": [0.21, 30] },
-        { "attrs": [], "params": [0.24, 30] }
+        { "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>12%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。", "params": [0.12, 30] },
+        { "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>15%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。", "params": [0.15, 30] },
+        { "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>18%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。", "params": [0.18, 30] },
+        { "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>21%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。", "params": [0.21, 30] },
+        { "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>24%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。", "params": [0.24, 30] }
       ]
     }
   },
@@ -4612,13 +4733,27 @@
     "subAttr": { "type": 12, "value": 0.08, "curve": 17 },
     "affix": {
       "name": "角斗士",
-      "desc": "身边至少有2个敌人时，获得<color=#99FFFFFF>16%</color>攻击力提升与<color=#99FFFFFF>16%</color>防御力提升；身边的敌人少于2个时，获得<color=#99FFFFFF>24%</color>攻击力提升。",
       "levels": [
-        { "attrs": [], "params": [2, 0.24, 0.16, 0.16] },
-        { "attrs": [], "params": [2, 0.3, 0.2, 0.2] },
-        { "attrs": [], "params": [2, 0.36, 0.24, 0.24] },
-        { "attrs": [], "params": [2, 0.42, 0.28, 0.28] },
-        { "attrs": [], "params": [2, 0.48, 0.32, 0.32] }
+        {
+          "desc": "身边至少有2个敌人时，获得<color=#99FFFFFF>16%</color>攻击力提升与<color=#99FFFFFF>16%</color>防御力提升；身边的敌人少于2个时，获得<color=#99FFFFFF>24%</color>攻击力提升。",
+          "params": [2, 0.24, 0.16, 0.16]
+        },
+        {
+          "desc": "身边至少有2个敌人时，获得<color=#99FFFFFF>20%</color>攻击力提升与<color=#99FFFFFF>20%</color>防御力提升；身边的敌人少于2个时，获得<color=#99FFFFFF>30%</color>攻击力提升。",
+          "params": [2, 0.3, 0.2, 0.2]
+        },
+        {
+          "desc": "身边至少有2个敌人时，获得<color=#99FFFFFF>24%</color>攻击力提升与<color=#99FFFFFF>24%</color>防御力提升；身边的敌人少于2个时，获得<color=#99FFFFFF>36%</color>攻击力提升。",
+          "params": [2, 0.36, 0.24, 0.24]
+        },
+        {
+          "desc": "身边至少有2个敌人时，获得<color=#99FFFFFF>28%</color>攻击力提升与<color=#99FFFFFF>28%</color>防御力提升；身边的敌人少于2个时，获得<color=#99FFFFFF>42%</color>攻击力提升。",
+          "params": [2, 0.42, 0.28, 0.28]
+        },
+        {
+          "desc": "身边至少有2个敌人时，获得<color=#99FFFFFF>32%</color>攻击力提升与<color=#99FFFFFF>32%</color>防御力提升；身边的敌人少于2个时，获得<color=#99FFFFFF>48%</color>攻击力提升。",
+          "params": [2, 0.48, 0.32, 0.32]
+        }
       ]
     }
   },
@@ -4695,13 +4830,12 @@
     "subAttr": { "type": 7, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "千岩诀·同心",
-      "desc": "队伍中每有一位璃月角色，装备此武器的角色便获得<color=#99FFFFFF>7%</color>攻击力提升与<color=#99FFFFFF>3%</color>暴击率提升。至多获得4层提升效果。",
       "levels": [
-        { "attrs": [], "params": [0.07, 0.03, 4] },
-        { "attrs": [], "params": [0.08, 0.04, 4] },
-        { "attrs": [], "params": [0.09, 0.05, 4] },
-        { "attrs": [], "params": [0.1, 0.06, 4] },
-        { "attrs": [], "params": [0.11, 0.07, 4] }
+        { "desc": "队伍中每有一位璃月角色，装备此武器的角色便获得<color=#99FFFFFF>7%</color>攻击力提升与<color=#99FFFFFF>3%</color>暴击率提升。至多获得4层提升效果。", "params": [0.07, 0.03, 4] },
+        { "desc": "队伍中每有一位璃月角色，装备此武器的角色便获得<color=#99FFFFFF>8%</color>攻击力提升与<color=#99FFFFFF>4%</color>暴击率提升。至多获得4层提升效果。", "params": [0.08, 0.04, 4] },
+        { "desc": "队伍中每有一位璃月角色，装备此武器的角色便获得<color=#99FFFFFF>9%</color>攻击力提升与<color=#99FFFFFF>5%</color>暴击率提升。至多获得4层提升效果。", "params": [0.09, 0.05, 4] },
+        { "desc": "队伍中每有一位璃月角色，装备此武器的角色便获得<color=#99FFFFFF>10%</color>攻击力提升与<color=#99FFFFFF>6%</color>暴击率提升。至多获得4层提升效果。", "params": [0.1, 0.06, 4] },
+        { "desc": "队伍中每有一位璃月角色，装备此武器的角色便获得<color=#99FFFFFF>11%</color>攻击力提升与<color=#99FFFFFF>7%</color>暴击率提升。至多获得4层提升效果。", "params": [0.11, 0.07, 4] }
       ]
     }
   },
@@ -4778,13 +4912,12 @@
     "subAttr": { "type": 10, "value": 0.066667, "curve": 17 },
     "affix": {
       "name": "顺风而行",
-      "desc": "攻击造成暴击时，有<color=#99FFFFFF>60%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>12</color>秒只能触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.6, 12] },
-        { "attrs": [], "params": [0.7, 10.5] },
-        { "attrs": [], "params": [0.8, 9] },
-        { "attrs": [], "params": [0.9, 7.5] },
-        { "attrs": [], "params": [1, 6] }
+        { "desc": "攻击造成暴击时，有<color=#99FFFFFF>60%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>12</color>秒只能触发一次。", "params": [0.6, 12] },
+        { "desc": "攻击造成暴击时，有<color=#99FFFFFF>70%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>10.5</color>秒只能触发一次。", "params": [0.7, 10.5] },
+        { "desc": "攻击造成暴击时，有<color=#99FFFFFF>80%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>9</color>秒只能触发一次。", "params": [0.8, 9] },
+        { "desc": "攻击造成暴击时，有<color=#99FFFFFF>90%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>7.5</color>秒只能触发一次。", "params": [0.9, 7.5] },
+        { "desc": "攻击造成暴击时，有<color=#99FFFFFF>100%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>6</color>秒只能触发一次。", "params": [1, 6] }
       ]
     }
   },
@@ -4861,13 +4994,12 @@
     "subAttr": { "type": 7, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "专注",
-      "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>8%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>8%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。", "params": [0.08] },
+        { "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>10%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。", "params": [0.1] },
+        { "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>12%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。", "params": [0.12] },
+        { "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>14%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。", "params": [0.14] },
+        { "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>16%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。", "params": [0.16] }
       ]
     }
   },
@@ -4944,13 +5076,27 @@
     "subAttr": { "type": 33, "value": 0.15013, "curve": 17 },
     "affix": {
       "name": "霜葬",
-      "desc": "普通攻击与重击命中敌人时，有<color=#99FFFFFF>60%</color>概率在敌人上方生成恒冰晶核并坠落，造成<color=#99FFFFFF>80%</color>攻击力的范围伤害。若敌人处于冰元素影响下，则造成<color=#99FFFFFF>200%</color>攻击力的伤害。该效果每10秒至多触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.6, 0.8, 2, 10] },
-        { "attrs": [], "params": [0.7, 0.95, 2.4, 10] },
-        { "attrs": [], "params": [0.8, 1.1, 2.8, 10] },
-        { "attrs": [], "params": [0.9, 1.25, 3.2, 10] },
-        { "attrs": [], "params": [1, 1.4, 3.6, 10] }
+        {
+          "desc": "普通攻击与重击命中敌人时，有<color=#99FFFFFF>60%</color>概率在敌人上方生成恒冰晶核并坠落，造成<color=#99FFFFFF>80%</color>攻击力的范围伤害。若敌人处于冰元素影响下，则造成<color=#99FFFFFF>200%</color>攻击力的伤害。该效果每10秒至多触发一次。",
+          "params": [0.6, 0.8, 2, 10]
+        },
+        {
+          "desc": "普通攻击与重击命中敌人时，有<color=#99FFFFFF>70%</color>概率在敌人上方生成恒冰晶核并坠落，造成<color=#99FFFFFF>95%</color>攻击力的范围伤害。若敌人处于冰元素影响下，则造成<color=#99FFFFFF>240%</color>攻击力的伤害。该效果每10秒至多触发一次。",
+          "params": [0.7, 0.95, 2.4, 10]
+        },
+        {
+          "desc": "普通攻击与重击命中敌人时，有<color=#99FFFFFF>80%</color>概率在敌人上方生成恒冰晶核并坠落，造成<color=#99FFFFFF>110%</color>攻击力的范围伤害。若敌人处于冰元素影响下，则造成<color=#99FFFFFF>280%</color>攻击力的伤害。该效果每10秒至多触发一次。",
+          "params": [0.8, 1.1, 2.8, 10]
+        },
+        {
+          "desc": "普通攻击与重击命中敌人时，有<color=#99FFFFFF>90%</color>概率在敌人上方生成恒冰晶核并坠落，造成<color=#99FFFFFF>125%</color>攻击力的范围伤害。若敌人处于冰元素影响下，则造成<color=#99FFFFFF>320%</color>攻击力的伤害。该效果每10秒至多触发一次。",
+          "params": [0.9, 1.25, 3.2, 10]
+        },
+        {
+          "desc": "普通攻击与重击命中敌人时，有<color=#99FFFFFF>100%</color>概率在敌人上方生成恒冰晶核并坠落，造成<color=#99FFFFFF>140%</color>攻击力的范围伤害。若敌人处于冰元素影响下，则造成<color=#99FFFFFF>360%</color>攻击力的伤害。该效果每10秒至多触发一次。",
+          "params": [1, 1.4, 3.6, 10]
+        }
       ]
     }
   },
@@ -5027,13 +5173,27 @@
     "subAttr": { "type": 13, "value": 0.144, "curve": 18 },
     "affix": {
       "name": "无羁的朱赤之蝶",
-      "desc": "生命值提升<color=#99FFFFFF>20%</color>。此外，基于装备该武器的角色生命值上限的<color=#99FFFFFF>0.8%</color>，获得攻击力加成。当装备该武器的角色生命值低于50%时，进一步获得<color=#99FFFFFF>1%</color>基于生命值上限的攻击力提升。",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.008, 0.01] },
-        { "attrs": [], "params": [0.25, 0.01, 0.012] },
-        { "attrs": [], "params": [0.3, 0.012, 0.014] },
-        { "attrs": [], "params": [0.35, 0.014, 0.016] },
-        { "attrs": [], "params": [0.4, 0.016, 0.018] }
+        {
+          "desc": "生命值提升<color=#99FFFFFF>20%</color>。此外，基于装备该武器的角色生命值上限的<color=#99FFFFFF>0.8%</color>，获得攻击力加成。当装备该武器的角色生命值低于50%时，进一步获得<color=#99FFFFFF>1%</color>基于生命值上限的攻击力提升。",
+          "params": [0.2, 0.008, 0.01]
+        },
+        {
+          "desc": "生命值提升<color=#99FFFFFF>25%</color>。此外，基于装备该武器的角色生命值上限的<color=#99FFFFFF>1%</color>，获得攻击力加成。当装备该武器的角色生命值低于50%时，进一步获得<color=#99FFFFFF>1.2%</color>基于生命值上限的攻击力提升。",
+          "params": [0.25, 0.01, 0.012]
+        },
+        {
+          "desc": "生命值提升<color=#99FFFFFF>30%</color>。此外，基于装备该武器的角色生命值上限的<color=#99FFFFFF>1.2%</color>，获得攻击力加成。当装备该武器的角色生命值低于50%时，进一步获得<color=#99FFFFFF>1.4%</color>基于生命值上限的攻击力提升。",
+          "params": [0.3, 0.012, 0.014]
+        },
+        {
+          "desc": "生命值提升<color=#99FFFFFF>35%</color>。此外，基于装备该武器的角色生命值上限的<color=#99FFFFFF>1.4%</color>，获得攻击力加成。当装备该武器的角色生命值低于50%时，进一步获得<color=#99FFFFFF>1.6%</color>基于生命值上限的攻击力提升。",
+          "params": [0.35, 0.014, 0.016]
+        },
+        {
+          "desc": "生命值提升<color=#99FFFFFF>40%</color>。此外，基于装备该武器的角色生命值上限的<color=#99FFFFFF>1.6%</color>，获得攻击力加成。当装备该武器的角色生命值低于50%时，进一步获得<color=#99FFFFFF>1.8%</color>基于生命值上限的攻击力提升。",
+          "params": [0.4, 0.016, 0.018]
+        }
       ]
     }
   },
@@ -5110,13 +5270,27 @@
     "subAttr": { "type": 10, "value": 0.08, "curve": 18 },
     "affix": {
       "name": "斫断黑翼的利齿",
-      "desc": "暴击率提升<color=#99FFFFFF>8%</color>，普通攻击速度提升<color=#99FFFFFF>12%</color>。此外，普通攻击与重击命中敌人时，有<color=#99FFFFFF>50%</color>概率触发真空刃，在小范围内造成额外<color=#99FFFFFF>40%</color>攻击力的伤害。该效果每2秒至多触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.08, 0.12, 0.5, 0.4, 2] },
-        { "attrs": [], "params": [0.1, 0.12, 0.5, 0.55, 2] },
-        { "attrs": [], "params": [0.12, 0.12, 0.5, 0.7, 2] },
-        { "attrs": [], "params": [0.14, 0.12, 0.5, 0.85, 2] },
-        { "attrs": [], "params": [0.16, 0.12, 0.5, 1, 2] }
+        {
+          "desc": "暴击率提升<color=#99FFFFFF>8%</color>，普通攻击速度提升<color=#99FFFFFF>12%</color>。此外，普通攻击与重击命中敌人时，有<color=#99FFFFFF>50%</color>概率触发真空刃，在小范围内造成额外<color=#99FFFFFF>40%</color>攻击力的伤害。该效果每2秒至多触发一次。",
+          "params": [0.08, 0.12, 0.5, 0.4, 2]
+        },
+        {
+          "desc": "暴击率提升<color=#99FFFFFF>10%</color>，普通攻击速度提升<color=#99FFFFFF>12%</color>。此外，普通攻击与重击命中敌人时，有<color=#99FFFFFF>50%</color>概率触发真空刃，在小范围内造成额外<color=#99FFFFFF>55%</color>攻击力的伤害。该效果每2秒至多触发一次。",
+          "params": [0.1, 0.12, 0.5, 0.55, 2]
+        },
+        {
+          "desc": "暴击率提升<color=#99FFFFFF>12%</color>，普通攻击速度提升<color=#99FFFFFF>12%</color>。此外，普通攻击与重击命中敌人时，有<color=#99FFFFFF>50%</color>概率触发真空刃，在小范围内造成额外<color=#99FFFFFF>70%</color>攻击力的伤害。该效果每2秒至多触发一次。",
+          "params": [0.12, 0.12, 0.5, 0.7, 2]
+        },
+        {
+          "desc": "暴击率提升<color=#99FFFFFF>14%</color>，普通攻击速度提升<color=#99FFFFFF>12%</color>。此外，普通攻击与重击命中敌人时，有<color=#99FFFFFF>50%</color>概率触发真空刃，在小范围内造成额外<color=#99FFFFFF>85%</color>攻击力的伤害。该效果每2秒至多触发一次。",
+          "params": [0.14, 0.12, 0.5, 0.85, 2]
+        },
+        {
+          "desc": "暴击率提升<color=#99FFFFFF>16%</color>，普通攻击速度提升<color=#99FFFFFF>12%</color>。此外，普通攻击与重击命中敌人时，有<color=#99FFFFFF>50%</color>概率触发真空刃，在小范围内造成额外<color=#99FFFFFF>100%</color>攻击力的伤害。该效果每2秒至多触发一次。",
+          "params": [0.16, 0.12, 0.5, 1, 2]
+        }
       ]
     }
   },
@@ -5193,13 +5367,27 @@
     "subAttr": { "type": 7, "value": 0.108, "curve": 18 },
     "affix": {
       "name": "金璋皇极",
-      "desc": "护盾强效提升<color=#99FFFFFF>20%</color>。攻击命中后的8秒内，攻击力提升<color=#99FFFFFF>4%</color>。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.04, 8] },
-        { "attrs": [], "params": [0.25, 0.05, 8] },
-        { "attrs": [], "params": [0.3, 0.06, 8] },
-        { "attrs": [], "params": [0.35, 0.07, 8] },
-        { "attrs": [], "params": [0.4, 0.08, 8] }
+        {
+          "desc": "护盾强效提升<color=#99FFFFFF>20%</color>。攻击命中后的8秒内，攻击力提升<color=#99FFFFFF>4%</color>。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。",
+          "params": [0.2, 0.04, 8]
+        },
+        {
+          "desc": "护盾强效提升<color=#99FFFFFF>25%</color>。攻击命中后的8秒内，攻击力提升<color=#99FFFFFF>5%</color>。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。",
+          "params": [0.25, 0.05, 8]
+        },
+        {
+          "desc": "护盾强效提升<color=#99FFFFFF>30%</color>。攻击命中后的8秒内，攻击力提升<color=#99FFFFFF>6%</color>。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。",
+          "params": [0.3, 0.06, 8]
+        },
+        {
+          "desc": "护盾强效提升<color=#99FFFFFF>35%</color>。攻击命中后的8秒内，攻击力提升<color=#99FFFFFF>7%</color>。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。",
+          "params": [0.35, 0.07, 8]
+        },
+        {
+          "desc": "护盾强效提升<color=#99FFFFFF>40%</color>。攻击命中后的8秒内，攻击力提升<color=#99FFFFFF>8%</color>。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。",
+          "params": [0.4, 0.08, 8]
+        }
       ]
     }
   },
@@ -5276,13 +5464,24 @@
     "subAttr": { "type": 12, "value": 0.048, "curve": 18 },
     "affix": {
       "name": "昭理的鸢之枪",
-      "desc": "命中敌人时自身攻击力提高<color=#99FFFFFF>3.2%</color>，持续6秒，最高可以叠加7层。该效果每0.3秒最多触发一次。满层状态时伤害提升<color=#99FFFFFF>12%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.032, 0.12] },
-        { "attrs": [], "params": [0.039, 0.15] },
-        { "attrs": [], "params": [0.046, 0.18] },
-        { "attrs": [], "params": [0.053, 0.21] },
-        { "attrs": [], "params": [0.06, 0.24] }
+        {
+          "desc": "命中敌人时自身攻击力提高<color=#99FFFFFF>3.2%</color>，持续6秒，最高可以叠加7层。该效果每0.3秒最多触发一次。满层状态时伤害提升<color=#99FFFFFF>12%</color>。",
+          "params": [0.032, 0.12]
+        },
+        {
+          "desc": "命中敌人时自身攻击力提高<color=#99FFFFFF>3.9%</color>，持续6秒，最高可以叠加7层。该效果每0.3秒最多触发一次。满层状态时伤害提升<color=#99FFFFFF>15%</color>。",
+          "params": [0.039, 0.15]
+        },
+        {
+          "desc": "命中敌人时自身攻击力提高<color=#99FFFFFF>4.6%</color>，持续6秒，最高可以叠加7层。该效果每0.3秒最多触发一次。满层状态时伤害提升<color=#99FFFFFF>18%</color>。",
+          "params": [0.046, 0.18]
+        },
+        {
+          "desc": "命中敌人时自身攻击力提高<color=#99FFFFFF>5.3%</color>，持续6秒，最高可以叠加7层。该效果每0.3秒最多触发一次。满层状态时伤害提升<color=#99FFFFFF>21%</color>。",
+          "params": [0.053, 0.21]
+        },
+        { "desc": "命中敌人时自身攻击力提高<color=#99FFFFFF>6%</color>，持续6秒，最高可以叠加7层。该效果每0.3秒最多触发一次。满层状态时伤害提升<color=#99FFFFFF>24%</color>。", "params": [0.06, 0.24] }
       ]
     }
   },
@@ -5503,13 +5702,12 @@
     "subAttr": { "type": 11, "value": 40.8, "curve": 16 },
     "affix": {
       "name": "止水息雷",
-      "desc": "对处于水元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>12%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.15] },
-        { "attrs": [], "params": [0.18] },
-        { "attrs": [], "params": [0.21] },
-        { "attrs": [], "params": [0.24] }
+        { "desc": "对处于水元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>12%</color>。", "params": [0.12] },
+        { "desc": "对处于水元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>15%</color>。", "params": [0.15] },
+        { "desc": "对处于水元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>18%</color>。", "params": [0.18] },
+        { "desc": "对处于水元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>21%</color>。", "params": [0.21] },
+        { "desc": "对处于水元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>24%</color>。", "params": [0.24] }
       ]
     }
   },
@@ -5586,13 +5784,12 @@
     "subAttr": { "type": 5, "value": 0.0766, "curve": 16 },
     "affix": {
       "name": "传承",
-      "desc": "主动切换角色时，新登场的角色攻击力提升<color=#99FFFFFF>24%</color>，持续10秒。该效果每20秒只能触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.24, 10, 20] },
-        { "attrs": [], "params": [0.3, 10, 20] },
-        { "attrs": [], "params": [0.36, 10, 20] },
-        { "attrs": [], "params": [0.42, 10, 20] },
-        { "attrs": [], "params": [0.48, 10, 20] }
+        { "desc": "主动切换角色时，新登场的角色攻击力提升<color=#99FFFFFF>24%</color>，持续10秒。该效果每20秒只能触发一次。", "params": [0.24, 10, 20] },
+        { "desc": "主动切换角色时，新登场的角色攻击力提升<color=#99FFFFFF>30%</color>，持续10秒。该效果每20秒只能触发一次。", "params": [0.3, 10, 20] },
+        { "desc": "主动切换角色时，新登场的角色攻击力提升<color=#99FFFFFF>36%</color>，持续10秒。该效果每20秒只能触发一次。", "params": [0.36, 10, 20] },
+        { "desc": "主动切换角色时，新登场的角色攻击力提升<color=#99FFFFFF>42%</color>，持续10秒。该效果每20秒只能触发一次。", "params": [0.42, 10, 20] },
+        { "desc": "主动切换角色时，新登场的角色攻击力提升<color=#99FFFFFF>48%</color>，持续10秒。该效果每20秒只能触发一次。", "params": [0.48, 10, 20] }
       ]
     }
   },
@@ -5669,13 +5866,12 @@
     "subAttr": { "type": 10, "value": 0.085, "curve": 16 },
     "affix": {
       "name": "能量沐浴",
-      "desc": "获得元素微粒或元素晶球时，恢复<color=#99FFFFFF>1%</color>生命值。",
       "levels": [
-        { "attrs": [], "params": [0.01] },
-        { "attrs": [], "params": [0.0125] },
-        { "attrs": [], "params": [0.015] },
-        { "attrs": [], "params": [0.0175] },
-        { "attrs": [], "params": [0.02] }
+        { "desc": "获得元素微粒或元素晶球时，恢复<color=#99FFFFFF>1%</color>生命值。", "params": [0.01] },
+        { "desc": "获得元素微粒或元素晶球时，恢复<color=#99FFFFFF>1.25%</color>生命值。", "params": [0.0125] },
+        { "desc": "获得元素微粒或元素晶球时，恢复<color=#99FFFFFF>1.5%</color>生命值。", "params": [0.015] },
+        { "desc": "获得元素微粒或元素晶球时，恢复<color=#99FFFFFF>1.75%</color>生命值。", "params": [0.0175] },
+        { "desc": "获得元素微粒或元素晶球时，恢复<color=#99FFFFFF>2%</color>生命值。", "params": [0.02] }
       ]
     }
   },
@@ -5752,13 +5948,12 @@
     "subAttr": { "type": 11, "value": 20.4, "curve": 16 },
     "affix": {
       "name": "激流",
-      "desc": "触发蒸发、感电、冰冻或水元素扩散反应后的12秒内，攻击力提高<color=#99FFFFFF>20%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.2] },
-        { "attrs": [], "params": [0.25] },
-        { "attrs": [], "params": [0.3] },
-        { "attrs": [], "params": [0.35] },
-        { "attrs": [], "params": [0.4] }
+        { "desc": "触发蒸发、感电、冰冻或水元素扩散反应后的12秒内，攻击力提高<color=#99FFFFFF>20%</color>。", "params": [0.2] },
+        { "desc": "触发蒸发、感电、冰冻或水元素扩散反应后的12秒内，攻击力提高<color=#99FFFFFF>25%</color>。", "params": [0.25] },
+        { "desc": "触发蒸发、感电、冰冻或水元素扩散反应后的12秒内，攻击力提高<color=#99FFFFFF>30%</color>。", "params": [0.3] },
+        { "desc": "触发蒸发、感电、冰冻或水元素扩散反应后的12秒内，攻击力提高<color=#99FFFFFF>35%</color>。", "params": [0.35] },
+        { "desc": "触发蒸发、感电、冰冻或水元素扩散反应后的12秒内，攻击力提高<color=#99FFFFFF>40%</color>。", "params": [0.4] }
       ]
     }
   },
@@ -5835,13 +6030,12 @@
     "subAttr": { "type": 12, "value": 0.034, "curve": 16 },
     "affix": {
       "name": "奔袭战术",
-      "desc": "击败敌人后的15秒内，移动速度和攻击力提升<color=#99FFFFFF>12%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.12, 15] },
-        { "attrs": [], "params": [0.14, 15] },
-        { "attrs": [], "params": [0.16, 15] },
-        { "attrs": [], "params": [0.18, 15] },
-        { "attrs": [], "params": [0.2, 15] }
+        { "desc": "击败敌人后的15秒内，移动速度和攻击力提升<color=#99FFFFFF>12%</color>。", "params": [0.12, 15] },
+        { "desc": "击败敌人后的15秒内，移动速度和攻击力提升<color=#99FFFFFF>14%</color>。", "params": [0.14, 15] },
+        { "desc": "击败敌人后的15秒内，移动速度和攻击力提升<color=#99FFFFFF>16%</color>。", "params": [0.16, 15] },
+        { "desc": "击败敌人后的15秒内，移动速度和攻击力提升<color=#99FFFFFF>18%</color>。", "params": [0.18, 15] },
+        { "desc": "击败敌人后的15秒内，移动速度和攻击力提升<color=#99FFFFFF>20%</color>。", "params": [0.2, 15] }
       ]
     }
   },
@@ -5918,13 +6112,12 @@
     "subAttr": { "type": 11, "value": 30.6, "curve": 16 },
     "affix": {
       "name": "元素熟练",
-      "desc": "普通攻击命中后，获得<color=#99FFFFFF>6%</color>元素伤害加成。该效果持续6秒，最多可以叠加2层。",
       "levels": [
-        { "attrs": [], "params": [0.06, 6] },
-        { "attrs": [], "params": [0.075, 6] },
-        { "attrs": [], "params": [0.09, 6] },
-        { "attrs": [], "params": [0.105, 6] },
-        { "attrs": [], "params": [0.12, 6] }
+        { "desc": "普通攻击命中后，获得<color=#99FFFFFF>6%</color>元素伤害加成。该效果持续6秒，最多可以叠加2层。", "params": [0.06, 6] },
+        { "desc": "普通攻击命中后，获得<color=#99FFFFFF>7.5%</color>元素伤害加成。该效果持续6秒，最多可以叠加2层。", "params": [0.075, 6] },
+        { "desc": "普通攻击命中后，获得<color=#99FFFFFF>9%</color>元素伤害加成。该效果持续6秒，最多可以叠加2层。", "params": [0.09, 6] },
+        { "desc": "普通攻击命中后，获得<color=#99FFFFFF>10.5%</color>元素伤害加成。该效果持续6秒，最多可以叠加2层。", "params": [0.105, 6] },
+        { "desc": "普通攻击命中后，获得<color=#99FFFFFF>12%</color>元素伤害加成。该效果持续6秒，最多可以叠加2层。", "params": [0.12, 6] }
       ]
     }
   },
@@ -6001,13 +6194,12 @@
     "subAttr": { "type": 10, "value": 0.1, "curve": 17 },
     "affix": {
       "name": "顺风而行",
-      "desc": "攻击造成暴击时，有<color=#99FFFFFF>60%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>12</color>秒只能触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.6, 12] },
-        { "attrs": [], "params": [0.7, 10.5] },
-        { "attrs": [], "params": [0.8, 9] },
-        { "attrs": [], "params": [0.9, 7.5] },
-        { "attrs": [], "params": [1, 6] }
+        { "desc": "攻击造成暴击时，有<color=#99FFFFFF>60%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>12</color>秒只能触发一次。", "params": [0.6, 12] },
+        { "desc": "攻击造成暴击时，有<color=#99FFFFFF>70%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>10.5</color>秒只能触发一次。", "params": [0.7, 10.5] },
+        { "desc": "攻击造成暴击时，有<color=#99FFFFFF>80%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>9</color>秒只能触发一次。", "params": [0.8, 9] },
+        { "desc": "攻击造成暴击时，有<color=#99FFFFFF>90%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>7.5</color>秒只能触发一次。", "params": [0.9, 7.5] },
+        { "desc": "攻击造成暴击时，有<color=#99FFFFFF>100%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>6</color>秒只能触发一次。", "params": [1, 6] }
       ]
     }
   },
@@ -6084,13 +6276,27 @@
     "subAttr": { "type": 13, "value": 0.12, "curve": 17 },
     "affix": {
       "name": "登场乐",
-      "desc": "角色登场时，随机获得一个主题曲，持续10秒。每30秒只能触发一次。宣叙调：攻击力提升<color=#99FFFFFF>60%</color>；咏叹调：全元素伤害提升<color=#99FFFFFF>48%</color>;间奏曲：元素精通提升<color=#99FFFFFF>240</color>。",
       "levels": [
-        { "attrs": [], "params": [0.6, 0.48, 240, 10, 30] },
-        { "attrs": [], "params": [0.75, 0.6, 300, 10, 30] },
-        { "attrs": [], "params": [0.9, 0.72, 360, 10, 30] },
-        { "attrs": [], "params": [1.05, 0.84, 420, 10, 30] },
-        { "attrs": [], "params": [1.2, 0.96, 480, 10, 30] }
+        {
+          "desc": "角色登场时，随机获得一个主题曲，持续10秒。每30秒只能触发一次。宣叙调：攻击力提升<color=#99FFFFFF>60%</color>；咏叹调：全元素伤害提升<color=#99FFFFFF>48%</color>;间奏曲：元素精通提升<color=#99FFFFFF>240</color>。",
+          "params": [0.6, 0.48, 240, 10, 30]
+        },
+        {
+          "desc": "角色登场时，随机获得一个主题曲，持续10秒。每30秒只能触发一次。宣叙调：攻击力提升<color=#99FFFFFF>75%</color>；咏叹调：全元素伤害提升<color=#99FFFFFF>60%</color>;间奏曲：元素精通提升<color=#99FFFFFF>300</color>。",
+          "params": [0.75, 0.6, 300, 10, 30]
+        },
+        {
+          "desc": "角色登场时，随机获得一个主题曲，持续10秒。每30秒只能触发一次。宣叙调：攻击力提升<color=#99FFFFFF>90%</color>；咏叹调：全元素伤害提升<color=#99FFFFFF>72%</color>;间奏曲：元素精通提升<color=#99FFFFFF>360</color>。",
+          "params": [0.9, 0.72, 360, 10, 30]
+        },
+        {
+          "desc": "角色登场时，随机获得一个主题曲，持续10秒。每30秒只能触发一次。宣叙调：攻击力提升<color=#99FFFFFF>105%</color>；咏叹调：全元素伤害提升<color=#99FFFFFF>84%</color>;间奏曲：元素精通提升<color=#99FFFFFF>420</color>。",
+          "params": [1.05, 0.84, 420, 10, 30]
+        },
+        {
+          "desc": "角色登场时，随机获得一个主题曲，持续10秒。每30秒只能触发一次。宣叙调：攻击力提升<color=#99FFFFFF>120%</color>；咏叹调：全元素伤害提升<color=#99FFFFFF>96%</color>;间奏曲：元素精通提升<color=#99FFFFFF>480</color>。",
+          "params": [1.2, 0.96, 480, 10, 30]
+        }
       ]
     }
   },
@@ -6167,13 +6373,12 @@
     "subAttr": { "type": 11, "value": 48, "curve": 17 },
     "affix": {
       "name": "气定神闲",
-      "desc": "元素战技造成伤害时，有<color=#99FFFFFF>40%</color>的概率重置该技能的冷却时间，该效果每<color=#99FFFFFF>30</color>秒只能触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.4, 30] },
-        { "attrs": [], "params": [0.5, 26] },
-        { "attrs": [], "params": [0.6, 22] },
-        { "attrs": [], "params": [0.7, 19] },
-        { "attrs": [], "params": [0.8, 16] }
+        { "desc": "元素战技造成伤害时，有<color=#99FFFFFF>40%</color>的概率重置该技能的冷却时间，该效果每<color=#99FFFFFF>30</color>秒只能触发一次。", "params": [0.4, 30] },
+        { "desc": "元素战技造成伤害时，有<color=#99FFFFFF>50%</color>的概率重置该技能的冷却时间，该效果每<color=#99FFFFFF>26</color>秒只能触发一次。", "params": [0.5, 26] },
+        { "desc": "元素战技造成伤害时，有<color=#99FFFFFF>60%</color>的概率重置该技能的冷却时间，该效果每<color=#99FFFFFF>22</color>秒只能触发一次。", "params": [0.6, 22] },
+        { "desc": "元素战技造成伤害时，有<color=#99FFFFFF>70%</color>的概率重置该技能的冷却时间，该效果每<color=#99FFFFFF>19</color>秒只能触发一次。", "params": [0.7, 19] },
+        { "desc": "元素战技造成伤害时，有<color=#99FFFFFF>80%</color>的概率重置该技能的冷却时间，该效果每<color=#99FFFFFF>16</color>秒只能触发一次。", "params": [0.8, 16] }
       ]
     }
   },
@@ -6250,13 +6455,12 @@
     "subAttr": { "type": 7, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "专注",
-      "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>8%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>8%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。", "params": [0.08] },
+        { "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>10%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。", "params": [0.1] },
+        { "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>12%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。", "params": [0.12] },
+        { "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>14%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。", "params": [0.14] },
+        { "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>16%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。", "params": [0.16] }
       ]
     }
   },
@@ -6333,13 +6537,27 @@
     "subAttr": { "type": 12, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "日月辉",
-      "desc": "普通攻击命中后的6秒内，元素战技与元素爆发的伤害提高<color=#99FFFFFF>20%</color>；元素战技与元素爆发命中后的6秒内，普通攻击的伤害提高<color=#99FFFFFF>20%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.2] },
-        { "attrs": [], "params": [0.25] },
-        { "attrs": [], "params": [0.3] },
-        { "attrs": [], "params": [0.35] },
-        { "attrs": [], "params": [0.4] }
+        {
+          "desc": "普通攻击命中后的6秒内，元素战技与元素爆发的伤害提高<color=#99FFFFFF>20%</color>；元素战技与元素爆发命中后的6秒内，普通攻击的伤害提高<color=#99FFFFFF>20%</color>。",
+          "params": [0.2]
+        },
+        {
+          "desc": "普通攻击命中后的6秒内，元素战技与元素爆发的伤害提高<color=#99FFFFFF>25%</color>；元素战技与元素爆发命中后的6秒内，普通攻击的伤害提高<color=#99FFFFFF>25%</color>。",
+          "params": [0.25]
+        },
+        {
+          "desc": "普通攻击命中后的6秒内，元素战技与元素爆发的伤害提高<color=#99FFFFFF>30%</color>；元素战技与元素爆发命中后的6秒内，普通攻击的伤害提高<color=#99FFFFFF>30%</color>。",
+          "params": [0.3]
+        },
+        {
+          "desc": "普通攻击命中后的6秒内，元素战技与元素爆发的伤害提高<color=#99FFFFFF>35%</color>；元素战技与元素爆发命中后的6秒内，普通攻击的伤害提高<color=#99FFFFFF>35%</color>。",
+          "params": [0.35]
+        },
+        {
+          "desc": "普通攻击命中后的6秒内，元素战技与元素爆发的伤害提高<color=#99FFFFFF>40%</color>；元素战技与元素爆发命中后的6秒内，普通攻击的伤害提高<color=#99FFFFFF>40%</color>。",
+          "params": [0.4]
+        }
       ]
     }
   },
@@ -6416,13 +6634,12 @@
     "subAttr": { "type": 5, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "炊金",
-      "desc": "施放元素爆发后6秒内，每2秒恢复<color=#99FFFFFF>4</color>点元素能量，队伍中的所有角色每2秒恢复<color=#99FFFFFF>4%</color>生命值。",
       "levels": [
-        { "attrs": [], "params": [6, 2, 4, 0.04] },
-        { "attrs": [], "params": [6, 2, 4.5, 0.045] },
-        { "attrs": [], "params": [6, 2, 5, 0.05] },
-        { "attrs": [], "params": [6, 2, 5.5, 0.055] },
-        { "attrs": [], "params": [6, 2, 6, 0.06] }
+        { "desc": "施放元素爆发后6秒内，每2秒恢复<color=#99FFFFFF>4</color>点元素能量，队伍中的所有角色每2秒恢复<color=#99FFFFFF>4%</color>生命值。", "params": [6, 2, 4, 0.04] },
+        { "desc": "施放元素爆发后6秒内，每2秒恢复<color=#99FFFFFF>4.5</color>点元素能量，队伍中的所有角色每2秒恢复<color=#99FFFFFF>4.5%</color>生命值。", "params": [6, 2, 4.5, 0.045] },
+        { "desc": "施放元素爆发后6秒内，每2秒恢复<color=#99FFFFFF>5</color>点元素能量，队伍中的所有角色每2秒恢复<color=#99FFFFFF>5%</color>生命值。", "params": [6, 2, 5, 0.05] },
+        { "desc": "施放元素爆发后6秒内，每2秒恢复<color=#99FFFFFF>5.5</color>点元素能量，队伍中的所有角色每2秒恢复<color=#99FFFFFF>5.5%</color>生命值。", "params": [6, 2, 5.5, 0.055] },
+        { "desc": "施放元素爆发后6秒内，每2秒恢复<color=#99FFFFFF>6</color>点元素能量，队伍中的所有角色每2秒恢复<color=#99FFFFFF>6%</color>生命值。", "params": [6, 2, 6, 0.06] }
       ]
     }
   },
@@ -6499,13 +6716,12 @@
     "subAttr": { "type": 11, "value": 24, "curve": 17 },
     "affix": {
       "name": "注能之卷",
-      "desc": "触发元素反应后的10秒内，获得<color=#99FFFFFF>8%</color>元素伤害加成，该效果最多可以叠加2层。",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "触发元素反应后的10秒内，获得<color=#99FFFFFF>8%</color>元素伤害加成，该效果最多可以叠加2层。", "params": [0.08] },
+        { "desc": "触发元素反应后的10秒内，获得<color=#99FFFFFF>10%</color>元素伤害加成，该效果最多可以叠加2层。", "params": [0.1] },
+        { "desc": "触发元素反应后的10秒内，获得<color=#99FFFFFF>12%</color>元素伤害加成，该效果最多可以叠加2层。", "params": [0.12] },
+        { "desc": "触发元素反应后的10秒内，获得<color=#99FFFFFF>14%</color>元素伤害加成，该效果最多可以叠加2层。", "params": [0.14] },
+        { "desc": "触发元素反应后的10秒内，获得<color=#99FFFFFF>16%</color>元素伤害加成，该效果最多可以叠加2层。", "params": [0.16] }
       ]
     }
   },
@@ -6582,13 +6798,12 @@
     "subAttr": { "type": 13, "value": 0.12, "curve": 17 },
     "affix": {
       "name": "乘胜追击",
-      "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>12%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。",
       "levels": [
-        { "attrs": [], "params": [0.12, 30] },
-        { "attrs": [], "params": [0.15, 30] },
-        { "attrs": [], "params": [0.18, 30] },
-        { "attrs": [], "params": [0.21, 30] },
-        { "attrs": [], "params": [0.24, 30] }
+        { "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>12%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。", "params": [0.12, 30] },
+        { "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>15%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。", "params": [0.15, 30] },
+        { "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>18%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。", "params": [0.18, 30] },
+        { "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>21%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。", "params": [0.21, 30] },
+        { "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>24%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。", "params": [0.24, 30] }
       ]
     }
   },
@@ -6665,13 +6880,27 @@
     "subAttr": { "type": 7, "value": 0.12, "curve": 17 },
     "affix": {
       "name": "回响",
-      "desc": "普通攻击与重击命中时，有50%几率发射一枚昭心法球，造成<color=#99FFFFFF>240%</color>攻击力伤害，至多在敌人之间弹射4次。该效果每<color=#99FFFFFF>12</color>秒至多触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.5, 4, 2.4, 12] },
-        { "attrs": [], "params": [0.5, 4, 2.7, 11] },
-        { "attrs": [], "params": [0.5, 4, 3, 10] },
-        { "attrs": [], "params": [0.5, 4, 3.3, 9] },
-        { "attrs": [], "params": [0.5, 4, 3.6, 8] }
+        {
+          "desc": "普通攻击与重击命中时，有50%几率发射一枚昭心法球，造成<color=#99FFFFFF>240%</color>攻击力伤害，至多在敌人之间弹射4次。该效果每<color=#99FFFFFF>12</color>秒至多触发一次。",
+          "params": [0.5, 4, 2.4, 12]
+        },
+        {
+          "desc": "普通攻击与重击命中时，有50%几率发射一枚昭心法球，造成<color=#99FFFFFF>270%</color>攻击力伤害，至多在敌人之间弹射4次。该效果每<color=#99FFFFFF>11</color>秒至多触发一次。",
+          "params": [0.5, 4, 2.7, 11]
+        },
+        {
+          "desc": "普通攻击与重击命中时，有50%几率发射一枚昭心法球，造成<color=#99FFFFFF>300%</color>攻击力伤害，至多在敌人之间弹射4次。该效果每<color=#99FFFFFF>10</color>秒至多触发一次。",
+          "params": [0.5, 4, 3, 10]
+        },
+        {
+          "desc": "普通攻击与重击命中时，有50%几率发射一枚昭心法球，造成<color=#99FFFFFF>330%</color>攻击力伤害，至多在敌人之间弹射4次。该效果每<color=#99FFFFFF>9</color>秒至多触发一次。",
+          "params": [0.5, 4, 3.3, 9]
+        },
+        {
+          "desc": "普通攻击与重击命中时，有50%几率发射一枚昭心法球，造成<color=#99FFFFFF>360%</color>攻击力伤害，至多在敌人之间弹射4次。该效果每<color=#99FFFFFF>8</color>秒至多触发一次。",
+          "params": [0.5, 4, 3.6, 8]
+        }
       ]
     }
   },
@@ -6748,13 +6977,27 @@
     "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "霜葬",
-      "desc": "普通攻击与重击命中敌人时，有<color=#99FFFFFF>60%</color>概率在敌人上方生成恒冰晶核并坠落，造成<color=#99FFFFFF>80%</color>攻击力的范围伤害。若敌人处于冰元素影响下，则造成<color=#99FFFFFF>200%</color>攻击力的伤害。该效果每10秒至多触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.6, 0.8, 2, 10] },
-        { "attrs": [], "params": [0.7, 0.95, 2.4, 10] },
-        { "attrs": [], "params": [0.8, 1.1, 2.8, 10] },
-        { "attrs": [], "params": [0.9, 1.25, 3.2, 10] },
-        { "attrs": [], "params": [1, 1.4, 3.6, 10] }
+        {
+          "desc": "普通攻击与重击命中敌人时，有<color=#99FFFFFF>60%</color>概率在敌人上方生成恒冰晶核并坠落，造成<color=#99FFFFFF>80%</color>攻击力的范围伤害。若敌人处于冰元素影响下，则造成<color=#99FFFFFF>200%</color>攻击力的伤害。该效果每10秒至多触发一次。",
+          "params": [0.6, 0.8, 2, 10]
+        },
+        {
+          "desc": "普通攻击与重击命中敌人时，有<color=#99FFFFFF>70%</color>概率在敌人上方生成恒冰晶核并坠落，造成<color=#99FFFFFF>95%</color>攻击力的范围伤害。若敌人处于冰元素影响下，则造成<color=#99FFFFFF>240%</color>攻击力的伤害。该效果每10秒至多触发一次。",
+          "params": [0.7, 0.95, 2.4, 10]
+        },
+        {
+          "desc": "普通攻击与重击命中敌人时，有<color=#99FFFFFF>80%</color>概率在敌人上方生成恒冰晶核并坠落，造成<color=#99FFFFFF>110%</color>攻击力的范围伤害。若敌人处于冰元素影响下，则造成<color=#99FFFFFF>280%</color>攻击力的伤害。该效果每10秒至多触发一次。",
+          "params": [0.8, 1.1, 2.8, 10]
+        },
+        {
+          "desc": "普通攻击与重击命中敌人时，有<color=#99FFFFFF>90%</color>概率在敌人上方生成恒冰晶核并坠落，造成<color=#99FFFFFF>125%</color>攻击力的范围伤害。若敌人处于冰元素影响下，则造成<color=#99FFFFFF>320%</color>攻击力的伤害。该效果每10秒至多触发一次。",
+          "params": [0.9, 1.25, 3.2, 10]
+        },
+        {
+          "desc": "普通攻击与重击命中敌人时，有<color=#99FFFFFF>100%</color>概率在敌人上方生成恒冰晶核并坠落，造成<color=#99FFFFFF>140%</color>攻击力的范围伤害。若敌人处于冰元素影响下，则造成<color=#99FFFFFF>360%</color>攻击力的伤害。该效果每10秒至多触发一次。",
+          "params": [1, 1.4, 3.6, 10]
+        }
       ]
     }
   },
@@ -6831,13 +7074,27 @@
     "subAttr": { "type": 7, "value": 0.072, "curve": 18 },
     "affix": {
       "name": "浮游四方的灵云",
-      "desc": "元素伤害加成提升<color=#99FFFFFF>12%</color>；普通攻击命中时，有50%的概率获得高天流云的青睐，在15秒内主动攻击附近的敌人，造成等同于<color=#99FFFFFF>160%</color>攻击力的伤害。该效果每30秒只能触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.12, 0.5, 1.6, 30] },
-        { "attrs": [], "params": [0.15, 0.5, 2, 30] },
-        { "attrs": [], "params": [0.18, 0.5, 2.4, 30] },
-        { "attrs": [], "params": [0.21, 0.5, 2.8, 30] },
-        { "attrs": [], "params": [0.24, 0.5, 3.2, 30] }
+        {
+          "desc": "元素伤害加成提升<color=#99FFFFFF>12%</color>；普通攻击命中时，有50%的概率获得高天流云的青睐，在15秒内主动攻击附近的敌人，造成等同于<color=#99FFFFFF>160%</color>攻击力的伤害。该效果每30秒只能触发一次。",
+          "params": [0.12, 0.5, 1.6, 30]
+        },
+        {
+          "desc": "元素伤害加成提升<color=#99FFFFFF>15%</color>；普通攻击命中时，有50%的概率获得高天流云的青睐，在15秒内主动攻击附近的敌人，造成等同于<color=#99FFFFFF>200%</color>攻击力的伤害。该效果每30秒只能触发一次。",
+          "params": [0.15, 0.5, 2, 30]
+        },
+        {
+          "desc": "元素伤害加成提升<color=#99FFFFFF>18%</color>；普通攻击命中时，有50%的概率获得高天流云的青睐，在15秒内主动攻击附近的敌人，造成等同于<color=#99FFFFFF>240%</color>攻击力的伤害。该效果每30秒只能触发一次。",
+          "params": [0.18, 0.5, 2.4, 30]
+        },
+        {
+          "desc": "元素伤害加成提升<color=#99FFFFFF>21%</color>；普通攻击命中时，有50%的概率获得高天流云的青睐，在15秒内主动攻击附近的敌人，造成等同于<color=#99FFFFFF>280%</color>攻击力的伤害。该效果每30秒只能触发一次。",
+          "params": [0.21, 0.5, 2.8, 30]
+        },
+        {
+          "desc": "元素伤害加成提升<color=#99FFFFFF>24%</color>；普通攻击命中时，有50%的概率获得高天流云的青睐，在15秒内主动攻击附近的敌人，造成等同于<color=#99FFFFFF>320%</color>攻击力的伤害。该效果每30秒只能触发一次。",
+          "params": [0.24, 0.5, 3.2, 30]
+        }
       ]
     }
   },
@@ -6914,13 +7171,12 @@
     "subAttr": { "type": 12, "value": 0.072, "curve": 18 },
     "affix": {
       "name": "无边际的眷顾",
-      "desc": "移动速度提高10%；在场上每4秒获得<color=#99FFFFFF>8%</color>元素伤害加成。该效果最多叠加4层，持续直到角色倒下或离场。",
       "levels": [
-        { "attrs": [], "params": [0.1, 0.08] },
-        { "attrs": [], "params": [0.1, 0.1] },
-        { "attrs": [], "params": [0.1, 0.12] },
-        { "attrs": [], "params": [0.1, 0.14] },
-        { "attrs": [], "params": [0.1, 0.16] }
+        { "desc": "移动速度提高10%；在场上每4秒获得<color=#99FFFFFF>8%</color>元素伤害加成。该效果最多叠加4层，持续直到角色倒下或离场。", "params": [0.1, 0.08] },
+        { "desc": "移动速度提高10%；在场上每4秒获得<color=#99FFFFFF>10%</color>元素伤害加成。该效果最多叠加4层，持续直到角色倒下或离场。", "params": [0.1, 0.1] },
+        { "desc": "移动速度提高10%；在场上每4秒获得<color=#99FFFFFF>12%</color>元素伤害加成。该效果最多叠加4层，持续直到角色倒下或离场。", "params": [0.1, 0.12] },
+        { "desc": "移动速度提高10%；在场上每4秒获得<color=#99FFFFFF>14%</color>元素伤害加成。该效果最多叠加4层，持续直到角色倒下或离场。", "params": [0.1, 0.14] },
+        { "desc": "移动速度提高10%；在场上每4秒获得<color=#99FFFFFF>16%</color>元素伤害加成。该效果最多叠加4层，持续直到角色倒下或离场。", "params": [0.1, 0.16] }
       ]
     }
   },
@@ -7045,13 +7301,27 @@
     "subAttr": { "type": 7, "value": 0.108, "curve": 18 },
     "affix": {
       "name": "金璋皇极",
-      "desc": "护盾强效提升<color=#99FFFFFF>20%</color>。攻击命中后的8秒内，攻击力提升<color=#99FFFFFF>4%</color>。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.04, 8] },
-        { "attrs": [], "params": [0.25, 0.05, 8] },
-        { "attrs": [], "params": [0.3, 0.06, 8] },
-        { "attrs": [], "params": [0.35, 0.07, 8] },
-        { "attrs": [], "params": [0.4, 0.08, 8] }
+        {
+          "desc": "护盾强效提升<color=#99FFFFFF>20%</color>。攻击命中后的8秒内，攻击力提升<color=#99FFFFFF>4%</color>。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。",
+          "params": [0.2, 0.04, 8]
+        },
+        {
+          "desc": "护盾强效提升<color=#99FFFFFF>25%</color>。攻击命中后的8秒内，攻击力提升<color=#99FFFFFF>5%</color>。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。",
+          "params": [0.25, 0.05, 8]
+        },
+        {
+          "desc": "护盾强效提升<color=#99FFFFFF>30%</color>。攻击命中后的8秒内，攻击力提升<color=#99FFFFFF>6%</color>。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。",
+          "params": [0.3, 0.06, 8]
+        },
+        {
+          "desc": "护盾强效提升<color=#99FFFFFF>35%</color>。攻击命中后的8秒内，攻击力提升<color=#99FFFFFF>7%</color>。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。",
+          "params": [0.35, 0.07, 8]
+        },
+        {
+          "desc": "护盾强效提升<color=#99FFFFFF>40%</color>。攻击命中后的8秒内，攻击力提升<color=#99FFFFFF>8%</color>。该效果至多可叠加5层，每0.3秒只能触发一次。此外，处于护盾庇护下时，该效果的攻击力提升效果提高100%。",
+          "params": [0.4, 0.08, 8]
+        }
       ]
     }
   },
@@ -7272,13 +7542,12 @@
     "subAttr": { "type": 11, "value": 20.4, "curve": 16 },
     "affix": {
       "name": "踏火止水",
-      "desc": "对处于水元素或火元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>12%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.15] },
-        { "attrs": [], "params": [0.18] },
-        { "attrs": [], "params": [0.21] },
-        { "attrs": [], "params": [0.24] }
+        { "desc": "对处于水元素或火元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>12%</color>。", "params": [0.12] },
+        { "desc": "对处于水元素或火元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>15%</color>。", "params": [0.15] },
+        { "desc": "对处于水元素或火元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>18%</color>。", "params": [0.18] },
+        { "desc": "对处于水元素或火元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>21%</color>。", "params": [0.21] },
+        { "desc": "对处于水元素或火元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>24%</color>。", "params": [0.24] }
       ]
     }
   },
@@ -7355,13 +7624,12 @@
     "subAttr": { "type": 13, "value": 0.102, "curve": 16 },
     "affix": {
       "name": "精准",
-      "desc": "针对要害造成的伤害提升<color=#99FFFFFF>24%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.24] },
-        { "attrs": [], "params": [0.3] },
-        { "attrs": [], "params": [0.36] },
-        { "attrs": [], "params": [0.42] },
-        { "attrs": [], "params": [0.48] }
+        { "desc": "针对要害造成的伤害提升<color=#99FFFFFF>24%</color>。", "params": [0.24] },
+        { "desc": "针对要害造成的伤害提升<color=#99FFFFFF>30%</color>。", "params": [0.3] },
+        { "desc": "针对要害造成的伤害提升<color=#99FFFFFF>36%</color>。", "params": [0.36] },
+        { "desc": "针对要害造成的伤害提升<color=#99FFFFFF>42%</color>。", "params": [0.42] },
+        { "desc": "针对要害造成的伤害提升<color=#99FFFFFF>48%</color>。", "params": [0.48] }
       ]
     }
   },
@@ -7438,13 +7706,12 @@
     "subAttr": { "type": 5, "value": 0.10213, "curve": 16 },
     "affix": {
       "name": "收割",
-      "desc": "击败敌人时，恢复<color=#99FFFFFF>8%</color>生命值。",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "击败敌人时，恢复<color=#99FFFFFF>8%</color>生命值。", "params": [0.08] },
+        { "desc": "击败敌人时，恢复<color=#99FFFFFF>10%</color>生命值。", "params": [0.1] },
+        { "desc": "击败敌人时，恢复<color=#99FFFFFF>12%</color>生命值。", "params": [0.12] },
+        { "desc": "击败敌人时，恢复<color=#99FFFFFF>14%</color>生命值。", "params": [0.14] },
+        { "desc": "击败敌人时，恢复<color=#99FFFFFF>16%</color>生命值。", "params": [0.16] }
       ]
     }
   },
@@ -7521,13 +7788,12 @@
     "subAttr": { "type": 12, "value": 0.068, "curve": 16 },
     "affix": {
       "name": "弹弓",
-      "desc": "普通攻击与重击的箭矢若在发射后的0.3秒内击中敌人，则造成的伤害增加<color=#99FFFFFF>36%</color>；否则，造成的伤害下降10%。",
       "levels": [
-        { "attrs": [], "params": [0.3, 0.36, 0.1] },
-        { "attrs": [], "params": [0.3, 0.42, 0.1] },
-        { "attrs": [], "params": [0.3, 0.48, 0.1] },
-        { "attrs": [], "params": [0.3, 0.54, 0.1] },
-        { "attrs": [], "params": [0.3, 0.6, 0.1] }
+        { "desc": "普通攻击与重击的箭矢若在发射后的0.3秒内击中敌人，则造成的伤害增加<color=#99FFFFFF>36%</color>；否则，造成的伤害下降10%。", "params": [0.3, 0.36, 0.1] },
+        { "desc": "普通攻击与重击的箭矢若在发射后的0.3秒内击中敌人，则造成的伤害增加<color=#99FFFFFF>42%</color>；否则，造成的伤害下降10%。", "params": [0.3, 0.42, 0.1] },
+        { "desc": "普通攻击与重击的箭矢若在发射后的0.3秒内击中敌人，则造成的伤害增加<color=#99FFFFFF>48%</color>；否则，造成的伤害下降10%。", "params": [0.3, 0.48, 0.1] },
+        { "desc": "普通攻击与重击的箭矢若在发射后的0.3秒内击中敌人，则造成的伤害增加<color=#99FFFFFF>54%</color>；否则，造成的伤害下降10%。", "params": [0.3, 0.54, 0.1] },
+        { "desc": "普通攻击与重击的箭矢若在发射后的0.3秒内击中敌人，则造成的伤害增加<color=#99FFFFFF>60%</color>；否则，造成的伤害下降10%。", "params": [0.3, 0.6, 0.1] }
       ]
     }
   },
@@ -7604,13 +7870,12 @@
     "subAttr": { "type": 13, "value": 0.068, "curve": 16 },
     "affix": {
       "name": "飞矢传书",
-      "desc": "重击若命中要害，则额外造成<color=#99FFFFFF>100%</color>攻击力的伤害，该伤害必定暴击。此效果每10秒只能触发一次。",
       "levels": [
-        { "attrs": [], "params": [1] },
-        { "attrs": [], "params": [1.25] },
-        { "attrs": [], "params": [1.5] },
-        { "attrs": [], "params": [1.75] },
-        { "attrs": [], "params": [2] }
+        { "desc": "重击若命中要害，则额外造成<color=#99FFFFFF>100%</color>攻击力的伤害，该伤害必定暴击。此效果每10秒只能触发一次。", "params": [1] },
+        { "desc": "重击若命中要害，则额外造成<color=#99FFFFFF>125%</color>攻击力的伤害，该伤害必定暴击。此效果每10秒只能触发一次。", "params": [1.25] },
+        { "desc": "重击若命中要害，则额外造成<color=#99FFFFFF>150%</color>攻击力的伤害，该伤害必定暴击。此效果每10秒只能触发一次。", "params": [1.5] },
+        { "desc": "重击若命中要害，则额外造成<color=#99FFFFFF>175%</color>攻击力的伤害，该伤害必定暴击。此效果每10秒只能触发一次。", "params": [1.75] },
+        { "desc": "重击若命中要害，则额外造成<color=#99FFFFFF>200%</color>攻击力的伤害，该伤害必定暴击。此效果每10秒只能触发一次。", "params": [2] }
       ]
     }
   },
@@ -7687,13 +7952,12 @@
     "subAttr": { "type": 7, "value": 0.0766, "curve": 16 },
     "affix": {
       "name": "摧坚",
-      "desc": "对遗迹机关类敌人：造成的伤害提高<color=#99FFFFFF>40%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.4] },
-        { "attrs": [], "params": [0.5] },
-        { "attrs": [], "params": [0.6] },
-        { "attrs": [], "params": [0.7] },
-        { "attrs": [], "params": [0.8] }
+        { "desc": "对遗迹机关类敌人：造成的伤害提高<color=#99FFFFFF>40%</color>。", "params": [0.4] },
+        { "desc": "对遗迹机关类敌人：造成的伤害提高<color=#99FFFFFF>50%</color>。", "params": [0.5] },
+        { "desc": "对遗迹机关类敌人：造成的伤害提高<color=#99FFFFFF>60%</color>。", "params": [0.6] },
+        { "desc": "对遗迹机关类敌人：造成的伤害提高<color=#99FFFFFF>70%</color>。", "params": [0.7] },
+        { "desc": "对遗迹机关类敌人：造成的伤害提高<color=#99FFFFFF>80%</color>。", "params": [0.8] }
       ]
     }
   },
@@ -7770,13 +8034,12 @@
     "subAttr": { "type": 10, "value": 0.13333, "curve": 17 },
     "affix": {
       "name": "顺风而行",
-      "desc": "攻击造成暴击时，有<color=#99FFFFFF>60%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>12</color>秒只能触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.6, 12] },
-        { "attrs": [], "params": [0.7, 10.5] },
-        { "attrs": [], "params": [0.8, 9] },
-        { "attrs": [], "params": [0.9, 7.5] },
-        { "attrs": [], "params": [1, 6] }
+        { "desc": "攻击造成暴击时，有<color=#99FFFFFF>60%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>12</color>秒只能触发一次。", "params": [0.6, 12] },
+        { "desc": "攻击造成暴击时，有<color=#99FFFFFF>70%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>10.5</color>秒只能触发一次。", "params": [0.7, 10.5] },
+        { "desc": "攻击造成暴击时，有<color=#99FFFFFF>80%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>9</color>秒只能触发一次。", "params": [0.8, 9] },
+        { "desc": "攻击造成暴击时，有<color=#99FFFFFF>90%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>7.5</color>秒只能触发一次。", "params": [0.9, 7.5] },
+        { "desc": "攻击造成暴击时，有<color=#99FFFFFF>100%</color>的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每<color=#99FFFFFF>6</color>秒只能触发一次。", "params": [1, 6] }
       ]
     }
   },
@@ -7853,13 +8116,12 @@
     "subAttr": { "type": 11, "value": 36, "curve": 17 },
     "affix": {
       "name": "无矢之歌",
-      "desc": "元素战技与元素爆发的伤害提高<color=#99FFFFFF>24%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.24] },
-        { "attrs": [], "params": [0.3] },
-        { "attrs": [], "params": [0.36] },
-        { "attrs": [], "params": [0.42] },
-        { "attrs": [], "params": [0.48] }
+        { "desc": "元素战技与元素爆发的伤害提高<color=#99FFFFFF>24%</color>。", "params": [0.24] },
+        { "desc": "元素战技与元素爆发的伤害提高<color=#99FFFFFF>30%</color>。", "params": [0.3] },
+        { "desc": "元素战技与元素爆发的伤害提高<color=#99FFFFFF>36%</color>。", "params": [0.36] },
+        { "desc": "元素战技与元素爆发的伤害提高<color=#99FFFFFF>42%</color>。", "params": [0.42] },
+        { "desc": "元素战技与元素爆发的伤害提高<color=#99FFFFFF>48%</color>。", "params": [0.48] }
       ]
     }
   },
@@ -7936,13 +8198,12 @@
     "subAttr": { "type": 10, "value": 0.066667, "curve": 17 },
     "affix": {
       "name": "气定神闲",
-      "desc": "元素战技造成伤害时，有<color=#99FFFFFF>40%</color>的概率重置该技能的冷却时间，该效果每<color=#99FFFFFF>30</color>秒只能触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.4, 30] },
-        { "attrs": [], "params": [0.5, 26] },
-        { "attrs": [], "params": [0.6, 22] },
-        { "attrs": [], "params": [0.7, 19] },
-        { "attrs": [], "params": [0.8, 16] }
+        { "desc": "元素战技造成伤害时，有<color=#99FFFFFF>40%</color>的概率重置该技能的冷却时间，该效果每<color=#99FFFFFF>30</color>秒只能触发一次。", "params": [0.4, 30] },
+        { "desc": "元素战技造成伤害时，有<color=#99FFFFFF>50%</color>的概率重置该技能的冷却时间，该效果每<color=#99FFFFFF>26</color>秒只能触发一次。", "params": [0.5, 26] },
+        { "desc": "元素战技造成伤害时，有<color=#99FFFFFF>60%</color>的概率重置该技能的冷却时间，该效果每<color=#99FFFFFF>22</color>秒只能触发一次。", "params": [0.6, 22] },
+        { "desc": "元素战技造成伤害时，有<color=#99FFFFFF>70%</color>的概率重置该技能的冷却时间，该效果每<color=#99FFFFFF>19</color>秒只能触发一次。", "params": [0.7, 19] },
+        { "desc": "元素战技造成伤害时，有<color=#99FFFFFF>80%</color>的概率重置该技能的冷却时间，该效果每<color=#99FFFFFF>16</color>秒只能触发一次。", "params": [0.8, 16] }
       ]
     }
   },
@@ -8019,13 +8280,12 @@
     "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "专注",
-      "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>8%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>8%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。", "params": [0.08] },
+        { "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>10%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。", "params": [0.1] },
+        { "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>12%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。", "params": [0.12] },
+        { "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>14%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。", "params": [0.14] },
+        { "desc": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>16%</color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。", "params": [0.16] }
       ]
     }
   },
@@ -8102,13 +8362,12 @@
     "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "速射弓斗",
-      "desc": "普通攻击造成的伤害提升<color=#99FFFFFF>40%</color>，重击造成的伤害下降10%。",
       "levels": [
-        { "attrs": [], "params": [0.4, 0.1] },
-        { "attrs": [], "params": [0.5, 0.1] },
-        { "attrs": [], "params": [0.6, 0.1] },
-        { "attrs": [], "params": [0.7, 0.1] },
-        { "attrs": [], "params": [0.8, 0.1] }
+        { "desc": "普通攻击造成的伤害提升<color=#99FFFFFF>40%</color>，重击造成的伤害下降10%。", "params": [0.4, 0.1] },
+        { "desc": "普通攻击造成的伤害提升<color=#99FFFFFF>50%</color>，重击造成的伤害下降10%。", "params": [0.5, 0.1] },
+        { "desc": "普通攻击造成的伤害提升<color=#99FFFFFF>60%</color>，重击造成的伤害下降10%。", "params": [0.6, 0.1] },
+        { "desc": "普通攻击造成的伤害提升<color=#99FFFFFF>70%</color>，重击造成的伤害下降10%。", "params": [0.7, 0.1] },
+        { "desc": "普通攻击造成的伤害提升<color=#99FFFFFF>80%</color>，重击造成的伤害下降10%。", "params": [0.8, 0.1] }
       ]
     }
   },
@@ -8185,13 +8444,12 @@
     "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "离簇不归",
-      "desc": "重击若命中要害，则提升10%移动速度与<color=#99FFFFFF>36%</color>攻击力，持续10秒。",
       "levels": [
-        { "attrs": [], "params": [0.1, 0.36, 10] },
-        { "attrs": [], "params": [0.1, 0.45, 10] },
-        { "attrs": [], "params": [0.1, 0.54, 10] },
-        { "attrs": [], "params": [0.1, 0.63, 10] },
-        { "attrs": [], "params": [0.1, 0.72, 10] }
+        { "desc": "重击若命中要害，则提升10%移动速度与<color=#99FFFFFF>36%</color>攻击力，持续10秒。", "params": [0.1, 0.36, 10] },
+        { "desc": "重击若命中要害，则提升10%移动速度与<color=#99FFFFFF>45%</color>攻击力，持续10秒。", "params": [0.1, 0.45, 10] },
+        { "desc": "重击若命中要害，则提升10%移动速度与<color=#99FFFFFF>54%</color>攻击力，持续10秒。", "params": [0.1, 0.54, 10] },
+        { "desc": "重击若命中要害，则提升10%移动速度与<color=#99FFFFFF>63%</color>攻击力，持续10秒。", "params": [0.1, 0.63, 10] },
+        { "desc": "重击若命中要害，则提升10%移动速度与<color=#99FFFFFF>72%</color>攻击力，持续10秒。", "params": [0.1, 0.72, 10] }
       ]
     }
   },
@@ -8268,13 +8526,27 @@
     "subAttr": { "type": 33, "value": 0.15013, "curve": 17 },
     "affix": {
       "name": "注能之矢",
-      "desc": "普通攻击与重击命中时，提升<color=#99FFFFFF>4%</color>攻击力与<color=#99FFFFFF>1.2%</color>普通攻击速度。该效果持续6秒，最多可以叠加4层，每0.3秒只能触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.04, 0.012, 0.3] },
-        { "attrs": [], "params": [0.05, 0.015, 0.3] },
-        { "attrs": [], "params": [0.06, 0.018, 0.3] },
-        { "attrs": [], "params": [0.07, 0.021, 0.3] },
-        { "attrs": [], "params": [0.08, 0.024, 0.3] }
+        {
+          "desc": "普通攻击与重击命中时，提升<color=#99FFFFFF>4%</color>攻击力与<color=#99FFFFFF>1.2%</color>普通攻击速度。该效果持续6秒，最多可以叠加4层，每0.3秒只能触发一次。",
+          "params": [0.04, 0.012, 0.3]
+        },
+        {
+          "desc": "普通攻击与重击命中时，提升<color=#99FFFFFF>5%</color>攻击力与<color=#99FFFFFF>1.5%</color>普通攻击速度。该效果持续6秒，最多可以叠加4层，每0.3秒只能触发一次。",
+          "params": [0.05, 0.015, 0.3]
+        },
+        {
+          "desc": "普通攻击与重击命中时，提升<color=#99FFFFFF>6%</color>攻击力与<color=#99FFFFFF>1.8%</color>普通攻击速度。该效果持续6秒，最多可以叠加4层，每0.3秒只能触发一次。",
+          "params": [0.06, 0.018, 0.3]
+        },
+        {
+          "desc": "普通攻击与重击命中时，提升<color=#99FFFFFF>7%</color>攻击力与<color=#99FFFFFF>2.1%</color>普通攻击速度。该效果持续6秒，最多可以叠加4层，每0.3秒只能触发一次。",
+          "params": [0.07, 0.021, 0.3]
+        },
+        {
+          "desc": "普通攻击与重击命中时，提升<color=#99FFFFFF>8%</color>攻击力与<color=#99FFFFFF>2.4%</color>普通攻击速度。该效果持续6秒，最多可以叠加4层，每0.3秒只能触发一次。",
+          "params": [0.08, 0.024, 0.3]
+        }
       ]
     }
   },
@@ -8351,13 +8623,12 @@
     "subAttr": { "type": 13, "value": 0.08, "curve": 17 },
     "affix": {
       "name": "乘胜追击",
-      "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>12%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。",
       "levels": [
-        { "attrs": [], "params": [0.12, 30] },
-        { "attrs": [], "params": [0.15, 30] },
-        { "attrs": [], "params": [0.18, 30] },
-        { "attrs": [], "params": [0.21, 30] },
-        { "attrs": [], "params": [0.24, 30] }
+        { "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>12%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。", "params": [0.12, 30] },
+        { "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>15%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。", "params": [0.15, 30] },
+        { "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>18%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。", "params": [0.18, 30] },
+        { "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>21%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。", "params": [0.21, 30] },
+        { "desc": "击败敌人后，攻击力提升<color=#99FFFFFF>24%</color>，持续30秒。该效果至多叠加3层，每层持续时间独立。", "params": [0.24, 30] }
       ]
     }
   },
@@ -8434,13 +8705,27 @@
     "subAttr": { "type": 12, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "苍翠之风",
-      "desc": "普通攻击与重击命中时，有50%几率生成一个风之眼，持续吸引周围敌人，并对其中的敌人每0.5秒造成<color=#99FFFFFF>40%</color>攻击的伤害。该效果持续4秒，每<color=#99FFFFFF>14</color>秒至多触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.5, 0.4, 0.5, 4, 14] },
-        { "attrs": [], "params": [0.5, 0.5, 0.5, 4, 13] },
-        { "attrs": [], "params": [0.5, 0.6, 0.5, 4, 12] },
-        { "attrs": [], "params": [0.5, 0.7, 0.5, 4, 11] },
-        { "attrs": [], "params": [0.5, 0.8, 0.5, 4, 10] }
+        {
+          "desc": "普通攻击与重击命中时，有50%几率生成一个风之眼，持续吸引周围敌人，并对其中的敌人每0.5秒造成<color=#99FFFFFF>40%</color>攻击的伤害。该效果持续4秒，每<color=#99FFFFFF>14</color>秒至多触发一次。",
+          "params": [0.5, 0.4, 0.5, 4, 14]
+        },
+        {
+          "desc": "普通攻击与重击命中时，有50%几率生成一个风之眼，持续吸引周围敌人，并对其中的敌人每0.5秒造成<color=#99FFFFFF>50%</color>攻击的伤害。该效果持续4秒，每<color=#99FFFFFF>13</color>秒至多触发一次。",
+          "params": [0.5, 0.5, 0.5, 4, 13]
+        },
+        {
+          "desc": "普通攻击与重击命中时，有50%几率生成一个风之眼，持续吸引周围敌人，并对其中的敌人每0.5秒造成<color=#99FFFFFF>60%</color>攻击的伤害。该效果持续4秒，每<color=#99FFFFFF>12</color>秒至多触发一次。",
+          "params": [0.5, 0.6, 0.5, 4, 12]
+        },
+        {
+          "desc": "普通攻击与重击命中时，有50%几率生成一个风之眼，持续吸引周围敌人，并对其中的敌人每0.5秒造成<color=#99FFFFFF>70%</color>攻击的伤害。该效果持续4秒，每<color=#99FFFFFF>11</color>秒至多触发一次。",
+          "params": [0.5, 0.7, 0.5, 4, 11]
+        },
+        {
+          "desc": "普通攻击与重击命中时，有50%几率生成一个风之眼，持续吸引周围敌人，并对其中的敌人每0.5秒造成<color=#99FFFFFF>80%</color>攻击的伤害。该效果持续4秒，每<color=#99FFFFFF>10</color>秒至多触发一次。",
+          "params": [0.5, 0.8, 0.5, 4, 10]
+        }
       ]
     }
   },
@@ -8517,13 +8802,27 @@
     "subAttr": { "type": 12, "value": 0.048, "curve": 18 },
     "affix": {
       "name": "回响长天的诗歌",
-      "desc": "暴击伤害提高<color=#99FFFFFF>20%</color>；攻击命中时有<color=#99FFFFFF>60%</color>概率造成125%攻击力的小范围物理伤害，该效果每<color=#99FFFFFF>4</color>秒只能触发一次。",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.6, 1.25, 4] },
-        { "attrs": [], "params": [0.25, 0.7, 1.25, 3.5] },
-        { "attrs": [], "params": [0.3, 0.8, 1.25, 3] },
-        { "attrs": [], "params": [0.35, 0.9, 1.25, 2.5] },
-        { "attrs": [], "params": [0.4, 1, 1.25, 2] }
+        {
+          "desc": "暴击伤害提高<color=#99FFFFFF>20%</color>；攻击命中时有<color=#99FFFFFF>60%</color>概率造成125%攻击力的小范围物理伤害，该效果每<color=#99FFFFFF>4</color>秒只能触发一次。",
+          "params": [0.2, 0.6, 1.25, 4]
+        },
+        {
+          "desc": "暴击伤害提高<color=#99FFFFFF>25%</color>；攻击命中时有<color=#99FFFFFF>70%</color>概率造成125%攻击力的小范围物理伤害，该效果每<color=#99FFFFFF>3.5</color>秒只能触发一次。",
+          "params": [0.25, 0.7, 1.25, 3.5]
+        },
+        {
+          "desc": "暴击伤害提高<color=#99FFFFFF>30%</color>；攻击命中时有<color=#99FFFFFF>80%</color>概率造成125%攻击力的小范围物理伤害，该效果每<color=#99FFFFFF>3</color>秒只能触发一次。",
+          "params": [0.3, 0.8, 1.25, 3]
+        },
+        {
+          "desc": "暴击伤害提高<color=#99FFFFFF>35%</color>；攻击命中时有<color=#99FFFFFF>90%</color>概率造成125%攻击力的小范围物理伤害，该效果每<color=#99FFFFFF>2.5</color>秒只能触发一次。",
+          "params": [0.35, 0.9, 1.25, 2.5]
+        },
+        {
+          "desc": "暴击伤害提高<color=#99FFFFFF>40%</color>；攻击命中时有<color=#99FFFFFF>100%</color>概率造成125%攻击力的小范围物理伤害，该效果每<color=#99FFFFFF>2</color>秒只能触发一次。",
+          "params": [0.4, 1, 1.25, 2]
+        }
       ]
     }
   },
@@ -8600,13 +8899,12 @@
     "subAttr": { "type": 7, "value": 0.108, "curve": 18 },
     "affix": {
       "name": "矢志不忘",
-      "desc": "普通攻击与重击造成的伤害提升<color=#99FFFFFF>12%</color>；普通攻击与重击的箭矢发射后每经过0.1秒，伤害还会提升<color=#99FFFFFF>8%</color>，至多提升5次。",
       "levels": [
-        { "attrs": [], "params": [0.12, 0.08] },
-        { "attrs": [], "params": [0.15, 0.1] },
-        { "attrs": [], "params": [0.18, 0.12] },
-        { "attrs": [], "params": [0.21, 0.14] },
-        { "attrs": [], "params": [0.24, 0.16] }
+        { "desc": "普通攻击与重击造成的伤害提升<color=#99FFFFFF>12%</color>；普通攻击与重击的箭矢发射后每经过0.1秒，伤害还会提升<color=#99FFFFFF>8%</color>，至多提升5次。", "params": [0.12, 0.08] },
+        { "desc": "普通攻击与重击造成的伤害提升<color=#99FFFFFF>15%</color>；普通攻击与重击的箭矢发射后每经过0.1秒，伤害还会提升<color=#99FFFFFF>10%</color>，至多提升5次。", "params": [0.15, 0.1] },
+        { "desc": "普通攻击与重击造成的伤害提升<color=#99FFFFFF>18%</color>；普通攻击与重击的箭矢发射后每经过0.1秒，伤害还会提升<color=#99FFFFFF>12%</color>，至多提升5次。", "params": [0.18, 0.12] },
+        { "desc": "普通攻击与重击造成的伤害提升<color=#99FFFFFF>21%</color>；普通攻击与重击的箭矢发射后每经过0.1秒，伤害还会提升<color=#99FFFFFF>14%</color>，至多提升5次。", "params": [0.21, 0.14] },
+        { "desc": "普通攻击与重击造成的伤害提升<color=#99FFFFFF>24%</color>；普通攻击与重击的箭矢发射后每经过0.1秒，伤害还会提升<color=#99FFFFFF>16%</color>，至多提升5次。", "params": [0.24, 0.16] }
       ]
     }
   },

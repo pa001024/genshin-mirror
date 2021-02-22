@@ -65,7 +65,9 @@
           <v-list-item-content>
             <v-list-item-title class="headline" v-text="data.affix.name" />
             <v-list-item-content>
-              <p style="line-height: 1.5" v-html="parseDesc(data.affix.desc)"></p>
+              <v-chip v-if="weapon.maxRefineLevel === 1" label small class="mb-2">{{ $t("ui.weaponNoRefine") }}</v-chip>
+              <RefineLevel v-else v-model="weapon.refineLevel" class="mb-2" />
+              <p style="line-height: 1.5" v-html="parseDesc(weapon.affix.desc)"></p>
             </v-list-item-content>
           </v-list-item-content>
         </v-list-item>

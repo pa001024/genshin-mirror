@@ -168,13 +168,12 @@
     "subAttr": { "type": 7, "value": 0.0766, "curve": 16 },
     "affix": {
       "name": "水と氷の破滅",
-      "desc": "水元素または氷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>12%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.15] },
-        { "attrs": [], "params": [0.18] },
-        { "attrs": [], "params": [0.21] },
-        { "attrs": [], "params": [0.24] }
+        { "desc": "水元素または氷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>12%</color>。", "params": [0.12] },
+        { "desc": "水元素または氷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>15%</color>。", "params": [0.15] },
+        { "desc": "水元素または氷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>18%</color>。", "params": [0.18] },
+        { "desc": "水元素または氷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>21%</color>。", "params": [0.21] },
+        { "desc": "水元素または氷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>24%</color>。", "params": [0.24] }
       ]
     }
   },
@@ -251,13 +250,12 @@
     "subAttr": { "type": 13, "value": 0.102, "curve": 16 },
     "affix": {
       "name": "奮い立てる",
-      "desc": "HPが90%以上の時、会心率+<color=#99FFFFFF>14%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.175] },
-        { "attrs": [], "params": [0.21] },
-        { "attrs": [], "params": [0.245] },
-        { "attrs": [], "params": [0.28] }
+        { "desc": "HPが90%以上の時、会心率+<color=#99FFFFFF>14%</color>。", "params": [0.14] },
+        { "desc": "HPが90%以上の時、会心率+<color=#99FFFFFF>17.5%</color>。", "params": [0.175] },
+        { "desc": "HPが90%以上の時、会心率+<color=#99FFFFFF>21%</color>。", "params": [0.21] },
+        { "desc": "HPが90%以上の時、会心率+<color=#99FFFFFF>24.5%</color>。", "params": [0.245] },
+        { "desc": "HPが90%以上の時、会心率+<color=#99FFFFFF>28%</color>。", "params": [0.28] }
       ]
     }
   },
@@ -334,13 +332,12 @@
     "subAttr": { "type": 9, "value": 0.063733, "curve": 16 },
     "affix": {
       "name": "旅路",
-      "desc": "元素オーブまたは元素粒子を獲得した時、HPを<color=#99FFFFFF>1%</color>回復する。",
       "levels": [
-        { "attrs": [], "params": [0.01, 1] },
-        { "attrs": [], "params": [0.0125, 1] },
-        { "attrs": [], "params": [0.015, 1] },
-        { "attrs": [], "params": [0.0175, 1] },
-        { "attrs": [], "params": [0.02, 1] }
+        { "desc": "元素オーブまたは元素粒子を獲得した時、HPを<color=#99FFFFFF>1%</color>回復する。", "params": [0.01, 1] },
+        { "desc": "元素オーブまたは元素粒子を獲得した時、HPを<color=#99FFFFFF>1.25%</color>回復する。", "params": [0.0125, 1] },
+        { "desc": "元素オーブまたは元素粒子を獲得した時、HPを<color=#99FFFFFF>1.5%</color>回復する。", "params": [0.015, 1] },
+        { "desc": "元素オーブまたは元素粒子を獲得した時、HPを<color=#99FFFFFF>1.75%</color>回復する。", "params": [0.0175, 1] },
+        { "desc": "元素オーブまたは元素粒子を獲得した時、HPを<color=#99FFFFFF>2%</color>回復する。", "params": [0.02, 1] }
       ]
     }
   },
@@ -417,13 +414,12 @@
     "subAttr": { "type": 11, "value": 30.6, "curve": 16 },
     "affix": {
       "name": "オーバーロード",
-      "desc": "過負荷、超電導、感電または雷元素拡散反応が発生した12秒間、攻撃力+<color=#99FFFFFF>20%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.2, 12] },
-        { "attrs": [], "params": [0.25, 12] },
-        { "attrs": [], "params": [0.3, 12] },
-        { "attrs": [], "params": [0.35, 12] },
-        { "attrs": [], "params": [0.4, 12] }
+        { "desc": "過負荷、超電導、感電または雷元素拡散反応が発生した12秒間、攻撃力+<color=#99FFFFFF>20%</color>。", "params": [0.2, 12] },
+        { "desc": "過負荷、超電導、感電または雷元素拡散反応が発生した12秒間、攻撃力+<color=#99FFFFFF>25%</color>。", "params": [0.25, 12] },
+        { "desc": "過負荷、超電導、感電または雷元素拡散反応が発生した12秒間、攻撃力+<color=#99FFFFFF>30%</color>。", "params": [0.3, 12] },
+        { "desc": "過負荷、超電導、感電または雷元素拡散反応が発生した12秒間、攻撃力+<color=#99FFFFFF>35%</color>。", "params": [0.35, 12] },
+        { "desc": "過負荷、超電導、感電または雷元素拡散反応が発生した12秒間、攻撃力+<color=#99FFFFFF>40%</color>。", "params": [0.4, 12] }
       ]
     }
   },
@@ -500,13 +496,12 @@
     "subAttr": { "type": 7, "value": 0.0766, "curve": 16 },
     "affix": {
       "name": "切り捨て",
-      "desc": "攻撃が命中すると、50%の確率で1体の敵に攻撃力の<color=#99FFFFFF>240%</color>のダメージを与える。<color=#99FFFFFF>15</color>秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.5, 2.4, 15] },
-        { "attrs": [], "params": [0.5, 2.8, 14] },
-        { "attrs": [], "params": [0.5, 3.2, 13] },
-        { "attrs": [], "params": [0.5, 3.6, 12] },
-        { "attrs": [], "params": [0.5, 4, 11] }
+        { "desc": "攻撃が命中すると、50%の確率で1体の敵に攻撃力の<color=#99FFFFFF>240%</color>のダメージを与える。<color=#99FFFFFF>15</color>秒毎に1回のみ発動可能。", "params": [0.5, 2.4, 15] },
+        { "desc": "攻撃が命中すると、50%の確率で1体の敵に攻撃力の<color=#99FFFFFF>280%</color>のダメージを与える。<color=#99FFFFFF>14</color>秒毎に1回のみ発動可能。", "params": [0.5, 2.8, 14] },
+        { "desc": "攻撃が命中すると、50%の確率で1体の敵に攻撃力の<color=#99FFFFFF>320%</color>のダメージを与える。<color=#99FFFFFF>13</color>秒毎に1回のみ発動可能。", "params": [0.5, 3.2, 13] },
+        { "desc": "攻撃が命中すると、50%の確率で1体の敵に攻撃力の<color=#99FFFFFF>360%</color>のダメージを与える。<color=#99FFFFFF>12</color>秒毎に1回のみ発動可能。", "params": [0.5, 3.6, 12] },
+        { "desc": "攻撃が命中すると、50%の確率で1体の敵に攻撃力の<color=#99FFFFFF>400%</color>のダメージを与える。<color=#99FFFFFF>11</color>秒毎に1回のみ発動可能。", "params": [0.5, 4, 11] }
       ]
     }
   },
@@ -583,13 +578,12 @@
     "subAttr": { "type": 10, "value": 0.11333, "curve": 16 },
     "affix": {
       "name": "決心",
-      "desc": "元素爆発を発動した後、攻撃力と移動速度+<color=#99FFFFFF>12%</color>、継続時間15秒。",
       "levels": [
-        { "attrs": [], "params": [0.12, 15] },
-        { "attrs": [], "params": [0.15, 15] },
-        { "attrs": [], "params": [0.18, 15] },
-        { "attrs": [], "params": [0.21, 15] },
-        { "attrs": [], "params": [0.24, 15] }
+        { "desc": "元素爆発を発動した後、攻撃力と移動速度+<color=#99FFFFFF>12%</color>、継続時間15秒。", "params": [0.12, 15] },
+        { "desc": "元素爆発を発動した後、攻撃力と移動速度+<color=#99FFFFFF>15%</color>、継続時間15秒。", "params": [0.15, 15] },
+        { "desc": "元素爆発を発動した後、攻撃力と移動速度+<color=#99FFFFFF>18%</color>、継続時間15秒。", "params": [0.18, 15] },
+        { "desc": "元素爆発を発動した後、攻撃力と移動速度+<color=#99FFFFFF>21%</color>、継続時間15秒。", "params": [0.21, 15] },
+        { "desc": "元素爆発を発動した後、攻撃力と移動速度+<color=#99FFFFFF>24%</color>、継続時間15秒。", "params": [0.24, 15] }
       ]
     }
   },
@@ -666,13 +660,18 @@
     "subAttr": { "type": 10, "value": 0.13333, "curve": 17 },
     "affix": {
       "name": "追い風が吹く",
-      "desc": "会心攻撃をした時、<color=#99FFFFFF>60%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>12</color>秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.6, 12] },
-        { "attrs": [], "params": [0.7, 10.5] },
-        { "attrs": [], "params": [0.8, 9] },
-        { "attrs": [], "params": [0.9, 7.5] },
-        { "attrs": [], "params": [1, 6] }
+        { "desc": "会心攻撃をした時、<color=#99FFFFFF>60%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>12</color>秒毎に1回のみ発動可能。", "params": [0.6, 12] },
+        {
+          "desc": "会心攻撃をした時、<color=#99FFFFFF>70%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>10.5</color>秒毎に1回のみ発動可能。",
+          "params": [0.7, 10.5]
+        },
+        { "desc": "会心攻撃をした時、<color=#99FFFFFF>80%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>9</color>秒毎に1回のみ発動可能。", "params": [0.8, 9] },
+        {
+          "desc": "会心攻撃をした時、<color=#99FFFFFF>90%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>7.5</color>秒毎に1回のみ発動可能。",
+          "params": [0.9, 7.5]
+        },
+        { "desc": "会心攻撃をした時、<color=#99FFFFFF>100%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>6</color>秒毎に1回のみ発動可能。", "params": [1, 6] }
       ]
     }
   },
@@ -749,13 +748,27 @@
     "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "和音",
-      "desc": "通常攻撃または重撃が命中すると、100%の確率で和音を1個獲得する。和音を5個集めると、音律の力を放ち、周囲の敵に攻撃力の<color=#99FFFFFF>100%</color>のダメージを与える。和音は最大30秒存在し、0.5秒毎に最大1個獲得可能。",
       "levels": [
-        { "attrs": [], "params": [1, 1] },
-        { "attrs": [], "params": [1, 1.25] },
-        { "attrs": [], "params": [1, 1.5] },
-        { "attrs": [], "params": [1, 1.75] },
-        { "attrs": [], "params": [1, 2] }
+        {
+          "desc": "通常攻撃または重撃が命中すると、100%の確率で和音を1個獲得する。和音を5個集めると、音律の力を放ち、周囲の敵に攻撃力の<color=#99FFFFFF>100%</color>のダメージを与える。和音は最大30秒存在し、0.5秒毎に最大1個獲得可能。",
+          "params": [1, 1]
+        },
+        {
+          "desc": "通常攻撃または重撃が命中すると、100%の確率で和音を1個獲得する。和音を5個集めると、音律の力を放ち、周囲の敵に攻撃力の<color=#99FFFFFF>125%</color>のダメージを与える。和音は最大30秒存在し、0.5秒毎に最大1個獲得可能。",
+          "params": [1, 1.25]
+        },
+        {
+          "desc": "通常攻撃または重撃が命中すると、100%の確率で和音を1個獲得する。和音を5個集めると、音律の力を放ち、周囲の敵に攻撃力の<color=#99FFFFFF>150%</color>のダメージを与える。和音は最大30秒存在し、0.5秒毎に最大1個獲得可能。",
+          "params": [1, 1.5]
+        },
+        {
+          "desc": "通常攻撃または重撃が命中すると、100%の確率で和音を1個獲得する。和音を5個集めると、音律の力を放ち、周囲の敵に攻撃力の<color=#99FFFFFF>175%</color>のダメージを与える。和音は最大30秒存在し、0.5秒毎に最大1個獲得可能。",
+          "params": [1, 1.75]
+        },
+        {
+          "desc": "通常攻撃または重撃が命中すると、100%の確率で和音を1個獲得する。和音を5個集めると、音律の力を放ち、周囲の敵に攻撃力の<color=#99FFFFFF>200%</color>のダメージを与える。和音は最大30秒存在し、0.5秒毎に最大1個獲得可能。",
+          "params": [1, 2]
+        }
       ]
     }
   },
@@ -832,13 +845,27 @@
     "subAttr": { "type": 10, "value": 0.13333, "curve": 17 },
     "affix": {
       "name": "落ち着き",
-      "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>40%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>30</color>秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.4, 30] },
-        { "attrs": [], "params": [0.5, 26] },
-        { "attrs": [], "params": [0.6, 22] },
-        { "attrs": [], "params": [0.7, 19] },
-        { "attrs": [], "params": [0.8, 16] }
+        {
+          "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>40%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>30</color>秒毎に1回のみ発動可能。",
+          "params": [0.4, 30]
+        },
+        {
+          "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>50%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>26</color>秒毎に1回のみ発動可能。",
+          "params": [0.5, 26]
+        },
+        {
+          "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>60%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>22</color>秒毎に1回のみ発動可能。",
+          "params": [0.6, 22]
+        },
+        {
+          "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>70%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>19</color>秒毎に1回のみ発動可能。",
+          "params": [0.7, 19]
+        },
+        {
+          "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>80%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>16</color>秒に1回のみ発動可能。",
+          "params": [0.8, 16]
+        }
       ]
     }
   },
@@ -915,13 +942,12 @@
     "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "集中",
-      "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>8%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>8%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.08] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>10%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.1] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>12%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.12] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>14%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.14] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>16%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.16] }
       ]
     }
   },
@@ -998,13 +1024,12 @@
     "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "炎と雷の破滅",
-      "desc": "炎元素または雷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>20%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.2] },
-        { "attrs": [], "params": [0.24] },
-        { "attrs": [], "params": [0.28] },
-        { "attrs": [], "params": [0.32] },
-        { "attrs": [], "params": [0.36] }
+        { "desc": "炎元素または雷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>20%</color>。", "params": [0.2] },
+        { "desc": "炎元素または雷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>24%</color>。", "params": [0.24] },
+        { "desc": "炎元素または雷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>28%</color>。", "params": [0.28] },
+        { "desc": "炎元素または雷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>32%</color>。", "params": [0.32] },
+        { "desc": "炎元素または雷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>36%</color>。", "params": [0.36] }
       ]
     }
   },
@@ -1081,13 +1106,12 @@
     "subAttr": { "type": 33, "value": 0.075067, "curve": 17 },
     "affix": {
       "name": "岩砕き",
-      "desc": "通常攻撃または重撃が命中すると、攻撃力と防御力+<color=#99FFFFFF>4%</color>、継続時間6秒、最大4重まで。0.3秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.04] },
-        { "attrs": [], "params": [0.05] },
-        { "attrs": [], "params": [0.06] },
-        { "attrs": [], "params": [0.07] },
-        { "attrs": [], "params": [0.08] }
+        { "desc": "通常攻撃または重撃が命中すると、攻撃力と防御力+<color=#99FFFFFF>4%</color>、継続時間6秒、最大4重まで。0.3秒毎に1回のみ発動可能。", "params": [0.04] },
+        { "desc": "通常攻撃または重撃が命中すると、攻撃力と防御力+<color=#99FFFFFF>5%</color>、継続時間6秒、最大4重まで。0.3秒毎に1回のみ発動可能。", "params": [0.05] },
+        { "desc": "通常攻撃または重撃が命中すると、攻撃力と防御力+<color=#99FFFFFF>6%</color>、継続時間6秒、最大4重まで。0.3秒毎に1回のみ発動可能。", "params": [0.06] },
+        { "desc": "通常攻撃または重撃が命中すると、攻撃力と防御力+<color=#99FFFFFF>7%</color>、継続時間6秒、最大4重まで。0.3秒毎に1回のみ発動可能。", "params": [0.07] },
+        { "desc": "通常攻撃または重撃が命中すると、攻撃力と防御力+<color=#99FFFFFF>8%</color>、継続時間6秒、最大4重まで。0.3秒毎に1回のみ発動可能。", "params": [0.08] }
       ]
     }
   },
@@ -1164,13 +1188,12 @@
     "subAttr": { "type": 11, "value": 36, "curve": 17 },
     "affix": {
       "name": "注入の棘",
-      "desc": "元素ダメージを与えた6秒間、キャラの与えるダメージ+<color=#99FFFFFF>6%</color>、最大2重まで。1秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.06, 1, 6] },
-        { "attrs": [], "params": [0.075, 1, 6] },
-        { "attrs": [], "params": [0.09, 1, 6] },
-        { "attrs": [], "params": [0.105, 1, 6] },
-        { "attrs": [], "params": [0.12, 1, 6] }
+        { "desc": "元素ダメージを与えた6秒間、キャラの与えるダメージ+<color=#99FFFFFF>6%</color>、最大2重まで。1秒毎に1回のみ発動可能。", "params": [0.06, 1, 6] },
+        { "desc": "元素ダメージを与えた後、6秒間キャラの与えるダメージ+<color=#99FFFFFF>7.5%</color>、最大2重まで。1秒毎に1回のみ発動可能。", "params": [0.075, 1, 6] },
+        { "desc": "元素ダメージを与えた後、6秒間キャラの与えるダメージ+<color=#99FFFFFF>9%</color>、最大2重まで。1秒毎に1回のみ発動可能。", "params": [0.09, 1, 6] },
+        { "desc": "元素ダメージを与えた後、6秒間キャラの与えるダメージ+<color=#99FFFFFF>10.5%</color>、最大2重まで。1秒毎に1回のみ発動可能。", "params": [0.105, 1, 6] },
+        { "desc": "元素ダメージを与えた後、6秒間キャラの与えるダメージ+<color=#99FFFFFF>12%</color>、最大2重まで。1秒毎に1回のみ発動可能。", "params": [0.12, 1, 6] }
       ]
     }
   },
@@ -1247,13 +1270,12 @@
     "subAttr": { "type": 13, "value": 0.08, "curve": 17 },
     "affix": {
       "name": "勝ちに乗じる",
-      "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>12%</color>、継続時間30秒、最大3重まで。効果継続時間は重毎に別々でカウントされる。",
       "levels": [
-        { "attrs": [], "params": [0.12, 30] },
-        { "attrs": [], "params": [0.15, 30] },
-        { "attrs": [], "params": [0.18, 30] },
-        { "attrs": [], "params": [0.21, 30] },
-        { "attrs": [], "params": [0.24, 30] }
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>12%</color>、継続時間30秒、最大3重まで。効果継続時間は重毎に別々でカウントされる。", "params": [0.12, 30] },
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>15%</color>、継続時間30秒。最大3重まで、効果継続時間は重毎に別々でカウントされる。", "params": [0.15, 30] },
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>18%</color>、継続時間30秒。最大3重まで、効果継続時間は重毎に別々でカウントされる。", "params": [0.18, 30] },
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>21%</color>、継続時間30秒。最大3重まで、効果継続時間は重毎に別々でカウントされる。", "params": [0.21, 30] },
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>24%</color>、継続時間30秒。最大3重まで、効果継続時間は重毎に別々でカウントされる。", "params": [0.24, 30] }
       ]
     }
   },
@@ -1330,13 +1352,27 @@
     "subAttr": { "type": 12, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "「正義」",
-      "desc": "通常攻撃と重撃ダメージ+<color=#99FFFFFF>20%</color>。さらに通常攻撃と重撃が会心時、攻撃力の<color=#99FFFFFF>60%</color>分のHPを回復する。5秒に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.6, 5, 1] },
-        { "attrs": [], "params": [0.25, 0.7, 5, 1] },
-        { "attrs": [], "params": [0.3, 0.8, 5, 1] },
-        { "attrs": [], "params": [0.35, 0.9, 5, 1] },
-        { "attrs": [], "params": [0.4, 1, 5, 1] }
+        {
+          "desc": "通常攻撃と重撃ダメージ+<color=#99FFFFFF>20%</color>。さらに通常攻撃と重撃が会心時、攻撃力の<color=#99FFFFFF>60%</color>分のHPを回復する。5秒に1回のみ発動可能。",
+          "params": [0.2, 0.6, 5, 1]
+        },
+        {
+          "desc": "通常攻撃と重撃ダメージ+<color=#99FFFFFF>25%</color>。さらに通常攻撃と重撃が会心時、攻撃力の<color=#99FFFFFF>70%</color>分のHPを回復する。5秒に1回のみ発動可能。",
+          "params": [0.25, 0.7, 5, 1]
+        },
+        {
+          "desc": "通常攻撃と重撃ダメージ+<color=#99FFFFFF>30%</color>。さらに通常攻撃と重撃が会心時、攻撃力の<color=#99FFFFFF>80%</color>分のHPを回復する。5秒に1回のみ発動可能。",
+          "params": [0.3, 0.8, 5, 1]
+        },
+        {
+          "desc": "通常攻撃と重撃ダメージ+<color=#99FFFFFF>35%</color>。さらに通常攻撃と重撃が会心時、攻撃力の<color=#99FFFFFF>90%</color>分のHPを回復する。5秒に1回のみ発動可能。",
+          "params": [0.35, 0.9, 5, 1]
+        },
+        {
+          "desc": "通常攻撃と重撃ダメージ+<color=#99FFFFFF>40%</color>。さらに通常攻撃と重撃が会心時、攻撃力の<color=#99FFFFFF>100%</color>分のHPを回復する。5秒に1回のみ発動可能。",
+          "params": [0.4, 1, 5, 1]
+        }
       ]
     }
   },
@@ -1413,8 +1449,12 @@
     "subAttr": { "type": 7, "value": 0.0766, "curve": 16 },
     "affix": {
       "name": "降世",
-      "desc": "通常攻撃と重撃が命中時、<color=#99FFFFFF>50%</color>の確率で攻撃力の<color=#99FFFFFF>200%</color>の狭範囲ダメージを与える。10秒毎に1回のみ発動可能。旅人が降臨の剣を装備すると、さらに攻撃力+<color=#99FFFFFF>66</color>。",
-      "levels": [{ "attrs": [], "params": [0.5, 2, 10, 66] }]
+      "levels": [
+        {
+          "desc": "通常攻撃と重撃が命中時、<color=#99FFFFFF>50%</color>の確率で攻撃力の<color=#99FFFFFF>200%</color>の狭範囲ダメージを与える。10秒毎に1回のみ発動可能。旅人が降臨の剣を装備すると、さらに攻撃力+<color=#99FFFFFF>66</color>。",
+          "params": [0.5, 2, 10, 66]
+        }
+      ]
     }
   },
   {
@@ -1490,13 +1530,12 @@
     "subAttr": { "type": 10, "value": 0.1, "curve": 17 },
     "affix": {
       "name": "底なしの渇望",
-      "desc": "元素スキルのダメージ+<color=#99FFFFFF>16%</color>、元素スキルの会心率+<color=#99FFFFFF>6%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.16, 0.06] },
-        { "attrs": [], "params": [0.2, 0.075] },
-        { "attrs": [], "params": [0.24, 0.09] },
-        { "attrs": [], "params": [0.28, 0.105] },
-        { "attrs": [], "params": [0.32, 0.12] }
+        { "desc": "元素スキルのダメージ+<color=#99FFFFFF>16%</color>、元素スキルの会心率+<color=#99FFFFFF>6%</color>。", "params": [0.16, 0.06] },
+        { "desc": "元素スキルのダメージ+<color=#99FFFFFF>20%</color>、元素スキルの会心率+<color=#99FFFFFF>7.5%</color>。", "params": [0.2, 0.075] },
+        { "desc": "元素スキルのダメージ+<color=#99FFFFFF>24%</color>、元素スキルの会心率+<color=#99FFFFFF>9%</color>。", "params": [0.24, 0.09] },
+        { "desc": "元素スキルのダメージ+<color=#99FFFFFF>28%</color>、元素スキルの会心率+<color=#99FFFFFF>10.5%</color>。", "params": [0.28, 0.105] },
+        { "desc": "元素スキルのダメージ+<color=#99FFFFFF>32%</color>、元素スキルの会心率+<color=#99FFFFFF>12%</color>。", "params": [0.32, 0.12] }
       ]
     }
   },
@@ -1573,13 +1612,27 @@
     "subAttr": { "type": 33, "value": 0.09, "curve": 18 },
     "affix": {
       "name": "西風の鷹の抗い",
-      "desc": "攻撃力+<color=#99FFFFFF>20%</color>。ダメージを受けると発動：抗争の旗を高く掲げる西風の鷹の魂が蘇り、攻撃力の<color=#99FFFFFF>100%</color>分のHPを回復し、周りの敵に攻撃力の<color=#99FFFFFF>200%</color>のダメージを与える。15秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.2, 1, 2, 15] },
-        { "attrs": [], "params": [0.25, 1.15, 2.3, 15] },
-        { "attrs": [], "params": [0.3, 1.3, 2.6, 15] },
-        { "attrs": [], "params": [0.35, 1.45, 2.9, 15] },
-        { "attrs": [], "params": [0.4, 1.6, 3.2, 15] }
+        {
+          "desc": "攻撃力+<color=#99FFFFFF>20%</color>。ダメージを受けると発動：抗争の旗を高く掲げる西風の鷹の魂が蘇り、攻撃力の<color=#99FFFFFF>100%</color>分のHPを回復し、周りの敵に攻撃力の<color=#99FFFFFF>200%</color>のダメージを与える。15秒毎に1回のみ発動可能。",
+          "params": [0.2, 1, 2, 15]
+        },
+        {
+          "desc": "攻撃力+<color=#99FFFFFF>25%</color>。ダメージを受けると発動：抗争の旗を高く掲げる西風の鷹の魂が蘇り、攻撃力の<color=#99FFFFFF>115%</color>分のHPを回復し、周りの敵に攻撃力の<color=#99FFFFFF>230%</color>のダメージを与える。15秒毎に1回のみ発動可能。",
+          "params": [0.25, 1.15, 2.3, 15]
+        },
+        {
+          "desc": "攻撃力+<color=#99FFFFFF>30%</color>。ダメージを受けると発動：抗争の旗を高く掲げる西風の鷹の魂が蘇り、攻撃力の<color=#99FFFFFF>130%</color>分のHPを回復し、周りの敵に攻撃力の<color=#99FFFFFF>260%</color>のダメージを与える。15秒毎に1回のみ発動可能。",
+          "params": [0.3, 1.3, 2.6, 15]
+        },
+        {
+          "desc": "攻撃力+<color=#99FFFFFF>35%</color>。ダメージを受けると発動：抗争の旗を高く掲げる西風の鷹の魂が蘇り、攻撃力の<color=#99FFFFFF>145%</color>分のHPを回復し、周りの敵に攻撃力の<color=#99FFFFFF>290%</color>のダメージを与える。15秒毎に1回のみ発動可能。",
+          "params": [0.35, 1.45, 2.9, 15]
+        },
+        {
+          "desc": "攻撃力+<color=#99FFFFFF>40%</color>。ダメージを受けると発動：抗争の旗を高く掲げる西風の鷹の魂が蘇り、攻撃力の<color=#99FFFFFF>160%</color>分のHPを回復し、周りの敵に攻撃力の<color=#99FFFFFF>320%</color>のダメージを与える。15秒毎に1回のみ発動可能。",
+          "params": [0.4, 1.6, 3.2, 15]
+        }
       ]
     }
   },
@@ -1656,13 +1709,27 @@
     "subAttr": { "type": 10, "value": 0.12, "curve": 18 },
     "affix": {
       "name": "高天を貫く牙",
-      "desc": "会心率+<color=#99FFFFFF>4%</color>。元素爆発を使用すると衝天の勢いを獲得する：移動速度+<color=#99FFFFFF>10%</color>、攻撃速度+<color=#99FFFFFF>10%</color>、通常攻撃と重撃が命中する際に、攻撃力の<color=#99FFFFFF>20%</color>の追加ダメージを与える、継続時間12秒。",
       "levels": [
-        { "attrs": [], "params": [0.04, 0.1, 0.1, 0.2, 12] },
-        { "attrs": [], "params": [0.05, 0.1, 0.1, 0.25, 12] },
-        { "attrs": [], "params": [0.06, 0.1, 0.1, 0.3, 12] },
-        { "attrs": [], "params": [0.07, 0.1, 0.1, 0.35, 12] },
-        { "attrs": [], "params": [0.08, 0.1, 0.1, 0.4, 12] }
+        {
+          "desc": "会心率+<color=#99FFFFFF>4%</color>。元素爆発を使用すると衝天の勢いを獲得する：移動速度+<color=#99FFFFFF>10%</color>、攻撃速度+<color=#99FFFFFF>10%</color>、通常攻撃と重撃が命中する際に、攻撃力の<color=#99FFFFFF>20%</color>の追加ダメージを与える、継続時間12秒。",
+          "params": [0.04, 0.1, 0.1, 0.2, 12]
+        },
+        {
+          "desc": "会心率+<color=#99FFFFFF>5%</color>。元素爆発を使用すると衝天の勢いを獲得する：移動速度+<color=#99FFFFFF>10%</color>、攻撃速度+<color=#99FFFFFF>10%</color>、通常攻撃と重撃が命中する際に、攻撃力の<color=#99FFFFFF>25%</color>の追加ダメージを与える、継続時間12秒。",
+          "params": [0.05, 0.1, 0.1, 0.25, 12]
+        },
+        {
+          "desc": "会心率+<color=#99FFFFFF>6%</color>。元素爆発を使用すると衝天の勢いを獲得する：移動速度+<color=#99FFFFFF>10%</color>、攻撃速度+<color=#99FFFFFF>10%</color>、通常攻撃と重撃が命中する際に、攻撃力の<color=#99FFFFFF>30%</color>の追加ダメージを与える、継続時間12秒。",
+          "params": [0.06, 0.1, 0.1, 0.3, 12]
+        },
+        {
+          "desc": "会心率+<color=#99FFFFFF>7%</color>。元素爆発を使用すると衝天の勢いを獲得する：移動速度+<color=#99FFFFFF>10%</color>、攻撃速度+<color=#99FFFFFF>10%</color>、通常攻撃と重撃が命中する際に、攻撃力の<color=#99FFFFFF>35%</color>の追加ダメージを与える、継続時間12秒。",
+          "params": [0.07, 0.1, 0.1, 0.35, 12]
+        },
+        {
+          "desc": "会心率+<color=#99FFFFFF>8%</color>。元素爆発を使用すると衝天の勢いを獲得する：移動速度+<color=#99FFFFFF>10%</color>、攻撃速度+<color=#99FFFFFF>10%</color>、通常攻撃と重撃が命中する際に、攻撃力の<color=#99FFFFFF>40%</color>の追加ダメージを与える、継続時間12秒。",
+          "params": [0.08, 0.1, 0.1, 0.4, 12]
+        }
       ]
     }
   },
@@ -1787,13 +1854,27 @@
     "subAttr": { "type": 7, "value": 0.108, "curve": 18 },
     "affix": {
       "name": "金璋君臨",
-      "desc": "シールド強化+<color=#99FFFFFF>20%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>4%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.04, 8] },
-        { "attrs": [], "params": [0.25, 0.05, 8] },
-        { "attrs": [], "params": [0.3, 0.06, 8] },
-        { "attrs": [], "params": [0.35, 0.07, 8] },
-        { "attrs": [], "params": [0.4, 0.08, 8] }
+        {
+          "desc": "シールド強化+<color=#99FFFFFF>20%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>4%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。",
+          "params": [0.2, 0.04, 8]
+        },
+        {
+          "desc": "シールド強化+<color=#99FFFFFF>25%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>5%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。",
+          "params": [0.25, 0.05, 8]
+        },
+        {
+          "desc": "シールド強化+<color=#99FFFFFF>30%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>6%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。",
+          "params": [0.3, 0.06, 8]
+        },
+        {
+          "desc": "シールド強化+<color=#99FFFFFF>35%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>7%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。",
+          "params": [0.35, 0.07, 8]
+        },
+        {
+          "desc": "シールド強化+<color=#99FFFFFF>40%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>8%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。",
+          "params": [0.4, 0.08, 8]
+        }
       ]
     }
   },
@@ -1870,13 +1951,12 @@
     "subAttr": { "type": 12, "value": 0.096, "curve": 18 },
     "affix": {
       "name": "護国の無垢なる心",
-      "desc": "HP上限+<color=#99FFFFFF>20%</color>。また、キャラクターのHP上限の<color=#99FFFFFF>1.2%</color>分、攻撃力がアップする。",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.012] },
-        { "attrs": [], "params": [0.25, 0.015] },
-        { "attrs": [], "params": [0.3, 0.018] },
-        { "attrs": [], "params": [0.35, 0.021] },
-        { "attrs": [], "params": [0.4, 0.024] }
+        { "desc": "HP上限+<color=#99FFFFFF>20%</color>。また、キャラクターのHP上限の<color=#99FFFFFF>1.2%</color>分、攻撃力がアップする。", "params": [0.2, 0.012] },
+        { "desc": "HP上限+<color=#99FFFFFF>25%</color>。また、キャラクターのHP上限の<color=#99FFFFFF>1.5%</color>分、攻撃力がアップする。", "params": [0.25, 0.015] },
+        { "desc": "HP上限+<color=#99FFFFFF>30%</color>。また、キャラクターのHP上限の<color=#99FFFFFF>1.8%</color>分、攻撃力がアップする。", "params": [0.3, 0.018] },
+        { "desc": "HP上限+<color=#99FFFFFF>35%</color>。また、キャラクターのHP上限の<color=#99FFFFFF>2.1%</color>分、攻撃力がアップする。", "params": [0.35, 0.021] },
+        { "desc": "HP上限+<color=#99FFFFFF>40%</color>。また、キャラクターのHP上限の<color=#99FFFFFF>2.4%</color>分、攻撃力がアップする。", "params": [0.4, 0.024] }
       ]
     }
   },
@@ -2097,13 +2177,12 @@
     "subAttr": { "type": 5, "value": 0.0766, "curve": 16 },
     "affix": {
       "name": "不屈",
-      "desc": "HPが<color=#99FFFFFF>70%</color>以下になると、重撃は中断されにくくなり、更に重撃ダメージ+<color=#99FFFFFF>30%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.7, 0.3] },
-        { "attrs": [], "params": [0.75, 0.35] },
-        { "attrs": [], "params": [0.8, 0.4] },
-        { "attrs": [], "params": [0.85, 0.45] },
-        { "attrs": [], "params": [0.9, 0.5] }
+        { "desc": "HPが<color=#99FFFFFF>70%</color>以下になると、重撃は中断されにくくなり、更に重撃ダメージ+<color=#99FFFFFF>30%</color>。", "params": [0.7, 0.3] },
+        { "desc": "HPが<color=#99FFFFFF>75%</color>以下になると、重撃は中断されにくくなり、更に重撃ダメージ+<color=#99FFFFFF>35%</color>。", "params": [0.75, 0.35] },
+        { "desc": "HPが<color=#99FFFFFF>80%</color>以下になると、重撃は中断されにくくなり、更に重撃ダメージ+<color=#99FFFFFF>40%</color>。", "params": [0.8, 0.4] },
+        { "desc": "HPが<color=#99FFFFFF>85%</color>以下になると、重撃は中断されにくくなり、更に重撃ダメージ+<color=#99FFFFFF>45%</color>。", "params": [0.85, 0.45] },
+        { "desc": "HPが<color=#99FFFFFF>90%</color>以下になると、重撃は中断されにくくなり、更に重撃ダメージ+<color=#99FFFFFF>50%</color>。", "params": [0.9, 0.5] }
       ]
     }
   },
@@ -2180,13 +2259,12 @@
     "subAttr": { "type": 11, "value": 40.8, "curve": 16 },
     "affix": {
       "name": "炎と雷の破滅",
-      "desc": "炎元素または雷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>12%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.15] },
-        { "attrs": [], "params": [0.18] },
-        { "attrs": [], "params": [0.21] },
-        { "attrs": [], "params": [0.24] }
+        { "desc": "炎元素または雷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>12%</color>。", "params": [0.12] },
+        { "desc": "炎元素または雷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>15%</color>。", "params": [0.15] },
+        { "desc": "炎元素または雷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>18%</color>。", "params": [0.18] },
+        { "desc": "炎元素または雷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>21%</color>。", "params": [0.21] },
+        { "desc": "炎元素または雷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>24%</color>。", "params": [0.24] }
       ]
     }
   },
@@ -2263,13 +2341,12 @@
     "subAttr": { "type": 9, "value": 0.0956, "curve": 16 },
     "affix": {
       "name": "刈り取る",
-      "desc": "敵を倒したとき、HPを<color=#99FFFFFF>8%</color>回復する。",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "敵を倒したとき、HPを<color=#99FFFFFF>8%</color>回復する。", "params": [0.08] },
+        { "desc": "敵を倒したとき、HPを<color=#99FFFFFF>10%</color>回復する。", "params": [0.1] },
+        { "desc": "敵を倒したとき、HPを<color=#99FFFFFF>12%</color>回復する。", "params": [0.12] },
+        { "desc": "敵を倒したとき、HPを<color=#99FFFFFF>14%</color>回復する。", "params": [0.14] },
+        { "desc": "敵を倒したとき、HPを<color=#99FFFFFF>16%</color>回復する。", "params": [0.16] }
       ]
     }
   },
@@ -2346,13 +2423,12 @@
     "subAttr": { "type": 11, "value": 30.6, "curve": 16 },
     "affix": {
       "name": "余熱",
-      "desc": "過負荷、溶解、燃焼、蒸発、または炎元素拡散反応を起こした後12秒間、攻撃力+<color=#99FFFFFF>20%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.2] },
-        { "attrs": [], "params": [0.25] },
-        { "attrs": [], "params": [0.3] },
-        { "attrs": [], "params": [0.35] },
-        { "attrs": [], "params": [0.4] }
+        { "desc": "過負荷、溶解、燃焼、蒸発、または炎元素拡散反応を起こした後12秒間、攻撃力+<color=#99FFFFFF>20%</color>。", "params": [0.2] },
+        { "desc": "過負荷、溶解、燃焼、蒸発、または炎元素拡散反応を起こした後12秒間、攻撃力+<color=#99FFFFFF>25%</color>。", "params": [0.25] },
+        { "desc": "過負荷、溶解、燃焼、蒸発、または炎元素拡散反応を起こした後12秒間、攻撃力+<color=#99FFFFFF>30%</color>。", "params": [0.3] },
+        { "desc": "過負荷、溶解、燃焼、蒸発、または炎元素拡散反応を起こした後12秒間、攻撃力+<color=#99FFFFFF>35%</color>。", "params": [0.35] },
+        { "desc": "過負荷、溶解、燃焼、蒸発、または炎元素拡散反応を起こした後12秒間、攻撃力+<color=#99FFFFFF>40%</color>。", "params": [0.4] }
       ]
     }
   },
@@ -2429,13 +2505,27 @@
     "subAttr": { "type": 7, "value": 0.0766, "curve": 16 },
     "affix": {
       "name": "率直に話を言え",
-      "desc": "元素スキルを発動した後、通常攻撃と重撃が命中する際に、狭範囲で攻撃力の<color=#99FFFFFF>60%</color>のダメージを与える、継続時間15秒、ダメージは3秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.6, 15, 3] },
-        { "attrs": [], "params": [0.75, 15, 3] },
-        { "attrs": [], "params": [0.9, 15, 3] },
-        { "attrs": [], "params": [1.05, 15, 3] },
-        { "attrs": [], "params": [1.2, 15, 3] }
+        {
+          "desc": "元素スキルを発動した後、通常攻撃と重撃が命中する際に、狭範囲で攻撃力の<color=#99FFFFFF>60%</color>のダメージを与える、継続時間15秒、ダメージは3秒毎に1回のみ発動可能。",
+          "params": [0.6, 15, 3]
+        },
+        {
+          "desc": "元素スキルを発動した後、通常攻撃と重撃が命中する際に、狭範囲で攻撃力の<color=#99FFFFFF>75%</color>のダメージを与える、継続時間15秒、ダメージは3秒毎に1回のみ発動可能。",
+          "params": [0.75, 15, 3]
+        },
+        {
+          "desc": "元素スキルを発動した後、通常攻撃と重撃が命中する際に、狭範囲で攻撃力の<color=#99FFFFFF>90%</color>のダメージを与える、継続時間15秒、ダメージは3秒毎に1回のみ発動可能。",
+          "params": [0.9, 15, 3]
+        },
+        {
+          "desc": "元素スキルを発動した後、通常攻撃と重撃が命中する際に、狭範囲で攻撃力の<color=#99FFFFFF>105%</color>のダメージを与える、継続時間15秒、ダメージは3秒毎に1回のみ発動可能。",
+          "params": [1.05, 15, 3]
+        },
+        {
+          "desc": "元素スキルを発動した後、通常攻撃と重撃が命中する際に、狭範囲で攻撃力の<color=#99FFFFFF>120%</color>のダメージを与える、継続時間15秒、ダメージは3秒毎に1回のみ発動可能。",
+          "params": [1.2, 15, 3]
+        }
       ]
     }
   },
@@ -2512,13 +2602,12 @@
     "subAttr": { "type": 33, "value": 0.0956, "curve": 16 },
     "affix": {
       "name": "勇気",
-      "desc": "通常攻撃と重撃が命中すると、攻撃力+<color=#99FFFFFF>6%</color>、継続時間6秒、最大4重まで。0.5秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.06] },
-        { "attrs": [], "params": [0.07] },
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.09] },
-        { "attrs": [], "params": [0.1] }
+        { "desc": "通常攻撃と重撃が命中すると、攻撃力+<color=#99FFFFFF>6%</color>、継続時間6秒、最大4重まで。0.5秒毎に1回のみ発動可能。", "params": [0.06] },
+        { "desc": "通常攻撃と重撃が命中すると、攻撃力+<color=#99FFFFFF>7%</color>、継続時間6秒、最大4重まで。0.5秒毎に1回のみ発動可能。", "params": [0.07] },
+        { "desc": "通常攻撃と重撃が命中すると、攻撃力+<color=#99FFFFFF>8%</color>、継続時間6秒、最大4重まで。0.5秒毎に1回のみ発動可能。", "params": [0.08] },
+        { "desc": "通常攻撃と重撃が命中すると、攻撃力+<color=#99FFFFFF>9%</color>、継続時間6秒、最大4重まで。0.5秒毎に1回のみ発動可能。", "params": [0.09] },
+        { "desc": "通常攻撃と重撃が命中すると、攻撃力+<color=#99FFFFFF>10%</color>、継続時間6秒、最大4重まで。0.5秒毎に1回のみ発動可能。", "params": [0.1] }
       ]
     }
   },
@@ -2595,13 +2684,18 @@
     "subAttr": { "type": 10, "value": 0.13333, "curve": 17 },
     "affix": {
       "name": "追い風が吹く",
-      "desc": "会心攻撃をした時、<color=#99FFFFFF>60%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>12</color>秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.6, 12] },
-        { "attrs": [], "params": [0.7, 10.5] },
-        { "attrs": [], "params": [0.8, 9] },
-        { "attrs": [], "params": [0.9, 7.5] },
-        { "attrs": [], "params": [1, 6] }
+        { "desc": "会心攻撃をした時、<color=#99FFFFFF>60%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>12</color>秒毎に1回のみ発動可能。", "params": [0.6, 12] },
+        {
+          "desc": "会心攻撃をした時、<color=#99FFFFFF>70%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>10.5</color>秒毎に1回のみ発動可能。",
+          "params": [0.7, 10.5]
+        },
+        { "desc": "会心攻撃をした時、<color=#99FFFFFF>80%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>9</color>秒毎に1回のみ発動可能。", "params": [0.8, 9] },
+        {
+          "desc": "会心攻撃をした時、<color=#99FFFFFF>90%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>7.5</color>秒毎に1回のみ発動可能。",
+          "params": [0.9, 7.5]
+        },
+        { "desc": "会心攻撃をした時、<color=#99FFFFFF>100%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>6</color>秒毎に1回のみ発動可能。", "params": [1, 6] }
       ]
     }
   },
@@ -2678,13 +2772,27 @@
     "subAttr": { "type": 5, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "反逆の守護者",
-      "desc": "ダメージを受けた時、HP上限の<color=#99FFFFFF>20%</color>に相当するダメージを吸収できるシールドを生成する。継続時間は最大10秒まで。<color=#99FFFFFF>45</color>秒毎に1回のみ発動可能。シールドが存在する時、キャラクターの与えるダメージ+<color=#99FFFFFF>12%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.2, 45, 0.12] },
-        { "attrs": [], "params": [0.23, 45, 0.15] },
-        { "attrs": [], "params": [0.26, 45, 0.18] },
-        { "attrs": [], "params": [0.29, 45, 0.21] },
-        { "attrs": [], "params": [0.32, 45, 0.24] }
+        {
+          "desc": "ダメージを受けた時、HP上限の<color=#99FFFFFF>20%</color>に相当するダメージを吸収できるシールドを生成する。継続時間は最大10秒まで。<color=#99FFFFFF>45</color>秒毎に1回のみ発動可能。シールドが存在する時、キャラクターの与えるダメージ+<color=#99FFFFFF>12%</color>。",
+          "params": [0.2, 45, 0.12]
+        },
+        {
+          "desc": "ダメージを受けた時、HP上限の<color=#99FFFFFF>23%</color>に相当するダメージを吸収できるシールドを生成する。継続時間は最大10秒まで。<color=#99FFFFFF>45</color>秒毎に1回のみ発動可能。シールドが存在する時、キャラクターの与えるダメージ+<color=#99FFFFFF>15%</color>。",
+          "params": [0.23, 45, 0.15]
+        },
+        {
+          "desc": "ダメージを受けた時、HP上限の<color=#99FFFFFF>26%</color>に相当するダメージを吸収できるシールドを生成する。継続時間は最大10秒まで。<color=#99FFFFFF>45</color>秒毎に1回のみ発動可能。シールドが存在する時、キャラクターの与えるダメージ+<color=#99FFFFFF>18%</color>。",
+          "params": [0.26, 45, 0.18]
+        },
+        {
+          "desc": "ダメージを受けた時、HP上限の<color=#99FFFFFF>29%</color>に相当するダメージを吸収できるシールドを生成する。継続時間は最大10秒まで。<color=#99FFFFFF>45</color>秒毎に1回のみ発動可能。シールドが存在する時、キャラクターの与えるダメージ+<color=#99FFFFFF>21%</color>。",
+          "params": [0.29, 45, 0.21]
+        },
+        {
+          "desc": "ダメージを受けた時、HP上限の<color=#99FFFFFF>32%</color>に相当するダメージを吸収できるシールドを生成する。継続時間は最大10秒まで。<color=#99FFFFFF>45</color>秒毎に1回のみ発動可能。シールドが存在する時、キャラクターの与えるダメージ+<color=#99FFFFFF>24%</color>。",
+          "params": [0.32, 45, 0.24]
+        }
       ]
     }
   },
@@ -2761,13 +2869,27 @@
     "subAttr": { "type": 10, "value": 0.066667, "curve": 17 },
     "affix": {
       "name": "落ち着き",
-      "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>40%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>30</color>秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.4, 30] },
-        { "attrs": [], "params": [0.5, 26] },
-        { "attrs": [], "params": [0.6, 22] },
-        { "attrs": [], "params": [0.7, 19] },
-        { "attrs": [], "params": [0.8, 16] }
+        {
+          "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>40%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>30</color>秒毎に1回のみ発動可能。",
+          "params": [0.4, 30]
+        },
+        {
+          "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>50%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>26</color>秒毎に1回のみ発動可能。",
+          "params": [0.5, 26]
+        },
+        {
+          "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>60%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>22</color>秒毎に1回のみ発動可能。",
+          "params": [0.6, 22]
+        },
+        {
+          "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>70%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>19</color>秒毎に1回のみ発動可能。",
+          "params": [0.7, 19]
+        },
+        {
+          "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>80%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>16</color>秒に1回のみ発動可能。",
+          "params": [0.8, 16]
+        }
       ]
     }
   },
@@ -2844,13 +2966,12 @@
     "subAttr": { "type": 7, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "集中",
-      "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>8%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>8%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.08] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>10%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.1] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>12%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.12] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>14%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.14] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>16%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.16] }
       ]
     }
   },
@@ -2927,13 +3048,12 @@
     "subAttr": { "type": 11, "value": 36, "curve": 17 },
     "affix": {
       "name": "水と雷の破滅",
-      "desc": "水元素または雷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>20%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.2] },
-        { "attrs": [], "params": [0.24] },
-        { "attrs": [], "params": [0.28] },
-        { "attrs": [], "params": [0.32] },
-        { "attrs": [], "params": [0.36] }
+        { "desc": "水元素または雷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>20%</color>。", "params": [0.2] },
+        { "desc": "水元素または雷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>24%</color>。", "params": [0.24] },
+        { "desc": "水元素または雷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>28%</color>。", "params": [0.28] },
+        { "desc": "水元素または雷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>32%</color>。", "params": [0.32] },
+        { "desc": "水元素または雷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>36%</color>。", "params": [0.36] }
       ]
     }
   },
@@ -3010,13 +3130,12 @@
     "subAttr": { "type": 7, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "粉砕",
-      "desc": "通常攻撃と重撃が命中する時、50%の確率で狭範囲の敵に攻撃力の<color=#99FFFFFF>240%</color>の追加ダメージを与える。15秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.5, 2.4] },
-        { "attrs": [], "params": [0.5, 3] },
-        { "attrs": [], "params": [0.5, 3.6] },
-        { "attrs": [], "params": [0.5, 4.2] },
-        { "attrs": [], "params": [0.5, 4.8] }
+        { "desc": "通常攻撃と重撃が命中する時、50%の確率で狭範囲の敵に攻撃力の<color=#99FFFFFF>240%</color>の追加ダメージを与える。15秒毎に1回のみ発動可能。", "params": [0.5, 2.4] },
+        { "desc": "通常攻撃と重撃が命中する時、50%の確率で狭範囲の敵に攻撃力の<color=#99FFFFFF>300%</color>の追加ダメージを与える。15秒毎に1回のみ発動可能。", "params": [0.5, 3] },
+        { "desc": "通常攻撃と重撃が命中する時、50%の確率で狭範囲の敵に攻撃力の<color=#99FFFFFF>360%</color>の追加ダメージを与える。15秒毎に1回のみ発動可能。", "params": [0.5, 3.6] },
+        { "desc": "通常攻撃と重撃が命中する時、50%の確率で狭範囲の敵に攻撃力の<color=#99FFFFFF>420%</color>の追加ダメージを与える。15秒毎に1回のみ発動可能。", "params": [0.5, 4.2] },
+        { "desc": "通常攻撃と重撃が命中する時、50%の確率で狭範囲の敵に攻撃力の<color=#99FFFFFF>480%</color>の追加ダメージを与える。15秒毎に1回のみ発動可能。", "params": [0.5, 4.8] }
       ]
     }
   },
@@ -3093,13 +3212,12 @@
     "subAttr": { "type": 9, "value": 0.1126, "curve": 17 },
     "affix": {
       "name": "注入の刃",
-      "desc": "通常攻撃と重撃が命中すると、攻撃力と防御力+<color=#99FFFFFF>6%</color>、継続時間6秒、最大4重まで。0.5秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.06] },
-        { "attrs": [], "params": [0.075] },
-        { "attrs": [], "params": [0.09] },
-        { "attrs": [], "params": [0.105] },
-        { "attrs": [], "params": [0.12] }
+        { "desc": "通常攻撃と重撃が命中すると、攻撃力と防御力+<color=#99FFFFFF>6%</color>、継続時間6秒、最大4重まで。0.5秒毎に1回のみ発動可能。", "params": [0.06] },
+        { "desc": "通常攻撃と重撃が命中すると、攻撃力と防御力+<color=#99FFFFFF>7.5%</color>、継続時間6秒、最大4重まで。0.5秒毎に1回のみ発動可能。", "params": [0.075] },
+        { "desc": "通常攻撃と重撃が命中すると、攻撃力と防御力+<color=#99FFFFFF>9%</color>、継続時間6秒、最大4重まで。0.5秒毎に1回のみ発動可能。", "params": [0.09] },
+        { "desc": "通常攻撃と重撃が命中すると、攻撃力と防御力+<color=#99FFFFFF>10.5%</color>、継続時間6秒、最大4重まで。0.5秒毎に1回のみ発動可能。", "params": [0.105] },
+        { "desc": "通常攻撃と重撃が命中すると、攻撃力と防御力+<color=#99FFFFFF>12%</color>、継続時間6秒、最大4重まで。0.5秒毎に1回のみ発動可能。", "params": [0.12] }
       ]
     }
   },
@@ -3176,13 +3294,12 @@
     "subAttr": { "type": 13, "value": 0.12, "curve": 17 },
     "affix": {
       "name": "勝ちに乗じる",
-      "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>12%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。",
       "levels": [
-        { "attrs": [], "params": [0.12, 30] },
-        { "attrs": [], "params": [0.15, 30] },
-        { "attrs": [], "params": [0.18, 30] },
-        { "attrs": [], "params": [0.21, 30] },
-        { "attrs": [], "params": [0.24, 30] }
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>12%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。", "params": [0.12, 30] },
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>15%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。", "params": [0.15, 30] },
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>18%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。", "params": [0.18, 30] },
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>21%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。", "params": [0.21, 30] },
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>24%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。", "params": [0.24, 30] }
       ]
     }
   },
@@ -3259,13 +3376,27 @@
     "subAttr": { "type": 12, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "波乗り",
-      "desc": "フィールドにいる時、4秒毎に、与えるダメージ+<color=#99FFFFFF>6%</color>、被ダメージ+<color=#99FFFFFF>3%</color>。最大5重まで、退場後もリセットされず、攻撃を受けると効果数-1。",
       "levels": [
-        { "attrs": [], "params": [4, 0.06, 0.03] },
-        { "attrs": [], "params": [4, 0.07, 0.027] },
-        { "attrs": [], "params": [4, 0.08, 0.024] },
-        { "attrs": [], "params": [4, 0.09, 0.022] },
-        { "attrs": [], "params": [4, 0.1, 0.02] }
+        {
+          "desc": "フィールドにいる時、4秒毎に、与えるダメージ+<color=#99FFFFFF>6%</color>、被ダメージ+<color=#99FFFFFF>3%</color>。最大5重まで、退場後もリセットされず、攻撃を受けると効果数-1。",
+          "params": [4, 0.06, 0.03]
+        },
+        {
+          "desc": "フィールドにいる時、4秒毎に、与えるダメージ+<color=#99FFFFFF>7%</color>、被ダメージ+<color=#99FFFFFF>2.7%</color>。最大5重まで、退場後もリセットされず、攻撃を受けると効果数-1。",
+          "params": [4, 0.07, 0.027]
+        },
+        {
+          "desc": "フィールドにいる時、4秒毎に、与えるダメージ+<color=#99FFFFFF>8%</color>、被ダメージ+<color=#99FFFFFF>2.4%</color>。最大5重まで、退場後もリセットされず、攻撃を受けると効果数-1。",
+          "params": [4, 0.08, 0.024]
+        },
+        {
+          "desc": "フィールドにいる時、4秒毎に、与えるダメージ+<color=#99FFFFFF>9%</color>、被ダメージ+<color=#99FFFFFF>2.2%</color>。最大5重まで、退場後もリセットされず、攻撃を受けると効果数-1。",
+          "params": [4, 0.09, 0.022]
+        },
+        {
+          "desc": "フィールドにいる時、4秒毎に、与えるダメージ+<color=#99FFFFFF>10%</color>、被ダメージ+<color=#99FFFFFF>2%</color>。最大5重まで、退場後もリセットされず、攻撃を受けると効果数-1。",
+          "params": [4, 0.1, 0.02]
+        }
       ]
     }
   },
@@ -3342,13 +3473,27 @@
     "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "千岩訣·同心",
-      "desc": "チームに璃月出身のキャラクターが1人いる毎に、この武器を装備したキャラクターの攻撃力+<color=#99FFFFFF>7%</color>、会心率+<color=#99FFFFFF>3%</color>。最大4重まで。",
       "levels": [
-        { "attrs": [], "params": [0.07, 0.03, 4] },
-        { "attrs": [], "params": [0.08, 0.04, 4] },
-        { "attrs": [], "params": [0.09, 0.05, 4] },
-        { "attrs": [], "params": [0.1, 0.06, 4] },
-        { "attrs": [], "params": [0.11, 0.07, 4] }
+        {
+          "desc": "チームに璃月出身のキャラクターが1人いる毎に、この武器を装備したキャラクターの攻撃力+<color=#99FFFFFF>7%</color>、会心率+<color=#99FFFFFF>3%</color>。最大4重まで。",
+          "params": [0.07, 0.03, 4]
+        },
+        {
+          "desc": "チームに璃月出身のキャラクターが1人いる毎に、この武器を装備したキャラクターの攻撃力+<color=#99FFFFFF>8%</color>、会心率+<color=#99FFFFFF>4%</color>。最大4重まで。",
+          "params": [0.08, 0.04, 4]
+        },
+        {
+          "desc": "チームに璃月出身のキャラクターが1人いる毎に、この武器を装備したキャラクターの攻撃力+<color=#99FFFFFF>9%</color>、会心率+<color=#99FFFFFF>5%</color>。最大4重まで。",
+          "params": [0.09, 0.05, 4]
+        },
+        {
+          "desc": "チームに璃月出身のキャラクターが1人いる毎に、この武器を装備したキャラクターの攻撃力+<color=#99FFFFFF>10%</color>、会心率+<color=#99FFFFFF>6%</color>。最大4重まで。",
+          "params": [0.1, 0.06, 4]
+        },
+        {
+          "desc": "チームに璃月出身のキャラクターが1人いる毎に、この武器を装備したキャラクターの攻撃力+<color=#99FFFFFF>11%</color>、会心率+<color=#99FFFFFF>7%</color>。最大4重まで。",
+          "params": [0.11, 0.07, 4]
+        }
       ]
     }
   },
@@ -3425,13 +3570,27 @@
     "subAttr": { "type": 33, "value": 0.075067, "curve": 17 },
     "affix": {
       "name": "霜の埋葬",
-      "desc": "通常攻撃と重撃が敵に命中した時、<color=#99FFFFFF>60%</color>の確率で敵の上に恒氷晶核が作られ落下し、攻撃力の<color=#99FFFFFF>80%</color>の範囲ダメージを与える。敵が氷元素の影響を受けている場合、攻撃力の<color=#99FFFFFF>200%</color>のダメージを与える。この効果は10秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.6, 0.8, 2, 10] },
-        { "attrs": [], "params": [0.7, 0.95, 2.4, 10] },
-        { "attrs": [], "params": [0.8, 1.1, 2.8, 10] },
-        { "attrs": [], "params": [0.9, 1.25, 3.2, 10] },
-        { "attrs": [], "params": [1, 1.4, 3.6, 10] }
+        {
+          "desc": "通常攻撃と重撃が敵に命中した時、<color=#99FFFFFF>60%</color>の確率で敵の上に恒氷晶核が作られ落下し、攻撃力の<color=#99FFFFFF>80%</color>の範囲ダメージを与える。敵が氷元素の影響を受けている場合、攻撃力の<color=#99FFFFFF>200%</color>のダメージを与える。この効果は10秒毎に1回のみ発動可能。",
+          "params": [0.6, 0.8, 2, 10]
+        },
+        {
+          "desc": "通常攻撃と重撃が敵に命中した時、<color=#99FFFFFF>70%</color>の確率で敵の上に恒氷晶核が作られ落下し、攻撃力の<color=#99FFFFFF>95%</color>の範囲ダメージを与える。敵が氷元素の影響を受けている場合、攻撃力の<color=#99FFFFFF>240%</color>のダメージを与える。この効果は10秒毎に1回のみ発動可能。",
+          "params": [0.7, 0.95, 2.4, 10]
+        },
+        {
+          "desc": "通常攻撃と重撃が敵に命中した時、<color=#99FFFFFF>80%</color>の確率で敵の上に恒氷晶核が作られ落下し、攻撃力の<color=#99FFFFFF>110%</color>の範囲ダメージを与える。敵が氷元素の影響を受けている場合、攻撃力の<color=#99FFFFFF>280%</color>のダメージを与える。この効果は10秒毎に1回のみ発動可能。",
+          "params": [0.8, 1.1, 2.8, 10]
+        },
+        {
+          "desc": "通常攻撃と重撃が敵に命中した時、<color=#99FFFFFF>90%</color>の確率で敵の上に恒氷晶核が作られ落下し、攻撃力の<color=#99FFFFFF>125%</color>の範囲ダメージを与える。敵が氷元素の影響を受けている場合、攻撃力の<color=#99FFFFFF>320%</color>のダメージを与える。この効果は10秒毎に1回のみ発動可能。",
+          "params": [0.9, 1.25, 3.2, 10]
+        },
+        {
+          "desc": "通常攻撃と重撃が敵に命中した時、<color=#99FFFFFF>100%</color>の確率で敵の上に恒氷晶核が作られ落下し、攻撃力の<color=#99FFFFFF>140%</color>の範囲ダメージを与える。敵が氷元素の影響を受けている場合、攻撃力の<color=#99FFFFFF>360%</color>のダメージを与える。この効果は10秒毎に1回のみ発動可能。",
+          "params": [1, 1.4, 3.6, 10]
+        }
       ]
     }
   },
@@ -3508,13 +3667,27 @@
     "subAttr": { "type": 10, "value": 0.08, "curve": 18 },
     "affix": {
       "name": "晴れ空を裂く龍の骨",
-      "desc": "与えるダメージ+<color=#99FFFFFF>8%</color>。元素爆発を発動した後、通常攻撃と重撃が命中すると真空の刃を放ち、経路上の敵に攻撃力の<color=#99FFFFFF>80%</color>のダメージを与える、継続時間20秒または真空の刃を8回発動するまで。",
       "levels": [
-        { "attrs": [], "params": [0.08, 0.8, 20, 8] },
-        { "attrs": [], "params": [0.1, 1, 20, 8] },
-        { "attrs": [], "params": [0.12, 1.2, 20, 8] },
-        { "attrs": [], "params": [0.14, 1.4, 20, 8] },
-        { "attrs": [], "params": [0.16, 1.6, 20, 8] }
+        {
+          "desc": "与えるダメージ+<color=#99FFFFFF>8%</color>。元素爆発を発動した後、通常攻撃と重撃が命中すると真空の刃を放ち、経路上の敵に攻撃力の<color=#99FFFFFF>80%</color>のダメージを与える、継続時間20秒または真空の刃を8回発動するまで。",
+          "params": [0.08, 0.8, 20, 8]
+        },
+        {
+          "desc": "与えるダメージ+<color=#99FFFFFF>10%</color>。元素爆発を発動した後、通常攻撃と重撃が命中すると真空の刃を放ち、経路上の敵に攻撃力の<color=#99FFFFFF>100%</color>のダメージを与える、継続時間20秒または真空の刃を8回発動するまで。",
+          "params": [0.1, 1, 20, 8]
+        },
+        {
+          "desc": "与えるダメージ+<color=#99FFFFFF>12%</color>。元素爆発を発動した後、通常攻撃と重撃が命中すると真空の刃を放ち、経路上の敵に攻撃力の<color=#99FFFFFF>120%</color>のダメージを与える、継続時間20秒または真空の刃を8回発動するまで。",
+          "params": [0.12, 1.2, 20, 8]
+        },
+        {
+          "desc": "与えるダメージ+<color=#99FFFFFF>14%</color>。元素爆発を発動した後、通常攻撃と重撃が命中すると真空の刃を放ち、経路上の敵に攻撃力の<color=#99FFFFFF>140%</color>のダメージを与える、継続時間20秒または真空の刃を8回発動するまで。",
+          "params": [0.14, 1.4, 20, 8]
+        },
+        {
+          "desc": "与えるダメージ+<color=#99FFFFFF>16%</color>。元素爆発を発動した後、通常攻撃と重撃が命中すると真空の刃を放ち、経路上の敵に攻撃力の<color=#99FFFFFF>160%</color>のダメージを与える、継続時間20秒または真空の刃を8回発動するまで。",
+          "params": [0.16, 1.6, 20, 8]
+        }
       ]
     }
   },
@@ -3591,13 +3764,12 @@
     "subAttr": { "type": 7, "value": 0.108, "curve": 18 },
     "affix": {
       "name": "狼のような狩人",
-      "desc": "攻撃力+<color=#99FFFFFF>20%</color>。HPが30%以下の敵に命中すると、チーム全員の攻撃力+<color=#99FFFFFF>40%</color>、継続時間12秒。30秒に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.4] },
-        { "attrs": [], "params": [0.25, 0.5] },
-        { "attrs": [], "params": [0.3, 0.6] },
-        { "attrs": [], "params": [0.35, 0.7] },
-        { "attrs": [], "params": [0.4, 0.8] }
+        { "desc": "攻撃力+<color=#99FFFFFF>20%</color>。HPが30%以下の敵に命中すると、チーム全員の攻撃力+<color=#99FFFFFF>40%</color>、継続時間12秒。30秒に1回のみ発動可能。", "params": [0.2, 0.4] },
+        { "desc": "攻撃力+<color=#99FFFFFF>25%</color>。HPが30%以下の敵に命中すると、チーム全員の攻撃力+<color=#99FFFFFF>50%</color>、継続時間12秒。30秒に1回のみ発動可能。", "params": [0.25, 0.5] },
+        { "desc": "攻撃力+<color=#99FFFFFF>30%</color>。HPが30%以下の敵に命中すると、チーム全員の攻撃力+<color=#99FFFFFF>60%</color>、継続時間12秒。30秒に1回のみ発動可能。", "params": [0.3, 0.6] },
+        { "desc": "攻撃力+<color=#99FFFFFF>35%</color>。HPが30%以下の敵に命中すると、チーム全員の攻撃力+<color=#99FFFFFF>70%</color>、継続時間12秒。30秒に1回のみ発動可能。", "params": [0.35, 0.7] },
+        { "desc": "攻撃力+<color=#99FFFFFF>40%</color>。HPが30%以下の敵に命中すると、チーム全員の攻撃力+<color=#99FFFFFF>80%</color>、継続時間12秒。30秒に1回のみ発動可能。", "params": [0.4, 0.8] }
       ]
     }
   },
@@ -3722,13 +3894,27 @@
     "subAttr": { "type": 7, "value": 0.108, "curve": 18 },
     "affix": {
       "name": "金璋君臨",
-      "desc": "シールド強化+<color=#99FFFFFF>20%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>4%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.04, 8] },
-        { "attrs": [], "params": [0.25, 0.05, 8] },
-        { "attrs": [], "params": [0.3, 0.06, 8] },
-        { "attrs": [], "params": [0.35, 0.07, 8] },
-        { "attrs": [], "params": [0.4, 0.08, 8] }
+        {
+          "desc": "シールド強化+<color=#99FFFFFF>20%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>4%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。",
+          "params": [0.2, 0.04, 8]
+        },
+        {
+          "desc": "シールド強化+<color=#99FFFFFF>25%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>5%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。",
+          "params": [0.25, 0.05, 8]
+        },
+        {
+          "desc": "シールド強化+<color=#99FFFFFF>30%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>6%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。",
+          "params": [0.3, 0.06, 8]
+        },
+        {
+          "desc": "シールド強化+<color=#99FFFFFF>35%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>7%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。",
+          "params": [0.35, 0.07, 8]
+        },
+        {
+          "desc": "シールド強化+<color=#99FFFFFF>40%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>8%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。",
+          "params": [0.4, 0.08, 8]
+        }
       ]
     }
   },
@@ -3949,13 +4135,12 @@
     "subAttr": { "type": 12, "value": 0.051, "curve": 16 },
     "affix": {
       "name": "鋭利",
-      "desc": "通常攻撃のダメージ+<color=#99FFFFFF>24%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.24] },
-        { "attrs": [], "params": [0.3] },
-        { "attrs": [], "params": [0.36] },
-        { "attrs": [], "params": [0.42] },
-        { "attrs": [], "params": [0.48] }
+        { "desc": "通常攻撃のダメージ+<color=#99FFFFFF>24%</color>。", "params": [0.24] },
+        { "desc": "通常攻撃のダメージ+<color=#99FFFFFF>30%</color>。", "params": [0.3] },
+        { "desc": "通常攻撃のダメージ+<color=#99FFFFFF>36%</color>。", "params": [0.36] },
+        { "desc": "通常攻撃のダメージ+<color=#99FFFFFF>42%</color>。", "params": [0.42] },
+        { "desc": "通常攻撃のダメージ+<color=#99FFFFFF>48%</color>。", "params": [0.48] }
       ]
     }
   },
@@ -4032,13 +4217,12 @@
     "subAttr": { "type": 7, "value": 0.051067, "curve": 16 },
     "affix": {
       "name": "過重",
-      "desc": "通常攻撃が命中した敵1体に攻撃力の<color=#99FFFFFF>160%</color>の追加ダメージを与える。10秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [1.6, 10] },
-        { "attrs": [], "params": [2, 10] },
-        { "attrs": [], "params": [2.4, 10] },
-        { "attrs": [], "params": [2.8, 10] },
-        { "attrs": [], "params": [3.2, 10] }
+        { "desc": "通常攻撃が命中した敵1体に攻撃力の<color=#99FFFFFF>160%</color>の追加ダメージを与える。10秒毎に1回のみ発動可能。", "params": [1.6, 10] },
+        { "desc": "通常攻撃が命中した敵に対して攻撃力の<color=#99FFFFFF>200%</color>の追加ダメージを与える。10秒に1回のみ発動可能。", "params": [2, 10] },
+        { "desc": "通常攻撃が命中した敵1体に攻撃力の<color=#99FFFFFF>240%</color>の追加ダメージを与える。10秒毎に1回のみ発動可能。", "params": [2.4, 10] },
+        { "desc": "通常攻撃が命中した敵1体に攻撃力の<color=#99FFFFFF>280%</color>の追加ダメージを与える。10秒毎に1回のみ発動可能。", "params": [2.8, 10] },
+        { "desc": "通常攻撃が命中した敵1体に攻撃力の<color=#99FFFFFF>320%</color>の追加ダメージを与える。10秒毎に1回のみ発動可能。", "params": [3.2, 10] }
       ]
     }
   },
@@ -4115,13 +4299,12 @@
     "subAttr": { "type": 5, "value": 0.10213, "curve": 16 },
     "affix": {
       "name": "スライム殺し",
-      "desc": "スライムタイプの敵に対するダメージ+<color=#99FFFFFF>40%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.4] },
-        { "attrs": [], "params": [0.5] },
-        { "attrs": [], "params": [0.6] },
-        { "attrs": [], "params": [0.7] },
-        { "attrs": [], "params": [0.8] }
+        { "desc": "スライムタイプの敵に対するダメージ+<color=#99FFFFFF>40%</color>。", "params": [0.4] },
+        { "desc": "スライムタイプの敵に対するダメージ+<color=#99FFFFFF>50%</color>。", "params": [0.5] },
+        { "desc": "スライムタイプの敵に対するダメージ+<color=#99FFFFFF>60%</color>。", "params": [0.6] },
+        { "desc": "スライムタイプの敵に対するダメージ+<color=#99FFFFFF>70%</color>。", "params": [0.7] },
+        { "desc": "スライムタイプの敵に対するダメージ+<color=#99FFFFFF>80%</color>。", "params": [0.8] }
       ]
     }
   },
@@ -4197,13 +4380,12 @@
     ],
     "affix": {
       "name": "未定",
-      "desc": "敵を倒したとき、HPを<color=#99FFFFFF>8%</color>回復する。",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "敵を倒したとき、HPを<color=#99FFFFFF>8%</color>回復する。", "params": [0.08] },
+        { "desc": "敵を倒したとき、HPを<color=#99FFFFFF>10%</color>回復する。", "params": [0.1] },
+        { "desc": "敵を倒したとき、HPを<color=#99FFFFFF>12%</color>回復する。", "params": [0.12] },
+        { "desc": "敵を倒したとき、HPを<color=#99FFFFFF>14%</color>回復する。", "params": [0.14] },
+        { "desc": "敵を倒したとき、HPを<color=#99FFFFFF>16%</color>回復する。", "params": [0.16] }
       ]
     }
   },
@@ -4280,13 +4462,12 @@
     "subAttr": { "type": 11, "value": 48, "curve": 17 },
     "affix": {
       "name": "炎と水の破滅",
-      "desc": "水元素または炎元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>20%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.2] },
-        { "attrs": [], "params": [0.24] },
-        { "attrs": [], "params": [0.28] },
-        { "attrs": [], "params": [0.32] },
-        { "attrs": [], "params": [0.36] }
+        { "desc": "水元素または炎元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>20%</color>。", "params": [0.2] },
+        { "desc": "水元素または炎元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>24%</color>。", "params": [0.24] },
+        { "desc": "水元素または炎元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>28%</color>。", "params": [0.28] },
+        { "desc": "水元素または炎元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>32%</color>。", "params": [0.32] },
+        { "desc": "水元素または炎元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>36%</color>。", "params": [0.36] }
       ]
     }
   },
@@ -4363,13 +4544,12 @@
     "subAttr": { "type": 10, "value": 0.1, "curve": 17 },
     "affix": {
       "name": "魔力親和",
-      "desc": "元素スキルを発動した後、通常攻撃と重撃のダメージ+<color=#99FFFFFF>8%</color>、継続時間12秒、最大2重まで。",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "元素スキルを発動した後、通常攻撃と重撃のダメージ+<color=#99FFFFFF>8%</color>、継続時間12秒、最大2重まで。", "params": [0.08] },
+        { "desc": "元素スキルを発動した後、通常攻撃と重撃のダメージ+<color=#99FFFFFF>10%</color>、継続時間12秒、最大2重まで。", "params": [0.1] },
+        { "desc": "元素スキルを発動した後、通常攻撃と重撃のダメージ+<color=#99FFFFFF>12%</color>、継続時間12秒、最大2重まで。", "params": [0.12] },
+        { "desc": "元素スキルを発動した後、通常攻撃と重撃のダメージ+<color=#99FFFFFF>14%</color>、継続時間12秒、最大2重まで。", "params": [0.14] },
+        { "desc": "元素スキルを発動した後、通常攻撃と重撃のダメージ+<color=#99FFFFFF>16%</color>、継続時間12秒、最大2重まで。", "params": [0.16] }
       ]
     }
   },
@@ -4446,13 +4626,12 @@
     "subAttr": { "type": 33, "value": 0.075067, "curve": 17 },
     "affix": {
       "name": "注入の針",
-      "desc": "元素粒子または元素オーブを獲得した5秒間、通常攻撃と重撃で、攻撃力の<color=#99FFFFFF>20%</color>の追加ダメージを与える。",
       "levels": [
-        { "attrs": [], "params": [0.2] },
-        { "attrs": [], "params": [0.25] },
-        { "attrs": [], "params": [0.3] },
-        { "attrs": [], "params": [0.35] },
-        { "attrs": [], "params": [0.4] }
+        { "desc": "元素粒子または元素オーブを獲得した5秒間、通常攻撃と重撃で、攻撃力の<color=#99FFFFFF>20%</color>の追加ダメージを与える。", "params": [0.2] },
+        { "desc": "元素粒子または元素オーブを獲得した5秒間、通常攻撃と重撃で、攻撃力の<color=#99FFFFFF>25%</color>の追加ダメージを与える。", "params": [0.25] },
+        { "desc": "元素粒子または元素オーブを獲得した5秒間、通常攻撃と重撃で、攻撃力の<color=#99FFFFFF>30%</color>の追加ダメージを与える。", "params": [0.3] },
+        { "desc": "元素粒子または元素オーブを獲得した5秒間、通常攻撃と重撃で、攻撃力の<color=#99FFFFFF>35%</color>の追加ダメージを与える。", "params": [0.35] },
+        { "desc": "元素粒子または元素オーブを獲得した5秒間、通常攻撃と重撃で、攻撃力の<color=#99FFFFFF>40%</color>の追加ダメージを与える。", "params": [0.4] }
       ]
     }
   },
@@ -4529,13 +4708,12 @@
     "subAttr": { "type": 13, "value": 0.12, "curve": 17 },
     "affix": {
       "name": "勝ちに乗じる",
-      "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>12%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。",
       "levels": [
-        { "attrs": [], "params": [0.12, 30] },
-        { "attrs": [], "params": [0.15, 30] },
-        { "attrs": [], "params": [0.18, 30] },
-        { "attrs": [], "params": [0.21, 30] },
-        { "attrs": [], "params": [0.24, 30] }
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>12%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。", "params": [0.12, 30] },
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>15%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。", "params": [0.15, 30] },
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>18%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。", "params": [0.18, 30] },
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>21%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。", "params": [0.21, 30] },
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>24%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。", "params": [0.24, 30] }
       ]
     }
   },
@@ -4612,13 +4790,27 @@
     "subAttr": { "type": 12, "value": 0.08, "curve": 17 },
     "affix": {
       "name": "剣闘士",
-      "desc": "近くに敵が2人以上いる時、攻撃力+<color=#99FFFFFF>16%</color>、防御力+<color=#99FFFFFF>16%</color>。近くに敵が2人未満の時、攻撃力+<color=#99FFFFFF>24%</color>。",
       "levels": [
-        { "attrs": [], "params": [2, 0.24, 0.16, 0.16] },
-        { "attrs": [], "params": [2, 0.3, 0.2, 0.2] },
-        { "attrs": [], "params": [2, 0.36, 0.24, 0.24] },
-        { "attrs": [], "params": [2, 0.42, 0.28, 0.28] },
-        { "attrs": [], "params": [2, 0.48, 0.32, 0.32] }
+        {
+          "desc": "近くに敵が2人以上いる時、攻撃力+<color=#99FFFFFF>16%</color>、防御力+<color=#99FFFFFF>16%</color>。近くに敵が2人未満の時、攻撃力+<color=#99FFFFFF>24%</color>。",
+          "params": [2, 0.24, 0.16, 0.16]
+        },
+        {
+          "desc": "近くに敵が2人以上いる時、攻撃力+<color=#99FFFFFF>20%</color>、防御力+<color=#99FFFFFF>20%</color>。近くに敵が2人未満の時、攻撃力+<color=#99FFFFFF>30%</color>。",
+          "params": [2, 0.3, 0.2, 0.2]
+        },
+        {
+          "desc": "近くに敵が2人以上いる時、攻撃力+<color=#99FFFFFF>24%</color>、防御力+<color=#99FFFFFF>24%</color>。近くに敵が2人未満の時、攻撃力+<color=#99FFFFFF>36%</color>。",
+          "params": [2, 0.36, 0.24, 0.24]
+        },
+        {
+          "desc": "近くに敵が2人以上いる時、攻撃力+<color=#99FFFFFF>28%</color>、防御力+<color=#99FFFFFF>28%</color>。近くに敵が2人未満の時、攻撃力+<color=#99FFFFFF>42%</color>。",
+          "params": [2, 0.42, 0.28, 0.28]
+        },
+        {
+          "desc": "近くに敵が2人以上いる時、攻撃力+<color=#99FFFFFF>32%</color>、防御力+<color=#99FFFFFF>32%</color>。近くに敵が2人未満の時、攻撃力+<color=#99FFFFFF>48%</color>。",
+          "params": [2, 0.48, 0.32, 0.32]
+        }
       ]
     }
   },
@@ -4695,13 +4887,15 @@
     "subAttr": { "type": 7, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "千岩訣·同心",
-      "desc": "チームに璃月出身のキャラクターが1人いる毎に、この武器を装備したキャラクターの攻撃力+<color=#99FFFFFF>7%</color>、会心率+<color=#99FFFFFF>3%</color>。最大4重まで。",
       "levels": [
-        { "attrs": [], "params": [0.07, 0.03, 4] },
-        { "attrs": [], "params": [0.08, 0.04, 4] },
-        { "attrs": [], "params": [0.09, 0.05, 4] },
-        { "attrs": [], "params": [0.1, 0.06, 4] },
-        { "attrs": [], "params": [0.11, 0.07, 4] }
+        {
+          "desc": "チームに璃月出身のキャラクターが1人いる毎に、この武器を装備したキャラクターの攻撃力+<color=#99FFFFFF>7%</color>、会心率+<color=#99FFFFFF>3%</color>。最大4重まで。",
+          "params": [0.07, 0.03, 4]
+        },
+        { "desc": "チームに璃月出身のキャラが1人いる毎に、この武器を装備したキャラの攻撃力+<color=#99FFFFFF>8%</color>、会心率+<color=#99FFFFFF>4%</color>。最大4重まで。", "params": [0.08, 0.04, 4] },
+        { "desc": "チームに璃月出身のキャラが1人いる毎に、この武器を装備したキャラの攻撃力+<color=#99FFFFFF>9%</color>、会心率+<color=#99FFFFFF>5%</color>。最大4重まで。", "params": [0.09, 0.05, 4] },
+        { "desc": "チームに璃月出身のキャラが1人いる毎に、この武器を装備したキャラの攻撃力+<color=#99FFFFFF>10%</color>、会心率+<color=#99FFFFFF>6%</color>。最大4重まで。", "params": [0.1, 0.06, 4] },
+        { "desc": "チームに璃月出身のキャラが1人いる毎に、この武器を装備したキャラの攻撃力+<color=#99FFFFFF>11%</color>、会心率+<color=#99FFFFFF>7%</color>。最大4重まで。", "params": [0.11, 0.07, 4] }
       ]
     }
   },
@@ -4778,13 +4972,12 @@
     "subAttr": { "type": 10, "value": 0.066667, "curve": 17 },
     "affix": {
       "name": "追い風が吹く",
-      "desc": "攻撃会心時、<color=#99FFFFFF>60%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>12</color>秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.6, 12] },
-        { "attrs": [], "params": [0.7, 10.5] },
-        { "attrs": [], "params": [0.8, 9] },
-        { "attrs": [], "params": [0.9, 7.5] },
-        { "attrs": [], "params": [1, 6] }
+        { "desc": "攻撃会心時、<color=#99FFFFFF>60%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>12</color>秒毎に1回のみ発動可能。", "params": [0.6, 12] },
+        { "desc": "攻撃会心時、<color=#99FFFFFF>70%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>10.5</color>秒毎に1回のみ発動可能。", "params": [0.7, 10.5] },
+        { "desc": "攻撃会心時、<color=#99FFFFFF>80%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>9</color>秒毎に1回のみ発動可能。", "params": [0.8, 9] },
+        { "desc": "攻撃会心時、<color=#99FFFFFF>90%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>7.5</color>秒毎に1回のみ発動可能。", "params": [0.9, 7.5] },
+        { "desc": "攻撃会心時、<color=#99FFFFFF>100%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>6</color>秒毎に1回のみ発動可能。", "params": [1, 6] }
       ]
     }
   },
@@ -4861,13 +5054,12 @@
     "subAttr": { "type": 7, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "集中",
-      "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>8%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>8%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.08] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>10%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.1] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>12%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.12] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>14%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.14] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>16%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.16] }
       ]
     }
   },
@@ -4944,13 +5136,27 @@
     "subAttr": { "type": 33, "value": 0.15013, "curve": 17 },
     "affix": {
       "name": "霜の埋葬",
-      "desc": "通常攻撃と重撃が敵に命中した時、<color=#99FFFFFF>60%</color>の確率で敵の上に恒氷晶核が作られ落下し、攻撃力の<color=#99FFFFFF>80%</color>の範囲ダメージを与える。敵が氷元素の影響を受けている場合、攻撃力の<color=#99FFFFFF>200%</color>のダメージを与える。この効果は10秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.6, 0.8, 2, 10] },
-        { "attrs": [], "params": [0.7, 0.95, 2.4, 10] },
-        { "attrs": [], "params": [0.8, 1.1, 2.8, 10] },
-        { "attrs": [], "params": [0.9, 1.25, 3.2, 10] },
-        { "attrs": [], "params": [1, 1.4, 3.6, 10] }
+        {
+          "desc": "通常攻撃と重撃が敵に命中した時、<color=#99FFFFFF>60%</color>の確率で敵の上に恒氷晶核が作られ落下し、攻撃力の<color=#99FFFFFF>80%</color>の範囲ダメージを与える。敵が氷元素の影響を受けている場合、攻撃力の<color=#99FFFFFF>200%</color>のダメージを与える。この効果は10秒毎に1回のみ発動可能。",
+          "params": [0.6, 0.8, 2, 10]
+        },
+        {
+          "desc": "通常攻撃と重撃が敵に命中した時、<color=#99FFFFFF>70%</color>の確率で敵の上に恒氷晶核が作られ落下し、攻撃力の<color=#99FFFFFF>95%</color>の範囲ダメージを与える。敵が氷元素の影響を受けている場合、攻撃力の<color=#99FFFFFF>240%</color>のダメージを与える。この効果は10秒毎に1回のみ発動可能。",
+          "params": [0.7, 0.95, 2.4, 10]
+        },
+        {
+          "desc": "通常攻撃と重撃が敵に命中した時、<color=#99FFFFFF>80%</color>の確率で敵の上に恒氷晶核が作られ落下し、攻撃力の<color=#99FFFFFF>110%</color>の範囲ダメージを与える。敵が氷元素の影響を受けている場合、攻撃力の<color=#99FFFFFF>280%</color>のダメージを与える。この効果は10秒毎に1回のみ発動可能。",
+          "params": [0.8, 1.1, 2.8, 10]
+        },
+        {
+          "desc": "通常攻撃と重撃が敵に命中した時、<color=#99FFFFFF>90%</color>の確率で敵の上に恒氷晶核が作られ落下し、攻撃力の<color=#99FFFFFF>125%</color>の範囲ダメージを与える。敵が氷元素の影響を受けている場合、攻撃力の<color=#99FFFFFF>320%</color>のダメージを与える。この効果は10秒毎に1回のみ発動可能。",
+          "params": [0.9, 1.25, 3.2, 10]
+        },
+        {
+          "desc": "通常攻撃と重撃が敵に命中した時、<color=#99FFFFFF>100%</color>の確率で敵の上に恒氷晶核が作られ落下し、攻撃力の<color=#99FFFFFF>140%</color>の範囲ダメージを与える。敵が氷元素の影響を受けている場合、攻撃力の<color=#99FFFFFF>360%</color>のダメージを与える。この効果は10秒毎に1回のみ発動可能。",
+          "params": [1, 1.4, 3.6, 10]
+        }
       ]
     }
   },
@@ -5027,13 +5233,27 @@
     "subAttr": { "type": 13, "value": 0.144, "curve": 18 },
     "affix": {
       "name": "縛り無き朱色の蝶",
-      "desc": "HP上限+<color=#99FFFFFF>20%</color>。また、キャラクターのHP上限の<color=#99FFFFFF>0.8%</color>分、攻撃力がアップする。キャラクターのHPが50%未満の時、攻撃力が更にHP上限の<color=#99FFFFFF>1%</color>分アップする。",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.008, 0.01] },
-        { "attrs": [], "params": [0.25, 0.01, 0.012] },
-        { "attrs": [], "params": [0.3, 0.012, 0.014] },
-        { "attrs": [], "params": [0.35, 0.014, 0.016] },
-        { "attrs": [], "params": [0.4, 0.016, 0.018] }
+        {
+          "desc": "HP上限+<color=#99FFFFFF>20%</color>。また、キャラクターのHP上限の<color=#99FFFFFF>0.8%</color>分、攻撃力がアップする。キャラクターのHPが50%未満の時、攻撃力が更にHP上限の<color=#99FFFFFF>1%</color>分アップする。",
+          "params": [0.2, 0.008, 0.01]
+        },
+        {
+          "desc": "HP上限+<color=#99FFFFFF>25%</color>。また、キャラクターのHP上限の<color=#99FFFFFF>1%</color>分、攻撃力がアップする。キャラクターのHPが50%未満の時、攻撃力が更にHP上限の<color=#99FFFFFF>1.2%</color>分アップする。",
+          "params": [0.25, 0.01, 0.012]
+        },
+        {
+          "desc": "HP上限+<color=#99FFFFFF>30%</color>。また、キャラクターのHP上限の<color=#99FFFFFF>1.2%</color>分、攻撃力がアップする。キャラクターのHPが50%未満の時、攻撃力が更にHP上限の<color=#99FFFFFF>1.4%</color>分アップする。",
+          "params": [0.3, 0.012, 0.014]
+        },
+        {
+          "desc": "HP上限+<color=#99FFFFFF>35%</color>。また、キャラクターのHP上限の<color=#99FFFFFF>1.4%</color>分、攻撃力がアップする。キャラクターのHPが50%未満の時、攻撃力が更にHP上限の<color=#99FFFFFF>1.6%</color>分アップする。",
+          "params": [0.35, 0.014, 0.016]
+        },
+        {
+          "desc": "HP上限+<color=#99FFFFFF>40%</color>。また、キャラクターのHP上限の<color=#99FFFFFF>1.6%</color>分、攻撃力がアップする。キャラクターのHPが50%未満の時、攻撃力が更にHP上限の<color=#99FFFFFF>1.8%</color>分アップする。",
+          "params": [0.4, 0.016, 0.018]
+        }
       ]
     }
   },
@@ -5110,13 +5330,27 @@
     "subAttr": { "type": 10, "value": 0.08, "curve": 18 },
     "affix": {
       "name": "黒翼を切り裂く鋭牙",
-      "desc": "会心率+<color=#99FFFFFF>8%</color>、通常攻撃速度+<color=#99FFFFFF>12%</color>。通常攻撃と重撃が命中時、<color=#99FFFFFF>50%</color>の確率で真空刃を発動し、攻撃力の<color=#99FFFFFF>40%</color>の狭範囲ダメージを与える。2秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.08, 0.12, 0.5, 0.4, 2] },
-        { "attrs": [], "params": [0.1, 0.12, 0.5, 0.55, 2] },
-        { "attrs": [], "params": [0.12, 0.12, 0.5, 0.7, 2] },
-        { "attrs": [], "params": [0.14, 0.12, 0.5, 0.85, 2] },
-        { "attrs": [], "params": [0.16, 0.12, 0.5, 1, 2] }
+        {
+          "desc": "会心率+<color=#99FFFFFF>8%</color>、通常攻撃速度+<color=#99FFFFFF>12%</color>。通常攻撃と重撃が命中時、<color=#99FFFFFF>50%</color>の確率で真空刃を発動し、攻撃力の<color=#99FFFFFF>40%</color>の狭範囲ダメージを与える。2秒毎に1回のみ発動可能。",
+          "params": [0.08, 0.12, 0.5, 0.4, 2]
+        },
+        {
+          "desc": "会心率+<color=#99FFFFFF>10%</color>、通常攻撃速度+<color=#99FFFFFF>12%</color>。通常攻撃と重撃が命中時、<color=#99FFFFFF>50%</color>の確率で真空刃を発動し、攻撃力の<color=#99FFFFFF>55%</color>の狭範囲ダメージを与える。2秒毎に1回のみ発動可能。",
+          "params": [0.1, 0.12, 0.5, 0.55, 2]
+        },
+        {
+          "desc": "会心率+<color=#99FFFFFF>12%</color>、通常攻撃速度+<color=#99FFFFFF>12%</color>。通常攻撃と重撃が命中時、<color=#99FFFFFF>50%</color>の確率で真空刃を発動し、攻撃力の<color=#99FFFFFF>70%</color>の狭範囲ダメージを与える。2秒毎に1回のみ発動可能。",
+          "params": [0.12, 0.12, 0.5, 0.7, 2]
+        },
+        {
+          "desc": "会心率+<color=#99FFFFFF>14%</color>、通常攻撃速度+<color=#99FFFFFF>12%</color>。通常攻撃と重撃が命中時、<color=#99FFFFFF>50%</color>の確率で真空刃を発動し、攻撃力の<color=#99FFFFFF>85%</color>の狭範囲ダメージを与える。2秒毎に1回のみ発動可能。",
+          "params": [0.14, 0.12, 0.5, 0.85, 2]
+        },
+        {
+          "desc": "会心率+<color=#99FFFFFF>16%</color>、通常攻撃速度+<color=#99FFFFFF>12%</color>。通常攻撃と重撃が命中時、<color=#99FFFFFF>50%</color>の確率で真空刃を発動し、攻撃力の<color=#99FFFFFF>100%</color>の狭範囲ダメージを与える。2秒毎に1回のみ発動可能。",
+          "params": [0.16, 0.12, 0.5, 1, 2]
+        }
       ]
     }
   },
@@ -5193,13 +5427,27 @@
     "subAttr": { "type": 7, "value": 0.108, "curve": 18 },
     "affix": {
       "name": "金璋君臨",
-      "desc": "シールド強化+<color=#99FFFFFF>20%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>4%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.04, 8] },
-        { "attrs": [], "params": [0.25, 0.05, 8] },
-        { "attrs": [], "params": [0.3, 0.06, 8] },
-        { "attrs": [], "params": [0.35, 0.07, 8] },
-        { "attrs": [], "params": [0.4, 0.08, 8] }
+        {
+          "desc": "シールド強化+<color=#99FFFFFF>20%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>4%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。",
+          "params": [0.2, 0.04, 8]
+        },
+        {
+          "desc": "シールド強化+<color=#99FFFFFF>25%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>5%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。",
+          "params": [0.25, 0.05, 8]
+        },
+        {
+          "desc": "シールド強化+<color=#99FFFFFF>30%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>6%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。",
+          "params": [0.3, 0.06, 8]
+        },
+        {
+          "desc": "シールド強化+<color=#99FFFFFF>35%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>7%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。",
+          "params": [0.35, 0.07, 8]
+        },
+        {
+          "desc": "シールド強化+<color=#99FFFFFF>40%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>8%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。",
+          "params": [0.4, 0.08, 8]
+        }
       ]
     }
   },
@@ -5276,13 +5524,27 @@
     "subAttr": { "type": 12, "value": 0.048, "curve": 18 },
     "affix": {
       "name": "正義を貫く鳶の槍",
-      "desc": "敵に命中した時、自身の攻撃力+<color=#99FFFFFF>3.2%</color>、継続時間6秒、最大7重まで。0.3秒に1回のみ発動できる。7重まで発動すると与えるダメージ+<color=#99FFFFFF>12%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.032, 0.12] },
-        { "attrs": [], "params": [0.039, 0.15] },
-        { "attrs": [], "params": [0.046, 0.18] },
-        { "attrs": [], "params": [0.053, 0.21] },
-        { "attrs": [], "params": [0.06, 0.24] }
+        {
+          "desc": "敵に命中した時、自身の攻撃力+<color=#99FFFFFF>3.2%</color>、継続時間6秒、最大7重まで。0.3秒に1回のみ発動できる。7重まで発動すると与えるダメージ+<color=#99FFFFFF>12%</color>。",
+          "params": [0.032, 0.12]
+        },
+        {
+          "desc": "敵に命中した時、自身の攻撃力+<color=#99FFFFFF>3.9%</color>、継続時間6秒、最大7重まで。0.3秒に1回のみ発動できる。7重まで発動すると与えるダメージ+<color=#99FFFFFF>15%</color>。",
+          "params": [0.039, 0.15]
+        },
+        {
+          "desc": "敵に命中した時、自身の攻撃力+<color=#99FFFFFF>4.6%</color>、継続時間6秒、最大7重まで。0.3秒に1回のみ発動できる。7重まで発動すると与えるダメージ+<color=#99FFFFFF>18%</color>。",
+          "params": [0.046, 0.18]
+        },
+        {
+          "desc": "敵に命中した時、自身の攻撃力+<color=#99FFFFFF>5.3%</color>、継続時間6秒、最大7重まで。0.3秒に1回のみ発動できる。7重まで発動すると与えるダメージ+<color=#99FFFFFF>21%</color>。",
+          "params": [0.053, 0.21]
+        },
+        {
+          "desc": "敵に命中した時、自身の攻撃力+<color=#99FFFFFF>6%</color>、継続時間6秒、最大7重まで。0.3秒に1回のみ発動できる。7重まで発動すると与えるダメージ+<color=#99FFFFFF>24%</color>。",
+          "params": [0.06, 0.24]
+        }
       ]
     }
   },
@@ -5503,13 +5765,12 @@
     "subAttr": { "type": 11, "value": 40.8, "curve": 16 },
     "affix": {
       "name": "水と雷の破滅",
-      "desc": "水元素または雷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>12%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.15] },
-        { "attrs": [], "params": [0.18] },
-        { "attrs": [], "params": [0.21] },
-        { "attrs": [], "params": [0.24] }
+        { "desc": "水元素または雷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>12%</color>。", "params": [0.12] },
+        { "desc": "水元素または雷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>15%</color>。", "params": [0.15] },
+        { "desc": "水元素または雷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>18%</color>。", "params": [0.18] },
+        { "desc": "水元素または雷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>21%</color>。", "params": [0.21] },
+        { "desc": "水元素または雷元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>24%</color>。", "params": [0.24] }
       ]
     }
   },
@@ -5586,13 +5847,12 @@
     "subAttr": { "type": 5, "value": 0.0766, "curve": 16 },
     "affix": {
       "name": "伝承",
-      "desc": "キャラを切り替えると、次に登場するキャラの攻撃力+<color=#99FFFFFF>24%</color>、継続時間10秒。20秒に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.24, 10, 20] },
-        { "attrs": [], "params": [0.3, 10, 20] },
-        { "attrs": [], "params": [0.36, 10, 20] },
-        { "attrs": [], "params": [0.42, 10, 20] },
-        { "attrs": [], "params": [0.48, 10, 20] }
+        { "desc": "キャラを切り替えると、次に登場するキャラの攻撃力+<color=#99FFFFFF>24%</color>、継続時間10秒。20秒に1回のみ発動可能。", "params": [0.24, 10, 20] },
+        { "desc": "キャラを切り替えると、次に登場するキャラの攻撃力+<color=#99FFFFFF>30%</color>、継続時間10秒。20秒に1回のみ発動可能。", "params": [0.3, 10, 20] },
+        { "desc": "キャラを切り替えると、次に登場するキャラの攻撃力+<color=#99FFFFFF>36%</color>、継続時間10秒。20秒に1回のみ発動可能。", "params": [0.36, 10, 20] },
+        { "desc": "キャラを切り替えると、次に登場するキャラの攻撃力+<color=#99FFFFFF>42%</color>、継続時間10秒。20秒に1回のみ発動可能。", "params": [0.42, 10, 20] },
+        { "desc": "キャラを切り替えると、次に登場するキャラの攻撃力+<color=#99FFFFFF>48%</color>、継続時間10秒。20秒に1回のみ発動可能。", "params": [0.48, 10, 20] }
       ]
     }
   },
@@ -5669,13 +5929,12 @@
     "subAttr": { "type": 10, "value": 0.085, "curve": 16 },
     "affix": {
       "name": "エネルギーシャワー",
-      "desc": "元素オーブまたは元素粒子を獲得した時、HPを<color=#99FFFFFF>1%</color>回復する。",
       "levels": [
-        { "attrs": [], "params": [0.01] },
-        { "attrs": [], "params": [0.0125] },
-        { "attrs": [], "params": [0.015] },
-        { "attrs": [], "params": [0.0175] },
-        { "attrs": [], "params": [0.02] }
+        { "desc": "元素オーブまたは元素粒子を獲得した時、HPを<color=#99FFFFFF>1%</color>回復する。", "params": [0.01] },
+        { "desc": "元素オーブまたは元素粒子を獲得した時、HPを<color=#99FFFFFF>1.25%</color>回復する。", "params": [0.0125] },
+        { "desc": "元素オーブまたは元素粒子を獲得した時、HPを<color=#99FFFFFF>1.5%</color>回復する。", "params": [0.015] },
+        { "desc": "元素オーブまたは元素粒子を獲得した時、HPを<color=#99FFFFFF>1.75%</color>回復する。", "params": [0.0175] },
+        { "desc": "元素オーブまたは元素粒子を獲得した時、HPを<color=#99FFFFFF>2%</color>回復する。", "params": [0.02] }
       ]
     }
   },
@@ -5752,13 +6011,12 @@
     "subAttr": { "type": 11, "value": 20.4, "curve": 16 },
     "affix": {
       "name": "激流",
-      "desc": "蒸発、感電、凍結、または水元素拡散反応を起こした後12秒間、攻撃力+<color=#99FFFFFF>20%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.2] },
-        { "attrs": [], "params": [0.25] },
-        { "attrs": [], "params": [0.3] },
-        { "attrs": [], "params": [0.35] },
-        { "attrs": [], "params": [0.4] }
+        { "desc": "蒸発、感電、凍結、または水元素拡散反応を起こした後12秒間、攻撃力+<color=#99FFFFFF>20%</color>。", "params": [0.2] },
+        { "desc": "蒸発、感電、凍結、または水元素拡散反応を起こした後12秒間、攻撃力+<color=#99FFFFFF>25%</color>。", "params": [0.25] },
+        { "desc": "蒸発、感電、凍結、または水元素拡散反応を起こした後12秒間、攻撃力+<color=#99FFFFFF>30%</color>。", "params": [0.3] },
+        { "desc": "蒸発、感電、凍結、または水元素拡散反応を起こした後12秒間、攻撃力+<color=#99FFFFFF>35%</color>。", "params": [0.35] },
+        { "desc": "蒸発、感電、凍結、または水元素拡散反応を起こした後12秒間、攻撃力+<color=#99FFFFFF>40%</color>。", "params": [0.4] }
       ]
     }
   },
@@ -5835,13 +6093,12 @@
     "subAttr": { "type": 12, "value": 0.034, "curve": 16 },
     "affix": {
       "name": "襲撃戦術",
-      "desc": "敵を倒した後15秒間、移動速度と攻撃力+<color=#99FFFFFF>12%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.12, 15] },
-        { "attrs": [], "params": [0.14, 15] },
-        { "attrs": [], "params": [0.16, 15] },
-        { "attrs": [], "params": [0.18, 15] },
-        { "attrs": [], "params": [0.2, 15] }
+        { "desc": "敵を倒した後15秒間、移動速度と攻撃力+<color=#99FFFFFF>12%</color>。", "params": [0.12, 15] },
+        { "desc": "敵を倒した後15秒間、移動速度と攻撃力+<color=#99FFFFFF>14%</color>。", "params": [0.14, 15] },
+        { "desc": "敵を倒した後15秒間、移動速度と攻撃力+<color=#99FFFFFF>16%</color>。", "params": [0.16, 15] },
+        { "desc": "敵を倒した後15秒間、移動速度と攻撃力+<color=#99FFFFFF>18%</color>。", "params": [0.18, 15] },
+        { "desc": "敵を倒した後15秒間、移動速度と攻撃力+<color=#99FFFFFF>20%</color>。", "params": [0.2, 15] }
       ]
     }
   },
@@ -5918,13 +6175,12 @@
     "subAttr": { "type": 11, "value": 30.6, "curve": 16 },
     "affix": {
       "name": "元素熟達",
-      "desc": "通常攻撃が命中した後、元素ダメージ+<color=#99FFFFFF>6%</color>、継続時間6秒、最大2重まで。",
       "levels": [
-        { "attrs": [], "params": [0.06, 6] },
-        { "attrs": [], "params": [0.075, 6] },
-        { "attrs": [], "params": [0.09, 6] },
-        { "attrs": [], "params": [0.105, 6] },
-        { "attrs": [], "params": [0.12, 6] }
+        { "desc": "通常攻撃が命中した後、元素ダメージ+<color=#99FFFFFF>6%</color>、継続時間6秒、最大2重まで。", "params": [0.06, 6] },
+        { "desc": "通常攻撃が命中した後、元素ダメージ+<color=#99FFFFFF>7.5%</color>、継続時間6秒、最大2重まで。", "params": [0.075, 6] },
+        { "desc": "通常攻撃が命中した後、元素ダメージ+<color=#99FFFFFF>9%</color>、継続時間6秒、最大2重まで。", "params": [0.09, 6] },
+        { "desc": "通常攻撃が命中した後、元素ダメージ+<color=#99FFFFFF>10.5%</color>、継続時間6秒、最大2重まで。", "params": [0.105, 6] },
+        { "desc": "通常攻撃が命中した後、元素ダメージ+<color=#99FFFFFF>12%</color>、継続時間6秒、最大2重まで。", "params": [0.12, 6] }
       ]
     }
   },
@@ -6001,13 +6257,18 @@
     "subAttr": { "type": 10, "value": 0.1, "curve": 17 },
     "affix": {
       "name": "追い風が吹く",
-      "desc": "会心攻撃をした時、<color=#99FFFFFF>60%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>12</color>秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.6, 12] },
-        { "attrs": [], "params": [0.7, 10.5] },
-        { "attrs": [], "params": [0.8, 9] },
-        { "attrs": [], "params": [0.9, 7.5] },
-        { "attrs": [], "params": [1, 6] }
+        { "desc": "会心攻撃をした時、<color=#99FFFFFF>60%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>12</color>秒毎に1回のみ発動可能。", "params": [0.6, 12] },
+        {
+          "desc": "会心攻撃をした時、<color=#99FFFFFF>70%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>10.5</color>秒毎に1回のみ発動可能。",
+          "params": [0.7, 10.5]
+        },
+        { "desc": "会心攻撃をした時、<color=#99FFFFFF>80%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>9</color>秒毎に1回のみ発動可能。", "params": [0.8, 9] },
+        {
+          "desc": "会心攻撃をした時、<color=#99FFFFFF>90%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>7.5</color>秒毎に1回のみ発動可能。",
+          "params": [0.9, 7.5]
+        },
+        { "desc": "会心攻撃をした時、<color=#99FFFFFF>100%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>6</color>秒毎に1回のみ発動可能。", "params": [1, 6] }
       ]
     }
   },
@@ -6084,13 +6345,27 @@
     "subAttr": { "type": 13, "value": 0.12, "curve": 17 },
     "affix": {
       "name": "序曲",
-      "desc": "キャラ登場時、ランダムにテーマ曲を1つ獲得する、継続時間10秒。30秒毎に1回のみ発動可能。叙唱：攻撃力+<color=#99FFFFFF>60%</color>。詠唱：全元素ダメージ+<color=#99FFFFFF>48%</color>。間奏曲：元素熟知+<color=#99FFFFFF>240</color>。",
       "levels": [
-        { "attrs": [], "params": [0.6, 0.48, 240, 10, 30] },
-        { "attrs": [], "params": [0.75, 0.6, 300, 10, 30] },
-        { "attrs": [], "params": [0.9, 0.72, 360, 10, 30] },
-        { "attrs": [], "params": [1.05, 0.84, 420, 10, 30] },
-        { "attrs": [], "params": [1.2, 0.96, 480, 10, 30] }
+        {
+          "desc": "キャラ登場時、ランダムにテーマ曲を1つ獲得する、継続時間10秒。30秒毎に1回のみ発動可能。叙唱：攻撃力+<color=#99FFFFFF>60%</color>。詠唱：全元素ダメージ+<color=#99FFFFFF>48%</color>。間奏曲：元素熟知+<color=#99FFFFFF>240</color>。",
+          "params": [0.6, 0.48, 240, 10, 30]
+        },
+        {
+          "desc": "キャラ登場時、ランダムにテーマ曲を1つ獲得する、継続時間10秒。30秒毎に1回のみ発動可能。叙唱：攻撃力+<color=#99FFFFFF>75%</color>。詠唱：全元素ダメージ+<color=#99FFFFFF>60%</color>。間奏曲：元素熟知+<color=#99FFFFFF>300</color>。",
+          "params": [0.75, 0.6, 300, 10, 30]
+        },
+        {
+          "desc": "キャラ登場時、ランダムにテーマ曲を1つ獲得する、継続時間10秒。30秒毎に1回のみ発動可能。叙唱：攻撃力+<color=#99FFFFFF>90%</color>。詠唱：全元素ダメージ+<color=#99FFFFFF>72%</color>。間奏曲：元素熟知+<color=#99FFFFFF>360</color>。",
+          "params": [0.9, 0.72, 360, 10, 30]
+        },
+        {
+          "desc": "キャラ登場時、ランダムにテーマ曲を1つ獲得する、継続時間10秒。30秒毎に1回のみ発動可能。叙唱：攻撃力+<color=#99FFFFFF>105%</color>。詠唱：全元素ダメージ+<color=#99FFFFFF>84%</color>。間奏曲：元素熟知+<color=#99FFFFFF>420</color>。",
+          "params": [1.05, 0.84, 420, 10, 30]
+        },
+        {
+          "desc": "キャラ登場時、ランダムにテーマ曲を1つ獲得する、継続時間10秒。30秒毎に1回のみ発動可能。叙唱：攻撃力+<color=#99FFFFFF>120%</color>。詠唱：全元素ダメージ+<color=#99FFFFFF>96%</color>。間奏曲：元素熟知+<color=#99FFFFFF>480</color>。",
+          "params": [1.2, 0.96, 480, 10, 30]
+        }
       ]
     }
   },
@@ -6167,13 +6442,27 @@
     "subAttr": { "type": 11, "value": 48, "curve": 17 },
     "affix": {
       "name": "落ち着き",
-      "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>40%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>30</color>秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.4, 30] },
-        { "attrs": [], "params": [0.5, 26] },
-        { "attrs": [], "params": [0.6, 22] },
-        { "attrs": [], "params": [0.7, 19] },
-        { "attrs": [], "params": [0.8, 16] }
+        {
+          "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>40%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>30</color>秒毎に1回のみ発動可能。",
+          "params": [0.4, 30]
+        },
+        {
+          "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>50%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>26</color>秒毎に1回のみ発動可能。",
+          "params": [0.5, 26]
+        },
+        {
+          "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>60%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>22</color>秒毎に1回のみ発動可能。",
+          "params": [0.6, 22]
+        },
+        {
+          "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>70%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>19</color>秒毎に1回のみ発動可能。",
+          "params": [0.7, 19]
+        },
+        {
+          "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>80%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>16</color>秒毎に1回のみ発動可能。",
+          "params": [0.8, 16]
+        }
       ]
     }
   },
@@ -6250,13 +6539,12 @@
     "subAttr": { "type": 7, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "集中",
-      "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>8%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>8%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.08] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>10%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.1] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>12%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.12] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>14%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.14] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>16%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.16] }
       ]
     }
   },
@@ -6333,13 +6621,27 @@
     "subAttr": { "type": 12, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "日月の輝き",
-      "desc": "通常攻撃が命中した後、6秒間元素スキルと元素爆発のダメージ+<color=#99FFFFFF>20%</color>。元素スキルまたは元素爆発が命中した後、6秒間通常攻撃のダメージ+<color=#99FFFFFF>20%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.2] },
-        { "attrs": [], "params": [0.25] },
-        { "attrs": [], "params": [0.3] },
-        { "attrs": [], "params": [0.35] },
-        { "attrs": [], "params": [0.4] }
+        {
+          "desc": "通常攻撃が命中した後、6秒間元素スキルと元素爆発のダメージ+<color=#99FFFFFF>20%</color>。元素スキルまたは元素爆発が命中した後、6秒間通常攻撃のダメージ+<color=#99FFFFFF>20%</color>。",
+          "params": [0.2]
+        },
+        {
+          "desc": "通常攻撃が命中した後、6秒間元素スキルと元素爆発のダメージ+<color=#99FFFFFF>25%</color>。元素スキルまたは元素爆発が命中した後、6秒間通常攻撃のダメージ+<color=#99FFFFFF>25%</color>。",
+          "params": [0.25]
+        },
+        {
+          "desc": "通常攻撃が命中した後、6秒間元素スキルと元素爆発のダメージ+<color=#99FFFFFF>30%</color>。元素スキルまたは元素爆発が命中した後、6秒間通常攻撃のダメージ+<color=#99FFFFFF>30%</color>。",
+          "params": [0.3]
+        },
+        {
+          "desc": "通常攻撃が命中した後、6秒間元素スキルと元素爆発のダメージ+<color=#99FFFFFF>35%</color>。元素スキルまたは元素爆発が命中した後、6秒間通常攻撃のダメージ+<color=#99FFFFFF>35%</color>。",
+          "params": [0.35]
+        },
+        {
+          "desc": "通常攻撃が命中した後、6秒間元素スキルと元素爆発のダメージ+<color=#99FFFFFF>40%</color>。元素スキルまたは元素爆発が命中した後、6秒間通常攻撃のダメージ+<color=#99FFFFFF>40%</color>。",
+          "params": [0.4]
+        }
       ]
     }
   },
@@ -6416,13 +6718,18 @@
     "subAttr": { "type": 5, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "炊金",
-      "desc": "元素爆発を発動した後の6秒間、2秒毎に元素エネルギーを<color=#99FFFFFF>4</color>回復し、チーム全員のHPを2秒毎に<color=#99FFFFFF>4%</color>回復する。",
       "levels": [
-        { "attrs": [], "params": [6, 2, 4, 0.04] },
-        { "attrs": [], "params": [6, 2, 4.5, 0.045] },
-        { "attrs": [], "params": [6, 2, 5, 0.05] },
-        { "attrs": [], "params": [6, 2, 5.5, 0.055] },
-        { "attrs": [], "params": [6, 2, 6, 0.06] }
+        { "desc": "元素爆発を発動した後の6秒間、2秒毎に元素エネルギーを<color=#99FFFFFF>4</color>回復し、チーム全員のHPを2秒毎に<color=#99FFFFFF>4%</color>回復する。", "params": [6, 2, 4, 0.04] },
+        {
+          "desc": "元素爆発を発動した後の6秒間、2秒毎に元素エネルギーを<color=#99FFFFFF>4.5</color>回復し、チーム全員のHPを2秒毎に<color=#99FFFFFF>4.5%</color>回復する。",
+          "params": [6, 2, 4.5, 0.045]
+        },
+        { "desc": "元素爆発を発動した後の6秒間、2秒毎に元素エネルギーを<color=#99FFFFFF>5</color>回復し、チーム全員のHPを2秒毎に<color=#99FFFFFF>5%</color>回復する。", "params": [6, 2, 5, 0.05] },
+        {
+          "desc": "元素爆発を発動した後の6秒間、2秒毎に元素エネルギーを<color=#99FFFFFF>5.5</color>回復し、チーム全員のHPを2秒毎に<color=#99FFFFFF>5.5%</color>回復する。",
+          "params": [6, 2, 5.5, 0.055]
+        },
+        { "desc": "元素爆発を発動した後の6秒間、2秒毎に元素エネルギーを<color=#99FFFFFF>6</color>回復し、チーム全員のHPを2秒毎に<color=#99FFFFFF>6%</color>回復する。", "params": [6, 2, 6, 0.06] }
       ]
     }
   },
@@ -6499,13 +6806,12 @@
     "subAttr": { "type": 11, "value": 24, "curve": 17 },
     "affix": {
       "name": "注入の巻",
-      "desc": "元素反応を起こした後、元素ダメージ+<color=#99FFFFFF>8%</color>、継続時間10秒、最大2重まで。",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "元素反応を起こした後、元素ダメージ+<color=#99FFFFFF>8%</color>、継続時間10秒、最大2重まで。", "params": [0.08] },
+        { "desc": "元素反応を起こした後、元素ダメージ+<color=#99FFFFFF>10%</color>、継続時間10秒、最大2重まで。", "params": [0.1] },
+        { "desc": "元素反応を起こした後、元素ダメージ+<color=#99FFFFFF>12%</color>、継続時間10秒、最大2重まで。", "params": [0.12] },
+        { "desc": "元素反応を起こした後、元素ダメージ+<color=#99FFFFFF>14%</color>、継続時間10秒、最大2重まで。", "params": [0.14] },
+        { "desc": "元素反応を起こした後、元素ダメージ+<color=#99FFFFFF>16%</color>、継続時間10秒、最大2重まで。", "params": [0.16] }
       ]
     }
   },
@@ -6582,13 +6888,12 @@
     "subAttr": { "type": 13, "value": 0.12, "curve": 17 },
     "affix": {
       "name": "勝ちに乗じる",
-      "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>12%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。",
       "levels": [
-        { "attrs": [], "params": [0.12, 30] },
-        { "attrs": [], "params": [0.15, 30] },
-        { "attrs": [], "params": [0.18, 30] },
-        { "attrs": [], "params": [0.21, 30] },
-        { "attrs": [], "params": [0.24, 30] }
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>12%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。", "params": [0.12, 30] },
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>15%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。", "params": [0.15, 30] },
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>18%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。", "params": [0.18, 30] },
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>21%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。", "params": [0.21, 30] },
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>24%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。", "params": [0.24, 30] }
       ]
     }
   },
@@ -6665,13 +6970,27 @@
     "subAttr": { "type": 7, "value": 0.12, "curve": 17 },
     "affix": {
       "name": "響き",
-      "desc": "通常攻撃と重撃が命中する時、50%の確率で昭心法珠を一つ発射し、敵に攻撃力の<color=#99FFFFFF>240%</color>のダメージを与える。敵同士に最大4回跳ね返る。この効果は<color=#99FFFFFF>12</color>秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.5, 4, 2.4, 12] },
-        { "attrs": [], "params": [0.5, 4, 2.7, 11] },
-        { "attrs": [], "params": [0.5, 4, 3, 10] },
-        { "attrs": [], "params": [0.5, 4, 3.3, 9] },
-        { "attrs": [], "params": [0.5, 4, 3.6, 8] }
+        {
+          "desc": "通常攻撃と重撃が命中する時、50%の確率で昭心法珠を一つ発射し、敵に攻撃力の<color=#99FFFFFF>240%</color>のダメージを与える。敵同士に最大4回跳ね返る。この効果は<color=#99FFFFFF>12</color>秒毎に1回のみ発動可能。",
+          "params": [0.5, 4, 2.4, 12]
+        },
+        {
+          "desc": "通常攻撃と重撃が命中する時、50%の確率で昭心法珠を一つ発射し、敵に攻撃力の<color=#99FFFFFF>270%</color>のダメージを与える。敵同士に最大4回跳ね返る。この効果は<color=#99FFFFFF>11</color>秒毎に1回のみ発動可能。",
+          "params": [0.5, 4, 2.7, 11]
+        },
+        {
+          "desc": "通常攻撃と重撃が命中する時、50%の確率で昭心法珠を一つ発射し、敵に攻撃力の<color=#99FFFFFF>300%</color>のダメージを与える。敵同士に最大4回跳ね返る。この効果は<color=#99FFFFFF>10</color>秒毎に1回のみ発動可能。",
+          "params": [0.5, 4, 3, 10]
+        },
+        {
+          "desc": "通常攻撃と重撃が命中する時、50%の確率で昭心法珠を一つ発射し、敵に攻撃力の<color=#99FFFFFF>330%</color>のダメージを与える。敵同士に最大4回跳ね返る。この効果は<color=#99FFFFFF>9</color>秒毎に1回のみ発動可能。",
+          "params": [0.5, 4, 3.3, 9]
+        },
+        {
+          "desc": "通常攻撃と重撃が命中する時、50%の確率で昭心法珠を一つ発射し、敵に攻撃力の<color=#99FFFFFF>360%</color>のダメージを与える。敵同士に最大4回跳ね返る。この効果は<color=#99FFFFFF>8</color>秒毎に1回のみ発動可能。",
+          "params": [0.5, 4, 3.6, 8]
+        }
       ]
     }
   },
@@ -6748,13 +7067,27 @@
     "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "霜の埋葬",
-      "desc": "通常攻撃と重撃が敵に命中した時、<color=#99FFFFFF>60%</color>の確率で敵の上に恒氷晶核が作られ落下し、攻撃力の<color=#99FFFFFF>80%</color>の範囲ダメージを与える。敵が氷元素の影響を受けている場合、攻撃力の<color=#99FFFFFF>200%</color>のダメージを与える。この効果は10秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.6, 0.8, 2, 10] },
-        { "attrs": [], "params": [0.7, 0.95, 2.4, 10] },
-        { "attrs": [], "params": [0.8, 1.1, 2.8, 10] },
-        { "attrs": [], "params": [0.9, 1.25, 3.2, 10] },
-        { "attrs": [], "params": [1, 1.4, 3.6, 10] }
+        {
+          "desc": "通常攻撃と重撃が敵に命中した時、<color=#99FFFFFF>60%</color>の確率で敵の上に恒氷晶核が作られ落下し、攻撃力の<color=#99FFFFFF>80%</color>の範囲ダメージを与える。敵が氷元素の影響を受けている場合、攻撃力の<color=#99FFFFFF>200%</color>のダメージを与える。この効果は10秒毎に1回のみ発動可能。",
+          "params": [0.6, 0.8, 2, 10]
+        },
+        {
+          "desc": "通常攻撃と重撃が敵に命中した時、<color=#99FFFFFF>70%</color>の確率で敵の上に恒氷晶核が作られ落下し、攻撃力の<color=#99FFFFFF>95%</color>の範囲ダメージを与える。敵が氷元素の影響を受けている場合、攻撃力の<color=#99FFFFFF>240%</color>のダメージを与える。この効果は10秒毎に1回のみ発動可能。",
+          "params": [0.7, 0.95, 2.4, 10]
+        },
+        {
+          "desc": "通常攻撃と重撃が敵に命中した時、<color=#99FFFFFF>80%</color>の確率で敵の上に恒氷晶核が作られ落下し、攻撃力の<color=#99FFFFFF>110%</color>の範囲ダメージを与える。敵が氷元素の影響を受けている場合、攻撃力の<color=#99FFFFFF>280%</color>のダメージを与える。この効果は10秒毎に1回のみ発動可能。",
+          "params": [0.8, 1.1, 2.8, 10]
+        },
+        {
+          "desc": "通常攻撃と重撃が敵に命中した時、<color=#99FFFFFF>90%</color>の確率で敵の上に恒氷晶核が作られ落下し、攻撃力の<color=#99FFFFFF>125%</color>の範囲ダメージを与える。敵が氷元素の影響を受けている場合、攻撃力の<color=#99FFFFFF>320%</color>のダメージを与える。この効果は10秒毎に1回のみ発動可能。",
+          "params": [0.9, 1.25, 3.2, 10]
+        },
+        {
+          "desc": "通常攻撃と重撃が敵に命中した時、<color=#99FFFFFF>100%</color>の確率で敵の上に恒氷晶核が作られ落下し、攻撃力の<color=#99FFFFFF>140%</color>の範囲ダメージを与える。敵が氷元素の影響を受けている場合、攻撃力の<color=#99FFFFFF>360%</color>のダメージを与える。この効果は10秒毎に1回のみ発動可能。",
+          "params": [1, 1.4, 3.6, 10]
+        }
       ]
     }
   },
@@ -6831,13 +7164,27 @@
     "subAttr": { "type": 7, "value": 0.072, "curve": 18 },
     "affix": {
       "name": "四方浮遊する霊雲",
-      "desc": "元素ダメージ+<color=#99FFFFFF>12%</color>。通常攻撃が命中した時、50%の確率で高天流雲の好意を獲得し、15秒以内に自分から周囲の敵を攻撃すると、攻撃力の<color=#99FFFFFF>160%</color>相当のダメージを与える。30秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.12, 0.5, 1.6, 30] },
-        { "attrs": [], "params": [0.15, 0.5, 2, 30] },
-        { "attrs": [], "params": [0.18, 0.5, 2.4, 30] },
-        { "attrs": [], "params": [0.21, 0.5, 2.8, 30] },
-        { "attrs": [], "params": [0.24, 0.5, 3.2, 30] }
+        {
+          "desc": "元素ダメージ+<color=#99FFFFFF>12%</color>。通常攻撃が命中した時、50%の確率で高天流雲の好意を獲得し、15秒以内に自分から周囲の敵を攻撃すると、攻撃力の<color=#99FFFFFF>160%</color>相当のダメージを与える。30秒毎に1回のみ発動可能。",
+          "params": [0.12, 0.5, 1.6, 30]
+        },
+        {
+          "desc": "元素ダメージ+<color=#99FFFFFF>15%</color>。通常攻撃が命中した時、50%の確率で高天流雲の好意を獲得し、15秒以内に自分から周囲の敵を攻撃すると、攻撃力の<color=#99FFFFFF>200%</color>相当のダメージを与える。30秒毎に1回のみ発動可能。",
+          "params": [0.15, 0.5, 2, 30]
+        },
+        {
+          "desc": "元素ダメージ+<color=#99FFFFFF>18%</color>。通常攻撃が命中した時、50%の確率で高天流雲の好意を獲得し、15秒以内に自分から周囲の敵を攻撃すると、攻撃力の<color=#99FFFFFF>240%</color>相当のダメージを与える。30秒毎に1回のみ発動可能。",
+          "params": [0.18, 0.5, 2.4, 30]
+        },
+        {
+          "desc": "元素ダメージ+<color=#99FFFFFF>21%</color>。通常攻撃が命中した時、50%の確率で高天流雲の好意を獲得し、15秒以内に自分から周囲の敵を攻撃すると、攻撃力の<color=#99FFFFFF>280%</color>相当のダメージを与える。30秒毎に1回のみ発動可能。",
+          "params": [0.21, 0.5, 2.8, 30]
+        },
+        {
+          "desc": "元素ダメージ+<color=#99FFFFFF>24%</color>。通常攻撃が命中した時、50%の確率で高天流雲の好意を獲得し、15秒以内に自分から周囲の敵を攻撃すると、攻撃力の<color=#99FFFFFF>320%</color>相当のダメージを与える。30秒毎に1回のみ発動可能。",
+          "params": [0.24, 0.5, 3.2, 30]
+        }
       ]
     }
   },
@@ -6914,13 +7261,12 @@
     "subAttr": { "type": 12, "value": 0.072, "curve": 18 },
     "affix": {
       "name": "果てしない恵み",
-      "desc": "移動速度+10%。フィールドにいる時、4秒毎に元素ダメージ+<color=#99FFFFFF>8%</color>、最大4重まで。キャラが退場または戦闘不能まで有効。",
       "levels": [
-        { "attrs": [], "params": [0.1, 0.08] },
-        { "attrs": [], "params": [0.1, 0.1] },
-        { "attrs": [], "params": [0.1, 0.12] },
-        { "attrs": [], "params": [0.1, 0.14] },
-        { "attrs": [], "params": [0.1, 0.16] }
+        { "desc": "移動速度+10%。フィールドにいる時、4秒毎に元素ダメージ+<color=#99FFFFFF>8%</color>、最大4重まで。キャラが退場または戦闘不能まで有効。", "params": [0.1, 0.08] },
+        { "desc": "移動速度+10%。フィールドにいる時、4秒毎に元素ダメージ+<color=#99FFFFFF>10%</color>、最大4重まで。キャラが退場または戦闘不能まで有効。", "params": [0.1, 0.1] },
+        { "desc": "移動速度+10%。フィールドにいる時、4秒毎に元素ダメージ+<color=#99FFFFFF>12%</color>、最大4重まで。キャラが退場または戦闘不能まで有効。", "params": [0.1, 0.12] },
+        { "desc": "移動速度+10%。フィールドにいる時、4秒毎に元素ダメージ+<color=#99FFFFFF>14%</color>、最大4重まで。キャラが退場または戦闘不能まで有効。", "params": [0.1, 0.14] },
+        { "desc": "移動速度+10%。フィールドにいる時、4秒毎に元素ダメージ+<color=#99FFFFFF>16%</color>、最大4重まで。キャラが退場または戦闘不能まで有効。", "params": [0.1, 0.16] }
       ]
     }
   },
@@ -7045,13 +7391,27 @@
     "subAttr": { "type": 7, "value": 0.108, "curve": 18 },
     "affix": {
       "name": "金璋君臨",
-      "desc": "シールド強化+<color=#99FFFFFF>20%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>4%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.04, 8] },
-        { "attrs": [], "params": [0.25, 0.05, 8] },
-        { "attrs": [], "params": [0.3, 0.06, 8] },
-        { "attrs": [], "params": [0.35, 0.07, 8] },
-        { "attrs": [], "params": [0.4, 0.08, 8] }
+        {
+          "desc": "シールド強化+<color=#99FFFFFF>20%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>4%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。",
+          "params": [0.2, 0.04, 8]
+        },
+        {
+          "desc": "シールド強化+<color=#99FFFFFF>25%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>5%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。",
+          "params": [0.25, 0.05, 8]
+        },
+        {
+          "desc": "シールド強化+<color=#99FFFFFF>30%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>6%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。",
+          "params": [0.3, 0.06, 8]
+        },
+        {
+          "desc": "シールド強化+<color=#99FFFFFF>35%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>7%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。",
+          "params": [0.35, 0.07, 8]
+        },
+        {
+          "desc": "シールド強化+<color=#99FFFFFF>40%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>8%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。",
+          "params": [0.4, 0.08, 8]
+        }
       ]
     }
   },
@@ -7272,13 +7632,12 @@
     "subAttr": { "type": 11, "value": 20.4, "curve": 16 },
     "affix": {
       "name": "炎と水の破滅",
-      "desc": "水元素または炎元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>12%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.15] },
-        { "attrs": [], "params": [0.18] },
-        { "attrs": [], "params": [0.21] },
-        { "attrs": [], "params": [0.24] }
+        { "desc": "水元素または炎元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>12%</color>。", "params": [0.12] },
+        { "desc": "水元素または炎元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>15%</color>。", "params": [0.15] },
+        { "desc": "水元素または炎元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>18%</color>。", "params": [0.18] },
+        { "desc": "水元素または炎元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>21%</color>。", "params": [0.21] },
+        { "desc": "水元素または炎元素の影響を受けた敵に対するダメージ+<color=#99FFFFFF>24%</color>。", "params": [0.24] }
       ]
     }
   },
@@ -7355,13 +7714,12 @@
     "subAttr": { "type": 13, "value": 0.102, "curve": 16 },
     "affix": {
       "name": "精密射撃",
-      "desc": "弱点に対するダメージ+<color=#99FFFFFF>24%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.24] },
-        { "attrs": [], "params": [0.3] },
-        { "attrs": [], "params": [0.36] },
-        { "attrs": [], "params": [0.42] },
-        { "attrs": [], "params": [0.48] }
+        { "desc": "弱点に対するダメージ+<color=#99FFFFFF>24%</color>。", "params": [0.24] },
+        { "desc": "弱点に対するダメージ+<color=#99FFFFFF>30%</color>。", "params": [0.3] },
+        { "desc": "弱点に対するダメージ+<color=#99FFFFFF>36%</color>。", "params": [0.36] },
+        { "desc": "弱点に対するダメージ+<color=#99FFFFFF>42%</color>。", "params": [0.42] },
+        { "desc": "弱点に対するダメージ+<color=#99FFFFFF>48%</color>。", "params": [0.48] }
       ]
     }
   },
@@ -7438,13 +7796,12 @@
     "subAttr": { "type": 5, "value": 0.10213, "curve": 16 },
     "affix": {
       "name": "刈り取る",
-      "desc": "敵を倒したとき、HPを<color=#99FFFFFF>8%</color>回復する。",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "敵を倒したとき、HPを<color=#99FFFFFF>8%</color>回復する。", "params": [0.08] },
+        { "desc": "敵を倒したとき、HPを<color=#99FFFFFF>10%</color>回復する。", "params": [0.1] },
+        { "desc": "敵を倒したとき、HPを<color=#99FFFFFF>12%</color>回復する。", "params": [0.12] },
+        { "desc": "敵を倒したとき、HPを<color=#99FFFFFF>14%</color>回復する。", "params": [0.14] },
+        { "desc": "敵を倒したとき、HPを<color=#99FFFFFF>16%</color>回復する。", "params": [0.16] }
       ]
     }
   },
@@ -7521,13 +7878,12 @@
     "subAttr": { "type": 12, "value": 0.068, "curve": 16 },
     "affix": {
       "name": "弾弓",
-      "desc": "通常攻撃または重撃の矢が発射した後、0.3秒以内に敵に命中した場合、与えるダメージ+<color=#99FFFFFF>36%</color>。0.3秒以上の場合、与えるダメージ-10%。",
       "levels": [
-        { "attrs": [], "params": [0.3, 0.36, 0.1] },
-        { "attrs": [], "params": [0.3, 0.42, 0.1] },
-        { "attrs": [], "params": [0.3, 0.48, 0.1] },
-        { "attrs": [], "params": [0.3, 0.54, 0.1] },
-        { "attrs": [], "params": [0.3, 0.6, 0.1] }
+        { "desc": "通常攻撃または重撃の矢が発射した後、0.3秒以内に敵に命中した場合、与えるダメージ+<color=#99FFFFFF>36%</color>。0.3秒以上の場合、与えるダメージ-10%。", "params": [0.3, 0.36, 0.1] },
+        { "desc": "通常攻撃または重撃の矢が発射した後、0.3秒以内に敵に命中した場合、与えるダメージ+<color=#99FFFFFF>42%</color>。0.3秒以上の場合、与えるダメージ-10%。", "params": [0.3, 0.42, 0.1] },
+        { "desc": "通常攻撃または重撃の矢が発射した後、0.3秒以内に敵に命中した場合、与えるダメージ+<color=#99FFFFFF>48%</color>。0.3秒以上の場合、与えるダメージ-10%。", "params": [0.3, 0.48, 0.1] },
+        { "desc": "通常攻撃または重撃の矢が発射した後、0.3秒以内に敵に命中した場合、与えるダメージ+<color=#99FFFFFF>54%</color>。0.3秒以上の場合、与えるダメージ-10%。", "params": [0.3, 0.54, 0.1] },
+        { "desc": "通常攻撃または重撃の矢が発射した後、0.3秒以内に敵に命中した場合、与えるダメージ+<color=#99FFFFFF>60%</color>。0.3秒以上の場合、与えるダメージ-10%。", "params": [0.3, 0.6, 0.1] }
       ]
     }
   },
@@ -7604,13 +7960,12 @@
     "subAttr": { "type": 13, "value": 0.068, "curve": 16 },
     "affix": {
       "name": "矢文",
-      "desc": "重撃が弱点に命中した場合、追加で攻撃力<color=#99FFFFFF>100%</color>のダメージを与え、必ず会心ダメージとなる。10秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [1] },
-        { "attrs": [], "params": [1.25] },
-        { "attrs": [], "params": [1.5] },
-        { "attrs": [], "params": [1.75] },
-        { "attrs": [], "params": [2] }
+        { "desc": "重撃が弱点に命中した場合、追加で攻撃力<color=#99FFFFFF>100%</color>のダメージを与え、必ず会心ダメージとなる。10秒毎に1回のみ発動可能。", "params": [1] },
+        { "desc": "重撃が弱点に命中した場合、追加で攻撃力<color=#99FFFFFF>125%</color>のダメージを与え、必ず会心ダメージとなる。10秒毎に1回のみ発動可能。", "params": [1.25] },
+        { "desc": "重撃が弱点に命中した場合、追加で攻撃力<color=#99FFFFFF>150%</color>のダメージを与え、必ず会心ダメージとなる。10秒毎に1回のみ発動可能。", "params": [1.5] },
+        { "desc": "重撃が弱点に命中した場合、追加で攻撃力<color=#99FFFFFF>175%</color>のダメージを与え、必ず会心ダメージとなる。10秒毎に1回のみ発動可能。", "params": [1.75] },
+        { "desc": "重撃が弱点に命中した場合、追加で攻撃力<color=#99FFFFFF>200%</color>のダメージを与え、必ず会心ダメージとなる。10秒毎に1回のみ発動可能。", "params": [2] }
       ]
     }
   },
@@ -7687,13 +8042,12 @@
     "subAttr": { "type": 7, "value": 0.0766, "curve": 16 },
     "affix": {
       "name": "頑丈壊し",
-      "desc": "遺跡装置タイプの敵に与えるダメージ+<color=#99FFFFFF>40%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.4] },
-        { "attrs": [], "params": [0.5] },
-        { "attrs": [], "params": [0.6] },
-        { "attrs": [], "params": [0.7] },
-        { "attrs": [], "params": [0.8] }
+        { "desc": "遺跡装置タイプの敵に与えるダメージ+<color=#99FFFFFF>40%</color>。", "params": [0.4] },
+        { "desc": "遺跡装置タイプの敵に与えるダメージ+<color=#99FFFFFF>50%</color>。", "params": [0.5] },
+        { "desc": "遺跡装置タイプの敵に与えるダメージ+<color=#99FFFFFF>60%</color>。", "params": [0.6] },
+        { "desc": "遺跡装置タイプの敵に与えるダメージ+<color=#99FFFFFF>70%</color>。", "params": [0.7] },
+        { "desc": "遺跡装置タイプの敵に与えるダメージ+<color=#99FFFFFF>80%</color>。", "params": [0.8] }
       ]
     }
   },
@@ -7770,13 +8124,18 @@
     "subAttr": { "type": 10, "value": 0.13333, "curve": 17 },
     "affix": {
       "name": "追い風が吹く",
-      "desc": "会心攻撃をした時、<color=#99FFFFFF>60%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>12</color>秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.6, 12] },
-        { "attrs": [], "params": [0.7, 10.5] },
-        { "attrs": [], "params": [0.8, 9] },
-        { "attrs": [], "params": [0.9, 7.5] },
-        { "attrs": [], "params": [1, 6] }
+        { "desc": "会心攻撃をした時、<color=#99FFFFFF>60%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>12</color>秒毎に1回のみ発動可能。", "params": [0.6, 12] },
+        {
+          "desc": "会心攻撃をした時、<color=#99FFFFFF>70%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>10.5</color>秒毎に1回のみ発動可能。",
+          "params": [0.7, 10.5]
+        },
+        { "desc": "会心攻撃をした時、<color=#99FFFFFF>80%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>9</color>秒毎に1回のみ発動可能。", "params": [0.8, 9] },
+        {
+          "desc": "会心攻撃をした時、<color=#99FFFFFF>90%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>7.5</color>秒毎に1回のみ発動可能。",
+          "params": [0.9, 7.5]
+        },
+        { "desc": "会心攻撃をした時、<color=#99FFFFFF>100%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>6</color>秒毎に1回のみ発動可能。", "params": [1, 6] }
       ]
     }
   },
@@ -7853,13 +8212,12 @@
     "subAttr": { "type": 11, "value": 36, "curve": 17 },
     "affix": {
       "name": "矢なしの詩",
-      "desc": "元素スキルと元素爆発のダメージ+<color=#99FFFFFF>24%</color>。",
       "levels": [
-        { "attrs": [], "params": [0.24] },
-        { "attrs": [], "params": [0.3] },
-        { "attrs": [], "params": [0.36] },
-        { "attrs": [], "params": [0.42] },
-        { "attrs": [], "params": [0.48] }
+        { "desc": "元素スキルと元素爆発のダメージ+<color=#99FFFFFF>24%</color>。", "params": [0.24] },
+        { "desc": "元素スキルと元素爆発のダメージ+<color=#99FFFFFF>30%</color>。", "params": [0.3] },
+        { "desc": "元素スキルと元素爆発のダメージ+<color=#99FFFFFF>36%</color>。", "params": [0.36] },
+        { "desc": "元素スキルと元素爆発のダメージ+<color=#99FFFFFF>42%</color>。", "params": [0.42] },
+        { "desc": "元素スキルと元素爆発のダメージ+<color=#99FFFFFF>48%</color>。", "params": [0.48] }
       ]
     }
   },
@@ -7936,13 +8294,27 @@
     "subAttr": { "type": 10, "value": 0.066667, "curve": 17 },
     "affix": {
       "name": "落ち着き",
-      "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>40%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>30</color>秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.4, 30] },
-        { "attrs": [], "params": [0.5, 26] },
-        { "attrs": [], "params": [0.6, 22] },
-        { "attrs": [], "params": [0.7, 19] },
-        { "attrs": [], "params": [0.8, 16] }
+        {
+          "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>40%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>30</color>秒毎に1回のみ発動可能。",
+          "params": [0.4, 30]
+        },
+        {
+          "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>50%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>26</color>秒毎に1回のみ発動可能。",
+          "params": [0.5, 26]
+        },
+        {
+          "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>60%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>22</color>秒毎に1回のみ発動可能。",
+          "params": [0.6, 22]
+        },
+        {
+          "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>70%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>19</color>秒毎に1回のみ発動可能。",
+          "params": [0.7, 19]
+        },
+        {
+          "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>80%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>16</color>秒に1回のみ発動可能。",
+          "params": [0.8, 16]
+        }
       ]
     }
   },
@@ -8019,13 +8391,12 @@
     "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "集中",
-      "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>8%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。",
       "levels": [
-        { "attrs": [], "params": [0.08] },
-        { "attrs": [], "params": [0.1] },
-        { "attrs": [], "params": [0.12] },
-        { "attrs": [], "params": [0.14] },
-        { "attrs": [], "params": [0.16] }
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>8%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.08] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>10%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.1] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>12%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.12] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>14%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.14] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>16%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.16] }
       ]
     }
   },
@@ -8102,13 +8473,12 @@
     "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "速射の弓",
-      "desc": "通常攻撃のダメージ+<color=#99FFFFFF>40%</color>、重撃のダメージ-10%。",
       "levels": [
-        { "attrs": [], "params": [0.4, 0.1] },
-        { "attrs": [], "params": [0.5, 0.1] },
-        { "attrs": [], "params": [0.6, 0.1] },
-        { "attrs": [], "params": [0.7, 0.1] },
-        { "attrs": [], "params": [0.8, 0.1] }
+        { "desc": "通常攻撃のダメージ+<color=#99FFFFFF>40%</color>、重撃のダメージ-10%。", "params": [0.4, 0.1] },
+        { "desc": "通常攻撃のダメージ+<color=#99FFFFFF>50%</color>、重撃のダメージ-10%。", "params": [0.5, 0.1] },
+        { "desc": "通常攻撃のダメージ+<color=#99FFFFFF>60%</color>、重撃のダメージ-10%。", "params": [0.6, 0.1] },
+        { "desc": "通常攻撃のダメージ+<color=#99FFFFFF>70%</color>、重撃のダメージ-10%。", "params": [0.7, 0.1] },
+        { "desc": "通常攻撃のダメージ+<color=#99FFFFFF>80%</color>、重撃のダメージ-10%。", "params": [0.8, 0.1] }
       ]
     }
   },
@@ -8185,13 +8555,12 @@
     "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
     "affix": {
       "name": "帰らない",
-      "desc": "重撃が弱点に命中した場合、移動速度+10%、攻撃力+<color=#99FFFFFF>36%</color>、継続時間10秒。",
       "levels": [
-        { "attrs": [], "params": [0.1, 0.36, 10] },
-        { "attrs": [], "params": [0.1, 0.45, 10] },
-        { "attrs": [], "params": [0.1, 0.54, 10] },
-        { "attrs": [], "params": [0.1, 0.63, 10] },
-        { "attrs": [], "params": [0.1, 0.72, 10] }
+        { "desc": "重撃が弱点に命中した場合、移動速度+10%、攻撃力+<color=#99FFFFFF>36%</color>、継続時間10秒。", "params": [0.1, 0.36, 10] },
+        { "desc": "重撃が弱点に命中した場合、移動速度+10%、攻撃力+<color=#99FFFFFF>45%</color>、継続時間10秒。", "params": [0.1, 0.45, 10] },
+        { "desc": "重撃が弱点に命中した場合、移動速度+10%、攻撃力+<color=#99FFFFFF>54%</color>、継続時間10秒。", "params": [0.1, 0.54, 10] },
+        { "desc": "重撃が弱点に命中した場合、移動速度+10%、攻撃力+<color=#99FFFFFF>63%</color>、継続時間10秒。", "params": [0.1, 0.63, 10] },
+        { "desc": "重撃が弱点に命中した場合、移動速度+10%、攻撃力+<color=#99FFFFFF>72%</color>、継続時間10秒。", "params": [0.1, 0.72, 10] }
       ]
     }
   },
@@ -8268,13 +8637,27 @@
     "subAttr": { "type": 33, "value": 0.15013, "curve": 17 },
     "affix": {
       "name": "注入の矢",
-      "desc": "通常攻撃と重撃が命中する時、攻撃力+<color=#99FFFFFF>4%</color>、通常攻撃速度+<color=#99FFFFFF>1.2%</color>。継続時間6秒、最大4重まで。0.3秒に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.04, 0.012, 0.3] },
-        { "attrs": [], "params": [0.05, 0.015, 0.3] },
-        { "attrs": [], "params": [0.06, 0.018, 0.3] },
-        { "attrs": [], "params": [0.07, 0.021, 0.3] },
-        { "attrs": [], "params": [0.08, 0.024, 0.3] }
+        {
+          "desc": "通常攻撃と重撃が命中する時、攻撃力+<color=#99FFFFFF>4%</color>、通常攻撃速度+<color=#99FFFFFF>1.2%</color>。継続時間6秒、最大4重まで。0.3秒に1回のみ発動可能。",
+          "params": [0.04, 0.012, 0.3]
+        },
+        {
+          "desc": "通常攻撃と重撃が命中する時、攻撃力+<color=#99FFFFFF>5%</color>、通常攻撃速度+<color=#99FFFFFF>1.5%</color>。継続時間6秒、最大4重まで。0.3秒に1回のみ発動可能。",
+          "params": [0.05, 0.015, 0.3]
+        },
+        {
+          "desc": "通常攻撃と重撃が命中する時、攻撃力+<color=#99FFFFFF>6%</color>、通常攻撃速度+<color=#99FFFFFF>1.8%</color>。継続時間6秒、最大4重まで。0.3秒に1回のみ発動可能。",
+          "params": [0.06, 0.018, 0.3]
+        },
+        {
+          "desc": "通常攻撃と重撃が命中する時、攻撃力+<color=#99FFFFFF>7%</color>、通常攻撃速度+<color=#99FFFFFF>2.1%</color>。継続時間6秒、最大4重まで。0.3秒に1回のみ発動可能。",
+          "params": [0.07, 0.021, 0.3]
+        },
+        {
+          "desc": "通常攻撃と重撃が命中する時、攻撃力+<color=#99FFFFFF>8%</color>、通常攻撃速度+<color=#99FFFFFF>2.4%</color>。継続時間6秒、最大4重まで。0.3秒に1回のみ発動可能。",
+          "params": [0.08, 0.024, 0.3]
+        }
       ]
     }
   },
@@ -8351,13 +8734,12 @@
     "subAttr": { "type": 13, "value": 0.08, "curve": 17 },
     "affix": {
       "name": "勝ちに乗じる",
-      "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>12%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。",
       "levels": [
-        { "attrs": [], "params": [0.12, 30] },
-        { "attrs": [], "params": [0.15, 30] },
-        { "attrs": [], "params": [0.18, 30] },
-        { "attrs": [], "params": [0.21, 30] },
-        { "attrs": [], "params": [0.24, 30] }
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>12%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。", "params": [0.12, 30] },
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>15%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。", "params": [0.15, 30] },
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>18%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。", "params": [0.18, 30] },
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>21%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。", "params": [0.21, 30] },
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>24%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。", "params": [0.24, 30] }
       ]
     }
   },
@@ -8434,13 +8816,27 @@
     "subAttr": { "type": 12, "value": 0.06, "curve": 17 },
     "affix": {
       "name": "蒼翠の風",
-      "desc": "通常攻撃と重撃が命中時、50%の確率で風の目を生成し、近くの敵を吸い寄せる。0.5秒毎に敵に攻撃力の<color=#99FFFFFF>40%</color>のダメージを与える。継続時間4秒、<color=#99FFFFFF>14</color>秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.5, 0.4, 0.5, 4, 14] },
-        { "attrs": [], "params": [0.5, 0.5, 0.5, 4, 13] },
-        { "attrs": [], "params": [0.5, 0.6, 0.5, 4, 12] },
-        { "attrs": [], "params": [0.5, 0.7, 0.5, 4, 11] },
-        { "attrs": [], "params": [0.5, 0.8, 0.5, 4, 10] }
+        {
+          "desc": "通常攻撃と重撃が命中時、50%の確率で風の目を生成し、近くの敵を吸い寄せる。0.5秒毎に敵に攻撃力の<color=#99FFFFFF>40%</color>のダメージを与える。継続時間4秒、<color=#99FFFFFF>14</color>秒毎に1回のみ発動可能。",
+          "params": [0.5, 0.4, 0.5, 4, 14]
+        },
+        {
+          "desc": "通常攻撃と重撃が命中時、50%の確率で風の目を生成し、近くの敵を吸い寄せる。0.5秒毎に敵に攻撃力の<color=#99FFFFFF>50%</color>のダメージを与える。継続時間4秒、<color=#99FFFFFF>13</color>秒毎に1回のみ発動可能。",
+          "params": [0.5, 0.5, 0.5, 4, 13]
+        },
+        {
+          "desc": "通常攻撃と重撃が命中時、50%の確率で風の目を生成し、近くの敵を吸い寄せる。0.5秒毎に敵に攻撃力の<color=#99FFFFFF>60%</color>のダメージを与える。継続時間4秒、<color=#99FFFFFF>12</color>秒毎に1回のみ発動可能。",
+          "params": [0.5, 0.6, 0.5, 4, 12]
+        },
+        {
+          "desc": "通常攻撃と重撃が命中時、50%の確率で風の目を生成し、近くの敵を吸い寄せる。0.5秒毎に敵に攻撃力の<color=#99FFFFFF>70%</color>のダメージを与える。継続時間4秒、<color=#99FFFFFF>11</color>秒毎に1回のみ発動可能。",
+          "params": [0.5, 0.7, 0.5, 4, 11]
+        },
+        {
+          "desc": "通常攻撃と重撃が命中時、50%の確率で風の目を生成し、近くの敵を吸い寄せる。0.5秒毎に敵に攻撃力の<color=#99FFFFFF>80%</color>のダメージを与える。継続時間4秒、<color=#99FFFFFF>10</color>秒毎に1回のみ発動可能。",
+          "params": [0.5, 0.8, 0.5, 4, 10]
+        }
       ]
     }
   },
@@ -8517,13 +8913,27 @@
     "subAttr": { "type": 12, "value": 0.048, "curve": 18 },
     "affix": {
       "name": "天に響く詩",
-      "desc": "会心ダメージ+<color=#99FFFFFF>20%</color>。攻撃が命中した時、<color=#99FFFFFF>60%</color>の確率で狭範囲内の敵に攻撃力の125%の物理ダメージを与える。<color=#99FFFFFF>4</color>秒毎に1回のみ発動可能。",
       "levels": [
-        { "attrs": [], "params": [0.2, 0.6, 1.25, 4] },
-        { "attrs": [], "params": [0.25, 0.7, 1.25, 3.5] },
-        { "attrs": [], "params": [0.3, 0.8, 1.25, 3] },
-        { "attrs": [], "params": [0.35, 0.9, 1.25, 2.5] },
-        { "attrs": [], "params": [0.4, 1, 1.25, 2] }
+        {
+          "desc": "会心ダメージ+<color=#99FFFFFF>20%</color>。攻撃が命中した時、<color=#99FFFFFF>60%</color>の確率で狭範囲内の敵に攻撃力の125%の物理ダメージを与える。<color=#99FFFFFF>4</color>秒毎に1回のみ発動可能。",
+          "params": [0.2, 0.6, 1.25, 4]
+        },
+        {
+          "desc": "会心ダメージ+<color=#99FFFFFF>25%</color>。攻撃が命中した時、<color=#99FFFFFF>70%</color>の確率で狭範囲内の敵に攻撃力の125%の物理ダメージを与える。<color=#99FFFFFF>3.5</color>秒毎に1回のみ発動可能。",
+          "params": [0.25, 0.7, 1.25, 3.5]
+        },
+        {
+          "desc": "会心ダメージ+<color=#99FFFFFF>30%</color>。攻撃が命中した時、<color=#99FFFFFF>80%</color>の確率で狭範囲内の敵に攻撃力の125%の物理ダメージを与える。<color=#99FFFFFF>3</color>秒毎に1回のみ発動可能。",
+          "params": [0.3, 0.8, 1.25, 3]
+        },
+        {
+          "desc": "会心ダメージ+<color=#99FFFFFF>35%</color>。攻撃が命中した時、<color=#99FFFFFF>90%</color>の確率で狭範囲内の敵に攻撃力の125%の物理ダメージを与える。<color=#99FFFFFF>2.5</color>秒毎に1回のみ発動可能。",
+          "params": [0.35, 0.9, 1.25, 2.5]
+        },
+        {
+          "desc": "会心ダメージ+<color=#99FFFFFF>40%</color>。攻撃が命中した時、<color=#99FFFFFF>100%</color>の確率で狭範囲内の敵に攻撃力の125%の物理ダメージを与える。<color=#99FFFFFF>2</color>秒毎に1回のみ発動可能。",
+          "params": [0.4, 1, 1.25, 2]
+        }
       ]
     }
   },
@@ -8600,13 +9010,27 @@
     "subAttr": { "type": 7, "value": 0.108, "curve": 18 },
     "affix": {
       "name": "一心不乱",
-      "desc": "通常攻撃と重撃のダメージ+<color=#99FFFFFF>12%</color>。通常攻撃と重撃の矢が放った後、0.1秒毎にダメージが更に+<color=#99FFFFFF>8%</color>となり、最大で5回上昇する。",
       "levels": [
-        { "attrs": [], "params": [0.12, 0.08] },
-        { "attrs": [], "params": [0.15, 0.1] },
-        { "attrs": [], "params": [0.18, 0.12] },
-        { "attrs": [], "params": [0.21, 0.14] },
-        { "attrs": [], "params": [0.24, 0.16] }
+        {
+          "desc": "通常攻撃と重撃のダメージ+<color=#99FFFFFF>12%</color>。通常攻撃と重撃の矢が放った後、0.1秒毎にダメージが更に+<color=#99FFFFFF>8%</color>となり、最大で5回上昇する。",
+          "params": [0.12, 0.08]
+        },
+        {
+          "desc": "通常攻撃と重撃のダメージ+<color=#99FFFFFF>15%</color>。通常攻撃と重撃の矢が放った後、0.1秒毎にダメージが更に+<color=#99FFFFFF>10%</color>となり、最大で5回上昇する。",
+          "params": [0.15, 0.1]
+        },
+        {
+          "desc": "通常攻撃と重撃のダメージ+<color=#99FFFFFF>18%</color>。通常攻撃と重撃の矢が放った後、0.1秒毎にダメージが更に+<color=#99FFFFFF>12%</color>となり、最大で5回上昇する。",
+          "params": [0.18, 0.12]
+        },
+        {
+          "desc": "通常攻撃と重撃のダメージ+<color=#99FFFFFF>21%</color>。通常攻撃と重撃の矢が放った後、0.1秒毎にダメージが更に+<color=#99FFFFFF>14%</color>となり、最大で5回上昇する。",
+          "params": [0.21, 0.14]
+        },
+        {
+          "desc": "通常攻撃と重撃のダメージ+<color=#99FFFFFF>24%</color>。通常攻撃と重撃の矢が放った後、0.1秒毎にダメージが更に+<color=#99FFFFFF>16%</color>となり、最大で5回上昇する。",
+          "params": [0.24, 0.16]
+        }
       ]
     }
   },

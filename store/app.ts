@@ -1,6 +1,6 @@
 import { GetterTree, ActionTree, MutationTree } from "vuex";
-import { nanoid } from "nanoid";
-import cookie from "js-cookie";
+// import { nanoid } from "nanoid";
+// import cookie from "js-cookie";
 import jwt from "jsonwebtoken";
 import { vuexPersistenceInstance } from "~/plugins/vuex-persist";
 import type { IArtifact, IUserBuild } from "~/modules/core";
@@ -14,6 +14,7 @@ const initialState = {
   artifactsTime: 0,
   builds: [] as IUserBuild[],
   version: "",
+  timezone: 4,
 };
 type AppState = typeof initialState;
 
@@ -24,6 +25,9 @@ export const state = (): AppState => initialState;
 export const mutations: MutationTree<AppState> = {
   UPDATE_TRAVELER_GENDER(state, v) {
     state.travelerGender = v;
+  },
+  UPDATE_TIMEZONE(state, v) {
+    state.timezone = v;
   },
   UPDATE_AUTH(state, { user, auth, uid }) {
     state.auth = auth;
@@ -65,6 +69,9 @@ export const actions: ActionTree<AppState, {}> = {
   setTravelerGender({ commit }, v) {
     commit("UPDATE_TRAVELER_GENDER", v);
   },
+  setTimezone({ commit }, v) {
+    commit("UPDATE_TIMEZONE", v);
+  },
   // load content
   // async nuxtServerInit({ commit }, { app }) {
   //   const res = (await app.$content(this.$i18n.locale, "relic").fetch().catch(console.error)) as IArtifactType[];
@@ -78,4 +85,5 @@ export const getters: GetterTree<AppState, {}> = {
   uid: s => s.uid,
   artifacts: s => s.artifacts,
   artifactsTime: s => s.artifactsTime,
+  timezone: s => s.timezone,
 };

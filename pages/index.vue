@@ -62,6 +62,7 @@
 
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
+import { Getter } from "vuex-class";
 import { IAvatar, IItem, IWeapon } from "~/modules/core";
 
 @Component({
@@ -119,6 +120,7 @@ export default class Page extends Vue {
   weapon: IWeapon[] = [];
   // items: IItem[] = [];
   show = false;
+  @Getter("app/timezone") timezone!: number;
 
   weeklyData = [
     // 周一 周四 繁荣自由
@@ -130,7 +132,7 @@ export default class Page extends Vue {
   ];
 
   get todayItems() {
-    const day = this.today.getDay();
+    const day = this.today.getUTCDay();
     const filterItems = !day ? [].concat(...(this.weeklyData as any)) : this.weeklyData[(day - 1) % 3];
     return filterItems.map(v => ({ id: v, rarity: 5 }));
   }
@@ -149,11 +151,11 @@ export default class Page extends Vue {
   }
 
   get today() {
-    return new Date(Date.now() - 3600 * 4 * 1e3);
+    return new Date(Date.now() + this.timezone * 36e5);
   }
 
   get weeklyGroupChar() {
-    const day = this.today.getDay();
+    const day = this.today.getUTCDay();
     if (day) {
       const filterItems = this.weeklyData[(day - 1) % 3];
       return this.char.filter(v => v.element && v.overviewItems?.some(v => filterItems.includes(v.id)));
@@ -162,7 +164,7 @@ export default class Page extends Vue {
   }
 
   get weeklyGroupWeapon() {
-    const day = this.today.getDay();
+    const day = this.today.getUTCDay();
     if (day) {
       const filterItems = this.weeklyData[(day - 1) % 3];
       return this.weapon.filter(v => v.overviewItems?.some(v => filterItems.includes(v.id)));
