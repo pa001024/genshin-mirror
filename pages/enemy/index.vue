@@ -25,11 +25,13 @@
           </v-subheader>
           <!-- 内容 -->
           <v-list-item v-if="item.id" :key="item.id">
-            <div class="enemy-linehead">
-              <v-list-item-title>
-                <v-avatar color="grey" />
-              </v-list-item-title>
-            </div>
+            <nuxt-link :to="'enemy/' + item.id" class="nolink">
+              <div class="enemy-linehead">
+                <v-list-item-title>
+                  <v-avatar color="grey" />
+                </v-list-item-title>
+              </div>
+            </nuxt-link>
 
             <nuxt-link :to="'enemy/' + item.id" class="nolink">
               <v-list-item-content>

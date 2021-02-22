@@ -37,7 +37,7 @@
             </li>
           </ul>
           <v-row v-if="setInfo">
-            <v-col class="set-info-title py-1" cols="12">{{ setInfo.name }}:</v-col>
+            <v-col class="set-info-title py-1" cols="12">{{ setInfo.localeName }}:</v-col>
             <v-col v-for="(lvl, i) in setInfo.levels" :key="i" cols="12" class="py-1">{{ $t("ui.setDesc", [lvl.need]) }}: {{ lvl.desc }}</v-col>
           </v-row>
         </v-card-text>
@@ -100,7 +100,7 @@ export default class Page extends Vue {
 
   @Watch("$route.params.code")
   created() {
-    if (!(this.artifact instanceof Artifact)) {
+    if (!this.powerupInfo) {
       this.artifact = new Artifact((this.artifact as any) as IArtifact, this.artifactTypes!);
       this.powerupInfo = this.artifact.powerupInfo;
     }

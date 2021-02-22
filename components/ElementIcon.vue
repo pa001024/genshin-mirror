@@ -26,7 +26,7 @@ export default class ElementIcon extends Vue {
 </script>
 
 <style lang="less">
-@import "~/assets/global.less";
+@import "~/assets/vars.less";
 
 .element-icon {
   &.gs-icon-anemo {

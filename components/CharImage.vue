@@ -53,7 +53,7 @@ export default class CharImage extends Vue {
 </script>
 
 <style lang="less">
-@import "~/assets/global.less";
+@import "~/assets/vars.less";
 
 .avatar-image {
   display: inline-block;

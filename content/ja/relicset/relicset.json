@@ -1,7 +1,8 @@
 [
   {
     "id": 10001,
-    "name": "旅人の心",
+    "name": "ResolutionOfSojourner_0",
+    "localeName": "旅人の心",
     "levels": [
       { "need": 2, "desc": "攻撃力+18%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "重撃の会心率+30%。", "attrs": [], "params": [0.3] }
@@ -9,7 +10,8 @@
   },
   {
     "id": 10002,
-    "name": "勇士の心",
+    "name": "BraveHeart_0",
+    "localeName": "勇士の心",
     "levels": [
       { "need": 2, "desc": "攻撃力+18%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "HPが50%以上の敵に対するダメージ+30%。", "attrs": [], "params": [0.3, 0.5] }
@@ -17,7 +19,8 @@
   },
   {
     "id": 10003,
-    "name": "守護の心",
+    "name": "DefendersWill_0",
+    "localeName": "守護の心",
     "levels": [
       { "need": 2, "desc": "防御力+30%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "チーム内の自身のキャラクターの元素タイプ1種類につき、自身にその元素の耐性+30%。", "attrs": [], "params": [0.3] }
@@ -25,7 +28,8 @@
   },
   {
     "id": 10004,
-    "name": "奇跡",
+    "name": "TinyMiracle_0",
+    "localeName": "奇跡",
     "levels": [
       { "need": 2, "desc": "全ての元素耐性+20%。", "attrs": [], "params": [0.2] },
       { "need": 4, "desc": "元素ダメージを受けると、その元素の耐性+30%、継続時間10秒。10秒毎に1回のみ発動可能。", "attrs": [], "params": [0.3, 10, 10] }
@@ -33,7 +37,8 @@
   },
   {
     "id": 10005,
-    "name": "狂戦士",
+    "name": "Berserker_0",
+    "localeName": "狂戦士",
     "levels": [
       { "need": 2, "desc": "会心率+12%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "HPが70%以下になると、会心率+24%。", "attrs": [], "params": [0.24, 0.7] }
@@ -41,7 +46,8 @@
   },
   {
     "id": 10006,
-    "name": "武人",
+    "name": "MartialArtist_0",
+    "localeName": "武人",
     "levels": [
       { "need": 2, "desc": "通常攻撃と重撃のダメージ+15%。", "attrs": [], "params": [0.15] },
       { "need": 4, "desc": "元素スキル発動後、通常攻撃と重撃ダメージ+25%、継続時間8秒。", "attrs": [], "params": [8, 1, 0.25] }
@@ -49,7 +55,8 @@
   },
   {
     "id": 10007,
-    "name": "教官",
+    "name": "Instructor_0",
+    "localeName": "教官",
     "levels": [
       { "need": 2, "desc": "元素熟知+80。", "attrs": [], "params": [] },
       { "need": 4, "desc": "元素反応を引き起こした後、チーム全員の元素熟知+120、継続時間8秒。", "attrs": [], "params": [8, 120] }
@@ -57,7 +64,8 @@
   },
   {
     "id": 10008,
-    "name": "博徒",
+    "name": "Gambler_0",
+    "localeName": "博徒",
     "levels": [
       { "need": 2, "desc": "元素スキルのダメージ+20%。", "attrs": [], "params": [0.2] },
       { "need": 4, "desc": "敵を倒した時、100%の確率で元素スキルのクールタイムをリセットする。15秒に1回のみ発動可能。", "attrs": [], "params": [15, 1] }
@@ -65,7 +73,8 @@
   },
   {
     "id": 10009,
-    "name": "亡命者",
+    "name": "TheExile_0",
+    "localeName": "亡命者",
     "levels": [
       { "need": 2, "desc": "元素チャージ効率+20%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "元素爆発を発動すると、2秒毎にチーム全員（自分を除く）の元素エネルギーを2回復する、継続時間6秒。重ね掛け不可。", "attrs": [], "params": [2, 6] }
@@ -73,7 +82,8 @@
   },
   {
     "id": 10010,
-    "name": "冒険者",
+    "name": "Adventurer_0",
+    "localeName": "冒険者",
     "levels": [
       { "need": 2, "desc": "HP上限+1000。", "attrs": [], "params": [] },
       { "need": 4, "desc": "宝箱を開けた後5秒間、HPの30%を徐々に回復する。", "attrs": [], "params": [5, 1, 0.06] }
@@ -81,7 +91,8 @@
   },
   {
     "id": 10011,
-    "name": "幸運",
+    "name": "LuckyDog_0",
+    "localeName": "幸運",
     "levels": [
       { "need": 2, "desc": "防御力+100。", "attrs": [], "params": [] },
       { "need": 4, "desc": "モラを拾得すると、HPを300回復する。", "attrs": [], "params": [300] }
@@ -89,7 +100,8 @@
   },
   {
     "id": 10012,
-    "name": "学者",
+    "name": "Scholar_0",
+    "localeName": "学者",
     "levels": [
       { "need": 2, "desc": "元素チャージ効率+20%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "元素オーブまたは元素粒子を獲得した時、チーム内全ての弓と法器キャラの元素エネルギーが3回復する。3秒毎に1回のみ発動可能。", "attrs": [], "params": [3] }
@@ -97,7 +109,8 @@
   },
   {
     "id": 10013,
-    "name": "医者",
+    "name": "TravelingDoctor_0",
+    "localeName": "医者",
     "levels": [
       { "need": 2, "desc": "受ける治療効果+20%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "元素爆発を発動すると、HPを20%回復する。", "attrs": [], "params": [0.2] }
@@ -105,7 +118,8 @@
   },
   {
     "id": 14001,
-    "name": "氷風を彷徨う勇士",
+    "name": "BlizzardStrayer_0",
+    "localeName": "氷風を彷徨う勇士",
     "levels": [
       { "need": 2, "desc": "氷元素ダメージ+15%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "氷元素の影響を受けている敵を攻撃した場合、会心率+20%。敵が凍結状態の場合、会心率は更に+20%。", "attrs": [], "params": [0.2, 0.2] }
@@ -113,7 +127,8 @@
   },
   {
     "id": 14002,
-    "name": "雷を鎮める尊者",
+    "name": "Thundersoother_0",
+    "localeName": "雷を鎮める尊者",
     "levels": [
       { "need": 2, "desc": "雷元素耐性+40%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "雷元素の影響を受けた敵に対するダメージ+35%。", "attrs": [], "params": [0.35] }
@@ -121,7 +136,8 @@
   },
   {
     "id": 14003,
-    "name": "烈火を渡る賢者",
+    "name": "Lavawalker_0",
+    "localeName": "烈火を渡る賢者",
     "levels": [
       { "need": 2, "desc": "炎元素耐性+40%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "炎元素の影響を受けた敵に対するダメージ+35%。", "attrs": [], "params": [0.35] }
@@ -129,7 +145,8 @@
   },
   {
     "id": 14004,
-    "name": "愛される少女",
+    "name": "MaidenBeloved_0",
+    "localeName": "愛される少女",
     "levels": [
       { "need": 2, "desc": "与える治療効果+15%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "元素スキルまたは元素爆発を発動した後10秒間、チーム全員の受ける治療効果+20%。", "attrs": [], "params": [0.2, 10] }
@@ -137,7 +154,8 @@
   },
   {
     "id": 15001,
-    "name": "剣闘士のフィナーレ",
+    "name": "GladiatorsFinale_0",
+    "localeName": "剣闘士のフィナーレ",
     "levels": [
       { "need": 2, "desc": "攻撃力+18%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "該当聖遺物セットを装備したキャラが片手剣、両手剣、長柄武器キャラの場合、通常攻撃ダメージ+35%。", "attrs": [], "params": [0.35] }
@@ -145,7 +163,8 @@
   },
   {
     "id": 15002,
-    "name": "翠緑の影",
+    "name": "ViridescentVenerer_0",
+    "localeName": "翠緑の影",
     "levels": [
       { "need": 2, "desc": "風元素ダメージ+15%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "拡散反応によるダメージ+60%。拡散された元素タイプを基準に、影響を受けた敵の元素耐性-40%、継続時間10秒。", "attrs": [], "params": [0.6, 0.4, 10] }
@@ -153,7 +172,8 @@
   },
   {
     "id": 15003,
-    "name": "大地を流浪する楽団",
+    "name": "WanderersTroupe_0",
+    "localeName": "大地を流浪する楽団",
     "levels": [
       { "need": 2, "desc": "元素熟知+80。", "attrs": [], "params": [] },
       { "need": 4, "desc": "該当聖遺物セットを装備したキャラが法器、弓キャラの場合、キャラの重撃ダメージ+35%。", "attrs": [], "params": [0.35] }
@@ -161,7 +181,8 @@
   },
   {
     "id": 15004,
-    "name": "氷の川と雪の砂",
+    "name": "GlacierAndSnowfield_0",
+    "localeName": "氷の川と雪の砂",
     "levels": [
       { "need": 2, "desc": "氷元素ダメージ+15%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "超電導反応ダメージ+100%、溶解反応の加算効果+15%。元素爆発を発動した10秒間、氷元素ダメージ+30%。", "attrs": [], "params": [1, 0.15, 10, 0.3] }
@@ -169,7 +190,8 @@
   },
   {
     "id": 15005,
-    "name": "雷のような怒り",
+    "name": "ThunderingFury_0",
+    "localeName": "雷のような怒り",
     "levels": [
       { "need": 2, "desc": "雷元素ダメージ+15%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "過負荷、感電、超電導反応によるダメージ+40%。それらの元素反応を起こすと、元素スキルのクールタイム-1秒。0.8秒毎に最大1回のみ発動可能。", "attrs": [], "params": [0.4, 0.8] }
@@ -177,20 +199,17 @@
   },
   {
     "id": 15006,
-    "name": "燃え盛る炎の魔女",
+    "name": "CrimsonWitchOfFlames_0",
+    "localeName": "燃え盛る炎の魔女",
     "levels": [
       { "need": 2, "desc": "炎元素ダメージ+15%。", "attrs": [], "params": [] },
-      {
-        "need": 4,
-        "desc": "過負荷、燃焼反応によるダメージ+40%。蒸発、溶解反応による加算効果+15%。元素スキルを発動した10秒間、2セットの効果量+50%、最大3重まで。",
-        "attrs": [],
-        "params": [0.4, 0.15, 0.15, 0.5, 10]
-      }
+      { "need": 4, "desc": "過負荷、燃焼反応によるダメージ+40%。蒸発、溶解反応による加算効果+15%。元素スキルを発動した10秒間、2セットの効果量+50%、最大3重まで。", "attrs": [], "params": [0.4, 0.15, 0.15, 0.5, 10] }
     ]
   },
   {
     "id": 15007,
-    "name": "旧貴族のしつけ",
+    "name": "NoblesseOblige_0",
+    "localeName": "旧貴族のしつけ",
     "levels": [
       { "need": 2, "desc": "元素爆発のダメージ+20%。", "attrs": [], "params": [0.2] },
       { "need": 4, "desc": "元素爆発を発動すると、チーム全員の攻撃力+20%、継続時間12秒、重ねがけ不可。", "attrs": [], "params": [0.2, 12] }
@@ -198,20 +217,22 @@
   },
   {
     "id": 15008,
-    "name": "血染めの騎士道",
+    "name": "BloodstainedChivalry_0",
+    "localeName": "血染めの騎士道",
     "levels": [
       { "need": 2, "desc": "物理ダメージ+25%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "敵を倒した後の10秒間、重撃の際にスタミナを消費しない。また、重撃のダメージ+50%。", "attrs": [], "params": [10, 0.5, -5, 0.1] }
     ]
   },
-  { "id": 15009, "name": "火祭りの人", "levels": [{ "need": 1, "desc": "キャラが受けた炎元素付着の効果継続時間-40%。", "attrs": [], "params": [0.4] }] },
-  { "id": 15010, "name": "水祭りの人", "levels": [{ "need": 1, "desc": "受けた水元素付着の効果継続時間-40%。", "attrs": [], "params": [0.4] }] },
-  { "id": 15011, "name": "雷祭りの人", "levels": [{ "need": 1, "desc": "受けた雷元素付着の効果継続時間-40%。", "attrs": [], "params": [0.4] }] },
-  { "id": 15012, "name": "風祭りの人", "levels": [{ "need": 1, "desc": "受けた風元素付着の効果継続時間-40%。", "attrs": [], "params": [0.4] }] },
-  { "id": 15013, "name": "氷祭りの人", "levels": [{ "need": 1, "desc": "受けた氷元素付着の効果継続時間-40%。", "attrs": [], "params": [0.4] }] },
+  { "id": 15009, "name": "PrayersForIllumination_4", "localeName": "火祭りの人", "levels": [{ "need": 1, "desc": "キャラが受けた炎元素付着の効果継続時間-40%。", "attrs": [], "params": [0.4] }] },
+  { "id": 15010, "name": "PrayersForDestiny_4", "localeName": "水祭りの人", "levels": [{ "need": 1, "desc": "受けた水元素付着の効果継続時間-40%。", "attrs": [], "params": [0.4] }] },
+  { "id": 15011, "name": "PrayersForWisdom_4", "localeName": "雷祭りの人", "levels": [{ "need": 1, "desc": "受けた雷元素付着の効果継続時間-40%。", "attrs": [], "params": [0.4] }] },
+  { "id": 15012, "name": "PrayersToTheFirmament_4", "localeName": "風祭りの人", "levels": [{ "need": 1, "desc": "受けた風元素付着の効果継続時間-40%。", "attrs": [], "params": [0.4] }] },
+  { "id": 15013, "name": "PrayersToSpringtime_4", "localeName": "氷祭りの人", "levels": [{ "need": 1, "desc": "受けた氷元素付着の効果継続時間-40%。", "attrs": [], "params": [0.4] }] },
   {
     "id": 15014,
-    "name": "悠久の磐岩",
+    "name": "ArchaicPetra_0",
+    "localeName": "悠久の磐岩",
     "levels": [
       { "need": 2, "desc": "岩元素ダメージ+15%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "結晶反応で形成された欠片を獲得すると、チーム全員の該当元素ダメージ+35%、継続時間10秒。元素ダメージアップは同時に1種類のみ獲得可能。", "attrs": [], "params": [0.35, 10] }
@@ -219,7 +240,8 @@
   },
   {
     "id": 15015,
-    "name": "逆飛びの流星",
+    "name": "RetracingBolide_0",
+    "localeName": "逆飛びの流星",
     "levels": [
       { "need": 2, "desc": "シールド強化+35%", "attrs": [], "params": [] },
       { "need": 4, "desc": "シールド状態の時、通常攻撃と重撃ダメージ+40%。", "attrs": [], "params": [0.4] }
@@ -227,7 +249,8 @@
   },
   {
     "id": 15016,
-    "name": "沈淪の心",
+    "name": "HeartOfDepth_0",
+    "localeName": "沈淪の心",
     "levels": [
       { "need": 2, "desc": "水元素ダメージ+15%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "元素スキルを発動した後の15秒間、通常攻撃と重撃のダメージ+30%。", "attrs": [], "params": [0.3, 1, 15] }

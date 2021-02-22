@@ -1,7 +1,8 @@
 [
   {
     "id": 10001,
-    "name": "行者之心",
+    "name": "ResolutionOfSojourner_0",
+    "localeName": "行者之心",
     "levels": [
       { "need": 2, "desc": "攻击力提高18%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "重击的暴击率提升30%。", "attrs": [], "params": [0.3] }
@@ -9,7 +10,8 @@
   },
   {
     "id": 10002,
-    "name": "勇士之心",
+    "name": "BraveHeart_0",
+    "localeName": "勇士之心",
     "levels": [
       { "need": 2, "desc": "攻击力提高18%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "对生命值高于50%的敌人，造成的伤害增加30%。", "attrs": [], "params": [0.3, 0.5] }
@@ -17,7 +19,8 @@
   },
   {
     "id": 10003,
-    "name": "守护之心",
+    "name": "DefendersWill_0",
+    "localeName": "守护之心",
     "levels": [
       { "need": 2, "desc": "防御力提高30%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "队伍里每有不同一种元素类型的自己的角色，自身获得30%相应的元素抗性。", "attrs": [], "params": [0.3] }
@@ -25,7 +28,8 @@
   },
   {
     "id": 10004,
-    "name": "奇迹",
+    "name": "TinyMiracle_0",
+    "localeName": "奇迹",
     "levels": [
       { "need": 2, "desc": "所有元素抗性提高20%。", "attrs": [], "params": [0.2] },
       { "need": 4, "desc": "受到某个元素类型的伤害后，相应的抗性提升30%，持续10秒。该效果每10秒只能触发一次。", "attrs": [], "params": [0.3, 10, 10] }
@@ -33,7 +37,8 @@
   },
   {
     "id": 10005,
-    "name": "战狂",
+    "name": "Berserker_0",
+    "localeName": "战狂",
     "levels": [
       { "need": 2, "desc": "暴击率提高12%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "生命值低于70%时，暴击率额外提升24%。", "attrs": [], "params": [0.24, 0.7] }
@@ -41,7 +46,8 @@
   },
   {
     "id": 10006,
-    "name": "武人",
+    "name": "MartialArtist_0",
+    "localeName": "武人",
     "levels": [
       { "need": 2, "desc": "普通攻击与重击造成的伤害提高15%；", "attrs": [], "params": [0.15] },
       { "need": 4, "desc": "施放元素战技后的8秒内，普通攻击和重击造成的伤害提升25%。", "attrs": [], "params": [8, 1, 0.25] }
@@ -49,7 +55,8 @@
   },
   {
     "id": 10007,
-    "name": "教官",
+    "name": "Instructor_0",
+    "localeName": "教官",
     "levels": [
       { "need": 2, "desc": "元素精通提高80点。", "attrs": [], "params": [] },
       { "need": 4, "desc": "触发元素反应后，队伍中所有角色的元素精通提高120点，持续8秒。", "attrs": [], "params": [8, 120] }
@@ -57,7 +64,8 @@
   },
   {
     "id": 10008,
-    "name": "赌徒",
+    "name": "Gambler_0",
+    "localeName": "赌徒",
     "levels": [
       { "need": 2, "desc": "元素战技造成的伤害提升20%。", "attrs": [], "params": [0.2] },
       { "need": 4, "desc": "击败敌人时，有100%概率清除元素战技的冷却时间。该效果每15秒至多触发一次。", "attrs": [], "params": [15, 1] }
@@ -65,7 +73,8 @@
   },
   {
     "id": 10009,
-    "name": "流放者",
+    "name": "TheExile_0",
+    "localeName": "流放者",
     "levels": [
       { "need": 2, "desc": "元素充能效率提高20%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "施放元素爆发后，每2秒为队伍中所有角色（不包括自己）恢复2点元素能量。该效果持续6秒，无法叠加。", "attrs": [], "params": [2, 6] }
@@ -73,7 +82,8 @@
   },
   {
     "id": 10010,
-    "name": "冒险家",
+    "name": "Adventurer_0",
+    "localeName": "冒险家",
     "levels": [
       { "need": 2, "desc": "生命值上限提高1000点。", "attrs": [], "params": [] },
       { "need": 4, "desc": "开启各类宝箱后的5秒内，持续恢复30%生命值。", "attrs": [], "params": [5, 1, 0.06] }
@@ -81,7 +91,8 @@
   },
   {
     "id": 10011,
-    "name": "幸运儿",
+    "name": "LuckyDog_0",
+    "localeName": "幸运儿",
     "levels": [
       { "need": 2, "desc": "防御力提高100点。", "attrs": [], "params": [] },
       { "need": 4, "desc": "拾取摩拉时，恢复300点生命值。", "attrs": [], "params": [300] }
@@ -89,7 +100,8 @@
   },
   {
     "id": 10012,
-    "name": "学士",
+    "name": "Scholar_0",
+    "localeName": "学士",
     "levels": [
       { "need": 2, "desc": "元素充能效率提高20%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "获得元素微粒或元素晶球时，队伍中所有弓箭和法器角色额外恢复3点元素能量。该效果每3秒只能触发一次。", "attrs": [], "params": [3] }
@@ -97,7 +109,8 @@
   },
   {
     "id": 10013,
-    "name": "游医",
+    "name": "TravelingDoctor_0",
+    "localeName": "游医",
     "levels": [
       { "need": 2, "desc": "角色受到的治疗效果提高20%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "施放元素爆发时，恢复20%生命值。", "attrs": [], "params": [0.2] }
@@ -105,7 +118,8 @@
   },
   {
     "id": 14001,
-    "name": "冰风迷途的勇士",
+    "name": "BlizzardStrayer_0",
+    "localeName": "冰风迷途的勇士",
     "levels": [
       { "need": 2, "desc": "获得15%冰元素伤害加成。", "attrs": [], "params": [] },
       { "need": 4, "desc": "攻击处于冰元素影响下的敌人时，暴击率提高20%；若敌人处于冻结状态下，则暴击率额外提高20%。", "attrs": [], "params": [0.2, 0.2] }
@@ -113,7 +127,8 @@
   },
   {
     "id": 14002,
-    "name": "平息鸣雷的尊者",
+    "name": "Thundersoother_0",
+    "localeName": "平息鸣雷的尊者",
     "levels": [
       { "need": 2, "desc": "雷元素抗性提高40%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "对处于雷元素影响下的敌人造成的伤害提升35%。", "attrs": [], "params": [0.35] }
@@ -121,7 +136,8 @@
   },
   {
     "id": 14003,
-    "name": "渡过烈火的贤人",
+    "name": "Lavawalker_0",
+    "localeName": "渡过烈火的贤人",
     "levels": [
       { "need": 2, "desc": "火元素抗性提高40%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "对处于火元素影响下的敌人造成的伤害提升35%。", "attrs": [], "params": [0.35] }
@@ -129,7 +145,8 @@
   },
   {
     "id": 14004,
-    "name": "被怜爱的少女",
+    "name": "MaidenBeloved_0",
+    "localeName": "被怜爱的少女",
     "levels": [
       { "need": 2, "desc": "角色造成的治疗效果提升15%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "施放元素战技或元素爆发后的10秒内，队伍中所有角色受治疗效果加成提高20%。", "attrs": [], "params": [0.2, 10] }
@@ -137,7 +154,8 @@
   },
   {
     "id": 15001,
-    "name": "角斗士的终幕礼",
+    "name": "GladiatorsFinale_0",
+    "localeName": "角斗士的终幕礼",
     "levels": [
       { "need": 2, "desc": "攻击力提高18%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "装备该圣遗物套装的角色为单手剑、双手剑、长柄武器角色时，角色普通攻击造成的伤害提高35%。", "attrs": [], "params": [0.35] }
@@ -145,7 +163,8 @@
   },
   {
     "id": 15002,
-    "name": "翠绿之影",
+    "name": "ViridescentVenerer_0",
+    "localeName": "翠绿之影",
     "levels": [
       { "need": 2, "desc": "获得15%风元素伤害加成。", "attrs": [], "params": [] },
       { "need": 4, "desc": "扩散反应造成的伤害提升60%。根据扩散的元素类型，降低受到影响的敌人40%的对应元素抗性，持续10秒。", "attrs": [], "params": [0.6, 0.4, 10] }
@@ -153,7 +172,8 @@
   },
   {
     "id": 15003,
-    "name": "流浪大地的乐团",
+    "name": "WanderersTroupe_0",
+    "localeName": "流浪大地的乐团",
     "levels": [
       { "need": 2, "desc": "元素精通提高80点。", "attrs": [], "params": [] },
       { "need": 4, "desc": "装备该圣遗物套装的角色为法器、弓箭角色时，角色重击造成的伤害提高35%。", "attrs": [], "params": [0.35] }
@@ -161,7 +181,8 @@
   },
   {
     "id": 15004,
-    "name": "冰之川与雪之砂",
+    "name": "GlacierAndSnowfield_0",
+    "localeName": "冰之川与雪之砂",
     "levels": [
       { "need": 2, "desc": "获得15%冰元素伤害加成。", "attrs": [], "params": [] },
       { "need": 4, "desc": "超导反应造成的伤害提升100%，融化反应的加成系数提高15%。施放元素爆发后的10秒内，冰元素伤害加成额外提升30%。", "attrs": [], "params": [1, 0.15, 10, 0.3] }
@@ -169,7 +190,8 @@
   },
   {
     "id": 15005,
-    "name": "如雷的盛怒",
+    "name": "ThunderingFury_0",
+    "localeName": "如雷的盛怒",
     "levels": [
       { "need": 2, "desc": "获得15%雷元素伤害加成。", "attrs": [], "params": [] },
       { "need": 4, "desc": "超载、感电、超导反应造成的伤害提升40%。触发这些元素反应时，元素战技冷却时间减少1秒。该效果每0.8秒最多触发一次。", "attrs": [], "params": [0.4, 0.8] }
@@ -177,20 +199,17 @@
   },
   {
     "id": 15006,
-    "name": "炽烈的炎之魔女",
+    "name": "CrimsonWitchOfFlames_0",
+    "localeName": "炽烈的炎之魔女",
     "levels": [
       { "need": 2, "desc": "获得15%火元素伤害加成。", "attrs": [], "params": [] },
-      {
-        "need": 4,
-        "desc": "超载、燃烧反应造成的伤害提升40%，蒸发、融化反应的加成系数提高15%。施放元素战技后的10秒内，2件套的效果提高50%，该效果最多叠加3次。",
-        "attrs": [],
-        "params": [0.4, 0.15, 0.15, 0.5, 10]
-      }
+      { "need": 4, "desc": "超载、燃烧反应造成的伤害提升40%，蒸发、融化反应的加成系数提高15%。施放元素战技后的10秒内，2件套的效果提高50%，该效果最多叠加3次。", "attrs": [], "params": [0.4, 0.15, 0.15, 0.5, 10] }
     ]
   },
   {
     "id": 15007,
-    "name": "昔日宗室之仪",
+    "name": "NoblesseOblige_0",
+    "localeName": "昔日宗室之仪",
     "levels": [
       { "need": 2, "desc": "元素爆发造成的伤害提升20%。", "attrs": [], "params": [0.2] },
       { "need": 4, "desc": "施放元素爆发后，队伍中所有角色攻击力提升20%，持续12秒。该效果不可叠加。", "attrs": [], "params": [0.2, 12] }
@@ -198,20 +217,22 @@
   },
   {
     "id": 15008,
-    "name": "染血的骑士道",
+    "name": "BloodstainedChivalry_0",
+    "localeName": "染血的骑士道",
     "levels": [
       { "need": 2, "desc": "造成的物理伤害提高25%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "击败敌人后的10秒内，施放重击时不消耗体力，且重击造成的伤害提升50%。", "attrs": [], "params": [10, 0.5, -5, 0.1] }
     ]
   },
-  { "id": 15009, "name": "祭火之人", "levels": [{ "need": 1, "desc": "受到的火元素附着效果的持续时间减少40%。", "attrs": [], "params": [0.4] }] },
-  { "id": 15010, "name": "祭水之人", "levels": [{ "need": 1, "desc": "受到的水元素附着效果的持续时间减少40%。", "attrs": [], "params": [0.4] }] },
-  { "id": 15011, "name": "祭雷之人", "levels": [{ "need": 1, "desc": "受到的雷元素附着效果的持续时间减少40%。", "attrs": [], "params": [0.4] }] },
-  { "id": 15012, "name": "祭风之人", "levels": [{ "need": 1, "desc": "受到的风元素附着效果的持续时间减少40%。", "attrs": [], "params": [0.4] }] },
-  { "id": 15013, "name": "祭冰之人", "levels": [{ "need": 1, "desc": "受到的冰元素附着效果的持续时间减少40%。", "attrs": [], "params": [0.4] }] },
+  { "id": 15009, "name": "PrayersForIllumination_4", "localeName": "祭火之人", "levels": [{ "need": 1, "desc": "受到的火元素附着效果的持续时间减少40%。", "attrs": [], "params": [0.4] }] },
+  { "id": 15010, "name": "PrayersForDestiny_4", "localeName": "祭水之人", "levels": [{ "need": 1, "desc": "受到的水元素附着效果的持续时间减少40%。", "attrs": [], "params": [0.4] }] },
+  { "id": 15011, "name": "PrayersForWisdom_4", "localeName": "祭雷之人", "levels": [{ "need": 1, "desc": "受到的雷元素附着效果的持续时间减少40%。", "attrs": [], "params": [0.4] }] },
+  { "id": 15012, "name": "PrayersToTheFirmament_4", "localeName": "祭风之人", "levels": [{ "need": 1, "desc": "受到的风元素附着效果的持续时间减少40%。", "attrs": [], "params": [0.4] }] },
+  { "id": 15013, "name": "PrayersToSpringtime_4", "localeName": "祭冰之人", "levels": [{ "need": 1, "desc": "受到的冰元素附着效果的持续时间减少40%。", "attrs": [], "params": [0.4] }] },
   {
     "id": 15014,
-    "name": "悠古的磐岩",
+    "name": "ArchaicPetra_0",
+    "localeName": "悠古的磐岩",
     "levels": [
       { "need": 2, "desc": "获得15%岩元素伤害加成。", "attrs": [], "params": [] },
       { "need": 4, "desc": "获得结晶反应形成的晶片时，队伍中所有角色获得35%对应元素伤害加成，持续10秒。同时只能通过该效果获得一种元素伤害加成。", "attrs": [], "params": [0.35, 10] }
@@ -219,7 +240,8 @@
   },
   {
     "id": 15015,
-    "name": "逆飞的流星",
+    "name": "RetracingBolide_0",
+    "localeName": "逆飞的流星",
     "levels": [
       { "need": 2, "desc": "护盾强效提高35%。", "attrs": [], "params": [] },
       { "need": 4, "desc": "处于护盾庇护下时，额外获得40%普通攻击和重击伤害加成。", "attrs": [], "params": [0.4] }
@@ -227,7 +249,8 @@
   },
   {
     "id": 15016,
-    "name": "沉沦之心",
+    "name": "HeartOfDepth_0",
+    "localeName": "沉沦之心",
     "levels": [
       { "need": 2, "desc": "获得15%水元素伤害加成。", "attrs": [], "params": [] },
       { "need": 4, "desc": "施放元素战技后的15秒内，普通攻击与重击造成的伤害提高30%。", "attrs": [], "params": [0.3, 1, 15] }

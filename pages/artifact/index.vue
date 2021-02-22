@@ -1,7 +1,16 @@
 <template>
-  <div class="mx-auto">
-    <v-row class="ma-2">
-      <nuxt-link to="/inv">inventory</nuxt-link>
+  <div class="mx-auto artifact-index">
+    <v-row>
+      <v-col :sm="6" :md="4" :lg="2" class="tool-section" to="/set">
+        <v-card class="role-section py-4" to="/artifact/set">
+          <v-card-title style="font-size: 2rem; display: block">
+            <GsIcon type="artifact" />
+          </v-card-title>
+          <v-card-text>
+            {{ $t("ui.artifactSet") }}
+          </v-card-text>
+        </v-card>
+      </v-col>
     </v-row>
     <v-row class="ma-2">
       <nuxt-link to="/artifact/0KwsDKB0J43NA1gC2l">test</nuxt-link>
@@ -11,19 +20,8 @@
 
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
-import { Action, Getter } from "vuex-class";
-import { IArtifact, IArtifactType } from "~/modules/core";
 
 @Component<Page>({
-  // server
-  // async asyncData({ $content, app }) {
-  //   const rst: Partial<Page> = { types: null, sets: null };
-  //   const types = (await $content(app.i18n.locale, "relic").fetch().catch(console.error)) as any;
-  //   const sets = (await $content(app.i18n.locale, "relicset").fetch().catch(console.error)) as any;
-  //   rst.types = types;
-  //   rst.sets = sets;
-  //   return rst;
-  // },
   // set html header
   head() {
     // Set Meta Tags for this Page
@@ -31,16 +29,16 @@ import { IArtifact, IArtifactType } from "~/modules/core";
     return { title };
   },
 })
-export default class Page extends Vue {
-  @Getter("app/artifacts") artifacts!: IArtifact[];
-  @Getter("app/artifactTypes") types!: IArtifactType[];
-  @Action("app/loadArtifacts") loadArtifacts!: () => void;
-  overlay = false;
-
-  filteredTypes(r: number) {
-    return this.types?.filter(v => v.rarity === r);
-  }
-
-  mounted() {}
-}
+export default class Page extends Vue {}
 </script>
+<style lang="less">
+.artifact-index {
+  .role-section {
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 24px;
+    display: block;
+    text-decoration: none;
+  }
+}
+</style>

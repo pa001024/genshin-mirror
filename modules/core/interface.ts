@@ -85,7 +85,8 @@ export interface IArtifactType {
 /** 圣遗物套装 */
 export interface IArtifactSet {
   /** 用于索引 */ id: number;
-  /** 名字 */ name: string;
+  /** 图片 */ name: string;
+  /** 本地化名称 */ localeName: string;
   /** 套装等级 */ levels: IArtifactSetLevel[];
 }
 

@@ -36,10 +36,12 @@
               </v-list-item-action>
             </nuxt-link>
 
-            <v-list-item-content>
-              <v-list-item-title v-text="item.localeName" />
-              <v-list-item-subtitle v-if="$i18n.locale !== 'en'" v-text="item.name" />
-            </v-list-item-content>
+            <nuxt-link :to="'weapon/' + item.id" class="nolink">
+              <v-list-item-content>
+                <v-list-item-title v-text="item.localeName" />
+                <v-list-item-subtitle v-if="$i18n.locale !== 'en'" v-text="item.name" />
+              </v-list-item-content>
+            </nuxt-link>
           </v-list-item>
         </template>
       </v-list>
