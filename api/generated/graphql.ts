@@ -18,6 +18,7 @@ export type Query = {
   __typename?: "Query";
   me?: Maybe<User>;
   userCharacters: Array<UserAvatar>;
+  userBuilds: Array<UserBuild>;
   userWeapons: Array<UserWeapon>;
 };
 
@@ -77,6 +78,18 @@ export type UserWeapon = {
   refineLevel: Scalars["Int"];
 };
 
+export type UserBuild = {
+  __typename?: "UserBuild";
+  id: Scalars["ID"];
+  author: User;
+  title?: Maybe<Scalars["String"]>;
+  cores: Array<Scalars["String"]>;
+  tags: Array<Scalars["String"]>;
+  cover?: Maybe<Scalars["String"]>;
+  desc?: Maybe<Scalars["String"]>;
+  avatars: Array<UserAvatar>;
+};
+
 export type Mutation = {
   __typename?: "Mutation";
   signup: AuthInfo;
@@ -84,6 +97,8 @@ export type Mutation = {
   logout?: Maybe<AuthInfo>;
   setUserCharacter: UserAvatar;
   removeUserCharacter: UserAvatar;
+  setUserBuild: UserBuild;
+  removeUserBuild: UserBuild;
   setUserWeapon: UserWeapon;
   removeUserWeapon: UserWeapon;
 };
@@ -102,6 +117,14 @@ export type MutationSetUserCharacterArgs = {
 };
 
 export type MutationRemoveUserCharacterArgs = {
+  id: Scalars["String"];
+};
+
+export type MutationSetUserBuildArgs = {
+  data: UserBuildInput;
+};
+
+export type MutationRemoveUserBuildArgs = {
   id: Scalars["String"];
 };
 
@@ -136,6 +159,17 @@ export type UserAvatarInput = {
   qLevel: Scalars["Float"];
 };
 
+export type UserBuildInput = {
+  id?: Maybe<Scalars["String"]>;
+  title?: Maybe<Scalars["String"]>;
+  cores?: Maybe<Array<Scalars["String"]>>;
+  tags?: Maybe<Array<Scalars["String"]>>;
+  cover?: Maybe<Scalars["String"]>;
+  desc?: Maybe<Scalars["String"]>;
+  /** JSON */
+  avatars: Scalars["String"];
+};
+
 export type UserWeaponInput = {
   weaponId: Scalars["String"];
   level: Scalars["Float"];
@@ -163,6 +197,38 @@ export type SignupMutationVariables = Exact<{
 }>;
 
 export type SignupMutation = { __typename?: "Mutation" } & { signup: { __typename?: "AuthInfo" } & Pick<AuthInfo, "code" | "token" | "message"> };
+
+export type UserBuildsQueryVariables = Exact<{ [key: string]: never }>;
+
+export type UserBuildsQuery = { __typename?: "Query" } & {
+  userBuilds: Array<
+    { __typename?: "UserBuild" } & Pick<UserBuild, "id" | "title" | "cores" | "tags" | "cover" | "desc"> & {
+        avatars: Array<
+          { __typename?: "UserAvatar" } & Pick<UserAvatar, "avatarId" | "level" | "promoteLevel" | "talentLevel" | "attackLevel" | "eLevel" | "qLevel"> & {
+              artifacts?: Maybe<
+                Array<
+                  { __typename?: "UserArtifact" } & Pick<UserArtifact, "typeId" | "level"> & {
+                      attrs: Array<{ __typename?: "Attr" } & Pick<Attr, "type" | "value">>;
+                    }
+                >
+              >;
+            }
+        >;
+      }
+  >;
+};
+
+export type SetUserBuildMutationVariables = Exact<{
+  data: UserBuildInput;
+}>;
+
+export type SetUserBuildMutation = { __typename?: "Mutation" } & { setUserBuild: { __typename?: "UserBuild" } & Pick<UserBuild, "id"> };
+
+export type RemoveUserBuildMutationVariables = Exact<{
+  id: Scalars["String"];
+}>;
+
+export type RemoveUserBuildMutation = { __typename?: "Mutation" } & { removeUserBuild: { __typename?: "UserBuild" } & Pick<UserBuild, "id"> };
 
 export type UserCharactersQueryVariables = Exact<{ [key: string]: never }>;
 
@@ -237,6 +303,49 @@ export const SignupDocument = gql`
       code
       token
       message
+    }
+  }
+`;
+export const UserBuildsDocument = gql`
+  query UserBuilds {
+    userBuilds {
+      id
+      title
+      cores
+      tags
+      cover
+      desc
+      avatars {
+        avatarId
+        level
+        promoteLevel
+        talentLevel
+        attackLevel
+        eLevel
+        qLevel
+        artifacts {
+          typeId
+          level
+          attrs {
+            type
+            value
+          }
+        }
+      }
+    }
+  }
+`;
+export const SetUserBuildDocument = gql`
+  mutation SetUserBuild($data: UserBuildInput!) {
+    setUserBuild(data: $data) {
+      id
+    }
+  }
+`;
+export const RemoveUserBuildDocument = gql`
+  mutation RemoveUserBuild($id: String!) {
+    removeUserBuild(id: $id) {
+      id
     }
   }
 `;

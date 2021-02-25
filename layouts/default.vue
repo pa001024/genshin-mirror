@@ -9,8 +9,8 @@
 
     <!-- 顶栏 -->
     <v-app-bar app clipped-right flat height="72">
-      <v-btn icon @click="drawer = true">
-        <GsIcon v-if="!drawer" type="logo" :size="32" />
+      <v-btn v-if="!drawer" icon @click="drawer = true">
+        <GsIcon type="logo" :size="32" />
       </v-btn>
       <v-spacer></v-spacer>
       <v-btn icon class="mr-2" @click="$vuetify.theme.dark = !$vuetify.theme.dark">

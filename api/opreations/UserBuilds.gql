@@ -1,0 +1,39 @@
+query UserBuilds {
+  userBuilds {
+    id
+    title
+    cores
+    tags
+    cover
+    desc
+    avatars {
+      avatarId
+      level
+      promoteLevel
+      talentLevel
+      attackLevel
+      eLevel
+      qLevel
+      artifacts {
+        typeId
+        level
+        attrs {
+          type
+          value
+        }
+      }
+    }
+  }
+}
+
+mutation SetUserBuild($data: UserBuildInput!) {
+  setUserBuild(data: $data) {
+    id
+  }
+}
+
+mutation RemoveUserBuild($id: String!) {
+  removeUserBuild(id: $id) {
+    id
+  }
+}

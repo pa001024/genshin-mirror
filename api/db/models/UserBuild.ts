@@ -21,7 +21,7 @@ export class UserBuild implements IUserBuild {
   @prop({ type: Types.ObjectId, index: true, required: true })
   public author!: Ref<User>;
 
-  @Field()
+  @Field({ nullable: true })
   @prop()
   public title?: string;
 
@@ -37,12 +37,12 @@ export class UserBuild implements IUserBuild {
   @prop()
   public cover?: string;
 
-  @Field()
-  @prop({ required: true })
-  public desc!: string;
+  @Field({ nullable: true })
+  @prop()
+  public desc?: string;
 
   @Field(() => [UserAvatar])
-  @prop({ type: UserAvatar })
+  @prop({ type: UserAvatar, _id: false })
   public avatars!: UserAvatar[];
 }
 

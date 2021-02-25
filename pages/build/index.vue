@@ -14,14 +14,17 @@
             </v-list-item>
             <v-divider></v-divider>
             <v-list dense nav>
-              <v-list-item v-if="!builds || !builds.length">
+              <v-list-item v-if="!userBuilds || !userBuilds.length">
                 <v-list-item-content>
                   <v-list-item-title>{{ $t("ui.thereIsNothing") }}</v-list-item-title>
                 </v-list-item-content>
               </v-list-item>
-              <v-list-item v-for="bd in builds" :key="bd.id" link @click="selectBuild(bd)">
+              <v-list-item v-for="bd in userBuilds" :key="bd.id" nuxt class="build-list-item" @click="selectBuild(bd)">
                 <v-list-item-content>
-                  <v-list-item-title>{{ bd.title }}</v-list-item-title>
+                  <v-list-item-title>
+                    <v-icon size="12">{{ selectedBuild && bd.id === selectedBuild.id ? "mdi-rhombus" : "mdi-rhombus-outline" }}</v-icon>
+                    {{ bd.title || $t("ui.untitled") }}
+                  </v-list-item-title>
                 </v-list-item-content>
               </v-list-item>
             </v-list>
@@ -33,7 +36,7 @@
 </template>
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
-import { Getter } from "vuex-class";
+import { MeDocument, SetUserBuildDocument, SetUserBuildMutation, SetUserBuildMutationVariables, UserBuildsDocument } from "~/api/generated/graphql";
 import { IUserBuild } from "~/modules/core";
 
 @Component<Page>({
@@ -43,17 +46,39 @@ import { IUserBuild } from "~/modules/core";
     const title = this.$t("title.sub", [this.$t("navigate.build")]) as string;
     return { title };
   },
+  apollo: {
+    me: MeDocument,
+    userBuilds: UserBuildsDocument,
+  },
 })
 export default class Page extends Vue {
-  @Getter("app/uid") uid!: string;
-  @Getter("app/builds") builds!: IUserBuild[];
+  selectedBuild: IUserBuild | null = null;
 
-  newBuild() {
-    if (this.uid) {
-      //
-    }
+  setUserAvatar(variables: SetUserBuildMutationVariables) {
+    return this.$apollo.mutate<SetUserBuildMutation>({ mutation: SetUserBuildDocument, variables, refetchQueries: ["UserBuilds"] });
   }
 
-  selectBuild(_bd: IUserBuild) {}
+  newBuild() {
+    const defaultData: IUserBuild = {
+      cores: [],
+      tags: [],
+      cover: "",
+      desc: "",
+      avatars: [],
+    };
+    this.setUserAvatar({ data: { ...defaultData, avatars: "[]" } });
+  }
+
+  selectBuild(bd: IUserBuild) {
+    this.selectedBuild = bd;
+  }
 }
 </script>
+<style lang="less">
+.gsm-build-index {
+  .build-list-item.active::after {
+    content: "";
+    border-left: 4px solid;
+  }
+}
+</style>
