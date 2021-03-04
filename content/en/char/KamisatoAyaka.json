@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "ShivadaJadeSliver", "name": "Shivada Jade Sliver", "count": 1 },
-        { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 3 },
-        { "id": "DiviningScroll", "name": "Divining Scroll", "count": 3 }
+        { "id": "ShivadaJadeSliver", "localeName": "Shivada Jade Sliver", "rarity": 2, "count": 1 },
+        { "id": "SmallLampGrass", "localeName": "Small Lamp Grass", "count": 3 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 3 }
       ],
       "HP": 907.3,
       "ATK": 19.476,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "ShivadaJadeFragment", "name": "Shivada Jade Fragment", "count": 3 },
-        { "id": "HoarfrostCore", "name": "Hoarfrost Core", "count": 2 },
-        { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 10 },
-        { "id": "DiviningScroll", "name": "Divining Scroll", "count": 15 }
+        { "id": "ShivadaJadeFragment", "localeName": "Shivada Jade Fragment", "rarity": 3, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "Hoarfrost Core", "rarity": 4, "count": 2 },
+        { "id": "SmallLampGrass", "localeName": "Small Lamp Grass", "count": 10 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 15 }
       ],
       "HP": 1552,
       "ATK": 33.314,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "ShivadaJadeFragment", "name": "Shivada Jade Fragment", "count": 6 },
-        { "id": "HoarfrostCore", "name": "Hoarfrost Core", "count": 4 },
-        { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 20 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 12 }
+        { "id": "ShivadaJadeFragment", "localeName": "Shivada Jade Fragment", "rarity": 3, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "Hoarfrost Core", "rarity": 4, "count": 4 },
+        { "id": "SmallLampGrass", "localeName": "Small Lamp Grass", "count": 20 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 12 }
       ],
       "HP": 2411.5,
       "ATK": 51.765,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "ShivadaJadeChunk", "name": "Shivada Jade Chunk", "count": 3 },
-        { "id": "HoarfrostCore", "name": "Hoarfrost Core", "count": 8 },
-        { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 30 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 18 }
+        { "id": "ShivadaJadeChunk", "localeName": "Shivada Jade Chunk", "rarity": 4, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "Hoarfrost Core", "rarity": 4, "count": 8 },
+        { "id": "SmallLampGrass", "localeName": "Small Lamp Grass", "count": 30 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 18 }
       ],
       "HP": 3056.2,
       "ATK": 65.603,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "ShivadaJadeChunk", "name": "Shivada Jade Chunk", "count": 6 },
-        { "id": "HoarfrostCore", "name": "Hoarfrost Core", "count": 12 },
-        { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 45 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 12 }
+        { "id": "ShivadaJadeChunk", "localeName": "Shivada Jade Chunk", "rarity": 4, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "Hoarfrost Core", "rarity": 4, "count": 12 },
+        { "id": "SmallLampGrass", "localeName": "Small Lamp Grass", "count": 45 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 12 }
       ],
       "HP": 3700.8,
       "ATK": 79.441,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "ShivadaJadeGemstone", "name": "Shivada Jade Gemstone", "count": 6 },
-        { "id": "HoarfrostCore", "name": "Hoarfrost Core", "count": 20 },
-        { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 60 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 24 }
+        { "id": "ShivadaJadeGemstone", "localeName": "Shivada Jade Gemstone", "rarity": 5, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "Hoarfrost Core", "rarity": 4, "count": 20 },
+        { "id": "SmallLampGrass", "localeName": "Small Lamp Grass", "count": 60 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 24 }
       ],
       "HP": 4345.5,
       "ATK": 93.279,
@@ -92,7 +92,8 @@
   "ascensionType": 29,
   "element": 7,
   "elemSkill": {
-    "name": " Elemental Skill",
+    "name": "ElementalSkill",
+    "localeName": " Elemental Skill",
     "desc": "",
     "cd": 8,
     "paramVals": [
@@ -114,50 +115,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "Teachings of Prosperity", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "Teachings of Prosperity", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "Whopperflower Nectar", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 4 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 4 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 6 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 6 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 12 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 9 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 16 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 12 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": " Elemental Burst",
+    "name": "ElementalBurst",
+    "localeName": " Elemental Burst",
     "desc": "",
     "cd": 15,
     "energyCost": 60,
@@ -180,50 +182,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "Teachings of Prosperity", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "Teachings of Prosperity", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "Whopperflower Nectar", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 4 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 4 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 6 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 6 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 12 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 9 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 16 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 12 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": " Normal Attack",
+    "name": "NormalAttack",
+    "localeName": " Normal Attack",
     "desc": "",
     "cd": 0,
     "paramVals": [
@@ -245,68 +248,68 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "Teachings of Prosperity", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "Teachings of Prosperity", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "Whopperflower Nectar", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 4 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 4 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 6 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 6 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 12 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 9 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 16 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 12 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "", "desc": "", "unlock": 1 },
-    { "name": "", "desc": "", "unlock": 4 },
-    { "name": "", "desc": "", "values": [1] }
+    { "name": "", "localeName": "", "desc": "", "unlock": 1 },
+    { "name": "", "localeName": "", "desc": "", "unlock": 4 },
+    { "name": "", "localeName": "", "desc": "", "values": [1] }
   ],
   "c13ns": [
-    { "name": " Constellation 1", "desc": "" },
-    { "name": " Constellation 2", "desc": "" },
-    { "name": " Constellation 3", "desc": "" },
-    { "name": " Constellation 4", "desc": "" },
-    { "name": " Constellation 5", "desc": "" },
-    { "name": " Constellation 6", "desc": "" }
+    { "name": "Constellation1", "localeName": " Constellation 1", "desc": "" },
+    { "name": "Constellation2", "localeName": " Constellation 2", "desc": "" },
+    { "name": "Constellation3", "localeName": " Constellation 3", "desc": "" },
+    { "name": "Constellation4", "localeName": " Constellation 4", "desc": "" },
+    { "name": "Constellation5", "localeName": " Constellation 5", "desc": "" },
+    { "name": "Constellation6", "localeName": " Constellation 6", "desc": "" }
   ],
   "overviewItems": [
-    { "id": "ShivadaJadeGemstone", "name": "Shivada Jade Gemstone", "rarity": 5 },
-    { "id": "HoarfrostCore", "name": "Hoarfrost Core", "rarity": 4 },
-    { "id": "SmallLampGrass", "name": "Small Lamp Grass" },
-    { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "rarity": 3 },
-    { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "rarity": 4 },
-    { "id": "EnergyNectar", "name": "Energy Nectar", "rarity": 3 },
-    { "id": "RingOfBoreas", "name": "Ring of Boreas", "rarity": 5 }
+    { "id": "ShivadaJadeGemstone", "localeName": "Shivada Jade Gemstone", "rarity": 5 },
+    { "id": "HoarfrostCore", "localeName": "Hoarfrost Core", "rarity": 4 },
+    { "id": "SmallLampGrass", "localeName": "Small Lamp Grass" },
+    { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3 },
+    { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4 },
+    { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3 },
+    { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5 }
   ]
 }

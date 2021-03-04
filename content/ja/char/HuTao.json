@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "AgnidusAgateSliver", "name": "炎願のアゲート·砕屑", "count": 1 },
-        { "id": "SilkFlower", "name": "霓裳花", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "トリックフラワーの蜜", "count": 3 }
+        { "id": "AgnidusAgateSliver", "localeName": "炎願のアゲート·砕屑", "rarity": 2, "count": 1 },
+        { "id": "SilkFlower", "localeName": "霓裳花", "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 3 }
       ],
       "HP": 1038.1,
       "ATK": 7.1039,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "炎願のアゲート·欠片", "count": 3 },
-        { "id": "JuvenileJade", "name": "未熟の玉石", "count": 2 },
-        { "id": "SilkFlower", "name": "霓裳花", "count": 10 },
-        { "id": "WhopperflowerNectar", "name": "トリックフラワーの蜜", "count": 15 }
+        { "id": "AgnidusAgateFragment", "localeName": "炎願のアゲート·欠片", "rarity": 3, "count": 3 },
+        { "id": "JuvenileJade", "localeName": "未熟の玉石", "rarity": 4, "count": 2 },
+        { "id": "SilkFlower", "localeName": "霓裳花", "count": 10 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 15 }
       ],
       "HP": 1775.7,
       "ATK": 12.151,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "炎願のアゲート·欠片", "count": 6 },
-        { "id": "JuvenileJade", "name": "未熟の玉石", "count": 4 },
-        { "id": "SilkFlower", "name": "霓裳花", "count": 20 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 12 }
+        { "id": "AgnidusAgateFragment", "localeName": "炎願のアゲート·欠片", "rarity": 3, "count": 6 },
+        { "id": "JuvenileJade", "localeName": "未熟の玉石", "rarity": 4, "count": 4 },
+        { "id": "SilkFlower", "localeName": "霓裳花", "count": 20 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 12 }
       ],
       "HP": 2759.1,
       "ATK": 18.881,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "炎願のアゲート·塊", "count": 3 },
-        { "id": "JuvenileJade", "name": "未熟の玉石", "count": 8 },
-        { "id": "SilkFlower", "name": "霓裳花", "count": 30 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 18 }
+        { "id": "AgnidusAgateChunk", "localeName": "炎願のアゲート·塊", "rarity": 4, "count": 3 },
+        { "id": "JuvenileJade", "localeName": "未熟の玉石", "rarity": 4, "count": 8 },
+        { "id": "SilkFlower", "localeName": "霓裳花", "count": 30 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 18 }
       ],
       "HP": 3496.7,
       "ATK": 23.929,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "炎願のアゲート·塊", "count": 6 },
-        { "id": "JuvenileJade", "name": "未熟の玉石", "count": 12 },
-        { "id": "SilkFlower", "name": "霓裳花", "count": 45 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 12 }
+        { "id": "AgnidusAgateChunk", "localeName": "炎願のアゲート·塊", "rarity": 4, "count": 6 },
+        { "id": "JuvenileJade", "localeName": "未熟の玉石", "rarity": 4, "count": 12 },
+        { "id": "SilkFlower", "localeName": "霓裳花", "count": 45 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 12 }
       ],
       "HP": 4234.3,
       "ATK": 28.976,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "AgnidusAgateGemstone", "name": "炎願のアゲート", "count": 6 },
-        { "id": "JuvenileJade", "name": "未熟の玉石", "count": 20 },
-        { "id": "SilkFlower", "name": "霓裳花", "count": 60 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 24 }
+        { "id": "AgnidusAgateGemstone", "localeName": "炎願のアゲート", "rarity": 5, "count": 6 },
+        { "id": "JuvenileJade", "localeName": "未熟の玉石", "rarity": 4, "count": 20 },
+        { "id": "SilkFlower", "localeName": "霓裳花", "count": 60 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 24 }
       ],
       "HP": 4971.9,
       "ATK": 34.024,
@@ -92,7 +92,8 @@
   "ascensionType": 13,
   "element": 6,
   "elemSkill": {
-    "name": "蝶導来世",
+    "name": "GuideToAfterlife",
+    "localeName": "蝶導来世",
     "desc": "燃え続ける炎のみが、この世の不浄を払うことができる。\n一定のHPを消費して、周囲の敵をノックバックし、冥蝶の舞状態に入る。\n\n<color=#FFD780FF>冥蝶の舞</color>\n·胡桃のHP上限を基準に攻撃力が上昇する。この効果で得られる攻撃力上昇の最大値は、胡桃の基礎攻撃力の400%まで。\n·攻撃ダメージは<color=#FF9999FF>炎元素ダメージ</color>となり、元素付与によって他の元素に変化することはない。\n·重撃は敵に血梅香効果を与える。\n·胡桃の中断耐性が上昇する。\n\n<color=#FFD780FF>血梅香</color>\n血梅香状態の敵は、4秒毎に1度、<color=#FF9999FF>炎元素ダメージ</color>を受ける。このダメージは元素スキルダメージと見なされる。\n同一ターゲットに付与される血梅香効果は同時に最大1つまで。また、血梅香効果の継続時間は胡桃自身にのみリセットされることが可能。\n\n<color=#FFD780FF>冥蝶の舞</color>は継続時間終了時、または胡桃の退場や戦闘不能時に解除される。\n\n<i>胡桃が学んだ秘伝の槍法、その教えの一句目は「槍よ切り開け黄泉の道、蝶よ引き寄せ来世の橋。」</i>",
     "cd": 16,
     "paramTpls": ["スキル消費|{param1:P}現在HP", "攻撃力上昇|{param2:F2P}HP上限", "血梅香ダメージ|{param3:P}", "血梅香継続時間|{param4:F1}秒", "継続時間|{param5:F1}秒", "クールタイム|{param6:F1}秒"],
@@ -115,61 +116,55 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfDiligence", "name": "「勤労」の教え", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "トリックフラワーの蜜", "count": 6 }
+        { "id": "TeachingsOfDiligence", "localeName": "「勤労」の教え", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 3 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 4 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 6 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 9 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 4 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 4 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 4 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 6 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 6 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 6 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 12 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 9 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "count": 2 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 9 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 16 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 12 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 12 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "安神秘法",
+    "name": "SpiritSoother",
+    "localeName": "安神秘法",
     "desc": "灼熱の魂を振り回し、広範囲の<color=#FF9999FF>炎元素ダメージ</color>を与える。\n敵に命中した時、胡桃のHP上限を基準にHPを回復する。この効果は、1体の敵に命中するごとに発動され、最大で5体まで効果が発動される。\n胡桃のHPが50%以下の時、より高いダメージと回復効果を持つ。\n\n<i>既にこの世を去った者がまだ元気そうにしていると、往生堂は焦燥や不安に駆られる。火葬は胡桃の心を一番落ち着かせることができる手段である。そのため、彼女は焦燥すればするほど、火力が上昇する。</i>",
     "cd": 15,
     "energyCost": 60,
-    "paramTpls": [
-      "スキルダメージ|{param1:P}",
-      "低HP時スキルダメージ|{param2:P}",
-      "スキル回復量|{param3:F2P}HP上限",
-      "低HP時スキル回復量|{param4:F2P}HP上限",
-      "クールタイム|{param5:F1}秒",
-      "元素エネルギー|{param6:I}"
-    ],
+    "paramTpls": ["スキルダメージ|{param1:P}", "低HP時スキルダメージ|{param2:P}", "スキル回復量|{param3:F2P}HP上限", "低HP時スキル回復量|{param4:F2P}HP上限", "クールタイム|{param5:F1}秒", "元素エネルギー|{param6:I}"],
     "paramVals": [
       [3.0327, 3.7909, 0.062625, 0.0835, 15, 60, 0.5],
       [3.2143, 4.0179, 0.066375, 0.0885, 15, 60, 0.5],
@@ -189,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfDiligence", "name": "「勤労」の教え", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "トリックフラワーの蜜", "count": 6 }
+        { "id": "TeachingsOfDiligence", "localeName": "「勤労」の教え", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 3 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 4 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 6 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 9 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 4 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 4 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 4 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 6 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 6 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 6 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 12 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 9 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "count": 2 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 9 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 16 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 12 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 12 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "通常攻撃·往生秘伝槍法",
+    "name": "NormalAttackSecretSpearOfWangsheng",
+    "localeName": "通常攻撃·往生秘伝槍法",
     "desc": "<color=#FFD780FF>通常攻撃</color>\n槍による最大6段の連続攻撃を行う。\n\n<color=#FFD780FF>重击</color>\n一定のスタミナを消費して前方に突進し、経路上の敵にダメージを与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
     "cd": 0,
     "paramTpls": [
@@ -266,80 +262,72 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfDiligence", "name": "「勤労」の教え", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "トリックフラワーの蜜", "count": 6 }
+        { "id": "TeachingsOfDiligence", "localeName": "「勤労」の教え", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 3 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 4 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 6 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 9 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 4 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 4 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 4 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 6 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 6 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 6 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 12 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 9 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "count": 2 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 9 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 16 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 12 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 12 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    {
-      "name": "蝶隠の時",
-      "desc": "<color=#FFD780FF>蝶導来世</color>による<color=#FFD780FF>冥蝶の舞</color>状態終了後、チーム全員（胡桃自身を除く）の会心率+12%、継続時間8秒。",
-      "unlock": 1,
-      "values": [0.12, 8]
-    },
-    { "name": "血のかまど", "desc": "胡桃のHPが50%以下の時、<color=#FF9999FF>炎元素ダメージ</color>+33%。", "unlock": 4, "values": [0.5, 0.33] },
-    { "name": "多々益善", "desc": "料理を完璧調理した時、18%の確率で「微妙な」品質の同一料理を獲得する。" }
+    { "name": "FlutterBy", "localeName": "蝶隠の時", "desc": "<color=#FFD780FF>蝶導来世</color>による<color=#FFD780FF>冥蝶の舞</color>状態終了後、チーム全員（胡桃自身を除く）の会心率+12%、継続時間8秒。", "unlock": 1, "values": [0.12, 8] },
+    { "name": "SanguineRouge", "localeName": "血のかまど", "desc": "胡桃のHPが50%以下の時、<color=#FF9999FF>炎元素ダメージ</color>+33%。", "unlock": 4, "values": [0.5, 0.33] },
+    { "name": "TheMoreTheMerrier", "localeName": "多々益善", "desc": "料理を完璧調理した時、18%の確率で「微妙な」品質の同一料理を獲得する。" }
   ],
   "c13ns": [
-    { "name": "朱色の花束", "desc": "<color=#FFD780FF>蝶導来世</color>による<color=#FFD780FF>冥蝶の舞</color>状態の時、胡桃の重撃はスタミナを消費しない。" },
+    { "name": "CrimsonBouquet", "localeName": "朱色の花束", "desc": "<color=#FFD780FF>蝶導来世</color>による<color=#FFD780FF>冥蝶の舞</color>状態の時、胡桃の重撃はスタミナを消費しない。" },
+    { "name": "OminousRainfall", "localeName": "晴れのち雨", "desc": "<color=#FFD780FF>血梅香</color>のダメージ量が胡桃のHP上限の10%分上昇する。\nまた、<color=#FFD780FF>安神秘法</color>は命中した敵に<color=#FFD780FF>血梅香</color>効果を与える。", "values": [0.1] },
+    { "name": "LingeringCarmine", "localeName": "血色の儀", "desc": "<color=#FFD780FF>蝶導来世</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "GardenOfEternalRest", "localeName": "花室の添い寝", "desc": "胡桃自ら与えた<color=#FFD780FF>血梅香</color>状態の敵が倒されると、周囲のチーム全員（胡桃自身をを除く）の会心率+12%、継続時間15秒。", "values": [0.12, 15] },
+    { "name": "FloralIncense", "localeName": "漂う花の香り", "desc": "<color=#FFD780FF>安神秘法</color>のスキルLv.+3。\n最大Lv.15まで。" },
     {
-      "name": "晴れのち雨",
-      "desc": "<color=#FFD780FF>血梅香</color>のダメージ量が胡桃のHP上限の10%分上昇する。\nまた、<color=#FFD780FF>安神秘法</color>は命中した敵に<color=#FFD780FF>血梅香</color>効果を与える。",
-      "values": [0.1]
-    },
-    { "name": "血色の儀", "desc": "<color=#FFD780FF>蝶導来世</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "花室の添い寝", "desc": "胡桃自ら与えた<color=#FFD780FF>血梅香</color>状態の敵が倒されると、周囲のチーム全員（胡桃自身をを除く）の会心率+12%、継続時間15秒。", "values": [0.12, 15] },
-    { "name": "漂う花の香り", "desc": "<color=#FFD780FF>安神秘法</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    {
-      "name": "冥蝶の抱擁",
+      "name": "ButterflysEmbrace",
+      "localeName": "冥蝶の抱擁",
       "desc": "胡桃のHPが25%以下、または戦闘不能に至るダメージを受けた時に発動：\nこのダメージで胡桃が戦闘不能になることはない。また、次の10秒間、胡桃の全元素耐性及び物理耐性+200%、会心率+100%、中断耐性大幅アップ。\nこの効果は胡桃のHPが1の時に自動で発動される。\n60秒毎に1回のみ発動可能。",
       "values": [0.25, 10, 2, 1]
     }
   ],
   "overviewItems": [
-    { "id": "AgnidusAgateGemstone", "name": "炎願のアゲート", "rarity": 5 },
-    { "id": "JuvenileJade", "name": "未熟の玉石", "rarity": 4 },
-    { "id": "SilkFlower", "name": "霓裳花" },
-    { "id": "EnergyNectar", "name": "原素花の蜜", "rarity": 3 },
-    { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "rarity": 4 },
-    { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "rarity": 5 }
+    { "id": "AgnidusAgateGemstone", "localeName": "炎願のアゲート", "rarity": 5 },
+    { "id": "JuvenileJade", "localeName": "未熟の玉石", "rarity": 4 },
+    { "id": "SilkFlower", "localeName": "霓裳花" },
+    { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3 },
+    { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4 },
+    { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5 }
   ]
 }

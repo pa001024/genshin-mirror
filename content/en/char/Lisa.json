@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VajradaAmethystSliver", "name": "Vajrada Amethyst Sliver", "count": 1 },
-        { "id": "Valberry", "name": "Valberry", "count": 3 },
-        { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 3 }
+        { "id": "VajradaAmethystSliver", "localeName": "Vajrada Amethyst Sliver", "rarity": 2, "count": 1 },
+        { "id": "Valberry", "localeName": "Valberry", "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 3 }
       ],
       "HP": 599.42,
       "ATK": 14.501,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VajradaAmethystFragment", "name": "Vajrada Amethyst Fragment", "count": 3 },
-        { "id": "LightningPrism", "name": "Lightning Prism", "count": 2 },
-        { "id": "Valberry", "name": "Valberry", "count": 10 },
-        { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 15 }
+        { "id": "VajradaAmethystFragment", "localeName": "Vajrada Amethyst Fragment", "rarity": 3, "count": 3 },
+        { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4, "count": 2 },
+        { "id": "Valberry", "localeName": "Valberry", "count": 10 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 15 }
       ],
       "HP": 1025.3,
       "ATK": 24.805,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VajradaAmethystFragment", "name": "Vajrada Amethyst Fragment", "count": 6 },
-        { "id": "LightningPrism", "name": "Lightning Prism", "count": 4 },
-        { "id": "Valberry", "name": "Valberry", "count": 20 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 12 }
+        { "id": "VajradaAmethystFragment", "localeName": "Vajrada Amethyst Fragment", "rarity": 3, "count": 6 },
+        { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4, "count": 4 },
+        { "id": "Valberry", "localeName": "Valberry", "count": 20 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 12 }
       ],
       "HP": 1593.2,
       "ATK": 38.543,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VajradaAmethystChunk", "name": "Vajrada Amethyst Chunk", "count": 3 },
-        { "id": "LightningPrism", "name": "Lightning Prism", "count": 8 },
-        { "id": "Valberry", "name": "Valberry", "count": 30 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 18 }
+        { "id": "VajradaAmethystChunk", "localeName": "Vajrada Amethyst Chunk", "rarity": 4, "count": 3 },
+        { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4, "count": 8 },
+        { "id": "Valberry", "localeName": "Valberry", "count": 30 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 18 }
       ],
       "HP": 2019.1,
       "ATK": 48.846,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VajradaAmethystChunk", "name": "Vajrada Amethyst Chunk", "count": 6 },
-        { "id": "LightningPrism", "name": "Lightning Prism", "count": 12 },
-        { "id": "Valberry", "name": "Valberry", "count": 45 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 12 }
+        { "id": "VajradaAmethystChunk", "localeName": "Vajrada Amethyst Chunk", "rarity": 4, "count": 6 },
+        { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4, "count": 12 },
+        { "id": "Valberry", "localeName": "Valberry", "count": 45 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 12 }
       ],
       "HP": 2445,
       "ATK": 59.149,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VajradaAmethystGemstone", "name": "Vajrada Amethyst Gemstone", "count": 6 },
-        { "id": "LightningPrism", "name": "Lightning Prism", "count": 20 },
-        { "id": "Valberry", "name": "Valberry", "count": 60 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 24 }
+        { "id": "VajradaAmethystGemstone", "localeName": "Vajrada Amethyst Gemstone", "rarity": 5, "count": 6 },
+        { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4, "count": 20 },
+        { "id": "Valberry", "localeName": "Valberry", "count": 60 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 24 }
       ],
       "HP": 2870.9,
       "ATK": 69.453,
@@ -92,7 +92,8 @@
   "ascensionType": 11,
   "element": 3,
   "elemSkill": {
-    "name": "Violet Arc",
+    "name": "VioletArc",
+    "localeName": "Violet Arc",
     "desc": "#Channels the power of lightning to sweep bothersome matters away.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nReleases a homing Lightning Orb.\nOn hit, it deals <color=#FFACFFFF>Electro DMG</color>, and applies a stack of the Conductive status (Max 3 stacks) to opponents in a small AoE.\n\n<color=#FFD780FF>Hold</color>\nAfter an extended casting time, calls down lightning from the heavens, dealing massive <color=#FFACFFFF>Electro DMG</color> to all nearby opponents.\nDeals great amounts of extra damage to opponents based on the number of Conductive stacks applied to them, and clears their Conductive status.\n\n<i>Electro Purple is the raiment of the Witch of Purple Rose.</i>",
     "cd": 16,
     "paramTpls": [
@@ -123,50 +124,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "Teachings of Ballad", "count": 3 },
-        { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "Teachings of Ballad", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 2 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 4 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 6 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 9 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 4 },
-        { "id": "DvalinsClaw", "name": "Dvalin's Claw", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 6 },
-        { "id": "DvalinsClaw", "name": "Dvalin's Claw", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 9 },
-        { "id": "DvalinsClaw", "name": "Dvalin's Claw", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 12 },
-        { "id": "DvalinsClaw", "name": "Dvalin's Claw", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "Lightning Rose",
+    "name": "LightningRose",
+    "localeName": "Lightning Rose",
     "desc": "Summons a Lightning Rose that unleashes powerful lightning bolts, launching surrounding opponents and dealing <color=#FFACFFFF>Electro DMG</color>.\nThe Lightning Rose will continuously emit lightning to knock back opponents and deal <color=#FFACFFFF>Electro DMG</color> throughout the ability's duration.\n\n<i>This rose is beautiful, but beware its mortal thorns.</i>",
     "cd": 20,
     "energyCost": 80,
@@ -190,62 +192,54 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "Teachings of Ballad", "count": 3 },
-        { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "Teachings of Ballad", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 2 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 4 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 6 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 9 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 4 },
-        { "id": "DvalinsClaw", "name": "Dvalin's Claw", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 6 },
-        { "id": "DvalinsClaw", "name": "Dvalin's Claw", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 9 },
-        { "id": "DvalinsClaw", "name": "Dvalin's Claw", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 12 },
-        { "id": "DvalinsClaw", "name": "Dvalin's Claw", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "Normal Attack: Lightning Touch",
+    "name": "NormalAttackLightningTouch",
+    "localeName": "Normal Attack: Lightning Touch",
     "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 4 lightning attacks that deal <color=#FFACFFFF>Electro DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to deal <color=#FFACFFFF>AoE Electro DMG</color> after a short casting time.\n\n<color=#FFD780FF>Plunging Attack</color>\nGathering the might of Electro, Lisa plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#FFACFFFF>AoE Electro DMG</color> upon impact with the ground.",
     "cd": 0,
-    "paramTpls": [
-      "1-Hit DMG|{param1:F1P}",
-      "2-Hit DMG|{param2:F1P}",
-      "3-Hit DMG|{param3:F1P}",
-      "4-Hit DMG|{param4:F1P}",
-      "Charged Attack DMG|{param5:P}",
-      "Charged Attack Stamina Cost|{param6:F1}",
-      "Plunge DMG|{param7:F1P}",
-      "Low/High Plunge DMG|{param8:P}/{param9:P}"
-    ],
+    "paramTpls": ["1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", "4-Hit DMG|{param4:F1P}", "Charged Attack DMG|{param5:P}", "Charged Attack Stamina Cost|{param6:F1}", "Plunge DMG|{param7:F1P}", "Low/High Plunge DMG|{param8:P}/{param9:P}"],
     "paramVals": [
       [0.396, 0.3592, 0.428, 0.5496, 1.7712, 50, 0.56829, 1.1363, 1.4193],
       [0.4257, 0.38614, 0.4601, 0.59082, 1.904, 50, 0.61454, 1.2288, 1.5349],
@@ -265,73 +259,67 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "Teachings of Ballad", "count": 3 },
-        { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "Teachings of Ballad", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 2 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 4 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 6 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 9 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 4 },
-        { "id": "DvalinsClaw", "name": "Dvalin's Claw", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 6 },
-        { "id": "DvalinsClaw", "name": "Dvalin's Claw", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 9 },
-        { "id": "DvalinsClaw", "name": "Dvalin's Claw", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 12 },
-        { "id": "DvalinsClaw", "name": "Dvalin's Claw", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "Induced Aftershock", "desc": "Hits by Charged Attacks apply <color=#FFD780FF>Violet Arc</color>'s Conductive status to opponents.", "unlock": 1, "values": [0.7] },
-    { "name": "Static Electricity Field", "desc": "Opponents hit by <color=#FFD780FF>Lightning Rose</color> have their DEF decreased by 15% for 10s.", "unlock": 4, "values": [0.15, 10] },
-    { "name": "General Pharmaceutics", "desc": "When Lisa crafts a potion, she has a 20% chance to refund a portion of the crafting materials used." }
+    { "name": "InducedAftershock", "localeName": "Induced Aftershock", "desc": "Hits by Charged Attacks apply <color=#FFD780FF>Violet Arc</color>'s Conductive status to opponents.", "unlock": 1, "values": [0.7] },
+    { "name": "StaticElectricityField", "localeName": "Static Electricity Field", "desc": "Opponents hit by <color=#FFD780FF>Lightning Rose</color> have their DEF decreased by 15% for 10s.", "unlock": 4, "values": [0.15, 10] },
+    { "name": "GeneralPharmaceutics", "localeName": "General Pharmaceutics", "desc": "When Lisa crafts a potion, she has a 20% chance to refund a portion of the crafting materials used." }
   ],
   "c13ns": [
-    {
-      "name": "Infinite Circuit",
-      "desc": "Lisa regenerates 2 Energy for every opponent hit while holding <color=#FFD780FF>Violet Arc</color>.\nA maximum of 10 Energy can be regenerated in this manner at any one time."
-    },
-    { "name": "Electromagnetic Field", "desc": "Holding <color=#FFD780FF>Violet Arc</color> has the following effects:\n·Increases DEF by 25%.\n·Increases Lisa's resistance to interruption." },
-    { "name": "Resonant Thunder", "desc": "Increases the Level of <color=#FFD780FF>Lightning Rose</color> by 3.\nMaximum upgrade level is 15." },
-    { "name": "Plasma Eruption", "desc": "Increases the number of lightning bolts released by <color=#FFD780FF>Lightning Rose</color> by 1-3." },
-    { "name": "Electrocute", "desc": "Increases the Level of <color=#FFD780FF>Violet Arc</color> by 3.\nMaximum upgrade level is 15." },
-    {
-      "name": "Pulsating Witch",
-      "desc": "When Lisa takes the field, she applies 3 stacks of <color=#FFD780FF>Violet Arc</color>'s Conductive status onto nearby opponents.\nThis effect can only occur once every 5s."
-    }
+    { "name": "InfiniteCircuit", "localeName": "Infinite Circuit", "desc": "Lisa regenerates 2 Energy for every opponent hit while holding <color=#FFD780FF>Violet Arc</color>.\nA maximum of 10 Energy can be regenerated in this manner at any one time." },
+    { "name": "ElectromagneticField", "localeName": "Electromagnetic Field", "desc": "Holding <color=#FFD780FF>Violet Arc</color> has the following effects:\n·Increases DEF by 25%.\n·Increases Lisa's resistance to interruption." },
+    { "name": "ResonantThunder", "localeName": "Resonant Thunder", "desc": "Increases the Level of <color=#FFD780FF>Lightning Rose</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "PlasmaEruption", "localeName": "Plasma Eruption", "desc": "Increases the number of lightning bolts released by <color=#FFD780FF>Lightning Rose</color> by 1-3." },
+    { "name": "Electrocute", "localeName": "Electrocute", "desc": "Increases the Level of <color=#FFD780FF>Violet Arc</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "PulsatingWitch", "localeName": "Pulsating Witch", "desc": "When Lisa takes the field, she applies 3 stacks of <color=#FFD780FF>Violet Arc</color>'s Conductive status onto nearby opponents.\nThis effect can only occur once every 5s." }
   ],
   "overviewItems": [
-    { "id": "VajradaAmethystGemstone", "name": "Vajrada Amethyst Gemstone", "rarity": 5 },
-    { "id": "LightningPrism", "name": "Lightning Prism", "rarity": 4 },
-    { "id": "Valberry", "name": "Valberry" },
-    { "id": "SlimeConcentrate", "name": "Slime Concentrate", "rarity": 3 },
-    { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "rarity": 4 },
-    { "id": "DvalinsClaw", "name": "Dvalin's Claw", "rarity": 5 }
+    { "id": "VajradaAmethystGemstone", "localeName": "Vajrada Amethyst Gemstone", "rarity": 5 },
+    { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4 },
+    { "id": "Valberry", "localeName": "Valberry" },
+    { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3 },
+    { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4 },
+    { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5 }
   ]
 }

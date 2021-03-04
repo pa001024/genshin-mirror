@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VajradaAmethystSliver", "name": "最勝のアメシスト·砕屑", "count": 1 },
-        { "id": "Wolfhook", "name": "ググプラム", "count": 3 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 3 }
+        { "id": "VajradaAmethystSliver", "localeName": "最勝のアメシスト·砕屑", "rarity": 2, "count": 1 },
+        { "id": "Wolfhook", "localeName": "ググプラム", "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 3 }
       ],
       "HP": 749.27,
       "ATK": 14.634,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VajradaAmethystFragment", "name": "最勝のアメシスト·欠片", "count": 3 },
-        { "id": "LightningPrism", "name": "雷光のプリズム", "count": 2 },
-        { "id": "Wolfhook", "name": "ググプラム", "count": 10 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 15 }
+        { "id": "VajradaAmethystFragment", "localeName": "最勝のアメシスト·欠片", "rarity": 3, "count": 3 },
+        { "id": "LightningPrism", "localeName": "雷光のプリズム", "rarity": 4, "count": 2 },
+        { "id": "Wolfhook", "localeName": "ググプラム", "count": 10 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 15 }
       ],
       "HP": 1281.6,
       "ATK": 25.032,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VajradaAmethystFragment", "name": "最勝のアメシスト·欠片", "count": 6 },
-        { "id": "LightningPrism", "name": "雷光のプリズム", "count": 4 },
-        { "id": "Wolfhook", "name": "ググプラム", "count": 20 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 12 }
+        { "id": "VajradaAmethystFragment", "localeName": "最勝のアメシスト·欠片", "rarity": 3, "count": 6 },
+        { "id": "LightningPrism", "localeName": "雷光のプリズム", "rarity": 4, "count": 4 },
+        { "id": "Wolfhook", "localeName": "ググプラム", "count": 20 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 12 }
       ],
       "HP": 1991.5,
       "ATK": 38.896,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VajradaAmethystChunk", "name": "最勝のアメシスト·塊", "count": 3 },
-        { "id": "LightningPrism", "name": "雷光のプリズム", "count": 8 },
-        { "id": "Wolfhook", "name": "ググプラム", "count": 30 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 18 }
+        { "id": "VajradaAmethystChunk", "localeName": "最勝のアメシスト·塊", "rarity": 4, "count": 3 },
+        { "id": "LightningPrism", "localeName": "雷光のプリズム", "rarity": 4, "count": 8 },
+        { "id": "Wolfhook", "localeName": "ググプラム", "count": 30 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 18 }
       ],
       "HP": 2523.9,
       "ATK": 49.294,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VajradaAmethystChunk", "name": "最勝のアメシスト·塊", "count": 6 },
-        { "id": "LightningPrism", "name": "雷光のプリズム", "count": 12 },
-        { "id": "Wolfhook", "name": "ググプラム", "count": 45 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 12 }
+        { "id": "VajradaAmethystChunk", "localeName": "最勝のアメシスト·塊", "rarity": 4, "count": 6 },
+        { "id": "LightningPrism", "localeName": "雷光のプリズム", "rarity": 4, "count": 12 },
+        { "id": "Wolfhook", "localeName": "ググプラム", "count": 45 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 12 }
       ],
       "HP": 3056.2,
       "ATK": 59.692,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VajradaAmethystGemstone", "name": "最勝のアメシスト", "count": 6 },
-        { "id": "LightningPrism", "name": "雷光のプリズム", "count": 20 },
-        { "id": "Wolfhook", "name": "ググプラム", "count": 60 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 24 }
+        { "id": "VajradaAmethystGemstone", "localeName": "最勝のアメシスト", "rarity": 5, "count": 6 },
+        { "id": "LightningPrism", "localeName": "雷光のプリズム", "rarity": 4, "count": 20 },
+        { "id": "Wolfhook", "localeName": "ググプラム", "count": 60 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 24 }
       ],
       "HP": 3588.6,
       "ATK": 70.09,
@@ -92,18 +92,11 @@
   "ascensionType": 33,
   "element": 3,
   "elemSkill": {
-    "name": "鋭い爪と蒼雷",
+    "name": "ClawAndThunder",
+    "localeName": "鋭い爪と蒼雷",
     "desc": "師匠と「家族」に教わった方法で、獲物を片付ける。\n\n<color=#FFD780FF>一回押し</color>\n雷狼の爪を振り、前方の敵に<color=#FFACFFFF>雷元素ダメージ</color>を与える。\n敵に命中すると、雷の印を1つ蓄積し、レザーの元素チャージ効率がアップする。\n雷の印は同時に最大3つまで存在でき、新しい雷の印を獲得すると全ての雷の印の継続時間がリセットされる。\n\n<color=#FFD780FF>長押し</color>\n雷の力を集めて狭範囲の雷爆発を起こし、大量の<color=#FFACFFFF>雷元素ダメージ</color>を与える。同時に、レザーの雷の印を全て取り除く。\n取り除かれた雷の印は全てレザーの元素エネルギーに変換される。\n\n<i>雷が落ちる瞬間、レザーの魂の奥に眠る獲物を狙う眼光が垣間見える。</i>",
     "cd": 6,
-    "paramTpls": [
-      "一回押しスキルダメージ|{param1:P}",
-      "長押しスキルダメージ|{param2:P}",
-      "雷の印による回復率上昇|1つにつき{param3:P}",
-      "雷の印吸収によるエネルギー回復|1つにつき{param4:F1}",
-      "雷の印の継続時間|{param5:F1}秒",
-      "一回押しクールタイム|{param6:F1}秒",
-      "長押しクールタイム|{param7:F1}秒"
-    ],
+    "paramTpls": ["一回押しスキルダメージ|{param1:P}", "長押しスキルダメージ|{param2:P}", "雷の印による回復率上昇|1つにつき{param3:P}", "雷の印吸収によるエネルギー回復|1つにつき{param4:F1}", "雷の印の継続時間|{param5:F1}秒", "一回押しクールタイム|{param6:F1}秒", "長押しクールタイム|{param7:F1}秒"],
     "paramVals": [
       [1.992, 2.952, 0.2, 5, 18, 6, 10],
       [2.1414, 3.1734, 0.2, 5, 18, 6, 10],
@@ -123,62 +116,55 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」の教え", "count": 3 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」の教え", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 2 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 4 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 6 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 9 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 4 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 4 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 6 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 6 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 12 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 9 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 16 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 12 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "雷牙",
+    "name": "LightningFang",
+    "localeName": "雷牙",
     "desc": "無形の雷狼を召喚して自身を守り、周囲の敵に<color=#FFACFFFF>雷元素ダメージ</color>を与える。同時に、雷の印を消耗して自身の元素エネルギーを回復する。\n雷狼が存在している間、レザーと共に戦う。\n\n<color=#FFD780FF>雷狼</color>\n·レザーの通常攻撃に協力し、<color=#FFACFFFF>雷元素ダメージ</color>を与える。\n·レザーの攻撃速度と<color=#FFACFFFF>雷元素耐性</color>がアップする。\n·<color=#FFACFFFF>感電</color>反応によるダメージを無効化する。\n·重撃の発動が不可になる。\n·レザーの中断耐性がアップする。\n\nレザーが退場する時、効果が解除される。\n退場時、残り時間を基準に、元素エネルギーを最大10まで回復する。\n\n<i>狼は目覚め、狩りの時間がやって来た。</i>",
     "cd": 20,
     "energyCost": 80,
-    "paramTpls": [
-      "爆発ダメージ|{param1:P}",
-      "狼の魂のダメージ|通常攻撃ダメージ{param2:F1P}",
-      "通常攻撃速度上昇|{param3:P}",
-      "雷元素耐性上昇|{param4:P}",
-      "継続時間|{param5:F1}秒",
-      "クールタイム|{param6:F1}秒",
-      "元素エネルギー|{param7:I}"
-    ],
+    "paramTpls": ["爆発ダメージ|{param1:P}", "狼の魂のダメージ|通常攻撃ダメージ{param2:F1P}", "通常攻撃速度上昇|{param3:P}", "雷元素耐性上昇|{param4:P}", "継続時間|{param5:F1}秒", "クールタイム|{param6:F1}秒", "元素エネルギー|{param7:I}"],
     "paramVals": [
       [1.6, 0.24, 0.26, 0.8, 15, 20, 80],
       [1.72, 0.258, 0.28, 0.8, 15, 20, 80],
@@ -198,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」の教え", "count": 3 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」の教え", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 2 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 4 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 6 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 9 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 4 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 4 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 6 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 6 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 12 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 9 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 16 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 12 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "通常攻撃·鋼の脊",
+    "name": "NormalAttackSteelFang",
+    "localeName": "通常攻撃·鋼の脊",
     "desc": "<color=#FFD780FF>通常攻撃</color>\n最大4段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n持続的にスタミナを消費し、大剣を振り回して周囲の敵を攻撃する。\n重撃が終了した時に、さらに強力な攻撃を1回放つ。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
     "cd": 0,
     "paramTpls": [
@@ -275,74 +262,71 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」の教え", "count": 3 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」の教え", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 2 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 4 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 6 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 9 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 4 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 4 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 6 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 6 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 12 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 9 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 16 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 12 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    {
-      "name": "覚醒",
-      "desc": "<color=#FFD780FF>鋭い爪と蒼雷</color>のクールタイム-18%。\n<color=#FFD780FF>雷牙</color>を放つ時、<color=#FFD780FF>鋭い爪と蒼雷</color>のクールタイムをリセットする。",
-      "unlock": 1
-    },
-    { "name": "飢餓", "desc": "レザーの元素エネルギーが50%以下になると、元素チャージ効率+30%。", "unlock": 4 },
-    { "name": "奔狼", "desc": "チーム内の自身のキャラクター全員がダッシュに消費するスタミナ-20%。\n同じ効果を持つ固有天赋との重ね掛け不可。" }
+    { "name": "Awakening", "localeName": "覚醒", "desc": "<color=#FFD780FF>鋭い爪と蒼雷</color>のクールタイム-18%。\n<color=#FFD780FF>雷牙</color>を放つ時、<color=#FFD780FF>鋭い爪と蒼雷</color>のクールタイムをリセットする。", "unlock": 1 },
+    { "name": "Hunger", "localeName": "飢餓", "desc": "レザーの元素エネルギーが50%以下になると、元素チャージ効率+30%。", "unlock": 4 },
+    { "name": "Wolvensprint", "localeName": "奔狼", "desc": "チーム内の自身のキャラクター全員がダッシュに消費するスタミナ-20%。\n同じ効果を持つ固有天赋との重ね掛け不可。" }
   ],
   "c13ns": [
-    { "name": "狼の性", "desc": "レザーが元素オーブまたは元素粒子を獲得した8秒間、与えるダメージ+10%。" },
-    { "name": "制圧", "desc": "HPが30%以下の敵を攻撃する時、会心率+10%。" },
-    { "name": "獣の魂", "desc": "<color=#FFD780FF>雷牙</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "噛みつく", "desc": "<color=#FFD780FF>鋭い爪と蒼雷</color>の一回押しで攻撃した時、命中した敵の防御力-15%、継続時間7秒。" },
-    { "name": "鋭い爪", "desc": "<color=#FFD780FF>鋭い爪と蒼雷</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "WolfsInstinct", "localeName": "狼の性", "desc": "レザーが元素オーブまたは元素粒子を獲得した8秒間、与えるダメージ+10%。" },
+    { "name": "Suppression", "localeName": "制圧", "desc": "HPが30%以下の敵を攻撃する時、会心率+10%。" },
+    { "name": "SoulCompanion", "localeName": "獣の魂", "desc": "<color=#FFD780FF>雷牙</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "Bite", "localeName": "噛みつく", "desc": "<color=#FFD780FF>鋭い爪と蒼雷</color>の一回押しで攻撃した時、命中した敵の防御力-15%、継続時間7秒。" },
+    { "name": "SharpenedClaws", "localeName": "鋭い爪", "desc": "<color=#FFD780FF>鋭い爪と蒼雷</color>のスキルLv.+3。\n最大Lv.15まで。" },
     {
-      "name": "天狼",
+      "name": "LupusFulguris",
+      "localeName": "天狼",
       "desc": "10秒毎に、レザーの大剣が自動的にエネルギーを溜め、次の通常攻撃に落雷を引き起こし、攻撃力100%分の<color=#FFACFFFF>雷元素ダメージ</color>を与える。\n<color=#FFD780FF>雷牙</color>状態でない時、落雷が敵に命中すると、レザーに<color=#FFD780FF>鋭い爪と蒼雷</color>の雷の印を1重付与する。"
     }
   ],
   "overviewItems": [
-    { "id": "VajradaAmethystGemstone", "name": "最勝のアメシスト", "rarity": 5 },
-    { "id": "LightningPrism", "name": "雷光のプリズム", "rarity": 4 },
-    { "id": "Wolfhook", "name": "ググプラム" },
-    { "id": "OminousMask", "name": "不吉な仮面", "rarity": 3 },
-    { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "rarity": 4 },
-    { "id": "DvalinsClaw", "name": "東風の爪", "rarity": 5 }
+    { "id": "VajradaAmethystGemstone", "localeName": "最勝のアメシスト", "rarity": 5 },
+    { "id": "LightningPrism", "localeName": "雷光のプリズム", "rarity": 4 },
+    { "id": "Wolfhook", "localeName": "ググプラム" },
+    { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3 },
+    { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4 },
+    { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5 }
   ]
 }

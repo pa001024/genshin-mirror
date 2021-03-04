@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VajradaAmethystSliver", "name": "Vajrada Amethyst Sliver", "count": 1 },
-        { "id": "CorLapis", "name": "Cor Lapis", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 3 }
+        { "id": "VajradaAmethystSliver", "localeName": "Vajrada Amethyst Sliver", "rarity": 2, "count": 1 },
+        { "id": "CorLapis", "localeName": "Cor Lapis", "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "Whopperflower Nectar", "rarity": 1, "count": 3 }
       ],
       "HP": 874.6,
       "ATK": 21.551,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VajradaAmethystFragment", "name": "Vajrada Amethyst Fragment", "count": 3 },
-        { "id": "LightningPrism", "name": "Lightning Prism", "count": 2 },
-        { "id": "CorLapis", "name": "Cor Lapis", "count": 10 },
-        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 15 }
+        { "id": "VajradaAmethystFragment", "localeName": "Vajrada Amethyst Fragment", "rarity": 3, "count": 3 },
+        { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4, "count": 2 },
+        { "id": "CorLapis", "localeName": "Cor Lapis", "count": 10 },
+        { "id": "WhopperflowerNectar", "localeName": "Whopperflower Nectar", "rarity": 1, "count": 15 }
       ],
       "HP": 1496,
       "ATK": 36.864,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VajradaAmethystFragment", "name": "Vajrada Amethyst Fragment", "count": 6 },
-        { "id": "LightningPrism", "name": "Lightning Prism", "count": 4 },
-        { "id": "CorLapis", "name": "Cor Lapis", "count": 20 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 12 }
+        { "id": "VajradaAmethystFragment", "localeName": "Vajrada Amethyst Fragment", "rarity": 3, "count": 6 },
+        { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4, "count": 4 },
+        { "id": "CorLapis", "localeName": "Cor Lapis", "count": 20 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 12 }
       ],
       "HP": 2324.6,
       "ATK": 57.281,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VajradaAmethystChunk", "name": "Vajrada Amethyst Chunk", "count": 3 },
-        { "id": "LightningPrism", "name": "Lightning Prism", "count": 8 },
-        { "id": "CorLapis", "name": "Cor Lapis", "count": 30 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 18 }
+        { "id": "VajradaAmethystChunk", "localeName": "Vajrada Amethyst Chunk", "rarity": 4, "count": 3 },
+        { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4, "count": 8 },
+        { "id": "CorLapis", "localeName": "Cor Lapis", "count": 30 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 18 }
       ],
       "HP": 2946,
       "ATK": 72.593,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VajradaAmethystChunk", "name": "Vajrada Amethyst Chunk", "count": 6 },
-        { "id": "LightningPrism", "name": "Lightning Prism", "count": 12 },
-        { "id": "CorLapis", "name": "Cor Lapis", "count": 45 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 12 }
+        { "id": "VajradaAmethystChunk", "localeName": "Vajrada Amethyst Chunk", "rarity": 4, "count": 6 },
+        { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4, "count": 12 },
+        { "id": "CorLapis", "localeName": "Cor Lapis", "count": 45 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 12 }
       ],
       "HP": 3567.5,
       "ATK": 87.906,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VajradaAmethystGemstone", "name": "Vajrada Amethyst Gemstone", "count": 6 },
-        { "id": "LightningPrism", "name": "Lightning Prism", "count": 20 },
-        { "id": "CorLapis", "name": "Cor Lapis", "count": 60 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 24 }
+        { "id": "VajradaAmethystGemstone", "localeName": "Vajrada Amethyst Gemstone", "rarity": 5, "count": 6 },
+        { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4, "count": 20 },
+        { "id": "CorLapis", "localeName": "Cor Lapis", "count": 60 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 24 }
       ],
       "HP": 4188.9,
       "ATK": 103.22,
@@ -92,7 +92,8 @@
   "ascensionType": 13,
   "element": 3,
   "elemSkill": {
-    "name": "Stellar Restoration",
+    "name": "StellarRestoration",
+    "localeName": "Stellar Restoration",
     "desc": "Hurls a Lightning Stiletto that annihilates her opponents like the swift thunder.\nWhen the Stiletto hits its target, it deals <color=#FFACFFFF>Electro DMG</color> to opponents in a small AoE, and places a Stiletto Mark on the spot hit.\n\n<color=#FFD780FF>Hold</color>\nHold to adjust the direction in which the Stiletto shall be thrown.\nStilettos thrown by the Hold attack mode can be suspended in mid-air, allowing Keqing to jump to them when using Stellar Restoration a second time.\n\n<color=#FFD780FF>Lightning Stiletto</color>\n If Keqing uses Stellar Restoration again or uses a Charged Attack while its duration lasts, it will clear the Stiletto Mark and produce different effects:\n·If she uses Stellar Restoration again, she will blink to the location of the Mark and unleash one slashing attack that deals <color=#FFACFFFF>AoE Electro DMG</color>. When blinking to a Stiletto that was thrown from a Holding attack, Keqing can leap across obstructing terrain.\n·If Keqing uses a Charged Attack, she will ignite a series of thundering cuts at the Mark's location, dealing <color=#FFACFFFF>AoE Electro DMG</color>.\n\n<i>\"Humans are like moths, endlessly chasing the flame we call gods and adepti. But this light that I have here is my own.\"</i>",
     "cd": 7.5,
     "paramTpls": ["Lightning Stiletto DMG|{param1:F1P}", "Slashing DMG|{param2:P}", "Thunderclap Slash DMG|{param3:F1P}×2", "CD|{param4:F1}s"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "Teachings of Prosperity", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "Teachings of Prosperity", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "Whopperflower Nectar", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 4 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 4 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 6 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 6 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 12 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 9 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 16 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 12 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "Starward Sword",
+    "name": "StarwardSword",
+    "localeName": "Starward Sword",
     "desc": "Keqing unleashes the power of lightning, dealing <color=#FFACFFFF>Electro DMG</color> in an AOE.\nShe then blends into the shadow of her blade, striking a series of thunderclap-blows to nearby opponents simultaneously that deal multiple instances of <color=#FFACFFFF>Electro DMG</color>. The final attack deals massive <color=#FFACFFFF>AoE Electro DMG</color>.\n\n<i>The swiftest technique in Keqing's personal arsenal is fast enough to bring stars crashing down.</i>",
     "cd": 12,
     "energyCost": 40,
@@ -182,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "Teachings of Prosperity", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "Teachings of Prosperity", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "Whopperflower Nectar", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 4 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 4 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 6 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 6 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 12 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 9 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 16 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 12 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "Normal Attack: Yunlai Swordsmanship",
+    "name": "NormalAttackYunlaiSwordsmanship",
+    "localeName": "Normal Attack: Yunlai Swordsmanship",
     "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "cd": 0,
     "paramTpls": [
@@ -258,89 +261,77 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "Teachings of Prosperity", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "Teachings of Prosperity", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "Whopperflower Nectar", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 4 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 4 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 6 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 6 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 12 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 9 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 16 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 12 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    {
-      "name": "Thundering Penance",
-      "desc": "After recasting <color=#FFD780FF>Stellar Restoration</color> while a Lightning Stiletto is present, Keqing's weapon gains an <color=#FFACFFFF>Electro Infusion</color> for 5s.",
-      "unlock": 1,
-      "values": [5]
-    },
-    {
-      "name": "Aristocratic Dignity",
-      "desc": "When casting <color=#FFD780FF>Starward Sword</color>, Keqing's CRIT Rate is increased by 15%, and her Energy Recharge is increased by 15%. This effect lasts for 8s.",
-      "unlock": 4,
-      "values": [0.15, 0.15, 8]
-    },
-    { "name": "Land's Overseer", "desc": "When dispatched on an expedition in Liyue, time consumed is reduced by 25%." }
+    { "name": "ThunderingPenance", "localeName": "Thundering Penance", "desc": "After recasting <color=#FFD780FF>Stellar Restoration</color> while a Lightning Stiletto is present, Keqing's weapon gains an <color=#FFACFFFF>Electro Infusion</color> for 5s.", "unlock": 1, "values": [5] },
+    { "name": "AristocraticDignity", "localeName": "Aristocratic Dignity", "desc": "When casting <color=#FFD780FF>Starward Sword</color>, Keqing's CRIT Rate is increased by 15%, and her Energy Recharge is increased by 15%. This effect lasts for 8s.", "unlock": 4, "values": [0.15, 0.15, 8] },
+    { "name": "LandsOverseer", "localeName": "Land's Overseer", "desc": "When dispatched on an expedition in Liyue, time consumed is reduced by 25%." }
   ],
   "c13ns": [
     {
-      "name": "Thundering Might",
+      "name": "ThunderingMight",
+      "localeName": "Thundering Might",
       "desc": "Recasting <color=#FFD780FF>Stellar Restoration</color> while a Lightning Stiletto is present causes Keqing to deal 50% of her ATK as <color=#FFACFFFF>AoE Electro DMG</color> at the start point and terminus of her Blink.",
       "values": [0.5]
     },
+    { "name": "KeenExtraction", "localeName": "Keen Extraction", "desc": "When Keqing's Normal and Charged Attacks hit opponents affected by <color=#FFACFFFF>Electro</color>, they have a 50% chance of producing an Elemental Particle.\nThis effect can only occur once every 5s.", "values": [0.5, 5] },
+    { "name": "ForeseenReformation", "localeName": "Foreseen Reformation", "desc": "Increases the Level of <color=#FFD780FF>Starward Sword</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "Attunement", "localeName": "Attunement", "desc": "For 10s after Keqing triggers an <color=#FFACFFFF>Electro-related Elemental Reaction</color>, her ATK is increased by 25%.", "values": [10, 0.25] },
+    { "name": "BeckoningStars", "localeName": "Beckoning Stars", "desc": "Increases the Level of <color=#FFD780FF>Stellar Restoration</color> by 3.\nMaximum upgrade level is 15." },
     {
-      "name": "Keen Extraction",
-      "desc": "When Keqing's Normal and Charged Attacks hit opponents affected by <color=#FFACFFFF>Electro</color>, they have a 50% chance of producing an Elemental Particle.\nThis effect can only occur once every 5s.",
-      "values": [0.5, 5]
-    },
-    { "name": "Foreseen Reformation", "desc": "Increases the Level of <color=#FFD780FF>Starward Sword</color> by 3.\nMaximum upgrade level is 15." },
-    { "name": "Attunement", "desc": "For 10s after Keqing triggers an <color=#FFACFFFF>Electro-related Elemental Reaction</color>, her ATK is increased by 25%.", "values": [10, 0.25] },
-    { "name": "Beckoning Stars", "desc": "Increases the Level of <color=#FFD780FF>Stellar Restoration</color> by 3.\nMaximum upgrade level is 15." },
-    {
-      "name": "Tenacious Star",
+      "name": "TenaciousStar",
+      "localeName": "Tenacious Star",
       "desc": "When initiating a Normal Attack, a Charged Attack, Elemental Skill or Elemental Burst, Keqing gains a 6% <color=#FFACFFFF>Electro DMG Bonus</color> for 8s.\nEffects triggered by Normal Attacks, Charged Attacks, Elemental Skills and Elemental Bursts are considered independent entities.",
       "values": [0.06, 8]
     }
   ],
   "overviewItems": [
-    { "id": "VajradaAmethystGemstone", "name": "Vajrada Amethyst Gemstone", "rarity": 5 },
-    { "id": "LightningPrism", "name": "Lightning Prism", "rarity": 4 },
-    { "id": "CorLapis", "name": "Cor Lapis" },
-    { "id": "EnergyNectar", "name": "Energy Nectar", "rarity": 3 },
-    { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "rarity": 4 },
-    { "id": "RingOfBoreas", "name": "Ring of Boreas", "rarity": 5 }
+    { "id": "VajradaAmethystGemstone", "localeName": "Vajrada Amethyst Gemstone", "rarity": 5 },
+    { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4 },
+    { "id": "CorLapis", "localeName": "Cor Lapis" },
+    { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3 },
+    { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4 },
+    { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5 }
   ]
 }

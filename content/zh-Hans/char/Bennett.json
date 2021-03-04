@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "AgnidusAgateSliver", "name": "燃愿玛瑙碎屑", "count": 1 },
-        { "id": "WindwheelAster", "name": "风车菊", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "寻宝鸦印", "count": 3 }
+        { "id": "AgnidusAgateSliver", "localeName": "燃愿玛瑙碎屑", "rarity": 2, "count": 1 },
+        { "id": "WindwheelAster", "localeName": "风车菊", "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "寻宝鸦印", "rarity": 1, "count": 3 }
       ],
       "HP": 776.52,
       "ATK": 11.973,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "燃愿玛瑙断片", "count": 3 },
-        { "id": "EverflameSeed", "name": "常燃火种", "count": 2 },
-        { "id": "WindwheelAster", "name": "风车菊", "count": 10 },
-        { "id": "TreasureHoarderInsignia", "name": "寻宝鸦印", "count": 15 }
+        { "id": "AgnidusAgateFragment", "localeName": "燃愿玛瑙断片", "rarity": 3, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "常燃火种", "rarity": 4, "count": 2 },
+        { "id": "WindwheelAster", "localeName": "风车菊", "count": 10 },
+        { "id": "TreasureHoarderInsignia", "localeName": "寻宝鸦印", "rarity": 1, "count": 15 }
       ],
       "HP": 1328.3,
       "ATK": 20.481,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "燃愿玛瑙断片", "count": 6 },
-        { "id": "EverflameSeed", "name": "常燃火种", "count": 4 },
-        { "id": "WindwheelAster", "name": "风车菊", "count": 20 },
-        { "id": "SilverRavenInsignia", "name": "藏银鸦印", "count": 12 }
+        { "id": "AgnidusAgateFragment", "localeName": "燃愿玛瑙断片", "rarity": 3, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃火种", "rarity": 4, "count": 4 },
+        { "id": "WindwheelAster", "localeName": "风车菊", "count": 20 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 12 }
       ],
       "HP": 2063.9,
       "ATK": 31.824,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "燃愿玛瑙块", "count": 3 },
-        { "id": "EverflameSeed", "name": "常燃火种", "count": 8 },
-        { "id": "WindwheelAster", "name": "风车菊", "count": 30 },
-        { "id": "SilverRavenInsignia", "name": "藏银鸦印", "count": 18 }
+        { "id": "AgnidusAgateChunk", "localeName": "燃愿玛瑙块", "rarity": 4, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "常燃火种", "rarity": 4, "count": 8 },
+        { "id": "WindwheelAster", "localeName": "风车菊", "count": 30 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 18 }
       ],
       "HP": 2615.6,
       "ATK": 40.332,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "燃愿玛瑙块", "count": 6 },
-        { "id": "EverflameSeed", "name": "常燃火种", "count": 12 },
-        { "id": "WindwheelAster", "name": "风车菊", "count": 45 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鸦印", "count": 12 }
+        { "id": "AgnidusAgateChunk", "localeName": "燃愿玛瑙块", "rarity": 4, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃火种", "rarity": 4, "count": 12 },
+        { "id": "WindwheelAster", "localeName": "风车菊", "count": 45 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 12 }
       ],
       "HP": 3167.4,
       "ATK": 48.839,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "AgnidusAgateGemstone", "name": "燃愿玛瑙", "count": 6 },
-        { "id": "EverflameSeed", "name": "常燃火种", "count": 20 },
-        { "id": "WindwheelAster", "name": "风车菊", "count": 60 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鸦印", "count": 24 }
+        { "id": "AgnidusAgateGemstone", "localeName": "燃愿玛瑙", "rarity": 5, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃火种", "rarity": 4, "count": 20 },
+        { "id": "WindwheelAster", "localeName": "风车菊", "count": 60 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 24 }
       ],
       "HP": 3719.1,
       "ATK": 57.346,
@@ -92,7 +92,8 @@
   "ascensionType": 10,
   "element": 6,
   "elemSkill": {
-    "name": "热情过载",
+    "name": "PassionOverload",
+    "localeName": "热情过载",
     "desc": "班尼特将火元素与冒险的热情凝聚在剑上。根据热情凝聚的程度，可能会发生不同的事情…\n\n<color=#FFD780FF>点按</color>\n快速向前挥出火焰一击，造成<color=#FF9999FF>火元素伤害</color>。\n\n<color=#FFD780FF>长按</color>\n根据长按时间进行蓄力，释放时依照蓄力段数造成不同的效果。\n·一段蓄力：发动二段攻击，造成<color=#FF9999FF>火元素伤害</color>并将敌人击飞；\n·二段蓄力：发动三段连续攻击，造成可观的<color=#FF9999FF>火元素伤害</color>。最后一击会发生爆炸，将班尼特与敌人同时击飞。被击飞时，班尼特不会受到伤害。\n\n<i>聚集热情与梦想与火元素的一击。但热情有时会过头，而火元素有时会爆炸。</i>",
     "cd": 5,
     "paramTpls": ["点按伤害|{param1:P}", "一段蓄力伤害|{param2:F1P}+{param3:F1P}", "二段蓄力伤害|{param4:F1P}+{param5:F1P}", "爆炸伤害|{param6:P}", "冷却时间|{param7:F1}/{param8:F1}/{param9:F1}秒"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」的教导", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "寻宝鸦印", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」的教导", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "寻宝鸦印", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 2 },
-        { "id": "SilverRavenInsignia", "name": "藏银鸦印", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 4 },
-        { "id": "SilverRavenInsignia", "name": "藏银鸦印", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 6 },
-        { "id": "SilverRavenInsignia", "name": "藏银鸦印", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 9 },
-        { "id": "SilverRavenInsignia", "name": "藏银鸦印", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 4 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鸦印", "count": 4 },
-        { "id": "DvalinsPlume", "name": "东风之翎", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 6 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鸦印", "count": 6 },
-        { "id": "DvalinsPlume", "name": "东风之翎", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 12 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鸦印", "count": 9 },
-        { "id": "DvalinsPlume", "name": "东风之翎", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 16 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鸦印", "count": 12 },
-        { "id": "DvalinsPlume", "name": "东风之翎", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智识之冕", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "美妙旅程",
+    "name": "FantasticVoyage",
+    "localeName": "美妙旅程",
     "desc": "班尼特进行腾跃轰击，造成<color=#FF9999FF>火元素伤害</color>，并生成鼓舞领域。\n\n<color=#FFD780FF>鼓舞领域</color>\n·领域内的角色如果生命值低于或等于70%，会持续恢复生命值，回复量受益于班尼特的最大生命值；\n·领域内的角色如果生命值高于70%，会基于班尼特的基础攻击力，以一定比例获得攻击力加成；\n·为其中的角色施加<color=#FF9999FF>火元素附着</color>。\n\n<i>班尼冒险团每一次探险之旅都充满意外风险。尽管唯一的成员班尼特更倾向于说这是「精彩、刺激又美妙的旅程」。</i>",
     "cd": 15,
     "energyCost": 60,
@@ -182,63 +184,54 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」的教导", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "寻宝鸦印", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」的教导", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "寻宝鸦印", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 2 },
-        { "id": "SilverRavenInsignia", "name": "藏银鸦印", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 4 },
-        { "id": "SilverRavenInsignia", "name": "藏银鸦印", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 6 },
-        { "id": "SilverRavenInsignia", "name": "藏银鸦印", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 9 },
-        { "id": "SilverRavenInsignia", "name": "藏银鸦印", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 4 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鸦印", "count": 4 },
-        { "id": "DvalinsPlume", "name": "东风之翎", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 6 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鸦印", "count": 6 },
-        { "id": "DvalinsPlume", "name": "东风之翎", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 12 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鸦印", "count": 9 },
-        { "id": "DvalinsPlume", "name": "东风之翎", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 16 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鸦印", "count": 12 },
-        { "id": "DvalinsPlume", "name": "东风之翎", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智识之冕", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "普通攻击·好运剑",
+    "name": "NormalAttackStrikeOfFortune",
+    "localeName": "普通攻击·好运剑",
     "desc": "<color=#FFD780FF>普通攻击</color>\n进行至多五段的连续剑击。\n\n<color=#FFD780FF>重击</color>\n消耗一定体力，瞬间向前方挥出两剑。\n\n<color=#FFD780FF>下落攻击</color>\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
     "cd": 0,
-    "paramTpls": [
-      "一段伤害|{param1:F1P}",
-      "二段伤害|{param2:F1P}",
-      "三段伤害|{param3:F1P}",
-      "四段伤害|{param4:F1P}",
-      "五段伤害|{param5:F1P}",
-      "重击伤害|{param6:F1P}+{param7:F1P}",
-      "重击体力消耗|{param8:F1}点",
-      "下坠期间伤害|{param9:F1P}",
-      "低空/高空坠地冲击伤害|{param10:P}/{param11:P}"
-    ],
+    "paramTpls": ["一段伤害|{param1:F1P}", "二段伤害|{param2:F1P}", "三段伤害|{param3:F1P}", "四段伤害|{param4:F1P}", "五段伤害|{param5:F1P}", "重击伤害|{param6:F1P}+{param7:F1P}", "重击体力消耗|{param8:F1}点", "下坠期间伤害|{param9:F1P}", "低空/高空坠地冲击伤害|{param10:P}/{param11:P}"],
     "paramVals": [
       [0.44548, 0.42742, 0.5461, 0.59684, 0.71896, 0.559, 0.60716, 20, 0.63932, 1.2784, 1.5968],
       [0.48174, 0.46221, 0.59055, 0.64542, 0.77748, 0.6045, 0.65658, 20, 0.69136, 1.3824, 1.7267],
@@ -258,71 +251,67 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」的教导", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "寻宝鸦印", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」的教导", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "寻宝鸦印", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 2 },
-        { "id": "SilverRavenInsignia", "name": "藏银鸦印", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 4 },
-        { "id": "SilverRavenInsignia", "name": "藏银鸦印", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 6 },
-        { "id": "SilverRavenInsignia", "name": "藏银鸦印", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 9 },
-        { "id": "SilverRavenInsignia", "name": "藏银鸦印", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 4 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鸦印", "count": 4 },
-        { "id": "DvalinsPlume", "name": "东风之翎", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 6 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鸦印", "count": 6 },
-        { "id": "DvalinsPlume", "name": "东风之翎", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 12 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鸦印", "count": 9 },
-        { "id": "DvalinsPlume", "name": "东风之翎", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 16 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鸦印", "count": 12 },
-        { "id": "DvalinsPlume", "name": "东风之翎", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智识之冕", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "热情复燃", "desc": "<color=#FFD780FF>热情过载</color>的冷却时间减少20%。", "unlock": 1 },
-    { "name": "无畏的热血", "desc": "在<color=#FFD780FF>美妙旅程</color>领域内，<color=#FFD780FF>热情过载</color>具有如下效果：\n·冷却时间减少50%；\n·二段蓄力不会将班尼特自身击飞。", "unlock": 4 },
-    { "name": "应该安全", "desc": "在蒙德执行探索派遣任务时，消耗的时间缩短25%。" }
+    { "name": "Rekindle", "localeName": "热情复燃", "desc": "<color=#FFD780FF>热情过载</color>的冷却时间减少20%。", "unlock": 1 },
+    { "name": "Fearnaught", "localeName": "无畏的热血", "desc": "在<color=#FFD780FF>美妙旅程</color>领域内，<color=#FFD780FF>热情过载</color>具有如下效果：\n·冷却时间减少50%；\n·二段蓄力不会将班尼特自身击飞。", "unlock": 4 },
+    { "name": "ItShouldBeSafe", "localeName": "应该安全", "desc": "在蒙德执行探索派遣任务时，消耗的时间缩短25%。" }
   ],
   "c13ns": [
-    { "name": "冒险憧憬", "desc": "<color=#FFD780FF>美妙旅程</color>的攻击力提升效果不再有生命值限制，数值上追加班尼特基础攻击力的20%。", "values": [0.2] },
-    { "name": "踏破绝境", "desc": "班尼特的生命值低于70%时，元素充能效率提高30%。", "values": [0.7, 0.3] },
-    { "name": "火热激情", "desc": "<color=#FFD780FF>热情过载</color>的技能等级提高3级。\n至多提升至15级。" },
-    { "name": "热情不灭", "desc": "施放一段蓄力的<color=#FFD780FF>热情过载</color>时，在技能第二段攻击中进行普通攻击，可以施放额外的追击。\n追击的伤害等同于第二段攻击的135%。", "values": [1.35] },
-    { "name": "开拓的心魂", "desc": "<color=#FFD780FF>美妙旅程</color>的技能等级提高3级。\n至多提升至15级。" },
-    {
-      "name": "烈火与勇气",
-      "desc": "处在<color=#FFD780FF>美妙旅程</color>领域内的队伍中当前场上单手剑、双手剑、长柄武器角色获得15%<color=#FF9999FF>火元素伤害加成</color>，并获得<color=#FF9999FF>火元素附魔</color>。",
-      "values": [0.15]
-    }
+    { "name": "GrandExpectation", "localeName": "冒险憧憬", "desc": "<color=#FFD780FF>美妙旅程</color>的攻击力提升效果不再有生命值限制，数值上追加班尼特基础攻击力的20%。", "values": [0.2] },
+    { "name": "ImpasseConqueror", "localeName": "踏破绝境", "desc": "班尼特的生命值低于70%时，元素充能效率提高30%。", "values": [0.7, 0.3] },
+    { "name": "UnstoppableFervor", "localeName": "火热激情", "desc": "<color=#FFD780FF>热情过载</color>的技能等级提高3级。\n至多提升至15级。" },
+    { "name": "UnexpectedOdyssey", "localeName": "热情不灭", "desc": "施放一段蓄力的<color=#FFD780FF>热情过载</color>时，在技能第二段攻击中进行普通攻击，可以施放额外的追击。\n追击的伤害等同于第二段攻击的135%。", "values": [1.35] },
+    { "name": "TrueExplorer", "localeName": "开拓的心魂", "desc": "<color=#FFD780FF>美妙旅程</color>的技能等级提高3级。\n至多提升至15级。" },
+    { "name": "FireVenturesWithMe", "localeName": "烈火与勇气", "desc": "处在<color=#FFD780FF>美妙旅程</color>领域内的队伍中当前场上单手剑、双手剑、长柄武器角色获得15%<color=#FF9999FF>火元素伤害加成</color>，并获得<color=#FF9999FF>火元素附魔</color>。", "values": [0.15] }
   ],
   "overviewItems": [
-    { "id": "AgnidusAgateGemstone", "name": "燃愿玛瑙", "rarity": 5 },
-    { "id": "EverflameSeed", "name": "常燃火种", "rarity": 4 },
-    { "id": "WindwheelAster", "name": "风车菊" },
-    { "id": "GoldenRavenInsignia", "name": "攫金鸦印", "rarity": 3 },
-    { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "rarity": 4 },
-    { "id": "DvalinsPlume", "name": "东风之翎", "rarity": 5 }
+    { "id": "AgnidusAgateGemstone", "localeName": "燃愿玛瑙", "rarity": 5 },
+    { "id": "EverflameSeed", "localeName": "常燃火种", "rarity": 4 },
+    { "id": "WindwheelAster", "localeName": "风车菊" },
+    { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3 },
+    { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4 },
+    { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5 }
   ]
 }

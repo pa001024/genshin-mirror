@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "ShivadaJadeSliver", "name": "哀切なアイスクリスタル·砕屑", "count": 1 },
-        { "id": "CallaLily", "name": "ドドリアン", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "宝探しの鴉マーク", "count": 3 }
+        { "id": "ShivadaJadeSliver", "localeName": "哀切なアイスクリスタル·砕屑", "rarity": 2, "count": 1 },
+        { "id": "CallaLily", "localeName": "ドドリアン", "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "rarity": 1, "count": 3 }
       ],
       "HP": 728.84,
       "ATK": 13.969,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "ShivadaJadeFragment", "name": "哀切なアイスクリスタル·欠片", "count": 3 },
-        { "id": "HoarfrostCore", "name": "極寒のコア", "count": 2 },
-        { "id": "CallaLily", "name": "ドドリアン", "count": 10 },
-        { "id": "TreasureHoarderInsignia", "name": "宝探しの鴉マーク", "count": 15 }
+        { "id": "ShivadaJadeFragment", "localeName": "哀切なアイスクリスタル·欠片", "rarity": 3, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4, "count": 2 },
+        { "id": "CallaLily", "localeName": "ドドリアン", "count": 10 },
+        { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "rarity": 1, "count": 15 }
       ],
       "HP": 1246.7,
       "ATK": 23.894,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "ShivadaJadeFragment", "name": "哀切なアイスクリスタル·欠片", "count": 6 },
-        { "id": "HoarfrostCore", "name": "極寒のコア", "count": 4 },
-        { "id": "CallaLily", "name": "ドドリアン", "count": 20 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 12 }
+        { "id": "ShivadaJadeFragment", "localeName": "哀切なアイスクリスタル·欠片", "rarity": 3, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4, "count": 4 },
+        { "id": "CallaLily", "localeName": "ドドリアン", "count": 20 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 12 }
       ],
       "HP": 1937.2,
       "ATK": 37.128,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "ShivadaJadeChunk", "name": "哀切なアイスクリスタル·塊", "count": 3 },
-        { "id": "HoarfrostCore", "name": "極寒のコア", "count": 8 },
-        { "id": "CallaLily", "name": "ドドリアン", "count": 30 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 18 }
+        { "id": "ShivadaJadeChunk", "localeName": "哀切なアイスクリスタル·塊", "rarity": 4, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4, "count": 8 },
+        { "id": "CallaLily", "localeName": "ドドリアン", "count": 30 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 18 }
       ],
       "HP": 2455,
       "ATK": 47.053,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "ShivadaJadeChunk", "name": "哀切なアイスクリスタル·塊", "count": 6 },
-        { "id": "HoarfrostCore", "name": "極寒のコア", "count": 12 },
-        { "id": "CallaLily", "name": "ドドリアン", "count": 45 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 12 }
+        { "id": "ShivadaJadeChunk", "localeName": "哀切なアイスクリスタル·塊", "rarity": 4, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4, "count": 12 },
+        { "id": "CallaLily", "localeName": "ドドリアン", "count": 45 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 12 }
       ],
       "HP": 2972.9,
       "ATK": 56.979,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "ShivadaJadeGemstone", "name": "哀切なアイスクリスタル", "count": 6 },
-        { "id": "HoarfrostCore", "name": "極寒のコア", "count": 20 },
-        { "id": "CallaLily", "name": "ドドリアン", "count": 60 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 24 }
+        { "id": "ShivadaJadeGemstone", "localeName": "哀切なアイスクリスタル", "rarity": 5, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4, "count": 20 },
+        { "id": "CallaLily", "localeName": "ドドリアン", "count": 60 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 24 }
       ],
       "HP": 3490.7,
       "ATK": 66.904,
@@ -92,7 +92,8 @@
   "ascensionType": 10,
   "element": 7,
   "elemSkill": {
-    "name": "霜の襲撃",
+    "name": "Frostgnaw",
+    "localeName": "霜の襲撃",
     "desc": "急速に凍結する寒気を放ち、前方の敵に<color=#99FFFFFF>氷元素ダメージ</color>を与える。\n\n<i>優しくて親切なガイアだが、本当は誰にも溶かすことができない固い氷である。</i>",
     "cd": 6,
     "paramTpls": ["スキルダメージ|{param1:P}", "クールタイム|{param2:F1}秒"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "「詩文」の教え", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "宝探しの鴉マーク", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "「詩文」の教え", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 2 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 4 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 6 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 9 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 4 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 6 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 12 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 16 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "凛冽なる輪舞",
+    "name": "GlacialWaltz",
+    "localeName": "凛冽なる輪舞",
     "desc": "空気中の霜を凝集させ、自身を囲む氷柱を3本召喚する。\nスキル継続中、氷柱はキャラクターと共に動き、経路上の敵に<color=#99FFFFFF>氷元素ダメージ</color>を与える。\n\n<i>親切な笑顔と優しい言葉、そしてその二つに隠された無情の氷霜、それらは全てガイアの武器である。</i>",
     "cd": 15,
     "energyCost": 60,
@@ -182,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "「詩文」の教え", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "宝探しの鴉マーク", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "「詩文」の教え", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 2 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 4 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 6 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 9 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 4 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 6 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 12 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 16 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "通常攻撃·儀典の剣術",
+    "name": "NormalAttackCeremonialBladework",
+    "localeName": "通常攻撃·儀典の剣術",
     "desc": "<color=#FFD780FF>通常攻撃</color>\n剣による最大5段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、前方に斬撃を2回放つ。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
     "cd": 0,
     "paramTpls": [
@@ -258,74 +261,67 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "「詩文」の教え", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "宝探しの鴉マーク", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "「詩文」の教え", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 2 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 4 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 6 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 9 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 4 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 6 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 12 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 16 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "冷血の剣", "desc": "<color=#FFD780FF>霜の襲撃</color>が敵1体に命中する度、攻撃力15%分のHPを回復する。", "unlock": 1 },
-    {
-      "name": "氷淵の心",
-      "desc": "<color=#FFD780FF>霜の襲撃</color>が敵を<color=#99FFFFFF>凍結</color>状態にした場合、凍結された敵から追加の元素粒子が落ちる。\n1回の霜襲は2つの元素粒子が追加で発生する。",
-      "unlock": 4
-    },
-    { "name": "秘められた実力", "desc": "チーム内の自身のキャラクター全員がダッシュに消費するスタミナ-20%。\n同じ効果を持つ固有天赋との重ね掛け不可。" }
+    { "name": "ColdBloodedStrike", "localeName": "冷血の剣", "desc": "<color=#FFD780FF>霜の襲撃</color>が敵1体に命中する度、攻撃力15%分のHPを回復する。", "unlock": 1 },
+    { "name": "GlacialHeart", "localeName": "氷淵の心", "desc": "<color=#FFD780FF>霜の襲撃</color>が敵を<color=#99FFFFFF>凍結</color>状態にした場合、凍結された敵から追加の元素粒子が落ちる。\n1回の霜襲は2つの元素粒子が追加で発生する。", "unlock": 4 },
+    { "name": "HiddenStrength", "localeName": "秘められた実力", "desc": "チーム内の自身のキャラクター全員がダッシュに消費するスタミナ-20%。\n同じ効果を持つ固有天赋との重ね掛け不可。" }
   ],
   "c13ns": [
-    { "name": "優れた血筋", "desc": "<color=#99FFFFFF>氷元素</color>の影響を受けた敵に対して、ガイアの通常攻撃と重撃の会心率+15%。" },
-    { "name": "無尽なる霜舞", "desc": "<color=#FFD780FF>凛冽なる輪舞</color>継続中に敵を撃破した時、継続時間+2.5秒。最大15秒まで。" },
-    { "name": "凛冽なる戯れ", "desc": "<color=#FFD780FF>霜の襲撃</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    {
-      "name": "極寒の口付け",
-      "desc": "ガイアのHPが20%の時に自動で発動する：\nHP上限30%分のシールドを吸収するシールド生成する。継続時間20秒。\nシールドは<color=#99FFFFFF>氷元素ダメージ</color>に対して250%の吸収効果がある。\n60秒毎に1回のみ発動可能。"
-    },
-    { "name": "冷たい抱擁", "desc": "<color=#FFD780FF>凛冽なる輪舞</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "輪旋の氷", "desc": "<color=#FFD780FF>凛冽なる輪舞</color>の氷柱が1本追加され、発動時に元素エネルギーが15回復する。" }
+    { "name": "ExcellentBlood", "localeName": "優れた血筋", "desc": "<color=#99FFFFFF>氷元素</color>の影響を受けた敵に対して、ガイアの通常攻撃と重撃の会心率+15%。" },
+    { "name": "NeverEndingPerformance", "localeName": "無尽なる霜舞", "desc": "<color=#FFD780FF>凛冽なる輪舞</color>継続中に敵を撃破した時、継続時間+2.5秒。最大15秒まで。" },
+    { "name": "DanceOfFrost", "localeName": "凛冽なる戯れ", "desc": "<color=#FFD780FF>霜の襲撃</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "FrozenKiss", "localeName": "極寒の口付け", "desc": "ガイアのHPが20%の時に自動で発動する：\nHP上限30%分のシールドを吸収するシールド生成する。継続時間20秒。\nシールドは<color=#99FFFFFF>氷元素ダメージ</color>に対して250%の吸収効果がある。\n60秒毎に1回のみ発動可能。" },
+    { "name": "FrostbitingEmbrace", "localeName": "冷たい抱擁", "desc": "<color=#FFD780FF>凛冽なる輪舞</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "GlacialWhirlwind", "localeName": "輪旋の氷", "desc": "<color=#FFD780FF>凛冽なる輪舞</color>の氷柱が1本追加され、発動時に元素エネルギーが15回復する。" }
   ],
   "overviewItems": [
-    { "id": "ShivadaJadeGemstone", "name": "哀切なアイスクリスタル", "rarity": 5 },
-    { "id": "HoarfrostCore", "name": "極寒のコア", "rarity": 4 },
-    { "id": "CallaLily", "name": "ドドリアン" },
-    { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "rarity": 3 },
-    { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "rarity": 4 },
-    { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "rarity": 5 }
+    { "id": "ShivadaJadeGemstone", "localeName": "哀切なアイスクリスタル", "rarity": 5 },
+    { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4 },
+    { "id": "CallaLily", "localeName": "ドドリアン" },
+    { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3 },
+    { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4 },
+    { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5 }
   ]
 }

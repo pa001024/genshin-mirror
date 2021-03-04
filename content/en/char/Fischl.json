@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VajradaAmethystSliver", "name": "Vajrada Amethyst Sliver", "count": 1 },
-        { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 3 },
-        { "id": "FirmArrowhead", "name": "Firm Arrowhead", "count": 3 }
+        { "id": "VajradaAmethystSliver", "localeName": "Vajrada Amethyst Sliver", "rarity": 2, "count": 1 },
+        { "id": "SmallLampGrass", "localeName": "Small Lamp Grass", "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "rarity": 1, "count": 3 }
       ],
       "HP": 575.58,
       "ATK": 15.299,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VajradaAmethystFragment", "name": "Vajrada Amethyst Fragment", "count": 3 },
-        { "id": "LightningPrism", "name": "Lightning Prism", "count": 2 },
-        { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 10 },
-        { "id": "FirmArrowhead", "name": "Firm Arrowhead", "count": 15 }
+        { "id": "VajradaAmethystFragment", "localeName": "Vajrada Amethyst Fragment", "rarity": 3, "count": 3 },
+        { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4, "count": 2 },
+        { "id": "SmallLampGrass", "localeName": "Small Lamp Grass", "count": 10 },
+        { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "rarity": 1, "count": 15 }
       ],
       "HP": 984.54,
       "ATK": 26.17,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VajradaAmethystFragment", "name": "Vajrada Amethyst Fragment", "count": 6 },
-        { "id": "LightningPrism", "name": "Lightning Prism", "count": 4 },
-        { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 20 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 12 }
+        { "id": "VajradaAmethystFragment", "localeName": "Vajrada Amethyst Fragment", "rarity": 3, "count": 6 },
+        { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4, "count": 4 },
+        { "id": "SmallLampGrass", "localeName": "Small Lamp Grass", "count": 20 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 12 }
       ],
       "HP": 1529.8,
       "ATK": 40.664,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VajradaAmethystChunk", "name": "Vajrada Amethyst Chunk", "count": 3 },
-        { "id": "LightningPrism", "name": "Lightning Prism", "count": 8 },
-        { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 30 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 18 }
+        { "id": "VajradaAmethystChunk", "localeName": "Vajrada Amethyst Chunk", "rarity": 4, "count": 3 },
+        { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4, "count": 8 },
+        { "id": "SmallLampGrass", "localeName": "Small Lamp Grass", "count": 30 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 18 }
       ],
       "HP": 1938.8,
       "ATK": 51.535,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VajradaAmethystChunk", "name": "Vajrada Amethyst Chunk", "count": 6 },
-        { "id": "LightningPrism", "name": "Lightning Prism", "count": 12 },
-        { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 45 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 12 }
+        { "id": "VajradaAmethystChunk", "localeName": "Vajrada Amethyst Chunk", "rarity": 4, "count": 6 },
+        { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4, "count": 12 },
+        { "id": "SmallLampGrass", "localeName": "Small Lamp Grass", "count": 45 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 12 }
       ],
       "HP": 2347.7,
       "ATK": 62.405,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VajradaAmethystGemstone", "name": "Vajrada Amethyst Gemstone", "count": 6 },
-        { "id": "LightningPrism", "name": "Lightning Prism", "count": 20 },
-        { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 60 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 24 }
+        { "id": "VajradaAmethystGemstone", "localeName": "Vajrada Amethyst Gemstone", "rarity": 5, "count": 6 },
+        { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4, "count": 20 },
+        { "id": "SmallLampGrass", "localeName": "Small Lamp Grass", "count": 60 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 24 }
       ],
       "HP": 2756.7,
       "ATK": 73.276,
@@ -93,6 +93,7 @@
   "element": 3,
   "elemSkill": {
     "name": "Nightrider",
+    "localeName": "Nightrider",
     "desc": "#Summons Oz. The night raven forged of darkness and lightning descends upon the land, dealing <color=#FFACFFFF>Electro DMG</color> in a small AoE.\nFor the ability's duration, Oz will continuously attack nearby opponents with <color=#FFACFFFF>Freikugel</color>.\n\nHold to adjust the location Oz will be summoned to.\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} again any time during the ability's duration to once again summon him to Fischl's side.\n\n<i>\"My time is most precious, and I shall not waste it on the likes of you... Go, Oz, fall upon them, and bring down upon them your Rachsüchtig Blitz, that which tears open the long night.\"</i>\n<i>—Flowers for Princess Fischl (IV): Farewell Frau Welt</i>",
     "cd": 25,
     "paramTpls": ["Oz's ATK DMG|{param1:F1P}", "Summoning DMG|{param2:P}", "Oz's Duration|{param4:F1}s", "CD|{param5:F1}s"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "Teachings of Ballad", "count": 3 },
-        { "id": "FirmArrowhead", "name": "Firm Arrowhead", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "Teachings of Ballad", "rarity": 2, "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 2 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 2 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 4 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 4 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 6 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 6 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 9 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 9 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 4 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 4 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 6 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 6 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 12 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 12 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 16 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 16 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "Midnight Phantasmagoria",
+    "name": "MidnightPhantasmagoria",
+    "localeName": "Midnight Phantasmagoria",
     "desc": "Summons Oz to spread his twin wings of twilight and defend Fischl.\nHas the following properties during the ability's duration:\n·Fischl takes on Oz's form, greatly increasing her Movement Speed.\n·Strikes nearby opponents with lightning, dealing <color=#FFACFFFF>Electro DMG</color> to opponents she comes into contact with. Each opponent can only be struck once.\n·Once this ability's effects end, Oz will remain on the battlefield and attack his Prinzessin's foes. If Oz is already on the field, then this will reset the duration of his presence.\n\n<i>\"...In the hordes of beasts that follow the cursed blood, only Prince Nachtraben, who bore witness to the extinction of a thousand worlds, knows her true greatness. Thus the night wings he spreads are his eternal promise to protect Her Royal Highness.\"</i>\n<i>—Flowers for Princess Fischl (I): End Time Zersetzung</i>",
     "cd": 15,
     "energyCost": 60,
@@ -182,63 +184,54 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "Teachings of Ballad", "count": 3 },
-        { "id": "FirmArrowhead", "name": "Firm Arrowhead", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "Teachings of Ballad", "rarity": 2, "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 2 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 2 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 4 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 4 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 6 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 6 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 9 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 9 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 4 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 4 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 6 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 6 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 12 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 12 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 16 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 16 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "Normal Attack: Bolts of Downfall",
+    "name": "NormalAttackBoltsOfDownfall",
+    "localeName": "Normal Attack: Bolts of Downfall",
     "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 5 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, the dark lightning spirits of Immernachtreich shall heed the call of their Prinzessin and indwell the enchanted arrowhead. When fully indwelt, the Rachsüchtig Blitz shall deal immense <color=#FFACFFFF>Electro DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
     "cd": 0,
-    "paramTpls": [
-      "1-Hit DMG|{param1:F1P}",
-      "2-Hit DMG|{param2:F1P}",
-      "3-Hit DMG|{param3:F1P}",
-      "4-Hit DMG|{param4:F1P}",
-      "5-Hit DMG|{param5:F1P}",
-      "Aimed Shot|{param6:F1P}",
-      "Fully-Charged Aimed Shot|{param7:P}",
-      "Plunge DMG|{param8:F1P}",
-      "Low/High Plunge DMG|{param9:P}/{param10:P}"
-    ],
+    "paramTpls": ["1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", "4-Hit DMG|{param4:F1P}", "5-Hit DMG|{param5:F1P}", "Aimed Shot|{param6:F1P}", "Fully-Charged Aimed Shot|{param7:P}", "Plunge DMG|{param8:F1P}", "Low/High Plunge DMG|{param9:P}/{param10:P}"],
     "paramVals": [
       [0.44118, 0.46784, 0.58136, 0.57706, 0.72068, 0.4386, 1.24, 0.56829, 1.1363, 1.4193],
       [0.47709, 0.50592, 0.62868, 0.62403, 0.77934, 0.4743, 1.333, 0.61454, 1.2288, 1.5349],
@@ -258,89 +251,88 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "Teachings of Ballad", "count": 3 },
-        { "id": "FirmArrowhead", "name": "Firm Arrowhead", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "Teachings of Ballad", "rarity": 2, "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 2 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 2 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 4 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 4 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 6 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 6 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 9 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 9 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 4 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 4 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 6 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 6 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 12 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 12 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 16 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 16 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
+    { "name": "StellarPredator", "localeName": "Stellar Predator", "desc": "When Fischl hits Oz with a fully-charged Aimed Shot, Oz brings down Thundering Retribution, dealing <color=#FFACFFFF>AoE Electro DMG</color> equal to 152.7% of the arrow's DMG.", "unlock": 1, "values": [1.527] },
     {
-      "name": "Stellar Predator",
-      "desc": "When Fischl hits Oz with a fully-charged Aimed Shot, Oz brings down Thundering Retribution, dealing <color=#FFACFFFF>AoE Electro DMG</color> equal to 152.7% of the arrow's DMG.",
-      "unlock": 1,
-      "values": [1.527]
-    },
-    {
-      "name": "Undone Be Thy Sinful Hex",
+      "name": "UndoneBeThySinfulHex",
+      "localeName": "Undone Be Thy Sinful Hex",
       "desc": "If your current active character triggers an <color=#FFACFFFF>Electro-related Elemental Reaction</color> when Oz is on the field, the opponent shall be stricken with Thundering Retribution, dealing <color=#FFACFFFF>Electro DMG</color> equal to 80% of Fischl's ATK.",
       "unlock": 4,
       "values": [0.8]
     },
-    { "name": "Mein Hausgarten", "desc": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%." }
+    { "name": "MeinHausgarten", "localeName": "Mein Hausgarten", "desc": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%." }
   ],
   "c13ns": [
     {
-      "name": "Gaze of the Deep",
+      "name": "GazeOfTheDeep",
+      "localeName": "Gaze of the Deep",
       "desc": "Even when Oz is not present in combat, he can still watch over Fischl through his raven eyes. When Fischl performs a Normal Attack against an opponent, Oz fires a joint attack, dealing DMG equal to 22% of Fischl's ATK.",
       "values": [0.22]
     },
-    { "name": "Devourer of All Sins", "desc": "When <color=#FFD780FF>Nightrider</color> is used, it deals an additional 200% ATK as DMG, and its AoE is increased by 50%.", "values": [2] },
-    { "name": "Wings of Nightmare", "desc": "Increases the Level of <color=#FFD780FF>Nightrider</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "DevourerOfAllSins", "localeName": "Devourer of All Sins", "desc": "When <color=#FFD780FF>Nightrider</color> is used, it deals an additional 200% ATK as DMG, and its AoE is increased by 50%.", "values": [2] },
+    { "name": "WingsOfNightmare", "localeName": "Wings of Nightmare", "desc": "Increases the Level of <color=#FFD780FF>Nightrider</color> by 3.\nMaximum upgrade level is 15." },
     {
-      "name": "Her Pilgrimage of Bleak",
+      "name": "HerPilgrimageOfBleak",
+      "localeName": "Her Pilgrimage of Bleak",
       "desc": "When <color=#FFD780FF>Midnight Phantasmagoria</color> is used, it deals 222% of ATK as <color=#FFACFFFF>Electro DMG</color> to surrounding opponents.\nWhen the skill duration ends, Fischl regenerates 20% of her HP.",
       "values": [2.22, 0.2]
     },
-    { "name": "Against the Fleeing Light", "desc": "Increases the Level of <color=#FFD780FF>Midnight Phantasmagoria</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "AgainstTheFleeingLight", "localeName": "Against the Fleeing Light", "desc": "Increases the Level of <color=#FFD780FF>Midnight Phantasmagoria</color> by 3.\nMaximum upgrade level is 15." },
     {
-      "name": "Evernight Raven",
+      "name": "EvernightRaven",
+      "localeName": "Evernight Raven",
       "desc": "Extends the duration of Oz's presence on the field by 2s. Additionally, Oz performs joint attacks with your active character when present, dealing 30% of Fischl's ATK as <color=#FFACFFFF>Electro DMG</color>.",
       "values": [0.3, 2]
     }
   ],
   "overviewItems": [
-    { "id": "VajradaAmethystGemstone", "name": "Vajrada Amethyst Gemstone", "rarity": 5 },
-    { "id": "LightningPrism", "name": "Lightning Prism", "rarity": 4 },
-    { "id": "SmallLampGrass", "name": "Small Lamp Grass" },
-    { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "rarity": 3 },
-    { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "rarity": 4 },
-    { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "rarity": 5 }
+    { "id": "VajradaAmethystGemstone", "localeName": "Vajrada Amethyst Gemstone", "rarity": 5 },
+    { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4 },
+    { "id": "SmallLampGrass", "localeName": "Small Lamp Grass" },
+    { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3 },
+    { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4 },
+    { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5 }
   ]
 }

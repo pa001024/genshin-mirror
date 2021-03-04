@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VarunadaLazuriteSliver", "name": "Varunada Lazurite Sliver", "count": 1 },
-        { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom", "count": 3 },
-        { "id": "DiviningScroll", "name": "Divining Scroll", "count": 3 }
+        { "id": "VarunadaLazuriteSliver", "localeName": "Varunada Lazurite Sliver", "rarity": 2, "count": 1 },
+        { "id": "PhilanemoMushroom", "localeName": "Philanemo Mushroom", "count": 3 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 3 }
       ],
       "HP": 613.04,
       "ATK": 9.9778,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VarunadaLazuriteFragment", "name": "Varunada Lazurite Fragment", "count": 3 },
-        { "id": "CleansingHeart", "name": "Cleansing Heart", "count": 2 },
-        { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom", "count": 10 },
-        { "id": "DiviningScroll", "name": "Divining Scroll", "count": 15 }
+        { "id": "VarunadaLazuriteFragment", "localeName": "Varunada Lazurite Fragment", "rarity": 3, "count": 3 },
+        { "id": "CleansingHeart", "localeName": "Cleansing Heart", "rarity": 4, "count": 2 },
+        { "id": "PhilanemoMushroom", "localeName": "Philanemo Mushroom", "count": 10 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 15 }
       ],
       "HP": 1048.6,
       "ATK": 17.067,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VarunadaLazuriteFragment", "name": "Varunada Lazurite Fragment", "count": 6 },
-        { "id": "CleansingHeart", "name": "Cleansing Heart", "count": 4 },
-        { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom", "count": 20 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 12 }
+        { "id": "VarunadaLazuriteFragment", "localeName": "Varunada Lazurite Fragment", "rarity": 3, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "Cleansing Heart", "rarity": 4, "count": 4 },
+        { "id": "PhilanemoMushroom", "localeName": "Philanemo Mushroom", "count": 20 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 12 }
       ],
       "HP": 1629.4,
       "ATK": 26.52,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VarunadaLazuriteChunk", "name": "Varunada Lazurite Chunk", "count": 3 },
-        { "id": "CleansingHeart", "name": "Cleansing Heart", "count": 8 },
-        { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom", "count": 30 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 18 }
+        { "id": "VarunadaLazuriteChunk", "localeName": "Varunada Lazurite Chunk", "rarity": 4, "count": 3 },
+        { "id": "CleansingHeart", "localeName": "Cleansing Heart", "rarity": 4, "count": 8 },
+        { "id": "PhilanemoMushroom", "localeName": "Philanemo Mushroom", "count": 30 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 18 }
       ],
       "HP": 2065,
       "ATK": 33.61,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VarunadaLazuriteChunk", "name": "Varunada Lazurite Chunk", "count": 6 },
-        { "id": "CleansingHeart", "name": "Cleansing Heart", "count": 12 },
-        { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom", "count": 45 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 12 }
+        { "id": "VarunadaLazuriteChunk", "localeName": "Varunada Lazurite Chunk", "rarity": 4, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "Cleansing Heart", "rarity": 4, "count": 12 },
+        { "id": "PhilanemoMushroom", "localeName": "Philanemo Mushroom", "count": 45 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 12 }
       ],
       "HP": 2500.6,
       "ATK": 40.699,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VarunadaLazuriteGemstone", "name": "Varunada Lazurite Gemstone", "count": 6 },
-        { "id": "CleansingHeart", "name": "Cleansing Heart", "count": 20 },
-        { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom", "count": 60 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 24 }
+        { "id": "VarunadaLazuriteGemstone", "localeName": "Varunada Lazurite Gemstone", "rarity": 5, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "Cleansing Heart", "rarity": 4, "count": 20 },
+        { "id": "PhilanemoMushroom", "localeName": "Philanemo Mushroom", "count": 60 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 24 }
       ],
       "HP": 2936.1,
       "ATK": 47.789,
@@ -92,16 +92,11 @@
   "ascensionType": 5,
   "element": 5,
   "elemSkill": {
-    "name": "Let the Show Begin♪",
+    "name": "LetTheShowBegin",
+    "localeName": "Let the Show Begin♪",
     "desc": "Summons water droplets resembling musical notes that form a Melody Loop, dealing <color=#80C0FFFF>Hydro DMG</color> to surrounding opponents and applying the <color=#80C0FFFF>Wet</color> status to them.\n\n<color=#FFD780FF>Melody Loop</color>\n·On hit, Barbara's Normal Attacks heal your own party members and nearby teammates for a certain amount of HP, which scales with Barbara's Max HP.\n·On hit, Barbara's Charged Attack generates 4 times the amount of healing.\n·Periodically regenerates your own active character's HP.\n·Applies the <color=#80C0FFFF>Wet</color> status to the character and to opponents who come in contact with them.\n\n<i>Barbara's music is the magic that heals her companions.</i>",
     "cd": 32,
-    "paramTpls": [
-      "HP Regeneration Per Hit|{param3:F2P} Max HP+{param4:I}",
-      "Continuous Regeneration|{param1:F2P} Max HP+{param2:I}",
-      "Droplet DMG|{param5:F1P}",
-      "Duration|{param6:F1}s",
-      "CD|{param7:F1}s"
-    ],
+    "paramTpls": ["HP Regeneration Per Hit|{param3:F2P} Max HP+{param4:I}", "Continuous Regeneration|{param1:F2P} Max HP+{param2:I}", "Droplet DMG|{param5:F1P}", "Duration|{param6:F1}s", "CD|{param7:F1}s"],
     "paramVals": [
       [0.04, 385.19, 0.0075, 72.223, 0.584, 15, 32],
       [0.043, 423.71, 0.008063, 79.446, 0.6278, 15, 32],
@@ -121,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "Teachings of Freedom", "count": 3 },
-        { "id": "DiviningScroll", "name": "Divining Scroll", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "Teachings of Freedom", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 2 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 4 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 6 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 9 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 4 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 4 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 6 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 6 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 12 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 9 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 16 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 12 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "Shining Miracle♪",
+    "name": "ShiningMiracle",
+    "localeName": "Shining Miracle♪",
     "desc": "Heals your own party members and nearby teammates for a large amount of HP that scales with Barbara's Max HP.\n\n<i>Barbara's desire to heal strengthens her will to fight and sing.</i>",
     "cd": 20,
     "energyCost": 80,
@@ -188,62 +184,54 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "Teachings of Freedom", "count": 3 },
-        { "id": "DiviningScroll", "name": "Divining Scroll", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "Teachings of Freedom", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 2 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 4 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 6 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 9 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 4 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 4 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 6 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 6 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 12 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 9 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 16 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 12 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "Normal Attack: Whisper of Water",
+    "name": "NormalAttackWhisperOfWater",
+    "localeName": "Normal Attack: Whisper of Water",
     "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 4 water splash attacks that deal <color=#80C0FFFF>Hydro DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to deal <color=#80C0FFFF>AoE Hydro DMG</color> after a short casting time.\n\n<color=#FFD780FF>Plunging Attack</color>\nGathering the might of Hydro, Barbara plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80C0FFFF>AoE Hydro DMG</color> upon impact with the ground.",
     "cd": 0,
-    "paramTpls": [
-      "1-Hit DMG|{param1:F1P}",
-      "2-Hit DMG|{param2:F1P}",
-      "3-Hit DMG|{param3:F1P}",
-      "4-Hit DMG|{param4:F1P}",
-      "Charged Attack DMG|{param5:P}",
-      "Charged Attack Stamina Cost|{param6:F1}",
-      "Plunge DMG|{param7:F1P}",
-      "Low/High Plunge DMG|{param8:P}/{param9:P}"
-    ],
+    "paramTpls": ["1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", "4-Hit DMG|{param4:F1P}", "Charged Attack DMG|{param5:P}", "Charged Attack Stamina Cost|{param6:F1}", "Plunge DMG|{param7:F1P}", "Low/High Plunge DMG|{param8:P}/{param9:P}"],
     "paramVals": [
       [0.3784, 0.3552, 0.4104, 0.552, 1.6624, 50, 0.56829, 1.1363, 1.4193],
       [0.40678, 0.38184, 0.44118, 0.5934, 1.7871, 50, 0.61454, 1.2288, 1.5349],
@@ -263,81 +251,71 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "Teachings of Freedom", "count": 3 },
-        { "id": "DiviningScroll", "name": "Divining Scroll", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "Teachings of Freedom", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 2 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 4 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 6 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 9 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 4 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 4 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 6 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 6 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 12 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 9 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 16 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 12 },
-        { "id": "RingOfBoreas", "name": "Ring of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "Glorious Season", "desc": "The Stamina Consumption of characters within <color=#FFD780FF>Let the Show Begin♪</color>'s Melody Loop is reduced by 12%.", "unlock": 1, "values": [0.12] },
-    {
-      "name": "Encore",
-      "desc": "When your active character gains an Elemental Orb/Particle, the duration of the Melody Loop of <color=#FFD780FF>Let the Show Begin♪</color> is extended by 1s.\nThe maximum extension is 5s.",
-      "unlock": 4,
-      "values": [1, 5]
-    },
-    { "name": "With My Whole Heart♪", "desc": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product." }
+    { "name": "GloriousSeason", "localeName": "Glorious Season", "desc": "The Stamina Consumption of characters within <color=#FFD780FF>Let the Show Begin♪</color>'s Melody Loop is reduced by 12%.", "unlock": 1, "values": [0.12] },
+    { "name": "Encore", "localeName": "Encore", "desc": "When your active character gains an Elemental Orb/Particle, the duration of the Melody Loop of <color=#FFD780FF>Let the Show Begin♪</color> is extended by 1s.\nThe maximum extension is 5s.", "unlock": 4, "values": [1, 5] },
+    { "name": "WithMyWholeHeart", "localeName": "With My Whole Heart♪", "desc": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product." }
   ],
   "c13ns": [
-    { "name": "Gleeful Songs", "desc": "Barbara regenerates 1 Energy every 10s." },
+    { "name": "GleefulSongs", "localeName": "Gleeful Songs", "desc": "Barbara regenerates 1 Energy every 10s." },
+    { "name": "VitalityBurst", "localeName": "Vitality Burst", "desc": "Decreases the CD of <color=#FFD780FF>Let the Show Begin♪</color> by 15%.\nDuring the ability's duration, your active character gains a 15% <color=#80C0FFFF>Hydro DMG Bonus</color>." },
+    { "name": "StarOfTomorrow", "localeName": "Star of Tomorrow", "desc": "Increases the Level of <color=#FFD780FF>Shining Miracle♪</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "AttentivenessBeMyPower", "localeName": "Attentiveness be My Power", "desc": "Every opponent Barbara hits with her Charged Attack regenerates 1 Energy for her.\nA maximum of 5 energy can be regenerated in this manner with any one Charged Attack." },
+    { "name": "ThePurestCompanionship", "localeName": "The Purest Companionship", "desc": "Increases the Level of <color=#FFD780FF>Let the Show Begin♪</color> by 3.\nMaximum upgrade level is 15." },
     {
-      "name": "Vitality Burst",
-      "desc": "Decreases the CD of <color=#FFD780FF>Let the Show Begin♪</color> by 15%.\nDuring the ability's duration, your active character gains a 15% <color=#80C0FFFF>Hydro DMG Bonus</color>."
-    },
-    { "name": "Star of Tomorrow", "desc": "Increases the Level of <color=#FFD780FF>Shining Miracle♪</color> by 3.\nMaximum upgrade level is 15." },
-    {
-      "name": "Attentiveness be My Power",
-      "desc": "Every opponent Barbara hits with her Charged Attack regenerates 1 Energy for her.\nA maximum of 5 energy can be regenerated in this manner with any one Charged Attack."
-    },
-    { "name": "The Purest Companionship", "desc": "Increases the Level of <color=#FFD780FF>Let the Show Begin♪</color> by 3.\nMaximum upgrade level is 15." },
-    {
-      "name": "Dedicating Everything to You",
+      "name": "DedicatingEverythingToYou",
+      "localeName": "Dedicating Everything to You",
       "desc": "When Barbara is in the party but not on the field, and one of your own party members falls:\n·Automatically revives the fallen character.\n·Fully restores the revived character's HP to 100%.\nThis effect can only occur once every 15 mins."
     }
   ],
   "overviewItems": [
-    { "id": "VarunadaLazuriteGemstone", "name": "Varunada Lazurite Gemstone", "rarity": 5 },
-    { "id": "CleansingHeart", "name": "Cleansing Heart", "rarity": 4 },
-    { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom" },
-    { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "rarity": 3 },
-    { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "rarity": 4 },
-    { "id": "RingOfBoreas", "name": "Ring of Boreas", "rarity": 5 }
+    { "id": "VarunadaLazuriteGemstone", "localeName": "Varunada Lazurite Gemstone", "rarity": 5 },
+    { "id": "CleansingHeart", "localeName": "Cleansing Heart", "rarity": 4 },
+    { "id": "PhilanemoMushroom", "localeName": "Philanemo Mushroom" },
+    { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3 },
+    { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4 },
+    { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5 }
   ]
 }

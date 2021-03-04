@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "ShivadaJadeSliver", "name": "哀敘冰玉碎屑", "count": 1 },
-        { "id": "CallaLily", "name": "嘟嘟蓮", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "尋寶鴉印", "count": 3 }
+        { "id": "ShivadaJadeSliver", "localeName": "哀敘冰玉碎屑", "rarity": 2, "count": 1 },
+        { "id": "CallaLily", "localeName": "嘟嘟蓮", "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "尋寶鴉印", "rarity": 1, "count": 3 }
       ],
       "HP": 728.84,
       "ATK": 13.969,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "ShivadaJadeFragment", "name": "哀敘冰玉斷片", "count": 3 },
-        { "id": "HoarfrostCore", "name": "極寒之核", "count": 2 },
-        { "id": "CallaLily", "name": "嘟嘟蓮", "count": 10 },
-        { "id": "TreasureHoarderInsignia", "name": "尋寶鴉印", "count": 15 }
+        { "id": "ShivadaJadeFragment", "localeName": "哀敘冰玉斷片", "rarity": 3, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "極寒之核", "rarity": 4, "count": 2 },
+        { "id": "CallaLily", "localeName": "嘟嘟蓮", "count": 10 },
+        { "id": "TreasureHoarderInsignia", "localeName": "尋寶鴉印", "rarity": 1, "count": 15 }
       ],
       "HP": 1246.7,
       "ATK": 23.894,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "ShivadaJadeFragment", "name": "哀敘冰玉斷片", "count": 6 },
-        { "id": "HoarfrostCore", "name": "極寒之核", "count": 4 },
-        { "id": "CallaLily", "name": "嘟嘟蓮", "count": 20 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 12 }
+        { "id": "ShivadaJadeFragment", "localeName": "哀敘冰玉斷片", "rarity": 3, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "極寒之核", "rarity": 4, "count": 4 },
+        { "id": "CallaLily", "localeName": "嘟嘟蓮", "count": 20 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 12 }
       ],
       "HP": 1937.2,
       "ATK": 37.128,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "ShivadaJadeChunk", "name": "哀敘冰玉塊", "count": 3 },
-        { "id": "HoarfrostCore", "name": "極寒之核", "count": 8 },
-        { "id": "CallaLily", "name": "嘟嘟蓮", "count": 30 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 18 }
+        { "id": "ShivadaJadeChunk", "localeName": "哀敘冰玉塊", "rarity": 4, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "極寒之核", "rarity": 4, "count": 8 },
+        { "id": "CallaLily", "localeName": "嘟嘟蓮", "count": 30 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 18 }
       ],
       "HP": 2455,
       "ATK": 47.053,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "ShivadaJadeChunk", "name": "哀敘冰玉塊", "count": 6 },
-        { "id": "HoarfrostCore", "name": "極寒之核", "count": 12 },
-        { "id": "CallaLily", "name": "嘟嘟蓮", "count": 45 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 12 }
+        { "id": "ShivadaJadeChunk", "localeName": "哀敘冰玉塊", "rarity": 4, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "極寒之核", "rarity": 4, "count": 12 },
+        { "id": "CallaLily", "localeName": "嘟嘟蓮", "count": 45 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 12 }
       ],
       "HP": 2972.9,
       "ATK": 56.979,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "ShivadaJadeGemstone", "name": "哀敘冰玉", "count": 6 },
-        { "id": "HoarfrostCore", "name": "極寒之核", "count": 20 },
-        { "id": "CallaLily", "name": "嘟嘟蓮", "count": 60 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 24 }
+        { "id": "ShivadaJadeGemstone", "localeName": "哀敘冰玉", "rarity": 5, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "極寒之核", "rarity": 4, "count": 20 },
+        { "id": "CallaLily", "localeName": "嘟嘟蓮", "count": 60 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 24 }
       ],
       "HP": 3490.7,
       "ATK": 66.904,
@@ -92,7 +92,8 @@
   "ascensionType": 10,
   "element": 7,
   "elemSkill": {
-    "name": "霜襲",
+    "name": "Frostgnaw",
+    "localeName": "霜襲",
     "desc": "瞬間放出急凍的寒氣，對前方的敵人造成<color=#99FFFFFF>冰元素傷害</color>。\n\n<i>看起來如此親切的凱亞，是誰也無法融化的堅冰。</i>",
     "cd": 6,
     "paramTpls": ["技能傷害|{param1:P}", "冷卻時間|{param2:F1}秒"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "「詩文」的教導", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "尋寶鴉印", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "「詩文」的教導", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "尋寶鴉印", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」的指引", "count": 2 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」的指引", "count": 4 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」的指引", "count": 6 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」的指引", "count": 9 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 4 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風的魂匣", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 6 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風的魂匣", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 12 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風的魂匣", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 16 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風的魂匣", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "凜冽輪舞",
+    "name": "GlacialWaltz",
+    "localeName": "凜冽輪舞",
     "desc": "凝聚空氣中的寒霜，召喚三枚圍繞自身旋轉的寒冰之凌。\n存在期間內，寒冰之冰凌會跟隨角色行動，對路徑上的敵人造成<color=#99FFFFFF>冰元素傷害</color>。\n\n<i>親切的笑容、和善的話語，和潛藏在這兩者之下的毫不留情的冰霜，都是凱亞的武器。</i>",
     "cd": 15,
     "energyCost": 60,
@@ -182,63 +184,54 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "「詩文」的教導", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "尋寶鴉印", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "「詩文」的教導", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "尋寶鴉印", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」的指引", "count": 2 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」的指引", "count": 4 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」的指引", "count": 6 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」的指引", "count": 9 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 4 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風的魂匣", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 6 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風的魂匣", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 12 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風的魂匣", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 16 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風的魂匣", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "普通攻擊·儀典劍術",
+    "name": "NormalAttackCeremonialBladework",
+    "localeName": "普通攻擊·儀典劍術",
     "desc": "<color=#FFD780FF>普通攻擊</color>\n進行至多五段的連續劍擊。\n\n<color=#FFD780FF>重擊</color>\n消耗一定體力，瞬間向前方揮出兩劍。\n\n<color=#FFD780FF>下落攻擊</color>\n從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。",
     "cd": 0,
-    "paramTpls": [
-      "一段傷害|{param1:F1P}",
-      "二段傷害|{param2:F1P}",
-      "三段傷害|{param3:F1P}",
-      "四段傷害|{param4:F1P}",
-      "五段傷害|{param5:F1P}",
-      "重擊傷害|{param6:F1P}+{param7:F1P}",
-      "重擊體力消耗|{param8:F1}點",
-      "下墜期間傷害|{param9:F1P}",
-      "低空/高空墜地衝擊傷害|{param10:P}/{param11:P}"
-    ],
+    "paramTpls": ["一段傷害|{param1:F1P}", "二段傷害|{param2:F1P}", "三段傷害|{param3:F1P}", "四段傷害|{param4:F1P}", "五段傷害|{param5:F1P}", "重擊傷害|{param6:F1P}+{param7:F1P}", "重擊體力消耗|{param8:F1}點", "下墜期間傷害|{param9:F1P}", "低空/高空墜地衝擊傷害|{param10:P}/{param11:P}"],
     "paramVals": [
       [0.5375, 0.51686, 0.65274, 0.70864, 0.88236, 0.5504, 0.731, 20, 0.63932, 1.2784, 1.5968],
       [0.58125, 0.55893, 0.70587, 0.76632, 0.95418, 0.5952, 0.7905, 20, 0.69136, 1.3824, 1.7267],
@@ -258,70 +251,67 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "「詩文」的教導", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "尋寶鴉印", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "「詩文」的教導", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "尋寶鴉印", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」的指引", "count": 2 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」的指引", "count": 4 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」的指引", "count": 6 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」的指引", "count": 9 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 4 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風的魂匣", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 6 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風的魂匣", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 12 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風的魂匣", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 16 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風的魂匣", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "冷血之劍", "desc": "<color=#FFD780FF>霜襲</color>每擊中一個單位，便為凱亞恢復等同於攻擊力15%的生命值。", "unlock": 1 },
-    { "name": "冰淵之心", "desc": "<color=#FFD780FF>霜襲</color>使敵人<color=#99FFFFFF>凍結</color>時，被凍結的敵人會掉落額外的元素微粒。\n一次霜襲至多因此產生2個額外元素微粒。", "unlock": 4 },
-    { "name": "隱藏的實力", "desc": "隊伍中自己的角色衝刺消耗的體力降低20%。\n無法與效果完全相同的固有天賦疊加。" }
+    { "name": "ColdBloodedStrike", "localeName": "冷血之劍", "desc": "<color=#FFD780FF>霜襲</color>每擊中一個單位，便為凱亞恢復等同於攻擊力15%的生命值。", "unlock": 1 },
+    { "name": "GlacialHeart", "localeName": "冰淵之心", "desc": "<color=#FFD780FF>霜襲</color>使敵人<color=#99FFFFFF>凍結</color>時，被凍結的敵人會掉落額外的元素微粒。\n一次霜襲至多因此產生2個額外元素微粒。", "unlock": 4 },
+    { "name": "HiddenStrength", "localeName": "隱藏的實力", "desc": "隊伍中自己的角色衝刺消耗的體力降低20%。\n無法與效果完全相同的固有天賦疊加。" }
   ],
   "c13ns": [
-    { "name": "卓越的血脈", "desc": "對受到<color=#99FFFFFF>冰元素</color>影響的敵人，凱亞的普通攻擊與重擊的暴擊率提升15%。" },
-    { "name": "無盡的霜舞", "desc": "在<color=#FFD780FF>凜冽輪舞</color>的持續時間內擊敗敵人時，持續時間延長2.5秒，最多不會超過15秒。" },
-    { "name": "凜冽的冰戲", "desc": "<color=#FFD780FF>霜襲</color>的技能等級提高3級。\n至多提升至15級。" },
-    {
-      "name": "極寒的輕吻",
-      "desc": "凱亞的生命值低於20%時自動觸發：\n產生一個傷害吸收量等於生命值上限30%的護盾，持續20秒。\n該護盾對<color=#99FFFFFF>冰元素傷害</color>有250%的吸收效果。\n該效果每60秒只能觸發一次。"
-    },
-    { "name": "至冷的擁抱", "desc": "<color=#FFD780FF>凜冽輪舞</color>的技能等級提高3級。\n至多提升至15級。" },
-    { "name": "輪旋的冰淩", "desc": "<color=#FFD780FF>凜冽輪舞</color>會產生一個額外的寒冰之棱，並在施放時歸還15點元素能量。" }
+    { "name": "ExcellentBlood", "localeName": "卓越的血脈", "desc": "對受到<color=#99FFFFFF>冰元素</color>影響的敵人，凱亞的普通攻擊與重擊的暴擊率提升15%。" },
+    { "name": "NeverEndingPerformance", "localeName": "無盡的霜舞", "desc": "在<color=#FFD780FF>凜冽輪舞</color>的持續時間內擊敗敵人時，持續時間延長2.5秒，最多不會超過15秒。" },
+    { "name": "DanceOfFrost", "localeName": "凜冽的冰戲", "desc": "<color=#FFD780FF>霜襲</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "FrozenKiss", "localeName": "極寒的輕吻", "desc": "凱亞的生命值低於20%時自動觸發：\n產生一個傷害吸收量等於生命值上限30%的護盾，持續20秒。\n該護盾對<color=#99FFFFFF>冰元素傷害</color>有250%的吸收效果。\n該效果每60秒只能觸發一次。" },
+    { "name": "FrostbitingEmbrace", "localeName": "至冷的擁抱", "desc": "<color=#FFD780FF>凜冽輪舞</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "GlacialWhirlwind", "localeName": "輪旋的冰淩", "desc": "<color=#FFD780FF>凜冽輪舞</color>會產生一個額外的寒冰之棱，並在施放時歸還15點元素能量。" }
   ],
   "overviewItems": [
-    { "id": "ShivadaJadeGemstone", "name": "哀敘冰玉", "rarity": 5 },
-    { "id": "HoarfrostCore", "name": "極寒之核", "rarity": 4 },
-    { "id": "CallaLily", "name": "嘟嘟蓮" },
-    { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "rarity": 3 },
-    { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "rarity": 4 },
-    { "id": "SpiritLocketOfBoreas", "name": "北風的魂匣", "rarity": 5 }
+    { "id": "ShivadaJadeGemstone", "localeName": "哀敘冰玉", "rarity": 5 },
+    { "id": "HoarfrostCore", "localeName": "極寒之核", "rarity": 4 },
+    { "id": "CallaLily", "localeName": "嘟嘟蓮" },
+    { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3 },
+    { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4 },
+    { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5 }
   ]
 }

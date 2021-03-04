@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "BrilliantDiamondSliver", "name": "Brilliant Diamond Sliver", "count": 1 },
-        { "id": "WindwheelAster", "name": "Windwheel Aster", "count": 3 },
-        { "id": "DamagedMask", "name": "Damaged Mask", "count": 3 }
+        { "id": "BrilliantDiamondSliver", "localeName": "Brilliant Diamond Sliver", "rarity": 2, "count": 1 },
+        { "id": "WindwheelAster", "localeName": "Windwheel Aster", "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 3 }
       ],
       "HP": 681.15,
       "ATK": 13.304,
@@ -26,9 +26,9 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "BrilliantDiamondFragment", "name": "Brilliant Diamond Fragment", "count": 3 },
-        { "id": "WindwheelAster", "name": "Windwheel Aster", "count": 10 },
-        { "id": "DamagedMask", "name": "Damaged Mask", "count": 15 }
+        { "id": "BrilliantDiamondFragment", "localeName": "Brilliant Diamond Fragment", "rarity": 3, "count": 3 },
+        { "id": "WindwheelAster", "localeName": "Windwheel Aster", "count": 10 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 15 }
       ],
       "HP": 1165.1,
       "ATK": 22.757,
@@ -38,9 +38,9 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "BrilliantDiamondFragment", "name": "Brilliant Diamond Fragment", "count": 6 },
-        { "id": "WindwheelAster", "name": "Windwheel Aster", "count": 20 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 12 }
+        { "id": "BrilliantDiamondFragment", "localeName": "Brilliant Diamond Fragment", "rarity": 3, "count": 6 },
+        { "id": "WindwheelAster", "localeName": "Windwheel Aster", "count": 20 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 12 }
       ],
       "HP": 1810.4,
       "ATK": 35.36,
@@ -50,9 +50,9 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "BrilliantDiamondChunk", "name": "Brilliant Diamond Chunk", "count": 3 },
-        { "id": "WindwheelAster", "name": "Windwheel Aster", "count": 30 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 18 }
+        { "id": "BrilliantDiamondChunk", "localeName": "Brilliant Diamond Chunk", "rarity": 4, "count": 3 },
+        { "id": "WindwheelAster", "localeName": "Windwheel Aster", "count": 30 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 18 }
       ],
       "HP": 2294.4,
       "ATK": 44.813,
@@ -62,9 +62,9 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "BrilliantDiamondChunk", "name": "Brilliant Diamond Chunk", "count": 6 },
-        { "id": "WindwheelAster", "name": "Windwheel Aster", "count": 45 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 12 }
+        { "id": "BrilliantDiamondChunk", "localeName": "Brilliant Diamond Chunk", "rarity": 4, "count": 6 },
+        { "id": "WindwheelAster", "localeName": "Windwheel Aster", "count": 45 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 }
       ],
       "HP": 2778.4,
       "ATK": 54.265,
@@ -74,9 +74,9 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "BrilliantDiamondGemstone", "name": "Brilliant Diamond Gemstone", "count": 6 },
-        { "id": "WindwheelAster", "name": "Windwheel Aster", "count": 60 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 24 }
+        { "id": "BrilliantDiamondGemstone", "localeName": "Brilliant Diamond Gemstone", "rarity": 5, "count": 6 },
+        { "id": "WindwheelAster", "localeName": "Windwheel Aster", "count": 60 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 24 }
       ],
       "HP": 3262.4,
       "ATK": 63.718,
@@ -87,7 +87,8 @@
   "ascensionType": 7,
   "element": 0,
   "attackSkill": {
-    "name": "Normal Attack: Past Memories",
+    "name": "NormalAttackPastMemories",
+    "localeName": "Normal Attack: Past Memories",
     "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "cd": 0,
     "paramTpls": [
@@ -120,56 +121,56 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "Teachings of Freedom", "count": 3 },
-        { "id": "DiviningScroll", "name": "Divining Scroll", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "Teachings of Freedom", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 2 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 4 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 6 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 9 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 4 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 4 },
-        { "id": "DvalinsSigh", "name": "Dvalin's Sigh", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 4 },
+        { "id": "DvalinsSigh", "localeName": "Dvalin's Sigh", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 6 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 6 },
-        { "id": "DvalinsSigh", "name": "Dvalin's Sigh", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 6 },
+        { "id": "DvalinsSigh", "localeName": "Dvalin's Sigh", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 12 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 9 },
-        { "id": "DvalinsSigh", "name": "Dvalin's Sigh", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 9 },
+        { "id": "DvalinsSigh", "localeName": "Dvalin's Sigh", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 16 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 12 },
-        { "id": "DvalinsSigh", "name": "Dvalin's Sigh", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 12 },
+        { "id": "DvalinsSigh", "localeName": "Dvalin's Sigh", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [],
   "c13ns": [],
   "overviewItems": [
-    { "id": "BrilliantDiamondGemstone", "name": "Brilliant Diamond Gemstone", "rarity": 5 },
-    { "id": "WindwheelAster", "name": "Windwheel Aster" },
-    { "id": "OminousMask", "name": "Ominous Mask", "rarity": 3 },
-    { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "rarity": 4 },
-    { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "rarity": 3 },
-    { "id": "DvalinsSigh", "name": "Dvalin's Sigh", "rarity": 5 }
+    { "id": "BrilliantDiamondGemstone", "localeName": "Brilliant Diamond Gemstone", "rarity": 5 },
+    { "id": "WindwheelAster", "localeName": "Windwheel Aster" },
+    { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3 },
+    { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4 },
+    { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3 },
+    { "id": "DvalinsSigh", "localeName": "Dvalin's Sigh", "rarity": 5 }
   ]
 }

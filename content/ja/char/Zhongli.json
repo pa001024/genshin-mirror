@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "PrithivaTopazSliver", "name": "堅牢なトパーズ·砕屑", "count": 1 },
-        { "id": "CorLapis", "name": "石珀", "count": 3 },
-        { "id": "SlimeCondensate", "name": "スライムの液体", "count": 3 }
+        { "id": "PrithivaTopazSliver", "localeName": "堅牢なトパーズ·砕屑", "rarity": 2, "count": 1 },
+        { "id": "CorLapis", "localeName": "石珀", "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "スライムの液体", "rarity": 1, "count": 3 }
       ],
       "HP": 980.86,
       "ATK": 16.762,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "PrithivaTopazFragment", "name": "堅牢なトパーズ·欠片", "count": 3 },
-        { "id": "BasaltPillar", "name": "玄岩の塔", "count": 2 },
-        { "id": "CorLapis", "name": "石珀", "count": 10 },
-        { "id": "SlimeCondensate", "name": "スライムの液体", "count": 15 }
+        { "id": "PrithivaTopazFragment", "localeName": "堅牢なトパーズ·欠片", "rarity": 3, "count": 3 },
+        { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4, "count": 2 },
+        { "id": "CorLapis", "localeName": "石珀", "count": 10 },
+        { "id": "SlimeCondensate", "localeName": "スライムの液体", "rarity": 1, "count": 15 }
       ],
       "HP": 1677.8,
       "ATK": 28.672,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "PrithivaTopazFragment", "name": "堅牢なトパーズ·欠片", "count": 6 },
-        { "id": "BasaltPillar", "name": "玄岩の塔", "count": 4 },
-        { "id": "CorLapis", "name": "石珀", "count": 20 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 12 }
+        { "id": "PrithivaTopazFragment", "localeName": "堅牢なトパーズ·欠片", "rarity": 3, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4, "count": 4 },
+        { "id": "CorLapis", "localeName": "石珀", "count": 20 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 12 }
       ],
       "HP": 2607,
       "ATK": 44.552,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "PrithivaTopazChunk", "name": "堅牢なトパーズ·塊", "count": 3 },
-        { "id": "BasaltPillar", "name": "玄岩の塔", "count": 8 },
-        { "id": "CorLapis", "name": "石珀", "count": 30 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 18 }
+        { "id": "PrithivaTopazChunk", "localeName": "堅牢なトパーズ·塊", "rarity": 4, "count": 3 },
+        { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4, "count": 8 },
+        { "id": "CorLapis", "localeName": "石珀", "count": 30 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 18 }
       ],
       "HP": 3304,
       "ATK": 56.461,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "PrithivaTopazChunk", "name": "堅牢なトパーズ·塊", "count": 6 },
-        { "id": "BasaltPillar", "name": "玄岩の塔", "count": 12 },
-        { "id": "CorLapis", "name": "石珀", "count": 45 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 12 }
+        { "id": "PrithivaTopazChunk", "localeName": "堅牢なトパーズ·塊", "rarity": 4, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4, "count": 12 },
+        { "id": "CorLapis", "localeName": "石珀", "count": 45 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 12 }
       ],
       "HP": 4000.9,
       "ATK": 68.371,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "PrithivaTopazGemstone", "name": "堅牢なトパーズ", "count": 6 },
-        { "id": "BasaltPillar", "name": "玄岩の塔", "count": 20 },
-        { "id": "CorLapis", "name": "石珀", "count": 60 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 24 }
+        { "id": "PrithivaTopazGemstone", "localeName": "堅牢なトパーズ", "rarity": 5, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4, "count": 20 },
+        { "id": "CorLapis", "localeName": "石珀", "count": 60 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 24 }
       ],
       "HP": 4697.8,
       "ATK": 80.281,
@@ -92,18 +92,11 @@
   "ascensionType": 31,
   "element": 2,
   "elemSkill": {
-    "name": "地心",
+    "name": "DominusLapidis",
+    "localeName": "地心",
     "desc": "山脈の中、大地の上、盤石の間に岩の力が宿っている。しかしこの力を自由に扱える者は少ない。\n\n<color=#FFD780FF>一回押し</color>\n大地の至るところにある岩元素を積み上げ、岩柱を生成する。\n\n<color=#FFD780FF>長押し</color>\n付近の岩元素を爆発させ、下記の効果を発動する：\n·岩柱が数の上限に達していない場合、岩柱を生成する。\n·玉璋シールドを生成する。シールドのダメージ吸収量は鍾離のHP上限によって決まる。\n·<color=#FFE699FF>岩元素範囲ダメージ</color>を与える。\n·周りに<color=#FFE699FF>岩元素</color>を持つターゲットがいる場合、最大2つのターゲットの<color=#FFE699FF>岩元素</color>を大量に消耗させる。この効果によるダメージは発生しない。\n\n<color=#FFD780FF>岩柱</color>\nが生成された時、<color=#FFE699FF>岩元素範囲ダメージ</color>を与える。\nまた、岩柱が存在している間、周囲の他の<color=#FFE699FF>岩元素創造物</color>と一定時間の間隔で原岩共鳴をし、持続的に周囲の敵に<color=#FFE699FF>岩元素ダメージ</color>を与える。\n岩柱は<color=#FFE699FF>岩元素创造物</color>と見なされ、攻撃を防ぐことができ、登ることもできる。同時に最大1つまで存在可能。\n\n<color=#FFD780FF>玉璋シールド</color>\n全元素ダメージと物理ダメージに150%の吸収効果がある。\n玉璋シールドに守られたキャラクターは、付近範囲内の敵の全元素耐性と物理耐性-20%。この効果は重ねがけ不可。\n\n<i>岩の堅きこと、物に於いて陥さざる無きなり。</i>",
     "cd": 12,
-    "paramTpls": [
-      "岩柱ダメージ/共鳴ダメージ|{param1:F1P}/{param2:F1P}",
-      "一回押しクールタイム|{param3:F1}秒",
-      "長押しダメージ|{param4:P}",
-      "シールド基礎吸収量|{param5:I}",
-      "シールド追加吸収量|{param6:F1P}HP上限",
-      "シールド継続時間|{param7:F1}秒",
-      "長押しクールタイム|{param8:F1}秒"
-    ],
+    "paramTpls": ["岩柱ダメージ/共鳴ダメージ|{param1:F1P}/{param2:F1P}", "一回押しクールタイム|{param3:F1}秒", "長押しダメージ|{param4:P}", "シールド基礎吸収量|{param5:I}", "シールド追加吸収量|{param6:F1P}HP上限", "シールド継続時間|{param7:F1}秒", "長押しクールタイム|{param8:F1}秒"],
     "paramVals": [
       [0.16, 0.32, 4, 0.8, 1232.4, 0.128, 20, 12],
       [0.172, 0.344, 4, 0.86, 1355.7, 0.1376, 20, 12],
@@ -123,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfGold", "name": "「黄金」の教え", "count": 3 },
-        { "id": "SlimeCondensate", "name": "スライムの液体", "count": 6 }
+        { "id": "TeachingsOfGold", "localeName": "「黄金」の教え", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "スライムの液体", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 2 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 3 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 4 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 4 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 6 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 6 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 9 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 9 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 4 },
-        { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 4 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 6 },
-        { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 6 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 9 },
-        { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "count": 2 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 9 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 12 },
-        { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 12 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "天星",
+    "name": "PlanetBefall",
+    "localeName": "天星",
     "desc": "巨大な星岩を落下させ、落下範囲内の敵に大量の<color=#FFE699FF>岩元素ダメージ</color>を与え、<color=#FFE699FF>石化</color>状態にする。\n\n<color=#FFD780FF>石化</color>\n<color=#FFE699FF>石化</color>状態の敵は行動不能になる。\n\n<i>蒼天の星岩を落とし、暗闇の運命を照らす。</i>",
     "cd": 12,
     "energyCost": 40,
@@ -190,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfGold", "name": "「黄金」の教え", "count": 3 },
-        { "id": "SlimeCondensate", "name": "スライムの液体", "count": 6 }
+        { "id": "TeachingsOfGold", "localeName": "「黄金」の教え", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "スライムの液体", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 2 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 3 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 4 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 4 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 6 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 6 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 9 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 9 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 4 },
-        { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 4 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 6 },
-        { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 6 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 9 },
-        { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "count": 2 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 9 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 12 },
-        { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 12 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "通常攻撃·岩雨",
+    "name": "NormalAttackRainOfStone",
+    "localeName": "通常攻撃·岩雨",
     "desc": "<color=#FFD780FF>通常攻撃</color>\n槍による最大6段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費して前方に疾行し、行動経路上と終着点に雨のような岩槍を投下する。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
     "cd": 0,
     "paramTpls": [
@@ -267,77 +262,73 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfGold", "name": "「黄金」の教え", "count": 3 },
-        { "id": "SlimeCondensate", "name": "スライムの液体", "count": 6 }
+        { "id": "TeachingsOfGold", "localeName": "「黄金」の教え", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "スライムの液体", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 2 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 3 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 4 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 4 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 6 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 6 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 9 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 9 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 4 },
-        { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 4 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 6 },
-        { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 6 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 9 },
-        { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "count": 2 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 9 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 12 },
-        { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 12 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
+    { "name": "ResonantWaves", "localeName": "岩の宸断", "desc": "玉璋シールドはダメージを受けた際に防御効果を発動する。\n玉璋シールドに守られたキャラクターのシールド強化+5%。\nシールドが消えるまで、最大5回強度を上げることができる。", "unlock": 1, "values": [0.05] },
     {
-      "name": "岩の宸断",
-      "desc": "玉璋シールドはダメージを受けた際に防御効果を発動する。\n玉璋シールドに守られたキャラクターのシールド強化+5%。\nシールドが消えるまで、最大5回強度を上げることができる。",
-      "unlock": 1,
-      "values": [0.05]
-    },
-    {
-      "name": "贅沢な食饌",
+      "name": "DominanceOfEarth",
+      "localeName": "贅沢な食饌",
       "desc": "HP上限を基に、鍾離の下記攻撃のダメージが増加する。\n·通常攻撃、重撃と落下攻撃のダメージ増加量：HP上限の1.39%\n·<color=#FFD780FF>地心</color>の岩柱、共鳴と長押しダメージ増加量：HP上限の1.9%\n·<color=#FFD780FF>天星</color>ダメージ増加量：HP上限の33%",
       "unlock": 4,
       "values": [0.0139, 0.019, 0.33]
     },
-    { "name": "結晶推命", "desc": "長柄武器を鍛造する時、消費した鉱石の15%が返還される。" }
+    { "name": "ArcanumOfCrystal", "localeName": "結晶推命", "desc": "長柄武器を鍛造する時、消費した鉱石の15%が返還される。" }
   ],
   "c13ns": [
-    { "name": "岩、天下の骨なり", "desc": "<color=#FFD780FF>地心</color>の岩柱が同時に最大2つまで存在可能になる。" },
-    { "name": "石、玉の揺りかご", "desc": "<color=#FFD780FF>天星</color>落下時、近くにいる出場中のキャラクターに玉璋シールドを付与する。" },
-    { "name": "圭璋、闇の中で輝く", "desc": "<color=#FFD780FF>地心</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "黄玉、破れぬ堅さ", "desc": "<color=#FFD780FF>天星</color>の影響範囲+20%。\nさらに天星の石化効果の継続時間+2秒。", "values": [0.2, 2] },
-    { "name": "璧、天理を守る", "desc": "<color=#FFD780FF>天星</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "金、天地の恵み", "desc": "玉璋シールドがダメージを受けた時、そのダメージ量の40%分のHPを回復する。\n一回の回復上限はキャラクターのHP上限の8%。", "values": [0.4, 0.08] }
+    { "name": "RockTheBackboneOfEarth", "localeName": "岩、天下の骨なり", "desc": "<color=#FFD780FF>地心</color>の岩柱が同時に最大2つまで存在可能になる。" },
+    { "name": "StoneTheCradleOfJade", "localeName": "石、玉の揺りかご", "desc": "<color=#FFD780FF>天星</color>落下時、近くにいる出場中のキャラクターに玉璋シールドを付与する。" },
+    { "name": "JadeShimmeringThroughDarkness", "localeName": "圭璋、闇の中で輝く", "desc": "<color=#FFD780FF>地心</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "TopazUnbreakableAndFearless", "localeName": "黄玉、破れぬ堅さ", "desc": "<color=#FFD780FF>天星</color>の影響範囲+20%。\nさらに天星の石化効果の継続時間+2秒。", "values": [0.2, 2] },
+    { "name": "LazuliHeraldOfTheOrder", "localeName": "璧、天理を守る", "desc": "<color=#FFD780FF>天星</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "ChrysosBountyOfDominator", "localeName": "金、天地の恵み", "desc": "玉璋シールドがダメージを受けた時、そのダメージ量の40%分のHPを回復する。\n一回の回復上限はキャラクターのHP上限の8%。", "values": [0.4, 0.08] }
   ],
   "overviewItems": [
-    { "id": "PrithivaTopazGemstone", "name": "堅牢なトパーズ", "rarity": 5 },
-    { "id": "BasaltPillar", "name": "玄岩の塔", "rarity": 4 },
-    { "id": "CorLapis", "name": "石珀" },
-    { "id": "SlimeConcentrate", "name": "スライムのピュレ", "rarity": 3 },
-    { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "rarity": 4 },
-    { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "rarity": 5 }
+    { "id": "PrithivaTopazGemstone", "localeName": "堅牢なトパーズ", "rarity": 5 },
+    { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4 },
+    { "id": "CorLapis", "localeName": "石珀" },
+    { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3 },
+    { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4 },
+    { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5 }
   ]
 }

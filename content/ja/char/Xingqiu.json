@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VarunadaLazuriteSliver", "name": "澄明なラピスラズリ·砕屑", "count": 1 },
-        { "id": "SilkFlower", "name": "霓裳花", "count": 3 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 3 }
+        { "id": "VarunadaLazuriteSliver", "localeName": "澄明なラピスラズリ·砕屑", "rarity": 2, "count": 1 },
+        { "id": "SilkFlower", "localeName": "霓裳花", "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 3 }
       ],
       "HP": 640.29,
       "ATK": 12.639,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VarunadaLazuriteFragment", "name": "澄明なラピスラズリ·欠片", "count": 3 },
-        { "id": "CleansingHeart", "name": "浄水の心", "count": 2 },
-        { "id": "SilkFlower", "name": "霓裳花", "count": 10 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 15 }
+        { "id": "VarunadaLazuriteFragment", "localeName": "澄明なラピスラズリ·欠片", "rarity": 3, "count": 3 },
+        { "id": "CleansingHeart", "localeName": "浄水の心", "rarity": 4, "count": 2 },
+        { "id": "SilkFlower", "localeName": "霓裳花", "count": 10 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 15 }
       ],
       "HP": 1095.2,
       "ATK": 21.619,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VarunadaLazuriteFragment", "name": "澄明なラピスラズリ·欠片", "count": 6 },
-        { "id": "CleansingHeart", "name": "浄水の心", "count": 4 },
-        { "id": "SilkFlower", "name": "霓裳花", "count": 20 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 12 }
+        { "id": "VarunadaLazuriteFragment", "localeName": "澄明なラピスラズリ·欠片", "rarity": 3, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "浄水の心", "rarity": 4, "count": 4 },
+        { "id": "SilkFlower", "localeName": "霓裳花", "count": 20 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 12 }
       ],
       "HP": 1701.8,
       "ATK": 33.592,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VarunadaLazuriteChunk", "name": "澄明なラピスラズリ·塊", "count": 3 },
-        { "id": "CleansingHeart", "name": "浄水の心", "count": 8 },
-        { "id": "SilkFlower", "name": "霓裳花", "count": 30 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 18 }
+        { "id": "VarunadaLazuriteChunk", "localeName": "澄明なラピスラズリ·塊", "rarity": 4, "count": 3 },
+        { "id": "CleansingHeart", "localeName": "浄水の心", "rarity": 4, "count": 8 },
+        { "id": "SilkFlower", "localeName": "霓裳花", "count": 30 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 18 }
       ],
       "HP": 2156.8,
       "ATK": 42.572,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VarunadaLazuriteChunk", "name": "澄明なラピスラズリ·塊", "count": 6 },
-        { "id": "CleansingHeart", "name": "浄水の心", "count": 12 },
-        { "id": "SilkFlower", "name": "霓裳花", "count": 45 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 12 }
+        { "id": "VarunadaLazuriteChunk", "localeName": "澄明なラピスラズリ·塊", "rarity": 4, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "浄水の心", "rarity": 4, "count": 12 },
+        { "id": "SilkFlower", "localeName": "霓裳花", "count": 45 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 12 }
       ],
       "HP": 2611.7,
       "ATK": 51.552,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VarunadaLazuriteGemstone", "name": "澄明なラピスラズリ", "count": 6 },
-        { "id": "CleansingHeart", "name": "浄水の心", "count": 20 },
-        { "id": "SilkFlower", "name": "霓裳花", "count": 60 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 24 }
+        { "id": "VarunadaLazuriteGemstone", "localeName": "澄明なラピスラズリ", "rarity": 5, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "浄水の心", "rarity": 4, "count": 20 },
+        { "id": "SilkFlower", "localeName": "霓裳花", "count": 60 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 24 }
       ],
       "HP": 3066.6,
       "ATK": 60.532,
@@ -92,7 +92,8 @@
   "ascensionType": 7,
   "element": 5,
   "elemSkill": {
-    "name": "古華剣·画雨籠山",
+    "name": "GuhuaSwordFatalRainscreen",
+    "localeName": "古華剣·画雨籠山",
     "desc": "2段連続の攻撃を仕掛け、前方の敵に<color=#80C0FFFF>水元素ダメージ</color>を与え、出場している自身のキャラクターの周りに最大本数の「雨すだれの剣」を生成する。\n「雨すだれの剣」は以下の特性を持つ：\n·キャラクターが攻撃を受ける時、「雨すだれの剣」が破壊される代わりに、キャラクターが受けるダメージを減少させる。\n·キャラクターの中断耐性をアップする。\n行秋の<color=#80C0FFFF>水元素ダメージアップ</color>の20%分は「雨すだれの剣」のダメージ軽減効果に転換される。\n\n最大24%のダメージ軽減効果を得られる。\n「雨すだれの剣」の初期最大数は3本。\n発動した瞬間、キャラクターに<color=#80C0FFFF>湿潤</color>状態を付与する。\n\n<i>「蛟竜斬り易く、雨描き難し。」</i>",
     "cd": 21,
     "paramTpls": ["スキルダメージ|{param1:P}+{param2:P}", "ダメージ軽減率|{param3:P}", "継続時間|{param4:F1}秒", "クールタイム|{param5:F1}秒"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfGold", "name": "「黄金」の教え", "count": 3 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 6 }
+        { "id": "TeachingsOfGold", "localeName": "「黄金」の教え", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 2 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 3 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 4 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 4 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 6 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 6 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 9 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 9 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 4 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 4 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 4 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 6 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 6 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 6 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 12 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 9 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 2 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 9 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 16 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 12 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 12 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "古華剣·裁雨留虹",
+    "name": "GuhuaSwordRaincutter",
+    "localeName": "古華剣·裁雨留虹",
     "desc": "虹剣勢を展開し、幻影の剣雨を使い、キャラクターに最大数の雨すだれの剣を付与する。\n\n<color=#FFD780FF>虹剣勢</color>\n·出場している自身のキャラクターの通常攻撃時に剣雨攻撃を発動し、<color=#80C0FFFF>水元素ダメージ</color>を与える。\n·雨すだれの剣の数は終始最大数をキープする。\n\n<i>「裁雨の法」、古華派秘伝の秘技の一つである。</i>",
     "cd": 20,
     "energyCost": 80,
@@ -182,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfGold", "name": "「黄金」の教え", "count": 3 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 6 }
+        { "id": "TeachingsOfGold", "localeName": "「黄金」の教え", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 2 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 3 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 4 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 4 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 6 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 6 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 9 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 9 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 4 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 4 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 4 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 6 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 6 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 6 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 12 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 9 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 2 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 9 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 16 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 12 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 12 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "通常攻撃·古華剣法",
+    "name": "NormalAttackGuhuaStyle",
+    "localeName": "通常攻撃·古華剣法",
     "desc": "<color=#FFD780FF>通常攻撃</color>\n剣による最大5段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、前方に斬撃を2回放つ。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
     "cd": 0,
     "paramTpls": [
@@ -258,67 +261,67 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfGold", "name": "「黄金」の教え", "count": 3 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 6 }
+        { "id": "TeachingsOfGold", "localeName": "「黄金」の教え", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 2 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 3 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 4 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 4 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 6 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 6 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 9 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 9 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 4 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 4 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 4 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 6 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 6 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 6 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 12 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 9 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 2 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 9 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 16 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 12 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 12 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "水生みの要訣", "desc": "雨すだれの剣が破壊、または継続時間終了時に、キャラクターのHPを行秋のHP上限の6%分回復する。", "unlock": 1 },
-    { "name": "虚実の筆", "desc": "行秋の<color=#80C0FFFF>水元素ダメージ</color>+20%。", "unlock": 4 },
-    { "name": "靈光突如", "desc": "キャラクター天賦素材を合成する時、25%の確率で一部の材料が返還される。" }
+    { "name": "Hydropathic", "localeName": "水生みの要訣", "desc": "雨すだれの剣が破壊、または継続時間終了時に、キャラクターのHPを行秋のHP上限の6%分回復する。", "unlock": 1 },
+    { "name": "BladesAmidstRaindrops", "localeName": "虚実の筆", "desc": "行秋の<color=#80C0FFFF>水元素ダメージ</color>+20%。", "unlock": 4 },
+    { "name": "FlashOfGenius", "localeName": "靈光突如", "desc": "キャラクター天賦素材を合成する時、25%の確率で一部の材料が返還される。" }
   ],
   "c13ns": [
-    { "name": "すだれの残香", "desc": "雨すだれの剣の最大本数+1。" },
-    { "name": "青空の虹", "desc": "<color=#FFD780FF>古華剣·裁雨留虹</color>の継続時間+3秒。\nその他、剣雨攻撃を受けた敵の<color=#80C0FFFF>水元素耐性</color>-15%、継続時間4秒。" },
-    { "name": "詩の錦", "desc": "<color=#FFD780FF>古華剣·裁雨留虹</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "孤舟斬蛟", "desc": "<color=#FFD780FF>古華剣·裁雨留虹</color>継続中、<color=#FFD780FF>古華剣·画雨籠山</color>の与えるダメージ+50%。" },
-    { "name": "雨深閉門", "desc": "<color=#FFD780FF>古華剣·画雨籠山</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "万文ここにあり", "desc": "<color=#FFD780FF>古華剣·裁雨留虹</color>が剣雨攻撃を2回発動する度に、次の剣雨攻撃が大幅に強化され、敵に命中する時行秋の元素エネルギーを3回復する。" }
+    { "name": "TheScentRemained", "localeName": "すだれの残香", "desc": "雨すだれの剣の最大本数+1。" },
+    { "name": "RainbowUponTheAzureSky", "localeName": "青空の虹", "desc": "<color=#FFD780FF>古華剣·裁雨留虹</color>の継続時間+3秒。\nその他、剣雨攻撃を受けた敵の<color=#80C0FFFF>水元素耐性</color>-15%、継続時間4秒。" },
+    { "name": "WeaverOfVerses", "localeName": "詩の錦", "desc": "<color=#FFD780FF>古華剣·裁雨留虹</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "Evilsoother", "localeName": "孤舟斬蛟", "desc": "<color=#FFD780FF>古華剣·裁雨留虹</color>継続中、<color=#FFD780FF>古華剣·画雨籠山</color>の与えるダメージ+50%。" },
+    { "name": "EmbraceOfRain", "localeName": "雨深閉門", "desc": "<color=#FFD780FF>古華剣·画雨籠山</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "HenceCallThemMyOwnVerses", "localeName": "万文ここにあり", "desc": "<color=#FFD780FF>古華剣·裁雨留虹</color>が剣雨攻撃を2回発動する度に、次の剣雨攻撃が大幅に強化され、敵に命中する時行秋の元素エネルギーを3回復する。" }
   ],
   "overviewItems": [
-    { "id": "VarunadaLazuriteGemstone", "name": "澄明なラピスラズリ", "rarity": 5 },
-    { "id": "CleansingHeart", "name": "浄水の心", "rarity": 4 },
-    { "id": "SilkFlower", "name": "霓裳花" },
-    { "id": "OminousMask", "name": "不吉な仮面", "rarity": 3 },
-    { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "rarity": 4 },
-    { "id": "TailOfBoreas", "name": "北風のしっぽ", "rarity": 5 }
+    { "id": "VarunadaLazuriteGemstone", "localeName": "澄明なラピスラズリ", "rarity": 5 },
+    { "id": "CleansingHeart", "localeName": "浄水の心", "rarity": 4 },
+    { "id": "SilkFlower", "localeName": "霓裳花" },
+    { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3 },
+    { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4 },
+    { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5 }
   ]
 }

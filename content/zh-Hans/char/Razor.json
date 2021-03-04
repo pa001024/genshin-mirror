@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VajradaAmethystSliver", "name": "最胜紫晶碎屑", "count": 1 },
-        { "id": "Wolfhook", "name": "钩钩果", "count": 3 },
-        { "id": "DamagedMask", "name": "破损的面具", "count": 3 }
+        { "id": "VajradaAmethystSliver", "localeName": "最胜紫晶碎屑", "rarity": 2, "count": 1 },
+        { "id": "Wolfhook", "localeName": "钩钩果", "count": 3 },
+        { "id": "DamagedMask", "localeName": "破损的面具", "rarity": 1, "count": 3 }
       ],
       "HP": 749.27,
       "ATK": 14.634,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VajradaAmethystFragment", "name": "最胜紫晶断片", "count": 3 },
-        { "id": "LightningPrism", "name": "雷光棱镜", "count": 2 },
-        { "id": "Wolfhook", "name": "钩钩果", "count": 10 },
-        { "id": "DamagedMask", "name": "破损的面具", "count": 15 }
+        { "id": "VajradaAmethystFragment", "localeName": "最胜紫晶断片", "rarity": 3, "count": 3 },
+        { "id": "LightningPrism", "localeName": "雷光棱镜", "rarity": 4, "count": 2 },
+        { "id": "Wolfhook", "localeName": "钩钩果", "count": 10 },
+        { "id": "DamagedMask", "localeName": "破损的面具", "rarity": 1, "count": 15 }
       ],
       "HP": 1281.6,
       "ATK": 25.032,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VajradaAmethystFragment", "name": "最胜紫晶断片", "count": 6 },
-        { "id": "LightningPrism", "name": "雷光棱镜", "count": 4 },
-        { "id": "Wolfhook", "name": "钩钩果", "count": 20 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 12 }
+        { "id": "VajradaAmethystFragment", "localeName": "最胜紫晶断片", "rarity": 3, "count": 6 },
+        { "id": "LightningPrism", "localeName": "雷光棱镜", "rarity": 4, "count": 4 },
+        { "id": "Wolfhook", "localeName": "钩钩果", "count": 20 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 12 }
       ],
       "HP": 1991.5,
       "ATK": 38.896,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VajradaAmethystChunk", "name": "最胜紫晶块", "count": 3 },
-        { "id": "LightningPrism", "name": "雷光棱镜", "count": 8 },
-        { "id": "Wolfhook", "name": "钩钩果", "count": 30 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 18 }
+        { "id": "VajradaAmethystChunk", "localeName": "最胜紫晶块", "rarity": 4, "count": 3 },
+        { "id": "LightningPrism", "localeName": "雷光棱镜", "rarity": 4, "count": 8 },
+        { "id": "Wolfhook", "localeName": "钩钩果", "count": 30 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 18 }
       ],
       "HP": 2523.9,
       "ATK": 49.294,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VajradaAmethystChunk", "name": "最胜紫晶块", "count": 6 },
-        { "id": "LightningPrism", "name": "雷光棱镜", "count": 12 },
-        { "id": "Wolfhook", "name": "钩钩果", "count": 45 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 12 }
+        { "id": "VajradaAmethystChunk", "localeName": "最胜紫晶块", "rarity": 4, "count": 6 },
+        { "id": "LightningPrism", "localeName": "雷光棱镜", "rarity": 4, "count": 12 },
+        { "id": "Wolfhook", "localeName": "钩钩果", "count": 45 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 12 }
       ],
       "HP": 3056.2,
       "ATK": 59.692,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VajradaAmethystGemstone", "name": "最胜紫晶", "count": 6 },
-        { "id": "LightningPrism", "name": "雷光棱镜", "count": 20 },
-        { "id": "Wolfhook", "name": "钩钩果", "count": 60 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 24 }
+        { "id": "VajradaAmethystGemstone", "localeName": "最胜紫晶", "rarity": 5, "count": 6 },
+        { "id": "LightningPrism", "localeName": "雷光棱镜", "rarity": 4, "count": 20 },
+        { "id": "Wolfhook", "localeName": "钩钩果", "count": 60 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 24 }
       ],
       "HP": 3588.6,
       "ATK": 70.09,
@@ -92,18 +92,11 @@
   "ascensionType": 33,
   "element": 3,
   "elemSkill": {
-    "name": "利爪与苍雷",
+    "name": "ClawAndThunder",
+    "localeName": "利爪与苍雷",
     "desc": "用师父与他的「家人」教他的方法，来解决猎物。\n\n<color=#FFD780FF>点按</color>\n向前挥动雷狼之爪，对前方的敌人造成<color=#FFACFFFF>雷元素伤害</color>。\n若命中敌人，则会为雷泽积攒一个雷之印，提高雷泽的元素充能效率。\n最多同时存在3个雷之印，叠加刷新持续时间。\n\n<color=#FFD780FF>长按</color>\n积聚雷电力量引发小范围的雷爆，造成大量<color=#FFACFFFF>雷元素伤害</color>，并清除已有的雷之印。\n每个因此被清除的雷之印，都会转为雷泽的元素能量。\n\n<i>雷击落下的一瞬，偶尔能瞥见雷泽灵魂深处那头狼打量猎物的眼神。</i>",
     "cd": 6,
-    "paramTpls": [
-      "点按技能伤害|{param1:P}",
-      "长按技能伤害|{param2:P}",
-      "雷之印充能效率提升|每个{param3:P}",
-      "雷之印吸收恢复能量|每个{param4:F1}点",
-      "雷之印持续时间|{param5:F1}秒",
-      "点按冷却时间|{param6:F1}秒",
-      "长按冷却时间|{param7:F1}秒"
-    ],
+    "paramTpls": ["点按技能伤害|{param1:P}", "长按技能伤害|{param2:P}", "雷之印充能效率提升|每个{param3:P}", "雷之印吸收恢复能量|每个{param4:F1}点", "雷之印持续时间|{param5:F1}秒", "点按冷却时间|{param6:F1}秒", "长按冷却时间|{param7:F1}秒"],
     "paramVals": [
       [1.992, 2.952, 0.2, 5, 18, 6, 10],
       [2.1414, 3.1734, 0.2, 5, 18, 6, 10],
@@ -123,62 +116,55 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」的教导", "count": 3 },
-        { "id": "DamagedMask", "name": "破损的面具", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」的教导", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破损的面具", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 2 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 4 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 6 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 9 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 4 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 4 },
-        { "id": "DvalinsClaw", "name": "东风之爪", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 6 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 6 },
-        { "id": "DvalinsClaw", "name": "东风之爪", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 12 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 9 },
-        { "id": "DvalinsClaw", "name": "东风之爪", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 16 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 12 },
-        { "id": "DvalinsClaw", "name": "东风之爪", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智识之冕", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "雷牙",
+    "name": "LightningFang",
+    "localeName": "雷牙",
     "desc": "唤醒无形的雷狼守护自己，对周围的敌人造成<color=#FFACFFFF>雷元素伤害</color>，并消耗所有雷之印，为雷泽恢复元素能量。\n雷狼存在期间，会与雷泽共同战斗。\n\n<color=#FFD780FF>雷狼</color>\n·会随雷泽的普通攻击协同攻击，造成<color=#FFACFFFF>雷元素伤害</color>；\n·提高雷泽的攻击速度、<color=#FFACFFFF>雷元素抗性</color>；\n·使雷泽免疫<color=#FFACFFFF>感电</color>反应的伤害；\n·无法施放重击；\n·提高雷泽的抗打断能力。\n\n效果将在雷泽退场时解除。\n退场时，会依据剩余的持续时间，返还至多10点元素能量。\n\n<i>狼苏醒了。狩猎的时候到了。</i>",
     "cd": 20,
     "energyCost": 80,
-    "paramTpls": [
-      "爆发伤害|{param1:P}",
-      "狼魂伤害|{param2:F1P}普通攻击伤害",
-      "普通攻击速度提升|{param3:P}",
-      "雷元素抗性提升|{param4:P}",
-      "持续时间|{param5:F1}秒",
-      "冷却时间|{param6:F1}秒",
-      "元素能量|{param7:I}"
-    ],
+    "paramTpls": ["爆发伤害|{param1:P}", "狼魂伤害|{param2:F1P}普通攻击伤害", "普通攻击速度提升|{param3:P}", "雷元素抗性提升|{param4:P}", "持续时间|{param5:F1}秒", "冷却时间|{param6:F1}秒", "元素能量|{param7:I}"],
     "paramVals": [
       [1.6, 0.24, 0.26, 0.8, 15, 20, 80],
       [1.72, 0.258, 0.28, 0.8, 15, 20, 80],
@@ -198,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」的教导", "count": 3 },
-        { "id": "DamagedMask", "name": "破损的面具", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」的教导", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破损的面具", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 2 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 4 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 6 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 9 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 4 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 4 },
-        { "id": "DvalinsClaw", "name": "东风之爪", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 6 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 6 },
-        { "id": "DvalinsClaw", "name": "东风之爪", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 12 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 9 },
-        { "id": "DvalinsClaw", "name": "东风之爪", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 16 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 12 },
-        { "id": "DvalinsClaw", "name": "东风之爪", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智识之冕", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "普通攻击·钢脊",
+    "name": "NormalAttackSteelFang",
+    "localeName": "普通攻击·钢脊",
     "desc": "<color=#FFD780FF>普通攻击</color>\n进行至多四段的连续挥砍。\n\n<color=#FFD780FF>重击</color>\n持续消耗体力，旋转大剑攻击周围的敌人。\n停止旋转时，会进行一次格外有力的挥砍。\n\n<color=#FFD780FF>下落攻击</color>\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
     "cd": 0,
     "paramTpls": [
@@ -275,70 +262,67 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」的教导", "count": 3 },
-        { "id": "DamagedMask", "name": "破损的面具", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」的教导", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破损的面具", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 2 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 4 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 6 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 9 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 4 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 4 },
-        { "id": "DvalinsClaw", "name": "东风之爪", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 6 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 6 },
-        { "id": "DvalinsClaw", "name": "东风之爪", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 12 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 9 },
-        { "id": "DvalinsClaw", "name": "东风之爪", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 16 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 12 },
-        { "id": "DvalinsClaw", "name": "东风之爪", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智识之冕", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "觉醒", "desc": "<color=#FFD780FF>利爪与苍雷</color>的冷却时间减少18%。\n施放<color=#FFD780FF>雷牙</color>时，重置<color=#FFD780FF>利爪与苍雷</color>的冷却时间。", "unlock": 1 },
-    { "name": "饥饿", "desc": "雷泽的元素能量在50%以下时，元素充能效率提高30%。", "unlock": 4 },
-    { "name": "奔狼", "desc": "队伍中自己的角色冲刺消耗的体力降低20%。\n无法与效果完全相同的固有天赋叠加。" }
+    { "name": "Awakening", "localeName": "觉醒", "desc": "<color=#FFD780FF>利爪与苍雷</color>的冷却时间减少18%。\n施放<color=#FFD780FF>雷牙</color>时，重置<color=#FFD780FF>利爪与苍雷</color>的冷却时间。", "unlock": 1 },
+    { "name": "Hunger", "localeName": "饥饿", "desc": "雷泽的元素能量在50%以下时，元素充能效率提高30%。", "unlock": 4 },
+    { "name": "Wolvensprint", "localeName": "奔狼", "desc": "队伍中自己的角色冲刺消耗的体力降低20%。\n无法与效果完全相同的固有天赋叠加。" }
   ],
   "c13ns": [
-    { "name": "狼性", "desc": "雷泽获取元素晶球或元素微粒后的8秒内，造成的伤害提高10%。" },
-    { "name": "压制", "desc": "雷泽攻击生命值低于30%的敌人时，暴击率提高10%。" },
-    { "name": "兽魂", "desc": "<color=#FFD780FF>雷牙</color>的技能等级提高3级。\n至多提升至15级。" },
-    { "name": "撕咬", "desc": "<color=#FFD780FF>利爪与苍雷</color>点按时，会使命中的敌人防御力降低15%，持续7秒。" },
-    { "name": "利爪", "desc": "<color=#FFD780FF>利爪与苍雷</color>的技能等级提高3级。\n至多提升至15级。" },
-    {
-      "name": "天狼",
-      "desc": "每10秒，雷泽的大剑将自动充能，使下一次普通攻击引发落雷，造成100%攻击力的<color=#FFACFFFF>雷元素伤害</color>。\n不处于<color=#FFD780FF>雷牙</color>状态下时，若落雷击中敌人，会为雷泽积攒一个<color=#FFD780FF>利爪与苍雷</color>的雷之印。"
-    }
+    { "name": "WolfsInstinct", "localeName": "狼性", "desc": "雷泽获取元素晶球或元素微粒后的8秒内，造成的伤害提高10%。" },
+    { "name": "Suppression", "localeName": "压制", "desc": "雷泽攻击生命值低于30%的敌人时，暴击率提高10%。" },
+    { "name": "SoulCompanion", "localeName": "兽魂", "desc": "<color=#FFD780FF>雷牙</color>的技能等级提高3级。\n至多提升至15级。" },
+    { "name": "Bite", "localeName": "撕咬", "desc": "<color=#FFD780FF>利爪与苍雷</color>点按时，会使命中的敌人防御力降低15%，持续7秒。" },
+    { "name": "SharpenedClaws", "localeName": "利爪", "desc": "<color=#FFD780FF>利爪与苍雷</color>的技能等级提高3级。\n至多提升至15级。" },
+    { "name": "LupusFulguris", "localeName": "天狼", "desc": "每10秒，雷泽的大剑将自动充能，使下一次普通攻击引发落雷，造成100%攻击力的<color=#FFACFFFF>雷元素伤害</color>。\n不处于<color=#FFD780FF>雷牙</color>状态下时，若落雷击中敌人，会为雷泽积攒一个<color=#FFD780FF>利爪与苍雷</color>的雷之印。" }
   ],
   "overviewItems": [
-    { "id": "VajradaAmethystGemstone", "name": "最胜紫晶", "rarity": 5 },
-    { "id": "LightningPrism", "name": "雷光棱镜", "rarity": 4 },
-    { "id": "Wolfhook", "name": "钩钩果" },
-    { "id": "OminousMask", "name": "不祥的面具", "rarity": 3 },
-    { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "rarity": 4 },
-    { "id": "DvalinsClaw", "name": "东风之爪", "rarity": 5 }
+    { "id": "VajradaAmethystGemstone", "localeName": "最胜紫晶", "rarity": 5 },
+    { "id": "LightningPrism", "localeName": "雷光棱镜", "rarity": 4 },
+    { "id": "Wolfhook", "localeName": "钩钩果" },
+    { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3 },
+    { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4 },
+    { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5 }
   ]
 }

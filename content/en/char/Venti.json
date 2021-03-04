@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VayudaTurquoiseSliver", "name": "Vayuda Turquoise Sliver", "count": 1 },
-        { "id": "Cecilia", "name": "Cecilia", "count": 3 },
-        { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 3 }
+        { "id": "VayudaTurquoiseSliver", "localeName": "Vayuda Turquoise Sliver", "rarity": 2, "count": 1 },
+        { "id": "Cecilia", "localeName": "Cecilia", "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 3 }
       ],
       "HP": 702.95,
       "ATK": 17.56,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VayudaTurquoiseFragment", "name": "Vayuda Turquoise Fragment", "count": 3 },
-        { "id": "HurricaneSeed", "name": "Hurricane Seed", "count": 2 },
-        { "id": "Cecilia", "name": "Cecilia", "count": 10 },
-        { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 15 }
+        { "id": "VayudaTurquoiseFragment", "localeName": "Vayuda Turquoise Fragment", "rarity": 3, "count": 3 },
+        { "id": "HurricaneSeed", "localeName": "Hurricane Seed", "rarity": 4, "count": 2 },
+        { "id": "Cecilia", "localeName": "Cecilia", "count": 10 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 15 }
       ],
       "HP": 1202.4,
       "ATK": 30.037,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VayudaTurquoiseFragment", "name": "Vayuda Turquoise Fragment", "count": 6 },
-        { "id": "HurricaneSeed", "name": "Hurricane Seed", "count": 4 },
-        { "id": "Cecilia", "name": "Cecilia", "count": 20 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 12 }
+        { "id": "VayudaTurquoiseFragment", "localeName": "Vayuda Turquoise Fragment", "rarity": 3, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "Hurricane Seed", "rarity": 4, "count": 4 },
+        { "id": "Cecilia", "localeName": "Cecilia", "count": 20 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 12 }
       ],
       "HP": 1868.4,
       "ATK": 46.673,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VayudaTurquoiseChunk", "name": "Vayuda Turquoise Chunk", "count": 3 },
-        { "id": "HurricaneSeed", "name": "Hurricane Seed", "count": 8 },
-        { "id": "Cecilia", "name": "Cecilia", "count": 30 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 18 }
+        { "id": "VayudaTurquoiseChunk", "localeName": "Vayuda Turquoise Chunk", "rarity": 4, "count": 3 },
+        { "id": "HurricaneSeed", "localeName": "Hurricane Seed", "rarity": 4, "count": 8 },
+        { "id": "Cecilia", "localeName": "Cecilia", "count": 30 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 18 }
       ],
       "HP": 2367.8,
       "ATK": 59.15,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VayudaTurquoiseChunk", "name": "Vayuda Turquoise Chunk", "count": 6 },
-        { "id": "HurricaneSeed", "name": "Hurricane Seed", "count": 12 },
-        { "id": "Cecilia", "name": "Cecilia", "count": 45 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 12 }
+        { "id": "VayudaTurquoiseChunk", "localeName": "Vayuda Turquoise Chunk", "rarity": 4, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "Hurricane Seed", "rarity": 4, "count": 12 },
+        { "id": "Cecilia", "localeName": "Cecilia", "count": 45 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 12 }
       ],
       "HP": 2867.3,
       "ATK": 71.627,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VayudaTurquoiseGemstone", "name": "Vayuda Turquoise Gemstone", "count": 6 },
-        { "id": "HurricaneSeed", "name": "Hurricane Seed", "count": 20 },
-        { "id": "Cecilia", "name": "Cecilia", "count": 60 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 24 }
+        { "id": "VayudaTurquoiseGemstone", "localeName": "Vayuda Turquoise Gemstone", "rarity": 5, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "Hurricane Seed", "rarity": 4, "count": 20 },
+        { "id": "Cecilia", "localeName": "Cecilia", "count": 60 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 24 }
       ],
       "HP": 3366.8,
       "ATK": 84.104,
@@ -92,15 +92,11 @@
   "ascensionType": 10,
   "element": 1,
   "elemSkill": {
-    "name": "Skyward Sonnet",
+    "name": "SkywardSonnet",
+    "localeName": "Skyward Sonnet",
     "desc": "#O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nSummons a Wind Domain at the opponent's location, dealing <color=#80FFD7FF>AoE Anemo DMG</color> and launching opponents into the air.\n\n<color=#FFD780FF>Hold</color>\nSummons an even larger Wind Domain with Venti as the epicenter, dealing <color=#80FFD7FF>AoE Anemo DMG</color> and launching affected opponents into the air.\nAfter unleashing the Hold version of this ability, Venti rides the wind into the air.\n\nOpponents hit by Skyward Sonnet will fall to the ground slowly.\n\n<i>In the days when gods and men walked the earth together, the heavens were filled with countless songs. This melody has long since been forgotten.</i>",
     "cd": 6,
-    "paramTpls": [
-      "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
-      "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
-      "Hold DMG|{param3:P}",
-      "CD (hold)|{param4:F1}s"
-    ],
+    "paramTpls": ["#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}", "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s", "Hold DMG|{param3:P}", "CD (hold)|{param4:F1}s"],
     "paramVals": [
       [2.76, 6, 3.8, 15],
       [2.967, 6, 4.085, 15],
@@ -120,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "Teachings of Ballad", "count": 3 },
-        { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "Teachings of Ballad", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 2 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 4 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 6 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 9 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 4 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 4 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 6 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 6 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 9 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 9 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 12 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 12 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "Wind's Grand Ode",
+    "name": "WindsGrandOde",
+    "localeName": "Wind's Grand Ode",
     "desc": "Fires off an arrow made of countless coalesced winds, creating a huge Stormeye that sucks in opponents and deals continuous <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Elemental Absorption</color>\nIf the Stormeye comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\n<i>Many hymns written in praise of the Anemo Archon have been lost to time. This one sings of his mastery over the wind.</i>",
     "cd": 15,
     "energyCost": 60,
@@ -187,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "Teachings of Ballad", "count": 3 },
-        { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "Teachings of Ballad", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 2 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 4 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 6 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 9 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 4 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 4 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 6 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 6 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 9 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 9 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 12 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 12 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "Normal Attack: Divine Marksmanship",
+    "name": "NormalAttackDivineMarksmanship",
+    "localeName": "Normal Attack: Divine Marksmanship",
     "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 6 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, favorable winds will accumulate on the arrowhead. A fully charged wind arrow will deal <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
     "cd": 0,
     "paramTpls": [
@@ -264,78 +262,81 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "Teachings of Ballad", "count": 3 },
-        { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "Teachings of Ballad", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 2 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 4 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 6 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 9 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 4 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 4 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 6 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 6 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 9 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 9 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 12 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 12 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "Embrace of Winds", "desc": "Holding <color=#FFD780FF>Skyward Sonnet</color> creates an upcurrent that lasts for 20s.", "unlock": 1, "values": [20] },
+    { "name": "EmbraceOfWinds", "localeName": "Embrace of Winds", "desc": "Holding <color=#FFD780FF>Skyward Sonnet</color> creates an upcurrent that lasts for 20s.", "unlock": 1, "values": [20] },
     {
       "name": "Stormeye",
+      "localeName": "Stormeye",
       "desc": "Regenerates 15 Energy for Venti after the effects of <color=#FFD780FF>Wind's Grand Ode</color> end.\nIf an Elemental Absorption occurred, this also restores 15 Energy to all characters of that corresponding element in the party.",
       "unlock": 4,
       "values": [15, 15]
     },
-    { "name": "Windrider", "desc": "Decreases gliding Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects." }
+    { "name": "Windrider", "localeName": "Windrider", "desc": "Decreases gliding Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects." }
   ],
   "c13ns": [
-    { "name": "Splitting Gales", "desc": "Fires 2 additional arrows per <color=#FFD780FF>Aimed Shot</color>, each dealing 33% of the original arrow's DMG." },
+    { "name": "SplittingGales", "localeName": "Splitting Gales", "desc": "Fires 2 additional arrows per <color=#FFD780FF>Aimed Shot</color>, each dealing 33% of the original arrow's DMG." },
     {
-      "name": "Breeze of Reminiscence",
+      "name": "BreezeOfReminiscence",
+      "localeName": "Breeze of Reminiscence",
       "desc": "<color=#FFD780FF>Skyward Sonnet</color> decreases opponents' <color=#80FFD7FF>Anemo RES</color> and Physical RES by 12% for 10s.\nOpponents launched by <color=#FFD780FF>Skyward Sonnet</color> suffer an additional 12% <color=#80FFD7FF>Anemo RES</color> and Physical RES decrease while airborne."
     },
-    { "name": "Ode to Thousand Winds", "desc": "Increases the Level of <color=#FFD780FF>Wind's Grand Ode</color> by 3.\nMaximum upgrade level is 15." },
-    { "name": "Hurricane of Freedom", "desc": "When Venti picks up an Elemental Orb or Particle, he receives a 25% <color=#80FFD7FF>Anemo DMG Bonus</color> for 10s." },
-    { "name": "Concerto dal Cielo", "desc": "Increases the Level of <color=#FFD780FF>Skyward Sonnet</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "OdeToThousandWinds", "localeName": "Ode to Thousand Winds", "desc": "Increases the Level of <color=#FFD780FF>Wind's Grand Ode</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "HurricaneOfFreedom", "localeName": "Hurricane of Freedom", "desc": "When Venti picks up an Elemental Orb or Particle, he receives a 25% <color=#80FFD7FF>Anemo DMG Bonus</color> for 10s." },
+    { "name": "ConcertoDalCielo", "localeName": "Concerto dal Cielo", "desc": "Increases the Level of <color=#FFD780FF>Skyward Sonnet</color> by 3.\nMaximum upgrade level is 15." },
     {
-      "name": "Storm of Defiance",
+      "name": "StormOfDefiance",
+      "localeName": "Storm of Defiance",
       "desc": "Targets who take DMG from <color=#FFD780FF>Wind's Grand Ode</color> have their <color=#80FFD7FF>Anemo RES</color> decreased by 20%.\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%."
     }
   ],
   "overviewItems": [
-    { "id": "VayudaTurquoiseGemstone", "name": "Vayuda Turquoise Gemstone", "rarity": 5 },
-    { "id": "HurricaneSeed", "name": "Hurricane Seed", "rarity": 4 },
-    { "id": "Cecilia", "name": "Cecilia" },
-    { "id": "SlimeConcentrate", "name": "Slime Concentrate", "rarity": 3 },
-    { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "rarity": 4 },
-    { "id": "TailOfBoreas", "name": "Tail of Boreas", "rarity": 5 }
+    { "id": "VayudaTurquoiseGemstone", "localeName": "Vayuda Turquoise Gemstone", "rarity": 5 },
+    { "id": "HurricaneSeed", "localeName": "Hurricane Seed", "rarity": 4 },
+    { "id": "Cecilia", "localeName": "Cecilia" },
+    { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3 },
+    { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4 },
+    { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5 }
   ]
 }

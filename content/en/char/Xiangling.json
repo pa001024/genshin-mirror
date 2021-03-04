@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "AgnidusAgateSliver", "name": "Agnidus Agate Sliver", "count": 1 },
-        { "id": "JueyunChili", "name": "Jueyun Chili", "count": 3 },
-        { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 3 }
+        { "id": "AgnidusAgateSliver", "localeName": "Agnidus Agate Sliver", "rarity": 2, "count": 1 },
+        { "id": "JueyunChili", "localeName": "Jueyun Chili", "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 3 }
       ],
       "HP": 681.15,
       "ATK": 14.102,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "Agnidus Agate Fragment", "count": 3 },
-        { "id": "EverflameSeed", "name": "Everflame Seed", "count": 2 },
-        { "id": "JueyunChili", "name": "Jueyun Chili", "count": 10 },
-        { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 15 }
+        { "id": "AgnidusAgateFragment", "localeName": "Agnidus Agate Fragment", "rarity": 3, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4, "count": 2 },
+        { "id": "JueyunChili", "localeName": "Jueyun Chili", "count": 10 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 15 }
       ],
       "HP": 1165.1,
       "ATK": 24.122,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "Agnidus Agate Fragment", "count": 6 },
-        { "id": "EverflameSeed", "name": "Everflame Seed", "count": 4 },
-        { "id": "JueyunChili", "name": "Jueyun Chili", "count": 20 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 12 }
+        { "id": "AgnidusAgateFragment", "localeName": "Agnidus Agate Fragment", "rarity": 3, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4, "count": 4 },
+        { "id": "JueyunChili", "localeName": "Jueyun Chili", "count": 20 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 12 }
       ],
       "HP": 1810.4,
       "ATK": 37.482,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "Agnidus Agate Chunk", "count": 3 },
-        { "id": "EverflameSeed", "name": "Everflame Seed", "count": 8 },
-        { "id": "JueyunChili", "name": "Jueyun Chili", "count": 30 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 18 }
+        { "id": "AgnidusAgateChunk", "localeName": "Agnidus Agate Chunk", "rarity": 4, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4, "count": 8 },
+        { "id": "JueyunChili", "localeName": "Jueyun Chili", "count": 30 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 18 }
       ],
       "HP": 2294.4,
       "ATK": 47.502,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "Agnidus Agate Chunk", "count": 6 },
-        { "id": "EverflameSeed", "name": "Everflame Seed", "count": 12 },
-        { "id": "JueyunChili", "name": "Jueyun Chili", "count": 45 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 12 }
+        { "id": "AgnidusAgateChunk", "localeName": "Agnidus Agate Chunk", "rarity": 4, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4, "count": 12 },
+        { "id": "JueyunChili", "localeName": "Jueyun Chili", "count": 45 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 12 }
       ],
       "HP": 2778.4,
       "ATK": 57.521,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "AgnidusAgateGemstone", "name": "Agnidus Agate Gemstone", "count": 6 },
-        { "id": "EverflameSeed", "name": "Everflame Seed", "count": 20 },
-        { "id": "JueyunChili", "name": "Jueyun Chili", "count": 60 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 24 }
+        { "id": "AgnidusAgateGemstone", "localeName": "Agnidus Agate Gemstone", "rarity": 5, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4, "count": 20 },
+        { "id": "JueyunChili", "localeName": "Jueyun Chili", "count": 60 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 24 }
       ],
       "HP": 3262.4,
       "ATK": 67.541,
@@ -92,7 +92,8 @@
   "ascensionType": 11,
   "element": 6,
   "elemSkill": {
-    "name": "Guoba Attack",
+    "name": "GuobaAttack",
+    "localeName": "Guoba Attack",
     "desc": "Summons Guoba the Panda. Guoba continuously breathes fire at opponents, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\n\n<i>Guoba loves to eat spicy food. Problem is, his stomach can't handle something this spicy.</i>",
     "cd": 12,
     "paramTpls": ["Flame DMG|{param1:P}", "CD|{param2:F1}s"],
@@ -115,62 +116,55 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfDiligence", "name": "Teachings of Diligence", "count": 3 },
-        { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 6 }
+        { "id": "TeachingsOfDiligence", "localeName": "Teachings of Diligence", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 2 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 3 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 4 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 4 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 6 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 6 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 9 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 9 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 4 },
-        { "id": "DvalinsClaw", "name": "Dvalin's Claw", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 6 },
-        { "id": "DvalinsClaw", "name": "Dvalin's Claw", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 9 },
-        { "id": "DvalinsClaw", "name": "Dvalin's Claw", "count": 2 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 12 },
-        { "id": "DvalinsClaw", "name": "Dvalin's Claw", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
     "name": "Pyronado",
+    "localeName": "Pyronado",
     "desc": "Displaying her mastery over both fire and polearms, Xiangling sends a Pyronado whirling around her.\nThe Pyronado will move with your character for the ability's duration, dealing <color=#FF9999FF>Pyro DMG</color> to all opponents in its path.\n\n<i>There will never be enough heat. Never.</i>",
     "cd": 20,
     "energyCost": 80,
-    "paramTpls": [
-      "1-Hit Swing DMG|{param1:F1P}",
-      "2-Hit Swing DMG|{param2:F1P}",
-      "3-Hit Swing DMG|{param3:P}",
-      "Pyronado DMG|{param4:P}",
-      "Duration|{param5:F1}s",
-      "CD|{param6:F1}s",
-      "Energy Cost|{param7:I}"
-    ],
+    "paramTpls": ["1-Hit Swing DMG|{param1:F1P}", "2-Hit Swing DMG|{param2:F1P}", "3-Hit Swing DMG|{param3:P}", "Pyronado DMG|{param4:P}", "Duration|{param5:F1}s", "CD|{param6:F1}s", "Energy Cost|{param7:I}"],
     "paramVals": [
       [0.72, 0.88, 1.096, 1.12, 10, 20, 80],
       [0.774, 0.946, 1.1782, 1.204, 10, 20, 80],
@@ -190,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfDiligence", "name": "Teachings of Diligence", "count": 3 },
-        { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 6 }
+        { "id": "TeachingsOfDiligence", "localeName": "Teachings of Diligence", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 2 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 3 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 4 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 4 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 6 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 6 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 9 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 9 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 4 },
-        { "id": "DvalinsClaw", "name": "Dvalin's Claw", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 6 },
-        { "id": "DvalinsClaw", "name": "Dvalin's Claw", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 9 },
-        { "id": "DvalinsClaw", "name": "Dvalin's Claw", "count": 2 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 12 },
-        { "id": "DvalinsClaw", "name": "Dvalin's Claw", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "Normal Attack: Dough-Fu",
+    "name": "NormalAttackDoughFu",
+    "localeName": "Normal Attack: Dough-Fu",
     "desc": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to five consecutive spear strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "cd": 0,
     "paramTpls": [
@@ -266,76 +261,72 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfDiligence", "name": "Teachings of Diligence", "count": 3 },
-        { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 6 }
+        { "id": "TeachingsOfDiligence", "localeName": "Teachings of Diligence", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 2 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 3 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 4 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 4 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 6 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 6 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 9 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 9 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 4 },
-        { "id": "DvalinsClaw", "name": "Dvalin's Claw", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 6 },
-        { "id": "DvalinsClaw", "name": "Dvalin's Claw", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 9 },
-        { "id": "DvalinsClaw", "name": "Dvalin's Claw", "count": 2 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 12 },
-        { "id": "DvalinsClaw", "name": "Dvalin's Claw", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "Crossfire", "desc": "Increases the flame range of Guoba by 20%.", "unlock": 1, "values": [0.2] },
-    {
-      "name": "Beware, It's Super Hot!",
-      "desc": "When <color=#FFD780FF>Guoba Attack</color>'s effect ends, Guoba leaves a chili pepper on the spot where it disappeared. Picking up a chili pepper increases ATK by 10% for 10s.",
-      "unlock": 4,
-      "values": [0.1, 10]
-    },
-    { "name": "Chef de Cuisine", "desc": "When Xiangling cooks an ATK-boosting dish perfectly, she has a 12% chance to receive double the product." }
+    { "name": "Crossfire", "localeName": "Crossfire", "desc": "Increases the flame range of Guoba by 20%.", "unlock": 1, "values": [0.2] },
+    { "name": "BewareItsSuperHot", "localeName": "Beware, It's Super Hot!", "desc": "When <color=#FFD780FF>Guoba Attack</color>'s effect ends, Guoba leaves a chili pepper on the spot where it disappeared. Picking up a chili pepper increases ATK by 10% for 10s.", "unlock": 4, "values": [0.1, 10] },
+    { "name": "ChefDeCuisine", "localeName": "Chef de Cuisine", "desc": "When Xiangling cooks an ATK-boosting dish perfectly, she has a 12% chance to receive double the product." }
   ],
   "c13ns": [
-    { "name": "Crispy Outside, Tender Inside", "desc": "Opponents hit by Guoba's attacks have their <color=#FF9999FF>Pyro RES</color> reduced by 15% for 6s.", "values": [0.15, 6] },
+    { "name": "CrispyOutsideTenderInside", "localeName": "Crispy Outside, Tender Inside", "desc": "Opponents hit by Guoba's attacks have their <color=#FF9999FF>Pyro RES</color> reduced by 15% for 6s.", "values": [0.15, 6] },
     {
-      "name": "Oil Meets Fire",
+      "name": "OilMeetsFire",
+      "localeName": "Oil Meets Fire",
       "desc": "The last attack in a Normal Attack sequence applies the Implode status onto the opponent for 2s. An explosion will occur once this duration ends, dealing 75% of Xiangling's ATK as <color=#FF9999FF>AoE Pyro DMG</color>.",
       "values": [2, 2, 0.75]
     },
-    { "name": "Deepfry", "desc": "Increases the Level of <color=#FFD780FF>Pyronado</color> by 3.\nMaximum upgrade level is 15." },
-    { "name": "Slowbake", "desc": "<color=#FFD780FF>Pyronado</color>'s duration is increased by 40%.", "values": [0.4] },
-    { "name": "Guoba Mad", "desc": "Increases the Level of <color=#FFD780FF>Guoba Attack</color> by 3.\nMaximum upgrade level is 15." },
-    { "name": "Condensed Pyronado", "desc": "For the duration of <color=#FFD780FF>Pyronado</color>, all party members receive a 15% <color=#FF9999FF>Pyro DMG Bonus</color>.", "values": [0.15] }
+    { "name": "Deepfry", "localeName": "Deepfry", "desc": "Increases the Level of <color=#FFD780FF>Pyronado</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "Slowbake", "localeName": "Slowbake", "desc": "<color=#FFD780FF>Pyronado</color>'s duration is increased by 40%.", "values": [0.4] },
+    { "name": "GuobaMad", "localeName": "Guoba Mad", "desc": "Increases the Level of <color=#FFD780FF>Guoba Attack</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "CondensedPyronado", "localeName": "Condensed Pyronado", "desc": "For the duration of <color=#FFD780FF>Pyronado</color>, all party members receive a 15% <color=#FF9999FF>Pyro DMG Bonus</color>.", "values": [0.15] }
   ],
   "overviewItems": [
-    { "id": "AgnidusAgateGemstone", "name": "Agnidus Agate Gemstone", "rarity": 5 },
-    { "id": "EverflameSeed", "name": "Everflame Seed", "rarity": 4 },
-    { "id": "JueyunChili", "name": "Jueyun Chili" },
-    { "id": "SlimeConcentrate", "name": "Slime Concentrate", "rarity": 3 },
-    { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "rarity": 4 },
-    { "id": "DvalinsClaw", "name": "Dvalin's Claw", "rarity": 5 }
+    { "id": "AgnidusAgateGemstone", "localeName": "Agnidus Agate Gemstone", "rarity": 5 },
+    { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4 },
+    { "id": "JueyunChili", "localeName": "Jueyun Chili" },
+    { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3 },
+    { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4 },
+    { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5 }
   ]
 }

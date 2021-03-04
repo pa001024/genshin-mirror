@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "ShivadaJadeSliver", "name": "Shivada Jade Sliver", "count": 1 },
-        { "id": "Violetgrass", "name": "Violetgrass", "count": 3 },
-        { "id": "DiviningScroll", "name": "Divining Scroll", "count": 3 }
+        { "id": "ShivadaJadeSliver", "localeName": "Shivada Jade Sliver", "rarity": 2, "count": 1 },
+        { "id": "Violetgrass", "localeName": "Violetgrass", "count": 3 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 3 }
       ],
       "HP": 825.56,
       "ATK": 19.157,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "ShivadaJadeFragment", "name": "Shivada Jade Fragment", "count": 3 },
-        { "id": "HoarfrostCore", "name": "Hoarfrost Core", "count": 2 },
-        { "id": "Violetgrass", "name": "Violetgrass", "count": 10 },
-        { "id": "DiviningScroll", "name": "Divining Scroll", "count": 15 }
+        { "id": "ShivadaJadeFragment", "localeName": "Shivada Jade Fragment", "rarity": 3, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "Hoarfrost Core", "rarity": 4, "count": 2 },
+        { "id": "Violetgrass", "localeName": "Violetgrass", "count": 10 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 15 }
       ],
       "HP": 1412.1,
       "ATK": 32.768,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "ShivadaJadeFragment", "name": "Shivada Jade Fragment", "count": 6 },
-        { "id": "HoarfrostCore", "name": "Hoarfrost Core", "count": 4 },
-        { "id": "Violetgrass", "name": "Violetgrass", "count": 20 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 12 }
+        { "id": "ShivadaJadeFragment", "localeName": "Shivada Jade Fragment", "rarity": 3, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "Hoarfrost Core", "rarity": 4, "count": 4 },
+        { "id": "Violetgrass", "localeName": "Violetgrass", "count": 20 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 12 }
       ],
       "HP": 2194.3,
       "ATK": 50.916,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "ShivadaJadeChunk", "name": "Shivada Jade Chunk", "count": 3 },
-        { "id": "HoarfrostCore", "name": "Hoarfrost Core", "count": 8 },
-        { "id": "Violetgrass", "name": "Violetgrass", "count": 30 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 18 }
+        { "id": "ShivadaJadeChunk", "localeName": "Shivada Jade Chunk", "rarity": 4, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "Hoarfrost Core", "rarity": 4, "count": 8 },
+        { "id": "Violetgrass", "localeName": "Violetgrass", "count": 30 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 18 }
       ],
       "HP": 2780.8,
       "ATK": 64.527,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "ShivadaJadeChunk", "name": "Shivada Jade Chunk", "count": 6 },
-        { "id": "HoarfrostCore", "name": "Hoarfrost Core", "count": 12 },
-        { "id": "Violetgrass", "name": "Violetgrass", "count": 45 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 12 }
+        { "id": "ShivadaJadeChunk", "localeName": "Shivada Jade Chunk", "rarity": 4, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "Hoarfrost Core", "rarity": 4, "count": 12 },
+        { "id": "Violetgrass", "localeName": "Violetgrass", "count": 45 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 12 }
       ],
       "HP": 3367.4,
       "ATK": 78.139,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "ShivadaJadeGemstone", "name": "Shivada Jade Gemstone", "count": 6 },
-        { "id": "HoarfrostCore", "name": "Hoarfrost Core", "count": 20 },
-        { "id": "Violetgrass", "name": "Violetgrass", "count": 60 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 24 }
+        { "id": "ShivadaJadeGemstone", "localeName": "Shivada Jade Gemstone", "rarity": 5, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "Hoarfrost Core", "rarity": 4, "count": 20 },
+        { "id": "Violetgrass", "localeName": "Violetgrass", "count": 60 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 24 }
       ],
       "HP": 3954,
       "ATK": 91.75,
@@ -92,17 +92,11 @@
   "ascensionType": 14,
   "element": 7,
   "elemSkill": {
-    "name": "Adeptus Art: Herald of Frost",
+    "name": "AdeptusArtHeraldOfFrost",
+    "localeName": "Adeptus Art: Herald of Frost",
     "desc": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing <color=#99FFFFFF>Cryo DMG</color> to surrounding opponents.\n\n<color=#FFD780FF>Herald of Frost</color>\n·On hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.\n·Periodically regenerates your active character's HP.\n·Follows the character around, dealing <color=#99FFFFFF>Cryo DMG</color> to opponents in their path.\n\n<i>I use this to prevent warming and rot... of Dr. Bai's precious ingredients. Yes.</i>",
     "cd": 30,
-    "paramTpls": [
-      "Skill DMG|{param8:P}",
-      "Regeneration on Hit|{param1:F2P} ATK+{param2:I}",
-      "Continuous Regeneration|{param3:F2P} ATK+{param4:I}",
-      "Herald of Frost DMG|{param5:F1P}",
-      "Duration|{param6:F1}s",
-      "CD|{param7:F1}s"
-    ],
+    "paramTpls": ["Skill DMG|{param8:P}", "Regeneration on Hit|{param1:F2P} ATK+{param2:I}", "Continuous Regeneration|{param3:F2P} ATK+{param4:I}", "Herald of Frost DMG|{param5:F1P}", "Duration|{param6:F1}s", "CD|{param7:F1}s"],
     "paramVals": [
       [0.1056, 67.408, 0.696, 450.55, 0.36, 15, 30, 0.96],
       [0.11352, 74.15, 0.7482, 495.61, 0.387, 15, 30, 1.032],
@@ -122,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "Teachings of Prosperity", "count": 3 },
-        { "id": "DiviningScroll", "name": "Divining Scroll", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "Teachings of Prosperity", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 2 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 4 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 6 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 9 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 4 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 4 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 4 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 6 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 6 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 6 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 12 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 9 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 9 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 16 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 12 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 12 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "Adeptus Art: Preserver of Fortune",
+    "name": "AdeptusArtPreserverOfFortune",
+    "localeName": "Adeptus Art: Preserver of Fortune",
     "desc": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals <color=#99FFFFFF>Cryo DMG</color>.\n\n<color=#FFD780FF>Fortune-Preserving Talisman</color>\nWhen opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.\n\n<i>\"I am the Fortune Preserver, the Maiden of Resurrection.\"</i>\n<i>— Qiqi does not remember these words.</i>",
     "cd": 20,
     "energyCost": 80,
@@ -189,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "Teachings of Prosperity", "count": 3 },
-        { "id": "DiviningScroll", "name": "Divining Scroll", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "Teachings of Prosperity", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 2 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 4 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 6 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 9 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 4 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 4 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 4 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 6 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 6 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 6 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 12 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 9 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 9 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 16 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 12 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 12 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "Normal Attack: Ancient Sword Art",
+    "name": "NormalAttackAncientSwordArt",
+    "localeName": "Normal Attack: Ancient Sword Art",
     "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "cd": 0,
     "paramTpls": [
@@ -265,78 +261,67 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "Teachings of Prosperity", "count": 3 },
-        { "id": "DiviningScroll", "name": "Divining Scroll", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "Teachings of Prosperity", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 2 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 4 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 6 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 9 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 4 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 4 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 4 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 6 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 6 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 6 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 12 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 9 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 9 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 16 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 12 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 12 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    {
-      "name": "Life-Prolonging Methods",
-      "desc": "When a character under the effects of <color=#FFD780FF>Adeptus Art: Herald of Frost</color> triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s.",
-      "unlock": 1
-    },
-    {
-      "name": "A Glimpse into Arcanum",
-      "desc": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s.",
-      "unlock": 4
-    },
-    { "name": "Former Life Memories", "desc": "Displays the location of nearby <color=#FFD780FF>resources unique to Liyue</color> on the mini-map." }
+    { "name": "LifeProlongingMethods", "localeName": "Life-Prolonging Methods", "desc": "When a character under the effects of <color=#FFD780FF>Adeptus Art: Herald of Frost</color> triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s.", "unlock": 1 },
+    { "name": "AGlimpseIntoArcanum", "localeName": "A Glimpse into Arcanum", "desc": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s.", "unlock": 4 },
+    { "name": "FormerLifeMemories", "localeName": "Former Life Memories", "desc": "Displays the location of nearby <color=#FFD780FF>resources unique to Liyue</color> on the mini-map." }
   ],
   "c13ns": [
-    { "name": "Ascetics of Frost", "desc": "When the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 Energy." },
-    { "name": "Frozen to the Bone", "desc": "Qiqi's Normal and Charge Attack DMG against opponents affected by <color=#99FFFFFF>Cryo</color> is increased by 15%." },
-    { "name": "Ascendant Praise", "desc": "Increases the Level of <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> by 3.\nMaximum upgrade level is 15." },
-    { "name": "Divine Suppression", "desc": "Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%." },
-    { "name": "Crimson Lotus Bloom", "desc": "Increases the Level of <color=#FFD780FF>Adeptus Art: Herald of Frost</color> by 3.\nMaximum upgrade level is 15." },
-    {
-      "name": "Rite of Resurrection",
-      "desc": "Using <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> revives all fallen party members nearby and regenerates 50% of their HP.\nThis effect can only occur once every 15 mins."
-    }
+    { "name": "AsceticsOfFrost", "localeName": "Ascetics of Frost", "desc": "When the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 Energy." },
+    { "name": "FrozenToTheBone", "localeName": "Frozen to the Bone", "desc": "Qiqi's Normal and Charge Attack DMG against opponents affected by <color=#99FFFFFF>Cryo</color> is increased by 15%." },
+    { "name": "AscendantPraise", "localeName": "Ascendant Praise", "desc": "Increases the Level of <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "DivineSuppression", "localeName": "Divine Suppression", "desc": "Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%." },
+    { "name": "CrimsonLotusBloom", "localeName": "Crimson Lotus Bloom", "desc": "Increases the Level of <color=#FFD780FF>Adeptus Art: Herald of Frost</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "RiteOfResurrection", "localeName": "Rite of Resurrection", "desc": "Using <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> revives all fallen party members nearby and regenerates 50% of their HP.\nThis effect can only occur once every 15 mins." }
   ],
   "overviewItems": [
-    { "id": "ShivadaJadeGemstone", "name": "Shivada Jade Gemstone", "rarity": 5 },
-    { "id": "HoarfrostCore", "name": "Hoarfrost Core", "rarity": 4 },
-    { "id": "Violetgrass", "name": "Violetgrass" },
-    { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "rarity": 3 },
-    { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "rarity": 4 },
-    { "id": "TailOfBoreas", "name": "Tail of Boreas", "rarity": 5 }
+    { "id": "ShivadaJadeGemstone", "localeName": "Shivada Jade Gemstone", "rarity": 5 },
+    { "id": "HoarfrostCore", "localeName": "Hoarfrost Core", "rarity": 4 },
+    { "id": "Violetgrass", "localeName": "Violetgrass" },
+    { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3 },
+    { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4 },
+    { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5 }
   ]
 }

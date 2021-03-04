@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VajradaAmethystSliver", "name": "最勝紫晶碎屑", "count": 1 },
-        { "id": "NoctilucousJade", "name": "夜泊石", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "尋寶鴉印", "count": 3 }
+        { "id": "VajradaAmethystSliver", "localeName": "最勝紫晶碎屑", "rarity": 2, "count": 1 },
+        { "id": "NoctilucousJade", "localeName": "夜泊石", "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "尋寶鴉印", "rarity": 1, "count": 3 }
       ],
       "HP": 817.39,
       "ATK": 14.102,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VajradaAmethystFragment", "name": "最勝紫晶斷片", "count": 3 },
-        { "id": "LightningPrism", "name": "雷光稜鏡", "count": 2 },
-        { "id": "NoctilucousJade", "name": "夜泊石", "count": 10 },
-        { "id": "TreasureHoarderInsignia", "name": "尋寶鴉印", "count": 15 }
+        { "id": "VajradaAmethystFragment", "localeName": "最勝紫晶斷片", "rarity": 3, "count": 3 },
+        { "id": "LightningPrism", "localeName": "雷光稜鏡", "rarity": 4, "count": 2 },
+        { "id": "NoctilucousJade", "localeName": "夜泊石", "count": 10 },
+        { "id": "TreasureHoarderInsignia", "localeName": "尋寶鴉印", "rarity": 1, "count": 15 }
       ],
       "HP": 1398.2,
       "ATK": 24.122,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VajradaAmethystFragment", "name": "最勝紫晶斷片", "count": 6 },
-        { "id": "LightningPrism", "name": "雷光稜鏡", "count": 4 },
-        { "id": "NoctilucousJade", "name": "夜泊石", "count": 20 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 12 }
+        { "id": "VajradaAmethystFragment", "localeName": "最勝紫晶斷片", "rarity": 3, "count": 6 },
+        { "id": "LightningPrism", "localeName": "雷光稜鏡", "rarity": 4, "count": 4 },
+        { "id": "NoctilucousJade", "localeName": "夜泊石", "count": 20 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 12 }
       ],
       "HP": 2172.5,
       "ATK": 37.482,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VajradaAmethystChunk", "name": "最勝紫晶塊", "count": 3 },
-        { "id": "LightningPrism", "name": "雷光稜鏡", "count": 8 },
-        { "id": "NoctilucousJade", "name": "夜泊石", "count": 30 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 18 }
+        { "id": "VajradaAmethystChunk", "localeName": "最勝紫晶塊", "rarity": 4, "count": 3 },
+        { "id": "LightningPrism", "localeName": "雷光稜鏡", "rarity": 4, "count": 8 },
+        { "id": "NoctilucousJade", "localeName": "夜泊石", "count": 30 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 18 }
       ],
       "HP": 2753.3,
       "ATK": 47.502,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VajradaAmethystChunk", "name": "最勝紫晶塊", "count": 6 },
-        { "id": "LightningPrism", "name": "雷光稜鏡", "count": 12 },
-        { "id": "NoctilucousJade", "name": "夜泊石", "count": 45 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 12 }
+        { "id": "VajradaAmethystChunk", "localeName": "最勝紫晶塊", "rarity": 4, "count": 6 },
+        { "id": "LightningPrism", "localeName": "雷光稜鏡", "rarity": 4, "count": 12 },
+        { "id": "NoctilucousJade", "localeName": "夜泊石", "count": 45 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 12 }
       ],
       "HP": 3334.1,
       "ATK": 57.521,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VajradaAmethystGemstone", "name": "最勝紫晶", "count": 6 },
-        { "id": "LightningPrism", "name": "雷光稜鏡", "count": 20 },
-        { "id": "NoctilucousJade", "name": "夜泊石", "count": 60 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 24 }
+        { "id": "VajradaAmethystGemstone", "localeName": "最勝紫晶", "rarity": 5, "count": 6 },
+        { "id": "LightningPrism", "localeName": "雷光稜鏡", "rarity": 4, "count": 20 },
+        { "id": "NoctilucousJade", "localeName": "夜泊石", "count": 60 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 24 }
       ],
       "HP": 3914.8,
       "ATK": 67.541,
@@ -92,7 +92,8 @@
   "ascensionType": 25,
   "element": 3,
   "elemSkill": {
-    "name": "捉浪",
+    "name": "Tidecaller",
+    "localeName": "捉浪",
     "desc": "沒有什麼好擔心的。如果有人敢對她或她的人出手，那就以雷電與大劍十倍奉還。\n\n<color=#FFD780FF>點按</color>\n匯聚雷之力，猛烈向前揮舞大劍，造成<color=#FFACFFFF>雷元素傷害</color>。\n\n<color=#FFD780FF>長按</color>\n舉起武器形成護盾，傷害吸收量受益於北斗的生命值上限。\n鬆開技能或持續時間結束時，會揮舞大劍釋放累積的力量進行攻擊，造成<color=#FFACFFFF>雷元素傷害</color>。依據技能期間受到攻擊的次數，提高釋放時造成的傷害。觸發2次達到最高傷害加成。\n護盾具有如下效果：\n·對<color=#FFACFFFF>雷元素傷害</color>有250%的吸收效果；\n·施放的瞬間，為北斗施加<color=#FFACFFFF>雷元素附著</color>。\n\n<i>渺渺征船，追電捉浪。</i>",
     "cd": 7.5,
     "paramTpls": ["護盾吸收量|{param1:F1P}生命值上限+{param2:I}", "基礎傷害|{param3:P}", "受擊時傷害提升|{param4:P}", "冷卻時間|{param5:F1}秒"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfGold", "name": "「黃金」的教導", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "尋寶鴉印", "count": 6 }
+        { "id": "TeachingsOfGold", "localeName": "「黃金」的教導", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "尋寶鴉印", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黃金」的指引", "count": 2 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 3 }
+        { "id": "GuideToGold", "localeName": "「黃金」的指引", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黃金」的指引", "count": 4 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 4 }
+        { "id": "GuideToGold", "localeName": "「黃金」的指引", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黃金」的指引", "count": 6 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 6 }
+        { "id": "GuideToGold", "localeName": "「黃金」的指引", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黃金」的指引", "count": 9 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 9 }
+        { "id": "GuideToGold", "localeName": "「黃金」的指引", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黃金」的哲學", "count": 4 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 4 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黃金」的哲學", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 4 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黃金」的哲學", "count": 6 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 6 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黃金」的哲學", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 6 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黃金」的哲學", "count": 12 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 9 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 2 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黃金」的哲學", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 9 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黃金」的哲學", "count": 16 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 12 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黃金」的哲學", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 12 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "斫雷",
+    "name": "Stormbreaker",
+    "localeName": "斫雷",
     "desc": "重憶斬滅海山巨獸之戰，喚起巨獸與雷電的力量，創造環繞自身的雷獸之盾，並對周圍的敵人造成<color=#FFACFFFF>雷元素傷害</color>。\n\n<color=#FFD780FF>雷獸之盾</color>\n·普通攻擊與重擊命中時，釋放雷電之力，引來一道能在敵人之間躍動的閃雷，造成<color=#FFACFFFF>雷元素傷害</color>；\n·提高角色的抗打斷能力，並降低受到的傷害。\n\n每秒至多觸發一道閃雷。\n\n<i>赫赫雷來，斫滅海山。</i>",
     "cd": 20,
     "energyCost": 80,
@@ -182,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfGold", "name": "「黃金」的教導", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "尋寶鴉印", "count": 6 }
+        { "id": "TeachingsOfGold", "localeName": "「黃金」的教導", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "尋寶鴉印", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黃金」的指引", "count": 2 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 3 }
+        { "id": "GuideToGold", "localeName": "「黃金」的指引", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黃金」的指引", "count": 4 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 4 }
+        { "id": "GuideToGold", "localeName": "「黃金」的指引", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黃金」的指引", "count": 6 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 6 }
+        { "id": "GuideToGold", "localeName": "「黃金」的指引", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黃金」的指引", "count": 9 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 9 }
+        { "id": "GuideToGold", "localeName": "「黃金」的指引", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黃金」的哲學", "count": 4 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 4 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黃金」的哲學", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 4 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黃金」的哲學", "count": 6 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 6 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黃金」的哲學", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 6 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黃金」的哲學", "count": 12 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 9 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 2 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黃金」的哲學", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 9 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黃金」的哲學", "count": 16 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 12 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黃金」的哲學", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 12 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "普通攻擊·征濤",
+    "name": "NormalAttackOceanborne",
+    "localeName": "普通攻擊·征濤",
     "desc": "<color=#FFD780FF>普通攻擊</color>\n進行至多五段的連續揮砍。\n\n<color=#FFD780FF>重擊</color>\n持續消耗體力，快速進行連續的斬擊。\n重擊結束時，會進行一次格外有力的揮砍。\n\n<color=#FFD780FF>下落攻擊</color>\n從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。",
     "cd": 0,
     "paramTpls": [
@@ -260,76 +263,67 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfGold", "name": "「黃金」的教導", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "尋寶鴉印", "count": 6 }
+        { "id": "TeachingsOfGold", "localeName": "「黃金」的教導", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "尋寶鴉印", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黃金」的指引", "count": 2 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 3 }
+        { "id": "GuideToGold", "localeName": "「黃金」的指引", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黃金」的指引", "count": 4 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 4 }
+        { "id": "GuideToGold", "localeName": "「黃金」的指引", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黃金」的指引", "count": 6 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 6 }
+        { "id": "GuideToGold", "localeName": "「黃金」的指引", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黃金」的指引", "count": 9 },
-        { "id": "SilverRavenInsignia", "name": "藏銀鴉印", "count": 9 }
+        { "id": "GuideToGold", "localeName": "「黃金」的指引", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黃金」的哲學", "count": 4 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 4 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黃金」的哲學", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 4 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黃金」的哲學", "count": 6 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 6 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黃金」的哲學", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 6 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黃金」的哲學", "count": 12 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 9 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 2 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黃金」的哲學", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 9 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黃金」的哲學", "count": 16 },
-        { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "count": 12 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黃金」的哲學", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3, "count": 12 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "遍宇靈光", "desc": "在被攻擊瞬間施放的<color=#FFD780FF>捉浪</color>反擊，擁有最高傷害加成。", "unlock": 1, "values": [2] },
-    {
-      "name": "霹靂連霄",
-      "desc": "施放擁有最高傷害加成的<color=#FFD780FF>捉浪</color>後的10秒內，獲得以下效果：\n·普通攻擊與重擊造成的傷害提升15%，攻擊速度提高15%；\n·大幅減少重擊需要的準備時間。",
-      "unlock": 4,
-      "values": [0.15]
-    },
-    { "name": "擁濤踏潮", "desc": "隊伍中自己的角色游泳消耗的體力降低20%。\n無法與效果完全相同的固有天賦疊加。" }
+    { "name": "Retribution", "localeName": "遍宇靈光", "desc": "在被攻擊瞬間施放的<color=#FFD780FF>捉浪</color>反擊，擁有最高傷害加成。", "unlock": 1, "values": [2] },
+    { "name": "LightningStorm", "localeName": "霹靂連霄", "desc": "施放擁有最高傷害加成的<color=#FFD780FF>捉浪</color>後的10秒內，獲得以下效果：\n·普通攻擊與重擊造成的傷害提升15%，攻擊速度提高15%；\n·大幅減少重擊需要的準備時間。", "unlock": 4, "values": [0.15] },
+    { "name": "ConquerorOfTides", "localeName": "擁濤踏潮", "desc": "隊伍中自己的角色游泳消耗的體力降低20%。\n無法與效果完全相同的固有天賦疊加。" }
   ],
   "c13ns": [
-    {
-      "name": "魚龍沉四方",
-      "desc": "施放<color=#FFD780FF>斫雷</color>時：\n產生一個傷害吸收量等於生命值上限16%的護盾，持續15秒。\n該護盾對<color=#FFACFFFF>雷元素傷害</color>有250%的吸收效果。",
-      "values": [0.16]
-    },
-    { "name": "赫赫雷湧起", "desc": "<color=#FFD780FF>斫雷</color>的閃雷能額外彈跳2個敵人。" },
-    { "name": "潮奔驀引電", "desc": "<color=#FFD780FF>捉浪</color>的技能等級提高3級。\n至多提升至15級。" },
-    { "name": "牽星覓鄉岸", "desc": "受到攻擊後的10秒內，北斗的普通攻擊附帶20%額外<color=#FFACFFFF>雷元素傷害</color>。", "values": [0.2, 10, 0.1] },
-    { "name": "踏浪霞連階", "desc": "<color=#FFD780FF>斫雷</color>的技能等級提高3級。\n至多提升至15級。" },
-    { "name": "北斗祓幽孽", "desc": "<color=#FFD780FF>斫雷</color>持續期間，周圍敵人的<color=#FFACFFFF>雷元素抗性</color>降低15%。", "values": [0.15] }
+    { "name": "SeaBeastsScourge", "localeName": "魚龍沉四方", "desc": "施放<color=#FFD780FF>斫雷</color>時：\n產生一個傷害吸收量等於生命值上限16%的護盾，持續15秒。\n該護盾對<color=#FFACFFFF>雷元素傷害</color>有250%的吸收效果。", "values": [0.16] },
+    { "name": "UponTheTurbulentSeaTheThunderArises", "localeName": "赫赫雷湧起", "desc": "<color=#FFD780FF>斫雷</color>的閃雷能額外彈跳2個敵人。" },
+    { "name": "SummonerOfStorm", "localeName": "潮奔驀引電", "desc": "<color=#FFD780FF>捉浪</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "StunningRevenge", "localeName": "牽星覓鄉岸", "desc": "受到攻擊後的10秒內，北斗的普通攻擊附帶20%額外<color=#FFACFFFF>雷元素傷害</color>。", "values": [0.2, 10, 0.1] },
+    { "name": "CrimsonTidewalker", "localeName": "踏浪霞連階", "desc": "<color=#FFD780FF>斫雷</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "BaneOfEvil", "localeName": "北斗祓幽孽", "desc": "<color=#FFD780FF>斫雷</color>持續期間，周圍敵人的<color=#FFACFFFF>雷元素抗性</color>降低15%。", "values": [0.15] }
   ],
   "overviewItems": [
-    { "id": "VajradaAmethystGemstone", "name": "最勝紫晶", "rarity": 5 },
-    { "id": "LightningPrism", "name": "雷光稜鏡", "rarity": 4 },
-    { "id": "NoctilucousJade", "name": "夜泊石" },
-    { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "rarity": 3 },
-    { "id": "PhilosophiesOfGold", "name": "「黃金」的哲學", "rarity": 4 },
-    { "id": "DvalinsSigh", "name": "東風的吐息", "rarity": 5 }
+    { "id": "VajradaAmethystGemstone", "localeName": "最勝紫晶", "rarity": 5 },
+    { "id": "LightningPrism", "localeName": "雷光稜鏡", "rarity": 4 },
+    { "id": "NoctilucousJade", "localeName": "夜泊石" },
+    { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "rarity": 3 },
+    { "id": "PhilosophiesOfGold", "localeName": "「黃金」的哲學", "rarity": 4 },
+    { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5 }
   ]
 }

@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "PrithivaTopazSliver", "name": "堅牢なトパーズ·砕屑", "count": 1 },
-        { "id": "GlazeLily", "name": "琉璃百合", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "新兵の記章", "count": 3 }
+        { "id": "PrithivaTopazSliver", "localeName": "堅牢なトパーズ·砕屑", "rarity": 2, "count": 1 },
+        { "id": "GlazeLily", "localeName": "琉璃百合", "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵の記章", "rarity": 1, "count": 3 }
       ],
       "HP": 613.04,
       "ATK": 13.304,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "PrithivaTopazFragment", "name": "堅牢なトパーズ·欠片", "count": 3 },
-        { "id": "BasaltPillar", "name": "玄岩の塔", "count": 2 },
-        { "id": "GlazeLily", "name": "琉璃百合", "count": 10 },
-        { "id": "RecruitsInsignia", "name": "新兵の記章", "count": 15 }
+        { "id": "PrithivaTopazFragment", "localeName": "堅牢なトパーズ·欠片", "rarity": 3, "count": 3 },
+        { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4, "count": 2 },
+        { "id": "GlazeLily", "localeName": "琉璃百合", "count": 10 },
+        { "id": "RecruitsInsignia", "localeName": "新兵の記章", "rarity": 1, "count": 15 }
       ],
       "HP": 1048.6,
       "ATK": 22.757,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "PrithivaTopazFragment", "name": "堅牢なトパーズ·欠片", "count": 6 },
-        { "id": "BasaltPillar", "name": "玄岩の塔", "count": 4 },
-        { "id": "GlazeLily", "name": "琉璃百合", "count": 20 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 12 }
+        { "id": "PrithivaTopazFragment", "localeName": "堅牢なトパーズ·欠片", "rarity": 3, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4, "count": 4 },
+        { "id": "GlazeLily", "localeName": "琉璃百合", "count": 20 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 12 }
       ],
       "HP": 1629.4,
       "ATK": 35.36,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "PrithivaTopazChunk", "name": "堅牢なトパーズ·塊", "count": 3 },
-        { "id": "BasaltPillar", "name": "玄岩の塔", "count": 8 },
-        { "id": "GlazeLily", "name": "琉璃百合", "count": 30 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 18 }
+        { "id": "PrithivaTopazChunk", "localeName": "堅牢なトパーズ·塊", "rarity": 4, "count": 3 },
+        { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4, "count": 8 },
+        { "id": "GlazeLily", "localeName": "琉璃百合", "count": 30 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 18 }
       ],
       "HP": 2065,
       "ATK": 44.813,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "PrithivaTopazChunk", "name": "堅牢なトパーズ·塊", "count": 6 },
-        { "id": "BasaltPillar", "name": "玄岩の塔", "count": 12 },
-        { "id": "GlazeLily", "name": "琉璃百合", "count": 45 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 12 }
+        { "id": "PrithivaTopazChunk", "localeName": "堅牢なトパーズ·塊", "rarity": 4, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4, "count": 12 },
+        { "id": "GlazeLily", "localeName": "琉璃百合", "count": 45 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 12 }
       ],
       "HP": 2500.6,
       "ATK": 54.265,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "PrithivaTopazGemstone", "name": "堅牢なトパーズ", "count": 6 },
-        { "id": "BasaltPillar", "name": "玄岩の塔", "count": 20 },
-        { "id": "GlazeLily", "name": "琉璃百合", "count": 60 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 24 }
+        { "id": "PrithivaTopazGemstone", "localeName": "堅牢なトパーズ", "rarity": 5, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4, "count": 20 },
+        { "id": "GlazeLily", "localeName": "琉璃百合", "count": 60 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 24 }
       ],
       "HP": 2936.1,
       "ATK": 63.718,
@@ -92,7 +92,8 @@
   "ascensionType": 31,
   "element": 2,
   "elemSkill": {
-    "name": "璇璣屏",
+    "name": "JadeScreen",
+    "localeName": "璇璣屏",
     "desc": "黄金、黒曜岩、強者の余裕で璇璣屏を作り、<color=#FFE699FF>岩元素範囲ダメージ</color>を与える。\n\n<color=#FFD780FF>璇璣屏</color>\n·敵の投擲攻撃を防御する。\n·耐久度は凝光のHPによって決まる。\n\n璇璣屏は<color=#FFE699FF>岩元素創造物</color>と見なされ、一部の攻撃を防ぐことができるが、璇璣屏に登ることはできない。同時に最大1つまで存在可能。\n\n<i>星羅棋布、璇璣合屏。</i>",
     "cd": 12,
     "paramTpls": ["HP継承|{param3:F1P}", "スキルダメージ|{param2:P}", "クールタイム|{param4:F1}秒"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "「繁栄」の教え", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "新兵の記章", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "「繁栄」の教え", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵の記章", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁栄」の導き", "count": 2 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁栄」の導き", "count": 4 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁栄」の導き", "count": 6 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁栄」の導き", "count": 9 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "count": 4 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "count": 6 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "count": 12 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "count": 16 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "天権崩玉",
+    "name": "Starshatter",
+    "localeName": "天権崩玉",
     "desc": "自身の周りに宝石を凝聚させ、それらを一気に放つ。自動索敵する宝石は周りの敵を攻撃し、大量の<color=#FFE699FF>岩元素ダメージ</color>を与える。\n周りに璇璣屏が存在する時に天権崩玉を発動すると、璇璣屏から追加で宝石が放たれ、敵を攻撃する。\n\n<i>星が散り、敵を滅ぼす。</i>",
     "cd": 12,
     "energyCost": 40,
@@ -182,60 +184,54 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "「繁栄」の教え", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "新兵の記章", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "「繁栄」の教え", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵の記章", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁栄」の導き", "count": 2 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁栄」の導き", "count": 4 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁栄」の導き", "count": 6 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁栄」の導き", "count": 9 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "count": 4 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "count": 6 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "count": 12 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "count": 16 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "通常攻撃·千金擲",
+    "name": "NormalAttackSparklingScatter",
+    "localeName": "通常攻撃·千金擲",
     "desc": "<color=#FFD780FF>通常攻撃</color>\n宝石を発射し、<color=#FFE699FF>岩元素ダメージ</color>を与える。\n命中した時、凝光に星璇を一枚付与する。\n\n<color=#FFD780FF>重撃</color>\nスタミナを消費して巨大な宝石を発射し、<color=#FFE699FF>岩元素ダメージ</color>を与える。\n凝光に星璇がついている状態下で重撃を行うと、全ての星璇を一斉に発射し、さらにダメージを与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から晶岩の力を凝集しながら落下し、地面に衝撃を与える。経路上の敵を攻撃し、落下時に<color=#FFE699FF>岩元素範囲ダメージ</color>を与える。",
     "cd": 0,
-    "paramTpls": [
-      "通常攻撃ダメージ|{param1:F1P}",
-      "重撃ダメージ|{param2:P}",
-      "星璇ダメージ|1つにつき{param3:F1P}",
-      "重撃スタミナ消費|{param4:F1}",
-      "落下期間のダメージ|{param5:F1P}",
-      "低空/高空落下攻撃ダメージ|{param6:P}/{param7:P}"
-    ],
+    "paramTpls": ["通常攻撃ダメージ|{param1:F1P}", "重撃ダメージ|{param2:P}", "星璇ダメージ|1つにつき{param3:F1P}", "重撃スタミナ消費|{param4:F1}", "落下期間のダメージ|{param5:F1P}", "低空/高空落下攻撃ダメージ|{param6:P}/{param7:P}"],
     "paramVals": [
       [0.28, 1.7408, 0.496, 50, 0.56829, 1.1363, 1.4193],
       [0.301, 1.8714, 0.5332, 50, 0.61454, 1.2288, 1.5349],
@@ -255,67 +251,67 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "「繁栄」の教え", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "新兵の記章", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "「繁栄」の教え", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵の記章", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁栄」の導き", "count": 2 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁栄」の導き", "count": 4 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁栄」の導き", "count": 6 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁栄」の導き", "count": 9 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "count": 4 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "count": 6 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "count": 12 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "count": 16 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "物換星移", "desc": "星璇がついている間、凝光の重撃はスタミナを消費しない。", "unlock": 1 },
-    { "name": "備えあれば憂いなし", "desc": "<color=#FFD780FF>璇璣屏</color>を突き抜けたキャラクターの<color=#FFE699FF>岩元素ダメージ</color>+12%、継続時間10秒。", "unlock": 4, "values": [0.12, 10] },
-    { "name": "奇石宝物録", "desc": "ミニマップで周囲の<color=#FFD780FF>鉱脈</color>（鉄鉱、白鉄鉱、水晶鉱、魔晶鉱、星銀鉱）の位置を表示する。" }
+    { "name": "BackupPlan", "localeName": "物換星移", "desc": "星璇がついている間、凝光の重撃はスタミナを消費しない。", "unlock": 1 },
+    { "name": "StrategicReserve", "localeName": "備えあれば憂いなし", "desc": "<color=#FFD780FF>璇璣屏</color>を突き抜けたキャラクターの<color=#FFE699FF>岩元素ダメージ</color>+12%、継続時間10秒。", "unlock": 4, "values": [0.12, 10] },
+    { "name": "TroveOfMarvelousTreasures", "localeName": "奇石宝物録", "desc": "ミニマップで周囲の<color=#FFD780FF>鉱脈</color>（鉄鉱、白鉄鉱、水晶鉱、魔晶鉱、星銀鉱）の位置を表示する。" }
   ],
   "c13ns": [
-    { "name": "散る星の破片", "desc": "通常攻撃が命中すると範囲ダメージを与える。" },
-    { "name": "璇璣、崑崙を鎮める", "desc": "<color=#FFD780FF>璇璣屏</color>が破裂した時、クールタイムがリセットする。\n6秒毎に1回のみ発動可能。" },
-    { "name": "森羅星列の囲い", "desc": "<color=#FFD780FF>天権崩玉</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "神機妙道の陣組み", "desc": "<color=#FFD780FF>璇璣屏</color>付近のキャラクターの全元素耐性+10%。" },
-    { "name": "瓊屏と千扇の守り", "desc": "<color=#FFD780FF>璇璣屏</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "燦々たる七星", "desc": "<color=#FFD780FF>天権崩玉</color>を放つ時、凝光に七枚の星璇を生成する。" }
+    { "name": "PiercingFragments", "localeName": "散る星の破片", "desc": "通常攻撃が命中すると範囲ダメージを与える。" },
+    { "name": "ShockEffect", "localeName": "璇璣、崑崙を鎮める", "desc": "<color=#FFD780FF>璇璣屏</color>が破裂した時、クールタイムがリセットする。\n6秒毎に1回のみ発動可能。" },
+    { "name": "MajestyBeTheArrayOfStars", "localeName": "森羅星列の囲い", "desc": "<color=#FFD780FF>天権崩玉</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "ExquisiteBeTheJadeOutshiningAllBeneath", "localeName": "神機妙道の陣組み", "desc": "<color=#FFD780FF>璇璣屏</color>付近のキャラクターの全元素耐性+10%。" },
+    { "name": "InvincibleBeTheJadeScreen", "localeName": "瓊屏と千扇の守り", "desc": "<color=#FFD780FF>璇璣屏</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "GrandeurBeTheSevenStars", "localeName": "燦々たる七星", "desc": "<color=#FFD780FF>天権崩玉</color>を放つ時、凝光に七枚の星璇を生成する。" }
   ],
   "overviewItems": [
-    { "id": "PrithivaTopazGemstone", "name": "堅牢なトパーズ", "rarity": 5 },
-    { "id": "BasaltPillar", "name": "玄岩の塔", "rarity": 4 },
-    { "id": "GlazeLily", "name": "琉璃百合" },
-    { "id": "LieutenantsInsignia", "name": "尉官の記章", "rarity": 3 },
-    { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "rarity": 4 },
-    { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "rarity": 5 }
+    { "id": "PrithivaTopazGemstone", "localeName": "堅牢なトパーズ", "rarity": 5 },
+    { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4 },
+    { "id": "GlazeLily", "localeName": "琉璃百合" },
+    { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3 },
+    { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4 },
+    { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5 }
   ]
 }

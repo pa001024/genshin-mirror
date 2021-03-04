@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "ShivadaJadeSliver", "name": "哀敘冰玉碎屑", "count": 1 },
-        { "id": "SmallLampGrass", "name": "小燈草", "count": 3 },
-        { "id": "DiviningScroll", "name": "導能繪卷", "count": 3 }
+        { "id": "ShivadaJadeSliver", "localeName": "哀敘冰玉碎屑", "rarity": 2, "count": 1 },
+        { "id": "SmallLampGrass", "localeName": "小燈草", "count": 3 },
+        { "id": "DiviningScroll", "localeName": "導能繪卷", "rarity": 1, "count": 3 }
       ],
       "HP": 907.3,
       "ATK": 19.476,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "ShivadaJadeFragment", "name": "哀敘冰玉斷片", "count": 3 },
-        { "id": "HoarfrostCore", "name": "極寒之核", "count": 2 },
-        { "id": "SmallLampGrass", "name": "小燈草", "count": 10 },
-        { "id": "DiviningScroll", "name": "導能繪卷", "count": 15 }
+        { "id": "ShivadaJadeFragment", "localeName": "哀敘冰玉斷片", "rarity": 3, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "極寒之核", "rarity": 4, "count": 2 },
+        { "id": "SmallLampGrass", "localeName": "小燈草", "count": 10 },
+        { "id": "DiviningScroll", "localeName": "導能繪卷", "rarity": 1, "count": 15 }
       ],
       "HP": 1552,
       "ATK": 33.314,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "ShivadaJadeFragment", "name": "哀敘冰玉斷片", "count": 6 },
-        { "id": "HoarfrostCore", "name": "極寒之核", "count": 4 },
-        { "id": "SmallLampGrass", "name": "小燈草", "count": 20 },
-        { "id": "SealedScroll", "name": "封魔繪卷", "count": 12 }
+        { "id": "ShivadaJadeFragment", "localeName": "哀敘冰玉斷片", "rarity": 3, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "極寒之核", "rarity": 4, "count": 4 },
+        { "id": "SmallLampGrass", "localeName": "小燈草", "count": 20 },
+        { "id": "SealedScroll", "localeName": "封魔繪卷", "rarity": 2, "count": 12 }
       ],
       "HP": 2411.5,
       "ATK": 51.765,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "ShivadaJadeChunk", "name": "哀敘冰玉塊", "count": 3 },
-        { "id": "HoarfrostCore", "name": "極寒之核", "count": 8 },
-        { "id": "SmallLampGrass", "name": "小燈草", "count": 30 },
-        { "id": "SealedScroll", "name": "封魔繪卷", "count": 18 }
+        { "id": "ShivadaJadeChunk", "localeName": "哀敘冰玉塊", "rarity": 4, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "極寒之核", "rarity": 4, "count": 8 },
+        { "id": "SmallLampGrass", "localeName": "小燈草", "count": 30 },
+        { "id": "SealedScroll", "localeName": "封魔繪卷", "rarity": 2, "count": 18 }
       ],
       "HP": 3056.2,
       "ATK": 65.603,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "ShivadaJadeChunk", "name": "哀敘冰玉塊", "count": 6 },
-        { "id": "HoarfrostCore", "name": "極寒之核", "count": 12 },
-        { "id": "SmallLampGrass", "name": "小燈草", "count": 45 },
-        { "id": "ForbiddenCurseScroll", "name": "禁咒繪卷", "count": 12 }
+        { "id": "ShivadaJadeChunk", "localeName": "哀敘冰玉塊", "rarity": 4, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "極寒之核", "rarity": 4, "count": 12 },
+        { "id": "SmallLampGrass", "localeName": "小燈草", "count": 45 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "rarity": 3, "count": 12 }
       ],
       "HP": 3700.8,
       "ATK": 79.441,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "ShivadaJadeGemstone", "name": "哀敘冰玉", "count": 6 },
-        { "id": "HoarfrostCore", "name": "極寒之核", "count": 20 },
-        { "id": "SmallLampGrass", "name": "小燈草", "count": 60 },
-        { "id": "ForbiddenCurseScroll", "name": "禁咒繪卷", "count": 24 }
+        { "id": "ShivadaJadeGemstone", "localeName": "哀敘冰玉", "rarity": 5, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "極寒之核", "rarity": 4, "count": 20 },
+        { "id": "SmallLampGrass", "localeName": "小燈草", "count": 60 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "rarity": 3, "count": 24 }
       ],
       "HP": 4345.5,
       "ATK": 93.279,
@@ -92,7 +92,8 @@
   "ascensionType": 29,
   "element": 7,
   "elemSkill": {
-    "name": "元素戰技",
+    "name": "ElementalSkill",
+    "localeName": "元素戰技",
     "desc": "",
     "cd": 8,
     "paramVals": [
@@ -114,50 +115,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "「繁榮」的教導", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "騙騙花蜜", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "「繁榮」的教導", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "騙騙花蜜", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁榮」的指引", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "「繁榮」的指引", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁榮」的指引", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "「繁榮」的指引", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁榮」的指引", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "「繁榮」的指引", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁榮」的指引", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "「繁榮」的指引", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "count": 4 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 4 },
-        { "id": "RingOfBoreas", "name": "北風之環", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "count": 6 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 6 },
-        { "id": "RingOfBoreas", "name": "北風之環", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "count": 12 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 9 },
-        { "id": "RingOfBoreas", "name": "北風之環", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "count": 16 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 12 },
-        { "id": "RingOfBoreas", "name": "北風之環", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "元素爆發",
+    "name": "ElementalBurst",
+    "localeName": "元素爆發",
     "desc": "",
     "cd": 15,
     "energyCost": 60,
@@ -180,50 +182,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "「繁榮」的教導", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "騙騙花蜜", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "「繁榮」的教導", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "騙騙花蜜", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁榮」的指引", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "「繁榮」的指引", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁榮」的指引", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "「繁榮」的指引", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁榮」的指引", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "「繁榮」的指引", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁榮」的指引", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "「繁榮」的指引", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "count": 4 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 4 },
-        { "id": "RingOfBoreas", "name": "北風之環", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "count": 6 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 6 },
-        { "id": "RingOfBoreas", "name": "北風之環", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "count": 12 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 9 },
-        { "id": "RingOfBoreas", "name": "北風之環", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "count": 16 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 12 },
-        { "id": "RingOfBoreas", "name": "北風之環", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "普通攻擊",
+    "name": "NormalAttack",
+    "localeName": "普通攻擊",
     "desc": "",
     "cd": 0,
     "paramVals": [
@@ -245,68 +248,68 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "「繁榮」的教導", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "騙騙花蜜", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "「繁榮」的教導", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "騙騙花蜜", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁榮」的指引", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "「繁榮」的指引", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁榮」的指引", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "「繁榮」的指引", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁榮」的指引", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "「繁榮」的指引", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁榮」的指引", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "「繁榮」的指引", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "count": 4 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 4 },
-        { "id": "RingOfBoreas", "name": "北風之環", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "count": 6 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 6 },
-        { "id": "RingOfBoreas", "name": "北風之環", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "count": 12 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 9 },
-        { "id": "RingOfBoreas", "name": "北風之環", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "count": 16 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 12 },
-        { "id": "RingOfBoreas", "name": "北風之環", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "", "desc": "", "unlock": 1 },
-    { "name": "", "desc": "", "unlock": 4 },
-    { "name": "", "desc": "", "values": [1] }
+    { "name": "", "localeName": "", "desc": "", "unlock": 1 },
+    { "name": "", "localeName": "", "desc": "", "unlock": 4 },
+    { "name": "", "localeName": "", "desc": "", "values": [1] }
   ],
   "c13ns": [
-    { "name": "命之座1", "desc": "" },
-    { "name": "命之座2", "desc": "" },
-    { "name": "命之座3", "desc": "" },
-    { "name": "命之座4", "desc": "" },
-    { "name": "命之座5", "desc": "" },
-    { "name": "命之座6", "desc": "" }
+    { "name": "Constellation1", "localeName": "命之座1", "desc": "" },
+    { "name": "Constellation2", "localeName": "命之座2", "desc": "" },
+    { "name": "Constellation3", "localeName": "命之座3", "desc": "" },
+    { "name": "Constellation4", "localeName": "命之座4", "desc": "" },
+    { "name": "Constellation5", "localeName": "命之座5", "desc": "" },
+    { "name": "Constellation6", "localeName": "命之座6", "desc": "" }
   ],
   "overviewItems": [
-    { "id": "ShivadaJadeGemstone", "name": "哀敘冰玉", "rarity": 5 },
-    { "id": "HoarfrostCore", "name": "極寒之核", "rarity": 4 },
-    { "id": "SmallLampGrass", "name": "小燈草" },
-    { "id": "ForbiddenCurseScroll", "name": "禁咒繪卷", "rarity": 3 },
-    { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "rarity": 4 },
-    { "id": "EnergyNectar", "name": "原素花蜜", "rarity": 3 },
-    { "id": "RingOfBoreas", "name": "北風之環", "rarity": 5 }
+    { "id": "ShivadaJadeGemstone", "localeName": "哀敘冰玉", "rarity": 5 },
+    { "id": "HoarfrostCore", "localeName": "極寒之核", "rarity": 4 },
+    { "id": "SmallLampGrass", "localeName": "小燈草" },
+    { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "rarity": 3 },
+    { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4 },
+    { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3 },
+    { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5 }
   ]
 }

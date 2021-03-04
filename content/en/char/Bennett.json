@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "AgnidusAgateSliver", "name": "Agnidus Agate Sliver", "count": 1 },
-        { "id": "WindwheelAster", "name": "Windwheel Aster", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "Treasure Hoarder Insignia", "count": 3 }
+        { "id": "AgnidusAgateSliver", "localeName": "Agnidus Agate Sliver", "rarity": 2, "count": 1 },
+        { "id": "WindwheelAster", "localeName": "Windwheel Aster", "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "Treasure Hoarder Insignia", "rarity": 1, "count": 3 }
       ],
       "HP": 776.52,
       "ATK": 11.973,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "Agnidus Agate Fragment", "count": 3 },
-        { "id": "EverflameSeed", "name": "Everflame Seed", "count": 2 },
-        { "id": "WindwheelAster", "name": "Windwheel Aster", "count": 10 },
-        { "id": "TreasureHoarderInsignia", "name": "Treasure Hoarder Insignia", "count": 15 }
+        { "id": "AgnidusAgateFragment", "localeName": "Agnidus Agate Fragment", "rarity": 3, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4, "count": 2 },
+        { "id": "WindwheelAster", "localeName": "Windwheel Aster", "count": 10 },
+        { "id": "TreasureHoarderInsignia", "localeName": "Treasure Hoarder Insignia", "rarity": 1, "count": 15 }
       ],
       "HP": 1328.3,
       "ATK": 20.481,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "Agnidus Agate Fragment", "count": 6 },
-        { "id": "EverflameSeed", "name": "Everflame Seed", "count": 4 },
-        { "id": "WindwheelAster", "name": "Windwheel Aster", "count": 20 },
-        { "id": "SilverRavenInsignia", "name": "Silver Raven Insignia", "count": 12 }
+        { "id": "AgnidusAgateFragment", "localeName": "Agnidus Agate Fragment", "rarity": 3, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4, "count": 4 },
+        { "id": "WindwheelAster", "localeName": "Windwheel Aster", "count": 20 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 12 }
       ],
       "HP": 2063.9,
       "ATK": 31.824,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "Agnidus Agate Chunk", "count": 3 },
-        { "id": "EverflameSeed", "name": "Everflame Seed", "count": 8 },
-        { "id": "WindwheelAster", "name": "Windwheel Aster", "count": 30 },
-        { "id": "SilverRavenInsignia", "name": "Silver Raven Insignia", "count": 18 }
+        { "id": "AgnidusAgateChunk", "localeName": "Agnidus Agate Chunk", "rarity": 4, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4, "count": 8 },
+        { "id": "WindwheelAster", "localeName": "Windwheel Aster", "count": 30 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 18 }
       ],
       "HP": 2615.6,
       "ATK": 40.332,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "Agnidus Agate Chunk", "count": 6 },
-        { "id": "EverflameSeed", "name": "Everflame Seed", "count": 12 },
-        { "id": "WindwheelAster", "name": "Windwheel Aster", "count": 45 },
-        { "id": "GoldenRavenInsignia", "name": "Golden Raven Insignia", "count": 12 }
+        { "id": "AgnidusAgateChunk", "localeName": "Agnidus Agate Chunk", "rarity": 4, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4, "count": 12 },
+        { "id": "WindwheelAster", "localeName": "Windwheel Aster", "count": 45 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 12 }
       ],
       "HP": 3167.4,
       "ATK": 48.839,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "AgnidusAgateGemstone", "name": "Agnidus Agate Gemstone", "count": 6 },
-        { "id": "EverflameSeed", "name": "Everflame Seed", "count": 20 },
-        { "id": "WindwheelAster", "name": "Windwheel Aster", "count": 60 },
-        { "id": "GoldenRavenInsignia", "name": "Golden Raven Insignia", "count": 24 }
+        { "id": "AgnidusAgateGemstone", "localeName": "Agnidus Agate Gemstone", "rarity": 5, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4, "count": 20 },
+        { "id": "WindwheelAster", "localeName": "Windwheel Aster", "count": 60 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 24 }
       ],
       "HP": 3719.1,
       "ATK": 57.346,
@@ -92,16 +92,11 @@
   "ascensionType": 10,
   "element": 6,
   "elemSkill": {
-    "name": "Passion Overload",
+    "name": "PassionOverload",
+    "localeName": "Passion Overload",
     "desc": "#Bennett puts all his fire and passion for adventuring into his sword. Results may vary based on how fired up he is...\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nA single, swift flame strike that deals <color=#FF9999FF>Pyro DMG</color>.\n\n<color=#FFD780FF>Hold (Short)</color>\nCharges up, resulting in different effects when unleashed based on the Charge Level.\n·Level 1: Strikes twice, dealing <color=#FF9999FF>Pyro DMG</color> and launching opponents.\n·Level 2: Unleashes 3 consecutive attacks that deal impressive <color=#FF9999FF>Pyro DMG</color>, but the last attack triggers an explosion that launches both Bennett and the enemy.\nBennett takes no damage from being launched.\n\n<i>An attack that combines Bennett's dreams and passion with Pyro. But passion is sometimes overblown, and Pyro sometimes blows over.</i>",
     "cd": 5,
-    "paramTpls": [
-      "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
-      "Charge Level 1 DMG|{param2:F1P}+{param3:F1P}",
-      "Charge Level 2 DMG|{param4:F1P}+{param5:F1P}",
-      "Explosion DMG|{param6:P}",
-      "CD|{param7:F1}/{param8:F1}/{param9:F1}s"
-    ],
+    "paramTpls": ["#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}", "Charge Level 1 DMG|{param2:F1P}+{param3:F1P}", "Charge Level 2 DMG|{param4:F1P}+{param5:F1P}", "Explosion DMG|{param6:P}", "CD|{param7:F1}/{param8:F1}/{param9:F1}s"],
     "paramVals": [
       [1.376, 0.84, 0.92, 0.88, 0.96, 1.32, 5, 7.5, 10],
       [1.4792, 0.903, 0.989, 0.946, 1.032, 1.419, 5, 7.5, 10],
@@ -121,61 +116,55 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "Teachings of Resistance", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "Treasure Hoarder Insignia", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "Teachings of Resistance", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "Treasure Hoarder Insignia", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 2 },
-        { "id": "SilverRavenInsignia", "name": "Silver Raven Insignia", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 4 },
-        { "id": "SilverRavenInsignia", "name": "Silver Raven Insignia", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 6 },
-        { "id": "SilverRavenInsignia", "name": "Silver Raven Insignia", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 9 },
-        { "id": "SilverRavenInsignia", "name": "Silver Raven Insignia", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 4 },
-        { "id": "GoldenRavenInsignia", "name": "Golden Raven Insignia", "count": 4 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 6 },
-        { "id": "GoldenRavenInsignia", "name": "Golden Raven Insignia", "count": 6 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 12 },
-        { "id": "GoldenRavenInsignia", "name": "Golden Raven Insignia", "count": 9 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 16 },
-        { "id": "GoldenRavenInsignia", "name": "Golden Raven Insignia", "count": 12 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "Fantastic Voyage",
+    "name": "FantasticVoyage",
+    "localeName": "Fantastic Voyage",
     "desc": "Bennett performs a jumping attack that deals <color=#FF9999FF>Pyro DMG</color>, creating an Inspiration Field.\n\n<color=#FFD780FF>Inspiration Field</color>\n·If the health of a character within the AoE is equal to or falls below 70%, their health will continuously regenerate. The amount of HP restored scales off Bennett's Max HP.\n·If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK.\n·Imbues characters within the AoE with <color=#FF9999FF>Pyro</color>.\n\n<i>Benny's Adventure Team's adventures are always fraught with unexpected danger. However, Bennett is more inclined to call them \"journeys full of wonder, excitement, and beauty.\"</i>",
     "cd": 15,
     "energyCost": 60,
-    "paramTpls": [
-      "Skill DMG|{param1:P}",
-      "Continuous Regeneration Per Sec|{param2:F2P} Max HP+{param3:I}",
-      "ATK Bonus Ratio|{param4:P}",
-      "Duration|{param5:F1}s",
-      "CD|{param6:F1}s",
-      "Energy Cost|{param7:I}"
-    ],
+    "paramTpls": ["Skill DMG|{param1:P}", "Continuous Regeneration Per Sec|{param2:F2P} Max HP+{param3:I}", "ATK Bonus Ratio|{param4:P}", "Duration|{param5:F1}s", "CD|{param6:F1}s", "Energy Cost|{param7:I}"],
     "paramVals": [
       [2.328, 0.06, 577.34, 0.56, 12, 15, 60],
       [2.5026, 0.0645, 635.08, 0.602, 12, 15, 60],
@@ -195,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "Teachings of Resistance", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "Treasure Hoarder Insignia", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "Teachings of Resistance", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "Treasure Hoarder Insignia", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 2 },
-        { "id": "SilverRavenInsignia", "name": "Silver Raven Insignia", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 4 },
-        { "id": "SilverRavenInsignia", "name": "Silver Raven Insignia", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 6 },
-        { "id": "SilverRavenInsignia", "name": "Silver Raven Insignia", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 9 },
-        { "id": "SilverRavenInsignia", "name": "Silver Raven Insignia", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 4 },
-        { "id": "GoldenRavenInsignia", "name": "Golden Raven Insignia", "count": 4 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 6 },
-        { "id": "GoldenRavenInsignia", "name": "Golden Raven Insignia", "count": 6 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 12 },
-        { "id": "GoldenRavenInsignia", "name": "Golden Raven Insignia", "count": 9 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 16 },
-        { "id": "GoldenRavenInsignia", "name": "Golden Raven Insignia", "count": 12 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "Normal Attack: Strike of Fortune",
+    "name": "NormalAttackStrikeOfFortune",
+    "localeName": "Normal Attack: Strike of Fortune",
     "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "cd": 0,
     "paramTpls": [
@@ -271,83 +261,82 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "Teachings of Resistance", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "Treasure Hoarder Insignia", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "Teachings of Resistance", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "Treasure Hoarder Insignia", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 2 },
-        { "id": "SilverRavenInsignia", "name": "Silver Raven Insignia", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 4 },
-        { "id": "SilverRavenInsignia", "name": "Silver Raven Insignia", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 6 },
-        { "id": "SilverRavenInsignia", "name": "Silver Raven Insignia", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 9 },
-        { "id": "SilverRavenInsignia", "name": "Silver Raven Insignia", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 4 },
-        { "id": "GoldenRavenInsignia", "name": "Golden Raven Insignia", "count": 4 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 6 },
-        { "id": "GoldenRavenInsignia", "name": "Golden Raven Insignia", "count": 6 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 12 },
-        { "id": "GoldenRavenInsignia", "name": "Golden Raven Insignia", "count": 9 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 16 },
-        { "id": "GoldenRavenInsignia", "name": "Golden Raven Insignia", "count": 12 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "Rekindle", "desc": "Decreases <color=#FFD780FF>Passion Overload</color>'s CD by 20%.", "unlock": 1 },
+    { "name": "Rekindle", "localeName": "Rekindle", "desc": "Decreases <color=#FFD780FF>Passion Overload</color>'s CD by 20%.", "unlock": 1 },
     {
       "name": "Fearnaught",
+      "localeName": "Fearnaught",
       "desc": "Within the area created by <color=#FFD780FF>Fantastic Voyage</color>, <color=#FFD780FF>Passion Overload</color> takes on the following effects:\n·CD is reduced by 50%.\n·Bennett will not be launched by the effects of Charge Level 2.",
       "unlock": 4
     },
-    { "name": "It Should Be Safe...", "desc": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%." }
+    { "name": "ItShouldBeSafe", "localeName": "It Should Be Safe...", "desc": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%." }
   ],
   "c13ns": [
+    { "name": "GrandExpectation", "localeName": "Grand Expectation", "desc": "<color=#FFD780FF>Fantastic Voyage</color>'s ATK increase no longer has an HP restriction, and gains an additional 20% of Bennett's Base ATK.", "values": [0.2] },
+    { "name": "ImpasseConqueror", "localeName": "Impasse Conqueror", "desc": "When Bennett's HP falls below 70%, his Energy Recharge is increased by 30%.", "values": [0.7, 0.3] },
+    { "name": "UnstoppableFervor", "localeName": "Unstoppable Fervor", "desc": "Increases the Level of <color=#FFD780FF>Passion Overload</color> by 3.\nMaximum upgrade level is 15." },
     {
-      "name": "Grand Expectation",
-      "desc": "<color=#FFD780FF>Fantastic Voyage</color>'s ATK increase no longer has an HP restriction, and gains an additional 20% of Bennett's Base ATK.",
-      "values": [0.2]
-    },
-    { "name": "Impasse Conqueror", "desc": "When Bennett's HP falls below 70%, his Energy Recharge is increased by 30%.", "values": [0.7, 0.3] },
-    { "name": "Unstoppable Fervor", "desc": "Increases the Level of <color=#FFD780FF>Passion Overload</color> by 3.\nMaximum upgrade level is 15." },
-    {
-      "name": "Unexpected Odyssey",
+      "name": "UnexpectedOdyssey",
+      "localeName": "Unexpected Odyssey",
       "desc": "Using a Normal Attack when executing the second attack of <color=#FFD780FF>Passion Overload</color>'s Charge Level 1 allows an additional attack to be performed.\nThis additional attack does 135% of the second attack's DMG.",
       "values": [1.35]
     },
-    { "name": "True Explorer", "desc": "Increases the Level of <color=#FFD780FF>Fantastic Voyage</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "TrueExplorer", "localeName": "True Explorer", "desc": "Increases the Level of <color=#FFD780FF>Fantastic Voyage</color> by 3.\nMaximum upgrade level is 15." },
     {
-      "name": "Fire Ventures with Me",
+      "name": "FireVenturesWithMe",
+      "localeName": "Fire Ventures with Me",
       "desc": "Sword, Claymore, or Polearm-wielding characters inside <color=#FFD780FF>Fantastic Voyage</color>'s radius gain a 15% <color=#FF9999FF>Pyro DMG Bonus</color> and their weapons are infused with <color=#FF9999FF>Pyro</color>.",
       "values": [0.15]
     }
   ],
   "overviewItems": [
-    { "id": "AgnidusAgateGemstone", "name": "Agnidus Agate Gemstone", "rarity": 5 },
-    { "id": "EverflameSeed", "name": "Everflame Seed", "rarity": 4 },
-    { "id": "WindwheelAster", "name": "Windwheel Aster" },
-    { "id": "GoldenRavenInsignia", "name": "Golden Raven Insignia", "rarity": 3 },
-    { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "rarity": 4 },
-    { "id": "DvalinsPlume", "name": "Dvalin's Plume", "rarity": 5 }
+    { "id": "AgnidusAgateGemstone", "localeName": "Agnidus Agate Gemstone", "rarity": 5 },
+    { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4 },
+    { "id": "WindwheelAster", "localeName": "Windwheel Aster" },
+    { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3 },
+    { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4 },
+    { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5 }
   ]
 }

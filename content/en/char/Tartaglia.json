@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VarunadaLazuriteSliver", "name": "Varunada Lazurite Sliver", "count": 1 },
-        { "id": "Starconch", "name": "Starconch", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "Recruit's Insignia", "count": 3 }
+        { "id": "VarunadaLazuriteSliver", "localeName": "Varunada Lazurite Sliver", "rarity": 2, "count": 1 },
+        { "id": "Starconch", "localeName": "Starconch", "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "Recruit's Insignia", "rarity": 1, "count": 3 }
       ],
       "HP": 874.6,
       "ATK": 20.114,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VarunadaLazuriteFragment", "name": "Varunada Lazurite Fragment", "count": 3 },
-        { "id": "CleansingHeart", "name": "Cleansing Heart", "count": 2 },
-        { "id": "Starconch", "name": "Starconch", "count": 10 },
-        { "id": "RecruitsInsignia", "name": "Recruit's Insignia", "count": 15 }
+        { "id": "VarunadaLazuriteFragment", "localeName": "Varunada Lazurite Fragment", "rarity": 3, "count": 3 },
+        { "id": "CleansingHeart", "localeName": "Cleansing Heart", "rarity": 4, "count": 2 },
+        { "id": "Starconch", "localeName": "Starconch", "count": 10 },
+        { "id": "RecruitsInsignia", "localeName": "Recruit's Insignia", "rarity": 1, "count": 15 }
       ],
       "HP": 1496,
       "ATK": 34.406,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VarunadaLazuriteFragment", "name": "Varunada Lazurite Fragment", "count": 6 },
-        { "id": "CleansingHeart", "name": "Cleansing Heart", "count": 4 },
-        { "id": "Starconch", "name": "Starconch", "count": 20 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 12 }
+        { "id": "VarunadaLazuriteFragment", "localeName": "Varunada Lazurite Fragment", "rarity": 3, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "Cleansing Heart", "rarity": 4, "count": 4 },
+        { "id": "Starconch", "localeName": "Starconch", "count": 20 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 12 }
       ],
       "HP": 2324.6,
       "ATK": 53.462,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VarunadaLazuriteChunk", "name": "Varunada Lazurite Chunk", "count": 3 },
-        { "id": "CleansingHeart", "name": "Cleansing Heart", "count": 8 },
-        { "id": "Starconch", "name": "Starconch", "count": 30 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 18 }
+        { "id": "VarunadaLazuriteChunk", "localeName": "Varunada Lazurite Chunk", "rarity": 4, "count": 3 },
+        { "id": "CleansingHeart", "localeName": "Cleansing Heart", "rarity": 4, "count": 8 },
+        { "id": "Starconch", "localeName": "Starconch", "count": 30 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 18 }
       ],
       "HP": 2946,
       "ATK": 67.754,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VarunadaLazuriteChunk", "name": "Varunada Lazurite Chunk", "count": 6 },
-        { "id": "CleansingHeart", "name": "Cleansing Heart", "count": 12 },
-        { "id": "Starconch", "name": "Starconch", "count": 45 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 12 }
+        { "id": "VarunadaLazuriteChunk", "localeName": "Varunada Lazurite Chunk", "rarity": 4, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "Cleansing Heart", "rarity": 4, "count": 12 },
+        { "id": "Starconch", "localeName": "Starconch", "count": 45 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 12 }
       ],
       "HP": 3567.5,
       "ATK": 82.046,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VarunadaLazuriteGemstone", "name": "Varunada Lazurite Gemstone", "count": 6 },
-        { "id": "CleansingHeart", "name": "Cleansing Heart", "count": 20 },
-        { "id": "Starconch", "name": "Starconch", "count": 60 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 24 }
+        { "id": "VarunadaLazuriteGemstone", "localeName": "Varunada Lazurite Gemstone", "rarity": 5, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "Cleansing Heart", "rarity": 4, "count": 20 },
+        { "id": "Starconch", "localeName": "Starconch", "count": 60 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 24 }
       ],
       "HP": 4188.9,
       "ATK": 96.337,
@@ -92,7 +92,8 @@
   "ascensionType": 21,
   "element": 5,
   "elemSkill": {
-    "name": "Foul Legacy: Raging Tide",
+    "name": "FoulLegacyRagingTide",
+    "localeName": "Foul Legacy: Raging Tide",
     "desc": "Unleashes a set of weaponry made of pure water, dealing <color=#80C0FFFF>Hydro DMG</color> to surrounding opponents and entering Melee Stance.\nIn this Stance, Tartaglia's Normal and Charged Attacks are converted to <color=#80C0FFFF>Hydro DMG</color> that cannot be overridden by any other elemental infusion and change as follows:\n\n<color=#FFD780FF>Normal Attack</color>\nPerform up to 6 consecutive <color=#80C0FFFF>Hydro</color> strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash a cross slash, dealing <color=#80C0FFFF>Hydro DMG</color>.\n\n<color=#FFD780FF>Riptide Slash</color>\nHitting an opponent affected by Riptide with a melee attack unleashes a Riptide Slash that deals <color=#80C0FFFF>AoE Hydro DMG</color>. DMG dealt in this way is considered Elemental Skill DMG, and can only occur once every 1.5s.\n\nAfter 30s, or when the ability is unleashed again, this skill will end. Tartaglia will return to his Ranged Stance and this ability will enter CD. The longer Tartaglia stays in his Melee Stance, the longer the CD.\nIf the return to a ranged stance occurs automatically after 30s, the CD is even longer.\n\n<i>He chose the bow as his weapon precisely to overcome his weakness with it. But a serious fight demands that he gets serious...</i>",
     "cd": 6,
     "paramTpls": [
@@ -129,50 +130,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "Teachings of Freedom", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "Recruit's Insignia", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "Teachings of Freedom", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "Recruit's Insignia", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 2 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 4 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 6 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 9 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 4 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 4 },
-        { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 4 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 6 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 6 },
-        { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 6 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 12 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 9 },
-        { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 9 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 16 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 12 },
-        { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 12 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "Havoc: Obliteration",
+    "name": "HavocObliteration",
+    "localeName": "Havoc: Obliteration",
     "desc": "Performs different attacks based on what stance Tartaglia is in when casting.\n\n<color=#FFD780FF>Ranged Stance: Flash of Havoc</color>\nSwiftly fires a Hydro-imbued magic arrow, dealing <color=#80C0FFFF>AoE Hydro DMG</color> and applying the Riptide status.\nReturns a portion of its Energy Cost after use.\n\n<color=#FFD780FF>Melee Stance: Light of Obliteration</color>\nPerforms a slash with a large AoE, dealing massive <color=#80C0FFFF>Hydro DMG</color> to all surrounding opponents, which triggers Riptide Blast.\n\n<color=#FFD780FF>Riptide Blast</color>\nWhen the obliterating waters hit an opponent affected by Riptide, it clears their Riptide status and triggers a Hydro Explosion that deals <color=#80C0FFFF>AoE Hydro DMG</color>.\nDMG dealt in this way is considered Elemental Burst DMG.\n\n<i>Rushing waters are rarely seen in his snowy homeland. Perhaps his ability to command water is due to his understanding of just how precious it is.</i>",
     "cd": 15,
     "energyCost": 60,
@@ -196,50 +198,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "Teachings of Freedom", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "Recruit's Insignia", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "Teachings of Freedom", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "Recruit's Insignia", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 2 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 4 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 6 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 9 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 4 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 4 },
-        { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 4 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 6 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 6 },
-        { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 6 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 12 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 9 },
-        { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 9 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 16 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 12 },
-        { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 12 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "Normal Attack: Cutting Torrent",
+    "name": "NormalAttackCuttingTorrent",
+    "localeName": "Normal Attack: Cutting Torrent",
     "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 6 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, the power of Hydro will accumulate on the arrowhead. A arrow fully charged with the torrent will deal <color=#80C0FFFF>Hydro DMG</color> and apply the Riptide status.\n\n<color=#FFD780FF>Riptide</color>\nOpponents affected by Riptide will suffer from <color=#80C0FFFF>AoE Hydro DMG</color> effects when attacked by Tartaglia in various ways. DMG dealt in this way is considered Normal Attack DMG.\n·Riptide Flash: A fully-charged Aimed Shot that hits an opponent affected by Riptide deals consecutive bouts of AoE DMG. Can occur once every 0.7s.\n·Riptide Burst: Defeating an opponent affected by Riptide creates a Hydro burst that inflicts the Riptide status on nearby opponents hit.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.\nWhen Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, he cannot perform a plunging attack.",
     "cd": 0,
     "paramTpls": [
@@ -276,78 +279,76 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "Teachings of Freedom", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "Recruit's Insignia", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "Teachings of Freedom", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "Recruit's Insignia", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 2 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 4 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 6 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 9 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 4 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 4 },
-        { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 4 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 6 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 6 },
-        { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 6 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 12 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 9 },
-        { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 9 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 16 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 12 },
-        { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 12 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "Never Ending", "desc": "Extends Riptide duration by 8s.", "unlock": 1, "values": [8] },
-    {
-      "name": "Sword of Torrents",
-      "desc": "When Tartaglia is in <color=#FFD780FF>Foul Legacy: Raging Tide</color>'s Melee Stance, on dealing a CRIT hit, Normal and Charged Attacks apply the Riptide status effect to opponents.",
-      "unlock": 4
-    },
-    { "name": "Master of Weaponry", "desc": "Increases your own party members' <color=#FFD780FF>Normal Attack</color> Level by 1." }
+    { "name": "NeverEnding", "localeName": "Never Ending", "desc": "Extends Riptide duration by 8s.", "unlock": 1, "values": [8] },
+    { "name": "SwordOfTorrents", "localeName": "Sword of Torrents", "desc": "When Tartaglia is in <color=#FFD780FF>Foul Legacy: Raging Tide</color>'s Melee Stance, on dealing a CRIT hit, Normal and Charged Attacks apply the Riptide status effect to opponents.", "unlock": 4 },
+    { "name": "MasterOfWeaponry", "localeName": "Master of Weaponry", "desc": "Increases your own party members' <color=#FFD780FF>Normal Attack</color> Level by 1." }
   ],
   "c13ns": [
-    { "name": "Foul Legacy: Tide Withholder", "desc": "Decreases the CD of <color=#FFD780FF>Foul Legacy: Raging Tide</color> by 20%" },
-    { "name": "Foul Legacy: Understream", "desc": "When opponents affected by Riptide are defeated, Tartaglia regenerates 4 Elemental Energy.", "values": [4] },
-    { "name": "Abyssal Mayhem: Vortex of Turmoil", "desc": "Increases the Level of <color=#FFD780FF>Foul Legacy: Raging Tide</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "FoulLegacyTideWithholder", "localeName": "Foul Legacy: Tide Withholder", "desc": "Decreases the CD of <color=#FFD780FF>Foul Legacy: Raging Tide</color> by 20%" },
+    { "name": "FoulLegacyUnderstream", "localeName": "Foul Legacy: Understream", "desc": "When opponents affected by Riptide are defeated, Tartaglia regenerates 4 Elemental Energy.", "values": [4] },
+    { "name": "AbyssalMayhemVortexOfTurmoil", "localeName": "Abyssal Mayhem: Vortex of Turmoil", "desc": "Increases the Level of <color=#FFD780FF>Foul Legacy: Raging Tide</color> by 3.\nMaximum upgrade level is 15." },
     {
-      "name": "Abyssal Mayhem: Hydrospout",
+      "name": "AbyssalMayhemHydrospout",
+      "localeName": "Abyssal Mayhem: Hydrospout",
       "desc": "If Tartaglia is in <color=#FFD780FF>Foul Legacy: Raging Tide</color>'s Melee Stance, triggers Riptide Slash against opponents on the field affected by Riptide every 4s, otherwise, triggers Riptide Flash.\nRiptide Slashes and Riptide Flashes triggered by this Constellation effect are not subject to the time intervals that would typically apply to these two Riptide effects, nor do they have any effect on those time intervals.",
       "values": [4]
     },
-    { "name": "Havoc: Formless Blade", "desc": "Increases the Level of <color=#FFD780FF>Havoc: Obliteration</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "HavocFormlessBlade", "localeName": "Havoc: Formless Blade", "desc": "Increases the Level of <color=#FFD780FF>Havoc: Obliteration</color> by 3.\nMaximum upgrade level is 15." },
     {
-      "name": "Havoc: Annihilation",
+      "name": "HavocAnnihilation",
+      "localeName": "Havoc: Annihilation",
       "desc": "When <color=#FFD780FF>Havoc: Obliteration</color> is cast in Melee Stance, the CD of <color=#FFD780FF>Foul Legacy: Raging Tide</color> is reset.\nThis effect will only take place once Tartaglia returns to his Ranged Stance."
     }
   ],
   "overviewItems": [
-    { "id": "VarunadaLazuriteGemstone", "name": "Varunada Lazurite Gemstone", "rarity": 5 },
-    { "id": "CleansingHeart", "name": "Cleansing Heart", "rarity": 4 },
-    { "id": "Starconch", "name": "Starconch" },
-    { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "rarity": 3 },
-    { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "rarity": 4 },
-    { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "rarity": 5 }
+    { "id": "VarunadaLazuriteGemstone", "localeName": "Varunada Lazurite Gemstone", "rarity": 5 },
+    { "id": "CleansingHeart", "localeName": "Cleansing Heart", "rarity": 4 },
+    { "id": "Starconch", "localeName": "Starconch" },
+    { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3 },
+    { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4 },
+    { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5 }
   ]
 }

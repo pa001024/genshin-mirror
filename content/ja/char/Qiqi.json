@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "ShivadaJadeSliver", "name": "哀切なアイスクリスタル·砕屑", "count": 1 },
-        { "id": "Violetgrass", "name": "琉璃袋", "count": 3 },
-        { "id": "DiviningScroll", "name": "占いの絵巻", "count": 3 }
+        { "id": "ShivadaJadeSliver", "localeName": "哀切なアイスクリスタル·砕屑", "rarity": 2, "count": 1 },
+        { "id": "Violetgrass", "localeName": "琉璃袋", "count": 3 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 3 }
       ],
       "HP": 825.56,
       "ATK": 19.157,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "ShivadaJadeFragment", "name": "哀切なアイスクリスタル·欠片", "count": 3 },
-        { "id": "HoarfrostCore", "name": "極寒のコア", "count": 2 },
-        { "id": "Violetgrass", "name": "琉璃袋", "count": 10 },
-        { "id": "DiviningScroll", "name": "占いの絵巻", "count": 15 }
+        { "id": "ShivadaJadeFragment", "localeName": "哀切なアイスクリスタル·欠片", "rarity": 3, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4, "count": 2 },
+        { "id": "Violetgrass", "localeName": "琉璃袋", "count": 10 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 15 }
       ],
       "HP": 1412.1,
       "ATK": 32.768,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "ShivadaJadeFragment", "name": "哀切なアイスクリスタル·欠片", "count": 6 },
-        { "id": "HoarfrostCore", "name": "極寒のコア", "count": 4 },
-        { "id": "Violetgrass", "name": "琉璃袋", "count": 20 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 12 }
+        { "id": "ShivadaJadeFragment", "localeName": "哀切なアイスクリスタル·欠片", "rarity": 3, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4, "count": 4 },
+        { "id": "Violetgrass", "localeName": "琉璃袋", "count": 20 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 12 }
       ],
       "HP": 2194.3,
       "ATK": 50.916,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "ShivadaJadeChunk", "name": "哀切なアイスクリスタル·塊", "count": 3 },
-        { "id": "HoarfrostCore", "name": "極寒のコア", "count": 8 },
-        { "id": "Violetgrass", "name": "琉璃袋", "count": 30 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 18 }
+        { "id": "ShivadaJadeChunk", "localeName": "哀切なアイスクリスタル·塊", "rarity": 4, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4, "count": 8 },
+        { "id": "Violetgrass", "localeName": "琉璃袋", "count": 30 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 18 }
       ],
       "HP": 2780.8,
       "ATK": 64.527,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "ShivadaJadeChunk", "name": "哀切なアイスクリスタル·塊", "count": 6 },
-        { "id": "HoarfrostCore", "name": "極寒のコア", "count": 12 },
-        { "id": "Violetgrass", "name": "琉璃袋", "count": 45 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 12 }
+        { "id": "ShivadaJadeChunk", "localeName": "哀切なアイスクリスタル·塊", "rarity": 4, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4, "count": 12 },
+        { "id": "Violetgrass", "localeName": "琉璃袋", "count": 45 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 12 }
       ],
       "HP": 3367.4,
       "ATK": 78.139,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "ShivadaJadeGemstone", "name": "哀切なアイスクリスタル", "count": 6 },
-        { "id": "HoarfrostCore", "name": "極寒のコア", "count": 20 },
-        { "id": "Violetgrass", "name": "琉璃袋", "count": 60 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 24 }
+        { "id": "ShivadaJadeGemstone", "localeName": "哀切なアイスクリスタル", "rarity": 5, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4, "count": 20 },
+        { "id": "Violetgrass", "localeName": "琉璃袋", "count": 60 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 24 }
       ],
       "HP": 3954,
       "ATK": 91.75,
@@ -92,17 +92,11 @@
   "ascensionType": 14,
   "element": 7,
   "elemSkill": {
-    "name": "仙法·寒病鬼差",
+    "name": "AdeptusArtHeraldOfFrost",
+    "localeName": "仙法·寒病鬼差",
     "desc": "氷血がお札となり、寒病鬼差を召喚し、周囲の敵に<color=#99FFFFFF>氷元素ダメージ</color>を与える。\n\n<color=#FFD780FF>寒病鬼差</color>\n·七七の通常攻撃と重撃が命中した時、チーム内の自身のキャラクター全員または付近の味方のHPを回復する。回復量は七七の攻撃力によって決まる。\n·一定時間の間隔で、出場している自身のキャラクターのHPを回復する。\n·キャラクターと共に行動し、経路上の敵に<color=#99FFFFFF>氷元素ダメージ</color>を与える。\n\n<i>「こいつらは温度の上昇による腐敗を防止するためだよ…うん、白先生のあの高い薬剤のことを言ってるのだ。」</i>",
     "cd": 30,
-    "paramTpls": [
-      "スキルダメージ|{param8:P}",
-      "命中による回復量|{param1:F2P}攻撃力+{param2:I}",
-      "継続回復量|{param3:F2P}攻撃力+{param4:I}",
-      "寒病獄卒ダメージ|{param5:F1P}",
-      "継続時間|{param6:F1}秒",
-      "クールタイム|{param7:F1}秒"
-    ],
+    "paramTpls": ["スキルダメージ|{param8:P}", "命中による回復量|{param1:F2P}攻撃力+{param2:I}", "継続回復量|{param3:F2P}攻撃力+{param4:I}", "寒病獄卒ダメージ|{param5:F1P}", "継続時間|{param6:F1}秒", "クールタイム|{param7:F1}秒"],
     "paramVals": [
       [0.1056, 67.408, 0.696, 450.55, 0.36, 15, 30, 0.96],
       [0.11352, 74.15, 0.7482, 495.61, 0.387, 15, 30, 1.032],
@@ -122,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "「繁栄」の教え", "count": 3 },
-        { "id": "DiviningScroll", "name": "占いの絵巻", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "「繁栄」の教え", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁栄」の導き", "count": 2 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁栄」の導き", "count": 4 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁栄」の導き", "count": 6 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁栄」の導き", "count": 9 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "count": 4 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 4 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 4 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "count": 6 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 6 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 6 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "count": 12 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 9 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 9 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "count": 16 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 12 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 12 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "仙法·救苦度厄",
+    "name": "AdeptusArtPreserverOfFortune",
+    "localeName": "仙法·救苦度厄",
     "desc": "体内に封印された仙力を解放し、度厄のお札で付近の敵にマークをつけ、<color=#99FFFFFF>氷元素ダメージ</color>を与える。\n\n<color=#FFD780FF>度厄のお札</color>\n度厄のお札に影響された敵にダメージを与えた時、そのキャラクター自身のHPを回復する。\n\n<i>「本名、救苦度厄真君、起死回骸童子。」</i>\n<i>——だが七七はこの言葉を思い出せない。</i>",
     "cd": 20,
     "energyCost": 80,
@@ -189,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "「繁栄」の教え", "count": 3 },
-        { "id": "DiviningScroll", "name": "占いの絵巻", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "「繁栄」の教え", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁栄」の導き", "count": 2 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁栄」の導き", "count": 4 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁栄」の導き", "count": 6 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁栄」の導き", "count": 9 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "count": 4 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 4 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 4 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "count": 6 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 6 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 6 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "count": 12 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 9 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 9 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "count": 16 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 12 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 12 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "通常攻撃·雲来古剣法",
+    "name": "NormalAttackAncientSwordArt",
+    "localeName": "通常攻撃·雲来古剣法",
     "desc": "<color=#FFD780FF>通常攻撃</color>\n剣による最大5段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、前方に斬撃を2回放つ。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
     "cd": 0,
     "paramTpls": [
@@ -265,70 +261,67 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "「繁栄」の教え", "count": 3 },
-        { "id": "DiviningScroll", "name": "占いの絵巻", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "「繁栄」の教え", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁栄」の導き", "count": 2 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁栄」の導き", "count": 4 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁栄」の導き", "count": 6 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁栄」の導き", "count": 9 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "count": 4 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 4 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 4 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "count": 6 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 6 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 6 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "count": 12 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 9 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 9 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "count": 16 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 12 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 12 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "延命妙法", "desc": "<color=#FFD780FF>仙法·寒病鬼差</color>状態時のキャラクターが元素反応を起こした時、受ける治療効果+20%、継続時間8秒。", "unlock": 1 },
-    { "name": "玉籤偶開", "desc": "七七の通常攻撃と重撃が敵に命中した時、50%の確率で敵に度厄のお札を1枚付与する、継続時間6秒、30秒毎に1回のみ発動可能。", "unlock": 4 },
-    { "name": "往事記憶", "desc": "ミニマップで周囲の<color=#FFD780FF>璃月地域の特産</color>の位置を表示する。" }
+    { "name": "LifeProlongingMethods", "localeName": "延命妙法", "desc": "<color=#FFD780FF>仙法·寒病鬼差</color>状態時のキャラクターが元素反応を起こした時、受ける治療効果+20%、継続時間8秒。", "unlock": 1 },
+    { "name": "AGlimpseIntoArcanum", "localeName": "玉籤偶開", "desc": "七七の通常攻撃と重撃が敵に命中した時、50%の確率で敵に度厄のお札を1枚付与する、継続時間6秒、30秒毎に1回のみ発動可能。", "unlock": 4 },
+    { "name": "FormerLifeMemories", "localeName": "往事記憶", "desc": "ミニマップで周囲の<color=#FFD780FF>璃月地域の特産</color>の位置を表示する。" }
   ],
   "c13ns": [
-    { "name": "寒苦回向", "desc": "度厄のお札マークがついている敵に寒病鬼差が命中した時、七七の元素エネルギーを2回復する。" },
-    { "name": "氷寒蝕骨", "desc": "<color=#99FFFFFF>氷元素</color>の影響を受けた敵に、七七の通常攻撃と重撃の与えるダメージ+15%。" },
-    { "name": "昇天宝誥", "desc": "<color=#FFD780FF>仙法·救苦度厄</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "天威圧衆", "desc": "度厄のお札マークがついている敵の攻撃力-20%。" },
-    { "name": "紅蓮開花", "desc": "<color=#FFD780FF>仙法·寒病鬼差</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    {
-      "name": "起死回骸",
-      "desc": "<color=#FFD780FF>仙法·救苦度厄</color>を発動する時、近くにいるチーム内全ての戦闘不能状態のキャラクターを復活し、HPを50%まで回復させる。\nこの効果は15分毎に1回のみ発動可能。"
-    }
+    { "name": "AsceticsOfFrost", "localeName": "寒苦回向", "desc": "度厄のお札マークがついている敵に寒病鬼差が命中した時、七七の元素エネルギーを2回復する。" },
+    { "name": "FrozenToTheBone", "localeName": "氷寒蝕骨", "desc": "<color=#99FFFFFF>氷元素</color>の影響を受けた敵に、七七の通常攻撃と重撃の与えるダメージ+15%。" },
+    { "name": "AscendantPraise", "localeName": "昇天宝誥", "desc": "<color=#FFD780FF>仙法·救苦度厄</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "DivineSuppression", "localeName": "天威圧衆", "desc": "度厄のお札マークがついている敵の攻撃力-20%。" },
+    { "name": "CrimsonLotusBloom", "localeName": "紅蓮開花", "desc": "<color=#FFD780FF>仙法·寒病鬼差</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "RiteOfResurrection", "localeName": "起死回骸", "desc": "<color=#FFD780FF>仙法·救苦度厄</color>を発動する時、近くにいるチーム内全ての戦闘不能状態のキャラクターを復活し、HPを50%まで回復させる。\nこの効果は15分毎に1回のみ発動可能。" }
   ],
   "overviewItems": [
-    { "id": "ShivadaJadeGemstone", "name": "哀切なアイスクリスタル", "rarity": 5 },
-    { "id": "HoarfrostCore", "name": "極寒のコア", "rarity": 4 },
-    { "id": "Violetgrass", "name": "琉璃袋" },
-    { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "rarity": 3 },
-    { "id": "PhilosophiesOfProsperity", "name": "「繁栄」の哲学", "rarity": 4 },
-    { "id": "TailOfBoreas", "name": "北風のしっぽ", "rarity": 5 }
+    { "id": "ShivadaJadeGemstone", "localeName": "哀切なアイスクリスタル", "rarity": 5 },
+    { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4 },
+    { "id": "Violetgrass", "localeName": "琉璃袋" },
+    { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3 },
+    { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4 },
+    { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5 }
   ]
 }

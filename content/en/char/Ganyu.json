@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "ShivadaJadeSliver", "name": "Shivada Jade Sliver", "count": 1 },
-        { "id": "Qingxin", "name": "Qingxin", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 3 }
+        { "id": "ShivadaJadeSliver", "localeName": "Shivada Jade Sliver", "rarity": 2, "count": 1 },
+        { "id": "Qingxin", "localeName": "Qingxin", "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "Whopperflower Nectar", "rarity": 1, "count": 3 }
       ],
       "HP": 653.91,
       "ATK": 22.349,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "ShivadaJadeFragment", "name": "Shivada Jade Fragment", "count": 3 },
-        { "id": "HoarfrostCore", "name": "Hoarfrost Core", "count": 2 },
-        { "id": "Qingxin", "name": "Qingxin", "count": 10 },
-        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 15 }
+        { "id": "ShivadaJadeFragment", "localeName": "Shivada Jade Fragment", "rarity": 3, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "Hoarfrost Core", "rarity": 4, "count": 2 },
+        { "id": "Qingxin", "localeName": "Qingxin", "count": 10 },
+        { "id": "WhopperflowerNectar", "localeName": "Whopperflower Nectar", "rarity": 1, "count": 15 }
       ],
       "HP": 1118.5,
       "ATK": 38.229,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "ShivadaJadeFragment", "name": "Shivada Jade Fragment", "count": 6 },
-        { "id": "HoarfrostCore", "name": "Hoarfrost Core", "count": 4 },
-        { "id": "Qingxin", "name": "Qingxin", "count": 20 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 12 }
+        { "id": "ShivadaJadeFragment", "localeName": "Shivada Jade Fragment", "rarity": 3, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "Hoarfrost Core", "rarity": 4, "count": 4 },
+        { "id": "Qingxin", "localeName": "Qingxin", "count": 20 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 12 }
       ],
       "HP": 1738,
       "ATK": 59.402,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "ShivadaJadeChunk", "name": "Shivada Jade Chunk", "count": 3 },
-        { "id": "HoarfrostCore", "name": "Hoarfrost Core", "count": 8 },
-        { "id": "Qingxin", "name": "Qingxin", "count": 30 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 18 }
+        { "id": "ShivadaJadeChunk", "localeName": "Shivada Jade Chunk", "rarity": 4, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "Hoarfrost Core", "rarity": 4, "count": 8 },
+        { "id": "Qingxin", "localeName": "Qingxin", "count": 30 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 18 }
       ],
       "HP": 2202.6,
       "ATK": 75.282,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "ShivadaJadeChunk", "name": "Shivada Jade Chunk", "count": 6 },
-        { "id": "HoarfrostCore", "name": "Hoarfrost Core", "count": 12 },
-        { "id": "Qingxin", "name": "Qingxin", "count": 45 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 12 }
+        { "id": "ShivadaJadeChunk", "localeName": "Shivada Jade Chunk", "rarity": 4, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "Hoarfrost Core", "rarity": 4, "count": 12 },
+        { "id": "Qingxin", "localeName": "Qingxin", "count": 45 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 12 }
       ],
       "HP": 2667.3,
       "ATK": 91.162,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "ShivadaJadeGemstone", "name": "Shivada Jade Gemstone", "count": 6 },
-        { "id": "HoarfrostCore", "name": "Hoarfrost Core", "count": 20 },
-        { "id": "Qingxin", "name": "Qingxin", "count": 60 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 24 }
+        { "id": "ShivadaJadeGemstone", "localeName": "Shivada Jade Gemstone", "rarity": 5, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "Hoarfrost Core", "rarity": 4, "count": 20 },
+        { "id": "Qingxin", "localeName": "Qingxin", "count": 60 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 24 }
       ],
       "HP": 3131.9,
       "ATK": 107.04,
@@ -92,7 +92,8 @@
   "ascensionType": 13,
   "element": 7,
   "elemSkill": {
-    "name": "Trail of the Qilin",
+    "name": "TrailOfTheQilin",
+    "localeName": "Trail of the Qilin",
     "desc": "Leaving a single Ice Lotus behind, Ganyu dashes backward, shunning all impurity and dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\n\n<color=#FFD780FF>Ice Lotus</color>\n·Continuously taunts surrounding opponents, attracting them to attack it.\n·Endurance scales based on Ganyu's Max HP.\n·Blooms profusely when destroyed or once its duration ends, dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\n\n<i>\"You saw me, you say? You must be mistaken. I was working overtime then.\"</i>",
     "cd": 10,
     "paramTpls": ["Inherited HP|{param1:P}", "Skill DMG|{param2:P}", "Duration|{param3:F1}s", "CD|{param4:F1}s"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfDiligence", "name": "Teachings of Diligence", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 6 }
+        { "id": "TeachingsOfDiligence", "localeName": "Teachings of Diligence", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "Whopperflower Nectar", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 3 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 4 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 6 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 9 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 4 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 4 },
-        { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 4 },
+        { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 6 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 6 },
-        { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 6 },
+        { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 12 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 9 },
-        { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "count": 2 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 9 },
+        { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 16 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 12 },
-        { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 12 },
+        { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "Celestial Shower",
+    "name": "CelestialShower",
+    "localeName": "Celestial Shower",
     "desc": "Coalesces atmospheric frost and snow to summon a Sacred Cryo Pearl that exorcises evil.\nDuring its ability duration, the Sacred Cryo Pearl will continuously rain down shards of ice, striking opponents within an AoE and dealing <color=#99FFFFFF>Cryo DMG</color>.\n\n<i>Ganyu can bring down sweet rains as a matter of course. But against demons and heretics, they become bitter, freezing snow.</i>",
     "cd": 15,
     "energyCost": 60,
@@ -182,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfDiligence", "name": "Teachings of Diligence", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 6 }
+        { "id": "TeachingsOfDiligence", "localeName": "Teachings of Diligence", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "Whopperflower Nectar", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 3 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 4 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 6 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 9 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 4 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 4 },
-        { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 4 },
+        { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 6 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 6 },
-        { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 6 },
+        { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 12 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 9 },
-        { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "count": 2 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 9 },
+        { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 16 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 12 },
-        { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 12 },
+        { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "Normal Attack: Liutian Archery",
+    "name": "NormalAttackLiutianArchery",
+    "localeName": "Normal Attack: Liutian Archery",
     "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 6 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, an icy aura will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:\n·Charge Level 1: Fires off an icy arrow that deals <color=#99FFFFFF>Cryo DMG</color>.\n·Charge Level 2: Fires off a Frostflake Arrow that deals <color=#99FFFFFF>Cryo DMG</color>. The Frostflake Arrow blooms after hitting its target, dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
     "cd": 0,
     "paramTpls": [
@@ -261,84 +264,76 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfDiligence", "name": "Teachings of Diligence", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 6 }
+        { "id": "TeachingsOfDiligence", "localeName": "Teachings of Diligence", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "Whopperflower Nectar", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 3 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 4 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 6 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 9 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 4 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 4 },
-        { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 4 },
+        { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 6 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 6 },
-        { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 6 },
+        { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 12 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 9 },
-        { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "count": 2 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 9 },
+        { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 16 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 12 },
-        { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 12 },
+        { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    {
-      "name": "Undivided Heart",
-      "desc": "After firing a Frostflake Arrow, the CRIT Rate of subsequent Frostflake Arrows and their resulting bloom effects is increased by 20% for 5s.",
-      "unlock": 1,
-      "values": [5, 0.2]
-    },
-    {
-      "name": "Harmony between Heaven and Earth",
-      "desc": "<color=#FFD780FF>Celestial Shower</color> grants a 20% <color=#99FFFFFF>Cryo DMG Bonus</color> to active party members in the AoE.",
-      "unlock": 4,
-      "values": [0.2]
-    },
-    { "name": "Preserved for the Hunt", "desc": "Refunds 15% of the ore used when crafting Bow-type weapons." }
+    { "name": "UndividedHeart", "localeName": "Undivided Heart", "desc": "After firing a Frostflake Arrow, the CRIT Rate of subsequent Frostflake Arrows and their resulting bloom effects is increased by 20% for 5s.", "unlock": 1, "values": [5, 0.2] },
+    { "name": "HarmonyBetweenHeavenAndEarth", "localeName": "Harmony between Heaven and Earth", "desc": "<color=#FFD780FF>Celestial Shower</color> grants a 20% <color=#99FFFFFF>Cryo DMG Bonus</color> to active party members in the AoE.", "unlock": 4, "values": [0.2] },
+    { "name": "PreservedForTheHunt", "localeName": "Preserved for the Hunt", "desc": "Refunds 15% of the ore used when crafting Bow-type weapons." }
   ],
   "c13ns": [
     {
-      "name": "Dew-Drinker",
+      "name": "DewDrinker",
+      "localeName": "Dew-Drinker",
       "desc": "Taking DMG from a Charge Level 2 Frostflake Arrow or Frostflake Arrow Bloom decreases opponents' <color=#99FFFFFF>Cryo RES</color> by 15% for 6s.\nA hit regenerates 2 Energy for Ganyu. This effect can only occur once per Charge Level 2 Frostflake Arrow, regardless if Frostflake Arrow itself or its Bloom hit the target.",
       "values": [-0.15, 6, 2]
     },
-    { "name": "The Auspicious", "desc": "<color=#FFD780FF>Trail of the Qilin</color> gains 1 additional charge." },
-    { "name": "Cloud-Strider", "desc": "Increases the Level of <color=#FFD780FF>Celestial Shower</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "TheAuspicious", "localeName": "The Auspicious", "desc": "<color=#FFD780FF>Trail of the Qilin</color> gains 1 additional charge." },
+    { "name": "CloudStrider", "localeName": "Cloud-Strider", "desc": "Increases the Level of <color=#FFD780FF>Celestial Shower</color> by 3.\nMaximum upgrade level is 15." },
     {
-      "name": "Westward Sojourn",
+      "name": "WestwardSojourn",
+      "localeName": "Westward Sojourn",
       "desc": "Opponents standing within the AoE of <color=#FFD780FF>Celestial Shower</color> take increased DMG. This effect strengthens over time.\nIncreased DMG taken begins at 5% and increases by 5% every 3s, up to a maximum of 25%.\nThe effect lingers for 3s after the opponent leaves the AoE."
     },
-    { "name": "The Merciful", "desc": "Increases the Level of <color=#FFD780FF>Trail of the Qilin</color> by 3.\nMaximum upgrade level is 15." },
-    { "name": "The Clement", "desc": "Using <color=#FFD780FF>Trail of the Qilin</color> causes the next Frostflake Arrow shot within 30s to not require charging." }
+    { "name": "TheMerciful", "localeName": "The Merciful", "desc": "Increases the Level of <color=#FFD780FF>Trail of the Qilin</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "TheClement", "localeName": "The Clement", "desc": "Using <color=#FFD780FF>Trail of the Qilin</color> causes the next Frostflake Arrow shot within 30s to not require charging." }
   ],
   "overviewItems": [
-    { "id": "ShivadaJadeGemstone", "name": "Shivada Jade Gemstone", "rarity": 5 },
-    { "id": "HoarfrostCore", "name": "Hoarfrost Core", "rarity": 4 },
-    { "id": "Qingxin", "name": "Qingxin" },
-    { "id": "EnergyNectar", "name": "Energy Nectar", "rarity": 3 },
-    { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "rarity": 4 },
-    { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "rarity": 5 }
+    { "id": "ShivadaJadeGemstone", "localeName": "Shivada Jade Gemstone", "rarity": 5 },
+    { "id": "HoarfrostCore", "localeName": "Hoarfrost Core", "rarity": 4 },
+    { "id": "Qingxin", "localeName": "Qingxin" },
+    { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3 },
+    { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4 },
+    { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5 }
   ]
 }

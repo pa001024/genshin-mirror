@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VayudaTurquoiseSliver", "name": "Vayuda Turquoise Sliver", "count": 1 },
-        { "id": "WindwheelAster", "name": "Windwheel Aster", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 3 }
+        { "id": "VayudaTurquoiseSliver", "localeName": "Vayuda Turquoise Sliver", "rarity": 2, "count": 1 },
+        { "id": "WindwheelAster", "localeName": "Windwheel Aster", "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "Whopperflower Nectar", "rarity": 1, "count": 3 }
       ],
       "HP": 578.98,
       "ATK": 10.643,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VayudaTurquoiseFragment", "name": "Vayuda Turquoise Fragment", "count": 3 },
-        { "id": "HurricaneSeed", "name": "Hurricane Seed", "count": 2 },
-        { "id": "WindwheelAster", "name": "Windwheel Aster", "count": 10 },
-        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 15 }
+        { "id": "VayudaTurquoiseFragment", "localeName": "Vayuda Turquoise Fragment", "rarity": 3, "count": 3 },
+        { "id": "HurricaneSeed", "localeName": "Hurricane Seed", "rarity": 4, "count": 2 },
+        { "id": "WindwheelAster", "localeName": "Windwheel Aster", "count": 10 },
+        { "id": "WhopperflowerNectar", "localeName": "Whopperflower Nectar", "rarity": 1, "count": 15 }
       ],
       "HP": 990.36,
       "ATK": 18.205,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VayudaTurquoiseFragment", "name": "Vayuda Turquoise Fragment", "count": 6 },
-        { "id": "HurricaneSeed", "name": "Hurricane Seed", "count": 4 },
-        { "id": "WindwheelAster", "name": "Windwheel Aster", "count": 20 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 12 }
+        { "id": "VayudaTurquoiseFragment", "localeName": "Vayuda Turquoise Fragment", "rarity": 3, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "Hurricane Seed", "rarity": 4, "count": 4 },
+        { "id": "WindwheelAster", "localeName": "Windwheel Aster", "count": 20 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 12 }
       ],
       "HP": 1538.9,
       "ATK": 28.288,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VayudaTurquoiseChunk", "name": "Vayuda Turquoise Chunk", "count": 3 },
-        { "id": "HurricaneSeed", "name": "Hurricane Seed", "count": 8 },
-        { "id": "WindwheelAster", "name": "Windwheel Aster", "count": 30 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 18 }
+        { "id": "VayudaTurquoiseChunk", "localeName": "Vayuda Turquoise Chunk", "rarity": 4, "count": 3 },
+        { "id": "HurricaneSeed", "localeName": "Hurricane Seed", "rarity": 4, "count": 8 },
+        { "id": "WindwheelAster", "localeName": "Windwheel Aster", "count": 30 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 18 }
       ],
       "HP": 1950.3,
       "ATK": 35.85,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VayudaTurquoiseChunk", "name": "Vayuda Turquoise Chunk", "count": 6 },
-        { "id": "HurricaneSeed", "name": "Hurricane Seed", "count": 12 },
-        { "id": "WindwheelAster", "name": "Windwheel Aster", "count": 45 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 12 }
+        { "id": "VayudaTurquoiseChunk", "localeName": "Vayuda Turquoise Chunk", "rarity": 4, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "Hurricane Seed", "rarity": 4, "count": 12 },
+        { "id": "WindwheelAster", "localeName": "Windwheel Aster", "count": 45 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 12 }
       ],
       "HP": 2361.6,
       "ATK": 43.412,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VayudaTurquoiseGemstone", "name": "Vayuda Turquoise Gemstone", "count": 6 },
-        { "id": "HurricaneSeed", "name": "Hurricane Seed", "count": 20 },
-        { "id": "WindwheelAster", "name": "Windwheel Aster", "count": 60 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 24 }
+        { "id": "VayudaTurquoiseGemstone", "localeName": "Vayuda Turquoise Gemstone", "rarity": 5, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "Hurricane Seed", "rarity": 4, "count": 20 },
+        { "id": "WindwheelAster", "localeName": "Windwheel Aster", "count": 60 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 24 }
       ],
       "HP": 2773,
       "ATK": 50.975,
@@ -92,7 +92,8 @@
   "ascensionType": 27,
   "element": 1,
   "elemSkill": {
-    "name": "Astable Anemohypostasis Creation - 6308",
+    "name": "AstableAnemohypostasisCreation6308",
+    "localeName": "Astable Anemohypostasis Creation - 6308",
     "desc": "Creates a small Wind Spirit that pulls opponents and objects towards its location, launches opponents within its AoE, and deals <color=#80FFD7FF>Anemo DMG</color>.\n\n<i>This is a little embarrassing, but though the elemental lifeforms birthed through this procedure dissipate very rapidly, they are incredibly useful when adventuring. Even failed experiments can have practical applications.</i>",
     "cd": 15,
     "paramTpls": ["Skill DMG|{param1:P}", "CD|{param2:F1}s"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "Teachings of Freedom", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "Teachings of Freedom", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "Whopperflower Nectar", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 4 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 6 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 12 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 16 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "Forbidden Creation - Isomer 75 / Type II",
+    "name": "ForbiddenCreationIsomer75TypeII",
+    "localeName": "Forbidden Creation - Isomer 75 / Type II",
     "desc": "Sucrose hurls an unstable concoction that creates a Large Wind Spirit.\nWhile it persists, the Large Wind Spirit will continuously pull in surrounding opponents and objects, launch nearby opponents, and deal <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Elemental Absorption</color>\nIf the Wind Spirit comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color> energy, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\n<i>Sucrose used to give names to her volatile Anemo Hypostases, but their line of heirs quickly grew to surpass Baron Bunny the 893rd.</i>",
     "cd": 20,
     "energyCost": 80,
@@ -182,62 +184,54 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "Teachings of Freedom", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "Teachings of Freedom", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "Whopperflower Nectar", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 4 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 6 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 12 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 16 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "Normal Attack: Wind Spirit Creation",
+    "name": "NormalAttackWindSpiritCreation",
+    "localeName": "Normal Attack: Wind Spirit Creation",
     "desc": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 attacks using Wind Spirits, dealing <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina and deals <color=#80FFD7FF>AoE Anemo DMG</color> after a short casting time.\n\n<color=#FFD780FF>Plunging Attack</color>\nCalling upon the power of her Wind Spirits, Sucrose plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80FFD7FF>AoE Anemo DMG</color> upon impact with the ground.",
     "cd": 0,
-    "paramTpls": [
-      "1-Hit DMG|{param1:F1P}",
-      "2-Hit DMG|{param2:F1P}",
-      "3-Hit DMG|{param3:F1P}",
-      "4-Hit DMG|{param4:F1P}",
-      "Charged Attack DMG|{param5:P}",
-      "Charged Attack Stamina Cost|{param6:F1}",
-      "Plunge DMG|{param7:F1P}",
-      "Low/High Plunge DMG|{param8:P}/{param9:P}"
-    ],
+    "paramTpls": ["1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", "4-Hit DMG|{param4:F1P}", "Charged Attack DMG|{param5:P}", "Charged Attack Stamina Cost|{param6:F1}", "Plunge DMG|{param7:F1P}", "Low/High Plunge DMG|{param8:P}/{param9:P}"],
     "paramVals": [
       [0.33464, 0.30616, 0.38448, 0.47918, 1.2016, 50, 0.56829, 1.1363, 1.4193],
       [0.35974, 0.32912, 0.41332, 0.51511, 1.2917, 50, 0.61454, 1.2288, 1.5349],
@@ -257,81 +251,78 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "Teachings of Freedom", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "Teachings of Freedom", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "Whopperflower Nectar", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 4 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 6 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 12 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 16 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
+    { "name": "CatalystConversion", "localeName": "Catalyst Conversion", "desc": "When Sucrose triggers a Swirl reaction, all characters in the party with the matching element (excluding Sucrose) have their Elemental Mastery increased by 50 for 8s.", "unlock": 1, "values": [50, 8] },
     {
-      "name": "Catalyst Conversion",
-      "desc": "When Sucrose triggers a Swirl reaction, all characters in the party with the matching element (excluding Sucrose) have their Elemental Mastery increased by 50 for 8s.",
-      "unlock": 1,
-      "values": [50, 8]
-    },
-    {
-      "name": "Mollis Favonius",
+      "name": "MollisFavonius",
+      "localeName": "Mollis Favonius",
       "desc": "When <color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> or <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> hits an opponent, increases all party members' (excluding Sucrose) Elemental Mastery by an amount equal to 20% of Sucrose's Elemental Mastery for 8s.",
       "unlock": 4,
       "values": [0.2, 8]
     },
-    { "name": "Astable Invention", "desc": "When Sucrose crafts Character and Weapon Enhancement Materials, she has a 10% to obtain double the product." }
+    { "name": "AstableInvention", "localeName": "Astable Invention", "desc": "When Sucrose crafts Character and Weapon Enhancement Materials, she has a 10% to obtain double the product." }
   ],
   "c13ns": [
-    { "name": "Clustered Vacuum Field", "desc": "<color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> gains 1 additional charge." },
-    { "name": "Beth: Unbound Form", "desc": "The duration of <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> is increased by 2s.", "values": [2] },
-    { "name": "Flawless Alchemistress", "desc": "Increases the Level of <color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> by 3.\nMaximum upgrade level is 15." },
-    { "name": "Alchemania", "desc": "Every 7 Normal and Charged Attacks, Sucrose will reduce the CD of <color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> by 1-7s." },
-    { "name": "Caution: Standard Flask", "desc": "Increases the Level of <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "ClusteredVacuumField", "localeName": "Clustered Vacuum Field", "desc": "<color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> gains 1 additional charge." },
+    { "name": "BethUnboundForm", "localeName": "Beth: Unbound Form", "desc": "The duration of <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> is increased by 2s.", "values": [2] },
+    { "name": "FlawlessAlchemistress", "localeName": "Flawless Alchemistress", "desc": "Increases the Level of <color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "Alchemania", "localeName": "Alchemania", "desc": "Every 7 Normal and Charged Attacks, Sucrose will reduce the CD of <color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> by 1-7s." },
+    { "name": "CautionStandardFlask", "localeName": "Caution: Standard Flask", "desc": "Increases the Level of <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> by 3.\nMaximum upgrade level is 15." },
     {
-      "name": "Chaotic Entropy",
+      "name": "ChaoticEntropy",
+      "localeName": "Chaotic Entropy",
       "desc": "If <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> triggers an Elemental Absorption, all party members gain a 20% Elemental DMG Bonus for the corresponding absorbed element during its duration.",
       "values": [0.2]
     }
   ],
   "overviewItems": [
-    { "id": "VayudaTurquoiseGemstone", "name": "Vayuda Turquoise Gemstone", "rarity": 5 },
-    { "id": "HurricaneSeed", "name": "Hurricane Seed", "rarity": 4 },
-    { "id": "WindwheelAster", "name": "Windwheel Aster" },
-    { "id": "EnergyNectar", "name": "Energy Nectar", "rarity": 3 },
-    { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "rarity": 4 },
-    { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "rarity": 5 }
+    { "id": "VayudaTurquoiseGemstone", "localeName": "Vayuda Turquoise Gemstone", "rarity": 5 },
+    { "id": "HurricaneSeed", "localeName": "Hurricane Seed", "rarity": 4 },
+    { "id": "WindwheelAster", "localeName": "Windwheel Aster" },
+    { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3 },
+    { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4 },
+    { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5 }
   ]
 }

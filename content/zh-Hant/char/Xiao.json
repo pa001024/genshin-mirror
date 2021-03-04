@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VayudaTurquoiseSliver", "name": "自在松石碎屑", "count": 1 },
-        { "id": "Qingxin", "name": "清心", "count": 3 },
-        { "id": "SlimeCondensate", "name": "史萊姆凝液", "count": 3 }
+        { "id": "VayudaTurquoiseSliver", "localeName": "自在松石碎屑", "rarity": 2, "count": 1 },
+        { "id": "Qingxin", "localeName": "清心", "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "史萊姆凝液", "rarity": 1, "count": 3 }
       ],
       "HP": 850.08,
       "ATK": 23.307,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VayudaTurquoiseFragment", "name": "自在松石斷片", "count": 3 },
-        { "id": "JuvenileJade", "name": "未熟之玉", "count": 2 },
-        { "id": "Qingxin", "name": "清心", "count": 10 },
-        { "id": "SlimeCondensate", "name": "史萊姆凝液", "count": 15 }
+        { "id": "VayudaTurquoiseFragment", "localeName": "自在松石斷片", "rarity": 3, "count": 3 },
+        { "id": "JuvenileJade", "localeName": "未熟之玉", "rarity": 4, "count": 2 },
+        { "id": "Qingxin", "localeName": "清心", "count": 10 },
+        { "id": "SlimeCondensate", "localeName": "史萊姆凝液", "rarity": 1, "count": 15 }
       ],
       "HP": 1454.1,
       "ATK": 39.867,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VayudaTurquoiseFragment", "name": "自在松石斷片", "count": 6 },
-        { "id": "JuvenileJade", "name": "未熟之玉", "count": 4 },
-        { "id": "Qingxin", "name": "清心", "count": 20 },
-        { "id": "SlimeSecretions", "name": "史萊姆清", "count": 12 }
+        { "id": "VayudaTurquoiseFragment", "localeName": "自在松石斷片", "rarity": 3, "count": 6 },
+        { "id": "JuvenileJade", "localeName": "未熟之玉", "rarity": 4, "count": 4 },
+        { "id": "Qingxin", "localeName": "清心", "count": 20 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 12 }
       ],
       "HP": 2259.4,
       "ATK": 61.948,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VayudaTurquoiseChunk", "name": "自在松石塊", "count": 3 },
-        { "id": "JuvenileJade", "name": "未熟之玉", "count": 8 },
-        { "id": "Qingxin", "name": "清心", "count": 30 },
-        { "id": "SlimeSecretions", "name": "史萊姆清", "count": 18 }
+        { "id": "VayudaTurquoiseChunk", "localeName": "自在松石塊", "rarity": 4, "count": 3 },
+        { "id": "JuvenileJade", "localeName": "未熟之玉", "rarity": 4, "count": 8 },
+        { "id": "Qingxin", "localeName": "清心", "count": 30 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 18 }
       ],
       "HP": 2863.4,
       "ATK": 78.508,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VayudaTurquoiseChunk", "name": "自在松石塊", "count": 6 },
-        { "id": "JuvenileJade", "name": "未熟之玉", "count": 12 },
-        { "id": "Qingxin", "name": "清心", "count": 45 },
-        { "id": "SlimeConcentrate", "name": "史萊姆原漿", "count": 12 }
+        { "id": "VayudaTurquoiseChunk", "localeName": "自在松石塊", "rarity": 4, "count": 6 },
+        { "id": "JuvenileJade", "localeName": "未熟之玉", "rarity": 4, "count": 12 },
+        { "id": "Qingxin", "localeName": "清心", "count": 45 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 12 }
       ],
       "HP": 3467.4,
       "ATK": 95.069,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VayudaTurquoiseGemstone", "name": "自在松石", "count": 6 },
-        { "id": "JuvenileJade", "name": "未熟之玉", "count": 20 },
-        { "id": "Qingxin", "name": "清心", "count": 60 },
-        { "id": "SlimeConcentrate", "name": "史萊姆原漿", "count": 24 }
+        { "id": "VayudaTurquoiseGemstone", "localeName": "自在松石", "rarity": 5, "count": 6 },
+        { "id": "JuvenileJade", "localeName": "未熟之玉", "rarity": 4, "count": 20 },
+        { "id": "Qingxin", "localeName": "清心", "count": 60 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 24 }
       ],
       "HP": 4071.4,
       "ATK": 111.63,
@@ -92,7 +92,8 @@
   "ascensionType": 12,
   "element": 1,
   "elemSkill": {
-    "name": "風輪兩立",
+    "name": "LemniscaticWindCycling",
+    "localeName": "風輪兩立",
     "desc": "疾速突進，對路徑上的敵人造成<color=#80FFD7FF>風元素傷害</color>。\n可以在空中施放。\n初始擁有兩次可使用次數。\n\n<i>在他鄉的傳說裡，世界會被兩大風輪碾碎。魈的槍術已臻化境，來回之間仿佛兩座風輪同時撕裂敵人。</i>",
     "cd": 10,
     "paramTpls": ["技能傷害|{param1:P}", "冷卻時間|{param2:F1}秒"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "「繁榮」的教導", "count": 3 },
-        { "id": "SlimeCondensate", "name": "史萊姆凝液", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "「繁榮」的教導", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "史萊姆凝液", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁榮」的指引", "count": 2 },
-        { "id": "SlimeSecretions", "name": "史萊姆清", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "「繁榮」的指引", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁榮」的指引", "count": 4 },
-        { "id": "SlimeSecretions", "name": "史萊姆清", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "「繁榮」的指引", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁榮」的指引", "count": 6 },
-        { "id": "SlimeSecretions", "name": "史萊姆清", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "「繁榮」的指引", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁榮」的指引", "count": 9 },
-        { "id": "SlimeSecretions", "name": "史萊姆清", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "「繁榮」的指引", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "史萊姆原漿", "count": 4 },
-        { "id": "ShadowOfTheWarrior", "name": "武煉之魂·孤影", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 4 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武煉之魂·孤影", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "史萊姆原漿", "count": 6 },
-        { "id": "ShadowOfTheWarrior", "name": "武煉之魂·孤影", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 6 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武煉之魂·孤影", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "史萊姆原漿", "count": 9 },
-        { "id": "ShadowOfTheWarrior", "name": "武煉之魂·孤影", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 9 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武煉之魂·孤影", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "史萊姆原漿", "count": 12 },
-        { "id": "ShadowOfTheWarrior", "name": "武煉之魂·孤影", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 12 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武煉之魂·孤影", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "靖妖儺舞",
+    "name": "BaneOfAllEvil",
+    "localeName": "靖妖儺舞",
     "desc": "展現數千年前令神魔精妖睹之膽顫的夜叉儺面。\n\n<color=#FFD780FF>夜叉儺面</color>\n·大幅提升魈的跳躍能力；\n·提高攻擊範圍與攻擊傷害；\n·將攻擊傷害轉為<color=#80FFD7FF>風元素傷害</color>，該元素轉化無法被附魔覆蓋。\n\n在這個狀態下，魈會持續損失生命值。\n效果將在魈退場時解除。\n\n<i>戴上降魔的儺面，現出令諸惡膽寒，除盡妖魔奸邪的「護法夜叉」之姿。獲得強大的力量，也會引導出巨大的痛苦。其式既名「靖妖儺舞」。</i>",
     "cd": 18,
     "energyCost": 70,
@@ -182,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "「繁榮」的教導", "count": 3 },
-        { "id": "SlimeCondensate", "name": "史萊姆凝液", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "「繁榮」的教導", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "史萊姆凝液", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁榮」的指引", "count": 2 },
-        { "id": "SlimeSecretions", "name": "史萊姆清", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "「繁榮」的指引", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁榮」的指引", "count": 4 },
-        { "id": "SlimeSecretions", "name": "史萊姆清", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "「繁榮」的指引", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁榮」的指引", "count": 6 },
-        { "id": "SlimeSecretions", "name": "史萊姆清", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "「繁榮」的指引", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁榮」的指引", "count": 9 },
-        { "id": "SlimeSecretions", "name": "史萊姆清", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "「繁榮」的指引", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "史萊姆原漿", "count": 4 },
-        { "id": "ShadowOfTheWarrior", "name": "武煉之魂·孤影", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 4 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武煉之魂·孤影", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "史萊姆原漿", "count": 6 },
-        { "id": "ShadowOfTheWarrior", "name": "武煉之魂·孤影", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 6 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武煉之魂·孤影", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "史萊姆原漿", "count": 9 },
-        { "id": "ShadowOfTheWarrior", "name": "武煉之魂·孤影", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 9 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武煉之魂·孤影", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "史萊姆原漿", "count": 12 },
-        { "id": "ShadowOfTheWarrior", "name": "武煉之魂·孤影", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 12 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武煉之魂·孤影", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "普通攻擊·捲積微塵",
+    "name": "NormalAttackWhirlwindThrust",
+    "localeName": "普通攻擊·捲積微塵",
     "desc": "<color=#FFD780FF>普通攻擊</color>\n進行至多六段的連續槍擊。\n\n<color=#FFD780FF>重擊</color>\n消耗一定體力，進行上挑攻擊。\n\n<color=#FFD780FF>下落攻擊</color>\n從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。\n魈進行下落攻擊時，不會承受墜落傷害。",
     "cd": 0,
     "paramTpls": [
@@ -259,81 +262,67 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "「繁榮」的教導", "count": 3 },
-        { "id": "SlimeCondensate", "name": "史萊姆凝液", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "「繁榮」的教導", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "史萊姆凝液", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁榮」的指引", "count": 2 },
-        { "id": "SlimeSecretions", "name": "史萊姆清", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "「繁榮」的指引", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁榮」的指引", "count": 4 },
-        { "id": "SlimeSecretions", "name": "史萊姆清", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "「繁榮」的指引", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁榮」的指引", "count": 6 },
-        { "id": "SlimeSecretions", "name": "史萊姆清", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "「繁榮」的指引", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "「繁榮」的指引", "count": 9 },
-        { "id": "SlimeSecretions", "name": "史萊姆清", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "「繁榮」的指引", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "史萊姆原漿", "count": 4 },
-        { "id": "ShadowOfTheWarrior", "name": "武煉之魂·孤影", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 4 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武煉之魂·孤影", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "史萊姆原漿", "count": 6 },
-        { "id": "ShadowOfTheWarrior", "name": "武煉之魂·孤影", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 6 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武煉之魂·孤影", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "史萊姆原漿", "count": 9 },
-        { "id": "ShadowOfTheWarrior", "name": "武煉之魂·孤影", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 9 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武煉之魂·孤影", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "史萊姆原漿", "count": 12 },
-        { "id": "ShadowOfTheWarrior", "name": "武煉之魂·孤影", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 12 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武煉之魂·孤影", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    {
-      "name": "降魔·平妖大聖",
-      "desc": "在<color=#FFD780FF>靖妖儺舞</color>狀態下，魈造成的所有傷害提高5%。此後，在技能持續時間內，每經過3秒，造成的傷害再額外提高5%。\n至多獲得25%傷害加成。",
-      "unlock": 1,
-      "values": [0.05]
-    },
-    {
-      "name": "壞劫·國土碾塵",
-      "desc": "施放<color=#FFD780FF>風輪兩立</color>會使之後7秒內的風輪兩立造成的傷害提高15%。\n該效果持續7秒，最多疊加三次，疊加時重置持續時間。",
-      "unlock": 4,
-      "values": [7, 0.15, 3]
-    },
-    { "name": "神通·空中自在法", "desc": "隊伍中自己的角色攀爬消耗的體力降低20%。\n無法與效果完全相同的固有天賦疊加。" }
+    { "name": "ConquerorOfEvilTamerOfDemons", "localeName": "降魔·平妖大聖", "desc": "在<color=#FFD780FF>靖妖儺舞</color>狀態下，魈造成的所有傷害提高5%。此後，在技能持續時間內，每經過3秒，造成的傷害再額外提高5%。\n至多獲得25%傷害加成。", "unlock": 1, "values": [0.05] },
+    { "name": "DissolutionEonHeavenFall", "localeName": "壞劫·國土碾塵", "desc": "施放<color=#FFD780FF>風輪兩立</color>會使之後7秒內的風輪兩立造成的傷害提高15%。\n該效果持續7秒，最多疊加三次，疊加時重置持續時間。", "unlock": 4, "values": [7, 0.15, 3] },
+    { "name": "TranscensionGravityDefier", "localeName": "神通·空中自在法", "desc": "隊伍中自己的角色攀爬消耗的體力降低20%。\n無法與效果完全相同的固有天賦疊加。" }
   ],
   "c13ns": [
-    { "name": "壞劫·毀壞三界", "desc": "<color=#FFD780FF>風輪兩立</color>的可使用次數增加一次。" },
-    { "name": "空劫·虛空華開敷變", "desc": "處於隊伍後台時，魈自身的元素充能效率提高25%。", "values": [0.25] },
-    { "name": "降魔·忿怒顯相", "desc": "<color=#FFD780FF>風輪兩立</color>的技能等級提高3級。\n至多提升至15級。" },
-    { "name": "神通·諸苦滅盡", "desc": "魈的生命值低於50%時，獲得100%防禦力提升。", "values": [0.5, 1] },
-    { "name": "成劫·無明增長", "desc": "<color=#FFD780FF>靖妖儺舞</color>的技能等級提高3級。\n至多提升至15級。" },
-    {
-      "name": "降魔·護法夜叉",
-      "desc": "在<color=#FFD780FF>靖妖儺舞</color>狀態下，下落攻擊命中至少2個敵人時，<color=#FFD780FF>風輪兩立</color>立刻獲得1次可使用次數，並且在接下來1秒內，可以無視冷卻時間施放風輪兩立。",
-      "values": [1]
-    }
+    { "name": "DissolutionEonDestroyerOfWorlds", "localeName": "壞劫·毀壞三界", "desc": "<color=#FFD780FF>風輪兩立</color>的可使用次數增加一次。" },
+    { "name": "AnnihilationEonBlossomOfKaleidos", "localeName": "空劫·虛空華開敷變", "desc": "處於隊伍後台時，魈自身的元素充能效率提高25%。", "values": [0.25] },
+    { "name": "ConquerorOfEvilWrathDeity", "localeName": "降魔·忿怒顯相", "desc": "<color=#FFD780FF>風輪兩立</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "TranscensionExtinctionOfSuffering", "localeName": "神通·諸苦滅盡", "desc": "魈的生命值低於50%時，獲得100%防禦力提升。", "values": [0.5, 1] },
+    { "name": "EvolutionEonOriginOfIgnorance", "localeName": "成劫·無明增長", "desc": "<color=#FFD780FF>靖妖儺舞</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "ConquerorOfEvilGuardianYaksha", "localeName": "降魔·護法夜叉", "desc": "在<color=#FFD780FF>靖妖儺舞</color>狀態下，下落攻擊命中至少2個敵人時，<color=#FFD780FF>風輪兩立</color>立刻獲得1次可使用次數，並且在接下來1秒內，可以無視冷卻時間施放風輪兩立。", "values": [1] }
   ],
   "overviewItems": [
-    { "id": "VayudaTurquoiseGemstone", "name": "自在松石", "rarity": 5 },
-    { "id": "JuvenileJade", "name": "未熟之玉", "rarity": 4 },
-    { "id": "Qingxin", "name": "清心" },
-    { "id": "SlimeConcentrate", "name": "史萊姆原漿", "rarity": 3 },
-    { "id": "PhilosophiesOfProsperity", "name": "「繁榮」的哲學", "rarity": 4 },
-    { "id": "ShadowOfTheWarrior", "name": "武煉之魂·孤影", "rarity": 5 }
+    { "id": "VayudaTurquoiseGemstone", "localeName": "自在松石", "rarity": 5 },
+    { "id": "JuvenileJade", "localeName": "未熟之玉", "rarity": 4 },
+    { "id": "Qingxin", "localeName": "清心" },
+    { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3 },
+    { "id": "PhilosophiesOfProsperity", "localeName": "「繁榮」的哲學", "rarity": 4 },
+    { "id": "ShadowOfTheWarrior", "localeName": "武煉之魂·孤影", "rarity": 5 }
   ]
 }

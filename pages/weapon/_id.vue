@@ -56,7 +56,7 @@
             <v-list-item two-line>
               <v-list-item-content>
                 <v-list-item-subtitle v-text="$t(`buff.${weapon.subAttr.type}`)" />
-                <v-list-item-title class="headline" v-text="P(weapon.subAttr.value)" />
+                <v-list-item-title class="headline" v-text="TP(weapon.subAttr.type, weapon.subAttr.value)" />
               </v-list-item-content>
             </v-list-item>
           </v-col>
@@ -81,7 +81,7 @@
 
 <script lang="ts">
 import { Vue, Component, Watch } from "vue-property-decorator";
-import { IWeapon, Weapon } from "~/modules/core";
+import { ARTIFACT, IWeapon, Weapon } from "~/modules/core";
 
 @Component<Page>({
   // server
@@ -125,6 +125,14 @@ export default class Page extends Vue {
 
   FP(n = 0, p = 1) {
     return (n * 100).toFixed(p) + "%";
+  }
+
+  TP(type: number, value: number) {
+    if (type in ARTIFACT.ENCODE_RATIO) {
+      return value.toFixed(0);
+    } else {
+      return (value * 100).toFixed(1) + "%";
+    }
   }
 
   @Watch("data")

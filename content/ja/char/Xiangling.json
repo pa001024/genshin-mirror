@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "AgnidusAgateSliver", "name": "炎願のアゲート·砕屑", "count": 1 },
-        { "id": "JueyunChili", "name": "絶雲の唐辛子", "count": 3 },
-        { "id": "SlimeCondensate", "name": "スライムの液体", "count": 3 }
+        { "id": "AgnidusAgateSliver", "localeName": "炎願のアゲート·砕屑", "rarity": 2, "count": 1 },
+        { "id": "JueyunChili", "localeName": "絶雲の唐辛子", "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "スライムの液体", "rarity": 1, "count": 3 }
       ],
       "HP": 681.15,
       "ATK": 14.102,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "炎願のアゲート·欠片", "count": 3 },
-        { "id": "EverflameSeed", "name": "常燃の火種", "count": 2 },
-        { "id": "JueyunChili", "name": "絶雲の唐辛子", "count": 10 },
-        { "id": "SlimeCondensate", "name": "スライムの液体", "count": 15 }
+        { "id": "AgnidusAgateFragment", "localeName": "炎願のアゲート·欠片", "rarity": 3, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 2 },
+        { "id": "JueyunChili", "localeName": "絶雲の唐辛子", "count": 10 },
+        { "id": "SlimeCondensate", "localeName": "スライムの液体", "rarity": 1, "count": 15 }
       ],
       "HP": 1165.1,
       "ATK": 24.122,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "炎願のアゲート·欠片", "count": 6 },
-        { "id": "EverflameSeed", "name": "常燃の火種", "count": 4 },
-        { "id": "JueyunChili", "name": "絶雲の唐辛子", "count": 20 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 12 }
+        { "id": "AgnidusAgateFragment", "localeName": "炎願のアゲート·欠片", "rarity": 3, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 4 },
+        { "id": "JueyunChili", "localeName": "絶雲の唐辛子", "count": 20 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 12 }
       ],
       "HP": 1810.4,
       "ATK": 37.482,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "炎願のアゲート·塊", "count": 3 },
-        { "id": "EverflameSeed", "name": "常燃の火種", "count": 8 },
-        { "id": "JueyunChili", "name": "絶雲の唐辛子", "count": 30 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 18 }
+        { "id": "AgnidusAgateChunk", "localeName": "炎願のアゲート·塊", "rarity": 4, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 8 },
+        { "id": "JueyunChili", "localeName": "絶雲の唐辛子", "count": 30 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 18 }
       ],
       "HP": 2294.4,
       "ATK": 47.502,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "炎願のアゲート·塊", "count": 6 },
-        { "id": "EverflameSeed", "name": "常燃の火種", "count": 12 },
-        { "id": "JueyunChili", "name": "絶雲の唐辛子", "count": 45 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 12 }
+        { "id": "AgnidusAgateChunk", "localeName": "炎願のアゲート·塊", "rarity": 4, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 12 },
+        { "id": "JueyunChili", "localeName": "絶雲の唐辛子", "count": 45 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 12 }
       ],
       "HP": 2778.4,
       "ATK": 57.521,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "AgnidusAgateGemstone", "name": "炎願のアゲート", "count": 6 },
-        { "id": "EverflameSeed", "name": "常燃の火種", "count": 20 },
-        { "id": "JueyunChili", "name": "絶雲の唐辛子", "count": 60 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 24 }
+        { "id": "AgnidusAgateGemstone", "localeName": "炎願のアゲート", "rarity": 5, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 20 },
+        { "id": "JueyunChili", "localeName": "絶雲の唐辛子", "count": 60 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 24 }
       ],
       "HP": 3262.4,
       "ATK": 67.541,
@@ -92,7 +92,8 @@
   "ascensionType": 11,
   "element": 6,
   "elemSkill": {
-    "name": "グゥオパァー出撃",
+    "name": "GuobaAttack",
+    "localeName": "グゥオパァー出撃",
     "desc": "火を噴くグゥオパァーを召喚し、継続期間中に敵に火を噴き続け、<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。\n\n<i>グゥオパァーは辛い食べ物が好き。でもこんなに辛いものはさすがに耐えられない。</i>",
     "cd": 12,
     "paramTpls": ["噴火ダメージ|{param1:P}", "クールタイム|{param2:F1}秒"],
@@ -115,62 +116,55 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfDiligence", "name": "「勤労」の教え", "count": 3 },
-        { "id": "SlimeCondensate", "name": "スライムの液体", "count": 6 }
+        { "id": "TeachingsOfDiligence", "localeName": "「勤労」の教え", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "スライムの液体", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 2 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 3 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 4 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 4 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 6 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 6 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 9 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 9 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 4 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 6 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 9 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 2 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 12 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "旋火輪",
+    "name": "Pyronado",
+    "localeName": "旋火輪",
     "desc": "炎と槍をコントロールするコツで、自身を中心に素早く回転する旋火輪を投げ出す。\n旋火輪はキャラクターと共に移動し、経路上の敵に<color=#FF9999FF>炎元素ダメージ</color>を与える。\n\n<i>火力が足りない、全然足りないよ。</i>",
     "cd": 20,
     "energyCost": 80,
-    "paramTpls": [
-      "振り回しによる1段ダメージ|{param1:F1P}",
-      "振り回しによる2段ダメージ|{param2:F1P}",
-      "振り回しによる3段ダメージ|{param3:P}",
-      "旋火輪ダメージ|{param4:P}",
-      "継続時間|{param5:F1}秒",
-      "クールタイム|{param6:F1}秒",
-      "元素エネルギー|{param7:I}"
-    ],
+    "paramTpls": ["振り回しによる1段ダメージ|{param1:F1P}", "振り回しによる2段ダメージ|{param2:F1P}", "振り回しによる3段ダメージ|{param3:P}", "旋火輪ダメージ|{param4:P}", "継続時間|{param5:F1}秒", "クールタイム|{param6:F1}秒", "元素エネルギー|{param7:I}"],
     "paramVals": [
       [0.72, 0.88, 1.096, 1.12, 10, 20, 80],
       [0.774, 0.946, 1.1782, 1.204, 10, 20, 80],
@@ -190,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfDiligence", "name": "「勤労」の教え", "count": 3 },
-        { "id": "SlimeCondensate", "name": "スライムの液体", "count": 6 }
+        { "id": "TeachingsOfDiligence", "localeName": "「勤労」の教え", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "スライムの液体", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 2 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 3 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 4 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 4 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 6 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 6 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 9 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 9 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 4 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 6 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 9 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 2 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 12 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "通常攻撃·料理技法",
+    "name": "NormalAttackDoughFu",
+    "localeName": "通常攻撃·料理技法",
     "desc": "<color=#FFD780FF>通常攻撃</color>\n槍による最大5段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費して前方に突進し、経路上の敵にダメージを与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
     "cd": 0,
     "paramTpls": [
@@ -266,76 +261,67 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfDiligence", "name": "「勤労」の教え", "count": 3 },
-        { "id": "SlimeCondensate", "name": "スライムの液体", "count": 6 }
+        { "id": "TeachingsOfDiligence", "localeName": "「勤労」の教え", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "スライムの液体", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 2 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 3 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 4 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 4 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 6 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 6 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 9 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 9 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 4 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 6 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 9 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 2 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 12 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "交差する炎", "desc": "グゥオパァーの噴火距離+20%。", "unlock": 1, "values": [0.2] },
-    {
-      "name": "激辛唐辛子",
-      "desc": "<color=#FFD780FF>グゥオパァー出撃</color>効果終了時、グゥオパァーは消えた位置に唐辛子を残す。唐辛子を拾うと、攻撃力+10%。継続時間10秒。",
-      "unlock": 4,
-      "values": [0.1, 10]
-    },
-    { "name": "万民堂のシェフ", "desc": "攻撃系料理を完璧調理した時、12%の確率で料理を2倍獲得する。" }
+    { "name": "Crossfire", "localeName": "交差する炎", "desc": "グゥオパァーの噴火距離+20%。", "unlock": 1, "values": [0.2] },
+    { "name": "BewareItsSuperHot", "localeName": "激辛唐辛子", "desc": "<color=#FFD780FF>グゥオパァー出撃</color>効果終了時、グゥオパァーは消えた位置に唐辛子を残す。唐辛子を拾うと、攻撃力+10%。継続時間10秒。", "unlock": 4, "values": [0.1, 10] },
+    { "name": "ChefDeCuisine", "localeName": "万民堂のシェフ", "desc": "攻撃系料理を完璧調理した時、12%の確率で料理を2倍獲得する。" }
   ],
   "c13ns": [
-    { "name": "外カリ中フワ", "desc": "グゥオパァーに攻撃された敵の<color=#FF9999FF>炎元素耐性</color>-15%、継続時間6秒。", "values": [0.15, 6] },
-    {
-      "name": "強火と油",
-      "desc": "通常攻撃の最後の1撃で敵に2秒継続する爆縮効果を与える。効果終了時に爆発し、敵に攻撃力75%分の<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。",
-      "values": [2, 2, 0.75]
-    },
-    { "name": "武火調理", "desc": "<color=#FFD780FF>旋火輪</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "弱火でじっくり", "desc": "<color=#FFD780FF>旋火輪</color>の継続時間+40%。", "values": [0.4] },
-    { "name": "凶猛なグゥオパァー", "desc": "<color=#FFD780FF>グゥオパァー出撃</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "竜巻旋火輪", "desc": "<color=#FFD780FF>旋火輪</color>継続中、チーム全員の<color=#FF9999FF>炎元素ダメージ</color>+15%。", "values": [0.15] }
+    { "name": "CrispyOutsideTenderInside", "localeName": "外カリ中フワ", "desc": "グゥオパァーに攻撃された敵の<color=#FF9999FF>炎元素耐性</color>-15%、継続時間6秒。", "values": [0.15, 6] },
+    { "name": "OilMeetsFire", "localeName": "強火と油", "desc": "通常攻撃の最後の1撃で敵に2秒継続する爆縮効果を与える。効果終了時に爆発し、敵に攻撃力75%分の<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。", "values": [2, 2, 0.75] },
+    { "name": "Deepfry", "localeName": "武火調理", "desc": "<color=#FFD780FF>旋火輪</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "Slowbake", "localeName": "弱火でじっくり", "desc": "<color=#FFD780FF>旋火輪</color>の継続時間+40%。", "values": [0.4] },
+    { "name": "GuobaMad", "localeName": "凶猛なグゥオパァー", "desc": "<color=#FFD780FF>グゥオパァー出撃</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "CondensedPyronado", "localeName": "竜巻旋火輪", "desc": "<color=#FFD780FF>旋火輪</color>継続中、チーム全員の<color=#FF9999FF>炎元素ダメージ</color>+15%。", "values": [0.15] }
   ],
   "overviewItems": [
-    { "id": "AgnidusAgateGemstone", "name": "炎願のアゲート", "rarity": 5 },
-    { "id": "EverflameSeed", "name": "常燃の火種", "rarity": 4 },
-    { "id": "JueyunChili", "name": "絶雲の唐辛子" },
-    { "id": "SlimeConcentrate", "name": "スライムのピュレ", "rarity": 3 },
-    { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "rarity": 4 },
-    { "id": "DvalinsClaw", "name": "東風の爪", "rarity": 5 }
+    { "id": "AgnidusAgateGemstone", "localeName": "炎願のアゲート", "rarity": 5 },
+    { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4 },
+    { "id": "JueyunChili", "localeName": "絶雲の唐辛子" },
+    { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3 },
+    { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4 },
+    { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5 }
   ]
 }

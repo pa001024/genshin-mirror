@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "AgnidusAgateSliver", "name": "炎願のアゲート·砕屑", "count": 1 },
-        { "id": "SmallLampGrass", "name": "イグサ", "count": 3 },
-        { "id": "FirmArrowhead", "name": "牢固な矢先", "count": 3 }
+        { "id": "AgnidusAgateSliver", "localeName": "炎願のアゲート·砕屑", "rarity": 2, "count": 1 },
+        { "id": "SmallLampGrass", "localeName": "イグサ", "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "牢固な矢先", "rarity": 1, "count": 3 }
       ],
       "HP": 592.6,
       "ATK": 13.969,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "炎願のアゲート·欠片", "count": 3 },
-        { "id": "EverflameSeed", "name": "常燃の火種", "count": 2 },
-        { "id": "SmallLampGrass", "name": "イグサ", "count": 10 },
-        { "id": "FirmArrowhead", "name": "牢固な矢先", "count": 15 }
+        { "id": "AgnidusAgateFragment", "localeName": "炎願のアゲート·欠片", "rarity": 3, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 2 },
+        { "id": "SmallLampGrass", "localeName": "イグサ", "count": 10 },
+        { "id": "FirmArrowhead", "localeName": "牢固な矢先", "rarity": 1, "count": 15 }
       ],
       "HP": 1013.7,
       "ATK": 23.894,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "炎願のアゲート·欠片", "count": 6 },
-        { "id": "EverflameSeed", "name": "常燃の火種", "count": 4 },
-        { "id": "SmallLampGrass", "name": "イグサ", "count": 20 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 12 }
+        { "id": "AgnidusAgateFragment", "localeName": "炎願のアゲート·欠片", "rarity": 3, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 4 },
+        { "id": "SmallLampGrass", "localeName": "イグサ", "count": 20 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 12 }
       ],
       "HP": 1575.1,
       "ATK": 37.128,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "炎願のアゲート·塊", "count": 3 },
-        { "id": "EverflameSeed", "name": "常燃の火種", "count": 8 },
-        { "id": "SmallLampGrass", "name": "イグサ", "count": 30 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 18 }
+        { "id": "AgnidusAgateChunk", "localeName": "炎願のアゲート·塊", "rarity": 4, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 8 },
+        { "id": "SmallLampGrass", "localeName": "イグサ", "count": 30 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 18 }
       ],
       "HP": 1996.1,
       "ATK": 47.053,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "炎願のアゲート·塊", "count": 6 },
-        { "id": "EverflameSeed", "name": "常燃の火種", "count": 12 },
-        { "id": "SmallLampGrass", "name": "イグサ", "count": 45 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 12 }
+        { "id": "AgnidusAgateChunk", "localeName": "炎願のアゲート·塊", "rarity": 4, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 12 },
+        { "id": "SmallLampGrass", "localeName": "イグサ", "count": 45 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 12 }
       ],
       "HP": 2417.2,
       "ATK": 56.979,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "AgnidusAgateGemstone", "name": "炎願のアゲート", "count": 6 },
-        { "id": "EverflameSeed", "name": "常燃の火種", "count": 20 },
-        { "id": "SmallLampGrass", "name": "イグサ", "count": 60 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 24 }
+        { "id": "AgnidusAgateGemstone", "localeName": "炎願のアゲート", "rarity": 5, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 20 },
+        { "id": "SmallLampGrass", "localeName": "イグサ", "count": 60 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 24 }
       ],
       "HP": 2838.3,
       "ATK": 66.904,
@@ -92,7 +92,8 @@
   "ascensionType": 7,
   "element": 6,
   "elemSkill": {
-    "name": "爆弾人形",
+    "name": "ExplosivePuppet",
+    "localeName": "爆弾人形",
     "desc": "頼もしいウサギ伯爵の出番。\n\n<color=#FFD780FF>ウサギ伯爵</color>\n·周囲の敵を挑発し、攻撃を引き付ける。\n耐久度はアンバーのHP上限によって決まる。\n·破壊された時または継続時間が終了した時に爆発し、<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。\n\n<color=#FFD780FF>長押し</color>\n投擲方向を調整できる。\n投擲距離は長押しする時間によって増加する。\n\n<i>ウサギ伯爵の家系には長い歴史があるが、ウサギ893世からアンバーは数えるのをやめた。</i>",
     "cd": 15,
     "paramTpls": ["HP継承|{param1:F1P}", "爆発ダメージ|{param2:P}", "クールタイム|{param4:F1}秒"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "「自由」の教え", "count": 3 },
-        { "id": "FirmArrowhead", "name": "牢固な矢先", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」の教え", "rarity": 2, "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "牢固な矢先", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 2 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 2 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 4 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 4 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 6 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 6 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 9 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 9 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 4 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 4 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 4 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 4 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 6 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 6 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 6 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 6 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 12 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 9 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 12 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 9 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 16 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 12 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 16 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 12 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "矢の雨",
+    "name": "FieryRain",
+    "localeName": "矢の雨",
     "desc": "前方に炎の矢の雨を放ち、<color=#FF9999FF>炎元素範囲ダメージ</color>を持続的に与える。\n\n<i>情熱的なアンバーは本当に熱い。</i>",
     "cd": 12,
     "energyCost": 40,
@@ -182,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "「自由」の教え", "count": 3 },
-        { "id": "FirmArrowhead", "name": "牢固な矢先", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」の教え", "rarity": 2, "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "牢固な矢先", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 2 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 2 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 4 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 4 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 6 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 6 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 9 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 9 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 4 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 4 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 4 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 4 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 6 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 6 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 6 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 6 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 12 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 9 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 12 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 9 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 16 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 12 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 16 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 12 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "通常攻撃·一流射手",
+    "name": "NormalAttackSharpshooter",
+    "localeName": "通常攻撃·一流射手",
     "desc": "<color=#FFD780FF>通常攻撃</color>\n最高5段の連続射撃を行う。\n\n<color=#FFD780FF>重撃</color>\nダメージがより高く、より精確な<color=#FFD780FF>狙い撃ち</color>を発動する。\n照準時、烈炎を矢先に凝集させ、烈炎に満ちた矢で敵に<color=#FF9999FF>炎元素ダメージ</color>を与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。",
     "cd": 0,
     "paramTpls": [
@@ -258,71 +261,67 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "「自由」の教え", "count": 3 },
-        { "id": "FirmArrowhead", "name": "牢固な矢先", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」の教え", "rarity": 2, "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "牢固な矢先", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 2 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 2 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 4 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 4 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 6 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 6 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 9 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 9 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 4 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 4 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 4 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 4 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 6 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 6 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 6 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 6 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 12 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 9 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 12 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 9 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 16 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 12 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 16 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 12 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "百発百中！", "desc": "<color=#FFD780FF>矢の雨</color>の会心率+10%、影響範囲+30%。", "unlock": 1, "values": [0.1, 0.3] },
-    { "name": "制圧射撃", "desc": "狙い撃ちが弱点に命中すると、攻撃力+15%、継続時間10秒。", "unlock": 4, "values": [0.15, 10] },
-    { "name": "飛行チャンピオン", "desc": "チーム内の自身のキャラクター全員が滑翔に消費するスタミナ-20%。\n同じ効果を持つ固有天赋との重ね掛け不可。" }
+    { "name": "EveryArrowFindsItsTarget", "localeName": "百発百中！", "desc": "<color=#FFD780FF>矢の雨</color>の会心率+10%、影響範囲+30%。", "unlock": 1, "values": [0.1, 0.3] },
+    { "name": "PreciseShot", "localeName": "制圧射撃", "desc": "狙い撃ちが弱点に命中すると、攻撃力+15%、継続時間10秒。", "unlock": 4, "values": [0.15, 10] },
+    { "name": "GlidingChampion", "localeName": "飛行チャンピオン", "desc": "チーム内の自身のキャラクター全員が滑翔に消費するスタミナ-20%。\n同じ効果を持つ固有天赋との重ね掛け不可。" }
   ],
   "c13ns": [
-    { "name": "一挙双擒！", "desc": "<color=#FFD780FF>狙い撃ち</color>する時、矢を連続で2本放つ。2本目の矢は元の矢の20%のダメージを与える。", "values": [0.2] },
-    {
-      "name": "一触即発",
-      "desc": "ウサギ伯爵が改良された！フルチャージの狙い撃ちがウサギ伯爵の足に命中するとウサギ伯爵を直接起爆させることができる。\nこの方法で自らウサギ伯爵を起爆した場合、追加で200%のダメージを与える。",
-      "values": [2]
-    },
-    { "name": "燃やせ！", "desc": "<color=#FFD780FF>矢の雨</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "ただの人形じゃない", "desc": "<color=#FFD780FF>爆弾人形</color>のクールタイム-20%、使用可能回数+1。" },
-    { "name": "ウサギ伯爵だよ！", "desc": "<color=#FFD780FF>爆弾人形</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "野火の如く", "desc": "<color=#FFD780FF>矢の雨</color>を発動した10秒間、チーム全員の移動速度+15%、攻撃力+15%。", "values": [0.15, 0.15, 10] }
+    { "name": "OneArrowToRuleThemAll", "localeName": "一挙双擒！", "desc": "<color=#FFD780FF>狙い撃ち</color>する時、矢を連続で2本放つ。2本目の矢は元の矢の20%のダメージを与える。", "values": [0.2] },
+    { "name": "BunnyTriggered", "localeName": "一触即発", "desc": "ウサギ伯爵が改良された！フルチャージの狙い撃ちがウサギ伯爵の足に命中するとウサギ伯爵を直接起爆させることができる。\nこの方法で自らウサギ伯爵を起爆した場合、追加で200%のダメージを与える。", "values": [2] },
+    { "name": "ItBurns", "localeName": "燃やせ！", "desc": "<color=#FFD780FF>矢の雨</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "ItsNotJustAnyDoll", "localeName": "ただの人形じゃない", "desc": "<color=#FFD780FF>爆弾人形</color>のクールタイム-20%、使用可能回数+1。" },
+    { "name": "ItsBaronBunny", "localeName": "ウサギ伯爵だよ！", "desc": "<color=#FFD780FF>爆弾人形</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "Wildfire", "localeName": "野火の如く", "desc": "<color=#FFD780FF>矢の雨</color>を発動した10秒間、チーム全員の移動速度+15%、攻撃力+15%。", "values": [0.15, 0.15, 10] }
   ],
   "overviewItems": [
-    { "id": "AgnidusAgateGemstone", "name": "炎願のアゲート", "rarity": 5 },
-    { "id": "EverflameSeed", "name": "常燃の火種", "rarity": 4 },
-    { "id": "SmallLampGrass", "name": "イグサ" },
-    { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "rarity": 3 },
-    { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "rarity": 4 },
-    { "id": "DvalinsSigh", "name": "東風の吐息", "rarity": 5 }
+    { "id": "AgnidusAgateGemstone", "localeName": "炎願のアゲート", "rarity": 5 },
+    { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4 },
+    { "id": "SmallLampGrass", "localeName": "イグサ" },
+    { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3 },
+    { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4 },
+    { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5 }
   ]
 }

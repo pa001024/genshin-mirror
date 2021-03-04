@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "AgnidusAgateSliver", "name": "Agnidus Agate Sliver", "count": 1 },
-        { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "Recruit's Insignia", "count": 3 }
+        { "id": "AgnidusAgateSliver", "localeName": "Agnidus Agate Sliver", "rarity": 2, "count": 1 },
+        { "id": "SmallLampGrass", "localeName": "Small Lamp Grass", "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "Recruit's Insignia", "rarity": 1, "count": 3 }
       ],
       "HP": 866.43,
       "ATK": 22.349,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "Agnidus Agate Fragment", "count": 3 },
-        { "id": "EverflameSeed", "name": "Everflame Seed", "count": 2 },
-        { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 10 },
-        { "id": "RecruitsInsignia", "name": "Recruit's Insignia", "count": 15 }
+        { "id": "AgnidusAgateFragment", "localeName": "Agnidus Agate Fragment", "rarity": 3, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4, "count": 2 },
+        { "id": "SmallLampGrass", "localeName": "Small Lamp Grass", "count": 10 },
+        { "id": "RecruitsInsignia", "localeName": "Recruit's Insignia", "rarity": 1, "count": 15 }
       ],
       "HP": 1482,
       "ATK": 38.229,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "Agnidus Agate Fragment", "count": 6 },
-        { "id": "EverflameSeed", "name": "Everflame Seed", "count": 4 },
-        { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 20 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 12 }
+        { "id": "AgnidusAgateFragment", "localeName": "Agnidus Agate Fragment", "rarity": 3, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4, "count": 4 },
+        { "id": "SmallLampGrass", "localeName": "Small Lamp Grass", "count": 20 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 12 }
       ],
       "HP": 2302.9,
       "ATK": 59.402,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "Agnidus Agate Chunk", "count": 3 },
-        { "id": "EverflameSeed", "name": "Everflame Seed", "count": 8 },
-        { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 30 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 18 }
+        { "id": "AgnidusAgateChunk", "localeName": "Agnidus Agate Chunk", "rarity": 4, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4, "count": 8 },
+        { "id": "SmallLampGrass", "localeName": "Small Lamp Grass", "count": 30 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 18 }
       ],
       "HP": 2918.5,
       "ATK": 75.282,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "Agnidus Agate Chunk", "count": 6 },
-        { "id": "EverflameSeed", "name": "Everflame Seed", "count": 12 },
-        { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 45 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 12 }
+        { "id": "AgnidusAgateChunk", "localeName": "Agnidus Agate Chunk", "rarity": 4, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4, "count": 12 },
+        { "id": "SmallLampGrass", "localeName": "Small Lamp Grass", "count": 45 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 12 }
       ],
       "HP": 3534.1,
       "ATK": 91.162,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "AgnidusAgateGemstone", "name": "Agnidus Agate Gemstone", "count": 6 },
-        { "id": "EverflameSeed", "name": "Everflame Seed", "count": 20 },
-        { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 60 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 24 }
+        { "id": "AgnidusAgateGemstone", "localeName": "Agnidus Agate Gemstone", "rarity": 5, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4, "count": 20 },
+        { "id": "SmallLampGrass", "localeName": "Small Lamp Grass", "count": 60 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 24 }
       ],
       "HP": 4149.7,
       "ATK": 107.04,
@@ -92,7 +92,8 @@
   "ascensionType": 12,
   "element": 6,
   "elemSkill": {
-    "name": "Searing Onslaught",
+    "name": "SearingOnslaught",
+    "localeName": "Searing Onslaught",
     "desc": "Performs a forward slash that deals <color=#FF9999FF>Pyro DMG</color>.\n\nThis skill can be used 3 times consecutively. Enters CD if not cast again within a short period.\n\n<i>The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty.</i>",
     "cd": 10,
     "paramTpls": ["1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-hit DMG|{param3:P}", "CD|{param4:F1}s"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "Teachings of Resistance", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "Recruit's Insignia", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "Teachings of Resistance", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "Recruit's Insignia", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 2 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 4 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 6 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 9 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 4 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 4 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 6 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 6 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 12 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 9 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 16 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 12 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
     "name": "Dawn",
+    "localeName": "Dawn",
     "desc": "Releases intense flames to knock nearby opponents back, dealing <color=#FF9999FF>Pyro DMG</color>. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive <color=#FF9999FF>Pyro DMG</color> to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of <color=#FF9999FF>AoE Pyro DMG</color>.\nThe searing flames that run down his blade cause it to be infused with <color=#FF9999FF>Pyro</color>.\n\n<i>The only reason to walk in the darkness is to light it up. Behold, that fleeing light in the dead of night is the herald of the coming dawn.</i>",
     "cd": 12,
     "energyCost": 40,
@@ -182,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "Teachings of Resistance", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "Recruit's Insignia", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "Teachings of Resistance", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "Recruit's Insignia", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 2 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 4 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 6 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 9 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 4 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 4 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 6 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 6 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 12 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 9 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 16 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 12 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "Normal Attack: Tempered Sword",
+    "name": "NormalAttackTemperedSword",
+    "localeName": "Normal Attack: Tempered Sword",
     "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 4 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nDrains Stamina over time to perform continuous slashes.\nAt end of the sequence, perform a more powerful slash.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
     "cd": 0,
     "paramTpls": [
@@ -259,84 +262,83 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "Teachings of Resistance", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "Recruit's Insignia", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "Teachings of Resistance", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "Recruit's Insignia", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 2 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 4 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 6 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 9 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 4 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 4 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 6 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 6 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 12 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 9 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 16 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 12 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "Relentless", "desc": "Diluc's Charged Attack Stamina Cost is decreased by 50%, and its duration is increased by 3s.", "unlock": 1, "values": [0.5, 3] },
+    { "name": "Relentless", "localeName": "Relentless", "desc": "Diluc's Charged Attack Stamina Cost is decreased by 50%, and its duration is increased by 3s.", "unlock": 1, "values": [0.5, 3] },
     {
-      "name": "Blessing of Phoenix",
+      "name": "BlessingOfPhoenix",
+      "localeName": "Blessing of Phoenix",
       "desc": "The <color=#FF9999FF>Pyro Infusion</color> provided by <color=#FFD780FF>Dawn</color> lasts for 4s longer. Additionally, Diluc gains 20% <color=#FF9999FF>Pyro DMG Bonus</color> during the duration of this effect.",
       "unlock": 4,
       "values": [4, 0.2]
     },
-    { "name": "Tradition of the Dawn Knight", "desc": "Refunds 15% of the ore used when crafting Claymore-type weapons." }
+    { "name": "TraditionOfTheDawnKnight", "localeName": "Tradition of the Dawn Knight", "desc": "Refunds 15% of the ore used when crafting Claymore-type weapons." }
   ],
   "c13ns": [
-    { "name": "Conviction", "desc": "Diluc deals 15% more DMG to opponents whose HP is above 50%.", "values": [0.15] },
+    { "name": "Conviction", "localeName": "Conviction", "desc": "Diluc deals 15% more DMG to opponents whose HP is above 50%.", "values": [0.15] },
+    { "name": "SearingEmber", "localeName": "Searing Ember", "desc": "When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\nThis effect can stack up to 3 times and can only occur once every 1.5s.", "values": [0.1, 0.05, 10, 3, 1.5] },
+    { "name": "FireAndSteel", "localeName": "Fire and Steel", "desc": "Increases the Level of <color=#FFD780FF>Searing Onslaught</color> by 3.\nMaximum upgrade level is 15." },
     {
-      "name": "Searing Ember",
-      "desc": "When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\nThis effect can stack up to 3 times and can only occur once every 1.5s.",
-      "values": [0.1, 0.05, 10, 3, 1.5]
-    },
-    { "name": "Fire and Steel", "desc": "Increases the Level of <color=#FFD780FF>Searing Onslaught</color> by 3.\nMaximum upgrade level is 15." },
-    {
-      "name": "Flowing Flame",
+      "name": "FlowingFlame",
+      "localeName": "Flowing Flame",
       "desc": "Casting <color=#FFD780FF>Searing Onslaught</color> in rhythm greatly increases damage dealt.\n2s after casting <color=#FFD780FF>Searing Onslaught</color>, casting the next Searing Onslaught in the combo deals 40% additional DMG. This effect lasts for 2s.",
       "values": [0.4]
     },
-    { "name": "Phoenix, Harbinger of Dawn", "desc": "Increases the Level of <color=#FFD780FF>Dawn</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "PhoenixHarbingerOfDawn", "localeName": "Phoenix, Harbinger of Dawn", "desc": "Increases the Level of <color=#FFD780FF>Dawn</color> by 3.\nMaximum upgrade level is 15." },
     {
-      "name": "Flaming Sword, Nemesis of the Dark",
+      "name": "FlamingSwordNemesisOfTheDark",
+      "localeName": "Flaming Sword, Nemesis of the Dark",
       "desc": "After casting <color=#FFD780FF>Searing Onslaught</color>, the next 2 Normal Attacks within the next 6s will have their DMG and ATK SPD increased by 30%.\nAdditionally, Searing Onslaught will not interrupt the Normal Attack combo.",
       "values": [6, 0.3, 0.3]
     }
   ],
   "overviewItems": [
-    { "id": "AgnidusAgateGemstone", "name": "Agnidus Agate Gemstone", "rarity": 5 },
-    { "id": "EverflameSeed", "name": "Everflame Seed", "rarity": 4 },
-    { "id": "SmallLampGrass", "name": "Small Lamp Grass" },
-    { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "rarity": 3 },
-    { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "rarity": 4 },
-    { "id": "DvalinsPlume", "name": "Dvalin's Plume", "rarity": 5 }
+    { "id": "AgnidusAgateGemstone", "localeName": "Agnidus Agate Gemstone", "rarity": 5 },
+    { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4 },
+    { "id": "SmallLampGrass", "localeName": "Small Lamp Grass" },
+    { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3 },
+    { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4 },
+    { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5 }
   ]
 }

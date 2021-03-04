@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "AgnidusAgateSliver", "name": "炎願のアゲート·砕屑", "count": 1 },
-        { "id": "Violetgrass", "name": "琉璃袋", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "宝探しの鴉マーク", "count": 3 }
+        { "id": "AgnidusAgateSliver", "localeName": "炎願のアゲート·砕屑", "rarity": 2, "count": 1 },
+        { "id": "Violetgrass", "localeName": "琉璃袋", "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "rarity": 1, "count": 3 }
       ],
       "HP": 701.59,
       "ATK": 15.565,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "炎願のアゲート·欠片", "count": 3 },
-        { "id": "EverflameSeed", "name": "常燃の火種", "count": 2 },
-        { "id": "Violetgrass", "name": "琉璃袋", "count": 10 },
-        { "id": "TreasureHoarderInsignia", "name": "宝探しの鴉マーク", "count": 15 }
+        { "id": "AgnidusAgateFragment", "localeName": "炎願のアゲート·欠片", "rarity": 3, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 2 },
+        { "id": "Violetgrass", "localeName": "琉璃袋", "count": 10 },
+        { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "rarity": 1, "count": 15 }
       ],
       "HP": 1200.1,
       "ATK": 26.625,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "炎願のアゲート·欠片", "count": 6 },
-        { "id": "EverflameSeed", "name": "常燃の火種", "count": 4 },
-        { "id": "Violetgrass", "name": "琉璃袋", "count": 20 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 12 }
+        { "id": "AgnidusAgateFragment", "localeName": "炎願のアゲート·欠片", "rarity": 3, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 4 },
+        { "id": "Violetgrass", "localeName": "琉璃袋", "count": 20 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 12 }
       ],
       "HP": 1864.8,
       "ATK": 41.371,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "炎願のアゲート·塊", "count": 3 },
-        { "id": "EverflameSeed", "name": "常燃の火種", "count": 8 },
-        { "id": "Violetgrass", "name": "琉璃袋", "count": 30 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 18 }
+        { "id": "AgnidusAgateChunk", "localeName": "炎願のアゲート·塊", "rarity": 4, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 8 },
+        { "id": "Violetgrass", "localeName": "琉璃袋", "count": 30 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 18 }
       ],
       "HP": 2363.2,
       "ATK": 52.431,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "炎願のアゲート·塊", "count": 6 },
-        { "id": "EverflameSeed", "name": "常燃の火種", "count": 12 },
-        { "id": "Violetgrass", "name": "琉璃袋", "count": 45 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 12 }
+        { "id": "AgnidusAgateChunk", "localeName": "炎願のアゲート·塊", "rarity": 4, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 12 },
+        { "id": "Violetgrass", "localeName": "琉璃袋", "count": 45 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 12 }
       ],
       "HP": 2861.7,
       "ATK": 63.491,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "AgnidusAgateGemstone", "name": "炎願のアゲート", "count": 6 },
-        { "id": "EverflameSeed", "name": "常燃の火種", "count": 20 },
-        { "id": "Violetgrass", "name": "琉璃袋", "count": 60 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 24 }
+        { "id": "AgnidusAgateGemstone", "localeName": "炎願のアゲート", "rarity": 5, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 20 },
+        { "id": "Violetgrass", "localeName": "琉璃袋", "count": 60 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 24 }
       ],
       "HP": 3360.2,
       "ATK": 74.55,
@@ -92,18 +92,11 @@
   "ascensionType": 7,
   "element": 6,
   "elemSkill": {
-    "name": "情熱の薙ぎ払い",
+    "name": "SweepingFervor",
+    "localeName": "情熱の薙ぎ払い",
     "desc": "楽器を振り回し、周囲の敵に<color=#FF9999FF>炎元素ダメージ</color>を与え、「観客」の「情熱」でシールドを生成する。\nシールドのダメージ吸収量は辛炎の防御力によって決まり、シールドのレベルは命中した敵の数によって変わる。\n·敵に命中しなかった又は1名の敵に命中した場合：Lv.1シールド·イントロのリズム\n·2名の敵に命中した場合：Lv.2シールド·指揮のリズム\n·3名またはそれ以上の敵に命中した場合：Lv.3シールド·舞のリズムを生成する。シールドはダメージを吸収するほか、一定時間の間隔で周囲の敵に<color=#FF9999FF>炎元素ダメージ</color>を与える。\n\nシールドは以下の特性を持つ：\n·発動する時、辛炎に<color=#FF9999FF>炎元素付着</color>を与える。\n·<color=#FF9999FF>炎元素ダメージ</color>に対して、250%の吸収効果がある。\n\n<i>これらの火花は演奏スキルを極めた結果であり、ただの物理現象で、神の目とは関係ないと辛炎は主張している。</i>",
     "cd": 18,
-    "paramTpls": [
-      "振り回しダメージ|{param1:P}",
-      "Lv.1シールド吸収量|{param2:F1P}防御力+{param3:I}",
-      "Lv.2シールド吸収量|{param4:F1P}防御力+{param5:I}",
-      "Lv.3シールド吸収量|{param6:F1P}防御力+{param7:I}",
-      "継続ダメージ|{param8:F1P}",
-      "シールド継続時間|{param9:F1}秒",
-      "クールタイム|{param10:F1}秒"
-    ],
+    "paramTpls": ["振り回しダメージ|{param1:P}", "Lv.1シールド吸収量|{param2:F1P}防御力+{param3:I}", "Lv.2シールド吸収量|{param4:F1P}防御力+{param5:I}", "Lv.3シールド吸収量|{param6:F1P}防御力+{param7:I}", "継続ダメージ|{param8:F1P}", "シールド継続時間|{param9:F1}秒", "クールタイム|{param10:F1}秒"],
     "paramVals": [
       [1.696, 1.0404, 500.55, 1.224, 588.89, 1.44, 692.81, 0.336, 12, 18],
       [1.8232, 1.1184, 550.61, 1.3158, 647.78, 1.548, 762.1, 0.3612, 12, 18],
@@ -123,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfGold", "name": "「黄金」の教え", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "宝探しの鴉マーク", "count": 6 }
+        { "id": "TeachingsOfGold", "localeName": "「黄金」の教え", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 2 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 3 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 4 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 4 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 6 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 6 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 9 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 9 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 4 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 4 },
-        { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 4 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 6 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 6 },
-        { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 6 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 12 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 9 },
-        { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "count": 2 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 9 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 16 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 12 },
-        { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 12 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "反逆の弾き",
+    "name": "RiffRevolution",
+    "localeName": "反逆の弾き",
     "desc": "弦を素早く弾き、音波を放出して敵をノックバックする。周囲の敵に物理ダメージを与え、「舞台」の雰囲気を盛り上げる。\n雰囲気が熱さが烈焔を引き起こし、周囲の敵に<color=#FF9999FF>炎元素ダメージ</color>を持続的に与える。\n\n<i>この演出はライブの終わりに必ずやる定番だったが、現在はもうやめている。その理由は安全面の考慮ではなく、もし「アンコール」をされたら、これ以上完璧なエンディングがないからである。</i>",
     "cd": 15,
     "energyCost": 60,
@@ -190,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfGold", "name": "「黄金」の教え", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "宝探しの鴉マーク", "count": 6 }
+        { "id": "TeachingsOfGold", "localeName": "「黄金」の教え", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 2 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 3 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 4 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 4 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 6 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 6 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 9 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 9 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 4 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 4 },
-        { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 4 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 6 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 6 },
-        { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 6 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 12 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 9 },
-        { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "count": 2 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 9 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 16 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 12 },
-        { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 12 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "通常攻撃·炎舞",
+    "name": "NormalAttackDanceOnFire",
+    "localeName": "通常攻撃·炎舞",
     "desc": "<color=#FFD780FF>通常攻撃</color>\n最大4段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n持続的にスタミナを消費し、大剣を振り回して周囲の敵を攻撃する。\n重撃が終了した時に、さらに強力な攻撃を1回放つ。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
     "cd": 0,
     "paramTpls": [
@@ -267,71 +262,72 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfGold", "name": "「黄金」の教え", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "宝探しの鴉マーク", "count": 6 }
+        { "id": "TeachingsOfGold", "localeName": "「黄金」の教え", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 2 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 3 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 4 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 4 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 6 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 6 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 9 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 9 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 4 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 4 },
-        { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 4 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 6 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 6 },
-        { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 6 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 12 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 9 },
-        { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "count": 2 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 9 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 16 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 12 },
-        { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 12 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
     {
-      "name": "「観客いなくても演奏するのだ…」",
+      "name": "TheShowGoesOnEvenWithoutAnAudience",
+      "localeName": "「観客いなくても演奏するのだ…」",
       "desc": "<color=#FFD780FF>情熱の薙ぎ払い</color>のシールド発動に必要な命中数を減少する：\n·Lv.2シールド·指揮のリズム：1名の敵に命中する。\n·Lv.3シールド·舞のリズム：2名の敵に命中する。",
       "unlock": 1
     },
-    { "name": "「…これこそがロックだ！」", "desc": "<color=#FFD780FF>情熱の薙ぎ払い</color>のシールドが存在する時、キャラクターが与える物理ダメージ+15%。", "unlock": 4, "values": [0.15] },
-    { "name": "タフレシピ", "desc": "防御系料理を完璧調理した時、12%の確率で料理を2倍獲得する。" }
+    { "name": "NowThatsRockNRoll", "localeName": "「…これこそがロックだ！」", "desc": "<color=#FFD780FF>情熱の薙ぎ払い</color>のシールドが存在する時、キャラクターが与える物理ダメージ+15%。", "unlock": 4, "values": [0.15] },
+    { "name": "ARadRecipe", "localeName": "タフレシピ", "desc": "防御系料理を完璧調理した時、12%の確率で料理を2倍獲得する。" }
   ],
   "c13ns": [
-    { "name": "絶命の加速", "desc": "会心攻撃が発生した5秒間、通常攻撃と重撃の攻撃速度+12%。\n5秒毎に1回のみ発動可能。", "values": [0.12, 5] },
-    { "name": "オープニング演出", "desc": "<color=#FFD780FF>反逆の弾き</color>による物理ダメージの会心率+100%。さらに発動する時にLv.3シールド·舞のリズムを生成する。", "values": [1] },
-    { "name": "摭分の運指", "desc": "<color=#FFD780FF>情熱の薙ぎ払い</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "リズムの伝染", "desc": "<color=#FFD780FF>情熱の薙ぎ払い</color>の振り回しダメージを受けた敵の物理耐性-15%、継続時間12秒。", "values": [-0.15, 12] },
-    { "name": "アンコールの叫び", "desc": "<color=#FFD780FF>反逆の弾き</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "地獄のシェーク", "desc": "辛炎の重撃によるスタミナ消費-30%。重撃を発動する時、辛炎の防御力50%分の攻撃力が増加する。", "values": [-0.3, 0.5] }
+    { "name": "FatalAcceleration", "localeName": "絶命の加速", "desc": "会心攻撃が発生した5秒間、通常攻撃と重撃の攻撃速度+12%。\n5秒毎に1回のみ発動可能。", "values": [0.12, 5] },
+    { "name": "ImpromptuOpening", "localeName": "オープニング演出", "desc": "<color=#FFD780FF>反逆の弾き</color>による物理ダメージの会心率+100%。さらに発動する時にLv.3シールド·舞のリズムを生成する。", "values": [1] },
+    { "name": "DoubleStop", "localeName": "摭分の運指", "desc": "<color=#FFD780FF>情熱の薙ぎ払い</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "WildfireRhythm", "localeName": "リズムの伝染", "desc": "<color=#FFD780FF>情熱の薙ぎ払い</color>の振り回しダメージを受けた敵の物理耐性-15%、継続時間12秒。", "values": [-0.15, 12] },
+    { "name": "ScreaminForAnEncore", "localeName": "アンコールの叫び", "desc": "<color=#FFD780FF>反逆の弾き</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "RockinInAFlamingWorld", "localeName": "地獄のシェーク", "desc": "辛炎の重撃によるスタミナ消費-30%。重撃を発動する時、辛炎の防御力50%分の攻撃力が増加する。", "values": [-0.3, 0.5] }
   ],
   "overviewItems": [
-    { "id": "AgnidusAgateGemstone", "name": "炎願のアゲート", "rarity": 5 },
-    { "id": "EverflameSeed", "name": "常燃の火種", "rarity": 4 },
-    { "id": "Violetgrass", "name": "琉璃袋" },
-    { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "rarity": 3 },
-    { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "rarity": 4 },
-    { "id": "TuskOfMonocerosCaeli", "name": "呑天の鯨·只角", "rarity": 5 }
+    { "id": "AgnidusAgateGemstone", "localeName": "炎願のアゲート", "rarity": 5 },
+    { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4 },
+    { "id": "Violetgrass", "localeName": "琉璃袋" },
+    { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3 },
+    { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4 },
+    { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5 }
   ]
 }

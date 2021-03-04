@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VayudaTurquoiseSliver", "name": "自在松石碎屑", "count": 1 },
-        { "id": "WindwheelAster", "name": "风车菊", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "骗骗花蜜", "count": 3 }
+        { "id": "VayudaTurquoiseSliver", "localeName": "自在松石碎屑", "rarity": 2, "count": 1 },
+        { "id": "WindwheelAster", "localeName": "风车菊", "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "骗骗花蜜", "rarity": 1, "count": 3 }
       ],
       "HP": 578.98,
       "ATK": 10.643,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VayudaTurquoiseFragment", "name": "自在松石断片", "count": 3 },
-        { "id": "HurricaneSeed", "name": "飓风之种", "count": 2 },
-        { "id": "WindwheelAster", "name": "风车菊", "count": 10 },
-        { "id": "WhopperflowerNectar", "name": "骗骗花蜜", "count": 15 }
+        { "id": "VayudaTurquoiseFragment", "localeName": "自在松石断片", "rarity": 3, "count": 3 },
+        { "id": "HurricaneSeed", "localeName": "飓风之种", "rarity": 4, "count": 2 },
+        { "id": "WindwheelAster", "localeName": "风车菊", "count": 10 },
+        { "id": "WhopperflowerNectar", "localeName": "骗骗花蜜", "rarity": 1, "count": 15 }
       ],
       "HP": 990.36,
       "ATK": 18.205,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VayudaTurquoiseFragment", "name": "自在松石断片", "count": 6 },
-        { "id": "HurricaneSeed", "name": "飓风之种", "count": 4 },
-        { "id": "WindwheelAster", "name": "风车菊", "count": 20 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 12 }
+        { "id": "VayudaTurquoiseFragment", "localeName": "自在松石断片", "rarity": 3, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "飓风之种", "rarity": 4, "count": 4 },
+        { "id": "WindwheelAster", "localeName": "风车菊", "count": 20 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 12 }
       ],
       "HP": 1538.9,
       "ATK": 28.288,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VayudaTurquoiseChunk", "name": "自在松石块", "count": 3 },
-        { "id": "HurricaneSeed", "name": "飓风之种", "count": 8 },
-        { "id": "WindwheelAster", "name": "风车菊", "count": 30 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 18 }
+        { "id": "VayudaTurquoiseChunk", "localeName": "自在松石块", "rarity": 4, "count": 3 },
+        { "id": "HurricaneSeed", "localeName": "飓风之种", "rarity": 4, "count": 8 },
+        { "id": "WindwheelAster", "localeName": "风车菊", "count": 30 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 18 }
       ],
       "HP": 1950.3,
       "ATK": 35.85,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VayudaTurquoiseChunk", "name": "自在松石块", "count": 6 },
-        { "id": "HurricaneSeed", "name": "飓风之种", "count": 12 },
-        { "id": "WindwheelAster", "name": "风车菊", "count": 45 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 12 }
+        { "id": "VayudaTurquoiseChunk", "localeName": "自在松石块", "rarity": 4, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "飓风之种", "rarity": 4, "count": 12 },
+        { "id": "WindwheelAster", "localeName": "风车菊", "count": 45 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 12 }
       ],
       "HP": 2361.6,
       "ATK": 43.412,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VayudaTurquoiseGemstone", "name": "自在松石", "count": 6 },
-        { "id": "HurricaneSeed", "name": "飓风之种", "count": 20 },
-        { "id": "WindwheelAster", "name": "风车菊", "count": 60 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 24 }
+        { "id": "VayudaTurquoiseGemstone", "localeName": "自在松石", "rarity": 5, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "飓风之种", "rarity": 4, "count": 20 },
+        { "id": "WindwheelAster", "localeName": "风车菊", "count": 60 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 24 }
       ],
       "HP": 2773,
       "ATK": 50.975,
@@ -92,7 +92,8 @@
   "ascensionType": 27,
   "element": 1,
   "elemSkill": {
-    "name": "风灵作成·陆叁零捌",
+    "name": "AstableAnemohypostasisCreation6308",
+    "localeName": "风灵作成·陆叁零捌",
     "desc": "召唤出小型风灵，将敌人与物体牵引至风灵所在位置，击飞范围内的敌人，并造成<color=#80FFD7FF>风元素伤害</color>。\n\n<i>说来很不好意思，虽然术式里诞生的元素生命迅速就消散了，但是在冒险里真的很好用。失败的实验也会诞生实用技术。</i>",
     "cd": 15,
     "paramTpls": ["技能伤害|{param1:P}", "冷却时间|{param2:F1}秒"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "「自由」的教导", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "骗骗花蜜", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」的教导", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "骗骗花蜜", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」的指引", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」的指引", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」的指引", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」的指引", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "count": 4 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "count": 6 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "count": 12 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "count": 16 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智识之冕", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "禁·风灵作成·柒伍同构贰型",
+    "name": "ForbiddenCreationIsomer75TypeII",
+    "localeName": "禁·风灵作成·柒伍同构贰型",
     "desc": "砂糖抛出不稳定的烧瓶，生成大型风灵。\n存在期间，大型风灵会持续牵引附近的敌人与物体，击飞附近的敌人，并造成<color=#80FFD7FF>风元素伤害</color>。\n\n<color=#FFD780FF>元素转化</color>\n若风灵在技能持续期间接触了<color=#80C0FFFF>水元素</color>/<color=#FF9999FF>火元素</color>/<color=#99FFFFFF>冰元素</color>/<color=#FFACFFFF>雷元素</color>，则会获得对应元素属性，额外造成该元素的附加伤害。\n元素转化在技能持续期间仅会发生一次。\n\n<i>砂糖也曾经想给每一个不稳态无相之风取名字。但是其世系迅速超过了兔兔伯爵的八百九十三世。</i>",
     "cd": 20,
     "energyCost": 80,
@@ -182,62 +184,54 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "「自由」的教导", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "骗骗花蜜", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」的教导", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "骗骗花蜜", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」的指引", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」的指引", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」的指引", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」的指引", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "count": 4 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "count": 6 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "count": 12 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "count": 16 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智识之冕", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "普通攻击·简式风灵作成",
+    "name": "NormalAttackWindSpiritCreation",
+    "localeName": "普通攻击·简式风灵作成",
     "desc": "<color=#FFD780FF>普通攻击</color>\n进行至多四段的风灵攻击，造成<color=#80FFD7FF>风元素伤害</color>。\n\n<color=#FFD780FF>重击</color>\n消耗一定体力，短暂咏唱后，造成<color=#80FFD7FF>风元素范围伤害</color>。\n\n<color=#FFD780FF>下落攻击</color>\n凝聚风灵的力量，从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成<color=#80FFD7FF>风元素范围伤害</color>。",
     "cd": 0,
-    "paramTpls": [
-      "一段伤害|{param1:F1P}",
-      "二段伤害|{param2:F1P}",
-      "三段伤害|{param3:F1P}",
-      "四段伤害|{param4:F1P}",
-      "重击伤害|{param5:P}",
-      "重击体力消耗|{param6:F1}点",
-      "下坠期间伤害|{param7:F1P}",
-      "低空/高空坠地冲击伤害|{param8:P}/{param9:P}"
-    ],
+    "paramTpls": ["一段伤害|{param1:F1P}", "二段伤害|{param2:F1P}", "三段伤害|{param3:F1P}", "四段伤害|{param4:F1P}", "重击伤害|{param5:P}", "重击体力消耗|{param6:F1}点", "下坠期间伤害|{param7:F1P}", "低空/高空坠地冲击伤害|{param8:P}/{param9:P}"],
     "paramVals": [
       [0.33464, 0.30616, 0.38448, 0.47918, 1.2016, 50, 0.56829, 1.1363, 1.4193],
       [0.35974, 0.32912, 0.41332, 0.51511, 1.2917, 50, 0.61454, 1.2288, 1.5349],
@@ -257,72 +251,67 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "「自由」的教导", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "骗骗花蜜", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」的教导", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "骗骗花蜜", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」的指引", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」的指引", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」的指引", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」的指引", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "count": 4 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "count": 6 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "count": 12 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "count": 16 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智识之冕", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "触媒置换术", "desc": "砂糖触发扩散反应时，使队伍中所有对应元素类型的角色（不包括砂糖自己）元素精通提升50，持续8秒。", "unlock": 1, "values": [50, 8] },
-    {
-      "name": "小小的慧风",
-      "desc": "<color=#FFD780FF>风灵作成·陆叁零捌</color>或<color=#FFD780FF>禁·风灵作成·柒伍同构贰型</color>命中敌人时，基于砂糖元素精通的20%，为队伍中所有角色（不包括砂糖自己）提供元素精通加成，持续8秒。",
-      "unlock": 4,
-      "values": [0.2, 8]
-    },
-    { "name": "不稳定发现", "desc": "合成角色与武器培养素材时，有10%概率获得2倍产出。" }
+    { "name": "CatalystConversion", "localeName": "触媒置换术", "desc": "砂糖触发扩散反应时，使队伍中所有对应元素类型的角色（不包括砂糖自己）元素精通提升50，持续8秒。", "unlock": 1, "values": [50, 8] },
+    { "name": "MollisFavonius", "localeName": "小小的慧风", "desc": "<color=#FFD780FF>风灵作成·陆叁零捌</color>或<color=#FFD780FF>禁·风灵作成·柒伍同构贰型</color>命中敌人时，基于砂糖元素精通的20%，为队伍中所有角色（不包括砂糖自己）提供元素精通加成，持续8秒。", "unlock": 4, "values": [0.2, 8] },
+    { "name": "AstableInvention", "localeName": "不稳定发现", "desc": "合成角色与武器培养素材时，有10%概率获得2倍产出。" }
   ],
   "c13ns": [
-    { "name": "堆叠真空域", "desc": "<color=#FFD780FF>风灵作成·陆叁零捌</color>的可使用次数增加1次。" },
-    { "name": "不羁型贝特", "desc": "<color=#FFD780FF>禁·风灵作成·柒伍同构贰型</color>的技能持续时间延长2秒。", "values": [2] },
-    { "name": "零失误少女", "desc": "<color=#FFD780FF>风灵作成·陆叁零捌</color>的技能等级提高3级。\n至多提升至15级。" },
-    { "name": "炼金的偏执", "desc": "砂糖每进行7次普通攻击或者重击，<color=#FFD780FF>风灵作成·陆叁零捌</color>的冷却时间就会随机减少1-7秒。" },
-    { "name": "认真普通瓶", "desc": "<color=#FFD780FF>禁·风灵作成·柒伍同构贰型</color>的技能等级提高3级。\n至多提升至15级。" },
-    { "name": "混元熵增论", "desc": "<color=#FFD780FF>禁·风灵作成·柒伍同构贰型</color>如果发生了元素转化，则使队伍中所有角色在技能持续时间内获得20%的对应元素伤害加成。", "values": [0.2] }
+    { "name": "ClusteredVacuumField", "localeName": "堆叠真空域", "desc": "<color=#FFD780FF>风灵作成·陆叁零捌</color>的可使用次数增加1次。" },
+    { "name": "BethUnboundForm", "localeName": "不羁型贝特", "desc": "<color=#FFD780FF>禁·风灵作成·柒伍同构贰型</color>的技能持续时间延长2秒。", "values": [2] },
+    { "name": "FlawlessAlchemistress", "localeName": "零失误少女", "desc": "<color=#FFD780FF>风灵作成·陆叁零捌</color>的技能等级提高3级。\n至多提升至15级。" },
+    { "name": "Alchemania", "localeName": "炼金的偏执", "desc": "砂糖每进行7次普通攻击或者重击，<color=#FFD780FF>风灵作成·陆叁零捌</color>的冷却时间就会随机减少1-7秒。" },
+    { "name": "CautionStandardFlask", "localeName": "认真普通瓶", "desc": "<color=#FFD780FF>禁·风灵作成·柒伍同构贰型</color>的技能等级提高3级。\n至多提升至15级。" },
+    { "name": "ChaoticEntropy", "localeName": "混元熵增论", "desc": "<color=#FFD780FF>禁·风灵作成·柒伍同构贰型</color>如果发生了元素转化，则使队伍中所有角色在技能持续时间内获得20%的对应元素伤害加成。", "values": [0.2] }
   ],
   "overviewItems": [
-    { "id": "VayudaTurquoiseGemstone", "name": "自在松石", "rarity": 5 },
-    { "id": "HurricaneSeed", "name": "飓风之种", "rarity": 4 },
-    { "id": "WindwheelAster", "name": "风车菊" },
-    { "id": "EnergyNectar", "name": "原素花蜜", "rarity": 3 },
-    { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "rarity": 4 },
-    { "id": "SpiritLocketOfBoreas", "name": "北风的魂匣", "rarity": 5 }
+    { "id": "VayudaTurquoiseGemstone", "localeName": "自在松石", "rarity": 5 },
+    { "id": "HurricaneSeed", "localeName": "飓风之种", "rarity": 4 },
+    { "id": "WindwheelAster", "localeName": "风车菊" },
+    { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3 },
+    { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4 },
+    { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5 }
   ]
 }

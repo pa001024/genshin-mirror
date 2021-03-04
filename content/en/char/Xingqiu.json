@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VarunadaLazuriteSliver", "name": "Varunada Lazurite Sliver", "count": 1 },
-        { "id": "SilkFlower", "name": "Silk Flower", "count": 3 },
-        { "id": "DamagedMask", "name": "Damaged Mask", "count": 3 }
+        { "id": "VarunadaLazuriteSliver", "localeName": "Varunada Lazurite Sliver", "rarity": 2, "count": 1 },
+        { "id": "SilkFlower", "localeName": "Silk Flower", "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 3 }
       ],
       "HP": 640.29,
       "ATK": 12.639,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VarunadaLazuriteFragment", "name": "Varunada Lazurite Fragment", "count": 3 },
-        { "id": "CleansingHeart", "name": "Cleansing Heart", "count": 2 },
-        { "id": "SilkFlower", "name": "Silk Flower", "count": 10 },
-        { "id": "DamagedMask", "name": "Damaged Mask", "count": 15 }
+        { "id": "VarunadaLazuriteFragment", "localeName": "Varunada Lazurite Fragment", "rarity": 3, "count": 3 },
+        { "id": "CleansingHeart", "localeName": "Cleansing Heart", "rarity": 4, "count": 2 },
+        { "id": "SilkFlower", "localeName": "Silk Flower", "count": 10 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 15 }
       ],
       "HP": 1095.2,
       "ATK": 21.619,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VarunadaLazuriteFragment", "name": "Varunada Lazurite Fragment", "count": 6 },
-        { "id": "CleansingHeart", "name": "Cleansing Heart", "count": 4 },
-        { "id": "SilkFlower", "name": "Silk Flower", "count": 20 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 12 }
+        { "id": "VarunadaLazuriteFragment", "localeName": "Varunada Lazurite Fragment", "rarity": 3, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "Cleansing Heart", "rarity": 4, "count": 4 },
+        { "id": "SilkFlower", "localeName": "Silk Flower", "count": 20 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 12 }
       ],
       "HP": 1701.8,
       "ATK": 33.592,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VarunadaLazuriteChunk", "name": "Varunada Lazurite Chunk", "count": 3 },
-        { "id": "CleansingHeart", "name": "Cleansing Heart", "count": 8 },
-        { "id": "SilkFlower", "name": "Silk Flower", "count": 30 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 18 }
+        { "id": "VarunadaLazuriteChunk", "localeName": "Varunada Lazurite Chunk", "rarity": 4, "count": 3 },
+        { "id": "CleansingHeart", "localeName": "Cleansing Heart", "rarity": 4, "count": 8 },
+        { "id": "SilkFlower", "localeName": "Silk Flower", "count": 30 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 18 }
       ],
       "HP": 2156.8,
       "ATK": 42.572,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VarunadaLazuriteChunk", "name": "Varunada Lazurite Chunk", "count": 6 },
-        { "id": "CleansingHeart", "name": "Cleansing Heart", "count": 12 },
-        { "id": "SilkFlower", "name": "Silk Flower", "count": 45 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 12 }
+        { "id": "VarunadaLazuriteChunk", "localeName": "Varunada Lazurite Chunk", "rarity": 4, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "Cleansing Heart", "rarity": 4, "count": 12 },
+        { "id": "SilkFlower", "localeName": "Silk Flower", "count": 45 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 }
       ],
       "HP": 2611.7,
       "ATK": 51.552,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VarunadaLazuriteGemstone", "name": "Varunada Lazurite Gemstone", "count": 6 },
-        { "id": "CleansingHeart", "name": "Cleansing Heart", "count": 20 },
-        { "id": "SilkFlower", "name": "Silk Flower", "count": 60 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 24 }
+        { "id": "VarunadaLazuriteGemstone", "localeName": "Varunada Lazurite Gemstone", "rarity": 5, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "Cleansing Heart", "rarity": 4, "count": 20 },
+        { "id": "SilkFlower", "localeName": "Silk Flower", "count": 60 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 24 }
       ],
       "HP": 3066.6,
       "ATK": 60.532,
@@ -92,7 +92,8 @@
   "ascensionType": 7,
   "element": 5,
   "elemSkill": {
-    "name": "Guhua Sword: Fatal Rainscreen",
+    "name": "GuhuaSwordFatalRainscreen",
+    "localeName": "Guhua Sword: Fatal Rainscreen",
     "desc": "Xingqiu performs twin strikes with his sword, dealing <color=#80C0FFFF>Hydro DMG</color>. At the same time, this ability creates the maximum number of Rain Swords, which will orbit your active character.\nThe Rain Swords have the following properties:\n·When a character takes DMG, the Rain Sword will shatter, reducing the amount of DMG taken.\n·Increases the character's resistance to interruption.\n20% of Xingqiu's <color=#80C0FFFF>Hydro DMG Bonus</color> will be converted to additional DMG Reduction for the Rain Swords.\n\nThe maximum amount of additional DMG Reduction that can be gained this way is 24%.\nThe initial maximum number of Rain Swords is 3.\nUsing this ability applies the <color=#80C0FFFF>Wet</color> status onto the character.\n\n<i>\"Easier to slay a rain dragon than to sever the rain.\"</i>",
     "cd": 21,
     "paramTpls": ["Skill DMG|{param1:P}+{param2:P}", "Damage Reduction Ratio|{param3:P}", "Duration|{param4:F1}s", "CD|{param5:F1}s"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfGold", "name": "Teachings of Gold", "count": 3 },
-        { "id": "DamagedMask", "name": "Damaged Mask", "count": 6 }
+        { "id": "TeachingsOfGold", "localeName": "Teachings of Gold", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "Guide to Gold", "count": 2 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 3 }
+        { "id": "GuideToGold", "localeName": "Guide to Gold", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToGold", "name": "Guide to Gold", "count": 4 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 4 }
+        { "id": "GuideToGold", "localeName": "Guide to Gold", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToGold", "name": "Guide to Gold", "count": 6 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 6 }
+        { "id": "GuideToGold", "localeName": "Guide to Gold", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "Guide to Gold", "count": 9 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 9 }
+        { "id": "GuideToGold", "localeName": "Guide to Gold", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "Philosophies of Gold", "count": 4 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 4 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 4 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "Philosophies of Gold", "count": 6 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 6 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 6 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "Philosophies of Gold", "count": 12 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 9 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 9 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "Philosophies of Gold", "count": 16 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 12 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "Guhua Sword: Raincutter",
+    "name": "GuhuaSwordRaincutter",
+    "localeName": "Guhua Sword: Raincutter",
     "desc": "Initiate Rainbow Bladework and fight using an illusory sword rain, while creating the maximum number of Rain Swords.\n\n<color=#FFD780FF>Rainbow Bladework</color>\n·Your active character's Normal Attacks will trigger consecutive sword rain attacks, dealing <color=#80C0FFFF>Hydro DMG</color>.\n·Rain Swords will remain at the maximum number throughout the ability's duration.\n\n<i>The \"Way of the Rain Cutter\" is one of the esoteric secret techniques of the Guhua Sect.</i>",
     "cd": 20,
     "energyCost": 80,
@@ -182,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfGold", "name": "Teachings of Gold", "count": 3 },
-        { "id": "DamagedMask", "name": "Damaged Mask", "count": 6 }
+        { "id": "TeachingsOfGold", "localeName": "Teachings of Gold", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "Guide to Gold", "count": 2 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 3 }
+        { "id": "GuideToGold", "localeName": "Guide to Gold", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToGold", "name": "Guide to Gold", "count": 4 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 4 }
+        { "id": "GuideToGold", "localeName": "Guide to Gold", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToGold", "name": "Guide to Gold", "count": 6 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 6 }
+        { "id": "GuideToGold", "localeName": "Guide to Gold", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "Guide to Gold", "count": 9 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 9 }
+        { "id": "GuideToGold", "localeName": "Guide to Gold", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "Philosophies of Gold", "count": 4 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 4 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 4 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "Philosophies of Gold", "count": 6 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 6 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 6 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "Philosophies of Gold", "count": 12 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 9 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 9 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "Philosophies of Gold", "count": 16 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 12 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "Normal Attack: Guhua Style",
+    "name": "NormalAttackGuhuaStyle",
+    "localeName": "Normal Attack: Guhua Style",
     "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "cd": 0,
     "paramTpls": [
@@ -258,76 +261,67 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfGold", "name": "Teachings of Gold", "count": 3 },
-        { "id": "DamagedMask", "name": "Damaged Mask", "count": 6 }
+        { "id": "TeachingsOfGold", "localeName": "Teachings of Gold", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "Guide to Gold", "count": 2 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 3 }
+        { "id": "GuideToGold", "localeName": "Guide to Gold", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToGold", "name": "Guide to Gold", "count": 4 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 4 }
+        { "id": "GuideToGold", "localeName": "Guide to Gold", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToGold", "name": "Guide to Gold", "count": 6 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 6 }
+        { "id": "GuideToGold", "localeName": "Guide to Gold", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "Guide to Gold", "count": 9 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 9 }
+        { "id": "GuideToGold", "localeName": "Guide to Gold", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "Philosophies of Gold", "count": 4 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 4 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 4 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "Philosophies of Gold", "count": 6 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 6 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 6 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "Philosophies of Gold", "count": 12 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 9 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 9 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "Philosophies of Gold", "count": 16 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 12 },
-        { "id": "TailOfBoreas", "name": "Tail of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 },
+        { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "Hydropathic", "desc": "When a Rain Sword is shattered or when its duration expires, it regenerates the current character's HP based on 6% of Xingqiu's Max HP.", "unlock": 1 },
-    { "name": "Blades Amidst Raindrops", "desc": "Xingqiu gains a 20% <color=#80C0FFFF>Hydro DMG Bonus</color>.", "unlock": 4 },
-    { "name": "Flash of Genius", "desc": "When Xingqiu crafts Character Talent Materials, he has a 25% chance to refund a portion of the crafting materials used." }
+    { "name": "Hydropathic", "localeName": "Hydropathic", "desc": "When a Rain Sword is shattered or when its duration expires, it regenerates the current character's HP based on 6% of Xingqiu's Max HP.", "unlock": 1 },
+    { "name": "BladesAmidstRaindrops", "localeName": "Blades Amidst Raindrops", "desc": "Xingqiu gains a 20% <color=#80C0FFFF>Hydro DMG Bonus</color>.", "unlock": 4 },
+    { "name": "FlashOfGenius", "localeName": "Flash of Genius", "desc": "When Xingqiu crafts Character Talent Materials, he has a 25% chance to refund a portion of the crafting materials used." }
   ],
   "c13ns": [
-    { "name": "The Scent Remained", "desc": "Increases the maximum number of Rain Swords by 1." },
-    {
-      "name": "Rainbow Upon the Azure Sky",
-      "desc": "Extends the duration of <color=#FFD780FF>Guhua Sword: Raincutter</color> by 3s.\nDecreases the <color=#80C0FFFF>Hydro RES</color> of opponents hit by sword rain attacks by 15% for 4s."
-    },
-    { "name": "Weaver of Verses", "desc": "Increases the Level of <color=#FFD780FF>Guhua Sword: Raincutter</color> by 3.\nMaximum upgrade level is 15." },
-    {
-      "name": "Evilsoother",
-      "desc": "Throughout the duration of <color=#FFD780FF>Guhua Sword: Raincutter</color>, the DMG dealt by <color=#FFD780FF>Guhua Sword: Fatal Rainscreen</color> is increased by 50%."
-    },
-    { "name": "Embrace of Rain", "desc": "Increases the Level of <color=#FFD780FF>Guhua Sword: Fatal Rainscreen</color> by 3.\nMaximum upgrade level is 15." },
-    {
-      "name": "Hence, Call Them My Own Verses",
-      "desc": "Activating 2 of <color=#FFD780FF>Guhua Sword: Raincutter</color>'s sword rain attacks greatly increases the DMG of the third. Xingqiu regenerates 3 Energy when sword rain attacks hit opponents."
-    }
+    { "name": "TheScentRemained", "localeName": "The Scent Remained", "desc": "Increases the maximum number of Rain Swords by 1." },
+    { "name": "RainbowUponTheAzureSky", "localeName": "Rainbow Upon the Azure Sky", "desc": "Extends the duration of <color=#FFD780FF>Guhua Sword: Raincutter</color> by 3s.\nDecreases the <color=#80C0FFFF>Hydro RES</color> of opponents hit by sword rain attacks by 15% for 4s." },
+    { "name": "WeaverOfVerses", "localeName": "Weaver of Verses", "desc": "Increases the Level of <color=#FFD780FF>Guhua Sword: Raincutter</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "Evilsoother", "localeName": "Evilsoother", "desc": "Throughout the duration of <color=#FFD780FF>Guhua Sword: Raincutter</color>, the DMG dealt by <color=#FFD780FF>Guhua Sword: Fatal Rainscreen</color> is increased by 50%." },
+    { "name": "EmbraceOfRain", "localeName": "Embrace of Rain", "desc": "Increases the Level of <color=#FFD780FF>Guhua Sword: Fatal Rainscreen</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "HenceCallThemMyOwnVerses", "localeName": "Hence, Call Them My Own Verses", "desc": "Activating 2 of <color=#FFD780FF>Guhua Sword: Raincutter</color>'s sword rain attacks greatly increases the DMG of the third. Xingqiu regenerates 3 Energy when sword rain attacks hit opponents." }
   ],
   "overviewItems": [
-    { "id": "VarunadaLazuriteGemstone", "name": "Varunada Lazurite Gemstone", "rarity": 5 },
-    { "id": "CleansingHeart", "name": "Cleansing Heart", "rarity": 4 },
-    { "id": "SilkFlower", "name": "Silk Flower" },
-    { "id": "OminousMask", "name": "Ominous Mask", "rarity": 3 },
-    { "id": "PhilosophiesOfGold", "name": "Philosophies of Gold", "rarity": 4 },
-    { "id": "TailOfBoreas", "name": "Tail of Boreas", "rarity": 5 }
+    { "id": "VarunadaLazuriteGemstone", "localeName": "Varunada Lazurite Gemstone", "rarity": 5 },
+    { "id": "CleansingHeart", "localeName": "Cleansing Heart", "rarity": 4 },
+    { "id": "SilkFlower", "localeName": "Silk Flower" },
+    { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3 },
+    { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4 },
+    { "id": "TailOfBoreas", "localeName": "Tail of Boreas", "rarity": 5 }
   ]
 }

@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VayudaTurquoiseSliver", "name": "Vayuda Turquoise Sliver", "count": 1 },
-        { "id": "DandelionSeed", "name": "Dandelion Seed", "count": 3 },
-        { "id": "DamagedMask", "name": "Damaged Mask", "count": 3 }
+        { "id": "VayudaTurquoiseSliver", "localeName": "Vayuda Turquoise Sliver", "rarity": 2, "count": 1 },
+        { "id": "DandelionSeed", "localeName": "Dandelion Seed", "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 3 }
       ],
       "HP": 980.86,
       "ATK": 15.964,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VayudaTurquoiseFragment", "name": "Vayuda Turquoise Fragment", "count": 3 },
-        { "id": "HurricaneSeed", "name": "Hurricane Seed", "count": 2 },
-        { "id": "DandelionSeed", "name": "Dandelion Seed", "count": 10 },
-        { "id": "DamagedMask", "name": "Damaged Mask", "count": 15 }
+        { "id": "VayudaTurquoiseFragment", "localeName": "Vayuda Turquoise Fragment", "rarity": 3, "count": 3 },
+        { "id": "HurricaneSeed", "localeName": "Hurricane Seed", "rarity": 4, "count": 2 },
+        { "id": "DandelionSeed", "localeName": "Dandelion Seed", "count": 10 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 15 }
       ],
       "HP": 1677.8,
       "ATK": 27.306,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VayudaTurquoiseFragment", "name": "Vayuda Turquoise Fragment", "count": 6 },
-        { "id": "HurricaneSeed", "name": "Hurricane Seed", "count": 4 },
-        { "id": "DandelionSeed", "name": "Dandelion Seed", "count": 20 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 12 }
+        { "id": "VayudaTurquoiseFragment", "localeName": "Vayuda Turquoise Fragment", "rarity": 3, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "Hurricane Seed", "rarity": 4, "count": 4 },
+        { "id": "DandelionSeed", "localeName": "Dandelion Seed", "count": 20 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 12 }
       ],
       "HP": 2607,
       "ATK": 42.43,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VayudaTurquoiseChunk", "name": "Vayuda Turquoise Chunk", "count": 3 },
-        { "id": "HurricaneSeed", "name": "Hurricane Seed", "count": 8 },
-        { "id": "DandelionSeed", "name": "Dandelion Seed", "count": 30 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 18 }
+        { "id": "VayudaTurquoiseChunk", "localeName": "Vayuda Turquoise Chunk", "rarity": 4, "count": 3 },
+        { "id": "HurricaneSeed", "localeName": "Hurricane Seed", "rarity": 4, "count": 8 },
+        { "id": "DandelionSeed", "localeName": "Dandelion Seed", "count": 30 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 18 }
       ],
       "HP": 3304,
       "ATK": 53.773,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VayudaTurquoiseChunk", "name": "Vayuda Turquoise Chunk", "count": 6 },
-        { "id": "HurricaneSeed", "name": "Hurricane Seed", "count": 12 },
-        { "id": "DandelionSeed", "name": "Dandelion Seed", "count": 45 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 12 }
+        { "id": "VayudaTurquoiseChunk", "localeName": "Vayuda Turquoise Chunk", "rarity": 4, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "Hurricane Seed", "rarity": 4, "count": 12 },
+        { "id": "DandelionSeed", "localeName": "Dandelion Seed", "count": 45 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 }
       ],
       "HP": 4000.9,
       "ATK": 65.116,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VayudaTurquoiseGemstone", "name": "Vayuda Turquoise Gemstone", "count": 6 },
-        { "id": "HurricaneSeed", "name": "Hurricane Seed", "count": 20 },
-        { "id": "DandelionSeed", "name": "Dandelion Seed", "count": 60 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 24 }
+        { "id": "VayudaTurquoiseGemstone", "localeName": "Vayuda Turquoise Gemstone", "rarity": 5, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "Hurricane Seed", "rarity": 4, "count": 20 },
+        { "id": "DandelionSeed", "localeName": "Dandelion Seed", "count": 60 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 24 }
       ],
       "HP": 4697.8,
       "ATK": 76.458,
@@ -92,7 +92,8 @@
   "ascensionType": 14,
   "element": 1,
   "elemSkill": {
-    "name": "Gale Blade",
+    "name": "GaleBlade",
+    "localeName": "Gale Blade",
     "desc": "Focusing the might of the formless wind around her blade, Jean releases a miniature storm, launching opponents in the direction she aims at, dealing massive <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Hold</color>\nAt the cost of continued stamina consumption, Jean can command the whirlwind to pull surrounding opponents and objects towards her front.\nDirection can be adjusted.\nCharacter is immobile during skill duration.\n\n<i>That which follows Jean, the wholehearted defender, is a guardian wind that can banish danger from her comrades' presence.</i>",
     "cd": 6,
     "paramTpls": ["Skill DMG|{param1:P}", "Stamina Consumption|{param2:F1} Per Second", "Max Duration|{param3:F1}s", "CD|{param4:F1}s"],
@@ -115,61 +116,55 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "Teachings of Resistance", "count": 3 },
-        { "id": "DamagedMask", "name": "Damaged Mask", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "Teachings of Resistance", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 2 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 4 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 6 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 9 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 4 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 4 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 6 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 6 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 12 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 9 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 16 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 12 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "Dandelion Breeze",
+    "name": "DandelionBreeze",
+    "localeName": "Dandelion Breeze",
     "desc": "Calling upon the wind's protection, Jean creates a swirling Dandelion Field, launching surrounding opponents and dealing <color=#80FFD7FF>Anemo DMG</color>.\nAt the same time, she instantly regenerates a large amount of HP for all party members. The amount of HP restored scales off Jean's ATK.\n\n<color=#FFD780FF>Dandelion Field</color>\n·Continuously regenerates HP of characters within the AoE and continuously imbues them with <color=#80FFD7FF>Anemo</color>.\n·Deals <color=#80FFD7FF>Anemo DMG</color> to opponents entering or exiting the Dandelion Field.\n\n<i>Jean's magnanimity is as vast as the dandelion fields, and it is the root of her wish to protect others.</i>",
     "cd": 20,
     "energyCost": 80,
-    "paramTpls": [
-      "Elemental Burst DMG|{param1:P}",
-      "Field Entering/Exiting DMG|{param2:F1P}",
-      "Field Activation Healing|{param3:P} ATK+{param4:I}",
-      "Continuous Regeneration|{param5:F2P} ATK+{param6:I}",
-      "CD|{param7:F1}s",
-      "Energy Cost|{param8:I}"
-    ],
+    "paramTpls": ["Elemental Burst DMG|{param1:P}", "Field Entering/Exiting DMG|{param2:F1P}", "Field Activation Healing|{param3:P} ATK+{param4:I}", "Continuous Regeneration|{param5:F2P} ATK+{param6:I}", "CD|{param7:F1}s", "Energy Cost|{param8:I}"],
     "paramVals": [
       [4.248, 0.784, 2.512, 1540.3, 0.2512, 154.03, 20, 80],
       [4.5666, 0.8428, 2.7004, 1694.4, 0.27004, 169.44, 20, 80],
@@ -189,63 +184,54 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "Teachings of Resistance", "count": 3 },
-        { "id": "DamagedMask", "name": "Damaged Mask", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "Teachings of Resistance", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 2 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 4 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 6 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 9 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 4 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 4 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 6 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 6 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 12 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 9 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 16 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 12 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "Normal Attack: Favonius Bladework",
+    "name": "NormalAttackFavoniusBladework",
+    "localeName": "Normal Attack: Favonius Bladework",
     "desc": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of stamina to launch an opponent using the power of wind.\nLaunched opponents will slowly fall to the ground.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "cd": 0,
-    "paramTpls": [
-      "1-Hit DMG|{param1:F1P}",
-      "2-Hit DMG|{param2:F1P}",
-      "3-Hit DMG|{param3:F1P}",
-      "4-Hit DMG|{param4:F1P}",
-      "5-Hit DMG|{param5:F1P}",
-      "Charged Attack DMG|{param6:P}",
-      "Charged Attack Stamina Cost|{param7:F1}",
-      "Plunge DMG|{param8:F1P}",
-      "Low/High Plunge DMG|{param9:P}/{param10:P}"
-    ],
+    "paramTpls": ["1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", "4-Hit DMG|{param4:F1P}", "5-Hit DMG|{param5:F1P}", "Charged Attack DMG|{param6:P}", "Charged Attack Stamina Cost|{param7:F1}", "Plunge DMG|{param8:F1P}", "Low/High Plunge DMG|{param9:P}/{param10:P}"],
     "paramVals": [
       [0.48332, 0.4558, 0.60286, 0.65876, 0.79206, 1.6202, 20, 0.63932, 1.2784, 1.5968],
       [0.52266, 0.4929, 0.65193, 0.71238, 0.85653, 1.7521, 20, 0.69136, 1.3824, 1.7267],
@@ -265,75 +251,72 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "Teachings of Resistance", "count": 3 },
-        { "id": "DamagedMask", "name": "Damaged Mask", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "Teachings of Resistance", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 2 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 4 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 6 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "Guide to Resistance", "count": 9 },
-        { "id": "StainedMask", "name": "Stained Mask", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 4 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 4 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 6 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 6 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 12 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 9 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "count": 16 },
-        { "id": "OminousMask", "name": "Ominous Mask", "count": 12 },
-        { "id": "DvalinsPlume", "name": "Dvalin's Plume", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "Wind Companion", "desc": "On hit, Jean's Normal Attacks have a 50% chance to regenerate HP equal to 15% of Jean's ATK for all party members.", "unlock": 1, "values": [0.5, 0.15] },
-    { "name": "Let the Wind Lead", "desc": "Using <color=#FFD780FF>Dandelion Breeze</color> will regenerate 20% of its Energy.", "unlock": 4, "values": [16] },
-    { "name": "Guiding Breeze", "desc": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product." }
+    { "name": "WindCompanion", "localeName": "Wind Companion", "desc": "On hit, Jean's Normal Attacks have a 50% chance to regenerate HP equal to 15% of Jean's ATK for all party members.", "unlock": 1, "values": [0.5, 0.15] },
+    { "name": "LetTheWindLead", "localeName": "Let the Wind Lead", "desc": "Using <color=#FFD780FF>Dandelion Breeze</color> will regenerate 20% of its Energy.", "unlock": 4, "values": [16] },
+    { "name": "GuidingBreeze", "localeName": "Guiding Breeze", "desc": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product." }
   ],
   "c13ns": [
-    { "name": "Spiraling Tempest", "desc": "Increases the pulling speed of <color=#FFD780FF>Gale Blade</color> after holding for more than 1s, and increases the DMG dealt by 40%.", "values": [0.4] },
-    { "name": "People's Aegis", "desc": "When Jean picks up an Elemental Orb/Particle, all party members have their Movement SPD and ATK SPD increased by 15% for 15s.", "values": [0.15, 0.15, 15] },
-    { "name": "When the West Wind Arises", "desc": "Increases the Level of <color=#FFD780FF>Dandelion Breeze</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "SpiralingTempest", "localeName": "Spiraling Tempest", "desc": "Increases the pulling speed of <color=#FFD780FF>Gale Blade</color> after holding for more than 1s, and increases the DMG dealt by 40%.", "values": [0.4] },
+    { "name": "PeoplesAegis", "localeName": "People's Aegis", "desc": "When Jean picks up an Elemental Orb/Particle, all party members have their Movement SPD and ATK SPD increased by 15% for 15s.", "values": [0.15, 0.15, 15] },
+    { "name": "WhenTheWestWindArises", "localeName": "When the West Wind Arises", "desc": "Increases the Level of <color=#FFD780FF>Dandelion Breeze</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "LandsOfDandelion", "localeName": "Lands of Dandelion", "desc": "Within the Field created by <color=#FFD780FF>Dandelion Breeze</color>, all opponents have their <color=#80FFD7FF>Anemo RES</color> decreased by 40%.", "values": [0.4] },
+    { "name": "OutburstingGust", "localeName": "Outbursting Gust", "desc": "Increases the Level of <color=#FFD780FF>Gale Blade</color> by 3.\nMaximum upgrade level is 15." },
     {
-      "name": "Lands of Dandelion",
-      "desc": "Within the Field created by <color=#FFD780FF>Dandelion Breeze</color>, all opponents have their <color=#80FFD7FF>Anemo RES</color> decreased by 40%.",
-      "values": [0.4]
-    },
-    { "name": "Outbursting Gust", "desc": "Increases the Level of <color=#FFD780FF>Gale Blade</color> by 3.\nMaximum upgrade level is 15." },
-    {
-      "name": "Lion's Fang, Fair Protector of Mondstadt",
+      "name": "LionsFangFairProtectorOfMondstadt",
+      "localeName": "Lion's Fang, Fair Protector of Mondstadt",
       "desc": "Incoming DMG is decreased by 35% within the Field created by <color=#FFD780FF>Dandelion Breeze</color>. Upon leaving the Dandelion Field, this effect lasts for 3 attacks or 10s.",
       "values": [0.35]
     }
   ],
   "overviewItems": [
-    { "id": "VayudaTurquoiseGemstone", "name": "Vayuda Turquoise Gemstone", "rarity": 5 },
-    { "id": "HurricaneSeed", "name": "Hurricane Seed", "rarity": 4 },
-    { "id": "DandelionSeed", "name": "Dandelion Seed" },
-    { "id": "OminousMask", "name": "Ominous Mask", "rarity": 3 },
-    { "id": "PhilosophiesOfResistance", "name": "Philosophies of Resistance", "rarity": 4 },
-    { "id": "DvalinsPlume", "name": "Dvalin's Plume", "rarity": 5 }
+    { "id": "VayudaTurquoiseGemstone", "localeName": "Vayuda Turquoise Gemstone", "rarity": 5 },
+    { "id": "HurricaneSeed", "localeName": "Hurricane Seed", "rarity": 4 },
+    { "id": "DandelionSeed", "localeName": "Dandelion Seed" },
+    { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3 },
+    { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4 },
+    { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5 }
   ]
 }

@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "ShivadaJadeSliver", "name": "哀切なアイスクリスタル·砕屑", "count": 1 },
-        { "id": "CorLapis", "name": "石珀", "count": 3 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 3 }
+        { "id": "ShivadaJadeSliver", "localeName": "哀切なアイスクリスタル·砕屑", "rarity": 2, "count": 1 },
+        { "id": "CorLapis", "localeName": "石珀", "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 3 }
       ],
       "HP": 687.97,
       "ATK": 13.969,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "ShivadaJadeFragment", "name": "哀切なアイスクリスタル·欠片", "count": 3 },
-        { "id": "HoarfrostCore", "name": "極寒のコア", "count": 2 },
-        { "id": "CorLapis", "name": "石珀", "count": 10 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 15 }
+        { "id": "ShivadaJadeFragment", "localeName": "哀切なアイスクリスタル·欠片", "rarity": 3, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4, "count": 2 },
+        { "id": "CorLapis", "localeName": "石珀", "count": 10 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 15 }
       ],
       "HP": 1176.8,
       "ATK": 23.894,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "ShivadaJadeFragment", "name": "哀切なアイスクリスタル·欠片", "count": 6 },
-        { "id": "HoarfrostCore", "name": "極寒のコア", "count": 4 },
-        { "id": "CorLapis", "name": "石珀", "count": 20 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 12 }
+        { "id": "ShivadaJadeFragment", "localeName": "哀切なアイスクリスタル·欠片", "rarity": 3, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4, "count": 4 },
+        { "id": "CorLapis", "localeName": "石珀", "count": 20 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 12 }
       ],
       "HP": 1828.5,
       "ATK": 37.128,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "ShivadaJadeChunk", "name": "哀切なアイスクリスタル·塊", "count": 3 },
-        { "id": "HoarfrostCore", "name": "極寒のコア", "count": 8 },
-        { "id": "CorLapis", "name": "石珀", "count": 30 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 18 }
+        { "id": "ShivadaJadeChunk", "localeName": "哀切なアイスクリスタル·塊", "rarity": 4, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4, "count": 8 },
+        { "id": "CorLapis", "localeName": "石珀", "count": 30 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 18 }
       ],
       "HP": 2317.4,
       "ATK": 47.053,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "ShivadaJadeChunk", "name": "哀切なアイスクリスタル·塊", "count": 6 },
-        { "id": "HoarfrostCore", "name": "極寒のコア", "count": 12 },
-        { "id": "CorLapis", "name": "石珀", "count": 45 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 12 }
+        { "id": "ShivadaJadeChunk", "localeName": "哀切なアイスクリスタル·塊", "rarity": 4, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4, "count": 12 },
+        { "id": "CorLapis", "localeName": "石珀", "count": 45 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 12 }
       ],
       "HP": 2806.2,
       "ATK": 56.979,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "ShivadaJadeGemstone", "name": "哀切なアイスクリスタル", "count": 6 },
-        { "id": "HoarfrostCore", "name": "極寒のコア", "count": 20 },
-        { "id": "CorLapis", "name": "石珀", "count": 60 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 24 }
+        { "id": "ShivadaJadeGemstone", "localeName": "哀切なアイスクリスタル", "rarity": 5, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4, "count": 20 },
+        { "id": "CorLapis", "localeName": "石珀", "count": 60 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 24 }
       ],
       "HP": 3295,
       "ATK": 66.904,
@@ -92,7 +92,8 @@
   "ascensionType": 7,
   "element": 7,
   "elemSkill": {
-    "name": "霊刃·重華積霜",
+    "name": "SpiritBladeChonghuasLayeredFrost",
+    "localeName": "霊刃·重華積霜",
     "desc": "巨大な剣を振って地面を叩き、前方の円形範囲内に氷爆を起こし、敵に<color=#99FFFFFF>氷元素ダメージ</color>を与える。\nその後、氷爆による寒気が重華積霜エリアになり、エリア内の片手剣、両手剣、長柄武器キャラクターは<color=#99FFFFFF>氷元素付与</color>を獲得する。\n\n<i>「珠玉が鳴り、世界は静まる。川は止まり、雲は霜となる。如法開壇、妖魔退散。」</i>",
     "cd": 15,
     "paramTpls": ["スキルダメージ|{param1:P}", "元素付与継続時間|{param2:F1}秒", "エリア継続時間|{param4:F1}秒", "クールタイム|{param3:F1}秒"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfDiligence", "name": "「勤労」の教え", "count": 3 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 6 }
+        { "id": "TeachingsOfDiligence", "localeName": "「勤労」の教え", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 2 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 3 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 4 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 4 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 6 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 6 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 9 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 9 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 4 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 4 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 4 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 6 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 6 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 6 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 12 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 9 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 2 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 9 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 16 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 12 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 12 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "霊刃·雲開星落",
+    "name": "SpiritBladeCloudPartingStar",
+    "localeName": "霊刃·雲開星落",
     "desc": "印を結び、前方の空中に3本の巨大霊刃を召喚する。霊刃は短時間内に1本ずつ地面に落ちて爆裂する。\n霊刃が爆裂する時、<color=#99FFFFFF>氷元素範囲ダメージ</color>を与え、敵を吹き飛ばす。\n\n<i>「卓越した剣が天地を行き交い、寒光がつららとなる。如律令！」</i>",
     "cd": 12,
     "energyCost": 40,
@@ -182,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfDiligence", "name": "「勤労」の教え", "count": 3 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 6 }
+        { "id": "TeachingsOfDiligence", "localeName": "「勤労」の教え", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 2 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 3 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 4 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 4 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 6 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 6 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 9 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 9 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 4 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 4 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 4 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 6 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 6 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 6 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 12 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 9 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 2 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 9 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 16 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 12 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 12 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "通常攻撃·滅邪四式",
+    "name": "NormalAttackDemonbane",
+    "localeName": "通常攻撃·滅邪四式",
     "desc": "<color=#FFD780FF>通常攻撃</color>\n最大4段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n持続的にスタミナを消費し、大剣を振り回して周囲の敵を攻撃する。\n重撃が終了した時に、さらに強力な攻撃を1回放つ。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
     "cd": 0,
     "paramTpls": [
@@ -259,76 +262,73 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfDiligence", "name": "「勤労」の教え", "count": 3 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 6 }
+        { "id": "TeachingsOfDiligence", "localeName": "「勤労」の教え", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 2 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 3 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 4 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 4 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 6 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 6 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 9 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 9 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 4 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 4 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 4 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 6 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 6 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 6 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 12 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 9 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 2 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 9 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 16 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 12 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 12 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "吐納真定", "desc": "<color=#FFD780FF>霊刃·重華積霜</color>エリア内にいる時、片手剣、両手剣、長柄武器キャラクターの通常攻撃と攻撃速度+8%。", "unlock": 1, "values": [0.08] },
+    { "name": "SteadyBreathing", "localeName": "吐納真定", "desc": "<color=#FFD780FF>霊刃·重華積霜</color>エリア内にいる時、片手剣、両手剣、長柄武器キャラクターの通常攻撃と攻撃速度+8%。", "unlock": 1, "values": [0.08] },
     {
-      "name": "追氷剣訣",
+      "name": "RimechaserBlade",
+      "localeName": "追氷剣訣",
       "desc": "<color=#FFD780FF>霊刃·重華積霜</color>エリアが消えた時、自動的に付近の敵を攻撃する霊刃を召喚し、霊刃·重華積霜のスキルダメージ100%分の<color=#99FFFFFF>氷元素範囲ダメージ</color>を与える。命中した敵の<color=#99FFFFFF>氷元素耐性</color>-10%、継続時間8秒。",
       "unlock": 4,
       "values": [1, -0.1, 8]
     },
-    { "name": "雲遊山海", "desc": "璃月の探索任務の所要時間-25%。" }
+    { "name": "GallantJourney", "localeName": "雲遊山海", "desc": "璃月の探索任務の所要時間-25%。" }
   ],
   "c13ns": [
-    { "name": "釈凌詠氷", "desc": "通常攻撃の最後の一撃が前方に3つの氷の刃を放ち、経路上の敵に重雲の攻撃力50%分の<color=#99FFFFFF>氷元素ダメージ</color>を与える。", "values": [0.5] },
-    { "name": "周天の回転", "desc": "<color=#FFD780FF>霊刃·重華積霜</color>エリア内で発動した元素スキルと元素爆発のクールタイム-15%。", "values": [0.15] },
-    { "name": "雲の果てに光あり", "desc": "<color=#FFD780FF>霊刃·雲開星落</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "浮雲霜天", "desc": "重雲の攻撃が<color=#99FFFFFF>氷元素</color>の影響を受けた敵に命中した時、自身の元素エネルギーを1回復する。\nこの効果は2秒毎に1回のみ発動可能。", "values": [1, 2] },
-    { "name": "真道の正理", "desc": "<color=#FFD780FF>霊刃·重華積霜</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    {
-      "name": "四霊の捧げ",
-      "desc": "HPの割合が重雲より低い敵に<color=#FFD780FF>霊刃·雲開星落</color>が命中した時、ダメージ+15%。\nまた、スキル発動時さらに追加で霊刃を1本を召喚する。",
-      "values": [0.15]
-    }
+    { "name": "IceUnleashed", "localeName": "釈凌詠氷", "desc": "通常攻撃の最後の一撃が前方に3つの氷の刃を放ち、経路上の敵に重雲の攻撃力50%分の<color=#99FFFFFF>氷元素ダメージ</color>を与える。", "values": [0.5] },
+    { "name": "AtmosphericRevolution", "localeName": "周天の回転", "desc": "<color=#FFD780FF>霊刃·重華積霜</color>エリア内で発動した元素スキルと元素爆発のクールタイム-15%。", "values": [0.15] },
+    { "name": "Cloudburst", "localeName": "雲の果てに光あり", "desc": "<color=#FFD780FF>霊刃·雲開星落</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "FrozenSkies", "localeName": "浮雲霜天", "desc": "重雲の攻撃が<color=#99FFFFFF>氷元素</color>の影響を受けた敵に命中した時、自身の元素エネルギーを1回復する。\nこの効果は2秒毎に1回のみ発動可能。", "values": [1, 2] },
+    { "name": "TheTruePath", "localeName": "真道の正理", "desc": "<color=#FFD780FF>霊刃·重華積霜</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "RallyOfFourBlades", "localeName": "四霊の捧げ", "desc": "HPの割合が重雲より低い敵に<color=#FFD780FF>霊刃·雲開星落</color>が命中した時、ダメージ+15%。\nまた、スキル発動時さらに追加で霊刃を1本を召喚する。", "values": [0.15] }
   ],
   "overviewItems": [
-    { "id": "ShivadaJadeGemstone", "name": "哀切なアイスクリスタル", "rarity": 5 },
-    { "id": "HoarfrostCore", "name": "極寒のコア", "rarity": 4 },
-    { "id": "CorLapis", "name": "石珀" },
-    { "id": "OminousMask", "name": "不吉な仮面", "rarity": 3 },
-    { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "rarity": 4 },
-    { "id": "DvalinsSigh", "name": "東風の吐息", "rarity": 5 }
+    { "id": "ShivadaJadeGemstone", "localeName": "哀切なアイスクリスタル", "rarity": 5 },
+    { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4 },
+    { "id": "CorLapis", "localeName": "石珀" },
+    { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3 },
+    { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4 },
+    { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5 }
   ]
 }

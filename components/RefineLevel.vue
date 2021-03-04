@@ -21,7 +21,6 @@ export default class RefineLevel extends Vue {
   @Prop({ default: 36 }) size!: number;
   changed(lv: number) {
     this.$emit("input", lv);
-    console.log(lv);
   }
 }
 </script>

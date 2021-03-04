@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "ShivadaJadeSliver", "name": "哀切なアイスクリスタル·砕屑", "count": 1 },
-        { "id": "CallaLily", "name": "ドドリアン", "count": 3 },
-        { "id": "FirmArrowhead", "name": "牢固な矢先", "count": 3 }
+        { "id": "ShivadaJadeSliver", "localeName": "哀切なアイスクリスタル·砕屑", "rarity": 2, "count": 1 },
+        { "id": "CallaLily", "localeName": "ドドリアン", "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "牢固な矢先", "rarity": 1, "count": 3 }
       ],
       "HP": 599.42,
       "ATK": 13.304,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "ShivadaJadeFragment", "name": "哀切なアイスクリスタル·欠片", "count": 3 },
-        { "id": "HoarfrostCore", "name": "極寒のコア", "count": 2 },
-        { "id": "CallaLily", "name": "ドドリアン", "count": 10 },
-        { "id": "FirmArrowhead", "name": "牢固な矢先", "count": 15 }
+        { "id": "ShivadaJadeFragment", "localeName": "哀切なアイスクリスタル·欠片", "rarity": 3, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4, "count": 2 },
+        { "id": "CallaLily", "localeName": "ドドリアン", "count": 10 },
+        { "id": "FirmArrowhead", "localeName": "牢固な矢先", "rarity": 1, "count": 15 }
       ],
       "HP": 1025.3,
       "ATK": 22.757,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "ShivadaJadeFragment", "name": "哀切なアイスクリスタル·欠片", "count": 6 },
-        { "id": "HoarfrostCore", "name": "極寒のコア", "count": 4 },
-        { "id": "CallaLily", "name": "ドドリアン", "count": 20 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 12 }
+        { "id": "ShivadaJadeFragment", "localeName": "哀切なアイスクリスタル·欠片", "rarity": 3, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4, "count": 4 },
+        { "id": "CallaLily", "localeName": "ドドリアン", "count": 20 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 12 }
       ],
       "HP": 1593.2,
       "ATK": 35.36,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "ShivadaJadeChunk", "name": "哀切なアイスクリスタル·塊", "count": 3 },
-        { "id": "HoarfrostCore", "name": "極寒のコア", "count": 8 },
-        { "id": "CallaLily", "name": "ドドリアン", "count": 30 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 18 }
+        { "id": "ShivadaJadeChunk", "localeName": "哀切なアイスクリスタル·塊", "rarity": 4, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4, "count": 8 },
+        { "id": "CallaLily", "localeName": "ドドリアン", "count": 30 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 18 }
       ],
       "HP": 2019.1,
       "ATK": 44.813,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "ShivadaJadeChunk", "name": "哀切なアイスクリスタル·塊", "count": 6 },
-        { "id": "HoarfrostCore", "name": "極寒のコア", "count": 12 },
-        { "id": "CallaLily", "name": "ドドリアン", "count": 45 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 12 }
+        { "id": "ShivadaJadeChunk", "localeName": "哀切なアイスクリスタル·塊", "rarity": 4, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4, "count": 12 },
+        { "id": "CallaLily", "localeName": "ドドリアン", "count": 45 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 12 }
       ],
       "HP": 2445,
       "ATK": 54.265,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "ShivadaJadeGemstone", "name": "哀切なアイスクリスタル", "count": 6 },
-        { "id": "HoarfrostCore", "name": "極寒のコア", "count": 20 },
-        { "id": "CallaLily", "name": "ドドリアン", "count": 60 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 24 }
+        { "id": "ShivadaJadeGemstone", "localeName": "哀切なアイスクリスタル", "rarity": 5, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4, "count": 20 },
+        { "id": "CallaLily", "localeName": "ドドリアン", "count": 60 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 24 }
       ],
       "HP": 2870.9,
       "ATK": 63.718,
@@ -92,16 +92,11 @@
   "ascensionType": 29,
   "element": 7,
   "elemSkill": {
-    "name": "フリーズキャッツクロー",
+    "name": "IcyPaws",
+    "localeName": "フリーズキャッツクロー",
     "desc": "フリーズキャッツクローを放ち、敵に<color=#99FFFFFF>氷元素ダメージ</color>を与え、命中時にシールドを生成する。\nシールドのダメージ吸収量はディオナのHP上限によって決まり、継続時間は命中したフリーズキャッツクローの数によって決まる。\n\n<color=#FFD780FF>一回押し</color>\n素早くフリーズキャッツクローを2枚発射する。\n\n<color=#FFD780FF>長押し</color>\n素早く後退し、フリーズキャッツクローを5枚発射する。\n長押しで生成したシールドのダメージ吸収量+75%。\n\nシールドは<color=#99FFFFFF>氷元素ダメージ</color>に対して、250%の吸収効果がある。また、シールド生成時、キャラクターに短時間の<color=#99FFFFFF>氷元素付着</color>を与える。\n\n<i>最初はいくらお酒に氷を入れても、酔っ払いには効かなかった。だがディオナが神の目を手に入れてから状況が変わった。こんなにも頭が張り裂けそうな氷ができたから。やったね！</i>",
     "cd": 6,
-    "paramTpls": [
-      "キャッツクローダメージ|1つにつき{param1:F1P}",
-      "シールド基礎吸収量|{param2:F1P}HP上限+{param3:I}",
-      "継続時間|キャッツクロー1つにつき{param6:F1}秒",
-      "一回押しクールタイム|{param4:F1}秒",
-      "長押しクールタイム|{param5:F1}秒"
-    ],
+    "paramTpls": ["キャッツクローダメージ|1つにつき{param1:F1P}", "シールド基礎吸収量|{param2:F1P}HP上限+{param3:I}", "継続時間|キャッツクロー1つにつき{param6:F1}秒", "一回押しクールタイム|{param4:F1}秒", "長押しクールタイム|{param5:F1}秒"],
     "paramVals": [
       [0.4192, 0.072, 692.81, 6, 15, 1.8],
       [0.45064, 0.0774, 762.1, 6, 15, 1.9],
@@ -121,61 +116,55 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "「自由」の教え", "count": 3 },
-        { "id": "FirmArrowhead", "name": "牢固な矢先", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」の教え", "rarity": 2, "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "牢固な矢先", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 2 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 2 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 4 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 4 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 6 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 6 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 9 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 9 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 4 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 4 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 4 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 4 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 6 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 6 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 6 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 6 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 12 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 9 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 12 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 9 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 16 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 12 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 16 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 12 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "特製スピリッツ",
+    "name": "SignatureMix",
+    "localeName": "特製スピリッツ",
     "desc": "特製の氷入りスピリッツを投げ出し、<color=#99FFFFFF>氷元素範囲ダメージ</color>を与え、氷気の酒霧エリアを生成する。\n\n<color=#FFD780FF>氷気の酒霧エリア</color>\n·エリアにいる敵に<color=#99FFFFFF>氷元素ダメージ</color>を持続的に与える。\n·エリアにいるキャラクターのHPを持続的に回復する。\n\n<i>ディオナ自身ですら恐怖を感じる非人道的なレシピ。先味は恐ろしいため、敵にあげることをおすすめする。後味は清冽だが、鼻と肌でしか楽しめない。</i>",
     "cd": 20,
     "energyCost": 80,
-    "paramTpls": [
-      "スキルダメージ|{param1:P}",
-      "エリアの継続ダメージ|{param2:F1P}",
-      "継続回復量|{param3:F2P}HP上限+{param4:I}",
-      "継続時間|{param7:F1}秒",
-      "クールタイム|{param5:F1}秒",
-      "元素エネルギー|{param6:I}"
-    ],
+    "paramTpls": ["スキルダメージ|{param1:P}", "エリアの継続ダメージ|{param2:F1P}", "継続回復量|{param3:F2P}HP上限+{param4:I}", "継続時間|{param7:F1}秒", "クールタイム|{param5:F1}秒", "元素エネルギー|{param6:I}"],
     "paramVals": [
       [0.8, 0.5264, 0.05336, 513.19, 20, 80, 12],
       [0.86, 0.56588, 0.057362, 564.52, 20, 80, 12],
@@ -195,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "「自由」の教え", "count": 3 },
-        { "id": "FirmArrowhead", "name": "牢固な矢先", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」の教え", "rarity": 2, "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "牢固な矢先", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 2 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 2 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 4 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 4 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 6 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 6 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 9 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 9 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 4 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 4 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 4 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 4 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 6 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 6 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 6 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 6 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 12 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 9 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 12 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 9 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 16 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 12 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 16 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 12 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "通常攻撃·狩人の射術",
+    "name": "NormalAttackKatzleinStyle",
+    "localeName": "通常攻撃·狩人の射術",
     "desc": "<color=#FFD780FF>通常攻撃</color>\n最大5段の連続射撃を行う。\n\n<color=#FFD780FF>重撃</color>\nダメージがより高く、より精確な<color=#FFD780FF>狙い撃ち</color>を発動する。\n照準時、氷霜の寒気が矢先に付着する。寒気に満ちた矢は敵に<color=#99FFFFFF>氷元素ダメージ</color>を与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。",
     "cd": 0,
     "paramTpls": [
@@ -271,80 +261,72 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "「自由」の教え", "count": 3 },
-        { "id": "FirmArrowhead", "name": "牢固な矢先", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」の教え", "rarity": 2, "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "牢固な矢先", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 2 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 2 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 4 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 4 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 6 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 6 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 9 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 9 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 4 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 4 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 4 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 4 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 6 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 6 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 6 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 6 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 12 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 9 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 12 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 9 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 16 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 12 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 16 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 12 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    {
-      "name": "キャッツテールの裏メニュー",
-      "desc": "<color=#FFD780FF>フリーズキャッツクロー</color>のシールドが存在する時、キャラクターの移動速度+10%、スタミナ消費-10%。",
-      "unlock": 1,
-      "values": [0.1, -0.1]
-    },
-    { "name": "滑稽な酔態", "desc": "<color=#FFD780FF>特製スピリッツ</color>のエリアに入った敵の攻撃力が15秒間-10%。", "unlock": 4, "values": [-0.1, 15] },
-    { "name": "おまけのおつまみ", "desc": "回復系料理を完璧調理した時、12%の確率で料理を2倍獲得する。" }
+    { "name": "CatsTailSecretMenu", "localeName": "キャッツテールの裏メニュー", "desc": "<color=#FFD780FF>フリーズキャッツクロー</color>のシールドが存在する時、キャラクターの移動速度+10%、スタミナ消費-10%。", "unlock": 1, "values": [0.1, -0.1] },
+    { "name": "DrunkardsFarce", "localeName": "滑稽な酔態", "desc": "<color=#FFD780FF>特製スピリッツ</color>のエリアに入った敵の攻撃力が15秒間-10%。", "unlock": 4, "values": [-0.1, 15] },
+    { "name": "ComplimentaryBarFood", "localeName": "おまけのおつまみ", "desc": "回復系料理を完璧調理した時、12%の確率で料理を2倍獲得する。" }
   ],
   "c13ns": [
-    { "name": "特製の余韻", "desc": "<color=#FFD780FF>特製スピリッツ</color>の効果終了時、ディオナの元素エネルギーを15回復する。", "values": [15] },
+    { "name": "ALingeringFlavor", "localeName": "特製の余韻", "desc": "<color=#FFD780FF>特製スピリッツ</color>の効果終了時、ディオナの元素エネルギーを15回復する。", "values": [15] },
     {
-      "name": "クールキャッツクロー",
+      "name": "ShakenNotPurred",
+      "localeName": "クールキャッツクロー",
       "desc": "<color=#FFD780FF>フリーズキャッツクロー</color>によるダメージ+15%、シールドのダメージ吸収量+15%。\n命中時、近くに出場している他のキャラクターに<color=#FFD780FF>フリーズキャッツクロー</color>50%分のダメージを吸収するシールドを付与する、継続時間5秒。",
       "values": [0.15, 0.15, 0.5, 5]
     },
-    { "name": "お、おかわり？", "desc": "<color=#FFD780FF>特製スピリッツ</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "「酒造業キラー」", "desc": "<color=#FFD780FF>特製スピリッツ</color>のエリアにいる時、ディオナの狙い撃ちのチャージ時間-60%。" },
-    { "name": "エクストラアイス", "desc": "<color=#FFD780FF>フリーズキャッツクロー</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    {
-      "name": "キャッツテールが閉店の時",
-      "desc": "<color=#FFD780FF>特製スピリッツ</color>のエリアにいるキャラクターは自身の現在HPによって以下の効果を獲得する：\n·HPが50%以下の時、受ける治療効果+30%。\n·HPが50%より上回る時、元素熟知+200。",
-      "values": [0.3, 200]
-    }
+    { "name": "AAnotherRound", "localeName": "お、おかわり？", "desc": "<color=#FFD780FF>特製スピリッツ</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "WineIndustrySlayer", "localeName": "「酒造業キラー」", "desc": "<color=#FFD780FF>特製スピリッツ</color>のエリアにいる時、ディオナの狙い撃ちのチャージ時間-60%。" },
+    { "name": "DoubleShotOnTheRocks", "localeName": "エクストラアイス", "desc": "<color=#FFD780FF>フリーズキャッツクロー</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "CatsTailClosingTime", "localeName": "キャッツテールが閉店の時", "desc": "<color=#FFD780FF>特製スピリッツ</color>のエリアにいるキャラクターは自身の現在HPによって以下の効果を獲得する：\n·HPが50%以下の時、受ける治療効果+30%。\n·HPが50%より上回る時、元素熟知+200。", "values": [0.3, 200] }
   ],
   "overviewItems": [
-    { "id": "ShivadaJadeGemstone", "name": "哀切なアイスクリスタル", "rarity": 5 },
-    { "id": "HoarfrostCore", "name": "極寒のコア", "rarity": 4 },
-    { "id": "CallaLily", "name": "ドドリアン" },
-    { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "rarity": 3 },
-    { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "rarity": 4 },
-    { "id": "ShardOfAFoulLegacy", "name": "魔王の刃·残片", "rarity": 5 }
+    { "id": "ShivadaJadeGemstone", "localeName": "哀切なアイスクリスタル", "rarity": 5 },
+    { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4 },
+    { "id": "CallaLily", "localeName": "ドドリアン" },
+    { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3 },
+    { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4 },
+    { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5 }
   ]
 }

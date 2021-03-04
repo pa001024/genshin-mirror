@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VayudaTurquoiseSliver", "name": "Vayuda Turquoise Sliver", "count": 1 },
-        { "id": "Qingxin", "name": "Qingxin", "count": 3 },
-        { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 3 }
+        { "id": "VayudaTurquoiseSliver", "localeName": "Vayuda Turquoise Sliver", "rarity": 2, "count": 1 },
+        { "id": "Qingxin", "localeName": "Qingxin", "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 3 }
       ],
       "HP": 850.08,
       "ATK": 23.307,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VayudaTurquoiseFragment", "name": "Vayuda Turquoise Fragment", "count": 3 },
-        { "id": "JuvenileJade", "name": "Juvenile Jade", "count": 2 },
-        { "id": "Qingxin", "name": "Qingxin", "count": 10 },
-        { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 15 }
+        { "id": "VayudaTurquoiseFragment", "localeName": "Vayuda Turquoise Fragment", "rarity": 3, "count": 3 },
+        { "id": "JuvenileJade", "localeName": "Juvenile Jade", "rarity": 4, "count": 2 },
+        { "id": "Qingxin", "localeName": "Qingxin", "count": 10 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 15 }
       ],
       "HP": 1454.1,
       "ATK": 39.867,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VayudaTurquoiseFragment", "name": "Vayuda Turquoise Fragment", "count": 6 },
-        { "id": "JuvenileJade", "name": "Juvenile Jade", "count": 4 },
-        { "id": "Qingxin", "name": "Qingxin", "count": 20 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 12 }
+        { "id": "VayudaTurquoiseFragment", "localeName": "Vayuda Turquoise Fragment", "rarity": 3, "count": 6 },
+        { "id": "JuvenileJade", "localeName": "Juvenile Jade", "rarity": 4, "count": 4 },
+        { "id": "Qingxin", "localeName": "Qingxin", "count": 20 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 12 }
       ],
       "HP": 2259.4,
       "ATK": 61.948,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VayudaTurquoiseChunk", "name": "Vayuda Turquoise Chunk", "count": 3 },
-        { "id": "JuvenileJade", "name": "Juvenile Jade", "count": 8 },
-        { "id": "Qingxin", "name": "Qingxin", "count": 30 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 18 }
+        { "id": "VayudaTurquoiseChunk", "localeName": "Vayuda Turquoise Chunk", "rarity": 4, "count": 3 },
+        { "id": "JuvenileJade", "localeName": "Juvenile Jade", "rarity": 4, "count": 8 },
+        { "id": "Qingxin", "localeName": "Qingxin", "count": 30 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 18 }
       ],
       "HP": 2863.4,
       "ATK": 78.508,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VayudaTurquoiseChunk", "name": "Vayuda Turquoise Chunk", "count": 6 },
-        { "id": "JuvenileJade", "name": "Juvenile Jade", "count": 12 },
-        { "id": "Qingxin", "name": "Qingxin", "count": 45 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 12 }
+        { "id": "VayudaTurquoiseChunk", "localeName": "Vayuda Turquoise Chunk", "rarity": 4, "count": 6 },
+        { "id": "JuvenileJade", "localeName": "Juvenile Jade", "rarity": 4, "count": 12 },
+        { "id": "Qingxin", "localeName": "Qingxin", "count": 45 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 12 }
       ],
       "HP": 3467.4,
       "ATK": 95.069,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VayudaTurquoiseGemstone", "name": "Vayuda Turquoise Gemstone", "count": 6 },
-        { "id": "JuvenileJade", "name": "Juvenile Jade", "count": 20 },
-        { "id": "Qingxin", "name": "Qingxin", "count": 60 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 24 }
+        { "id": "VayudaTurquoiseGemstone", "localeName": "Vayuda Turquoise Gemstone", "rarity": 5, "count": 6 },
+        { "id": "JuvenileJade", "localeName": "Juvenile Jade", "rarity": 4, "count": 20 },
+        { "id": "Qingxin", "localeName": "Qingxin", "count": 60 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 24 }
       ],
       "HP": 4071.4,
       "ATK": 111.63,
@@ -92,7 +92,8 @@
   "ascensionType": 12,
   "element": 1,
   "elemSkill": {
-    "name": "Lemniscatic Wind Cycling",
+    "name": "LemniscaticWindCycling",
+    "localeName": "Lemniscatic Wind Cycling",
     "desc": "Xiao lunges forward, dealing <color=#80FFD7FF>Anemo DMG</color> to opponents in his path.\nCan be used in mid-air.\nStarts with 2 charges.\n\n<i>According to the legends of another land, the world will someday be crushed by two great wind wheels. Xiao's mastery over polearms is transcendent, ripping his foes apart like those legendary wind wheels.</i>",
     "cd": 10,
     "paramTpls": ["Skill DMG|{param1:P}", "CD|{param2:F1}s"],
@@ -115,60 +116,55 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "Teachings of Prosperity", "count": 3 },
-        { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "Teachings of Prosperity", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 2 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 4 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 6 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 9 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 4 },
-        { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 4 },
+        { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 6 },
-        { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 6 },
+        { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 9 },
-        { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 9 },
+        { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 12 },
-        { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 12 },
+        { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "Bane of All Evil",
+    "name": "BaneOfAllEvil",
+    "localeName": "Bane of All Evil",
     "desc": "Xiao dons the Yaksha Mask that set gods and demons trembling millennia ago.\n\n<color=#FFD780FF>Yaksha's Mask</color>\n·Greatly increases Xiao's jumping ability.\n·Increases his attack AoE and attack DMG.\n·Converts attack DMG into <color=#80FFD7FF>Anemo DMG</color>, which cannot be overridden by any other elemental infusion.\n\nIn this state, Xiao will continuously lose HP.\nThe effects of this skill end when Xiao leaves the field.\n\n<i>Donning the Mask of the Yaksha, Xiao takes the terrifying, demon-conquering form of the Vigilant Yaksha. But this great power has also brought him great suffering. Some call him \"The Bane of All Evil.\"</i>",
     "cd": 18,
     "energyCost": 70,
-    "paramTpls": [
-      "Normal Attack/Charged Attack/Plunging Attack DMG Bonus|{param1:F1P}",
-      "Life Drain|{param2:F1P} Current HP Per Second",
-      "Duration|{param3:F1}s",
-      "CD|{param4:F1}s",
-      "Energy Cost|{param5:I}"
-    ],
+    "paramTpls": ["Normal Attack/Charged Attack/Plunging Attack DMG Bonus|{param1:F1P}", "Life Drain|{param2:F1P} Current HP Per Second", "Duration|{param3:F1}s", "CD|{param4:F1}s", "Energy Cost|{param5:I}"],
     "paramVals": [
       [0.5845, 0.03, 15, 18, 70],
       [0.6195, 0.03, 15, 18, 70],
@@ -188,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "Teachings of Prosperity", "count": 3 },
-        { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "Teachings of Prosperity", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 2 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 4 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 6 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 9 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 4 },
-        { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 4 },
+        { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 6 },
-        { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 6 },
+        { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 9 },
-        { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 9 },
+        { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 12 },
-        { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 12 },
+        { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "Normal Attack: Whirlwind Thrust",
+    "name": "NormalAttackWhirlwindThrust",
+    "localeName": "Normal Attack: Whirlwind Thrust",
     "desc": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 6 consecutive spear strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to perform an upward thrust.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\nXiao does not take DMG from performing Plunging Attacks.",
     "cd": 0,
     "paramTpls": [
@@ -265,84 +262,84 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "Teachings of Prosperity", "count": 3 },
-        { "id": "SlimeCondensate", "name": "Slime Condensate", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "Teachings of Prosperity", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 2 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 4 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 6 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 9 },
-        { "id": "SlimeSecretions", "name": "Slime Secretions", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 4 },
-        { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 4 },
+        { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 6 },
-        { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 6 },
+        { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 9 },
-        { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 9 },
+        { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "Slime Concentrate", "count": 12 },
-        { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 12 },
+        { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
     {
-      "name": "Conqueror of Evil: Tamer of Demons",
+      "name": "ConquerorOfEvilTamerOfDemons",
+      "localeName": "Conqueror of Evil: Tamer of Demons",
       "desc": "While under the effects of <color=#FFD780FF>Bane of All Evil</color>, all DMG dealt by Xiao increases by 5%. DMG increases by a further 5% for every 3s the ability persists.\nThe maximum DMG Bonus is 25%.",
       "unlock": 1,
       "values": [0.05]
     },
     {
-      "name": "Dissolution Eon: Heaven Fall",
+      "name": "DissolutionEonHeavenFall",
+      "localeName": "Dissolution Eon: Heaven Fall",
       "desc": "Using <color=#FFD780FF>Lemniscatic Wind Cycling</color> increases the DMG of subsequent uses of Lemniscatic Wind Cycling by 15%.\nThis effect lasts for 7s, and has a maximum of 3 stacks. Gaining a new stack refreshes the effect's duration.",
       "unlock": 4,
       "values": [7, 0.15, 3]
     },
-    {
-      "name": "Transcension: Gravity Defier",
-      "desc": "Decreases climbing Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
-    }
+    { "name": "TranscensionGravityDefier", "localeName": "Transcension: Gravity Defier", "desc": "Decreases climbing Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects." }
   ],
   "c13ns": [
-    { "name": "Dissolution Eon: Destroyer of Worlds", "desc": "Increases <color=#FFD780FF>Lemniscatic Wind Cycling</color>'s charges by 1." },
-    { "name": "Annihilation Eon: Blossom of Kaleidos", "desc": "When in the party and not on the field, Xiao's Energy Recharge is increased by 25%.", "values": [0.25] },
-    { "name": "Conqueror of Evil: Wrath Deity", "desc": "Increases the Level of <color=#FFD780FF>Lemniscatic Wind Cycling</color> by 3.\nMaximum upgrade level is 15." },
-    { "name": "Transcension: Extinction of Suffering", "desc": "When Xiao's HP falls below 50%, he gains a 100% DEF Bonus.", "values": [0.5, 1] },
-    { "name": "Evolution Eon: Origin of Ignorance", "desc": "Increases the Level of <color=#FFD780FF>Bane of All Evil</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "DissolutionEonDestroyerOfWorlds", "localeName": "Dissolution Eon: Destroyer of Worlds", "desc": "Increases <color=#FFD780FF>Lemniscatic Wind Cycling</color>'s charges by 1." },
+    { "name": "AnnihilationEonBlossomOfKaleidos", "localeName": "Annihilation Eon: Blossom of Kaleidos", "desc": "When in the party and not on the field, Xiao's Energy Recharge is increased by 25%.", "values": [0.25] },
+    { "name": "ConquerorOfEvilWrathDeity", "localeName": "Conqueror of Evil: Wrath Deity", "desc": "Increases the Level of <color=#FFD780FF>Lemniscatic Wind Cycling</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "TranscensionExtinctionOfSuffering", "localeName": "Transcension: Extinction of Suffering", "desc": "When Xiao's HP falls below 50%, he gains a 100% DEF Bonus.", "values": [0.5, 1] },
+    { "name": "EvolutionEonOriginOfIgnorance", "localeName": "Evolution Eon: Origin of Ignorance", "desc": "Increases the Level of <color=#FFD780FF>Bane of All Evil</color> by 3.\nMaximum upgrade level is 15." },
     {
-      "name": "Conqueror of Evil: Guardian Yaksha",
+      "name": "ConquerorOfEvilGuardianYaksha",
+      "localeName": "Conqueror of Evil: Guardian Yaksha",
       "desc": "While under the effects of <color=#FFD780FF>Bane of All Evil</color>, hitting at least 2 opponents with Xiao's Plunging Attack will immediately grant him 1 charge of <color=#FFD780FF>Lemniscatic Wind Cycling</color>, and for the next 1s, he may use Lemniscatic Wind Cycling while ignoring its CD.",
       "values": [1]
     }
   ],
   "overviewItems": [
-    { "id": "VayudaTurquoiseGemstone", "name": "Vayuda Turquoise Gemstone", "rarity": 5 },
-    { "id": "JuvenileJade", "name": "Juvenile Jade", "rarity": 4 },
-    { "id": "Qingxin", "name": "Qingxin" },
-    { "id": "SlimeConcentrate", "name": "Slime Concentrate", "rarity": 3 },
-    { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "rarity": 4 },
-    { "id": "ShadowOfTheWarrior", "name": "Shadow of the Warrior", "rarity": 5 }
+    { "id": "VayudaTurquoiseGemstone", "localeName": "Vayuda Turquoise Gemstone", "rarity": 5 },
+    { "id": "JuvenileJade", "localeName": "Juvenile Jade", "rarity": 4 },
+    { "id": "Qingxin", "localeName": "Qingxin" },
+    { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3 },
+    { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4 },
+    { "id": "ShadowOfTheWarrior", "localeName": "Shadow of the Warrior", "rarity": 5 }
   ]
 }

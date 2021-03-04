@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VayudaTurquoiseSliver", "name": "自由のターコイズ·砕屑", "count": 1 },
-        { "id": "DandelionSeed", "name": "蒲公英の種", "count": 3 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 3 }
+        { "id": "VayudaTurquoiseSliver", "localeName": "自由のターコイズ·砕屑", "rarity": 2, "count": 1 },
+        { "id": "DandelionSeed", "localeName": "蒲公英の種", "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 3 }
       ],
       "HP": 980.86,
       "ATK": 15.964,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VayudaTurquoiseFragment", "name": "自由のターコイズ·欠片", "count": 3 },
-        { "id": "HurricaneSeed", "name": "暴風の種", "count": 2 },
-        { "id": "DandelionSeed", "name": "蒲公英の種", "count": 10 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 15 }
+        { "id": "VayudaTurquoiseFragment", "localeName": "自由のターコイズ·欠片", "rarity": 3, "count": 3 },
+        { "id": "HurricaneSeed", "localeName": "暴風の種", "rarity": 4, "count": 2 },
+        { "id": "DandelionSeed", "localeName": "蒲公英の種", "count": 10 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 15 }
       ],
       "HP": 1677.8,
       "ATK": 27.306,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VayudaTurquoiseFragment", "name": "自由のターコイズ·欠片", "count": 6 },
-        { "id": "HurricaneSeed", "name": "暴風の種", "count": 4 },
-        { "id": "DandelionSeed", "name": "蒲公英の種", "count": 20 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 12 }
+        { "id": "VayudaTurquoiseFragment", "localeName": "自由のターコイズ·欠片", "rarity": 3, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "暴風の種", "rarity": 4, "count": 4 },
+        { "id": "DandelionSeed", "localeName": "蒲公英の種", "count": 20 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 12 }
       ],
       "HP": 2607,
       "ATK": 42.43,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VayudaTurquoiseChunk", "name": "自由のターコイズ·塊", "count": 3 },
-        { "id": "HurricaneSeed", "name": "暴風の種", "count": 8 },
-        { "id": "DandelionSeed", "name": "蒲公英の種", "count": 30 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 18 }
+        { "id": "VayudaTurquoiseChunk", "localeName": "自由のターコイズ·塊", "rarity": 4, "count": 3 },
+        { "id": "HurricaneSeed", "localeName": "暴風の種", "rarity": 4, "count": 8 },
+        { "id": "DandelionSeed", "localeName": "蒲公英の種", "count": 30 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 18 }
       ],
       "HP": 3304,
       "ATK": 53.773,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VayudaTurquoiseChunk", "name": "自由のターコイズ·塊", "count": 6 },
-        { "id": "HurricaneSeed", "name": "暴風の種", "count": 12 },
-        { "id": "DandelionSeed", "name": "蒲公英の種", "count": 45 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 12 }
+        { "id": "VayudaTurquoiseChunk", "localeName": "自由のターコイズ·塊", "rarity": 4, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "暴風の種", "rarity": 4, "count": 12 },
+        { "id": "DandelionSeed", "localeName": "蒲公英の種", "count": 45 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 12 }
       ],
       "HP": 4000.9,
       "ATK": 65.116,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VayudaTurquoiseGemstone", "name": "自由のターコイズ", "count": 6 },
-        { "id": "HurricaneSeed", "name": "暴風の種", "count": 20 },
-        { "id": "DandelionSeed", "name": "蒲公英の種", "count": 60 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 24 }
+        { "id": "VayudaTurquoiseGemstone", "localeName": "自由のターコイズ", "rarity": 5, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "暴風の種", "rarity": 4, "count": 20 },
+        { "id": "DandelionSeed", "localeName": "蒲公英の種", "count": 60 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 24 }
       ],
       "HP": 4697.8,
       "ATK": 76.458,
@@ -92,7 +92,8 @@
   "ascensionType": 14,
   "element": 1,
   "elemSkill": {
-    "name": "風圧剣",
+    "name": "GaleBlade",
+    "localeName": "風圧剣",
     "desc": "形のない風を剣に集中させ、小型の嵐を放つ。敵を狙った方向にノックバックし、大量の<color=#80FFD7FF>風元素ダメージ</color>を与える。\n\n<color=#FFD780FF>長押し</color>\nスタミナを消費する代わりに、周囲の敵と物体を目の前に吸い寄せることができる。\n方向の調整が可能。\n長押し中は移動できない。\n\n<i>ジンと共にあるのは、仲間を守ることができる守護の風だ。</i>",
     "cd": 6,
     "paramTpls": ["スキルダメージ|{param1:P}", "スタミナ消費|秒ごと{param2:F1}", "最大継続時間|{param3:F1}秒", "クールタイム|{param4:F1}秒"],
@@ -115,61 +116,55 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」の教え", "count": 3 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」の教え", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 2 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 4 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 6 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 9 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 4 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 4 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 6 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 6 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 12 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 9 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 16 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 12 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "蒲公英の風",
+    "name": "DandelionBreeze",
+    "localeName": "蒲公英の風",
     "desc": "風の加護を呼び、千風が流れる蒲公英エリアを作り出し、周囲の敵に<color=#80FFD7FF>風元素ダメージ</color>を与えてノックバックする。\nジンの攻撃力を基準にチームメンバーのHPを大量に回復する。\n\n<color=#FFD780FF>蒲公英エリア</color>\n·エリア内にいるキャラクターのHPを持続的に回復する。\n·エリア内にいるキャラクターは持続的に<color=#80FFD7FF>風元素の影響</color>を受ける。\n·エリアを出入りする敵に<color=#80FFD7FF>風元素ダメージ</color>を与える\n\n<i>風の恵みはまるで広い大地に生息する蒲公英のようで、ジンの守るという意志の根源でもある。</i>",
     "cd": 20,
     "energyCost": 80,
-    "paramTpls": [
-      "爆発ダメージ|{param1:P}",
-      "エリア出入りダメージ|{param2:F1P}",
-      "エリア内の回復量|{param3:P}攻撃力+{param4:I}",
-      "継続回復|毎秒{param5:F2P}攻撃力+{param6:I}",
-      "クールタイム|{param7:F1}秒",
-      "元素エネルギー|{param8:I}"
-    ],
+    "paramTpls": ["爆発ダメージ|{param1:P}", "エリア出入りダメージ|{param2:F1P}", "エリア内の回復量|{param3:P}攻撃力+{param4:I}", "継続回復|毎秒{param5:F2P}攻撃力+{param6:I}", "クールタイム|{param7:F1}秒", "元素エネルギー|{param8:I}"],
     "paramVals": [
       [4.248, 0.784, 2.512, 1540.3, 0.2512, 154.03, 20, 80],
       [4.5666, 0.8428, 2.7004, 1694.4, 0.27004, 169.44, 20, 80],
@@ -189,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」の教え", "count": 3 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」の教え", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 2 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 4 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 6 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 9 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 4 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 4 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 6 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 6 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 12 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 9 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 16 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 12 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "通常攻撃·西風剣術",
+    "name": "NormalAttackFavoniusBladework",
+    "localeName": "通常攻撃·西風剣術",
     "desc": "<color=#FFD780FF>通常攻撃</color>\n剣による最大5段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、風の力に満ちた斬り上げ攻撃を発動する。\n斬り上げられた敵はゆっくりと降下する。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
     "cd": 0,
     "paramTpls": [
@@ -265,71 +261,67 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」の教え", "count": 3 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」の教え", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 2 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 4 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 6 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 9 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 4 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 4 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 6 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 6 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 12 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 9 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 16 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 12 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "風の赴くままに", "desc": "ジンの通常攻撃が命中する時、50%の確率でチーム全員のHPを回復する。回復量はジンの攻撃力の15%に相当する。", "unlock": 1, "values": [0.5, 0.15] },
-    { "name": "風の導くままに", "desc": "<color=#FFD780FF>蒲公英の風</color>発動後、元素エネルギーが20%回復する。", "unlock": 4, "values": [16] },
-    { "name": "導きの風", "desc": "回復系料理を完璧調理した時、12%の確率で料理を2倍獲得する。" }
+    { "name": "WindCompanion", "localeName": "風の赴くままに", "desc": "ジンの通常攻撃が命中する時、50%の確率でチーム全員のHPを回復する。回復量はジンの攻撃力の15%に相当する。", "unlock": 1, "values": [0.5, 0.15] },
+    { "name": "LetTheWindLead", "localeName": "風の導くままに", "desc": "<color=#FFD780FF>蒲公英の風</color>発動後、元素エネルギーが20%回復する。", "unlock": 4, "values": [16] },
+    { "name": "GuidingBreeze", "localeName": "導きの風", "desc": "回復系料理を完璧調理した時、12%の確率で料理を2倍獲得する。" }
   ],
   "c13ns": [
-    { "name": "剣脊に流れる暴風", "desc": "<color=#FFD780FF>風圧剣</color>の長押しが1秒以上の時、吸い寄せる速度がアップし、与えるダメージ+40%。", "values": [0.4] },
-    { "name": "人々を守る盾", "desc": "ジンが元素オーブまたは元素粒子を獲得した時、チームにいる全てのキャラクターの移動速度+15%、攻撃速度+15%、継続時間15秒。", "values": [0.15, 0.15, 15] },
-    { "name": "西風が吹く時", "desc": "<color=#FFD780FF>蒲公英の風</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "蒲公英の国土", "desc": "<color=#FFD780FF>蒲公英の風</color>エリア内、全ての敵の<color=#80FFD7FF>風元素耐性</color>-40%。", "values": [0.4] },
-    { "name": "しばしの烈風", "desc": "<color=#FFD780FF>風圧剣</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    {
-      "name": "民を眷顧する獅子の牙",
-      "desc": "<color=#FFD780FF>蒲公英の風</color>エリア内、キャラクターの受けるダメージ-35%。\nエリアを出た後、この効果は3回攻撃を受けた後、または10秒後になくなる。",
-      "values": [0.35]
-    }
+    { "name": "SpiralingTempest", "localeName": "剣脊に流れる暴風", "desc": "<color=#FFD780FF>風圧剣</color>の長押しが1秒以上の時、吸い寄せる速度がアップし、与えるダメージ+40%。", "values": [0.4] },
+    { "name": "PeoplesAegis", "localeName": "人々を守る盾", "desc": "ジンが元素オーブまたは元素粒子を獲得した時、チームにいる全てのキャラクターの移動速度+15%、攻撃速度+15%、継続時間15秒。", "values": [0.15, 0.15, 15] },
+    { "name": "WhenTheWestWindArises", "localeName": "西風が吹く時", "desc": "<color=#FFD780FF>蒲公英の風</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "LandsOfDandelion", "localeName": "蒲公英の国土", "desc": "<color=#FFD780FF>蒲公英の風</color>エリア内、全ての敵の<color=#80FFD7FF>風元素耐性</color>-40%。", "values": [0.4] },
+    { "name": "OutburstingGust", "localeName": "しばしの烈風", "desc": "<color=#FFD780FF>風圧剣</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "LionsFangFairProtectorOfMondstadt", "localeName": "民を眷顧する獅子の牙", "desc": "<color=#FFD780FF>蒲公英の風</color>エリア内、キャラクターの受けるダメージ-35%。\nエリアを出た後、この効果は3回攻撃を受けた後、または10秒後になくなる。", "values": [0.35] }
   ],
   "overviewItems": [
-    { "id": "VayudaTurquoiseGemstone", "name": "自由のターコイズ", "rarity": 5 },
-    { "id": "HurricaneSeed", "name": "暴風の種", "rarity": 4 },
-    { "id": "DandelionSeed", "name": "蒲公英の種" },
-    { "id": "OminousMask", "name": "不吉な仮面", "rarity": 3 },
-    { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "rarity": 4 },
-    { "id": "DvalinsPlume", "name": "東風の羽根", "rarity": 5 }
+    { "id": "VayudaTurquoiseGemstone", "localeName": "自由のターコイズ", "rarity": 5 },
+    { "id": "HurricaneSeed", "localeName": "暴風の種", "rarity": 4 },
+    { "id": "DandelionSeed", "localeName": "蒲公英の種" },
+    { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3 },
+    { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4 },
+    { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5 }
   ]
 }

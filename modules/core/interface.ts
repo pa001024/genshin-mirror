@@ -221,7 +221,8 @@ export interface IAscension {
 /** 物品 */
 export interface IItemStack {
   id: string;
-  name: string;
+  localeName: string;
+  rarity?: number;
   count: number;
 }
 
@@ -249,6 +250,7 @@ export interface IAttack {
 /** 技能 */
 export interface ISkill {
   name: string;
+  localeName: string;
   desc: string;
   cd: number;
   energyCost?: number;
@@ -277,6 +279,7 @@ export interface ISkillAttribute {
 /** 天赋 */
 export interface ITalent {
   name: string;
+  localeName: string;
   desc: string;
   unlock?: number;
   unlockDesc?: string;
@@ -287,6 +290,7 @@ export interface ITalent {
 /** 命之座 */
 export interface IConstellation {
   name: string;
+  localeName: string;
   desc: string;
   values?: number[];
   buffs?: IBuff[];
@@ -336,7 +340,7 @@ export interface IEnemy {
 
 export interface IItem {
   id: string;
-  name: string;
+  name?: string;
   localeName?: string;
   desc?: string;
   type?: MaterialType;
@@ -346,7 +350,7 @@ export interface IItem {
 }
 
 export interface IUserBuild {
-  // /** 标识符 */ id?: string;
+  /** 标识符 */ id?: string;
   /** 标题 */ title?: string;
   /** 核心角色id */ cores?: string[];
   /** 标签 */ tags?: string[];

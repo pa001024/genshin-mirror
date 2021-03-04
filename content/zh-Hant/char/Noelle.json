@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "PrithivaTopazSliver", "name": "堅牢黃玉碎屑", "count": 1 },
-        { "id": "Valberry", "name": "落落莓", "count": 3 },
-        { "id": "DamagedMask", "name": "破損的面具", "count": 3 }
+        { "id": "PrithivaTopazSliver", "localeName": "堅牢黃玉碎屑", "rarity": 2, "count": 1 },
+        { "id": "Valberry", "localeName": "落落莓", "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損的面具", "rarity": 1, "count": 3 }
       ],
       "HP": 756.08,
       "ATK": 11.973,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "PrithivaTopazFragment", "name": "堅牢黃玉斷片", "count": 3 },
-        { "id": "BasaltPillar", "name": "玄岩之塔", "count": 2 },
-        { "id": "Valberry", "name": "落落莓", "count": 10 },
-        { "id": "DamagedMask", "name": "破損的面具", "count": 15 }
+        { "id": "PrithivaTopazFragment", "localeName": "堅牢黃玉斷片", "rarity": 3, "count": 3 },
+        { "id": "BasaltPillar", "localeName": "玄岩之塔", "rarity": 4, "count": 2 },
+        { "id": "Valberry", "localeName": "落落莓", "count": 10 },
+        { "id": "DamagedMask", "localeName": "破損的面具", "rarity": 1, "count": 15 }
       ],
       "HP": 1293.3,
       "ATK": 20.481,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "PrithivaTopazFragment", "name": "堅牢黃玉斷片", "count": 6 },
-        { "id": "BasaltPillar", "name": "玄岩之塔", "count": 4 },
-        { "id": "Valberry", "name": "落落莓", "count": 20 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 12 }
+        { "id": "PrithivaTopazFragment", "localeName": "堅牢黃玉斷片", "rarity": 3, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "玄岩之塔", "rarity": 4, "count": 4 },
+        { "id": "Valberry", "localeName": "落落莓", "count": 20 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 12 }
       ],
       "HP": 2009.6,
       "ATK": 31.824,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "PrithivaTopazChunk", "name": "堅牢黃玉塊", "count": 3 },
-        { "id": "BasaltPillar", "name": "玄岩之塔", "count": 8 },
-        { "id": "Valberry", "name": "落落莓", "count": 30 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 18 }
+        { "id": "PrithivaTopazChunk", "localeName": "堅牢黃玉塊", "rarity": 4, "count": 3 },
+        { "id": "BasaltPillar", "localeName": "玄岩之塔", "rarity": 4, "count": 8 },
+        { "id": "Valberry", "localeName": "落落莓", "count": 30 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 18 }
       ],
       "HP": 2546.8,
       "ATK": 40.332,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "PrithivaTopazChunk", "name": "堅牢黃玉塊", "count": 6 },
-        { "id": "BasaltPillar", "name": "玄岩之塔", "count": 12 },
-        { "id": "Valberry", "name": "落落莓", "count": 45 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 12 }
+        { "id": "PrithivaTopazChunk", "localeName": "堅牢黃玉塊", "rarity": 4, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "玄岩之塔", "rarity": 4, "count": 12 },
+        { "id": "Valberry", "localeName": "落落莓", "count": 45 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 12 }
       ],
       "HP": 3084,
       "ATK": 48.839,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "PrithivaTopazGemstone", "name": "堅牢黃玉", "count": 6 },
-        { "id": "BasaltPillar", "name": "玄岩之塔", "count": 20 },
-        { "id": "Valberry", "name": "落落莓", "count": 60 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 24 }
+        { "id": "PrithivaTopazGemstone", "localeName": "堅牢黃玉", "rarity": 5, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "玄岩之塔", "rarity": 4, "count": 20 },
+        { "id": "Valberry", "localeName": "落落莓", "count": 60 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 24 }
       ],
       "HP": 3621.2,
       "ATK": 57.346,
@@ -92,17 +92,11 @@
   "ascensionType": 9,
   "element": 2,
   "elemSkill": {
-    "name": "護心鎧",
+    "name": "Breastplate",
+    "localeName": "護心鎧",
     "desc": "喚出護體的岩鎧，對周圍的敵人造成<color=#FFE699FF>岩元素傷害</color>，並形成護盾，傷害吸收量基於諾艾爾的防禦力。\n護盾具有如下效果：\n·諾艾爾的普通攻擊與重擊命中時，都有機率為隊伍中所有角色恢復生命值；\n·對所有元素傷害與物理傷害有150%的吸收效果。\n\n觸發治療時的治療量受益於諾艾爾的防禦力。\n\n<i>諾艾爾既是侍奉的女僕，也是堅毅的騎士。</i>",
     "cd": 24,
-    "paramTpls": [
-      "技能傷害|{param6:P}防禦力",
-      "吸收量|{param1:P}防禦力+{param7:I}",
-      "治療量|{param2:F1P}防禦力+{param8:I}",
-      "治療觸發機率|{param3:P}",
-      "持續時間|{param4:F1}秒",
-      "冷卻時間|{param5:F1}秒"
-    ],
+    "paramTpls": ["技能傷害|{param6:P}防禦力", "吸收量|{param1:P}防禦力+{param7:I}", "治療量|{param2:F1P}防禦力+{param8:I}", "治療觸發機率|{param3:P}", "持續時間|{param4:F1}秒", "冷卻時間|{param5:F1}秒"],
     "paramVals": [
       [1.6, 0.2128, 0.5, 12, 24, 1.2, 769.79, 102.72],
       [1.72, 0.22876, 0.51, 12, 24, 1.29, 846.77, 112.99],
@@ -122,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗爭」的教導", "count": 3 },
-        { "id": "DamagedMask", "name": "破損的面具", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗爭」的教導", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損的面具", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 2 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 4 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 6 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 9 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 4 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 4 },
-        { "id": "DvalinsClaw", "name": "東風之爪", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "東風之爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 6 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 6 },
-        { "id": "DvalinsClaw", "name": "東風之爪", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "東風之爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 12 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 9 },
-        { "id": "DvalinsClaw", "name": "東風之爪", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "東風之爪", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 16 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 12 },
-        { "id": "DvalinsClaw", "name": "東風之爪", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "東風之爪", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "大掃除",
+    "name": "SweepingTime",
+    "localeName": "大掃除",
     "desc": "將磐石的力量凝聚在武器上，衝擊周圍的敵人並進行一次大範圍掃擊，造成<color=#FFE699FF>岩元素傷害</color>。\n此後獲得如下效果：\n·提高諾艾爾的攻擊範圍。\n·將攻擊傷害轉為<color=#FFE699FF>岩元素傷害</color>，且此元素轉化無法由附魔覆蓋。\n·根據諾艾爾的防禦力提高攻擊力。\n\n<i>需要掃除的，有時不僅僅是灰塵…</i>",
     "cd": 15,
     "energyCost": 60,
@@ -189,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗爭」的教導", "count": 3 },
-        { "id": "DamagedMask", "name": "破損的面具", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗爭」的教導", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損的面具", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 2 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 4 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 6 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 9 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 4 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 4 },
-        { "id": "DvalinsClaw", "name": "東風之爪", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "東風之爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 6 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 6 },
-        { "id": "DvalinsClaw", "name": "東風之爪", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "東風之爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 12 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 9 },
-        { "id": "DvalinsClaw", "name": "東風之爪", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "東風之爪", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 16 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 12 },
-        { "id": "DvalinsClaw", "name": "東風之爪", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "東風之爪", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "普通攻擊·西風劍術·女僕",
+    "name": "NormalAttackFavoniusBladeworkMaid",
+    "localeName": "普通攻擊·西風劍術·女僕",
     "desc": "<color=#FFD780FF>普通攻擊</color>\n進行至多四段的連續揮砍。\n\n<color=#FFD780FF>重擊</color>\n持續消耗體力，旋轉大劍攻擊周圍的敵人。\n停止旋轉時，會進行一次格外有力的揮砍。\n\n<color=#FFD780FF>下落攻擊</color>\n從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。",
     "cd": 0,
     "paramTpls": [
@@ -266,76 +262,73 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗爭」的教導", "count": 3 },
-        { "id": "DamagedMask", "name": "破損的面具", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗爭」的教導", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損的面具", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 2 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 4 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 6 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 9 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 4 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 4 },
-        { "id": "DvalinsClaw", "name": "東風之爪", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "東風之爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 6 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 6 },
-        { "id": "DvalinsClaw", "name": "東風之爪", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "東風之爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 12 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 9 },
-        { "id": "DvalinsClaw", "name": "東風之爪", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "東風之爪", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 16 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 12 },
-        { "id": "DvalinsClaw", "name": "東風之爪", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "東風之爪", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
     {
-      "name": "全心全意",
+      "name": "Devotion",
+      "localeName": "全心全意",
       "desc": "諾艾爾處於隊伍後臺，且當前場上自己的角色的生命值低於30%時自動觸發：\n為當前場上自己的角色生成一個傷害吸收量等同於諾艾爾防禦力400%的護盾，持續20秒。\n·對所有元素傷害與物理傷害有150%的吸收效果。\n該效果60秒內只能觸發一次。",
       "unlock": 1,
       "values": [0.3, 4, 20, 60]
     },
-    { "name": "乾淨俐落", "desc": "普通攻擊或重擊每命中4次，都會減少<color=#FFD780FF>護心鎧</color>1秒的冷卻。\n同時命中多名敵人視作攻擊命中一次。", "unlock": 4, "values": [-1] },
-    { "name": "女僕的態度", "desc": "完美烹飪防禦類食物時，有12%的機率獲得兩倍產出。" }
+    { "name": "NiceAndClean", "localeName": "乾淨俐落", "desc": "普通攻擊或重擊每命中4次，都會減少<color=#FFD780FF>護心鎧</color>1秒的冷卻。\n同時命中多名敵人視作攻擊命中一次。", "unlock": 4, "values": [-1] },
+    { "name": "MaidsKnighthood", "localeName": "女僕的態度", "desc": "完美烹飪防禦類食物時，有12%的機率獲得兩倍產出。" }
   ],
   "c13ns": [
-    { "name": "支援就交給我吧", "desc": "同時處於<color=#FFD780FF>大掃除</color>與<color=#FFD780FF>護心鎧</color>狀態時，護心鎧的生命值回復效果觸發機率提升至100%。", "values": [1] },
-    { "name": "旋風女僕", "desc": "諾艾爾的重擊的體力消耗降低20%，傷害提升15%。", "values": [-0.2, 0.15] },
-    { "name": "女僕不會受傷", "desc": "<color=#FFD780FF>護心鎧</color>的技能等級提高3級。\n至多提升至15級。" },
-    { "name": "之後會掃乾淨的", "desc": "<color=#FFD780FF>護心鎧</color>在效果結束時，或因傷害破碎時，會對周圍的敵人造成400%攻擊力的<color=#FFE699FF>岩元素傷害</color>。", "values": [4] },
-    { "name": "騎士團掃除專家", "desc": "<color=#FFD780FF>大掃除</color>的技能等級提高3級。\n至多提升至15級。" },
-    {
-      "name": "要一塵不染才行",
-      "desc": "<color=#FFD780FF>大掃除</color>額外提高諾艾爾防禦力50%的攻擊力；\n此外，在技能持續時間內，每打倒1個敵人，其持續時間將延長1秒，最多不會超過10秒。",
-      "values": [0.5, 10]
-    }
+    { "name": "IGotYourBack", "localeName": "支援就交給我吧", "desc": "同時處於<color=#FFD780FF>大掃除</color>與<color=#FFD780FF>護心鎧</color>狀態時，護心鎧的生命值回復效果觸發機率提升至100%。", "values": [1] },
+    { "name": "CombatMaid", "localeName": "旋風女僕", "desc": "諾艾爾的重擊的體力消耗降低20%，傷害提升15%。", "values": [-0.2, 0.15] },
+    { "name": "InvulnerableMaid", "localeName": "女僕不會受傷", "desc": "<color=#FFD780FF>護心鎧</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "ToBeCleaned", "localeName": "之後會掃乾淨的", "desc": "<color=#FFD780FF>護心鎧</color>在效果結束時，或因傷害破碎時，會對周圍的敵人造成400%攻擊力的<color=#FFE699FF>岩元素傷害</color>。", "values": [4] },
+    { "name": "FavoniusSweeperMaster", "localeName": "騎士團掃除專家", "desc": "<color=#FFD780FF>大掃除</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "MustBeSpotless", "localeName": "要一塵不染才行", "desc": "<color=#FFD780FF>大掃除</color>額外提高諾艾爾防禦力50%的攻擊力；\n此外，在技能持續時間內，每打倒1個敵人，其持續時間將延長1秒，最多不會超過10秒。", "values": [0.5, 10] }
   ],
   "overviewItems": [
-    { "id": "PrithivaTopazGemstone", "name": "堅牢黃玉", "rarity": 5 },
-    { "id": "BasaltPillar", "name": "玄岩之塔", "rarity": 4 },
-    { "id": "Valberry", "name": "落落莓" },
-    { "id": "OminousMask", "name": "不祥的面具", "rarity": 3 },
-    { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "rarity": 4 },
-    { "id": "DvalinsClaw", "name": "東風之爪", "rarity": 5 }
+    { "id": "PrithivaTopazGemstone", "localeName": "堅牢黃玉", "rarity": 5 },
+    { "id": "BasaltPillar", "localeName": "玄岩之塔", "rarity": 4 },
+    { "id": "Valberry", "localeName": "落落莓" },
+    { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3 },
+    { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4 },
+    { "id": "DvalinsClaw", "localeName": "東風之爪", "rarity": 5 }
   ]
 }

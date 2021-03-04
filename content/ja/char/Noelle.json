@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "PrithivaTopazSliver", "name": "堅牢なトパーズ·砕屑", "count": 1 },
-        { "id": "Valberry", "name": "ヴァルベリー", "count": 3 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 3 }
+        { "id": "PrithivaTopazSliver", "localeName": "堅牢なトパーズ·砕屑", "rarity": 2, "count": 1 },
+        { "id": "Valberry", "localeName": "ヴァルベリー", "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 3 }
       ],
       "HP": 756.08,
       "ATK": 11.973,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "PrithivaTopazFragment", "name": "堅牢なトパーズ·欠片", "count": 3 },
-        { "id": "BasaltPillar", "name": "玄岩の塔", "count": 2 },
-        { "id": "Valberry", "name": "ヴァルベリー", "count": 10 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 15 }
+        { "id": "PrithivaTopazFragment", "localeName": "堅牢なトパーズ·欠片", "rarity": 3, "count": 3 },
+        { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4, "count": 2 },
+        { "id": "Valberry", "localeName": "ヴァルベリー", "count": 10 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 15 }
       ],
       "HP": 1293.3,
       "ATK": 20.481,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "PrithivaTopazFragment", "name": "堅牢なトパーズ·欠片", "count": 6 },
-        { "id": "BasaltPillar", "name": "玄岩の塔", "count": 4 },
-        { "id": "Valberry", "name": "ヴァルベリー", "count": 20 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 12 }
+        { "id": "PrithivaTopazFragment", "localeName": "堅牢なトパーズ·欠片", "rarity": 3, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4, "count": 4 },
+        { "id": "Valberry", "localeName": "ヴァルベリー", "count": 20 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 12 }
       ],
       "HP": 2009.6,
       "ATK": 31.824,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "PrithivaTopazChunk", "name": "堅牢なトパーズ·塊", "count": 3 },
-        { "id": "BasaltPillar", "name": "玄岩の塔", "count": 8 },
-        { "id": "Valberry", "name": "ヴァルベリー", "count": 30 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 18 }
+        { "id": "PrithivaTopazChunk", "localeName": "堅牢なトパーズ·塊", "rarity": 4, "count": 3 },
+        { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4, "count": 8 },
+        { "id": "Valberry", "localeName": "ヴァルベリー", "count": 30 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 18 }
       ],
       "HP": 2546.8,
       "ATK": 40.332,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "PrithivaTopazChunk", "name": "堅牢なトパーズ·塊", "count": 6 },
-        { "id": "BasaltPillar", "name": "玄岩の塔", "count": 12 },
-        { "id": "Valberry", "name": "ヴァルベリー", "count": 45 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 12 }
+        { "id": "PrithivaTopazChunk", "localeName": "堅牢なトパーズ·塊", "rarity": 4, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4, "count": 12 },
+        { "id": "Valberry", "localeName": "ヴァルベリー", "count": 45 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 12 }
       ],
       "HP": 3084,
       "ATK": 48.839,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "PrithivaTopazGemstone", "name": "堅牢なトパーズ", "count": 6 },
-        { "id": "BasaltPillar", "name": "玄岩の塔", "count": 20 },
-        { "id": "Valberry", "name": "ヴァルベリー", "count": 60 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 24 }
+        { "id": "PrithivaTopazGemstone", "localeName": "堅牢なトパーズ", "rarity": 5, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4, "count": 20 },
+        { "id": "Valberry", "localeName": "ヴァルベリー", "count": 60 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 24 }
       ],
       "HP": 3621.2,
       "ATK": 57.346,
@@ -92,17 +92,11 @@
   "ascensionType": 9,
   "element": 2,
   "elemSkill": {
-    "name": "護心鎧",
+    "name": "Breastplate",
+    "localeName": "護心鎧",
     "desc": "護身の岩鎧を召喚し、周囲の敵に<color=#FFE699FF>岩元素ダメージ</color>を与え、シールドを生成する、ダメージ吸収量はノエルの防御力によって決まる。\nシールドは下記の効果が発動する：\n·ノエルの通常攻撃または重撃が命中した時、一定の確率でチーム全員のHPを回復する。\n·全元素ダメージと物理ダメージに150%の吸収効果がある。\n\n回復効果の回復量はノエルの防御力によって決まる。\n\n<i>ノエルは奉仕するメイドであり、毅然たる騎士でもある。</i>",
     "cd": 24,
-    "paramTpls": [
-      "スキルダメージ|{param6:P}防御力",
-      "吸収量|{param1:P}防御力+{param7:I}",
-      "回復量|{param2:F1P}防御力+{param8:I}",
-      "回復発動率|{param3:P}",
-      "継続時間|{param4:F1}秒",
-      "クールタイム|{param5:F1}秒"
-    ],
+    "paramTpls": ["スキルダメージ|{param6:P}防御力", "吸収量|{param1:P}防御力+{param7:I}", "回復量|{param2:F1P}防御力+{param8:I}", "回復発動率|{param3:P}", "継続時間|{param4:F1}秒", "クールタイム|{param5:F1}秒"],
     "paramVals": [
       [1.6, 0.2128, 0.5, 12, 24, 1.2, 769.79, 102.72],
       [1.72, 0.22876, 0.51, 12, 24, 1.29, 846.77, 112.99],
@@ -122,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」の教え", "count": 3 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」の教え", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 2 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 4 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 6 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 9 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 4 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 4 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 6 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 6 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 12 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 9 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 16 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 12 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "大掃除",
+    "name": "SweepingTime",
+    "localeName": "大掃除",
     "desc": "盤石の力を武器に凝集させ、周囲の敵に衝撃を与えて広範囲攻撃を1回行い、<color=#FFE699FF>岩元素ダメージ</color>を与える。\nその後、下記の効果が発動される：\n·ノエルの攻撃範囲が大幅にアップする。\n·攻撃ダメージは<color=#FFE699FF>岩元素ダメージ</color>となり、元素付与によって他の元素に変化することはない。\n·ノエルの防御力を基準に攻撃力がアップする。\n\n<i>時に掃除が必要なのは、埃だけではありませんね…</i>",
     "cd": 15,
     "energyCost": 60,
@@ -189,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」の教え", "count": 3 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」の教え", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 2 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 4 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 6 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 9 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 4 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 4 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 6 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 6 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 12 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 9 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 16 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 12 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "通常攻撃·西風剣術·メイド",
+    "name": "NormalAttackFavoniusBladeworkMaid",
+    "localeName": "通常攻撃·西風剣術·メイド",
     "desc": "<color=#FFD780FF>通常攻撃</color>\n最大4段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n持続的にスタミナを消費し、大剣を振り回して周囲の敵を攻撃する。\n重撃が終了した時に、さらに強力な攻撃を1回放つ。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
     "cd": 0,
     "paramTpls": [
@@ -266,85 +262,73 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」の教え", "count": 3 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」の教え", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 2 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 4 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 6 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 9 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 4 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 4 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 6 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 6 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 12 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 9 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 16 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 12 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
     {
-      "name": "誠心誠意",
+      "name": "Devotion",
+      "localeName": "誠心誠意",
       "desc": "ノエルが待機時、出場している自身のキャラクターのHPが30%以下になると自動で発動される：\n出場している自身のキャラクターにノエルの防御力400%分のダメージを吸収するシールドを付与する、継続時間20秒。\n·全ての元素ダメージと物理ダメージに対して150%の吸収効果がある。\n60秒毎に1回のみ発動可能。",
       "unlock": 1,
       "values": [0.3, 4, 20, 60]
     },
-    {
-      "name": "きれいさっぱり",
-      "desc": "通常攻撃または重撃が4回命中する度に、<color=#FFD780FF>護心鎧</color>のクールタイム-1秒。\n攻撃が同時に複数の敵に命中した場合は1回としてカウントされる。",
-      "unlock": 4,
-      "values": [-1]
-    },
-    { "name": "メイドの仕草", "desc": "防御系料理を完璧調理した時、12%の確率で料理を2倍獲得する。" }
+    { "name": "NiceAndClean", "localeName": "きれいさっぱり", "desc": "通常攻撃または重撃が4回命中する度に、<color=#FFD780FF>護心鎧</color>のクールタイム-1秒。\n攻撃が同時に複数の敵に命中した場合は1回としてカウントされる。", "unlock": 4, "values": [-1] },
+    { "name": "MaidsKnighthood", "localeName": "メイドの仕草", "desc": "防御系料理を完璧調理した時、12%の確率で料理を2倍獲得する。" }
   ],
   "c13ns": [
-    { "name": "支援はお任せください", "desc": "同時に<color=#FFD780FF>大掃除</color>と<color=#FFD780FF>護心鎧</color>状態にいる時、護心鎧のHP回復効果の発動率が100%になる。", "values": [1] },
-    { "name": "旋風のメイド", "desc": "ノエルの重撃によるスタミナ消費-20%、与えるダメージ+15%。", "values": [-0.2, 0.15] },
-    { "name": "怪我はしません", "desc": "<color=#FFD780FF>護心鎧</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    {
-      "name": "綺麗にしますから",
-      "desc": "<color=#FFD780FF>護心鎧</color>効果終了時、またはダメージによって破壊された時、周囲の敵に攻撃力400%分の<color=#FFE699FF>岩元素ダメージ</color>を与える。",
-      "values": [4]
-    },
-    { "name": "騎士団の掃除達人", "desc": "<color=#FFD780FF>大掃除</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    {
-      "name": "埃は許しません",
-      "desc": "<color=#FFD780FF>大掃除</color>発動で、ノエルの防御力50%分の攻撃力を追加でアップする。\nスキル継続中、敵1体倒す度に継続時間+1秒。最大10秒まで。",
-      "values": [0.5, 10]
-    }
+    { "name": "IGotYourBack", "localeName": "支援はお任せください", "desc": "同時に<color=#FFD780FF>大掃除</color>と<color=#FFD780FF>護心鎧</color>状態にいる時、護心鎧のHP回復効果の発動率が100%になる。", "values": [1] },
+    { "name": "CombatMaid", "localeName": "旋風のメイド", "desc": "ノエルの重撃によるスタミナ消費-20%、与えるダメージ+15%。", "values": [-0.2, 0.15] },
+    { "name": "InvulnerableMaid", "localeName": "怪我はしません", "desc": "<color=#FFD780FF>護心鎧</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "ToBeCleaned", "localeName": "綺麗にしますから", "desc": "<color=#FFD780FF>護心鎧</color>効果終了時、またはダメージによって破壊された時、周囲の敵に攻撃力400%分の<color=#FFE699FF>岩元素ダメージ</color>を与える。", "values": [4] },
+    { "name": "FavoniusSweeperMaster", "localeName": "騎士団の掃除達人", "desc": "<color=#FFD780FF>大掃除</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "MustBeSpotless", "localeName": "埃は許しません", "desc": "<color=#FFD780FF>大掃除</color>発動で、ノエルの防御力50%分の攻撃力を追加でアップする。\nスキル継続中、敵1体倒す度に継続時間+1秒。最大10秒まで。", "values": [0.5, 10] }
   ],
   "overviewItems": [
-    { "id": "PrithivaTopazGemstone", "name": "堅牢なトパーズ", "rarity": 5 },
-    { "id": "BasaltPillar", "name": "玄岩の塔", "rarity": 4 },
-    { "id": "Valberry", "name": "ヴァルベリー" },
-    { "id": "OminousMask", "name": "不吉な仮面", "rarity": 3 },
-    { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "rarity": 4 },
-    { "id": "DvalinsClaw", "name": "東風の爪", "rarity": 5 }
+    { "id": "PrithivaTopazGemstone", "localeName": "堅牢なトパーズ", "rarity": 5 },
+    { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4 },
+    { "id": "Valberry", "localeName": "ヴァルベリー" },
+    { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3 },
+    { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4 },
+    { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5 }
   ]
 }

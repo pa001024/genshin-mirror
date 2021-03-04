@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "AgnidusAgateSliver", "name": "Agnidus Agate Sliver", "count": 1 },
-        { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 3 },
-        { "id": "FirmArrowhead", "name": "Firm Arrowhead", "count": 3 }
+        { "id": "AgnidusAgateSliver", "localeName": "Agnidus Agate Sliver", "rarity": 2, "count": 1 },
+        { "id": "SmallLampGrass", "localeName": "Small Lamp Grass", "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "rarity": 1, "count": 3 }
       ],
       "HP": 592.6,
       "ATK": 13.969,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "Agnidus Agate Fragment", "count": 3 },
-        { "id": "EverflameSeed", "name": "Everflame Seed", "count": 2 },
-        { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 10 },
-        { "id": "FirmArrowhead", "name": "Firm Arrowhead", "count": 15 }
+        { "id": "AgnidusAgateFragment", "localeName": "Agnidus Agate Fragment", "rarity": 3, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4, "count": 2 },
+        { "id": "SmallLampGrass", "localeName": "Small Lamp Grass", "count": 10 },
+        { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "rarity": 1, "count": 15 }
       ],
       "HP": 1013.7,
       "ATK": 23.894,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "Agnidus Agate Fragment", "count": 6 },
-        { "id": "EverflameSeed", "name": "Everflame Seed", "count": 4 },
-        { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 20 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 12 }
+        { "id": "AgnidusAgateFragment", "localeName": "Agnidus Agate Fragment", "rarity": 3, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4, "count": 4 },
+        { "id": "SmallLampGrass", "localeName": "Small Lamp Grass", "count": 20 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 12 }
       ],
       "HP": 1575.1,
       "ATK": 37.128,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "Agnidus Agate Chunk", "count": 3 },
-        { "id": "EverflameSeed", "name": "Everflame Seed", "count": 8 },
-        { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 30 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 18 }
+        { "id": "AgnidusAgateChunk", "localeName": "Agnidus Agate Chunk", "rarity": 4, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4, "count": 8 },
+        { "id": "SmallLampGrass", "localeName": "Small Lamp Grass", "count": 30 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 18 }
       ],
       "HP": 1996.1,
       "ATK": 47.053,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "Agnidus Agate Chunk", "count": 6 },
-        { "id": "EverflameSeed", "name": "Everflame Seed", "count": 12 },
-        { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 45 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 12 }
+        { "id": "AgnidusAgateChunk", "localeName": "Agnidus Agate Chunk", "rarity": 4, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4, "count": 12 },
+        { "id": "SmallLampGrass", "localeName": "Small Lamp Grass", "count": 45 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 12 }
       ],
       "HP": 2417.2,
       "ATK": 56.979,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "AgnidusAgateGemstone", "name": "Agnidus Agate Gemstone", "count": 6 },
-        { "id": "EverflameSeed", "name": "Everflame Seed", "count": 20 },
-        { "id": "SmallLampGrass", "name": "Small Lamp Grass", "count": 60 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 24 }
+        { "id": "AgnidusAgateGemstone", "localeName": "Agnidus Agate Gemstone", "rarity": 5, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4, "count": 20 },
+        { "id": "SmallLampGrass", "localeName": "Small Lamp Grass", "count": 60 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 24 }
       ],
       "HP": 2838.3,
       "ATK": 66.904,
@@ -92,7 +92,8 @@
   "ascensionType": 7,
   "element": 6,
   "elemSkill": {
-    "name": "Explosive Puppet",
+    "name": "ExplosivePuppet",
+    "localeName": "Explosive Puppet",
     "desc": "The ever-reliable Baron Bunny takes the stage.\n\n<color=#FFD780FF>Baron Bunny</color>\n·Continuously taunts the enemy, drawing their fire.\n·Baron Bunny's HP scales with Amber's Max HP.\n·When destroyed or when its timer expires, Baron Bunny explodes, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\n\n<color=#FFD780FF>Hold</color>\nAdjusts the throwing direction of Baron Bunny.\nThe longer the button is held, the further the throw.\n\n<i>Baron Bunny hails from a storied lineage, but Amber has stopped keeping count since Baron Bunny the 893rd.</i>",
     "cd": 15,
     "paramTpls": ["Inherited HP|{param1:F1P}", "Explosion DMG|{param2:P}", "CD|{param4:F1}s"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "Teachings of Freedom", "count": 3 },
-        { "id": "FirmArrowhead", "name": "Firm Arrowhead", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "Teachings of Freedom", "rarity": 2, "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 2 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 2 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 4 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 4 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 6 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 6 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 9 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 9 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 4 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 4 },
-        { "id": "DvalinsSigh", "name": "Dvalin's Sigh", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 4 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 4 },
+        { "id": "DvalinsSigh", "localeName": "Dvalin's Sigh", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 6 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 6 },
-        { "id": "DvalinsSigh", "name": "Dvalin's Sigh", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 6 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 6 },
+        { "id": "DvalinsSigh", "localeName": "Dvalin's Sigh", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 12 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 9 },
-        { "id": "DvalinsSigh", "name": "Dvalin's Sigh", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 12 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 9 },
+        { "id": "DvalinsSigh", "localeName": "Dvalin's Sigh", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 16 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 12 },
-        { "id": "DvalinsSigh", "name": "Dvalin's Sigh", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 16 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 12 },
+        { "id": "DvalinsSigh", "localeName": "Dvalin's Sigh", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "Fiery Rain",
+    "name": "FieryRain",
+    "localeName": "Fiery Rain",
     "desc": "Fires off a shower of arrows, dealing continuous <color=#FF9999FF>AoE Pyro DMG</color>.\n\n<i>Amber's passion truly burns hot.</i>",
     "cd": 12,
     "energyCost": 40,
@@ -182,63 +184,54 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "Teachings of Freedom", "count": 3 },
-        { "id": "FirmArrowhead", "name": "Firm Arrowhead", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "Teachings of Freedom", "rarity": 2, "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 2 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 2 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 4 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 4 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 6 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 6 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 9 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 9 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 4 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 4 },
-        { "id": "DvalinsSigh", "name": "Dvalin's Sigh", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 4 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 4 },
+        { "id": "DvalinsSigh", "localeName": "Dvalin's Sigh", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 6 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 6 },
-        { "id": "DvalinsSigh", "name": "Dvalin's Sigh", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 6 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 6 },
+        { "id": "DvalinsSigh", "localeName": "Dvalin's Sigh", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 12 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 9 },
-        { "id": "DvalinsSigh", "name": "Dvalin's Sigh", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 12 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 9 },
+        { "id": "DvalinsSigh", "localeName": "Dvalin's Sigh", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 16 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 12 },
-        { "id": "DvalinsSigh", "name": "Dvalin's Sigh", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 16 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 12 },
+        { "id": "DvalinsSigh", "localeName": "Dvalin's Sigh", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "Normal Attack: Sharpshooter",
+    "name": "NormalAttackSharpshooter",
+    "localeName": "Normal Attack: Sharpshooter",
     "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 5 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, flames will accumulate on the arrowhead. A fully charged flaming arrow will deal <color=#FF9999FF>Pyro DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
     "cd": 0,
-    "paramTpls": [
-      "1-Hit DMG|{param1:F1P}",
-      "2-Hit DMG|{param2:F1P}",
-      "3-Hit DMG|{param3:F1P}",
-      "4-Hit DMG|{param4:F1P}",
-      "5-Hit DMG|{param5:F1P}",
-      "Aimed Shot|{param6:F1P}",
-      "Fully-Charged Aimed Shot|{param7:P}",
-      "Plunge DMG|{param8:F1P}",
-      "Low/High Plunge DMG|{param9:P}/{param10:P}"
-    ],
+    "paramTpls": ["1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", "4-Hit DMG|{param4:F1P}", "5-Hit DMG|{param5:F1P}", "Aimed Shot|{param6:F1P}", "Fully-Charged Aimed Shot|{param7:P}", "Plunge DMG|{param8:F1P}", "Low/High Plunge DMG|{param9:P}/{param10:P}"],
     "paramVals": [
       [0.3612, 0.3612, 0.4644, 0.473, 0.5934, 0.4386, 1.24, 0.56829, 1.1363, 1.4193],
       [0.3906, 0.3906, 0.5022, 0.5115, 0.6417, 0.4743, 1.333, 0.61454, 1.2288, 1.5349],
@@ -258,71 +251,67 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "Teachings of Freedom", "count": 3 },
-        { "id": "FirmArrowhead", "name": "Firm Arrowhead", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "Teachings of Freedom", "rarity": 2, "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 2 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 2 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 4 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 4 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 6 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 6 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "Guide to Freedom", "count": 9 },
-        { "id": "SharpArrowhead", "name": "Sharp Arrowhead", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 9 },
+        { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 4 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 4 },
-        { "id": "DvalinsSigh", "name": "Dvalin's Sigh", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 4 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 4 },
+        { "id": "DvalinsSigh", "localeName": "Dvalin's Sigh", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 6 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 6 },
-        { "id": "DvalinsSigh", "name": "Dvalin's Sigh", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 6 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 6 },
+        { "id": "DvalinsSigh", "localeName": "Dvalin's Sigh", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 12 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 9 },
-        { "id": "DvalinsSigh", "name": "Dvalin's Sigh", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 12 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 9 },
+        { "id": "DvalinsSigh", "localeName": "Dvalin's Sigh", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "count": 16 },
-        { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "count": 12 },
-        { "id": "DvalinsSigh", "name": "Dvalin's Sigh", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 16 },
+        { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3, "count": 12 },
+        { "id": "DvalinsSigh", "localeName": "Dvalin's Sigh", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "Every Arrow Finds Its Target", "desc": "Increases the CRIT Rate of <color=#FFD780FF>Fiery Rain</color> by 10% and widens its AoE by 30%.", "unlock": 1, "values": [0.1, 0.3] },
-    { "name": "Precise Shot", "desc": "Aimed Shot hits on weak points increase ATK by 15% for 10s.", "unlock": 4, "values": [0.15, 10] },
-    { "name": "Gliding Champion", "desc": "Decreases gliding Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects." }
+    { "name": "EveryArrowFindsItsTarget", "localeName": "Every Arrow Finds Its Target", "desc": "Increases the CRIT Rate of <color=#FFD780FF>Fiery Rain</color> by 10% and widens its AoE by 30%.", "unlock": 1, "values": [0.1, 0.3] },
+    { "name": "PreciseShot", "localeName": "Precise Shot", "desc": "Aimed Shot hits on weak points increase ATK by 15% for 10s.", "unlock": 4, "values": [0.15, 10] },
+    { "name": "GlidingChampion", "localeName": "Gliding Champion", "desc": "Decreases gliding Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects." }
   ],
   "c13ns": [
-    { "name": "One Arrow to Rule Them All", "desc": "Fires 2 arrows per <color=#FFD780FF>Aimed Shot</color>. The second arrow deals 20% of the first arrow's DMG.", "values": [0.2] },
-    {
-      "name": "Bunny Triggered",
-      "desc": "Baron Bunny, new and improved! Hitting Baron Bunny's foot with a fully-charged Aimed Shot manually detonates it.\nExplosion via manual detonation deals 200% additional DMG.",
-      "values": [2]
-    },
-    { "name": "It Burns!", "desc": "Increases the Level of <color=#FFD780FF>Fiery Rain</color> by 3.\nMaximum upgrade level is 15." },
-    { "name": "It's Not Just Any Doll...", "desc": "Decreases <color=#FFD780FF>Explosive Puppet</color>'s CD by 20%. Adds 1 additional charge." },
-    { "name": "It's Baron Bunny!", "desc": "Increases the Level of <color=#FFD780FF>Explosive Puppet</color> by 3.\nMaximum upgrade level is 15." },
-    { "name": "Wildfire", "desc": "<color=#FFD780FF>Fiery Rain</color> increases all party members' Movement SPD by 15% and ATK by 15% for 10s.", "values": [0.15, 0.15, 10] }
+    { "name": "OneArrowToRuleThemAll", "localeName": "One Arrow to Rule Them All", "desc": "Fires 2 arrows per <color=#FFD780FF>Aimed Shot</color>. The second arrow deals 20% of the first arrow's DMG.", "values": [0.2] },
+    { "name": "BunnyTriggered", "localeName": "Bunny Triggered", "desc": "Baron Bunny, new and improved! Hitting Baron Bunny's foot with a fully-charged Aimed Shot manually detonates it.\nExplosion via manual detonation deals 200% additional DMG.", "values": [2] },
+    { "name": "ItBurns", "localeName": "It Burns!", "desc": "Increases the Level of <color=#FFD780FF>Fiery Rain</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "ItsNotJustAnyDoll", "localeName": "It's Not Just Any Doll...", "desc": "Decreases <color=#FFD780FF>Explosive Puppet</color>'s CD by 20%. Adds 1 additional charge." },
+    { "name": "ItsBaronBunny", "localeName": "It's Baron Bunny!", "desc": "Increases the Level of <color=#FFD780FF>Explosive Puppet</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "Wildfire", "localeName": "Wildfire", "desc": "<color=#FFD780FF>Fiery Rain</color> increases all party members' Movement SPD by 15% and ATK by 15% for 10s.", "values": [0.15, 0.15, 10] }
   ],
   "overviewItems": [
-    { "id": "AgnidusAgateGemstone", "name": "Agnidus Agate Gemstone", "rarity": 5 },
-    { "id": "EverflameSeed", "name": "Everflame Seed", "rarity": 4 },
-    { "id": "SmallLampGrass", "name": "Small Lamp Grass" },
-    { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "rarity": 3 },
-    { "id": "PhilosophiesOfFreedom", "name": "Philosophies of Freedom", "rarity": 4 },
-    { "id": "DvalinsSigh", "name": "Dvalin's Sigh", "rarity": 5 }
+    { "id": "AgnidusAgateGemstone", "localeName": "Agnidus Agate Gemstone", "rarity": 5 },
+    { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4 },
+    { "id": "SmallLampGrass", "localeName": "Small Lamp Grass" },
+    { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "rarity": 3 },
+    { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4 },
+    { "id": "DvalinsSigh", "localeName": "Dvalin's Sigh", "rarity": 5 }
   ]
 }

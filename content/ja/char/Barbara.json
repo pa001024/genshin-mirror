@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VarunadaLazuriteSliver", "name": "澄明なラピスラズリ·砕屑", "count": 1 },
-        { "id": "PhilanemoMushroom", "name": "慕風のマッシュルーム", "count": 3 },
-        { "id": "DiviningScroll", "name": "占いの絵巻", "count": 3 }
+        { "id": "VarunadaLazuriteSliver", "localeName": "澄明なラピスラズリ·砕屑", "rarity": 2, "count": 1 },
+        { "id": "PhilanemoMushroom", "localeName": "慕風のマッシュルーム", "count": 3 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 3 }
       ],
       "HP": 613.04,
       "ATK": 9.9778,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VarunadaLazuriteFragment", "name": "澄明なラピスラズリ·欠片", "count": 3 },
-        { "id": "CleansingHeart", "name": "浄水の心", "count": 2 },
-        { "id": "PhilanemoMushroom", "name": "慕風のマッシュルーム", "count": 10 },
-        { "id": "DiviningScroll", "name": "占いの絵巻", "count": 15 }
+        { "id": "VarunadaLazuriteFragment", "localeName": "澄明なラピスラズリ·欠片", "rarity": 3, "count": 3 },
+        { "id": "CleansingHeart", "localeName": "浄水の心", "rarity": 4, "count": 2 },
+        { "id": "PhilanemoMushroom", "localeName": "慕風のマッシュルーム", "count": 10 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 15 }
       ],
       "HP": 1048.6,
       "ATK": 17.067,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VarunadaLazuriteFragment", "name": "澄明なラピスラズリ·欠片", "count": 6 },
-        { "id": "CleansingHeart", "name": "浄水の心", "count": 4 },
-        { "id": "PhilanemoMushroom", "name": "慕風のマッシュルーム", "count": 20 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 12 }
+        { "id": "VarunadaLazuriteFragment", "localeName": "澄明なラピスラズリ·欠片", "rarity": 3, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "浄水の心", "rarity": 4, "count": 4 },
+        { "id": "PhilanemoMushroom", "localeName": "慕風のマッシュルーム", "count": 20 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 12 }
       ],
       "HP": 1629.4,
       "ATK": 26.52,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VarunadaLazuriteChunk", "name": "澄明なラピスラズリ·塊", "count": 3 },
-        { "id": "CleansingHeart", "name": "浄水の心", "count": 8 },
-        { "id": "PhilanemoMushroom", "name": "慕風のマッシュルーム", "count": 30 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 18 }
+        { "id": "VarunadaLazuriteChunk", "localeName": "澄明なラピスラズリ·塊", "rarity": 4, "count": 3 },
+        { "id": "CleansingHeart", "localeName": "浄水の心", "rarity": 4, "count": 8 },
+        { "id": "PhilanemoMushroom", "localeName": "慕風のマッシュルーム", "count": 30 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 18 }
       ],
       "HP": 2065,
       "ATK": 33.61,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VarunadaLazuriteChunk", "name": "澄明なラピスラズリ·塊", "count": 6 },
-        { "id": "CleansingHeart", "name": "浄水の心", "count": 12 },
-        { "id": "PhilanemoMushroom", "name": "慕風のマッシュルーム", "count": 45 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 12 }
+        { "id": "VarunadaLazuriteChunk", "localeName": "澄明なラピスラズリ·塊", "rarity": 4, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "浄水の心", "rarity": 4, "count": 12 },
+        { "id": "PhilanemoMushroom", "localeName": "慕風のマッシュルーム", "count": 45 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 12 }
       ],
       "HP": 2500.6,
       "ATK": 40.699,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VarunadaLazuriteGemstone", "name": "澄明なラピスラズリ", "count": 6 },
-        { "id": "CleansingHeart", "name": "浄水の心", "count": 20 },
-        { "id": "PhilanemoMushroom", "name": "慕風のマッシュルーム", "count": 60 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 24 }
+        { "id": "VarunadaLazuriteGemstone", "localeName": "澄明なラピスラズリ", "rarity": 5, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "浄水の心", "rarity": 4, "count": 20 },
+        { "id": "PhilanemoMushroom", "localeName": "慕風のマッシュルーム", "count": 60 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 24 }
       ],
       "HP": 2936.1,
       "ATK": 47.789,
@@ -92,7 +92,8 @@
   "ascensionType": 5,
   "element": 5,
   "elemSkill": {
-    "name": "公演、開始♪",
+    "name": "LetTheShowBegin",
+    "localeName": "公演、開始♪",
     "desc": "躍動する歌声のような水の玉を召喚し、歌声の輪を作って周囲の敵に<color=#80C0FFFF>水元素ダメージ</color>を与え、さらに<color=#80C0FFFF>湿潤</color>状態を付与する。\n\n<color=#FFD780FF>歌声の輪</color>\n·バーバラの通常攻撃が命中した時、チーム内の自身のキャラクター全員または付近の味方のHPを回復する。回復量はバーバラのHP上限によって決まる。\n·重撃が命中した時、回復量は4倍になる。\n·一定時間の間隔で、出場している自身のキャラクターのHPを回復する。\n·キャラクター、または接触した敵に<color=#80C0FFFF>湿潤</color>状態を付与する。\n\n<i>バーバラの音楽はみんなを治療する魔法。</i>",
     "cd": 32,
     "paramTpls": ["命中回復量|{param3:F2P}HP上限+{param4:I}", "継続回復量|{param1:F2P}HP上限+{param2:I}", "水玉ダメージ|{param5:F1P}", "継続時間|{param6:F1}秒", "クールタイム|{param7:F1}秒"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "「自由」の教え", "count": 3 },
-        { "id": "DiviningScroll", "name": "占いの絵巻", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」の教え", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 2 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 4 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 6 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 9 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 4 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 4 },
-        { "id": "RingOfBoreas", "name": "北風のリング", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 6 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 6 },
-        { "id": "RingOfBoreas", "name": "北風のリング", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 12 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 9 },
-        { "id": "RingOfBoreas", "name": "北風のリング", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 16 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 12 },
-        { "id": "RingOfBoreas", "name": "北風のリング", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "シャイニングミラクル♪",
+    "name": "ShiningMiracle",
+    "localeName": "シャイニングミラクル♪",
     "desc": "周囲にいる味方とチーム内の自身のキャラクター全員のHPを大量に回復する、回復量はバーバラのHP上限を基準とする。\n\n<i>人々を癒す心はバーバラの戦う源であり、歌う力である。</i>",
     "cd": 20,
     "energyCost": 80,
@@ -182,62 +184,54 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "「自由」の教え", "count": 3 },
-        { "id": "DiviningScroll", "name": "占いの絵巻", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」の教え", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 2 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 4 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 6 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 9 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 4 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 4 },
-        { "id": "RingOfBoreas", "name": "北風のリング", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 6 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 6 },
-        { "id": "RingOfBoreas", "name": "北風のリング", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 12 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 9 },
-        { "id": "RingOfBoreas", "name": "北風のリング", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 16 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 12 },
-        { "id": "RingOfBoreas", "name": "北風のリング", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "通常攻撃·水の囁き",
+    "name": "NormalAttackWhisperOfWater",
+    "localeName": "通常攻撃·水の囁き",
     "desc": "<color=#FFD780FF>通常攻撃</color>\n最大4段の連続攻撃を行い、<color=#80C0FFFF>水元素ダメージ</color>を与える。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、短い詠唱をした後、敵に<color=#80C0FFFF>水元素範囲ダメージ</color>を与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から水元素の力を凝集しながら落下し、地面に衝撃を与える。経路上の敵を攻撃し、落下時に<color=#80C0FFFF>水元素範囲ダメージ</color>を与える。",
     "cd": 0,
-    "paramTpls": [
-      "1段ダメージ|{param1:F1P}",
-      "2段ダメージ|{param2:F1P}",
-      "3段ダメージ|{param3:F1P}",
-      "4段ダメージ|{param4:F1P}",
-      "重撃ダメージ|{param5:P}",
-      "重撃スタミナ消費|{param6:F1}",
-      "落下期間のダメージ|{param7:F1P}",
-      "低空/高空落下攻撃ダメージ|{param8:P}/{param9:P}"
-    ],
+    "paramTpls": ["1段ダメージ|{param1:F1P}", "2段ダメージ|{param2:F1P}", "3段ダメージ|{param3:F1P}", "4段ダメージ|{param4:F1P}", "重撃ダメージ|{param5:P}", "重撃スタミナ消費|{param6:F1}", "落下期間のダメージ|{param7:F1P}", "低空/高空落下攻撃ダメージ|{param8:P}/{param9:P}"],
     "paramVals": [
       [0.3784, 0.3552, 0.4104, 0.552, 1.6624, 50, 0.56829, 1.1363, 1.4193],
       [0.40678, 0.38184, 0.44118, 0.5934, 1.7871, 50, 0.61454, 1.2288, 1.5349],
@@ -257,75 +251,71 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "「自由」の教え", "count": 3 },
-        { "id": "DiviningScroll", "name": "占いの絵巻", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」の教え", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 2 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 4 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 6 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 9 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 4 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 4 },
-        { "id": "RingOfBoreas", "name": "北風のリング", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 6 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 6 },
-        { "id": "RingOfBoreas", "name": "北風のリング", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 12 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 9 },
-        { "id": "RingOfBoreas", "name": "北風のリング", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 16 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 12 },
-        { "id": "RingOfBoreas", "name": "北風のリング", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "輝く季節", "desc": "<color=#FFD780FF>公演、開始♪</color>歌声の輪が継続している間、スタミナ消費-12%。", "unlock": 1, "values": [0.12] },
-    {
-      "name": "アンコール",
-      "desc": "出場している自身のキャラクターが元素オーブまたは元素粒子を獲得した時、<color=#FFD780FF>公演、開始♪</color>の歌声の輪の継続時間+1秒。\nこの方法で最大5秒まで延長可能。",
-      "unlock": 4,
-      "values": [1, 5]
-    },
-    { "name": "気持ち♪注入", "desc": "回復系料理を完璧調理した時、12%の確率で料理を2倍獲得する。" }
+    { "name": "GloriousSeason", "localeName": "輝く季節", "desc": "<color=#FFD780FF>公演、開始♪</color>歌声の輪が継続している間、スタミナ消費-12%。", "unlock": 1, "values": [0.12] },
+    { "name": "Encore", "localeName": "アンコール", "desc": "出場している自身のキャラクターが元素オーブまたは元素粒子を獲得した時、<color=#FFD780FF>公演、開始♪</color>の歌声の輪の継続時間+1秒。\nこの方法で最大5秒まで延長可能。", "unlock": 4, "values": [1, 5] },
+    { "name": "WithMyWholeHeart", "localeName": "気持ち♪注入", "desc": "回復系料理を完璧調理した時、12%の確率で料理を2倍獲得する。" }
   ],
   "c13ns": [
-    { "name": "虹色の歌", "desc": "10秒毎に元素エネルギーを1回復する。" },
-    { "name": "元気溌剌", "desc": "<color=#FFD780FF>公演、開始♪</color>のクールタイム-15%。\nスキル継続中、出場している自身のキャラクターの与える<color=#80C0FFFF>水元素ダメージ</color>+15%。" },
-    { "name": "明日の星", "desc": "<color=#FFD780FF>シャイニングミラクル♪</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "努力が魔法なの", "desc": "重撃が敵に命中する度に、バーバラの元素エネルギーが1回復する。\n一回で最大元素エネルギーが5まで回復できる。" },
-    { "name": "純真な絆", "desc": "<color=#FFD780FF>公演、開始♪</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "GleefulSongs", "localeName": "虹色の歌", "desc": "10秒毎に元素エネルギーを1回復する。" },
+    { "name": "VitalityBurst", "localeName": "元気溌剌", "desc": "<color=#FFD780FF>公演、開始♪</color>のクールタイム-15%。\nスキル継続中、出場している自身のキャラクターの与える<color=#80C0FFFF>水元素ダメージ</color>+15%。" },
+    { "name": "StarOfTomorrow", "localeName": "明日の星", "desc": "<color=#FFD780FF>シャイニングミラクル♪</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "AttentivenessBeMyPower", "localeName": "努力が魔法なの", "desc": "重撃が敵に命中する度に、バーバラの元素エネルギーが1回復する。\n一回で最大元素エネルギーが5まで回復できる。" },
+    { "name": "ThePurestCompanionship", "localeName": "純真な絆", "desc": "<color=#FFD780FF>公演、開始♪</color>のスキルLv.+3。\n最大Lv.15まで。" },
     {
-      "name": "美しいものをあなたに",
+      "name": "DedicatingEverythingToYou",
+      "localeName": "美しいものをあなたに",
       "desc": "バーバラ待機中に出場している自身のキャラクターが戦闘不能になると、下記の効果が発動される：\n·戦闘不能になったキャラクターを復活させる。\n·該当キャラクターのHPが100%回復される。\nこの効果は15分毎に1回のみ発動可能。"
     }
   ],
   "overviewItems": [
-    { "id": "VarunadaLazuriteGemstone", "name": "澄明なラピスラズリ", "rarity": 5 },
-    { "id": "CleansingHeart", "name": "浄水の心", "rarity": 4 },
-    { "id": "PhilanemoMushroom", "name": "慕風のマッシュルーム" },
-    { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "rarity": 3 },
-    { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "rarity": 4 },
-    { "id": "RingOfBoreas", "name": "北風のリング", "rarity": 5 }
+    { "id": "VarunadaLazuriteGemstone", "localeName": "澄明なラピスラズリ", "rarity": 5 },
+    { "id": "CleansingHeart", "localeName": "浄水の心", "rarity": 4 },
+    { "id": "PhilanemoMushroom", "localeName": "慕風のマッシュルーム" },
+    { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3 },
+    { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4 },
+    { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5 }
   ]
 }

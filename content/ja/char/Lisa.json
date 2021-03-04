@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VajradaAmethystSliver", "name": "最勝のアメシスト·砕屑", "count": 1 },
-        { "id": "Valberry", "name": "ヴァルベリー", "count": 3 },
-        { "id": "SlimeCondensate", "name": "スライムの液体", "count": 3 }
+        { "id": "VajradaAmethystSliver", "localeName": "最勝のアメシスト·砕屑", "rarity": 2, "count": 1 },
+        { "id": "Valberry", "localeName": "ヴァルベリー", "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "スライムの液体", "rarity": 1, "count": 3 }
       ],
       "HP": 599.42,
       "ATK": 14.501,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VajradaAmethystFragment", "name": "最勝のアメシスト·欠片", "count": 3 },
-        { "id": "LightningPrism", "name": "雷光のプリズム", "count": 2 },
-        { "id": "Valberry", "name": "ヴァルベリー", "count": 10 },
-        { "id": "SlimeCondensate", "name": "スライムの液体", "count": 15 }
+        { "id": "VajradaAmethystFragment", "localeName": "最勝のアメシスト·欠片", "rarity": 3, "count": 3 },
+        { "id": "LightningPrism", "localeName": "雷光のプリズム", "rarity": 4, "count": 2 },
+        { "id": "Valberry", "localeName": "ヴァルベリー", "count": 10 },
+        { "id": "SlimeCondensate", "localeName": "スライムの液体", "rarity": 1, "count": 15 }
       ],
       "HP": 1025.3,
       "ATK": 24.805,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VajradaAmethystFragment", "name": "最勝のアメシスト·欠片", "count": 6 },
-        { "id": "LightningPrism", "name": "雷光のプリズム", "count": 4 },
-        { "id": "Valberry", "name": "ヴァルベリー", "count": 20 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 12 }
+        { "id": "VajradaAmethystFragment", "localeName": "最勝のアメシスト·欠片", "rarity": 3, "count": 6 },
+        { "id": "LightningPrism", "localeName": "雷光のプリズム", "rarity": 4, "count": 4 },
+        { "id": "Valberry", "localeName": "ヴァルベリー", "count": 20 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 12 }
       ],
       "HP": 1593.2,
       "ATK": 38.543,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VajradaAmethystChunk", "name": "最勝のアメシスト·塊", "count": 3 },
-        { "id": "LightningPrism", "name": "雷光のプリズム", "count": 8 },
-        { "id": "Valberry", "name": "ヴァルベリー", "count": 30 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 18 }
+        { "id": "VajradaAmethystChunk", "localeName": "最勝のアメシスト·塊", "rarity": 4, "count": 3 },
+        { "id": "LightningPrism", "localeName": "雷光のプリズム", "rarity": 4, "count": 8 },
+        { "id": "Valberry", "localeName": "ヴァルベリー", "count": 30 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 18 }
       ],
       "HP": 2019.1,
       "ATK": 48.846,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VajradaAmethystChunk", "name": "最勝のアメシスト·塊", "count": 6 },
-        { "id": "LightningPrism", "name": "雷光のプリズム", "count": 12 },
-        { "id": "Valberry", "name": "ヴァルベリー", "count": 45 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 12 }
+        { "id": "VajradaAmethystChunk", "localeName": "最勝のアメシスト·塊", "rarity": 4, "count": 6 },
+        { "id": "LightningPrism", "localeName": "雷光のプリズム", "rarity": 4, "count": 12 },
+        { "id": "Valberry", "localeName": "ヴァルベリー", "count": 45 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 12 }
       ],
       "HP": 2445,
       "ATK": 59.149,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VajradaAmethystGemstone", "name": "最勝のアメシスト", "count": 6 },
-        { "id": "LightningPrism", "name": "雷光のプリズム", "count": 20 },
-        { "id": "Valberry", "name": "ヴァルベリー", "count": 60 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 24 }
+        { "id": "VajradaAmethystGemstone", "localeName": "最勝のアメシスト", "rarity": 5, "count": 6 },
+        { "id": "LightningPrism", "localeName": "雷光のプリズム", "rarity": 4, "count": 20 },
+        { "id": "Valberry", "localeName": "ヴァルベリー", "count": 60 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 24 }
       ],
       "HP": 2870.9,
       "ATK": 69.453,
@@ -92,18 +92,11 @@
   "ascensionType": 11,
   "element": 3,
   "elemSkill": {
-    "name": "蒼雷",
+    "name": "VioletArc",
+    "localeName": "蒼雷",
     "desc": "雷の力で、面倒なものを全て綺麗に片付ける。\n\n<color=#FFD780FF>一回押し</color>\n自動で索敵する球状の稲妻を放つ。\n命中後、標的に<color=#FFACFFFF>雷元素ダメージ</color>を与え、狭範囲の敵に最大3重までの誘雷効果を付与する。\n\n<color=#FFD780FF>長押し</color>\n短い詠唱をした後、雷を落下させ、周囲にいる全ての敵に<color=#FFACFFFF>雷元素ダメージ</color>を与える。\n敵が誘雷状態の場合、誘雷効果を解除し、重ねた回数をもとに追加ダメージを与える。\n\n<i>雷電の色は薔薇の魔女の色である。</i>",
     "cd": 16,
-    "paramTpls": [
-      "一回押しダメージ|{param6:F1P}",
-      "一回押しクールタイム|{param7:F1}秒",
-      "誘雷なしの長押しダメージ|{param1:P}",
-      "誘雷1重の長押しダメージ|{param2:P}",
-      "誘雷2重の長押しダメージ|{param3:P}",
-      "誘雷3重の長押しダメージ|{param4:P}",
-      "長押しクールタイム|{param5:F1}秒"
-    ],
+    "paramTpls": ["一回押しダメージ|{param6:F1P}", "一回押しクールタイム|{param7:F1}秒", "誘雷なしの長押しダメージ|{param1:P}", "誘雷1重の長押しダメージ|{param2:P}", "誘雷2重の長押しダメージ|{param3:P}", "誘雷3重の長押しダメージ|{param4:P}", "長押しクールタイム|{param5:F1}秒"],
     "paramVals": [
       [3.2, 3.68, 4.24, 4.872, 16, 0.8, 1],
       [3.44, 3.956, 4.558, 5.2374, 16, 0.86, 1],
@@ -123,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "「詩文」の教え", "count": 3 },
-        { "id": "SlimeCondensate", "name": "スライムの液体", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "「詩文」の教え", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "スライムの液体", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 2 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 4 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 6 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 9 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 4 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 6 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 9 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 12 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "薔薇の雷光",
+    "name": "LightningRose",
+    "localeName": "薔薇の雷光",
     "desc": "薔薇の雷光を召喚し、強い雷の力で周囲の敵に<color=#FFACFFFF>雷元素ダメージ</color>を与え、ノックバックする。\n継続時間中、薔薇の雷光は周囲の敵を攻撃し、<color=#FFACFFFF>雷元素ダメージ</color>を与える。\n\n<i>この薔薇は美しいが、致命的な棘がある。</i>",
     "cd": 20,
     "energyCost": 80,
@@ -190,62 +184,54 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "「詩文」の教え", "count": 3 },
-        { "id": "SlimeCondensate", "name": "スライムの液体", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "「詩文」の教え", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "スライムの液体", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 2 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 4 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 6 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 9 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 4 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 6 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 9 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 12 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "通常攻撃·指先の雷",
+    "name": "NormalAttackLightningTouch",
+    "localeName": "通常攻撃·指先の雷",
     "desc": "<color=#FFD780FF>通常攻撃</color>\n雷電による最大4段の連続攻撃を行い、<color=#FFACFFFF>雷元素ダメージ</color>を与える。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、短い詠唱をした後、<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から雷電の力を凝集しながら落下し、地面に衝撃を与える。経路上の敵を攻撃し、落下時に<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。",
     "cd": 0,
-    "paramTpls": [
-      "1段ダメージ|{param1:F1P}",
-      "2段ダメージ|{param2:F1P}",
-      "3段ダメージ|{param3:F1P}",
-      "4段ダメージ|{param4:F1P}",
-      "重撃ダメージ|{param5:P}",
-      "重撃スタミナ消費|{param6:F1}",
-      "落下期間のダメージ|{param7:F1P}",
-      "低空/高空落下攻撃ダメージ|{param8:P}/{param9:P}"
-    ],
+    "paramTpls": ["1段ダメージ|{param1:F1P}", "2段ダメージ|{param2:F1P}", "3段ダメージ|{param3:F1P}", "4段ダメージ|{param4:F1P}", "重撃ダメージ|{param5:P}", "重撃スタミナ消費|{param6:F1}", "落下期間のダメージ|{param7:F1P}", "低空/高空落下攻撃ダメージ|{param8:P}/{param9:P}"],
     "paramVals": [
       [0.396, 0.3592, 0.428, 0.5496, 1.7712, 50, 0.56829, 1.1363, 1.4193],
       [0.4257, 0.38614, 0.4601, 0.59082, 1.904, 50, 0.61454, 1.2288, 1.5349],
@@ -265,67 +251,67 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "「詩文」の教え", "count": 3 },
-        { "id": "SlimeCondensate", "name": "スライムの液体", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "「詩文」の教え", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "スライムの液体", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 2 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 4 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 6 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 9 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 4 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 6 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 9 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 12 },
-        { "id": "DvalinsClaw", "name": "東風の爪", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "感電余震", "desc": "重撃が命中した時、敵に<color=#FFD780FF>蒼雷</color>の誘雷效果を付与する。", "unlock": 1, "values": [0.7] },
-    { "name": "静電気フィールド", "desc": "<color=#FFD780FF>蔷薇の雷光</color>攻撃を受けた敵の防御力-15%。継続時間10秒。", "unlock": 4, "values": [0.15, 10] },
-    { "name": "薬剤の知識", "desc": "薬剤を合成する時、20%の確率で材料が返還される。" }
+    { "name": "InducedAftershock", "localeName": "感電余震", "desc": "重撃が命中した時、敵に<color=#FFD780FF>蒼雷</color>の誘雷效果を付与する。", "unlock": 1, "values": [0.7] },
+    { "name": "StaticElectricityField", "localeName": "静電気フィールド", "desc": "<color=#FFD780FF>蔷薇の雷光</color>攻撃を受けた敵の防御力-15%。継続時間10秒。", "unlock": 4, "values": [0.15, 10] },
+    { "name": "GeneralPharmaceutics", "localeName": "薬剤の知識", "desc": "薬剤を合成する時、20%の確率で材料が返還される。" }
   ],
   "c13ns": [
-    { "name": "無限の電気回路", "desc": "<color=#FFD780FF>蒼雷</color>を長押しで発動した後、敵に命中する度にリサの元素エネルギーが2回復する。\n一回で最大10まで回復可能。" },
-    { "name": "空間電位の結界", "desc": "<color=#FFD780FF>蒼雷</color>長押し時に下記の効果が付与される：\n·防御力+25%。\n·リサの中断耐性をアップする。" },
-    { "name": "共振の雷光", "desc": "<color=#FFD780FF>薔薇の雷光</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "雨の如くプラズマ", "desc": "<color=#FFD780FF>薔薇の雷光</color>が攻撃する時、放つ稲妻が1~3本に増加する。" },
-    { "name": "プラズマ落雷", "desc": "<color=#FFD780FF>蒼雷</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "パルスの魔女", "desc": "登場時、周囲の敵に<color=#FFD780FF>蒼雷</color>の誘雷効果を3重付与する。\nこの効果は5秒毎に1回のみ発動可能。" }
+    { "name": "InfiniteCircuit", "localeName": "無限の電気回路", "desc": "<color=#FFD780FF>蒼雷</color>を長押しで発動した後、敵に命中する度にリサの元素エネルギーが2回復する。\n一回で最大10まで回復可能。" },
+    { "name": "ElectromagneticField", "localeName": "空間電位の結界", "desc": "<color=#FFD780FF>蒼雷</color>長押し時に下記の効果が付与される：\n·防御力+25%。\n·リサの中断耐性をアップする。" },
+    { "name": "ResonantThunder", "localeName": "共振の雷光", "desc": "<color=#FFD780FF>薔薇の雷光</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "PlasmaEruption", "localeName": "雨の如くプラズマ", "desc": "<color=#FFD780FF>薔薇の雷光</color>が攻撃する時、放つ稲妻が1~3本に増加する。" },
+    { "name": "Electrocute", "localeName": "プラズマ落雷", "desc": "<color=#FFD780FF>蒼雷</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "PulsatingWitch", "localeName": "パルスの魔女", "desc": "登場時、周囲の敵に<color=#FFD780FF>蒼雷</color>の誘雷効果を3重付与する。\nこの効果は5秒毎に1回のみ発動可能。" }
   ],
   "overviewItems": [
-    { "id": "VajradaAmethystGemstone", "name": "最勝のアメシスト", "rarity": 5 },
-    { "id": "LightningPrism", "name": "雷光のプリズム", "rarity": 4 },
-    { "id": "Valberry", "name": "ヴァルベリー" },
-    { "id": "SlimeConcentrate", "name": "スライムのピュレ", "rarity": 3 },
-    { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "rarity": 4 },
-    { "id": "DvalinsClaw", "name": "東風の爪", "rarity": 5 }
+    { "id": "VajradaAmethystGemstone", "localeName": "最勝のアメシスト", "rarity": 5 },
+    { "id": "LightningPrism", "localeName": "雷光のプリズム", "rarity": 4 },
+    { "id": "Valberry", "localeName": "ヴァルベリー" },
+    { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3 },
+    { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4 },
+    { "id": "DvalinsClaw", "localeName": "東風の爪", "rarity": 5 }
   ]
 }

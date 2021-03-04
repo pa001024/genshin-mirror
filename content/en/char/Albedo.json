@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "PrithivaTopazSliver", "name": "Prithiva Topaz Sliver", "count": 1 },
-        { "id": "Cecilia", "name": "Cecilia", "count": 3 },
-        { "id": "DiviningScroll", "name": "Divining Scroll", "count": 3 }
+        { "id": "PrithivaTopazSliver", "localeName": "Prithiva Topaz Sliver", "rarity": 2, "count": 1 },
+        { "id": "Cecilia", "localeName": "Cecilia", "count": 3 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 3 }
       ],
       "HP": 882.78,
       "ATK": 16.762,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "PrithivaTopazFragment", "name": "Prithiva Topaz Fragment", "count": 3 },
-        { "id": "BasaltPillar", "name": "Basalt Pillar", "count": 2 },
-        { "id": "Cecilia", "name": "Cecilia", "count": 10 },
-        { "id": "DiviningScroll", "name": "Divining Scroll", "count": 15 }
+        { "id": "PrithivaTopazFragment", "localeName": "Prithiva Topaz Fragment", "rarity": 3, "count": 3 },
+        { "id": "BasaltPillar", "localeName": "Basalt Pillar", "rarity": 4, "count": 2 },
+        { "id": "Cecilia", "localeName": "Cecilia", "count": 10 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 15 }
       ],
       "HP": 1510,
       "ATK": 28.672,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "PrithivaTopazFragment", "name": "Prithiva Topaz Fragment", "count": 6 },
-        { "id": "BasaltPillar", "name": "Basalt Pillar", "count": 4 },
-        { "id": "Cecilia", "name": "Cecilia", "count": 20 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 12 }
+        { "id": "PrithivaTopazFragment", "localeName": "Prithiva Topaz Fragment", "rarity": 3, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "Basalt Pillar", "rarity": 4, "count": 4 },
+        { "id": "Cecilia", "localeName": "Cecilia", "count": 20 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 12 }
       ],
       "HP": 2346.3,
       "ATK": 44.552,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "PrithivaTopazChunk", "name": "Prithiva Topaz Chunk", "count": 3 },
-        { "id": "BasaltPillar", "name": "Basalt Pillar", "count": 8 },
-        { "id": "Cecilia", "name": "Cecilia", "count": 30 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 18 }
+        { "id": "PrithivaTopazChunk", "localeName": "Prithiva Topaz Chunk", "rarity": 4, "count": 3 },
+        { "id": "BasaltPillar", "localeName": "Basalt Pillar", "rarity": 4, "count": 8 },
+        { "id": "Cecilia", "localeName": "Cecilia", "count": 30 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 18 }
       ],
       "HP": 2973.6,
       "ATK": 56.461,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "PrithivaTopazChunk", "name": "Prithiva Topaz Chunk", "count": 6 },
-        { "id": "BasaltPillar", "name": "Basalt Pillar", "count": 12 },
-        { "id": "Cecilia", "name": "Cecilia", "count": 45 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 12 }
+        { "id": "PrithivaTopazChunk", "localeName": "Prithiva Topaz Chunk", "rarity": 4, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "Basalt Pillar", "rarity": 4, "count": 12 },
+        { "id": "Cecilia", "localeName": "Cecilia", "count": 45 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 12 }
       ],
       "HP": 3600.8,
       "ATK": 68.371,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "PrithivaTopazGemstone", "name": "Prithiva Topaz Gemstone", "count": 6 },
-        { "id": "BasaltPillar", "name": "Basalt Pillar", "count": 20 },
-        { "id": "Cecilia", "name": "Cecilia", "count": 60 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 24 }
+        { "id": "PrithivaTopazGemstone", "localeName": "Prithiva Topaz Gemstone", "rarity": 5, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "Basalt Pillar", "rarity": 4, "count": 20 },
+        { "id": "Cecilia", "localeName": "Cecilia", "count": 60 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 24 }
       ],
       "HP": 4228,
       "ATK": 80.281,
@@ -92,7 +92,8 @@
   "ascensionType": 31,
   "element": 2,
   "elemSkill": {
-    "name": "Abiogenesis: Solar Isotoma",
+    "name": "AbiogenesisSolarIsotoma",
+    "localeName": "Abiogenesis: Solar Isotoma",
     "desc": "Albedo creates a Solar Isotoma using alchemy, which deals <color=#FFE699FF>AoE Geo DMG</color> on appearance.\n\n<color=#FFD780FF>Solar Isotoma</color>\nhas the following properties:\n·When opponents within the Solar Isotoma field take DMG, the Solar Isotoma will generate Transient Blossoms which deal <color=#FFE699FF>AoE Geo DMG</color>. DMG dealt scales off Albedo's DEF. \n·Transient Blossoms can only be generated once every 2s.\n·When a character is located at the locus of the Solar Isotoma, the Solar Isotoma will accumulate Geo power to form a crystallized platform that lifts the character up to a certain height. Only one crystallized platform can exist at a time.\n·Solar Isotoma is considered a <color=#FFE699FF>Geo construct</color>. Only one Solar Isotoma created by Albedo himself can exist at a time. \n\n<color=#FFD780FF>Hold</color> to designate the location of the skill.\n\n<i>This Geo bloom has an unusual property mirrored in the aim of alchemy. To rise from the earth, soar into the sky, and become the sun.</i>",
     "cd": 4,
     "paramTpls": ["Skill DMG|{param1:P}", "Transient Blossom DMG|{param2:P} DEF", "Duration|{param3:F1}s", "Skill CD|{param4:F1}s"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "Teachings of Ballad", "count": 3 },
-        { "id": "DiviningScroll", "name": "Divining Scroll", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "Teachings of Ballad", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 2 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 4 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 6 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 9 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 4 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 4 },
-        { "id": "TuskOfMonocerosCaeli", "name": "Tusk of Monoceros Caeli", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 4 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 6 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 6 },
-        { "id": "TuskOfMonocerosCaeli", "name": "Tusk of Monoceros Caeli", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 6 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 12 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 9 },
-        { "id": "TuskOfMonocerosCaeli", "name": "Tusk of Monoceros Caeli", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 9 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 16 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 12 },
-        { "id": "TuskOfMonocerosCaeli", "name": "Tusk of Monoceros Caeli", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 12 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "Rite of Progeniture: Tectonic Tide",
+    "name": "RiteOfProgenitureTectonicTide",
+    "localeName": "Rite of Progeniture: Tectonic Tide",
     "desc": "Under Albedo's command, Geo crystals surge and burst forth, dealing <color=#FFE699FF>AoE Geo DMG</color> in front of him.\nIf a Solar Isotoma created by Albedo himself is on the field, 7 Fatal Blossoms will be generated in the Solar Isotoma field, bursting violently into bloom and dealing <color=#FFE699FF>AoE Geo DMG</color>.\n\nTectonic Tide DMG and Fatal Blossom DMG will not generate Transient Blossoms.\n\n<i>Under the Kreideprinz's command, the tectonic tide of creation seethes into life.</i>",
     "cd": 12,
     "energyCost": 40,
@@ -182,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "Teachings of Ballad", "count": 3 },
-        { "id": "DiviningScroll", "name": "Divining Scroll", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "Teachings of Ballad", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 2 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 4 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 6 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 9 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 4 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 4 },
-        { "id": "TuskOfMonocerosCaeli", "name": "Tusk of Monoceros Caeli", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 4 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 6 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 6 },
-        { "id": "TuskOfMonocerosCaeli", "name": "Tusk of Monoceros Caeli", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 6 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 12 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 9 },
-        { "id": "TuskOfMonocerosCaeli", "name": "Tusk of Monoceros Caeli", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 9 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 16 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 12 },
-        { "id": "TuskOfMonocerosCaeli", "name": "Tusk of Monoceros Caeli", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 12 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "Normal Attack: Favonius Bladework - Weiss",
+    "name": "NormalAttackFavoniusBladeworkWeiss",
+    "localeName": "Normal Attack: Favonius Bladework - Weiss",
     "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "cd": 0,
     "paramTpls": [
@@ -258,81 +261,72 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "Teachings of Ballad", "count": 3 },
-        { "id": "DiviningScroll", "name": "Divining Scroll", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "Teachings of Ballad", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 2 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 4 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 6 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "Guide to Ballad", "count": 9 },
-        { "id": "SealedScroll", "name": "Sealed Scroll", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 4 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 4 },
-        { "id": "TuskOfMonocerosCaeli", "name": "Tusk of Monoceros Caeli", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 4 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 6 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 6 },
-        { "id": "TuskOfMonocerosCaeli", "name": "Tusk of Monoceros Caeli", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 6 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 12 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 9 },
-        { "id": "TuskOfMonocerosCaeli", "name": "Tusk of Monoceros Caeli", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 9 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "count": 16 },
-        { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "count": 12 },
-        { "id": "TuskOfMonocerosCaeli", "name": "Tusk of Monoceros Caeli", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 12 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    {
-      "name": "Calcite Might",
-      "desc": "Transient Blossoms generated by <color=#FFD780FF>Abiogenesis: Solar Isotoma</color> deal 25% more DMG to opponents whose HP is below 50%.",
-      "unlock": 1,
-      "values": [0.5, 0.25]
-    },
-    {
-      "name": "Homuncular Nature",
-      "desc": "Using <color=#FFD780FF>Rite of Progeniture: Tectonic Tide</color> increases the Elemental Mastery of nearby party members by 125 for 10s.",
-      "unlock": 4,
-      "values": [125, 10]
-    },
-    { "name": "Flash of Genius", "desc": "When Albedo crafts Weapon Ascension Materials, he has a 10% chance to receive double the product.", "values": [0.1, 2] }
+    { "name": "CalciteMight", "localeName": "Calcite Might", "desc": "Transient Blossoms generated by <color=#FFD780FF>Abiogenesis: Solar Isotoma</color> deal 25% more DMG to opponents whose HP is below 50%.", "unlock": 1, "values": [0.5, 0.25] },
+    { "name": "HomuncularNature", "localeName": "Homuncular Nature", "desc": "Using <color=#FFD780FF>Rite of Progeniture: Tectonic Tide</color> increases the Elemental Mastery of nearby party members by 125 for 10s.", "unlock": 4, "values": [125, 10] },
+    { "name": "FlashOfGenius", "localeName": "Flash of Genius", "desc": "When Albedo crafts Weapon Ascension Materials, he has a 10% chance to receive double the product.", "values": [0.1, 2] }
   ],
   "c13ns": [
-    { "name": "Flower of Eden", "desc": "Transient Blossoms generated by Albedo's <color=#FFD780FF>Abiogenesis: Solar Isotoma</color> regenerate 1.2 Energy for Albedo.", "values": [1.2] },
+    { "name": "FlowerOfEden", "localeName": "Flower of Eden", "desc": "Transient Blossoms generated by Albedo's <color=#FFD780FF>Abiogenesis: Solar Isotoma</color> regenerate 1.2 Energy for Albedo.", "values": [1.2] },
     {
-      "name": "Opening of Phanerozoic",
+      "name": "OpeningOfPhanerozoic",
+      "localeName": "Opening of Phanerozoic",
       "desc": "Transient Blossoms generated by <color=#FFD780FF>Abiogenesis: Solar Isotoma</color> grant Albedo Fatal Reckoning for 30s:\n·Unleashing <color=#FFD780FF>Rite of Progeniture: Tectonic Tide</color> consumes all stacks of Fatal Reckoning. Each stack of Fatal Reckoning consumed increases the DMG dealt by Fatal Blossoms and Rite of Progeniture: Tectonic Tide's burst DMG by 30% of Albedo's DEF.\n·This effect stacks up to 4 times.",
       "values": [0.3]
     },
-    { "name": "Grace of Helios", "desc": "Increases the Level of <color=#FFD780FF>Abiogenesis: Solar Isotoma</color> by 3.\nMaximum upgrade level is 15." },
-    { "name": "Descent of Divinity", "desc": "Active party members within the Solar Isotoma field have their Plunging Attack DMG increased by 30%." },
-    { "name": "Tide of Hadean", "desc": "Increases the Level of <color=#FFD780FF>Rite of Progeniture: Tectonic Tide</color> by 3.\nMaximum upgrade level is 15." },
-    { "name": "Dust of Purification", "desc": "Active party members within the Solar Isotoma field who are protected by a shield created by Crystallize have their DMG increased by 17%." }
+    { "name": "GraceOfHelios", "localeName": "Grace of Helios", "desc": "Increases the Level of <color=#FFD780FF>Abiogenesis: Solar Isotoma</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "DescentOfDivinity", "localeName": "Descent of Divinity", "desc": "Active party members within the Solar Isotoma field have their Plunging Attack DMG increased by 30%." },
+    { "name": "TideOfHadean", "localeName": "Tide of Hadean", "desc": "Increases the Level of <color=#FFD780FF>Rite of Progeniture: Tectonic Tide</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "DustOfPurification", "localeName": "Dust of Purification", "desc": "Active party members within the Solar Isotoma field who are protected by a shield created by Crystallize have their DMG increased by 17%." }
   ],
   "overviewItems": [
-    { "id": "PrithivaTopazGemstone", "name": "Prithiva Topaz Gemstone", "rarity": 5 },
-    { "id": "BasaltPillar", "name": "Basalt Pillar", "rarity": 4 },
-    { "id": "Cecilia", "name": "Cecilia" },
-    { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "rarity": 3 },
-    { "id": "PhilosophiesOfBallad", "name": "Philosophies of Ballad", "rarity": 4 },
-    { "id": "TuskOfMonocerosCaeli", "name": "Tusk of Monoceros Caeli", "rarity": 5 }
+    { "id": "PrithivaTopazGemstone", "localeName": "Prithiva Topaz Gemstone", "rarity": 5 },
+    { "id": "BasaltPillar", "localeName": "Basalt Pillar", "rarity": 4 },
+    { "id": "Cecilia", "localeName": "Cecilia" },
+    { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3 },
+    { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4 },
+    { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5 }
   ]
 }

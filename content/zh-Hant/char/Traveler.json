@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "BrilliantDiamondSliver", "name": "璀璨原鑽碎屑", "count": 1 },
-        { "id": "WindwheelAster", "name": "風車菊", "count": 3 },
-        { "id": "DamagedMask", "name": "破損的面具", "count": 3 }
+        { "id": "BrilliantDiamondSliver", "localeName": "璀璨原鑽碎屑", "rarity": 2, "count": 1 },
+        { "id": "WindwheelAster", "localeName": "風車菊", "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損的面具", "rarity": 1, "count": 3 }
       ],
       "HP": 681.15,
       "ATK": 13.304,
@@ -26,9 +26,9 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "BrilliantDiamondFragment", "name": "璀璨原鑽斷片", "count": 3 },
-        { "id": "WindwheelAster", "name": "風車菊", "count": 10 },
-        { "id": "DamagedMask", "name": "破損的面具", "count": 15 }
+        { "id": "BrilliantDiamondFragment", "localeName": "璀璨原鑽斷片", "rarity": 3, "count": 3 },
+        { "id": "WindwheelAster", "localeName": "風車菊", "count": 10 },
+        { "id": "DamagedMask", "localeName": "破損的面具", "rarity": 1, "count": 15 }
       ],
       "HP": 1165.1,
       "ATK": 22.757,
@@ -38,9 +38,9 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "BrilliantDiamondFragment", "name": "璀璨原鑽斷片", "count": 6 },
-        { "id": "WindwheelAster", "name": "風車菊", "count": 20 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 12 }
+        { "id": "BrilliantDiamondFragment", "localeName": "璀璨原鑽斷片", "rarity": 3, "count": 6 },
+        { "id": "WindwheelAster", "localeName": "風車菊", "count": 20 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 12 }
       ],
       "HP": 1810.4,
       "ATK": 35.36,
@@ -50,9 +50,9 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "BrilliantDiamondChunk", "name": "璀璨原鑽塊", "count": 3 },
-        { "id": "WindwheelAster", "name": "風車菊", "count": 30 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 18 }
+        { "id": "BrilliantDiamondChunk", "localeName": "璀璨原鑽塊", "rarity": 4, "count": 3 },
+        { "id": "WindwheelAster", "localeName": "風車菊", "count": 30 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 18 }
       ],
       "HP": 2294.4,
       "ATK": 44.813,
@@ -62,9 +62,9 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "BrilliantDiamondChunk", "name": "璀璨原鑽塊", "count": 6 },
-        { "id": "WindwheelAster", "name": "風車菊", "count": 45 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 12 }
+        { "id": "BrilliantDiamondChunk", "localeName": "璀璨原鑽塊", "rarity": 4, "count": 6 },
+        { "id": "WindwheelAster", "localeName": "風車菊", "count": 45 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 12 }
       ],
       "HP": 2778.4,
       "ATK": 54.265,
@@ -74,9 +74,9 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "BrilliantDiamondGemstone", "name": "璀璨原鑽", "count": 6 },
-        { "id": "WindwheelAster", "name": "風車菊", "count": 60 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 24 }
+        { "id": "BrilliantDiamondGemstone", "localeName": "璀璨原鑽", "rarity": 5, "count": 6 },
+        { "id": "WindwheelAster", "localeName": "風車菊", "count": 60 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 24 }
       ],
       "HP": 3262.4,
       "ATK": 63.718,
@@ -87,20 +87,11 @@
   "ascensionType": 7,
   "element": 0,
   "attackSkill": {
-    "name": "普通攻擊·故去的追憶",
+    "name": "NormalAttackPastMemories",
+    "localeName": "普通攻擊·故去的追憶",
     "desc": "<color=#FFD780FF>普通攻擊</color>\n進行至多五段的連續劍擊。\n\n<color=#FFD780FF>重擊</color>\n消耗一定體力，瞬間向前方揮出兩劍。\n\n<color=#FFD780FF>下落攻擊</color>\n從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。",
     "cd": 0,
-    "paramTpls": [
-      "一段傷害|{param1:F1P}",
-      "二段傷害|{param2:F1P}",
-      "三段傷害|{param3:F1P}",
-      "四段傷害|{param4:F1P}",
-      "五段傷害|{param5:F1P}",
-      "重擊傷害|{param6:F1P}+{param7:F1P}",
-      "重擊體力消耗|{param8:F1}點",
-      "下墜期間傷害|{param9:F1P}",
-      "低空/高空墜地衝擊傷害|{param10:P}/{param11:P}"
-    ],
+    "paramTpls": ["一段傷害|{param1:F1P}", "二段傷害|{param2:F1P}", "三段傷害|{param3:F1P}", "四段傷害|{param4:F1P}", "五段傷害|{param5:F1P}", "重擊傷害|{param6:F1P}+{param7:F1P}", "重擊體力消耗|{param8:F1}點", "下墜期間傷害|{param9:F1P}", "低空/高空墜地衝擊傷害|{param10:P}/{param11:P}"],
     "paramVals": [
       [0.44462, 0.4343, 0.52976, 0.58308, 0.70778, 0.559, 0.7224, 20, 0.63932, 1.2784, 1.5968],
       [0.48081, 0.46965, 0.57288, 0.63054, 0.76539, 0.6045, 0.7812, 20, 0.69136, 1.3824, 1.7267],
@@ -120,56 +111,56 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "「自由」的教導", "count": 3 },
-        { "id": "DiviningScroll", "name": "導能繪卷", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」的教導", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "導能繪卷", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 2 },
-        { "id": "SealedScroll", "name": "封魔繪卷", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "封魔繪卷", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」的指引", "count": 4 },
-        { "id": "SealedScroll", "name": "封魔繪卷", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "封魔繪卷", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」的指引", "count": 6 },
-        { "id": "SealedScroll", "name": "封魔繪卷", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "封魔繪卷", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 9 },
-        { "id": "SealedScroll", "name": "封魔繪卷", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "封魔繪卷", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 4 },
-        { "id": "ForbiddenCurseScroll", "name": "禁咒繪卷", "count": 4 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "rarity": 3, "count": 4 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲學", "count": 6 },
-        { "id": "ForbiddenCurseScroll", "name": "禁咒繪卷", "count": 6 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "rarity": 3, "count": 6 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 12 },
-        { "id": "ForbiddenCurseScroll", "name": "禁咒繪卷", "count": 9 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "rarity": 3, "count": 9 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 16 },
-        { "id": "ForbiddenCurseScroll", "name": "禁咒繪卷", "count": 12 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "rarity": 3, "count": 12 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [],
   "c13ns": [],
   "overviewItems": [
-    { "id": "BrilliantDiamondGemstone", "name": "璀璨原鑽", "rarity": 5 },
-    { "id": "WindwheelAster", "name": "風車菊" },
-    { "id": "OminousMask", "name": "不祥的面具", "rarity": 3 },
-    { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "rarity": 4 },
-    { "id": "ForbiddenCurseScroll", "name": "禁咒繪卷", "rarity": 3 },
-    { "id": "DvalinsSigh", "name": "東風的吐息", "rarity": 5 }
+    { "id": "BrilliantDiamondGemstone", "localeName": "璀璨原鑽", "rarity": 5 },
+    { "id": "WindwheelAster", "localeName": "風車菊" },
+    { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3 },
+    { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4 },
+    { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "rarity": 3 },
+    { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5 }
   ]
 }

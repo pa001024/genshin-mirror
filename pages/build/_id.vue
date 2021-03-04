@@ -1,5 +1,7 @@
 <template>
-  <div class="gsm-build"></div>
+  <div class="gsm-build">
+    {{ id }}
+  </div>
 </template>
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";

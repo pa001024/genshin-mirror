@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VarunadaLazuriteSliver", "name": "涤净青金碎屑", "count": 1 },
-        { "id": "Starconch", "name": "星螺", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "新兵的徽记", "count": 3 }
+        { "id": "VarunadaLazuriteSliver", "localeName": "涤净青金碎屑", "rarity": 2, "count": 1 },
+        { "id": "Starconch", "localeName": "星螺", "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽记", "rarity": 1, "count": 3 }
       ],
       "HP": 874.6,
       "ATK": 20.114,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VarunadaLazuriteFragment", "name": "涤净青金断片", "count": 3 },
-        { "id": "CleansingHeart", "name": "净水之心", "count": 2 },
-        { "id": "Starconch", "name": "星螺", "count": 10 },
-        { "id": "RecruitsInsignia", "name": "新兵的徽记", "count": 15 }
+        { "id": "VarunadaLazuriteFragment", "localeName": "涤净青金断片", "rarity": 3, "count": 3 },
+        { "id": "CleansingHeart", "localeName": "净水之心", "rarity": 4, "count": 2 },
+        { "id": "Starconch", "localeName": "星螺", "count": 10 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽记", "rarity": 1, "count": 15 }
       ],
       "HP": 1496,
       "ATK": 34.406,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VarunadaLazuriteFragment", "name": "涤净青金断片", "count": 6 },
-        { "id": "CleansingHeart", "name": "净水之心", "count": 4 },
-        { "id": "Starconch", "name": "星螺", "count": 20 },
-        { "id": "SergeantsInsignia", "name": "士官的徽记", "count": 12 }
+        { "id": "VarunadaLazuriteFragment", "localeName": "涤净青金断片", "rarity": 3, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "净水之心", "rarity": 4, "count": 4 },
+        { "id": "Starconch", "localeName": "星螺", "count": 20 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 12 }
       ],
       "HP": 2324.6,
       "ATK": 53.462,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VarunadaLazuriteChunk", "name": "涤净青金块", "count": 3 },
-        { "id": "CleansingHeart", "name": "净水之心", "count": 8 },
-        { "id": "Starconch", "name": "星螺", "count": 30 },
-        { "id": "SergeantsInsignia", "name": "士官的徽记", "count": 18 }
+        { "id": "VarunadaLazuriteChunk", "localeName": "涤净青金块", "rarity": 4, "count": 3 },
+        { "id": "CleansingHeart", "localeName": "净水之心", "rarity": 4, "count": 8 },
+        { "id": "Starconch", "localeName": "星螺", "count": 30 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 18 }
       ],
       "HP": 2946,
       "ATK": 67.754,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VarunadaLazuriteChunk", "name": "涤净青金块", "count": 6 },
-        { "id": "CleansingHeart", "name": "净水之心", "count": 12 },
-        { "id": "Starconch", "name": "星螺", "count": 45 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽记", "count": 12 }
+        { "id": "VarunadaLazuriteChunk", "localeName": "涤净青金块", "rarity": 4, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "净水之心", "rarity": 4, "count": 12 },
+        { "id": "Starconch", "localeName": "星螺", "count": 45 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 12 }
       ],
       "HP": 3567.5,
       "ATK": 82.046,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VarunadaLazuriteGemstone", "name": "涤净青金", "count": 6 },
-        { "id": "CleansingHeart", "name": "净水之心", "count": 20 },
-        { "id": "Starconch", "name": "星螺", "count": 60 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽记", "count": 24 }
+        { "id": "VarunadaLazuriteGemstone", "localeName": "涤净青金", "rarity": 5, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "净水之心", "rarity": 4, "count": 20 },
+        { "id": "Starconch", "localeName": "星螺", "count": 60 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 24 }
       ],
       "HP": 4188.9,
       "ATK": 96.337,
@@ -92,7 +92,8 @@
   "ascensionType": 21,
   "element": 5,
   "elemSkill": {
-    "name": "魔王武装·狂澜",
+    "name": "FoulLegacyRagingTide",
+    "localeName": "魔王武装·狂澜",
     "desc": "解放纯水构成的武装，对周围的敌人造成<color=#80C0FFFF>水元素伤害</color>，并进入近战状态。\n在此状态下，达达利亚的普通攻击与重击将转为无法被附魔覆盖的<color=#80C0FFFF>水元素伤害</color>，并发生以下变化：\n\n<color=#FFD780FF>普通攻击</color>\n进行至多六段的连续<color=#80C0FFFF>水元素</color>斩击。\n\n<color=#FFD780FF>重击</color>\n消耗体力，瞬间向前方挥出两剑，造成<color=#80C0FFFF>水元素伤害</color>。\n\n<color=#FFD780FF>断流·斩</color>\n近战攻击命中处于断流影响下的敌人时，将引发一次断流·斩，造成<color=#80C0FFFF>水元素范围伤害</color>。断流·斩造成的伤害视为元素战技伤害，每1.5秒至多触发一次。\n\n30秒后或再次施放时效果将会解除，回到远程状态，并使技能进入冷却。近战状态下持续的时间越长，冷却时间越长。\n若持续30秒后自动回到远程状态，技能将进入更长的冷却周期。\n\n<i>为了克服自己不擅使弓的弱点，他才选择弓作为自己的武器。但在真正的战斗中，不得不拿出真正的实力…</i>",
     "cd": 6,
     "paramTpls": [
@@ -129,50 +130,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "「自由」的教导", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "新兵的徽记", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」的教导", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽记", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」的指引", "count": 2 },
-        { "id": "SergeantsInsignia", "name": "士官的徽记", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」的指引", "count": 4 },
-        { "id": "SergeantsInsignia", "name": "士官的徽记", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」的指引", "count": 6 },
-        { "id": "SergeantsInsignia", "name": "士官的徽记", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」的指引", "count": 9 },
-        { "id": "SergeantsInsignia", "name": "士官的徽记", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "count": 4 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽记", "count": 4 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王之刃·残片", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 4 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·残片", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "count": 6 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽记", "count": 6 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王之刃·残片", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 6 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·残片", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "count": 12 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽记", "count": 9 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王之刃·残片", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 9 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·残片", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "count": 16 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽记", "count": 12 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王之刃·残片", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智识之冕", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 12 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·残片", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "极恶技·尽灭闪",
+    "name": "HavocObliteration",
+    "localeName": "极恶技·尽灭闪",
     "desc": "依据达达利亚当前所处的状态，进行不同的攻击：\n\n<color=#FFD780FF>远程状态·魔弹一闪</color>\n向前方快速射出一发饱含水元素的魔箭，造成<color=#80C0FFFF>水元素范围伤害</color>，并施加断流效果。\n施放后，返还部分元素能量。\n\n<color=#FFD780FF>近战状态·尽灭水光</color>\n进行一次大范围斩击，对附近所有敌人造成大量<color=#80C0FFFF>水元素伤害</color>，并能引发断流·爆。\n\n<color=#FFD780FF>断流·爆</color>\n尽灭水光命中处于断流状态下的敌人时，会消耗断流效果并引发水爆，造成<color=#80C0FFFF>水元素范围伤害</color>。断流·爆造成的伤害视为元素爆发伤害。\n\n<i>湍流的水，在他的雪国故土并不常见。或许能将流水握在手中，正是因为明白流水的珍贵吧。</i>",
     "cd": 15,
     "energyCost": 60,
@@ -196,50 +198,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "「自由」的教导", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "新兵的徽记", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」的教导", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽记", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」的指引", "count": 2 },
-        { "id": "SergeantsInsignia", "name": "士官的徽记", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」的指引", "count": 4 },
-        { "id": "SergeantsInsignia", "name": "士官的徽记", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」的指引", "count": 6 },
-        { "id": "SergeantsInsignia", "name": "士官的徽记", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」的指引", "count": 9 },
-        { "id": "SergeantsInsignia", "name": "士官的徽记", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "count": 4 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽记", "count": 4 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王之刃·残片", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 4 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·残片", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "count": 6 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽记", "count": 6 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王之刃·残片", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 6 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·残片", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "count": 12 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽记", "count": 9 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王之刃·残片", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 9 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·残片", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "count": 16 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽记", "count": 12 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王之刃·残片", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智识之冕", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 12 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·残片", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "普通攻击·断雨",
+    "name": "NormalAttackCuttingTorrent",
+    "localeName": "普通攻击·断雨",
     "desc": "<color=#FFD780FF>普通攻击</color>\n进行至多六段的连续弓箭射击。\n\n<color=#FFD780FF>重击</color>\n进行伤害更高、更为精准的<color=#FFD780FF>瞄准射击</color>。\n瞄准时，水元素之力会在箭矢上持续积聚。聚满了激流的箭矢会在命中敌人时造成<color=#80C0FFFF>水元素伤害</color>，并施加断流效果。\n\n<color=#FFD780FF>断流</color>\n处于断流影响下的敌人受到达达利亚的各种攻击时，将产生<color=#80C0FFFF>水元素范围伤害</color>效果。这些效果造成的伤害视为普通攻击伤害。\n·断流·闪：满蓄力瞄准射击命中处于断流影响下的敌人时，会引发连续范围伤害。断流·闪每0.7秒至多触发一次。\n·断流·破：击败处于断流影响下的敌人时会引发水之绽放，对附近的敌人施加断流效果。\n\n<color=#FFD780FF>下落攻击</color>\n从空中射出箭雨，并迅速下坠冲击地面，在落地时造成范围伤害。\n处于魔王武装·狂澜的近战状态下时，无法施展下落攻击。",
     "cd": 0,
     "paramTpls": [
@@ -276,71 +279,72 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "「自由」的教导", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "新兵的徽记", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」的教导", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽记", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」的指引", "count": 2 },
-        { "id": "SergeantsInsignia", "name": "士官的徽记", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」的指引", "count": 4 },
-        { "id": "SergeantsInsignia", "name": "士官的徽记", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」的指引", "count": 6 },
-        { "id": "SergeantsInsignia", "name": "士官的徽记", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」的指引", "count": 9 },
-        { "id": "SergeantsInsignia", "name": "士官的徽记", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "count": 4 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽记", "count": 4 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王之刃·残片", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 4 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·残片", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "count": 6 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽记", "count": 6 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王之刃·残片", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 6 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·残片", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "count": 12 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽记", "count": 9 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王之刃·残片", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 9 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·残片", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "count": 16 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽记", "count": 12 },
-        { "id": "ShardOfAFoulLegacy", "name": "魔王之刃·残片", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智识之冕", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 12 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·残片", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "永无谢幕", "desc": "断流效果的持续时间延长8秒。", "unlock": 1, "values": [8] },
-    { "name": "水形剑", "desc": "处于<color=#FFD780FF>魔王武装·狂澜</color>的近战状态时，普通攻击与重击在造成暴击时，会为命中的敌人施加断流效果。", "unlock": 4 },
-    { "name": "诸武精通", "desc": "队伍中自己的角色<color=#FFD780FF>普通攻击</color>等级提高1级。" }
+    { "name": "NeverEnding", "localeName": "永无谢幕", "desc": "断流效果的持续时间延长8秒。", "unlock": 1, "values": [8] },
+    { "name": "SwordOfTorrents", "localeName": "水形剑", "desc": "处于<color=#FFD780FF>魔王武装·狂澜</color>的近战状态时，普通攻击与重击在造成暴击时，会为命中的敌人施加断流效果。", "unlock": 4 },
+    { "name": "MasterOfWeaponry", "localeName": "诸武精通", "desc": "队伍中自己的角色<color=#FFD780FF>普通攻击</color>等级提高1级。" }
   ],
   "c13ns": [
-    { "name": "魔王武装·遏浪", "desc": "<color=#FFD780FF>魔王武装·狂澜</color>的冷却时间降低20%。" },
-    { "name": "魔王武装·暗流", "desc": "处于断流效果影响下的敌人被击败时，为达达利亚恢复4点元素能量。", "values": [4] },
-    { "name": "深渊之灾·纷争涡源", "desc": "<color=#FFD780FF>魔王武装·狂澜</color>的技能等级提高3级。\n至多提升至15级。" },
+    { "name": "FoulLegacyTideWithholder", "localeName": "魔王武装·遏浪", "desc": "<color=#FFD780FF>魔王武装·狂澜</color>的冷却时间降低20%。" },
+    { "name": "FoulLegacyUnderstream", "localeName": "魔王武装·暗流", "desc": "处于断流效果影响下的敌人被击败时，为达达利亚恢复4点元素能量。", "values": [4] },
+    { "name": "AbyssalMayhemVortexOfTurmoil", "localeName": "深渊之灾·纷争涡源", "desc": "<color=#FFD780FF>魔王武装·狂澜</color>的技能等级提高3级。\n至多提升至15级。" },
     {
-      "name": "深渊之灾·凝水盛放",
+      "name": "AbyssalMayhemHydrospout",
+      "localeName": "深渊之灾·凝水盛放",
       "desc": "每4秒，场上存在达达利亚自身施加的断流效果时，若达达利亚当前处于<color=#FFD780FF>魔王武装·狂澜</color>的近战状态，则触发断流·斩；否则，触发断流·闪。\n通过此命之座触发的断流·斩与断流·闪不受这两种断流各自的触发间隔限制，也不会影响其触发间隔。",
       "values": [4]
     },
-    { "name": "极恶技·斩水斩雨", "desc": "<color=#FFD780FF>极恶技·尽灭闪</color>的技能等级提高3级。\n至多提升至15级。" },
-    { "name": "极恶技·天使灭尽", "desc": "在近战状态下施放<color=#FFD780FF>极恶技·尽灭闪</color>时，清除<color=#FFD780FF>魔王武装·狂澜</color>的冷却时间。\n该效果会在回到远程状态后触发。" }
+    { "name": "HavocFormlessBlade", "localeName": "极恶技·斩水斩雨", "desc": "<color=#FFD780FF>极恶技·尽灭闪</color>的技能等级提高3级。\n至多提升至15级。" },
+    { "name": "HavocAnnihilation", "localeName": "极恶技·天使灭尽", "desc": "在近战状态下施放<color=#FFD780FF>极恶技·尽灭闪</color>时，清除<color=#FFD780FF>魔王武装·狂澜</color>的冷却时间。\n该效果会在回到远程状态后触发。" }
   ],
   "overviewItems": [
-    { "id": "VarunadaLazuriteGemstone", "name": "涤净青金", "rarity": 5 },
-    { "id": "CleansingHeart", "name": "净水之心", "rarity": 4 },
-    { "id": "Starconch", "name": "星螺" },
-    { "id": "LieutenantsInsignia", "name": "尉官的徽记", "rarity": 3 },
-    { "id": "PhilosophiesOfFreedom", "name": "「自由」的哲学", "rarity": 4 },
-    { "id": "ShardOfAFoulLegacy", "name": "魔王之刃·残片", "rarity": 5 }
+    { "id": "VarunadaLazuriteGemstone", "localeName": "涤净青金", "rarity": 5 },
+    { "id": "CleansingHeart", "localeName": "净水之心", "rarity": 4 },
+    { "id": "Starconch", "localeName": "星螺" },
+    { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3 },
+    { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲学", "rarity": 4 },
+    { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·残片", "rarity": 5 }
   ]
 }

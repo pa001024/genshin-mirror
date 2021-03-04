@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VarunadaLazuriteSliver", "name": "滌淨青金碎屑", "count": 1 },
-        { "id": "PhilanemoMushroom", "name": "慕風蘑菇", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "騙騙花蜜", "count": 3 }
+        { "id": "VarunadaLazuriteSliver", "localeName": "滌淨青金碎屑", "rarity": 2, "count": 1 },
+        { "id": "PhilanemoMushroom", "localeName": "慕風蘑菇", "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "騙騙花蜜", "rarity": 1, "count": 3 }
       ],
       "HP": 694.78,
       "ATK": 19.157,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VarunadaLazuriteFragment", "name": "滌淨青金斷片", "count": 3 },
-        { "id": "CleansingHeart", "name": "淨水之心", "count": 2 },
-        { "id": "PhilanemoMushroom", "name": "慕風蘑菇", "count": 10 },
-        { "id": "WhopperflowerNectar", "name": "騙騙花蜜", "count": 15 }
+        { "id": "VarunadaLazuriteFragment", "localeName": "滌淨青金斷片", "rarity": 3, "count": 3 },
+        { "id": "CleansingHeart", "localeName": "淨水之心", "rarity": 4, "count": 2 },
+        { "id": "PhilanemoMushroom", "localeName": "慕風蘑菇", "count": 10 },
+        { "id": "WhopperflowerNectar", "localeName": "騙騙花蜜", "rarity": 1, "count": 15 }
       ],
       "HP": 1188.4,
       "ATK": 32.768,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VarunadaLazuriteFragment", "name": "滌淨青金斷片", "count": 6 },
-        { "id": "CleansingHeart", "name": "淨水之心", "count": 4 },
-        { "id": "PhilanemoMushroom", "name": "慕風蘑菇", "count": 20 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 12 }
+        { "id": "VarunadaLazuriteFragment", "localeName": "滌淨青金斷片", "rarity": 3, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "淨水之心", "rarity": 4, "count": 4 },
+        { "id": "PhilanemoMushroom", "localeName": "慕風蘑菇", "count": 20 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 12 }
       ],
       "HP": 1846.6,
       "ATK": 50.916,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VarunadaLazuriteChunk", "name": "滌淨青金塊", "count": 3 },
-        { "id": "CleansingHeart", "name": "淨水之心", "count": 8 },
-        { "id": "PhilanemoMushroom", "name": "慕風蘑菇", "count": 30 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 18 }
+        { "id": "VarunadaLazuriteChunk", "localeName": "滌淨青金塊", "rarity": 4, "count": 3 },
+        { "id": "CleansingHeart", "localeName": "淨水之心", "rarity": 4, "count": 8 },
+        { "id": "PhilanemoMushroom", "localeName": "慕風蘑菇", "count": 30 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 18 }
       ],
       "HP": 2340.3,
       "ATK": 64.527,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VarunadaLazuriteChunk", "name": "滌淨青金塊", "count": 6 },
-        { "id": "CleansingHeart", "name": "淨水之心", "count": 12 },
-        { "id": "PhilanemoMushroom", "name": "慕風蘑菇", "count": 45 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 12 }
+        { "id": "VarunadaLazuriteChunk", "localeName": "滌淨青金塊", "rarity": 4, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "淨水之心", "rarity": 4, "count": 12 },
+        { "id": "PhilanemoMushroom", "localeName": "慕風蘑菇", "count": 45 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 12 }
       ],
       "HP": 2834,
       "ATK": 78.139,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VarunadaLazuriteGemstone", "name": "滌淨青金", "count": 6 },
-        { "id": "CleansingHeart", "name": "淨水之心", "count": 20 },
-        { "id": "PhilanemoMushroom", "name": "慕風蘑菇", "count": 60 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 24 }
+        { "id": "VarunadaLazuriteGemstone", "localeName": "滌淨青金", "rarity": 5, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "淨水之心", "rarity": 4, "count": 20 },
+        { "id": "PhilanemoMushroom", "localeName": "慕風蘑菇", "count": 60 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 24 }
       ],
       "HP": 3327.6,
       "ATK": 91.75,
@@ -92,7 +92,8 @@
   "ascensionType": 10,
   "element": 5,
   "elemSkill": {
-    "name": "水中幻願",
+    "name": "MirrorReflectionOfDoom",
+    "localeName": "水中幻願",
     "desc": "聚集水花匯成命運的虛影。\n\n<color=#FFD780FF>虛影</color>\n具有如下特性：\n·持續嘲諷周圍的敵人，吸引火力；\n·持續對附近的敵人造成<color=#80C0FFFF>水元素傷害</color>；\n·持續時間結束時，虛影破裂，造成<color=#80C0FFFF>水元素範圍傷害</color>。\n\n<color=#FFD780FF>長按</color>\n借助水流之勢迅速後退，並喚出虛影。\n\n場上同時只能存在一個由水中幻願創造的虛影。<i>高深的占星術士一直試圖製造自身的虛影來轉嫁將要到來的厄運。但是如此嘲諷厄運的人，莫娜應該是提瓦特第一個。</i>",
     "cd": 12,
     "paramTpls": ["持續傷害|{param1:F1P}", "爆裂傷害|{param2:P}", "冷卻時間|{param5:F1}秒"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗爭」的教導", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "騙騙花蜜", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗爭」的教導", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "騙騙花蜜", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 4 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 4 },
-        { "id": "RingOfBoreas", "name": "北風之環", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 6 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 6 },
-        { "id": "RingOfBoreas", "name": "北風之環", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 12 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 9 },
-        { "id": "RingOfBoreas", "name": "北風之環", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 16 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 12 },
-        { "id": "RingOfBoreas", "name": "北風之環", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "星命定軌",
+    "name": "StellarisPhantasm",
+    "localeName": "星命定軌",
     "desc": "凝聚粼粼的水波，倒映出虛幻星空，對大範圍內的敵人施加泡影狀態。\n\n<color=#FFD780FF>泡影</color>\n以星相的氣泡包裹敵人，施加<color=#80C0FFFF>潮濕</color>狀態。較弱的敵人會被禁錮在泡影中，無法行動。\n處於泡影影響下的敵人受到傷害時，會產生以下效果：\n·對敵人施加星異的傷害加成效果，並以此提高這一次造成的傷害；\n·解除泡影效果，並額外造成一次<color=#80C0FFFF>水元素傷害</color>。\n\n<color=#FFD780FF>星異</color>\n持續時間內，提高受到的傷害。\n\n<i>自從神的目光開始牽引著天上的光明，命運自此被稱之為命運。</i>",
     "cd": 15,
     "energyCost": 60,
@@ -182,62 +184,54 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗爭」的教導", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "騙騙花蜜", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗爭」的教導", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "騙騙花蜜", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 4 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 4 },
-        { "id": "RingOfBoreas", "name": "北風之環", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 6 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 6 },
-        { "id": "RingOfBoreas", "name": "北風之環", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 12 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 9 },
-        { "id": "RingOfBoreas", "name": "北風之環", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 16 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 12 },
-        { "id": "RingOfBoreas", "name": "北風之環", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "普通攻擊·因果點破",
+    "name": "NormalAttackRippleOfFate",
+    "localeName": "普通攻擊·因果點破",
     "desc": "<color=#FFD780FF>普通攻擊</color>\n進行至多四段的水花攻擊，造成<color=#80C0FFFF>水元素傷害</color>。\n\n<color=#FFD780FF>重擊</color>\n消耗一定體力，短暫詠唱後，造成<color=#80C0FFFF>水元素範圍傷害</color>。\n\n<color=#FFD780FF>下落攻擊</color>\n凝聚水元素的力量，從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成<color=#80C0FFFF>水元素範圍傷害</color>。",
     "cd": 0,
-    "paramTpls": [
-      "一段傷害|{param1:F1P}",
-      "二段傷害|{param2:F1P}",
-      "三段傷害|{param3:F1P}",
-      "四段傷害|{param4:F1P}",
-      "重擊傷害|{param5:P}",
-      "重擊體力消耗|{param6:F1}點",
-      "下墜期間傷害|{param7:F1P}",
-      "低空/高空墜地衝擊傷害|{param8:P}/{param9:P}"
-    ],
+    "paramTpls": ["一段傷害|{param1:F1P}", "二段傷害|{param2:F1P}", "三段傷害|{param3:F1P}", "四段傷害|{param4:F1P}", "重擊傷害|{param5:P}", "重擊體力消耗|{param6:F1}點", "下墜期間傷害|{param7:F1P}", "低空/高空墜地衝擊傷害|{param8:P}/{param9:P}"],
     "paramVals": [
       [0.376, 0.36, 0.448, 0.5616, 1.4972, 50, 0.56829, 1.1363, 1.4193],
       [0.4042, 0.387, 0.4816, 0.60372, 1.6095, 50, 0.61454, 1.2288, 1.5349],
@@ -257,80 +251,78 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗爭」的教導", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "騙騙花蜜", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗爭」的教導", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "騙騙花蜜", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "微光花蜜", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 4 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 4 },
-        { "id": "RingOfBoreas", "name": "北風之環", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 6 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 6 },
-        { "id": "RingOfBoreas", "name": "北風之環", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 12 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 9 },
-        { "id": "RingOfBoreas", "name": "北風之環", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 16 },
-        { "id": "EnergyNectar", "name": "原素花蜜", "count": 12 },
-        { "id": "RingOfBoreas", "name": "北風之環", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
     {
-      "name": "「老太婆來抓我啊！」",
+      "name": "ComeNGetMeHag",
+      "localeName": "「老太婆來抓我啊！」",
       "desc": "進入<color=#FFD780FF>虛實流動</color>狀態2秒後，如果週圍存在敵人，則自動凝聚一個虛影。\n藉由這種方式產生的虛影持續2秒，造成的破裂傷害相當於<color=#FFD780FF>水中幻願</color>傷害的50%。",
       "unlock": 1,
       "values": [2, 2, 0.5]
     },
-    { "name": "「託付於命運吧！」", "desc": "莫娜的<color=#80C0FFFF>水元素傷害加成</color>獲得額外提升，提升程度相當於她的元素充能效率的20%。", "unlock": 4, "values": [1, 0.2] },
-    { "name": "運行原理", "desc": "合成武器突破素材時，有25%的機率歸還部分合成材料。" }
+    { "name": "WaterborneDestiny", "localeName": "「託付於命運吧！」", "desc": "莫娜的<color=#80C0FFFF>水元素傷害加成</color>獲得額外提升，提升程度相當於她的元素充能效率的20%。", "unlock": 4, "values": [1, 0.2] },
+    { "name": "PrincipiumOfAstrology", "localeName": "運行原理", "desc": "合成武器突破素材時，有25%的機率歸還部分合成材料。" }
   ],
   "c13ns": [
     {
-      "name": "沉沒的預言",
+      "name": "ProphecyOfSubmersion",
+      "localeName": "沉沒的預言",
       "desc": "隊伍中自己的角色攻擊命中處於星異狀態下的敵人後的8秒內，自己的角色所造成的<color=#80C0FFFF>水元素</color>相關反應效果提升：\n·感電反應造成的傷害提升15%，蒸發反應造成的傷害提升15%，水元素擴散反應造成的傷害提升15%；\n·凍結反應的持續時間延長15%。",
       "values": [0.15, 0.15, 0.15, 0.15, 5, 8]
     },
-    { "name": "星月的連珠", "desc": "普通攻擊命中時，有20%的機率自動施放一次重擊。\n該效果每5秒只能觸發一次。", "values": [0.2, 1, 5] },
-    { "name": "不休的天象", "desc": "<color=#FFD780FF>星命定軌</color>的技能等級提高3級。\n至多提升至15級。" },
-    { "name": "滅絕的預言", "desc": "隊伍中所有角色攻擊處於星異狀態下的敵人時，暴擊率提升15%。", "values": [-0.15] },
-    { "name": "命運的嘲弄", "desc": "<color=#FFD780FF>水中幻願</color>的技能等級提高3級。\n至多提升至15級。" },
-    {
-      "name": "厄運的修辭",
-      "desc": "進入<color=#FFD780FF>虛實流動</color>狀態後，每移動1秒，莫娜的下一次重擊傷害就增加60%，\n透過這種方式至多可以獲得180%重擊傷害加成，該效果至多持續8秒。",
-      "values": [1, 0.6, 1.8, 8]
-    }
+    { "name": "LunarChain", "localeName": "星月的連珠", "desc": "普通攻擊命中時，有20%的機率自動施放一次重擊。\n該效果每5秒只能觸發一次。", "values": [0.2, 1, 5] },
+    { "name": "RestlessRevolution", "localeName": "不休的天象", "desc": "<color=#FFD780FF>星命定軌</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "ProphecyOfOblivion", "localeName": "滅絕的預言", "desc": "隊伍中所有角色攻擊處於星異狀態下的敵人時，暴擊率提升15%。", "values": [-0.15] },
+    { "name": "MockeryOfFortuna", "localeName": "命運的嘲弄", "desc": "<color=#FFD780FF>水中幻願</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "RhetoricsOfCalamitas", "localeName": "厄運的修辭", "desc": "進入<color=#FFD780FF>虛實流動</color>狀態後，每移動1秒，莫娜的下一次重擊傷害就增加60%，\n透過這種方式至多可以獲得180%重擊傷害加成，該效果至多持續8秒。", "values": [1, 0.6, 1.8, 8] }
   ],
   "overviewItems": [
-    { "id": "VarunadaLazuriteGemstone", "name": "滌淨青金", "rarity": 5 },
-    { "id": "CleansingHeart", "name": "淨水之心", "rarity": 4 },
-    { "id": "PhilanemoMushroom", "name": "慕風蘑菇" },
-    { "id": "EnergyNectar", "name": "原素花蜜", "rarity": 3 },
-    { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "rarity": 4 },
-    { "id": "RingOfBoreas", "name": "北風之環", "rarity": 5 }
+    { "id": "VarunadaLazuriteGemstone", "localeName": "滌淨青金", "rarity": 5 },
+    { "id": "CleansingHeart", "localeName": "淨水之心", "rarity": 4 },
+    { "id": "PhilanemoMushroom", "localeName": "慕風蘑菇" },
+    { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3 },
+    { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4 },
+    { "id": "RingOfBoreas", "localeName": "北風之環", "rarity": 5 }
   ]
 }

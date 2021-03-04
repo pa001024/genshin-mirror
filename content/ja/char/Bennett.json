@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "AgnidusAgateSliver", "name": "炎願のアゲート·砕屑", "count": 1 },
-        { "id": "WindwheelAster", "name": "風車アスター", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "宝探しの鴉マーク", "count": 3 }
+        { "id": "AgnidusAgateSliver", "localeName": "炎願のアゲート·砕屑", "rarity": 2, "count": 1 },
+        { "id": "WindwheelAster", "localeName": "風車アスター", "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "rarity": 1, "count": 3 }
       ],
       "HP": 776.52,
       "ATK": 11.973,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "炎願のアゲート·欠片", "count": 3 },
-        { "id": "EverflameSeed", "name": "常燃の火種", "count": 2 },
-        { "id": "WindwheelAster", "name": "風車アスター", "count": 10 },
-        { "id": "TreasureHoarderInsignia", "name": "宝探しの鴉マーク", "count": 15 }
+        { "id": "AgnidusAgateFragment", "localeName": "炎願のアゲート·欠片", "rarity": 3, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 2 },
+        { "id": "WindwheelAster", "localeName": "風車アスター", "count": 10 },
+        { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "rarity": 1, "count": 15 }
       ],
       "HP": 1328.3,
       "ATK": 20.481,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "炎願のアゲート·欠片", "count": 6 },
-        { "id": "EverflameSeed", "name": "常燃の火種", "count": 4 },
-        { "id": "WindwheelAster", "name": "風車アスター", "count": 20 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 12 }
+        { "id": "AgnidusAgateFragment", "localeName": "炎願のアゲート·欠片", "rarity": 3, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 4 },
+        { "id": "WindwheelAster", "localeName": "風車アスター", "count": 20 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 12 }
       ],
       "HP": 2063.9,
       "ATK": 31.824,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "炎願のアゲート·塊", "count": 3 },
-        { "id": "EverflameSeed", "name": "常燃の火種", "count": 8 },
-        { "id": "WindwheelAster", "name": "風車アスター", "count": 30 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 18 }
+        { "id": "AgnidusAgateChunk", "localeName": "炎願のアゲート·塊", "rarity": 4, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 8 },
+        { "id": "WindwheelAster", "localeName": "風車アスター", "count": 30 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 18 }
       ],
       "HP": 2615.6,
       "ATK": 40.332,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "炎願のアゲート·塊", "count": 6 },
-        { "id": "EverflameSeed", "name": "常燃の火種", "count": 12 },
-        { "id": "WindwheelAster", "name": "風車アスター", "count": 45 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 12 }
+        { "id": "AgnidusAgateChunk", "localeName": "炎願のアゲート·塊", "rarity": 4, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 12 },
+        { "id": "WindwheelAster", "localeName": "風車アスター", "count": 45 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 12 }
       ],
       "HP": 3167.4,
       "ATK": 48.839,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "AgnidusAgateGemstone", "name": "炎願のアゲート", "count": 6 },
-        { "id": "EverflameSeed", "name": "常燃の火種", "count": 20 },
-        { "id": "WindwheelAster", "name": "風車アスター", "count": 60 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 24 }
+        { "id": "AgnidusAgateGemstone", "localeName": "炎願のアゲート", "rarity": 5, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 20 },
+        { "id": "WindwheelAster", "localeName": "風車アスター", "count": 60 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 24 }
       ],
       "HP": 3719.1,
       "ATK": 57.346,
@@ -92,16 +92,11 @@
   "ascensionType": 10,
   "element": 6,
   "elemSkill": {
-    "name": "溢れる情熱",
+    "name": "PassionOverload",
+    "localeName": "溢れる情熱",
     "desc": "炎元素と冒険への情熱を剣に込める。込めた情熱の強さによって、違う効果が現れることがある…\n\n<color=#FFD780FF>一回押し</color>\n前方に素早く炎の一撃を仕掛け、<color=#FF9999FF>炎元素ダメージ</color>を与える。\n\n<color=#FFD780FF>長押し</color>\n長押しでチャージし、チャージ段数により効果が変わる。\n·1段チャージ：二段攻撃を仕掛け、<color=#FF9999FF>炎元素ダメージ</color>を与え、敵をノックバックする。\n·2段チャージ：三段攻撃を発動し、大量の<color=#FF9999FF>炎元素ダメージ</color>を与え、最後の一撃に爆発が発生し、自身と敵を同時にノックバックする。ベネットがノックバックされた時に、ダメージを受けることはない。\n\n<i>ベネットの情熱と夢と炎を込めた一撃。しかし情熱があふれすぎて、炎元素が爆発することもある。</i>",
     "cd": 5,
-    "paramTpls": [
-      "一回押しダメージ|{param1:P}",
-      "1段チャージダメージ|{param2:F1P}+{param3:F1P}",
-      "2段チャージダメージ|{param4:F1P}+{param5:F1P}",
-      "爆発ダメージ|{param6:P}",
-      "クールタイム|{param7:F1}/{param8:F1}/{param9:F1}秒"
-    ],
+    "paramTpls": ["一回押しダメージ|{param1:P}", "1段チャージダメージ|{param2:F1P}+{param3:F1P}", "2段チャージダメージ|{param4:F1P}+{param5:F1P}", "爆発ダメージ|{param6:P}", "クールタイム|{param7:F1}/{param8:F1}/{param9:F1}秒"],
     "paramVals": [
       [1.376, 0.84, 0.92, 0.88, 0.96, 1.32, 5, 7.5, 10],
       [1.4792, 0.903, 0.989, 0.946, 1.032, 1.419, 5, 7.5, 10],
@@ -121,61 +116,55 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」の教え", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "宝探しの鴉マーク", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」の教え", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 2 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 4 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 6 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 9 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 4 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 4 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 6 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 6 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 12 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 9 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 16 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 12 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "素晴らしい旅",
+    "name": "FantasticVoyage",
+    "localeName": "素晴らしい旅",
     "desc": "ジャンプして地面を叩き、<color=#FF9999FF>炎元素ダメージ</color>を与え、鼓舞エリアを生成する。\n\n<color=#FFD780FF>鼓舞エリア</color>\n·エリア内のキャラクターのHPが最大値の70%を下回ると、HPが持続的に回復する。回復量はベネットのHP上限によって決まる。\n·エリア内のキャラクターのHPが最大値の70%以上の場合、ベネットの基礎攻撃力を基準に、一定割合の攻撃力がアップする。\n·エリア内のキャラクターに<color=#FF9999FF>炎元素付着</color>効果を付与する。\n\n<i>ベニー冒険団の探険の旅はいつも予想外の危険でいっぱいだ。しかし唯一のメンバーであるベネットはそれを「刺激的で素晴らしい旅」だと思っている。</i>",
     "cd": 15,
     "energyCost": 60,
-    "paramTpls": [
-      "スキルダメージ|{param1:P}",
-      "継続回復|毎秒{param2:F2P}HP上限+{param3:I}",
-      "攻撃力上昇率|{param4:P}",
-      "継続時間|{param5:F1}秒",
-      "クールタイム|{param6:F1}秒",
-      "元素エネルギー|{param7:I}"
-    ],
+    "paramTpls": ["スキルダメージ|{param1:P}", "継続回復|毎秒{param2:F2P}HP上限+{param3:I}", "攻撃力上昇率|{param4:P}", "継続時間|{param5:F1}秒", "クールタイム|{param6:F1}秒", "元素エネルギー|{param7:I}"],
     "paramVals": [
       [2.328, 0.06, 577.34, 0.56, 12, 15, 60],
       [2.5026, 0.0645, 635.08, 0.602, 12, 15, 60],
@@ -195,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」の教え", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "宝探しの鴉マーク", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」の教え", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 2 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 4 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 6 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 9 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 4 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 4 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 6 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 6 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 12 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 9 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 16 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 12 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "通常攻撃·好運の剣",
+    "name": "NormalAttackStrikeOfFortune",
+    "localeName": "通常攻撃·好運の剣",
     "desc": "<color=#FFD780FF>通常攻撃</color>\n剣による最大5段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、前方に斬撃を2回放つ。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
     "cd": 0,
     "paramTpls": [
@@ -271,79 +261,67 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」の教え", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "宝探しの鴉マーク", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」の教え", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 2 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 4 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 6 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 9 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 4 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 4 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 6 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 6 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 12 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 9 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 16 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 12 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "情熱復活", "desc": "<color=#FFD780FF>溢れる情熱</color>のクールタイム-20%。", "unlock": 1 },
-    {
-      "name": "恐れなき熱血",
-      "desc": "<color=#FFD780FF>素晴らしい旅</color>エリア内にいると、<color=#FFD780FF>溢れる情熱</color>が以下の効果を持つ：\n·クールタイム-50%。\n·2段チャージによるベネット自身のノックバックが発生しない。",
-      "unlock": 4
-    },
-    { "name": "多分安全", "desc": "モンドの探索任務の所要時間-25%。" }
+    { "name": "Rekindle", "localeName": "情熱復活", "desc": "<color=#FFD780FF>溢れる情熱</color>のクールタイム-20%。", "unlock": 1 },
+    { "name": "Fearnaught", "localeName": "恐れなき熱血", "desc": "<color=#FFD780FF>素晴らしい旅</color>エリア内にいると、<color=#FFD780FF>溢れる情熱</color>が以下の効果を持つ：\n·クールタイム-50%。\n·2段チャージによるベネット自身のノックバックが発生しない。", "unlock": 4 },
+    { "name": "ItShouldBeSafe", "localeName": "多分安全", "desc": "モンドの探索任務の所要時間-25%。" }
   ],
   "c13ns": [
-    { "name": "冒険の憧れ", "desc": "<color=#FFD780FF>素晴らしい旅</color>の攻撃力アップ効果のHPによる制限がなくなり、更にベネットの基礎攻撃力の20%に当たる数値を追加する。", "values": [0.2] },
-    { "name": "絶境踏破", "desc": "HPが70%以下になると、元素チャージ効率+30%。", "values": [0.7, 0.3] },
-    { "name": "炎のような情熱", "desc": "<color=#FFD780FF>溢れる情熱</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    {
-      "name": "消えない情熱",
-      "desc": "1段チャージ<color=#FFD780FF>溢れる情熱</color>を発動する時、二段目攻撃中に通常攻撃をすると追加攻撃を発動できる。\n二段目攻撃の135%の追加ダメージを与える。",
-      "values": [1.35]
-    },
-    { "name": "開拓の心意気", "desc": "<color=#FFD780FF>素晴らしい旅</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    {
-      "name": "烈火と勇気",
-      "desc": "<color=#FFD780FF>素晴らしい旅</color>エリア内にいる片手剣、両手剣、長柄武器キャラクターの<color=#FF9999FF>炎元素ダメージ</color>+15%、さらに<color=#FF9999FF>炎元素付与</color>状態を獲得する。",
-      "values": [0.15]
-    }
+    { "name": "GrandExpectation", "localeName": "冒険の憧れ", "desc": "<color=#FFD780FF>素晴らしい旅</color>の攻撃力アップ効果のHPによる制限がなくなり、更にベネットの基礎攻撃力の20%に当たる数値を追加する。", "values": [0.2] },
+    { "name": "ImpasseConqueror", "localeName": "絶境踏破", "desc": "HPが70%以下になると、元素チャージ効率+30%。", "values": [0.7, 0.3] },
+    { "name": "UnstoppableFervor", "localeName": "炎のような情熱", "desc": "<color=#FFD780FF>溢れる情熱</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "UnexpectedOdyssey", "localeName": "消えない情熱", "desc": "1段チャージ<color=#FFD780FF>溢れる情熱</color>を発動する時、二段目攻撃中に通常攻撃をすると追加攻撃を発動できる。\n二段目攻撃の135%の追加ダメージを与える。", "values": [1.35] },
+    { "name": "TrueExplorer", "localeName": "開拓の心意気", "desc": "<color=#FFD780FF>素晴らしい旅</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "FireVenturesWithMe", "localeName": "烈火と勇気", "desc": "<color=#FFD780FF>素晴らしい旅</color>エリア内にいる片手剣、両手剣、長柄武器キャラクターの<color=#FF9999FF>炎元素ダメージ</color>+15%、さらに<color=#FF9999FF>炎元素付与</color>状態を獲得する。", "values": [0.15] }
   ],
   "overviewItems": [
-    { "id": "AgnidusAgateGemstone", "name": "炎願のアゲート", "rarity": 5 },
-    { "id": "EverflameSeed", "name": "常燃の火種", "rarity": 4 },
-    { "id": "WindwheelAster", "name": "風車アスター" },
-    { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "rarity": 3 },
-    { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "rarity": 4 },
-    { "id": "DvalinsPlume", "name": "東風の羽根", "rarity": 5 }
+    { "id": "AgnidusAgateGemstone", "localeName": "炎願のアゲート", "rarity": 5 },
+    { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4 },
+    { "id": "WindwheelAster", "localeName": "風車アスター" },
+    { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3 },
+    { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4 },
+    { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5 }
   ]
 }

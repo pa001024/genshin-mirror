@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VajradaAmethystSliver", "name": "最勝のアメシスト·砕屑", "count": 1 },
-        { "id": "SmallLampGrass", "name": "イグサ", "count": 3 },
-        { "id": "FirmArrowhead", "name": "牢固な矢先", "count": 3 }
+        { "id": "VajradaAmethystSliver", "localeName": "最勝のアメシスト·砕屑", "rarity": 2, "count": 1 },
+        { "id": "SmallLampGrass", "localeName": "イグサ", "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "牢固な矢先", "rarity": 1, "count": 3 }
       ],
       "HP": 575.58,
       "ATK": 15.299,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VajradaAmethystFragment", "name": "最勝のアメシスト·欠片", "count": 3 },
-        { "id": "LightningPrism", "name": "雷光のプリズム", "count": 2 },
-        { "id": "SmallLampGrass", "name": "イグサ", "count": 10 },
-        { "id": "FirmArrowhead", "name": "牢固な矢先", "count": 15 }
+        { "id": "VajradaAmethystFragment", "localeName": "最勝のアメシスト·欠片", "rarity": 3, "count": 3 },
+        { "id": "LightningPrism", "localeName": "雷光のプリズム", "rarity": 4, "count": 2 },
+        { "id": "SmallLampGrass", "localeName": "イグサ", "count": 10 },
+        { "id": "FirmArrowhead", "localeName": "牢固な矢先", "rarity": 1, "count": 15 }
       ],
       "HP": 984.54,
       "ATK": 26.17,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VajradaAmethystFragment", "name": "最勝のアメシスト·欠片", "count": 6 },
-        { "id": "LightningPrism", "name": "雷光のプリズム", "count": 4 },
-        { "id": "SmallLampGrass", "name": "イグサ", "count": 20 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 12 }
+        { "id": "VajradaAmethystFragment", "localeName": "最勝のアメシスト·欠片", "rarity": 3, "count": 6 },
+        { "id": "LightningPrism", "localeName": "雷光のプリズム", "rarity": 4, "count": 4 },
+        { "id": "SmallLampGrass", "localeName": "イグサ", "count": 20 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 12 }
       ],
       "HP": 1529.8,
       "ATK": 40.664,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VajradaAmethystChunk", "name": "最勝のアメシスト·塊", "count": 3 },
-        { "id": "LightningPrism", "name": "雷光のプリズム", "count": 8 },
-        { "id": "SmallLampGrass", "name": "イグサ", "count": 30 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 18 }
+        { "id": "VajradaAmethystChunk", "localeName": "最勝のアメシスト·塊", "rarity": 4, "count": 3 },
+        { "id": "LightningPrism", "localeName": "雷光のプリズム", "rarity": 4, "count": 8 },
+        { "id": "SmallLampGrass", "localeName": "イグサ", "count": 30 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 18 }
       ],
       "HP": 1938.8,
       "ATK": 51.535,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VajradaAmethystChunk", "name": "最勝のアメシスト·塊", "count": 6 },
-        { "id": "LightningPrism", "name": "雷光のプリズム", "count": 12 },
-        { "id": "SmallLampGrass", "name": "イグサ", "count": 45 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 12 }
+        { "id": "VajradaAmethystChunk", "localeName": "最勝のアメシスト·塊", "rarity": 4, "count": 6 },
+        { "id": "LightningPrism", "localeName": "雷光のプリズム", "rarity": 4, "count": 12 },
+        { "id": "SmallLampGrass", "localeName": "イグサ", "count": 45 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 12 }
       ],
       "HP": 2347.7,
       "ATK": 62.405,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VajradaAmethystGemstone", "name": "最勝のアメシスト", "count": 6 },
-        { "id": "LightningPrism", "name": "雷光のプリズム", "count": 20 },
-        { "id": "SmallLampGrass", "name": "イグサ", "count": 60 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 24 }
+        { "id": "VajradaAmethystGemstone", "localeName": "最勝のアメシスト", "rarity": 5, "count": 6 },
+        { "id": "LightningPrism", "localeName": "雷光のプリズム", "rarity": 4, "count": 20 },
+        { "id": "SmallLampGrass", "localeName": "イグサ", "count": 60 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 24 }
       ],
       "HP": 2756.7,
       "ATK": 73.276,
@@ -92,7 +92,8 @@
   "ascensionType": 7,
   "element": 3,
   "elemSkill": {
-    "name": "夜巡りの翼",
+    "name": "Nightrider",
+    "localeName": "夜巡りの翼",
     "desc": "オズを召喚する。暗影と雷電によって構成された鴉が降臨する時、狭範囲の<color=#FFACFFFF>雷元素ダメージ</color>を与える。\nオズが存在する時、<color=#FFACFFFF>雷の魔弾</color>を発射し、付近の敵を自動で攻撃する。\n\n長押しでスキルの発動位置を調整可能。\nオズが存在する間に再び一回押すとオズを自身の傍に呼び寄せる。\n\n<i>「皇女であるわたくしの時間は高いわよ。あなたたちのような者に使うなんて…オズ、わたくしの代わりに永夜を切り裂く断罪の雷を見せてあげなさい。</i>\n<i>——『フィッシュル皇女物語·4巻·「さようなら、マダムワールド」』</i>",
     "cd": 25,
     "paramTpls": ["オズの攻撃ダメージ|{param1:F1P}", "召喚ダメージ|{param2:P}", "オズの存在時間|{param4:F1}秒", "クールタイム|{param5:F1}秒"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "「詩文」の教え", "count": 3 },
-        { "id": "FirmArrowhead", "name": "牢固な矢先", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "「詩文」の教え", "rarity": 2, "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "牢固な矢先", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 2 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 2 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 4 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 4 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 6 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 6 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 9 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 9 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 4 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 4 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 6 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 6 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 12 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 12 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 16 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 16 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "夜の幻現",
+    "name": "MidnightPhantasmagoria",
+    "localeName": "夜の幻現",
     "desc": "オズを召喚し、純粋なる夜色の翼を広げてフィッシュルを守る。\n継続期間中、下記の効果が発動する：\n·フィッシュルはオズ形態で高速移動する。\n·付近の敵に落雷で攻撃し、<color=#FFACFFFF>雷元素ダメージ</color>を与える。落雷によるダメージは同じ敵に1回のみ有効。\n·効果終了時、オズは戦場に留まり、皇女の敵を攻撃する。発動前にオズがすでに戦場に存在してる場合は、オズの継続時間がリセットされる。\n\n<i>…呪いがかかった断罪の血を追ってきた獣の中で、千の世界の滅びを目にした鴉の王だけが、彼女の崇高さを理解した。そして彼は夜を織り成す翼を広げ、高貴なる皇女を永遠に守ると誓った。</i>\n<i>——『フィッシュル皇女物語·1巻·「末日解体概要」』</i>",
     "cd": 15,
     "energyCost": 60,
@@ -182,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "「詩文」の教え", "count": 3 },
-        { "id": "FirmArrowhead", "name": "牢固な矢先", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "「詩文」の教え", "rarity": 2, "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "牢固な矢先", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 2 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 2 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 4 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 4 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 6 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 6 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 9 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 9 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 4 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 4 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 6 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 6 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 12 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 12 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 16 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 16 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "通常攻撃·罪滅ぼしの矢",
+    "name": "NormalAttackBoltsOfDownfall",
+    "localeName": "通常攻撃·罪滅ぼしの矢",
     "desc": "<color=#FFD780FF>通常攻撃</color>\n最大5段の連続射撃を行う。\n\n<color=#FFD780FF>重撃</color>\nダメージがより高く、より精確な<color=#FFD780FF>狙い撃ち</color>を発動する。\n照準時、皇女の命令に従い、幽夜浄土の雷精霊が矢に憑依する。断罪の雷に満ちた矢は敵に高い<color=#FFACFFFF>雷元素ダメージ</color>を与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。",
     "cd": 0,
     "paramTpls": [
@@ -258,85 +261,73 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "「詩文」の教え", "count": 3 },
-        { "id": "FirmArrowhead", "name": "牢固な矢先", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "「詩文」の教え", "rarity": 2, "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "牢固な矢先", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 2 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 2 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 4 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 4 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 6 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 6 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 9 },
-        { "id": "SharpArrowhead", "name": "鋭利な矢先", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 9 },
+        { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 4 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 4 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 6 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 6 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 12 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 12 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 16 },
-        { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 16 },
+        { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
+    { "name": "StellarPredator", "localeName": "星喰いの鴉", "desc": "フィッシュルのチャージした狙い撃ち射撃がオズに命中すると、オズは周囲の敵に聖裁の雷を放ち、射撃ダメージ152.7%分の<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。", "unlock": 1, "values": [1.527] },
     {
-      "name": "星喰いの鴉",
-      "desc": "フィッシュルのチャージした狙い撃ち射撃がオズに命中すると、オズは周囲の敵に聖裁の雷を放ち、射撃ダメージ152.7%分の<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。",
-      "unlock": 1,
-      "values": [1.527]
-    },
-    {
-      "name": "断罪の雷影",
+      "name": "UndoneBeThySinfulHex",
+      "localeName": "断罪の雷影",
       "desc": "オズがフィールドにいる時、出場している自身のキャラクターの敵への攻撃が<color=#FFACFFFF>雷元素の関連反応</color>を起こすと、敵に聖裁の雷を下し、フィッシュルの攻撃力80%分の<color=#FFACFFFF>雷元素ダメージ</color>を与える。",
       "unlock": 4,
       "values": [0.8]
     },
-    { "name": "吾の裏庭", "desc": "モンドの探索任務の所要時間-25%。" }
+    { "name": "MeinHausgarten", "localeName": "吾の裏庭", "desc": "モンドの探索任務の所要時間-25%。" }
   ],
   "c13ns": [
-    {
-      "name": "幽邃な鴉の目",
-      "desc": "オズが戦場にいない時も、鴉の目を通してフィッシュルを守る。フィッシュルが敵に通常攻撃する時、オズは鴉の目を通して攻撃し、攻撃力22%分のダメージを与える。",
-      "values": [0.22]
-    },
-    { "name": "聖裁の羽根", "desc": "<color=#FFD780FF>夜巡りの翼</color>発動時、攻撃力200%分の追加ダメージを与える、さらに影響範囲+50%。", "values": [2] },
-    { "name": "黒き翼", "desc": "<color=#FFD780FF>夜巡りの翼</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    {
-      "name": "皇女綺譚集",
-      "desc": "<color=#FFD780FF>夜の幻現</color>発動時、周囲の敵に攻撃力222%分の<color=#FFACFFFF>雷元素ダメージ</color>を与える。\nスキル終了時、フィッシュルのHPを20%回復する。",
-      "values": [2.22, 0.2]
-    },
-    { "name": "夜の黙示録", "desc": "<color=#FFD780FF>夜の幻現</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "永夜の禽", "desc": "オズの存在時間+2秒。オズは出場している自身のキャラクターと共に攻撃し、攻撃力30%分の<color=#FFACFFFF>雷元素ダメージ</color>を与える。", "values": [0.3, 2] }
+    { "name": "GazeOfTheDeep", "localeName": "幽邃な鴉の目", "desc": "オズが戦場にいない時も、鴉の目を通してフィッシュルを守る。フィッシュルが敵に通常攻撃する時、オズは鴉の目を通して攻撃し、攻撃力22%分のダメージを与える。", "values": [0.22] },
+    { "name": "DevourerOfAllSins", "localeName": "聖裁の羽根", "desc": "<color=#FFD780FF>夜巡りの翼</color>発動時、攻撃力200%分の追加ダメージを与える、さらに影響範囲+50%。", "values": [2] },
+    { "name": "WingsOfNightmare", "localeName": "黒き翼", "desc": "<color=#FFD780FF>夜巡りの翼</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "HerPilgrimageOfBleak", "localeName": "皇女綺譚集", "desc": "<color=#FFD780FF>夜の幻現</color>発動時、周囲の敵に攻撃力222%分の<color=#FFACFFFF>雷元素ダメージ</color>を与える。\nスキル終了時、フィッシュルのHPを20%回復する。", "values": [2.22, 0.2] },
+    { "name": "AgainstTheFleeingLight", "localeName": "夜の黙示録", "desc": "<color=#FFD780FF>夜の幻現</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "EvernightRaven", "localeName": "永夜の禽", "desc": "オズの存在時間+2秒。オズは出場している自身のキャラクターと共に攻撃し、攻撃力30%分の<color=#FFACFFFF>雷元素ダメージ</color>を与える。", "values": [0.3, 2] }
   ],
   "overviewItems": [
-    { "id": "VajradaAmethystGemstone", "name": "最勝のアメシスト", "rarity": 5 },
-    { "id": "LightningPrism", "name": "雷光のプリズム", "rarity": 4 },
-    { "id": "SmallLampGrass", "name": "イグサ" },
-    { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "rarity": 3 },
-    { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "rarity": 4 },
-    { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "rarity": 5 }
+    { "id": "VajradaAmethystGemstone", "localeName": "最勝のアメシスト", "rarity": 5 },
+    { "id": "LightningPrism", "localeName": "雷光のプリズム", "rarity": 4 },
+    { "id": "SmallLampGrass", "localeName": "イグサ" },
+    { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "rarity": 3 },
+    { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4 },
+    { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5 }
   ]
 }

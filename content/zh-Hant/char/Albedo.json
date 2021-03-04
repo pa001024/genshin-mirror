@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "PrithivaTopazSliver", "name": "堅牢黃玉碎屑", "count": 1 },
-        { "id": "Cecilia", "name": "塞西莉亞花", "count": 3 },
-        { "id": "DiviningScroll", "name": "導能繪卷", "count": 3 }
+        { "id": "PrithivaTopazSliver", "localeName": "堅牢黃玉碎屑", "rarity": 2, "count": 1 },
+        { "id": "Cecilia", "localeName": "塞西莉亞花", "count": 3 },
+        { "id": "DiviningScroll", "localeName": "導能繪卷", "rarity": 1, "count": 3 }
       ],
       "HP": 882.78,
       "ATK": 16.762,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "PrithivaTopazFragment", "name": "堅牢黃玉斷片", "count": 3 },
-        { "id": "BasaltPillar", "name": "玄岩之塔", "count": 2 },
-        { "id": "Cecilia", "name": "塞西莉亞花", "count": 10 },
-        { "id": "DiviningScroll", "name": "導能繪卷", "count": 15 }
+        { "id": "PrithivaTopazFragment", "localeName": "堅牢黃玉斷片", "rarity": 3, "count": 3 },
+        { "id": "BasaltPillar", "localeName": "玄岩之塔", "rarity": 4, "count": 2 },
+        { "id": "Cecilia", "localeName": "塞西莉亞花", "count": 10 },
+        { "id": "DiviningScroll", "localeName": "導能繪卷", "rarity": 1, "count": 15 }
       ],
       "HP": 1510,
       "ATK": 28.672,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "PrithivaTopazFragment", "name": "堅牢黃玉斷片", "count": 6 },
-        { "id": "BasaltPillar", "name": "玄岩之塔", "count": 4 },
-        { "id": "Cecilia", "name": "塞西莉亞花", "count": 20 },
-        { "id": "SealedScroll", "name": "封魔繪卷", "count": 12 }
+        { "id": "PrithivaTopazFragment", "localeName": "堅牢黃玉斷片", "rarity": 3, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "玄岩之塔", "rarity": 4, "count": 4 },
+        { "id": "Cecilia", "localeName": "塞西莉亞花", "count": 20 },
+        { "id": "SealedScroll", "localeName": "封魔繪卷", "rarity": 2, "count": 12 }
       ],
       "HP": 2346.3,
       "ATK": 44.552,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "PrithivaTopazChunk", "name": "堅牢黃玉塊", "count": 3 },
-        { "id": "BasaltPillar", "name": "玄岩之塔", "count": 8 },
-        { "id": "Cecilia", "name": "塞西莉亞花", "count": 30 },
-        { "id": "SealedScroll", "name": "封魔繪卷", "count": 18 }
+        { "id": "PrithivaTopazChunk", "localeName": "堅牢黃玉塊", "rarity": 4, "count": 3 },
+        { "id": "BasaltPillar", "localeName": "玄岩之塔", "rarity": 4, "count": 8 },
+        { "id": "Cecilia", "localeName": "塞西莉亞花", "count": 30 },
+        { "id": "SealedScroll", "localeName": "封魔繪卷", "rarity": 2, "count": 18 }
       ],
       "HP": 2973.6,
       "ATK": 56.461,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "PrithivaTopazChunk", "name": "堅牢黃玉塊", "count": 6 },
-        { "id": "BasaltPillar", "name": "玄岩之塔", "count": 12 },
-        { "id": "Cecilia", "name": "塞西莉亞花", "count": 45 },
-        { "id": "ForbiddenCurseScroll", "name": "禁咒繪卷", "count": 12 }
+        { "id": "PrithivaTopazChunk", "localeName": "堅牢黃玉塊", "rarity": 4, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "玄岩之塔", "rarity": 4, "count": 12 },
+        { "id": "Cecilia", "localeName": "塞西莉亞花", "count": 45 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "rarity": 3, "count": 12 }
       ],
       "HP": 3600.8,
       "ATK": 68.371,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "PrithivaTopazGemstone", "name": "堅牢黃玉", "count": 6 },
-        { "id": "BasaltPillar", "name": "玄岩之塔", "count": 20 },
-        { "id": "Cecilia", "name": "塞西莉亞花", "count": 60 },
-        { "id": "ForbiddenCurseScroll", "name": "禁咒繪卷", "count": 24 }
+        { "id": "PrithivaTopazGemstone", "localeName": "堅牢黃玉", "rarity": 5, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "玄岩之塔", "rarity": 4, "count": 20 },
+        { "id": "Cecilia", "localeName": "塞西莉亞花", "count": 60 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "rarity": 3, "count": 24 }
       ],
       "HP": 4228,
       "ATK": 80.281,
@@ -92,7 +92,8 @@
   "ascensionType": 31,
   "element": 2,
   "elemSkill": {
-    "name": "創生法·擬造陽華",
+    "name": "AbiogenesisSolarIsotoma",
+    "localeName": "創生法·擬造陽華",
     "desc": "煉成陽華，造成<color=#FFE699FF>岩元素範圍傷害</color>。\n\n<color=#FFD780FF>陽華</color>\n具有如下特性：\n·以陽華為中心的領域中的敵人受到傷害時，陽華將會生成刹那之花，綻放造成<color=#FFE699FF>岩元素範圍傷害</color>，傷害基於阿貝多的防禦力。\n·每2秒只能生成一次刹那之花。\n·角色處在陽華上時，陽華將會凝聚岩元素的力量，形成將角色托起至一定高度的晶台。同時只能存在一個晶台。\n·同時只能存在一個由阿貝多自己創造的陽華，視為<color=#FFE699FF>岩元素創造物</color>。\n\n<color=#FFD780FF>長按</color>\n可以調整技能生效位置。\n\n<i>這種岩花有著奇異的特性，和煉金術的目的一致。誕生自大地，卻一直希望上升至高天，化作太陽。</i>",
     "cd": 4,
     "paramTpls": ["技能傷害|{param1:P}", "剎那之花傷害|{param2:P}防禦力", "持續時間|{param3:F1}秒", "技能冷卻|{param4:F1}秒"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "「詩文」的教導", "count": 3 },
-        { "id": "DiviningScroll", "name": "導能繪卷", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "「詩文」的教導", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "導能繪卷", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」的指引", "count": 2 },
-        { "id": "SealedScroll", "name": "封魔繪卷", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "封魔繪卷", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」的指引", "count": 4 },
-        { "id": "SealedScroll", "name": "封魔繪卷", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "封魔繪卷", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」的指引", "count": 6 },
-        { "id": "SealedScroll", "name": "封魔繪卷", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "封魔繪卷", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」的指引", "count": 9 },
-        { "id": "SealedScroll", "name": "封魔繪卷", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "封魔繪卷", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 4 },
-        { "id": "ForbiddenCurseScroll", "name": "禁咒繪卷", "count": 4 },
-        { "id": "TuskOfMonocerosCaeli", "name": "吞天之鯨·隻角", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "rarity": 3, "count": 4 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "吞天之鯨·隻角", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 6 },
-        { "id": "ForbiddenCurseScroll", "name": "禁咒繪卷", "count": 6 },
-        { "id": "TuskOfMonocerosCaeli", "name": "吞天之鯨·隻角", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "rarity": 3, "count": 6 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "吞天之鯨·隻角", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 12 },
-        { "id": "ForbiddenCurseScroll", "name": "禁咒繪卷", "count": 9 },
-        { "id": "TuskOfMonocerosCaeli", "name": "吞天之鯨·隻角", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "rarity": 3, "count": 9 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "吞天之鯨·隻角", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 16 },
-        { "id": "ForbiddenCurseScroll", "name": "禁咒繪卷", "count": 12 },
-        { "id": "TuskOfMonocerosCaeli", "name": "吞天之鯨·隻角", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "rarity": 3, "count": 12 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "吞天之鯨·隻角", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "誕生式·大地之潮",
+    "name": "RiteOfProgenitureTectonicTide",
+    "localeName": "誕生式·大地之潮",
     "desc": "岩晶在阿貝多的命令下湧動爆發，在阿貝多前方造成<color=#FFE699FF>岩元素範圍傷害</color>。\n場上存在阿貝多自己創造的陽華時，會在陽華的領域內生成七朵生滅之花，猛烈綻放並造成<color=#FFE699FF>岩元素範圍傷害</color>。\n\n爆發傷害與生滅之花的傷害不會生成刹那之花。\n\n<i>在白堊色王子的命令之下，大地的造物之潮翻湧了起來。</i>",
     "cd": 12,
     "energyCost": 40,
@@ -182,63 +184,54 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "「詩文」的教導", "count": 3 },
-        { "id": "DiviningScroll", "name": "導能繪卷", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "「詩文」的教導", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "導能繪卷", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」的指引", "count": 2 },
-        { "id": "SealedScroll", "name": "封魔繪卷", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "封魔繪卷", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」的指引", "count": 4 },
-        { "id": "SealedScroll", "name": "封魔繪卷", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "封魔繪卷", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」的指引", "count": 6 },
-        { "id": "SealedScroll", "name": "封魔繪卷", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "封魔繪卷", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」的指引", "count": 9 },
-        { "id": "SealedScroll", "name": "封魔繪卷", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "封魔繪卷", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 4 },
-        { "id": "ForbiddenCurseScroll", "name": "禁咒繪卷", "count": 4 },
-        { "id": "TuskOfMonocerosCaeli", "name": "吞天之鯨·隻角", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "rarity": 3, "count": 4 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "吞天之鯨·隻角", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 6 },
-        { "id": "ForbiddenCurseScroll", "name": "禁咒繪卷", "count": 6 },
-        { "id": "TuskOfMonocerosCaeli", "name": "吞天之鯨·隻角", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "rarity": 3, "count": 6 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "吞天之鯨·隻角", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 12 },
-        { "id": "ForbiddenCurseScroll", "name": "禁咒繪卷", "count": 9 },
-        { "id": "TuskOfMonocerosCaeli", "name": "吞天之鯨·隻角", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "rarity": 3, "count": 9 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "吞天之鯨·隻角", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 16 },
-        { "id": "ForbiddenCurseScroll", "name": "禁咒繪卷", "count": 12 },
-        { "id": "TuskOfMonocerosCaeli", "name": "吞天之鯨·隻角", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "rarity": 3, "count": 12 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "吞天之鯨·隻角", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "普通攻擊·西風劍術·白",
+    "name": "NormalAttackFavoniusBladeworkWeiss",
+    "localeName": "普通攻擊·西風劍術·白",
     "desc": "<color=#FFD780FF>普通攻擊</color>\n進行至多五段的連續劍擊。\n\n<color=#FFD780FF>重擊</color>\n消耗一定體力，瞬間向前方揮出兩劍。\n\n<color=#FFD780FF>下落攻擊</color>\n從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。",
     "cd": 0,
-    "paramTpls": [
-      "一段傷害|{param1:F1P}",
-      "二段傷害|{param2:F1P}",
-      "三段傷害|{param3:F1P}",
-      "四段傷害|{param4:F1P}",
-      "五段傷害|{param5:F1P}",
-      "重擊傷害|{param6:F1P}+{param7:F1P}",
-      "重擊體力消耗|{param8:F1}點",
-      "下墜期間傷害|{param9:F1P}",
-      "低空/高空墜地衝擊傷害|{param10:P}/{param11:P}"
-    ],
+    "paramTpls": ["一段傷害|{param1:F1P}", "二段傷害|{param2:F1P}", "三段傷害|{param3:F1P}", "四段傷害|{param4:F1P}", "五段傷害|{param5:F1P}", "重擊傷害|{param6:F1P}+{param7:F1P}", "重擊體力消耗|{param8:F1}點", "下墜期間傷害|{param9:F1P}", "低空/高空墜地衝擊傷害|{param10:P}/{param11:P}"],
     "paramVals": [
       [0.36739, 0.36739, 0.47455, 0.49751, 0.62074, 0.473, 0.602, 20, 0.63932, 1.2784, 1.5968],
       [0.3973, 0.3973, 0.51317, 0.538, 0.67127, 0.5115, 0.651, 20, 0.69136, 1.3824, 1.7267],
@@ -258,71 +251,72 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "「詩文」的教導", "count": 3 },
-        { "id": "DiviningScroll", "name": "導能繪卷", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "「詩文」的教導", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "導能繪卷", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」的指引", "count": 2 },
-        { "id": "SealedScroll", "name": "封魔繪卷", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "封魔繪卷", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」的指引", "count": 4 },
-        { "id": "SealedScroll", "name": "封魔繪卷", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "封魔繪卷", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」的指引", "count": 6 },
-        { "id": "SealedScroll", "name": "封魔繪卷", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "封魔繪卷", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」的指引", "count": 9 },
-        { "id": "SealedScroll", "name": "封魔繪卷", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "封魔繪卷", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 4 },
-        { "id": "ForbiddenCurseScroll", "name": "禁咒繪卷", "count": 4 },
-        { "id": "TuskOfMonocerosCaeli", "name": "吞天之鯨·隻角", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "rarity": 3, "count": 4 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "吞天之鯨·隻角", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 6 },
-        { "id": "ForbiddenCurseScroll", "name": "禁咒繪卷", "count": 6 },
-        { "id": "TuskOfMonocerosCaeli", "name": "吞天之鯨·隻角", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "rarity": 3, "count": 6 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "吞天之鯨·隻角", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 12 },
-        { "id": "ForbiddenCurseScroll", "name": "禁咒繪卷", "count": 9 },
-        { "id": "TuskOfMonocerosCaeli", "name": "吞天之鯨·隻角", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "rarity": 3, "count": 9 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "吞天之鯨·隻角", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "count": 16 },
-        { "id": "ForbiddenCurseScroll", "name": "禁咒繪卷", "count": 12 },
-        { "id": "TuskOfMonocerosCaeli", "name": "吞天之鯨·隻角", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "rarity": 3, "count": 12 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "吞天之鯨·隻角", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "白堊色的威壓", "desc": "<color=#FFD780FF>創生法·擬造陽華</color>的刹那之花對生命值低於50%的敵人造成的傷害提高25%。", "unlock": 1, "values": [0.5, 0.25] },
-    { "name": "瓶中人的天慧", "desc": "施放<color=#FFD780FF>誕生式·大地之潮</color>時，使附近的隊伍中角色的元素精通提高125點，持續10秒。", "unlock": 4, "values": [125, 10] },
-    { "name": "天才的發現", "desc": "合成武器突破素材時，有10%機率獲得兩倍產出。", "values": [0.1, 2] }
+    { "name": "CalciteMight", "localeName": "白堊色的威壓", "desc": "<color=#FFD780FF>創生法·擬造陽華</color>的刹那之花對生命值低於50%的敵人造成的傷害提高25%。", "unlock": 1, "values": [0.5, 0.25] },
+    { "name": "HomuncularNature", "localeName": "瓶中人的天慧", "desc": "施放<color=#FFD780FF>誕生式·大地之潮</color>時，使附近的隊伍中角色的元素精通提高125點，持續10秒。", "unlock": 4, "values": [125, 10] },
+    { "name": "FlashOfGenius", "localeName": "天才的發現", "desc": "合成武器突破素材時，有10%機率獲得兩倍產出。", "values": [0.1, 2] }
   ],
   "c13ns": [
-    { "name": "伊甸之花", "desc": "阿貝多的<color=#FFD780FF>創生法·擬造陽華</color>生成的刹那之花綻放時，為阿貝多自身回復1.2點元素能量。", "values": [1.2] },
+    { "name": "FlowerOfEden", "localeName": "伊甸之花", "desc": "阿貝多的<color=#FFD780FF>創生法·擬造陽華</color>生成的刹那之花綻放時，為阿貝多自身回復1.2點元素能量。", "values": [1.2] },
     {
-      "name": "顯生之宙",
+      "name": "OpeningOfPhanerozoic",
+      "localeName": "顯生之宙",
       "desc": "<color=#FFD780FF>創生法·擬造陽華</color>的刹那之花綻放時，會為阿貝多賦予生滅計數效果，持續30秒。\n·施放<color=#FFD780FF>誕生式·大地之潮</color>時，清除所有生滅計數效果，並根據清除的層數提高誕生式·大地之潮的爆發傷害與生滅之花的傷害。\n·每層生滅計數提高等同於阿貝多防禦力30%的傷害。\n·該效果至多疊加四層。",
       "values": [0.3]
     },
-    { "name": "太陽之華", "desc": "<color=#FFD780FF>創生法·擬造陽華</color>的技能等級提高3級。\n至多提升至15級。" },
-    { "name": "神性之隕", "desc": "目前在場上的隊伍中的角色處於陽華的領域中時，造成的下落攻擊傷害提高30%。" },
-    { "name": "冥古之潮", "desc": "<color=#FFD780FF>誕生式·大地之潮</color>的技能等級提高3級。\n至多提升至15級。" },
-    { "name": "無垢之土", "desc": "目前在場上的隊伍中的角色位於陽華的領域中時，若處於結晶反應產生的護盾庇護下，則造成的傷害提高17%。" }
+    { "name": "GraceOfHelios", "localeName": "太陽之華", "desc": "<color=#FFD780FF>創生法·擬造陽華</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "DescentOfDivinity", "localeName": "神性之隕", "desc": "目前在場上的隊伍中的角色處於陽華的領域中時，造成的下落攻擊傷害提高30%。" },
+    { "name": "TideOfHadean", "localeName": "冥古之潮", "desc": "<color=#FFD780FF>誕生式·大地之潮</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "DustOfPurification", "localeName": "無垢之土", "desc": "目前在場上的隊伍中的角色位於陽華的領域中時，若處於結晶反應產生的護盾庇護下，則造成的傷害提高17%。" }
   ],
   "overviewItems": [
-    { "id": "PrithivaTopazGemstone", "name": "堅牢黃玉", "rarity": 5 },
-    { "id": "BasaltPillar", "name": "玄岩之塔", "rarity": 4 },
-    { "id": "Cecilia", "name": "塞西莉亞花" },
-    { "id": "ForbiddenCurseScroll", "name": "禁咒繪卷", "rarity": 3 },
-    { "id": "PhilosophiesOfBallad", "name": "「詩文」的哲學", "rarity": 4 },
-    { "id": "TuskOfMonocerosCaeli", "name": "吞天之鯨·隻角", "rarity": 5 }
+    { "id": "PrithivaTopazGemstone", "localeName": "堅牢黃玉", "rarity": 5 },
+    { "id": "BasaltPillar", "localeName": "玄岩之塔", "rarity": 4 },
+    { "id": "Cecilia", "localeName": "塞西莉亞花" },
+    { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "rarity": 3 },
+    { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4 },
+    { "id": "TuskOfMonocerosCaeli", "localeName": "吞天之鯨·隻角", "rarity": 5 }
   ]
 }

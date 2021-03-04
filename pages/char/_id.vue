@@ -122,11 +122,17 @@
           <v-tab v-for="type in skillTypes" :key="type" :href="'#' + type">{{ $t(`ui.${type}`) }}</v-tab>
           <v-tab href="#talent">{{ $t("ui.talent") }}</v-tab>
           <v-tab href="#c13ns">{{ $t("ui.c13ns") }}</v-tab>
+          <v-tab href="#ascension">{{ $t("ui.ascension") }}</v-tab>
         </v-tabs>
         <v-tabs-items v-model="skillTab">
           <v-tab-item v-for="(skillType, sindex) in skillTypes" :key="skillType" :value="skillType">
             <v-card flat>
-              <v-card-title class="headline">{{ data[skillType].name }}</v-card-title>
+              <v-card-title class="headline">
+                <v-avatar color="grey darken-2" class="mr-2">
+                  <v-img :src="`/img/skill/${data[skillType].name}.png`" />
+                </v-avatar>
+                {{ data[skillType].localeName }}
+              </v-card-title>
               <v-card-text>
                 <div class="desc" v-html="parseDesc(data[skillType].desc)" />
                 <v-divider class="my-4" />
@@ -138,6 +144,15 @@
                       <v-spacer />
                       <v-list-item-title v-text="item.value" />
                     </v-list-item>
+                    <div v-if="data[skillType].costItems[lv]" class="skill-item-cost text-center">
+                      <div class="unlock">
+                        <v-icon>mdi-lock-open</v-icon>
+                        {{ $t("ui.itemCost") }}
+                      </div>
+                      <div class="mx-auto mt-2">
+                        <ItemCard v-for="item in data[skillType].costItems[lv]" :key="item.id" :value="item" :count="item.count" small class="mr-2" />
+                      </div>
+                    </div>
                   </v-tab-item>
                 </v-tabs-items>
               </v-card-text>
@@ -146,7 +161,10 @@
           <v-tab-item value="talent">
             <v-card v-for="tal in data.talents" :key="tal.name" flat>
               <v-card-title class="headline pb-1">
-                {{ tal.name }}
+                <v-avatar color="grey darken-2" class="mr-2 skillimg">
+                  <v-img :src="`/img/skill/${tal.name}.png`" />
+                </v-avatar>
+                {{ tal.localeName }}
                 <div v-if="tal.unlock" class="unlock ml-4">
                   <v-icon>mdi-lock-open</v-icon>
                   {{ $t("ui.promoteLevelFormat", [tal.unlock]) }}
@@ -160,7 +178,10 @@
           <v-tab-item value="c13ns">
             <v-card v-for="(c13n, unlock) in data.c13ns" :key="c13n.name" flat>
               <v-card-title class="headline pb-1">
-                {{ c13n.name }}
+                <v-avatar color="grey darken-2" class="mr-2">
+                  <v-img :src="`/img/skill/${c13n.name}.png`" />
+                </v-avatar>
+                {{ c13n.localeName }}
                 <div class="unlock ml-4">
                   <v-icon>mdi-lock-open</v-icon>
                   {{ $t("ui.c13nsFormat", [unlock + 1]) }}
@@ -168,6 +189,20 @@
               </v-card-title>
               <v-card-text>
                 <div class="desc" v-html="parseDesc(c13n.desc)" />
+              </v-card-text>
+            </v-card>
+          </v-tab-item>
+          <v-tab-item value="ascension">
+            <v-card v-for="asc in data.ascensions" :key="asc.name" flat>
+              <v-card-title class="headline pb-1">
+                {{ $t("ui.promoteNFormat", [asc.level]) }}
+                <div class="unlock ml-4">
+                  <v-icon>mdi-lock-open</v-icon>
+                  {{ $t("ui.promoteCondFormat", [toLevel(asc.level)]) }}
+                </div>
+              </v-card-title>
+              <v-card-text>
+                <ItemCard v-for="item in asc.itemCost" :key="item.id" :value="item" :count="item.count" small class="mr-2" />
               </v-card-text>
             </v-card>
           </v-tab-item>
@@ -204,6 +239,7 @@ export default class Page extends Vue {
   char: Avatar | null = null;
 
   skillTab = "attackSkill";
+  martialTab = "attackSkill";
   skillLvlTab = [10, 13, 13];
   get skillTypes() {
     const keys: (keyof IAvatar)[] = ["attackSkill", "elemSkill", "elemBurst"];
@@ -234,6 +270,10 @@ export default class Page extends Vue {
     } else {
       return (value * 100).toFixed(1) + "%";
     }
+  }
+
+  toLevel(n: number) {
+    return [0, 20, 40, 50, 60, 70, 80][n];
   }
 
   parseDesc(str: string) {

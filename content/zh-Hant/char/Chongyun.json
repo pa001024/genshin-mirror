@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "ShivadaJadeSliver", "name": "哀敘冰玉碎屑", "count": 1 },
-        { "id": "CorLapis", "name": "石珀", "count": 3 },
-        { "id": "DamagedMask", "name": "破損的面具", "count": 3 }
+        { "id": "ShivadaJadeSliver", "localeName": "哀敘冰玉碎屑", "rarity": 2, "count": 1 },
+        { "id": "CorLapis", "localeName": "石珀", "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損的面具", "rarity": 1, "count": 3 }
       ],
       "HP": 687.97,
       "ATK": 13.969,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "ShivadaJadeFragment", "name": "哀敘冰玉斷片", "count": 3 },
-        { "id": "HoarfrostCore", "name": "極寒之核", "count": 2 },
-        { "id": "CorLapis", "name": "石珀", "count": 10 },
-        { "id": "DamagedMask", "name": "破損的面具", "count": 15 }
+        { "id": "ShivadaJadeFragment", "localeName": "哀敘冰玉斷片", "rarity": 3, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "極寒之核", "rarity": 4, "count": 2 },
+        { "id": "CorLapis", "localeName": "石珀", "count": 10 },
+        { "id": "DamagedMask", "localeName": "破損的面具", "rarity": 1, "count": 15 }
       ],
       "HP": 1176.8,
       "ATK": 23.894,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "ShivadaJadeFragment", "name": "哀敘冰玉斷片", "count": 6 },
-        { "id": "HoarfrostCore", "name": "極寒之核", "count": 4 },
-        { "id": "CorLapis", "name": "石珀", "count": 20 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 12 }
+        { "id": "ShivadaJadeFragment", "localeName": "哀敘冰玉斷片", "rarity": 3, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "極寒之核", "rarity": 4, "count": 4 },
+        { "id": "CorLapis", "localeName": "石珀", "count": 20 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 12 }
       ],
       "HP": 1828.5,
       "ATK": 37.128,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "ShivadaJadeChunk", "name": "哀敘冰玉塊", "count": 3 },
-        { "id": "HoarfrostCore", "name": "極寒之核", "count": 8 },
-        { "id": "CorLapis", "name": "石珀", "count": 30 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 18 }
+        { "id": "ShivadaJadeChunk", "localeName": "哀敘冰玉塊", "rarity": 4, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "極寒之核", "rarity": 4, "count": 8 },
+        { "id": "CorLapis", "localeName": "石珀", "count": 30 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 18 }
       ],
       "HP": 2317.4,
       "ATK": 47.053,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "ShivadaJadeChunk", "name": "哀敘冰玉塊", "count": 6 },
-        { "id": "HoarfrostCore", "name": "極寒之核", "count": 12 },
-        { "id": "CorLapis", "name": "石珀", "count": 45 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 12 }
+        { "id": "ShivadaJadeChunk", "localeName": "哀敘冰玉塊", "rarity": 4, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "極寒之核", "rarity": 4, "count": 12 },
+        { "id": "CorLapis", "localeName": "石珀", "count": 45 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 12 }
       ],
       "HP": 2806.2,
       "ATK": 56.979,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "ShivadaJadeGemstone", "name": "哀敘冰玉", "count": 6 },
-        { "id": "HoarfrostCore", "name": "極寒之核", "count": 20 },
-        { "id": "CorLapis", "name": "石珀", "count": 60 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 24 }
+        { "id": "ShivadaJadeGemstone", "localeName": "哀敘冰玉", "rarity": 5, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "極寒之核", "rarity": 4, "count": 20 },
+        { "id": "CorLapis", "localeName": "石珀", "count": 60 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 24 }
       ],
       "HP": 3295,
       "ATK": 66.904,
@@ -92,7 +92,8 @@
   "ascensionType": 7,
   "element": 7,
   "elemSkill": {
-    "name": "靈刃·重華疊霜",
+    "name": "SpiritBladeChonghuasLayeredFrost",
+    "localeName": "靈刃·重華疊霜",
     "desc": "重雲揮動巨劍猛擊地面，在前方圓形範圍內引發冰爆，並對敵人造成<color=#99FFFFFF>冰元素傷害</color>。\n短暫延遲後，冰爆引發的寒氣彙聚成重華疊霜領域，其中的單手劍、大劍、長柄武器角色獲得<color=#99FFFFFF>冰元素附魔</color>。\n\n<i>「琳琅振響，十方靜默。江河不動，重雲凝霜。如法開壇，諸邪退散。」</i>",
     "cd": 15,
     "paramTpls": ["技能傷害|{param1:P}", "附魔持續時間|{param2:F1}秒", "領域持續時間|{param4:F1}秒", "冷卻時間|{param3:F1}秒"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfDiligence", "name": "「勤勞」的教導", "count": 3 },
-        { "id": "DamagedMask", "name": "破損的面具", "count": 6 }
+        { "id": "TeachingsOfDiligence", "localeName": "「勤勞」的教導", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損的面具", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤勞」的指引", "count": 2 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 3 }
+        { "id": "GuideToDiligence", "localeName": "「勤勞」的指引", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤勞」的指引", "count": 4 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 4 }
+        { "id": "GuideToDiligence", "localeName": "「勤勞」的指引", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤勞」的指引", "count": 6 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 6 }
+        { "id": "GuideToDiligence", "localeName": "「勤勞」的指引", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤勞」的指引", "count": 9 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 9 }
+        { "id": "GuideToDiligence", "localeName": "「勤勞」的指引", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤勞」的哲學", "count": 4 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 4 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 4 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤勞」的哲學", "count": 6 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 6 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 6 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤勞」的哲學", "count": 12 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 9 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 2 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 9 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤勞」的哲學", "count": 16 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 12 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 12 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "靈刃·雲開星落",
+    "name": "SpiritBladeCloudPartingStar",
+    "localeName": "靈刃·雲開星落",
     "desc": "重雲結印，在前方半空中連續召喚出三柄巨大靈刃，短時間內依次落向地面並爆裂。\n靈刃爆裂時，會造成<color=#99FFFFFF>冰元素範圍傷害</color>，並擊飛敵人。\n\n<i>「卓劍天地動，冰淩霜寒生。如律令！」</i>",
     "cd": 12,
     "energyCost": 40,
@@ -182,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfDiligence", "name": "「勤勞」的教導", "count": 3 },
-        { "id": "DamagedMask", "name": "破損的面具", "count": 6 }
+        { "id": "TeachingsOfDiligence", "localeName": "「勤勞」的教導", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損的面具", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤勞」的指引", "count": 2 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 3 }
+        { "id": "GuideToDiligence", "localeName": "「勤勞」的指引", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤勞」的指引", "count": 4 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 4 }
+        { "id": "GuideToDiligence", "localeName": "「勤勞」的指引", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤勞」的指引", "count": 6 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 6 }
+        { "id": "GuideToDiligence", "localeName": "「勤勞」的指引", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤勞」的指引", "count": 9 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 9 }
+        { "id": "GuideToDiligence", "localeName": "「勤勞」的指引", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤勞」的哲學", "count": 4 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 4 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 4 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤勞」的哲學", "count": 6 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 6 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 6 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤勞」的哲學", "count": 12 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 9 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 2 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 9 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤勞」的哲學", "count": 16 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 12 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 12 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "普通攻擊·滅邪四式",
+    "name": "NormalAttackDemonbane",
+    "localeName": "普通攻擊·滅邪四式",
     "desc": "<color=#FFD780FF>普通攻擊</color>\n進行至多四段的連續揮砍。\n\n<color=#FFD780FF>重擊</color>\n持續消耗體力，旋轉大劍攻擊周圍的敵人。\n停止旋轉時，會進行一次格外有力的揮砍。\n\n<color=#FFD780FF>下落攻擊</color>\n從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。",
     "cd": 0,
     "paramTpls": [
@@ -259,72 +262,73 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfDiligence", "name": "「勤勞」的教導", "count": 3 },
-        { "id": "DamagedMask", "name": "破損的面具", "count": 6 }
+        { "id": "TeachingsOfDiligence", "localeName": "「勤勞」的教導", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損的面具", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤勞」的指引", "count": 2 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 3 }
+        { "id": "GuideToDiligence", "localeName": "「勤勞」的指引", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤勞」的指引", "count": 4 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 4 }
+        { "id": "GuideToDiligence", "localeName": "「勤勞」的指引", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤勞」的指引", "count": 6 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 6 }
+        { "id": "GuideToDiligence", "localeName": "「勤勞」的指引", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤勞」的指引", "count": 9 },
-        { "id": "StainedMask", "name": "汙穢的面具", "count": 9 }
+        { "id": "GuideToDiligence", "localeName": "「勤勞」的指引", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤勞」的哲學", "count": 4 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 4 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 4 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤勞」的哲學", "count": 6 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 6 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 6 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤勞」的哲學", "count": 12 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 9 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 2 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 9 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤勞」的哲學", "count": 16 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 12 },
-        { "id": "DvalinsSigh", "name": "東風的吐息", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 12 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "吐納真定", "desc": "處在<color=#FFD780FF>靈刃·重華疊霜</color>領域內的單手劍、雙手劍、長柄武器角色，普通攻擊的攻擊速度提升8%。", "unlock": 1, "values": [0.08] },
+    { "name": "SteadyBreathing", "localeName": "吐納真定", "desc": "處在<color=#FFD780FF>靈刃·重華疊霜</color>領域內的單手劍、雙手劍、長柄武器角色，普通攻擊的攻擊速度提升8%。", "unlock": 1, "values": [0.08] },
     {
-      "name": "追冰劍訣",
+      "name": "RimechaserBlade",
+      "localeName": "追冰劍訣",
       "desc": "<color=#FFD780FF>靈刃·重華疊霜</color>領域消失時，會喚出一柄靈刃自動攻擊附近的敵人，造成相當於靈刃·重華疊霜技能傷害100%的<color=#99FFFFFF>冰元素範圍傷害</color>。被擊中的敵人<color=#99FFFFFF>冰元素抗性</color>降低10%，持續8秒。",
       "unlock": 4,
       "values": [1, -0.1, 8]
     },
-    { "name": "雲遊山海", "desc": "在璃月執行探索派遣任務時，消耗的時間縮短25%。" }
+    { "name": "GallantJourney", "localeName": "雲遊山海", "desc": "在璃月執行探索派遣任務時，消耗的時間縮短25%。" }
   ],
   "c13ns": [
-    { "name": "釋淩詠冰", "desc": "普通攻擊的最後一擊會向前方釋放三道冰之刃，每道冰之刃對沿途的敵人造成重雲50%攻擊力的<color=#99FFFFFF>冰元素傷害</color>。", "values": [0.5] },
-    { "name": "周天運轉", "desc": "在<color=#FFD780FF>靈刃·重華疊霜</color>領域內施放的元素戰技與元素爆發的冷卻時間減少15%。", "values": [0.15] },
-    { "name": "雲盡光生", "desc": "<color=#FFD780FF>靈刃·雲開星落</color>的技能等級提高3級。\n至多提升至15級。" },
-    { "name": "浮雲霜天", "desc": "重雲的所有攻擊命中受到<color=#99FFFFFF>冰元素</color>影響的敵人時，自身將恢復1點元素能量。\n該效果每2秒最多觸發一次。", "values": [1, 2] },
-    { "name": "真道正理", "desc": "<color=#FFD780FF>靈刃·重華疊霜</color>的技能等級提高3級。\n至多提升至15級。" },
-    { "name": "四靈捧聖", "desc": "<color=#FFD780FF>靈刃·雲開星落</color>對生命值百分比低於重雲的敵人造成傷害時，傷害提升15%；\n此外，施放時，會召喚一柄額外的靈刃。", "values": [0.15] }
+    { "name": "IceUnleashed", "localeName": "釋淩詠冰", "desc": "普通攻擊的最後一擊會向前方釋放三道冰之刃，每道冰之刃對沿途的敵人造成重雲50%攻擊力的<color=#99FFFFFF>冰元素傷害</color>。", "values": [0.5] },
+    { "name": "AtmosphericRevolution", "localeName": "周天運轉", "desc": "在<color=#FFD780FF>靈刃·重華疊霜</color>領域內施放的元素戰技與元素爆發的冷卻時間減少15%。", "values": [0.15] },
+    { "name": "Cloudburst", "localeName": "雲盡光生", "desc": "<color=#FFD780FF>靈刃·雲開星落</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "FrozenSkies", "localeName": "浮雲霜天", "desc": "重雲的所有攻擊命中受到<color=#99FFFFFF>冰元素</color>影響的敵人時，自身將恢復1點元素能量。\n該效果每2秒最多觸發一次。", "values": [1, 2] },
+    { "name": "TheTruePath", "localeName": "真道正理", "desc": "<color=#FFD780FF>靈刃·重華疊霜</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "RallyOfFourBlades", "localeName": "四靈捧聖", "desc": "<color=#FFD780FF>靈刃·雲開星落</color>對生命值百分比低於重雲的敵人造成傷害時，傷害提升15%；\n此外，施放時，會召喚一柄額外的靈刃。", "values": [0.15] }
   ],
   "overviewItems": [
-    { "id": "ShivadaJadeGemstone", "name": "哀敘冰玉", "rarity": 5 },
-    { "id": "HoarfrostCore", "name": "極寒之核", "rarity": 4 },
-    { "id": "CorLapis", "name": "石珀" },
-    { "id": "OminousMask", "name": "不祥的面具", "rarity": 3 },
-    { "id": "PhilosophiesOfDiligence", "name": "「勤勞」的哲學", "rarity": 4 },
-    { "id": "DvalinsSigh", "name": "東風的吐息", "rarity": 5 }
+    { "id": "ShivadaJadeGemstone", "localeName": "哀敘冰玉", "rarity": 5 },
+    { "id": "HoarfrostCore", "localeName": "極寒之核", "rarity": 4 },
+    { "id": "CorLapis", "localeName": "石珀" },
+    { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3 },
+    { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4 },
+    { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5 }
   ]
 }

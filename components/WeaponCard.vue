@@ -1,5 +1,5 @@
 <template>
-  <v-card class="weapon-card" :class="{ inactive }" :to="link ? 'weapon/' + value.id : void 0" @click="$emit('click', $event)">
+  <v-card class="weapon-card" :class="{ inactive }" :to="link ? '/weapon/' + value.id : void 0" @click="$emit('click', $event)">
     <div class="weapon-avatar" :class="['rarity-' + value.rarity]" :style="{ height: (small ? 80 : 106) + 'px' }">
       <ItemImage v-if="item" :id="item" :size="small ? 24 : 32" class="ele-icon" />
       <WeaponImage :id="value.id" :size="small ? 80 : 106" class="mx-auto" />

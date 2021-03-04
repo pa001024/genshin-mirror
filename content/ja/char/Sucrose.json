@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VayudaTurquoiseSliver", "name": "自由のターコイズ·砕屑", "count": 1 },
-        { "id": "WindwheelAster", "name": "風車アスター", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "トリックフラワーの蜜", "count": 3 }
+        { "id": "VayudaTurquoiseSliver", "localeName": "自由のターコイズ·砕屑", "rarity": 2, "count": 1 },
+        { "id": "WindwheelAster", "localeName": "風車アスター", "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 3 }
       ],
       "HP": 578.98,
       "ATK": 10.643,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VayudaTurquoiseFragment", "name": "自由のターコイズ·欠片", "count": 3 },
-        { "id": "HurricaneSeed", "name": "暴風の種", "count": 2 },
-        { "id": "WindwheelAster", "name": "風車アスター", "count": 10 },
-        { "id": "WhopperflowerNectar", "name": "トリックフラワーの蜜", "count": 15 }
+        { "id": "VayudaTurquoiseFragment", "localeName": "自由のターコイズ·欠片", "rarity": 3, "count": 3 },
+        { "id": "HurricaneSeed", "localeName": "暴風の種", "rarity": 4, "count": 2 },
+        { "id": "WindwheelAster", "localeName": "風車アスター", "count": 10 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 15 }
       ],
       "HP": 990.36,
       "ATK": 18.205,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VayudaTurquoiseFragment", "name": "自由のターコイズ·欠片", "count": 6 },
-        { "id": "HurricaneSeed", "name": "暴風の種", "count": 4 },
-        { "id": "WindwheelAster", "name": "風車アスター", "count": 20 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 12 }
+        { "id": "VayudaTurquoiseFragment", "localeName": "自由のターコイズ·欠片", "rarity": 3, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "暴風の種", "rarity": 4, "count": 4 },
+        { "id": "WindwheelAster", "localeName": "風車アスター", "count": 20 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 12 }
       ],
       "HP": 1538.9,
       "ATK": 28.288,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VayudaTurquoiseChunk", "name": "自由のターコイズ·塊", "count": 3 },
-        { "id": "HurricaneSeed", "name": "暴風の種", "count": 8 },
-        { "id": "WindwheelAster", "name": "風車アスター", "count": 30 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 18 }
+        { "id": "VayudaTurquoiseChunk", "localeName": "自由のターコイズ·塊", "rarity": 4, "count": 3 },
+        { "id": "HurricaneSeed", "localeName": "暴風の種", "rarity": 4, "count": 8 },
+        { "id": "WindwheelAster", "localeName": "風車アスター", "count": 30 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 18 }
       ],
       "HP": 1950.3,
       "ATK": 35.85,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VayudaTurquoiseChunk", "name": "自由のターコイズ·塊", "count": 6 },
-        { "id": "HurricaneSeed", "name": "暴風の種", "count": 12 },
-        { "id": "WindwheelAster", "name": "風車アスター", "count": 45 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 12 }
+        { "id": "VayudaTurquoiseChunk", "localeName": "自由のターコイズ·塊", "rarity": 4, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "暴風の種", "rarity": 4, "count": 12 },
+        { "id": "WindwheelAster", "localeName": "風車アスター", "count": 45 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 12 }
       ],
       "HP": 2361.6,
       "ATK": 43.412,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VayudaTurquoiseGemstone", "name": "自由のターコイズ", "count": 6 },
-        { "id": "HurricaneSeed", "name": "暴風の種", "count": 20 },
-        { "id": "WindwheelAster", "name": "風車アスター", "count": 60 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 24 }
+        { "id": "VayudaTurquoiseGemstone", "localeName": "自由のターコイズ", "rarity": 5, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "暴風の種", "rarity": 4, "count": 20 },
+        { "id": "WindwheelAster", "localeName": "風車アスター", "count": 60 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 24 }
       ],
       "HP": 2773,
       "ATK": 50.975,
@@ -92,7 +92,8 @@
   "ascensionType": 27,
   "element": 1,
   "elemSkill": {
-    "name": "風霊作成·六三〇八",
+    "name": "AstableAnemohypostasisCreation6308",
+    "localeName": "風霊作成·六三〇八",
     "desc": "小型風霊を召喚し、敵と物体を風霊の位置に吸い寄せ、範囲内の敵をノックバックし、<color=#80FFD7FF>風元素ダメージ</color>を与える。\n\n<i>術によって誕生した元素生命はすぐに消えていくけど、冒険に凄く役立つの。自分で言うのもちょっと恥ずかしいけど、失敗した実験からも新しい技術が生まれることもあるんだ。</i>",
     "cd": 15,
     "paramTpls": ["スキルダメージ|{param1:P}", "クールタイム|{param2:F1}秒"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "「自由」の教え", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "トリックフラワーの蜜", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」の教え", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 4 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 6 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 12 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 16 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "禁·風霊作成·七五同構弐型",
+    "name": "ForbiddenCreationIsomer75TypeII",
+    "localeName": "禁·風霊作成·七五同構弐型",
     "desc": "不安定なフラスコを投げ出し、大型風霊を生成する。\n風霊が存在している間、持続的に付近の敵と物体を吸い寄せてノックバックし、<color=#80FFD7FF>風元素ダメージ</color>を持続的に与える。\n\n\n<color=#FFD780FF>元素変化</color>\n風霊がスキル継続中に<color=#80C0FFFF>水元素</color>/<color=#FF9999FF>炎元素</color>/<color=#99FFFFFF>氷元素</color>/<color=#FFACFFFF>雷元素</color>に接触すると、接触した元素の属性を獲得し、該当元素の付加ダメージを追加で与える。\n元素変化はスキル継続中に1回のみ発生する。\n\n<i>スクロースは全ての不安定な無相の風に名前をつけようと思っていたが、その数は893もあるウサギ伯爵を軽く超えていたため、その考えを諦めた。</i>",
     "cd": 20,
     "energyCost": 80,
@@ -182,62 +184,54 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "「自由」の教え", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "トリックフラワーの蜜", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」の教え", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 4 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 6 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 12 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 16 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "通常攻撃·簡式風霊作成",
+    "name": "NormalAttackWindSpiritCreation",
+    "localeName": "通常攻撃·簡式風霊作成",
     "desc": "<color=#FFD780FF>通常攻撃</color>\n最大4段の連続攻撃を行い、<color=#80FFD7FF>風元素ダメージ</color>を与える。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、短い詠唱をした後、敵に<color=#80FFD7FF>風元素範囲ダメージ</color>を与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から風霊の力を凝集しながら落下し、地面に衝撃を与える。経路上の敵を攻撃し、落下時に<color=#80FFD7FF>風元素範囲ダメージ</color>を与える。",
     "cd": 0,
-    "paramTpls": [
-      "1段ダメージ|{param1:F1P}",
-      "2段ダメージ|{param2:F1P}",
-      "3段ダメージ|{param3:F1P}",
-      "4段ダメージ|{param4:F1P}",
-      "重撃ダメージ|{param5:P}",
-      "重撃スタミナ消費|{param6:F1}",
-      "落下期間のダメージ|{param7:F1P}",
-      "低空/高空落下攻撃ダメージ|{param8:P}/{param9:P}"
-    ],
+    "paramTpls": ["1段ダメージ|{param1:F1P}", "2段ダメージ|{param2:F1P}", "3段ダメージ|{param3:F1P}", "4段ダメージ|{param4:F1P}", "重撃ダメージ|{param5:P}", "重撃スタミナ消費|{param6:F1}", "落下期間のダメージ|{param7:F1P}", "低空/高空落下攻撃ダメージ|{param8:P}/{param9:P}"],
     "paramVals": [
       [0.33464, 0.30616, 0.38448, 0.47918, 1.2016, 50, 0.56829, 1.1363, 1.4193],
       [0.35974, 0.32912, 0.41332, 0.51511, 1.2917, 50, 0.61454, 1.2288, 1.5349],
@@ -257,72 +251,73 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "「自由」の教え", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "トリックフラワーの蜜", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」の教え", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 3 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 4 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 9 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 4 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 6 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 12 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 2 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 16 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "触媒置換術", "desc": "スクロースが拡散反応を起こした時、該当元素のチームメンバー全員（スクロース自身を除く）の元素熟知+50、継続時間8秒。", "unlock": 1, "values": [50, 8] },
+    { "name": "CatalystConversion", "localeName": "触媒置換術", "desc": "スクロースが拡散反応を起こした時、該当元素のチームメンバー全員（スクロース自身を除く）の元素熟知+50、継続時間8秒。", "unlock": 1, "values": [50, 8] },
     {
-      "name": "小さな恵風",
+      "name": "MollisFavonius",
+      "localeName": "小さな恵風",
       "desc": "<color=#FFD780FF>風霊作成·六三〇八</color>又は<color=#FFD780FF>禁·風霊作成·七五同構弐型</color>が敵に命中した時、スクロースの元素熟知の20%を基準に、チーム全員（スクロース自身を除く）の元素熟知を強化する、継続時間8秒。",
       "unlock": 4,
       "values": [0.2, 8]
     },
-    { "name": "不安定な発見", "desc": "キャラクターと武器の育成素材を合成する時、10%の確率でアイテムを2倍獲得する。" }
+    { "name": "AstableInvention", "localeName": "不安定な発見", "desc": "キャラクターと武器の育成素材を合成する時、10%の確率でアイテムを2倍獲得する。" }
   ],
   "c13ns": [
-    { "name": "積み上げ真空域", "desc": "<color=#FFD780FF>風霊作成·六三〇八</color>の発動可能回数+1。" },
-    { "name": "不羈型ベト", "desc": "<color=#FFD780FF>禁·風霊作成·七五同構弐型</color>のスキル継続時間+2秒。", "values": [2] },
-    { "name": "ゼロミス少女", "desc": "<color=#FFD780FF>風霊作成·六三〇八</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "錬金の偏執", "desc": "スクロースが通常攻撃または重撃を7回発動すると、<color=#FFD780FF>風霊作成·六三〇八</color>のクールタイムがランダムに1~7秒減少する。" },
-    { "name": "真面目な普通瓶", "desc": "<color=#FFD780FF>禁·風霊作成·七五同構弐型</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "混元熵增論", "desc": "<color=#FFD780FF>禁·風霊作成·七五同構弐型</color>に元素変化が起きた時、スキル継続中チーム全員の該当元素ダメージ+20%。", "values": [0.2] }
+    { "name": "ClusteredVacuumField", "localeName": "積み上げ真空域", "desc": "<color=#FFD780FF>風霊作成·六三〇八</color>の発動可能回数+1。" },
+    { "name": "BethUnboundForm", "localeName": "不羈型ベト", "desc": "<color=#FFD780FF>禁·風霊作成·七五同構弐型</color>のスキル継続時間+2秒。", "values": [2] },
+    { "name": "FlawlessAlchemistress", "localeName": "ゼロミス少女", "desc": "<color=#FFD780FF>風霊作成·六三〇八</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "Alchemania", "localeName": "錬金の偏執", "desc": "スクロースが通常攻撃または重撃を7回発動すると、<color=#FFD780FF>風霊作成·六三〇八</color>のクールタイムがランダムに1~7秒減少する。" },
+    { "name": "CautionStandardFlask", "localeName": "真面目な普通瓶", "desc": "<color=#FFD780FF>禁·風霊作成·七五同構弐型</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "ChaoticEntropy", "localeName": "混元熵增論", "desc": "<color=#FFD780FF>禁·風霊作成·七五同構弐型</color>に元素変化が起きた時、スキル継続中チーム全員の該当元素ダメージ+20%。", "values": [0.2] }
   ],
   "overviewItems": [
-    { "id": "VayudaTurquoiseGemstone", "name": "自由のターコイズ", "rarity": 5 },
-    { "id": "HurricaneSeed", "name": "暴風の種", "rarity": 4 },
-    { "id": "WindwheelAster", "name": "風車アスター" },
-    { "id": "EnergyNectar", "name": "原素花の蜜", "rarity": 3 },
-    { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "rarity": 4 },
-    { "id": "SpiritLocketOfBoreas", "name": "北風の魂箱", "rarity": 5 }
+    { "id": "VayudaTurquoiseGemstone", "localeName": "自由のターコイズ", "rarity": 5 },
+    { "id": "HurricaneSeed", "localeName": "暴風の種", "rarity": 4 },
+    { "id": "WindwheelAster", "localeName": "風車アスター" },
+    { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3 },
+    { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4 },
+    { "id": "SpiritLocketOfBoreas", "localeName": "北風の魂箱", "rarity": 5 }
   ]
 }

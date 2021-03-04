@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "AgnidusAgateSliver", "name": "Agnidus Agate Sliver", "count": 1 },
-        { "id": "SilkFlower", "name": "Silk Flower", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 3 }
+        { "id": "AgnidusAgateSliver", "localeName": "Agnidus Agate Sliver", "rarity": 2, "count": 1 },
+        { "id": "SilkFlower", "localeName": "Silk Flower", "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "Whopperflower Nectar", "rarity": 1, "count": 3 }
       ],
       "HP": 1038.1,
       "ATK": 7.1039,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "Agnidus Agate Fragment", "count": 3 },
-        { "id": "JuvenileJade", "name": "Juvenile Jade", "count": 2 },
-        { "id": "SilkFlower", "name": "Silk Flower", "count": 10 },
-        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 15 }
+        { "id": "AgnidusAgateFragment", "localeName": "Agnidus Agate Fragment", "rarity": 3, "count": 3 },
+        { "id": "JuvenileJade", "localeName": "Juvenile Jade", "rarity": 4, "count": 2 },
+        { "id": "SilkFlower", "localeName": "Silk Flower", "count": 10 },
+        { "id": "WhopperflowerNectar", "localeName": "Whopperflower Nectar", "rarity": 1, "count": 15 }
       ],
       "HP": 1775.7,
       "ATK": 12.151,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "Agnidus Agate Fragment", "count": 6 },
-        { "id": "JuvenileJade", "name": "Juvenile Jade", "count": 4 },
-        { "id": "SilkFlower", "name": "Silk Flower", "count": 20 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 12 }
+        { "id": "AgnidusAgateFragment", "localeName": "Agnidus Agate Fragment", "rarity": 3, "count": 6 },
+        { "id": "JuvenileJade", "localeName": "Juvenile Jade", "rarity": 4, "count": 4 },
+        { "id": "SilkFlower", "localeName": "Silk Flower", "count": 20 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 12 }
       ],
       "HP": 2759.1,
       "ATK": 18.881,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "Agnidus Agate Chunk", "count": 3 },
-        { "id": "JuvenileJade", "name": "Juvenile Jade", "count": 8 },
-        { "id": "SilkFlower", "name": "Silk Flower", "count": 30 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 18 }
+        { "id": "AgnidusAgateChunk", "localeName": "Agnidus Agate Chunk", "rarity": 4, "count": 3 },
+        { "id": "JuvenileJade", "localeName": "Juvenile Jade", "rarity": 4, "count": 8 },
+        { "id": "SilkFlower", "localeName": "Silk Flower", "count": 30 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 18 }
       ],
       "HP": 3496.7,
       "ATK": 23.929,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "Agnidus Agate Chunk", "count": 6 },
-        { "id": "JuvenileJade", "name": "Juvenile Jade", "count": 12 },
-        { "id": "SilkFlower", "name": "Silk Flower", "count": 45 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 12 }
+        { "id": "AgnidusAgateChunk", "localeName": "Agnidus Agate Chunk", "rarity": 4, "count": 6 },
+        { "id": "JuvenileJade", "localeName": "Juvenile Jade", "rarity": 4, "count": 12 },
+        { "id": "SilkFlower", "localeName": "Silk Flower", "count": 45 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 12 }
       ],
       "HP": 4234.3,
       "ATK": 28.976,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "AgnidusAgateGemstone", "name": "Agnidus Agate Gemstone", "count": 6 },
-        { "id": "JuvenileJade", "name": "Juvenile Jade", "count": 20 },
-        { "id": "SilkFlower", "name": "Silk Flower", "count": 60 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 24 }
+        { "id": "AgnidusAgateGemstone", "localeName": "Agnidus Agate Gemstone", "rarity": 5, "count": 6 },
+        { "id": "JuvenileJade", "localeName": "Juvenile Jade", "rarity": 4, "count": 20 },
+        { "id": "SilkFlower", "localeName": "Silk Flower", "count": 60 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 24 }
       ],
       "HP": 4971.9,
       "ATK": 34.024,
@@ -92,17 +92,11 @@
   "ascensionType": 13,
   "element": 6,
   "elemSkill": {
-    "name": "Guide to Afterlife",
+    "name": "GuideToAfterlife",
+    "localeName": "Guide to Afterlife",
     "desc": "Only an unwavering flame can cleanse the impurities of this world.\nHu Tao consumes a set portion of her HP to knock the surrounding enemies back and enter the Paramita Papilio state.\n\n<color=#FFD780FF>Paramita Papilio</color>\n·Increases Hu Tao's ATK based on her Max HP at the time of entering this state. ATK Bonus gained this way cannot exceed 400% of Hu Tao's Base ATK.\n·Converts attack DMG to <color=#FF9999FF>Pyro DMG</color>, which cannot be overridden by any other elemental infusion.\n·Charged Attacks apply the Blood Blossom effect to the enemies hit.\n·Increases Hu Tao's resistance to interruption.\n\n<color=#FFD780FF>Blood Blossom</color>\nEnemies affected by Blood Blossom will take <color=#FF9999FF>Pyro DMG</color> every 4s. This DMG is considered Elemental Skill DMG.\nEach enemy can be affected by only one Blood Blossom effect at a time, and its duration may only be refreshed by Hu Tao herself.\n\n<color=#FFD780FF>Paramita Papilio</color> ends when its duration is over, or Hu Tao has left the battlefield or fallen.\n\n<i>Hu Tao's Secret Spear technique is based on several rules, the first of which is: \"The spear opens the path to the afterlife, and the butterflies bridge this world and the next.\"</i>",
     "cd": 16,
-    "paramTpls": [
-      "Activation Cost|{param1:P} Current HP",
-      "ATK Increase|{param2:F2P} Max HP",
-      "Blood Blossom DMG|{param3:P}",
-      "Blood Blossom Duration|{param4:F1}s",
-      "Duration|{param5:F1}s",
-      "CD|{param6:F1}s"
-    ],
+    "paramTpls": ["Activation Cost|{param1:P} Current HP", "ATK Increase|{param2:F2P} Max HP", "Blood Blossom DMG|{param3:P}", "Blood Blossom Duration|{param4:F1}s", "Duration|{param5:F1}s", "CD|{param6:F1}s"],
     "paramVals": [
       [0.3, 0.03841, 0.64, 8, 9, 16, 4],
       [0.3, 0.04071, 0.688, 8, 9, 16, 4],
@@ -122,61 +116,55 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfDiligence", "name": "Teachings of Diligence", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 6 }
+        { "id": "TeachingsOfDiligence", "localeName": "Teachings of Diligence", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "Whopperflower Nectar", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 3 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 4 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 6 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 9 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 4 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 4 },
-        { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 4 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 6 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 6 },
-        { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 6 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 12 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 9 },
-        { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "count": 2 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 9 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 16 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 12 },
-        { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 12 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "Spirit Soother",
+    "name": "SpiritSoother",
+    "localeName": "Spirit Soother",
     "desc": "Commands a blazing spirit to attack, dealing <color=#FF9999FF>Pyro DMG</color> in a large AoE.\nUpon striking the enemy, regenerates a percentage of Hu Tao's Max HP. This effect can be triggered up to 5 times, based on the number of enemies hit.\nIf Hu Tao's HP is below or equal to 50% when the enemy is hit, both the DMG and HP Regeneration are increased.\n\n<i>Supernatural activity by those who have already left this world is a source of great anxiety for the Wangsheng Funeral Parlor. In such cases, cremation always lets Hu Tao find peace of mind. The more anxious she feels, the stronger the flame.</i>",
     "cd": 15,
     "energyCost": 60,
-    "paramTpls": [
-      "Skill DMG|{param1:P}",
-      "Low HP Skill DMG|{param2:P}",
-      "Skill HP Regeneration|{param3:F2P} Max HP",
-      "Low HP Skill Regeneration|{param4:F2P} Max HP",
-      "CD|{param5:F1}s",
-      "Energy Cost|{param6:I}"
-    ],
+    "paramTpls": ["Skill DMG|{param1:P}", "Low HP Skill DMG|{param2:P}", "Skill HP Regeneration|{param3:F2P} Max HP", "Low HP Skill Regeneration|{param4:F2P} Max HP", "CD|{param5:F1}s", "Energy Cost|{param6:I}"],
     "paramVals": [
       [3.0327, 3.7909, 0.062625, 0.0835, 15, 60, 0.5],
       [3.2143, 4.0179, 0.066375, 0.0885, 15, 60, 0.5],
@@ -196,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfDiligence", "name": "Teachings of Diligence", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 6 }
+        { "id": "TeachingsOfDiligence", "localeName": "Teachings of Diligence", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "Whopperflower Nectar", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 3 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 4 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 6 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 9 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 4 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 4 },
-        { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 4 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 6 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 6 },
-        { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 6 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 12 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 9 },
-        { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "count": 2 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 9 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 16 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 12 },
-        { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 12 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "Normal Attack: Secret Spear of Wangsheng",
+    "name": "NormalAttackSecretSpearOfWangsheng",
+    "localeName": "Normal Attack: Secret Spear of Wangsheng",
     "desc": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to six consecutive spear strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "cd": 0,
     "paramTpls": [
@@ -273,87 +262,88 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfDiligence", "name": "Teachings of Diligence", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "Whopperflower Nectar", "count": 6 }
+        { "id": "TeachingsOfDiligence", "localeName": "Teachings of Diligence", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "Whopperflower Nectar", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 3 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 4 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 6 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "Guide to Diligence", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "Shimmering Nectar", "count": 9 }
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 4 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 4 },
-        { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 4 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 6 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 6 },
-        { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 6 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 12 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 9 },
-        { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "count": 2 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 9 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "count": 16 },
-        { "id": "EnergyNectar", "name": "Energy Nectar", "count": 12 },
-        { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3, "count": 12 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
     {
-      "name": "Flutter By",
+      "name": "FlutterBy",
+      "localeName": "Flutter By",
       "desc": "When a <color=#FFD780FF>Paramita Papilio</color> state activated by <color=#FFD780FF>Guide to Afterlife</color> ends, all allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 8s.",
       "unlock": 1,
       "values": [0.12, 8]
     },
-    { "name": "Sanguine Rouge", "desc": "When Hu Tao's HP is equal to or less than 50%, her <color=#FF9999FF>Pyro DMG Bonus</color> is increased by 33%.", "unlock": 4, "values": [0.5, 0.33] },
-    { "name": "The More the Merrier", "desc": "When Hu Tao cooks a dish perfectly, she has a 18% chance to receive an additional \"Suspicious\" dish of the same type." }
+    { "name": "SanguineRouge", "localeName": "Sanguine Rouge", "desc": "When Hu Tao's HP is equal to or less than 50%, her <color=#FF9999FF>Pyro DMG Bonus</color> is increased by 33%.", "unlock": 4, "values": [0.5, 0.33] },
+    { "name": "TheMoreTheMerrier", "localeName": "The More the Merrier", "desc": "When Hu Tao cooks a dish perfectly, she has a 18% chance to receive an additional \"Suspicious\" dish of the same type." }
   ],
   "c13ns": [
+    { "name": "CrimsonBouquet", "localeName": "Crimson Bouquet", "desc": "While in a <color=#FFD780FF>Paramita Papilio</color> state activated by <color=#FFD780FF>Guide to Afterlife</color>, Hu Tao's Charge Attacks do not consume Stamina." },
     {
-      "name": "Crimson Bouquet",
-      "desc": "While in a <color=#FFD780FF>Paramita Papilio</color> state activated by <color=#FFD780FF>Guide to Afterlife</color>, Hu Tao's Charge Attacks do not consume Stamina."
-    },
-    {
-      "name": "Ominous Rainfall",
+      "name": "OminousRainfall",
+      "localeName": "Ominous Rainfall",
       "desc": "Increases the <color=#FFD780FF>Blood Blossom</color> DMG by an amount equal to 10% of Hu Tao's Max HP at the time the effect is applied.\nAdditionally, <color=#FFD780FF>Spirit Soother</color> will also apply the <color=#FFD780FF>Blood Blossom</color> effect.",
       "values": [0.1]
     },
-    { "name": "Lingering Carmine", "desc": "Increases the Level of <color=#FFD780FF>Guide to Afterlife</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "LingeringCarmine", "localeName": "Lingering Carmine", "desc": "Increases the Level of <color=#FFD780FF>Guide to Afterlife</color> by 3.\nMaximum upgrade level is 15." },
     {
-      "name": "Garden of Eternal Rest",
+      "name": "GardenOfEternalRest",
+      "localeName": "Garden of Eternal Rest",
       "desc": "Upon defeating an enemy affected by a <color=#FFD780FF>Blood Blossom</color> that Hu Tao applied herself, all nearby allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 15s.",
       "values": [0.12, 15]
     },
-    { "name": "Floral Incense", "desc": "Increases the Level of <color=#FFD780FF>Spirit Soother</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "FloralIncense", "localeName": "Floral Incense", "desc": "Increases the Level of <color=#FFD780FF>Spirit Soother</color> by 3.\nMaximum upgrade level is 15." },
     {
-      "name": "Butterfly's Embrace",
+      "name": "ButterflysEmbrace",
+      "localeName": "Butterfly's Embrace",
       "desc": "Triggers when Hu Tao's HP drops below 25%, or when she suffers a lethal strike:\nHu Tao will not fall as a result of the DMG sustained. Additionally, for the next 10s, all of her Elemental and Physical RES is increased by 200%, her CRIT Rate is increased by 100%, and her resistance to interruption is greatly increased.\nThis effect triggers automatically when Hu Tao has 1 HP left.\nCan only occur once every 60s.",
       "values": [0.25, 10, 2, 1]
     }
   ],
   "overviewItems": [
-    { "id": "AgnidusAgateGemstone", "name": "Agnidus Agate Gemstone", "rarity": 5 },
-    { "id": "JuvenileJade", "name": "Juvenile Jade", "rarity": 4 },
-    { "id": "SilkFlower", "name": "Silk Flower" },
-    { "id": "EnergyNectar", "name": "Energy Nectar", "rarity": 3 },
-    { "id": "PhilosophiesOfDiligence", "name": "Philosophies of Diligence", "rarity": 4 },
-    { "id": "ShardOfAFoulLegacy", "name": "Shard of a Foul Legacy", "rarity": 5 }
+    { "id": "AgnidusAgateGemstone", "localeName": "Agnidus Agate Gemstone", "rarity": 5 },
+    { "id": "JuvenileJade", "localeName": "Juvenile Jade", "rarity": 4 },
+    { "id": "SilkFlower", "localeName": "Silk Flower" },
+    { "id": "EnergyNectar", "localeName": "Energy Nectar", "rarity": 3 },
+    { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4 },
+    { "id": "ShardOfAFoulLegacy", "localeName": "Shard of a Foul Legacy", "rarity": 5 }
   ]
 }

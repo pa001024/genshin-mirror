@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "BrilliantDiamondSliver", "name": "輝くダイヤ·砕屑", "count": 1 },
-        { "id": "WindwheelAster", "name": "風車アスター", "count": 3 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 3 }
+        { "id": "BrilliantDiamondSliver", "localeName": "輝くダイヤ·砕屑", "rarity": 2, "count": 1 },
+        { "id": "WindwheelAster", "localeName": "風車アスター", "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 3 }
       ],
       "HP": 681.15,
       "ATK": 13.304,
@@ -26,9 +26,9 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "BrilliantDiamondFragment", "name": "輝くダイヤ·欠片", "count": 3 },
-        { "id": "WindwheelAster", "name": "風車アスター", "count": 10 },
-        { "id": "DamagedMask", "name": "破損した仮面", "count": 15 }
+        { "id": "BrilliantDiamondFragment", "localeName": "輝くダイヤ·欠片", "rarity": 3, "count": 3 },
+        { "id": "WindwheelAster", "localeName": "風車アスター", "count": 10 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 15 }
       ],
       "HP": 1165.1,
       "ATK": 22.757,
@@ -38,9 +38,9 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "BrilliantDiamondFragment", "name": "輝くダイヤ·欠片", "count": 6 },
-        { "id": "WindwheelAster", "name": "風車アスター", "count": 20 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 12 }
+        { "id": "BrilliantDiamondFragment", "localeName": "輝くダイヤ·欠片", "rarity": 3, "count": 6 },
+        { "id": "WindwheelAster", "localeName": "風車アスター", "count": 20 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 12 }
       ],
       "HP": 1810.4,
       "ATK": 35.36,
@@ -50,9 +50,9 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "BrilliantDiamondChunk", "name": "輝くダイヤ·塊", "count": 3 },
-        { "id": "WindwheelAster", "name": "風車アスター", "count": 30 },
-        { "id": "StainedMask", "name": "汚れた仮面", "count": 18 }
+        { "id": "BrilliantDiamondChunk", "localeName": "輝くダイヤ·塊", "rarity": 4, "count": 3 },
+        { "id": "WindwheelAster", "localeName": "風車アスター", "count": 30 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 18 }
       ],
       "HP": 2294.4,
       "ATK": 44.813,
@@ -62,9 +62,9 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "BrilliantDiamondChunk", "name": "輝くダイヤ·塊", "count": 6 },
-        { "id": "WindwheelAster", "name": "風車アスター", "count": 45 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 12 }
+        { "id": "BrilliantDiamondChunk", "localeName": "輝くダイヤ·塊", "rarity": 4, "count": 6 },
+        { "id": "WindwheelAster", "localeName": "風車アスター", "count": 45 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 12 }
       ],
       "HP": 2778.4,
       "ATK": 54.265,
@@ -74,9 +74,9 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "BrilliantDiamondGemstone", "name": "輝くダイヤ", "count": 6 },
-        { "id": "WindwheelAster", "name": "風車アスター", "count": 60 },
-        { "id": "OminousMask", "name": "不吉な仮面", "count": 24 }
+        { "id": "BrilliantDiamondGemstone", "localeName": "輝くダイヤ", "rarity": 5, "count": 6 },
+        { "id": "WindwheelAster", "localeName": "風車アスター", "count": 60 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 24 }
       ],
       "HP": 3262.4,
       "ATK": 63.718,
@@ -87,7 +87,8 @@
   "ascensionType": 7,
   "element": 0,
   "attackSkill": {
-    "name": "通常攻撃·過去の追憶",
+    "name": "NormalAttackPastMemories",
+    "localeName": "通常攻撃·過去の追憶",
     "desc": "<color=#FFD780FF>通常攻撃</color>\n剣による最大5段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、前方に斬撃を2回放つ。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
     "cd": 0,
     "paramTpls": [
@@ -120,56 +121,56 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfFreedom", "name": "「自由」の教え", "count": 3 },
-        { "id": "DiviningScroll", "name": "占いの絵巻", "count": 6 }
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」の教え", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 2 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 4 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToFreedom", "name": "「自由」の導き", "count": 6 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 6 }
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 9 },
-        { "id": "SealedScroll", "name": "封魔の絵巻", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 4 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 4 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 4 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfFreedom", "name": "「自由」の哲学", "count": 6 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 6 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 1 }
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 6 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 12 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 9 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 9 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 16 },
-        { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "count": 12 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 12 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [],
   "c13ns": [],
   "overviewItems": [
-    { "id": "BrilliantDiamondGemstone", "name": "輝くダイヤ", "rarity": 5 },
-    { "id": "WindwheelAster", "name": "風車アスター" },
-    { "id": "OminousMask", "name": "不吉な仮面", "rarity": 3 },
-    { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "rarity": 4 },
-    { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "rarity": 3 },
-    { "id": "DvalinsSigh", "name": "東風の吐息", "rarity": 5 }
+    { "id": "BrilliantDiamondGemstone", "localeName": "輝くダイヤ", "rarity": 5 },
+    { "id": "WindwheelAster", "localeName": "風車アスター" },
+    { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3 },
+    { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4 },
+    { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3 },
+    { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5 }
   ]
 }

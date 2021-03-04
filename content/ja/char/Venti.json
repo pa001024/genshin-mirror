@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VayudaTurquoiseSliver", "name": "自由のターコイズ·砕屑", "count": 1 },
-        { "id": "Cecilia", "name": "セシリアの花", "count": 3 },
-        { "id": "SlimeCondensate", "name": "スライムの液体", "count": 3 }
+        { "id": "VayudaTurquoiseSliver", "localeName": "自由のターコイズ·砕屑", "rarity": 2, "count": 1 },
+        { "id": "Cecilia", "localeName": "セシリアの花", "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "スライムの液体", "rarity": 1, "count": 3 }
       ],
       "HP": 702.95,
       "ATK": 17.56,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VayudaTurquoiseFragment", "name": "自由のターコイズ·欠片", "count": 3 },
-        { "id": "HurricaneSeed", "name": "暴風の種", "count": 2 },
-        { "id": "Cecilia", "name": "セシリアの花", "count": 10 },
-        { "id": "SlimeCondensate", "name": "スライムの液体", "count": 15 }
+        { "id": "VayudaTurquoiseFragment", "localeName": "自由のターコイズ·欠片", "rarity": 3, "count": 3 },
+        { "id": "HurricaneSeed", "localeName": "暴風の種", "rarity": 4, "count": 2 },
+        { "id": "Cecilia", "localeName": "セシリアの花", "count": 10 },
+        { "id": "SlimeCondensate", "localeName": "スライムの液体", "rarity": 1, "count": 15 }
       ],
       "HP": 1202.4,
       "ATK": 30.037,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VayudaTurquoiseFragment", "name": "自由のターコイズ·欠片", "count": 6 },
-        { "id": "HurricaneSeed", "name": "暴風の種", "count": 4 },
-        { "id": "Cecilia", "name": "セシリアの花", "count": 20 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 12 }
+        { "id": "VayudaTurquoiseFragment", "localeName": "自由のターコイズ·欠片", "rarity": 3, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "暴風の種", "rarity": 4, "count": 4 },
+        { "id": "Cecilia", "localeName": "セシリアの花", "count": 20 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 12 }
       ],
       "HP": 1868.4,
       "ATK": 46.673,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VayudaTurquoiseChunk", "name": "自由のターコイズ·塊", "count": 3 },
-        { "id": "HurricaneSeed", "name": "暴風の種", "count": 8 },
-        { "id": "Cecilia", "name": "セシリアの花", "count": 30 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 18 }
+        { "id": "VayudaTurquoiseChunk", "localeName": "自由のターコイズ·塊", "rarity": 4, "count": 3 },
+        { "id": "HurricaneSeed", "localeName": "暴風の種", "rarity": 4, "count": 8 },
+        { "id": "Cecilia", "localeName": "セシリアの花", "count": 30 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 18 }
       ],
       "HP": 2367.8,
       "ATK": 59.15,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VayudaTurquoiseChunk", "name": "自由のターコイズ·塊", "count": 6 },
-        { "id": "HurricaneSeed", "name": "暴風の種", "count": 12 },
-        { "id": "Cecilia", "name": "セシリアの花", "count": 45 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 12 }
+        { "id": "VayudaTurquoiseChunk", "localeName": "自由のターコイズ·塊", "rarity": 4, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "暴風の種", "rarity": 4, "count": 12 },
+        { "id": "Cecilia", "localeName": "セシリアの花", "count": 45 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 12 }
       ],
       "HP": 2867.3,
       "ATK": 71.627,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VayudaTurquoiseGemstone", "name": "自由のターコイズ", "count": 6 },
-        { "id": "HurricaneSeed", "name": "暴風の種", "count": 20 },
-        { "id": "Cecilia", "name": "セシリアの花", "count": 60 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 24 }
+        { "id": "VayudaTurquoiseGemstone", "localeName": "自由のターコイズ", "rarity": 5, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "暴風の種", "rarity": 4, "count": 20 },
+        { "id": "Cecilia", "localeName": "セシリアの花", "count": 60 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 24 }
       ],
       "HP": 3366.8,
       "ATK": 84.104,
@@ -92,7 +92,8 @@
   "ascensionType": 10,
   "element": 1,
   "elemSkill": {
-    "name": "高天の歌",
+    "name": "SkywardSonnet",
+    "localeName": "高天の歌",
     "desc": "詩を奏でる風を呼び、塵泥の中を歩くものを高空まで届ける。\n\n<color=#FFD780FF>一回押し</color>\n目標の足もとに風域を召喚し、<color=#80FFD7FF>風元素範囲ダメージ</color>を与え、敵をノックバックする。\n\n<color=#FFD780FF>長押し</color>\n自身を中心に更に大きい風域を召喚し、<color=#80FFD7FF>風元素範囲ダメージ</color>を与え、敵をノックバックする。\n長押しで発動した後、ウェンティは風に乗り空中へ飛ぶ。\n高天の歌にノックバックされた敵はゆっくりと落下する。\n\n<i>人と神がまだ共に大地にいた時代、無数の歌が四方の空に伝わっていた。それらはすでに忘れ去られた曲である。</i>",
     "cd": 6,
     "paramTpls": ["一回押しダメージ|{param1:P}", "一回押しクールタイム|{param2:F1}秒", "長押しダメージ|{param3:P}", "長押しクールタイム|{param4:F1}秒"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "「詩文」の教え", "count": 3 },
-        { "id": "SlimeCondensate", "name": "スライムの液体", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "「詩文」の教え", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "スライムの液体", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 2 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 4 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 6 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 9 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 4 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 4 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 6 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 6 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 9 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 9 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 12 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 12 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "風神の詩",
+    "name": "WindsGrandOde",
+    "localeName": "風神の詩",
     "desc": "千の風を集めた矢を放ち、前方に巨大な暴風の目を作る。爆風は敵を巻き込み、<color=#80FFD7FF>風元素ダメージ</color>を持続的に与える。\n\n<color=#FFD780FF>元素変化</color>\n暴風の目がスキル継続中に<color=#80C0FFFF>水元素</color>/<color=#FF9999FF>炎元素</color>/<color=#99FFFFFF>氷元素</color>/<color=#FFACFFFF>雷元素</color>に接触すると、接触した元素の属性を獲得し、該当元素の付加ダメージを追加で与える。\n元素変化はスキル継続中に1回のみ発生する。\n\n<i>風の神を讃頌する詩の多くはすでに散逸した。その中でこの詩は、彼と風の力を物語っている。</i>",
     "cd": 15,
     "energyCost": 60,
@@ -182,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "「詩文」の教え", "count": 3 },
-        { "id": "SlimeCondensate", "name": "スライムの液体", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "「詩文」の教え", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "スライムの液体", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 2 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 4 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 6 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 9 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 4 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 4 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 6 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 6 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 9 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 9 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 12 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 12 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "通常攻撃·神代の射術",
+    "name": "NormalAttackDivineMarksmanship",
+    "localeName": "通常攻撃·神代の射術",
     "desc": "<color=#FFD780FF>通常攻撃</color>\n最大6段の連続射撃を行う。\n\n<color=#FFD780FF>重撃</color>\nダメージがより高く、より精確な<color=#FFD780FF>狙い撃ち</color>を発動する。\n照準時、天地の風を矢先に凝集させ、風の力に満ちた矢で敵に<color=#80FFD7FF>風元素ダメージ</color>を与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。",
     "cd": 0,
     "paramTpls": [
@@ -259,75 +262,71 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfBallad", "name": "「詩文」の教え", "count": 3 },
-        { "id": "SlimeCondensate", "name": "スライムの液体", "count": 6 }
+        { "id": "TeachingsOfBallad", "localeName": "「詩文」の教え", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "スライムの液体", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 2 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 3 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 4 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 4 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 6 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 6 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToBallad", "name": "「詩文」の導き", "count": 9 },
-        { "id": "SlimeSecretions", "name": "スライムの分泌物", "count": 9 }
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 4 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 4 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 4 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 6 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 6 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 6 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 12 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 9 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 2 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 9 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "count": 16 },
-        { "id": "SlimeConcentrate", "name": "スライムのピュレ", "count": 12 },
-        { "id": "TailOfBoreas", "name": "北風のしっぽ", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 12 },
+        { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "余風の抱擁", "desc": "<color=#FFD780FF>高天の歌</color>を長押しした後、上昇気流が発生する、継続時間20秒。", "unlock": 1, "values": [20] },
-    {
-      "name": "暴風の目",
-      "desc": "<color=#FFD780FF>風神の詩</color>效果終了後、ウェンティの元素エネルギーを15回復する。\n元素変化があった場合、該当元素のチームメンバーの元素エネルギーを15回復する。",
-      "unlock": 4,
-      "values": [15, 15]
-    },
-    { "name": "恒風と共に", "desc": "チーム内の自身のキャラクター全員が滑翔に消費するスタミナ-20%。\n同じ効果を持つ固有天赋との重ね掛け不可。" }
+    { "name": "EmbraceOfWinds", "localeName": "余風の抱擁", "desc": "<color=#FFD780FF>高天の歌</color>を長押しした後、上昇気流が発生する、継続時間20秒。", "unlock": 1, "values": [20] },
+    { "name": "Stormeye", "localeName": "暴風の目", "desc": "<color=#FFD780FF>風神の詩</color>效果終了後、ウェンティの元素エネルギーを15回復する。\n元素変化があった場合、該当元素のチームメンバーの元素エネルギーを15回復する。", "unlock": 4, "values": [15, 15] },
+    { "name": "Windrider", "localeName": "恒風と共に", "desc": "チーム内の自身のキャラクター全員が滑翔に消費するスタミナ-20%。\n同じ効果を持つ固有天赋との重ね掛け不可。" }
   ],
   "c13ns": [
-    { "name": "矢先の蒼風", "desc": "<color=#FFD780FF>狙い撃ち</color>する時、分裂した矢を追加で2本放つ。それぞれ元の矢の33%のダメージを与える。" },
+    { "name": "SplittingGales", "localeName": "矢先の蒼風", "desc": "<color=#FFD780FF>狙い撃ち</color>する時、分裂した矢を追加で2本放つ。それぞれ元の矢の33%のダメージを与える。" },
     {
-      "name": "恋い焦がれるそよ風",
+      "name": "BreezeOfReminiscence",
+      "localeName": "恋い焦がれるそよ風",
       "desc": "<color=#FFD780FF>高天の歌</color>発動後、敵の<color=#80FFD7FF>風元素耐性</color>と物理耐性-12%、継続時間10秒。\n<color=#FFD780FF>高天の歌</color>によってノックバックされた敵が着地するまで、<color=#80FFD7FF>風元素耐性</color>と物理耐性が更に-12%。"
     },
-    { "name": "千の風の詩", "desc": "<color=#FFD780FF>風神の詩</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "自由の凛風", "desc": "ウェンティが元素オーブまたは元素粒子を獲得した時、<color=#80FFD7FF>風元素ダメージ</color>+25%、継続時間10秒。" },
-    { "name": "高天の協奏", "desc": "<color=#FFD780FF>高天の歌</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "抗争の暴風", "desc": "<color=#FFD780FF>風神の詩</color>のダメージを受けた敵の<color=#80FFD7FF>風元素耐性</color>-20%。\n元素変化があった場合、変化した元素の耐性も-20%。" }
+    { "name": "OdeToThousandWinds", "localeName": "千の風の詩", "desc": "<color=#FFD780FF>風神の詩</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "HurricaneOfFreedom", "localeName": "自由の凛風", "desc": "ウェンティが元素オーブまたは元素粒子を獲得した時、<color=#80FFD7FF>風元素ダメージ</color>+25%、継続時間10秒。" },
+    { "name": "ConcertoDalCielo", "localeName": "高天の協奏", "desc": "<color=#FFD780FF>高天の歌</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "StormOfDefiance", "localeName": "抗争の暴風", "desc": "<color=#FFD780FF>風神の詩</color>のダメージを受けた敵の<color=#80FFD7FF>風元素耐性</color>-20%。\n元素変化があった場合、変化した元素の耐性も-20%。" }
   ],
   "overviewItems": [
-    { "id": "VayudaTurquoiseGemstone", "name": "自由のターコイズ", "rarity": 5 },
-    { "id": "HurricaneSeed", "name": "暴風の種", "rarity": 4 },
-    { "id": "Cecilia", "name": "セシリアの花" },
-    { "id": "SlimeConcentrate", "name": "スライムのピュレ", "rarity": 3 },
-    { "id": "PhilosophiesOfBallad", "name": "「詩文」の哲学", "rarity": 4 },
-    { "id": "TailOfBoreas", "name": "北風のしっぽ", "rarity": 5 }
+    { "id": "VayudaTurquoiseGemstone", "localeName": "自由のターコイズ", "rarity": 5 },
+    { "id": "HurricaneSeed", "localeName": "暴風の種", "rarity": 4 },
+    { "id": "Cecilia", "localeName": "セシリアの花" },
+    { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3 },
+    { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4 },
+    { "id": "TailOfBoreas", "localeName": "北風のしっぽ", "rarity": 5 }
   ]
 }

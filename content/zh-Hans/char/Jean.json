@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VayudaTurquoiseSliver", "name": "自在松石碎屑", "count": 1 },
-        { "id": "DandelionSeed", "name": "蒲公英籽", "count": 3 },
-        { "id": "DamagedMask", "name": "破损的面具", "count": 3 }
+        { "id": "VayudaTurquoiseSliver", "localeName": "自在松石碎屑", "rarity": 2, "count": 1 },
+        { "id": "DandelionSeed", "localeName": "蒲公英籽", "count": 3 },
+        { "id": "DamagedMask", "localeName": "破损的面具", "rarity": 1, "count": 3 }
       ],
       "HP": 980.86,
       "ATK": 15.964,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VayudaTurquoiseFragment", "name": "自在松石断片", "count": 3 },
-        { "id": "HurricaneSeed", "name": "飓风之种", "count": 2 },
-        { "id": "DandelionSeed", "name": "蒲公英籽", "count": 10 },
-        { "id": "DamagedMask", "name": "破损的面具", "count": 15 }
+        { "id": "VayudaTurquoiseFragment", "localeName": "自在松石断片", "rarity": 3, "count": 3 },
+        { "id": "HurricaneSeed", "localeName": "飓风之种", "rarity": 4, "count": 2 },
+        { "id": "DandelionSeed", "localeName": "蒲公英籽", "count": 10 },
+        { "id": "DamagedMask", "localeName": "破损的面具", "rarity": 1, "count": 15 }
       ],
       "HP": 1677.8,
       "ATK": 27.306,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VayudaTurquoiseFragment", "name": "自在松石断片", "count": 6 },
-        { "id": "HurricaneSeed", "name": "飓风之种", "count": 4 },
-        { "id": "DandelionSeed", "name": "蒲公英籽", "count": 20 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 12 }
+        { "id": "VayudaTurquoiseFragment", "localeName": "自在松石断片", "rarity": 3, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "飓风之种", "rarity": 4, "count": 4 },
+        { "id": "DandelionSeed", "localeName": "蒲公英籽", "count": 20 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 12 }
       ],
       "HP": 2607,
       "ATK": 42.43,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VayudaTurquoiseChunk", "name": "自在松石块", "count": 3 },
-        { "id": "HurricaneSeed", "name": "飓风之种", "count": 8 },
-        { "id": "DandelionSeed", "name": "蒲公英籽", "count": 30 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 18 }
+        { "id": "VayudaTurquoiseChunk", "localeName": "自在松石块", "rarity": 4, "count": 3 },
+        { "id": "HurricaneSeed", "localeName": "飓风之种", "rarity": 4, "count": 8 },
+        { "id": "DandelionSeed", "localeName": "蒲公英籽", "count": 30 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 18 }
       ],
       "HP": 3304,
       "ATK": 53.773,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VayudaTurquoiseChunk", "name": "自在松石块", "count": 6 },
-        { "id": "HurricaneSeed", "name": "飓风之种", "count": 12 },
-        { "id": "DandelionSeed", "name": "蒲公英籽", "count": 45 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 12 }
+        { "id": "VayudaTurquoiseChunk", "localeName": "自在松石块", "rarity": 4, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "飓风之种", "rarity": 4, "count": 12 },
+        { "id": "DandelionSeed", "localeName": "蒲公英籽", "count": 45 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 12 }
       ],
       "HP": 4000.9,
       "ATK": 65.116,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VayudaTurquoiseGemstone", "name": "自在松石", "count": 6 },
-        { "id": "HurricaneSeed", "name": "飓风之种", "count": 20 },
-        { "id": "DandelionSeed", "name": "蒲公英籽", "count": 60 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 24 }
+        { "id": "VayudaTurquoiseGemstone", "localeName": "自在松石", "rarity": 5, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "飓风之种", "rarity": 4, "count": 20 },
+        { "id": "DandelionSeed", "localeName": "蒲公英籽", "count": 60 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 24 }
       ],
       "HP": 4697.8,
       "ATK": 76.458,
@@ -92,7 +92,8 @@
   "ascensionType": 14,
   "element": 1,
   "elemSkill": {
-    "name": "风压剑",
+    "name": "GaleBlade",
+    "localeName": "风压剑",
     "desc": "将无形的风之力汇聚在剑上，释放微型的风暴，将敌人向瞄准的方向击飞，造成大量<color=#80FFD7FF>风元素伤害</color>。\n\n<color=#FFD780FF>长按</color>\n以持续消耗体力为代价，令旋风将周围的敌人与物体牵引至面前。\n可以调整方向。\n期间无法移动。\n\n<i>与一心守护的琴同行的，是能将危险驱离伙伴身边的守护之风。</i>",
     "cd": 6,
     "paramTpls": ["技能伤害|{param1:P}", "体力消耗|每秒{param2:F1}点", "最大持续时间|{param3:F1}秒", "冷却时间|{param4:F1}秒"],
@@ -115,61 +116,55 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」的教导", "count": 3 },
-        { "id": "DamagedMask", "name": "破损的面具", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」的教导", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破损的面具", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 2 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 4 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 6 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 9 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 4 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 4 },
-        { "id": "DvalinsPlume", "name": "东风之翎", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 6 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 6 },
-        { "id": "DvalinsPlume", "name": "东风之翎", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 12 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 9 },
-        { "id": "DvalinsPlume", "name": "东风之翎", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 16 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 12 },
-        { "id": "DvalinsPlume", "name": "东风之翎", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智识之冕", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "蒲公英之风",
+    "name": "DandelionBreeze",
+    "localeName": "蒲公英之风",
     "desc": "呼唤风的护佑，创造千风涌动的蒲公英领域，击退周围的敌人并造成<color=#80FFD7FF>风元素伤害</color>。\n同时，为队伍中的所有角色瞬间恢复大量生命值，回复量受益于琴的攻击力。\n\n<color=#FFD780FF>蒲公英领域</color>\n·为其中的角色持续恢复生命值；\n·令其中的角色持续受到<color=#80FFD7FF>风元素影响</color>；\n·对出入领域的敌人造成<color=#80FFD7FF>风元素伤害</color>。\n\n<i>风的恩泽如同广布大地的蒲公英，这就是琴守护的根源与心意。</i>",
     "cd": 20,
     "energyCost": 80,
-    "paramTpls": [
-      "爆发伤害|{param1:P}",
-      "出入领域伤害|{param2:F1P}",
-      "领域发动治疗量|{param3:P}攻击力+{param4:I}",
-      "持续治疗|每秒{param5:F2P}攻击力+{param6:I}",
-      "冷却时间|{param7:F1}秒",
-      "元素能量|{param8:I}"
-    ],
+    "paramTpls": ["爆发伤害|{param1:P}", "出入领域伤害|{param2:F1P}", "领域发动治疗量|{param3:P}攻击力+{param4:I}", "持续治疗|每秒{param5:F2P}攻击力+{param6:I}", "冷却时间|{param7:F1}秒", "元素能量|{param8:I}"],
     "paramVals": [
       [4.248, 0.784, 2.512, 1540.3, 0.2512, 154.03, 20, 80],
       [4.5666, 0.8428, 2.7004, 1694.4, 0.27004, 169.44, 20, 80],
@@ -189,63 +184,54 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」的教导", "count": 3 },
-        { "id": "DamagedMask", "name": "破损的面具", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」的教导", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破损的面具", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 2 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 4 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 6 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 9 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 4 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 4 },
-        { "id": "DvalinsPlume", "name": "东风之翎", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 6 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 6 },
-        { "id": "DvalinsPlume", "name": "东风之翎", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 12 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 9 },
-        { "id": "DvalinsPlume", "name": "东风之翎", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 16 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 12 },
-        { "id": "DvalinsPlume", "name": "东风之翎", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智识之冕", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "普通攻击·西风剑术",
+    "name": "NormalAttackFavoniusBladework",
+    "localeName": "普通攻击·西风剑术",
     "desc": "<color=#FFD780FF>普通攻击</color>\n进行至多五段的连续剑击。\n\n<color=#FFD780FF>重击</color>\n消耗一定体力，进行饱含风之力的挑击。\n被挑飞的敌人，在短时间内会缓慢坠落。\n\n<color=#FFD780FF>下落攻击</color>\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
     "cd": 0,
-    "paramTpls": [
-      "一段伤害|{param1:F1P}",
-      "二段伤害|{param2:F1P}",
-      "三段伤害|{param3:F1P}",
-      "四段伤害|{param4:F1P}",
-      "五段伤害|{param5:F1P}",
-      "重击伤害|{param6:P}",
-      "重击体力消耗|{param7:F1}点",
-      "下坠期间伤害|{param8:F1P}",
-      "低空/高空坠地冲击伤害|{param9:P}/{param10:P}"
-    ],
+    "paramTpls": ["一段伤害|{param1:F1P}", "二段伤害|{param2:F1P}", "三段伤害|{param3:F1P}", "四段伤害|{param4:F1P}", "五段伤害|{param5:F1P}", "重击伤害|{param6:P}", "重击体力消耗|{param7:F1}点", "下坠期间伤害|{param8:F1P}", "低空/高空坠地冲击伤害|{param9:P}/{param10:P}"],
     "paramVals": [
       [0.48332, 0.4558, 0.60286, 0.65876, 0.79206, 1.6202, 20, 0.63932, 1.2784, 1.5968],
       [0.52266, 0.4929, 0.65193, 0.71238, 0.85653, 1.7521, 20, 0.69136, 1.3824, 1.7267],
@@ -265,67 +251,67 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」的教导", "count": 3 },
-        { "id": "DamagedMask", "name": "破损的面具", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」的教导", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破损的面具", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 2 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 4 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 6 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」的指引", "count": 9 },
-        { "id": "StainedMask", "name": "污秽的面具", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」的指引", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 4 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 4 },
-        { "id": "DvalinsPlume", "name": "东风之翎", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 6 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 6 },
-        { "id": "DvalinsPlume", "name": "东风之翎", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 12 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 9 },
-        { "id": "DvalinsPlume", "name": "东风之翎", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "count": 16 },
-        { "id": "OminousMask", "name": "不祥的面具", "count": 12 },
-        { "id": "DvalinsPlume", "name": "东风之翎", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智识之冕", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "顺风而行", "desc": "琴的普通攻击命中时，有50%的几率为队伍中所有角色恢复等同于琴攻击力15%的生命值。", "unlock": 1, "values": [0.5, 0.15] },
-    { "name": "听凭风引", "desc": "使用<color=#FFD780FF>蒲公英之风</color>后，恢复20%元素能量。", "unlock": 4, "values": [16] },
-    { "name": "引领之风", "desc": "完美烹饪恢复类食物时，有12%概率获得2倍产出。" }
+    { "name": "WindCompanion", "localeName": "顺风而行", "desc": "琴的普通攻击命中时，有50%的几率为队伍中所有角色恢复等同于琴攻击力15%的生命值。", "unlock": 1, "values": [0.5, 0.15] },
+    { "name": "LetTheWindLead", "localeName": "听凭风引", "desc": "使用<color=#FFD780FF>蒲公英之风</color>后，恢复20%元素能量。", "unlock": 4, "values": [16] },
+    { "name": "GuidingBreeze", "localeName": "引领之风", "desc": "完美烹饪恢复类食物时，有12%概率获得2倍产出。" }
   ],
   "c13ns": [
-    { "name": "流转剑脊的暴风", "desc": "<color=#FFD780FF>风压剑</color>长按超过1秒后，提升牵引速度，并使造成的伤害提升40%。", "values": [0.4] },
-    { "name": "守护众人的坚盾", "desc": "琴获得元素晶球或元素微粒时，队伍中所有角色获得15%攻击速度和15%移动速度提升，持续15秒。", "values": [0.15, 0.15, 15] },
-    { "name": "西风吹拂之时", "desc": "<color=#FFD780FF>蒲公英之风</color>的技能等级提高3级。\n至多提升至15级。" },
-    { "name": "蒲公英的国土", "desc": "在<color=#FFD780FF>蒲公英之风</color>的领域内，所有敌人的<color=#80FFD7FF>风元素抗性</color>下降40%。", "values": [0.4] },
-    { "name": "须臾一瞬的烈风", "desc": "<color=#FFD780FF>风压剑</color>的技能等级提高3级。\n至多提升至15级。" },
-    { "name": "恩眷万民的狮牙", "desc": "在<color=#FFD780FF>蒲公英之风</color>的领域内，角色受到的伤害降低35%。\n离开领域后，这个效果会在承受3次攻击或10秒后消失。", "values": [0.35] }
+    { "name": "SpiralingTempest", "localeName": "流转剑脊的暴风", "desc": "<color=#FFD780FF>风压剑</color>长按超过1秒后，提升牵引速度，并使造成的伤害提升40%。", "values": [0.4] },
+    { "name": "PeoplesAegis", "localeName": "守护众人的坚盾", "desc": "琴获得元素晶球或元素微粒时，队伍中所有角色获得15%攻击速度和15%移动速度提升，持续15秒。", "values": [0.15, 0.15, 15] },
+    { "name": "WhenTheWestWindArises", "localeName": "西风吹拂之时", "desc": "<color=#FFD780FF>蒲公英之风</color>的技能等级提高3级。\n至多提升至15级。" },
+    { "name": "LandsOfDandelion", "localeName": "蒲公英的国土", "desc": "在<color=#FFD780FF>蒲公英之风</color>的领域内，所有敌人的<color=#80FFD7FF>风元素抗性</color>下降40%。", "values": [0.4] },
+    { "name": "OutburstingGust", "localeName": "须臾一瞬的烈风", "desc": "<color=#FFD780FF>风压剑</color>的技能等级提高3级。\n至多提升至15级。" },
+    { "name": "LionsFangFairProtectorOfMondstadt", "localeName": "恩眷万民的狮牙", "desc": "在<color=#FFD780FF>蒲公英之风</color>的领域内，角色受到的伤害降低35%。\n离开领域后，这个效果会在承受3次攻击或10秒后消失。", "values": [0.35] }
   ],
   "overviewItems": [
-    { "id": "VayudaTurquoiseGemstone", "name": "自在松石", "rarity": 5 },
-    { "id": "HurricaneSeed", "name": "飓风之种", "rarity": 4 },
-    { "id": "DandelionSeed", "name": "蒲公英籽" },
-    { "id": "OminousMask", "name": "不祥的面具", "rarity": 3 },
-    { "id": "PhilosophiesOfResistance", "name": "「抗争」的哲学", "rarity": 4 },
-    { "id": "DvalinsPlume", "name": "东风之翎", "rarity": 5 }
+    { "id": "VayudaTurquoiseGemstone", "localeName": "自在松石", "rarity": 5 },
+    { "id": "HurricaneSeed", "localeName": "飓风之种", "rarity": 4 },
+    { "id": "DandelionSeed", "localeName": "蒲公英籽" },
+    { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3 },
+    { "id": "PhilosophiesOfResistance", "localeName": "「抗争」的哲学", "rarity": 4 },
+    { "id": "DvalinsPlume", "localeName": "东风之翎", "rarity": 5 }
   ]
 }

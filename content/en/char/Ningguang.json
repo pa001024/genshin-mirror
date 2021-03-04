@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "PrithivaTopazSliver", "name": "Prithiva Topaz Sliver", "count": 1 },
-        { "id": "GlazeLily", "name": "Glaze Lily", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "Recruit's Insignia", "count": 3 }
+        { "id": "PrithivaTopazSliver", "localeName": "Prithiva Topaz Sliver", "rarity": 2, "count": 1 },
+        { "id": "GlazeLily", "localeName": "Glaze Lily", "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "Recruit's Insignia", "rarity": 1, "count": 3 }
       ],
       "HP": 613.04,
       "ATK": 13.304,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "PrithivaTopazFragment", "name": "Prithiva Topaz Fragment", "count": 3 },
-        { "id": "BasaltPillar", "name": "Basalt Pillar", "count": 2 },
-        { "id": "GlazeLily", "name": "Glaze Lily", "count": 10 },
-        { "id": "RecruitsInsignia", "name": "Recruit's Insignia", "count": 15 }
+        { "id": "PrithivaTopazFragment", "localeName": "Prithiva Topaz Fragment", "rarity": 3, "count": 3 },
+        { "id": "BasaltPillar", "localeName": "Basalt Pillar", "rarity": 4, "count": 2 },
+        { "id": "GlazeLily", "localeName": "Glaze Lily", "count": 10 },
+        { "id": "RecruitsInsignia", "localeName": "Recruit's Insignia", "rarity": 1, "count": 15 }
       ],
       "HP": 1048.6,
       "ATK": 22.757,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "PrithivaTopazFragment", "name": "Prithiva Topaz Fragment", "count": 6 },
-        { "id": "BasaltPillar", "name": "Basalt Pillar", "count": 4 },
-        { "id": "GlazeLily", "name": "Glaze Lily", "count": 20 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 12 }
+        { "id": "PrithivaTopazFragment", "localeName": "Prithiva Topaz Fragment", "rarity": 3, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "Basalt Pillar", "rarity": 4, "count": 4 },
+        { "id": "GlazeLily", "localeName": "Glaze Lily", "count": 20 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 12 }
       ],
       "HP": 1629.4,
       "ATK": 35.36,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "PrithivaTopazChunk", "name": "Prithiva Topaz Chunk", "count": 3 },
-        { "id": "BasaltPillar", "name": "Basalt Pillar", "count": 8 },
-        { "id": "GlazeLily", "name": "Glaze Lily", "count": 30 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 18 }
+        { "id": "PrithivaTopazChunk", "localeName": "Prithiva Topaz Chunk", "rarity": 4, "count": 3 },
+        { "id": "BasaltPillar", "localeName": "Basalt Pillar", "rarity": 4, "count": 8 },
+        { "id": "GlazeLily", "localeName": "Glaze Lily", "count": 30 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 18 }
       ],
       "HP": 2065,
       "ATK": 44.813,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "PrithivaTopazChunk", "name": "Prithiva Topaz Chunk", "count": 6 },
-        { "id": "BasaltPillar", "name": "Basalt Pillar", "count": 12 },
-        { "id": "GlazeLily", "name": "Glaze Lily", "count": 45 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 12 }
+        { "id": "PrithivaTopazChunk", "localeName": "Prithiva Topaz Chunk", "rarity": 4, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "Basalt Pillar", "rarity": 4, "count": 12 },
+        { "id": "GlazeLily", "localeName": "Glaze Lily", "count": 45 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 12 }
       ],
       "HP": 2500.6,
       "ATK": 54.265,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "PrithivaTopazGemstone", "name": "Prithiva Topaz Gemstone", "count": 6 },
-        { "id": "BasaltPillar", "name": "Basalt Pillar", "count": 20 },
-        { "id": "GlazeLily", "name": "Glaze Lily", "count": 60 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 24 }
+        { "id": "PrithivaTopazGemstone", "localeName": "Prithiva Topaz Gemstone", "rarity": 5, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "Basalt Pillar", "rarity": 4, "count": 20 },
+        { "id": "GlazeLily", "localeName": "Glaze Lily", "count": 60 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 24 }
       ],
       "HP": 2936.1,
       "ATK": 63.718,
@@ -92,7 +92,8 @@
   "ascensionType": 31,
   "element": 2,
   "elemSkill": {
-    "name": "Jade Screen",
+    "name": "JadeScreen",
+    "localeName": "Jade Screen",
     "desc": "Ningguang creates a Jade Screen out of gold, obsidian and her great opulence, dealing <color=#FFE699FF>AoE Geo DMG</color>.\n\n<color=#FFD780FF>Jade Screen</color>\n·Blocks opponents' projectiles.\n·Endurance scales based on Ningguang's Max HP.\n\nJade Screen is considered a <color=#FFE699FF>Geo Construct</color> and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.\n\n<i>The canvas of stars is written upon this jade screen.</i>",
     "cd": 12,
     "paramTpls": ["Inherited HP|{param3:F1P}", "Skill DMG|{param2:P}", "CD|{param4:F1}s"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "Teachings of Prosperity", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "Recruit's Insignia", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "Teachings of Prosperity", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "Recruit's Insignia", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 2 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 4 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 6 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 9 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 4 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 6 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 12 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 16 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
     "name": "Starshatter",
+    "localeName": "Starshatter",
     "desc": "Gathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her opponents that deal massive <color=#FFE699FF>Geo DMG</color>.\nIf Starshatter is cast when a Jade Screen is nearby, the Jade Screen will fire additional gem projectiles at the same time.\n\n<i>Stars shatter. Silence falls.</i>",
     "cd": 12,
     "energyCost": 40,
@@ -182,60 +184,54 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "Teachings of Prosperity", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "Recruit's Insignia", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "Teachings of Prosperity", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "Recruit's Insignia", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 2 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 4 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 6 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 9 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 4 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 6 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 12 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 16 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "Normal Attack: Sparkling Scatter",
+    "name": "NormalAttackSparklingScatter",
+    "localeName": "Normal Attack: Sparkling Scatter",
     "desc": "<color=#FFD780FF>Normal Attack</color>\nShoots gems that deal <color=#FFE699FF>Geo DMG</color>.\nUpon hit, this grants Ningguang 1 Star Jade.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of stamina to fire off a giant gem that deals <color=#FFE699FF>Geo DMG</color>.\nIf Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.\n\n<color=#FFD780FF>Plunging Attack</color>\nGathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#FFE699FF>AoE Geo DMG</color> upon impact with the ground.",
     "cd": 0,
-    "paramTpls": [
-      "Normal Attack DMG|{param1:F1P}",
-      "Charged Attack DMG|{param2:P}",
-      "DMG per Star Jade|{param3:F1P}",
-      "Charged Attack Stamina Cost|{param4:F1}",
-      "Plunge DMG|{param5:F1P}",
-      "Low/High Plunge DMG|{param6:P}/{param7:P}"
-    ],
+    "paramTpls": ["Normal Attack DMG|{param1:F1P}", "Charged Attack DMG|{param2:P}", "DMG per Star Jade|{param3:F1P}", "Charged Attack Stamina Cost|{param4:F1}", "Plunge DMG|{param5:F1P}", "Low/High Plunge DMG|{param6:P}/{param7:P}"],
     "paramVals": [
       [0.28, 1.7408, 0.496, 50, 0.56829, 1.1363, 1.4193],
       [0.301, 1.8714, 0.5332, 50, 0.61454, 1.2288, 1.5349],
@@ -255,75 +251,67 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfProsperity", "name": "Teachings of Prosperity", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "Recruit's Insignia", "count": 6 }
+        { "id": "TeachingsOfProsperity", "localeName": "Teachings of Prosperity", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "Recruit's Insignia", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 2 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 3 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 4 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 4 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 6 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 6 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToProsperity", "name": "Guide to Prosperity", "count": 9 },
-        { "id": "SergeantsInsignia", "name": "Sergeant's Insignia", "count": 9 }
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 4 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 4 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 6 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 6 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 12 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 9 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 2 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "count": 16 },
-        { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "count": 12 },
-        { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "count": 2 },
-        { "id": "CrownOfInsight", "name": "Crown of Insight", "count": 1 }
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "Backup Plan", "desc": "When Ningguang is in possession of Star Jades, her Charged Attack does not consume Stamina.", "unlock": 1 },
-    {
-      "name": "Strategic Reserve",
-      "desc": "A character that passes through the <color=#FFD780FF>Jade Screen</color> will gain a 12% <color=#FFE699FF>Geo DMG Bonus</color> for 10s.",
-      "unlock": 4,
-      "values": [0.12, 10]
-    },
-    {
-      "name": "Trove of Marvelous Treasures",
-      "desc": "Displays the location of nearby <color=#FFD780FF>ore veins</color> (Iron Ore, White Iron Ore, Crystal Ore, Magical Crystal Ore, and Starsilver) on the mini-map."
-    }
+    { "name": "BackupPlan", "localeName": "Backup Plan", "desc": "When Ningguang is in possession of Star Jades, her Charged Attack does not consume Stamina.", "unlock": 1 },
+    { "name": "StrategicReserve", "localeName": "Strategic Reserve", "desc": "A character that passes through the <color=#FFD780FF>Jade Screen</color> will gain a 12% <color=#FFE699FF>Geo DMG Bonus</color> for 10s.", "unlock": 4, "values": [0.12, 10] },
+    { "name": "TroveOfMarvelousTreasures", "localeName": "Trove of Marvelous Treasures", "desc": "Displays the location of nearby <color=#FFD780FF>ore veins</color> (Iron Ore, White Iron Ore, Crystal Ore, Magical Crystal Ore, and Starsilver) on the mini-map." }
   ],
   "c13ns": [
-    { "name": "Piercing Fragments", "desc": "When a Normal Attack hits, it deals AoE DMG." },
-    { "name": "Shock Effect", "desc": "When <color=#FFD780FF>Jade Screen</color> is shattered, its CD will reset.\nCan occur once every 6s." },
-    { "name": "Majesty be the Array of Stars", "desc": "Increases the Level of <color=#FFD780FF>Starshatter</color> by 3.\nMaximum upgrade level is 15." },
-    { "name": "Exquisite be the Jade, Outshining All Beneath", "desc": "<color=#FFD780FF>Jade Screen</color> increases nearby characters' Elemental RES by 10%." },
-    { "name": "Invincible be the Jade Screen", "desc": "Increases the Level of <color=#FFD780FF>Jade Screen</color> by 3.\nMaximum upgrade level is 15." },
-    { "name": "Grandeur be the Seven Stars", "desc": "When <color=#FFD780FF>Starshatter</color> is used, Ningguang gains 7 Star Jades." }
+    { "name": "PiercingFragments", "localeName": "Piercing Fragments", "desc": "When a Normal Attack hits, it deals AoE DMG." },
+    { "name": "ShockEffect", "localeName": "Shock Effect", "desc": "When <color=#FFD780FF>Jade Screen</color> is shattered, its CD will reset.\nCan occur once every 6s." },
+    { "name": "MajestyBeTheArrayOfStars", "localeName": "Majesty be the Array of Stars", "desc": "Increases the Level of <color=#FFD780FF>Starshatter</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "ExquisiteBeTheJadeOutshiningAllBeneath", "localeName": "Exquisite be the Jade, Outshining All Beneath", "desc": "<color=#FFD780FF>Jade Screen</color> increases nearby characters' Elemental RES by 10%." },
+    { "name": "InvincibleBeTheJadeScreen", "localeName": "Invincible be the Jade Screen", "desc": "Increases the Level of <color=#FFD780FF>Jade Screen</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "GrandeurBeTheSevenStars", "localeName": "Grandeur be the Seven Stars", "desc": "When <color=#FFD780FF>Starshatter</color> is used, Ningguang gains 7 Star Jades." }
   ],
   "overviewItems": [
-    { "id": "PrithivaTopazGemstone", "name": "Prithiva Topaz Gemstone", "rarity": 5 },
-    { "id": "BasaltPillar", "name": "Basalt Pillar", "rarity": 4 },
-    { "id": "GlazeLily", "name": "Glaze Lily" },
-    { "id": "LieutenantsInsignia", "name": "Lieutenant's Insignia", "rarity": 3 },
-    { "id": "PhilosophiesOfProsperity", "name": "Philosophies of Prosperity", "rarity": 4 },
-    { "id": "SpiritLocketOfBoreas", "name": "Spirit Locket of Boreas", "rarity": 5 }
+    { "id": "PrithivaTopazGemstone", "localeName": "Prithiva Topaz Gemstone", "rarity": 5 },
+    { "id": "BasaltPillar", "localeName": "Basalt Pillar", "rarity": 4 },
+    { "id": "GlazeLily", "localeName": "Glaze Lily" },
+    { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3 },
+    { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4 },
+    { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5 }
   ]
 }

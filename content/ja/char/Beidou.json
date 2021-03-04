@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VajradaAmethystSliver", "name": "最勝のアメシスト·砕屑", "count": 1 },
-        { "id": "NoctilucousJade", "name": "夜泊石", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "宝探しの鴉マーク", "count": 3 }
+        { "id": "VajradaAmethystSliver", "localeName": "最勝のアメシスト·砕屑", "rarity": 2, "count": 1 },
+        { "id": "NoctilucousJade", "localeName": "夜泊石", "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "rarity": 1, "count": 3 }
       ],
       "HP": 817.39,
       "ATK": 14.102,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VajradaAmethystFragment", "name": "最勝のアメシスト·欠片", "count": 3 },
-        { "id": "LightningPrism", "name": "雷光のプリズム", "count": 2 },
-        { "id": "NoctilucousJade", "name": "夜泊石", "count": 10 },
-        { "id": "TreasureHoarderInsignia", "name": "宝探しの鴉マーク", "count": 15 }
+        { "id": "VajradaAmethystFragment", "localeName": "最勝のアメシスト·欠片", "rarity": 3, "count": 3 },
+        { "id": "LightningPrism", "localeName": "雷光のプリズム", "rarity": 4, "count": 2 },
+        { "id": "NoctilucousJade", "localeName": "夜泊石", "count": 10 },
+        { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "rarity": 1, "count": 15 }
       ],
       "HP": 1398.2,
       "ATK": 24.122,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VajradaAmethystFragment", "name": "最勝のアメシスト·欠片", "count": 6 },
-        { "id": "LightningPrism", "name": "雷光のプリズム", "count": 4 },
-        { "id": "NoctilucousJade", "name": "夜泊石", "count": 20 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 12 }
+        { "id": "VajradaAmethystFragment", "localeName": "最勝のアメシスト·欠片", "rarity": 3, "count": 6 },
+        { "id": "LightningPrism", "localeName": "雷光のプリズム", "rarity": 4, "count": 4 },
+        { "id": "NoctilucousJade", "localeName": "夜泊石", "count": 20 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 12 }
       ],
       "HP": 2172.5,
       "ATK": 37.482,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VajradaAmethystChunk", "name": "最勝のアメシスト·塊", "count": 3 },
-        { "id": "LightningPrism", "name": "雷光のプリズム", "count": 8 },
-        { "id": "NoctilucousJade", "name": "夜泊石", "count": 30 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 18 }
+        { "id": "VajradaAmethystChunk", "localeName": "最勝のアメシスト·塊", "rarity": 4, "count": 3 },
+        { "id": "LightningPrism", "localeName": "雷光のプリズム", "rarity": 4, "count": 8 },
+        { "id": "NoctilucousJade", "localeName": "夜泊石", "count": 30 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 18 }
       ],
       "HP": 2753.3,
       "ATK": 47.502,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VajradaAmethystChunk", "name": "最勝のアメシスト·塊", "count": 6 },
-        { "id": "LightningPrism", "name": "雷光のプリズム", "count": 12 },
-        { "id": "NoctilucousJade", "name": "夜泊石", "count": 45 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 12 }
+        { "id": "VajradaAmethystChunk", "localeName": "最勝のアメシスト·塊", "rarity": 4, "count": 6 },
+        { "id": "LightningPrism", "localeName": "雷光のプリズム", "rarity": 4, "count": 12 },
+        { "id": "NoctilucousJade", "localeName": "夜泊石", "count": 45 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 12 }
       ],
       "HP": 3334.1,
       "ATK": 57.521,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VajradaAmethystGemstone", "name": "最勝のアメシスト", "count": 6 },
-        { "id": "LightningPrism", "name": "雷光のプリズム", "count": 20 },
-        { "id": "NoctilucousJade", "name": "夜泊石", "count": 60 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 24 }
+        { "id": "VajradaAmethystGemstone", "localeName": "最勝のアメシスト", "rarity": 5, "count": 6 },
+        { "id": "LightningPrism", "localeName": "雷光のプリズム", "rarity": 4, "count": 20 },
+        { "id": "NoctilucousJade", "localeName": "夜泊石", "count": 60 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 24 }
       ],
       "HP": 3914.8,
       "ATK": 67.541,
@@ -92,7 +92,8 @@
   "ascensionType": 25,
   "element": 3,
   "elemSkill": {
-    "name": "浪追い",
+    "name": "Tidecaller",
+    "localeName": "浪追い",
     "desc": "心配することはない。彼女や彼女の仲間に手を出す者がいた場合、彼女は雷と大剣で十倍返しにする。\n\n<color=#FFD780FF>一回押し</color>\n雷の力を凝集させ、前方に大剣を振り、<color=#FFACFFFF>雷元素ダメージ</color>を与える。\n\n<color=#FFD780FF>長押し</color>\n武器をシールドとして使う、ダメージ吸収量は北斗のHP上限によって決まる。\n手を放すまたはスキル継続時間終了時、大剣を振り回して攻撃を行い、<color=#FFACFFFF>雷元素ダメージ</color>を与える。スキル期間中に受けた攻撃の回数により、与えるダメージを最大2回までアップさせる。\nシールドには下記の効果がある：\n·<color=#FFACFFFF>雷元素ダメージ</color>に対して250%の吸収効果がある。\n·スキル発動時、北斗に<color=#FFACFFFF>雷元素付着</color>効果を付与する。\n\n<i>果てしない海に船を出し、雷を追い、浪を捕まえる。</i>",
     "cd": 7.5,
     "paramTpls": ["シールド吸収量|{param1:F1P}HP上限+{param2:I}", "基礎ダメージ|{param3:P}", "被撃時ダメージアップ|{param4:P}", "クールタイム|{param5:F1}秒"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfGold", "name": "「黄金」の教え", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "宝探しの鴉マーク", "count": 6 }
+        { "id": "TeachingsOfGold", "localeName": "「黄金」の教え", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 2 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 3 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 4 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 4 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 6 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 6 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 9 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 9 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 4 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 4 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 4 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 6 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 6 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 6 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 12 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 9 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 2 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 9 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 16 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 12 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 12 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "雷斫り",
+    "name": "Stormbreaker",
+    "localeName": "雷斫り",
     "desc": "巨獣海山との戦いを思い出した北斗は、巨獣と雷電の力を召喚し、雷獣の盾を作り、周囲の敵に<color=#FFACFFFF>雷元素ダメージ</color>を与える。\n\n<color=#FFD780FF>雷獣の盾</color>\n·通常攻撃と重撃が近距離の敵に命中すると、雷の力で敵の間を跳躍する稲妻を発生させ、敵に<color=#FFACFFFF>雷元素ダメージ</color>を与える。\n·キャラクターの中断耐性をアップさせ、受けるダメージを軽減する。\n\n稲妻発生の効果は一秒に1回のみ。\n\n<i>雷来たり、海山を滅す。</i>",
     "cd": 20,
     "energyCost": 80,
@@ -182,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfGold", "name": "「黄金」の教え", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "宝探しの鴉マーク", "count": 6 }
+        { "id": "TeachingsOfGold", "localeName": "「黄金」の教え", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 2 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 3 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 4 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 4 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 6 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 6 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 9 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 9 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 4 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 4 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 4 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 6 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 6 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 6 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 12 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 9 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 2 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 9 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 16 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 12 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 12 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "通常攻撃·征浪",
+    "name": "NormalAttackOceanborne",
+    "localeName": "通常攻撃·征浪",
     "desc": "<color=#FFD780FF>通常攻撃</color>\n最大5段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n持続的にスタミナを消費し、素早く連続攻撃を発動する。\n重撃が終了した時に、更に強力な攻撃を1回放つ。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
     "cd": 0,
     "paramTpls": [
@@ -260,76 +263,67 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfGold", "name": "「黄金」の教え", "count": 3 },
-        { "id": "TreasureHoarderInsignia", "name": "宝探しの鴉マーク", "count": 6 }
+        { "id": "TeachingsOfGold", "localeName": "「黄金」の教え", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 2 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 3 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 4 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 4 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 6 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 6 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToGold", "name": "「黄金」の導き", "count": 9 },
-        { "id": "SilverRavenInsignia", "name": "シルバーの鴉マーク", "count": 9 }
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 4 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 4 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 4 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 6 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 6 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 6 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 12 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 9 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 2 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 9 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "count": 16 },
-        { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "count": 12 },
-        { "id": "DvalinsSigh", "name": "東風の吐息", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 12 },
+        { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "完全なる霊光", "desc": "攻撃された瞬間に発動した<color=#FFD780FF>浪追い</color>の反撃は最大ダメージアップ効果を得る。", "unlock": 1, "values": [2] },
-    {
-      "name": "満天の霹靂",
-      "desc": "最大ダメージアップ効果のある<color=#FFD780FF>浪追い</color>を発動した後の10秒間、下記の効果が発動される：\n·通常攻撃と重撃の攻撃速度+15%、攻撃ダメージ+15%。\n·重撃に必要な時間が大幅に減少する。",
-      "unlock": 4,
-      "values": [0.15]
-    },
-    { "name": "怒濤踏み", "desc": "チーム内の自身のキャラクター全員が泳ぎに消費するスタミナ-20%。\n同じ効果を持つ固有天赋との重ね掛け不可。" }
+    { "name": "Retribution", "localeName": "完全なる霊光", "desc": "攻撃された瞬間に発動した<color=#FFD780FF>浪追い</color>の反撃は最大ダメージアップ効果を得る。", "unlock": 1, "values": [2] },
+    { "name": "LightningStorm", "localeName": "満天の霹靂", "desc": "最大ダメージアップ効果のある<color=#FFD780FF>浪追い</color>を発動した後の10秒間、下記の効果が発動される：\n·通常攻撃と重撃の攻撃速度+15%、攻撃ダメージ+15%。\n·重撃に必要な時間が大幅に減少する。", "unlock": 4, "values": [0.15] },
+    { "name": "ConquerorOfTides", "localeName": "怒濤踏み", "desc": "チーム内の自身のキャラクター全員が泳ぎに消費するスタミナ-20%。\n同じ効果を持つ固有天赋との重ね掛け不可。" }
   ],
   "c13ns": [
-    {
-      "name": "四方に沈む魚龍",
-      "desc": "<color=#FFD780FF>雷斫り</color>発動時：\nHP上限16%分のシールドを15秒間発動する。\n該当シールドは<color=#FFACFFFF>雷元素ダメージ</color>に対して250%の吸収効果がある。",
-      "values": [0.16]
-    },
-    { "name": "沸き上がる雷", "desc": "<color=#FFD780FF>雷斫り</color>の稲妻が2体の敵を追加で攻撃可能になる。" },
-    { "name": "雷引きの潮", "desc": "<color=#FFD780FF>浪追い</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "星に導かれた岸線", "desc": "攻撃を受けた後の10秒間、北斗の通常攻撃に追加で20%の<color=#FFACFFFF>雷元素ダメージ</color>が付与される。", "values": [0.2, 10, 0.1] },
-    { "name": "白波に映る霞光", "desc": "<color=#FFD780FF>雷斫り</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "北斗の祓い", "desc": "<color=#FFD780FF>雷斫り</color>継続中、周囲の敵の<color=#FFACFFFF>雷元素耐性</color>-15%。", "values": [0.15] }
+    { "name": "SeaBeastsScourge", "localeName": "四方に沈む魚龍", "desc": "<color=#FFD780FF>雷斫り</color>発動時：\nHP上限16%分のシールドを15秒間発動する。\n該当シールドは<color=#FFACFFFF>雷元素ダメージ</color>に対して250%の吸収効果がある。", "values": [0.16] },
+    { "name": "UponTheTurbulentSeaTheThunderArises", "localeName": "沸き上がる雷", "desc": "<color=#FFD780FF>雷斫り</color>の稲妻が2体の敵を追加で攻撃可能になる。" },
+    { "name": "SummonerOfStorm", "localeName": "雷引きの潮", "desc": "<color=#FFD780FF>浪追い</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "StunningRevenge", "localeName": "星に導かれた岸線", "desc": "攻撃を受けた後の10秒間、北斗の通常攻撃に追加で20%の<color=#FFACFFFF>雷元素ダメージ</color>が付与される。", "values": [0.2, 10, 0.1] },
+    { "name": "CrimsonTidewalker", "localeName": "白波に映る霞光", "desc": "<color=#FFD780FF>雷斫り</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "BaneOfEvil", "localeName": "北斗の祓い", "desc": "<color=#FFD780FF>雷斫り</color>継続中、周囲の敵の<color=#FFACFFFF>雷元素耐性</color>-15%。", "values": [0.15] }
   ],
   "overviewItems": [
-    { "id": "VajradaAmethystGemstone", "name": "最勝のアメシスト", "rarity": 5 },
-    { "id": "LightningPrism", "name": "雷光のプリズム", "rarity": 4 },
-    { "id": "NoctilucousJade", "name": "夜泊石" },
-    { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "rarity": 3 },
-    { "id": "PhilosophiesOfGold", "name": "「黄金」の哲学", "rarity": 4 },
-    { "id": "DvalinsSigh", "name": "東風の吐息", "rarity": 5 }
+    { "id": "VajradaAmethystGemstone", "localeName": "最勝のアメシスト", "rarity": 5 },
+    { "id": "LightningPrism", "localeName": "雷光のプリズム", "rarity": 4 },
+    { "id": "NoctilucousJade", "localeName": "夜泊石" },
+    { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3 },
+    { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4 },
+    { "id": "DvalinsSigh", "localeName": "東風の吐息", "rarity": 5 }
   ]
 }

@@ -1,17 +1,9 @@
 <template>
-  <v-card class="item-card" :class="{ inactive }" :flat="icon" @click="$emit('click', $event)">
-    <nuxt-link v-if="link" :to="'item/' + value.id" class="nolink">
-      <div :class="['rarity-' + value.rarity, !icon && 'item-avatar']" :style="{ height: size + 'px' }">
-        <ItemImage :id="value.id" :size="size" class="mx-auto" />
-      </div>
-      <div v-if="!icon" class="item-name" :class="{ small }" v-text="value.localeName"></div>
-    </nuxt-link>
-    <template v-else>
-      <div :class="['rarity-' + value.rarity, !icon && 'item-avatar']" :style="{ height: size + 'px' }">
-        <ItemImage :id="value.id" :size="size" class="mx-auto" />
-      </div>
-      <div v-if="!icon" class="item-name" :class="{ small }" v-text="value.localeName"></div>
-    </template>
+  <v-card class="item-card" :class="{ inactive }" :flat="icon" :to="link ? '/item/' + value.id : void 0" @click="$emit('click', $event)">
+    <div :class="['rarity-' + (value.rarity || 0), !icon && 'item-avatar', small && 'small']" :style="{ height: size + 'px' }">
+      <ItemImage :id="value.id" :size="size" class="mx-auto" />
+    </div>
+    <div v-if="!icon" class="item-name" :class="{ small }" v-text="count ? count : value.localeName"></div>
   </v-card>
 </template>
 
@@ -26,11 +18,12 @@ export default class ItemCard extends Vue {
   @Prop({ type: Boolean, default: false }) small!: boolean;
   @Prop({ type: Boolean, default: true }) link!: boolean;
   @Prop({ type: Boolean, default: false }) inactive!: boolean;
+  @Prop({ type: Number }) count!: number;
 
   get size() {
     if (this.icon) return 32;
-    if (this.small) return 80;
-    return 106;
+    if (this.small) return 64;
+    return 80;
   }
 }
 </script>
@@ -52,9 +45,16 @@ export default class ItemCard extends Vue {
   }
   .item-avatar {
     justify-items: center;
-    background: var(--white);
+    background: #727273;
     overflow: hidden;
     position: relative;
+
+    .v-image__image--cover {
+      background-size: 70px;
+    }
+    &.small .v-image__image--cover {
+      background-size: 54px;
+    }
 
     .ele-icon {
       position: absolute;
@@ -84,6 +84,7 @@ export default class ItemCard extends Vue {
     padding: 4px 0;
     font-weight: 600;
     &.small {
+      padding: 0;
       font-size: 12px;
     }
   }

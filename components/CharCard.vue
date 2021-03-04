@@ -1,25 +1,14 @@
 <template>
-  <v-card class="char-card" :class="{ inactive }" @click="$emit('click', $event)">
-    <nuxt-link v-if="link" :to="'char/' + value.id" class="nolink">
-      <div class="char-avatar" :class="['rarity-' + value.rarity]" :style="{ height: (small ? 80 : 106) + 'px' }">
-        <ItemImage v-if="item" :id="item" :size="small ? 24 : 32" class="ele-icon" />
-        <ElementIcon v-else :element="value.element" :size="small ? 24 : 32" class="ele-icon" />
-        <CharImage :id="value.id" :size="small ? 80 : 106" class="mx-auto" />
-        <div v-if="c13n" class="c13n-view">C{{ c13n }}</div>
-      </div>
-      <div v-if="lv" class="char-name" :class="{ small }">Lv.{{ lv }}</div>
-      <div v-else class="char-name" :class="{ small }" v-text="value.localeName"></div>
-    </nuxt-link>
-    <template v-else>
-      <div class="char-avatar" :class="['rarity-' + value.rarity]" :style="{ height: (small ? 80 : 106) + 'px' }">
-        <ItemImage v-if="item" :id="item" :size="small ? 24 : 32" class="ele-icon" />
-        <ElementIcon v-else :element="value.element" :size="small ? 24 : 32" class="ele-icon" />
-        <CharImage :id="value.id" :size="small ? 80 : 106" class="mx-auto" />
-        <div v-if="c13n" class="c13n-view">C{{ c13n }}</div>
-      </div>
-      <div v-if="lv" class="char-name" :class="{ small }">Lv.{{ lv }}</div>
-      <div v-else class="char-name" :class="{ small }" v-text="value.localeName"></div>
-    </template>
+  <v-card class="char-card" :class="{ inactive }" :to="link && value ? '/char/' + value.id : void 0" @click="$emit('click', $event)">
+    <div class="char-avatar" :class="[value ? 'rarity-' + value.rarity : '']" :style="{ height: (small ? 80 : 106) + 'px' }">
+      <ItemImage v-if="item" :id="item" :size="small ? 24 : 32" class="ele-icon" />
+      <ElementIcon v-else-if="value" :element="value.element" :size="small ? 24 : 32" class="ele-icon" />
+      <CharImage v-if="value" :id="value.id" :size="small ? 80 : 106" class="mx-auto" />
+      <v-icon v-else class="mx-auto" :size="small ? 80 : 106">mdi-plus</v-icon>
+      <div v-if="c13n" class="c13n-view">C{{ c13n }}</div>
+    </div>
+    <div v-if="lv" class="char-name" :class="{ small }">Lv.{{ lv }}</div>
+    <div v-else class="char-name" :class="{ small }" v-text="value ? value.localeName : $t('ui.addChar')"></div>
   </v-card>
 </template>
 
@@ -67,7 +56,7 @@ export default class CharCard extends Vue {
   }
   .char-avatar {
     justify-items: center;
-    background: var(--white);
+    background: var(--shadow);
     border-bottom-right-radius: 25px;
     overflow: hidden;
     position: relative;

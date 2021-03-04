@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "ShivadaJadeSliver", "name": "哀切なアイスクリスタル·砕屑", "count": 1 },
-        { "id": "Qingxin", "name": "清心", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "トリックフラワーの蜜", "count": 3 }
+        { "id": "ShivadaJadeSliver", "localeName": "哀切なアイスクリスタル·砕屑", "rarity": 2, "count": 1 },
+        { "id": "Qingxin", "localeName": "清心", "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 3 }
       ],
       "HP": 653.91,
       "ATK": 22.349,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "ShivadaJadeFragment", "name": "哀切なアイスクリスタル·欠片", "count": 3 },
-        { "id": "HoarfrostCore", "name": "極寒のコア", "count": 2 },
-        { "id": "Qingxin", "name": "清心", "count": 10 },
-        { "id": "WhopperflowerNectar", "name": "トリックフラワーの蜜", "count": 15 }
+        { "id": "ShivadaJadeFragment", "localeName": "哀切なアイスクリスタル·欠片", "rarity": 3, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4, "count": 2 },
+        { "id": "Qingxin", "localeName": "清心", "count": 10 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 15 }
       ],
       "HP": 1118.5,
       "ATK": 38.229,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "ShivadaJadeFragment", "name": "哀切なアイスクリスタル·欠片", "count": 6 },
-        { "id": "HoarfrostCore", "name": "極寒のコア", "count": 4 },
-        { "id": "Qingxin", "name": "清心", "count": 20 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 12 }
+        { "id": "ShivadaJadeFragment", "localeName": "哀切なアイスクリスタル·欠片", "rarity": 3, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4, "count": 4 },
+        { "id": "Qingxin", "localeName": "清心", "count": 20 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 12 }
       ],
       "HP": 1738,
       "ATK": 59.402,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "ShivadaJadeChunk", "name": "哀切なアイスクリスタル·塊", "count": 3 },
-        { "id": "HoarfrostCore", "name": "極寒のコア", "count": 8 },
-        { "id": "Qingxin", "name": "清心", "count": 30 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 18 }
+        { "id": "ShivadaJadeChunk", "localeName": "哀切なアイスクリスタル·塊", "rarity": 4, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4, "count": 8 },
+        { "id": "Qingxin", "localeName": "清心", "count": 30 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 18 }
       ],
       "HP": 2202.6,
       "ATK": 75.282,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "ShivadaJadeChunk", "name": "哀切なアイスクリスタル·塊", "count": 6 },
-        { "id": "HoarfrostCore", "name": "極寒のコア", "count": 12 },
-        { "id": "Qingxin", "name": "清心", "count": 45 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 12 }
+        { "id": "ShivadaJadeChunk", "localeName": "哀切なアイスクリスタル·塊", "rarity": 4, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4, "count": 12 },
+        { "id": "Qingxin", "localeName": "清心", "count": 45 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 12 }
       ],
       "HP": 2667.3,
       "ATK": 91.162,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "ShivadaJadeGemstone", "name": "哀切なアイスクリスタル", "count": 6 },
-        { "id": "HoarfrostCore", "name": "極寒のコア", "count": 20 },
-        { "id": "Qingxin", "name": "清心", "count": 60 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 24 }
+        { "id": "ShivadaJadeGemstone", "localeName": "哀切なアイスクリスタル", "rarity": 5, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4, "count": 20 },
+        { "id": "Qingxin", "localeName": "清心", "count": 60 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 24 }
       ],
       "HP": 3131.9,
       "ATK": 107.04,
@@ -92,7 +92,8 @@
   "ascensionType": 13,
   "element": 7,
   "elemSkill": {
-    "name": "山沢麟跡",
+    "name": "TrailOfTheQilin",
+    "localeName": "山沢麟跡",
     "desc": "一輪の氷蓮を残して後退し、全ての魑魅魍魎から離れ、<color=#99FFFFFF>氷元素範囲ダメージ</color>を与える。\n\n<color=#FFD780FF>氷蓮</color>\n·持続的に周囲の敵を挑発し、攻撃を引きつける。\n·耐久度は甘雨のHP上限によって決まる。\n·破壊された時または継続時間終了後に激しく開花し、<color=#99FFFFFF>氷元素範囲ダメージ</color>を与える。\n\n<i>「私を見かけたと？それは気のせいでしょう。その時間はまだ残業中です。」</i>",
     "cd": 10,
     "paramTpls": ["HP継承|{param1:P}", "スキルダメージ|{param2:P}", "継続時間|{param3:F1}秒", "クールタイム|{param4:F1}秒"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfDiligence", "name": "「勤労」の教え", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "トリックフラワーの蜜", "count": 6 }
+        { "id": "TeachingsOfDiligence", "localeName": "「勤労」の教え", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 3 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 4 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 6 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 9 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 4 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 4 },
-        { "id": "ShadowOfTheWarrior", "name": "武煉の魂·孤影", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 4 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武煉の魂·孤影", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 6 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 6 },
-        { "id": "ShadowOfTheWarrior", "name": "武煉の魂·孤影", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 6 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武煉の魂·孤影", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 12 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 9 },
-        { "id": "ShadowOfTheWarrior", "name": "武煉の魂·孤影", "count": 2 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 9 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武煉の魂·孤影", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 16 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 12 },
-        { "id": "ShadowOfTheWarrior", "name": "武煉の魂·孤影", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 12 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武煉の魂·孤影", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "降衆天華",
+    "name": "CelestialShower",
+    "localeName": "降衆天華",
     "desc": "大気中の霜雪を集め、退魔の氷霊珠を召喚する。\n氷霊珠が存在している間、持続的に氷柱を降らし、範囲内の敵に<color=#99FFFFFF>氷元素ダメージ</color>を与える。\n\n<i>甘雨は甘い雨を降らすことができる。だが、邪魔者や外道にとってその甘い雨は、寒苦の雨でもある。</i>",
     "cd": 15,
     "energyCost": 60,
@@ -182,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfDiligence", "name": "「勤労」の教え", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "トリックフラワーの蜜", "count": 6 }
+        { "id": "TeachingsOfDiligence", "localeName": "「勤労」の教え", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 3 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 4 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 6 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 9 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 4 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 4 },
-        { "id": "ShadowOfTheWarrior", "name": "武煉の魂·孤影", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 4 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武煉の魂·孤影", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 6 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 6 },
-        { "id": "ShadowOfTheWarrior", "name": "武煉の魂·孤影", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 6 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武煉の魂·孤影", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 12 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 9 },
-        { "id": "ShadowOfTheWarrior", "name": "武煉の魂·孤影", "count": 2 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 9 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武煉の魂·孤影", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 16 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 12 },
-        { "id": "ShadowOfTheWarrior", "name": "武煉の魂·孤影", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 12 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武煉の魂·孤影", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "通常攻撃·流天射術",
+    "name": "NormalAttackLiutianArchery",
+    "localeName": "通常攻撃·流天射術",
     "desc": "<color=#FFD780FF>通常攻撃</color>\n最大6段の連続射撃を行う。\n\n<color=#FFD780FF>重撃</color>\nダメージがより高く、より精確な<color=#FFD780FF>狙い撃ち</color>を発動する。\n照準時、氷寒の気が矢先に集まり、攻撃と共に発射される。チャージの時間のより、異なる効果を発動する：\n·1段チャージ：氷寒の気が集まった矢を放ち、<color=#99FFFFFF>氷元素ダメージ</color>を与える。\n·2段チャージ：霜華の矢を放ち、<color=#99FFFFFF>氷元素ダメージ</color>を与える。命中後、霜華満開が発生し、さらに<color=#99FFFFFF>氷元素範囲ダメージ</color>を与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。",
     "cd": 0,
     "paramTpls": [
@@ -261,74 +264,72 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfDiligence", "name": "「勤労」の教え", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "トリックフラワーの蜜", "count": 6 }
+        { "id": "TeachingsOfDiligence", "localeName": "「勤労」の教え", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 3 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 4 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 6 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToDiligence", "name": "「勤労」の導き", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 9 }
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 4 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 4 },
-        { "id": "ShadowOfTheWarrior", "name": "武煉の魂·孤影", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 4 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武煉の魂·孤影", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 6 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 6 },
-        { "id": "ShadowOfTheWarrior", "name": "武煉の魂·孤影", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 6 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武煉の魂·孤影", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 12 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 9 },
-        { "id": "ShadowOfTheWarrior", "name": "武煉の魂·孤影", "count": 2 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 9 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武煉の魂·孤影", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "count": 16 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 12 },
-        { "id": "ShadowOfTheWarrior", "name": "武煉の魂·孤影", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 12 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武煉の魂·孤影", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "唯一の心", "desc": "霜華の矢を放った後の5秒以内に放たれた霜華の矢と霜華満開の会心率+20%。", "unlock": 1, "values": [5, 0.2] },
-    { "name": "天地安泰", "desc": "<color=#FFD780FF>降衆天華</color>エリア内のキャラクターの<color=#99FFFFFF>氷元素ダメージ</color>+20%。", "unlock": 4, "values": [0.2] },
-    { "name": "弓藏待命", "desc": "弓を鍛造する時、消費した鉱石の15%が返還される。" }
+    { "name": "UndividedHeart", "localeName": "唯一の心", "desc": "霜華の矢を放った後の5秒以内に放たれた霜華の矢と霜華満開の会心率+20%。", "unlock": 1, "values": [5, 0.2] },
+    { "name": "HarmonyBetweenHeavenAndEarth", "localeName": "天地安泰", "desc": "<color=#FFD780FF>降衆天華</color>エリア内のキャラクターの<color=#99FFFFFF>氷元素ダメージ</color>+20%。", "unlock": 4, "values": [0.2] },
+    { "name": "PreservedForTheHunt", "localeName": "弓藏待命", "desc": "弓を鍛造する時、消費した鉱石の15%が返還される。" }
   ],
   "c13ns": [
     {
-      "name": "飲露",
+      "name": "DewDrinker",
+      "localeName": "飲露",
       "desc": "二段チャージ重撃の霜華の矢または霜華満開が命中した時、敵の<color=#99FFFFFF>氷元素耐性</color>-15%、継続時間6秒。\n命中時に甘雨の元素エネルギーを2回復。二段チャージの重撃による元素エネルギーの回復効果は、1回の重撃で1度のみ発動可能。",
       "values": [-0.15, 6, 2]
     },
-    { "name": "獲麟", "desc": "<color=#FFD780FF>山沢麟跡</color>の発動可能回数+1。" },
-    { "name": "雲行", "desc": "<color=#FFD780FF>降衆天華</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    {
-      "name": "西狩",
-      "desc": "<color=#FFD780FF>降衆天華</color>エリア内、敵の受けるダメージが増加する。\n受けるダメージの増加量は初期が5%、3秒毎に5%上昇し、最大25%まで上昇する。\nエリアを出た後、継続時間3秒。"
-    },
-    { "name": "折草", "desc": "<color=#FFD780FF>山沢麟跡</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "履虫", "desc": "<color=#FFD780FF>山沢麟跡</color>を発動すると、30秒以内に放つ最初の霜華の矢が、チャージせずに発動可能になる。" }
+    { "name": "TheAuspicious", "localeName": "獲麟", "desc": "<color=#FFD780FF>山沢麟跡</color>の発動可能回数+1。" },
+    { "name": "CloudStrider", "localeName": "雲行", "desc": "<color=#FFD780FF>降衆天華</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "WestwardSojourn", "localeName": "西狩", "desc": "<color=#FFD780FF>降衆天華</color>エリア内、敵の受けるダメージが増加する。\n受けるダメージの増加量は初期が5%、3秒毎に5%上昇し、最大25%まで上昇する。\nエリアを出た後、継続時間3秒。" },
+    { "name": "TheMerciful", "localeName": "折草", "desc": "<color=#FFD780FF>山沢麟跡</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "TheClement", "localeName": "履虫", "desc": "<color=#FFD780FF>山沢麟跡</color>を発動すると、30秒以内に放つ最初の霜華の矢が、チャージせずに発動可能になる。" }
   ],
   "overviewItems": [
-    { "id": "ShivadaJadeGemstone", "name": "哀切なアイスクリスタル", "rarity": 5 },
-    { "id": "HoarfrostCore", "name": "極寒のコア", "rarity": 4 },
-    { "id": "Qingxin", "name": "清心" },
-    { "id": "EnergyNectar", "name": "原素花の蜜", "rarity": 3 },
-    { "id": "PhilosophiesOfDiligence", "name": "「勤労」の哲学", "rarity": 4 },
-    { "id": "ShadowOfTheWarrior", "name": "武煉の魂·孤影", "rarity": 5 }
+    { "id": "ShivadaJadeGemstone", "localeName": "哀切なアイスクリスタル", "rarity": 5 },
+    { "id": "HoarfrostCore", "localeName": "極寒のコア", "rarity": 4 },
+    { "id": "Qingxin", "localeName": "清心" },
+    { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3 },
+    { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4 },
+    { "id": "ShadowOfTheWarrior", "localeName": "武煉の魂·孤影", "rarity": 5 }
   ]
 }

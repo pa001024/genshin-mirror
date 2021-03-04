@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "AgnidusAgateSliver", "name": "炎願のアゲート·砕屑", "count": 1 },
-        { "id": "SmallLampGrass", "name": "イグサ", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "新兵の記章", "count": 3 }
+        { "id": "AgnidusAgateSliver", "localeName": "炎願のアゲート·砕屑", "rarity": 2, "count": 1 },
+        { "id": "SmallLampGrass", "localeName": "イグサ", "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵の記章", "rarity": 1, "count": 3 }
       ],
       "HP": 866.43,
       "ATK": 22.349,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "炎願のアゲート·欠片", "count": 3 },
-        { "id": "EverflameSeed", "name": "常燃の火種", "count": 2 },
-        { "id": "SmallLampGrass", "name": "イグサ", "count": 10 },
-        { "id": "RecruitsInsignia", "name": "新兵の記章", "count": 15 }
+        { "id": "AgnidusAgateFragment", "localeName": "炎願のアゲート·欠片", "rarity": 3, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 2 },
+        { "id": "SmallLampGrass", "localeName": "イグサ", "count": 10 },
+        { "id": "RecruitsInsignia", "localeName": "新兵の記章", "rarity": 1, "count": 15 }
       ],
       "HP": 1482,
       "ATK": 38.229,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "炎願のアゲート·欠片", "count": 6 },
-        { "id": "EverflameSeed", "name": "常燃の火種", "count": 4 },
-        { "id": "SmallLampGrass", "name": "イグサ", "count": 20 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 12 }
+        { "id": "AgnidusAgateFragment", "localeName": "炎願のアゲート·欠片", "rarity": 3, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 4 },
+        { "id": "SmallLampGrass", "localeName": "イグサ", "count": 20 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 12 }
       ],
       "HP": 2302.9,
       "ATK": 59.402,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "炎願のアゲート·塊", "count": 3 },
-        { "id": "EverflameSeed", "name": "常燃の火種", "count": 8 },
-        { "id": "SmallLampGrass", "name": "イグサ", "count": 30 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 18 }
+        { "id": "AgnidusAgateChunk", "localeName": "炎願のアゲート·塊", "rarity": 4, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 8 },
+        { "id": "SmallLampGrass", "localeName": "イグサ", "count": 30 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 18 }
       ],
       "HP": 2918.5,
       "ATK": 75.282,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "炎願のアゲート·塊", "count": 6 },
-        { "id": "EverflameSeed", "name": "常燃の火種", "count": 12 },
-        { "id": "SmallLampGrass", "name": "イグサ", "count": 45 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 12 }
+        { "id": "AgnidusAgateChunk", "localeName": "炎願のアゲート·塊", "rarity": 4, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 12 },
+        { "id": "SmallLampGrass", "localeName": "イグサ", "count": 45 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 12 }
       ],
       "HP": 3534.1,
       "ATK": 91.162,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "AgnidusAgateGemstone", "name": "炎願のアゲート", "count": 6 },
-        { "id": "EverflameSeed", "name": "常燃の火種", "count": 20 },
-        { "id": "SmallLampGrass", "name": "イグサ", "count": 60 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 24 }
+        { "id": "AgnidusAgateGemstone", "localeName": "炎願のアゲート", "rarity": 5, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 20 },
+        { "id": "SmallLampGrass", "localeName": "イグサ", "count": 60 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 24 }
       ],
       "HP": 4149.7,
       "ATK": 107.04,
@@ -92,7 +92,8 @@
   "ascensionType": 12,
   "element": 6,
   "elemSkill": {
-    "name": "逆焔の刃",
+    "name": "SearingOnslaught",
+    "localeName": "逆焔の刃",
     "desc": "前方に向かって大剣を振り、<color=#FF9999FF>炎元素ダメージ</color>を与える。\n\n最大連続で3回使用可能。\n短時間内に連続で使用しなかった場合、クールタイムに入る。\n\n<i>斬撃はそれぞれ、ディルックの持つ正義、勇気、そして責任を象徴している。</i>",
     "cd": 10,
     "paramTpls": ["1段ダメージ|{param1:F1P}", "2段ダメージ|{param2:F1P}", "3段ダメージ|{param3:P}", "クールタイム|{param4:F1}秒"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」の教え", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "新兵の記章", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」の教え", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵の記章", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 2 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 4 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 6 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 9 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 4 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 4 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 6 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 6 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 12 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 9 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 16 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 12 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "黎明",
+    "name": "Dawn",
+    "localeName": "黎明",
     "desc": "烈焔の力を爆発させ、周囲の敵をノックバックし、<color=#FF9999FF>炎元素ダメージ</color>を与える。その後、烈焔を大剣に集め、前方に飛行する炎の鳥を出し、経路上の敵に大量の<color=#FF9999FF>炎元素ダメージ</color>を与える。炎の鳥は進行経路の終着点で爆発し、大量の<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。\n武器に凝集した烈焔により、ディルックは<color=#FF9999FF>炎元素付与</color>状態を獲得する。\n\n<i>暗闇を歩くのは、光を求めるため。夜に輝く炎の光は、黎明の証である。</i>",
     "cd": 12,
     "energyCost": 40,
@@ -182,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」の教え", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "新兵の記章", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」の教え", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵の記章", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 2 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 4 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 6 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 9 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 4 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 4 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 6 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 6 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 12 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 9 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 16 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 12 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "通常攻撃·百煉の剣",
+    "name": "NormalAttackTemperedSword",
+    "localeName": "通常攻撃·百煉の剣",
     "desc": "<color=#FFD780FF>通常攻撃</color>\n最大4段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n持続的にスタミナを消費し、素早い連続斬撃を発動する。\n重撃が終了した時に、更に強力な攻撃を1回放つ。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
     "cd": 0,
     "paramTpls": [
@@ -259,80 +262,67 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」の教え", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "新兵の記章", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」の教え", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵の記章", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 2 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 4 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 6 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 9 },
-        { "id": "SergeantsInsignia", "name": "士官の記章", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 4 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 4 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 6 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 6 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 12 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 9 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 16 },
-        { "id": "LieutenantsInsignia", "name": "尉官の記章", "count": 12 },
-        { "id": "DvalinsPlume", "name": "東風の羽根", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "ノンストップ", "desc": "重撃のスタミナ消費-50%、最大継続時間+3秒。", "unlock": 1, "values": [0.5, 3] },
-    {
-      "name": "溶融の翼",
-      "desc": "<color=#FFD780FF>黎明</color>による<color=#FF9999FF>炎元素付与</color>状態の継続時間+4秒、さらに効果継続中にディルックの与える<color=#FF9999FF>炎元素ダメージ</color>+20%。",
-      "unlock": 4,
-      "values": [4, 0.2]
-    },
-    { "name": "アカツキの伝統", "desc": "両手剣を鍛造する時、消費した鉱石の15%が返還される。" }
+    { "name": "Relentless", "localeName": "ノンストップ", "desc": "重撃のスタミナ消費-50%、最大継続時間+3秒。", "unlock": 1, "values": [0.5, 3] },
+    { "name": "BlessingOfPhoenix", "localeName": "溶融の翼", "desc": "<color=#FFD780FF>黎明</color>による<color=#FF9999FF>炎元素付与</color>状態の継続時間+4秒、さらに効果継続中にディルックの与える<color=#FF9999FF>炎元素ダメージ</color>+20%。", "unlock": 4, "values": [4, 0.2] },
+    { "name": "TraditionOfTheDawnKnight", "localeName": "アカツキの伝統", "desc": "両手剣を鍛造する時、消費した鉱石の15%が返還される。" }
   ],
   "c13ns": [
-    { "name": "罪の裁断", "desc": "HPが50%より上回る敵に対して、ディルックの与えるダメージ+15%。", "values": [0.15] },
-    { "name": "灼熱余燼", "desc": "ディルックがダメージを受けると、攻撃力+10%、攻撃速度+5%、継続時間10秒。\n最大3重まで。1.5秒毎に1回のみ発動可能。", "values": [0.1, 0.05, 10, 3, 1.5] },
-    { "name": "鋼鉄の熾焔", "desc": "<color=#FFD780FF>逆焔の刃</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    {
-      "name": "流火焼灼",
-      "desc": "リズム的に<color=#FFD780FF>逆焔の刃</color>を発動することで、ダメージを大幅に上げることができる。<color=#FFD780FF>逆焔の刃</color>発動2秒後、次の逆焔の刃のダメージ+40%、継続時間2秒。",
-      "values": [0.4]
-    },
-    { "name": "朝を告げる炎の鳥", "desc": "<color=#FFD780FF>黎明</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    {
-      "name": "闇を清算する炎の剣",
-      "desc": "<color=#FFD780FF>逆焔の刃</color>発動後、6秒以内の2回の通常攻撃の攻撃速度+30%、攻撃ダメージ+30%。\n逆焔の刃によって通常攻撃のコンボ数がリセットされることはなくなる。",
-      "values": [6, 0.3, 0.3]
-    }
+    { "name": "Conviction", "localeName": "罪の裁断", "desc": "HPが50%より上回る敵に対して、ディルックの与えるダメージ+15%。", "values": [0.15] },
+    { "name": "SearingEmber", "localeName": "灼熱余燼", "desc": "ディルックがダメージを受けると、攻撃力+10%、攻撃速度+5%、継続時間10秒。\n最大3重まで。1.5秒毎に1回のみ発動可能。", "values": [0.1, 0.05, 10, 3, 1.5] },
+    { "name": "FireAndSteel", "localeName": "鋼鉄の熾焔", "desc": "<color=#FFD780FF>逆焔の刃</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "FlowingFlame", "localeName": "流火焼灼", "desc": "リズム的に<color=#FFD780FF>逆焔の刃</color>を発動することで、ダメージを大幅に上げることができる。<color=#FFD780FF>逆焔の刃</color>発動2秒後、次の逆焔の刃のダメージ+40%、継続時間2秒。", "values": [0.4] },
+    { "name": "PhoenixHarbingerOfDawn", "localeName": "朝を告げる炎の鳥", "desc": "<color=#FFD780FF>黎明</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "FlamingSwordNemesisOfTheDark", "localeName": "闇を清算する炎の剣", "desc": "<color=#FFD780FF>逆焔の刃</color>発動後、6秒以内の2回の通常攻撃の攻撃速度+30%、攻撃ダメージ+30%。\n逆焔の刃によって通常攻撃のコンボ数がリセットされることはなくなる。", "values": [6, 0.3, 0.3] }
   ],
   "overviewItems": [
-    { "id": "AgnidusAgateGemstone", "name": "炎願のアゲート", "rarity": 5 },
-    { "id": "EverflameSeed", "name": "常燃の火種", "rarity": 4 },
-    { "id": "SmallLampGrass", "name": "イグサ" },
-    { "id": "LieutenantsInsignia", "name": "尉官の記章", "rarity": 3 },
-    { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "rarity": 4 },
-    { "id": "DvalinsPlume", "name": "東風の羽根", "rarity": 5 }
+    { "id": "AgnidusAgateGemstone", "localeName": "炎願のアゲート", "rarity": 5 },
+    { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4 },
+    { "id": "SmallLampGrass", "localeName": "イグサ" },
+    { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3 },
+    { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4 },
+    { "id": "DvalinsPlume", "localeName": "東風の羽根", "rarity": 5 }
   ]
 }

@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "VarunadaLazuriteSliver", "name": "澄明なラピスラズリ·砕屑", "count": 1 },
-        { "id": "PhilanemoMushroom", "name": "慕風のマッシュルーム", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "トリックフラワーの蜜", "count": 3 }
+        { "id": "VarunadaLazuriteSliver", "localeName": "澄明なラピスラズリ·砕屑", "rarity": 2, "count": 1 },
+        { "id": "PhilanemoMushroom", "localeName": "慕風のマッシュルーム", "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 3 }
       ],
       "HP": 694.78,
       "ATK": 19.157,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "VarunadaLazuriteFragment", "name": "澄明なラピスラズリ·欠片", "count": 3 },
-        { "id": "CleansingHeart", "name": "浄水の心", "count": 2 },
-        { "id": "PhilanemoMushroom", "name": "慕風のマッシュルーム", "count": 10 },
-        { "id": "WhopperflowerNectar", "name": "トリックフラワーの蜜", "count": 15 }
+        { "id": "VarunadaLazuriteFragment", "localeName": "澄明なラピスラズリ·欠片", "rarity": 3, "count": 3 },
+        { "id": "CleansingHeart", "localeName": "浄水の心", "rarity": 4, "count": 2 },
+        { "id": "PhilanemoMushroom", "localeName": "慕風のマッシュルーム", "count": 10 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 15 }
       ],
       "HP": 1188.4,
       "ATK": 32.768,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "VarunadaLazuriteFragment", "name": "澄明なラピスラズリ·欠片", "count": 6 },
-        { "id": "CleansingHeart", "name": "浄水の心", "count": 4 },
-        { "id": "PhilanemoMushroom", "name": "慕風のマッシュルーム", "count": 20 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 12 }
+        { "id": "VarunadaLazuriteFragment", "localeName": "澄明なラピスラズリ·欠片", "rarity": 3, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "浄水の心", "rarity": 4, "count": 4 },
+        { "id": "PhilanemoMushroom", "localeName": "慕風のマッシュルーム", "count": 20 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 12 }
       ],
       "HP": 1846.6,
       "ATK": 50.916,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "VarunadaLazuriteChunk", "name": "澄明なラピスラズリ·塊", "count": 3 },
-        { "id": "CleansingHeart", "name": "浄水の心", "count": 8 },
-        { "id": "PhilanemoMushroom", "name": "慕風のマッシュルーム", "count": 30 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 18 }
+        { "id": "VarunadaLazuriteChunk", "localeName": "澄明なラピスラズリ·塊", "rarity": 4, "count": 3 },
+        { "id": "CleansingHeart", "localeName": "浄水の心", "rarity": 4, "count": 8 },
+        { "id": "PhilanemoMushroom", "localeName": "慕風のマッシュルーム", "count": 30 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 18 }
       ],
       "HP": 2340.3,
       "ATK": 64.527,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "VarunadaLazuriteChunk", "name": "澄明なラピスラズリ·塊", "count": 6 },
-        { "id": "CleansingHeart", "name": "浄水の心", "count": 12 },
-        { "id": "PhilanemoMushroom", "name": "慕風のマッシュルーム", "count": 45 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 12 }
+        { "id": "VarunadaLazuriteChunk", "localeName": "澄明なラピスラズリ·塊", "rarity": 4, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "浄水の心", "rarity": 4, "count": 12 },
+        { "id": "PhilanemoMushroom", "localeName": "慕風のマッシュルーム", "count": 45 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 12 }
       ],
       "HP": 2834,
       "ATK": 78.139,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "VarunadaLazuriteGemstone", "name": "澄明なラピスラズリ", "count": 6 },
-        { "id": "CleansingHeart", "name": "浄水の心", "count": 20 },
-        { "id": "PhilanemoMushroom", "name": "慕風のマッシュルーム", "count": 60 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 24 }
+        { "id": "VarunadaLazuriteGemstone", "localeName": "澄明なラピスラズリ", "rarity": 5, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "浄水の心", "rarity": 4, "count": 20 },
+        { "id": "PhilanemoMushroom", "localeName": "慕風のマッシュルーム", "count": 60 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 24 }
       ],
       "HP": 3327.6,
       "ATK": 91.75,
@@ -92,7 +92,8 @@
   "ascensionType": 10,
   "element": 5,
   "elemSkill": {
-    "name": "水中幻願",
+    "name": "MirrorReflectionOfDoom",
+    "localeName": "水中幻願",
     "desc": "水しぶきを集め、運命の虚影を形成する。\n\n<color=#FFD780FF>虚影</color>\n以下の特性を持つ：\n·持続的に敵を挑発し、攻撃を引き寄せる。\n·持続的に付近の敵に<color=#80C0FFFF>水元素範囲ダメージ</color>を与える。\n·継続時間終了時、虚影が破裂し、<color=#80C0FFFF>水元素範囲ダメージ</color>を与える。\n\n<color=#FFD780FF>長押し</color>\n水流の勢いを利用し、素早く後退する。\n\n水中幻願によって作られた虚影は、同時に最大1つまで存在可能。\n\n<i>造詣が深い占星術師は自身が創造した虚影で厄運から免れる。だがここまで厄運を挑発する者は、テイワットでもモナだけであろう。</i>",
     "cd": 12,
     "paramTpls": ["継続ダメージ|{param1:F1P}", "爆裂ダメージ|{param2:P}", "クールタイム|{param5:F1}秒"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」の教え", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "トリックフラワーの蜜", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」の教え", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 4 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 4 },
-        { "id": "RingOfBoreas", "name": "北風のリング", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 6 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 6 },
-        { "id": "RingOfBoreas", "name": "北風のリング", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 12 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 9 },
-        { "id": "RingOfBoreas", "name": "北風のリング", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 16 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 12 },
-        { "id": "RingOfBoreas", "name": "北風のリング", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "星命定軌",
+    "name": "StellarisPhantasm",
+    "localeName": "星命定軌",
     "desc": "清らかなさざなみを集め、虚幻の星空を映し、広範囲の敵に泡影状態を与える。\n\n<color=#FFD780FF>泡影</color>\n星の泡で敵を拘束し、<color=#80C0FFFF>湿潤</color>状態を付与する。比較的に弱い敵は泡影に拘束され、行動不能になる。\n泡影状態の敵がダメージを受けると、以下の効果を受ける：\n·星異状態を与えられ、次に受けるダメージが上昇する。\n·泡影の効果が解除する。解除時、<color=#80C0FFFF>水元素ダメージ</color>を受ける。\n\n<color=#FFD780FF>星異</color>\n星異状態継続中、受けるダメージがアップする。\n\n<i>神の眼差しが天空の光を導き、運命は運命と呼ばれるようになった。</i>",
     "cd": 15,
     "energyCost": 60,
@@ -182,62 +184,54 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」の教え", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "トリックフラワーの蜜", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」の教え", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 4 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 4 },
-        { "id": "RingOfBoreas", "name": "北風のリング", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 6 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 6 },
-        { "id": "RingOfBoreas", "name": "北風のリング", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 12 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 9 },
-        { "id": "RingOfBoreas", "name": "北風のリング", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 16 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 12 },
-        { "id": "RingOfBoreas", "name": "北風のリング", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "通常攻撃·因果点破",
+    "name": "NormalAttackRippleOfFate",
+    "localeName": "通常攻撃·因果点破",
     "desc": "<color=#FFD780FF>通常攻撃</color>\n最大4段の連続攻撃を行い、<color=#80C0FFFF>水元素ダメージ</color>を与える。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、短い詠唱をした後、敵に<color=#80C0FFFF>水元素範囲ダメージ</color>を与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から水元素の力を凝集しながら落下し、地面に衝撃を与える。経路上の敵を攻撃し、落下時に<color=#80C0FFFF>水元素範囲ダメージ</color>を与える。",
     "cd": 0,
-    "paramTpls": [
-      "1段ダメージ|{param1:F1P}",
-      "2段ダメージ|{param2:F1P}",
-      "3段ダメージ|{param3:F1P}",
-      "4段ダメージ|{param4:F1P}",
-      "重撃ダメージ|{param5:P}",
-      "重撃スタミナ消費|{param6:F1}",
-      "落下期間のダメージ|{param7:F1P}",
-      "低空/高空落下攻撃ダメージ|{param8:P}/{param9:P}"
-    ],
+    "paramTpls": ["1段ダメージ|{param1:F1P}", "2段ダメージ|{param2:F1P}", "3段ダメージ|{param3:F1P}", "4段ダメージ|{param4:F1P}", "重撃ダメージ|{param5:P}", "重撃スタミナ消費|{param6:F1}", "落下期間のダメージ|{param7:F1P}", "低空/高空落下攻撃ダメージ|{param8:P}/{param9:P}"],
     "paramVals": [
       [0.376, 0.36, 0.448, 0.5616, 1.4972, 50, 0.56829, 1.1363, 1.4193],
       [0.4042, 0.387, 0.4816, 0.60372, 1.6095, 50, 0.61454, 1.2288, 1.5349],
@@ -257,81 +251,78 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗争」の教え", "count": 3 },
-        { "id": "WhopperflowerNectar", "name": "トリックフラワーの蜜", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗争」の教え", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 2 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 4 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 6 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗争」の導き", "count": 9 },
-        { "id": "ShimmeringNectar", "name": "微光花の蜜", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗争」の導き", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 4 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 4 },
-        { "id": "RingOfBoreas", "name": "北風のリング", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 6 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 6 },
-        { "id": "RingOfBoreas", "name": "北風のリング", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 12 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 9 },
-        { "id": "RingOfBoreas", "name": "北風のリング", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "count": 16 },
-        { "id": "EnergyNectar", "name": "原素花の蜜", "count": 12 },
-        { "id": "RingOfBoreas", "name": "北風のリング", "count": 2 },
-        { "id": "CrownOfInsight", "name": "知恵の冠", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
     {
-      "name": "「おばば、私を捕まえられますか～」",
+      "name": "ComeNGetMeHag",
+      "localeName": "「おばば、私を捕まえられますか～」",
       "desc": "<color=#FFD780FF>虚実流動</color>状態に入った2秒後、周囲に敵がいる場合、自動的に虚影を1つ生成する。\n虚影は2秒間存在した後に破裂する。破裂ダメージは<color=#FFD780FF>水中幻願</color>のダメージの50%に相当する。",
       "unlock": 1,
       "values": [2, 2, 0.5]
     },
-    {
-      "name": "「運命の流れに任せましょう！」",
-      "desc": "モナの与える<color=#80C0FFFF>水元素ダメージ</color>が増加する。増加量はモナの元素チャージ効率の20%に相当する。",
-      "unlock": 4,
-      "values": [1, 0.2]
-    },
-    { "name": "運行原理", "desc": "武器突破素材を合成する時、25%の確率で一部の材料が返還される。" }
+    { "name": "WaterborneDestiny", "localeName": "「運命の流れに任せましょう！」", "desc": "モナの与える<color=#80C0FFFF>水元素ダメージ</color>が増加する。増加量はモナの元素チャージ効率の20%に相当する。", "unlock": 4, "values": [1, 0.2] },
+    { "name": "PrincipiumOfAstrology", "localeName": "運行原理", "desc": "武器突破素材を合成する時、25%の確率で一部の材料が返還される。" }
   ],
   "c13ns": [
     {
-      "name": "沈没の預言",
+      "name": "ProphecyOfSubmersion",
+      "localeName": "沈没の預言",
       "desc": "チーム内の自身のキャラクターの攻撃が星異状態の敵に命中した後の8秒間、<color=#80C0FFFF>水元素の関連反応</color>の効果が上昇する：\n·感電反応ダメージ+15%、蒸発反応ダメージ+15%、水元素の拡散反応によるダメージ+15%。\n·凍結反応の継続時間+15%。",
       "values": [0.15, 0.15, 0.15, 0.15, 5, 8]
     },
-    { "name": "星月の連珠", "desc": "通常攻撃が命中した時、20%の確率で自動的に重撃を発動する。\n5秒毎に1回のみ発動可能。", "values": [0.2, 1, 5] },
-    { "name": "果てしない天象", "desc": "<color=#FFD780FF>星命定軌</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "絶滅の預言", "desc": "チーム内の自身のキャラクターが星異状態の敵を攻撃する時、会心率+15%。", "values": [-0.15] },
-    { "name": "運命の愚弄", "desc": "<color=#FFD780FF>水中幻願</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "災厄の修辞", "desc": "モナが<color=#FFD780FF>虚実流動</color>状態に入った後、1秒移動する毎に、次の重撃ダメージ+60%。\n最大180%まで、継続時間8秒。", "values": [1, 0.6, 1.8, 8] }
+    { "name": "LunarChain", "localeName": "星月の連珠", "desc": "通常攻撃が命中した時、20%の確率で自動的に重撃を発動する。\n5秒毎に1回のみ発動可能。", "values": [0.2, 1, 5] },
+    { "name": "RestlessRevolution", "localeName": "果てしない天象", "desc": "<color=#FFD780FF>星命定軌</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "ProphecyOfOblivion", "localeName": "絶滅の預言", "desc": "チーム内の自身のキャラクターが星異状態の敵を攻撃する時、会心率+15%。", "values": [-0.15] },
+    { "name": "MockeryOfFortuna", "localeName": "運命の愚弄", "desc": "<color=#FFD780FF>水中幻願</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "RhetoricsOfCalamitas", "localeName": "災厄の修辞", "desc": "モナが<color=#FFD780FF>虚実流動</color>状態に入った後、1秒移動する毎に、次の重撃ダメージ+60%。\n最大180%まで、継続時間8秒。", "values": [1, 0.6, 1.8, 8] }
   ],
   "overviewItems": [
-    { "id": "VarunadaLazuriteGemstone", "name": "澄明なラピスラズリ", "rarity": 5 },
-    { "id": "CleansingHeart", "name": "浄水の心", "rarity": 4 },
-    { "id": "PhilanemoMushroom", "name": "慕風のマッシュルーム" },
-    { "id": "EnergyNectar", "name": "原素花の蜜", "rarity": 3 },
-    { "id": "PhilosophiesOfResistance", "name": "「抗争」の哲学", "rarity": 4 },
-    { "id": "RingOfBoreas", "name": "北風のリング", "rarity": 5 }
+    { "id": "VarunadaLazuriteGemstone", "localeName": "澄明なラピスラズリ", "rarity": 5 },
+    { "id": "CleansingHeart", "localeName": "浄水の心", "rarity": 4 },
+    { "id": "PhilanemoMushroom", "localeName": "慕風のマッシュルーム" },
+    { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3 },
+    { "id": "PhilosophiesOfResistance", "localeName": "「抗争」の哲学", "rarity": 4 },
+    { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5 }
   ]
 }

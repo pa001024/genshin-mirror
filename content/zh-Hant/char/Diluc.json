@@ -14,9 +14,9 @@
     {
       "level": 1,
       "itemCost": [
-        { "id": "AgnidusAgateSliver", "name": "燃願瑪瑙碎屑", "count": 1 },
-        { "id": "SmallLampGrass", "name": "小燈草", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "新兵的徽記", "count": 3 }
+        { "id": "AgnidusAgateSliver", "localeName": "燃願瑪瑙碎屑", "rarity": 2, "count": 1 },
+        { "id": "SmallLampGrass", "localeName": "小燈草", "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽記", "rarity": 1, "count": 3 }
       ],
       "HP": 866.43,
       "ATK": 22.349,
@@ -26,10 +26,10 @@
     {
       "level": 2,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "燃願瑪瑙斷片", "count": 3 },
-        { "id": "EverflameSeed", "name": "常燃火種", "count": 2 },
-        { "id": "SmallLampGrass", "name": "小燈草", "count": 10 },
-        { "id": "RecruitsInsignia", "name": "新兵的徽記", "count": 15 }
+        { "id": "AgnidusAgateFragment", "localeName": "燃願瑪瑙斷片", "rarity": 3, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "常燃火種", "rarity": 4, "count": 2 },
+        { "id": "SmallLampGrass", "localeName": "小燈草", "count": 10 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽記", "rarity": 1, "count": 15 }
       ],
       "HP": 1482,
       "ATK": 38.229,
@@ -39,10 +39,10 @@
     {
       "level": 3,
       "itemCost": [
-        { "id": "AgnidusAgateFragment", "name": "燃願瑪瑙斷片", "count": 6 },
-        { "id": "EverflameSeed", "name": "常燃火種", "count": 4 },
-        { "id": "SmallLampGrass", "name": "小燈草", "count": 20 },
-        { "id": "SergeantsInsignia", "name": "士官的徽記", "count": 12 }
+        { "id": "AgnidusAgateFragment", "localeName": "燃願瑪瑙斷片", "rarity": 3, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃火種", "rarity": 4, "count": 4 },
+        { "id": "SmallLampGrass", "localeName": "小燈草", "count": 20 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 12 }
       ],
       "HP": 2302.9,
       "ATK": 59.402,
@@ -52,10 +52,10 @@
     {
       "level": 4,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "燃願瑪瑙塊", "count": 3 },
-        { "id": "EverflameSeed", "name": "常燃火種", "count": 8 },
-        { "id": "SmallLampGrass", "name": "小燈草", "count": 30 },
-        { "id": "SergeantsInsignia", "name": "士官的徽記", "count": 18 }
+        { "id": "AgnidusAgateChunk", "localeName": "燃願瑪瑙塊", "rarity": 4, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "常燃火種", "rarity": 4, "count": 8 },
+        { "id": "SmallLampGrass", "localeName": "小燈草", "count": 30 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 18 }
       ],
       "HP": 2918.5,
       "ATK": 75.282,
@@ -65,10 +65,10 @@
     {
       "level": 5,
       "itemCost": [
-        { "id": "AgnidusAgateChunk", "name": "燃願瑪瑙塊", "count": 6 },
-        { "id": "EverflameSeed", "name": "常燃火種", "count": 12 },
-        { "id": "SmallLampGrass", "name": "小燈草", "count": 45 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽記", "count": 12 }
+        { "id": "AgnidusAgateChunk", "localeName": "燃願瑪瑙塊", "rarity": 4, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃火種", "rarity": 4, "count": 12 },
+        { "id": "SmallLampGrass", "localeName": "小燈草", "count": 45 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 12 }
       ],
       "HP": 3534.1,
       "ATK": 91.162,
@@ -78,10 +78,10 @@
     {
       "level": 6,
       "itemCost": [
-        { "id": "AgnidusAgateGemstone", "name": "燃願瑪瑙", "count": 6 },
-        { "id": "EverflameSeed", "name": "常燃火種", "count": 20 },
-        { "id": "SmallLampGrass", "name": "小燈草", "count": 60 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽記", "count": 24 }
+        { "id": "AgnidusAgateGemstone", "localeName": "燃願瑪瑙", "rarity": 5, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃火種", "rarity": 4, "count": 20 },
+        { "id": "SmallLampGrass", "localeName": "小燈草", "count": 60 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 24 }
       ],
       "HP": 4149.7,
       "ATK": 107.04,
@@ -92,7 +92,8 @@
   "ascensionType": 12,
   "element": 6,
   "elemSkill": {
-    "name": "逆焰之刃",
+    "name": "SearingOnslaught",
+    "localeName": "逆焰之刃",
     "desc": "揮舞大劍向前劈砍，造成<color=#FF9999FF>火元素傷害</color>。\n\n可以連續施放三次。\n若在短時間內沒有施放，則會進入冷卻。\n\n<i>分別象徵迪盧克所秉持的正義、勇氣與責任。</i>",
     "cd": 10,
     "paramTpls": ["一段傷害|{param1:F1P}", "二段傷害|{param2:F1P}", "三段傷害|{param3:P}", "冷卻時間|{param4:F1}秒"],
@@ -115,50 +116,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗爭」的教導", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "新兵的徽記", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗爭」的教導", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽記", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 2 },
-        { "id": "SergeantsInsignia", "name": "士官的徽記", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 4 },
-        { "id": "SergeantsInsignia", "name": "士官的徽記", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 6 },
-        { "id": "SergeantsInsignia", "name": "士官的徽記", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 9 },
-        { "id": "SergeantsInsignia", "name": "士官的徽記", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 4 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽記", "count": 4 },
-        { "id": "DvalinsPlume", "name": "東風之翎", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "東風之翎", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 6 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽記", "count": 6 },
-        { "id": "DvalinsPlume", "name": "東風之翎", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "東風之翎", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 12 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽記", "count": 9 },
-        { "id": "DvalinsPlume", "name": "東風之翎", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "東風之翎", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 16 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽記", "count": 12 },
-        { "id": "DvalinsPlume", "name": "東風之翎", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "東風之翎", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "elemBurst": {
-    "name": "黎明",
+    "name": "Dawn",
+    "localeName": "黎明",
     "desc": "爆發出烈焰的力量，擊退周圍的敵人，造成<color=#FF9999FF>火元素傷害</color>。隨後，將烈焰凝聚在武器上，揮出向前飛行的火之鳥，對路徑上的敵人造成高額<color=#FF9999FF>火元素傷害</color>，並在火之鳥行進的終點爆裂造成大量的<color=#FF9999FF>火元素範圍傷害</color>。\n武器上凝聚的烈焰會使迪盧克獲得<color=#FF9999FF>火元素附魔</color>。\n\n<i>在黑暗中行走，是為了帶來光明。看遠方那在靜夜中亮起的火光，是破曉的先兆。</i>",
     "cd": 12,
     "energyCost": 40,
@@ -182,50 +184,51 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗爭」的教導", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "新兵的徽記", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗爭」的教導", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽記", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 2 },
-        { "id": "SergeantsInsignia", "name": "士官的徽記", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 4 },
-        { "id": "SergeantsInsignia", "name": "士官的徽記", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 6 },
-        { "id": "SergeantsInsignia", "name": "士官的徽記", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 9 },
-        { "id": "SergeantsInsignia", "name": "士官的徽記", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 4 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽記", "count": 4 },
-        { "id": "DvalinsPlume", "name": "東風之翎", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "東風之翎", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 6 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽記", "count": 6 },
-        { "id": "DvalinsPlume", "name": "東風之翎", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "東風之翎", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 12 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽記", "count": 9 },
-        { "id": "DvalinsPlume", "name": "東風之翎", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "東風之翎", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 16 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽記", "count": 12 },
-        { "id": "DvalinsPlume", "name": "東風之翎", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "東風之翎", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "attackSkill": {
-    "name": "普通攻擊·淬煉之劍",
+    "name": "NormalAttackTemperedSword",
+    "localeName": "普通攻擊·淬煉之劍",
     "desc": "<color=#FFD780FF>普通攻擊</color>\n進行至多四段的連續揮砍。\n\n<color=#FFD780FF>重擊</color>\n持續消耗體力，快速進行連續的斬擊。\n重擊結束時，會進行一次格外有力的揮砍。\n\n<color=#FFD780FF>下落攻擊</color>\n從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。",
     "cd": 0,
     "paramTpls": [
@@ -259,80 +262,67 @@
     ],
     "costItems": [
       [
-        { "id": "TeachingsOfResistance", "name": "「抗爭」的教導", "count": 3 },
-        { "id": "RecruitsInsignia", "name": "新兵的徽記", "count": 6 }
+        { "id": "TeachingsOfResistance", "localeName": "「抗爭」的教導", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽記", "rarity": 1, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 2 },
-        { "id": "SergeantsInsignia", "name": "士官的徽記", "count": 3 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 3 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 4 },
-        { "id": "SergeantsInsignia", "name": "士官的徽記", "count": 4 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 4 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 6 },
-        { "id": "SergeantsInsignia", "name": "士官的徽記", "count": 6 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 6 }
       ],
       [
-        { "id": "GuideToResistance", "name": "「抗爭」的指引", "count": 9 },
-        { "id": "SergeantsInsignia", "name": "士官的徽記", "count": 9 }
+        { "id": "GuideToResistance", "localeName": "「抗爭」的指引", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 9 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 4 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽記", "count": 4 },
-        { "id": "DvalinsPlume", "name": "東風之翎", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "東風之翎", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 6 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽記", "count": 6 },
-        { "id": "DvalinsPlume", "name": "東風之翎", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "東風之翎", "rarity": 5, "count": 1 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 12 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽記", "count": 9 },
-        { "id": "DvalinsPlume", "name": "東風之翎", "count": 2 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "東風之翎", "rarity": 5, "count": 2 }
       ],
       [
-        { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "count": 16 },
-        { "id": "LieutenantsInsignia", "name": "尉官的徽記", "count": 12 },
-        { "id": "DvalinsPlume", "name": "東風之翎", "count": 2 },
-        { "id": "CrownOfInsight", "name": "智識之冕", "count": 1 }
+        { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "東風之翎", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
       ]
     ]
   },
   "talents": [
-    { "name": "永不休止", "desc": "迪盧克的重擊體力消耗降低50%，最大持續時間增加3秒。", "unlock": 1, "values": [0.5, 3] },
-    {
-      "name": "熔毀之翼",
-      "desc": "<color=#FFD780FF>黎明</color>提供的<color=#FF9999FF>火元素附魔</color>持續時間延長4秒；此外，在效果持續期間，迪盧克獲得20%<color=#FF9999FF>火元素傷害加成</color>。",
-      "unlock": 4,
-      "values": [4, 0.2]
-    },
-    { "name": "晨曦的傳統", "desc": "鍛造雙手劍類武器時，歸還15%消耗的礦石。" }
+    { "name": "Relentless", "localeName": "永不休止", "desc": "迪盧克的重擊體力消耗降低50%，最大持續時間增加3秒。", "unlock": 1, "values": [0.5, 3] },
+    { "name": "BlessingOfPhoenix", "localeName": "熔毀之翼", "desc": "<color=#FFD780FF>黎明</color>提供的<color=#FF9999FF>火元素附魔</color>持續時間延長4秒；此外，在效果持續期間，迪盧克獲得20%<color=#FF9999FF>火元素傷害加成</color>。", "unlock": 4, "values": [4, 0.2] },
+    { "name": "TraditionOfTheDawnKnight", "localeName": "晨曦的傳統", "desc": "鍛造雙手劍類武器時，歸還15%消耗的礦石。" }
   ],
   "c13ns": [
-    { "name": "罪罰裁斷", "desc": "對生命值高於50%的敵人，迪盧克造成的傷害提高15%。", "values": [0.15] },
-    { "name": "炙熱餘燼", "desc": "迪盧克受到傷害時，攻擊力提高10%，攻擊速度提高5%，持續10秒。\n該效果至多疊加三次，每1.5秒只能觸發一次。", "values": [0.1, 0.05, 10, 3, 1.5] },
-    { "name": "鋼鐵熾焰", "desc": "<color=#FFD780FF>逆焰之刃</color>的技能等級提高3級。\n至多提升至15級。" },
-    {
-      "name": "流火焦灼",
-      "desc": "有節奏地釋放<color=#FFD780FF>逆焰之刃</color>可以大幅提升造成的傷害。\n施放<color=#FFD780FF>逆焰之刃</color>的2秒後，使下一段逆焰之刃的傷害提高40%，持續2秒。",
-      "values": [0.4]
-    },
-    { "name": "昭告黎明的火之鳥", "desc": "<color=#FFD780FF>黎明</color>的技能等級提高3級。\n至多提升至15級。" },
-    {
-      "name": "清算黑暗的炎之劍",
-      "desc": "施放<color=#FFD780FF>逆焰之刃</color>後，接下來6秒內的2次普通攻擊速度提升30%，造成的傷害提高30%。\n此外，逆焰之刃不再重置普通攻擊連擊段數。",
-      "values": [6, 0.3, 0.3]
-    }
+    { "name": "Conviction", "localeName": "罪罰裁斷", "desc": "對生命值高於50%的敵人，迪盧克造成的傷害提高15%。", "values": [0.15] },
+    { "name": "SearingEmber", "localeName": "炙熱餘燼", "desc": "迪盧克受到傷害時，攻擊力提高10%，攻擊速度提高5%，持續10秒。\n該效果至多疊加三次，每1.5秒只能觸發一次。", "values": [0.1, 0.05, 10, 3, 1.5] },
+    { "name": "FireAndSteel", "localeName": "鋼鐵熾焰", "desc": "<color=#FFD780FF>逆焰之刃</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "FlowingFlame", "localeName": "流火焦灼", "desc": "有節奏地釋放<color=#FFD780FF>逆焰之刃</color>可以大幅提升造成的傷害。\n施放<color=#FFD780FF>逆焰之刃</color>的2秒後，使下一段逆焰之刃的傷害提高40%，持續2秒。", "values": [0.4] },
+    { "name": "PhoenixHarbingerOfDawn", "localeName": "昭告黎明的火之鳥", "desc": "<color=#FFD780FF>黎明</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "FlamingSwordNemesisOfTheDark", "localeName": "清算黑暗的炎之劍", "desc": "施放<color=#FFD780FF>逆焰之刃</color>後，接下來6秒內的2次普通攻擊速度提升30%，造成的傷害提高30%。\n此外，逆焰之刃不再重置普通攻擊連擊段數。", "values": [6, 0.3, 0.3] }
   ],
   "overviewItems": [
-    { "id": "AgnidusAgateGemstone", "name": "燃願瑪瑙", "rarity": 5 },
-    { "id": "EverflameSeed", "name": "常燃火種", "rarity": 4 },
-    { "id": "SmallLampGrass", "name": "小燈草" },
-    { "id": "LieutenantsInsignia", "name": "尉官的徽記", "rarity": 3 },
-    { "id": "PhilosophiesOfResistance", "name": "「抗爭」的哲學", "rarity": 4 },
-    { "id": "DvalinsPlume", "name": "東風之翎", "rarity": 5 }
+    { "id": "AgnidusAgateGemstone", "localeName": "燃願瑪瑙", "rarity": 5 },
+    { "id": "EverflameSeed", "localeName": "常燃火種", "rarity": 4 },
+    { "id": "SmallLampGrass", "localeName": "小燈草" },
+    { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3 },
+    { "id": "PhilosophiesOfResistance", "localeName": "「抗爭」的哲學", "rarity": 4 },
+    { "id": "DvalinsPlume", "localeName": "東風之翎", "rarity": 5 }
   ]
 }
