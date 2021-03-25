@@ -1,112 +1,15 @@
 [
-  {
-    "id": "MasterlessStarglitter",
-    "name": "Masterless Starglitter",
-    "localeName": "無主のスターライト",
-    "desc": "ショップでレアなものと交換できるコイン。\n過剰な運命の星の光。その輝きは宇宙の至るところを照らせるかもしれない。",
-    "rarity": 5,
-    "type": 7,
-    "typeText": "上級交換券",
-    "drop": ["祈願"]
-  },
-  {
-    "id": "MasterlessStardust",
-    "name": "Masterless Stardust",
-    "localeName": "無主のスターダスト",
-    "desc": "ショップでレアなものと交換できるコイン。\n過剰な運命の星のダスト。積もれば新たな運命を切り拓けるかもしれない。",
-    "rarity": 4,
-    "type": 7,
-    "typeText": "通常交換券",
-    "drop": ["祈願"]
-  },
-  {
-    "id": "IntertwinedFate",
-    "name": "Intertwined Fate",
-    "localeName": "紡がれた運命",
-    "desc": "夢をつなぐ運命の種。\n石の輝きは本来交わらない運命を交差させ、互いの夢を繋げ、まさにこの輝きは星々を心の赴く形に繋げると同じである。",
-    "rarity": 5,
-    "type": 7,
-    "typeText": "限定祈願アイテム"
-  },
-  {
-    "id": "AcquaintFate",
-    "name": "Acquaint Fate",
-    "localeName": "出会いの縁",
-    "desc": "星空を照らす希望の種。\nどんなに離れても、縁石の導きで、運命の二人は星空の下で巡り会える。",
-    "rarity": 5,
-    "type": 7,
-    "typeText": "祈願アイテム"
-  },
-  {
-    "id": "PyroSigil",
-    "name": "Pyro Sigil",
-    "localeName": "炎の印",
-    "desc": "モンド周辺の特殊な記念貨幣。街のショップでレアアイテムと交換できる",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "七国の印",
-    "drop": ["探索報酬"]
-  },
-  {
-    "id": "HydroSigil",
-    "name": "Hydro Sigil",
-    "localeName": "水の印",
-    "desc": "モンド周辺の特殊な記念貨幣。街のショップでレアアイテムと交換できる",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "七国の印",
-    "drop": ["探索報酬"]
-  },
-  {
-    "id": "DendroSigil",
-    "name": "Dendro Sigil",
-    "localeName": "草の印",
-    "desc": "モンド周辺の特殊な記念貨幣。街のショップでレアアイテムと交換できる",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "七国の印",
-    "drop": ["探索報酬"]
-  },
-  {
-    "id": "ElectroSigil",
-    "name": "Electro Sigil",
-    "localeName": "雷の印",
-    "desc": "モンド周辺の特殊な記念貨幣。街のショップでレアアイテムと交換できる",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "七国の印",
-    "drop": ["探索報酬"]
-  },
-  {
-    "id": "AnemoSigil",
-    "name": "Anemo Sigil",
-    "localeName": "風の印",
-    "desc": "モンドの風に認められ、授かった印記。\nモンド城の記念品ショップで特別なアイテムと交換できる。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "七国の印",
-    "drop": ["モンド地域探索報酬"]
-  },
-  {
-    "id": "CryoSigil",
-    "name": "Cryo Sigil",
-    "localeName": "氷の印",
-    "desc": "モンド周辺の特殊な記念貨幣。街のショップでレアアイテムと交換できる",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "七国の印",
-    "drop": ["探索報酬"]
-  },
-  {
-    "id": "GeoSigil",
-    "name": "Geo Sigil",
-    "localeName": "岩の印",
-    "desc": "璃月の岩に認められ、授かった印記。\n璃月港の記念品ショップで特別なアイテムと交換できる。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "七国の印",
-    "drop": ["璃月地域探索報酬"]
-  },
+  { "id": "MasterlessStarglitter", "name": "Masterless Starglitter", "localeName": "無主のスターライト", "desc": "ショップでレアなものと交換できるコイン。\n過剰な運命の星の光。その輝きは宇宙の至るところを照らせるかもしれない。", "rarity": 5, "type": 7, "typeText": "上級交換券", "drop": ["祈願"] },
+  { "id": "MasterlessStardust", "name": "Masterless Stardust", "localeName": "無主のスターダスト", "desc": "ショップでレアなものと交換できるコイン。\n過剰な運命の星のダスト。積もれば新たな運命を切り拓けるかもしれない。", "rarity": 4, "type": 7, "typeText": "通常交換券", "drop": ["祈願"] },
+  { "id": "IntertwinedFate", "name": "Intertwined Fate", "localeName": "紡がれた運命", "desc": "夢をつなぐ運命の種。\n石の輝きは本来交わらない運命を交差させ、互いの夢を繋げ、まさにこの輝きは星々を心の赴く形に繋げると同じである。", "rarity": 5, "type": 7, "typeText": "限定祈願アイテム" },
+  { "id": "AcquaintFate", "name": "Acquaint Fate", "localeName": "出会いの縁", "desc": "星空を照らす希望の種。\nどんなに離れても、縁石の導きで、運命の二人は星空の下で巡り会える。", "rarity": 5, "type": 7, "typeText": "祈願アイテム" },
+  { "id": "PyroSigil", "name": "Pyro Sigil", "localeName": "炎の印", "desc": "モンド周辺の特殊な記念貨幣。街のショップでレアアイテムと交換できる", "rarity": 3, "type": 7, "typeText": "七国の印", "drop": ["探索報酬"] },
+  { "id": "HydroSigil", "name": "Hydro Sigil", "localeName": "水の印", "desc": "モンド周辺の特殊な記念貨幣。街のショップでレアアイテムと交換できる", "rarity": 3, "type": 7, "typeText": "七国の印", "drop": ["探索報酬"] },
+  { "id": "DendroSigil", "name": "Dendro Sigil", "localeName": "草の印", "desc": "モンド周辺の特殊な記念貨幣。街のショップでレアアイテムと交換できる", "rarity": 3, "type": 7, "typeText": "七国の印", "drop": ["探索報酬"] },
+  { "id": "ElectroSigil", "name": "Electro Sigil", "localeName": "雷の印", "desc": "モンド周辺の特殊な記念貨幣。街のショップでレアアイテムと交換できる", "rarity": 3, "type": 7, "typeText": "七国の印", "drop": ["探索報酬"] },
+  { "id": "AnemoSigil", "name": "Anemo Sigil", "localeName": "風の印", "desc": "モンドの風に認められ、授かった印記。\nモンド城の記念品ショップで特別なアイテムと交換できる。", "rarity": 3, "type": 7, "typeText": "七国の印", "drop": ["モンド地域探索報酬"] },
+  { "id": "CryoSigil", "name": "Cryo Sigil", "localeName": "氷の印", "desc": "モンド周辺の特殊な記念貨幣。街のショップでレアアイテムと交換できる", "rarity": 3, "type": 7, "typeText": "七国の印", "drop": ["探索報酬"] },
+  { "id": "GeoSigil", "name": "Geo Sigil", "localeName": "岩の印", "desc": "璃月の岩に認められ、授かった印記。\n璃月港の記念品ショップで特別なアイテムと交換できる。", "rarity": 3, "type": 7, "typeText": "七国の印", "drop": ["璃月地域探索報酬"] },
   {
     "id": "GnosticHymnOldNotes",
     "name": "Gnostic Hymn - Old Notes",
@@ -125,136 +28,19 @@
     "type": 7,
     "typeText": "機能開放パス"
   },
-  {
-    "id": "Apple",
-    "name": "Apple",
-    "localeName": "リンゴ",
-    "desc": "サッパリした酸味と甘みの果物。そのままでも酒漬けにしても美味しい。",
-    "rarity": 1,
-    "type": 3,
-    "typeText": "食べ物",
-    "drop": ["野外で採集"]
-  },
-  {
-    "id": "Sunsettia",
-    "name": "Sunsettia",
-    "localeName": "夕暮れの実",
-    "desc": "テイワットの自然の恩恵を受けた果実。夕暮れの色と特殊な香りが特徴。",
-    "rarity": 1,
-    "type": 3,
-    "typeText": "食べ物",
-    "drop": ["野外で採集"]
-  },
-  {
-    "id": "Mushroom",
-    "name": "Mushroom",
-    "localeName": "キノコ",
-    "desc": "生命力旺盛なよく見かけるキノコ類。適切な木陰と水分さえあれば、どこでも元気に育つ。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["野外で採集"]
-  },
-  {
-    "id": "SweetFlower",
-    "name": "Sweet Flower",
-    "localeName": "スイートフラワー",
-    "desc": "香りの強い植物。暗闇でも、その香りを頼りに花を見つけられる。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["野外で採集"]
-  },
-  {
-    "id": "Carrot",
-    "name": "Carrot",
-    "localeName": "ニンジン",
-    "desc": "栄養素たっぷりの野菜。栽培や収穫がしやすく、シャキシャキの食感と甘い味がたまらない。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["野外で採集"]
-  },
-  {
-    "id": "Radish",
-    "name": "Radish",
-    "localeName": "ダイコン",
-    "desc": "食べ物繊維のはっきりした草本植物。栽培も収穫も容易な作物、食べ物繊維と栄養に富んでいる。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["野外で採集"]
-  },
-  {
-    "id": "Snapdragon",
-    "name": "Snapdragon",
-    "localeName": "キンギョソウ",
-    "desc": "料理にすると食べられる植物。香料として食材に加えると不思議な味になる。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["水辺で採集"]
-  },
-  {
-    "id": "Mint",
-    "name": "Mint",
-    "localeName": "ミント",
-    "desc": "清涼成分を含んだ植物の葉。爽やかでヒンヤリした味わいが暑さを取り除いてくれる。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["野外で採集"]
-  },
-  {
-    "id": "Wheat",
-    "name": "Wheat",
-    "localeName": "小麦",
-    "desc": "キラキラした穂は人々に希望を与えてくれる。臼で挽いて水や火を加えると究極の形態になる。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["野外で採集", "雑貨屋で購入"]
-  },
-  {
-    "id": "Cabbage",
-    "name": "Cabbage",
-    "localeName": "キャベツ",
-    "desc": "何層にも重なった野菜。かつては鑑賞用植物だったそうだが、今では鍋に入れた姿も素晴らしいものになっている。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["野外で採集", "雑貨屋で購入"]
-  },
-  {
-    "id": "SilverLotus",
-    "name": "Silver Lotus",
-    "localeName": "アネモネ",
-    "desc": "貴重な植物。険しい断崖に生えている偏屈な植物。闇夜でもきれいな光を放つ。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["野外で採集"]
-  },
-  {
-    "id": "Pinecone",
-    "name": "Pinecone",
-    "localeName": "ナッツ",
-    "desc": "油分に富んだ丸々とした種。リスの胃の中で大きな木に育つわけではない。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["野外で採集"]
-  },
-  {
-    "id": "Wolfhook",
-    "name": "Wolfhook",
-    "localeName": "ググプラム",
-    "desc": "針があるプラム、時に狼の毛皮に引っかかることがある。それを見る時、まるで狼の遠吠えが聞こえるようだ…",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "モンド地域の特産",
-    "drop": ["野外で採集", "推奨：奔狼領で採集"]
-  },
+  { "id": "Apple", "name": "Apple", "localeName": "リンゴ", "desc": "サッパリした酸味と甘みの果物。そのままでも酒漬けにしても美味しい。", "rarity": 1, "type": 3, "typeText": "食べ物", "drop": ["野外で採集"] },
+  { "id": "Sunsettia", "name": "Sunsettia", "localeName": "夕暮れの実", "desc": "テイワットの自然の恩恵を受けた果実。夕暮れの色と特殊な香りが特徴。", "rarity": 1, "type": 3, "typeText": "食べ物", "drop": ["野外で採集"] },
+  { "id": "Mushroom", "name": "Mushroom", "localeName": "キノコ", "desc": "生命力旺盛なよく見かけるキノコ類。適切な木陰と水分さえあれば、どこでも元気に育つ。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["野外で採集"] },
+  { "id": "SweetFlower", "name": "Sweet Flower", "localeName": "スイートフラワー", "desc": "香りの強い植物。暗闇でも、その香りを頼りに花を見つけられる。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["野外で採集"] },
+  { "id": "Carrot", "name": "Carrot", "localeName": "ニンジン", "desc": "栄養素たっぷりの野菜。栽培や収穫がしやすく、シャキシャキの食感と甘い味がたまらない。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["野外で採集"] },
+  { "id": "Radish", "name": "Radish", "localeName": "ダイコン", "desc": "食べ物繊維のはっきりした草本植物。栽培も収穫も容易な作物、食べ物繊維と栄養に富んでいる。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["野外で採集"] },
+  { "id": "Snapdragon", "name": "Snapdragon", "localeName": "キンギョソウ", "desc": "料理にすると食べられる植物。香料として食材に加えると不思議な味になる。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["水辺で採集"] },
+  { "id": "Mint", "name": "Mint", "localeName": "ミント", "desc": "清涼成分を含んだ植物の葉。爽やかでヒンヤリした味わいが暑さを取り除いてくれる。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["野外で採集"] },
+  { "id": "Wheat", "name": "Wheat", "localeName": "小麦", "desc": "キラキラした穂は人々に希望を与えてくれる。臼で挽いて水や火を加えると究極の形態になる。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["野外で採集", "雑貨屋で購入"] },
+  { "id": "Cabbage", "name": "Cabbage", "localeName": "キャベツ", "desc": "何層にも重なった野菜。かつては鑑賞用植物だったそうだが、今では鍋に入れた姿も素晴らしいものになっている。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["野外で採集", "雑貨屋で購入"] },
+  { "id": "SilverLotus", "name": "Silver Lotus", "localeName": "アネモネ", "desc": "貴重な植物。険しい断崖に生えている偏屈な植物。闇夜でもきれいな光を放つ。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["野外で採集"] },
+  { "id": "Pinecone", "name": "Pinecone", "localeName": "ナッツ", "desc": "油分に富んだ丸々とした種。リスの胃の中で大きな木に育つわけではない。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["野外で採集"] },
+  { "id": "Wolfhook", "name": "Wolfhook", "localeName": "ググプラム", "desc": "針があるプラム、時に狼の毛皮に引っかかることがある。それを見る時、まるで狼の遠吠えが聞こえるようだ…", "rarity": 1, "type": 4, "typeText": "モンド地域の特産", "drop": ["野外で採集", "推奨：奔狼領で採集"] },
   {
     "id": "Valberry",
     "name": "Valberry",
@@ -265,16 +51,7 @@
     "typeText": "モンド地域の特産",
     "drop": ["野外で採集", "推奨：望風山地で採集"]
   },
-  {
-    "id": "Cecilia",
-    "name": "Cecilia",
-    "localeName": "セシリアの花",
-    "desc": "名も見た目も綺麗な花。清冷かつ風が強いところにしか咲かない高嶺の花。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "モンド地域の特産",
-    "drop": ["野外で採集", "推奨：星拾いの崖で採集"]
-  },
+  { "id": "Cecilia", "name": "Cecilia", "localeName": "セシリアの花", "desc": "名も形も美しい花。清冷かつ風の強い場所にしか咲かず、どこかの詩人のように掴み所がない。", "rarity": 1, "type": 4, "typeText": "モンド地域の特産", "drop": ["野外で採集", "推奨：星拾いの崖で採集"] },
   {
     "id": "WindwheelAster",
     "name": "Windwheel Aster",
@@ -285,36 +62,9 @@
     "typeText": "モンド地域の特産",
     "drop": ["風立ちの地の七天神像付近で採集", "野外の木の下で採集", "推奨：風龍廃墟で採集"]
   },
-  {
-    "id": "PhilanemoMushroom",
-    "name": "Philanemo Mushroom",
-    "localeName": "慕風のマッシュルーム",
-    "desc": "爽やかな風を浴びて育ったマッシュルーム、風のように果てしなく命を育む。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "モンド地域の特産",
-    "drop": ["屋根の下で採集"]
-  },
-  {
-    "id": "LotusHead",
-    "name": "Lotus Head",
-    "localeName": "ハスの花托",
-    "desc": "璃月地域の水辺に咲くハスは二つの花が咲く。一つは香りを放ち、もう一つは少し苦い花托になる。薬にも使えるらしい。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["水辺で採集"]
-  },
-  {
-    "id": "JueyunChili",
-    "name": "Jueyun Chili",
-    "localeName": "絶雲の唐辛子",
-    "desc": "璃月特有の唐辛子。匂いを嗅ぐだけで体が熱くなり、水を欲しがる",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "璃月地域の特産",
-    "drop": ["野外で採集", "推奨：軽策荘で採集"]
-  },
+  { "id": "PhilanemoMushroom", "name": "Philanemo Mushroom", "localeName": "慕風のマッシュルーム", "desc": "爽やかな風を浴びて育ったマッシュルーム、風のように果てしなく命を育む。", "rarity": 1, "type": 4, "typeText": "モンド地域の特産", "drop": ["屋根の下で採集"] },
+  { "id": "LotusHead", "name": "Lotus Head", "localeName": "ハスの花托", "desc": "璃月地域の水辺に咲くハスは二つの花が咲く。一つは香りを放ち、もう一つは少し苦い花托になる。薬にも使えるらしい。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["水辺で採集"] },
+  { "id": "JueyunChili", "name": "Jueyun Chili", "localeName": "絶雲の唐辛子", "desc": "璃月特有の唐辛子。匂いを嗅ぐだけで体が熱くなり、水を欲しがる", "rarity": 1, "type": 4, "typeText": "璃月地域の特産", "drop": ["野外で採集", "推奨：軽策荘で採集"] },
   {
     "id": "NoctilucousJade",
     "name": "Noctilucous Jade",
@@ -325,16 +75,7 @@
     "typeText": "璃月地域の特産",
     "drop": ["璃月の洞窟内で採集", "推奨：明蘊町で採集"]
   },
-  {
-    "id": "SilkFlower",
-    "name": "Silk Flower",
-    "localeName": "霓裳花",
-    "desc": "璃月で霓雲のように咲く赤い花。水のように滑らかな織物の原料である。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "璃月地域の特産",
-    "drop": ["璃月港の玉京台付近で採集", "望舒旅館付近で採集", "推奨：璃月港で採集"]
-  },
+  { "id": "SilkFlower", "name": "Silk Flower", "localeName": "霓裳花", "desc": "璃月で霓雲のように咲く赤い花。水のように滑らかな織物の原料である。", "rarity": 1, "type": 4, "typeText": "璃月地域の特産", "drop": ["璃月港の玉京台付近で採集", "望舒旅館付近で採集", "推奨：璃月港で採集"] },
   {
     "id": "GlazeLily",
     "name": "Glaze Lily",
@@ -345,308 +86,38 @@
     "typeText": "璃月地域の特産",
     "drop": ["野外で採集", "推奨：璃月港の玉京台付近で採集", "推奨：軽策荘で採集"]
   },
-  {
-    "id": "Qingxin",
-    "name": "Qingxin",
-    "localeName": "清心",
-    "desc": "断崖絶壁にしか咲かない透き通る白い花。平原の温もりと潤いよりも冷たい高い場所を選ぶ花。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "璃月地域の特産",
-    "drop": ["石林の頂上で採集", "推奨：絶雲の間で採集", "推奨：孤雲閣で採集"]
-  },
-  {
-    "id": "Horsetail",
-    "name": "Horsetail",
-    "localeName": "馬尾",
-    "desc": "たまにある荻と共に生長する紫色の植物。周りの荻より高く、大きく、まるで気高い人のような植物である。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "素材",
-    "drop": ["葦原と湿地で採集", "推奨：荻花洲で採集"]
-  },
-  {
-    "id": "Starconch",
-    "name": "Starconch",
-    "localeName": "星螺",
-    "desc": "潮と共に砂浜についた螺。よく聞けば、思いが溢れる海の叫びが聞こえる。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "璃月地域の特産",
-    "drop": ["璃月の海辺で採集"]
-  },
-  {
-    "id": "Violetgrass",
-    "name": "Violetgrass",
-    "localeName": "琉璃袋",
-    "desc": "生命力旺盛な花。地面に向ける咲き方は自らの香りを守るためらしい。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "璃月地域の特産",
-    "drop": ["璃月の崖で採集"]
-  },
-  {
-    "id": "Berry",
-    "name": "Berry",
-    "localeName": "ラズベリー",
-    "desc": "鮮やかな色をした果物。野外に広がるこの美しい果物は、旅の疲れを吹き飛ばしてくれる。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["野外で採集"]
-  },
-  {
-    "id": "MistFlowerCorolla",
-    "name": "Mist Flower Corolla",
-    "localeName": "霧氷花の花蕊",
-    "desc": "固い氷に閉ざされた花蕊。摘み取っても凍えるような冷気を放つ植物。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "素材",
-    "drop": ["野外で採集", "推奨：アカツキワイナリーで採集"]
-  },
-  {
-    "id": "FlamingFlowerStamen",
-    "name": "Flaming Flower Stamen",
-    "localeName": "烈焔花の花蕊",
-    "desc": "アツアツの花蕊。勢いよく燃える花びらは、水をかけて消しても、かすかに熱を放ち続ける。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "素材",
-    "drop": ["野外で採集", "推奨：千風の神殿で採集"]
-  },
-  {
-    "id": "ElectroCrystal",
-    "name": "Electro Crystal",
-    "localeName": "電気水晶",
-    "desc": "電気を含んだ晶石。大気と大地に散逸している電気の塊。触るとビリビリしびれる。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "素材",
-    "drop": ["崖の下で採集", "推奨：誓いの岬で採集"]
-  },
-  {
-    "id": "SmallLampGrass",
-    "name": "Small Lamp Grass",
-    "localeName": "イグサ",
-    "desc": "夜になると微かな光を放つ花。他の食材と一緒に料理にすると旨味アップ。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "モンド地域の特産",
-    "drop": ["夜の野外で採集", "推奨：奔狼領で採集", "推奨：囁きの森で採集"]
-  },
-  {
-    "id": "CallaLily",
-    "name": "Calla Lily",
-    "localeName": "ドドリアン",
-    "desc": "水辺に育つ花。花びらを料理すると、爽やかな口当たりで、ほろ苦い。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "モンド地域の特産",
-    "drop": ["湖岸で採集", "推奨：清泉町で採集"]
-  },
-  {
-    "id": "DandelionSeed",
-    "name": "Dandelion Seed",
-    "localeName": "蒲公英の種",
-    "desc": "風に乗って移動する小さい種。旅するための羽を抜いても、そこには遠くへの希望が宿っている。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "モンド地域の特産",
-    "drop": ["野外で採集", "推奨：モンド城門で採集"]
-  },
-  {
-    "id": "CorLapis",
-    "name": "Cor Lapis",
-    "localeName": "石珀",
-    "desc": "純度が極めて高い岩の元素の晶石。よくほかの鉱物と一緒に発見される。「岩の心」とも呼ばれる。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "璃月地域の特産",
-    "drop": ["璃月の崖の下で採集", "推奨：琥牢山で採集"]
-  },
-  {
-    "id": "RawMeat",
-    "name": "Raw Meat",
-    "localeName": "獣肉",
-    "desc": "ケモノ類の新鮮な肉。適切な料理をすると元気モリモリの食事になる。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["動物ドロップ"]
-  },
-  {
-    "id": "BirdEgg",
-    "name": "Bird Egg",
-    "localeName": "鳥の卵",
-    "desc": "無限の可能性を持つ鳥類の卵。一日に必要なたんぱく質を摂取できる。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["野外で採集"]
-  },
-  {
-    "id": "Matsutake",
-    "name": "Matsutake",
-    "localeName": "松茸",
-    "desc": "マツの木と一緒に育つ珍しいキノコ類。ほのかに優雅な香りを放ち、自らの位置を知らせている。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["野外で採集"]
-  },
+  { "id": "Qingxin", "name": "Qingxin", "localeName": "清心", "desc": "断崖絶壁にしか咲かない透き通る白い花。平原の温もりと潤いよりも冷たい高い場所を選ぶ花。", "rarity": 1, "type": 4, "typeText": "璃月地域の特産", "drop": ["石林の頂上で採集", "推奨：絶雲の間で採集", "推奨：孤雲閣で採集"] },
+  { "id": "Horsetail", "name": "Horsetail", "localeName": "馬尾", "desc": "たまにある荻と共に生長する紫色の植物。周りの荻より高く、大きく、まるで気高い人のような植物である。", "rarity": 1, "type": 4, "typeText": "素材", "drop": ["葦原と湿地で採集", "推奨：荻花洲で採集"] },
+  { "id": "Starconch", "name": "Starconch", "localeName": "星螺", "desc": "潮と共に砂浜についた螺。よく聞けば、思いが溢れる海の叫びが聞こえる。", "rarity": 1, "type": 4, "typeText": "璃月地域の特産", "drop": ["璃月の海辺で採集"] },
+  { "id": "Violetgrass", "name": "Violetgrass", "localeName": "琉璃袋", "desc": "生命力旺盛な花。地面に向ける咲き方は自らの香りを守るためらしい。", "rarity": 1, "type": 4, "typeText": "璃月地域の特産", "drop": ["璃月の崖で採集"] },
+  { "id": "Berry", "name": "Berry", "localeName": "ラズベリー", "desc": "鮮やかな色をした果物。野外に広がるこの美しい果物は、旅の疲れを吹き飛ばしてくれる。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["野外で採集"] },
+  { "id": "MistFlowerCorolla", "name": "Mist Flower Corolla", "localeName": "霧氷花の花蕊", "desc": "固い氷に閉ざされた花蕊。摘み取っても凍えるような冷気を放つ植物。", "rarity": 1, "type": 4, "typeText": "素材", "drop": ["野外で採集", "推奨：アカツキワイナリーで採集"] },
+  { "id": "FlamingFlowerStamen", "name": "Flaming Flower Stamen", "localeName": "烈焔花の花蕊", "desc": "アツアツの花蕊。勢いよく燃える花びらは、水をかけて消しても、かすかに熱を放ち続ける。", "rarity": 1, "type": 4, "typeText": "素材", "drop": ["野外で採集", "推奨：千風の神殿で採集"] },
+  { "id": "ElectroCrystal", "name": "Electro Crystal", "localeName": "電気水晶", "desc": "電気を含んだ晶石。大気と大地に散逸している電気の塊。触るとビリビリしびれる。", "rarity": 1, "type": 4, "typeText": "素材", "drop": ["崖の下で採集", "推奨：誓いの岬で採集"] },
+  { "id": "SmallLampGrass", "name": "Small Lamp Grass", "localeName": "イグサ", "desc": "夜になると微かな光を放つ花。他の食材と一緒に料理にすると旨味アップ。", "rarity": 1, "type": 4, "typeText": "モンド地域の特産", "drop": ["夜の野外で採集", "推奨：奔狼領で採集", "推奨：囁きの森で採集"] },
+  { "id": "CallaLily", "name": "Calla Lily", "localeName": "ドドリアン", "desc": "水辺に育つ花。花びらを料理すると、爽やかな口当たりで、ほろ苦い。", "rarity": 1, "type": 4, "typeText": "モンド地域の特産", "drop": ["湖岸で採集", "推奨：清泉町で採集"] },
+  { "id": "DandelionSeed", "name": "Dandelion Seed", "localeName": "蒲公英の種", "desc": "風に乗って移動する小さい種。旅するための羽を抜いても、そこには遠くへの希望が宿っている。", "rarity": 1, "type": 4, "typeText": "モンド地域の特産", "drop": ["野外で採集", "推奨：モンド城門で採集"] },
+  { "id": "CorLapis", "name": "Cor Lapis", "localeName": "石珀", "desc": "純度が極めて高い岩の元素の晶石。よくほかの鉱物と一緒に発見される。「岩の心」とも呼ばれる。", "rarity": 1, "type": 4, "typeText": "璃月地域の特産", "drop": ["璃月の崖の下で採集", "推奨：琥牢山で採集"] },
+  { "id": "RawMeat", "name": "Raw Meat", "localeName": "獣肉", "desc": "ケモノ類の新鮮な肉。適切な料理をすると元気モリモリの食事になる。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["動物ドロップ"] },
+  { "id": "BirdEgg", "name": "Bird Egg", "localeName": "鳥の卵", "desc": "無限の可能性を持つ鳥類の卵。一日に必要なたんぱく質を摂取できる。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["野外で採集"] },
+  { "id": "Matsutake", "name": "Matsutake", "localeName": "松茸", "desc": "マツの木と一緒に育つ珍しいキノコ類。ほのかに優雅な香りを放ち、自らの位置を知らせている。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["野外で採集"] },
   { "id": "Fowl", "name": "Fowl", "localeName": "鳥肉", "desc": "鳥類の新鮮な肉。適切な料理をすると元気みなぎる食事になる。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["動物ドロップ"] },
-  {
-    "id": "ButterflyWings",
-    "name": "Butterfly Wings",
-    "localeName": "蝶々の羽",
-    "desc": "色鮮やかな羽。落ちた鱗粉が微かな光を放っている。もしかしたら蝶々が軽やかに飛ぶための成分かもしれない。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "素材",
-    "drop": ["野外で採集"]
-  },
-  {
-    "id": "Crab",
-    "name": "Crab",
-    "localeName": "カニ",
-    "desc": "近海エリアに生息する甲殻類動物。きめ細やかで美しい肉質をしており、簡単に美味しい食事に加工できる。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["川、湖、海辺で採集"]
-  },
-  {
-    "id": "CrabRoe",
-    "name": "Crab Roe",
-    "localeName": "かにみそ",
-    "desc": "カニには独自の美味しさがある。珍しくて貴重なかにみそは、カニのエッセンスが凝縮している。ただし、誰もがこの美味しさを好むわけではない。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["食材加工で獲得"]
-  },
-  {
-    "id": "Salt",
-    "name": "Salt",
-    "localeName": "塩",
-    "desc": "塩味の調味料。料理の中に「適量」を加えるだけで、メニューの質を高められる。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["雑貨屋で購入"]
-  },
-  {
-    "id": "Onion",
-    "name": "Onion",
-    "localeName": "玉ねぎ",
-    "desc": "球状の草本植物。みじん切りにした人に復讐するため、機嫌の良し悪しに関わらず涙を流させる。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["雑貨屋で購入"]
-  },
-  {
-    "id": "Pepper",
-    "name": "Pepper",
-    "localeName": "コショウ",
-    "desc": "香りと辛みを持つ調味料。油っぽさを抑え、食材の香りを引き立てる。肉料理のベストパートナー。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["雑貨屋で購入"]
-  },
+  { "id": "ButterflyWings", "name": "Butterfly Wings", "localeName": "蝶々の羽", "desc": "色鮮やかな羽。落ちた鱗粉が微かな光を放っている。もしかしたら蝶々が軽やかに飛ぶための成分かもしれない。", "rarity": 1, "type": 4, "typeText": "素材", "drop": ["野外で採集"] },
+  { "id": "Crab", "name": "Crab", "localeName": "カニ", "desc": "近海エリアに生息する甲殻類動物。きめ細やかで美しい肉質をしており、簡単に美味しい食事に加工できる。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["川、湖、海辺で採集"] },
+  { "id": "CrabRoe", "name": "Crab Roe", "localeName": "かにみそ", "desc": "カニには独自の美味しさがある。珍しくて貴重なかにみそは、カニのエッセンスが凝縮している。ただし、誰もがこの美味しさを好むわけではない。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["食材加工で獲得"] },
+  { "id": "Salt", "name": "Salt", "localeName": "塩", "desc": "塩味の調味料。料理の中に「適量」を加えるだけで、メニューの質を高められる。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["雑貨屋で購入"] },
+  { "id": "Onion", "name": "Onion", "localeName": "玉ねぎ", "desc": "球状の草本植物。みじん切りにした人に復讐するため、機嫌の良し悪しに関わらず涙を流させる。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["雑貨屋で購入"] },
+  { "id": "Pepper", "name": "Pepper", "localeName": "コショウ", "desc": "香りと辛みを持つ調味料。油っぽさを抑え、食材の香りを引き立てる。肉料理のベストパートナー。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["雑貨屋で購入"] },
   { "id": "Milk", "name": "Milk", "localeName": "牛乳", "desc": "甘い香りがする牛乳。口から滴り落ちる雫すら無駄にしたくない。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["雑貨屋で購入"] },
-  {
-    "id": "Tomato",
-    "name": "Tomato",
-    "localeName": "トマト",
-    "desc": "真っ赤な皮をまとう草本植物。鮮やかな色つやをしており、汁は甘酸っぱい。果物なのか、野菜なのかについては、昔から論争になっている。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["雑貨屋で購入"]
-  },
-  {
-    "id": "Potato",
-    "name": "Potato",
-    "localeName": "ジャガイモ",
-    "desc": "塊状の草本植物。大地からの贈り物。どのように加工しても、永遠に食べ飽きることのない不思議な食材。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["雑貨屋で購入"]
-  },
-  {
-    "id": "Frog",
-    "name": "Frog",
-    "localeName": "カエル",
-    "desc": "一般的なカエル類。ジメジメした環境に生息する。いつも活力に満ちており、体からは活力をみなぎらせる物質を分泌している。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "素材",
-    "drop": ["淡水域で採集"]
-  },
-  {
-    "id": "LuminescentSpine",
-    "name": "Luminescent Spine",
-    "localeName": "発光髄",
-    "desc": "ホタルの光を放つ部位。ホタルにとっては求婚のための器官でもある。人にとっては滋養強壮の良薬。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "素材",
-    "drop": ["野外で採集"]
-  },
-  {
-    "id": "LizardTail",
-    "name": "Lizard Tail",
-    "localeName": "トカゲのしっぽ",
-    "desc": "生命を失った後もクネクネ動くトカゲのしっぽ。強力な薬効を持っており、人の皮膚を硬くする。とても苦い。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "素材",
-    "drop": ["トカゲを捕まえる"]
-  },
-  {
-    "id": "Fish",
-    "name": "Fish",
-    "localeName": "魚肉",
-    "desc": "魚類の新鮮な肉。適切な料理をすると、とても味わい深い食事になる。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["魚類を捕まえる"]
-  },
-  {
-    "id": "CrystalCore",
-    "name": "Crystal Core",
-    "localeName": "晶核",
-    "desc": "晶蝶の核心。大気中に散らばった細かい元素を吸収する晶蝶の不思議な器官。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "素材",
-    "drop": ["晶蝶を捕まえる"]
-  },
-  {
-    "id": "RawMeatS",
-    "name": "Raw Meat (S)",
-    "localeName": "獣肉（小）",
-    "desc": "ケモノ類の新鮮な肉。適切な料理をすると元気モリモリの食事になる。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["動物ドロップ"]
-  },
-  {
-    "id": "FowlS",
-    "name": "Fowl (S)",
-    "localeName": "鳥肉（小）",
-    "desc": "鳥類の新鮮な肉。適切な料理をすると元気みなぎる食事になる。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["動物ドロップ"]
-  },
+  { "id": "Tomato", "name": "Tomato", "localeName": "トマト", "desc": "真っ赤な皮をまとう草本植物。鮮やかな色つやをしており、汁は甘酸っぱい。果物なのか、野菜なのかについては、昔から論争になっている。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["雑貨屋で購入"] },
+  { "id": "Potato", "name": "Potato", "localeName": "ジャガイモ", "desc": "塊状の草本植物。大地からの贈り物。どのように加工しても、永遠に食べ飽きることのない不思議な食材。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["雑貨屋で購入"] },
+  { "id": "Frog", "name": "Frog", "localeName": "カエル", "desc": "一般的なカエル類。ジメジメした環境に生息する。いつも活力に満ちており、体からは活力をみなぎらせる物質を分泌している。", "rarity": 1, "type": 4, "typeText": "素材", "drop": ["淡水域で採集"] },
+  { "id": "LuminescentSpine", "name": "Luminescent Spine", "localeName": "発光髄", "desc": "ホタルの光を放つ部位。ホタルにとっては求婚のための器官でもある。人にとっては滋養強壮の良薬。", "rarity": 1, "type": 4, "typeText": "素材", "drop": ["野外で採集"] },
+  { "id": "LizardTail", "name": "Lizard Tail", "localeName": "トカゲのしっぽ", "desc": "生命を失った後もクネクネ動くトカゲのしっぽ。強力な薬効を持っており、人の皮膚を硬くする。とても苦い。", "rarity": 1, "type": 4, "typeText": "素材", "drop": ["トカゲを捕まえる"] },
+  { "id": "Fish", "name": "Fish", "localeName": "魚肉", "desc": "魚類の新鮮な肉。適切な料理をすると、とても味わい深い食事になる。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["魚類を捕まえる"] },
+  { "id": "CrystalCore", "name": "Crystal Core", "localeName": "晶核", "desc": "晶蝶の核心。大気中に散らばった細かい元素を吸収する晶蝶の不思議な器官。", "rarity": 1, "type": 4, "typeText": "素材", "drop": ["晶蝶を捕まえる"] },
+  { "id": "RawMeatS", "name": "Raw Meat (S)", "localeName": "獣肉（小）", "desc": "ケモノ類の新鮮な肉。適切な料理をすると元気モリモリの食事になる。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["動物ドロップ"] },
+  { "id": "FowlS", "name": "Fowl (S)", "localeName": "鳥肉（小）", "desc": "鳥類の新鮮な肉。適切な料理をすると元気みなぎる食事になる。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["動物ドロップ"] },
   { "id": "Tofu", "name": "Tofu", "localeName": "豆腐", "desc": "新鮮な大豆加工品。なめらかな食感が特徴。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["璃月雑貨屋で購入"] },
   { "id": "Almond", "name": "Almond", "localeName": "杏仁", "desc": "不思議な香りがする種。ひと味違う風味が味わえる。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["璃月雑貨屋で購入"] },
   {
@@ -659,36 +130,9 @@
     "typeText": "素材",
     "drop": ["野外で採集"]
   },
-  {
-    "id": "BambooShoot",
-    "name": "Bamboo Shoot",
-    "localeName": "タケノコ",
-    "desc": "新鮮な採りたての筍の芽、不思議ないい匂いがする。筍が生えるところにしか育てられない美味しい食材。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["野外で採集"]
-  },
-  {
-    "id": "Rice",
-    "name": "Rice",
-    "localeName": "米",
-    "desc": "テイワットで特に見られる作物。何度食べても飽きない、空腹を満たしてくれる最高の食材。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["璃月雑貨屋で購入"]
-  },
-  {
-    "id": "ShrimpMeat",
-    "name": "Shrimp Meat",
-    "localeName": "エビのむき身",
-    "desc": "深海エビのむき身。豊富な栄養と圧倒的な食感が特徴。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["璃月雑貨屋で購入"]
-  },
+  { "id": "BambooShoot", "name": "Bamboo Shoot", "localeName": "タケノコ", "desc": "新鮮な採りたての筍の芽、不思議ないい匂いがする。筍が生えるところにしか育てられない美味しい食材。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["野外で採集"] },
+  { "id": "Rice", "name": "Rice", "localeName": "米", "desc": "テイワットで特に見られる作物。何度食べても飽きない、空腹を満たしてくれる最高の食材。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["璃月雑貨屋で購入"] },
+  { "id": "ShrimpMeat", "name": "Shrimp Meat", "localeName": "エビのむき身", "desc": "深海エビのむき身。豊富な栄養と圧倒的な食感が特徴。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["璃月雑貨屋で購入"] },
   {
     "id": "ChilledMeat",
     "name": "Chilled Meat",
@@ -699,36 +143,9 @@
     "typeText": "食材",
     "drop": ["動物ドロップ"]
   },
-  {
-    "id": "IronChunk",
-    "name": "Iron Chunk",
-    "localeName": "鉄の塊",
-    "desc": "鉄の鉱石。相応の技術を持った職人の手にかかれば、輝きを放つでしょう。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "素材",
-    "drop": ["野外で採集"]
-  },
-  {
-    "id": "WhiteIronChunk",
-    "name": "White Iron Chunk",
-    "localeName": "白鉄の塊",
-    "desc": "白鉄の鉱石。相応の技術を持った職人の手にかかれば、異彩を放つでしょう。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "素材",
-    "drop": ["野外で採集", "推奨：望風山地で採集", "推奨：奔狼領で採集"]
-  },
-  {
-    "id": "CrystalChunk",
-    "name": "Crystal Chunk",
-    "localeName": "水晶の塊",
-    "desc": "加工していないクリスタルの塊。専門的な処理を施すと、本当の価値を発揮します。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "素材",
-    "drop": ["野外で採集", "推奨：風龍廃墟で採集"]
-  },
+  { "id": "IronChunk", "name": "Iron Chunk", "localeName": "鉄の塊", "desc": "鉄の鉱石。相応の技術を持った職人の手にかかれば、輝きを放つでしょう。", "rarity": 1, "type": 4, "typeText": "素材", "drop": ["野外で採集"] },
+  { "id": "WhiteIronChunk", "name": "White Iron Chunk", "localeName": "白鉄の塊", "desc": "白鉄の鉱石。相応の技術を持った職人の手にかかれば、異彩を放つでしょう。", "rarity": 1, "type": 4, "typeText": "素材", "drop": ["野外で採集", "推奨：望風山地で採集", "推奨：奔狼領で採集"] },
+  { "id": "CrystalChunk", "name": "Crystal Chunk", "localeName": "水晶の塊", "desc": "加工していないクリスタルの塊。専門的な処理を施すと、本当の価値を発揮します。", "rarity": 1, "type": 4, "typeText": "素材", "drop": ["野外で採集", "推奨：風龍廃墟で採集"] },
   {
     "id": "MagicalCrystalChunk",
     "name": "Magical Crystal Chunk",
@@ -740,16 +157,7 @@
     "drop": ["野外で採集"]
   },
   { "id": "ScarletQuartz", "name": "Scarlet Quartz", "localeName": "深紅の石", "desc": "深紅の石", "rarity": 1, "type": 7, "typeText": "龍血バフ", "drop": ["野外採取"] },
-  {
-    "id": "Starsilver",
-    "name": "Starsilver",
-    "localeName": "星銀鉱石",
-    "desc": "ドラゴンスパインの特殊な地理環境と地脈により生成された珍しい鉱石。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "素材",
-    "drop": ["野外採取"]
-  },
+  { "id": "Starsilver", "name": "Starsilver", "localeName": "星銀鉱石", "desc": "ドラゴンスパインの特殊な地理環境と地脈により生成された珍しい鉱石。", "rarity": 1, "type": 4, "typeText": "素材", "drop": ["野外採取"] },
   {
     "id": "NorthlanderSwordBillet",
     "name": "Northlander Sword Billet",
@@ -800,227 +208,30 @@
     "typeText": "素材",
     "drop": ["BOSSドロップ"]
   },
-  {
-    "id": "HuntingTrap",
-    "name": "Hunting Trap",
-    "localeName": "狩猟の罠",
-    "desc": "一定の大きさの野獣を捕獲するための罠。野外でちゃんと素材を捜せば作れる物。バレないように地面に設置しよう。",
-    "rarity": 1,
-    "type": 7,
-    "typeText": "消耗品"
-  },
-  {
-    "id": "StrangeTooth",
-    "name": "Strange Tooth",
-    "localeName": "奇妙な「牙」",
-    "desc": "雪山で拾った「牙」。これについての情報を知っている人がいるかもしれない…",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "素材"
-  },
-  {
-    "id": "VitalizedDragontooth",
-    "name": "Vitalized Dragontooth",
-    "localeName": "生命力を吸収した龍牙",
-    "desc": "生命力を吸収した龍牙。その光沢と質感は、人の心を不安にさせる…",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "素材"
-  },
-  {
-    "id": "PyroShard",
-    "name": "Pyro Shard",
-    "localeName": "炎元素結晶の欠片",
-    "desc": "炎元素結晶から剥がれ落ちた結晶の欠片。吸収すると、炎元素エネルギー50を獲得できる",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "消耗品"
-  },
-  {
-    "id": "HydroShard",
-    "name": "Hydro Shard",
-    "localeName": "水元素結晶の欠片",
-    "desc": "水元素結晶から剥がれ落ちた結晶の欠片。吸収すると、水元素エネルギー50を獲得できる",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "消耗品"
-  },
-  {
-    "id": "DendroShard",
-    "name": "Dendro Shard",
-    "localeName": "草元素結晶の欠片",
-    "desc": "草元素結晶から剥がれ落ちた結晶の欠片。吸収すると、草元素エネルギー50を獲得できる",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "消耗品"
-  },
-  {
-    "id": "ElectroShard",
-    "name": "Electro Shard",
-    "localeName": "雷元素結晶の欠片",
-    "desc": "雷元素結晶から剥がれ落ちた結晶の欠片。吸収すると、雷元素エネルギー50を獲得できる",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "消耗品"
-  },
-  {
-    "id": "AnemoShard",
-    "name": "Anemo Shard",
-    "localeName": "風元素結晶の欠片",
-    "desc": "風元素結晶から剥がれ落ちた結晶の欠片。吸収すると、風元素エネルギー50を獲得できる",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "消耗品"
-  },
-  {
-    "id": "CryoShard",
-    "name": "Cryo Shard",
-    "localeName": "氷元素結晶の欠片",
-    "desc": "氷元素結晶から剥がれ落ちた結晶の欠片。吸収すると、氷元素エネルギー50を獲得できる",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "消耗品"
-  },
-  {
-    "id": "GeoShard",
-    "name": "Geo Shard",
-    "localeName": "岩元素結晶の欠片",
-    "desc": "岩元素結晶から剥がれ落ちた結晶の欠片。吸収すると、岩元素エネルギー50を獲得できる",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "消耗品"
-  },
-  {
-    "id": "PrimordialElementalShard",
-    "name": "Primordial Elemental Shard",
-    "localeName": "原初元素結晶の欠片",
-    "desc": "無属性の結晶から剥がれ落ちた結晶の欠片。吸収すると、無属性エネルギー50を獲得できる",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "消耗品"
-  },
-  {
-    "id": "PyroJikaka",
-    "name": "Pyro Jikaka",
-    "localeName": "ファイアチーカカ",
-    "desc": "火属性のチーカカの木から摘んだ果実。食べると炎元素エネルギー30を獲得するできる",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "消耗品"
-  },
-  {
-    "id": "HydroJikaka",
-    "name": "Hydro Jikaka",
-    "localeName": "ウォーターチーカカ",
-    "desc": "水属性のチーカカの木から摘んだ果実。食べると水元素エネルギー30を獲得するできる",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "消耗品"
-  },
-  {
-    "id": "DendroJikaka",
-    "name": "Dendro Jikaka",
-    "localeName": "グラスチーカカ",
-    "desc": "草属性のチーカカの木から摘んだ果実。食べると草元素エネルギー30を獲得するできる",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "消耗品"
-  },
-  {
-    "id": "ElectroJikaka",
-    "name": "Electro Jikaka",
-    "localeName": "ライトニングチーカカ",
-    "desc": "雷属性のチーカカの木から摘んだ果実。食べると雷元素エネルギー30を獲得するできる",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "消耗品"
-  },
-  {
-    "id": "AnemoJikaka",
-    "name": "Anemo Jikaka",
-    "localeName": "ウィンドウチーカカ",
-    "desc": "風属性のチーカカの木から摘んだ果実。食べると風元素エネルギー30を獲得するできる",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "消耗品"
-  },
-  {
-    "id": "CryoJikaka",
-    "name": "Cryo Jikaka",
-    "localeName": "アイスチーカカ",
-    "desc": "氷属性のチーカカの木から摘んだ果実。食べると氷元素エネルギー30を獲得するできる",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "消耗品"
-  },
-  {
-    "id": "GeoJikaka",
-    "name": "Geo Jikaka",
-    "localeName": "ロックチーカカ",
-    "desc": "岩属性のチーカカの木から摘んだ果実。食べると岩元素エネルギー30を獲得するできる",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "消耗品"
-  },
-  {
-    "id": "StandardJikaka",
-    "name": "Standard Jikaka",
-    "localeName": "オリジンチーカカ",
-    "desc": "無属性のチーカカの木から摘んだ果実。食べると無属性エネルギー30を獲得するできる",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "消耗品"
-  },
-  {
-    "id": "BrilliantDiamondSliver",
-    "name": "Brilliant Diamond Sliver",
-    "localeName": "輝くダイヤ·砕屑",
-    "desc": "キャラクターの突破用アイテム。\n「世界へようこそ。」",
-    "rarity": 2,
-    "type": 1,
-    "typeText": "キャラクター育成素材",
-    "drop": ["冒険ランク報酬"]
-  },
-  {
-    "id": "BrilliantDiamondFragment",
-    "name": "Brilliant Diamond Fragment",
-    "localeName": "輝くダイヤ·欠片",
-    "desc": "キャラクターの突破用アイテム。\n「世界へようこそ。」",
-    "rarity": 3,
-    "type": 1,
-    "typeText": "キャラクター育成素材",
-    "drop": ["冒険ランク報酬"]
-  },
-  {
-    "id": "BrilliantDiamondChunk",
-    "name": "Brilliant Diamond Chunk",
-    "localeName": "輝くダイヤ·塊",
-    "desc": "キャラクターの突破用アイテム。\n「世界へようこそ。」",
-    "rarity": 4,
-    "type": 1,
-    "typeText": "キャラクター育成素材",
-    "drop": ["冒険ランク報酬"]
-  },
-  {
-    "id": "BrilliantDiamondGemstone",
-    "name": "Brilliant Diamond Gemstone",
-    "localeName": "輝くダイヤ",
-    "desc": "キャラクターの突破用アイテム。\n「世界へようこそ。」",
-    "rarity": 5,
-    "type": 1,
-    "typeText": "キャラクター育成素材",
-    "drop": ["冒険ランク報酬"]
-  },
-  {
-    "id": "AgnidusAgateSliver",
-    "name": "Agnidus Agate Sliver",
-    "localeName": "炎願のアゲート·砕屑",
-    "desc": "キャラクターの突破用アイテム。",
-    "rarity": 2,
-    "type": 1,
-    "typeText": "キャラクター育成素材",
-    "drop": ["爆炎樹でドロップ", "記念品ショップ交換"]
-  },
+  { "id": "HuntingTrap", "name": "Hunting Trap", "localeName": "狩猟の罠", "desc": "一定の大きさの野獣を捕獲するための罠。野外でちゃんと素材を捜せば作れる物。バレないように地面に設置しよう。", "rarity": 1, "type": 7, "typeText": "消耗品" },
+  { "id": "StrangeTooth", "name": "Strange Tooth", "localeName": "奇妙な「牙」", "desc": "雪山で拾った「牙」。これについての情報を知っている人がいるかもしれない…", "rarity": 1, "type": 4, "typeText": "素材" },
+  { "id": "VitalizedDragontooth", "name": "Vitalized Dragontooth", "localeName": "生命力を吸収した龍牙", "desc": "生命力を吸収した龍牙。その光沢と質感は、人の心を不安にさせる…", "rarity": 1, "type": 4, "typeText": "素材" },
+  { "id": "PyroShard", "name": "Pyro Shard", "localeName": "炎元素結晶の欠片", "desc": "炎元素結晶から剥がれ落ちた結晶の欠片。吸収すると、炎元素エネルギー50を獲得できる", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "HydroShard", "name": "Hydro Shard", "localeName": "水元素結晶の欠片", "desc": "水元素結晶から剥がれ落ちた結晶の欠片。吸収すると、水元素エネルギー50を獲得できる", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "DendroShard", "name": "Dendro Shard", "localeName": "草元素結晶の欠片", "desc": "草元素結晶から剥がれ落ちた結晶の欠片。吸収すると、草元素エネルギー50を獲得できる", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "ElectroShard", "name": "Electro Shard", "localeName": "雷元素結晶の欠片", "desc": "雷元素結晶から剥がれ落ちた結晶の欠片。吸収すると、雷元素エネルギー50を獲得できる", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "AnemoShard", "name": "Anemo Shard", "localeName": "風元素結晶の欠片", "desc": "風元素結晶から剥がれ落ちた結晶の欠片。吸収すると、風元素エネルギー50を獲得できる", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "CryoShard", "name": "Cryo Shard", "localeName": "氷元素結晶の欠片", "desc": "氷元素結晶から剥がれ落ちた結晶の欠片。吸収すると、氷元素エネルギー50を獲得できる", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "GeoShard", "name": "Geo Shard", "localeName": "岩元素結晶の欠片", "desc": "岩元素結晶から剥がれ落ちた結晶の欠片。吸収すると、岩元素エネルギー50を獲得できる", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "PrimordialElementalShard", "name": "Primordial Elemental Shard", "localeName": "原初元素結晶の欠片", "desc": "無属性の結晶から剥がれ落ちた結晶の欠片。吸収すると、無属性エネルギー50を獲得できる", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "PyroJikaka", "name": "Pyro Jikaka", "localeName": "ファイアチーカカ", "desc": "火属性のチーカカの木から摘んだ果実。食べると炎元素エネルギー30を獲得するできる", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "HydroJikaka", "name": "Hydro Jikaka", "localeName": "ウォーターチーカカ", "desc": "水属性のチーカカの木から摘んだ果実。食べると水元素エネルギー30を獲得するできる", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "DendroJikaka", "name": "Dendro Jikaka", "localeName": "グラスチーカカ", "desc": "草属性のチーカカの木から摘んだ果実。食べると草元素エネルギー30を獲得するできる", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "ElectroJikaka", "name": "Electro Jikaka", "localeName": "ライトニングチーカカ", "desc": "雷属性のチーカカの木から摘んだ果実。食べると雷元素エネルギー30を獲得するできる", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "AnemoJikaka", "name": "Anemo Jikaka", "localeName": "ウィンドウチーカカ", "desc": "風属性のチーカカの木から摘んだ果実。食べると風元素エネルギー30を獲得するできる", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "CryoJikaka", "name": "Cryo Jikaka", "localeName": "アイスチーカカ", "desc": "氷属性のチーカカの木から摘んだ果実。食べると氷元素エネルギー30を獲得するできる", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "GeoJikaka", "name": "Geo Jikaka", "localeName": "ロックチーカカ", "desc": "岩属性のチーカカの木から摘んだ果実。食べると岩元素エネルギー30を獲得するできる", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "StandardJikaka", "name": "Standard Jikaka", "localeName": "オリジンチーカカ", "desc": "無属性のチーカカの木から摘んだ果実。食べると無属性エネルギー30を獲得するできる", "rarity": 1, "type": 2, "typeText": "消耗品" },
+  { "id": "BrilliantDiamondSliver", "name": "Brilliant Diamond Sliver", "localeName": "輝くダイヤ·砕屑", "desc": "キャラクターの突破用アイテム。\n「世界へようこそ。」", "rarity": 2, "type": 1, "typeText": "キャラクター育成素材", "drop": ["冒険ランク報酬"] },
+  { "id": "BrilliantDiamondFragment", "name": "Brilliant Diamond Fragment", "localeName": "輝くダイヤ·欠片", "desc": "キャラクターの突破用アイテム。\n「世界へようこそ。」", "rarity": 3, "type": 1, "typeText": "キャラクター育成素材", "drop": ["冒険ランク報酬"] },
+  { "id": "BrilliantDiamondChunk", "name": "Brilliant Diamond Chunk", "localeName": "輝くダイヤ·塊", "desc": "キャラクターの突破用アイテム。\n「世界へようこそ。」", "rarity": 4, "type": 1, "typeText": "キャラクター育成素材", "drop": ["冒険ランク報酬"] },
+  { "id": "BrilliantDiamondGemstone", "name": "Brilliant Diamond Gemstone", "localeName": "輝くダイヤ", "desc": "キャラクターの突破用アイテム。\n「世界へようこそ。」", "rarity": 5, "type": 1, "typeText": "キャラクター育成素材", "drop": ["冒険ランク報酬"] },
+  { "id": "AgnidusAgateSliver", "name": "Agnidus Agate Sliver", "localeName": "炎願のアゲート·砕屑", "desc": "キャラクターの突破用アイテム。", "rarity": 2, "type": 1, "typeText": "キャラクター育成素材", "drop": ["爆炎樹でドロップ", "記念品ショップ交換"] },
   {
     "id": "AgnidusAgateFragment",
     "name": "Agnidus Agate Fragment",
@@ -1051,16 +262,7 @@
     "typeText": "キャラクター育成素材",
     "drop": ["爆炎樹（Lv.75以上）でドロップ", "合成で獲得"]
   },
-  {
-    "id": "VarunadaLazuriteSliver",
-    "name": "Varunada Lazurite Sliver",
-    "localeName": "澄明なラピスラズリ·砕屑",
-    "desc": "キャラクターの突破用アイテム。",
-    "rarity": 2,
-    "type": 1,
-    "typeText": "キャラクター育成素材",
-    "drop": ["純水精霊でドロップ", "記念品ショップ交換"]
-  },
+  { "id": "VarunadaLazuriteSliver", "name": "Varunada Lazurite Sliver", "localeName": "澄明なラピスラズリ·砕屑", "desc": "キャラクターの突破用アイテム。", "rarity": 2, "type": 1, "typeText": "キャラクター育成素材", "drop": ["純水精霊でドロップ", "記念品ショップ交換"] },
   {
     "id": "VarunadaLazuriteFragment",
     "name": "Varunada Lazurite Fragment",
@@ -1091,35 +293,9 @@
     "typeText": "キャラクター育成素材",
     "drop": ["純水精霊（Lv.75以上）でドロップ", "合成で獲得"]
   },
-  {
-    "id": "NagadusEmeraldSliver",
-    "name": "Nagadus Emerald Sliver",
-    "localeName": "成長のエメラルド·砕屑",
-    "desc": "キャラクターの突破用アイテム。",
-    "rarity": 2,
-    "type": 1,
-    "typeText": "キャラクター育成素材"
-  },
-  {
-    "id": "NagadusEmeraldFragment",
-    "name": "Nagadus Emerald Fragment",
-    "localeName": "成長のエメラルド·欠片",
-    "desc": "キャラクターの突破用アイテム。\n「命は最後、手を放した…」",
-    "rarity": 3,
-    "type": 1,
-    "typeText": "キャラクター育成素材",
-    "drop": ["合成で獲得"]
-  },
-  {
-    "id": "NagadusEmeraldChunk",
-    "name": "Nagadus Emerald Chunk",
-    "localeName": "成長のエメラルド·塊",
-    "desc": "キャラクターの突破用アイテム。\n「命は最後、手を放した…」\n「森羅万象に自由を与えた。」",
-    "rarity": 4,
-    "type": 1,
-    "typeText": "キャラクター育成素材",
-    "drop": ["合成で獲得"]
-  },
+  { "id": "NagadusEmeraldSliver", "name": "Nagadus Emerald Sliver", "localeName": "成長のエメラルド·砕屑", "desc": "キャラクターの突破用アイテム。", "rarity": 2, "type": 1, "typeText": "キャラクター育成素材" },
+  { "id": "NagadusEmeraldFragment", "name": "Nagadus Emerald Fragment", "localeName": "成長のエメラルド·欠片", "desc": "キャラクターの突破用アイテム。\n「命は最後、手を放した…」", "rarity": 3, "type": 1, "typeText": "キャラクター育成素材", "drop": ["合成で獲得"] },
+  { "id": "NagadusEmeraldChunk", "name": "Nagadus Emerald Chunk", "localeName": "成長のエメラルド·塊", "desc": "キャラクターの突破用アイテム。\n「命は最後、手を放した…」\n「森羅万象に自由を与えた。」", "rarity": 4, "type": 1, "typeText": "キャラクター育成素材", "drop": ["合成で獲得"] },
   {
     "id": "NagadusEmeraldGemstone",
     "name": "Nagadus Emerald Gemstone",
@@ -1130,16 +306,7 @@
     "typeText": "キャラクター育成素材",
     "drop": ["合成で獲得"]
   },
-  {
-    "id": "VajradaAmethystSliver",
-    "name": "Vajrada Amethyst Sliver",
-    "localeName": "最勝のアメシスト·砕屑",
-    "desc": "キャラクターの突破用アイテム。",
-    "rarity": 2,
-    "type": 1,
-    "typeText": "キャラクター育成素材",
-    "drop": ["無相の雷でドロップ", "記念品ショップ交換"]
-  },
+  { "id": "VajradaAmethystSliver", "name": "Vajrada Amethyst Sliver", "localeName": "最勝のアメシスト·砕屑", "desc": "キャラクターの突破用アイテム。", "rarity": 2, "type": 1, "typeText": "キャラクター育成素材", "drop": ["無相の雷でドロップ", "記念品ショップ交換"] },
   {
     "id": "VajradaAmethystFragment",
     "name": "Vajrada Amethyst Fragment",
@@ -1170,16 +337,7 @@
     "typeText": "キャラクター育成素材",
     "drop": ["無相の雷（Lv.75以上）でドロップ", "合成で獲得"]
   },
-  {
-    "id": "VayudaTurquoiseSliver",
-    "name": "Vayuda Turquoise Sliver",
-    "localeName": "自由のターコイズ·砕屑",
-    "desc": "キャラクターの突破用アイテム。",
-    "rarity": 2,
-    "type": 1,
-    "typeText": "キャラクター育成素材",
-    "drop": ["無相の風でドロップ", "記念品ショップ交換"]
-  },
+  { "id": "VayudaTurquoiseSliver", "name": "Vayuda Turquoise Sliver", "localeName": "自由のターコイズ·砕屑", "desc": "キャラクターの突破用アイテム。", "rarity": 2, "type": 1, "typeText": "キャラクター育成素材", "drop": ["無相の風でドロップ", "記念品ショップ交換"] },
   {
     "id": "VayudaTurquoiseFragment",
     "name": "Vayuda Turquoise Fragment",
@@ -1210,26 +368,8 @@
     "typeText": "キャラクター育成素材",
     "drop": ["無相の風（Lv.75以上）でドロップ", "合成で獲得"]
   },
-  {
-    "id": "ShivadaJadeSliver",
-    "name": "Shivada Jade Sliver",
-    "localeName": "哀切なアイスクリスタル·砕屑",
-    "desc": "キャラクターの突破用アイテム。",
-    "rarity": 2,
-    "type": 1,
-    "typeText": "キャラクター育成素材",
-    "drop": ["急凍樹でドロップ", "記念品ショップ交換"]
-  },
-  {
-    "id": "ShivadaJadeFragment",
-    "name": "Shivada Jade Fragment",
-    "localeName": "哀切なアイスクリスタル·欠片",
-    "desc": "キャラクターの突破用アイテム。\n「…すみません…」",
-    "rarity": 3,
-    "type": 1,
-    "typeText": "キャラクター育成素材",
-    "drop": ["急凍樹（Lv.40以上）でドロップ", "合成で獲得"]
-  },
+  { "id": "ShivadaJadeSliver", "name": "Shivada Jade Sliver", "localeName": "哀切なアイスクリスタル·砕屑", "desc": "キャラクターの突破用アイテム。", "rarity": 2, "type": 1, "typeText": "キャラクター育成素材", "drop": ["急凍樹でドロップ", "記念品ショップ交換"] },
+  { "id": "ShivadaJadeFragment", "name": "Shivada Jade Fragment", "localeName": "哀切なアイスクリスタル·欠片", "desc": "キャラクターの突破用アイテム。\n「…すみません…」", "rarity": 3, "type": 1, "typeText": "キャラクター育成素材", "drop": ["急凍樹（Lv.40以上）でドロップ", "合成で獲得"] },
   {
     "id": "ShivadaJadeChunk",
     "name": "Shivada Jade Chunk",
@@ -1250,16 +390,7 @@
     "typeText": "キャラクター育成素材",
     "drop": ["急凍樹（Lv.75以上）でドロップ", "合成で獲得"]
   },
-  {
-    "id": "PrithivaTopazSliver",
-    "name": "Prithiva Topaz Sliver",
-    "localeName": "堅牢なトパーズ·砕屑",
-    "desc": "キャラクターの突破用アイテム。",
-    "rarity": 2,
-    "type": 1,
-    "typeText": "キャラクター育成素材",
-    "drop": ["無相の岩でドロップ", "記念品ショップ交換"]
-  },
+  { "id": "PrithivaTopazSliver", "name": "Prithiva Topaz Sliver", "localeName": "堅牢なトパーズ·砕屑", "desc": "キャラクターの突破用アイテム。", "rarity": 2, "type": 1, "typeText": "キャラクター育成素材", "drop": ["無相の岩でドロップ", "記念品ショップ交換"] },
   {
     "id": "PrithivaTopazFragment",
     "name": "Prithiva Topaz Fragment",
@@ -1416,15 +547,7 @@
     "typeText": "天賦育成素材",
     "drop": ["合成で獲得"]
   },
-  {
-    "id": "TeachingsOfDiligence",
-    "name": "Teachings of Diligence",
-    "localeName": "「勤労」の教え",
-    "desc": "天賦育成素材。\n岩の国の根本は勤労である。\n勤労とは人の努力で山と海を越え、繁栄と黄金を追い求める勇気と力である。",
-    "rarity": 2,
-    "type": 1,
-    "typeText": "天賦育成素材"
-  },
+  { "id": "TeachingsOfDiligence", "name": "Teachings of Diligence", "localeName": "「勤労」の教え", "desc": "天賦育成素材。\n岩の国の根本は勤労である。\n勤労とは人の努力で山と海を越え、繁栄と黄金を追い求める勇気と力である。", "rarity": 2, "type": 1, "typeText": "天賦育成素材" },
   {
     "id": "GuideToDiligence",
     "name": "Guide to Diligence",
@@ -1445,15 +568,7 @@
     "typeText": "天賦育成素材",
     "drop": ["合成で獲得"]
   },
-  {
-    "id": "TeachingsOfGold",
-    "name": "Teachings of Gold",
-    "localeName": "「黄金」の教え",
-    "desc": "天賦育成素材。\n岩の国の象徴は黄金である。\n黄金は璃月の深部に流れる血、璃月の心臓を動かす筋肉、璃月がまっすぐでいられるための骨である。",
-    "rarity": 2,
-    "type": 1,
-    "typeText": "天賦育成素材"
-  },
+  { "id": "TeachingsOfGold", "name": "Teachings of Gold", "localeName": "「黄金」の教え", "desc": "天賦育成素材。\n岩の国の象徴は黄金である。\n黄金は璃月の深部に流れる血、璃月の心臓を動かす筋肉、璃月がまっすぐでいられるための骨である。", "rarity": 2, "type": 1, "typeText": "天賦育成素材" },
   {
     "id": "GuideToGold",
     "name": "Guide to Gold",
@@ -1484,33 +599,9 @@
     "typeText": "天賦育成素材",
     "drop": ["期間限定イベント報酬"]
   },
-  {
-    "id": "TestStaminaGrowthItem",
-    "name": "Test Stamina Growth Item",
-    "localeName": "テスト用スタミナ成長アイテム",
-    "desc": "スタミナ成長に使うテスト用アイテム",
-    "rarity": 1,
-    "type": 7,
-    "typeText": "消耗品"
-  },
-  {
-    "id": "TestTemporaryStaminaGrowthItem",
-    "name": "Test Temporary stamina Growth Item",
-    "localeName": "テスト用スタミナ臨時増加アイテム",
-    "desc": "スタミナ上限を増やすテスト用アイテム",
-    "rarity": 1,
-    "type": 7,
-    "typeText": "消耗品"
-  },
-  {
-    "id": "ElementalDust",
-    "name": "Elemental Dust",
-    "localeName": "元素クリスタルの欠片",
-    "desc": "神の瞳の結晶が砕けた破片。付近に隠されている宝箱を知らせる",
-    "rarity": 1,
-    "type": 7,
-    "typeText": "冒険アイテム"
-  },
+  { "id": "TestStaminaGrowthItem", "name": "Test Stamina Growth Item", "localeName": "テスト用スタミナ成長アイテム", "desc": "スタミナ成長に使うテスト用アイテム", "rarity": 1, "type": 7, "typeText": "消耗品" },
+  { "id": "TestTemporaryStaminaGrowthItem", "name": "Test Temporary stamina Growth Item", "localeName": "テスト用スタミナ臨時増加アイテム", "desc": "スタミナ上限を増やすテスト用アイテム", "rarity": 1, "type": 7, "typeText": "消耗品" },
+  { "id": "ElementalDust", "name": "Elemental Dust", "localeName": "元素クリスタルの欠片", "desc": "神の瞳の結晶が砕けた破片。付近に隠されている宝箱を知らせる", "rarity": 1, "type": 7, "typeText": "冒険アイテム" },
   {
     "id": "MondstadtShrineOfDepthsKey",
     "name": "Mondstadt Shrine of Depths Key",
@@ -1530,15 +621,6 @@
     "typeText": "冒険アイテム"
   },
   {
-    "id": "FragileResin",
-    "name": "Fragile Resin",
-    "localeName": "脆弱樹脂",
-    "desc": "天然樹脂の補充に使えるアイテム、1個につき60を補充できる。\n少量のエネルギーが含まれている結晶、天然樹脂に吸収されることができる。\n様々なエネルギーの流れはこの世界の美しさと挑戦を構築した。この結晶の中にもそういうエネルギーが含まれている。",
-    "rarity": 4,
-    "type": 7,
-    "typeText": "消耗品"
-  },
-  {
     "id": "SuspiciousFishermansToast",
     "name": "Suspicious Fisherman's Toast",
     "localeName": "微妙な漁師トースト",
@@ -1548,16 +630,7 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "FishermansToast",
-    "name": "Fisherman's Toast",
-    "localeName": "漁師トースト",
-    "desc": "玉ねぎを敷き詰めたトースト。漁師の間に流行っている主食。袋にいっぱい詰めて、一日川辺で過ごせる。",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "FishermansToast", "name": "Fisherman's Toast", "localeName": "漁師トースト", "desc": "玉ねぎを敷き詰めたトースト。漁師の間に流行っている主食。袋にいっぱい詰めて、一日川辺で過ごせる。", "rarity": 2, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "DeliciousFishermansToast",
     "name": "Delicious Fisherman's Toast",
@@ -1568,66 +641,12 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "SuspiciousTeyvatFriedEgg",
-    "name": "Suspicious Teyvat Fried Egg",
-    "localeName": "微妙なテイワット風目玉焼き",
-    "desc": "鳥の卵の片面焼き。食感は少し硬めで、栄養が損なわれていないことしか期待できない。",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "TeyvatFriedEgg",
-    "name": "Teyvat Fried Egg",
-    "localeName": "テイワット風目玉焼き",
-    "desc": "鳥の卵の片面焼き。箸先で黄身をプチッと突つくと中身がとろりと流れ出て、食欲をそそられる。",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "DeliciousTeyvatFriedEgg",
-    "name": "Delicious Teyvat Fried Egg",
-    "localeName": "美味しそうなテイワット風目玉焼き",
-    "desc": "鳥の卵の片面焼き。太陽のように温かい口当たり、一口食べるだけで生命力がみなぎってくる。",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "SuspiciousSteak",
-    "name": "Suspicious Steak",
-    "localeName": "微妙なステーキ",
-    "desc": "強火で焼いたステーキ。表面はやや黒っぽく、十分な美味しさを発揮できないことを嘆いているかのようだ",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "Steak",
-    "name": "Steak",
-    "localeName": "ステーキ",
-    "desc": "強火で焼いたステーキ。肉汁を逃さずに焼き上げたジューシーなお肉はたまらない。",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "DeliciousSteak",
-    "name": "Delicious Steak",
-    "localeName": "美味しそうなステーキ",
-    "desc": "強火で焼いたステーキ。高温で焼くことで水分を中に閉じこめ、ナイフで切った後に流れ出る肉汁が楽しみで仕方ない。",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "SuspiciousTeyvatFriedEgg", "name": "Suspicious Teyvat Fried Egg", "localeName": "微妙なテイワット風目玉焼き", "desc": "鳥の卵の片面焼き。食感は少し硬めで、栄養が損なわれていないことしか期待できない。", "rarity": 1, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "TeyvatFriedEgg", "name": "Teyvat Fried Egg", "localeName": "テイワット風目玉焼き", "desc": "鳥の卵の片面焼き。箸先で黄身をプチッと突つくと中身がとろりと流れ出て、食欲をそそられる。", "rarity": 1, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "DeliciousTeyvatFriedEgg", "name": "Delicious Teyvat Fried Egg", "localeName": "美味しそうなテイワット風目玉焼き", "desc": "鳥の卵の片面焼き。太陽のように温かい口当たり、一口食べるだけで生命力がみなぎってくる。", "rarity": 1, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "SuspiciousSteak", "name": "Suspicious Steak", "localeName": "微妙なステーキ", "desc": "強火で焼いたステーキ。表面はやや黒っぽく、十分な美味しさを発揮できないことを嘆いているかのようだ", "rarity": 1, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "Steak", "name": "Steak", "localeName": "ステーキ", "desc": "強火で焼いたステーキ。肉汁を逃さずに焼き上げたジューシーなお肉はたまらない。", "rarity": 1, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "DeliciousSteak", "name": "Delicious Steak", "localeName": "美味しそうなステーキ", "desc": "強火で焼いたステーキ。高温で焼くことで水分を中に閉じこめ、ナイフで切った後に流れ出る肉汁が楽しみで仕方ない。", "rarity": 1, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "OutridersChampionSteak",
     "name": "Outrider's Champion Steak!",
@@ -1668,26 +687,8 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "FruitySkewers",
-    "name": "Fruity Skewers",
-    "localeName": "フルーティーな串焼き",
-    "desc": "ガイアのオリジナル料理。とても美味しそうな串焼き、しっかりとした濃厚な甘みを感じる。待って…本当にフルーツの香り？",
-    "rarity": 1,
-    "type": 3,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "SuspiciousFlamingRedBolognese",
-    "name": "Suspicious Flaming Red Bolognese",
-    "localeName": "微妙な完熟トマトのミートソース",
-    "desc": "ミートソースたっぷりのスパゲッティ。濃厚な口当たりで、歯にくっつく感覚が少し不快。",
-    "rarity": 2,
-    "type": 3,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "FruitySkewers", "name": "Fruity Skewers", "localeName": "フルーティーな串焼き", "desc": "ガイアのオリジナル料理。とても美味しそうな串焼き、しっかりとした濃厚な甘みを感じる。待って…本当にフルーツの香り？", "rarity": 1, "type": 3, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "SuspiciousFlamingRedBolognese", "name": "Suspicious Flaming Red Bolognese", "localeName": "微妙な完熟トマトのミートソース", "desc": "ミートソースたっぷりのスパゲッティ。濃厚な口当たりで、歯にくっつく感覚が少し不快。", "rarity": 2, "type": 3, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "FlamingRedBolognese",
     "name": "Flaming Red Bolognese",
@@ -1748,16 +749,7 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "SuspiciousTeaBreakPancake",
-    "name": "Suspicious Tea Break Pancake",
-    "localeName": "微妙な午後のパンケーキ",
-    "desc": "丸いパンケーキ。パンケーキの香りが焦げ臭さに負けている。ラズベリーだけが唯一の良心。",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "SuspiciousTeaBreakPancake", "name": "Suspicious Tea Break Pancake", "localeName": "微妙な午後のパンケーキ", "desc": "丸いパンケーキ。パンケーキの香りが焦げ臭さに負けている。ラズベリーだけが唯一の良心。", "rarity": 2, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "TeaBreakPancake",
     "name": "Tea Break Pancake",
@@ -1768,36 +760,9 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "DeliciousTeaBreakPancake",
-    "name": "Delicious Tea Break Pancake",
-    "localeName": "美味しそうな午後のパンケーキ",
-    "desc": "丸いパンケーキ。いい香りにフワフワな食感、まるで雲の上を歩いているようだ。",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "SuspiciousFriedRadishBalls",
-    "name": "Suspicious Fried Radish Balls",
-    "localeName": "微妙な大根の揚げ団子",
-    "desc": "油で揚げた大根団子。食べてみると油っぽく、水と一緒じゃないと飲みこめない。",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "FriedRadishBalls",
-    "name": "Fried Radish Balls",
-    "localeName": "大根の揚げ団子",
-    "desc": "油で揚げた大根団子。香りがよく柔らかくて独特な食感を持つ。熱いうちに食べるのがオススメ。璃月のレシピらしい。",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "DeliciousTeaBreakPancake", "name": "Delicious Tea Break Pancake", "localeName": "美味しそうな午後のパンケーキ", "desc": "丸いパンケーキ。いい香りにフワフワな食感、まるで雲の上を歩いているようだ。", "rarity": 2, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "SuspiciousFriedRadishBalls", "name": "Suspicious Fried Radish Balls", "localeName": "微妙な大根の揚げ団子", "desc": "油で揚げた大根団子。食べてみると油っぽく、水と一緒じゃないと飲みこめない。", "rarity": 2, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "FriedRadishBalls", "name": "Fried Radish Balls", "localeName": "大根の揚げ団子", "desc": "油で揚げた大根団子。香りがよく柔らかくて独特な食感を持つ。熱いうちに食べるのがオススメ。璃月のレシピらしい。", "rarity": 2, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "DeliciousFriedRadishBalls",
     "name": "Delicious Fried Radish Balls",
@@ -1808,26 +773,8 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "SuspiciousSatisfyingSalad",
-    "name": "Suspicious Satisfying Salad",
-    "localeName": "微妙な満足サラダ",
-    "desc": "冷たいサラダ。盛り付けに気をとられ、ジャガイモと鳥の卵の調理時間が間違えられた残念な一品。",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "SatisfyingSalad",
-    "name": "Satisfying Salad",
-    "localeName": "満足サラダ",
-    "desc": "冷たいサラダ。茹でたジャガイモ、新鮮な果物や野菜、さらに半熟の卵が添えられている。食べると満腹感を得られる。",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "SuspiciousSatisfyingSalad", "name": "Suspicious Satisfying Salad", "localeName": "微妙な満足サラダ", "desc": "冷たいサラダ。盛り付けに気をとられ、ジャガイモと鳥の卵の調理時間が間違えられた残念な一品。", "rarity": 2, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "SatisfyingSalad", "name": "Satisfying Salad", "localeName": "満足サラダ", "desc": "冷たいサラダ。茹でたジャガイモ、新鮮な果物や野菜、さらに半熟の卵が添えられている。食べると満腹感を得られる。", "rarity": 2, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "DeliciousSatisfyingSalad",
     "name": "Delicious Satisfying Salad",
@@ -1838,26 +785,8 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "SuspiciousSweetMadame",
-    "name": "Suspicious Sweet Madame",
-    "localeName": "微妙な鳥肉のスイートフラワー漬け焼き",
-    "desc": "蜜漬けにしてから焼いた鳥肉。焼きすぎでスイートフラワーが萎れ、鳥肉の苦みしか残っていない。",
-    "rarity": 2,
-    "type": 3,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "SweetMadame",
-    "name": "Sweet Madame",
-    "localeName": "鳥肉のスイートフラワー漬け焼き",
-    "desc": "蜜漬けにしてから焼いた鳥肉。ジューシーな鳥肉からスイートフラワーの蜜が滴り落ちる。甘くて美味しい。",
-    "rarity": 2,
-    "type": 3,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "SuspiciousSweetMadame", "name": "Suspicious Sweet Madame", "localeName": "微妙な鳥肉のスイートフラワー漬け焼き", "desc": "蜜漬けにしてから焼いた鳥肉。焼きすぎでスイートフラワーが萎れ、鳥肉の苦みしか残っていない。", "rarity": 2, "type": 3, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "SweetMadame", "name": "Sweet Madame", "localeName": "鳥肉のスイートフラワー漬け焼き", "desc": "蜜漬けにしてから焼いた鳥肉。ジューシーな鳥肉からスイートフラワーの蜜が滴り落ちる。甘くて美味しい。", "rarity": 2, "type": 3, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "DeliciousSweetMadame",
     "name": "Delicious Sweet Madame",
@@ -1878,16 +807,7 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "NorthernSmokedChicken",
-    "name": "Northern Smoked Chicken",
-    "localeName": "北地のスモークチキン",
-    "desc": "野菜と燻製にした鳥肉の組合せ。北地の家庭料理の定番。大事な客をもてなす時に出す。",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "NorthernSmokedChicken", "name": "Northern Smoked Chicken", "localeName": "北地のスモークチキン", "desc": "野菜と燻製にした鳥肉の組合せ。北地の家庭料理の定番。大事な客をもてなす時に出す。", "rarity": 2, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "DeliciousNorthernSmokedChicken",
     "name": "Delicious Northern Smoked Chicken",
@@ -1898,46 +818,10 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "SuspiciousCreamStew",
-    "name": "Suspicious Cream Stew",
-    "localeName": "微妙なホワイトソースポトフ",
-    "desc": "クリームで煮込んだポトフ。ソースが乾いているせいで、鉄板焼きのような料理になっている。",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "CreamStew",
-    "name": "Cream Stew",
-    "localeName": "ホワイトソースポトフ",
-    "desc": "クリームで煮込んだポトフ。濃厚なソースによって、しっかりした口当たりとなっている。口に入れるとみずみずしくて柔らかい。",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "DeliciousCreamStew",
-    "name": "Delicious Cream Stew",
-    "localeName": "美味しそうなホワイトソースポトフ",
-    "desc": "クリームで煮込んだポトフ。食材が口の中で融け、ミルク風呂に入っているかのように全身がリラックスする。",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "SpicyStew",
-    "name": "Spicy Stew",
-    "localeName": "スパイシーポトフ",
-    "desc": "バーバラのオリジナル料理。星の形に切ったニンジンで可愛さを増している…待って、この鬼のような辛さはどういうことだ？",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "SuspiciousCreamStew", "name": "Suspicious Cream Stew", "localeName": "微妙なホワイトソースポトフ", "desc": "クリームで煮込んだポトフ。ソースが乾いているせいで、鉄板焼きのような料理になっている。", "rarity": 2, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "CreamStew", "name": "Cream Stew", "localeName": "ホワイトソースポトフ", "desc": "クリームで煮込んだポトフ。濃厚なソースによって、しっかりした口当たりとなっている。口に入れるとみずみずしくて柔らかい。", "rarity": 2, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "DeliciousCreamStew", "name": "Delicious Cream Stew", "localeName": "美味しそうなホワイトソースポトフ", "desc": "クリームで煮込んだポトフ。食材が口の中で融け、ミルク風呂に入っているかのように全身がリラックスする。", "rarity": 2, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "SpicyStew", "name": "Spicy Stew", "localeName": "スパイシーポトフ", "desc": "バーバラのオリジナル料理。星の形に切ったニンジンで可愛さを増している…待って、この鬼のような辛さはどういうことだ？", "rarity": 2, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "SuspiciousMushroomPizza",
     "name": "Suspicious Mushroom Pizza",
@@ -1948,16 +832,7 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "MushroomPizza",
-    "name": "Mushroom Pizza",
-    "localeName": "キノコピザ",
-    "desc": "キノコとチーズを敷き詰めたピザ。熱いうちはチーズが細長い糸を引ける。ガブリと食べると止まらなくなる。",
-    "rarity": 3,
-    "type": 3,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "MushroomPizza", "name": "Mushroom Pizza", "localeName": "キノコピザ", "desc": "キノコとチーズを敷き詰めたピザ。熱いうちはチーズが細長い糸を引ける。ガブリと食べると止まらなくなる。", "rarity": 3, "type": 3, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "DeliciousMushroomPizza",
     "name": "Delicious Mushroom Pizza",
@@ -2058,16 +933,7 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "SauteedMatsutake",
-    "name": "Sautéed Matsutake",
-    "localeName": "松茸のバター焼き",
-    "desc": "松茸のスライスを焼いたもの。薄くスライスした松茸をバターで焼き、柔らかい口当たりにした。あっという間になくなってしまう。",
-    "rarity": 3,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "SauteedMatsutake", "name": "Sautéed Matsutake", "localeName": "松茸のバター焼き", "desc": "松茸のスライスを焼いたもの。薄くスライスした松茸をバターで焼き、柔らかい口当たりにした。あっという間になくなってしまう。", "rarity": 3, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "DeliciousSauteedMatsutake",
     "name": "Delicious Sautéed Matsutake",
@@ -2208,26 +1074,8 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "SuspiciousJadeParcels",
-    "name": "Suspicious Jade Parcels",
-    "localeName": "微妙な翠玉福袋",
-    "desc": "見栄えがいい料理。野菜が萎びてて、中の具材も半生。がっかりする一品。",
-    "rarity": 4,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "JadeParcels",
-    "name": "Jade Parcels",
-    "localeName": "翠玉福袋",
-    "desc": "見栄えがいい料理。歯応えのある野菜がハムの旨味を包む。スープと一緒に口にすると、そのピリ辛の旨さを忘れられない。",
-    "rarity": 4,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "SuspiciousJadeParcels", "name": "Suspicious Jade Parcels", "localeName": "微妙な翠玉福袋", "desc": "見栄えがいい料理。野菜が萎びてて、中の具材も半生。がっかりする一品。", "rarity": 4, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "JadeParcels", "name": "Jade Parcels", "localeName": "翠玉福袋", "desc": "見栄えがいい料理。歯応えのある野菜がハムの旨味を包む。スープと一緒に口にすると、そのピリ辛の旨さを忘れられない。", "rarity": 4, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "DeliciousJadeParcels",
     "name": "Delicious Jade Parcels",
@@ -2248,16 +1096,7 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "ZhongyuanChopSuey",
-    "name": "Zhongyuan Chop Suey",
-    "localeName": "中原のもつ焼き",
-    "desc": "味付けしてから出来上がった肉料理。材料は動物の内臓や小間切れだが、味付けなど下ごしらえをしたため、肉の生臭さはしない。",
-    "rarity": 3,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "ZhongyuanChopSuey", "name": "Zhongyuan Chop Suey", "localeName": "中原のもつ焼き", "desc": "味付けしてから出来上がった肉料理。材料は動物の内臓や小間切れだが、味付けなど下ごしらえをしたため、肉の生臭さはしない。", "rarity": 3, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "DeliciousZhongyuanChopSuey",
     "name": "Delicious Zhongyuan Chop Suey",
@@ -2308,16 +1147,7 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "SquirrelFish",
-    "name": "Squirrel Fish",
-    "localeName": "揚げ魚の甘酢あんかけ",
-    "desc": "手間をかける魚料理。骨を取り、片栗粉をつけて揚げた魚に、甘酸っぱいソースをかける。外はサクサク、中はしっとりしている。",
-    "rarity": 3,
-    "type": 3,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "SquirrelFish", "name": "Squirrel Fish", "localeName": "揚げ魚の甘酢あんかけ", "desc": "手間をかける魚料理。骨を取り、片栗粉をつけて揚げた魚に、甘酸っぱいソースをかける。外はサクサク、中はしっとりしている。", "rarity": 3, "type": 3, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "DeliciousSquirrelFish",
     "name": "Delicious Squirrel Fish",
@@ -2328,56 +1158,11 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "SuspiciousAlmondTofu",
-    "name": "Suspicious Almond Tofu",
-    "localeName": "微妙な杏仁豆腐",
-    "desc": "杏仁が原材料のデザート。手抜きしたため、口触りはあまり良くない。",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "AlmondTofu",
-    "name": "Almond Tofu",
-    "localeName": "杏仁豆腐",
-    "desc": "杏仁が原材料のデザート。滑らかな舌触りと杏仁の香りがする。豆腐に似ていることが名前の由来。",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "DeliciousAlmondTofu",
-    "name": "Delicious Almond Tofu",
-    "localeName": "美味しそうな杏仁豆腐",
-    "desc": "杏仁が原材料のデザート。形も色もまるで芸術品みたい。食べるのがもったいない。",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "SuspiciousJueyunChiliChicken",
-    "name": "Suspicious Jueyun Chili Chicken",
-    "localeName": "微妙な椒椒鶏",
-    "desc": "鳥肉の和え物。タレが染み込んでいないため、椒椒鶏というより、鳥肉の水煮と思われる。",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "JueyunChiliChicken",
-    "name": "Jueyun Chili Chicken",
-    "localeName": "椒椒鶏",
-    "desc": "鳥肉の和え物。鳥肉のジューシさをそのままキープされ、金色の皮の下にあるピリ辛の味わいが魅力的である。",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "SuspiciousAlmondTofu", "name": "Suspicious Almond Tofu", "localeName": "微妙な杏仁豆腐", "desc": "杏仁が原材料のデザート。手抜きしたため、口触りはあまり良くない。", "rarity": 2, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "AlmondTofu", "name": "Almond Tofu", "localeName": "杏仁豆腐", "desc": "杏仁が原材料のデザート。滑らかな舌触りと杏仁の香りがする。豆腐に似ていることが名前の由来。", "rarity": 2, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "DeliciousAlmondTofu", "name": "Delicious Almond Tofu", "localeName": "美味しそうな杏仁豆腐", "desc": "杏仁が原材料のデザート。形も色もまるで芸術品みたい。食べるのがもったいない。", "rarity": 2, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "SuspiciousJueyunChiliChicken", "name": "Suspicious Jueyun Chili Chicken", "localeName": "微妙な椒椒鶏", "desc": "鳥肉の和え物。タレが染み込んでいないため、椒椒鶏というより、鳥肉の水煮と思われる。", "rarity": 2, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "JueyunChiliChicken", "name": "Jueyun Chili Chicken", "localeName": "椒椒鶏", "desc": "鳥肉の和え物。鳥肉のジューシさをそのままキープされ、金色の皮の下にあるピリ辛の味わいが魅力的である。", "rarity": 2, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "DeliciousJueyunChiliChicken",
     "name": "Delicious Jueyun Chili Chicken",
@@ -2388,16 +1173,7 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "SuspiciousJewelrySoup",
-    "name": "Suspicious Jewelry Soup",
-    "localeName": "微妙な真珠翡翠白玉湯",
-    "desc": "簡単な材料で作られたスープ。味は薄くて、萎びてる野菜は荒地を彷彿させる。",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "SuspiciousJewelrySoup", "name": "Suspicious Jewelry Soup", "localeName": "微妙な真珠翡翠白玉湯", "desc": "簡単な材料で作られたスープ。味は薄くて、萎びてる野菜は荒地を彷彿させる。", "rarity": 2, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "JewelrySoup",
     "name": "Jewelry Soup",
@@ -2408,46 +1184,10 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "DeliciousJewelrySoup",
-    "name": "Delicious Jewelry Soup",
-    "localeName": "美味しそうな真珠翡翠白玉湯",
-    "desc": "簡単な材料で作られたスープ。野菜本来の味がする。自然の味はどんな珍味よりも味わえる。",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "SuspiciousMatsutakeMeatRolls",
-    "name": "Suspicious Matsutake Meat Rolls",
-    "localeName": "微妙な松茸の肉巻き",
-    "desc": "肉を焼いた料理。乾いた松茸は想像と大違い。でも松茸の栄養素を考えると、捨てない方がいい。",
-    "rarity": 2,
-    "type": 3,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "MatsutakeMeatRolls",
-    "name": "Matsutake Meat Rolls",
-    "localeName": "松茸の肉巻き",
-    "desc": "肉を焼いた料理。松茸を肉で巻いて、弱火でじっくり焼く。肉汁を吸い込んだ松茸にもはや我慢できない。",
-    "rarity": 2,
-    "type": 3,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "DeliciousMatsutakeMeatRolls",
-    "name": "Delicious Matsutake Meat Rolls",
-    "localeName": "美味しそうな松茸の肉巻き",
-    "desc": "肉を焼いた料理。自然の真髄と月日はここにある。栄養補給以外に、幸せも感じさせる一品。",
-    "rarity": 2,
-    "type": 3,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "DeliciousJewelrySoup", "name": "Delicious Jewelry Soup", "localeName": "美味しそうな真珠翡翠白玉湯", "desc": "簡単な材料で作られたスープ。野菜本来の味がする。自然の味はどんな珍味よりも味わえる。", "rarity": 2, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "SuspiciousMatsutakeMeatRolls", "name": "Suspicious Matsutake Meat Rolls", "localeName": "微妙な松茸の肉巻き", "desc": "肉を焼いた料理。乾いた松茸は想像と大違い。でも松茸の栄養素を考えると、捨てない方がいい。", "rarity": 2, "type": 3, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "MatsutakeMeatRolls", "name": "Matsutake Meat Rolls", "localeName": "松茸の肉巻き", "desc": "肉を焼いた料理。松茸を肉で巻いて、弱火でじっくり焼く。肉汁を吸い込んだ松茸にもはや我慢できない。", "rarity": 2, "type": 3, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "DeliciousMatsutakeMeatRolls", "name": "Delicious Matsutake Meat Rolls", "localeName": "美味しそうな松茸の肉巻き", "desc": "肉を焼いた料理。自然の真髄と月日はここにある。栄養補給以外に、幸せも感じさせる一品。", "rarity": 2, "type": 3, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "SuspiciousMoraMeat",
     "name": "Suspicious Mora Meat",
@@ -2478,56 +1218,11 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "SuspiciousMondstadtGrilledFish",
-    "name": "Suspicious Mondstadt Grilled Fish",
-    "localeName": "微妙なモンド風焼き魚",
-    "desc": "弱火でじっくり焼き上げた魚。焼き過ぎたせいか、魚肉はかなり硬い。",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "MondstadtGrilledFish",
-    "name": "Mondstadt Grilled Fish",
-    "localeName": "モンド風焼き魚",
-    "desc": "弱火でじっくり焼き上げた魚。焼き加減がちょうどで、身が締まっている。コショウをかけると一層美味しくなる。",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "DeliciousMondstadtGrilledFish",
-    "name": "Delicious Mondstadt Grilled Fish",
-    "localeName": "美味しそうなモンド風焼き魚",
-    "desc": "弱火でじっくり焼き上げた魚。脂が乗ってて、一口で魚の旨味が口の中に広がる。",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "SuspiciousStirFriedFilet",
-    "name": "Suspicious Stir-Fried Filet",
-    "localeName": "微妙な豚肉の油炒め",
-    "desc": "強火で炒めた獣の肉。焦げた肉と絶雲の唐辛子がぐちゃぐちゃになっている。あまりオススメしない。",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "StirFriedFilet",
-    "name": "Stir-Fried Filet",
-    "localeName": "豚肉の油炒め",
-    "desc": "強火で炒めた獣の肉。肉の香りと唐辛子の刺激。箸が止まらない。",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "SuspiciousMondstadtGrilledFish", "name": "Suspicious Mondstadt Grilled Fish", "localeName": "微妙なモンド風焼き魚", "desc": "弱火でじっくり焼き上げた魚。焼き過ぎたせいか、魚肉はかなり硬い。", "rarity": 1, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "MondstadtGrilledFish", "name": "Mondstadt Grilled Fish", "localeName": "モンド風焼き魚", "desc": "弱火でじっくり焼き上げた魚。焼き加減がちょうどで、身が締まっている。コショウをかけると一層美味しくなる。", "rarity": 1, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "DeliciousMondstadtGrilledFish", "name": "Delicious Mondstadt Grilled Fish", "localeName": "美味しそうなモンド風焼き魚", "desc": "弱火でじっくり焼き上げた魚。脂が乗ってて、一口で魚の旨味が口の中に広がる。", "rarity": 1, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "SuspiciousStirFriedFilet", "name": "Suspicious Stir-Fried Filet", "localeName": "微妙な豚肉の油炒め", "desc": "強火で炒めた獣の肉。焦げた肉と絶雲の唐辛子がぐちゃぐちゃになっている。あまりオススメしない。", "rarity": 1, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "StirFriedFilet", "name": "Stir-Fried Filet", "localeName": "豚肉の油炒め", "desc": "強火で炒めた獣の肉。肉の香りと唐辛子の刺激。箸が止まらない。", "rarity": 1, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "DeliciousStirFriedFilet",
     "name": "Delicious Stir-Fried Filet",
@@ -2578,16 +1273,7 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "CrystalShrimp",
-    "name": "Crystal Shrimp",
-    "localeName": "水晶蝦",
-    "desc": "璃月の伝統点心の一つ。餡はエビのむき身を丸ごと使用し、明るいピンクは半透明の皮の下に隠れている。プリプリの食感がたまらない。",
-    "rarity": 2,
-    "type": 3,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "CrystalShrimp", "name": "Crystal Shrimp", "localeName": "水晶蝦", "desc": "璃月の伝統点心の一つ。餡はエビのむき身を丸ごと使用し、明るいピンクは半透明の皮の下に隠れている。プリプリの食感がたまらない。", "rarity": 2, "type": 3, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "DeliciousCrystalShrimp",
     "name": "Delicious Crystal Shrimp",
@@ -2608,16 +1294,7 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "GrilledTigerFish",
-    "name": "Grilled Tiger Fish",
-    "localeName": "チ虎魚焼き",
-    "desc": "強火で焼いた魚の串焼き。埠頭で引き上げられた魚を軽く漬け焼いたもの、その香りは野良猫をも虜にする。新鮮が美味しさの秘訣である。",
-    "rarity": 1,
-    "type": 3,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "GrilledTigerFish", "name": "Grilled Tiger Fish", "localeName": "チ虎魚焼き", "desc": "強火で焼いた魚の串焼き。埠頭で引き上げられた魚を軽く漬け焼いたもの、その香りは野良猫をも虜にする。新鮮が美味しさの秘訣である。", "rarity": 1, "type": 3, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "DeliciousGrilledTigerFish",
     "name": "Delicious Grilled Tiger Fish",
@@ -2688,16 +1365,7 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "TeyvatCharredEgg",
-    "name": "Teyvat Charred Egg",
-    "localeName": "テイワット風焦げ卵",
-    "desc": "ベネットのオリジナル料理。目玉焼きのまわりはどうしても焦げがちだが、そのパリパリした食感は新しい風味をもたらしてくれる。",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "TeyvatCharredEgg", "name": "Teyvat Charred Egg", "localeName": "テイワット風焦げ卵", "desc": "ベネットのオリジナル料理。目玉焼きのまわりはどうしても焦げがちだが、そのパリパリした食感は新しい風味をもたらしてくれる。", "rarity": 1, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "DieHeiligeSinfonie",
     "name": "Die Heilige Sinfonie",
@@ -2778,26 +1446,8 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "SuspiciousGoldenShrimpBalls",
-    "name": "Suspicious Golden Shrimp Balls",
-    "localeName": "微妙なエビのポテト包み揚げ",
-    "desc": "エビを使った揚げ料理。慌てて揚げたから、出来上がったものは生煮えだったり、焦げたりしした。",
-    "rarity": 3,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
-  {
-    "id": "GoldenShrimpBalls",
-    "name": "Golden Shrimp Balls",
-    "localeName": "エビのポテト包み揚げ",
-    "desc": "エビを使った揚げ料理。サクサクしたジャガイモにエビの甘みが染み込んでいる。見た目もかわいらしく、食欲をそそる一品。",
-    "rarity": 3,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "SuspiciousGoldenShrimpBalls", "name": "Suspicious Golden Shrimp Balls", "localeName": "微妙なエビのポテト包み揚げ", "desc": "エビを使った揚げ料理。慌てて揚げたから、出来上がったものは生煮えだったり、焦げたりしした。", "rarity": 3, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
+  { "id": "GoldenShrimpBalls", "name": "Golden Shrimp Balls", "localeName": "エビのポテト包み揚げ", "desc": "エビを使った揚げ料理。サクサクしたジャガイモにエビの甘みが染み込んでいる。見た目もかわいらしく、食欲をそそる一品。", "rarity": 3, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "DeliciousGoldenShrimpBalls",
     "name": "Delicious Golden Shrimp Balls",
@@ -2818,16 +1468,7 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "QingceStirFry",
-    "name": "Qingce Stir Fry",
-    "localeName": "軽策農家料理",
-    "desc": "強火で炒めた料理。もとは軽策荘地域の家庭料理だったが、その辛さは案外他の地域でもウケがよく、徐々に璃月地域で広く伝わる料理となった。",
-    "rarity": 3,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "QingceStirFry", "name": "Qingce Stir Fry", "localeName": "軽策農家料理", "desc": "強火で炒めた料理。もとは軽策荘地域の家庭料理だったが、その辛さは案外他の地域でもウケがよく、徐々に璃月地域で広く伝わる料理となった。", "rarity": 3, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "DeliciousQingceStirFry",
     "name": "Delicious Qingce Stir Fry",
@@ -2898,16 +1539,7 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "SweetDream",
-    "name": "\"Sweet Dream\"",
-    "localeName": "「夢」",
-    "desc": "魈のオリジナル料理。彼の「夢」は、ただ良い夢を見たいだけ。",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "SweetDream", "name": "\"Sweet Dream\"", "localeName": "「夢」", "desc": "魈のオリジナル料理。彼の「夢」は、ただ良い夢を見たいだけ。", "rarity": 2, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "FlashFriedFilet",
     "name": "Flash-Fried Filet",
@@ -2948,16 +1580,7 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "NoodlesWithMountainDelicacies",
-    "name": "Noodles with Mountain Delicacies",
-    "localeName": "山幸の麺",
-    "desc": "栄養バランスが良い麺。具材たっぷりで、麺とスープが良く絡む。ごく普通の作り方だが、濃厚な味を楽しめる。",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "NoodlesWithMountainDelicacies", "name": "Noodles with Mountain Delicacies", "localeName": "山幸の麺", "desc": "栄養バランスが良い麺。具材たっぷりで、麺とスープが良く絡む。ごく普通の作り方だが、濃厚な味を楽しめる。", "rarity": 2, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "DeliciousNoodlesWithMountainDelicacies",
     "name": "Delicious Noodles with Mountain Delicacies",
@@ -2998,56 +1621,11 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "HolyWater",
-    "name": "Holy Water",
-    "localeName": "聖水",
-    "desc": "透き通った無色で無垢な液体。清泉水と同じ用に見える。これに期待していい？",
-    "rarity": 3,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["商店で購入"]
-  },
-  {
-    "id": "PopsTeas",
-    "name": "Pop's Teas",
-    "localeName": "大椀のお茶",
-    "desc": "璃月の名物飲み物。領土が広い璃月で旅するのは大変なことである。故に大椀茶の容器が大きいほど助かる。",
-    "rarity": 1,
-    "type": 3,
-    "typeText": "食べ物",
-    "drop": ["商店で購入"]
-  },
-  {
-    "id": "WolfhookJuice",
-    "name": "Wolfhook Juice",
-    "localeName": "ググプラムのジュース",
-    "desc": "最近流行っているノンアルコールドリンク。搾りたてのググプラムのジュースに氷を入れた、幻の紫色のドリンク。",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["商店で購入"]
-  },
-  {
-    "id": "BerryMintBurst",
-    "name": "Berry & Mint Burst",
-    "localeName": "ミントベリージュース",
-    "desc": "最近流行っているノンアルコールドリンク。爽やかなミントドリンクにラズベリーが入り、優雅な香りが仄かにする。",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["商店で購入"]
-  },
-  {
-    "id": "AppleCider",
-    "name": "Apple Cider",
-    "localeName": "アップルサイダー",
-    "desc": "最近流行っているノンアルコールドリンク。酔い覚めのドリンク。酒飲みたちが飲み会の最後にシメとして注文している。",
-    "rarity": 2,
-    "type": 3,
-    "typeText": "食べ物",
-    "drop": ["商店で購入"]
-  },
+  { "id": "HolyWater", "name": "Holy Water", "localeName": "聖水", "desc": "透き通った無色で無垢な液体。清泉水と同じ用に見える。これに期待していい？", "rarity": 3, "type": 2, "typeText": "食べ物", "drop": ["商店で購入"] },
+  { "id": "PopsTeas", "name": "Pop's Teas", "localeName": "大椀のお茶", "desc": "璃月の名物飲み物。領土が広い璃月で旅するのは大変なことである。故に大椀茶の容器が大きいほど助かる。", "rarity": 1, "type": 3, "typeText": "食べ物", "drop": ["商店で購入"] },
+  { "id": "WolfhookJuice", "name": "Wolfhook Juice", "localeName": "ググプラムのジュース", "desc": "最近流行っているノンアルコールドリンク。搾りたてのググプラムのジュースに氷を入れた、幻の紫色のドリンク。", "rarity": 2, "type": 2, "typeText": "食べ物", "drop": ["商店で購入"] },
+  { "id": "BerryMintBurst", "name": "Berry & Mint Burst", "localeName": "ミントベリージュース", "desc": "最近流行っているノンアルコールドリンク。爽やかなミントドリンクにラズベリーが入り、優雅な香りが仄かにする。", "rarity": 2, "type": 2, "typeText": "食べ物", "drop": ["商店で購入"] },
+  { "id": "AppleCider", "name": "Apple Cider", "localeName": "アップルサイダー", "desc": "最近流行っているノンアルコールドリンク。酔い覚めのドリンク。酒飲みたちが飲み会の最後にシメとして注文している。", "rarity": 2, "type": 3, "typeText": "食べ物", "drop": ["商店で購入"] },
   {
     "id": "SuspiciousBambooShootSoup",
     "name": "Suspicious Bamboo Shoot Soup",
@@ -3138,16 +1716,7 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "SuspiciousLotusFlowerCrisp",
-    "name": "Suspicious Lotus Flower Crisp",
-    "localeName": "微妙なハスの花パイ",
-    "desc": "璃月の伝統点心の1つ。花びらは退色し、焦げて黄色くなっている。油の温度は無情だ。",
-    "rarity": 3,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "SuspiciousLotusFlowerCrisp", "name": "Suspicious Lotus Flower Crisp", "localeName": "微妙なハスの花パイ", "desc": "璃月の伝統点心の1つ。花びらは退色し、焦げて黄色くなっている。油の温度は無情だ。", "rarity": 3, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "LotusFlowerCrisp",
     "name": "Lotus Flower Crisp",
@@ -3178,16 +1747,7 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "MoonPie",
-    "name": "Moon Pie",
-    "localeName": "ムーンパイ",
-    "desc": "モンド伝統の主食。漬けた肉は風味が強く、パイ生地で包んで焼き上げると甘くて肉汁がたっぷり。モンドの祝日には欠かせない一品。",
-    "rarity": 4,
-    "type": 2,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "MoonPie", "name": "Moon Pie", "localeName": "ムーンパイ", "desc": "モンド伝統の主食。漬けた肉は風味が強く、パイ生地で包んで焼き上げると甘くて肉汁がたっぷり。モンドの祝日には欠かせない一品。", "rarity": 4, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "DeliciousMoonPie",
     "name": "Delicious Moon Pie",
@@ -3238,16 +1798,7 @@
     "typeText": "食べ物",
     "drop": ["料理を作る"]
   },
-  {
-    "id": "NorthernAppleStew",
-    "name": "Northern Apple Stew",
-    "localeName": "北地のリンゴと肉の煮込み",
-    "desc": "リンゴと一緒に煮込んだ肉料理。獣肉の滑らかな食感に溢れ出す肉汁とフルーツの香り。今までなかった爽やかな一品。",
-    "rarity": 3,
-    "type": 3,
-    "typeText": "食べ物",
-    "drop": ["料理を作る"]
-  },
+  { "id": "NorthernAppleStew", "name": "Northern Apple Stew", "localeName": "北地のリンゴと肉の煮込み", "desc": "リンゴと一緒に煮込んだ肉料理。獣肉の滑らかな食感に溢れ出す肉汁とフルーツの香り。今までなかった爽やかな一品。", "rarity": 3, "type": 3, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
     "id": "DeliciousNorthernAppleStew",
     "name": "Delicious Northern Apple Stew",
@@ -3302,7 +1853,7 @@
     "id": "FullmoonEgg",
     "name": "Fullmoon Egg",
     "localeName": "明月の玉子",
-    "desc": "璃月の伝統点心の1つ。卵と小麦粉の皮でエビと魚肉の具を湯呑のように包み、エビ一匹丸ごと上に載せて蒸した点心である。雲が月を包む様な形である為、「明月の玉子」と名付けられた。",
+    "desc": "璃月の伝統点心の1つ。卵と小麦粉の皮でエビと魚肉の具を湯呑のように包み、エビ一匹丸ごと上に載せて蒸した点心である。雲が月を包むような形である為、「明月の玉子」と名付けられた。",
     "rarity": 3,
     "type": 2,
     "typeText": "食べ物",
@@ -3312,7 +1863,7 @@
     "id": "DeliciousFullmoonEgg",
     "name": "Delicious Fullmoon Egg",
     "localeName": "美味しそうな明月の玉子",
-    "desc": "璃月の伝統点心の1つ。熱いうちに一口噛むと、じゅわっと肉汁が溢れだし、エビの甘味が全体のうまさを一気に引き出す。まるで秋の明月と小池、小舟が岸に泊まり、漁師の歌声が響く、この様な美しい風景を思わせる美味しさだ。",
+    "desc": "璃月の伝統点心の1つ。熱いうちに一口噛むと、じゅわっと肉汁が溢れだし、エビの甘味が全体のうまさを一気に引き出す。まるで秋の明月と小池、小舟が岸に泊まり、漁師の歌声が響く、このような美しい風景を思わせる美味しさだ。",
     "rarity": 3,
     "type": 2,
     "typeText": "食べ物",
@@ -3599,585 +2150,285 @@
     "drop": ["海灯祭商店で獲得"]
   },
   {
-    "id": "RecipeChickenMushroomSkewer",
-    "name": "Recipe: Chicken-Mushroom Skewer",
-    "localeName": "レシピ：鳥肉と野生キノコの串焼き",
-    "desc": "「鳥肉と野生キノコの串焼き」の詳しい作り方が載っているレシピ。",
+    "id": "SuspiciousCrispyPotatoShrimpPlatter",
+    "name": "Suspicious Crispy Potato Shrimp Platter",
+    "localeName": "微妙なエビのポテトカナッペ",
+    "desc": "食欲をそそる色鮮やかな前菜。見栄えを追求しすぎて時間をかけすぎてしまい、ベースのポテチが水分でふにゃふなになり、食感がガタ落ちした。",
+    "rarity": 3,
+    "type": 3,
+    "typeText": "食べ物",
+    "drop": ["料理を作る"]
+  },
+  {
+    "id": "CrispyPotatoShrimpPlatter",
+    "name": "Crispy Potato Shrimp Platter",
+    "localeName": "エビのポテトカナッペ",
+    "desc": "食欲をそそる色鮮やかな前菜。ポテトとラズベリーを混ぜた具とエビ1匹を丸ごと、カリカリのポテチの上にのせる。甘くてコクのある味わいが食欲を刺激し、ミントとの組み合わせも不思議な味を楽しませる。",
+    "rarity": 3,
+    "type": 3,
+    "typeText": "食べ物",
+    "drop": ["料理を作る"]
+  },
+  {
+    "id": "DeliciousCrispyPotatoShrimpPlatter",
+    "name": "Delicious Crispy Potato Shrimp Platter",
+    "localeName": "美味しそうなエビのポテトカナッペ",
+    "desc": "食欲をそそる色鮮やかな前菜。エビのやわらかさとポテチのカリカリ感が最初の一口でコントラストを感じさせる。その後、ポテトの濃厚さが2つの風味を引き立て、心と体の両方がリラックスできる甘美な味とまとまった。",
+    "rarity": 3,
+    "type": 3,
+    "typeText": "食べ物",
+    "drop": ["料理を作る"]
+  },
+  {
+    "id": "SuspiciousMintJelly",
+    "name": "Suspicious Mint Jelly",
+    "localeName": "微妙なミントゼリー",
+    "desc": "ひんやり爽やかなデザート。料理の過程でいくつかの問題があり、均一に固まらなかったゼリー。甘いミント水として飲んだ方がいいかも？",
     "rarity": 1,
-    "type": 7,
-    "typeText": "レシピ"
+    "type": 3,
+    "typeText": "食べ物",
+    "drop": ["料理を作る"]
   },
+  { "id": "MintJelly", "name": "Mint Jelly", "localeName": "ミントゼリー", "desc": "ひんやり爽やかなデザート。作り方は非常に簡単。滑らかな食感とふんわりとしたミントの香りは一日の気分を爽やかにしてくれる。", "rarity": 1, "type": 3, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
-    "id": "RecipeFishermansToast",
-    "name": "Recipe: Fisherman's Toast",
-    "localeName": "レシピ：漁師トースト",
-    "desc": "「漁師トースト」の詳しい作り方が載っているレシピ。",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeFlamingRedBolognese",
-    "name": "Recipe: Flaming Red Bolognese",
-    "localeName": "レシピ：完熟トマトのミートソース",
-    "desc": "「完熟トマトのミートソース」の詳しい作り方が載っているレシピ。",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeSweetMadame",
-    "name": "Recipe: Sweet Madame",
-    "localeName": "レシピ：鳥肉のスイートフラワー漬け焼き",
-    "desc": "「鳥肉のスイートフラワー漬け焼き」の詳しい作り方が載っているレシピ。",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeCallaLilySeafoodSoup",
-    "name": "Recipe: Calla Lily Seafood Soup",
-    "localeName": "レシピ：ドドリアン海鮮スープ",
-    "desc": "「ドドリアン海鮮スープ」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeSauteedMatsutake",
-    "name": "Recipe: Sautéed Matsutake",
-    "localeName": "レシピ：松茸のバター焼き",
-    "desc": "「松茸のバター焼き」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeTeyvatFriedEgg",
-    "name": "Recipe: Teyvat Fried Egg",
-    "localeName": "レシピ：テイワット風目玉焼き",
-    "desc": "「テイワット目玉焼き」の詳しい作り方が載っているレシピ。",
+    "id": "DeliciousMintJelly",
+    "name": "Delicious Mint Jelly",
+    "localeName": "美味しそうなミントゼリー",
+    "desc": "ひんやり爽やかなデザート。適度な弾力を持ち、スプーンで触れると可愛く揺れ出す。一口食べると、爽やかな味わいがすべてのネガティブ感情を一瞬で払拭し、人々をリフレッシュさせる。",
     "rarity": 1,
-    "type": 7,
-    "typeText": "レシピ"
+    "type": 3,
+    "typeText": "食べ物",
+    "drop": ["料理を作る"]
   },
+  { "id": "SuspiciousMintSalad", "name": "Suspicious Mint Salad", "localeName": "微妙なミントの和え物", "desc": "爽やかに香る和え物。ミントと絶雲の唐辛子のバランスが悪く、よくかき混ぜられてないゆえ、絶句するほど辛く感じる。", "rarity": 2, "type": 2, "typeText": "食べ物", "drop": ["料理を作る"] },
   {
-    "id": "RecipeNorthernSmokedChicken",
-    "name": "Recipe: Northern Smoked Chicken",
-    "localeName": "レシピ：北地のスモークチキン",
-    "desc": "「北地のスモークチキン」の詳しい作り方が載っているレシピ。",
+    "id": "MintSalad",
+    "name": "Mint Salad",
+    "localeName": "ミントの和え物",
+    "desc": "爽やかに香る和え物。絶雲の唐辛子を細かく刻み、調味ソースとミントを加えて良くかき混ぜた料理。一見目立たない作り方だが、意外と爽やかでリフレッシュ効果があり、暑さ対策にも非常に役立つ。",
     "rarity": 2,
-    "type": 7,
-    "typeText": "レシピ"
+    "type": 2,
+    "typeText": "食べ物",
+    "drop": ["料理を作る"]
   },
   {
-    "id": "RecipeCreamStew",
-    "name": "Recipe: Cream Stew",
-    "localeName": "レシピ：ホワイトソースポトフ",
-    "desc": "「ホワイトソースポトフ」の詳しい作り方が載っているレシピ。",
+    "id": "DeliciousMintSalad",
+    "name": "Delicious Mint Salad",
+    "localeName": "美味しそうなミントの和え物",
+    "desc": "爽やかに香る和え物。ミントの爽やかな苦味は、絶雲の唐辛子の辛さを覆い隠すだけでなく、辛さの品格を一層上げる効果がある。二つの食材は口の中で華麗なダンス勝負をしているようだ。",
     "rarity": 2,
-    "type": 7,
-    "typeText": "レシピ"
+    "type": 2,
+    "typeText": "食べ物",
+    "drop": ["料理を作る"]
   },
   {
-    "id": "RecipeColdCutPlatter",
-    "name": "Recipe: Cold Cut Platter",
-    "localeName": "レシピ：冷製肉盛り合わせ",
-    "desc": "「冷製肉盛り合わせ」の詳しい作り方が載っているレシピ。",
+    "id": "SuspiciousMintyMeatRolls",
+    "name": "Suspicious Minty Meat Rolls",
+    "localeName": "微妙なミントの獣肉巻き",
+    "desc": "酸っぱ辛い料理。しょっぱすぎる味付けは食材本来美味しさを台無しにした。水でしょっぱさを薄めない限り、ご飯と一緒に飲み込む他食べる方法がない。",
     "rarity": 3,
-    "type": 7,
-    "typeText": "レシピ"
+    "type": 2,
+    "typeText": "食べ物",
+    "drop": ["料理を作る"]
   },
   {
-    "id": "RecipeStickyHoneyRoast",
-    "name": "Recipe: Sticky Honey Roast",
-    "localeName": "レシピ：ニンジンとお肉のハニーソテー",
-    "desc": "「ニンジンとお肉のハニーソテー」の詳しい作り方が載っているレシピ。",
+    "id": "MintyMeatRolls",
+    "name": "Minty Meat Rolls",
+    "localeName": "ミントの獣肉巻き",
+    "desc": "酸っぱ辛い料理。ソースに漬けた獣肉を薄切りにし、ミントの葉を巻き絶雲の唐辛子で作った調味料をかけ加えた。独特のミントの香りがこの料理の特筆すべきポイントであり、冷たい和え物としては最適な一品だ。",
     "rarity": 3,
-    "type": 7,
-    "typeText": "レシピ"
+    "type": 2,
+    "typeText": "食べ物",
+    "drop": ["料理を作る"]
   },
   {
-    "id": "RecipeCrabHamVeggieBake",
-    "name": "Recipe: Crab, Ham & Veggie Bake",
-    "localeName": "レシピ：かにみそとハムのグリル野菜",
-    "desc": "「かにみそとハムのグリル野菜」の詳しい作り方が載っているレシピ。",
+    "id": "DeliciousMintyMeatRolls",
+    "name": "Delicious Minty Meat Rolls",
+    "localeName": "美味しそうなミントの獣肉巻き",
+    "desc": "酸っぱ辛い料理。獣肉とミントの絶妙なバランス、柔らかな食感で脂っこくもない、薄苦い香りがとても上品。ちょっとした辛さはこのうまく調和された2つの食材を完全に目覚めさせ、口の中で躍動し、最後に完璧な終止符で終わり告げる。",
     "rarity": 3,
-    "type": 7,
-    "typeText": "レシピ"
+    "type": 2,
+    "typeText": "食べ物",
+    "drop": ["料理を作る"]
   },
   {
-    "id": "RecipeMushroomPizza",
-    "name": "Recipe: Mushroom Pizza",
-    "localeName": "レシピ：キノコピザ",
-    "desc": "「キノコピザ」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  { "id": "RecipeSteak", "name": "Recipe: Steak", "localeName": "レシピ：ステーキ", "desc": "「ステーキ」の詳しい作り方が載っているレシピ。", "rarity": 1, "type": 7, "typeText": "レシピ" },
-  {
-    "id": "RecipeRadishVeggieSoup",
-    "name": "Recipe: Radish Veggie Soup",
-    "localeName": "レシピ：大根入りの野菜スープ",
-    "desc": "「大根入りの野菜スープ」の詳しい作り方が載っているレシピ。",
-    "rarity": 1,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeMondstadtHashBrown",
-    "name": "Recipe: Mondstadt Hash Brown",
-    "localeName": "レシピ：モンド風ハッシュポテト",
-    "desc": "「モンド風ハッシュポテト」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipePileEmUp",
-    "name": "Recipe: \"Pile 'Em Up\"",
-    "localeName": "レシピ：「お肉ツミツミ」",
-    "desc": "「お肉ツミツミ」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeTeaBreakPancake",
-    "name": "Recipe: Tea Break Pancake",
-    "localeName": "レシピ：午後のパンケーキ",
-    "desc": "「午後のパンケーキ」の詳しい作り方が載っているレシピ。",
+    "id": "DinnerOfJudgment",
+    "name": "Dinner of Judgment",
+    "localeName": "ヴァーディクトディナー",
+    "desc": "ロサリアのオリジナル料理。「暗黒」のとげが付いているため、最初はどこから食べたらいいのかわからない。周りの飾り物をやっとのことで外し、口にすると驚きの美味しさがやわらかい鳥肉から炸裂する。食す者の表情をロサリアは決して見逃さない。相手のリアクションを見た彼女はご満悦のようだ。",
     "rarity": 2,
-    "type": 7,
-    "typeText": "レシピ"
+    "type": 3,
+    "typeText": "食べ物",
+    "drop": ["料理を作る"]
   },
   {
-    "id": "RecipeFriedRadishBalls",
-    "name": "Recipe: Fried Radish Balls",
-    "localeName": "レシピ：大根の揚げ団子",
-    "desc": "「大根の揚げ団子」の詳しい作り方が載っているレシピ。",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeSatisfyingSalad",
-    "name": "Recipe: Satisfying Salad",
-    "localeName": "レシピ：満足サラダ",
-    "desc": "「満足サラダ」の詳しい作り方が載っているレシピ。",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeJadeParcels",
-    "name": "Recipe: Jade Parcels",
-    "localeName": "レシピ：翠玉福袋",
-    "desc": "「翠玉福袋」の詳しい作り方が載っているレシピ。",
+    "id": "SuspiciousGoldenFriedChicken",
+    "name": "Suspicious Golden Fried Chicken",
+    "localeName": "微妙な黄金のジャンボチキン",
+    "desc": "味付けした鳥肉の揚げ物。油温のコントロールが不十分なせいか、サクサクのはずだった皮が柔らかくなり、脂っこい食感になった。",
     "rarity": 4,
-    "type": 7,
-    "typeText": "レシピ"
+    "type": 2,
+    "typeText": "食べ物",
+    "drop": ["料理を作る"]
   },
   {
-    "id": "RecipeMondstadtGrilledFish",
-    "name": "Recipe: Mondstadt Grilled Fish",
-    "localeName": "レシピ：モンド風焼き魚",
-    "desc": "「モンド風焼き魚」の詳しい作り方が載っているレシピ。",
-    "rarity": 1,
-    "type": 7,
-    "typeText": "レシピ"
+    "id": "GoldenFriedChicken",
+    "name": "Golden Fried Chicken",
+    "localeName": "黄金のジャンボチキン",
+    "desc": "味付けした鳥肉の揚げ物。食材を生地に混ぜ鳥肉を包み、高温で揚げた料理。香りを嗅ぐだけでサクサクの皮とやわらかい肉を想像させる。噛むと肉汁が溢れだすゆえ、この誘惑に抵抗できる人はほとんどいない。",
+    "rarity": 4,
+    "type": 2,
+    "typeText": "食べ物",
+    "drop": ["料理を作る"]
   },
+  {
+    "id": "DeliciousGoldenFriedChicken",
+    "name": "Delicious Golden Fried Chicken",
+    "localeName": "美味しそうな黄金のジャンボチキン",
+    "desc": "味付けした鳥肉の揚げ物。金色の皮が肉汁をしっかりと包み、豪快に噛むと大きな満足感を得られる。つかの間で完食してしまいうが、指先に残る香りでも後味を感じさせてくれる。",
+    "rarity": 4,
+    "type": 2,
+    "typeText": "食べ物",
+    "drop": ["料理を作る"]
+  },
+  {
+    "id": "SuspiciousGoldenChickenBurger",
+    "name": "Suspicious Golden Chicken Burger",
+    "localeName": "微妙なカリカリチキンバーガー",
+    "desc": "主に鳥肉を使ったハンバーガー。誤って鳥肉を薄く切りすぎ、小麦粉を使いすぎてしまった。パンに餅を挟んだような食感だ。",
+    "rarity": 3,
+    "type": 3,
+    "typeText": "食べ物",
+    "drop": ["料理を作る"]
+  },
+  {
+    "id": "GoldenChickenBurger",
+    "name": "Golden Chicken Burger",
+    "localeName": "カリカリチキンバーガー",
+    "desc": "主に鳥肉を使ったハンバーガー。やわらかいパンにサクサクの鳥もも肉と新鮮野菜を挟んだ料理。ナイフで切る必要はなく、手で直接持ち「ガブッ」と豪快に噛むのが一番だ。",
+    "rarity": 3,
+    "type": 3,
+    "typeText": "食べ物",
+    "drop": ["料理を作る"]
+  },
+  {
+    "id": "DeliciousGoldenChickenBurger",
+    "name": "Delicious Golden Chicken Burger",
+    "localeName": "美味しそうなカリカリチキンバーガー",
+    "desc": "主に鳥肉を使ったハンバーガー。金色でふっくらな鳥もも肉、肉汁を絞り出すかのように柔らかい。さっぱりとした野菜と濃厚なタレを加えると、まるで雲の中で飛んでいるかのような、不思議な美味しさを味わうことができる。",
+    "rarity": 3,
+    "type": 3,
+    "typeText": "食べ物",
+    "drop": ["料理を作る"]
+  },
+  {
+    "id": "SuspiciousFragrantMashedPotatoes",
+    "name": "Suspicious Fragrant Mashed Potatoes",
+    "localeName": "微妙な濃厚マッシュポテト",
+    "desc": "味付けしたマッシュポテト。中には硬く潰せないジャガイモが混ざっており、食べるときにランダム性を兼ねたおかしな一品だ。",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "食べ物",
+    "drop": ["料理を作る"]
+  },
+  {
+    "id": "FragrantMashedPotatoes",
+    "name": "Fragrant Mashed Potatoes",
+    "localeName": "濃厚マッシュポテト",
+    "desc": "味付けしたマッシュポテト。ジャガイモを押しつぶし、なめらかでコクのある味に仕上げた料理。おかずとしてもよし、主食としてもよし、お腹が空いたときの最高の一品。",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "食べ物",
+    "drop": ["料理を作る"]
+  },
+  {
+    "id": "DeliciousFragrantMashedPotatoes",
+    "name": "Delicious Fragrant Mashed Potatoes",
+    "localeName": "美味しそうな濃厚マッシュポテト",
+    "desc": "味付けしたマッシュポテト。なめらかなマッシュポテトを口に入れると、口中に強い香り、そして旨味とミルクの風味が広がる。こんなに素晴らしい味は、まさか日常の食材であるジャガイモから生まれたとは。",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "食べ物",
+    "drop": ["料理を作る"]
+  },
+  { "id": "RecipeChickenMushroomSkewer", "name": "Recipe: Chicken-Mushroom Skewer", "localeName": "レシピ：鳥肉と野生キノコの串焼き", "desc": "「鳥肉と野生キノコの串焼き」の詳しい作り方が載っているレシピ。", "rarity": 1, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeFishermansToast", "name": "Recipe: Fisherman's Toast", "localeName": "レシピ：漁師トースト", "desc": "「漁師トースト」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeFlamingRedBolognese", "name": "Recipe: Flaming Red Bolognese", "localeName": "レシピ：完熟トマトのミートソース", "desc": "「完熟トマトのミートソース」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeSweetMadame", "name": "Recipe: Sweet Madame", "localeName": "レシピ：鳥肉のスイートフラワー漬け焼き", "desc": "「鳥肉のスイートフラワー漬け焼き」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeCallaLilySeafoodSoup", "name": "Recipe: Calla Lily Seafood Soup", "localeName": "レシピ：ドドリアン海鮮スープ", "desc": "「ドドリアン海鮮スープ」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeSauteedMatsutake", "name": "Recipe: Sautéed Matsutake", "localeName": "レシピ：松茸のバター焼き", "desc": "「松茸のバター焼き」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeTeyvatFriedEgg", "name": "Recipe: Teyvat Fried Egg", "localeName": "レシピ：テイワット風目玉焼き", "desc": "「テイワット目玉焼き」の詳しい作り方が載っているレシピ。", "rarity": 1, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeNorthernSmokedChicken", "name": "Recipe: Northern Smoked Chicken", "localeName": "レシピ：北地のスモークチキン", "desc": "「北地のスモークチキン」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeCreamStew", "name": "Recipe: Cream Stew", "localeName": "レシピ：ホワイトソースポトフ", "desc": "「ホワイトソースポトフ」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeColdCutPlatter", "name": "Recipe: Cold Cut Platter", "localeName": "レシピ：冷製肉盛り合わせ", "desc": "「冷製肉盛り合わせ」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeStickyHoneyRoast", "name": "Recipe: Sticky Honey Roast", "localeName": "レシピ：ニンジンとお肉のハニーソテー", "desc": "「ニンジンとお肉のハニーソテー」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeCrabHamVeggieBake", "name": "Recipe: Crab, Ham & Veggie Bake", "localeName": "レシピ：かにみそとハムのグリル野菜", "desc": "「かにみそとハムのグリル野菜」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeMushroomPizza", "name": "Recipe: Mushroom Pizza", "localeName": "レシピ：キノコピザ", "desc": "「キノコピザ」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeSteak", "name": "Recipe: Steak", "localeName": "レシピ：ステーキ", "desc": "「ステーキ」の詳しい作り方が載っているレシピ。", "rarity": 1, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeRadishVeggieSoup", "name": "Recipe: Radish Veggie Soup", "localeName": "レシピ：大根入りの野菜スープ", "desc": "「大根入りの野菜スープ」の詳しい作り方が載っているレシピ。", "rarity": 1, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeMondstadtHashBrown", "name": "Recipe: Mondstadt Hash Brown", "localeName": "レシピ：モンド風ハッシュポテト", "desc": "「モンド風ハッシュポテト」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipePileEmUp", "name": "Recipe: \"Pile 'Em Up\"", "localeName": "レシピ：「お肉ツミツミ」", "desc": "「お肉ツミツミ」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeTeaBreakPancake", "name": "Recipe: Tea Break Pancake", "localeName": "レシピ：午後のパンケーキ", "desc": "「午後のパンケーキ」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeFriedRadishBalls", "name": "Recipe: Fried Radish Balls", "localeName": "レシピ：大根の揚げ団子", "desc": "「大根の揚げ団子」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeSatisfyingSalad", "name": "Recipe: Satisfying Salad", "localeName": "レシピ：満足サラダ", "desc": "「満足サラダ」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeJadeParcels", "name": "Recipe: Jade Parcels", "localeName": "レシピ：翠玉福袋", "desc": "「翠玉福袋」の詳しい作り方が載っているレシピ。", "rarity": 4, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeMondstadtGrilledFish", "name": "Recipe: Mondstadt Grilled Fish", "localeName": "レシピ：モンド風焼き魚", "desc": "「モンド風焼き魚」の詳しい作り方が載っているレシピ。", "rarity": 1, "type": 7, "typeText": "レシピ" },
   { "id": "RecipeMoraMeat", "name": "Recipe: Mora Meat", "localeName": "レシピ：モラミート", "desc": "「モラミート」の詳しい作り方が載っているレシピ。", "rarity": 1, "type": 7, "typeText": "レシピ" },
-  {
-    "id": "RecipeStirFriedFilet",
-    "name": "Recipe: Stir-Fried Filet",
-    "localeName": "レシピ：豚肉の油炒め",
-    "desc": "「豚肉の油炒め」の詳しい作り方が載っているレシピ。",
-    "rarity": 1,
-    "type": 7,
-    "typeText": "レシピ"
-  },
+  { "id": "RecipeStirFriedFilet", "name": "Recipe: Stir-Fried Filet", "localeName": "レシピ：豚肉の油炒め", "desc": "「豚肉の油炒め」の詳しい作り方が載っているレシピ。", "rarity": 1, "type": 7, "typeText": "レシピ" },
   { "id": "RecipeAlmondTofu", "name": "Recipe: Almond Tofu", "localeName": "レシピ：杏仁豆腐", "desc": "「杏仁豆腐」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7, "typeText": "レシピ" },
-  {
-    "id": "RecipeJueyunChiliChicken",
-    "name": "Recipe: Jueyun Chili Chicken",
-    "localeName": "レシピ：椒椒鶏",
-    "desc": "「椒椒鶏」の詳しい作り方が載っているレシピ。",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeJewelrySoup",
-    "name": "Recipe: Jewelry Soup",
-    "localeName": "レシピ：真珠翡翠白玉湯",
-    "desc": "「真珠翡翠白玉湯」の詳しい作り方が載っているレシピ。",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeMatsutakeMeatRolls",
-    "name": "Recipe: Matsutake Meat Rolls",
-    "localeName": "レシピ：松茸の肉巻き",
-    "desc": "「松茸の肉巻き」の詳しい作り方が載っているレシピ。",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeZhongyuanChopSuey",
-    "name": "Recipe: Zhongyuan Chop Suey",
-    "localeName": "レシピ：中原のもつ焼き",
-    "desc": "「中原のもつ焼き」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeBlackBackPerchStew",
-    "name": "Recipe: Black-Back Perch Stew",
-    "localeName": "レシピ：黒背スズキの唐辛子煮込み",
-    "desc": "「黒背スズキの唐辛子煮込み」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeSquirrelFish",
-    "name": "Recipe: Squirrel Fish",
-    "localeName": "レシピ：揚げ魚の甘酢あんかけ",
-    "desc": "「揚げ魚の甘酢あんかけ」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "レシピ"
-  },
+  { "id": "RecipeJueyunChiliChicken", "name": "Recipe: Jueyun Chili Chicken", "localeName": "レシピ：椒椒鶏", "desc": "「椒椒鶏」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeJewelrySoup", "name": "Recipe: Jewelry Soup", "localeName": "レシピ：真珠翡翠白玉湯", "desc": "「真珠翡翠白玉湯」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeMatsutakeMeatRolls", "name": "Recipe: Matsutake Meat Rolls", "localeName": "レシピ：松茸の肉巻き", "desc": "「松茸の肉巻き」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeZhongyuanChopSuey", "name": "Recipe: Zhongyuan Chop Suey", "localeName": "レシピ：中原のもつ焼き", "desc": "「中原のもつ焼き」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeBlackBackPerchStew", "name": "Recipe: Black-Back Perch Stew", "localeName": "レシピ：黒背スズキの唐辛子煮込み", "desc": "「黒背スズキの唐辛子煮込み」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeSquirrelFish", "name": "Recipe: Squirrel Fish", "localeName": "レシピ：揚げ魚の甘酢あんかけ", "desc": "「揚げ魚の甘酢あんかけ」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
   { "id": "RecipeGoldenCrab", "name": "Recipe: Golden Crab", "localeName": "レシピ：黄金ガニ", "desc": "「黄金ガニ」の詳しい作り方が載っているレシピ。", "rarity": 4, "type": 7, "typeText": "レシピ" },
-  {
-    "id": "RecipeCrystalShrimp",
-    "name": "Recipe: Crystal Shrimp",
-    "localeName": "レシピ：水晶蝦",
-    "desc": "「水晶蝦」の詳しい作り方が載っているレシピ。",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeGrilledTigerFish",
-    "name": "Recipe: Grilled Tiger Fish",
-    "localeName": "レシピ：チ虎魚焼き",
-    "desc": "「チ虎魚焼き」の詳しい作り方が載っているレシピ。",
-    "rarity": 1,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeBarbatosRatatouille",
-    "name": "Recipe: Barbatos Ratatouille",
-    "localeName": "レシピ：風神ヒュッツポット",
-    "desc": "「風神ヒュッツポット」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeLotusSeedAndBirdEggSoup",
-    "name": "Recipe: Lotus Seed and Bird Egg Soup",
-    "localeName": "レシピ：ハスの実入り茶碗蒸し",
-    "desc": "「ハスの実入り茶碗蒸し」の詳しい作り方が載っているレシピ。",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeAdeptusTemptation",
-    "name": "Recipe: Adeptus' Temptation",
-    "localeName": "レシピ：仙跳牆",
-    "desc": "「仙跳牆」の詳しい作り方が載っているレシピ。",
-    "rarity": 5,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeGoldenShrimpBalls",
-    "name": "Recipe: Golden Shrimp Balls",
-    "localeName": "レシピ：エビのポテト包み揚げ",
-    "desc": "「エビのポテト包み揚げ」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeQingceStirFry",
-    "name": "Recipe: Qingce Stir Fry",
-    "localeName": "レシピ：軽策農家料理",
-    "desc": "「軽策農家料理」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeComeAndGetIt",
-    "name": "Recipe: Come and Get It",
-    "localeName": "レシピ：お食べくだ菜",
-    "desc": "「お食べくだ菜」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeNoodlesWithMountainDelicacies",
-    "name": "Recipe: Noodles with Mountain Delicacies",
-    "localeName": "レシピ：山幸の麺",
-    "desc": "「山幸の麺」の詳しい作り方が載っているレシピ。",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeBambooShootSoup",
-    "name": "Recipe: Bamboo Shoot Soup",
-    "localeName": "レシピ：腌篤鮮",
-    "desc": "「腌篤鮮」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeTripleLayeredConsomme",
-    "name": "Recipe: Triple-Layered Consommé",
-    "localeName": "レシピ：璃月三糸",
-    "desc": "「璃月三糸」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "レシピ"
-  },
+  { "id": "RecipeCrystalShrimp", "name": "Recipe: Crystal Shrimp", "localeName": "レシピ：水晶蝦", "desc": "「水晶蝦」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeGrilledTigerFish", "name": "Recipe: Grilled Tiger Fish", "localeName": "レシピ：チ虎魚焼き", "desc": "「チ虎魚焼き」の詳しい作り方が載っているレシピ。", "rarity": 1, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeBarbatosRatatouille", "name": "Recipe: Barbatos Ratatouille", "localeName": "レシピ：風神ヒュッツポット", "desc": "「風神ヒュッツポット」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeLotusSeedAndBirdEggSoup", "name": "Recipe: Lotus Seed and Bird Egg Soup", "localeName": "レシピ：ハスの実入り茶碗蒸し", "desc": "「ハスの実入り茶碗蒸し」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeAdeptusTemptation", "name": "Recipe: Adeptus' Temptation", "localeName": "レシピ：仙跳牆", "desc": "「仙跳牆」の詳しい作り方が載っているレシピ。", "rarity": 5, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeGoldenShrimpBalls", "name": "Recipe: Golden Shrimp Balls", "localeName": "レシピ：エビのポテト包み揚げ", "desc": "「エビのポテト包み揚げ」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeQingceStirFry", "name": "Recipe: Qingce Stir Fry", "localeName": "レシピ：軽策農家料理", "desc": "「軽策農家料理」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeComeAndGetIt", "name": "Recipe: Come and Get It", "localeName": "レシピ：お食べくだ菜", "desc": "「お食べくだ菜」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeNoodlesWithMountainDelicacies", "name": "Recipe: Noodles with Mountain Delicacies", "localeName": "レシピ：山幸の麺", "desc": "「山幸の麺」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeBambooShootSoup", "name": "Recipe: Bamboo Shoot Soup", "localeName": "レシピ：腌篤鮮", "desc": "「腌篤鮮」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeTripleLayeredConsomme", "name": "Recipe: Triple-Layered Consommé", "localeName": "レシピ：璃月三糸", "desc": "「璃月三糸」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
   { "id": "RecipeTianshuMeat", "name": "Recipe: Tianshu Meat", "localeName": "レシピ：天枢肉", "desc": "「天枢肉」の詳しい作り方が載っているレシピ。", "rarity": 4, "type": 7, "typeText": "レシピ" },
-  {
-    "id": "RecipeLotusFlowerCrisp",
-    "name": "Recipe: Lotus Flower Crisp",
-    "localeName": "レシピ：ハスの花パイ",
-    "desc": "「ハスの花パイ」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "レシピ"
-  },
+  { "id": "RecipeLotusFlowerCrisp", "name": "Recipe: Lotus Flower Crisp", "localeName": "レシピ：ハスの花パイ", "desc": "「ハスの花パイ」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
   { "id": "RecipeMoonPie", "name": "Recipe: Moon Pie", "localeName": "レシピ：ムーンパイ", "desc": "「ムーンパイ」の詳しい作り方が載っているレシピ。", "rarity": 4, "type": 7, "typeText": "レシピ" },
-  {
-    "id": "RecipeAdventurersBreakfastSandwich",
-    "name": "Recipe: Adventurer's Breakfast Sandwich",
-    "localeName": "レシピ：冒険者エッグバーガー",
-    "desc": "「冒険者エッグバーガー」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeNorthernAppleStew",
-    "name": "Recipe: Northern Apple Stew",
-    "localeName": "レシピ：北地のリンゴと肉の煮込み",
-    "desc": "「北地のリンゴと肉の煮込み」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeFullmoonEgg",
-    "name": "Recipe: Fullmoon Egg",
-    "localeName": "レシピ：明月の玉子",
-    "desc": "「明月の玉子」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeVegetarianAbalone",
-    "name": "Recipe:Vegetarian Abalone",
-    "localeName": "レシピ：松茸のアワビもどき",
-    "desc": "「松茸のアワビもどき」の詳しい作り方が載っているレシピ。",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeStoneHarborDelicacies",
-    "name": "Recipe: Stone Harbor Delicacies",
-    "localeName": "レシピ：岩港三鮮",
-    "desc": "「岩港三鮮」の詳しい作り方が載っているレシピ。",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeGoulash",
-    "name": "Recipe: Goulash",
-    "localeName": "レシピ:お肉と野菜のシチュー",
-    "desc": "「お肉と野菜のシチュー」の詳しい作り方が載っているレシピ。",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeSunshineSprat",
-    "name": "Recipe: Sunshine Sprat",
-    "localeName": "レシピ:バター魚焼き",
-    "desc": "「バター魚焼き」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeUniversalPeace",
-    "name": "Recipe: Universal Peace",
-    "localeName": "レシピ:四方平和",
-    "desc": "「四方平和」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "RecipeJueyunGuoba",
-    "name": "Recipe: Jueyun Guoba",
-    "localeName": "レシピ:絶雲のお焦げ",
-    "desc": "「絶雲のお焦げ」の詳しい作り方が載っているレシピ。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "レシピ"
-  },
-  {
-    "id": "Flour",
-    "name": "Flour",
-    "localeName": "小麦粉",
-    "desc": "小麦をすりつぶした粉末。どのような主食を作っても、食べる人の胃に一時的な満足感を与えられる。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["食材加工で獲得"]
-  },
-  {
-    "id": "Cream",
-    "name": "Cream",
-    "localeName": "クリーム",
-    "desc": "牛乳を高速で混ぜて作った乳製品。美味しいお菓子を作る時の必須材料。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["食材加工で獲得"]
-  },
-  {
-    "id": "SmokedFowl",
-    "name": "Smoked Fowl",
-    "localeName": "鳥肉の燻製",
-    "desc": "燻製にした鳥肉。引き締まった肉質が格別の味覚を届けてくれる。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["食材加工で獲得"]
-  },
-  {
-    "id": "Butter",
-    "name": "Butter",
-    "localeName": "バター",
-    "desc": "牛乳から分離させた脂肪分。適量を加えると、平凡な材料でも甘い濃厚な香りを放つ。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["食材加工で獲得"]
-  },
+  { "id": "RecipeAdventurersBreakfastSandwich", "name": "Recipe: Adventurer's Breakfast Sandwich", "localeName": "レシピ：冒険者エッグバーガー", "desc": "「冒険者エッグバーガー」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeNorthernAppleStew", "name": "Recipe: Northern Apple Stew", "localeName": "レシピ：北地のリンゴと肉の煮込み", "desc": "「北地のリンゴと肉の煮込み」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeFullmoonEgg", "name": "Recipe: Fullmoon Egg", "localeName": "レシピ：明月の玉子", "desc": "「明月の玉子」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeVegetarianAbalone", "name": "Recipe:Vegetarian Abalone", "localeName": "レシピ：松茸のアワビもどき", "desc": "「松茸のアワビもどき」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeStoneHarborDelicacies", "name": "Recipe: Stone Harbor Delicacies", "localeName": "レシピ：岩港三鮮", "desc": "「岩港三鮮」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeGoulash", "name": "Recipe: Goulash", "localeName": "レシピ:お肉と野菜のシチュー", "desc": "「お肉と野菜のシチュー」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeSunshineSprat", "name": "Recipe: Sunshine Sprat", "localeName": "レシピ:バター魚焼き", "desc": "「バター魚焼き」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeUniversalPeace", "name": "Recipe: Universal Peace", "localeName": "レシピ:四方平和", "desc": "「四方平和」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeJueyunGuoba", "name": "Recipe: Jueyun Guoba", "localeName": "レシピ:絶雲のお焦げ", "desc": "「絶雲のお焦げ」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeCrispyPotatoShrimpPlatter", "name": "Recipe: Crispy Potato Shrimp Platter", "localeName": "レシピ：エビのポテトカナッペ", "desc": "「エビのポテトカナッペ」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeMintJelly", "name": "Recipe: Mint Jelly", "localeName": "レシピ：ミントゼリー", "desc": "「ミントゼリー」の詳しい作り方が載っているレシピ。", "rarity": 1, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeMintSalad", "name": "Recipe: Mint Salad", "localeName": "レシピ：ミントの和え物", "desc": "「ミントの和え物」の詳しい作り方が載っているレシピ。", "rarity": 2, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeMintyMeatRolls", "name": "Recipe: Minty Meat Rolls", "localeName": "レシピ：ミントの獣肉巻き", "desc": "「ミントの獣肉巻き」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeGoldenFriedChicken", "name": "Recipe: Golden Fried Chicken", "localeName": "レシピ：黄金のジャンボチキン", "desc": "「黄金のジャンボチキン」の詳しい作り方が載っているレシピ。", "rarity": 4, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeGoldenChickenBurger", "name": "Recipe: Golden Chicken Burger", "localeName": "レシピ：カリカリチキンバーガー", "desc": "「カリカリチキンバーガー」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
+  { "id": "RecipeFragrantMashedPotatoes", "name": "Recipe: Fragrant Mashed Potatoes", "localeName": "レシピ：濃厚マッシュポテト", "desc": "「濃厚マッシュポテト」の詳しい作り方が載っているレシピ。", "rarity": 3, "type": 7, "typeText": "レシピ" },
+  { "id": "Flour", "name": "Flour", "localeName": "小麦粉", "desc": "小麦をすりつぶした粉末。どのような主食を作っても、食べる人の胃に一時的な満足感を与えられる。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["食材加工で獲得"] },
+  { "id": "Cream", "name": "Cream", "localeName": "クリーム", "desc": "牛乳を高速で混ぜて作った乳製品。美味しいお菓子を作る時の必須材料。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["食材加工で獲得"] },
+  { "id": "SmokedFowl", "name": "Smoked Fowl", "localeName": "鳥肉の燻製", "desc": "燻製にした鳥肉。引き締まった肉質が格別の味覚を届けてくれる。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["食材加工で獲得"] },
+  { "id": "Butter", "name": "Butter", "localeName": "バター", "desc": "牛乳から分離させた脂肪分。適量を加えると、平凡な材料でも甘い濃厚な香りを放つ。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["食材加工で獲得"] },
   { "id": "Ham", "name": "Ham", "localeName": "ハム", "desc": "燻製にした獣肉の足。薄い1切れでも口いっぱいに香りが広がる。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["食材加工で獲得"] },
-  {
-    "id": "Sugar",
-    "name": "Sugar",
-    "localeName": "砂糖",
-    "desc": "スイートフラワーから精製した調味料。その甘さは人間と共鳴する力があるかのように、心の翳りを取り払う。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["食材加工で獲得"]
-  },
-  {
-    "id": "Jam",
-    "name": "Jam",
-    "localeName": "ジャム",
-    "desc": "果物と砂糖を煮詰めて作ったゲル状の物質。少し食べるだけでも疲れをとってくれる味だ。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["食材加工で獲得"]
-  },
-  {
-    "id": "Cheese",
-    "name": "Cheese",
-    "localeName": "チーズ",
-    "desc": "牛乳を濃縮させて発酵させた乳製品。エネルギーを補充できるだけでなく、料理に無限の可能性を与えてくれる。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["食材加工で獲得"]
-  },
-  {
-    "id": "Bacon",
-    "name": "Bacon",
-    "localeName": "ベーコン",
-    "desc": "燻製にした獣肉のリブ。グラデーションがあり、脂がのっていてもクドくないのが幅広く好まれている理由。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["食材加工で獲得"]
-  },
-  {
-    "id": "Sausage",
-    "name": "Sausage",
-    "localeName": "ソーセージ",
-    "desc": "獣肉のひき肉を腸詰めにしたもの。保存しやすい特徴から、肉食愛好家の日常的な需要を大いに満たしている。",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "食材",
-    "drop": ["食材加工で獲得"]
-  },
+  { "id": "Sugar", "name": "Sugar", "localeName": "砂糖", "desc": "スイートフラワーから精製した調味料。その甘さは人間と共鳴する力があるかのように、心の翳りを取り払う。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["食材加工で獲得"] },
+  { "id": "Jam", "name": "Jam", "localeName": "ジャム", "desc": "果物と砂糖を煮詰めて作ったゲル状の物質。少し食べるだけでも疲れをとってくれる味だ。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["食材加工で獲得"] },
+  { "id": "Cheese", "name": "Cheese", "localeName": "チーズ", "desc": "牛乳を濃縮させて発酵させた乳製品。エネルギーを補充できるだけでなく、料理に無限の可能性を与えてくれる。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["食材加工で獲得"] },
+  { "id": "Bacon", "name": "Bacon", "localeName": "ベーコン", "desc": "燻製にした獣肉のリブ。グラデーションがあり、脂がのっていてもクドくないのが幅広く好まれている理由。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["食材加工で獲得"] },
+  { "id": "Sausage", "name": "Sausage", "localeName": "ソーセージ", "desc": "獣肉のひき肉を腸詰めにしたもの。保存しやすい特徴から、肉食愛好家の日常的な需要を大いに満たしている。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["食材加工で獲得"] },
   { "id": "SmokedFish", "name": "Smoked Fish", "localeName": "魚の燻製", "desc": "", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["食材加工で獲得"] },
   { "id": "DriedFish", "name": "Dried Fish", "localeName": "魚の干物", "desc": "", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["食材加工で獲得"] },
-  {
-    "id": "HeatshieldPotion",
-    "name": "Heatshield Potion",
-    "localeName": "耐熱薬剤",
-    "desc": "飲むと酷暑にも耐えられる不思議な薬剤。炎元素耐性が上がる。\nその原理は体を冷やすのでなく、暑さに慣れさせることである。",
-    "rarity": 3,
-    "type": 2,
-    "typeText": "薬剤",
-    "drop": ["合成で獲得"]
-  },
-  {
-    "id": "DesiccantPotion",
-    "name": "Desiccant Potion",
-    "localeName": "耐湿薬剤",
-    "desc": "飲むと湿っぽい環境にも耐えられる不思議な薬剤。水元素耐性が上がる。\n防湿効果もあるらしい。リウマチ患者にとっては宝物。",
-    "rarity": 3,
-    "type": 2,
-    "typeText": "薬剤",
-    "drop": ["合成で獲得"]
-  },
-  {
-    "id": "FrostshieldPotion",
-    "name": "Frostshield Potion",
-    "localeName": "耐寒薬剤",
-    "desc": "飲むと極寒にも耐えられる不思議な薬剤。氷元素耐性が上がる。\n飲むと冷気が舌から全身に響き渡るが、その後は寒気を感じなくなる。",
-    "rarity": 3,
-    "type": 2,
-    "typeText": "薬剤",
-    "drop": ["合成で獲得"]
-  },
-  {
-    "id": "WindbarrierPotion",
-    "name": "Windbarrier Potion",
-    "localeName": "耐風薬剤",
-    "desc": "飲むと強風にも耐えられる不思議な薬剤。風元素耐性が上がる。\nよく野宿をする冒険者にとって非常に便利な薬剤。風邪予防にも使えるらしい。",
-    "rarity": 3,
-    "type": 2,
-    "typeText": "薬剤",
-    "drop": ["合成で獲得"]
-  },
+  { "id": "HeatshieldPotion", "name": "Heatshield Potion", "localeName": "耐熱薬剤", "desc": "飲むと酷暑にも耐えられる不思議な薬剤。炎元素耐性が上がる。\nその原理は体を冷やすのでなく、暑さに慣れさせることである。", "rarity": 3, "type": 2, "typeText": "薬剤", "drop": ["合成で獲得"] },
+  { "id": "DesiccantPotion", "name": "Desiccant Potion", "localeName": "耐湿薬剤", "desc": "飲むと湿っぽい環境にも耐えられる不思議な薬剤。水元素耐性が上がる。\n防湿効果もあるらしい。リウマチ患者にとっては宝物。", "rarity": 3, "type": 2, "typeText": "薬剤", "drop": ["合成で獲得"] },
+  { "id": "FrostshieldPotion", "name": "Frostshield Potion", "localeName": "耐寒薬剤", "desc": "飲むと極寒にも耐えられる不思議な薬剤。氷元素耐性が上がる。\n飲むと冷気が舌から全身に響き渡るが、その後は寒気を感じなくなる。", "rarity": 3, "type": 2, "typeText": "薬剤", "drop": ["合成で獲得"] },
+  { "id": "WindbarrierPotion", "name": "Windbarrier Potion", "localeName": "耐風薬剤", "desc": "飲むと強風にも耐えられる不思議な薬剤。風元素耐性が上がる。\nよく野宿をする冒険者にとって非常に便利な薬剤。風邪予防にも使えるらしい。", "rarity": 3, "type": 2, "typeText": "薬剤", "drop": ["合成で獲得"] },
   {
     "id": "InsulationPotion",
     "name": "Insulation Potion",
@@ -4281,46 +2532,10 @@
   { "id": "SmallPrettyCrystal", "name": "Small Pretty Crystal", "localeName": "綺麗な結晶（小）", "desc": "合成追加産物", "rarity": 1, "type": 7, "typeText": "合成産物", "drop": ["合成で獲得"] },
   { "id": "MediumPrettyCrystal", "name": "Medium Pretty Crystal", "localeName": "綺麗な結晶（中）", "desc": "合成追加産物", "rarity": 1, "type": 7, "typeText": "合成産物", "drop": ["合成で獲得"] },
   { "id": "BigPrettyCrystal", "name": "Big Pretty Crystal", "localeName": "綺麗な結晶（大）", "desc": "合成追加産物", "rarity": 1, "type": 7, "typeText": "合成産物", "drop": ["合成で獲得"] },
-  {
-    "id": "PrimordialEssence",
-    "name": "Primordial Essence",
-    "localeName": "原質",
-    "desc": "凝集された原始元素力の粒子。基礎的な素材として錬金術では広く使われている。",
-    "rarity": 2,
-    "type": 1,
-    "typeText": "キャラクター育成素材",
-    "drop": ["元素生物でドロップ"]
-  },
-  {
-    "id": "SlimeCondensate",
-    "name": "Slime Condensate",
-    "localeName": "スライムの液体",
-    "desc": "スライムの表面にある液体、各地の元素工房では最もよくある原料である。",
-    "rarity": 1,
-    "type": 1,
-    "typeText": "キャラクター育成素材",
-    "drop": ["スライムでドロップ"]
-  },
-  {
-    "id": "SlimeSecretions",
-    "name": "Slime Secretions",
-    "localeName": "スライムの分泌物",
-    "desc": "純化されたスライムの分泌物、皮膚を傷つけるため、直接接触はしないように。",
-    "rarity": 2,
-    "type": 1,
-    "typeText": "キャラクター育成素材",
-    "drop": ["スライム（Lv.40以上）でドロップ", "合成で獲得"]
-  },
-  {
-    "id": "SlimeConcentrate",
-    "name": "Slime Concentrate",
-    "localeName": "スライムのピュレ",
-    "desc": "スライムの濃縮ピュレ、静止した状態では不規則な動きをする。",
-    "rarity": 3,
-    "type": 1,
-    "typeText": "キャラクター育成素材",
-    "drop": ["スライム（Lv.60以上）でドロップ", "合成で獲得"]
-  },
+  { "id": "PrimordialEssence", "name": "Primordial Essence", "localeName": "原質", "desc": "凝集された原始元素力の粒子。基礎的な素材として錬金術では広く使われている。", "rarity": 2, "type": 1, "typeText": "キャラクター育成素材", "drop": ["元素生物でドロップ"] },
+  { "id": "SlimeCondensate", "name": "Slime Condensate", "localeName": "スライムの液体", "desc": "スライムの表面にある液体、各地の元素工房では最もよくある原料である。", "rarity": 1, "type": 1, "typeText": "キャラクター育成素材", "drop": ["スライムでドロップ"] },
+  { "id": "SlimeSecretions", "name": "Slime Secretions", "localeName": "スライムの分泌物", "desc": "純化されたスライムの分泌物、皮膚を傷つけるため、直接接触はしないように。", "rarity": 2, "type": 1, "typeText": "キャラクター育成素材", "drop": ["スライム（Lv.40以上）でドロップ", "合成で獲得"] },
+  { "id": "SlimeConcentrate", "name": "Slime Concentrate", "localeName": "スライムのピュレ", "desc": "スライムの濃縮ピュレ、静止した状態では不規則な動きをする。", "rarity": 3, "type": 1, "typeText": "キャラクター育成素材", "drop": ["スライム（Lv.60以上）でドロップ", "合成で獲得"] },
   {
     "id": "DamagedMask",
     "name": "Damaged Mask",
@@ -4339,13 +2554,7 @@
     "rarity": 2,
     "type": 1,
     "typeText": "キャラクター育成素材",
-    "drop": [
-      "ヒルチャール（Lv.40以上）でドロップ",
-      "ヒルチャール·弓使い（Lv.40以上）でレアドロップ",
-      "ヒルチャールシャーマン（Lv.40以上）でレアドロップ",
-      "大型ヒルチャール（Lv.40以上）でレアドロップ",
-      "合成で獲得"
-    ]
+    "drop": ["ヒルチャール（Lv.40以上）でドロップ", "ヒルチャール·弓使い（Lv.40以上）でレアドロップ", "ヒルチャールシャーマン（Lv.40以上）でレアドロップ", "大型ヒルチャール（Lv.40以上）でレアドロップ", "合成で獲得"]
   },
   {
     "id": "OminousMask",
@@ -4355,24 +2564,9 @@
     "rarity": 3,
     "type": 1,
     "typeText": "キャラクター育成素材",
-    "drop": [
-      "ヒルチャール（Lv.60以上）でドロップ",
-      "ヒルチャール·弓使い（Lv.60以上）でレアドロップ",
-      "ヒルチャールシャーマン（Lv.60以上）でレアドロップ",
-      "大型ヒルチャール（Lv.60以上）でレアドロップ",
-      "合成で獲得"
-    ]
+    "drop": ["ヒルチャール（Lv.60以上）でドロップ", "ヒルチャール·弓使い（Lv.60以上）でレアドロップ", "ヒルチャールシャーマン（Lv.60以上）でレアドロップ", "大型ヒルチャール（Lv.60以上）でレアドロップ", "合成で獲得"]
   },
-  {
-    "id": "DiviningScroll",
-    "name": "Divining Scroll",
-    "localeName": "占いの絵巻",
-    "desc": "ある魔法に関する絵巻残編だと考えられる。異様な、不吉な暖かさがある。",
-    "rarity": 1,
-    "type": 1,
-    "typeText": "キャラクター育成素材",
-    "drop": ["ヒルチャールシャーマンでドロップ"]
-  },
+  { "id": "DiviningScroll", "name": "Divining Scroll", "localeName": "占いの絵巻", "desc": "ある魔法に関する絵巻残編だと考えられる。異様な、不吉な暖かさがある。", "rarity": 1, "type": 1, "typeText": "キャラクター育成素材", "drop": ["ヒルチャールシャーマンでドロップ"] },
   {
     "id": "SealedScroll",
     "name": "Sealed Scroll",
@@ -4423,16 +2617,7 @@
     "typeText": "キャラクター育成素材",
     "drop": ["ヒルチャール·弓使い（Lv.60以上）でドロップ", "合成で獲得"]
   },
-  {
-    "id": "HeavyHorn",
-    "name": "Heavy Horn",
-    "localeName": "重い角笛",
-    "desc": "ざらざらした角笛、ヒルチャールが仲間に警告を送るための道具。破損箇所が多いため、音を出す機能は失われている。",
-    "rarity": 2,
-    "type": 1,
-    "typeText": "キャラクター育成素材",
-    "drop": ["大型ヒルチャールでドロップ"]
-  },
+  { "id": "HeavyHorn", "name": "Heavy Horn", "localeName": "重い角笛", "desc": "ざらざらした角笛、ヒルチャールが仲間に警告を送るための道具。破損箇所が多いため、音を出す機能は失われている。", "rarity": 2, "type": 1, "typeText": "キャラクター育成素材", "drop": ["大型ヒルチャールでドロップ"] },
   {
     "id": "BlackBronzeHorn",
     "name": "Black Bronze Horn",
@@ -4453,16 +2638,7 @@
     "typeText": "キャラクター育成素材",
     "drop": ["大型ヒルチャール（Lv.60以上）でドロップ", "合成で獲得"]
   },
-  {
-    "id": "GloomyStatuette",
-    "name": "Gloomy Statuette",
-    "localeName": "暗晦の彫刻",
-    "desc": "誰かを描いた小さな彫刻。長い年月を経ても、何の傷もない。",
-    "rarity": 2,
-    "type": 1,
-    "typeText": "キャラクター育成素材",
-    "drop": ["アビスの魔術師でドロップ"]
-  },
+  { "id": "GloomyStatuette", "name": "Gloomy Statuette", "localeName": "暗晦の彫刻", "desc": "誰かを描いた小さな彫刻。長い年月を経ても、何の傷もない。", "rarity": 2, "type": 1, "typeText": "キャラクター育成素材", "drop": ["アビスの魔術師でドロップ"] },
   {
     "id": "DarkStatuette",
     "name": "Dark Statuette",
@@ -4483,16 +2659,7 @@
     "typeText": "キャラクター育成素材",
     "drop": ["アビスの魔術師（Lv.60以上）でドロップ", "合成で獲得"]
   },
-  {
-    "id": "DeadLeyLineBranch",
-    "name": "Dead Ley Line Branch",
-    "localeName": "地脈の旧枝",
-    "desc": "深い地の底からの枯れ枝。長い年月を経ても、その色が入り交じった樹皮から力を感じられる。",
-    "rarity": 2,
-    "type": 1,
-    "typeText": "キャラクター育成素材",
-    "drop": ["アビスの魔術師でドロップ"]
-  },
+  { "id": "DeadLeyLineBranch", "name": "Dead Ley Line Branch", "localeName": "地脈の旧枝", "desc": "深い地の底からの枯れ枝。長い年月を経ても、その色が入り交じった樹皮から力を感じられる。", "rarity": 2, "type": 1, "typeText": "キャラクター育成素材", "drop": ["アビスの魔術師でドロップ"] },
   {
     "id": "DeadLeyLineLeaves",
     "name": "Dead Ley Line Leaves",
@@ -4543,26 +2710,8 @@
     "typeText": "キャラクター育成素材",
     "drop": ["遺跡守衛（Lv.60以上）でドロップ", "遺跡ハンター（Lv.60以上）でドロップ", "合成で獲得"]
   },
-  {
-    "id": "MistGrassPollen",
-    "name": "Mist Grass Pollen",
-    "localeName": "霧虚ろの花粉",
-    "desc": "霧虚ろの草は密閉空間の中では謎の胞子を飛ばす。飛蛍の大好物である。",
-    "rarity": 2,
-    "type": 1,
-    "typeText": "キャラクター育成素材",
-    "drop": ["ファデュイ·蛍術師でドロップ"]
-  },
-  {
-    "id": "MistGrass",
-    "name": "Mist Grass",
-    "localeName": "霧虚ろの草嚢",
-    "desc": "綺麗に保存された霧虚ろの草。一部の人はこれを使って飛蛍をコントロールする。",
-    "rarity": 3,
-    "type": 1,
-    "typeText": "キャラクター育成素材",
-    "drop": ["ファデュイ·蛍術師（Lv.40以上）でドロップ", "合成で獲得"]
-  },
+  { "id": "MistGrassPollen", "name": "Mist Grass Pollen", "localeName": "霧虚ろの花粉", "desc": "霧虚ろの草は密閉空間の中では謎の胞子を飛ばす。飛蛍の大好物である。", "rarity": 2, "type": 1, "typeText": "キャラクター育成素材", "drop": ["ファデュイ·蛍術師でドロップ"] },
+  { "id": "MistGrass", "name": "Mist Grass", "localeName": "霧虚ろの草嚢", "desc": "綺麗に保存された霧虚ろの草。一部の人はこれを使って飛蛍をコントロールする。", "rarity": 3, "type": 1, "typeText": "キャラクター育成素材", "drop": ["ファデュイ·蛍術師（Lv.40以上）でドロップ", "合成で獲得"] },
   {
     "id": "MistGrassWick",
     "name": "Mist Grass Wick",
@@ -4573,16 +2722,7 @@
     "typeText": "キャラクター育成素材",
     "drop": ["ファデュイ·蛍術師（Lv.60以上）でドロップ", "合成で獲得"]
   },
-  {
-    "id": "HuntersSacrificialKnife",
-    "name": "Hunter's Sacrificial Knife",
-    "localeName": "猟兵の刀",
-    "desc": "ある種鋭利な合金武器。元の持ち主がいなくなっても、幽々たる光を反射して不安を誘う。",
-    "rarity": 2,
-    "type": 1,
-    "typeText": "キャラクター育成素材",
-    "drop": ["デットエージェントでドロップ"]
-  },
+  { "id": "HuntersSacrificialKnife", "name": "Hunter's Sacrificial Knife", "localeName": "猟兵の刀", "desc": "ある種鋭利な合金武器。元の持ち主がいなくなっても、幽々たる光を反射して不安を誘う。", "rarity": 2, "type": 1, "typeText": "キャラクター育成素材", "drop": ["デットエージェントでドロップ"] },
   {
     "id": "AgentsSacrificialKnife",
     "name": "Agent's Sacrificial Knife",
@@ -4707,7 +2847,7 @@
     "id": "SturdyBoneShard",
     "name": "Sturdy Bone Shard",
     "localeName": "丈夫な骨片",
-    "desc": "何らかの理由で、ヴィシャップが大切にしているある生き物の骨片。\n見た感じある程度年月が経っている。例え人間の言葉が分からない生き物でも、このような遺骨に特別な憧れを持っているらしい。",
+    "desc": "何らかの理由で、ヴィシャップが大切にしているある生き物の骨片。\n見た感じある程度年月が経っている。たとえ人間の言葉が分からない生き物でも、このような遺骨に特別な憧れを持っているらしい。",
     "rarity": 3,
     "type": 1,
     "typeText": "キャラクター育成素材",
@@ -4817,7 +2957,7 @@
     "id": "HoarfrostCore",
     "name": "Hoarfrost Core",
     "localeName": "極寒のコア",
-    "desc": "急凍樹を倒した後に現れるコア。\n今にも大地の深淵のエネルギーと思念が噴出しようとしている。哀悼のように静寂な氷霜もいずれ地上の生物に宿る。例え生き物を狩らないはずのツル植物でも、強く凶暴になるであろう。",
+    "desc": "急凍樹を倒した後に現れるコア。\n今にも大地の深淵のエネルギーと思念が噴出しようとしている。哀悼のように静寂な氷霜もいずれ地上の生物に宿る。たとえ生き物を狩らないはずのツル植物でも、強く凶暴になるであろう。",
     "rarity": 4,
     "type": 1,
     "typeText": "キャラクター育成素材",
@@ -4877,7 +3017,7 @@
     "id": "JuvenileJade",
     "name": "Juvenile Jade",
     "localeName": "未熟の玉石",
-    "desc": "エンシェントヴィシャップ·岩から取り出した結晶物質。龍になれる可能性を秘めている。\n山で深く眠るヴィシャップは、この様な薄暗い結晶を沈殿させる。璃月の伝説によると、この結晶は時間とともに力が蓄積し、最終的に本来の心臓を取り替え、ヴィシャップも真の龍になり、山を揺るがし、大地を引き裂くという。",
+    "desc": "エンシェントヴィシャップ·岩から取り出した結晶物質。龍になれる可能性を秘めている。\n山で深く眠るヴィシャップは、このような薄暗い結晶を沈殿させる。璃月の伝説によると、この結晶は時間とともに力が蓄積し、最終的に本来の心臓を取り替え、ヴィシャップも真の龍になり、山を揺るがし、大地を引き裂くという。",
     "rarity": 4,
     "type": 1,
     "typeText": "キャラクター育成素材",
@@ -5163,24 +3303,8 @@
     "typeText": "海灯祭材料",
     "drop": ["鉱物類採集物で獲得", "ベビーヴィシャップ·岩、ヴィシャップ·岩でドロップ", "ヒルチャール·岩兜の王でドロップ"]
   },
-  {
-    "id": "RimeWornFragment",
-    "name": "Rime-Worn Fragment",
-    "localeName": "霜噬砕屑",
-    "desc": "ドラゴンスパインの魔物から取り出した小さな結晶。\n特殊な時期にのみ生成される。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "雪山素材"
-  },
-  {
-    "id": "RimeWornCrystal",
-    "name": "Rime-Worn Crystal",
-    "localeName": "霜噬結晶",
-    "desc": "ドラゴンスパインの魔物から取り出した結晶の塊。\n特殊な時期にのみ生成される。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "雪山素材"
-  },
+  { "id": "RimeWornFragment", "name": "Rime-Worn Fragment", "localeName": "霜噬砕屑", "desc": "ドラゴンスパインの魔物から取り出した小さな結晶。\n特殊な時期にのみ生成される。", "rarity": 3, "type": 7, "typeText": "雪山素材" },
+  { "id": "RimeWornCrystal", "name": "Rime-Worn Crystal", "localeName": "霜噬結晶", "desc": "ドラゴンスパインの魔物から取り出した結晶の塊。\n特殊な時期にのみ生成される。", "rarity": 3, "type": 7, "typeText": "雪山素材" },
   {
     "id": "FesteringDragonMarrow",
     "name": "Festering Dragon Marrow",
@@ -5191,10 +3315,19 @@
     "typeText": "精錬材料"
   },
   {
+    "id": "TheVisibleWinds",
+    "name": "\"The Visible Winds\"",
+    "localeName": "「見える風」",
+    "desc": "「風花の頌歌」専用の精錬アイテム。\n風車と風の花を象徴する装飾品「風花の頌歌」にも飾られている。「風」自体は見ることも触れることもできない。しかし絶え間なく回る風車と緑の地に揺れる花は「見える風」であり、穏やかな風は常に大地とモンドの人々を大切にしていることを示している。",
+    "rarity": 4,
+    "type": 1,
+    "typeText": "精錬材料"
+  },
+  {
     "id": "CondensedResin",
     "name": "Condensed Resin",
     "localeName": "濃縮樹脂",
-    "desc": "同時に最大3つまで所持可能。\n石化古樹と地脈の花を活性化させる天然樹脂の代替品。さらに貴重な濃縮樹脂を手に入れられる。\n力に満ち溢れた結晶体。\n白銀の古樹と花は地脈と繋がっており、樹脂の力は地脈を通って、その中にある物質を精製する。",
+    "desc": "同時に最大5つまで所持可能。\n石化古樹と地脈の花を活性化させる天然樹脂の代替品、貴重な報酬をより多く獲得できる。\n力に満ち溢れた結晶体。\n白銀の古樹と花は地脈と繋がっており、樹脂の力は地脈を通って、その中にある物質を精製できる。",
     "rarity": 4,
     "type": 7,
     "typeText": "消耗品",
@@ -5227,15 +3360,7 @@
     "type": 7,
     "typeText": "鍛造設計図"
   },
-  {
-    "id": "DiagramWindCatcher",
-    "name": "Diagram: Wind Catcher",
-    "localeName": "図譜：風捕りの瓶",
-    "desc": "「風捕りの瓶」の詳しい作り方が載っている図譜。風捕りの瓶は「風の種」の力を汲み、必要な時に風域を生成することができる。",
-    "rarity": 4,
-    "type": 7,
-    "typeText": "鍛造設計図"
-  },
+  { "id": "DiagramWindCatcher", "name": "Diagram: Wind Catcher", "localeName": "図譜：風捕りの瓶", "desc": "「風捕りの瓶」の詳しい作り方が載っている図譜。風捕りの瓶は「風の種」の力を汲み、必要な時に風域を生成することができる。", "rarity": 4, "type": 7, "typeText": "鍛造設計図" },
   {
     "id": "InstructionsPortableWaypoint",
     "name": "Instructions: Portable Waypoint",
@@ -5245,33 +3370,17 @@
     "type": 7,
     "typeText": "合成設計図"
   },
-  {
-    "id": "DiagramAdeptiSeekersStove",
-    "name": "Diagram: Adepti Seeker's Stove",
-    "localeName": "図譜：「仙人探しの美食家」",
-    "desc": "「仙人探しの美食家」の詳しい作り方が載っている図譜。習得後、携帯式の料理用鍋を作れるようになる。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "鍛造設計図"
-  },
+  { "id": "DiagramAdeptiSeekersStove", "name": "Diagram: Adepti Seeker's Stove", "localeName": "図譜：「仙人探しの美食家」", "desc": "「仙人探しの美食家」の詳しい作り方が載っている図譜。習得後、携帯式の料理用鍋を作れるようになる。", "rarity": 3, "type": 7, "typeText": "鍛造設計図" },
   {
     "id": "InstructionsCondensedResin",
     "name": "Instructions: Condensed Resin",
     "localeName": "説明：濃縮樹脂",
-    "desc": "「濃縮樹脂」の詳しい作り方が載っている説明書。地脈の花や石化古樹を活性化させる時に、この濃縮した樹脂を使用すると効率がアップする。濃縮樹脂は同時に最大3つまで所持可能。",
+    "desc": "「濃縮樹脂」の詳しい作り方が載っている説明書。地脈の花や石化古樹を活性化させる時に、この濃縮した樹脂を使用すると効率がアップする。濃縮樹脂は同時に最大5つまで所持可能。",
     "rarity": 4,
     "type": 7,
     "typeText": "合成設計図"
   },
-  {
-    "id": "DiagramNREMenu30",
-    "name": "Diagram: NRE (Menu 30)",
-    "localeName": "図譜：三〇式·携帯式栄養袋",
-    "desc": "「三〇式·携帯式栄養袋」の詳しい作り方が載っている図譜。習得後、素早く料理を食べるアイテムを作れるようになる。",
-    "rarity": 4,
-    "type": 7,
-    "typeText": "鍛造設計図"
-  },
+  { "id": "DiagramNREMenu30", "name": "Diagram: NRE (Menu 30)", "localeName": "図譜：三〇式·携帯式栄養袋", "desc": "「三〇式·携帯式栄養袋」の詳しい作り方が載っている図譜。習得後、素早く料理を食べるアイテムを作れるようになる。", "rarity": 4, "type": 7, "typeText": "鍛造設計図" },
   {
     "id": "DiagramAnemoTreasureCompass",
     "name": "Diagram: Anemo Treasure Compass",
@@ -5281,40 +3390,8 @@
     "type": 7,
     "typeText": "鍛造設計図"
   },
-  {
-    "id": "DiagramWarmingBottle",
-    "name": "Diagram: Warming Bottle",
-    "localeName": "図譜:放熱瓶",
-    "desc": "「放熱瓶」の詳しい作り方が載っている図譜。習得後は、極寒の消耗に抵抗できる道具を作れるようになる。",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "鍛造設計図"
-  },
-  {
-    "id": "MemoryOfTheEntombedCity",
-    "name": "Memory of the Entombed City",
-    "localeName": "雪葬の都の記憶",
-    "desc": "この記憶を通して、双手剣「雪葬の星銀」の製造方法を習得できる。",
-    "rarity": 4,
-    "type": 7,
-    "typeText": "鍛造設計図"
-  },
-  {
-    "id": "MemoryOfTheFrostbearingTree",
-    "name": "Memory of the Frostbearing Tree",
-    "localeName": "冬忍びの樹の記憶",
-    "desc": "この記憶を通して、法器「冬忍びの実」の製造方法を習得できる。",
-    "rarity": 4,
-    "type": 7,
-    "typeText": "鍛造設計図"
-  },
-  {
-    "id": "DiagramDragonspineSpear",
-    "name": "Diagram: Dragonspine Spear",
-    "localeName": "図譜:ドラゴンスピア",
-    "desc": "長柄武器「ドラゴンスピア」の詳しい作り方が載っている図譜。",
-    "rarity": 4,
-    "type": 7,
-    "typeText": "鍛造設計図"
-  }
+  { "id": "DiagramWarmingBottle", "name": "Diagram: Warming Bottle", "localeName": "図譜:放熱瓶", "desc": "「放熱瓶」の詳しい作り方が載っている図譜。習得後は、極寒の消耗に抵抗できる道具を作れるようになる。", "rarity": 3, "type": 7, "typeText": "鍛造設計図" },
+  { "id": "MemoryOfTheEntombedCity", "name": "Memory of the Entombed City", "localeName": "雪葬の都の記憶", "desc": "この記憶を通して、両手剣「雪葬の星銀」の製造方法を習得できる。", "rarity": 4, "type": 7, "typeText": "鍛造設計図" },
+  { "id": "MemoryOfTheFrostbearingTree", "name": "Memory of the Frostbearing Tree", "localeName": "冬忍びの樹の記憶", "desc": "この記憶を通して、法器「冬忍びの実」の製造方法を習得できる。", "rarity": 4, "type": 7, "typeText": "鍛造設計図" },
+  { "id": "DiagramDragonspineSpear", "name": "Diagram: Dragonspine Spear", "localeName": "図譜:ドラゴンスピア", "desc": "長柄武器「ドラゴンスピア」の詳しい作り方が載っている図譜。", "rarity": 4, "type": 7, "typeText": "鍛造設計図" }
 ]

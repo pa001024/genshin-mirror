@@ -28,35 +28,9 @@
     "type": 7,
     "typeText": "Limited Wishing Item"
   },
-  {
-    "id": "AcquaintFate",
-    "name": "Acquaint Fate",
-    "localeName": "Acquaint Fate",
-    "desc": "A seed that lights up the night.\nNo matter the distance apart, guided by the stone's glimmer, the fated will meet under the stars.",
-    "rarity": 5,
-    "type": 7,
-    "typeText": "Wishing Item"
-  },
-  {
-    "id": "PyroSigil",
-    "name": "Pyro Sigil",
-    "localeName": "Pyro Sigil",
-    "desc": "A token of recognition and appreciation that can be found around Mondstadt. Can be exchanged for rare items in the shop.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "City States Sigil",
-    "drop": ["Exploration Reward"]
-  },
-  {
-    "id": "HydroSigil",
-    "name": "Hydro Sigil",
-    "localeName": "Hydro Sigil",
-    "desc": "A token of recognition and appreciation that can be found around Mondstadt. Can be exchanged for rare items in the shop.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "City States Sigil",
-    "drop": ["Exploration Reward"]
-  },
+  { "id": "AcquaintFate", "name": "Acquaint Fate", "localeName": "Acquaint Fate", "desc": "A seed that lights up the night.\nNo matter the distance apart, guided by the stone's glimmer, the fated will meet under the stars.", "rarity": 5, "type": 7, "typeText": "Wishing Item" },
+  { "id": "PyroSigil", "name": "Pyro Sigil", "localeName": "Pyro Sigil", "desc": "A token of recognition and appreciation that can be found around Mondstadt. Can be exchanged for rare items in the shop.", "rarity": 3, "type": 7, "typeText": "City States Sigil", "drop": ["Exploration Reward"] },
+  { "id": "HydroSigil", "name": "Hydro Sigil", "localeName": "Hydro Sigil", "desc": "A token of recognition and appreciation that can be found around Mondstadt. Can be exchanged for rare items in the shop.", "rarity": 3, "type": 7, "typeText": "City States Sigil", "drop": ["Exploration Reward"] },
   {
     "id": "DendroSigil",
     "name": "Dendro Sigil",
@@ -87,26 +61,8 @@
     "typeText": "City States Sigil",
     "drop": ["Mondstadt Exploration Reward"]
   },
-  {
-    "id": "CryoSigil",
-    "name": "Cryo Sigil",
-    "localeName": "Cryo Sigil",
-    "desc": "A token of recognition and appreciation that can be found around Mondstadt. Can be exchanged for rare items in the shop.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "City States Sigil",
-    "drop": ["Exploration Reward"]
-  },
-  {
-    "id": "GeoSigil",
-    "name": "Geo Sigil",
-    "localeName": "Geo Sigil",
-    "desc": "An insignia that shows the recognition of the cliffs of Liyue.\nCan be exchanged for special items in Liyue.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "City States Sigil",
-    "drop": ["Liyue Exploration Reward"]
-  },
+  { "id": "CryoSigil", "name": "Cryo Sigil", "localeName": "Cryo Sigil", "desc": "A token of recognition and appreciation that can be found around Mondstadt. Can be exchanged for rare items in the shop.", "rarity": 3, "type": 7, "typeText": "City States Sigil", "drop": ["Exploration Reward"] },
+  { "id": "GeoSigil", "name": "Geo Sigil", "localeName": "Geo Sigil", "desc": "An insignia that shows the recognition of the cliffs of Liyue.\nCan be exchanged for special items in Liyue.", "rarity": 3, "type": 7, "typeText": "City States Sigil", "drop": ["Liyue Exploration Reward"] },
   {
     "id": "GnosticHymnOldNotes",
     "name": "Gnostic Hymn - Old Notes",
@@ -136,76 +92,13 @@
     "typeText": "Food",
     "drop": ["Found in the wild"]
   },
-  {
-    "id": "Mushroom",
-    "name": "Mushroom",
-    "localeName": "Mushroom",
-    "desc": "Hardy common fungi. Can grow anywhere with the right amount of shade and moisture.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Found in the wild"]
-  },
-  {
-    "id": "SweetFlower",
-    "name": "Sweet Flower",
-    "localeName": "Sweet Flower",
-    "desc": "Particularly fragrant flowers. They can be found easily, even in the dark. Just follow the scent.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Found in the wild"]
-  },
-  {
-    "id": "Carrot",
-    "name": "Carrot",
-    "localeName": "Carrot",
-    "desc": "A healthy and nutritious vegetable that is crunchy and sweet to the taste. Easy to grow and harvest.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Found in the wild"]
-  },
-  {
-    "id": "Radish",
-    "name": "Radish",
-    "localeName": "Radish",
-    "desc": "Rich in fiber and nutrients. Easy to grow and harvest.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Found in the wild"]
-  },
-  {
-    "id": "Snapdragon",
-    "name": "Snapdragon",
-    "localeName": "Snapdragon",
-    "desc": "Can be eaten once cooked. As a spice, it can bring wonderful flavor to dishes.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Found near lakes and river banks"]
-  },
-  {
-    "id": "Mint",
-    "name": "Mint",
-    "localeName": "Mint",
-    "desc": "A refreshingly cool ingredient. The cool, fresh flavor can cut through the heat of many dishes.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Found in the wild"]
-  },
-  {
-    "id": "Wheat",
-    "name": "Wheat",
-    "localeName": "Wheat",
-    "desc": "Golden, sun-kissed tassels. Needs to be ground down to flour for further use.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Found in the wild", "Sold at general goods shops"]
-  },
+  { "id": "Mushroom", "name": "Mushroom", "localeName": "Mushroom", "desc": "Hardy common fungi. Can grow anywhere with the right amount of shade and moisture.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Found in the wild"] },
+  { "id": "SweetFlower", "name": "Sweet Flower", "localeName": "Sweet Flower", "desc": "Particularly fragrant flowers. They can be found easily, even in the dark. Just follow the scent.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Found in the wild"] },
+  { "id": "Carrot", "name": "Carrot", "localeName": "Carrot", "desc": "A healthy and nutritious vegetable that is crunchy and sweet to the taste. Easy to grow and harvest.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Found in the wild"] },
+  { "id": "Radish", "name": "Radish", "localeName": "Radish", "desc": "Rich in fiber and nutrients. Easy to grow and harvest.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Found in the wild"] },
+  { "id": "Snapdragon", "name": "Snapdragon", "localeName": "Snapdragon", "desc": "Can be eaten once cooked. As a spice, it can bring wonderful flavor to dishes.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Found near lakes and river banks"] },
+  { "id": "Mint", "name": "Mint", "localeName": "Mint", "desc": "A refreshingly cool ingredient. The cool, fresh flavor can cut through the heat of many dishes.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Found in the wild"] },
+  { "id": "Wheat", "name": "Wheat", "localeName": "Wheat", "desc": "Golden, sun-kissed tassels. Needs to be ground down to flour for further use.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Found in the wild", "Sold at general goods shops"] },
   {
     "id": "Cabbage",
     "name": "Cabbage",
@@ -216,26 +109,8 @@
     "typeText": "Cooking Ingredient",
     "drop": ["Found in the wild", "Sold at general goods shops"]
   },
-  {
-    "id": "SilverLotus",
-    "name": "Silver Lotus",
-    "localeName": "Silver Lotus",
-    "desc": "A rare plant that grows on steep cliffs with nobility. Shines magnificently in the night.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Found in the wild"]
-  },
-  {
-    "id": "Pinecone",
-    "name": "Pinecone",
-    "localeName": "Pinecone",
-    "desc": "Filled with oil-rich seeds. Certainly won't be growing into a tree from inside a squirrel's stomach.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Found in the wild"]
-  },
+  { "id": "SilverLotus", "name": "Silver Lotus", "localeName": "Silver Lotus", "desc": "A rare plant that grows on steep cliffs with nobility. Shines magnificently in the night.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Found in the wild"] },
+  { "id": "Pinecone", "name": "Pinecone", "localeName": "Pinecone", "desc": "Filled with oil-rich seeds. Certainly won't be growing into a tree from inside a squirrel's stomach.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Found in the wild"] },
   {
     "id": "Wolfhook",
     "name": "Wolfhook",
@@ -270,7 +145,7 @@
     "id": "WindwheelAster",
     "name": "Windwheel Aster",
     "localeName": "Windwheel Aster",
-    "desc": "A plant that adores the wind. To the proud children of the wind, or the citizens of Mondstadt, the Windwheel Asters are the \"visible winds.\"",
+    "desc": "A plant that adores the wind. To the proud children of the wind, or the citizens of Mondstadt, the Windwheel Asters are \"the visible winds.\"",
     "rarity": 1,
     "type": 4,
     "typeText": "A local specialty of Mondstadt.",
@@ -376,16 +251,7 @@
     "typeText": "A local specialty of Liyue.",
     "drop": ["Found near cliffs in Liyue"]
   },
-  {
-    "id": "Berry",
-    "name": "Berry",
-    "localeName": "Berry",
-    "desc": "Small, brightly-colored fruit. They can be found everywhere, and the taste of them wipes the fatigue of a long journey away.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Found in the wild"]
-  },
+  { "id": "Berry", "name": "Berry", "localeName": "Berry", "desc": "Small, brightly-colored fruit. They can be found everywhere, and the taste of them wipes the fatigue of a long journey away.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Found in the wild"] },
   {
     "id": "MistFlowerCorolla",
     "name": "Mist Flower Corolla",
@@ -456,226 +322,28 @@
     "typeText": "A local specialty of Liyue.",
     "drop": ["Found under cliffs in Liyue", "Recommendation: Found on Mt. Hulao"]
   },
-  {
-    "id": "RawMeat",
-    "name": "Raw Meat",
-    "localeName": "Raw Meat",
-    "desc": "A fresh chunk of meat. Handled properly, it can be used to make delicious food.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Dropped by animals"]
-  },
-  {
-    "id": "BirdEgg",
-    "name": "Bird Egg",
-    "localeName": "Bird Egg",
-    "desc": "An incredibly versatile ingredient that can supply all of your daily protein needs.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Found in the wild"]
-  },
-  {
-    "id": "Matsutake",
-    "name": "Matsutake",
-    "localeName": "Matsutake",
-    "desc": "A rare fungus that generally grows on or near pine trees. Its delicate aroma gives away its location.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Found in the wild"]
-  },
-  {
-    "id": "Fowl",
-    "name": "Fowl",
-    "localeName": "Fowl",
-    "desc": "A fresh chunk of fowl. Handled properly, it can make a hearty meal.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Dropped by animals"]
-  },
-  {
-    "id": "ButterflyWings",
-    "name": "Butterfly Wings",
-    "localeName": "Butterfly Wings",
-    "desc": "Brightly colored wings. The powder that falls from them shimmers a little. Perhaps this is what allows them to fly?",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Material",
-    "drop": ["Found in the wild"]
-  },
-  {
-    "id": "Crab",
-    "name": "Crab",
-    "localeName": "Crab",
-    "desc": "A shelled creature that lives near the ocean. Its flaky, delicious meat can easily be made into tasty dishes.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Found near lakes, river banks, and beaches"]
-  },
-  {
-    "id": "CrabRoe",
-    "name": "Crab Roe",
-    "localeName": "Crab Roe",
-    "desc": "A delicacy specific to female crabs. A rare and prized ingredient that isn't quite to everyone's taste.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Processed"]
-  },
-  {
-    "id": "Salt",
-    "name": "Salt",
-    "localeName": "Salt",
-    "desc": "A savory seasoning. A precise but adequate amount will elevate the quality of the cuisine.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Sold at general goods shops"]
-  },
-  {
-    "id": "Onion",
-    "name": "Onion",
-    "localeName": "Onion",
-    "desc": "A spherical vegetable. As vengeance for cutting it, it will make you cry, no matter how brave you are.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Sold at general goods shops"]
-  },
-  {
-    "id": "Pepper",
-    "name": "Pepper",
-    "localeName": "Pepper",
-    "desc": "Peppery. Cuts through oily flavors and excites the taste buds. Goes best on meat.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Sold at general goods shops"]
-  },
-  {
-    "id": "Milk",
-    "name": "Milk",
-    "localeName": "Milk",
-    "desc": "Sweet and fragrant cow's milk. Don't waste a single drop, not even that one rolling down your chin.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Sold at general goods shops"]
-  },
-  {
-    "id": "Tomato",
-    "name": "Tomato",
-    "localeName": "Tomato",
-    "desc": "A bright red ingredient that gives a tangy kick. Yes, the \"fruit or vegetable\" debate is still going...",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Sold at general goods shops"]
-  },
-  {
-    "id": "Potato",
-    "name": "Potato",
-    "localeName": "Potato",
-    "desc": "A chunky vegetable. A gift from the earth that you never tire of with its multitude of cooking methods.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Sold at general goods shops"]
-  },
-  {
-    "id": "Frog",
-    "name": "Frog",
-    "localeName": "Frog",
-    "desc": "Common frog found in moist environments. Full of energy, they secrete a substance that will keep you full of vitality.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Material",
-    "drop": ["Found near bodies of fresh water"]
-  },
-  {
-    "id": "LuminescentSpine",
-    "name": "Luminescent Spine",
-    "localeName": "Luminescent Spine",
-    "desc": "The light-emitting part of a firefly. Used for courtship, and in medicine to help recover strength.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Material",
-    "drop": ["Found in the wild"]
-  },
-  {
-    "id": "LizardTail",
-    "name": "Lizard Tail",
-    "localeName": "Lizard Tail",
-    "desc": "A lizard tail that curled up after losing its owner. Very bitter, but has skin hardening properties.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Material",
-    "drop": ["Gathered by hunting Lizards"]
-  },
-  {
-    "id": "Fish",
-    "name": "Fish",
-    "localeName": "Fish",
-    "desc": "A fresh fillet of fish. Handled properly, it can make a rich dish.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Gathered by catching fish"]
-  },
-  {
-    "id": "CrystalCore",
-    "name": "Crystal Core",
-    "localeName": "Crystal Core",
-    "desc": "The core of a crystal butterfly. It absorbs elemental energy that had escaped into the atmosphere.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Material",
-    "drop": ["Gathered by catching Crystalflies"]
-  },
-  {
-    "id": "RawMeatS",
-    "name": "Raw Meat (S)",
-    "localeName": "Raw Meat (S)",
-    "desc": "A fresh chunk of meat. Handled properly, it can be used to make delicious food.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Dropped by animals"]
-  },
-  {
-    "id": "FowlS",
-    "name": "Fowl (S)",
-    "localeName": "Fowl (S)",
-    "desc": "A fresh chunk of fowl. Handled properly, it can make a hearty meal.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Dropped by animals"]
-  },
-  {
-    "id": "Tofu",
-    "name": "Tofu",
-    "localeName": "Tofu",
-    "desc": "Freshly made bean product that has a silky-smooth tender texture.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Sold at general goods shops in Liyue"]
-  },
-  {
-    "id": "Almond",
-    "name": "Almond",
-    "localeName": "Almond",
-    "desc": "A seed with a peculiar fragrance that gives food a refreshing taste.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Sold at general goods shops in Liyue"]
-  },
+  { "id": "RawMeat", "name": "Raw Meat", "localeName": "Raw Meat", "desc": "A fresh chunk of meat. Handled properly, it can be used to make delicious food.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Dropped by animals"] },
+  { "id": "BirdEgg", "name": "Bird Egg", "localeName": "Bird Egg", "desc": "An incredibly versatile ingredient that can supply all of your daily protein needs.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Found in the wild"] },
+  { "id": "Matsutake", "name": "Matsutake", "localeName": "Matsutake", "desc": "A rare fungus that generally grows on or near pine trees. Its delicate aroma gives away its location.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Found in the wild"] },
+  { "id": "Fowl", "name": "Fowl", "localeName": "Fowl", "desc": "A fresh chunk of fowl. Handled properly, it can make a hearty meal.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Dropped by animals"] },
+  { "id": "ButterflyWings", "name": "Butterfly Wings", "localeName": "Butterfly Wings", "desc": "Brightly colored wings. The powder that falls from them shimmers a little. Perhaps this is what allows them to fly?", "rarity": 1, "type": 4, "typeText": "Material", "drop": ["Found in the wild"] },
+  { "id": "Crab", "name": "Crab", "localeName": "Crab", "desc": "A shelled creature that lives near the ocean. Its flaky, delicious meat can easily be made into tasty dishes.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Found near lakes, river banks, and beaches"] },
+  { "id": "CrabRoe", "name": "Crab Roe", "localeName": "Crab Roe", "desc": "A delicacy specific to female crabs. A rare and prized ingredient that isn't quite to everyone's taste.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Processed"] },
+  { "id": "Salt", "name": "Salt", "localeName": "Salt", "desc": "A savory seasoning. A precise but adequate amount will elevate the quality of the cuisine.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Sold at general goods shops"] },
+  { "id": "Onion", "name": "Onion", "localeName": "Onion", "desc": "A spherical vegetable. As vengeance for cutting it, it will make you cry, no matter how brave you are.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Sold at general goods shops"] },
+  { "id": "Pepper", "name": "Pepper", "localeName": "Pepper", "desc": "Peppery. Cuts through oily flavors and excites the taste buds. Goes best on meat.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Sold at general goods shops"] },
+  { "id": "Milk", "name": "Milk", "localeName": "Milk", "desc": "Sweet and fragrant cow's milk. Don't waste a single drop, not even that one rolling down your chin.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Sold at general goods shops"] },
+  { "id": "Tomato", "name": "Tomato", "localeName": "Tomato", "desc": "A bright red ingredient that gives a tangy kick. Yes, the \"fruit or vegetable\" debate is still going...", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Sold at general goods shops"] },
+  { "id": "Potato", "name": "Potato", "localeName": "Potato", "desc": "A chunky vegetable. A gift from the earth that you never tire of with its multitude of cooking methods.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Sold at general goods shops"] },
+  { "id": "Frog", "name": "Frog", "localeName": "Frog", "desc": "Common frog found in moist environments. Full of energy, they secrete a substance that will keep you full of vitality.", "rarity": 1, "type": 4, "typeText": "Material", "drop": ["Found near bodies of fresh water"] },
+  { "id": "LuminescentSpine", "name": "Luminescent Spine", "localeName": "Luminescent Spine", "desc": "The light-emitting part of a firefly. Used for courtship, and in medicine to help recover strength.", "rarity": 1, "type": 4, "typeText": "Material", "drop": ["Found in the wild"] },
+  { "id": "LizardTail", "name": "Lizard Tail", "localeName": "Lizard Tail", "desc": "A lizard tail that curled up after losing its owner. Very bitter, but has skin hardening properties.", "rarity": 1, "type": 4, "typeText": "Material", "drop": ["Gathered by hunting Lizards"] },
+  { "id": "Fish", "name": "Fish", "localeName": "Fish", "desc": "A fresh fillet of fish. Handled properly, it can make a rich dish.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Gathered by catching fish"] },
+  { "id": "CrystalCore", "name": "Crystal Core", "localeName": "Crystal Core", "desc": "The core of a crystal butterfly. It absorbs elemental energy that had escaped into the atmosphere.", "rarity": 1, "type": 4, "typeText": "Material", "drop": ["Gathered by catching Crystalflies"] },
+  { "id": "RawMeatS", "name": "Raw Meat (S)", "localeName": "Raw Meat (S)", "desc": "A fresh chunk of meat. Handled properly, it can be used to make delicious food.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Dropped by animals"] },
+  { "id": "FowlS", "name": "Fowl (S)", "localeName": "Fowl (S)", "desc": "A fresh chunk of fowl. Handled properly, it can make a hearty meal.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Dropped by animals"] },
+  { "id": "Tofu", "name": "Tofu", "localeName": "Tofu", "desc": "Freshly made bean product that has a silky-smooth tender texture.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Sold at general goods shops in Liyue"] },
+  { "id": "Almond", "name": "Almond", "localeName": "Almond", "desc": "A seed with a peculiar fragrance that gives food a refreshing taste.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Sold at general goods shops in Liyue"] },
   {
     "id": "LoachPearl",
     "name": "Loach Pearl",
@@ -706,16 +374,7 @@
     "typeText": "Cooking Ingredient",
     "drop": ["Sold at general goods shops in Liyue"]
   },
-  {
-    "id": "ShrimpMeat",
-    "name": "Shrimp Meat",
-    "localeName": "Shrimp Meat",
-    "desc": "A whole piece of deep sea shrimp meat, full of nutrients and bursting with delicious flavor.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Sold at general goods shops in Liyue"]
-  },
+  { "id": "ShrimpMeat", "name": "Shrimp Meat", "localeName": "Shrimp Meat", "desc": "A whole piece of deep sea shrimp meat, full of nutrients and bursting with delicious flavor.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Sold at general goods shops in Liyue"] },
   {
     "id": "ChilledMeat",
     "name": "Chilled Meat",
@@ -726,16 +385,7 @@
     "typeText": "Cooking Ingredient",
     "drop": ["Dropped by animals"]
   },
-  {
-    "id": "IronChunk",
-    "name": "Iron Chunk",
-    "localeName": "Iron Chunk",
-    "desc": "This iron chunk can be turned into a multitude of handy items in the hands of a skilled craftsman.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Material",
-    "drop": ["Found in the wild"]
-  },
+  { "id": "IronChunk", "name": "Iron Chunk", "localeName": "Iron Chunk", "desc": "This iron chunk can be turned into a multitude of handy items in the hands of a skilled craftsman.", "rarity": 1, "type": 4, "typeText": "Material", "drop": ["Found in the wild"] },
   {
     "id": "WhiteIronChunk",
     "name": "White Iron Chunk",
@@ -746,16 +396,7 @@
     "typeText": "Material",
     "drop": ["Found in the wild", "Recommendation: Found on Stormbearer Mountains", "Recommendation: Found in Wolvendom"]
   },
-  {
-    "id": "CrystalChunk",
-    "name": "Crystal Chunk",
-    "localeName": "Crystal Chunk",
-    "desc": "An uncut crystal. Only professional craftsmanship can bring out its true value.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Material",
-    "drop": ["Found in the wild", "Recommendation: Found in Stormterror's Lair"]
-  },
+  { "id": "CrystalChunk", "name": "Crystal Chunk", "localeName": "Crystal Chunk", "desc": "An uncut crystal. Only professional craftsmanship can bring out its true value.", "rarity": 1, "type": 4, "typeText": "Material", "drop": ["Found in the wild", "Recommendation: Found in Stormterror's Lair"] },
   {
     "id": "MagicalCrystalChunk",
     "name": "Magical Crystal Chunk",
@@ -767,16 +408,7 @@
     "drop": ["Found in the wild"]
   },
   { "id": "ScarletQuartz", "name": "Scarlet Quartz", "localeName": "Scarlet Quartz", "desc": "Scarlet Quartz", "rarity": 1, "type": 7, "typeText": "Dragon Blood Buff", "drop": ["Found in the wild"] },
-  {
-    "id": "Starsilver",
-    "name": "Starsilver",
-    "localeName": "Starsilver",
-    "desc": "A rare and precious ore formed by the unique geographical conditions and Ley Lines of Dragonspine.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Material",
-    "drop": ["Found in the wild"]
-  },
+  { "id": "Starsilver", "name": "Starsilver", "localeName": "Starsilver", "desc": "A rare and precious ore formed by the unique geographical conditions and Ley Lines of Dragonspine.", "rarity": 1, "type": 4, "typeText": "Material", "drop": ["Found in the wild"] },
   {
     "id": "NorthlanderSwordBillet",
     "name": "Northlander Sword Billet",
@@ -836,218 +468,29 @@
     "type": 7,
     "typeText": "Consumable"
   },
-  {
-    "id": "StrangeTooth",
-    "name": "Strange Tooth",
-    "localeName": "Strange Tooth",
-    "desc": "A Dragontooth you picked up in Dragonspine. Perhaps someone would know something more about it...",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Material"
-  },
-  {
-    "id": "VitalizedDragontooth",
-    "name": "Vitalized Dragontooth",
-    "localeName": "Vitalized Dragontooth",
-    "desc": "A Dragontooth infused with vitality. Just its luster and texture are enough to make one uneasy...",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Material"
-  },
-  {
-    "id": "PyroShard",
-    "name": "Pyro Shard",
-    "localeName": "Pyro Shard",
-    "desc": "A shard that broke off a larger Pyro Crystal. Gives 50 Pyro Energy when absorbed.",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "Consumable"
-  },
-  {
-    "id": "HydroShard",
-    "name": "Hydro Shard",
-    "localeName": "Hydro Shard",
-    "desc": "A shard that broke off a larger Hydro Crystal. Gives 50 Hydro Energy when absorbed.",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "Consumable"
-  },
-  {
-    "id": "DendroShard",
-    "name": "Dendro Shard",
-    "localeName": "Dendro Shard",
-    "desc": "A shard that broke off a larger Dendro Crystal. Gives 50 Dendro Energy when absorbed.",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "Consumable"
-  },
-  {
-    "id": "ElectroShard",
-    "name": "Electro Shard",
-    "localeName": "Electro Shard",
-    "desc": "A shard that broke off a larger Electro Crystal. Gives 50 Electro Energy when absorbed.",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "Consumable"
-  },
-  {
-    "id": "AnemoShard",
-    "name": "Anemo Shard",
-    "localeName": "Anemo Shard",
-    "desc": "A shard that broke off a larger Anemo Crystal. Gives 50 Anemo Energy when absorbed.",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "Consumable"
-  },
-  {
-    "id": "CryoShard",
-    "name": "Cryo Shard",
-    "localeName": "Cryo Shard",
-    "desc": "A shard that broke off a larger Cryo Crystal. Gives 50 Cryo Energy when absorbed.",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "Consumable"
-  },
-  {
-    "id": "GeoShard",
-    "name": "Geo Shard",
-    "localeName": "Geo Shard",
-    "desc": "A shard that broke off a larger Geo Crystal. Gives 50 Geo Energy when absorbed.",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "Consumable"
-  },
-  {
-    "id": "PrimordialElementalShard",
-    "name": "Primordial Elemental Shard",
-    "localeName": "Primordial Elemental Shard",
-    "desc": "A shard that broke off a larger Elemental Crystal. Gives 50 Elemental Energy when absorbed.",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "Consumable"
-  },
-  {
-    "id": "PyroJikaka",
-    "name": "Pyro Jikaka",
-    "localeName": "Pyro Jikaka",
-    "desc": "A fruit taken from a Pyro Jikaka tree. Gives 30 Pyro Energy when eaten.",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "Consumable"
-  },
-  {
-    "id": "HydroJikaka",
-    "name": "Hydro Jikaka",
-    "localeName": "Hydro Jikaka",
-    "desc": "A fruit taken from the Hydro Jikaka tree. Gives 30 Hydro Energy when eaten.",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "Consumable"
-  },
-  {
-    "id": "DendroJikaka",
-    "name": "Dendro Jikaka",
-    "localeName": "Dendro Jikaka",
-    "desc": "A fruit taken from the Dendro Jikaka tree. Gives 30 Dendro Energy when eaten.",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "Consumable"
-  },
-  {
-    "id": "ElectroJikaka",
-    "name": "Electro Jikaka",
-    "localeName": "Electro Jikaka",
-    "desc": "A fruit taken from the Electro Jikaka tree. Gives 30 Electro Energy when eaten.",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "Consumable"
-  },
-  {
-    "id": "AnemoJikaka",
-    "name": "Anemo Jikaka",
-    "localeName": "Anemo Jikaka",
-    "desc": "A fruit taken from the Anemo Jikaka tree. Gives 30 Anemo Energy when eaten.",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "Consumable"
-  },
-  {
-    "id": "CryoJikaka",
-    "name": "Cryo Jikaka",
-    "localeName": "Cryo Jikaka",
-    "desc": "A fruit taken from the Cryo Jikaka tree. Gives 30 Cryo Energy when eaten.",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "Consumable"
-  },
-  {
-    "id": "GeoJikaka",
-    "name": "Geo Jikaka",
-    "localeName": "Geo Jikaka",
-    "desc": "A fruit taken from the Geo Jikaka tree. Gives 30 Geo Energy when eaten.",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "Consumable"
-  },
-  {
-    "id": "StandardJikaka",
-    "name": "Standard Jikaka",
-    "localeName": "Standard Jikaka",
-    "desc": "A fruit taken from a Standard Jikaka tree. Gives 30 Elemental Energy when eaten.",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "Consumable"
-  },
-  {
-    "id": "BrilliantDiamondSliver",
-    "name": "Brilliant Diamond Sliver",
-    "localeName": "Brilliant Diamond Sliver",
-    "desc": "Character Ascension material.\n\"Welcome to this world.\"",
-    "rarity": 2,
-    "type": 1,
-    "typeText": "Character Level-Up Material",
-    "drop": ["Adventure Rank Reward"]
-  },
-  {
-    "id": "BrilliantDiamondFragment",
-    "name": "Brilliant Diamond Fragment",
-    "localeName": "Brilliant Diamond Fragment",
-    "desc": "Character Ascension material.\n\"Welcome to this world.\"",
-    "rarity": 3,
-    "type": 1,
-    "typeText": "Character Level-Up Material",
-    "drop": ["Adventure Rank Reward"]
-  },
-  {
-    "id": "BrilliantDiamondChunk",
-    "name": "Brilliant Diamond Chunk",
-    "localeName": "Brilliant Diamond Chunk",
-    "desc": "Character Ascension material.\n\"Welcome to this world.\"",
-    "rarity": 4,
-    "type": 1,
-    "typeText": "Character Level-Up Material",
-    "drop": ["Adventure Rank Reward"]
-  },
-  {
-    "id": "BrilliantDiamondGemstone",
-    "name": "Brilliant Diamond Gemstone",
-    "localeName": "Brilliant Diamond Gemstone",
-    "desc": "Character Ascension material.\n\"Welcome to this world.\"",
-    "rarity": 5,
-    "type": 1,
-    "typeText": "Character Level-Up Material",
-    "drop": ["Adventure Rank Reward"]
-  },
-  {
-    "id": "AgnidusAgateSliver",
-    "name": "Agnidus Agate Sliver",
-    "localeName": "Agnidus Agate Sliver",
-    "desc": "Character Ascension Material.",
-    "rarity": 2,
-    "type": 1,
-    "typeText": "Character Level-Up Material",
-    "drop": ["Dropped by Pyro Regisvines", "Purchase from the Souvenir Shop"]
-  },
+  { "id": "StrangeTooth", "name": "Strange Tooth", "localeName": "Strange Tooth", "desc": "A Dragontooth you picked up in Dragonspine. Perhaps someone would know something more about it...", "rarity": 1, "type": 4, "typeText": "Material" },
+  { "id": "VitalizedDragontooth", "name": "Vitalized Dragontooth", "localeName": "Vitalized Dragontooth", "desc": "A Dragontooth infused with vitality. Just its luster and texture are enough to make one uneasy...", "rarity": 1, "type": 4, "typeText": "Material" },
+  { "id": "PyroShard", "name": "Pyro Shard", "localeName": "Pyro Shard", "desc": "A shard that broke off a larger Pyro Crystal. Gives 50 Pyro Energy when absorbed.", "rarity": 1, "type": 2, "typeText": "Consumable" },
+  { "id": "HydroShard", "name": "Hydro Shard", "localeName": "Hydro Shard", "desc": "A shard that broke off a larger Hydro Crystal. Gives 50 Hydro Energy when absorbed.", "rarity": 1, "type": 2, "typeText": "Consumable" },
+  { "id": "DendroShard", "name": "Dendro Shard", "localeName": "Dendro Shard", "desc": "A shard that broke off a larger Dendro Crystal. Gives 50 Dendro Energy when absorbed.", "rarity": 1, "type": 2, "typeText": "Consumable" },
+  { "id": "ElectroShard", "name": "Electro Shard", "localeName": "Electro Shard", "desc": "A shard that broke off a larger Electro Crystal. Gives 50 Electro Energy when absorbed.", "rarity": 1, "type": 2, "typeText": "Consumable" },
+  { "id": "AnemoShard", "name": "Anemo Shard", "localeName": "Anemo Shard", "desc": "A shard that broke off a larger Anemo Crystal. Gives 50 Anemo Energy when absorbed.", "rarity": 1, "type": 2, "typeText": "Consumable" },
+  { "id": "CryoShard", "name": "Cryo Shard", "localeName": "Cryo Shard", "desc": "A shard that broke off a larger Cryo Crystal. Gives 50 Cryo Energy when absorbed.", "rarity": 1, "type": 2, "typeText": "Consumable" },
+  { "id": "GeoShard", "name": "Geo Shard", "localeName": "Geo Shard", "desc": "A shard that broke off a larger Geo Crystal. Gives 50 Geo Energy when absorbed.", "rarity": 1, "type": 2, "typeText": "Consumable" },
+  { "id": "PrimordialElementalShard", "name": "Primordial Elemental Shard", "localeName": "Primordial Elemental Shard", "desc": "A shard that broke off a larger Elemental Crystal. Gives 50 Elemental Energy when absorbed.", "rarity": 1, "type": 2, "typeText": "Consumable" },
+  { "id": "PyroJikaka", "name": "Pyro Jikaka", "localeName": "Pyro Jikaka", "desc": "A fruit taken from a Pyro Jikaka tree. Gives 30 Pyro Energy when eaten.", "rarity": 1, "type": 2, "typeText": "Consumable" },
+  { "id": "HydroJikaka", "name": "Hydro Jikaka", "localeName": "Hydro Jikaka", "desc": "A fruit taken from the Hydro Jikaka tree. Gives 30 Hydro Energy when eaten.", "rarity": 1, "type": 2, "typeText": "Consumable" },
+  { "id": "DendroJikaka", "name": "Dendro Jikaka", "localeName": "Dendro Jikaka", "desc": "A fruit taken from the Dendro Jikaka tree. Gives 30 Dendro Energy when eaten.", "rarity": 1, "type": 2, "typeText": "Consumable" },
+  { "id": "ElectroJikaka", "name": "Electro Jikaka", "localeName": "Electro Jikaka", "desc": "A fruit taken from the Electro Jikaka tree. Gives 30 Electro Energy when eaten.", "rarity": 1, "type": 2, "typeText": "Consumable" },
+  { "id": "AnemoJikaka", "name": "Anemo Jikaka", "localeName": "Anemo Jikaka", "desc": "A fruit taken from the Anemo Jikaka tree. Gives 30 Anemo Energy when eaten.", "rarity": 1, "type": 2, "typeText": "Consumable" },
+  { "id": "CryoJikaka", "name": "Cryo Jikaka", "localeName": "Cryo Jikaka", "desc": "A fruit taken from the Cryo Jikaka tree. Gives 30 Cryo Energy when eaten.", "rarity": 1, "type": 2, "typeText": "Consumable" },
+  { "id": "GeoJikaka", "name": "Geo Jikaka", "localeName": "Geo Jikaka", "desc": "A fruit taken from the Geo Jikaka tree. Gives 30 Geo Energy when eaten.", "rarity": 1, "type": 2, "typeText": "Consumable" },
+  { "id": "StandardJikaka", "name": "Standard Jikaka", "localeName": "Standard Jikaka", "desc": "A fruit taken from a Standard Jikaka tree. Gives 30 Elemental Energy when eaten.", "rarity": 1, "type": 2, "typeText": "Consumable" },
+  { "id": "BrilliantDiamondSliver", "name": "Brilliant Diamond Sliver", "localeName": "Brilliant Diamond Sliver", "desc": "Character Ascension material.\n\"Welcome to this world.\"", "rarity": 2, "type": 1, "typeText": "Character Level-Up Material", "drop": ["Adventure Rank Reward"] },
+  { "id": "BrilliantDiamondFragment", "name": "Brilliant Diamond Fragment", "localeName": "Brilliant Diamond Fragment", "desc": "Character Ascension material.\n\"Welcome to this world.\"", "rarity": 3, "type": 1, "typeText": "Character Level-Up Material", "drop": ["Adventure Rank Reward"] },
+  { "id": "BrilliantDiamondChunk", "name": "Brilliant Diamond Chunk", "localeName": "Brilliant Diamond Chunk", "desc": "Character Ascension material.\n\"Welcome to this world.\"", "rarity": 4, "type": 1, "typeText": "Character Level-Up Material", "drop": ["Adventure Rank Reward"] },
+  { "id": "BrilliantDiamondGemstone", "name": "Brilliant Diamond Gemstone", "localeName": "Brilliant Diamond Gemstone", "desc": "Character Ascension material.\n\"Welcome to this world.\"", "rarity": 5, "type": 1, "typeText": "Character Level-Up Material", "drop": ["Adventure Rank Reward"] },
+  { "id": "AgnidusAgateSliver", "name": "Agnidus Agate Sliver", "localeName": "Agnidus Agate Sliver", "desc": "Character Ascension Material.", "rarity": 2, "type": 1, "typeText": "Character Level-Up Material", "drop": ["Dropped by Pyro Regisvines", "Purchase from the Souvenir Shop"] },
   {
     "id": "AgnidusAgateFragment",
     "name": "Agnidus Agate Fragment",
@@ -1078,16 +521,7 @@
     "typeText": "Character Level-Up Material",
     "drop": ["Dropped by Lv. 75+ Pyro Regisvines", "Crafted"]
   },
-  {
-    "id": "VarunadaLazuriteSliver",
-    "name": "Varunada Lazurite Sliver",
-    "localeName": "Varunada Lazurite Sliver",
-    "desc": "Character Ascension Material.",
-    "rarity": 2,
-    "type": 1,
-    "typeText": "Character Level-Up Material",
-    "drop": ["Dropped by Oceanids", "Purchase from the Souvenir Shop"]
-  },
+  { "id": "VarunadaLazuriteSliver", "name": "Varunada Lazurite Sliver", "localeName": "Varunada Lazurite Sliver", "desc": "Character Ascension Material.", "rarity": 2, "type": 1, "typeText": "Character Level-Up Material", "drop": ["Dropped by Oceanids", "Purchase from the Souvenir Shop"] },
   {
     "id": "VarunadaLazuriteFragment",
     "name": "Varunada Lazurite Fragment",
@@ -1118,25 +552,8 @@
     "typeText": "Character Level-Up Material",
     "drop": ["Dropped by Lv. 75+ Oceanids", "Crafted"]
   },
-  {
-    "id": "NagadusEmeraldSliver",
-    "name": "Nagadus Emerald Sliver",
-    "localeName": "Nagadus Emerald Sliver",
-    "desc": "Character Ascension Material.",
-    "rarity": 2,
-    "type": 1,
-    "typeText": "Character Level-Up Material"
-  },
-  {
-    "id": "NagadusEmeraldFragment",
-    "name": "Nagadus Emerald Fragment",
-    "localeName": "Nagadus Emerald Fragment",
-    "desc": "Character Ascension material.\n\"In the end, life opened its closed fist...\"",
-    "rarity": 3,
-    "type": 1,
-    "typeText": "Character Level-Up Material",
-    "drop": ["Crafted"]
-  },
+  { "id": "NagadusEmeraldSliver", "name": "Nagadus Emerald Sliver", "localeName": "Nagadus Emerald Sliver", "desc": "Character Ascension Material.", "rarity": 2, "type": 1, "typeText": "Character Level-Up Material" },
+  { "id": "NagadusEmeraldFragment", "name": "Nagadus Emerald Fragment", "localeName": "Nagadus Emerald Fragment", "desc": "Character Ascension material.\n\"In the end, life opened its closed fist...\"", "rarity": 3, "type": 1, "typeText": "Character Level-Up Material", "drop": ["Crafted"] },
   {
     "id": "NagadusEmeraldChunk",
     "name": "Nagadus Emerald Chunk",
@@ -1157,16 +574,7 @@
     "typeText": "Character Level-Up Material",
     "drop": ["Crafted"]
   },
-  {
-    "id": "VajradaAmethystSliver",
-    "name": "Vajrada Amethyst Sliver",
-    "localeName": "Vajrada Amethyst Sliver",
-    "desc": "Character Ascension Material.",
-    "rarity": 2,
-    "type": 1,
-    "typeText": "Character Level-Up Material",
-    "drop": ["Dropped by Electro Hypostases", "Purchase from the Souvenir Shop"]
-  },
+  { "id": "VajradaAmethystSliver", "name": "Vajrada Amethyst Sliver", "localeName": "Vajrada Amethyst Sliver", "desc": "Character Ascension Material.", "rarity": 2, "type": 1, "typeText": "Character Level-Up Material", "drop": ["Dropped by Electro Hypostases", "Purchase from the Souvenir Shop"] },
   {
     "id": "VajradaAmethystFragment",
     "name": "Vajrada Amethyst Fragment",
@@ -1197,16 +605,7 @@
     "typeText": "Character Level-Up Material",
     "drop": ["Dropped by Lv. 75+ Electro Hypostases", "Crafted"]
   },
-  {
-    "id": "VayudaTurquoiseSliver",
-    "name": "Vayuda Turquoise Sliver",
-    "localeName": "Vayuda Turquoise Sliver",
-    "desc": "Character Ascension Material.",
-    "rarity": 2,
-    "type": 1,
-    "typeText": "Character Level-Up Material",
-    "drop": ["Dropped by Anemo Hypostases", "Purchase from the Souvenir Shop"]
-  },
+  { "id": "VayudaTurquoiseSliver", "name": "Vayuda Turquoise Sliver", "localeName": "Vayuda Turquoise Sliver", "desc": "Character Ascension Material.", "rarity": 2, "type": 1, "typeText": "Character Level-Up Material", "drop": ["Dropped by Anemo Hypostases", "Purchase from the Souvenir Shop"] },
   {
     "id": "VayudaTurquoiseFragment",
     "name": "Vayuda Turquoise Fragment",
@@ -1237,26 +636,8 @@
     "typeText": "Character Level-Up Material",
     "drop": ["Dropped by Lv. 75+ Anemo Hypostases", "Crafted"]
   },
-  {
-    "id": "ShivadaJadeSliver",
-    "name": "Shivada Jade Sliver",
-    "localeName": "Shivada Jade Sliver",
-    "desc": "Character Ascension Material.",
-    "rarity": 2,
-    "type": 1,
-    "typeText": "Character Level-Up Material",
-    "drop": ["Dropped by Cryo Regisvines.", "Purchase from the Souvenir Shop"]
-  },
-  {
-    "id": "ShivadaJadeFragment",
-    "name": "Shivada Jade Fragment",
-    "localeName": "Shivada Jade Fragment",
-    "desc": "Character Ascension material.\n\"Sorry...\"",
-    "rarity": 3,
-    "type": 1,
-    "typeText": "Character Level-Up Material",
-    "drop": ["Dropped by Lv. 40+ Cryo Regisvines", "Crafted"]
-  },
+  { "id": "ShivadaJadeSliver", "name": "Shivada Jade Sliver", "localeName": "Shivada Jade Sliver", "desc": "Character Ascension Material.", "rarity": 2, "type": 1, "typeText": "Character Level-Up Material", "drop": ["Dropped by Cryo Regisvines.", "Purchase from the Souvenir Shop"] },
+  { "id": "ShivadaJadeFragment", "name": "Shivada Jade Fragment", "localeName": "Shivada Jade Fragment", "desc": "Character Ascension material.\n\"Sorry...\"", "rarity": 3, "type": 1, "typeText": "Character Level-Up Material", "drop": ["Dropped by Lv. 40+ Cryo Regisvines", "Crafted"] },
   {
     "id": "ShivadaJadeChunk",
     "name": "Shivada Jade Chunk",
@@ -1277,16 +658,7 @@
     "typeText": "Character Level-Up Material",
     "drop": ["Dropped by Lv. 75+ Cryo Regisvines", "Crafted"]
   },
-  {
-    "id": "PrithivaTopazSliver",
-    "name": "Prithiva Topaz Sliver",
-    "localeName": "Prithiva Topaz Sliver",
-    "desc": "Character Ascension Material.",
-    "rarity": 2,
-    "type": 1,
-    "typeText": "Character Level-Up Material",
-    "drop": ["Dropped by Geo Hypostases", "Purchase from the Souvenir Shop"]
-  },
+  { "id": "PrithivaTopazSliver", "name": "Prithiva Topaz Sliver", "localeName": "Prithiva Topaz Sliver", "desc": "Character Ascension Material.", "rarity": 2, "type": 1, "typeText": "Character Level-Up Material", "drop": ["Dropped by Geo Hypostases", "Purchase from the Souvenir Shop"] },
   {
     "id": "PrithivaTopazFragment",
     "name": "Prithiva Topaz Fragment",
@@ -1511,33 +883,9 @@
     "typeText": "Talent Level-Up Material",
     "drop": ["Limited-Duration Event Reward"]
   },
-  {
-    "id": "TestStaminaGrowthItem",
-    "name": "Test Stamina Growth Item",
-    "localeName": "Test Stamina Growth Item",
-    "desc": "Test item for increasing stamina",
-    "rarity": 1,
-    "type": 7,
-    "typeText": "Consumable"
-  },
-  {
-    "id": "TestTemporaryStaminaGrowthItem",
-    "name": "Test Temporary stamina Growth Item",
-    "localeName": "Test Temporary stamina Growth Item",
-    "desc": "Test item for increasing max stamina temporarily",
-    "rarity": 1,
-    "type": 7,
-    "typeText": "Consumable"
-  },
-  {
-    "id": "ElementalDust",
-    "name": "Elemental Dust",
-    "localeName": "Elemental Dust",
-    "desc": "Shattered fragments of the Oculus Crystal. Shows hidden treasure nearby.",
-    "rarity": 1,
-    "type": 7,
-    "typeText": "Adventure Item"
-  },
+  { "id": "TestStaminaGrowthItem", "name": "Test Stamina Growth Item", "localeName": "Test Stamina Growth Item", "desc": "Test item for increasing stamina", "rarity": 1, "type": 7, "typeText": "Consumable" },
+  { "id": "TestTemporaryStaminaGrowthItem", "name": "Test Temporary stamina Growth Item", "localeName": "Test Temporary stamina Growth Item", "desc": "Test item for increasing max stamina temporarily", "rarity": 1, "type": 7, "typeText": "Consumable" },
+  { "id": "ElementalDust", "name": "Elemental Dust", "localeName": "Elemental Dust", "desc": "Shattered fragments of the Oculus Crystal. Shows hidden treasure nearby.", "rarity": 1, "type": 7, "typeText": "Adventure Item" },
   {
     "id": "MondstadtShrineOfDepthsKey",
     "name": "Mondstadt Shrine of Depths Key",
@@ -1557,15 +905,6 @@
     "typeText": "Adventure Item"
   },
   {
-    "id": "FragileResin",
-    "name": "Fragile Resin",
-    "localeName": "Fragile Resin",
-    "desc": "An item used to restore Original Resin by 60 points.\nThis crystalline substance pulsates with a little energy that can be absorbed by Original Resin.\nThe flow of energies of all sorts is the source of many wonders and challenges in this world. Those same energies are also contained within this crystal.",
-    "rarity": 4,
-    "type": 7,
-    "typeText": "Consumable"
-  },
-  {
     "id": "SuspiciousFishermansToast",
     "name": "Suspicious Fisherman's Toast",
     "localeName": "Suspicious Fisherman's Toast",
@@ -1575,16 +914,7 @@
     "typeText": "Food",
     "drop": ["Obtained by cooking"]
   },
-  {
-    "id": "FishermansToast",
-    "name": "Fisherman's Toast",
-    "localeName": "Fisherman's Toast",
-    "desc": "Onion-covered toast. A favorite amongst fishermen, they will stuff a bag with it and sit by the river all day.",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "Food",
-    "drop": ["Obtained by cooking"]
-  },
+  { "id": "FishermansToast", "name": "Fisherman's Toast", "localeName": "Fisherman's Toast", "desc": "Onion-covered toast. A favorite amongst fishermen, they will stuff a bag with it and sit by the river all day.", "rarity": 2, "type": 2, "typeText": "Food", "drop": ["Obtained by cooking"] },
   {
     "id": "DeliciousFishermansToast",
     "name": "Delicious Fisherman's Toast",
@@ -1605,16 +935,7 @@
     "typeText": "Food",
     "drop": ["Obtained by cooking"]
   },
-  {
-    "id": "TeyvatFriedEgg",
-    "name": "Teyvat Fried Egg",
-    "localeName": "Teyvat Fried Egg",
-    "desc": "An egg fried on one side. The yolk flows out nicely when broken. So satisfying.",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "Food",
-    "drop": ["Obtained by cooking"]
-  },
+  { "id": "TeyvatFriedEgg", "name": "Teyvat Fried Egg", "localeName": "Teyvat Fried Egg", "desc": "An egg fried on one side. The yolk flows out nicely when broken. So satisfying.", "rarity": 1, "type": 2, "typeText": "Food", "drop": ["Obtained by cooking"] },
   {
     "id": "DeliciousTeyvatFriedEgg",
     "name": "Delicious Teyvat Fried Egg",
@@ -1635,26 +956,8 @@
     "typeText": "Food",
     "drop": ["Obtained by cooking"]
   },
-  {
-    "id": "Steak",
-    "name": "Steak",
-    "localeName": "Steak",
-    "desc": "A grilled steak. High heat has locked the juices in, giving one high expectations for when the meat is cut open.",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "Food",
-    "drop": ["Obtained by cooking"]
-  },
-  {
-    "id": "DeliciousSteak",
-    "name": "Delicious Steak",
-    "localeName": "Delicious Steak",
-    "desc": "A grilled steak. Juicy, flavorsome, fragrant steak. One bite and you feel yourself come alive.",
-    "rarity": 1,
-    "type": 2,
-    "typeText": "Food",
-    "drop": ["Obtained by cooking"]
-  },
+  { "id": "Steak", "name": "Steak", "localeName": "Steak", "desc": "A grilled steak. High heat has locked the juices in, giving one high expectations for when the meat is cut open.", "rarity": 1, "type": 2, "typeText": "Food", "drop": ["Obtained by cooking"] },
+  { "id": "DeliciousSteak", "name": "Delicious Steak", "localeName": "Delicious Steak", "desc": "A grilled steak. Juicy, flavorsome, fragrant steak. One bite and you feel yourself come alive.", "rarity": 1, "type": 2, "typeText": "Food", "drop": ["Obtained by cooking"] },
   {
     "id": "OutridersChampionSteak",
     "name": "Outrider's Champion Steak!",
@@ -1695,16 +998,7 @@
     "typeText": "Food",
     "drop": ["Obtained by cooking"]
   },
-  {
-    "id": "FruitySkewers",
-    "name": "Fruity Skewers",
-    "localeName": "Fruity Skewers",
-    "desc": "Kaeya's specialty. A chewy skewer with a rich sweet aftertaste. Wait... Is this really the smell of fruit?",
-    "rarity": 1,
-    "type": 3,
-    "typeText": "Food",
-    "drop": ["Obtained by cooking"]
-  },
+  { "id": "FruitySkewers", "name": "Fruity Skewers", "localeName": "Fruity Skewers", "desc": "Kaeya's specialty. A chewy skewer with a rich sweet aftertaste. Wait... Is this really the smell of fruit?", "rarity": 1, "type": 3, "typeText": "Food", "drop": ["Obtained by cooking"] },
   {
     "id": "SuspiciousFlamingRedBolognese",
     "name": "Suspicious Flaming Red Bolognese",
@@ -1715,16 +1009,7 @@
     "typeText": "Food",
     "drop": ["Obtained by cooking"]
   },
-  {
-    "id": "FlamingRedBolognese",
-    "name": "Flaming Red Bolognese",
-    "localeName": "Flaming Red Bolognese",
-    "desc": "Bolognese covered with a meat sauce. The meaty, herby aroma really gets your appetite going.",
-    "rarity": 2,
-    "type": 3,
-    "typeText": "Food",
-    "drop": ["Obtained by cooking"]
-  },
+  { "id": "FlamingRedBolognese", "name": "Flaming Red Bolognese", "localeName": "Flaming Red Bolognese", "desc": "Bolognese covered with a meat sauce. The meaty, herby aroma really gets your appetite going.", "rarity": 2, "type": 3, "typeText": "Food", "drop": ["Obtained by cooking"] },
   {
     "id": "DeliciousFlamingRedBolognese",
     "name": "Delicious Flaming Red Bolognese",
@@ -1815,16 +1100,7 @@
     "typeText": "Food",
     "drop": ["Obtained by cooking"]
   },
-  {
-    "id": "FriedRadishBalls",
-    "name": "Fried Radish Balls",
-    "localeName": "Fried Radish Balls",
-    "desc": "Fried Radish Balls. Fragrant and crispy. Make sure to eat them while they're hot! Said to be a recipe from Liyue.",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "Food",
-    "drop": ["Obtained by cooking"]
-  },
+  { "id": "FriedRadishBalls", "name": "Fried Radish Balls", "localeName": "Fried Radish Balls", "desc": "Fried Radish Balls. Fragrant and crispy. Make sure to eat them while they're hot! Said to be a recipe from Liyue.", "rarity": 2, "type": 2, "typeText": "Food", "drop": ["Obtained by cooking"] },
   {
     "id": "DeliciousFriedRadishBalls",
     "name": "Delicious Fried Radish Balls",
@@ -1875,16 +1151,7 @@
     "typeText": "Food",
     "drop": ["Obtained by cooking"]
   },
-  {
-    "id": "SweetMadame",
-    "name": "Sweet Madame",
-    "localeName": "Sweet Madame",
-    "desc": "Honey-roasted fowl. The honey and sweet flowers come together to complement the tender fowl meat.",
-    "rarity": 2,
-    "type": 3,
-    "typeText": "Food",
-    "drop": ["Obtained by cooking"]
-  },
+  { "id": "SweetMadame", "name": "Sweet Madame", "localeName": "Sweet Madame", "desc": "Honey-roasted fowl. The honey and sweet flowers come together to complement the tender fowl meat.", "rarity": 2, "type": 3, "typeText": "Food", "drop": ["Obtained by cooking"] },
   {
     "id": "DeliciousSweetMadame",
     "name": "Delicious Sweet Madame",
@@ -1905,16 +1172,7 @@
     "typeText": "Food",
     "drop": ["Obtained by cooking"]
   },
-  {
-    "id": "NorthernSmokedChicken",
-    "name": "Northern Smoked Chicken",
-    "localeName": "Northern Smoked Chicken",
-    "desc": "Smoked fowl paired with vegetables. A staple for Northerners, often made for honored guests.",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "Food",
-    "drop": ["Obtained by cooking"]
-  },
+  { "id": "NorthernSmokedChicken", "name": "Northern Smoked Chicken", "localeName": "Northern Smoked Chicken", "desc": "Smoked fowl paired with vegetables. A staple for Northerners, often made for honored guests.", "rarity": 2, "type": 2, "typeText": "Food", "drop": ["Obtained by cooking"] },
   {
     "id": "DeliciousNorthernSmokedChicken",
     "name": "Delicious Northern Smoked Chicken",
@@ -1925,26 +1183,8 @@
     "typeText": "Food",
     "drop": ["Obtained by cooking"]
   },
-  {
-    "id": "SuspiciousCreamStew",
-    "name": "Suspicious Cream Stew",
-    "localeName": "Suspicious Cream Stew",
-    "desc": "A meat and vegetable stew. Surprisingly dry for something that's meant to have liquid.",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "Food",
-    "drop": ["Obtained by cooking"]
-  },
-  {
-    "id": "CreamStew",
-    "name": "Cream Stew",
-    "localeName": "Cream Stew",
-    "desc": "A meat and vegetable stew. The thick juices taste great with the tender meat and vegetables.",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "Food",
-    "drop": ["Obtained by cooking"]
-  },
+  { "id": "SuspiciousCreamStew", "name": "Suspicious Cream Stew", "localeName": "Suspicious Cream Stew", "desc": "A meat and vegetable stew. Surprisingly dry for something that's meant to have liquid.", "rarity": 2, "type": 2, "typeText": "Food", "drop": ["Obtained by cooking"] },
+  { "id": "CreamStew", "name": "Cream Stew", "localeName": "Cream Stew", "desc": "A meat and vegetable stew. The thick juices taste great with the tender meat and vegetables.", "rarity": 2, "type": 2, "typeText": "Food", "drop": ["Obtained by cooking"] },
   {
     "id": "DeliciousCreamStew",
     "name": "Delicious Cream Stew",
@@ -1955,16 +1195,7 @@
     "typeText": "Food",
     "drop": ["Obtained by cooking"]
   },
-  {
-    "id": "SpicyStew",
-    "name": "Spicy Stew",
-    "localeName": "Spicy Stew",
-    "desc": "Barbara's specialty. Carrots cut into cute little stars make this dish... Wait, AHH, where did this spiciness come from!?",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "Food",
-    "drop": ["Obtained by cooking"]
-  },
+  { "id": "SpicyStew", "name": "Spicy Stew", "localeName": "Spicy Stew", "desc": "Barbara's specialty. Carrots cut into cute little stars make this dish... Wait, AHH, where did this spiciness come from!?", "rarity": 2, "type": 2, "typeText": "Food", "drop": ["Obtained by cooking"] },
   {
     "id": "SuspiciousMushroomPizza",
     "name": "Suspicious Mushroom Pizza",
@@ -2155,16 +1386,7 @@
     "typeText": "Food",
     "drop": ["Obtained by cooking"]
   },
-  {
-    "id": "ColdCutPlatter",
-    "name": "Cold Cut Platter",
-    "localeName": "Cold Cut Platter",
-    "desc": "A plate of cold cut meat. An equal balance of bacon, ham and sausage keeps everyone happy.",
-    "rarity": 3,
-    "type": 2,
-    "typeText": "Food",
-    "drop": ["Obtained by cooking"]
-  },
+  { "id": "ColdCutPlatter", "name": "Cold Cut Platter", "localeName": "Cold Cut Platter", "desc": "A plate of cold cut meat. An equal balance of bacon, ham and sausage keeps everyone happy.", "rarity": 3, "type": 2, "typeText": "Food", "drop": ["Obtained by cooking"] },
   {
     "id": "DeliciousColdCutPlatter",
     "name": "Delicious Cold Cut Platter",
@@ -2925,16 +2147,7 @@
     "typeText": "Food",
     "drop": ["Obtained by cooking"]
   },
-  {
-    "id": "SweetDream",
-    "name": "\"Sweet Dream\"",
-    "localeName": "\"Sweet Dream\"",
-    "desc": "Xiao's specialty. His dream is very simple, and it is merely a lovely dream.",
-    "rarity": 2,
-    "type": 2,
-    "typeText": "Food",
-    "drop": ["Obtained by cooking"]
-  },
+  { "id": "SweetDream", "name": "\"Sweet Dream\"", "localeName": "\"Sweet Dream\"", "desc": "Xiao's specialty. His dream is very simple, and it is merely a lovely dream.", "rarity": 2, "type": 2, "typeText": "Food", "drop": ["Obtained by cooking"] },
   {
     "id": "FlashFriedFilet",
     "name": "Flash-Fried Filet",
@@ -3035,16 +2248,7 @@
     "typeText": "Food",
     "drop": ["Sold at shops"]
   },
-  {
-    "id": "PopsTeas",
-    "name": "Pop's Teas",
-    "localeName": "Pop's Teas",
-    "desc": "Tea from Liyue. After a grueling trek around the vast region of Liyue, there's nothing more rejuvenating than a big swig of tea from Pop's Teas.",
-    "rarity": 1,
-    "type": 3,
-    "typeText": "Food",
-    "drop": ["Sold at shops"]
-  },
+  { "id": "PopsTeas", "name": "Pop's Teas", "localeName": "Pop's Teas", "desc": "Tea from Liyue. After a grueling trek around the vast region of Liyue, there's nothing more rejuvenating than a big swig of tea from Pop's Teas.", "rarity": 1, "type": 3, "typeText": "Food", "drop": ["Sold at shops"] },
   {
     "id": "WolfhookJuice",
     "name": "Wolfhook Juice",
@@ -3289,7 +2493,7 @@
     "id": "SlowCookedBambooShootSoup",
     "name": "Slow-Cooked Bamboo Shoot Soup",
     "localeName": "Slow-Cooked Bamboo Shoot Soup",
-    "desc": "Zhongli's specialty. The ham is selected according to Yuehai Pavilion's gourmet standards. The fresh meat is pork belly, freshly hunted in Springvale, while the bamboo shoots are the densest you'll find in Qingce Village. It is then heated, slowly, gently, and with the utmost care and technique... Such a \"particular\" taste may only be shared with those who know how to appreciate it.",
+    "desc": "Zhongli's specialty. The ham is a butt end selected according to Yuehai Pavilion's gourmet standards. The fresh meat is pork belly, freshly hunted in Springvale, while the bamboo shoots are the densest you'll find in Qingce Village. It is then heated, slowly, gently, and with the utmost care and technique... Such a \"particular\" taste may only be shared with those who know how to appreciate it.",
     "rarity": 3,
     "type": 3,
     "typeText": "Food",
@@ -3626,576 +2830,297 @@
     "drop": ["Obtained from Lantern Rite Shop"]
   },
   {
-    "id": "RecipeChickenMushroomSkewer",
-    "name": "Recipe: Chicken-Mushroom Skewer",
-    "localeName": "Recipe: Chicken-Mushroom Skewer",
-    "desc": "A detailed step-by-step recipe for making a Chicken-Mushroom Skewer.",
+    "id": "SuspiciousCrispyPotatoShrimpPlatter",
+    "name": "Suspicious Crispy Potato Shrimp Platter",
+    "localeName": "Suspicious Crispy Potato Shrimp Platter",
+    "desc": "An attractive-looking pre-meal snack. Too much time was unknowingly spent being preoccupied with the details of this dish's form. The potato slices that were meant to form the base have already turned soft, detracting greatly from the mouthfeel.",
+    "rarity": 3,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "CrispyPotatoShrimpPlatter",
+    "name": "Crispy Potato Shrimp Platter",
+    "localeName": "Crispy Potato Shrimp Platter",
+    "desc": "An attractive-looking pre-meal snack. A spread made from potatoes and berries is placed onto crispy potato slices, and a whole shrimp is then added on top. The fragrant and full-bodied flavors serve to whet the appetite, while the addition of Mint adds a whole other dimension to the mix.",
+    "rarity": 3,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousCrispyPotatoShrimpPlatter",
+    "name": "Delicious Crispy Potato Shrimp Platter",
+    "localeName": "Delicious Crispy Potato Shrimp Platter",
+    "desc": "An attractive-looking pre-meal snack. The moment this enters your mouth, the springiness of the shrimp and the crispiness of the potato slices form a profound contrast. The fluffy potatoes immediately follow up by melding these flavors together, creating a sweet experience that makes you relax, body and soul.",
+    "rarity": 3,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousMintJelly",
+    "name": "Suspicious Mint Jelly",
+    "localeName": "Suspicious Mint Jelly",
+    "desc": "A refreshing dessert. Some little accidents occurred during the making of this dish, causing the jelly to emerge unevenly frozen. Well, it could still serve should you want to drink some mint cordial...",
     "rarity": 1,
-    "type": 7,
-    "typeText": "Recipe"
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
   },
   {
-    "id": "RecipeFishermansToast",
-    "name": "Recipe: Fisherman's Toast",
-    "localeName": "Recipe: Fisherman's Toast",
-    "desc": "A detailed step-by-step recipe for making Fisherman's Toast.",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeFlamingRedBolognese",
-    "name": "Recipe: Flaming Red Bolognese",
-    "localeName": "Recipe: Flaming Red Bolognese",
-    "desc": "A detailed step-by-step recipe for making Flaming Red Bolognese.",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeSweetMadame",
-    "name": "Recipe: Sweet Madame",
-    "localeName": "Recipe: Sweet Madame",
-    "desc": "A detailed step-by-step recipe for making Sweet Madame.",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeCallaLilySeafoodSoup",
-    "name": "Recipe: Calla Lily Seafood Soup",
-    "localeName": "Recipe: Calla Lily Seafood Soup",
-    "desc": "A detailed step-by-step recipe for making Calla Lily Seafood Soup.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeSauteedMatsutake",
-    "name": "Recipe: Sautéed Matsutake",
-    "localeName": "Recipe: Sautéed Matsutake",
-    "desc": "A detailed step-by-step recipe for making Sautéed Matsutake.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeTeyvatFriedEgg",
-    "name": "Recipe: Teyvat Fried Egg",
-    "localeName": "Recipe: Teyvat Fried Egg",
-    "desc": "A detailed step-by-step recipe for making a Teyvat Fried Egg.",
+    "id": "MintJelly",
+    "name": "Mint Jelly",
+    "localeName": "Mint Jelly",
+    "desc": "A refreshing dessert. The steps to making this are quite simple indeed, and when it slides down your throat, the faint, fresh flavor of mint will leave you feeling reinvigorated for the rest of the day.",
     "rarity": 1,
-    "type": 7,
-    "typeText": "Recipe"
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
   },
   {
-    "id": "RecipeNorthernSmokedChicken",
-    "name": "Recipe: Northern Smoked Chicken",
-    "localeName": "Recipe: Northern Smoked Chicken",
-    "desc": "A detailed step-by-step recipe for making Northern Smoked Chicken.",
+    "id": "DeliciousMintJelly",
+    "name": "Delicious Mint Jelly",
+    "localeName": "Delicious Mint Jelly",
+    "desc": "A refreshing dessert. The perfect springiness makes for a lovely sight indeed when you strike it with the back of a small spoon. Taste that spoonful and that cool and refreshing feel will spread through your mouth instantly, dispelling any negative emotions you may harbor to the point where you feel like you've become a new person.",
+    "rarity": 1,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousMintSalad",
+    "name": "Suspicious Mint Salad",
+    "localeName": "Suspicious Mint Salad",
+    "desc": "A fragrant salad dish. The Mint and Jueyun Chili have neither been matched nor incorporated well, which makes for a dish so spicy that any who eat it will be at a loss for words for a time.",
     "rarity": 2,
-    "type": 7,
-    "typeText": "Recipe"
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
   },
   {
-    "id": "RecipeCreamStew",
-    "name": "Recipe: Cream Stew",
-    "localeName": "Recipe: Cream Stew",
-    "desc": "A detailed step-by-step recipe for making Cream Stew.",
+    "id": "MintSalad",
+    "name": "Mint Salad",
+    "localeName": "Mint Salad",
+    "desc": "A fragrant salad dish. Finely chopped Jueyun Chilis blended with a sauce and mixed with Mint leaves. It looks like nothing special, but it has surprisingly potent powers of refreshment and reinvigoration. It is also the perfect palate-cleanser after a greasy, indulgent meal.",
     "rarity": 2,
-    "type": 7,
-    "typeText": "Recipe"
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
   },
   {
-    "id": "RecipeColdCutPlatter",
-    "name": "Recipe: Cold Cut Platter",
-    "localeName": "Recipe: Cold Cut Platter",
-    "desc": "A detailed step-by-step recipe for making a Cold Cut Platter.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "Recipe"
+    "id": "DeliciousMintSalad",
+    "name": "Delicious Mint Salad",
+    "localeName": "Delicious Mint Salad",
+    "desc": "A fragrant salad dish. The slightly bitter minty-fresh flavors do not cover the blazing mouthfeel of the Jueyun Chili but instead cause the spiciness to reach new heights. The two whirl and pirouette on your tongue like a pair of contending dancers to the hearty and vigorous applause of all.",
+    "rarity": 2,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
   },
   {
-    "id": "RecipeStickyHoneyRoast",
-    "name": "Recipe: Sticky Honey Roast",
-    "localeName": "Recipe: Sticky Honey Roast",
-    "desc": "A detailed step-by-step recipe for making a Sticky Honey Roast.",
+    "id": "SuspiciousMintyMeatRolls",
+    "name": "Suspicious Minty Meat Rolls",
+    "localeName": "Suspicious Minty Meat Rolls",
+    "desc": "A sour-and-spicy dish. The saltiness of the dipping sauce has completely covered the fresh flavor of the dish. If you don't wish to dilute it with water, then you'll just have to scarf it down with a big mouthful of rice.",
     "rarity": 3,
-    "type": 7,
-    "typeText": "Recipe"
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
   },
   {
-    "id": "RecipeCrabHamVeggieBake",
-    "name": "Recipe: Crab, Ham & Veggie Bake",
-    "localeName": "Recipe: Crab, Ham & Veggie Bake",
-    "desc": "A detailed step-by-step recipe for making a Crab, Ham & Veggie Bake.",
+    "id": "MintyMeatRolls",
+    "name": "Minty Meat Rolls",
+    "localeName": "Minty Meat Rolls",
+    "desc": "A sour-and-spicy dish. The marinated meat has been thinly sliced and rolled into the mint leaves, before being brushed with a sauce blend containing Jueyun Chilis. The unique mint flavor adds the finishing touch to this dish, turning it into an excellent addition to any cold platter.",
     "rarity": 3,
-    "type": 7,
-    "typeText": "Recipe"
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
   },
   {
-    "id": "RecipeMushroomPizza",
-    "name": "Recipe: Mushroom Pizza",
-    "localeName": "Recipe: Mushroom Pizza",
-    "desc": "A detailed step-by-step recipe for making a Mushroom Pizza.",
+    "id": "DeliciousMintyMeatRolls",
+    "name": "Delicious Minty Meat Rolls",
+    "localeName": "Delicious Minty Meat Rolls",
+    "desc": "A sour-and-spicy dish. The meat and mint are in exquisite equilibrium, tender and not greasy, delicate and not bitter. The spiciness awakens the twain's poetic balance with startling clarity as it leaps in your mouth, only to close with a sigh of perfection.",
     "rarity": 3,
-    "type": 7,
-    "typeText": "Recipe"
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
   },
+  {
+    "id": "DinnerOfJudgment",
+    "name": "Dinner of Judgment",
+    "localeName": "Dinner of Judgment",
+    "desc": "Rosaria's specialty. The seemingly dark thorns make it hard to know how to begin tucking in. After some effort, you manage to clear the ornamentation away... and to your surprise, the first taste of the tender chicken unveils a shockingly lovely taste. As Rosaria studies your reaction, she seems pleased.",
+    "rarity": 2,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousGoldenFriedChicken",
+    "name": "Suspicious Golden Fried Chicken",
+    "localeName": "Suspicious Golden Fried Chicken",
+    "desc": "Fowl that has been seasoned and then fried. Perhaps the oil temperature was not sufficiently well-controlled, but what should have been a crispy outer skin seems to have gone all soggy, adding to the overall greasiness by at least a few degrees.",
+    "rarity": 4,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "GoldenFriedChicken",
+    "name": "Golden Fried Chicken",
+    "localeName": "Golden Fried Chicken",
+    "desc": "Fowl that has been seasoned and then fried. The seasonings were made into a paste and smeared onto the chicken before it was fried at high temperature. The fragrance alone brings the vivid image of crispy skin and tender meat to mind. One bite and the luscious juices begin to flow. Truly irresistible.",
+    "rarity": 4,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousGoldenFriedChicken",
+    "name": "Delicious Golden Fried Chicken",
+    "localeName": "Delicious Golden Fried Chicken",
+    "desc": "Fowl that has been seasoned and then fried. The golden outer skin has all but sealed the abundant juices into the meat, leading to absolute enjoyment with each bite. The taste at your fingertips will linger in memory far longer than the instant it takes to reduce the meal to nothing but slim bones.",
+    "rarity": 4,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousGoldenChickenBurger",
+    "name": "Suspicious Golden Chicken Burger",
+    "localeName": "Suspicious Golden Chicken Burger",
+    "desc": "A burger in which the fowl meat is the main star. The patty has been cut too thin and smeared with too much flour, causing it to taste like bread sandwiching more fried bread.",
+    "rarity": 3,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "GoldenChickenBurger",
+    "name": "Golden Chicken Burger",
+    "localeName": "Golden Chicken Burger",
+    "desc": "A hamburger in which the fowl meat is the main star. The fluffy bread sandwiches slices of fresh vegetables and a flavorful, crispy fowl fillet. No utensils required here: Just grab it in your hands and bite down on that bundle of rich, satisfying succulence with a hearty \"ker-runch!\"",
+    "rarity": 3,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousGoldenChickenBurger",
+    "name": "Delicious Golden Chicken Burger",
+    "localeName": "Delicious Golden Chicken Burger",
+    "desc": "A burger in which the fowl meat is the main star. The fowl fillet has been wrapped in gold and is so tender that you could almost squeeze the meat juices out. The dense flavor of the sauce and refreshing mouthfeel of the vegetables makes you feel like you're walking on clouds as you lose yourself in this feast lying in your palm.",
+    "rarity": 3,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousFragrantMashedPotatoes",
+    "name": "Suspicious Fragrant Mashed Potatoes",
+    "localeName": "Suspicious Fragrant Mashed Potatoes",
+    "desc": "Seasoned mashed potatoes. Some unmashed chunks have been mixed into the lot, adding a measure of unwanted randomness to the dish.",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "FragrantMashedPotatoes",
+    "name": "Fragrant Mashed Potatoes",
+    "localeName": "Fragrant Mashed Potatoes",
+    "desc": "Seasoned mashed potatoes. The potatoes were thoroughly mashed before a sauce was drizzled over them. The mouthfeel is soft and smooth and it has a rich, multi-layered flavor profile. A satisfying choice for a hungry stomach, whether as a side or as a main dish.",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousFragrantMashedPotatoes",
+    "name": "Delicious Fragrant Mashed Potatoes",
+    "localeName": "Delicious Fragrant Mashed Potatoes",
+    "desc": "Seasoned mashed potatoes. As you take a bite of this fine potato mash, an intense flavor develops on your tongue that is mixed with its natural freshness and the taste of dairy. Such a graceful flavor can hardly be thought to have emerged from an ingredient as plebeian as potatoes.",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  { "id": "RecipeChickenMushroomSkewer", "name": "Recipe: Chicken-Mushroom Skewer", "localeName": "Recipe: Chicken-Mushroom Skewer", "desc": "A detailed step-by-step recipe for making a Chicken-Mushroom Skewer.", "rarity": 1, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeFishermansToast", "name": "Recipe: Fisherman's Toast", "localeName": "Recipe: Fisherman's Toast", "desc": "A detailed step-by-step recipe for making Fisherman's Toast.", "rarity": 2, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeFlamingRedBolognese", "name": "Recipe: Flaming Red Bolognese", "localeName": "Recipe: Flaming Red Bolognese", "desc": "A detailed step-by-step recipe for making Flaming Red Bolognese.", "rarity": 2, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeSweetMadame", "name": "Recipe: Sweet Madame", "localeName": "Recipe: Sweet Madame", "desc": "A detailed step-by-step recipe for making Sweet Madame.", "rarity": 2, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeCallaLilySeafoodSoup", "name": "Recipe: Calla Lily Seafood Soup", "localeName": "Recipe: Calla Lily Seafood Soup", "desc": "A detailed step-by-step recipe for making Calla Lily Seafood Soup.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeSauteedMatsutake", "name": "Recipe: Sautéed Matsutake", "localeName": "Recipe: Sautéed Matsutake", "desc": "A detailed step-by-step recipe for making Sautéed Matsutake.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeTeyvatFriedEgg", "name": "Recipe: Teyvat Fried Egg", "localeName": "Recipe: Teyvat Fried Egg", "desc": "A detailed step-by-step recipe for making a Teyvat Fried Egg.", "rarity": 1, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeNorthernSmokedChicken", "name": "Recipe: Northern Smoked Chicken", "localeName": "Recipe: Northern Smoked Chicken", "desc": "A detailed step-by-step recipe for making Northern Smoked Chicken.", "rarity": 2, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeCreamStew", "name": "Recipe: Cream Stew", "localeName": "Recipe: Cream Stew", "desc": "A detailed step-by-step recipe for making Cream Stew.", "rarity": 2, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeColdCutPlatter", "name": "Recipe: Cold Cut Platter", "localeName": "Recipe: Cold Cut Platter", "desc": "A detailed step-by-step recipe for making a Cold Cut Platter.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeStickyHoneyRoast", "name": "Recipe: Sticky Honey Roast", "localeName": "Recipe: Sticky Honey Roast", "desc": "A detailed step-by-step recipe for making a Sticky Honey Roast.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeCrabHamVeggieBake", "name": "Recipe: Crab, Ham & Veggie Bake", "localeName": "Recipe: Crab, Ham & Veggie Bake", "desc": "A detailed step-by-step recipe for making a Crab, Ham & Veggie Bake.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeMushroomPizza", "name": "Recipe: Mushroom Pizza", "localeName": "Recipe: Mushroom Pizza", "desc": "A detailed step-by-step recipe for making a Mushroom Pizza.", "rarity": 3, "type": 7, "typeText": "Recipe" },
   { "id": "RecipeSteak", "name": "Recipe: Steak", "localeName": "Recipe: Steak", "desc": "A detailed step-by-step recipe for making a Steak.", "rarity": 1, "type": 7, "typeText": "Recipe" },
-  {
-    "id": "RecipeRadishVeggieSoup",
-    "name": "Recipe: Radish Veggie Soup",
-    "localeName": "Recipe: Radish Veggie Soup",
-    "desc": "A detailed step-by-step recipe for making a Radish Veggie Soup.",
-    "rarity": 1,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeMondstadtHashBrown",
-    "name": "Recipe: Mondstadt Hash Brown",
-    "localeName": "Recipe: Mondstadt Hash Brown",
-    "desc": "A detailed step-by-step recipe for making a Mondstadt Hash Brown.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipePileEmUp",
-    "name": "Recipe: \"Pile 'Em Up\"",
-    "localeName": "Recipe: \"Pile 'Em Up\"",
-    "desc": "A detailed step-by-step recipe for making \"Pile 'Em Up.\"",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeTeaBreakPancake",
-    "name": "Recipe: Tea Break Pancake",
-    "localeName": "Recipe: Tea Break Pancake",
-    "desc": "A detailed step-by-step recipe for making a Tea Break Pancake.",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeFriedRadishBalls",
-    "name": "Recipe: Fried Radish Balls",
-    "localeName": "Recipe: Fried Radish Balls",
-    "desc": "A detailed step-by-step recipe for making Fried Radish Balls.",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeSatisfyingSalad",
-    "name": "Recipe: Satisfying Salad",
-    "localeName": "Recipe: Satisfying Salad",
-    "desc": "A detailed step-by-step recipe for making a Satisfying Salad.",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeJadeParcels",
-    "name": "Recipe: Jade Parcels",
-    "localeName": "Recipe: Jade Parcels",
-    "desc": "A detailed step-by-step recipe for making Jade Parcels.",
-    "rarity": 4,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeMondstadtGrilledFish",
-    "name": "Recipe: Mondstadt Grilled Fish",
-    "localeName": "Recipe: Mondstadt Grilled Fish",
-    "desc": "A detailed step-by-step recipe for making Mondstadt Grilled Fish.",
-    "rarity": 1,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeMoraMeat",
-    "name": "Recipe: Mora Meat",
-    "localeName": "Recipe: Mora Meat",
-    "desc": "A detailed step-by-step recipe for making Mora Meat.",
-    "rarity": 1,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeStirFriedFilet",
-    "name": "Recipe: Stir-Fried Filet",
-    "localeName": "Recipe: Stir-Fried Filet",
-    "desc": "A detailed step-by-step recipe for making Stir-Fried Filet.",
-    "rarity": 1,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeAlmondTofu",
-    "name": "Recipe: Almond Tofu",
-    "localeName": "Recipe: Almond Tofu",
-    "desc": "A detailed step-by-step recipe for making Almond Tofu.",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeJueyunChiliChicken",
-    "name": "Recipe: Jueyun Chili Chicken",
-    "localeName": "Recipe: Jueyun Chili Chicken",
-    "desc": "A detailed step-by-step recipe for making Jueyun Chili Chicken.",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeJewelrySoup",
-    "name": "Recipe: Jewelry Soup",
-    "localeName": "Recipe: Jewelry Soup",
-    "desc": "A detailed step-by-step recipe for making Jewelry Soup.",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeMatsutakeMeatRolls",
-    "name": "Recipe: Matsutake Meat Rolls",
-    "localeName": "Recipe: Matsutake Meat Rolls",
-    "desc": "A detailed step-by-step recipe for making Matsutake Meat Rolls.",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeZhongyuanChopSuey",
-    "name": "Recipe: Zhongyuan Chop Suey",
-    "localeName": "Recipe: Zhongyuan Chop Suey",
-    "desc": "A detailed step-by-step recipe for making Zhongyuan Chop Suey.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeBlackBackPerchStew",
-    "name": "Recipe: Black-Back Perch Stew",
-    "localeName": "Recipe: Black-Back Perch Stew",
-    "desc": "A detailed step-by-step recipe for making Black-Back Perch Stew.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeSquirrelFish",
-    "name": "Recipe: Squirrel Fish",
-    "localeName": "Recipe: Squirrel Fish",
-    "desc": "A detailed step-by-step recipe for making Squirrel Fish.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeGoldenCrab",
-    "name": "Recipe: Golden Crab",
-    "localeName": "Recipe: Golden Crab",
-    "desc": "A detailed step-by-step recipe for making Golden Crab.",
-    "rarity": 4,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeCrystalShrimp",
-    "name": "Recipe: Crystal Shrimp",
-    "localeName": "Recipe: Crystal Shrimp",
-    "desc": "A detailed step-by-step recipe for making Crystal Shrimp.",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeGrilledTigerFish",
-    "name": "Recipe: Grilled Tiger Fish",
-    "localeName": "Recipe: Grilled Tiger Fish",
-    "desc": "A detailed step-by-step recipe for making Grilled Tiger Fish.",
-    "rarity": 1,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeBarbatosRatatouille",
-    "name": "Recipe: Barbatos Ratatouille",
-    "localeName": "Recipe: Barbatos Ratatouille",
-    "desc": "A detailed step-by-step recipe for making Barbatos Ratatouille.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeLotusSeedAndBirdEggSoup",
-    "name": "Recipe: Lotus Seed and Bird Egg Soup",
-    "localeName": "Recipe: Lotus Seed and Bird Egg Soup",
-    "desc": "A detailed step-by-step recipe for making Lotus Seed and Bird Egg Soup.",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeAdeptusTemptation",
-    "name": "Recipe: Adeptus' Temptation",
-    "localeName": "Recipe: Adeptus' Temptation",
-    "desc": "A detailed step-by-step recipe for making Adeptus' Temptation.",
-    "rarity": 5,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeGoldenShrimpBalls",
-    "name": "Recipe: Golden Shrimp Balls",
-    "localeName": "Recipe: Golden Shrimp Balls",
-    "desc": "A detailed step-by-step recipe for making Golden Shrimp Balls.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeQingceStirFry",
-    "name": "Recipe: Qingce Stir Fry",
-    "localeName": "Recipe: Qingce Stir Fry",
-    "desc": "A detailed step-by-step recipe for making Qingce Stir Fry.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeComeAndGetIt",
-    "name": "Recipe: Come and Get It",
-    "localeName": "Recipe: Come and Get It",
-    "desc": "A detailed step-by-step recipe for making Come and Get It.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeNoodlesWithMountainDelicacies",
-    "name": "Recipe: Noodles with Mountain Delicacies",
-    "localeName": "Recipe: Noodles with Mountain Delicacies",
-    "desc": "A detailed step-by-step recipe for making Noodles with Mountain Delicacies.",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeBambooShootSoup",
-    "name": "Recipe: Bamboo Shoot Soup",
-    "localeName": "Recipe: Bamboo Shoot Soup",
-    "desc": "A detailed step-by-step recipe for making Bamboo Shoot Soup.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeTripleLayeredConsomme",
-    "name": "Recipe: Triple-Layered Consommé",
-    "localeName": "Recipe: Triple-Layered Consommé",
-    "desc": "A detailed step-by-step recipe for making Triple-Layered Consommé.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeTianshuMeat",
-    "name": "Recipe: Tianshu Meat",
-    "localeName": "Recipe: Tianshu Meat",
-    "desc": "A detailed step-by-step recipe for making Tianshu Meat.",
-    "rarity": 4,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeLotusFlowerCrisp",
-    "name": "Recipe: Lotus Flower Crisp",
-    "localeName": "Recipe: Lotus Flower Crisp",
-    "desc": "A detailed step-by-step recipe for making Lotus Flower Crisp.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "Recipe"
-  },
+  { "id": "RecipeRadishVeggieSoup", "name": "Recipe: Radish Veggie Soup", "localeName": "Recipe: Radish Veggie Soup", "desc": "A detailed step-by-step recipe for making a Radish Veggie Soup.", "rarity": 1, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeMondstadtHashBrown", "name": "Recipe: Mondstadt Hash Brown", "localeName": "Recipe: Mondstadt Hash Brown", "desc": "A detailed step-by-step recipe for making a Mondstadt Hash Brown.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipePileEmUp", "name": "Recipe: \"Pile 'Em Up\"", "localeName": "Recipe: \"Pile 'Em Up\"", "desc": "A detailed step-by-step recipe for making \"Pile 'Em Up.\"", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeTeaBreakPancake", "name": "Recipe: Tea Break Pancake", "localeName": "Recipe: Tea Break Pancake", "desc": "A detailed step-by-step recipe for making a Tea Break Pancake.", "rarity": 2, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeFriedRadishBalls", "name": "Recipe: Fried Radish Balls", "localeName": "Recipe: Fried Radish Balls", "desc": "A detailed step-by-step recipe for making Fried Radish Balls.", "rarity": 2, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeSatisfyingSalad", "name": "Recipe: Satisfying Salad", "localeName": "Recipe: Satisfying Salad", "desc": "A detailed step-by-step recipe for making a Satisfying Salad.", "rarity": 2, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeJadeParcels", "name": "Recipe: Jade Parcels", "localeName": "Recipe: Jade Parcels", "desc": "A detailed step-by-step recipe for making Jade Parcels.", "rarity": 4, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeMondstadtGrilledFish", "name": "Recipe: Mondstadt Grilled Fish", "localeName": "Recipe: Mondstadt Grilled Fish", "desc": "A detailed step-by-step recipe for making Mondstadt Grilled Fish.", "rarity": 1, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeMoraMeat", "name": "Recipe: Mora Meat", "localeName": "Recipe: Mora Meat", "desc": "A detailed step-by-step recipe for making Mora Meat.", "rarity": 1, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeStirFriedFilet", "name": "Recipe: Stir-Fried Filet", "localeName": "Recipe: Stir-Fried Filet", "desc": "A detailed step-by-step recipe for making Stir-Fried Filet.", "rarity": 1, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeAlmondTofu", "name": "Recipe: Almond Tofu", "localeName": "Recipe: Almond Tofu", "desc": "A detailed step-by-step recipe for making Almond Tofu.", "rarity": 2, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeJueyunChiliChicken", "name": "Recipe: Jueyun Chili Chicken", "localeName": "Recipe: Jueyun Chili Chicken", "desc": "A detailed step-by-step recipe for making Jueyun Chili Chicken.", "rarity": 2, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeJewelrySoup", "name": "Recipe: Jewelry Soup", "localeName": "Recipe: Jewelry Soup", "desc": "A detailed step-by-step recipe for making Jewelry Soup.", "rarity": 2, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeMatsutakeMeatRolls", "name": "Recipe: Matsutake Meat Rolls", "localeName": "Recipe: Matsutake Meat Rolls", "desc": "A detailed step-by-step recipe for making Matsutake Meat Rolls.", "rarity": 2, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeZhongyuanChopSuey", "name": "Recipe: Zhongyuan Chop Suey", "localeName": "Recipe: Zhongyuan Chop Suey", "desc": "A detailed step-by-step recipe for making Zhongyuan Chop Suey.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeBlackBackPerchStew", "name": "Recipe: Black-Back Perch Stew", "localeName": "Recipe: Black-Back Perch Stew", "desc": "A detailed step-by-step recipe for making Black-Back Perch Stew.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeSquirrelFish", "name": "Recipe: Squirrel Fish", "localeName": "Recipe: Squirrel Fish", "desc": "A detailed step-by-step recipe for making Squirrel Fish.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeGoldenCrab", "name": "Recipe: Golden Crab", "localeName": "Recipe: Golden Crab", "desc": "A detailed step-by-step recipe for making Golden Crab.", "rarity": 4, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeCrystalShrimp", "name": "Recipe: Crystal Shrimp", "localeName": "Recipe: Crystal Shrimp", "desc": "A detailed step-by-step recipe for making Crystal Shrimp.", "rarity": 2, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeGrilledTigerFish", "name": "Recipe: Grilled Tiger Fish", "localeName": "Recipe: Grilled Tiger Fish", "desc": "A detailed step-by-step recipe for making Grilled Tiger Fish.", "rarity": 1, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeBarbatosRatatouille", "name": "Recipe: Barbatos Ratatouille", "localeName": "Recipe: Barbatos Ratatouille", "desc": "A detailed step-by-step recipe for making Barbatos Ratatouille.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeLotusSeedAndBirdEggSoup", "name": "Recipe: Lotus Seed and Bird Egg Soup", "localeName": "Recipe: Lotus Seed and Bird Egg Soup", "desc": "A detailed step-by-step recipe for making Lotus Seed and Bird Egg Soup.", "rarity": 2, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeAdeptusTemptation", "name": "Recipe: Adeptus' Temptation", "localeName": "Recipe: Adeptus' Temptation", "desc": "A detailed step-by-step recipe for making Adeptus' Temptation.", "rarity": 5, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeGoldenShrimpBalls", "name": "Recipe: Golden Shrimp Balls", "localeName": "Recipe: Golden Shrimp Balls", "desc": "A detailed step-by-step recipe for making Golden Shrimp Balls.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeQingceStirFry", "name": "Recipe: Qingce Stir Fry", "localeName": "Recipe: Qingce Stir Fry", "desc": "A detailed step-by-step recipe for making Qingce Stir Fry.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeComeAndGetIt", "name": "Recipe: Come and Get It", "localeName": "Recipe: Come and Get It", "desc": "A detailed step-by-step recipe for making Come and Get It.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeNoodlesWithMountainDelicacies", "name": "Recipe: Noodles with Mountain Delicacies", "localeName": "Recipe: Noodles with Mountain Delicacies", "desc": "A detailed step-by-step recipe for making Noodles with Mountain Delicacies.", "rarity": 2, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeBambooShootSoup", "name": "Recipe: Bamboo Shoot Soup", "localeName": "Recipe: Bamboo Shoot Soup", "desc": "A detailed step-by-step recipe for making Bamboo Shoot Soup.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeTripleLayeredConsomme", "name": "Recipe: Triple-Layered Consommé", "localeName": "Recipe: Triple-Layered Consommé", "desc": "A detailed step-by-step recipe for making Triple-Layered Consommé.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeTianshuMeat", "name": "Recipe: Tianshu Meat", "localeName": "Recipe: Tianshu Meat", "desc": "A detailed step-by-step recipe for making Tianshu Meat.", "rarity": 4, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeLotusFlowerCrisp", "name": "Recipe: Lotus Flower Crisp", "localeName": "Recipe: Lotus Flower Crisp", "desc": "A detailed step-by-step recipe for making Lotus Flower Crisp.", "rarity": 3, "type": 7, "typeText": "Recipe" },
   { "id": "RecipeMoonPie", "name": "Recipe: Moon Pie", "localeName": "Recipe: Moon Pie", "desc": "A detailed step-by-step recipe for making Moon Pie.", "rarity": 4, "type": 7, "typeText": "Recipe" },
-  {
-    "id": "RecipeAdventurersBreakfastSandwich",
-    "name": "Recipe: Adventurer's Breakfast Sandwich",
-    "localeName": "Recipe: Adventurer's Breakfast Sandwich",
-    "desc": "A detailed step-by-step recipe for making an Adventurer's Breakfast Sandwich.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeNorthernAppleStew",
-    "name": "Recipe: Northern Apple Stew",
-    "localeName": "Recipe: Northern Apple Stew",
-    "desc": "A detailed step-by-step recipe for making Northern Apple Stew.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeFullmoonEgg",
-    "name": "Recipe: Fullmoon Egg",
-    "localeName": "Recipe: Fullmoon Egg",
-    "desc": "A detailed step-by-step recipe for making Fullmoon Egg.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeVegetarianAbalone",
-    "name": "Recipe:Vegetarian Abalone",
-    "localeName": "Recipe:Vegetarian Abalone",
-    "desc": "A detailed step-by-step recipe for making Vegetarian Abalone.",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeStoneHarborDelicacies",
-    "name": "Recipe: Stone Harbor Delicacies",
-    "localeName": "Recipe: Stone Harbor Delicacies",
-    "desc": "A detailed step-by-step recipe for making Stone Harbor Delicacies.",
-    "rarity": 2,
-    "type": 7,
-    "typeText": "Recipe"
-  },
+  { "id": "RecipeAdventurersBreakfastSandwich", "name": "Recipe: Adventurer's Breakfast Sandwich", "localeName": "Recipe: Adventurer's Breakfast Sandwich", "desc": "A detailed step-by-step recipe for making an Adventurer's Breakfast Sandwich.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeNorthernAppleStew", "name": "Recipe: Northern Apple Stew", "localeName": "Recipe: Northern Apple Stew", "desc": "A detailed step-by-step recipe for making Northern Apple Stew.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeFullmoonEgg", "name": "Recipe: Fullmoon Egg", "localeName": "Recipe: Fullmoon Egg", "desc": "A detailed step-by-step recipe for making Fullmoon Egg.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeVegetarianAbalone", "name": "Recipe:Vegetarian Abalone", "localeName": "Recipe:Vegetarian Abalone", "desc": "A detailed step-by-step recipe for making Vegetarian Abalone.", "rarity": 2, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeStoneHarborDelicacies", "name": "Recipe: Stone Harbor Delicacies", "localeName": "Recipe: Stone Harbor Delicacies", "desc": "A detailed step-by-step recipe for making Stone Harbor Delicacies.", "rarity": 2, "type": 7, "typeText": "Recipe" },
   { "id": "RecipeGoulash", "name": "Recipe: Goulash", "localeName": "Recipe: Goulash", "desc": "A detailed step-by-step recipe for making Goulash.", "rarity": 2, "type": 7, "typeText": "Recipe" },
-  {
-    "id": "RecipeSunshineSprat",
-    "name": "Recipe: Sunshine Sprat",
-    "localeName": "Recipe: Sunshine Sprat",
-    "desc": "A detailed step-by-step recipe for making Sunshine Sprat.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeUniversalPeace",
-    "name": "Recipe: Universal Peace",
-    "localeName": "Recipe: Universal Peace",
-    "desc": "A detailed step-by-step recipe for making Universal Peace.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "RecipeJueyunGuoba",
-    "name": "Recipe: Jueyun Guoba",
-    "localeName": "Recipe: Jueyun Guoba",
-    "desc": "A detailed step-by-step recipe for making Jueyun Guoba.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "Recipe"
-  },
-  {
-    "id": "Flour",
-    "name": "Flour",
-    "localeName": "Flour",
-    "desc": "A powder ground from wheat. No matter what it goes into, it brings a sense of satisfaction to the diner.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Processed"]
-  },
-  {
-    "id": "Cream",
-    "name": "Cream",
-    "localeName": "Cream",
-    "desc": "A dairy product made from milk. An essential ingredient in making pastries.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Processed"]
-  },
-  {
-    "id": "SmokedFowl",
-    "name": "Smoked Fowl",
-    "localeName": "Smoked Fowl",
-    "desc": "Fowl that has been smoked. The firmness of the meat gives new texture to dishes.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Processed"]
-  },
-  {
-    "id": "Butter",
-    "name": "Butter",
-    "localeName": "Butter",
-    "desc": "An extract from milk. With the appropriate application, it can bring rich aromas to even the most basic ingredients.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Processed"]
-  },
-  {
-    "id": "Ham",
-    "name": "Ham",
-    "localeName": "Ham",
-    "desc": "Smoked leg meat. Even the thinnest slice is packed full of flavor.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Processed"]
-  },
-  {
-    "id": "Sugar",
-    "name": "Sugar",
-    "localeName": "Sugar",
-    "desc": "A seasoning derived from Sweet Flowers. Has the power to give both energy and happiness.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Processed"]
-  },
-  {
-    "id": "Jam",
-    "name": "Jam",
-    "localeName": "Jam",
-    "desc": "A gelatinous substance made from fruit and sugar. Even a little bit can easily wake up tired taste buds.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Processed"]
-  },
-  {
-    "id": "Cheese",
-    "name": "Cheese",
-    "localeName": "Cheese",
-    "desc": "Made from fermented milk. High in energy, it's used in a wide range of dishes.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Processed"]
-  },
-  {
-    "id": "Bacon",
-    "name": "Bacon",
-    "localeName": "Bacon",
-    "desc": "Smoked strips of pork. Crispy with a bit of fat, but not too greasy. Mmmmm... bacon.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Processed"]
-  },
-  {
-    "id": "Sausage",
-    "name": "Sausage",
-    "localeName": "Sausage",
-    "desc": "Finely minced meat wrapped in a skin. A staple of every meat lover's daily diet.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "Cooking Ingredient",
-    "drop": ["Processed"]
-  },
+  { "id": "RecipeSunshineSprat", "name": "Recipe: Sunshine Sprat", "localeName": "Recipe: Sunshine Sprat", "desc": "A detailed step-by-step recipe for making Sunshine Sprat.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeUniversalPeace", "name": "Recipe: Universal Peace", "localeName": "Recipe: Universal Peace", "desc": "A detailed step-by-step recipe for making Universal Peace.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeJueyunGuoba", "name": "Recipe: Jueyun Guoba", "localeName": "Recipe: Jueyun Guoba", "desc": "A detailed step-by-step recipe for making Jueyun Guoba.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeCrispyPotatoShrimpPlatter", "name": "Recipe: Crispy Potato Shrimp Platter", "localeName": "Recipe: Crispy Potato Shrimp Platter", "desc": "A detailed step-by-step recipe for making Crispy Potato Shrimp Platter.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeMintJelly", "name": "Recipe: Mint Jelly", "localeName": "Recipe: Mint Jelly", "desc": "A detailed step-by-step recipe for making Mint Jelly.", "rarity": 1, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeMintSalad", "name": "Recipe: Mint Salad", "localeName": "Recipe: Mint Salad", "desc": "A detailed step-by-step recipe for making Mint Salad.", "rarity": 2, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeMintyMeatRolls", "name": "Recipe: Minty Meat Rolls", "localeName": "Recipe: Minty Meat Rolls", "desc": "A detailed step-by-step recipe for making Minty Meat Rolls.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeGoldenFriedChicken", "name": "Recipe: Golden Fried Chicken", "localeName": "Recipe: Golden Fried Chicken", "desc": "A detailed step-by-step recipe for making Golden Fried Chicken.", "rarity": 4, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeGoldenChickenBurger", "name": "Recipe: Golden Chicken Burger", "localeName": "Recipe: Golden Chicken Burger", "desc": "A detailed step-by-step recipe for making a Golden Chicken Burger.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeFragrantMashedPotatoes", "name": "Recipe: Fragrant Mashed Potatoes", "localeName": "Recipe: Fragrant Mashed Potatoes", "desc": "A detailed step-by-step recipe for making Fragrant Mashed Potatoes.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "Flour", "name": "Flour", "localeName": "Flour", "desc": "A powder ground from wheat. No matter what it goes into, it brings a sense of satisfaction to the diner.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Processed"] },
+  { "id": "Cream", "name": "Cream", "localeName": "Cream", "desc": "A dairy product made from milk. An essential ingredient in making pastries.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Processed"] },
+  { "id": "SmokedFowl", "name": "Smoked Fowl", "localeName": "Smoked Fowl", "desc": "Fowl that has been smoked. The firmness of the meat gives new texture to dishes.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Processed"] },
+  { "id": "Butter", "name": "Butter", "localeName": "Butter", "desc": "An extract from milk. With the appropriate application, it can bring rich aromas to even the most basic ingredients.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Processed"] },
+  { "id": "Ham", "name": "Ham", "localeName": "Ham", "desc": "Smoked leg meat. Even the thinnest slice is packed full of flavor.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Processed"] },
+  { "id": "Sugar", "name": "Sugar", "localeName": "Sugar", "desc": "A seasoning derived from Sweet Flowers. Has the power to give both energy and happiness.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Processed"] },
+  { "id": "Jam", "name": "Jam", "localeName": "Jam", "desc": "A gelatinous substance made from fruit and sugar. Even a little bit can easily wake up tired taste buds.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Processed"] },
+  { "id": "Cheese", "name": "Cheese", "localeName": "Cheese", "desc": "Made from fermented milk. High in energy, it's used in a wide range of dishes.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Processed"] },
+  { "id": "Bacon", "name": "Bacon", "localeName": "Bacon", "desc": "Smoked strips of pork. Crispy with a bit of fat, but not too greasy. Mmmmm... bacon.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Processed"] },
+  { "id": "Sausage", "name": "Sausage", "localeName": "Sausage", "desc": "Finely minced meat wrapped in a skin. A staple of every meat lover's daily diet.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Processed"] },
   { "id": "SmokedFish", "name": "Smoked Fish", "localeName": "Smoked Fish", "desc": "", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Processed"] },
   { "id": "DriedFish", "name": "Dried Fish", "localeName": "Dried Fish", "desc": "", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Processed"] },
   {
@@ -4338,36 +3263,9 @@
     "typeText": "Potion",
     "drop": ["Crafted"]
   },
-  {
-    "id": "SmallPrettyCrystal",
-    "name": "Small Pretty Crystal",
-    "localeName": "Small Pretty Crystal",
-    "desc": "Additional Crafted Item",
-    "rarity": 1,
-    "type": 7,
-    "typeText": "Crafted Item",
-    "drop": ["Crafted"]
-  },
-  {
-    "id": "MediumPrettyCrystal",
-    "name": "Medium Pretty Crystal",
-    "localeName": "Medium Pretty Crystal",
-    "desc": "Additional Crafted Item",
-    "rarity": 1,
-    "type": 7,
-    "typeText": "Crafted Item",
-    "drop": ["Crafted"]
-  },
-  {
-    "id": "BigPrettyCrystal",
-    "name": "Big Pretty Crystal",
-    "localeName": "Big Pretty Crystal",
-    "desc": "Additional Crafted Item",
-    "rarity": 1,
-    "type": 7,
-    "typeText": "Crafted Item",
-    "drop": ["Crafted"]
-  },
+  { "id": "SmallPrettyCrystal", "name": "Small Pretty Crystal", "localeName": "Small Pretty Crystal", "desc": "Additional Crafted Item", "rarity": 1, "type": 7, "typeText": "Crafted Item", "drop": ["Crafted"] },
+  { "id": "MediumPrettyCrystal", "name": "Medium Pretty Crystal", "localeName": "Medium Pretty Crystal", "desc": "Additional Crafted Item", "rarity": 1, "type": 7, "typeText": "Crafted Item", "drop": ["Crafted"] },
+  { "id": "BigPrettyCrystal", "name": "Big Pretty Crystal", "localeName": "Big Pretty Crystal", "desc": "Additional Crafted Item", "rarity": 1, "type": 7, "typeText": "Crafted Item", "drop": ["Crafted"] },
   {
     "id": "PrimordialEssence",
     "name": "Primordial Essence",
@@ -4378,16 +3276,7 @@
     "typeText": "Character Level-Up Material",
     "drop": ["Dropped by elemental creatures"]
   },
-  {
-    "id": "SlimeCondensate",
-    "name": "Slime Condensate",
-    "localeName": "Slime Condensate",
-    "desc": "A thick coating found on slimes. Most commonly seen material in elemental workshops.",
-    "rarity": 1,
-    "type": 1,
-    "typeText": "Character Level-Up Material",
-    "drop": ["Dropped by slimes"]
-  },
+  { "id": "SlimeCondensate", "name": "Slime Condensate", "localeName": "Slime Condensate", "desc": "A thick coating found on slimes. Most commonly seen material in elemental workshops.", "rarity": 1, "type": 1, "typeText": "Character Level-Up Material", "drop": ["Dropped by slimes"] },
   {
     "id": "SlimeSecretions",
     "name": "Slime Secretions",
@@ -4438,16 +3327,7 @@
     "typeText": "Character Level-Up Material",
     "drop": ["Dropped by Lv. 60+ hilichurls", "Dropped by some Lv. 60+ ranged hilichurls", "Dropped by some Lv. 60+ samachurls", "Dropped by some Lv. 60+ large hilichurls", "Crafted"]
   },
-  {
-    "id": "DiviningScroll",
-    "name": "Divining Scroll",
-    "localeName": "Divining Scroll",
-    "desc": "A scroll that likely relates to some kind of magic. Exudes an inexplicable but ominous warmth.",
-    "rarity": 1,
-    "type": 1,
-    "typeText": "Character Level-Up Material",
-    "drop": ["Dropped by samachurls"]
-  },
+  { "id": "DiviningScroll", "name": "Divining Scroll", "localeName": "Divining Scroll", "desc": "A scroll that likely relates to some kind of magic. Exudes an inexplicable but ominous warmth.", "rarity": 1, "type": 1, "typeText": "Character Level-Up Material", "drop": ["Dropped by samachurls"] },
   {
     "id": "SealedScroll",
     "name": "Sealed Scroll",
@@ -5198,15 +4078,7 @@
     "typeText": "Weapon Ascension Material",
     "drop": ["Crafted"]
   },
-  {
-    "id": "BEP",
-    "name": "BEP",
-    "localeName": "BEP",
-    "desc": "Your travel diary contains all that you have experienced in your long journey. These experiences shall someday become the stuff of song.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "BEP"
-  },
+  { "id": "BEP", "name": "BEP", "localeName": "BEP", "desc": "Your travel diary contains all that you have experienced in your long journey. These experiences shall someday become the stuff of song.", "rarity": 3, "type": 7, "typeText": "BEP" },
   {
     "id": "CakeForTraveler",
     "name": "Cake for Traveler",
@@ -5246,24 +4118,8 @@
     "typeText": "Lantern Rite Material",
     "drop": ["Obtained from harvestable ores", "Found on Geovishap Hatchlings and Geovishaps", "Produced by Stonehide Lawachurls"]
   },
-  {
-    "id": "RimeWornFragment",
-    "name": "Rime-Worn Fragment",
-    "localeName": "Rime-Worn Fragment",
-    "desc": "Small crystals obtained from monster habitats on Dragonspine.\nThey are only generated at special times.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "Dragonspine Material"
-  },
-  {
-    "id": "RimeWornCrystal",
-    "name": "Rime-Worn Crystal",
-    "localeName": "Rime-Worn Crystal",
-    "desc": "Pieces of crystal obtained from monster habitats on Dragonspine.\nThey are only generated at special times.",
-    "rarity": 3,
-    "type": 7,
-    "typeText": "Dragonspine Material"
-  },
+  { "id": "RimeWornFragment", "name": "Rime-Worn Fragment", "localeName": "Rime-Worn Fragment", "desc": "Small crystals obtained from monster habitats on Dragonspine.\nThey are only generated at special times.", "rarity": 3, "type": 7, "typeText": "Dragonspine Material" },
+  { "id": "RimeWornCrystal", "name": "Rime-Worn Crystal", "localeName": "Rime-Worn Crystal", "desc": "Pieces of crystal obtained from monster habitats on Dragonspine.\nThey are only generated at special times.", "rarity": 3, "type": 7, "typeText": "Dragonspine Material" },
   {
     "id": "FesteringDragonMarrow",
     "name": "Festering Dragon Marrow",
@@ -5274,10 +4130,19 @@
     "typeText": "Refinement Material"
   },
   {
+    "id": "TheVisibleWinds",
+    "name": "\"The Visible Winds\"",
+    "localeName": "\"The Visible Winds\"",
+    "desc": "Specialized refinement material for the Windblume Ode.\nAn intricately-made ornament that symbolizes the windmills and windblumes, and is that which adorns the limbs of the Windblume Ode. The wind is invisible and intangible, but the windmills that keep turning and the swaying flowers in the emerald fields are \"the visible winds\" that show people that the breeze will always care for all life in Mondstadt.",
+    "rarity": 4,
+    "type": 1,
+    "typeText": "Refinement Material"
+  },
+  {
     "id": "CondensedResin",
     "name": "Condensed Resin",
     "localeName": "Condensed Resin",
-    "desc": "You can hold no more than 3 at a time.\nCondensed tree resin that can be used instead of Original Resin to revitalize Petrified Trees and Ley Line Blossoms to receive greater rewards.\nCrystal filled with immense energy.\nThe silver-white Irminsul trees and blossoms are connected to ley lines that have become blocked over time. The energy contained in tree resin can purify the obstructing substance.",
+    "desc": "You can hold no more than 5 at a time.\nCondensed tree resin that can be used instead of Original Resin to revitalize Petrified Trees and Ley Line Blossoms to receive greater rewards.\nCrystal filled with immense energy.\nThe silver-white Irminsul trees and blossoms are connected to ley lines that have become blocked over time. The energy contained in tree resin can purify the obstructing substance.",
     "rarity": 4,
     "type": 7,
     "typeText": "Consumable",
@@ -5341,7 +4206,7 @@
     "id": "InstructionsCondensedResin",
     "name": "Instructions: Condensed Resin",
     "localeName": "Instructions: Condensed Resin",
-    "desc": "Detailed step-by-step instructions for making Condensed Resin. Using resin in this condensed form to activate certain Ley Line Blossoms and Petrified Trees will increase your efficiency. You can hold no more than 3 Condensed Resin at a time.",
+    "desc": "Detailed step-by-step instructions for making Condensed Resin. Using resin in this condensed form to activate certain Ley Line Blossoms and Petrified Trees will increase your efficiency. You can hold no more than 5 Condensed Resin at a time.",
     "rarity": 4,
     "type": 7,
     "typeText": "Crafting Blueprint"
@@ -5373,31 +4238,7 @@
     "type": 7,
     "typeText": "Forging Blueprint"
   },
-  {
-    "id": "MemoryOfTheEntombedCity",
-    "name": "Memory of the Entombed City",
-    "localeName": "Memory of the Entombed City",
-    "desc": "Through this memory, you can master the method to make a Snow-Tombed Starsilver (Claymore).",
-    "rarity": 4,
-    "type": 7,
-    "typeText": "Forging Blueprint"
-  },
-  {
-    "id": "MemoryOfTheFrostbearingTree",
-    "name": "Memory of the Frostbearing Tree",
-    "localeName": "Memory of the Frostbearing Tree",
-    "desc": "Through this memory, you can master the method to make a Frostbearer (Catalyst).",
-    "rarity": 4,
-    "type": 7,
-    "typeText": "Forging Blueprint"
-  },
-  {
-    "id": "DiagramDragonspineSpear",
-    "name": "Diagram: Dragonspine Spear",
-    "localeName": "Diagram: Dragonspine Spear",
-    "desc": "A detailed step-by-step diagram for making a Dragonspine Spear (Polearm).",
-    "rarity": 4,
-    "type": 7,
-    "typeText": "Forging Blueprint"
-  }
+  { "id": "MemoryOfTheEntombedCity", "name": "Memory of the Entombed City", "localeName": "Memory of the Entombed City", "desc": "Through this memory, you can master the method to make a Snow-Tombed Starsilver (Claymore).", "rarity": 4, "type": 7, "typeText": "Forging Blueprint" },
+  { "id": "MemoryOfTheFrostbearingTree", "name": "Memory of the Frostbearing Tree", "localeName": "Memory of the Frostbearing Tree", "desc": "Through this memory, you can master the method to make a Frostbearer (Catalyst).", "rarity": 4, "type": 7, "typeText": "Forging Blueprint" },
+  { "id": "DiagramDragonspineSpear", "name": "Diagram: Dragonspine Spear", "localeName": "Diagram: Dragonspine Spear", "desc": "A detailed step-by-step diagram for making a Dragonspine Spear (Polearm).", "rarity": 4, "type": 7, "typeText": "Forging Blueprint" }
 ]

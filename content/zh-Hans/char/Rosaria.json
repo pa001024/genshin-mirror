@@ -1,0 +1,317 @@
+{
+  "id": "Rosaria",
+  "name": "Rosaria",
+  "localeName": "罗莎莉亚",
+  "desc": "除了打扮哪里都不像神职人员的修女。冷淡的言行中透着锐利。总是单独行动。",
+  "baseHP": 1030.3,
+  "baseATK": 20.123,
+  "baseDEF": 59.514,
+  "bodyType": 4,
+  "rarity": 4,
+  "weapon": 3,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "ShivadaJadeSliver", "localeName": "哀叙冰玉碎屑", "rarity": 2, "count": 1 },
+        { "id": "Valberry", "localeName": "落落莓", "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽记", "rarity": 1, "count": 3 }
+      ],
+      "HP": 769.7,
+      "ATK": 15.033,
+      "DEF": 44.46,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "ShivadaJadeFragment", "localeName": "哀叙冰玉断片", "rarity": 3, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "极寒之核", "rarity": 4, "count": 2 },
+        { "id": "Valberry", "localeName": "落落莓", "count": 10 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽记", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1316.6,
+      "ATK": 25.715,
+      "DEF": 76.05,
+      "extra": 0.06
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "ShivadaJadeFragment", "localeName": "哀叙冰玉断片", "rarity": 3, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "极寒之核", "rarity": 4, "count": 4 },
+        { "id": "Valberry", "localeName": "落落莓", "count": 20 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 12 }
+      ],
+      "HP": 2045.8,
+      "ATK": 39.957,
+      "DEF": 118.17,
+      "extra": 0.12
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "ShivadaJadeChunk", "localeName": "哀叙冰玉块", "rarity": 4, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "极寒之核", "rarity": 4, "count": 8 },
+        { "id": "Valberry", "localeName": "落落莓", "count": 30 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2592.7,
+      "ATK": 50.638,
+      "DEF": 149.76,
+      "extra": 0.12
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "ShivadaJadeChunk", "localeName": "哀叙冰玉块", "rarity": 4, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "极寒之核", "rarity": 4, "count": 12 },
+        { "id": "Valberry", "localeName": "落落莓", "count": 45 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 12 }
+      ],
+      "HP": 3139.6,
+      "ATK": 61.32,
+      "DEF": 181.35,
+      "extra": 0.18
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "ShivadaJadeGemstone", "localeName": "哀叙冰玉", "rarity": 5, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "极寒之核", "rarity": 4, "count": 20 },
+        { "id": "Valberry", "localeName": "落落莓", "count": 60 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 24 }
+      ],
+      "HP": 3686.5,
+      "ATK": 72.002,
+      "DEF": 212.94,
+      "extra": 0.24
+    }
+  ],
+  "ascensionType": 7,
+  "element": 7,
+  "elemSkill": {
+    "name": "RavagingConfession",
+    "localeName": "噬罪的告解",
+    "desc": "罗莎莉亚快速移动至目标敌人身后，进行长枪穿刺与挥砍，造成<color=#99FFFFFF>冰元素伤害</color>。\n无法通过施放时的快速移动，转移至体型较大的敌人身后。\n\n<i>对着修女罗莎莉亚的告解并不能获得赦罪。相反，罪孽越深，降罚的冰寒就越是刺骨。</i>",
+    "cd": 6,
+    "paramTpls": ["技能伤害|{param1:P}+{param2:P}", "冷却时间|{param3:F1}秒"],
+    "paramVals": [
+      [0.584, 1.36, 6],
+      [0.6278, 1.462, 6],
+      [0.6716, 1.564, 6],
+      [0.73, 1.7, 6],
+      [0.7738, 1.802, 6],
+      [0.8176, 1.904, 6],
+      [0.876, 2.04, 6],
+      [0.9344, 2.176, 6],
+      [0.9928, 2.312, 6],
+      [1.0512, 2.448, 6],
+      [1.1096, 2.584, 6],
+      [1.168, 2.72, 6],
+      [1.241, 2.89, 6],
+      [1.314, 3.06, 6],
+      [1.387, 3.23, 6]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfBallad", "localeName": "「诗文」的教导", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽记", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「诗文」的指引", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「诗文」的指引", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「诗文」的指引", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「诗文」的指引", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 4 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武炼之魂·孤影", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 6 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武炼之魂·孤影", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 9 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武炼之魂·孤影", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 12 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武炼之魂·孤影", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "RitesOfTermination",
+    "localeName": "终命的圣礼",
+    "desc": "这是罗莎莉亚专属的领祷仪式。挥舞武器扫击身边的敌人后，凝聚极寒的冰枪击向地面，分别造成<color=#99FFFFFF>冰元素伤害</color>。\n冰枪在存在期间内，会间歇性释放寒气，对附近的敌人造成<color=#99FFFFFF>冰元素伤害</color>。\n\n<i>审判这件事很麻烦，所以越过审判直接执行临终祈礼吧。罗莎莉亚本就不信奉风神，这件事因此格外轻松。</i>",
+    "cd": 15,
+    "energyCost": 60,
+    "paramTpls": ["技能伤害|{param1:P}+{param2:P}", "冰枪持续伤害|{param3:P}", "持续时间|{param4:F1}秒", "冷却时间|{param5:F1}秒", "元素能量|{param6:I}"],
+    "paramVals": [
+      [1.04, 1.52, 1.32, 8, 15, 60],
+      [1.118, 1.634, 1.419, 8, 15, 60],
+      [1.196, 1.748, 1.518, 8, 15, 60],
+      [1.3, 1.9, 1.65, 8, 15, 60],
+      [1.378, 2.014, 1.749, 8, 15, 60],
+      [1.456, 2.128, 1.848, 8, 15, 60],
+      [1.56, 2.28, 1.98, 8, 15, 60],
+      [1.664, 2.432, 2.112, 8, 15, 60],
+      [1.768, 2.584, 2.244, 8, 15, 60],
+      [1.872, 2.736, 2.376, 8, 15, 60],
+      [1.976, 2.888, 2.508, 8, 15, 60],
+      [2.08, 3.04, 2.64, 8, 15, 60],
+      [2.21, 3.23, 2.805, 8, 15, 60],
+      [2.34, 3.42, 2.97, 8, 15, 60],
+      [2.47, 3.61, 3.135, 8, 15, 60]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfBallad", "localeName": "「诗文」的教导", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽记", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「诗文」的指引", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「诗文」的指引", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「诗文」的指引", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「诗文」的指引", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 4 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武炼之魂·孤影", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 6 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武炼之魂·孤影", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 9 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武炼之魂·孤影", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 12 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武炼之魂·孤影", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackSpearOfTheChurch",
+    "localeName": "普通攻击·教会枪术",
+    "desc": "<color=#FFD780FF>普通攻击</color>\n进行至多五段的连续枪击。\n\n<color=#FFD780FF>重击</color>\n消耗一定体力，向前方突进，对路径上的敌人造成伤害。\n\n<color=#FFD780FF>下落攻击</color>\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
+    "cd": 0,
+    "paramTpls": ["一段伤害|{param1:F1P}", "二段伤害|{param2:F1P}", "三段伤害|{param3:F1P}*2", "四段伤害|{param4:F1P}", "五段伤害|{param5:F1P}+{param6:F1P}", "重击伤害|{param7:P}", "重击体力消耗|{param8:F1}点", "下坠期间伤害|{param9:F1P}", "低空/高空坠地冲击伤害|{param10:P}/{param11:P}"],
+    "paramVals": [
+      [0.5246, 0.516, 0.3182, 0.6966, 0.41624, 0.43, 1.3674, 25, 0.63932, 1.2784, 1.5968],
+      [0.5673, 0.558, 0.3441, 0.7533, 0.45012, 0.465, 1.4787, 25, 0.69136, 1.3824, 1.7267],
+      [0.61, 0.6, 0.37, 0.81, 0.484, 0.5, 1.59, 25, 0.7434, 1.4865, 1.8567],
+      [0.671, 0.66, 0.407, 0.891, 0.5324, 0.55, 1.749, 25, 0.81774, 1.6351, 2.0424],
+      [0.7137, 0.702, 0.4329, 0.9477, 0.56628, 0.585, 1.8603, 25, 0.86978, 1.7392, 2.1723],
+      [0.7625, 0.75, 0.4625, 1.0125, 0.605, 0.625, 1.9875, 25, 0.92925, 1.8581, 2.3209],
+      [0.8296, 0.816, 0.5032, 1.1016, 0.65824, 0.68, 2.1624, 25, 1.011, 2.0216, 2.5251],
+      [0.8967, 0.882, 0.5439, 1.1907, 0.71148, 0.735, 2.3373, 25, 1.0928, 2.1851, 2.7293],
+      [0.9638, 0.948, 0.5846, 1.2798, 0.76472, 0.79, 2.5122, 25, 1.1746, 2.3486, 2.9336],
+      [1.037, 1.02, 0.629, 1.377, 0.8228, 0.85, 2.703, 25, 1.2638, 2.527, 3.1564],
+      [1.1102, 1.092, 0.6734, 1.4742, 0.88088, 0.91, 2.8938, 25, 1.353, 2.7054, 3.3792],
+      [1.1834, 1.164, 0.7178, 1.5714, 0.93896, 0.97, 3.0846, 25, 1.4422, 2.8838, 3.602],
+      [1.2566, 1.236, 0.7622, 1.6686, 0.99704, 1.03, 3.2754, 25, 1.5314, 3.0622, 3.8248],
+      [1.3298, 1.308, 0.8066, 1.7658, 1.0551, 1.09, 3.4662, 25, 1.6206, 3.2405, 4.0476],
+      [1.403, 1.38, 0.851, 1.863, 1.1132, 1.15, 3.657, 25, 1.7098, 3.4189, 4.2704]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfBallad", "localeName": "「诗文」的教导", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽记", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「诗文」的指引", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「诗文」的指引", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「诗文」的指引", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「诗文」的指引", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 4 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武炼之魂·孤影", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 6 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武炼之魂·孤影", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 9 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武炼之魂·孤影", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 12 },
+        { "id": "ShadowOfTheWarrior", "localeName": "武炼之魂·孤影", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "ReginaProbationum", "localeName": "聆听忏悔的幽影", "desc": "<color=#FFD780FF>噬罪的告解</color>从技能目标的背后攻击时，罗莎莉亚的暴击率提升12%，持续5秒。", "unlock": 1, "values": [0.12, 5] },
+    { "name": "ShadowSamaritan", "localeName": "暗中支援的黯色", "desc": "施放<color=#FFD780FF>终命的圣礼</color>时，基于自身暴击率的15%，提高附近的队伍中所有角色（不包括罗莎莉亚自己）的暴击率，持续10秒。\n通过这种方式获得的暴击率提升，无法超过15%。", "unlock": 4, "values": [0.15, 10, 0.15] },
+    { "name": "NightWalk", "localeName": "夜行", "desc": "在夜间（18时至6时），队伍中自己的角色移动速度提高10%。\n该效果在秘境、征讨领域、深境螺旋中无效，且无法与效果完全相同的固有天赋叠加。", "values": [0.1] }
+  ],
+  "c13ns": [
+    { "name": "UnholyRevelation", "localeName": "罪之导引", "desc": "罗莎莉亚的攻击造成暴击后，自身攻击速度提升10%，普通攻击造成的伤害提升10%，持续4秒。", "values": [0.1, 0.1, 4] },
+    { "name": "LandWithoutPromise", "localeName": "无福之地", "desc": "<color=#FFD780FF>终命的圣礼</color>创造的冰枪持续时间延长4秒。", "values": [4] },
+    { "name": "TheWagesOfSin", "localeName": "告解之仪", "desc": "<color=#FFD780FF>噬罪的告解</color>的技能等级提高3级。\n至多提升至15级。" },
+    { "name": "PainfulGrace", "localeName": "苦痛恩典", "desc": "<color=#FFD780FF>噬罪的告解</color>造成暴击时，为罗莎莉亚自己恢复5点元素能量。\n每次噬罪的告解至多触发1次该效果。", "values": [5] },
+    { "name": "LastRites", "localeName": "临终祈礼", "desc": "<color=#FFD780FF>终命的圣礼</color>的技能等级提高3级。\n至多提升至15级。" },
+    { "name": "DivineRetribution", "localeName": "代行裁判", "desc": "<color=#FFD780FF>终命的圣礼</color>的攻击会使敌人的物理抗性降低20%，持续10秒。", "values": [0.2, 10, 1] }
+  ],
+  "overviewItems": [
+    { "id": "ShivadaJadeGemstone", "localeName": "哀叙冰玉", "rarity": 5 },
+    { "id": "HoarfrostCore", "localeName": "极寒之核", "rarity": 4 },
+    { "id": "Valberry", "localeName": "落落莓" },
+    { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3 },
+    { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4 },
+    { "id": "ShadowOfTheWarrior", "localeName": "武炼之魂·孤影", "rarity": 5 }
+  ]
+}
