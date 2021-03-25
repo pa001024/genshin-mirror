@@ -3,9 +3,10 @@
     <div class="char-avatar" :class="[value ? 'rarity-' + value.rarity : '']" :style="{ height: (small ? 80 : 106) + 'px' }">
       <ItemImage v-if="item" :id="item" :size="small ? 24 : 32" class="ele-icon" />
       <ElementIcon v-else-if="value" :element="value.element" :size="small ? 24 : 32" class="ele-icon" />
-      <CharImage v-if="value" :id="value.id" :size="small ? 80 : 106" class="mx-auto" />
-      <v-icon v-else class="mx-auto" :size="small ? 80 : 106">mdi-plus</v-icon>
+      <CharImage v-if="value" :id="value.id" :size="xs ? 64 : small ? 80 : 106" class="mx-auto" />
+      <v-icon v-else class="mx-auto" :size="xs ? 64 : small ? 80 : 106">mdi-plus</v-icon>
       <div v-if="c13n" class="c13n-view">C{{ c13n }}</div>
+      <div v-if="selectedIndex" class="index-view">{{ selectedIndex }}</div>
     </div>
     <div v-if="lv" class="char-name" :class="{ small }">Lv.{{ lv }}</div>
     <div v-else class="char-name" :class="{ small }" v-text="value ? value.localeName : $t('ui.addChar')"></div>
@@ -20,11 +21,13 @@ import type { IAvatar } from "~/modules/core";
 export default class CharCard extends Vue {
   @Prop() value!: IAvatar;
   @Prop({ type: Boolean, default: false }) small!: boolean;
+  @Prop({ type: Boolean, default: false }) xs!: boolean;
   @Prop({ type: Boolean, default: true }) link!: boolean;
   @Prop({ type: Boolean, default: false }) inactive!: boolean;
   @Prop({ type: Number }) c13n?: number;
   @Prop({ type: Number }) lv?: number;
   @Prop({ type: String }) item?: string;
+  @Prop({ type: Number, default: 0 }) selectedIndex?: number;
 }
 </script>
 
@@ -42,6 +45,17 @@ export default class CharCard extends Vue {
     left: 0;
     bottom: 0;
     background: var(--cover);
+    border-top-right-radius: 4px;
+    color: var(--text-grey);
+    font-weight: 600;
+    padding: 3px 4px 0;
+    line-height: 1em;
+  }
+  .index-view {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #c0ff40;
     border-top-right-radius: 4px;
     color: var(--text-grey);
     font-weight: 600;

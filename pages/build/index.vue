@@ -1,16 +1,29 @@
 <template>
-  <div class="gsm-build-index">
+  <v-container class="gsm-build-index">
     <v-row>
-      <!-- 左边栏 -->
-      <v-col cols="4">
-        <div class="my-2">
-          <v-btn color="indigo" block @click="newBuild">{{ $t("ui.new") }}</v-btn>
-        </div>
+      <v-app-bar class="d-sm-none">
+        <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+
+        <v-toolbar-title v-if="selectedBuild">{{ selectedBuild.title }}</v-toolbar-title>
+
+        <v-spacer></v-spacer>
+
+        <!-- <v-btn icon>
+          <v-icon>mdi-magnify</v-icon>
+        </v-btn> -->
+      </v-app-bar>
+      <v-col cols="4" class="d-none d-sm-block">
         <v-card>
           <v-list>
             <v-list-item>
               <v-list-item-content>
-                <v-list-item-title class="title">{{ $t("ui.myBuilds") }}</v-list-item-title>
+                <v-list-item-title class="title d-flex">
+                  <div class="d-flex align-center">
+                    {{ $t("ui.myBuilds") }}
+                  </div>
+                  <v-spacer />
+                  <v-btn type="primary" @click="newBuild">{{ $t("ui.new") }}</v-btn>
+                </v-list-item-title>
               </v-list-item-content>
             </v-list-item>
             <v-divider></v-divider>
@@ -32,9 +45,29 @@
                     <v-icon size="12" class="mr-1">{{ selectedBuild && bd.id === selectedBuild.id ? "mdi-rhombus" : "mdi-rhombus-outline" }}</v-icon>
                     {{ bd.title || $t("ui.untitled") }}
                     <v-spacer />
-                    <v-btn v-if="selectedBuild && bd.id === selectedBuild.id" icon small :to="`/build/${bd.id}`">
-                      <v-icon size="16">mdi-pencil</v-icon>
-                    </v-btn>
+                    <template v-if="selectedBuild && bd.id === selectedBuild.id">
+                      <v-dialog v-model="removeBuildDialog" width="500">
+                        <v-card>
+                          <v-card-title class="headline">{{ $t("ui.alertTitle") }}</v-card-title>
+
+                          <v-card-text>{{ $t("ui.removeBuildTip") }}</v-card-text>
+
+                          <v-divider></v-divider>
+
+                          <v-card-actions>
+                            <v-spacer></v-spacer>
+                            <v-btn text @click="removeBuildDialog = false">{{ $t("ui.cancel") }}</v-btn>
+                            <v-btn color="primary" text @click="confirmRemoveBuild">{{ $t("ui.confirm") }}</v-btn>
+                          </v-card-actions>
+                        </v-card>
+                      </v-dialog>
+                      <v-btn icon small @click="removeBuildDialog = toRemoveBuild = selectedBuild.id">
+                        <v-icon color="red darken-3">mdi-delete</v-icon>
+                      </v-btn>
+                      <v-btn icon small :to="`/build/${bd.id}`">
+                        <v-icon size="16">mdi-pencil</v-icon>
+                      </v-btn>
+                    </template>
                   </v-list-item-title>
                 </v-list-item-content>
               </v-list-item>
@@ -42,118 +75,107 @@
           </v-list>
         </v-card>
       </v-col>
-      <!-- 主内容 -->
-      <v-col cols="8">
-        <v-card v-if="selectedBuild">
-          <v-card-title class="headline">
-            <v-text-field v-if="editTitle" v-model="selectedBuild.title" autofocus />
-            <v-btn
-              v-if="editTitle"
-              icon
-              @click="
-                editTitle = false;
-                commitEdit();
-              "
+      <!-- 选择 -->
+      <v-navigation-drawer v-model="drawer" absolute bottom temporary>
+        <v-list>
+          <v-list-item>
+            <v-list-item-content>
+              <v-list-item-title class="title d-flex">
+                <div class="d-flex align-center">
+                  {{ $t("ui.myBuilds") }}
+                </div>
+                <v-spacer />
+                <v-btn type="primary" @click="newBuild">{{ $t("ui.new") }}</v-btn>
+              </v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+          <v-divider></v-divider>
+          <v-list dense nav>
+            <v-list-item v-if="!userBuilds || !userBuilds.length">
+              <v-list-item-content>
+                <v-list-item-title>{{ $t("ui.thereIsNothing") }}</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+            <v-list-item
+              v-for="bd in userBuilds"
+              :key="bd.id"
+              class="build-list-item"
+              :class="{ active: selectedBuild && bd.id === selectedBuild.id }"
+              @click="selectBuild(bd)"
             >
-              <v-icon>mdi-check</v-icon>
-            </v-btn>
-            <v-btn v-if="editTitle" icon @click="editTitle = false">
-              <v-icon>mdi-close</v-icon>
-            </v-btn>
-            <div v-if="!editTitle" class="title-editable" @click="editTitle = true">
-              {{ selectedBuild.title || $t("ui.untitled") }}
-            </div>
-          </v-card-title>
-          <v-card-text>
-            <div class="avatars-container d-flex">
-              <CharCard v-for="(char, index) in avatars" :key="index" class="mx-1" :value="char" :link="false" @click="selectedCharSlot = index" />
-            </div>
-            <!-- 弹出:选择角色 -->
-            <v-overlay v-if="false" :value="selectedCharSlot >= 0" transition="scroll-y-reverse-transition">
-              <v-card v-if="selectedAvatar" class="avatar-level-edit">
-                <v-card-title class="headline">
-                  <v-btn icon @click="selectedCharSlot = -1">
-                    <v-icon>mdi-arrow-left</v-icon>
-                  </v-btn>
-                  <CharImage :id="selectedAvatarId" avatar />
-                  {{ avatars[selectedAvatarId].localeName }}
+              <v-list-item-content>
+                <v-list-item-title class="d-flex align-center">
+                  <v-icon size="12" class="mr-1">{{ selectedBuild && bd.id === selectedBuild.id ? "mdi-rhombus" : "mdi-rhombus-outline" }}</v-icon>
+                  {{ bd.title || $t("ui.untitled") }}
                   <v-spacer />
-                  <v-btn icon @click="removeUserAvatar({ id: selectedAvatarId })">
-                    <v-icon color="red darken-3">mdi-delete</v-icon>
-                  </v-btn>
-                  <v-slide-x-transition>
-                    <v-btn v-if="avatarChanged" icon @click="editUserAvatar(selectedAvatar)">
-                      <v-icon>mdi-check</v-icon>
+                  <template v-if="selectedBuild && bd.id === selectedBuild.id">
+                    <v-dialog v-model="removeBuildDialog" width="500">
+                      <v-card>
+                        <v-card-title class="headline">{{ $t("ui.alertTitle") }}</v-card-title>
+
+                        <v-card-text>{{ $t("ui.removeBuildTip") }}</v-card-text>
+
+                        <v-divider></v-divider>
+
+                        <v-card-actions>
+                          <v-spacer></v-spacer>
+                          <v-btn text @click="removeBuildDialog = false">{{ $t("ui.cancel") }}</v-btn>
+                          <v-btn color="primary" text @click="confirmRemoveBuild">{{ $t("ui.confirm") }}</v-btn>
+                        </v-card-actions>
+                      </v-card>
+                    </v-dialog>
+                    <v-btn icon small @click="removeBuildDialog = toRemoveBuild = selectedBuild.id">
+                      <v-icon color="red darken-3">mdi-delete</v-icon>
                     </v-btn>
-                  </v-slide-x-transition>
-                  <v-btn icon @click="selectedAvatarId = ''">
-                    <v-icon>mdi-close</v-icon>
-                  </v-btn>
-                </v-card-title>
-                <v-card-text>
-                  <div class="main-level">
-                    <C13nLevel v-model="selectedAvatar.talentLevel" class="mb-1" />
-                    <PromoteLevel v-model="selectedAvatar.promoteLevel" />
-                    <v-slider
-                      v-model="selectedAvatar.level"
-                      :label="$t('ui.level', [selectedAvatar.level])"
-                      :min="minLvl(selectedAvatar.promoteLevel)"
-                      :max="maxLvl(selectedAvatar.promoteLevel)"
-                      hide-details
-                    />
-                  </div>
-                  <div class="skill-level">
-                    <div class="skill-level__input">
-                      <input v-model="selectedAvatar.attackLevel" type="number" :min="1" :max="10" />
-                      <span>{{ $t("ui.attackSkill") }}</span>
-                    </div>
-                    <div class="skill-level__input">
-                      <input v-model="selectedAvatar.eLevel" type="number" :min="1" :max="10" />
-                      <span>{{ $t("ui.elemSkill") }}</span>
-                    </div>
-                    <div class="skill-level__input">
-                      <input v-model="selectedAvatar.qLevel" type="number" :min="1" :max="10" />
-                      <span>{{ $t("ui.elemBurst") }}</span>
-                    </div>
-                  </div>
-                  <v-card-text align="center">{{ $t("ui.skillLevelDesc") }}</v-card-text>
-                </v-card-text>
-              </v-card>
-              <v-card v-else class="avatar-level-edit" flat>
-                <v-card-title class="py-0">
-                  <CharImage :id="selectedAvatarId" avatar :size="48" />
-                  <v-card flat>
-                    <v-card-title class="headline">
-                      <span class="name mr-2">{{ avatars[selectedAvatarId].localeName }}</span>
-                    </v-card-title>
-                    <v-card-subtitle>
-                      <Rarity :value="avatars[selectedAvatarId].rarity" />
-                    </v-card-subtitle>
-                  </v-card>
-                  <v-spacer />
-                  <v-btn icon @click="selectedAvatarId = ''">
-                    <v-icon>mdi-close</v-icon>
-                  </v-btn>
-                </v-card-title>
-                <v-card-actions>
-                  <v-btn block @click="addDefaultAvatar(selectedAvatarId)">
-                    <v-icon>mdi-lock-open</v-icon>
-                    {{ $t("ui.unlock") }}
-                  </v-btn>
-                </v-card-actions>
-              </v-card>
-            </v-overlay>
-            {{ selectedBuild }}
+                    <v-btn icon small :to="`/build/${bd.id}`">
+                      <v-icon size="16">mdi-pencil</v-icon>
+                    </v-btn>
+                  </template>
+                </v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+          </v-list>
+        </v-list>
+      </v-navigation-drawer>
+
+      <!-- 主内容 -->
+      <v-col cols="12" sm="8">
+        <v-card v-if="selectedBuild" flat>
+          <v-card-title class="headline">{{ $t("ui.preview") }}</v-card-title>
+          <v-card-text>
+            <div class="avatars-container">
+              <CharCard v-for="(char, index) in selectedBuild.avatars" :key="index" class="mx-1" :value="char" :link="false" />
+            </div>
           </v-card-text>
+          <v-divider v-if="selectedBuild.desc" />
+          <v-card-text v-if="selectedBuild.desc">
+            {{ selectedBuild.desc }}
+          </v-card-text>
+          <v-divider />
+          <v-card-actions>
+            <v-btn :to="`/build/${selectedBuild.id}`">{{ $t("ui.edit") }}</v-btn>
+            <v-btn @click="removeBuildDialog = toRemoveBuild = selectedBuild.id">{{ $t("ui.delete") }}</v-btn>
+          </v-card-actions>
         </v-card>
+        <div v-else class="help">{{ $t("ui.pleaseSelectBuild") }}</div>
       </v-col>
     </v-row>
-  </div>
+  </v-container>
 </template>
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
-import { MeDocument, SetUserBuildDocument, SetUserBuildMutation, SetUserBuildMutationVariables, UserBuildsDocument } from "~/api/generated/graphql";
-import { IUserBuild } from "~/modules/core";
+import {
+  MeDocument,
+  RemoveUserBuildDocument,
+  RemoveUserBuildMutation,
+  RemoveUserBuildMutationVariables,
+  SetUserBuildDocument,
+  SetUserBuildMutation,
+  SetUserBuildMutationVariables,
+  UserBuildsDocument,
+  UserBuildsQuery,
+} from "~/api/generated/graphql";
+import { IAvatar, IUserBuild } from "~/modules/core";
 
 @Component<Page>({
   // set html header
@@ -161,6 +183,13 @@ import { IUserBuild } from "~/modules/core";
     // Set Meta Tags for this Page
     const title = this.$t("title.sub", [this.$t("navigate.build")]) as string;
     return { title };
+  },
+  // server
+  async asyncData({ $content, app }) {
+    const rst: Partial<Page> = { avatarData: {} };
+    const res = await $content(app.i18n.locale, "char").only(["id", "name", "localeName", "element", "rarity", "weapon"]).fetch<IAvatar>().catch(console.error);
+    if (Array.isArray(res)) rst.avatarData = res.reduce<{ [x: string]: IAvatar }>((r, v) => (r[v.id] = v) && r, {});
+    return rst;
   },
   apollo: {
     me: MeDocument,
@@ -170,10 +199,36 @@ import { IUserBuild } from "~/modules/core";
 export default class Page extends Vue {
   selectedBuild: IUserBuild | null = null;
   editTitle = false;
-  selectedCharSlot = -1;
+  avatarData: { [x: string]: IAvatar } = {};
 
+  removeBuildDialog = false;
+  toRemoveBuild = "";
+  drawer = false;
+
+  /// ==== mutation ====
   setUserBuild(variables: SetUserBuildMutationVariables) {
     return this.$apollo.mutate<SetUserBuildMutation>({ mutation: SetUserBuildDocument, variables, refetchQueries: ["UserBuilds"] });
+  }
+
+  removeUserBuild(variables: RemoveUserBuildMutationVariables) {
+    return this.$apollo.mutate<RemoveUserBuildMutation>({
+      mutation: RemoveUserBuildDocument,
+      variables,
+      update: (cache, { data }) => {
+        if (!data) return;
+        const builds = cache.readQuery({ query: UserBuildsDocument }) as UserBuildsQuery;
+        builds.userBuilds = builds.userBuilds.filter(v => v.id !== data.removeUserBuild.id);
+        cache.writeQuery({ query: UserBuildsDocument, data: builds });
+      },
+    });
+  }
+
+  confirmRemoveBuild() {
+    if (this.toRemoveBuild) {
+      this.removeUserBuild({ id: this.toRemoveBuild });
+      this.toRemoveBuild = "";
+      this.removeBuildDialog = false;
+    }
   }
 
   newBuild() {
@@ -193,17 +248,12 @@ export default class Page extends Vue {
   }
 
   commitEdit() {
+    this.editTitle = false;
     if (!this.selectedBuild) return;
     const bd = this.selectedBuild;
     this.setUserBuild({
       data: { id: bd.id, title: bd.title, cores: bd.cores, tags: bd.tags, cover: bd.cover, desc: bd.desc, avatars: JSON.stringify(bd.avatars) },
     });
-  }
-
-  get avatars() {
-    if (!this.selectedBuild) return [];
-    const rst = this.selectedBuild.avatars;
-    return rst.concat(Array(4 - (rst ? rst.length : 0)).fill(null));
   }
 }
 </script>

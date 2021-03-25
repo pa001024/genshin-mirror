@@ -65,9 +65,7 @@
     </v-navigation-drawer>
 
     <v-main>
-      <v-container>
-        <nuxt />
-      </v-container>
+      <nuxt />
     </v-main>
 
     <!-- <v-footer app color="transparent" height="72" inset>

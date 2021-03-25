@@ -37,6 +37,14 @@ export class UserBuildResolver {
   }
 
   @Authorized()
+  @Query(() => [UserBuild])
+  /** 用户构筑 */
+  async userBuild(@Ctx() ctx: JWTContext, @Arg("id") id: string) {
+    const build = await UserBuildModel.find({ author: ctx.user.uid, _id: id });
+    return build;
+  }
+
+  @Authorized()
   @Mutation(() => UserBuild)
   async setUserBuild(@Ctx() ctx: JWTContext, @Arg("data") data: UserBuildInput) {
     const build = await UserBuildModel.findOne({ author: ctx.user.uid, _id: data.id });
@@ -69,7 +77,7 @@ export class UserBuildResolver {
   @Authorized()
   @Mutation(() => UserBuild)
   async removeUserBuild(@Ctx() ctx: JWTContext, @Arg("id") id: string) {
-    const item = await UserBuildModel.findOneAndDelete({ owner: ctx.user.uid, buildId: id });
+    const item = await UserBuildModel.findOneAndDelete({ author: ctx.user.uid, _id: id });
     return item;
   }
 

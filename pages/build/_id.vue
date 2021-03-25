@@ -5,18 +5,14 @@
 </template>
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
+import { MeDocument, UserBuildsDocument } from "~/api/generated/graphql";
 import type { IArtifactSet, IArtifactType, IUserAvatar } from "~/modules/core";
 
 @Component<Page>({
   // server
   async asyncData({ params: { id }, $content, app }) {
     const rst: Partial<Page> = { id, artifactTypes: [], artifactSets: [], title: "", avatars: [] };
-    // 构筑信息
-    const res = await app.$axios.get("/api/build").catch(console.error);
-    if (res) {
-      rst.title = res.data.title;
-      rst.avatars = res.data.avatars;
-    }
+
     const relic = await $content(app.i18n.locale, "relic").fetch<IArtifactType>().catch(console.error);
     if (Array.isArray(relic)) {
       rst.artifactTypes = relic;
@@ -32,6 +28,10 @@ import type { IArtifactSet, IArtifactType, IUserAvatar } from "~/modules/core";
     // Set Meta Tags for this Page
     const title = this.$t("title.sub", [this.title || this.$t("ui.untitledBuild")]) as string;
     return { title };
+  },
+  apollo: {
+    me: MeDocument,
+    userBuilds: UserBuildsDocument,
   },
 })
 export default class Page extends Vue {

@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto artifact-index">
+  <v-container class="artifact-index">
     <v-row>
       <v-col :sm="6" :md="4" :lg="2" class="tool-section" to="/set">
         <v-card class="role-section py-4" to="/artifact/set">
@@ -15,7 +15,7 @@
     <v-row class="ma-2">
       <nuxt-link to="/artifact/0KwsDKB0J43NA1gC2l">test</nuxt-link>
     </v-row>
-  </div>
+  </v-container>
 </template>
 
 <script lang="ts">

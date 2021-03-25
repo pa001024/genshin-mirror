@@ -1,5 +1,12 @@
 <template>
-  <v-card class="item-card" :class="{ inactive }" :flat="icon" :to="link ? '/item/' + value.id : void 0" @click="$emit('click', $event)">
+  <v-card
+    class="item-card"
+    :class="{ inactive }"
+    :title="value.localeName"
+    :flat="icon"
+    :to="link ? '/item/' + value.id : void 0"
+    @click="$emit('click', $event)"
+  >
     <div :class="['rarity-' + (value.rarity || 0), !icon && 'item-avatar', small && 'small']" :style="{ height: size + 'px' }">
       <ItemImage :id="value.id" :size="size" class="mx-auto" />
     </div>

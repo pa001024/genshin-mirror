@@ -356,7 +356,7 @@ export interface IUserBuild {
   /** 标签 */ tags?: string[];
   /** 封面图片地址 */ cover?: string;
   /** 描述 */ desc?: string;
-  /** 角色 */ avatars: IUserAvatar[];
+  /** 角色 */ avatars: (IUserAvatar | null)[];
 }
 
 export interface IDungeon {
