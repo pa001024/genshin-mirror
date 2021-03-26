@@ -1,5 +1,5 @@
 <template>
-  <div v-if="data" class="gsm-item">
+  <v-container v-if="data" class="gsm-item">
     <v-card max-width="560" class="mx-auto">
       <v-card-title>
         <v-list-item two-line>
@@ -33,7 +33,7 @@
         </v-card-text>
       </v-card-text>
     </v-card>
-  </div>
+  </v-container>
   <div v-else class="error">{{ $t("ui.item404") }}</div>
 </template>
 

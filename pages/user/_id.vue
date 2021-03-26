@@ -1,5 +1,5 @@
 <template>
-  <div v-if="data && weapon" class="gsm-user">
+  <v-container v-if="data && weapon" class="gsm-user">
     <v-card max-width="560" class="mx-auto">
       <v-card-title>
         <v-list-item two-line>
@@ -73,7 +73,7 @@
         <v-card-text v-text="data.desc" />
       </v-card-text>
     </v-card>
-  </div>
+  </v-container>
   <div v-else class="error">{{ $t("ui.notFound") }}</div>
 </template>
 

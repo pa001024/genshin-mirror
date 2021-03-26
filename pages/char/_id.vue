@@ -1,5 +1,5 @@
 <template>
-  <div v-if="data && char" class="gsm-avatar d-lg-flex">
+  <v-container v-if="data && char" class="gsm-avatar d-lg-flex">
     <!-- 角色主体 -->
     <v-card max-width="560" min-width="360" class="mx-auto">
       <v-card-title>
@@ -209,7 +209,7 @@
         </v-tabs-items>
       </v-card>
     </div>
-  </div>
+  </v-container>
   <div v-else class="error">{{ $t("ui.char404") }}</div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <div v-if="data" class="gsm-enemy">
+  <v-container v-if="data" class="gsm-enemy">
     <v-card max-width="560" class="mx-auto">
       <v-card-title>
         <v-list-item two-line class="mt-2">
@@ -72,7 +72,7 @@
         </v-list>
       </v-card-text>
     </v-card>
-  </div>
+  </v-container>
   <div v-else class="error">{{ $t("ui.enemy404") }}</div>
 </template>
 
