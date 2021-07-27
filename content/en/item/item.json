@@ -45,11 +45,11 @@
     "id": "ElectroSigil",
     "name": "Electro Sigil",
     "localeName": "Electro Sigil",
-    "desc": "A token of recognition and appreciation that can be found around Mondstadt. Can be exchanged for rare items in the shop.",
+    "desc": "A sigil that serves as a sign of the acknowledgment given by the thundering islands of Inazuma.\nOffer them to the Sacred Sakura of the Grand Narukami Shrine to raise your Sacred Sakura's Favor level.",
     "rarity": 3,
     "type": 7,
     "typeText": "City States Sigil",
-    "drop": ["Exploration Reward"]
+    "drop": ["Inazuma Exploration Reward"]
   },
   {
     "id": "AnemoSigil",
@@ -118,7 +118,7 @@
     "desc": "A berry with thorns that often gets attached to a wolf's pelt. When you look at it, you can almost hear the echoing cries of the wolves in the woods.",
     "rarity": 1,
     "type": 4,
-    "typeText": "A local specialty of Mondstadt.",
+    "typeText": "Local Specialty (Mondstadt)",
     "drop": ["Found in the wild", "Recommendation: Found in Wolvendom"]
   },
   {
@@ -128,7 +128,7 @@
     "desc": "A plump and translucent berry that has a fragrant smell and a sweet, refreshing taste. In the past, the watchers of the storms found solace in the sweetness of the fruit and the hope for the city's security.",
     "rarity": 1,
     "type": 4,
-    "typeText": "A local specialty of Mondstadt.",
+    "typeText": "Local Specialty (Mondstadt)",
     "drop": ["Found in the wild", "Recommendation: Found on Stormbearer Mountains"]
   },
   {
@@ -138,7 +138,7 @@
     "desc": "A beautiful flower with a name that suits its appearance. It only grows where harsh winds blow, and is just as intangible as the true heart of an unbound soul.",
     "rarity": 1,
     "type": 4,
-    "typeText": "A local specialty of Mondstadt.",
+    "typeText": "Local Specialty (Mondstadt)",
     "drop": ["Found in the wild", "Recommendation: Found on Starsnatch Cliff"]
   },
   {
@@ -148,7 +148,7 @@
     "desc": "A plant that adores the wind. To the proud children of the wind, or the citizens of Mondstadt, the Windwheel Asters are \"the visible winds.\"",
     "rarity": 1,
     "type": 4,
-    "typeText": "A local specialty of Mondstadt.",
+    "typeText": "Local Specialty (Mondstadt)",
     "drop": ["Found near the Statue of The Seven at Windrise", "Found under trees in the wild", "Recommendation: Found in Stormterror's Lair"]
   },
   {
@@ -158,7 +158,7 @@
     "desc": "A fungus that grows in the warm caress of the wind. It is as everlasting as the wind, nourishing life.",
     "rarity": 1,
     "type": 4,
-    "typeText": "A local specialty of Mondstadt.",
+    "typeText": "Local Specialty (Mondstadt)",
     "drop": ["Found under the eaves of houses"]
   },
   {
@@ -178,7 +178,7 @@
     "desc": "A spicy plant native to Liyue. Merely smelling it makes one hot and thirsty.",
     "rarity": 1,
     "type": 4,
-    "typeText": "A local specialty of Liyue.",
+    "typeText": "Local Specialty (Liyue)",
     "drop": ["Found in the wild", "Recommendation: Found in Qingce Village"]
   },
   {
@@ -188,7 +188,7 @@
     "desc": "A rare mineral that glimmers in the dark. It's said to be a mutated gemstone condensed from the flourishing elements of the world.",
     "rarity": 1,
     "type": 4,
-    "typeText": "A local specialty of Liyue.",
+    "typeText": "Local Specialty (Liyue)",
     "drop": ["Found in caves in Liyue", "Recommendation: Found in Mingyun Village"]
   },
   {
@@ -198,7 +198,7 @@
     "desc": "A crimson flower that blooms like the rainbow clouds in Liyue. It can be made into silky-smooth fabric.",
     "rarity": 1,
     "type": 4,
-    "typeText": "A local specialty of Liyue.",
+    "typeText": "Local Specialty (Liyue)",
     "drop": ["Found near Yujing Terrace, Liyue Harbor", "Found near Wangshu Inn", "Recommendation: Found in Liyue Harbor"]
   },
   {
@@ -208,7 +208,7 @@
     "desc": "An extremely ancient flower that was said to be commonly seen in Liyue. It transforms the memories of the land into its fragrance during florescence.",
     "rarity": 1,
     "type": 4,
-    "typeText": "A local specialty of Liyue.",
+    "typeText": "Local Specialty (Liyue)",
     "drop": ["Found in the wild", "Recommendation: Found in Yujing Terrace, Liyue Harbor", "Recommendation: Found in Qingce Village"]
   },
   {
@@ -218,7 +218,7 @@
     "desc": "A translucent white flower that only grows on the highest stone peaks. It eschews the warmth and moisture of the plains to gaze out afar from the solitary mountaintops.",
     "rarity": 1,
     "type": 4,
-    "typeText": "A local specialty of Liyue.",
+    "typeText": "Local Specialty (Liyue)",
     "drop": ["Found in the heights of stone forests", "Recommendation: Found in Jueyun Karst", "Recommendation: Found in Guyun Stone Forest"]
   },
   {
@@ -231,16 +231,7 @@
     "typeText": "Material",
     "drop": ["Found in patches of Silvergrass and wetlands", "Recommendation: Found in Dihua Marsh"]
   },
-  {
-    "id": "Starconch",
-    "name": "Starconch",
-    "localeName": "Starconch",
-    "desc": "Empty seashells brought ashore by the tides. Hold it close to your ear, and hear the longing calls of the sea.",
-    "rarity": 1,
-    "type": 4,
-    "typeText": "A local specialty of Liyue.",
-    "drop": ["Found on the beaches of Liyue"]
-  },
+  { "id": "Starconch", "name": "Starconch", "localeName": "Starconch", "desc": "Empty seashells brought ashore by the tides. Hold it close to your ear, and hear the longing calls of the sea.", "rarity": 1, "type": 4, "typeText": "Local Specialty (Liyue)", "drop": ["Found on the beaches of Liyue"] },
   {
     "id": "Violetgrass",
     "name": "Violetgrass",
@@ -248,7 +239,7 @@
     "desc": "A small flower with strong vitality. It is said that its downward-blooming flower keeps its fragrance from dissipating.",
     "rarity": 1,
     "type": 4,
-    "typeText": "A local specialty of Liyue.",
+    "typeText": "Local Specialty (Liyue)",
     "drop": ["Found near cliffs in Liyue"]
   },
   { "id": "Berry", "name": "Berry", "localeName": "Berry", "desc": "Small, brightly-colored fruit. They can be found everywhere, and the taste of them wipes the fatigue of a long journey away.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Found in the wild"] },
@@ -289,7 +280,7 @@
     "desc": "A wild grass that emits light at night. Used in cooking to enhance other flavors.",
     "rarity": 1,
     "type": 4,
-    "typeText": "A local specialty of Mondstadt.",
+    "typeText": "Local Specialty (Mondstadt)",
     "drop": ["Found in the wild at night", "Recommendation: Found in Wolvendom", "Recommendation: Found in the Whispering Woods"]
   },
   {
@@ -299,7 +290,7 @@
     "desc": "A flower that grows near water sources. When cooked, the petals have a chunky texture, yet are sweet and a little bitter.",
     "rarity": 1,
     "type": 4,
-    "typeText": "A local specialty of Mondstadt.",
+    "typeText": "Local Specialty (Mondstadt)",
     "drop": ["Found near lakes", "Recommendation: Found in Springvale"]
   },
   {
@@ -309,7 +300,7 @@
     "desc": "A tiny seed that rides on the wind. Even without its feathered wings, it still holds the hope from afar within.",
     "rarity": 1,
     "type": 4,
-    "typeText": "A local specialty of Mondstadt.",
+    "typeText": "Local Specialty (Mondstadt)",
     "drop": ["Found in the wild", "Recommendation: Found at Mondstadt gates"]
   },
   {
@@ -319,7 +310,7 @@
     "desc": "A precious crystal of condensed pure Geo element that usually grows along with other minerals. It's also commonly called \"Cor Petrae.\"",
     "rarity": 1,
     "type": 4,
-    "typeText": "A local specialty of Liyue.",
+    "typeText": "Local Specialty (Liyue)",
     "drop": ["Found under cliffs in Liyue", "Recommendation: Found on Mt. Hulao"]
   },
   { "id": "RawMeat", "name": "Raw Meat", "localeName": "Raw Meat", "desc": "A fresh chunk of meat. Handled properly, it can be used to make delicious food.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Dropped by animals"] },
@@ -385,7 +376,7 @@
     "typeText": "Cooking Ingredient",
     "drop": ["Dropped by animals"]
   },
-  { "id": "IronChunk", "name": "Iron Chunk", "localeName": "Iron Chunk", "desc": "This iron chunk can be turned into a multitude of handy items in the hands of a skilled craftsman.", "rarity": 1, "type": 4, "typeText": "Material", "drop": ["Found in the wild"] },
+  { "id": "IronChunk", "name": "Iron Chunk", "localeName": "Iron Chunk", "desc": "This iron chunk can be turned into a multitude of handy items in the hands of a skilled craftsman.", "rarity": 1, "type": 4, "typeText": "Forging Ore", "drop": ["Found in the wild"] },
   {
     "id": "WhiteIronChunk",
     "name": "White Iron Chunk",
@@ -393,10 +384,19 @@
     "desc": "Skilled hands can make this into something brilliant.",
     "rarity": 1,
     "type": 4,
-    "typeText": "Material",
+    "typeText": "Forging Ore",
     "drop": ["Found in the wild", "Recommendation: Found on Stormbearer Mountains", "Recommendation: Found in Wolvendom"]
   },
-  { "id": "CrystalChunk", "name": "Crystal Chunk", "localeName": "Crystal Chunk", "desc": "An uncut crystal. Only professional craftsmanship can bring out its true value.", "rarity": 1, "type": 4, "typeText": "Material", "drop": ["Found in the wild", "Recommendation: Found in Stormterror's Lair"] },
+  {
+    "id": "CrystalChunk",
+    "name": "Crystal Chunk",
+    "localeName": "Crystal Chunk",
+    "desc": "An uncut crystal. Only professional craftsmanship can bring out its true value.",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "Forging Ore",
+    "drop": ["Found in the wild", "Recommendation: Found in Stormterror's Lair"]
+  },
   {
     "id": "MagicalCrystalChunk",
     "name": "Magical Crystal Chunk",
@@ -404,11 +404,12 @@
     "desc": "These crystal chunks can be refined into Weapon EXP materials by using Original Resin.\nCrystals from mines that were eroded by the energy of the Ley Lines cannot be processed by ordinary means.",
     "rarity": 1,
     "type": 4,
-    "typeText": "Material",
+    "typeText": "Forging Ore",
     "drop": ["Found in the wild"]
   },
   { "id": "ScarletQuartz", "name": "Scarlet Quartz", "localeName": "Scarlet Quartz", "desc": "Scarlet Quartz", "rarity": 1, "type": 7, "typeText": "Dragon Blood Buff", "drop": ["Found in the wild"] },
-  { "id": "Starsilver", "name": "Starsilver", "localeName": "Starsilver", "desc": "A rare and precious ore formed by the unique geographical conditions and Ley Lines of Dragonspine.", "rarity": 1, "type": 4, "typeText": "Material", "drop": ["Found in the wild"] },
+  { "id": "Starsilver", "name": "Starsilver", "localeName": "Starsilver", "desc": "A rare and precious ore formed by the unique geographical conditions and Ley Lines of Dragonspine.", "rarity": 1, "type": 4, "typeText": "Forging Ore", "drop": ["Found in the wild"] },
+  { "id": "AmethystLump", "name": "Amethyst Lump", "localeName": "Amethyst Lump", "desc": "An uncut crystal that can only be found in Inazuma. Some professional craftsmanship will bring out its true value.", "rarity": 1, "type": 4, "typeText": "Forging Ore", "drop": ["Found in the wild"] },
   {
     "id": "NorthlanderSwordBillet",
     "name": "Northlander Sword Billet",
@@ -460,15 +461,58 @@
     "drop": ["Dropped by bosses"]
   },
   {
+    "id": "Onikabuto",
+    "name": "Onikabuto",
+    "localeName": "Onikabuto",
+    "desc": "A strange beetle that inhabits areas rich with Electro energy. Its docile and sedentary temperament could not be more different from the fierce, demonic visage displayed on its armored shell.",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "Local Specialty (Inazuma)",
+    "drop": ["Found in the wild"]
+  },
+  { "id": "SakuraBloom", "name": "Sakura Bloom", "localeName": "Sakura Bloom", "desc": "Blossoms from the Sacred Sakura at the Grand Narukami Shrine, filled with a fondness for Inazuma.", "rarity": 1, "type": 4, "typeText": "Local Specialty (Inazuma)", "drop": ["Found in the wild"] },
+  {
+    "id": "CrystalMarrow",
+    "name": "Crystal Marrow",
+    "localeName": "Crystal Marrow",
+    "desc": "A crystal that contains a sliver of Tatarigami power. Adding this material during smelting will greatly increase the strength and toughness of metals.",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "Local Specialty (Inazuma)",
+    "drop": ["Found in the wild"]
+  },
+  {
+    "id": "Dendrobium",
+    "name": "Dendrobium",
+    "localeName": "Dendrobium",
+    "desc": "A vibrant plant that has also been named the \"lycoris\" by the poets. It was once thought extinct in the Inazuman archipelago, only to re-emerge now upon the battlefields. It is said that it blooms most enchantingly where much blood was spilled.",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "Local Specialty (Inazuma)",
+    "drop": ["Found in the wild"]
+  },
+  {
+    "id": "NakuWeed",
+    "name": "Naku Weed",
+    "localeName": "Naku Weed",
+    "desc": "Even on windless days, this plant will tremble lightly amid the cries of thunder. The part of it that resembles petals are in fact extensions of the leaves meant to protect the fragile flower.",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "Local Specialty (Inazuma)",
+    "drop": ["Found in the wild"]
+  },
+  {
     "id": "SeaGanoderma",
     "name": "Sea Ganoderma",
     "localeName": "Sea Ganoderma",
     "desc": "A plant species that only grows in certain regions and islands of the ocean. Though it looks like a fungus of some sort, it actually comes from a substance secreted by certain soft-bodied organisms.",
     "rarity": 1,
     "type": 4,
-    "typeText": "Regional Specialty",
+    "typeText": "Local Specialty (Inazuma)",
     "drop": ["Found in the wild"]
   },
+  { "id": "Seagrass", "name": "Seagrass", "localeName": "Seagrass", "desc": "A plant that grows in shallow seas. It adds a unique flavor to dishes.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Found in the wild"] },
+  { "id": "LavenderMelon", "name": "Lavender Melon", "localeName": "Lavender Melon", "desc": "A brightly-colored fruit. The flesh within transforms into food with a unique mouthfeel when cooked.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Found in the wild"] },
   { "id": "Fabric", "name": "Fabric", "localeName": "Fabric", "desc": "Some fabric of fine make. It will surely be of use in making furnishings.", "rarity": 1, "type": 4, "typeText": "Material" },
   { "id": "RedDye", "name": "Red Dye", "localeName": "Red Dye", "desc": "Red dye. It will surely be of use in making furnishings.", "rarity": 1, "type": 4, "typeText": "Material" },
   { "id": "YellowDye", "name": "Yellow Dye", "localeName": "Yellow Dye", "desc": "Yellow dye. It will surely be of use in making furnishings.", "rarity": 1, "type": 4, "typeText": "Material" },
@@ -504,7 +548,16 @@
   { "id": "BrilliantDiamondFragment", "name": "Brilliant Diamond Fragment", "localeName": "Brilliant Diamond Fragment", "desc": "Character Ascension material.\n\"Welcome to this world.\"", "rarity": 3, "type": 1, "typeText": "Character Level-Up Material", "drop": ["Adventure Rank Reward"] },
   { "id": "BrilliantDiamondChunk", "name": "Brilliant Diamond Chunk", "localeName": "Brilliant Diamond Chunk", "desc": "Character Ascension material.\n\"Welcome to this world.\"", "rarity": 4, "type": 1, "typeText": "Character Level-Up Material", "drop": ["Adventure Rank Reward"] },
   { "id": "BrilliantDiamondGemstone", "name": "Brilliant Diamond Gemstone", "localeName": "Brilliant Diamond Gemstone", "desc": "Character Ascension material.\n\"Welcome to this world.\"", "rarity": 5, "type": 1, "typeText": "Character Level-Up Material", "drop": ["Adventure Rank Reward"] },
-  { "id": "AgnidusAgateSliver", "name": "Agnidus Agate Sliver", "localeName": "Agnidus Agate Sliver", "desc": "Character Ascension Material.", "rarity": 2, "type": 1, "typeText": "Character Level-Up Material", "drop": ["Dropped by Pyro Regisvines", "Purchase from the Souvenir Shop"] },
+  {
+    "id": "AgnidusAgateSliver",
+    "name": "Agnidus Agate Sliver",
+    "localeName": "Agnidus Agate Sliver",
+    "desc": "Character Ascension Material.",
+    "rarity": 2,
+    "type": 1,
+    "typeText": "Character Level-Up Material",
+    "drop": ["Dropped by Pyro Regisvines", "Dropped by Pyro Hypostases", "Purchase from the Souvenir Shop"]
+  },
   {
     "id": "AgnidusAgateFragment",
     "name": "Agnidus Agate Fragment",
@@ -513,7 +566,7 @@
     "rarity": 3,
     "type": 1,
     "typeText": "Character Level-Up Material",
-    "drop": ["Dropped by Lv. 40+ Pyro Regisvines", "Crafted"]
+    "drop": ["Dropped by Lv. 40+ Pyro Regisvines", "Dropped by Lv. 40+ Pyro Hypostases", "Crafted"]
   },
   {
     "id": "AgnidusAgateChunk",
@@ -523,7 +576,7 @@
     "rarity": 4,
     "type": 1,
     "typeText": "Character Level-Up Material",
-    "drop": ["Dropped by Lv. 60+ Pyro Regisvines", "Crafted"]
+    "drop": ["Dropped by Lv. 60+ Pyro Regisvines", "Dropped by Lv. 60+ Pyro Hypostases", "Crafted"]
   },
   {
     "id": "AgnidusAgateGemstone",
@@ -533,7 +586,7 @@
     "rarity": 5,
     "type": 1,
     "typeText": "Character Level-Up Material",
-    "drop": ["Dropped by Lv. 75+ Pyro Regisvines", "Crafted"]
+    "drop": ["Dropped by Lv. 75+ Pyro Regisvines", "Dropped by Lv. 75+ Pyro Hypostases", "Crafted"]
   },
   { "id": "VarunadaLazuriteSliver", "name": "Varunada Lazurite Sliver", "localeName": "Varunada Lazurite Sliver", "desc": "Character Ascension Material.", "rarity": 2, "type": 1, "typeText": "Character Level-Up Material", "drop": ["Dropped by Oceanids", "Purchase from the Souvenir Shop"] },
   {
@@ -915,6 +968,93 @@
     "typeText": "Talent Level-Up Material",
     "drop": ["Limited-Duration Event Reward"]
   },
+  {
+    "id": "TeachingsOfTransience",
+    "name": "Teachings of Transience",
+    "localeName": "Teachings of Transience",
+    "desc": "Talent Level-Up material.\nTransience is the dream of the nation of thunder.\nFleeting glories are the highest expression of mortal beauty, for are we mortals not like the flashing lightning itself? Like a lovely dream or blossoming spark, we shall leave a gorgeous mark on the eternal night sky.",
+    "rarity": 2,
+    "type": 1,
+    "typeText": "Talent Level-Up Material"
+  },
+  {
+    "id": "GuideToTransience",
+    "name": "Guide to Transience",
+    "localeName": "Guide to Transience",
+    "desc": "Talent Level-Up material.\nTransience is the dream of the nation of thunder.\nWe find the greatest joys in mortal life in transient dreams, for is life itself not like the shadow of the thunder? Pursue your dreams into the clouds if you wish, and enjoy the unexpected silence of the dim lamp-lit nights.",
+    "rarity": 3,
+    "type": 1,
+    "typeText": "Talent Level-Up Material",
+    "drop": ["Crafted"]
+  },
+  {
+    "id": "PhilosophiesOfTransience",
+    "name": "Philosophies of Transience",
+    "localeName": "Philosophies of Transience",
+    "desc": "Talent Level-Up material.\nTransience is the dream of the nation of thunder.\nThe fleeting nature of this mortal world is the essence of beauty, for are our lives in this world not akin to the levin flash? Yet the might of the divine comes suddenly, and before the roar of eternity, who can stand?",
+    "rarity": 4,
+    "type": 1,
+    "typeText": "Talent Level-Up Material",
+    "drop": ["Crafted"]
+  },
+  {
+    "id": "TeachingsOfElegance",
+    "name": "Teachings of Elegance",
+    "localeName": "Teachings of Elegance",
+    "desc": "Talent Level-Up material.\nElegance is the form of the nation of thunder.\nElegance brooks no flattery, and the elegant are ever noble. They are like the sea eagles who soar on high to contend with the resounding storms. They will not cater to philistine vulgarity, as one would not cast a flower crown into the mud, staining its dignity.",
+    "rarity": 2,
+    "type": 1,
+    "typeText": "Talent Level-Up Material"
+  },
+  {
+    "id": "GuideToElegance",
+    "name": "Guide to Elegance",
+    "localeName": "Guide to Elegance",
+    "desc": "Talent Level-Up material.\nElegance is the form of the nation of thunder.\nElegance shuns arrogance. The elegant are ever humble, and only by discarding vanity and sloth may one see clearly — and is there not beauty and loveliness even in the basest of appearances?",
+    "rarity": 3,
+    "type": 1,
+    "typeText": "Talent Level-Up Material",
+    "drop": ["Crafted"]
+  },
+  {
+    "id": "PhilosophiesOfElegance",
+    "name": "Philosophies of Elegance",
+    "localeName": "Philosophies of Elegance",
+    "desc": "Talent Level-Up material.\nElegance is the form of the nation of thunder.\nElegance abhors vulgarity, and the elegant ever walk alone. Resisting base evils, unmoved by base loves, never taking refuge in base ignorance — that is how one perceives the chasm between the elegant and the contemptuous.",
+    "rarity": 4,
+    "type": 1,
+    "typeText": "Talent Level-Up Material",
+    "drop": ["Crafted"]
+  },
+  {
+    "id": "TeachingsOfLight",
+    "name": "Teachings of Light",
+    "localeName": "Teachings of Light",
+    "desc": "Talent Level-Up material.\nLight is the yearning of the land of thunder.\nThe ruler who claims to have perceived all forever aims to hoard celestial glory. But this vision that cannot be shared only leads people to long for it more fiercely, like moths diving into the flame.",
+    "rarity": 2,
+    "type": 1,
+    "typeText": "Talent Level-Up Material"
+  },
+  {
+    "id": "GuideToLight",
+    "name": "Guide to Light",
+    "localeName": "Guide to Light",
+    "desc": "Talent Level-Up material.\nLight is the yearning of the land of thunder.\nThough the sun rays themselves should be blocked by layers upon layers of clouds, there are still those in the thunder god's land who dream of piercing that wrathful sea of lightning to pursue the glory of the divine, fearing not that they shall be cruelly struck down.",
+    "rarity": 3,
+    "type": 1,
+    "typeText": "Talent Level-Up Material",
+    "drop": ["Crafted"]
+  },
+  {
+    "id": "PhilosophiesOfLight",
+    "name": "Philosophies of Light",
+    "localeName": "Philosophies of Light",
+    "desc": "Talent Level-Up material.\nLight is the yearning of the land of thunder.\nThough they must live forever on the earth, humanity will always reach for the light. Mortals will pursue and surpass, and they will never stop. A sealed eternity may, perhaps, look magnificent, but its essence is death.",
+    "rarity": 4,
+    "type": 1,
+    "typeText": "Talent Level-Up Material",
+    "drop": ["Crafted"]
+  },
   { "id": "TestStaminaGrowthItem", "name": "Test Stamina Growth Item", "localeName": "Test Stamina Growth Item", "desc": "Test item for increasing stamina", "rarity": 1, "type": 7, "typeText": "Consumable" },
   { "id": "TestTemporaryStaminaGrowthItem", "name": "Test Temporary stamina Growth Item", "localeName": "Test Temporary stamina Growth Item", "desc": "Test item for increasing max stamina temporarily", "rarity": 1, "type": 7, "typeText": "Consumable" },
   { "id": "ElementalDust", "name": "Elemental Dust", "localeName": "Elemental Dust", "desc": "Shattered fragments of the Oculus Crystal. Shows hidden treasure nearby.", "rarity": 1, "type": 7, "typeText": "Adventure Item" },
@@ -932,6 +1072,15 @@
     "name": "Liyue Shrine of Depths Key",
     "localeName": "Liyue Shrine of Depths Key",
     "desc": "A key that can break the seal on the ancient Shrines of Depths scattered around Liyue.\nThese Shrines of Depths sealed themselves off when the civilization that built them was lost. Keys lost deep within domains are able to break the seals. Or perhaps that, for a moment, these keys help the seals to forget all that they have lost.",
+    "rarity": 1,
+    "type": 7,
+    "typeText": "Adventure Item"
+  },
+  {
+    "id": "InazumaShrineOfDepthsKey",
+    "name": "Inazuma Shrine of Depths Key",
+    "localeName": "Inazuma Shrine of Depths Key",
+    "desc": "A key that can break the seal on the ancient Shrines of Depths scattered around Inazuma.\nThese Shrines of Depths sealed themselves off when the civilization that built them was lost. Keys lost deep within domains are able to break the seals. Or perhaps that, for a moment, these keys help the seals to forget all that they have lost.",
     "rarity": 1,
     "type": 7,
     "typeText": "Adventure Item"
@@ -1243,7 +1392,7 @@
     "id": "MushroomPizza",
     "name": "Mushroom Pizza",
     "localeName": "Mushroom Pizza",
-    "desc": "A pizza covered in cheese and mushrooms. When still warm the cheese stretches out long, making it extremely satisfying to eat.",
+    "desc": "A pizza covered in cheese and mushrooms. When still warm, the cheese becomes stretchy and gooey, making it extremely satisfying to eat.",
     "rarity": 3,
     "type": 3,
     "typeText": "Food",
@@ -1464,7 +1613,7 @@
     "id": "SuspiciousCrabHamVeggieBake",
     "name": "Suspicious Crab, Ham & Veggie Bake",
     "localeName": "Suspicious Crab, Ham & Veggie Bake",
-    "desc": "A somewhat luxurious bake. By looking at it, no-one can tell what it is made of... or what it lacks.",
+    "desc": "A somewhat luxurious bake. By looking at it, no one can tell what it is made of... or what it lacks.",
     "rarity": 3,
     "type": 2,
     "typeText": "Food",
@@ -3282,6 +3431,566 @@
     "typeText": "Food",
     "drop": ["Obtained by cooking"]
   },
+  {
+    "id": "SuspiciousTunaSushi",
+    "name": "Suspicious Tuna Sushi",
+    "localeName": "Suspicious Tuna Sushi",
+    "desc": "A traditional dish made with one's bare hands. The color of the fish slices looks a little weird, and it's hard to tell if the problem here is the sour rice or the rank fish.",
+    "rarity": 2,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "TunaSushi",
+    "name": "Tuna Sushi",
+    "localeName": "Tuna Sushi",
+    "desc": "A traditional dish made with one's bare hands. The soft and lightly-vinegared rice is matched with the fresh fish. Locals consider this a slightly luxurious treat.",
+    "rarity": 2,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousTunaSushi",
+    "name": "Delicious Tuna Sushi",
+    "localeName": "Delicious Tuna Sushi",
+    "desc": "A traditional dish made with one's bare hands. The delicate fat lines the fish slices like hoarfrost falling on a road, and the balance of fat and lean is perfect. The make of this dish is not fancy in the slightest, but has imparted both the profundity of field and sea to the tasting tongue.",
+    "rarity": 2,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousTricolorDango",
+    "name": "Suspicious Tricolor Dango",
+    "localeName": "Suspicious Tricolor Dango",
+    "desc": "A soft, glutinous snack. One suspects a lack of water used in the cooking process as the culprit in the cracks all over this dish. Don't force it down your throat, or you might just choke...",
+    "rarity": 3,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "TricolorDango",
+    "name": "Tricolor Dango",
+    "localeName": "Tricolor Dango",
+    "desc": "A soft, glutinous snack. Glutinous rice has been ground into powder and rolled into a ball before being steamed. The Sakura Bloom and Snapdragon colors lend an extra liveliness to these dango.",
+    "rarity": 3,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousTricolorDango",
+    "name": "Delicious Tricolor Dango",
+    "localeName": "Delicious Tricolor Dango",
+    "desc": "A soft, glutinous snack. The luster of these dango is like the falling morning dew, and it gives off the feeling of lush flowers and branches. When watching the flowers, eating this snack gives one a sense of happiness, as if the whole following year shall be as gorgeous as the falling flowers before them.",
+    "rarity": 3,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousOnigiri",
+    "name": "Suspicious Onigiri",
+    "localeName": "Suspicious Onigiri",
+    "desc": "A portable dish made with rice. It just about has a triangular shape, but is so loose that it threatens to disintegrate should you pick it up. Yes, disintegrate — like the expectations of your prospective guests.",
+    "rarity": 2,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "Onigiri",
+    "name": "Onigiri",
+    "localeName": "Onigiri",
+    "desc": "A portable dish made with rice. It is simple to make and remains delicious at room temperatures, which has made it very popular with civilians and soldiers alike.",
+    "rarity": 2,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousOnigiri",
+    "name": "Delicious Onigiri",
+    "localeName": "Delicious Onigiri",
+    "desc": "A portable dish made with rice. The crispy seaweed adds a bit of umami to the down-to-earth sweetness of the glutinous rice. For the final touch, the fresh fish within the Onigiri strikes like an ambushing band, and the satisfaction it brings to body and mind is like the clarion flourish of victory.",
+    "rarity": 2,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousSashimiPlatter",
+    "name": "Suspicious Sashimi Platter",
+    "localeName": "Suspicious Sashimi Platter",
+    "desc": "A seafood dish made using fresh ingredients. This has to be a practice dish. The rusty knife-work has ruined the original flavor of the ingredients, nor have the fish scales on the sashimi slices been completely cleaned off. It's... probably not too late to seek professional help...",
+    "rarity": 4,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SashimiPlatter",
+    "name": "Sashimi Platter",
+    "localeName": "Sashimi Platter",
+    "desc": "A seafood dish made using fresh ingredients. The fish and shellfish are cut into pieces and arranged neatly. The slices have an elegant and tender taste, providing rich and high-quality nutrition. The lingering sweet aftertaste is derived fully from the ingredients' freshness, and every bite is an enjoyment worth closing one's eyes and savoring.",
+    "rarity": 4,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousSashimiPlatter",
+    "name": "Delicious Sashimi Platter",
+    "localeName": "Delicious Sashimi Platter",
+    "desc": "A seafood dish made using fresh ingredients. The plate spread before you is like a work of art, almost too beautiful to shatter. The surpassing knife-work has imparted the greatest mouthfeel upon the ingredients possible. The delicate texture, the exquisite springiness, the natural sweetness... it is like something living is leaping inside your mouth — straight from the ocean and into your heart.",
+    "rarity": 4,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousTonkotsuRamen",
+    "name": "Suspicious Tonkotsu Ramen",
+    "localeName": "Suspicious Tonkotsu Ramen",
+    "desc": "A steaming-hot noodle dish. The noodles were all but forgotten amid the hubbub of preparing the accoutrements, leading to it almost turning into a paste and becoming one with the soup. Oh well, at least you can drink the whole lot to salvage it a bit.",
+    "rarity": 3,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "TonkotsuRamen",
+    "name": "Tonkotsu Ramen",
+    "localeName": "Tonkotsu Ramen",
+    "desc": "A steaming-hot noodle dish. The meat, prepared at low temperature, is laid over the noodles. Salty, fragrant, delicious soup seeps into each strand. A single bowl of these is guaranteed to restore any tired soul.",
+    "rarity": 3,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousTonkotsuRamen",
+    "name": "Delicious Tonkotsu Ramen",
+    "localeName": "Delicious Tonkotsu Ramen",
+    "desc": "A steaming-hot noodle dish. The springy noodles have absorbed the essence of the soup, and the accoutrements have added all manner of variation to the mouthfeel. The soup has preserved the strong fragrance of the bones used to make it, yet goes down gently without that greasy feeling. Before you know it, the bowl's all gone, and you've still got room for more.",
+    "rarity": 3,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousEggRoll",
+    "name": "Suspicious Egg Roll",
+    "localeName": "Suspicious Egg Roll",
+    "desc": "A fried egg dish. It looks way too soft... and what do you know, it comes apart the instant it so much as touches chopsticks. Might as well use a spoon at this point.",
+    "rarity": 1,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "EggRoll",
+    "name": "Egg Roll",
+    "localeName": "Egg Roll",
+    "desc": "A fried egg dish. Beat eggs well, season and fry them slowly in a wok, roll up into a fixed shape. Pour our egg liquid in again and continue until it has all reached a certain thickness, then get ready to plate up. This is a ordinary yet welcoming Inazuman delicacy.",
+    "rarity": 1,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousEggRoll",
+    "name": "Delicious Egg Roll",
+    "localeName": "Delicious Egg Roll",
+    "desc": "A fried egg dish. The shape of the dish as a whole, the golden color, the fluffy mouthfeel... a small piece of this may not fill your stomach, but it will fill you with warmth. Not to mention that sweetness that you can almost reach out and touch — simply irresistible.",
+    "rarity": 1,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousDryBraisedSaltedFish",
+    "name": "Suspicious Dry-Braised Salted Fish",
+    "localeName": "Suspicious Dry-Braised Salted Fish",
+    "desc": "Dried fish that has been grilled slowly over a charcoal flame. Every last droplet of moisture within the fish has been drained away, leaving behind naught but a texture that can only be compared to chewing on timber. One can barely tell the difference between fish and bones in here.",
+    "rarity": 1,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DryBraisedSaltedFish",
+    "name": "Dry-Braised Salted Fish",
+    "localeName": "Dry-Braised Salted Fish",
+    "desc": "Dried fish that has been grilled slowly over a charcoal flame. Fish air-dried overnight have a tinge of the salty sea wind and give off a tantalizing flavor when grilled. Many Inazumans who dwell near the sea know this taste well indeed.",
+    "rarity": 1,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousDryBraisedSaltedFish",
+    "name": "Delicious Dry-Braised Salted Fish",
+    "localeName": "Delicious Dry-Braised Salted Fish",
+    "desc": "Dried fish that has been grilled slowly over a charcoal flame. The rich fats ooze out as the fish meets the grill, and with those sizzling sounds, the fish is clothed in a burnished golden coat. The meat is firm but delicious, and the mouthfeel is quite delicate. Such is the unsurpassed gift of the seas.",
+    "rarity": 1,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousButterCrab",
+    "name": "Suspicious Butter Crab",
+    "localeName": "Suspicious Butter Crab",
+    "desc": "A grilled crab dish. The crab legs are still cold, and have a raw, salty flavor to them, almost as if one were being force-fed some seawater.",
+    "rarity": 4,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "ButterCrab",
+    "name": "Butter Crab",
+    "localeName": "Butter Crab",
+    "desc": "A grilled crab dish. Appropriate heat control has allowed the crab meat to stay moist and fatty. The butter has seeped into the crab meat, producing an aroma that has people salivating even from afar.",
+    "rarity": 4,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousButterCrab",
+    "name": "Delicious Butter Crab",
+    "localeName": "Delicious Butter Crab",
+    "desc": "A grilled crab dish. The butter-infused crab legs have a rich aroma that washes over the tastes buds so seductively that before you know it, you've eaten it all, and are left sipping at the dregs of butter in the crab's shell, hoping to recapture a fragment of the dish's beauty.",
+    "rarity": 4,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousTriFlavoredSkewer",
+    "name": "Suspicious Tri-Flavored Skewer",
+    "localeName": "Suspicious Tri-Flavored Skewer",
+    "desc": "A pieced-together skewer. The burnt bamboo stick and the dull-colored ingredients give off a smell that must not be named. If you were to make this out in the wild, you might just attract some hilichurls...",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "TriFlavoredSkewer",
+    "name": "Tri-Flavored Skewer",
+    "localeName": "Tri-Flavored Skewer",
+    "desc": "A pieced-together skewer. Three different cooking processes can be tasted at a go in this dish, which has made it very popular. If you are ever at a loss at to what to pair with some wine, there's no going wrong with one of these.",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousTriFlavoredSkewer",
+    "name": "Delicious Tri-Flavored Skewer",
+    "localeName": "Delicious Tri-Flavored Skewer",
+    "desc": "A pieced-together skewer. The highly-refined temperature control has released sizzling blooms of oils. The many seasonings accentuate the flavor of the various ingredients. If there was but a little less of them, it would be too plain; if a little more, too dense. This keen balance reveals the craftsman's heart within the chef.",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousMisoSoup",
+    "name": "Suspicious Miso Soup",
+    "localeName": "Suspicious Miso Soup",
+    "desc": "A simple and unadorned soup dish. The wilted seagrass, the crushed little bits of tofu, and the overly thick flavor are a real hazard to one's mood if consumed first thing in the morning.",
+    "rarity": 1,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "MisoSoup",
+    "name": "Miso Soup",
+    "localeName": "Miso Soup",
+    "desc": "A simple and unadorned soup dish. The ingredients used here are very common and it is made simply, but this small bowl of soup has the power to ensure that you shall not grow weary on your journey, even if you travel on foot.",
+    "rarity": 1,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousMisoSoup",
+    "name": "Delicious Miso Soup",
+    "localeName": "Delicious Miso Soup",
+    "desc": "A simple and unadorned soup dish. The flavorful soup gives off a leaven fragrance. One mouthful of this with rice will ensure the completeness of the entire meal.",
+    "rarity": 1,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousImportedPoultry",
+    "name": "Suspicious Imported Poultry",
+    "localeName": "Suspicious Imported Poultry",
+    "desc": "A meat dish drizzled with sauce. Nothing seems wrong here at first, but in time, you will know the tragic extent of your failings. Poultry made without trimming off some fat and oil is far too greasy to swallow, and even its combination with vegetables cannot save this dish.",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "ImportedPoultry",
+    "name": "Imported Poultry",
+    "localeName": "Imported Poultry",
+    "desc": "A meat dish drizzled with sauce. The fowl is marinated before being covered in batter and fried, and a thick sauce is drizzled over it as a finishing touch. The accompanying vegetables are local produce, but the marinating methods and sauce are all imported, hence the name \"imported poultry.\"",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousImportedPoultry",
+    "name": "Delicious Imported Poultry",
+    "localeName": "Delicious Imported Poultry",
+    "desc": "A meat dish drizzled with sauce. Having been marinated beforehand, the fowl has had several layers of flavor added to it, keeping its oiliness in perfect moderation. Bite down on that crispy, crackling flour-skin, and feel the rich juices of the fowl rush into your mouth and whet your appetite.",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousSakuraMochi",
+    "name": "Suspicious Sakura Mochi",
+    "localeName": "Suspicious Sakura Mochi",
+    "desc": "A delicate and elegant snack. Its exterior looks fair enough, but its sickening sweetness almost causes it to get stuck in your throat, leaving you with no appetite for another.",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SakuraMochi",
+    "name": "Sakura Mochi",
+    "localeName": "Sakura Mochi",
+    "desc": "A delicate and elegant snack. The dark green leaf adds complexity to the overall warm color palette. Just looking at it gives you a sense of its quiet beauty. 'Tis a shame that its lovely flavor is like a blooming flower in its transience — yet do not let that dissuade you from taking a bite.",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousSakuraMochi",
+    "name": "Delicious Sakura Mochi",
+    "localeName": "Delicious Sakura Mochi",
+    "desc": "A delicate and elegant snack. It is surrounded by the fragrance of sakura, and its elegant exterior hides a loveliness that comes forth and disappears in a single instant. In a moment when all is silent, a single taste returns you to the moment when the sakura were as a blizzard all about you.",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousKondaCuisine",
+    "name": "Suspicious Konda Cuisine",
+    "localeName": "Suspicious Konda Cuisine",
+    "desc": "Slowly stewed local cuisine. If the fowl that had not been fried beforehand could still barely be tolerated, the un-boiled lavender melon truly makes this a culinary disaster. Not only is the taste astringent, but the mix even stains your tongue to the point where someone else might think that you were being poisoned.",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "KondaCuisine",
+    "name": "Konda Cuisine",
+    "localeName": "Konda Cuisine",
+    "desc": "Slowly stewed local cuisine. Everyone in Konda Village knows how to make this dish. It originally had no name but would spread throughout Inazuma on account of its nutritious deliciousness. This eventually caused those from outside the village to give it its name — \"Konda Cuisine.\"",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousKondaCuisine",
+    "name": "Delicious Konda Cuisine",
+    "localeName": "Delicious Konda Cuisine",
+    "desc": "Slowly stewed local cuisine. Well-honed temperature control has allowed every ingredient to be cooked just right. This is it — the exact same aroma that you smell, simple yet surpassing many delicacies, when you take a stroll through Konda Village at night. Surely a village local roaming abroad would begin to miss home if they were to eat this dish so made by you.",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousRiceCakeSoup",
+    "name": "Suspicious Rice Cake Soup",
+    "localeName": "Suspicious Rice Cake Soup",
+    "desc": "Commonly-seen city cuisine. These ingredients have cooked for so long that they have gone crisp. The only way to tell the components apart is by trawling the mix, having a small spoonful, and initiating further analysis.",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "RiceCakeSoup",
+    "name": "Rice Cake Soup",
+    "localeName": "Rice Cake Soup",
+    "desc": "Commonly-seen city cuisine. The ingredients have gorged themselves on the soup, making them most enticing indeed. They say that in the first, this dish only had a scant few ingredients, but more were added as time passed, resulting in its present form.",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousRiceCakeSoup",
+    "name": "Delicious Rice Cake Soup",
+    "localeName": "Delicious Rice Cake Soup",
+    "desc": "Commonly-seen city cuisine. The freshness of light soup forms the perfect backdrop for the original flavor of the ingredients to stand out, giving you that ancient taste of Inazuma City. This back-to-basics cuisine is sure to make you feel warm inside when eaten on a snowy night as you travel alone.",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousMixedYakisoba",
+    "name": "Suspicious Mixed Yakisoba",
+    "localeName": "Suspicious Mixed Yakisoba",
+    "desc": "One of Inazuma's common household dishes. Both the noodles and the side dishes show signs of having been burned black, testament to the tragedy that must have befallen earlier.",
+    "rarity": 2,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "MixedYakisoba",
+    "name": "Mixed Yakisoba",
+    "localeName": "Mixed Yakisoba",
+    "desc": "One of Inazuma's common household dishes. One merely needs to stir-fry the noodles and side dishes evenly before serving, making this an easy-to-make and filling dish. It is no wonder, then, that this dish is so sought after among Inazumans.",
+    "rarity": 2,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousMixedYakisoba",
+    "name": "Delicious Mixed Yakisoba",
+    "localeName": "Delicious Mixed Yakisoba",
+    "desc": "One of Inazuma's common household dishes. Some mysterious art of seasoning has been imparted upon the slightly curled noodles and ordinary side dishes. Smooth, springy, rich... the magic at work on the plate is such that one will never tire of cleaning it out.",
+    "rarity": 2,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousCrabRoeKourayaki",
+    "name": "Suspicious Crab Roe Kourayaki",
+    "localeName": "Suspicious Crab Roe Kourayaki",
+    "desc": "A crab meat dish that has been cooked directly over the flames. The crushed shell-fragments and the crab roe have been slurried together. Butting your teeth up against those hard bits is one thing, but irrecoverable is any desire you may have had to enjoy the food.",
+    "rarity": 2,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "CrabRoeKourayaki",
+    "name": "Crab Roe Kourayaki",
+    "localeName": "Crab Roe Kourayaki",
+    "desc": "A crab meat dish that has been cooked directly over the flames. The meat and roe are mixed evenly, before being garnished with plump crab legs. The happiness that flows forth from that first bite imparts meaning upon your prior forbearance.",
+    "rarity": 2,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousCrabRoeKourayaki",
+    "name": "Delicious Crab Roe Kourayaki",
+    "localeName": "Delicious Crab Roe Kourayaki",
+    "desc": "A crab meat dish that has been cooked directly over the flames. The crab meat still has a lovely scarlet shade, and its meat is tender and juicy. The crab roe has a refreshing aroma, and is rich and mellow to the taste. The sheer grace of this entity upon your tongue makes you start to wonder how the crab shell might taste.",
+    "rarity": 2,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousSakuraTempura",
+    "name": "Suspicious Sakura Tempura",
+    "localeName": "Suspicious Sakura Tempura",
+    "desc": "A dish deep-fried in oil. Perhaps it is an inexperience in controlling oil temperatures showing, but the ingredients began giving off a pungent smoke the instant they were dipped into the wok. The batter is now all mottled and browned. Shame about the waste... but best not to eat it, perhaps.",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SakuraTempura",
+    "name": "Sakura Tempura",
+    "localeName": "Sakura Tempura",
+    "desc": "A dish deep-fried in oil. Incorporate the marinated sakura blossom petals into the batter before giving the fresh shrimp and vegetables an even coating, frying, and then draining the oil. This all sounds simple enough, but good tempura making is not something achieved in a mere day.",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousSakuraTempura",
+    "name": "Delicious Sakura Tempura",
+    "localeName": "Delicious Sakura Tempura",
+    "desc": "A dish deep-fried in oil. The batter is thin and sheer, like a set of luxurious clothes over the ingredients. The outside crispness and freshness within form amazing layers of texture, leading those who eat it to marvel at just how this delicacy was created.",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SnowOnTheHearth",
+    "name": "\"Snow on the Hearth\"",
+    "localeName": "\"Snow on the Hearth\"",
+    "desc": "Kamisato Ayaka's specialty. This is almost like a small, lovely, and intricate artwork, with its pale red outer coat covering the feelings that the young maiden began to harbor from that moment on. If one had the honor of enjoy such a treat while having tea with a princess as graceful and noble as a white heron, one would surely yearn to have that moment stretch into eternity.",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "AllWeatherBeauty",
+    "name": "All-Weather Beauty",
+    "localeName": "All-Weather Beauty",
+    "desc": "Kaedehara Kazuha's specialty. Made from fish that have been dried on the ship. Kazuha claims that they were completely ordinary fish. But this flavor... this must surely be the definition of free, all-embracing nature, no?",
+    "rarity": 1,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SummerFestivalFish",
+    "name": "Summer Festival Fish",
+    "localeName": "Summer Festival Fish",
+    "desc": "Yoimiya's specialty. Watching the fireworks, your hands full of the snacks Yoimiya's given you, her carefree, child-like laughter in your ear as the pyrotechnics burst overhead... Amid this unique symphony of sounds, the plump goldfish in your hand almost looks like it might start swimming at any moment...",
+    "rarity": 3,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DizzinessBeGoneNoJutsuVersion20",
+    "name": "Dizziness-Be-Gone no Jutsu Version 2.0",
+    "localeName": "Dizziness-Be-Gone no Jutsu Version 2.0",
+    "desc": "Sayu's specialty. The Onigiri has been kneaded by Sayu into a cutesy shape — but remember, it's a mujina, not a tanuki, got it? And now that you mention it, this must be how Sayu can sleep for a whole day after eating, right?",
+    "rarity": 2,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SpecialMushroomPizza",
+    "name": "Special Mushroom Pizza",
+    "localeName": "Special Mushroom Pizza",
+    "desc": "A pancake with ample toppings. The many rare ingredients do a strange dance around one's tongue — albeit in a good way.",
+    "rarity": 3,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Sold at shops"]
+  },
   { "id": "RecipeChickenMushroomSkewer", "name": "Recipe: Chicken-Mushroom Skewer", "localeName": "Recipe: Chicken-Mushroom Skewer", "desc": "A detailed step-by-step recipe for making a Chicken-Mushroom Skewer.", "rarity": 1, "type": 7, "typeText": "Recipe" },
   { "id": "RecipeFishermansToast", "name": "Recipe: Fisherman's Toast", "localeName": "Recipe: Fisherman's Toast", "desc": "A detailed step-by-step recipe for making Fisherman's Toast.", "rarity": 2, "type": 7, "typeText": "Recipe" },
   { "id": "RecipeFlamingRedBolognese", "name": "Recipe: Flaming Red Bolognese", "localeName": "Recipe: Flaming Red Bolognese", "desc": "A detailed step-by-step recipe for making Flaming Red Bolognese.", "rarity": 2, "type": 7, "typeText": "Recipe" },
@@ -3350,6 +4059,23 @@
   { "id": "RecipeGoldenChickenBurger", "name": "Recipe: Golden Chicken Burger", "localeName": "Recipe: Golden Chicken Burger", "desc": "A detailed step-by-step recipe for making a Golden Chicken Burger.", "rarity": 3, "type": 7, "typeText": "Recipe" },
   { "id": "RecipeFragrantMashedPotatoes", "name": "Recipe: Fragrant Mashed Potatoes", "localeName": "Recipe: Fragrant Mashed Potatoes", "desc": "A detailed step-by-step recipe for making Fragrant Mashed Potatoes.", "rarity": 3, "type": 7, "typeText": "Recipe" },
   { "id": "RecipeChickenTofuPudding", "name": "Recipe: Chicken Tofu Pudding", "localeName": "Recipe: Chicken Tofu Pudding", "desc": "A detailed step-by-step recipe for making Chicken Tofu Pudding.", "rarity": 4, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeTunaSushi", "name": "Recipe: Tuna Sushi", "localeName": "Recipe: Tuna Sushi", "desc": "A detailed step-by-step recipe for making Tuna Fish.", "rarity": 2, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeTricolorDango", "name": "Recipe: Tricolor Dango", "localeName": "Recipe: Tricolor Dango", "desc": "A detailed step-by-step recipe for making Tricolor Dango.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeOnigiri", "name": "Recipe: Onigiri", "localeName": "Recipe: Onigiri", "desc": "A detailed step-by-step recipe for making Onigiri.", "rarity": 2, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeSashimiPlatter", "name": "Recipe: Sashimi Platter", "localeName": "Recipe: Sashimi Platter", "desc": "A detailed step-by-step recipe for making a Sashimi Platter.", "rarity": 4, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeTonkotsuRamen", "name": "Recipe: Tonkotsu Ramen", "localeName": "Recipe: Tonkotsu Ramen", "desc": "A detailed step-by-step recipe for making Tonkotsu Ramen.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeEggRoll", "name": "Recipe: Egg Roll", "localeName": "Recipe: Egg Roll", "desc": "A detailed step-by-step recipe for making Egg Roll.", "rarity": 1, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeDryBraisedSaltedFish", "name": "Recipe: Dry-Braised Salted Fish", "localeName": "Recipe: Dry-Braised Salted Fish", "desc": "A detailed step-by-step recipe for making Dry-Braised Salted Fish.", "rarity": 1, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeButterCrab", "name": "Recipe: Butter Crab", "localeName": "Recipe: Butter Crab", "desc": "A detailed step-by-step recipe for making Butter Crab.", "rarity": 4, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeTriFlavoredSkewer", "name": "Recipe: Tri-Flavored Skewer", "localeName": "Recipe: Tri-Flavored Skewer", "desc": "A detailed step-by-step recipe for making Tri-Flavored Skewer.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeMisoSoup", "name": "Recipe: Miso Soup", "localeName": "Recipe: Miso Soup", "desc": "A detailed step-by-step recipe for making Miso Soup.", "rarity": 1, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeImportedPoultry", "name": "Recipe: Imported Poultry", "localeName": "Recipe: Imported Poultry", "desc": "A detailed step-by-step recipe for making Imported Poultry.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeSakuraMochi", "name": "Recipe: Sakura Mochi", "localeName": "Recipe: Sakura Mochi", "desc": "A detailed step-by-step recipe for making Sakura Mochi.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeKondaCuisine", "name": "Recipe: Konda Cuisine", "localeName": "Recipe: Konda Cuisine", "desc": "A detailed step-by-step recipe for making Konda Cuisine.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeRiceCakeSoup", "name": "Recipe: Rice Cake Soup", "localeName": "Recipe: Rice Cake Soup", "desc": "A detailed step-by-step recipe for making Rice Cake Soup.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeMixedYakisoba", "name": "Recipe: Mixed Yakisoba", "localeName": "Recipe: Mixed Yakisoba", "desc": "A detailed step-by-step recipe for making Mixed Yakisoba.", "rarity": 2, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeCrabRoeKourayaki", "name": "Recipe: Crab Roe Kourayaki", "localeName": "Recipe: Crab Roe Kourayaki", "desc": "A detailed step-by-step recipe for making Crab Roe Kourayaki.", "rarity": 2, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeSakuraTempura", "name": "Recipe: Sakura Tempura", "localeName": "Recipe: Sakura Tempura", "desc": "A detailed step-by-step recipe for making Sakura Tempura.", "rarity": 3, "type": 7, "typeText": "Recipe" },
   { "id": "Flour", "name": "Flour", "localeName": "Flour", "desc": "A powder ground from wheat. No matter what it goes into, it brings a sense of satisfaction to the diner.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Processed"] },
   { "id": "Cream", "name": "Cream", "localeName": "Cream", "desc": "A dairy product made from milk. An essential ingredient in making pastries.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Processed"] },
   { "id": "SmokedFowl", "name": "Smoked Fowl", "localeName": "Smoked Fowl", "desc": "Fowl that has been smoked. The firmness of the meat gives new texture to dishes.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Processed"] },
@@ -3560,7 +4286,7 @@
     "id": "OminousMask",
     "name": "Ominous Mask",
     "localeName": "Ominous Mask",
-    "desc": "A glossy bone mask with oil markings painted on it, meant to intimidate enemies.\nNo-one really knows why hilichurls are so fascinated with masks. Some say that it's because they don't want to see their own reflections in the water.",
+    "desc": "A glossy bone mask with oil markings painted on it, meant to intimidate enemies.\nNo one really knows why hilichurls are so fascinated with masks. Some say that it's because they don't want to see their own reflections in the water.",
     "rarity": 3,
     "type": 1,
     "typeText": "Character Level-Up Material",
@@ -3721,7 +4447,7 @@
     "id": "ChaosCircuit",
     "name": "Chaos Circuit",
     "localeName": "Chaos Circuit",
-    "desc": "Comes from ancient defunct relic structures. Was once a logic circuit responsible for movement functions. Sadly, no-one is able to make sense of how it worked.",
+    "desc": "Comes from ancient defunct relic structures. Was once a logic circuit responsible for movement functions. Sadly, no one is able to make sense of how it worked.",
     "rarity": 3,
     "type": 1,
     "typeText": "Character Level-Up Material",
@@ -3791,7 +4517,7 @@
     "id": "InspectorsSacrificialKnife",
     "name": "Inspector's Sacrificial Knife",
     "localeName": "Inspector's Sacrificial Knife",
-    "desc": "In the hands of its lord, this fierce weapon has handled many \"debts.\" No-one has eyes in the back of their heads, and this weapon and its related techniques are designed around that weakness.",
+    "desc": "In the hands of its lord, this fierce weapon has handled many \"debts.\" No one has eyes in the back of their heads, and this weapon and its related techniques are designed around that weakness.",
     "rarity": 4,
     "type": 1,
     "typeText": "Character Level-Up Material",
@@ -3821,7 +4547,7 @@
     "id": "LieutenantsInsignia",
     "name": "Lieutenant's Insignia",
     "localeName": "Lieutenant's Insignia",
-    "desc": "An armband to identify officers. The Fatui possess a colossal army, so there must be something extraordinary about the ones who achieved this rank within the group.",
+    "desc": "An insignia to identify officers. The Fatui possess a colossal army, so there must be something extraordinary about the ones who achieved this rank within the group.",
     "rarity": 3,
     "type": 1,
     "typeText": "Character Level-Up Material",
@@ -3916,6 +4642,78 @@
     "type": 1,
     "typeText": "Character Level-Up Material",
     "drop": ["Dropped by Lv. 60+ geovishap hatchlings", "Dropped by Lv. 60+ geovishaps", "Crafted"]
+  },
+  {
+    "id": "OldHandguard",
+    "name": "Old Handguard",
+    "localeName": "Old Handguard",
+    "desc": "A battle-worn handguard that was once mounted on an Inazuman blade.\nFor those adept in the art of the sword, the tsuba is a defense from the edge of an opponent's blade. For beginners, it is a defense made for their own right hand, to protect it from itself.",
+    "rarity": 1,
+    "type": 1,
+    "typeText": "Character Level-Up Material",
+    "drop": ["Dropped by Nobushi"]
+  },
+  {
+    "id": "KageuchiHandguard",
+    "name": "Kageuchi Handguard",
+    "localeName": "Kageuchi Handguard",
+    "desc": "A handguard mounded upon a sword of some distinction.\nInazuma has a long tradition of sword-making. When making swords, smiths will often make several different weapons at once, before choosing from among them the \"shinuchi,\" or the best weapon, while the others are known as \"kageuchi.\"",
+    "rarity": 2,
+    "type": 1,
+    "typeText": "Character Level-Up Material",
+    "drop": ["Dropped by Lv. 40+ Nobushi", "Crafted"]
+  },
+  {
+    "id": "FamedHandguard",
+    "name": "Famed Handguard",
+    "localeName": "Famed Handguard",
+    "desc": "An intricately-made handguard that was mounted upon a famed weapon.\nSome believe that swords have souls and lives of their own, and thus deserve their own names. Those who love their blades will be acknowledged by them in turn. But those who see their swords as friends or even lovers should be warned that this relationship is built on death and bloodshed. The passions of those who dance with their blade amid crimson showers must surely be cooled someday by fickle steel.",
+    "rarity": 3,
+    "type": 1,
+    "typeText": "Character Level-Up Material",
+    "drop": ["Dropped by Lv. 60+ Nobushi", "Crafted"]
+  },
+  { "id": "ChaosGear", "name": "Chaos Gear", "localeName": "Chaos Gear", "desc": "Comes from a now-inactive ancient Ruin machine.\nThis is the energy source of that biomimetic mechanism.", "rarity": 2, "type": 1, "typeText": "Character Level-Up Material", "drop": ["Dropped by Ruin Sentinels"] },
+  {
+    "id": "ChaosAxis",
+    "name": "Chaos Axis",
+    "localeName": "Chaos Axis",
+    "desc": "Comes from a now-inactive ancient Ruin machine.\nEven the great techniques and unknown power of this device must come to nothing should the machine that contained them ever fail to maintain structural integrity.",
+    "rarity": 3,
+    "type": 1,
+    "typeText": "Character Level-Up Material",
+    "drop": ["Dropped by Lv. 40+ Ruin Sentinels", "Crafted"]
+  },
+  {
+    "id": "ChaosOculus",
+    "name": "Chaos Oculus",
+    "localeName": "Chaos Oculus",
+    "desc": "Comes from a now-inactive ancient Ruin machine.\nThe \"Ruin\" part of the name comes from the areas where they are most active. However, Ruin machines actually have little in common with the detritus in which they are often found.\nIn the ancient past, these ruins were once part of a civilization mighty enough to almost touch the dome of the firmament, while \"ruin\" still waits in the deep places of the earth, awaiting the order to arise and tread all kingdoms underfoot.",
+    "rarity": 4,
+    "type": 1,
+    "typeText": "Character Level-Up Material",
+    "drop": ["Dropped by Lv. 60+ Ruin Sentinels", "Crafted"]
+  },
+  { "id": "DismalPrism", "name": "Dismal Prism", "localeName": "Dismal Prism", "desc": "This was once a prism that could polarize light, but has grown dull through the passing of years.", "rarity": 2, "type": 1, "typeText": "Character Level-Up Material", "drop": ["Dropped by Mirror Maidens"] },
+  {
+    "id": "CrystalPrism",
+    "name": "Crystal Prism",
+    "localeName": "Crystal Prism",
+    "desc": "A prism that can bend light.\nIllusory images can be made using such prisms, giving such devices — in a manner of speaking — the power to sway human hearts.",
+    "rarity": 3,
+    "type": 1,
+    "typeText": "Character Level-Up Material",
+    "drop": ["Dropped by Lv. 40+ Mirror Maidens", "Crafted"]
+  },
+  {
+    "id": "PolarizingPrism",
+    "name": "Polarizing Prism",
+    "localeName": "Polarizing Prism",
+    "desc": "A prism that can bend light.\nIn the darkness, these prisms can spread thin light into a wider area. Perhaps this is due to this quirk that these prisms can grant a measure of peace to those whose hearts are oft shrouded in darkness.",
+    "rarity": 4,
+    "type": 1,
+    "typeText": "Character Level-Up Material",
+    "drop": ["Dropped by Lv. 60+ Mirror Maidens", "Crafted"]
   },
   {
     "id": "HurricaneSeed",
@@ -4138,6 +4936,26 @@
     "drop": ["Dropped by Lv. 30+ Maguu Kenki"]
   },
   {
+    "id": "PerpetualHeart",
+    "name": "Perpetual Heart",
+    "localeName": "Perpetual Heart",
+    "desc": "The core that powers the autonomous movements of the Perpetual Mechanical Array.\nSome theorize that the symbols on these cores have knowledge and logic inscribed upon them in a language that eyes cannot perceive. Some go a step further and believe that these unique Ruin machines autonomously decided to forsake a biomimetic form to pursue strength of function on account of their especially large cores and complex inscriptions.",
+    "rarity": 4,
+    "type": 1,
+    "typeText": "Character Level-Up Material",
+    "drop": ["Dropped by Lv. 30+ Perpetual Mechanical Arrays"]
+  },
+  {
+    "id": "SmolderingPearl",
+    "name": "Smoldering Pearl",
+    "localeName": "Smoldering Pearl",
+    "desc": "A crystallization of a Pyro Hypostasis that constantly emits heat.\nEven the burning flames shall one day grow cold, and even the ashen firewood can will itself back into a raging blaze. It must then be the will of the world that Pyro Hypostases should constantly cool down and heat up, much like the universe teems with endless life... until the fated darkness shall one day descend and bring it all to naught.",
+    "rarity": 4,
+    "type": 1,
+    "typeText": "Character Level-Up Material",
+    "drop": ["Dropped by Lv.30+ Pyro Hypostases"]
+  },
+  {
     "id": "TileOfDecarabiansTower",
     "name": "Tile of Decarabian's Tower",
     "localeName": "Tile of Decarabian's Tower",
@@ -4191,7 +5009,7 @@
     "id": "BorealWolfsCrackedTooth",
     "name": "Boreal Wolf's Cracked Tooth",
     "localeName": "Boreal Wolf's Cracked Tooth",
-    "desc": "Weapon Ascension Material.\nThe life of a wolf is not without violence, broken bones or cracked teeth are nothing special.\nAndrius found humans to be a disappointment, but believed babies to be innocent. If both the wolf pack and the adopted children chose each other, then they become a Lupical, a fated family.",
+    "desc": "Weapon Ascension Material.\nThe life of a wolf is not without violence; broken bones or cracked teeth are nothing special.\nAndrius found humans to be a disappointment, but believed babies to be innocent. If both the wolf pack and the adopted children chose each other, then they become a Lupical, a fated family.",
     "rarity": 3,
     "type": 1,
     "typeText": "Weapon Ascension Material",
@@ -4377,6 +5195,123 @@
     "typeText": "Weapon Ascension Material",
     "drop": ["Crafted"]
   },
+  {
+    "id": "CoralBranchOfADistantSea",
+    "name": "Coral Branch of a Distant Sea",
+    "localeName": "Coral Branch of a Distant Sea",
+    "desc": "Weapon Ascension Material.\nWatatsumi Island is the furthest from Narukami Island in the Inazuman island chain, and its name means \"the god of the oceans\" in the island's ancient tongue. Legend has it that when the great serpent first arose within the abyssal nation of ever-night, its fluorescent body was covered in myriad-colored coral.",
+    "rarity": 2,
+    "type": 1,
+    "typeText": "Weapon Ascension Material"
+  },
+  {
+    "id": "JeweledBranchOfADistantSea",
+    "name": "Jeweled Branch of a Distant Sea",
+    "localeName": "Jeweled Branch of a Distant Sea",
+    "desc": "Weapon Ascension Material.\nThis coral cannot be found anywhere in Teyvat, but was a gift that the great serpent obtained when it broke into the Dark Sea. For that abyssal snake, to be filled with coral was to be mighty, and its power would be shaved away as those corals were lost. In other words, those corals contain power far beyond the norm.",
+    "rarity": 3,
+    "type": 1,
+    "typeText": "Weapon Ascension Material",
+    "drop": ["Crafted"]
+  },
+  {
+    "id": "JadeBranchOfADistantSea",
+    "name": "Jade Branch of a Distant Sea",
+    "localeName": "Jade Branch of a Distant Sea",
+    "desc": "Weapon Ascension Material.\nFleeing into the Dark Sea, the god that had lost everything met the abandoned people who had nothing within the ocean depths. Thus it elected to remain and become their \"Orobashi no Mikoto,\" their \"Watatsumi Omikami.\"\nIt is said that the great snake god once broke off all the coral branches on its body to give light to the children who were curled up in the darkness. They also say that it used these coral branches to create a huge ladder to allow those children to once again reach the surface and see the light of day.",
+    "rarity": 4,
+    "type": 1,
+    "typeText": "Weapon Ascension Material",
+    "drop": ["Crafted"]
+  },
+  {
+    "id": "GoldenBranchOfADistantSea",
+    "name": "Golden Branch of a Distant Sea",
+    "localeName": "Golden Branch of a Distant Sea",
+    "desc": "Weapon Ascension Material.\nThe meaning that lies behind the name \"Watatsumi\" is simply the unrequited hopes that the abandoned people who dwelt in the deep sea pinned upon the serpent god that led them.\nAnd it was also because the serpent god now had people who worshiped it that it stayed in the world it should have long fled, breaking off the coral branches that adorned its body, treading upon land where it should not have, and facing a foe it could never hope to match — till at last, its divine form was sundered along with the mountains, its ichor turned into plasma, and its will and power became a curse that could never be extinguished: Tatarigami.",
+    "rarity": 5,
+    "type": 1,
+    "typeText": "Weapon Ascension Material",
+    "drop": ["Crafted"]
+  },
+  {
+    "id": "NarukamisWisdom",
+    "name": "Narukami's Wisdom",
+    "localeName": "Narukami's Wisdom",
+    "desc": "Weapon Ascension Material.\nIn the past, the ancients would climb the peak now known as Mt. Yougou and bend wood that had been charred by lightning into a hook to offer as an effigy unto the thundering force that lit up the skies and shook the earth. This shape would eventually become the \"Electro Mitsudomoe\" symbol, symbolizing the favor, wisdom, and might of Electro, and also the people who represent these values.",
+    "rarity": 2,
+    "type": 1,
+    "typeText": "Weapon Ascension Material"
+  },
+  {
+    "id": "NarukamisJoy",
+    "name": "Narukami's Joy",
+    "localeName": "Narukami's Joy",
+    "desc": "Weapon Ascension Material.\nThose who belong to the Shogunate Commissions are those who administer and exercise power. In the monster-filled tales of the ancient past, those who were deeply trusted by the Shogun would bear talismans with this hooked design on their person, and just as the word \"commission\" means to \"joyfully serve\" in the old tongue, those who received her favor would return it with love and loyalty. Yet, after a certain point in time, nothing would be as it was before.",
+    "rarity": 3,
+    "type": 1,
+    "typeText": "Weapon Ascension Material",
+    "drop": ["Crafted"]
+  },
+  {
+    "id": "NarukamisAffection",
+    "name": "Narukami's Affection",
+    "localeName": "Narukami's Affection",
+    "desc": "Weapon Ascension Material.\nAll demons who wander in the wilderness or live amongst mortals will be attracted by the sight of the Almighty Narukami Ogosho, represented by the Electro Mitsudomoe. Though their lives may be longer than any creature, they will at last come to their end. If those with limited lifespans hanker after eternity, then they can only pray that \"Eternity\" remembers them. And she did indeed answer their prayers, remembering them all, friend and foe alike, in her heart. No matter whether it was the demon owls who resided amidst the fog and ripped through the skies, the bake-danuki who dared to trespass her imperial gardens, or that female oni, lovely as the moon and mighty in battle, yet who would eventually come to blows with her... Whether it was the tengu who soared on dark wings or the Kitsune Saiguu who once walked by her side, but who eventually disappeared forever...\nThese countless tales have come to rest within her heart, and someday, they will surely shine again in the eternal paradise of her dreams.",
+    "rarity": 4,
+    "type": 1,
+    "typeText": "Weapon Ascension Material",
+    "drop": ["Crafted"]
+  },
+  {
+    "id": "NarukamisValor",
+    "name": "Narukami's Valor",
+    "localeName": "Narukami's Valor",
+    "desc": "Weapon Ascension Material.\nThe treasure of the lord of thunder is her majesty, and that majesty is embodied in her valor and wrath. Her wrath comes from the love that persists in her heart, and her valor supports that anger. Thus, whomsoever should block the path towards eternity or lay a finger on Inazuma's people shall become her foe.\nThey say that there were four great spirits, three divine foxes, and two great swords — but that the symbol of Her Excellency, the Almighty Narukami Ogosho, could only be a single strike, unsurpassed and brilliant as a meteor.",
+    "rarity": 5,
+    "type": 1,
+    "typeText": "Weapon Ascension Material",
+    "drop": ["Crafted"]
+  },
+  {
+    "id": "MaskOfTheWickedLieutenant",
+    "name": "Mask of the Wicked Lieutenant",
+    "localeName": "Mask of the Wicked Lieutenant",
+    "desc": "Weapon Ascension Material.\nFolktales tell that once upon a time, there lived an oni named Torachiyo. Torachiyo was a highly skilled warrior, such that it was once said the Torachiyo might dance amid a thousand blades, juunihitoe robes becoming shredded like falling violet petals, and yet not receive a single wound. Yet this oni would eventually betray the Shogun and revolt, becoming shorn of an arm and a horn in the battle before fleeing and slaying itself in a fit of furious madness.\nHearsay holds that the stubborn oni often hold fear and distress in their hearts. That they should fantasize about eternity yet fear the moment, and are apt to become swallowed by terror or anger is their just reward. This mask depicts Torachiyo, fangs bared.",
+    "rarity": 2,
+    "type": 1,
+    "typeText": "Weapon Ascension Material"
+  },
+  {
+    "id": "MaskOfTheTigersBite",
+    "name": "Mask of the Tiger's Bite",
+    "localeName": "Mask of the Tiger's Bite",
+    "desc": "Weapon Ascension Material.\n\"Sumirezome Sangetsu Kogetsukan\" depicts the fierce oni Torachiyo shattering the Shogun's naginata with a single bite, thus gaining the upper hand for a time. As such, masks that are based on him have finely crafted fangs.\nIn the denouement of this tale, the wounded oni fled into the forest, deathly afraid of showing himself even to the cold moonlight. The wind that whispers through the alleys and valleys can be said to resemble his quiet cries of agony, and so there is a poetic seasonal expression for this in Inazuma: \"Torachiyo's Wind.\"",
+    "rarity": 3,
+    "type": 1,
+    "typeText": "Weapon Ascension Material",
+    "drop": ["Crafted"]
+  },
+  {
+    "id": "MaskOfTheOneHorned",
+    "name": "Mask of the One-Horned",
+    "localeName": "Mask of the One-Horned",
+    "desc": "Weapon Ascension Material.\nIn the lost songs of the oni nursemaids, Torachiyo was an elegant young man, strong of body and fair of face. He was once a beloved lieutenant of the Shogun, and he followed her into the dark abyssal realms to repel the defiled ones, winning renown for the oni, whose blood thinned with each passing day.\nNone now sing these songs, but the mask of a horned oni, even in a different form, still possesses power beyond the norm.",
+    "rarity": 4,
+    "type": 1,
+    "typeText": "Weapon Ascension Material",
+    "drop": ["Crafted"]
+  },
+  {
+    "id": "MaskOfTheKijin",
+    "name": "Mask of the Kijin",
+    "localeName": "Mask of the Kijin",
+    "desc": "Weapon Ascension Material.\nChiyo, a warrior of the oni tribe with the Electro Mitsudomoe emblem emblazoned on her back, was once swallowed whole by a beast from beyond this world that had a tiger's body and a serpent's tail while holding back the forces of darkness. At last, she tore the creature's innards apart from within, breaking free.\nThis is the origin of the phrase \"Chiyo the Tiger-Bite,\" and would be changed over many years to \"Torachiyo.\"\nBut within the belly of the beast, she was stained by a deep sin and saw her comrades ripped to shreds by those blood-red teeth. Steeped in darkness as far as the eye could see, she would eventually draw her sword upon the Almighty Narukami Ogosho. Her sword-arm and one horn would be cloven, and she would flee from the city into the forest like a wounded beast. There, they say that she was taken for some unknown monster and slain by the tengu, or perhaps by the Shuumatsuban — or perhaps by a scion of the Iwakura Clan training deep in the mountains, for her features had been twisted by hatred and the agony of her wounds. Or perhaps she even met the oni-masked, sword-bearing doll near the corpse of the giant serpent, and there ended her life's journey.\nFew among those who fought against the abyss in those days were spared pitch-dark dreams. Those who slew monsters and then became them were hardly the minority. The border between worlds grows fragile, and corruption of this kind is perhaps not merely monodirectional.",
+    "rarity": 5,
+    "type": 1,
+    "typeText": "Weapon Ascension Material",
+    "drop": ["Crafted"]
+  },
   { "id": "BEP", "name": "BEP", "localeName": "BEP", "desc": "Your travel diary contains all that you have experienced in your long journey. These experiences shall someday become the stuff of song.", "rarity": 3, "type": 7, "typeText": "BEP" },
   {
     "id": "CakeForTraveler",
@@ -4546,7 +5481,54 @@
     "type": 7,
     "typeText": "Forging Blueprint"
   },
+  {
+    "id": "InstructionsElectroculusResonanceStone",
+    "name": "Instructions: Electroculus Resonance Stone",
+    "localeName": "Instructions: Electroculus Resonance Stone",
+    "desc": "Detailed step-by-step instructions for making an Electroculus Resonance Stone. Master them and you will be able to create a tool to guide you to towards Electroculi.",
+    "rarity": 3,
+    "type": 7,
+    "typeText": "Crafting Blueprint"
+  },
+  {
+    "id": "DiagramElectroTreasureCompass",
+    "name": "Diagram: Electro Treasure Compass",
+    "localeName": "Diagram: Electro Treasure Compass",
+    "desc": "A detailed step-by-step diagram for making an Electro Treasure Compass. Use it to easily locate treasure all over Inazuma.",
+    "rarity": 4,
+    "type": 7,
+    "typeText": "Forging Blueprint"
+  },
   { "id": "MemoryOfTheEntombedCity", "name": "Memory of the Entombed City", "localeName": "Memory of the Entombed City", "desc": "Through this memory, you can master the method to make a Snow-Tombed Starsilver (Claymore).", "rarity": 4, "type": 7, "typeText": "Forging Blueprint" },
   { "id": "MemoryOfTheFrostbearingTree", "name": "Memory of the Frostbearing Tree", "localeName": "Memory of the Frostbearing Tree", "desc": "Through this memory, you can master the method to make a Frostbearer (Catalyst).", "rarity": 4, "type": 7, "typeText": "Forging Blueprint" },
-  { "id": "DiagramDragonspineSpear", "name": "Diagram: Dragonspine Spear", "localeName": "Diagram: Dragonspine Spear", "desc": "A detailed step-by-step diagram for making a Dragonspine Spear (Polearm).", "rarity": 4, "type": 7, "typeText": "Forging Blueprint" }
+  { "id": "DiagramDragonspineSpear", "name": "Diagram: Dragonspine Spear", "localeName": "Diagram: Dragonspine Spear", "desc": "A detailed step-by-step diagram for making a Dragonspine Spear (Polearm).", "rarity": 4, "type": 7, "typeText": "Forging Blueprint" },
+  {
+    "id": "SaimonHeirloomBladeDiagram",
+    "name": "Saimon Heirloom Blade Diagram",
+    "localeName": "Saimon Heirloom Blade Diagram",
+    "desc": "The Saimon Clan possessed this diagram of how to make the Amenoma Kageuchi (Sword). You can use it to master art of making this weapon.",
+    "rarity": 4,
+    "type": 7,
+    "typeText": "Forging Blueprint"
+  },
+  {
+    "id": "DiagramKatsuragikiriNagamasa",
+    "name": "Diagram: Katsuragikiri Nagamasa",
+    "localeName": "Diagram: Katsuragikiri Nagamasa",
+    "desc": "Someone from Tatarasuna left this diagram of Katsuragikiri Nagamasa behind. You can use it to master the art of making this Claymore.",
+    "rarity": 4,
+    "type": 7,
+    "typeText": "Forging Blueprint"
+  },
+  { "id": "DiagramKitainCrossSpear", "name": "Diagram: Kitain Cross Spear", "localeName": "Diagram: Kitain Cross Spear", "desc": "A detailed step-by-step diagram for making a Kitain Cross Spear (Polearm).", "rarity": 4, "type": 7, "typeText": "Forging Blueprint" },
+  { "id": "DiagramHamayumi", "name": "Diagram: Hamayumi", "localeName": "Diagram: Hamayumi", "desc": "A detailed step-by-step diagram for making a Hamayumi.", "rarity": 4, "type": 7, "typeText": "Forging Blueprint" },
+  {
+    "id": "MaskOfMemories",
+    "name": "Mask of Memories",
+    "localeName": "Mask of Memories",
+    "desc": "Kazari the shrine maiden used to wear this mask. It is deeply stained on the inside.\nSome memories are contained inside, through which one may learn the art of creating the Cataylst known as the \"Hakushin Ring.\"\nNow that Kazari has been separated from this mask, Paimon's doesn't get to call her the \"Masked Maiden\" anymore, right?",
+    "rarity": 4,
+    "type": 7,
+    "typeText": "Forging Blueprint"
+  }
 ]

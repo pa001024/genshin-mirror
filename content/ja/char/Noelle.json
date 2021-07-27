@@ -317,7 +317,7 @@
   ],
   "c13ns": [
     { "name": "IGotYourBack", "localeName": "支援はお任せください", "desc": "同時に<color=#FFD780FF>大掃除</color>と<color=#FFD780FF>護心鎧</color>状態にいる時、護心鎧のHP回復効果の発動率が100%になる。", "values": [1] },
-    { "name": "CombatMaid", "localeName": "旋風のメイド", "desc": "ノエルの重撃によるスタミナ消費-20%、与えるダメージ+15%。", "values": [-0.2, 0.15] },
+    { "name": "CombatMaid", "localeName": "旋風のメイド", "desc": "ノエルの重撃スタミナ消費-20%、与えるダメージ+15%。", "values": [-0.2, 0.15] },
     { "name": "InvulnerableMaid", "localeName": "怪我はしません", "desc": "<color=#FFD780FF>護心鎧</color>のスキルLv.+3。\n最大Lv.15まで。" },
     { "name": "ToBeCleaned", "localeName": "綺麗にしますから", "desc": "<color=#FFD780FF>護心鎧</color>効果終了時、またはダメージによって破壊された時、周囲の敵に攻撃力400%分の<color=#FFE699FF>岩元素ダメージ</color>を与える。", "values": [4] },
     { "name": "FavoniusSweeperMaster", "localeName": "騎士団の掃除達人", "desc": "<color=#FFD780FF>大掃除</color>のスキルLv.+3。\n最大Lv.15まで。" },

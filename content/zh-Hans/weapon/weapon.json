@@ -1478,7 +1478,15 @@
       { "id": "GoldenRavenInsignia", "name": "攫金鸦印", "rarity": 3 }
     ],
     "subAttr": { "type": 7, "value": 0.0766, "curve": 16 },
-    "affix": { "name": "降世", "levels": [{ "desc": "普通攻击与重击命中敌人后有<color=#99FFFFFF>50%</color>概率在小范围内造成<color=#99FFFFFF>200%</color>攻击力的伤害。该效果每10秒只能触发一次；此外，旅行者装备降临之剑时，攻击力提升<color=#99FFFFFF>66</color>点。", "params": [0.5, 2, 10, 66] }] }
+    "affix": {
+      "name": "降世",
+      "levels": [
+        {
+          "desc": "仅在\"PlayStation Network\"游玩时生效。\n普通攻击与重击命中敌人后有<color=#99FFFFFF>50%</color>概率在小范围内造成<color=#99FFFFFF>200%</color>攻击力的伤害。该效果每10秒只能触发一次；此外，旅行者装备降临之剑时，攻击力提升<color=#99FFFFFF>66</color>点。",
+          "params": [0.5, 2, 10, 66]
+        }
+      ]
+    }
   },
   {
     "id": "FesteringDesire",
@@ -1559,6 +1567,88 @@
         { "desc": "元素战技造成的伤害增加<color=#99FFFFFF>24%</color>，元素战技的暴击率提升<color=#99FFFFFF>9%</color>。", "params": [0.24, 0.09] },
         { "desc": "元素战技造成的伤害增加<color=#99FFFFFF>28%</color>，元素战技的暴击率提升<color=#99FFFFFF>10.5%</color>。", "params": [0.28, 0.105] },
         { "desc": "元素战技造成的伤害增加<color=#99FFFFFF>32%</color>，元素战技的暴击率提升<color=#99FFFFFF>12%</color>。", "params": [0.32, 0.12] }
+      ]
+    }
+  },
+  {
+    "id": "AmenomaKageuchi",
+    "name": "Amenoma Kageuchi",
+    "localeName": "天目影打刀",
+    "desc": "传说中连以神速见长的天狗都能斩落的名士订制的刀。",
+    "rarity": 4,
+    "type": 1,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "CoralBranchOfADistantSea", "localeName": "远海夷地的瑚枝", "count": 3 },
+          { "id": "ChaosGear", "localeName": "混沌机关", "count": 3 },
+          { "id": "OldHandguard", "localeName": "破旧的刀镡", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "远海夷地的玉枝", "count": 3 },
+          { "id": "ChaosGear", "localeName": "混沌机关", "count": 12 },
+          { "id": "OldHandguard", "localeName": "破旧的刀镡", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "远海夷地的玉枝", "count": 6 },
+          { "id": "ChaosAxis", "localeName": "混沌枢纽", "count": 6 },
+          { "id": "KageuchiHandguard", "localeName": "影打刀镡", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "远海夷地的琼枝", "count": 3 },
+          { "id": "ChaosAxis", "localeName": "混沌枢纽", "count": 12 },
+          { "id": "KageuchiHandguard", "localeName": "影打刀镡", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "远海夷地的琼枝", "count": 6 },
+          { "id": "ChaosOculus", "localeName": "混沌真眼", "count": 9 },
+          { "id": "FamedHandguard", "localeName": "名刀镡", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "GoldenBranchOfADistantSea", "localeName": "远海夷地的金枝", "count": 4 },
+          { "id": "ChaosOculus", "localeName": "混沌真眼", "count": 18 },
+          { "id": "FamedHandguard", "localeName": "名刀镡", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 41.067,
+    "baseATKCurve": 9,
+    "overviewItems": [
+      { "id": "GoldenBranchOfADistantSea", "name": "远海夷地的金枝", "rarity": 5 },
+      { "id": "ChaosOculus", "name": "混沌真眼", "rarity": 4 },
+      { "id": "FamedHandguard", "name": "名刀镡", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.12, "curve": 17 },
+    "affix": {
+      "name": "岩藏之胤",
+      "levels": [
+        { "desc": "施放元素战技后，获得1个胤种，该效果每5秒至多触发一次。胤种持续30秒，至多同时存在3个。施放元素爆发后，会清除持有的所有胤种，并在2秒之后，基于消耗的胤种数量，每个为该角色恢复<color=#99FFFFFF>6</color>点元素能量。", "params": [30, 3, 5, 6] },
+        { "desc": "施放元素战技后，获得1个胤种，该效果每5秒至多触发一次。胤种持续30秒，至多同时存在3个。施放元素爆发后，会清除持有的所有胤种，并在2秒之后，基于消耗的胤种数量，每个为该角色恢复<color=#99FFFFFF>7.5</color>点元素能量。", "params": [30, 3, 5, 7.5] },
+        { "desc": "施放元素战技后，获得1个胤种，该效果每5秒至多触发一次。胤种持续30秒，至多同时存在3个。施放元素爆发后，会清除持有的所有胤种，并在2秒之后，基于消耗的胤种数量，每个为该角色恢复<color=#99FFFFFF>9</color>点元素能量。", "params": [30, 3, 5, 9] },
+        { "desc": "施放元素战技后，获得1个胤种，该效果每5秒至多触发一次。胤种持续30秒，至多同时存在3个。施放元素爆发后，会清除持有的所有胤种，并在2秒之后，基于消耗的胤种数量，每个为该角色恢复<color=#99FFFFFF>10.5</color>点元素能量。", "params": [30, 3, 5, 10.5] },
+        { "desc": "施放元素战技后，获得1个胤种，该效果每5秒至多触发一次。胤种持续30秒，至多同时存在3个。施放元素爆发后，会清除持有的所有胤种，并在2秒之后，基于消耗的胤种数量，每个为该角色恢复<color=#99FFFFFF>12</color>点元素能量。", "params": [30, 3, 5, 12] }
       ]
     }
   },
@@ -2034,6 +2124,103 @@
     ],
     "baseATK": 23.245,
     "baseATKCurve": 1
+  },
+  {
+    "id": "MistsplitterReforged",
+    "name": "Mistsplitter Reforged",
+    "localeName": "雾切之回光",
+    "desc": "闪烁着凄烈紫光的太刀。名之为「回光」是因为一度破碎的过去。",
+    "rarity": 5,
+    "type": 1,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          { "id": "CoralBranchOfADistantSea", "localeName": "远海夷地的瑚枝", "count": 5 },
+          { "id": "ChaosGear", "localeName": "混沌机关", "count": 5 },
+          { "id": "OldHandguard", "localeName": "破旧的刀镡", "count": 3 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "远海夷地的玉枝", "count": 5 },
+          { "id": "ChaosGear", "localeName": "混沌机关", "count": 18 },
+          { "id": "OldHandguard", "localeName": "破旧的刀镡", "count": 12 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "远海夷地的玉枝", "count": 9 },
+          { "id": "ChaosAxis", "localeName": "混沌枢纽", "count": 9 },
+          { "id": "KageuchiHandguard", "localeName": "影打刀镡", "count": 9 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "远海夷地的琼枝", "count": 5 },
+          { "id": "ChaosAxis", "localeName": "混沌枢纽", "count": 18 },
+          { "id": "KageuchiHandguard", "localeName": "影打刀镡", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "远海夷地的琼枝", "count": 9 },
+          { "id": "ChaosOculus", "localeName": "混沌真眼", "count": 14 },
+          { "id": "FamedHandguard", "localeName": "名刀镡", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "GoldenBranchOfADistantSea", "localeName": "远海夷地的金枝", "count": 6 },
+          { "id": "ChaosOculus", "localeName": "混沌真眼", "count": 27 },
+          { "id": "FamedHandguard", "localeName": "名刀镡", "count": 18 }
+        ]
+      }
+    ],
+    "baseATK": 47.537,
+    "baseATKCurve": 12,
+    "overviewItems": [
+      { "id": "GoldenBranchOfADistantSea", "name": "远海夷地的金枝", "rarity": 5 },
+      { "id": "ChaosOculus", "name": "混沌真眼", "rarity": 4 },
+      { "id": "FamedHandguard", "name": "名刀镡", "rarity": 3 }
+    ],
+    "subAttr": { "type": 13, "value": 0.096, "curve": 18 },
+    "affix": {
+      "name": "雾切御腰物",
+      "levels": [
+        {
+          "desc": "获得<color=#99FFFFFF>12%</color>所有元素伤害加成，并能获得「雾切之巴印」的威势。雾切之巴印：持有1/2/3层雾切之巴印时，获得<color=#99FFFFFF>8/16/28%</color>自己的元素类型的元素伤害加成。在下列情况下，角色将各获得1层雾切之巴印：普通攻击造成元素伤害时，持续5秒；施放元素爆发时，持续10秒；此外，角色元素能量低于100%时，将获得1层雾切之巴印，此雾切之巴印会在角色的元素能量充满时消失。每层雾切之巴印的持续时间独立计算。",
+          "params": [0.12, 0.08, 0.16, 0.28, 5, 10]
+        },
+        {
+          "desc": "获得<color=#99FFFFFF>15%</color>所有元素伤害加成，并能获得「雾切之巴印」的威势。雾切之巴印：持有1/2/3层雾切之巴印时，获得<color=#99FFFFFF>10/20/35%</color>自己的元素类型的元素伤害加成。在下列情况下，角色将各获得1层雾切之巴印：普通攻击造成元素伤害时，持续5秒；施放元素爆发时，持续10秒；此外，角色元素能量低于100%时，将获得1层雾切之巴印，此雾切之巴印会在角色的元素能量充满时消失。每层雾切之巴印的持续时间独立计算。",
+          "params": [0.15, 0.1, 0.2, 0.35, 5, 10]
+        },
+        {
+          "desc": "获得<color=#99FFFFFF>18%</color>所有元素伤害加成，并能获得「雾切之巴印」的威势。雾切之巴印：持有1/2/3层雾切之巴印时，获得<color=#99FFFFFF>12/24/42%</color>自己的元素类型的元素伤害加成。在下列情况下，角色将各获得1层雾切之巴印：普通攻击造成元素伤害时，持续5秒；施放元素爆发时，持续10秒；此外，角色元素能量低于100%时，将获得1层雾切之巴印，此雾切之巴印会在角色的元素能量充满时消失。每层雾切之巴印的持续时间独立计算。",
+          "params": [0.18, 0.12, 0.24, 0.42, 5, 10]
+        },
+        {
+          "desc": "获得<color=#99FFFFFF>21%</color>所有元素伤害加成，并能获得「雾切之巴印」的威势。雾切之巴印：持有1/2/3层雾切之巴印时，获得<color=#99FFFFFF>14/28/49%</color>自己的元素类型的元素伤害加成。在下列情况下，角色将各获得1层雾切之巴印：普通攻击造成元素伤害时，持续5秒；施放元素爆发时，持续10秒；此外，角色元素能量低于100%时，将获得1层雾切之巴印，此雾切之巴印会在角色的元素能量充满时消失。每层雾切之巴印的持续时间独立计算。",
+          "params": [0.21, 0.14, 0.28, 0.49, 5, 10]
+        },
+        {
+          "desc": "获得<color=#99FFFFFF>24%</color>所有元素伤害加成，并能获得「雾切之巴印」的威势。雾切之巴印：持有1/2/3层雾切之巴印时，获得<color=#99FFFFFF>16/32/56%</color>自己的元素类型的元素伤害加成。在下列情况下，角色将各获得1层雾切之巴印：普通攻击造成元素伤害时，持续5秒；施放元素爆发时，持续10秒；此外，角色元素能量低于100%时，将获得1层雾切之巴印，此雾切之巴印会在角色的元素能量充满时消失。每层雾切之巴印的持续时间独立计算。",
+          "params": [0.24, 0.16, 0.32, 0.56, 5, 10]
+        }
+      ]
+    }
   },
   {
     "id": "WasterGreatsword",
@@ -3522,6 +3709,88 @@
         { "desc": "普通攻击与重击命中敌人时，有<color=#99FFFFFF>80%</color>概率在敌人上方生成恒冰晶核并坠落，造成<color=#99FFFFFF>110%</color>攻击力的范围伤害。若敌人处于冰元素影响下，则造成<color=#99FFFFFF>280%</color>攻击力的伤害。该效果每10秒至多触发一次。", "params": [0.8, 1.1, 2.8, 10] },
         { "desc": "普通攻击与重击命中敌人时，有<color=#99FFFFFF>90%</color>概率在敌人上方生成恒冰晶核并坠落，造成<color=#99FFFFFF>125%</color>攻击力的范围伤害。若敌人处于冰元素影响下，则造成<color=#99FFFFFF>320%</color>攻击力的伤害。该效果每10秒至多触发一次。", "params": [0.9, 1.25, 3.2, 10] },
         { "desc": "普通攻击与重击命中敌人时，有<color=#99FFFFFF>100%</color>概率在敌人上方生成恒冰晶核并坠落，造成<color=#99FFFFFF>140%</color>攻击力的范围伤害。若敌人处于冰元素影响下，则造成<color=#99FFFFFF>360%</color>攻击力的伤害。该效果每10秒至多触发一次。", "params": [1, 1.4, 3.6, 10] }
+      ]
+    }
+  },
+  {
+    "id": "KatsuragikiriNagamasa",
+    "name": "Katsuragikiri Nagamasa",
+    "localeName": "桂木斩长正",
+    "desc": "过去在踏鞴砂打造的刀，沉重而坚韧。",
+    "rarity": 4,
+    "type": 4,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "NarukamisWisdom", "localeName": "鸣神御灵的明惠", "count": 3 },
+          { "id": "ChaosGear", "localeName": "混沌机关", "count": 3 },
+          { "id": "OldHandguard", "localeName": "破旧的刀镡", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鸣神御灵的欢喜", "count": 3 },
+          { "id": "ChaosGear", "localeName": "混沌机关", "count": 12 },
+          { "id": "OldHandguard", "localeName": "破旧的刀镡", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鸣神御灵的欢喜", "count": 6 },
+          { "id": "ChaosAxis", "localeName": "混沌枢纽", "count": 6 },
+          { "id": "KageuchiHandguard", "localeName": "影打刀镡", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鸣神御灵的亲爱", "count": 3 },
+          { "id": "ChaosAxis", "localeName": "混沌枢纽", "count": 12 },
+          { "id": "KageuchiHandguard", "localeName": "影打刀镡", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鸣神御灵的亲爱", "count": 6 },
+          { "id": "ChaosOculus", "localeName": "混沌真眼", "count": 9 },
+          { "id": "FamedHandguard", "localeName": "名刀镡", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "NarukamisValor", "localeName": "鸣神御灵的勇武", "count": 4 },
+          { "id": "ChaosOculus", "localeName": "混沌真眼", "count": 18 },
+          { "id": "FamedHandguard", "localeName": "名刀镡", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "overviewItems": [
+      { "id": "NarukamisValor", "name": "鸣神御灵的勇武", "rarity": 5 },
+      { "id": "ChaosOculus", "name": "混沌真眼", "rarity": 4 },
+      { "id": "FamedHandguard", "name": "名刀镡", "rarity": 3 }
+    ],
+    "subAttr": { "type": 10, "value": 0.1, "curve": 17 },
+    "affix": {
+      "name": "名士振舞",
+      "levels": [
+        { "desc": "元素战技造成的伤害提升<color=#99FFFFFF>6%</color>。元素战技命中后，角色流失3点元素能量，并在此后的6秒内，每2秒恢复<color=#99FFFFFF>3</color>点元素能量。该效果每10秒至多触发一次，角色处于队伍后台也能触发。", "params": [0.06, 3, 3, 6, 10] },
+        { "desc": "元素战技造成的伤害提升<color=#99FFFFFF>7.5%</color>。元素战技命中后，角色流失3点元素能量，并在此后的6秒内，每2秒恢复<color=#99FFFFFF>3.5</color>点元素能量。该效果每10秒至多触发一次，角色处于队伍后台也能触发。", "params": [0.075, 3, 3.5, 6, 10] },
+        { "desc": "元素战技造成的伤害提升<color=#99FFFFFF>9%</color>。元素战技命中后，角色流失3点元素能量，并在此后的6秒内，每2秒恢复<color=#99FFFFFF>4</color>点元素能量。该效果每10秒至多触发一次，角色处于队伍后台也能触发。", "params": [0.09, 3, 4, 6, 10] },
+        { "desc": "元素战技造成的伤害提升<color=#99FFFFFF>10.5%</color>。元素战技命中后，角色流失3点元素能量，并在此后的6秒内，每2秒恢复<color=#99FFFFFF>4.5</color>点元素能量。该效果每10秒至多触发一次，角色处于队伍后台也能触发。", "params": [0.105, 3, 4.5, 6, 10] },
+        { "desc": "元素战技造成的伤害提升<color=#99FFFFFF>12%</color>。元素战技命中后，角色流失3点元素能量，并在此后的6秒内，每2秒恢复<color=#99FFFFFF>5</color>点元素能量。该效果每10秒至多触发一次，角色处于队伍后台也能触发。", "params": [0.12, 3, 5, 6, 10] }
       ]
     }
   },
@@ -5122,6 +5391,88 @@
         { "desc": "普通攻击与重击命中敌人时，有<color=#99FFFFFF>80%</color>概率在敌人上方生成恒冰晶核并坠落，造成<color=#99FFFFFF>110%</color>攻击力的范围伤害。若敌人处于冰元素影响下，则造成<color=#99FFFFFF>280%</color>攻击力的伤害。该效果每10秒至多触发一次。", "params": [0.8, 1.1, 2.8, 10] },
         { "desc": "普通攻击与重击命中敌人时，有<color=#99FFFFFF>90%</color>概率在敌人上方生成恒冰晶核并坠落，造成<color=#99FFFFFF>125%</color>攻击力的范围伤害。若敌人处于冰元素影响下，则造成<color=#99FFFFFF>320%</color>攻击力的伤害。该效果每10秒至多触发一次。", "params": [0.9, 1.25, 3.2, 10] },
         { "desc": "普通攻击与重击命中敌人时，有<color=#99FFFFFF>100%</color>概率在敌人上方生成恒冰晶核并坠落，造成<color=#99FFFFFF>140%</color>攻击力的范围伤害。若敌人处于冰元素影响下，则造成<color=#99FFFFFF>360%</color>攻击力的伤害。该效果每10秒至多触发一次。", "params": [1, 1.4, 3.6, 10] }
+      ]
+    }
+  },
+  {
+    "id": "KitainCrossSpear",
+    "name": "Kitain Cross Spear",
+    "localeName": "喜多院十文字",
+    "desc": "曾经在八酝岛守望「祟神」的枪法名士所用的特殊长枪。",
+    "rarity": 4,
+    "type": 3,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "MaskOfTheWickedLieutenant", "localeName": "今昔剧画之恶尉", "count": 3 },
+          { "id": "ChaosGear", "localeName": "混沌机关", "count": 3 },
+          { "id": "TreasureHoarderInsignia", "localeName": "寻宝鸦印", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "今昔剧画之虎啮", "count": 3 },
+          { "id": "ChaosGear", "localeName": "混沌机关", "count": 12 },
+          { "id": "TreasureHoarderInsignia", "localeName": "寻宝鸦印", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "今昔剧画之虎啮", "count": 6 },
+          { "id": "ChaosAxis", "localeName": "混沌枢纽", "count": 6 },
+          { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "今昔剧画之一角", "count": 3 },
+          { "id": "ChaosAxis", "localeName": "混沌枢纽", "count": 12 },
+          { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "今昔剧画之一角", "count": 6 },
+          { "id": "ChaosOculus", "localeName": "混沌真眼", "count": 9 },
+          { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "MaskOfTheKijin", "localeName": "今昔剧画之鬼人", "count": 4 },
+          { "id": "ChaosOculus", "localeName": "混沌真眼", "count": 18 },
+          { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "overviewItems": [
+      { "id": "MaskOfTheKijin", "name": "今昔剧画之鬼人", "rarity": 5 },
+      { "id": "ChaosOculus", "name": "混沌真眼", "rarity": 4 },
+      { "id": "GoldenRavenInsignia", "name": "攫金鸦印", "rarity": 3 }
+    ],
+    "subAttr": { "type": 11, "value": 24, "curve": 17 },
+    "affix": {
+      "name": "名士振舞",
+      "levels": [
+        { "desc": "元素战技造成的伤害提升<color=#99FFFFFF>6%</color>。元素战技命中后，角色流失3点元素能量，并在此后的6秒内，每2秒恢复<color=#99FFFFFF>3</color>点元素能量。该效果每10秒至多触发一次，角色处于队伍后台也能触发。", "params": [0.06, 3, 3, 6, 10] },
+        { "desc": "元素战技造成的伤害提升<color=#99FFFFFF>7.5%</color>。元素战技命中后，角色流失3点元素能量，并在此后的6秒内，每2秒恢复<color=#99FFFFFF>3.5</color>点元素能量。该效果每10秒至多触发一次，角色处于队伍后台也能触发。", "params": [0.075, 3, 3.5, 6, 10] },
+        { "desc": "元素战技造成的伤害提升<color=#99FFFFFF>9%</color>。元素战技命中后，角色流失3点元素能量，并在此后的6秒内，每2秒恢复<color=#99FFFFFF>4</color>点元素能量。该效果每10秒至多触发一次，角色处于队伍后台也能触发。", "params": [0.09, 3, 4, 6, 10] },
+        { "desc": "元素战技造成的伤害提升<color=#99FFFFFF>10.5%</color>。元素战技命中后，角色流失3点元素能量，并在此后的6秒内，每2秒恢复<color=#99FFFFFF>4.5</color>点元素能量。该效果每10秒至多触发一次，角色处于队伍后台也能触发。", "params": [0.105, 3, 4.5, 6, 10] },
+        { "desc": "元素战技造成的伤害提升<color=#99FFFFFF>12%</color>。元素战技命中后，角色流失3点元素能量，并在此后的6秒内，每2秒恢复<color=#99FFFFFF>5</color>点元素能量。该效果每10秒至多触发一次，角色处于队伍后台也能触发。", "params": [0.12, 3, 5, 6, 10] }
       ]
     }
   },
@@ -7089,6 +7440,88 @@
     }
   },
   {
+    "id": "HakushinRing",
+    "name": "Hakushin Ring",
+    "localeName": "白辰之环",
+    "desc": "承载着过去的「狐斋宫」思念的法器。但她的思念之大，是无法完全装进这样小小的器物当中的。",
+    "rarity": 4,
+    "type": 5,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "CoralBranchOfADistantSea", "localeName": "远海夷地的瑚枝", "count": 3 },
+          { "id": "DismalPrism", "localeName": "黯淡棱镜", "count": 3 },
+          { "id": "DiviningScroll", "localeName": "导能绘卷", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "远海夷地的玉枝", "count": 3 },
+          { "id": "DismalPrism", "localeName": "黯淡棱镜", "count": 12 },
+          { "id": "DiviningScroll", "localeName": "导能绘卷", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "远海夷地的玉枝", "count": 6 },
+          { "id": "CrystalPrism", "localeName": "水晶棱镜", "count": 6 },
+          { "id": "SealedScroll", "localeName": "封魔绘卷", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "远海夷地的琼枝", "count": 3 },
+          { "id": "CrystalPrism", "localeName": "水晶棱镜", "count": 12 },
+          { "id": "SealedScroll", "localeName": "封魔绘卷", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "远海夷地的琼枝", "count": 6 },
+          { "id": "PolarizingPrism", "localeName": "偏光棱镜", "count": 9 },
+          { "id": "ForbiddenCurseScroll", "localeName": "禁咒绘卷", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "GoldenBranchOfADistantSea", "localeName": "远海夷地的金枝", "count": 4 },
+          { "id": "PolarizingPrism", "localeName": "偏光棱镜", "count": 18 },
+          { "id": "ForbiddenCurseScroll", "localeName": "禁咒绘卷", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "overviewItems": [
+      { "id": "GoldenBranchOfADistantSea", "name": "远海夷地的金枝", "rarity": 5 },
+      { "id": "PolarizingPrism", "name": "偏光棱镜", "rarity": 4 },
+      { "id": "ForbiddenCurseScroll", "name": "禁咒绘卷", "rarity": 3 }
+    ],
+    "subAttr": { "type": 10, "value": 0.066667, "curve": 17 },
+    "affix": {
+      "name": "樱之斋宫",
+      "levels": [
+        { "desc": "装备该武器的角色触发雷元素相关反应后，队伍中附近的与该元素反应相关的元素类型的角色，获得<color=#99FFFFFF>10%</color>对应元素的元素伤害加成，持续6秒。通过这种方式，角色获得的元素伤害加成无法叠加。", "params": [0.1, 6, 1] },
+        { "desc": "装备该武器的角色触发雷元素相关反应后，队伍中附近的与该元素反应相关的元素类型的角色，获得<color=#99FFFFFF>12.5%</color>对应元素的元素伤害加成，持续6秒。通过这种方式，角色获得的元素伤害加成无法叠加。", "params": [0.125, 6, 1] },
+        { "desc": "装备该武器的角色触发雷元素相关反应后，队伍中附近的与该元素反应相关的元素类型的角色，获得<color=#99FFFFFF>15%</color>对应元素的元素伤害加成，持续6秒。通过这种方式，角色获得的元素伤害加成无法叠加。", "params": [0.15, 6, 1] },
+        { "desc": "装备该武器的角色触发雷元素相关反应后，队伍中附近的与该元素反应相关的元素类型的角色，获得<color=#99FFFFFF>17.5%</color>对应元素的元素伤害加成，持续6秒。通过这种方式，角色获得的元素伤害加成无法叠加。", "params": [0.175, 6, 1] },
+        { "desc": "装备该武器的角色触发雷元素相关反应后，队伍中附近的与该元素反应相关的元素类型的角色，获得<color=#99FFFFFF>20%</color>对应元素的元素伤害加成，持续6秒。通过这种方式，角色获得的元素伤害加成无法叠加。", "params": [0.2, 6, 1] }
+      ]
+    }
+  },
+  {
     "id": "SkywardAtlas",
     "name": "Skyward Atlas",
     "localeName": "天空之卷",
@@ -9051,6 +9484,88 @@
     }
   },
   {
+    "id": "Hamayumi",
+    "name": "Hamayumi",
+    "localeName": "破魔之弓",
+    "desc": "曾经属于某个巫女的战弓。以优越的技法打造，精巧而耐用。",
+    "rarity": 4,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "NarukamisWisdom", "localeName": "鸣神御灵的明惠", "count": 3 },
+          { "id": "DismalPrism", "localeName": "黯淡棱镜", "count": 3 },
+          { "id": "FirmArrowhead", "localeName": "牢固的箭簇", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鸣神御灵的欢喜", "count": 3 },
+          { "id": "DismalPrism", "localeName": "黯淡棱镜", "count": 12 },
+          { "id": "FirmArrowhead", "localeName": "牢固的箭簇", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鸣神御灵的欢喜", "count": 6 },
+          { "id": "CrystalPrism", "localeName": "水晶棱镜", "count": 6 },
+          { "id": "SharpArrowhead", "localeName": "锐利的箭簇", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鸣神御灵的亲爱", "count": 3 },
+          { "id": "CrystalPrism", "localeName": "水晶棱镜", "count": 12 },
+          { "id": "SharpArrowhead", "localeName": "锐利的箭簇", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鸣神御灵的亲爱", "count": 6 },
+          { "id": "PolarizingPrism", "localeName": "偏光棱镜", "count": 9 },
+          { "id": "WeatheredArrowhead", "localeName": "历战的箭簇", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "NarukamisValor", "localeName": "鸣神御灵的勇武", "count": 4 },
+          { "id": "PolarizingPrism", "localeName": "偏光棱镜", "count": 18 },
+          { "id": "WeatheredArrowhead", "localeName": "历战的箭簇", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 41.067,
+    "baseATKCurve": 9,
+    "overviewItems": [
+      { "id": "NarukamisValor", "name": "鸣神御灵的勇武", "rarity": 5 },
+      { "id": "PolarizingPrism", "name": "偏光棱镜", "rarity": 4 },
+      { "id": "WeatheredArrowhead", "name": "历战的箭簇", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.12, "curve": 17 },
+    "affix": {
+      "name": "浅濑之弭",
+      "levels": [
+        { "desc": "普通攻击造成的伤害提升<color=#99FFFFFF>16%</color>，重击造成的伤害提升<color=#99FFFFFF>12%</color>。当装备该武器的角色元素能量等于100%时，这个效果提升100%。", "params": [0.16, 0.12, 1] },
+        { "desc": "普通攻击造成的伤害提升<color=#99FFFFFF>20%</color>，重击造成的伤害提升<color=#99FFFFFF>15%</color>。当装备该武器的角色元素能量等于100%时，这个效果提升100%。", "params": [0.2, 0.15, 1] },
+        { "desc": "普通攻击造成的伤害提升<color=#99FFFFFF>24%</color>，重击造成的伤害提升<color=#99FFFFFF>18%</color>。当装备该武器的角色元素能量等于100%时，这个效果提升100%。", "params": [0.24, 0.18, 1] },
+        { "desc": "普通攻击造成的伤害提升<color=#99FFFFFF>28%</color>，重击造成的伤害提升<color=#99FFFFFF>21%</color>。当装备该武器的角色元素能量等于100%时，这个效果提升100%。", "params": [0.28, 0.21, 1] },
+        { "desc": "普通攻击造成的伤害提升<color=#99FFFFFF>32%</color>，重击造成的伤害提升<color=#99FFFFFF>24%</color>。当装备该武器的角色元素能量等于100%时，这个效果提升100%。", "params": [0.32, 0.24, 1] }
+      ]
+    }
+  },
+  {
     "id": "SkywardHarp",
     "name": "Skyward Harp",
     "localeName": "天空之翼",
@@ -9454,5 +9969,102 @@
     ],
     "baseATK": 42.735,
     "baseATKCurve": 1
+  },
+  {
+    "id": "ThunderingPulse",
+    "name": "Thundering Pulse",
+    "localeName": "飞雷之弦振",
+    "desc": "曾由将军御赐的长弓，闪烁着永不熄灭的雷光。",
+    "rarity": 5,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          { "id": "NarukamisWisdom", "localeName": "鸣神御灵的明惠", "count": 5 },
+          { "id": "DismalPrism", "localeName": "黯淡棱镜", "count": 5 },
+          { "id": "FirmArrowhead", "localeName": "牢固的箭簇", "count": 3 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鸣神御灵的欢喜", "count": 5 },
+          { "id": "DismalPrism", "localeName": "黯淡棱镜", "count": 18 },
+          { "id": "FirmArrowhead", "localeName": "牢固的箭簇", "count": 12 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鸣神御灵的欢喜", "count": 9 },
+          { "id": "CrystalPrism", "localeName": "水晶棱镜", "count": 9 },
+          { "id": "SharpArrowhead", "localeName": "锐利的箭簇", "count": 9 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鸣神御灵的亲爱", "count": 5 },
+          { "id": "CrystalPrism", "localeName": "水晶棱镜", "count": 18 },
+          { "id": "SharpArrowhead", "localeName": "锐利的箭簇", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鸣神御灵的亲爱", "count": 9 },
+          { "id": "PolarizingPrism", "localeName": "偏光棱镜", "count": 14 },
+          { "id": "WeatheredArrowhead", "localeName": "历战的箭簇", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "NarukamisValor", "localeName": "鸣神御灵的勇武", "count": 6 },
+          { "id": "PolarizingPrism", "localeName": "偏光棱镜", "count": 27 },
+          { "id": "WeatheredArrowhead", "localeName": "历战的箭簇", "count": 18 }
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "overviewItems": [
+      { "id": "NarukamisValor", "name": "鸣神御灵的勇武", "rarity": 5 },
+      { "id": "PolarizingPrism", "name": "偏光棱镜", "rarity": 4 },
+      { "id": "WeatheredArrowhead", "name": "历战的箭簇", "rarity": 3 }
+    ],
+    "subAttr": { "type": 13, "value": 0.144, "curve": 18 },
+    "affix": {
+      "name": "飞雷御执",
+      "levels": [
+        {
+          "desc": "攻击力提高<color=#99FFFFFF>20%</color>，并能获得「飞雷之巴印」的威势。飞雷之巴印：持有1/2/3层飞雷之巴印时，普通攻击造成的伤害提高<color=#99FFFFFF>12/24/40%</color>。在下列情况下，角色将各获得1层飞雷之巴印：普通攻击造成伤害时，持续5秒；施放元素战技时，持续10秒；此外，角色元素能量低于100%时，将获得1层飞雷之巴印，此飞雷之巴印会在角色的元素能量充满时消失。每层飞雷之巴印的持续时间独立计算。",
+          "params": [0.2, 0.12, 0.24, 0.4, 5, 10]
+        },
+        {
+          "desc": "攻击力提高<color=#99FFFFFF>25%</color>，并能获得「飞雷之巴印」的威势。飞雷之巴印：持有1/2/3层飞雷之巴印时，普通攻击造成的伤害提高<color=#99FFFFFF>15/30/50%</color>。在下列情况下，角色将各获得1层飞雷之巴印：普通攻击造成伤害时，持续5秒；施放元素战技时，持续10秒；此外，角色元素能量低于100%时，将获得1层飞雷之巴印，此飞雷之巴印会在角色的元素能量充满时消失。每层飞雷之巴印的持续时间独立计算。",
+          "params": [0.25, 0.15, 0.3, 0.5, 5, 10]
+        },
+        {
+          "desc": "攻击力提高<color=#99FFFFFF>30%</color>，并能获得「飞雷之巴印」的威势。飞雷之巴印：持有1/2/3层飞雷之巴印时，普通攻击造成的伤害提高<color=#99FFFFFF>18/36/60%</color>。在下列情况下，角色将各获得1层飞雷之巴印：普通攻击造成伤害时，持续5秒；施放元素战技时，持续10秒；此外，角色元素能量低于100%时，将获得1层飞雷之巴印，此飞雷之巴印会在角色的元素能量充满时消失。每层飞雷之巴印的持续时间独立计算。",
+          "params": [0.3, 0.18, 0.36, 0.6, 5, 10]
+        },
+        {
+          "desc": "攻击力提高<color=#99FFFFFF>35%</color>，并能获得「飞雷之巴印」的威势。飞雷之巴印：持有1/2/3层飞雷之巴印时，普通攻击造成的伤害提高<color=#99FFFFFF>21/42/70%</color>。在下列情况下，角色将各获得1层飞雷之巴印：普通攻击造成伤害时，持续5秒；施放元素战技时，持续10秒；此外，角色元素能量低于100%时，将获得1层飞雷之巴印，此飞雷之巴印会在角色的元素能量充满时消失。每层飞雷之巴印的持续时间独立计算。",
+          "params": [0.35, 0.21, 0.42, 0.7, 5, 10]
+        },
+        {
+          "desc": "攻击力提高<color=#99FFFFFF>40%</color>，并能获得「飞雷之巴印」的威势。飞雷之巴印：持有1/2/3层飞雷之巴印时，普通攻击造成的伤害提高<color=#99FFFFFF>24/48/80%</color>。在下列情况下，角色将各获得1层飞雷之巴印：普通攻击造成伤害时，持续5秒；施放元素战技时，持续10秒；此外，角色元素能量低于100%时，将获得1层飞雷之巴印，此飞雷之巴印会在角色的元素能量充满时消失。每层飞雷之巴印的持续时间独立计算。",
+          "params": [0.4, 0.24, 0.48, 0.8, 5, 10]
+        }
+      ]
+    }
   }
 ]

@@ -278,5 +278,23 @@
       { "need": 2, "desc": "Physical DMG is increased by 25%.", "attrs": [], "params": [] },
       { "need": 4, "desc": "When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%.", "attrs": [], "params": [0.09, 7, 0.3, 0.25] }
     ]
+  },
+  {
+    "id": 15019,
+    "name": "ShimenawasReminiscence_0",
+    "localeName": "Shimenawa's Reminiscence",
+    "levels": [
+      { "need": 2, "desc": "ATK +18%.", "attrs": [], "params": [] },
+      { "need": 4, "desc": "When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/ Plunging Attack DMG is increased by 50% for 10s.", "attrs": [], "params": [15, 0.5, 10] }
+    ]
+  },
+  {
+    "id": 15020,
+    "name": "EmblemOfSeveredFate_0",
+    "localeName": "Emblem of Severed Fate",
+    "levels": [
+      { "need": 2, "desc": "Energy Recharge +20%", "attrs": [], "params": [] },
+      { "need": 4, "desc": "Increases Elemental Burst DMG by 25% of Energy Recharge. A maximum of 75% bonus DMG can be obtained in this way.", "attrs": [], "params": [0.25, 0.75] }
+    ]
   }
 ]

@@ -125,7 +125,7 @@ export default class Page extends Vue {
   height = process.client ? document.body.clientHeight - 270 : 800;
   ob?: ResizeObserver;
   mounted() {
-    this.ob = new ResizeObserver(els => {
+    this.ob = new ResizeObserver((els: ResizeObserverEntry[]) => {
       for (const el of els) {
         this.height = el.contentRect.height - 270;
       }

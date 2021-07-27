@@ -1,0 +1,358 @@
+{
+  "id": "Sayu",
+  "name": "Sayu",
+  "localeName": "早柚",
+  "desc": "「終末番」に所属する忍。小柄で、いつも眠たそうにしている。",
+  "baseHP": 993.85,
+  "baseATK": 20.479,
+  "baseDEF": 62.432,
+  "bodyType": 2,
+  "rarity": 4,
+  "weapon": 4,
+  "region": 3,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "VayudaTurquoiseSliver", "localeName": "自由のターコイズ·砕屑", "rarity": 2, "count": 1 },
+        { "id": "CrystalMarrow", "localeName": "晶化骨髄", "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 3 }
+      ],
+      "HP": 742.46,
+      "ATK": 15.299,
+      "DEF": 46.64,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "VayudaTurquoiseFragment", "localeName": "自由のターコイズ·欠片", "rarity": 3, "count": 3 },
+        { "id": "MarionetteCore", "localeName": "魔偶の芯", "rarity": 4, "count": 2 },
+        { "id": "CrystalMarrow", "localeName": "晶化骨髄", "count": 10 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1270,
+      "ATK": 26.17,
+      "DEF": 79.779,
+      "extra": 24
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "VayudaTurquoiseFragment", "localeName": "自由のターコイズ·欠片", "rarity": 3, "count": 6 },
+        { "id": "MarionetteCore", "localeName": "魔偶の芯", "rarity": 4, "count": 4 },
+        { "id": "CrystalMarrow", "localeName": "晶化骨髄", "count": 20 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1973.4,
+      "ATK": 40.664,
+      "DEF": 123.96,
+      "extra": 48
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "VayudaTurquoiseChunk", "localeName": "自由のターコイズ·塊", "rarity": 4, "count": 3 },
+        { "id": "MarionetteCore", "localeName": "魔偶の芯", "rarity": 4, "count": 8 },
+        { "id": "CrystalMarrow", "localeName": "晶化骨髄", "count": 30 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2500.9,
+      "ATK": 51.535,
+      "DEF": 157.1,
+      "extra": 48
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "VayudaTurquoiseChunk", "localeName": "自由のターコイズ·塊", "rarity": 4, "count": 6 },
+        { "id": "MarionetteCore", "localeName": "魔偶の芯", "rarity": 4, "count": 12 },
+        { "id": "CrystalMarrow", "localeName": "晶化骨髄", "count": 45 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 12 }
+      ],
+      "HP": 3028.4,
+      "ATK": 62.405,
+      "DEF": 190.24,
+      "extra": 72
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "VayudaTurquoiseGemstone", "localeName": "自由のターコイズ", "rarity": 5, "count": 6 },
+        { "id": "MarionetteCore", "localeName": "魔偶の芯", "rarity": 4, "count": 20 },
+        { "id": "CrystalMarrow", "localeName": "晶化骨髄", "count": 60 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 24 }
+      ],
+      "HP": 3556,
+      "ATK": 73.276,
+      "DEF": 223.38,
+      "extra": 96
+    }
+  ],
+  "ascensionType": 11,
+  "element": 1,
+  "elemSkill": {
+    "name": "YoohooArtFuuinDash",
+    "localeName": "嗚呼流·風隠急進",
+    "desc": "忍法·嗚呼流の独創奥義！疾風の如く速さで戦場を馳せる！\n体を丸め、高速回転する風々輪となり突進する。命中した敵に<color=#80FFD7FF>風元素ダメージ</color>を与え、スキル終了時に風々輪·旋舞蹴を繰り出し、<color=#80FFD7FF>風元素範囲ダメージ</color>を与える。\n\n<color=#FFD780FF>一回押し</color>\n風々輪状態になり、前方へ転がり、風々輪·旋舞蹴を繰り出す。\n\n<color=#FFD780FF>長押し</color>\n風々輪状態で転がり続ける。早柚の中断耐性がアップする。\n継続時間中、早柚は突進方向を変えることができ、再び発動することでスキルを早めに終了して、一回押しより強力な風々輪·旋舞蹴を繰り出す。\n長押しによって発動した時、元素変化が起きる。\n\n最大10秒継続することが可能。スキル終了時にクールタイムに入る。風々輪状態の継続時間が長いほど、クールタイムは長くなる。\n\n<color=#FFD780FF>元素変化</color>\n風々輪状態の早柚が<color=#80C0FFFF>水元素</color>/<color=#FF9999FF>炎元素</color>/<color=#99FFFFFF>氷元素</color>/<color=#FFACFFFF>雷元素</color>に接触すると、接触した元素の属性を獲得し、風々輪と風々輪·旋舞蹴は該当元素ダメージを追加で与える。\n元素変化はスキル継続中に1回のみ発生する。\n\n<i>目をつぶった状態でも繰り出せる早柚の得意技。本来は逃げるために使っていたが、神の目を持つ今は、敵を懲らしめる時にも使えるようになった。</i>",
+    "cd": 6,
+    "paramTpls": [
+      "風々輪ダメージ|{param1:F1P}",
+      "風々輪·旋舞蹴一回押しダメージ|{param3:F1P}",
+      "風々輪·旋舞蹴長押しダメージ|{param4:F1P}",
+      "風々輪追加元素ダメージ|{param2:F1P}",
+      "風々輪·旋舞蹴長押し追加元素ダメージ|{param5:F1P}",
+      "長押し最大継続時間|{param6:F1}秒",
+      "クールタイム|{param7:F1}~{param8:F1}秒"
+    ],
+    "paramVals": [
+      [0.36, 0.168, 1.584, 2.176, 0.7616, 10, 6, 11],
+      [0.387, 0.1806, 1.7028, 2.3392, 0.81872, 10, 6, 11],
+      [0.414, 0.1932, 1.8216, 2.5024, 0.87584, 10, 6, 11],
+      [0.45, 0.21, 1.98, 2.72, 0.952, 10, 6, 11],
+      [0.477, 0.2226, 2.0988, 2.8832, 1.0091, 10, 6, 11],
+      [0.504, 0.2352, 2.2176, 3.0464, 1.0662, 10, 6, 11],
+      [0.54, 0.252, 2.376, 3.264, 1.1424, 10, 6, 11],
+      [0.576, 0.2688, 2.5344, 3.4816, 1.2186, 10, 6, 11],
+      [0.612, 0.2856, 2.6928, 3.6992, 1.2947, 10, 6, 11],
+      [0.648, 0.3024, 2.8512, 3.9168, 1.3709, 10, 6, 11],
+      [0.684, 0.3192, 3.0096, 4.1344, 1.447, 10, 6, 11],
+      [0.72, 0.336, 3.168, 4.352, 1.5232, 10, 6, 11],
+      [0.765, 0.357, 3.366, 4.624, 1.6184, 10, 6, 11],
+      [0.81, 0.378, 3.564, 4.896, 1.7136, 10, 6, 11],
+      [0.855, 0.399, 3.762, 5.168, 1.8088, 10, 6, 11]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfLight", "localeName": "「天光」の教え", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 4 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 6 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 9 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 12 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "YoohooArtMujinaFlurry",
+    "localeName": "嗚呼流·影貉繚乱",
+    "desc": "忍法·嗚呼流のもう一つの独創奥義！早柚に代わって仕事をこなしてくれる助っ人を創造する！\n近くの敵に<color=#80FFD7FF>風元素ダメージ</color>を与え、周囲のチーム全員のHPを回復し、「むじむじだるま」を召喚する。HPの回復量は早柚の攻撃力によって決まる。\n\n<color=#FFD780FF>むじむじだるま</color>\n周期的に周囲の状況に基づいて、下記の行動を1つ行う。\n·周囲のキャラクター全員のHPが70%を超えている場合、むじむじだるまは近くの敵1体を攻撃し、<color=#80FFD7FF>風元素ダメージ</color>を与える。\n·フィールド上の周囲にHP70%以下のキャラクターがいる場合、フィールド上の最もHPの低いキャラクターのHPを回復する。回復量は早柚の攻撃力によって決まる。周囲に敵がいない場合、周囲のキャラクター全員のHPが70%を超えていても、キャラクターのHPを回復する。\n\n<i>忍術に詳しくない人たちは早柚に忍術を披露してほしく、またさらには早柚に教えてもらおうとする人もいた。しかし、早柚はただ眠たく、邪魔をされたくないだけなのだ。</i>",
+    "cd": 20,
+    "energyCost": 80,
+    "paramTpls": ["スキル発動ダメージ|{param1:P}", "スキル発動回復量|{param3:F1P}攻撃力+{param2:I}", "むじむじだるまダメージ|{param4:P}", "むじむじだるま回復量|{param6:F1P}攻撃力+{param5:I}", "継続時間|{param7:F1}秒", "クールタイム|{param8:F1}秒", "元素エネルギー|{param9:I}"],
+    "paramVals": [
+      [1.168, 577.34, 0.9216, 0.52, 500.36, 0.79872, 12, 20, 80],
+      [1.2556, 635.08, 0.99072, 0.559, 550.4, 0.85862, 12, 20, 80],
+      [1.3432, 697.63, 1.0598, 0.598, 604.62, 0.91853, 12, 20, 80],
+      [1.46, 765, 1.152, 0.65, 663, 0.9984, 12, 20, 80],
+      [1.5476, 837.18, 1.2211, 0.689, 725.55, 1.0583, 12, 20, 80],
+      [1.6352, 914.17, 1.2902, 0.728, 792.28, 1.1182, 12, 20, 80],
+      [1.752, 995.97, 1.3824, 0.78, 863.17, 1.1981, 12, 20, 80],
+      [1.8688, 1082.6, 1.4746, 0.832, 938.24, 1.278, 12, 20, 80],
+      [1.9856, 1174, 1.5667, 0.884, 1017.5, 1.3578, 12, 20, 80],
+      [2.1024, 1270.2, 1.6589, 0.936, 1100.9, 1.4377, 12, 20, 80],
+      [2.2192, 1371.3, 1.751, 0.988, 1188.5, 1.5176, 12, 20, 80],
+      [2.336, 1477.2, 1.8432, 1.04, 1280.2, 1.5974, 12, 20, 80],
+      [2.482, 1587.8, 1.9584, 1.105, 1376.1, 1.6973, 12, 20, 80],
+      [2.628, 1703.3, 2.0736, 1.17, 1476.2, 1.7971, 12, 20, 80],
+      [2.774, 1823.6, 2.1888, 1.235, 1580.5, 1.897, 12, 20, 80]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfLight", "localeName": "「天光」の教え", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 4 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 6 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 9 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 12 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackShuumatsubanNinjaBlade",
+    "localeName": "通常攻撃·忍刀·終末番",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n最大4段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n持続的にスタミナを消費し、大剣を振り回して周囲の敵を攻撃する。\n重撃が終了した時に、さらに強力な攻撃を1回放つ。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+    "cd": 0,
+    "paramTpls": [
+      "1段ダメージ|{param1:F1P}",
+      "2段ダメージ|{param2:F1P}",
+      "3段ダメージ|{param3:F1P}+{param4:F1P}",
+      "4段ダメージ|{param5:F1P}",
+      "連続重撃ダメージ|{param6:F1P}",
+      "重撃終了ダメージ|{param7:P}",
+      "重撃スタミナ消費|毎秒{param8:F1}",
+      "最大継続時間|{param9:F1}秒",
+      "落下期間のダメージ|{param10:F1P}",
+      "低空/高空落下攻撃ダメージ|{param11:P}/{param12:P}"
+    ],
+    "paramVals": [
+      [0.7224, 0.7138, 0.4343, 0.4343, 0.98126, 0.62546, 1.1309, 40, 5, 0.74588, 1.4914, 1.8629],
+      [0.7812, 0.7719, 0.46965, 0.46965, 1.0611, 0.67636, 1.2229, 40, 5, 0.80659, 1.6128, 2.0145],
+      [0.84, 0.83, 0.505, 0.505, 1.141, 0.72727, 1.315, 40, 5, 0.8673, 1.7342, 2.1662],
+      [0.924, 0.913, 0.5555, 0.5555, 1.2551, 0.8, 1.4465, 40, 5, 0.95403, 1.9077, 2.3828],
+      [0.9828, 0.9711, 0.59085, 0.59085, 1.335, 0.85091, 1.5386, 40, 5, 1.0147, 2.0291, 2.5344],
+      [1.05, 1.0375, 0.63125, 0.63125, 1.4262, 0.90909, 1.6437, 40, 5, 1.0841, 2.1678, 2.7077],
+      [1.1424, 1.1288, 0.6868, 0.6868, 1.5518, 0.98909, 1.7884, 40, 5, 1.1795, 2.3586, 2.946],
+      [1.2348, 1.2201, 0.74235, 0.74235, 1.6773, 1.0691, 1.9331, 40, 5, 1.2749, 2.5493, 3.1842],
+      [1.3272, 1.3114, 0.7979, 0.7979, 1.8028, 1.1491, 2.0777, 40, 5, 1.3703, 2.7401, 3.4225],
+      [1.428, 1.411, 0.8585, 0.8585, 1.9397, 1.2364, 2.2355, 40, 5, 1.4744, 2.9482, 3.6825],
+      [1.5435, 1.5251, 0.92794, 0.92794, 2.0966, 1.3364, 2.4163, 40, 5, 1.5785, 3.1563, 3.9424],
+      [1.6793, 1.6593, 1.0096, 1.0096, 2.2811, 1.454, 2.6289, 40, 5, 1.6826, 3.3644, 4.2023],
+      [1.8152, 1.7935, 1.0913, 1.0913, 2.4656, 1.5716, 2.8416, 40, 5, 1.7866, 3.5725, 4.4623],
+      [1.951, 1.9278, 1.1729, 1.1729, 2.6501, 1.6892, 3.0542, 40, 5, 1.8907, 3.7806, 4.7222],
+      [2.0992, 2.0742, 1.262, 1.262, 2.8514, 1.8175, 3.2862, 40, 5, 1.9948, 3.9887, 4.9821]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfLight", "localeName": "「天光」の教え", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 4 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 6 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 9 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 12 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    {
+      "name": "SomeoneMoreCapable",
+      "localeName": "適任の人を探そう",
+      "desc": "早柚がフィールド上で拡散反応を起こした時、チーム内の自身のキャラクターまたは周囲の味方のHPを300回復する。また、早柚の元素熟知の数値が1につき、さらにHPを1.2回復する。\nこの効果は2秒毎に1回のみ発動可能。",
+      "unlock": 1,
+      "values": [300, 1.2, 2]
+    },
+    {
+      "name": "NoWorkToday",
+      "localeName": "仕事をサボるのだ",
+      "desc": "<color=#FFD780FF>嗚呼流·影貉繚乱</color>のむじむじだるまは下記効果を獲得する。\n·キャラクターのHPを回復する時、該当キャラクターの近くに出場している他キャラクターも回復量20%に相当するHPを回復する。\n·敵を攻撃する時、与えるダメージの範囲を拡大する。",
+      "unlock": 4,
+      "values": [0.2]
+    },
+    { "name": "YoohooArtSilencersSecret", "localeName": "嗚呼流·屏息秘伝", "desc": "チーム内に早柚がいる時、チーム内の自身のキャラクターが晶蝶などの一部生物に近づいても気付かれなくなる。\n効果のある生物は図鑑の「生物誌-野生生物」の「その他」分類から確認できる。" }
+  ],
+  "c13ns": [
+    { "name": "MultiTaskNoJutsu", "localeName": "一心二用の術", "desc": "<color=#FFD780FF>嗚呼流·影貉繚乱</color>のむじむじだるまは、キャラクターのHPを無視し、周囲の敵への攻撃とキャラクターへのHP回復行動の2つを同時に行う。" },
+    {
+      "name": "EgressPrep",
+      "localeName": "逃げ道確保",
+      "desc": "<color=#FFD780FF>嗚呼流·風隠急進</color>で下記効果を獲得する。\n·一回押し時の風々輪·旋舞蹴のダメージ+3.3%。\n·長押しの風々輪状態では、0.5秒毎に風々輪·旋舞蹴のダメージ+3.3%。この方式でアップできる風々輪·旋舞蹴のダメージは66%まで。",
+      "values": [0.033, 20]
+    },
+    { "name": "EhTheBunshinCanHandleIt", "localeName": "分身に任せる", "desc": "<color=#FFD780FF>嗚呼流·影貉繚乱</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "SkivingNewAndImproved", "localeName": "新しいサボる方法", "desc": "早柚がフィールド上で拡散反応を起こした時、元素エネルギーを1.2ポイント回復する。この効果は2秒毎に1回のみ発動可能。", "values": [1.2, 2] },
+    { "name": "SpeedComesFirst", "localeName": "素早さ最優先", "desc": "<color=#FFD780FF>嗚呼流·風隠急進</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    {
+      "name": "SleepOClock",
+      "localeName": "ぐーたら寝る時間",
+      "desc": "早柚自身の<color=#FFD780FF>嗚呼流·影貉繚乱</color>によって召喚されたむじむじだるまの攻撃力と回復量は、早柚の元素熟知によって決まる。早柚の元素熟知の数値が1につき、下記効果が発動する。\n·むじむじだるまのダメージは攻撃力0.2%分アップする。この方式でアップできるダメージは攻撃力400%分まで。\n·むじむじだるまによるHP回復量+3。この方式でアップできる回復量は6000まで。",
+      "values": [0.002, 4, 3, 6000]
+    }
+  ],
+  "overviewItems": [
+    { "id": "VayudaTurquoiseGemstone", "localeName": "自由のターコイズ", "rarity": 5 },
+    { "id": "MarionetteCore", "localeName": "魔偶の芯", "rarity": 4 },
+    { "id": "CrystalMarrow", "localeName": "晶化骨髄" },
+    { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3 },
+    { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4 },
+    { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5 }
+  ]
+}

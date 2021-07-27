@@ -39,7 +39,7 @@ export default class IndexPage extends Vue {
   @Action("app/setTimezone") setTimezone!: (v: number) => void;
 
   get availableLocales() {
-    return this.$i18n.locales?.filter((v: any) => v.name);
+    return (this.$i18n.locales as any)?.filter((v: any) => v.name);
   }
 
   get availableTimezone() {

@@ -278,6 +278,15 @@
     "elements": [],
     "type": 1
   },
+  {
+    "id": 1117,
+    "name": "Police Detention Center",
+    "localeName": "Police Detention Center",
+    "desc": "A location being used by the Police Station for temporarily detaining criminals. As well as being heavily guarded, there are also all manner of mechanisms to prevent criminals from escaping.",
+    "elements": [],
+    "type": 1
+  },
+  { "id": 1118, "name": "The Omnipresent God", "localeName": "The Omnipresent God", "desc": "", "elements": [], "type": 1 },
   { "id": 2000, "name": "Lost Treasure of Arcadia", "localeName": "Lost Treasure of Arcadia", "desc": "Lost treasures reveal themselves only to those with true wisdom. Having solved the mystery of Arcadia, you finally arrive at the site of the treasure...", "elements": [], "type": 1 },
   { "id": 2001, "name": "Storming Terror", "localeName": "Storming Terror", "desc": "After a long and daring pursuit of Dvalin, who has been led astray by the Abyss Mages, you are about to finally confront him once and for all.", "elements": [], "type": 1 },
   { "id": 2003, "name": "Cipher for the Ciphertext", "localeName": "Cipher for the Ciphertext", "desc": "A ciphertext written by an Abyss Mage for an Abyss Mage.\nThe simplest way to read it is to find an Abyss Mage, of course...", "elements": [], "type": 1 },
@@ -443,6 +452,16 @@
     "desc": "Challenge the Hateful Oceanid, the Revived Primo Geovishap, and the Dual Maguu Kenki each in turn!\nThere is such a thing as \"the rule of three\": Good omens must appear three times for good fortune to follow, a true victory requires winning three rounds in succession, and of course, it's good manners to bow thrice at the curtain call.",
     "elements": [],
     "type": 9
+  },
+  { "id": 4038, "name": "Tutelage: Castle of Scrolls", "localeName": "Tutelage: Castle of Scrolls", "desc": "Deep within these rocky mountains is a sight that does not belong to this world. Many of those drawn to it do not belong to civilization.", "elements": [], "type": 2 },
+  { "id": 4039, "name": "Tutelage: King of Thieves", "localeName": "Tutelage: King of Thieves", "desc": "Once a samurai residence, now occupied by bandits. Purge the evildoers from within this place.", "elements": [], "type": 2 },
+  {
+    "id": 4040,
+    "name": "Tutelage: A Thousand Scrolls",
+    "localeName": "Tutelage: A Thousand Scrolls",
+    "desc": "This was once the final abode of a tengu warrior incarnate. Having since forsaken the world, it falls to you to solve the riddle they left behind and defeat the trespassing bandits.",
+    "elements": [],
+    "type": 2
   },
   {
     "id": 4200,
@@ -701,6 +720,198 @@
     "type": 8
   },
   {
+    "id": 4340,
+    "name": "Domain of Forgery: Sunken Sands I",
+    "localeName": "Domain of Forgery: Sunken Sands I",
+    "desc": "Lurking at this altar where gold dust flows into eternity are enemies vulnerable to Geo attacks.\nYou shall earn Weapon Ascension Materials, if — and only if — you can pass the trial.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 4341,
+    "name": "Domain of Forgery: Sunken Sands II",
+    "localeName": "Domain of Forgery: Sunken Sands II",
+    "desc": "Lurking at this altar where gold dust flows into eternity are enemies vulnerable to Geo attacks.\nYou shall earn Weapon Ascension Materials, if — and only if — you can pass the trial.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 4342,
+    "name": "Domain of Forgery: Sunken Sands III",
+    "localeName": "Domain of Forgery: Sunken Sands III",
+    "desc": "Lurking at this altar where gold dust flows into eternity are enemies vulnerable to Geo attacks.\nYou shall earn Weapon Ascension Materials, if — and only if — you can pass the trial.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 4343,
+    "name": "Domain of Forgery: Sunken Sands IV",
+    "localeName": "Domain of Forgery: Sunken Sands IV",
+    "desc": "Lurking at this altar where gold dust flows into eternity are enemies vulnerable to Geo attacks.\nYou shall earn Weapon Ascension Materials, if — and only if — you can pass the trial.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 4350,
+    "name": "Domain of Forgery: Altar of Sands I",
+    "localeName": "Domain of Forgery: Altar of Sands I",
+    "desc": "Lurking at this altar where gold dust flows into eternity are enemies vulnerable to Geo attacks.\nYou shall earn Weapon Ascension Materials, if — and only if — you can pass the trial.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 4351,
+    "name": "Domain of Forgery: Altar of Sands II",
+    "localeName": "Domain of Forgery: Altar of Sands II",
+    "desc": "Lurking at this altar where gold dust flows into eternity are enemies vulnerable to Geo attacks.\nYou shall earn Weapon Ascension Materials, if — and only if — you can pass the trial.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 4352,
+    "name": "Domain of Forgery: Altar of Sands III",
+    "localeName": "Domain of Forgery: Altar of Sands III",
+    "desc": "Lurking at this altar where gold dust flows into eternity are enemies vulnerable to Geo attacks.\nYou shall earn Weapon Ascension Materials, if — and only if — you can pass the trial.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 4353,
+    "name": "Domain of Forgery: Altar of Sands IV",
+    "localeName": "Domain of Forgery: Altar of Sands IV",
+    "desc": "Lurking at this altar where gold dust flows into eternity are enemies vulnerable to Geo attacks.\nYou shall earn Weapon Ascension Materials, if — and only if — you can pass the trial.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 4360,
+    "name": "Domain of Forgery: Sand Burial I",
+    "localeName": "Domain of Forgery: Sand Burial I",
+    "desc": "Lurking at this altar where gold dust flows into eternity are enemies vulnerable to Geo attacks.\nYou shall earn Weapon Ascension Materials, if — and only if — you can pass the trial.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 4361,
+    "name": "Domain of Forgery: Sand Burial II",
+    "localeName": "Domain of Forgery: Sand Burial II",
+    "desc": "Lurking at this altar where gold dust flows into eternity are enemies vulnerable to Geo attacks.\nYou shall earn Weapon Ascension Materials, if — and only if — you can pass the trial.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 4362,
+    "name": "Domain of Forgery: Sand Burial III",
+    "localeName": "Domain of Forgery: Sand Burial III",
+    "desc": "Lurking at this altar where gold dust flows into eternity are enemies vulnerable to Geo attacks.\nYou shall earn Weapon Ascension Materials, if — and only if — you can pass the trial.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 4363,
+    "name": "Domain of Forgery: Sand Burial IV",
+    "localeName": "Domain of Forgery: Sand Burial IV",
+    "desc": "Lurking at this altar where gold dust flows into eternity are enemies vulnerable to Geo attacks.\nYou shall earn Weapon Ascension Materials, if — and only if — you can pass the trial.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 4400,
+    "name": "Domain of Mastery: Reign of Violet I",
+    "localeName": "Domain of Mastery: Reign of Violet I",
+    "desc": "Monsters have stormed this altar where violet sakura bloom eternal.\nYou shall earn Talent level-up materials, if — and only if — you can pass the trial.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 4401,
+    "name": "Domain of Mastery: Reign of Violet II",
+    "localeName": "Domain of Mastery: Reign of Violet II",
+    "desc": "Monsters have stormed this altar where violet sakura bloom eternal.\nYou shall earn Talent level-up materials, if — and only if — you can pass the trial.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 4402,
+    "name": "Domain of Mastery: Reign of Violet III",
+    "localeName": "Domain of Mastery: Reign of Violet III",
+    "desc": "Monsters have stormed this altar where violet sakura bloom eternal.\nYou shall earn Talent level-up materials, if — and only if — you can pass the trial.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 4403,
+    "name": "Domain of Mastery: Reign of Violet IV",
+    "localeName": "Domain of Mastery: Reign of Violet IV",
+    "desc": "Monsters have stormed this altar where violet sakura bloom eternal.\nYou shall earn Talent level-up materials, if — and only if — you can pass the trial.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 4410,
+    "name": "Domain of Mastery: Thundering Valley I",
+    "localeName": "Domain of Mastery: Thundering Valley I",
+    "desc": "Monsters have stormed this altar where violet sakura bloom eternal.\nYou shall earn Talent level-up materials, if — and only if — you can pass the trial.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 4411,
+    "name": "Domain of Mastery: Thundering Valley II",
+    "localeName": "Domain of Mastery: Thundering Valley II",
+    "desc": "Monsters have stormed this altar where violet sakura bloom eternal.\nYou shall earn Talent level-up materials, if — and only if — you can pass the trial.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 4412,
+    "name": "Domain of Mastery: Thundering Valley III",
+    "localeName": "Domain of Mastery: Thundering Valley III",
+    "desc": "Monsters have stormed this altar where violet sakura bloom eternal.\nYou shall earn Talent level-up materials, if — and only if — you can pass the trial.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 4413,
+    "name": "Domain of Mastery: Thundering Valley IV",
+    "localeName": "Domain of Mastery: Thundering Valley IV",
+    "desc": "Monsters have stormed this altar where violet sakura bloom eternal.\nYou shall earn Talent level-up materials, if — and only if — you can pass the trial.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 4420,
+    "name": "Domain of Mastery: Vine-Infested Ruins I",
+    "localeName": "Domain of Mastery: Vine-Infested Ruins I",
+    "desc": "Monsters have stormed this altar where violet sakura bloom eternal.\nYou shall earn Talent level-up materials, if — and only if — you can pass the trial.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 4421,
+    "name": "Domain of Mastery: Vine-Infested Ruins II",
+    "localeName": "Domain of Mastery: Vine-Infested Ruins II",
+    "desc": "Monsters have stormed this altar where violet sakura bloom eternal.\nYou shall earn Talent level-up materials, if — and only if — you can pass the trial.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 4422,
+    "name": "Domain of Mastery: Vine-Infested Ruins III",
+    "localeName": "Domain of Mastery: Vine-Infested Ruins III",
+    "desc": "Monsters have stormed this altar where violet sakura bloom eternal.\nYou shall earn Talent level-up materials, if — and only if — you can pass the trial.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 4423,
+    "name": "Domain of Mastery: Vine-Infested Ruins IV",
+    "localeName": "Domain of Mastery: Vine-Infested Ruins IV",
+    "desc": "Monsters have stormed this altar where violet sakura bloom eternal.\nYou shall earn Talent level-up materials, if — and only if — you can pass the trial.",
+    "elements": [],
+    "type": 8
+  },
+  {
     "id": 5001,
     "name": "Domain of Blessing: Fires of Purification I",
     "localeName": "Domain of Blessing: Fires of Purification I",
@@ -953,6 +1164,38 @@
     "name": "Domain of Blessing: Elegaic Rime IV",
     "localeName": "Domain of Blessing: Elegaic Rime IV",
     "desc": "This was once a ritual site close to the skies, but a frigid nail that descended from the firmament buried it into the mountainside.\nThe frigid air has created the unique environment within. You must conquer the cold to pass this trial.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 5200,
+    "name": "Domain of Blessing: Autumn Hunt I",
+    "localeName": "Domain of Blessing: Autumn Hunt I",
+    "desc": "At this altar where red leaves flutter in the wind, summer and autumn are separated into two spheres, one where Cryo is enhanced, the other where Pyro is enhanced.\nThose of profound skill who can master the trial within have a chance to obtain precious artifacts and receive help in their pursuit of that which may otherwise be untraceable.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 5201,
+    "name": "Domain of Blessing: Autumn Hunt II",
+    "localeName": "Domain of Blessing: Autumn Hunt II",
+    "desc": "At this altar where red leaves flutter in the wind, summer and autumn are separated into two spheres, one where Cryo is enhanced, the other where Pyro is enhanced.\nThose of profound skill who can master the trial within have a chance to obtain precious artifacts and receive help in their pursuit of that which may otherwise be untraceable.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 5202,
+    "name": "Domain of Blessing: Autumn Hunt III",
+    "localeName": "Domain of Blessing: Autumn Hunt III",
+    "desc": "At this altar where red leaves flutter in the wind, summer and autumn are separated into two spheres, one where Cryo is enhanced, the other where Pyro is enhanced.\nThose of profound skill who can master the trial within have a chance to obtain precious artifacts and receive help in their pursuit of that which may otherwise be untraceable.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 5203,
+    "name": "Domain of Blessing: Autumn Hunt IV",
+    "localeName": "Domain of Blessing: Autumn Hunt IV",
+    "desc": "At this altar where red leaves flutter in the wind, summer and autumn are separated into two spheres, one where Cryo is enhanced, the other where Pyro is enhanced.\nThose of profound skill who can master the trial within have a chance to obtain precious artifacts and receive help in their pursuit of that which may otherwise be untraceable.",
     "elements": [],
     "type": 8
   },
@@ -1374,5 +1617,36 @@
   { "id": 7216, "name": "Domain of Deceit", "localeName": "Domain of Deceit", "desc": "Energy Amplifier - Unique Dragon's Tear", "elements": [] },
   { "id": 7217, "name": "Domain of Chaos", "localeName": "Domain of Chaos", "desc": "Energy Amplifier - Unique Dragon's Tear", "elements": [] },
   { "id": 7218, "name": "Domain of Furious Thunder", "localeName": "Domain of Furious Thunder", "desc": "Energy Amplifier - Unique Dragon's Tear", "elements": [] },
-  { "id": 7219, "name": "Domain of Heresy", "localeName": "Domain of Heresy", "desc": "Energy Amplifier - Unique Dragon's Tear", "elements": [] }
+  { "id": 7219, "name": "Domain of Heresy", "localeName": "Domain of Heresy", "desc": "Energy Amplifier - Unique Dragon's Tear", "elements": [] },
+  { "id": 7301, "name": "Automaton Front", "localeName": "Automaton Front", "desc": "The traces of the elemental anomalies point to the final Domain! Unprecedentedly powerful Ruin machines linger within... defeat them in one fell swoop.", "elements": [] },
+  { "id": 7400, "name": "Slumber Spirit's Bridge", "localeName": "Slumber Spirit's Bridge", "desc": "In this Stage, enemies will be coming from a single direction. If you wish to achieve victory, you must pay close attention to the Stage and the way enemies arrive.", "elements": [] },
+  { "id": 7401, "name": "Slumber Spirit's Bridge", "localeName": "Slumber Spirit's Bridge", "desc": "In this Stage, enemies will be coming from a single direction. If you wish to achieve victory, you must pay close attention to the Stage and the way enemies arrive.", "elements": [] },
+  { "id": 7402, "name": "Autumnal Resplendence", "localeName": "Autumnal Resplendence", "desc": "In this Stage, enemies will be coming simultaneously from two different directions. If you wish to achieve victory, you must pay close attention the Stage and the way enemies arrive.", "elements": [] },
+  {
+    "id": 7403,
+    "name": "Twin Swallows' Arrival",
+    "localeName": "Twin Swallows' Arrival",
+    "desc": "In this Stage, enemies will be coming simultaneously from two different directions. If you wish to achieve victory, you must pay close attention the Stage and the way enemies arrive.",
+    "elements": []
+  },
+  { "id": 7404, "name": "Springtide Advent", "localeName": "Springtide Advent", "desc": "In this Stage, enemies will be coming simultaneously from two different directions. If you wish to achieve victory, you must pay close attention the Stage and the way enemies arrive.", "elements": [] },
+  { "id": 7405, "name": "Dream Pavilion", "localeName": "Dream Pavilion", "desc": "In this Stage, enemies will be coming simultaneously from two different directions. If you wish to achieve victory, you must pay close attention the Stage and the way enemies arrive.", "elements": [] },
+  {
+    "id": 7406,
+    "name": "Slumber Spirit's Bridge",
+    "localeName": "Slumber Spirit's Bridge",
+    "desc": "In this Stage, enemies will be coming simultaneously from two different directions. If you wish to achieve victory, you must pay close attention the Stage and the way enemies arrive.",
+    "elements": []
+  },
+  { "id": 7407, "name": "Autumnal Resplendence", "localeName": "Autumnal Resplendence", "desc": "In this Stage, enemies will be coming simultaneously from two different directions. If you wish to achieve victory, you must pay close attention the Stage and the way enemies arrive.", "elements": [] },
+  {
+    "id": 7408,
+    "name": "Twin Swallows' Arrival",
+    "localeName": "Twin Swallows' Arrival",
+    "desc": "In this Stage, enemies will be coming simultaneously from two different directions. If you wish to achieve victory, you must pay close attention the Stage and the way enemies arrive.",
+    "elements": []
+  },
+  { "id": 7409, "name": "Springtide Advent", "localeName": "Springtide Advent", "desc": "In this stage, enemies will be coming simultaneously from three different directions. If you wish to achieve victory, you must pay close attention the Stage and the way enemies arrive.", "elements": [] },
+  { "id": 7410, "name": "Dream Pavilion", "localeName": "Dream Pavilion", "desc": "In this stage, enemies will be coming simultaneously from three different directions. If you wish to achieve victory, you must pay close attention the Stage and the way enemies arrive.", "elements": [] },
+  { "id": 7411, "name": "Dream Pavilion", "localeName": "Dream Pavilion", "desc": "In this Stage, enemies will be coming simultaneously from two different directions. If you wish to achieve victory, you must pay close attention the Stage and the way enemies arrive.", "elements": [] }
 ]

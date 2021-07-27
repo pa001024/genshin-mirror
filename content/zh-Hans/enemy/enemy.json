@@ -26,6 +26,8 @@
   { "id": "FrostarmLawachurl", "name": "Frostarm Lawachurl", "localeName": "丘丘霜铠王", "desc": "", "baseHP": 122.26, "baseATK": 75.36, "baseDEF": 500, "type": 2, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.7, 0.1, 0.5] },
   { "id": "StonehideLawachurl", "name": "Stonehide Lawachurl", "localeName": "丘丘岩盔王", "desc": "", "baseHP": 122.26, "baseATK": 75.36, "baseDEF": 500, "type": 2, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.7, 0.5] },
   { "id": "IceShieldwallMitachurl", "name": "Ice Shieldwall Mitachurl", "localeName": "冰盾丘丘暴徒", "desc": "", "baseHP": 40.752, "baseATK": 30.144, "baseDEF": 500, "type": 2, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.3] },
+  { "id": "CracklingAxeMitachurl", "name": "Crackling Axe Mitachurl", "localeName": "雷斧丘丘暴徒", "desc": "", "baseHP": 40.752, "baseATK": 30.144, "baseDEF": 500, "type": 2, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.3] },
+  { "id": "ThunderhelmLawachurl", "name": "Thunderhelm Lawachurl", "localeName": "丘丘雷兜王", "desc": "", "baseHP": 122.26, "baseATK": 75.36, "baseDEF": 500, "type": 2, "resist": [0.1, 0.1, 0.1, 0.7, 0.1, 0.1, 0.1, 0.5] },
   { "id": "DendroSlime", "name": "Dendro Slime", "localeName": "草史莱姆", "desc": "", "baseHP": 10.867, "baseATK": 7.536, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
   { "id": "LargeDendroSlime", "name": "Large Dendro Slime", "localeName": "大型草史莱姆", "desc": "", "baseHP": 27.168, "baseATK": 17.584, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
   { "id": "AnemoSlime", "name": "Anemo Slime", "localeName": "风史莱姆", "desc": "", "baseHP": 10.867, "baseATK": 7.536, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
@@ -109,6 +111,17 @@
     "type": 3,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
+  {
+    "id": "PyroHypostasis",
+    "name": "Pyro Hypostasis",
+    "localeName": "无相之火",
+    "desc": "代号为「基末尔」的高级岩元素生命。\n无相元素本身是超浓缩的构造体，拥有极高的质量。\n浓缩成硬质固体的元素超质壳是惰性的，只有内部的核会活跃发生元素反应。",
+    "baseHP": 95.088,
+    "baseATK": 75.36,
+    "baseDEF": 500,
+    "type": 3,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
   { "id": "ElectroSlime", "name": "Electro Slime", "localeName": "雷史莱姆", "desc": "", "baseHP": 10.867, "baseATK": 7.536, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
   { "id": "LargeElectroSlime", "name": "Large Electro Slime", "localeName": "大型雷史莱姆", "desc": "", "baseHP": 27.168, "baseATK": 17.584, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
   { "id": "MutantElectroSlime", "name": "Mutant Electro Slime", "localeName": "变异雷史莱姆", "desc": "", "baseHP": 27.168, "baseATK": 17.584, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
@@ -147,6 +160,7 @@
   { "id": "CryoHilichurlGrenadier", "name": "Cryo Hilichurl Grenadier", "localeName": "冰弹丘丘人", "desc": "", "baseHP": 10.867, "baseATK": 11.304, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
   { "id": "IceShieldHilichurlGuard", "name": "Ice Shield Hilichurl Guard", "localeName": "冰盾丘丘人", "desc": "", "baseHP": 13.584, "baseATK": 22.608, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
   { "id": "UnusualHilichurl", "name": "Unusual Hilichurl", "localeName": "奇怪的丘丘人", "desc": "", "baseHP": 21.734, "baseATK": 22.608, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
+  { "id": "ElectroHilichurlGrenadier", "name": "Electro Hilichurl Grenadier", "localeName": "雷弹丘丘人", "desc": "", "baseHP": 13.584, "baseATK": 22.608, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
   { "id": "PyroSlime", "name": "Pyro Slime", "localeName": "火史莱姆", "desc": "", "baseHP": 10.867, "baseATK": 7.536, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
   { "id": "LargePyroSlime", "name": "Large Pyro Slime", "localeName": "大型火史莱姆", "desc": "", "baseHP": 27.168, "baseATK": 17.584, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
   { "id": "GeoSlime", "name": "Geo Slime", "localeName": "岩史莱姆", "desc": "", "baseHP": 10.867, "baseATK": 7.536, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
@@ -185,6 +199,17 @@
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
   {
+    "id": "ElectroAbyssMage",
+    "name": "Electro Abyss Mage",
+    "localeName": "雷深渊法师",
+    "desc": "驾驭着极寒的冰元素进行战斗的深渊魔物。\n据说深渊法师在一定程度上理解如今几乎无人可解的失落古语，并利用这种语言的力量行使魔法…",
+    "baseHP": 27.168,
+    "baseATK": 37.68,
+    "baseDEF": 500,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
     "id": "AbyssHeraldWickedTorrents",
     "name": "Abyss Herald: Wicked Torrents",
     "localeName": "深渊使徒·激流",
@@ -211,6 +236,7 @@
   { "id": "AnemoSamachurl", "name": "Anemo Samachurl", "localeName": "风丘丘萨满", "desc": "", "baseHP": 13.584, "baseATK": 25.12, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.5, 0.1, 0.1, 0.1] },
   { "id": "GeoSamachurl", "name": "Geo Samachurl", "localeName": "岩丘丘萨满", "desc": "", "baseHP": 13.584, "baseATK": 25.12, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.1] },
   { "id": "CryoSamachurl", "name": "Cryo Samachurl", "localeName": "冰丘丘萨满", "desc": "", "baseHP": 13.584, "baseATK": 25.12, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.1, 0.1] },
+  { "id": "ElectroSamachurl", "name": "Electro Samachurl", "localeName": "雷丘丘萨满", "desc": "", "baseHP": 13.584, "baseATK": 25.12, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.5, 0.1, 0.1, 0.1, 0.1] },
   {
     "id": "RuinGuard",
     "name": "Ruin Guard",
@@ -244,6 +270,11 @@
     "type": 2,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.7]
   },
+  { "id": "RuinCruiser", "name": "Ruin Cruiser", "localeName": "遗迹巡弋者", "desc": "", "baseHP": 40.752, "baseATK": 52.752, "baseDEF": 500, "type": 2, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.3] },
+  { "id": "RuinDestroyer", "name": "Ruin Destroyer", "localeName": "遗迹歼击者", "desc": "", "baseHP": 40.752, "baseATK": 52.752, "baseDEF": 500, "type": 2, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.3] },
+  { "id": "RuinDefender", "name": "Ruin Defender", "localeName": "遗迹防卫者", "desc": "", "baseHP": 57.053, "baseATK": 37.68, "baseDEF": 500, "type": 2, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.5] },
+  { "id": "RuinScout", "name": "Ruin Scout", "localeName": "遗迹侦察者", "desc": "", "baseHP": 57.053, "baseATK": 37.68, "baseDEF": 500, "type": 2, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.5] },
+  { "id": "PerpetualMechanicalArray", "name": "Perpetual Mechanical Array", "localeName": "恒常机关阵列", "desc": "", "baseHP": 217.34, "baseATK": 75.36, "baseDEF": 500, "type": 3, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.7] },
   {
     "id": "FatuiSkirmisherCryogunnerLegionnaire",
     "name": "Fatui Skirmisher - Cryogunner Legionnaire",
@@ -333,6 +364,7 @@
     "resist": [0.1, 0.1, 0.1, 0.5, 0.1, 0.1, 0.1, -0.2]
   },
   { "id": "FatuiCryoCicinMage", "name": "Fatui Cryo Cicin Mage", "localeName": "愚人众·冰萤术士", "desc": "", "baseHP": 67.92, "baseATK": 50.24, "baseDEF": 500, "type": 2, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.1, -0.2] },
+  { "id": "MirrorMaiden", "name": "Mirror Maiden", "localeName": "愚人众·藏镜仕女", "desc": "", "baseHP": 81.504, "baseATK": 37.68, "baseDEF": 500, "type": 2, "resist": [0.1, 0.1, 0.5, 0.1, 0.1, 0.1, 0.1, -0.2] },
   { "id": "TreasureHoardersLiuliu", "name": "Treasure Hoarders - Liuliu", "localeName": "盗宝团·「溜溜」", "desc": "", "baseHP": 32.602, "baseATK": 25.12, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
   { "id": "TreasureHoardersScout", "name": "Treasure Hoarders - Scout", "localeName": "盗宝团·斥候", "desc": "", "baseHP": 16.301, "baseATK": 15.072, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
   { "id": "TreasureHoardersPyroPotioneer", "name": "Treasure Hoarders: Pyro Potioneer", "localeName": "盗宝团·火之药剂师", "desc": "", "baseHP": 21.734, "baseATK": 20.096, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
@@ -348,9 +380,20 @@
   { "id": "TreasureHoardersBoss", "name": "Treasure Hoarders - Boss", "localeName": "盗宝团·「大姐头」", "desc": "", "baseHP": 32.602, "baseATK": 25.12, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
   { "id": "MillelithSoldier", "name": "Millelith Soldier", "localeName": "千岩军士兵", "desc": "", "baseHP": 21.734, "baseATK": 20.096, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
   { "id": "MillelithSergeant", "name": "Millelith Sergeant", "localeName": "千岩军教头", "desc": "", "baseHP": 32.602, "baseATK": 25.12, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
+  { "id": "ShogunateInfantry", "name": "Shogunate Infantry", "localeName": "幕府足轻", "desc": "", "baseHP": 21.734, "baseATK": 20.096, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
+  { "id": "ShogunateInfantryCaptain", "name": "Shogunate Infantry Captain", "localeName": "幕府足轻头", "desc": "", "baseHP": 32.602, "baseATK": 25.12, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
+  { "id": "SangonomiyaCohort", "name": "Sangonomiya Cohort", "localeName": "珊瑚宫众", "desc": "", "baseHP": 21.734, "baseATK": 20.096, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
   { "id": "TreasureHoardersPugilist", "name": "Treasure Hoarders - Pugilist", "localeName": "盗宝团·拳术家", "desc": "", "baseHP": 27.168, "baseATK": 20.096, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
   { "id": "TreasureHoardersCrusher", "name": "Treasure Hoarders - Crusher", "localeName": "盗宝团·粉碎者", "desc": "", "baseHP": 27.168, "baseATK": 20.096, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
+  { "id": "NobushiJintouban", "name": "Nobushi: Jintouban", "localeName": "野伏·阵刀番", "desc": "", "baseHP": 27.168, "baseATK": 25.12, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
+  { "id": "NobushiHitsukeban", "name": "Nobushi: Hitsukeban", "localeName": "野伏·火付番", "desc": "", "baseHP": 27.168, "baseATK": 25.12, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
+  { "id": "NobushiKikouban", "name": "Nobushi: Kikouban", "localeName": "野伏·机巧番", "desc": "", "baseHP": 27.168, "baseATK": 25.12, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
+  { "id": "YorikiSamurai", "name": "Yoriki Samurai", "localeName": "寄骑武士", "desc": "", "baseHP": 48.902, "baseATK": 37.68, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
   { "id": "MaguuKenki", "name": "Maguu Kenki", "localeName": "魔偶剑鬼", "desc": "", "baseHP": 271.68, "baseATK": 100.48, "baseDEF": 500, "type": 3, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
+  { "id": "KairagiDancingThunder", "name": "Kairagi: Dancing Thunder", "localeName": "海乱鬼·雷腾", "desc": "", "baseHP": 65.203, "baseATK": 62.8, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
+  { "id": "OchimushaEnsorcelledThunder", "name": "Ochimusha: Ensorcelled Thunder", "localeName": "落武者·咒雷", "desc": "", "baseHP": 65.203, "baseATK": 62.8, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
+  { "id": "KairagiFieryMight", "name": "Kairagi: Fiery Might", "localeName": "海乱鬼·炎威", "desc": "", "baseHP": 65.203, "baseATK": 62.8, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
+  { "id": "OchimushaCankeredFlame", "name": "Ochimusha: Cankered Flame", "localeName": "落武者·祟炎", "desc": "", "baseHP": 65.203, "baseATK": 62.8, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
   {
     "id": "CryoWhopperflower",
     "name": "Cryo Whopperflower",
@@ -372,6 +415,17 @@
     "baseDEF": 500,
     "type": 1,
     "resist": [0.5, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "ElectroWhopperflower",
+    "name": "Electro Whopperflower",
+    "localeName": "电气骗骗花",
+    "desc": "古灵精怪的拟态植物魔物，会用火元素攻击猎物。\n提瓦特的世界中，存在着元素凭附的植物。因此获得了智性的它们，对「养分」的需求也大大提升了…",
+    "baseHP": 40.752,
+    "baseATK": 25.12,
+    "baseDEF": 500,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.5, 0.1, 0.1, 0.1, 0.1]
   },
   {
     "id": "CryoRegisvine",

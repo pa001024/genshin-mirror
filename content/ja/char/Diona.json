@@ -319,7 +319,12 @@
     { "name": "AAnotherRound", "localeName": "お、おかわり？", "desc": "<color=#FFD780FF>特製スピリッツ</color>のスキルLv.+3。\n最大Lv.15まで。" },
     { "name": "WineIndustrySlayer", "localeName": "「酒造業キラー」", "desc": "<color=#FFD780FF>特製スピリッツ</color>のエリアにいる時、ディオナの狙い撃ちのチャージ時間-60%。" },
     { "name": "DoubleShotOnTheRocks", "localeName": "エクストラアイス", "desc": "<color=#FFD780FF>フリーズキャッツクロー</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "CatsTailClosingTime", "localeName": "キャッツテールが閉店の時", "desc": "<color=#FFD780FF>特製スピリッツ</color>のエリアにいるキャラクターは自身の現在HPによって以下の効果を獲得する。\n·HPが50%以下の時、受ける治療効果+30%。\n·HPが50%より上回る時、元素熟知+200。", "values": [0.3, 200] }
+    {
+      "name": "CatsTailClosingTime",
+      "localeName": "キャッツテールが閉店の時",
+      "desc": "<color=#FFD780FF>特製スピリッツ</color>のエリアにいるキャラクターは自身の現在HPによって下記の効果を獲得する。\n·HPが50%以下の時、受ける治療効果+30%。\n·HPが50%を超えている時、元素熟知+200。",
+      "values": [0.3, 200]
+    }
   ],
   "overviewItems": [
     { "id": "ShivadaJadeGemstone", "localeName": "哀切なアイスクリスタル", "rarity": 5 },

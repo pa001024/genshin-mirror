@@ -26,6 +26,8 @@
   { "id": "FrostarmLawachurl", "name": "Frostarm Lawachurl", "localeName": "Frostarm Lawachurl", "desc": "", "baseHP": 122.26, "baseATK": 75.36, "baseDEF": 500, "type": 2, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.7, 0.1, 0.5] },
   { "id": "StonehideLawachurl", "name": "Stonehide Lawachurl", "localeName": "Stonehide Lawachurl", "desc": "", "baseHP": 122.26, "baseATK": 75.36, "baseDEF": 500, "type": 2, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.7, 0.5] },
   { "id": "IceShieldwallMitachurl", "name": "Ice Shieldwall Mitachurl", "localeName": "Ice Shieldwall Mitachurl", "desc": "", "baseHP": 40.752, "baseATK": 30.144, "baseDEF": 500, "type": 2, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.3] },
+  { "id": "CracklingAxeMitachurl", "name": "Crackling Axe Mitachurl", "localeName": "Crackling Axe Mitachurl", "desc": "", "baseHP": 40.752, "baseATK": 30.144, "baseDEF": 500, "type": 2, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.3] },
+  { "id": "ThunderhelmLawachurl", "name": "Thunderhelm Lawachurl", "localeName": "Thunderhelm Lawachurl", "desc": "", "baseHP": 122.26, "baseATK": 75.36, "baseDEF": 500, "type": 2, "resist": [0.1, 0.1, 0.1, 0.7, 0.1, 0.1, 0.1, 0.5] },
   { "id": "DendroSlime", "name": "Dendro Slime", "localeName": "Dendro Slime", "desc": "", "baseHP": 10.867, "baseATK": 7.536, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
   { "id": "LargeDendroSlime", "name": "Large Dendro Slime", "localeName": "Large Dendro Slime", "desc": "", "baseHP": 27.168, "baseATK": 17.584, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
   { "id": "AnemoSlime", "name": "Anemo Slime", "localeName": "Anemo Slime", "desc": "", "baseHP": 10.867, "baseATK": 7.536, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
@@ -119,6 +121,17 @@
     "type": 3,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
+  {
+    "id": "PyroHypostasis",
+    "name": "Pyro Hypostasis",
+    "localeName": "Pyro Hypostasis",
+    "desc": "Code name: Gimel. A high-purity Geo entity.\nElemental hypostases are ultra-compact structures with a high mass.\nConcentrated elemental energy forms a solid shell around the core of the hypostasis, leaving only the core reactive to elemental stimuli.",
+    "baseHP": 95.088,
+    "baseATK": 75.36,
+    "baseDEF": 500,
+    "type": 3,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
   { "id": "ElectroSlime", "name": "Electro Slime", "localeName": "Electro Slime", "desc": "", "baseHP": 10.867, "baseATK": 7.536, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
   { "id": "LargeElectroSlime", "name": "Large Electro Slime", "localeName": "Large Electro Slime", "desc": "", "baseHP": 27.168, "baseATK": 17.584, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
   { "id": "MutantElectroSlime", "name": "Mutant Electro Slime", "localeName": "Mutant Electro Slime", "desc": "", "baseHP": 27.168, "baseATK": 17.584, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
@@ -157,6 +170,7 @@
   { "id": "CryoHilichurlGrenadier", "name": "Cryo Hilichurl Grenadier", "localeName": "Cryo Hilichurl Grenadier", "desc": "", "baseHP": 10.867, "baseATK": 11.304, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
   { "id": "IceShieldHilichurlGuard", "name": "Ice Shield Hilichurl Guard", "localeName": "Ice Shield Hilichurl Guard", "desc": "", "baseHP": 13.584, "baseATK": 22.608, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
   { "id": "UnusualHilichurl", "name": "Unusual Hilichurl", "localeName": "Unusual Hilichurl", "desc": "", "baseHP": 21.734, "baseATK": 22.608, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
+  { "id": "ElectroHilichurlGrenadier", "name": "Electro Hilichurl Grenadier", "localeName": "Electro Hilichurl Grenadier", "desc": "", "baseHP": 13.584, "baseATK": 22.608, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
   { "id": "PyroSlime", "name": "Pyro Slime", "localeName": "Pyro Slime", "desc": "", "baseHP": 10.867, "baseATK": 7.536, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
   { "id": "LargePyroSlime", "name": "Large Pyro Slime", "localeName": "Large Pyro Slime", "desc": "", "baseHP": 27.168, "baseATK": 17.584, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
   { "id": "GeoSlime", "name": "Geo Slime", "localeName": "Geo Slime", "desc": "", "baseHP": 10.867, "baseATK": 7.536, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
@@ -195,6 +209,17 @@
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
   },
   {
+    "id": "ElectroAbyssMage",
+    "name": "Electro Abyss Mage",
+    "localeName": "Electro Abyss Mage",
+    "desc": "Abyss creatures who command the power of Cryo in combat.\nThey say Abyss Mages speak in a long-forgotten language from which they draw magical power.",
+    "baseHP": 27.168,
+    "baseATK": 37.68,
+    "baseDEF": 500,
+    "type": 2,
+    "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
     "id": "AbyssHeraldWickedTorrents",
     "name": "Abyss Herald: Wicked Torrents",
     "localeName": "Abyss Herald: Wicked Torrents",
@@ -221,6 +246,7 @@
   { "id": "AnemoSamachurl", "name": "Anemo Samachurl", "localeName": "Anemo Samachurl", "desc": "", "baseHP": 13.584, "baseATK": 25.12, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.5, 0.1, 0.1, 0.1] },
   { "id": "GeoSamachurl", "name": "Geo Samachurl", "localeName": "Geo Samachurl", "desc": "", "baseHP": 13.584, "baseATK": 25.12, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.1] },
   { "id": "CryoSamachurl", "name": "Cryo Samachurl", "localeName": "Cryo Samachurl", "desc": "", "baseHP": 13.584, "baseATK": 25.12, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.1, 0.1] },
+  { "id": "ElectroSamachurl", "name": "Electro Samachurl", "localeName": "Electro Samachurl", "desc": "", "baseHP": 13.584, "baseATK": 25.12, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.5, 0.1, 0.1, 0.1, 0.1] },
   {
     "id": "RuinGuard",
     "name": "Ruin Guard",
@@ -254,6 +280,11 @@
     "type": 2,
     "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.7]
   },
+  { "id": "RuinCruiser", "name": "Ruin Cruiser", "localeName": "Ruin Cruiser", "desc": "", "baseHP": 40.752, "baseATK": 52.752, "baseDEF": 500, "type": 2, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.3] },
+  { "id": "RuinDestroyer", "name": "Ruin Destroyer", "localeName": "Ruin Destroyer", "desc": "", "baseHP": 40.752, "baseATK": 52.752, "baseDEF": 500, "type": 2, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.3] },
+  { "id": "RuinDefender", "name": "Ruin Defender", "localeName": "Ruin Defender", "desc": "", "baseHP": 57.053, "baseATK": 37.68, "baseDEF": 500, "type": 2, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.5] },
+  { "id": "RuinScout", "name": "Ruin Scout", "localeName": "Ruin Scout", "desc": "", "baseHP": 57.053, "baseATK": 37.68, "baseDEF": 500, "type": 2, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.5] },
+  { "id": "PerpetualMechanicalArray", "name": "Perpetual Mechanical Array", "localeName": "Perpetual Mechanical Array", "desc": "", "baseHP": 217.34, "baseATK": 75.36, "baseDEF": 500, "type": 3, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.7] },
   {
     "id": "FatuiSkirmisherCryogunnerLegionnaire",
     "name": "Fatui Skirmisher - Cryogunner Legionnaire",
@@ -343,6 +374,7 @@
     "resist": [0.1, 0.1, 0.1, 0.5, 0.1, 0.1, 0.1, -0.2]
   },
   { "id": "FatuiCryoCicinMage", "name": "Fatui Cryo Cicin Mage", "localeName": "Fatui Cryo Cicin Mage", "desc": "", "baseHP": 67.92, "baseATK": 50.24, "baseDEF": 500, "type": 2, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.5, 0.1, -0.2] },
+  { "id": "MirrorMaiden", "name": "Mirror Maiden", "localeName": "Mirror Maiden", "desc": "", "baseHP": 81.504, "baseATK": 37.68, "baseDEF": 500, "type": 2, "resist": [0.1, 0.1, 0.5, 0.1, 0.1, 0.1, 0.1, -0.2] },
   { "id": "TreasureHoardersLiuliu", "name": "Treasure Hoarders - Liuliu", "localeName": "Treasure Hoarders - Liuliu", "desc": "", "baseHP": 32.602, "baseATK": 25.12, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
   { "id": "TreasureHoardersScout", "name": "Treasure Hoarders - Scout", "localeName": "Treasure Hoarders - Scout", "desc": "", "baseHP": 16.301, "baseATK": 15.072, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
   { "id": "TreasureHoardersPyroPotioneer", "name": "Treasure Hoarders: Pyro Potioneer", "localeName": "Treasure Hoarders: Pyro Potioneer", "desc": "", "baseHP": 21.734, "baseATK": 20.096, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
@@ -358,9 +390,20 @@
   { "id": "TreasureHoardersBoss", "name": "Treasure Hoarders - Boss", "localeName": "Treasure Hoarders - Boss", "desc": "", "baseHP": 32.602, "baseATK": 25.12, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
   { "id": "MillelithSoldier", "name": "Millelith Soldier", "localeName": "Millelith Soldier", "desc": "", "baseHP": 21.734, "baseATK": 20.096, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
   { "id": "MillelithSergeant", "name": "Millelith Sergeant", "localeName": "Millelith Sergeant", "desc": "", "baseHP": 32.602, "baseATK": 25.12, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
+  { "id": "ShogunateInfantry", "name": "Shogunate Infantry", "localeName": "Shogunate Infantry", "desc": "", "baseHP": 21.734, "baseATK": 20.096, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
+  { "id": "ShogunateInfantryCaptain", "name": "Shogunate Infantry Captain", "localeName": "Shogunate Infantry Captain", "desc": "", "baseHP": 32.602, "baseATK": 25.12, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
+  { "id": "SangonomiyaCohort", "name": "Sangonomiya Cohort", "localeName": "Sangonomiya Cohort", "desc": "", "baseHP": 21.734, "baseATK": 20.096, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
   { "id": "TreasureHoardersPugilist", "name": "Treasure Hoarders - Pugilist", "localeName": "Treasure Hoarders - Pugilist", "desc": "", "baseHP": 27.168, "baseATK": 20.096, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
   { "id": "TreasureHoardersCrusher", "name": "Treasure Hoarders - Crusher", "localeName": "Treasure Hoarders - Crusher", "desc": "", "baseHP": 27.168, "baseATK": 20.096, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
+  { "id": "NobushiJintouban", "name": "Nobushi: Jintouban", "localeName": "Nobushi: Jintouban", "desc": "", "baseHP": 27.168, "baseATK": 25.12, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
+  { "id": "NobushiHitsukeban", "name": "Nobushi: Hitsukeban", "localeName": "Nobushi: Hitsukeban", "desc": "", "baseHP": 27.168, "baseATK": 25.12, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
+  { "id": "NobushiKikouban", "name": "Nobushi: Kikouban", "localeName": "Nobushi: Kikouban", "desc": "", "baseHP": 27.168, "baseATK": 25.12, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
+  { "id": "YorikiSamurai", "name": "Yoriki Samurai", "localeName": "Yoriki Samurai", "desc": "", "baseHP": 48.902, "baseATK": 37.68, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
   { "id": "MaguuKenki", "name": "Maguu Kenki", "localeName": "Maguu Kenki", "desc": "", "baseHP": 271.68, "baseATK": 100.48, "baseDEF": 500, "type": 3, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1] },
+  { "id": "KairagiDancingThunder", "name": "Kairagi: Dancing Thunder", "localeName": "Kairagi: Dancing Thunder", "desc": "", "baseHP": 65.203, "baseATK": 62.8, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
+  { "id": "OchimushaEnsorcelledThunder", "name": "Ochimusha: Ensorcelled Thunder", "localeName": "Ochimusha: Ensorcelled Thunder", "desc": "", "baseHP": 65.203, "baseATK": 62.8, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
+  { "id": "KairagiFieryMight", "name": "Kairagi: Fiery Might", "localeName": "Kairagi: Fiery Might", "desc": "", "baseHP": 65.203, "baseATK": 62.8, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
+  { "id": "OchimushaCankeredFlame", "name": "Ochimusha: Cankered Flame", "localeName": "Ochimusha: Cankered Flame", "desc": "", "baseHP": 65.203, "baseATK": 62.8, "baseDEF": 500, "type": 1, "resist": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, -0.2] },
   {
     "id": "CryoWhopperflower",
     "name": "Cryo Whopperflower",
@@ -382,6 +425,17 @@
     "baseDEF": 500,
     "type": 1,
     "resist": [0.5, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  },
+  {
+    "id": "ElectroWhopperflower",
+    "name": "Electro Whopperflower",
+    "localeName": "Electro Whopperflower",
+    "desc": "A mimetic plant monster that attacks without warning and uses Pyro to hunt its prey.\nThe world of Teyvat plays host to plants infused with the elements. Having gained a measure of intellect, their \"nutritional needs\" have also greatly increased...",
+    "baseHP": 40.752,
+    "baseATK": 25.12,
+    "baseDEF": 500,
+    "type": 1,
+    "resist": [0.1, 0.1, 0.1, 0.5, 0.1, 0.1, 0.1, 0.1]
   },
   {
     "id": "CryoRegisvine",

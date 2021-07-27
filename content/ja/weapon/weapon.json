@@ -1153,11 +1153,11 @@
     "affix": {
       "name": "注入の棘",
       "levels": [
-        { "desc": "元素ダメージを与えた6秒間、キャラの与えるダメージ+<color=#99FFFFFF>6%</color>、最大2重まで。1秒毎に1回のみ発動可能。", "params": [0.06, 1, 6] },
-        { "desc": "元素ダメージを与えた後、6秒間キャラの与えるダメージ+<color=#99FFFFFF>7.5%</color>、最大2重まで。1秒毎に1回のみ発動可能。", "params": [0.075, 1, 6] },
-        { "desc": "元素ダメージを与えた後、6秒間キャラの与えるダメージ+<color=#99FFFFFF>9%</color>、最大2重まで。1秒毎に1回のみ発動可能。", "params": [0.09, 1, 6] },
-        { "desc": "元素ダメージを与えた後、6秒間キャラの与えるダメージ+<color=#99FFFFFF>10.5%</color>、最大2重まで。1秒毎に1回のみ発動可能。", "params": [0.105, 1, 6] },
-        { "desc": "元素ダメージを与えた後、6秒間キャラの与えるダメージ+<color=#99FFFFFF>12%</color>、最大2重まで。1秒毎に1回のみ発動可能。", "params": [0.12, 1, 6] }
+        { "desc": "元素ダメージを与えた後の6秒間、キャラクターの与えるダメージ+<color=#99FFFFFF>6%</color>、最大2重まで。1秒毎に1回のみ発動可能。", "params": [0.06, 1, 6] },
+        { "desc": "元素ダメージを与えた後の6秒間、キャラクターの与えるダメージ+<color=#99FFFFFF>7.5%</color>、最大2重まで。1秒毎に1回のみ発動可能。", "params": [0.075, 1, 6] },
+        { "desc": "元素ダメージを与えた後の6秒間、キャラクターの与えるダメージ+<color=#99FFFFFF>9%</color>、最大2重まで。1秒毎に1回のみ発動可能。", "params": [0.09, 1, 6] },
+        { "desc": "元素ダメージを与えた後の6秒間、キャラクターの与えるダメージ+<color=#99FFFFFF>10.5%</color>、最大2重まで。1秒毎に1回のみ発動可能。", "params": [0.105, 1, 6] },
+        { "desc": "元素ダメージを与えた後の6秒間、キャラクターの与えるダメージ+<color=#99FFFFFF>12%</color>、最大2重まで。1秒毎に1回のみ発動可能。", "params": [0.12, 1, 6] }
       ]
     }
   },
@@ -1235,11 +1235,11 @@
     "affix": {
       "name": "勝ちに乗じる",
       "levels": [
-        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>12%</color>、継続時間30秒、最大3重まで。効果継続時間は重毎に別々でカウントされる。", "params": [0.12, 30] },
-        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>15%</color>、継続時間30秒。最大3重まで、効果継続時間は重毎に別々でカウントされる。", "params": [0.15, 30] },
-        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>18%</color>、継続時間30秒。最大3重まで、効果継続時間は重毎に別々でカウントされる。", "params": [0.18, 30] },
-        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>21%</color>、継続時間30秒。最大3重まで、効果継続時間は重毎に別々でカウントされる。", "params": [0.21, 30] },
-        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>24%</color>、継続時間30秒。最大3重まで、効果継続時間は重毎に別々でカウントされる。", "params": [0.24, 30] }
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>12%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。", "params": [0.12, 30] },
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>15%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。", "params": [0.15, 30] },
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>18%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。", "params": [0.18, 30] },
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>21%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。", "params": [0.21, 30] },
+        { "desc": "敵を倒した後、攻撃力+<color=#99FFFFFF>24%</color>、継続時間30秒。最大3重まで、継続時間は加算されず、重ごとに別カウントされる。", "params": [0.24, 30] }
       ]
     }
   },
@@ -1480,7 +1480,12 @@
     "subAttr": { "type": 7, "value": 0.0766, "curve": 16 },
     "affix": {
       "name": "降世",
-      "levels": [{ "desc": "通常攻撃と重撃が命中時、<color=#99FFFFFF>50%</color>の確率で攻撃力の<color=#99FFFFFF>200%</color>の狭範囲ダメージを与える。10秒毎に1回のみ発動可能。旅人が降臨の剣を装備すると、さらに攻撃力+<color=#99FFFFFF>66</color>。", "params": [0.5, 2, 10, 66] }]
+      "levels": [
+        {
+          "desc": "\"PlayStation Network\"でプレイする時のみ有効。\n通常攻撃と重撃が命中時<color=#99FFFFFF>50%</color>の確率で攻撃力の<color=#99FFFFFF>200%</color>の狭範囲ダメージを与える。10秒毎に1回のみ発動可能。旅人が降臨の剣を装備すると、さらに攻撃力+<color=#99FFFFFF>66</color>。",
+          "params": [0.5, 2, 10, 66]
+        }
+      ]
     }
   },
   {
@@ -1562,6 +1567,103 @@
         { "desc": "元素スキルのダメージ+<color=#99FFFFFF>24%</color>、元素スキルの会心率+<color=#99FFFFFF>9%</color>。", "params": [0.24, 0.09] },
         { "desc": "元素スキルのダメージ+<color=#99FFFFFF>28%</color>、元素スキルの会心率+<color=#99FFFFFF>10.5%</color>。", "params": [0.28, 0.105] },
         { "desc": "元素スキルのダメージ+<color=#99FFFFFF>32%</color>、元素スキルの会心率+<color=#99FFFFFF>12%</color>。", "params": [0.32, 0.12] }
+      ]
+    }
+  },
+  {
+    "id": "AmenomaKageuchi",
+    "name": "Amenoma Kageuchi",
+    "localeName": "天目影打",
+    "desc": "神速で名を馳せる天狗をも斬り墜とすという伝説を持つ、名士が発注した刀。",
+    "rarity": 4,
+    "type": 1,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "CoralBranchOfADistantSea", "localeName": "遠海夷地の瑚枝", "count": 3 },
+          { "id": "ChaosGear", "localeName": "混沌の機関", "count": 3 },
+          { "id": "OldHandguard", "localeName": "古びた鍔", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "遠海夷地の石枝", "count": 3 },
+          { "id": "ChaosGear", "localeName": "混沌の機関", "count": 12 },
+          { "id": "OldHandguard", "localeName": "古びた鍔", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "遠海夷地の石枝", "count": 6 },
+          { "id": "ChaosAxis", "localeName": "混沌の中枢", "count": 6 },
+          { "id": "KageuchiHandguard", "localeName": "影打の鍔", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "遠海夷地の玉枝", "count": 3 },
+          { "id": "ChaosAxis", "localeName": "混沌の中枢", "count": 12 },
+          { "id": "KageuchiHandguard", "localeName": "影打の鍔", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "遠海夷地の玉枝", "count": 6 },
+          { "id": "ChaosOculus", "localeName": "混沌の真眼", "count": 9 },
+          { "id": "FamedHandguard", "localeName": "名刀の鍔", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "GoldenBranchOfADistantSea", "localeName": "遠海夷地の金枝", "count": 4 },
+          { "id": "ChaosOculus", "localeName": "混沌の真眼", "count": 18 },
+          { "id": "FamedHandguard", "localeName": "名刀の鍔", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 41.067,
+    "baseATKCurve": 9,
+    "overviewItems": [
+      { "id": "GoldenBranchOfADistantSea", "name": "遠海夷地の金枝", "rarity": 5 },
+      { "id": "ChaosOculus", "name": "混沌の真眼", "rarity": 4 },
+      { "id": "FamedHandguard", "name": "名刀の鍔", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.12, "curve": 17 },
+    "affix": {
+      "name": "岩蔵の胤",
+      "levels": [
+        {
+          "desc": "元素スキルを発動した後、継続時間30秒の継承の印を1つ獲得する。この効果は5秒毎に1回のみ発動可能で、継承の印は同時に最大3つまで存在可能。元素爆発を発動すると、所持している継承の印を全て消費し、消費した継承の印1つにつき、2秒後に該当キャラクターの元素エネルギーを<color=#99FFFFFF>6</color>ポイント回復する。",
+          "params": [30, 3, 5, 6]
+        },
+        {
+          "desc": "元素スキルを発動した後、継続時間30秒の継承の印を1つ獲得する。この効果は5秒毎に1回のみ発動可能で、継承の印は同時に最大3つまで存在可能。元素爆発を発動すると、所持している継承の印を全て消費し、消費した継承の印1つにつき、2秒後に該当キャラクターの元素エネルギーを<color=#99FFFFFF>7.5</color>ポイント回復する。",
+          "params": [30, 3, 5, 7.5]
+        },
+        {
+          "desc": "元素スキルを発動した後、継続時間30秒の継承の印を1つ獲得する。この効果は5秒毎に1回のみ発動可能で、継承の印は同時に最大3つまで存在可能。元素爆発を発動すると、所持している継承の印を全て消費し、消費した継承の印1つにつき、2秒後に該当キャラクターの元素エネルギーを<color=#99FFFFFF>9</color>ポイント回復する。",
+          "params": [30, 3, 5, 9]
+        },
+        {
+          "desc": "元素スキルを発動した後、継続時間30秒の継承の印を1つ獲得する。この効果は5秒毎に1回のみ発動可能で、継承の印は同時に最大3つまで存在可能。元素爆発を発動すると、所持している継承の印を全て消費し、消費した継承の印1つにつき、2秒後に該当キャラクターの元素エネルギーを<color=#99FFFFFF>10.5</color>ポイント回復する。",
+          "params": [30, 3, 5, 10.5]
+        },
+        {
+          "desc": "元素スキルを発動した後、継続時間30秒の継承の印を1つ獲得する。この効果は5秒毎に1回のみ発動可能で、継承の印は同時に最大3つまで存在可能。元素爆発を発動すると、所持している継承の印を全て消費し、消費した継承の印1つにつき、2秒後に該当キャラクターの元素エネルギーを<color=#99FFFFFF>12</color>ポイント回復する。",
+          "params": [30, 3, 5, 12]
+        }
       ]
     }
   },
@@ -2058,6 +2160,103 @@
     ],
     "baseATK": 23.245,
     "baseATKCurve": 1
+  },
+  {
+    "id": "MistsplitterReforged",
+    "name": "Mistsplitter Reforged",
+    "localeName": "霧切の廻光",
+    "desc": "烈々たる紫の光に輝く太刀。「廻光」という名は、かつて砕かれた過去に由来している。",
+    "rarity": 5,
+    "type": 1,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          { "id": "CoralBranchOfADistantSea", "localeName": "遠海夷地の瑚枝", "count": 5 },
+          { "id": "ChaosGear", "localeName": "混沌の機関", "count": 5 },
+          { "id": "OldHandguard", "localeName": "古びた鍔", "count": 3 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "遠海夷地の石枝", "count": 5 },
+          { "id": "ChaosGear", "localeName": "混沌の機関", "count": 18 },
+          { "id": "OldHandguard", "localeName": "古びた鍔", "count": 12 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "遠海夷地の石枝", "count": 9 },
+          { "id": "ChaosAxis", "localeName": "混沌の中枢", "count": 9 },
+          { "id": "KageuchiHandguard", "localeName": "影打の鍔", "count": 9 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "遠海夷地の玉枝", "count": 5 },
+          { "id": "ChaosAxis", "localeName": "混沌の中枢", "count": 18 },
+          { "id": "KageuchiHandguard", "localeName": "影打の鍔", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "遠海夷地の玉枝", "count": 9 },
+          { "id": "ChaosOculus", "localeName": "混沌の真眼", "count": 14 },
+          { "id": "FamedHandguard", "localeName": "名刀の鍔", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "GoldenBranchOfADistantSea", "localeName": "遠海夷地の金枝", "count": 6 },
+          { "id": "ChaosOculus", "localeName": "混沌の真眼", "count": 27 },
+          { "id": "FamedHandguard", "localeName": "名刀の鍔", "count": 18 }
+        ]
+      }
+    ],
+    "baseATK": 47.537,
+    "baseATKCurve": 12,
+    "overviewItems": [
+      { "id": "GoldenBranchOfADistantSea", "name": "遠海夷地の金枝", "rarity": 5 },
+      { "id": "ChaosOculus", "name": "混沌の真眼", "rarity": 4 },
+      { "id": "FamedHandguard", "name": "名刀の鍔", "rarity": 3 }
+    ],
+    "subAttr": { "type": 13, "value": 0.096, "curve": 18 },
+    "affix": {
+      "name": "霧切の御腰物",
+      "levels": [
+        {
+          "desc": "全元素ダメージ+<color=#99FFFFFF>12%</color>、「霧切の巴紋」の効果を獲得できる。霧切の巴紋を1/2/3層有する時、自身元素タイプの元素ダメージ+<color=#99FFFFFF>8/16/28%</color>。霧切の巴紋は次の各状況において獲得できる。通常攻撃で元素ダメージを与えた時、継続時間5秒の霧切の巴紋を1層獲得する。元素爆発を発動した時、継続時間10秒の霧切の巴紋を1層獲得する。また、キャラクターの元素エネルギーが100%未満の場合、霧切の巴紋を1層獲得する、この霧切の巴紋は元素エネルギーが満タンになると消失する。霧切の巴紋の継続時間は層ごとに独立している。",
+          "params": [0.12, 0.08, 0.16, 0.28, 5, 10]
+        },
+        {
+          "desc": "全元素ダメージ+<color=#99FFFFFF>15%</color>、「霧切の巴紋」の効果を獲得できる。霧切の巴紋を1/2/3層有する時、自身元素タイプの元素ダメージ+<color=#99FFFFFF>10/20/35%</color>。霧切の巴紋は次の各状況において獲得できる。通常攻撃で元素ダメージを与えた時、継続時間5秒の霧切の巴紋を1層獲得する。元素爆発を発動した時、継続時間10秒の霧切の巴紋を1層獲得する。また、キャラクターの元素エネルギーが100%未満の場合、霧切の巴紋を1層獲得する、この霧切の巴紋は元素エネルギーが満タンになると消失する。霧切の巴紋の継続時間は層ごとに独立している。",
+          "params": [0.15, 0.1, 0.2, 0.35, 5, 10]
+        },
+        {
+          "desc": "全元素ダメージ+<color=#99FFFFFF>18%</color>、「霧切の巴紋」の効果を獲得できる。霧切の巴紋を1/2/3層有する時、自身元素タイプの元素ダメージ+<color=#99FFFFFF>12/24/42%</color>。霧切の巴紋は次の各状況において獲得できる。通常攻撃で元素ダメージを与えた時、継続時間5秒の霧切の巴紋を1層獲得する。元素爆発を発動した時、継続時間10秒の霧切の巴紋を1層獲得する。また、キャラクターの元素エネルギーが100%未満の場合、霧切の巴紋を1層獲得する、この霧切の巴紋は元素エネルギーが満タンになると消失する。霧切の巴紋の継続時間は層ごとに独立している。",
+          "params": [0.18, 0.12, 0.24, 0.42, 5, 10]
+        },
+        {
+          "desc": "全元素ダメージ+<color=#99FFFFFF>21%</color>、「霧切の巴紋」の効果を獲得できる。霧切の巴紋を1/2/3層有する時、自身元素タイプの元素ダメージ+<color=#99FFFFFF>14/28/49%</color>。霧切の巴紋は次の各状況において獲得できる。通常攻撃で元素ダメージを与えた時、継続時間5秒の霧切の巴紋を1層獲得する。元素爆発を発動した時、継続時間10秒の霧切の巴紋を1層獲得する。また、キャラクターの元素エネルギーが100%未満の場合、霧切の巴紋を1層獲得する、この霧切の巴紋は元素エネルギーが満タンになると消失する。霧切の巴紋の継続時間は層ごとに独立している。",
+          "params": [0.21, 0.14, 0.28, 0.49, 5, 10]
+        },
+        {
+          "desc": "全元素ダメージ+<color=#99FFFFFF>24%</color>、「霧切の巴紋」の効果を獲得できる。霧切の巴紋を1/2/3層有する時、自身元素タイプの元素ダメージ+<color=#99FFFFFF>16/32/56%</color>。霧切の巴紋は次の各状況において獲得できる。通常攻撃で元素ダメージを与えた時、継続時間5秒の霧切の巴紋を1層獲得する。元素爆発を発動した時、継続時間10秒の霧切の巴紋を1層獲得する。また、キャラクターの元素エネルギーが100%未満の場合、霧切の巴紋を1層獲得する、この霧切の巴紋は元素エネルギーが満タンになると消失する。霧切の巴紋の継続時間は層ごとに独立している。",
+          "params": [0.24, 0.16, 0.32, 0.56, 5, 10]
+        }
+      ]
+    }
   },
   {
     "id": "WasterGreatsword",
@@ -3580,6 +3779,103 @@
     }
   },
   {
+    "id": "KatsuragikiriNagamasa",
+    "name": "Katsuragikiri Nagamasa",
+    "localeName": "桂木斬長正",
+    "desc": "たたら砂で鍛えられた刀。重くて強靭である。",
+    "rarity": 4,
+    "type": 4,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "NarukamisWisdom", "localeName": "鳴神御霊の恩恵", "count": 3 },
+          { "id": "ChaosGear", "localeName": "混沌の機関", "count": 3 },
+          { "id": "OldHandguard", "localeName": "古びた鍔", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鳴神御霊の歓喜", "count": 3 },
+          { "id": "ChaosGear", "localeName": "混沌の機関", "count": 12 },
+          { "id": "OldHandguard", "localeName": "古びた鍔", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鳴神御霊の歓喜", "count": 6 },
+          { "id": "ChaosAxis", "localeName": "混沌の中枢", "count": 6 },
+          { "id": "KageuchiHandguard", "localeName": "影打の鍔", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鳴神御霊の親愛", "count": 3 },
+          { "id": "ChaosAxis", "localeName": "混沌の中枢", "count": 12 },
+          { "id": "KageuchiHandguard", "localeName": "影打の鍔", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鳴神御霊の親愛", "count": 6 },
+          { "id": "ChaosOculus", "localeName": "混沌の真眼", "count": 9 },
+          { "id": "FamedHandguard", "localeName": "名刀の鍔", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "NarukamisValor", "localeName": "鳴神御霊の勇武", "count": 4 },
+          { "id": "ChaosOculus", "localeName": "混沌の真眼", "count": 18 },
+          { "id": "FamedHandguard", "localeName": "名刀の鍔", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "overviewItems": [
+      { "id": "NarukamisValor", "name": "鳴神御霊の勇武", "rarity": 5 },
+      { "id": "ChaosOculus", "name": "混沌の真眼", "rarity": 4 },
+      { "id": "FamedHandguard", "name": "名刀の鍔", "rarity": 3 }
+    ],
+    "subAttr": { "type": 10, "value": 0.1, "curve": 17 },
+    "affix": {
+      "name": "名士の振舞",
+      "levels": [
+        {
+          "desc": "元素スキルのダメージ+<color=#99FFFFFF>6%</color>。元素スキルが命中した時、キャラクターは元素エネルギーを3ポイント失う。その後の6秒間、2秒毎に元素エネルギーを<color=#99FFFFFF>3</color>ポイント獲得する。この効果は10秒毎に1回のみ発動でき、待機中のキャラクターも発動できる。",
+          "params": [0.06, 3, 3, 6, 10]
+        },
+        {
+          "desc": "元素スキルのダメージ+<color=#99FFFFFF>7.5%</color>。元素スキルが命中した時、キャラクターは元素エネルギーを3ポイント失う。その後の6秒間、2秒毎に元素エネルギーを<color=#99FFFFFF>3.5</color>ポイント獲得する。この効果は10秒毎に1回のみ発動でき、待機中のキャラクターも発動できる。",
+          "params": [0.075, 3, 3.5, 6, 10]
+        },
+        {
+          "desc": "元素スキルのダメージ+<color=#99FFFFFF>9%</color>。元素スキルが命中した時、キャラクターは元素エネルギーを3ポイント失う。その後の6秒間、2秒毎に元素エネルギーを<color=#99FFFFFF>4</color>ポイント獲得する。この効果は10秒毎に1回のみ発動でき、待機中のキャラクターも発動できる。",
+          "params": [0.09, 3, 4, 6, 10]
+        },
+        {
+          "desc": "元素スキルのダメージ+<color=#99FFFFFF>10.5%</color>。元素スキルが命中した時、キャラクターは元素エネルギーを3失う。その後の6秒間、2秒毎に元素エネルギーを<color=#99FFFFFF>4.5</color>獲得する。この効果は10秒毎に1回のみ発動でき、待機中のキャラクターも発動できる。",
+          "params": [0.105, 3, 4.5, 6, 10]
+        },
+        {
+          "desc": "元素スキルのダメージ+<color=#99FFFFFF>12%</color>。元素スキルが命中した時、キャラクターは元素エネルギーを3失う。その後の6秒間、2秒毎に元素エネルギーを<color=#99FFFFFF>5</color>獲得する。この効果は10秒毎に1回のみ発動でき、待機中のキャラクターも発動できる。",
+          "params": [0.12, 3, 5, 6, 10]
+        }
+      ]
+    }
+  },
+  {
     "id": "SkywardPride",
     "name": "Skyward Pride",
     "localeName": "天空の傲",
@@ -5007,11 +5303,11 @@
     "affix": {
       "name": "追い風が吹く",
       "levels": [
-        { "desc": "攻撃会心時、<color=#99FFFFFF>60%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>12</color>秒毎に1回のみ発動可能。", "params": [0.6, 12] },
-        { "desc": "攻撃会心時、<color=#99FFFFFF>70%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>10.5</color>秒毎に1回のみ発動可能。", "params": [0.7, 10.5] },
-        { "desc": "攻撃会心時、<color=#99FFFFFF>80%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>9</color>秒毎に1回のみ発動可能。", "params": [0.8, 9] },
-        { "desc": "攻撃会心時、<color=#99FFFFFF>90%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>7.5</color>秒毎に1回のみ発動可能。", "params": [0.9, 7.5] },
-        { "desc": "攻撃会心時、<color=#99FFFFFF>100%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>6</color>秒毎に1回のみ発動可能。", "params": [1, 6] }
+        { "desc": "会心攻撃をした時、<color=#99FFFFFF>60%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>12</color>秒毎に1回のみ発動可能。", "params": [0.6, 12] },
+        { "desc": "会心攻撃をした時、<color=#99FFFFFF>70%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>10.5</color>秒毎に1回のみ発動可能。", "params": [0.7, 10.5] },
+        { "desc": "会心攻撃をした時、<color=#99FFFFFF>80%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>9</color>秒毎に1回のみ発動可能。", "params": [0.8, 9] },
+        { "desc": "会心攻撃をした時、<color=#99FFFFFF>90%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>7.5</color>秒毎に1回のみ発動可能。", "params": [0.9, 7.5] },
+        { "desc": "会心攻撃をした時、<color=#99FFFFFF>100%</color>の確率で少量の元素粒子を生成し、元素エネルギーを6回復する。<color=#99FFFFFF>6</color>秒毎に1回のみ発動可能。", "params": [1, 6] }
       ]
     }
   },
@@ -5190,6 +5486,103 @@
         {
           "desc": "通常攻撃と重撃が敵に命中した時、<color=#99FFFFFF>100%</color>の確率で敵の上に恒氷晶核が作られ落下し、攻撃力の<color=#99FFFFFF>140%</color>の範囲ダメージを与える。敵が氷元素の影響を受けている場合、攻撃力の<color=#99FFFFFF>360%</color>のダメージを与える。この効果は10秒毎に1回のみ発動可能。",
           "params": [1, 1.4, 3.6, 10]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KitainCrossSpear",
+    "name": "Kitain Cross Spear",
+    "localeName": "喜多院十文字槍",
+    "desc": "ヤシオリ島で「祟り神」を見守る槍術の名士が使っていた特殊な長槍。",
+    "rarity": 4,
+    "type": 3,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "MaskOfTheWickedLieutenant", "localeName": "今昔劇画の悪尉", "count": 3 },
+          { "id": "ChaosGear", "localeName": "混沌の機関", "count": 3 },
+          { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "今昔劇画の虎牙", "count": 3 },
+          { "id": "ChaosGear", "localeName": "混沌の機関", "count": 12 },
+          { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "今昔劇画の虎牙", "count": 6 },
+          { "id": "ChaosAxis", "localeName": "混沌の中枢", "count": 6 },
+          { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "今昔劇画の隻角", "count": 3 },
+          { "id": "ChaosAxis", "localeName": "混沌の中枢", "count": 12 },
+          { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "今昔劇画の隻角", "count": 6 },
+          { "id": "ChaosOculus", "localeName": "混沌の真眼", "count": 9 },
+          { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "MaskOfTheKijin", "localeName": "今昔劇画の鬼人", "count": 4 },
+          { "id": "ChaosOculus", "localeName": "混沌の真眼", "count": 18 },
+          { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "overviewItems": [
+      { "id": "MaskOfTheKijin", "name": "今昔劇画の鬼人", "rarity": 5 },
+      { "id": "ChaosOculus", "name": "混沌の真眼", "rarity": 4 },
+      { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "rarity": 3 }
+    ],
+    "subAttr": { "type": 11, "value": 24, "curve": 17 },
+    "affix": {
+      "name": "名士の振舞",
+      "levels": [
+        {
+          "desc": "元素スキルのダメージ+<color=#99FFFFFF>6%</color>。元素スキルが命中した時、キャラクターは元素エネルギーを3ポイント失う。その後の6秒間、2秒毎に元素エネルギーを<color=#99FFFFFF>3</color>ポイント獲得する。この効果は10秒毎に1回のみ発動でき、待機中のキャラクターも発動できる。",
+          "params": [0.06, 3, 3, 6, 10]
+        },
+        {
+          "desc": "元素スキルのダメージ+<color=#99FFFFFF>7.5%</color>。元素スキルが命中した時、キャラクターは元素エネルギーを3ポイント失う。その後の6秒間、2秒毎に元素エネルギーを<color=#99FFFFFF>3.5</color>ポイント獲得する。この効果は10秒毎に1回のみ発動でき、待機中のキャラクターも発動できる。",
+          "params": [0.075, 3, 3.5, 6, 10]
+        },
+        {
+          "desc": "元素スキルのダメージ+<color=#99FFFFFF>9%</color>。元素スキルが命中した時、キャラクターは元素エネルギーを3ポイント失う。その後の6秒間、2秒毎に元素エネルギーを<color=#99FFFFFF>4</color>ポイント獲得する。この効果は10秒毎に1回のみ発動でき、待機中のキャラクターも発動できる。",
+          "params": [0.09, 3, 4, 6, 10]
+        },
+        {
+          "desc": "元素スキルのダメージ+<color=#99FFFFFF>10.5%</color>。元素スキルが命中した時、キャラクターは元素エネルギーを3失う。その後の6秒間、2秒毎に元素エネルギーを<color=#99FFFFFF>4.5</color>獲得する。この効果は10秒毎に1回のみ発動でき、待機中のキャラクターも発動できる。",
+          "params": [0.105, 3, 4.5, 6, 10]
+        },
+        {
+          "desc": "元素スキルのダメージ+<color=#99FFFFFF>12%</color>。元素スキルが命中した時、キャラクターは元素エネルギーを3失う。その後の6秒間、2秒毎に元素エネルギーを<color=#99FFFFFF>5</color>獲得する。この効果は10秒毎に1回のみ発動でき、待機中のキャラクターも発動できる。",
+          "params": [0.12, 3, 5, 6, 10]
         }
       ]
     }
@@ -7170,6 +7563,103 @@
     }
   },
   {
+    "id": "HakushinRing",
+    "name": "Hakushin Ring",
+    "localeName": "白辰の輪",
+    "desc": "過去の「狐斎宮」の想いが込められた法器。しかし、彼女の想いの大きさでは、この小さな器に入りきらない。",
+    "rarity": 4,
+    "type": 5,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "CoralBranchOfADistantSea", "localeName": "遠海夷地の瑚枝", "count": 3 },
+          { "id": "DismalPrism", "localeName": "暗色プリズム", "count": 3 },
+          { "id": "DiviningScroll", "localeName": "占いの絵巻", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "遠海夷地の石枝", "count": 3 },
+          { "id": "DismalPrism", "localeName": "暗色プリズム", "count": 12 },
+          { "id": "DiviningScroll", "localeName": "占いの絵巻", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "遠海夷地の石枝", "count": 6 },
+          { "id": "CrystalPrism", "localeName": "水晶プリズム", "count": 6 },
+          { "id": "SealedScroll", "localeName": "封魔の絵巻", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "遠海夷地の玉枝", "count": 3 },
+          { "id": "CrystalPrism", "localeName": "水晶プリズム", "count": 12 },
+          { "id": "SealedScroll", "localeName": "封魔の絵巻", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "遠海夷地の玉枝", "count": 6 },
+          { "id": "PolarizingPrism", "localeName": "偏光プリズム", "count": 9 },
+          { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "GoldenBranchOfADistantSea", "localeName": "遠海夷地の金枝", "count": 4 },
+          { "id": "PolarizingPrism", "localeName": "偏光プリズム", "count": 18 },
+          { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "overviewItems": [
+      { "id": "GoldenBranchOfADistantSea", "name": "遠海夷地の金枝", "rarity": 5 },
+      { "id": "PolarizingPrism", "name": "偏光プリズム", "rarity": 4 },
+      { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "rarity": 3 }
+    ],
+    "subAttr": { "type": 10, "value": 0.066667, "curve": 17 },
+    "affix": {
+      "name": "櫻の斎宮",
+      "levels": [
+        {
+          "desc": "この武器を装備したキャラクターが雷元素に関連する反応を起こした時、周囲チーム内にてその反応に関わった元素タイプのキャラクターは強化効果を獲得する。強化効果：該当元素タイプの元素ダメージ+<color=#99FFFFFF>10%</color>、継続時間6秒。この方式で獲得する元素ダメージアップ効果は重ね掛けできない。",
+          "params": [0.1, 6, 1]
+        },
+        {
+          "desc": "この武器を装備したキャラクターが雷元素に関連する反応を起こした時、周囲チーム内にてその反応に関わった元素タイプのキャラクターは強化効果を獲得する。強化効果：該当元素タイプの元素ダメージ+<color=#99FFFFFF>12.5%</color>、継続時間6秒。この方式で獲得する元素ダメージアップ効果は重ね掛けできない。",
+          "params": [0.125, 6, 1]
+        },
+        {
+          "desc": "この武器を装備したキャラクターが雷元素に関連する反応を起こした時、周囲チーム内にてその反応に関わった元素タイプのキャラクターは強化効果を獲得する。強化効果：該当元素タイプの元素ダメージ+<color=#99FFFFFF>15%</color>、継続時間6秒。この方式で獲得する元素ダメージアップ効果は重ね掛けできない。",
+          "params": [0.15, 6, 1]
+        },
+        {
+          "desc": "この武器を装備したキャラクターが雷元素に関連する反応を起こした時、周囲チーム内にてその反応に関わった元素タイプのキャラクターは強化効果を獲得する。強化効果：該当元素タイプの元素ダメージ+<color=#99FFFFFF>17.5%</color>、継続時間6秒。この方式で獲得する元素ダメージアップ効果は重ね掛けできない。",
+          "params": [0.175, 6, 1]
+        },
+        {
+          "desc": "この武器を装備したキャラクターが雷元素に関連する反応を起こした時、周囲チーム内にてその反応に関わった元素タイプのキャラクターは強化効果を獲得する。強化効果：該当元素タイプの元素ダメージ+<color=#99FFFFFF>20%</color>、継続時間6秒。この方式で獲得する元素ダメージアップ効果は重ね掛けできない。",
+          "params": [0.2, 6, 1]
+        }
+      ]
+    }
+  },
+  {
     "id": "SkywardAtlas",
     "name": "Skyward Atlas",
     "localeName": "天空の巻",
@@ -8139,11 +8629,11 @@
     "affix": {
       "name": "頑丈壊し",
       "levels": [
-        { "desc": "遺跡装置タイプの敵に与えるダメージ+<color=#99FFFFFF>40%</color>。", "params": [0.4] },
-        { "desc": "遺跡装置タイプの敵に与えるダメージ+<color=#99FFFFFF>50%</color>。", "params": [0.5] },
-        { "desc": "遺跡装置タイプの敵に与えるダメージ+<color=#99FFFFFF>60%</color>。", "params": [0.6] },
-        { "desc": "遺跡装置タイプの敵に与えるダメージ+<color=#99FFFFFF>70%</color>。", "params": [0.7] },
-        { "desc": "遺跡装置タイプの敵に与えるダメージ+<color=#99FFFFFF>80%</color>。", "params": [0.8] }
+        { "desc": "遺跡機械類の敵に与えるダメージ+<color=#99FFFFFF>40%</color>。", "params": [0.4] },
+        { "desc": "遺跡機械類の敵に与えるダメージ+<color=#99FFFFFF>50%</color>。", "params": [0.5] },
+        { "desc": "遺跡機械類の敵に与えるダメージ+<color=#99FFFFFF>60%</color>。", "params": [0.6] },
+        { "desc": "遺跡機械類の敵に与えるダメージ+<color=#99FFFFFF>70%</color>。", "params": [0.7] },
+        { "desc": "遺跡機械類の敵に与えるダメージ+<color=#99FFFFFF>80%</color>。", "params": [0.8] }
       ]
     }
   },
@@ -8389,7 +8879,7 @@
         { "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>50%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>26</color>秒毎に1回のみ発動可能。", "params": [0.5, 26] },
         { "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>60%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>22</color>秒毎に1回のみ発動可能。", "params": [0.6, 22] },
         { "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>70%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>19</color>秒毎に1回のみ発動可能。", "params": [0.7, 19] },
-        { "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>80%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>16</color>秒に1回のみ発動可能。", "params": [0.8, 16] }
+        { "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>80%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>16</color>秒毎に1回のみ発動可能。", "params": [0.8, 16] }
       ]
     }
   },
@@ -9147,6 +9637,88 @@
     }
   },
   {
+    "id": "Hamayumi",
+    "name": "Hamayumi",
+    "localeName": "破魔の弓",
+    "desc": "ある巫女の所有物だった戦弓。優れた技術で作られ、精巧で強靭である。",
+    "rarity": 4,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "NarukamisWisdom", "localeName": "鳴神御霊の恩恵", "count": 3 },
+          { "id": "DismalPrism", "localeName": "暗色プリズム", "count": 3 },
+          { "id": "FirmArrowhead", "localeName": "牢固な矢先", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鳴神御霊の歓喜", "count": 3 },
+          { "id": "DismalPrism", "localeName": "暗色プリズム", "count": 12 },
+          { "id": "FirmArrowhead", "localeName": "牢固な矢先", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鳴神御霊の歓喜", "count": 6 },
+          { "id": "CrystalPrism", "localeName": "水晶プリズム", "count": 6 },
+          { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鳴神御霊の親愛", "count": 3 },
+          { "id": "CrystalPrism", "localeName": "水晶プリズム", "count": 12 },
+          { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鳴神御霊の親愛", "count": 6 },
+          { "id": "PolarizingPrism", "localeName": "偏光プリズム", "count": 9 },
+          { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "NarukamisValor", "localeName": "鳴神御霊の勇武", "count": 4 },
+          { "id": "PolarizingPrism", "localeName": "偏光プリズム", "count": 18 },
+          { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 41.067,
+    "baseATKCurve": 9,
+    "overviewItems": [
+      { "id": "NarukamisValor", "name": "鳴神御霊の勇武", "rarity": 5 },
+      { "id": "PolarizingPrism", "name": "偏光プリズム", "rarity": 4 },
+      { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.12, "curve": 17 },
+    "affix": {
+      "name": "浅瀨の弭",
+      "levels": [
+        { "desc": "通常攻撃のダメージ+<color=#99FFFFFF>16%</color>、重撃のダメージ+<color=#99FFFFFF>12%</color>。この武器を装備したキャラクターの元素エネルギーが満タンの場合、該当効果が2倍になる。", "params": [0.16, 0.12, 1] },
+        { "desc": "通常攻撃のダメージ+<color=#99FFFFFF>20%</color>、重撃のダメージ+<color=#99FFFFFF>15%</color>。この武器を装備したキャラクターの元素エネルギーが満タンの場合、該当効果が2倍になる。", "params": [0.2, 0.15, 1] },
+        { "desc": "通常攻撃のダメージ+<color=#99FFFFFF>24%</color>、重撃のダメージ+<color=#99FFFFFF>18%</color>。この武器を装備したキャラクターの元素エネルギーが満タンの場合、該当効果が2倍になる。", "params": [0.24, 0.18, 1] },
+        { "desc": "通常攻撃のダメージ+<color=#99FFFFFF>28%</color>、重撃のダメージ+<color=#99FFFFFF>21%</color>。この武器を装備したキャラクターの元素エネルギーが満タンの場合、該当効果が2倍になる。", "params": [0.28, 0.21, 1] },
+        { "desc": "通常攻撃のダメージ+<color=#99FFFFFF>32%</color>、重撃のダメージ+<color=#99FFFFFF>24%</color>。この武器を装備したキャラクターの元素エネルギーが満タンの場合、該当効果が2倍になる。", "params": [0.32, 0.24, 1] }
+      ]
+    }
+  },
+  {
     "id": "SkywardHarp",
     "name": "Skyward Harp",
     "localeName": "天空の翼",
@@ -9550,5 +10122,102 @@
     ],
     "baseATK": 42.735,
     "baseATKCurve": 1
+  },
+  {
+    "id": "ThunderingPulse",
+    "name": "Thundering Pulse",
+    "localeName": "飛雷の鳴弦",
+    "desc": "将軍から賜わった長弓。消えぬ雷光が輝いている。",
+    "rarity": 5,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          { "id": "NarukamisWisdom", "localeName": "鳴神御霊の恩恵", "count": 5 },
+          { "id": "DismalPrism", "localeName": "暗色プリズム", "count": 5 },
+          { "id": "FirmArrowhead", "localeName": "牢固な矢先", "count": 3 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鳴神御霊の歓喜", "count": 5 },
+          { "id": "DismalPrism", "localeName": "暗色プリズム", "count": 18 },
+          { "id": "FirmArrowhead", "localeName": "牢固な矢先", "count": 12 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鳴神御霊の歓喜", "count": 9 },
+          { "id": "CrystalPrism", "localeName": "水晶プリズム", "count": 9 },
+          { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "count": 9 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鳴神御霊の親愛", "count": 5 },
+          { "id": "CrystalPrism", "localeName": "水晶プリズム", "count": 18 },
+          { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鳴神御霊の親愛", "count": 9 },
+          { "id": "PolarizingPrism", "localeName": "偏光プリズム", "count": 14 },
+          { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "NarukamisValor", "localeName": "鳴神御霊の勇武", "count": 6 },
+          { "id": "PolarizingPrism", "localeName": "偏光プリズム", "count": 27 },
+          { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "count": 18 }
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "overviewItems": [
+      { "id": "NarukamisValor", "name": "鳴神御霊の勇武", "rarity": 5 },
+      { "id": "PolarizingPrism", "name": "偏光プリズム", "rarity": 4 },
+      { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "rarity": 3 }
+    ],
+    "subAttr": { "type": 13, "value": 0.144, "curve": 18 },
+    "affix": {
+      "name": "飛雷の御執",
+      "levels": [
+        {
+          "desc": "攻撃力+<color=#99FFFFFF>20%</color>、「飛雷の巴紋」の効果を獲得できる。飛雷の巴紋を1/2/3層有する時、通常攻撃のダメージ+<color=#99FFFFFF>12/24/40%</color>。飛雷の巴紋は次の各状況において獲得できる。通常攻撃でダメージを与えた時、継続時間5秒の飛雷の巴紋を1層獲得する。元素スキルを発動した時、継続時間10秒の飛雷の巴紋を1層獲得する。また、キャラクターの元素エネルギーが100%未満の場合、飛雷の巴紋を1層獲得する、この飛雷の巴紋は元素エネルギーが満タンになると消失する。飛雷の巴紋の継続時間は層ごとに独立している。",
+          "params": [0.2, 0.12, 0.24, 0.4, 5, 10]
+        },
+        {
+          "desc": "攻撃力+<color=#99FFFFFF>25%</color>、「飛雷の巴紋」の効果を獲得できる。飛雷の巴紋を1/2/3層有する時、通常攻撃のダメージ+<color=#99FFFFFF>15/30/50%</color>。飛雷の巴紋は次の各状況において獲得できる。通常攻撃でダメージを与えた時、継続時間5秒の飛雷の巴紋を1層獲得する。元素スキルを発動した時、継続時間10秒の飛雷の巴紋を1層獲得する。また、キャラクターの元素エネルギーが100%未満の場合、飛雷の巴紋を1層獲得する、この飛雷の巴紋は元素エネルギーが満タンになると消失する。飛雷の巴紋の継続時間は層ごとに独立している。",
+          "params": [0.25, 0.15, 0.3, 0.5, 5, 10]
+        },
+        {
+          "desc": "攻撃力+<color=#99FFFFFF>30%</color>、「飛雷の巴紋」の効果を獲得できる。飛雷の巴紋を1/2/3層有する時、通常攻撃のダメージ+<color=#99FFFFFF>18/36/60%</color>。飛雷の巴紋は次の各状況において獲得できる。通常攻撃でダメージを与えた時、継続時間5秒の飛雷の巴紋を1層獲得する。元素スキルを発動した時、継続時間10秒の飛雷の巴紋を1層獲得する。また、キャラクターの元素エネルギーが100%未満の場合、飛雷の巴紋を1層獲得する、この飛雷の巴紋は元素エネルギーが満タンになると消失する。飛雷の巴紋の継続時間は層ごとに独立している。",
+          "params": [0.3, 0.18, 0.36, 0.6, 5, 10]
+        },
+        {
+          "desc": "攻撃力+<color=#99FFFFFF>35%</color>、「飛雷の巴紋」の効果を獲得できる。飛雷の巴紋を1/2/3層有する時、通常攻撃のダメージ+<color=#99FFFFFF>21/42/70%</color>。飛雷の巴紋は次の各状況において獲得できる。通常攻撃でダメージを与えた時、継続時間5秒の飛雷の巴紋を1層獲得する。元素スキルを発動した時、継続時間10秒の飛雷の巴紋を1層獲得する。また、キャラクターの元素エネルギーが100%未満の場合、飛雷の巴紋を1層獲得する、この飛雷の巴紋は元素エネルギーが満タンになると消失する。飛雷の巴紋の継続時間は層ごとに独立している。",
+          "params": [0.35, 0.21, 0.42, 0.7, 5, 10]
+        },
+        {
+          "desc": "攻撃力+<color=#99FFFFFF>40%</color>、「飛雷の巴紋」の効果を獲得できる。飛雷の巴紋を1/2/3層有する時、通常攻撃のダメージ+<color=#99FFFFFF>24/48/80%</color>。飛雷の巴紋は次の各状況において獲得できる。通常攻撃でダメージを与えた時、継続時間5秒の飛雷の巴紋を1層獲得する。元素スキルを発動した時、継続時間10秒の飛雷の巴紋を1層獲得する。また、キャラクターの元素エネルギーが100%未満の場合、飛雷の巴紋を1層獲得する、この飛雷の巴紋は元素エネルギーが満タンになると消失する。飛雷の巴紋の継続時間は層ごとに独立している。",
+          "params": [0.4, 0.24, 0.48, 0.8, 5, 10]
+        }
+      ]
+    }
   }
 ]

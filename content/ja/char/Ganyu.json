@@ -229,7 +229,7 @@
   "attackSkill": {
     "name": "NormalAttackLiutianArchery",
     "localeName": "通常攻撃·流天射術",
-    "desc": "<color=#FFD780FF>通常攻撃</color>\n最大6段の連続射撃を行う。\n\n<color=#FFD780FF>重撃</color>\nダメージがより高く、より精確な<color=#FFD780FF>狙い撃ち</color>を発動する。\n照準時、氷寒の気が矢先に集まり、攻撃と共に発射される。チャージの時間のより、異なる効果を発動する。\n·1段チャージ：氷寒の気が集まった矢を放ち、<color=#99FFFFFF>氷元素ダメージ</color>を与える。\n·2段チャージ：霜華の矢を放ち、<color=#99FFFFFF>氷元素ダメージ</color>を与える。命中後、霜華満開が発生し、さらに<color=#99FFFFFF>氷元素範囲ダメージ</color>を与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n最大6段の連続射撃を行う。\n\n<color=#FFD780FF>重撃</color>\nダメージがより高く、より精確な<color=#FFD780FF>狙い撃ち</color>を発動する。\n照準時、氷寒の気が矢先に集まり、攻撃と共に発射される。チャージの時間により、異なる効果を発動する。\n·1段チャージ：氷寒の気が集まった矢を放ち、<color=#99FFFFFF>氷元素ダメージ</color>を与える。\n·2段チャージ：霜華の矢を放ち、<color=#99FFFFFF>氷元素ダメージ</color>を与える。命中後、霜華満開が発生し、さらに<color=#99FFFFFF>氷元素範囲ダメージ</color>を与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。",
     "cd": 0,
     "paramTpls": [
       "1段ダメージ|{param1:F1P}",
@@ -309,7 +309,7 @@
   "talents": [
     { "name": "UndividedHeart", "localeName": "唯一の心", "desc": "霜華の矢を放った後の5秒以内に放たれた霜華の矢と霜華満開の会心率+20%。", "unlock": 1, "values": [5, 0.2] },
     { "name": "HarmonyBetweenHeavenAndEarth", "localeName": "天地安泰", "desc": "<color=#FFD780FF>降衆天華</color>エリア内のキャラクターの<color=#99FFFFFF>氷元素ダメージ</color>+20%。", "unlock": 4, "values": [0.2] },
-    { "name": "PreservedForTheHunt", "localeName": "弓藏待命", "desc": "弓を鍛造する時、消費した鉱石の15%が返還される。" }
+    { "name": "PreservedForTheHunt", "localeName": "弓蔵待命", "desc": "弓を鍛造する時、消費した鉱石の15%が返還される。" }
   ],
   "c13ns": [
     {

@@ -107,9 +107,7 @@ export class Artifact implements IArtifact {
           ...v,
           params,
           n,
-          values: v.probs
-            .map<[number, number, number]>((u, i) => [maxT - i, u / v.ratio, params[i]])
-            .filter(v => v[2]),
+          values: v.probs.map<[number, number, number]>((u, i) => [maxT - i, u / v.ratio, params[i]]).filter(v => v[2]),
         };
       })
       .sort((a, b) => a.index - b.index)

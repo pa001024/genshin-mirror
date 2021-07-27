@@ -305,7 +305,7 @@
   },
   "talents": [
     { "name": "Proviso", "localeName": "関連条約", "desc": "煙緋が重撃で丹火の印を消費した時、丹火の印1枚につき<color=#FF9999FF>炎元素ダメージ</color>+5%、継続時間6秒。効果持続中に再び重撃を放つと、既存の効果が先にクリアされる。", "unlock": 1, "values": [0.05, 6, 5] },
-    { "name": "BlazingEye", "localeName": "法獣の灼眼", "desc": "煙緋が自ら発動した重撃が敵に対して会心した時、追加で自身の攻撃力80%分の<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。このダメージは重撃によるダメージとみなされる。", "unlock": 4, "values": [0.8] },
+    { "name": "BlazingEye", "localeName": "法獣の灼眼", "desc": "煙緋が自ら発動した重撃が敵に対して会心した時、追加で自身の攻撃力80%分の<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。このダメージは重撃ダメージとみなされる。", "unlock": 4, "values": [0.8] },
     { "name": "EncyclopedicExpertise", "localeName": "法律百科", "desc": "ミニマップで周囲の<color=#FFD780FF>璃月地域の特産</color>の位置を表示する。" }
   ],
   "c13ns": [

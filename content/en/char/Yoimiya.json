@@ -1,0 +1,355 @@
+{
+  "id": "Yoimiya",
+  "name": "Yoimiya",
+  "localeName": "Yoimiya",
+  "desc": "Owner of Naganohara Fireworks. Known as \"Queen of the Summer Festival,\" she excels in her craft of creating fireworks that symbolize people's hopes and dreams.",
+  "baseHP": 791.26,
+  "baseATK": 25.137,
+  "baseDEF": 47.864,
+  "bodyType": 3,
+  "rarity": 5,
+  "weapon": 2,
+  "region": 3,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "AgnidusAgateSliver", "localeName": "Agnidus Agate Sliver", "rarity": 2, "count": 1 },
+        { "id": "NakuWeed", "localeName": "Naku Weed", "count": 3 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 3 }
+      ],
+      "HP": 678.43,
+      "ATK": 21.551,
+      "DEF": 41.04,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "AgnidusAgateFragment", "localeName": "Agnidus Agate Fragment", "rarity": 3, "count": 3 },
+        { "id": "SmolderingPearl", "localeName": "Smoldering Pearl", "rarity": 4, "count": 2 },
+        { "id": "NakuWeed", "localeName": "Naku Weed", "count": 10 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1160.5,
+      "ATK": 36.864,
+      "DEF": 70.2,
+      "extra": 0.048
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "AgnidusAgateFragment", "localeName": "Agnidus Agate Fragment", "rarity": 3, "count": 6 },
+        { "id": "SmolderingPearl", "localeName": "Smoldering Pearl", "rarity": 4, "count": 4 },
+        { "id": "NakuWeed", "localeName": "Naku Weed", "count": 20 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1803.2,
+      "ATK": 57.281,
+      "DEF": 109.08,
+      "extra": 0.096
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "AgnidusAgateChunk", "localeName": "Agnidus Agate Chunk", "rarity": 4, "count": 3 },
+        { "id": "SmolderingPearl", "localeName": "Smoldering Pearl", "rarity": 4, "count": 8 },
+        { "id": "NakuWeed", "localeName": "Naku Weed", "count": 30 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2285.2,
+      "ATK": 72.593,
+      "DEF": 138.24,
+      "extra": 0.096
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "AgnidusAgateChunk", "localeName": "Agnidus Agate Chunk", "rarity": 4, "count": 6 },
+        { "id": "SmolderingPearl", "localeName": "Smoldering Pearl", "rarity": 4, "count": 12 },
+        { "id": "NakuWeed", "localeName": "Naku Weed", "count": 45 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 12 }
+      ],
+      "HP": 2767.3,
+      "ATK": 87.906,
+      "DEF": 167.4,
+      "extra": 0.144
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "AgnidusAgateGemstone", "localeName": "Agnidus Agate Gemstone", "rarity": 5, "count": 6 },
+        { "id": "SmolderingPearl", "localeName": "Smoldering Pearl", "rarity": 4, "count": 20 },
+        { "id": "NakuWeed", "localeName": "Naku Weed", "count": 60 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 24 }
+      ],
+      "HP": 3249.3,
+      "ATK": 103.22,
+      "DEF": 196.56,
+      "extra": 0.192
+    }
+  ],
+  "ascensionType": 12,
+  "element": 6,
+  "elemSkill": {
+    "name": "NiwabiFireDance",
+    "localeName": "Niwabi Fire-Dance",
+    "desc": "Yoimiya waves a sparkler and causes a ring of saltpeter to surround her.\n\n<color=#FFD780FF>Niwabi Enshou</color>\nDuring this time, arrows fired by Yoimiya's Normal Attack will be Blazing Arrows, and their DMG will be increased and converted to <color=#FF9999FF>Pyro DMG</color>. During this time, Normal Attack: Firework Flare-Up will not generate Kindling Arrows at Charge Level 2.\n\nThis effect will deactivate when Yoimiya leaves the field.\n\n<i>\"Niwabi\" is a form of incense firework created by Yoimiya herself. Its ability to be lit without any prior training or preparation has made it a real hit. After many fire-related incidents, the Tenryou Commission ordered the use of \"Niwabi\" banned, but small, bright sparks can often still be seen springing up at night. If seen from above, they look almost like little twinkling stars.</i>",
+    "cd": 18,
+    "paramTpls": ["Blazing Arrow DMG|{param4:F1P} Normal Attack DMG", "Duration|{param2:F1}s", "CD|{param3:F1}s"],
+    "paramVals": [
+      [0.37909, 10, 18, 1.3791],
+      [0.40179, 10, 18, 1.4018],
+      [0.42449, 10, 18, 1.4245],
+      [0.454, 10, 18, 1.454],
+      [0.4767, 10, 18, 1.4767],
+      [0.4994, 10, 18, 1.4994],
+      [0.52891, 10, 18, 1.5289],
+      [0.55842, 10, 18, 1.5584],
+      [0.58793, 10, 18, 1.5879],
+      [0.61744, 10, 18, 1.6174],
+      [0.64695, 10, 18, 1.647],
+      [0.67646, 10, 18, 1.6765],
+      [0.70597, 10, 18, 1.706],
+      [0.73548, 10, 18, 1.7355],
+      [0.76499, 10, 18, 1.765]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfTransience", "localeName": "Teachings of Transience", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "Guide to Transience", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "Guide to Transience", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "Guide to Transience", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "Guide to Transience", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "Philosophies of Transience", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 4 },
+        { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "Philosophies of Transience", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 6 },
+        { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "Philosophies of Transience", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 9 },
+        { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "Philosophies of Transience", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 12 },
+        { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "RyuukinSaxifrage",
+    "localeName": "Ryuukin Saxifrage",
+    "desc": "Yoimiya leaps into the air along with her original creation, the \"Ryuukin Saxifrage,\" and fires forth blazing rockets bursting with surprises that deal <color=#FF9999FF>AoE Pyro DMG</color> and mark one of the hit opponents with Aurous Blaze.\n\n<color=#FFD780FF>Aurous Blaze</color>\nAll Normal/Charged/Plunging Attacks, Elemental Skills, and Elemental Bursts by any party member other than Yoimiya that hit an opponent marked by Aurous Blaze will trigger an explosion, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\nWhen an opponent affected by Aurous Blaze is defeated before its duration expires, the effect will pass on to another nearby opponent, who will inherit the remaining duration.\n\nOne Aurous Blaze explosion can be triggered every 2s. When Yoimiya is down, Aurous Blaze effects created through her skills will be deactivated.\n\n<i>Fireworks are man-made starlight, comets fired into the sky. Though they last for but an instant, the memory of their brilliance shall surely live on.</i>",
+    "cd": 15,
+    "energyCost": 60,
+    "paramTpls": ["Skill DMG|{param1:P}", "Aurous Blaze Explosion DMG|{param2:P}", "Duration|{param4:F1}s", "CD|{param5:F1}s", "Energy Cost|{param6:I}"],
+    "paramVals": [
+      [1.272, 1.22, 2, 10, 15, 60],
+      [1.3674, 1.3115, 2, 10, 15, 60],
+      [1.4628, 1.403, 2, 10, 15, 60],
+      [1.59, 1.525, 2, 10, 15, 60],
+      [1.6854, 1.6165, 2, 10, 15, 60],
+      [1.7808, 1.708, 2, 10, 15, 60],
+      [1.908, 1.83, 2, 10, 15, 60],
+      [2.0352, 1.952, 2, 10, 15, 60],
+      [2.1624, 2.074, 2, 10, 15, 60],
+      [2.2896, 2.196, 2, 10, 15, 60],
+      [2.4168, 2.318, 2, 10, 15, 60],
+      [2.544, 2.44, 2, 10, 15, 60],
+      [2.703, 2.5925, 2, 10, 15, 60],
+      [2.862, 2.745, 2, 10, 15, 60],
+      [3.021, 2.8975, 2, 10, 15, 60]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfTransience", "localeName": "Teachings of Transience", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "Guide to Transience", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "Guide to Transience", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "Guide to Transience", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "Guide to Transience", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "Philosophies of Transience", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 4 },
+        { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "Philosophies of Transience", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 6 },
+        { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "Philosophies of Transience", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 9 },
+        { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "Philosophies of Transience", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 12 },
+        { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackFireworkFlareUp",
+    "localeName": "Normal Attack: Firework Flare-Up",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, flames will accumulate on the arrowhead before being fired off as an attack. Has different effects based on how long the energy has been charged:\n·Charge Level 1: Fires off a flaming arrow that deals <color=#FF9999FF>Pyro DMG</color>.\n·Charge Level 2: Generates a maximum of 3 Kindling Arrows based on time spent charging, releasing them as part of this Aimed Shot. Kindling Arrows will home in on nearby opponents, dealing <color=#FF9999FF>Pyro DMG</color> on hit.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+    "cd": 0,
+    "paramTpls": [
+      "1-Hit DMG|{param1:F1P}×2",
+      "2-Hit DMG|{param2:F1P}",
+      "3-Hit DMG|{param3:F1P}",
+      "4-Hit DMG|{param4:F1P}×2",
+      "5-Hit DMG|{param5:F1P}",
+      "Aimed Shot|{param6:F1P}",
+      "Fully-Charged Aimed Shot|{param7:P}",
+      "Kindling Arrow DMG|{param8:P}",
+      "Plunge DMG|{param9:F1P}",
+      "Low/High Plunge DMG|{param10:P}/{param11:P}"
+    ],
+    "paramVals": [
+      [0.3564, 0.68376, 0.88889, 0.4642, 1.0586, 0.4386, 1.24, 0.164, 0.56829, 1.1363, 1.4193],
+      [0.3807, 0.73038, 0.94949, 0.49585, 1.1308, 0.4743, 1.333, 0.1763, 0.61454, 1.2288, 1.5349],
+      [0.405, 0.777, 1.0101, 0.5275, 1.203, 0.51, 1.426, 0.1886, 0.6608, 1.3213, 1.6504],
+      [0.4374, 0.83916, 1.0909, 0.5697, 1.2992, 0.561, 1.55, 0.205, 0.72688, 1.4535, 1.8154],
+      [0.4617, 0.88578, 1.1515, 0.60135, 1.3714, 0.5967, 1.643, 0.2173, 0.77314, 1.5459, 1.931],
+      [0.49005, 0.94017, 1.2222, 0.63828, 1.4556, 0.6375, 1.736, 0.2296, 0.826, 1.6516, 2.063],
+      [0.5265, 1.0101, 1.3131, 0.68575, 1.5639, 0.6936, 1.86, 0.246, 0.89869, 1.797, 2.2445],
+      [0.56295, 1.08, 1.404, 0.73322, 1.6722, 0.7497, 1.984, 0.2624, 0.97138, 1.9423, 2.4261],
+      [0.5994, 1.15, 1.4949, 0.7807, 1.7804, 0.8058, 2.108, 0.2788, 1.0441, 2.0877, 2.6076],
+      [0.63585, 1.2199, 1.5859, 0.82818, 1.8887, 0.867, 2.232, 0.2952, 1.1234, 2.2462, 2.8057],
+      [0.6723, 1.2898, 1.6768, 0.87565, 1.997, 0.9282, 2.356, 0.3116, 1.2027, 2.4048, 3.0037],
+      [0.70875, 1.3598, 1.7677, 0.92313, 2.1052, 0.9894, 2.48, 0.328, 1.282, 2.5634, 3.2018],
+      [0.7452, 1.4297, 1.8586, 0.9706, 2.2135, 1.0506, 2.635, 0.3485, 1.3612, 2.7219, 3.3998],
+      [0.78165, 1.4996, 1.9495, 1.0181, 2.3218, 1.1118, 2.79, 0.369, 1.4405, 2.8805, 3.5979],
+      [0.8181, 1.5695, 2.0404, 1.0655, 2.4301, 1.173, 2.945, 0.3895, 1.5198, 3.039, 3.7959]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfTransience", "localeName": "Teachings of Transience", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "Guide to Transience", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "Guide to Transience", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "Guide to Transience", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "Guide to Transience", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "Philosophies of Transience", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 4 },
+        { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "Philosophies of Transience", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 6 },
+        { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "Philosophies of Transience", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 9 },
+        { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "Philosophies of Transience", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 12 },
+        { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    {
+      "name": "TricksOfTheTroubleMaker",
+      "localeName": "Tricks of the Trouble-Maker",
+      "desc": "During <color=#FFD780FF>Niwabi Fire-Dance</color>, shots from Yoimiya's Normal Attack will increase her <color=#FF9999FF>Pyro DMG Bonus</color> by 2% on hit. This effect lasts for 3s and can have a maximum of 10 stacks.",
+      "unlock": 1,
+      "values": [0.02, 3]
+    },
+    {
+      "name": "SummerNightsDawn",
+      "localeName": "Summer Night's Dawn",
+      "desc": "Using <color=#FFD780FF>Ryuukin Saxifrage</color> causes nearby party members (not including Yoimiya) to gain a 10% ATK increase for 15s. Additionally, a further ATK Bonus will be added on based on the number of \"Tricks of the Trouble-Maker\" stacks Yoimiya possesses when using <color=#FFD780FF>Ryuukin Saxifrage</color>. Each stack increases this ATK Bonus by 1%.",
+      "unlock": 4,
+      "values": [0.1, 0.01, 15]
+    },
+    { "name": "BlazingMatch", "localeName": "Blazing Match", "desc": "When Yoimiya crafts Decoration, Ornament, and Landscape-type Furnishings, she has a 100% chance to refund a portion of the materials used." }
+  ],
+  "c13ns": [
+    {
+      "name": "AgateRyuukin",
+      "localeName": "Agate Ryuukin",
+      "desc": "The Aurous Blaze created by <color=#FFD780FF>Ryuukin Saxifrage</color> lasts for an extra 4s.\nAdditionally, when an opponent affected by Aurous Blaze is defeated within its duration, Yoimiya's ATK is increased by 20% for 20s.",
+      "values": [4, 0.2, 20]
+    },
+    {
+      "name": "AProcessionOfBonfires",
+      "localeName": "A Procession of Bonfires",
+      "desc": "When Yoimiya's <color=#FF9999FF>Pyro DMG</color> scores a CRIT Hit, Yoimiya will gain a 25% <color=#FF9999FF>Pyro DMG Bonus</color> for 6s.\nThis effect can be triggered even when Yoimiya is not the active character.",
+      "values": [0.25, 6]
+    },
+    { "name": "TrickstersFlare", "localeName": "Trickster's Flare", "desc": "Increases the Level of <color=#FFD780FF>Niwabi Fire-Dance</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "PyrotechnicProfessional", "localeName": "Pyrotechnic Professional", "desc": "When Yoimiya's own Aurous Blaze triggers an explosion, <color=#FFD780FF>Niwabi Fire-Dance</color>'s CD is decreased by 1.2s.", "values": [1.2] },
+    { "name": "ASummerFestivalsEve", "localeName": "A Summer Festival's Eve", "desc": "Increases the Level of <color=#FFD780FF>Ryuukin Saxifrage</color> by 3.\nMaximum upgrade level is 15." },
+    {
+      "name": "NaganoharaMeteorSwarm",
+      "localeName": "Naganohara Meteor Swarm",
+      "desc": "During <color=#FFD780FF>Niwabi Fire-Dance</color>, Yoimiya's Normal Attacks have a 50% chance of firing an extra Kindling Arrow that deals 60% of its original DMG. This DMG is considered Normal Attack DMG.",
+      "values": [0.5, 0.6]
+    }
+  ],
+  "overviewItems": [
+    { "id": "AgnidusAgateGemstone", "localeName": "Agnidus Agate Gemstone", "rarity": 5 },
+    { "id": "SmolderingPearl", "localeName": "Smoldering Pearl", "rarity": 4 },
+    { "id": "NakuWeed", "localeName": "Naku Weed" },
+    { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3 },
+    { "id": "PhilosophiesOfTransience", "localeName": "Philosophies of Transience", "rarity": 4 },
+    { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5 }
+  ]
+}

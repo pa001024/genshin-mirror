@@ -1482,7 +1482,7 @@
       "name": "Descension",
       "levels": [
         {
-          "desc": "Hitting opponents with Normal and Charged Attacks grants a <color=#99FFFFFF>50%</color> chance to deal <color=#99FFFFFF>200%</color> ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by <color=#99FFFFFF>66</color>.",
+          "desc": "Effective for players on \"PlayStation Network\" only.\nHitting opponents with Normal and Charged Attacks grants a <color=#99FFFFFF>50%</color> chance to deal <color=#99FFFFFF>200%</color> ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by <color=#99FFFFFF>66</color>.",
           "params": [0.5, 2, 10, 66]
         }
       ]
@@ -1567,6 +1567,103 @@
         { "desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>24%</color> and Elemental Skill CRIT Rate by <color=#99FFFFFF>9%</color>.", "params": [0.24, 0.09] },
         { "desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>28%</color> and Elemental Skill CRIT Rate by <color=#99FFFFFF>10.5%</color>.", "params": [0.28, 0.105] },
         { "desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>32%</color> and Elemental Skill CRIT Rate by <color=#99FFFFFF>12%</color>.", "params": [0.32, 0.12] }
+      ]
+    }
+  },
+  {
+    "id": "AmenomaKageuchi",
+    "name": "Amenoma Kageuchi",
+    "localeName": "Amenoma Kageuchi",
+    "desc": "A blade custom made for a famed samurai who could strike down a tengu warrior, known for their incredible agility, in midair.",
+    "rarity": 4,
+    "type": 1,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "CoralBranchOfADistantSea", "localeName": "Coral Branch of a Distant Sea", "count": 3 },
+          { "id": "ChaosGear", "localeName": "Chaos Gear", "count": 3 },
+          { "id": "OldHandguard", "localeName": "Old Handguard", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "Jeweled Branch of a Distant Sea", "count": 3 },
+          { "id": "ChaosGear", "localeName": "Chaos Gear", "count": 12 },
+          { "id": "OldHandguard", "localeName": "Old Handguard", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "Jeweled Branch of a Distant Sea", "count": 6 },
+          { "id": "ChaosAxis", "localeName": "Chaos Axis", "count": 6 },
+          { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "Jade Branch of a Distant Sea", "count": 3 },
+          { "id": "ChaosAxis", "localeName": "Chaos Axis", "count": 12 },
+          { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "Jade Branch of a Distant Sea", "count": 6 },
+          { "id": "ChaosOculus", "localeName": "Chaos Oculus", "count": 9 },
+          { "id": "FamedHandguard", "localeName": "Famed Handguard", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "GoldenBranchOfADistantSea", "localeName": "Golden Branch of a Distant Sea", "count": 4 },
+          { "id": "ChaosOculus", "localeName": "Chaos Oculus", "count": 18 },
+          { "id": "FamedHandguard", "localeName": "Famed Handguard", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 41.067,
+    "baseATKCurve": 9,
+    "overviewItems": [
+      { "id": "GoldenBranchOfADistantSea", "name": "Golden Branch of a Distant Sea", "rarity": 5 },
+      { "id": "ChaosOculus", "name": "Chaos Oculus", "rarity": 4 },
+      { "id": "FamedHandguard", "name": "Famed Handguard", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.12, "curve": 17 },
+    "affix": {
+      "name": "Iwakura Succession",
+      "levels": [
+        {
+          "desc": "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates <color=#99FFFFFF>6</color> Energy for each seed consumed.",
+          "params": [30, 3, 5, 6]
+        },
+        {
+          "desc": "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates <color=#99FFFFFF>7.5</color> Energy for each seed consumed.",
+          "params": [30, 3, 5, 7.5]
+        },
+        {
+          "desc": "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates <color=#99FFFFFF>9</color> Energy for each seed consumed.",
+          "params": [30, 3, 5, 9]
+        },
+        {
+          "desc": "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates <color=#99FFFFFF>10.5</color> Energy for each seed consumed.",
+          "params": [30, 3, 5, 10.5]
+        },
+        {
+          "desc": "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates <color=#99FFFFFF>12</color> Energy for each seed consumed.",
+          "params": [30, 3, 5, 12]
+        }
       ]
     }
   },
@@ -2087,6 +2184,103 @@
     ],
     "baseATK": 23.245,
     "baseATKCurve": 1
+  },
+  {
+    "id": "MistsplitterReforged",
+    "name": "Mistsplitter Reforged",
+    "localeName": "Mistsplitter Reforged",
+    "desc": "A sword that blazes with a fierce violet light. The name \"Reforged\" comes from it having been broken once before.",
+    "rarity": 5,
+    "type": 1,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          { "id": "CoralBranchOfADistantSea", "localeName": "Coral Branch of a Distant Sea", "count": 5 },
+          { "id": "ChaosGear", "localeName": "Chaos Gear", "count": 5 },
+          { "id": "OldHandguard", "localeName": "Old Handguard", "count": 3 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "Jeweled Branch of a Distant Sea", "count": 5 },
+          { "id": "ChaosGear", "localeName": "Chaos Gear", "count": 18 },
+          { "id": "OldHandguard", "localeName": "Old Handguard", "count": 12 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "Jeweled Branch of a Distant Sea", "count": 9 },
+          { "id": "ChaosAxis", "localeName": "Chaos Axis", "count": 9 },
+          { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "count": 9 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "Jade Branch of a Distant Sea", "count": 5 },
+          { "id": "ChaosAxis", "localeName": "Chaos Axis", "count": 18 },
+          { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "Jade Branch of a Distant Sea", "count": 9 },
+          { "id": "ChaosOculus", "localeName": "Chaos Oculus", "count": 14 },
+          { "id": "FamedHandguard", "localeName": "Famed Handguard", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "GoldenBranchOfADistantSea", "localeName": "Golden Branch of a Distant Sea", "count": 6 },
+          { "id": "ChaosOculus", "localeName": "Chaos Oculus", "count": 27 },
+          { "id": "FamedHandguard", "localeName": "Famed Handguard", "count": 18 }
+        ]
+      }
+    ],
+    "baseATK": 47.537,
+    "baseATKCurve": 12,
+    "overviewItems": [
+      { "id": "GoldenBranchOfADistantSea", "name": "Golden Branch of a Distant Sea", "rarity": 5 },
+      { "id": "ChaosOculus", "name": "Chaos Oculus", "rarity": 4 },
+      { "id": "FamedHandguard", "name": "Famed Handguard", "rarity": 3 }
+    ],
+    "subAttr": { "type": 13, "value": 0.096, "curve": 18 },
+    "affix": {
+      "name": "Mistsplitter's Edge",
+      "levels": [
+        {
+          "desc": "Gain a <color=#99FFFFFF>12%</color> Elemental DMG Bonus for all element and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <color=#99FFFFFF>8/16/28%</color> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+          "params": [0.12, 0.08, 0.16, 0.28, 5, 10]
+        },
+        {
+          "desc": "Gain a <color=#99FFFFFF>15%</color> Elemental DMG Bonus for all element and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <color=#99FFFFFF>10/20/35%</color> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+          "params": [0.15, 0.1, 0.2, 0.35, 5, 10]
+        },
+        {
+          "desc": "Gain a <color=#99FFFFFF>18%</color> Elemental DMG Bonus for all element and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <color=#99FFFFFF>12/24/42%</color> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+          "params": [0.18, 0.12, 0.24, 0.42, 5, 10]
+        },
+        {
+          "desc": "Gain a <color=#99FFFFFF>21%</color> Elemental DMG Bonus for all element and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <color=#99FFFFFF>14/28/49%</color> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+          "params": [0.21, 0.14, 0.28, 0.49, 5, 10]
+        },
+        {
+          "desc": "Gain a <color=#99FFFFFF>24%</color> Elemental DMG Bonus for all element and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <color=#99FFFFFF>16/32/56%</color> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of the Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+          "params": [0.24, 0.16, 0.32, 0.56, 5, 10]
+        }
+      ]
+    }
   },
   {
     "id": "WasterGreatsword",
@@ -3619,6 +3813,103 @@
         {
           "desc": "Hitting an opponent with Normal and Charged Attacks has a <color=#99FFFFFF>100%</color> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <color=#99FFFFFF>140%</color> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <color=#99FFFFFF>360%</color> of ATK. Can only occur once every 10s.",
           "params": [1, 1.4, 3.6, 10]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KatsuragikiriNagamasa",
+    "name": "Katsuragikiri Nagamasa",
+    "localeName": "Katsuragikiri Nagamasa",
+    "desc": "A blade that was once made in Tatarasuna. Heavy and tough.",
+    "rarity": 4,
+    "type": 4,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "NarukamisWisdom", "localeName": "Narukami's Wisdom", "count": 3 },
+          { "id": "ChaosGear", "localeName": "Chaos Gear", "count": 3 },
+          { "id": "OldHandguard", "localeName": "Old Handguard", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "Narukami's Joy", "count": 3 },
+          { "id": "ChaosGear", "localeName": "Chaos Gear", "count": 12 },
+          { "id": "OldHandguard", "localeName": "Old Handguard", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "Narukami's Joy", "count": 6 },
+          { "id": "ChaosAxis", "localeName": "Chaos Axis", "count": 6 },
+          { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "Narukami's Affection", "count": 3 },
+          { "id": "ChaosAxis", "localeName": "Chaos Axis", "count": 12 },
+          { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "Narukami's Affection", "count": 6 },
+          { "id": "ChaosOculus", "localeName": "Chaos Oculus", "count": 9 },
+          { "id": "FamedHandguard", "localeName": "Famed Handguard", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "NarukamisValor", "localeName": "Narukami's Valor", "count": 4 },
+          { "id": "ChaosOculus", "localeName": "Chaos Oculus", "count": 18 },
+          { "id": "FamedHandguard", "localeName": "Famed Handguard", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "overviewItems": [
+      { "id": "NarukamisValor", "name": "Narukami's Valor", "rarity": 5 },
+      { "id": "ChaosOculus", "name": "Chaos Oculus", "rarity": 4 },
+      { "id": "FamedHandguard", "name": "Famed Handguard", "rarity": 3 }
+    ],
+    "subAttr": { "type": 10, "value": 0.1, "curve": 17 },
+    "affix": {
+      "name": "Samurai Conduct",
+      "levels": [
+        {
+          "desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>6%</color>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <color=#99FFFFFF>3</color> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+          "params": [0.06, 3, 3, 6, 10]
+        },
+        {
+          "desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>7.5%</color>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <color=#99FFFFFF>3.5</color> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+          "params": [0.075, 3, 3.5, 6, 10]
+        },
+        {
+          "desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>9%</color>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <color=#99FFFFFF>4</color> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+          "params": [0.09, 3, 4, 6, 10]
+        },
+        {
+          "desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>10.5%</color>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <color=#99FFFFFF>4.5</color> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+          "params": [0.105, 3, 4.5, 6, 10]
+        },
+        {
+          "desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>12%</color>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <color=#99FFFFFF>5</color> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+          "params": [0.12, 3, 5, 6, 10]
         }
       ]
     }
@@ -5269,6 +5560,103 @@
     }
   },
   {
+    "id": "KitainCrossSpear",
+    "name": "Kitain Cross Spear",
+    "localeName": "Kitain Cross Spear",
+    "desc": "A special lance that was once used by a famed warrior who guarded the Tatarigami on Yashiori Island.",
+    "rarity": 4,
+    "type": 3,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "MaskOfTheWickedLieutenant", "localeName": "Mask of the Wicked Lieutenant", "count": 3 },
+          { "id": "ChaosGear", "localeName": "Chaos Gear", "count": 3 },
+          { "id": "TreasureHoarderInsignia", "localeName": "Treasure Hoarder Insignia", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "Mask of the Tiger's Bite", "count": 3 },
+          { "id": "ChaosGear", "localeName": "Chaos Gear", "count": 12 },
+          { "id": "TreasureHoarderInsignia", "localeName": "Treasure Hoarder Insignia", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "Mask of the Tiger's Bite", "count": 6 },
+          { "id": "ChaosAxis", "localeName": "Chaos Axis", "count": 6 },
+          { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "Mask of the One-Horned", "count": 3 },
+          { "id": "ChaosAxis", "localeName": "Chaos Axis", "count": 12 },
+          { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "Mask of the One-Horned", "count": 6 },
+          { "id": "ChaosOculus", "localeName": "Chaos Oculus", "count": 9 },
+          { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "MaskOfTheKijin", "localeName": "Mask of the Kijin", "count": 4 },
+          { "id": "ChaosOculus", "localeName": "Chaos Oculus", "count": 18 },
+          { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "overviewItems": [
+      { "id": "MaskOfTheKijin", "name": "Mask of the Kijin", "rarity": 5 },
+      { "id": "ChaosOculus", "name": "Chaos Oculus", "rarity": 4 },
+      { "id": "GoldenRavenInsignia", "name": "Golden Raven Insignia", "rarity": 3 }
+    ],
+    "subAttr": { "type": 11, "value": 24, "curve": 17 },
+    "affix": {
+      "name": "Samurai Conduct",
+      "levels": [
+        {
+          "desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>6%</color>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <color=#99FFFFFF>3</color> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+          "params": [0.06, 3, 3, 6, 10]
+        },
+        {
+          "desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>7.5%</color>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <color=#99FFFFFF>3.5</color> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+          "params": [0.075, 3, 3.5, 6, 10]
+        },
+        {
+          "desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>9%</color>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <color=#99FFFFFF>4</color> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+          "params": [0.09, 3, 4, 6, 10]
+        },
+        {
+          "desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>10.5%</color>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <color=#99FFFFFF>4.5</color> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+          "params": [0.105, 3, 4.5, 6, 10]
+        },
+        {
+          "desc": "Increases Elemental Skill DMG by <color=#99FFFFFF>12%</color>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <color=#99FFFFFF>5</color> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+          "params": [0.12, 3, 5, 6, 10]
+        }
+      ]
+    }
+  },
+  {
     "id": "StaffOfHoma",
     "name": "Staff of Homa",
     "localeName": "Staff of Homa",
@@ -6024,7 +6412,7 @@
       "name": "Energy Shower",
       "levels": [
         { "desc": "Picking up an Elemental Energy Orb/Particle recovers <color=#99FFFFFF>1%</color> HP.", "params": [0.01] },
-        { "desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>1.25</color>% HP.", "params": [0.0125] },
+        { "desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>1.25%</color> HP.", "params": [0.0125] },
         { "desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>1.5%</color> HP.", "params": [0.015] },
         { "desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>1.75%</color> HP.", "params": [0.0175] },
         { "desc": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>2%</color> HP.", "params": [0.02] }
@@ -7303,6 +7691,103 @@
         { "desc": "Normal Attack hits on opponents increase Charged Attack DMG by <color=#99FFFFFF>24%</color> for 6s. Charged Attack hits on opponents increase ATK by <color=#99FFFFFF>12%</color> for 6s.", "params": [0.24, 6, 0.12, 6] },
         { "desc": "Normal Attack hits on opponents increase Charged Attack DMG by <color=#99FFFFFF>28%</color> for 6s. Charged Attack hits on opponents increase ATK by <color=#99FFFFFF>14%</color> for 6s.", "params": [0.28, 6, 0.14, 6] },
         { "desc": "Normal Attack hits on opponents increase Charged Attack DMG by <color=#99FFFFFF>32%</color> for 6s. Charged Attack hits on opponents increase ATK by <color=#99FFFFFF>16%</color> for 6s.", "params": [0.32, 6, 0.16, 6] }
+      ]
+    }
+  },
+  {
+    "id": "HakushinRing",
+    "name": "Hakushin Ring",
+    "localeName": "Hakushin Ring",
+    "desc": "A catalyst that carries the memory of the Kitsune Saiguu of ancient times. However, this device is but an impoverished vessel for the full breadth of her thought.",
+    "rarity": 4,
+    "type": 5,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "CoralBranchOfADistantSea", "localeName": "Coral Branch of a Distant Sea", "count": 3 },
+          { "id": "DismalPrism", "localeName": "Dismal Prism", "count": 3 },
+          { "id": "DiviningScroll", "localeName": "Divining Scroll", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "Jeweled Branch of a Distant Sea", "count": 3 },
+          { "id": "DismalPrism", "localeName": "Dismal Prism", "count": 12 },
+          { "id": "DiviningScroll", "localeName": "Divining Scroll", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "Jeweled Branch of a Distant Sea", "count": 6 },
+          { "id": "CrystalPrism", "localeName": "Crystal Prism", "count": 6 },
+          { "id": "SealedScroll", "localeName": "Sealed Scroll", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "Jade Branch of a Distant Sea", "count": 3 },
+          { "id": "CrystalPrism", "localeName": "Crystal Prism", "count": 12 },
+          { "id": "SealedScroll", "localeName": "Sealed Scroll", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "Jade Branch of a Distant Sea", "count": 6 },
+          { "id": "PolarizingPrism", "localeName": "Polarizing Prism", "count": 9 },
+          { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "GoldenBranchOfADistantSea", "localeName": "Golden Branch of a Distant Sea", "count": 4 },
+          { "id": "PolarizingPrism", "localeName": "Polarizing Prism", "count": 18 },
+          { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "overviewItems": [
+      { "id": "GoldenBranchOfADistantSea", "name": "Golden Branch of a Distant Sea", "rarity": 5 },
+      { "id": "PolarizingPrism", "name": "Polarizing Prism", "rarity": 4 },
+      { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "rarity": 3 }
+    ],
+    "subAttr": { "type": 10, "value": 0.066667, "curve": 17 },
+    "affix": {
+      "name": "Sakura Saiguu",
+      "levels": [
+        {
+          "desc": "After the character equipped with this weapon triggers an Electro elemental reaction, nearby party members of an Elemental Type involved in the elemental reaction receive a <color=#99FFFFFF>10%</color> Elemental DMG Bonus for their element, lasting 6s. Elemental Bonuses gained in this way cannot be stacked.",
+          "params": [0.1, 6, 1]
+        },
+        {
+          "desc": "After the character equipped with this weapon triggers an Electro elemental reaction, nearby party members of an Elemental Type involved in the elemental reaction receive a <color=#99FFFFFF>12.5%</color> Elemental DMG Bonus for their element, lasting 6s. Elemental Bonuses gained in this way cannot be stacked.",
+          "params": [0.125, 6, 1]
+        },
+        {
+          "desc": "After the character equipped with this weapon triggers an Electro elemental reaction, nearby party members of an Elemental Type involved in the elemental reaction receive a <color=#99FFFFFF>15%</color> Elemental DMG Bonus for their element, lasting 6s. Elemental Bonuses gained in this way cannot be stacked.",
+          "params": [0.15, 6, 1]
+        },
+        {
+          "desc": "After the character equipped with this weapon triggers an Electro elemental reaction, nearby party members of an Elemental Type involved in the elemental reaction receive a <color=#99FFFFFF>17.5%</color> Elemental DMG Bonus for their element, lasting 6s. Elemental Bonuses gained in this way cannot be stacked.",
+          "params": [0.175, 6, 1]
+        },
+        {
+          "desc": "After the character equipped with this weapon triggers an Electro elemental reaction, nearby party members of an Elemental Type involved in the elemental reaction receive a <color=#99FFFFFF>20%</color> Elemental DMG Bonus for their element, lasting 6s. Elemental Bonuses gained in this way cannot be stacked.",
+          "params": [0.2, 6, 1]
+        }
       ]
     }
   },
@@ -9329,6 +9814,88 @@
     }
   },
   {
+    "id": "Hamayumi",
+    "name": "Hamayumi",
+    "localeName": "Hamayumi",
+    "desc": "A certain shrine maiden once owned this warbow. It was made with surpassing skill, and is both intricate and sturdy.",
+    "rarity": 4,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "NarukamisWisdom", "localeName": "Narukami's Wisdom", "count": 3 },
+          { "id": "DismalPrism", "localeName": "Dismal Prism", "count": 3 },
+          { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "Narukami's Joy", "count": 3 },
+          { "id": "DismalPrism", "localeName": "Dismal Prism", "count": 12 },
+          { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "Narukami's Joy", "count": 6 },
+          { "id": "CrystalPrism", "localeName": "Crystal Prism", "count": 6 },
+          { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "Narukami's Affection", "count": 3 },
+          { "id": "CrystalPrism", "localeName": "Crystal Prism", "count": 12 },
+          { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "Narukami's Affection", "count": 6 },
+          { "id": "PolarizingPrism", "localeName": "Polarizing Prism", "count": 9 },
+          { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "NarukamisValor", "localeName": "Narukami's Valor", "count": 4 },
+          { "id": "PolarizingPrism", "localeName": "Polarizing Prism", "count": 18 },
+          { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 41.067,
+    "baseATKCurve": 9,
+    "overviewItems": [
+      { "id": "NarukamisValor", "name": "Narukami's Valor", "rarity": 5 },
+      { "id": "PolarizingPrism", "name": "Polarizing Prism", "rarity": 4 },
+      { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.12, "curve": 17 },
+    "affix": {
+      "name": "Full Draw",
+      "levels": [
+        { "desc": "Increases Normal Attack DMG by <color=#99FFFFFF>16%</color> and Charged Attack DMG by <color=#99FFFFFF>12%</color>. When the equipping character's Energy reaches 100%, this effect is increased by 100%.", "params": [0.16, 0.12, 1] },
+        { "desc": "Increases Normal Attack DMG by <color=#99FFFFFF>20%</color> and Charged Attack DMG by <color=#99FFFFFF>15%</color>. When the equipping character's Energy reaches 100%, this effect is increased by 100%.", "params": [0.2, 0.15, 1] },
+        { "desc": "Increases Normal Attack DMG by <color=#99FFFFFF>24%</color> and Charged Attack DMG by <color=#99FFFFFF>18%</color>. When the equipping character's Energy reaches 100%, this effect is increased by 100%.", "params": [0.24, 0.18, 1] },
+        { "desc": "Increases Normal Attack DMG by <color=#99FFFFFF>28%</color> and Charged Attack DMG by <color=#99FFFFFF>21%</color>. When the equipping character's Energy reaches 100%, this effect is increased by 100%.", "params": [0.28, 0.21, 1] },
+        { "desc": "Increases Normal Attack DMG by <color=#99FFFFFF>32%</color> and Charged Attack DMG by <color=#99FFFFFF>24%</color>. When the equipping character's Energy reaches 100%, this effect is increased by 100%.", "params": [0.32, 0.24, 1] }
+      ]
+    }
+  },
+  {
     "id": "SkywardHarp",
     "name": "Skyward Harp",
     "localeName": "Skyward Harp",
@@ -9732,5 +10299,102 @@
     ],
     "baseATK": 42.735,
     "baseATKCurve": 1
+  },
+  {
+    "id": "ThunderingPulse",
+    "name": "Thundering Pulse",
+    "localeName": "Thundering Pulse",
+    "desc": "A longbow that was a gift from the Shogun. Eternal lightning crackles all around it.",
+    "rarity": 5,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          { "id": "NarukamisWisdom", "localeName": "Narukami's Wisdom", "count": 5 },
+          { "id": "DismalPrism", "localeName": "Dismal Prism", "count": 5 },
+          { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "count": 3 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "Narukami's Joy", "count": 5 },
+          { "id": "DismalPrism", "localeName": "Dismal Prism", "count": 18 },
+          { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "count": 12 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "Narukami's Joy", "count": 9 },
+          { "id": "CrystalPrism", "localeName": "Crystal Prism", "count": 9 },
+          { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "count": 9 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "Narukami's Affection", "count": 5 },
+          { "id": "CrystalPrism", "localeName": "Crystal Prism", "count": 18 },
+          { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "Narukami's Affection", "count": 9 },
+          { "id": "PolarizingPrism", "localeName": "Polarizing Prism", "count": 14 },
+          { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "NarukamisValor", "localeName": "Narukami's Valor", "count": 6 },
+          { "id": "PolarizingPrism", "localeName": "Polarizing Prism", "count": 27 },
+          { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "count": 18 }
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "overviewItems": [
+      { "id": "NarukamisValor", "name": "Narukami's Valor", "rarity": 5 },
+      { "id": "PolarizingPrism", "name": "Polarizing Prism", "rarity": 4 },
+      { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "rarity": 3 }
+    ],
+    "subAttr": { "type": 13, "value": 0.144, "curve": 18 },
+    "affix": {
+      "name": "Rule by Thunder",
+      "levels": [
+        {
+          "desc": "Increases ATK by <color=#99FFFFFF>20%</color> and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by <color=#99FFFFFF>12/24/40%</color>. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+          "params": [0.2, 0.12, 0.24, 0.4, 5, 10]
+        },
+        {
+          "desc": "Increases ATK by <color=#99FFFFFF>25%</color> and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by <color=#99FFFFFF>15/30/50%</color>. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+          "params": [0.25, 0.15, 0.3, 0.5, 5, 10]
+        },
+        {
+          "desc": "Increases ATK by <color=#99FFFFFF>30%</color> and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by <color=#99FFFFFF>18/36/60%</color>. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+          "params": [0.3, 0.18, 0.36, 0.6, 5, 10]
+        },
+        {
+          "desc": "Increases ATK by <color=#99FFFFFF>35%</color> and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by <color=#99FFFFFF>21/42/70%</color>. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+          "params": [0.35, 0.21, 0.42, 0.7, 5, 10]
+        },
+        {
+          "desc": "Increases ATK by <color=#99FFFFFF>40%</color> and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by <color=#99FFFFFF>24/48/80%</color>. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+          "params": [0.4, 0.24, 0.48, 0.8, 5, 10]
+        }
+      ]
+    }
   }
 ]

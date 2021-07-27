@@ -61,10 +61,10 @@ const config: NuxtConfig = {
     "@nuxtjs/axios",
     // https://go.nuxtjs.dev/pwa
     "@nuxtjs/pwa",
-    // https://go.nuxtjs.dev/content
-    "@nuxt/content",
     // https://i18n.nuxtjs.org/
     "nuxt-i18n",
+    // https://go.nuxtjs.dev/content
+    "@nuxt/content",
     // https://www.npmjs.com/package/@nuxtjs/apollo
     "@nuxtjs/apollo",
     // https://www.npmjs.com/package/@nuxtjs/sitemap
@@ -179,7 +179,9 @@ const config: NuxtConfig = {
   },
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
-  content: {},
+  content: {
+    fullTextSearchFields: ["title", "description", "slug"],
+  },
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
   vuetify: {
