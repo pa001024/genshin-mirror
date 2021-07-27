@@ -229,13 +229,13 @@
   "attackSkill": {
     "name": "NormalAttackDemonbane",
     "localeName": "Normal Attack: Demonbane",
-    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 4 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt end of the sequence, perform a more powerful slash. \n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 4 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, perform a more powerful slash. \n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "cd": 0,
     "paramTpls": [
       "1-Hit DMG|{param1:F1P}",
       "2-Hit DMG|{param2:F1P}",
       "3-Hit DMG|{param3:F1P}",
-      "4-hit DMG|{param4:P}",
+      "4-Hit DMG|{param4:P}",
       "Charged Attack Spinning DMG|{param5:F1P}",
       "Charged Attack Final DMG|{param6:P}",
       "Charged Attack Stamina Cost|{param7:F1}/s",

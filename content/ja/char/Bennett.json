@@ -161,7 +161,7 @@
   "elemBurst": {
     "name": "FantasticVoyage",
     "localeName": "素晴らしい旅",
-    "desc": "ジャンプして地面を叩き、<color=#FF9999FF>炎元素ダメージ</color>を与え、鼓舞エリアを生成する。\n\n<color=#FFD780FF>鼓舞エリア</color>\n·エリア内のキャラクターのHPが最大値の70%を下回ると、HPが持続的に回復する。回復量はベネットのHP上限によって決まる。\n·エリア内のキャラクターのHPが最大値の70%以上の場合、ベネットの基礎攻撃力を基準に、一定割合の攻撃力がアップする。\n·エリア内のキャラクターに<color=#FF9999FF>炎元素付着</color>効果を付与する。\n\n<i>ベニー冒険団の探険の旅はいつも予想外の危険でいっぱいだ。しかし唯一のメンバーであるベネットはそれを「刺激的で素晴らしい旅」だと思っている。</i>",
+    "desc": "ジャンプして地面を叩き、<color=#FF9999FF>炎元素ダメージ</color>を与え、鼓舞エリアを生成する。\n\n<color=#FFD780FF>鼓舞エリア</color>\n·エリア内のキャラクターのHPが70%以下の場合、HPが持続的に回復する。回復量はベネットのHP上限によって決まる。\n·エリア内のキャラクターのHPが70%を超えたの場合、ベネットの基礎攻撃力を基準に、一定割合の攻撃力がアップする。\n·エリア内のキャラクターに<color=#FF9999FF>炎元素付着</color>効果を付与する。\n\n<i>ベニー冒険団の探険の旅はいつも予想外の危険でいっぱいだ。しかし唯一のメンバーであるベネットはそれを「刺激的で素晴らしい旅」だと思っている。</i>",
     "cd": 15,
     "energyCost": 60,
     "paramTpls": ["スキルダメージ|{param1:P}", "継続回復|毎秒{param2:F2P}HP上限+{param3:I}", "攻撃力上昇率|{param4:P}", "継続時間|{param5:F1}秒", "クールタイム|{param6:F1}秒", "元素エネルギー|{param7:I}"],
@@ -305,12 +305,12 @@
   },
   "talents": [
     { "name": "Rekindle", "localeName": "情熱復活", "desc": "<color=#FFD780FF>溢れる情熱</color>のクールタイム-20%。", "unlock": 1 },
-    { "name": "Fearnaught", "localeName": "恐れなき熱血", "desc": "<color=#FFD780FF>素晴らしい旅</color>エリア内にいると、<color=#FFD780FF>溢れる情熱</color>が以下の効果を持つ：\n·クールタイム-50%。\n·2段チャージによるベネット自身のノックバックが発生しない。", "unlock": 4 },
+    { "name": "Fearnaught", "localeName": "恐れなき熱血", "desc": "<color=#FFD780FF>素晴らしい旅</color>エリア内にいると、<color=#FFD780FF>溢れる情熱</color>が以下の効果を持つ。\n·クールタイム-50%。\n·2段チャージによるベネット自身のノックバックが発生しない。", "unlock": 4 },
     { "name": "ItShouldBeSafe", "localeName": "多分安全", "desc": "モンドの探索任務の所要時間-25%。" }
   ],
   "c13ns": [
     { "name": "GrandExpectation", "localeName": "冒険の憧れ", "desc": "<color=#FFD780FF>素晴らしい旅</color>の攻撃力アップ効果のHPによる制限がなくなり、更にベネットの基礎攻撃力の20%に当たる数値を追加する。", "values": [0.2] },
-    { "name": "ImpasseConqueror", "localeName": "絶境踏破", "desc": "HPが70%以下になると、元素チャージ効率+30%。", "values": [0.7, 0.3] },
+    { "name": "ImpasseConqueror", "localeName": "絶境踏破", "desc": "ベネットのHPが70%以下になると、元素チャージ効率+30%。", "values": [0.7, 0.3] },
     { "name": "UnstoppableFervor", "localeName": "炎のような情熱", "desc": "<color=#FFD780FF>溢れる情熱</color>のスキルLv.+3。\n最大Lv.15まで。" },
     { "name": "UnexpectedOdyssey", "localeName": "消えない情熱", "desc": "1段チャージ<color=#FFD780FF>溢れる情熱</color>を発動する時、二段目攻撃中に通常攻撃をすると追加攻撃を発動できる。\n二段目攻撃の135%の追加ダメージを与える。", "values": [1.35] },
     { "name": "TrueExplorer", "localeName": "開拓の心意気", "desc": "<color=#FFD780FF>素晴らしい旅</color>のスキルLv.+3。\n最大Lv.15まで。" },

@@ -154,6 +154,11 @@
     "typeText": "素材",
     "drop": ["BOSS掉落"]
   },
+  { "id": "SeaGanoderma", "name": "Sea Ganoderma", "localeName": "海灵芝", "desc": "在某些特殊的海域中、岛屿上才会生长的特殊物种。虽然外形看起来像菌类，但其实是由软体生物分泌增生而成的。", "rarity": 1, "type": 4, "typeText": "区域特产", "drop": ["野外采集"] },
+  { "id": "Fabric", "name": "Fabric", "localeName": "布匹", "desc": "优质的布匹。制作摆设时应该能派上用场。", "rarity": 1, "type": 4, "typeText": "素材" },
+  { "id": "RedDye", "name": "Red Dye", "localeName": "红色染料", "desc": "红色的染料。制作摆设时应该能派上用场。", "rarity": 1, "type": 4, "typeText": "素材" },
+  { "id": "YellowDye", "name": "Yellow Dye", "localeName": "黄色染料", "desc": "黄色的染料。制作摆设时应该能派上用场。", "rarity": 1, "type": 4, "typeText": "素材" },
+  { "id": "BlueDye", "name": "Blue Dye", "localeName": "蓝色染料", "desc": "蓝色的染料。制作摆设时应该能派上用场。", "rarity": 1, "type": 4, "typeText": "素材" },
   { "id": "HuntingTrap", "name": "Hunting Trap", "localeName": "狩猎陷阱", "desc": "用来捕捉一定体型的野兽。在野外留心搜集的话，还是能做出这样一个陷阱的。布置在地上，小心藏好。", "rarity": 1, "type": 7, "typeText": "消耗品" },
   { "id": "StrangeTooth", "name": "Strange Tooth", "localeName": "奇异的「牙齿」", "desc": "从雪山上拾得的「牙齿」。也许有人会知道关于它的一些信息…", "rarity": 1, "type": 4, "typeText": "素材" },
   { "id": "VitalizedDragontooth", "name": "Vitalized Dragontooth", "localeName": "汲取了生命力的龙牙", "desc": "汲取了生命力的龙牙。无论是光泽还是质感，都愈加让人不安…", "rarity": 1, "type": 4, "typeText": "素材" },
@@ -242,9 +247,9 @@
     "typeText": "角色培养素材",
     "drop": ["75级以上无相之风掉落", "合成获得"]
   },
-  { "id": "ShivadaJadeSliver", "name": "Shivada Jade Sliver", "localeName": "哀叙冰玉碎屑", "desc": "角色突破素材。", "rarity": 2, "type": 1, "typeText": "角色培养素材", "drop": ["急冻树掉落", "纪念品商店兑换"] },
-  { "id": "ShivadaJadeFragment", "name": "Shivada Jade Fragment", "localeName": "哀叙冰玉断片", "desc": "角色突破素材。\n「…抱歉…」", "rarity": 3, "type": 1, "typeText": "角色培养素材", "drop": ["40级以上急冻树掉落", "合成获得"] },
-  { "id": "ShivadaJadeChunk", "name": "Shivada Jade Chunk", "localeName": "哀叙冰玉块", "desc": "角色突破素材。\n「…抱歉…\n「让你们一起和我背负了整个世界的哀思。」", "rarity": 4, "type": 1, "typeText": "角色培养素材", "drop": ["60级以上急冻树掉落", "合成获得"] },
+  { "id": "ShivadaJadeSliver", "name": "Shivada Jade Sliver", "localeName": "哀叙冰玉碎屑", "desc": "角色突破素材。", "rarity": 2, "type": 1, "typeText": "角色培养素材", "drop": ["急冻树掉落", "无相之冰掉落", "纪念品商店兑换"] },
+  { "id": "ShivadaJadeFragment", "name": "Shivada Jade Fragment", "localeName": "哀叙冰玉断片", "desc": "角色突破素材。\n「…抱歉…」", "rarity": 3, "type": 1, "typeText": "角色培养素材", "drop": ["40级以上急冻树掉落", "40级以上无相之冰掉落", "合成获得"] },
+  { "id": "ShivadaJadeChunk", "name": "Shivada Jade Chunk", "localeName": "哀叙冰玉块", "desc": "角色突破素材。\n「…抱歉…\n「让你们一起和我背负了整个世界的哀思。」", "rarity": 4, "type": 1, "typeText": "角色培养素材", "drop": ["60级以上急冻树掉落", "60级以上无相之冰掉落", "合成获得"] },
   {
     "id": "ShivadaJadeGemstone",
     "name": "Shivada Jade Gemstone",
@@ -253,7 +258,7 @@
     "rarity": 5,
     "type": 1,
     "typeText": "角色培养素材",
-    "drop": ["75级以上急冻树掉落", "合成获得"]
+    "drop": ["75级以上急冻树掉落", "75级以上无相之冰掉落", "合成获得"]
   },
   { "id": "PrithivaTopazSliver", "name": "Prithiva Topaz Sliver", "localeName": "坚牢黄玉碎屑", "desc": "角色突破素材。", "rarity": 2, "type": 1, "typeText": "角色培养素材", "drop": ["无相之岩掉落", "纪念品商店兑换"] },
   { "id": "PrithivaTopazFragment", "name": "Prithiva Topaz Fragment", "localeName": "坚牢黄玉断片", "desc": "角色突破素材。\n「大陆所流通的一切银钱皆是我的血肉。」", "rarity": 3, "type": 1, "typeText": "角色培养素材", "drop": ["40级以上无相之岩掉落", "合成获得"] },
@@ -425,6 +430,7 @@
     "type": 7,
     "typeText": "冒险道具"
   },
+  { "id": "VialOfAdeptalSpeed", "name": "Vial of Adeptal Speed", "localeName": "仙速瓶", "desc": "封存着一股仙力的小瓶。使用后能立即完成一件摆设的制作。", "rarity": 4, "type": 7, "typeText": "消耗品" },
   { "id": "SuspiciousFishermansToast", "name": "Suspicious Fisherman's Toast", "localeName": "奇怪的渔人吐司", "desc": "铺满洋葱的吐司。但烤得有些不对劲，即使一边钓鱼一边啃，也能尝出味道的差别。", "rarity": 2, "type": 2, "typeText": "食物", "drop": ["烹饪获得"] },
   { "id": "FishermansToast", "name": "Fisherman's Toast", "localeName": "渔人吐司", "desc": "铺满洋葱的吐司。是渔夫间流行的主食。他们会在包里塞满这种吐司，并在河边蹲上一整天。", "rarity": 2, "type": 2, "typeText": "食物", "drop": ["烹饪获得"] },
   { "id": "DeliciousFishermansToast", "name": "Delicious Fisherman's Toast", "localeName": "美味的渔人吐司", "desc": "铺满洋葱的吐司。散发诱人的香气。很难判别鱼究竟是被鱼饵还是吐司吸引上钩的。", "rarity": 2, "type": 2, "typeText": "食物", "drop": ["烹饪获得"] },
@@ -969,6 +975,18 @@
   },
   { "id": "RockinRiffinChicken", "name": "Rockin' Riffin' Chicken!", "localeName": "摇·滚·鸡！", "desc": "辛焱的特色料理。魔鬼般的造型隐藏着魔鬼般的辣度，一边吃一边流泪却还越吃越上瘾。只有魔鬼才做得出这样的菜吧！", "rarity": 2, "type": 2, "typeText": "食物", "drop": ["烹饪获得"] },
   { "id": "APrizeCatch", "name": "A Prize Catch", "localeName": "极致一钓", "desc": "达达利亚的特色料理。如同血海中漂泊的困兽，在垂死时发出人耳所不能闻的哀嚎…不过达达利亚却笑着解释说，只是海钓的战利品加了一些老家特产而已。", "rarity": 3, "type": 2, "typeText": "食物", "drop": ["烹饪获得"] },
+  { "id": "SuspiciousCrabRoeTofu", "name": "Suspicious Crab Roe Tofu", "localeName": "奇怪的蟹黄豆腐", "desc": "口感细嫩的菜肴。即使是极鲜的蟹黄，也难以缓和豆腐过老的口感。只好用筷子捣碎之后，拌进白米饭里一起吃。", "rarity": 2, "type": 2, "typeText": "食物", "drop": ["烹饪获得"] },
+  { "id": "CrabRoeTofu", "name": "Crab Roe Tofu", "localeName": "蟹黄豆腐", "desc": "口感细嫩的菜肴。将蟹黄煸炒出油，加入事先烫好的豆腐，并用高汤加以调制。用料简单，入口却极其鲜美。", "rarity": 2, "type": 2, "typeText": "食物", "drop": ["烹饪获得"] },
+  {
+    "id": "DeliciousCrabRoeTofu",
+    "name": "Delicious Crab Roe Tofu",
+    "localeName": "美味的蟹黄豆腐",
+    "desc": "口感细嫩的菜肴。用勺子舀起的豆腐柔嫩得吹弹可破，蟹黄更是肥美到抿一口就会溢出蟹油沾在唇沿。几乎不需咀嚼就已轻柔地滑入食道，唯有鲜美的味觉留在唇齿之间。",
+    "rarity": 2,
+    "type": 2,
+    "typeText": "食物",
+    "drop": ["烹饪获得"]
+  },
   { "id": "SuspiciousFullmoonEgg", "name": "Suspicious Fullmoon Egg", "localeName": "奇怪的明月蛋", "desc": "璃月的传统点心之一。面皮以一种扭曲的姿态僵硬地包裹着肉馅，干涩的口感让人有种在吃一块面疙瘩的错觉。", "rarity": 3, "type": 2, "typeText": "食物", "drop": ["烹饪获得"] },
   { "id": "FullmoonEgg", "name": "Fullmoon Egg", "localeName": "明月蛋", "desc": "璃月的传统点心之一。将蛋液混合面粉制成面皮，虾仁和鱼肉剁碎制成肉馅，包成茶盏形状，点缀完整虾仁上锅蒸熟。其造型如同云朵抱月，因此得名「明月蛋」。", "rarity": 3, "type": 2, "typeText": "食物", "drop": ["烹饪获得"] },
   {
@@ -978,6 +996,57 @@
     "desc": "璃月的传统点心之一。趁热轻咬，弹嫩肉馅伴随着鲜美汁水正中味蕾的软肋，虾肉的回甘更似画龙点睛的一笔。眼前仿佛一轮明月，一汪秋水，渔船泊靠岸边，渔歌唱遍丰年。",
     "rarity": 3,
     "type": 2,
+    "typeText": "食物",
+    "drop": ["烹饪获得"]
+  },
+  {
+    "id": "SuspiciousCuredPorkDryHotpot",
+    "name": "Suspicious Cured Pork Dry Hotpot",
+    "localeName": "奇怪的干锅腊肉",
+    "desc": "旺火炒制的菜肴。腊肉质地虽好，咸味却过于明显。只要一块下肚，此后无论是金鱼草还是松茸，都只能嚼出盐的味道。",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "食物",
+    "drop": ["烹饪获得"]
+  },
+  {
+    "id": "CuredPorkDryHotpot",
+    "name": "Cured Pork Dry Hotpot",
+    "localeName": "干锅腊肉",
+    "desc": "旺火炒制的菜肴。将松茸火腿切片，翻炒后加入少许香辛料。火腿的干香配合松茸的脆嫩，在口中越嚼越香，十分过瘾。易于导热的锅体也让它能长时间保持热气腾腾的美味。",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "食物",
+    "drop": ["烹饪获得"]
+  },
+  {
+    "id": "DeliciousCuredPorkDryHotpot",
+    "name": "Delicious Cured Pork Dry Hotpot",
+    "localeName": "美味的干锅腊肉",
+    "desc": "旺火炒制的菜肴。腊肉炒出的油脂均匀地裹在配菜之上，鲜香的风味却早已沁入其中，亮丽的色泽更是激发着人的食欲。只需要小小的一口，足以让璃月人扬起对家乡和节庆时分的思念。",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "食物",
+    "drop": ["烹饪获得"]
+  },
+  {
+    "id": "SuspiciousStirFriedFishNoodles",
+    "name": "Suspicious Stir-Fried Fish Noodles",
+    "localeName": "奇怪的干炒鱼河",
+    "desc": "滋味浓郁的主食。河粉和鱼肉几乎糊在了一起，软塌塌的口感很难令人接受。看上去简单的一道菜，原来那么考验厨师手艺吗？",
+    "rarity": 2,
+    "type": 3,
+    "typeText": "食物",
+    "drop": ["烹饪获得"]
+  },
+  { "id": "StirFriedFishNoodles", "name": "Stir-Fried Fish Noodles", "localeName": "干炒鱼河", "desc": "滋味浓郁的主食。将河粉、半熟的鱼肉和若干配菜猛火快炒而成。充分吸收食材鲜味的河粉，以其柔韧爽滑的独特口感，受到很多食客喜欢。", "rarity": 2, "type": 3, "typeText": "食物", "drop": ["烹饪获得"] },
+  {
+    "id": "DeliciousStirFriedFishNoodles",
+    "name": "Delicious Stir-Fried Fish Noodles",
+    "localeName": "美味的干炒鱼河",
+    "desc": "滋味浓郁的主食。饱满而鲜亮的外形早已引人垂涎欲滴，入口后的香味更是让人欲罢不能。河粉的柔滑更衬鱼肉的鲜弹，虽无名贵食材或特殊烹饪技法，它的美味放在宴席之中也不会逊色。",
+    "rarity": 2,
+    "type": 3,
     "typeText": "食物",
     "drop": ["烹饪获得"]
   },
@@ -1011,6 +1080,48 @@
     "desc": "宽油炒制的素食。泥土的芬芳、树荫的沁凉与岚气的润泽，汇聚成盘中之鲜。配一碗简单的白米饭，就能收获令味蕾和心灵都倍感踏实的满足。",
     "rarity": 2,
     "type": 2,
+    "typeText": "食物",
+    "drop": ["烹饪获得"]
+  },
+  {
+    "id": "SuspiciousStirFriedShrimp",
+    "name": "Suspicious Stir-Fried Shrimp",
+    "localeName": "奇怪的清炒虾仁",
+    "desc": "清淡润口的菜肴。为了防止糊底，手抖放入了过多的油。经过一番特殊的「油煎」烹调，虾仁弹性尚可，就是吃多了嗓子有些不舒服。",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "食物",
+    "drop": ["烹饪获得"]
+  },
+  { "id": "StirFriedShrimp", "name": "Stir-Fried Shrimp", "localeName": "清炒虾仁", "desc": "清淡润口的菜肴。将虾仁上浆后快速炒熟勾薄芡。极其简单的调味方式，为的是衬托虾肉本身的鲜美。从家常小菜到宴请宾客，都有它的一席之地。", "rarity": 3, "type": 2, "typeText": "食物", "drop": ["烹饪获得"] },
+  {
+    "id": "DeliciousStirFriedShrimp",
+    "name": "Delicious Stir-Fried Shrimp",
+    "localeName": "美味的清炒虾仁",
+    "desc": "清淡润口的菜肴。外形饱满的虾仁将全部鲜味储存在体内，只等齿间轻咬的那一刻迸发而出。如同一颗颗水珠接连滴入原本平静的湖面，荡出无数鲜美的回旋。直到细腻的回甘隐约浮现，心醉神迷的感受才刚刚停止。",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "食物",
+    "drop": ["烹饪获得"]
+  },
+  { "id": "SuspiciousRiceBuns", "name": "Suspicious Rice Buns", "localeName": "奇怪的米窝窝", "desc": "松软弹牙的主食。揉面完成后似乎并没有发酵到位，蒸制时也没有圆润地膨胀起来。粗糙而扎实的口感，与预想中有着不小差距。", "rarity": 1, "type": 3, "typeText": "食物", "drop": ["烹饪获得"] },
+  {
+    "id": "RiceBuns",
+    "name": "Rice Buns",
+    "localeName": "米窝窝",
+    "desc": "松软弹牙的主食。稻米和马尾磨粉后揉成面团，做出造型后上笼屉蒸熟。除了直接食用以外还有夹菜馅的吃法。方便携带的同时又很能填饱肚子，是璃月地区一道备受欢迎的主食。",
+    "rarity": 1,
+    "type": 3,
+    "typeText": "食物",
+    "drop": ["烹饪获得"]
+  },
+  {
+    "id": "DeliciousRiceBuns",
+    "name": "Delicious Rice Buns",
+    "localeName": "美味的米窝窝",
+    "desc": "松软弹牙的主食。粗粮特有的香甜，伴随着咀嚼渗入唇齿之间。再不起眼的食材，在劳动的作用下，也能成为温暖身心的力量。这份属于老百姓的幸福，流汗后品尝才最为美味。",
+    "rarity": 1,
+    "type": 3,
     "typeText": "食物",
     "drop": ["烹饪获得"]
   },
@@ -1337,6 +1448,38 @@
     "typeText": "食物",
     "drop": ["烹饪获得"]
   },
+  { "id": "MyWay", "name": "\"My Way\"", "localeName": "「自有方圆」", "desc": "烟绯的特色料理。被处理得异常规整的蟹黄豆腐。无论是规格还是味道，都严格遵循着食谱所定下的「蟹黄豆腐律法」，不逾出方圆半分。", "rarity": 2, "type": 2, "typeText": "食物", "drop": ["烹饪获得"] },
+  {
+    "id": "StormcrestPie",
+    "name": "Stormcrest Pie",
+    "localeName": "骇浪派",
+    "desc": "优菈的特色料理。不同于圆月的造型不知是在反抗传统，还是表达她「以牙还牙」的行事作风。金黄外皮之下，咸鲜的烟熏风味饱满浓郁，全蒙德也难找到第二个能做出如此美味的人…但要是这样说出口的话，恐怕又会被她「记仇」了吧。",
+    "rarity": 4,
+    "type": 2,
+    "typeText": "食物",
+    "drop": ["烹饪获得"]
+  },
+  { "id": "SuspiciousChickenTofuPudding", "name": "Suspicious Chicken Tofu Pudding", "localeName": "奇怪的鸡豆花", "desc": "制作精细的菜肴。底汤咸鲜味过重，鸡豆花口感不够细腻。技艺的缺失使这道菜空有形似，而缺乏神似。", "rarity": 4, "type": 2, "typeText": "食物", "drop": ["烹饪获得"] },
+  {
+    "id": "ChickenTofuPudding",
+    "name": "Chicken Tofu Pudding",
+    "localeName": "鸡豆花",
+    "desc": "制作精细的菜肴。将鸡脯肉剁至细腻，搅至上劲，加入以多种肉茸扫过的清汤中，小火慢煲。成品清新淡雅，色泽洁白，吃起来有豆花的感觉。将荤料制成素形，「吃鸡不见鸡、但又胜似鸡」，也属璃月的一种烹饪美学。",
+    "rarity": 4,
+    "type": 2,
+    "typeText": "食物",
+    "drop": ["烹饪获得"]
+  },
+  {
+    "id": "DeliciousChickenTofuPudding",
+    "name": "Delicious Chicken Tofu Pudding",
+    "localeName": "美味的鸡豆花",
+    "desc": "制作精细的菜肴。形似豆花，成团不散。用瓷勺舀起，入口轻抿，细嫩的触感已在舌尖化开。紧接着，鲜美的滋味百转千回，仿佛要将品尝者的灵魂带出躯壳。眼前所见不再是一道荤菜，而是一缕清风，一捧清泉，一缕神念。",
+    "rarity": 4,
+    "type": 2,
+    "typeText": "食物",
+    "drop": ["烹饪获得"]
+  },
   { "id": "RecipeChickenMushroomSkewer", "name": "Recipe: Chicken-Mushroom Skewer", "localeName": "食谱：野菇鸡肉串", "desc": "步骤详实的食谱，记载着「野菇鸡肉串」的制作方法。", "rarity": 1, "type": 7, "typeText": "食谱" },
   { "id": "RecipeFishermansToast", "name": "Recipe: Fisherman's Toast", "localeName": "食谱：渔人吐司", "desc": "步骤详实的食谱，记载着「渔人吐司」的制作方法。", "rarity": 2, "type": 7, "typeText": "食谱" },
   { "id": "RecipeFlamingRedBolognese", "name": "Recipe: Flaming Red Bolognese", "localeName": "食谱：火火肉酱面", "desc": "步骤详实的食谱，记载着「火火肉酱面」的制作方法。", "rarity": 2, "type": 7, "typeText": "食谱" },
@@ -1385,9 +1528,14 @@
   { "id": "RecipeMoonPie", "name": "Recipe: Moon Pie", "localeName": "食谱：月亮派", "desc": "步骤详实的食谱，记载着「月亮派」的制作方法。", "rarity": 4, "type": 7, "typeText": "食谱" },
   { "id": "RecipeAdventurersBreakfastSandwich", "name": "Recipe: Adventurer's Breakfast Sandwich", "localeName": "食谱：冒险家蛋堡", "desc": "步骤详实的食谱，记载着「冒险家蛋堡」的制作方法。", "rarity": 3, "type": 7, "typeText": "食谱" },
   { "id": "RecipeNorthernAppleStew", "name": "Recipe: Northern Apple Stew", "localeName": "食谱：北地苹果焖肉", "desc": "步骤详实的食谱，记载着「北地苹果焖肉」的制作方法。", "rarity": 3, "type": 7, "typeText": "食谱" },
+  { "id": "RecipeCrabRoeTofu", "name": "Recipe: Crab Roe Tofu", "localeName": "食谱：蟹黄豆腐", "desc": "步骤详实的食谱，记载着「蟹黄豆腐」的制作方法。", "rarity": 2, "type": 7, "typeText": "食谱" },
   { "id": "RecipeFullmoonEgg", "name": "Recipe: Fullmoon Egg", "localeName": "食谱：明月蛋", "desc": "步骤详实的食谱，记载着「明月蛋」的制作方法。", "rarity": 3, "type": 7, "typeText": "食谱" },
+  { "id": "RecipeCuredPorkDryHotpot", "name": "Recipe: Cured Pork Dry Hotpot", "localeName": "食谱：干锅腊肉", "desc": "步骤详实的食谱，记载着「干锅腊肉」的制作方法。", "rarity": 3, "type": 7, "typeText": "食谱" },
+  { "id": "RecipeStirFriedFishNoodles", "name": "Recipe: Stir-Fried Fish Noodles", "localeName": "食谱：干炒鱼河", "desc": "步骤详实的食谱，记载着「干炒鱼河」的制作方法。", "rarity": 2, "type": 7, "typeText": "食谱" },
   { "id": "RecipeVegetarianAbalone", "name": "Recipe:Vegetarian Abalone", "localeName": "食谱：素鲍鱼", "desc": "步骤详实的食谱，记载着「素鲍鱼」的制作方法。", "rarity": 2, "type": 7, "typeText": "食谱" },
   { "id": "RecipeStoneHarborDelicacies", "name": "Recipe: Stone Harbor Delicacies", "localeName": "食谱：岩港三鲜", "desc": "步骤详实的食谱，记载着「岩港三鲜」的制作方法。", "rarity": 2, "type": 7, "typeText": "食谱" },
+  { "id": "RecipeStirFriedShrimp", "name": "Recipe: Stir-Fried Shrimp", "localeName": "食谱：清炒虾仁", "desc": "步骤详实的食谱，记载着「清炒虾仁」的制作方法。", "rarity": 3, "type": 7, "typeText": "食谱" },
+  { "id": "RecipeRiceBuns", "name": "Recipe: Rice Buns", "localeName": "食谱：米窝窝", "desc": "步骤详实的食谱，记载着「米窝窝」的制作方法。", "rarity": 1, "type": 7, "typeText": "食谱" },
   { "id": "RecipeGoulash", "name": "Recipe: Goulash", "localeName": "食谱：稠汁蔬菜炖肉", "desc": "步骤详实的食谱，记载着「稠汁蔬菜炖肉」的制作方法。", "rarity": 2, "type": 7, "typeText": "食谱" },
   { "id": "RecipeSunshineSprat", "name": "Recipe: Sunshine Sprat", "localeName": "食谱：黄油煎鱼", "desc": "步骤详实的食谱，记载着「黄油煎鱼」的制作方法。", "rarity": 3, "type": 7, "typeText": "食谱" },
   { "id": "RecipeUniversalPeace", "name": "Recipe: Universal Peace", "localeName": "食谱：四方和平", "desc": "步骤详实的食谱，记载着「四方和平」的制作方法。", "rarity": 3, "type": 7, "typeText": "食谱" },
@@ -1399,6 +1547,7 @@
   { "id": "RecipeGoldenFriedChicken", "name": "Recipe: Golden Fried Chicken", "localeName": "食谱：大黄金吮指鸡", "desc": "步骤详实的食谱，记载着「大黄金吮指鸡」的制作方法。", "rarity": 4, "type": 7, "typeText": "食谱" },
   { "id": "RecipeGoldenChickenBurger", "name": "Recipe: Golden Chicken Burger", "localeName": "食谱：脆脆鸡腿堡", "desc": "步骤详实的食谱，记载着「脆脆鸡腿堡」的制作方法。", "rarity": 3, "type": 7, "typeText": "食谱" },
   { "id": "RecipeFragrantMashedPotatoes", "name": "Recipe: Fragrant Mashed Potatoes", "localeName": "食谱：香浓土豆泥", "desc": "步骤详实的食谱，记载着「香浓土豆泥」的制作方法。", "rarity": 3, "type": 7, "typeText": "食谱" },
+  { "id": "RecipeChickenTofuPudding", "name": "Recipe: Chicken Tofu Pudding", "localeName": "食谱：鸡豆花", "desc": "步骤详实的食谱，记载着「鸡豆花」的制作方法。", "rarity": 4, "type": 7, "typeText": "食谱" },
   { "id": "Flour", "name": "Flour", "localeName": "面粉", "desc": "由小麦磨成的粉末。无论做成怎样的主食，都能给食客的胃带来片刻充实。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["烹饪加工获得"] },
   { "id": "Cream", "name": "Cream", "localeName": "奶油", "desc": "将牛奶快速搅拌后提制的奶制品。是制作美味糕点时必备的材料之一。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["烹饪加工获得"] },
   { "id": "SmokedFowl", "name": "Smoked Fowl", "localeName": "熏禽肉", "desc": "经过熏制的禽肉。紧实的肉质带来别样的味觉体验。", "rarity": 1, "type": 4, "typeText": "食材", "drop": ["烹饪加工获得"] },
@@ -1812,6 +1961,66 @@
     "drop": ["30级以上古岩龙蜥掉落"]
   },
   {
+    "id": "DragonLordsCrown",
+    "name": "Dragon Lord's Crown",
+    "localeName": "龙王之冕",
+    "desc": "千年刚玉凝成的结晶之角，乃是「龙王」的天生冠冕。\n注之以精魄，塑之以顽岩。它自山涧而生，在群岩的国土彰示天地的威权，而黄金般的长角则是它在过去与某位君王分庭抗礼的标志。\n曾一度裂折失色，如今却在你的手中闪烁着冰冷的黄金光泽。",
+    "rarity": 5,
+    "type": 1,
+    "typeText": "角色培养素材",
+    "drop": ["70级以上若陀龙王挑战奖励"]
+  },
+  {
+    "id": "BloodjadeBranch",
+    "name": "Bloodjade Branch",
+    "localeName": "血玉之枝",
+    "desc": "闪烁着特异色泽的骨质枝条，以「龙王」的力量滋养而生。\n憎恨淌过天成的泉道，交汇冰冷的月光，令晶化的枝桠舒展而生…\n即使在战斗中已被斩落，龙血滋养的枝叶仍在簌簌作响，永无宁时。",
+    "rarity": 5,
+    "type": 1,
+    "typeText": "角色培养素材",
+    "drop": ["70级以上若陀龙王挑战奖励"]
+  },
+  {
+    "id": "GildedScale",
+    "name": "Gilded Scale",
+    "localeName": "鎏金之鳞",
+    "desc": "玄岩之中自然而生的鳞甲，坚韧而沉默，蕴含着「龙王」的威能。\n在无数代蝼蚁归于腐土的岁月中，黄金与黑曜嵌入磐石造就的血肉，蔓延盘生而成甲胄。\n炽热的痛感，无声的呼号，或许皆会在恩怨终结的一刻消散吧。",
+    "rarity": 5,
+    "type": 1,
+    "typeText": "角色培养素材",
+    "drop": ["70级以上若陀龙王挑战奖励"]
+  },
+  {
+    "id": "CrystallineBloom",
+    "name": "Crystalline Bloom",
+    "localeName": "晶凝之华",
+    "desc": "无相之冰绽开的极寒瞬间，凝结而出的至纯冰晶。\n冰霜的结晶永远依凭着冰冷的定则生长、盛放，最终开出冻结一切的凛冬之花。或许滞顿的时间，无法解冻的幽怀，才应当是永存不灭之花的真谛。",
+    "rarity": 4,
+    "type": 1,
+    "typeText": "角色培养素材",
+    "drop": ["30级以上无相之冰掉落"]
+  },
+  {
+    "id": "DreamSolvent",
+    "name": "Dream Solvent",
+    "localeName": "异梦溶媒",
+    "desc": "能够使追忆与试炼中取得的角色培养素材发生变质，使其变为所需要的形态。\n曾经人们相信灵魂和记忆也是有其质料的。如果曾经有人梦到过天堂，醒来后取出了一朵花，那它应该就是由此构成的。异梦溶媒可以溶解回忆中取得的东西，并且将其变成另一种梦。\n与强者交手的回忆，的确成为了更强之路的砖石。",
+    "rarity": 4,
+    "type": 7,
+    "typeText": "消耗品",
+    "drop": ["【征讨领域和北风的王狼】挑战奖励"]
+  },
+  {
+    "id": "MarionetteCore",
+    "name": "Marionette Core",
+    "localeName": "魔偶机心",
+    "desc": "能够驱动无机质的机关魔偶剑鬼，使它如同生者一般挥舞刀剑的核心。\n无论是如何精湛的武艺、多么美丽的记忆，也会随着肉体的衰败而凋零。\n恐怕只有将自己的四肢、躯体都换成牢固的机关，最终将心脏换成精密的「机心」，才能比凡骨肉胎更加接近永恒吧…",
+    "rarity": 4,
+    "type": 1,
+    "typeText": "角色培养素材",
+    "drop": ["30级以上魔偶剑鬼掉落"]
+  },
+  {
     "id": "TileOfDecarabiansTower",
     "name": "Tile of Decarabian's Tower",
     "localeName": "高塔孤王的破瓦",
@@ -2098,6 +2307,15 @@
     "name": "\"The Visible Winds\"",
     "localeName": "「看得见的风」",
     "desc": "「风花之颂」专用的精炼道具。\n象征着风车与风之花的精致饰物，也是「风花之颂」的弓臂上的装饰品。「风」本身看不见、摸不着，而恒常转动着的风车、绿地上摇摆的花朵则是「看得见的风」，向人们昭示着，轻柔的风无时无刻不眷顾蒙德的大地与众生。",
+    "rarity": 4,
+    "type": 1,
+    "typeText": "精炼材料"
+  },
+  {
+    "id": "FragmentsOfInnocence",
+    "name": "\"Fragments of Innocence\"",
+    "localeName": "「童真的断篇」",
+    "desc": "「嘟嘟可故事集」专用的精炼道具。\n随风散落的断篇，每一页上都写满童趣之事，而尺寸恰好与《嘟嘟可故事集》完美相合。其间满溢的童心与纯真的爱永不褪色，就像书中永无完结的大冒险一样，热忱的童话永远随着其作者的脚步飞扬。",
     "rarity": 4,
     "type": 1,
     "typeText": "精炼材料"

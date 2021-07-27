@@ -1,0 +1,327 @@
+{
+  "id": "Yanfei",
+  "name": "Yanfei",
+  "localeName": "烟绯",
+  "desc": "活跃在璃月港的知名律法咨询师，混有仙兽血脉的精明少女。",
+  "baseHP": 784.14,
+  "baseATK": 20.123,
+  "baseDEF": 49.214,
+  "bodyType": 3,
+  "rarity": 4,
+  "weapon": 5,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "AgnidusAgateSliver", "localeName": "燃愿玛瑙碎屑", "rarity": 2, "count": 1 },
+        { "id": "NoctilucousJade", "localeName": "夜泊石", "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "寻宝鸦印", "rarity": 1, "count": 3 }
+      ],
+      "HP": 585.79,
+      "ATK": 15.033,
+      "DEF": 36.765,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "AgnidusAgateFragment", "localeName": "燃愿玛瑙断片", "rarity": 3, "count": 3 },
+        { "id": "JuvenileJade", "localeName": "未熟之玉", "rarity": 4, "count": 2 },
+        { "id": "NoctilucousJade", "localeName": "夜泊石", "count": 10 },
+        { "id": "TreasureHoarderInsignia", "localeName": "寻宝鸦印", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1002,
+      "ATK": 25.715,
+      "DEF": 62.888,
+      "extra": 0.06
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "AgnidusAgateFragment", "localeName": "燃愿玛瑙断片", "rarity": 3, "count": 6 },
+        { "id": "JuvenileJade", "localeName": "未熟之玉", "rarity": 4, "count": 4 },
+        { "id": "NoctilucousJade", "localeName": "夜泊石", "count": 20 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1557,
+      "ATK": 39.957,
+      "DEF": 97.717,
+      "extra": 0.12
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "AgnidusAgateChunk", "localeName": "燃愿玛瑙块", "rarity": 4, "count": 3 },
+        { "id": "JuvenileJade", "localeName": "未熟之玉", "rarity": 4, "count": 8 },
+        { "id": "NoctilucousJade", "localeName": "夜泊石", "count": 30 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 18 }
+      ],
+      "HP": 1973.2,
+      "ATK": 50.638,
+      "DEF": 123.84,
+      "extra": 0.12
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "AgnidusAgateChunk", "localeName": "燃愿玛瑙块", "rarity": 4, "count": 6 },
+        { "id": "JuvenileJade", "localeName": "未熟之玉", "rarity": 4, "count": 12 },
+        { "id": "NoctilucousJade", "localeName": "夜泊石", "count": 45 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 12 }
+      ],
+      "HP": 2389.4,
+      "ATK": 61.32,
+      "DEF": 149.96,
+      "extra": 0.18
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "AgnidusAgateGemstone", "localeName": "燃愿玛瑙", "rarity": 5, "count": 6 },
+        { "id": "JuvenileJade", "localeName": "未熟之玉", "rarity": 4, "count": 20 },
+        { "id": "NoctilucousJade", "localeName": "夜泊石", "count": 60 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 24 }
+      ],
+      "HP": 2805.6,
+      "ATK": 72.002,
+      "DEF": 176.09,
+      "extra": 0.24
+    }
+  ],
+  "ascensionType": 19,
+  "element": 6,
+  "elemSkill": {
+    "name": "SignedEdict",
+    "localeName": "丹书立约",
+    "desc": "唤出烈焰，造成<color=#FF9999FF>火元素范围伤害</color>。\n命中敌人后，会为烟绯赋予最大数量的丹火印。\n\n<i>以火烧制的印除了法律效应之外，还带着烟绯自己的附加条款。毕竟自然法则只靠总务司是改不掉的。</i>",
+    "cd": 9,
+    "paramTpls": ["技能伤害|{param1:P}", "冷却时间|{param2:F1}秒"],
+    "paramVals": [
+      [1.696, 9],
+      [1.8232, 9],
+      [1.9504, 9],
+      [2.12, 9],
+      [2.2472, 9],
+      [2.3744, 9],
+      [2.544, 9],
+      [2.7136, 9],
+      [2.8832, 9],
+      [3.0528, 9],
+      [3.2224, 9],
+      [3.392, 9],
+      [3.604, 9],
+      [3.816, 9],
+      [4.028, 9]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfGold", "localeName": "「黄金」的教导", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "寻宝鸦印", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」的指引", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」的指引", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」的指引", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」的指引", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 4 },
+        { "id": "BloodjadeBranch", "localeName": "血玉之枝", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 6 },
+        { "id": "BloodjadeBranch", "localeName": "血玉之枝", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 9 },
+        { "id": "BloodjadeBranch", "localeName": "血玉之枝", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 12 },
+        { "id": "BloodjadeBranch", "localeName": "血玉之枝", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "DoneDeal",
+    "localeName": "凭此结契",
+    "desc": "引发喷薄爆发的烈火，冲击周围的敌人，造成<color=#FF9999FF>火元素范围伤害</color>，并为烟绯自己赋予最大数量的丹火印与灼灼效果。\n\n<color=#FFD780FF>灼灼</color>\n具有如下效果：\n·每间隔一段时间，为烟绯赋予一枚丹火印；\n·提高重击造成的伤害。\n灼灼效果会在烟绯退场与倒下时移除。\n\n<i>「条款齐备，依此立下生死之契。当然，是你死我生啦！」</i>",
+    "cd": 20,
+    "energyCost": 80,
+    "paramTpls": ["技能伤害|{param1:P}"],
+    "paramVals": [
+      [1.824, 0.334, 15, 1, 20, 80],
+      [1.9608, 0.354, 15, 1, 20, 80],
+      [2.0976, 0.374, 15, 1, 20, 80],
+      [2.28, 0.4, 15, 1, 20, 80],
+      [2.4168, 0.42, 15, 1, 20, 80],
+      [2.5536, 0.44, 15, 1, 20, 80],
+      [2.736, 0.466, 15, 1, 20, 80],
+      [2.9184, 0.492, 15, 1, 20, 80],
+      [3.1008, 0.518, 15, 1, 20, 80],
+      [3.2832, 0.544, 15, 1, 20, 80],
+      [3.4656, 0.57, 15, 1, 20, 80],
+      [3.648, 0.596, 15, 1, 20, 80],
+      [3.876, 0.622, 15, 1, 20, 80],
+      [4.104, 0.648, 15, 1, 20, 80],
+      [4.332, 0.674, 15, 1, 20, 80]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfGold", "localeName": "「黄金」的教导", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "寻宝鸦印", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」的指引", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」的指引", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」的指引", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」的指引", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 4 },
+        { "id": "BloodjadeBranch", "localeName": "血玉之枝", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 6 },
+        { "id": "BloodjadeBranch", "localeName": "血玉之枝", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 9 },
+        { "id": "BloodjadeBranch", "localeName": "血玉之枝", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 12 },
+        { "id": "BloodjadeBranch", "localeName": "血玉之枝", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackSealOfApproval",
+    "localeName": "普通攻击·火漆制印",
+    "desc": "<color=#FFD780FF>普通攻击</color>\n连续发射火球，造成最多三段的<color=#FF9999FF>火元素伤害</color>。\n普通攻击命中敌人时，会赋予烟绯一枚丹火印。初始最多持有三枚丹火印，每次触发都会刷新已有的丹火印持续时间。\n每枚丹火印都会降低烟绯的体力消耗，并会在烟绯退场时消失。\n\n<color=#FFD780FF>重击</color>\n消耗体力，短暂咏唱后，消耗所有的丹火印，在前方造成<color=#FF9999FF>火元素范围伤害</color>。\n根据被消耗的丹火印数量，强化这次重击的范围与伤害。\n\n<color=#FFD780FF>下落攻击</color>\n凝聚火元素的力量，从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成<color=#FF9999FF>火元素范围伤害</color>。",
+    "cd": 0,
+    "paramTpls": [
+      "一段伤害|{param1:F1P}",
+      "二段伤害|{param2:F1P}",
+      "三段伤害|{param3:F1P}",
+      "重击伤害|{param4:P}/{param5:P}/{param6:P}/{param7:P}/{param8:P}",
+      "重击体力消耗|{param14:F1}点",
+      "丹火印降低体力消耗|每枚{param15:F1P}",
+      "丹火印持续时间|{param19:F1}秒",
+      "下坠期间伤害|{param16:F1P}",
+      "低空/高空坠地冲击伤害|{param17:P}/{param18:P}"
+    ],
+    "paramVals": [
+      [0.58342, 0.52126, 0.76013, 0.98229, 1.1556, 1.329, 1.5023, 1.6757, 2.5, 3, 3.5, 4, 4, 50, 0.15, 0.56829, 1.1363, 1.4193, 10],
+      [0.62717, 0.56035, 0.81714, 1.0411, 1.2248, 1.4086, 1.5923, 1.776, 2.5, 3, 3.5, 4, 4, 50, 0.15, 0.61454, 1.2288, 1.5349, 10],
+      [0.67093, 0.59944, 0.87415, 1.0999, 1.294, 1.4881, 1.6823, 1.8764, 2.5, 3, 3.5, 4, 4, 50, 0.15, 0.6608, 1.3213, 1.6504, 10],
+      [0.72927, 0.65157, 0.95016, 1.1764, 1.384, 1.5916, 1.7992, 2.0068, 2.5, 3, 3.5, 4, 4, 50, 0.15, 0.72688, 1.4535, 1.8154, 10],
+      [0.77303, 0.69066, 1.0072, 1.2352, 1.4532, 1.6712, 1.8892, 2.1071, 2.5, 3, 3.5, 4, 4, 50, 0.15, 0.77314, 1.5459, 1.931, 10],
+      [0.81678, 0.72976, 1.0642, 1.294, 1.5224, 1.7508, 1.9791, 2.2075, 2.5, 3, 3.5, 4, 4, 50, 0.15, 0.826, 1.6516, 2.063, 10],
+      [0.87512, 0.78188, 1.1402, 1.3705, 1.6124, 1.8542, 2.0961, 2.3379, 2.5, 3, 3.5, 4, 4, 50, 0.15, 0.89869, 1.797, 2.2445, 10],
+      [0.93347, 0.83401, 1.2162, 1.447, 1.7023, 1.9577, 2.213, 2.4684, 2.5, 3, 3.5, 4, 4, 50, 0.15, 0.97138, 1.9423, 2.4261, 10],
+      [0.99181, 0.88613, 1.2922, 1.5234, 1.7923, 2.0611, 2.33, 2.5988, 2.5, 3, 3.5, 4, 4, 50, 0.15, 1.0441, 2.0877, 2.6076, 10],
+      [1.0501, 0.93826, 1.3682, 1.5999, 1.8822, 2.1646, 2.4469, 2.7292, 2.5, 3, 3.5, 4, 4, 50, 0.15, 1.1234, 2.2462, 2.8057, 10],
+      [1.1085, 0.99039, 1.4442, 1.6764, 1.9722, 2.268, 2.5639, 2.8597, 2.5, 3, 3.5, 4, 4, 50, 0.15, 1.2027, 2.4048, 3.0037, 10],
+      [1.1668, 1.0425, 1.5203, 1.7528, 2.0622, 2.3715, 2.6808, 2.9901, 2.5, 3, 3.5, 4, 4, 50, 0.15, 1.282, 2.5634, 3.2018, 10],
+      [1.2398, 1.1077, 1.6153, 1.8293, 2.1521, 2.4749, 2.7978, 3.1206, 2.5, 3, 3.5, 4, 4, 50, 0.15, 1.3612, 2.7219, 3.3998, 10],
+      [1.3127, 1.1728, 1.7103, 1.9058, 2.2421, 2.5784, 2.9147, 3.251, 2.5, 3, 3.5, 4, 4, 50, 0.15, 1.4405, 2.8805, 3.5979, 10],
+      [1.3856, 1.238, 1.8053, 1.9822, 2.332, 2.6818, 3.0317, 3.3815, 2.5, 3, 3.5, 4, 4, 50, 0.15, 1.5198, 3.039, 3.7959, 10]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfGold", "localeName": "「黄金」的教导", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "寻宝鸦印", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」的指引", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」的指引", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」的指引", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」的指引", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "藏银鸦印", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 4 },
+        { "id": "BloodjadeBranch", "localeName": "血玉之枝", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 6 },
+        { "id": "BloodjadeBranch", "localeName": "血玉之枝", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 9 },
+        { "id": "BloodjadeBranch", "localeName": "血玉之枝", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3, "count": 12 },
+        { "id": "BloodjadeBranch", "localeName": "血玉之枝", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "Proviso", "localeName": "关联条款", "desc": "烟绯通过重击消耗丹火印时，每枚丹火印会提升烟绯5%的<color=#FF9999FF>火元素伤害加成</color>，持续6秒。在该效果的持续时间内再次施放重击时，会先移除原有的效果。", "unlock": 1, "values": [0.05, 6, 5] },
+    { "name": "BlazingEye", "localeName": "法兽灼眼", "desc": "烟绯主动施放的重击对敌人造成暴击时，会额外造成一次80%攻击力的<color=#FF9999FF>火元素范围伤害</color>。该伤害视为重击伤害。", "unlock": 4, "values": [0.8] },
+    { "name": "EncyclopedicExpertise", "localeName": "博闻强记", "desc": "在小地图上显示周围的<color=#FFD780FF>璃月区域特产</color>的位置。" }
+  ],
+  "c13ns": [
+    { "name": "TheLawKnowsNoKindness", "localeName": "占理不饶人", "desc": "烟绯进行重击时，每持有一枚丹火印，都会提高烟绯在咏唱期间的抗打断能力，并额外降低本次重击10%的体力消耗。", "values": [-0.1, -0.1] },
+    { "name": "RightOfFinalInterpretation", "localeName": "最终解释权", "desc": "烟绯的重击对于生命值低于50%的敌人，暴击率提高20%。", "values": [0.5, 0.2] },
+    { "name": "SamadhiFireForged", "localeName": "真火炼宝印", "desc": "<color=#FFD780FF>丹书立约</color>的技能等级提高3级。\n至多提升至15级。" },
+    { "name": "SupremeAmnesty", "localeName": "丹书金铁券", "desc": "施放<color=#FFD780FF>凭此结契</color>时：\n生成一个伤害吸收量等于生命值上限45%的护盾，持续15秒。\n该护盾对<color=#FF9999FF>火元素伤害</color>有250%的吸收效果。", "values": [0.45] },
+    { "name": "AbidingAffidavit", "localeName": "遵法切结书", "desc": "<color=#FFD780FF>凭此结契</color>的技能等级提高3级。\n至多提升至15级。" },
+    { "name": "ExtraClause", "localeName": "是额外条款", "desc": "烟绯持有的丹火印最大数量增加一枚。", "values": [1] }
+  ],
+  "overviewItems": [
+    { "id": "AgnidusAgateGemstone", "localeName": "燃愿玛瑙", "rarity": 5 },
+    { "id": "JuvenileJade", "localeName": "未熟之玉", "rarity": 4 },
+    { "id": "NoctilucousJade", "localeName": "夜泊石" },
+    { "id": "GoldenRavenInsignia", "localeName": "攫金鸦印", "rarity": 3 },
+    { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4 },
+    { "id": "BloodjadeBranch", "localeName": "血玉之枝", "rarity": 5 }
+  ]
+}

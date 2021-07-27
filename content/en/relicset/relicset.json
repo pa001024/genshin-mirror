@@ -255,5 +255,28 @@
       { "need": 2, "desc": "Hydro DMG Bonus +15%", "attrs": [], "params": [] },
       { "need": 4, "desc": "After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s.", "attrs": [], "params": [0.3, 1, 15] }
     ]
+  },
+  {
+    "id": 15017,
+    "name": "TenacityOfTheMillelith_0",
+    "localeName": "Tenacity of the Millelith",
+    "levels": [
+      { "need": 2, "desc": "HP increased by 20%.", "attrs": [], "params": [] },
+      {
+        "need": 4,
+        "desc": "When an Elemental Skill hits an opponent, the ATK of all nearby party members is increased by 20% and their Shield Strength is increased by 30% for 3s. This effect can be triggered once every 0.5s. This effect can still be triggered even when the character who is using this artifact set is not on the field.",
+        "attrs": [],
+        "params": [0.2, 0.3, 3, 0.5]
+      }
+    ]
+  },
+  {
+    "id": 15018,
+    "name": "PaleFlame_0",
+    "localeName": "Pale Flame",
+    "levels": [
+      { "need": 2, "desc": "Physical DMG is increased by 25%.", "attrs": [], "params": [] },
+      { "need": 4, "desc": "When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%.", "attrs": [], "params": [0.09, 7, 0.3, 0.25] }
+    ]
   }
 ]

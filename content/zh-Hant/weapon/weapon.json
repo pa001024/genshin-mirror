@@ -837,7 +837,7 @@
     "id": "RoyalLongsword",
     "name": "Royal Longsword",
     "localeName": "宗室長劍",
-    "desc": "曾支配蒙德的舊日貴族的佩劍。做工精良，裝飾與雕花彰顯著揮舞者的身份。",
+    "desc": "曾支配蒙德的舊日貴族的佩劍。做工精良，裝飾與雕花彰顯著揮舞者的身分。",
     "rarity": 4,
     "type": 1,
     "ascensions": [
@@ -1727,52 +1727,101 @@
     }
   },
   {
-    "id": "BoreasPrecocity",
-    "name": "Boreas Precocity",
-    "localeName": "北風的早成",
-    "desc": "北風的騎士所使的長劍。原本只是平淡稱手的鋼劍，卻在他的傳奇和身世的謎團中，獲得神話般的力量。",
+    "id": "FreedomSworn",
+    "name": "Freedom-Sworn",
+    "localeName": "蒼古自由之誓",
+    "desc": "如同悠古的歌聲一般蒼藍的直劍，如同風之國土自由的誓言一般銳利的武器。",
     "rarity": 5,
     "type": 1,
     "ascensions": [
       {
         "level": 1,
-        "baseATK": 11.7,
+        "baseATK": 31.1,
         "cost": [
-          { "id": "TileOfDecarabiansTower", "localeName": "高塔孤王的破瓦", "count": 1 },
-          { "id": "HeavyHorn", "localeName": "沉重號角", "count": 1 },
-          { "id": "FirmArrowhead", "localeName": "牢固的箭鏃", "count": 1 }
+          { "id": "FettersOfTheDandelionGladiator", "localeName": "獅牙鬥士的枷鎖", "count": 5 },
+          { "id": "ChaosDevice", "localeName": "混沌裝置", "count": 5 },
+          { "id": "DiviningScroll", "localeName": "導能繪卷", "count": 3 }
         ]
       },
       {
         "level": 2,
-        "baseATK": 23.3,
+        "baseATK": 62.2,
         "cost": [
-          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔孤王的殘垣", "count": 1 },
-          { "id": "HeavyHorn", "localeName": "沉重號角", "count": 4 },
-          { "id": "FirmArrowhead", "localeName": "牢固的箭鏃", "count": 2 }
+          { "id": "ChainsOfTheDandelionGladiator", "localeName": "獅牙鬥士的鐵鍊", "count": 5 },
+          { "id": "ChaosDevice", "localeName": "混沌裝置", "count": 18 },
+          { "id": "DiviningScroll", "localeName": "導能繪卷", "count": 12 }
         ]
       },
       {
         "level": 3,
-        "baseATK": 35,
+        "baseATK": 93.4,
         "cost": [
-          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔孤王的殘垣", "count": 2 },
-          { "id": "BlackBronzeHorn", "localeName": "黑銅號角", "count": 2 },
-          { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "count": 2 }
+          { "id": "ChainsOfTheDandelionGladiator", "localeName": "獅牙鬥士的鐵鍊", "count": 9 },
+          { "id": "ChaosCircuit", "localeName": "混沌迴路", "count": 9 },
+          { "id": "SealedScroll", "localeName": "封魔繪卷", "count": 9 }
         ]
       },
       {
         "level": 4,
-        "baseATK": 46.7,
+        "baseATK": 124.5,
         "cost": [
-          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔孤王的斷片", "count": 1 },
-          { "id": "BlackBronzeHorn", "localeName": "黑銅號角", "count": 4 },
-          { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "count": 3 }
+          { "id": "ShacklesOfTheDandelionGladiator", "localeName": "獅牙鬥士的鐐銬", "count": 5 },
+          { "id": "ChaosCircuit", "localeName": "混沌迴路", "count": 18 },
+          { "id": "SealedScroll", "localeName": "封魔繪卷", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "ShacklesOfTheDandelionGladiator", "localeName": "獅牙鬥士的鐐銬", "count": 9 },
+          { "id": "ChaosCore", "localeName": "混沌爐心", "count": 14 },
+          { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "DreamOfTheDandelionGladiator", "localeName": "獅牙鬥士的理想", "count": 6 },
+          { "id": "ChaosCore", "localeName": "混沌爐心", "count": 27 },
+          { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "count": 18 }
         ]
       }
     ],
-    "baseATK": 23.245,
-    "baseATKCurve": 1
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "overviewItems": [
+      { "id": "DreamOfTheDandelionGladiator", "name": "獅牙鬥士的理想", "rarity": 5 },
+      { "id": "ChaosCore", "name": "混沌爐心", "rarity": 4 },
+      { "id": "ForbiddenCurseScroll", "name": "禁咒繪卷", "rarity": 3 }
+    ],
+    "subAttr": { "type": 11, "value": 43.2, "curve": 18 },
+    "affix": {
+      "name": "抗爭的踐行之歌",
+      "levels": [
+        {
+          "desc": "飄遊風中的「千年的大樂章」的一部分。造成的傷害提高<color=#99FFFFFF>10%</color>；觸發元素反應時，角色獲得一枚奮起之符，每0.5秒內至多觸發一次，角色處於隊伍後台也能觸發。擁有兩枚奮起之符時，將消耗所有奮起之符，使附近的隊伍中所有角色獲得持續12秒的「千年的大樂章·抗爭之歌」效果：普通攻擊、重擊、下落攻擊造成的傷害提高<color=#99FFFFFF>16%</color>，攻擊力提升<color=#99FFFFFF>20%</color>。觸發後20秒內，無法再次獲得奮起之符。「千年的大樂章」觸發的多種數值效果中，同類數值效果不可疊加。",
+          "params": [0.1, 0.5, 12, 0.16, 0.2, 20]
+        },
+        {
+          "desc": "漂游風中的「千年的大樂章」的一部分。造成的傷害提高<color=#99FFFFFF>12.5%</color>；觸發元素反應時，角色獲得一枚奮起之符，每0.5秒內至多觸發一次，角色處於隊伍後台也能觸發。擁有兩枚奮起之符時，將消耗所有奮起之符，使附近的隊伍中所有角色獲得持續12秒的「千年的大樂章·抗爭之歌」效果：普通攻擊、重擊、下落攻擊造成的傷害提高<color=#99FFFFFF>20%</color>，攻擊力提升<color=#99FFFFFF>25%</color>。觸發後20秒內，無法再次獲得奮起之符。「千年的大樂章」觸發的多種數值效果中，同類數值效果不可疊加。",
+          "params": [0.125, 0.5, 12, 0.2, 0.25, 20]
+        },
+        {
+          "desc": "飄遊風中的「千年的大樂章」的一部分。造成的傷害提高<color=#99FFFFFF>15%</color>；觸發元素反應時，角色獲得一枚奮起之符，每0.5秒內至多觸發一次，角色處於隊伍後台也能觸發。擁有兩枚奮起之符時，將消耗所有奮起之符，使附近的隊伍中所有角色獲得持續12秒的「千年的大樂章·抗爭之歌」效果：普通攻擊、重擊、下落攻擊造成的傷害提高<color=#99FFFFFF>24%</color>，攻擊力提升<color=#99FFFFFF>30%</color>。觸發後20秒內，無法再次獲得奮起之符。「千年的大樂章」觸發的多種數值效果中，同類數值效果不可疊加。",
+          "params": [0.15, 0.5, 12, 0.24, 0.3, 20]
+        },
+        {
+          "desc": "飄遊風中的「千年的大樂章」的一部分。造成的傷害提高<color=#99FFFFFF>17.5%</color>；觸發元素反應時，角色獲得一枚奮起之符，每0.5秒內至多觸發一次，角色處於隊伍後台也能觸發。擁有兩枚奮起之符時，將消耗所有奮起之符，使附近的隊伍中所有角色獲得持續12秒的「千年的大樂章·抗爭之歌」效果：普通攻擊、重擊、下落攻擊造成的傷害提高<color=#99FFFFFF>28%</color>，攻擊力提升<color=#99FFFFFF>35%</color>。觸發後20秒內，無法再次獲得奮起之符。「千年的大樂章」觸發的多種數值效果中，同類數值效果不可疊加。",
+          "params": [0.175, 0.5, 12, 0.28, 0.35, 20]
+        },
+        {
+          "desc": "飄遊風中的「千年的大樂章」的一部分。造成的傷害提高<color=#99FFFFFF>20%</color>；觸發元素反應時，角色獲得一枚奮起之符，每0.5秒內至多觸發一次，角色處於隊伍後台也能觸發。擁有兩枚奮起之符時，將消耗所有奮起之符，使附近的隊伍中所有角色獲得持續12秒的「千年的大樂章·抗爭之歌」效果：普通攻擊、重擊、下落攻擊造成的傷害提高<color=#99FFFFFF>32%</color>，攻擊力提升<color=#99FFFFFF>40%</color>。觸發後20秒內，無法再次獲得奮起之符。「千年的大樂章」觸發的多種數值效果中，同類數值效果不可疊加。",
+          "params": [0.2, 0.5, 12, 0.32, 0.4, 20]
+        }
+      ]
+    }
   },
   {
     "id": "SummitShaper",
@@ -3468,11 +3517,11 @@
     "affix": {
       "name": "霜葬",
       "levels": [
-        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>60%</color>機率在敵人上方生成恒冰晶核並墜落，造成<color=#99FFFFFF>80%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>200%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [0.6, 0.8, 2, 10] },
-        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>70%</color>機率在敵人上方生成恒冰晶核並墜落，造成<color=#99FFFFFF>95%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>240%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [0.7, 0.95, 2.4, 10] },
-        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>80%</color>機率在敵人上方生成恒冰晶核並墜落，造成<color=#99FFFFFF>110%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>280%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [0.8, 1.1, 2.8, 10] },
-        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>90%</color>機率在敵人上方生成恒冰晶核並墜落，造成<color=#99FFFFFF>125%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>320%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [0.9, 1.25, 3.2, 10] },
-        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>100%</color>機率在敵人上方生成恒冰晶核並墜落，造成<color=#99FFFFFF>140%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>360%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [1, 1.4, 3.6, 10] }
+        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>60%</color>機率在敵人上方生成恆冰晶核並墜落，造成<color=#99FFFFFF>80%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>200%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [0.6, 0.8, 2, 10] },
+        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>70%</color>機率在敵人上方生成恆冰晶核並墜落，造成<color=#99FFFFFF>95%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>240%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [0.7, 0.95, 2.4, 10] },
+        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>80%</color>機率在敵人上方生成恆冰晶核並墜落，造成<color=#99FFFFFF>110%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>280%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [0.8, 1.1, 2.8, 10] },
+        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>90%</color>機率在敵人上方生成恆冰晶核並墜落，造成<color=#99FFFFFF>125%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>320%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [0.9, 1.25, 3.2, 10] },
+        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>100%</color>機率在敵人上方生成恆冰晶核並墜落，造成<color=#99FFFFFF>140%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>360%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [1, 1.4, 3.6, 10] }
       ]
     }
   },
@@ -3641,52 +3690,101 @@
     }
   },
   {
-    "id": "UprisingSatire",
-    "name": "Uprising Satire",
-    "localeName": "革新的諷刺詩",
-    "desc": "傳說中，與風之神同行的詩人獲賜的的大劍。獎賞的是他革新的勇氣與諷刺的尖刻。",
+    "id": "SongOfBrokenPines",
+    "name": "Song of Broken Pines",
+    "localeName": "松籟響起之時",
+    "desc": "如同翻弄草木的息吹一般輕盈的大劍，如同吹倒樹木的颶風一般摧枯拉朽的武器。",
     "rarity": 5,
     "type": 4,
     "ascensions": [
       {
         "level": 1,
-        "baseATK": 11.7,
+        "baseATK": 31.1,
         "cost": [
-          { "id": "TileOfDecarabiansTower", "localeName": "高塔孤王的破瓦", "count": 1 },
-          { "id": "HeavyHorn", "localeName": "沉重號角", "count": 1 },
-          { "id": "FirmArrowhead", "localeName": "牢固的箭鏃", "count": 1 }
+          { "id": "TileOfDecarabiansTower", "localeName": "高塔孤王的破瓦", "count": 5 },
+          { "id": "HeavyHorn", "localeName": "沉重號角", "count": 5 },
+          { "id": "DamagedMask", "localeName": "破損的面具", "count": 3 }
         ]
       },
       {
         "level": 2,
-        "baseATK": 23.3,
+        "baseATK": 62.2,
         "cost": [
-          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔孤王的殘垣", "count": 1 },
-          { "id": "HeavyHorn", "localeName": "沉重號角", "count": 4 },
-          { "id": "FirmArrowhead", "localeName": "牢固的箭鏃", "count": 2 }
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔孤王的殘垣", "count": 5 },
+          { "id": "HeavyHorn", "localeName": "沉重號角", "count": 18 },
+          { "id": "DamagedMask", "localeName": "破損的面具", "count": 12 }
         ]
       },
       {
         "level": 3,
-        "baseATK": 35,
+        "baseATK": 93.4,
         "cost": [
-          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔孤王的殘垣", "count": 2 },
-          { "id": "BlackBronzeHorn", "localeName": "黑銅號角", "count": 2 },
-          { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "count": 2 }
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔孤王的殘垣", "count": 9 },
+          { "id": "BlackBronzeHorn", "localeName": "黑銅號角", "count": 9 },
+          { "id": "StainedMask", "localeName": "汙穢的面具", "count": 9 }
         ]
       },
       {
         "level": 4,
-        "baseATK": 46.7,
+        "baseATK": 124.5,
         "cost": [
-          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔孤王的斷片", "count": 1 },
-          { "id": "BlackBronzeHorn", "localeName": "黑銅號角", "count": 4 },
-          { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "count": 3 }
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔孤王的斷片", "count": 5 },
+          { "id": "BlackBronzeHorn", "localeName": "黑銅號角", "count": 18 },
+          { "id": "StainedMask", "localeName": "汙穢的面具", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔孤王的斷片", "count": 9 },
+          { "id": "BlackCrystalHorn", "localeName": "黑晶號角", "count": 14 },
+          { "id": "OminousMask", "localeName": "不祥的面具", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "ScatteredPieceOfDecarabiansDream", "localeName": "高塔孤王的碎夢", "count": 6 },
+          { "id": "BlackCrystalHorn", "localeName": "黑晶號角", "count": 27 },
+          { "id": "OminousMask", "localeName": "不祥的面具", "count": 18 }
         ]
       }
     ],
-    "baseATK": 47.537,
-    "baseATKCurve": 1
+    "baseATK": 49.138,
+    "baseATKCurve": 13,
+    "overviewItems": [
+      { "id": "ScatteredPieceOfDecarabiansDream", "name": "高塔孤王的碎夢", "rarity": 5 },
+      { "id": "BlackCrystalHorn", "name": "黑晶號角", "rarity": 4 },
+      { "id": "OminousMask", "name": "不祥的面具", "rarity": 3 }
+    ],
+    "subAttr": { "type": 33, "value": 0.045, "curve": 18 },
+    "affix": {
+      "name": "揭旗的叛逆之歌",
+      "levels": [
+        {
+          "desc": "飄遊風中的「千年的大樂章」的一部分。攻擊力提高<color=#99FFFFFF>16%</color>；普通攻擊或重擊命中敵人時，角色獲得一枚低語之符，每0.3秒內至多觸發一次。擁有四枚低語之符時，將消耗所有低語之符，使附近的隊伍中所有角色獲得持續12秒的「千年的大樂章·揭旗之歌」效果：普通攻擊速度提高<color=#99FFFFFF>12%</color>，攻擊力提升<color=#99FFFFFF>20%</color>。觸發後20秒內，無法再次獲得低語之符。「千年的大樂章」觸發的多種數值效果中，同類數值效果不可疊加。",
+          "params": [0.16, 0.3, 12, 0.12, 0.2, 20]
+        },
+        {
+          "desc": "飄遊風中的「千年的大樂章」的一部分。攻擊力提高<color=#99FFFFFF>20%</color>；普通攻擊或重擊命中敵人時，角色獲得一枚低語之符，每0.3秒內至多觸發一次。擁有四枚低語之符時，將消耗所有低語之符，使附近的隊伍中所有角色獲得持續12秒的「千年的大樂章·揭旗之歌」效果：普通攻擊速度提高<color=#99FFFFFF>15%</color>，攻擊力提升<color=#99FFFFFF>25%</color>。觸發後20秒內，無法再次獲得低語之符。「千年的大樂章」觸發的多種數值效果中，同類數值效果不可疊加。",
+          "params": [0.2, 0.3, 12, 0.15, 0.25, 20]
+        },
+        {
+          "desc": "飄遊風中的「千年的大樂章」的一部分。攻擊力提高<color=#99FFFFFF>24%</color>；普通攻擊或重擊命中敵人時，角色獲得一枚低語之符，每0.3秒內至多觸發一次。擁有四枚低語之符時，將消耗所有低語之符，使附近的隊伍中所有角色獲得持續12秒的「千年的大樂章·揭旗之歌」效果：普通攻擊速度提高<color=#99FFFFFF>18%</color>，攻擊力提升<color=#99FFFFFF>30%</color>。觸發後20秒內，無法再次獲得低語之符。「千年的大樂章」觸發的多種數值效果中，同類數值效果不可疊加。",
+          "params": [0.24, 0.3, 12, 0.18, 0.3, 20]
+        },
+        {
+          "desc": "飄遊風中的「千年的大樂章」的一部分。攻擊力提高<color=#99FFFFFF>28%</color>；普通攻擊或重擊命中敵人時，角色獲得一枚低語之符，每0.3秒內至多觸發一次。擁有四枚低語之符時，將消耗所有低語之符，使附近的隊伍中所有角色獲得持續12秒的「千年的大樂章·揭旗之歌」效果：普通攻擊速度提高<color=#99FFFFFF>21%</color>，攻擊力提升<color=#99FFFFFF>35%</color>。觸發後20秒內，無法再次獲得低語之符。「千年的大樂章」觸發的多種數值效果中，同類數值效果不可疊加。",
+          "params": [0.28, 0.3, 12, 0.21, 0.35, 20]
+        },
+        {
+          "desc": "飄遊風中的「千年的大樂章」的一部分。攻擊力提高<color=#99FFFFFF>32%</color>；普通攻擊或重擊命中敵人時，角色獲得一枚低語之符，每0.3秒內至多觸發一次。擁有四枚低語之符時，將消耗所有低語之符，使附近的隊伍中所有角色獲得持續12秒的「千年的大樂章·揭旗之歌」效果：普通攻擊速度提高<color=#99FFFFFF>24%</color>，攻擊力提升<color=#99FFFFFF>40%</color>。觸發後20秒內，無法再次獲得低語之符。「千年的大樂章」觸發的多種數值效果中，同類數值效果不可疊加。",
+          "params": [0.32, 0.3, 12, 0.24, 0.4, 20]
+        }
+      ]
+    }
   },
   {
     "id": "TheUnforged",
@@ -3769,6 +3867,54 @@
         { "desc": "護盾強效提升<color=#99FFFFFF>40%</color>。攻擊命中後的8秒內，攻擊力提升<color=#99FFFFFF>8%</color>。該效果至多可疊加5層，每0.3秒只能觸發一次。此外，處於護盾庇護下時，該效果的攻擊力提升效果提高100%。", "params": [0.4, 0.08, 8] }
       ]
     }
+  },
+  {
+    "id": "PrimordialJadeGreatsword",
+    "name": "Primordial Jade Greatsword",
+    "localeName": "砥厄魚",
+    "desc": "曾屬於魔神的玉璋。一度被擲入漆黑的海洋，以鎮服滔天的滄波。",
+    "rarity": 5,
+    "type": 4,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 11.7,
+        "cost": [
+          { "id": "TileOfDecarabiansTower", "localeName": "高塔孤王的破瓦", "count": 1 },
+          { "id": "HeavyHorn", "localeName": "沉重號角", "count": 1 },
+          { "id": "FirmArrowhead", "localeName": "牢固的箭鏃", "count": 1 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 23.3,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔孤王的殘垣", "count": 1 },
+          { "id": "HeavyHorn", "localeName": "沉重號角", "count": 4 },
+          { "id": "FirmArrowhead", "localeName": "牢固的箭鏃", "count": 2 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 35,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔孤王的殘垣", "count": 2 },
+          { "id": "BlackBronzeHorn", "localeName": "黑銅號角", "count": 2 },
+          { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "count": 2 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 46.7,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔孤王的斷片", "count": 1 },
+          { "id": "BlackBronzeHorn", "localeName": "黑銅號角", "count": 4 },
+          { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "count": 3 }
+        ]
+      }
+    ],
+    "baseATK": 47.537,
+    "baseATKCurve": 1
   },
   {
     "id": "TheOtherSide",
@@ -4971,11 +5117,11 @@
     "affix": {
       "name": "霜葬",
       "levels": [
-        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>60%</color>機率在敵人上方生成恒冰晶核並墜落，造成<color=#99FFFFFF>80%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>200%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [0.6, 0.8, 2, 10] },
-        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>70%</color>機率在敵人上方生成恒冰晶核並墜落，造成<color=#99FFFFFF>95%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>240%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [0.7, 0.95, 2.4, 10] },
-        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>80%</color>機率在敵人上方生成恒冰晶核並墜落，造成<color=#99FFFFFF>110%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>280%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [0.8, 1.1, 2.8, 10] },
-        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>90%</color>機率在敵人上方生成恒冰晶核並墜落，造成<color=#99FFFFFF>125%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>320%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [0.9, 1.25, 3.2, 10] },
-        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>100%</color>機率在敵人上方生成恒冰晶核並墜落，造成<color=#99FFFFFF>140%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>360%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [1, 1.4, 3.6, 10] }
+        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>60%</color>機率在敵人上方生成恆冰晶核並墜落，造成<color=#99FFFFFF>80%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>200%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [0.6, 0.8, 2, 10] },
+        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>70%</color>機率在敵人上方生成恆冰晶核並墜落，造成<color=#99FFFFFF>95%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>240%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [0.7, 0.95, 2.4, 10] },
+        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>80%</color>機率在敵人上方生成恆冰晶核並墜落，造成<color=#99FFFFFF>110%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>280%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [0.8, 1.1, 2.8, 10] },
+        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>90%</color>機率在敵人上方生成恆冰晶核並墜落，造成<color=#99FFFFFF>125%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>320%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [0.9, 1.25, 3.2, 10] },
+        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>100%</color>機率在敵人上方生成恆冰晶核並墜落，造成<color=#99FFFFFF>140%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>360%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [1, 1.4, 3.6, 10] }
       ]
     }
   },
@@ -6852,11 +6998,93 @@
     "affix": {
       "name": "霜葬",
       "levels": [
-        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>60%</color>機率在敵人上方生成恒冰晶核並墜落，造成<color=#99FFFFFF>80%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>200%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [0.6, 0.8, 2, 10] },
-        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>70%</color>機率在敵人上方生成恒冰晶核並墜落，造成<color=#99FFFFFF>95%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>240%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [0.7, 0.95, 2.4, 10] },
-        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>80%</color>機率在敵人上方生成恒冰晶核並墜落，造成<color=#99FFFFFF>110%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>280%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [0.8, 1.1, 2.8, 10] },
-        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>90%</color>機率在敵人上方生成恒冰晶核並墜落，造成<color=#99FFFFFF>125%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>320%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [0.9, 1.25, 3.2, 10] },
-        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>100%</color>機率在敵人上方生成恒冰晶核並墜落，造成<color=#99FFFFFF>140%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>360%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [1, 1.4, 3.6, 10] }
+        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>60%</color>機率在敵人上方生成恆冰晶核並墜落，造成<color=#99FFFFFF>80%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>200%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [0.6, 0.8, 2, 10] },
+        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>70%</color>機率在敵人上方生成恆冰晶核並墜落，造成<color=#99FFFFFF>95%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>240%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [0.7, 0.95, 2.4, 10] },
+        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>80%</color>機率在敵人上方生成恆冰晶核並墜落，造成<color=#99FFFFFF>110%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>280%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [0.8, 1.1, 2.8, 10] },
+        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>90%</color>機率在敵人上方生成恆冰晶核並墜落，造成<color=#99FFFFFF>125%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>320%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [0.9, 1.25, 3.2, 10] },
+        { "desc": "普通攻擊與重擊命中敵人時，有<color=#99FFFFFF>100%</color>機率在敵人上方生成恆冰晶核並墜落，造成<color=#99FFFFFF>140%</color>攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成<color=#99FFFFFF>360%</color>攻擊力的傷害。該效果每10秒至多觸發一次。", "params": [1, 1.4, 3.6, 10] }
+      ]
+    }
+  },
+  {
+    "id": "DodocoTales",
+    "name": "Dodoco Tales",
+    "localeName": "嘟嘟可故事集",
+    "desc": "一本封面華麗的童書，內容皆是童言無忌的短小故事，讀之令人忍俊不禁。\n即使業已成年的讀者，讀到書中天真無邪的冒險故事，也會忍不住神往吧。",
+    "rarity": 4,
+    "type": 5,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "BorealWolfsMilkTooth", "localeName": "凜風奔狼的始齔", "count": 3 },
+          { "id": "DeadLeyLineBranch", "localeName": "地脈的舊枝", "count": 3 },
+          { "id": "DamagedMask", "localeName": "破損的面具", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "BorealWolfsCrackedTooth", "localeName": "凜風奔狼的裂齒", "count": 3 },
+          { "id": "DeadLeyLineBranch", "localeName": "地脈的舊枝", "count": 12 },
+          { "id": "DamagedMask", "localeName": "破損的面具", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "BorealWolfsCrackedTooth", "localeName": "凜風奔狼的裂齒", "count": 6 },
+          { "id": "DeadLeyLineLeaves", "localeName": "地脈的枯葉", "count": 6 },
+          { "id": "StainedMask", "localeName": "汙穢的面具", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "BorealWolfsBrokenFang", "localeName": "凜風奔狼的斷牙", "count": 3 },
+          { "id": "DeadLeyLineLeaves", "localeName": "地脈的枯葉", "count": 12 },
+          { "id": "StainedMask", "localeName": "汙穢的面具", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "BorealWolfsBrokenFang", "localeName": "凜風奔狼的斷牙", "count": 6 },
+          { "id": "LeyLineSprout", "localeName": "地脈的新芽", "count": 9 },
+          { "id": "OminousMask", "localeName": "不祥的面具", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "BorealWolfsNostalgia", "localeName": "凜風奔狼的懷鄉", "count": 4 },
+          { "id": "LeyLineSprout", "localeName": "地脈的新芽", "count": 18 },
+          { "id": "OminousMask", "localeName": "不祥的面具", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 41.067,
+    "baseATKCurve": 9,
+    "overviewItems": [
+      { "id": "BorealWolfsNostalgia", "name": "凜風奔狼的懷鄉", "rarity": 5 },
+      { "id": "LeyLineSprout", "name": "地脈的新芽", "rarity": 4 },
+      { "id": "OminousMask", "name": "不祥的面具", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.12, "curve": 17 },
+    "affix": {
+      "name": "嘟嘟！大冒險",
+      "levels": [
+        { "desc": "普通攻擊命中敵人後的6秒內，重擊造成的傷害提高<color=#99FFFFFF>16%</color>；重擊命中敵人後的6秒內，攻擊力提高<color=#99FFFFFF>8%</color>。", "params": [0.16, 6, 0.08, 6] },
+        { "desc": "普通攻擊命中敵人後的6秒內，重擊造成的傷害提高<color=#99FFFFFF>20%</color>；重擊命中敵人後的6秒內，攻擊力提高<color=#99FFFFFF>10%</color>。", "params": [0.2, 6, 0.1, 6] },
+        { "desc": "普通攻擊命中敵人後的6秒內，重擊造成的傷害提高<color=#99FFFFFF>24%</color>；重擊命中敵人後的6秒內，攻擊力提高<color=#99FFFFFF>12%</color>。", "params": [0.24, 6, 0.12, 6] },
+        { "desc": "普通攻擊命中敵人後的6秒內，重擊造成的傷害提高<color=#99FFFFFF>28%</color>；重擊命中敵人後的6秒內，攻擊力提高<color=#99FFFFFF>14%</color>。", "params": [0.28, 6, 0.14, 6] },
+        { "desc": "普通攻擊命中敵人後的6秒內，重擊造成的傷害提高<color=#99FFFFFF>32%</color>；重擊命中敵人後的6秒內，攻擊力提高<color=#99FFFFFF>16%</color>。", "params": [0.32, 6, 0.16, 6] }
       ]
     }
   },
@@ -7153,6 +7381,54 @@
         { "desc": "護盾強效提升<color=#99FFFFFF>40%</color>。攻擊命中後的8秒內，攻擊力提升<color=#99FFFFFF>8%</color>。該效果至多可疊加5層，每0.3秒只能觸發一次。此外，處於護盾庇護下時，該效果的攻擊力提升效果提高100%。", "params": [0.4, 0.08, 8] }
       ]
     }
+  },
+  {
+    "id": "PrimordialJadeRegalia",
+    "name": "Primordial Jade Regalia",
+    "localeName": "定土玉圭",
+    "desc": "紀念於山之際海之濱尋得安身之地的古代寶玉。如今仍隱隱散發古老的力量，守護國土安寧。",
+    "rarity": 5,
+    "type": 5,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 11.7,
+        "cost": [
+          { "id": "TileOfDecarabiansTower", "localeName": "高塔孤王的破瓦", "count": 1 },
+          { "id": "HeavyHorn", "localeName": "沉重號角", "count": 1 },
+          { "id": "FirmArrowhead", "localeName": "牢固的箭鏃", "count": 1 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 23.3,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔孤王的殘垣", "count": 1 },
+          { "id": "HeavyHorn", "localeName": "沉重號角", "count": 4 },
+          { "id": "FirmArrowhead", "localeName": "牢固的箭鏃", "count": 2 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 35,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔孤王的殘垣", "count": 2 },
+          { "id": "BlackBronzeHorn", "localeName": "黑銅號角", "count": 2 },
+          { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "count": 2 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 46.7,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔孤王的斷片", "count": 1 },
+          { "id": "BlackBronzeHorn", "localeName": "黑銅號角", "count": 4 },
+          { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "count": 3 }
+        ]
+      }
+    ],
+    "baseATK": 47.537,
+    "baseATKCurve": 1
   },
   {
     "id": "DiamondVisage",
@@ -8611,6 +8887,88 @@
     }
   },
   {
+    "id": "MitternachtsWaltz",
+    "name": "Mitternachts Waltz",
+    "localeName": "幽夜華爾滋",
+    "desc": "有著如同罪與幻想之夜一般顏色的弓。",
+    "rarity": 4,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "TileOfDecarabiansTower", "localeName": "高塔孤王的破瓦", "count": 3 },
+          { "id": "HeavyHorn", "localeName": "沉重號角", "count": 3 },
+          { "id": "TreasureHoarderInsignia", "localeName": "尋寶鴉印", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔孤王的殘垣", "count": 3 },
+          { "id": "HeavyHorn", "localeName": "沉重號角", "count": 12 },
+          { "id": "TreasureHoarderInsignia", "localeName": "尋寶鴉印", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔孤王的殘垣", "count": 6 },
+          { "id": "BlackBronzeHorn", "localeName": "黑銅號角", "count": 6 },
+          { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔孤王的斷片", "count": 3 },
+          { "id": "BlackBronzeHorn", "localeName": "黑銅號角", "count": 12 },
+          { "id": "SilverRavenInsignia", "localeName": "藏銀鴉印", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔孤王的斷片", "count": 6 },
+          { "id": "BlackCrystalHorn", "localeName": "黑晶號角", "count": 9 },
+          { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "ScatteredPieceOfDecarabiansDream", "localeName": "高塔孤王的碎夢", "count": 4 },
+          { "id": "BlackCrystalHorn", "localeName": "黑晶號角", "count": 18 },
+          { "id": "GoldenRavenInsignia", "localeName": "攫金鴉印", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "overviewItems": [
+      { "id": "ScatteredPieceOfDecarabiansDream", "name": "高塔孤王的碎夢", "rarity": 5 },
+      { "id": "BlackCrystalHorn", "name": "黑晶號角", "rarity": 4 },
+      { "id": "GoldenRavenInsignia", "name": "攫金鴉印", "rarity": 3 }
+    ],
+    "subAttr": { "type": 33, "value": 0.1126, "curve": 17 },
+    "affix": {
+      "name": "極夜二重奏",
+      "levels": [
+        { "desc": "普通攻擊命中敵人後的5秒內，元素戰技造成的傷害提升<color=#99FFFFFF>20%</color>；元素戰技命中敵人後的5秒內，普通攻擊造成的傷害提升<color=#99FFFFFF>20%</color>。", "params": [0.2, 5, 0.2, 5] },
+        { "desc": "普通攻擊命中敵人後的5秒內，元素戰技造成的傷害提升<color=#99FFFFFF>25%</color>；元素戰技命中敵人後的5秒內，普通攻擊造成的傷害提升<color=#99FFFFFF>25%</color>。", "params": [0.25, 5, 0.25, 5] },
+        { "desc": "普通攻擊命中敵人後的5秒內，元素戰技造成的傷害提升<color=#99FFFFFF>30%</color>；元素戰技命中敵人後的5秒內，普通攻擊造成的傷害提升<color=#99FFFFFF>30%</color>。", "params": [0.3, 5, 0.3, 5] },
+        { "desc": "普通攻擊命中敵人後的5秒內，元素戰技造成的傷害提升<color=#99FFFFFF>35%</color>；元素戰技命中敵人後的5秒內，普通攻擊造成的傷害提升<color=#99FFFFFF>35%</color>。", "params": [0.35, 5, 0.35, 5] },
+        { "desc": "普通攻擊命中敵人後的5秒內，元素戰技造成的傷害提升<color=#99FFFFFF>40%</color>；元素戰技命中敵人後的5秒內，普通攻擊造成的傷害提升<color=#99FFFFFF>40%</color>。", "params": [0.4, 5, 0.4, 5] }
+      ]
+    }
+  },
+  {
     "id": "WindblumeOde",
     "name": "Windblume Ode",
     "localeName": "風花之頌",
@@ -8952,6 +9310,102 @@
         }
       ]
     }
+  },
+  {
+    "id": "KunwusWyrmbane",
+    "name": "Kunwu's Wyrmbane",
+    "localeName": "昆吾墜龍",
+    "desc": "名匠昆吾以辰筋做的大弓，其勁可以殲龍。釋弦時，其勢如雷。",
+    "rarity": 5,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 11.7,
+        "cost": [
+          { "id": "TileOfDecarabiansTower", "localeName": "高塔孤王的破瓦", "count": 1 },
+          { "id": "HeavyHorn", "localeName": "沉重號角", "count": 1 },
+          { "id": "FirmArrowhead", "localeName": "牢固的箭鏃", "count": 1 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 23.3,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔孤王的殘垣", "count": 1 },
+          { "id": "HeavyHorn", "localeName": "沉重號角", "count": 4 },
+          { "id": "FirmArrowhead", "localeName": "牢固的箭鏃", "count": 2 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 35,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔孤王的殘垣", "count": 2 },
+          { "id": "BlackBronzeHorn", "localeName": "黑銅號角", "count": 2 },
+          { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "count": 2 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 46.7,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔孤王的斷片", "count": 1 },
+          { "id": "BlackBronzeHorn", "localeName": "黑銅號角", "count": 4 },
+          { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "count": 3 }
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 1
+  },
+  {
+    "id": "PrimordialJadeVista",
+    "name": "Primordial Jade Vista",
+    "localeName": "懸黎千鈞",
+    "desc": "遠古寶玉造的，能守護一國的勁弓，以匯聚一線的翠光為幻造的弦。",
+    "rarity": 5,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 11.7,
+        "cost": [
+          { "id": "TileOfDecarabiansTower", "localeName": "高塔孤王的破瓦", "count": 1 },
+          { "id": "HeavyHorn", "localeName": "沉重號角", "count": 1 },
+          { "id": "FirmArrowhead", "localeName": "牢固的箭鏃", "count": 1 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 23.3,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔孤王的殘垣", "count": 1 },
+          { "id": "HeavyHorn", "localeName": "沉重號角", "count": 4 },
+          { "id": "FirmArrowhead", "localeName": "牢固的箭鏃", "count": 2 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 35,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔孤王的殘垣", "count": 2 },
+          { "id": "BlackBronzeHorn", "localeName": "黑銅號角", "count": 2 },
+          { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "count": 2 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 46.7,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔孤王的斷片", "count": 1 },
+          { "id": "BlackBronzeHorn", "localeName": "黑銅號角", "count": 4 },
+          { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "count": 3 }
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 1
   },
   {
     "id": "MirrorBreaker",

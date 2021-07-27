@@ -314,7 +314,11 @@
     { "name": "WeaverOfVerses", "localeName": "Weaver of Verses", "desc": "Increases the Level of <color=#FFD780FF>Guhua Sword: Raincutter</color> by 3.\nMaximum upgrade level is 15." },
     { "name": "Evilsoother", "localeName": "Evilsoother", "desc": "Throughout the duration of <color=#FFD780FF>Guhua Sword: Raincutter</color>, the DMG dealt by <color=#FFD780FF>Guhua Sword: Fatal Rainscreen</color> is increased by 50%." },
     { "name": "EmbraceOfRain", "localeName": "Embrace of Rain", "desc": "Increases the Level of <color=#FFD780FF>Guhua Sword: Fatal Rainscreen</color> by 3.\nMaximum upgrade level is 15." },
-    { "name": "HenceCallThemMyOwnVerses", "localeName": "Hence, Call Them My Own Verses", "desc": "Activating 2 of <color=#FFD780FF>Guhua Sword: Raincutter</color>'s sword rain attacks greatly increases the DMG of the third. Xingqiu regenerates 3 Energy when sword rain attacks hit opponents." }
+    {
+      "name": "HenceCallThemMyOwnVerses",
+      "localeName": "Hence, Call Them My Own Verses",
+      "desc": "Activating 2 of <color=#FFD780FF>Guhua Sword: Raincutter</color>'s sword rain attacks greatly enhances the third sword rain attack. On hit, the third sword rain attack also regenerates 3 Energy for Xingqiu."
+    }
   ],
   "overviewItems": [
     { "id": "VarunadaLazuriteGemstone", "localeName": "Varunada Lazurite Gemstone", "rarity": 5 },

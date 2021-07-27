@@ -94,7 +94,7 @@
   "elemSkill": {
     "name": "Tidecaller",
     "localeName": "浪追い",
-    "desc": "心配することはない。彼女や彼女の仲間に手を出す者がいた場合、彼女は雷と大剣で十倍返しにする。\n\n<color=#FFD780FF>一回押し</color>\n雷の力を凝集させ、前方に大剣を振り、<color=#FFACFFFF>雷元素ダメージ</color>を与える。\n\n<color=#FFD780FF>長押し</color>\n武器をシールドとして使う、ダメージ吸収量は北斗のHP上限によって決まる。\n手を放すまたはスキル継続時間終了時、大剣を振り回して攻撃を行い、<color=#FFACFFFF>雷元素ダメージ</color>を与える。スキル期間中に受けた攻撃の回数により、与えるダメージを最大2回までアップさせる。\nシールドには下記の効果がある：\n·<color=#FFACFFFF>雷元素ダメージ</color>に対して250%の吸収効果がある。\n·スキル発動時、北斗に<color=#FFACFFFF>雷元素付着</color>効果を付与する。\n\n<i>果てしない海に船を出し、雷を追い、浪を捕まえる。</i>",
+    "desc": "心配することはない。彼女や彼女の仲間に手を出す者がいた場合、彼女は雷と大剣で十倍返しにする。\n\n<color=#FFD780FF>一回押し</color>\n雷の力を凝集させ、前方に大剣を振り、<color=#FFACFFFF>雷元素ダメージ</color>を与える。\n\n<color=#FFD780FF>長押し</color>\n武器をシールドとして使う、ダメージ吸収量は北斗のHP上限によって決まる。\n手を放すまたはスキル継続時間終了時、大剣を振り回して攻撃を行い、<color=#FFACFFFF>雷元素ダメージ</color>を与える。スキル期間中に受けた攻撃の回数により、与えるダメージを最大2回までアップさせる。\nシールドには下記の効果がある。\n·<color=#FFACFFFF>雷元素ダメージ</color>に対して250%の吸収効果がある。\n·スキル発動時、北斗に<color=#FFACFFFF>雷元素付着</color>効果を付与する。\n\n<i>果てしない海に船を出し、雷を追い、浪を捕まえる。</i>",
     "cd": 7.5,
     "paramTpls": ["シールド吸収量|{param1:F1P}HP上限+{param2:I}", "基礎ダメージ|{param3:P}", "被撃時ダメージアップ|{param4:P}", "クールタイム|{param5:F1}秒"],
     "paramVals": [
@@ -307,11 +307,16 @@
   },
   "talents": [
     { "name": "Retribution", "localeName": "完全なる霊光", "desc": "攻撃された瞬間に発動した<color=#FFD780FF>浪追い</color>の反撃は最大ダメージアップ効果を得る。", "unlock": 1, "values": [2] },
-    { "name": "LightningStorm", "localeName": "満天の霹靂", "desc": "最大ダメージアップ効果のある<color=#FFD780FF>浪追い</color>を発動した後の10秒間、下記の効果が発動される：\n·通常攻撃と重撃の攻撃速度+15%、攻撃ダメージ+15%。\n·重撃に必要な時間が大幅に減少する。", "unlock": 4, "values": [0.15] },
+    { "name": "LightningStorm", "localeName": "満天の霹靂", "desc": "最大ダメージアップ効果のある<color=#FFD780FF>浪追い</color>を発動した後の10秒間、下記の効果が発動される。\n·通常攻撃と重撃の攻撃速度+15%、攻撃ダメージ+15%。\n·重撃に必要な時間が大幅に減少する。", "unlock": 4, "values": [0.15] },
     { "name": "ConquerorOfTides", "localeName": "怒濤踏み", "desc": "チーム内の自身のキャラクター全員が泳ぎに消費するスタミナ-20%。\n同じ効果を持つ固有天赋との重ね掛け不可。" }
   ],
   "c13ns": [
-    { "name": "SeaBeastsScourge", "localeName": "四方に沈む魚龍", "desc": "<color=#FFD780FF>雷斫り</color>発動時：\nHP上限16%分のシールドを15秒間発動する。\n該当シールドは<color=#FFACFFFF>雷元素ダメージ</color>に対して250%の吸収効果がある。", "values": [0.16] },
+    {
+      "name": "SeaBeastsScourge",
+      "localeName": "四方に沈む魚龍",
+      "desc": "<color=#FFD780FF>雷斫り</color>を発動した時、下記の効果が発動される。\nダメージ吸収量がHP上限の16%に値するシールドを生成する。持続時間15秒。\nこのシールドは<color=#FFACFFFF>雷元素ダメージ</color>に対して250%の吸収効果がある。",
+      "values": [0.16]
+    },
     { "name": "UponTheTurbulentSeaTheThunderArises", "localeName": "沸き上がる雷", "desc": "<color=#FFD780FF>雷斫り</color>の稲妻が2体の敵を追加で攻撃可能になる。" },
     { "name": "SummonerOfStorm", "localeName": "雷引きの潮", "desc": "<color=#FFD780FF>浪追い</color>のスキルLv.+3。\n最大Lv.15まで。" },
     { "name": "StunningRevenge", "localeName": "星に導かれた岸線", "desc": "攻撃を受けた後の10秒間、北斗の通常攻撃に追加で20%の<color=#FFACFFFF>雷元素ダメージ</color>が付与される。", "values": [0.2, 10, 0.1] },

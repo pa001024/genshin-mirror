@@ -1,0 +1,348 @@
+{
+  "id": "KaedeharaKazuha",
+  "name": "Kaedehara Kazuha",
+  "localeName": "楓原万葉",
+  "desc": "稲妻より訪れし浪人。今は璃月の「南十字」武装船隊と行動を共にしている。穏やかで浮世離れした性格、過去に経験した様々な出来事を心の内に秘めている。",
+  "baseHP": 1039.1,
+  "baseATK": 23.089,
+  "baseDEF": 62.821,
+  "bodyType": 0,
+  "rarity": 5,
+  "weapon": 1,
+  "region": 3,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "VayudaTurquoiseSliver", "localeName": "自由のターコイズ·砕屑", "rarity": 2, "count": 1 },
+        { "id": "SeaGanoderma", "localeName": "ウミレイシ", "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "rarity": 1, "count": 3 }
+      ],
+      "HP": 890.95,
+      "ATK": 19.795,
+      "DEF": 53.865,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "VayudaTurquoiseFragment", "localeName": "自由のターコイズ·欠片", "rarity": 3, "count": 3 },
+        { "id": "MarionetteCore", "localeName": "魔偶の芯", "rarity": 4, "count": 2 },
+        { "id": "SeaGanoderma", "localeName": "ウミレイシ", "count": 10 },
+        { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1524,
+      "ATK": 33.86,
+      "DEF": 92.137,
+      "extra": 28.8
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "VayudaTurquoiseFragment", "localeName": "自由のターコイズ·欠片", "rarity": 3, "count": 6 },
+        { "id": "MarionetteCore", "localeName": "魔偶の芯", "rarity": 4, "count": 4 },
+        { "id": "SeaGanoderma", "localeName": "ウミレイシ", "count": 20 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 12 }
+      ],
+      "HP": 2368.1,
+      "ATK": 52.613,
+      "DEF": 143.17,
+      "extra": 57.6
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "VayudaTurquoiseChunk", "localeName": "自由のターコイズ·塊", "rarity": 4, "count": 3 },
+        { "id": "MarionetteCore", "localeName": "魔偶の芯", "rarity": 4, "count": 8 },
+        { "id": "SeaGanoderma", "localeName": "ウミレイシ", "count": 30 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 18 }
+      ],
+      "HP": 3001.1,
+      "ATK": 66.678,
+      "DEF": 181.44,
+      "extra": 57.6
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "VayudaTurquoiseChunk", "localeName": "自由のターコイズ·塊", "rarity": 4, "count": 6 },
+        { "id": "MarionetteCore", "localeName": "魔偶の芯", "rarity": 4, "count": 12 },
+        { "id": "SeaGanoderma", "localeName": "ウミレイシ", "count": 45 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 12 }
+      ],
+      "HP": 3634.1,
+      "ATK": 80.743,
+      "DEF": 219.71,
+      "extra": 86.4
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "VayudaTurquoiseGemstone", "localeName": "自由のターコイズ", "rarity": 5, "count": 6 },
+        { "id": "MarionetteCore", "localeName": "魔偶の芯", "rarity": 4, "count": 20 },
+        { "id": "SeaGanoderma", "localeName": "ウミレイシ", "count": 60 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 24 }
+      ],
+      "HP": 4267.2,
+      "ATK": 94.808,
+      "DEF": 257.98,
+      "extra": 115.2
+    }
+  ],
+  "ascensionType": 11,
+  "element": 1,
+  "elemSkill": {
+    "name": "Chihayaburu",
+    "localeName": "千早振る",
+    "desc": "旋風の如く秘剣を振り、敵と物体を引き寄せる。範囲内の敵をノックバックし、<color=#80FFD7FF>風元素ダメージ</color>を与え、気流に乗って空中に舞い上がる。\n楓原万葉が元素スキル·千早振るによる効果で空中に舞い上がった後、落下攻撃を10秒以内に放つと強力な落下攻撃·乱れ嵐斬へと変わる。\n\n<color=#FFD780FF>一回押し</color>\n空中でも発動可能。\n\n<color=#FFD780FF>長押し</color>\n力を溜めた後に発動する。一回押しより広い範囲に、より高威力の<color=#80FFD7FF>風元素ダメージ</color>を与える。\n\n<color=#FFD780FF>落下攻撃·乱れ嵐斬</color>\n元素スキル·千早振る後の落下攻撃のダメージは<color=#80FFD7FF>風元素ダメージ</color>へと変わる。落下時に秘剣で風穴を生成し、近くの敵と物体を引き寄せる。\n乱れ嵐斬のダメージは落下攻撃によるダメージとみなされる。\n\n<i>「楓揺れ、神代の如く、散る紅葉。」</i>",
+    "cd": 6,
+    "paramTpls": ["一回押しスキルダメージ|{param1:P}", "一回押しクールタイム|{param2:F1}秒", "長押しスキルダメージ|{param3:P}", "長押しクールタイム|{param4:F1}秒"],
+    "paramVals": [
+      [1.92, 6, 2.608, 9],
+      [2.064, 6, 2.8036, 9],
+      [2.208, 6, 2.9992, 9],
+      [2.4, 6, 3.26, 9],
+      [2.544, 6, 3.4556, 9],
+      [2.688, 6, 3.6512, 9],
+      [2.88, 6, 3.912, 9],
+      [3.072, 6, 4.1728, 9],
+      [3.264, 6, 4.4336, 9],
+      [3.456, 6, 4.6944, 9],
+      [3.648, 6, 4.9552, 9],
+      [3.84, 6, 5.216, 9],
+      [4.08, 6, 5.542, 9],
+      [4.32, 6, 5.868, 9],
+      [4.56, 6, 6.194, 9]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfDiligence", "localeName": "「勤労」の教え", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 4 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 6 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 9 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 12 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "KazuhaSlash",
+    "localeName": "万葉の一刀",
+    "desc": "我流の奥義で嵐のような一振りを繰り出し、<color=#80FFD7FF>風元素範囲ダメージ</color>を与える。\n太刀風は「流風秋野」と呼ばれる領域を創り出し、中にいる敵に<color=#80FFD7FF>風元素ダメージ</color>を一定間隔で与える。\n\n<color=#FFD780FF>元素変化</color>\n流風秋野の継続時間中に<color=#80C0FFFF>水元素</color>/<color=#FF9999FF>炎元素</color>/<color=#99FFFFFF>氷元素</color>/<color=#FFACFFFF>雷元素</color>に接触すると、接触した元素の属性を獲得し、該当元素の付加ダメージを追加で与える。\n元素変化はスキル継続中に1回のみ発生する。\n\n<i>「刹那の光は世を照らし、一葉にて秋を知る。拙者がこの楓の葉で壁を切り拓き、時代を問う者となるでござる――」</i>",
+    "cd": 15,
+    "energyCost": 60,
+    "paramTpls": ["斬撃ダメージ|{param1:P}", "継続ダメージ|{param2:P}", "付加元素ダメージ|{param3:P}", "継続時間|{param4:F1}秒", "クールタイム|{param5:F1}秒", "元素エネルギー|{param6:I}"],
+    "paramVals": [
+      [2.624, 1.2, 0.36, 8, 15, 60],
+      [2.8208, 1.29, 0.387, 8, 15, 60],
+      [3.0176, 1.38, 0.414, 8, 15, 60],
+      [3.28, 1.5, 0.45, 8, 15, 60],
+      [3.4768, 1.59, 0.477, 8, 15, 60],
+      [3.6736, 1.68, 0.504, 8, 15, 60],
+      [3.936, 1.8, 0.54, 8, 15, 60],
+      [4.1984, 1.92, 0.576, 8, 15, 60],
+      [4.4608, 2.04, 0.612, 8, 15, 60],
+      [4.7232, 2.16, 0.648, 8, 15, 60],
+      [4.9856, 2.28, 0.684, 8, 15, 60],
+      [5.248, 2.4, 0.72, 8, 15, 60],
+      [5.576, 2.55, 0.765, 8, 15, 60],
+      [5.904, 2.7, 0.81, 8, 15, 60],
+      [6.232, 2.85, 0.855, 8, 15, 60]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfDiligence", "localeName": "「勤労」の教え", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 4 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 6 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 9 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 12 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackGaryuuBladework",
+    "localeName": "通常攻撃·我流剣術",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n剣による最大5段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、前方に斬撃を2回放つ。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。千早振る後の落下攻撃は、落下攻撃·乱れ嵐斬へと変わる。\n\n<color=#FFD780FF>落下攻撃·乱れ嵐斬</color>\n元素スキル·千早振る後の落下攻撃のダメージは<color=#80FFD7FF>風元素ダメージ</color>に変わる。落下時に秘剣で風穴を生成し、近くの敵と物体を引き寄せる。",
+    "cd": 0,
+    "paramTpls": [
+      "1段ダメージ|{param1:F1P}",
+      "2段ダメージ|{param2:F1P}",
+      "3段ダメージ|{param3:F1P}+{param4:F1P}",
+      "4段ダメージ|{param5:F1P}",
+      "5段ダメージ|{param6:F1P}×3",
+      "重撃ダメージ|{param7:F1P}+{param8:F1P}",
+      "重撃スタミナ消費|{param9:F1}",
+      "落下期間のダメージ|{param10:F1P}",
+      "低空/高空落下攻撃ダメージ|{param11:P}/{param12:P}"
+    ],
+    "paramVals": [
+      [0.44978, 0.45236, 0.258, 0.3096, 0.60716, 0.2537, 0.43, 0.74648, 20, 0.81833, 1.6363, 2.0439],
+      [0.48639, 0.48918, 0.279, 0.3348, 0.65658, 0.27435, 0.465, 0.80724, 20, 0.88494, 1.7695, 2.2102],
+      [0.523, 0.526, 0.3, 0.36, 0.706, 0.295, 0.5, 0.868, 20, 0.95155, 1.9027, 2.3766],
+      [0.5753, 0.5786, 0.33, 0.396, 0.7766, 0.3245, 0.55, 0.9548, 20, 1.0467, 2.093, 2.6142],
+      [0.61191, 0.61542, 0.351, 0.4212, 0.82602, 0.34515, 0.585, 1.0156, 20, 1.1133, 2.2262, 2.7806],
+      [0.65375, 0.6575, 0.375, 0.45, 0.8825, 0.36875, 0.625, 1.085, 20, 1.1894, 2.3784, 2.9707],
+      [0.71128, 0.71536, 0.408, 0.4896, 0.96016, 0.4012, 0.68, 1.1805, 20, 1.2941, 2.5877, 3.2321],
+      [0.76881, 0.77322, 0.441, 0.5292, 1.0378, 0.43365, 0.735, 1.276, 20, 1.3988, 2.797, 3.4936],
+      [0.82634, 0.83108, 0.474, 0.5688, 1.1155, 0.4661, 0.79, 1.3714, 20, 1.5035, 3.0063, 3.755],
+      [0.8891, 0.8942, 0.51, 0.612, 1.2002, 0.5015, 0.85, 1.4756, 20, 1.6176, 3.2346, 4.0402],
+      [0.96101, 0.96653, 0.55125, 0.6615, 1.2973, 0.54206, 0.91875, 1.5949, 20, 1.7318, 3.4629, 4.3254],
+      [1.0456, 1.0516, 0.59976, 0.71971, 1.4114, 0.58976, 0.9996, 1.7353, 20, 1.846, 3.6912, 4.6106],
+      [1.1302, 1.1366, 0.64827, 0.77792, 1.5256, 0.63747, 1.0805, 1.8757, 20, 1.9602, 3.9196, 4.8957],
+      [1.2147, 1.2217, 0.69678, 0.83614, 1.6398, 0.68517, 1.1613, 2.016, 20, 2.0744, 4.1479, 5.1809],
+      [1.307, 1.3145, 0.7497, 0.89964, 1.7643, 0.73721, 1.2495, 2.1691, 20, 2.1886, 4.3762, 5.4661]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfDiligence", "localeName": "「勤労」の教え", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 4 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 6 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 9 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3, "count": 12 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    {
+      "name": "SoumonSwordsmanship",
+      "localeName": "相聞剣法",
+      "desc": "<color=#FFD780FF>千早振る</color>を発動時、<color=#80C0FFFF>水元素</color>/<color=#FF9999FF>炎元素</color>/<color=#99FFFFFF>氷元素</color>/<color=#FFACFFFF>雷元素</color>と接触した場合、その<color=#FFD780FF>千早振る</color>後の落下攻撃·乱れ嵐斬に元素変化が起き、攻撃力200%分の該当元素ダメージを追加で与える。このダメージは落下攻撃とみなされる。<color=#FFD780FF>千早振る</color>のスキル効果中、元素変化は1回のみ発生する。",
+      "unlock": 1,
+      "values": [2]
+    },
+    { "name": "PoeticsOfFuubutsu", "localeName": "風物の詩吟", "desc": "楓原万葉が拡散反応を起こした後、楓原万葉の元素熟知の数値が1につき、チーム全員の該当元素ダメージ+0.04%、継続時間8秒。この方法で獲得した異なる元素ダメージアップ効果は共存する。", "unlock": 4, "values": [0.0004, 8] },
+    { "name": "CloudStrider", "localeName": "霞立つ松風", "desc": "チーム内の自身のキャラクター全員がダッシュに消費するスタミナ-20%。\n同じ効果を持つ固有天赋との重ね掛け不可。" }
+  ],
+  "c13ns": [
+    { "name": "ScarletHills", "localeName": "千山紅葉", "desc": "<color=#FFD780FF>千早振る</color>のクールタイム-10%。\n<color=#FFD780FF>万葉の一刀</color>を発動した時、<color=#FFD780FF>千早振る</color>のクールタイムがリセットされる。" },
+    {
+      "name": "YamaarashiTailwind",
+      "localeName": "山嵐残心",
+      "desc": "<color=#FFD780FF>万葉の一刀</color>の流風秋野で下記の効果を発動する。\n·継続時間内、楓原万葉自身の元素熟知+200。\n·流風秋野の中にいるフィールド上キャラクターの元素熟知+200。\n\nこの命ノ星座による元素熟知アップ効果は重ね掛けできない。",
+      "values": [200]
+    },
+    { "name": "MapleMonogatari", "localeName": "楓袖奇譚", "desc": "<color=#FFD780FF>千早振る</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    {
+      "name": "OozoraGenpou",
+      "localeName": "大空幻法",
+      "desc": "楓原万葉の元素エネルギーが45以下の時、下記の効果を獲得する。\n·一回押し/長押しで<color=#FFD780FF>千早振る</color>を発動した時、元素エネルギーを3/4回復する。\n·滑翔状態の時、1秒毎に元素エネルギーを2回復する。",
+      "values": [3, 4, 2, 0.75]
+    },
+    { "name": "WisdomOfBansei", "localeName": "万世集", "desc": "<color=#FFD780FF>万葉の一刀</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    {
+      "name": "CrimsonMomiji",
+      "localeName": "血赤の紅葉",
+      "desc": "楓原万葉が<color=#FFD780FF>千早振る</color>または<color=#FFD780FF>万葉の一刀</color>を発動した後の5秒間、<color=#80FFD7FF>風元素付与</color>を獲得する、また楓原万葉の元素熟知の数値が1につき、自身の通常攻撃、重撃、落下攻撃のダメージ+0.2%。",
+      "values": [0.002, 5]
+    }
+  ],
+  "overviewItems": [
+    { "id": "VayudaTurquoiseGemstone", "localeName": "自由のターコイズ", "rarity": 5 },
+    { "id": "MarionetteCore", "localeName": "魔偶の芯", "rarity": 4 },
+    { "id": "SeaGanoderma", "localeName": "ウミレイシ" },
+    { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "rarity": 3 },
+    { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4 },
+    { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5 }
+  ]
+}

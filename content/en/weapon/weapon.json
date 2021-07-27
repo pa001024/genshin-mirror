@@ -1765,52 +1765,101 @@
     }
   },
   {
-    "id": "BoreasPrecocity",
-    "name": "Boreas Precocity",
-    "localeName": "Boreas Precocity",
-    "desc": "A longsword used by the Knights of Borealis. It was just a plain steel sword, but it obtained mythical powers throughout Borealis' life of legends and mysteries.",
+    "id": "FreedomSworn",
+    "name": "Freedom-Sworn",
+    "localeName": "Freedom-Sworn",
+    "desc": "A straight sword, azure as antediluvian song, and as keen as the oaths of freedom taken in the Land of Wind.",
     "rarity": 5,
     "type": 1,
     "ascensions": [
       {
         "level": 1,
-        "baseATK": 11.7,
+        "baseATK": 31.1,
         "cost": [
-          { "id": "TileOfDecarabiansTower", "localeName": "Tile of Decarabian's Tower", "count": 1 },
-          { "id": "HeavyHorn", "localeName": "Heavy Horn", "count": 1 },
-          { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "count": 1 }
+          { "id": "FettersOfTheDandelionGladiator", "localeName": "Fetters of the Dandelion Gladiator", "count": 5 },
+          { "id": "ChaosDevice", "localeName": "Chaos Device", "count": 5 },
+          { "id": "DiviningScroll", "localeName": "Divining Scroll", "count": 3 }
         ]
       },
       {
         "level": 2,
-        "baseATK": 23.3,
+        "baseATK": 62.2,
         "cost": [
-          { "id": "DebrisOfDecarabiansCity", "localeName": "Debris of Decarabian's City", "count": 1 },
-          { "id": "HeavyHorn", "localeName": "Heavy Horn", "count": 4 },
-          { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "count": 2 }
+          { "id": "ChainsOfTheDandelionGladiator", "localeName": "Chains of the Dandelion Gladiator", "count": 5 },
+          { "id": "ChaosDevice", "localeName": "Chaos Device", "count": 18 },
+          { "id": "DiviningScroll", "localeName": "Divining Scroll", "count": 12 }
         ]
       },
       {
         "level": 3,
-        "baseATK": 35,
+        "baseATK": 93.4,
         "cost": [
-          { "id": "DebrisOfDecarabiansCity", "localeName": "Debris of Decarabian's City", "count": 2 },
-          { "id": "BlackBronzeHorn", "localeName": "Black Bronze Horn", "count": 2 },
-          { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "count": 2 }
+          { "id": "ChainsOfTheDandelionGladiator", "localeName": "Chains of the Dandelion Gladiator", "count": 9 },
+          { "id": "ChaosCircuit", "localeName": "Chaos Circuit", "count": 9 },
+          { "id": "SealedScroll", "localeName": "Sealed Scroll", "count": 9 }
         ]
       },
       {
         "level": 4,
-        "baseATK": 46.7,
+        "baseATK": 124.5,
         "cost": [
-          { "id": "FragmentOfDecarabiansEpic", "localeName": "Fragment of Decarabian's Epic", "count": 1 },
-          { "id": "BlackBronzeHorn", "localeName": "Black Bronze Horn", "count": 4 },
-          { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "count": 3 }
+          { "id": "ShacklesOfTheDandelionGladiator", "localeName": "Shackles of the Dandelion Gladiator", "count": 5 },
+          { "id": "ChaosCircuit", "localeName": "Chaos Circuit", "count": 18 },
+          { "id": "SealedScroll", "localeName": "Sealed Scroll", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "ShacklesOfTheDandelionGladiator", "localeName": "Shackles of the Dandelion Gladiator", "count": 9 },
+          { "id": "ChaosCore", "localeName": "Chaos Core", "count": 14 },
+          { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "DreamOfTheDandelionGladiator", "localeName": "Dream of the Dandelion Gladiator", "count": 6 },
+          { "id": "ChaosCore", "localeName": "Chaos Core", "count": 27 },
+          { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "count": 18 }
         ]
       }
     ],
-    "baseATK": 23.245,
-    "baseATKCurve": 1
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "overviewItems": [
+      { "id": "DreamOfTheDandelionGladiator", "name": "Dream of the Dandelion Gladiator", "rarity": 5 },
+      { "id": "ChaosCore", "name": "Chaos Core", "rarity": 4 },
+      { "id": "ForbiddenCurseScroll", "name": "Forbidden Curse Scroll", "rarity": 3 }
+    ],
+    "subAttr": { "type": 11, "value": 43.2, "curve": 18 },
+    "affix": {
+      "name": "Revolutionary Chorale",
+      "levels": [
+        {
+          "desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases DMG by <color=#99FFFFFF>10%</color>. When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field. When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain \"Millennial Movement: Song of Resistance\" for 12s. \"Millennial Movement: Song of Resistance\" increases Normal, Charged and Plunging Attack DMG by <color=#99FFFFFF>16%</color> and increases ATK by <color=#99FFFFFF>20%</color>. Once this effect is triggered, you will not gain Sigils of Rebellion for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+          "params": [0.1, 0.5, 12, 0.16, 0.2, 20]
+        },
+        {
+          "desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases DMG by <color=#99FFFFFF>12.5%</color>. When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field. When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain \"Millennial Movement: Song of Resistance\" for 12s. \"Millennial Movement: Song of Resistance\" increases Normal, Charged and Plunging Attack DMG by <color=#99FFFFFF>20%</color> and increases ATK by <color=#99FFFFFF>25%</color>. Once this effect is triggered, you will not gain Sigils of Rebellion for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+          "params": [0.125, 0.5, 12, 0.2, 0.25, 20]
+        },
+        {
+          "desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases DMG by <color=#99FFFFFF>15%</color>. When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field. When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain \"Millennial Movement: Song of Resistance\" for 12s. \"Millennial Movement: Song of Resistance\" increases Normal, Charged and Plunging Attack DMG by <color=#99FFFFFF>24%</color> and increases ATK by <color=#99FFFFFF>30%</color>. Once this effect is triggered, you will not gain Sigils of Rebellion for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+          "params": [0.15, 0.5, 12, 0.24, 0.3, 20]
+        },
+        {
+          "desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases DMG by <color=#99FFFFFF>17.5%</color>. When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field. When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain \"Millennial Movement: Song of Resistance\" for 12s. \"Millennial Movement: Song of Resistance\" increases Normal, Charged and Plunging Attack DMG by <color=#99FFFFFF>28%</color> and increases ATK by <color=#99FFFFFF>35%</color>. Once this effect is triggered, you will not gain Sigils of Rebellion for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+          "params": [0.175, 0.5, 12, 0.28, 0.35, 20]
+        },
+        {
+          "desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases DMG by <color=#99FFFFFF>20%</color>. When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field. When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain \"Millennial Movement: Song of Resistance\" for 12s. \"Millennial Movement: Song of Resistance\" increases Normal, Charged and Plunging Attack DMG by <color=#99FFFFFF>32%</color> and increases ATK by <color=#99FFFFFF>40%</color>. Once this effect is triggered, you will not gain Sigils of Rebellion for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+          "params": [0.2, 0.5, 12, 0.32, 0.4, 20]
+        }
+      ]
+    }
   },
   {
     "id": "SummitShaper",
@@ -2784,23 +2833,23 @@
       "name": "Rebellious Guardian",
       "levels": [
         {
-          "desc": "Taking DMG generates a shield which absorbs DMG up to <color=#99FFFFFF>20%</color> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <color=#99FFFFFF>45</color>s. While protected by the shield, the character gains <color=#99FFFFFF>12%</color> increased DMG.",
+          "desc": "Taking DMG generates a shield which absorbs DMG up to <color=#99FFFFFF>20%</color> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <color=#99FFFFFF>45</color>s. While protected by a shield, the character gains <color=#99FFFFFF>12%</color> increased DMG.",
           "params": [0.2, 45, 0.12]
         },
         {
-          "desc": "Taking DMG generates a shield which absorbs DMG up to <color=#99FFFFFF>23%</color> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <color=#99FFFFFF>45</color>s. While protected by the shield, the character gains <color=#99FFFFFF>15%</color> increased DMG.",
+          "desc": "Taking DMG generates a shield which absorbs DMG up to <color=#99FFFFFF>23%</color> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <color=#99FFFFFF>45</color>s. While protected by a shield, the character gains <color=#99FFFFFF>15%</color> increased DMG.",
           "params": [0.23, 45, 0.15]
         },
         {
-          "desc": "Taking DMG generates a shield which absorbs DMG up to <color=#99FFFFFF>26%</color> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <color=#99FFFFFF>45</color>s. While protected by the shield, the character gains <color=#99FFFFFF>18%</color> increased DMG.",
+          "desc": "Taking DMG generates a shield which absorbs DMG up to <color=#99FFFFFF>26%</color> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <color=#99FFFFFF>45</color>s. While protected by a shield, the character gains <color=#99FFFFFF>18%</color> increased DMG.",
           "params": [0.26, 45, 0.18]
         },
         {
-          "desc": "Taking DMG generates a shield which absorbs DMG up to <color=#99FFFFFF>29%</color> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <color=#99FFFFFF>45</color>s. While protected by the shield, the character gains <color=#99FFFFFF>21%</color> increased DMG.",
+          "desc": "Taking DMG generates a shield which absorbs DMG up to <color=#99FFFFFF>29%</color> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <color=#99FFFFFF>45</color>s. While protected by a shield, the character gains <color=#99FFFFFF>21%</color> increased DMG.",
           "params": [0.29, 45, 0.21]
         },
         {
-          "desc": "Taking DMG generates a shield which absorbs DMG up to <color=#99FFFFFF>32%</color> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <color=#99FFFFFF>45</color>s. While protected by the shield, the character gains <color=#99FFFFFF>24%</color> increased DMG.",
+          "desc": "Taking DMG generates a shield which absorbs DMG up to <color=#99FFFFFF>32%</color> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <color=#99FFFFFF>45</color>s. While protected by a shield, the character gains <color=#99FFFFFF>24%</color> increased DMG.",
           "params": [0.32, 45, 0.24]
         }
       ]
@@ -3754,52 +3803,101 @@
     }
   },
   {
-    "id": "UprisingSatire",
-    "name": "Uprising Satire",
-    "localeName": "Uprising Satire",
-    "desc": "Legend has it that this greatsword was given to a bard who walked with the Anemo Archon. It's rewarded for his new-found bravery and sarcastic bite.",
+    "id": "SongOfBrokenPines",
+    "name": "Song of Broken Pines",
+    "localeName": "Song of Broken Pines",
+    "desc": "A greatsword as light as the sigh of grass in the breeze, yet as merciless to the corrupt as a typhoon.",
     "rarity": 5,
     "type": 4,
     "ascensions": [
       {
         "level": 1,
-        "baseATK": 11.7,
+        "baseATK": 31.1,
         "cost": [
-          { "id": "TileOfDecarabiansTower", "localeName": "Tile of Decarabian's Tower", "count": 1 },
-          { "id": "HeavyHorn", "localeName": "Heavy Horn", "count": 1 },
-          { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "count": 1 }
+          { "id": "TileOfDecarabiansTower", "localeName": "Tile of Decarabian's Tower", "count": 5 },
+          { "id": "HeavyHorn", "localeName": "Heavy Horn", "count": 5 },
+          { "id": "DamagedMask", "localeName": "Damaged Mask", "count": 3 }
         ]
       },
       {
         "level": 2,
-        "baseATK": 23.3,
+        "baseATK": 62.2,
         "cost": [
-          { "id": "DebrisOfDecarabiansCity", "localeName": "Debris of Decarabian's City", "count": 1 },
-          { "id": "HeavyHorn", "localeName": "Heavy Horn", "count": 4 },
-          { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "count": 2 }
+          { "id": "DebrisOfDecarabiansCity", "localeName": "Debris of Decarabian's City", "count": 5 },
+          { "id": "HeavyHorn", "localeName": "Heavy Horn", "count": 18 },
+          { "id": "DamagedMask", "localeName": "Damaged Mask", "count": 12 }
         ]
       },
       {
         "level": 3,
-        "baseATK": 35,
+        "baseATK": 93.4,
         "cost": [
-          { "id": "DebrisOfDecarabiansCity", "localeName": "Debris of Decarabian's City", "count": 2 },
-          { "id": "BlackBronzeHorn", "localeName": "Black Bronze Horn", "count": 2 },
-          { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "count": 2 }
+          { "id": "DebrisOfDecarabiansCity", "localeName": "Debris of Decarabian's City", "count": 9 },
+          { "id": "BlackBronzeHorn", "localeName": "Black Bronze Horn", "count": 9 },
+          { "id": "StainedMask", "localeName": "Stained Mask", "count": 9 }
         ]
       },
       {
         "level": 4,
-        "baseATK": 46.7,
+        "baseATK": 124.5,
         "cost": [
-          { "id": "FragmentOfDecarabiansEpic", "localeName": "Fragment of Decarabian's Epic", "count": 1 },
-          { "id": "BlackBronzeHorn", "localeName": "Black Bronze Horn", "count": 4 },
-          { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "count": 3 }
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "Fragment of Decarabian's Epic", "count": 5 },
+          { "id": "BlackBronzeHorn", "localeName": "Black Bronze Horn", "count": 18 },
+          { "id": "StainedMask", "localeName": "Stained Mask", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "Fragment of Decarabian's Epic", "count": 9 },
+          { "id": "BlackCrystalHorn", "localeName": "Black Crystal Horn", "count": 14 },
+          { "id": "OminousMask", "localeName": "Ominous Mask", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "ScatteredPieceOfDecarabiansDream", "localeName": "Scattered Piece of Decarabian's Dream", "count": 6 },
+          { "id": "BlackCrystalHorn", "localeName": "Black Crystal Horn", "count": 27 },
+          { "id": "OminousMask", "localeName": "Ominous Mask", "count": 18 }
         ]
       }
     ],
-    "baseATK": 47.537,
-    "baseATKCurve": 1
+    "baseATK": 49.138,
+    "baseATKCurve": 13,
+    "overviewItems": [
+      { "id": "ScatteredPieceOfDecarabiansDream", "name": "Scattered Piece of Decarabian's Dream", "rarity": 5 },
+      { "id": "BlackCrystalHorn", "name": "Black Crystal Horn", "rarity": 4 },
+      { "id": "OminousMask", "name": "Ominous Mask", "rarity": 3 }
+    ],
+    "subAttr": { "type": 33, "value": 0.045, "curve": 18 },
+    "affix": {
+      "name": "Rebel's Banner-Hymn",
+      "levels": [
+        {
+          "desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by <color=#99FFFFFF>16%</color>, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by <color=#99FFFFFF>12%</color> and increases ATK by <color=#99FFFFFF>20%</color>. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+          "params": [0.16, 0.3, 12, 0.12, 0.2, 20]
+        },
+        {
+          "desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by <color=#99FFFFFF>20%</color>, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by <color=#99FFFFFF>15%</color> and increases ATK by <color=#99FFFFFF>25%</color>. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+          "params": [0.2, 0.3, 12, 0.15, 0.25, 20]
+        },
+        {
+          "desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by <color=#99FFFFFF>24%</color>, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by <color=#99FFFFFF>18%</color> and increases ATK by <color=#99FFFFFF>30%</color>. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+          "params": [0.24, 0.3, 12, 0.18, 0.3, 20]
+        },
+        {
+          "desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by <color=#99FFFFFF>28%</color>, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by <color=#99FFFFFF>21%</color> and increases ATK by <color=#99FFFFFF>35%</color>. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+          "params": [0.28, 0.3, 12, 0.21, 0.35, 20]
+        },
+        {
+          "desc": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by <color=#99FFFFFF>32%</color>, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by <color=#99FFFFFF>24%</color> and increases ATK by <color=#99FFFFFF>40%</color>. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+          "params": [0.32, 0.3, 12, 0.24, 0.4, 20]
+        }
+      ]
+    }
   },
   {
     "id": "TheUnforged",
@@ -3897,6 +3995,54 @@
         }
       ]
     }
+  },
+  {
+    "id": "PrimordialJadeGreatsword",
+    "name": "Primordial Jade Greatsword",
+    "localeName": "Primordial Jade Greatsword",
+    "desc": "A jade greatsword that once belonged to an Archon, and cast into the depths of the ocean to calm a monstrous storm.",
+    "rarity": 5,
+    "type": 4,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 11.7,
+        "cost": [
+          { "id": "TileOfDecarabiansTower", "localeName": "Tile of Decarabian's Tower", "count": 1 },
+          { "id": "HeavyHorn", "localeName": "Heavy Horn", "count": 1 },
+          { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "count": 1 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 23.3,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "Debris of Decarabian's City", "count": 1 },
+          { "id": "HeavyHorn", "localeName": "Heavy Horn", "count": 4 },
+          { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "count": 2 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 35,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "Debris of Decarabian's City", "count": 2 },
+          { "id": "BlackBronzeHorn", "localeName": "Black Bronze Horn", "count": 2 },
+          { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "count": 2 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 46.7,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "Fragment of Decarabian's Epic", "count": 1 },
+          { "id": "BlackBronzeHorn", "localeName": "Black Bronze Horn", "count": 4 },
+          { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "count": 3 }
+        ]
+      }
+    ],
+    "baseATK": 47.537,
+    "baseATKCurve": 1
   },
   {
     "id": "TheOtherSide",
@@ -4771,11 +4917,11 @@
     "affix": {
       "name": "Gladiator",
       "levels": [
-        { "desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>16%</color> and DEF is increased by <color=#99FFFFFF>16%</color>. If there are less than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>24%</color>.", "params": [2, 0.24, 0.16, 0.16] },
-        { "desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>20%</color> and DEF is increased by <color=#99FFFFFF>20%</color>. If there are less than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>30%</color>.", "params": [2, 0.3, 0.2, 0.2] },
-        { "desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>24%</color> and DEF is increased by <color=#99FFFFFF>24%</color>. If there are less than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>36%</color>.", "params": [2, 0.36, 0.24, 0.24] },
-        { "desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>28%</color> and DEF is increased by <color=#99FFFFFF>28%</color>. If there are less than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>42%</color>.", "params": [2, 0.42, 0.28, 0.28] },
-        { "desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>32%</color> and DEF is increased by <color=#99FFFFFF>32%</color>. If there are less than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>48%</color>.", "params": [2, 0.48, 0.32, 0.32] }
+        { "desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>16%</color> and DEF is increased by <color=#99FFFFFF>16%</color>. If there are fewer than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>24%</color>.", "params": [2, 0.24, 0.16, 0.16] },
+        { "desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>20%</color> and DEF is increased by <color=#99FFFFFF>20%</color>. If there are fewer than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>30%</color>.", "params": [2, 0.3, 0.2, 0.2] },
+        { "desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>24%</color> and DEF is increased by <color=#99FFFFFF>24%</color>. If there are fewer than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>36%</color>.", "params": [2, 0.36, 0.24, 0.24] },
+        { "desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>28%</color> and DEF is increased by <color=#99FFFFFF>28%</color>. If there are fewer than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>42%</color>.", "params": [2, 0.42, 0.28, 0.28] },
+        { "desc": "If there are at least 2 opponents nearby, ATK is increased by <color=#99FFFFFF>32%</color> and DEF is increased by <color=#99FFFFFF>32%</color>. If there are fewer than 2 opponents nearby, ATK is increased by <color=#99FFFFFF>48%</color>.", "params": [2, 0.48, 0.32, 0.32] }
       ]
     }
   },
@@ -5889,7 +6035,7 @@
     "id": "EmeraldOrb",
     "name": "Emerald Orb",
     "localeName": "Emerald Orb",
-    "desc": "A catalyst carved out of the hard jade from Jueyun Karst north of Liyue. It is small, light, and durable.",
+    "desc": "A catalyst carved out of the hard jade from Jueyun Karst north of Liyue. Small, light, and durable, it is known more colloquially as the \"jade ball.\"",
     "rarity": 3,
     "type": 5,
     "ascensions": [
@@ -7079,6 +7225,88 @@
     }
   },
   {
+    "id": "DodocoTales",
+    "name": "Dodoco Tales",
+    "localeName": "Dodoco Tales",
+    "desc": "A children's book filled with childish short stories at which one cannot help but laugh.\nEven those readers who have long reached adulthood cannot help but be absorbed by the innocent, naive little adventures portrayed within.",
+    "rarity": 4,
+    "type": 5,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "BorealWolfsMilkTooth", "localeName": "Boreal Wolf's Milk Tooth", "count": 3 },
+          { "id": "DeadLeyLineBranch", "localeName": "Dead Ley Line Branch", "count": 3 },
+          { "id": "DamagedMask", "localeName": "Damaged Mask", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "BorealWolfsCrackedTooth", "localeName": "Boreal Wolf's Cracked Tooth", "count": 3 },
+          { "id": "DeadLeyLineBranch", "localeName": "Dead Ley Line Branch", "count": 12 },
+          { "id": "DamagedMask", "localeName": "Damaged Mask", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "BorealWolfsCrackedTooth", "localeName": "Boreal Wolf's Cracked Tooth", "count": 6 },
+          { "id": "DeadLeyLineLeaves", "localeName": "Dead Ley Line Leaves", "count": 6 },
+          { "id": "StainedMask", "localeName": "Stained Mask", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "BorealWolfsBrokenFang", "localeName": "Boreal Wolf's Broken Fang", "count": 3 },
+          { "id": "DeadLeyLineLeaves", "localeName": "Dead Ley Line Leaves", "count": 12 },
+          { "id": "StainedMask", "localeName": "Stained Mask", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "BorealWolfsBrokenFang", "localeName": "Boreal Wolf's Broken Fang", "count": 6 },
+          { "id": "LeyLineSprout", "localeName": "Ley Line Sprout", "count": 9 },
+          { "id": "OminousMask", "localeName": "Ominous Mask", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "BorealWolfsNostalgia", "localeName": "Boreal Wolf's Nostalgia", "count": 4 },
+          { "id": "LeyLineSprout", "localeName": "Ley Line Sprout", "count": 18 },
+          { "id": "OminousMask", "localeName": "Ominous Mask", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 41.067,
+    "baseATKCurve": 9,
+    "overviewItems": [
+      { "id": "BorealWolfsNostalgia", "name": "Boreal Wolf's Nostalgia", "rarity": 5 },
+      { "id": "LeyLineSprout", "name": "Ley Line Sprout", "rarity": 4 },
+      { "id": "OminousMask", "name": "Ominous Mask", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.12, "curve": 17 },
+    "affix": {
+      "name": "Dodoventure!",
+      "levels": [
+        { "desc": "Normal Attack hits on opponents increase Charged Attack DMG by <color=#99FFFFFF>16%</color> for 6s. Charged Attack hits on opponents increase ATK by <color=#99FFFFFF>8%</color> for 6s.", "params": [0.16, 6, 0.08, 6] },
+        { "desc": "Normal Attack hits on opponents increase Charged Attack DMG by <color=#99FFFFFF>20%</color> for 6s. Charged Attack hits on opponents increase ATK by <color=#99FFFFFF>10%</color> for 6s.", "params": [0.2, 6, 0.1, 6] },
+        { "desc": "Normal Attack hits on opponents increase Charged Attack DMG by <color=#99FFFFFF>24%</color> for 6s. Charged Attack hits on opponents increase ATK by <color=#99FFFFFF>12%</color> for 6s.", "params": [0.24, 6, 0.12, 6] },
+        { "desc": "Normal Attack hits on opponents increase Charged Attack DMG by <color=#99FFFFFF>28%</color> for 6s. Charged Attack hits on opponents increase ATK by <color=#99FFFFFF>14%</color> for 6s.", "params": [0.28, 6, 0.14, 6] },
+        { "desc": "Normal Attack hits on opponents increase Charged Attack DMG by <color=#99FFFFFF>32%</color> for 6s. Charged Attack hits on opponents increase ATK by <color=#99FFFFFF>16%</color> for 6s.", "params": [0.32, 6, 0.16, 6] }
+      ]
+    }
+  },
+  {
     "id": "SkywardAtlas",
     "name": "Skyward Atlas",
     "localeName": "Skyward Atlas",
@@ -7401,6 +7629,54 @@
         }
       ]
     }
+  },
+  {
+    "id": "PrimordialJadeRegalia",
+    "name": "Primordial Jade Regalia",
+    "localeName": "Primordial Jade Regalia",
+    "desc": "An ancient gem that symbolizes the will of an ancient people who sought a promised land. It still gently emanates a mysterious ancient power that protects the land.",
+    "rarity": 5,
+    "type": 5,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 11.7,
+        "cost": [
+          { "id": "TileOfDecarabiansTower", "localeName": "Tile of Decarabian's Tower", "count": 1 },
+          { "id": "HeavyHorn", "localeName": "Heavy Horn", "count": 1 },
+          { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "count": 1 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 23.3,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "Debris of Decarabian's City", "count": 1 },
+          { "id": "HeavyHorn", "localeName": "Heavy Horn", "count": 4 },
+          { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "count": 2 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 35,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "Debris of Decarabian's City", "count": 2 },
+          { "id": "BlackBronzeHorn", "localeName": "Black Bronze Horn", "count": 2 },
+          { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "count": 2 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 46.7,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "Fragment of Decarabian's Epic", "count": 1 },
+          { "id": "BlackBronzeHorn", "localeName": "Black Bronze Horn", "count": 4 },
+          { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "count": 3 }
+        ]
+      }
+    ],
+    "baseATK": 47.537,
+    "baseATKCurve": 1
   },
   {
     "id": "DiamondVisage",
@@ -8889,6 +9165,88 @@
     }
   },
   {
+    "id": "MitternachtsWaltz",
+    "name": "Mitternachts Waltz",
+    "localeName": "Mitternachts Waltz",
+    "desc": "A bow painted the color of transgression and nights of illusion.",
+    "rarity": 4,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "TileOfDecarabiansTower", "localeName": "Tile of Decarabian's Tower", "count": 3 },
+          { "id": "HeavyHorn", "localeName": "Heavy Horn", "count": 3 },
+          { "id": "TreasureHoarderInsignia", "localeName": "Treasure Hoarder Insignia", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "Debris of Decarabian's City", "count": 3 },
+          { "id": "HeavyHorn", "localeName": "Heavy Horn", "count": 12 },
+          { "id": "TreasureHoarderInsignia", "localeName": "Treasure Hoarder Insignia", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "Debris of Decarabian's City", "count": 6 },
+          { "id": "BlackBronzeHorn", "localeName": "Black Bronze Horn", "count": 6 },
+          { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "Fragment of Decarabian's Epic", "count": 3 },
+          { "id": "BlackBronzeHorn", "localeName": "Black Bronze Horn", "count": 12 },
+          { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "Fragment of Decarabian's Epic", "count": 6 },
+          { "id": "BlackCrystalHorn", "localeName": "Black Crystal Horn", "count": 9 },
+          { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "ScatteredPieceOfDecarabiansDream", "localeName": "Scattered Piece of Decarabian's Dream", "count": 4 },
+          { "id": "BlackCrystalHorn", "localeName": "Black Crystal Horn", "count": 18 },
+          { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "overviewItems": [
+      { "id": "ScatteredPieceOfDecarabiansDream", "name": "Scattered Piece of Decarabian's Dream", "rarity": 5 },
+      { "id": "BlackCrystalHorn", "name": "Black Crystal Horn", "rarity": 4 },
+      { "id": "GoldenRavenInsignia", "name": "Golden Raven Insignia", "rarity": 3 }
+    ],
+    "subAttr": { "type": 33, "value": 0.1126, "curve": 17 },
+    "affix": {
+      "name": "Evernight Duet",
+      "levels": [
+        { "desc": "Normal Attack hits on opponents increase Elemental Skill DMG by <color=#99FFFFFF>20%</color> for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by <color=#99FFFFFF>20%</color> for 5s.", "params": [0.2, 5, 0.2, 5] },
+        { "desc": "Normal Attack hits on opponents increase Elemental Skill DMG by <color=#99FFFFFF>25%</color> for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by <color=#99FFFFFF>25%</color> for 5s.", "params": [0.25, 5, 0.25, 5] },
+        { "desc": "Normal Attack hits on opponents increase Elemental Skill DMG by <color=#99FFFFFF>30%</color> for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by <color=#99FFFFFF>30%</color> for 5s.", "params": [0.3, 5, 0.3, 5] },
+        { "desc": "Normal Attack hits on opponents increase Elemental Skill DMG by <color=#99FFFFFF>35%</color> for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by <color=#99FFFFFF>35%</color> for 5s.", "params": [0.35, 5, 0.35, 5] },
+        { "desc": "Normal Attack hits on opponents increase Elemental Skill DMG by <color=#99FFFFFF>40%</color> for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by <color=#99FFFFFF>40%</color> for 5s.", "params": [0.4, 5, 0.4, 5] }
+      ]
+    }
+  },
+  {
     "id": "WindblumeOde",
     "name": "Windblume Ode",
     "localeName": "Windblume Ode",
@@ -9230,6 +9588,102 @@
         }
       ]
     }
+  },
+  {
+    "id": "KunwusWyrmbane",
+    "name": "Kunwu's Wyrmbane",
+    "localeName": "Kunwu's Wyrmbane",
+    "desc": "A greatbow made from dragon vein. It is so powerful that it could slay a dragon. A nocked arrow fires with the force of thunder.",
+    "rarity": 5,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 11.7,
+        "cost": [
+          { "id": "TileOfDecarabiansTower", "localeName": "Tile of Decarabian's Tower", "count": 1 },
+          { "id": "HeavyHorn", "localeName": "Heavy Horn", "count": 1 },
+          { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "count": 1 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 23.3,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "Debris of Decarabian's City", "count": 1 },
+          { "id": "HeavyHorn", "localeName": "Heavy Horn", "count": 4 },
+          { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "count": 2 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 35,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "Debris of Decarabian's City", "count": 2 },
+          { "id": "BlackBronzeHorn", "localeName": "Black Bronze Horn", "count": 2 },
+          { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "count": 2 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 46.7,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "Fragment of Decarabian's Epic", "count": 1 },
+          { "id": "BlackBronzeHorn", "localeName": "Black Bronze Horn", "count": 4 },
+          { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "count": 3 }
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 1
+  },
+  {
+    "id": "PrimordialJadeVista",
+    "name": "Primordial Jade Vista",
+    "localeName": "Primordial Jade Vista",
+    "desc": "A strong bow that was made from ancient jade, with a bowstring made from a single beam of converging light. Possesses enough power to protect a kingdom.",
+    "rarity": 5,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 11.7,
+        "cost": [
+          { "id": "TileOfDecarabiansTower", "localeName": "Tile of Decarabian's Tower", "count": 1 },
+          { "id": "HeavyHorn", "localeName": "Heavy Horn", "count": 1 },
+          { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "count": 1 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 23.3,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "Debris of Decarabian's City", "count": 1 },
+          { "id": "HeavyHorn", "localeName": "Heavy Horn", "count": 4 },
+          { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "count": 2 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 35,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "Debris of Decarabian's City", "count": 2 },
+          { "id": "BlackBronzeHorn", "localeName": "Black Bronze Horn", "count": 2 },
+          { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "count": 2 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 46.7,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "Fragment of Decarabian's Epic", "count": 1 },
+          { "id": "BlackBronzeHorn", "localeName": "Black Bronze Horn", "count": 4 },
+          { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "count": 3 }
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 1
   },
   {
     "id": "MirrorBreaker",

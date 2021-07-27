@@ -238,7 +238,7 @@
       "4段ダメージ|{param4:P}",
       "連続重撃ダメージ|{param5:F1P}",
       "重撃終了ダメージ|{param6:P}",
-      "重撃スタミナ消費|每秒{param7:F1}",
+      "重撃スタミナ消費|毎秒{param7:F1}",
       "最大継続時間|{param8:F1}秒",
       "落下期間のダメージ|{param9:F1P}",
       "低空/高空落下攻撃ダメージ|{param10:P}/{param11:P}"
@@ -305,7 +305,7 @@
     ]
   },
   "talents": [
-    { "name": "SteadyBreathing", "localeName": "吐納真定", "desc": "<color=#FFD780FF>霊刃·重華積霜</color>エリア内にいる時、片手剣、両手剣、長柄武器キャラクターの通常攻撃と攻撃速度+8%。", "unlock": 1, "values": [0.08] },
+    { "name": "SteadyBreathing", "localeName": "吐納真定", "desc": "<color=#FFD780FF>霊刃·重華積霜</color>エリア内にいる時、片手剣、両手剣、長柄武器キャラクターの通常攻撃の攻撃速度+8%。", "unlock": 1, "values": [0.08] },
     {
       "name": "RimechaserBlade",
       "localeName": "追氷剣訣",

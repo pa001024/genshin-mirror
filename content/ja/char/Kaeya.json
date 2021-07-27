@@ -312,7 +312,11 @@
     { "name": "ExcellentBlood", "localeName": "優れた血筋", "desc": "<color=#99FFFFFF>氷元素</color>の影響を受けた敵に対して、ガイアの通常攻撃と重撃の会心率+15%。" },
     { "name": "NeverEndingPerformance", "localeName": "無尽なる霜舞", "desc": "<color=#FFD780FF>凛冽なる輪舞</color>継続中に敵を撃破した時、継続時間+2.5秒。最大15秒まで。" },
     { "name": "DanceOfFrost", "localeName": "凛冽なる戯れ", "desc": "<color=#FFD780FF>霜の襲撃</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "FrozenKiss", "localeName": "極寒の口付け", "desc": "ガイアのHPが20%の時に自動で発動する：\nHP上限30%分のシールドを吸収するシールド生成する。継続時間20秒。\nシールドは<color=#99FFFFFF>氷元素ダメージ</color>に対して250%の吸収効果がある。\n60秒毎に1回のみ発動可能。" },
+    {
+      "name": "FrozenKiss",
+      "localeName": "極寒の口付け",
+      "desc": "ガイアのHPが20%未満の時、下記の効果が発動される。\nダメージ吸収量がHP上限の30%に値するシールドを生成する。持続時間20秒。\nこのシールドは<color=#99FFFFFF>氷元素ダメージ</color>に対して250%の吸収効果がある。\nこの効果は60秒毎に1回のみ発動可能。"
+    },
     { "name": "FrostbitingEmbrace", "localeName": "冷たい抱擁", "desc": "<color=#FFD780FF>凛冽なる輪舞</color>のスキルLv.+3。\n最大Lv.15まで。" },
     { "name": "GlacialWhirlwind", "localeName": "輪旋の氷", "desc": "<color=#FFD780FF>凛冽なる輪舞</color>の氷柱が1本追加され、発動時に元素エネルギーが15回復する。" }
   ],

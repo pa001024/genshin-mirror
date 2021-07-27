@@ -1,22 +1,9 @@
 [
-  {
-    "id": 1,
-    "name": "Deep Within the Temple of the Wolf",
-    "localeName": "深入狼之殿",
-    "desc": "為了遏制風魔龍的災厄，騎士團的成員前往各地展開行動。與騎兵隊長凱亞一同深入北風之狼的廟宇，阻止風魔龍取得其中的力量吧。",
-    "elements": [],
-    "type": 1
-  },
-  {
-    "id": 10,
-    "name": "Hidden Teardrop in the Heart of the Jungle",
-    "localeName": "密林、廢墟與龍之淚",
-    "desc": "為了收集風龍淚滴，一行人來到了深藏在密林中的廢墟。和琴與迪盧克一同，深入廢墟，搜尋飽含力量的龍淚吧。",
-    "elements": [3, 7],
-    "type": 1
-  },
-  { "id": 11, "name": "Realm Within", "localeName": "壺中天", "desc": "壺中天", "elements": [6, 3, 7, 1], "type": 1 },
+  { "id": 1, "name": "Deep Within the Temple of the Wolf", "localeName": "深入狼之殿", "desc": "為了遏制風魔龍的災厄，騎士團的成員前往各地展開行動。與騎兵隊長凱亞一同深入北風之狼的廟宇，阻止風魔龍取得其中的力量吧。", "elements": [], "type": 1 },
+  { "id": 10, "name": "Hidden Teardrop in the Heart of the Jungle", "localeName": "密林、廢墟與龍之淚", "desc": "為了收集風龍淚滴，一行人來到了深藏在密林中的廢墟。和琴與迪盧克一同，深入廢墟，搜尋飽含力量的龍淚吧。", "elements": [], "type": 1 },
+  { "id": 11, "name": "Realm Within", "localeName": "壺中天", "desc": "壺中天", "elements": [], "type": 1 },
   { "id": 30, "name": "Retrieve the Treasure", "localeName": "奪回寶物", "desc": "深淵法師逃入了秘境深處。\n一鼓作氣，奪回可莉的寶物吧！", "elements": [], "type": 1 },
+  { "id": 64, "name": "", "localeName": "", "desc": "", "elements": [], "type": 2 },
   { "id": 101, "name": "The Golden Shadow", "localeName": "黃金與孤影", "desc": "#追尋著真相，{F#妳}{M#你}終於抵達了漩渦的中心。\n踞身黃金之中等待著{F#妳}{M#你}的，則是…", "elements": [], "type": 1 },
   { "id": 102, "name": "Jade Chamber Storyline", "localeName": "群玉閣劇情", "desc": "", "elements": [], "type": 1 },
   {
@@ -51,291 +38,68 @@
     "elements": [],
     "type": 4
   },
-  {
-    "id": 1001,
-    "name": "Deep Within the Temple of the Falcon",
-    "localeName": "深入鷹之殿",
-    "desc": "為了遏制風魔龍的災厄，騎士團的成員前往各地展開行動。與偵察騎士安柏一同深入西風之鷹的廟宇，阻止風魔龍取得其中的力量吧。",
-    "elements": [],
-    "type": 1
-  },
+  { "id": 107, "name": "Beneath the Ancient Tree", "localeName": "古樹之底", "desc": "南天門古樹底部竟有一條不為人知的神秘通道。古老的秘密，就埋藏在路的盡頭…", "elements": [], "type": 1 },
+  { "id": 110, "name": "Memories: Earthshaking Dragon I", "localeName": "追憶：搖撼山嶽之龍 I", "desc": "若陀龍王最終未能得到解放，隱隱騷動的大地重歸平靜。\n然而在地心岩窟中，直面被封印的岩龍的記憶再度浮現。\n在回憶中再現這場戰鬥，或許能有新的收穫…", "elements": [], "type": 4 },
+  { "id": 111, "name": "Memories: Earthshaking Dragon II", "localeName": "追憶：搖撼山嶽之龍 II", "desc": "若陀龍王最終未能得到解放，隱隱騷動的大地重歸平靜。\n然而在地心岩窟中，直面被封印的岩龍的記憶再度浮現。\n在回憶中再現這場戰鬥，或許能有新的收穫…", "elements": [], "type": 4 },
+  { "id": 112, "name": "Memories: Earthshaking Dragon III", "localeName": "追憶：搖撼山嶽之龍 III", "desc": "若陀龍王最終未能得到解放，隱隱騷動的大地重歸平靜。\n然而在地心岩窟中，直面被封印的岩龍的記憶再度浮現。\n在回憶中再現這場戰鬥，或許能有新的收穫…", "elements": [], "type": 4 },
+  { "id": 113, "name": "Memories: Earthshaking Dragon IV", "localeName": "追憶：搖撼山嶽之龍 IV", "desc": "若陀龍王最終未能得到解放，隱隱騷動的大地重歸平靜。\n然而在地心岩窟中，直面被封印的岩龍的記憶再度浮現。\n在回憶中再現這場戰鬥，或許能有新的收穫…", "elements": [], "type": 4 },
+  { "id": 114, "name": "Memories: Earthshaking Dragon I", "localeName": "追憶：搖撼山嶽之龍 I", "desc": "若陀龍王最終未能得到解放，隱隱騷動的大地重歸平靜。\n然而在地心岩窟中，直面被封印的岩龍的記憶再度浮現。\n在回憶中再現這場戰鬥，或許能有新的收穫…", "elements": [], "type": 4 },
+  { "id": 115, "name": "Memories: Earthshaking Dragon II", "localeName": "追憶：搖撼山嶽之龍 II", "desc": "若陀龍王最終未能得到解放，隱隱騷動的大地重歸平靜。\n然而在地心岩窟中，直面被封印的岩龍的記憶再度浮現。\n在回憶中再現這場戰鬥，或許能有新的收穫…", "elements": [], "type": 4 },
+  { "id": 116, "name": "Memories: Earthshaking Dragon III", "localeName": "追憶：搖撼山嶽之龍 III", "desc": "若陀龍王最終未能得到解放，隱隱騷動的大地重歸平靜。\n然而在地心岩窟中，直面被封印的岩龍的記憶再度浮現。\n在回憶中再現這場戰鬥，或許能有新的收穫…", "elements": [], "type": 4 },
+  { "id": 117, "name": "Memories: Earthshaking Dragon IV", "localeName": "追憶：搖撼山嶽之龍 IV", "desc": "若陀龍王最終未能得到解放，隱隱騷動的大地重歸平靜。\n然而在地心岩窟中，直面被封印的岩龍的記憶再度浮現。\n在回憶中再現這場戰鬥，或許能有新的收穫…", "elements": [], "type": 4 },
+  { "id": 118, "name": "Memories: Earthshaking Dragon I", "localeName": "追憶：搖撼山嶽之龍 I", "desc": "若陀龍王最終未能得到解放，隱隱騷動的大地重歸平靜。\n然而在地心岩窟中，直面被封印的岩龍的記憶再度浮現。\n在回憶中再現這場戰鬥，或許能有新的收穫…", "elements": [], "type": 4 },
+  { "id": 119, "name": "Memories: Earthshaking Dragon II", "localeName": "追憶：搖撼山嶽之龍 II", "desc": "若陀龍王最終未能得到解放，隱隱騷動的大地重歸平靜。\n然而在地心岩窟中，直面被封印的岩龍的記憶再度浮現。\n在回憶中再現這場戰鬥，或許能有新的收穫…", "elements": [], "type": 4 },
+  { "id": 120, "name": "Memories: Earthshaking Dragon III", "localeName": "追憶：搖撼山嶽之龍 III", "desc": "若陀龍王最終未能得到解放，隱隱騷動的大地重歸平靜。\n然而在地心岩窟中，直面被封印的岩龍的記憶再度浮現。\n在回憶中再現這場戰鬥，或許能有新的收穫…", "elements": [], "type": 4 },
+  { "id": 121, "name": "Memories: Earthshaking Dragon IV", "localeName": "追憶：搖撼山嶽之龍 IV", "desc": "若陀龍王最終未能得到解放，隱隱騷動的大地重歸平靜。\n然而在地心岩窟中，直面被封印的岩龍的記憶再度浮現。\n在回憶中再現這場戰鬥，或許能有新的收穫…", "elements": [], "type": 4 },
+  { "id": 122, "name": "Memories: Earthshaking Dragon I", "localeName": "追憶：搖撼山嶽之龍 I", "desc": "若陀龍王最終未能得到解放，隱隱騷動的大地重歸平靜。\n然而在地心岩窟中，直面被封印的岩龍的記憶再度浮現。\n在回憶中再現這場戰鬥，或許能有新的收穫…", "elements": [], "type": 4 },
+  { "id": 123, "name": "Memories: Earthshaking Dragon II", "localeName": "追憶：搖撼山嶽之龍 II", "desc": "若陀龍王最終未能得到解放，隱隱騷動的大地重歸平靜。\n然而在地心岩窟中，直面被封印的岩龍的記憶再度浮現。\n在回憶中再現這場戰鬥，或許能有新的收穫…", "elements": [], "type": 4 },
+  { "id": 124, "name": "Memories: Earthshaking Dragon III", "localeName": "追憶：搖撼山嶽之龍 III", "desc": "若陀龍王最終未能得到解放，隱隱騷動的大地重歸平靜。\n然而在地心岩窟中，直面被封印的岩龍的記憶再度浮現。\n在回憶中再現這場戰鬥，或許能有新的收穫…", "elements": [], "type": 4 },
+  { "id": 125, "name": "Memories: Earthshaking Dragon IV", "localeName": "追憶：搖撼山嶽之龍 IV", "desc": "若陀龍王最終未能得到解放，隱隱騷動的大地重歸平靜。\n然而在地心岩窟中，直面被封印的岩龍的記憶再度浮現。\n在回憶中再現這場戰鬥，或許能有新的收穫…", "elements": [], "type": 4 },
+  { "id": 1001, "name": "Deep Within the Temple of the Falcon", "localeName": "深入鷹之殿", "desc": "為了遏制風魔龍的災厄，騎士團的成員前往各地展開行動。與偵察騎士安柏一同深入西風之鷹的廟宇，阻止風魔龍取得其中的力量吧。", "elements": [], "type": 1 },
   { "id": 1002, "name": "Find the Stolen Book", "localeName": "找回失竊的書本", "desc": "偷書人似乎藏在這座廢棄的遺蹟中…", "elements": [], "type": 1 },
-  {
-    "id": 1003,
-    "name": "Deep Within the Temple of the Lion",
-    "localeName": "深入獅之殿",
-    "desc": "為了遏制風魔龍的災厄，騎士團的成員前往各地展開行動。與圖書管理員麗莎一同深入南風之獅的廟宇，阻止風魔龍取得其中的力量吧。",
-    "elements": [],
-    "type": 1
-  },
+  { "id": 1003, "name": "Deep Within the Temple of the Lion", "localeName": "深入獅之殿", "desc": "為了遏制風魔龍的災厄，騎士團的成員前往各地展開行動。與圖書管理員麗莎一同深入南風之獅的廟宇，阻止風魔龍取得其中的力量吧。", "elements": [], "type": 1 },
   { "id": 1008, "name": "Hunt Down the Abyss Mage", "localeName": "追擊深淵法師", "desc": "深淵法師消失在了這座地下遺蹟的深處。\n對這種壞心眼的傢伙，絕不能手下留情。", "elements": [], "type": 1 },
-  {
-    "id": 1009,
-    "name": "Retrieve the Holy Lyre der Himmel",
-    "localeName": "奪回天空之琴",
-    "desc": "蒙德的至寶、風神的力量可不能就這麼拱手讓人。\n打倒其中的衛兵，奪回天空之琴吧。",
-    "elements": [6, 3, 7, 1],
-    "type": 1
-  },
-  { "id": 1010, "name": "Secret Ingredient", "localeName": "一錘定音的食材", "desc": "秘境的深處，藏有香菱想要尋找的未知食材。\n突破沿途的障礙，一探究竟吧！", "elements": [6], "type": 1 },
-  {
-    "id": 1011,
-    "name": "The Great Adventurer Stanley",
-    "localeName": "大冒險家史丹利",
-    "desc": "受艾琳之托，尋找新人冒險家傑克。\n據說他正與「傳奇的大冒險家」史丹利結伴同行…",
-    "elements": [6, 3, 7, 1],
-    "type": 1
-  },
-  {
-    "id": 1012,
-    "name": "Another Detour",
-    "localeName": "再次偏航",
-    "desc": "看過筆記的七七，不知為何還是擅自跑進了遺蹟之中。\n聽說遺蹟之中很危險，快追上七七，並保護她的安全吧。",
-    "elements": [6, 3, 7, 1],
-    "type": 1
-  },
-  {
-    "id": 1102,
-    "name": "Karma-Heavy Cavern",
-    "localeName": "散發「業障」氣息的洞天",
-    "desc": "那些沾染了「邪氣」的怪物聚集於此，根據魈之前的所言，它們的異變正是受到魈身上的「業障」影響…",
-    "elements": [],
-    "type": 1
-  },
-  {
-    "id": 1103,
-    "name": "Cloud Retainer's Abode",
-    "localeName": "留雲借風洞天",
-    "desc": "#留雲借風真君所造的洞天，因真君不喜見人，常年封閉。不喜打理臥室也是人之常情，{F#妳}{M#你}真的要進去嗎？",
-    "elements": [6],
-    "type": 1
-  },
-  {
-    "id": 1106,
-    "name": "The Wonderful World Of Mr. Cyclops",
-    "localeName": "「獨眼小寶大世界」",
-    "desc": "雖然約定好了要帶領托克見識一下「玩具研究所」…\n最艱難的戰鬥，不是面對強大的敵人，而是守護無邪的童年啊。",
-    "elements": [5],
-    "type": 1
-  },
-  {
-    "id": 1107,
-    "name": "Of Mysteries and Salt",
-    "localeName": "鹽中之謎",
-    "desc": "封印終於被解開，「鹽之魔神」的遺物與故事就在深處。\n懷揣著迥然不同的目的，一行人向前進發…",
-    "elements": [2],
-    "type": 1
-  },
-  {
-    "id": 1108,
-    "name": "Cloud Retainer's Abode",
-    "localeName": "留雲借風洞天",
-    "desc": "#留雲借風真君所造的洞天，因真君不喜見人，常年封閉。不喜打理臥室也是人之常情，{F#妳}{M#你}真的要進去嗎？",
-    "elements": [2],
-    "type": 1
-  },
-  {
-    "id": 1110,
-    "name": "Enter the \"border\"",
-    "localeName": "步入「邊界」",
-    "desc": "#一切準備妥當，{F#妳}{M#你}即將在胡桃的帶領下邁入神秘的「邊界」。\n請謹記胡桃所言，無論在前方見到什麼，都不要大驚小怪。",
-    "elements": [6],
-    "type": 1
-  },
-  {
-    "id": 1111,
-    "name": "Deserted Ruins of Thermadon",
-    "localeName": "失落的忒耳摩冬遺蹟",
-    "desc": "#最近才被發現的地下遺蹟。雖然協會一再重申裡面充滿危險，但是{F#妳}{M#你}都是和班尼特一起冒險的人了，還會擔心這個嗎？",
-    "elements": [],
-    "type": 1
-  },
-  {
-    "id": 1112,
-    "name": "Deserted Ruins of Eya",
-    "localeName": "失落的埃伊亞遺蹟",
-    "desc": "#最近才被發現的地下遺蹟。雖然協會一再重申裡面充滿危險，但是{F#妳}{M#你}都是和班尼特一起冒險的人了，還會擔心這個嗎？",
-    "elements": [],
-    "type": 1
-  },
-  {
-    "id": 1113,
-    "name": "Abyssal Traces",
-    "localeName": "「深淵」的蹤跡",
-    "desc": "你們追隨著深淵的痕跡重新來到了這裡。是否能有機會直面深淵使徒呢？是否能去見證他所言說的深淵之福音，所做為之深淵的傳化？",
-    "elements": [7],
-    "type": 1
-  },
-  {
-    "id": 2000,
-    "name": "Lost Treasure of Arcadia",
-    "localeName": "阿卡狄亞的失落秘寶",
-    "desc": "佚失的寶藏只對擁有真正智慧的人展現自身的光彩。完成了阿卡狄亞之謎的一行人，終於來到了藏寶之地……",
-    "elements": [7, 3],
-    "type": 1
-  },
+  { "id": 1009, "name": "Retrieve the Holy Lyre der Himmel", "localeName": "奪回天空之琴", "desc": "蒙德的至寶、風神的力量可不能就這麼拱手讓人。\n打倒其中的衛兵，奪回天空之琴吧。", "elements": [], "type": 1 },
+  { "id": 1010, "name": "Secret Ingredient", "localeName": "一錘定音的食材", "desc": "秘境的深處，藏有香菱想要尋找的未知食材。\n突破沿途的障礙，一探究竟吧！", "elements": [], "type": 1 },
+  { "id": 1011, "name": "The Great Adventurer Stanley", "localeName": "大冒險家史丹利", "desc": "受艾琳之托，尋找新人冒險家傑克。\n據說他正與「傳奇的大冒險家」史丹利結伴同行…", "elements": [], "type": 1 },
+  { "id": 1012, "name": "Another Detour", "localeName": "再次偏航", "desc": "看過筆記的七七，不知為何還是擅自跑進了遺蹟之中。\n聽說遺蹟之中很危險，快追上七七，並保護她的安全吧。", "elements": [], "type": 1 },
+  { "id": 1102, "name": "Karma-Heavy Cavern", "localeName": "散發「業障」氣息的洞天", "desc": "那些沾染了「邪氣」的怪物聚集於此，根據魈之前的所言，它們的異變正是受到魈身上的「業障」影響…", "elements": [], "type": 1 },
+  { "id": 1103, "name": "Cloud Retainer's Abode", "localeName": "留雲借風洞天", "desc": "#留雲借風真君所造的洞天，因真君不喜見人，常年封閉。不喜打理臥室也是人之常情，{F#妳}{M#你}真的要進去嗎？", "elements": [], "type": 1 },
+  { "id": 1106, "name": "The Wonderful World Of Mr. Cyclops", "localeName": "「獨眼小寶大世界」", "desc": "雖然約定好了要帶領托克見識一下「玩具研究所」…\n最艱難的戰鬥，不是面對強大的敵人，而是守護無邪的童年啊。", "elements": [], "type": 1 },
+  { "id": 1107, "name": "Of Mysteries and Salt", "localeName": "鹽中之謎", "desc": "封印終於被解開，「鹽之魔神」的遺物與故事就在深處。\n懷揣著迥然不同的目的，一行人向前進發…", "elements": [], "type": 1 },
+  { "id": 1108, "name": "Cloud Retainer's Abode", "localeName": "留雲借風洞天", "desc": "#留雲借風真君所造的洞天，因真君不喜見人，常年封閉。不喜打理臥室也是人之常情，{F#妳}{M#你}真的要進去嗎？", "elements": [], "type": 1 },
+  { "id": 1110, "name": "Enter the \"border\"", "localeName": "步入「邊界」", "desc": "#一切準備妥當，{F#妳}{M#你}即將在胡桃的帶領下邁入神秘的「邊界」。\n請謹記胡桃所言，無論在前方見到什麼，都不要大驚小怪。", "elements": [], "type": 1 },
+  { "id": 1111, "name": "Deserted Ruins of Thermadon", "localeName": "失落的忒耳摩冬遺蹟", "desc": "#最近才被發現的地下遺蹟。雖然協會一再重申裡面充滿危險，但是{F#妳}{M#你}都是和班尼特一起冒險的人了，還會擔心這個嗎？", "elements": [], "type": 1 },
+  { "id": 1112, "name": "Deserted Ruins of Eya", "localeName": "失落的埃伊亞遺蹟", "desc": "#最近才被發現的地下遺蹟。雖然協會一再重申裡面充滿危險，但是{F#妳}{M#你}都是和班尼特一起冒險的人了，還會擔心這個嗎？", "elements": [], "type": 1 },
+  { "id": 1113, "name": "Abyssal Traces", "localeName": "「深淵」的蹤跡", "desc": "你們追隨著深淵的痕跡重新來到了這裡。是否能有機會直面深淵使徒呢？是否能去見證他所言說的深淵之福音，所做為之深淵的傳化？", "elements": [], "type": 1 },
+  { "id": 1114, "name": "Call of the Abyss", "localeName": "「深淵」的誘惑", "desc": "#深淵散發出不祥的誘惑，往往招來愚者與勇敢之人。\n不論{F#妳}{M#你}的造訪緣由為何，新的命運之絲已經開始編織。", "elements": [], "type": 1 },
+  { "id": 1115, "name": "Call of the Abyss", "localeName": "「深淵」的誘惑", "desc": "#深淵散發出不祥的誘惑，往往招來愚者與勇敢之人。\n不論{F#妳}{M#你}的造訪緣由為何，新的命運之絲已經開始編織。", "elements": [], "type": 1 },
+  { "id": 1116, "name": "Behind Enemy Lines", "localeName": "深入敵陣", "desc": "#在獲得了舒伯特的信任之後，他決定帶{F#妳}{M#你}去見「遠道而來的朋友」。\n愚人眾極有可能藏身於此處，做好萬全準備，深入並一探究竟吧。", "elements": [], "type": 1 },
+  { "id": 2000, "name": "Lost Treasure of Arcadia", "localeName": "阿卡狄亞的失落秘寶", "desc": "佚失的寶藏只對擁有真正智慧的人展現自身的光彩。完成了阿卡狄亞之謎的一行人，終於來到了藏寶之地……", "elements": [], "type": 1 },
   { "id": 2001, "name": "Storming Terror", "localeName": "暴風般狂嘯之龍", "desc": "追逐著被深淵法師蠱惑的特瓦林，你們即將迎來與它的正面對決。", "elements": [], "type": 1 },
-  {
-    "id": 2003,
-    "name": "Cipher for the Ciphertext",
-    "localeName": "解讀暗文的妙法",
-    "desc": "深淵法師寫的暗文，當然只有深淵法師能懂。\n想要解讀的話，最簡單的方法是找一位深淵法師，向它討教…",
-    "elements": [6],
-    "type": 1
-  },
-  {
-    "id": 2006,
-    "name": "The Reward for Courage is Flight",
-    "localeName": "飛翔是勇氣的獎勵",
-    "desc": "「怪鳥」潛伏於這座神殿深處，絕不能讓他再逍遙法外。\n就在實戰中驗證你學到的飛行技巧吧。",
-    "elements": [6],
-    "type": 1
-  },
-  {
-    "id": 2007,
-    "name": "The Reward for Courage is Flight",
-    "localeName": "飛翔是勇氣的獎勵",
-    "desc": "「怪鳥」潛伏於這座神殿深處，絕不能讓他再逍遙法外。\n就在實戰中驗證你學到的飛行技巧吧。",
-    "elements": [6],
-    "type": 1
-  },
-  {
-    "id": 2008,
-    "name": "Ascend: Clear the Ruins",
-    "localeName": "突破：清掃遺蹟中的魔物",
-    "desc": "某片龐大城墟的一角，如今被數量龐大的魔物占為據點，威脅著週遭的安全。\n掃滅所有魔物，向冒險家協會證明自己的勇氣吧。",
-    "elements": [6, 7, 1, 5],
-    "type": 1
-  },
-  {
-    "id": 2012,
-    "name": "Ascend: Clear the Ruins",
-    "localeName": "突破：清掃遺蹟中的魔物",
-    "desc": "某片龐大城墟的一角，如今被數量龐大的魔物占為據點，威脅著週遭的安全。\n掃滅所有魔物，向冒險家協會證明自己的勇氣吧。",
-    "elements": [6, 7, 1, 5],
-    "type": 1
-  },
-  {
-    "id": 2014,
-    "name": "Ascend: Clear the Ruins",
-    "localeName": "突破：清掃遺蹟中的魔物",
-    "desc": "某片龐大城墟的一角，如今被數量龐大的魔物占為據點，威脅著週遭的安全。\n掃滅所有魔物，向冒險家協會證明自己的勇氣吧。",
-    "elements": [6, 7, 1, 5],
-    "type": 1
-  },
-  {
-    "id": 2016,
-    "name": "Ascend: Clear the Ruins",
-    "localeName": "突破：清掃遺蹟中的魔物",
-    "desc": "某片龐大城墟的一角，如今被數量龐大的魔物占為據點，威脅著週遭的安全。\n掃滅所有魔物，向冒險家協會證明自己的勇氣吧。",
-    "elements": [6, 7, 1, 5],
-    "type": 1
-  },
-  {
-    "id": 2020,
-    "name": "Memories: Storming Terror I",
-    "localeName": "追憶：暴風般狂嘯之龍 I",
-    "desc": "如今風魔龍的危機已經解除，蒙德的天空終於放晴。\n但面對特瓦林，與暴風共舞的記憶再次鮮明地浮現。\n在回憶中重新演練這場戰鬥，或許能有新的收穫…",
-    "elements": [],
-    "type": 4
-  },
-  {
-    "id": 2021,
-    "name": "Memories: Storming Terror II",
-    "localeName": "追憶：暴風般狂嘯之龍 II",
-    "desc": "如今風魔龍的危機已經解除，蒙德的天空終於放晴。\n但面對特瓦林，與暴風共舞的記憶再次鮮明地浮現。\n在回憶中重新演練這場戰鬥，或許能有新的收穫…",
-    "elements": [],
-    "type": 4
-  },
-  {
-    "id": 2022,
-    "name": "Memories: Storming Terror III",
-    "localeName": "追憶：暴風般狂嘯之龍 III",
-    "desc": "如今風魔龍的危機已經解除，蒙德的天空終於放晴。\n但面對特瓦林，與暴風共舞的記憶再次鮮明地浮現。\n在回憶中重新演練這場戰鬥，或許能有新的收穫…",
-    "elements": [],
-    "type": 4
-  },
-  {
-    "id": 2023,
-    "name": "Memories: Storming Terror IV",
-    "localeName": "追憶：暴風般狂嘯之龍 IV",
-    "desc": "如今風魔龍的危機已經解除，蒙德的天空終於放晴。\n但面對特瓦林，與暴風共舞的記憶再次鮮明地浮現。\n在回憶中重新演練這場戰鬥，或許能有新的收穫…",
-    "elements": [],
-    "type": 4
-  },
-  {
-    "id": 2024,
-    "name": "Memories: Storming Terror V",
-    "localeName": "追憶：暴風般狂嘯之龍 V",
-    "desc": "如今風魔龍的危機已經解除，蒙德的天空終於放晴。\n但面對特瓦林，與暴風共舞的記憶再次鮮明地浮現。\n在回憶中重新演練這場戰鬥，或許能有新的收穫…",
-    "elements": [],
-    "type": 4
-  },
-  {
-    "id": 2025,
-    "name": "Memories: Storming Terror VI",
-    "localeName": "追憶：暴風般狂嘯之龍 Ⅵ",
-    "desc": "如今風魔龍的危機已經解除，蒙德的天空終於放晴。\n但面對特瓦林，與暴風共舞的記憶再次鮮明地浮現。\n在回憶中重新演練這場戰鬥，或許能有新的收穫…",
-    "elements": [],
-    "type": 4
-  },
-  {
-    "id": 3004,
-    "name": "Explore: Fallen Fortress",
-    "localeName": "探索：失陷的城塞",
-    "desc": "在這座遺蹟的深處，發現了魔物占據的古城塞。為了探索其中的祕寶，向城塞的深處前進吧。",
-    "elements": [6, 3],
-    "type": 2
-  },
-  {
-    "id": 4007,
-    "name": "Trial: Scorching Fire and Raging Lightning",
-    "localeName": "試煉：烈火與雷電",
-    "desc": "在這座遺蹟中發現了如今覆滅的古文明的試煉場之一。要通過試煉，就必須掌握火與雷的力量，猛火迅雷般地打倒敵人。",
-    "elements": [6, 3],
-    "type": 2
-  },
-  {
-    "id": 4010,
-    "name": "Explore: Windy Cliff",
-    "localeName": "探索：風湧的高崖",
-    "desc": "雖然在大地深處，這座廢都中卻湧動著狂風。\n為了探尋其中的祕寶，向遺蹟的深處前進吧。",
-    "elements": [6],
-    "type": 2
-  },
-  { "id": 4011, "name": "Investigate: Secret Hideout", "localeName": "調查：神秘的藏身處", "desc": "這座遺蹟中有魔物的活動痕跡。\n為了蒙德的安寧，絕不能對此坐視不管。", "elements": [3], "type": 2 },
-  {
-    "id": 4016,
-    "name": "Explore: Travels of the Moonlit Venturer",
-    "localeName": "尋訪·水月俠行記",
-    "desc": "迷宮之下竟然是一片水月洞天、方壺寶地。尋找此處隱藏的秘寶吧。",
-    "elements": [2, 1],
-    "type": 2
-  },
-  {
-    "id": 4018,
-    "name": "Explore: Tarry Among the Peach Blossoms",
-    "localeName": "尋訪·桃源逗留記",
-    "desc": "此處曾是某人夢想中的桃源之地。探索此處，尋找曾經桃源的富足，再次賜予此處和平吧。",
-    "elements": [2],
-    "type": 2
-  },
-  {
-    "id": 4020,
-    "name": "Explore: Voyage to the Sanguine Sky",
-    "localeName": "尋訪·霞蔚征濤記",
-    "desc": "此處乃雲海洞天。舊主歸終研究機關之學時，收納了這幾件古舊邪物。仙人們則造洞天收納。",
-    "elements": [6, 3, 7, 1],
-    "type": 2
-  },
-  {
-    "id": 4021,
-    "name": "Explore: Lucky Encounter in the Clouds",
-    "localeName": "尋訪·雲蒸奇遇記",
-    "desc": "命中若有奇遇，才能來到此雲海蒸騰的仙境。外面看起來幽深，內裡卻並不安全。",
-    "elements": [2, 7],
-    "type": 2
-  },
+  { "id": 2003, "name": "Cipher for the Ciphertext", "localeName": "解讀暗文的妙法", "desc": "深淵法師寫的暗文，當然只有深淵法師能懂。\n想要解讀的話，最簡單的方法是找一位深淵法師，向它討教…", "elements": [], "type": 1 },
+  { "id": 2006, "name": "The Reward for Courage is Flight", "localeName": "飛翔是勇氣的獎勵", "desc": "「怪鳥」潛伏於這座神殿深處，絕不能讓他再逍遙法外。\n就在實戰中驗證你學到的飛行技巧吧。", "elements": [], "type": 1 },
+  { "id": 2007, "name": "The Reward for Courage is Flight", "localeName": "飛翔是勇氣的獎勵", "desc": "「怪鳥」潛伏於這座神殿深處，絕不能讓他再逍遙法外。\n就在實戰中驗證你學到的飛行技巧吧。", "elements": [], "type": 1 },
+  { "id": 2008, "name": "Ascend: Clear the Ruins", "localeName": "突破：清掃遺蹟中的魔物", "desc": "某片龐大城墟的一角，如今被數量龐大的魔物占為據點，威脅著週遭的安全。\n掃滅所有魔物，向冒險家協會證明自己的勇氣吧。", "elements": [], "type": 1 },
+  { "id": 2012, "name": "Ascend: Clear the Ruins", "localeName": "突破：清掃遺蹟中的魔物", "desc": "某片龐大城墟的一角，如今被數量龐大的魔物占為據點，威脅著週遭的安全。\n掃滅所有魔物，向冒險家協會證明自己的勇氣吧。", "elements": [], "type": 1 },
+  { "id": 2014, "name": "Ascend: Clear the Ruins", "localeName": "突破：清掃遺蹟中的魔物", "desc": "某片龐大城墟的一角，如今被數量龐大的魔物占為據點，威脅著週遭的安全。\n掃滅所有魔物，向冒險家協會證明自己的勇氣吧。", "elements": [], "type": 1 },
+  { "id": 2016, "name": "Ascend: Clear the Ruins", "localeName": "突破：清掃遺蹟中的魔物", "desc": "某片龐大城墟的一角，如今被數量龐大的魔物占為據點，威脅著週遭的安全。\n掃滅所有魔物，向冒險家協會證明自己的勇氣吧。", "elements": [], "type": 1 },
+  { "id": 2020, "name": "Memories: Storming Terror I", "localeName": "追憶：暴風般狂嘯之龍 I", "desc": "如今風魔龍的危機已經解除，蒙德的天空終於放晴。\n但面對特瓦林，與暴風共舞的記憶再次鮮明地浮現。\n在回憶中重新演練這場戰鬥，或許能有新的收穫…", "elements": [], "type": 4 },
+  { "id": 2021, "name": "Memories: Storming Terror II", "localeName": "追憶：暴風般狂嘯之龍 II", "desc": "如今風魔龍的危機已經解除，蒙德的天空終於放晴。\n但面對特瓦林，與暴風共舞的記憶再次鮮明地浮現。\n在回憶中重新演練這場戰鬥，或許能有新的收穫…", "elements": [], "type": 4 },
+  { "id": 2022, "name": "Memories: Storming Terror III", "localeName": "追憶：暴風般狂嘯之龍 III", "desc": "如今風魔龍的危機已經解除，蒙德的天空終於放晴。\n但面對特瓦林，與暴風共舞的記憶再次鮮明地浮現。\n在回憶中重新演練這場戰鬥，或許能有新的收穫…", "elements": [], "type": 4 },
+  { "id": 2023, "name": "Memories: Storming Terror IV", "localeName": "追憶：暴風般狂嘯之龍 IV", "desc": "如今風魔龍的危機已經解除，蒙德的天空終於放晴。\n但面對特瓦林，與暴風共舞的記憶再次鮮明地浮現。\n在回憶中重新演練這場戰鬥，或許能有新的收穫…", "elements": [], "type": 4 },
+  { "id": 2024, "name": "Memories: Storming Terror V", "localeName": "追憶：暴風般狂嘯之龍 V", "desc": "如今風魔龍的危機已經解除，蒙德的天空終於放晴。\n但面對特瓦林，與暴風共舞的記憶再次鮮明地浮現。\n在回憶中重新演練這場戰鬥，或許能有新的收穫…", "elements": [], "type": 4 },
+  { "id": 2025, "name": "Memories: Storming Terror VI", "localeName": "追憶：暴風般狂嘯之龍 Ⅵ", "desc": "如今風魔龍的危機已經解除，蒙德的天空終於放晴。\n但面對特瓦林，與暴風共舞的記憶再次鮮明地浮現。\n在回憶中重新演練這場戰鬥，或許能有新的收穫…", "elements": [], "type": 4 },
+  { "id": 2101, "name": "1x Stage Test", "localeName": "lx關卡測試", "desc": "", "elements": [], "type": 2 },
+  { "id": 2102, "name": "Event Stage Test", "localeName": "活動地板測試關卡", "desc": "", "elements": [], "type": 2 },
+  { "id": 3004, "name": "Explore: Fallen Fortress", "localeName": "探索：失陷的城塞", "desc": "在這座遺蹟的深處，發現了魔物占據的古城塞。為了探索其中的祕寶，向城塞的深處前進吧。", "elements": [], "type": 2 },
+  { "id": 4007, "name": "Trial: Scorching Fire and Raging Lightning", "localeName": "試煉：烈火與雷電", "desc": "在這座遺蹟中發現了如今覆滅的古文明的試煉場之一。要通過試煉，就必須掌握火與雷的力量，猛火迅雷般地打倒敵人。", "elements": [], "type": 2 },
+  { "id": 4010, "name": "Explore: Windy Cliff", "localeName": "探索：風湧的高崖", "desc": "雖然在大地深處，這座廢都中卻湧動著狂風。\n為了探尋其中的祕寶，向遺蹟的深處前進吧。", "elements": [], "type": 2 },
+  { "id": 4011, "name": "Investigate: Secret Hideout", "localeName": "調查：神秘的藏身處", "desc": "這座遺蹟中有魔物的活動痕跡。\n為了蒙德的安寧，絕不能對此坐視不管。", "elements": [], "type": 2 },
+  { "id": 4016, "name": "Explore: Travels of the Moonlit Venturer", "localeName": "尋訪·水月俠行記", "desc": "迷宮之下竟然是一片水月洞天、方壺寶地。尋找此處隱藏的秘寶吧。", "elements": [], "type": 2 },
+  { "id": 4018, "name": "Explore: Tarry Among the Peach Blossoms", "localeName": "尋訪·桃源逗留記", "desc": "此處曾是某人夢想中的桃源之地。探索此處，尋找曾經桃源的富足，再次賜予此處和平吧。", "elements": [], "type": 2 },
+  { "id": 4020, "name": "Explore: Voyage to the Sanguine Sky", "localeName": "尋訪·霞蔚征濤記", "desc": "此處乃雲海洞天。舊主歸終研究機關之學時，收納了這幾件古舊邪物。仙人們則造洞天收納。", "elements": [], "type": 2 },
+  { "id": 4021, "name": "Explore: Lucky Encounter in the Clouds", "localeName": "尋訪·雲蒸奇遇記", "desc": "命中若有奇遇，才能來到此雲海蒸騰的仙境。外面看起來幽深，內裡卻並不安全。", "elements": [], "type": 2 },
   { "id": 4022, "name": "Elemental Trial: Vaporize", "localeName": "元素試煉：蒸發", "desc": "透過實戰掌握水元素與火元素的蒸發反應。", "elements": [], "type": 7 },
   { "id": 4023, "name": "Elemental Trial: Melt", "localeName": "元素試煉：融化", "desc": "透過實戰掌握火元素與冰元素的融化反應。", "elements": [], "type": 7 },
   { "id": 4024, "name": "Elemental Trial: Overloaded", "localeName": "元素試煉：超載", "desc": "透過實戰掌握火元素與雷元素的超載反應。", "elements": [], "type": 7 },
@@ -345,879 +109,181 @@
   { "id": 4028, "name": "Elemental Trial: Crystallize", "localeName": "元素試煉：結晶", "desc": "透過實戰掌握岩元素接觸水、火、冰、雷元素的結晶反應。", "elements": [], "type": 7 },
   { "id": 4029, "name": "Elemental Trial: Swirl", "localeName": "元素試煉：擴散", "desc": "透過實戰掌握風元素接觸水、火、冰、雷元素的擴散反應。", "elements": [], "type": 7 },
   {
-    "id": 4200,
-    "name": "Domain of Mastery: Biting Frost I",
-    "localeName": "精通秘境：刺骨之霜 I",
-    "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [3, 6],
-    "type": 8
-  },
-  {
-    "id": 4201,
-    "name": "Domain of Mastery: Biting Frost II",
-    "localeName": "精通秘境：刺骨之霜 II",
-    "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [3, 6],
-    "type": 8
-  },
-  {
-    "id": 4202,
-    "name": "Domain of Mastery: Biting Frost III",
-    "localeName": "精通秘境：刺骨之霜 III",
-    "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [3, 6],
-    "type": 8
-  },
-  {
-    "id": 4203,
-    "name": "Domain of Mastery: Biting Frost IV",
-    "localeName": "精通秘境：刺骨之霜 IV",
-    "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [3, 6],
-    "type": 8
-  },
-  {
-    "id": 4210,
-    "name": "Domain of Mastery: Frosted Altar I",
-    "localeName": "精通秘境：霜凝祭壇 I",
-    "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [3, 6],
-    "type": 8
-  },
-  {
-    "id": 4211,
-    "name": "Domain of Mastery: Frosted Altar II",
-    "localeName": "精通秘境：霜凝祭壇 II",
-    "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [3, 6],
-    "type": 8
-  },
-  {
-    "id": 4212,
-    "name": "Domain of Mastery: Frosted Altar III",
-    "localeName": "精通秘境：霜凝祭壇 III",
-    "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [3, 6],
-    "type": 8
-  },
-  {
-    "id": 4213,
-    "name": "Domain of Mastery: Frosted Altar IV",
-    "localeName": "精通秘境：霜凝祭壇 IV",
-    "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [3, 6],
-    "type": 8
-  },
-  {
-    "id": 4220,
-    "name": "Domain of Mastery: Frozen Abyss I",
-    "localeName": "精通秘境：冰封廢淵 I",
-    "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [3, 6],
-    "type": 8
-  },
-  {
-    "id": 4221,
-    "name": "Domain of Mastery: Frozen Abyss II",
-    "localeName": "精通秘境：冰封廢淵 II",
-    "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [3, 6],
-    "type": 8
-  },
-  {
-    "id": 4222,
-    "name": "Domain of Mastery: Frozen Abyss III",
-    "localeName": "精通秘境：冰封廢淵 III",
-    "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [3, 6],
-    "type": 8
-  },
-  {
-    "id": 4223,
-    "name": "Domain of Mastery: Frozen Abyss IV",
-    "localeName": "精通秘境：冰封廢淵 IV",
-    "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [3, 6],
-    "type": 8
-  },
-  {
-    "id": 4230,
-    "name": "Domain of Mastery: Realm of Slumber I",
-    "localeName": "精通秘境：沉睡之國 I",
-    "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [3, 6],
-    "type": 8
-  },
-  {
-    "id": 4231,
-    "name": "Domain of Mastery: Realm of Slumber II",
-    "localeName": "精通秘境：沉睡之國 II",
-    "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [3, 6],
-    "type": 8
-  },
-  {
-    "id": 4232,
-    "name": "Domain of Mastery: Realm of Slumber III",
-    "localeName": "精通秘境：沉睡之國 III",
-    "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [3, 6],
-    "type": 8
-  },
-  {
-    "id": 4233,
-    "name": "Domain of Mastery: Realm of Slumber IV",
-    "localeName": "精通秘境：沉睡之國 IV",
-    "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [3, 6],
-    "type": 8
-  },
-  {
-    "id": 4300,
-    "name": "Domain of Forgery: Altar of the Falls I",
-    "localeName": "煉武秘境：深瀑祭壇 I",
-    "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [7, 6, 3],
-    "type": 8
-  },
-  {
-    "id": 4301,
-    "name": "Domain of Forgery: Altar of the Falls II",
-    "localeName": "煉武秘境：深瀑祭壇 II",
-    "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [7, 6, 3],
-    "type": 8
-  },
-  {
-    "id": 4302,
-    "name": "Domain of Forgery: Altar of the Falls III",
-    "localeName": "煉武秘境：深瀑祭壇 III",
-    "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [7, 6, 3],
-    "type": 8
-  },
-  {
-    "id": 4303,
-    "name": "Domain of Forgery: Altar of the Falls IV",
-    "localeName": "煉武秘境：深瀑祭壇 IV",
-    "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [7, 6, 3],
-    "type": 8
-  },
-  {
-    "id": 4310,
-    "name": "Domain of Forgery: City of Reflections I",
-    "localeName": "煉武秘境：水光之城 I",
-    "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [7, 6, 3],
-    "type": 8
-  },
-  {
-    "id": 4311,
-    "name": "Domain of Forgery: City of Reflections II",
-    "localeName": "煉武秘境：水光之城 II",
-    "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [7, 6, 3],
-    "type": 8
-  },
-  {
-    "id": 4312,
-    "name": "Domain of Forgery: City of Reflections III",
-    "localeName": "煉武秘境：水光之城 III",
-    "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [7, 6, 3],
-    "type": 8
-  },
-  {
-    "id": 4313,
-    "name": "Domain of Forgery: City of Reflections IV",
-    "localeName": "煉武秘境：水光之城 IV",
-    "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [7, 6, 3],
-    "type": 8
-  },
-  {
-    "id": 4320,
-    "name": "Domain of Forgery: Submerged Valley I",
-    "localeName": "煉武秘境：深沒之谷 I",
-    "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [7, 6, 3],
-    "type": 8
-  },
-  {
-    "id": 4321,
-    "name": "Domain of Forgery: Submerged Valley II",
-    "localeName": "煉武秘境：深沒之谷 II",
-    "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [7, 6, 3],
-    "type": 8
-  },
-  {
-    "id": 4322,
-    "name": "Domain of Forgery: Submerged Valley III",
-    "localeName": "煉武秘境：深沒之谷 III",
-    "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [7, 6, 3],
-    "type": 8
-  },
-  {
-    "id": 4323,
-    "name": "Domain of Forgery: Submerged Valley IV",
-    "localeName": "煉武秘境：深沒之谷 IV",
-    "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [7, 6, 3],
-    "type": 8
-  },
-  {
-    "id": 4330,
-    "name": "Domain of Forgery: Ruins of Thirsting Capital I",
-    "localeName": "煉武秘境：渴水的廢都 I",
-    "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [7, 6, 3],
-    "type": 8
-  },
-  {
-    "id": 4331,
-    "name": "Domain of Forgery: Ruins of Thirsting Capital II",
-    "localeName": "煉武秘境：渴水的廢都 II",
-    "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [7, 6, 3],
-    "type": 8
-  },
-  {
-    "id": 4332,
-    "name": "Domain of Forgery: Ruins of Thirsting Capital III",
-    "localeName": "煉武秘境：渴水的廢都 III",
-    "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [7, 6, 3],
-    "type": 8
-  },
-  {
-    "id": 4333,
-    "name": "Domain of Forgery: Ruins of Thirsting Capital IV",
-    "localeName": "煉武秘境：渴水的廢都 IV",
-    "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [7, 6, 3],
-    "type": 8
-  },
-  {
-    "id": 5001,
-    "name": "Domain of Blessing: Fires of Purification I",
-    "localeName": "祝聖秘境：淨化之炎 I",
-    "desc": "這座遠古祝聖祭壇中，聚集著懼怕火元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。",
-    "elements": [6],
-    "type": 8
-  },
-  {
-    "id": 5002,
-    "name": "Domain of Blessing: Fires of Purification II",
-    "localeName": "祝聖秘境：淨化之炎 II",
-    "desc": "這座遠古祝聖祭壇中，聚集著懼怕火元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。",
-    "elements": [6],
-    "type": 8
-  },
-  {
-    "id": 5003,
-    "name": "Domain of Blessing: Fires of Purification III",
-    "localeName": "祝聖秘境：淨化之炎 III",
-    "desc": "這座遠古祝聖祭壇中，聚集著懼怕火元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。",
-    "elements": [6],
-    "type": 8
-  },
-  {
-    "id": 5004,
-    "name": "Domain of Blessing: Fires of Purification IV",
-    "localeName": "祝聖秘境：淨化之炎 IV",
-    "desc": "這座遠古祝聖祭壇中，聚集著懼怕火元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。",
-    "elements": [6],
-    "type": 8
-  },
-  {
-    "id": 5005,
-    "name": "Domain of Blessing: Fires of Purification V",
-    "localeName": "祝聖秘境：淨化之炎 V",
-    "desc": "這座遠古祝聖祭壇中，聚集著懼怕火元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。",
-    "elements": [6],
-    "type": 8
-  },
-  {
-    "id": 5006,
-    "name": "Domain of Blessing: Fires of Purification VI",
-    "localeName": "祝聖秘境：淨化之炎 VI",
-    "desc": "這座遠古祝聖祭壇中，聚集著懼怕火元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。",
-    "elements": [6],
-    "type": 8
-  },
-  {
-    "id": 5008,
-    "name": "Domain of Blessing: Dance of Steel I",
-    "localeName": "祝聖秘境：鋼鐵之舞 I",
-    "desc": "這座遠古祝聖祭壇中，聚集著畏懼純粹武力的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。",
+    "id": 4030,
+    "name": "Showdown: Ancient Rock Drake I",
+    "localeName": "演武：古岩之若龍·其之一",
+    "desc": "挑戰會不斷改變元素屬性的「復甦的古岩龍蜥」。\n即使在悠久的夢境中，也不斷汲取地脈中奔騰的能量，或許是為了有一天，再度見到陽光時，能夠釋放長久積蓄的憤怒，讓岩盤迸裂、樓房倒塌吧。",
     "elements": [],
-    "type": 8
+    "type": 9
   },
   {
-    "id": 5009,
-    "name": "Domain of Blessing: Dance of Steel II",
-    "localeName": "祝聖秘境：鋼鐵之舞 II",
-    "desc": "這座遠古祝聖祭壇中，聚集著畏懼純粹武力的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。",
+    "id": 4031,
+    "name": "Showdown: Ancient Rock Drake II",
+    "localeName": "演武：古岩之若龍·其之二",
+    "desc": "挑戰會不斷改變元素屬性的「復甦的古岩龍蜥」。\n即使在悠久的夢境中，也不斷汲取地脈中奔騰的能量，或許是為了有一天，再度見到陽光時，能夠釋放長久積蓄的憤怒，讓岩盤迸裂、樓房倒塌吧。",
     "elements": [],
-    "type": 8
+    "type": 9
   },
   {
-    "id": 5010,
-    "name": "Domain of Blessing: Dance of Steel III",
-    "localeName": "祝聖秘境：鋼鐵之舞 III",
-    "desc": "這座遠古祝聖祭壇中，聚集著畏懼純粹武力的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。",
+    "id": 4032,
+    "name": "Battlesong: Ingenious Impermanence I",
+    "localeName": "鬥劇：機巧無常對劍·其之一",
+    "desc": "挑戰魔偶劍鬼對劍：「孤風」與「霜馳」。\n迷失在無盡的武煉中的魔偶對劍，終於在世界的深邃之處與無畏的風來之人邂逅。\n以機關的身體、機關的心，或許能活動千年之久；但值得酣戰的對手、華麗的鬥劇，又不知能有幾人、幾回呢…",
     "elements": [],
-    "type": 8
+    "type": 9
   },
   {
-    "id": 5011,
-    "name": "Domain of Blessing: Dance of Steel IV",
-    "localeName": "祝聖秘境：鋼鐵之舞 IV",
-    "desc": "這座遠古祝聖祭壇中，聚集著畏懼純粹武力的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。",
+    "id": 4033,
+    "name": "Battlesong: Ingenious Impermanence II",
+    "localeName": "鬥劇：機巧無常對劍·其之二",
+    "desc": "挑戰魔偶劍鬼對劍：「孤風」與「霜馳」。\n迷失在無盡的武煉中的魔偶對劍，終於在世界的深邃之處與無畏的風來之人邂逅。\n以機關的身體、機關的心，或許能活動千年之久；但值得酣戰的對手、華麗的鬥劇，又不知能有幾人、幾回呢…",
     "elements": [],
-    "type": 8
+    "type": 9
   },
-  {
-    "id": 5012,
-    "name": "Domain of Blessing: Dance of Steel V",
-    "localeName": "祝聖秘境：鋼鐵之舞 V",
-    "desc": "這座遠古祝聖祭壇中，聚集著畏懼純粹武力的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。",
-    "elements": [],
-    "type": 8
-  },
-  {
-    "id": 5100,
-    "name": "Domain of Blessing: Spring I",
-    "localeName": "祝聖秘境：驚蟄 I",
-    "desc": "這座遠古地脈祭壇中，聚集著覬覦著其中地脈鎮石的魔物。\n若能驅使雷元素的力量粉碎魔物，保護鎮石不被破壞，或許能獲得珍貴的聖遺物。",
-    "elements": [3],
-    "type": 8
-  },
-  {
-    "id": 5101,
-    "name": "Domain of Blessing: Spring II",
-    "localeName": "祝聖秘境：驚蟄 II",
-    "desc": "這座遠古地脈祭壇中，聚集著覬覦著其中地脈鎮石的魔物。\n若能驅使雷元素的力量粉碎魔物，保護鎮石不被破壞，或許能獲得珍貴的聖遺物。",
-    "elements": [3],
-    "type": 8
-  },
-  {
-    "id": 5102,
-    "name": "Domain of Blessing: Spring III",
-    "localeName": "祝聖秘境：驚蟄 III",
-    "desc": "這座遠古地脈祭壇中，聚集著覬覦著其中地脈鎮石的魔物。\n若能驅使雷元素的力量粉碎魔物，保護鎮石不被破壞，或許能獲得珍貴的聖遺物。",
-    "elements": [3],
-    "type": 8
-  },
-  {
-    "id": 5103,
-    "name": "Domain of Blessing: Spring IV",
-    "localeName": "祝聖秘境：驚蟄 IV",
-    "desc": "這座遠古地脈祭壇中，聚集著覬覦著其中地脈鎮石的魔物。\n若能驅使雷元素的力量粉碎魔物，保護鎮石不被破壞，或許能獲得珍貴的聖遺物。",
-    "elements": [3],
-    "type": 8
-  },
-  {
-    "id": 5104,
-    "name": "Domain of Blessing: Spring V",
-    "localeName": "祝聖秘境：驚蟄 V",
-    "desc": "這座遠古祝聖祭壇中，聚集著懼怕雷元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。",
-    "elements": [3],
-    "type": 8
-  },
-  {
-    "id": 5105,
-    "name": "Domain of Blessing: Spring VI",
-    "localeName": "祝聖秘境：驚蟄 VI",
-    "desc": "這座遠古祝聖祭壇中，聚集著懼怕雷元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。",
-    "elements": [3],
-    "type": 8
-  },
-  {
-    "id": 5107,
-    "name": "Domain of Blessing: Frost I",
-    "localeName": "祝聖秘境：寒霜 I",
-    "desc": "這座遠古地脈祭壇中，聚集著覬覦著其中地脈鎮石的魔物。\n若能驅使冰元素的力量粉碎魔物，保護鎮石不被破壞，或許能獲得珍貴的聖遺物。",
-    "elements": [7],
-    "type": 8
-  },
-  {
-    "id": 5108,
-    "name": "Domain of Blessing: Frost II",
-    "localeName": "祝聖秘境：寒霜 II",
-    "desc": "這座遠古祝聖祭壇中，聚集著懼怕冰元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。",
-    "elements": [7],
-    "type": 8
-  },
-  {
-    "id": 5109,
-    "name": "Domain of Blessing: Frost III",
-    "localeName": "祝聖秘境：寒霜 III",
-    "desc": "這座遠古祝聖祭壇中，聚集著懼怕冰元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。",
-    "elements": [7],
-    "type": 8
-  },
-  {
-    "id": 5110,
-    "name": "Domain of Blessing: Frost IV",
-    "localeName": "祝聖秘境：寒霜 IV",
-    "desc": "這座遠古祝聖祭壇中，聚集著懼怕冰元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。",
-    "elements": [7],
-    "type": 8
-  },
-  {
-    "id": 5112,
-    "name": "Domain of Blessing: Stone Chamber I",
-    "localeName": "祝聖秘境：岩牢 I",
-    "desc": "這座遠古祝聖祭壇中，聚集著懼怕岩元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。",
-    "elements": [2],
-    "type": 8
-  },
-  {
-    "id": 5113,
-    "name": "Domain of Blessing: Stone Chamber II",
-    "localeName": "祝聖秘境：岩牢 II",
-    "desc": "這座遠古祝聖祭壇中，聚集著懼怕岩元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。",
-    "elements": [2],
-    "type": 8
-  },
-  {
-    "id": 5114,
-    "name": "Domain of Blessing: Stone Chamber III",
-    "localeName": "祝聖秘境：岩牢 III",
-    "desc": "這座遠古祝聖祭壇中，聚集著懼怕岩元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。",
-    "elements": [2],
-    "type": 8
-  },
-  {
-    "id": 5120,
-    "name": "Domain of Blessing: Elegaic Rime I",
-    "localeName": "祝聖秘境：告死之霜 I",
-    "desc": "這裡原本是靠近天空的試煉場所，被天降的寒天之釘埋入山體。\n湧入的寒氣造就了這裡獨特的環境。要通過試煉，就必須克服其中的嚴寒…",
-    "elements": [6, 3, 2, 1],
-    "type": 8
-  },
-  {
-    "id": 5121,
-    "name": "Domain of Blessing: Elegaic Rime II",
-    "localeName": "祝聖秘境：告死之霜 II",
-    "desc": "這裡原本是靠近天空的試煉場所，被天降的寒天之釘埋入山體。\n湧入的寒氣造就了這裡獨特的環境。要通過試煉，就必須克服其中的嚴寒…",
-    "elements": [6, 3, 2, 1],
-    "type": 8
-  },
-  {
-    "id": 5122,
-    "name": "Domain of Blessing: Elegaic Rime III",
-    "localeName": "祝聖秘境：告死之霜 III",
-    "desc": "這裡原本是靠近天空的試煉場所，被天降的寒天之釘埋入山體。\n湧入的寒氣造就了這裡獨特的環境。要通過試煉，就必須克服其中的嚴寒…",
-    "elements": [6, 3, 2, 1],
-    "type": 8
-  },
-  {
-    "id": 5123,
-    "name": "Domain of Blessing: Elegaic Rime IV",
-    "localeName": "祝聖秘境：告死之霜 IV",
-    "desc": "這裡原本是靠近天空的試煉場所，被天降的寒天之釘埋入山體。\n湧入的寒氣造就了這裡獨特的環境。要通過試煉，就必須克服其中的嚴寒…",
-    "elements": [6, 3, 2, 1],
-    "type": 8
-  },
-  {
-    "id": 5210,
-    "name": "Domain of Forgery: Electrostatic Field I",
-    "localeName": "煉武秘境：靜電場域 I",
-    "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [6, 7],
-    "type": 8
-  },
-  {
-    "id": 5211,
-    "name": "Domain of Forgery: Electrostatic Field II",
-    "localeName": "煉武秘境：靜電場域 II",
-    "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [6, 7],
-    "type": 8
-  },
-  {
-    "id": 5212,
-    "name": "Domain of Forgery: Electrostatic Field III",
-    "localeName": "煉武秘境：靜電場域 III",
-    "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [6, 7],
-    "type": 8
-  },
-  {
-    "id": 5213,
-    "name": "Domain of Forgery: Electrostatic Field IV",
-    "localeName": "煉武秘境：靜電場域 IV",
-    "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [6, 7],
-    "type": 8
-  },
-  {
-    "id": 5214,
-    "name": "Domain of Forgery: Thundercloud Altar I",
-    "localeName": "煉武秘境：雷雲祭壇 I",
-    "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [6, 7],
-    "type": 8
-  },
-  {
-    "id": 5215,
-    "name": "Domain of Forgery: Thundercloud Altar II",
-    "localeName": "煉武秘境：雷雲祭壇 II",
-    "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [6, 7],
-    "type": 8
-  },
-  {
-    "id": 5216,
-    "name": "Domain of Forgery: Thundercloud Altar III",
-    "localeName": "煉武秘境：雷雲祭壇 III",
-    "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [6, 7],
-    "type": 8
-  },
-  {
-    "id": 5217,
-    "name": "Domain of Forgery: Thundercloud Altar IV",
-    "localeName": "煉武秘境：雷雲祭壇 IV",
-    "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [6, 7],
-    "type": 8
-  },
-  {
-    "id": 5218,
-    "name": "Domain of Forgery: Thundering Ruins I",
-    "localeName": "煉武秘境：鳴雷城墟 I",
-    "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [6, 7],
-    "type": 8
-  },
-  {
-    "id": 5219,
-    "name": "Domain of Forgery: Thundering Ruins II",
-    "localeName": "煉武秘境：鳴雷城墟 II",
-    "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [6, 7],
-    "type": 8
-  },
-  {
-    "id": 5220,
-    "name": "Domain of Forgery: Thundering Ruins III",
-    "localeName": "煉武秘境：鳴雷城墟 III",
-    "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [6, 7],
-    "type": 8
-  },
-  {
-    "id": 5221,
-    "name": "Domain of Forgery: Thundering Ruins IV",
-    "localeName": "煉武秘境：鳴雷城墟 IV",
-    "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [6, 7],
-    "type": 8
-  },
-  {
-    "id": 5222,
-    "name": "Domain of Forgery: Trial Grounds of Thunder I",
-    "localeName": "煉武秘境：古雷試煉場 I",
-    "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [6, 7],
-    "type": 8
-  },
-  {
-    "id": 5223,
-    "name": "Domain of Forgery: Trial Grounds of Thunder II",
-    "localeName": "煉武秘境：古雷試煉場 II",
-    "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [6, 7],
-    "type": 8
-  },
-  {
-    "id": 5224,
-    "name": "Domain of Forgery: Trial Grounds of Thunder III",
-    "localeName": "煉武秘境：古雷試煉場 III",
-    "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [6, 7],
-    "type": 8
-  },
-  {
-    "id": 5225,
-    "name": "Domain of Forgery: Trial Grounds of Thunder IV",
-    "localeName": "煉武秘境：古雷試煉場 IV",
-    "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。",
-    "elements": [6, 7],
-    "type": 8
-  },
-  {
-    "id": 5250,
-    "name": "Domain of Mastery: Abyss of Embers I",
-    "localeName": "精通秘境：灼燼廢淵 I",
-    "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [5, 7, 3],
-    "type": 8
-  },
-  {
-    "id": 5251,
-    "name": "Domain of Mastery: Abyss of Embers II",
-    "localeName": "精通秘境：灼燼廢淵 II",
-    "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [5, 7, 3],
-    "type": 8
-  },
-  {
-    "id": 5252,
-    "name": "Domain of Mastery: Abyss of Embers III",
-    "localeName": "精通秘境：灼燼廢淵 III",
-    "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [5, 7, 3],
-    "type": 8
-  },
-  {
-    "id": 5253,
-    "name": "Domain of Mastery: Abyss of Embers IV",
-    "localeName": "精通秘境：灼燼廢淵 IV",
-    "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [5, 7, 3],
-    "type": 8
-  },
-  {
-    "id": 5254,
-    "name": "Domain of Mastery: Altar of Flames I",
-    "localeName": "精通秘境：熾炎祭場 I",
-    "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [5, 7, 3],
-    "type": 8
-  },
-  {
-    "id": 5255,
-    "name": "Domain of Mastery: Altar of Flames II",
-    "localeName": "精通秘境：熾炎祭場 II",
-    "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [5, 7, 3],
-    "type": 8
-  },
-  {
-    "id": 5256,
-    "name": "Domain of Mastery: Altar of Flames III",
-    "localeName": "精通秘境：熾炎祭場 III",
-    "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [5, 7, 3],
-    "type": 8
-  },
-  {
-    "id": 5257,
-    "name": "Domain of Mastery: Altar of Flames IV",
-    "localeName": "精通秘境：熾炎祭場 IV",
-    "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [5, 7, 3],
-    "type": 8
-  },
-  {
-    "id": 5258,
-    "name": "Domain of Mastery: Heart of the Flames I",
-    "localeName": "精通秘境：深炎之底 I",
-    "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [5, 7, 3],
-    "type": 8
-  },
-  {
-    "id": 5259,
-    "name": "Domain of Mastery: Heart of the Flames II",
-    "localeName": "精通秘境：深炎之底 II",
-    "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [5, 7, 3],
-    "type": 8
-  },
-  {
-    "id": 5260,
-    "name": "Domain of Mastery: Heart of the Flames III",
-    "localeName": "精通秘境：深炎之底 III",
-    "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [5, 7, 3],
-    "type": 8
-  },
-  {
-    "id": 5261,
-    "name": "Domain of Mastery: Heart of the Flames IV",
-    "localeName": "精通秘境：深炎之底 IV",
-    "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [5, 7, 3],
-    "type": 8
-  },
-  {
-    "id": 5262,
-    "name": "Domain of Mastery: Circle of Embers I",
-    "localeName": "精通秘境：焚盡之環 I",
-    "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [5, 7, 3],
-    "type": 8
-  },
-  {
-    "id": 5263,
-    "name": "Domain of Mastery: Circle of Embers II",
-    "localeName": "精通秘境：焚盡之環 II",
-    "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [5, 7, 3],
-    "type": 8
-  },
-  {
-    "id": 5264,
-    "name": "Domain of Mastery: Circle of Embers III",
-    "localeName": "精通秘境：焚盡之環 III",
-    "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [5, 7, 3],
-    "type": 8
-  },
-  {
-    "id": 5265,
-    "name": "Domain of Mastery: Circle of Embers IV",
-    "localeName": "精通秘境：焚盡之環 IV",
-    "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。",
-    "elements": [5, 7, 3],
-    "type": 8
-  },
+  { "id": 4034, "name": "Lament: Bitter Hate I", "localeName": "浪曲：苦水嗟恨·其之一", "desc": "挑戰以真面目面對敵人的「嗟恨的純水精靈」。\n失去了領地、無法獲得淨水的純水精靈在無止境的哀怨中翻騰，渴求著讓一切地上生靈聽見浪花的歌拍，並最終品嚐淚水的苦澀。", "elements": [], "type": 9 },
+  { "id": 4035, "name": "Lament: Bitter Hate II", "localeName": "浪曲：苦水嗟恨·其之二", "desc": "挑戰以真面目面對敵人的「嗟恨的純水精靈」。\n失去了領地、無法獲得淨水的純水精靈在無止境的哀怨中翻騰，渴求著讓一切地上生靈聽見浪花的歌拍，並最終品嚐淚水的苦澀。", "elements": [], "type": 9 },
+  { "id": 4036, "name": "Wanderer's Threefold Challenge", "localeName": "風來坊，三番勝負！", "desc": "連續挑戰「嗟恨的純水精靈」、「復甦的古岩龍蜥」與「魔偶劍鬼對劍」。\n有言「萬物皆三」。吉兆要出現三次，幸運才會降臨；真正的勝負有三回，謝幕時也應當三次鞠躬。", "elements": [], "type": 9 },
+  { "id": 4200, "name": "Domain of Mastery: Biting Frost I", "localeName": "精通秘境：刺骨之霜 I", "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 4201, "name": "Domain of Mastery: Biting Frost II", "localeName": "精通秘境：刺骨之霜 II", "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 4202, "name": "Domain of Mastery: Biting Frost III", "localeName": "精通秘境：刺骨之霜 III", "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 4203, "name": "Domain of Mastery: Biting Frost IV", "localeName": "精通秘境：刺骨之霜 IV", "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 4210, "name": "Domain of Mastery: Frosted Altar I", "localeName": "精通秘境：霜凝祭壇 I", "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 4211, "name": "Domain of Mastery: Frosted Altar II", "localeName": "精通秘境：霜凝祭壇 II", "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 4212, "name": "Domain of Mastery: Frosted Altar III", "localeName": "精通秘境：霜凝祭壇 III", "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 4213, "name": "Domain of Mastery: Frosted Altar IV", "localeName": "精通秘境：霜凝祭壇 IV", "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 4220, "name": "Domain of Mastery: Frozen Abyss I", "localeName": "精通秘境：冰封廢淵 I", "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 4221, "name": "Domain of Mastery: Frozen Abyss II", "localeName": "精通秘境：冰封廢淵 II", "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 4222, "name": "Domain of Mastery: Frozen Abyss III", "localeName": "精通秘境：冰封廢淵 III", "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 4223, "name": "Domain of Mastery: Frozen Abyss IV", "localeName": "精通秘境：冰封廢淵 IV", "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 4230, "name": "Domain of Mastery: Realm of Slumber I", "localeName": "精通秘境：沉睡之國 I", "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 4231, "name": "Domain of Mastery: Realm of Slumber II", "localeName": "精通秘境：沉睡之國 II", "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 4232, "name": "Domain of Mastery: Realm of Slumber III", "localeName": "精通秘境：沉睡之國 III", "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 4233, "name": "Domain of Mastery: Realm of Slumber IV", "localeName": "精通秘境：沉睡之國 IV", "desc": "這座寒冷的古代祭祀場中，聚積了大量的冰元素之力。\n其中刺骨的霜寒使人的舉步維艱。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 4300, "name": "Domain of Forgery: Altar of the Falls I", "localeName": "煉武秘境：深瀑祭壇 I", "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 4301, "name": "Domain of Forgery: Altar of the Falls II", "localeName": "煉武秘境：深瀑祭壇 II", "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 4302, "name": "Domain of Forgery: Altar of the Falls III", "localeName": "煉武秘境：深瀑祭壇 III", "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 4303, "name": "Domain of Forgery: Altar of the Falls IV", "localeName": "煉武秘境：深瀑祭壇 IV", "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 4310, "name": "Domain of Forgery: City of Reflections I", "localeName": "煉武秘境：水光之城 I", "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 4311, "name": "Domain of Forgery: City of Reflections II", "localeName": "煉武秘境：水光之城 II", "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 4312, "name": "Domain of Forgery: City of Reflections III", "localeName": "煉武秘境：水光之城 III", "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 4313, "name": "Domain of Forgery: City of Reflections IV", "localeName": "煉武秘境：水光之城 IV", "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 4320, "name": "Domain of Forgery: Submerged Valley I", "localeName": "煉武秘境：深沒之谷 I", "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 4321, "name": "Domain of Forgery: Submerged Valley II", "localeName": "煉武秘境：深沒之谷 II", "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 4322, "name": "Domain of Forgery: Submerged Valley III", "localeName": "煉武秘境：深沒之谷 III", "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 4323, "name": "Domain of Forgery: Submerged Valley IV", "localeName": "煉武秘境：深沒之谷 IV", "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 4330, "name": "Domain of Forgery: Ruins of Thirsting Capital I", "localeName": "煉武秘境：渴水的廢都 I", "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 4331, "name": "Domain of Forgery: Ruins of Thirsting Capital II", "localeName": "煉武秘境：渴水的廢都 II", "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 4332, "name": "Domain of Forgery: Ruins of Thirsting Capital III", "localeName": "煉武秘境：渴水的廢都 III", "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 4333, "name": "Domain of Forgery: Ruins of Thirsting Capital IV", "localeName": "煉武秘境：渴水的廢都 IV", "desc": "這座潮濕的古代祭祀場中，聚集了大量的水元素之力。\n其中濃厚的潮氣會令技能冷卻時間延長。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 5001, "name": "Domain of Blessing: Fires of Purification I", "localeName": "祝聖秘境：淨化之炎 I", "desc": "這座遠古祝聖祭壇中，聚集著懼怕火元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。", "elements": [], "type": 8 },
+  { "id": 5002, "name": "Domain of Blessing: Fires of Purification II", "localeName": "祝聖秘境：淨化之炎 II", "desc": "這座遠古祝聖祭壇中，聚集著懼怕火元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。", "elements": [], "type": 8 },
+  { "id": 5003, "name": "Domain of Blessing: Fires of Purification III", "localeName": "祝聖秘境：淨化之炎 III", "desc": "這座遠古祝聖祭壇中，聚集著懼怕火元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。", "elements": [], "type": 8 },
+  { "id": 5004, "name": "Domain of Blessing: Fires of Purification IV", "localeName": "祝聖秘境：淨化之炎 IV", "desc": "這座遠古祝聖祭壇中，聚集著懼怕火元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。", "elements": [], "type": 8 },
+  { "id": 5005, "name": "Domain of Blessing: Fires of Purification V", "localeName": "祝聖秘境：淨化之炎 V", "desc": "這座遠古祝聖祭壇中，聚集著懼怕火元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。", "elements": [], "type": 8 },
+  { "id": 5006, "name": "Domain of Blessing: Fires of Purification VI", "localeName": "祝聖秘境：淨化之炎 VI", "desc": "這座遠古祝聖祭壇中，聚集著懼怕火元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。", "elements": [], "type": 8 },
+  { "id": 5008, "name": "Domain of Blessing: Dance of Steel I", "localeName": "祝聖秘境：鋼鐵之舞 I", "desc": "這座遠古祝聖祭壇中，聚集著畏懼純粹武力的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。", "elements": [], "type": 8 },
+  { "id": 5009, "name": "Domain of Blessing: Dance of Steel II", "localeName": "祝聖秘境：鋼鐵之舞 II", "desc": "這座遠古祝聖祭壇中，聚集著畏懼純粹武力的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。", "elements": [], "type": 8 },
+  { "id": 5010, "name": "Domain of Blessing: Dance of Steel III", "localeName": "祝聖秘境：鋼鐵之舞 III", "desc": "這座遠古祝聖祭壇中，聚集著畏懼純粹武力的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。", "elements": [], "type": 8 },
+  { "id": 5011, "name": "Domain of Blessing: Dance of Steel IV", "localeName": "祝聖秘境：鋼鐵之舞 IV", "desc": "這座遠古祝聖祭壇中，聚集著畏懼純粹武力的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。", "elements": [], "type": 8 },
+  { "id": 5012, "name": "Domain of Blessing: Dance of Steel V", "localeName": "祝聖秘境：鋼鐵之舞 V", "desc": "這座遠古祝聖祭壇中，聚集著畏懼純粹武力的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。", "elements": [], "type": 8 },
+  { "id": 5014, "name": "Domain of Blessing: Unyielding I", "localeName": "祝聖秘境：不移 I", "desc": "精神與軀體足夠強韌、面臨傷害而不屈服的人，在這間祭場中就能獲得護佑。\n能成功克服其中試煉者，或許就能獲得珍貴的聖遺物，獲得實現遙不可及的夢想的助力。", "elements": [], "type": 8 },
+  { "id": 5015, "name": "Domain of Blessing: Unyielding II", "localeName": "祝聖秘境：不移 II", "desc": "精神與軀體足夠強韌、面臨傷害而不屈服的人，在這間祭場中就能獲得護佑。\n能成功克服其中試煉者，或許就能獲得珍貴的聖遺物，獲得實現遙不可及的夢想的助力。", "elements": [], "type": 8 },
+  { "id": 5016, "name": "Domain of Blessing: Unyielding III", "localeName": "祝聖秘境：不移 III", "desc": "精神與軀體足夠強韌、面臨傷害而不屈服的人，在這間祭場中就能獲得護佑。\n能成功克服其中試煉者，或許就能獲得珍貴的聖遺物，獲得實現遙不可及的夢想的助力。", "elements": [], "type": 8 },
+  { "id": 5017, "name": "Domain of Blessing: Unyielding IV", "localeName": "祝聖秘境：不移 IV", "desc": "精神與軀體足夠強韌、面臨傷害而不屈服的人，在這間祭場中就能獲得護佑。\n能成功克服其中試煉者，或許就能獲得珍貴的聖遺物，獲得實現遙不可及的夢想的助力。", "elements": [], "type": 8 },
+  { "id": 5100, "name": "Domain of Blessing: Spring I", "localeName": "祝聖秘境：驚蟄 I", "desc": "這座遠古地脈祭壇中，聚集著覬覦著其中地脈鎮石的魔物。\n若能驅使雷元素的力量粉碎魔物，保護鎮石不被破壞，或許能獲得珍貴的聖遺物。", "elements": [], "type": 8 },
+  { "id": 5101, "name": "Domain of Blessing: Spring II", "localeName": "祝聖秘境：驚蟄 II", "desc": "這座遠古地脈祭壇中，聚集著覬覦著其中地脈鎮石的魔物。\n若能驅使雷元素的力量粉碎魔物，保護鎮石不被破壞，或許能獲得珍貴的聖遺物。", "elements": [], "type": 8 },
+  { "id": 5102, "name": "Domain of Blessing: Spring III", "localeName": "祝聖秘境：驚蟄 III", "desc": "這座遠古地脈祭壇中，聚集著覬覦著其中地脈鎮石的魔物。\n若能驅使雷元素的力量粉碎魔物，保護鎮石不被破壞，或許能獲得珍貴的聖遺物。", "elements": [], "type": 8 },
+  { "id": 5103, "name": "Domain of Blessing: Spring IV", "localeName": "祝聖秘境：驚蟄 IV", "desc": "這座遠古地脈祭壇中，聚集著覬覦著其中地脈鎮石的魔物。\n若能驅使雷元素的力量粉碎魔物，保護鎮石不被破壞，或許能獲得珍貴的聖遺物。", "elements": [], "type": 8 },
+  { "id": 5104, "name": "Domain of Blessing: Spring V", "localeName": "祝聖秘境：驚蟄 V", "desc": "這座遠古祝聖祭壇中，聚集著懼怕雷元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。", "elements": [], "type": 8 },
+  { "id": 5105, "name": "Domain of Blessing: Spring VI", "localeName": "祝聖秘境：驚蟄 VI", "desc": "這座遠古祝聖祭壇中，聚集著懼怕雷元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。", "elements": [], "type": 8 },
+  { "id": 5107, "name": "Domain of Blessing: Frost I", "localeName": "祝聖秘境：寒霜 I", "desc": "這座遠古地脈祭壇中，聚集著覬覦著其中地脈鎮石的魔物。\n若能驅使冰元素的力量粉碎魔物，保護鎮石不被破壞，或許能獲得珍貴的聖遺物。", "elements": [], "type": 8 },
+  { "id": 5108, "name": "Domain of Blessing: Frost II", "localeName": "祝聖秘境：寒霜 II", "desc": "這座遠古祝聖祭壇中，聚集著懼怕冰元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。", "elements": [], "type": 8 },
+  { "id": 5109, "name": "Domain of Blessing: Frost III", "localeName": "祝聖秘境：寒霜 III", "desc": "這座遠古祝聖祭壇中，聚集著懼怕冰元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。", "elements": [], "type": 8 },
+  { "id": 5110, "name": "Domain of Blessing: Frost IV", "localeName": "祝聖秘境：寒霜 IV", "desc": "這座遠古祝聖祭壇中，聚集著懼怕冰元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。", "elements": [], "type": 8 },
+  { "id": 5112, "name": "Domain of Blessing: Stone Chamber I", "localeName": "祝聖秘境：岩牢 I", "desc": "這座遠古祝聖祭壇中，聚集著懼怕岩元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。", "elements": [], "type": 8 },
+  { "id": 5113, "name": "Domain of Blessing: Stone Chamber II", "localeName": "祝聖秘境：岩牢 II", "desc": "這座遠古祝聖祭壇中，聚集著懼怕岩元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。", "elements": [], "type": 8 },
+  { "id": 5114, "name": "Domain of Blessing: Stone Chamber III", "localeName": "祝聖秘境：岩牢 III", "desc": "這座遠古祝聖祭壇中，聚集著懼怕岩元素的魔物。\n若能通過其中的試煉，或許能獲得珍貴的聖遺物。", "elements": [], "type": 8 },
+  { "id": 5120, "name": "Domain of Blessing: Elegaic Rime I", "localeName": "祝聖秘境：告死之霜 I", "desc": "這裡原本是靠近天空的試煉場所，被天降的寒天之釘埋入山體。\n湧入的寒氣造就了這裡獨特的環境。要通過試煉，就必須克服其中的嚴寒…", "elements": [], "type": 8 },
+  { "id": 5121, "name": "Domain of Blessing: Elegaic Rime II", "localeName": "祝聖秘境：告死之霜 II", "desc": "這裡原本是靠近天空的試煉場所，被天降的寒天之釘埋入山體。\n湧入的寒氣造就了這裡獨特的環境。要通過試煉，就必須克服其中的嚴寒…", "elements": [], "type": 8 },
+  { "id": 5122, "name": "Domain of Blessing: Elegaic Rime III", "localeName": "祝聖秘境：告死之霜 III", "desc": "這裡原本是靠近天空的試煉場所，被天降的寒天之釘埋入山體。\n湧入的寒氣造就了這裡獨特的環境。要通過試煉，就必須克服其中的嚴寒…", "elements": [], "type": 8 },
+  { "id": 5123, "name": "Domain of Blessing: Elegaic Rime IV", "localeName": "祝聖秘境：告死之霜 IV", "desc": "這裡原本是靠近天空的試煉場所，被天降的寒天之釘埋入山體。\n湧入的寒氣造就了這裡獨特的環境。要通過試煉，就必須克服其中的嚴寒…", "elements": [], "type": 8 },
+  { "id": 5210, "name": "Domain of Forgery: Electrostatic Field I", "localeName": "煉武秘境：靜電場域 I", "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 5211, "name": "Domain of Forgery: Electrostatic Field II", "localeName": "煉武秘境：靜電場域 II", "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 5212, "name": "Domain of Forgery: Electrostatic Field III", "localeName": "煉武秘境：靜電場域 III", "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 5213, "name": "Domain of Forgery: Electrostatic Field IV", "localeName": "煉武秘境：靜電場域 IV", "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 5214, "name": "Domain of Forgery: Thundercloud Altar I", "localeName": "煉武秘境：雷雲祭壇 I", "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 5215, "name": "Domain of Forgery: Thundercloud Altar II", "localeName": "煉武秘境：雷雲祭壇 II", "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 5216, "name": "Domain of Forgery: Thundercloud Altar III", "localeName": "煉武秘境：雷雲祭壇 III", "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 5217, "name": "Domain of Forgery: Thundercloud Altar IV", "localeName": "煉武秘境：雷雲祭壇 IV", "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 5218, "name": "Domain of Forgery: Thundering Ruins I", "localeName": "煉武秘境：鳴雷城墟 I", "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 5219, "name": "Domain of Forgery: Thundering Ruins II", "localeName": "煉武秘境：鳴雷城墟 II", "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 5220, "name": "Domain of Forgery: Thundering Ruins III", "localeName": "煉武秘境：鳴雷城墟 III", "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 5221, "name": "Domain of Forgery: Thundering Ruins IV", "localeName": "煉武秘境：鳴雷城墟 IV", "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 5222, "name": "Domain of Forgery: Trial Grounds of Thunder I", "localeName": "煉武秘境：古雷試煉場 I", "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 5223, "name": "Domain of Forgery: Trial Grounds of Thunder II", "localeName": "煉武秘境：古雷試煉場 II", "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 5224, "name": "Domain of Forgery: Trial Grounds of Thunder III", "localeName": "煉武秘境：古雷試煉場 III", "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 5225, "name": "Domain of Forgery: Trial Grounds of Thunder IV", "localeName": "煉武秘境：古雷試煉場 IV", "desc": "這座雷鳴不止的古代祭祀場中，聚集了大量的雷元素之力。\n彌漫的電氣會持續消解元素能量。\n若能通過其中的試煉，或許能獲得強化裝備的物質。", "elements": [], "type": 8 },
+  { "id": 5250, "name": "Domain of Mastery: Abyss of Embers I", "localeName": "精通秘境：灼燼廢淵 I", "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 5251, "name": "Domain of Mastery: Abyss of Embers II", "localeName": "精通秘境：灼燼廢淵 II", "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 5252, "name": "Domain of Mastery: Abyss of Embers III", "localeName": "精通秘境：灼燼廢淵 III", "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 5253, "name": "Domain of Mastery: Abyss of Embers IV", "localeName": "精通秘境：灼燼廢淵 IV", "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 5254, "name": "Domain of Mastery: Altar of Flames I", "localeName": "精通秘境：熾炎祭場 I", "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 5255, "name": "Domain of Mastery: Altar of Flames II", "localeName": "精通秘境：熾炎祭場 II", "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 5256, "name": "Domain of Mastery: Altar of Flames III", "localeName": "精通秘境：熾炎祭場 III", "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 5257, "name": "Domain of Mastery: Altar of Flames IV", "localeName": "精通秘境：熾炎祭場 IV", "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 5258, "name": "Domain of Mastery: Heart of the Flames I", "localeName": "精通秘境：深炎之底 I", "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 5259, "name": "Domain of Mastery: Heart of the Flames II", "localeName": "精通秘境：深炎之底 II", "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 5260, "name": "Domain of Mastery: Heart of the Flames III", "localeName": "精通秘境：深炎之底 III", "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 5261, "name": "Domain of Mastery: Heart of the Flames IV", "localeName": "精通秘境：深炎之底 IV", "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 5262, "name": "Domain of Mastery: Circle of Embers I", "localeName": "精通秘境：焚盡之環 I", "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 5263, "name": "Domain of Mastery: Circle of Embers II", "localeName": "精通秘境：焚盡之環 II", "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 5264, "name": "Domain of Mastery: Circle of Embers III", "localeName": "精通秘境：焚盡之環 III", "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
+  { "id": 5265, "name": "Domain of Mastery: Circle of Embers IV", "localeName": "精通秘境：焚盡之環 IV", "desc": "這座熾熱的古代祭祀場中，聚集了大量的火元素之力。\n置身其中會受到持續的高熱灼燒。\n若能通過其中的試煉，或許能獲得令人天賦成長的物質。", "elements": [], "type": 8 },
   { "id": 5300, "name": "Storm Butterfly Intermezzo I", "localeName": "間奏曲·暴風之蝶 I", "desc": "挑戰「至純的無相之風」。\n青色之蝶靜靜等待著迎風展翅的時刻。", "elements": [], "type": 9 },
-  {
-    "id": 5301,
-    "name": "Violet Lightning Concerto I",
-    "localeName": "協奏曲·紫電之光 I",
-    "desc": "挑戰「至純的無相之雷」。\n腳下傳來的震顫並非地動的先兆，而是頻發的狂雷…",
-    "elements": [],
-    "type": 9
-  },
+  { "id": 5301, "name": "Violet Lightning Concerto I", "localeName": "協奏曲·紫電之光 I", "desc": "挑戰「至純的無相之雷」。\n腳下傳來的震顫並非地動的先兆，而是頻發的狂雷…", "elements": [], "type": 9 },
   { "id": 5302, "name": "Stone Heart Sonata I", "localeName": "奏鳴曲·磐石之心 I", "desc": "挑戰「至純的無相之岩」。\n編織黃金結界，與琥珀共舞。", "elements": [], "type": 9 },
-  {
-    "id": 5303,
-    "name": "Waltz of Earth, Wind, and Thunder",
-    "localeName": "大地、疾風與雷電的圓舞曲",
-    "desc": "連續挑戰三種不同的至純無相元素。\n與風聲、雷鳴與地動一同奏響元素的樂章。",
-    "elements": [],
-    "type": 9
-  },
+  { "id": 5303, "name": "Waltz of Earth, Wind, and Thunder", "localeName": "大地、疾風與雷電的圓舞曲", "desc": "連續挑戰三種不同的至純無相元素。\n與風聲、雷鳴與地動一同奏響元素的樂章。", "elements": [], "type": 9 },
   { "id": 5304, "name": "Storm Butterfly Intermezzo II", "localeName": "間奏曲·暴風之蝶 II", "desc": "挑戰「至純的無相之風」。\n青色之蝶靜靜等待著迎風展翅的時刻。", "elements": [], "type": 9 },
-  {
-    "id": 5305,
-    "name": "Violet Lightning Concerto II",
-    "localeName": "協奏曲·紫電之光 II",
-    "desc": "挑戰「至純的無相之雷」。\n腳下傳來的震顫並非地動的先兆，而是頻發的狂雷…",
-    "elements": [],
-    "type": 9
-  },
+  { "id": 5305, "name": "Violet Lightning Concerto II", "localeName": "協奏曲·紫電之光 II", "desc": "挑戰「至純的無相之雷」。\n腳下傳來的震顫並非地動的先兆，而是頻發的狂雷…", "elements": [], "type": 9 },
   { "id": 5306, "name": "Stone Heart Sonata II", "localeName": "奏鳴曲·磐石之心 II", "desc": "挑戰「至純的無相之岩」。\n編織黃金結界，與琥珀共舞。", "elements": [], "type": 9 },
-  {
-    "id": 7000,
-    "name": "The Wind from the Reeds Topples Well-Fed Trees",
-    "localeName": "葦風可凋井邊桐",
-    "desc": "如果能對此棋陣中央的空井善加利用，或許能更有效地面對來襲的魔物…",
-    "elements": [],
-    "type": 3
-  },
-  {
-    "id": 7001,
-    "name": "The Wind from the Reeds Topples Well-Fed Trees: Difficulty 1",
-    "localeName": "葦風可凋井邊桐：難度1",
-    "desc": "如果能對此棋陣中央的空井善加利用，或許能更有效地面對來襲的魔物…",
-    "elements": [],
-    "type": 3
-  },
-  {
-    "id": 7002,
-    "name": "Stop to Rest Your Weary Head, Paint the Bridge Where Adepti Tread: Difficulty 2",
-    "localeName": "解鞍倚枕畫仙橋：難度2",
-    "desc": "如果能對此棋陣中的「仙橋」機關善加利用，或許能更有效地面對來襲的魔物…",
-    "elements": [],
-    "type": 3
-  },
-  {
-    "id": 7003,
-    "name": "In Pairs, the Swallows Come Home to Roost: Difficulty 3",
-    "localeName": "去年雙燕來還去：難度3",
-    "desc": "本次棋陣中，魔物將於兩條道路不斷來襲，如果想要獲得勝利，需要仔細思考如何同時抵擋住這兩路魔物…",
-    "elements": [],
-    "type": 3
-  },
-  {
-    "id": 7004,
-    "name": "Three Stars Tussle for the Spotlight: Difficulty 4",
-    "localeName": "三星參差爭電光：難度4",
-    "desc": "本次棋陣中，魔物將於三條道路不斷來襲，如果想要獲得勝利，需要更仔細地觀察棋陣，優先對付最需要對付的那一路魔物…",
-    "elements": [],
-    "type": 3
-  },
-  {
-    "id": 7005,
-    "name": "Beauty Withers Hither While Truth Dithers Thither: Difficulty 5",
-    "localeName": "春水蛾眉各分飛：難度5",
-    "desc": "本次棋陣中，需要同時抵擋魔物前往兩個不同的地點，巧妙地設置奇術機關，或許是致勝的關鍵…",
-    "elements": [],
-    "type": 3
-  },
-  {
-    "id": 7006,
-    "name": "Rhythmic Echoes in the Pavilion: Difficulty 6",
-    "localeName": "霓裳一曲復登樓：難度6",
-    "desc": "本次棋陣中，魔物也許會欺騙性地走向另一條道路。仔細分辨出它們真正的目標，或許是致勝的關鍵…",
-    "elements": [],
-    "type": 3
-  },
-  {
-    "id": 7007,
-    "name": "Empty Halls Behind Locked Doors: Difficulty 7",
-    "localeName": "金鎖重門華堂空：難度7",
-    "desc": "在本次棋陣中，大量魔物將同時來襲。巧妙地運用棋陣內的各種資源，方能致勝。",
-    "elements": [],
-    "type": 3
-  },
-  {
-    "id": 7008,
-    "name": "Oh, for a Steed to Traverse This Terrain: Special Mode",
-    "localeName": "溪山興無盡，不見白駒來：特殊模式",
-    "desc": "在本次棋陣中，大量魔物將會不斷來襲，只有巧妙地運用所有資源，才能尋得勝機…",
-    "elements": [],
-    "type": 3
-  },
-  {
-    "id": 7009,
-    "name": "Stop to Rest Your Weary Head, Paint the Bridge Where Adepti Tread: Difficulty 3",
-    "localeName": "解鞍倚枕畫仙橋：難度3",
-    "desc": "如果能對此棋陣中的「仙橋」機關善加利用，或許能更有效地面對來襲的魔物…",
-    "elements": [],
-    "type": 3
-  },
-  {
-    "id": 7010,
-    "name": "In Pairs, the Swallows Come Home to Roost: Difficulty 4",
-    "localeName": "去年雙燕來還去：難度4",
-    "desc": "本次棋陣中，魔物將於兩條道路不斷來襲，如果想要獲得勝利，需要仔細思考如何同時抵擋住這兩路魔物…",
-    "elements": [],
-    "type": 3
-  },
-  {
-    "id": 7011,
-    "name": "Three Stars Tussle for the Spotlight: Difficulty 5",
-    "localeName": "三星參差爭電光：難度5",
-    "desc": "本次棋陣中，魔物將於三條道路不斷來襲，如果想要獲得勝利，需要更仔細地觀察棋陣，優先對付最需要對付的那一路魔物…",
-    "elements": [],
-    "type": 3
-  },
-  {
-    "id": 7012,
-    "name": "Beauty Withers Hither While Truth Dithers Thither: Difficulty 6",
-    "localeName": "春水蛾眉各分飛：難度6",
-    "desc": "本次棋陣中，需要同時抵擋魔物前往兩個不同的地點，巧妙地設置奇術機關，或許是致勝的關鍵…",
-    "elements": [],
-    "type": 3
-  },
-  {
-    "id": 7013,
-    "name": "Rhythmic Echoes in the Pavilion: Difficulty 7",
-    "localeName": "霓裳一曲復登樓：難度7",
-    "desc": "本次棋陣中，魔物也許會欺騙性地走向另一條道路。仔細分辨出它們真正的目標，或許是致勝的關鍵…",
-    "elements": [],
-    "type": 3
-  }
+  { "id": 5310, "name": "Peculiar Wonderland", "localeName": "奇趣秘園", "desc": "「奇趣秘園」的入口只在特定時間顯現，造訪者將接受三種隨機的挑戰，以及強大對手的考驗。\n秘境的本源已不可考，但無論這處秘境從何而來，它的獨特樂趣都令人稱道。", "elements": [] },
+  { "id": 7000, "name": "The Wind from the Reeds Topples Well-Fed Trees", "localeName": "葦風可凋井邊桐", "desc": "如果能對此棋陣中央的空井善加利用，或許能更有效地面對來襲的魔物…", "elements": [], "type": 3 },
+  { "id": 7001, "name": "The Wind from the Reeds Topples Well-Fed Trees: Difficulty 1", "localeName": "葦風可凋井邊桐：難度1", "desc": "如果能對此棋陣中央的空井善加利用，或許能更有效地面對來襲的魔物…", "elements": [], "type": 3 },
+  { "id": 7002, "name": "Stop to Rest Your Weary Head, Paint the Bridge Where Adepti Tread: Difficulty 2", "localeName": "解鞍倚枕畫仙橋：難度2", "desc": "如果能對此棋陣中的「仙橋」機關善加利用，或許能更有效地面對來襲的魔物…", "elements": [], "type": 3 },
+  { "id": 7003, "name": "In Pairs, the Swallows Come Home to Roost: Difficulty 3", "localeName": "去年雙燕來還去：難度3", "desc": "本次棋陣中，魔物將於兩條道路不斷來襲，如果想要獲得勝利，需要仔細思考如何同時抵擋住這兩路魔物…", "elements": [], "type": 3 },
+  { "id": 7004, "name": "Three Stars Tussle for the Spotlight: Difficulty 4", "localeName": "三星參差爭電光：難度4", "desc": "本次棋陣中，魔物將於三條道路不斷來襲，如果想要獲得勝利，需要更仔細地觀察棋陣，優先對付最需要對付的那一路魔物…", "elements": [], "type": 3 },
+  { "id": 7005, "name": "Beauty Withers Hither While Truth Dithers Thither: Difficulty 5", "localeName": "春水蛾眉各分飛：難度5", "desc": "本次棋陣中，需要同時抵擋魔物前往兩個不同的地點，巧妙地設置奇術機關，或許是致勝的關鍵…", "elements": [], "type": 3 },
+  { "id": 7006, "name": "Rhythmic Echoes in the Pavilion: Difficulty 6", "localeName": "霓裳一曲復登樓：難度6", "desc": "本次棋陣中，魔物也許會欺騙性地走向另一條道路。仔細分辨出它們真正的目標，或許是致勝的關鍵…", "elements": [], "type": 3 },
+  { "id": 7007, "name": "Empty Halls Behind Locked Doors: Difficulty 7", "localeName": "金鎖重門華堂空：難度7", "desc": "在本次棋陣中，大量魔物將同時來襲。巧妙地運用棋陣內的各種資源，方能致勝。", "elements": [], "type": 3 },
+  { "id": 7008, "name": "Oh, for a Steed to Traverse This Terrain: Special Mode", "localeName": "溪山興無盡，不見白駒來：特殊模式", "desc": "在本次棋陣中，大量魔物將會不斷來襲，只有巧妙地運用所有資源，才能尋得勝機…", "elements": [], "type": 3 },
+  { "id": 7009, "name": "Stop to Rest Your Weary Head, Paint the Bridge Where Adepti Tread: Difficulty 3", "localeName": "解鞍倚枕畫仙橋：難度3", "desc": "如果能對此棋陣中的「仙橋」機關善加利用，或許能更有效地面對來襲的魔物…", "elements": [], "type": 3 },
+  { "id": 7010, "name": "In Pairs, the Swallows Come Home to Roost: Difficulty 4", "localeName": "去年雙燕來還去：難度4", "desc": "本次棋陣中，魔物將於兩條道路不斷來襲，如果想要獲得勝利，需要仔細思考如何同時抵擋住這兩路魔物…", "elements": [], "type": 3 },
+  { "id": 7011, "name": "Three Stars Tussle for the Spotlight: Difficulty 5", "localeName": "三星參差爭電光：難度5", "desc": "本次棋陣中，魔物將於三條道路不斷來襲，如果想要獲得勝利，需要更仔細地觀察棋陣，優先對付最需要對付的那一路魔物…", "elements": [], "type": 3 },
+  { "id": 7012, "name": "Beauty Withers Hither While Truth Dithers Thither: Difficulty 6", "localeName": "春水蛾眉各分飛：難度6", "desc": "本次棋陣中，需要同時抵擋魔物前往兩個不同的地點，巧妙地設置奇術機關，或許是致勝的關鍵…", "elements": [], "type": 3 },
+  { "id": 7013, "name": "Rhythmic Echoes in the Pavilion: Difficulty 7", "localeName": "霓裳一曲復登樓：難度7", "desc": "本次棋陣中，魔物也許會欺騙性地走向另一條道路。仔細分辨出它們真正的目標，或許是致勝的關鍵…", "elements": [], "type": 3 },
+  { "id": 7100, "name": "Trial Domain: Plunge Attack Theme", "localeName": "試玩地城-下落攻擊主題", "desc": "試玩地城-下落攻擊主題", "elements": [], "type": 10 },
+  { "id": 7101, "name": "Trial Domain: Shield Theme", "localeName": "試玩地城-護盾主題", "desc": "試玩地城-護盾主題", "elements": [], "type": 10 },
+  { "id": 7102, "name": "Trial Domain: Healing Theme", "localeName": "試玩地城-治療主題", "desc": "試玩地城-治療主題", "elements": [], "type": 10 },
+  { "id": 7103, "name": "Trial Domain: Elemental Reaction Theme", "localeName": "試玩地城-元素反應主題", "desc": "試玩地城-元素反應主題", "elements": [], "type": 10 },
+  { "id": 7104, "name": "Trial Domain: Melee Attack Theme", "localeName": "試玩地城-近戰主題", "desc": "試玩地城-近戰主題", "elements": [], "type": 10 },
+  { "id": 7105, "name": "Trial Domain: Ranged Attack Theme", "localeName": "試玩地城-遠程主題", "desc": "試玩地城-遠程主題", "elements": [], "type": 10 },
+  { "id": 7201, "name": "Vishap's Rest", "localeName": "龍蜥安眠之穴", "desc": "吞噬了地脈之果碎屑的龍蜥族群，佔據了這間秘境。被擊敗時，經過龍蜥消化的碎屑會轉化為極其易爆的「高能晶核」…", "elements": [] },
+  { "id": 7202, "name": "Where Shadows Writhe", "localeName": "暗影蠢動之地", "desc": "這處秘境中，因為地脈之果能量的刺激，形成了會逐漸侵蝕挑戰區域的「等離子場」。身處等離子場中時，會遭受雷擊。", "elements": [] },
+  { "id": 7203, "name": "Frost-Worn Space", "localeName": "冰蝕霜侵之處", "desc": "丘丘霜鎧王與其麾下的爪牙蟄伏在這處秘境中。這些卑下的扈從恐怕會盡一切力量來守護它們的主子吧。", "elements": [] },
+  { "id": 7204, "name": "Domain of Deceit", "localeName": "詭爆之境", "desc": "導能原盤-一次性地城龍淚", "elements": [] },
+  { "id": 7205, "name": "Domain of Chaos", "localeName": "混沌之境", "desc": "導能原盤-一次性地城龍淚", "elements": [] },
+  { "id": 7206, "name": "Domain of Furious Thunder", "localeName": "雷怒之境", "desc": "導能原盤-一次性地城龍淚", "elements": [] },
+  { "id": 7207, "name": "Domain of Heresy", "localeName": "邪從之境", "desc": "導能原盤-一次性地城龍淚", "elements": [] },
+  { "id": 7208, "name": "Domain of Deceit", "localeName": "詭爆之境", "desc": "導能原盤-一次性地城龍淚", "elements": [] },
+  { "id": 7209, "name": "Domain of Chaos", "localeName": "混沌之境", "desc": "導能原盤-一次性地城龍淚", "elements": [] },
+  { "id": 7210, "name": "Domain of Furious Thunder", "localeName": "雷怒之境", "desc": "導能原盤-一次性地城龍淚", "elements": [] },
+  { "id": 7211, "name": "Domain of Heresy", "localeName": "邪從之境", "desc": "導能原盤-一次性地城龍淚", "elements": [] },
+  { "id": 7212, "name": "Domain of Deceit", "localeName": "詭爆之境", "desc": "導能原盤-一次性地城龍淚", "elements": [] },
+  { "id": 7213, "name": "Domain of Chaos", "localeName": "混沌之境", "desc": "導能原盤-一次性地城龍淚", "elements": [] },
+  { "id": 7214, "name": "Domain of Furious Thunder", "localeName": "雷怒之境", "desc": "導能原盤-一次性地城龍淚", "elements": [] },
+  { "id": 7215, "name": "Domain of Heresy", "localeName": "邪從之境", "desc": "導能原盤-一次性地城龍淚", "elements": [] },
+  { "id": 7216, "name": "Domain of Deceit", "localeName": "詭爆之境", "desc": "導能原盤-一次性地城龍淚", "elements": [] },
+  { "id": 7217, "name": "Domain of Chaos", "localeName": "混沌之境", "desc": "導能原盤-一次性地城龍淚", "elements": [] },
+  { "id": 7218, "name": "Domain of Furious Thunder", "localeName": "雷怒之境", "desc": "導能原盤-一次性地城龍淚", "elements": [] },
+  { "id": 7219, "name": "Domain of Heresy", "localeName": "邪從之境", "desc": "導能原盤-一次性地城龍淚", "elements": [] }
 ]

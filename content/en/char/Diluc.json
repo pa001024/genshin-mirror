@@ -94,9 +94,9 @@
   "elemSkill": {
     "name": "SearingOnslaught",
     "localeName": "Searing Onslaught",
-    "desc": "Performs a forward slash that deals <color=#FF9999FF>Pyro DMG</color>.\n\nThis skill can be used 3 times consecutively. Enters CD if not cast again within a short period.\n\n<i>The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty.</i>",
+    "desc": "Performs a forward slash that deals <color=#FF9999FF>Pyro DMG</color>.\n\nThis skill can be consecutively used 3 times. Enters CD if not cast again within a short period.\n\n<i>The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty.</i>",
     "cd": 10,
-    "paramTpls": ["1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-hit DMG|{param3:P}", "CD|{param4:F1}s"],
+    "paramTpls": ["1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:P}", "CD|{param4:F1}s"],
     "paramVals": [
       [0.944, 0.976, 1.288, 10],
       [1.0148, 1.0492, 1.3846, 10],
@@ -161,7 +161,7 @@
   "elemBurst": {
     "name": "Dawn",
     "localeName": "Dawn",
-    "desc": "Releases intense flames to knock nearby opponents back, dealing <color=#FF9999FF>Pyro DMG</color>. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive <color=#FF9999FF>Pyro DMG</color> to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of <color=#FF9999FF>AoE Pyro DMG</color>.\nThe searing flames that run down his blade cause it to be infused with <color=#FF9999FF>Pyro</color>.\n\n<i>The only reason to walk in the darkness is to light it up. Behold, that fleeing light in the dead of night is the herald of the coming dawn.</i>",
+    "desc": "Releases intense flames to knock back nearby opponents, dealing <color=#FF9999FF>Pyro DMG</color>. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive <color=#FF9999FF>Pyro DMG</color> to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of <color=#FF9999FF>AoE Pyro DMG</color>.\nThe searing flames that run down his blade cause it to be infused with <color=#FF9999FF>Pyro</color>.\n\n<i>The only reason to walk in the darkness is to light it up. Behold, that fleeing light in the dead of night is the herald of the coming dawn.</i>",
     "cd": 12,
     "energyCost": 40,
     "paramTpls": ["Slashing DMG|{param1:P}", "DoT|{param2:F1P}", "Explosion DMG|{param3:P}", "CD|{param4:F1}s", "Infusion Duration|{param5:F1}s", "Energy Cost|{param6:I}"],
@@ -229,13 +229,13 @@
   "attackSkill": {
     "name": "NormalAttackTemperedSword",
     "localeName": "Normal Attack: Tempered Sword",
-    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 4 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nDrains Stamina over time to perform continuous slashes.\nAt end of the sequence, perform a more powerful slash.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 4 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
     "cd": 0,
     "paramTpls": [
       "1-Hit DMG|{param1:F1P}",
       "2-Hit DMG|{param2:F1P}",
       "3-Hit DMG|{param3:F1P}",
-      "4-hit DMG|{param4:P}",
+      "4-Hit DMG|{param4:P}",
       "Charged Attack Spinning DMG|{param5:F1P}",
       "Charged Attack Final DMG|{param6:P}",
       "Charged Attack Stamina Cost|{param7:F1}/s",

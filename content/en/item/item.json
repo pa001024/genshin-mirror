@@ -125,7 +125,7 @@
     "id": "Valberry",
     "name": "Valberry",
     "localeName": "Valberry",
-    "desc": "A plump and translucent berry that has a fragrant smell and a sweet refreshing taste. In the past, the watchers of the storms found solace in the sweetness of the fruit and the hope for the city's security.",
+    "desc": "A plump and translucent berry that has a fragrant smell and a sweet, refreshing taste. In the past, the watchers of the storms found solace in the sweetness of the fruit and the hope for the city's security.",
     "rarity": 1,
     "type": 4,
     "typeText": "A local specialty of Mondstadt.",
@@ -245,7 +245,7 @@
     "id": "Violetgrass",
     "name": "Violetgrass",
     "localeName": "Violetgrass",
-    "desc": "A small flower with strong vitality. It was said its downward-blooming flower keeps its fragrance from dissipating.",
+    "desc": "A small flower with strong vitality. It is said that its downward-blooming flower keeps its fragrance from dissipating.",
     "rarity": 1,
     "type": 4,
     "typeText": "A local specialty of Liyue.",
@@ -339,7 +339,7 @@
   { "id": "LuminescentSpine", "name": "Luminescent Spine", "localeName": "Luminescent Spine", "desc": "The light-emitting part of a firefly. Used for courtship, and in medicine to help recover strength.", "rarity": 1, "type": 4, "typeText": "Material", "drop": ["Found in the wild"] },
   { "id": "LizardTail", "name": "Lizard Tail", "localeName": "Lizard Tail", "desc": "A lizard tail that curled up after losing its owner. Very bitter, but has skin hardening properties.", "rarity": 1, "type": 4, "typeText": "Material", "drop": ["Gathered by hunting Lizards"] },
   { "id": "Fish", "name": "Fish", "localeName": "Fish", "desc": "A fresh fillet of fish. Handled properly, it can make a rich dish.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Gathered by catching fish"] },
-  { "id": "CrystalCore", "name": "Crystal Core", "localeName": "Crystal Core", "desc": "The core of a crystal butterfly. It absorbs elemental energy that had escaped into the atmosphere.", "rarity": 1, "type": 4, "typeText": "Material", "drop": ["Gathered by catching Crystalflies"] },
+  { "id": "CrystalCore", "name": "Crystal Core", "localeName": "Crystal Core", "desc": "The core of a crystal butterfly. It absorbs elemental energy that has escaped into the atmosphere.", "rarity": 1, "type": 4, "typeText": "Material", "drop": ["Gathered by catching Crystalflies"] },
   { "id": "RawMeatS", "name": "Raw Meat (S)", "localeName": "Raw Meat (S)", "desc": "A fresh chunk of meat. Handled properly, it can be used to make delicious food.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Dropped by animals"] },
   { "id": "FowlS", "name": "Fowl (S)", "localeName": "Fowl (S)", "desc": "A fresh chunk of fowl. Handled properly, it can make a hearty meal.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Dropped by animals"] },
   { "id": "Tofu", "name": "Tofu", "localeName": "Tofu", "desc": "Freshly made bean product that has a silky-smooth tender texture.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Sold at general goods shops in Liyue"] },
@@ -459,6 +459,20 @@
     "typeText": "Material",
     "drop": ["Dropped by bosses"]
   },
+  {
+    "id": "SeaGanoderma",
+    "name": "Sea Ganoderma",
+    "localeName": "Sea Ganoderma",
+    "desc": "A plant species that only grows in certain regions and islands of the ocean. Though it looks like a fungus of some sort, it actually comes from a substance secreted by certain soft-bodied organisms.",
+    "rarity": 1,
+    "type": 4,
+    "typeText": "Regional Specialty",
+    "drop": ["Found in the wild"]
+  },
+  { "id": "Fabric", "name": "Fabric", "localeName": "Fabric", "desc": "Some fabric of fine make. It will surely be of use in making furnishings.", "rarity": 1, "type": 4, "typeText": "Material" },
+  { "id": "RedDye", "name": "Red Dye", "localeName": "Red Dye", "desc": "Red dye. It will surely be of use in making furnishings.", "rarity": 1, "type": 4, "typeText": "Material" },
+  { "id": "YellowDye", "name": "Yellow Dye", "localeName": "Yellow Dye", "desc": "Yellow dye. It will surely be of use in making furnishings.", "rarity": 1, "type": 4, "typeText": "Material" },
+  { "id": "BlueDye", "name": "Blue Dye", "localeName": "Blue Dye", "desc": "Blue dye. It will surely be of use in making furnishings.", "rarity": 1, "type": 4, "typeText": "Material" },
   {
     "id": "HuntingTrap",
     "name": "Hunting Trap",
@@ -636,8 +650,26 @@
     "typeText": "Character Level-Up Material",
     "drop": ["Dropped by Lv. 75+ Anemo Hypostases", "Crafted"]
   },
-  { "id": "ShivadaJadeSliver", "name": "Shivada Jade Sliver", "localeName": "Shivada Jade Sliver", "desc": "Character Ascension Material.", "rarity": 2, "type": 1, "typeText": "Character Level-Up Material", "drop": ["Dropped by Cryo Regisvines.", "Purchase from the Souvenir Shop"] },
-  { "id": "ShivadaJadeFragment", "name": "Shivada Jade Fragment", "localeName": "Shivada Jade Fragment", "desc": "Character Ascension material.\n\"Sorry...\"", "rarity": 3, "type": 1, "typeText": "Character Level-Up Material", "drop": ["Dropped by Lv. 40+ Cryo Regisvines", "Crafted"] },
+  {
+    "id": "ShivadaJadeSliver",
+    "name": "Shivada Jade Sliver",
+    "localeName": "Shivada Jade Sliver",
+    "desc": "Character Ascension Material.",
+    "rarity": 2,
+    "type": 1,
+    "typeText": "Character Level-Up Material",
+    "drop": ["Dropped by Cryo Regisvines.", "Dropped by Cryo Hypostases", "Purchase from the Souvenir Shop"]
+  },
+  {
+    "id": "ShivadaJadeFragment",
+    "name": "Shivada Jade Fragment",
+    "localeName": "Shivada Jade Fragment",
+    "desc": "Character Ascension material.\n\"Sorry...\"",
+    "rarity": 3,
+    "type": 1,
+    "typeText": "Character Level-Up Material",
+    "drop": ["Dropped by Lv. 40+ Cryo Regisvines", "Dropped by Lv. 40+ Cryo Hypostases", "Crafted"]
+  },
   {
     "id": "ShivadaJadeChunk",
     "name": "Shivada Jade Chunk",
@@ -646,7 +678,7 @@
     "rarity": 4,
     "type": 1,
     "typeText": "Character Level-Up Material",
-    "drop": ["Dropped by Lv. 60+ Cryo Regisvines", "Crafted"]
+    "drop": ["Dropped by Lv. 60+ Cryo Regisvines", "Dropped by Lv. 60+ Cryo Hypostases", "Crafted"]
   },
   {
     "id": "ShivadaJadeGemstone",
@@ -656,7 +688,7 @@
     "rarity": 5,
     "type": 1,
     "typeText": "Character Level-Up Material",
-    "drop": ["Dropped by Lv. 75+ Cryo Regisvines", "Crafted"]
+    "drop": ["Dropped by Lv. 75+ Cryo Regisvines", "Dropped by Lv. 75+ Cryo Hypostases", "Crafted"]
   },
   { "id": "PrithivaTopazSliver", "name": "Prithiva Topaz Sliver", "localeName": "Prithiva Topaz Sliver", "desc": "Character Ascension Material.", "rarity": 2, "type": 1, "typeText": "Character Level-Up Material", "drop": ["Dropped by Geo Hypostases", "Purchase from the Souvenir Shop"] },
   {
@@ -904,6 +936,7 @@
     "type": 7,
     "typeText": "Adventure Item"
   },
+  { "id": "VialOfAdeptalSpeed", "name": "Vial of Adeptal Speed", "localeName": "Vial of Adeptal Speed", "desc": "A small bottle that seals some adeptal energy within. Will immediately complete a furnishing when used.", "rarity": 4, "type": 7, "typeText": "Consumable" },
   {
     "id": "SuspiciousFishermansToast",
     "name": "Suspicious Fisherman's Toast",
@@ -2313,7 +2346,7 @@
     "id": "SuspiciousTripleLayeredConsomme",
     "name": "Suspicious Triple-Layered Consommé",
     "localeName": "Suspicious Triple-Layered Consommé",
-    "desc": "A neatly-arranged dish. It certainly looks the part, but tasting it reveals the blandness of the consommé. Was it diluted too much, perhaps?",
+    "desc": "A neatly arranged dish. It certainly looks the part, but tasting it reveals the blandness of the consommé. Was it diluted too much, perhaps?",
     "rarity": 3,
     "type": 2,
     "typeText": "Food",
@@ -2323,7 +2356,7 @@
     "id": "TripleLayeredConsomme",
     "name": "Triple-Layered Consommé",
     "localeName": "Triple-Layered Consommé",
-    "desc": "A neatly-arranged dish. The ham, fowl, and bamboo shoots have been sliced into threads of equal length, and they've been laid out neatly in the soup bowl after being steamed at high heat, before being covered in consommé. The layers are distinct, and the mouthfeel is salty yet fresh.",
+    "desc": "A neatly arranged dish. The Ham, Fowl, and Bamboo Shoots have been sliced into threads of equal length, and they've been laid out neatly in the soup bowl after being steamed at high heat, before being covered in consommé. The layers are distinct, and the mouthfeel is salty yet fresh.",
     "rarity": 3,
     "type": 2,
     "typeText": "Food",
@@ -2520,6 +2553,36 @@
     "drop": ["Obtained by cooking"]
   },
   {
+    "id": "SuspiciousCrabRoeTofu",
+    "name": "Suspicious Crab Roe Tofu",
+    "localeName": "Suspicious Crab Roe Tofu",
+    "desc": "A dish with a tender mouthfeel. Even the freshest crab roe cannot mask the taste of over-aged tofu. Crushing it up with your chopsticks and mixing it into white rice is all you can do to force it down your gullet.",
+    "rarity": 2,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "CrabRoeTofu",
+    "name": "Crab Roe Tofu",
+    "localeName": "Crab Roe Tofu",
+    "desc": "A dish with a tender mouthfeel. Crab roe is stir-fried till the oil within oozes out before being added to boiled tofu and accented with broth. Simple, yes, but gloriously fresh.",
+    "rarity": 2,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousCrabRoeTofu",
+    "name": "Delicious Crab Roe Tofu",
+    "localeName": "Delicious Crab Roe Tofu",
+    "desc": "A dish with a tender mouthfeel. The tofu is so tender that it might break if you blew on a spoonful of it. Each granule of the crab roe is plump and filled with crab oil that oozes out onto your lips the moment you have a single bite. Chewing is not needed at all. The food travels down your gullet in a flash, leaving nothing but the memory of its fresh flavor.",
+    "rarity": 2,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
     "id": "SuspiciousFullmoonEgg",
     "name": "Suspicious Fullmoon Egg",
     "localeName": "Suspicious Fullmoon Egg",
@@ -2546,6 +2609,66 @@
     "desc": "One of Liyue's traditional snacks. Take a bite while it's hot, and have your tastebuds savor the tender minced meat and delicious juice, an experience which is then topped off with a finishing touch of sweet prawn. Before your eyes, you can almost see a full moon over rippling waters, a fishing boat by the shore, and the fishermen's songs echoing down the years.",
     "rarity": 3,
     "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousCuredPorkDryHotpot",
+    "name": "Suspicious Cured Pork Dry Hotpot",
+    "localeName": "Suspicious Cured Pork Dry Hotpot",
+    "desc": "A dish fried over a great flame. The quality of the pork is fair enough, but it is far too salty. Have a piece of this, and you will taste nothing but brine in your mouth no matter how many Snapdragons or Matsutake mushrooms you consume.",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "CuredPorkDryHotpot",
+    "name": "Cured Pork Dry Hotpot",
+    "localeName": "Cured Pork Dry Hotpot",
+    "desc": "A dish fried over a great flame. Matsutake and Ham have been sliced up, stir-fried, and garnished with some spicy condiments. The flavor of the Ham is a match for the Matsutake's crispness, and the combination grows ever lovelier and more addictive as you chew. The heat-conducting wok also serves to keep it piping hot for long periods.",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousCuredPorkDryHotpot",
+    "name": "Delicious Cured Pork Dry Hotpot",
+    "localeName": "Delicious Cured Pork Dry Hotpot",
+    "desc": "A dish fried over a great flame. The rendered fat from the fried ham layers the side dishes perfectly, and the flavors have long permeated the whole dish. Its shine alone is enough to whet one's appetite, and every bite is sure to evoke memories of house, home, and celebration in anyone from Liyue.",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousStirFriedFishNoodles",
+    "name": "Suspicious Stir-Fried Fish Noodles",
+    "localeName": "Suspicious Stir-Fried Fish Noodles",
+    "desc": "A main dish with an intense flavor. You can barely tell where the rice noodles end and the fish begins. The soft, floppy mouthfeel is almost unbearable — how could something that looked this simple actually require so much craft?",
+    "rarity": 2,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "StirFriedFishNoodles",
+    "name": "Stir-Fried Fish Noodles",
+    "localeName": "Stir-Fried Fish Noodles",
+    "desc": "A main dish with an intense flavor. Created by stir-frying rice noodles, par-cooked fish, and various side dishes in a wok on high flame. The noodles, having absorbed the flavors of the various ingredients, are springy and smooth to the taste, making this dish a big hit with diners.",
+    "rarity": 2,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousStirFriedFishNoodles",
+    "name": "Delicious Stir-Fried Fish Noodles",
+    "localeName": "Delicious Stir-Fried Fish Noodles",
+    "desc": "A main dish with an intense flavor. The sumptuous, fresh look is already enough to leave people salivating, and one bite will surely lead to another. The smooth rice noodles and tender fish grant this meal a seat at any gourmet's table, its pedestrian ingredients notwithstanding.",
+    "rarity": 2,
+    "type": 3,
     "typeText": "Food",
     "drop": ["Obtained by cooking"]
   },
@@ -2606,6 +2729,66 @@
     "desc": "Wok-fried vegetarian food. The scents of the earth, the cool shade, and the moistness of the mist have all been enjoined into this plate of freshness. Pair it with simple white rice — both your taste buds and your soul shall experience a down-to-earth satisfaction many times over.",
     "rarity": 2,
     "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousStirFriedShrimp",
+    "name": "Suspicious Stir-Fried Shrimp",
+    "localeName": "Suspicious Stir-Fried Shrimp",
+    "desc": "A mild and luscious dish. In an overzealous attempt to prevent the food from sticking to the bottom of the pot, too much oil was added. Despite having been subjected to this rather heavy-duty frying process, the shrimp still have a surprisingly pleasant texture — but mind you don't eat too many, or you'll get a sore throat.",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "StirFriedShrimp",
+    "name": "Stir-Fried Shrimp",
+    "localeName": "Stir-Fried Shrimp",
+    "desc": "A mild and luscious dish. The shrimp are quickly sautéed and the sauce thickened. This method of cooking is exceedingly simple and brings out the wonderful natural flavor of the shrimp meat, granting it a place in humble home-cooked dinners and lavish banquets alike.",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousStirFriedShrimp",
+    "name": "Delicious Stir-Fried Shrimp",
+    "localeName": "Delicious Stir-Fried Shrimp",
+    "desc": "A mild and luscious dish. The plump shrimp are packed full of flavor just waiting to burst out on the first bite, creating wave after wave of indulgent deliciousness, like drops of water falling one by one onto a still lake, ending just as the sweet aftertaste finally begins to emerge.",
+    "rarity": 3,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousRiceBuns",
+    "name": "Suspicious Rice Buns",
+    "localeName": "Suspicious Rice Buns",
+    "desc": "Soft and fluffy buns. The dough has not been proofed properly, meaning the buns did not puff up evenly during the steaming process. The resulting coarse, hard texture leaves much to be desired.",
+    "rarity": 1,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "RiceBuns",
+    "name": "Rice Buns",
+    "localeName": "Rice Buns",
+    "desc": "Soft and fluffy buns. The rice and horsetail have been ground into flour and kneaded into dough before being placed into a steaming basket. They can be eaten as-is or with a vegetable filling. Portable and satiating, it is a very popular dish in the Liyue region.",
+    "rarity": 1,
+    "type": 3,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousRiceBuns",
+    "name": "Delicious Rice Buns",
+    "localeName": "Delicious Rice Buns",
+    "desc": "Soft and fluffy buns. The unique sweetness of the whole grains passes between your teeth and lips as you chew. The relatively nondescript ingredients have been transformed into a true delicacy by your labors. This is one of the simple pleasures of the common folk and tastes best after some good, honest work.",
+    "rarity": 1,
+    "type": 3,
     "typeText": "Food",
     "drop": ["Obtained by cooking"]
   },
@@ -3049,6 +3232,56 @@
     "typeText": "Food",
     "drop": ["Obtained by cooking"]
   },
+  {
+    "id": "MyWay",
+    "name": "\"My Way\"",
+    "localeName": "\"My Way\"",
+    "desc": "Yanfei's specialty is Crab Roe Tofu done to an incredible degree of regularity. Its dimensions and flavor are all faithfully rendered according to the \"Crab Roe Tofu Laws\" in the recipe, with not a single letter omitted.",
+    "rarity": 2,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "StormcrestPie",
+    "name": "Stormcrest Pie",
+    "localeName": "Stormcrest Pie",
+    "desc": "Eula's specialty. It's hard to say if the unorthodox, non-full-moon shape is meant to flout tradition or express her \"tooth for a tooth\" ethos. A rich, savory, and smoky flavor emanates from beneath the golden outer crust, unlikely to be reproducible by anybody else in Mondstadt. Best not to tell her all this, though, lest she add it to her list of personal vendettas.",
+    "rarity": 4,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "SuspiciousChickenTofuPudding",
+    "name": "Suspicious Chicken Tofu Pudding",
+    "localeName": "Suspicious Chicken Tofu Pudding",
+    "desc": "A dish that requires great precision to make. The soup base is far too salty and the texture of the chicken tofu pudding is not delicate enough. Lack of technical proficiency has led to a dish that looks the part, but has no soul.",
+    "rarity": 4,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "ChickenTofuPudding",
+    "name": "Chicken Tofu Pudding",
+    "localeName": "Chicken Tofu Pudding",
+    "desc": "A dish that requires great precision to make. The finely diced chicken breast is stirred vigorously and added into a soup with various other minced meats, before being cooked over a small flame. The result is light and elegant, and it tastes like tofu pudding. The meat is presented in such a form that the experience of consuming it is like tasting the finest chicken one has ever eaten, yet without appearing to have eaten chicken at all. This is part of Liyue's culinary fine arts.",
+    "rarity": 4,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
+  {
+    "id": "DeliciousChickenTofuPudding",
+    "name": "Delicious Chicken Tofu Pudding",
+    "localeName": "Delicious Chicken Tofu Pudding",
+    "desc": "A dish that requires great precision to make. Successfully formed into a single block with no debris, it truly looks like tofu pudding. Its exquisite tenderness unravels on the tongue the moment it is scooped up with a porcelain spoon and fed into the mouth, and the taste is so sublime that it almost feels like having an out-of-body experience. What lies before you is no mere dish, but a gentle breeze, a pure spring, a stroke of the divine.",
+    "rarity": 4,
+    "type": 2,
+    "typeText": "Food",
+    "drop": ["Obtained by cooking"]
+  },
   { "id": "RecipeChickenMushroomSkewer", "name": "Recipe: Chicken-Mushroom Skewer", "localeName": "Recipe: Chicken-Mushroom Skewer", "desc": "A detailed step-by-step recipe for making a Chicken-Mushroom Skewer.", "rarity": 1, "type": 7, "typeText": "Recipe" },
   { "id": "RecipeFishermansToast", "name": "Recipe: Fisherman's Toast", "localeName": "Recipe: Fisherman's Toast", "desc": "A detailed step-by-step recipe for making Fisherman's Toast.", "rarity": 2, "type": 7, "typeText": "Recipe" },
   { "id": "RecipeFlamingRedBolognese", "name": "Recipe: Flaming Red Bolognese", "localeName": "Recipe: Flaming Red Bolognese", "desc": "A detailed step-by-step recipe for making Flaming Red Bolognese.", "rarity": 2, "type": 7, "typeText": "Recipe" },
@@ -3097,9 +3330,14 @@
   { "id": "RecipeMoonPie", "name": "Recipe: Moon Pie", "localeName": "Recipe: Moon Pie", "desc": "A detailed step-by-step recipe for making Moon Pie.", "rarity": 4, "type": 7, "typeText": "Recipe" },
   { "id": "RecipeAdventurersBreakfastSandwich", "name": "Recipe: Adventurer's Breakfast Sandwich", "localeName": "Recipe: Adventurer's Breakfast Sandwich", "desc": "A detailed step-by-step recipe for making an Adventurer's Breakfast Sandwich.", "rarity": 3, "type": 7, "typeText": "Recipe" },
   { "id": "RecipeNorthernAppleStew", "name": "Recipe: Northern Apple Stew", "localeName": "Recipe: Northern Apple Stew", "desc": "A detailed step-by-step recipe for making Northern Apple Stew.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeCrabRoeTofu", "name": "Recipe: Crab Roe Tofu", "localeName": "Recipe: Crab Roe Tofu", "desc": "A detailed step-by-step recipe for making Crab Roe Tofu.", "rarity": 2, "type": 7, "typeText": "Recipe" },
   { "id": "RecipeFullmoonEgg", "name": "Recipe: Fullmoon Egg", "localeName": "Recipe: Fullmoon Egg", "desc": "A detailed step-by-step recipe for making Fullmoon Egg.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeCuredPorkDryHotpot", "name": "Recipe: Cured Pork Dry Hotpot", "localeName": "Recipe: Cured Pork Dry Hotpot", "desc": "A detailed step-by-step recipe for making Cured Pork Dry Hotpot.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeStirFriedFishNoodles", "name": "Recipe: Stir-Fried Fish Noodles", "localeName": "Recipe: Stir-Fried Fish Noodles", "desc": "A detailed step-by-step recipe for making Stir-Fried Fish Noodles.", "rarity": 2, "type": 7, "typeText": "Recipe" },
   { "id": "RecipeVegetarianAbalone", "name": "Recipe:Vegetarian Abalone", "localeName": "Recipe:Vegetarian Abalone", "desc": "A detailed step-by-step recipe for making Vegetarian Abalone.", "rarity": 2, "type": 7, "typeText": "Recipe" },
   { "id": "RecipeStoneHarborDelicacies", "name": "Recipe: Stone Harbor Delicacies", "localeName": "Recipe: Stone Harbor Delicacies", "desc": "A detailed step-by-step recipe for making Stone Harbor Delicacies.", "rarity": 2, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeStirFriedShrimp", "name": "Recipe: Stir-Fried Shrimp", "localeName": "Recipe: Stir-Fried Shrimp", "desc": "A detailed step-by-step recipe for making Stir-Fried Shrimp.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeRiceBuns", "name": "Recipe: Rice Buns", "localeName": "Recipe: Rice Buns", "desc": "A detailed step-by-step recipe for making Rice Buns.", "rarity": 1, "type": 7, "typeText": "Recipe" },
   { "id": "RecipeGoulash", "name": "Recipe: Goulash", "localeName": "Recipe: Goulash", "desc": "A detailed step-by-step recipe for making Goulash.", "rarity": 2, "type": 7, "typeText": "Recipe" },
   { "id": "RecipeSunshineSprat", "name": "Recipe: Sunshine Sprat", "localeName": "Recipe: Sunshine Sprat", "desc": "A detailed step-by-step recipe for making Sunshine Sprat.", "rarity": 3, "type": 7, "typeText": "Recipe" },
   { "id": "RecipeUniversalPeace", "name": "Recipe: Universal Peace", "localeName": "Recipe: Universal Peace", "desc": "A detailed step-by-step recipe for making Universal Peace.", "rarity": 3, "type": 7, "typeText": "Recipe" },
@@ -3111,6 +3349,7 @@
   { "id": "RecipeGoldenFriedChicken", "name": "Recipe: Golden Fried Chicken", "localeName": "Recipe: Golden Fried Chicken", "desc": "A detailed step-by-step recipe for making Golden Fried Chicken.", "rarity": 4, "type": 7, "typeText": "Recipe" },
   { "id": "RecipeGoldenChickenBurger", "name": "Recipe: Golden Chicken Burger", "localeName": "Recipe: Golden Chicken Burger", "desc": "A detailed step-by-step recipe for making a Golden Chicken Burger.", "rarity": 3, "type": 7, "typeText": "Recipe" },
   { "id": "RecipeFragrantMashedPotatoes", "name": "Recipe: Fragrant Mashed Potatoes", "localeName": "Recipe: Fragrant Mashed Potatoes", "desc": "A detailed step-by-step recipe for making Fragrant Mashed Potatoes.", "rarity": 3, "type": 7, "typeText": "Recipe" },
+  { "id": "RecipeChickenTofuPudding", "name": "Recipe: Chicken Tofu Pudding", "localeName": "Recipe: Chicken Tofu Pudding", "desc": "A detailed step-by-step recipe for making Chicken Tofu Pudding.", "rarity": 4, "type": 7, "typeText": "Recipe" },
   { "id": "Flour", "name": "Flour", "localeName": "Flour", "desc": "A powder ground from wheat. No matter what it goes into, it brings a sense of satisfaction to the diner.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Processed"] },
   { "id": "Cream", "name": "Cream", "localeName": "Cream", "desc": "A dairy product made from milk. An essential ingredient in making pastries.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Processed"] },
   { "id": "SmokedFowl", "name": "Smoked Fowl", "localeName": "Smoked Fowl", "desc": "Fowl that has been smoked. The firmness of the meat gives new texture to dishes.", "rarity": 1, "type": 4, "typeText": "Cooking Ingredient", "drop": ["Processed"] },
@@ -3692,7 +3931,7 @@
     "id": "LightningPrism",
     "name": "Lightning Prism",
     "localeName": "Lightning Prism",
-    "desc": "An Electro Hypostasis channels nearby elemental energy to repair damaged elemental entities. Contains the essence of Electro energy.\nAn ordinary prism separates white light into its component colors; a Lightning Prism, however, channels flowing energy and weaves them into lightning. It will continue to do so even after the Electro Hypostasis has been defeated.",
+    "desc": "An Electro Hypostasis channels nearby elemental energy to repair damaged elemental entities. Contains the essence of Electro energy.\nAn ordinary prism separates white light into its component colors; a Lightning Prism, however, channels flowing energies and weaves them into lightning. It will continue to do so even after the Electro Hypostasis has been defeated.",
     "rarity": 4,
     "type": 1,
     "typeText": "Character Level-Up Material",
@@ -3837,6 +4076,66 @@
     "type": 1,
     "typeText": "Character Level-Up Material",
     "drop": ["Dropped by Lv. 30+ primo geovishaps"]
+  },
+  {
+    "id": "DragonLordsCrown",
+    "name": "Dragon Lord's Crown",
+    "localeName": "Dragon Lord's Crown",
+    "desc": "Horns created from hardened jade crystallized over a thousand years are the natural crown of the dragon king.\nInfused with spirit and carved from bedrock, it was born from the mountain's heart to show the strength of the earth to the land amidst monoliths, and its long golden horns are the mark of its ancient strife with an ancient lord.\nFor a time, this horn was shattered and lost its luster, but now it gleams cold and gold as it sits in your palm.",
+    "rarity": 5,
+    "type": 1,
+    "typeText": "Character Level-Up Material",
+    "drop": ["Lv. 70+ Azhdaha Challenge Reward"]
+  },
+  {
+    "id": "BloodjadeBranch",
+    "name": "Bloodjade Branch",
+    "localeName": "Bloodjade Branch",
+    "desc": "Nurtured by the might of the dragon king, these bone branches glitter with strange, unique colors.\nHatred coursed through the natural streams and kissed the cold moonlight, and from them were these crystalline branches born and grown...\nEven though they were severed in battle, these branches steeped in dragon blood rustle as if eternally ill-at-ease.",
+    "rarity": 5,
+    "type": 1,
+    "typeText": "Character Level-Up Material",
+    "drop": ["Lv. 70+ Azhdaha Challenge Reward"]
+  },
+  {
+    "id": "GildedScale",
+    "name": "Gilded Scale",
+    "localeName": "Gilded Scale",
+    "desc": "Scaled armor that grows naturally over mystical stone, tough and silent, and filled with the strength of the dragon king.\nAcross the years as countless generations returned to the mulch of the earth, gold and obsidian embedded themselves into flesh and blood forged from bedrock before spreading and turning into scales.\nSearing agony, wordless cries... perhaps they will all vanish when the grudges that spawned them, too, finally come to an end.",
+    "rarity": 5,
+    "type": 1,
+    "typeText": "Character Level-Up Material",
+    "drop": ["Lv. 70+ Azhdaha Challenge Reward"]
+  },
+  {
+    "id": "CrystallineBloom",
+    "name": "Crystalline Bloom",
+    "localeName": "Crystalline Bloom",
+    "desc": "An ice crystal of exceeding purity that is created in the frigid blooming of a Cryo Hypostasis.\nThese frosty crystals will continue to grow according to their own cold, rigid laws, till one day a flower of winter shall bloom and freeze everything. Perhaps it is stagnant time, that never-thawing bosom, that is the essence of this undying flower.",
+    "rarity": 4,
+    "type": 1,
+    "typeText": "Character Level-Up Material",
+    "drop": ["Dropped by Lv.30+ Cryo Hypostases"]
+  },
+  {
+    "id": "DreamSolvent",
+    "name": "Dream Solvent",
+    "localeName": "Dream Solvent",
+    "desc": "An item capable of changing Character Level-Up Materials obtained from memories and trials into whatever form is needed.\nPeople once believed that spirits and memories had some material form. If someone dreamed of heaven before waking up clutching a flower, then that blossom must have been made from such a fantasy. Dream Solvent dissolves that which is obtained from memory and transforms it into some other dream.\nIndeed, blows traded with the strong are stepping stones towards becoming stronger yourself.",
+    "rarity": 4,
+    "type": 7,
+    "typeText": "Consumable",
+    "drop": ["Trounce Domain and Great Wolf King of the North Challenge Reward"]
+  },
+  {
+    "id": "MarionetteCore",
+    "name": "Marionette Core",
+    "localeName": "Marionette Core",
+    "desc": "This core can power the inorganic Maguu Kenki and cause it to wield a blade like a living being.\nFlesh decays, and with it decay all martial arts mastery and all poignant memories.\nPerhaps only by converting one's four limbs and body into sturdy mechanical parts, and by at last sacrificing one's very own heart for a sophisticated mechanical one, can one transcend the impermanence of the fleshly form...",
+    "rarity": 4,
+    "type": 1,
+    "typeText": "Character Level-Up Material",
+    "drop": ["Dropped by Lv. 30+ Maguu Kenki"]
   },
   {
     "id": "TileOfDecarabiansTower",
@@ -4134,6 +4433,15 @@
     "name": "\"The Visible Winds\"",
     "localeName": "\"The Visible Winds\"",
     "desc": "Specialized refinement material for the Windblume Ode.\nAn intricately-made ornament that symbolizes the windmills and windblumes, and is that which adorns the limbs of the Windblume Ode. The wind is invisible and intangible, but the windmills that keep turning and the swaying flowers in the emerald fields are \"the visible winds\" that show people that the breeze will always care for all life in Mondstadt.",
+    "rarity": 4,
+    "type": 1,
+    "typeText": "Refinement Material"
+  },
+  {
+    "id": "FragmentsOfInnocence",
+    "name": "\"Fragments of Innocence\"",
+    "localeName": "\"Fragments of Innocence\"",
+    "desc": "Specialized refinement material for \"Dodoco Tales.\"\nPages scattered on the wind. Each one is filled to the brim with childlike wonder, and their dimensions are an exact match for \"Dodoco Tales.\" The abundant innocence and pure love therein will never fade, and just like the never-ending adventure in the book — this passionate fairy tale shall forever soar in the wake of the author's footsteps.",
     "rarity": 4,
     "type": 1,
     "typeText": "Refinement Material"

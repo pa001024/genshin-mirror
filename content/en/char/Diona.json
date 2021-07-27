@@ -96,7 +96,7 @@
     "localeName": "Icy Paws",
     "desc": "#Fires an Icy Paw that deals <color=#99FFFFFF>Cryo DMG</color> to opponents and forms a shield on hit.\nThe shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nRapidly fires off 2 Icy Paws.\n\n<color=#FFD780FF>Hold</color>\nDashes back quickly before firing five Icy Paws.\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\n\nThe shield has a 250% <color=#99FFFFFF>Cryo DMG</color> Absorption Bonus, and will cause your active character to become affected by <color=#99FFFFFF>Cryo</color> at the point of formation for a short duration.\n\n<i>When she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision — now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!</i>",
     "cd": 6,
-    "paramTpls": ["Icy Paw DMG|{param1:F1P} per Paw", "Base Shield DMG Absorption|{param2:F1P} Max HP+{param3:I}", "Duration|{param6:F1}s per Claw", "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param4:F1}s", "Holding CD|{param5:F1}s"],
+    "paramTpls": ["Icy Paw DMG|{param1:F1P} per Paw", "Base Shield DMG Absorption|{param2:F1P} Max HP+{param3:I}", "Duration|{param6:F1}s per Paw", "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param4:F1}s", "Holding CD|{param5:F1}s"],
     "paramVals": [
       [0.4192, 0.072, 692.81, 6, 15, 1.8],
       [0.45064, 0.0774, 762.1, 6, 15, 1.9],

@@ -907,11 +907,11 @@
     "affix": {
       "name": "集中",
       "levels": [
-        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>8%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.08] },
-        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>10%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.1] },
-        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>12%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.12] },
-        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>14%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.14] },
-        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>16%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.16] }
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>8%</color>、最大5重まで。攻撃会心発生時、効果がクリアされる。", "params": [0.08] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>10%</color>、最大5重まで。攻撃会心発生時、効果がクリアされる。", "params": [0.1] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>12%</color>、最大5重まで。攻撃会心発生時、効果がクリアされる。", "params": [0.12] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>14%</color>、最大5重まで。攻撃会心発生時、効果がクリアされる。", "params": [0.14] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>16%</color>、最大5重まで。攻撃会心発生時、効果がクリアされる。", "params": [0.16] }
       ]
     }
   },
@@ -1751,52 +1751,101 @@
     }
   },
   {
-    "id": "BoreasPrecocity",
-    "name": "Boreas Precocity",
-    "localeName": "北風のプレシャス",
-    "desc": "北風の騎士が使っていた長剣。本来は普通の鋼剣だったが、持ち主の伝説と出身の謎に包まれて、神話のような力を得た。",
+    "id": "FreedomSworn",
+    "name": "Freedom-Sworn",
+    "localeName": "蒼古なる自由への誓い",
+    "desc": "悠久なる歌声のように青く、真っすぐな直剣。風の国を代表する自由の誓いのように、その切っ先は鋭い。",
     "rarity": 5,
     "type": 1,
     "ascensions": [
       {
         "level": 1,
-        "baseATK": 11.7,
+        "baseATK": 31.1,
         "cost": [
-          { "id": "TileOfDecarabiansTower", "localeName": "高塔の王の瓦", "count": 1 },
-          { "id": "HeavyHorn", "localeName": "重い角笛", "count": 1 },
-          { "id": "FirmArrowhead", "localeName": "牢固な矢先", "count": 1 }
+          { "id": "FettersOfTheDandelionGladiator", "localeName": "獅牙戦士の枷", "count": 5 },
+          { "id": "ChaosDevice", "localeName": "混沌の装置", "count": 5 },
+          { "id": "DiviningScroll", "localeName": "占いの絵巻", "count": 3 }
         ]
       },
       {
         "level": 2,
-        "baseATK": 23.3,
+        "baseATK": 62.2,
         "cost": [
-          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔の王の残壁", "count": 1 },
-          { "id": "HeavyHorn", "localeName": "重い角笛", "count": 4 },
-          { "id": "FirmArrowhead", "localeName": "牢固な矢先", "count": 2 }
+          { "id": "ChainsOfTheDandelionGladiator", "localeName": "獅牙戦士の鎖", "count": 5 },
+          { "id": "ChaosDevice", "localeName": "混沌の装置", "count": 18 },
+          { "id": "DiviningScroll", "localeName": "占いの絵巻", "count": 12 }
         ]
       },
       {
         "level": 3,
-        "baseATK": 35,
+        "baseATK": 93.4,
         "cost": [
-          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔の王の残壁", "count": 2 },
-          { "id": "BlackBronzeHorn", "localeName": "黒銅の角笛", "count": 2 },
-          { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "count": 2 }
+          { "id": "ChainsOfTheDandelionGladiator", "localeName": "獅牙戦士の鎖", "count": 9 },
+          { "id": "ChaosCircuit", "localeName": "混沌の回路", "count": 9 },
+          { "id": "SealedScroll", "localeName": "封魔の絵巻", "count": 9 }
         ]
       },
       {
         "level": 4,
-        "baseATK": 46.7,
+        "baseATK": 124.5,
         "cost": [
-          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔の王の断片", "count": 1 },
-          { "id": "BlackBronzeHorn", "localeName": "黒銅の角笛", "count": 4 },
-          { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "count": 3 }
+          { "id": "ShacklesOfTheDandelionGladiator", "localeName": "獅牙戦士の手錠", "count": 5 },
+          { "id": "ChaosCircuit", "localeName": "混沌の回路", "count": 18 },
+          { "id": "SealedScroll", "localeName": "封魔の絵巻", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "ShacklesOfTheDandelionGladiator", "localeName": "獅牙戦士の手錠", "count": 9 },
+          { "id": "ChaosCore", "localeName": "混沌の炉心", "count": 14 },
+          { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "DreamOfTheDandelionGladiator", "localeName": "獅牙戦士の理想", "count": 6 },
+          { "id": "ChaosCore", "localeName": "混沌の炉心", "count": 27 },
+          { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "count": 18 }
         ]
       }
     ],
-    "baseATK": 23.245,
-    "baseATKCurve": 1
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "overviewItems": [
+      { "id": "DreamOfTheDandelionGladiator", "name": "獅牙戦士の理想", "rarity": 5 },
+      { "id": "ChaosCore", "name": "混沌の炉心", "rarity": 4 },
+      { "id": "ForbiddenCurseScroll", "name": "禁呪の絵巻", "rarity": 3 }
+    ],
+    "subAttr": { "type": 11, "value": 43.2, "curve": 18 },
+    "affix": {
+      "name": "執行と抗争の歌",
+      "levels": [
+        {
+          "desc": "風と共に流れる「千年の大楽章」の一部。与えるダメージ+<color=#99FFFFFF>10%</color>。元素反応を起こすと、奮起の欠片を1枚獲得する。この効果は0.5秒内に1回のみ発動でき、待機中のキャラクターも発動できる。奮起の欠片を2枚集めると、全ての奮起の欠片を消費し、周囲のチーム全員に12秒継続する「千年の大楽章·抗争の歌」効果を付与する：通常攻撃、重撃、落下攻撃のダメージ+<color=#99FFFFFF>16%</color>、攻撃力+<color=#99FFFFFF>20%</color>。発動後20秒の間、奮起の欠片を再度獲得することはできない。「千年の大楽章」のもたらす各効果中、同種類の効果は重ね掛け不可。",
+          "params": [0.1, 0.5, 12, 0.16, 0.2, 20]
+        },
+        {
+          "desc": "風と共に流れる「千年の大楽章」の一部。与えるダメージ+<color=#99FFFFFF>12.5%</color>。元素反応を起こすと、奮起の欠片を1枚獲得する。この効果は0.5秒内に1回のみ発動でき、待機中のキャラクターも発動できる。奮起の欠片を2枚集めると、全ての奮起の欠片を消費し、周囲のチーム全員に12秒継続する「千年の大楽章·抗争の歌」効果を付与する：通常攻撃、重撃、落下攻撃のダメージ+<color=#99FFFFFF>20%</color>、攻撃力+<color=#99FFFFFF>25%</color>。発動後20秒の間、奮起の欠片を再度獲得することはできない。「千年の大楽章」のもたらす各効果中、同種類の効果は重ね掛け不可。",
+          "params": [0.125, 0.5, 12, 0.2, 0.25, 20]
+        },
+        {
+          "desc": "風と共に流れる「千年の大楽章」の一部。与えるダメージ+<color=#99FFFFFF>15%</color>。元素反応を起こすと、奮起の欠片を1枚獲得する。この効果は0.5秒内に1回のみ発動でき、待機中のキャラクターも発動できる。奮起の欠片を2枚集めると、全ての奮起の欠片を消費し、周囲のチーム全員に12秒継続する「千年の大楽章·抗争の歌」効果を付与する：通常攻撃、重撃、落下攻撃のダメージ+<color=#99FFFFFF>24%</color>、攻撃力+<color=#99FFFFFF>30%</color>。発動後20秒の間、奮起の欠片を再度獲得することはできない。「千年の大楽章」のもたらす各効果中、同種類の効果は重ね掛け不可。",
+          "params": [0.15, 0.5, 12, 0.24, 0.3, 20]
+        },
+        {
+          "desc": "風と共に流れる「千年の大楽章」の一部。与えるダメージ+<color=#99FFFFFF>17.5%</color>。元素反応を起こすと、奮起の欠片を1枚獲得する。この効果は0.5秒内に1回のみ発動でき、待機中のキャラクターも発動できる。奮起の欠片を2枚集めると、全ての奮起の欠片を消費し、周囲のチーム全員に12秒継続する「千年の大楽章·抗争の歌」効果を付与する：通常攻撃、重撃、落下攻撃のダメージ+<color=#99FFFFFF>28%</color>、攻撃力+<color=#99FFFFFF>35%</color>。発動後20秒の間、奮起の欠片を再度獲得することはできない。「千年の大楽章」のもたらす各効果中、同種類の効果は重ね掛け不可。",
+          "params": [0.175, 0.5, 12, 0.28, 0.35, 20]
+        },
+        {
+          "desc": "風と共に流れる「千年の大楽章」の一部。与えるダメージ+<color=#99FFFFFF>20%</color>。元素反応を起こすと、奮起の欠片を1枚獲得する。この効果は0.5秒内に1回のみ発動でき、待機中のキャラクターも発動できる。奮起の欠片を2枚集めると、全ての奮起の欠片を消費し、周囲のチーム全員に12秒継続する「千年の大楽章·抗争の歌」効果を付与する：通常攻撃、重撃、落下攻撃のダメージ+<color=#99FFFFFF>32%</color>、攻撃力+<color=#99FFFFFF>40%</color>。発動後20秒の間、奮起の欠片を再度獲得することはできない。「千年の大楽章」のもたらす各効果中、同種類の効果は重ね掛け不可。",
+          "params": [0.2, 0.5, 12, 0.32, 0.4, 20]
+        }
+      ]
+    }
   },
   {
     "id": "SummitShaper",
@@ -1872,11 +1921,11 @@
     "affix": {
       "name": "金璋君臨",
       "levels": [
-        { "desc": "シールド強化+<color=#99FFFFFF>20%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>4%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。", "params": [0.2, 0.04, 8] },
-        { "desc": "シールド強化+<color=#99FFFFFF>25%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>5%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。", "params": [0.25, 0.05, 8] },
-        { "desc": "シールド強化+<color=#99FFFFFF>30%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>6%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。", "params": [0.3, 0.06, 8] },
-        { "desc": "シールド強化+<color=#99FFFFFF>35%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>7%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。", "params": [0.35, 0.07, 8] },
-        { "desc": "シールド強化+<color=#99FFFFFF>40%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>8%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。", "params": [0.4, 0.08, 8] }
+        { "desc": "シールド強化+<color=#99FFFFFF>20%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>4%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。", "params": [0.2, 0.04, 8] },
+        { "desc": "シールド強化+<color=#99FFFFFF>25%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>5%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。", "params": [0.25, 0.05, 8] },
+        { "desc": "シールド強化+<color=#99FFFFFF>30%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>6%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。", "params": [0.3, 0.06, 8] },
+        { "desc": "シールド強化+<color=#99FFFFFF>35%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>7%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。", "params": [0.35, 0.07, 8] },
+        { "desc": "シールド強化+<color=#99FFFFFF>40%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>8%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。", "params": [0.4, 0.08, 8] }
       ]
     }
   },
@@ -2862,7 +2911,7 @@
   {
     "id": "RoyalGreatsword",
     "name": "Royal Greatsword",
-    "localeName": "旧貴族の大剣",
+    "localeName": "旧貴族大剣",
     "desc": "かつてモンドを支配した旧貴族の大剣。高級素材が使われているため、長い年月が経っても新しいまま。貴族が戦闘時に使う武器である。",
     "rarity": 4,
     "type": 4,
@@ -2933,11 +2982,11 @@
     "affix": {
       "name": "集中",
       "levels": [
-        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>8%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.08] },
-        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>10%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.1] },
-        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>12%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.12] },
-        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>14%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.14] },
-        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>16%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.16] }
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>8%</color>、最大5重まで。攻撃会心発生時、効果がクリアされる。", "params": [0.08] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>10%</color>、最大5重まで。攻撃会心発生時、効果がクリアされる。", "params": [0.1] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>12%</color>、最大5重まで。攻撃会心発生時、効果がクリアされる。", "params": [0.12] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>14%</color>、最大5重まで。攻撃会心発生時、効果がクリアされる。", "params": [0.14] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>16%</color>、最大5重まで。攻撃会心発生時、効果がクリアされる。", "params": [0.16] }
       ]
     }
   },
@@ -3695,52 +3744,101 @@
     }
   },
   {
-    "id": "UprisingSatire",
-    "name": "Uprising Satire",
-    "localeName": "革新のサタイア",
-    "desc": "伝説では、風の神と共に旅した詩人が頂いた大剣。彼の勇気と皮肉なような鋭さを象徴するものである。",
+    "id": "SongOfBrokenPines",
+    "name": "Song of Broken Pines",
+    "localeName": "松韻の響く頃",
+    "desc": "草木を撫でる風のように軽い大剣だが、その破壊力は木々を吹き飛ばす竜巻を想起させるほど強大なものである。",
     "rarity": 5,
     "type": 4,
     "ascensions": [
       {
         "level": 1,
-        "baseATK": 11.7,
+        "baseATK": 31.1,
         "cost": [
-          { "id": "TileOfDecarabiansTower", "localeName": "高塔の王の瓦", "count": 1 },
-          { "id": "HeavyHorn", "localeName": "重い角笛", "count": 1 },
-          { "id": "FirmArrowhead", "localeName": "牢固な矢先", "count": 1 }
+          { "id": "TileOfDecarabiansTower", "localeName": "高塔の王の瓦", "count": 5 },
+          { "id": "HeavyHorn", "localeName": "重い角笛", "count": 5 },
+          { "id": "DamagedMask", "localeName": "破損した仮面", "count": 3 }
         ]
       },
       {
         "level": 2,
-        "baseATK": 23.3,
+        "baseATK": 62.2,
         "cost": [
-          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔の王の残壁", "count": 1 },
-          { "id": "HeavyHorn", "localeName": "重い角笛", "count": 4 },
-          { "id": "FirmArrowhead", "localeName": "牢固な矢先", "count": 2 }
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔の王の残壁", "count": 5 },
+          { "id": "HeavyHorn", "localeName": "重い角笛", "count": 18 },
+          { "id": "DamagedMask", "localeName": "破損した仮面", "count": 12 }
         ]
       },
       {
         "level": 3,
-        "baseATK": 35,
+        "baseATK": 93.4,
         "cost": [
-          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔の王の残壁", "count": 2 },
-          { "id": "BlackBronzeHorn", "localeName": "黒銅の角笛", "count": 2 },
-          { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "count": 2 }
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔の王の残壁", "count": 9 },
+          { "id": "BlackBronzeHorn", "localeName": "黒銅の角笛", "count": 9 },
+          { "id": "StainedMask", "localeName": "汚れた仮面", "count": 9 }
         ]
       },
       {
         "level": 4,
-        "baseATK": 46.7,
+        "baseATK": 124.5,
         "cost": [
-          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔の王の断片", "count": 1 },
-          { "id": "BlackBronzeHorn", "localeName": "黒銅の角笛", "count": 4 },
-          { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "count": 3 }
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔の王の断片", "count": 5 },
+          { "id": "BlackBronzeHorn", "localeName": "黒銅の角笛", "count": 18 },
+          { "id": "StainedMask", "localeName": "汚れた仮面", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔の王の断片", "count": 9 },
+          { "id": "BlackCrystalHorn", "localeName": "黒晶の角笛", "count": 14 },
+          { "id": "OminousMask", "localeName": "不吉な仮面", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "ScatteredPieceOfDecarabiansDream", "localeName": "高塔の王の砕けた夢", "count": 6 },
+          { "id": "BlackCrystalHorn", "localeName": "黒晶の角笛", "count": 27 },
+          { "id": "OminousMask", "localeName": "不吉な仮面", "count": 18 }
         ]
       }
     ],
-    "baseATK": 47.537,
-    "baseATKCurve": 1
+    "baseATK": 49.138,
+    "baseATKCurve": 13,
+    "overviewItems": [
+      { "id": "ScatteredPieceOfDecarabiansDream", "name": "高塔の王の砕けた夢", "rarity": 5 },
+      { "id": "BlackCrystalHorn", "name": "黒晶の角笛", "rarity": 4 },
+      { "id": "OminousMask", "name": "不吉な仮面", "rarity": 3 }
+    ],
+    "subAttr": { "type": 33, "value": 0.045, "curve": 18 },
+    "affix": {
+      "name": "反抗と旗掲げの歌",
+      "levels": [
+        {
+          "desc": "風と共に流れる「千年の大楽章」の一部。攻撃力+<color=#99FFFFFF>16%</color>。通常攻撃または重撃が敵に命中すると、囁きの欠片を1枚獲得する。この効果は0.3秒毎に1回のみ発動できる。囁きの欠片を4枚集めると、全ての囁きの欠片を消費し、周囲のチーム全員に12秒継続する「千年の大楽章·旗掲げの歌」効果を付与する：通常攻撃速度+<color=#99FFFFFF>12%</color>、攻撃力+<color=#99FFFFFF>20%</color>。発動後の20秒間、囁きの欠片を再度獲得することはできない。「千年の大楽章」のもたらす各効果中、同種類の効果は重ね掛け不可。",
+          "params": [0.16, 0.3, 12, 0.12, 0.2, 20]
+        },
+        {
+          "desc": "風と共に流れる「千年の大楽章」の一部。攻撃力+<color=#99FFFFFF>20%</color>。通常攻撃または重撃が敵に命中すると、囁きの欠片を1枚獲得する。この効果は0.3秒毎に1回のみ発動できる。囁きの欠片を4枚集めると、全ての囁きの欠片を消費し、周囲のチーム全員に12秒継続する「千年の大楽章·旗掲げの歌」効果を付与する：通常攻撃速度+<color=#99FFFFFF>15%</color>、攻撃力+<color=#99FFFFFF>25%</color>。発動後の20秒間、囁きの欠片を再度獲得することはできない。「千年の大楽章」のもたらす各効果中、同種類の効果は重ね掛け不可。",
+          "params": [0.2, 0.3, 12, 0.15, 0.25, 20]
+        },
+        {
+          "desc": "風と共に流れる「千年の大楽章」の一部。攻撃力+<color=#99FFFFFF>24%</color>。通常攻撃または重撃が敵に命中すると、囁きの欠片を1枚獲得する。この効果は0.3秒毎に1回のみ発動できる。囁きの欠片を4枚集めると、全ての囁きの欠片を消費し、周囲のチーム全員に12秒継続する「千年の大楽章·旗掲げの歌」効果を付与する：通常攻撃速度+<color=#99FFFFFF>18%</color>、攻撃力+<color=#99FFFFFF>30%</color>。発動後の20秒間、囁きの欠片を再度獲得することはできない。「千年の大楽章」のもたらす各効果中、同種類の効果は重ね掛け不可。",
+          "params": [0.24, 0.3, 12, 0.18, 0.3, 20]
+        },
+        {
+          "desc": "風と共に流れる「千年の大楽章」の一部。攻撃力+<color=#99FFFFFF>28%</color>。通常攻撃または重撃が敵に命中すると、囁きの欠片を1枚獲得する。この効果は0.3秒毎に1回のみ発動できる。囁きの欠片を4枚集めると、全ての囁きの欠片を消費し、周囲のチーム全員に12秒継続する「千年の大楽章·旗掲げの歌」効果を付与する：通常攻撃速度+<color=#99FFFFFF>21%</color>、攻撃力+<color=#99FFFFFF>35%</color>。発動後の20秒間、囁きの欠片を再度獲得することはできない。「千年の大楽章」のもたらす各効果中、同種類の効果は重ね掛け不可。",
+          "params": [0.28, 0.3, 12, 0.21, 0.35, 20]
+        },
+        {
+          "desc": "風と共に流れる「千年の大楽章」の一部。攻撃力+<color=#99FFFFFF>32%</color>。通常攻撃または重撃が敵に命中すると、囁きの欠片を1枚獲得する。この効果は0.3秒毎に1回のみ発動できる。囁きの欠片を4枚集めると、全ての囁きの欠片を消費し、周囲のチーム全員に12秒継続する「千年の大楽章·旗掲げの歌」効果を付与する：通常攻撃速度+<color=#99FFFFFF>24%</color>、攻撃力+<color=#99FFFFFF>40%</color>。発動後の20秒間、囁きの欠片を再度獲得することはできない。「千年の大楽章」のもたらす各効果中、同種類の効果は重ね掛け不可。",
+          "params": [0.32, 0.3, 12, 0.24, 0.4, 20]
+        }
+      ]
+    }
   },
   {
     "id": "TheUnforged",
@@ -3816,13 +3914,61 @@
     "affix": {
       "name": "金璋君臨",
       "levels": [
-        { "desc": "シールド強化+<color=#99FFFFFF>20%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>4%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。", "params": [0.2, 0.04, 8] },
-        { "desc": "シールド強化+<color=#99FFFFFF>25%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>5%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。", "params": [0.25, 0.05, 8] },
-        { "desc": "シールド強化+<color=#99FFFFFF>30%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>6%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。", "params": [0.3, 0.06, 8] },
-        { "desc": "シールド強化+<color=#99FFFFFF>35%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>7%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。", "params": [0.35, 0.07, 8] },
-        { "desc": "シールド強化+<color=#99FFFFFF>40%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>8%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。", "params": [0.4, 0.08, 8] }
+        { "desc": "シールド強化+<color=#99FFFFFF>20%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>4%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。", "params": [0.2, 0.04, 8] },
+        { "desc": "シールド強化+<color=#99FFFFFF>25%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>5%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。", "params": [0.25, 0.05, 8] },
+        { "desc": "シールド強化+<color=#99FFFFFF>30%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>6%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。", "params": [0.3, 0.06, 8] },
+        { "desc": "シールド強化+<color=#99FFFFFF>35%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>7%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。", "params": [0.35, 0.07, 8] },
+        { "desc": "シールド強化+<color=#99FFFFFF>40%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>8%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。", "params": [0.4, 0.08, 8] }
       ]
     }
+  },
+  {
+    "id": "PrimordialJadeGreatsword",
+    "name": "Primordial Jade Greatsword",
+    "localeName": "美玉魚",
+    "desc": "かつて魔神に所有された美玉、一度荒波を静まらせるために漆黒の海に投げられた。",
+    "rarity": 5,
+    "type": 4,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 11.7,
+        "cost": [
+          { "id": "TileOfDecarabiansTower", "localeName": "高塔の王の瓦", "count": 1 },
+          { "id": "HeavyHorn", "localeName": "重い角笛", "count": 1 },
+          { "id": "FirmArrowhead", "localeName": "牢固な矢先", "count": 1 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 23.3,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔の王の残壁", "count": 1 },
+          { "id": "HeavyHorn", "localeName": "重い角笛", "count": 4 },
+          { "id": "FirmArrowhead", "localeName": "牢固な矢先", "count": 2 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 35,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔の王の残壁", "count": 2 },
+          { "id": "BlackBronzeHorn", "localeName": "黒銅の角笛", "count": 2 },
+          { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "count": 2 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 46.7,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔の王の断片", "count": 1 },
+          { "id": "BlackBronzeHorn", "localeName": "黒銅の角笛", "count": 4 },
+          { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "count": 3 }
+        ]
+      }
+    ],
+    "baseATK": 47.537,
+    "baseATKCurve": 1
   },
   {
     "id": "TheOtherSide",
@@ -4872,7 +5018,7 @@
   {
     "id": "RoyalSpear",
     "name": "Royal Spear",
-    "localeName": "旧貴族の猟槍",
+    "localeName": "旧貴族猟槍",
     "desc": "かつてモンドを支配していた旧貴族が愛用していた長槍。長く封印されていたが、槍先は未だ鋭い。",
     "rarity": 4,
     "type": 3,
@@ -4943,11 +5089,11 @@
     "affix": {
       "name": "集中",
       "levels": [
-        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>8%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.08] },
-        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>10%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.1] },
-        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>12%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.12] },
-        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>14%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.14] },
-        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>16%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.16] }
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>8%</color>、最大5重まで。攻撃会心発生時、効果がクリアされる。", "params": [0.08] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>10%</color>、最大5重まで。攻撃会心発生時、効果がクリアされる。", "params": [0.1] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>12%</color>、最大5重まで。攻撃会心発生時、効果がクリアされる。", "params": [0.12] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>14%</color>、最大5重まで。攻撃会心発生時、効果がクリアされる。", "params": [0.14] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>16%</color>、最大5重まで。攻撃会心発生時、効果がクリアされる。", "params": [0.16] }
       ]
     }
   },
@@ -5228,7 +5374,7 @@
     "id": "VortexVanquisher",
     "name": "Vortex Vanquisher",
     "localeName": "破天の槍",
-    "desc": "あらゆるものを貫けそうな鋭い長槍。振り回す時は空気を切り裂くような感じがする。",
+    "desc": "あらゆるものを貫く鋭い長槍。空気に裂け目を開けるほど、その一振りは凄まじい。",
     "rarity": 5,
     "type": 3,
     "ascensions": [
@@ -5298,11 +5444,11 @@
     "affix": {
       "name": "金璋君臨",
       "levels": [
-        { "desc": "シールド強化+<color=#99FFFFFF>20%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>4%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。", "params": [0.2, 0.04, 8] },
-        { "desc": "シールド強化+<color=#99FFFFFF>25%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>5%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。", "params": [0.25, 0.05, 8] },
-        { "desc": "シールド強化+<color=#99FFFFFF>30%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>6%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。", "params": [0.3, 0.06, 8] },
-        { "desc": "シールド強化+<color=#99FFFFFF>35%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>7%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。", "params": [0.35, 0.07, 8] },
-        { "desc": "シールド強化+<color=#99FFFFFF>40%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>8%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。", "params": [0.4, 0.08, 8] }
+        { "desc": "シールド強化+<color=#99FFFFFF>20%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>4%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。", "params": [0.2, 0.04, 8] },
+        { "desc": "シールド強化+<color=#99FFFFFF>25%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>5%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。", "params": [0.25, 0.05, 8] },
+        { "desc": "シールド強化+<color=#99FFFFFF>30%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>6%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。", "params": [0.3, 0.06, 8] },
+        { "desc": "シールド強化+<color=#99FFFFFF>35%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>7%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。", "params": [0.35, 0.07, 8] },
+        { "desc": "シールド強化+<color=#99FFFFFF>40%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>8%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。", "params": [0.4, 0.08, 8] }
       ]
     }
   },
@@ -6273,7 +6419,7 @@
   {
     "id": "RoyalGrimoire",
     "name": "Royal Grimoire",
-    "localeName": "旧貴族の秘法録",
+    "localeName": "旧貴族秘法録",
     "desc": "かつてモンドを支配した貴族の配下であった魔導師が、記録した史話。",
     "rarity": 4,
     "type": 5,
@@ -6344,11 +6490,11 @@
     "affix": {
       "name": "集中",
       "levels": [
-        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>8%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.08] },
-        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>10%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.1] },
-        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>12%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.12] },
-        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>14%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.14] },
-        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>16%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.16] }
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>8%</color>、最大5重まで。攻撃会心発生時、効果がクリアされる。", "params": [0.08] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>10%</color>、最大5重まで。攻撃会心発生時、効果がクリアされる。", "params": [0.1] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>12%</color>、最大5重まで。攻撃会心発生時、効果がクリアされる。", "params": [0.12] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>14%</color>、最大5重まで。攻撃会心発生時、効果がクリアされる。", "params": [0.14] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>16%</color>、最大5重まで。攻撃会心発生時、効果がクリアされる。", "params": [0.16] }
       ]
     }
   },
@@ -6942,6 +7088,88 @@
     }
   },
   {
+    "id": "DodocoTales",
+    "name": "Dodoco Tales",
+    "localeName": "ドドコの物語",
+    "desc": "豪華な表紙の児童書、子供向けの短いストーリーで構成されている。読むと心がリラックスできるものばかり。\nその無邪気な冒険物語を読めば、たとえ大人でも夢中になるだろう。",
+    "rarity": 4,
+    "type": 5,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "BorealWolfsMilkTooth", "localeName": "凛風奔狼の乳歯", "count": 3 },
+          { "id": "DeadLeyLineBranch", "localeName": "地脈の旧枝", "count": 3 },
+          { "id": "DamagedMask", "localeName": "破損した仮面", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "BorealWolfsCrackedTooth", "localeName": "凛風奔狼の砕牙", "count": 3 },
+          { "id": "DeadLeyLineBranch", "localeName": "地脈の旧枝", "count": 12 },
+          { "id": "DamagedMask", "localeName": "破損した仮面", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "BorealWolfsCrackedTooth", "localeName": "凛風奔狼の砕牙", "count": 6 },
+          { "id": "DeadLeyLineLeaves", "localeName": "地脈の枯れ葉", "count": 6 },
+          { "id": "StainedMask", "localeName": "汚れた仮面", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "BorealWolfsBrokenFang", "localeName": "凛風奔狼の断牙", "count": 3 },
+          { "id": "DeadLeyLineLeaves", "localeName": "地脈の枯れ葉", "count": 12 },
+          { "id": "StainedMask", "localeName": "汚れた仮面", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "BorealWolfsBrokenFang", "localeName": "凛風奔狼の断牙", "count": 6 },
+          { "id": "LeyLineSprout", "localeName": "地脈の新芽", "count": 9 },
+          { "id": "OminousMask", "localeName": "不吉な仮面", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "BorealWolfsNostalgia", "localeName": "凛風奔狼の郷愁", "count": 4 },
+          { "id": "LeyLineSprout", "localeName": "地脈の新芽", "count": 18 },
+          { "id": "OminousMask", "localeName": "不吉な仮面", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 41.067,
+    "baseATKCurve": 9,
+    "overviewItems": [
+      { "id": "BorealWolfsNostalgia", "name": "凛風奔狼の郷愁", "rarity": 5 },
+      { "id": "LeyLineSprout", "name": "地脈の新芽", "rarity": 4 },
+      { "id": "OminousMask", "name": "不吉な仮面", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.12, "curve": 17 },
+    "affix": {
+      "name": "ドドベンチャー！",
+      "levels": [
+        { "desc": "通常攻撃が敵に命中した後の6秒間、重撃ダメージ+<color=#99FFFFFF>16%</color>。重撃が敵に命中した後の6秒間、攻撃力+<color=#99FFFFFF>8%</color>。", "params": [0.16, 6, 0.08, 6] },
+        { "desc": "通常攻撃が敵に命中した後の6秒間、重撃ダメージ+<color=#99FFFFFF>20%</color>。重撃が敵に命中した後の6秒間、攻撃力+<color=#99FFFFFF>10%</color>。", "params": [0.2, 6, 0.1, 6] },
+        { "desc": "通常攻撃が敵に命中した後の6秒間、重撃ダメージ+<color=#99FFFFFF>24%</color>。重撃が敵に命中した後の6秒間、攻撃力+<color=#99FFFFFF>12%</color>。", "params": [0.24, 6, 0.12, 6] },
+        { "desc": "通常攻撃が敵に命中した後の6秒間、重撃ダメージ+<color=#99FFFFFF>28%</color>。重撃が敵に命中した後の6秒間、攻撃力+<color=#99FFFFFF>14%</color>。", "params": [0.28, 6, 0.14, 6] },
+        { "desc": "通常攻撃が敵に命中した後の6秒間、重撃ダメージ+<color=#99FFFFFF>32%</color>。重撃が敵に命中した後の6秒間、攻撃力+<color=#99FFFFFF>16%</color>。", "params": [0.32, 6, 0.16, 6] }
+      ]
+    }
+  },
+  {
     "id": "SkywardAtlas",
     "name": "Skyward Atlas",
     "localeName": "天空の巻",
@@ -7227,13 +7455,61 @@
     "affix": {
       "name": "金璋君臨",
       "levels": [
-        { "desc": "シールド強化+<color=#99FFFFFF>20%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>4%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。", "params": [0.2, 0.04, 8] },
-        { "desc": "シールド強化+<color=#99FFFFFF>25%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>5%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。", "params": [0.25, 0.05, 8] },
-        { "desc": "シールド強化+<color=#99FFFFFF>30%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>6%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。", "params": [0.3, 0.06, 8] },
-        { "desc": "シールド強化+<color=#99FFFFFF>35%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>7%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。", "params": [0.35, 0.07, 8] },
-        { "desc": "シールド強化+<color=#99FFFFFF>40%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>8%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量は2倍になる。", "params": [0.4, 0.08, 8] }
+        { "desc": "シールド強化+<color=#99FFFFFF>20%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>4%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。", "params": [0.2, 0.04, 8] },
+        { "desc": "シールド強化+<color=#99FFFFFF>25%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>5%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。", "params": [0.25, 0.05, 8] },
+        { "desc": "シールド強化+<color=#99FFFFFF>30%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>6%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。", "params": [0.3, 0.06, 8] },
+        { "desc": "シールド強化+<color=#99FFFFFF>35%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>7%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。", "params": [0.35, 0.07, 8] },
+        { "desc": "シールド強化+<color=#99FFFFFF>40%</color>。攻撃が命中した8秒間、攻撃力+<color=#99FFFFFF>8%</color>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。", "params": [0.4, 0.08, 8] }
       ]
     }
+  },
+  {
+    "id": "PrimordialJadeRegalia",
+    "name": "Primordial Jade Regalia",
+    "localeName": "土定の玉",
+    "desc": "山の際と海の浜で居場所を見つけたことを記念するために作られた古代の宝玉。今でも古の力を放ち、国家の平和を守っている。",
+    "rarity": 5,
+    "type": 5,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 11.7,
+        "cost": [
+          { "id": "TileOfDecarabiansTower", "localeName": "高塔の王の瓦", "count": 1 },
+          { "id": "HeavyHorn", "localeName": "重い角笛", "count": 1 },
+          { "id": "FirmArrowhead", "localeName": "牢固な矢先", "count": 1 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 23.3,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔の王の残壁", "count": 1 },
+          { "id": "HeavyHorn", "localeName": "重い角笛", "count": 4 },
+          { "id": "FirmArrowhead", "localeName": "牢固な矢先", "count": 2 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 35,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔の王の残壁", "count": 2 },
+          { "id": "BlackBronzeHorn", "localeName": "黒銅の角笛", "count": 2 },
+          { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "count": 2 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 46.7,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔の王の断片", "count": 1 },
+          { "id": "BlackBronzeHorn", "localeName": "黒銅の角笛", "count": 4 },
+          { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "count": 3 }
+        ]
+      }
+    ],
+    "baseATK": 47.537,
+    "baseATKCurve": 1
   },
   {
     "id": "DiamondVisage",
@@ -8120,7 +8396,7 @@
   {
     "id": "RoyalBow",
     "name": "Royal Bow",
-    "localeName": "旧貴族の長弓",
+    "localeName": "旧貴族長弓",
     "desc": "かつてモンドを支配していた旧貴族の長弓。無数の世代を経たが、弦はまだ鈍っておらず、素早く弓を射ることができる。",
     "rarity": 4,
     "type": 2,
@@ -8191,11 +8467,11 @@
     "affix": {
       "name": "集中",
       "levels": [
-        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>8%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.08] },
-        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>10%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.1] },
-        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>12%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.12] },
-        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>14%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.14] },
-        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>16%</color>、最大5重まで。攻撃会心発生時、効果をクリアにする。", "params": [0.16] }
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>8%</color>、最大5重まで。攻撃会心発生時、効果がクリアされる。", "params": [0.08] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>10%</color>、最大5重まで。攻撃会心発生時、効果がクリアされる。", "params": [0.1] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>12%</color>、最大5重まで。攻撃会心発生時、効果がクリアされる。", "params": [0.12] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>14%</color>、最大5重まで。攻撃会心発生時、効果がクリアされる。", "params": [0.14] },
+        { "desc": "攻撃が敵にダメージを与えた時、会心率+<color=#99FFFFFF>16%</color>、最大5重まで。攻撃会心発生時、効果がクリアされる。", "params": [0.16] }
       ]
     }
   },
@@ -8707,6 +8983,88 @@
     }
   },
   {
+    "id": "MitternachtsWaltz",
+    "name": "Mitternachts Waltz",
+    "localeName": "幽夜のワルツ",
+    "desc": "罪と幻想の夜を想起させる色をした弓。",
+    "rarity": 4,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "TileOfDecarabiansTower", "localeName": "高塔の王の瓦", "count": 3 },
+          { "id": "HeavyHorn", "localeName": "重い角笛", "count": 3 },
+          { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔の王の残壁", "count": 3 },
+          { "id": "HeavyHorn", "localeName": "重い角笛", "count": 12 },
+          { "id": "TreasureHoarderInsignia", "localeName": "宝探しの鴉マーク", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔の王の残壁", "count": 6 },
+          { "id": "BlackBronzeHorn", "localeName": "黒銅の角笛", "count": 6 },
+          { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔の王の断片", "count": 3 },
+          { "id": "BlackBronzeHorn", "localeName": "黒銅の角笛", "count": 12 },
+          { "id": "SilverRavenInsignia", "localeName": "シルバーの鴉マーク", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔の王の断片", "count": 6 },
+          { "id": "BlackCrystalHorn", "localeName": "黒晶の角笛", "count": 9 },
+          { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "ScatteredPieceOfDecarabiansDream", "localeName": "高塔の王の砕けた夢", "count": 4 },
+          { "id": "BlackCrystalHorn", "localeName": "黒晶の角笛", "count": 18 },
+          { "id": "GoldenRavenInsignia", "localeName": "ゴールドの鴉マーク", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "overviewItems": [
+      { "id": "ScatteredPieceOfDecarabiansDream", "name": "高塔の王の砕けた夢", "rarity": 5 },
+      { "id": "BlackCrystalHorn", "name": "黒晶の角笛", "rarity": 4 },
+      { "id": "GoldenRavenInsignia", "name": "ゴールドの鴉マーク", "rarity": 3 }
+    ],
+    "subAttr": { "type": 33, "value": 0.1126, "curve": 17 },
+    "affix": {
+      "name": "極夜のデュエット",
+      "levels": [
+        { "desc": "通常攻撃が敵に命中した後の5秒間、元素スキルのダメージ+<color=#99FFFFFF>20%</color>。元素スキルが敵に命中した後の5秒間、通常攻撃のダメージ+<color=#99FFFFFF>20%</color>。", "params": [0.2, 5, 0.2, 5] },
+        { "desc": "通常攻撃が敵に命中した後の5秒間、元素スキルのダメージ+<color=#99FFFFFF>25%</color>。元素スキルが敵に命中した後の5秒間、通常攻撃のダメージ+<color=#99FFFFFF>25%</color>。", "params": [0.25, 5, 0.25, 5] },
+        { "desc": "通常攻撃が敵に命中した後の5秒間、元素スキルのダメージ+<color=#99FFFFFF>30%</color>。元素スキルが敵に命中した後の5秒間、通常攻撃のダメージ+<color=#99FFFFFF>30%</color>。", "params": [0.3, 5, 0.3, 5] },
+        { "desc": "通常攻撃が敵に命中した後の5秒間、元素スキルのダメージ+<color=#99FFFFFF>35%</color>。元素スキルが敵に命中した後の5秒間、通常攻撃のダメージ+<color=#99FFFFFF>35%</color>。", "params": [0.35, 5, 0.35, 5] },
+        { "desc": "通常攻撃が敵に命中した後の5秒間、元素スキルのダメージ+<color=#99FFFFFF>40%</color>。元素スキルが敵に命中した後の5秒間、通常攻撃のダメージ+<color=#99FFFFFF>40%</color>。", "params": [0.4, 5, 0.4, 5] }
+      ]
+    }
+  },
+  {
     "id": "WindblumeOde",
     "name": "Windblume Ode",
     "localeName": "風花の頌歌",
@@ -9027,27 +9385,123 @@
       "name": "追憶と別れの歌",
       "levels": [
         {
-          "desc": "風と共に流れる「千年の大楽章」の一部。元素熟知+<color=#99FFFFFF>60</color>。元素スキルまたは元素爆発が敵に命中すると、追憶の欠片を一枚獲得する。この効果は0.2秒毎に一回のみ発動でき、待機中のキャラクターも発動できる。追憶の欠片を4枚集めると、全ての追憶の欠片を消費し、周囲のチーム全員に12秒継続する「千年の大楽章·別れの歌」効果を付与する：元素熟知+<color=#99FFFFFF>100</color>、攻撃力+<color=#99FFFFFF>20%</color>。発動後の20秒間、追憶の欠片を再度獲得することはできない。「千年の大楽章」のもたらす各効果中、同種類の効果は重ね掛け不可。",
+          "desc": "風と共に流れる「千年の大楽章」の一部。元素熟知+<color=#99FFFFFF>60</color>。元素スキルまたは元素爆発が敵に命中すると、追憶の欠片を1枚獲得する。この効果は0.2秒毎に一回のみ発動でき、待機中のキャラクターも発動できる。追憶の欠片を4枚集めると、全ての追憶の欠片を消費し、周囲のチーム全員に12秒継続する「千年の大楽章·別れの歌」効果を付与する：元素熟知+<color=#99FFFFFF>100</color>、攻撃力+<color=#99FFFFFF>20%</color>。発動後の20秒間、追憶の欠片を再度獲得することはできない。「千年の大楽章」のもたらす各効果中、同種類の効果は重ね掛け不可。",
           "params": [60, 0.2, 12, 100, 0.2, 20]
         },
         {
-          "desc": "風と共に流れる「千年の大楽章」の一部。元素熟知+<color=#99FFFFFF>75</color>。元素スキルまたは元素爆発が敵に命中すると、追憶の欠片を一枚獲得する。この効果は0.2秒毎に一回のみ発動でき、待機中のキャラクターも発動できる。追憶の欠片を4枚集めると、全ての追憶の欠片を消費し、周囲のチーム全員に12秒継続する「千年の大楽章·別れの歌」効果を付与する：元素熟知+<color=#99FFFFFF>125</color>、攻撃力+<color=#99FFFFFF>25%</color>。発動後の20秒間、追憶の欠片を再度獲得することはできない。「千年の大楽章」のもたらす各効果中、同種類の効果は重ね掛け不可。",
+          "desc": "風と共に流れる「千年の大楽章」の一部。元素熟知+<color=#99FFFFFF>75</color>。元素スキルまたは元素爆発が敵に命中すると、追憶の欠片を1枚獲得する。この効果は0.2秒毎に一回のみ発動でき、待機中のキャラクターも発動できる。追憶の欠片を4枚集めると、全ての追憶の欠片を消費し、周囲のチーム全員に12秒継続する「千年の大楽章·別れの歌」効果を付与する：元素熟知+<color=#99FFFFFF>125</color>、攻撃力+<color=#99FFFFFF>25%</color>。発動後の20秒間、追憶の欠片を再度獲得することはできない。「千年の大楽章」のもたらす各効果中、同種類の効果は重ね掛け不可。",
           "params": [75, 0.2, 12, 125, 0.25, 20]
         },
         {
-          "desc": "風と共に流れる「千年の大楽章」の一部。元素熟知+<color=#99FFFFFF>90</color>。元素スキルまたは元素爆発が敵に命中すると、追憶の欠片を一枚獲得する。この効果は0.2秒毎に一回のみ発動でき、待機中のキャラクターも発動できる。追憶の欠片を4枚集めると、全ての追憶の欠片を消費し、周囲のチーム全員に12秒継続する「千年の大楽章·別れの歌」効果を付与する：元素熟知+<color=#99FFFFFF>150</color>、攻撃力+<color=#99FFFFFF>30%</color>。発動後の20秒間、追憶の欠片を再度獲得することはできない。「千年の大楽章」のもたらす各効果中、同種類の効果は重ね掛け不可。",
+          "desc": "風と共に流れる「千年の大楽章」の一部。元素熟知+<color=#99FFFFFF>90</color>。元素スキルまたは元素爆発が敵に命中すると、追憶の欠片を1枚獲得する。この効果は0.2秒毎に一回のみ発動でき、待機中のキャラクターも発動できる。追憶の欠片を4枚集めると、全ての追憶の欠片を消費し、周囲のチーム全員に12秒継続する「千年の大楽章·別れの歌」効果を付与する：元素熟知+<color=#99FFFFFF>150</color>、攻撃力+<color=#99FFFFFF>30%</color>。発動後の20秒間、追憶の欠片を再度獲得することはできない。「千年の大楽章」のもたらす各効果中、同種類の効果は重ね掛け不可。",
           "params": [90, 0.2, 12, 150, 0.3, 20]
         },
         {
-          "desc": "風と共に流れる「千年の大楽章」の一部。元素熟知+<color=#99FFFFFF>105</color>。元素スキルまたは元素爆発が敵に命中すると、追憶の欠片を一枚獲得する。この効果は0.2秒毎に一回のみ発動でき、待機中のキャラクターも発動できる。追憶の欠片を4枚集めると、全ての追憶の欠片を消費し、周囲のチーム全員に12秒継続する「千年の大楽章·別れの歌」効果を付与する：元素熟知+<color=#99FFFFFF>175</color>、攻撃力+<color=#99FFFFFF>35%</color>。発動後の20秒間、追憶の欠片を再度獲得することはできない。「千年の大楽章」のもたらす各効果中、同種類の効果は重ね掛け不可。",
+          "desc": "風と共に流れる「千年の大楽章」の一部。元素熟知+<color=#99FFFFFF>105</color>。元素スキルまたは元素爆発が敵に命中すると、追憶の欠片を1枚獲得する。この効果は0.2秒毎に一回のみ発動でき、待機中のキャラクターも発動できる。追憶の欠片を4枚集めると、全ての追憶の欠片を消費し、周囲のチーム全員に12秒継続する「千年の大楽章·別れの歌」効果を付与する：元素熟知+<color=#99FFFFFF>175</color>、攻撃力+<color=#99FFFFFF>35%</color>。発動後の20秒間、追憶の欠片を再度獲得することはできない。「千年の大楽章」のもたらす各効果中、同種類の効果は重ね掛け不可。",
           "params": [105, 0.2, 12, 175, 0.35, 20]
         },
         {
-          "desc": "風と共に流れる「千年の大楽章」の一部。元素熟知+<color=#99FFFFFF>120</color>。元素スキルまたは元素爆発が敵に命中すると、追憶の欠片を一枚獲得する。この効果は0.2秒毎に一回のみ発動でき、待機中のキャラクターも発動できる。追憶の欠片を4枚集めると、全ての追憶の欠片を消費し、周囲のチーム全員に12秒継続する「千年の大楽章·別れの歌」効果を付与する：元素熟知+<color=#99FFFFFF>200</color>、攻撃力+<color=#99FFFFFF>40%</color>。発動後の20秒間、追憶の欠片を再度獲得することはできない。「千年の大楽章」のもたらす各効果中、同種類の効果は重ね掛け不可。",
+          "desc": "風と共に流れる「千年の大楽章」の一部。元素熟知+<color=#99FFFFFF>120</color>。元素スキルまたは元素爆発が敵に命中すると、追憶の欠片を1枚獲得する。この効果は0.2秒毎に一回のみ発動でき、待機中のキャラクターも発動できる。追憶の欠片を4枚集めると、全ての追憶の欠片を消費し、周囲のチーム全員に12秒継続する「千年の大楽章·別れの歌」効果を付与する：元素熟知+<color=#99FFFFFF>200</color>、攻撃力+<color=#99FFFFFF>40%</color>。発動後の20秒間、追憶の欠片を再度獲得することはできない。「千年の大楽章」のもたらす各効果中、同種類の効果は重ね掛け不可。",
           "params": [120, 0.2, 12, 200, 0.4, 20]
         }
       ]
     }
+  },
+  {
+    "id": "KunwusWyrmbane",
+    "name": "Kunwu's Wyrmbane",
+    "localeName": "昆吾の堕龍",
+    "desc": "名匠昆吾が龍の筋を使って作った大弓、龍さえも殺せる強さがある。矢を放つ時、雷のような勢いがある。",
+    "rarity": 5,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 11.7,
+        "cost": [
+          { "id": "TileOfDecarabiansTower", "localeName": "高塔の王の瓦", "count": 1 },
+          { "id": "HeavyHorn", "localeName": "重い角笛", "count": 1 },
+          { "id": "FirmArrowhead", "localeName": "牢固な矢先", "count": 1 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 23.3,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔の王の残壁", "count": 1 },
+          { "id": "HeavyHorn", "localeName": "重い角笛", "count": 4 },
+          { "id": "FirmArrowhead", "localeName": "牢固な矢先", "count": 2 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 35,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔の王の残壁", "count": 2 },
+          { "id": "BlackBronzeHorn", "localeName": "黒銅の角笛", "count": 2 },
+          { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "count": 2 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 46.7,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔の王の断片", "count": 1 },
+          { "id": "BlackBronzeHorn", "localeName": "黒銅の角笛", "count": 4 },
+          { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "count": 3 }
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 1
+  },
+  {
+    "id": "PrimordialJadeVista",
+    "name": "Primordial Jade Vista",
+    "localeName": "高価なオーブ",
+    "desc": "上古の宝玉で作られた、一国を守れる弓。一線に集まる光は幻造の弦になる。",
+    "rarity": 5,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 11.7,
+        "cost": [
+          { "id": "TileOfDecarabiansTower", "localeName": "高塔の王の瓦", "count": 1 },
+          { "id": "HeavyHorn", "localeName": "重い角笛", "count": 1 },
+          { "id": "FirmArrowhead", "localeName": "牢固な矢先", "count": 1 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 23.3,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔の王の残壁", "count": 1 },
+          { "id": "HeavyHorn", "localeName": "重い角笛", "count": 4 },
+          { "id": "FirmArrowhead", "localeName": "牢固な矢先", "count": 2 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 35,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔の王の残壁", "count": 2 },
+          { "id": "BlackBronzeHorn", "localeName": "黒銅の角笛", "count": 2 },
+          { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "count": 2 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 46.7,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔の王の断片", "count": 1 },
+          { "id": "BlackBronzeHorn", "localeName": "黒銅の角笛", "count": 4 },
+          { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "count": 3 }
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 1
   },
   {
     "id": "MirrorBreaker",

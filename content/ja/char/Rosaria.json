@@ -308,7 +308,7 @@
     {
       "name": "ShadowSamaritan",
       "localeName": "陰から支える暗色",
-      "desc": "<color=#FFD780FF>臨終の聖礼</color>発動時、自身の会心率の15%分、チーム全員（ロサリア自身を除く）の会心率をアップさせる、継続時間10秒。\nこの方法で獲得できる会心率アップ効果は、最大15%まで。",
+      "desc": "<color=#FFD780FF>臨終の聖礼</color>発動時、自身の会心率の15%分、周囲のチーム全員（ロサリア自身を除く）の会心率をアップさせる、継続時間10秒。\nこの方法で獲得できる会心率アップ効果は、最大15%まで。",
       "unlock": 4,
       "values": [0.15, 10, 0.15]
     },
@@ -320,7 +320,7 @@
     { "name": "TheWagesOfSin", "localeName": "懺悔の儀", "desc": "<color=#FFD780FF>罪喰いの懺悔</color>のスキルLv.+3。\n最大Lv.15まで。" },
     { "name": "PainfulGrace", "localeName": "苦痛の恩典", "desc": "<color=#FFD780FF>罪喰いの懺悔</color>で会心が発生すると、ロサリア自身の元素エネルギーが5回復する。\nこの効果は、1回の罪喰いの懺悔で1度のみ発動可能。", "values": [5] },
     { "name": "LastRites", "localeName": "臨終の祈り", "desc": "<color=#FFD780FF>臨終の聖礼</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "DivineRetribution", "localeName": "代行裁判", "desc": "<color=#FFD780FF>臨終の聖礼</color>を発動すると、敵の物理耐性-20%、継続時間10秒。", "values": [0.2, 10, 1] }
+    { "name": "DivineRetribution", "localeName": "代行裁判", "desc": "<color=#FFD780FF>臨終の聖礼</color>の攻撃が敵に命中すると、敵の物理耐性-20%、継続時間10秒。", "values": [0.2, 10, 1] }
   ],
   "overviewItems": [
     { "id": "ShivadaJadeGemstone", "localeName": "哀切なアイスクリスタル", "rarity": 5 },
