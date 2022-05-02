@@ -1,4 +1,5 @@
 {
+  "uid": 10000043,
   "id": "Sucrose",
   "name": "Sucrose",
   "localeName": "Sucrose",
@@ -308,7 +309,7 @@
     { "name": "ClusteredVacuumField", "localeName": "Clustered Vacuum Field", "desc": "<color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> gains 1 additional charge." },
     { "name": "BethUnboundForm", "localeName": "Beth: Unbound Form", "desc": "The duration of <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> is increased by 2s.", "values": [2] },
     { "name": "FlawlessAlchemistress", "localeName": "Flawless Alchemistress", "desc": "Increases the Level of <color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> by 3.\nMaximum upgrade level is 15." },
-    { "name": "Alchemania", "localeName": "Alchemania", "desc": "Every 7 Normal and Charged Attacks, Sucrose will reduce the CD of <color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> by 1-7s." },
+    { "name": "Alchemania", "localeName": "Alchemania", "desc": "Sucrose will reduce the CD of <color=#FFD780FF>Astable Anemohypostasis Creation - 6308</color> by 1-7s for every 7 Normal or Charged Attack hits she scores against opponents.\nOne hit may be counted every 0.1s." },
     { "name": "CautionStandardFlask", "localeName": "Caution: Standard Flask", "desc": "Increases the Level of <color=#FFD780FF>Forbidden Creation - Isomer 75 / Type II</color> by 3.\nMaximum upgrade level is 15." },
     {
       "name": "ChaoticEntropy",

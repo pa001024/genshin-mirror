@@ -1,0 +1,338 @@
+{
+  "uid": 10000055,
+  "id": "Gorou",
+  "name": "Gorou",
+  "localeName": "ゴロー",
+  "desc": "海祇島軍隊の大将で、部下から厚く信頼されている。",
+  "baseHP": 802.38,
+  "baseATK": 15.315,
+  "baseDEF": 54.364,
+  "bodyType": 0,
+  "rarity": 4,
+  "weapon": 2,
+  "region": 3,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "PrithivaTopazSliver", "localeName": "堅牢なトパーズ·砕屑", "rarity": 2, "count": 1 },
+        { "id": "SangoPearl", "localeName": "珊瑚真珠", "count": 3 },
+        { "id": "SpectralHusk", "localeName": "フライムの乾核", "rarity": 1, "count": 3 }
+      ],
+      "HP": 599.42,
+      "ATK": 11.441,
+      "DEF": 40.612,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "PrithivaTopazFragment", "localeName": "堅牢なトパーズ·欠片", "rarity": 3, "count": 3 },
+        { "id": "PerpetualHeart", "localeName": "恒常からくりの芯", "rarity": 4, "count": 2 },
+        { "id": "SangoPearl", "localeName": "珊瑚真珠", "count": 10 },
+        { "id": "SpectralHusk", "localeName": "フライムの乾核", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1025.3,
+      "ATK": 19.571,
+      "DEF": 69.469,
+      "extra": 0.06
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "PrithivaTopazFragment", "localeName": "堅牢なトパーズ·欠片", "rarity": 3, "count": 6 },
+        { "id": "PerpetualHeart", "localeName": "恒常からくりの芯", "rarity": 4, "count": 4 },
+        { "id": "SangoPearl", "localeName": "珊瑚真珠", "count": 20 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1593.2,
+      "ATK": 30.41,
+      "DEF": 107.94,
+      "extra": 0.12
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "PrithivaTopazChunk", "localeName": "堅牢なトパーズ·塊", "rarity": 4, "count": 3 },
+        { "id": "PerpetualHeart", "localeName": "恒常からくりの芯", "rarity": 4, "count": 8 },
+        { "id": "SangoPearl", "localeName": "珊瑚真珠", "count": 30 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2019.1,
+      "ATK": 38.539,
+      "DEF": 136.8,
+      "extra": 0.12
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "PrithivaTopazChunk", "localeName": "堅牢なトパーズ·塊", "rarity": 4, "count": 6 },
+        { "id": "PerpetualHeart", "localeName": "恒常からくりの芯", "rarity": 4, "count": 12 },
+        { "id": "SangoPearl", "localeName": "珊瑚真珠", "count": 45 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 12 }
+      ],
+      "HP": 2445,
+      "ATK": 46.668,
+      "DEF": 165.66,
+      "extra": 0.18
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "PrithivaTopazGemstone", "localeName": "堅牢なトパーズ", "rarity": 5, "count": 6 },
+        { "id": "PerpetualHeart", "localeName": "恒常からくりの芯", "rarity": 4, "count": 20 },
+        { "id": "SangoPearl", "localeName": "珊瑚真珠", "count": 60 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 24 }
+      ],
+      "HP": 2870.9,
+      "ATK": 54.798,
+      "DEF": 194.51,
+      "extra": 0.24
+    }
+  ],
+  "ascensionType": 31,
+  "element": 2,
+  "elemSkill": {
+    "name": "InuzakaAllRoundDefense",
+    "localeName": "犬坂の遠吠え方円陣",
+    "desc": "<color=#FFE699FF>岩元素範囲ダメージ</color>を与え、大将の旗指物を掲げる。\n\n<color=#FFD780FF>大将の旗指物</color>\n発動時、チームにいる<color=#FFE699FF>岩元素</color>タイプキャラクターの人数に応じて、領域内のフィールド上キャラクターに下記効果を与える。\n·1人の時·「堅牢」：防御力がアップ。\n·2人の時·「破耐」：上記効果に加え、中断耐性がアップ。\n·3人の時·「粉砕」：上記効果に加え、<color=#FFE699FF>岩元素ダメージ</color>がアップ。\n\nゴロー自身が創造した大将の旗指物は、同時に最大1つまで存在可能。キャラクターが獲得できる大将の旗指物の効果は1種のみ。キャラクターが領域を出た後、領域による効果は2秒続く。\n\n<color=#FFD780FF>長押し</color>\nスキルの発動位置を調整できる。\n\n<i>「この陣の中にいれば、命の安全を保障しよう！」いつどこであろうとゴローが避けたいこと、それは仲間が傷つくことだ。</i>",
+    "cd": 10,
+    "paramTpls": ["スキルダメージ|{param1:F1P}", "防御力アップ|{param2:I}", "岩元素ダメージアップ|{param3:P}", "継続時間|{param4:F1}秒", "クールタイム|{param5:F1}秒"],
+    "paramVals": [
+      [1.072, 206.16, 0.15, 10, 10],
+      [1.1524, 221.62, 0.15, 10, 10],
+      [1.2328, 237.08, 0.15, 10, 10],
+      [1.34, 257.7, 0.15, 10, 10],
+      [1.4204, 273.16, 0.15, 10, 10],
+      [1.5008, 288.62, 0.15, 10, 10],
+      [1.608, 309.24, 0.15, 10, 10],
+      [1.7152, 329.86, 0.15, 10, 10],
+      [1.8224, 350.47, 0.15, 10, 10],
+      [1.9296, 371.09, 0.15, 10, 10],
+      [2.0368, 391.7, 0.15, 10, 10],
+      [2.144, 412.32, 0.15, 10, 10],
+      [2.278, 438.09, 0.15, 10, 10],
+      [2.412, 463.86, 0.15, 10, 10],
+      [2.546, 489.63, 0.15, 10, 10]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfLight", "localeName": "「天光」の教え", "rarity": 2, "count": 3 },
+        { "id": "SpectralHusk", "localeName": "フライムの乾核", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 2 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 4 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 6 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 9 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 4 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 4 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 6 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 6 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 12 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 9 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 16 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 12 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "JuugaForwardUntoVictory",
+    "localeName": "獣牙突撃陣形戦法",
+    "desc": "大将の威厳を示し、<color=#FFE699FF>岩元素範囲ダメージ</color>を与え、大将威儀の領域を展開して周囲の戦友を鼓舞する。\n\n<color=#FFD780FF>大将威儀</color>\n大将威儀は以下の特性を持つ。\n·領域は元素スキル「犬坂の遠吠え方円陣」が創造した大将の旗指物と同じ効果を持つ。発動時、チームにいる<color=#FFE699FF>岩元素</color>タイプキャラクターの人数に応じて、領域内のフィールド上キャラクターに効果を与える。また、領域はフィールド上キャラクターと共に移動する。\n·1.5秒毎に岩晶崩滅を発動し、領域内の敵1体に<color=#FFE699FF>岩元素範囲ダメージ</color>を与える。\n·1.5秒毎に領域内の結晶反応で生成した結晶の欠片を1つ、キャラクターの位置に引き寄せる。\n\n発動時、ゴロー自身の大将の旗指物が存在する場合、それは破壊される。また、大将威儀の継続時間内、ゴロー自身が元素スキル「犬坂の遠吠え方円陣」を発動しても、大将の旗指物は創造されない。\nゴローが戦闘不能になった時、ゴロー自身の大将威儀効果はクリアされる。\n\n<i>「地の利を得たぞ！」ゴローは戦場の地勢を僅かに変えることができる。強敵に立ち向かう彼が用いる、勝利への秘訣だ。</i>",
+    "cd": 20,
+    "energyCost": 80,
+    "paramTpls": ["スキルダメージ|{param1:P}防御力", "岩晶崩滅ダメージ|{param2:P}防御力", "継続時間|{param3:F1}秒", "クールタイム|{param4:F1}秒", "元素エネルギー|{param5:I}"],
+    "paramVals": [
+      [0.98216, 0.613, 9, 20, 80],
+      [1.0558, 0.65898, 9, 20, 80],
+      [1.1295, 0.70495, 9, 20, 80],
+      [1.2277, 0.76625, 9, 20, 80],
+      [1.3014, 0.81222, 9, 20, 80],
+      [1.375, 0.8582, 9, 20, 80],
+      [1.4732, 0.9195, 9, 20, 80],
+      [1.5715, 0.9808, 9, 20, 80],
+      [1.6697, 1.0421, 9, 20, 80],
+      [1.7679, 1.1034, 9, 20, 80],
+      [1.8661, 1.1647, 9, 20, 80],
+      [1.9643, 1.226, 9, 20, 80],
+      [2.0871, 1.3026, 9, 20, 80],
+      [2.2099, 1.3793, 9, 20, 80],
+      [2.3326, 1.4559, 9, 20, 80]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfLight", "localeName": "「天光」の教え", "rarity": 2, "count": 3 },
+        { "id": "SpectralHusk", "localeName": "フライムの乾核", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 2 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 4 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 6 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 9 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 4 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 4 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 6 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 6 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 12 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 9 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 16 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 12 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackRippingFangFletching",
+    "localeName": "通常攻撃·獣牙裂扇矢",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n最大4段の連続射撃を行う。\n\n<color=#FFD780FF>重撃</color>\nダメージがより高く、より精確な<color=#FFD780FF>狙い撃ち</color>を発動する。\n照準時、岩晶を矢先に凝集させ、岩晶に満ちた矢で敵に<color=#FFE699FF>岩元素ダメージ</color>を与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。",
+    "cd": 0,
+    "paramTpls": ["1段ダメージ|{param1:F1P}", "2段ダメージ|{param2:F1P}", "3段ダメージ|{param3:F1P}", "4段ダメージ|{param4:F1P}", "狙い撃ち|{param5:F1P}", "フルチャージ狙い撃ち|{param6:P}", "落下期間のダメージ|{param7:F1P}", "低空/高空落下攻撃ダメージ|{param8:P}/{param9:P}"],
+    "paramVals": [
+      [0.37754, 0.37152, 0.4945, 0.58996, 0.4386, 1.24, 0.56829, 1.1363, 1.4193],
+      [0.40827, 0.40176, 0.53475, 0.63798, 0.4743, 1.333, 0.61454, 1.2288, 1.5349],
+      [0.439, 0.432, 0.575, 0.686, 0.51, 1.426, 0.6608, 1.3213, 1.6504],
+      [0.4829, 0.4752, 0.6325, 0.7546, 0.561, 1.55, 0.72688, 1.4535, 1.8154],
+      [0.51363, 0.50544, 0.67275, 0.80262, 0.5967, 1.643, 0.77314, 1.5459, 1.931],
+      [0.54875, 0.54, 0.71875, 0.8575, 0.6375, 1.736, 0.826, 1.6516, 2.063],
+      [0.59704, 0.58752, 0.782, 0.93296, 0.6936, 1.86, 0.89869, 1.797, 2.2445],
+      [0.64533, 0.63504, 0.84525, 1.0084, 0.7497, 1.984, 0.97138, 1.9423, 2.4261],
+      [0.69362, 0.68256, 0.9085, 1.0839, 0.8058, 2.108, 1.0441, 2.0877, 2.6076],
+      [0.7463, 0.7344, 0.9775, 1.1662, 0.867, 2.232, 1.1234, 2.2462, 2.8057],
+      [0.79898, 0.78624, 1.0465, 1.2485, 0.9282, 2.356, 1.2027, 2.4048, 3.0037],
+      [0.85166, 0.83808, 1.1155, 1.3308, 0.9894, 2.48, 1.282, 2.5634, 3.2018],
+      [0.90434, 0.88992, 1.1845, 1.4132, 1.0506, 2.635, 1.3612, 2.7219, 3.3998],
+      [0.95702, 0.94176, 1.2535, 1.4955, 1.1118, 2.79, 1.4405, 2.8805, 3.5979],
+      [1.0097, 0.9936, 1.3225, 1.5778, 1.173, 2.945, 1.5198, 3.039, 3.7959]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfLight", "localeName": "「天光」の教え", "rarity": 2, "count": 3 },
+        { "id": "SpectralHusk", "localeName": "フライムの乾核", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 2 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 4 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 6 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 9 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 4 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 4 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 6 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 6 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 12 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 9 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 16 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 12 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "HeedlessOfTheWindAndWeather", "localeName": "風雨を恐れず", "desc": "<color=#FFD780FF>獣牙突撃陣形戦法</color>を発動した後の12秒間、周囲のチーム全員の防御力+25%。", "unlock": 1, "values": [0.25, 12] },
+    {
+      "name": "AFavorRepaid",
+      "localeName": "報恩の守護",
+      "desc": "防御力を基にゴローの以下攻撃のダメージが増加する。\n·<color=#FFD780FF>犬坂の遠吠え方円陣</color>のスキルダメージが防御力156%分アップする。\n·<color=#FFD780FF>獣牙突撃陣形戦法</color>のスキルダメージと岩晶崩滅のダメージが防御力15.6%分アップする。",
+      "unlock": 4,
+      "values": [1.56, 0.156]
+    },
+    { "name": "SeekerOfShinies", "localeName": "キラキラ発見術", "desc": "ミニマップで周囲の<color=#FFD780FF>稲妻地域の特産</color>の位置を表示する。" }
+  ],
+  "c13ns": [
+    {
+      "name": "RushingHoundSwiftAsTheWind",
+      "localeName": "犬瞬·疾きこと風の如く",
+      "desc": "ゴロー自身による<color=#FFD780FF>大将の旗指物</color>または<color=#FFD780FF>大将威儀</color>の領域にいるフィールド上キャラクター（ゴロー自身を除く）が敵に岩元素ダメージを与えると、ゴロー自身の<color=#FFD780FF>犬坂の遠吠え方円陣</color>のクールタイム-2秒。\nこの効果は10秒毎に1回のみ発動可能。",
+      "values": [-2, 10]
+    },
+    {
+      "name": "SittingHoundSteadyAsAClock",
+      "localeName": "犬座·確固たること鐘の如く",
+      "desc": "<color=#FFD780FF>大将威儀</color>の持続時間内、近くのフィールド上キャラクターが結晶反応による結晶の欠片を獲得すると、ゴロー自身の大将威儀の継続時間+1秒。\n0.1秒毎に1回のみ発動可能、この方式で最大3秒まで延長できる。"
+    },
+    { "name": "MaulingHoundFierceAsFire", "localeName": "犬爪·圧すること火の如く", "desc": "<color=#FFD780FF>犬坂の遠吠え方円陣</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "LappingHoundWarmAsWater", "localeName": "犬舌·優しきこと水の如く", "desc": "<color=#FFD780FF>大将威儀</color>が「破耐」または「粉砕」効果を持つ時、1.5秒毎に領域内のフィールド上キャラクターのHPを回復する。回復量はゴロー自身の防御力50%分に相当する。", "values": [0.5] },
+    { "name": "StrikingHoundThunderousForce", "localeName": "犬突·動くこと雷の如く", "desc": "<color=#FFD780FF>獣牙突撃陣形戦法</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    {
+      "name": "ValiantHoundMountainousFealty",
+      "localeName": "犬勇·忠に厚きこと山の如く",
+      "desc": "<color=#FFD780FF>犬坂の遠吠え方円陣</color>または<color=#FFD780FF>獣牙突撃陣形戦法</color>発動後の12秒間、発動時の領域状態に基づき、周囲チーム全員の<color=#FFE699FF>岩元素ダメージ</color>の会心ダメージをアップする。\n·「堅牢」：10%アップ。\n·「破耐」：20%アップ。\n·「粉砕」：40%アップ。\n\nこの効果は重ね掛けできず、最後に発動したものが反映される。",
+      "values": [0.1, 0.2, 0.4, 12]
+    }
+  ],
+  "overviewItems": [
+    { "id": "PrithivaTopazGemstone", "localeName": "堅牢なトパーズ", "rarity": 5 },
+    { "id": "PerpetualHeart", "localeName": "恒常からくりの芯", "rarity": 4 },
+    { "id": "SangoPearl", "localeName": "珊瑚真珠" },
+    { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3 },
+    { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4 },
+    { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5 }
+  ]
+}

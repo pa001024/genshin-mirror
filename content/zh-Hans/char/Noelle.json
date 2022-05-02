@@ -1,4 +1,5 @@
 {
+  "uid": 10000034,
   "id": "Noelle",
   "name": "Noelle",
   "localeName": "诺艾尔",
@@ -312,7 +313,7 @@
       "unlock": 1,
       "values": [0.3, 4, 20, 60]
     },
-    { "name": "NiceAndClean", "localeName": "干净利落", "desc": "普通攻击或重击每命中4次，都会减少<color=#FFD780FF>护心铠</color>1秒的冷却。\n同时命中多名敌人视作攻击命中一次。", "unlock": 4, "values": [-1] },
+    { "name": "NiceAndClean", "localeName": "干净利落", "desc": "诺艾尔的普通攻击或重击累计命中敌人4次，会减少<color=#FFD780FF>护心铠</color>1秒的冷却。\n每0.1秒至多计数一次。", "unlock": 4, "values": [-1] },
     { "name": "MaidsKnighthood", "localeName": "女仆的态度", "desc": "完美烹饪防御类食物时，有12%概率获得2倍产出。" }
   ],
   "c13ns": [

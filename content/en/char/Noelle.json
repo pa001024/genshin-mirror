@@ -1,4 +1,5 @@
 {
+  "uid": 10000034,
   "id": "Noelle",
   "name": "Noelle",
   "localeName": "Noelle",
@@ -312,7 +313,7 @@
       "unlock": 1,
       "values": [0.3, 4, 20, 60]
     },
-    { "name": "NiceAndClean", "localeName": "Nice and Clean", "desc": "Every 4 Normal or Charged Attack hits will decrease the CD of <color=#FFD780FF>Breastplate</color> by 1s.\nHitting multiple opponents with a single attack is only counted as 1 hit.", "unlock": 4, "values": [-1] },
+    { "name": "NiceAndClean", "localeName": "Nice and Clean", "desc": "Noelle will decrease the CD of <color=#FFD780FF>Breastplate</color> by 1s for every 4 Normal or Charged Attack hits she scores on opponents.\nOne hit may be counted every 0.1s.", "unlock": 4, "values": [-1] },
     { "name": "MaidsKnighthood", "localeName": "Maid's Knighthood", "desc": "When a Perfect Cooking is achieved on a DEF-boosting dish, Noelle has a 12% chance to obtain double the product." }
   ],
   "c13ns": [

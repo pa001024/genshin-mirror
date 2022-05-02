@@ -1,0 +1,334 @@
+{
+  "uid": 10000064,
+  "id": "YunJin",
+  "name": "Yun Jin",
+  "localeName": "雲菫",
+  "desc": "演技と創作の二つの才を持つ璃月劇の看板役者。雲菫の演じる姿は優雅でたおやかであり、まるで彼女の風格を表しているかのようである。",
+  "baseHP": 893.56,
+  "baseATK": 16.027,
+  "baseDEF": 61.574,
+  "bodyType": 3,
+  "rarity": 4,
+  "weapon": 3,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "PrithivaTopazSliver", "localeName": "堅牢なトパーズ·砕屑", "rarity": 2, "count": 1 },
+        { "id": "GlazeLily", "localeName": "琉璃百合", "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 3 }
+      ],
+      "HP": 667.53,
+      "ATK": 11.973,
+      "DEF": 45.999,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "PrithivaTopazFragment", "localeName": "堅牢なトパーズ·欠片", "rarity": 3, "count": 3 },
+        { "id": "RiftbornRegalia", "localeName": "獣域王器", "rarity": 4, "count": 2 },
+        { "id": "GlazeLily", "localeName": "琉璃百合", "count": 10 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1141.8,
+      "ATK": 20.481,
+      "DEF": 78.683,
+      "extra": 0.0667
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "PrithivaTopazFragment", "localeName": "堅牢なトパーズ·欠片", "rarity": 3, "count": 6 },
+        { "id": "RiftbornRegalia", "localeName": "獣域王器", "rarity": 4, "count": 4 },
+        { "id": "GlazeLily", "localeName": "琉璃百合", "count": 20 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1774.2,
+      "ATK": 31.824,
+      "DEF": 122.26,
+      "extra": 0.1333
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "PrithivaTopazChunk", "localeName": "堅牢なトパーズ·塊", "rarity": 4, "count": 3 },
+        { "id": "RiftbornRegalia", "localeName": "獣域王器", "rarity": 4, "count": 8 },
+        { "id": "GlazeLily", "localeName": "琉璃百合", "count": 30 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2248.5,
+      "ATK": 40.332,
+      "DEF": 154.94,
+      "extra": 0.1333
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "PrithivaTopazChunk", "localeName": "堅牢なトパーズ·塊", "rarity": 4, "count": 6 },
+        { "id": "RiftbornRegalia", "localeName": "獣域王器", "rarity": 4, "count": 12 },
+        { "id": "GlazeLily", "localeName": "琉璃百合", "count": 45 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 12 }
+      ],
+      "HP": 2722.8,
+      "ATK": 48.839,
+      "DEF": 187.63,
+      "extra": 0.2
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "PrithivaTopazGemstone", "localeName": "堅牢なトパーズ", "rarity": 5, "count": 6 },
+        { "id": "RiftbornRegalia", "localeName": "獣域王器", "rarity": 4, "count": 20 },
+        { "id": "GlazeLily", "localeName": "琉璃百合", "count": 60 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 24 }
+      ],
+      "HP": 3197.1,
+      "ATK": 57.346,
+      "DEF": 220.31,
+      "extra": 0.2667
+    }
+  ],
+  "ascensionType": 10,
+  "element": 2,
+  "elemSkill": {
+    "name": "OpeningFlourish",
+    "localeName": "旋雲開相",
+    "desc": "雲先生が武道劇で披露する殺陣は、実戦でも通用する。\n\n<color=#FFD780FF>一回押し</color>\n雲をも切り裂く勢いで槍を回転させ、<color=#FFE699FF>岩元素ダメージ</color>を与える。\n\n<color=#FFD780FF>長押し</color>\n旋雲開相の構えで力を溜め、シールドを作り出す。シールドのダメージ吸収量は雲菫のHP上限によって決まり、全元素ダメージおよび物理ダメージに対して150%の吸収効果を持つ。シールドは元素スキル発動完了まで継続する。\n元素スキルボタンを離す、または継続時間の終了時やシールドが破壊された時、蓄積された力を長槍から解き放ち、<color=#FFE699FF>岩元素ダメージ</color>を与える。\nチャージ時間によって、発動時の状態は2段階に分かれる。\n\n<i>舞台上で見せる輝かしい一瞬は、その裏で努力を十年積み重ねてきた結晶である。</i>",
+    "cd": 9,
+    "paramTpls": ["一回押しダメージ|{param3:F1P}防御力", "1段チャージダメージ|{param4:F1P}防御力", "2段チャージダメージ|{param5:F1P}防御力", "シールド吸収量|{param1:P}HP上限+{param2:I}", "クールタイム|{param6:F1}秒"],
+    "paramVals": [
+      [0.12, 1155.4, 1.4912, 2.6096, 3.728, 9],
+      [0.129, 1271, 1.603, 2.8053, 4.0076, 9],
+      [0.138, 1396.2, 1.7149, 3.001, 4.2872, 9],
+      [0.15, 1531, 1.864, 3.262, 4.66, 9],
+      [0.159, 1675.4, 1.9758, 3.4577, 4.9396, 9],
+      [0.168, 1829.5, 2.0877, 3.6534, 5.2192, 9],
+      [0.18, 1993.2, 2.2368, 3.9144, 5.592, 9],
+      [0.192, 2166.6, 2.3859, 4.1754, 5.9648, 9],
+      [0.204, 2349.5, 2.535, 4.4363, 6.3376, 9],
+      [0.216, 2542.1, 2.6842, 4.6973, 6.7104, 9],
+      [0.228, 2744.4, 2.8333, 4.9582, 7.0832, 9],
+      [0.24, 2956.2, 2.9824, 5.2192, 7.456, 9],
+      [0.255, 3177.7, 3.1688, 5.5454, 7.922, 9],
+      [0.27, 3408.8, 3.3552, 5.8716, 8.388, 9],
+      [0.285, 3649.6, 3.5416, 6.1978, 8.854, 9]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfDiligence", "localeName": "「勤労」の教え", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 4 },
+        { "id": "AshenHeart", "localeName": "灰燼の心", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 6 },
+        { "id": "AshenHeart", "localeName": "灰燼の心", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 9 },
+        { "id": "AshenHeart", "localeName": "灰燼の心", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 12 },
+        { "id": "AshenHeart", "localeName": "灰燼の心", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "CliffbreakersBanner",
+    "localeName": "破嶂の旌儀",
+    "desc": "<color=#FFE699FF>岩元素範囲ダメージ</color>を与え、周囲のチーム全員に「飛雲旗陣」効果を与える。\n\n<color=#FFD780FF>飛雲旗陣</color>\n敵に通常攻撃ダメージを与える時、雲菫自身の防御力を基準にダメージがアップする。\n\n「飛雲旗陣」効果は継続時間の終了、または規定回数の発動後に消失する。\n一回の通常攻撃が複数の敵に命中した場合は、その敵の数に応じて発動回数が消費される。「飛雲旗陣」の発動回数は、付与されたキャラクターごとに計算される。\n\n<i>「轟々と鳴る鼓の中、刀槍矛戟と空を舞う影が現れる。麗しき女性がその幕で演ずるは掌旗大将。」</i>\n<i>「紅絨毯の上で楽器が一斉に鳴り響く。妖魔を鎮める彼女の姿を、とくとご覧あれ。」</i>",
+    "cd": 15,
+    "energyCost": 60,
+    "paramTpls": ["スキルダメージ|{param1:P}", "ダメージアップ|{param2:P}防御力", "継続時間|{param3:F1}秒", "発動回数|{param6:I}回", "クールタイム|{param4:F1}秒", "元素エネルギー|{param5:I}"],
+    "paramVals": [
+      [2.44, 0.3216, 12, 15, 60, 30],
+      [2.623, 0.34572, 12, 15, 60, 30],
+      [2.806, 0.36984, 12, 15, 60, 30],
+      [3.05, 0.402, 12, 15, 60, 30],
+      [3.233, 0.42612, 12, 15, 60, 30],
+      [3.416, 0.45024, 12, 15, 60, 30],
+      [3.66, 0.4824, 12, 15, 60, 30],
+      [3.904, 0.51456, 12, 15, 60, 30],
+      [4.148, 0.54672, 12, 15, 60, 30],
+      [4.392, 0.57888, 12, 15, 60, 30],
+      [4.636, 0.61104, 12, 15, 60, 30],
+      [4.88, 0.6432, 12, 15, 60, 30],
+      [5.185, 0.6834, 12, 15, 60, 30],
+      [5.49, 0.7236, 12, 15, 60, 30],
+      [5.795, 0.7638, 12, 15, 60, 30]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfDiligence", "localeName": "「勤労」の教え", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 4 },
+        { "id": "AshenHeart", "localeName": "灰燼の心", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 6 },
+        { "id": "AshenHeart", "localeName": "灰燼の心", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 9 },
+        { "id": "AshenHeart", "localeName": "灰燼の心", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 12 },
+        { "id": "AshenHeart", "localeName": "灰燼の心", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackCloudGrazingStrike",
+    "localeName": "通常攻撃·拂雲出手",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n槍による最大5段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費して前方に突進し、経路上の敵にダメージを与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+    "cd": 0,
+    "paramTpls": [
+      "1段ダメージ|{param1:F1P}",
+      "2段ダメージ|{param2:F1P}",
+      "3段ダメージ|{param3:F1P}+{param4:F1P}",
+      "4段ダメージ|{param5:F1P}+{param6:F1P}",
+      "5段ダメージ|{param7:F1P}",
+      "重撃ダメージ|{param8:F1P}",
+      "重撃スタミナ消費|{param9:F1}",
+      "落下期間のダメージ|{param10:F1P}",
+      "低空/高空落下攻撃ダメージ|{param11:P}/{param12:P}"
+    ],
+    "paramVals": [
+      [0.40506, 0.40248, 0.22962, 0.2752, 0.23994, 0.2881, 0.67338, 1.2169, 25, 0.63932, 1.2784, 1.5968],
+      [0.43803, 0.43524, 0.24831, 0.2976, 0.25947, 0.31155, 0.72819, 1.316, 25, 0.69136, 1.3824, 1.7267],
+      [0.471, 0.468, 0.267, 0.32, 0.279, 0.335, 0.783, 1.415, 25, 0.7434, 1.4865, 1.8567],
+      [0.5181, 0.5148, 0.2937, 0.352, 0.3069, 0.3685, 0.8613, 1.5565, 25, 0.81774, 1.6351, 2.0424],
+      [0.55107, 0.54756, 0.31239, 0.3744, 0.32643, 0.39195, 0.91611, 1.6556, 25, 0.86978, 1.7392, 2.1723],
+      [0.58875, 0.585, 0.33375, 0.4, 0.34875, 0.41875, 0.97875, 1.7687, 25, 0.92925, 1.8581, 2.3209],
+      [0.64056, 0.63648, 0.36312, 0.4352, 0.37944, 0.4556, 1.0649, 1.9244, 25, 1.011, 2.0216, 2.5251],
+      [0.69237, 0.68796, 0.39249, 0.4704, 0.41013, 0.49245, 1.151, 2.08, 25, 1.0928, 2.1851, 2.7293],
+      [0.74418, 0.73944, 0.42186, 0.5056, 0.44082, 0.5293, 1.2371, 2.2357, 25, 1.1746, 2.3486, 2.9336],
+      [0.8007, 0.7956, 0.4539, 0.544, 0.4743, 0.5695, 1.3311, 2.4055, 25, 1.2638, 2.527, 3.1564],
+      [0.85722, 0.85176, 0.48594, 0.5824, 0.50778, 0.6097, 1.4251, 2.6001, 25, 1.353, 2.7054, 3.3792],
+      [0.91374, 0.90792, 0.51798, 0.6208, 0.54126, 0.6499, 1.519, 2.8289, 25, 1.4422, 2.8838, 3.602],
+      [0.97026, 0.96408, 0.55002, 0.6592, 0.57474, 0.6901, 1.613, 3.0577, 25, 1.5314, 3.0622, 3.8248],
+      [1.0268, 1.0202, 0.58206, 0.6976, 0.60822, 0.7303, 1.7069, 3.2865, 25, 1.6206, 3.2405, 4.0476],
+      [1.0833, 1.0764, 0.6141, 0.736, 0.6417, 0.7705, 1.8009, 3.5361, 25, 1.7098, 3.4189, 4.2704]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfDiligence", "localeName": "「勤労」の教え", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損した仮面", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤労」の導き", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汚れた仮面", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 4 },
+        { "id": "AshenHeart", "localeName": "灰燼の心", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 6 },
+        { "id": "AshenHeart", "localeName": "灰燼の心", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 9 },
+        { "id": "AshenHeart", "localeName": "灰燼の心", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3, "count": 12 },
+        { "id": "AshenHeart", "localeName": "灰燼の心", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "TrueToOneself", "localeName": "自我堅守", "desc": "攻撃された瞬間に発動する<color=#FFD780FF>旋雲開相</color>は、長押しの2段チャージ状態になる。", "unlock": 1 },
+    {
+      "name": "BreakingConventions",
+      "localeName": "独立嶄然",
+      "desc": "チーム内キャラクターの元素タイプが1/2/3/4種類の時、<color=#FFD780FF>「飛雲旗陣」</color>による通常攻撃ダメージアップ効果は、さらに雲菫の防御力2.5%/5%/7.5%/11.5%分上乗せされる。",
+      "unlock": 4,
+      "values": [0.025, 0.05, 0.075, 0.115]
+    },
+    { "name": "LightNourishment", "localeName": "清食養性", "desc": "冒険系料理を完璧調理した時、12%の確率で料理を2倍獲得する。" }
+  ],
+  "c13ns": [
+    { "name": "ThespianGallop", "localeName": "飛身趟馬", "desc": "<color=#FFD780FF>旋雲開相</color>のクールタイム-18%。" },
+    { "name": "MyriadMiseEnScene", "localeName": "諸般切末", "desc": "<color=#FFD780FF>破嶂の旌儀</color>発動後、周囲チーム全員の通常攻撃ダメージ+15%、継続時間12秒。", "values": [0.15, 12] },
+    { "name": "SeafaringGeneral", "localeName": "牙纛探海", "desc": "<color=#FFD780FF>破嶂の旌儀</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "FlowerAndAFighter", "localeName": "昇堂吊雲", "desc": "雲菫が結晶反応を起こすと防御力+20%、継続時間12秒。", "values": [0.2, 12] },
+    { "name": "FamedThroughoutTheLand", "localeName": "翹楚名坤", "desc": "<color=#FFD780FF>旋雲開相</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "DecorousHarmony", "localeName": "荘諧併持", "desc": "<color=#FFD780FF>「飛雲旗陣」</color>状態のキャラクターの通常攻撃の攻撃速度+12%。", "values": [0.12] }
+  ],
+  "overviewItems": [
+    { "id": "PrithivaTopazGemstone", "localeName": "堅牢なトパーズ", "rarity": 5 },
+    { "id": "RiftbornRegalia", "localeName": "獣域王器", "rarity": 4 },
+    { "id": "GlazeLily", "localeName": "琉璃百合" },
+    { "id": "OminousMask", "localeName": "不吉な仮面", "rarity": 3 },
+    { "id": "PhilosophiesOfDiligence", "localeName": "「勤労」の哲学", "rarity": 4 },
+    { "id": "AshenHeart", "localeName": "灰燼の心", "rarity": 5 }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "uid": 10000064,
+  "id": "YunJin",
+  "name": "Yun Jin",
+  "localeName": "雲堇",
+  "desc": "集劇作與演唱能力於一身的璃月戲曲名角。風格自成一派，雅致柔美，恰如其人。",
+  "baseHP": 893.56,
+  "baseATK": 16.027,
+  "baseDEF": 61.574,
+  "bodyType": 3,
+  "rarity": 4,
+  "weapon": 3,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "PrithivaTopazSliver", "localeName": "堅牢黃玉碎屑", "rarity": 2, "count": 1 },
+        { "id": "GlazeLily", "localeName": "琉璃百合", "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損的面具", "rarity": 1, "count": 3 }
+      ],
+      "HP": 667.53,
+      "ATK": 11.973,
+      "DEF": 45.999,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "PrithivaTopazFragment", "localeName": "堅牢黃玉斷片", "rarity": 3, "count": 3 },
+        { "id": "RiftbornRegalia", "localeName": "獸境王器", "rarity": 4, "count": 2 },
+        { "id": "GlazeLily", "localeName": "琉璃百合", "count": 10 },
+        { "id": "DamagedMask", "localeName": "破損的面具", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1141.8,
+      "ATK": 20.481,
+      "DEF": 78.683,
+      "extra": 0.0667
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "PrithivaTopazFragment", "localeName": "堅牢黃玉斷片", "rarity": 3, "count": 6 },
+        { "id": "RiftbornRegalia", "localeName": "獸境王器", "rarity": 4, "count": 4 },
+        { "id": "GlazeLily", "localeName": "琉璃百合", "count": 20 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1774.2,
+      "ATK": 31.824,
+      "DEF": 122.26,
+      "extra": 0.1333
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "PrithivaTopazChunk", "localeName": "堅牢黃玉塊", "rarity": 4, "count": 3 },
+        { "id": "RiftbornRegalia", "localeName": "獸境王器", "rarity": 4, "count": 8 },
+        { "id": "GlazeLily", "localeName": "琉璃百合", "count": 30 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2248.5,
+      "ATK": 40.332,
+      "DEF": 154.94,
+      "extra": 0.1333
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "PrithivaTopazChunk", "localeName": "堅牢黃玉塊", "rarity": 4, "count": 6 },
+        { "id": "RiftbornRegalia", "localeName": "獸境王器", "rarity": 4, "count": 12 },
+        { "id": "GlazeLily", "localeName": "琉璃百合", "count": 45 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 12 }
+      ],
+      "HP": 2722.8,
+      "ATK": 48.839,
+      "DEF": 187.63,
+      "extra": 0.2
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "PrithivaTopazGemstone", "localeName": "堅牢黃玉", "rarity": 5, "count": 6 },
+        { "id": "RiftbornRegalia", "localeName": "獸境王器", "rarity": 4, "count": 20 },
+        { "id": "GlazeLily", "localeName": "琉璃百合", "count": 60 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 24 }
+      ],
+      "HP": 3197.1,
+      "ATK": 57.346,
+      "DEF": 220.31,
+      "extra": 0.2667
+    }
+  ],
+  "ascensionType": 10,
+  "element": 2,
+  "elemSkill": {
+    "name": "OpeningFlourish",
+    "localeName": "旋雲開相",
+    "desc": "雲先生的武戲架勢，是真能禦敵的。\n\n<color=#FFD780FF>點按</color>\n以撥雲之勢旋舞長槍，造成<color=#FFE699FF>岩元素傷害</color>。\n\n<color=#FFD780FF>長按</color>\n擺出旋雲開相之架勢蓄力，形成護盾，傷害吸收量受益於雲堇的生命值上限，對所有元素傷害與物理傷害有150%的吸收效果。護盾持續至元素戰技施放完畢。\n鬆開技能、持續時間結束時，或護盾被破壞時，會揮舞長槍釋放積蓄的力量進行攻擊，造成<color=#FFE699FF>岩元素傷害</color>。\n依據蓄力的時間，釋放時的狀態將分為一段蓄力與二段蓄力。\n\n<i>臺上一刹光華，台下十年辛苦。</i>",
+    "cd": 9,
+    "paramTpls": ["點按傷害|{param3:F1P}防禦力", "一段蓄力傷害|{param4:F1P}防禦力", "二段蓄力傷害|{param5:F1P}防禦力", "護盾吸收量|{param1:P}生命值上限+{param2:I}", "冷卻時間|{param6:F1}秒"],
+    "paramVals": [
+      [0.12, 1155.4, 1.4912, 2.6096, 3.728, 9],
+      [0.129, 1271, 1.603, 2.8053, 4.0076, 9],
+      [0.138, 1396.2, 1.7149, 3.001, 4.2872, 9],
+      [0.15, 1531, 1.864, 3.262, 4.66, 9],
+      [0.159, 1675.4, 1.9758, 3.4577, 4.9396, 9],
+      [0.168, 1829.5, 2.0877, 3.6534, 5.2192, 9],
+      [0.18, 1993.2, 2.2368, 3.9144, 5.592, 9],
+      [0.192, 2166.6, 2.3859, 4.1754, 5.9648, 9],
+      [0.204, 2349.5, 2.535, 4.4363, 6.3376, 9],
+      [0.216, 2542.1, 2.6842, 4.6973, 6.7104, 9],
+      [0.228, 2744.4, 2.8333, 4.9582, 7.0832, 9],
+      [0.24, 2956.2, 2.9824, 5.2192, 7.456, 9],
+      [0.255, 3177.7, 3.1688, 5.5454, 7.922, 9],
+      [0.27, 3408.8, 3.3552, 5.8716, 8.388, 9],
+      [0.285, 3649.6, 3.5416, 6.1978, 8.854, 9]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfDiligence", "localeName": "「勤勞」的教導", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損的面具", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤勞」的指引", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤勞」的指引", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤勞」的指引", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤勞」的指引", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 4 },
+        { "id": "AshenHeart", "localeName": "灰燼之心", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 6 },
+        { "id": "AshenHeart", "localeName": "灰燼之心", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 9 },
+        { "id": "AshenHeart", "localeName": "灰燼之心", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 12 },
+        { "id": "AshenHeart", "localeName": "灰燼之心", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "CliffbreakersBanner",
+    "localeName": "破嶂見旌儀",
+    "desc": "造成<color=#FFE699FF>岩元素範圍傷害</color>，並為附近的隊伍中所有角色賦予「飛雲旗陣」。\n\n<color=#FFD780FF>飛雲旗陣</color>\n對敵人造成普通攻擊傷害時，基於雲堇自己目前的防禦力，提高造成的傷害。\n\n「飛雲旗陣」效果會在持續時間結束或生效一定次數後消失。\n一次普通攻擊同時命中多名敵人時，會依據命中敵人的數量消耗生效次數；隊伍中具有「飛雲旗陣」的角色，其生效次數單獨計算。\n\n<i>「桴鼓聲中，刀槍劍戟空翻影，女嬋娟今扮作掌旗大將。」</i>\n<i>「紅毹上琴笛鐃鈸齊鳴，且看她如何蕩平妖魔。」</i>",
+    "cd": 15,
+    "energyCost": 60,
+    "paramTpls": ["技能傷害|{param1:P}", "傷害值提升|{param2:P}防禦力", "持續時間|{param3:F1}秒", "生效次數|{param6:I}次", "冷卻時間|{param4:F1}秒", "元素能量|{param5:I}"],
+    "paramVals": [
+      [2.44, 0.3216, 12, 15, 60, 30],
+      [2.623, 0.34572, 12, 15, 60, 30],
+      [2.806, 0.36984, 12, 15, 60, 30],
+      [3.05, 0.402, 12, 15, 60, 30],
+      [3.233, 0.42612, 12, 15, 60, 30],
+      [3.416, 0.45024, 12, 15, 60, 30],
+      [3.66, 0.4824, 12, 15, 60, 30],
+      [3.904, 0.51456, 12, 15, 60, 30],
+      [4.148, 0.54672, 12, 15, 60, 30],
+      [4.392, 0.57888, 12, 15, 60, 30],
+      [4.636, 0.61104, 12, 15, 60, 30],
+      [4.88, 0.6432, 12, 15, 60, 30],
+      [5.185, 0.6834, 12, 15, 60, 30],
+      [5.49, 0.7236, 12, 15, 60, 30],
+      [5.795, 0.7638, 12, 15, 60, 30]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfDiligence", "localeName": "「勤勞」的教導", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損的面具", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤勞」的指引", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤勞」的指引", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤勞」的指引", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤勞」的指引", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 4 },
+        { "id": "AshenHeart", "localeName": "灰燼之心", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 6 },
+        { "id": "AshenHeart", "localeName": "灰燼之心", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 9 },
+        { "id": "AshenHeart", "localeName": "灰燼之心", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 12 },
+        { "id": "AshenHeart", "localeName": "灰燼之心", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackCloudGrazingStrike",
+    "localeName": "普通攻擊·拂雲出手",
+    "desc": "<color=#FFD780FF>普通攻擊</color>\n進行至多五段的連續槍擊。\n\n<color=#FFD780FF>重擊</color>\n消耗一定體力，向前方突進，對路徑上的敵人造成傷害。\n\n<color=#FFD780FF>下落攻擊</color>\n從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。",
+    "cd": 0,
+    "paramTpls": [
+      "一段傷害|{param1:F1P}",
+      "二段傷害|{param2:F1P}",
+      "三段傷害|{param3:F1P}+{param4:F1P}",
+      "四段傷害|{param5:F1P}+{param6:F1P}",
+      "五段傷害|{param7:F1P}",
+      "重擊傷害|{param8:F1P}",
+      "重擊體力消耗|{param9:F1}點",
+      "下墜期間傷害|{param10:F1P}",
+      "低空/高空墜地衝擊傷害|{param11:P}/{param12:P}"
+    ],
+    "paramVals": [
+      [0.40506, 0.40248, 0.22962, 0.2752, 0.23994, 0.2881, 0.67338, 1.2169, 25, 0.63932, 1.2784, 1.5968],
+      [0.43803, 0.43524, 0.24831, 0.2976, 0.25947, 0.31155, 0.72819, 1.316, 25, 0.69136, 1.3824, 1.7267],
+      [0.471, 0.468, 0.267, 0.32, 0.279, 0.335, 0.783, 1.415, 25, 0.7434, 1.4865, 1.8567],
+      [0.5181, 0.5148, 0.2937, 0.352, 0.3069, 0.3685, 0.8613, 1.5565, 25, 0.81774, 1.6351, 2.0424],
+      [0.55107, 0.54756, 0.31239, 0.3744, 0.32643, 0.39195, 0.91611, 1.6556, 25, 0.86978, 1.7392, 2.1723],
+      [0.58875, 0.585, 0.33375, 0.4, 0.34875, 0.41875, 0.97875, 1.7687, 25, 0.92925, 1.8581, 2.3209],
+      [0.64056, 0.63648, 0.36312, 0.4352, 0.37944, 0.4556, 1.0649, 1.9244, 25, 1.011, 2.0216, 2.5251],
+      [0.69237, 0.68796, 0.39249, 0.4704, 0.41013, 0.49245, 1.151, 2.08, 25, 1.0928, 2.1851, 2.7293],
+      [0.74418, 0.73944, 0.42186, 0.5056, 0.44082, 0.5293, 1.2371, 2.2357, 25, 1.1746, 2.3486, 2.9336],
+      [0.8007, 0.7956, 0.4539, 0.544, 0.4743, 0.5695, 1.3311, 2.4055, 25, 1.2638, 2.527, 3.1564],
+      [0.85722, 0.85176, 0.48594, 0.5824, 0.50778, 0.6097, 1.4251, 2.6001, 25, 1.353, 2.7054, 3.3792],
+      [0.91374, 0.90792, 0.51798, 0.6208, 0.54126, 0.6499, 1.519, 2.8289, 25, 1.4422, 2.8838, 3.602],
+      [0.97026, 0.96408, 0.55002, 0.6592, 0.57474, 0.6901, 1.613, 3.0577, 25, 1.5314, 3.0622, 3.8248],
+      [1.0268, 1.0202, 0.58206, 0.6976, 0.60822, 0.7303, 1.7069, 3.2865, 25, 1.6206, 3.2405, 4.0476],
+      [1.0833, 1.0764, 0.6141, 0.736, 0.6417, 0.7705, 1.8009, 3.5361, 25, 1.7098, 3.4189, 4.2704]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfDiligence", "localeName": "「勤勞」的教導", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破損的面具", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤勞」的指引", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤勞」的指引", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤勞」的指引", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤勞」的指引", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "汙穢的面具", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 4 },
+        { "id": "AshenHeart", "localeName": "灰燼之心", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 6 },
+        { "id": "AshenHeart", "localeName": "灰燼之心", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 9 },
+        { "id": "AshenHeart", "localeName": "灰燼之心", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 12 },
+        { "id": "AshenHeart", "localeName": "灰燼之心", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "TrueToOneself", "localeName": "務守本真", "desc": "在被攻擊瞬間施放的<color=#FFD780FF>旋雲開相</color>，會以長按二段蓄力的形式施放。", "unlock": 1 },
+    { "name": "BreakingConventions", "localeName": "莫從恆蹊", "desc": "<color=#FFD780FF>「飛雲旗陣」</color>提供的普通攻擊傷害提高，當隊伍中存在1/2/3/4種元素類型的角色時，數值上進一步追加雲堇防禦力的2.5%/5%/7.5%/11.5%。", "unlock": 4, "values": [0.025, 0.05, 0.075, 0.115] },
+    { "name": "LightNourishment", "localeName": "清食養性", "desc": "完美烹飪冒險類食物時，有12%機率獲得兩倍產出。" }
+  ],
+  "c13ns": [
+    { "name": "ThespianGallop", "localeName": "飛身趟馬", "desc": "<color=#FFD780FF>旋雲開相</color>的冷卻時間減少18%。" },
+    { "name": "MyriadMiseEnScene", "localeName": "諸般切末", "desc": "施放<color=#FFD780FF>破嶂見旌儀</color>後，附近隊伍中所有角色普通攻擊造成的傷害提升15%，持續12秒。", "values": [0.15, 12] },
+    { "name": "SeafaringGeneral", "localeName": "牙纛探海", "desc": "<color=#FFD780FF>破嶂見旌儀</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "FlowerAndAFighter", "localeName": "昇堂吊雲", "desc": "雲堇觸發結晶反應後，防禦力提升20%，持續12秒。", "values": [0.2, 12] },
+    { "name": "FamedThroughoutTheLand", "localeName": "翹楚名坤", "desc": "<color=#FFD780FF>旋雲開相</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "DecorousHarmony", "localeName": "莊諧並舉", "desc": "處於<color=#FFD780FF>「飛雲旗陣」</color>狀態下的角色，普通攻擊的攻擊速度提升12%。", "values": [0.12] }
+  ],
+  "overviewItems": [
+    { "id": "PrithivaTopazGemstone", "localeName": "堅牢黃玉", "rarity": 5 },
+    { "id": "RiftbornRegalia", "localeName": "獸境王器", "rarity": 4 },
+    { "id": "GlazeLily", "localeName": "琉璃百合" },
+    { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3 },
+    { "id": "PhilosophiesOfDiligence", "localeName": "「勤勞」的哲學", "rarity": 4 },
+    { "id": "AshenHeart", "localeName": "灰燼之心", "rarity": 5 }
+  ]
+}

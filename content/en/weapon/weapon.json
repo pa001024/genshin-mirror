@@ -1,5 +1,6 @@
 [
   {
+    "uid": 11101,
     "id": "DullBlade",
     "name": "Dull Blade",
     "localeName": "Dull Blade",
@@ -48,6 +49,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 11201,
     "id": "SilverSword",
     "name": "Silver Sword",
     "localeName": "Silver Sword",
@@ -96,6 +98,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 11301,
     "id": "CoolSteel",
     "name": "Cool Steel",
     "localeName": "Cool Steel",
@@ -178,6 +181,7 @@
     }
   },
   {
+    "uid": 11302,
     "id": "HarbingerOfDawn",
     "name": "Harbinger of Dawn",
     "localeName": "Harbinger of Dawn",
@@ -260,6 +264,7 @@
     }
   },
   {
+    "uid": 11303,
     "id": "TravelersHandySword",
     "name": "Traveler's Handy Sword",
     "localeName": "Traveler's Handy Sword",
@@ -342,6 +347,7 @@
     }
   },
   {
+    "uid": 11304,
     "id": "DarkIronSword",
     "name": "Dark Iron Sword",
     "localeName": "Dark Iron Sword",
@@ -424,6 +430,7 @@
     }
   },
   {
+    "uid": 11305,
     "id": "FilletBlade",
     "name": "Fillet Blade",
     "localeName": "Fillet Blade",
@@ -506,6 +513,7 @@
     }
   },
   {
+    "uid": 11306,
     "id": "SkyriderSword",
     "name": "Skyrider Sword",
     "localeName": "Skyrider Sword",
@@ -588,6 +596,7 @@
     }
   },
   {
+    "uid": 11401,
     "id": "FavoniusSword",
     "name": "Favonius Sword",
     "localeName": "Favonius Sword",
@@ -670,6 +679,7 @@
     }
   },
   {
+    "uid": 11402,
     "id": "TheFlute",
     "name": "The Flute",
     "localeName": "The Flute",
@@ -752,6 +762,7 @@
     }
   },
   {
+    "uid": 11403,
     "id": "SacrificialSword",
     "name": "Sacrificial Sword",
     "localeName": "Sacrificial Sword",
@@ -834,6 +845,7 @@
     }
   },
   {
+    "uid": 11404,
     "id": "RoyalLongsword",
     "name": "Royal Longsword",
     "localeName": "Royal Longsword",
@@ -916,6 +928,7 @@
     }
   },
   {
+    "uid": 11405,
     "id": "LionsRoar",
     "name": "Lion's Roar",
     "localeName": "Lion's Roar",
@@ -998,6 +1011,7 @@
     }
   },
   {
+    "uid": 11406,
     "id": "PrototypeRancour",
     "name": "Prototype Rancour",
     "localeName": "Prototype Rancour",
@@ -1080,6 +1094,7 @@
     }
   },
   {
+    "uid": 11407,
     "id": "IronSting",
     "name": "Iron Sting",
     "localeName": "Iron Sting",
@@ -1162,6 +1177,7 @@
     }
   },
   {
+    "uid": 11408,
     "id": "BlackcliffLongsword",
     "name": "Blackcliff Longsword",
     "localeName": "Blackcliff Longsword",
@@ -1244,6 +1260,7 @@
     }
   },
   {
+    "uid": 11409,
     "id": "TheBlackSword",
     "name": "The Black Sword",
     "localeName": "The Black Sword",
@@ -1326,6 +1343,7 @@
     }
   },
   {
+    "uid": 11410,
     "id": "TheAlleyFlash",
     "name": "The Alley Flash",
     "localeName": "The Alley Flash",
@@ -1408,6 +1426,7 @@
     }
   },
   {
+    "uid": 11412,
     "id": "SwordOfDescension",
     "name": "Sword of Descension",
     "localeName": "Sword of Descension",
@@ -1482,13 +1501,14 @@
       "name": "Descension",
       "levels": [
         {
-          "desc": "Effective for players on \"PlayStation Network\" only.\nHitting opponents with Normal and Charged Attacks grants a <color=#99FFFFFF>50%</color> chance to deal <color=#99FFFFFF>200%</color> ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by <color=#99FFFFFF>66</color>.",
+          "desc": "<color=#99FFFFFF>Effective only on the following platform: </color>\n<color=#99FFFFFF>\"PlayStation Network\"</color>\nHitting opponents with Normal and Charged Attacks grants a <color=#99FFFFFF>50%</color> chance to deal <color=#99FFFFFF>200%</color> ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by <color=#99FFFFFF>66</color>.",
           "params": [0.5, 2, 10, 66]
         }
       ]
     }
   },
   {
+    "uid": 11413,
     "id": "FesteringDesire",
     "name": "Festering Desire",
     "localeName": "Festering Desire",
@@ -1571,6 +1591,7 @@
     }
   },
   {
+    "uid": 11414,
     "id": "AmenomaKageuchi",
     "name": "Amenoma Kageuchi",
     "localeName": "Amenoma Kageuchi",
@@ -1668,6 +1689,90 @@
     }
   },
   {
+    "uid": 11415,
+    "id": "CinnabarSpindle",
+    "name": "Cinnabar Spindle",
+    "localeName": "Cinnabar Spindle",
+    "desc": "A sword made from materials that do not belong in this world. The power within might even be able to withstand the corruption of a venom that could corrode a mighty dragon.",
+    "rarity": 4,
+    "type": 1,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "TileOfDecarabiansTower", "localeName": "Tile of Decarabian's Tower", "count": 3 },
+          { "id": "ChaosDevice", "localeName": "Chaos Device", "count": 3 },
+          { "id": "DamagedMask", "localeName": "Damaged Mask", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "Debris of Decarabian's City", "count": 3 },
+          { "id": "ChaosDevice", "localeName": "Chaos Device", "count": 12 },
+          { "id": "DamagedMask", "localeName": "Damaged Mask", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "Debris of Decarabian's City", "count": 6 },
+          { "id": "ChaosCircuit", "localeName": "Chaos Circuit", "count": 6 },
+          { "id": "StainedMask", "localeName": "Stained Mask", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "Fragment of Decarabian's Epic", "count": 3 },
+          { "id": "ChaosCircuit", "localeName": "Chaos Circuit", "count": 12 },
+          { "id": "StainedMask", "localeName": "Stained Mask", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "Fragment of Decarabian's Epic", "count": 6 },
+          { "id": "ChaosCore", "localeName": "Chaos Core", "count": 9 },
+          { "id": "OminousMask", "localeName": "Ominous Mask", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "ScatteredPieceOfDecarabiansDream", "localeName": "Scattered Piece of Decarabian's Dream", "count": 4 },
+          { "id": "ChaosCore", "localeName": "Chaos Core", "count": 18 },
+          { "id": "OminousMask", "localeName": "Ominous Mask", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 41.067,
+    "baseATKCurve": 9,
+    "overviewItems": [
+      { "id": "ScatteredPieceOfDecarabiansDream", "name": "Scattered Piece of Decarabian's Dream", "rarity": 5 },
+      { "id": "ChaosCore", "name": "Chaos Core", "rarity": 4 },
+      { "id": "OminousMask", "name": "Ominous Mask", "rarity": 3 }
+    ],
+    "subAttr": { "type": 9, "value": 0.15013, "curve": 17 },
+    "affix": {
+      "name": "Spotless Heart",
+      "levels": [
+        { "desc": "Elemental Skill DMG is increased by <color=#99FFFFFF>40%</color> of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.", "params": [0.4, 4000, 1.5, 0.1] },
+        { "desc": "Elemental Skill DMG is increased by <color=#99FFFFFF>50%</color> of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.", "params": [0.5, 5000, 1.5, 0.1] },
+        { "desc": "Elemental Skill DMG is increased by <color=#99FFFFFF>60%</color> of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.", "params": [0.6, 6000, 1.5, 0.1] },
+        { "desc": "Elemental Skill DMG is increased by <color=#99FFFFFF>70%</color> of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.", "params": [0.7, 7000, 1.5, 0.1] },
+        { "desc": "Elemental Skill DMG is increased by <color=#99FFFFFF>80%</color> of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.", "params": [0.8, 8000, 1.5, 0.1] }
+      ]
+    }
+  },
+  {
+    "uid": 11501,
     "id": "AquilaFavonia",
     "name": "Aquila Favonia",
     "localeName": "Aquila Favonia",
@@ -1765,6 +1870,7 @@
     }
   },
   {
+    "uid": 11502,
     "id": "SkywardBlade",
     "name": "Skyward Blade",
     "localeName": "Skyward Blade",
@@ -1862,6 +1968,7 @@
     }
   },
   {
+    "uid": 11503,
     "id": "FreedomSworn",
     "name": "Freedom-Sworn",
     "localeName": "Freedom-Sworn",
@@ -1959,6 +2066,7 @@
     }
   },
   {
+    "uid": 11504,
     "id": "SummitShaper",
     "name": "Summit Shaper",
     "localeName": "Summit Shaper",
@@ -2056,6 +2164,7 @@
     }
   },
   {
+    "uid": 11505,
     "id": "PrimordialJadeCutter",
     "name": "Primordial Jade Cutter",
     "localeName": "Primordial Jade Cutter",
@@ -2138,6 +2247,7 @@
     }
   },
   {
+    "uid": 11507,
     "id": "OneSide",
     "name": "One Side",
     "localeName": "One Side",
@@ -2186,6 +2296,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 11509,
     "id": "MistsplitterReforged",
     "name": "Mistsplitter Reforged",
     "localeName": "Mistsplitter Reforged",
@@ -2260,29 +2371,128 @@
       "name": "Mistsplitter's Edge",
       "levels": [
         {
-          "desc": "Gain a <color=#99FFFFFF>12%</color> Elemental DMG Bonus for all element and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <color=#99FFFFFF>8/16/28%</color> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+          "desc": "Gain a <color=#99FFFFFF>12%</color> Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <color=#99FFFFFF>8/16/28%</color> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
           "params": [0.12, 0.08, 0.16, 0.28, 5, 10]
         },
         {
-          "desc": "Gain a <color=#99FFFFFF>15%</color> Elemental DMG Bonus for all element and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <color=#99FFFFFF>10/20/35%</color> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+          "desc": "Gain a <color=#99FFFFFF>15%</color> Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <color=#99FFFFFF>10/20/35%</color> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
           "params": [0.15, 0.1, 0.2, 0.35, 5, 10]
         },
         {
-          "desc": "Gain a <color=#99FFFFFF>18%</color> Elemental DMG Bonus for all element and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <color=#99FFFFFF>12/24/42%</color> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+          "desc": "Gain a <color=#99FFFFFF>18%</color> Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <color=#99FFFFFF>12/24/42%</color> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
           "params": [0.18, 0.12, 0.24, 0.42, 5, 10]
         },
         {
-          "desc": "Gain a <color=#99FFFFFF>21%</color> Elemental DMG Bonus for all element and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <color=#99FFFFFF>14/28/49%</color> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+          "desc": "Gain a <color=#99FFFFFF>21%</color> Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <color=#99FFFFFF>14/28/49%</color> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
           "params": [0.21, 0.14, 0.28, 0.49, 5, 10]
         },
         {
-          "desc": "Gain a <color=#99FFFFFF>24%</color> Elemental DMG Bonus for all element and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <color=#99FFFFFF>16/32/56%</color> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of the Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+          "desc": "Gain a <color=#99FFFFFF>24%</color> Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <color=#99FFFFFF>16/32/56%</color> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of the Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
           "params": [0.24, 0.16, 0.32, 0.56, 5, 10]
         }
       ]
     }
   },
   {
+    "uid": 11510,
+    "id": "HaranGeppakuFutsu",
+    "name": "Haran Geppaku Futsu",
+    "localeName": "Haran Geppaku Futsu",
+    "desc": "A famed work by the Futsu line of smiths. The name \"Haran\" comes from the manner in which it resembles the violent, roiling waves.",
+    "rarity": 5,
+    "type": 1,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          { "id": "NarukamisWisdom", "localeName": "Narukami's Wisdom", "count": 5 },
+          { "id": "GloomyStatuette", "localeName": "Gloomy Statuette", "count": 5 },
+          { "id": "OldHandguard", "localeName": "Old Handguard", "count": 3 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "Narukami's Joy", "count": 5 },
+          { "id": "GloomyStatuette", "localeName": "Gloomy Statuette", "count": 18 },
+          { "id": "OldHandguard", "localeName": "Old Handguard", "count": 12 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "Narukami's Joy", "count": 9 },
+          { "id": "DarkStatuette", "localeName": "Dark Statuette", "count": 9 },
+          { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "count": 9 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "Narukami's Affection", "count": 5 },
+          { "id": "DarkStatuette", "localeName": "Dark Statuette", "count": 18 },
+          { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "Narukami's Affection", "count": 9 },
+          { "id": "DeathlyStatuette", "localeName": "Deathly Statuette", "count": 14 },
+          { "id": "FamedHandguard", "localeName": "Famed Handguard", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "NarukamisValor", "localeName": "Narukami's Valor", "count": 6 },
+          { "id": "DeathlyStatuette", "localeName": "Deathly Statuette", "count": 27 },
+          { "id": "FamedHandguard", "localeName": "Famed Handguard", "count": 18 }
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "overviewItems": [
+      { "id": "NarukamisValor", "name": "Narukami's Valor", "rarity": 5 },
+      { "id": "DeathlyStatuette", "name": "Deathly Statuette", "rarity": 4 },
+      { "id": "FamedHandguard", "name": "Famed Handguard", "rarity": 3 }
+    ],
+    "subAttr": { "type": 12, "value": 0.072, "curve": 18 },
+    "affix": {
+      "name": "Honed Flow",
+      "levels": [
+        {
+          "desc": "Obtain <color=#99FFFFFF>12%</color> All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by <color=#99FFFFFF>20%</color> for 8s.",
+          "params": [0.12, 2, 0.3, 0.2, 8]
+        },
+        {
+          "desc": "Obtain <color=#99FFFFFF>15%</color> All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by <color=#99FFFFFF>25%</color> for 8s.",
+          "params": [0.15, 2, 0.3, 0.25, 8]
+        },
+        {
+          "desc": "Obtain <color=#99FFFFFF>18%</color> All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by <color=#99FFFFFF>30%</color> for 8s.",
+          "params": [0.18, 2, 0.3, 0.3, 8]
+        },
+        {
+          "desc": "Obtain <color=#99FFFFFF>21%</color> All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by <color=#99FFFFFF>35%</color> for 8s.",
+          "params": [0.21, 2, 0.3, 0.35, 8]
+        },
+        {
+          "desc": "Obtain <color=#99FFFFFF>24%</color> All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by <color=#99FFFFFF>40%</color> for 8s.",
+          "params": [0.24, 2, 0.3, 0.4, 8]
+        }
+      ]
+    }
+  },
+  {
+    "uid": 12101,
     "id": "WasterGreatsword",
     "name": "Waster Greatsword",
     "localeName": "Waster Greatsword",
@@ -2331,6 +2541,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 12201,
     "id": "OldMercsPal",
     "name": "Old Merc's Pal",
     "localeName": "Old Merc's Pal",
@@ -2379,6 +2590,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 12301,
     "id": "FerrousShadow",
     "name": "Ferrous Shadow",
     "localeName": "Ferrous Shadow",
@@ -2461,6 +2673,7 @@
     }
   },
   {
+    "uid": 12302,
     "id": "BloodtaintedGreatsword",
     "name": "Bloodtainted Greatsword",
     "localeName": "Bloodtainted Greatsword",
@@ -2543,6 +2756,7 @@
     }
   },
   {
+    "uid": 12303,
     "id": "WhiteIronGreatsword",
     "name": "White Iron Greatsword",
     "localeName": "White Iron Greatsword",
@@ -2625,6 +2839,7 @@
     }
   },
   {
+    "uid": 12304,
     "id": "Quartz",
     "name": "Quartz",
     "localeName": "Quartz",
@@ -2707,6 +2922,7 @@
     }
   },
   {
+    "uid": 12305,
     "id": "DebateClub",
     "name": "Debate Club",
     "localeName": "Debate Club",
@@ -2789,6 +3005,7 @@
     }
   },
   {
+    "uid": 12306,
     "id": "SkyriderGreatsword",
     "name": "Skyrider Greatsword",
     "localeName": "Skyrider Greatsword",
@@ -2871,6 +3088,7 @@
     }
   },
   {
+    "uid": 12401,
     "id": "FavoniusGreatsword",
     "name": "Favonius Greatsword",
     "localeName": "Favonius Greatsword",
@@ -2953,6 +3171,7 @@
     }
   },
   {
+    "uid": 12402,
     "id": "TheBell",
     "name": "The Bell",
     "localeName": "The Bell",
@@ -3050,6 +3269,7 @@
     }
   },
   {
+    "uid": 12403,
     "id": "SacrificialGreatsword",
     "name": "Sacrificial Greatsword",
     "localeName": "Sacrificial Greatsword",
@@ -3132,10 +3352,11 @@
     }
   },
   {
+    "uid": 12404,
     "id": "RoyalGreatsword",
     "name": "Royal Greatsword",
     "localeName": "Royal Greatsword",
-    "desc": "An old greatsword that belonged to the erstwhile rulers of Mondstadt. It is made from the finest-quality materials and has stood the test of time. A weapon for use by royals only.",
+    "desc": "An old greatsword that belonged to the erstwhile rulers of Mondstadt. It is made from the finest-quality materials and has stood the test of time. A weapon for use by the nobility only.",
     "rarity": 4,
     "type": 4,
     "ascensions": [
@@ -3214,6 +3435,7 @@
     }
   },
   {
+    "uid": 12405,
     "id": "Rainslasher",
     "name": "Rainslasher",
     "localeName": "Rainslasher",
@@ -3296,6 +3518,7 @@
     }
   },
   {
+    "uid": 12406,
     "id": "PrototypeArchaic",
     "name": "Prototype Archaic",
     "localeName": "Prototype Archaic",
@@ -3378,6 +3601,7 @@
     }
   },
   {
+    "uid": 12407,
     "id": "Whiteblind",
     "name": "Whiteblind",
     "localeName": "Whiteblind",
@@ -3460,6 +3684,7 @@
     }
   },
   {
+    "uid": 12408,
     "id": "BlackcliffSlasher",
     "name": "Blackcliff Slasher",
     "localeName": "Blackcliff Slasher",
@@ -3542,6 +3767,7 @@
     }
   },
   {
+    "uid": 12409,
     "id": "SerpentSpine",
     "name": "Serpent Spine",
     "localeName": "Serpent Spine",
@@ -3639,6 +3865,7 @@
     }
   },
   {
+    "uid": 12410,
     "id": "LithicBlade",
     "name": "Lithic Blade",
     "localeName": "Lithic Blade",
@@ -3721,6 +3948,7 @@
     }
   },
   {
+    "uid": 12411,
     "id": "SnowTombedStarsilver",
     "name": "Snow-Tombed Starsilver",
     "localeName": "Snow-Tombed Starsilver",
@@ -3818,6 +4046,105 @@
     }
   },
   {
+    "uid": 12412,
+    "id": "LuxuriousSeaLord",
+    "name": "Luxurious Sea-Lord",
+    "localeName": "Luxurious Sea-Lord",
+    "desc": "The great king of the ocean. Having been air-dried, it makes for a fine weapon as well as emergency sustenance.",
+    "rarity": 4,
+    "type": 4,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "GrainOfAerosiderite", "localeName": "Grain of Aerosiderite", "count": 3 },
+          { "id": "FragileBoneShard", "localeName": "Fragile Bone Shard", "count": 3 },
+          { "id": "SlimeCondensate", "localeName": "Slime Condensate", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "PieceOfAerosiderite", "localeName": "Piece of Aerosiderite", "count": 3 },
+          { "id": "FragileBoneShard", "localeName": "Fragile Bone Shard", "count": 12 },
+          { "id": "SlimeCondensate", "localeName": "Slime Condensate", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "PieceOfAerosiderite", "localeName": "Piece of Aerosiderite", "count": 6 },
+          { "id": "SturdyBoneShard", "localeName": "Sturdy Bone Shard", "count": 6 },
+          { "id": "SlimeSecretions", "localeName": "Slime Secretions", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "BitOfAerosiderite", "localeName": "Bit of Aerosiderite", "count": 3 },
+          { "id": "SturdyBoneShard", "localeName": "Sturdy Bone Shard", "count": 12 },
+          { "id": "SlimeSecretions", "localeName": "Slime Secretions", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "BitOfAerosiderite", "localeName": "Bit of Aerosiderite", "count": 6 },
+          { "id": "FossilizedBoneShard", "localeName": "Fossilized Bone Shard", "count": 9 },
+          { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "ChunkOfAerosiderite", "localeName": "Chunk of Aerosiderite", "count": 4 },
+          { "id": "FossilizedBoneShard", "localeName": "Fossilized Bone Shard", "count": 18 },
+          { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 41.067,
+    "baseATKCurve": 9,
+    "overviewItems": [
+      { "id": "ChunkOfAerosiderite", "name": "Chunk of Aerosiderite", "rarity": 5 },
+      { "id": "FossilizedBoneShard", "name": "Fossilized Bone Shard", "rarity": 4 },
+      { "id": "SlimeConcentrate", "name": "Slime Concentrate", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.12, "curve": 17 },
+    "affix": {
+      "name": "Oceanic Victory",
+      "levels": [
+        {
+          "desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>12%</color>. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals <color=#99FFFFFF>100%</color> ATK as AoE DMG. This effect can occur once every 15s.",
+          "params": [0.12, 1, 1, 15]
+        },
+        {
+          "desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>15%</color>. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals <color=#99FFFFFF>125%</color> ATK as AoE DMG. This effect can occur once every 15s.",
+          "params": [0.15, 1, 1.25, 15]
+        },
+        {
+          "desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>18%</color>. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals <color=#99FFFFFF>150%</color> ATK as AoE DMG. This effect can occur once every 15s.",
+          "params": [0.18, 1, 1.5, 15]
+        },
+        {
+          "desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>21%</color>. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals <color=#99FFFFFF>175%</color> ATK as AoE DMG. This effect can occur once every 15s.",
+          "params": [0.21, 1, 1.75, 15]
+        },
+        {
+          "desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>24%</color>. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals <color=#99FFFFFF>200%</color> ATK as AoE DMG. This effect can occur once every 15s.",
+          "params": [0.24, 1, 2, 15]
+        }
+      ]
+    }
+  },
+  {
+    "uid": 12414,
     "id": "KatsuragikiriNagamasa",
     "name": "Katsuragikiri Nagamasa",
     "localeName": "Katsuragikiri Nagamasa",
@@ -3915,6 +4242,105 @@
     }
   },
   {
+    "uid": 12416,
+    "id": "Akuoumaru",
+    "name": "Akuoumaru",
+    "localeName": "Akuoumaru",
+    "desc": "The beloved sword of the legendary \"Akuou.\" The blade is huge and majestic, but is surprisingly easy to wield.",
+    "rarity": 4,
+    "type": 4,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "CoralBranchOfADistantSea", "localeName": "Coral Branch of a Distant Sea", "count": 3 },
+          { "id": "ConcealedClaw", "localeName": "Concealed Claw", "count": 3 },
+          { "id": "OldHandguard", "localeName": "Old Handguard", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "Jeweled Branch of a Distant Sea", "count": 3 },
+          { "id": "ConcealedClaw", "localeName": "Concealed Claw", "count": 12 },
+          { "id": "OldHandguard", "localeName": "Old Handguard", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "Jeweled Branch of a Distant Sea", "count": 6 },
+          { "id": "ConcealedUnguis", "localeName": "Concealed Unguis", "count": 6 },
+          { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "Jade Branch of a Distant Sea", "count": 3 },
+          { "id": "ConcealedUnguis", "localeName": "Concealed Unguis", "count": 12 },
+          { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "Jade Branch of a Distant Sea", "count": 6 },
+          { "id": "ConcealedTalon", "localeName": "Concealed Talon", "count": 9 },
+          { "id": "FamedHandguard", "localeName": "Famed Handguard", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "GoldenBranchOfADistantSea", "localeName": "Golden Branch of a Distant Sea", "count": 4 },
+          { "id": "ConcealedTalon", "localeName": "Concealed Talon", "count": 18 },
+          { "id": "FamedHandguard", "localeName": "Famed Handguard", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "overviewItems": [
+      { "id": "GoldenBranchOfADistantSea", "name": "Golden Branch of a Distant Sea", "rarity": 5 },
+      { "id": "ConcealedTalon", "name": "Concealed Talon", "rarity": 4 },
+      { "id": "FamedHandguard", "name": "Famed Handguard", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
+    "affix": {
+      "name": "Watatsumi Wavewalker",
+      "levels": [
+        {
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.12%</color>. A maximum of <color=#99FFFFFF>40%</color> increased Elemental Burst DMG can be achieved this way.",
+          "params": [0.12, 0.4]
+        },
+        {
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.15%</color>. A maximum of <color=#99FFFFFF>50%</color> increased Elemental Burst DMG can be achieved this way.",
+          "params": [0.15, 0.5]
+        },
+        {
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.18%</color>. A maximum of <color=#99FFFFFF>60%</color> increased Elemental Burst DMG can be achieved this way.",
+          "params": [0.18, 0.6]
+        },
+        {
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.21%</color>. A maximum of <color=#99FFFFFF>70%</color> increased Elemental Burst DMG can be achieved this way.",
+          "params": [0.21, 0.7]
+        },
+        {
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.24%</color>. A maximum of <color=#99FFFFFF>80%</color> increased Elemental Burst DMG can be achieved this way.",
+          "params": [0.24, 0.8]
+        }
+      ]
+    }
+  },
+  {
+    "uid": 12501,
     "id": "SkywardPride",
     "name": "Skyward Pride",
     "localeName": "Skyward Pride",
@@ -4012,6 +4438,7 @@
     }
   },
   {
+    "uid": 12502,
     "id": "WolfsGravestone",
     "name": "Wolf's Gravestone",
     "localeName": "Wolf's Gravestone",
@@ -4094,6 +4521,7 @@
     }
   },
   {
+    "uid": 12503,
     "id": "SongOfBrokenPines",
     "name": "Song of Broken Pines",
     "localeName": "Song of Broken Pines",
@@ -4191,6 +4619,7 @@
     }
   },
   {
+    "uid": 12504,
     "id": "TheUnforged",
     "name": "The Unforged",
     "localeName": "The Unforged",
@@ -4288,6 +4717,7 @@
     }
   },
   {
+    "uid": 12505,
     "id": "PrimordialJadeGreatsword",
     "name": "Primordial Jade Greatsword",
     "localeName": "Primordial Jade Greatsword",
@@ -4336,6 +4766,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 12506,
     "id": "TheOtherSide",
     "name": "The Other Side",
     "localeName": "The Other Side",
@@ -4384,6 +4815,90 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 12510,
+    "id": "RedhornStonethresher",
+    "name": "Redhorn Stonethresher",
+    "localeName": "Redhorn Stonethresher",
+    "desc": "According to its previous owner, this weapon is the \"Mighty Redhorn Stoic Stonethreshing Gilded Goldcrushing Lion Lord\" that can send any monster packing with its tail between its legs.",
+    "rarity": 5,
+    "type": 4,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          { "id": "NarukamisWisdom", "localeName": "Narukami's Wisdom", "count": 5 },
+          { "id": "ConcealedClaw", "localeName": "Concealed Claw", "count": 5 },
+          { "id": "OldHandguard", "localeName": "Old Handguard", "count": 3 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "Narukami's Joy", "count": 5 },
+          { "id": "ConcealedClaw", "localeName": "Concealed Claw", "count": 18 },
+          { "id": "OldHandguard", "localeName": "Old Handguard", "count": 12 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "Narukami's Joy", "count": 9 },
+          { "id": "ConcealedUnguis", "localeName": "Concealed Unguis", "count": 9 },
+          { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "count": 9 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "Narukami's Affection", "count": 5 },
+          { "id": "ConcealedUnguis", "localeName": "Concealed Unguis", "count": 18 },
+          { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "Narukami's Affection", "count": 9 },
+          { "id": "ConcealedTalon", "localeName": "Concealed Talon", "count": 14 },
+          { "id": "FamedHandguard", "localeName": "Famed Handguard", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "NarukamisValor", "localeName": "Narukami's Valor", "count": 6 },
+          { "id": "ConcealedTalon", "localeName": "Concealed Talon", "count": 27 },
+          { "id": "FamedHandguard", "localeName": "Famed Handguard", "count": 18 }
+        ]
+      }
+    ],
+    "baseATK": 44.336,
+    "baseATKCurve": 14,
+    "overviewItems": [
+      { "id": "NarukamisValor", "name": "Narukami's Valor", "rarity": 5 },
+      { "id": "ConcealedTalon", "name": "Concealed Talon", "rarity": 4 },
+      { "id": "FamedHandguard", "name": "Famed Handguard", "rarity": 3 }
+    ],
+    "subAttr": { "type": 13, "value": 0.192, "curve": 18 },
+    "affix": {
+      "name": "Gokadaiou Otogibanashi",
+      "levels": [
+        { "desc": "DEF is increased by <color=#99FFFFFF>28%</color>. Normal and Charged Attack DMG is increased by <color=#99FFFFFF>40%</color> of DEF.", "params": [0.28, 0.4, 80000] },
+        { "desc": "DEF is increased by <color=#99FFFFFF>35%</color>. Normal and Charged Attack DMG is increased by <color=#99FFFFFF>50%</color> of DEF.", "params": [0.35, 0.5, 80000] },
+        { "desc": "DEF is increased by <color=#99FFFFFF>42%</color>. Normal and Charged Attack DMG is increased by <color=#99FFFFFF>60%</color> of DEF.", "params": [0.42, 0.6, 80000] },
+        { "desc": "DEF is increased by <color=#99FFFFFF>49%</color>. Normal and Charged Attack DMG is increased by <color=#99FFFFFF>70%</color> of DEF.", "params": [0.49, 0.7, 80000] },
+        { "desc": "DEF is increased by <color=#99FFFFFF>56%</color>. Normal and Charged Attack DMG is increased by <color=#99FFFFFF>80%</color> of DEF.", "params": [0.56, 0.8, 80000] }
+      ]
+    }
+  },
+  {
+    "uid": 13101,
     "id": "BeginnersProtector",
     "name": "Beginner's Protector",
     "localeName": "Beginner's Protector",
@@ -4432,6 +4947,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 13201,
     "id": "IronPoint",
     "name": "Iron Point",
     "localeName": "Iron Point",
@@ -4480,6 +4996,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 13301,
     "id": "WhiteTassel",
     "name": "White Tassel",
     "localeName": "White Tassel",
@@ -4562,6 +5079,7 @@
     }
   },
   {
+    "uid": 13302,
     "id": "Halberd",
     "name": "Halberd",
     "localeName": "Halberd",
@@ -4644,6 +5162,7 @@
     }
   },
   {
+    "uid": 13303,
     "id": "BlackTassel",
     "name": "Black Tassel",
     "localeName": "Black Tassel",
@@ -4726,6 +5245,7 @@
     }
   },
   {
+    "uid": 13304,
     "id": "TheFlagstaff",
     "name": "The Flagstaff",
     "localeName": "The Flagstaff",
@@ -4807,6 +5327,7 @@
     }
   },
   {
+    "uid": 13401,
     "id": "DragonsBane",
     "name": "Dragon's Bane",
     "localeName": "Dragon's Bane",
@@ -4889,10 +5410,11 @@
     }
   },
   {
+    "uid": 13402,
     "id": "PrototypeStarglitter",
     "name": "Prototype Starglitter",
     "localeName": "Prototype Starglitter",
-    "desc": "A grudge discovered in the Blackcliff Forge. The glimmers along the sharp edge are like stars in the night.",
+    "desc": "A hooked spear discovered hidden away in the Blackcliff Forge. The glimmers along the sharp edge are like stars in the night.",
     "rarity": 4,
     "type": 3,
     "ascensions": [
@@ -4971,6 +5493,7 @@
     }
   },
   {
+    "uid": 13403,
     "id": "CrescentPike",
     "name": "Crescent Pike",
     "localeName": "Crescent Pike",
@@ -5053,6 +5576,7 @@
     }
   },
   {
+    "uid": 13404,
     "id": "BlackcliffPole",
     "name": "Blackcliff Pole",
     "localeName": "Blackcliff Pole",
@@ -5135,6 +5659,7 @@
     }
   },
   {
+    "uid": 13405,
     "id": "Deathmatch",
     "name": "Deathmatch",
     "localeName": "Deathmatch",
@@ -5217,6 +5742,7 @@
     }
   },
   {
+    "uid": 13406,
     "id": "LithicSpear",
     "name": "Lithic Spear",
     "localeName": "Lithic Spear",
@@ -5299,6 +5825,7 @@
     }
   },
   {
+    "uid": 13407,
     "id": "FavoniusLance",
     "name": "Favonius Lance",
     "localeName": "Favonius Lance",
@@ -5381,6 +5908,7 @@
     }
   },
   {
+    "uid": 13408,
     "id": "RoyalSpear",
     "name": "Royal Spear",
     "localeName": "Royal Spear",
@@ -5463,6 +5991,7 @@
     }
   },
   {
+    "uid": 13409,
     "id": "DragonspineSpear",
     "name": "Dragonspine Spear",
     "localeName": "Dragonspine Spear",
@@ -5560,6 +6089,7 @@
     }
   },
   {
+    "uid": 13414,
     "id": "KitainCrossSpear",
     "name": "Kitain Cross Spear",
     "localeName": "Kitain Cross Spear",
@@ -5657,6 +6187,188 @@
     }
   },
   {
+    "uid": 13415,
+    "id": "TheCatch",
+    "name": "\"The Catch\"",
+    "localeName": "\"The Catch\"",
+    "desc": "In the distant past, this was the beloved spear of a famed Inazuman bandit.",
+    "rarity": 4,
+    "type": 3,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "MaskOfTheWickedLieutenant", "localeName": "Mask of the Wicked Lieutenant", "count": 3 },
+          { "id": "ChaosGear", "localeName": "Chaos Gear", "count": 3 },
+          { "id": "SpectralHusk", "localeName": "Spectral Husk", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "Mask of the Tiger's Bite", "count": 3 },
+          { "id": "ChaosGear", "localeName": "Chaos Gear", "count": 12 },
+          { "id": "SpectralHusk", "localeName": "Spectral Husk", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "Mask of the Tiger's Bite", "count": 6 },
+          { "id": "ChaosAxis", "localeName": "Chaos Axis", "count": 6 },
+          { "id": "SpectralHeart", "localeName": "Spectral Heart", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "Mask of the One-Horned", "count": 3 },
+          { "id": "ChaosAxis", "localeName": "Chaos Axis", "count": 12 },
+          { "id": "SpectralHeart", "localeName": "Spectral Heart", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "Mask of the One-Horned", "count": 6 },
+          { "id": "ChaosOculus", "localeName": "Chaos Oculus", "count": 9 },
+          { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "MaskOfTheKijin", "localeName": "Mask of the Kijin", "count": 4 },
+          { "id": "ChaosOculus", "localeName": "Chaos Oculus", "count": 18 },
+          { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "overviewItems": [
+      { "id": "MaskOfTheKijin", "name": "Mask of the Kijin", "rarity": 5 },
+      { "id": "ChaosOculus", "name": "Chaos Oculus", "rarity": 4 },
+      { "id": "SpectralNucleus", "name": "Spectral Nucleus", "rarity": 3 }
+    ],
+    "subAttr": { "type": 10, "value": 0.1, "curve": 17 },
+    "affix": {
+      "name": "Shanty",
+      "levels": [
+        { "desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>16%</color> and Elemental Burst CRIT Rate by <color=#99FFFFFF>6%</color>.", "params": [0.16, 0.06] },
+        { "desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>20%</color> and Elemental Burst CRIT Rate by <color=#99FFFFFF>7.5%</color>.", "params": [0.2, 0.075] },
+        { "desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>24%</color> and Elemental Burst CRIT Rate by <color=#99FFFFFF>9%</color>.", "params": [0.24, 0.09] },
+        { "desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>28%</color> and Elemental Burst CRIT Rate by <color=#99FFFFFF>10.5%</color>.", "params": [0.28, 0.105] },
+        { "desc": "Increases Elemental Burst DMG by <color=#99FFFFFF>32%</color> and Elemental Burst CRIT Rate by <color=#99FFFFFF>12%</color>.", "params": [0.32, 0.12] }
+      ]
+    }
+  },
+  {
+    "uid": 13416,
+    "id": "WavebreakersFin",
+    "name": "Wavebreaker's Fin",
+    "localeName": "Wavebreaker's Fin",
+    "desc": "A naginata forged from luminescent material deep in the ocean depths. It was once the possession of the tengu race.",
+    "rarity": 4,
+    "type": 3,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "MaskOfTheWickedLieutenant", "localeName": "Mask of the Wicked Lieutenant", "count": 3 },
+          { "id": "ConcealedClaw", "localeName": "Concealed Claw", "count": 3 },
+          { "id": "OldHandguard", "localeName": "Old Handguard", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "Mask of the Tiger's Bite", "count": 3 },
+          { "id": "ConcealedClaw", "localeName": "Concealed Claw", "count": 12 },
+          { "id": "OldHandguard", "localeName": "Old Handguard", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "Mask of the Tiger's Bite", "count": 6 },
+          { "id": "ConcealedUnguis", "localeName": "Concealed Unguis", "count": 6 },
+          { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "Mask of the One-Horned", "count": 3 },
+          { "id": "ConcealedUnguis", "localeName": "Concealed Unguis", "count": 12 },
+          { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "Mask of the One-Horned", "count": 6 },
+          { "id": "ConcealedTalon", "localeName": "Concealed Talon", "count": 9 },
+          { "id": "FamedHandguard", "localeName": "Famed Handguard", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "MaskOfTheKijin", "localeName": "Mask of the Kijin", "count": 4 },
+          { "id": "ConcealedTalon", "localeName": "Concealed Talon", "count": 18 },
+          { "id": "FamedHandguard", "localeName": "Famed Handguard", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 45.069,
+    "baseATKCurve": 8,
+    "overviewItems": [
+      { "id": "MaskOfTheKijin", "name": "Mask of the Kijin", "rarity": 5 },
+      { "id": "ConcealedTalon", "name": "Concealed Talon", "rarity": 4 },
+      { "id": "FamedHandguard", "name": "Famed Handguard", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.03, "curve": 17 },
+    "affix": {
+      "name": "Watatsumi Wavewalker",
+      "levels": [
+        {
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.12%</color>. A maximum of <color=#99FFFFFF>40%</color> increased Elemental Burst DMG can be achieved this way.",
+          "params": [0.12, 0.4]
+        },
+        {
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.15%</color>. A maximum of <color=#99FFFFFF>50%</color> increased Elemental Burst DMG can be achieved this way.",
+          "params": [0.15, 0.5]
+        },
+        {
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.18%</color>. A maximum of <color=#99FFFFFF>60%</color> increased Elemental Burst DMG can be achieved this way.",
+          "params": [0.18, 0.6]
+        },
+        {
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.21%</color>. A maximum of <color=#99FFFFFF>70%</color> increased Elemental Burst DMG can be achieved this way.",
+          "params": [0.21, 0.7]
+        },
+        {
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.24%</color>. A maximum of <color=#99FFFFFF>80%</color> increased Elemental Burst DMG can be achieved this way.",
+          "params": [0.24, 0.8]
+        }
+      ]
+    }
+  },
+  {
+    "uid": 13501,
     "id": "StaffOfHoma",
     "name": "Staff of Homa",
     "localeName": "Staff of Homa",
@@ -5754,6 +6466,7 @@
     }
   },
   {
+    "uid": 13502,
     "id": "SkywardSpine",
     "name": "Skyward Spine",
     "localeName": "Skyward Spine",
@@ -5851,6 +6564,7 @@
     }
   },
   {
+    "uid": 13504,
     "id": "VortexVanquisher",
     "name": "Vortex Vanquisher",
     "localeName": "Vortex Vanquisher",
@@ -5948,6 +6662,7 @@
     }
   },
   {
+    "uid": 13505,
     "id": "PrimordialJadeWingedSpear",
     "name": "Primordial Jade Winged-Spear",
     "localeName": "Primordial Jade Winged-Spear",
@@ -6030,6 +6745,7 @@
     }
   },
   {
+    "uid": 13506,
     "id": "Deicide",
     "name": "Deicide",
     "localeName": "Deicide",
@@ -6078,6 +6794,188 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 13507,
+    "id": "CalamityQueller",
+    "name": "Calamity Queller",
+    "localeName": "Calamity Queller",
+    "desc": "A keenly honed weapon forged from some strange crystal. Its faint blue light seems to whisper of countless matters now past.",
+    "rarity": 5,
+    "type": 3,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          { "id": "MistVeiledLeadElixir", "localeName": "Mist Veiled Lead Elixir", "count": 5 },
+          { "id": "MistGrassPollen", "localeName": "Mist Grass Pollen", "count": 5 },
+          { "id": "WhopperflowerNectar", "localeName": "Whopperflower Nectar", "count": 3 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          { "id": "MistVeiledMercuryElixir", "localeName": "Mist Veiled Mercury Elixir", "count": 5 },
+          { "id": "MistGrassPollen", "localeName": "Mist Grass Pollen", "count": 18 },
+          { "id": "WhopperflowerNectar", "localeName": "Whopperflower Nectar", "count": 12 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          { "id": "MistVeiledMercuryElixir", "localeName": "Mist Veiled Mercury Elixir", "count": 9 },
+          { "id": "MistGrass", "localeName": "Mist Grass", "count": 9 },
+          { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "count": 9 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          { "id": "MistVeiledGoldElixir", "localeName": "Mist Veiled Gold Elixir", "count": 5 },
+          { "id": "MistGrass", "localeName": "Mist Grass", "count": 18 },
+          { "id": "ShimmeringNectar", "localeName": "Shimmering Nectar", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "MistVeiledGoldElixir", "localeName": "Mist Veiled Gold Elixir", "count": 9 },
+          { "id": "MistGrassWick", "localeName": "Mist Grass Wick", "count": 14 },
+          { "id": "EnergyNectar", "localeName": "Energy Nectar", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "MistVeiledPrimoElixir", "localeName": "Mist Veiled Primo Elixir", "count": 6 },
+          { "id": "MistGrassWick", "localeName": "Mist Grass Wick", "count": 27 },
+          { "id": "EnergyNectar", "localeName": "Energy Nectar", "count": 18 }
+        ]
+      }
+    ],
+    "baseATK": 49.138,
+    "baseATKCurve": 13,
+    "overviewItems": [
+      { "id": "MistVeiledPrimoElixir", "name": "Mist Veiled Primo Elixir", "rarity": 5 },
+      { "id": "MistGrassWick", "name": "Mist Grass Wick", "rarity": 4 },
+      { "id": "EnergyNectar", "name": "Energy Nectar", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.036, "curve": 18 },
+    "affix": {
+      "name": "Extinguishing Precept",
+      "levels": [
+        {
+          "desc": "Gain <color=#99FFFFFF>12%</color> All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by <color=#99FFFFFF>3.2%</color> per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.",
+          "params": [0.12, 1, 0.032, 6, 20]
+        },
+        {
+          "desc": "Gain <color=#99FFFFFF>15%</color> All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by <color=#99FFFFFF>4%</color> per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.",
+          "params": [0.15, 1, 0.04, 6, 20]
+        },
+        {
+          "desc": "Gain <color=#99FFFFFF>18%</color> All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by <color=#99FFFFFF>4.8%</color> per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.",
+          "params": [0.18, 1, 0.048, 6, 20]
+        },
+        {
+          "desc": "Gain <color=#99FFFFFF>21%</color> All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by <color=#99FFFFFF>5.6%</color> per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.",
+          "params": [0.21, 1, 0.056, 6, 20]
+        },
+        {
+          "desc": "Gain <color=#99FFFFFF>24%</color> All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by <color=#99FFFFFF>6.4%</color> per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.",
+          "params": [0.24, 1, 0.064, 6, 20]
+        }
+      ]
+    }
+  },
+  {
+    "uid": 13509,
+    "id": "EngulfingLightning",
+    "name": "Engulfing Lightning",
+    "localeName": "Engulfing Lightning",
+    "desc": "A naginata used to \"cut grass.\" Any army that stands before this weapon will probably be likewise cut down...",
+    "rarity": 5,
+    "type": 3,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          { "id": "MaskOfTheWickedLieutenant", "localeName": "Mask of the Wicked Lieutenant", "count": 5 },
+          { "id": "ChaosGear", "localeName": "Chaos Gear", "count": 5 },
+          { "id": "OldHandguard", "localeName": "Old Handguard", "count": 3 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "Mask of the Tiger's Bite", "count": 5 },
+          { "id": "ChaosGear", "localeName": "Chaos Gear", "count": 18 },
+          { "id": "OldHandguard", "localeName": "Old Handguard", "count": 12 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "Mask of the Tiger's Bite", "count": 9 },
+          { "id": "ChaosAxis", "localeName": "Chaos Axis", "count": 9 },
+          { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "count": 9 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "Mask of the One-Horned", "count": 5 },
+          { "id": "ChaosAxis", "localeName": "Chaos Axis", "count": 18 },
+          { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "Mask of the One-Horned", "count": 9 },
+          { "id": "ChaosOculus", "localeName": "Chaos Oculus", "count": 14 },
+          { "id": "FamedHandguard", "localeName": "Famed Handguard", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "MaskOfTheKijin", "localeName": "Mask of the Kijin", "count": 6 },
+          { "id": "ChaosOculus", "localeName": "Chaos Oculus", "count": 27 },
+          { "id": "FamedHandguard", "localeName": "Famed Handguard", "count": 18 }
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "overviewItems": [
+      { "id": "MaskOfTheKijin", "name": "Mask of the Kijin", "rarity": 5 },
+      { "id": "ChaosOculus", "name": "Chaos Oculus", "rarity": 4 },
+      { "id": "FamedHandguard", "name": "Famed Handguard", "rarity": 3 }
+    ],
+    "subAttr": { "type": 10, "value": 0.12, "curve": 18 },
+    "affix": {
+      "name": "Timeless Dream: Eternal Stove",
+      "levels": [
+        { "desc": "ATK increased by <color=#99FFFFFF>28%</color> of Energy Recharge over the base 100%. You can gain a maximum bonus of <color=#99FFFFFF>80%</color> ATK. Gain <color=#99FFFFFF>30%</color> Energy Recharge for 12s after using an Elemental Burst.", "params": [0.28, 0.8, 0.3, 12] },
+        { "desc": "ATK increased by <color=#99FFFFFF>35%</color> of Energy Recharge over the base 100%. You can gain a maximum bonus of <color=#99FFFFFF>90%</color> ATK. Gain <color=#99FFFFFF>35%</color> Energy Recharge for 12s after using an Elemental Burst.", "params": [0.35, 0.9, 0.35, 12] },
+        { "desc": "ATK increased by <color=#99FFFFFF>42%</color> of Energy Recharge over the base 100%. You can gain a maximum bonus of <color=#99FFFFFF>100%</color> ATK. Gain <color=#99FFFFFF>40%</color> Energy Recharge for 12s after using an Elemental Burst.", "params": [0.42, 1, 0.4, 12] },
+        { "desc": "ATK increased by <color=#99FFFFFF>49%</color> of Energy Recharge over the base 100%. You can gain a maximum bonus of <color=#99FFFFFF>110%</color> ATK. Gain <color=#99FFFFFF>45%</color> Energy Recharge for 12s after using an Elemental Burst.", "params": [0.49, 1.1, 0.45, 12] },
+        { "desc": "ATK increased by <color=#99FFFFFF>56%</color> of Energy Recharge over the base 100%. You can gain a maximum bonus of <color=#99FFFFFF>120%</color> ATK. Gain <color=#99FFFFFF>50%</color> Energy Recharge for 12s after using an Elemental Burst.", "params": [0.56, 1.2, 0.5, 12] }
+      ]
+    }
+  },
+  {
+    "uid": 14101,
     "id": "ApprenticesNotes",
     "name": "Apprentice's Notes",
     "localeName": "Apprentice's Notes",
@@ -6126,6 +7024,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 14201,
     "id": "PocketGrimoire",
     "name": "Pocket Grimoire",
     "localeName": "Pocket Grimoire",
@@ -6174,6 +7073,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 14301,
     "id": "MagicGuide",
     "name": "Magic Guide",
     "localeName": "Magic Guide",
@@ -6256,6 +7156,7 @@
     }
   },
   {
+    "uid": 14302,
     "id": "ThrillingTalesOfDragonSlayers",
     "name": "Thrilling Tales of Dragon Slayers",
     "localeName": "Thrilling Tales of Dragon Slayers",
@@ -6338,6 +7239,7 @@
     }
   },
   {
+    "uid": 14303,
     "id": "OtherworldlyStory",
     "name": "Otherworldly Story",
     "localeName": "Otherworldly Story",
@@ -6420,6 +7322,7 @@
     }
   },
   {
+    "uid": 14304,
     "id": "EmeraldOrb",
     "name": "Emerald Orb",
     "localeName": "Emerald Orb",
@@ -6502,6 +7405,7 @@
     }
   },
   {
+    "uid": 14305,
     "id": "TwinNephrite",
     "name": "Twin Nephrite",
     "localeName": "Twin Nephrite",
@@ -6584,6 +7488,7 @@
     }
   },
   {
+    "uid": 14306,
     "id": "AmberBead",
     "name": "Amber Bead",
     "localeName": "Amber Bead",
@@ -6666,6 +7571,7 @@
     }
   },
   {
+    "uid": 14401,
     "id": "FavoniusCodex",
     "name": "Favonius Codex",
     "localeName": "Favonius Codex",
@@ -6748,6 +7654,7 @@
     }
   },
   {
+    "uid": 14402,
     "id": "TheWidsith",
     "name": "The Widsith",
     "localeName": "The Widsith",
@@ -6845,6 +7752,7 @@
     }
   },
   {
+    "uid": 14403,
     "id": "SacrificialFragments",
     "name": "Sacrificial Fragments",
     "localeName": "Sacrificial Fragments",
@@ -6927,10 +7835,11 @@
     }
   },
   {
+    "uid": 14404,
     "id": "RoyalGrimoire",
     "name": "Royal Grimoire",
     "localeName": "Royal Grimoire",
-    "desc": "A book that once belonged to a royal mage of Mondstadt. It contains faithful and comprehensive historical accounts as well as magic spells.",
+    "desc": "A book that once belonged to a court mage of Mondstadt who served the nobility. It contains faithful and comprehensive historical accounts as well as magic spells.",
     "rarity": 4,
     "type": 5,
     "ascensions": [
@@ -7009,6 +7918,7 @@
     }
   },
   {
+    "uid": 14405,
     "id": "SolarPearl",
     "name": "Solar Pearl",
     "localeName": "Solar Pearl",
@@ -7091,6 +8001,7 @@
     }
   },
   {
+    "uid": 14406,
     "id": "PrototypeAmber",
     "name": "Prototype Amber",
     "localeName": "Prototype Amber",
@@ -7173,6 +8084,7 @@
     }
   },
   {
+    "uid": 14407,
     "id": "MappaMare",
     "name": "Mappa Mare",
     "localeName": "Mappa Mare",
@@ -7255,6 +8167,7 @@
     }
   },
   {
+    "uid": 14408,
     "id": "BlackcliffAgate",
     "name": "Blackcliff Agate",
     "localeName": "Blackcliff Agate",
@@ -7337,6 +8250,7 @@
     }
   },
   {
+    "uid": 14409,
     "id": "EyeOfPerception",
     "name": "Eye of Perception",
     "localeName": "Eye of Perception",
@@ -7419,6 +8333,7 @@
     }
   },
   {
+    "uid": 14410,
     "id": "WineAndSong",
     "name": "Wine and Song",
     "localeName": "Wine and Song",
@@ -7516,6 +8431,7 @@
     }
   },
   {
+    "uid": 14412,
     "id": "Frostbearer",
     "name": "Frostbearer",
     "localeName": "Frostbearer",
@@ -7613,6 +8529,7 @@
     }
   },
   {
+    "uid": 14413,
     "id": "DodocoTales",
     "name": "Dodoco Tales",
     "localeName": "Dodoco Tales",
@@ -7695,6 +8612,7 @@
     }
   },
   {
+    "uid": 14414,
     "id": "HakushinRing",
     "name": "Hakushin Ring",
     "localeName": "Hakushin Ring",
@@ -7792,6 +8710,90 @@
     }
   },
   {
+    "uid": 14415,
+    "id": "OathswornEye",
+    "name": "Oathsworn Eye",
+    "localeName": "Oathsworn Eye",
+    "desc": "A national treasure of Byakuyakoku stored in the Dainichi Mikoshi. With the coming of the Serpent God, this item was used to notarize great oaths and wishes.",
+    "rarity": 4,
+    "type": 5,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "CoralBranchOfADistantSea", "localeName": "Coral Branch of a Distant Sea", "count": 3 },
+          { "id": "ConcealedClaw", "localeName": "Concealed Claw", "count": 3 },
+          { "id": "SpectralHusk", "localeName": "Spectral Husk", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "Jeweled Branch of a Distant Sea", "count": 3 },
+          { "id": "ConcealedClaw", "localeName": "Concealed Claw", "count": 12 },
+          { "id": "SpectralHusk", "localeName": "Spectral Husk", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "Jeweled Branch of a Distant Sea", "count": 6 },
+          { "id": "ConcealedUnguis", "localeName": "Concealed Unguis", "count": 6 },
+          { "id": "SpectralHeart", "localeName": "Spectral Heart", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "Jade Branch of a Distant Sea", "count": 3 },
+          { "id": "ConcealedUnguis", "localeName": "Concealed Unguis", "count": 12 },
+          { "id": "SpectralHeart", "localeName": "Spectral Heart", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "Jade Branch of a Distant Sea", "count": 6 },
+          { "id": "ConcealedTalon", "localeName": "Concealed Talon", "count": 9 },
+          { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "GoldenBranchOfADistantSea", "localeName": "Golden Branch of a Distant Sea", "count": 4 },
+          { "id": "ConcealedTalon", "localeName": "Concealed Talon", "count": 18 },
+          { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "overviewItems": [
+      { "id": "GoldenBranchOfADistantSea", "name": "Golden Branch of a Distant Sea", "rarity": 5 },
+      { "id": "ConcealedTalon", "name": "Concealed Talon", "rarity": 4 },
+      { "id": "SpectralNucleus", "name": "Spectral Nucleus", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.06, "curve": 17 },
+    "affix": {
+      "name": "People of the Faltering Light",
+      "levels": [
+        { "desc": "Increases Energy Recharge by <color=#99FFFFFF>24%</color> for 10s after using an Elemental Skill.", "params": [0.24, 10] },
+        { "desc": "Increases Energy Recharge by <color=#99FFFFFF>30%</color> for 10s after using an Elemental Skill.", "params": [0.3, 10] },
+        { "desc": "Increases Energy Recharge by <color=#99FFFFFF>36%</color> for 10s after using an Elemental Skill.", "params": [0.36, 10] },
+        { "desc": "Increases Energy Recharge by <color=#99FFFFFF>42%</color> for 10s after using an Elemental Skill.", "params": [0.42, 10] },
+        { "desc": "Increases Energy Recharge by <color=#99FFFFFF>48%</color> for 10s after using an Elemental Skill.", "params": [0.48, 10] }
+      ]
+    }
+  },
+  {
+    "uid": 14501,
     "id": "SkywardAtlas",
     "name": "Skyward Atlas",
     "localeName": "Skyward Atlas",
@@ -7889,6 +8891,7 @@
     }
   },
   {
+    "uid": 14502,
     "id": "LostPrayerToTheSacredWinds",
     "name": "Lost Prayer to the Sacred Winds",
     "localeName": "Lost Prayer to the Sacred Winds",
@@ -7971,6 +8974,7 @@
     }
   },
   {
+    "uid": 14503,
     "id": "LostBallade",
     "name": "Lost Ballade",
     "localeName": "Lost Ballade",
@@ -8019,6 +9023,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 14504,
     "id": "MemoryOfDust",
     "name": "Memory of Dust",
     "localeName": "Memory of Dust",
@@ -8116,6 +9121,7 @@
     }
   },
   {
+    "uid": 14505,
     "id": "PrimordialJadeRegalia",
     "name": "Primordial Jade Regalia",
     "localeName": "Primordial Jade Regalia",
@@ -8164,54 +9170,203 @@
     "baseATKCurve": 1
   },
   {
-    "id": "DiamondVisage",
-    "name": "Diamond Visage",
-    "localeName": "Diamond Visage",
-    "desc": "A jade ring that is as pretty as if it was made in heaven. It radiates an indescribable light and power. Legend says you can see an infinite amount of worlds through it.",
+    "uid": 14506,
+    "id": "EverlastingMoonglow",
+    "name": "Everlasting Moonglow",
+    "localeName": "Everlasting Moonglow",
+    "desc": "A string of lovely jasper from the deep sea. It shines with a pure radiance like that of the moon, and just as ever-distant.",
     "rarity": 5,
     "type": 5,
     "ascensions": [
       {
         "level": 1,
-        "baseATK": 11.7,
+        "baseATK": 31.1,
         "cost": [
-          { "id": "TileOfDecarabiansTower", "localeName": "Tile of Decarabian's Tower", "count": 1 },
-          { "id": "HeavyHorn", "localeName": "Heavy Horn", "count": 1 },
-          { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "count": 1 }
+          { "id": "CoralBranchOfADistantSea", "localeName": "Coral Branch of a Distant Sea", "count": 5 },
+          { "id": "DismalPrism", "localeName": "Dismal Prism", "count": 5 },
+          { "id": "SpectralHusk", "localeName": "Spectral Husk", "count": 3 }
         ]
       },
       {
         "level": 2,
-        "baseATK": 23.3,
+        "baseATK": 62.2,
         "cost": [
-          { "id": "DebrisOfDecarabiansCity", "localeName": "Debris of Decarabian's City", "count": 1 },
-          { "id": "HeavyHorn", "localeName": "Heavy Horn", "count": 4 },
-          { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "count": 2 }
+          { "id": "JeweledBranchOfADistantSea", "localeName": "Jeweled Branch of a Distant Sea", "count": 5 },
+          { "id": "DismalPrism", "localeName": "Dismal Prism", "count": 18 },
+          { "id": "SpectralHusk", "localeName": "Spectral Husk", "count": 12 }
         ]
       },
       {
         "level": 3,
-        "baseATK": 35,
+        "baseATK": 93.4,
         "cost": [
-          { "id": "DebrisOfDecarabiansCity", "localeName": "Debris of Decarabian's City", "count": 2 },
-          { "id": "BlackBronzeHorn", "localeName": "Black Bronze Horn", "count": 2 },
-          { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "count": 2 }
+          { "id": "JeweledBranchOfADistantSea", "localeName": "Jeweled Branch of a Distant Sea", "count": 9 },
+          { "id": "CrystalPrism", "localeName": "Crystal Prism", "count": 9 },
+          { "id": "SpectralHeart", "localeName": "Spectral Heart", "count": 9 }
         ]
       },
       {
         "level": 4,
-        "baseATK": 46.7,
+        "baseATK": 124.5,
         "cost": [
-          { "id": "FragmentOfDecarabiansEpic", "localeName": "Fragment of Decarabian's Epic", "count": 1 },
-          { "id": "BlackBronzeHorn", "localeName": "Black Bronze Horn", "count": 4 },
-          { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "count": 3 }
+          { "id": "JadeBranchOfADistantSea", "localeName": "Jade Branch of a Distant Sea", "count": 5 },
+          { "id": "CrystalPrism", "localeName": "Crystal Prism", "count": 18 },
+          { "id": "SpectralHeart", "localeName": "Spectral Heart", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "Jade Branch of a Distant Sea", "count": 9 },
+          { "id": "PolarizingPrism", "localeName": "Polarizing Prism", "count": 14 },
+          { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "GoldenBranchOfADistantSea", "localeName": "Golden Branch of a Distant Sea", "count": 6 },
+          { "id": "PolarizingPrism", "localeName": "Polarizing Prism", "count": 27 },
+          { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "count": 18 }
         ]
       }
     ],
-    "baseATK": 44.336,
-    "baseATKCurve": 1
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "overviewItems": [
+      { "id": "GoldenBranchOfADistantSea", "name": "Golden Branch of a Distant Sea", "rarity": 5 },
+      { "id": "PolarizingPrism", "name": "Polarizing Prism", "rarity": 4 },
+      { "id": "SpectralNucleus", "name": "Spectral Nucleus", "rarity": 3 }
+    ],
+    "subAttr": { "type": 5, "value": 0.108, "curve": 18 },
+    "affix": {
+      "name": "Byakuya Kougetsu",
+      "levels": [
+        {
+          "desc": "Healing Bonus increased by <color=#99FFFFFF>10%</color>, Normal Attack DMG is increased by <color=#99FFFFFF>1%</color> of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s.",
+          "params": [0.1, 0.01, 12, 0.6, 0.1]
+        },
+        {
+          "desc": "Healing Bonus increased by <color=#99FFFFFF>12.5%</color>, Normal Attack DMG is increased by <color=#99FFFFFF>1.5%</color> of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s.",
+          "params": [0.125, 0.015, 12, 0.6, 0.1]
+        },
+        {
+          "desc": "Healing Bonus increased by <color=#99FFFFFF>15%</color>, Normal Attack DMG is increased by <color=#99FFFFFF>2%</color> of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s.",
+          "params": [0.15, 0.02, 12, 0.6, 0.1]
+        },
+        {
+          "desc": "Healing Bonus increased by <color=#99FFFFFF>17.5%</color>, Normal Attack DMG is increased by <color=#99FFFFFF>2.5%</color> of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s.",
+          "params": [0.175, 0.025, 12, 0.6, 0.1]
+        },
+        {
+          "desc": "Healing Bonus increased by <color=#99FFFFFF>20%</color>, Normal Attack DMG is increased by <color=#99FFFFFF>3%</color> of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s.",
+          "params": [0.2, 0.03, 12, 0.6, 0.1]
+        }
+      ]
+    }
   },
   {
+    "uid": 14509,
+    "id": "KagurasVerity",
+    "name": "Kagura's Verity",
+    "localeName": "Kagura's Verity",
+    "desc": "The bells used when performing the Kagura Dance, blessed by the Guuji herself. The scent of the Sacred Sakura tree lingers on it.",
+    "rarity": 5,
+    "type": 5,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          { "id": "MaskOfTheWickedLieutenant", "localeName": "Mask of the Wicked Lieutenant", "count": 5 },
+          { "id": "ConcealedClaw", "localeName": "Concealed Claw", "count": 5 },
+          { "id": "SpectralHusk", "localeName": "Spectral Husk", "count": 3 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "Mask of the Tiger's Bite", "count": 5 },
+          { "id": "ConcealedClaw", "localeName": "Concealed Claw", "count": 18 },
+          { "id": "SpectralHusk", "localeName": "Spectral Husk", "count": 12 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "Mask of the Tiger's Bite", "count": 9 },
+          { "id": "ConcealedUnguis", "localeName": "Concealed Unguis", "count": 9 },
+          { "id": "SpectralHeart", "localeName": "Spectral Heart", "count": 9 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "Mask of the One-Horned", "count": 5 },
+          { "id": "ConcealedUnguis", "localeName": "Concealed Unguis", "count": 18 },
+          { "id": "SpectralHeart", "localeName": "Spectral Heart", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "Mask of the One-Horned", "count": 9 },
+          { "id": "ConcealedTalon", "localeName": "Concealed Talon", "count": 14 },
+          { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "MaskOfTheKijin", "localeName": "Mask of the Kijin", "count": 6 },
+          { "id": "ConcealedTalon", "localeName": "Concealed Talon", "count": 27 },
+          { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "count": 18 }
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "overviewItems": [
+      { "id": "MaskOfTheKijin", "name": "Mask of the Kijin", "rarity": 5 },
+      { "id": "ConcealedTalon", "name": "Concealed Talon", "rarity": 4 },
+      { "id": "SpectralNucleus", "name": "Spectral Nucleus", "rarity": 3 }
+    ],
+    "subAttr": { "type": 13, "value": 0.144, "curve": 18 },
+    "affix": {
+      "name": "Kagura Dance of the Sacred Sakura",
+      "levels": [
+        {
+          "desc": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by <color=#99FFFFFF>12%</color> for 16s. Max 3 stacks. This character will gain <color=#99FFFFFF>12%</color> All Elemental DMG Bonus when they possess 3 stacks.",
+          "params": [0.12, 16, 0.12]
+        },
+        {
+          "desc": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by <color=#99FFFFFF>15%</color> for 16s. Max 3 stacks. This character will gain <color=#99FFFFFF>15%</color> All Elemental DMG Bonus when they possess 3 stacks.",
+          "params": [0.15, 16, 0.15]
+        },
+        {
+          "desc": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by <color=#99FFFFFF>18%</color> for 16s. Max 3 stacks. This character will gain <color=#99FFFFFF>18%</color> All Elemental DMG Bonus when they possess 3 stacks.",
+          "params": [0.18, 16, 0.18]
+        },
+        {
+          "desc": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by <color=#99FFFFFF>21%</color> for 16s. Max 3 stacks. This character will gain <color=#99FFFFFF>21%</color> All Elemental DMG Bonus when they possess 3 stacks.",
+          "params": [0.21, 16, 0.21]
+        },
+        {
+          "desc": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by <color=#99FFFFFF>24%</color> for 16s. Max 3 stacks. This character will gain <color=#99FFFFFF>24%</color> All Elemental DMG Bonus when they possess 3 stacks.",
+          "params": [0.24, 16, 0.24]
+        }
+      ]
+    }
+  },
+  {
+    "uid": 15101,
     "id": "HuntersBow",
     "name": "Hunter's Bow",
     "localeName": "Hunter's Bow",
@@ -8260,6 +9415,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 15201,
     "id": "SeasonedHuntersBow",
     "name": "Seasoned Hunter's Bow",
     "localeName": "Seasoned Hunter's Bow",
@@ -8308,6 +9464,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 15301,
     "id": "RavenBow",
     "name": "Raven Bow",
     "localeName": "Raven Bow",
@@ -8390,6 +9547,7 @@
     }
   },
   {
+    "uid": 15302,
     "id": "SharpshootersOath",
     "name": "Sharpshooter's Oath",
     "localeName": "Sharpshooter's Oath",
@@ -8472,6 +9630,7 @@
     }
   },
   {
+    "uid": 15303,
     "id": "RecurveBow",
     "name": "Recurve Bow",
     "localeName": "Recurve Bow",
@@ -8554,6 +9713,7 @@
     }
   },
   {
+    "uid": 15304,
     "id": "Slingshot",
     "name": "Slingshot",
     "localeName": "Slingshot",
@@ -8636,6 +9796,7 @@
     }
   },
   {
+    "uid": 15305,
     "id": "Messenger",
     "name": "Messenger",
     "localeName": "Messenger",
@@ -8718,6 +9879,7 @@
     }
   },
   {
+    "uid": 15306,
     "id": "EbonyBow",
     "name": "Ebony Bow",
     "localeName": "Ebony Bow",
@@ -8800,6 +9962,7 @@
     }
   },
   {
+    "uid": 15401,
     "id": "FavoniusWarbow",
     "name": "Favonius Warbow",
     "localeName": "Favonius Warbow",
@@ -8882,6 +10045,7 @@
     }
   },
   {
+    "uid": 15402,
     "id": "TheStringless",
     "name": "The Stringless",
     "localeName": "The Stringless",
@@ -8964,6 +10128,7 @@
     }
   },
   {
+    "uid": 15403,
     "id": "SacrificialBow",
     "name": "Sacrificial Bow",
     "localeName": "Sacrificial Bow",
@@ -9046,10 +10211,11 @@
     }
   },
   {
+    "uid": 15404,
     "id": "RoyalBow",
     "name": "Royal Bow",
     "localeName": "Royal Bow",
-    "desc": "An old royal longbow that belonged to the erstwhile rulers of Mondstadt. Countless generations later, the bowstring is still tight and can still fire arrows with great force.",
+    "desc": "An old longbow that belonged to the erstwhile aristocratic rulers of Mondstadt. Countless generations later, the bowstring is still tight and can still fire arrows with great force.",
     "rarity": 4,
     "type": 2,
     "ascensions": [
@@ -9128,6 +10294,7 @@
     }
   },
   {
+    "uid": 15405,
     "id": "Rust",
     "name": "Rust",
     "localeName": "Rust",
@@ -9210,6 +10377,7 @@
     }
   },
   {
+    "uid": 15406,
     "id": "PrototypeCrescent",
     "name": "Prototype Crescent",
     "localeName": "Prototype Crescent",
@@ -9292,6 +10460,7 @@
     }
   },
   {
+    "uid": 15407,
     "id": "CompoundBow",
     "name": "Compound Bow",
     "localeName": "Compound Bow",
@@ -9374,6 +10543,7 @@
     }
   },
   {
+    "uid": 15408,
     "id": "BlackcliffWarbow",
     "name": "Blackcliff Warbow",
     "localeName": "Blackcliff Warbow",
@@ -9456,6 +10626,7 @@
     }
   },
   {
+    "uid": 15409,
     "id": "TheViridescentHunt",
     "name": "The Viridescent Hunt",
     "localeName": "The Viridescent Hunt",
@@ -9553,6 +10724,7 @@
     }
   },
   {
+    "uid": 15410,
     "id": "AlleyHunter",
     "name": "Alley Hunter",
     "localeName": "Alley Hunter",
@@ -9650,6 +10822,7 @@
     }
   },
   {
+    "uid": 15412,
     "id": "MitternachtsWaltz",
     "name": "Mitternachts Waltz",
     "localeName": "Mitternachts Waltz",
@@ -9732,6 +10905,7 @@
     }
   },
   {
+    "uid": 15413,
     "id": "WindblumeOde",
     "name": "Windblume Ode",
     "localeName": "Windblume Ode",
@@ -9814,6 +10988,7 @@
     }
   },
   {
+    "uid": 15414,
     "id": "Hamayumi",
     "name": "Hamayumi",
     "localeName": "Hamayumi",
@@ -9896,6 +11071,187 @@
     }
   },
   {
+    "uid": 15415,
+    "id": "Predator",
+    "name": "Predator",
+    "localeName": "Predator",
+    "desc": "A uniquely-designed bow. This should not belong in this world.",
+    "rarity": 4,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "NarukamisWisdom", "localeName": "Narukami's Wisdom", "count": 3 },
+          { "id": "DismalPrism", "localeName": "Dismal Prism", "count": 3 },
+          { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "Narukami's Joy", "count": 3 },
+          { "id": "DismalPrism", "localeName": "Dismal Prism", "count": 12 },
+          { "id": "FirmArrowhead", "localeName": "Firm Arrowhead", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "Narukami's Joy", "count": 6 },
+          { "id": "CrystalPrism", "localeName": "Crystal Prism", "count": 6 },
+          { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "Narukami's Affection", "count": 3 },
+          { "id": "CrystalPrism", "localeName": "Crystal Prism", "count": 12 },
+          { "id": "SharpArrowhead", "localeName": "Sharp Arrowhead", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "Narukami's Affection", "count": 6 },
+          { "id": "PolarizingPrism", "localeName": "Polarizing Prism", "count": 9 },
+          { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "NarukamisValor", "localeName": "Narukami's Valor", "count": 4 },
+          { "id": "PolarizingPrism", "localeName": "Polarizing Prism", "count": 18 },
+          { "id": "WeatheredArrowhead", "localeName": "Weathered Arrowhead", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "overviewItems": [
+      { "id": "NarukamisValor", "name": "Narukami's Valor", "rarity": 5 },
+      { "id": "PolarizingPrism", "name": "Polarizing Prism", "rarity": 4 },
+      { "id": "WeatheredArrowhead", "name": "Weathered Arrowhead", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
+    "affix": {
+      "name": "Strong Strike",
+      "levels": [
+        {
+          "desc": "<color=#99FFFFFF>Effective only on the following platform: </color>\n<color=#99FFFFFF>\"PlayStation Network\"</color>\nDealing Cryo DMG to opponents increases this character's Normal and Charged Attack DMG by 10% for 6s. This effect can have a maximum of 2 stacks. Additionally, when Aloy equips Predator, ATK is increased by 66.",
+          "params": [0.1, 6, 66]
+        }
+      ]
+    }
+  },
+  {
+    "uid": 15416,
+    "id": "MouunsMoon",
+    "name": "Mouun's Moon",
+    "localeName": "Mouun's Moon",
+    "desc": "A lovely warbow made from seashells and coral. A mournful brilliance flows along its moonlight-colored arms.",
+    "rarity": 4,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "NarukamisWisdom", "localeName": "Narukami's Wisdom", "count": 3 },
+          { "id": "DismalPrism", "localeName": "Dismal Prism", "count": 3 },
+          { "id": "SpectralHusk", "localeName": "Spectral Husk", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "Narukami's Joy", "count": 3 },
+          { "id": "DismalPrism", "localeName": "Dismal Prism", "count": 12 },
+          { "id": "SpectralHusk", "localeName": "Spectral Husk", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "Narukami's Joy", "count": 6 },
+          { "id": "CrystalPrism", "localeName": "Crystal Prism", "count": 6 },
+          { "id": "SpectralHeart", "localeName": "Spectral Heart", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "Narukami's Affection", "count": 3 },
+          { "id": "CrystalPrism", "localeName": "Crystal Prism", "count": 12 },
+          { "id": "SpectralHeart", "localeName": "Spectral Heart", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "Narukami's Affection", "count": 6 },
+          { "id": "PolarizingPrism", "localeName": "Polarizing Prism", "count": 9 },
+          { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "NarukamisValor", "localeName": "Narukami's Valor", "count": 4 },
+          { "id": "PolarizingPrism", "localeName": "Polarizing Prism", "count": 18 },
+          { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "overviewItems": [
+      { "id": "NarukamisValor", "name": "Narukami's Valor", "rarity": 5 },
+      { "id": "PolarizingPrism", "name": "Polarizing Prism", "rarity": 4 },
+      { "id": "SpectralNucleus", "name": "Spectral Nucleus", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.06, "curve": 17 },
+    "affix": {
+      "name": "Watatsumi Wavewalker",
+      "levels": [
+        {
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.12%</color>. A maximum of <color=#99FFFFFF>40%</color> increased Elemental Burst DMG can be achieved this way.",
+          "params": [0.12, 0.4]
+        },
+        {
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.15%</color>. A maximum of <color=#99FFFFFF>50%</color> increased Elemental Burst DMG can be achieved this way.",
+          "params": [0.15, 0.5]
+        },
+        {
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.18%</color>. A maximum of <color=#99FFFFFF>60%</color> increased Elemental Burst DMG can be achieved this way.",
+          "params": [0.18, 0.6]
+        },
+        {
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.21%</color>. A maximum of <color=#99FFFFFF>70%</color> increased Elemental Burst DMG can be achieved this way.",
+          "params": [0.21, 0.7]
+        },
+        {
+          "desc": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <color=#99FFFFFF>0.24%</color>. A maximum of <color=#99FFFFFF>80%</color> increased Elemental Burst DMG can be achieved this way.",
+          "params": [0.24, 0.8]
+        }
+      ]
+    }
+  },
+  {
+    "uid": 15501,
     "id": "SkywardHarp",
     "name": "Skyward Harp",
     "localeName": "Skyward Harp",
@@ -9978,6 +11334,7 @@
     }
   },
   {
+    "uid": 15502,
     "id": "AmosBow",
     "name": "Amos' Bow",
     "localeName": "Amos' Bow",
@@ -10060,6 +11417,7 @@
     }
   },
   {
+    "uid": 15503,
     "id": "ElegyForTheEnd",
     "name": "Elegy for the End",
     "localeName": "Elegy for the End",
@@ -10157,6 +11515,7 @@
     }
   },
   {
+    "uid": 15504,
     "id": "KunwusWyrmbane",
     "name": "Kunwu's Wyrmbane",
     "localeName": "Kunwu's Wyrmbane",
@@ -10205,6 +11564,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 15505,
     "id": "PrimordialJadeVista",
     "name": "Primordial Jade Vista",
     "localeName": "Primordial Jade Vista",
@@ -10253,6 +11613,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 15506,
     "id": "MirrorBreaker",
     "name": "Mirror Breaker",
     "localeName": "Mirror Breaker",
@@ -10301,6 +11662,105 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 15507,
+    "id": "PolarStar",
+    "name": "Polar Star",
+    "localeName": "Polar Star",
+    "desc": "A pristine bow that is as sharp as the glaciers of the far north.",
+    "rarity": 5,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          { "id": "MaskOfTheWickedLieutenant", "localeName": "Mask of the Wicked Lieutenant", "count": 5 },
+          { "id": "ConcealedClaw", "localeName": "Concealed Claw", "count": 5 },
+          { "id": "SpectralHusk", "localeName": "Spectral Husk", "count": 3 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "Mask of the Tiger's Bite", "count": 5 },
+          { "id": "ConcealedClaw", "localeName": "Concealed Claw", "count": 18 },
+          { "id": "SpectralHusk", "localeName": "Spectral Husk", "count": 12 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "Mask of the Tiger's Bite", "count": 9 },
+          { "id": "ConcealedUnguis", "localeName": "Concealed Unguis", "count": 9 },
+          { "id": "SpectralHeart", "localeName": "Spectral Heart", "count": 9 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "Mask of the One-Horned", "count": 5 },
+          { "id": "ConcealedUnguis", "localeName": "Concealed Unguis", "count": 18 },
+          { "id": "SpectralHeart", "localeName": "Spectral Heart", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "Mask of the One-Horned", "count": 9 },
+          { "id": "ConcealedTalon", "localeName": "Concealed Talon", "count": 14 },
+          { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "MaskOfTheKijin", "localeName": "Mask of the Kijin", "count": 6 },
+          { "id": "ConcealedTalon", "localeName": "Concealed Talon", "count": 27 },
+          { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "count": 18 }
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "overviewItems": [
+      { "id": "MaskOfTheKijin", "name": "Mask of the Kijin", "rarity": 5 },
+      { "id": "ConcealedTalon", "name": "Concealed Talon", "rarity": 4 },
+      { "id": "SpectralNucleus", "name": "Spectral Nucleus", "rarity": 3 }
+    ],
+    "subAttr": { "type": 12, "value": 0.072, "curve": 18 },
+    "affix": {
+      "name": "Daylight's Augury",
+      "levels": [
+        {
+          "desc": "Elemental Skill and Elemental Burst DMG increased by <color=#99FFFFFF>12%</color>. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by <color=#99FFFFFF>10/20/30/48%</color>. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others.",
+          "params": [0.12, 12, 0.1, 0.2, 0.3, 0.48]
+        },
+        {
+          "desc": "Elemental Skill and Elemental Burst DMG increased by <color=#99FFFFFF>15%</color>. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by <color=#99FFFFFF>12.5/25/37.5/60%</color>. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others.",
+          "params": [0.15, 12, 0.125, 0.25, 0.375, 0.6]
+        },
+        {
+          "desc": "Elemental Skill and Elemental Burst DMG increased by <color=#99FFFFFF>18%</color>. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by <color=#99FFFFFF>15/30/45/72%</color>. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others.",
+          "params": [0.18, 12, 0.15, 0.3, 0.45, 0.72]
+        },
+        {
+          "desc": "Elemental Skill and Elemental Burst DMG increased by <color=#99FFFFFF>21%</color>. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by <color=#99FFFFFF>17.5/35/52.5/84%</color>. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others.",
+          "params": [0.21, 12, 0.175, 0.35, 0.525, 0.84]
+        },
+        {
+          "desc": "Elemental Skill and Elemental Burst DMG increased by <color=#99FFFFFF>24%</color>. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by <color=#99FFFFFF>20/40/60/96%</color>. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others.",
+          "params": [0.24, 12, 0.2, 0.4, 0.6, 0.96]
+        }
+      ]
+    }
+  },
+  {
+    "uid": 15509,
     "id": "ThunderingPulse",
     "name": "Thundering Pulse",
     "localeName": "Thundering Pulse",

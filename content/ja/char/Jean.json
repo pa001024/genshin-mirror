@@ -1,4 +1,5 @@
 {
+  "uid": 10000003,
   "id": "Jean",
   "name": "Jean",
   "localeName": "ジン",
@@ -312,9 +313,9 @@
     { "name": "SpiralingTempest", "localeName": "剣脊に流れる暴風", "desc": "<color=#FFD780FF>風圧剣</color>の長押しが1秒以上の時、吸い寄せる速度がアップし、与えるダメージ+40%。", "values": [0.4] },
     { "name": "PeoplesAegis", "localeName": "人々を守る盾", "desc": "ジンが元素オーブまたは元素粒子を獲得した時、チームにいる全てのキャラクターの移動速度+15%、攻撃速度+15%、継続時間15秒。", "values": [0.15, 0.15, 15] },
     { "name": "WhenTheWestWindArises", "localeName": "西風が吹く時", "desc": "<color=#FFD780FF>蒲公英の風</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "LandsOfDandelion", "localeName": "蒲公英の国土", "desc": "<color=#FFD780FF>蒲公英の風</color>エリア内、全ての敵の<color=#80FFD7FF>風元素耐性</color>-40%。", "values": [0.4] },
+    { "name": "LandsOfDandelion", "localeName": "蒲公英の国土", "desc": "<color=#FFD780FF>蒲公英の風</color>のエリア内にいるすべての敵の<color=#80FFD7FF>風元素耐性</color>-40%。", "values": [0.4] },
     { "name": "OutburstingGust", "localeName": "しばしの烈風", "desc": "<color=#FFD780FF>風圧剣</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "LionsFangFairProtectorOfMondstadt", "localeName": "民を眷顧する獅子の牙", "desc": "<color=#FFD780FF>蒲公英の風</color>エリア内、キャラクターの受けるダメージ-35%。\nエリアを出た後、この効果は3回攻撃を受けた後、または10秒後になくなる。", "values": [0.35] }
+    { "name": "LionsFangFairProtectorOfMondstadt", "localeName": "民を眷顧する獅子の牙", "desc": "<color=#FFD780FF>蒲公英の風</color>のエリア内にいるキャラクターの受けるダメージ-35%。\nエリアから出た後、この効果は攻撃を3回受け、または10秒間経つとクリアされる。", "values": [0.35] }
   ],
   "overviewItems": [
     { "id": "VayudaTurquoiseGemstone", "localeName": "自由のターコイズ", "rarity": 5 },

@@ -1,0 +1,334 @@
+{
+  "uid": 10000055,
+  "id": "Gorou",
+  "name": "Gorou",
+  "localeName": "五郎",
+  "desc": "海祇島軍的大將，深受部下信賴。",
+  "baseHP": 802.38,
+  "baseATK": 15.315,
+  "baseDEF": 54.364,
+  "bodyType": 0,
+  "rarity": 4,
+  "weapon": 2,
+  "region": 3,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "PrithivaTopazSliver", "localeName": "堅牢黃玉碎屑", "rarity": 2, "count": 1 },
+        { "id": "SangoPearl", "localeName": "珊瑚真珠", "count": 3 },
+        { "id": "SpectralHusk", "localeName": "浮游乾核", "rarity": 1, "count": 3 }
+      ],
+      "HP": 599.42,
+      "ATK": 11.441,
+      "DEF": 40.612,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "PrithivaTopazFragment", "localeName": "堅牢黃玉斷片", "rarity": 3, "count": 3 },
+        { "id": "PerpetualHeart", "localeName": "恒常機關之心", "rarity": 4, "count": 2 },
+        { "id": "SangoPearl", "localeName": "珊瑚真珠", "count": 10 },
+        { "id": "SpectralHusk", "localeName": "浮游乾核", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1025.3,
+      "ATK": 19.571,
+      "DEF": 69.469,
+      "extra": 0.06
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "PrithivaTopazFragment", "localeName": "堅牢黃玉斷片", "rarity": 3, "count": 6 },
+        { "id": "PerpetualHeart", "localeName": "恒常機關之心", "rarity": 4, "count": 4 },
+        { "id": "SangoPearl", "localeName": "珊瑚真珠", "count": 20 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1593.2,
+      "ATK": 30.41,
+      "DEF": 107.94,
+      "extra": 0.12
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "PrithivaTopazChunk", "localeName": "堅牢黃玉塊", "rarity": 4, "count": 3 },
+        { "id": "PerpetualHeart", "localeName": "恒常機關之心", "rarity": 4, "count": 8 },
+        { "id": "SangoPearl", "localeName": "珊瑚真珠", "count": 30 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2019.1,
+      "ATK": 38.539,
+      "DEF": 136.8,
+      "extra": 0.12
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "PrithivaTopazChunk", "localeName": "堅牢黃玉塊", "rarity": 4, "count": 6 },
+        { "id": "PerpetualHeart", "localeName": "恒常機關之心", "rarity": 4, "count": 12 },
+        { "id": "SangoPearl", "localeName": "珊瑚真珠", "count": 45 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 12 }
+      ],
+      "HP": 2445,
+      "ATK": 46.668,
+      "DEF": 165.66,
+      "extra": 0.18
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "PrithivaTopazGemstone", "localeName": "堅牢黃玉", "rarity": 5, "count": 6 },
+        { "id": "PerpetualHeart", "localeName": "恒常機關之心", "rarity": 4, "count": 20 },
+        { "id": "SangoPearl", "localeName": "珊瑚真珠", "count": 60 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 24 }
+      ],
+      "HP": 2870.9,
+      "ATK": 54.798,
+      "DEF": 194.51,
+      "extra": 0.24
+    }
+  ],
+  "ascensionType": 31,
+  "element": 2,
+  "elemSkill": {
+    "name": "InuzakaAllRoundDefense",
+    "localeName": "犬坂吠吠方圓陣",
+    "desc": "造成<color=#FFE699FF>岩元素範圍傷害</color>，並立起大將旗指物。\n\n<color=#FFD780FF>大將旗指物</color>\n依據施放時隊伍中元素類型為<color=#FFE699FF>岩元素</color>的角色數量，為其領域內的目前場上角色賦予如下效果：\n·一名角色時：「堅牢」：防禦力提升；\n·二名角色時：「難破」：除上述效果外，提升抗打斷能力；\n·三名角色時：「摧碎」：除上述效果外，獲得<color=#FFE699FF>岩元素傷害加成</color>。\n\n同時只能存在一個由五郎自己創造的大將旗指物；角色只能獲得一個大將旗指物提供的效果。角色離開領域後，領域的效果將持續2秒。\n\n<color=#FFD780FF>長按</color>\n可以調整技能生效位置。\n\n<i>「只要進入此陣中，便能保證性命安全無虞！」無論何時何地，作為領軍的大將，五郎最不希望看到的就是跟隨其身後的同伴受到傷害吧。</i>",
+    "cd": 10,
+    "paramTpls": ["技能傷害|{param1:F1P}", "防禦力提升|{param2:I}", "岩元素傷害加成|{param3:P}", "持續時間|{param4:F1}秒", "冷卻時間|{param5:F1}秒"],
+    "paramVals": [
+      [1.072, 206.16, 0.15, 10, 10],
+      [1.1524, 221.62, 0.15, 10, 10],
+      [1.2328, 237.08, 0.15, 10, 10],
+      [1.34, 257.7, 0.15, 10, 10],
+      [1.4204, 273.16, 0.15, 10, 10],
+      [1.5008, 288.62, 0.15, 10, 10],
+      [1.608, 309.24, 0.15, 10, 10],
+      [1.7152, 329.86, 0.15, 10, 10],
+      [1.8224, 350.47, 0.15, 10, 10],
+      [1.9296, 371.09, 0.15, 10, 10],
+      [2.0368, 391.7, 0.15, 10, 10],
+      [2.144, 412.32, 0.15, 10, 10],
+      [2.278, 438.09, 0.15, 10, 10],
+      [2.412, 463.86, 0.15, 10, 10],
+      [2.546, 489.63, 0.15, 10, 10]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfLight", "localeName": "「天光」的教導", "rarity": 2, "count": 3 },
+        { "id": "SpectralHusk", "localeName": "浮游乾核", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」的指引", "rarity": 3, "count": 2 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」的指引", "rarity": 3, "count": 4 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」的指引", "rarity": 3, "count": 6 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」的指引", "rarity": 3, "count": 9 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲學", "rarity": 4, "count": 4 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 4 },
+        { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲學", "rarity": 4, "count": 6 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 6 },
+        { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲學", "rarity": 4, "count": 12 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 9 },
+        { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲學", "rarity": 4, "count": 16 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 12 },
+        { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "JuugaForwardUntoVictory",
+    "localeName": "獸牙逐突形勝戰法",
+    "desc": "展現大將之威，造成<color=#FFE699FF>岩元素範圍傷害</color>，並展開大將威儀之領域，鼓舞身邊的戰友。\n\n<color=#FFD780FF>大將威儀</color>\n具有如下特性：\n·領域擁有等同於元素戰技「犬坂吠吠方圓陣」創造的大將旗指物的效果，依據施放時隊伍中元素類型為<color=#FFE699FF>岩元素</color>的角色數量，為其領域內的目前場上角色賦予效果，並且會隨著目前場上角色移動；\n·每1.5秒，會產生一次岩晶崩破，對領域內一名敵人造成<color=#FFE699FF>岩元素範圍傷害</color>；\n·每1.5秒，將領域內1枚結晶反應產生的晶片吸引至當前角色的位置。\n\n施放時，若場上存在五郎自己的大將旗指物，會將其破壞。此外，在大將威儀的持續期間，五郎自己施放元素戰技「犬坂吠吠方圓陣」時，將不會產生大將旗指物。\n五郎倒下時將解除五郎自己的大將威儀效果。\n\n<i>「地勢在我！」五郎能夠稍許改變戰場的地勢以獲得勝利，此為對抗強敵的不二秘訣。</i>",
+    "cd": 20,
+    "energyCost": 80,
+    "paramTpls": ["技能傷害|{param1:P}防禦力", "岩晶崩破傷害|{param2:P}防禦力", "持續時間|{param3:F1}秒", "冷卻時間|{param4:F1}秒", "元素能量|{param5:I}"],
+    "paramVals": [
+      [0.98216, 0.613, 9, 20, 80],
+      [1.0558, 0.65898, 9, 20, 80],
+      [1.1295, 0.70495, 9, 20, 80],
+      [1.2277, 0.76625, 9, 20, 80],
+      [1.3014, 0.81222, 9, 20, 80],
+      [1.375, 0.8582, 9, 20, 80],
+      [1.4732, 0.9195, 9, 20, 80],
+      [1.5715, 0.9808, 9, 20, 80],
+      [1.6697, 1.0421, 9, 20, 80],
+      [1.7679, 1.1034, 9, 20, 80],
+      [1.8661, 1.1647, 9, 20, 80],
+      [1.9643, 1.226, 9, 20, 80],
+      [2.0871, 1.3026, 9, 20, 80],
+      [2.2099, 1.3793, 9, 20, 80],
+      [2.3326, 1.4559, 9, 20, 80]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfLight", "localeName": "「天光」的教導", "rarity": 2, "count": 3 },
+        { "id": "SpectralHusk", "localeName": "浮游乾核", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」的指引", "rarity": 3, "count": 2 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」的指引", "rarity": 3, "count": 4 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」的指引", "rarity": 3, "count": 6 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」的指引", "rarity": 3, "count": 9 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲學", "rarity": 4, "count": 4 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 4 },
+        { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲學", "rarity": 4, "count": 6 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 6 },
+        { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲學", "rarity": 4, "count": 12 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 9 },
+        { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲學", "rarity": 4, "count": 16 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 12 },
+        { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackRippingFangFletching",
+    "localeName": "普通攻擊·呲牙裂扇箭",
+    "desc": "<color=#FFD780FF>普通攻擊</color>\n進行至多四段的連續弓箭射擊。\n\n<color=#FFD780FF>重擊</color>\n進行傷害更高、更為精準的<color=#FFD780FF>瞄準射擊</color>。\n瞄準時，岩晶會在箭矢上持續積聚。聚滿了晶岩的箭矢會造成<color=#FFE699FF>岩元素傷害</color>。\n\n<color=#FFD780FF>下落攻擊</color>\n從空中射出箭雨，並迅速下墜衝擊地面，在落地時造成範圍傷害。",
+    "cd": 0,
+    "paramTpls": ["一段傷害|{param1:F1P}", "二段傷害|{param2:F1P}", "三段傷害|{param3:F1P}", "四段傷害|{param4:F1P}", "瞄準射擊|{param5:F1P}", "滿蓄力瞄準射擊|{param6:P}", "下墜期間傷害|{param7:F1P}", "低空/高空墜地衝擊傷害|{param8:P}/{param9:P}"],
+    "paramVals": [
+      [0.37754, 0.37152, 0.4945, 0.58996, 0.4386, 1.24, 0.56829, 1.1363, 1.4193],
+      [0.40827, 0.40176, 0.53475, 0.63798, 0.4743, 1.333, 0.61454, 1.2288, 1.5349],
+      [0.439, 0.432, 0.575, 0.686, 0.51, 1.426, 0.6608, 1.3213, 1.6504],
+      [0.4829, 0.4752, 0.6325, 0.7546, 0.561, 1.55, 0.72688, 1.4535, 1.8154],
+      [0.51363, 0.50544, 0.67275, 0.80262, 0.5967, 1.643, 0.77314, 1.5459, 1.931],
+      [0.54875, 0.54, 0.71875, 0.8575, 0.6375, 1.736, 0.826, 1.6516, 2.063],
+      [0.59704, 0.58752, 0.782, 0.93296, 0.6936, 1.86, 0.89869, 1.797, 2.2445],
+      [0.64533, 0.63504, 0.84525, 1.0084, 0.7497, 1.984, 0.97138, 1.9423, 2.4261],
+      [0.69362, 0.68256, 0.9085, 1.0839, 0.8058, 2.108, 1.0441, 2.0877, 2.6076],
+      [0.7463, 0.7344, 0.9775, 1.1662, 0.867, 2.232, 1.1234, 2.2462, 2.8057],
+      [0.79898, 0.78624, 1.0465, 1.2485, 0.9282, 2.356, 1.2027, 2.4048, 3.0037],
+      [0.85166, 0.83808, 1.1155, 1.3308, 0.9894, 2.48, 1.282, 2.5634, 3.2018],
+      [0.90434, 0.88992, 1.1845, 1.4132, 1.0506, 2.635, 1.3612, 2.7219, 3.3998],
+      [0.95702, 0.94176, 1.2535, 1.4955, 1.1118, 2.79, 1.4405, 2.8805, 3.5979],
+      [1.0097, 0.9936, 1.3225, 1.5778, 1.173, 2.945, 1.5198, 3.039, 3.7959]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfLight", "localeName": "「天光」的教導", "rarity": 2, "count": 3 },
+        { "id": "SpectralHusk", "localeName": "浮游乾核", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」的指引", "rarity": 3, "count": 2 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」的指引", "rarity": 3, "count": 4 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」的指引", "rarity": 3, "count": 6 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」的指引", "rarity": 3, "count": 9 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲學", "rarity": 4, "count": 4 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 4 },
+        { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲學", "rarity": 4, "count": 6 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 6 },
+        { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲學", "rarity": 4, "count": 12 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 9 },
+        { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲學", "rarity": 4, "count": 16 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 12 },
+        { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "HeedlessOfTheWindAndWeather", "localeName": "不畏風雨", "desc": "施放<color=#FFD780FF>獸牙逐突形勝戰法</color>後的12秒內，附近的隊伍中所有角色的防禦力提升25%。", "unlock": 1, "values": [0.25, 12] },
+    {
+      "name": "AFavorRepaid",
+      "localeName": "報恩之守",
+      "desc": "基於防禦力，五郎的以下攻擊造成的傷害提高：\n·<color=#FFD780FF>犬坂吠吠方圓陣</color>的技能傷害提高值：防禦力的156%；\n·<color=#FFD780FF>獸牙逐突形勝戰法</color>的技能傷害與岩晶崩破傷害提高值：防禦力的15.6%。",
+      "unlock": 4,
+      "values": [1.56, 0.156]
+    },
+    { "name": "SeekerOfShinies", "localeName": "亮晶晶發現術", "desc": "在小地圖上顯示周圍的<color=#FFD780FF>稻妻區域特產</color>的位置。" }
+  ],
+  "c13ns": [
+    {
+      "name": "RushingHoundSwiftAsTheWind",
+      "localeName": "犬奔·疾如風",
+      "desc": "處於五郎自己的<color=#FFD780FF>大將旗指物</color>或<color=#FFD780FF>大將威儀</color>領域中的目前場上角色（除了五郎自己）對敵人造成岩元素傷害後，五郎自己的<color=#FFD780FF>犬坂吠吠方圓陣</color>冷卻時間減少2秒。\n該效果每10秒至多觸發一次。",
+      "values": [-2, 10]
+    },
+    { "name": "SittingHoundSteadyAsAClock", "localeName": "犬坐·穩如鐘", "desc": "在<color=#FFD780FF>大將威儀</color>的持續期間，附近的目前場上角色獲得結晶反應產生的晶片後，五郎自己的大將威儀的持續時間延長1秒。\n該效果每0.1秒至多觸發一次，至多依此方式延長3秒持續時間。" },
+    { "name": "MaulingHoundFierceAsFire", "localeName": "犬爪·勢如火", "desc": "<color=#FFD780FF>犬坂吠吠方圓陣</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "LappingHoundWarmAsWater", "localeName": "犬舐·溫如水", "desc": "<color=#FFD780FF>大將威儀</color>在具有「難破」或「摧碎」的效果時，每1.5秒，為領域內的目前場上角色恢復生命值，回復量相當於五郎自己防禦力的50%。", "values": [0.5] },
+    { "name": "StrikingHoundThunderousForce", "localeName": "犬突·動如雷", "desc": "<color=#FFD780FF>獸牙逐突形勝戰法</color>的技能等級提高3級。\n至多提升至15級。" },
+    {
+      "name": "ValiantHoundMountainousFealty",
+      "localeName": "犬勇·忠如山",
+      "desc": "施放<color=#FFD780FF>犬坂吠吠方圓陣</color>或<color=#FFD780FF>獸牙逐突形勝戰法</color>後的12秒內，依據施放時的領域等級，提高附近的隊伍中所有角色<color=#FFE699FF>岩元素傷害</color>的暴擊傷害：\n·「堅牢」：提高10%；\n·「難破」：提高20%；\n·「摧碎」：提高40%。\n\n該效果無法疊加，以後生效的為準。",
+      "values": [0.1, 0.2, 0.4, 12]
+    }
+  ],
+  "overviewItems": [
+    { "id": "PrithivaTopazGemstone", "localeName": "堅牢黃玉", "rarity": 5 },
+    { "id": "PerpetualHeart", "localeName": "恒常機關之心", "rarity": 4 },
+    { "id": "SangoPearl", "localeName": "珊瑚真珠" },
+    { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3 },
+    { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲學", "rarity": 4 },
+    { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5 }
+  ]
+}

@@ -1,4 +1,5 @@
 {
+  "uid": 10000037,
   "id": "Ganyu",
   "name": "Ganyu",
   "localeName": "Ganyu",
@@ -315,7 +316,7 @@
     {
       "name": "DewDrinker",
       "localeName": "Dew-Drinker",
-      "desc": "Taking DMG from a Charge Level 2 Frostflake Arrow or Frostflake Arrow Bloom decreases opponents' <color=#99FFFFFF>Cryo RES</color> by 15% for 6s.\nA hit regenerates 2 Energy for Ganyu. This effect can only occur once per Charge Level 2 Frostflake Arrow, regardless if Frostflake Arrow itself or its Bloom hit the target.",
+      "desc": "Charge Level 2 Frostflake Arrows or Frostflake Arrow Blooms decrease opponents' <color=#99FFFFFF>Cryo RES</color> by 15% for 6s upon hit.\nA hit also regenerates 2 Energy for Ganyu. This effect can only occur once per Charge Level 2 Frostflake Arrow, regardless if Frostflake Arrow itself or its Bloom hits the target.",
       "values": [-0.15, 6, 2]
     },
     { "name": "TheAuspicious", "localeName": "The Auspicious", "desc": "<color=#FFD780FF>Trail of the Qilin</color> gains 1 additional charge." },

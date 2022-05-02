@@ -30,6 +30,7 @@ export interface IUserWeapon {
 
 /** 武器类型 */
 export interface IWeapon {
+  /** 序号 */ uid: number;
   /** 序号 */ id: string;
   /** 名称 */ name: string;
   /** 本地化名称 */ localeName: string;
@@ -122,6 +123,7 @@ export interface IUserAvatar {
 
 /** 角色 */
 export interface IAvatar {
+  /** uid */ uid: number;
   /** id */ id: string;
   /** 本地化名称 */ localeName: string;
   /**
@@ -339,6 +341,7 @@ export interface IEnemy {
 }
 
 export interface IItem {
+  uid?: number;
   id: string;
   name?: string;
   localeName?: string;

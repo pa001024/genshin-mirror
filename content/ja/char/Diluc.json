@@ -1,4 +1,5 @@
 {
+  "uid": 10000016,
   "id": "Diluc",
   "name": "Diluc",
   "localeName": "ディルック",
@@ -313,7 +314,7 @@
     { "name": "Conviction", "localeName": "罪の裁断", "desc": "HPが50%を超えている敵に対して、ディルックの与えるダメージ+15%。", "values": [0.15] },
     { "name": "SearingEmber", "localeName": "灼熱余燼", "desc": "ディルックがダメージを受けると、攻撃力+10%、攻撃速度+5%、継続時間10秒。\n最大3重まで。1.5秒毎に1回のみ発動可能。", "values": [0.1, 0.05, 10, 3, 1.5] },
     { "name": "FireAndSteel", "localeName": "鋼鉄の熾焔", "desc": "<color=#FFD780FF>逆焔の刃</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "FlowingFlame", "localeName": "流火焼灼", "desc": "リズム的に<color=#FFD780FF>逆焔の刃</color>を発動することで、ダメージを大幅に上げることができる。<color=#FFD780FF>逆焔の刃</color>発動2秒後、次の逆焔の刃のダメージ+40%、継続時間2秒。", "values": [0.4] },
+    { "name": "FlowingFlame", "localeName": "流火焼灼", "desc": "<color=#FFD780FF>逆焔の刃</color>を一定の時間間隔で発動すると、ダメージが大幅にアップする。\n<color=#FFD780FF>逆焔の刃</color>発動2秒後、次の逆焔の刃のダメージ+40%、継続時間2秒。", "values": [0.4] },
     { "name": "PhoenixHarbingerOfDawn", "localeName": "朝を告げる炎の鳥", "desc": "<color=#FFD780FF>黎明</color>のスキルLv.+3。\n最大Lv.15まで。" },
     { "name": "FlamingSwordNemesisOfTheDark", "localeName": "闇を清算する炎の剣", "desc": "<color=#FFD780FF>逆焔の刃</color>発動後、6秒以内の2回の通常攻撃の攻撃速度+30%、攻撃ダメージ+30%。\n逆焔の刃によって通常攻撃のコンボ数がリセットされることはなくなる。", "values": [6, 0.3, 0.3] }
   ],

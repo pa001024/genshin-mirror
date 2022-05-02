@@ -1,0 +1,318 @@
+{
+  "uid": 10000058,
+  "id": "YaeMiko",
+  "name": "Yae Miko",
+  "localeName": "八重神子",
+  "desc": "鳴神大社の宮司様であり、「八重堂」の編集長。華やかな見た目の裏には、思いもよらぬ知性と奸智が隠されている。",
+  "baseHP": 807.46,
+  "baseATK": 26.44,
+  "baseDEF": 44.274,
+  "bodyType": 4,
+  "rarity": 5,
+  "weapon": 5,
+  "region": 3,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "VajradaAmethystSliver", "localeName": "最勝のアメシスト·砕屑", "rarity": 2, "count": 1 },
+        { "id": "SeaGanoderma", "localeName": "ウミレイシ", "count": 3 },
+        { "id": "OldHandguard", "localeName": "古びた鍔", "rarity": 1, "count": 3 }
+      ],
+      "HP": 692.33,
+      "ATK": 22.669,
+      "DEF": 37.962,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "VajradaAmethystFragment", "localeName": "最勝のアメシスト·欠片", "rarity": 3, "count": 3 },
+        { "id": "DragonheirsFalseFin", "localeName": "ドラゴエアのニセヒレ", "rarity": 4, "count": 2 },
+        { "id": "SeaGanoderma", "localeName": "ウミレイシ", "count": 10 },
+        { "id": "OldHandguard", "localeName": "古びた鍔", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1184.2,
+      "ATK": 38.775,
+      "DEF": 64.935,
+      "extra": 0.048
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "VajradaAmethystFragment", "localeName": "最勝のアメシスト·欠片", "rarity": 3, "count": 6 },
+        { "id": "DragonheirsFalseFin", "localeName": "ドラゴエアのニセヒレ", "rarity": 4, "count": 4 },
+        { "id": "SeaGanoderma", "localeName": "ウミレイシ", "count": 20 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1840.1,
+      "ATK": 60.251,
+      "DEF": 100.9,
+      "extra": 0.096
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "VajradaAmethystChunk", "localeName": "最勝のアメシスト·塊", "rarity": 4, "count": 3 },
+        { "id": "DragonheirsFalseFin", "localeName": "ドラゴエアのニセヒレ", "rarity": 4, "count": 8 },
+        { "id": "SeaGanoderma", "localeName": "ウミレイシ", "count": 30 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2332,
+      "ATK": 76.357,
+      "DEF": 127.87,
+      "extra": 0.096
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "VajradaAmethystChunk", "localeName": "最勝のアメシスト·塊", "rarity": 4, "count": 6 },
+        { "id": "DragonheirsFalseFin", "localeName": "ドラゴエアのニセヒレ", "rarity": 4, "count": 12 },
+        { "id": "SeaGanoderma", "localeName": "ウミレイシ", "count": 45 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 12 }
+      ],
+      "HP": 2824,
+      "ATK": 92.464,
+      "DEF": 154.85,
+      "extra": 0.144
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "VajradaAmethystGemstone", "localeName": "最勝のアメシスト", "rarity": 5, "count": 6 },
+        { "id": "DragonheirsFalseFin", "localeName": "ドラゴエアのニセヒレ", "rarity": 4, "count": 20 },
+        { "id": "SeaGanoderma", "localeName": "ウミレイシ", "count": 60 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 24 }
+      ],
+      "HP": 3315.9,
+      "ATK": 108.57,
+      "DEF": 181.82,
+      "extra": 0.192
+    }
+  ],
+  "ascensionType": 12,
+  "element": 3,
+  "elemSkill": {
+    "name": "YakanEvocationSesshouSakura",
+    "localeName": "野干役呪·殺生櫻",
+    "desc": "八重にとって、妖怪を駆役して解決できるような問題ならば、自ら手を下す必要などない。\n素早く移動し、「殺生櫻」を1株残す。\n\n<color=#FFD780FF>殺生櫻</color>\n殺生櫻は以下の特性を持つ。\n·一定間隔で、周囲の敵1体に雷を落とし、<color=#FFACFFFF>雷元素ダメージ</color>を与える。\n·近くに他の殺生櫻が存在する場合、その階位をアップさせ、上記の攻撃によるダメージをアップさせる。\n\n使用可能回数は3回。\n殺生櫻は同時に最大3株まで存在できる。また初期状態では、創造時の階位は壱で、最大階位は参までアップできる。創造位置が既存の殺生櫻に近すぎる場合、既存の殺生櫻を破壊する。\n\n<i>「枝に封印されている狐霊は、すべて人に害を成す野干へと堕ちたものじゃ。妾のような天狐と比べれば、野干なぞ格下。やつらをこき使おうと、何の問題もない。妾たち狐には位があるが、汝ら人間はこのようなことをしてはならんぞ。ふむ…狐と人間、どちらの位が高いかじゃと？ふふっ…」</i>",
+    "cd": 4,
+    "paramTpls": ["殺生櫻ダメージ·階位壱|{param1:F1P}", "殺生櫻ダメージ·階位弐|{param2:F1P}", "殺生櫻ダメージ·階位参|{param3:F1P}", "殺生櫻ダメージ·階位肆|{param4:F1P}", "継続時間|{param5:F1}秒", "クールタイム|{param6:F1}秒"],
+    "paramVals": [
+      [0.60672, 0.7584, 0.948, 1.185, 14, 4],
+      [0.65222, 0.81528, 1.0191, 1.2739, 14, 4],
+      [0.69773, 0.87216, 1.0902, 1.3628, 14, 4],
+      [0.7584, 0.948, 1.185, 1.4813, 14, 4],
+      [0.8039, 1.0049, 1.2561, 1.5701, 14, 4],
+      [0.84941, 1.0618, 1.3272, 1.659, 14, 4],
+      [0.91008, 1.1376, 1.422, 1.7775, 14, 4],
+      [0.97075, 1.2134, 1.5168, 1.896, 14, 4],
+      [1.0314, 1.2893, 1.6116, 2.0145, 14, 4],
+      [1.0921, 1.3651, 1.7064, 2.133, 14, 4],
+      [1.1528, 1.441, 1.8012, 2.2515, 14, 4],
+      [1.2134, 1.5168, 1.896, 2.37, 14, 4],
+      [1.2893, 1.6116, 2.0145, 2.5181, 14, 4],
+      [1.3651, 1.7064, 2.133, 2.6662, 14, 4],
+      [1.441, 1.8012, 2.2515, 2.8144, 14, 4]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfLight", "localeName": "「天光」の教え", "rarity": 2, "count": 3 },
+        { "id": "OldHandguard", "localeName": "古びた鍔", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 2 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 4 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 6 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 9 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 4 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 4 },
+        { "id": "TheMeaningOfAeons", "localeName": "万劫の真意", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 6 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 6 },
+        { "id": "TheMeaningOfAeons", "localeName": "万劫の真意", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 12 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 9 },
+        { "id": "TheMeaningOfAeons", "localeName": "万劫の真意", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 16 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 12 },
+        { "id": "TheMeaningOfAeons", "localeName": "万劫の真意", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "GreatSecretArtTenkoKenshin",
+    "localeName": "大密法·天狐顕現",
+    "desc": "稲妻の民話には、「狐憑」なるものが存在する。その中でも特殊な「天狐の憑」は、雷霆の形を成して、鳴神大社に仇なす者へと落とされる。雷を落とし、<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。\n発動時、八重神子は周囲の殺生櫻を解放し破壊する。その後、天狐雷霆を形成して落とし、<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。この方法で破壊された殺生櫻1株につき、天狐雷霆を1つ落とす。\n\n<i>八重はこの瞬間にのみ、天狐の証を見せ、雷霆に命じる。だが、宮司様のしっぽを見た者は、灰すらも残らない。ゆえに、これだけは覚えておく必要がある——八重様にしっぽなどないのだと。</i>",
+    "cd": 22,
+    "energyCost": 90,
+    "paramTpls": ["スキルダメージ|{param1:P}", "天狐雷霆ダメージ|{param2:P}", "クールタイム|{param3:F1}秒", "元素エネルギー|{param4:I}"],
+    "paramVals": [
+      [2.6, 3.3382, 22, 90],
+      [2.795, 3.5885, 22, 90],
+      [2.99, 3.8389, 22, 90],
+      [3.25, 4.1727, 22, 90],
+      [3.445, 4.4231, 22, 90],
+      [3.64, 4.6734, 22, 90],
+      [3.9, 5.0072, 22, 90],
+      [4.16, 5.3411, 22, 90],
+      [4.42, 5.6749, 22, 90],
+      [4.68, 6.0087, 22, 90],
+      [4.94, 6.3425, 22, 90],
+      [5.2, 6.6763, 22, 90],
+      [5.525, 7.0936, 22, 90],
+      [5.85, 7.5109, 22, 90],
+      [6.175, 7.9281, 22, 90]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfLight", "localeName": "「天光」の教え", "rarity": 2, "count": 3 },
+        { "id": "OldHandguard", "localeName": "古びた鍔", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 2 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 4 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 6 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 9 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 4 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 4 },
+        { "id": "TheMeaningOfAeons", "localeName": "万劫の真意", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 6 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 6 },
+        { "id": "TheMeaningOfAeons", "localeName": "万劫の真意", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 12 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 9 },
+        { "id": "TheMeaningOfAeons", "localeName": "万劫の真意", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 16 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 12 },
+        { "id": "TheMeaningOfAeons", "localeName": "万劫の真意", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackSpiritfoxSinEater",
+    "localeName": "通常攻撃·狐霊罪喰い式",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n狐霊を駆役し、最大3段の連続攻撃を行い、<color=#FFACFFFF>雷元素ダメージ</color>を与える。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、短い詠唱をした後、敵に<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。\n\n<color=#FFD780FF>落下攻撃</color>\n雷霆の力を凝集し、空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。",
+    "cd": 0,
+    "paramTpls": ["1段ダメージ|{param1:F1P}", "2段ダメージ|{param2:F1P}", "3段ダメージ|{param3:F1P}", "重撃ダメージ|{param4:F1P}", "重撃スタミナ消費|{param5:F1}", "落下期間のダメージ|{param6:F1P}", "低空/高空落下攻撃ダメージ|{param7:P}/{param8:P}"],
+    "paramVals": [
+      [0.39658, 0.38519, 0.56889, 1.4289, 50, 0.56829, 1.1363, 1.4193],
+      [0.42633, 0.41408, 0.61155, 1.5361, 50, 0.61454, 1.2288, 1.5349],
+      [0.45607, 0.44297, 0.65422, 1.6433, 50, 0.6608, 1.3213, 1.6504],
+      [0.49573, 0.48149, 0.71111, 1.7862, 50, 0.72688, 1.4535, 1.8154],
+      [0.52547, 0.51038, 0.75378, 1.8934, 50, 0.77314, 1.5459, 1.931],
+      [0.55522, 0.53927, 0.79644, 2.0005, 50, 0.826, 1.6516, 2.063],
+      [0.59488, 0.57779, 0.85333, 2.1434, 50, 0.89869, 1.797, 2.2445],
+      [0.63453, 0.61631, 0.91022, 2.2863, 50, 0.97138, 1.9423, 2.4261],
+      [0.67419, 0.65483, 0.96711, 2.4292, 50, 1.0441, 2.0877, 2.6076],
+      [0.71385, 0.69335, 1.024, 2.5721, 50, 1.1234, 2.2462, 2.8057],
+      [0.75351, 0.73186, 1.0809, 2.715, 50, 1.2027, 2.4048, 3.0037],
+      [0.79317, 0.77038, 1.1378, 2.8579, 50, 1.282, 2.5634, 3.2018],
+      [0.84274, 0.81853, 1.2089, 3.0365, 50, 1.3612, 2.7219, 3.3998],
+      [0.89231, 0.86668, 1.28, 3.2151, 50, 1.4405, 2.8805, 3.5979],
+      [0.94189, 0.91483, 1.3511, 3.3938, 50, 1.5198, 3.039, 3.7959]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfLight", "localeName": "「天光」の教え", "rarity": 2, "count": 3 },
+        { "id": "OldHandguard", "localeName": "古びた鍔", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 2 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 4 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 6 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 9 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 4 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 4 },
+        { "id": "TheMeaningOfAeons", "localeName": "万劫の真意", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 6 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 6 },
+        { "id": "TheMeaningOfAeons", "localeName": "万劫の真意", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 12 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 9 },
+        { "id": "TheMeaningOfAeons", "localeName": "万劫の真意", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 16 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 12 },
+        { "id": "TheMeaningOfAeons", "localeName": "万劫の真意", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "TheShrinesSacredShade", "localeName": "神籬之御蔭", "desc": "<color=#FFD780FF>大密法·天狐顕現</color>発動時、殺生櫻を1株破壊する毎に、<color=#FFD780FF>野干役呪·殺生櫻</color>のクールタイムを1回分リセットする。", "unlock": 1 },
+    { "name": "EnlightenedBlessing", "localeName": "啓蟄之祝詞", "desc": "八重神子の元素熟知の数値が1につき、<color=#FFD780FF>殺生櫻</color>によるダメージ+0.15%。", "unlock": 4, "values": [0.0015] },
+    { "name": "MeditationsOfAYako", "localeName": "野狐説禅", "desc": "キャラクター天賦素材を合成する時、25%の確率で同じ地域の異なる天賦素材をランダムで1個獲得できる。追加獲得素材は、消費素材と同ランクになる。" }
+  ],
+  "c13ns": [
+    { "name": "YakanOffering", "localeName": "野狐供真編", "desc": "<color=#FFD780FF>大密法·天狐顕現</color>で天狐雷霆を1回発生させるたびに、八重神子自身の元素エネルギーを8ポイント回復する。", "values": [8] },
+    { "name": "FoxsMooncall", "localeName": "望月之吼噦", "desc": "<color=#FFD780FF>殺生櫻</color>の創造時の初期階位を弐、最大階位を肆にアップ、攻撃範囲+60%。", "values": [2.56, 0.6, 1] },
+    { "name": "TheSevenGlamours", "localeName": "七化けの段", "desc": "<color=#FFD780FF>野干役呪·殺生櫻</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "SakuraChanneling", "localeName": "緋櫻誘雷章", "desc": "<color=#FFD780FF>殺生櫻</color>の落雷が敵に命中すると、周囲のチーム全員の<color=#FFACFFFF>雷元素ダメージ</color>+20%、継続時間5秒。", "values": [0.2, 5] },
+    { "name": "MischievousTeasing", "localeName": "暴悪嗤笑面", "desc": "<color=#FFD780FF>大密法·天狐顕現</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "ForbiddenArtDaisesshou", "localeName": "大殺生呪禁", "desc": "<color=#FFD780FF>殺生櫻</color>が攻撃する際、敵の防御力の60%を無視する。", "values": [0.6] }
+  ],
+  "overviewItems": [
+    { "id": "VajradaAmethystGemstone", "localeName": "最勝のアメシスト", "rarity": 5 },
+    { "id": "DragonheirsFalseFin", "localeName": "ドラゴエアのニセヒレ", "rarity": 4 },
+    { "id": "SeaGanoderma", "localeName": "ウミレイシ" },
+    { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3 },
+    { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4 },
+    { "id": "TheMeaningOfAeons", "localeName": "万劫の真意", "rarity": 5 }
+  ]
+}

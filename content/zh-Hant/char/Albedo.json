@@ -1,4 +1,5 @@
 {
+  "uid": 10000038,
   "id": "Albedo",
   "name": "Albedo",
   "localeName": "阿貝多",
@@ -94,7 +95,7 @@
   "elemSkill": {
     "name": "AbiogenesisSolarIsotoma",
     "localeName": "創生法·擬造陽華",
-    "desc": "煉成陽華，造成<color=#FFE699FF>岩元素範圍傷害</color>。\n\n<color=#FFD780FF>陽華</color>\n具有如下特性：\n·以陽華為中心的領域中的敵人受到傷害時，陽華將會生成刹那之花，綻放造成<color=#FFE699FF>岩元素範圍傷害</color>，傷害基於阿貝多的防禦力。\n·每2秒只能生成一次刹那之花。\n·角色處在陽華上時，陽華將會凝聚岩元素的力量，形成將角色托起至一定高度的晶台。同時只能存在一個晶台。\n·同時只能存在一個由阿貝多自己創造的陽華，視為<color=#FFE699FF>岩元素創造物</color>。\n\n<color=#FFD780FF>長按</color>\n可以調整技能生效位置。\n\n<i>這種岩花有著奇異的特性，和煉金術的目的一致。誕生自大地，卻一直希望上升至高天，化作太陽。</i>",
+    "desc": "煉成陽華，造成<color=#FFE699FF>岩元素範圍傷害</color>。\n\n<color=#FFD780FF>陽華</color>\n具有如下特性：\n·以陽華為中心的領域中的敵人受到傷害時，陽華將會生成刹那之花，綻放造成<color=#FFE699FF>岩元素範圍傷害</color>，傷害基於阿貝多的防禦力。\n·每2秒只能生成一次刹那之花。\n·角色處在陽華上時，陽華將會凝聚岩元素的力量，形成將角色托起至一定高度的晶台。同時只能存在一個晶台。\n·同時只能存在一個由阿貝多自己創造的陽華，視為<color=#FFE699FF>岩元素創造物</color>。\n\n<color=#FFD780FF>長按</color>\n可以調整技能生效位置。\n\n<i>這種岩花有著奇異的特性，和煉金術的目的一致。誕生自大地，卻一直希望上昇至高天，化作太陽。</i>",
     "cd": 4,
     "paramTpls": ["技能傷害|{param1:P}", "剎那之花傷害|{param2:P}防禦力", "持續時間|{param3:F1}秒", "技能冷卻|{param4:F1}秒"],
     "paramVals": [
@@ -307,9 +308,9 @@
       "values": [0.3]
     },
     { "name": "GraceOfHelios", "localeName": "太陽之華", "desc": "<color=#FFD780FF>創生法·擬造陽華</color>的技能等級提高3級。\n至多提升至15級。" },
-    { "name": "DescentOfDivinity", "localeName": "神性之隕", "desc": "目前在場上的隊伍中的角色處於陽華的領域中時，造成的下落攻擊傷害提高30%。" },
+    { "name": "DescentOfDivinity", "localeName": "神性之隕", "desc": "處於陽華的領域中的隊伍中目前場上角色，造成的下落攻擊傷害提高30%。" },
     { "name": "TideOfHadean", "localeName": "冥古之潮", "desc": "<color=#FFD780FF>誕生式·大地之潮</color>的技能等級提高3級。\n至多提升至15級。" },
-    { "name": "DustOfPurification", "localeName": "無垢之土", "desc": "目前在場上的隊伍中的角色位於陽華的領域中時，若處於結晶反應產生的護盾庇護下，則造成的傷害提高17%。" }
+    { "name": "DustOfPurification", "localeName": "無垢之土", "desc": "處在陽華的領域中的隊伍中目前場上角色，若處於結晶反應產生的護盾庇護下，造成的傷害提高17%。" }
   ],
   "overviewItems": [
     { "id": "PrithivaTopazGemstone", "localeName": "堅牢黃玉", "rarity": 5 },

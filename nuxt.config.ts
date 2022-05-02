@@ -1,9 +1,11 @@
-import { NuxtConfig } from "@nuxt/types";
 import colors from "vuetify/es5/util/colors";
 
 require("dotenv").config();
 
-const config: NuxtConfig = {
+const config: import("@nuxt/types").NuxtConfig = {
+  // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
+  ssr: false,
+
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     titleTemplate: "%s",
@@ -135,7 +137,7 @@ const config: NuxtConfig = {
     defaultLocale: "en",
     vueI18n: {
       fallbackLocale: {
-        "zh-Hans": ["zh", "zh-CN", "zh-SG"],
+        // "zh-Hans": ["zh", "zh-CN", "zh-SG"],
         // "zh-Hant": ["zh-TW", "zh-HK", "zh-MO"],
         default: ["en"],
       },

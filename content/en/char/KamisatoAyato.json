@@ -1,0 +1,348 @@
+{
+  "uid": 10000066,
+  "id": "KamisatoAyato",
+  "name": "Kamisato Ayato",
+  "localeName": "Kamisato Ayato",
+  "desc": "The young but highly accomplished head of the Yashiro Commission's Kamisato Clan. Cultured and polite, he is a man of many ways and means.",
+  "baseHP": 1067.7,
+  "baseATK": 23.275,
+  "baseDEF": 59.83,
+  "bodyType": 1,
+  "rarity": 5,
+  "weapon": 1,
+  "region": 3,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "VarunadaLazuriteSliver", "localeName": "Varunada Lazurite Sliver", "rarity": 2, "count": 1 },
+        { "id": "SakuraBloom", "localeName": "Sakura Bloom", "count": 3 },
+        { "id": "OldHandguard", "localeName": "Old Handguard", "rarity": 1, "count": 3 }
+      ],
+      "HP": 915.47,
+      "ATK": 19.955,
+      "DEF": 51.3,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "VarunadaLazuriteFragment", "localeName": "Varunada Lazurite Fragment", "rarity": 3, "count": 3 },
+        { "id": "DewOfRepudiation", "localeName": "Dew of Repudiation", "rarity": 4, "count": 2 },
+        { "id": "SakuraBloom", "localeName": "Sakura Bloom", "count": 10 },
+        { "id": "OldHandguard", "localeName": "Old Handguard", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1565.9,
+      "ATK": 34.133,
+      "DEF": 87.75,
+      "extra": 0.096
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "VarunadaLazuriteFragment", "localeName": "Varunada Lazurite Fragment", "rarity": 3, "count": 6 },
+        { "id": "DewOfRepudiation", "localeName": "Dew of Repudiation", "rarity": 4, "count": 4 },
+        { "id": "SakuraBloom", "localeName": "Sakura Bloom", "count": 20 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 12 }
+      ],
+      "HP": 2433.2,
+      "ATK": 53.038,
+      "DEF": 136.35,
+      "extra": 0.192
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "VarunadaLazuriteChunk", "localeName": "Varunada Lazurite Chunk", "rarity": 4, "count": 3 },
+        { "id": "DewOfRepudiation", "localeName": "Dew of Repudiation", "rarity": 4, "count": 8 },
+        { "id": "SakuraBloom", "localeName": "Sakura Bloom", "count": 30 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 18 }
+      ],
+      "HP": 3083.7,
+      "ATK": 67.216,
+      "DEF": 172.8,
+      "extra": 0.192
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "VarunadaLazuriteChunk", "localeName": "Varunada Lazurite Chunk", "rarity": 4, "count": 6 },
+        { "id": "DewOfRepudiation", "localeName": "Dew of Repudiation", "rarity": 4, "count": 12 },
+        { "id": "SakuraBloom", "localeName": "Sakura Bloom", "count": 45 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 12 }
+      ],
+      "HP": 3734.2,
+      "ATK": 81.394,
+      "DEF": 209.25,
+      "extra": 0.288
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "VarunadaLazuriteGemstone", "localeName": "Varunada Lazurite Gemstone", "rarity": 5, "count": 6 },
+        { "id": "DewOfRepudiation", "localeName": "Dew of Repudiation", "rarity": 4, "count": 20 },
+        { "id": "SakuraBloom", "localeName": "Sakura Bloom", "count": 60 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 24 }
+      ],
+      "HP": 4384.6,
+      "ATK": 95.573,
+      "DEF": 245.7,
+      "extra": 0.384
+    }
+  ],
+  "ascensionType": 13,
+  "element": 5,
+  "elemSkill": {
+    "name": "KamisatoArtKyouka",
+    "localeName": "Kamisato Art: Kyouka",
+    "desc": "Kamisato Ayato shifts positions and enters the Takimeguri Kanka state.\nAfter this shift, he will leave a watery illusion at his original location. After it is formed, the watery illusion will explode if opponents are nearby or after its duration ends, dealing <color=#80C0FFFF>AoE Hydro DMG</color>.\n\n<color=#FFD780FF>Takimeguri Kanka</color>\nIn this state, Kamisato Ayato uses his Shunsuiken to engage in blindingly fast attacks, causing DMG from his Normal Attacks to be converted into <color=#80C0FFFF>AoE Hydro DMG</color>. This cannot be overridden.\nIt also has the following properties:\n·After a Shunsuiken attack hits an opponent, it will grant Ayato the Namisen effect, increasing the DMG dealt by Shunsuiken based on Ayato's current Max HP. The initial maximum number of Namisen stacks is 4, and 1 stack can be gained through Shunsuiken every 0.1s. This effect will be dispelled when Takimeguri Kanka ends.\n·Kamisato Ayato's resistance to interruption is increased.\n·Unable to use Charged or Plunging Attacks.\n\nTakimeguri Kanka will be cleared when Ayato leaves the field. Using Kamisato Art: Kyouka again while in the Takimeguri Kanka state will reset and replace the pre-existing state.\n\n<i>\"When, I wonder, did you come under the illusion that you were winning?\"</i>\n<i>— Ayato is like this in both matter of martial prowess and political intrigue, but to preserve the dignity of his fellow Commissioners, he does not say such things to them. As such, only Thoma, Itto, and Ayaka have ever heard this line.</i>",
+    "cd": 12,
+    "paramTpls": [
+      "Shunsuiken 1-Hit DMG|{param1:F1P}",
+      "Shunsuiken 2-Hit DMG|{param2:F1P}",
+      "Shunsuiken 3-Hit DMG|{param3:F1P}",
+      "Takimeguri Kanka Duration|{param4:F1}s",
+      "Namisen DMG Bonus|{param5:F2P}Max HP/Stack",
+      "Water Illusion DMG|{param6:F1P}",
+      "Water Illusion Duration|{param7:I}s",
+      "CD|{param8:F1}s"
+    ],
+    "paramVals": [
+      [0.5289, 0.5891, 0.6493, 6, 0.005611, 1.0148, 6, 12],
+      [0.57195, 0.63705, 0.70215, 6, 0.006067, 1.0974, 6, 12],
+      [0.615, 0.685, 0.755, 6, 0.006524, 1.18, 6, 12],
+      [0.6765, 0.7535, 0.8305, 6, 0.007176, 1.298, 6, 12],
+      [0.71955, 0.80145, 0.88335, 6, 0.007633, 1.3806, 6, 12],
+      [0.76875, 0.85625, 0.94375, 6, 0.008155, 1.475, 6, 12],
+      [0.8364, 0.9316, 1.0268, 6, 0.008873, 1.6048, 6, 12],
+      [0.90405, 1.007, 1.1099, 6, 0.00959, 1.7346, 6, 12],
+      [0.9717, 1.0823, 1.1929, 6, 0.010308, 1.8644, 6, 12],
+      [1.0455, 1.1645, 1.2835, 6, 0.011091, 2.006, 6, 12],
+      [1.1193, 1.2467, 1.3741, 6, 0.011874, 2.1476, 6, 12],
+      [1.1931, 1.3289, 1.4647, 6, 0.012657, 2.2892, 6, 12],
+      [1.2669, 1.4111, 1.5553, 6, 0.013439, 2.4308, 6, 12],
+      [1.3407, 1.4933, 1.6459, 6, 0.014222, 2.5724, 6, 12],
+      [1.4145, 1.5755, 1.7365, 6, 0.015005, 2.714, 6, 12]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfElegance", "localeName": "Teachings of Elegance", "rarity": 2, "count": 3 },
+        { "id": "OldHandguard", "localeName": "Old Handguard", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "Guide to Elegance", "rarity": 3, "count": 2 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "Guide to Elegance", "rarity": 3, "count": 4 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "Guide to Elegance", "rarity": 3, "count": 6 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "Guide to Elegance", "rarity": 3, "count": 9 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4, "count": 4 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 4 },
+        { "id": "MudraOfTheMaleficGeneral", "localeName": "Mudra of the Malefic General", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4, "count": 6 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 6 },
+        { "id": "MudraOfTheMaleficGeneral", "localeName": "Mudra of the Malefic General", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4, "count": 12 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 9 },
+        { "id": "MudraOfTheMaleficGeneral", "localeName": "Mudra of the Malefic General", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4, "count": 16 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 12 },
+        { "id": "MudraOfTheMaleficGeneral", "localeName": "Mudra of the Malefic General", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "KamisatoArtSuiyuu",
+    "localeName": "Kamisato Art: Suiyuu",
+    "desc": "Unveils a garden of purity that silences the cacophony within.\nWhile this space exists, Bloomwater Blades will constantly rain down and attack opponents within its AoE, dealing <color=#80C0FFFF>Hydro DMG</color> and increasing the Normal Attack DMG of characters within.\n\n<i>\"I can see them, you know. The ripples of your beating heart within this realm of still waters.\"</i>",
+    "cd": 20,
+    "energyCost": 80,
+    "paramTpls": ["Bloomwater Blade DMG|{param1:F1P}", "Normal Attack DMG Bonus|{param2:F1P}", "Duration|{param3:F1}s", "CD|{param4:F1}s", "Energy Cost|{param5:I}"],
+    "paramVals": [
+      [0.66456, 0.11, 18, 20, 80],
+      [0.7144, 0.12, 18, 20, 80],
+      [0.76424, 0.13, 18, 20, 80],
+      [0.8307, 0.14, 18, 20, 80],
+      [0.88054, 0.15, 18, 20, 80],
+      [0.93038, 0.16, 18, 20, 80],
+      [0.99684, 0.17, 18, 20, 80],
+      [1.0633, 0.18, 18, 20, 80],
+      [1.1298, 0.19, 18, 20, 80],
+      [1.1962, 0.2, 18, 20, 80],
+      [1.2627, 0.2, 18, 20, 80],
+      [1.3291, 0.2, 18, 20, 80],
+      [1.4122, 0.2, 18, 20, 80],
+      [1.4953, 0.2, 18, 20, 80],
+      [1.5783, 0.2, 18, 20, 80]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfElegance", "localeName": "Teachings of Elegance", "rarity": 2, "count": 3 },
+        { "id": "OldHandguard", "localeName": "Old Handguard", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "Guide to Elegance", "rarity": 3, "count": 2 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "Guide to Elegance", "rarity": 3, "count": 4 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "Guide to Elegance", "rarity": 3, "count": 6 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "Guide to Elegance", "rarity": 3, "count": 9 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4, "count": 4 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 4 },
+        { "id": "MudraOfTheMaleficGeneral", "localeName": "Mudra of the Malefic General", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4, "count": 6 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 6 },
+        { "id": "MudraOfTheMaleficGeneral", "localeName": "Mudra of the Malefic General", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4, "count": 12 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 9 },
+        { "id": "MudraOfTheMaleficGeneral", "localeName": "Mudra of the Malefic General", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4, "count": 16 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 12 },
+        { "id": "MudraOfTheMaleficGeneral", "localeName": "Mudra of the Malefic General", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackKamisatoArtMarobashi",
+    "localeName": "Normal Attack: Kamisato Art - Marobashi",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to dash forward and perform an iai.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "cd": 0,
+    "paramTpls": [
+      "1-Hit DMG|{param1:F1P}",
+      "2-Hit DMG|{param2:F1P}",
+      "3-Hit DMG|{param3:F1P}",
+      "4-Hit DMG|{param4:F1P}×2",
+      "5-Hit DMG|{param5:F1P}",
+      "Charged Attack DMG|{param6:F1P}",
+      "Charged Attack Stamina Cost|{param7:F1}",
+      "Plunge DMG|{param8:F1P}",
+      "Low/High Plunge DMG|{param9:P}/{param10:P}"
+    ],
+    "paramVals": [
+      [0.44962, 0.47157, 0.58612, 0.29449, 0.75604, 1.2953, 20, 0.63932, 1.2784, 1.5968],
+      [0.48621, 0.50996, 0.63383, 0.31846, 0.81758, 1.4007, 20, 0.69136, 1.3824, 1.7267],
+      [0.52281, 0.54834, 0.68154, 0.34242, 0.87912, 1.5062, 20, 0.7434, 1.4865, 1.8567],
+      [0.57509, 0.60317, 0.74969, 0.37667, 0.96703, 1.6568, 20, 0.81774, 1.6351, 2.0424],
+      [0.61169, 0.64156, 0.7974, 0.40064, 1.0286, 1.7622, 20, 0.86978, 1.7392, 2.1723],
+      [0.65351, 0.68542, 0.85193, 0.42803, 1.0989, 1.8827, 20, 0.92925, 1.8581, 2.3209],
+      [0.71102, 0.74574, 0.92689, 0.4657, 1.1956, 2.0484, 20, 1.011, 2.0216, 2.5251],
+      [0.76853, 0.80606, 1.0019, 0.50336, 1.2923, 2.2141, 20, 1.0928, 2.1851, 2.7293],
+      [0.82604, 0.86638, 1.0768, 0.54103, 1.389, 2.3797, 20, 1.1746, 2.3486, 2.9336],
+      [0.88878, 0.93218, 1.1586, 0.58212, 1.4945, 2.5605, 20, 1.2638, 2.527, 3.1564],
+      [0.95151, 0.99798, 1.2404, 0.62321, 1.6, 2.7412, 20, 1.353, 2.7054, 3.3792],
+      [1.0143, 1.0638, 1.3222, 0.6643, 1.7055, 2.9219, 20, 1.4422, 2.8838, 3.602],
+      [1.077, 1.1296, 1.404, 0.70539, 1.811, 3.1027, 20, 1.5314, 3.0622, 3.8248],
+      [1.1397, 1.1954, 1.4858, 0.74649, 1.9165, 3.2834, 20, 1.6206, 3.2405, 4.0476],
+      [1.2025, 1.2612, 1.5675, 0.78758, 2.022, 3.4642, 20, 1.7098, 3.4189, 4.2704]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfElegance", "localeName": "Teachings of Elegance", "rarity": 2, "count": 3 },
+        { "id": "OldHandguard", "localeName": "Old Handguard", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "Guide to Elegance", "rarity": 3, "count": 2 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "Guide to Elegance", "rarity": 3, "count": 4 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "Guide to Elegance", "rarity": 3, "count": 6 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "Guide to Elegance", "rarity": 3, "count": 9 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4, "count": 4 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 4 },
+        { "id": "MudraOfTheMaleficGeneral", "localeName": "Mudra of the Malefic General", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4, "count": 6 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 6 },
+        { "id": "MudraOfTheMaleficGeneral", "localeName": "Mudra of the Malefic General", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4, "count": 12 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 9 },
+        { "id": "MudraOfTheMaleficGeneral", "localeName": "Mudra of the Malefic General", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4, "count": 16 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 12 },
+        { "id": "MudraOfTheMaleficGeneral", "localeName": "Mudra of the Malefic General", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    {
+      "name": "KamisatoArtMineWoMatoishiKiyotaki",
+      "localeName": "Kamisato Art: Mine Wo Matoishi Kiyotaki",
+      "desc": "<color=#FFD780FF>Kamisato Art: Kyouka</color> has the following properties:\n·After it is used, Kamisato Ayato will gain 2 Namisen stacks.\n·When the water illusion explodes, Ayato will gain a Namisen effect equal to the maximum number of stacks possible.",
+      "unlock": 1,
+      "values": [2, 5]
+    },
+    { "name": "KamisatoArtMichiyukuHagetsu", "localeName": "Kamisato Art: Michiyuku Hagetsu", "desc": "If Kamisato Ayato is not on the field and his Energy is less than 40, he will regenerate 2 Energy for himself every second.", "unlock": 4, "values": [0.5, 1, 2] },
+    { "name": "KamisatoArtDailyCooking", "localeName": "Kamisato Art: Daily Cooking", "desc": "When Ayato cooks a dish perfectly, he has a 18% chance to receive an additional \"Suspicious\" dish of the same type." }
+  ],
+  "c13ns": [
+    { "name": "KyoukaFuushi", "localeName": "Kyouka Fuushi", "desc": "<color=#FFD780FF>Shunsuiken</color> DMG is increased by 40% against opponents with 50% HP or less.", "values": [0.5, 0.4] },
+    { "name": "WorldSource", "localeName": "World Source", "desc": "<color=#FFD780FF>Namisen</color>'s maximum stack count is increased to 5. When Kamisato Ayato has at least 3 Namisen stacks, his Max HP is increased by 50%.", "values": [1, 0.5] },
+    { "name": "ToAdmireTheFlowers", "localeName": "To Admire the Flowers", "desc": "Increases the Level of <color=#FFD780FF>Kamisato Art: Kyouka</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "EndlessFlow", "localeName": "Endless Flow", "desc": "After using <color=#FFD780FF>Kamisato Art: Suiyuu</color>, all nearby party members will have 15% increased Normal Attack SPD for 15s.", "values": [0.15, 15] },
+    { "name": "BansuiIchiro", "localeName": "Bansui Ichiro", "desc": "Increases the Level of <color=#FFD780FF>Kamisato Art: Suiyuu</color> by 3.\nMaximum upgrade level is 15." },
+    {
+      "name": "BoundlessOrigin",
+      "localeName": "Boundless Origin",
+      "desc": "After using <color=#FFD780FF>Kamisato Art: Kyouka</color>, Ayato's next Shunsuiken attack will create 2 extra Shunsuiken strikes when they hit opponents, each one dealing 450% of Ayato's ATK as DMG.\nBoth these Shunsuiken attacks will not be affected by Namisen.",
+      "values": [4.5]
+    }
+  ],
+  "overviewItems": [
+    { "id": "VarunadaLazuriteGemstone", "localeName": "Varunada Lazurite Gemstone", "rarity": 5 },
+    { "id": "DewOfRepudiation", "localeName": "Dew of Repudiation", "rarity": 4 },
+    { "id": "SakuraBloom", "localeName": "Sakura Bloom" },
+    { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3 },
+    { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4 },
+    { "id": "MudraOfTheMaleficGeneral", "localeName": "Mudra of the Malefic General", "rarity": 5 }
+  ]
+}

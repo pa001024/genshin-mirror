@@ -1,4 +1,5 @@
 {
+  "uid": 10000034,
   "id": "Noelle",
   "name": "Noelle",
   "localeName": "諾艾爾",
@@ -312,7 +313,7 @@
       "unlock": 1,
       "values": [0.3, 4, 20, 60]
     },
-    { "name": "NiceAndClean", "localeName": "乾淨俐落", "desc": "普通攻擊或重擊每命中4次，都會減少<color=#FFD780FF>護心鎧</color>1秒的冷卻。\n同時命中多名敵人視作攻擊命中一次。", "unlock": 4, "values": [-1] },
+    { "name": "NiceAndClean", "localeName": "乾淨俐落", "desc": "諾艾爾的普通攻擊或重擊累計命中敵人4次，會減少<color=#FFD780FF>護心鎧</color>1秒的冷卻。\n每0.1秒至多計數一次。", "unlock": 4, "values": [-1] },
     { "name": "MaidsKnighthood", "localeName": "女僕的態度", "desc": "完美烹飪防禦類食物時，有12%的機率獲得兩倍產出。" }
   ],
   "c13ns": [

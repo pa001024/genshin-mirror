@@ -1,4 +1,5 @@
 {
+  "uid": 10000033,
   "id": "Tartaglia",
   "name": "Tartaglia",
   "localeName": "タルタリヤ",
@@ -175,7 +176,7 @@
   "elemBurst": {
     "name": "HavocObliteration",
     "localeName": "極悪技·尽滅閃",
-    "desc": "タルタリヤの戦闘モードによって、異なる攻撃を発動する。\n\n<color=#FFD780FF>遠隔モード·魔弾一閃</color>\n前方に素早く水元素を込めた魔矢を放ち、<color=#80C0FFFF>水元素範囲ダメージ</color>を与え、敵に断流效果を付与する。\n発動後、元素エネルギーが一部返還される。\n\n<color=#FFD780FF>近接モード·尽滅の水光</color>\n広範囲の斬撃を1回仕掛け、周囲全ての敵に大量の<color=#80C0FFFF>水元素ダメージ</color>を与え、断流·爆を発動する。\n\n<color=#FFD780FF>断流·爆</color>\n尽滅の水光が断流状態の敵に命中した場合、断流効果が消耗され、スチームバーストを発生させて<color=#80C0FFFF>水元素範囲ダメージ</color>を与える。断流·爆が与えたダメージは元素爆発ダメージと見なされる。\n\n<i>激しく流れる水、彼の故郷の雪国ではあまり見られない。水を操られるのは、水の大切さを理解しているからだろう。</i>",
+    "desc": "タルタリヤの戦闘モードによって、異なる攻撃を発動する。\n\n<color=#FFD780FF>遠隔モード·魔弾一閃</color>\n前方に素早く水元素を込めた魔矢を放ち、<color=#80C0FFFF>水元素範囲ダメージ</color>を与え、敵に断流効果を付与する。\n発動後、元素エネルギーが一部返還される。\n\n<color=#FFD780FF>近接モード·尽滅の水光</color>\n広範囲の斬撃を1回仕掛け、周囲全ての敵に大量の<color=#80C0FFFF>水元素ダメージ</color>を与え、断流·爆を発動する。\n\n<color=#FFD780FF>断流·爆</color>\n尽滅の水光が断流状態の敵に命中した場合、断流効果が消耗され、スチームバーストを発生させて<color=#80C0FFFF>水元素範囲ダメージ</color>を与える。断流·爆が与えたダメージは元素爆発ダメージと見なされる。\n\n<i>激しく流れる水、彼の故郷の雪国ではあまり見られない。水を操られるのは、水の大切さを理解しているからだろう。</i>",
     "cd": 15,
     "energyCost": 60,
     "paramTpls": ["スキルダメージ·近接|{param1:P}", "スキルダメージ·遠隔|{param3:P}", "断流·爆 ダメージ|{param2:P}", "スキルによる元素エネルギー回復（遠隔）|{param4:I}", "クールタイム|{param5:F1}秒", "元素エネルギー|{param6:I}"],
@@ -322,18 +323,18 @@
     ]
   },
   "talents": [
-    { "name": "NeverEnding", "localeName": "無尽蔵", "desc": "断流效果の継続時間+8秒。", "unlock": 1, "values": [8] },
-    { "name": "SwordOfTorrents", "localeName": "水形剣", "desc": "<color=#FFD780FF>魔王の武装·荒波</color>の近接モード時、通常攻撃と重撃が会心を発生すると、命中した敵に断流效果を付与する。", "unlock": 4 },
+    { "name": "NeverEnding", "localeName": "無尽蔵", "desc": "断流効果の継続時間+8秒。", "unlock": 1, "values": [8] },
+    { "name": "SwordOfTorrents", "localeName": "水形剣", "desc": "<color=#FFD780FF>魔王の武装·荒波</color>の近接モード時、通常攻撃と重撃が会心を発生すると、命中した敵に断流効果を付与する。", "unlock": 4 },
     { "name": "MasterOfWeaponry", "localeName": "武芸マスター", "desc": "チーム内の自身のキャラクター全員の<color=#FFD780FF>通常攻撃</color>Lv.+1。" }
   ],
   "c13ns": [
     { "name": "FoulLegacyTideWithholder", "localeName": "魔王の武装·押波", "desc": "<color=#FFD780FF>魔王の武装·荒波</color>のクールタイム-20%。" },
-    { "name": "FoulLegacyUnderstream", "localeName": "魔王の武装·暗流", "desc": "断流效果の影響を受けた敵が倒されると、タルタリヤの元素エネルギーが4回復する。", "values": [4] },
+    { "name": "FoulLegacyUnderstream", "localeName": "魔王の武装·暗流", "desc": "断流効果の影響を受けた敵が倒されると、タルタリヤの元素エネルギーが4回復する。", "values": [4] },
     { "name": "AbyssalMayhemVortexOfTurmoil", "localeName": "淵の災い·紛争の源", "desc": "<color=#FFD780FF>魔王の武装·荒波</color>のスキルLv.+3。\n最大Lv.15まで。" },
     {
       "name": "AbyssalMayhemHydrospout",
       "localeName": "淵の災い·復水放流",
-      "desc": "4秒毎に、タルタリヤによって発動された断流效果がフィールドに存在する時、タルタリヤが<color=#FFD780FF>魔王の武装·荒波</color>の近接モードの場合、断流·斬を発動する。それ以外の場合、断流·閃を発動する。\nこの効果によって発動された断流·斬と断流·閃は、この二つのスキル本来の発動時間制限を受けない。また、本来のスキルへの発動時間制限にも影響を与えない。",
+      "desc": "4秒毎に、タルタリヤによって発動された断流効果がフィールドに存在する時、タルタリヤが<color=#FFD780FF>魔王の武装·荒波</color>の近接モードの場合、断流·斬を発動する。それ以外の場合、断流·閃を発動する。\nこの効果によって発動された断流·斬と断流·閃は、この二つのスキル本来の発動時間制限を受けない。また、本来のスキルへの発動時間制限にも影響を与えない。",
       "values": [4]
     },
     { "name": "HavocFormlessBlade", "localeName": "極悪技·雨斬り", "desc": "<color=#FFD780FF>極悪技·尽滅閃</color>のスキルLv.+3。\n最大Lv.15まで。" },

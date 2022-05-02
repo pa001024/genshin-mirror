@@ -1,0 +1,332 @@
+{
+  "uid": 10000062,
+  "id": "Aloy",
+  "name": "Aloy",
+  "localeName": "アーロイ",
+  "desc": "かつては異端者であったが、今は機敏で腕の立つ狩人。いついかなる時も、正確無比な矢を放つことができる。",
+  "baseHP": 848.45,
+  "baseATK": 18.21,
+  "baseDEF": 52.65,
+  "bodyType": 3,
+  "weapon": 2,
+  "region": 7,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "ShivadaJadeSliver", "localeName": "哀切なアイスクリスタル·砕屑", "rarity": 2, "count": 1 },
+        { "id": "CrystalMarrow", "localeName": "晶化骨髄", "count": 3 },
+        { "id": "SpectralHusk", "localeName": "フライムの乾核", "rarity": 1, "count": 3 }
+      ],
+      "HP": 727.47,
+      "ATK": 15.613,
+      "DEF": 45.144,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "ShivadaJadeFragment", "localeName": "哀切なアイスクリスタル·欠片", "rarity": 3, "count": 3 },
+        { "id": "CrystallineBloom", "localeName": "凝結の華", "rarity": 4, "count": 2 },
+        { "id": "CrystalMarrow", "localeName": "晶化骨髄", "count": 10 },
+        { "id": "SpectralHusk", "localeName": "フライムの乾核", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1244.4,
+      "ATK": 26.706,
+      "DEF": 77.22,
+      "extra": 0.072
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "ShivadaJadeFragment", "localeName": "哀切なアイスクリスタル·欠片", "rarity": 3, "count": 6 },
+        { "id": "CrystallineBloom", "localeName": "凝結の華", "rarity": 4, "count": 4 },
+        { "id": "CrystalMarrow", "localeName": "晶化骨髄", "count": 20 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1933.5,
+      "ATK": 41.497,
+      "DEF": 119.99,
+      "extra": 0.144
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "ShivadaJadeChunk", "localeName": "哀切なアイスクリスタル·塊", "rarity": 4, "count": 3 },
+        { "id": "CrystallineBloom", "localeName": "凝結の華", "rarity": 4, "count": 8 },
+        { "id": "CrystalMarrow", "localeName": "晶化骨髄", "count": 30 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2450.4,
+      "ATK": 52.59,
+      "DEF": 152.06,
+      "extra": 0.144
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "ShivadaJadeChunk", "localeName": "哀切なアイスクリスタル·塊", "rarity": 4, "count": 6 },
+        { "id": "CrystallineBloom", "localeName": "凝結の華", "rarity": 4, "count": 12 },
+        { "id": "CrystalMarrow", "localeName": "晶化骨髄", "count": 45 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 12 }
+      ],
+      "HP": 2967.3,
+      "ATK": 63.683,
+      "DEF": 184.14,
+      "extra": 0.216
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "ShivadaJadeGemstone", "localeName": "哀切なアイスクリスタル", "rarity": 5, "count": 6 },
+        { "id": "CrystallineBloom", "localeName": "凝結の華", "rarity": 4, "count": 20 },
+        { "id": "CrystalMarrow", "localeName": "晶化骨髄", "count": 60 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 24 }
+      ],
+      "HP": 3484.2,
+      "ATK": 74.776,
+      "DEF": 216.22,
+      "extra": 0.288
+    }
+  ],
+  "ascensionType": 29,
+  "element": 7,
+  "elemSkill": {
+    "name": "FrozenWilds",
+    "localeName": "凍てついた大地",
+    "desc": "目標方向へ氷の爆弾を投げる、命中後に爆発し<color=#99FFFFFF>氷元素ダメージ</color>を与える。爆発後、氷の爆弾は複数の冷凍爆弾に分裂する。冷凍爆弾は敵に触れる、または一定時間後に爆発し、<color=#99FFFFFF>氷元素ダメージ</color>を与える。\n氷の爆弾または冷凍爆弾が敵に命中すると、敵の攻撃力がダウンし、アーロイに「コイル」効果を1層与える。\nコイル効果は0.1秒毎に最大1層獲得可能。\n\n<color=#FFD780FF>コイル</color>\n·層数を基準に、アーロイの通常攻撃ダメージをアップさせる。\n·コイルを4層所有する時、アーロイのコイル効果は全てクリアされ、「アイスラッシュ」を獲得する。通常攻撃ダメージをさらにアップさせ、通常攻撃が<color=#99FFFFFF>氷元素ダメージ</color>に変化する。\n\nアイスラッシュ状態継続時間中、アーロイはコイル効果を獲得できなくなる。\n戦闘状態が解除されてから30秒後、コイル効果はクリアされる。\n\n<i>採石場の方がずっと寒いぞ。</i>",
+    "cd": 20,
+    "paramTpls": [
+      "氷の爆弾ダメージ|{param1:P}",
+      "冷凍爆弾ダメージ|{param2:F1P}",
+      "攻撃力ダウン|{param3:P}",
+      "攻撃力ダウン継続時間|{param4:F1}秒",
+      "コイル通常攻撃ダメージアップ|{param5:F1P}/{param6:F1P}/{param7:F1P}",
+      "アイスラッシュ通常攻撃ダメージアップ|{param8:F1P}",
+      "アイスラッシュ継続時間|{param9:F1}秒",
+      "クールタイム|{param10:F1}秒"
+    ],
+    "paramVals": [
+      [1.776, 0.4, 0.12, 6, 0.05845, 0.1169, 0.17535, 0.29225, 10, 20],
+      [1.9092, 0.43, 0.12, 6, 0.06195, 0.1239, 0.18585, 0.30975, 10, 20],
+      [2.0424, 0.46, 0.12, 6, 0.06545, 0.1309, 0.19635, 0.32725, 10, 20],
+      [2.22, 0.5, 0.13, 6, 0.07, 0.14, 0.21, 0.35, 10, 20],
+      [2.3532, 0.53, 0.13, 6, 0.0735, 0.147, 0.2205, 0.3675, 10, 20],
+      [2.4864, 0.56, 0.13, 6, 0.077, 0.154, 0.231, 0.385, 10, 20],
+      [2.664, 0.6, 0.14, 6, 0.08155, 0.1631, 0.24465, 0.40775, 10, 20],
+      [2.8416, 0.64, 0.14, 6, 0.0861, 0.1722, 0.2583, 0.4305, 10, 20],
+      [3.0192, 0.68, 0.14, 6, 0.09065, 0.1813, 0.27195, 0.45325, 10, 20],
+      [3.1968, 0.72, 0.15, 6, 0.0952, 0.1904, 0.2856, 0.476, 10, 20],
+      [3.3744, 0.76, 0.15, 6, 0.09975, 0.1995, 0.29925, 0.49875, 10, 20],
+      [3.552, 0.8, 0.15, 6, 0.1043, 0.2086, 0.3129, 0.5215, 10, 20],
+      [3.774, 0.85, 0.15, 6, 0.10885, 0.2177, 0.32655, 0.54425, 10, 20],
+      [3.996, 0.9, 0.15, 6, 0.1134, 0.2268, 0.3402, 0.567, 10, 20],
+      [4.218, 0.95, 0.15, 6, 0.11795, 0.2359, 0.35385, 0.58975, 10, 20]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」の教え", "rarity": 2, "count": 3 },
+        { "id": "SpectralHusk", "localeName": "フライムの乾核", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 2 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 4 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 6 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 9 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 4 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 4 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 6 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 6 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 12 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 9 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 16 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 12 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "PropheciesOfDawn",
+    "localeName": "ドーンプロフェシー",
+    "desc": "目標方向へ氷元素に満ちた動力源を投げ、弓矢で爆発させることにより<color=#99FFFFFF>氷元素範囲ダメージ</color>を与える。\n\n<i>ゼロドーンの本質は希望なのか、絶滅への道なのかはもはや重要ではなくなった。アーロイは既に自分の世界を救っている。この世界の運命は、他の強者に任せよう。</i>",
+    "cd": 12,
+    "energyCost": 40,
+    "paramTpls": ["スキルダメージ|{param1:P}", "クールタイム|{param2:F1}秒", "元素エネルギー|{param3:I}"],
+    "paramVals": [
+      [3.592, 12, 40],
+      [3.8614, 12, 40],
+      [4.1308, 12, 40],
+      [4.49, 12, 40],
+      [4.7594, 12, 40],
+      [5.0288, 12, 40],
+      [5.388, 12, 40],
+      [5.7472, 12, 40],
+      [6.1064, 12, 40],
+      [6.4656, 12, 40],
+      [6.8248, 12, 40],
+      [7.184, 12, 40],
+      [7.633, 12, 40],
+      [8.082, 12, 40],
+      [8.531, 12, 40]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」の教え", "rarity": 2, "count": 3 },
+        { "id": "SpectralHusk", "localeName": "フライムの乾核", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 2 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 4 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 6 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 9 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 4 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 4 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 6 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 6 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 12 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 9 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 16 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 12 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackRapidFire",
+    "localeName": "通常攻撃·ラピッドファイア",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n最大4段の連続射撃を行う。\n\n<color=#FFD780FF>重撃</color>\nダメージがより高く、より精確な<color=#FFD780FF>狙い撃ち</color>を発動する。\n照準時、氷霜の寒気が矢先に付着する。寒気に満ちた矢は敵に<color=#99FFFFFF>氷元素ダメージ</color>を与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。",
+    "cd": 0,
+    "paramTpls": ["1段ダメージ|{param1:F1P}+{param2:F1P}", "2段ダメージ|{param3:F1P}", "3段ダメージ|{param4:F1P}", "4段ダメージ|{param5:F1P}", "狙い撃ち|{param6:F1P}", "フルチャージ狙い撃ち|{param7:P}", "落下期間のダメージ|{param8:F1P}", "低空/高空落下攻撃ダメージ|{param9:P}/{param10:P}"],
+    "paramVals": [
+      [0.2112, 0.2376, 0.4312, 0.528, 0.65648, 0.4386, 1.24, 0.56829, 1.1363, 1.4193],
+      [0.2256, 0.2538, 0.4606, 0.564, 0.70124, 0.4743, 1.333, 0.61454, 1.2288, 1.5349],
+      [0.24, 0.27, 0.49, 0.6, 0.746, 0.51, 1.426, 0.6608, 1.3213, 1.6504],
+      [0.2592, 0.2916, 0.5292, 0.648, 0.80568, 0.561, 1.55, 0.72688, 1.4535, 1.8154],
+      [0.2736, 0.3078, 0.5586, 0.684, 0.85044, 0.5967, 1.643, 0.77314, 1.5459, 1.931],
+      [0.2904, 0.3267, 0.5929, 0.726, 0.90266, 0.6375, 1.736, 0.826, 1.6516, 2.063],
+      [0.312, 0.351, 0.637, 0.78, 0.9698, 0.6936, 1.86, 0.89869, 1.797, 2.2445],
+      [0.3336, 0.3753, 0.6811, 0.834, 1.0369, 0.7497, 1.984, 0.97138, 1.9423, 2.4261],
+      [0.3552, 0.3996, 0.7252, 0.888, 1.1041, 0.8058, 2.108, 1.0441, 2.0877, 2.6076],
+      [0.3768, 0.4239, 0.7693, 0.942, 1.1712, 0.867, 2.232, 1.1234, 2.2462, 2.8057],
+      [0.3984, 0.4482, 0.8134, 0.996, 1.2384, 0.9282, 2.356, 1.2027, 2.4048, 3.0037],
+      [0.42, 0.4725, 0.8575, 1.05, 1.3055, 0.9894, 2.48, 1.282, 2.5634, 3.2018],
+      [0.4416, 0.4968, 0.9016, 1.104, 1.3726, 1.0506, 2.635, 1.3612, 2.7219, 3.3998],
+      [0.4632, 0.5211, 0.9457, 1.158, 1.4398, 1.1118, 2.79, 1.4405, 2.8805, 3.5979],
+      [0.4848, 0.5454, 0.9898, 1.212, 1.5069, 1.173, 2.945, 1.5198, 3.039, 3.7959]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」の教え", "rarity": 2, "count": 3 },
+        { "id": "SpectralHusk", "localeName": "フライムの乾核", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 2 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 4 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 6 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 9 },
+        { "id": "SpectralHeart", "localeName": "フライムの幽核", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 4 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 4 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 6 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 6 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 12 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 9 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 16 },
+        { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3, "count": 12 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "CombatOverride", "localeName": "戦闘オーバーライド", "desc": "アーロイが<color=#FFD780FF>凍てついた大地</color>のコイル効果を獲得した時、アーロイの攻撃力+16%、周囲にいるチーム内他のキャラクターの攻撃力+8%、持続時間10秒。", "unlock": 1, "values": [0.08, 10] },
+    {
+      "name": "StrongStrike",
+      "localeName": "強打",
+      "desc": "アーロイは<color=#FFD780FF>凍てついた大地</color>のアイスラッシュ状態にある時、1秒毎に<color=#99FFFFFF>氷元素ダメージ</color>+3.5%、この方式での<color=#99FFFFFF>氷元素ダメージ</color>アップ効果は35%まで。",
+      "unlock": 4,
+      "values": [0.035]
+    },
+    { "name": "EasyDoesIt", "localeName": "まあまあ落ち着け", "desc": "アーロイがチーム内にいる時、チーム内の自身のキャラクターが鳥肉、獣肉、冷製鮮肉をドロップする動物に近づいても気付かれなくなる。" }
+  ],
+  "c13ns": [
+    { "name": "StarOfAnotherWorld", "localeName": "異界の星", "desc": "この者の星空を灯す時は、まだ訪れていない。" },
+    { "name": "StarOfAnotherWorld", "localeName": "異界の星", "desc": "この者の星空を灯す時は、まだ訪れていない。" },
+    { "name": "StarOfAnotherWorld", "localeName": "異界の星", "desc": "この者の星空を灯す時は、まだ訪れていない。" },
+    { "name": "StarOfAnotherWorld", "localeName": "異界の星", "desc": "この者の星空を灯す時は、まだ訪れていない。" },
+    { "name": "StarOfAnotherWorld", "localeName": "異界の星", "desc": "この者の星空を灯す時は、まだ訪れていない。" },
+    { "name": "StarOfAnotherWorld", "localeName": "異界の星", "desc": "この者の星空を灯す時は、まだ訪れていない。" }
+  ],
+  "overviewItems": [
+    { "id": "ShivadaJadeGemstone", "localeName": "哀切なアイスクリスタル", "rarity": 5 },
+    { "id": "CrystallineBloom", "localeName": "凝結の華", "rarity": 4 },
+    { "id": "CrystalMarrow", "localeName": "晶化骨髄" },
+    { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "rarity": 3 },
+    { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4 },
+    { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5 }
+  ]
+}

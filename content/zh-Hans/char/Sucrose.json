@@ -1,4 +1,5 @@
 {
+  "uid": 10000043,
   "id": "Sucrose",
   "name": "Sucrose",
   "localeName": "砂糖",
@@ -302,7 +303,7 @@
     { "name": "ClusteredVacuumField", "localeName": "堆叠真空域", "desc": "<color=#FFD780FF>风灵作成·陆叁零捌</color>的可使用次数增加1次。" },
     { "name": "BethUnboundForm", "localeName": "不羁型贝特", "desc": "<color=#FFD780FF>禁·风灵作成·柒伍同构贰型</color>的技能持续时间延长2秒。", "values": [2] },
     { "name": "FlawlessAlchemistress", "localeName": "零失误少女", "desc": "<color=#FFD780FF>风灵作成·陆叁零捌</color>的技能等级提高3级。\n至多提升至15级。" },
-    { "name": "Alchemania", "localeName": "炼金的偏执", "desc": "砂糖每进行7次普通攻击或者重击，<color=#FFD780FF>风灵作成·陆叁零捌</color>的冷却时间就会随机减少1-7秒。" },
+    { "name": "Alchemania", "localeName": "炼金的偏执", "desc": "砂糖的普通攻击或者重击累计命中敌人7次，<color=#FFD780FF>风灵作成·陆叁零捌</color>的冷却时间就会随机减少1-7秒。\n每0.1秒至多计数一次。" },
     { "name": "CautionStandardFlask", "localeName": "认真普通瓶", "desc": "<color=#FFD780FF>禁·风灵作成·柒伍同构贰型</color>的技能等级提高3级。\n至多提升至15级。" },
     { "name": "ChaoticEntropy", "localeName": "混元熵增论", "desc": "<color=#FFD780FF>禁·风灵作成·柒伍同构贰型</color>如果发生了元素转化，则使队伍中所有角色在技能持续时间内获得20%的对应元素伤害加成。", "values": [0.2] }
   ],

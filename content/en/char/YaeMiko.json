@@ -1,0 +1,323 @@
+{
+  "uid": 10000058,
+  "id": "YaeMiko",
+  "name": "Yae Miko",
+  "localeName": "Yae Miko",
+  "desc": "Lady Guuji of the Grand Narukami Shrine. Also serves as the editor-in-chief of Yae Publishing House. Unimaginable intelligence and cunning are hidden under her beautiful appearance.",
+  "baseHP": 807.46,
+  "baseATK": 26.44,
+  "baseDEF": 44.274,
+  "bodyType": 4,
+  "rarity": 5,
+  "weapon": 5,
+  "region": 3,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "VajradaAmethystSliver", "localeName": "Vajrada Amethyst Sliver", "rarity": 2, "count": 1 },
+        { "id": "SeaGanoderma", "localeName": "Sea Ganoderma", "count": 3 },
+        { "id": "OldHandguard", "localeName": "Old Handguard", "rarity": 1, "count": 3 }
+      ],
+      "HP": 692.33,
+      "ATK": 22.669,
+      "DEF": 37.962,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "VajradaAmethystFragment", "localeName": "Vajrada Amethyst Fragment", "rarity": 3, "count": 3 },
+        { "id": "DragonheirsFalseFin", "localeName": "Dragonheir's False Fin", "rarity": 4, "count": 2 },
+        { "id": "SeaGanoderma", "localeName": "Sea Ganoderma", "count": 10 },
+        { "id": "OldHandguard", "localeName": "Old Handguard", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1184.2,
+      "ATK": 38.775,
+      "DEF": 64.935,
+      "extra": 0.048
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "VajradaAmethystFragment", "localeName": "Vajrada Amethyst Fragment", "rarity": 3, "count": 6 },
+        { "id": "DragonheirsFalseFin", "localeName": "Dragonheir's False Fin", "rarity": 4, "count": 4 },
+        { "id": "SeaGanoderma", "localeName": "Sea Ganoderma", "count": 20 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1840.1,
+      "ATK": 60.251,
+      "DEF": 100.9,
+      "extra": 0.096
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "VajradaAmethystChunk", "localeName": "Vajrada Amethyst Chunk", "rarity": 4, "count": 3 },
+        { "id": "DragonheirsFalseFin", "localeName": "Dragonheir's False Fin", "rarity": 4, "count": 8 },
+        { "id": "SeaGanoderma", "localeName": "Sea Ganoderma", "count": 30 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2332,
+      "ATK": 76.357,
+      "DEF": 127.87,
+      "extra": 0.096
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "VajradaAmethystChunk", "localeName": "Vajrada Amethyst Chunk", "rarity": 4, "count": 6 },
+        { "id": "DragonheirsFalseFin", "localeName": "Dragonheir's False Fin", "rarity": 4, "count": 12 },
+        { "id": "SeaGanoderma", "localeName": "Sea Ganoderma", "count": 45 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 12 }
+      ],
+      "HP": 2824,
+      "ATK": 92.464,
+      "DEF": 154.85,
+      "extra": 0.144
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "VajradaAmethystGemstone", "localeName": "Vajrada Amethyst Gemstone", "rarity": 5, "count": 6 },
+        { "id": "DragonheirsFalseFin", "localeName": "Dragonheir's False Fin", "rarity": 4, "count": 20 },
+        { "id": "SeaGanoderma", "localeName": "Sea Ganoderma", "count": 60 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 24 }
+      ],
+      "HP": 3315.9,
+      "ATK": 108.57,
+      "DEF": 181.82,
+      "extra": 0.192
+    }
+  ],
+  "ascensionType": 12,
+  "element": 3,
+  "elemSkill": {
+    "name": "YakanEvocationSesshouSakura",
+    "localeName": "Yakan Evocation: Sesshou Sakura",
+    "desc": "To Yae, such dull tasks as can be accomplished by driving spirits out need not be done personally.\nMoves swiftly, leaving a Sesshou Sakura behind.\n\n<color=#FFD780FF>Sesshou Sakura</color>\nHas the following properties:\n· Periodically strikes one nearby opponent with lightning, dealing <color=#FFACFFFF>Electro DMG</color>\n· When there are other Sesshou Sakura nearby, their level will increase, boosting the DMG dealt by these lightning strikes.\n\nThis skill has three charges.\nA maximum of 3 Sesshou Sakura can exist simultaneously. The initial level of each Sesshou Sakura is 1, and the initial highest level each sakura can reach is 3. If a new Sesshou Sakura is created too close to an existing one, the existing one will be destroyed.\n\n<i>\"The kitsune spirits sealed in the branches are all yakan who stooped to preying upon humans. The yakan are two grades lower than us Sky Kitsune, and so, I hardly see the problem with... asking that they do my bidding. Now, this doesn't mean that you humans should go learning from our grading systems, no indeed — and as for which of us, kitsune or human, is higher up in the pecking order... Heh, wouldn't you like to know?\"</i>",
+    "cd": 4,
+    "paramTpls": ["Sesshou Sakura DMG: Level 1|{param1:F1P}", "Sesshou Sakura DMG: Level 2|{param2:F1P}", "Sesshou Sakura DMG: Level 3|{param3:F1P}", "Sesshou Sakura DMG: Level 4|{param4:F1P}", "Duration|{param5:F1}s", "CD|{param6:F1}s"],
+    "paramVals": [
+      [0.60672, 0.7584, 0.948, 1.185, 14, 4],
+      [0.65222, 0.81528, 1.0191, 1.2739, 14, 4],
+      [0.69773, 0.87216, 1.0902, 1.3628, 14, 4],
+      [0.7584, 0.948, 1.185, 1.4813, 14, 4],
+      [0.8039, 1.0049, 1.2561, 1.5701, 14, 4],
+      [0.84941, 1.0618, 1.3272, 1.659, 14, 4],
+      [0.91008, 1.1376, 1.422, 1.7775, 14, 4],
+      [0.97075, 1.2134, 1.5168, 1.896, 14, 4],
+      [1.0314, 1.2893, 1.6116, 2.0145, 14, 4],
+      [1.0921, 1.3651, 1.7064, 2.133, 14, 4],
+      [1.1528, 1.441, 1.8012, 2.2515, 14, 4],
+      [1.2134, 1.5168, 1.896, 2.37, 14, 4],
+      [1.2893, 1.6116, 2.0145, 2.5181, 14, 4],
+      [1.3651, 1.7064, 2.133, 2.6662, 14, 4],
+      [1.441, 1.8012, 2.2515, 2.8144, 14, 4]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfLight", "localeName": "Teachings of Light", "rarity": 2, "count": 3 },
+        { "id": "OldHandguard", "localeName": "Old Handguard", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "Guide to Light", "rarity": 3, "count": 2 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "Guide to Light", "rarity": 3, "count": 4 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "Guide to Light", "rarity": 3, "count": 6 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "Guide to Light", "rarity": 3, "count": 9 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4, "count": 4 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 4 },
+        { "id": "TheMeaningOfAeons", "localeName": "The Meaning of Aeons", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4, "count": 6 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 6 },
+        { "id": "TheMeaningOfAeons", "localeName": "The Meaning of Aeons", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4, "count": 12 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 9 },
+        { "id": "TheMeaningOfAeons", "localeName": "The Meaning of Aeons", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4, "count": 16 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 12 },
+        { "id": "TheMeaningOfAeons", "localeName": "The Meaning of Aeons", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "GreatSecretArtTenkoKenshin",
+    "localeName": "Great Secret Art: Tenko Kenshin",
+    "desc": "Legends of \"kitsunetsuki,\" or the manifestation of a kitsune's might, are common in Inazuma's folktales. One that particularly captures the imagination is that of the Sky Kitsune, said to cause lightning to fall down upon the foes of the Grand Narukami Shrine. Summons a lightning strike, dealing <color=#FFACFFFF>AoE Electro DMG</color>.\nWhen she uses this skill, Yae Miko will unseal nearby Sesshou Sakura, destroying their outer forms and transforming them into Tenko Thunderbolts that descend from the skies, dealing <color=#FFACFFFF>AoE Electro DMG</color>. Each Sesshou Sakura destroyed in this way will create one Tenko Thunderbolt.\n\n<i>Only at times like these will Yae reveal her Sky Kitsune form and wield lightning itself. None have seen the Lady Guuji's tails and lived to tell the story... so remember, as far as you are concerned, Lady Yae does not have a tail.</i>",
+    "cd": 22,
+    "energyCost": 90,
+    "paramTpls": ["Skill DMG|{param1:P}", "Tenko Thunderbolt DMG|{param2:P}", "CD|{param3:F1}s", "Energy Cost|{param4:I}"],
+    "paramVals": [
+      [2.6, 3.3382, 22, 90],
+      [2.795, 3.5885, 22, 90],
+      [2.99, 3.8389, 22, 90],
+      [3.25, 4.1727, 22, 90],
+      [3.445, 4.4231, 22, 90],
+      [3.64, 4.6734, 22, 90],
+      [3.9, 5.0072, 22, 90],
+      [4.16, 5.3411, 22, 90],
+      [4.42, 5.6749, 22, 90],
+      [4.68, 6.0087, 22, 90],
+      [4.94, 6.3425, 22, 90],
+      [5.2, 6.6763, 22, 90],
+      [5.525, 7.0936, 22, 90],
+      [5.85, 7.5109, 22, 90],
+      [6.175, 7.9281, 22, 90]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfLight", "localeName": "Teachings of Light", "rarity": 2, "count": 3 },
+        { "id": "OldHandguard", "localeName": "Old Handguard", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "Guide to Light", "rarity": 3, "count": 2 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "Guide to Light", "rarity": 3, "count": 4 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "Guide to Light", "rarity": 3, "count": 6 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "Guide to Light", "rarity": 3, "count": 9 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4, "count": 4 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 4 },
+        { "id": "TheMeaningOfAeons", "localeName": "The Meaning of Aeons", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4, "count": 6 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 6 },
+        { "id": "TheMeaningOfAeons", "localeName": "The Meaning of Aeons", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4, "count": 12 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 9 },
+        { "id": "TheMeaningOfAeons", "localeName": "The Meaning of Aeons", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4, "count": 16 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 12 },
+        { "id": "TheMeaningOfAeons", "localeName": "The Meaning of Aeons", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackSpiritfoxSinEater",
+    "localeName": "Normal Attack: Spiritfox Sin-Eater",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nSummons forth kitsune spirits, initiating a maximum of 3 attacks that deal <color=#FFACFFFF>Electro DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to deal <color=#FFACFFFF>AoE Electro DMG</color> after a short casting time.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges towards the ground from mid-air, damaging all opponents in her path with thunderous might. Deals <color=#FFACFFFF>AoE Electro DMG</color> upon impact with the ground.",
+    "cd": 0,
+    "paramTpls": ["1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", "Charged Attack DMG|{param4:F1P}", "Charged Attack Stamina Cost|{param5:F1}", "Plunge DMG|{param6:F1P}", "Low/High Plunge DMG|{param7:P}/{param8:P}"],
+    "paramVals": [
+      [0.39658, 0.38519, 0.56889, 1.4289, 50, 0.56829, 1.1363, 1.4193],
+      [0.42633, 0.41408, 0.61155, 1.5361, 50, 0.61454, 1.2288, 1.5349],
+      [0.45607, 0.44297, 0.65422, 1.6433, 50, 0.6608, 1.3213, 1.6504],
+      [0.49573, 0.48149, 0.71111, 1.7862, 50, 0.72688, 1.4535, 1.8154],
+      [0.52547, 0.51038, 0.75378, 1.8934, 50, 0.77314, 1.5459, 1.931],
+      [0.55522, 0.53927, 0.79644, 2.0005, 50, 0.826, 1.6516, 2.063],
+      [0.59488, 0.57779, 0.85333, 2.1434, 50, 0.89869, 1.797, 2.2445],
+      [0.63453, 0.61631, 0.91022, 2.2863, 50, 0.97138, 1.9423, 2.4261],
+      [0.67419, 0.65483, 0.96711, 2.4292, 50, 1.0441, 2.0877, 2.6076],
+      [0.71385, 0.69335, 1.024, 2.5721, 50, 1.1234, 2.2462, 2.8057],
+      [0.75351, 0.73186, 1.0809, 2.715, 50, 1.2027, 2.4048, 3.0037],
+      [0.79317, 0.77038, 1.1378, 2.8579, 50, 1.282, 2.5634, 3.2018],
+      [0.84274, 0.81853, 1.2089, 3.0365, 50, 1.3612, 2.7219, 3.3998],
+      [0.89231, 0.86668, 1.28, 3.2151, 50, 1.4405, 2.8805, 3.5979],
+      [0.94189, 0.91483, 1.3511, 3.3938, 50, 1.5198, 3.039, 3.7959]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfLight", "localeName": "Teachings of Light", "rarity": 2, "count": 3 },
+        { "id": "OldHandguard", "localeName": "Old Handguard", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "Guide to Light", "rarity": 3, "count": 2 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "Guide to Light", "rarity": 3, "count": 4 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "Guide to Light", "rarity": 3, "count": 6 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "Guide to Light", "rarity": 3, "count": 9 },
+        { "id": "KageuchiHandguard", "localeName": "Kageuchi Handguard", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4, "count": 4 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 4 },
+        { "id": "TheMeaningOfAeons", "localeName": "The Meaning of Aeons", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4, "count": 6 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 6 },
+        { "id": "TheMeaningOfAeons", "localeName": "The Meaning of Aeons", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4, "count": 12 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 9 },
+        { "id": "TheMeaningOfAeons", "localeName": "The Meaning of Aeons", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4, "count": 16 },
+        { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3, "count": 12 },
+        { "id": "TheMeaningOfAeons", "localeName": "The Meaning of Aeons", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    {
+      "name": "TheShrinesSacredShade",
+      "localeName": "The Shrine's Sacred Shade",
+      "desc": "When casting <color=#FFD780FF>Great Secret Art: Tenko Kenshin</color>, each Sesshou Sakura destroyed resets the cooldown for 1 charge of <color=#FFD780FF>Yakan Evocation: Sesshou Sakura</color>.",
+      "unlock": 1
+    },
+    { "name": "EnlightenedBlessing", "localeName": "Enlightened Blessing", "desc": "Every point of Elemental Mastery Yae Miko possesses will increase <color=#FFD780FF>Sesshou Sakura</color> DMG by 0.15%.", "unlock": 4, "values": [0.0015] },
+    { "name": "MeditationsOfAYako", "localeName": "Meditations of a Yako", "desc": "Has a 25% chance to get 1 regional Character Talent Material (base material excluded) when crafting. The rarity is that of the base material." }
+  ],
+  "c13ns": [
+    { "name": "YakanOffering", "localeName": "Yakan Offering", "desc": "Each time <color=#FFD780FF>Great Secret Art: Tenko Kenshin</color> activates a Tenko Thunderbolt, Yae Miko will restore 8 Elemental Energy for herself.", "values": [8] },
+    { "name": "FoxsMooncall", "localeName": "Fox's Mooncall", "desc": "<color=#FFD780FF>Sesshou Sakura</color> start at Level 2 when created, their max level is increased to 4, and their attack range is increased by 60%.", "values": [2.56, 0.6, 1] },
+    { "name": "TheSevenGlamours", "localeName": "The Seven Glamours", "desc": "Increases the Level of <color=#FFD780FF>Yakan Evocation: Sesshou Sakura</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "SakuraChanneling", "localeName": "Sakura Channeling", "desc": "When <color=#FFD780FF>Sesshou Sakura</color> lightning hits opponents, the <color=#FFACFFFF>Electro DMG Bonus</color> of all nearby party members is increased by 20% for 5s.", "values": [0.2, 5] },
+    { "name": "MischievousTeasing", "localeName": "Mischievous Teasing", "desc": "Increases the Level of <color=#FFD780FF>Great Secret Art: Tenko Kenshin</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "ForbiddenArtDaisesshou", "localeName": "Forbidden Art: Daisesshou", "desc": "<color=#FFD780FF>The Sesshou Sakura's</color> attacks will ignore 60% of the opponents' DEF.", "values": [0.6] }
+  ],
+  "overviewItems": [
+    { "id": "VajradaAmethystGemstone", "localeName": "Vajrada Amethyst Gemstone", "rarity": 5 },
+    { "id": "DragonheirsFalseFin", "localeName": "Dragonheir's False Fin", "rarity": 4 },
+    { "id": "SeaGanoderma", "localeName": "Sea Ganoderma" },
+    { "id": "FamedHandguard", "localeName": "Famed Handguard", "rarity": 3 },
+    { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4 },
+    { "id": "TheMeaningOfAeons", "localeName": "The Meaning of Aeons", "rarity": 5 }
+  ]
+}

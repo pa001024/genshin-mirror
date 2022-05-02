@@ -1,5 +1,6 @@
 [
   {
+    "uid": 11101,
     "id": "DullBlade",
     "name": "Dull Blade",
     "localeName": "無鋒の剣",
@@ -48,6 +49,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 11201,
     "id": "SilverSword",
     "name": "Silver Sword",
     "localeName": "銀の剣",
@@ -96,10 +98,11 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 11301,
     "id": "CoolSteel",
     "name": "Cool Steel",
     "localeName": "冷刃",
-    "desc": "多層鍛造の精密な鋼で作った頼もしい兵器、持ち主の冒険を目撃してきた。",
+    "desc": "精巧な鋼を折り返し鍛錬により仕上げた心強い武器。かつての持ち主の冒険を見守ってきた。",
     "rarity": 3,
     "type": 1,
     "ascensions": [
@@ -178,10 +181,11 @@
     }
   },
   {
+    "uid": 11302,
     "id": "HarbingerOfDawn",
     "name": "Harbinger of Dawn",
     "localeName": "黎明の神剣",
-    "desc": "かつて朝日のように輝いていた宝剣、手にした人は「独りよがり」の力を手に入れる。剣身にあった発光素材はもうなくなっている。",
+    "desc": "かつて朝日のように輝いていた宝剣。手にした人は「自己悦楽」の力を身に宿す。剣身にあった発光素材は既に失われている。",
     "rarity": 3,
     "type": 1,
     "ascensions": [
@@ -260,10 +264,11 @@
     }
   },
   {
+    "uid": 11303,
     "id": "TravelersHandySword",
     "name": "Traveler's Handy Sword",
     "localeName": "旅道の剣",
-    "desc": "使いやすい鋼剣、柄にはハサミ、虫眼鏡、点火具などの旅の必須品が隠されている。",
+    "desc": "使いやすい鋼剣。柄にはハサミ、虫眼鏡、点火具など旅の必須品が隠されている。",
     "rarity": 3,
     "type": 1,
     "ascensions": [
@@ -342,10 +347,11 @@
     }
   },
   {
+    "uid": 11304,
     "id": "DarkIronSword",
     "name": "Dark Iron Sword",
     "localeName": "暗鉄剣",
-    "desc": "少し暗い鋼剣。",
+    "desc": "実はただちょっと黒いだけの鉄剣。",
     "rarity": 3,
     "type": 1,
     "ascensions": [
@@ -424,10 +430,11 @@
     }
   },
   {
+    "uid": 11305,
     "id": "FilletBlade",
     "name": "Fillet Blade",
     "localeName": "チ虎魚の刀",
-    "desc": "魚を捌く鉄刀、刀身は狭く、非常に鋭い。",
+    "desc": "魚を捌く鉄刀。刀身は細く、非常に鋭い。",
     "rarity": 3,
     "type": 1,
     "ascensions": [
@@ -506,6 +513,7 @@
     }
   },
   {
+    "uid": 11306,
     "id": "SkyriderSword",
     "name": "Skyrider Sword",
     "localeName": "飛天御剣",
@@ -588,6 +596,7 @@
     }
   },
   {
+    "uid": 11401,
     "id": "FavoniusSword",
     "name": "Favonius Sword",
     "localeName": "西風剣",
@@ -670,6 +679,7 @@
     }
   },
   {
+    "uid": 11402,
     "id": "TheFlute",
     "name": "The Flute",
     "localeName": "笛の剣",
@@ -752,10 +762,11 @@
     }
   },
   {
+    "uid": 11403,
     "id": "SacrificialSword",
     "name": "Sacrificial Sword",
     "localeName": "祭礼の剣",
-    "desc": "長い年月の中で石化した道具剣、上にあった装飾はまだ綺麗に残っている。時間の風による祝福の力がある。",
+    "desc": "長い年月の中で石化した道具剣、表面の装飾はまだ綺麗に残っている。時の風の侵食に耐えうる祝福の力を持つ。",
     "rarity": 4,
     "type": 1,
     "ascensions": [
@@ -829,15 +840,16 @@
         { "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>50%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>26</color>秒毎に1回のみ発動可能。", "params": [0.5, 26] },
         { "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>60%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>22</color>秒毎に1回のみ発動可能。", "params": [0.6, 22] },
         { "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>70%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>19</color>秒毎に1回のみ発動可能。", "params": [0.7, 19] },
-        { "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>80%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>16</color>秒に1回のみ発動可能。", "params": [0.8, 16] }
+        { "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>80%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>16</color>秒毎に1回のみ発動可能。", "params": [0.8, 16] }
       ]
     }
   },
   {
+    "uid": 11404,
     "id": "RoyalLongsword",
     "name": "Royal Longsword",
     "localeName": "旧貴族長剣",
-    "desc": "かつてモンドを支配した旧貴族の佩剣。精巧に作られており、装飾や花の彫刻が剣の主人の身分を表している。",
+    "desc": "かつてモンドを支配した旧貴族の佩剣。精巧に作られており、装飾や花の彫刻が持ち主の身分を表している。",
     "rarity": 4,
     "type": 1,
     "ascensions": [
@@ -916,6 +928,7 @@
     }
   },
   {
+    "uid": 11405,
     "id": "LionsRoar",
     "name": "Lion's Roar",
     "localeName": "匣中龍吟",
@@ -998,6 +1011,7 @@
     }
   },
   {
+    "uid": 11406,
     "id": "PrototypeRancour",
     "name": "Prototype Rancour",
     "localeName": "斬岩·試作",
@@ -1080,6 +1094,7 @@
     }
   },
   {
+    "uid": 11407,
     "id": "IronSting",
     "name": "Iron Sting",
     "localeName": "鉄蜂の刺し",
@@ -1162,6 +1177,7 @@
     }
   },
   {
+    "uid": 11408,
     "id": "BlackcliffLongsword",
     "name": "Blackcliff Longsword",
     "localeName": "黒岩の長剣",
@@ -1244,6 +1260,7 @@
     }
   },
   {
+    "uid": 11409,
     "id": "TheBlackSword",
     "name": "The Black Sword",
     "localeName": "黒剣",
@@ -1326,6 +1343,7 @@
     }
   },
   {
+    "uid": 11410,
     "id": "TheAlleyFlash",
     "name": "The Alley Flash",
     "localeName": "ダークアレイの閃光",
@@ -1408,6 +1426,7 @@
     }
   },
   {
+    "uid": 11412,
     "id": "SwordOfDescension",
     "name": "Sword of Descension",
     "localeName": "降臨の剣",
@@ -1482,13 +1501,14 @@
       "name": "降世",
       "levels": [
         {
-          "desc": "\"PlayStation Network\"でプレイする時のみ有効。\n通常攻撃と重撃が命中時<color=#99FFFFFF>50%</color>の確率で攻撃力の<color=#99FFFFFF>200%</color>の狭範囲ダメージを与える。10秒毎に1回のみ発動可能。旅人が降臨の剣を装備すると、さらに攻撃力+<color=#99FFFFFF>66</color>。",
+          "desc": "<color=#99FFFFFF>以下のプラットフォームでのみ有効です。</color>\n<color=#99FFFFFF>\"PlayStation Network\"</color>\n通常攻撃と重撃が命中時<color=#99FFFFFF>50%</color>の確率で攻撃力の<color=#99FFFFFF>200%</color>の狭範囲ダメージを与える。10秒毎に1回のみ発動可能。旅人が降臨の剣を装備すると、さらに攻撃力+<color=#99FFFFFF>66</color>。",
           "params": [0.5, 2, 10, 66]
         }
       ]
     }
   },
   {
+    "uid": 11413,
     "id": "FesteringDesire",
     "name": "Festering Desire",
     "localeName": "腐植の剣",
@@ -1571,6 +1591,7 @@
     }
   },
   {
+    "uid": 11414,
     "id": "AmenomaKageuchi",
     "name": "Amenoma Kageuchi",
     "localeName": "天目影打",
@@ -1668,6 +1689,90 @@
     }
   },
   {
+    "uid": 11415,
+    "id": "CinnabarSpindle",
+    "name": "Cinnabar Spindle",
+    "localeName": "シナバースピンドル",
+    "desc": "この世のものとは思えない物質で作られた剣。これに宿る力は、龍さえも侵食する腐植の毒にも対抗できるだろう。",
+    "rarity": 4,
+    "type": 1,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "TileOfDecarabiansTower", "localeName": "高塔の王の瓦", "count": 3 },
+          { "id": "ChaosDevice", "localeName": "混沌の装置", "count": 3 },
+          { "id": "DamagedMask", "localeName": "破損した仮面", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔の王の残壁", "count": 3 },
+          { "id": "ChaosDevice", "localeName": "混沌の装置", "count": 12 },
+          { "id": "DamagedMask", "localeName": "破損した仮面", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔の王の残壁", "count": 6 },
+          { "id": "ChaosCircuit", "localeName": "混沌の回路", "count": 6 },
+          { "id": "StainedMask", "localeName": "汚れた仮面", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔の王の断片", "count": 3 },
+          { "id": "ChaosCircuit", "localeName": "混沌の回路", "count": 12 },
+          { "id": "StainedMask", "localeName": "汚れた仮面", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔の王の断片", "count": 6 },
+          { "id": "ChaosCore", "localeName": "混沌の炉心", "count": 9 },
+          { "id": "OminousMask", "localeName": "不吉な仮面", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "ScatteredPieceOfDecarabiansDream", "localeName": "高塔の王の砕けた夢", "count": 4 },
+          { "id": "ChaosCore", "localeName": "混沌の炉心", "count": 18 },
+          { "id": "OminousMask", "localeName": "不吉な仮面", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 41.067,
+    "baseATKCurve": 9,
+    "overviewItems": [
+      { "id": "ScatteredPieceOfDecarabiansDream", "name": "高塔の王の砕けた夢", "rarity": 5 },
+      { "id": "ChaosCore", "name": "混沌の炉心", "rarity": 4 },
+      { "id": "OminousMask", "name": "不吉な仮面", "rarity": 3 }
+    ],
+    "subAttr": { "type": 9, "value": 0.15013, "curve": 17 },
+    "affix": {
+      "name": "無垢な心",
+      "levels": [
+        { "desc": "元素スキルダメージが防御力<color=#99FFFFFF>40%</color>分アップする。この効果は1.5秒毎に1回のみ発動可能で、元素スキルがダメージを与えた0.1秒後にクリアされる。", "params": [0.4, 4000, 1.5, 0.1] },
+        { "desc": "元素スキルダメージが防御力<color=#99FFFFFF>50%</color>分アップする。この効果は1.5秒毎に1回のみ発動可能で、元素スキルがダメージを与えた0.1秒後にクリアされる。", "params": [0.5, 5000, 1.5, 0.1] },
+        { "desc": "元素スキルダメージが防御力<color=#99FFFFFF>60%</color>分アップする。この効果は1.5秒毎に1回のみ発動可能で、元素スキルがダメージを与えた0.1秒後にクリアされる。", "params": [0.6, 6000, 1.5, 0.1] },
+        { "desc": "元素スキルダメージが防御力<color=#99FFFFFF>70%</color>分アップする。この効果は1.5秒毎に1回のみ発動可能で、元素スキルがダメージを与えた0.1秒後にクリアされる。", "params": [0.7, 7000, 1.5, 0.1] },
+        { "desc": "元素スキルダメージが防御力<color=#99FFFFFF>80%</color>分アップする。この効果は1.5秒毎に1回のみ発動可能で、元素スキルがダメージを与えた0.1秒後にクリアされる。", "params": [0.8, 8000, 1.5, 0.1] }
+      ]
+    }
+  },
+  {
+    "uid": 11501,
     "id": "AquilaFavonia",
     "name": "Aquila Favonia",
     "localeName": "風鷹剣",
@@ -1756,10 +1861,11 @@
     }
   },
   {
+    "uid": 11502,
     "id": "SkywardBlade",
     "name": "Skyward Blade",
     "localeName": "天空の刃",
-    "desc": "風龍の栄誉を象徴する騎士の剣。剣身には風の神の祝福があり、蒼空と風の力が含まれている。",
+    "desc": "風龍の栄誉を象徴する騎士剣。風神の祝福を受けた剣身に、蒼空と長風の力が秘められている。",
     "rarity": 5,
     "type": 1,
     "ascensions": [
@@ -1853,6 +1959,7 @@
     }
   },
   {
+    "uid": 11503,
     "id": "FreedomSworn",
     "name": "Freedom-Sworn",
     "localeName": "蒼古なる自由への誓い",
@@ -1950,6 +2057,7 @@
     }
   },
   {
+    "uid": 11504,
     "id": "SummitShaper",
     "name": "Summit Shaper",
     "localeName": "斬山の刃",
@@ -2032,6 +2140,7 @@
     }
   },
   {
+    "uid": 11505,
     "id": "PrimordialJadeCutter",
     "name": "Primordial Jade Cutter",
     "localeName": "磐岩結緑",
@@ -2114,6 +2223,7 @@
     }
   },
   {
+    "uid": 11507,
     "id": "OneSide",
     "name": "One Side",
     "localeName": "虚構",
@@ -2162,6 +2272,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 11509,
     "id": "MistsplitterReforged",
     "name": "Mistsplitter Reforged",
     "localeName": "霧切の廻光",
@@ -2259,6 +2370,105 @@
     }
   },
   {
+    "uid": 11510,
+    "id": "HaranGeppakuFutsu",
+    "name": "Haran Geppaku Futsu",
+    "localeName": "波乱月白経津",
+    "desc": "経津伝が命を受けて鍛造した名刀。その波濤を彷彿させる佇まいから、「波乱」と名付けられた。",
+    "rarity": 5,
+    "type": 1,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          { "id": "NarukamisWisdom", "localeName": "鳴神御霊の恩恵", "count": 5 },
+          { "id": "GloomyStatuette", "localeName": "暗晦の彫刻", "count": 5 },
+          { "id": "OldHandguard", "localeName": "古びた鍔", "count": 3 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鳴神御霊の歓喜", "count": 5 },
+          { "id": "GloomyStatuette", "localeName": "暗晦の彫刻", "count": 18 },
+          { "id": "OldHandguard", "localeName": "古びた鍔", "count": 12 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鳴神御霊の歓喜", "count": 9 },
+          { "id": "DarkStatuette", "localeName": "黒夜の彫刻", "count": 9 },
+          { "id": "KageuchiHandguard", "localeName": "影打の鍔", "count": 9 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鳴神御霊の親愛", "count": 5 },
+          { "id": "DarkStatuette", "localeName": "黒夜の彫刻", "count": 18 },
+          { "id": "KageuchiHandguard", "localeName": "影打の鍔", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鳴神御霊の親愛", "count": 9 },
+          { "id": "DeathlyStatuette", "localeName": "幽邃なる彫刻", "count": 14 },
+          { "id": "FamedHandguard", "localeName": "名刀の鍔", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "NarukamisValor", "localeName": "鳴神御霊の勇武", "count": 6 },
+          { "id": "DeathlyStatuette", "localeName": "幽邃なる彫刻", "count": 27 },
+          { "id": "FamedHandguard", "localeName": "名刀の鍔", "count": 18 }
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "overviewItems": [
+      { "id": "NarukamisValor", "name": "鳴神御霊の勇武", "rarity": 5 },
+      { "id": "DeathlyStatuette", "name": "幽邃なる彫刻", "rarity": 4 },
+      { "id": "FamedHandguard", "name": "名刀の鍔", "rarity": 3 }
+    ],
+    "subAttr": { "type": 12, "value": 0.072, "curve": 18 },
+    "affix": {
+      "name": "白刃流転",
+      "levels": [
+        {
+          "desc": "全元素ダメージ+<color=#99FFFFFF>12%</color>。周囲にいるチーム内の他キャラクターが元素スキルを発動すると、装備キャラクターに「波穂」効果を1層与える。獲得できる「波穂」効果は最大2層まで、0.3秒毎に1回のみ獲得できる。装備キャラクターが元素スキルを発動すると、既存の「波穂」効果をすべて消費し、「波乱」効果を獲得する。「波乱」：消費した「波穂」1層につき、通常攻撃ダメージ+<color=#99FFFFFF>20%</color>、継続時間8秒。",
+          "params": [0.12, 2, 0.3, 0.2, 8]
+        },
+        {
+          "desc": "全元素ダメージ+<color=#99FFFFFF>15%</color>。周囲にいるチーム内の他キャラクターが元素スキルを発動すると、装備キャラクターに「波穂」効果を1層与える。獲得できる「波穂」効果は最大2層まで、0.3秒毎に1回のみ獲得できる。装備キャラクターが元素スキルを発動すると、既存の「波穂」効果をすべて消費し、「波乱」効果を獲得する。「波乱」：消費した「波穂」1層につき、通常攻撃ダメージ+<color=#99FFFFFF>25%</color>、継続時間8秒。",
+          "params": [0.15, 2, 0.3, 0.25, 8]
+        },
+        {
+          "desc": "全元素ダメージ+<color=#99FFFFFF>18%</color>。周囲にいるチーム内の他キャラクターが元素スキルを発動すると、装備キャラクターに「波穂」効果を1層与える。獲得できる「波穂」効果は最大2層まで、0.3秒毎に1回のみ獲得できる。装備キャラクターが元素スキルを発動すると、既存の「波穂」効果をすべて消費し、「波乱」効果を獲得する。「波乱」：消費した「波穂」1層につき、通常攻撃ダメージ+<color=#99FFFFFF>30%</color>、継続時間8秒。",
+          "params": [0.18, 2, 0.3, 0.3, 8]
+        },
+        {
+          "desc": "全元素ダメージ+<color=#99FFFFFF>21%</color>。周囲にいるチーム内の他キャラクターが元素スキルを発動すると、装備キャラクターに「波穂」効果を1層与える。獲得できる「波穂」効果は最大2層まで、0.3秒毎に1回のみ獲得できる。装備キャラクターが元素スキルを発動すると、既存の「波穂」効果をすべて消費し、「波乱」効果を獲得する。「波乱」：消費した「波穂」1層につき、通常攻撃ダメージ+<color=#99FFFFFF>35%</color>、継続時間8秒。",
+          "params": [0.21, 2, 0.3, 0.35, 8]
+        },
+        {
+          "desc": "全元素ダメージ+<color=#99FFFFFF>24%</color>。周囲にいるチーム内の他キャラクターが元素スキルを発動すると、装備キャラクターに「波穂」効果を1層与える。獲得できる「波穂」効果は最大2層まで、0.3秒毎に1回のみ獲得できる。装備キャラクターが元素スキルを発動すると、既存の「波穂」効果をすべて消費し、「波乱」効果を獲得する。「波乱」：消費した「波穂」1層につき、通常攻撃ダメージ+<color=#99FFFFFF>40%</color>、継続時間8秒。",
+          "params": [0.24, 2, 0.3, 0.4, 8]
+        }
+      ]
+    }
+  },
+  {
+    "uid": 12101,
     "id": "WasterGreatsword",
     "name": "Waster Greatsword",
     "localeName": "訓練用大剣",
@@ -2307,6 +2517,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 12201,
     "id": "OldMercsPal",
     "name": "Old Merc's Pal",
     "localeName": "傭兵の重剣",
@@ -2355,10 +2566,11 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 12301,
     "id": "FerrousShadow",
     "name": "Ferrous Shadow",
     "localeName": "鉄影段平",
-    "desc": "この剣はかの光の獅子エドウインの佩剣の模造品。これを握って、伝説の英雄の力を感じよう！注意：妄想はほどほどに。",
+    "desc": "この剣はかの光の獅子エレンドリンの佩剣の模造品。これを握って、伝説の英雄の力を感じよう！注意：妄想はほどほどに。",
     "rarity": 3,
     "type": 4,
     "ascensions": [
@@ -2437,6 +2649,7 @@
     }
   },
   {
+    "uid": 12302,
     "id": "BloodtaintedGreatsword",
     "name": "Bloodtainted Greatsword",
     "localeName": "龍血を浴びた剣",
@@ -2519,6 +2732,7 @@
     }
   },
   {
+    "uid": 12303,
     "id": "WhiteIronGreatsword",
     "name": "White Iron Greatsword",
     "localeName": "白鉄の大剣",
@@ -2601,6 +2815,7 @@
     }
   },
   {
+    "uid": 12304,
     "id": "Quartz",
     "name": "Quartz",
     "localeName": "石英大剣",
@@ -2683,6 +2898,7 @@
     }
   },
   {
+    "uid": 12305,
     "id": "DebateClub",
     "name": "Debate Club",
     "localeName": "理屈責め",
@@ -2765,6 +2981,7 @@
     }
   },
   {
+    "uid": 12306,
     "id": "SkyriderGreatsword",
     "name": "Skyrider Greatsword",
     "localeName": "飛天大御剣",
@@ -2847,6 +3064,7 @@
     }
   },
   {
+    "uid": 12401,
     "id": "FavoniusGreatsword",
     "name": "Favonius Greatsword",
     "localeName": "西風大剣",
@@ -2929,6 +3147,7 @@
     }
   },
   {
+    "uid": 12402,
     "id": "TheBell",
     "name": "The Bell",
     "localeName": "鐘の剣",
@@ -3026,10 +3245,11 @@
     }
   },
   {
+    "uid": 12403,
     "id": "SacrificialGreatsword",
     "name": "Sacrificial Greatsword",
     "localeName": "祭礼の大剣",
-    "desc": "長い年月の中で石化した道具剣、上にあった装飾がまだ綺麗に残っている。時間の風による祝福の力がある。",
+    "desc": "長い年月の中で石化した道具大剣、表面の装飾はまだ綺麗に残っている。時の風の侵食に耐えうる祝福の力を持つ。",
     "rarity": 4,
     "type": 4,
     "ascensions": [
@@ -3103,11 +3323,12 @@
         { "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>50%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>26</color>秒毎に1回のみ発動可能。", "params": [0.5, 26] },
         { "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>60%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>22</color>秒毎に1回のみ発動可能。", "params": [0.6, 22] },
         { "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>70%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>19</color>秒毎に1回のみ発動可能。", "params": [0.7, 19] },
-        { "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>80%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>16</color>秒に1回のみ発動可能。", "params": [0.8, 16] }
+        { "desc": "元素スキルが敵にダメージを与えた時、<color=#99FFFFFF>80%</color>の確率で該当スキルのクールタイムをリセットする。<color=#99FFFFFF>16</color>秒毎に1回のみ発動可能。", "params": [0.8, 16] }
       ]
     }
   },
   {
+    "uid": 12404,
     "id": "RoyalGreatsword",
     "name": "Royal Greatsword",
     "localeName": "旧貴族大剣",
@@ -3190,6 +3411,7 @@
     }
   },
   {
+    "uid": 12405,
     "id": "Rainslasher",
     "name": "Rainslasher",
     "localeName": "雨裁",
@@ -3272,6 +3494,7 @@
     }
   },
   {
+    "uid": 12406,
     "id": "PrototypeArchaic",
     "name": "Prototype Archaic",
     "localeName": "古華·試作",
@@ -3354,6 +3577,7 @@
     }
   },
   {
+    "uid": 12407,
     "id": "Whiteblind",
     "name": "Whiteblind",
     "localeName": "白影の剣",
@@ -3436,6 +3660,7 @@
     }
   },
   {
+    "uid": 12408,
     "id": "BlackcliffSlasher",
     "name": "Blackcliff Slasher",
     "localeName": "黒岩の斬刀",
@@ -3518,6 +3743,7 @@
     }
   },
   {
+    "uid": 12409,
     "id": "SerpentSpine",
     "name": "Serpent Spine",
     "localeName": "螭龍の剣",
@@ -3600,6 +3826,7 @@
     }
   },
   {
+    "uid": 12410,
     "id": "LithicBlade",
     "name": "Lithic Blade",
     "localeName": "千岩古剣",
@@ -3682,6 +3909,7 @@
     }
   },
   {
+    "uid": 12411,
     "id": "SnowTombedStarsilver",
     "name": "Snow-Tombed Starsilver",
     "localeName": "雪葬の星銀",
@@ -3779,6 +4007,90 @@
     }
   },
   {
+    "uid": 12412,
+    "id": "LuxuriousSeaLord",
+    "name": "Luxurious Sea-Lord",
+    "localeName": "銜玉の海皇",
+    "desc": "海の王様。風乾を経た今、武器としてはもちろん、非常食としても使える。",
+    "rarity": 4,
+    "type": 4,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "GrainOfAerosiderite", "localeName": "漆黒の隕鉄の一粒", "count": 3 },
+          { "id": "FragileBoneShard", "localeName": "脆い骨片", "count": 3 },
+          { "id": "SlimeCondensate", "localeName": "スライムの液体", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "PieceOfAerosiderite", "localeName": "漆黒の隕鉄の一片", "count": 3 },
+          { "id": "FragileBoneShard", "localeName": "脆い骨片", "count": 12 },
+          { "id": "SlimeCondensate", "localeName": "スライムの液体", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "PieceOfAerosiderite", "localeName": "漆黒の隕鉄の一片", "count": 6 },
+          { "id": "SturdyBoneShard", "localeName": "丈夫な骨片", "count": 6 },
+          { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "BitOfAerosiderite", "localeName": "漆黒の隕鉄の一角", "count": 3 },
+          { "id": "SturdyBoneShard", "localeName": "丈夫な骨片", "count": 12 },
+          { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "BitOfAerosiderite", "localeName": "漆黒の隕鉄の一角", "count": 6 },
+          { "id": "FossilizedBoneShard", "localeName": "石化した骨片", "count": 9 },
+          { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "ChunkOfAerosiderite", "localeName": "漆黒の隕鉄の塊", "count": 4 },
+          { "id": "FossilizedBoneShard", "localeName": "石化した骨片", "count": 18 },
+          { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 41.067,
+    "baseATKCurve": 9,
+    "overviewItems": [
+      { "id": "ChunkOfAerosiderite", "name": "漆黒の隕鉄の塊", "rarity": 5 },
+      { "id": "FossilizedBoneShard", "name": "石化した骨片", "rarity": 4 },
+      { "id": "SlimeConcentrate", "name": "スライムのピュレ", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.12, "curve": 17 },
+    "affix": {
+      "name": "海の勝利",
+      "levels": [
+        { "desc": "元素爆発ダメージ+<color=#99FFFFFF>12%</color>。元素爆発が敵に命中すると、100%の確率でマグロを召喚し、衝撃を与え、攻撃力<color=#99FFFFFF>100%</color>分の範囲ダメージを与える。この効果は15秒毎に1回のみ発動可能。", "params": [0.12, 1, 1, 15] },
+        { "desc": "元素爆発ダメージ+<color=#99FFFFFF>15%</color>。元素爆発が敵に命中すると、100%の確率でマグロを召喚し、衝撃を与え、攻撃力<color=#99FFFFFF>125%</color>分の範囲ダメージを与える。この効果は15秒毎に1回のみ発動可能。", "params": [0.15, 1, 1.25, 15] },
+        { "desc": "元素爆発ダメージ+<color=#99FFFFFF>18%</color>。元素爆発が敵に命中すると、100%の確率でマグロを召喚し、衝撃を与え、攻撃力<color=#99FFFFFF>150%</color>分の範囲ダメージを与える。この効果は15秒毎に1回のみ発動可能。", "params": [0.18, 1, 1.5, 15] },
+        { "desc": "元素爆発ダメージ+<color=#99FFFFFF>21%</color>。元素爆発が敵に命中すると、100%の確率でマグロを召喚し、衝撃を与え、攻撃力<color=#99FFFFFF>175%</color>分の範囲ダメージを与える。この効果は15秒毎に1回のみ発動可能。", "params": [0.21, 1, 1.75, 15] },
+        { "desc": "元素爆発ダメージ+<color=#99FFFFFF>24%</color>。元素爆発が敵に命中すると、100%の確率でマグロを召喚し、衝撃を与え、攻撃力<color=#99FFFFFF>200%</color>分の範囲ダメージを与える。この効果は15秒毎に1回のみ発動可能。", "params": [0.24, 1, 2, 15] }
+      ]
+    }
+  },
+  {
+    "uid": 12414,
     "id": "KatsuragikiriNagamasa",
     "name": "Katsuragikiri Nagamasa",
     "localeName": "桂木斬長正",
@@ -3876,6 +4188,90 @@
     }
   },
   {
+    "uid": 12416,
+    "id": "Akuoumaru",
+    "name": "Akuoumaru",
+    "localeName": "惡王丸",
+    "desc": "伝説の「惡王」がかつて愛用していた刀。刀身が大きく威厳があるが、振るうと驚くほど軽い。",
+    "rarity": 4,
+    "type": 4,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "CoralBranchOfADistantSea", "localeName": "遠海夷地の瑚枝", "count": 3 },
+          { "id": "ConcealedClaw", "localeName": "隠獣の指爪", "count": 3 },
+          { "id": "OldHandguard", "localeName": "古びた鍔", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "遠海夷地の石枝", "count": 3 },
+          { "id": "ConcealedClaw", "localeName": "隠獣の指爪", "count": 12 },
+          { "id": "OldHandguard", "localeName": "古びた鍔", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "遠海夷地の石枝", "count": 6 },
+          { "id": "ConcealedUnguis", "localeName": "隠獣の利爪", "count": 6 },
+          { "id": "KageuchiHandguard", "localeName": "影打の鍔", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "遠海夷地の玉枝", "count": 3 },
+          { "id": "ConcealedUnguis", "localeName": "隠獣の利爪", "count": 12 },
+          { "id": "KageuchiHandguard", "localeName": "影打の鍔", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "遠海夷地の玉枝", "count": 6 },
+          { "id": "ConcealedTalon", "localeName": "隠獣の鬼爪", "count": 9 },
+          { "id": "FamedHandguard", "localeName": "名刀の鍔", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "GoldenBranchOfADistantSea", "localeName": "遠海夷地の金枝", "count": 4 },
+          { "id": "ConcealedTalon", "localeName": "隠獣の鬼爪", "count": 18 },
+          { "id": "FamedHandguard", "localeName": "名刀の鍔", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "overviewItems": [
+      { "id": "GoldenBranchOfADistantSea", "name": "遠海夷地の金枝", "rarity": 5 },
+      { "id": "ConcealedTalon", "name": "隠獣の鬼爪", "rarity": 4 },
+      { "id": "FamedHandguard", "name": "名刀の鍔", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
+    "affix": {
+      "name": "波を統べる海祇の民",
+      "levels": [
+        { "desc": "チーム全員の元素エネルギー上限の合計を基に、元素爆発ダメージをアップさせる。1ポイントにつき、装備したキャラクターの元素爆発ダメージ+<color=#99FFFFFF>0.12%</color>。この方式でアップできる元素爆発ダメージは最大<color=#99FFFFFF>40%</color>まで。", "params": [0.12, 0.4] },
+        { "desc": "チーム全員の元素エネルギー上限の合計を基に、元素爆発ダメージをアップさせる。1ポイントにつき、装備したキャラクターの元素爆発ダメージ+<color=#99FFFFFF>0.15%</color>。この方式でアップできる元素爆発ダメージは最大<color=#99FFFFFF>50%</color>まで。", "params": [0.15, 0.5] },
+        { "desc": "チーム全員の元素エネルギー上限の合計を基に、元素爆発ダメージをアップさせる。1ポイントにつき、装備したキャラクターの元素爆発ダメージ+<color=#99FFFFFF>0.18%</color>。この方式でアップできる元素爆発ダメージは最大<color=#99FFFFFF>60%</color>まで。", "params": [0.18, 0.6] },
+        { "desc": "チーム全員の元素エネルギー上限の合計を基に、元素爆発ダメージをアップさせる。1ポイントにつき、装備したキャラクターの元素爆発ダメージ+<color=#99FFFFFF>0.21%</color>。この方式でアップできる元素爆発ダメージは最大<color=#99FFFFFF>70%</color>まで。", "params": [0.21, 0.7] },
+        { "desc": "チーム全員の元素エネルギー上限の合計を基に、元素爆発ダメージをアップさせる。1ポイントにつき、装備したキャラクターの元素爆発ダメージ+<color=#99FFFFFF>0.24%</color>。この方式でアップできる元素爆発ダメージは最大<color=#99FFFFFF>80%</color>まで。", "params": [0.24, 0.8] }
+      ]
+    }
+  },
+  {
+    "uid": 12501,
     "id": "SkywardPride",
     "name": "Skyward Pride",
     "localeName": "天空の傲",
@@ -3958,6 +4354,7 @@
     }
   },
   {
+    "uid": 12502,
     "id": "WolfsGravestone",
     "name": "Wolf's Gravestone",
     "localeName": "狼の末路",
@@ -4040,6 +4437,7 @@
     }
   },
   {
+    "uid": 12503,
     "id": "SongOfBrokenPines",
     "name": "Song of Broken Pines",
     "localeName": "松韻の響く頃",
@@ -4137,6 +4535,7 @@
     }
   },
   {
+    "uid": 12504,
     "id": "TheUnforged",
     "name": "The Unforged",
     "localeName": "無工の剣",
@@ -4219,6 +4618,7 @@
     }
   },
   {
+    "uid": 12505,
     "id": "PrimordialJadeGreatsword",
     "name": "Primordial Jade Greatsword",
     "localeName": "美玉魚",
@@ -4267,6 +4667,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 12506,
     "id": "TheOtherSide",
     "name": "The Other Side",
     "localeName": "異史",
@@ -4315,6 +4716,90 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 12510,
+    "id": "RedhornStonethresher",
+    "name": "Redhorn Stonethresher",
+    "localeName": "赤角石塵滅砕",
+    "desc": "かつての持ち主によると、これはあらゆる魑魅魍魎を打ち払うことのできる金剛杵——「赤角石塵滅砕金塗金嚼獅子」だそうだ。",
+    "rarity": 5,
+    "type": 4,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          { "id": "NarukamisWisdom", "localeName": "鳴神御霊の恩恵", "count": 5 },
+          { "id": "ConcealedClaw", "localeName": "隠獣の指爪", "count": 5 },
+          { "id": "OldHandguard", "localeName": "古びた鍔", "count": 3 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鳴神御霊の歓喜", "count": 5 },
+          { "id": "ConcealedClaw", "localeName": "隠獣の指爪", "count": 18 },
+          { "id": "OldHandguard", "localeName": "古びた鍔", "count": 12 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鳴神御霊の歓喜", "count": 9 },
+          { "id": "ConcealedUnguis", "localeName": "隠獣の利爪", "count": 9 },
+          { "id": "KageuchiHandguard", "localeName": "影打の鍔", "count": 9 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鳴神御霊の親愛", "count": 5 },
+          { "id": "ConcealedUnguis", "localeName": "隠獣の利爪", "count": 18 },
+          { "id": "KageuchiHandguard", "localeName": "影打の鍔", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鳴神御霊の親愛", "count": 9 },
+          { "id": "ConcealedTalon", "localeName": "隠獣の鬼爪", "count": 14 },
+          { "id": "FamedHandguard", "localeName": "名刀の鍔", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "NarukamisValor", "localeName": "鳴神御霊の勇武", "count": 6 },
+          { "id": "ConcealedTalon", "localeName": "隠獣の鬼爪", "count": 27 },
+          { "id": "FamedHandguard", "localeName": "名刀の鍔", "count": 18 }
+        ]
+      }
+    ],
+    "baseATK": 44.336,
+    "baseATKCurve": 14,
+    "overviewItems": [
+      { "id": "NarukamisValor", "name": "鳴神御霊の勇武", "rarity": 5 },
+      { "id": "ConcealedTalon", "name": "隠獣の鬼爪", "rarity": 4 },
+      { "id": "FamedHandguard", "name": "名刀の鍔", "rarity": 3 }
+    ],
+    "subAttr": { "type": 13, "value": 0.192, "curve": 18 },
+    "affix": {
+      "name": "御伽大王の御伽話",
+      "levels": [
+        { "desc": "防御力+<color=#99FFFFFF>28%</color>。通常攻撃と重撃ダメージが防御力<color=#99FFFFFF>40%</color>分アップする。", "params": [0.28, 0.4, 80000] },
+        { "desc": "防御力+<color=#99FFFFFF>35%</color>。通常攻撃と重撃ダメージが防御力<color=#99FFFFFF>50%</color>分アップする。", "params": [0.35, 0.5, 80000] },
+        { "desc": "防御力+<color=#99FFFFFF>42%</color>。通常攻撃と重撃ダメージが防御力<color=#99FFFFFF>60%</color>分アップする。", "params": [0.42, 0.6, 80000] },
+        { "desc": "防御力+<color=#99FFFFFF>49%</color>。通常攻撃と重撃ダメージが防御力<color=#99FFFFFF>70%</color>分アップする。", "params": [0.49, 0.7, 80000] },
+        { "desc": "防御力+<color=#99FFFFFF>56%</color>。通常攻撃と重撃ダメージが防御力<color=#99FFFFFF>80%</color>分アップする。", "params": [0.56, 0.8, 80000] }
+      ]
+    }
+  },
+  {
+    "uid": 13101,
     "id": "BeginnersProtector",
     "name": "Beginner's Protector",
     "localeName": "新米の長槍",
@@ -4363,6 +4848,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 13201,
     "id": "IronPoint",
     "name": "Iron Point",
     "localeName": "鉄尖槍",
@@ -4411,6 +4897,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 13301,
     "id": "WhiteTassel",
     "name": "White Tassel",
     "localeName": "白纓槍",
@@ -4493,6 +4980,7 @@
     }
   },
   {
+    "uid": 13302,
     "id": "Halberd",
     "name": "Halberd",
     "localeName": "鉾槍",
@@ -4575,6 +5063,7 @@
     }
   },
   {
+    "uid": 13303,
     "id": "BlackTassel",
     "name": "Black Tassel",
     "localeName": "黒纓槍",
@@ -4657,6 +5146,7 @@
     }
   },
   {
+    "uid": 13304,
     "id": "TheFlagstaff",
     "name": "The Flagstaff",
     "localeName": "「旗竿」",
@@ -4738,6 +5228,7 @@
     }
   },
   {
+    "uid": 13401,
     "id": "DragonsBane",
     "name": "Dragon's Bane",
     "localeName": "匣中滅龍",
@@ -4820,6 +5311,7 @@
     }
   },
   {
+    "uid": 13402,
     "id": "PrototypeStarglitter",
     "name": "Prototype Starglitter",
     "localeName": "星鎌·試作",
@@ -4902,6 +5394,7 @@
     }
   },
   {
+    "uid": 13403,
     "id": "CrescentPike",
     "name": "Crescent Pike",
     "localeName": "流月の針",
@@ -4984,6 +5477,7 @@
     }
   },
   {
+    "uid": 13404,
     "id": "BlackcliffPole",
     "name": "Blackcliff Pole",
     "localeName": "黒岩の突槍",
@@ -5066,6 +5560,7 @@
     }
   },
   {
+    "uid": 13405,
     "id": "Deathmatch",
     "name": "Deathmatch",
     "localeName": "死闘の槍",
@@ -5148,6 +5643,7 @@
     }
   },
   {
+    "uid": 13406,
     "id": "LithicSpear",
     "name": "Lithic Spear",
     "localeName": "千岩長槍",
@@ -5222,14 +5718,15 @@
       "name": "千岩訣·同心",
       "levels": [
         { "desc": "チームに璃月出身のキャラクターが1人いる毎に、この武器を装備したキャラクターの攻撃力+<color=#99FFFFFF>7%</color>、会心率+<color=#99FFFFFF>3%</color>。最大4重まで。", "params": [0.07, 0.03, 4] },
-        { "desc": "チームに璃月出身のキャラクターが1人いる毎に、この武器を装備したキャラの攻撃力+<color=#99FFFFFF>8%</color>、会心率+<color=#99FFFFFF>4%</color>。最大4重まで。", "params": [0.08, 0.04, 4] },
-        { "desc": "チームに璃月出身のキャラクターが1人いる毎に、この武器を装備したキャラの攻撃力+<color=#99FFFFFF>9%</color>、会心率+<color=#99FFFFFF>5%</color>。最大4重まで。", "params": [0.09, 0.05, 4] },
-        { "desc": "チームに璃月出身のキャラクターが1人いる毎に、この武器を装備したキャラの攻撃力+<color=#99FFFFFF>10%</color>、会心率+<color=#99FFFFFF>6%</color>。最大4重まで。", "params": [0.1, 0.06, 4] },
-        { "desc": "チームに璃月出身のキャラクターが1人いる毎に、この武器を装備したキャラの攻撃力+<color=#99FFFFFF>11%</color>、会心率+<color=#99FFFFFF>7%</color>。最大4重まで。", "params": [0.11, 0.07, 4] }
+        { "desc": "チームに璃月出身のキャラクターが1人いる毎に、この武器を装備したキャラクターの攻撃力+<color=#99FFFFFF>8%</color>、会心率+<color=#99FFFFFF>4%</color>。最大4重まで。", "params": [0.08, 0.04, 4] },
+        { "desc": "チームに璃月出身のキャラクターが1人いる毎に、この武器を装備したキャラクターの攻撃力+<color=#99FFFFFF>9%</color>、会心率+<color=#99FFFFFF>5%</color>。最大4重まで。", "params": [0.09, 0.05, 4] },
+        { "desc": "チームに璃月出身のキャラクターが1人いる毎に、この武器を装備したキャラクターの攻撃力+<color=#99FFFFFF>10%</color>、会心率+<color=#99FFFFFF>6%</color>。最大4重まで。", "params": [0.1, 0.06, 4] },
+        { "desc": "チームに璃月出身のキャラクターが1人いる毎に、この武器を装備したキャラクターの攻撃力+<color=#99FFFFFF>11%</color>、会心率+<color=#99FFFFFF>7%</color>。最大4重まで。", "params": [0.11, 0.07, 4] }
       ]
     }
   },
   {
+    "uid": 13407,
     "id": "FavoniusLance",
     "name": "Favonius Lance",
     "localeName": "西風長槍",
@@ -5312,6 +5809,7 @@
     }
   },
   {
+    "uid": 13408,
     "id": "RoyalSpear",
     "name": "Royal Spear",
     "localeName": "旧貴族猟槍",
@@ -5394,6 +5892,7 @@
     }
   },
   {
+    "uid": 13409,
     "id": "DragonspineSpear",
     "name": "Dragonspine Spear",
     "localeName": "ドラゴンスピア",
@@ -5491,6 +5990,7 @@
     }
   },
   {
+    "uid": 13414,
     "id": "KitainCrossSpear",
     "name": "Kitain Cross Spear",
     "localeName": "喜多院十文字槍",
@@ -5588,6 +6088,173 @@
     }
   },
   {
+    "uid": 13415,
+    "id": "TheCatch",
+    "name": "\"The Catch\"",
+    "localeName": "「漁獲」",
+    "desc": "遠い昔、稲妻に名を轟かせた大泥棒が愛用していた槍。",
+    "rarity": 4,
+    "type": 3,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "MaskOfTheWickedLieutenant", "localeName": "今昔劇画の悪尉", "count": 3 },
+          { "id": "ChaosGear", "localeName": "混沌の機関", "count": 3 },
+          { "id": "SpectralHusk", "localeName": "フライムの乾核", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "今昔劇画の虎牙", "count": 3 },
+          { "id": "ChaosGear", "localeName": "混沌の機関", "count": 12 },
+          { "id": "SpectralHusk", "localeName": "フライムの乾核", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "今昔劇画の虎牙", "count": 6 },
+          { "id": "ChaosAxis", "localeName": "混沌の中枢", "count": 6 },
+          { "id": "SpectralHeart", "localeName": "フライムの幽核", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "今昔劇画の隻角", "count": 3 },
+          { "id": "ChaosAxis", "localeName": "混沌の中枢", "count": 12 },
+          { "id": "SpectralHeart", "localeName": "フライムの幽核", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "今昔劇画の隻角", "count": 6 },
+          { "id": "ChaosOculus", "localeName": "混沌の真眼", "count": 9 },
+          { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "MaskOfTheKijin", "localeName": "今昔劇画の鬼人", "count": 4 },
+          { "id": "ChaosOculus", "localeName": "混沌の真眼", "count": 18 },
+          { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "overviewItems": [
+      { "id": "MaskOfTheKijin", "name": "今昔劇画の鬼人", "rarity": 5 },
+      { "id": "ChaosOculus", "name": "混沌の真眼", "rarity": 4 },
+      { "id": "SpectralNucleus", "name": "フライムの晶化核", "rarity": 3 }
+    ],
+    "subAttr": { "type": 10, "value": 0.1, "curve": 17 },
+    "affix": {
+      "name": "舟歌",
+      "levels": [
+        { "desc": "元素爆発ダメージ+<color=#99FFFFFF>16%</color>、元素爆発の会心率+<color=#99FFFFFF>6%</color>。", "params": [0.16, 0.06] },
+        { "desc": "元素爆発ダメージ+<color=#99FFFFFF>20%</color>、元素爆発の会心率+<color=#99FFFFFF>7.5%</color>。", "params": [0.2, 0.075] },
+        { "desc": "元素爆発ダメージ+<color=#99FFFFFF>24%</color>、元素爆発の会心率+<color=#99FFFFFF>9%</color>。", "params": [0.24, 0.09] },
+        { "desc": "元素爆発ダメージ+<color=#99FFFFFF>28%</color>、元素爆発の会心率+<color=#99FFFFFF>10.5%</color>。", "params": [0.28, 0.105] },
+        { "desc": "元素爆発ダメージ+<color=#99FFFFFF>32%</color>、元素爆発の会心率+<color=#99FFFFFF>12%</color>。", "params": [0.32, 0.12] }
+      ]
+    }
+  },
+  {
+    "uid": 13416,
+    "id": "WavebreakersFin",
+    "name": "Wavebreaker's Fin",
+    "localeName": "斬波のひれ長",
+    "desc": "海淵の底にある光り輝く素材によって作り上げられた薙刀。かつては天狗一族が所有していた。",
+    "rarity": 4,
+    "type": 3,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "MaskOfTheWickedLieutenant", "localeName": "今昔劇画の悪尉", "count": 3 },
+          { "id": "ConcealedClaw", "localeName": "隠獣の指爪", "count": 3 },
+          { "id": "OldHandguard", "localeName": "古びた鍔", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "今昔劇画の虎牙", "count": 3 },
+          { "id": "ConcealedClaw", "localeName": "隠獣の指爪", "count": 12 },
+          { "id": "OldHandguard", "localeName": "古びた鍔", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "今昔劇画の虎牙", "count": 6 },
+          { "id": "ConcealedUnguis", "localeName": "隠獣の利爪", "count": 6 },
+          { "id": "KageuchiHandguard", "localeName": "影打の鍔", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "今昔劇画の隻角", "count": 3 },
+          { "id": "ConcealedUnguis", "localeName": "隠獣の利爪", "count": 12 },
+          { "id": "KageuchiHandguard", "localeName": "影打の鍔", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "今昔劇画の隻角", "count": 6 },
+          { "id": "ConcealedTalon", "localeName": "隠獣の鬼爪", "count": 9 },
+          { "id": "FamedHandguard", "localeName": "名刀の鍔", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "MaskOfTheKijin", "localeName": "今昔劇画の鬼人", "count": 4 },
+          { "id": "ConcealedTalon", "localeName": "隠獣の鬼爪", "count": 18 },
+          { "id": "FamedHandguard", "localeName": "名刀の鍔", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 45.069,
+    "baseATKCurve": 8,
+    "overviewItems": [
+      { "id": "MaskOfTheKijin", "name": "今昔劇画の鬼人", "rarity": 5 },
+      { "id": "ConcealedTalon", "name": "隠獣の鬼爪", "rarity": 4 },
+      { "id": "FamedHandguard", "name": "名刀の鍔", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.03, "curve": 17 },
+    "affix": {
+      "name": "波を統べる海祇の民",
+      "levels": [
+        { "desc": "チーム全員の元素エネルギー上限の合計を基に、元素爆発ダメージをアップさせる。1ポイントにつき、装備したキャラクターの元素爆発ダメージ+<color=#99FFFFFF>0.12%</color>。この方式でアップできる元素爆発ダメージは最大<color=#99FFFFFF>40%</color>まで。", "params": [0.12, 0.4] },
+        { "desc": "チーム全員の元素エネルギー上限の合計を基に、元素爆発ダメージをアップさせる。1ポイントにつき、装備したキャラクターの元素爆発ダメージ+<color=#99FFFFFF>0.15%</color>。この方式でアップできる元素爆発ダメージは最大<color=#99FFFFFF>50%</color>まで。", "params": [0.15, 0.5] },
+        { "desc": "チーム全員の元素エネルギー上限の合計を基に、元素爆発ダメージをアップさせる。1ポイントにつき、装備したキャラクターの元素爆発ダメージ+<color=#99FFFFFF>0.18%</color>。この方式でアップできる元素爆発ダメージは最大<color=#99FFFFFF>60%</color>まで。", "params": [0.18, 0.6] },
+        { "desc": "チーム全員の元素エネルギー上限の合計を基に、元素爆発ダメージをアップさせる。1ポイントにつき、装備したキャラクターの元素爆発ダメージ+<color=#99FFFFFF>0.21%</color>。この方式でアップできる元素爆発ダメージは最大<color=#99FFFFFF>70%</color>まで。", "params": [0.21, 0.7] },
+        { "desc": "チーム全員の元素エネルギー上限の合計を基に、元素爆発ダメージをアップさせる。1ポイントにつき、装備したキャラクターの元素爆発ダメージ+<color=#99FFFFFF>0.24%</color>。この方式でアップできる元素爆発ダメージは最大<color=#99FFFFFF>80%</color>まで。", "params": [0.24, 0.8] }
+      ]
+    }
+  },
+  {
+    "uid": 13501,
     "id": "StaffOfHoma",
     "name": "Staff of Homa",
     "localeName": "護摩の杖",
@@ -5670,6 +6337,7 @@
     }
   },
   {
+    "uid": 13502,
     "id": "SkywardSpine",
     "name": "Skyward Spine",
     "localeName": "天空の脊",
@@ -5764,6 +6432,7 @@
     }
   },
   {
+    "uid": 13504,
     "id": "VortexVanquisher",
     "name": "Vortex Vanquisher",
     "localeName": "破天の槍",
@@ -5846,6 +6515,7 @@
     }
   },
   {
+    "uid": 13505,
     "id": "PrimordialJadeWingedSpear",
     "name": "Primordial Jade Winged-Spear",
     "localeName": "和璞鳶",
@@ -5928,6 +6598,7 @@
     }
   },
   {
+    "uid": 13506,
     "id": "Deicide",
     "name": "Deicide",
     "localeName": "レジサイド",
@@ -5976,6 +6647,203 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 13507,
+    "id": "CalamityQueller",
+    "name": "Calamity Queller",
+    "localeName": "息災",
+    "desc": "奇妙な晶鉱から作られた鋭利な武器。幽幽たる青白い光は、果てしない過去を語っているかのようだ。",
+    "rarity": 5,
+    "type": 3,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          { "id": "MistVeiledLeadElixir", "localeName": "霧海雲間の鉛丹", "count": 5 },
+          { "id": "MistGrassPollen", "localeName": "霧虚ろの花粉", "count": 5 },
+          { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "count": 3 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          { "id": "MistVeiledMercuryElixir", "localeName": "霧海雲間の水銀", "count": 5 },
+          { "id": "MistGrassPollen", "localeName": "霧虚ろの花粉", "count": 18 },
+          { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "count": 12 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          { "id": "MistVeiledMercuryElixir", "localeName": "霧海雲間の水銀", "count": 9 },
+          { "id": "MistGrass", "localeName": "霧虚ろの草嚢", "count": 9 },
+          { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "count": 9 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          { "id": "MistVeiledGoldElixir", "localeName": "霧海雲間の金丹", "count": 5 },
+          { "id": "MistGrass", "localeName": "霧虚ろの草嚢", "count": 18 },
+          { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "MistVeiledGoldElixir", "localeName": "霧海雲間の金丹", "count": 9 },
+          { "id": "MistGrassWick", "localeName": "霧虚ろの灯芯", "count": 14 },
+          { "id": "EnergyNectar", "localeName": "原素花の蜜", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "MistVeiledPrimoElixir", "localeName": "霧海雲間の転還", "count": 6 },
+          { "id": "MistGrassWick", "localeName": "霧虚ろの灯芯", "count": 27 },
+          { "id": "EnergyNectar", "localeName": "原素花の蜜", "count": 18 }
+        ]
+      }
+    ],
+    "baseATK": 49.138,
+    "baseATKCurve": 13,
+    "overviewItems": [
+      { "id": "MistVeiledPrimoElixir", "name": "霧海雲間の転還", "rarity": 5 },
+      { "id": "MistGrassWick", "name": "霧虚ろの灯芯", "rarity": 4 },
+      { "id": "EnergyNectar", "name": "原素花の蜜", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.036, "curve": 18 },
+    "affix": {
+      "name": "滅却の戒法",
+      "levels": [
+        {
+          "desc": "全元素ダメージ+<color=#99FFFFFF>12%</color>。元素スキルを発動すると、継続時間20秒の「円頓」を獲得し、1秒毎に攻撃力が<color=#99FFFFFF>3.2%</color>アップする。この効果は最大6回まで重ね掛け可能。この武器を装備したキャラクターが待機中の場合、「円頓」による攻撃力アップ効果は2倍になる。",
+          "params": [0.12, 1, 0.032, 6, 20]
+        },
+        {
+          "desc": "全元素ダメージ+<color=#99FFFFFF>15%</color>。元素スキルを発動すると、継続時間20秒の「円頓」を獲得し、1秒毎に攻撃力が<color=#99FFFFFF>4%</color>アップする。この効果は最大6回まで重ね掛け可能。この武器を装備したキャラクターが待機中の場合、「円頓」による攻撃力アップ効果は2倍になる。",
+          "params": [0.15, 1, 0.04, 6, 20]
+        },
+        {
+          "desc": "全元素ダメージ+<color=#99FFFFFF>18%</color>。元素スキルを発動すると、継続時間20秒の「円頓」を獲得し、1秒毎に攻撃力が<color=#99FFFFFF>4.8%</color>アップする。この効果は最大6回まで重ね掛け可能。この武器を装備したキャラクターが待機中の場合、「円頓」による攻撃力アップ効果は2倍になる。",
+          "params": [0.18, 1, 0.048, 6, 20]
+        },
+        {
+          "desc": "全元素ダメージ+<color=#99FFFFFF>21%</color>。元素スキルを発動すると、継続時間20秒の「円頓」を獲得し、1秒毎に攻撃力が<color=#99FFFFFF>5.6%</color>アップする。この効果は最大6回まで重ね掛け可能。この武器を装備したキャラクターが待機中の場合、「円頓」による攻撃力アップ効果は2倍になる。",
+          "params": [0.21, 1, 0.056, 6, 20]
+        },
+        {
+          "desc": "全元素ダメージ+<color=#99FFFFFF>24%</color>。元素スキルを発動すると、継続時間20秒の「円頓」を獲得し、1秒毎に攻撃力が<color=#99FFFFFF>6.4%</color>アップする。この効果は最大6回まで重ね掛け可能。この武器を装備したキャラクターが待機中の場合、「円頓」による攻撃力アップ効果は2倍になる。",
+          "params": [0.24, 1, 0.064, 6, 20]
+        }
+      ]
+    }
+  },
+  {
+    "uid": 13509,
+    "id": "EngulfingLightning",
+    "name": "Engulfing Lightning",
+    "localeName": "草薙の稲光",
+    "desc": "「草斬り」に使われる薙刀。この武器の前に立ちはだかる軍隊は、草のように刈られるだろう…",
+    "rarity": 5,
+    "type": 3,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          { "id": "MaskOfTheWickedLieutenant", "localeName": "今昔劇画の悪尉", "count": 5 },
+          { "id": "ChaosGear", "localeName": "混沌の機関", "count": 5 },
+          { "id": "OldHandguard", "localeName": "古びた鍔", "count": 3 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "今昔劇画の虎牙", "count": 5 },
+          { "id": "ChaosGear", "localeName": "混沌の機関", "count": 18 },
+          { "id": "OldHandguard", "localeName": "古びた鍔", "count": 12 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "今昔劇画の虎牙", "count": 9 },
+          { "id": "ChaosAxis", "localeName": "混沌の中枢", "count": 9 },
+          { "id": "KageuchiHandguard", "localeName": "影打の鍔", "count": 9 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "今昔劇画の隻角", "count": 5 },
+          { "id": "ChaosAxis", "localeName": "混沌の中枢", "count": 18 },
+          { "id": "KageuchiHandguard", "localeName": "影打の鍔", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "今昔劇画の隻角", "count": 9 },
+          { "id": "ChaosOculus", "localeName": "混沌の真眼", "count": 14 },
+          { "id": "FamedHandguard", "localeName": "名刀の鍔", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "MaskOfTheKijin", "localeName": "今昔劇画の鬼人", "count": 6 },
+          { "id": "ChaosOculus", "localeName": "混沌の真眼", "count": 27 },
+          { "id": "FamedHandguard", "localeName": "名刀の鍔", "count": 18 }
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "overviewItems": [
+      { "id": "MaskOfTheKijin", "name": "今昔劇画の鬼人", "rarity": 5 },
+      { "id": "ChaosOculus", "name": "混沌の真眼", "rarity": 4 },
+      { "id": "FamedHandguard", "name": "名刀の鍔", "rarity": 3 }
+    ],
+    "subAttr": { "type": 10, "value": 0.12, "curve": 18 },
+    "affix": {
+      "name": "非時の夢·常世竈食",
+      "levels": [
+        {
+          "desc": "元素チャージ効率が100%を超えている場合、その超えた部分の<color=#99FFFFFF>28%</color>分、攻撃力がアップする。この方式でアップできる攻撃力は最大<color=#99FFFFFF>80%</color>まで。元素爆発を発動した後の12秒間、元素チャージ効率+<color=#99FFFFFF>30%</color>。",
+          "params": [0.28, 0.8, 0.3, 12]
+        },
+        {
+          "desc": "元素チャージ効率が100%を超えている場合、その超えた部分の<color=#99FFFFFF>35%</color>分、攻撃力がアップする。この方式でアップできる攻撃力は最大<color=#99FFFFFF>90%</color>まで。元素爆発を発動した後の12秒間、元素チャージ効率+<color=#99FFFFFF>35%</color>。",
+          "params": [0.35, 0.9, 0.35, 12]
+        },
+        {
+          "desc": "元素チャージ効率が100%を超えている場合、その超えた部分の<color=#99FFFFFF>42%</color>分、攻撃力がアップする。この方式でアップできる攻撃力は最大<color=#99FFFFFF>100%</color>まで。元素爆発を発動した後の12秒間、元素チャージ効率+<color=#99FFFFFF>40%</color>。",
+          "params": [0.42, 1, 0.4, 12]
+        },
+        {
+          "desc": "元素チャージ効率が100%を超えている場合、その超えた部分の<color=#99FFFFFF>49%</color>分、攻撃力がアップする。この方式でアップできる攻撃力は最大<color=#99FFFFFF>110%</color>まで。元素爆発を発動した後の12秒間、元素チャージ効率+<color=#99FFFFFF>45%</color>。",
+          "params": [0.49, 1.1, 0.45, 12]
+        },
+        {
+          "desc": "元素チャージ効率が100%を超えている場合、その超えた部分の<color=#99FFFFFF>56%</color>分、攻撃力がアップする。この方式でアップできる攻撃力は最大<color=#99FFFFFF>120%</color>まで。元素爆発を発動した後の12秒間、元素チャージ効率+<color=#99FFFFFF>50%</color>。",
+          "params": [0.56, 1.2, 0.5, 12]
+        }
+      ]
+    }
+  },
+  {
+    "uid": 14101,
     "id": "ApprenticesNotes",
     "name": "Apprentice's Notes",
     "localeName": "生徒ノート",
@@ -6024,6 +6892,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 14201,
     "id": "PocketGrimoire",
     "name": "Pocket Grimoire",
     "localeName": "ポケット魔導書",
@@ -6072,6 +6941,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 14301,
     "id": "MagicGuide",
     "name": "Magic Guide",
     "localeName": "魔導緒論",
@@ -6154,6 +7024,7 @@
     }
   },
   {
+    "uid": 14302,
     "id": "ThrillingTalesOfDragonSlayers",
     "name": "Thrilling Tales of Dragon Slayers",
     "localeName": "龍殺しの英傑譚",
@@ -6236,6 +7107,7 @@
     }
   },
   {
+    "uid": 14303,
     "id": "OtherworldlyStory",
     "name": "Otherworldly Story",
     "localeName": "異世界旅行記",
@@ -6318,6 +7190,7 @@
     }
   },
   {
+    "uid": 14304,
     "id": "EmeraldOrb",
     "name": "Emerald Orb",
     "localeName": "翡玉法珠",
@@ -6400,6 +7273,7 @@
     }
   },
   {
+    "uid": 14305,
     "id": "TwinNephrite",
     "name": "Twin Nephrite",
     "localeName": "特級の宝玉",
@@ -6482,6 +7356,7 @@
     }
   },
   {
+    "uid": 14306,
     "id": "AmberBead",
     "name": "Amber Bead",
     "localeName": "琥珀の玥",
@@ -6564,10 +7439,11 @@
     }
   },
   {
+    "uid": 14401,
     "id": "FavoniusCodex",
     "name": "Favonius Codex",
     "localeName": "西風秘典",
-    "desc": "西風騎士団の錬金学者の間に伝わる秘典。物質の原則や力、それと別のものが記されている。",
+    "desc": "西風騎士団の錬金学者の間に伝わる秘典。元素と物質の理論と力が記されている。",
     "rarity": 4,
     "type": 5,
     "ascensions": [
@@ -6646,6 +7522,7 @@
     }
   },
   {
+    "uid": 14402,
     "id": "TheWidsith",
     "name": "The Widsith",
     "localeName": "流浪楽章",
@@ -6728,10 +7605,11 @@
     }
   },
   {
+    "uid": 14403,
     "id": "SacrificialFragments",
     "name": "Sacrificial Fragments",
     "localeName": "祭礼の断片",
-    "desc": "長い年月を経た台本。書かれた台詞はもう読めなくなっている。時間の風による破壊の呪いの力を持つ。",
+    "desc": "長い年月を経た台本。書かれた台詞はもう読めない。時の風により侵食される呪いにかかっている。",
     "rarity": 4,
     "type": 5,
     "ascensions": [
@@ -6810,10 +7688,11 @@
     }
   },
   {
+    "uid": 14404,
     "id": "RoyalGrimoire",
     "name": "Royal Grimoire",
     "localeName": "旧貴族秘法録",
-    "desc": "かつてモンドを支配した貴族の配下であった魔導師が、記録した史話。",
+    "desc": "かつてモンドを支配していた旧貴族配下の魔導師が持っていたもの。中には法術書と同等に詳しい史話が記録されている。",
     "rarity": 4,
     "type": 5,
     "ascensions": [
@@ -6892,6 +7771,7 @@
     }
   },
   {
+    "uid": 14405,
     "id": "SolarPearl",
     "name": "Solar Pearl",
     "localeName": "匣中日月",
@@ -6974,6 +7854,7 @@
     }
   },
   {
+    "uid": 14406,
     "id": "PrototypeAmber",
     "name": "Prototype Amber",
     "localeName": "金珀·試作",
@@ -7056,6 +7937,7 @@
     }
   },
   {
+    "uid": 14407,
     "id": "MappaMare",
     "name": "Mappa Mare",
     "localeName": "万国諸海の図譜",
@@ -7138,6 +8020,7 @@
     }
   },
   {
+    "uid": 14408,
     "id": "BlackcliffAgate",
     "name": "Blackcliff Agate",
     "localeName": "黒岩の緋玉",
@@ -7220,6 +8103,7 @@
     }
   },
   {
+    "uid": 14409,
     "id": "EyeOfPerception",
     "name": "Eye of Perception",
     "localeName": "昭心",
@@ -7302,6 +8186,7 @@
     }
   },
   {
+    "uid": 14410,
     "id": "WineAndSong",
     "name": "Wine and Song",
     "localeName": "ダークアレイの酒と詩",
@@ -7384,6 +8269,7 @@
     }
   },
   {
+    "uid": 14412,
     "id": "Frostbearer",
     "name": "Frostbearer",
     "localeName": "冬忍びの実",
@@ -7481,6 +8367,7 @@
     }
   },
   {
+    "uid": 14413,
     "id": "DodocoTales",
     "name": "Dodoco Tales",
     "localeName": "ドドコの物語",
@@ -7563,6 +8450,7 @@
     }
   },
   {
+    "uid": 14414,
     "id": "HakushinRing",
     "name": "Hakushin Ring",
     "localeName": "白辰の輪",
@@ -7660,6 +8548,90 @@
     }
   },
   {
+    "uid": 14415,
+    "id": "OathswornEye",
+    "name": "Oathsworn Eye",
+    "localeName": "誓いの明瞳",
+    "desc": "大日御輿に収蔵されている白夜国の宝。蛇神が訪れた後、淵下宮の大いなる誓いと願いの公証として使われていた。",
+    "rarity": 4,
+    "type": 5,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "CoralBranchOfADistantSea", "localeName": "遠海夷地の瑚枝", "count": 3 },
+          { "id": "ConcealedClaw", "localeName": "隠獣の指爪", "count": 3 },
+          { "id": "SpectralHusk", "localeName": "フライムの乾核", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "遠海夷地の石枝", "count": 3 },
+          { "id": "ConcealedClaw", "localeName": "隠獣の指爪", "count": 12 },
+          { "id": "SpectralHusk", "localeName": "フライムの乾核", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "遠海夷地の石枝", "count": 6 },
+          { "id": "ConcealedUnguis", "localeName": "隠獣の利爪", "count": 6 },
+          { "id": "SpectralHeart", "localeName": "フライムの幽核", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "遠海夷地の玉枝", "count": 3 },
+          { "id": "ConcealedUnguis", "localeName": "隠獣の利爪", "count": 12 },
+          { "id": "SpectralHeart", "localeName": "フライムの幽核", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "遠海夷地の玉枝", "count": 6 },
+          { "id": "ConcealedTalon", "localeName": "隠獣の鬼爪", "count": 9 },
+          { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "GoldenBranchOfADistantSea", "localeName": "遠海夷地の金枝", "count": 4 },
+          { "id": "ConcealedTalon", "localeName": "隠獣の鬼爪", "count": 18 },
+          { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "overviewItems": [
+      { "id": "GoldenBranchOfADistantSea", "name": "遠海夷地の金枝", "rarity": 5 },
+      { "id": "ConcealedTalon", "name": "隠獣の鬼爪", "rarity": 4 },
+      { "id": "SpectralNucleus", "name": "フライムの晶化核", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.06, "curve": 17 },
+    "affix": {
+      "name": "淡く光りし海淵の民",
+      "levels": [
+        { "desc": "元素スキルを発動すると、元素チャージ効率+<color=#99FFFFFF>24%</color>、継続時間10秒。", "params": [0.24, 10] },
+        { "desc": "元素スキルを発動すると、元素チャージ効率+<color=#99FFFFFF>30%</color>、継続時間10秒。", "params": [0.3, 10] },
+        { "desc": "元素スキルを発動すると、元素チャージ効率+<color=#99FFFFFF>36%</color>、継続時間10秒。", "params": [0.36, 10] },
+        { "desc": "元素スキルを発動すると、元素チャージ効率+<color=#99FFFFFF>42%</color>、継続時間10秒。", "params": [0.42, 10] },
+        { "desc": "元素スキルを発動すると、元素チャージ効率+<color=#99FFFFFF>48%</color>、継続時間10秒。", "params": [0.48, 10] }
+      ]
+    }
+  },
+  {
+    "uid": 14501,
     "id": "SkywardAtlas",
     "name": "Skyward Atlas",
     "localeName": "天空の巻",
@@ -7742,10 +8714,11 @@
     }
   },
   {
+    "uid": 14502,
     "id": "LostPrayerToTheSacredWinds",
     "name": "Lost Prayer to the Sacred Winds",
     "localeName": "四風原典",
-    "desc": "風を信仰する先民たちが書いた教典。数千年を経て信仰は風の好意を得て、祝福の力に満ちている。",
+    "desc": "風を信仰する先民たちが書いた教典。数千年の歴史を経た信仰は風に恵まれ、祝福の力に満ちている。",
     "rarity": 5,
     "type": 5,
     "ascensions": [
@@ -7824,6 +8797,7 @@
     }
   },
   {
+    "uid": 14503,
     "id": "LostBallade",
     "name": "Lost Ballade",
     "localeName": "散逸した叙事詩",
@@ -7872,6 +8846,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 14504,
     "id": "MemoryOfDust",
     "name": "Memory of Dust",
     "localeName": "浮世の錠",
@@ -7954,6 +8929,7 @@
     }
   },
   {
+    "uid": 14505,
     "id": "PrimordialJadeRegalia",
     "name": "Primordial Jade Regalia",
     "localeName": "土定の玉",
@@ -8002,54 +8978,188 @@
     "baseATKCurve": 1
   },
   {
-    "id": "DiamondVisage",
-    "name": "Diamond Visage",
-    "localeName": "光天の琉璃",
-    "desc": "美しい琉璃の飾り、不思議な光と力が含まれている。伝説では、それを使うと千の世界の千の景色を見ることができる。",
+    "uid": 14506,
+    "id": "EverlastingMoonglow",
+    "name": "Everlasting Moonglow",
+    "localeName": "不滅の月華",
+    "desc": "深海から訪れし玉石の輪。今でも遠い過去と変わらぬ、月のように純粋な輝きを見せる。",
     "rarity": 5,
     "type": 5,
     "ascensions": [
       {
         "level": 1,
-        "baseATK": 11.7,
+        "baseATK": 31.1,
         "cost": [
-          { "id": "TileOfDecarabiansTower", "localeName": "高塔の王の瓦", "count": 1 },
-          { "id": "HeavyHorn", "localeName": "重い角笛", "count": 1 },
-          { "id": "FirmArrowhead", "localeName": "牢固な矢先", "count": 1 }
+          { "id": "CoralBranchOfADistantSea", "localeName": "遠海夷地の瑚枝", "count": 5 },
+          { "id": "DismalPrism", "localeName": "暗色プリズム", "count": 5 },
+          { "id": "SpectralHusk", "localeName": "フライムの乾核", "count": 3 }
         ]
       },
       {
         "level": 2,
-        "baseATK": 23.3,
+        "baseATK": 62.2,
         "cost": [
-          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔の王の残壁", "count": 1 },
-          { "id": "HeavyHorn", "localeName": "重い角笛", "count": 4 },
-          { "id": "FirmArrowhead", "localeName": "牢固な矢先", "count": 2 }
+          { "id": "JeweledBranchOfADistantSea", "localeName": "遠海夷地の石枝", "count": 5 },
+          { "id": "DismalPrism", "localeName": "暗色プリズム", "count": 18 },
+          { "id": "SpectralHusk", "localeName": "フライムの乾核", "count": 12 }
         ]
       },
       {
         "level": 3,
-        "baseATK": 35,
+        "baseATK": 93.4,
         "cost": [
-          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔の王の残壁", "count": 2 },
-          { "id": "BlackBronzeHorn", "localeName": "黒銅の角笛", "count": 2 },
-          { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "count": 2 }
+          { "id": "JeweledBranchOfADistantSea", "localeName": "遠海夷地の石枝", "count": 9 },
+          { "id": "CrystalPrism", "localeName": "水晶プリズム", "count": 9 },
+          { "id": "SpectralHeart", "localeName": "フライムの幽核", "count": 9 }
         ]
       },
       {
         "level": 4,
-        "baseATK": 46.7,
+        "baseATK": 124.5,
         "cost": [
-          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔の王の断片", "count": 1 },
-          { "id": "BlackBronzeHorn", "localeName": "黒銅の角笛", "count": 4 },
-          { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "count": 3 }
+          { "id": "JadeBranchOfADistantSea", "localeName": "遠海夷地の玉枝", "count": 5 },
+          { "id": "CrystalPrism", "localeName": "水晶プリズム", "count": 18 },
+          { "id": "SpectralHeart", "localeName": "フライムの幽核", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "遠海夷地の玉枝", "count": 9 },
+          { "id": "PolarizingPrism", "localeName": "偏光プリズム", "count": 14 },
+          { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "GoldenBranchOfADistantSea", "localeName": "遠海夷地の金枝", "count": 6 },
+          { "id": "PolarizingPrism", "localeName": "偏光プリズム", "count": 27 },
+          { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "count": 18 }
         ]
       }
     ],
-    "baseATK": 44.336,
-    "baseATKCurve": 1
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "overviewItems": [
+      { "id": "GoldenBranchOfADistantSea", "name": "遠海夷地の金枝", "rarity": 5 },
+      { "id": "PolarizingPrism", "name": "偏光プリズム", "rarity": 4 },
+      { "id": "SpectralNucleus", "name": "フライムの晶化核", "rarity": 3 }
+    ],
+    "subAttr": { "type": 5, "value": 0.108, "curve": 18 },
+    "affix": {
+      "name": "白夜皓月",
+      "levels": [
+        {
+          "desc": "与える治療効果+<color=#99FFFFFF>10%</color>。この武器を装備したキャラクターのHP上限の<color=#99FFFFFF>1%</color>分、通常攻撃ダメージがアップする。元素爆発を発動した後の12秒間、通常攻撃が敵に命中すると元素エネルギーが0.6ポイント回復する。この方式での元素エネルギー回復は、0.1秒毎に1回のみ可能。",
+          "params": [0.1, 0.01, 12, 0.6, 0.1]
+        },
+        {
+          "desc": "与える治療効果+<color=#99FFFFFF>12.5%</color>。この武器を装備したキャラクターのHP上限の<color=#99FFFFFF>1.5%</color>分、通常攻撃ダメージがアップする。元素爆発を発動した後の12秒間、通常攻撃が敵に命中すると元素エネルギーが0.6ポイント回復する。この方式での元素エネルギー回復は、0.1秒毎に1回のみ可能。",
+          "params": [0.125, 0.015, 12, 0.6, 0.1]
+        },
+        {
+          "desc": "与える治療効果+<color=#99FFFFFF>15%</color>。この武器を装備したキャラクターのHP上限の<color=#99FFFFFF>2%</color>分、通常攻撃ダメージがアップする。元素爆発を発動した後の12秒間、通常攻撃が敵に命中すると元素エネルギーが0.6ポイント回復する。この方式での元素エネルギー回復は、0.1秒毎に1回のみ可能。",
+          "params": [0.15, 0.02, 12, 0.6, 0.1]
+        },
+        {
+          "desc": "与える治療効果+<color=#99FFFFFF>17.5%</color>。この武器を装備したキャラクターのHP上限の<color=#99FFFFFF>2.5%</color>分、通常攻撃ダメージがアップする。元素爆発を発動した後の12秒間、通常攻撃が敵に命中すると元素エネルギーが0.6ポイント回復する。この方式での元素エネルギー回復は、0.1秒毎に1回のみ可能。",
+          "params": [0.175, 0.025, 12, 0.6, 0.1]
+        },
+        {
+          "desc": "与える治療効果+<color=#99FFFFFF>20%</color>。この武器を装備したキャラクターのHP上限の<color=#99FFFFFF>3%</color>分、通常攻撃ダメージがアップする。元素爆発を発動した後の12秒間、通常攻撃が敵に命中すると元素エネルギーが0.6ポイント回復する。この方式での元素エネルギー回復は、0.1秒毎に1回のみ可能。",
+          "params": [0.2, 0.03, 12, 0.6, 0.1]
+        }
+      ]
+    }
   },
   {
+    "uid": 14509,
+    "id": "KagurasVerity",
+    "name": "Kagura's Verity",
+    "localeName": "神楽の真意",
+    "desc": "神楽舞を披露する際に使われ、宮司の祝福を受けた神鈴。神櫻の香りが漂っている。",
+    "rarity": 5,
+    "type": 5,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          { "id": "MaskOfTheWickedLieutenant", "localeName": "今昔劇画の悪尉", "count": 5 },
+          { "id": "ConcealedClaw", "localeName": "隠獣の指爪", "count": 5 },
+          { "id": "SpectralHusk", "localeName": "フライムの乾核", "count": 3 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "今昔劇画の虎牙", "count": 5 },
+          { "id": "ConcealedClaw", "localeName": "隠獣の指爪", "count": 18 },
+          { "id": "SpectralHusk", "localeName": "フライムの乾核", "count": 12 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "今昔劇画の虎牙", "count": 9 },
+          { "id": "ConcealedUnguis", "localeName": "隠獣の利爪", "count": 9 },
+          { "id": "SpectralHeart", "localeName": "フライムの幽核", "count": 9 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "今昔劇画の隻角", "count": 5 },
+          { "id": "ConcealedUnguis", "localeName": "隠獣の利爪", "count": 18 },
+          { "id": "SpectralHeart", "localeName": "フライムの幽核", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "今昔劇画の隻角", "count": 9 },
+          { "id": "ConcealedTalon", "localeName": "隠獣の鬼爪", "count": 14 },
+          { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "MaskOfTheKijin", "localeName": "今昔劇画の鬼人", "count": 6 },
+          { "id": "ConcealedTalon", "localeName": "隠獣の鬼爪", "count": 27 },
+          { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "count": 18 }
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "overviewItems": [
+      { "id": "MaskOfTheKijin", "name": "今昔劇画の鬼人", "rarity": 5 },
+      { "id": "ConcealedTalon", "name": "隠獣の鬼爪", "rarity": 4 },
+      { "id": "SpectralNucleus", "name": "フライムの晶化核", "rarity": 3 }
+    ],
+    "subAttr": { "type": 13, "value": 0.144, "curve": 18 },
+    "affix": {
+      "name": "神櫻神遊神楽舞",
+      "levels": [
+        { "desc": "元素スキルを発動すると、「神楽舞」の効果を獲得する。この武器を装備したキャラクターの元素スキルによるダメージ+<color=#99FFFFFF>12%</color>、継続時間16秒、最大3層まで。3層の効果を持つ時、該当キャラクターの全元素ダメージ+<color=#99FFFFFF>12%</color>。", "params": [0.12, 16, 0.12] },
+        { "desc": "元素スキルを発動すると、「神楽舞」の効果を獲得する。この武器を装備したキャラクターの元素スキルによるダメージ+<color=#99FFFFFF>15%</color>、継続時間16秒、最大3層まで。3層の効果を持つ時、該当キャラクターの全元素ダメージ+<color=#99FFFFFF>15%</color>。", "params": [0.15, 16, 0.15] },
+        { "desc": "元素スキルを発動すると、「神楽舞」の効果を獲得する。この武器を装備したキャラクターの元素スキルによるダメージ+<color=#99FFFFFF>18%</color>、継続時間16秒、最大3層まで。3層の効果を持つ時、該当キャラクターの全元素ダメージ+<color=#99FFFFFF>18%</color>。", "params": [0.18, 16, 0.18] },
+        { "desc": "元素スキルを発動すると、「神楽舞」の効果を獲得する。この武器を装備したキャラクターの元素スキルによるダメージ+<color=#99FFFFFF>21%</color>、継続時間16秒、最大3層まで。3層の効果を持つ時、該当キャラクターの全元素ダメージ+<color=#99FFFFFF>21%</color>。", "params": [0.21, 16, 0.21] },
+        { "desc": "元素スキルを発動すると、「神楽舞」の効果を獲得する。この武器を装備したキャラクターの元素スキルによるダメージ+<color=#99FFFFFF>24%</color>、継続時間16秒、最大3層まで。3層の効果を持つ時、該当キャラクターの全元素ダメージ+<color=#99FFFFFF>24%</color>。", "params": [0.24, 16, 0.24] }
+      ]
+    }
+  },
+  {
+    "uid": 15101,
     "id": "HuntersBow",
     "name": "Hunter's Bow",
     "localeName": "狩猟弓",
@@ -8098,6 +9208,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 15201,
     "id": "SeasonedHuntersBow",
     "name": "Seasoned Hunter's Bow",
     "localeName": "歴戦の狩猟弓",
@@ -8146,6 +9257,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 15301,
     "id": "RavenBow",
     "name": "Raven Bow",
     "localeName": "鴉羽の弓",
@@ -8228,6 +9340,7 @@
     }
   },
   {
+    "uid": 15302,
     "id": "SharpshootersOath",
     "name": "Sharpshooter's Oath",
     "localeName": "シャープシューターの誓い",
@@ -8310,6 +9423,7 @@
     }
   },
   {
+    "uid": 15303,
     "id": "RecurveBow",
     "name": "Recurve Bow",
     "localeName": "リカーブボウ",
@@ -8392,6 +9506,7 @@
     }
   },
   {
+    "uid": 15304,
     "id": "Slingshot",
     "name": "Slingshot",
     "localeName": "弾弓",
@@ -8474,6 +9589,7 @@
     }
   },
   {
+    "uid": 15305,
     "id": "Messenger",
     "name": "Messenger",
     "localeName": "文使い",
@@ -8556,10 +9672,11 @@
     }
   },
   {
+    "uid": 15306,
     "id": "EbonyBow",
     "name": "Ebony Bow",
     "localeName": "黒檀の弓",
-    "desc": "ローズウッドで作られた長弓。通常の木材より硬いため、その分力も強い。",
+    "desc": "黒檀の木材で作られた長弓。通常の木材より硬いため、その分威力も強い。",
     "rarity": 3,
     "type": 2,
     "ascensions": [
@@ -8638,6 +9755,7 @@
     }
   },
   {
+    "uid": 15401,
     "id": "FavoniusWarbow",
     "name": "Favonius Warbow",
     "localeName": "西風猟弓",
@@ -8720,6 +9838,7 @@
     }
   },
   {
+    "uid": 15402,
     "id": "TheStringless",
     "name": "The Stringless",
     "localeName": "絶弦",
@@ -8802,10 +9921,11 @@
     }
   },
   {
+    "uid": 15403,
     "id": "SacrificialBow",
     "name": "Sacrificial Bow",
     "localeName": "祭礼の弓",
-    "desc": "長い年月の中で石化した狩弓。上の装飾がまだ綺麗に残っている。時間の風の祝福を受けている。",
+    "desc": "長い年月の中で石化した道具弓、表面の装飾はまだ綺麗に残っている。時の風の侵食に耐えうる祝福の力を持つ。",
     "rarity": 4,
     "type": 2,
     "ascensions": [
@@ -8884,6 +10004,7 @@
     }
   },
   {
+    "uid": 15404,
     "id": "RoyalBow",
     "name": "Royal Bow",
     "localeName": "旧貴族長弓",
@@ -8966,6 +10087,7 @@
     }
   },
   {
+    "uid": 15405,
     "id": "Rust",
     "name": "Rust",
     "localeName": "弓蔵",
@@ -9048,6 +10170,7 @@
     }
   },
   {
+    "uid": 15406,
     "id": "PrototypeCrescent",
     "name": "Prototype Crescent",
     "localeName": "澹月·試作",
@@ -9130,6 +10253,7 @@
     }
   },
   {
+    "uid": 15407,
     "id": "CompoundBow",
     "name": "Compound Bow",
     "localeName": "リングボウ",
@@ -9212,6 +10336,7 @@
     }
   },
   {
+    "uid": 15408,
     "id": "BlackcliffWarbow",
     "name": "Blackcliff Warbow",
     "localeName": "黒岩の戦弓",
@@ -9294,6 +10419,7 @@
     }
   },
   {
+    "uid": 15409,
     "id": "TheViridescentHunt",
     "name": "The Viridescent Hunt",
     "localeName": "蒼翠の狩猟弓",
@@ -9376,6 +10502,7 @@
     }
   },
   {
+    "uid": 15410,
     "id": "AlleyHunter",
     "name": "Alley Hunter",
     "localeName": "ダークアレイの狩人",
@@ -9473,6 +10600,7 @@
     }
   },
   {
+    "uid": 15412,
     "id": "MitternachtsWaltz",
     "name": "Mitternachts Waltz",
     "localeName": "幽夜のワルツ",
@@ -9555,6 +10683,7 @@
     }
   },
   {
+    "uid": 15413,
     "id": "WindblumeOde",
     "name": "Windblume Ode",
     "localeName": "風花の頌歌",
@@ -9637,6 +10766,7 @@
     }
   },
   {
+    "uid": 15414,
     "id": "Hamayumi",
     "name": "Hamayumi",
     "localeName": "破魔の弓",
@@ -9719,6 +10849,172 @@
     }
   },
   {
+    "uid": 15415,
+    "id": "Predator",
+    "name": "Predator",
+    "localeName": "プレデター",
+    "desc": "ユニークなデザインの弓。恐らくこの世界のものではない。",
+    "rarity": 4,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "NarukamisWisdom", "localeName": "鳴神御霊の恩恵", "count": 3 },
+          { "id": "DismalPrism", "localeName": "暗色プリズム", "count": 3 },
+          { "id": "FirmArrowhead", "localeName": "牢固な矢先", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鳴神御霊の歓喜", "count": 3 },
+          { "id": "DismalPrism", "localeName": "暗色プリズム", "count": 12 },
+          { "id": "FirmArrowhead", "localeName": "牢固な矢先", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鳴神御霊の歓喜", "count": 6 },
+          { "id": "CrystalPrism", "localeName": "水晶プリズム", "count": 6 },
+          { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鳴神御霊の親愛", "count": 3 },
+          { "id": "CrystalPrism", "localeName": "水晶プリズム", "count": 12 },
+          { "id": "SharpArrowhead", "localeName": "鋭利な矢先", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鳴神御霊の親愛", "count": 6 },
+          { "id": "PolarizingPrism", "localeName": "偏光プリズム", "count": 9 },
+          { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "NarukamisValor", "localeName": "鳴神御霊の勇武", "count": 4 },
+          { "id": "PolarizingPrism", "localeName": "偏光プリズム", "count": 18 },
+          { "id": "WeatheredArrowhead", "localeName": "歴戦の矢先", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "overviewItems": [
+      { "id": "NarukamisValor", "name": "鳴神御霊の勇武", "rarity": 5 },
+      { "id": "PolarizingPrism", "name": "偏光プリズム", "rarity": 4 },
+      { "id": "WeatheredArrowhead", "name": "歴戦の矢先", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
+    "affix": {
+      "name": "強打",
+      "levels": [
+        {
+          "desc": "<color=#99FFFFFF>以下のプラットフォームでのみ有効です。</color>\n<color=#99FFFFFF>\"PlayStation Network\"</color>\n敵に氷元素ダメージを与えた後、通常攻撃と重撃ダメージ+10%、継続時間6秒、最大2重まで。また、アーロイがプレデターを装備している場合、攻撃力+66。",
+          "params": [0.1, 6, 66]
+        }
+      ]
+    }
+  },
+  {
+    "uid": 15416,
+    "id": "MouunsMoon",
+    "name": "Mouun's Moon",
+    "localeName": "曚雲の月",
+    "desc": "螺鈿と珊瑚でできた精巧な弓。月色の弓幹には凄然たる光沢を放っている。",
+    "rarity": 4,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "NarukamisWisdom", "localeName": "鳴神御霊の恩恵", "count": 3 },
+          { "id": "DismalPrism", "localeName": "暗色プリズム", "count": 3 },
+          { "id": "SpectralHusk", "localeName": "フライムの乾核", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鳴神御霊の歓喜", "count": 3 },
+          { "id": "DismalPrism", "localeName": "暗色プリズム", "count": 12 },
+          { "id": "SpectralHusk", "localeName": "フライムの乾核", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鳴神御霊の歓喜", "count": 6 },
+          { "id": "CrystalPrism", "localeName": "水晶プリズム", "count": 6 },
+          { "id": "SpectralHeart", "localeName": "フライムの幽核", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鳴神御霊の親愛", "count": 3 },
+          { "id": "CrystalPrism", "localeName": "水晶プリズム", "count": 12 },
+          { "id": "SpectralHeart", "localeName": "フライムの幽核", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鳴神御霊の親愛", "count": 6 },
+          { "id": "PolarizingPrism", "localeName": "偏光プリズム", "count": 9 },
+          { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "NarukamisValor", "localeName": "鳴神御霊の勇武", "count": 4 },
+          { "id": "PolarizingPrism", "localeName": "偏光プリズム", "count": 18 },
+          { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "overviewItems": [
+      { "id": "NarukamisValor", "name": "鳴神御霊の勇武", "rarity": 5 },
+      { "id": "PolarizingPrism", "name": "偏光プリズム", "rarity": 4 },
+      { "id": "SpectralNucleus", "name": "フライムの晶化核", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.06, "curve": 17 },
+    "affix": {
+      "name": "波を統べる海祇の民",
+      "levels": [
+        { "desc": "チーム全員の元素エネルギー上限の合計を基に、元素爆発ダメージをアップさせる。1ポイントにつき、装備したキャラクターの元素爆発ダメージ+<color=#99FFFFFF>0.12%</color>。この方式でアップできる元素爆発ダメージは最大<color=#99FFFFFF>40%</color>まで。", "params": [0.12, 0.4] },
+        { "desc": "チーム全員の元素エネルギー上限の合計を基に、元素爆発ダメージをアップさせる。1ポイントにつき、装備したキャラクターの元素爆発ダメージ+<color=#99FFFFFF>0.15%</color>。この方式でアップできる元素爆発ダメージは最大<color=#99FFFFFF>50%</color>まで。", "params": [0.15, 0.5] },
+        { "desc": "チーム全員の元素エネルギー上限の合計を基に、元素爆発ダメージをアップさせる。1ポイントにつき、装備したキャラクターの元素爆発ダメージ+<color=#99FFFFFF>0.18%</color>。この方式でアップできる元素爆発ダメージは最大<color=#99FFFFFF>60%</color>まで。", "params": [0.18, 0.6] },
+        { "desc": "チーム全員の元素エネルギー上限の合計を基に、元素爆発ダメージをアップさせる。1ポイントにつき、装備したキャラクターの元素爆発ダメージ+<color=#99FFFFFF>0.21%</color>。この方式でアップできる元素爆発ダメージは最大<color=#99FFFFFF>70%</color>まで。", "params": [0.21, 0.7] },
+        { "desc": "チーム全員の元素エネルギー上限の合計を基に、元素爆発ダメージをアップさせる。1ポイントにつき、装備したキャラクターの元素爆発ダメージ+<color=#99FFFFFF>0.24%</color>。この方式でアップできる元素爆発ダメージは最大<color=#99FFFFFF>80%</color>まで。", "params": [0.24, 0.8] }
+      ]
+    }
+  },
+  {
+    "uid": 15501,
     "id": "SkywardHarp",
     "name": "Skyward Harp",
     "localeName": "天空の翼",
@@ -9801,6 +11097,7 @@
     }
   },
   {
+    "uid": 15502,
     "id": "AmosBow",
     "name": "Amos' Bow",
     "localeName": "アモスの弓",
@@ -9874,15 +11171,16 @@
     "affix": {
       "name": "一心不乱",
       "levels": [
-        { "desc": "通常攻撃と重撃のダメージ+<color=#99FFFFFF>12%</color>。通常攻撃と重撃の矢が放った後、0.1秒毎にダメージが更に+<color=#99FFFFFF>8%</color>となり、最大で5回上昇する。", "params": [0.12, 0.08] },
-        { "desc": "通常攻撃と重撃のダメージ+<color=#99FFFFFF>15%</color>。通常攻撃と重撃の矢が放った後、0.1秒毎にダメージが更に+<color=#99FFFFFF>10%</color>となり、最大で5回上昇する。", "params": [0.15, 0.1] },
-        { "desc": "通常攻撃と重撃のダメージ+<color=#99FFFFFF>18%</color>。通常攻撃と重撃の矢が放った後、0.1秒毎にダメージが更に+<color=#99FFFFFF>12%</color>となり、最大で5回上昇する。", "params": [0.18, 0.12] },
-        { "desc": "通常攻撃と重撃のダメージ+<color=#99FFFFFF>21%</color>。通常攻撃と重撃の矢が放った後、0.1秒毎にダメージが更に+<color=#99FFFFFF>14%</color>となり、最大で5回上昇する。", "params": [0.21, 0.14] },
-        { "desc": "通常攻撃と重撃のダメージ+<color=#99FFFFFF>24%</color>。通常攻撃と重撃の矢が放った後、0.1秒毎にダメージが更に+<color=#99FFFFFF>16%</color>となり、最大で5回上昇する。", "params": [0.24, 0.16] }
+        { "desc": "通常攻撃と重撃のダメージ+<color=#99FFFFFF>12%</color>。通常攻撃と重撃で放たれる矢は、0.1秒経過する毎にダメージが更に+<color=#99FFFFFF>8%</color>、最大5回まで。", "params": [0.12, 0.08] },
+        { "desc": "通常攻撃と重撃のダメージ+<color=#99FFFFFF>15%</color>。通常攻撃と重撃で放たれる矢は、0.1秒経過する毎にダメージが更に+<color=#99FFFFFF>10%</color>、最大5回まで。", "params": [0.15, 0.1] },
+        { "desc": "通常攻撃と重撃のダメージ+<color=#99FFFFFF>18%</color>。通常攻撃と重撃で放たれる矢は、0.1秒経過する毎にダメージが更に+<color=#99FFFFFF>12%</color>、最大5回まで。", "params": [0.18, 0.12] },
+        { "desc": "通常攻撃と重撃のダメージ+<color=#99FFFFFF>21%</color>。通常攻撃と重撃で放たれる矢は、0.1秒経過する毎にダメージが更に+<color=#99FFFFFF>14%</color>、最大5回まで。", "params": [0.21, 0.14] },
+        { "desc": "通常攻撃と重撃のダメージ+<color=#99FFFFFF>24%</color>。通常攻撃と重撃で放たれる矢は、0.1秒経過する毎にダメージが更に+<color=#99FFFFFF>16%</color>、最大5回まで。", "params": [0.24, 0.16] }
       ]
     }
   },
   {
+    "uid": 15503,
     "id": "ElegyForTheEnd",
     "name": "Elegy for the End",
     "localeName": "終焉を嘆く詩",
@@ -9980,6 +11278,7 @@
     }
   },
   {
+    "uid": 15504,
     "id": "KunwusWyrmbane",
     "name": "Kunwu's Wyrmbane",
     "localeName": "昆吾の堕龍",
@@ -10028,6 +11327,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 15505,
     "id": "PrimordialJadeVista",
     "name": "Primordial Jade Vista",
     "localeName": "高価なオーブ",
@@ -10076,6 +11376,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 15506,
     "id": "MirrorBreaker",
     "name": "Mirror Breaker",
     "localeName": "壊れた鏡",
@@ -10124,6 +11425,105 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 15507,
+    "id": "PolarStar",
+    "name": "Polar Star",
+    "localeName": "冬極の白星",
+    "desc": "真冬の堅氷の如く、鋭き無垢なる弓。",
+    "rarity": 5,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          { "id": "MaskOfTheWickedLieutenant", "localeName": "今昔劇画の悪尉", "count": 5 },
+          { "id": "ConcealedClaw", "localeName": "隠獣の指爪", "count": 5 },
+          { "id": "SpectralHusk", "localeName": "フライムの乾核", "count": 3 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "今昔劇画の虎牙", "count": 5 },
+          { "id": "ConcealedClaw", "localeName": "隠獣の指爪", "count": 18 },
+          { "id": "SpectralHusk", "localeName": "フライムの乾核", "count": 12 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "今昔劇画の虎牙", "count": 9 },
+          { "id": "ConcealedUnguis", "localeName": "隠獣の利爪", "count": 9 },
+          { "id": "SpectralHeart", "localeName": "フライムの幽核", "count": 9 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "今昔劇画の隻角", "count": 5 },
+          { "id": "ConcealedUnguis", "localeName": "隠獣の利爪", "count": 18 },
+          { "id": "SpectralHeart", "localeName": "フライムの幽核", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "今昔劇画の隻角", "count": 9 },
+          { "id": "ConcealedTalon", "localeName": "隠獣の鬼爪", "count": 14 },
+          { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "MaskOfTheKijin", "localeName": "今昔劇画の鬼人", "count": 6 },
+          { "id": "ConcealedTalon", "localeName": "隠獣の鬼爪", "count": 27 },
+          { "id": "SpectralNucleus", "localeName": "フライムの晶化核", "count": 18 }
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "overviewItems": [
+      { "id": "MaskOfTheKijin", "name": "今昔劇画の鬼人", "rarity": 5 },
+      { "id": "ConcealedTalon", "name": "隠獣の鬼爪", "rarity": 4 },
+      { "id": "SpectralNucleus", "name": "フライムの晶化核", "rarity": 3 }
+    ],
+    "subAttr": { "type": 12, "value": 0.072, "curve": 18 },
+    "affix": {
+      "name": "白夜の前兆者",
+      "levels": [
+        {
+          "desc": "元素スキルと元素爆発が与えるダメージ+<color=#99FFFFFF>12%</color>。通常攻撃、重撃、元素スキル、元素爆発が敵に命中すると、それぞれ継続時間12秒の「白夜極星」効果を1層獲得する。「白夜極星」を1/2/3/4層有する時、キャラクターの攻撃力+<color=#99FFFFFF>10/20/30/48%</color>。各攻撃によって獲得する「白夜極星」の継続時間は、層ごとに独立する。",
+          "params": [0.12, 12, 0.1, 0.2, 0.3, 0.48]
+        },
+        {
+          "desc": "元素スキルと元素爆発が与えるダメージ+<color=#99FFFFFF>15%</color>。通常攻撃、重撃、元素スキル、元素爆発が敵に命中すると、それぞれ継続時間12秒の「白夜極星」効果を1層獲得する。「白夜極星」を1/2/3/4層有する時、キャラクターの攻撃力+<color=#99FFFFFF>12.5/25/37.5/60%</color>。各攻撃によって獲得する「白夜極星」の継続時間は、層ごとに独立する。",
+          "params": [0.15, 12, 0.125, 0.25, 0.375, 0.6]
+        },
+        {
+          "desc": "元素スキルと元素爆発が与えるダメージ+<color=#99FFFFFF>18%</color>。通常攻撃、重撃、元素スキル、元素爆発が敵に命中すると、それぞれ継続時間12秒の「白夜極星」効果を1層獲得する。「白夜極星」を1/2/3/4層有する時、キャラクターの攻撃力+<color=#99FFFFFF>15/30/45/72%</color>。各攻撃によって獲得する「白夜極星」の継続時間は、層ごとに独立する。",
+          "params": [0.18, 12, 0.15, 0.3, 0.45, 0.72]
+        },
+        {
+          "desc": "元素スキルと元素爆発が与えるダメージ+<color=#99FFFFFF>21%</color>。通常攻撃、重撃、元素スキル、元素爆発が敵に命中すると、それぞれ継続時間12秒の「白夜極星」効果を1層獲得する。「白夜極星」を1/2/3/4層有する時、キャラクターの攻撃力+<color=#99FFFFFF>17.5/35/52.5/84%</color>。各攻撃によって獲得する「白夜極星」の継続時間は、層ごとに独立する。",
+          "params": [0.21, 12, 0.175, 0.35, 0.525, 0.84]
+        },
+        {
+          "desc": "元素スキルと元素爆発が与えるダメージ+<color=#99FFFFFF>24%</color>。通常攻撃、重撃、元素スキル、元素爆発が敵に命中すると、それぞれ継続時間12秒の「白夜極星」効果を1層獲得する。「白夜極星」を1/2/3/4層有する時、キャラクターの攻撃力+<color=#99FFFFFF>20/40/60/96%</color>。各攻撃によって獲得する「白夜極星」の継続時間は、層ごとに独立する。",
+          "params": [0.24, 12, 0.2, 0.4, 0.6, 0.96]
+        }
+      ]
+    }
+  },
+  {
+    "uid": 15509,
     "id": "ThunderingPulse",
     "name": "Thundering Pulse",
     "localeName": "飛雷の鳴弦",

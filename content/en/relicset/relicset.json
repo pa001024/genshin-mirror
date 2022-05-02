@@ -285,7 +285,7 @@
     "localeName": "Shimenawa's Reminiscence",
     "levels": [
       { "need": 2, "desc": "ATK +18%.", "attrs": [], "params": [] },
-      { "need": 4, "desc": "When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/ Plunging Attack DMG is increased by 50% for 10s.", "attrs": [], "params": [15, 0.5, 10] }
+      { "need": 4, "desc": "When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s. This effect will not trigger again during that duration.", "attrs": [], "params": [15, 0.5, 10] }
     ]
   },
   {
@@ -295,6 +295,62 @@
     "levels": [
       { "need": 2, "desc": "Energy Recharge +20%", "attrs": [], "params": [] },
       { "need": 4, "desc": "Increases Elemental Burst DMG by 25% of Energy Recharge. A maximum of 75% bonus DMG can be obtained in this way.", "attrs": [], "params": [0.25, 0.75] }
+    ]
+  },
+  {
+    "id": 15021,
+    "name": "HuskOfOpulentDreams_0",
+    "localeName": "Husk of Opulent Dreams",
+    "levels": [
+      { "need": 2, "desc": "DEF +30%", "attrs": [], "params": [0.3] },
+      {
+        "need": 4,
+        "desc": "A character equipped with this Artifact set will obtain the Curiosity effect in the following conditions: When on the field, the character gains 1 stack after hitting an opponent with a Geo attack, triggering a maximum of once every 0.3s. When off the field, the character gains 1 stack every 3s. Curiosity can stack up to 4 times, each providing 6% DEF and a 6% Geo DMG Bonus. When 6 seconds pass without gaining a Curiosity stack, 1 stack is lost.",
+        "attrs": [],
+        "params": [0.3, 3, 0.06, 0.06, 6]
+      }
+    ]
+  },
+  {
+    "id": 15022,
+    "name": "OceanHuedClam_0",
+    "localeName": "Ocean-Hued Clam",
+    "levels": [
+      { "need": 2, "desc": "Healing Bonus +15%.", "attrs": [], "params": [0.15] },
+      {
+        "need": 4,
+        "desc": "When the character equipping this artifact set heals a character in the party, a Sea-Dyed Foam will appear for 3 seconds, accumulating the amount of HP recovered from healing (including overflow healing). At the end of the duration, the Sea-Dyed Foam will explode, dealing DMG to nearby opponents based on 90% of the accumulated healing. (This DMG is calculated similarly to Reactions such as Electro-Charged, and Superconduct, but is not affected by Elemental Mastery, Character Levels, or Reaction DMG Bonuses). Only one Sea-Dyed Foam can be produced every 3.5 seconds. Each Sea-Dyed Foam can accumulate up to 30,000 HP (including overflow healing). There can be no more than one Sea-Dyed Foam active at any given time. This effect can still be triggered even when the character who is using this artifact set is not on the field.",
+        "attrs": [],
+        "params": [3, 0.9, 3.5, 30000]
+      }
+    ]
+  },
+  {
+    "id": 15023,
+    "name": "VermillionHereafter_0",
+    "localeName": "Vermillion Hereafter",
+    "levels": [
+      { "need": 2, "desc": "ATK +18%.", "attrs": [], "params": [0.18] },
+      {
+        "need": 4,
+        "desc": "After using an Elemental Burst, this character will gain the Nascent Light effect, increasing their ATK by 8% for 16s. When the character's HP decreases, their ATK will further increase by 10%. This further increase can occur this way a maximum of 4 times. This effect can be triggered once every 0.8s. Nascent Light will be dispelled when the character leaves the field. If an Elemental Burst is used again during the duration of Nascent Light, the original Nascent Light will be dispelled.",
+        "attrs": [],
+        "params": [16, 0.08, 0.1, 4, 0.8]
+      }
+    ]
+  },
+  {
+    "id": 15024,
+    "name": "EchoesOfAnOffering_0",
+    "localeName": "Echoes of an Offering",
+    "levels": [
+      { "need": 2, "desc": "ATK +18%.", "attrs": [], "params": [0.18] },
+      {
+        "need": 4,
+        "desc": "When Normal Attacks hit opponents, there is a 36% chance that it will trigger Valley Rite, which will increase Normal Attack DMG by 70% of ATK. This effect will be dispelled 0.05s after a Normal Attack deals DMG. If a Normal Attack fails to trigger Valley Rite, the odds of it triggering the next time will increase by 20%. This trigger can occur once every 0.2s.",
+        "attrs": [],
+        "params": [0.36, 0.7, 0.05, 0.2, 0.2, 0.2]
+      }
     ]
   }
 ]

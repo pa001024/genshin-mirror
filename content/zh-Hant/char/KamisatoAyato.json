@@ -1,0 +1,318 @@
+{
+  "uid": 10000066,
+  "id": "KamisatoAyato",
+  "name": "Kamisato Ayato",
+  "localeName": "神里綾人",
+  "desc": "社奉行神里家年輕有為的現任家主，為人溫雅有禮，處事頗有手段。",
+  "baseHP": 1067.7,
+  "baseATK": 23.275,
+  "baseDEF": 59.83,
+  "bodyType": 1,
+  "rarity": 5,
+  "weapon": 1,
+  "region": 3,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "VarunadaLazuriteSliver", "localeName": "滌淨青金碎屑", "rarity": 2, "count": 1 },
+        { "id": "SakuraBloom", "localeName": "緋櫻繡球", "count": 3 },
+        { "id": "OldHandguard", "localeName": "破舊的刀鐔", "rarity": 1, "count": 3 }
+      ],
+      "HP": 915.47,
+      "ATK": 19.955,
+      "DEF": 51.3,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "VarunadaLazuriteFragment", "localeName": "滌淨青金斷片", "rarity": 3, "count": 3 },
+        { "id": "DewOfRepudiation", "localeName": "排異之露", "rarity": 4, "count": 2 },
+        { "id": "SakuraBloom", "localeName": "緋櫻繡球", "count": 10 },
+        { "id": "OldHandguard", "localeName": "破舊的刀鐔", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1565.9,
+      "ATK": 34.133,
+      "DEF": 87.75,
+      "extra": 0.096
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "VarunadaLazuriteFragment", "localeName": "滌淨青金斷片", "rarity": 3, "count": 6 },
+        { "id": "DewOfRepudiation", "localeName": "排異之露", "rarity": 4, "count": 4 },
+        { "id": "SakuraBloom", "localeName": "緋櫻繡球", "count": 20 },
+        { "id": "KageuchiHandguard", "localeName": "影打刀鐔", "rarity": 2, "count": 12 }
+      ],
+      "HP": 2433.2,
+      "ATK": 53.038,
+      "DEF": 136.35,
+      "extra": 0.192
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "VarunadaLazuriteChunk", "localeName": "滌淨青金塊", "rarity": 4, "count": 3 },
+        { "id": "DewOfRepudiation", "localeName": "排異之露", "rarity": 4, "count": 8 },
+        { "id": "SakuraBloom", "localeName": "緋櫻繡球", "count": 30 },
+        { "id": "KageuchiHandguard", "localeName": "影打刀鐔", "rarity": 2, "count": 18 }
+      ],
+      "HP": 3083.7,
+      "ATK": 67.216,
+      "DEF": 172.8,
+      "extra": 0.192
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "VarunadaLazuriteChunk", "localeName": "滌淨青金塊", "rarity": 4, "count": 6 },
+        { "id": "DewOfRepudiation", "localeName": "排異之露", "rarity": 4, "count": 12 },
+        { "id": "SakuraBloom", "localeName": "緋櫻繡球", "count": 45 },
+        { "id": "FamedHandguard", "localeName": "名刀鐔", "rarity": 3, "count": 12 }
+      ],
+      "HP": 3734.2,
+      "ATK": 81.394,
+      "DEF": 209.25,
+      "extra": 0.288
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "VarunadaLazuriteGemstone", "localeName": "滌淨青金", "rarity": 5, "count": 6 },
+        { "id": "DewOfRepudiation", "localeName": "排異之露", "rarity": 4, "count": 20 },
+        { "id": "SakuraBloom", "localeName": "緋櫻繡球", "count": 60 },
+        { "id": "FamedHandguard", "localeName": "名刀鐔", "rarity": 3, "count": 24 }
+      ],
+      "HP": 4384.6,
+      "ATK": 95.573,
+      "DEF": 245.7,
+      "extra": 0.384
+    }
+  ],
+  "ascensionType": 13,
+  "element": 5,
+  "elemSkill": {
+    "name": "KamisatoArtKyouka",
+    "localeName": "神里流·鏡花",
+    "desc": "神里綾人墊步移動並進入「瀧廻鑑花」狀態。\n移動後，神里綾人原本的位置上將產生「水影」。水影完全形成後，將在附近存在敵人或持續時間結束時破裂，造成<color=#80C0FFFF>水元素範圍傷害</color>。\n\n<color=#FFD780FF>瀧廻鑑花</color>\n在此狀態下，神里綾人將使用瞬水劍進行迅速的攻擊，將普通攻擊造成的傷害轉為無法被附魔覆蓋的<color=#80C0FFFF>水元素範圍傷害</color>。\n此外，具有如下效果：\n·瞬水劍攻擊命中敵人後，將為神里綾人賦予「浪閃」效果，基於神里綾人自己當下的生命值上限，提升瞬水劍造成的傷害。浪閃初始至多疊加4層，每0.1秒至多透過瞬水劍攻擊獲得一層，將在瀧廻鑑花狀態結束時消失。\n·提高神里綾人的抗打斷能力；\n·無法施放重擊與下落攻擊。\n\n瀧廻鑑花狀態將在神里綾人退場時解除；處於瀧廻鑑花狀態下時再次施放神里流·鏡花，將移除已有的瀧廻鑑花狀態。\n\n<i>「你什麼時候產生了自己得手的錯覺？」</i>\n<i>——不止是武藝，權謀之事上也是如此。但是為了照顧其他兩方奉行大人的顏面，這句話不方便說出來。因此只有托馬、一斗和綾華聽過。</i>",
+    "cd": 12,
+    "paramTpls": ["一段瞬水劍傷害|{param1:F1P}", "二段瞬水劍傷害|{param2:F1P}", "三段瞬水劍傷害|{param3:F1P}", "瀧廻鑑花持續時間|{param4:F1}秒", "浪閃傷害值提高|{param5:F2P}生命值上限/層", "水影傷害|{param6:F1P}", "水影持續時間|{param7:I}秒", "冷卻時間|{param8:F1}秒"],
+    "paramVals": [
+      [0.5289, 0.5891, 0.6493, 6, 0.005611, 1.0148, 6, 12],
+      [0.57195, 0.63705, 0.70215, 6, 0.006067, 1.0974, 6, 12],
+      [0.615, 0.685, 0.755, 6, 0.006524, 1.18, 6, 12],
+      [0.6765, 0.7535, 0.8305, 6, 0.007176, 1.298, 6, 12],
+      [0.71955, 0.80145, 0.88335, 6, 0.007633, 1.3806, 6, 12],
+      [0.76875, 0.85625, 0.94375, 6, 0.008155, 1.475, 6, 12],
+      [0.8364, 0.9316, 1.0268, 6, 0.008873, 1.6048, 6, 12],
+      [0.90405, 1.007, 1.1099, 6, 0.00959, 1.7346, 6, 12],
+      [0.9717, 1.0823, 1.1929, 6, 0.010308, 1.8644, 6, 12],
+      [1.0455, 1.1645, 1.2835, 6, 0.011091, 2.006, 6, 12],
+      [1.1193, 1.2467, 1.3741, 6, 0.011874, 2.1476, 6, 12],
+      [1.1931, 1.3289, 1.4647, 6, 0.012657, 2.2892, 6, 12],
+      [1.2669, 1.4111, 1.5553, 6, 0.013439, 2.4308, 6, 12],
+      [1.3407, 1.4933, 1.6459, 6, 0.014222, 2.5724, 6, 12],
+      [1.4145, 1.5755, 1.7365, 6, 0.015005, 2.714, 6, 12]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfElegance", "localeName": "「風雅」的教導", "rarity": 2, "count": 3 },
+        { "id": "OldHandguard", "localeName": "破舊的刀鐔", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "「風雅」的指引", "rarity": 3, "count": 2 },
+        { "id": "KageuchiHandguard", "localeName": "影打刀鐔", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "「風雅」的指引", "rarity": 3, "count": 4 },
+        { "id": "KageuchiHandguard", "localeName": "影打刀鐔", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "「風雅」的指引", "rarity": 3, "count": 6 },
+        { "id": "KageuchiHandguard", "localeName": "影打刀鐔", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "「風雅」的指引", "rarity": 3, "count": 9 },
+        { "id": "KageuchiHandguard", "localeName": "影打刀鐔", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4, "count": 4 },
+        { "id": "FamedHandguard", "localeName": "名刀鐔", "rarity": 3, "count": 4 },
+        { "id": "MudraOfTheMaleficGeneral", "localeName": "凶將之手眼", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4, "count": 6 },
+        { "id": "FamedHandguard", "localeName": "名刀鐔", "rarity": 3, "count": 6 },
+        { "id": "MudraOfTheMaleficGeneral", "localeName": "凶將之手眼", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4, "count": 12 },
+        { "id": "FamedHandguard", "localeName": "名刀鐔", "rarity": 3, "count": 9 },
+        { "id": "MudraOfTheMaleficGeneral", "localeName": "凶將之手眼", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4, "count": 16 },
+        { "id": "FamedHandguard", "localeName": "名刀鐔", "rarity": 3, "count": 12 },
+        { "id": "MudraOfTheMaleficGeneral", "localeName": "凶將之手眼", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "KamisatoArtSuiyuu",
+    "localeName": "神里流·水囿",
+    "desc": "展開清淨之園囿，熄滅其中一切囂鬧。\n存在期間，其中會持續降下水花劍，攻擊範圍內的敵人，造成<color=#80C0FFFF>水元素傷害</color>，並提高其中的角色的普通攻擊傷害。\n\n<i>「看到了哦，在這片靜水之中，你心跳的波紋。」</i>",
+    "cd": 20,
+    "energyCost": 80,
+    "paramTpls": ["水花劍傷害|{param1:F1P}", "普通攻擊傷害提升|{param2:F1P}", "持續時間|{param3:F1}秒", "冷卻時間|{param4:F1}秒", "元素能量|{param5:I}"],
+    "paramVals": [
+      [0.66456, 0.11, 18, 20, 80],
+      [0.7144, 0.12, 18, 20, 80],
+      [0.76424, 0.13, 18, 20, 80],
+      [0.8307, 0.14, 18, 20, 80],
+      [0.88054, 0.15, 18, 20, 80],
+      [0.93038, 0.16, 18, 20, 80],
+      [0.99684, 0.17, 18, 20, 80],
+      [1.0633, 0.18, 18, 20, 80],
+      [1.1298, 0.19, 18, 20, 80],
+      [1.1962, 0.2, 18, 20, 80],
+      [1.2627, 0.2, 18, 20, 80],
+      [1.3291, 0.2, 18, 20, 80],
+      [1.4122, 0.2, 18, 20, 80],
+      [1.4953, 0.2, 18, 20, 80],
+      [1.5783, 0.2, 18, 20, 80]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfElegance", "localeName": "「風雅」的教導", "rarity": 2, "count": 3 },
+        { "id": "OldHandguard", "localeName": "破舊的刀鐔", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "「風雅」的指引", "rarity": 3, "count": 2 },
+        { "id": "KageuchiHandguard", "localeName": "影打刀鐔", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "「風雅」的指引", "rarity": 3, "count": 4 },
+        { "id": "KageuchiHandguard", "localeName": "影打刀鐔", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "「風雅」的指引", "rarity": 3, "count": 6 },
+        { "id": "KageuchiHandguard", "localeName": "影打刀鐔", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "「風雅」的指引", "rarity": 3, "count": 9 },
+        { "id": "KageuchiHandguard", "localeName": "影打刀鐔", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4, "count": 4 },
+        { "id": "FamedHandguard", "localeName": "名刀鐔", "rarity": 3, "count": 4 },
+        { "id": "MudraOfTheMaleficGeneral", "localeName": "凶將之手眼", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4, "count": 6 },
+        { "id": "FamedHandguard", "localeName": "名刀鐔", "rarity": 3, "count": 6 },
+        { "id": "MudraOfTheMaleficGeneral", "localeName": "凶將之手眼", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4, "count": 12 },
+        { "id": "FamedHandguard", "localeName": "名刀鐔", "rarity": 3, "count": 9 },
+        { "id": "MudraOfTheMaleficGeneral", "localeName": "凶將之手眼", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4, "count": 16 },
+        { "id": "FamedHandguard", "localeName": "名刀鐔", "rarity": 3, "count": 12 },
+        { "id": "MudraOfTheMaleficGeneral", "localeName": "凶將之手眼", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackKamisatoArtMarobashi",
+    "localeName": "普通攻擊·神里流·轉",
+    "desc": "<color=#FFD780FF>普通攻擊</color>\n進行至多五段的連續劍擊。\n\n<color=#FFD780FF>重擊</color>\n消耗一定體力，向前衝刺並施展居合。\n\n<color=#FFD780FF>下落攻擊</color>\n從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。",
+    "cd": 0,
+    "paramTpls": ["一段傷害|{param1:F1P}", "二段傷害|{param2:F1P}", "三段傷害|{param3:F1P}", "四段傷害|{param4:F1P}*2", "五段傷害|{param5:F1P}", "重擊傷害|{param6:F1P}", "重擊體力消耗|{param7:F1}點", "下墜期間傷害|{param8:F1P}", "低空/高空墜地衝擊傷害|{param9:P}/{param10:P}"],
+    "paramVals": [
+      [0.44962, 0.47157, 0.58612, 0.29449, 0.75604, 1.2953, 20, 0.63932, 1.2784, 1.5968],
+      [0.48621, 0.50996, 0.63383, 0.31846, 0.81758, 1.4007, 20, 0.69136, 1.3824, 1.7267],
+      [0.52281, 0.54834, 0.68154, 0.34242, 0.87912, 1.5062, 20, 0.7434, 1.4865, 1.8567],
+      [0.57509, 0.60317, 0.74969, 0.37667, 0.96703, 1.6568, 20, 0.81774, 1.6351, 2.0424],
+      [0.61169, 0.64156, 0.7974, 0.40064, 1.0286, 1.7622, 20, 0.86978, 1.7392, 2.1723],
+      [0.65351, 0.68542, 0.85193, 0.42803, 1.0989, 1.8827, 20, 0.92925, 1.8581, 2.3209],
+      [0.71102, 0.74574, 0.92689, 0.4657, 1.1956, 2.0484, 20, 1.011, 2.0216, 2.5251],
+      [0.76853, 0.80606, 1.0019, 0.50336, 1.2923, 2.2141, 20, 1.0928, 2.1851, 2.7293],
+      [0.82604, 0.86638, 1.0768, 0.54103, 1.389, 2.3797, 20, 1.1746, 2.3486, 2.9336],
+      [0.88878, 0.93218, 1.1586, 0.58212, 1.4945, 2.5605, 20, 1.2638, 2.527, 3.1564],
+      [0.95151, 0.99798, 1.2404, 0.62321, 1.6, 2.7412, 20, 1.353, 2.7054, 3.3792],
+      [1.0143, 1.0638, 1.3222, 0.6643, 1.7055, 2.9219, 20, 1.4422, 2.8838, 3.602],
+      [1.077, 1.1296, 1.404, 0.70539, 1.811, 3.1027, 20, 1.5314, 3.0622, 3.8248],
+      [1.1397, 1.1954, 1.4858, 0.74649, 1.9165, 3.2834, 20, 1.6206, 3.2405, 4.0476],
+      [1.2025, 1.2612, 1.5675, 0.78758, 2.022, 3.4642, 20, 1.7098, 3.4189, 4.2704]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfElegance", "localeName": "「風雅」的教導", "rarity": 2, "count": 3 },
+        { "id": "OldHandguard", "localeName": "破舊的刀鐔", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "「風雅」的指引", "rarity": 3, "count": 2 },
+        { "id": "KageuchiHandguard", "localeName": "影打刀鐔", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "「風雅」的指引", "rarity": 3, "count": 4 },
+        { "id": "KageuchiHandguard", "localeName": "影打刀鐔", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "「風雅」的指引", "rarity": 3, "count": 6 },
+        { "id": "KageuchiHandguard", "localeName": "影打刀鐔", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "「風雅」的指引", "rarity": 3, "count": 9 },
+        { "id": "KageuchiHandguard", "localeName": "影打刀鐔", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4, "count": 4 },
+        { "id": "FamedHandguard", "localeName": "名刀鐔", "rarity": 3, "count": 4 },
+        { "id": "MudraOfTheMaleficGeneral", "localeName": "凶將之手眼", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4, "count": 6 },
+        { "id": "FamedHandguard", "localeName": "名刀鐔", "rarity": 3, "count": 6 },
+        { "id": "MudraOfTheMaleficGeneral", "localeName": "凶將之手眼", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4, "count": 12 },
+        { "id": "FamedHandguard", "localeName": "名刀鐔", "rarity": 3, "count": 9 },
+        { "id": "MudraOfTheMaleficGeneral", "localeName": "凶將之手眼", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4, "count": 16 },
+        { "id": "FamedHandguard", "localeName": "名刀鐔", "rarity": 3, "count": 12 },
+        { "id": "MudraOfTheMaleficGeneral", "localeName": "凶將之手眼", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "KamisatoArtMineWoMatoishiKiyotaki", "localeName": "神里流·清瀧繞峰", "desc": "<color=#FFD780FF>神里流·鏡花</color>具有如下效果：\n·施放後，神里綾人會獲得2層浪閃效果；\n·水影破裂後，神里綾人將獲得等同於疊加上限層數的浪閃效果。", "unlock": 1, "values": [2, 5] },
+    { "name": "KamisatoArtMichiyukuHagetsu", "localeName": "神里流·破月漸盈", "desc": "神里綾人處於隊伍後台時，若元素能量低於40點，每1秒為自己恢復2點元素能量。", "unlock": 4, "values": [0.5, 1, 2] },
+    { "name": "KamisatoArtDailyCooking", "localeName": "神里流·日常茶飯", "desc": "完美烹飪食物時，有18%機率額外獲得一個「奇怪的」品質的同種料理。" }
+  ],
+  "c13ns": [
+    { "name": "KyoukaFuushi", "localeName": "鏡華風姿", "desc": "對於生命值低於或等於50%的敵人，<color=#FFD780FF>瞬水劍</color>造成的傷害提升40%。", "values": [0.5, 0.4] },
+    { "name": "WorldSource", "localeName": "世有源泉", "desc": "<color=#FFD780FF>浪閃</color>疊加上限提升至5層；神里綾人處於至少3層浪閃狀態下時，將提升50%生命值上限。", "values": [1, 0.5] },
+    { "name": "ToAdmireTheFlowers", "localeName": "無意弄花", "desc": "<color=#FFD780FF>神里流·鏡花</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "EndlessFlow", "localeName": "不厭細流", "desc": "施放<color=#FFD780FF>神里流·水囿</color>後，隊伍中附近的角色普通攻擊的攻擊速度提升15%，持續15秒。", "values": [0.15, 15] },
+    { "name": "BansuiIchiro", "localeName": "萬水一露", "desc": "<color=#FFD780FF>神里流·水囿</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "BoundlessOrigin", "localeName": "濫觴無底", "desc": "施放<color=#FFD780FF>神里流·鏡花</color>之後，神里綾人的下一次瞬水劍攻擊命中敵人時，將進行2次額外的瞬水劍攻擊，各自能造成神里綾人攻擊力450%的傷害。\n此兩次瞬水劍攻擊不會受到浪閃的增益。", "values": [4.5] }
+  ],
+  "overviewItems": [
+    { "id": "VarunadaLazuriteGemstone", "localeName": "滌淨青金", "rarity": 5 },
+    { "id": "DewOfRepudiation", "localeName": "排異之露", "rarity": 4 },
+    { "id": "SakuraBloom", "localeName": "緋櫻繡球" },
+    { "id": "FamedHandguard", "localeName": "名刀鐔", "rarity": 3 },
+    { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4 },
+    { "id": "MudraOfTheMaleficGeneral", "localeName": "凶將之手眼", "rarity": 5 }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "uid": 10000064,
+  "id": "YunJin",
+  "name": "Yun Jin",
+  "localeName": "Yun Jin",
+  "desc": "A renowned Liyue opera singer who is skilled in both playwriting and singing. Her style is one-of-a-kind, exquisite and delicate, much like the person herself.",
+  "baseHP": 893.56,
+  "baseATK": 16.027,
+  "baseDEF": 61.574,
+  "bodyType": 3,
+  "rarity": 4,
+  "weapon": 3,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "PrithivaTopazSliver", "localeName": "Prithiva Topaz Sliver", "rarity": 2, "count": 1 },
+        { "id": "GlazeLily", "localeName": "Glaze Lily", "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 3 }
+      ],
+      "HP": 667.53,
+      "ATK": 11.973,
+      "DEF": 45.999,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "PrithivaTopazFragment", "localeName": "Prithiva Topaz Fragment", "rarity": 3, "count": 3 },
+        { "id": "RiftbornRegalia", "localeName": "Riftborn Regalia", "rarity": 4, "count": 2 },
+        { "id": "GlazeLily", "localeName": "Glaze Lily", "count": 10 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1141.8,
+      "ATK": 20.481,
+      "DEF": 78.683,
+      "extra": 0.0667
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "PrithivaTopazFragment", "localeName": "Prithiva Topaz Fragment", "rarity": 3, "count": 6 },
+        { "id": "RiftbornRegalia", "localeName": "Riftborn Regalia", "rarity": 4, "count": 4 },
+        { "id": "GlazeLily", "localeName": "Glaze Lily", "count": 20 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1774.2,
+      "ATK": 31.824,
+      "DEF": 122.26,
+      "extra": 0.1333
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "PrithivaTopazChunk", "localeName": "Prithiva Topaz Chunk", "rarity": 4, "count": 3 },
+        { "id": "RiftbornRegalia", "localeName": "Riftborn Regalia", "rarity": 4, "count": 8 },
+        { "id": "GlazeLily", "localeName": "Glaze Lily", "count": 30 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2248.5,
+      "ATK": 40.332,
+      "DEF": 154.94,
+      "extra": 0.1333
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "PrithivaTopazChunk", "localeName": "Prithiva Topaz Chunk", "rarity": 4, "count": 6 },
+        { "id": "RiftbornRegalia", "localeName": "Riftborn Regalia", "rarity": 4, "count": 12 },
+        { "id": "GlazeLily", "localeName": "Glaze Lily", "count": 45 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 }
+      ],
+      "HP": 2722.8,
+      "ATK": 48.839,
+      "DEF": 187.63,
+      "extra": 0.2
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "PrithivaTopazGemstone", "localeName": "Prithiva Topaz Gemstone", "rarity": 5, "count": 6 },
+        { "id": "RiftbornRegalia", "localeName": "Riftborn Regalia", "rarity": 4, "count": 20 },
+        { "id": "GlazeLily", "localeName": "Glaze Lily", "count": 60 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 24 }
+      ],
+      "HP": 3197.1,
+      "ATK": 57.346,
+      "DEF": 220.31,
+      "extra": 0.2667
+    }
+  ],
+  "ascensionType": 10,
+  "element": 2,
+  "elemSkill": {
+    "name": "OpeningFlourish",
+    "localeName": "Opening Flourish",
+    "desc": "#Ms. Yun may just be acting out fights on stage, but her skills with the spear are real enough to defend against her foes.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nFlourishes her polearm in a cloud-grasping stance, dealing <color=#FFE699FF>Geo DMG</color>.\n\n<color=#FFD780FF>Hold</color>\nTakes up the Opening Flourish stance and charges up, forming a shield. DMG Absorption is based on Yun Jin's Max HP and has 150% effectiveness against all Elemental DMG and Physical DMG. The shield lasts until she finishes unleashing her Elemental Skill.\nWhen the skill is released, when its duration ends, or when the shield breaks, Yun Jin will unleash the charged energy as an attack, dealing <color=#FFE699FF>Geo DMG</color>.\nBased on the time spent charging, it will either unleash an attack at Charge Level 1 or Level 2.\n\n<i>One glorious moment on-stage, a decade of preparation behind it.</i>",
+    "cd": 9,
+    "paramTpls": ["#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P} DEF", "Charge Level 1 DMG|{param4:F1P} DEF", "Charge Level 2 DMG|{param5:F1P} DEF", "Shield DMG Absorption|{param1:P} Max HP+{param2:I}", "CD|{param6:F1}s"],
+    "paramVals": [
+      [0.12, 1155.4, 1.4912, 2.6096, 3.728, 9],
+      [0.129, 1271, 1.603, 2.8053, 4.0076, 9],
+      [0.138, 1396.2, 1.7149, 3.001, 4.2872, 9],
+      [0.15, 1531, 1.864, 3.262, 4.66, 9],
+      [0.159, 1675.4, 1.9758, 3.4577, 4.9396, 9],
+      [0.168, 1829.5, 2.0877, 3.6534, 5.2192, 9],
+      [0.18, 1993.2, 2.2368, 3.9144, 5.592, 9],
+      [0.192, 2166.6, 2.3859, 4.1754, 5.9648, 9],
+      [0.204, 2349.5, 2.535, 4.4363, 6.3376, 9],
+      [0.216, 2542.1, 2.6842, 4.6973, 6.7104, 9],
+      [0.228, 2744.4, 2.8333, 4.9582, 7.0832, 9],
+      [0.24, 2956.2, 2.9824, 5.2192, 7.456, 9],
+      [0.255, 3177.7, 3.1688, 5.5454, 7.922, 9],
+      [0.27, 3408.8, 3.3552, 5.8716, 8.388, 9],
+      [0.285, 3649.6, 3.5416, 6.1978, 8.854, 9]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfDiligence", "localeName": "Teachings of Diligence", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 4 },
+        { "id": "AshenHeart", "localeName": "Ashen Heart", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 6 },
+        { "id": "AshenHeart", "localeName": "Ashen Heart", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 9 },
+        { "id": "AshenHeart", "localeName": "Ashen Heart", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 },
+        { "id": "AshenHeart", "localeName": "Ashen Heart", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "CliffbreakersBanner",
+    "localeName": "Cliffbreaker's Banner",
+    "desc": "Deals <color=#FFE699FF>AoE Geo DMG</color> and grants all nearby party members a Flying Cloud Flag Formation.\n\n<color=#FFD780FF>Flying Cloud Flag Formation</color>\nWhen Normal Attack DMG is dealt to opponents, Bonus DMG will be dealt based on Yun Jin's current DEF.\n\nThe effects of this skill will be cleared after a set duration or after being triggered a specific number of times.\nWhen one Normal Attack hits multiple opponents, the effect is triggered multiple times according to the number of opponents hit. The number of times that the effect is triggered is counted independently for each member of the party with Flying Cloud Flag Formation.\n\n<i>As the drums resound, as swords and halberds weave and clash, the doyenne is transformed into a mighty general.</i>\n<i>As the instruments on stage strum in unison, lo, see how she vanquishes these demons!</i>",
+    "cd": 15,
+    "energyCost": 60,
+    "paramTpls": ["Skill DMG|{param1:P}", "DMG Increase|{param2:P} DEF", "Duration|{param3:F1}s", "Trigger Quota|{param6:I}", "CD|{param4:F1}s", "Energy Cost|{param5:I}"],
+    "paramVals": [
+      [2.44, 0.3216, 12, 15, 60, 30],
+      [2.623, 0.34572, 12, 15, 60, 30],
+      [2.806, 0.36984, 12, 15, 60, 30],
+      [3.05, 0.402, 12, 15, 60, 30],
+      [3.233, 0.42612, 12, 15, 60, 30],
+      [3.416, 0.45024, 12, 15, 60, 30],
+      [3.66, 0.4824, 12, 15, 60, 30],
+      [3.904, 0.51456, 12, 15, 60, 30],
+      [4.148, 0.54672, 12, 15, 60, 30],
+      [4.392, 0.57888, 12, 15, 60, 30],
+      [4.636, 0.61104, 12, 15, 60, 30],
+      [4.88, 0.6432, 12, 15, 60, 30],
+      [5.185, 0.6834, 12, 15, 60, 30],
+      [5.49, 0.7236, 12, 15, 60, 30],
+      [5.795, 0.7638, 12, 15, 60, 30]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfDiligence", "localeName": "Teachings of Diligence", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 4 },
+        { "id": "AshenHeart", "localeName": "Ashen Heart", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 6 },
+        { "id": "AshenHeart", "localeName": "Ashen Heart", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 9 },
+        { "id": "AshenHeart", "localeName": "Ashen Heart", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 },
+        { "id": "AshenHeart", "localeName": "Ashen Heart", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackCloudGrazingStrike",
+    "localeName": "Normal Attack: Cloud-Grazing Strike",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to five consecutive spear strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "cd": 0,
+    "paramTpls": [
+      "1-Hit DMG|{param1:F1P}",
+      "2-Hit DMG|{param2:F1P}",
+      "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+      "4-Hit DMG|{param5:F1P}+{param6:F1P}",
+      "5-Hit DMG|{param7:F1P}",
+      "Charged Attack|{param8:F1P}",
+      "Charged Attack Stamina Cost|{param9:F1}",
+      "Plunge DMG|{param10:F1P}",
+      "Low/High Plunge DMG|{param11:P}/{param12:P}"
+    ],
+    "paramVals": [
+      [0.40506, 0.40248, 0.22962, 0.2752, 0.23994, 0.2881, 0.67338, 1.2169, 25, 0.63932, 1.2784, 1.5968],
+      [0.43803, 0.43524, 0.24831, 0.2976, 0.25947, 0.31155, 0.72819, 1.316, 25, 0.69136, 1.3824, 1.7267],
+      [0.471, 0.468, 0.267, 0.32, 0.279, 0.335, 0.783, 1.415, 25, 0.7434, 1.4865, 1.8567],
+      [0.5181, 0.5148, 0.2937, 0.352, 0.3069, 0.3685, 0.8613, 1.5565, 25, 0.81774, 1.6351, 2.0424],
+      [0.55107, 0.54756, 0.31239, 0.3744, 0.32643, 0.39195, 0.91611, 1.6556, 25, 0.86978, 1.7392, 2.1723],
+      [0.58875, 0.585, 0.33375, 0.4, 0.34875, 0.41875, 0.97875, 1.7687, 25, 0.92925, 1.8581, 2.3209],
+      [0.64056, 0.63648, 0.36312, 0.4352, 0.37944, 0.4556, 1.0649, 1.9244, 25, 1.011, 2.0216, 2.5251],
+      [0.69237, 0.68796, 0.39249, 0.4704, 0.41013, 0.49245, 1.151, 2.08, 25, 1.0928, 2.1851, 2.7293],
+      [0.74418, 0.73944, 0.42186, 0.5056, 0.44082, 0.5293, 1.2371, 2.2357, 25, 1.1746, 2.3486, 2.9336],
+      [0.8007, 0.7956, 0.4539, 0.544, 0.4743, 0.5695, 1.3311, 2.4055, 25, 1.2638, 2.527, 3.1564],
+      [0.85722, 0.85176, 0.48594, 0.5824, 0.50778, 0.6097, 1.4251, 2.6001, 25, 1.353, 2.7054, 3.3792],
+      [0.91374, 0.90792, 0.51798, 0.6208, 0.54126, 0.6499, 1.519, 2.8289, 25, 1.4422, 2.8838, 3.602],
+      [0.97026, 0.96408, 0.55002, 0.6592, 0.57474, 0.6901, 1.613, 3.0577, 25, 1.5314, 3.0622, 3.8248],
+      [1.0268, 1.0202, 0.58206, 0.6976, 0.60822, 0.7303, 1.7069, 3.2865, 25, 1.6206, 3.2405, 4.0476],
+      [1.0833, 1.0764, 0.6141, 0.736, 0.6417, 0.7705, 1.8009, 3.5361, 25, 1.7098, 3.4189, 4.2704]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfDiligence", "localeName": "Teachings of Diligence", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "Guide to Diligence", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 4 },
+        { "id": "AshenHeart", "localeName": "Ashen Heart", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 6 },
+        { "id": "AshenHeart", "localeName": "Ashen Heart", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 9 },
+        { "id": "AshenHeart", "localeName": "Ashen Heart", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 },
+        { "id": "AshenHeart", "localeName": "Ashen Heart", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "TrueToOneself", "localeName": "True to Oneself", "desc": "Using <color=#FFD780FF>Opening Flourish</color> at the precise moment when Yun Jin is attacked will unleash its Level 2 Charged (Hold) form.", "unlock": 1 },
+    {
+      "name": "BreakingConventions",
+      "localeName": "Breaking Conventions",
+      "desc": "The Normal Attack DMG Bonus granted by <color=#FFD780FF>Flying Cloud Flag Formation</color> is further increased by 2.5%/5%/7.5%/11.5% of Yun Jin's DEF when the party contains characters of 1/2/3/4 Elemental Types, respectively.",
+      "unlock": 4,
+      "values": [0.025, 0.05, 0.075, 0.115]
+    },
+    { "name": "LightNourishment", "localeName": "Light Nourishment", "desc": "When Perfect Cooking is achieved on Food with Adventure-related effects, there is a 12% chance to obtain double the product." }
+  ],
+  "c13ns": [
+    { "name": "ThespianGallop", "localeName": "Thespian Gallop", "desc": "<color=#FFD780FF>Opening Flourish's</color> CD is decreased by 18%." },
+    { "name": "MyriadMiseEnScene", "localeName": "Myriad Mise-En-Scène", "desc": "After <color=#FFD780FF>Cliffbreaker's Banner</color> is unleashed, all nearby party members' Normal Attack DMG is increased by 15% for 12s.", "values": [0.15, 12] },
+    { "name": "SeafaringGeneral", "localeName": "Seafaring General", "desc": "Increases the Level of <color=#FFD780FF>Cliffbreaker's Banner</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "FlowerAndAFighter", "localeName": "Flower and a Fighter", "desc": "When Yun Jin triggers the Crystallize Reaction, her DEF is increased by 20% for 12s.", "values": [0.2, 12] },
+    { "name": "FamedThroughoutTheLand", "localeName": "Famed Throughout the Land", "desc": "Increases the Level of <color=#FFD780FF>Opening Flourish</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "DecorousHarmony", "localeName": "Decorous Harmony", "desc": "Characters under the effects of the <color=#FFD780FF>Flying Cloud Flag Formation</color> have their Normal ATK SPD increased by 12%.", "values": [0.12] }
+  ],
+  "overviewItems": [
+    { "id": "PrithivaTopazGemstone", "localeName": "Prithiva Topaz Gemstone", "rarity": 5 },
+    { "id": "RiftbornRegalia", "localeName": "Riftborn Regalia", "rarity": 4 },
+    { "id": "GlazeLily", "localeName": "Glaze Lily" },
+    { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3 },
+    { "id": "PhilosophiesOfDiligence", "localeName": "Philosophies of Diligence", "rarity": 4 },
+    { "id": "AshenHeart", "localeName": "Ashen Heart", "rarity": 5 }
+  ]
+}

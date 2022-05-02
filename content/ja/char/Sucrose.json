@@ -1,4 +1,5 @@
 {
+  "uid": 10000043,
   "id": "Sucrose",
   "name": "Sucrose",
   "localeName": "スクロース",
@@ -305,10 +306,10 @@
     { "name": "AstableInvention", "localeName": "不安定な発見", "desc": "キャラクターと武器の育成素材を合成する時、10%の確率でアイテムを2倍獲得する。" }
   ],
   "c13ns": [
-    { "name": "ClusteredVacuumField", "localeName": "積み上げ真空域", "desc": "<color=#FFD780FF>風霊作成·六三〇八</color>の発動可能回数+1。" },
+    { "name": "ClusteredVacuumField", "localeName": "積み上げ真空域", "desc": "<color=#FFD780FF>風霊作成·六三〇八</color>の使用可能回数+1。" },
     { "name": "BethUnboundForm", "localeName": "不羈型ベト", "desc": "<color=#FFD780FF>禁·風霊作成·七五同構弐型</color>のスキル継続時間+2秒。", "values": [2] },
     { "name": "FlawlessAlchemistress", "localeName": "ゼロミス少女", "desc": "<color=#FFD780FF>風霊作成·六三〇八</color>のスキルLv.+3。\n最大Lv.15まで。" },
-    { "name": "Alchemania", "localeName": "錬金の偏執", "desc": "スクロースが通常攻撃または重撃を7回発動すると、<color=#FFD780FF>風霊作成·六三〇八</color>のクールタイムがランダムに1~7秒減少する。" },
+    { "name": "Alchemania", "localeName": "錬金の偏執", "desc": "スクロースの通常攻撃または重撃が敵に累計7回命中すると、<color=#FFD780FF>風霊作成·六三〇八</color>のクールタイムがランダムに1~7秒減少する。\n0.1秒毎に1回のみカウント可能。" },
     { "name": "CautionStandardFlask", "localeName": "真面目な普通瓶", "desc": "<color=#FFD780FF>禁·風霊作成·七五同構弐型</color>のスキルLv.+3。\n最大Lv.15まで。" },
     { "name": "ChaoticEntropy", "localeName": "混元熵增論", "desc": "<color=#FFD780FF>禁·風霊作成·七五同構弐型</color>に元素変化が起きた時、スキル継続中チーム全員の該当元素ダメージ+20%。", "values": [0.2] }
   ],

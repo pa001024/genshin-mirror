@@ -1,4 +1,5 @@
 {
+  "uid": 10000021,
   "id": "Amber",
   "name": "Amber",
   "localeName": "アンバー",
@@ -94,7 +95,7 @@
   "elemSkill": {
     "name": "ExplosivePuppet",
     "localeName": "爆弾人形",
-    "desc": "頼もしいウサギ伯爵の出番。\n\n<color=#FFD780FF>ウサギ伯爵</color>\n·周囲の敵を挑発し、攻撃を引き付ける。\n耐久度はアンバーのHP上限によって決まる。\n·破壊された時または継続時間が終了した時に爆発し、<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。\n\n<color=#FFD780FF>長押し</color>\n投擲方向を調整できる。\n投擲距離は長押しする時間によって増加する。\n\n<i>ウサギ伯爵の家系には長い歴史があるが、ウサギ893世からアンバーは数えるのをやめた。</i>",
+    "desc": "頼もしいウサギ伯爵の出番。\n\n<color=#FFD780FF>ウサギ伯爵</color>\n·持続的に周囲の敵を挑発し、攻撃を引き付ける。\n·耐久度はアンバーのHP上限によって決まる。\n·破壊された時または継続時間が終了した時に爆発し、<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。\n\n<color=#FFD780FF>長押し</color>\n投擲方向を調整できる。\n投擲距離は長押しする時間によって増加する。\n\n<i>ウサギ伯爵の家系には長い歴史があるが、ウサギ893世からアンバーは数えるのをやめた。</i>",
     "cd": 15,
     "paramTpls": ["HP継承|{param1:F1P}", "爆発ダメージ|{param2:P}", "クールタイム|{param4:F1}秒"],
     "paramVals": [
@@ -229,7 +230,7 @@
   "attackSkill": {
     "name": "NormalAttackSharpshooter",
     "localeName": "通常攻撃·一流射手",
-    "desc": "<color=#FFD780FF>通常攻撃</color>\n最高5段の連続射撃を行う。\n\n<color=#FFD780FF>重撃</color>\nダメージがより高く、より精確な<color=#FFD780FF>狙い撃ち</color>を発動する。\n照準時、烈炎を矢先に凝集させ、烈炎に満ちた矢で敵に<color=#FF9999FF>炎元素ダメージ</color>を与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n最大5段の連続射撃を行う。\n\n<color=#FFD780FF>重撃</color>\nダメージがより高く、より精確な<color=#FFD780FF>狙い撃ち</color>を発動する。\n照準時、烈炎を矢先に凝集させ、烈炎に満ちた矢で敵に<color=#FF9999FF>炎元素ダメージ</color>を与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。",
     "cd": 0,
     "paramTpls": [
       "1段ダメージ|{param1:F1P}",
@@ -306,7 +307,7 @@
   "talents": [
     { "name": "EveryArrowFindsItsTarget", "localeName": "百発百中！", "desc": "<color=#FFD780FF>矢の雨</color>の会心率+10%、影響範囲+30%。", "unlock": 1, "values": [0.1, 0.3] },
     { "name": "PreciseShot", "localeName": "制圧射撃", "desc": "狙い撃ちが弱点に命中すると、攻撃力+15%、継続時間10秒。", "unlock": 4, "values": [0.15, 10] },
-    { "name": "GlidingChampion", "localeName": "飛行チャンピオン", "desc": "チーム内の自身のキャラクター全員が滑翔に消費するスタミナ-20%。\n同じ効果を持つ固有天赋との重ね掛け不可。" }
+    { "name": "GlidingChampion", "localeName": "飛行チャンピオン", "desc": "チーム内の自身のキャラクター全員が滑翔に消費するスタミナ-20%。\n同じ効果を持つ固有天賦との重ね掛け不可。" }
   ],
   "c13ns": [
     { "name": "OneArrowToRuleThemAll", "localeName": "一挙双擒！", "desc": "<color=#FFD780FF>狙い撃ち</color>する時、矢を連続で2本放つ。2本目の矢は元の矢の20%のダメージを与える。", "values": [0.2] },

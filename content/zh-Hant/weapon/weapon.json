@@ -1,5 +1,6 @@
 [
   {
+    "uid": 11101,
     "id": "DullBlade",
     "name": "Dull Blade",
     "localeName": "無鋒劍",
@@ -48,6 +49,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 11201,
     "id": "SilverSword",
     "name": "Silver Sword",
     "localeName": "銀劍",
@@ -96,6 +98,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 11301,
     "id": "CoolSteel",
     "name": "Cool Steel",
     "localeName": "冷刃",
@@ -178,6 +181,7 @@
     }
   },
   {
+    "uid": 11302,
     "id": "HarbingerOfDawn",
     "name": "Harbinger of Dawn",
     "localeName": "黎明神劍",
@@ -260,6 +264,7 @@
     }
   },
   {
+    "uid": 11303,
     "id": "TravelersHandySword",
     "name": "Traveler's Handy Sword",
     "localeName": "旅行劍",
@@ -342,6 +347,7 @@
     }
   },
   {
+    "uid": 11304,
     "id": "DarkIronSword",
     "name": "Dark Iron Sword",
     "localeName": "暗鐵劍",
@@ -424,6 +430,7 @@
     }
   },
   {
+    "uid": 11305,
     "id": "FilletBlade",
     "name": "Fillet Blade",
     "localeName": "吃虎魚刀",
@@ -506,6 +513,7 @@
     }
   },
   {
+    "uid": 11306,
     "id": "SkyriderSword",
     "name": "Skyrider Sword",
     "localeName": "飛天御劍",
@@ -588,6 +596,7 @@
     }
   },
   {
+    "uid": 11401,
     "id": "FavoniusSword",
     "name": "Favonius Sword",
     "localeName": "西風劍",
@@ -670,6 +679,7 @@
     }
   },
   {
+    "uid": 11402,
     "id": "TheFlute",
     "name": "The Flute",
     "localeName": "笛劍",
@@ -752,6 +762,7 @@
     }
   },
   {
+    "uid": 11403,
     "id": "SacrificialSword",
     "name": "Sacrificial Sword",
     "localeName": "祭禮劍",
@@ -834,6 +845,7 @@
     }
   },
   {
+    "uid": 11404,
     "id": "RoyalLongsword",
     "name": "Royal Longsword",
     "localeName": "宗室長劍",
@@ -916,6 +928,7 @@
     }
   },
   {
+    "uid": 11405,
     "id": "LionsRoar",
     "name": "Lion's Roar",
     "localeName": "匣裡龍吟",
@@ -998,6 +1011,7 @@
     }
   },
   {
+    "uid": 11406,
     "id": "PrototypeRancour",
     "name": "Prototype Rancour",
     "localeName": "試作斬岩",
@@ -1080,6 +1094,7 @@
     }
   },
   {
+    "uid": 11407,
     "id": "IronSting",
     "name": "Iron Sting",
     "localeName": "鐵蜂刺",
@@ -1162,6 +1177,7 @@
     }
   },
   {
+    "uid": 11408,
     "id": "BlackcliffLongsword",
     "name": "Blackcliff Longsword",
     "localeName": "黑岩長劍",
@@ -1244,6 +1260,7 @@
     }
   },
   {
+    "uid": 11409,
     "id": "TheBlackSword",
     "name": "The Black Sword",
     "localeName": "黑劍",
@@ -1326,6 +1343,7 @@
     }
   },
   {
+    "uid": 11410,
     "id": "TheAlleyFlash",
     "name": "The Alley Flash",
     "localeName": "暗巷閃光",
@@ -1408,6 +1426,7 @@
     }
   },
   {
+    "uid": 11412,
     "id": "SwordOfDescension",
     "name": "Sword of Descension",
     "localeName": "降臨之劍",
@@ -1482,13 +1501,14 @@
       "name": "降世",
       "levels": [
         {
-          "desc": "僅在\"PlayStation Network\"遊玩時生效。\n普通攻擊與重擊命中敵人後有<color=#99FFFFFF>50%</color>機率在小範圍內造成<color=#99FFFFFF>200%</color>攻擊力的傷害。該效果每10秒只能觸發一次；此外，旅行者裝備降臨之劍時，攻擊力提升<color=#99FFFFFF>66</color>點。",
+          "desc": "<color=#99FFFFFF>僅在以下平臺生效：</color>\n<color=#99FFFFFF>\"PlayStation Network\"</color>\n普通攻擊與重擊命中敵人後有<color=#99FFFFFF>50%</color>概率在小範圍內造成<color=#99FFFFFF>200%</color>攻擊力的傷害。該效果每10秒只能觸發一次；此外，旅行者裝備降臨之劍時，攻擊力提升<color=#99FFFFFF>66</color>點。",
           "params": [0.5, 2, 10, 66]
         }
       ]
     }
   },
   {
+    "uid": 11413,
     "id": "FesteringDesire",
     "name": "Festering Desire",
     "localeName": "腐殖之劍",
@@ -1571,6 +1591,7 @@
     }
   },
   {
+    "uid": 11414,
     "id": "AmenomaKageuchi",
     "name": "Amenoma Kageuchi",
     "localeName": "天目影打刀",
@@ -1653,6 +1674,90 @@
     }
   },
   {
+    "uid": 11415,
+    "id": "CinnabarSpindle",
+    "name": "Cinnabar Spindle",
+    "localeName": "辰砂之紡錘",
+    "desc": "由不似這個世界的物質製成的劍，其中的力量就連侵蝕龍的腐殖之毒也能抵禦住吧。",
+    "rarity": 4,
+    "type": 1,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "TileOfDecarabiansTower", "localeName": "高塔孤王的破瓦", "count": 3 },
+          { "id": "ChaosDevice", "localeName": "混沌裝置", "count": 3 },
+          { "id": "DamagedMask", "localeName": "破損的面具", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔孤王的殘垣", "count": 3 },
+          { "id": "ChaosDevice", "localeName": "混沌裝置", "count": 12 },
+          { "id": "DamagedMask", "localeName": "破損的面具", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔孤王的殘垣", "count": 6 },
+          { "id": "ChaosCircuit", "localeName": "混沌迴路", "count": 6 },
+          { "id": "StainedMask", "localeName": "汙穢的面具", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔孤王的斷片", "count": 3 },
+          { "id": "ChaosCircuit", "localeName": "混沌迴路", "count": 12 },
+          { "id": "StainedMask", "localeName": "汙穢的面具", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔孤王的斷片", "count": 6 },
+          { "id": "ChaosCore", "localeName": "混沌爐心", "count": 9 },
+          { "id": "OminousMask", "localeName": "不祥的面具", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "ScatteredPieceOfDecarabiansDream", "localeName": "高塔孤王的碎夢", "count": 4 },
+          { "id": "ChaosCore", "localeName": "混沌爐心", "count": 18 },
+          { "id": "OminousMask", "localeName": "不祥的面具", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 41.067,
+    "baseATKCurve": 9,
+    "overviewItems": [
+      { "id": "ScatteredPieceOfDecarabiansDream", "name": "高塔孤王的碎夢", "rarity": 5 },
+      { "id": "ChaosCore", "name": "混沌爐心", "rarity": 4 },
+      { "id": "OminousMask", "name": "不祥的面具", "rarity": 3 }
+    ],
+    "subAttr": { "type": 9, "value": 0.15013, "curve": 17 },
+    "affix": {
+      "name": "無垢之心",
+      "levels": [
+        { "desc": "元素戰技造成的傷害值提高，提高數值相當於防禦力的<color=#99FFFFFF>40%</color>。該效果每1.5秒最多觸發一次，並將在元素戰技造成傷害後的0.1秒後清除效果。", "params": [0.4, 4000, 1.5, 0.1] },
+        { "desc": "元素戰技造成的傷害值提高，提高數值相當於防禦力的<color=#99FFFFFF>50%</color>。該效果每1.5秒最多觸發一次，並將在元素戰技造成傷害後的0.1秒後清除效果。", "params": [0.5, 5000, 1.5, 0.1] },
+        { "desc": "元素戰技造成的傷害值提高，提高數值相當於防禦力的<color=#99FFFFFF>60%</color>。該效果每1.5秒最多觸發一次，並將在元素戰技造成傷害後的0.1秒後清除效果。", "params": [0.6, 6000, 1.5, 0.1] },
+        { "desc": "元素戰技造成的傷害值提高，提高數值相當於防禦力的<color=#99FFFFFF>70%</color>。該效果每1.5秒最多觸發一次，並將在元素戰技造成傷害後的0.1秒後清除效果。", "params": [0.7, 7000, 1.5, 0.1] },
+        { "desc": "元素戰技造成的傷害值提高，提高數值相當於防禦力的<color=#99FFFFFF>80%</color>。該效果每1.5秒最多觸發一次，並將在元素戰技造成傷害後的0.1秒後清除效果。", "params": [0.8, 8000, 1.5, 0.1] }
+      ]
+    }
+  },
+  {
+    "uid": 11501,
     "id": "AquilaFavonia",
     "name": "Aquila Favonia",
     "localeName": "風鷹劍",
@@ -1735,6 +1840,7 @@
     }
   },
   {
+    "uid": 11502,
     "id": "SkywardBlade",
     "name": "Skyward Blade",
     "localeName": "天空之刃",
@@ -1817,6 +1923,7 @@
     }
   },
   {
+    "uid": 11503,
     "id": "FreedomSworn",
     "name": "Freedom-Sworn",
     "localeName": "蒼古自由之誓",
@@ -1914,6 +2021,7 @@
     }
   },
   {
+    "uid": 11504,
     "id": "SummitShaper",
     "name": "Summit Shaper",
     "localeName": "斫峰之刃",
@@ -1996,6 +2104,7 @@
     }
   },
   {
+    "uid": 11505,
     "id": "PrimordialJadeCutter",
     "name": "Primordial Jade Cutter",
     "localeName": "磐岩結綠",
@@ -2078,6 +2187,7 @@
     }
   },
   {
+    "uid": 11507,
     "id": "OneSide",
     "name": "One Side",
     "localeName": "憑虛",
@@ -2126,6 +2236,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 11509,
     "id": "MistsplitterReforged",
     "name": "Mistsplitter Reforged",
     "localeName": "霧切之回光",
@@ -2223,6 +2334,105 @@
     }
   },
   {
+    "uid": 11510,
+    "id": "HaranGeppakuFutsu",
+    "name": "Haran Geppaku Futsu",
+    "localeName": "波亂月白經津",
+    "desc": "經津傳奉命鍛造的名作。因其如洶湧海濤般的氣度，而得「波亂」之名。",
+    "rarity": 5,
+    "type": 1,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          { "id": "NarukamisWisdom", "localeName": "鳴神御靈的明惠", "count": 5 },
+          { "id": "GloomyStatuette", "localeName": "晦暗刻像", "count": 5 },
+          { "id": "OldHandguard", "localeName": "破舊的刀鐔", "count": 3 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鳴神御靈的歡喜", "count": 5 },
+          { "id": "GloomyStatuette", "localeName": "晦暗刻像", "count": 18 },
+          { "id": "OldHandguard", "localeName": "破舊的刀鐔", "count": 12 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鳴神御靈的歡喜", "count": 9 },
+          { "id": "DarkStatuette", "localeName": "夤夜刻像", "count": 9 },
+          { "id": "KageuchiHandguard", "localeName": "影打刀鐔", "count": 9 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鳴神御靈的親愛", "count": 5 },
+          { "id": "DarkStatuette", "localeName": "夤夜刻像", "count": 18 },
+          { "id": "KageuchiHandguard", "localeName": "影打刀鐔", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鳴神御靈的親愛", "count": 9 },
+          { "id": "DeathlyStatuette", "localeName": "幽邃刻像", "count": 14 },
+          { "id": "FamedHandguard", "localeName": "名刀鐔", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "NarukamisValor", "localeName": "鳴神御靈的勇武", "count": 6 },
+          { "id": "DeathlyStatuette", "localeName": "幽邃刻像", "count": 27 },
+          { "id": "FamedHandguard", "localeName": "名刀鐔", "count": 18 }
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "overviewItems": [
+      { "id": "NarukamisValor", "name": "鳴神御靈的勇武", "rarity": 5 },
+      { "id": "DeathlyStatuette", "name": "幽邃刻像", "rarity": 4 },
+      { "id": "FamedHandguard", "name": "名刀鐔", "rarity": 3 }
+    ],
+    "subAttr": { "type": 12, "value": 0.072, "curve": 18 },
+    "affix": {
+      "name": "白刃流轉",
+      "levels": [
+        {
+          "desc": "獲得<color=#99FFFFFF>12%</color>所有元素傷害加成；隊伍中附近的其他角色在施放元素戰技時，會為裝備該武器的角色產生1層「波穗」效果，至多疊加2層，每0.3秒最多觸發1次。裝備該武器的角色施放元素戰技時，如果有累積的「波穗」效果，則將消耗已有的「波穗」，獲得「波亂」：根據消耗的層數，每層提升<color=#99FFFFFF>20%</color>普通攻擊傷害，持續8秒。",
+          "params": [0.12, 2, 0.3, 0.2, 8]
+        },
+        {
+          "desc": "獲得<color=#99FFFFFF>15%</color>所有元素傷害加成；隊伍中附近的其他角色在施放元素戰技時，會為裝備該武器的角色產生1層「波穗」效果，至多疊加2層，每0.3秒最多觸發1次。裝備該武器的角色施放元素戰技時，如果有累積的「波穗」效果，則將消耗已有的「波穗」，獲得「波亂」：根據消耗的層數，每層提升<color=#99FFFFFF>25%</color>普通攻擊傷害，持續8秒。",
+          "params": [0.15, 2, 0.3, 0.25, 8]
+        },
+        {
+          "desc": "獲得<color=#99FFFFFF>18%</color>所有元素傷害加成；隊伍中附近的其他角色在施放元素戰技時，會為裝備該武器的角色產生1層「波穗」效果，至多疊加2層，每0.3秒最多觸發1次。裝備該武器的角色施放元素戰技時，如果有累積的「波穗」效果，則將消耗已有的「波穗」，獲得「波亂」：根據消耗的層數，每層提升<color=#99FFFFFF>30%</color>普通攻擊傷害，持續8秒。",
+          "params": [0.18, 2, 0.3, 0.3, 8]
+        },
+        {
+          "desc": "獲得<color=#99FFFFFF>21%</color>所有元素傷害加成；隊伍中附近的其他角色在施放元素戰技時，會為裝備該武器的角色產生1層「波穗」效果，至多疊加2層，每0.3秒最多觸發1次。裝備該武器的角色施放元素戰技時，如果有累積的「波穗」效果，則將消耗已有的「波穗」，獲得「波亂」：根據消耗的層數，每層提升<color=#99FFFFFF>35%</color>普通攻擊傷害，持續8秒。",
+          "params": [0.21, 2, 0.3, 0.35, 8]
+        },
+        {
+          "desc": "獲得<color=#99FFFFFF>24%</color>所有元素傷害加成；隊伍中附近的其他角色在施放元素戰技時，會為裝備該武器的角色產生1層「波穗」效果，至多疊加2層，每0.3秒最多觸發1次。裝備該武器的角色施放元素戰技時，如果有累積的「波穗」效果，則將消耗已有的「波穗」，獲得「波亂」：根據消耗的層數，每層提升<color=#99FFFFFF>40%</color>普通攻擊傷害，持續8秒。",
+          "params": [0.24, 2, 0.3, 0.4, 8]
+        }
+      ]
+    }
+  },
+  {
+    "uid": 12101,
     "id": "WasterGreatsword",
     "name": "Waster Greatsword",
     "localeName": "訓練大劍",
@@ -2271,6 +2481,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 12201,
     "id": "OldMercsPal",
     "name": "Old Merc's Pal",
     "localeName": "傭兵重劍",
@@ -2319,6 +2530,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 12301,
     "id": "FerrousShadow",
     "name": "Ferrous Shadow",
     "localeName": "鐵影闊劍",
@@ -2401,6 +2613,7 @@
     }
   },
   {
+    "uid": 12302,
     "id": "BloodtaintedGreatsword",
     "name": "Bloodtainted Greatsword",
     "localeName": "沐浴龍血的劍",
@@ -2483,6 +2696,7 @@
     }
   },
   {
+    "uid": 12303,
     "id": "WhiteIronGreatsword",
     "name": "White Iron Greatsword",
     "localeName": "白鐵大劍",
@@ -2565,6 +2779,7 @@
     }
   },
   {
+    "uid": 12304,
     "id": "Quartz",
     "name": "Quartz",
     "localeName": "石英大劍",
@@ -2647,6 +2862,7 @@
     }
   },
   {
+    "uid": 12305,
     "id": "DebateClub",
     "name": "Debate Club",
     "localeName": "以理服人",
@@ -2729,6 +2945,7 @@
     }
   },
   {
+    "uid": 12306,
     "id": "SkyriderGreatsword",
     "name": "Skyrider Greatsword",
     "localeName": "飛天大御劍",
@@ -2811,6 +3028,7 @@
     }
   },
   {
+    "uid": 12401,
     "id": "FavoniusGreatsword",
     "name": "Favonius Greatsword",
     "localeName": "西風大劍",
@@ -2893,6 +3111,7 @@
     }
   },
   {
+    "uid": 12402,
     "id": "TheBell",
     "name": "The Bell",
     "localeName": "鐘劍",
@@ -2975,6 +3194,7 @@
     }
   },
   {
+    "uid": 12403,
     "id": "SacrificialGreatsword",
     "name": "Sacrificial Greatsword",
     "localeName": "祭禮大劍",
@@ -3057,6 +3277,7 @@
     }
   },
   {
+    "uid": 12404,
     "id": "RoyalGreatsword",
     "name": "Royal Greatsword",
     "localeName": "宗室大劍",
@@ -3139,6 +3360,7 @@
     }
   },
   {
+    "uid": 12405,
     "id": "Rainslasher",
     "name": "Rainslasher",
     "localeName": "雨裁",
@@ -3221,6 +3443,7 @@
     }
   },
   {
+    "uid": 12406,
     "id": "PrototypeArchaic",
     "name": "Prototype Archaic",
     "localeName": "試作古華",
@@ -3303,6 +3526,7 @@
     }
   },
   {
+    "uid": 12407,
     "id": "Whiteblind",
     "name": "Whiteblind",
     "localeName": "白影劍",
@@ -3385,6 +3609,7 @@
     }
   },
   {
+    "uid": 12408,
     "id": "BlackcliffSlasher",
     "name": "Blackcliff Slasher",
     "localeName": "黑岩斬刀",
@@ -3467,6 +3692,7 @@
     }
   },
   {
+    "uid": 12409,
     "id": "SerpentSpine",
     "name": "Serpent Spine",
     "localeName": "螭骨劍",
@@ -3549,6 +3775,7 @@
     }
   },
   {
+    "uid": 12410,
     "id": "LithicBlade",
     "name": "Lithic Blade",
     "localeName": "千岩古劍",
@@ -3631,6 +3858,7 @@
     }
   },
   {
+    "uid": 12411,
     "id": "SnowTombedStarsilver",
     "name": "Snow-Tombed Starsilver",
     "localeName": "雪葬的星銀",
@@ -3713,6 +3941,90 @@
     }
   },
   {
+    "uid": 12412,
+    "id": "LuxuriousSeaLord",
+    "name": "Luxurious Sea-Lord",
+    "localeName": "銜珠海皇",
+    "desc": "海中的大王。經過風乾，是很稱手的兵器以及應急食品。",
+    "rarity": 4,
+    "type": 4,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "GrainOfAerosiderite", "localeName": "漆黑隕鐵的一粒", "count": 3 },
+          { "id": "FragileBoneShard", "localeName": "脆弱的骨片", "count": 3 },
+          { "id": "SlimeCondensate", "localeName": "史萊姆凝液", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "PieceOfAerosiderite", "localeName": "漆黑隕鐵的一片", "count": 3 },
+          { "id": "FragileBoneShard", "localeName": "脆弱的骨片", "count": 12 },
+          { "id": "SlimeCondensate", "localeName": "史萊姆凝液", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "PieceOfAerosiderite", "localeName": "漆黑隕鐵的一片", "count": 6 },
+          { "id": "SturdyBoneShard", "localeName": "結實的骨片", "count": 6 },
+          { "id": "SlimeSecretions", "localeName": "史萊姆清", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "BitOfAerosiderite", "localeName": "漆黑隕鐵的一角", "count": 3 },
+          { "id": "SturdyBoneShard", "localeName": "結實的骨片", "count": 12 },
+          { "id": "SlimeSecretions", "localeName": "史萊姆清", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "BitOfAerosiderite", "localeName": "漆黑隕鐵的一角", "count": 6 },
+          { "id": "FossilizedBoneShard", "localeName": "石化的骨片", "count": 9 },
+          { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "ChunkOfAerosiderite", "localeName": "漆黑隕鐵的一塊", "count": 4 },
+          { "id": "FossilizedBoneShard", "localeName": "石化的骨片", "count": 18 },
+          { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 41.067,
+    "baseATKCurve": 9,
+    "overviewItems": [
+      { "id": "ChunkOfAerosiderite", "name": "漆黑隕鐵的一塊", "rarity": 5 },
+      { "id": "FossilizedBoneShard", "name": "石化的骨片", "rarity": 4 },
+      { "id": "SlimeConcentrate", "name": "史萊姆原漿", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.12, "curve": 17 },
+    "affix": {
+      "name": "海洋的勝利",
+      "levels": [
+        { "desc": "元素爆發造成的傷害提升<color=#99FFFFFF>12%</color>。元素爆發命中敵人時，有100%機率召喚大鮪衝擊，造成<color=#99FFFFFF>100%</color>攻擊力的範圍傷害。該效果每15秒至多觸發一次。", "params": [0.12, 1, 1, 15] },
+        { "desc": "元素爆發造成的傷害提升<color=#99FFFFFF>15%</color>。元素爆發命中敵人時，有100%的機率召喚大鮪衝擊，造成<color=#99FFFFFF>125%</color>攻擊力的範圍傷害。該效果每15秒至多觸發一次。", "params": [0.15, 1, 1.25, 15] },
+        { "desc": "元素爆發造成的傷害提升<color=#99FFFFFF>18%</color>。元素爆發命中敵人時，有100%的機率召喚大鮪衝擊，造成<color=#99FFFFFF>150%</color>攻擊力的範圍傷害。該效果每15秒至多觸發一次。", "params": [0.18, 1, 1.5, 15] },
+        { "desc": "元素爆發造成的傷害提升<color=#99FFFFFF>21%</color>。元素爆發命中敵人時，有100%的機率召喚大鮪衝擊，造成<color=#99FFFFFF>175%</color>攻擊力的範圍傷害。該效果每15秒至多觸發一次。", "params": [0.21, 1, 1.75, 15] },
+        { "desc": "元素爆發造成的傷害提升<color=#99FFFFFF>24%</color>。元素爆發命中敵人時，有100%的 機率召喚大鮪衝擊，造成<color=#99FFFFFF>200%</color>攻擊力的範圍傷害。該效果每15秒至多觸發一次。", "params": [0.24, 1, 2, 15] }
+      ]
+    }
+  },
+  {
+    "uid": 12414,
     "id": "KatsuragikiriNagamasa",
     "name": "Katsuragikiri Nagamasa",
     "localeName": "桂木斬長正",
@@ -3795,6 +4107,90 @@
     }
   },
   {
+    "uid": 12416,
+    "id": "Akuoumaru",
+    "name": "Akuoumaru",
+    "localeName": "惡王丸",
+    "desc": "傳說中「惡王」的愛刀，刀身龐大雄偉，但揮舞起來卻出乎意料地輕便。",
+    "rarity": 4,
+    "type": 4,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "CoralBranchOfADistantSea", "localeName": "遠海夷地的瑚枝", "count": 3 },
+          { "id": "ConcealedClaw", "localeName": "隱獸指爪", "count": 3 },
+          { "id": "OldHandguard", "localeName": "破舊的刀鐔", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "遠海夷地的玉枝", "count": 3 },
+          { "id": "ConcealedClaw", "localeName": "隱獸指爪", "count": 12 },
+          { "id": "OldHandguard", "localeName": "破舊的刀鐔", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "遠海夷地的玉枝", "count": 6 },
+          { "id": "ConcealedUnguis", "localeName": "隱獸利爪", "count": 6 },
+          { "id": "KageuchiHandguard", "localeName": "影打刀鐔", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "遠海夷地的瓊枝", "count": 3 },
+          { "id": "ConcealedUnguis", "localeName": "隱獸利爪", "count": 12 },
+          { "id": "KageuchiHandguard", "localeName": "影打刀鐔", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "遠海夷地的瓊枝", "count": 6 },
+          { "id": "ConcealedTalon", "localeName": "隱獸鬼爪", "count": 9 },
+          { "id": "FamedHandguard", "localeName": "名刀鐔", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "GoldenBranchOfADistantSea", "localeName": "遠海夷地的金枝", "count": 4 },
+          { "id": "ConcealedTalon", "localeName": "隱獸鬼爪", "count": 18 },
+          { "id": "FamedHandguard", "localeName": "名刀鐔", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "overviewItems": [
+      { "id": "GoldenBranchOfADistantSea", "name": "遠海夷地的金枝", "rarity": 5 },
+      { "id": "ConcealedTalon", "name": "隱獸鬼爪", "rarity": 4 },
+      { "id": "FamedHandguard", "name": "名刀鐔", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
+    "affix": {
+      "name": "馭浪的海祇民",
+      "levels": [
+        { "desc": "隊伍中所有角色的元素能量上限的總和，每1點能使裝備此武器的角色的元素爆發造成的傷害提高<color=#99FFFFFF>0.12%</color>，依此方式，元素爆發造成的傷害至多提高<color=#99FFFFFF>40%</color>。", "params": [0.12, 0.4] },
+        { "desc": "隊伍中所有角色的元素能量上限的總和，每1點能使裝備此武器的角色的元素爆發造成的傷害提高<color=#99FFFFFF>0.15%</color>，依此方式，元素爆發造成的傷害至多提高<color=#99FFFFFF>50%</color>。", "params": [0.15, 0.5] },
+        { "desc": "隊伍中所有角色的元素能量上限的總和，每1點能使裝備此武器的角色的元素爆發造成的傷害提高<color=#99FFFFFF>0.18%</color>，依此方式，元素爆發造成的傷害至多提高<color=#99FFFFFF>60%</color>。", "params": [0.18, 0.6] },
+        { "desc": "隊伍中所有角色的元素能量上限的總和，每1點能使裝備此武器的角色的元素爆發造成的傷害提高<color=#99FFFFFF>0.21%</color>，依此方式，元素爆發造成的傷害至多提高<color=#99FFFFFF>70%</color>。", "params": [0.21, 0.7] },
+        { "desc": "隊伍中所有角色的元素能量上限的總和，每1點能使裝備此武器的角色的元素爆發造成的傷害提高<color=#99FFFFFF>0.24%</color>，依此方式，元素爆發造成的傷害至多提高<color=#99FFFFFF>80%</color>。", "params": [0.24, 0.8] }
+      ]
+    }
+  },
+  {
+    "uid": 12501,
     "id": "SkywardPride",
     "name": "Skyward Pride",
     "localeName": "天空之傲",
@@ -3877,6 +4273,7 @@
     }
   },
   {
+    "uid": 12502,
     "id": "WolfsGravestone",
     "name": "Wolf's Gravestone",
     "localeName": "狼的末路",
@@ -3959,6 +4356,7 @@
     }
   },
   {
+    "uid": 12503,
     "id": "SongOfBrokenPines",
     "name": "Song of Broken Pines",
     "localeName": "松籟響起之時",
@@ -4056,6 +4454,7 @@
     }
   },
   {
+    "uid": 12504,
     "id": "TheUnforged",
     "name": "The Unforged",
     "localeName": "無工之劍",
@@ -4138,6 +4537,7 @@
     }
   },
   {
+    "uid": 12505,
     "id": "PrimordialJadeGreatsword",
     "name": "Primordial Jade Greatsword",
     "localeName": "砥厄魚",
@@ -4186,6 +4586,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 12506,
     "id": "TheOtherSide",
     "name": "The Other Side",
     "localeName": "異史",
@@ -4234,6 +4635,90 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 12510,
+    "id": "RedhornStonethresher",
+    "name": "Redhorn Stonethresher",
+    "localeName": "赤角石潰杵",
+    "desc": "依據過去的主人的說法，這是何等鬼怪精妖都能打跑的大杵「赤角石見石潰金塗金齧御獅子」。",
+    "rarity": 5,
+    "type": 4,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          { "id": "NarukamisWisdom", "localeName": "鳴神御靈的明惠", "count": 5 },
+          { "id": "ConcealedClaw", "localeName": "隱獸指爪", "count": 5 },
+          { "id": "OldHandguard", "localeName": "破舊的刀鐔", "count": 3 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鳴神御靈的歡喜", "count": 5 },
+          { "id": "ConcealedClaw", "localeName": "隱獸指爪", "count": 18 },
+          { "id": "OldHandguard", "localeName": "破舊的刀鐔", "count": 12 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鳴神御靈的歡喜", "count": 9 },
+          { "id": "ConcealedUnguis", "localeName": "隱獸利爪", "count": 9 },
+          { "id": "KageuchiHandguard", "localeName": "影打刀鐔", "count": 9 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鳴神御靈的親愛", "count": 5 },
+          { "id": "ConcealedUnguis", "localeName": "隱獸利爪", "count": 18 },
+          { "id": "KageuchiHandguard", "localeName": "影打刀鐔", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鳴神御靈的親愛", "count": 9 },
+          { "id": "ConcealedTalon", "localeName": "隱獸鬼爪", "count": 14 },
+          { "id": "FamedHandguard", "localeName": "名刀鐔", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "NarukamisValor", "localeName": "鳴神御靈的勇武", "count": 6 },
+          { "id": "ConcealedTalon", "localeName": "隱獸鬼爪", "count": 27 },
+          { "id": "FamedHandguard", "localeName": "名刀鐔", "count": 18 }
+        ]
+      }
+    ],
+    "baseATK": 44.336,
+    "baseATKCurve": 14,
+    "overviewItems": [
+      { "id": "NarukamisValor", "name": "鳴神御靈的勇武", "rarity": 5 },
+      { "id": "ConcealedTalon", "name": "隱獸鬼爪", "rarity": 4 },
+      { "id": "FamedHandguard", "name": "名刀鐔", "rarity": 3 }
+    ],
+    "subAttr": { "type": 13, "value": 0.192, "curve": 18 },
+    "affix": {
+      "name": "御伽大王御伽話",
+      "levels": [
+        { "desc": "防禦力提高<color=#99FFFFFF>28%</color>；普通攻擊與重擊造成的傷害值提高，提高數值相當於防禦力的<color=#99FFFFFF>40%</color>。", "params": [0.28, 0.4, 80000] },
+        { "desc": "防禦力提高<color=#99FFFFFF>35%</color>；普通攻擊與重擊造成的傷害值提高，提高數值相當於防禦力的<color=#99FFFFFF>50%</color>。", "params": [0.35, 0.5, 80000] },
+        { "desc": "防禦力提高<color=#99FFFFFF>42%</color>；普通攻擊與重擊造成的傷害值提高，提高數值相當於防禦力的<color=#99FFFFFF>60%</color>。", "params": [0.42, 0.6, 80000] },
+        { "desc": "防禦力提高<color=#99FFFFFF>49%</color>；普通攻擊與重擊造成的傷害值提高，提高數值相當於防禦力的<color=#99FFFFFF>70%</color>。", "params": [0.49, 0.7, 80000] },
+        { "desc": "防禦力提高<color=#99FFFFFF>56%</color>；普通攻擊與重擊造成的傷害值提高，提高數值相當於防禦力的<color=#99FFFFFF>80%</color>。", "params": [0.56, 0.8, 80000] }
+      ]
+    }
+  },
+  {
+    "uid": 13101,
     "id": "BeginnersProtector",
     "name": "Beginner's Protector",
     "localeName": "新手長槍",
@@ -4282,6 +4767,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 13201,
     "id": "IronPoint",
     "name": "Iron Point",
     "localeName": "鐵尖槍",
@@ -4330,6 +4816,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 13301,
     "id": "WhiteTassel",
     "name": "White Tassel",
     "localeName": "白纓槍",
@@ -4412,6 +4899,7 @@
     }
   },
   {
+    "uid": 13302,
     "id": "Halberd",
     "name": "Halberd",
     "localeName": "鉞矛",
@@ -4494,6 +4982,7 @@
     }
   },
   {
+    "uid": 13303,
     "id": "BlackTassel",
     "name": "Black Tassel",
     "localeName": "黑纓槍",
@@ -4576,6 +5065,7 @@
     }
   },
   {
+    "uid": 13304,
     "id": "TheFlagstaff",
     "name": "The Flagstaff",
     "localeName": "「旗桿」",
@@ -4657,6 +5147,7 @@
     }
   },
   {
+    "uid": 13401,
     "id": "DragonsBane",
     "name": "Dragon's Bane",
     "localeName": "匣裡滅辰",
@@ -4739,6 +5230,7 @@
     }
   },
   {
+    "uid": 13402,
     "id": "PrototypeStarglitter",
     "name": "Prototype Starglitter",
     "localeName": "試作星鐮",
@@ -4821,6 +5313,7 @@
     }
   },
   {
+    "uid": 13403,
     "id": "CrescentPike",
     "name": "Crescent Pike",
     "localeName": "流月針",
@@ -4903,6 +5396,7 @@
     }
   },
   {
+    "uid": 13404,
     "id": "BlackcliffPole",
     "name": "Blackcliff Pole",
     "localeName": "黑岩刺槍",
@@ -4985,6 +5479,7 @@
     }
   },
   {
+    "uid": 13405,
     "id": "Deathmatch",
     "name": "Deathmatch",
     "localeName": "決鬥之槍",
@@ -5067,6 +5562,7 @@
     }
   },
   {
+    "uid": 13406,
     "id": "LithicSpear",
     "name": "Lithic Spear",
     "localeName": "千岩長槍",
@@ -5149,6 +5645,7 @@
     }
   },
   {
+    "uid": 13407,
     "id": "FavoniusLance",
     "name": "Favonius Lance",
     "localeName": "西風長槍",
@@ -5231,6 +5728,7 @@
     }
   },
   {
+    "uid": 13408,
     "id": "RoyalSpear",
     "name": "Royal Spear",
     "localeName": "宗室獵槍",
@@ -5313,6 +5811,7 @@
     }
   },
   {
+    "uid": 13409,
     "id": "DragonspineSpear",
     "name": "Dragonspine Spear",
     "localeName": "龍脊長槍",
@@ -5395,6 +5894,7 @@
     }
   },
   {
+    "uid": 13414,
     "id": "KitainCrossSpear",
     "name": "Kitain Cross Spear",
     "localeName": "喜多院十文字",
@@ -5477,6 +5977,173 @@
     }
   },
   {
+    "uid": 13415,
+    "id": "TheCatch",
+    "name": "\"The Catch\"",
+    "localeName": "「漁獲」",
+    "desc": "在久遠的過去，曾經聞名稻妻的大盜愛用的槍。",
+    "rarity": 4,
+    "type": 3,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "MaskOfTheWickedLieutenant", "localeName": "今昔劇畫之惡尉", "count": 3 },
+          { "id": "ChaosGear", "localeName": "混沌機關", "count": 3 },
+          { "id": "SpectralHusk", "localeName": "浮游乾核", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "今昔劇畫之虎齧", "count": 3 },
+          { "id": "ChaosGear", "localeName": "混沌機關", "count": 12 },
+          { "id": "SpectralHusk", "localeName": "浮游乾核", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "今昔劇畫之虎齧", "count": 6 },
+          { "id": "ChaosAxis", "localeName": "混沌樞紐", "count": 6 },
+          { "id": "SpectralHeart", "localeName": "浮游幽核", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "今昔劇畫之一角", "count": 3 },
+          { "id": "ChaosAxis", "localeName": "混沌樞紐", "count": 12 },
+          { "id": "SpectralHeart", "localeName": "浮游幽核", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "今昔劇畫之一角", "count": 6 },
+          { "id": "ChaosOculus", "localeName": "混沌真眼", "count": 9 },
+          { "id": "SpectralNucleus", "localeName": "浮游晶化核", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "MaskOfTheKijin", "localeName": "今昔劇畫之鬼人", "count": 4 },
+          { "id": "ChaosOculus", "localeName": "混沌真眼", "count": 18 },
+          { "id": "SpectralNucleus", "localeName": "浮游晶化核", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "overviewItems": [
+      { "id": "MaskOfTheKijin", "name": "今昔劇畫之鬼人", "rarity": 5 },
+      { "id": "ChaosOculus", "name": "混沌真眼", "rarity": 4 },
+      { "id": "SpectralNucleus", "name": "浮游晶化核", "rarity": 3 }
+    ],
+    "subAttr": { "type": 10, "value": 0.1, "curve": 17 },
+    "affix": {
+      "name": "船歌",
+      "levels": [
+        { "desc": "元素爆發造成的傷害提升<color=#99FFFFFF>16%</color>，元素爆發的暴擊率提升<color=#99FFFFFF>6%</color>。", "params": [0.16, 0.06] },
+        { "desc": "元素爆發造成的傷害提升<color=#99FFFFFF>20%</color>，元素爆發的暴擊率提升<color=#99FFFFFF>7.5%</color>。", "params": [0.2, 0.075] },
+        { "desc": "元素爆發造成的傷害提升<color=#99FFFFFF>24%</color>，元素爆發的暴擊率提升<color=#99FFFFFF>9%</color>。", "params": [0.24, 0.09] },
+        { "desc": "元素爆發造成的傷害提升<color=#99FFFFFF>28%</color>，元素爆發的暴擊率提升<color=#99FFFFFF>10.5%</color>。", "params": [0.28, 0.105] },
+        { "desc": "元素爆發造成的傷害提升<color=#99FFFFFF>32%</color>，元素爆發的暴擊率提升<color=#99FFFFFF>12%</color>。", "params": [0.32, 0.12] }
+      ]
+    }
+  },
+  {
+    "uid": 13416,
+    "id": "WavebreakersFin",
+    "name": "Wavebreaker's Fin",
+    "localeName": "斷浪長鰭",
+    "desc": "以海淵之下的閃亮材質打造而成的薙刀，一度曾為天狗一族所有。",
+    "rarity": 4,
+    "type": 3,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "MaskOfTheWickedLieutenant", "localeName": "今昔劇畫之惡尉", "count": 3 },
+          { "id": "ConcealedClaw", "localeName": "隱獸指爪", "count": 3 },
+          { "id": "OldHandguard", "localeName": "破舊的刀鐔", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "今昔劇畫之虎齧", "count": 3 },
+          { "id": "ConcealedClaw", "localeName": "隱獸指爪", "count": 12 },
+          { "id": "OldHandguard", "localeName": "破舊的刀鐔", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "今昔劇畫之虎齧", "count": 6 },
+          { "id": "ConcealedUnguis", "localeName": "隱獸利爪", "count": 6 },
+          { "id": "KageuchiHandguard", "localeName": "影打刀鐔", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "今昔劇畫之一角", "count": 3 },
+          { "id": "ConcealedUnguis", "localeName": "隱獸利爪", "count": 12 },
+          { "id": "KageuchiHandguard", "localeName": "影打刀鐔", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "今昔劇畫之一角", "count": 6 },
+          { "id": "ConcealedTalon", "localeName": "隱獸鬼爪", "count": 9 },
+          { "id": "FamedHandguard", "localeName": "名刀鐔", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "MaskOfTheKijin", "localeName": "今昔劇畫之鬼人", "count": 4 },
+          { "id": "ConcealedTalon", "localeName": "隱獸鬼爪", "count": 18 },
+          { "id": "FamedHandguard", "localeName": "名刀鐔", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 45.069,
+    "baseATKCurve": 8,
+    "overviewItems": [
+      { "id": "MaskOfTheKijin", "name": "今昔劇畫之鬼人", "rarity": 5 },
+      { "id": "ConcealedTalon", "name": "隱獸鬼爪", "rarity": 4 },
+      { "id": "FamedHandguard", "name": "名刀鐔", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.03, "curve": 17 },
+    "affix": {
+      "name": "馭浪的海祇民",
+      "levels": [
+        { "desc": "隊伍中所有角色的元素能量上限的總和，每1點能使裝備此武器的角色的元素爆發造成的傷害提高<color=#99FFFFFF>0.12%</color>，依此方式，元素爆發造成的傷害至多提高<color=#99FFFFFF>40%</color>。", "params": [0.12, 0.4] },
+        { "desc": "隊伍中所有角色的元素能量上限的總和，每1點能使裝備此武器的角色的元素爆發造成的傷害提高<color=#99FFFFFF>0.15%</color>，依此方式，元素爆發造成的傷害至多提高<color=#99FFFFFF>50%</color>。", "params": [0.15, 0.5] },
+        { "desc": "隊伍中所有角色的元素能量上限的總和，每1點能使裝備此武器的角色的元素爆發造成的傷害提高<color=#99FFFFFF>0.18%</color>，依此方式，元素爆發造成的傷害至多提高<color=#99FFFFFF>60%</color>。", "params": [0.18, 0.6] },
+        { "desc": "隊伍中所有角色的元素能量上限的總和，每1點能使裝備此武器的角色的元素爆發造成的傷害提高<color=#99FFFFFF>0.21%</color>，依此方式，元素爆發造成的傷害至多提高<color=#99FFFFFF>70%</color>。", "params": [0.21, 0.7] },
+        { "desc": "隊伍中所有角色的元素能量上限的總和，每1點能使裝備此武器的角色的元素爆發造成的傷害提高<color=#99FFFFFF>0.24%</color>，依此方式，元素爆發造成的傷害至多提高<color=#99FFFFFF>80%</color>。", "params": [0.24, 0.8] }
+      ]
+    }
+  },
+  {
+    "uid": 13501,
     "id": "StaffOfHoma",
     "name": "Staff of Homa",
     "localeName": "護摩之杖",
@@ -5559,6 +6226,7 @@
     }
   },
   {
+    "uid": 13502,
     "id": "SkywardSpine",
     "name": "Skyward Spine",
     "localeName": "天空之脊",
@@ -5656,6 +6324,7 @@
     }
   },
   {
+    "uid": 13504,
     "id": "VortexVanquisher",
     "name": "Vortex Vanquisher",
     "localeName": "貫虹之槊",
@@ -5738,6 +6407,7 @@
     }
   },
   {
+    "uid": 13505,
     "id": "PrimordialJadeWingedSpear",
     "name": "Primordial Jade Winged-Spear",
     "localeName": "和璞鳶",
@@ -5820,6 +6490,7 @@
     }
   },
   {
+    "uid": 13506,
     "id": "Deicide",
     "name": "Deicide",
     "localeName": "弑主",
@@ -5868,6 +6539,173 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 13507,
+    "id": "CalamityQueller",
+    "name": "Calamity Queller",
+    "localeName": "息災",
+    "desc": "由奇異晶石打造成的鋒銳利器。幽幽藍光似乎訴說著無盡往事。",
+    "rarity": 5,
+    "type": 3,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          { "id": "MistVeiledLeadElixir", "localeName": "霧海雲間的鉛丹", "count": 5 },
+          { "id": "MistGrassPollen", "localeName": "霧虛花粉", "count": 5 },
+          { "id": "WhopperflowerNectar", "localeName": "騙騙花蜜", "count": 3 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          { "id": "MistVeiledMercuryElixir", "localeName": "霧海雲間的汞丹", "count": 5 },
+          { "id": "MistGrassPollen", "localeName": "霧虛花粉", "count": 18 },
+          { "id": "WhopperflowerNectar", "localeName": "騙騙花蜜", "count": 12 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          { "id": "MistVeiledMercuryElixir", "localeName": "霧海雲間的汞丹", "count": 9 },
+          { "id": "MistGrass", "localeName": "霧虛草囊", "count": 9 },
+          { "id": "ShimmeringNectar", "localeName": "微光花蜜", "count": 9 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          { "id": "MistVeiledGoldElixir", "localeName": "霧海雲間的金丹", "count": 5 },
+          { "id": "MistGrass", "localeName": "霧虛草囊", "count": 18 },
+          { "id": "ShimmeringNectar", "localeName": "微光花蜜", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "MistVeiledGoldElixir", "localeName": "霧海雲間的金丹", "count": 9 },
+          { "id": "MistGrassWick", "localeName": "霧虛燈芯", "count": 14 },
+          { "id": "EnergyNectar", "localeName": "原素花蜜", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "MistVeiledPrimoElixir", "localeName": "霧海雲間的轉還", "count": 6 },
+          { "id": "MistGrassWick", "localeName": "霧虛燈芯", "count": 27 },
+          { "id": "EnergyNectar", "localeName": "原素花蜜", "count": 18 }
+        ]
+      }
+    ],
+    "baseATK": 49.138,
+    "baseATKCurve": 13,
+    "overviewItems": [
+      { "id": "MistVeiledPrimoElixir", "name": "霧海雲間的轉還", "rarity": 5 },
+      { "id": "MistGrassWick", "name": "霧虛燈芯", "rarity": 4 },
+      { "id": "EnergyNectar", "name": "原素花蜜", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.036, "curve": 18 },
+    "affix": {
+      "name": "滅卻之戒法",
+      "levels": [
+        { "desc": "獲得<color=#99FFFFFF>12%</color>所有元素傷害加成；施放元素戰技後，獲得持續20秒的「圓頓」，攻擊力每1秒提升<color=#99FFFFFF>3.2%</color>，該攻擊力提升效果至多疊加6次。當裝備此武器的角色處於隊伍後台時，「圓頓」的攻擊力提升效果翻倍。", "params": [0.12, 1, 0.032, 6, 20] },
+        { "desc": "獲得<color=#99FFFFFF>15%</color>所有元素傷害加成；施放元素戰技後，獲得持續20秒的「圓頓」，攻擊力每1秒提升<color=#99FFFFFF>4%</color>，該攻擊力提升效果至多疊加6次。當裝備此武器的角色處於隊伍後台時，「圓頓」的攻擊力提升效果翻倍。", "params": [0.15, 1, 0.04, 6, 20] },
+        { "desc": "獲得<color=#99FFFFFF>18%</color>所有元素傷害加成；施放元素戰技後，獲得持續20秒的「圓頓」，攻擊力每1秒提升<color=#99FFFFFF>4.8%</color>，該攻擊力提升效果至多疊加6次。當裝備此武器的角色處於隊伍後台時，「圓頓」的攻擊力提升效果翻倍。", "params": [0.18, 1, 0.048, 6, 20] },
+        { "desc": "獲得<color=#99FFFFFF>21%</color>所有元素傷害加成；施放元素戰技後，獲得持續20秒的「圓頓」，攻擊力每1秒提升<color=#99FFFFFF>5.6%</color>，該攻擊力提升效果至多疊加6次。當裝備此武器的角色處於隊伍後台時，「圓頓」的攻擊力提升效果翻倍。", "params": [0.21, 1, 0.056, 6, 20] },
+        { "desc": "獲得<color=#99FFFFFF>24%</color>所有元素傷害加成；施放元素戰技後，獲得持續20秒的「圓頓」，攻擊力每1秒提升<color=#99FFFFFF>6.4%</color>，該攻擊力提升效果至多疊加6次。當裝備此武器的角色處於隊伍後台時，「圓頓」的攻擊力提升效果翻倍。", "params": [0.24, 1, 0.064, 6, 20] }
+      ]
+    }
+  },
+  {
+    "uid": 13509,
+    "id": "EngulfingLightning",
+    "name": "Engulfing Lightning",
+    "localeName": "薙草之稻光",
+    "desc": "用於「斬草」的薙刀。對向此物之軍勢，也會如葦草般倒下吧…",
+    "rarity": 5,
+    "type": 3,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          { "id": "MaskOfTheWickedLieutenant", "localeName": "今昔劇畫之惡尉", "count": 5 },
+          { "id": "ChaosGear", "localeName": "混沌機關", "count": 5 },
+          { "id": "OldHandguard", "localeName": "破舊的刀鐔", "count": 3 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "今昔劇畫之虎齧", "count": 5 },
+          { "id": "ChaosGear", "localeName": "混沌機關", "count": 18 },
+          { "id": "OldHandguard", "localeName": "破舊的刀鐔", "count": 12 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "今昔劇畫之虎齧", "count": 9 },
+          { "id": "ChaosAxis", "localeName": "混沌樞紐", "count": 9 },
+          { "id": "KageuchiHandguard", "localeName": "影打刀鐔", "count": 9 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "今昔劇畫之一角", "count": 5 },
+          { "id": "ChaosAxis", "localeName": "混沌樞紐", "count": 18 },
+          { "id": "KageuchiHandguard", "localeName": "影打刀鐔", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "今昔劇畫之一角", "count": 9 },
+          { "id": "ChaosOculus", "localeName": "混沌真眼", "count": 14 },
+          { "id": "FamedHandguard", "localeName": "名刀鐔", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "MaskOfTheKijin", "localeName": "今昔劇畫之鬼人", "count": 6 },
+          { "id": "ChaosOculus", "localeName": "混沌真眼", "count": 27 },
+          { "id": "FamedHandguard", "localeName": "名刀鐔", "count": 18 }
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "overviewItems": [
+      { "id": "MaskOfTheKijin", "name": "今昔劇畫之鬼人", "rarity": 5 },
+      { "id": "ChaosOculus", "name": "混沌真眼", "rarity": 4 },
+      { "id": "FamedHandguard", "name": "名刀鐔", "rarity": 3 }
+    ],
+    "subAttr": { "type": 10, "value": 0.12, "curve": 18 },
+    "affix": {
+      "name": "非時之夢·常世灶食",
+      "levels": [
+        { "desc": "攻擊力獲得提升，提升程度相當於元素充能效率超出100%部分的<color=#99FFFFFF>28%</color>，至多依此方式提升<color=#99FFFFFF>80%</color>。施放元素爆發後的12秒內，元素充能效率提升<color=#99FFFFFF>30%</color>。", "params": [0.28, 0.8, 0.3, 12] },
+        { "desc": "攻擊力獲得提升，提升程度相當於元素充能效率超出100%部分的<color=#99FFFFFF>35%</color>，至多依此方式提升<color=#99FFFFFF>90%</color>。施放元素爆發後的12秒內，元素充能效率提升<color=#99FFFFFF>35%</color>。", "params": [0.35, 0.9, 0.35, 12] },
+        { "desc": "攻擊力獲得提升，提升程度相當於元素充能效率超出100%部分的<color=#99FFFFFF>42%</color>，至多依此方式提升<color=#99FFFFFF>100%</color>。施放元素爆發後的12秒內，元素充能效率提升<color=#99FFFFFF>40%</color>。", "params": [0.42, 1, 0.4, 12] },
+        { "desc": "攻擊力獲得提升，提升程度相當於元素充能效率超出100%部分的<color=#99FFFFFF>49%</color>，至多依此方式提升<color=#99FFFFFF>110%</color>。施放元素爆發後的12秒內，元素充能效率提升<color=#99FFFFFF>45%</color>。", "params": [0.49, 1.1, 0.45, 12] },
+        { "desc": "攻擊力獲得提升，提升程度相當於元素充能效率超出100%部分的<color=#99FFFFFF>56%</color>，至多依此方式提升<color=#99FFFFFF>120%</color>。施放元素爆發後的12秒內，元素充能效率提升<color=#99FFFFFF>50%</color>。", "params": [0.56, 1.2, 0.5, 12] }
+      ]
+    }
+  },
+  {
+    "uid": 14101,
     "id": "ApprenticesNotes",
     "name": "Apprentice's Notes",
     "localeName": "學徒筆記",
@@ -5916,6 +6754,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 14201,
     "id": "PocketGrimoire",
     "name": "Pocket Grimoire",
     "localeName": "口袋魔導書",
@@ -5964,6 +6803,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 14301,
     "id": "MagicGuide",
     "name": "Magic Guide",
     "localeName": "魔導緒論",
@@ -6046,6 +6886,7 @@
     }
   },
   {
+    "uid": 14302,
     "id": "ThrillingTalesOfDragonSlayers",
     "name": "Thrilling Tales of Dragon Slayers",
     "localeName": "討龍英傑譚",
@@ -6128,6 +6969,7 @@
     }
   },
   {
+    "uid": 14303,
     "id": "OtherworldlyStory",
     "name": "Otherworldly Story",
     "localeName": "異世界行記",
@@ -6210,6 +7052,7 @@
     }
   },
   {
+    "uid": 14304,
     "id": "EmeraldOrb",
     "name": "Emerald Orb",
     "localeName": "翡玉法球",
@@ -6292,6 +7135,7 @@
     }
   },
   {
+    "uid": 14305,
     "id": "TwinNephrite",
     "name": "Twin Nephrite",
     "localeName": "甲級寶玨",
@@ -6374,6 +7218,7 @@
     }
   },
   {
+    "uid": 14306,
     "id": "AmberBead",
     "name": "Amber Bead",
     "localeName": "琥珀玥",
@@ -6456,6 +7301,7 @@
     }
   },
   {
+    "uid": 14401,
     "id": "FavoniusCodex",
     "name": "Favonius Codex",
     "localeName": "西風秘典",
@@ -6538,6 +7384,7 @@
     }
   },
   {
+    "uid": 14402,
     "id": "TheWidsith",
     "name": "The Widsith",
     "localeName": "流浪樂章",
@@ -6620,6 +7467,7 @@
     }
   },
   {
+    "uid": 14403,
     "id": "SacrificialFragments",
     "name": "Sacrificial Fragments",
     "localeName": "祭禮殘章",
@@ -6702,6 +7550,7 @@
     }
   },
   {
+    "uid": 14404,
     "id": "RoyalGrimoire",
     "name": "Royal Grimoire",
     "localeName": "宗室秘法錄",
@@ -6784,6 +7633,7 @@
     }
   },
   {
+    "uid": 14405,
     "id": "SolarPearl",
     "name": "Solar Pearl",
     "localeName": "匣裡日月",
@@ -6866,6 +7716,7 @@
     }
   },
   {
+    "uid": 14406,
     "id": "PrototypeAmber",
     "name": "Prototype Amber",
     "localeName": "試作金珀",
@@ -6948,6 +7799,7 @@
     }
   },
   {
+    "uid": 14407,
     "id": "MappaMare",
     "name": "Mappa Mare",
     "localeName": "萬國諸海圖譜",
@@ -7030,6 +7882,7 @@
     }
   },
   {
+    "uid": 14408,
     "id": "BlackcliffAgate",
     "name": "Blackcliff Agate",
     "localeName": "黑岩緋玉",
@@ -7112,6 +7965,7 @@
     }
   },
   {
+    "uid": 14409,
     "id": "EyeOfPerception",
     "name": "Eye of Perception",
     "localeName": "昭心",
@@ -7194,6 +8048,7 @@
     }
   },
   {
+    "uid": 14410,
     "id": "WineAndSong",
     "name": "Wine and Song",
     "localeName": "暗巷的酒與詩",
@@ -7276,6 +8131,7 @@
     }
   },
   {
+    "uid": 14412,
     "id": "Frostbearer",
     "name": "Frostbearer",
     "localeName": "忍冬之果",
@@ -7358,6 +8214,7 @@
     }
   },
   {
+    "uid": 14413,
     "id": "DodocoTales",
     "name": "Dodoco Tales",
     "localeName": "嘟嘟可故事集",
@@ -7440,6 +8297,7 @@
     }
   },
   {
+    "uid": 14414,
     "id": "HakushinRing",
     "name": "Hakushin Ring",
     "localeName": "白辰之環",
@@ -7522,6 +8380,90 @@
     }
   },
   {
+    "uid": 14415,
+    "id": "OathswornEye",
+    "name": "Oathsworn Eye",
+    "localeName": "證誓之明瞳",
+    "desc": "大日御輿收藏的白夜國之寶。蛇神到來後，淵下宮用以公證大誓與大願的寶物。",
+    "rarity": 4,
+    "type": 5,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "CoralBranchOfADistantSea", "localeName": "遠海夷地的瑚枝", "count": 3 },
+          { "id": "ConcealedClaw", "localeName": "隱獸指爪", "count": 3 },
+          { "id": "SpectralHusk", "localeName": "浮游乾核", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "遠海夷地的玉枝", "count": 3 },
+          { "id": "ConcealedClaw", "localeName": "隱獸指爪", "count": 12 },
+          { "id": "SpectralHusk", "localeName": "浮游乾核", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "JeweledBranchOfADistantSea", "localeName": "遠海夷地的玉枝", "count": 6 },
+          { "id": "ConcealedUnguis", "localeName": "隱獸利爪", "count": 6 },
+          { "id": "SpectralHeart", "localeName": "浮游幽核", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "遠海夷地的瓊枝", "count": 3 },
+          { "id": "ConcealedUnguis", "localeName": "隱獸利爪", "count": 12 },
+          { "id": "SpectralHeart", "localeName": "浮游幽核", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "遠海夷地的瓊枝", "count": 6 },
+          { "id": "ConcealedTalon", "localeName": "隱獸鬼爪", "count": 9 },
+          { "id": "SpectralNucleus", "localeName": "浮游晶化核", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "GoldenBranchOfADistantSea", "localeName": "遠海夷地的金枝", "count": 4 },
+          { "id": "ConcealedTalon", "localeName": "隱獸鬼爪", "count": 18 },
+          { "id": "SpectralNucleus", "localeName": "浮游晶化核", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "overviewItems": [
+      { "id": "GoldenBranchOfADistantSea", "name": "遠海夷地的金枝", "rarity": 5 },
+      { "id": "ConcealedTalon", "name": "隱獸鬼爪", "rarity": 4 },
+      { "id": "SpectralNucleus", "name": "浮游晶化核", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.06, "curve": 17 },
+    "affix": {
+      "name": "微光的海淵民",
+      "levels": [
+        { "desc": "施放元素戰技後，元素充能效率提升<color=#99FFFFFF>24%</color>，持續10秒。", "params": [0.24, 10] },
+        { "desc": "施放元素戰技後，元素充能效率提升<color=#99FFFFFF>30%</color>，持續10秒。", "params": [0.3, 10] },
+        { "desc": "施放元素戰技後，元素充能效率提升<color=#99FFFFFF>36%</color>，持續10秒。", "params": [0.36, 10] },
+        { "desc": "施放元素戰技後，元素充能效率提升<color=#99FFFFFF>42%</color>，持續10秒。", "params": [0.42, 10] },
+        { "desc": "施放元素戰技後，元素充能效率提升<color=#99FFFFFF>48%</color>，持續10秒。", "params": [0.48, 10] }
+      ]
+    }
+  },
+  {
+    "uid": 14501,
     "id": "SkywardAtlas",
     "name": "Skyward Atlas",
     "localeName": "天空之卷",
@@ -7604,6 +8546,7 @@
     }
   },
   {
+    "uid": 14502,
     "id": "LostPrayerToTheSacredWinds",
     "name": "Lost Prayer to the Sacred Winds",
     "localeName": "四風原典",
@@ -7686,6 +8629,7 @@
     }
   },
   {
+    "uid": 14503,
     "id": "LostBallade",
     "name": "Lost Ballade",
     "localeName": "散佚的敘事詩",
@@ -7734,6 +8678,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 14504,
     "id": "MemoryOfDust",
     "name": "Memory of Dust",
     "localeName": "塵世之鎖",
@@ -7816,6 +8761,7 @@
     }
   },
   {
+    "uid": 14505,
     "id": "PrimordialJadeRegalia",
     "name": "Primordial Jade Regalia",
     "localeName": "定土玉圭",
@@ -7864,54 +8810,173 @@
     "baseATKCurve": 1
   },
   {
-    "id": "DiamondVisage",
-    "name": "Diamond Visage",
-    "localeName": "光天琉璃",
-    "desc": "美若天成的琉璃玉環，時刻漫射著無人可解的光采與力量。傳說透過它可以目睹一千個世界的一千種光景",
+    "uid": 14506,
+    "id": "EverlastingMoonglow",
+    "name": "Everlasting Moonglow",
+    "localeName": "不滅月華",
+    "desc": "出自深海的美玉之環，閃爍著清澈如月的光澤，一如遙遠往昔。",
     "rarity": 5,
     "type": 5,
     "ascensions": [
       {
         "level": 1,
-        "baseATK": 11.7,
+        "baseATK": 31.1,
         "cost": [
-          { "id": "TileOfDecarabiansTower", "localeName": "高塔孤王的破瓦", "count": 1 },
-          { "id": "HeavyHorn", "localeName": "沉重號角", "count": 1 },
-          { "id": "FirmArrowhead", "localeName": "牢固的箭鏃", "count": 1 }
+          { "id": "CoralBranchOfADistantSea", "localeName": "遠海夷地的瑚枝", "count": 5 },
+          { "id": "DismalPrism", "localeName": "黯淡稜鏡", "count": 5 },
+          { "id": "SpectralHusk", "localeName": "浮游乾核", "count": 3 }
         ]
       },
       {
         "level": 2,
-        "baseATK": 23.3,
+        "baseATK": 62.2,
         "cost": [
-          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔孤王的殘垣", "count": 1 },
-          { "id": "HeavyHorn", "localeName": "沉重號角", "count": 4 },
-          { "id": "FirmArrowhead", "localeName": "牢固的箭鏃", "count": 2 }
+          { "id": "JeweledBranchOfADistantSea", "localeName": "遠海夷地的玉枝", "count": 5 },
+          { "id": "DismalPrism", "localeName": "黯淡稜鏡", "count": 18 },
+          { "id": "SpectralHusk", "localeName": "浮游乾核", "count": 12 }
         ]
       },
       {
         "level": 3,
-        "baseATK": 35,
+        "baseATK": 93.4,
         "cost": [
-          { "id": "DebrisOfDecarabiansCity", "localeName": "高塔孤王的殘垣", "count": 2 },
-          { "id": "BlackBronzeHorn", "localeName": "黑銅號角", "count": 2 },
-          { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "count": 2 }
+          { "id": "JeweledBranchOfADistantSea", "localeName": "遠海夷地的玉枝", "count": 9 },
+          { "id": "CrystalPrism", "localeName": "水晶稜鏡", "count": 9 },
+          { "id": "SpectralHeart", "localeName": "浮游幽核", "count": 9 }
         ]
       },
       {
         "level": 4,
-        "baseATK": 46.7,
+        "baseATK": 124.5,
         "cost": [
-          { "id": "FragmentOfDecarabiansEpic", "localeName": "高塔孤王的斷片", "count": 1 },
-          { "id": "BlackBronzeHorn", "localeName": "黑銅號角", "count": 4 },
-          { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "count": 3 }
+          { "id": "JadeBranchOfADistantSea", "localeName": "遠海夷地的瓊枝", "count": 5 },
+          { "id": "CrystalPrism", "localeName": "水晶稜鏡", "count": 18 },
+          { "id": "SpectralHeart", "localeName": "浮游幽核", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "JadeBranchOfADistantSea", "localeName": "遠海夷地的瓊枝", "count": 9 },
+          { "id": "PolarizingPrism", "localeName": "偏光稜鏡", "count": 14 },
+          { "id": "SpectralNucleus", "localeName": "浮游晶化核", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "GoldenBranchOfADistantSea", "localeName": "遠海夷地的金枝", "count": 6 },
+          { "id": "PolarizingPrism", "localeName": "偏光稜鏡", "count": 27 },
+          { "id": "SpectralNucleus", "localeName": "浮游晶化核", "count": 18 }
         ]
       }
     ],
-    "baseATK": 44.336,
-    "baseATKCurve": 1
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "overviewItems": [
+      { "id": "GoldenBranchOfADistantSea", "name": "遠海夷地的金枝", "rarity": 5 },
+      { "id": "PolarizingPrism", "name": "偏光稜鏡", "rarity": 4 },
+      { "id": "SpectralNucleus", "name": "浮游晶化核", "rarity": 3 }
+    ],
+    "subAttr": { "type": 5, "value": 0.108, "curve": 18 },
+    "affix": {
+      "name": "白夜皓月",
+      "levels": [
+        { "desc": "治療加成提升<color=#99FFFFFF>10%</color>；普通攻擊造成的傷害增加，增加值為裝備該武器的角色生命值上限的<color=#99FFFFFF>1%</color>。在施放元素爆發後的12秒內，普通攻擊命中敵人時恢復0.6點元素能量，每0.1秒至多依此方式恢復一次元素能量。", "params": [0.1, 0.01, 12, 0.6, 0.1] },
+        { "desc": "治療加成提升<color=#99FFFFFF>12.5%</color>；普通攻擊造成的傷害增加，增加值為裝備該武器的角色生命值上限的<color=#99FFFFFF>1.5%</color>。在施放元素爆發後的12秒內，普通攻擊命中敵人時恢復0.6點元素能量，每0.1秒至多依此方式恢復一次元素能量。", "params": [0.125, 0.015, 12, 0.6, 0.1] },
+        { "desc": "治療加成提升<color=#99FFFFFF>15%</color>；普通攻擊造成的傷害增加，增加值為裝備該武器的角色生命值上限的<color=#99FFFFFF>2%</color>。在施放元素爆發後的12秒內，普通攻擊命中敵人時恢復0.6點元素能量，每0.1秒至多依此方式恢復一次元素能量。", "params": [0.15, 0.02, 12, 0.6, 0.1] },
+        { "desc": "治療加成提升<color=#99FFFFFF>17.5%</color>；普通攻擊造成的傷害增加，增加值為裝備該武器的角色生命值上限的<color=#99FFFFFF>2.5%</color>。在施放元素爆發後的12秒內，普通攻擊命中敵人時恢復0.6點元素能量，每0.1秒至多依此方式恢復一次元素能量。", "params": [0.175, 0.025, 12, 0.6, 0.1] },
+        { "desc": "治療加成提升<color=#99FFFFFF>20%</color>；普通攻擊造成的傷害增加，增加值為裝備該武器的角色生命值上限的<color=#99FFFFFF>3%</color>。在施放元素爆發後的12秒內，普通攻擊命中敵人時恢復0.6點元素能量，每0.1秒至多依此方式恢復一次元素能量。", "params": [0.2, 0.03, 12, 0.6, 0.1] }
+      ]
+    }
   },
   {
+    "uid": 14509,
+    "id": "KagurasVerity",
+    "name": "Kagura's Verity",
+    "localeName": "神樂之真意",
+    "desc": "表演神樂之舞時所用的神鈴，為宮司所賜福。神櫻之香縈繞其上。",
+    "rarity": 5,
+    "type": 5,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          { "id": "MaskOfTheWickedLieutenant", "localeName": "今昔劇畫之惡尉", "count": 5 },
+          { "id": "ConcealedClaw", "localeName": "隱獸指爪", "count": 5 },
+          { "id": "SpectralHusk", "localeName": "浮游乾核", "count": 3 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "今昔劇畫之虎齧", "count": 5 },
+          { "id": "ConcealedClaw", "localeName": "隱獸指爪", "count": 18 },
+          { "id": "SpectralHusk", "localeName": "浮游乾核", "count": 12 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "今昔劇畫之虎齧", "count": 9 },
+          { "id": "ConcealedUnguis", "localeName": "隱獸利爪", "count": 9 },
+          { "id": "SpectralHeart", "localeName": "浮游幽核", "count": 9 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "今昔劇畫之一角", "count": 5 },
+          { "id": "ConcealedUnguis", "localeName": "隱獸利爪", "count": 18 },
+          { "id": "SpectralHeart", "localeName": "浮游幽核", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "今昔劇畫之一角", "count": 9 },
+          { "id": "ConcealedTalon", "localeName": "隱獸鬼爪", "count": 14 },
+          { "id": "SpectralNucleus", "localeName": "浮游晶化核", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "MaskOfTheKijin", "localeName": "今昔劇畫之鬼人", "count": 6 },
+          { "id": "ConcealedTalon", "localeName": "隱獸鬼爪", "count": 27 },
+          { "id": "SpectralNucleus", "localeName": "浮游晶化核", "count": 18 }
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "overviewItems": [
+      { "id": "MaskOfTheKijin", "name": "今昔劇畫之鬼人", "rarity": 5 },
+      { "id": "ConcealedTalon", "name": "隱獸鬼爪", "rarity": 4 },
+      { "id": "SpectralNucleus", "name": "浮游晶化核", "rarity": 3 }
+    ],
+    "subAttr": { "type": 13, "value": 0.144, "curve": 18 },
+    "affix": {
+      "name": "神櫻神遊神樂舞",
+      "levels": [
+        { "desc": "施放元素戰技時，將獲得「神樂舞」的效果，使裝備該武器的角色的元素戰技造成的傷害提高<color=#99FFFFFF>12%</color>，該效果持續16秒，至多疊加3層。持有3層時，該角色獲得<color=#99FFFFFF>12%</color>所有元素傷害加成。", "params": [0.12, 16, 0.12] },
+        { "desc": "施放元素戰技時，將獲得「神樂舞」的效果，使裝備該武器的角色的元素戰技造成的傷害提高<color=#99FFFFFF>15%</color>，該效果持續16秒，至多疊加3層。持有3層時，該角色獲得<color=#99FFFFFF>15%</color>所有元素傷害加成。", "params": [0.15, 16, 0.15] },
+        { "desc": "施放元素戰技時，將獲得「神樂舞」的效果，使裝備該武器的角色的元素戰技造成的傷害提高<color=#99FFFFFF>18%</color>，該效果持續16秒，至多疊加3層。持有3層時，該角色獲得<color=#99FFFFFF>18%</color>所有元素傷害加成。", "params": [0.18, 16, 0.18] },
+        { "desc": "施放元素戰技時，將獲得「神樂舞」的效果，使裝備該武器的角色的元素戰技造成的傷害提高<color=#99FFFFFF>21%</color>，該效果持續16秒，至多疊加3層。持有3層時，該角色獲得<color=#99FFFFFF>21%</color>所有元素傷害加成。", "params": [0.21, 16, 0.21] },
+        { "desc": "施放元素戰技時，將獲得「神樂舞」的效果，使裝備該武器的角色的元素戰技造成的傷害提高<color=#99FFFFFF>24%</color>，該效果持續16秒，至多疊加3層。持有3層時，該角色獲得<color=#99FFFFFF>24%</color>所有元素傷害加成。", "params": [0.24, 16, 0.24] }
+      ]
+    }
+  },
+  {
+    "uid": 15101,
     "id": "HuntersBow",
     "name": "Hunter's Bow",
     "localeName": "獵弓",
@@ -7960,6 +9025,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 15201,
     "id": "SeasonedHuntersBow",
     "name": "Seasoned Hunter's Bow",
     "localeName": "歷練的獵弓",
@@ -8008,6 +9074,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 15301,
     "id": "RavenBow",
     "name": "Raven Bow",
     "localeName": "鴉羽弓",
@@ -8090,6 +9157,7 @@
     }
   },
   {
+    "uid": 15302,
     "id": "SharpshootersOath",
     "name": "Sharpshooter's Oath",
     "localeName": "神射手之誓",
@@ -8172,6 +9240,7 @@
     }
   },
   {
+    "uid": 15303,
     "id": "RecurveBow",
     "name": "Recurve Bow",
     "localeName": "反曲弓",
@@ -8254,6 +9323,7 @@
     }
   },
   {
+    "uid": 15304,
     "id": "Slingshot",
     "name": "Slingshot",
     "localeName": "彈弓",
@@ -8336,6 +9406,7 @@
     }
   },
   {
+    "uid": 15305,
     "id": "Messenger",
     "name": "Messenger",
     "localeName": "信使",
@@ -8418,6 +9489,7 @@
     }
   },
   {
+    "uid": 15306,
     "id": "EbonyBow",
     "name": "Ebony Bow",
     "localeName": "黑檀弓",
@@ -8500,6 +9572,7 @@
     }
   },
   {
+    "uid": 15401,
     "id": "FavoniusWarbow",
     "name": "Favonius Warbow",
     "localeName": "西風獵弓",
@@ -8582,6 +9655,7 @@
     }
   },
   {
+    "uid": 15402,
     "id": "TheStringless",
     "name": "The Stringless",
     "localeName": "絕弦",
@@ -8664,6 +9738,7 @@
     }
   },
   {
+    "uid": 15403,
     "id": "SacrificialBow",
     "name": "Sacrificial Bow",
     "localeName": "祭禮弓",
@@ -8746,6 +9821,7 @@
     }
   },
   {
+    "uid": 15404,
     "id": "RoyalBow",
     "name": "Royal Bow",
     "localeName": "宗室長弓",
@@ -8828,6 +9904,7 @@
     }
   },
   {
+    "uid": 15405,
     "id": "Rust",
     "name": "Rust",
     "localeName": "弓藏",
@@ -8910,6 +9987,7 @@
     }
   },
   {
+    "uid": 15406,
     "id": "PrototypeCrescent",
     "name": "Prototype Crescent",
     "localeName": "試作澹月",
@@ -8992,6 +10070,7 @@
     }
   },
   {
+    "uid": 15407,
     "id": "CompoundBow",
     "name": "Compound Bow",
     "localeName": "鋼輪弓",
@@ -9074,6 +10153,7 @@
     }
   },
   {
+    "uid": 15408,
     "id": "BlackcliffWarbow",
     "name": "Blackcliff Warbow",
     "localeName": "黑岩戰弓",
@@ -9156,6 +10236,7 @@
     }
   },
   {
+    "uid": 15409,
     "id": "TheViridescentHunt",
     "name": "The Viridescent Hunt",
     "localeName": "蒼翠獵弓",
@@ -9238,6 +10319,7 @@
     }
   },
   {
+    "uid": 15410,
     "id": "AlleyHunter",
     "name": "Alley Hunter",
     "localeName": "暗巷獵手",
@@ -9320,6 +10402,7 @@
     }
   },
   {
+    "uid": 15412,
     "id": "MitternachtsWaltz",
     "name": "Mitternachts Waltz",
     "localeName": "幽夜華爾滋",
@@ -9402,6 +10485,7 @@
     }
   },
   {
+    "uid": 15413,
     "id": "WindblumeOde",
     "name": "Windblume Ode",
     "localeName": "風花之頌",
@@ -9484,6 +10568,7 @@
     }
   },
   {
+    "uid": 15414,
     "id": "Hamayumi",
     "name": "Hamayumi",
     "localeName": "破魔之弓",
@@ -9566,6 +10651,167 @@
     }
   },
   {
+    "uid": 15415,
+    "id": "Predator",
+    "name": "Predator",
+    "localeName": "掠食者",
+    "desc": "設計風格相當獨特的弓，應該不屬於這個世界。",
+    "rarity": 4,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "NarukamisWisdom", "localeName": "鳴神御靈的明惠", "count": 3 },
+          { "id": "DismalPrism", "localeName": "黯淡稜鏡", "count": 3 },
+          { "id": "FirmArrowhead", "localeName": "牢固的箭鏃", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鳴神御靈的歡喜", "count": 3 },
+          { "id": "DismalPrism", "localeName": "黯淡稜鏡", "count": 12 },
+          { "id": "FirmArrowhead", "localeName": "牢固的箭鏃", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鳴神御靈的歡喜", "count": 6 },
+          { "id": "CrystalPrism", "localeName": "水晶稜鏡", "count": 6 },
+          { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鳴神御靈的親愛", "count": 3 },
+          { "id": "CrystalPrism", "localeName": "水晶稜鏡", "count": 12 },
+          { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鳴神御靈的親愛", "count": 6 },
+          { "id": "PolarizingPrism", "localeName": "偏光稜鏡", "count": 9 },
+          { "id": "WeatheredArrowhead", "localeName": "歷戰的箭鏃", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "NarukamisValor", "localeName": "鳴神御靈的勇武", "count": 4 },
+          { "id": "PolarizingPrism", "localeName": "偏光稜鏡", "count": 18 },
+          { "id": "WeatheredArrowhead", "localeName": "歷戰的箭鏃", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 42.401,
+    "baseATKCurve": 6,
+    "overviewItems": [
+      { "id": "NarukamisValor", "name": "鳴神御靈的勇武", "rarity": 5 },
+      { "id": "PolarizingPrism", "name": "偏光稜鏡", "rarity": 4 },
+      { "id": "WeatheredArrowhead", "name": "歷戰的箭鏃", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.09, "curve": 17 },
+    "affix": {
+      "name": "強力攻擊",
+      "levels": [{ "desc": "<color=#99FFFFFF>僅在以下平臺生效：</color>\n<color=#99FFFFFF>\"PlayStation Network\"</color>\n對敵人造成冰元素傷害後，普通攻擊與重擊造成的傷害提高10%，該效果持續6秒，至多疊加2次；此外，亞蘿伊裝備掠食者時，攻擊力提升66點。", "params": [0.1, 6, 66] }]
+    }
+  },
+  {
+    "uid": 15416,
+    "id": "MouunsMoon",
+    "name": "Mouun's Moon",
+    "localeName": "曚雲之月",
+    "desc": "出自螺鈿與珊瑚的精美戰弓，月色的弓臂上流動著淒然的光彩。",
+    "rarity": 4,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "NarukamisWisdom", "localeName": "鳴神御靈的明惠", "count": 3 },
+          { "id": "DismalPrism", "localeName": "黯淡稜鏡", "count": 3 },
+          { "id": "SpectralHusk", "localeName": "浮游乾核", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鳴神御靈的歡喜", "count": 3 },
+          { "id": "DismalPrism", "localeName": "黯淡稜鏡", "count": 12 },
+          { "id": "SpectralHusk", "localeName": "浮游乾核", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "NarukamisJoy", "localeName": "鳴神御靈的歡喜", "count": 6 },
+          { "id": "CrystalPrism", "localeName": "水晶稜鏡", "count": 6 },
+          { "id": "SpectralHeart", "localeName": "浮游幽核", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鳴神御靈的親愛", "count": 3 },
+          { "id": "CrystalPrism", "localeName": "水晶稜鏡", "count": 12 },
+          { "id": "SpectralHeart", "localeName": "浮游幽核", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "NarukamisAffection", "localeName": "鳴神御靈的親愛", "count": 6 },
+          { "id": "PolarizingPrism", "localeName": "偏光稜鏡", "count": 9 },
+          { "id": "SpectralNucleus", "localeName": "浮游晶化核", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "NarukamisValor", "localeName": "鳴神御靈的勇武", "count": 4 },
+          { "id": "PolarizingPrism", "localeName": "偏光稜鏡", "count": 18 },
+          { "id": "SpectralNucleus", "localeName": "浮游晶化核", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "overviewItems": [
+      { "id": "NarukamisValor", "name": "鳴神御靈的勇武", "rarity": 5 },
+      { "id": "PolarizingPrism", "name": "偏光稜鏡", "rarity": 4 },
+      { "id": "SpectralNucleus", "name": "浮游晶化核", "rarity": 3 }
+    ],
+    "subAttr": { "type": 7, "value": 0.06, "curve": 17 },
+    "affix": {
+      "name": "馭浪的海祇民",
+      "levels": [
+        { "desc": "隊伍中所有角色的元素能量上限的總和，每1點能使裝備此武器的角色的元素爆發造成的傷害提高<color=#99FFFFFF>0.12%</color>，依此方式，元素爆發造成的傷害至多提高<color=#99FFFFFF>40%</color>。", "params": [0.12, 0.4] },
+        { "desc": "隊伍中所有角色的元素能量上限的總和，每1點能使裝備此武器的角色的元素爆發造成的傷害提高<color=#99FFFFFF>0.15%</color>，依此方式，元素爆發造成的傷害至多提高<color=#99FFFFFF>50%</color>。", "params": [0.15, 0.5] },
+        { "desc": "隊伍中所有角色的元素能量上限的總和，每1點能使裝備此武器的角色的元素爆發造成的傷害提高<color=#99FFFFFF>0.18%</color>，依此方式，元素爆發造成的傷害至多提高<color=#99FFFFFF>60%</color>。", "params": [0.18, 0.6] },
+        { "desc": "隊伍中所有角色的元素能量上限的總和，每1點能使裝備此武器的角色的元素爆發造成的傷害提高<color=#99FFFFFF>0.21%</color>，依此方式，元素爆發造成的傷害至多提高<color=#99FFFFFF>70%</color>。", "params": [0.21, 0.7] },
+        { "desc": "隊伍中所有角色的元素能量上限的總和，每1點能使裝備此武器的角色的元素爆發造成的傷害提高<color=#99FFFFFF>0.24%</color>，依此方式，元素爆發造成的傷害至多提高<color=#99FFFFFF>80%</color>。", "params": [0.24, 0.8] }
+      ]
+    }
+  },
+  {
+    "uid": 15501,
     "id": "SkywardHarp",
     "name": "Skyward Harp",
     "localeName": "天空之翼",
@@ -9648,6 +10894,7 @@
     }
   },
   {
+    "uid": 15502,
     "id": "AmosBow",
     "name": "Amos' Bow",
     "localeName": "阿莫斯之弓",
@@ -9730,6 +10977,7 @@
     }
   },
   {
+    "uid": 15503,
     "id": "ElegyForTheEnd",
     "name": "Elegy for the End",
     "localeName": "終末嗟嘆之詩",
@@ -9827,6 +11075,7 @@
     }
   },
   {
+    "uid": 15504,
     "id": "KunwusWyrmbane",
     "name": "Kunwu's Wyrmbane",
     "localeName": "昆吾墜龍",
@@ -9875,6 +11124,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 15505,
     "id": "PrimordialJadeVista",
     "name": "Primordial Jade Vista",
     "localeName": "懸黎千鈞",
@@ -9923,6 +11173,7 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 15506,
     "id": "MirrorBreaker",
     "name": "Mirror Breaker",
     "localeName": "破鏡",
@@ -9971,6 +11222,105 @@
     "baseATKCurve": 1
   },
   {
+    "uid": 15507,
+    "id": "PolarStar",
+    "name": "Polar Star",
+    "localeName": "冬極白星",
+    "desc": "如同深冬堅冰一樣尖銳的無垢之弓。",
+    "rarity": 5,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          { "id": "MaskOfTheWickedLieutenant", "localeName": "今昔劇畫之惡尉", "count": 5 },
+          { "id": "ConcealedClaw", "localeName": "隱獸指爪", "count": 5 },
+          { "id": "SpectralHusk", "localeName": "浮游乾核", "count": 3 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "今昔劇畫之虎齧", "count": 5 },
+          { "id": "ConcealedClaw", "localeName": "隱獸指爪", "count": 18 },
+          { "id": "SpectralHusk", "localeName": "浮游乾核", "count": 12 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          { "id": "MaskOfTheTigersBite", "localeName": "今昔劇畫之虎齧", "count": 9 },
+          { "id": "ConcealedUnguis", "localeName": "隱獸利爪", "count": 9 },
+          { "id": "SpectralHeart", "localeName": "浮游幽核", "count": 9 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "今昔劇畫之一角", "count": 5 },
+          { "id": "ConcealedUnguis", "localeName": "隱獸利爪", "count": 18 },
+          { "id": "SpectralHeart", "localeName": "浮游幽核", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "MaskOfTheOneHorned", "localeName": "今昔劇畫之一角", "count": 9 },
+          { "id": "ConcealedTalon", "localeName": "隱獸鬼爪", "count": 14 },
+          { "id": "SpectralNucleus", "localeName": "浮游晶化核", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "MaskOfTheKijin", "localeName": "今昔劇畫之鬼人", "count": 6 },
+          { "id": "ConcealedTalon", "localeName": "隱獸鬼爪", "count": 27 },
+          { "id": "SpectralNucleus", "localeName": "浮游晶化核", "count": 18 }
+        ]
+      }
+    ],
+    "baseATK": 45.936,
+    "baseATKCurve": 11,
+    "overviewItems": [
+      { "id": "MaskOfTheKijin", "name": "今昔劇畫之鬼人", "rarity": 5 },
+      { "id": "ConcealedTalon", "name": "隱獸鬼爪", "rarity": 4 },
+      { "id": "SpectralNucleus", "name": "浮游晶化核", "rarity": 3 }
+    ],
+    "subAttr": { "type": 12, "value": 0.072, "curve": 18 },
+    "affix": {
+      "name": "極晝的先兆者",
+      "levels": [
+        {
+          "desc": "元素戰技和元素爆發造成的傷害提高<color=#99FFFFFF>12%</color>；普通攻擊、重擊、元素戰技或元素爆發命中敵人後，將產生1層持續12秒的「白夜極星」效果。處於1/2/3/4層「白夜極星」效果下時，攻擊力將提高<color=#99FFFFFF>10/20/30/48%</color>。由普通攻擊、重擊、元素戰技或元素爆發產生的「白夜極星」將分別獨立存在。",
+          "params": [0.12, 12, 0.1, 0.2, 0.3, 0.48]
+        },
+        {
+          "desc": "元素戰技和元素爆發造成的傷害提高<color=#99FFFFFF>15%</color>；普通攻擊、重擊、元素戰技或元素爆發命中敵人後，將產生1層持續12秒的「白夜極星」效果。處於1/2/3/4層「白夜極星」效果下時，攻擊力將提高<color=#99FFFFFF>12.5/25/37.5/60%</color>。由普通攻擊、重擊、元素戰技或元素爆發產生的「白夜極星」將分別獨立存在。",
+          "params": [0.15, 12, 0.125, 0.25, 0.375, 0.6]
+        },
+        {
+          "desc": "元素戰技和元素爆發造成的傷害提高<color=#99FFFFFF>18%</color>；普通攻擊、重擊、元素戰技或元素爆發命中敵人後，將產生1層持續12秒的「白夜極星」效果。處於1/2/3/4層「白夜極星」效果下時，攻擊力將提高<color=#99FFFFFF>15/30/45/72%</color>。由普通攻擊、重擊、元素戰技或元素爆發產生的「白夜極星」將分別獨立存在。",
+          "params": [0.18, 12, 0.15, 0.3, 0.45, 0.72]
+        },
+        {
+          "desc": "元素戰技和元素爆發造成的傷害提高<color=#99FFFFFF>21%</color>；普通攻擊、重擊、元素戰技或元素爆發命中敵人後，將產生1層持續12秒的「白夜極星」效果。處於1/2/3/4層「白夜極星」效果下時，攻擊力將提高<color=#99FFFFFF>17.5/35/52.5/84%</color>。由普通攻擊、重擊、元素戰技或元素爆發產生的「白夜極星」將分別獨立存在。",
+          "params": [0.21, 12, 0.175, 0.35, 0.525, 0.84]
+        },
+        {
+          "desc": "元素戰技和元素爆發造成的傷害提高<color=#99FFFFFF>24%</color>；普通攻擊、重擊、元素戰技或元素爆發命中敵人後，將產生1層持續12秒的「白夜極星」效果。處於1/2/3/4層「白夜極星」效果下時，攻擊力將提高<color=#99FFFFFF>20/40/60/96%</color>。由普通攻擊、重擊、元素戰技或元素爆發產生的「白夜極星」將分別獨立存在。",
+          "params": [0.24, 12, 0.2, 0.4, 0.6, 0.96]
+        }
+      ]
+    }
+  },
+  {
+    "uid": 15509,
     "id": "ThunderingPulse",
     "name": "Thundering Pulse",
     "localeName": "飛雷之弦振",

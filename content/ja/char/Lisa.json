@@ -1,4 +1,5 @@
 {
+  "uid": 10000006,
   "id": "Lisa",
   "name": "Lisa",
   "localeName": "リサ",
@@ -294,7 +295,7 @@
     ]
   },
   "talents": [
-    { "name": "InducedAftershock", "localeName": "感電余震", "desc": "重撃が命中した時、敵に<color=#FFD780FF>蒼雷</color>の誘雷效果を付与する。", "unlock": 1, "values": [0.7] },
+    { "name": "InducedAftershock", "localeName": "感電余震", "desc": "重撃が命中した時、敵に<color=#FFD780FF>蒼雷</color>の誘雷効果を付与する。", "unlock": 1, "values": [0.7] },
     { "name": "StaticElectricityField", "localeName": "静電気フィールド", "desc": "<color=#FFD780FF>蔷薇の雷光</color>攻撃を受けた敵の防御力-15%。継続時間10秒。", "unlock": 4, "values": [0.15, 10] },
     { "name": "GeneralPharmaceutics", "localeName": "薬剤の知識", "desc": "薬剤を合成する時、20%の確率で材料が返還される。" }
   ],

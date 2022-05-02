@@ -1,4 +1,5 @@
 {
+  "uid": 10000030,
   "id": "Zhongli",
   "name": "Zhongli",
   "localeName": "鍾離",
@@ -321,7 +322,7 @@
     { "name": "JadeShimmeringThroughDarkness", "localeName": "圭璋，暝仍不移其暉", "desc": "<color=#FFD780FF>地心</color>的技能等級提高3級。\n至多提升至15級。" },
     { "name": "TopazUnbreakableAndFearless", "localeName": "黃琮，破而不奪其堅", "desc": "<color=#FFD780FF>天星</color>的影響範圍擴大20%。\n此外，天星的石化效果持續時間延長2秒。", "values": [0.2, 2] },
     { "name": "LazuliHeraldOfTheOrder", "localeName": "蒼璧，驅之長昭天理", "desc": "<color=#FFD780FF>天星</color>的技能等級提高3級。\n至多提升至15級。" },
-    { "name": "ChrysosBountyOfDominator", "localeName": "金玉，禮予天地四方", "desc": "玉璋護盾受到傷害時，將為當前角色恢復生命值，恢復量為傷害的40%。\n單次恢復量不超過該角色最大生命值的8%。", "values": [0.4, 0.08] }
+    { "name": "ChrysosBountyOfDominator", "localeName": "金玉，禮予天地四方", "desc": "玉璋護盾受到傷害時，將為當前角色恢復生命值，回復量為傷害的40%。\n單次回復量不超過該角色最大生命值的8%。", "values": [0.4, 0.08] }
   ],
   "overviewItems": [
     { "id": "PrithivaTopazGemstone", "localeName": "堅牢黃玉", "rarity": 5 },

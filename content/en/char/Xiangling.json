@@ -1,4 +1,5 @@
 {
+  "uid": 10000023,
   "id": "Xiangling",
   "name": "Xiangling",
   "localeName": "Xiangling",
@@ -94,7 +95,7 @@
   "elemSkill": {
     "name": "GuobaAttack",
     "localeName": "Guoba Attack",
-    "desc": "Summons Guoba the Panda. Guoba continuously breathes fire at opponents, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\n\n<i>Guoba loves to eat spicy food. Problem is, his stomach can't handle something this spicy.</i>",
+    "desc": "Summons Guoba, who will continuously breathe fire at opponents, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\n\n<i>Guoba loves to eat spicy food. Problem is, his stomach can't handle something this spicy.</i>",
     "cd": 12,
     "paramTpls": ["Flame DMG|{param1:P}", "CD|{param2:F1}s"],
     "paramVals": [

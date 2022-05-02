@@ -18,6 +18,8 @@
   { "id": 11, "name": "Realm Within", "localeName": "Realm Within", "desc": "Realm Within", "elements": [], "type": 1 },
   { "id": 30, "name": "Retrieve the Treasure", "localeName": "Retrieve the Treasure", "desc": "The Abyss Mage has fled into the Domain.\nBrave the Domain and retrieve Klee's treasure!", "elements": [], "type": 1 },
   { "id": 64, "name": "", "localeName": "", "desc": "", "elements": [], "type": 2 },
+  { "id": 65, "name": "", "localeName": "", "desc": "", "elements": [], "type": 2 },
+  { "id": 66, "name": "", "localeName": "", "desc": "", "elements": [], "type": 2 },
   {
     "id": 101,
     "name": "The Golden Shadow",
@@ -188,6 +190,39 @@
     "elements": [],
     "type": 4
   },
+  { "id": 126, "name": "Narukami Island: Tenshukaku", "localeName": "Narukami Island: Tenshukaku", "desc": "This is where the Raiden Shogun dwells. If your guess isn't off, you are about to meet Signora again.", "elements": [], "type": 1 },
+  {
+    "id": 127,
+    "name": "Memories: Duel to the Fiery Death I",
+    "localeName": "Memories: Duel to the Fiery Death I",
+    "desc": "The Raiden Shogun's judgment has descended, and the Fatuus Signora shall trouble the Seven Nations no longer.\nYet the memories of climbing the steps of Tenshukaku and engaging her in a duel before the throne are still fresh in your mind.\nRelive your memories of this duel, and you may learn something new.",
+    "elements": [],
+    "type": 4
+  },
+  {
+    "id": 128,
+    "name": "Memories: Duel to the Fiery Death II",
+    "localeName": "Memories: Duel to the Fiery Death II",
+    "desc": "The Raiden Shogun's judgment has descended, and the Fatuus Signora shall trouble the Seven Nations no longer.\nYet the memories of climbing the steps of Tenshukaku and engaging her in a duel before the throne are still fresh in your mind.\nRelive your memories of this duel, and you may learn something new.",
+    "elements": [],
+    "type": 4
+  },
+  {
+    "id": 129,
+    "name": "Memories: Duel to the Fiery Death III",
+    "localeName": "Memories: Duel to the Fiery Death III",
+    "desc": "The Raiden Shogun's judgment has descended, and the Fatuus Signora shall trouble the Seven Nations no longer.\nYet the memories of climbing the steps of Tenshukaku and engaging her in a duel before the throne are still fresh in your mind.\nRelive your memories of this duel, and you may learn something new.",
+    "elements": [],
+    "type": 4
+  },
+  {
+    "id": 130,
+    "name": "Memories: Duel to the Fiery Death IV",
+    "localeName": "Memories: Duel to the Fiery Death IV",
+    "desc": "The Raiden Shogun's judgment has descended, and the Fatuus Signora shall trouble the Seven Nations no longer.\nYet the memories of climbing the steps of Tenshukaku and engaging her in a duel before the throne are still fresh in your mind.\nRelive your memories of this duel, and you may learn something new.",
+    "elements": [],
+    "type": 4
+  },
   {
     "id": 1001,
     "name": "Deep Within the Temple of the Falcon",
@@ -287,6 +322,25 @@
     "type": 1
   },
   { "id": 1118, "name": "The Omnipresent God", "localeName": "The Omnipresent God", "desc": "", "elements": [], "type": 1 },
+  { "id": 1119, "name": "Delusion Factory", "localeName": "Delusion Factory", "desc": "Delusions cannot be allowed to spread throughout Inazuma.\nYou will not stand by idly and watch as they cause ever more suffering.", "elements": [], "type": 1 },
+  {
+    "id": 1120,
+    "name": "Hidden Mountain Base",
+    "localeName": "Hidden Mountain Base",
+    "desc": "Following the intelligence you got from Ippei, you discover the Takatsukasa Clan's hidden base.\nThe Tenryou Commission is in a precarious state, and Kujou Kamaji has not returned. You do not yet know what has happened in this place...",
+    "elements": [],
+    "type": 1
+  },
+  { "id": 1121, "name": "", "localeName": "", "desc": "", "elements": [], "type": 1 },
+  { "id": 1123, "name": "Tenryou Commission Headquarters", "localeName": "Tenryou Commission Headquarters", "desc": "Tenryou Commission Headquarters", "elements": [], "type": 1 },
+  {
+    "id": 1125,
+    "name": "Crumbling Guilt",
+    "localeName": "Crumbling Guilt",
+    "desc": "After a round of pursuit, you and Itto have reached the ronin hideout.\nOnly by breaking through the obstacles that lie ahead can you resolve the misunderstanding between the Crimson Oni and the Blue Oni.",
+    "elements": [],
+    "type": 1
+  },
   { "id": 2000, "name": "Lost Treasure of Arcadia", "localeName": "Lost Treasure of Arcadia", "desc": "Lost treasures reveal themselves only to those with true wisdom. Having solved the mystery of Arcadia, you finally arrive at the site of the treasure...", "elements": [], "type": 1 },
   { "id": 2001, "name": "Storming Terror", "localeName": "Storming Terror", "desc": "After a long and daring pursuit of Dvalin, who has been led astray by the Abyss Mages, you are about to finally confront him once and for all.", "elements": [], "type": 1 },
   { "id": 2003, "name": "Cipher for the Ciphertext", "localeName": "Cipher for the Ciphertext", "desc": "A ciphertext written by an Abyss Mage for an Abyss Mage.\nThe simplest way to read it is to find an Abyss Mage, of course...", "elements": [], "type": 1 },
@@ -463,6 +517,15 @@
     "elements": [],
     "type": 2
   },
+  {
+    "id": 4041,
+    "name": "Tutelage: Umigozen's Mansion",
+    "localeName": "Tutelage: Umigozen's Mansion",
+    "desc": "Once, in the ancient mansion of Umigozen, famed throughout Inazuma, there was a window that could be used to enjoy wine and observe the flowers outside. Now the mansion lies empty, and only bandits and thieves dwell within.",
+    "elements": [],
+    "type": 2
+  },
+  { "id": 4042, "name": "Tutelage: Nest-Bed of Ambition", "localeName": "Tutelage: Nest-Bed of Ambition", "desc": "This masterless mansion has become the haunt of monsters from the rift. Defeat them all and obtain the treasures within.", "elements": [], "type": 2 },
   {
     "id": 4200,
     "name": "Domain of Mastery: Biting Frost I",
@@ -1200,6 +1263,38 @@
     "type": 8
   },
   {
+    "id": 5204,
+    "name": "Domain of Blessing: Necropolis I",
+    "localeName": "Domain of Blessing: Necropolis I",
+    "desc": "This masterless mansion has become the haunting ground of monsters from the rift.\nThose who can wield the eternal lightning to conquer this trial will obtain the artifacts within.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 5205,
+    "name": "Domain of Blessing: Necropolis II",
+    "localeName": "Domain of Blessing: Necropolis II",
+    "desc": "This masterless mansion has become the haunting ground of monsters from the rift.\nThose who can wield the eternal lightning to conquer this trial will obtain the artifacts within.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 5206,
+    "name": "Domain of Blessing: Necropolis III",
+    "localeName": "Domain of Blessing: Necropolis III",
+    "desc": "This masterless mansion has become the haunting ground of monsters from the rift.\nThose who can wield the eternal lightning to conquer this trial will obtain the artifacts within.",
+    "elements": [],
+    "type": 8
+  },
+  {
+    "id": 5207,
+    "name": "Domain of Blessing: Necropolis IV",
+    "localeName": "Domain of Blessing: Necropolis IV",
+    "desc": "This masterless mansion has become the haunting ground of monsters from the rift.\nThose who can wield the eternal lightning to conquer this trial will obtain the artifacts within.",
+    "elements": [],
+    "type": 8
+  },
+  {
     "id": 5210,
     "name": "Domain of Forgery: Electrostatic Field I",
     "localeName": "Domain of Forgery: Electrostatic Field I",
@@ -1618,35 +1713,60 @@
   { "id": 7217, "name": "Domain of Chaos", "localeName": "Domain of Chaos", "desc": "Energy Amplifier - Unique Dragon's Tear", "elements": [] },
   { "id": 7218, "name": "Domain of Furious Thunder", "localeName": "Domain of Furious Thunder", "desc": "Energy Amplifier - Unique Dragon's Tear", "elements": [] },
   { "id": 7219, "name": "Domain of Heresy", "localeName": "Domain of Heresy", "desc": "Energy Amplifier - Unique Dragon's Tear", "elements": [] },
+  { "id": 7221, "name": "Deceitful Domain: Whirling Judgment", "localeName": "Deceitful Domain: Whirling Judgment", "desc": "Deceitful Domain: Whirling Judgment", "elements": [] },
+  { "id": 7222, "name": "Deceitful Domain: Where Bloodhounds Gather", "localeName": "Deceitful Domain: Where Bloodhounds Gather", "desc": "Deceitful Domain: Where Bloodhounds Gather", "elements": [] },
+  { "id": 7223, "name": "Deceitful Domain: Sea of Wandering Souls", "localeName": "Deceitful Domain: Sea of Wandering Souls", "desc": "Deceitful Domain: Sea of Wandering Souls", "elements": [] },
+  { "id": 7224, "name": "Deceitful Domain: Whirling Judgment", "localeName": "Deceitful Domain: Whirling Judgment", "desc": "Deceitful Domain: Whirling Judgment", "elements": [] },
+  { "id": 7225, "name": "Deceitful Domain: Where Bloodhounds Gather", "localeName": "Deceitful Domain: Where Bloodhounds Gather", "desc": "Deceitful Domain: Where Bloodhounds Gather", "elements": [] },
+  { "id": 7226, "name": "Deceitful Domain: Sea of Wandering Souls", "localeName": "Deceitful Domain: Sea of Wandering Souls", "desc": "Deceitful Domain: Sea of Wandering Souls", "elements": [] },
+  { "id": 7227, "name": "Deceitful Domain: Whirling Judgment", "localeName": "Deceitful Domain: Whirling Judgment", "desc": "Deceitful Domain: Whirling Judgment", "elements": [] },
+  { "id": 7228, "name": "Deceitful Domain: Where Bloodhounds Gather", "localeName": "Deceitful Domain: Where Bloodhounds Gather", "desc": "Deceitful Domain: Where Bloodhounds Gather", "elements": [] },
+  { "id": 7229, "name": "Deceitful Domain: Sea of Wandering Souls", "localeName": "Deceitful Domain: Sea of Wandering Souls", "desc": "Deceitful Domain: Sea of Wandering Souls", "elements": [] },
+  { "id": 7230, "name": "Deceitful Domain: Whirling Judgment", "localeName": "Deceitful Domain: Whirling Judgment", "desc": "Deceitful Domain: Whirling Judgment", "elements": [] },
+  { "id": 7231, "name": "Deceitful Domain: Where Bloodhounds Gather", "localeName": "Deceitful Domain: Where Bloodhounds Gather", "desc": "Deceitful Domain: Where Bloodhounds Gather", "elements": [] },
+  { "id": 7232, "name": "Deceitful Domain: Sea of Wandering Souls", "localeName": "Deceitful Domain: Sea of Wandering Souls", "desc": "Deceitful Domain: Sea of Wandering Souls", "elements": [] },
   { "id": 7301, "name": "Automaton Front", "localeName": "Automaton Front", "desc": "The traces of the elemental anomalies point to the final Domain! Unprecedentedly powerful Ruin machines linger within... defeat them in one fell swoop.", "elements": [] },
+  { "id": 7310, "name": "Challenge: Canine Path", "localeName": "Challenge: Canine Path", "desc": "This small house, while ostensibly run-down, conceals a whole other realm on the inside.", "elements": [] },
   { "id": 7400, "name": "Slumber Spirit's Bridge", "localeName": "Slumber Spirit's Bridge", "desc": "In this Stage, enemies will be coming from a single direction. If you wish to achieve victory, you must pay close attention to the Stage and the way enemies arrive.", "elements": [] },
   { "id": 7401, "name": "Slumber Spirit's Bridge", "localeName": "Slumber Spirit's Bridge", "desc": "In this Stage, enemies will be coming from a single direction. If you wish to achieve victory, you must pay close attention to the Stage and the way enemies arrive.", "elements": [] },
-  { "id": 7402, "name": "Autumnal Resplendence", "localeName": "Autumnal Resplendence", "desc": "In this Stage, enemies will be coming simultaneously from two different directions. If you wish to achieve victory, you must pay close attention the Stage and the way enemies arrive.", "elements": [] },
+  {
+    "id": 7402,
+    "name": "Autumnal Resplendence",
+    "localeName": "Autumnal Resplendence",
+    "desc": "In this Stage, enemies will be coming simultaneously from two different directions. If you wish to achieve victory, you must pay close attention to the Stage and the way enemies arrive.",
+    "elements": []
+  },
   {
     "id": 7403,
     "name": "Twin Swallows' Arrival",
     "localeName": "Twin Swallows' Arrival",
-    "desc": "In this Stage, enemies will be coming simultaneously from two different directions. If you wish to achieve victory, you must pay close attention the Stage and the way enemies arrive.",
+    "desc": "In this Stage, enemies will be coming simultaneously from two different directions. If you wish to achieve victory, you must pay close attention to the Stage and the way enemies arrive.",
     "elements": []
   },
-  { "id": 7404, "name": "Springtide Advent", "localeName": "Springtide Advent", "desc": "In this Stage, enemies will be coming simultaneously from two different directions. If you wish to achieve victory, you must pay close attention the Stage and the way enemies arrive.", "elements": [] },
-  { "id": 7405, "name": "Dream Pavilion", "localeName": "Dream Pavilion", "desc": "In this Stage, enemies will be coming simultaneously from two different directions. If you wish to achieve victory, you must pay close attention the Stage and the way enemies arrive.", "elements": [] },
+  { "id": 7404, "name": "Springtide Advent", "localeName": "Springtide Advent", "desc": "In this Stage, enemies will be coming simultaneously from two different directions. If you wish to achieve victory, you must pay close attention to the Stage and the way enemies arrive.", "elements": [] },
+  { "id": 7405, "name": "Dream Pavilion", "localeName": "Dream Pavilion", "desc": "In this Stage, enemies will be coming simultaneously from two different directions. If you wish to achieve victory, you must pay close attention to the Stage and the way enemies arrive.", "elements": [] },
   {
     "id": 7406,
     "name": "Slumber Spirit's Bridge",
     "localeName": "Slumber Spirit's Bridge",
-    "desc": "In this Stage, enemies will be coming simultaneously from two different directions. If you wish to achieve victory, you must pay close attention the Stage and the way enemies arrive.",
+    "desc": "In this Stage, enemies will be coming simultaneously from two different directions. If you wish to achieve victory, you must pay close attention to the Stage and the way enemies arrive.",
     "elements": []
   },
-  { "id": 7407, "name": "Autumnal Resplendence", "localeName": "Autumnal Resplendence", "desc": "In this Stage, enemies will be coming simultaneously from two different directions. If you wish to achieve victory, you must pay close attention the Stage and the way enemies arrive.", "elements": [] },
+  {
+    "id": 7407,
+    "name": "Autumnal Resplendence",
+    "localeName": "Autumnal Resplendence",
+    "desc": "In this Stage, enemies will be coming simultaneously from two different directions. If you wish to achieve victory, you must pay close attention to the Stage and the way enemies arrive.",
+    "elements": []
+  },
   {
     "id": 7408,
     "name": "Twin Swallows' Arrival",
     "localeName": "Twin Swallows' Arrival",
-    "desc": "In this Stage, enemies will be coming simultaneously from two different directions. If you wish to achieve victory, you must pay close attention the Stage and the way enemies arrive.",
+    "desc": "In this Stage, enemies will be coming simultaneously from two different directions. If you wish to achieve victory, you must pay close attention to the Stage and the way enemies arrive.",
     "elements": []
   },
-  { "id": 7409, "name": "Springtide Advent", "localeName": "Springtide Advent", "desc": "In this stage, enemies will be coming simultaneously from three different directions. If you wish to achieve victory, you must pay close attention the Stage and the way enemies arrive.", "elements": [] },
-  { "id": 7410, "name": "Dream Pavilion", "localeName": "Dream Pavilion", "desc": "In this stage, enemies will be coming simultaneously from three different directions. If you wish to achieve victory, you must pay close attention the Stage and the way enemies arrive.", "elements": [] },
-  { "id": 7411, "name": "Dream Pavilion", "localeName": "Dream Pavilion", "desc": "In this Stage, enemies will be coming simultaneously from two different directions. If you wish to achieve victory, you must pay close attention the Stage and the way enemies arrive.", "elements": [] }
+  { "id": 7409, "name": "Springtide Advent", "localeName": "Springtide Advent", "desc": "In this stage, enemies will be coming simultaneously from three different directions. If you wish to achieve victory, you must pay close attention to the Stage and the way enemies arrive.", "elements": [] },
+  { "id": 7410, "name": "Dream Pavilion", "localeName": "Dream Pavilion", "desc": "In this stage, enemies will be coming simultaneously from three different directions. If you wish to achieve victory, you must pay close attention to the Stage and the way enemies arrive.", "elements": [] },
+  { "id": 7411, "name": "Dream Pavilion", "localeName": "Dream Pavilion", "desc": "In this Stage, enemies will be coming simultaneously from two different directions. If you wish to achieve victory, you must pay close attention to the Stage and the way enemies arrive.", "elements": [] }
 ]

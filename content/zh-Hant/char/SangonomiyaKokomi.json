@@ -1,0 +1,324 @@
+{
+  "uid": 10000054,
+  "id": "SangonomiyaKokomi",
+  "name": "Sangonomiya Kokomi",
+  "localeName": "珊瑚宮心海",
+  "desc": "海祇島的「現人神巫女」，統管海祇島各項事宜的少女。",
+  "baseHP": 1048.7,
+  "baseATK": 18.248,
+  "baseDEF": 51.155,
+  "bodyType": 3,
+  "rarity": 5,
+  "weapon": 5,
+  "region": 3,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "VarunadaLazuriteSliver", "localeName": "滌淨青金碎屑", "rarity": 2, "count": 1 },
+        { "id": "SangoPearl", "localeName": "珊瑚真珠", "count": 3 },
+        { "id": "SpectralHusk", "localeName": "浮游乾核", "rarity": 1, "count": 3 }
+      ],
+      "HP": 899.12,
+      "ATK": 15.645,
+      "DEF": 43.861,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "VarunadaLazuriteFragment", "localeName": "滌淨青金斷片", "rarity": 3, "count": 3 },
+        { "id": "DewOfRepudiation", "localeName": "排異之露", "rarity": 4, "count": 2 },
+        { "id": "SangoPearl", "localeName": "珊瑚真珠", "count": 10 },
+        { "id": "SpectralHusk", "localeName": "浮游乾核", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1538,
+      "ATK": 26.76,
+      "DEF": 75.026,
+      "extra": 0.072
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "VarunadaLazuriteFragment", "localeName": "滌淨青金斷片", "rarity": 3, "count": 6 },
+        { "id": "DewOfRepudiation", "localeName": "排異之露", "rarity": 4, "count": 4 },
+        { "id": "SangoPearl", "localeName": "珊瑚真珠", "count": 20 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 12 }
+      ],
+      "HP": 2389.8,
+      "ATK": 41.581,
+      "DEF": 116.58,
+      "extra": 0.144
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "VarunadaLazuriteChunk", "localeName": "滌淨青金塊", "rarity": 4, "count": 3 },
+        { "id": "DewOfRepudiation", "localeName": "排異之露", "rarity": 4, "count": 8 },
+        { "id": "SangoPearl", "localeName": "珊瑚真珠", "count": 30 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 18 }
+      ],
+      "HP": 3028.6,
+      "ATK": 52.697,
+      "DEF": 147.74,
+      "extra": 0.144
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "VarunadaLazuriteChunk", "localeName": "滌淨青金塊", "rarity": 4, "count": 6 },
+        { "id": "DewOfRepudiation", "localeName": "排異之露", "rarity": 4, "count": 12 },
+        { "id": "SangoPearl", "localeName": "珊瑚真珠", "count": 45 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 12 }
+      ],
+      "HP": 3667.5,
+      "ATK": 63.813,
+      "DEF": 178.91,
+      "extra": 0.216
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "VarunadaLazuriteGemstone", "localeName": "滌淨青金", "rarity": 5, "count": 6 },
+        { "id": "DewOfRepudiation", "localeName": "排異之露", "rarity": 4, "count": 20 },
+        { "id": "SangoPearl", "localeName": "珊瑚真珠", "count": 60 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 24 }
+      ],
+      "HP": 4306.3,
+      "ATK": 74.929,
+      "DEF": 210.07,
+      "extra": 0.288
+    }
+  ],
+  "ascensionType": 21,
+  "element": 5,
+  "elemSkill": {
+    "name": "KuragesOath",
+    "localeName": "海月之誓",
+    "desc": "召喚能夠治癒同伴的幻造水之生命「化海月」。\n施放的瞬間，為珊瑚宮心海施加<color=#80C0FFFF>潮濕</color>狀態。\n\n<color=#FFD780FF>化海月</color>\n每隔一段時間，對周圍的敵人造成<color=#80C0FFFF>水元素傷害</color>，並為周圍的目前場上角色恢復生命值，回復量受益於珊瑚宮心海的生命值上限。\n\n<i>為了保持完美的工作狀態，心海需要及時補充自己的「能量」。</i>",
+    "cd": 20,
+    "paramTpls": ["治療量|{param1:F1P}生命值上限+{param2:I}", "波紋傷害|{param3:F1P}", "存在時間|{param4:F1}秒", "冷卻時間|{param5:F1}秒"],
+    "paramVals": [
+      [0.044, 423.71, 1.0919, 12, 20],
+      [0.0473, 466.08, 1.1738, 12, 20],
+      [0.0506, 511.99, 1.2557, 12, 20],
+      [0.055, 561.43, 1.3649, 12, 20],
+      [0.0583, 614.4, 1.4468, 12, 20],
+      [0.0616, 670.9, 1.5287, 12, 20],
+      [0.066, 730.94, 1.6379, 12, 20],
+      [0.0704, 794.5, 1.747, 12, 20],
+      [0.0748, 861.6, 1.8562, 12, 20],
+      [0.0792, 932.22, 1.9654, 12, 20],
+      [0.0836, 1006.4, 2.0746, 12, 20],
+      [0.088, 1084.1, 2.1838, 12, 20],
+      [0.0935, 1165.3, 2.3203, 12, 20],
+      [0.099, 1250, 2.4568, 12, 20],
+      [0.1045, 1338.3, 2.5933, 12, 20]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfTransience", "localeName": "「浮世」的教導", "rarity": 2, "count": 3 },
+        { "id": "SpectralHusk", "localeName": "浮游乾核", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "「浮世」的指引", "rarity": 3, "count": 2 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "「浮世」的指引", "rarity": 3, "count": 4 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "「浮世」的指引", "rarity": 3, "count": 6 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "「浮世」的指引", "rarity": 3, "count": 9 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "「浮世」的哲學", "rarity": 4, "count": 4 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 4 },
+        { "id": "HellfireButterfly", "localeName": "獄火之蝶", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "「浮世」的哲學", "rarity": 4, "count": 6 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 6 },
+        { "id": "HellfireButterfly", "localeName": "獄火之蝶", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "「浮世」的哲學", "rarity": 4, "count": 12 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 9 },
+        { "id": "HellfireButterfly", "localeName": "獄火之蝶", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "「浮世」的哲學", "rarity": 4, "count": 16 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 12 },
+        { "id": "HellfireButterfly", "localeName": "獄火之蝶", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "NereidsAscension",
+    "localeName": "海人化羽",
+    "desc": "請降海祇的力量，對周圍的敵人造成<color=#80C0FFFF>水元素傷害</color>，並披上珊瑚宮之水匯聚而成的「儀來羽衣」。\n\n<color=#FFD780FF>儀來羽衣</color>\n·增加珊瑚宮心海的普通攻擊，重擊以及元素戰技的「化海月」造成的傷害，增加值基於珊瑚宮心海的生命值上限；\n·普通攻擊和重擊命中敵人時，為隊伍中附近的所有角色恢復生命值，回復量受益於珊瑚宮心海的生命值上限；\n·提升珊瑚宮心海的抗打斷能力，並使她能在水面上移動。\n\n效果將在珊瑚宮心海退場時解除。\n\n<i>縈繞在身邊的清光化為羽衣，輝映著珊瑚宮大人的堂堂之姿。</i>",
+    "cd": 18,
+    "energyCost": 70,
+    "paramTpls": ["技能傷害|{param1:F1P}生命值上限", "普通攻擊傷害提升|{param4:F1P}生命值上限", "重擊傷害提升|{param5:F1P}生命值上限", "化海月傷害提升|{param9:F1P}生命值上限", "命中治療量|{param2:F2P}生命值上限+{param3:I}", "持續時間|{param6:F1}秒", "冷卻時間|{param7:F1}秒", "元素能量|{param8:I}"],
+    "paramVals": [
+      [0.10416, 0.00808, 77.037, 0.0484, 0.06776, 10, 18, 70, 0.070963],
+      [0.11197, 0.008686, 84.742, 0.05203, 0.072842, 10, 18, 70, 0.076285],
+      [0.11978, 0.009292, 93.089, 0.05566, 0.077924, 10, 18, 70, 0.081608],
+      [0.1302, 0.0101, 102.08, 0.0605, 0.0847, 10, 18, 70, 0.088704],
+      [0.13801, 0.010706, 111.71, 0.06413, 0.089782, 10, 18, 70, 0.094026],
+      [0.14582, 0.011312, 121.98, 0.06776, 0.094864, 10, 18, 70, 0.099348],
+      [0.15624, 0.01212, 132.9, 0.0726, 0.10164, 10, 18, 70, 0.10644],
+      [0.16666, 0.012928, 144.45, 0.07744, 0.10842, 10, 18, 70, 0.11354],
+      [0.17707, 0.013736, 156.65, 0.08228, 0.11519, 10, 18, 70, 0.12064],
+      [0.18749, 0.014544, 169.5, 0.08712, 0.12197, 10, 18, 70, 0.12773],
+      [0.1979, 0.015352, 182.98, 0.09196, 0.12874, 10, 18, 70, 0.13483],
+      [0.20832, 0.01616, 197.1, 0.0968, 0.13552, 10, 18, 70, 0.14193],
+      [0.22134, 0.01717, 211.87, 0.10285, 0.14399, 10, 18, 70, 0.1508],
+      [0.23436, 0.01818, 227.28, 0.1089, 0.15246, 10, 18, 70, 0.15967],
+      [0.24738, 0.01919, 243.33, 0.11495, 0.16093, 10, 18, 70, 0.16854]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfTransience", "localeName": "「浮世」的教導", "rarity": 2, "count": 3 },
+        { "id": "SpectralHusk", "localeName": "浮游乾核", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "「浮世」的指引", "rarity": 3, "count": 2 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "「浮世」的指引", "rarity": 3, "count": 4 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "「浮世」的指引", "rarity": 3, "count": 6 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "「浮世」的指引", "rarity": 3, "count": 9 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "「浮世」的哲學", "rarity": 4, "count": 4 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 4 },
+        { "id": "HellfireButterfly", "localeName": "獄火之蝶", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "「浮世」的哲學", "rarity": 4, "count": 6 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 6 },
+        { "id": "HellfireButterfly", "localeName": "獄火之蝶", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "「浮世」的哲學", "rarity": 4, "count": 12 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 9 },
+        { "id": "HellfireButterfly", "localeName": "獄火之蝶", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "「浮世」的哲學", "rarity": 4, "count": 16 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 12 },
+        { "id": "HellfireButterfly", "localeName": "獄火之蝶", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackTheShapeOfWater",
+    "localeName": "普通攻擊·水有常形",
+    "desc": "<color=#FFD780FF>普通攻擊</color>\n以水元素幻造成的游魚進行至多三段的攻擊，造成<color=#80C0FFFF>水元素傷害</color>。\n\n<color=#FFD780FF>重擊</color>\n消耗一定體力，短暫詠唱後，造成<color=#80C0FFFF>水元素範圍傷害</color>。\n\n<color=#FFD780FF>下落攻擊</color>\n凝聚水元素的力量，從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成<color=#80C0FFFF>水元素範圍傷害</color>。",
+    "cd": 0,
+    "paramTpls": ["一段傷害|{param1:F1P}", "二段傷害|{param2:F1P}", "三段傷害|{param3:F1P}", "重擊傷害|{param4:P}", "重擊體力消耗|{param5:F1}點", "下墜期間傷害|{param6:F1P}", "低空/高空墜地衝擊傷害|{param7:P}/{param8:P}"],
+    "paramVals": [
+      [0.68376, 0.61538, 0.94306, 1.4832, 50, 0.56829, 1.1363, 1.4193],
+      [0.73504, 0.66154, 1.0138, 1.5944, 50, 0.61454, 1.2288, 1.5349],
+      [0.78632, 0.70769, 1.0845, 1.7057, 50, 0.6608, 1.3213, 1.6504],
+      [0.8547, 0.76923, 1.1788, 1.854, 50, 0.72688, 1.4535, 1.8154],
+      [0.90598, 0.81538, 1.2495, 1.9652, 50, 0.77314, 1.5459, 1.931],
+      [0.95726, 0.86154, 1.3203, 2.0765, 50, 0.826, 1.6516, 2.063],
+      [1.0256, 0.92308, 1.4146, 2.2248, 50, 0.89869, 1.797, 2.2445],
+      [1.094, 0.98461, 1.5089, 2.3731, 50, 0.97138, 1.9423, 2.4261],
+      [1.1624, 1.0462, 1.6032, 2.5214, 50, 1.0441, 2.0877, 2.6076],
+      [1.2308, 1.1077, 1.6975, 2.6698, 50, 1.1234, 2.2462, 2.8057],
+      [1.2991, 1.1692, 1.7918, 2.8181, 50, 1.2027, 2.4048, 3.0037],
+      [1.3675, 1.2308, 1.8861, 2.9664, 50, 1.282, 2.5634, 3.2018],
+      [1.453, 1.3077, 2.004, 3.1518, 50, 1.3612, 2.7219, 3.3998],
+      [1.5385, 1.3846, 2.1219, 3.3372, 50, 1.4405, 2.8805, 3.5979],
+      [1.6239, 1.4615, 2.2398, 3.5226, 50, 1.5198, 3.039, 3.7959]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfTransience", "localeName": "「浮世」的教導", "rarity": 2, "count": 3 },
+        { "id": "SpectralHusk", "localeName": "浮游乾核", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "「浮世」的指引", "rarity": 3, "count": 2 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "「浮世」的指引", "rarity": 3, "count": 4 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "「浮世」的指引", "rarity": 3, "count": 6 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "「浮世」的指引", "rarity": 3, "count": 9 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "「浮世」的哲學", "rarity": 4, "count": 4 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 4 },
+        { "id": "HellfireButterfly", "localeName": "獄火之蝶", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "「浮世」的哲學", "rarity": 4, "count": 6 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 6 },
+        { "id": "HellfireButterfly", "localeName": "獄火之蝶", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "「浮世」的哲學", "rarity": 4, "count": 12 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 9 },
+        { "id": "HellfireButterfly", "localeName": "獄火之蝶", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "「浮世」的哲學", "rarity": 4, "count": 16 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 12 },
+        { "id": "HellfireButterfly", "localeName": "獄火之蝶", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "TamanooyasCasket", "localeName": "匣中玉櫛", "desc": "施放<color=#FFD780FF>海人化羽</color>時，若場上有珊瑚宮心海自己的化海月，則重置化海月的存在時間。", "unlock": 1 },
+    { "name": "SongOfPearls", "localeName": "真珠御唄", "desc": "處於<color=#FFD780FF>海人化羽</color>的儀來羽衣狀態下時，珊瑚宮心海的普通攻擊與重擊基於生命值上限造成的傷害獲得額外提升，提升程度相當於她的治療加成的15%。", "unlock": 4, "values": [0.15] },
+    { "name": "PrincessOfWatatsumi", "localeName": "海祇姬君", "desc": "隊伍中自己的角色游泳消耗的體力降低20%。\n無法與效果完全相同的固有天賦疊加。" },
+    { "name": "FlawlessStrategy", "localeName": "廟算無遺", "desc": "珊瑚宮心海的治療加成提升25%，暴擊率降低100%。" }
+  ],
+  "c13ns": [
+    { "name": "AtWatersEdge", "localeName": "決水於溪", "desc": "處於<color=#FFD780FF>海人化羽</color>的儀來羽衣狀態下時，珊瑚宮心海普通攻擊的最後一擊會額外釋放一隻游魚，造成相當於珊瑚宮心海生命值上限30%的<color=#80C0FFFF>水元素傷害</color>。\n該傷害不被視為普通攻擊傷害。", "values": [0.3] },
+    {
+      "name": "TheCloudsLikeWavesRippling",
+      "localeName": "波起雲海",
+      "desc": "基於珊瑚宮心海的生命值上限，珊瑚宮心海對生命值低於或等於50%的角色，透過以下途徑進行治療的回復量獲得提升：\n·<color=#FFD780FF>海月之誓</color>的化海月：生命值上限的4.5%\n·<color=#FFD780FF>海人化羽</color>的普通攻擊與重擊：生命值上限的0.6%。",
+      "values": [0.5, 0.045, 0.006]
+    },
+    { "name": "TheMoonAShipOerTheSeas", "localeName": "海渚月舟", "desc": "<color=#FFD780FF>海人化羽</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "TheMoonOverlooksTheWaters", "localeName": "月攝千川", "desc": "處於<color=#FFD780FF>海人化羽</color>的儀來羽衣狀態下時，珊瑚宮心海普通攻擊的攻擊速度提升10%，並會在普通攻擊命中敵人時，恢復0.8點元素能量。\n該效果每0.2秒至多觸發一次。", "values": [0.1, 0.8] },
+    { "name": "AllStreamsFlowToTheSea", "localeName": "百川集海", "desc": "<color=#FFD780FF>海月之誓</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "SangoIsshin", "localeName": "珊瑚一心", "desc": "處於<color=#FFD780FF>海人化羽</color>的儀來羽衣狀態下時，珊瑚宮心海的普通攻擊和重擊對生命值高於或等於80%的角色進行治療時，將獲得40%<color=#80C0FFFF>水元素傷害加成</color>，持續4秒。", "values": [0.8, 0.4, 4] }
+  ],
+  "overviewItems": [
+    { "id": "VarunadaLazuriteGemstone", "localeName": "滌淨青金", "rarity": 5 },
+    { "id": "DewOfRepudiation", "localeName": "排異之露", "rarity": 4 },
+    { "id": "SangoPearl", "localeName": "珊瑚真珠" },
+    { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3 },
+    { "id": "PhilosophiesOfTransience", "localeName": "「浮世」的哲學", "rarity": 4 },
+    { "id": "HellfireButterfly", "localeName": "獄火之蝶", "rarity": 5 }
+  ]
+}

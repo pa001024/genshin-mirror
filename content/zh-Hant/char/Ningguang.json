@@ -1,4 +1,5 @@
 {
+  "uid": 10000027,
   "id": "Ningguang",
   "name": "Ningguang",
   "localeName": "凝光",
@@ -231,7 +232,7 @@
     "localeName": "普通攻擊·千金擲",
     "desc": "<color=#FFD780FF>普通攻擊</color>\n發射寶石，造成<color=#FFE699FF>岩元素傷害</color>。\n命中時，賦予凝光一枚星璇。\n\n<color=#FFD780FF>重擊</color>\n消耗體力，發射一顆巨型寶石，造成<color=#FFE699FF>岩元素傷害</color>。\n若凝光擁有星璇，施放重擊時會將所有星璇一同發射，造成額外的傷害。\n\n<color=#FFD780FF>下落攻擊</color>\n凝聚晶岩的力量，從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成<color=#FFE699FF>岩元素範圍傷害</color>。",
     "cd": 0,
-    "paramTpls": ["普通攻擊傷害|{param1:F1P}", "重擊傷害|{param2:P}", "星璿傷害|每個{param3:F1P}", "重擊體力消耗|{param4:F1}點", "下墜期間傷害|{param5:F1P}", "低空/高空墜地衝擊傷害|{param6:P}/{param7:P}"],
+    "paramTpls": ["普通攻擊傷害|{param1:F1P}", "重擊傷害|{param2:P}", "星璇傷害|每個{param3:F1P}", "重擊體力消耗|{param4:F1}點", "下墜期間傷害|{param5:F1P}", "低空/高空墜地衝擊傷害|{param6:P}/{param7:P}"],
     "paramVals": [
       [0.28, 1.7408, 0.496, 50, 0.56829, 1.1363, 1.4193],
       [0.301, 1.8714, 0.5332, 50, 0.61454, 1.2288, 1.5349],

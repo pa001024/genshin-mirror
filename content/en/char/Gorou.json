@@ -1,0 +1,338 @@
+{
+  "uid": 10000055,
+  "id": "Gorou",
+  "name": "Gorou",
+  "localeName": "Gorou",
+  "desc": "The great general of Watatsumi Island's forces. He is deeply trusted by his subordinates.",
+  "baseHP": 802.38,
+  "baseATK": 15.315,
+  "baseDEF": 54.364,
+  "bodyType": 0,
+  "rarity": 4,
+  "weapon": 2,
+  "region": 3,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "PrithivaTopazSliver", "localeName": "Prithiva Topaz Sliver", "rarity": 2, "count": 1 },
+        { "id": "SangoPearl", "localeName": "Sango Pearl", "count": 3 },
+        { "id": "SpectralHusk", "localeName": "Spectral Husk", "rarity": 1, "count": 3 }
+      ],
+      "HP": 599.42,
+      "ATK": 11.441,
+      "DEF": 40.612,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "PrithivaTopazFragment", "localeName": "Prithiva Topaz Fragment", "rarity": 3, "count": 3 },
+        { "id": "PerpetualHeart", "localeName": "Perpetual Heart", "rarity": 4, "count": 2 },
+        { "id": "SangoPearl", "localeName": "Sango Pearl", "count": 10 },
+        { "id": "SpectralHusk", "localeName": "Spectral Husk", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1025.3,
+      "ATK": 19.571,
+      "DEF": 69.469,
+      "extra": 0.06
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "PrithivaTopazFragment", "localeName": "Prithiva Topaz Fragment", "rarity": 3, "count": 6 },
+        { "id": "PerpetualHeart", "localeName": "Perpetual Heart", "rarity": 4, "count": 4 },
+        { "id": "SangoPearl", "localeName": "Sango Pearl", "count": 20 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1593.2,
+      "ATK": 30.41,
+      "DEF": 107.94,
+      "extra": 0.12
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "PrithivaTopazChunk", "localeName": "Prithiva Topaz Chunk", "rarity": 4, "count": 3 },
+        { "id": "PerpetualHeart", "localeName": "Perpetual Heart", "rarity": 4, "count": 8 },
+        { "id": "SangoPearl", "localeName": "Sango Pearl", "count": 30 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2019.1,
+      "ATK": 38.539,
+      "DEF": 136.8,
+      "extra": 0.12
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "PrithivaTopazChunk", "localeName": "Prithiva Topaz Chunk", "rarity": 4, "count": 6 },
+        { "id": "PerpetualHeart", "localeName": "Perpetual Heart", "rarity": 4, "count": 12 },
+        { "id": "SangoPearl", "localeName": "Sango Pearl", "count": 45 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 12 }
+      ],
+      "HP": 2445,
+      "ATK": 46.668,
+      "DEF": 165.66,
+      "extra": 0.18
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "PrithivaTopazGemstone", "localeName": "Prithiva Topaz Gemstone", "rarity": 5, "count": 6 },
+        { "id": "PerpetualHeart", "localeName": "Perpetual Heart", "rarity": 4, "count": 20 },
+        { "id": "SangoPearl", "localeName": "Sango Pearl", "count": 60 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 24 }
+      ],
+      "HP": 2870.9,
+      "ATK": 54.798,
+      "DEF": 194.51,
+      "extra": 0.24
+    }
+  ],
+  "ascensionType": 31,
+  "element": 2,
+  "elemSkill": {
+    "name": "InuzakaAllRoundDefense",
+    "localeName": "Inuzaka All-Round Defense",
+    "desc": "Deals <color=#FFE699FF>AoE Geo DMG</color> and sets up a General's War Banner.\n\n<color=#FFD780FF>General's War Banner</color>\nProvides up to 3 buffs to active characters within the skill's AoE based on the number of <color=#FFE699FF>Geo</color> characters in the party at the time of casting:\n· 1 Geo character: Adds \"Standing Firm\" - DEF Bonus.\n· 2 Geo characters: Adds \"Impregnable\" - Increased resistance to interruption.\n· 3 Geo characters: Adds \"Crunch\" - <color=#FFE699FF>Geo DMG Bonus</color>.\n\nGorou can deploy only 1 General's War Banner on the field at any one time. Characters can only benefit from 1 General's War Banner at a time. When a party member leaves the field, the active buff will last for 2s.\n\n<color=#FFD780FF>Hold</color>\nAdjust the location of the skill.\n\n<i>\"Take up this formation and we'll be safe — I guarantee it!\" As a general and a leader of troops, the last thing Gorou wants is to see is those who follow him getting hurt.</i>",
+    "cd": 10,
+    "paramTpls": ["Skill DMG|{param1:F1P}", "DEF Increase|{param2:I}", "Geo DMG Bonus|{param3:P}", "Duration|{param4:F1}s", "CD|{param5:F1}s"],
+    "paramVals": [
+      [1.072, 206.16, 0.15, 10, 10],
+      [1.1524, 221.62, 0.15, 10, 10],
+      [1.2328, 237.08, 0.15, 10, 10],
+      [1.34, 257.7, 0.15, 10, 10],
+      [1.4204, 273.16, 0.15, 10, 10],
+      [1.5008, 288.62, 0.15, 10, 10],
+      [1.608, 309.24, 0.15, 10, 10],
+      [1.7152, 329.86, 0.15, 10, 10],
+      [1.8224, 350.47, 0.15, 10, 10],
+      [1.9296, 371.09, 0.15, 10, 10],
+      [2.0368, 391.7, 0.15, 10, 10],
+      [2.144, 412.32, 0.15, 10, 10],
+      [2.278, 438.09, 0.15, 10, 10],
+      [2.412, 463.86, 0.15, 10, 10],
+      [2.546, 489.63, 0.15, 10, 10]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfLight", "localeName": "Teachings of Light", "rarity": 2, "count": 3 },
+        { "id": "SpectralHusk", "localeName": "Spectral Husk", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "Guide to Light", "rarity": 3, "count": 2 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "Guide to Light", "rarity": 3, "count": 4 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "Guide to Light", "rarity": 3, "count": 6 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "Guide to Light", "rarity": 3, "count": 9 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4, "count": 4 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 4 },
+        { "id": "MoltenMoment", "localeName": "Molten Moment", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4, "count": 6 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 6 },
+        { "id": "MoltenMoment", "localeName": "Molten Moment", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4, "count": 12 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 9 },
+        { "id": "MoltenMoment", "localeName": "Molten Moment", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4, "count": 16 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 12 },
+        { "id": "MoltenMoment", "localeName": "Molten Moment", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "JuugaForwardUntoVictory",
+    "localeName": "Juuga: Forward Unto Victory",
+    "desc": "Displaying his valor as a general, Gorou deals <color=#FFE699FF>AoE Geo DMG</color> and creates a field known as General's Glory to embolden his comrades.\n\n<color=#FFD780FF>General's Glory</color>\nThis field has the following properties:\n· Like the General's War Banner created by Inuzaka All-Round Defense, provides buffs to active characters within the skill's AoE based on the number of <color=#FFE699FF>Geo</color> characters in the party. Also moves together with your active character.\n· Generates 1 Crystal Collapse every 1.5s that deals <color=#FFE699FF>AoE Geo DMG</color> to 1 opponent within the skill's AoE.\n· Pulls 1 elemental shard in the skill's AoE to your active character's position every 1.5s (elemental shards are created by Crystallize reactions).\n\nIf a General's War Banner created by Gorou currently exists on the field when this ability is used, it will be destroyed. In addition, for the duration of General's Glory, Gorou's Elemental Skill \"Inuzaka All-Round Defense\" will not create the General's War Banner.\n If Gorou falls, the effects of General's Glory will be cleared.\n\n<i>\"We have the high ground!\" Gorou can ever so slightly change the terrain of the battlefield to help win victory. This technique has seen him through many battles against seemingly superior opposition.</i>",
+    "cd": 20,
+    "energyCost": 80,
+    "paramTpls": ["Skill DMG|{param1:P} DEF", "Crystal Collapse DMG|{param2:P} DEF", "Duration|{param3:F1}s", "CD|{param4:F1}s", "Energy Cost|{param5:I}"],
+    "paramVals": [
+      [0.98216, 0.613, 9, 20, 80],
+      [1.0558, 0.65898, 9, 20, 80],
+      [1.1295, 0.70495, 9, 20, 80],
+      [1.2277, 0.76625, 9, 20, 80],
+      [1.3014, 0.81222, 9, 20, 80],
+      [1.375, 0.8582, 9, 20, 80],
+      [1.4732, 0.9195, 9, 20, 80],
+      [1.5715, 0.9808, 9, 20, 80],
+      [1.6697, 1.0421, 9, 20, 80],
+      [1.7679, 1.1034, 9, 20, 80],
+      [1.8661, 1.1647, 9, 20, 80],
+      [1.9643, 1.226, 9, 20, 80],
+      [2.0871, 1.3026, 9, 20, 80],
+      [2.2099, 1.3793, 9, 20, 80],
+      [2.3326, 1.4559, 9, 20, 80]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfLight", "localeName": "Teachings of Light", "rarity": 2, "count": 3 },
+        { "id": "SpectralHusk", "localeName": "Spectral Husk", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "Guide to Light", "rarity": 3, "count": 2 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "Guide to Light", "rarity": 3, "count": 4 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "Guide to Light", "rarity": 3, "count": 6 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "Guide to Light", "rarity": 3, "count": 9 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4, "count": 4 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 4 },
+        { "id": "MoltenMoment", "localeName": "Molten Moment", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4, "count": 6 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 6 },
+        { "id": "MoltenMoment", "localeName": "Molten Moment", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4, "count": 12 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 9 },
+        { "id": "MoltenMoment", "localeName": "Molten Moment", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4, "count": 16 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 12 },
+        { "id": "MoltenMoment", "localeName": "Molten Moment", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackRippingFangFletching",
+    "localeName": "Normal Attack: Ripping Fang Fletching",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 4 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, stone crystals will accumulate on the arrowhead. A fully charged crystalline arrow will deal <color=#FFE699FF>Geo DMG</color>.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+    "cd": 0,
+    "paramTpls": ["1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", "4-Hit DMG|{param4:F1P}", "Aimed Shot|{param5:F1P}", "Fully-Charged Aimed Shot|{param6:P}", "Plunge DMG|{param7:F1P}", "Low/High Plunge DMG|{param8:P}/{param9:P}"],
+    "paramVals": [
+      [0.37754, 0.37152, 0.4945, 0.58996, 0.4386, 1.24, 0.56829, 1.1363, 1.4193],
+      [0.40827, 0.40176, 0.53475, 0.63798, 0.4743, 1.333, 0.61454, 1.2288, 1.5349],
+      [0.439, 0.432, 0.575, 0.686, 0.51, 1.426, 0.6608, 1.3213, 1.6504],
+      [0.4829, 0.4752, 0.6325, 0.7546, 0.561, 1.55, 0.72688, 1.4535, 1.8154],
+      [0.51363, 0.50544, 0.67275, 0.80262, 0.5967, 1.643, 0.77314, 1.5459, 1.931],
+      [0.54875, 0.54, 0.71875, 0.8575, 0.6375, 1.736, 0.826, 1.6516, 2.063],
+      [0.59704, 0.58752, 0.782, 0.93296, 0.6936, 1.86, 0.89869, 1.797, 2.2445],
+      [0.64533, 0.63504, 0.84525, 1.0084, 0.7497, 1.984, 0.97138, 1.9423, 2.4261],
+      [0.69362, 0.68256, 0.9085, 1.0839, 0.8058, 2.108, 1.0441, 2.0877, 2.6076],
+      [0.7463, 0.7344, 0.9775, 1.1662, 0.867, 2.232, 1.1234, 2.2462, 2.8057],
+      [0.79898, 0.78624, 1.0465, 1.2485, 0.9282, 2.356, 1.2027, 2.4048, 3.0037],
+      [0.85166, 0.83808, 1.1155, 1.3308, 0.9894, 2.48, 1.282, 2.5634, 3.2018],
+      [0.90434, 0.88992, 1.1845, 1.4132, 1.0506, 2.635, 1.3612, 2.7219, 3.3998],
+      [0.95702, 0.94176, 1.2535, 1.4955, 1.1118, 2.79, 1.4405, 2.8805, 3.5979],
+      [1.0097, 0.9936, 1.3225, 1.5778, 1.173, 2.945, 1.5198, 3.039, 3.7959]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfLight", "localeName": "Teachings of Light", "rarity": 2, "count": 3 },
+        { "id": "SpectralHusk", "localeName": "Spectral Husk", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "Guide to Light", "rarity": 3, "count": 2 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "Guide to Light", "rarity": 3, "count": 4 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "Guide to Light", "rarity": 3, "count": 6 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "Guide to Light", "rarity": 3, "count": 9 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4, "count": 4 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 4 },
+        { "id": "MoltenMoment", "localeName": "Molten Moment", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4, "count": 6 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 6 },
+        { "id": "MoltenMoment", "localeName": "Molten Moment", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4, "count": 12 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 9 },
+        { "id": "MoltenMoment", "localeName": "Molten Moment", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4, "count": 16 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 12 },
+        { "id": "MoltenMoment", "localeName": "Molten Moment", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "HeedlessOfTheWindAndWeather", "localeName": "Heedless of the Wind and Weather", "desc": "After using <color=#FFD780FF>Juuga: Forward Unto Victory</color>, all nearby party members' DEF is increased by 25% for 12s.", "unlock": 1, "values": [0.25, 12] },
+    {
+      "name": "AFavorRepaid",
+      "localeName": "A Favor Repaid",
+      "desc": "Gorou receives the following DMG Bonuses to his attacks based on his DEF:\n· <color=#FFD780FF>Inuzaka All-Round Defense</color>: Skill DMG increased by 156% of DEF\n· <color=#FFD780FF>Juuga: Forward Unto Victory</color>: Skill DMG and Crystal Collapse DMG increased by 15.6% of DEF",
+      "unlock": 4,
+      "values": [1.56, 0.156]
+    },
+    { "name": "SeekerOfShinies", "localeName": "Seeker of Shinies", "desc": "Displays the location of nearby <color=#FFD780FF>resources unique to Inazuma</color> on the mini-map." }
+  ],
+  "c13ns": [
+    {
+      "name": "RushingHoundSwiftAsTheWind",
+      "localeName": "Rushing Hound: Swift as the Wind",
+      "desc": "When characters (other than Gorou) within the AoE of Gorou's <color=#FFD780FF>General's War Banner</color> or <color=#FFD780FF>General's Glory</color> deal Geo DMG to opponents, the CD of Gorou's <color=#FFD780FF>Inuzaka All-Round Defense</color> is decreased by 2s.\nThis effect can occur once every 10s.",
+      "values": [-2, 10]
+    },
+    {
+      "name": "SittingHoundSteadyAsAClock",
+      "localeName": "Sitting Hound: Steady as a Clock",
+      "desc": "While <color=#FFD780FF>General's Glory</color> is in effect, its duration is extended by 1s when a nearby active character obtains an Elemental Shard from a Crystallize reaction. \nThis effect can occur once every 0.1s. Max extension is 3s."
+    },
+    { "name": "MaulingHoundFierceAsFire", "localeName": "Mauling Hound: Fierce as Fire", "desc": "Increases the Level of <color=#FFD780FF>Inuzaka All-Round Defense</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "LappingHoundWarmAsWater", "localeName": "Lapping Hound: Warm as Water", "desc": "When <color=#FFD780FF>General's Glory</color> is in the \"Impregnable\" or \"Crunch\" states, it will also heal active characters within its AoE by 50% of Gorou's own DEF every 1.5s.", "values": [0.5] },
+    { "name": "StrikingHoundThunderousForce", "localeName": "Striking Hound: Thunderous Force", "desc": "Increases the Level of <color=#FFD780FF>Juuga: Forward Unto Victory</color> by 3.\nMaximum upgrade level is 15." },
+    {
+      "name": "ValiantHoundMountainousFealty",
+      "localeName": "Valiant Hound: Mountainous Fealty",
+      "desc": "For 12s after using <color=#FFD780FF>Inuzaka All-Round Defense</color> or <color=#FFD780FF>Juuga: Forward Unto Victory</color>, increases the CRIT DMG of all nearby party members' <color=#FFE699FF>Geo DMG</color> based on the buff level of the skill's field at the time of use:\n· \"Standing Firm\": +10%\n· \"Impregnable\": +20%\n· \"Crunch\": +40%\n\nThis effect cannot stack and will take reference from the last instance of the effect that is triggered.",
+      "values": [0.1, 0.2, 0.4, 12]
+    }
+  ],
+  "overviewItems": [
+    { "id": "PrithivaTopazGemstone", "localeName": "Prithiva Topaz Gemstone", "rarity": 5 },
+    { "id": "PerpetualHeart", "localeName": "Perpetual Heart", "rarity": 4 },
+    { "id": "SangoPearl", "localeName": "Sango Pearl" },
+    { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3 },
+    { "id": "PhilosophiesOfLight", "localeName": "Philosophies of Light", "rarity": 4 },
+    { "id": "MoltenMoment", "localeName": "Molten Moment", "rarity": 5 }
+  ]
+}
