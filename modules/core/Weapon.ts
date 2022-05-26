@@ -82,4 +82,10 @@ export class Weapon implements IUserWeapon {
     if (!this.data.affix) return null;
     return { ...this.data.affix, desc: this.data.affix.levels[this.refineLevel - 1].desc };
   }
+
+  /** 满精特效 */
+  get affixMax() {
+    if (!this.data.affix) return null;
+    return { ...this.data.affix, desc: this.data.affix.levels[this.maxRefineLevel - 1].desc };
+  }
 }

@@ -180,7 +180,12 @@ export namespace ARTIFACT {
     [5, 0.01],
   ];
 
-  export const ENCODE_RATIO = { [BuffType.HPDelta]: 1, [BuffType.ATKDelta]: 1, [BuffType.DEFDelta]: 1, [BuffType.ElementalMastery]: 1 };
+  export const ENCODE_RATIO = {
+    [BuffType.HPDelta]: 1,
+    [BuffType.ATKDelta]: 1,
+    [BuffType.DEFDelta]: 1,
+    [BuffType.ElementalMastery]: 1,
+  };
 
   /** 主词条属性成长 */
   export const MAIN_PROPERTY_CURVE: number[][][] = [

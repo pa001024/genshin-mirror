@@ -70,11 +70,6 @@ interface FilterOption {
       .fetch()
       .catch(console.error)) as any;
     rst.data = res;
-    // if (rst.data) {
-    //   rst.page = await $content(app.i18n.locale, "weapon")
-    //     .fetch()
-    //     .catch(() => {});
-    // }
     return rst;
   },
   // set html header

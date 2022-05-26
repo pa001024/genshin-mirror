@@ -119,7 +119,7 @@
       <v-card>
         <v-tabs v-model="skillTab">
           <v-tabs-slider />
-          <v-tab v-for="type in skillTypes" :key="type" :href="'#' + type">{{ $t(`ui.${type}`) }}</v-tab>
+          <v-tab v-for="(type) in skillTypes" :key="type" :href="'#' + type" v-text="$t(`ui.${type}`)"></v-tab>
           <v-tab href="#talent">{{ $t("ui.talent") }}</v-tab>
           <v-tab href="#c13ns">{{ $t("ui.c13ns") }}</v-tab>
           <v-tab href="#ascension">{{ $t("ui.ascension") }}</v-tab>
@@ -289,7 +289,7 @@ export default class Page extends Vue {
           const val = params[+index - 1];
           if (format.startsWith("F")) {
             const p = parseInt(format.substr(1));
-            if (format.endsWith("P")) return this.FP(val, p);
+            if (format.endsWith("P")) return this.FP(val, p + 1);
             return this.F(val, p);
           } else if (format.endsWith("P")) return this.P(val);
           return val + "";

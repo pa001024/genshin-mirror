@@ -1,0 +1,361 @@
+{
+  "uid": 10000052,
+  "id": "shogun",
+  "name": "Raiden Shogun",
+  "localeName": "雷電将軍",
+  "desc": "御建鳴神主尊大御所様。永劫不変の「永遠」を稲妻の民に約束する。",
+  "baseHP": 1004.8,
+  "baseATK": 26.254,
+  "baseDEF": 61.445,
+  "bodyType": 4,
+  "rarity": 5,
+  "weapon": 3,
+  "region": 3,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "VajradaAmethystSliver", "localeName": "最勝のアメシスト·砕屑", "rarity": 2, "count": 1 },
+        { "id": "AmakumoFruit", "localeName": "天雲草の実", "count": 3 },
+        { "id": "OldHandguard", "localeName": "古びた鍔", "rarity": 1, "count": 3 }
+      ],
+      "HP": 861.52,
+      "ATK": 22.509,
+      "DEF": 52.685,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "VajradaAmethystFragment", "localeName": "最勝のアメシスト·欠片", "rarity": 3, "count": 3 },
+        { "id": "StormBeads", "localeName": "雷霆の念珠", "rarity": 4, "count": 2 },
+        { "id": "AmakumoFruit", "localeName": "天雲草の実", "count": 10 },
+        { "id": "OldHandguard", "localeName": "古びた鍔", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1473.7,
+      "ATK": 38.502,
+      "DEF": 90.119,
+      "extra": 0.08
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "VajradaAmethystFragment", "localeName": "最勝のアメシスト·欠片", "rarity": 3, "count": 6 },
+        { "id": "StormBeads", "localeName": "雷霆の念珠", "rarity": 4, "count": 4 },
+        { "id": "AmakumoFruit", "localeName": "天雲草の実", "count": 20 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 12 }
+      ],
+      "HP": 2289.8,
+      "ATK": 59.826,
+      "DEF": 140.03,
+      "extra": 0.16
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "VajradaAmethystChunk", "localeName": "最勝のアメシスト·塊", "rarity": 4, "count": 3 },
+        { "id": "StormBeads", "localeName": "雷霆の念珠", "rarity": 4, "count": 8 },
+        { "id": "AmakumoFruit", "localeName": "天雲草の実", "count": 30 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2902,
+      "ATK": 75.82,
+      "DEF": 177.47,
+      "extra": 0.16
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "VajradaAmethystChunk", "localeName": "最勝のアメシスト·塊", "rarity": 4, "count": 6 },
+        { "id": "StormBeads", "localeName": "雷霆の念珠", "rarity": 4, "count": 12 },
+        { "id": "AmakumoFruit", "localeName": "天雲草の実", "count": 45 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 12 }
+      ],
+      "HP": 3514.1,
+      "ATK": 91.813,
+      "DEF": 214.9,
+      "extra": 0.24
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "VajradaAmethystGemstone", "localeName": "最勝のアメシスト", "rarity": 5, "count": 6 },
+        { "id": "StormBeads", "localeName": "雷霆の念珠", "rarity": 4, "count": 20 },
+        { "id": "AmakumoFruit", "localeName": "天雲草の実", "count": 60 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 24 }
+      ],
+      "HP": 4126.2,
+      "ATK": 107.81,
+      "DEF": 252.33,
+      "extra": 0.32
+    }
+  ],
+  "ascensionType": 10,
+  "element": 3,
+  "elemSkill": {
+    "name": "TranscendenceBalefulOmen",
+    "localeName": "神変·悪曜開眼",
+    "desc": "雷電将軍が浄土の一角を展開し、周囲の敵に<color=#FFACFFFF>雷元素ダメージ</color>を与え、周囲のチーム全員に「雷罰悪曜の眼」を授ける。\n\n<color=#FFD780FF>雷罰悪曜の眼</color>\n·雷罰悪曜の眼を持つキャラクターの攻撃が敵にダメージを与えると、雷罰悪曜の眼は連携攻撃を行い、敵の位置に<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。\n·雷罰悪曜の眼を持つキャラクターは継続時間内に、元素爆発の元素エネルギーを基準に、元素爆発ダメージがアップする。\n\nチーム毎の雷罰悪曜の眼は、0.9秒毎に1回のみ連携攻撃を行う。\nチーム内自身以外のキャラクターが連携攻撃を発動した場合、与えるダメージは本来のダメージの20%となる。\n\n<i>「手眼」とは、偉大なる神通者が見るものすべてを支配することを指している。雷神は凶星の手眼を操り、眷属に加護を与え、敵に雷罰を下すことができる。</i>",
+    "cd": 10,
+    "paramTpls": ["スキルダメージ|{param1:F1P}", "連携攻撃ダメージ|{param2:F1P}", "継続時間|{param3:F1}秒", "元素爆発ダメージアップ|元素エネルギー1につき{param4:F2P}", "クールタイム|{param5:F1}秒"],
+    "paramVals": [
+      [1.172, 0.42, 25, 0.0022, 10],
+      [1.2599, 0.4515, 25, 0.0023, 10],
+      [1.3478, 0.483, 25, 0.0024, 10],
+      [1.465, 0.525, 25, 0.0025, 10],
+      [1.5529, 0.5565, 25, 0.0026, 10],
+      [1.6408, 0.588, 25, 0.0027, 10],
+      [1.758, 0.63, 25, 0.0028, 10],
+      [1.8752, 0.672, 25, 0.0029, 10],
+      [1.9924, 0.714, 25, 0.003, 10],
+      [2.1096, 0.756, 25, 0.003, 10],
+      [2.2268, 0.798, 25, 0.003, 10],
+      [2.344, 0.84, 25, 0.003, 10],
+      [2.4905, 0.8925, 25, 0.003, 10],
+      [2.637, 0.945, 25, 0.003, 10],
+      [2.7835, 0.9975, 25, 0.003, 10]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfLight", "localeName": "「天光」の教え", "rarity": 2, "count": 3 },
+        { "id": "OldHandguard", "localeName": "古びた鍔", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 2 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 4 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 6 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 9 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 4 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 4 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 6 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 6 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 12 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 9 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 16 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 12 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "SecretArtMusouShinsetsu",
+    "localeName": "奥義·夢想真説",
+    "desc": "無数の真言を集結し、諸願百目の願力を尽くす。全ての呪詛を切り裂く夢想の一太刀を繰り出し、<color=#FFACFFFF>雷元素範囲ダメージ</color>を与える。その後一定時間内、「夢想の一心」を使用して戦う。発動時に消費した諸願百目の輪の願力層数を基準に、夢想の一太刀と夢想の一心の攻撃によるダメージをアップさせる。\n\n<color=#FFD780FF>夢想の一心</color>\nこの状態の雷電将軍は刀で攻撃を行う。通常攻撃、重撃、落下攻撃のダメージは、元素付与によって他の元素に変化しない<color=#FFACFFFF>雷元素ダメージ</color>へと変わる。さらに、攻撃が敵に命中すると、周囲のチーム全員の元素エネルギーを回復する。この方式での元素エネルギー回復は1秒毎に1回のみ可能で、継続時間内に最大5回まで発動可能。\nこの状態の雷電将軍は中断耐性がアップし、<color=#FFACFFFF>感電</color>反応のダメージを受けなくなる。\n夢想の一心状態の時、雷電将軍の通常攻撃、重撃、落下攻撃のダメージは元素爆発ダメージと見なされる。\n\n夢想の一心による効果は雷電将軍が退場する時に解除される。\n\n<color=#FFD780FF>諸願百目の輪</color>\n周囲のチーム全員（雷電将軍自身を除く）が元素爆発を発動すると、元素爆発の元素エネルギーを基に、雷電将軍の諸願百目の輪に願力を蓄積する。\n蓄積できる願力は最大60層まで。\n\n戦闘状態が解除されてから300秒後、諸願百目の輪に蓄積した願力はクリアされる。\n\n<i>これぞ雷電将軍が新たに悟った秘剣。「無想」を捨て、人々の「夢想」を背負うようになった。「真説」が「新説」を意味するように、稲妻も新章の幕開けを迎えた。</i>",
+    "cd": 18,
+    "energyCost": 90,
+    "paramTpls": [
+      "夢想の一太刀基礎ダメージ|{param1:P}",
+      "願力アップ効果|1層につき{param2:F2P}/{param3:F2P}攻撃力",
+      "蓄積する願力の層数|元素エネルギー1につき{param4:F2}",
+      "1段ダメージ|{param5:F1P}",
+      "2段ダメージ|{param6:F1P}",
+      "3段ダメージ|{param7:F1P}",
+      "4段ダメージ|{param8:F1P}+{param9:F1P}",
+      "5段ダメージ|{param10:F1P}",
+      "重撃ダメージ|{param11:F1P}+{param12:F1P}",
+      "重撃スタミナ消費|{param13:F1}",
+      "落下期間のダメージ|{param14:F1P}",
+      "低空/高空落下攻撃ダメージ|{param15:P}/{param16:P}",
+      "夢想の一心エネルギー回復|{param17:F1}",
+      "夢想の一心継続時間|{param18:F1}秒",
+      "クールタイム|{param19:F1}秒"
+    ],
+    "paramVals": [
+      [4.008, 0.03888, 0.007262, 0.15, 0.44737, 0.43956, 0.53822, 0.30888, 0.30976, 0.73944, 0.616, 0.7436, 20, 0.63932, 1.2784, 1.5968, 1.6, 7, 18, 90],
+      [4.3086, 0.041796, 0.007806, 0.16, 0.47788, 0.46953, 0.57491, 0.32994, 0.33088, 0.78985, 0.658, 0.7943, 20, 0.69136, 1.3824, 1.7267, 1.7, 7, 18, 90],
+      [4.6092, 0.044712, 0.008351, 0.16, 0.50838, 0.4995, 0.61161, 0.351, 0.352, 0.84027, 0.7, 0.845, 20, 0.7434, 1.4865, 1.8567, 1.8, 7, 18, 90],
+      [5.01, 0.0486, 0.009077, 0.17, 0.54905, 0.53946, 0.66054, 0.37908, 0.38016, 0.90749, 0.756, 0.9126, 20, 0.81774, 1.6351, 2.0424, 1.9, 7, 18, 90],
+      [5.3106, 0.051516, 0.009622, 0.17, 0.57955, 0.56943, 0.69723, 0.40014, 0.40128, 0.95791, 0.798, 0.9633, 20, 0.86978, 1.7392, 2.1723, 2, 7, 18, 90],
+      [5.6112, 0.054432, 0.010166, 0.18, 0.61514, 0.60439, 0.74005, 0.42471, 0.42592, 1.0167, 0.847, 1.0224, 20, 0.92925, 1.8581, 2.3209, 2.1, 7, 18, 90],
+      [6.012, 0.05832, 0.010892, 0.18, 0.66089, 0.64935, 0.79509, 0.4563, 0.4576, 1.0924, 0.91, 1.0985, 20, 1.011, 2.0216, 2.5251, 2.2, 7, 18, 90],
+      [6.4128, 0.062208, 0.011619, 0.19, 0.70665, 0.69431, 0.85014, 0.48789, 0.48928, 1.168, 0.973, 1.1746, 20, 1.0928, 2.1851, 2.7293, 2.3, 7, 18, 90],
+      [6.8136, 0.066096, 0.012345, 0.19, 0.7524, 0.73926, 0.90518, 0.51948, 0.52096, 1.2436, 1.036, 1.2506, 20, 1.1746, 2.3486, 2.9336, 2.4, 7, 18, 90],
+      [7.2144, 0.069984, 0.013071, 0.2, 0.79816, 0.78421, 0.96023, 0.55107, 0.55264, 1.3192, 1.099, 1.3267, 20, 1.2638, 2.527, 3.1564, 2.5, 7, 18, 90],
+      [7.6152, 0.073872, 0.013797, 0.2, 0.84391, 0.82917, 1.0153, 0.58266, 0.58432, 1.3948, 1.162, 1.4027, 20, 1.353, 2.7054, 3.3792, 2.5, 7, 18, 90],
+      [8.016, 0.07776, 0.014523, 0.2, 0.88967, 0.87413, 1.0703, 0.61425, 0.616, 1.4705, 1.225, 1.4787, 20, 1.4422, 2.8838, 3.602, 2.5, 7, 18, 90],
+      [8.517, 0.08262, 0.015431, 0.2, 0.93542, 0.91908, 1.1254, 0.64584, 0.64768, 1.5461, 1.288, 1.5548, 20, 1.5314, 3.0622, 3.8248, 2.5, 7, 18, 90],
+      [9.018, 0.08748, 0.016339, 0.2, 0.98117, 0.96403, 1.1804, 0.67743, 0.67936, 1.6217, 1.351, 1.6308, 20, 1.6206, 3.2405, 4.0476, 2.5, 7, 18, 90],
+      [9.519, 0.09234, 0.017246, 0.2, 1.0269, 1.009, 1.2355, 0.70902, 0.71104, 1.6973, 1.414, 1.7069, 20, 1.7098, 3.4189, 4.2704, 2.5, 7, 18, 90]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfLight", "localeName": "「天光」の教え", "rarity": 2, "count": 3 },
+        { "id": "OldHandguard", "localeName": "古びた鍔", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 2 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 4 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 6 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 9 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 4 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 4 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 6 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 6 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 12 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 9 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 16 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 12 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackOrigin",
+    "localeName": "通常攻撃·源流",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n槍による最大5段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、斬り上げ攻撃を発動する。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+    "cd": 0,
+    "paramTpls": [
+      "1段ダメージ|{param1:F1P}",
+      "2段ダメージ|{param2:F1P}",
+      "3段ダメージ|{param3:F1P}",
+      "4段ダメージ|{param4:F1P}+{param5:F1P}",
+      "5段ダメージ|{param6:F1P}",
+      "重撃ダメージ|{param7:F1P}",
+      "重撃スタミナ消費|{param8:F1}",
+      "落下期間のダメージ|{param9:F1P}",
+      "低空/高空落下攻撃ダメージ|{param10:P}/{param11:P}"
+    ],
+    "paramVals": [
+      [0.39646, 0.39732, 0.4988, 0.28982, 0.28982, 0.65446, 0.99588, 25, 0.63932, 1.2784, 1.5968],
+      [0.42873, 0.42966, 0.5394, 0.31341, 0.31341, 0.70773, 1.0769, 25, 0.69136, 1.3824, 1.7267],
+      [0.461, 0.462, 0.58, 0.337, 0.337, 0.761, 1.158, 25, 0.7434, 1.4865, 1.8567],
+      [0.5071, 0.5082, 0.638, 0.3707, 0.3707, 0.8371, 1.2738, 25, 0.81774, 1.6351, 2.0424],
+      [0.53937, 0.54054, 0.6786, 0.39429, 0.39429, 0.89037, 1.3549, 25, 0.86978, 1.7392, 2.1723],
+      [0.57625, 0.5775, 0.725, 0.42125, 0.42125, 0.95125, 1.4475, 25, 0.92925, 1.8581, 2.3209],
+      [0.62696, 0.62832, 0.7888, 0.45832, 0.45832, 1.035, 1.5749, 25, 1.011, 2.0216, 2.5251],
+      [0.67767, 0.67914, 0.8526, 0.49539, 0.49539, 1.1187, 1.7023, 25, 1.0928, 2.1851, 2.7293],
+      [0.72838, 0.72996, 0.9164, 0.53246, 0.53246, 1.2024, 1.8296, 25, 1.1746, 2.3486, 2.9336],
+      [0.7837, 0.7854, 0.986, 0.5729, 0.5729, 1.2937, 1.9686, 25, 1.2638, 2.527, 3.1564],
+      [0.84709, 0.84892, 1.0658, 0.61924, 0.61924, 1.3983, 2.1278, 25, 1.353, 2.7054, 3.3792],
+      [0.92163, 0.92363, 1.1595, 0.67373, 0.67373, 1.5214, 2.3151, 25, 1.4422, 2.8838, 3.602],
+      [0.99617, 0.99834, 1.2533, 0.72822, 0.72822, 1.6444, 2.5023, 25, 1.5314, 3.0622, 3.8248],
+      [1.0707, 1.073, 1.3471, 0.78272, 0.78272, 1.7675, 2.6896, 25, 1.6206, 3.2405, 4.0476],
+      [1.152, 1.1545, 1.4494, 0.84216, 0.84216, 1.9017, 2.8938, 25, 1.7098, 3.4189, 4.2704]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfLight", "localeName": "「天光」の教え", "rarity": 2, "count": 3 },
+        { "id": "OldHandguard", "localeName": "古びた鍔", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 2 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 4 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 6 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」の導き", "rarity": 3, "count": 9 },
+        { "id": "KageuchiHandguard", "localeName": "影打の鍔", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 4 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 4 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 6 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 6 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 12 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 9 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4, "count": 16 },
+        { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3, "count": 12 },
+        { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "WishesUnnumbered", "localeName": "千万の願望", "desc": "周囲にいるチーム中キャラクターが元素オーブまたは元素粒子を獲得した時、<color=#FFD780FF>諸願百目の輪</color>に願力を2層蓄積する。\nこの効果は3秒毎に1回のみ発動可能。", "unlock": 1, "values": [2, 3] },
+    {
+      "name": "EnlightenedOne",
+      "localeName": "殊勝な御体",
+      "desc": "元素チャージ効率が100%を超えている場合、超えた分1%につき、雷電将軍は下記の効果を獲得する。\n·<color=#FFD780FF>夢想の一心</color>状態で提供する元素エネルギー回復+0.6%。\n·<color=#FFACFFFF>雷元素ダメージ</color>+0.4%。",
+      "unlock": 4,
+      "values": [1, 0.006, 0.004]
+    },
+    { "name": "", "localeName": "暫くなし", "desc": "料理に参加できません" },
+    { "name": "AllPreserver", "localeName": "天下名物狩り", "desc": "片手剣と長柄武器を突破する時、消費するモラ-50%。" }
+  ],
+  "c13ns": [
+    {
+      "name": "OminousInscription",
+      "localeName": "悪曜の呪詛",
+      "desc": "<color=#FFD780FF>諸願百目の輪</color>の願力をより早く蓄積できるようになる。<color=#FFACFFFF>雷元素</color>タイプのキャラクターによる元素爆発が蓄積する願力+80%。他の元素タイプのキャラクターによる元素爆発が蓄積する願力+20%。",
+      "values": [0.8, 0.2]
+    },
+    { "name": "Steelbreaker", "localeName": "斬鉄断金", "desc": "<color=#FFD780FF>奥義·夢想真説</color>の夢想の一太刀と夢想の一心状態下の雷電将軍による攻撃は敵の防御力60%を無視する。", "values": [0.6] },
+    { "name": "ShinkageBygones", "localeName": "眞影旧事", "desc": "<color=#FFD780FF>奥義·夢想真説</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "PledgeOfPropriety", "localeName": "常道への誓い", "desc": "<color=#FFD780FF>奥義·夢想真説</color>による<color=#FFD780FF>夢想の一心</color>状態終了後、周囲のチーム全員（雷電将軍自身を除く）の攻撃力+30%、持続時間10秒。", "values": [0.3, 10] },
+    { "name": "ShogunsDescent", "localeName": "凶将の顕現", "desc": "<color=#FFD780FF>神変·悪曜開眼</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    {
+      "name": "Wishbearer",
+      "localeName": "願いの代行者",
+      "desc": "<color=#FFD780FF>奥義·夢想真説</color>による<color=#FFD780FF>夢想の一心</color>状態の時、雷電将軍の元素爆発ダメージが敵に命中すると、周囲のチーム全員（雷電将軍自身を除く）の元素爆発のクールタイム-1秒。\nこの効果は1秒毎に1回のみ発動可能で、継続時間内に最大5回まで発動できる。",
+      "values": [1, 1]
+    }
+  ],
+  "overviewItems": [
+    { "id": "VajradaAmethystGemstone", "localeName": "最勝のアメシスト", "rarity": 5 },
+    { "id": "StormBeads", "localeName": "雷霆の念珠", "rarity": 4 },
+    { "id": "AmakumoFruit", "localeName": "天雲草の実" },
+    { "id": "FamedHandguard", "localeName": "名刀の鍔", "rarity": 3 },
+    { "id": "PhilosophiesOfLight", "localeName": "「天光」の哲学", "rarity": 4 },
+    { "id": "MoltenMoment", "localeName": "溶滅の刻", "rarity": 5 }
+  ]
+}
