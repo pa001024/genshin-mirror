@@ -1,0 +1,335 @@
+{
+  "uid": 10000034,
+  "id": "noelle",
+  "name": "Noelle",
+  "localeName": "Noelle",
+  "desc": "A maid who faithfully serves the Knights of Favonius. She dreams of joining their ranks someday.",
+  "baseHP": 1012.1,
+  "baseATK": 16.027,
+  "baseDEF": 66.953,
+  "bodyType": 3,
+  "rarity": 4,
+  "weapon": 4,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "PrithivaTopazSliver", "localeName": "Prithiva Topaz Sliver", "rarity": 2, "count": 1 },
+        { "id": "Valberry", "localeName": "Valberry", "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 3 }
+      ],
+      "HP": 756.08,
+      "ATK": 11.973,
+      "DEF": 50.018,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "PrithivaTopazFragment", "localeName": "Prithiva Topaz Fragment", "rarity": 3, "count": 3 },
+        { "id": "BasaltPillar", "localeName": "Basalt Pillar", "rarity": 4, "count": 2 },
+        { "id": "Valberry", "localeName": "Valberry", "count": 10 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1293.3,
+      "ATK": 20.481,
+      "DEF": 85.556,
+      "extra": 0.075
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "PrithivaTopazFragment", "localeName": "Prithiva Topaz Fragment", "rarity": 3, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "Basalt Pillar", "rarity": 4, "count": 4 },
+        { "id": "Valberry", "localeName": "Valberry", "count": 20 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 12 }
+      ],
+      "HP": 2009.6,
+      "ATK": 31.824,
+      "DEF": 132.94,
+      "extra": 0.15
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "PrithivaTopazChunk", "localeName": "Prithiva Topaz Chunk", "rarity": 4, "count": 3 },
+        { "id": "BasaltPillar", "localeName": "Basalt Pillar", "rarity": 4, "count": 8 },
+        { "id": "Valberry", "localeName": "Valberry", "count": 30 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2546.8,
+      "ATK": 40.332,
+      "DEF": 168.48,
+      "extra": 0.15
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "PrithivaTopazChunk", "localeName": "Prithiva Topaz Chunk", "rarity": 4, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "Basalt Pillar", "rarity": 4, "count": 12 },
+        { "id": "Valberry", "localeName": "Valberry", "count": 45 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 }
+      ],
+      "HP": 3084,
+      "ATK": 48.839,
+      "DEF": 204.02,
+      "extra": 0.225
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "PrithivaTopazGemstone", "localeName": "Prithiva Topaz Gemstone", "rarity": 5, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "Basalt Pillar", "rarity": 4, "count": 20 },
+        { "id": "Valberry", "localeName": "Valberry", "count": 60 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 24 }
+      ],
+      "HP": 3621.2,
+      "ATK": 57.346,
+      "DEF": 239.56,
+      "extra": 0.3
+    }
+  ],
+  "ascensionType": 9,
+  "element": 2,
+  "elemSkill": {
+    "name": "Breastplate",
+    "localeName": "Breastplate",
+    "desc": "Summons protective stone armor, dealing <color=#FFE699FF>Geo DMG</color> to surrounding opponents and creating a shield. The shield's DMG Absorption scales based on Noelle's DEF.\nThe shield has the following properties:\n·When Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters.\n·Possesses 150% DMG Absorption efficiency against all Elemental and Physical DMG.\n\nThe amount of HP healed when regeneration is triggered scales based on Noelle's DEF.\n\n<i>Noelle is both a dutiful maid and a valiant knight.</i>",
+    "cd": 24,
+    "paramTpls": ["Skill DMG|{param6:P} DEF", "DMG Absorption|{param1:P} DEF+{param7:I}", "Healing|{param2:F1P} DEF+{param8:I}", "Healing Triggering Chance|{param3:P}", "Duration|{param4:F1}s", "CD|{param5:F1}s"],
+    "paramVals": [
+      [1.6, 0.2128, 0.5, 12, 24, 1.2, 769.79, 102.72],
+      [1.72, 0.22876, 0.51, 12, 24, 1.29, 846.77, 112.99],
+      [1.84, 0.24472, 0.52, 12, 24, 1.38, 930.18, 124.12],
+      [2, 0.266, 0.53, 12, 24, 1.5, 1020, 136.11],
+      [2.12, 0.28196, 0.54, 12, 24, 1.59, 1116.2, 148.95],
+      [2.24, 0.29792, 0.55, 12, 24, 1.68, 1218.9, 162.65],
+      [2.4, 0.3192, 0.56, 12, 24, 1.8, 1328, 177.2],
+      [2.56, 0.34048, 0.57, 12, 24, 1.92, 1443.4, 192.61],
+      [2.72, 0.36176, 0.58, 12, 24, 2.04, 1565.3, 208.87],
+      [2.88, 0.38304, 0.59, 12, 24, 2.16, 1693.7, 226],
+      [3.04, 0.40432, 0.59, 12, 24, 2.28, 1828.4, 243.97],
+      [3.2, 0.4256, 0.6, 12, 24, 2.4, 1969.5, 262.81],
+      [3.4, 0.4522, 0.6, 12, 24, 2.55, 2117.1, 282.5],
+      [3.6, 0.4788, 0.6, 12, 24, 2.7, 2271.1, 303.05],
+      [3.8, 0.5054, 0.6, 12, 24, 2.85, 2431.5, 324.45]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfResistance", "localeName": "Teachings of Resistance", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "SweepingTime",
+    "localeName": "Sweeping Time",
+    "desc": "Gathering the strength of stone around her weapon, Noelle strikes the opponents surrounding her within a large AoE, dealing <color=#FFE699FF>Geo DMG</color>.\nAfterwards, Noelle gains the following effects:\n·Larger attack AoE.\n·Converts attack DMG to <color=#FFE699FF>Geo DMG</color> that cannot be overridden by any other elemental infusion.\n·Increased ATK that scales based on her DEF.\n\n<i>Sometimes, it's not just dust that needs sweeping...</i>",
+    "cd": 15,
+    "energyCost": 60,
+    "paramTpls": ["Burst DMG|{param1:F1P}", "Skill DMG|{param2:F1P}", "ATK Bonus|{param3:P} DEF", "Duration|{param4:F1}s", "CD|{param5:F1}s", "Energy Cost|{param6:I}"],
+    "paramVals": [
+      [0.672, 0.928, 0.4, 15, 15, 60],
+      [0.7224, 0.9976, 0.43, 15, 15, 60],
+      [0.7728, 1.0672, 0.46, 15, 15, 60],
+      [0.84, 1.16, 0.5, 15, 15, 60],
+      [0.8904, 1.2296, 0.53, 15, 15, 60],
+      [0.9408, 1.2992, 0.56, 15, 15, 60],
+      [1.008, 1.392, 0.6, 15, 15, 60],
+      [1.0752, 1.4848, 0.64, 15, 15, 60],
+      [1.1424, 1.5776, 0.68, 15, 15, 60],
+      [1.2096, 1.6704, 0.72, 15, 15, 60],
+      [1.2768, 1.7632, 0.76, 15, 15, 60],
+      [1.344, 1.856, 0.8, 15, 15, 60],
+      [1.428, 1.972, 0.85, 15, 15, 60],
+      [1.512, 2.088, 0.9, 15, 15, 60],
+      [1.596, 2.204, 0.95, 15, 15, 60]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfResistance", "localeName": "Teachings of Resistance", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackFavoniusBladeworkMaid",
+    "localeName": "Normal Attack: Favonius Bladework - Maid",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 4 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, perform a more powerful slash. \n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "cd": 0,
+    "paramTpls": [
+      "1-Hit DMG|{param1:F1P}",
+      "2-Hit DMG|{param2:F1P}",
+      "3-Hit DMG|{param3:F1P}",
+      "4-Hit DMG|{param4:P}",
+      "Charged Attack Spinning DMG|{param5:F1P}",
+      "Charged Attack Final DMG|{param6:F1P}",
+      "Charged Attack Stamina Cost|{param7:F1}/s",
+      "Max Duration|{param8:F1}s",
+      "Plunge DMG|{param9:F1P}",
+      "Low/High Plunge DMG|{param10:P}/{param11:P}"
+    ],
+    "paramVals": [
+      [0.7912, 0.73358, 0.86258, 1.1343, 0.5074, 0.90472, 40, 5, 0.74588, 1.4914, 1.8629],
+      [0.8556, 0.79329, 0.93279, 1.2267, 0.5487, 0.97836, 40, 5, 0.80659, 1.6128, 2.0145],
+      [0.92, 0.853, 1.003, 1.319, 0.59, 1.052, 40, 5, 0.8673, 1.7342, 2.1662],
+      [1.012, 0.9383, 1.1033, 1.4509, 0.649, 1.1572, 40, 5, 0.95403, 1.9077, 2.3828],
+      [1.0764, 0.99801, 1.1735, 1.5432, 0.6903, 1.2308, 40, 5, 1.0147, 2.0291, 2.5344],
+      [1.15, 1.0662, 1.2537, 1.6487, 0.7375, 1.315, 40, 5, 1.0841, 2.1678, 2.7077],
+      [1.2512, 1.1601, 1.3641, 1.7938, 0.8024, 1.4307, 40, 5, 1.1795, 2.3586, 2.946],
+      [1.3524, 1.2539, 1.4744, 1.9389, 0.8673, 1.5464, 40, 5, 1.2749, 2.5493, 3.1842],
+      [1.4536, 1.3477, 1.5847, 2.084, 0.9322, 1.6622, 40, 5, 1.3703, 2.7401, 3.4225],
+      [1.564, 1.4501, 1.7051, 2.2423, 1.003, 1.7884, 40, 5, 1.4744, 2.9482, 3.6825],
+      [1.6744, 1.5525, 1.8255, 2.4006, 1.0738, 1.9146, 40, 5, 1.5785, 3.1563, 3.9424],
+      [1.7848, 1.6548, 1.9458, 2.5589, 1.1446, 2.0409, 40, 5, 1.6826, 3.3644, 4.2023],
+      [1.8952, 1.7572, 2.0662, 2.7171, 1.2154, 2.1671, 40, 5, 1.7866, 3.5725, 4.4623],
+      [2.0056, 1.8595, 2.1865, 2.8754, 1.2862, 2.2934, 40, 5, 1.8907, 3.7806, 4.7222],
+      [2.116, 1.9619, 2.3069, 3.0337, 1.357, 2.4196, 40, 5, 1.9948, 3.9887, 4.9821]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfResistance", "localeName": "Teachings of Resistance", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    {
+      "name": "Devotion",
+      "localeName": "Devotion",
+      "desc": "When Noelle is in the party but not on the field, this ability triggers automatically when your active character's HP falls below 30%:\nCreates a shield for your active character that lasts for 20s and absorbs DMG equal to 400% of Noelle's DEF.\nThe shield has a 150% DMG Absorption effectiveness against all Elemental and Physical DMG.\nThis effect can only occur once every 60s.",
+      "unlock": 1,
+      "values": [0.3, 4, 20, 60]
+    },
+    { "name": "NiceAndClean", "localeName": "Nice and Clean", "desc": "Noelle will decrease the CD of <color=#FFD780FF>Breastplate</color> by 1s for every 4 Normal or Charged Attack hits she scores on opponents.\nOne hit may be counted every 0.1s.", "unlock": 4, "values": [-1] },
+    { "name": "MaidsKnighthood", "localeName": "Maid's Knighthood", "desc": "When a Perfect Cooking is achieved on a DEF-boosting dish, Noelle has a 12% chance to obtain double the product." }
+  ],
+  "c13ns": [
+    { "name": "IGotYourBack", "localeName": "I Got Your Back", "desc": "While <color=#FFD780FF>Sweeping Time</color> and <color=#FFD780FF>Breastplate</color> are both in effect, the chance of Breastplate's healing effects activating is increased to 100%.", "values": [1] },
+    { "name": "CombatMaid", "localeName": "Combat Maid", "desc": "Decreases the Stamina Consumption of Noelle's Charged Attacks by 20% and increases her Charged Attack DMG by 15%.", "values": [-0.2, 0.15] },
+    { "name": "InvulnerableMaid", "localeName": "Invulnerable Maid", "desc": "Increases the Level of <color=#FFD780FF>Breastplate</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "ToBeCleaned", "localeName": "To Be Cleaned", "desc": "When <color=#FFD780FF>Breastplate</color>'s duration expires or it is destroyed by DMG, it will deal 400% ATK of <color=#FFE699FF>Geo DMG</color> to surrounding opponents.", "values": [4] },
+    { "name": "FavoniusSweeperMaster", "localeName": "Favonius Sweeper Master", "desc": "Increases the Level of <color=#FFD780FF>Sweeping Time</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "MustBeSpotless", "localeName": "Must Be Spotless", "desc": "<color=#FFD780FF>Sweeping Time</color> increases Noelle's ATK by an additional 50% of her DEF.\nAdditionally, every opponent defeated during the skill's duration adds 1s to the duration, up to 10s.", "values": [0.5, 10] }
+  ],
+  "overviewItems": [
+    { "id": "PrithivaTopazGemstone", "localeName": "Prithiva Topaz Gemstone", "rarity": 5 },
+    { "id": "BasaltPillar", "localeName": "Basalt Pillar", "rarity": 4 },
+    { "id": "Valberry", "localeName": "Valberry" },
+    { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3 },
+    { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4 },
+    { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5 }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "uid": 10000030,
+  "id": "zhongli",
+  "name": "Zhongli",
+  "localeName": "鍾離",
+  "desc": "「往生堂」に招かれた謎の客卿、博識であり、あらゆることに精通している。",
+  "baseHP": 1144,
+  "baseATK": 19.551,
+  "baseDEF": 57.437,
+  "bodyType": 1,
+  "rarity": 5,
+  "weapon": 3,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "PrithivaTopazSliver", "localeName": "堅牢なトパーズ·砕屑", "rarity": 2, "count": 1 },
+        { "id": "CorLapis", "localeName": "石珀", "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "スライムの液体", "rarity": 1, "count": 3 }
+      ],
+      "HP": 980.86,
+      "ATK": 16.762,
+      "DEF": 49.248,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "PrithivaTopazFragment", "localeName": "堅牢なトパーズ·欠片", "rarity": 3, "count": 3 },
+        { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4, "count": 2 },
+        { "id": "CorLapis", "localeName": "石珀", "count": 10 },
+        { "id": "SlimeCondensate", "localeName": "スライムの液体", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1677.8,
+      "ATK": 28.672,
+      "DEF": 84.24,
+      "extra": 0.072
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "PrithivaTopazFragment", "localeName": "堅牢なトパーズ·欠片", "rarity": 3, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4, "count": 4 },
+        { "id": "CorLapis", "localeName": "石珀", "count": 20 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 12 }
+      ],
+      "HP": 2607,
+      "ATK": 44.552,
+      "DEF": 130.9,
+      "extra": 0.144
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "PrithivaTopazChunk", "localeName": "堅牢なトパーズ·塊", "rarity": 4, "count": 3 },
+        { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4, "count": 8 },
+        { "id": "CorLapis", "localeName": "石珀", "count": 30 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 18 }
+      ],
+      "HP": 3304,
+      "ATK": 56.461,
+      "DEF": 165.89,
+      "extra": 0.144
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "PrithivaTopazChunk", "localeName": "堅牢なトパーズ·塊", "rarity": 4, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4, "count": 12 },
+        { "id": "CorLapis", "localeName": "石珀", "count": 45 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 12 }
+      ],
+      "HP": 4000.9,
+      "ATK": 68.371,
+      "DEF": 200.88,
+      "extra": 0.216
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "PrithivaTopazGemstone", "localeName": "堅牢なトパーズ", "rarity": 5, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4, "count": 20 },
+        { "id": "CorLapis", "localeName": "石珀", "count": 60 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 24 }
+      ],
+      "HP": 4697.8,
+      "ATK": 80.281,
+      "DEF": 235.87,
+      "extra": 0.288
+    }
+  ],
+  "ascensionType": 31,
+  "element": 2,
+  "elemSkill": {
+    "name": "DominusLapidis",
+    "localeName": "地心",
+    "desc": "山脈の中、大地の上、盤石の間に岩の力が宿っている。しかしこの力を自由に扱える者は少ない。\n\n<color=#FFD780FF>一回押し</color>\n大地の至るところにある岩元素を積み上げ、岩柱を生成する。\n\n<color=#FFD780FF>長押し</color>\n付近の岩元素を爆発させ、下記の効果を発動する。\n·岩柱が数の上限に達していない場合、岩柱を生成する。\n·玉璋シールドを生成する。シールドのダメージ吸収量は鍾離のHP上限によって決まる。\n·<color=#FFE699FF>岩元素範囲ダメージ</color>を与える。\n·周りに<color=#FFE699FF>岩元素</color>を持つターゲットがいる場合、最大2つのターゲットの<color=#FFE699FF>岩元素</color>を大量に消耗させる。この効果によるダメージは発生しない。\n\n<color=#FFD780FF>岩柱</color>\n岩柱が生成された時、<color=#FFE699FF>岩元素範囲ダメージ</color>を与える。\nまた、岩柱が存在している間、周囲の他の<color=#FFE699FF>岩元素創造物</color>と一定時間の間隔で原岩共鳴をし、持続的に周囲の敵に<color=#FFE699FF>岩元素ダメージ</color>を与える。\n岩柱は<color=#FFE699FF>岩元素創造物</color>と見なされ、攻撃を防ぐことができ、登ることもできる。同時に最大1つまで存在可能。\n\n<color=#FFD780FF>玉璋シールド</color>\n全元素ダメージと物理ダメージに150%の吸収効果がある。\n玉璋シールドに守られたキャラクターは、付近範囲内の敵の全元素耐性と物理耐性-20%。この効果は重ねがけ不可。\n\n<i>岩の堅きこと、物に於いて陥さざる無きなり。</i>",
+    "cd": 12,
+    "paramTpls": ["岩柱ダメージ/共鳴ダメージ|{param1:F1P}/{param2:F1P}", "一回押しクールタイム|{param3:F1}秒", "長押しダメージ|{param4:P}", "シールド基礎吸収量|{param5:I}", "シールド追加吸収量|{param6:F1P}HP上限", "シールド継続時間|{param7:F1}秒", "長押しクールタイム|{param8:F1}秒"],
+    "paramVals": [
+      [0.16, 0.32, 4, 0.8, 1232.4, 0.128, 20, 12],
+      [0.172, 0.344, 4, 0.86, 1355.7, 0.1376, 20, 12],
+      [0.184, 0.368, 4, 0.92, 1489.2, 0.1472, 20, 12],
+      [0.2, 0.4, 4, 1, 1633, 0.16, 20, 12],
+      [0.212, 0.424, 4, 1.06, 1787.1, 0.1696, 20, 12],
+      [0.224, 0.448, 4, 1.12, 1951.4, 0.1792, 20, 12],
+      [0.24, 0.48, 4, 1.2, 2126, 0.192, 20, 12],
+      [0.256, 0.512, 4, 1.28, 2310.9, 0.2048, 20, 12],
+      [0.272, 0.544, 4, 1.36, 2506.1, 0.2176, 20, 12],
+      [0.288, 0.576, 4, 1.44, 2711.5, 0.2304, 20, 12],
+      [0.304, 0.608, 4, 1.52, 2927.2, 0.2432, 20, 12],
+      [0.32, 0.64, 4, 1.6, 3153.2, 0.256, 20, 12],
+      [0.34, 0.68, 4, 1.7, 3389.4, 0.272, 20, 12],
+      [0.36, 0.72, 4, 1.8, 3635.9, 0.288, 20, 12],
+      [0.38, 0.76, 4, 1.9, 3892.7, 0.304, 20, 12]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfGold", "localeName": "「黄金」の教え", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "スライムの液体", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 4 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 6 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 9 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 12 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "PlanetBefall",
+    "localeName": "天星",
+    "desc": "巨大な星岩を落下させ、落下範囲内の敵に大量の<color=#FFE699FF>岩元素ダメージ</color>を与え、<color=#FFE699FF>石化</color>状態にする。\n\n<color=#FFD780FF>石化</color>\n<color=#FFE699FF>石化</color>状態の敵は行動不能になる。\n\n<i>蒼天の星岩を落とし、暗闇の運命を照らす。</i>",
+    "cd": 12,
+    "energyCost": 40,
+    "paramTpls": ["スキルダメージ|{param1:P}", "石化時間|{param2:F1}秒", "クールタイム|{param3:F1}秒", "元素エネルギー|{param4:I}"],
+    "paramVals": [
+      [4.0108, 3.1, 12, 40],
+      [4.4444, 3.2, 12, 40],
+      [4.878, 3.3, 12, 40],
+      [5.42, 3.4, 12, 40],
+      [5.9078, 3.5, 12, 40],
+      [6.3956, 3.6, 12, 40],
+      [7.046, 3.7, 12, 40],
+      [7.6964, 3.8, 12, 40],
+      [8.3468, 3.9, 12, 40],
+      [8.9972, 4, 12, 40],
+      [9.6476, 4, 12, 40],
+      [10.298, 4, 12, 40],
+      [10.84, 4, 12, 40],
+      [11.382, 4, 12, 40],
+      [11.924, 4, 12, 40]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfGold", "localeName": "「黄金」の教え", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "スライムの液体", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 4 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 6 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 9 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 12 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackRainOfStone",
+    "localeName": "通常攻撃·岩雨",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n槍による最大6段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費して前方に疾行し、行動経路上と終着点に雨のような岩槍を投下する。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+    "cd": 0,
+    "paramTpls": [
+      "1段ダメージ|{param1:F1P}",
+      "2段ダメージ|{param2:F1P}",
+      "3段ダメージ|{param3:F1P}",
+      "4段ダメージ|{param4:F1P}",
+      "5段ダメージ|{param5:F1P}×4",
+      "6段ダメージ|{param6:F1P}",
+      "重撃ダメージ|{param7:P}",
+      "重撃スタミナ消費|{param8:F1}",
+      "落下期間のダメージ|{param9:F1P}",
+      "低空/高空落下攻撃ダメージ|{param10:P}/{param11:P}"
+    ],
+    "paramVals": [
+      [0.30769, 0.31152, 0.38576, 0.42939, 0.1075, 0.54497, 1.1103, 25, 0.63932, 1.2784, 1.5968],
+      [0.33274, 0.33687, 0.41716, 0.46434, 0.11625, 0.58932, 1.2006, 25, 0.69136, 1.3824, 1.7267],
+      [0.35778, 0.36223, 0.44856, 0.49929, 0.125, 0.63368, 1.291, 25, 0.7434, 1.4865, 1.8567],
+      [0.39356, 0.39845, 0.49342, 0.54922, 0.1375, 0.69705, 1.4201, 25, 0.81774, 1.6351, 2.0424],
+      [0.4186, 0.42381, 0.52482, 0.58417, 0.14625, 0.74141, 1.5105, 25, 0.86978, 1.7392, 2.1723],
+      [0.44723, 0.45279, 0.5607, 0.62411, 0.15625, 0.7921, 1.6137, 25, 0.92925, 1.8581, 2.3209],
+      [0.48658, 0.49263, 0.61004, 0.67903, 0.17, 0.86181, 1.7558, 25, 1.011, 2.0216, 2.5251],
+      [0.52594, 0.53248, 0.65938, 0.73396, 0.18375, 0.93151, 1.8978, 25, 1.0928, 2.1851, 2.7293],
+      [0.56529, 0.57232, 0.70872, 0.78888, 0.1975, 1.0012, 2.0398, 25, 1.1746, 2.3486, 2.9336],
+      [0.60823, 0.61579, 0.76255, 0.84879, 0.2125, 1.0773, 2.1947, 25, 1.2638, 2.527, 3.1564],
+      [0.65742, 0.6656, 0.82423, 0.91745, 0.22969, 1.1644, 2.3722, 25, 1.353, 2.7054, 3.3792],
+      [0.71527, 0.72417, 0.89676, 0.99818, 0.2499, 1.2669, 2.581, 25, 1.4422, 2.8838, 3.602],
+      [0.77313, 0.78274, 0.96929, 1.0789, 0.27011, 1.3693, 2.7897, 25, 1.5314, 3.0622, 3.8248],
+      [0.83098, 0.84131, 1.0418, 1.1597, 0.29032, 1.4718, 2.9985, 25, 1.6206, 3.2405, 4.0476],
+      [0.89409, 0.90521, 1.121, 1.2477, 0.31238, 1.5836, 3.2262, 25, 1.7098, 3.4189, 4.2704]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfGold", "localeName": "「黄金」の教え", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "スライムの液体", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」の導き", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "スライムの分泌物", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 4 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 6 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 9 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3, "count": 12 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "ResonantWaves", "localeName": "岩の宸断", "desc": "玉璋シールドはダメージを受けた際に防御効果を発動する。\n玉璋シールドに守られたキャラクターのシールド強化+5%。\nシールドが消えるまで、最大5回強度を上げることができる。", "unlock": 1, "values": [0.05] },
+    {
+      "name": "DominanceOfEarth",
+      "localeName": "贅沢な食饌",
+      "desc": "HP上限を基に、鍾離の下記攻撃のダメージが増加する。\n·通常攻撃、重撃と落下攻撃のダメージ増加量：HP上限の1.39%\n·<color=#FFD780FF>地心</color>の岩柱、共鳴と長押しダメージ増加量：HP上限の1.9%\n·<color=#FFD780FF>天星</color>ダメージ増加量：HP上限の33%",
+      "unlock": 4,
+      "values": [0.0139, 0.019, 0.33]
+    },
+    { "name": "ArcanumOfCrystal", "localeName": "結晶推命", "desc": "長柄武器を鍛造する時、消費した鉱石の15%が返還される。" }
+  ],
+  "c13ns": [
+    { "name": "RockTheBackboneOfEarth", "localeName": "岩、天下の骨なり", "desc": "<color=#FFD780FF>地心</color>の岩柱が同時に最大2つまで存在可能になる。" },
+    { "name": "StoneTheCradleOfJade", "localeName": "石、玉の揺りかご", "desc": "<color=#FFD780FF>天星</color>落下時、近くにいる出場中のキャラクターに玉璋シールドを付与する。" },
+    { "name": "JadeShimmeringThroughDarkness", "localeName": "圭璋、闇の中で輝く", "desc": "<color=#FFD780FF>地心</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "TopazUnbreakableAndFearless", "localeName": "黄玉、破れぬ堅さ", "desc": "<color=#FFD780FF>天星</color>の影響範囲+20%。\nさらに天星の石化効果の継続時間+2秒。", "values": [0.2, 2] },
+    { "name": "LazuliHeraldOfTheOrder", "localeName": "璧、天理を守る", "desc": "<color=#FFD780FF>天星</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "ChrysosBountyOfDominator", "localeName": "金、天地の恵み", "desc": "玉璋シールドがダメージを受けた時、そのダメージ量の40%分のHPを回復する。\n一回の回復上限はキャラクターのHP上限の8%。", "values": [0.4, 0.08] }
+  ],
+  "overviewItems": [
+    { "id": "PrithivaTopazGemstone", "localeName": "堅牢なトパーズ", "rarity": 5 },
+    { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4 },
+    { "id": "CorLapis", "localeName": "石珀" },
+    { "id": "SlimeConcentrate", "localeName": "スライムのピュレ", "rarity": 3 },
+    { "id": "PhilosophiesOfGold", "localeName": "「黄金」の哲学", "rarity": 4 },
+    { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5 }
+  ]
+}

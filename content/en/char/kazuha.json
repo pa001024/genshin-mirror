@@ -97,7 +97,7 @@
     "localeName": "Chihayaburu",
     "desc": "#Unleashes a secret technique as fierce as the rushing wind that pulls objects and opponents towards Kazuha's current position before launching opponents within the AoE, dealing <color=#80FFD7FF>Anemo DMG</color> and lifting Kazuha into the air on a rushing gust of wind.\nWithin 10s of remaining airborne after casting Chihayaburu, Kazuha can unleash a powerful Plunging Attack known as Midare Ranzan.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nCan be used in mid-air.\n\n<color=#FFD780FF>Hold</color>\nCharges up before unleashing greater <color=#80FFD7FF>Anemo DMG</color> over a larger AoE than {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Mode.\n\n<color=#FFD780FF>Plunging Attack: Midare Ranzan</color>\nWhen a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to <color=#80FFD7FF>Anemo DMG</color>. On landing, Kazuha creates a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents.\nMidare Ranzan's DMG is considered Plunging Attack DMG.\n\n<i>\"Wind in branches grieves\nBygone ages, gods of old\nWithered autumn leaves\"</i>",
     "cd": 6,
-    "paramTpls": ["#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Skill DMG|{param1:P}", "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s", "Hold Skill DMG|{param3:P}", "CD (hold)|{param4:F1}s"],
+    "paramTpls": ["#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Skill DMG|{param1:P}", "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s", "Hold Skill DMG|{param3:P}", "Hold CD|{param4:F1}s"],
     "paramVals": [
       [1.92, 6, 2.608, 9],
       [2.064, 6, 2.8036, 9],
@@ -308,7 +308,7 @@
     {
       "name": "SoumonSwordsmanship",
       "localeName": "Soumon Swordsmanship",
-      "desc": "If <color=#FFD780FF>Chihayaburu</color> comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color> when cast, <color=#FFD780FF>Chihayaburu</color> will absorb that element and if Plunging Attack: Midare Ranzan is used before the effect expires, it will deal an additional 200% ATK of the absorbed elemental type as DMG. This will be considered Plunging Attack DMG.\nElemental Absorption may only occur once per use of <color=#FFD780FF>Chihayaburu</color>.",
+      "desc": "If <color=#FFD780FF>Chihayaburu</color> comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color> when cast, this <color=#FFD780FF>Chihayaburu</color> will absorb that element and if Plunging Attack: Midare Ranzan is used before the effect expires, it will deal an additional 200% ATK of the absorbed elemental type as DMG. This will be considered Plunging Attack DMG.\nElemental Absorption may only occur once per use of <color=#FFD780FF>Chihayaburu</color>.",
       "unlock": 1,
       "values": [2]
     },
@@ -326,7 +326,7 @@
     {
       "name": "YamaarashiTailwind",
       "localeName": "Yamaarashi Tailwind",
-      "desc": "The Autumn Whirlwind field created by <color=#FFD780FF>Kazuha Slash</color> has the following effects:\n· Increases Kaedehara Kazuha's own Elemental Mastery by 200.\n· Increases the Elemental Mastery of characters within the field by 200.\n\nThe Elemental Mastery-increasing effects of this Constellation do not stack.",
+      "desc": "The Autumn Whirlwind field created by <color=#FFD780FF>Kazuha Slash</color> has the following effects:\n· Increases Kaedehara Kazuha's own Elemental Mastery by 200 for its duration.\n· Increases the Elemental Mastery of characters within the field by 200.\n\nThe Elemental Mastery-increasing effects of this Constellation do not stack.",
       "values": [200]
     },
     { "name": "MapleMonogatari", "localeName": "Maple Monogatari", "desc": "Increases the Level of <color=#FFD780FF>Chihayaburu</color> by 3.\nMaximum upgrade level is 15." },
@@ -340,7 +340,7 @@
     {
       "name": "CrimsonMomiji",
       "localeName": "Crimson Momiji",
-      "desc": "After using <color=#FFD780FF>Chihayaburu</color> or <color=#FFD780FF>Kazuha Slash</color>, Kaedehara Kazuha gains an <color=#80FFD7FF>Anemo Infusion</color> for 5s. Additionally, each point of Elemental Mastery will increase the DMG dealt by Kaedehara Kazuha's Normal, Charged, and Plunging Attack by 0.2%.",
+      "desc": "After using <color=#FFD780FF>Chihayaburu</color> or <color=#FFD780FF>Kazuha Slash</color>, Kaedehara Kazuha gains an <color=#80FFD7FF>Anemo Infusion</color> for 5s. Additionally, each point of Elemental Mastery will increase the DMG dealt by Kaedehara Kazuha's Normal, Charged, and Plunging Attacks by 0.2%.",
       "values": [0.002, 5]
     }
   ],

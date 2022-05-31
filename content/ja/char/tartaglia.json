@@ -1,0 +1,351 @@
+{
+  "uid": 10000033,
+  "id": "tartaglia",
+  "name": "Tartaglia",
+  "localeName": "タルタリヤ",
+  "desc": "ファトゥス第十一位、「公子」、その戦績や名前は広く知られている。",
+  "baseHP": 1020.1,
+  "baseATK": 23.461,
+  "baseDEF": 63.42,
+  "bodyType": 1,
+  "rarity": 5,
+  "weapon": 2,
+  "region": 7,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "VarunadaLazuriteSliver", "localeName": "澄明なラピスラズリ·砕屑", "rarity": 2, "count": 1 },
+        { "id": "Starconch", "localeName": "星螺", "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵の記章", "rarity": 1, "count": 3 }
+      ],
+      "HP": 874.6,
+      "ATK": 20.114,
+      "DEF": 54.378,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "VarunadaLazuriteFragment", "localeName": "澄明なラピスラズリ·欠片", "rarity": 3, "count": 3 },
+        { "id": "CleansingHeart", "localeName": "浄水の心", "rarity": 4, "count": 2 },
+        { "id": "Starconch", "localeName": "星螺", "count": 10 },
+        { "id": "RecruitsInsignia", "localeName": "新兵の記章", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1496,
+      "ATK": 34.406,
+      "DEF": 93.015,
+      "extra": 0.072
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "VarunadaLazuriteFragment", "localeName": "澄明なラピスラズリ·欠片", "rarity": 3, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "浄水の心", "rarity": 4, "count": 4 },
+        { "id": "Starconch", "localeName": "星螺", "count": 20 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 12 }
+      ],
+      "HP": 2324.6,
+      "ATK": 53.462,
+      "DEF": 144.53,
+      "extra": 0.144
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "VarunadaLazuriteChunk", "localeName": "澄明なラピスラズリ·塊", "rarity": 4, "count": 3 },
+        { "id": "CleansingHeart", "localeName": "浄水の心", "rarity": 4, "count": 8 },
+        { "id": "Starconch", "localeName": "星螺", "count": 30 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2946,
+      "ATK": 67.754,
+      "DEF": 183.17,
+      "extra": 0.144
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "VarunadaLazuriteChunk", "localeName": "澄明なラピスラズリ·塊", "rarity": 4, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "浄水の心", "rarity": 4, "count": 12 },
+        { "id": "Starconch", "localeName": "星螺", "count": 45 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 12 }
+      ],
+      "HP": 3567.5,
+      "ATK": 82.046,
+      "DEF": 221.8,
+      "extra": 0.216
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "VarunadaLazuriteGemstone", "localeName": "澄明なラピスラズリ", "rarity": 5, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "浄水の心", "rarity": 4, "count": 20 },
+        { "id": "Starconch", "localeName": "星螺", "count": 60 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 24 }
+      ],
+      "HP": 4188.9,
+      "ATK": 96.337,
+      "DEF": 260.44,
+      "extra": 0.288
+    }
+  ],
+  "ascensionType": 21,
+  "element": 5,
+  "elemSkill": {
+    "name": "FoulLegacyRagingTide",
+    "localeName": "魔王の武装·荒波",
+    "desc": "水で構成された武装を解放し、周囲の敵に<color=#80C0FFFF>水元素ダメージ</color>を与え、近接モードに入る。\nこの状態の時、タルタリヤの通常攻撃と重撃は<color=#80C0FFFF>水元素ダメージ</color>となり、元素付与によって他の元素に変化することはない。また、攻撃は下記のように変化する。\n\n<color=#FFD780FF>通常攻撃</color>\n最大6段の<color=#80C0FFFF>水元素</color>斬撃を行う。\n\n<color=#FFD780FF>重撃</color>\nスタミナを消費して前方に斬撃を2回放ち、<color=#80C0FFFF>水元素ダメージ</color>を与える。\n\n<color=#FFD780FF>断流·斬</color>\n近接攻撃が断流状態の敵に命中すると断流·斬を1回発動し、<color=#80C0FFFF>水元素範囲ダメージ</color>を与える。断流·斬が与えたダメージは元素スキルダメージと見なされ、1.5秒毎に1回のみ発動可能。\n\nスキル発動30秒後、または再びスキルを発動すると効果が解除され、遠隔モードに戻り、クールタイムに入る。近接モードの継続時間が長いほど、クールタイムは長くなる。\n30秒継続した後に自動的に遠隔モードに戻った場合、スキルのクールタイムは更に長くなる。\n\n<i>弓が苦手という弱点を克服するために、わざわざ弓を武器にしたのだ。しかし本当の戦いの中では、実力を見せなければならない時がある…</i>",
+    "cd": 6,
+    "paramTpls": [
+      "状態切替時に与えるダメージ|{param1:P}",
+      "1段ダメージ|{param2:F1P}",
+      "2段ダメージ|{param3:F1P}",
+      "3段ダメージ|{param4:F1P}",
+      "4段ダメージ|{param5:F1P}",
+      "5段ダメージ|{param6:F1P}",
+      "6段ダメージ|{param7:F1P}+{param8:F1P}",
+      "重撃ダメージ|{param9:F1P}+{param10:F1P}",
+      "重撃スタミナ消費|{param12:F1}",
+      "断流·斬 ダメージ|{param11:P}",
+      "最大継続時間|{param13:F1}秒",
+      "クールタイム|{param14:F1}~{param15:F1}秒",
+      "継続時間終了後のクールタイム|{param16:F1}秒"
+    ],
+    "paramVals": [
+      [0.72, 0.38872, 0.41624, 0.5633, 0.59942, 0.55298, 0.35432, 0.37668, 0.602, 0.71982, 0.602, 20, 30, 6, 36, 45],
+      [0.774, 0.42036, 0.45012, 0.60915, 0.64821, 0.59799, 0.38316, 0.40734, 0.651, 0.77841, 0.651, 20, 30, 6, 36, 45],
+      [0.828, 0.452, 0.484, 0.655, 0.697, 0.643, 0.412, 0.438, 0.7, 0.837, 0.7, 20, 30, 6, 36, 45],
+      [0.9, 0.4972, 0.5324, 0.7205, 0.7667, 0.7073, 0.4532, 0.4818, 0.77, 0.9207, 0.77, 20, 30, 6, 36, 45],
+      [0.954, 0.52884, 0.56628, 0.76635, 0.81549, 0.75231, 0.48204, 0.51246, 0.819, 0.97929, 0.819, 20, 30, 6, 36, 45],
+      [1.008, 0.565, 0.605, 0.81875, 0.87125, 0.80375, 0.515, 0.5475, 0.875, 1.0462, 0.875, 20, 30, 6, 36, 45],
+      [1.08, 0.61472, 0.65824, 0.8908, 0.94792, 0.87448, 0.56032, 0.59568, 0.952, 1.1383, 0.952, 20, 30, 6, 36, 45],
+      [1.152, 0.66444, 0.71148, 0.96285, 1.0246, 0.94521, 0.60564, 0.64386, 1.029, 1.2304, 1.029, 20, 30, 6, 36, 45],
+      [1.224, 0.71416, 0.76472, 1.0349, 1.1013, 1.0159, 0.65096, 0.69204, 1.106, 1.3225, 1.106, 20, 30, 6, 36, 45],
+      [1.296, 0.7684, 0.8228, 1.1135, 1.1849, 1.0931, 0.7004, 0.7446, 1.19, 1.4229, 1.19, 20, 30, 6, 36, 45],
+      [1.368, 0.82264, 0.88088, 1.1921, 1.2685, 1.1703, 0.74984, 0.79716, 1.274, 1.5233, 1.274, 20, 30, 6, 36, 45],
+      [1.44, 0.87688, 0.93896, 1.2707, 1.3522, 1.2474, 0.79928, 0.84972, 1.358, 1.6238, 1.358, 20, 30, 6, 36, 45],
+      [1.53, 0.93112, 0.99704, 1.3493, 1.4358, 1.3246, 0.84872, 0.90228, 1.442, 1.7242, 1.442, 20, 30, 6, 36, 45],
+      [1.62, 0.98536, 1.0551, 1.4279, 1.5195, 1.4017, 0.89816, 0.95484, 1.526, 1.8247, 1.526, 20, 30, 6, 36, 45],
+      [1.71, 1.0396, 1.1132, 1.5065, 1.6031, 1.4789, 0.9476, 1.0074, 1.61, 1.9251, 1.61, 20, 30, 6, 36, 45]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」の教え", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵の記章", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 4 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 6 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 9 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 12 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "HavocObliteration",
+    "localeName": "極悪技·尽滅閃",
+    "desc": "タルタリヤの戦闘モードによって、異なる攻撃を発動する。\n\n<color=#FFD780FF>遠隔モード·魔弾一閃</color>\n前方に素早く水元素を込めた魔矢を放ち、<color=#80C0FFFF>水元素範囲ダメージ</color>を与え、敵に断流効果を付与する。\n発動後、元素エネルギーが一部返還される。\n\n<color=#FFD780FF>近接モード·尽滅の水光</color>\n広範囲の斬撃を1回仕掛け、周囲全ての敵に大量の<color=#80C0FFFF>水元素ダメージ</color>を与え、断流·爆を発動する。\n\n<color=#FFD780FF>断流·爆</color>\n尽滅の水光が断流状態の敵に命中した場合、断流効果が消耗され、スチームバーストを発生させて<color=#80C0FFFF>水元素範囲ダメージ</color>を与える。断流·爆が与えたダメージは元素爆発ダメージと見なされる。\n\n<i>激しく流れる水、彼の故郷の雪国ではあまり見られない。水を操られるのは、水の大切さを理解しているからだろう。</i>",
+    "cd": 15,
+    "energyCost": 60,
+    "paramTpls": ["スキルダメージ·近接|{param1:P}", "スキルダメージ·遠隔|{param3:P}", "断流·爆 ダメージ|{param2:P}", "スキルによる元素エネルギー回復（遠隔）|{param4:I}", "クールタイム|{param5:F1}秒", "元素エネルギー|{param6:I}"],
+    "paramVals": [
+      [4.64, 1.2, 3.784, 20, 15, 60],
+      [4.988, 1.29, 4.0678, 20, 15, 60],
+      [5.336, 1.38, 4.3516, 20, 15, 60],
+      [5.8, 1.5, 4.73, 20, 15, 60],
+      [6.148, 1.59, 5.0138, 20, 15, 60],
+      [6.496, 1.68, 5.2976, 20, 15, 60],
+      [6.96, 1.8, 5.676, 20, 15, 60],
+      [7.424, 1.92, 6.0544, 20, 15, 60],
+      [7.888, 2.04, 6.4328, 20, 15, 60],
+      [8.352, 2.16, 6.8112, 20, 15, 60],
+      [8.816, 2.28, 7.1896, 20, 15, 60],
+      [9.28, 2.4, 7.568, 20, 15, 60],
+      [9.86, 2.55, 8.041, 20, 15, 60],
+      [10.44, 2.7, 8.514, 20, 15, 60],
+      [11.02, 2.85, 8.987, 20, 15, 60]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」の教え", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵の記章", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 4 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 6 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 9 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 12 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackCuttingTorrent",
+    "localeName": "通常攻撃·断雨",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n最大6段の連続射撃を行う。\n\n<color=#FFD780FF>重撃</color>\nダメージがより高く、より精確な<color=#FFD780FF>狙い撃ち</color>を発動する。\n照準時、水元素の力が矢先に集まる。激流を込めた矢が敵に命中する時に<color=#80C0FFFF>水元素ダメージ</color>を与え、断流効果を付与する。\n\n<color=#FFD780FF>断流</color>\n断流状態の敵がタルタリヤの攻撃を受けると、<color=#80C0FFFF>水元素範囲ダメージ</color>が発生する。これらの効果によるダメージは通常攻撃ダメージと見なされる。\n·断流·閃：フルチャージの狙い撃ち攻撃が断流状態の敵に命中した場合、連続範囲ダメージが発生する。断流·閃は0.7秒毎に1回のみ発動可能。\n·断流·破：断流効果の敵を倒した時にウォーターブルームを放ち、近くの敵に断流効果を付与する。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。\n魔王の武装·荒波の近接モード時、落下攻撃をすることはできない。",
+    "cd": 0,
+    "paramTpls": [
+      "1段ダメージ|{param1:F1P}",
+      "2段ダメージ|{param2:F1P}",
+      "3段ダメージ|{param3:F1P}",
+      "4段ダメージ|{param4:F1P}",
+      "5段ダメージ|{param5:F1P}",
+      "6段ダメージ|{param6:F1P}",
+      "狙い撃ち|{param7:F1P}",
+      "フルチャージ狙い撃ち|{param8:P}",
+      "断流·閃 ダメージ|{param9:F1P}×3",
+      "断流·破 ダメージ|{param10:F1P}",
+      "断流継続時間|{param14:F1}秒",
+      "落下期間のダメージ|{param11:F1P}",
+      "低空/高空落下攻撃ダメージ|{param12:P}/{param13:P}"
+    ],
+    "paramVals": [
+      [0.4128, 0.46268, 0.55384, 0.57018, 0.60888, 0.72756, 0.4386, 1.24, 0.124, 0.62, 0.63932, 1.2784, 1.5968, 10],
+      [0.4464, 0.50034, 0.59892, 0.61659, 0.65844, 0.78678, 0.4743, 1.333, 0.1333, 0.6665, 0.69136, 1.3824, 1.7267, 10],
+      [0.48, 0.538, 0.644, 0.663, 0.708, 0.846, 0.51, 1.426, 0.1426, 0.713, 0.7434, 1.4865, 1.8567, 10],
+      [0.528, 0.5918, 0.7084, 0.7293, 0.7788, 0.9306, 0.561, 1.55, 0.155, 0.775, 0.81774, 1.6351, 2.0424, 10],
+      [0.5616, 0.62946, 0.75348, 0.77571, 0.82836, 0.98982, 0.5967, 1.643, 0.1643, 0.8215, 0.86978, 1.7392, 2.1723, 10],
+      [0.6, 0.6725, 0.805, 0.82875, 0.885, 1.0575, 0.6375, 1.736, 0.1736, 0.868, 0.92925, 1.8581, 2.3209, 10],
+      [0.6528, 0.73168, 0.87584, 0.90168, 0.96288, 1.1506, 0.6936, 1.86, 0.186, 0.93, 1.011, 2.0216, 2.5251, 10],
+      [0.7056, 0.79086, 0.94668, 0.97461, 1.0408, 1.2436, 0.7497, 1.984, 0.1984, 0.992, 1.0928, 2.1851, 2.7293, 10],
+      [0.7584, 0.85004, 1.0175, 1.0475, 1.1186, 1.3367, 0.8058, 2.108, 0.2108, 1.054, 1.1746, 2.3486, 2.9336, 10],
+      [0.816, 0.9146, 1.0948, 1.1271, 1.2036, 1.4382, 0.867, 2.232, 0.2232, 1.116, 1.2638, 2.527, 3.1564, 10],
+      [0.8736, 0.97916, 1.1721, 1.2067, 1.2886, 1.5397, 0.9282, 2.356, 0.2356, 1.178, 1.353, 2.7054, 3.3792, 10],
+      [0.9312, 1.0437, 1.2494, 1.2862, 1.3735, 1.6412, 0.9894, 2.48, 0.248, 1.24, 1.4422, 2.8838, 3.602, 10],
+      [0.9888, 1.1083, 1.3266, 1.3658, 1.4585, 1.7428, 1.0506, 2.635, 0.2635, 1.3175, 1.5314, 3.0622, 3.8248, 10],
+      [1.0464, 1.1728, 1.4039, 1.4453, 1.5434, 1.8443, 1.1118, 2.79, 0.279, 1.395, 1.6206, 3.2405, 4.0476, 10],
+      [1.104, 1.2374, 1.4812, 1.5249, 1.6284, 1.9458, 1.173, 2.945, 0.2945, 1.4725, 1.7098, 3.4189, 4.2704, 10]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」の教え", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵の記章", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 4 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 6 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 9 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 12 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "NeverEnding", "localeName": "無尽蔵", "desc": "断流効果の継続時間+8秒。", "unlock": 1, "values": [8] },
+    { "name": "SwordOfTorrents", "localeName": "水形剣", "desc": "<color=#FFD780FF>魔王の武装·荒波</color>の近接モード時、通常攻撃と重撃が会心を発生すると、命中した敵に断流効果を付与する。", "unlock": 4 },
+    { "name": "MasterOfWeaponry", "localeName": "武芸マスター", "desc": "チーム内の自身のキャラクター全員の<color=#FFD780FF>通常攻撃</color>Lv.+1。" }
+  ],
+  "c13ns": [
+    { "name": "FoulLegacyTideWithholder", "localeName": "魔王の武装·押波", "desc": "<color=#FFD780FF>魔王の武装·荒波</color>のクールタイム-20%。" },
+    { "name": "FoulLegacyUnderstream", "localeName": "魔王の武装·暗流", "desc": "断流効果の影響を受けた敵が倒されると、タルタリヤの元素エネルギーが4回復する。", "values": [4] },
+    { "name": "AbyssalMayhemVortexOfTurmoil", "localeName": "淵の災い·紛争の源", "desc": "<color=#FFD780FF>魔王の武装·荒波</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    {
+      "name": "AbyssalMayhemHydrospout",
+      "localeName": "淵の災い·復水放流",
+      "desc": "4秒毎に、タルタリヤによって発動された断流効果がフィールドに存在する時、タルタリヤが<color=#FFD780FF>魔王の武装·荒波</color>の近接モードの場合、断流·斬を発動する。それ以外の場合、断流·閃を発動する。\nこの効果によって発動された断流·斬と断流·閃は、この二つのスキル本来の発動時間制限を受けない。また、本来のスキルへの発動時間制限にも影響を与えない。",
+      "values": [4]
+    },
+    { "name": "HavocFormlessBlade", "localeName": "極悪技·雨斬り", "desc": "<color=#FFD780FF>極悪技·尽滅閃</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "HavocAnnihilation", "localeName": "極悪技·天使の滅び", "desc": "<color=#FFD780FF>極悪技·尽滅閃</color>発動時、<color=#FFD780FF>魔王の武装·荒波</color>のクールタイムをリセットする。\nこの効果は遠隔モードに戻った後に発動する。" }
+  ],
+  "overviewItems": [
+    { "id": "VarunadaLazuriteGemstone", "localeName": "澄明なラピスラズリ", "rarity": 5 },
+    { "id": "CleansingHeart", "localeName": "浄水の心", "rarity": 4 },
+    { "id": "Starconch", "localeName": "星螺" },
+    { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3 },
+    { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4 },
+    { "id": "ShardOfAFoulLegacy", "localeName": "魔王の刃·残片", "rarity": 5 }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "uid": 10000060,
+  "id": "yelan",
+  "name": "Yelan",
+  "localeName": "夜兰",
+  "desc": "自称供职于总务司的神秘人士，却又是总务司名录里的「不存在之人」。",
+  "baseHP": 1124.9,
+  "baseATK": 18.992,
+  "baseDEF": 42.659,
+  "bodyType": 4,
+  "rarity": 5,
+  "weapon": 2,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "VarunadaLazuriteSliver", "localeName": "涤净青金碎屑", "rarity": 2, "count": 1 },
+        { "id": "Starconch", "localeName": "星螺", "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽记", "rarity": 1, "count": 3 }
+      ],
+      "HP": 964.52,
+      "ATK": 16.283,
+      "DEF": 36.577,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "VarunadaLazuriteFragment", "localeName": "涤净青金断片", "rarity": 3, "count": 3 },
+        { "id": "RunicFang", "localeName": "符纹之齿", "rarity": 4, "count": 2 },
+        { "id": "Starconch", "localeName": "星螺", "count": 10 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽记", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1649.8,
+      "ATK": 27.853,
+      "DEF": 62.566,
+      "extra": 0.048
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "VarunadaLazuriteFragment", "localeName": "涤净青金断片", "rarity": 3, "count": 6 },
+        { "id": "RunicFang", "localeName": "符纹之齿", "rarity": 4, "count": 4 },
+        { "id": "Starconch", "localeName": "星螺", "count": 20 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 12 }
+      ],
+      "HP": 2563.6,
+      "ATK": 43.279,
+      "DEF": 97.218,
+      "extra": 0.096
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "VarunadaLazuriteChunk", "localeName": "涤净青金块", "rarity": 4, "count": 3 },
+        { "id": "RunicFang", "localeName": "符纹之齿", "rarity": 4, "count": 8 },
+        { "id": "Starconch", "localeName": "星螺", "count": 30 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 18 }
+      ],
+      "HP": 3248.9,
+      "ATK": 54.848,
+      "DEF": 123.21,
+      "extra": 0.096
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "VarunadaLazuriteChunk", "localeName": "涤净青金块", "rarity": 4, "count": 6 },
+        { "id": "RunicFang", "localeName": "符纹之齿", "rarity": 4, "count": 12 },
+        { "id": "Starconch", "localeName": "星螺", "count": 45 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 12 }
+      ],
+      "HP": 3934.2,
+      "ATK": 66.418,
+      "DEF": 149.2,
+      "extra": 0.144
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "VarunadaLazuriteGemstone", "localeName": "涤净青金", "rarity": 5, "count": 6 },
+        { "id": "RunicFang", "localeName": "符纹之齿", "rarity": 4, "count": 20 },
+        { "id": "Starconch", "localeName": "星螺", "count": 60 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 24 }
+      ],
+      "HP": 4619.5,
+      "ATK": 77.987,
+      "DEF": 175.18,
+      "extra": 0.192
+    }
+  ],
+  "ascensionType": 12,
+  "element": 5,
+  "elemSkill": {
+    "name": "LingeringLifeline",
+    "localeName": "萦络纵命索",
+    "desc": "牵引「络命丝」疾走，缠络标记途径的敌人。\n疾走结束时，「络命丝」将会爆发，基于夜兰的生命值上限，对标记的敌人造成<color=#80C0FFFF>水元素伤害</color>。\n\n<color=#FFD780FF>点按</color>\n快速向前疾走一段距离。\n\n<color=#FFD780FF>长按</color>\n持续疾走，并在该状态下提高夜兰的抗打断能力。\n期间，夜兰可以控制疾走的方向，并能通过再次施放技能，提前结束疾走状态。\n\n此外，「络命丝」爆发时，依照标记敌人的数量，夜兰将有概率获得「破局」状态：每个标记的敌人能使概率提升34%。\n\n<i>直到她钩指扯线，恶党贼寇之辈、阴谋诡计之徒才会发现，自己已是在劫难逃。</i>",
+    "cd": 10,
+    "paramTpls": ["技能伤害|{param1:F1P}生命值上限", "长按最大持续时间|{param3:F1}秒", "冷却时间|{param4:F1}秒"],
+    "paramVals": [
+      [0.22614, 0.34, 3, 10],
+      [0.2431, 0.34, 3, 10],
+      [0.26006, 0.34, 3, 10],
+      [0.28267, 0.34, 3, 10],
+      [0.29963, 0.34, 3, 10],
+      [0.31659, 0.34, 3, 10],
+      [0.3392, 0.34, 3, 10],
+      [0.36182, 0.34, 3, 10],
+      [0.38443, 0.34, 3, 10],
+      [0.40705, 0.34, 3, 10],
+      [0.42966, 0.34, 3, 10],
+      [0.45227, 0.34, 3, 10],
+      [0.48054, 0.34, 3, 10],
+      [0.50881, 0.34, 3, 10],
+      [0.53707, 0.34, 3, 10]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfProsperity", "localeName": "「繁荣」的教导", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽记", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 4 },
+        { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 6 },
+        { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 9 },
+        { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 12 },
+        { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "DepthClarionDice",
+    "localeName": "渊图玲珑骰",
+    "desc": "造成<color=#80C0FFFF>水元素范围伤害</color>，并凝聚出「玄掷玲珑」，协助进行战斗。\n\n<color=#FFD780FF>玄掷玲珑</color>\n将跟随角色，并在以下情况下，进行协同攻击，基于夜兰的生命值上限造成<color=#80C0FFFF>水元素伤害</color>：\n·队伍中自己的当前场上角色进行普通攻击时，每1秒至多触发一次；\n·夜兰自己的「络命丝」爆发并命中敌人时，将进行一次协同攻击。\n\n<i>「嗜赌可不行哦。作为大庄家，我拿比大小来比喻一下吧。你用一个骰子，怎么赢得过我的七个骰子呢？」</i>",
+    "cd": 18,
+    "energyCost": 70,
+    "paramTpls": ["技能伤害|{param1:F2P}生命值上限", "玄掷玲珑伤害|{param2:F2P}生命值上限*3", "持续时间|{param3:F1}秒", "冷却时间|{param4:F1}秒", "元素能量|{param5:I}"],
+    "paramVals": [
+      [0.07308, 0.04872, 15, 18, 70],
+      [0.078561, 0.052374, 15, 18, 70],
+      [0.084042, 0.056028, 15, 18, 70],
+      [0.09135, 0.0609, 15, 18, 70],
+      [0.096831, 0.064554, 15, 18, 70],
+      [0.10231, 0.068208, 15, 18, 70],
+      [0.10962, 0.07308, 15, 18, 70],
+      [0.11693, 0.077952, 15, 18, 70],
+      [0.12424, 0.082824, 15, 18, 70],
+      [0.13154, 0.087696, 15, 18, 70],
+      [0.13885, 0.092568, 15, 18, 70],
+      [0.14616, 0.09744, 15, 18, 70],
+      [0.15529, 0.10353, 15, 18, 70],
+      [0.16443, 0.10962, 15, 18, 70],
+      [0.17357, 0.11571, 15, 18, 70]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfProsperity", "localeName": "「繁荣」的教导", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽记", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 4 },
+        { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 6 },
+        { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 9 },
+        { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 12 },
+        { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackStealthyBowshot",
+    "localeName": "普通攻击·潜形隐曜弓",
+    "desc": "<color=#FFD780FF>普通攻击</color>\n进行至多四段的连续弓箭射击。\n\n<color=#FFD780FF>重击</color>\n进行伤害更高、更为精准的<color=#FFD780FF>瞄准射击</color>。\n瞄准时，流水会在箭矢上持续积聚。聚满了激流的箭矢会造成<color=#80C0FFFF>水元素伤害</color>。\n\n<color=#FFD780FF>破局</color>\n脱离战斗状态5秒后，夜兰将获得「破局」状态，使下一次满蓄力瞄准射击所需的蓄力时间减少80%，并将在满蓄力时转为发射「破局矢」。破局矢将基于夜兰的生命值上限造成<color=#80C0FFFF>水元素范围伤害</color>。\n\n<color=#FFD780FF>下落攻击</color>\n从空中射出箭雨，并迅速下坠冲击地面，在落地时造成范围伤害。",
+    "cd": 0,
+    "paramTpls": ["一段伤害|{param1:F1P}", "二段伤害|{param2:F1P}", "三段伤害|{param3:F1P}", "四段伤害|{param4:F1P}+{param4:F1P}", "瞄准射击|{param5:F1P}", "满蓄力瞄准射击|{param6:P}", "破局矢伤害|{param7:F2P}生命值上限", "下坠期间伤害|{param8:F1P}", "低空/高空坠地冲击伤害|{param9:P}/{param10:P}"],
+    "paramVals": [
+      [0.40678, 0.39044, 0.516, 0.32508, 0.4386, 1.24, 0.11576, 0.56829, 1.1363, 1.4193],
+      [0.43989, 0.42222, 0.558, 0.35154, 0.4743, 1.333, 0.12444, 0.61454, 1.2288, 1.5349],
+      [0.473, 0.454, 0.6, 0.378, 0.51, 1.426, 0.13312, 0.6608, 1.3213, 1.6504],
+      [0.5203, 0.4994, 0.66, 0.4158, 0.561, 1.55, 0.1447, 0.72688, 1.4535, 1.8154],
+      [0.55341, 0.53118, 0.702, 0.44226, 0.5967, 1.643, 0.15338, 0.77314, 1.5459, 1.931],
+      [0.59125, 0.5675, 0.75, 0.4725, 0.6375, 1.736, 0.16206, 0.826, 1.6516, 2.063],
+      [0.64328, 0.61744, 0.816, 0.51408, 0.6936, 1.86, 0.17364, 0.89869, 1.797, 2.2445],
+      [0.69531, 0.66738, 0.882, 0.55566, 0.7497, 1.984, 0.18522, 0.97138, 1.9423, 2.4261],
+      [0.74734, 0.71732, 0.948, 0.59724, 0.8058, 2.108, 0.19679, 1.0441, 2.0877, 2.6076],
+      [0.8041, 0.7718, 1.02, 0.6426, 0.867, 2.232, 0.20837, 1.1234, 2.2462, 2.8057],
+      [0.86086, 0.82628, 1.092, 0.68796, 0.9282, 2.356, 0.21994, 1.2027, 2.4048, 3.0037],
+      [0.91762, 0.88076, 1.164, 0.73332, 0.9894, 2.48, 0.23152, 1.282, 2.5634, 3.2018],
+      [0.97438, 0.93524, 1.236, 0.77868, 1.0506, 2.635, 0.24599, 1.3612, 2.7219, 3.3998],
+      [1.0311, 0.98972, 1.308, 0.82404, 1.1118, 2.79, 0.26046, 1.4405, 2.8805, 3.5979],
+      [1.0879, 1.0442, 1.38, 0.8694, 1.173, 2.945, 0.27493, 1.5198, 3.039, 3.7959]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfProsperity", "localeName": "「繁荣」的教导", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽记", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 4 },
+        { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 6 },
+        { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 9 },
+        { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 12 },
+        { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "TurnControl", "localeName": "猜先有方", "desc": "队伍存在1/2/3/4种元素类型的角色时，夜兰的生命值上限提升6%/12%/18%/30%。", "unlock": 1, "values": [0.06, 0.12, 0.18, 0.3] },
+    {
+      "name": "AdaptWithEase",
+      "localeName": "妙转随心",
+      "desc": "<color=#FFD780FF>「玄掷玲珑」</color>存在期间，能使队伍中自己的当前场上角色造成的伤害提高1%，并且每1秒进一步提高3.5%，至多使角色造成的伤害提高50%。\n效果存在期间重新施放渊图玲珑骰，将移除原有的上述效果。",
+      "unlock": 4,
+      "values": [0.01, 0.035, 1, 14]
+    },
+    { "name": "NecessaryCalculation", "localeName": "长考一着", "desc": "在璃月执行时长为20小时的探索派遣任务时，获得的奖励增加25%。" }
+  ],
+  "c13ns": [
+    { "name": "EnterThePlotters", "localeName": "与谋者，以局入局", "desc": "<color=#FFD780FF>萦络纵命索</color>的可使用次数增加1次。" },
+    { "name": "TakingAllComers", "localeName": "入彀者，多多益善", "desc": "<color=#FFD780FF>「玄掷玲珑」</color>协同攻击时，会发射一枚额外的水箭，造成相当于夜兰生命值上限14%的水元素伤害。\n该效果每1.8秒至多触发一次。", "values": [0.14, 1.8] },
+    { "name": "BewareTheTrickstersDice", "localeName": "晃盅者，琼畟药骰", "desc": "<color=#FFD780FF>渊图玲珑骰</color>的技能等级提高3级。\n至多提升至15级。" },
+    { "name": "BaitAndSwitch", "localeName": "诓惑者，接树移花", "desc": "依照<color=#FFD780FF>「络命丝」</color>标记敌人的数量，每次标记将在爆发时使队伍中所有角色的生命值上限提升10%，持续25秒。通过这种方式，生命值上限至多获得40%提升。", "values": [0.1, 25, 4] },
+    { "name": "DealersSleight", "localeName": "坐庄者，三仙戏法", "desc": "<color=#FFD780FF>萦络纵命索</color>的技能等级提高3级。\n至多提升至15级。" },
+    {
+      "name": "WinnerTakesAll",
+      "localeName": "取胜者，大小通吃",
+      "desc": "施放<color=#FFD780FF>渊图玲珑骰</color>后，夜兰将进入「运筹帷幄」状态：\n夜兰的普通攻击将转为发射特殊的「破局矢」。这种箭矢具有与破局矢近似的特性，造成的伤害视为重击伤害，能造成破局矢156%的伤害。\n\n「运筹帷幄」状态至多持续20秒，将在夜兰发射5枚箭矢后移除。",
+      "values": [5, 20, 1.56]
+    }
+  ],
+  "overviewItems": [
+    { "id": "VarunadaLazuriteGemstone", "localeName": "涤净青金", "rarity": 5 },
+    { "id": "RunicFang", "localeName": "符纹之齿", "rarity": 4 },
+    { "id": "Starconch", "localeName": "星螺" },
+    { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3 },
+    { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4 },
+    { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5 }
+  ]
+}

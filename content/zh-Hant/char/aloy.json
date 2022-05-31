@@ -1,0 +1,318 @@
+{
+  "uid": 10000062,
+  "id": "aloy",
+  "name": "Aloy",
+  "localeName": "亞蘿伊",
+  "desc": "曾經是被逐者，如今則是無比機敏的獵人。隨時準備著為了正當之事而挽弓放箭。",
+  "baseHP": 848.45,
+  "baseATK": 18.21,
+  "baseDEF": 52.65,
+  "bodyType": 3,
+  "rarity": 5,
+  "weapon": 2,
+  "region": 7,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "ShivadaJadeSliver", "localeName": "哀敘冰玉碎屑", "rarity": 2, "count": 1 },
+        { "id": "CrystalMarrow", "localeName": "晶化骨髓", "count": 3 },
+        { "id": "SpectralHusk", "localeName": "浮游乾核", "rarity": 1, "count": 3 }
+      ],
+      "HP": 727.47,
+      "ATK": 15.613,
+      "DEF": 45.144,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "ShivadaJadeFragment", "localeName": "哀敘冰玉斷片", "rarity": 3, "count": 3 },
+        { "id": "CrystallineBloom", "localeName": "晶凝之華", "rarity": 4, "count": 2 },
+        { "id": "CrystalMarrow", "localeName": "晶化骨髓", "count": 10 },
+        { "id": "SpectralHusk", "localeName": "浮游乾核", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1244.4,
+      "ATK": 26.706,
+      "DEF": 77.22,
+      "extra": 0.072
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "ShivadaJadeFragment", "localeName": "哀敘冰玉斷片", "rarity": 3, "count": 6 },
+        { "id": "CrystallineBloom", "localeName": "晶凝之華", "rarity": 4, "count": 4 },
+        { "id": "CrystalMarrow", "localeName": "晶化骨髓", "count": 20 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1933.5,
+      "ATK": 41.497,
+      "DEF": 119.99,
+      "extra": 0.144
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "ShivadaJadeChunk", "localeName": "哀敘冰玉塊", "rarity": 4, "count": 3 },
+        { "id": "CrystallineBloom", "localeName": "晶凝之華", "rarity": 4, "count": 8 },
+        { "id": "CrystalMarrow", "localeName": "晶化骨髓", "count": 30 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2450.4,
+      "ATK": 52.59,
+      "DEF": 152.06,
+      "extra": 0.144
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "ShivadaJadeChunk", "localeName": "哀敘冰玉塊", "rarity": 4, "count": 6 },
+        { "id": "CrystallineBloom", "localeName": "晶凝之華", "rarity": 4, "count": 12 },
+        { "id": "CrystalMarrow", "localeName": "晶化骨髓", "count": 45 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 12 }
+      ],
+      "HP": 2967.3,
+      "ATK": 63.683,
+      "DEF": 184.14,
+      "extra": 0.216
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "ShivadaJadeGemstone", "localeName": "哀敘冰玉", "rarity": 5, "count": 6 },
+        { "id": "CrystallineBloom", "localeName": "晶凝之華", "rarity": 4, "count": 20 },
+        { "id": "CrystalMarrow", "localeName": "晶化骨髓", "count": 60 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 24 }
+      ],
+      "HP": 3484.2,
+      "ATK": 74.776,
+      "DEF": 216.22,
+      "extra": 0.288
+    }
+  ],
+  "ascensionType": 29,
+  "element": 7,
+  "elemSkill": {
+    "name": "FrozenWilds",
+    "localeName": "冰塵雪野",
+    "desc": "向目標方向投擲一枚急凍炸彈，在命中後引發爆炸，造成<color=#99FFFFFF>冰元素傷害</color>。爆炸後，急凍炸彈將分裂成許多冷凍炸彈，在接觸到敵人或一段時間後爆炸，造成<color=#99FFFFFF>冰元素傷害</color>。\n急凍炸彈或冷凍炸彈命中敵人後，會使敵人的攻擊力降低，並為亞蘿伊賦予1層「線圈」效果。\n每0.1秒至多獲得1層線圈效果。\n\n<color=#FFD780FF>線圈</color>\n·依據層數，提高亞蘿伊的普通攻擊造成的傷害；\n·擁有4層線圈時，亞蘿伊清除所有的線圈效果，並獲得「冰馳」，進一步提高普通攻擊造成的傷害，並將普通攻擊造成的傷害轉為<color=#99FFFFFF>冰元素傷害</color>。\n\n處於冰馳狀態下時，亞蘿伊無法獲得線圈效果。\n線圈效果會在脫離戰鬥30秒後清除。\n\n<i>揮刀斷崖那裡的溫度可要冷得多。</i>",
+    "cd": 20,
+    "paramTpls": ["急凍炸彈傷害|{param1:P}", "冷凍炸彈傷害|{param2:F1P}", "攻擊力降低|{param3:P}", "攻擊力降低持續時間|{param4:F1}秒", "線圈普通攻擊傷害提升|{param5:F1P}/{param6:F1P}/{param7:F1P}", "冰馳普通攻擊傷害提升|{param8:F1P}", "冰馳持續時間|{param9:F1}秒", "冷卻時間|{param10:F1}秒"],
+    "paramVals": [
+      [1.776, 0.4, 0.12, 6, 0.05845, 0.1169, 0.17535, 0.29225, 10, 20],
+      [1.9092, 0.43, 0.12, 6, 0.06195, 0.1239, 0.18585, 0.30975, 10, 20],
+      [2.0424, 0.46, 0.12, 6, 0.06545, 0.1309, 0.19635, 0.32725, 10, 20],
+      [2.22, 0.5, 0.13, 6, 0.07, 0.14, 0.21, 0.35, 10, 20],
+      [2.3532, 0.53, 0.13, 6, 0.0735, 0.147, 0.2205, 0.3675, 10, 20],
+      [2.4864, 0.56, 0.13, 6, 0.077, 0.154, 0.231, 0.385, 10, 20],
+      [2.664, 0.6, 0.14, 6, 0.08155, 0.1631, 0.24465, 0.40775, 10, 20],
+      [2.8416, 0.64, 0.14, 6, 0.0861, 0.1722, 0.2583, 0.4305, 10, 20],
+      [3.0192, 0.68, 0.14, 6, 0.09065, 0.1813, 0.27195, 0.45325, 10, 20],
+      [3.1968, 0.72, 0.15, 6, 0.0952, 0.1904, 0.2856, 0.476, 10, 20],
+      [3.3744, 0.76, 0.15, 6, 0.09975, 0.1995, 0.29925, 0.49875, 10, 20],
+      [3.552, 0.8, 0.15, 6, 0.1043, 0.2086, 0.3129, 0.5215, 10, 20],
+      [3.774, 0.85, 0.15, 6, 0.10885, 0.2177, 0.32655, 0.54425, 10, 20],
+      [3.996, 0.9, 0.15, 6, 0.1134, 0.2268, 0.3402, 0.567, 10, 20],
+      [4.218, 0.95, 0.15, 6, 0.11795, 0.2359, 0.35385, 0.58975, 10, 20]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」的教導", "rarity": 2, "count": 3 },
+        { "id": "SpectralHusk", "localeName": "浮游乾核", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 2 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 4 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 6 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 9 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 4 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 4 },
+        { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 6 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 6 },
+        { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 12 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 9 },
+        { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 16 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 12 },
+        { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "PropheciesOfDawn",
+    "localeName": "黎明預言",
+    "desc": "向目標方向投擲冰元素滿溢的蓄能容器，並用弓箭引爆，造成<color=#99FFFFFF>冰元素範圍傷害</color>。\n\n<i>「黎明」的本質究竟是希望還是滅絕已經並不重要了。亞蘿伊已經拯救了她自己的那個世界。這個世界的命運有它自己的勇者去操心。</i>",
+    "cd": 12,
+    "energyCost": 40,
+    "paramTpls": ["技能傷害|{param1:P}", "冷卻時間|{param2:F1}秒", "元素能量|{param3:I}"],
+    "paramVals": [
+      [3.592, 12, 40],
+      [3.8614, 12, 40],
+      [4.1308, 12, 40],
+      [4.49, 12, 40],
+      [4.7594, 12, 40],
+      [5.0288, 12, 40],
+      [5.388, 12, 40],
+      [5.7472, 12, 40],
+      [6.1064, 12, 40],
+      [6.4656, 12, 40],
+      [6.8248, 12, 40],
+      [7.184, 12, 40],
+      [7.633, 12, 40],
+      [8.082, 12, 40],
+      [8.531, 12, 40]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」的教導", "rarity": 2, "count": 3 },
+        { "id": "SpectralHusk", "localeName": "浮游乾核", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 2 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 4 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 6 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 9 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 4 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 4 },
+        { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 6 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 6 },
+        { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 12 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 9 },
+        { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 16 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 12 },
+        { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackRapidFire",
+    "localeName": "普通攻擊·快速射擊",
+    "desc": "<color=#FFD780FF>普通攻擊</color>\n進行至多四段的連續弓箭射擊。\n\n<color=#FFD780FF>重擊</color>\n進行傷害更高、更為精準的<color=#FFD780FF>瞄準射擊</color>。\n瞄準時，冰霜散發的寒氣會憑附在箭矢上。聚滿了寒氣的箭矢會造成<color=#99FFFFFF>冰元素傷害</color>。\n\n<color=#FFD780FF>下落攻擊</color>\n從空中射出箭雨，並迅速下墜衝擊地面，在落地時造成範圍傷害。",
+    "cd": 0,
+    "paramTpls": ["一段傷害|{param1:F1P}+{param2:F1P}", "二段傷害|{param3:F1P}", "三段傷害|{param4:F1P}", "四段傷害|{param5:F1P}", "瞄準射擊|{param6:F1P}", "滿蓄力瞄準射擊|{param7:P}", "下墜期間傷害|{param8:F1P}", "低空/高空墜地衝擊傷害|{param9:P}/{param10:P}"],
+    "paramVals": [
+      [0.2112, 0.2376, 0.4312, 0.528, 0.65648, 0.4386, 1.24, 0.56829, 1.1363, 1.4193],
+      [0.2256, 0.2538, 0.4606, 0.564, 0.70124, 0.4743, 1.333, 0.61454, 1.2288, 1.5349],
+      [0.24, 0.27, 0.49, 0.6, 0.746, 0.51, 1.426, 0.6608, 1.3213, 1.6504],
+      [0.2592, 0.2916, 0.5292, 0.648, 0.80568, 0.561, 1.55, 0.72688, 1.4535, 1.8154],
+      [0.2736, 0.3078, 0.5586, 0.684, 0.85044, 0.5967, 1.643, 0.77314, 1.5459, 1.931],
+      [0.2904, 0.3267, 0.5929, 0.726, 0.90266, 0.6375, 1.736, 0.826, 1.6516, 2.063],
+      [0.312, 0.351, 0.637, 0.78, 0.9698, 0.6936, 1.86, 0.89869, 1.797, 2.2445],
+      [0.3336, 0.3753, 0.6811, 0.834, 1.0369, 0.7497, 1.984, 0.97138, 1.9423, 2.4261],
+      [0.3552, 0.3996, 0.7252, 0.888, 1.1041, 0.8058, 2.108, 1.0441, 2.0877, 2.6076],
+      [0.3768, 0.4239, 0.7693, 0.942, 1.1712, 0.867, 2.232, 1.1234, 2.2462, 2.8057],
+      [0.3984, 0.4482, 0.8134, 0.996, 1.2384, 0.9282, 2.356, 1.2027, 2.4048, 3.0037],
+      [0.42, 0.4725, 0.8575, 1.05, 1.3055, 0.9894, 2.48, 1.282, 2.5634, 3.2018],
+      [0.4416, 0.4968, 0.9016, 1.104, 1.3726, 1.0506, 2.635, 1.3612, 2.7219, 3.3998],
+      [0.4632, 0.5211, 0.9457, 1.158, 1.4398, 1.1118, 2.79, 1.4405, 2.8805, 3.5979],
+      [0.4848, 0.5454, 0.9898, 1.212, 1.5069, 1.173, 2.945, 1.5198, 3.039, 3.7959]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」的教導", "rarity": 2, "count": 3 },
+        { "id": "SpectralHusk", "localeName": "浮游乾核", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 2 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 4 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 6 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 9 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 4 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 4 },
+        { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 6 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 6 },
+        { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 12 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 9 },
+        { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 16 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 12 },
+        { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "CombatOverride", "localeName": "戰鬥覆蓋", "desc": "亞蘿伊獲得<color=#FFD780FF>冰塵雪野</color>的線圈效果時，亞蘿伊的攻擊力提升16%，隊伍中附近的其他角色的攻擊力提升8%，持續10秒。", "unlock": 1, "values": [0.08, 10] },
+    { "name": "StrongStrike", "localeName": "強力攻擊", "desc": "亞蘿伊處於<color=#FFD780FF>冰塵雪野</color>的冰馳狀態下時，每1秒提升3.5%<color=#99FFFFFF>冰元素傷害加成</color>，依此方式至多獲得35%<color=#99FFFFFF>冰元素傷害加成</color>。", "unlock": 4, "values": [0.035] },
+    { "name": "EasyDoesIt", "localeName": "荒野獵人", "desc": "亞蘿伊在隊伍中時，隊伍中自己的角色接近生產禽肉、獸肉與冷鮮肉的小動物時，不會輕易驚動牠們。" }
+  ],
+  "c13ns": [
+    { "name": "StarOfAnotherWorld", "localeName": "異界之星", "desc": "點亮此人一方星空之刻尚未到來。" },
+    { "name": "StarOfAnotherWorld", "localeName": "異界之星", "desc": "點亮此人一方星空之刻尚未到來。" },
+    { "name": "StarOfAnotherWorld", "localeName": "異界之星", "desc": "點亮此人一方星空之刻尚未到來。" },
+    { "name": "StarOfAnotherWorld", "localeName": "異界之星", "desc": "點亮此人一方星空之刻尚未到來。" },
+    { "name": "StarOfAnotherWorld", "localeName": "異界之星", "desc": "點亮此人一方星空之刻尚未到來。" },
+    { "name": "StarOfAnotherWorld", "localeName": "異界之星", "desc": "點亮此人一方星空之刻尚未到來。" }
+  ],
+  "overviewItems": [
+    { "id": "ShivadaJadeGemstone", "localeName": "哀敘冰玉", "rarity": 5 },
+    { "id": "CrystallineBloom", "localeName": "晶凝之華", "rarity": 4 },
+    { "id": "CrystalMarrow", "localeName": "晶化骨髓" },
+    { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3 },
+    { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4 },
+    { "id": "MoltenMoment", "localeName": "熔毀之刻", "rarity": 5 }
+  ]
+}

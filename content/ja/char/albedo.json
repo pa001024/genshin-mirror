@@ -1,0 +1,333 @@
+{
+  "uid": 10000038,
+  "id": "albedo",
+  "name": "Albedo",
+  "localeName": "アルベド",
+  "desc": "西風騎士団の首席錬金術師兼調査小隊隊長。「白亜の申し子」と呼ばれる天才。",
+  "baseHP": 1029.6,
+  "baseATK": 19.551,
+  "baseDEF": 68.206,
+  "bodyType": 0,
+  "rarity": 5,
+  "weapon": 1,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "PrithivaTopazSliver", "localeName": "堅牢なトパーズ·砕屑", "rarity": 2, "count": 1 },
+        { "id": "Cecilia", "localeName": "セシリアの花", "count": 3 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 3 }
+      ],
+      "HP": 882.78,
+      "ATK": 16.762,
+      "DEF": 58.482,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "PrithivaTopazFragment", "localeName": "堅牢なトパーズ·欠片", "rarity": 3, "count": 3 },
+        { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4, "count": 2 },
+        { "id": "Cecilia", "localeName": "セシリアの花", "count": 10 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1510,
+      "ATK": 28.672,
+      "DEF": 100.04,
+      "extra": 0.072
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "PrithivaTopazFragment", "localeName": "堅牢なトパーズ·欠片", "rarity": 3, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4, "count": 4 },
+        { "id": "Cecilia", "localeName": "セシリアの花", "count": 20 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 12 }
+      ],
+      "HP": 2346.3,
+      "ATK": 44.552,
+      "DEF": 155.44,
+      "extra": 0.144
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "PrithivaTopazChunk", "localeName": "堅牢なトパーズ·塊", "rarity": 4, "count": 3 },
+        { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4, "count": 8 },
+        { "id": "Cecilia", "localeName": "セシリアの花", "count": 30 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2973.6,
+      "ATK": 56.461,
+      "DEF": 196.99,
+      "extra": 0.144
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "PrithivaTopazChunk", "localeName": "堅牢なトパーズ·塊", "rarity": 4, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4, "count": 12 },
+        { "id": "Cecilia", "localeName": "セシリアの花", "count": 45 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 12 }
+      ],
+      "HP": 3600.8,
+      "ATK": 68.371,
+      "DEF": 238.54,
+      "extra": 0.216
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "PrithivaTopazGemstone", "localeName": "堅牢なトパーズ", "rarity": 5, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4, "count": 20 },
+        { "id": "Cecilia", "localeName": "セシリアの花", "count": 60 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 24 }
+      ],
+      "HP": 4228,
+      "ATK": 80.281,
+      "DEF": 280.1,
+      "extra": 0.288
+    }
+  ],
+  "ascensionType": 31,
+  "element": 2,
+  "elemSkill": {
+    "name": "AbiogenesisSolarIsotoma",
+    "localeName": "創生術·擬似陽華",
+    "desc": "陽華を錬成し、<color=#FFE699FF>岩元素範囲ダメージ</color>を与える。\n\n<color=#FFD780FF>陽華</color>\n陽華は以下の特性を持つ。\n·陽華を中心とするエリア内にいる敵がダメージを受けた時、陽華は刹那の花を生成し、敵に<color=#FFE699FF>岩元素範囲ダメージ</color>を与えるダメージ量はアルベドの防御力によって決まる。\n·刹那の花は2秒毎に1回のみ生成できる。\n·キャラクターが陽華の上にいる時、陽華は岩元素の力を凝結し、キャラクターを一定の高さまで持ち上げる晶台を生成する。晶台は同時に最大1つまで存在可能。\n·アルベドによって創造された陽華は同時に最大1つまで存在可能。また、陽華は<color=#FFE699FF>岩元素創造物</color>とみなされる。\n\n<color=#FFD780FF>長押し</color>\nスキルの発動位置を調整できる。\n\n<i>この岩の花には奇妙な習性がある。大地から生まれ、天高く登り太陽になることを望む。それは、錬金術の目指す物と一致している。</i>",
+    "cd": 4,
+    "paramTpls": ["スキルダメージ|{param1:P}", "刹那の花ダメージ|{param2:P}防御力", "継続時間|{param3:F1}秒", "スキルクールタイム|{param4:F1}秒"],
+    "paramVals": [
+      [1.304, 1.336, 30, 4],
+      [1.4018, 1.4362, 30, 4],
+      [1.4996, 1.5364, 30, 4],
+      [1.63, 1.67, 30, 4],
+      [1.7278, 1.7702, 30, 4],
+      [1.8256, 1.8704, 30, 4],
+      [1.956, 2.004, 30, 4],
+      [2.0864, 2.1376, 30, 4],
+      [2.2168, 2.2712, 30, 4],
+      [2.3472, 2.4048, 30, 4],
+      [2.4776, 2.5384, 30, 4],
+      [2.608, 2.672, 30, 4],
+      [2.771, 2.839, 30, 4],
+      [2.934, 3.006, 30, 4],
+      [3.097, 3.173, 30, 4]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfBallad", "localeName": "「詩文」の教え", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 4 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 6 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 9 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 12 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "RiteOfProgenitureTectonicTide",
+    "localeName": "誕生式·大地の潮",
+    "desc": "アルベドの指示の下、岩晶が激しく爆発しアルベドの前方に<color=#FFE699FF>岩元素範囲ダメージ</color>を与える。\nフィールド上にアルベドが創造した陽華が存在している場合、陽華のエリア内に7本の生滅の花を生成し、<color=#FFE699FF>岩元素範囲ダメージ</color>を与える。\n\n爆発と生滅の花によるダメージによって刹那の花が作られることはない。\n\n<i>白亜色の王子の命令の下、大地の創造物たちは激しく鼓動する。</i>",
+    "cd": 12,
+    "energyCost": 40,
+    "paramTpls": ["爆発ダメージ|{param1:P}", "生滅の花ダメージ|1つにつき{param2:F1P}", "クールタイム|{param3:F1}秒", "元素エネルギー|{param4:I}"],
+    "paramVals": [
+      [3.672, 0.72, 12, 40],
+      [3.9474, 0.774, 12, 40],
+      [4.2228, 0.828, 12, 40],
+      [4.59, 0.9, 12, 40],
+      [4.8654, 0.954, 12, 40],
+      [5.1408, 1.008, 12, 40],
+      [5.508, 1.08, 12, 40],
+      [5.8752, 1.152, 12, 40],
+      [6.2424, 1.224, 12, 40],
+      [6.6096, 1.296, 12, 40],
+      [6.9768, 1.368, 12, 40],
+      [7.344, 1.44, 12, 40],
+      [7.803, 1.53, 12, 40],
+      [8.262, 1.62, 12, 40],
+      [8.721, 1.71, 12, 40]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfBallad", "localeName": "「詩文」の教え", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 4 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 6 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 9 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 12 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackFavoniusBladeworkWeiss",
+    "localeName": "通常攻撃·西風剣術·白",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n剣による最大5段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、前方に斬撃を2回放つ。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+    "cd": 0,
+    "paramTpls": [
+      "1段ダメージ|{param1:F1P}",
+      "2段ダメージ|{param2:F1P}",
+      "3段ダメージ|{param3:F1P}",
+      "4段ダメージ|{param4:F1P}",
+      "5段ダメージ|{param5:F1P}",
+      "重撃ダメージ|{param6:F1P}+{param7:F1P}",
+      "重撃スタミナ消費|{param8:F1}",
+      "落下期間のダメージ|{param9:F1P}",
+      "低空/高空落下攻撃ダメージ|{param10:P}/{param11:P}"
+    ],
+    "paramVals": [
+      [0.36739, 0.36739, 0.47455, 0.49751, 0.62074, 0.473, 0.602, 20, 0.63932, 1.2784, 1.5968],
+      [0.3973, 0.3973, 0.51317, 0.538, 0.67127, 0.5115, 0.651, 20, 0.69136, 1.3824, 1.7267],
+      [0.4272, 0.4272, 0.5518, 0.5785, 0.72179, 0.55, 0.7, 20, 0.7434, 1.4865, 1.8567],
+      [0.46992, 0.46992, 0.60698, 0.63635, 0.79397, 0.605, 0.77, 20, 0.81774, 1.6351, 2.0424],
+      [0.49982, 0.49982, 0.64561, 0.67685, 0.84449, 0.6435, 0.819, 20, 0.86978, 1.7392, 2.1723],
+      [0.534, 0.534, 0.68975, 0.72312, 0.90224, 0.6875, 0.875, 20, 0.92925, 1.8581, 2.3209],
+      [0.58099, 0.58099, 0.75045, 0.78676, 0.98163, 0.748, 0.952, 20, 1.011, 2.0216, 2.5251],
+      [0.62798, 0.62798, 0.81115, 0.8504, 1.061, 0.8085, 1.029, 20, 1.0928, 2.1851, 2.7293],
+      [0.67498, 0.67498, 0.87184, 0.91403, 1.1404, 0.869, 1.106, 20, 1.1746, 2.3486, 2.9336],
+      [0.72624, 0.72624, 0.93806, 0.98345, 1.227, 0.935, 1.19, 20, 1.2638, 2.527, 3.1564],
+      [0.78498, 0.78498, 1.0139, 1.063, 1.3263, 1.0106, 1.2862, 20, 1.353, 2.7054, 3.3792],
+      [0.85406, 0.85406, 1.1032, 1.1565, 1.443, 1.0996, 1.3994, 20, 1.4422, 2.8838, 3.602],
+      [0.92314, 0.92314, 1.1924, 1.2501, 1.5597, 1.1885, 1.5126, 20, 1.5314, 3.0622, 3.8248],
+      [0.99221, 0.99221, 1.2816, 1.3436, 1.6764, 1.2774, 1.6258, 20, 1.6206, 3.2405, 4.0476],
+      [1.0676, 1.0676, 1.3789, 1.4457, 1.8038, 1.3744, 1.7493, 20, 1.7098, 3.4189, 4.2704]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfBallad", "localeName": "「詩文」の教え", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「詩文」の導き", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 4 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 6 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 9 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 12 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "CalciteMight", "localeName": "白亜色の気迫", "desc": "<color=#FFD780FF>創生術·擬似陽華</color>の刹那の花がHP50%未満の敵にダメージを与えた場合、ダメージ量+25%。", "unlock": 1 },
+    { "name": "HomuncularNature", "localeName": "ホムンクルスの天智", "desc": "<color=#FFD780FF>誕生式·大地の潮</color>を発動した時、周囲のチーム全員の元素熟知を+125、継続時間10秒。", "unlock": 4, "values": [125, 10] },
+    { "name": "FlashOfGenius", "localeName": "天才の気付き", "desc": "武器突破素材を合成する時、10%の確率でアイテムを2倍獲得する。", "values": [0.1, 2] }
+  ],
+  "c13ns": [
+    { "name": "FlowerOfEden", "localeName": "エデンの花", "desc": "アルベドの<color=#FFD780FF>創生術·擬似陽華</color>の刹那の花が放たれた時、アルベド自身の元素エネルギーが1.2回復する。", "values": [1.2] },
+    {
+      "name": "OpeningOfPhanerozoic",
+      "localeName": "顕生の宇宙",
+      "desc": "<color=#FFD780FF>創生術·擬似陽華</color>の刹那の花が放たれた時、アルベドに生滅カウントを付与する。継続時間30秒。\n·<color=#FFD780FF>誕生式·大地の潮</color>を発動する時、全ての生滅カウントを取り除く。取り除かれた数によって、誕生式·大地の潮の爆発ダメージと生滅の花のダメージがアップする。\n·生滅カウント1つにつき、アルベドの防御力30%分のダメージがアップする。\n生滅カウントは最大4重まで。",
+      "values": [0.3]
+    },
+    { "name": "GraceOfHelios", "localeName": "太陽の華", "desc": "<color=#FFD780FF>創生術·擬似陽華</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "DescentOfDivinity", "localeName": "聖なる堕落", "desc": "陽華のエリア内にいるキャラクターの落下攻撃ダメージ+30%。" },
+    { "name": "TideOfHadean", "localeName": "太古の潮", "desc": "<color=#FFD780FF>誕生式·大地の潮</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "DustOfPurification", "localeName": "無垢なる土", "desc": "陽華のエリア内にいるフィールド上のキャラクターが、結晶反応で生成されたシールド状態にある時、与えるダメージ+17%。" }
+  ],
+  "overviewItems": [
+    { "id": "PrithivaTopazGemstone", "localeName": "堅牢なトパーズ", "rarity": 5 },
+    { "id": "BasaltPillar", "localeName": "玄岩の塔", "rarity": 4 },
+    { "id": "Cecilia", "localeName": "セシリアの花" },
+    { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3 },
+    { "id": "PhilosophiesOfBallad", "localeName": "「詩文」の哲学", "rarity": 4 },
+    { "id": "TuskOfMonocerosCaeli", "localeName": "呑天の鯨·只角", "rarity": 5 }
+  ]
+}

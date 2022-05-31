@@ -1,0 +1,329 @@
+{
+  "uid": 10000063,
+  "id": "shenhe",
+  "name": "Shenhe",
+  "localeName": "申鹤",
+  "desc": "气质出尘的仙家子弟。隐修在璃月群山之间，个性也如仙人般淡漠疏离。",
+  "baseHP": 1011.5,
+  "baseATK": 23.647,
+  "baseDEF": 64.616,
+  "bodyType": 4,
+  "rarity": 5,
+  "weapon": 3,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "ShivadaJadeSliver", "localeName": "哀叙冰玉碎屑", "rarity": 2, "count": 1 },
+        { "id": "Qingxin", "localeName": "清心", "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "骗骗花蜜", "rarity": 1, "count": 3 }
+      ],
+      "HP": 867.25,
+      "ATK": 20.274,
+      "DEF": 55.404,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "ShivadaJadeFragment", "localeName": "哀叙冰玉断片", "rarity": 3, "count": 3 },
+        { "id": "DragonheirsFalseFin", "localeName": "龙嗣伪鳍", "rarity": 4, "count": 2 },
+        { "id": "Qingxin", "localeName": "清心", "count": 10 },
+        { "id": "WhopperflowerNectar", "localeName": "骗骗花蜜", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1483.4,
+      "ATK": 34.679,
+      "DEF": 94.77,
+      "extra": 0.072
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "ShivadaJadeFragment", "localeName": "哀叙冰玉断片", "rarity": 3, "count": 6 },
+        { "id": "DragonheirsFalseFin", "localeName": "龙嗣伪鳍", "rarity": 4, "count": 4 },
+        { "id": "Qingxin", "localeName": "清心", "count": 20 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 12 }
+      ],
+      "HP": 2305,
+      "ATK": 53.886,
+      "DEF": 147.26,
+      "extra": 0.144
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "ShivadaJadeChunk", "localeName": "哀叙冰玉块", "rarity": 4, "count": 3 },
+        { "id": "DragonheirsFalseFin", "localeName": "龙嗣伪鳍", "rarity": 4, "count": 8 },
+        { "id": "Qingxin", "localeName": "清心", "count": 30 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2921.3,
+      "ATK": 68.291,
+      "DEF": 186.62,
+      "extra": 0.144
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "ShivadaJadeChunk", "localeName": "哀叙冰玉块", "rarity": 4, "count": 6 },
+        { "id": "DragonheirsFalseFin", "localeName": "龙嗣伪鳍", "rarity": 4, "count": 12 },
+        { "id": "Qingxin", "localeName": "清心", "count": 45 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 12 }
+      ],
+      "HP": 3537.5,
+      "ATK": 82.697,
+      "DEF": 225.99,
+      "extra": 0.216
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "ShivadaJadeGemstone", "localeName": "哀叙冰玉", "rarity": 5, "count": 6 },
+        { "id": "DragonheirsFalseFin", "localeName": "龙嗣伪鳍", "rarity": 4, "count": 20 },
+        { "id": "Qingxin", "localeName": "清心", "count": 60 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 24 }
+      ],
+      "HP": 4153.7,
+      "ATK": 97.102,
+      "DEF": 265.36,
+      "extra": 0.288
+    }
+  ],
+  "ascensionType": 7,
+  "element": 7,
+  "elemSkill": {
+    "name": "SpringSpiritSummoning",
+    "localeName": "仰灵威召将役咒",
+    "desc": "凝叠银之霜露，摒退一切邪魔。\n为队伍中附近的所有角色施加「冰翎」效果，并依据点按、长按，以不同的方式造成<color=#99FFFFFF>冰元素伤害</color>。\n\n<color=#FFD780FF>点按</color>\n与「箓灵」一同向前突进，对路径上的敌人造成<color=#99FFFFFF>冰元素伤害</color>。\n\n<color=#FFD780FF>长按</color>\n律令「箓灵」，造成<color=#99FFFFFF>冰元素范围伤害</color>。\n\n<color=#FFD780FF>冰翎</color>\n普通攻击、重击、下落攻击、元素战技和元素爆发伤害对敌人造成<color=#99FFFFFF>冰元素伤害</color>时，基于申鹤自己当前的攻击力，提高造成的伤害。\n\n「冰翎」效果会在持续时间结束或生效一定次数后消失。长按施加的「冰翎」相比点按，拥有更长的持续时间与更多的生效次数。\n一次<color=#99FFFFFF>冰元素伤害</color>同时命中多名敌人时，会依据命中敌人的数量消耗生效次数；队伍中具有「冰翎」的角色，其生效次数单独计算。\n\n<i>「灵威非虚，役有百工。神女有令，急到符中。摄！」</i>",
+    "cd": 10,
+    "paramTpls": ["点按技能伤害|{param1:P}", "长按技能伤害|{param2:F1P}", "伤害值提升|{param3:F1P}攻击力", "点按/长按持续时间|{param4:F1}秒/{param5:F1}秒", "点按/长按生效次数|{param6:I}次/{param7:I}次", "点按冷却时间|{param8:F1}秒", "长按冷却时间|{param9:F1}秒"],
+    "paramVals": [
+      [1.392, 1.888, 0.45656, 10, 15, 5, 7, 10, 15],
+      [1.4964, 2.0296, 0.4908, 10, 15, 5, 7, 10, 15],
+      [1.6008, 2.1712, 0.52504, 10, 15, 5, 7, 10, 15],
+      [1.74, 2.36, 0.5707, 10, 15, 5, 7, 10, 15],
+      [1.8444, 2.5016, 0.60494, 10, 15, 5, 7, 10, 15],
+      [1.9488, 2.6432, 0.63918, 10, 15, 5, 7, 10, 15],
+      [2.088, 2.832, 0.68484, 10, 15, 5, 7, 10, 15],
+      [2.2272, 3.0208, 0.7305, 10, 15, 5, 7, 10, 15],
+      [2.3664, 3.2096, 0.77615, 10, 15, 5, 7, 10, 15],
+      [2.5056, 3.3984, 0.82181, 10, 15, 5, 7, 10, 15],
+      [2.6448, 3.5872, 0.86746, 10, 15, 5, 7, 10, 15],
+      [2.784, 3.776, 0.91312, 10, 15, 5, 7, 10, 15],
+      [2.958, 4.012, 0.97019, 10, 15, 5, 7, 10, 15],
+      [3.132, 4.248, 1.0273, 10, 15, 5, 7, 10, 15],
+      [3.306, 4.484, 1.0843, 10, 15, 5, 7, 10, 15]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfProsperity", "localeName": "「繁荣」的教导", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "骗骗花蜜", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 4 },
+        { "id": "HellfireButterfly", "localeName": "狱火之蝶", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 6 },
+        { "id": "HellfireButterfly", "localeName": "狱火之蝶", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 9 },
+        { "id": "HellfireButterfly", "localeName": "狱火之蝶", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 12 },
+        { "id": "HellfireButterfly", "localeName": "狱火之蝶", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "DivineMaidensDeliverance",
+    "localeName": "神女遣灵真诀",
+    "desc": "解放「箓灵」的力量，驱使其驰骋世间，造成<color=#99FFFFFF>冰元素范围伤害</color>。\n「箓灵」将结成领域，使其中敌人的<color=#99FFFFFF>冰元素抗性</color>与物理抗性降低，并持续对其中的敌人造成<color=#99FFFFFF>冰元素伤害</color>。\n\n<i>「仙道法门并非证于虚玄，唯有观象天地万化，洞明红尘因果，方能得悟本真。」</i>",
+    "cd": 20,
+    "energyCost": 80,
+    "paramTpls": ["技能伤害|{param1:P}", "抗性降低|{param2:F1P}", "持续伤害|{param3:F1P}", "持续时间|{param4:F1}秒", "冷却时间|{param5:F1}秒", "元素能量|{param6:I}"],
+    "paramVals": [
+      [1.008, 0.06, 0.3312, 12, 20, 80],
+      [1.0836, 0.07, 0.35604, 12, 20, 80],
+      [1.1592, 0.08, 0.38088, 12, 20, 80],
+      [1.26, 0.09, 0.414, 12, 20, 80],
+      [1.3356, 0.1, 0.43884, 12, 20, 80],
+      [1.4112, 0.11, 0.46368, 12, 20, 80],
+      [1.512, 0.12, 0.4968, 12, 20, 80],
+      [1.6128, 0.13, 0.52992, 12, 20, 80],
+      [1.7136, 0.14, 0.56304, 12, 20, 80],
+      [1.8144, 0.15, 0.59616, 12, 20, 80],
+      [1.9152, 0.15, 0.62928, 12, 20, 80],
+      [2.016, 0.15, 0.6624, 12, 20, 80],
+      [2.142, 0.15, 0.7038, 12, 20, 80],
+      [2.268, 0.15, 0.7452, 12, 20, 80],
+      [2.394, 0.15, 0.7866, 12, 20, 80]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfProsperity", "localeName": "「繁荣」的教导", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "骗骗花蜜", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 4 },
+        { "id": "HellfireButterfly", "localeName": "狱火之蝶", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 6 },
+        { "id": "HellfireButterfly", "localeName": "狱火之蝶", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 9 },
+        { "id": "HellfireButterfly", "localeName": "狱火之蝶", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 12 },
+        { "id": "HellfireButterfly", "localeName": "狱火之蝶", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackDawnstarPiercer",
+    "localeName": "普通攻击·踏辰摄斗",
+    "desc": "<color=#FFD780FF>普通攻击</color>\n进行至多五段的连续枪击。\n\n<color=#FFD780FF>重击</color>\n消耗一定体力，向前方突进，对路径上的敌人造成伤害。\n\n<color=#FFD780FF>下落攻击</color>\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
+    "cd": 0,
+    "paramTpls": ["一段伤害|{param1:F1P}", "二段伤害|{param2:F1P}", "三段伤害|{param3:F1P}", "四段伤害|{param4:F1P}+{param5:F1P}", "五段伤害|{param6:F1P}", "重击伤害|{param7:F1P}", "重击体力消耗|{param8:F1}点", "下坠期间伤害|{param9:F1P}", "低空/高空坠地冲击伤害|{param10:P}/{param11:P}"],
+    "paramVals": [
+      [0.43258, 0.40248, 0.5332, 0.26316, 0.26316, 0.65618, 1.1067, 25, 0.63932, 1.2784, 1.5968],
+      [0.46779, 0.43524, 0.5766, 0.28458, 0.28458, 0.70959, 1.1968, 25, 0.69136, 1.3824, 1.7267],
+      [0.503, 0.468, 0.62, 0.306, 0.306, 0.763, 1.2869, 25, 0.7434, 1.4865, 1.8567],
+      [0.5533, 0.5148, 0.682, 0.3366, 0.3366, 0.8393, 1.4156, 25, 0.81774, 1.6351, 2.0424],
+      [0.58851, 0.54756, 0.7254, 0.35802, 0.35802, 0.89271, 1.5057, 25, 0.86978, 1.7392, 2.1723],
+      [0.62875, 0.585, 0.775, 0.3825, 0.3825, 0.95375, 1.6086, 25, 0.92925, 1.8581, 2.3209],
+      [0.68408, 0.63648, 0.8432, 0.41616, 0.41616, 1.0377, 1.7502, 25, 1.011, 2.0216, 2.5251],
+      [0.73941, 0.68796, 0.9114, 0.44982, 0.44982, 1.1216, 1.8917, 25, 1.0928, 2.1851, 2.7293],
+      [0.79474, 0.73944, 0.9796, 0.48348, 0.48348, 1.2055, 2.0333, 25, 1.1746, 2.3486, 2.9336],
+      [0.8551, 0.7956, 1.054, 0.5202, 0.5202, 1.2971, 2.1877, 25, 1.2638, 2.527, 3.1564],
+      [0.91546, 0.85176, 1.1284, 0.55692, 0.55692, 1.3887, 2.3422, 25, 1.353, 2.7054, 3.3792],
+      [0.97582, 0.90792, 1.2028, 0.59364, 0.59364, 1.4802, 2.4966, 25, 1.4422, 2.8838, 3.602],
+      [1.0362, 0.96408, 1.2772, 0.63036, 0.63036, 1.5718, 2.651, 25, 1.5314, 3.0622, 3.8248],
+      [1.0965, 1.0202, 1.3516, 0.66708, 0.66708, 1.6633, 2.8054, 25, 1.6206, 3.2405, 4.0476],
+      [1.1569, 1.0764, 1.426, 0.7038, 0.7038, 1.7549, 2.9599, 25, 1.7098, 3.4189, 4.2704]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfProsperity", "localeName": "「繁荣」的教导", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "骗骗花蜜", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 4 },
+        { "id": "HellfireButterfly", "localeName": "狱火之蝶", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 6 },
+        { "id": "HellfireButterfly", "localeName": "狱火之蝶", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 9 },
+        { "id": "HellfireButterfly", "localeName": "狱火之蝶", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 12 },
+        { "id": "HellfireButterfly", "localeName": "狱火之蝶", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "DeificEmbrace", "localeName": "大洞弥罗尊法", "desc": "处于<color=#FFD780FF>神女遣灵真诀</color>的领域中的当前场上角色，<color=#99FFFFFF>冰元素伤害加成</color>提高15%。", "unlock": 1, "values": [0.15] },
+    {
+      "name": "SpiritCommunionSeal",
+      "localeName": "缚灵通真法印",
+      "desc": "申鹤施放<color=#FFD780FF>仰灵威召将役咒</color>后，将使附近的队伍中所有角色获得如下效果：\n·点按：元素战技和元素爆发造成的伤害提高15%，持续10秒；\n·长按：普通攻击、重击和下落攻击造成的伤害提高15%，持续15秒。",
+      "unlock": 4,
+      "values": [0.15, 10, 0.15, 15]
+    },
+    { "name": "PreciseComingsAndGoings", "localeName": "来复知时", "desc": "在璃月执行时长为20小时的探索派遣任务时，获得的奖励增加25%。" }
+  ],
+  "c13ns": [
+    { "name": "ClarityOfHeart", "localeName": "心斋", "desc": "<color=#FFD780FF>仰灵威召将役咒</color>的可使用次数增加1次。" },
+    { "name": "CenteredSpirit", "localeName": "定蒙", "desc": "<color=#FFD780FF>神女遣灵真诀</color>的持续时间延长6秒。领域中的当前场上角色，<color=#99FFFFFF>冰元素伤害</color>的暴击伤害提高15%。", "values": [6] },
+    { "name": "Seclusion", "localeName": "潜虚", "desc": "<color=#FFD780FF>仰灵威召将役咒</color>的技能等级提高3级。\n至多提升至15级。" },
+    {
+      "name": "Insight",
+      "localeName": "洞观",
+      "desc": "处于申鹤自己施加的<color=#FFD780FF>「冰翎」</color>状态下的角色，触发「冰翎」的伤害增加时，申鹤将获得一层「霜霄诀」：\n·申鹤施放<color=#FFD780FF>仰灵威召将役咒</color>时，将清除所有「霜霄诀」，并根据清除的层数，每层使本次仰灵威召将役咒造成的伤害提高5%；\n·该效果至多叠加50次，持续60秒。",
+      "values": [0.05, 50]
+    },
+    { "name": "DivineAttainment", "localeName": "化神", "desc": "<color=#FFD780FF>神女遣灵真诀</color>的技能等级提高3级。\n至多提升至15级。" },
+    { "name": "MysticalAbandon", "localeName": "忘玄", "desc": "角色通过普通攻击伤害与重击伤害触发<color=#FFD780FF>「冰翎」</color>的效果时，将不再会减少「冰翎」的生效次数。" }
+  ],
+  "overviewItems": [
+    { "id": "ShivadaJadeGemstone", "localeName": "哀叙冰玉", "rarity": 5 },
+    { "id": "DragonheirsFalseFin", "localeName": "龙嗣伪鳍", "rarity": 4 },
+    { "id": "Qingxin", "localeName": "清心" },
+    { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3 },
+    { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4 },
+    { "id": "HellfireButterfly", "localeName": "狱火之蝶", "rarity": 5 }
+  ]
+}

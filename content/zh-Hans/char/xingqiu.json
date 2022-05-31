@@ -1,0 +1,328 @@
+{
+  "uid": 10000025,
+  "id": "xingqiu",
+  "name": "Xingqiu",
+  "localeName": "行秋",
+  "desc": "经常能在书摊看到的少年人。手执长剑，胸中常怀侠义之心。",
+  "baseHP": 857.08,
+  "baseATK": 16.918,
+  "baseDEF": 63.52,
+  "bodyType": 0,
+  "rarity": 4,
+  "weapon": 1,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "VarunadaLazuriteSliver", "localeName": "涤净青金碎屑", "rarity": 2, "count": 1 },
+        { "id": "SilkFlower", "localeName": "霓裳花", "count": 3 },
+        { "id": "DamagedMask", "localeName": "破损的面具", "rarity": 1, "count": 3 }
+      ],
+      "HP": 640.29,
+      "ATK": 12.639,
+      "DEF": 47.452,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "VarunadaLazuriteFragment", "localeName": "涤净青金断片", "rarity": 3, "count": 3 },
+        { "id": "CleansingHeart", "localeName": "净水之心", "rarity": 4, "count": 2 },
+        { "id": "SilkFlower", "localeName": "霓裳花", "count": 10 },
+        { "id": "DamagedMask", "localeName": "破损的面具", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1095.2,
+      "ATK": 21.619,
+      "DEF": 81.169,
+      "extra": 0.06
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "VarunadaLazuriteFragment", "localeName": "涤净青金断片", "rarity": 3, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "净水之心", "rarity": 4, "count": 4 },
+        { "id": "SilkFlower", "localeName": "霓裳花", "count": 20 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1701.8,
+      "ATK": 33.592,
+      "DEF": 126.12,
+      "extra": 0.12
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "VarunadaLazuriteChunk", "localeName": "涤净青金块", "rarity": 4, "count": 3 },
+        { "id": "CleansingHeart", "localeName": "净水之心", "rarity": 4, "count": 8 },
+        { "id": "SilkFlower", "localeName": "霓裳花", "count": 30 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2156.8,
+      "ATK": 42.572,
+      "DEF": 159.84,
+      "extra": 0.12
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "VarunadaLazuriteChunk", "localeName": "涤净青金块", "rarity": 4, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "净水之心", "rarity": 4, "count": 12 },
+        { "id": "SilkFlower", "localeName": "霓裳花", "count": 45 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 12 }
+      ],
+      "HP": 2611.7,
+      "ATK": 51.552,
+      "DEF": 193.56,
+      "extra": 0.18
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "VarunadaLazuriteGemstone", "localeName": "涤净青金", "rarity": 5, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "净水之心", "rarity": 4, "count": 20 },
+        { "id": "SilkFlower", "localeName": "霓裳花", "count": 60 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 24 }
+      ],
+      "HP": 3066.6,
+      "ATK": 60.532,
+      "DEF": 227.27,
+      "extra": 0.24
+    }
+  ],
+  "ascensionType": 7,
+  "element": 5,
+  "elemSkill": {
+    "name": "GuhuaSwordFatalRainscreen",
+    "localeName": "古华剑·画雨笼山",
+    "desc": "使出连续两段的剑技，对前方的敌人造成<color=#80C0FFFF>水元素伤害</color>。同时，生成最大数量的雨帘剑围绕在当前场上自己的角色身边。\n具有如下特性：\n·角色受到伤害时会破碎，降低受到的伤害；\n·提高角色的抗打断能力。\n行秋<color=#80C0FFFF>水元素伤害加成</color>的20%将转换为雨帘剑的额外伤害减免。\n\n最多通过这种方式获得24%额外伤害减免。\n初始雨帘剑的最大数量为3柄。\n施放的瞬间，为角色施加<color=#80C0FFFF>潮湿</color>状态。\n\n<i>「蛟龙易斩，雨线难画」。</i>",
+    "cd": 21,
+    "paramTpls": ["技能伤害|{param1:P}+{param2:P}", "减伤比例|{param3:P}", "持续时间|{param4:F1}秒", "冷却时间|{param5:F1}秒"],
+    "paramVals": [
+      [1.68, 1.912, 0.2, 15, 21],
+      [1.806, 2.0554, 0.21, 15, 21],
+      [1.932, 2.1988, 0.22, 15, 21],
+      [2.1, 2.39, 0.23, 15, 21],
+      [2.226, 2.5334, 0.24, 15, 21],
+      [2.352, 2.6768, 0.25, 15, 21],
+      [2.52, 2.868, 0.26, 15, 21],
+      [2.688, 3.0592, 0.27, 15, 21],
+      [2.856, 3.2504, 0.28, 15, 21],
+      [3.024, 3.4416, 0.29, 15, 21],
+      [3.192, 3.6328, 0.29, 15, 21],
+      [3.36, 3.824, 0.29, 15, 21],
+      [3.57, 4.063, 0.29, 15, 21],
+      [3.78, 4.302, 0.29, 15, 21],
+      [3.99, 4.541, 0.29, 15, 21]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfGold", "localeName": "「黄金」的教导", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破损的面具", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」的指引", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」的指引", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」的指引", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」的指引", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 4 },
+        { "id": "TailOfBoreas", "localeName": "北风之尾", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 6 },
+        { "id": "TailOfBoreas", "localeName": "北风之尾", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 9 },
+        { "id": "TailOfBoreas", "localeName": "北风之尾", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 12 },
+        { "id": "TailOfBoreas", "localeName": "北风之尾", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "GuhuaSwordRaincutter",
+    "localeName": "古华剑·裁雨留虹",
+    "desc": "展开虹剑势，驾御幻影剑雨战斗，并生成最大数量的雨帘剑。\n\n<color=#FFD780FF>虹剑势</color>\n·当前场上自己的角色进行普通攻击时，会产生剑雨连携攻击，造成<color=#80C0FFFF>水元素伤害</color>；\n·雨帘剑的数量将始终维持在最大数量。\n\n<i>「裁雨法」不传绝学，古华镇派秘诀之一。</i>",
+    "cd": 20,
+    "energyCost": 80,
+    "paramTpls": ["剑雨伤害|{param1:F1P}", "持续时间|{param2:F1}秒", "冷却时间|{param3:F1}秒", "元素能量|{param4:I}"],
+    "paramVals": [
+      [0.54272, 15, 20, 80],
+      [0.58342, 15, 20, 80],
+      [0.62413, 15, 20, 80],
+      [0.6784, 15, 20, 80],
+      [0.7191, 15, 20, 80],
+      [0.75981, 15, 20, 80],
+      [0.81408, 15, 20, 80],
+      [0.86835, 15, 20, 80],
+      [0.92262, 15, 20, 80],
+      [0.9769, 15, 20, 80],
+      [1.0312, 15, 20, 80],
+      [1.0854, 15, 20, 80],
+      [1.1533, 15, 20, 80],
+      [1.2211, 15, 20, 80],
+      [1.289, 15, 20, 80]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfGold", "localeName": "「黄金」的教导", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破损的面具", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」的指引", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」的指引", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」的指引", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」的指引", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 4 },
+        { "id": "TailOfBoreas", "localeName": "北风之尾", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 6 },
+        { "id": "TailOfBoreas", "localeName": "北风之尾", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 9 },
+        { "id": "TailOfBoreas", "localeName": "北风之尾", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 12 },
+        { "id": "TailOfBoreas", "localeName": "北风之尾", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackGuhuaStyle",
+    "localeName": "普通攻击·古华剑法",
+    "desc": "<color=#FFD780FF>普通攻击</color>\n进行至多五段的连续剑击。\n\n<color=#FFD780FF>重击</color>\n消耗一定体力，瞬间向前方挥出两剑。\n\n<color=#FFD780FF>下落攻击</color>\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
+    "cd": 0,
+    "paramTpls": [
+      "一段伤害|{param1:F1P}",
+      "二段伤害|{param2:F1P}",
+      "三段伤害|{param3:F1P}+{param4:F1P}",
+      "四段伤害|{param5:F1P}",
+      "五段伤害|{param6:F1P}+{param7:F1P}",
+      "重击伤害|{param8:F1P}+{param9:F1P}",
+      "重击体力消耗|{param10:F1}点",
+      "下坠期间伤害|{param11:F1P}",
+      "低空/高空坠地冲击伤害|{param12:P}/{param13:P}"
+    ],
+    "paramVals": [
+      [0.46612, 0.47644, 0.28552, 0.28552, 0.55986, 0.35862, 0.35862, 0.473, 0.56158, 20, 0.63932, 1.2784, 1.5968],
+      [0.50406, 0.51522, 0.30876, 0.30876, 0.60543, 0.38781, 0.38781, 0.5115, 0.60729, 20, 0.69136, 1.3824, 1.7267],
+      [0.542, 0.554, 0.332, 0.332, 0.651, 0.417, 0.417, 0.55, 0.653, 20, 0.7434, 1.4865, 1.8567],
+      [0.5962, 0.6094, 0.3652, 0.3652, 0.7161, 0.4587, 0.4587, 0.605, 0.7183, 20, 0.81774, 1.6351, 2.0424],
+      [0.63414, 0.64818, 0.38844, 0.38844, 0.76167, 0.48789, 0.48789, 0.6435, 0.76401, 20, 0.86978, 1.7392, 2.1723],
+      [0.6775, 0.6925, 0.415, 0.415, 0.81375, 0.52125, 0.52125, 0.6875, 0.81625, 20, 0.92925, 1.8581, 2.3209],
+      [0.73712, 0.75344, 0.45152, 0.45152, 0.88536, 0.56712, 0.56712, 0.748, 0.88808, 20, 1.011, 2.0216, 2.5251],
+      [0.79674, 0.81438, 0.48804, 0.48804, 0.95697, 0.61299, 0.61299, 0.8085, 0.95991, 20, 1.0928, 2.1851, 2.7293],
+      [0.85636, 0.87532, 0.52456, 0.52456, 1.0286, 0.65886, 0.65886, 0.869, 1.0317, 20, 1.1746, 2.3486, 2.9336],
+      [0.9214, 0.9418, 0.5644, 0.5644, 1.1067, 0.7089, 0.7089, 0.935, 1.1101, 20, 1.2638, 2.527, 3.1564],
+      [0.99593, 1.018, 0.61005, 0.61005, 1.1962, 0.76624, 0.76624, 1.0106, 1.1999, 20, 1.353, 2.7054, 3.3792],
+      [1.0836, 1.1076, 0.66373, 0.66373, 1.3015, 0.83367, 0.83367, 1.0996, 1.3055, 20, 1.4422, 2.8838, 3.602],
+      [1.1712, 1.1971, 0.71742, 0.71742, 1.4067, 0.90109, 0.90109, 1.1885, 1.4111, 20, 1.5314, 3.0622, 3.8248],
+      [1.2588, 1.2867, 0.7711, 0.7711, 1.512, 0.96852, 0.96852, 1.2774, 1.5167, 20, 1.6206, 3.2405, 4.0476],
+      [1.3545, 1.3844, 0.82967, 0.82967, 1.6268, 1.0421, 1.0421, 1.3744, 1.6318, 20, 1.7098, 3.4189, 4.2704]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfGold", "localeName": "「黄金」的教导", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "破损的面具", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」的指引", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」的指引", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」的指引", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "「黄金」的指引", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "污秽的面具", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 4 },
+        { "id": "TailOfBoreas", "localeName": "北风之尾", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 6 },
+        { "id": "TailOfBoreas", "localeName": "北风之尾", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 9 },
+        { "id": "TailOfBoreas", "localeName": "北风之尾", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3, "count": 12 },
+        { "id": "TailOfBoreas", "localeName": "北风之尾", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "Hydropathic", "localeName": "生水要诀", "desc": "雨帘剑受击破碎时或持续时间结束时，基于行秋最大生命值的6%，恢复当前角色的生命值。", "unlock": 1 },
+    { "name": "BladesAmidstRaindrops", "localeName": "虚实工笔", "desc": "行秋获得20%<color=#80C0FFFF>水元素伤害加成</color>。", "unlock": 4 },
+    { "name": "FlashOfGenius", "localeName": "灵光乍现", "desc": "合成角色天赋素材时，有25%概率返还部分合成材料。" }
+  ],
+  "c13ns": [
+    { "name": "TheScentRemained", "localeName": "重帘留香", "desc": "雨帘剑的最大数量增加1柄。" },
+    { "name": "RainbowUponTheAzureSky", "localeName": "天青现虹", "desc": "<color=#FFD780FF>古华剑·裁雨留虹</color>的持续时间延长3秒；\n此外，受到剑雨攻击的敌人，<color=#80C0FFFF>水元素抗性</color>降低15%，持续4秒。" },
+    { "name": "WeaverOfVerses", "localeName": "织诗成锦", "desc": "<color=#FFD780FF>古华剑·裁雨留虹</color>的技能等级提高3级。\n至多提升至15级。" },
+    { "name": "Evilsoother", "localeName": "孤舟斩蛟", "desc": "在<color=#FFD780FF>古华剑·裁雨留虹</color>效果持续期间，<color=#FFD780FF>古华剑·画雨笼山</color>造成的伤害提升50%。" },
+    { "name": "EmbraceOfRain", "localeName": "雨深闭门", "desc": "<color=#FFD780FF>古华剑·画雨笼山</color>的技能等级提高3级。\n至多提升至15级。" },
+    { "name": "HenceCallThemMyOwnVerses", "localeName": "万文集此", "desc": "<color=#FFD780FF>古华剑·裁雨留虹</color>每发动2次剑雨攻击，就大幅增强下一次剑雨攻击，并在命中敌人时为行秋恢复3点元素能量。" }
+  ],
+  "overviewItems": [
+    { "id": "VarunadaLazuriteGemstone", "localeName": "涤净青金", "rarity": 5 },
+    { "id": "CleansingHeart", "localeName": "净水之心", "rarity": 4 },
+    { "id": "SilkFlower", "localeName": "霓裳花" },
+    { "id": "OminousMask", "localeName": "不祥的面具", "rarity": 3 },
+    { "id": "PhilosophiesOfGold", "localeName": "「黄金」的哲学", "rarity": 4 },
+    { "id": "TailOfBoreas", "localeName": "北风之尾", "rarity": 5 }
+  ]
+}

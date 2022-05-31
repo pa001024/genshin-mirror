@@ -1,0 +1,347 @@
+{
+  "uid": 10000063,
+  "id": "shenhe",
+  "name": "Shenhe",
+  "localeName": "申鶴",
+  "desc": "仙人の弟子であり、気品溢れる女性。璃月の山奥にひっそりと住み、その気質は仙人のように孤独で淡々としている。",
+  "baseHP": 1011.5,
+  "baseATK": 23.647,
+  "baseDEF": 64.616,
+  "bodyType": 4,
+  "rarity": 5,
+  "weapon": 3,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "ShivadaJadeSliver", "localeName": "哀切なアイスクリスタル·砕屑", "rarity": 2, "count": 1 },
+        { "id": "Qingxin", "localeName": "清心", "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 3 }
+      ],
+      "HP": 867.25,
+      "ATK": 20.274,
+      "DEF": 55.404,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "ShivadaJadeFragment", "localeName": "哀切なアイスクリスタル·欠片", "rarity": 3, "count": 3 },
+        { "id": "DragonheirsFalseFin", "localeName": "ドラゴエアのニセヒレ", "rarity": 4, "count": 2 },
+        { "id": "Qingxin", "localeName": "清心", "count": 10 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1483.4,
+      "ATK": 34.679,
+      "DEF": 94.77,
+      "extra": 0.072
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "ShivadaJadeFragment", "localeName": "哀切なアイスクリスタル·欠片", "rarity": 3, "count": 6 },
+        { "id": "DragonheirsFalseFin", "localeName": "ドラゴエアのニセヒレ", "rarity": 4, "count": 4 },
+        { "id": "Qingxin", "localeName": "清心", "count": 20 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 12 }
+      ],
+      "HP": 2305,
+      "ATK": 53.886,
+      "DEF": 147.26,
+      "extra": 0.144
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "ShivadaJadeChunk", "localeName": "哀切なアイスクリスタル·塊", "rarity": 4, "count": 3 },
+        { "id": "DragonheirsFalseFin", "localeName": "ドラゴエアのニセヒレ", "rarity": 4, "count": 8 },
+        { "id": "Qingxin", "localeName": "清心", "count": 30 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2921.3,
+      "ATK": 68.291,
+      "DEF": 186.62,
+      "extra": 0.144
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "ShivadaJadeChunk", "localeName": "哀切なアイスクリスタル·塊", "rarity": 4, "count": 6 },
+        { "id": "DragonheirsFalseFin", "localeName": "ドラゴエアのニセヒレ", "rarity": 4, "count": 12 },
+        { "id": "Qingxin", "localeName": "清心", "count": 45 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 12 }
+      ],
+      "HP": 3537.5,
+      "ATK": 82.697,
+      "DEF": 225.99,
+      "extra": 0.216
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "ShivadaJadeGemstone", "localeName": "哀切なアイスクリスタル", "rarity": 5, "count": 6 },
+        { "id": "DragonheirsFalseFin", "localeName": "ドラゴエアのニセヒレ", "rarity": 4, "count": 20 },
+        { "id": "Qingxin", "localeName": "清心", "count": 60 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 24 }
+      ],
+      "HP": 4153.7,
+      "ATK": 97.102,
+      "DEF": 265.36,
+      "extra": 0.288
+    }
+  ],
+  "ascensionType": 7,
+  "element": 7,
+  "elemSkill": {
+    "name": "SpringSpiritSummoning",
+    "localeName": "仰霊威召将役呪",
+    "desc": "銀の霜露を凝集させ、すべての妖魔を一掃する。\n周囲のチーム全員に「氷翎」効果を付与する。また一回押しと長押しによって、攻撃方法の異なる<color=#99FFFFFF>氷元素ダメージ</color>を与える。\n\n<color=#FFD780FF>一回押し</color>\n「籙霊」と共に前方へ突進し、経路上の敵に<color=#99FFFFFF>氷元素ダメージ</color>を与える。\n\n<color=#FFD780FF>長押し</color>\n「籙霊」に律令を下し、<color=#99FFFFFF>氷元素範囲ダメージ</color>を与える。\n\n<color=#FFD780FF>氷翎</color>\n通常攻撃、重撃、落下攻撃、元素スキル、元素爆発が敵に<color=#99FFFFFF>氷元素ダメージ</color>を与える時、申鶴自身の攻撃力を基準にダメージがアップする。\n\n「氷翎」効果は継続時間の終了、または規定回数の発動後に消失する。長押しで「氷翎」効果を付与した場合、発動回数が増え、継続時間がより長くなる。\n一回の<color=#99FFFFFF>氷元素ダメージ</color>が複数の敵に命中した場合は、その敵の数に応じて発動回数が消費される。「氷翎」の発動回数は、付与されたキャラクターごとに計算される。\n\n<i>「霊力に偽りなし。令を背負いて、神女は馳せる。」</i>",
+    "cd": 10,
+    "paramTpls": [
+      "一回押しスキルダメージ|{param1:P}",
+      "長押しスキルダメージ|{param2:F1P}",
+      "ダメージアップ|{param3:F1P}攻撃力",
+      "一回押し/長押し継続時間|{param4:F1}秒/{param5:F1}秒",
+      "一回押し/長押し発動回数|{param6:I}回/{param7:I}回",
+      "一回押しクールタイム|{param8:F1}秒",
+      "長押しクールタイム|{param9:F1}秒"
+    ],
+    "paramVals": [
+      [1.392, 1.888, 0.45656, 10, 15, 5, 7, 10, 15],
+      [1.4964, 2.0296, 0.4908, 10, 15, 5, 7, 10, 15],
+      [1.6008, 2.1712, 0.52504, 10, 15, 5, 7, 10, 15],
+      [1.74, 2.36, 0.5707, 10, 15, 5, 7, 10, 15],
+      [1.8444, 2.5016, 0.60494, 10, 15, 5, 7, 10, 15],
+      [1.9488, 2.6432, 0.63918, 10, 15, 5, 7, 10, 15],
+      [2.088, 2.832, 0.68484, 10, 15, 5, 7, 10, 15],
+      [2.2272, 3.0208, 0.7305, 10, 15, 5, 7, 10, 15],
+      [2.3664, 3.2096, 0.77615, 10, 15, 5, 7, 10, 15],
+      [2.5056, 3.3984, 0.82181, 10, 15, 5, 7, 10, 15],
+      [2.6448, 3.5872, 0.86746, 10, 15, 5, 7, 10, 15],
+      [2.784, 3.776, 0.91312, 10, 15, 5, 7, 10, 15],
+      [2.958, 4.012, 0.97019, 10, 15, 5, 7, 10, 15],
+      [3.132, 4.248, 1.0273, 10, 15, 5, 7, 10, 15],
+      [3.306, 4.484, 1.0843, 10, 15, 5, 7, 10, 15]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfProsperity", "localeName": "「繁栄」の教え", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 4 },
+        { "id": "HellfireButterfly", "localeName": "獄炎の蝶", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 6 },
+        { "id": "HellfireButterfly", "localeName": "獄炎の蝶", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 9 },
+        { "id": "HellfireButterfly", "localeName": "獄炎の蝶", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 12 },
+        { "id": "HellfireButterfly", "localeName": "獄炎の蝶", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "DivineMaidensDeliverance",
+    "localeName": "神女遣霊真訣",
+    "desc": "力を解放した「籙霊」が俗世を駆け、<color=#99FFFFFF>氷元素範囲ダメージ</color>を与える。\n「籙霊」は領域を形成し、中にいるすべての敵の<color=#99FFFFFF>氷元素耐性</color>と物理耐性をダウンさせ、持続的に<color=#99FFFFFF>氷元素ダメージ</color>を与える。\n\n<i>「虚構に囚われた者では、仙道は悟れない。天地の変化を観察し、因果の法則を理解してこそ、初めてその本質を理解できる。」</i>",
+    "cd": 20,
+    "energyCost": 80,
+    "paramTpls": ["スキルダメージ|{param1:P}", "耐性ダウン|{param2:F1P}", "継続ダメージ|{param3:F1P}", "継続時間|{param4:F1}秒", "クールタイム|{param5:F1}秒", "元素エネルギー|{param6:I}"],
+    "paramVals": [
+      [1.008, 0.06, 0.3312, 12, 20, 80],
+      [1.0836, 0.07, 0.35604, 12, 20, 80],
+      [1.1592, 0.08, 0.38088, 12, 20, 80],
+      [1.26, 0.09, 0.414, 12, 20, 80],
+      [1.3356, 0.1, 0.43884, 12, 20, 80],
+      [1.4112, 0.11, 0.46368, 12, 20, 80],
+      [1.512, 0.12, 0.4968, 12, 20, 80],
+      [1.6128, 0.13, 0.52992, 12, 20, 80],
+      [1.7136, 0.14, 0.56304, 12, 20, 80],
+      [1.8144, 0.15, 0.59616, 12, 20, 80],
+      [1.9152, 0.15, 0.62928, 12, 20, 80],
+      [2.016, 0.15, 0.6624, 12, 20, 80],
+      [2.142, 0.15, 0.7038, 12, 20, 80],
+      [2.268, 0.15, 0.7452, 12, 20, 80],
+      [2.394, 0.15, 0.7866, 12, 20, 80]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfProsperity", "localeName": "「繁栄」の教え", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 4 },
+        { "id": "HellfireButterfly", "localeName": "獄炎の蝶", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 6 },
+        { "id": "HellfireButterfly", "localeName": "獄炎の蝶", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 9 },
+        { "id": "HellfireButterfly", "localeName": "獄炎の蝶", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 12 },
+        { "id": "HellfireButterfly", "localeName": "獄炎の蝶", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackDawnstarPiercer",
+    "localeName": "通常攻撃·踏辰摂斗",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n槍による最大5段の連続攻撃を行う。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費して前方に突進し、経路上の敵にダメージを与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+    "cd": 0,
+    "paramTpls": [
+      "1段ダメージ|{param1:F1P}",
+      "2段ダメージ|{param2:F1P}",
+      "3段ダメージ|{param3:F1P}",
+      "4段ダメージ|{param4:F1P}+{param5:F1P}",
+      "5段ダメージ|{param6:F1P}",
+      "重撃ダメージ|{param7:F1P}",
+      "重撃スタミナ消費|{param8:F1}",
+      "落下期間のダメージ|{param9:F1P}",
+      "低空/高空落下攻撃ダメージ|{param10:P}/{param11:P}"
+    ],
+    "paramVals": [
+      [0.43258, 0.40248, 0.5332, 0.26316, 0.26316, 0.65618, 1.1067, 25, 0.63932, 1.2784, 1.5968],
+      [0.46779, 0.43524, 0.5766, 0.28458, 0.28458, 0.70959, 1.1968, 25, 0.69136, 1.3824, 1.7267],
+      [0.503, 0.468, 0.62, 0.306, 0.306, 0.763, 1.2869, 25, 0.7434, 1.4865, 1.8567],
+      [0.5533, 0.5148, 0.682, 0.3366, 0.3366, 0.8393, 1.4156, 25, 0.81774, 1.6351, 2.0424],
+      [0.58851, 0.54756, 0.7254, 0.35802, 0.35802, 0.89271, 1.5057, 25, 0.86978, 1.7392, 2.1723],
+      [0.62875, 0.585, 0.775, 0.3825, 0.3825, 0.95375, 1.6086, 25, 0.92925, 1.8581, 2.3209],
+      [0.68408, 0.63648, 0.8432, 0.41616, 0.41616, 1.0377, 1.7502, 25, 1.011, 2.0216, 2.5251],
+      [0.73941, 0.68796, 0.9114, 0.44982, 0.44982, 1.1216, 1.8917, 25, 1.0928, 2.1851, 2.7293],
+      [0.79474, 0.73944, 0.9796, 0.48348, 0.48348, 1.2055, 2.0333, 25, 1.1746, 2.3486, 2.9336],
+      [0.8551, 0.7956, 1.054, 0.5202, 0.5202, 1.2971, 2.1877, 25, 1.2638, 2.527, 3.1564],
+      [0.91546, 0.85176, 1.1284, 0.55692, 0.55692, 1.3887, 2.3422, 25, 1.353, 2.7054, 3.3792],
+      [0.97582, 0.90792, 1.2028, 0.59364, 0.59364, 1.4802, 2.4966, 25, 1.4422, 2.8838, 3.602],
+      [1.0362, 0.96408, 1.2772, 0.63036, 0.63036, 1.5718, 2.651, 25, 1.5314, 3.0622, 3.8248],
+      [1.0965, 1.0202, 1.3516, 0.66708, 0.66708, 1.6633, 2.8054, 25, 1.6206, 3.2405, 4.0476],
+      [1.1569, 1.0764, 1.426, 0.7038, 0.7038, 1.7549, 2.9599, 25, 1.7098, 3.4189, 4.2704]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfProsperity", "localeName": "「繁栄」の教え", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "トリックフラワーの蜜", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花の蜜", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 4 },
+        { "id": "HellfireButterfly", "localeName": "獄炎の蝶", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 6 },
+        { "id": "HellfireButterfly", "localeName": "獄炎の蝶", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 9 },
+        { "id": "HellfireButterfly", "localeName": "獄炎の蝶", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3, "count": 12 },
+        { "id": "HellfireButterfly", "localeName": "獄炎の蝶", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "DeificEmbrace", "localeName": "大洞弥羅尊法", "desc": "<color=#FFD780FF>神女遣霊真訣</color>の領域にいるフィールド上キャラクターの<color=#99FFFFFF>氷元素ダメージ</color>+15%。", "unlock": 1, "values": [0.15] },
+    {
+      "name": "SpiritCommunionSeal",
+      "localeName": "縛霊通真法印",
+      "desc": "申鶴が<color=#FFD780FF>仰霊威召将役呪</color>を発動すると、周囲チーム全員に下記効果を与える。\n·一回押しの場合、元素スキルおよび元素爆発ダメージ+15%、継続時間10秒。\n·長押しの場合、通常攻撃、重撃、落下攻撃ダメージ+15%、継続時間15秒。",
+      "unlock": 4,
+      "values": [0.15, 10, 0.15, 15]
+    },
+    { "name": "PreciseComingsAndGoings", "localeName": "往来通暁", "desc": "璃月で20時間かかる探索任務を完了した時、獲得する報酬+25%。" }
+  ],
+  "c13ns": [
+    { "name": "ClarityOfHeart", "localeName": "心斎", "desc": "<color=#FFD780FF>仰霊威召将役呪</color>の使用可能回数+1。" },
+    { "name": "CenteredSpirit", "localeName": "定蒙", "desc": "<color=#FFD780FF>神女遣霊真訣</color>の継続時間+6秒。領域内フィールド上キャラクターが与える<color=#99FFFFFF>氷元素ダメージ</color>の会心ダメージ+15%。", "values": [6] },
+    { "name": "Seclusion", "localeName": "潜虚", "desc": "<color=#FFD780FF>仰霊威召将役呪</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    {
+      "name": "Insight",
+      "localeName": "洞観",
+      "desc": "申鶴自身によって<color=#FFD780FF>「氷翎」</color>効果を付与されたキャラクターが、「氷翎」のダメージアップ効果を発動すると、申鶴は「霜霄訣」を1層獲得する。\n申鶴が<color=#FFD780FF>仰霊威召将役呪</color>を発動した時、「霜霄訣」をすべて消費する。消費した層数1につき、その時発動した仰霊威召将役呪のダメージ+5%。この効果は最大50回まで重ね掛け可能、継続時間60秒。",
+      "values": [0.05, 50]
+    },
+    { "name": "DivineAttainment", "localeName": "化神", "desc": "<color=#FFD780FF>神女遣霊真訣</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "MysticalAbandon", "localeName": "忘玄", "desc": "キャラクターが通常攻撃および重撃で<color=#FFD780FF>「氷翎」</color>効果を発動した時、「氷翎」の発動回数が消費されなくなる。" }
+  ],
+  "overviewItems": [
+    { "id": "ShivadaJadeGemstone", "localeName": "哀切なアイスクリスタル", "rarity": 5 },
+    { "id": "DragonheirsFalseFin", "localeName": "ドラゴエアのニセヒレ", "rarity": 4 },
+    { "id": "Qingxin", "localeName": "清心" },
+    { "id": "EnergyNectar", "localeName": "原素花の蜜", "rarity": 3 },
+    { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4 },
+    { "id": "HellfireButterfly", "localeName": "獄炎の蝶", "rarity": 5 }
+  ]
+}

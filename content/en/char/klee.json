@@ -1,0 +1,327 @@
+{
+  "uid": 10000029,
+  "id": "klee",
+  "name": "Klee",
+  "localeName": "Klee",
+  "desc": "An explosives expert and a regular at the Knights of Favonius's confinement room. Also known as Fleeing Sunlight.",
+  "baseHP": 800.79,
+  "baseATK": 24.206,
+  "baseDEF": 47.864,
+  "bodyType": 2,
+  "rarity": 5,
+  "weapon": 5,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "AgnidusAgateSliver", "localeName": "Agnidus Agate Sliver", "rarity": 2, "count": 1 },
+        { "id": "PhilanemoMushroom", "localeName": "Philanemo Mushroom", "count": 3 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 3 }
+      ],
+      "HP": 686.6,
+      "ATK": 20.753,
+      "DEF": 41.04,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "AgnidusAgateFragment", "localeName": "Agnidus Agate Fragment", "rarity": 3, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4, "count": 2 },
+        { "id": "PhilanemoMushroom", "localeName": "Philanemo Mushroom", "count": 10 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1174.5,
+      "ATK": 35.498,
+      "DEF": 70.2,
+      "extra": 0.072
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "AgnidusAgateFragment", "localeName": "Agnidus Agate Fragment", "rarity": 3, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4, "count": 4 },
+        { "id": "PhilanemoMushroom", "localeName": "Philanemo Mushroom", "count": 20 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1824.9,
+      "ATK": 55.159,
+      "DEF": 109.08,
+      "extra": 0.144
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "AgnidusAgateChunk", "localeName": "Agnidus Agate Chunk", "rarity": 4, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4, "count": 8 },
+        { "id": "PhilanemoMushroom", "localeName": "Philanemo Mushroom", "count": 30 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2312.8,
+      "ATK": 69.905,
+      "DEF": 138.24,
+      "extra": 0.144
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "AgnidusAgateChunk", "localeName": "Agnidus Agate Chunk", "rarity": 4, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4, "count": 12 },
+        { "id": "PhilanemoMushroom", "localeName": "Philanemo Mushroom", "count": 45 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 12 }
+      ],
+      "HP": 2800.6,
+      "ATK": 84.65,
+      "DEF": 167.4,
+      "extra": 0.216
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "AgnidusAgateGemstone", "localeName": "Agnidus Agate Gemstone", "rarity": 5, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4, "count": 20 },
+        { "id": "PhilanemoMushroom", "localeName": "Philanemo Mushroom", "count": 60 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 24 }
+      ],
+      "HP": 3288.5,
+      "ATK": 99.396,
+      "DEF": 196.56,
+      "extra": 0.288
+    }
+  ],
+  "ascensionType": 19,
+  "element": 6,
+  "elemSkill": {
+    "name": "JumpyDumpty",
+    "localeName": "Jumpy Dumpty",
+    "desc": "Jumpy Dumpty is tons of boom-bang-fun! \nWhen thrown, Jumpy Dumpty bounces thrice, igniting and dealing <color=#FF9999FF>AoE Pyro DMG</color> with every bounce.\n\nOn the third bounce, the bomb splits into many mines.\nThe mines will explode upon contact with opponents, or after a short period of time, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\n\nStarts with 2 charges.\n\n<i>Jumpy Dumpty is Klee's good friend! She can't help but introduce him to everyone.</i>",
+    "cd": 20,
+    "paramTpls": ["Jumpy Dumpty DMG|{param1:F1P}", "Mine DMG|{param4:F1P}", "Mine Duration|{param5:F1}s", "CD|{param6:F1}s"],
+    "paramVals": [
+      [0.952, 0.952, 0.952, 0.328, 15, 20],
+      [1.0234, 1.0234, 1.0234, 0.3526, 15, 20],
+      [1.0948, 1.0948, 1.0948, 0.3772, 15, 20],
+      [1.19, 1.19, 1.19, 0.41, 15, 20],
+      [1.2614, 1.2614, 1.2614, 0.4346, 15, 20],
+      [1.3328, 1.3328, 1.3328, 0.4592, 15, 20],
+      [1.428, 1.428, 1.428, 0.492, 15, 20],
+      [1.5232, 1.5232, 1.5232, 0.5248, 15, 20],
+      [1.6184, 1.6184, 1.6184, 0.5576, 15, 20],
+      [1.7136, 1.7136, 1.7136, 0.5904, 15, 20],
+      [1.8088, 1.8088, 1.8088, 0.6232, 15, 20],
+      [1.904, 1.904, 1.904, 0.656, 15, 20],
+      [2.023, 2.023, 2.023, 0.697, 15, 20],
+      [2.142, 2.142, 2.142, 0.738, 15, 20],
+      [2.261, 2.261, 2.261, 0.779, 15, 20]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfFreedom", "localeName": "Teachings of Freedom", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "SparksNSplash",
+    "localeName": "Sparks 'n' Splash",
+    "desc": "Klee's Blazing Delight! For the duration of this ability, continuously summons Sparks 'n' Splash to attack nearby opponents, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\n\n<i>The knights all believe that Klee must have a lucky star watching over her to have never been hurt by any of her own bombs...</i>",
+    "cd": 15,
+    "energyCost": 60,
+    "paramTpls": ["Sparks 'n' Splash DMG|{param1:F1P}", "Duration|{param5:F1}s", "CD|{param2:F1}s", "Energy Cost|{param3:I}"],
+    "paramVals": [
+      [0.4264, 15, 60, 0.51168, 10],
+      [0.45838, 15, 60, 0.55006, 10],
+      [0.49036, 15, 60, 0.58843, 10],
+      [0.533, 15, 60, 0.6396, 10],
+      [0.56498, 15, 60, 0.67798, 10],
+      [0.59696, 15, 60, 0.71635, 10],
+      [0.6396, 15, 60, 0.76752, 10],
+      [0.68224, 15, 60, 0.81869, 10],
+      [0.72488, 15, 60, 0.86986, 10],
+      [0.76752, 15, 60, 0.92102, 10],
+      [0.81016, 15, 60, 0.97219, 10],
+      [0.8528, 15, 60, 1.0234, 10],
+      [0.9061, 15, 60, 1.0873, 10],
+      [0.9594, 15, 60, 1.1513, 10],
+      [1.0127, 15, 60, 1.2152, 10]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfFreedom", "localeName": "Teachings of Freedom", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackKaboom",
+    "localeName": "Normal Attack: Kaboom!",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nThrows things that go boom when they hit things! Perform up to 3 explosive attacks, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina and deals <color=#FF9999FF>AoE Pyro DMG</color> to opponents after a short casting time.\n\n<color=#FFD780FF>Plunging Attack</color>\nGathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#FF9999FF>AoE Pyro DMG</color> upon impact with the ground.",
+    "cd": 0,
+    "paramTpls": ["1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", "Charged Attack DMG|{param4:P}", "Charged Attack Stamina Cost|{param5:F1}", "Plunge DMG|{param6:F1P}", "Low/High Plunge DMG|{param7:P}/{param8:P}"],
+    "paramVals": [
+      [0.7216, 0.624, 0.8992, 1.5736, 50, 0.56829, 1.1363, 1.4193],
+      [0.77572, 0.6708, 0.96664, 1.6916, 50, 0.61454, 1.2288, 1.5349],
+      [0.82984, 0.7176, 1.0341, 1.8096, 50, 0.6608, 1.3213, 1.6504],
+      [0.902, 0.78, 1.124, 1.967, 50, 0.72688, 1.4535, 1.8154],
+      [0.95612, 0.8268, 1.1914, 2.085, 50, 0.77314, 1.5459, 1.931],
+      [1.0102, 0.8736, 1.2589, 2.203, 50, 0.826, 1.6516, 2.063],
+      [1.0824, 0.936, 1.3488, 2.3604, 50, 0.89869, 1.797, 2.2445],
+      [1.1546, 0.9984, 1.4387, 2.5178, 50, 0.97138, 1.9423, 2.4261],
+      [1.2267, 1.0608, 1.5286, 2.6751, 50, 1.0441, 2.0877, 2.6076],
+      [1.2989, 1.1232, 1.6186, 2.8325, 50, 1.1234, 2.2462, 2.8057],
+      [1.3739, 1.1881, 1.7121, 2.9961, 50, 1.2027, 2.4048, 3.0037],
+      [1.4721, 1.273, 1.8344, 3.2101, 50, 1.282, 2.5634, 3.2018],
+      [1.5702, 1.3578, 1.9567, 3.4242, 50, 1.3612, 2.7219, 3.3998],
+      [1.6683, 1.4427, 2.0789, 3.6382, 50, 1.4405, 2.8805, 3.5979],
+      [1.7665, 1.5276, 2.2012, 3.8522, 50, 1.5198, 3.039, 3.7959]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfFreedom", "localeName": "Teachings of Freedom", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "Divining Scroll", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "Guide to Freedom", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "Sealed Scroll", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    {
+      "name": "PoundingSurprise",
+      "localeName": "Pounding Surprise",
+      "desc": "When <color=#FFD780FF>Jumpy Dumpty</color> and Normal Attacks deal DMG, Klee has a 50% chance to obtain an Explosive Spark.\nThis Explosive Spark is consumed by the next Charged Attack, which costs no Stamina and deals 50% increased DMG.",
+      "unlock": 1
+    },
+    { "name": "SparklingBurst", "localeName": "Sparkling Burst", "desc": "When Klee's Charged Attack results in a CRIT Hit, all party members gain 2 Elemental Energy.", "unlock": 4 },
+    { "name": "AllOfMyTreasures", "localeName": "All Of My Treasures!", "desc": "Displays the location of nearby <color=#FFD780FF>resources unique to Mondstadt</color> on the mini-map." }
+  ],
+  "c13ns": [
+    { "name": "ChainedReactions", "localeName": "Chained Reactions", "desc": "Attacks and Skills have a certain chance to summon sparks that bombard opponents, dealing DMG equal to 120% of <color=#FFD780FF>Sparks 'n' Splash</color>'s DMG." },
+    { "name": "ExplosiveFrags", "localeName": "Explosive Frags", "desc": "Being hit by <color=#FFD780FF>Jumpy Dumpty</color>'s mines decreases opponents' DEF by 23% for 10s." },
+    { "name": "ExquisiteCompound", "localeName": "Exquisite Compound", "desc": "Increases the Level of <color=#FFD780FF>Jumpy Dumpty</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "SparklyExplosion", "localeName": "Sparkly Explosion", "desc": "If Klee leaves the field during the duration of <color=#FFD780FF>Sparks 'n' Splash</color>, her departure triggers an explosion that deals 555% of her ATK as <color=#FF9999FF>AoE Pyro DMG</color>." },
+    { "name": "NovaBurst", "localeName": "Nova Burst", "desc": "Increases the Level of <color=#FFD780FF>Sparks 'n' Splash</color> by 3.\nMaximum upgrade level is 15." },
+    {
+      "name": "BlazingDelight",
+      "localeName": "Blazing Delight",
+      "desc": "While under the effects of <color=#FFD780FF>Sparks 'n' Splash</color>, Klee will regenerate 3 Energy for all members of the party (excluding Klee) every 3s.\nWhen <color=#FFD780FF>Sparks 'n' Splash</color> is used, all party members will gain a 10% <color=#FF9999FF>Pyro DMG Bonus</color> for 25s."
+    }
+  ],
+  "overviewItems": [
+    { "id": "AgnidusAgateGemstone", "localeName": "Agnidus Agate Gemstone", "rarity": 5 },
+    { "id": "EverflameSeed", "localeName": "Everflame Seed", "rarity": 4 },
+    { "id": "PhilanemoMushroom", "localeName": "Philanemo Mushroom" },
+    { "id": "ForbiddenCurseScroll", "localeName": "Forbidden Curse Scroll", "rarity": 3 },
+    { "id": "PhilosophiesOfFreedom", "localeName": "Philosophies of Freedom", "rarity": 4 },
+    { "id": "RingOfBoreas", "localeName": "Ring of Boreas", "rarity": 5 }
+  ]
+}

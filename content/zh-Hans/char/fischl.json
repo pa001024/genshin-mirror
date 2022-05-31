@@ -1,0 +1,318 @@
+{
+  "uid": 10000031,
+  "id": "fischl",
+  "name": "Fischl",
+  "localeName": "菲谢尔",
+  "desc": "自称「断罪之皇女」，与名为奥兹的漆黑夜鸦同行的神秘少女。",
+  "baseHP": 770.46,
+  "baseATK": 20.479,
+  "baseDEF": 49.786,
+  "bodyType": 3,
+  "rarity": 4,
+  "weapon": 2,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "VajradaAmethystSliver", "localeName": "最胜紫晶碎屑", "rarity": 2, "count": 1 },
+        { "id": "SmallLampGrass", "localeName": "小灯草", "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "牢固的箭簇", "rarity": 1, "count": 3 }
+      ],
+      "HP": 575.58,
+      "ATK": 15.299,
+      "DEF": 37.193,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "VajradaAmethystFragment", "localeName": "最胜紫晶断片", "rarity": 3, "count": 3 },
+        { "id": "LightningPrism", "localeName": "雷光棱镜", "rarity": 4, "count": 2 },
+        { "id": "SmallLampGrass", "localeName": "小灯草", "count": 10 },
+        { "id": "FirmArrowhead", "localeName": "牢固的箭簇", "rarity": 1, "count": 15 }
+      ],
+      "HP": 984.54,
+      "ATK": 26.17,
+      "DEF": 63.619,
+      "extra": 0.06
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "VajradaAmethystFragment", "localeName": "最胜紫晶断片", "rarity": 3, "count": 6 },
+        { "id": "LightningPrism", "localeName": "雷光棱镜", "rarity": 4, "count": 4 },
+        { "id": "SmallLampGrass", "localeName": "小灯草", "count": 20 },
+        { "id": "SharpArrowhead", "localeName": "锐利的箭簇", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1529.8,
+      "ATK": 40.664,
+      "DEF": 98.854,
+      "extra": 0.12
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "VajradaAmethystChunk", "localeName": "最胜紫晶块", "rarity": 4, "count": 3 },
+        { "id": "LightningPrism", "localeName": "雷光棱镜", "rarity": 4, "count": 8 },
+        { "id": "SmallLampGrass", "localeName": "小灯草", "count": 30 },
+        { "id": "SharpArrowhead", "localeName": "锐利的箭簇", "rarity": 2, "count": 18 }
+      ],
+      "HP": 1938.8,
+      "ATK": 51.535,
+      "DEF": 125.28,
+      "extra": 0.12
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "VajradaAmethystChunk", "localeName": "最胜紫晶块", "rarity": 4, "count": 6 },
+        { "id": "LightningPrism", "localeName": "雷光棱镜", "rarity": 4, "count": 12 },
+        { "id": "SmallLampGrass", "localeName": "小灯草", "count": 45 },
+        { "id": "WeatheredArrowhead", "localeName": "历战的箭簇", "rarity": 3, "count": 12 }
+      ],
+      "HP": 2347.7,
+      "ATK": 62.405,
+      "DEF": 151.71,
+      "extra": 0.18
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "VajradaAmethystGemstone", "localeName": "最胜紫晶", "rarity": 5, "count": 6 },
+        { "id": "LightningPrism", "localeName": "雷光棱镜", "rarity": 4, "count": 20 },
+        { "id": "SmallLampGrass", "localeName": "小灯草", "count": 60 },
+        { "id": "WeatheredArrowhead", "localeName": "历战的箭簇", "rarity": 3, "count": 24 }
+      ],
+      "HP": 2756.7,
+      "ATK": 73.276,
+      "DEF": 178.13,
+      "extra": 0.24
+    }
+  ],
+  "ascensionType": 7,
+  "element": 3,
+  "elemSkill": {
+    "name": "Nightrider",
+    "localeName": "夜巡影翼",
+    "desc": "召唤奥兹。暗影与雷电构成的夜鸦降生尘世时，会在小范围内造成<color=#FFACFFFF>雷元素伤害</color>。\n存在期间内，奥兹会持续发射<color=#FFACFFFF>雷之魔弹</color>攻击附近的敌人。\n\n长按以调整技能生效位置。\n奥兹存在期间内再次点按可以将其召唤至身旁。\n\n<i>「本皇女的精力，可是很宝贵的，不值得浪费在你们这种人身上…奥兹，请你替我降下那撕开永夜的断罪之雷吧。」</i>\n<i>——《菲谢尔皇女夜谭·卷四·「永别世界夫人」》</i>",
+    "cd": 25,
+    "paramTpls": ["奥兹攻击伤害|{param1:F1P}", "召唤伤害|{param2:P}", "奥兹存在时间|{param4:F1}秒", "冷却时间|{param5:F1}秒"],
+    "paramVals": [
+      [0.888, 1.1544, 0, 10, 25, 8],
+      [0.9546, 1.241, 0, 10, 25, 8],
+      [1.0212, 1.3276, 0, 10, 25, 8],
+      [1.11, 1.443, 0, 10, 25, 8],
+      [1.1766, 1.5296, 0, 10, 25, 8],
+      [1.2432, 1.6162, 0, 10, 25, 8],
+      [1.332, 1.7316, 0, 10, 25, 8],
+      [1.4208, 1.847, 0, 10, 25, 8],
+      [1.5096, 1.9625, 0, 10, 25, 8],
+      [1.5984, 2.0779, 0, 10, 25, 8],
+      [1.6872, 2.1934, 0, 10, 25, 8],
+      [1.776, 2.3088, 0, 10, 25, 8],
+      [1.887, 2.4531, 0, 10, 25, 8],
+      [1.998, 2.5974, 0, 10, 25, 8],
+      [2.109, 2.7417, 0, 10, 25, 8]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfBallad", "localeName": "「诗文」的教导", "rarity": 2, "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "牢固的箭簇", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「诗文」的指引", "rarity": 3, "count": 2 },
+        { "id": "SharpArrowhead", "localeName": "锐利的箭簇", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「诗文」的指引", "rarity": 3, "count": 4 },
+        { "id": "SharpArrowhead", "localeName": "锐利的箭簇", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「诗文」的指引", "rarity": 3, "count": 6 },
+        { "id": "SharpArrowhead", "localeName": "锐利的箭簇", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「诗文」的指引", "rarity": 3, "count": 9 },
+        { "id": "SharpArrowhead", "localeName": "锐利的箭簇", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4, "count": 4 },
+        { "id": "WeatheredArrowhead", "localeName": "历战的箭簇", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4, "count": 6 },
+        { "id": "WeatheredArrowhead", "localeName": "历战的箭簇", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4, "count": 12 },
+        { "id": "WeatheredArrowhead", "localeName": "历战的箭簇", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4, "count": 16 },
+        { "id": "WeatheredArrowhead", "localeName": "历战的箭簇", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "MidnightPhantasmagoria",
+    "localeName": "至夜幻现",
+    "desc": "呼唤奥兹，张开纯粹的夜色编织成的双翼，守护菲谢尔。\n持续期间，具有如下效果：\n·以奥兹的形态进行高速移动；\n·对附近的敌人降下落雷，造成<color=#FFACFFFF>雷元素伤害</color>。每个敌人只能受到一次落雷伤害；\n·效果结束时，奥兹将会停留在战场上，攻击皇女的敌人。若奥兹已经在场，则重置奥兹的存在时间。\n\n<i>…追随着受诅咒的断罪之血而来的群兽当中，只有那见证过一千世界寂灭的夜鸦亲王，能明白她的崇高。于是它张开至夜织成的双翼荫蔽高贵的皇女，并发誓永远守护她。</i>\n<i>——《菲谢尔皇女夜谭·卷一·「末日解体概要」》</i>",
+    "cd": 15,
+    "energyCost": 60,
+    "paramTpls": ["落雷伤害|{param1:P}", "冷却时间|{param5:F1}秒", "元素能量|{param6:I}"],
+    "paramVals": [
+      [2.08, 0, 0, 0, 15, 60],
+      [2.236, 0, 0, 0, 15, 60],
+      [2.392, 0, 0, 0, 15, 60],
+      [2.6, 0, 0, 0, 15, 60],
+      [2.756, 0, 0, 0, 15, 60],
+      [2.912, 0, 0, 0, 15, 60],
+      [3.12, 0, 0, 0, 15, 60],
+      [3.328, 0, 0, 0, 15, 60],
+      [3.536, 0, 0, 0, 15, 60],
+      [3.744, 0, 0, 0, 15, 60],
+      [3.952, 0, 0, 0, 15, 60],
+      [4.16, 0, 0, 0, 15, 60],
+      [4.42, 0, 0, 0, 15, 60],
+      [4.68, 0, 0, 0, 15, 60],
+      [4.94, 0, 0, 0, 15, 60]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfBallad", "localeName": "「诗文」的教导", "rarity": 2, "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "牢固的箭簇", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「诗文」的指引", "rarity": 3, "count": 2 },
+        { "id": "SharpArrowhead", "localeName": "锐利的箭簇", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「诗文」的指引", "rarity": 3, "count": 4 },
+        { "id": "SharpArrowhead", "localeName": "锐利的箭簇", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「诗文」的指引", "rarity": 3, "count": 6 },
+        { "id": "SharpArrowhead", "localeName": "锐利的箭簇", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「诗文」的指引", "rarity": 3, "count": 9 },
+        { "id": "SharpArrowhead", "localeName": "锐利的箭簇", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4, "count": 4 },
+        { "id": "WeatheredArrowhead", "localeName": "历战的箭簇", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4, "count": 6 },
+        { "id": "WeatheredArrowhead", "localeName": "历战的箭簇", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4, "count": 12 },
+        { "id": "WeatheredArrowhead", "localeName": "历战的箭簇", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4, "count": 16 },
+        { "id": "WeatheredArrowhead", "localeName": "历战的箭簇", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackBoltsOfDownfall",
+    "localeName": "普通攻击·罪灭之矢",
+    "desc": "<color=#FFD780FF>普通攻击</color>\n进行至多五段的连续弓箭射击。\n\n<color=#FFD780FF>重击</color>\n进行伤害更高、更为精准的<color=#FFD780FF>瞄准射击</color>。\n瞄准时，幽夜净土的黯雷精灵会听从皇女的号令，凭附在她的雷影魔箭上。聚满了断罪之雷的魔箭会造成高额的<color=#FFACFFFF>雷元素伤害</color>。\n\n<color=#FFD780FF>下落攻击</color>\n从空中射出箭雨，并迅速下坠冲击地面，在落地时造成范围伤害。",
+    "cd": 0,
+    "paramTpls": ["一段伤害|{param1:F1P}", "二段伤害|{param2:F1P}", "三段伤害|{param3:F1P}", "四段伤害|{param4:F1P}", "五段伤害|{param5:F1P}", "瞄准射击|{param6:F1P}", "满蓄力瞄准射击|{param7:P}", "下坠期间伤害|{param8:F1P}", "低空/高空坠地冲击伤害|{param9:P}/{param10:P}"],
+    "paramVals": [
+      [0.44118, 0.46784, 0.58136, 0.57706, 0.72068, 0.4386, 1.24, 0.56829, 1.1363, 1.4193],
+      [0.47709, 0.50592, 0.62868, 0.62403, 0.77934, 0.4743, 1.333, 0.61454, 1.2288, 1.5349],
+      [0.513, 0.544, 0.676, 0.671, 0.838, 0.51, 1.426, 0.6608, 1.3213, 1.6504],
+      [0.5643, 0.5984, 0.7436, 0.7381, 0.9218, 0.561, 1.55, 0.72688, 1.4535, 1.8154],
+      [0.60021, 0.63648, 0.79092, 0.78507, 0.98046, 0.5967, 1.643, 0.77314, 1.5459, 1.931],
+      [0.64125, 0.68, 0.845, 0.83875, 1.0475, 0.6375, 1.736, 0.826, 1.6516, 2.063],
+      [0.69768, 0.73984, 0.91936, 0.91256, 1.1397, 0.6936, 1.86, 0.89869, 1.797, 2.2445],
+      [0.75411, 0.79968, 0.99372, 0.98637, 1.2319, 0.7497, 1.984, 0.97138, 1.9423, 2.4261],
+      [0.81054, 0.85952, 1.0681, 1.0602, 1.324, 0.8058, 2.108, 1.0441, 2.0877, 2.6076],
+      [0.8721, 0.9248, 1.1492, 1.1407, 1.4246, 0.867, 2.232, 1.1234, 2.2462, 2.8057],
+      [0.93366, 0.99008, 1.2303, 1.2212, 1.5252, 0.9282, 2.356, 1.2027, 2.4048, 3.0037],
+      [0.99522, 1.0554, 1.3114, 1.3017, 1.6257, 0.9894, 2.48, 1.282, 2.5634, 3.2018],
+      [1.0568, 1.1206, 1.3926, 1.3823, 1.7263, 1.0506, 2.635, 1.3612, 2.7219, 3.3998],
+      [1.1183, 1.1859, 1.4737, 1.4628, 1.8268, 1.1118, 2.79, 1.4405, 2.8805, 3.5979],
+      [1.1799, 1.2512, 1.5548, 1.5433, 1.9274, 1.173, 2.945, 1.5198, 3.039, 3.7959]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfBallad", "localeName": "「诗文」的教导", "rarity": 2, "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "牢固的箭簇", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「诗文」的指引", "rarity": 3, "count": 2 },
+        { "id": "SharpArrowhead", "localeName": "锐利的箭簇", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「诗文」的指引", "rarity": 3, "count": 4 },
+        { "id": "SharpArrowhead", "localeName": "锐利的箭簇", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「诗文」的指引", "rarity": 3, "count": 6 },
+        { "id": "SharpArrowhead", "localeName": "锐利的箭簇", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「诗文」的指引", "rarity": 3, "count": 9 },
+        { "id": "SharpArrowhead", "localeName": "锐利的箭簇", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4, "count": 4 },
+        { "id": "WeatheredArrowhead", "localeName": "历战的箭簇", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4, "count": 6 },
+        { "id": "WeatheredArrowhead", "localeName": "历战的箭簇", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4, "count": 12 },
+        { "id": "WeatheredArrowhead", "localeName": "历战的箭簇", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4, "count": 16 },
+        { "id": "WeatheredArrowhead", "localeName": "历战的箭簇", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "StellarPredator", "localeName": "噬星魔鸦", "desc": "菲谢尔以蓄力完成的瞄准射击命中奥兹时，奥兹会对附近敌人降下圣裁之雷，造成等同射击伤害152.7%的<color=#FFACFFFF>雷元素范围伤害</color>。", "unlock": 1, "values": [1.527] },
+    { "name": "UndoneBeThySinfulHex", "localeName": "断罪雷影", "desc": "奥兹在场时，若当前场上自己的角色攻击敌人时触发了<color=#FFACFFFF>雷元素相关反应</color>，则会对敌人降下圣裁之雷，造成菲谢尔80%攻击力的<color=#FFACFFFF>雷元素伤害</color>。", "unlock": 4, "values": [0.8] },
+    { "name": "MeinHausgarten", "localeName": "吾之后花园", "desc": "在蒙德执行探索派遣任务时，消耗的时间缩短25%。" }
+  ],
+  "c13ns": [
+    { "name": "GazeOfTheDeep", "localeName": "幽邃鸦眼", "desc": "奥兹不在战场上时，也会透过鸦眼守望菲谢尔。在菲谢尔对敌人进行普通攻击时，奥兹会通过鸦眼协同攻击，造成22%攻击力的伤害。", "values": [0.22] },
+    { "name": "DevourerOfAllSins", "localeName": "圣裁影羽", "desc": "施放<color=#FFD780FF>夜巡影翼</color>时，能额外造成200%攻击力的伤害，并使影响范围扩大50%。", "values": [2] },
+    { "name": "WingsOfNightmare", "localeName": "渊色黑翼", "desc": "<color=#FFD780FF>夜巡影翼</color>的技能等级提高3级。\n至多提升至15级。" },
+    { "name": "HerPilgrimageOfBleak", "localeName": "皇女幻绮谭", "desc": "施放<color=#FFD780FF>至夜幻现</color>时，会对周围的敌人造成222%攻击力的<color=#FFACFFFF>雷元素伤害</color>；\n技能效果结束时，会为菲谢尔恢复20%生命值。", "values": [2.22, 0.2] },
+    { "name": "AgainstTheFleeingLight", "localeName": "至夜默示录", "desc": "<color=#FFD780FF>至夜幻现</color>的技能等级提高3级。\n至多提升至15级。" },
+    { "name": "EvernightRaven", "localeName": "永夜之禽", "desc": "奥兹的存在时间延长2秒。此外，奥兹会协同当前场上自己的角色一起攻击，造成菲谢尔30%攻击力的<color=#FFACFFFF>雷元素伤害</color>。", "values": [0.3, 2] }
+  ],
+  "overviewItems": [
+    { "id": "VajradaAmethystGemstone", "localeName": "最胜紫晶", "rarity": 5 },
+    { "id": "LightningPrism", "localeName": "雷光棱镜", "rarity": 4 },
+    { "id": "SmallLampGrass", "localeName": "小灯草" },
+    { "id": "WeatheredArrowhead", "localeName": "历战的箭簇", "rarity": 3 },
+    { "id": "PhilosophiesOfBallad", "localeName": "「诗文」的哲学", "rarity": 4 },
+    { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5 }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "uid": 10000053,
+  "id": "sayu",
+  "name": "Sayu",
+  "localeName": "早柚",
+  "desc": "隶属于「终末番」的忍者。身形小巧，总像没睡饱一样。",
+  "baseHP": 993.85,
+  "baseATK": 20.479,
+  "baseDEF": 62.432,
+  "bodyType": 2,
+  "rarity": 4,
+  "weapon": 4,
+  "region": 3,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "VayudaTurquoiseSliver", "localeName": "自在松石碎屑", "rarity": 2, "count": 1 },
+        { "id": "CrystalMarrow", "localeName": "晶化骨髓", "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "骗骗花蜜", "rarity": 1, "count": 3 }
+      ],
+      "HP": 742.46,
+      "ATK": 15.299,
+      "DEF": 46.64,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "VayudaTurquoiseFragment", "localeName": "自在松石断片", "rarity": 3, "count": 3 },
+        { "id": "MarionetteCore", "localeName": "魔偶机心", "rarity": 4, "count": 2 },
+        { "id": "CrystalMarrow", "localeName": "晶化骨髓", "count": 10 },
+        { "id": "WhopperflowerNectar", "localeName": "骗骗花蜜", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1270,
+      "ATK": 26.17,
+      "DEF": 79.779,
+      "extra": 24
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "VayudaTurquoiseFragment", "localeName": "自在松石断片", "rarity": 3, "count": 6 },
+        { "id": "MarionetteCore", "localeName": "魔偶机心", "rarity": 4, "count": 4 },
+        { "id": "CrystalMarrow", "localeName": "晶化骨髓", "count": 20 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1973.4,
+      "ATK": 40.664,
+      "DEF": 123.96,
+      "extra": 48
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "VayudaTurquoiseChunk", "localeName": "自在松石块", "rarity": 4, "count": 3 },
+        { "id": "MarionetteCore", "localeName": "魔偶机心", "rarity": 4, "count": 8 },
+        { "id": "CrystalMarrow", "localeName": "晶化骨髓", "count": 30 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2500.9,
+      "ATK": 51.535,
+      "DEF": 157.1,
+      "extra": 48
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "VayudaTurquoiseChunk", "localeName": "自在松石块", "rarity": 4, "count": 6 },
+        { "id": "MarionetteCore", "localeName": "魔偶机心", "rarity": 4, "count": 12 },
+        { "id": "CrystalMarrow", "localeName": "晶化骨髓", "count": 45 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 12 }
+      ],
+      "HP": 3028.4,
+      "ATK": 62.405,
+      "DEF": 190.24,
+      "extra": 72
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "VayudaTurquoiseGemstone", "localeName": "自在松石", "rarity": 5, "count": 6 },
+        { "id": "MarionetteCore", "localeName": "魔偶机心", "rarity": 4, "count": 20 },
+        { "id": "CrystalMarrow", "localeName": "晶化骨髓", "count": 60 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 24 }
+      ],
+      "HP": 3556,
+      "ATK": 73.276,
+      "DEF": 223.38,
+      "extra": 96
+    }
+  ],
+  "ascensionType": 11,
+  "element": 1,
+  "elemSkill": {
+    "name": "YoohooArtFuuinDash",
+    "localeName": "呜呼流·风隐急进",
+    "desc": "忍法·呜呼流的独创奥义！以风驰电掣之势席卷战场的绝技！\n蜷缩成高速滚动的风风轮，冲撞触及的敌人造成<color=#80FFD7FF>风元素伤害</color>，并在结束时使出风风轮舞踢，造成<color=#80FFD7FF>风元素范围伤害</color>。\n\n<color=#FFD780FF>点按</color>\n进入风风轮状态，向前滚动一小段距离，并使出风风轮舞踢。\n\n<color=#FFD780FF>长按</color>\n以风风轮之姿持续滚动，并在该状态下提高早柚的抗打断能力。\n期间，早柚可以控制滚动的方向，并能通过再次施放技能，提前结束状态使出相比点按更为强大的风风轮舞踢。\n该技能通过长按施放时，能发生元素转化。\n\n持续至多10秒。效果结束时，技能将进入冷却。在风风轮状态下持续的时间越长，冷却时间越长。\n\n<color=#FFD780FF>元素转化</color>\n若早柚在风风轮状态下，接触了<color=#80C0FFFF>水元素</color>/<color=#FF9999FF>火元素</color>/<color=#99FFFFFF>冰元素</color>/<color=#FFACFFFF>雷元素</color>，则会获得对应元素属性，使风风轮与风风轮舞踢额外造成该元素的附加伤害。\n元素转化在技能持续期间仅会发生一次。\n\n<i>早柚闭着眼睛都能熟练施展出来。原本用于逃跑，有了神之眼之后，终于能趁机让敌人吃些苦头了。</i>",
+    "cd": 6,
+    "paramTpls": ["风风轮伤害|{param1:F1P}", "风风轮舞踢点按伤害|{param3:F1P}", "风风轮舞踢长按伤害|{param4:F1P}", "风风轮附带元素伤害|{param2:F1P}", "风风轮舞踢长按附带元素伤害|{param5:F1P}", "长按最大持续时间|{param6:F1}秒", "冷却时间|{param7:F1}到{param8:F1}秒"],
+    "paramVals": [
+      [0.36, 0.168, 1.584, 2.176, 0.7616, 10, 6, 11],
+      [0.387, 0.1806, 1.7028, 2.3392, 0.81872, 10, 6, 11],
+      [0.414, 0.1932, 1.8216, 2.5024, 0.87584, 10, 6, 11],
+      [0.45, 0.21, 1.98, 2.72, 0.952, 10, 6, 11],
+      [0.477, 0.2226, 2.0988, 2.8832, 1.0091, 10, 6, 11],
+      [0.504, 0.2352, 2.2176, 3.0464, 1.0662, 10, 6, 11],
+      [0.54, 0.252, 2.376, 3.264, 1.1424, 10, 6, 11],
+      [0.576, 0.2688, 2.5344, 3.4816, 1.2186, 10, 6, 11],
+      [0.612, 0.2856, 2.6928, 3.6992, 1.2947, 10, 6, 11],
+      [0.648, 0.3024, 2.8512, 3.9168, 1.3709, 10, 6, 11],
+      [0.684, 0.3192, 3.0096, 4.1344, 1.447, 10, 6, 11],
+      [0.72, 0.336, 3.168, 4.352, 1.5232, 10, 6, 11],
+      [0.765, 0.357, 3.366, 4.624, 1.6184, 10, 6, 11],
+      [0.81, 0.378, 3.564, 4.896, 1.7136, 10, 6, 11],
+      [0.855, 0.399, 3.762, 5.168, 1.8088, 10, 6, 11]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfLight", "localeName": "「天光」的教导", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "骗骗花蜜", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」的指引", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」的指引", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」的指引", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」的指引", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 4 },
+        { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 6 },
+        { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 9 },
+        { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 12 },
+        { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "YoohooArtMujinaFlurry",
+    "localeName": "呜呼流·影貉缭乱",
+    "desc": "忍法·呜呼流的另一个独创奥义！能创造出替早柚干活的帮手！\n对身边的敌人造成<color=#80FFD7FF>风元素伤害</color>，为队伍中附近的所有角色恢复生命值，回复量受益于早柚的攻击力，并召唤出「不倒貉貉」。\n\n<color=#FFD780FF>不倒貉貉</color>\n周期性地根据附近的状况，采取其中一种行动：\n·附近的角色如果生命值均高于70%，不倒貉貉会攻击附近的一名敌人，造成<color=#80FFD7FF>风元素伤害</color>；\n·附近场上如果存在生命值低于或等于70%的角色，会为附近场上生命值百分比最低的角色恢复生命值，回复量受益于早柚的攻击力。若附近不存在敌人，即使角色的生命值均高于70%，也会为角色恢复生命值。\n\n<i>不懂忍术的人都非常希望早柚能多多展示一下这个，也有人试图找早柚学习。可早柚只想睡觉，不想被打扰。</i>",
+    "cd": 20,
+    "energyCost": 80,
+    "paramTpls": ["技能发动伤害|{param1:P}", "技能发动治疗量|{param3:F1P}攻击力+{param2:I}", "不倒貉貉伤害|{param4:P}", "不倒貉貉治疗量|{param6:F1P}攻击力+{param5:I}", "持续时间|{param7:F1}秒", "冷却时间|{param8:F1}秒", "元素能量|{param9:I}"],
+    "paramVals": [
+      [1.168, 577.34, 0.9216, 0.52, 500.36, 0.79872, 12, 20, 80],
+      [1.2556, 635.08, 0.99072, 0.559, 550.4, 0.85862, 12, 20, 80],
+      [1.3432, 697.63, 1.0598, 0.598, 604.62, 0.91853, 12, 20, 80],
+      [1.46, 765, 1.152, 0.65, 663, 0.9984, 12, 20, 80],
+      [1.5476, 837.18, 1.2211, 0.689, 725.55, 1.0583, 12, 20, 80],
+      [1.6352, 914.17, 1.2902, 0.728, 792.28, 1.1182, 12, 20, 80],
+      [1.752, 995.97, 1.3824, 0.78, 863.17, 1.1981, 12, 20, 80],
+      [1.8688, 1082.6, 1.4746, 0.832, 938.24, 1.278, 12, 20, 80],
+      [1.9856, 1174, 1.5667, 0.884, 1017.5, 1.3578, 12, 20, 80],
+      [2.1024, 1270.2, 1.6589, 0.936, 1100.9, 1.4377, 12, 20, 80],
+      [2.2192, 1371.3, 1.751, 0.988, 1188.5, 1.5176, 12, 20, 80],
+      [2.336, 1477.2, 1.8432, 1.04, 1280.2, 1.5974, 12, 20, 80],
+      [2.482, 1587.8, 1.9584, 1.105, 1376.1, 1.6973, 12, 20, 80],
+      [2.628, 1703.3, 2.0736, 1.17, 1476.2, 1.7971, 12, 20, 80],
+      [2.774, 1823.6, 2.1888, 1.235, 1580.5, 1.897, 12, 20, 80]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfLight", "localeName": "「天光」的教导", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "骗骗花蜜", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」的指引", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」的指引", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」的指引", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」的指引", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 4 },
+        { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 6 },
+        { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 9 },
+        { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 12 },
+        { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackShuumatsubanNinjaBlade",
+    "localeName": "普通攻击·忍刀·终末番",
+    "desc": "<color=#FFD780FF>普通攻击</color>\n进行至多四段的连续挥砍。\n\n<color=#FFD780FF>重击</color>\n持续消耗体力，旋转大剑攻击周围的敌人。\n停止旋转时，会进行一次格外有力的挥砍。\n\n<color=#FFD780FF>下落攻击</color>\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
+    "cd": 0,
+    "paramTpls": [
+      "一段伤害|{param1:F1P}",
+      "二段伤害|{param2:F1P}",
+      "三段伤害|{param3:F1P}+{param4:F1P}",
+      "四段伤害|{param5:F1P}",
+      "重击循环伤害|{param6:F1P}",
+      "重击终结伤害|{param7:P}",
+      "重击体力消耗|每秒{param8:F1}点",
+      "最大持续时间|{param9:F1}秒",
+      "下坠期间伤害|{param10:F1P}",
+      "低空/高空坠地冲击伤害|{param11:P}/{param12:P}"
+    ],
+    "paramVals": [
+      [0.7224, 0.7138, 0.4343, 0.4343, 0.98126, 0.62546, 1.1309, 40, 5, 0.74588, 1.4914, 1.8629],
+      [0.7812, 0.7719, 0.46965, 0.46965, 1.0611, 0.67636, 1.2229, 40, 5, 0.80659, 1.6128, 2.0145],
+      [0.84, 0.83, 0.505, 0.505, 1.141, 0.72727, 1.315, 40, 5, 0.8673, 1.7342, 2.1662],
+      [0.924, 0.913, 0.5555, 0.5555, 1.2551, 0.8, 1.4465, 40, 5, 0.95403, 1.9077, 2.3828],
+      [0.9828, 0.9711, 0.59085, 0.59085, 1.335, 0.85091, 1.5386, 40, 5, 1.0147, 2.0291, 2.5344],
+      [1.05, 1.0375, 0.63125, 0.63125, 1.4262, 0.90909, 1.6437, 40, 5, 1.0841, 2.1678, 2.7077],
+      [1.1424, 1.1288, 0.6868, 0.6868, 1.5518, 0.98909, 1.7884, 40, 5, 1.1795, 2.3586, 2.946],
+      [1.2348, 1.2201, 0.74235, 0.74235, 1.6773, 1.0691, 1.9331, 40, 5, 1.2749, 2.5493, 3.1842],
+      [1.3272, 1.3114, 0.7979, 0.7979, 1.8028, 1.1491, 2.0777, 40, 5, 1.3703, 2.7401, 3.4225],
+      [1.428, 1.411, 0.8585, 0.8585, 1.9397, 1.2364, 2.2355, 40, 5, 1.4744, 2.9482, 3.6825],
+      [1.5435, 1.5251, 0.92794, 0.92794, 2.0966, 1.3364, 2.4163, 40, 5, 1.5785, 3.1563, 3.9424],
+      [1.6793, 1.6593, 1.0096, 1.0096, 2.2811, 1.454, 2.6289, 40, 5, 1.6826, 3.3644, 4.2023],
+      [1.8152, 1.7935, 1.0913, 1.0913, 2.4656, 1.5716, 2.8416, 40, 5, 1.7866, 3.5725, 4.4623],
+      [1.951, 1.9278, 1.1729, 1.1729, 2.6501, 1.6892, 3.0542, 40, 5, 1.8907, 3.7806, 4.7222],
+      [2.0992, 2.0742, 1.262, 1.262, 2.8514, 1.8175, 3.2862, 40, 5, 1.9948, 3.9887, 4.9821]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfLight", "localeName": "「天光」的教导", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "骗骗花蜜", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」的指引", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」的指引", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」的指引", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToLight", "localeName": "「天光」的指引", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲学", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 4 },
+        { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲学", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 6 },
+        { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲学", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 9 },
+        { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲学", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 12 },
+        { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "SomeoneMoreCapable", "localeName": "更加合适的人选", "desc": "早柚在场上触发扩散反应时，为队伍中自己的角色以及附近的友方角色恢复300点生命值。除此之外，早柚的每点元素精通将额外恢复1.2点生命值。\n该效果每2秒只能触发一次。", "unlock": 1, "values": [300, 1.2, 2] },
+    { "name": "NoWorkToday", "localeName": "早柚不用工作啦", "desc": "<color=#FFD780FF>呜呼流·影貉缭乱</color>的不倒貉貉获得如下效果：\n·为角色恢复生命值时，将为该角色身边的其他场上角色恢复相当于回复量20%的生命值；\n·攻击敌人时，扩大造成伤害的范围。", "unlock": 4, "values": [0.2] },
+    { "name": "YoohooArtSilencersSecret", "localeName": "呜呼流·屏息秘传", "desc": "早柚在队伍中时，队伍中自己的角色接近晶蝶等部分生物时，不会惊动它们。\n有效对象可参考图鉴中「生物志 / 野生动物」的「其他」分类。" }
+  ],
+  "c13ns": [
+    { "name": "MultiTaskNoJutsu", "localeName": "一心二用之术", "desc": "<color=#FFD780FF>呜呼流·影貉缭乱</color>的不倒貉貉的行动将忽视生命值限制，能同时攻击附近的敌人并为角色恢复生命值。" },
+    {
+      "name": "EgressPrep",
+      "localeName": "理清逃跑路线",
+      "desc": "<color=#FFD780FF>呜呼流·风隐急进</color>获得如下效果：\n·点按施放时，风风轮舞踢造成的伤害提高3.3%；\n·处于长按施放后的风风轮状态下时，每0.5秒，就会使这次施展的风风轮舞踢造成的伤害提高3.3%。通过这种方式，风风轮舞踢造成的伤害至多可以提高66%。",
+      "values": [0.033, 20]
+    },
+    { "name": "EhTheBunshinCanHandleIt", "localeName": "都交给分身吧", "desc": "<color=#FFD780FF>呜呼流·影貉缭乱</color>的技能等级提高3级。\n至多提升至15级。" },
+    { "name": "SkivingNewAndImproved", "localeName": "偷懒的新方法", "desc": "早柚在场上触发扩散反应时，将恢复1.2点元素能量。\n该效果每2秒只能触发一次。", "values": [1.2, 2] },
+    { "name": "SpeedComesFirst", "localeName": "快是第一奥义", "desc": "<color=#FFD780FF>呜呼流·风隐急进</color>的技能等级提高3级。\n至多提升至15级。" },
+    {
+      "name": "SleepOClock",
+      "localeName": "呼呼大睡时间",
+      "desc": "早柚自己通过<color=#FFD780FF>呜呼流·影貉缭乱</color>召唤的不倒貉貉的攻击与回复量，受益于早柚的元素精通。早柚的每点元素精通，能产生如下效果：\n·使不倒貉貉的攻击额外造成0.2%攻击力的伤害。通过这种方式至多额外造成400%攻击力的伤害；\n·使不倒貉貉的回复量提高3点。通过这种方式，至多提高6000点回复量。",
+      "values": [0.002, 4, 3, 6000]
+    }
+  ],
+  "overviewItems": [
+    { "id": "VayudaTurquoiseGemstone", "localeName": "自在松石", "rarity": 5 },
+    { "id": "MarionetteCore", "localeName": "魔偶机心", "rarity": 4 },
+    { "id": "CrystalMarrow", "localeName": "晶化骨髓" },
+    { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3 },
+    { "id": "PhilosophiesOfLight", "localeName": "「天光」的哲学", "rarity": 4 },
+    { "id": "GildedScale", "localeName": "鎏金之鳞", "rarity": 5 }
+  ]
+}

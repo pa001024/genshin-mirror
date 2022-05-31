@@ -1,0 +1,318 @@
+{
+  "uid": 10000043,
+  "id": "sucrose",
+  "name": "Sucrose",
+  "localeName": "砂糖",
+  "desc": "對萬物充滿好奇的煉金術士，「生物煉金」學派的研究者。",
+  "baseHP": 775.02,
+  "baseATK": 14.246,
+  "baseDEF": 58.942,
+  "bodyType": 3,
+  "rarity": 4,
+  "weapon": 5,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "VayudaTurquoiseSliver", "localeName": "自在松石碎屑", "rarity": 2, "count": 1 },
+        { "id": "WindwheelAster", "localeName": "風車菊", "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "騙騙花蜜", "rarity": 1, "count": 3 }
+      ],
+      "HP": 578.98,
+      "ATK": 10.643,
+      "DEF": 44.033,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "VayudaTurquoiseFragment", "localeName": "自在松石斷片", "rarity": 3, "count": 3 },
+        { "id": "HurricaneSeed", "localeName": "颶風之種", "rarity": 4, "count": 2 },
+        { "id": "WindwheelAster", "localeName": "風車菊", "count": 10 },
+        { "id": "WhopperflowerNectar", "localeName": "騙騙花蜜", "rarity": 1, "count": 15 }
+      ],
+      "HP": 990.36,
+      "ATK": 18.205,
+      "DEF": 75.319,
+      "extra": 0.06
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "VayudaTurquoiseFragment", "localeName": "自在松石斷片", "rarity": 3, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "颶風之種", "rarity": 4, "count": 4 },
+        { "id": "WindwheelAster", "localeName": "風車菊", "count": 20 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1538.9,
+      "ATK": 28.288,
+      "DEF": 117.03,
+      "extra": 0.12
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "VayudaTurquoiseChunk", "localeName": "自在松石塊", "rarity": 4, "count": 3 },
+        { "id": "HurricaneSeed", "localeName": "颶風之種", "rarity": 4, "count": 8 },
+        { "id": "WindwheelAster", "localeName": "風車菊", "count": 30 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 18 }
+      ],
+      "HP": 1950.3,
+      "ATK": 35.85,
+      "DEF": 148.32,
+      "extra": 0.12
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "VayudaTurquoiseChunk", "localeName": "自在松石塊", "rarity": 4, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "颶風之種", "rarity": 4, "count": 12 },
+        { "id": "WindwheelAster", "localeName": "風車菊", "count": 45 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 12 }
+      ],
+      "HP": 2361.6,
+      "ATK": 43.412,
+      "DEF": 179.61,
+      "extra": 0.18
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "VayudaTurquoiseGemstone", "localeName": "自在松石", "rarity": 5, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "颶風之種", "rarity": 4, "count": 20 },
+        { "id": "WindwheelAster", "localeName": "風車菊", "count": 60 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 24 }
+      ],
+      "HP": 2773,
+      "ATK": 50.975,
+      "DEF": 210.89,
+      "extra": 0.24
+    }
+  ],
+  "ascensionType": 27,
+  "element": 1,
+  "elemSkill": {
+    "name": "AstableAnemohypostasisCreation6308",
+    "localeName": "風靈作成·陸參零捌",
+    "desc": "召喚出小型風靈，將敵人與物體牽引至風靈所在位置，擊飛範圍內的敵人，並造成<color=#80FFD7FF>風元素傷害</color>。\n\n<i>說來很不好意思，雖然術式裡誕生的元素生命迅速就消散了，但是在冒險裡真的很好用。失敗的實驗也會誕生實用技術。</i>",
+    "cd": 15,
+    "paramTpls": ["技能傷害|{param1:P}", "冷卻時間|{param2:F1}秒"],
+    "paramVals": [
+      [2.112, 15],
+      [2.2704, 15],
+      [2.4288, 15],
+      [2.64, 15],
+      [2.7984, 15],
+      [2.9568, 15],
+      [3.168, 15],
+      [3.3792, 15],
+      [3.5904, 15],
+      [3.8016, 15],
+      [4.0128, 15],
+      [4.224, 15],
+      [4.488, 15],
+      [4.752, 15],
+      [5.016, 15]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」的教導", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "騙騙花蜜", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "ForbiddenCreationIsomer75TypeII",
+    "localeName": "禁·風靈作成·柒伍同構貳型",
+    "desc": "砂糖拋出不穩定的燒瓶，生成大型風靈。\n存在期間，大型風靈會持續牽引附近的敵人與物體，擊飛附近的敵人，並造成<color=#80FFD7FF>風元素傷害</color>。\n\n<color=#FFD780FF>元素轉化</color>\n若風靈在技能持續期間接觸了<color=#80C0FFFF>水元素</color>/<color=#FF9999FF>火元素</color>/<color=#99FFFFFF>冰元素</color>/<color=#FFACFFFF>雷元素</color>，則會獲得對應元素屬性，額外造成該元素的附加傷害。\n元素轉化在技能持續期間僅會發生一次。\n\n<i>砂糖也曾經想給每一個不穩態無相之風取名字。但是其世系迅速超過了兔兔伯爵的八百九十三世。</i>",
+    "cd": 20,
+    "energyCost": 80,
+    "paramTpls": ["持續傷害|{param1:P}", "附加元素傷害|{param2:F1P}", "持續時間|{param3:F1}秒", "冷卻時間|{param4:F1}秒", "元素能量|{param5:I}"],
+    "paramVals": [
+      [1.48, 0.44, 6, 20, 80],
+      [1.591, 0.473, 6, 20, 80],
+      [1.702, 0.506, 6, 20, 80],
+      [1.85, 0.55, 6, 20, 80],
+      [1.961, 0.583, 6, 20, 80],
+      [2.072, 0.616, 6, 20, 80],
+      [2.22, 0.66, 6, 20, 80],
+      [2.368, 0.704, 6, 20, 80],
+      [2.516, 0.748, 6, 20, 80],
+      [2.664, 0.792, 6, 20, 80],
+      [2.812, 0.836, 6, 20, 80],
+      [2.96, 0.88, 6, 20, 80],
+      [3.145, 0.935, 6, 20, 80],
+      [3.33, 0.99, 6, 20, 80],
+      [3.515, 1.045, 6, 20, 80]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」的教導", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "騙騙花蜜", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackWindSpiritCreation",
+    "localeName": "普通攻擊·簡式風靈作成",
+    "desc": "<color=#FFD780FF>普通攻擊</color>\n進行至多四段的風靈攻擊，造成<color=#80FFD7FF>風元素傷害</color>。\n\n<color=#FFD780FF>重擊</color>\n消耗一定體力，短暫詠唱後，造成<color=#80FFD7FF>風元素範圍傷害</color>。\n\n<color=#FFD780FF>下落攻擊</color>\n凝聚風靈的力量，從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成<color=#80FFD7FF>風元素範圍傷害</color>。",
+    "cd": 0,
+    "paramTpls": ["一段傷害|{param1:F1P}", "二段傷害|{param2:F1P}", "三段傷害|{param3:F1P}", "四段傷害|{param4:F1P}", "重擊傷害|{param5:P}", "重擊體力消耗|{param6:F1}點", "下墜期間傷害|{param7:F1P}", "低空/高空墜地衝擊傷害|{param8:P}/{param9:P}"],
+    "paramVals": [
+      [0.33464, 0.30616, 0.38448, 0.47918, 1.2016, 50, 0.56829, 1.1363, 1.4193],
+      [0.35974, 0.32912, 0.41332, 0.51511, 1.2917, 50, 0.61454, 1.2288, 1.5349],
+      [0.38484, 0.35208, 0.44215, 0.55105, 1.3818, 50, 0.6608, 1.3213, 1.6504],
+      [0.4183, 0.3827, 0.4806, 0.59897, 1.502, 50, 0.72688, 1.4535, 1.8154],
+      [0.4434, 0.40566, 0.50944, 0.63491, 1.5921, 50, 0.77314, 1.5459, 1.931],
+      [0.4685, 0.42862, 0.53827, 0.67085, 1.6822, 50, 0.826, 1.6516, 2.063],
+      [0.50196, 0.45924, 0.57672, 0.71876, 1.8024, 50, 0.89869, 1.797, 2.2445],
+      [0.53542, 0.48986, 0.61517, 0.76668, 1.9226, 50, 0.97138, 1.9423, 2.4261],
+      [0.56889, 0.52047, 0.65362, 0.8146, 2.0427, 50, 1.0441, 2.0877, 2.6076],
+      [0.60235, 0.55109, 0.69206, 0.86252, 2.1629, 50, 1.1234, 2.2462, 2.8057],
+      [0.63582, 0.5817, 0.73051, 0.91043, 2.283, 50, 1.2027, 2.4048, 3.0037],
+      [0.66928, 0.61232, 0.76896, 0.95835, 2.4032, 50, 1.282, 2.5634, 3.2018],
+      [0.71111, 0.65059, 0.81702, 1.0182, 2.5534, 50, 1.3612, 2.7219, 3.3998],
+      [0.75294, 0.68886, 0.86508, 1.0781, 2.7036, 50, 1.4405, 2.8805, 3.5979],
+      [0.79477, 0.72713, 0.91314, 1.138, 2.8538, 50, 1.5198, 3.039, 3.7959]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」的教導", "rarity": 2, "count": 3 },
+        { "id": "WhopperflowerNectar", "localeName": "騙騙花蜜", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 2 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 4 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 6 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 9 },
+        { "id": "ShimmeringNectar", "localeName": "微光花蜜", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 4 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 6 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 12 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 16 },
+        { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "CatalystConversion", "localeName": "觸媒置換術", "desc": "砂糖觸發擴散反應時，使隊伍中所有對應元素類型的（不包括砂糖自身）角色元素精通提升50，持續8秒。", "unlock": 1, "values": [50, 8] },
+    { "name": "MollisFavonius", "localeName": "小小的慧風", "desc": "<color=#FFD780FF>風靈作成·陸參零捌</color>或<color=#FFD780FF>禁·風靈作成·柒伍同構貳型</color>命中敵人時，基於砂糖元素精通的20%，為隊伍中所有角色（不包括砂糖自身）提供元素精通加成，持續8秒。", "unlock": 4, "values": [0.2, 8] },
+    { "name": "AstableInvention", "localeName": "不穩定發現", "desc": "合成角色與武器培養素材時，有10%的機率獲得兩倍產出。" }
+  ],
+  "c13ns": [
+    { "name": "ClusteredVacuumField", "localeName": "堆疊真空域", "desc": "<color=#FFD780FF>風靈作成·陸參零捌</color>的可使用次數增加一次。" },
+    { "name": "BethUnboundForm", "localeName": "不羈型貝特", "desc": "<color=#FFD780FF>禁·風靈作成·柒伍同構貳型</color>的技能持續時間延長2秒。", "values": [2] },
+    { "name": "FlawlessAlchemistress", "localeName": "零失誤少女", "desc": "<color=#FFD780FF>風靈作成·陸參零捌</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "Alchemania", "localeName": "煉金的偏執", "desc": "砂糖的普通攻擊或者重擊累計命中敵人7次，<color=#FFD780FF>風靈作成·陸參零捌</color>的冷卻時間就會隨機減少1-7秒。\n每0.1秒至多計數一次。" },
+    { "name": "CautionStandardFlask", "localeName": "認真普通瓶", "desc": "<color=#FFD780FF>禁·風靈作成·柒伍同構貳型</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "ChaoticEntropy", "localeName": "混元熵增論", "desc": "<color=#FFD780FF>禁·風靈作成·柒伍同構貳型</color>如果發生了元素轉化，則使隊伍中所有角色在技能持續時間內獲得20%的對應元素傷害加成。", "values": [0.2] }
+  ],
+  "overviewItems": [
+    { "id": "VayudaTurquoiseGemstone", "localeName": "自在松石", "rarity": 5 },
+    { "id": "HurricaneSeed", "localeName": "颶風之種", "rarity": 4 },
+    { "id": "WindwheelAster", "localeName": "風車菊" },
+    { "id": "EnergyNectar", "localeName": "原素花蜜", "rarity": 3 },
+    { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4 },
+    { "id": "SpiritLocketOfBoreas", "localeName": "北風的魂匣", "rarity": 5 }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "uid": 10000049,
+  "id": "yoimiya",
+  "name": "Yoimiya",
+  "localeName": "宵宮",
+  "desc": "「長野原花火屋」の店主。才ある花火職人で、人々の願いを花火へと託す。「夏祭りの女王」と呼ばれている。",
+  "baseHP": 791.26,
+  "baseATK": 25.137,
+  "baseDEF": 47.864,
+  "bodyType": 3,
+  "rarity": 5,
+  "weapon": 2,
+  "region": 3,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "AgnidusAgateSliver", "localeName": "炎願のアゲート·砕屑", "rarity": 2, "count": 1 },
+        { "id": "NakuWeed", "localeName": "鳴草", "count": 3 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 3 }
+      ],
+      "HP": 678.43,
+      "ATK": 21.551,
+      "DEF": 41.04,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "AgnidusAgateFragment", "localeName": "炎願のアゲート·欠片", "rarity": 3, "count": 3 },
+        { "id": "SmolderingPearl", "localeName": "陰燃の珠", "rarity": 4, "count": 2 },
+        { "id": "NakuWeed", "localeName": "鳴草", "count": 10 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1160.5,
+      "ATK": 36.864,
+      "DEF": 70.2,
+      "extra": 0.048
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "AgnidusAgateFragment", "localeName": "炎願のアゲート·欠片", "rarity": 3, "count": 6 },
+        { "id": "SmolderingPearl", "localeName": "陰燃の珠", "rarity": 4, "count": 4 },
+        { "id": "NakuWeed", "localeName": "鳴草", "count": 20 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1803.2,
+      "ATK": 57.281,
+      "DEF": 109.08,
+      "extra": 0.096
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "AgnidusAgateChunk", "localeName": "炎願のアゲート·塊", "rarity": 4, "count": 3 },
+        { "id": "SmolderingPearl", "localeName": "陰燃の珠", "rarity": 4, "count": 8 },
+        { "id": "NakuWeed", "localeName": "鳴草", "count": 30 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2285.2,
+      "ATK": 72.593,
+      "DEF": 138.24,
+      "extra": 0.096
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "AgnidusAgateChunk", "localeName": "炎願のアゲート·塊", "rarity": 4, "count": 6 },
+        { "id": "SmolderingPearl", "localeName": "陰燃の珠", "rarity": 4, "count": 12 },
+        { "id": "NakuWeed", "localeName": "鳴草", "count": 45 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 12 }
+      ],
+      "HP": 2767.3,
+      "ATK": 87.906,
+      "DEF": 167.4,
+      "extra": 0.144
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "AgnidusAgateGemstone", "localeName": "炎願のアゲート", "rarity": 5, "count": 6 },
+        { "id": "SmolderingPearl", "localeName": "陰燃の珠", "rarity": 4, "count": 20 },
+        { "id": "NakuWeed", "localeName": "鳴草", "count": 60 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 24 }
+      ],
+      "HP": 3249.3,
+      "ATK": 103.22,
+      "DEF": 196.56,
+      "extra": 0.192
+    }
+  ],
+  "ascensionType": 12,
+  "element": 6,
+  "elemSkill": {
+    "name": "NiwabiFireDance",
+    "localeName": "焔硝の庭火舞い",
+    "desc": "線香花火を振り、花火の焔硝を宵宮が纏う。\n\n<color=#FFD780FF>庭火の焔硝</color>\n継続時間内、宵宮の通常攻撃で発射した矢は熾焔の矢となる。<color=#FF9999FF>炎元素ダメージ</color>に変化し、通常攻撃のダメージがアップする。継続時間中、「通常攻撃·打ち上げ花火」の2段チャージで焔硝の矢を生成できなくなる。\n\nこの効果は宵宮が退場する時に解除される。\n\n<i>「庭火」は宵宮が独自に開発した線香花火。事前の準備や練習なしに楽しむことができるため、非常に人気がある。天領奉行は城内で庭火をやることを禁止したが、この小さな火花は今も夜によく灯る。高いところから見下ろすと、輝く星空の様に美しい。</i>",
+    "cd": 18,
+    "paramTpls": ["熾焔の矢ダメージ|{param4:F1P}通常攻撃ダメージ", "継続時間|{param2:F1}秒", "クールタイム|{param3:F1}秒"],
+    "paramVals": [
+      [0.37909, 10, 18, 1.3791],
+      [0.40179, 10, 18, 1.4018],
+      [0.42449, 10, 18, 1.4245],
+      [0.454, 10, 18, 1.454],
+      [0.4767, 10, 18, 1.4767],
+      [0.4994, 10, 18, 1.4994],
+      [0.52891, 10, 18, 1.5289],
+      [0.55842, 10, 18, 1.5584],
+      [0.58793, 10, 18, 1.5879],
+      [0.61744, 10, 18, 1.6174],
+      [0.64695, 10, 18, 1.647],
+      [0.67646, 10, 18, 1.6765],
+      [0.70597, 10, 18, 1.706],
+      [0.73548, 10, 18, 1.7355],
+      [0.76499, 10, 18, 1.765]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfTransience", "localeName": "「浮世」の教え", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "「浮世」の導き", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "「浮世」の導き", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "「浮世」の導き", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "「浮世」の導き", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "「浮世」の哲学", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 4 },
+        { "id": "DragonLordsCrown", "localeName": "龍王の冠", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "「浮世」の哲学", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 6 },
+        { "id": "DragonLordsCrown", "localeName": "龍王の冠", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "「浮世」の哲学", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 9 },
+        { "id": "DragonLordsCrown", "localeName": "龍王の冠", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "「浮世」の哲学", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 12 },
+        { "id": "DragonLordsCrown", "localeName": "龍王の冠", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "RyuukinSaxifrage",
+    "localeName": "琉金の雲間草",
+    "desc": "宵宮が独自で生み出した花火「琉金の雲間草」と共に空へと舞い上がり、前方へ驚きに満ちた火の矢を発射する。<color=#FF9999FF>炎元素範囲ダメージ</color>を与え、命中した敵の中の1体に「琉金の炎」を付着させる。\n\n<color=#FFD780FF>琉金の炎</color>\nチーム全員（宵宮自身を除く）の通常攻撃、重撃、落下攻撃、元素スキル、元素爆発が琉金の炎状態の敵に命中すると、爆発が起き<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。\n琉金の炎状態の敵が継続時間中に倒れると、琉金の炎は近くの敵1体に移り、継続時間も継承される。\n\n琉金の炎による爆発は2秒毎に1回のみ発生可能。宵宮が戦闘不能になると、自身が発動した琉金の炎の効果はクリアされる。\n\n<i>花火は人が創り出した星の光、空に向かって進む彗星である。たとえ一瞬でも、その鮮やかな光は人々の心の中に残り続ける。</i>",
+    "cd": 15,
+    "energyCost": 60,
+    "paramTpls": ["スキルダメージ|{param1:P}", "琉金の炎爆発ダメージ|{param2:P}", "継続時間|{param4:F1}秒", "クールタイム|{param5:F1}秒", "元素エネルギー|{param6:I}"],
+    "paramVals": [
+      [1.272, 1.22, 2, 10, 15, 60],
+      [1.3674, 1.3115, 2, 10, 15, 60],
+      [1.4628, 1.403, 2, 10, 15, 60],
+      [1.59, 1.525, 2, 10, 15, 60],
+      [1.6854, 1.6165, 2, 10, 15, 60],
+      [1.7808, 1.708, 2, 10, 15, 60],
+      [1.908, 1.83, 2, 10, 15, 60],
+      [2.0352, 1.952, 2, 10, 15, 60],
+      [2.1624, 2.074, 2, 10, 15, 60],
+      [2.2896, 2.196, 2, 10, 15, 60],
+      [2.4168, 2.318, 2, 10, 15, 60],
+      [2.544, 2.44, 2, 10, 15, 60],
+      [2.703, 2.5925, 2, 10, 15, 60],
+      [2.862, 2.745, 2, 10, 15, 60],
+      [3.021, 2.8975, 2, 10, 15, 60]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfTransience", "localeName": "「浮世」の教え", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "「浮世」の導き", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "「浮世」の導き", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "「浮世」の導き", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "「浮世」の導き", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "「浮世」の哲学", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 4 },
+        { "id": "DragonLordsCrown", "localeName": "龍王の冠", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "「浮世」の哲学", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 6 },
+        { "id": "DragonLordsCrown", "localeName": "龍王の冠", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "「浮世」の哲学", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 9 },
+        { "id": "DragonLordsCrown", "localeName": "龍王の冠", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "「浮世」の哲学", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 12 },
+        { "id": "DragonLordsCrown", "localeName": "龍王の冠", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackFireworkFlareUp",
+    "localeName": "通常攻撃·打ち上げ花火",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n最大5段の連続射撃を行う。\n\n<color=#FFD780FF>重撃</color>\nダメージがより高く、より精確な<color=#FFD780FF>狙い撃ち</color>を発動する。\n照準時、炎が矢先に集まり、攻撃と共に発射される。チャージの時間により、異なる効果を発動する。\n·1段チャージ：烈火が集まった矢を放ち、<color=#FF9999FF>炎元素ダメージ</color>を与える。\n·2段チャージ：チャージの時間により、最大3枚の焔硝の矢を生成し、発射と共に放たれる。焔硝の矢は近くの敵を追跡し、命中時に<color=#FF9999FF>炎元素ダメージ</color>を与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。",
+    "cd": 0,
+    "paramTpls": [
+      "1段ダメージ|{param1:F1P}×2",
+      "2段ダメージ|{param2:F1P}",
+      "3段ダメージ|{param3:F1P}",
+      "4段ダメージ|{param4:F1P}×2",
+      "5段ダメージ|{param5:F1P}",
+      "狙い撃ち|{param6:F1P}",
+      "フルチャージ狙い撃ち|{param7:P}",
+      "焔硝の矢ダメージ|{param8:P}",
+      "落下期間のダメージ|{param9:F1P}",
+      "低空/高空落下攻撃ダメージ|{param10:P}/{param11:P}"
+    ],
+    "paramVals": [
+      [0.3564, 0.68376, 0.88889, 0.4642, 1.0586, 0.4386, 1.24, 0.164, 0.56829, 1.1363, 1.4193],
+      [0.3807, 0.73038, 0.94949, 0.49585, 1.1308, 0.4743, 1.333, 0.1763, 0.61454, 1.2288, 1.5349],
+      [0.405, 0.777, 1.0101, 0.5275, 1.203, 0.51, 1.426, 0.1886, 0.6608, 1.3213, 1.6504],
+      [0.4374, 0.83916, 1.0909, 0.5697, 1.2992, 0.561, 1.55, 0.205, 0.72688, 1.4535, 1.8154],
+      [0.4617, 0.88578, 1.1515, 0.60135, 1.3714, 0.5967, 1.643, 0.2173, 0.77314, 1.5459, 1.931],
+      [0.49005, 0.94017, 1.2222, 0.63828, 1.4556, 0.6375, 1.736, 0.2296, 0.826, 1.6516, 2.063],
+      [0.5265, 1.0101, 1.3131, 0.68575, 1.5639, 0.6936, 1.86, 0.246, 0.89869, 1.797, 2.2445],
+      [0.56295, 1.08, 1.404, 0.73322, 1.6722, 0.7497, 1.984, 0.2624, 0.97138, 1.9423, 2.4261],
+      [0.5994, 1.15, 1.4949, 0.7807, 1.7804, 0.8058, 2.108, 0.2788, 1.0441, 2.0877, 2.6076],
+      [0.63585, 1.2199, 1.5859, 0.82818, 1.8887, 0.867, 2.232, 0.2952, 1.1234, 2.2462, 2.8057],
+      [0.6723, 1.2898, 1.6768, 0.87565, 1.997, 0.9282, 2.356, 0.3116, 1.2027, 2.4048, 3.0037],
+      [0.70875, 1.3598, 1.7677, 0.92313, 2.1052, 0.9894, 2.48, 0.328, 1.282, 2.5634, 3.2018],
+      [0.7452, 1.4297, 1.8586, 0.9706, 2.2135, 1.0506, 2.635, 0.3485, 1.3612, 2.7219, 3.3998],
+      [0.78165, 1.4996, 1.9495, 1.0181, 2.3218, 1.1118, 2.79, 0.369, 1.4405, 2.8805, 3.5979],
+      [0.8181, 1.5695, 2.0404, 1.0655, 2.4301, 1.173, 2.945, 0.3895, 1.5198, 3.039, 3.7959]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfTransience", "localeName": "「浮世」の教え", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "「浮世」の導き", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "「浮世」の導き", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "「浮世」の導き", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToTransience", "localeName": "「浮世」の導き", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "「浮世」の哲学", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 4 },
+        { "id": "DragonLordsCrown", "localeName": "龍王の冠", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "「浮世」の哲学", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 6 },
+        { "id": "DragonLordsCrown", "localeName": "龍王の冠", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "「浮世」の哲学", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 9 },
+        { "id": "DragonLordsCrown", "localeName": "龍王の冠", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfTransience", "localeName": "「浮世」の哲学", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 12 },
+        { "id": "DragonLordsCrown", "localeName": "龍王の冠", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "TricksOfTheTroubleMaker", "localeName": "袖火百景図", "desc": "<color=#FFD780FF>焔硝の庭火舞い</color>の効果継続時間中、宵宮の通常攻撃が命中すると、<color=#FF9999FF>炎元素ダメージ</color>+2%、継続時間3秒、最大10重まで。", "unlock": 1, "values": [0.02, 3] },
+    {
+      "name": "SummerNightsDawn",
+      "localeName": "炎昼の風物詩",
+      "desc": "<color=#FFD780FF>琉金の雲間草</color>を発動した後の15秒内、周囲のチーム全員（宵宮自身を除く）の攻撃力+10%。また、宵宮が<color=#FFD780FF>琉金の雲間草</color>を発動時に固有天賦「袖火百景図」の重ねた数をもとに、1重ごとにさらに攻撃力を1%アップする。",
+      "unlock": 4,
+      "values": [0.1, 0.01, 15]
+    },
+    { "name": "BlazingMatch", "localeName": "炎色の配合法", "desc": "建材、置物、景観などの調度品を製作する時、100%の確率で一部の材料が返還される。" }
+  ],
+  "c13ns": [
+    { "name": "AgateRyuukin", "localeName": "紅玉の琉金", "desc": "<color=#FFD780FF>琉金の雲間草</color>の琉金の炎の継続時間+4秒。\nまた、宵宮自身が発動した琉金の炎の影響を受けた敵が継続時間内に倒されると、宵宮の攻撃力+20%、継続時間20秒。", "values": [4, 0.2, 20] },
+    { "name": "AProcessionOfBonfires", "localeName": "万燈の火", "desc": "宵宮の<color=#FF9999FF>炎元素ダメージ</color>で会心が発生した後の6秒間、宵宮の<color=#FF9999FF>炎元素ダメージ</color>+25%。\n宵宮が待機している場合にも効果を発動できる。", "values": [0.25, 6] },
+    { "name": "TrickstersFlare", "localeName": "鼠花火の手品", "desc": "<color=#FFD780FF>焔硝の庭火舞い</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "PyrotechnicProfessional", "localeName": "花火職人の心得", "desc": "宵宮自身が発動した琉金の炎が爆発を起こすと、<color=#FFD780FF>焔硝の庭火舞い</color>のクールタイム-1.2秒。", "values": [1.2] },
+    { "name": "ASummerFestivalsEve", "localeName": "真夏の宵祭り錦絵", "desc": "<color=#FFD780FF>琉金の雲間草</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "NaganoharaMeteorSwarm", "localeName": "長野原龍勢流星群", "desc": "<color=#FFD780FF>焔硝の庭火舞い</color>の継続時間中、宵宮自身の通常攻撃は50%の確率で熾焔の矢を1本追加で発射し、本来の60%分のダメージを与える。このダメージは通常攻撃ダメージとみなされる。", "values": [0.5, 0.6] }
+  ],
+  "overviewItems": [
+    { "id": "AgnidusAgateGemstone", "localeName": "炎願のアゲート", "rarity": 5 },
+    { "id": "SmolderingPearl", "localeName": "陰燃の珠", "rarity": 4 },
+    { "id": "NakuWeed", "localeName": "鳴草" },
+    { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3 },
+    { "id": "PhilosophiesOfTransience", "localeName": "「浮世」の哲学", "rarity": 4 },
+    { "id": "DragonLordsCrown", "localeName": "龍王の冠", "rarity": 5 }
+  ]
+}

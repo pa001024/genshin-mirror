@@ -1,0 +1,351 @@
+{
+  "uid": 10000033,
+  "id": "tartaglia",
+  "name": "Tartaglia",
+  "localeName": "達達利亞",
+  "desc": "愚人眾執行官第十一位，「公子」，其戰績威名遠揚。",
+  "baseHP": 1020.1,
+  "baseATK": 23.461,
+  "baseDEF": 63.42,
+  "bodyType": 1,
+  "rarity": 5,
+  "weapon": 2,
+  "region": 7,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "VarunadaLazuriteSliver", "localeName": "滌淨青金碎屑", "rarity": 2, "count": 1 },
+        { "id": "Starconch", "localeName": "星螺", "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽記", "rarity": 1, "count": 3 }
+      ],
+      "HP": 874.6,
+      "ATK": 20.114,
+      "DEF": 54.378,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "VarunadaLazuriteFragment", "localeName": "滌淨青金斷片", "rarity": 3, "count": 3 },
+        { "id": "CleansingHeart", "localeName": "淨水之心", "rarity": 4, "count": 2 },
+        { "id": "Starconch", "localeName": "星螺", "count": 10 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽記", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1496,
+      "ATK": 34.406,
+      "DEF": 93.015,
+      "extra": 0.072
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "VarunadaLazuriteFragment", "localeName": "滌淨青金斷片", "rarity": 3, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "淨水之心", "rarity": 4, "count": 4 },
+        { "id": "Starconch", "localeName": "星螺", "count": 20 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 12 }
+      ],
+      "HP": 2324.6,
+      "ATK": 53.462,
+      "DEF": 144.53,
+      "extra": 0.144
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "VarunadaLazuriteChunk", "localeName": "滌淨青金塊", "rarity": 4, "count": 3 },
+        { "id": "CleansingHeart", "localeName": "淨水之心", "rarity": 4, "count": 8 },
+        { "id": "Starconch", "localeName": "星螺", "count": 30 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2946,
+      "ATK": 67.754,
+      "DEF": 183.17,
+      "extra": 0.144
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "VarunadaLazuriteChunk", "localeName": "滌淨青金塊", "rarity": 4, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "淨水之心", "rarity": 4, "count": 12 },
+        { "id": "Starconch", "localeName": "星螺", "count": 45 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 12 }
+      ],
+      "HP": 3567.5,
+      "ATK": 82.046,
+      "DEF": 221.8,
+      "extra": 0.216
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "VarunadaLazuriteGemstone", "localeName": "滌淨青金", "rarity": 5, "count": 6 },
+        { "id": "CleansingHeart", "localeName": "淨水之心", "rarity": 4, "count": 20 },
+        { "id": "Starconch", "localeName": "星螺", "count": 60 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 24 }
+      ],
+      "HP": 4188.9,
+      "ATK": 96.337,
+      "DEF": 260.44,
+      "extra": 0.288
+    }
+  ],
+  "ascensionType": 21,
+  "element": 5,
+  "elemSkill": {
+    "name": "FoulLegacyRagingTide",
+    "localeName": "魔王武裝·狂瀾",
+    "desc": "解放純水構成的武裝，對周圍的敵人造成<color=#80C0FFFF>水元素傷害</color>，並進入近戰狀態。\n在此狀態下，達達利亞的普通攻擊與重擊將轉為無法被附魔覆蓋的<color=#80C0FFFF>水元素傷害</color>，並發生以下變化：\n\n<color=#FFD780FF>普通攻擊</color>\n進行至多六段的連續<color=#80C0FFFF>水元素</color>斬擊。\n\n<color=#FFD780FF>重擊</color>\n消耗體力，瞬間向前方揮出兩劍，造成<color=#80C0FFFF>水元素傷害</color>。\n\n<color=#FFD780FF>斷流·斬</color>\n近戰攻擊命中處於斷流影響下的敵人時，將引發一次斷流·斬，造成<color=#80C0FFFF>水元素範圍傷害</color>。斷流·斬造成的傷害視為元素戰技傷害，每1.5秒至多觸發一次。\n\n30秒後或再次施放時效果將會解除，回到遠程狀態，並使技能進入冷卻。近戰狀態下持續的時間越長，冷卻時間越長。\n若持續30秒後自動回到遠程狀態，技能將進入更長的冷卻週期。\n\n<i>為了克服自己不擅使弓的弱點，他才選擇弓作為自己的武器。但在真正的戰鬥中，不得不拿出真正的實力…</i>",
+    "cd": 6,
+    "paramTpls": [
+      "狀態激發傷害|{param1:P}",
+      "一段傷害|{param2:F1P}",
+      "二段傷害|{param3:F1P}",
+      "三段傷害|{param4:F1P}",
+      "四段傷害|{param5:F1P}",
+      "五段傷害|{param6:F1P}",
+      "六段傷害|{param7:F1P}+{param8:F1P}",
+      "重擊傷害|{param9:F1P}+{param10:F1P}",
+      "重擊體力消耗|{param12:F1}點",
+      "斷流·斬 傷害|{param11:P}",
+      "最大持續時間|{param13:F1}秒",
+      "冷卻時間|{param14:F1}到{param15:F1}秒",
+      "持續時間耗盡冷卻時間|{param16:F1}秒"
+    ],
+    "paramVals": [
+      [0.72, 0.38872, 0.41624, 0.5633, 0.59942, 0.55298, 0.35432, 0.37668, 0.602, 0.71982, 0.602, 20, 30, 6, 36, 45],
+      [0.774, 0.42036, 0.45012, 0.60915, 0.64821, 0.59799, 0.38316, 0.40734, 0.651, 0.77841, 0.651, 20, 30, 6, 36, 45],
+      [0.828, 0.452, 0.484, 0.655, 0.697, 0.643, 0.412, 0.438, 0.7, 0.837, 0.7, 20, 30, 6, 36, 45],
+      [0.9, 0.4972, 0.5324, 0.7205, 0.7667, 0.7073, 0.4532, 0.4818, 0.77, 0.9207, 0.77, 20, 30, 6, 36, 45],
+      [0.954, 0.52884, 0.56628, 0.76635, 0.81549, 0.75231, 0.48204, 0.51246, 0.819, 0.97929, 0.819, 20, 30, 6, 36, 45],
+      [1.008, 0.565, 0.605, 0.81875, 0.87125, 0.80375, 0.515, 0.5475, 0.875, 1.0462, 0.875, 20, 30, 6, 36, 45],
+      [1.08, 0.61472, 0.65824, 0.8908, 0.94792, 0.87448, 0.56032, 0.59568, 0.952, 1.1383, 0.952, 20, 30, 6, 36, 45],
+      [1.152, 0.66444, 0.71148, 0.96285, 1.0246, 0.94521, 0.60564, 0.64386, 1.029, 1.2304, 1.029, 20, 30, 6, 36, 45],
+      [1.224, 0.71416, 0.76472, 1.0349, 1.1013, 1.0159, 0.65096, 0.69204, 1.106, 1.3225, 1.106, 20, 30, 6, 36, 45],
+      [1.296, 0.7684, 0.8228, 1.1135, 1.1849, 1.0931, 0.7004, 0.7446, 1.19, 1.4229, 1.19, 20, 30, 6, 36, 45],
+      [1.368, 0.82264, 0.88088, 1.1921, 1.2685, 1.1703, 0.74984, 0.79716, 1.274, 1.5233, 1.274, 20, 30, 6, 36, 45],
+      [1.44, 0.87688, 0.93896, 1.2707, 1.3522, 1.2474, 0.79928, 0.84972, 1.358, 1.6238, 1.358, 20, 30, 6, 36, 45],
+      [1.53, 0.93112, 0.99704, 1.3493, 1.4358, 1.3246, 0.84872, 0.90228, 1.442, 1.7242, 1.442, 20, 30, 6, 36, 45],
+      [1.62, 0.98536, 1.0551, 1.4279, 1.5195, 1.4017, 0.89816, 0.95484, 1.526, 1.8247, 1.526, 20, 30, 6, 36, 45],
+      [1.71, 1.0396, 1.1132, 1.5065, 1.6031, 1.4789, 0.9476, 1.0074, 1.61, 1.9251, 1.61, 20, 30, 6, 36, 45]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」的教導", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽記", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 4 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·殘片", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 6 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·殘片", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 9 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·殘片", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 12 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·殘片", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "HavocObliteration",
+    "localeName": "極惡技·盡滅閃",
+    "desc": "依據達達利亞當下所處的狀態，進行不同的攻擊：\n\n<color=#FFD780FF>遠程狀態·魔彈一閃</color>\n向前方快速射出一發飽含水元素的魔箭，造成<color=#80C0FFFF>水元素範圍傷害</color>，並施加斷流效果。\n施放後，歸還部分元素能量。\n\n<color=#FFD780FF>近戰狀態·盡滅水光</color>\n進行一次大範圍斬擊，對附近所有敵人造成大量<color=#80C0FFFF>水元素傷害</color>，並能引發斷流·爆。\n\n<color=#FFD780FF>斷流·爆</color>\n盡滅水光命中處於斷流狀態下的敵人時，會消耗斷流效果並引發水爆，造成<color=#80C0FFFF>水元素範圍傷害</color>。斷流·爆造成的傷害視為元素爆發傷害。\n\n<i>湍流的水，在他的雪國故土並不常見。或許能將流水握在手中，正是因為明白流水的珍貴吧。</i>",
+    "cd": 15,
+    "energyCost": 60,
+    "paramTpls": ["技能傷害·近戰|{param1:P}", "技能傷害·遠程|{param3:P}", "斷流·爆 傷害|{param2:P}", "技能歸還元素能量（遠程）|{param4:I}", "冷卻時間|{param5:F1}秒", "元素能量|{param6:I}"],
+    "paramVals": [
+      [4.64, 1.2, 3.784, 20, 15, 60],
+      [4.988, 1.29, 4.0678, 20, 15, 60],
+      [5.336, 1.38, 4.3516, 20, 15, 60],
+      [5.8, 1.5, 4.73, 20, 15, 60],
+      [6.148, 1.59, 5.0138, 20, 15, 60],
+      [6.496, 1.68, 5.2976, 20, 15, 60],
+      [6.96, 1.8, 5.676, 20, 15, 60],
+      [7.424, 1.92, 6.0544, 20, 15, 60],
+      [7.888, 2.04, 6.4328, 20, 15, 60],
+      [8.352, 2.16, 6.8112, 20, 15, 60],
+      [8.816, 2.28, 7.1896, 20, 15, 60],
+      [9.28, 2.4, 7.568, 20, 15, 60],
+      [9.86, 2.55, 8.041, 20, 15, 60],
+      [10.44, 2.7, 8.514, 20, 15, 60],
+      [11.02, 2.85, 8.987, 20, 15, 60]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」的教導", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽記", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 4 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·殘片", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 6 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·殘片", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 9 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·殘片", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 12 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·殘片", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackCuttingTorrent",
+    "localeName": "普通攻擊·斷雨",
+    "desc": "<color=#FFD780FF>普通攻擊</color>\n進行至多六段的連續弓箭射擊。\n\n<color=#FFD780FF>重擊</color>\n進行傷害更高、更為精準的<color=#FFD780FF>瞄準射擊</color>。\n瞄準時，水元素之力會在箭矢上持續匯聚。聚滿了激流的箭矢會在命中敵人時造成<color=#80C0FFFF>水元素傷害</color>，並施加斷流效果。\n\n<color=#FFD780FF>斷流</color>\n處於斷流影響下的敵人受到達達利亞的各種攻擊時，將產生<color=#80C0FFFF>水元素範圍傷害</color>效果。這些效果造成的傷害視為普通攻擊傷害。\n·斷流·閃：滿蓄力瞄準射擊命中處於斷流影響下的敵人時，會引發連續範圍傷害。斷流·閃每0.7秒至多觸發一次。\n·斷流·破：擊敗處於斷流影響下的敵人時會引發水之綻放，對附近的敵人施加斷流效果。\n\n<color=#FFD780FF>下落攻擊</color>\n從空中射出箭雨，並迅速下墜衝擊地面，在落地時造成範圍傷害。\n處於魔王武裝·狂瀾的近戰狀態下時，無法施展下落攻擊。",
+    "cd": 0,
+    "paramTpls": [
+      "一段傷害|{param1:F1P}",
+      "二段傷害|{param2:F1P}",
+      "三段傷害|{param3:F1P}",
+      "四段傷害|{param4:F1P}",
+      "五段傷害|{param5:F1P}",
+      "六段傷害|{param6:F1P}",
+      "瞄準射擊|{param7:F1P}",
+      "滿蓄力瞄準射擊|{param8:P}",
+      "斷流·閃 傷害|{param9:F1P}*3",
+      "斷流·破 傷害|{param10:F1P}",
+      "斷流持續時間|{param14:F1}",
+      "下墜期間傷害|{param11:F1P}",
+      "低空/高空墜地衝擊傷害|{param12:P}/{param13:P}"
+    ],
+    "paramVals": [
+      [0.4128, 0.46268, 0.55384, 0.57018, 0.60888, 0.72756, 0.4386, 1.24, 0.124, 0.62, 0.63932, 1.2784, 1.5968, 10],
+      [0.4464, 0.50034, 0.59892, 0.61659, 0.65844, 0.78678, 0.4743, 1.333, 0.1333, 0.6665, 0.69136, 1.3824, 1.7267, 10],
+      [0.48, 0.538, 0.644, 0.663, 0.708, 0.846, 0.51, 1.426, 0.1426, 0.713, 0.7434, 1.4865, 1.8567, 10],
+      [0.528, 0.5918, 0.7084, 0.7293, 0.7788, 0.9306, 0.561, 1.55, 0.155, 0.775, 0.81774, 1.6351, 2.0424, 10],
+      [0.5616, 0.62946, 0.75348, 0.77571, 0.82836, 0.98982, 0.5967, 1.643, 0.1643, 0.8215, 0.86978, 1.7392, 2.1723, 10],
+      [0.6, 0.6725, 0.805, 0.82875, 0.885, 1.0575, 0.6375, 1.736, 0.1736, 0.868, 0.92925, 1.8581, 2.3209, 10],
+      [0.6528, 0.73168, 0.87584, 0.90168, 0.96288, 1.1506, 0.6936, 1.86, 0.186, 0.93, 1.011, 2.0216, 2.5251, 10],
+      [0.7056, 0.79086, 0.94668, 0.97461, 1.0408, 1.2436, 0.7497, 1.984, 0.1984, 0.992, 1.0928, 2.1851, 2.7293, 10],
+      [0.7584, 0.85004, 1.0175, 1.0475, 1.1186, 1.3367, 0.8058, 2.108, 0.2108, 1.054, 1.1746, 2.3486, 2.9336, 10],
+      [0.816, 0.9146, 1.0948, 1.1271, 1.2036, 1.4382, 0.867, 2.232, 0.2232, 1.116, 1.2638, 2.527, 3.1564, 10],
+      [0.8736, 0.97916, 1.1721, 1.2067, 1.2886, 1.5397, 0.9282, 2.356, 0.2356, 1.178, 1.353, 2.7054, 3.3792, 10],
+      [0.9312, 1.0437, 1.2494, 1.2862, 1.3735, 1.6412, 0.9894, 2.48, 0.248, 1.24, 1.4422, 2.8838, 3.602, 10],
+      [0.9888, 1.1083, 1.3266, 1.3658, 1.4585, 1.7428, 1.0506, 2.635, 0.2635, 1.3175, 1.5314, 3.0622, 3.8248, 10],
+      [1.0464, 1.1728, 1.4039, 1.4453, 1.5434, 1.8443, 1.1118, 2.79, 0.279, 1.395, 1.6206, 3.2405, 4.0476, 10],
+      [1.104, 1.2374, 1.4812, 1.5249, 1.6284, 1.9458, 1.173, 2.945, 0.2945, 1.4725, 1.7098, 3.4189, 4.2704, 10]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」的教導", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽記", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽記", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 4 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·殘片", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 6 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·殘片", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 9 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·殘片", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3, "count": 12 },
+        { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·殘片", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "NeverEnding", "localeName": "永無謝幕", "desc": "斷流效果的持續時間延長8秒。", "unlock": 1, "values": [8] },
+    { "name": "SwordOfTorrents", "localeName": "水形劍", "desc": "處於<color=#FFD780FF>魔王武裝·狂瀾</color>的近戰狀態時，普通攻擊與重擊在造成暴擊時，會為命中的敵人施加斷流效果。", "unlock": 4 },
+    { "name": "MasterOfWeaponry", "localeName": "諸武精通", "desc": "隊伍中自己的角色<color=#FFD780FF>普通攻擊</color>等級提高1級。" }
+  ],
+  "c13ns": [
+    { "name": "FoulLegacyTideWithholder", "localeName": "魔王武裝·遏浪", "desc": "<color=#FFD780FF>魔王武裝·狂瀾</color>的冷卻時間降低20%。" },
+    { "name": "FoulLegacyUnderstream", "localeName": "魔王武裝·暗流", "desc": "處於斷流效果的影響下的敵人被擊敗時，達達利亞恢復4點元素能量。", "values": [4] },
+    { "name": "AbyssalMayhemVortexOfTurmoil", "localeName": "深淵之災·紛爭渦源", "desc": "<color=#FFD780FF>魔王武裝·狂瀾</color>的技能等級提高3級。\n至多提升至15級。" },
+    {
+      "name": "AbyssalMayhemHydrospout",
+      "localeName": "深淵之災·凝水盛放",
+      "desc": "每4秒，場上存在達達利亞自身施加的斷流效果時，若達達利亞當前處於<color=#FFD780FF>魔王武裝·狂瀾</color>的近戰狀態，則觸發斷流·斬；否則，觸發斷流·閃。\n通過此命之座觸發的斷流·斬與斷流·閃不受這兩種斷流各自的觸發間隔限制，也不會影響其觸發間隔。",
+      "values": [4]
+    },
+    { "name": "HavocFormlessBlade", "localeName": "極惡技·斬水斬雨", "desc": "<color=#FFD780FF>極惡技·盡滅閃</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "HavocAnnihilation", "localeName": "極惡技·天使滅盡", "desc": "在近戰狀態下施放<color=#FFD780FF>極惡技·盡滅閃</color>時，清除<color=#FFD780FF>魔王武裝·狂瀾</color>的冷卻時間。\n該效果會在回到遠程狀態後觸發。" }
+  ],
+  "overviewItems": [
+    { "id": "VarunadaLazuriteGemstone", "localeName": "滌淨青金", "rarity": 5 },
+    { "id": "CleansingHeart", "localeName": "淨水之心", "rarity": 4 },
+    { "id": "Starconch", "localeName": "星螺" },
+    { "id": "LieutenantsInsignia", "localeName": "尉官的徽記", "rarity": 3 },
+    { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4 },
+    { "id": "ShardOfAFoulLegacy", "localeName": "魔王之刃·殘片", "rarity": 5 }
+  ]
+}

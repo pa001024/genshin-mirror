@@ -10402,6 +10402,89 @@
     }
   },
   {
+    "uid": 15411,
+    "id": "FadingTwilight",
+    "name": "Fading Twilight",
+    "localeName": "落霞",
+    "desc": "以白金精製而成的寶弓，其上鑲嵌著霞光閃爍的寶珠。",
+    "rarity": 4,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 25.9,
+        "cost": [
+          { "id": "GrainOfAerosiderite", "localeName": "漆黑隕鐵的一粒", "count": 3 },
+          { "id": "HuntersSacrificialKnife", "localeName": "獵兵祭刀", "count": 3 },
+          { "id": "DiviningScroll", "localeName": "導能繪卷", "count": 2 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 51.9,
+        "cost": [
+          { "id": "PieceOfAerosiderite", "localeName": "漆黑隕鐵的一片", "count": 3 },
+          { "id": "HuntersSacrificialKnife", "localeName": "獵兵祭刀", "count": 12 },
+          { "id": "DiviningScroll", "localeName": "導能繪卷", "count": 8 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 77.8,
+        "cost": [
+          { "id": "PieceOfAerosiderite", "localeName": "漆黑隕鐵的一片", "count": 6 },
+          { "id": "AgentsSacrificialKnife", "localeName": "特工祭刀", "count": 6 },
+          { "id": "SealedScroll", "localeName": "封魔繪卷", "count": 6 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 103.7,
+        "cost": [
+          { "id": "BitOfAerosiderite", "localeName": "漆黑隕鐵的一角", "count": 3 },
+          { "id": "AgentsSacrificialKnife", "localeName": "特工祭刀", "count": 12 },
+          { "id": "SealedScroll", "localeName": "封魔繪卷", "count": 9 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 129.7,
+        "cost": [
+          { "id": "BitOfAerosiderite", "localeName": "漆黑隕鐵的一角", "count": 6 },
+          { "id": "InspectorsSacrificialKnife", "localeName": "督察長祭刀", "count": 9 },
+          { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "count": 6 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "ChunkOfAerosiderite", "localeName": "漆黑隕鐵的一塊", "count": 4 },
+          { "id": "InspectorsSacrificialKnife", "localeName": "督察長祭刀", "count": 18 },
+          { "id": "ForbiddenCurseScroll", "localeName": "禁咒繪卷", "count": 12 }
+        ]
+      }
+    ],
+    "baseATK": 43.735,
+    "baseATKCurve": 7,
+    "overviewItems": [
+      { "id": "ChunkOfAerosiderite", "name": "漆黑隕鐵的一塊", "rarity": 5 },
+      { "id": "InspectorsSacrificialKnife", "name": "督察長祭刀", "rarity": 4 },
+      { "id": "ForbiddenCurseScroll", "name": "禁咒繪卷", "rarity": 3 }
+    ],
+    "subAttr": { "type": 10, "value": 0.066667, "curve": 17 },
+    "affix": {
+      "name": "淵中霞彩",
+      "levels": [
+        { "desc": "具有夕暮、流霞、朝暉三種狀態，分別能使造成的傷害提升<color=#99FFFFFF>6%/10%/14%</color>。攻擊命中敵人後，將轉換為下一種狀態，每7秒至多轉換一次狀態。裝備該武器的角色處於隊伍後台時該效果依舊能觸發轉換。", "params": [7, 0.06, 0.1, 0.14] },
+        { "desc": "具有夕暮、流霞、朝暉三種狀態，分別能使造成的傷害提升<color=#99FFFFFF>7.5%/12.5%/17.5%</color>。攻擊命中敵人後，將轉換為下一種狀態，每7秒至多轉換一次狀態。裝備該武器的角色處於隊伍後台時該效果依舊能觸發轉換。", "params": [7, 0.075, 0.125, 0.175] },
+        { "desc": "具有夕暮、流霞、朝暉三種狀態，分別能使造成的傷害提升<color=#99FFFFFF>9%/15%/21%</color>。攻擊命中敵人後，將轉換為下一種狀態，每7秒至多轉換一次狀態。裝備該武器的角色處於隊伍後台時該效果依舊能觸發轉換。", "params": [7, 0.09, 0.15, 0.21] },
+        { "desc": "具有夕暮、流霞、朝暉三種狀態，分別能使造成的傷害提升<color=#99FFFFFF>10.5%/17.5%/24.5%</color>。攻擊命中敵人後，將轉換為下一種狀態，每7秒至多轉換一次狀態。裝備該武器的角色處於隊伍後台時該效果依舊能觸發轉換。", "params": [7, 0.105, 0.175, 0.245] },
+        { "desc": "具有夕暮、流霞、朝暉三種狀態，分別能使造成的傷害提升<color=#99FFFFFF>12%/20%/28%</color>。攻擊命中敵人後，將轉換為下一種狀態，每7秒至多轉換一次狀態。裝備該武器的角色處於隊伍後台時該效果依舊能觸發轉換。", "params": [7, 0.12, 0.2, 0.28] }
+      ]
+    }
+  },
+  {
     "uid": 15412,
     "id": "MitternachtsWaltz",
     "name": "Mitternachts Waltz",
@@ -11316,6 +11399,89 @@
           "desc": "元素戰技和元素爆發造成的傷害提高<color=#99FFFFFF>24%</color>；普通攻擊、重擊、元素戰技或元素爆發命中敵人後，將產生1層持續12秒的「白夜極星」效果。處於1/2/3/4層「白夜極星」效果下時，攻擊力將提高<color=#99FFFFFF>20/40/60/96%</color>。由普通攻擊、重擊、元素戰技或元素爆發產生的「白夜極星」將分別獨立存在。",
           "params": [0.24, 12, 0.2, 0.4, 0.6, 0.96]
         }
+      ]
+    }
+  },
+  {
+    "uid": 15508,
+    "id": "AquaSimulacra",
+    "name": "Aqua Simulacra",
+    "localeName": "若水",
+    "desc": "色澤流移難測的長弓，在光下顯現著如水的潤藍。",
+    "rarity": 5,
+    "type": 2,
+    "ascensions": [
+      {
+        "level": 1,
+        "baseATK": 31.1,
+        "cost": [
+          { "id": "LuminousSandsFromGuyun", "localeName": "孤雲寒林的光砂", "count": 5 },
+          { "id": "GloomyStatuette", "localeName": "晦暗刻像", "count": 5 },
+          { "id": "SpectralHusk", "localeName": "浮游乾核", "count": 3 }
+        ]
+      },
+      {
+        "level": 2,
+        "baseATK": 62.2,
+        "cost": [
+          { "id": "LustrousStoneFromGuyun", "localeName": "孤雲寒林的輝岩", "count": 5 },
+          { "id": "GloomyStatuette", "localeName": "晦暗刻像", "count": 18 },
+          { "id": "SpectralHusk", "localeName": "浮游乾核", "count": 12 }
+        ]
+      },
+      {
+        "level": 3,
+        "baseATK": 93.4,
+        "cost": [
+          { "id": "LustrousStoneFromGuyun", "localeName": "孤雲寒林的輝岩", "count": 9 },
+          { "id": "DarkStatuette", "localeName": "夤夜刻像", "count": 9 },
+          { "id": "SpectralHeart", "localeName": "浮游幽核", "count": 9 }
+        ]
+      },
+      {
+        "level": 4,
+        "baseATK": 124.5,
+        "cost": [
+          { "id": "RelicFromGuyun", "localeName": "孤雲寒林的聖骸", "count": 5 },
+          { "id": "DarkStatuette", "localeName": "夤夜刻像", "count": 18 },
+          { "id": "SpectralHeart", "localeName": "浮游幽核", "count": 14 }
+        ]
+      },
+      {
+        "level": 5,
+        "baseATK": 155.6,
+        "cost": [
+          { "id": "RelicFromGuyun", "localeName": "孤雲寒林的聖骸", "count": 9 },
+          { "id": "DeathlyStatuette", "localeName": "幽邃刻像", "count": 14 },
+          { "id": "SpectralNucleus", "localeName": "浮游晶化核", "count": 9 }
+        ]
+      },
+      {
+        "level": 6,
+        "baseATK": 186.7,
+        "cost": [
+          { "id": "DivineBodyFromGuyun", "localeName": "孤雲寒林的神體", "count": 6 },
+          { "id": "DeathlyStatuette", "localeName": "幽邃刻像", "count": 27 },
+          { "id": "SpectralNucleus", "localeName": "浮游晶化核", "count": 18 }
+        ]
+      }
+    ],
+    "baseATK": 44.336,
+    "baseATKCurve": 14,
+    "overviewItems": [
+      { "id": "DivineBodyFromGuyun", "name": "孤雲寒林的神體", "rarity": 5 },
+      { "id": "DeathlyStatuette", "name": "幽邃刻像", "rarity": 4 },
+      { "id": "SpectralNucleus", "name": "浮游晶化核", "rarity": 3 }
+    ],
+    "subAttr": { "type": 13, "value": 0.192, "curve": 18 },
+    "affix": {
+      "name": "洗濯諸類之形",
+      "levels": [
+        { "desc": "生命值提升<color=#99FFFFFF>16%</color>。周圍存在敵人時，裝備該武器的角色造成的傷害都會提升<color=#99FFFFFF>20%</color>，不論該角色處於場上或是處於隊伍後台。", "params": [0.16, 0.2, 0.5, 1.2] },
+        { "desc": "生命值提升<color=#99FFFFFF>20%</color>。周圍存在敵人時，裝備該武器的角色造成的傷害都會提升<color=#99FFFFFF>25%</color>，不論該角色處於場上或是處於隊伍後台。", "params": [0.2, 0.25, 0.5, 1.2] },
+        { "desc": "生命值提升<color=#99FFFFFF>24%</color>。周圍存在敵人時，裝備該武器的角色造成的傷害都會提升<color=#99FFFFFF>30%</color>，不論該角色處於場上或是處於隊伍後台。", "params": [0.24, 0.3, 0.5, 1.2] },
+        { "desc": "生命值提升<color=#99FFFFFF>28%</color>。周圍存在敵人時，裝備該武器的角色造成的傷害都會提升<color=#99FFFFFF>35%</color>，不論該角色處於場上或是處於隊伍後台。", "params": [0.28, 0.35, 0.5, 1.2] },
+        { "desc": "生命值提升<color=#99FFFFFF>32%</color>。周圍存在敵人時，裝備該武器的角色造成的傷害都會提升<color=#99FFFFFF>40%</color>，不論該角色處於場上或是處於隊伍後台。", "params": [0.32, 0.4, 0.5, 1.2] }
       ]
     }
   },

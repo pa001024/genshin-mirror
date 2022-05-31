@@ -24,8 +24,8 @@
             <th class="text-left">基础攻击</th>
             <th class="text-left" style="min-width: 72px">副词条</th>
             <th class="text-left">数值</th>
+            <th class="text-left">特效</th>
             <th class="text-left">描述</th>
-            <th class="text-left">满精</th>
           </tr>
         </thead>
         <tbody>
@@ -37,8 +37,8 @@
             <td>{{ F(w.baseATK) }}</td>
             <td>{{ w.subAttr ? $t(`buff.short.${w.subAttr.type}`) : "-" }}</td>
             <td>{{ w.subAttr ? TP(w.subAttr.type, w.subAttr.value) : "-" }}</td>
+            <td>{{ w.data.affix ? w.data.affix.name : "-" }}</td>
             <td v-html="w.affix ? parseDesc(w.affix.desc) : '-'"></td>
-            <td v-html="w.affixMax ? parseDesc(w.affixMax.desc) : '-'"></td>
           </tr>
         </tbody>
       </template>
@@ -95,7 +95,7 @@ export default class Page extends Vue {
   }
 
   get items() {
-    return this.data?.filter(v => !this.filterOptions.some(filter => v[filter.prop] !== filter.value));
+    return this.data?.filter(v => v.subAttr).filter(v => !this.filterOptions.some(filter => v[filter.prop] !== filter.value));
   }
 
   get weapons() {

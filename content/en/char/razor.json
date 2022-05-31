@@ -1,0 +1,341 @@
+{
+  "uid": 10000020,
+  "id": "razor",
+  "name": "Razor",
+  "localeName": "Razor",
+  "desc": "A boy who lives among the wolves in Wolvendom of Mondstadt, away from human civilization. As agile as lightning.",
+  "baseHP": 1003,
+  "baseATK": 19.589,
+  "baseDEF": 62.947,
+  "bodyType": 0,
+  "rarity": 4,
+  "weapon": 4,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "VajradaAmethystSliver", "localeName": "Vajrada Amethyst Sliver", "rarity": 2, "count": 1 },
+        { "id": "Wolfhook", "localeName": "Wolfhook", "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 3 }
+      ],
+      "HP": 749.27,
+      "ATK": 14.634,
+      "DEF": 47.025,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "VajradaAmethystFragment", "localeName": "Vajrada Amethyst Fragment", "rarity": 3, "count": 3 },
+        { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4, "count": 2 },
+        { "id": "Wolfhook", "localeName": "Wolfhook", "count": 10 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1281.6,
+      "ATK": 25.032,
+      "DEF": 80.438,
+      "extra": 0.075
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "VajradaAmethystFragment", "localeName": "Vajrada Amethyst Fragment", "rarity": 3, "count": 6 },
+        { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4, "count": 4 },
+        { "id": "Wolfhook", "localeName": "Wolfhook", "count": 20 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1991.5,
+      "ATK": 38.896,
+      "DEF": 124.99,
+      "extra": 0.15
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "VajradaAmethystChunk", "localeName": "Vajrada Amethyst Chunk", "rarity": 4, "count": 3 },
+        { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4, "count": 8 },
+        { "id": "Wolfhook", "localeName": "Wolfhook", "count": 30 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2523.9,
+      "ATK": 49.294,
+      "DEF": 158.4,
+      "extra": 0.15
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "VajradaAmethystChunk", "localeName": "Vajrada Amethyst Chunk", "rarity": 4, "count": 6 },
+        { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4, "count": 12 },
+        { "id": "Wolfhook", "localeName": "Wolfhook", "count": 45 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 }
+      ],
+      "HP": 3056.2,
+      "ATK": 59.692,
+      "DEF": 191.81,
+      "extra": 0.225
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "VajradaAmethystGemstone", "localeName": "Vajrada Amethyst Gemstone", "rarity": 5, "count": 6 },
+        { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4, "count": 20 },
+        { "id": "Wolfhook", "localeName": "Wolfhook", "count": 60 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 24 }
+      ],
+      "HP": 3588.6,
+      "ATK": 70.09,
+      "DEF": 225.23,
+      "extra": 0.3
+    }
+  ],
+  "ascensionType": 33,
+  "element": 3,
+  "elemSkill": {
+    "name": "ClawAndThunder",
+    "localeName": "Claw and Thunder",
+    "desc": "#Hunts his prey using the techniques taught to him by his master and his lupical.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nSwings the Thunder Wolf Claw, dealing <color=#FFACFFFF>Electro DMG</color> to opponents in front of Razor.\nUpon striking an opponent, Razor will gain an Electro Sigil, which increases his Energy Recharge rate.\nRazor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration.\n\n<color=#FFD780FF>Hold</color>\nGathers Electro energy to unleash a lightning storm over a small AoE, causing massive <color=#FFACFFFF>Electro DMG</color>, and clears all of Razor's Electro Sigils.\nEach Electro Sigil cleared in this manner will be converted into Energy for Razor.\n\n<i>In the moment when lightning strikes, you can sometimes glimpse the look of a predator sizing up his prey deep within Razor's eyes.</i>",
+    "cd": 6,
+    "paramTpls": [
+      "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Skill DMG|{param1:P}",
+      "Hold Skill DMG|{param2:P}",
+      "Energy Recharge Bonus|{param3:P} per Electro Sigil",
+      "Energy Regenerated|{param4:F1} per Electro Sigil Absorbed",
+      "Electro Sigil duration|{param5:F1}s",
+      "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
+      "CD (hold)|{param7:F1}s"
+    ],
+    "paramVals": [
+      [1.992, 2.952, 0.2, 5, 18, 6, 10],
+      [2.1414, 3.1734, 0.2, 5, 18, 6, 10],
+      [2.2908, 3.3948, 0.2, 5, 18, 6, 10],
+      [2.49, 3.69, 0.2, 5, 18, 6, 10],
+      [2.6394, 3.9114, 0.2, 5, 18, 6, 10],
+      [2.7888, 4.1328, 0.2, 5, 18, 6, 10],
+      [2.988, 4.428, 0.2, 5, 18, 6, 10],
+      [3.1872, 4.7232, 0.2, 5, 18, 6, 10],
+      [3.3864, 5.0184, 0.2, 5, 18, 6, 10],
+      [3.5856, 5.3136, 0.2, 5, 18, 6, 10],
+      [3.7848, 5.6088, 0.2, 5, 18, 6, 10],
+      [3.984, 5.904, 0.2, 5, 18, 6, 10],
+      [4.233, 6.273, 0.2, 5, 18, 6, 10],
+      [4.482, 6.642, 0.2, 5, 18, 6, 10],
+      [4.731, 7.011, 0.2, 5, 18, 6, 10]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfResistance", "localeName": "Teachings of Resistance", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "LightningFang",
+    "localeName": "Lightning Fang",
+    "desc": "Summons the Wolf Within, which deals <color=#FFACFFFF>Electro DMG</color> to all nearby opponents. This clears all of Razor's Electro Sigils, which will be converted into Elemental Energy for him.\nThe Wolf Within will fight alongside Razor for the skill's duration.\n\n<color=#FFD780FF>The Wolf Within</color>\n·Strikes alongside Razor's normal attacks, dealing <color=#FFACFFFF>Electro DMG</color>.\n·Raises Razor's ATK SPD and <color=#FFACFFFF>Electro RES</color>.\n·Causes Razor to be immune to DMG inflicted by the <color=#FFACFFFF>Electro-Charged</color> status.\n·Disables Razor's Charged Attacks.\n·Increases Razor's resistance to interruption.\n\nThese effects end when Razor leaves the battlefield.\nWhen Razor leaves the field, a maximum of 10 Energy will be returned to him based off the duration remaining on this skill.\n\n<i>The wolf has awoken. The hunt is on.</i>",
+    "cd": 20,
+    "energyCost": 80,
+    "paramTpls": ["Elemental Burst DMG|{param1:P}", "Soul Companion DMG|{param2:F1P} Normal Attack DMG", "Normal ATK SPD Bonus|{param3:P}", "Electro RES Bonus|{param4:P}", "Duration|{param5:F1}s", "CD|{param6:F1}s", "Energy Cost|{param7:I}"],
+    "paramVals": [
+      [1.6, 0.24, 0.26, 0.8, 15, 20, 80],
+      [1.72, 0.258, 0.28, 0.8, 15, 20, 80],
+      [1.84, 0.276, 0.3, 0.8, 15, 20, 80],
+      [2, 0.3, 0.32, 0.8, 15, 20, 80],
+      [2.12, 0.318, 0.34, 0.8, 15, 20, 80],
+      [2.24, 0.336, 0.36, 0.8, 15, 20, 80],
+      [2.4, 0.36, 0.37, 0.8, 15, 20, 80],
+      [2.56, 0.384, 0.38, 0.8, 15, 20, 80],
+      [2.72, 0.408, 0.39, 0.8, 15, 20, 80],
+      [2.88, 0.432, 0.4, 0.8, 15, 20, 80],
+      [3.04, 0.456, 0.4, 0.8, 15, 20, 80],
+      [3.2, 0.48, 0.4, 0.8, 15, 20, 80],
+      [3.4, 0.51, 0.4, 0.8, 15, 20, 80],
+      [3.6, 0.54, 0.4, 0.8, 15, 20, 80],
+      [3.8, 0.57, 0.4, 0.8, 15, 20, 80]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfResistance", "localeName": "Teachings of Resistance", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackSteelFang",
+    "localeName": "Normal Attack: Steel Fang",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 4 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, perform a more powerful slash. \n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "cd": 0,
+    "paramTpls": [
+      "1-Hit DMG|{param1:F1P}",
+      "2-Hit DMG|{param2:F1P}",
+      "3-Hit DMG|{param3:P}",
+      "4-Hit DMG|{param4:P}",
+      "Charged Attack Spinning DMG|{param5:F1P}",
+      "Charged Attack Final DMG|{param6:P}",
+      "Charged Attack Stamina Cost|{param7:F1}/s",
+      "Max Duration|{param8:F1}s",
+      "Plunge DMG|{param9:F1P}",
+      "Low/High Plunge DMG|{param10:P}/{param11:P}"
+    ],
+    "paramVals": [
+      [0.9592, 0.82632, 1.0331, 1.3605, 0.62539, 1.1309, 40, 5, 0.82047, 1.6406, 2.0492],
+      [1.0246, 0.88266, 1.1036, 1.4532, 0.6763, 1.2229, 40, 5, 0.88725, 1.7741, 2.216],
+      [1.09, 0.939, 1.174, 1.546, 0.7272, 1.315, 40, 5, 0.95403, 1.9077, 2.3828],
+      [1.1772, 1.0141, 1.2679, 1.6697, 0.79992, 1.4465, 40, 5, 1.0494, 2.0984, 2.621],
+      [1.2426, 1.0705, 1.3384, 1.7624, 0.85082, 1.5386, 40, 5, 1.1162, 2.232, 2.7878],
+      [1.3189, 1.1362, 1.4205, 1.8707, 0.909, 1.6437, 40, 5, 1.1925, 2.3846, 2.9785],
+      [1.417, 1.2207, 1.5262, 2.0098, 0.98899, 1.7884, 40, 5, 1.2975, 2.5944, 3.2406],
+      [1.5151, 1.3052, 1.6319, 2.1489, 1.069, 1.9331, 40, 5, 1.4024, 2.8043, 3.5027],
+      [1.6132, 1.3897, 1.7375, 2.2881, 1.149, 2.0777, 40, 5, 1.5074, 3.0141, 3.7648],
+      [1.7113, 1.4742, 1.8432, 2.4272, 1.2362, 2.2355, 40, 5, 1.6219, 3.243, 4.0507],
+      [1.8094, 1.5587, 1.9488, 2.5664, 1.3235, 2.3933, 40, 5, 1.7363, 3.4719, 4.3366],
+      [1.9075, 1.6432, 2.0545, 2.7055, 1.4108, 2.5511, 40, 5, 1.8508, 3.7009, 4.6226],
+      [2.0056, 1.7278, 2.1602, 2.8446, 1.498, 2.7089, 40, 5, 1.9653, 3.9298, 4.9085],
+      [2.1037, 1.8123, 2.2658, 2.9838, 1.5853, 2.8667, 40, 5, 2.0798, 4.1587, 5.1944],
+      [2.2018, 1.8968, 2.3715, 3.1229, 1.6726, 3.0245, 40, 5, 2.1943, 4.3876, 5.4804]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfResistance", "localeName": "Teachings of Resistance", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "Awakening", "localeName": "Awakening", "desc": "Decreases <color=#FFD780FF>Claw and Thunder</color>'s CD by 18%.\nUsing <color=#FFD780FF>Lightning Fang</color> resets the CD of <color=#FFD780FF>Claw and Thunder</color>.", "unlock": 1 },
+    { "name": "Hunger", "localeName": "Hunger", "desc": "When Razor's Energy is below 50%, increases Energy Recharge by 30%.", "unlock": 4 },
+    { "name": "Wolvensprint", "localeName": "Wolvensprint", "desc": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects." }
+  ],
+  "c13ns": [
+    { "name": "WolfsInstinct", "localeName": "Wolf's Instinct", "desc": "Picking up an Elemental Orb or Particle increases Razor's DMG by 10% for 8s." },
+    { "name": "Suppression", "localeName": "Suppression", "desc": "Increases CRIT Rate against opponents with less than 30% HP by 10%." },
+    { "name": "SoulCompanion", "localeName": "Soul Companion", "desc": "Increases the Level of <color=#FFD780FF>Lightning Fang</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "Bite", "localeName": "Bite", "desc": "#When casting <color=#FFD780FF>Claw and Thunder</color> ({LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}), opponents hit will have their DEF decreased by 15% for 7s." },
+    { "name": "SharpenedClaws", "localeName": "Sharpened Claws", "desc": "Increases the Level of <color=#FFD780FF>Claw and Thunder</color> by 3.\nMaximum upgrade level is 15." },
+    {
+      "name": "LupusFulguris",
+      "localeName": "Lupus Fulguris",
+      "desc": "Every 10s, Razor's sword charges up, causing the next Normal Attack to release lightning that deals 100% of Razor's ATK as <color=#FFACFFFF>Electro DMG</color>.\nWhen Razor is not using <color=#FFD780FF>Lightning Fang</color>, a lightning strike on an opponent will grant Razor an Electro Sigil for <color=#FFD780FF>Claw and Thunder</color>."
+    }
+  ],
+  "overviewItems": [
+    { "id": "VajradaAmethystGemstone", "localeName": "Vajrada Amethyst Gemstone", "rarity": 5 },
+    { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4 },
+    { "id": "Wolfhook", "localeName": "Wolfhook" },
+    { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3 },
+    { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4 },
+    { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5 }
+  ]
+}

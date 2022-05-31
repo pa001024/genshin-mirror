@@ -1,0 +1,334 @@
+{
+  "uid": 10000065,
+  "id": "shinobu",
+  "name": "Kuki Shinobu",
+  "localeName": "Kuki Shinobu",
+  "desc": "The capable and reliable deputy leader of the \"Arataki Gang.\" Please note: capable and reliable are not appellations for the \"Arataki Gang,\" but for their deputy leader in specific.",
+  "baseHP": 1030.3,
+  "baseATK": 17.808,
+  "baseDEF": 62.947,
+  "bodyType": 3,
+  "rarity": 4,
+  "weapon": 1,
+  "region": 3,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "VajradaAmethystSliver", "localeName": "Vajrada Amethyst Sliver", "rarity": 2, "count": 1 },
+        { "id": "NakuWeed", "localeName": "Naku Weed", "count": 3 },
+        { "id": "SpectralHusk", "localeName": "Spectral Husk", "rarity": 1, "count": 3 }
+      ],
+      "HP": 769.7,
+      "ATK": 13.304,
+      "DEF": 47.025,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "VajradaAmethystFragment", "localeName": "Vajrada Amethyst Fragment", "rarity": 3, "count": 3 },
+        { "id": "RunicFang", "localeName": "Runic Fang", "rarity": 4, "count": 2 },
+        { "id": "NakuWeed", "localeName": "Naku Weed", "count": 10 },
+        { "id": "SpectralHusk", "localeName": "Spectral Husk", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1316.6,
+      "ATK": 22.757,
+      "DEF": 80.438,
+      "extra": 0.06
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "VajradaAmethystFragment", "localeName": "Vajrada Amethyst Fragment", "rarity": 3, "count": 6 },
+        { "id": "RunicFang", "localeName": "Runic Fang", "rarity": 4, "count": 4 },
+        { "id": "NakuWeed", "localeName": "Naku Weed", "count": 20 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 12 }
+      ],
+      "HP": 2045.8,
+      "ATK": 35.36,
+      "DEF": 124.99,
+      "extra": 0.12
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "VajradaAmethystChunk", "localeName": "Vajrada Amethyst Chunk", "rarity": 4, "count": 3 },
+        { "id": "RunicFang", "localeName": "Runic Fang", "rarity": 4, "count": 8 },
+        { "id": "NakuWeed", "localeName": "Naku Weed", "count": 30 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2592.7,
+      "ATK": 44.813,
+      "DEF": 158.4,
+      "extra": 0.12
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "VajradaAmethystChunk", "localeName": "Vajrada Amethyst Chunk", "rarity": 4, "count": 6 },
+        { "id": "RunicFang", "localeName": "Runic Fang", "rarity": 4, "count": 12 },
+        { "id": "NakuWeed", "localeName": "Naku Weed", "count": 45 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 12 }
+      ],
+      "HP": 3139.6,
+      "ATK": 54.265,
+      "DEF": 191.81,
+      "extra": 0.18
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "VajradaAmethystGemstone", "localeName": "Vajrada Amethyst Gemstone", "rarity": 5, "count": 6 },
+        { "id": "RunicFang", "localeName": "Runic Fang", "rarity": 4, "count": 20 },
+        { "id": "NakuWeed", "localeName": "Naku Weed", "count": 60 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 24 }
+      ],
+      "HP": 3686.5,
+      "ATK": 63.718,
+      "DEF": 225.23,
+      "extra": 0.24
+    }
+  ],
+  "ascensionType": 5,
+  "element": 3,
+  "elemSkill": {
+    "name": "SanctifyingRing",
+    "localeName": "Sanctifying Ring",
+    "desc": "Creates a Grass Ring of Sanctification at the cost of part of her HP, dealing <color=#FFACFFFF>Electro DMG</color> to nearby opponents.\n\n<color=#FFD780FF>Grass Ring of Sanctification</color>\nFollows your current active character around. Deals <color=#FFACFFFF>Electro DMG</color> to nearby opponents every 1.5s and restores HP for active character(s) within the ring's AoE based on Kuki Shinobu's Max HP.\n\nThe HP consumption from using this skill can only bring her to 20% HP.\n\n\"<i>Band the Naku Weed into a loop about your waist, and it shall exorcise evil.</i>\"",
+    "cd": 15,
+    "paramTpls": ["Skill DMG|{param1:P}", "Grass Ring of Sanctification Healing|{param2:F1P} Max HP+{param3:I}", "Grass Ring of Sanctification DMG|{param4:F1P}", "Activation Cost|{param5:P} Current HP", "Duration|{param6:F1}s", "CD|{param7:F1}s"],
+    "paramVals": [
+      [0.75712, 0.03, 288.89, 0.2524, 0.3, 12, 15],
+      [0.8139, 0.03225, 317.78, 0.27133, 0.3, 12, 15],
+      [0.87069, 0.0345, 349.08, 0.29026, 0.3, 12, 15],
+      [0.9464, 0.0375, 382.79, 0.3155, 0.3, 12, 15],
+      [1.0032, 0.03975, 418.91, 0.33443, 0.3, 12, 15],
+      [1.06, 0.042, 457.43, 0.35336, 0.3, 12, 15],
+      [1.1357, 0.045, 498.37, 0.3786, 0.3, 12, 15],
+      [1.2114, 0.048, 541.71, 0.40384, 0.3, 12, 15],
+      [1.2871, 0.051, 587.45, 0.42908, 0.3, 12, 15],
+      [1.3628, 0.054, 635.61, 0.45432, 0.3, 12, 15],
+      [1.4385, 0.057, 686.17, 0.47956, 0.3, 12, 15],
+      [1.5142, 0.06, 739.14, 0.5048, 0.3, 12, 15],
+      [1.6089, 0.06375, 794.52, 0.53635, 0.3, 12, 15],
+      [1.7035, 0.0675, 852.31, 0.5679, 0.3, 12, 15],
+      [1.7982, 0.07125, 912.5, 0.59945, 0.3, 12, 15]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfElegance", "localeName": "Teachings of Elegance", "rarity": 2, "count": 3 },
+        { "id": "SpectralHusk", "localeName": "Spectral Husk", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "Guide to Elegance", "rarity": 3, "count": 2 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "Guide to Elegance", "rarity": 3, "count": 4 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "Guide to Elegance", "rarity": 3, "count": 6 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "Guide to Elegance", "rarity": 3, "count": 9 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4, "count": 4 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 4 },
+        { "id": "TearsOfTheCalamitousGod", "localeName": "Tears of the Calamitous God", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4, "count": 6 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 6 },
+        { "id": "TearsOfTheCalamitousGod", "localeName": "Tears of the Calamitous God", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4, "count": 12 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 9 },
+        { "id": "TearsOfTheCalamitousGod", "localeName": "Tears of the Calamitous God", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4, "count": 16 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 12 },
+        { "id": "TearsOfTheCalamitousGod", "localeName": "Tears of the Calamitous God", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "GyoeiNarukamiKariyamaRite",
+    "localeName": "Gyoei Narukami Kariyama Rite",
+    "desc": "Stabs an evil-excoriating blade into the ground, creating a field that cleanses the area of all that is foul, dealing continuous <color=#FFACFFFF>Electro DMG</color> to opponents within its AoE based on Shinobu's Max HP.\nIf Shinobu's HP is less than or equal to 50% when this skill is used, the field will last longer.\n\n<i>This was originally a technique used in weeding and in ritual prayers for the yearly harvest, but Shinobu has not forgotten it, though her life as a shrine maiden may have ended.</i>",
+    "cd": 15,
+    "energyCost": 60,
+    "paramTpls": ["Single Instance DMG|{param1:F1P} Max HP", "Total DMG|{param2:F1P}/{param3:F1P} Max HP", "Duration|{param4:F1}s/{param5:F1}s", "CD|{param6:F1}s", "Energy Cost|{param7:I}"],
+    "paramVals": [
+      [0.036048, 0.25234, 0.43258, 2, 3.5, 15, 60],
+      [0.038752, 0.27126, 0.46502, 2, 3.5, 15, 60],
+      [0.041455, 0.29019, 0.49746, 2, 3.5, 15, 60],
+      [0.04506, 0.31542, 0.54072, 2, 3.5, 15, 60],
+      [0.047764, 0.33435, 0.57316, 2, 3.5, 15, 60],
+      [0.050467, 0.35327, 0.60561, 2, 3.5, 15, 60],
+      [0.054072, 0.3785, 0.64886, 2, 3.5, 15, 60],
+      [0.057677, 0.40374, 0.69212, 2, 3.5, 15, 60],
+      [0.061282, 0.42897, 0.73538, 2, 3.5, 15, 60],
+      [0.064886, 0.45421, 0.77864, 2, 3.5, 15, 60],
+      [0.068491, 0.47944, 0.82189, 2, 3.5, 15, 60],
+      [0.072096, 0.50467, 0.86515, 2, 3.5, 15, 60],
+      [0.076602, 0.53621, 0.91922, 2, 3.5, 15, 60],
+      [0.081108, 0.56776, 0.9733, 2, 3.5, 15, 60],
+      [0.085614, 0.5993, 1.0274, 2, 3.5, 15, 60]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfElegance", "localeName": "Teachings of Elegance", "rarity": 2, "count": 3 },
+        { "id": "SpectralHusk", "localeName": "Spectral Husk", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "Guide to Elegance", "rarity": 3, "count": 2 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "Guide to Elegance", "rarity": 3, "count": 4 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "Guide to Elegance", "rarity": 3, "count": 6 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "Guide to Elegance", "rarity": 3, "count": 9 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4, "count": 4 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 4 },
+        { "id": "TearsOfTheCalamitousGod", "localeName": "Tears of the Calamitous God", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4, "count": 6 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 6 },
+        { "id": "TearsOfTheCalamitousGod", "localeName": "Tears of the Calamitous God", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4, "count": 12 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 9 },
+        { "id": "TearsOfTheCalamitousGod", "localeName": "Tears of the Calamitous God", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4, "count": 16 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 12 },
+        { "id": "TearsOfTheCalamitousGod", "localeName": "Tears of the Calamitous God", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackShinobusShadowsword",
+    "localeName": "Normal Attack: Shinobu's Shadowsword",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 4 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "cd": 0,
+    "paramTpls": ["1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", "4-Hit DMG|{param4:F1P}", "Charged Attack DMG|{param5:F1P}+{param6:F1P}", "Charged Attack Stamina Cost|{param7:F1}", "Plunge DMG|{param8:F1P}", "Low/High Plunge DMG|{param9:P}/{param10:P}"],
+    "paramVals": [
+      [0.48762, 0.44548, 0.5934, 0.7611, 0.55633, 0.66765, 20, 0.63932, 1.2784, 1.5968],
+      [0.52731, 0.48174, 0.6417, 0.82305, 0.60162, 0.722, 20, 0.69136, 1.3824, 1.7267],
+      [0.567, 0.518, 0.69, 0.885, 0.6469, 0.77634, 20, 0.7434, 1.4865, 1.8567],
+      [0.6237, 0.5698, 0.759, 0.9735, 0.71159, 0.85397, 20, 0.81774, 1.6351, 2.0424],
+      [0.66339, 0.60606, 0.8073, 1.0354, 0.75687, 0.90832, 20, 0.86978, 1.7392, 2.1723],
+      [0.70875, 0.6475, 0.8625, 1.1063, 0.80862, 0.97043, 20, 0.92925, 1.8581, 2.3209],
+      [0.77112, 0.70448, 0.9384, 1.2036, 0.87978, 1.0558, 20, 1.011, 2.0216, 2.5251],
+      [0.83349, 0.76146, 1.0143, 1.301, 0.95094, 1.1412, 20, 1.0928, 2.1851, 2.7293],
+      [0.89586, 0.81844, 1.0902, 1.3983, 1.0221, 1.2266, 20, 1.1746, 2.3486, 2.9336],
+      [0.9639, 0.8806, 1.173, 1.5045, 1.0997, 1.3198, 20, 1.2638, 2.527, 3.1564],
+      [1.0319, 0.94276, 1.2558, 1.6107, 1.1774, 1.4129, 20, 1.353, 2.7054, 3.3792],
+      [1.1, 1.0049, 1.3386, 1.7169, 1.255, 1.5061, 20, 1.4422, 2.8838, 3.602],
+      [1.168, 1.0671, 1.4214, 1.8231, 1.3326, 1.5993, 20, 1.5314, 3.0622, 3.8248],
+      [1.2361, 1.1292, 1.5042, 1.9293, 1.4102, 1.6924, 20, 1.6206, 3.2405, 4.0476],
+      [1.3041, 1.1914, 1.587, 2.0355, 1.4879, 1.7856, 20, 1.7098, 3.4189, 4.2704]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfElegance", "localeName": "Teachings of Elegance", "rarity": 2, "count": 3 },
+        { "id": "SpectralHusk", "localeName": "Spectral Husk", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "Guide to Elegance", "rarity": 3, "count": 2 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "Guide to Elegance", "rarity": 3, "count": 4 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "Guide to Elegance", "rarity": 3, "count": 6 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "Guide to Elegance", "rarity": 3, "count": 9 },
+        { "id": "SpectralHeart", "localeName": "Spectral Heart", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4, "count": 4 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 4 },
+        { "id": "TearsOfTheCalamitousGod", "localeName": "Tears of the Calamitous God", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4, "count": 6 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 6 },
+        { "id": "TearsOfTheCalamitousGod", "localeName": "Tears of the Calamitous God", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4, "count": 12 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 9 },
+        { "id": "TearsOfTheCalamitousGod", "localeName": "Tears of the Calamitous God", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4, "count": 16 },
+        { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3, "count": 12 },
+        { "id": "TearsOfTheCalamitousGod", "localeName": "Tears of the Calamitous God", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "BreakingFree", "localeName": "Breaking Free", "desc": "When Shinobu's HP is not higher than 50%, her Healing Bonus is increased by 15%.", "unlock": 1, "values": [0.5, 0.15] },
+    {
+      "name": "HeartsRepose",
+      "localeName": "Heart's Repose",
+      "desc": "<color=#FFD780FF>Sanctifying Ring</color>'s abilities will be boosted based on Shinobu's Elemental Mastery:\n·Healing amount will be increased by 75% of Elemental Mastery.\n·DMG dealt is increased by 25% of Elemental Mastery.",
+      "unlock": 4,
+      "values": [0.75, 0.25]
+    },
+    { "name": "ProtractedPrayers", "localeName": "Protracted Prayers", "desc": "Gains 25% more rewards when dispatched on an Inazuma Expedition for 20 hours." }
+  ],
+  "c13ns": [
+    { "name": "ToCloisterCompassion", "localeName": "To Cloister Compassion", "desc": "<color=#FFD780FF>Gyoei Narukami Kariyama Rite</color>'s AoE is increased by 50%." },
+    { "name": "ToForsakeFortune", "localeName": "To Forsake Fortune", "desc": "<color=#FFD780FF>Grass Ring of Sanctification</color>'s duration is increased by 3s.", "values": [3] },
+    { "name": "ToSequesterSorrow", "localeName": "To Sequester Sorrow", "desc": "Increases the Level of <color=#FFD780FF>Sanctifying Ring</color> by 3.\nMaximum upgrade level is 15." },
+    {
+      "name": "ToSeverSealing",
+      "localeName": "To Sever Sealing",
+      "desc": "When the Normal, Charged, or Plunging Attacks of the character affected by Shinobu's <color=#FFD780FF>Grass Ring of Sanctification</color> hit opponents, a Thundergrass Mark will land on the opponent's position and deal <color=#FFACFFFF>AoE Electro DMG</color> based on 9.7% of Shinobu's Max HP.\nThis effect can occur once every 5s.",
+      "values": [0.097, 5]
+    },
+    { "name": "ToCeaseCourtesies", "localeName": "To Cease Courtesies", "desc": "Increases the Level of <color=#FFD780FF>Gyoei Narukami Kariyama Rite</color> by 3.\nMaximum upgrade level is 15." },
+    {
+      "name": "ToWardWeakness",
+      "localeName": "To Ward Weakness",
+      "desc": "When Kuki Shinobu takes lethal DMG, this instance of DMG will not take her down. This effect will automatically trigger when her HP reaches 1 and will trigger once every 60s.\nWhen Shinobu's HP drops below 25%, she will gain 150 Elemental Mastery for 15s. This effect will trigger once every 60s.",
+      "values": [0.25, 15, 150, 60]
+    }
+  ],
+  "overviewItems": [
+    { "id": "VajradaAmethystGemstone", "localeName": "Vajrada Amethyst Gemstone", "rarity": 5 },
+    { "id": "RunicFang", "localeName": "Runic Fang", "rarity": 4 },
+    { "id": "NakuWeed", "localeName": "Naku Weed" },
+    { "id": "SpectralNucleus", "localeName": "Spectral Nucleus", "rarity": 3 },
+    { "id": "PhilosophiesOfElegance", "localeName": "Philosophies of Elegance", "rarity": 4 },
+    { "id": "TearsOfTheCalamitousGod", "localeName": "Tears of the Calamitous God", "rarity": 5 }
+  ]
+}

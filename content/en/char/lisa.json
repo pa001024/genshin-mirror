@@ -1,0 +1,326 @@
+{
+  "uid": 10000006,
+  "id": "lisa",
+  "name": "Lisa",
+  "localeName": "Lisa",
+  "desc": "The languid but knowledgeable Librarian of the Knights of Favonius, deemed by Sumeru Academia to be their most distinguished graduate in the past two centuries.",
+  "baseHP": 802.38,
+  "baseATK": 19.411,
+  "baseDEF": 48.069,
+  "bodyType": 4,
+  "rarity": 4,
+  "weapon": 5,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "VajradaAmethystSliver", "localeName": "Vajrada Amethyst Sliver", "rarity": 2, "count": 1 },
+        { "id": "Valberry", "localeName": "Valberry", "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 3 }
+      ],
+      "HP": 599.42,
+      "ATK": 14.501,
+      "DEF": 35.91,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "VajradaAmethystFragment", "localeName": "Vajrada Amethyst Fragment", "rarity": 3, "count": 3 },
+        { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4, "count": 2 },
+        { "id": "Valberry", "localeName": "Valberry", "count": 10 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1025.3,
+      "ATK": 24.805,
+      "DEF": 61.425,
+      "extra": 24
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "VajradaAmethystFragment", "localeName": "Vajrada Amethyst Fragment", "rarity": 3, "count": 6 },
+        { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4, "count": 4 },
+        { "id": "Valberry", "localeName": "Valberry", "count": 20 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1593.2,
+      "ATK": 38.543,
+      "DEF": 95.445,
+      "extra": 48
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "VajradaAmethystChunk", "localeName": "Vajrada Amethyst Chunk", "rarity": 4, "count": 3 },
+        { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4, "count": 8 },
+        { "id": "Valberry", "localeName": "Valberry", "count": 30 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2019.1,
+      "ATK": 48.846,
+      "DEF": 120.96,
+      "extra": 48
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "VajradaAmethystChunk", "localeName": "Vajrada Amethyst Chunk", "rarity": 4, "count": 6 },
+        { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4, "count": 12 },
+        { "id": "Valberry", "localeName": "Valberry", "count": 45 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 12 }
+      ],
+      "HP": 2445,
+      "ATK": 59.149,
+      "DEF": 146.48,
+      "extra": 72
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "VajradaAmethystGemstone", "localeName": "Vajrada Amethyst Gemstone", "rarity": 5, "count": 6 },
+        { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4, "count": 20 },
+        { "id": "Valberry", "localeName": "Valberry", "count": 60 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 24 }
+      ],
+      "HP": 2870.9,
+      "ATK": 69.453,
+      "DEF": 171.99,
+      "extra": 96
+    }
+  ],
+  "ascensionType": 11,
+  "element": 3,
+  "elemSkill": {
+    "name": "VioletArc",
+    "localeName": "Violet Arc",
+    "desc": "#Channels the power of lightning to sweep bothersome matters away.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nReleases a homing Lightning Orb.\nOn hit, it deals <color=#FFACFFFF>Electro DMG</color> and applies a stack of the Conductive status (max 3 stacks) to opponents in a small AoE.\n\n<color=#FFD780FF>Hold</color>\nAfter an extended casting time, calls down lightning from the heavens, dealing massive <color=#FFACFFFF>Electro DMG</color> to all nearby opponents.\nDeals great amounts of extra damage to opponents based on the number of Conductive stacks applied to them, and clears their Conductive status.\n\n<i>Electro Purple is the raiment of the Witch of Purple Rose.</i>",
+    "cd": 16,
+    "paramTpls": [
+      "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param6:F1P}",
+      "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+      "Non-Conductive Hold DMG|{param1:P}",
+      "Stack 1 Conductive Hold DMG|{param2:P}",
+      "Stack 2 Conductive Hold DMG|{param3:P}",
+      "Stack 3 Conductive Hold DMG|{param4:P}",
+      "Holding CD|{param5:F1}s"
+    ],
+    "paramVals": [
+      [3.2, 3.68, 4.24, 4.872, 16, 0.8, 1],
+      [3.44, 3.956, 4.558, 5.2374, 16, 0.86, 1],
+      [3.68, 4.232, 4.876, 5.6028, 16, 0.92, 1],
+      [4, 4.6, 5.3, 6.09, 16, 1, 1],
+      [4.24, 4.876, 5.618, 6.4554, 16, 1.06, 1],
+      [4.48, 5.152, 5.936, 6.8208, 16, 1.12, 1],
+      [4.8, 5.52, 6.36, 7.308, 16, 1.2, 1],
+      [5.12, 5.888, 6.784, 7.7952, 16, 1.28, 1],
+      [5.44, 6.256, 7.208, 8.2824, 16, 1.36, 1],
+      [5.76, 6.624, 7.632, 8.7696, 16, 1.44, 1],
+      [6.08, 6.992, 8.056, 9.2568, 16, 1.52, 1],
+      [6.4, 7.36, 8.48, 9.744, 16, 1.6, 1],
+      [6.8, 7.82, 9.01, 10.353, 16, 1.7, 1],
+      [7.2, 8.28, 9.54, 10.962, 16, 1.8, 1],
+      [7.6, 8.74, 10.07, 11.571, 16, 1.9, 1]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfBallad", "localeName": "Teachings of Ballad", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "LightningRose",
+    "localeName": "Lightning Rose",
+    "desc": "Summons a Lightning Rose that unleashes powerful lightning bolts, launching surrounding opponents and dealing <color=#FFACFFFF>Electro DMG</color>.\nThe Lightning Rose will continuously emit lightning to knock back opponents and deal <color=#FFACFFFF>Electro DMG</color> throughout the ability's duration.\n\n<i>This rose is beautiful, but beware its mortal thorns.</i>",
+    "cd": 20,
+    "energyCost": 80,
+    "paramTpls": ["Discharge DMG|{param1:F1P}", "Duration|{param2:F1}s", "CD|{param3:F1}s", "Energy Cost|{param4:I}"],
+    "paramVals": [
+      [0.3656, 15, 20, 80],
+      [0.39302, 15, 20, 80],
+      [0.42044, 15, 20, 80],
+      [0.457, 15, 20, 80],
+      [0.48442, 15, 20, 80],
+      [0.51184, 15, 20, 80],
+      [0.5484, 15, 20, 80],
+      [0.58496, 15, 20, 80],
+      [0.62152, 15, 20, 80],
+      [0.65808, 15, 20, 80],
+      [0.69464, 15, 20, 80],
+      [0.7312, 15, 20, 80],
+      [0.7769, 15, 20, 80],
+      [0.8226, 15, 20, 80],
+      [0.8683, 15, 20, 80]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfBallad", "localeName": "Teachings of Ballad", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackLightningTouch",
+    "localeName": "Normal Attack: Lightning Touch",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 4 lightning attacks that deal <color=#FFACFFFF>Electro DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to deal <color=#FFACFFFF>AoE Electro DMG</color> after a short casting time.\n\n<color=#FFD780FF>Plunging Attack</color>\nGathering the might of Electro, Lisa plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#FFACFFFF>AoE Electro DMG</color> upon impact with the ground.",
+    "cd": 0,
+    "paramTpls": ["1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", "4-Hit DMG|{param4:F1P}", "Charged Attack DMG|{param5:P}", "Charged Attack Stamina Cost|{param6:F1}", "Plunge DMG|{param7:F1P}", "Low/High Plunge DMG|{param8:P}/{param9:P}"],
+    "paramVals": [
+      [0.396, 0.3592, 0.428, 0.5496, 1.7712, 50, 0.56829, 1.1363, 1.4193],
+      [0.4257, 0.38614, 0.4601, 0.59082, 1.904, 50, 0.61454, 1.2288, 1.5349],
+      [0.4554, 0.41308, 0.4922, 0.63204, 2.0369, 50, 0.6608, 1.3213, 1.6504],
+      [0.495, 0.449, 0.535, 0.687, 2.214, 50, 0.72688, 1.4535, 1.8154],
+      [0.5247, 0.47594, 0.5671, 0.72822, 2.3468, 50, 0.77314, 1.5459, 1.931],
+      [0.5544, 0.50288, 0.5992, 0.76944, 2.4797, 50, 0.826, 1.6516, 2.063],
+      [0.594, 0.5388, 0.642, 0.8244, 2.6568, 50, 0.89869, 1.797, 2.2445],
+      [0.6336, 0.57472, 0.6848, 0.87936, 2.8339, 50, 0.97138, 1.9423, 2.4261],
+      [0.6732, 0.61064, 0.7276, 0.93432, 3.011, 50, 1.0441, 2.0877, 2.6076],
+      [0.7128, 0.64656, 0.7704, 0.98928, 3.1882, 50, 1.1234, 2.2462, 2.8057],
+      [0.75398, 0.68392, 0.81491, 1.0464, 3.3724, 50, 1.2027, 2.4048, 3.0037],
+      [0.80784, 0.73277, 0.87312, 1.1212, 3.6132, 50, 1.282, 2.5634, 3.2018],
+      [0.8617, 0.78162, 0.93133, 1.1959, 3.8541, 50, 1.3612, 2.7219, 3.3998],
+      [0.91555, 0.83047, 0.98954, 1.2707, 4.095, 50, 1.4405, 2.8805, 3.5979],
+      [0.96941, 0.87932, 1.0477, 1.3454, 4.3359, 50, 1.5198, 3.039, 3.7959]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfBallad", "localeName": "Teachings of Ballad", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "InducedAftershock", "localeName": "Induced Aftershock", "desc": "Hits by Charged Attacks apply <color=#FFD780FF>Violet Arc</color>'s Conductive status to opponents.", "unlock": 1, "values": [0.7] },
+    { "name": "StaticElectricityField", "localeName": "Static Electricity Field", "desc": "Opponents hit by <color=#FFD780FF>Lightning Rose</color> have their DEF decreased by 15% for 10s.", "unlock": 4, "values": [0.15, 10] },
+    { "name": "GeneralPharmaceutics", "localeName": "General Pharmaceutics", "desc": "When Lisa crafts a potion, she has a 20% chance to refund a portion of the crafting materials used." }
+  ],
+  "c13ns": [
+    { "name": "InfiniteCircuit", "localeName": "Infinite Circuit", "desc": "Lisa regenerates 2 Energy for every opponent hit while holding <color=#FFD780FF>Violet Arc</color>.\nA maximum of 10 Energy can be regenerated in this manner at any one time." },
+    { "name": "ElectromagneticField", "localeName": "Electromagnetic Field", "desc": "Holding <color=#FFD780FF>Violet Arc</color> has the following effects:\n·Increases DEF by 25%.\n·Increases Lisa's resistance to interruption." },
+    { "name": "ResonantThunder", "localeName": "Resonant Thunder", "desc": "Increases the Level of <color=#FFD780FF>Lightning Rose</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "PlasmaEruption", "localeName": "Plasma Eruption", "desc": "Increases the number of lightning bolts released by <color=#FFD780FF>Lightning Rose</color> by 1-3." },
+    { "name": "Electrocute", "localeName": "Electrocute", "desc": "Increases the Level of <color=#FFD780FF>Violet Arc</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "PulsatingWitch", "localeName": "Pulsating Witch", "desc": "When Lisa takes the field, she applies 3 stacks of <color=#FFD780FF>Violet Arc</color>'s Conductive status onto nearby opponents.\nThis effect can only occur once every 5s." }
+  ],
+  "overviewItems": [
+    { "id": "VajradaAmethystGemstone", "localeName": "Vajrada Amethyst Gemstone", "rarity": 5 },
+    { "id": "LightningPrism", "localeName": "Lightning Prism", "rarity": 4 },
+    { "id": "Valberry", "localeName": "Valberry" },
+    { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3 },
+    { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4 },
+    { "id": "DvalinsClaw", "localeName": "Dvalin's Claw", "rarity": 5 }
+  ]
+}

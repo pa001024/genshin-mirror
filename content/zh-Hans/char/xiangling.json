@@ -1,0 +1,318 @@
+{
+  "uid": 10000023,
+  "id": "xiangling",
+  "name": "Xiangling",
+  "localeName": "香菱",
+  "desc": "来自璃月，名声在外的少女厨师，对料理之道极具热情，拿手麻辣菜肴堪称一绝。",
+  "baseHP": 911.79,
+  "baseATK": 18.876,
+  "baseDEF": 56.081,
+  "bodyType": 3,
+  "rarity": 4,
+  "weapon": 3,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "AgnidusAgateSliver", "localeName": "燃愿玛瑙碎屑", "rarity": 2, "count": 1 },
+        { "id": "JueyunChili", "localeName": "绝云椒椒", "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "史莱姆凝液", "rarity": 1, "count": 3 }
+      ],
+      "HP": 681.15,
+      "ATK": 14.102,
+      "DEF": 41.895,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "AgnidusAgateFragment", "localeName": "燃愿玛瑙断片", "rarity": 3, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "常燃火种", "rarity": 4, "count": 2 },
+        { "id": "JueyunChili", "localeName": "绝云椒椒", "count": 10 },
+        { "id": "SlimeCondensate", "localeName": "史莱姆凝液", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1165.1,
+      "ATK": 24.122,
+      "DEF": 71.662,
+      "extra": 24
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "AgnidusAgateFragment", "localeName": "燃愿玛瑙断片", "rarity": 3, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃火种", "rarity": 4, "count": 4 },
+        { "id": "JueyunChili", "localeName": "绝云椒椒", "count": 20 },
+        { "id": "SlimeSecretions", "localeName": "史莱姆清", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1810.4,
+      "ATK": 37.482,
+      "DEF": 111.35,
+      "extra": 48
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "AgnidusAgateChunk", "localeName": "燃愿玛瑙块", "rarity": 4, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "常燃火种", "rarity": 4, "count": 8 },
+        { "id": "JueyunChili", "localeName": "绝云椒椒", "count": 30 },
+        { "id": "SlimeSecretions", "localeName": "史莱姆清", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2294.4,
+      "ATK": 47.502,
+      "DEF": 141.12,
+      "extra": 48
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "AgnidusAgateChunk", "localeName": "燃愿玛瑙块", "rarity": 4, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃火种", "rarity": 4, "count": 12 },
+        { "id": "JueyunChili", "localeName": "绝云椒椒", "count": 45 },
+        { "id": "SlimeConcentrate", "localeName": "史莱姆原浆", "rarity": 3, "count": 12 }
+      ],
+      "HP": 2778.4,
+      "ATK": 57.521,
+      "DEF": 170.89,
+      "extra": 72
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "AgnidusAgateGemstone", "localeName": "燃愿玛瑙", "rarity": 5, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃火种", "rarity": 4, "count": 20 },
+        { "id": "JueyunChili", "localeName": "绝云椒椒", "count": 60 },
+        { "id": "SlimeConcentrate", "localeName": "史莱姆原浆", "rarity": 3, "count": 24 }
+      ],
+      "HP": 3262.4,
+      "ATK": 67.541,
+      "DEF": 200.65,
+      "extra": 96
+    }
+  ],
+  "ascensionType": 11,
+  "element": 6,
+  "elemSkill": {
+    "name": "GuobaAttack",
+    "localeName": "锅巴出击",
+    "desc": "唤出喷火的锅巴，存在期间内，不断对敌人喷火，造成<color=#FF9999FF>火元素范围伤害</color>。\n\n<i>锅巴喜欢吃火辣的食物。但锅巴承受不了如此火辣的食物。</i>",
+    "cd": 12,
+    "paramTpls": ["喷火伤害|{param1:P}", "冷却时间|{param2:F1}秒"],
+    "paramVals": [
+      [1.1128, 12],
+      [1.1963, 12],
+      [1.2797, 12],
+      [1.391, 12],
+      [1.4745, 12],
+      [1.5579, 12],
+      [1.6692, 12],
+      [1.7805, 12],
+      [1.8918, 12],
+      [2.003, 12],
+      [2.1143, 12],
+      [2.2256, 12],
+      [2.3647, 12],
+      [2.5038, 12],
+      [2.6429, 12]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfDiligence", "localeName": "「勤劳」的教导", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "史莱姆凝液", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤劳」的指引", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "史莱姆清", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤劳」的指引", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "史莱姆清", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤劳」的指引", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "史莱姆清", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤劳」的指引", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "史莱姆清", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤劳」的哲学", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "史莱姆原浆", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤劳」的哲学", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "史莱姆原浆", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤劳」的哲学", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "史莱姆原浆", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤劳」的哲学", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "史莱姆原浆", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "Pyronado",
+    "localeName": "旋火轮",
+    "desc": "以控制火候与枪术的精湛技巧，甩出围绕自己快速旋转的旋火轮。\n存在期间内，旋火轮会跟随角色运动，对路径上的敌人造成<color=#FF9999FF>火元素伤害</color>。\n\n<i>火力永远不够。远远不够。</i>",
+    "cd": 20,
+    "energyCost": 80,
+    "paramTpls": ["一段挥舞伤害|{param1:F1P}", "二段挥舞伤害|{param2:F1P}", "三段挥舞伤害|{param3:P}", "旋火轮伤害|{param4:P}", "持续时间|{param5:F1}秒", "冷却时间|{param6:F1}秒", "元素能量|{param7:I}"],
+    "paramVals": [
+      [0.72, 0.88, 1.096, 1.12, 10, 20, 80],
+      [0.774, 0.946, 1.1782, 1.204, 10, 20, 80],
+      [0.828, 1.012, 1.2604, 1.288, 10, 20, 80],
+      [0.9, 1.1, 1.37, 1.4, 10, 20, 80],
+      [0.954, 1.166, 1.4522, 1.484, 10, 20, 80],
+      [1.008, 1.232, 1.5344, 1.568, 10, 20, 80],
+      [1.08, 1.32, 1.644, 1.68, 10, 20, 80],
+      [1.152, 1.408, 1.7536, 1.792, 10, 20, 80],
+      [1.224, 1.496, 1.8632, 1.904, 10, 20, 80],
+      [1.296, 1.584, 1.9728, 2.016, 10, 20, 80],
+      [1.368, 1.672, 2.0824, 2.128, 10, 20, 80],
+      [1.44, 1.76, 2.192, 2.24, 10, 20, 80],
+      [1.53, 1.87, 2.329, 2.38, 10, 20, 80],
+      [1.62, 1.98, 2.466, 2.52, 10, 20, 80],
+      [1.71, 2.09, 2.603, 2.66, 10, 20, 80]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfDiligence", "localeName": "「勤劳」的教导", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "史莱姆凝液", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤劳」的指引", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "史莱姆清", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤劳」的指引", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "史莱姆清", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤劳」的指引", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "史莱姆清", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤劳」的指引", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "史莱姆清", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤劳」的哲学", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "史莱姆原浆", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤劳」的哲学", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "史莱姆原浆", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤劳」的哲学", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "史莱姆原浆", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤劳」的哲学", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "史莱姆原浆", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackDoughFu",
+    "localeName": "普通攻击·白案功夫",
+    "desc": "<color=#FFD780FF>普通攻击</color>\n进行至多五段的连续枪击。\n\n<color=#FFD780FF>重击</color>\n消耗一定体力，向前方突进，对路径上的敌人造成伤害。\n\n<color=#FFD780FF>下落攻击</color>\n从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
+    "cd": 0,
+    "paramTpls": ["一段伤害|{param1:F1P}", "二段伤害|{param2:F1P}", "三段伤害|{param3:F1P}+{param3:F1P}", "四段伤害|{param4:F1P}*4", "五段伤害|{param5:F1P}", "重击伤害|{param6:P}", "重击体力消耗|{param7:F1}点", "下坠期间伤害|{param8:F1P}", "低空/高空坠地冲击伤害|{param9:P}/{param10:P}"],
+    "paramVals": [
+      [0.42054, 0.4214, 0.26058, 0.14104, 0.71036, 1.2169, 25, 0.63932, 1.2784, 1.5968],
+      [0.45477, 0.4557, 0.28179, 0.15252, 0.76818, 1.316, 25, 0.69136, 1.3824, 1.7267],
+      [0.489, 0.49, 0.303, 0.164, 0.826, 1.415, 25, 0.7434, 1.4865, 1.8567],
+      [0.5379, 0.539, 0.3333, 0.1804, 0.9086, 1.5565, 25, 0.81774, 1.6351, 2.0424],
+      [0.57213, 0.5733, 0.35451, 0.19188, 0.96642, 1.6556, 25, 0.86978, 1.7392, 2.1723],
+      [0.61125, 0.6125, 0.37875, 0.205, 1.0325, 1.7687, 25, 0.92925, 1.8581, 2.3209],
+      [0.66504, 0.6664, 0.41208, 0.22304, 1.1234, 1.9244, 25, 1.011, 2.0216, 2.5251],
+      [0.71883, 0.7203, 0.44541, 0.24108, 1.2142, 2.08, 25, 1.0928, 2.1851, 2.7293],
+      [0.77262, 0.7742, 0.47874, 0.25912, 1.3051, 2.2357, 25, 1.1746, 2.3486, 2.9336],
+      [0.8313, 0.833, 0.5151, 0.2788, 1.4042, 2.4055, 25, 1.2638, 2.527, 3.1564],
+      [0.89854, 0.90038, 0.55676, 0.30135, 1.5178, 2.6001, 25, 1.353, 2.7054, 3.3792],
+      [0.97761, 0.97961, 0.60576, 0.32787, 1.6513, 2.8289, 25, 1.4422, 2.8838, 3.602],
+      [1.0567, 1.0588, 0.65475, 0.35439, 1.7849, 3.0577, 25, 1.5314, 3.0622, 3.8248],
+      [1.1358, 1.1381, 0.70375, 0.38091, 1.9185, 3.2865, 25, 1.6206, 3.2405, 4.0476],
+      [1.222, 1.2245, 0.7572, 0.40984, 2.0642, 3.5361, 25, 1.7098, 3.4189, 4.2704]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfDiligence", "localeName": "「勤劳」的教导", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "史莱姆凝液", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤劳」的指引", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "史莱姆清", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤劳」的指引", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "史莱姆清", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤劳」的指引", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "史莱姆清", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToDiligence", "localeName": "「勤劳」的指引", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "史莱姆清", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤劳」的哲学", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "史莱姆原浆", "rarity": 3, "count": 4 },
+        { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤劳」的哲学", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "史莱姆原浆", "rarity": 3, "count": 6 },
+        { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤劳」的哲学", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "史莱姆原浆", "rarity": 3, "count": 9 },
+        { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfDiligence", "localeName": "「勤劳」的哲学", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "史莱姆原浆", "rarity": 3, "count": 12 },
+        { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "Crossfire", "localeName": "交叉火力", "desc": "锅巴的喷火距离提高20%。", "unlock": 1, "values": [0.2] },
+    { "name": "BewareItsSuperHot", "localeName": "绝云朝天椒", "desc": "<color=#FFD780FF>锅巴出击</color>效果结束时，锅巴会在消失的位置留下辣椒。拾取辣椒会提高10%攻击力，持续10秒。", "unlock": 4, "values": [0.1, 10] },
+    { "name": "ChefDeCuisine", "localeName": "万民堂大厨", "desc": "完美烹饪攻击类食物时，有12%概率获得2倍产出。" }
+  ],
+  "c13ns": [
+    { "name": "CrispyOutsideTenderInside", "localeName": "外酥里嫩", "desc": "受到锅巴攻击的敌人，<color=#FF9999FF>火元素抗性</color>降低15%，持续6秒。", "values": [0.15, 6] },
+    { "name": "OilMeetsFire", "localeName": "大火宽油", "desc": "普通攻击的最后一击会对敌人施加持续2秒的内爆效果，持续时间结束时会发生爆炸，造成75%攻击力的<color=#FF9999FF>火元素范围伤害</color>。", "values": [2, 2, 0.75] },
+    { "name": "Deepfry", "localeName": "武火急烹", "desc": "<color=#FFD780FF>旋火轮</color>的技能等级提高3级。\n至多提升至15级。" },
+    { "name": "Slowbake", "localeName": "文火慢煨", "desc": "<color=#FFD780FF>旋火轮</color>的持续时间延长40%。", "values": [0.4] },
+    { "name": "GuobaMad", "localeName": "锅巴凶猛", "desc": "<color=#FFD780FF>锅巴出击</color>的技能等级提高3级。\n至多提升至15级。" },
+    { "name": "CondensedPyronado", "localeName": "大龙卷旋火轮", "desc": "<color=#FFD780FF>旋火轮</color>持续期间，队伍中所有角色获得15%<color=#FF9999FF>火元素伤害加成</color>。", "values": [0.15] }
+  ],
+  "overviewItems": [
+    { "id": "AgnidusAgateGemstone", "localeName": "燃愿玛瑙", "rarity": 5 },
+    { "id": "EverflameSeed", "localeName": "常燃火种", "rarity": 4 },
+    { "id": "JueyunChili", "localeName": "绝云椒椒" },
+    { "id": "SlimeConcentrate", "localeName": "史莱姆原浆", "rarity": 3 },
+    { "id": "PhilosophiesOfDiligence", "localeName": "「勤劳」的哲学", "rarity": 4 },
+    { "id": "DvalinsClaw", "localeName": "东风之爪", "rarity": 5 }
+  ]
+}

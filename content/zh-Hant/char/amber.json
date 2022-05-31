@@ -1,0 +1,318 @@
+{
+  "uid": 10000021,
+  "id": "amber",
+  "name": "Amber",
+  "localeName": "安柏",
+  "desc": "永遠充滿活力的女孩，騎士團最優秀、同時也是最後的偵察騎士。",
+  "baseHP": 793.26,
+  "baseATK": 18.698,
+  "baseDEF": 50.358,
+  "bodyType": 3,
+  "rarity": 4,
+  "weapon": 2,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "AgnidusAgateSliver", "localeName": "燃願瑪瑙碎屑", "rarity": 2, "count": 1 },
+        { "id": "SmallLampGrass", "localeName": "小燈草", "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "牢固的箭鏃", "rarity": 1, "count": 3 }
+      ],
+      "HP": 592.6,
+      "ATK": 13.969,
+      "DEF": 37.62,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "AgnidusAgateFragment", "localeName": "燃願瑪瑙斷片", "rarity": 3, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "常燃火種", "rarity": 4, "count": 2 },
+        { "id": "SmallLampGrass", "localeName": "小燈草", "count": 10 },
+        { "id": "FirmArrowhead", "localeName": "牢固的箭鏃", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1013.7,
+      "ATK": 23.894,
+      "DEF": 64.35,
+      "extra": 0.06
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "AgnidusAgateFragment", "localeName": "燃願瑪瑙斷片", "rarity": 3, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃火種", "rarity": 4, "count": 4 },
+        { "id": "SmallLampGrass", "localeName": "小燈草", "count": 20 },
+        { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1575.1,
+      "ATK": 37.128,
+      "DEF": 99.99,
+      "extra": 0.12
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "AgnidusAgateChunk", "localeName": "燃願瑪瑙塊", "rarity": 4, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "常燃火種", "rarity": 4, "count": 8 },
+        { "id": "SmallLampGrass", "localeName": "小燈草", "count": 30 },
+        { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "rarity": 2, "count": 18 }
+      ],
+      "HP": 1996.1,
+      "ATK": 47.053,
+      "DEF": 126.72,
+      "extra": 0.12
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "AgnidusAgateChunk", "localeName": "燃願瑪瑙塊", "rarity": 4, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃火種", "rarity": 4, "count": 12 },
+        { "id": "SmallLampGrass", "localeName": "小燈草", "count": 45 },
+        { "id": "WeatheredArrowhead", "localeName": "歷戰的箭鏃", "rarity": 3, "count": 12 }
+      ],
+      "HP": 2417.2,
+      "ATK": 56.979,
+      "DEF": 153.45,
+      "extra": 0.18
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "AgnidusAgateGemstone", "localeName": "燃願瑪瑙", "rarity": 5, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃火種", "rarity": 4, "count": 20 },
+        { "id": "SmallLampGrass", "localeName": "小燈草", "count": 60 },
+        { "id": "WeatheredArrowhead", "localeName": "歷戰的箭鏃", "rarity": 3, "count": 24 }
+      ],
+      "HP": 2838.3,
+      "ATK": 66.904,
+      "DEF": 180.18,
+      "extra": 0.24
+    }
+  ],
+  "ascensionType": 7,
+  "element": 6,
+  "elemSkill": {
+    "name": "ExplosivePuppet",
+    "localeName": "爆彈玩偶",
+    "desc": "請可靠的兔兔伯爵上陣。\n\n<color=#FFD780FF>兔兔伯爵</color>\n·持續嘲諷周圍的敵人，吸引火力；\n·耐久度按比例繼承安柏的生命值上限；\n·被摧毀或持續時間結束時，會發生劇烈的爆炸，造成<color=#FF9999FF>火元素範圍傷害</color>。\n\n<color=#FFD780FF>長按</color>\n調整投擲方向。\n投擲距離隨長按時間增加。\n\n<i>兔兔伯爵有著悠久的家系。但從兔兔八百九十三世開始，安柏就停止計數了。</i>",
+    "cd": 15,
+    "paramTpls": ["繼承生命|{param1:F1P}", "爆炸傷害|{param2:P}", "冷卻時間|{param4:F1}秒"],
+    "paramVals": [
+      [0.4136, 1.232, -0.5864, 15],
+      [0.44462, 1.3244, -0.55538, 15],
+      [0.47564, 1.4168, -0.52436, 15],
+      [0.517, 1.54, -0.483, 15],
+      [0.54802, 1.6324, -0.45198, 15],
+      [0.57904, 1.7248, -0.42096, 15],
+      [0.6204, 1.848, -0.3796, 15],
+      [0.66176, 1.9712, -0.33824, 15],
+      [0.70312, 2.0944, -0.29688, 15],
+      [0.74448, 2.2176, -0.25552, 15],
+      [0.78584, 2.3408, -0.21416, 15],
+      [0.8272, 2.464, -0.1728, 15],
+      [0.8789, 2.618, -0.1211, 15],
+      [0.9306, 2.772, -0.0694, 15],
+      [0.9823, 2.926, -0.0177, 15]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」的教導", "rarity": 2, "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "牢固的箭鏃", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 2 },
+        { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 4 },
+        { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 6 },
+        { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 9 },
+        { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 4 },
+        { "id": "WeatheredArrowhead", "localeName": "歷戰的箭鏃", "rarity": 3, "count": 4 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 6 },
+        { "id": "WeatheredArrowhead", "localeName": "歷戰的箭鏃", "rarity": 3, "count": 6 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 12 },
+        { "id": "WeatheredArrowhead", "localeName": "歷戰的箭鏃", "rarity": 3, "count": 9 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 16 },
+        { "id": "WeatheredArrowhead", "localeName": "歷戰的箭鏃", "rarity": 3, "count": 12 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "FieryRain",
+    "localeName": "箭雨",
+    "desc": "射出火焰箭雨，持續造成<color=#FF9999FF>火元素範圍傷害</color>。\n\n<i>滿心熱誠的安柏真的很熱。</i>",
+    "cd": 12,
+    "energyCost": 40,
+    "paramTpls": ["箭雨單次傷害|{param1:F1P}", "箭雨總傷害|{param4:P}", "持續時間|{param5:F1}秒", "冷卻時間|{param2:F1}秒", "元素能量|{param3:I}"],
+    "paramVals": [
+      [0.2808, 12, 40, 5.0544, 2],
+      [0.30186, 12, 40, 5.4335, 2],
+      [0.32292, 12, 40, 5.8126, 2],
+      [0.351, 12, 40, 6.318, 2],
+      [0.37206, 12, 40, 6.6971, 2],
+      [0.39312, 12, 40, 7.0762, 2],
+      [0.4212, 12, 40, 7.5816, 2],
+      [0.44928, 12, 40, 8.087, 2],
+      [0.47736, 12, 40, 8.5925, 2],
+      [0.50544, 12, 40, 9.0979, 2],
+      [0.53352, 12, 40, 9.6034, 2],
+      [0.5616, 12, 40, 10.109, 2],
+      [0.5967, 12, 40, 10.741, 2],
+      [0.6318, 12, 40, 11.372, 2],
+      [0.6669, 12, 40, 12.004, 2]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」的教導", "rarity": 2, "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "牢固的箭鏃", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 2 },
+        { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 4 },
+        { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 6 },
+        { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 9 },
+        { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 4 },
+        { "id": "WeatheredArrowhead", "localeName": "歷戰的箭鏃", "rarity": 3, "count": 4 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 6 },
+        { "id": "WeatheredArrowhead", "localeName": "歷戰的箭鏃", "rarity": 3, "count": 6 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 12 },
+        { "id": "WeatheredArrowhead", "localeName": "歷戰的箭鏃", "rarity": 3, "count": 9 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 16 },
+        { "id": "WeatheredArrowhead", "localeName": "歷戰的箭鏃", "rarity": 3, "count": 12 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackSharpshooter",
+    "localeName": "普通攻擊·神射手",
+    "desc": "<color=#FFD780FF>普通攻擊</color>\n進行至多五段的連續弓箭射擊。\n\n<color=#FFD780FF>重擊</color>\n進行傷害更高、更為精準的<color=#FFD780FF>瞄準射擊</color>。\n瞄準時，烈焰會在箭矢上持續積聚。聚滿了烈焰的箭矢會造成<color=#FF9999FF>火元素傷害</color>。\n\n<color=#FFD780FF>下落攻擊</color>\n從空中射出箭雨，並迅速下墜衝擊地面，在落地時造成範圍傷害。",
+    "cd": 0,
+    "paramTpls": ["一段傷害|{param1:F1P}", "二段傷害|{param2:F1P}", "三段傷害|{param3:F1P}", "四段傷害|{param4:F1P}", "五段傷害|{param5:F1P}", "瞄準射擊|{param6:F1P}", "滿蓄力瞄準射擊|{param7:P}", "下墜期間傷害|{param8:F1P}", "低空/高空墜地衝擊傷害|{param9:P}/{param10:P}"],
+    "paramVals": [
+      [0.3612, 0.3612, 0.4644, 0.473, 0.5934, 0.4386, 1.24, 0.56829, 1.1363, 1.4193],
+      [0.3906, 0.3906, 0.5022, 0.5115, 0.6417, 0.4743, 1.333, 0.61454, 1.2288, 1.5349],
+      [0.42, 0.42, 0.54, 0.55, 0.69, 0.51, 1.426, 0.6608, 1.3213, 1.6504],
+      [0.462, 0.462, 0.594, 0.605, 0.759, 0.561, 1.55, 0.72688, 1.4535, 1.8154],
+      [0.4914, 0.4914, 0.6318, 0.6435, 0.8073, 0.5967, 1.643, 0.77314, 1.5459, 1.931],
+      [0.525, 0.525, 0.675, 0.6875, 0.8625, 0.6375, 1.736, 0.826, 1.6516, 2.063],
+      [0.5712, 0.5712, 0.7344, 0.748, 0.9384, 0.6936, 1.86, 0.89869, 1.797, 2.2445],
+      [0.6174, 0.6174, 0.7938, 0.8085, 1.0143, 0.7497, 1.984, 0.97138, 1.9423, 2.4261],
+      [0.6636, 0.6636, 0.8532, 0.869, 1.0902, 0.8058, 2.108, 1.0441, 2.0877, 2.6076],
+      [0.714, 0.714, 0.918, 0.935, 1.173, 0.867, 2.232, 1.1234, 2.2462, 2.8057],
+      [0.7644, 0.7644, 0.9828, 1.001, 1.2558, 0.9282, 2.356, 1.2027, 2.4048, 3.0037],
+      [0.8148, 0.8148, 1.0476, 1.067, 1.3386, 0.9894, 2.48, 1.282, 2.5634, 3.2018],
+      [0.8652, 0.8652, 1.1124, 1.133, 1.4214, 1.0506, 2.635, 1.3612, 2.7219, 3.3998],
+      [0.9156, 0.9156, 1.1772, 1.199, 1.5042, 1.1118, 2.79, 1.4405, 2.8805, 3.5979],
+      [0.966, 0.966, 1.242, 1.265, 1.587, 1.173, 2.945, 1.5198, 3.039, 3.7959]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」的教導", "rarity": 2, "count": 3 },
+        { "id": "FirmArrowhead", "localeName": "牢固的箭鏃", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 2 },
+        { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 4 },
+        { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 6 },
+        { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」的指引", "rarity": 3, "count": 9 },
+        { "id": "SharpArrowhead", "localeName": "銳利的箭鏃", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 4 },
+        { "id": "WeatheredArrowhead", "localeName": "歷戰的箭鏃", "rarity": 3, "count": 4 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 6 },
+        { "id": "WeatheredArrowhead", "localeName": "歷戰的箭鏃", "rarity": 3, "count": 6 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 12 },
+        { "id": "WeatheredArrowhead", "localeName": "歷戰的箭鏃", "rarity": 3, "count": 9 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4, "count": 16 },
+        { "id": "WeatheredArrowhead", "localeName": "歷戰的箭鏃", "rarity": 3, "count": 12 },
+        { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "EveryArrowFindsItsTarget", "localeName": "百發百中！", "desc": "<color=#FFD780FF>箭雨</color>的暴擊率提高10%，影響範圍擴大30%。", "unlock": 1, "values": [0.1, 0.3] },
+    { "name": "PreciseShot", "localeName": "壓制射擊", "desc": "瞄準射擊命中弱點時，攻擊力提高15%，持續10秒。", "unlock": 4, "values": [0.15, 10] },
+    { "name": "GlidingChampion", "localeName": "飛行冠軍", "desc": "隊伍中自己的角色滑翔消耗的體力降低20%。\n無法與效果完全相同的固有天賦疊加。" }
+  ],
+  "c13ns": [
+    { "name": "OneArrowToRuleThemAll", "localeName": "一箭雙丘丘！", "desc": "<color=#FFD780FF>瞄準射擊</color>時，會連續射出兩支箭。第二支箭能造成原本20%的傷害。", "values": [0.2] },
+    { "name": "BunnyTriggered", "localeName": "一觸即發", "desc": "兔兔伯爵進行了全新改良！蓄力完成的瞄準射擊命中兔兔伯爵腳部時，能直接引爆兔兔伯爵…\n透過這種方式主動引爆兔兔伯爵時，會額外造成200%傷害。", "values": [2] },
+    { "name": "ItBurns", "localeName": "燒起來啦！", "desc": "<color=#FFD780FF>箭雨</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "ItsNotJustAnyDoll", "localeName": "才不是普通的布偶", "desc": "<color=#FFD780FF>爆彈玩偶</color>的冷卻時間減少20%，並增加1次可使用次數。" },
+    { "name": "ItsBaronBunny", "localeName": "是兔兔伯爵！", "desc": "<color=#FFD780FF>爆彈玩偶</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "Wildfire", "localeName": "疾如野火", "desc": "使用<color=#FFD780FF>箭雨</color>後的10秒內，隊伍中所有角色的移動速度提升15%，攻擊力提升15%。", "values": [0.15, 0.15, 10] }
+  ],
+  "overviewItems": [
+    { "id": "AgnidusAgateGemstone", "localeName": "燃願瑪瑙", "rarity": 5 },
+    { "id": "EverflameSeed", "localeName": "常燃火種", "rarity": 4 },
+    { "id": "SmallLampGrass", "localeName": "小燈草" },
+    { "id": "WeatheredArrowhead", "localeName": "歷戰的箭鏃", "rarity": 3 },
+    { "id": "PhilosophiesOfFreedom", "localeName": "「自由」的哲學", "rarity": 4 },
+    { "id": "DvalinsSigh", "localeName": "東風的吐息", "rarity": 5 }
+  ]
+}

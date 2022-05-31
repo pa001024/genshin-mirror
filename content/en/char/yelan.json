@@ -1,0 +1,349 @@
+{
+  "uid": 10000060,
+  "id": "yelan",
+  "name": "Yelan",
+  "localeName": "Yelan",
+  "desc": "A mysterious person who claims to work for the Ministry of Civil Affairs, but is a \"non-entity\" on the Ministry of Civil Affairs' list.",
+  "baseHP": 1124.9,
+  "baseATK": 18.992,
+  "baseDEF": 42.659,
+  "bodyType": 4,
+  "rarity": 5,
+  "weapon": 2,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "VarunadaLazuriteSliver", "localeName": "Varunada Lazurite Sliver", "rarity": 2, "count": 1 },
+        { "id": "Starconch", "localeName": "Starconch", "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "Recruit's Insignia", "rarity": 1, "count": 3 }
+      ],
+      "HP": 964.52,
+      "ATK": 16.283,
+      "DEF": 36.577,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "VarunadaLazuriteFragment", "localeName": "Varunada Lazurite Fragment", "rarity": 3, "count": 3 },
+        { "id": "RunicFang", "localeName": "Runic Fang", "rarity": 4, "count": 2 },
+        { "id": "Starconch", "localeName": "Starconch", "count": 10 },
+        { "id": "RecruitsInsignia", "localeName": "Recruit's Insignia", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1649.8,
+      "ATK": 27.853,
+      "DEF": 62.566,
+      "extra": 0.048
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "VarunadaLazuriteFragment", "localeName": "Varunada Lazurite Fragment", "rarity": 3, "count": 6 },
+        { "id": "RunicFang", "localeName": "Runic Fang", "rarity": 4, "count": 4 },
+        { "id": "Starconch", "localeName": "Starconch", "count": 20 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 12 }
+      ],
+      "HP": 2563.6,
+      "ATK": 43.279,
+      "DEF": 97.218,
+      "extra": 0.096
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "VarunadaLazuriteChunk", "localeName": "Varunada Lazurite Chunk", "rarity": 4, "count": 3 },
+        { "id": "RunicFang", "localeName": "Runic Fang", "rarity": 4, "count": 8 },
+        { "id": "Starconch", "localeName": "Starconch", "count": 30 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 18 }
+      ],
+      "HP": 3248.9,
+      "ATK": 54.848,
+      "DEF": 123.21,
+      "extra": 0.096
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "VarunadaLazuriteChunk", "localeName": "Varunada Lazurite Chunk", "rarity": 4, "count": 6 },
+        { "id": "RunicFang", "localeName": "Runic Fang", "rarity": 4, "count": 12 },
+        { "id": "Starconch", "localeName": "Starconch", "count": 45 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 12 }
+      ],
+      "HP": 3934.2,
+      "ATK": 66.418,
+      "DEF": 149.2,
+      "extra": 0.144
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "VarunadaLazuriteGemstone", "localeName": "Varunada Lazurite Gemstone", "rarity": 5, "count": 6 },
+        { "id": "RunicFang", "localeName": "Runic Fang", "rarity": 4, "count": 20 },
+        { "id": "Starconch", "localeName": "Starconch", "count": 60 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 24 }
+      ],
+      "HP": 4619.5,
+      "ATK": 77.987,
+      "DEF": 175.18,
+      "extra": 0.192
+    }
+  ],
+  "ascensionType": 12,
+  "element": 5,
+  "elemSkill": {
+    "name": "LingeringLifeline",
+    "localeName": "Lingering Lifeline",
+    "desc": "Fires off a Lifeline that allows her to move rapidly, entangling and marking opponents along its path.\nWhen this rapid movement ends, the Lifeline will explode, dealing <color=#80C0FFFF>Hydro DMG</color> to the marked opponents based on Yelan's Max HP.\n\n<color=#FFD780FF>Tap</color>\nMoves a certain distance forward swiftly.\n\n<color=#FFD780FF>Hold</color>\nEngages in continuous, swift movement, during which Yelan's resistance to interruption is increased.\nDuring this time, Yelan can control this rapid movement and end it by using this Skill again.\n\nAdditionally, each opponent marked by the Lifeline when it explodes grants Yelan a 34% chance to reset her Breakthrough state.\n\n<i>Not until she begins to tug on the strings do evildoers, crooks, and scheming villains alike know that there is no escape.</i>",
+    "cd": 10,
+    "paramTpls": ["Skill DMG|{param1:F1P} Max HP", "Max Duration (Hold)|{param3:F1}s", "CD|{param4:F1}s"],
+    "paramVals": [
+      [0.22614, 0.34, 3, 10],
+      [0.2431, 0.34, 3, 10],
+      [0.26006, 0.34, 3, 10],
+      [0.28267, 0.34, 3, 10],
+      [0.29963, 0.34, 3, 10],
+      [0.31659, 0.34, 3, 10],
+      [0.3392, 0.34, 3, 10],
+      [0.36182, 0.34, 3, 10],
+      [0.38443, 0.34, 3, 10],
+      [0.40705, 0.34, 3, 10],
+      [0.42966, 0.34, 3, 10],
+      [0.45227, 0.34, 3, 10],
+      [0.48054, 0.34, 3, 10],
+      [0.50881, 0.34, 3, 10],
+      [0.53707, 0.34, 3, 10]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfProsperity", "localeName": "Teachings of Prosperity", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "Recruit's Insignia", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 4 },
+        { "id": "GildedScale", "localeName": "Gilded Scale", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 6 },
+        { "id": "GildedScale", "localeName": "Gilded Scale", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 9 },
+        { "id": "GildedScale", "localeName": "Gilded Scale", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 12 },
+        { "id": "GildedScale", "localeName": "Gilded Scale", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "DepthClarionDice",
+    "localeName": "Depth-Clarion Dice",
+    "desc": "Deals <color=#80C0FFFF>AoE Hydro DMG</color> and creates an \"Exquisite Throw,\" which aids her in battle.\n\n<color=#FFD780FF>Exquisite Throw</color>\nFollows the character around and will initiate a coordinated attack under the following circumstances, dealing <color=#80C0FFFF>Hydro DMG</color> based on Yelan's Max HP:\n·Can occur once every second when your active character uses a Normal Attack.\n·Will occur each time Yelan's Lifeline explodes and hits opponents.\n\n<i>\"A gambling addiction is going to do you no good. I mean, let me just do the math for you as the dealer. What do you think your odds of beating me are, when I have seven dice and you, only one?\"</i>",
+    "cd": 18,
+    "energyCost": 70,
+    "paramTpls": ["Skill DMG|{param1:F2P} Max HP", "Exquisite Throw DMG|{param2:F2P} Max HP ×3", "Duration|{param3:F1}s", "CD|{param4:F1}s", "Energy Cost|{param5:I}"],
+    "paramVals": [
+      [0.07308, 0.04872, 15, 18, 70],
+      [0.078561, 0.052374, 15, 18, 70],
+      [0.084042, 0.056028, 15, 18, 70],
+      [0.09135, 0.0609, 15, 18, 70],
+      [0.096831, 0.064554, 15, 18, 70],
+      [0.10231, 0.068208, 15, 18, 70],
+      [0.10962, 0.07308, 15, 18, 70],
+      [0.11693, 0.077952, 15, 18, 70],
+      [0.12424, 0.082824, 15, 18, 70],
+      [0.13154, 0.087696, 15, 18, 70],
+      [0.13885, 0.092568, 15, 18, 70],
+      [0.14616, 0.09744, 15, 18, 70],
+      [0.15529, 0.10353, 15, 18, 70],
+      [0.16443, 0.10962, 15, 18, 70],
+      [0.17357, 0.11571, 15, 18, 70]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfProsperity", "localeName": "Teachings of Prosperity", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "Recruit's Insignia", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 4 },
+        { "id": "GildedScale", "localeName": "Gilded Scale", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 6 },
+        { "id": "GildedScale", "localeName": "Gilded Scale", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 9 },
+        { "id": "GildedScale", "localeName": "Gilded Scale", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 12 },
+        { "id": "GildedScale", "localeName": "Gilded Scale", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackStealthyBowshot",
+    "localeName": "Normal Attack: Stealthy Bowshot",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 consecutive shots with a bow.\n\n<color=#FFD780FF>Charged Attack</color>\nPerform a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\nWhile aiming, flowing water will accumulate on the arrowhead. A fully charged torrential arrow will deal <color=#80C0FFFF>Hydro DMG</color>.\n\n<color=#FFD780FF>Breakthrough</color>\nYelan will enter a \"Breakthrough\" state after spending 5s out of combat, which will cause her next Charged Aimed Shot to have 80% decreased charge time, and once charged, she can fire a \"Breakthrough Barb\" that will deal <color=#80C0FFFF>AoE Hydro DMG</color> based on Yelan's Max HP.\n\n<color=#FFD780FF>Plunging Attack</color>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+    "cd": 0,
+    "paramTpls": [
+      "1-Hit DMG|{param1:F1P}",
+      "2-Hit DMG|{param2:F1P}",
+      "3-Hit DMG|{param3:F1P}",
+      "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+      "Aimed Shot|{param5:F1P}",
+      "Fully-Charged Aimed Shot|{param6:P}",
+      "Breakthrough Barb DMG|{param7:F2P} Max HP",
+      "Plunge DMG|{param8:F1P}",
+      "Low/High Plunge DMG|{param9:P}/{param10:P}"
+    ],
+    "paramVals": [
+      [0.40678, 0.39044, 0.516, 0.32508, 0.4386, 1.24, 0.11576, 0.56829, 1.1363, 1.4193],
+      [0.43989, 0.42222, 0.558, 0.35154, 0.4743, 1.333, 0.12444, 0.61454, 1.2288, 1.5349],
+      [0.473, 0.454, 0.6, 0.378, 0.51, 1.426, 0.13312, 0.6608, 1.3213, 1.6504],
+      [0.5203, 0.4994, 0.66, 0.4158, 0.561, 1.55, 0.1447, 0.72688, 1.4535, 1.8154],
+      [0.55341, 0.53118, 0.702, 0.44226, 0.5967, 1.643, 0.15338, 0.77314, 1.5459, 1.931],
+      [0.59125, 0.5675, 0.75, 0.4725, 0.6375, 1.736, 0.16206, 0.826, 1.6516, 2.063],
+      [0.64328, 0.61744, 0.816, 0.51408, 0.6936, 1.86, 0.17364, 0.89869, 1.797, 2.2445],
+      [0.69531, 0.66738, 0.882, 0.55566, 0.7497, 1.984, 0.18522, 0.97138, 1.9423, 2.4261],
+      [0.74734, 0.71732, 0.948, 0.59724, 0.8058, 2.108, 0.19679, 1.0441, 2.0877, 2.6076],
+      [0.8041, 0.7718, 1.02, 0.6426, 0.867, 2.232, 0.20837, 1.1234, 2.2462, 2.8057],
+      [0.86086, 0.82628, 1.092, 0.68796, 0.9282, 2.356, 0.21994, 1.2027, 2.4048, 3.0037],
+      [0.91762, 0.88076, 1.164, 0.73332, 0.9894, 2.48, 0.23152, 1.282, 2.5634, 3.2018],
+      [0.97438, 0.93524, 1.236, 0.77868, 1.0506, 2.635, 0.24599, 1.3612, 2.7219, 3.3998],
+      [1.0311, 0.98972, 1.308, 0.82404, 1.1118, 2.79, 0.26046, 1.4405, 2.8805, 3.5979],
+      [1.0879, 1.0442, 1.38, 0.8694, 1.173, 2.945, 0.27493, 1.5198, 3.039, 3.7959]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfProsperity", "localeName": "Teachings of Prosperity", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "Recruit's Insignia", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "Guide to Prosperity", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "Sergeant's Insignia", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 4 },
+        { "id": "GildedScale", "localeName": "Gilded Scale", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 6 },
+        { "id": "GildedScale", "localeName": "Gilded Scale", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 9 },
+        { "id": "GildedScale", "localeName": "Gilded Scale", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3, "count": 12 },
+        { "id": "GildedScale", "localeName": "Gilded Scale", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "TurnControl", "localeName": "Turn Control", "desc": "When the party has 1/2/3/4 Elemental Types, Yelan's Max HP is increased by 6%/12%/18%/30%.", "unlock": 1, "values": [0.06, 0.12, 0.18, 0.3] },
+    {
+      "name": "AdaptWithEase",
+      "localeName": "Adapt With Ease",
+      "desc": "So long as an <color=#FFD780FF>Exquisite Throw</color> is in play, your own active character deals 1% more DMG. This increases by a further 3.5% DMG every second. The maximum increase to DMG dealt is 50%.\nThe pre-existing effect will be dispelled if Depth-Clarion Dice is recast during its duration.",
+      "unlock": 4,
+      "values": [0.01, 0.035, 1, 14]
+    },
+    { "name": "NecessaryCalculation", "localeName": "Necessary Calculation", "desc": "Gains 25% more rewards when dispatched on a Liyue Expedition for 20 hours." }
+  ],
+  "c13ns": [
+    { "name": "EnterThePlotters", "localeName": "Enter the Plotters", "desc": "<color=#FFD780FF>Lingering Lifeline</color> gains 1 additional charge." },
+    {
+      "name": "TakingAllComers",
+      "localeName": "Taking All Comers",
+      "desc": "When <color=#FFD780FF>Exquisite Throw</color> conducts a coordinated attack, it will fire an additional water arrow that will deal 14% of Yelan's Max HP as Hydro DMG.\nThis effect can trigger once every 1.8s.",
+      "values": [0.14, 1.8]
+    },
+    { "name": "BewareTheTrickstersDice", "localeName": "Beware the Trickster's Dice", "desc": "Increases the Level of <color=#FFD780FF>Depth-Clarion Dice</color> by 3.\nMaximum upgrade level is 15." },
+    {
+      "name": "BaitAndSwitch",
+      "localeName": "Bait-and-Switch",
+      "desc": "Increases all party members' Max HP by 10% for 25s for every opponent marked by <color=#FFD780FF>Lifeline</color> when the Lifeline explodes. A maximum increase of 40% Max HP can be attained in this manner.",
+      "values": [0.1, 25, 4]
+    },
+    { "name": "DealersSleight", "localeName": "Dealer's Sleight", "desc": "Increases the Level of <color=#FFD780FF>Lingering Lifeline</color> by 3.\nMaximum upgrade level is 15." },
+    {
+      "name": "WinnerTakesAll",
+      "localeName": "Winner Takes All",
+      "desc": "After using <color=#FFD780FF>Depth-Clarion Dice</color>, Yelan will enter the Mastermind state.\nIn this state, all of Yelan's Normal Attacks will be special Breakthrough Barbs. These Breakthrough Barbs will have similar abilities to normal ones and the DMG dealt will be considered Charged Attack DMG, dealing 156% of a normal Breakthrough Barb's DMG.\n\nThe Mastermind state lasts 20s and will be cleared after Yelan fires 5 arrows.",
+      "values": [5, 20, 1.56]
+    }
+  ],
+  "overviewItems": [
+    { "id": "VarunadaLazuriteGemstone", "localeName": "Varunada Lazurite Gemstone", "rarity": 5 },
+    { "id": "RunicFang", "localeName": "Runic Fang", "rarity": 4 },
+    { "id": "Starconch", "localeName": "Starconch" },
+    { "id": "LieutenantsInsignia", "localeName": "Lieutenant's Insignia", "rarity": 3 },
+    { "id": "PhilosophiesOfProsperity", "localeName": "Philosophies of Prosperity", "rarity": 4 },
+    { "id": "GildedScale", "localeName": "Gilded Scale", "rarity": 5 }
+  ]
+}

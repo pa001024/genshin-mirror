@@ -1,0 +1,318 @@
+{
+  "uid": 10000029,
+  "id": "klee",
+  "name": "Klee",
+  "localeName": "クレー",
+  "desc": "西風騎士団反省室の常連、モンドの爆破スペシャリスト。人呼んで「逃げ回る太陽」。",
+  "baseHP": 800.79,
+  "baseATK": 24.206,
+  "baseDEF": 47.864,
+  "bodyType": 2,
+  "rarity": 5,
+  "weapon": 5,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "AgnidusAgateSliver", "localeName": "炎願のアゲート·砕屑", "rarity": 2, "count": 1 },
+        { "id": "PhilanemoMushroom", "localeName": "慕風のマッシュルーム", "count": 3 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 3 }
+      ],
+      "HP": 686.6,
+      "ATK": 20.753,
+      "DEF": 41.04,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "AgnidusAgateFragment", "localeName": "炎願のアゲート·欠片", "rarity": 3, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 2 },
+        { "id": "PhilanemoMushroom", "localeName": "慕風のマッシュルーム", "count": 10 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1174.5,
+      "ATK": 35.498,
+      "DEF": 70.2,
+      "extra": 0.072
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "AgnidusAgateFragment", "localeName": "炎願のアゲート·欠片", "rarity": 3, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 4 },
+        { "id": "PhilanemoMushroom", "localeName": "慕風のマッシュルーム", "count": 20 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1824.9,
+      "ATK": 55.159,
+      "DEF": 109.08,
+      "extra": 0.144
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "AgnidusAgateChunk", "localeName": "炎願のアゲート·塊", "rarity": 4, "count": 3 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 8 },
+        { "id": "PhilanemoMushroom", "localeName": "慕風のマッシュルーム", "count": 30 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2312.8,
+      "ATK": 69.905,
+      "DEF": 138.24,
+      "extra": 0.144
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "AgnidusAgateChunk", "localeName": "炎願のアゲート·塊", "rarity": 4, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 12 },
+        { "id": "PhilanemoMushroom", "localeName": "慕風のマッシュルーム", "count": 45 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 12 }
+      ],
+      "HP": 2800.6,
+      "ATK": 84.65,
+      "DEF": 167.4,
+      "extra": 0.216
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "AgnidusAgateGemstone", "localeName": "炎願のアゲート", "rarity": 5, "count": 6 },
+        { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4, "count": 20 },
+        { "id": "PhilanemoMushroom", "localeName": "慕風のマッシュルーム", "count": 60 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 24 }
+      ],
+      "HP": 3288.5,
+      "ATK": 99.396,
+      "DEF": 196.56,
+      "extra": 0.288
+    }
+  ],
+  "ascensionType": 19,
+  "element": 6,
+  "elemSkill": {
+    "name": "JumpyDumpty",
+    "localeName": "ボンボン爆弾",
+    "desc": "巨大な威力を持つボンボン爆弾を投げ出す！\nボンボン爆弾は連続で3回跳ね、1回毎に爆発を起こし、<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。\n\n3回跳ねた後、爆弾は複数のブービートラップに分裂する。\nブービートラップは敵に触れる、または一定時間後に爆発し、<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。\n\n初期使用可能回数2回。\n\n<i>ボンボンはクレーの「友達」…クレーはいつも人々にそう紹介している。</i>",
+    "cd": 20,
+    "paramTpls": ["ボンボン爆弾ダメージ|{param1:F1P}", "ブービートラップダメージ|{param4:F1P}", "ブービートラップ継続時間|{param5:F1}秒", "クールタイム|{param6:F1}秒"],
+    "paramVals": [
+      [0.952, 0.952, 0.952, 0.328, 15, 20],
+      [1.0234, 1.0234, 1.0234, 0.3526, 15, 20],
+      [1.0948, 1.0948, 1.0948, 0.3772, 15, 20],
+      [1.19, 1.19, 1.19, 0.41, 15, 20],
+      [1.2614, 1.2614, 1.2614, 0.4346, 15, 20],
+      [1.3328, 1.3328, 1.3328, 0.4592, 15, 20],
+      [1.428, 1.428, 1.428, 0.492, 15, 20],
+      [1.5232, 1.5232, 1.5232, 0.5248, 15, 20],
+      [1.6184, 1.6184, 1.6184, 0.5576, 15, 20],
+      [1.7136, 1.7136, 1.7136, 0.5904, 15, 20],
+      [1.8088, 1.8088, 1.8088, 0.6232, 15, 20],
+      [1.904, 1.904, 1.904, 0.656, 15, 20],
+      [2.023, 2.023, 2.023, 0.697, 15, 20],
+      [2.142, 2.142, 2.142, 0.738, 15, 20],
+      [2.261, 2.261, 2.261, 0.779, 15, 20]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」の教え", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "SparksNSplash",
+    "localeName": "ドッカン花火",
+    "desc": "クレー火力全開！スキル継続中、ドッカン花火を立て続けに召喚して周囲の敵を攻撃し、<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。\n\n<i>クレーが自分の爆弾で怪我をしないのは、きっと幸運の神に恵まれているからだと、騎士団のみんなはそう信じている。</i>",
+    "cd": 15,
+    "energyCost": 60,
+    "paramTpls": ["ドッカン花火ダメージ|{param1:F1P}", "継続時間|{param5:F1}秒", "クールタイム|{param2:F1}秒", "元素エネルギー|{param3:I}"],
+    "paramVals": [
+      [0.4264, 15, 60, 0.51168, 10],
+      [0.45838, 15, 60, 0.55006, 10],
+      [0.49036, 15, 60, 0.58843, 10],
+      [0.533, 15, 60, 0.6396, 10],
+      [0.56498, 15, 60, 0.67798, 10],
+      [0.59696, 15, 60, 0.71635, 10],
+      [0.6396, 15, 60, 0.76752, 10],
+      [0.68224, 15, 60, 0.81869, 10],
+      [0.72488, 15, 60, 0.86986, 10],
+      [0.76752, 15, 60, 0.92102, 10],
+      [0.81016, 15, 60, 0.97219, 10],
+      [0.8528, 15, 60, 1.0234, 10],
+      [0.9061, 15, 60, 1.0873, 10],
+      [0.9594, 15, 60, 1.1513, 10],
+      [1.0127, 15, 60, 1.2152, 10]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」の教え", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackKaboom",
+    "localeName": "通常攻撃·バンバン",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\nぶつかると爆発するものを投げ出す！最大3段の爆弾攻撃を行い、<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。\n\n<color=#FFD780FF>重撃</color>\n一定のスタミナを消費し、短い詠唱をした後、敵に<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から烈焔の力を凝集しながら落下し、地面に衝撃を与える。経路上の敵を攻撃し、落下時に<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。",
+    "cd": 0,
+    "paramTpls": ["1段ダメージ|{param1:F1P}", "2段ダメージ|{param2:F1P}", "3段ダメージ|{param3:F1P}", "重撃ダメージ|{param4:P}", "重撃スタミナ消費|{param5:F1}", "落下期間のダメージ|{param6:F1P}", "低空/高空落下攻撃ダメージ|{param7:P}/{param8:P}"],
+    "paramVals": [
+      [0.7216, 0.624, 0.8992, 1.5736, 50, 0.56829, 1.1363, 1.4193],
+      [0.77572, 0.6708, 0.96664, 1.6916, 50, 0.61454, 1.2288, 1.5349],
+      [0.82984, 0.7176, 1.0341, 1.8096, 50, 0.6608, 1.3213, 1.6504],
+      [0.902, 0.78, 1.124, 1.967, 50, 0.72688, 1.4535, 1.8154],
+      [0.95612, 0.8268, 1.1914, 2.085, 50, 0.77314, 1.5459, 1.931],
+      [1.0102, 0.8736, 1.2589, 2.203, 50, 0.826, 1.6516, 2.063],
+      [1.0824, 0.936, 1.3488, 2.3604, 50, 0.89869, 1.797, 2.2445],
+      [1.1546, 0.9984, 1.4387, 2.5178, 50, 0.97138, 1.9423, 2.4261],
+      [1.2267, 1.0608, 1.5286, 2.6751, 50, 1.0441, 2.0877, 2.6076],
+      [1.2989, 1.1232, 1.6186, 2.8325, 50, 1.1234, 2.2462, 2.8057],
+      [1.3739, 1.1881, 1.7121, 2.9961, 50, 1.2027, 2.4048, 3.0037],
+      [1.4721, 1.273, 1.8344, 3.2101, 50, 1.282, 2.5634, 3.2018],
+      [1.5702, 1.3578, 1.9567, 3.4242, 50, 1.3612, 2.7219, 3.3998],
+      [1.6683, 1.4427, 2.0789, 3.6382, 50, 1.4405, 2.8805, 3.5979],
+      [1.7665, 1.5276, 2.2012, 3.8522, 50, 1.5198, 3.039, 3.7959]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfFreedom", "localeName": "「自由」の教え", "rarity": 2, "count": 3 },
+        { "id": "DiviningScroll", "localeName": "占いの絵巻", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 2 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 4 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 6 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToFreedom", "localeName": "「自由」の導き", "rarity": 3, "count": 9 },
+        { "id": "SealedScroll", "localeName": "封魔の絵巻", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 4 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 4 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 6 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 6 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 12 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 9 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4, "count": 16 },
+        { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3, "count": 12 },
+        { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "PoundingSurprise", "localeName": "こんこんプレゼント", "desc": "<color=#FFD780FF>ボンボン爆弾</color>と通常攻撃が敵にダメージを与えた時、50%の確率でクレーは爆裂花火を獲得する。\n重撃を発動する時、スタミナの代わりに爆裂花火を優先的に消費し、与えるダメージ+50%。", "unlock": 1 },
+    { "name": "SparklingBurst", "localeName": "無限花火", "desc": "クレーの重撃が会心を発生すると、チーム全員の元素エネルギーが2回復する。", "unlock": 4 },
+    { "name": "AllOfMyTreasures", "localeName": "宝物揃い", "desc": "ミニマップで周囲の<color=#FFD780FF>モンド地域の特産</color>の位置を表示する。" }
+  ],
+  "c13ns": [
+    { "name": "ChainedReactions", "localeName": "ゴロゴロコンボ", "desc": "攻撃やスキル発動時、一定の確率で花火を召喚して敵を攻撃し、<color=#FFD780FF>ドッカン花火</color>の攻撃力120%分のダメージを与える。" },
+    { "name": "ExplosiveFrags", "localeName": "弾丸の破片", "desc": "<color=#FFD780FF>ボンボン爆弾</color>のブービートラップのダメージを受けた敵の防御力-23%、継続時間10秒。" },
+    { "name": "ExquisiteCompound", "localeName": "クレー特製", "desc": "<color=#FFD780FF>ボンボン爆弾</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "SparklyExplosion", "localeName": "一触即発", "desc": "<color=#FFD780FF>ドッカン花火</color>継続中にキャラクターを切り替えると、爆発が発生し、攻撃力555%分の<color=#FF9999FF>炎元素範囲ダメージ</color>を与える。" },
+    { "name": "NovaBurst", "localeName": "轟撃の星", "desc": "<color=#FFD780FF>ドッカン花火</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "BlazingDelight", "localeName": "火力全開", "desc": "<color=#FFD780FF>ドッカン花火</color>状態中、クレーは3秒毎にチーム全員（クレー自身を除く）の元素エネルギーを3回復する。\n<color=#FFD780FF>ドッカン花火</color>発動後25秒間、チーム全員の<color=#FF9999FF>炎元素ダメージ</color>+10%。" }
+  ],
+  "overviewItems": [
+    { "id": "AgnidusAgateGemstone", "localeName": "炎願のアゲート", "rarity": 5 },
+    { "id": "EverflameSeed", "localeName": "常燃の火種", "rarity": 4 },
+    { "id": "PhilanemoMushroom", "localeName": "慕風のマッシュルーム" },
+    { "id": "ForbiddenCurseScroll", "localeName": "禁呪の絵巻", "rarity": 3 },
+    { "id": "PhilosophiesOfFreedom", "localeName": "「自由」の哲学", "rarity": 4 },
+    { "id": "RingOfBoreas", "localeName": "北風のリング", "rarity": 5 }
+  ]
+}

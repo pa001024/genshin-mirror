@@ -1,0 +1,357 @@
+{
+  "uid": 10000051,
+  "id": "eula",
+  "name": "Eula",
+  "localeName": "Eula",
+  "desc": "The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company. The reason for which a descendant of the ancient nobles might join the Knights remains a great mystery in Mondstadt to this very day.",
+  "baseHP": 1029.6,
+  "baseATK": 26.627,
+  "baseDEF": 58.454,
+  "bodyType": 4,
+  "rarity": 5,
+  "weapon": 4,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "ShivadaJadeSliver", "localeName": "Shivada Jade Sliver", "rarity": 2, "count": 1 },
+        { "id": "DandelionSeed", "localeName": "Dandelion Seed", "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 3 }
+      ],
+      "HP": 882.78,
+      "ATK": 22.828,
+      "DEF": 50.12,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "ShivadaJadeFragment", "localeName": "Shivada Jade Fragment", "rarity": 3, "count": 3 },
+        { "id": "CrystallineBloom", "localeName": "Crystalline Bloom", "rarity": 4, "count": 2 },
+        { "id": "DandelionSeed", "localeName": "Dandelion Seed", "count": 10 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1510,
+      "ATK": 39.048,
+      "DEF": 85.732,
+      "extra": 0.096
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "ShivadaJadeFragment", "localeName": "Shivada Jade Fragment", "rarity": 3, "count": 6 },
+        { "id": "CrystallineBloom", "localeName": "Crystalline Bloom", "rarity": 4, "count": 4 },
+        { "id": "DandelionSeed", "localeName": "Dandelion Seed", "count": 20 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 12 }
+      ],
+      "HP": 2346.3,
+      "ATK": 60.675,
+      "DEF": 133.21,
+      "extra": 0.192
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "ShivadaJadeChunk", "localeName": "Shivada Jade Chunk", "rarity": 4, "count": 3 },
+        { "id": "CrystallineBloom", "localeName": "Crystalline Bloom", "rarity": 4, "count": 8 },
+        { "id": "DandelionSeed", "localeName": "Dandelion Seed", "count": 30 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2973.6,
+      "ATK": 76.895,
+      "DEF": 168.83,
+      "extra": 0.192
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "ShivadaJadeChunk", "localeName": "Shivada Jade Chunk", "rarity": 4, "count": 6 },
+        { "id": "CrystallineBloom", "localeName": "Crystalline Bloom", "rarity": 4, "count": 12 },
+        { "id": "DandelionSeed", "localeName": "Dandelion Seed", "count": 45 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 }
+      ],
+      "HP": 3600.8,
+      "ATK": 93.115,
+      "DEF": 204.44,
+      "extra": 0.288
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "ShivadaJadeGemstone", "localeName": "Shivada Jade Gemstone", "rarity": 5, "count": 6 },
+        { "id": "CrystallineBloom", "localeName": "Crystalline Bloom", "rarity": 4, "count": 20 },
+        { "id": "DandelionSeed", "localeName": "Dandelion Seed", "count": 60 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 24 }
+      ],
+      "HP": 4228,
+      "ATK": 109.34,
+      "DEF": 240.05,
+      "extra": 0.384
+    }
+  ],
+  "ascensionType": 13,
+  "element": 7,
+  "elemSkill": {
+    "name": "IcetideVortex",
+    "localeName": "Icetide Vortex",
+    "desc": "#Sharp frost, swift blade.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nSlashes swiftly, dealing <color=#99FFFFFF>Cryo DMG</color>.\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times. These stacks can only be gained once every 0.3s.\n\n<color=#FFD780FF>Grimheart</color>\nIncreases Eula's resistance to interruption and DEF.\n\n<color=#FFD780FF>Hold</color>\nWielding her sword, Eula consumes all the stacks of Grimheart and lashes forward, dealing <color=#99FFFFFF>AoE Cryo DMG</color> to opponents in front of her.\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and <color=#99FFFFFF>Cryo RES</color> decreased.\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals <color=#99FFFFFF>Cryo DMG</color> to nearby opponents.\n\n<i>\"So the waves roiled, swallowing the crown of the nobles. And ever after did each drop amidst the icy waves reflect a golden crown, each and every droplet of the spray shining with its light.\"</i>",
+    "cd": 4,
+    "paramTpls": [
+      "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+      "Hold DMG|{param2:P}",
+      "Icewhirl Brand DMG|{param3:P}",
+      "DEF Bonus|{param9:P} Per Stack",
+      "Grimheart Duration|{param13:F1}s",
+      "Physical RES Decrease|{param4:P}",
+      "Cryo RES Decrease|{param5:P}",
+      "RES Decrease Duration|{param6:F1}s",
+      "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+      "CD (hold)|{param8:F1}s"
+    ],
+    "paramVals": [
+      [1.464, 2.456, 0.96, 0.16, 0.16, 7, 4, 10, 0.3, 14, -0.16, -0.16, 18],
+      [1.5738, 2.6402, 1.032, 0.17, 0.17, 7, 4, 10, 0.3, 14, -0.17, -0.17, 18],
+      [1.6836, 2.8244, 1.104, 0.18, 0.18, 7, 4, 10, 0.3, 14, -0.18, -0.18, 18],
+      [1.83, 3.07, 1.2, 0.19, 0.19, 7, 4, 10, 0.3, 14, -0.19, -0.19, 18],
+      [1.9398, 3.2542, 1.272, 0.2, 0.2, 7, 4, 10, 0.3, 14, -0.2, -0.2, 18],
+      [2.0496, 3.4384, 1.344, 0.21, 0.21, 7, 4, 10, 0.3, 14, -0.21, -0.21, 18],
+      [2.196, 3.684, 1.44, 0.22, 0.22, 7, 4, 10, 0.3, 14, -0.22, -0.22, 18],
+      [2.3424, 3.9296, 1.536, 0.23, 0.23, 7, 4, 10, 0.3, 14, -0.23, -0.23, 18],
+      [2.4888, 4.1752, 1.632, 0.24, 0.24, 7, 4, 10, 0.3, 14, -0.24, -0.24, 18],
+      [2.6352, 4.4208, 1.728, 0.25, 0.25, 7, 4, 10, 0.3, 14, -0.25, -0.25, 18],
+      [2.7816, 4.6664, 1.824, 0.25, 0.25, 7, 4, 10, 0.3, 14, -0.25, -0.25, 18],
+      [2.928, 4.912, 1.92, 0.25, 0.25, 7, 4, 10, 0.3, 14, -0.25, -0.25, 18],
+      [3.111, 5.219, 2.04, 0.25, 0.25, 7, 4, 10, 0.3, 14, -0.25, -0.25, 18],
+      [3.294, 5.526, 2.16, 0.25, 0.25, 7, 4, 10, 0.3, 14, -0.25, -0.25, 18],
+      [3.477, 5.833, 2.28, 0.25, 0.25, 7, 4, 10, 0.3, 14, -0.25, -0.25, 18]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfResistance", "localeName": "Teachings of Resistance", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 4 },
+        { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 6 },
+        { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 9 },
+        { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 },
+        { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "GlacialIllumination",
+    "localeName": "Glacial Illumination",
+    "desc": "Brandishes her greatsword, dealing <color=#99FFFFFF>Cryo DMG</color> to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.\nWhile present, the Lightfall Sword increases Eula's resistance to interruption. When Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.\nOnce its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.\nThis DMG scales on the number of energy stacks the Lightfall Sword has accumulated.\nIf Eula leaves the field, the Lightfall Sword will explode immediately.\n\n<i>It is easy to sink. But even so, she desires to freeze this oncoming tide.</i>",
+    "cd": 20,
+    "energyCost": 80,
+    "paramTpls": ["Skill DMG|{param1:P}", "Lightfall Sword Base DMG|{param2:F1P}", "DMG Per Stack|{param3:F1P}", "Maximum Stacks|{param4:I}", "CD|{param5:F1}s", "Energy Cost|{param6:I}"],
+    "paramVals": [
+      [2.456, 3.6705, 0.74992, 30, 20, 80],
+      [2.6402, 3.9692, 0.81096, 30, 20, 80],
+      [2.8244, 4.268, 0.872, 30, 20, 80],
+      [3.07, 4.6948, 0.9592, 30, 20, 80],
+      [3.2542, 4.9936, 1.0202, 30, 20, 80],
+      [3.4384, 5.335, 1.09, 30, 20, 80],
+      [3.684, 5.8045, 1.1859, 30, 20, 80],
+      [3.9296, 6.274, 1.2818, 30, 20, 80],
+      [4.1752, 6.7434, 1.3778, 30, 20, 80],
+      [4.4208, 7.2556, 1.4824, 30, 20, 80],
+      [4.6664, 7.8425, 1.6023, 30, 20, 80],
+      [4.912, 8.5326, 1.7433, 30, 20, 80],
+      [5.219, 9.2227, 1.8843, 30, 20, 80],
+      [5.526, 9.9129, 2.0253, 30, 20, 80],
+      [5.833, 10.666, 2.1791, 30, 20, 80]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfResistance", "localeName": "Teachings of Resistance", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 4 },
+        { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 6 },
+        { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 9 },
+        { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 },
+        { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackFavoniusBladeworkEdel",
+    "localeName": "Normal Attack: Favonius Bladework - Edel",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 5 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "cd": 0,
+    "paramTpls": [
+      "1-Hit DMG|{param1:F1P}",
+      "2-Hit DMG|{param2:F1P}",
+      "3-Hit DMG|{param3:F1P}+{param3:F1P}",
+      "4-Hit DMG|{param4:F1P}",
+      "5-Hit DMG|{param5:F1P}+{param5:F1P}",
+      "Charged Attack Spinning DMG|{param6:F1P}",
+      "Charged Attack Final DMG|{param7:P}",
+      "Charged Attack Stamina Cost|{param8:F1}/s",
+      "Max Duration|{param9:F1}s",
+      "Plunge DMG|{param10:F1P}",
+      "Low/High Plunge DMG|{param11:P}/{param12:P}"
+    ],
+    "paramVals": [
+      [0.89732, 0.93551, 0.56799, 1.1264, 0.71834, 0.688, 1.244, 40, 5, 0.74588, 1.4914, 1.8629],
+      [0.97036, 1.0117, 0.61422, 1.2181, 0.77681, 0.744, 1.3452, 40, 5, 0.80659, 1.6128, 2.0145],
+      [1.0434, 1.0878, 0.66045, 1.3098, 0.83527, 0.8, 1.4465, 40, 5, 0.8673, 1.7342, 2.1662],
+      [1.1477, 1.1966, 0.7265, 1.4408, 0.9188, 0.88, 1.5912, 40, 5, 0.95403, 1.9077, 2.3828],
+      [1.2208, 1.2727, 0.77273, 1.5325, 0.97727, 0.936, 1.6924, 40, 5, 1.0147, 2.0291, 2.5344],
+      [1.3043, 1.3598, 0.82556, 1.6372, 1.0441, 1, 1.8081, 40, 5, 1.0841, 2.1678, 2.7077],
+      [1.419, 1.4794, 0.89821, 1.7813, 1.136, 1.088, 1.9672, 40, 5, 1.1795, 2.3586, 2.946],
+      [1.5338, 1.5991, 0.97086, 1.9254, 1.2279, 1.176, 2.1264, 40, 5, 1.2749, 2.5493, 3.1842],
+      [1.6486, 1.7187, 1.0435, 2.0695, 1.3197, 1.264, 2.2855, 40, 5, 1.3703, 2.7401, 3.4225],
+      [1.7738, 1.8493, 1.1228, 2.2267, 1.42, 1.36, 2.459, 40, 5, 1.4744, 2.9482, 3.6825],
+      [1.9172, 1.9988, 1.2136, 2.4068, 1.5348, 1.47, 2.6579, 40, 5, 1.5937, 3.1867, 3.9803],
+      [2.086, 2.1747, 1.3204, 2.6186, 1.6699, 1.5994, 2.8918, 40, 5, 1.7339, 3.4671, 4.3306],
+      [2.2547, 2.3506, 1.4272, 2.8303, 1.8049, 1.7287, 3.1257, 40, 5, 1.8741, 3.7475, 4.6808],
+      [2.4234, 2.5265, 1.534, 3.0421, 1.94, 1.8581, 3.3596, 40, 5, 2.0144, 4.0279, 5.0311],
+      [2.6075, 2.7184, 1.6505, 3.2732, 2.0874, 1.9992, 3.6148, 40, 5, 2.1674, 4.3338, 5.4132]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfResistance", "localeName": "Teachings of Resistance", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 4 },
+        { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 6 },
+        { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 9 },
+        { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 },
+        { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    {
+      "name": "RoilingRime",
+      "localeName": "Roiling Rime",
+      "desc": "If 2 stacks of Grimheart are consumed upon unleashing the Holding Mode of <color=#FFD780FF>Icetide Vortex</color>, a Shattered Lightfall Sword will be created that will explode immediately, dealing 50% of the basic Physical DMG dealt by a Lightfall Sword created by <color=#FFD780FF>Glacial Illumination</color>.",
+      "unlock": 1,
+      "values": [0.5]
+    },
+    { "name": "WellspringOfWarLust", "localeName": "Wellspring of War-Lust", "desc": "When <color=#FFD780FF>Glacial Illumination</color> is cast, the CD of <color=#FFD780FF>Icetide Vortex</color> is reset and Eula gains 1 stack of Grimheart.", "unlock": 4 },
+    { "name": "AristocraticIntrospection", "localeName": "Aristocratic Introspection", "desc": "When Eula crafts Character Talent Materials, she has a 10% chance to receive double the product." }
+  ],
+  "c13ns": [
+    {
+      "name": "TidalIllusion",
+      "localeName": "Tidal Illusion",
+      "desc": "Every time <color=#FFD780FF>Icetide Vortex</color>'s Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s.\nEach stack consumed will increase the duration of this effect by 6s up to a maximum of 18s.",
+      "values": [0.3, 6, 18]
+    },
+    { "name": "LadyOfSeafoam", "localeName": "Lady of Seafoam", "desc": "#Decreases the CD of <color=#FFD780FF>Icetide Vortex</color>'s Holding Mode, rendering it identical to {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD." },
+    { "name": "LawrencePedigree", "localeName": "Lawrence Pedigree", "desc": "Increases the Level of <color=#FFD780FF>Glacial Illumination</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "TheObstinacyOfOnesInferiors", "localeName": "The Obstinacy of One's Inferiors", "desc": "Lightfall Swords deal 25% increased DMG against opponents with less than 50% HP.", "values": [0.25] },
+    { "name": "ChivalricQuality", "localeName": "Chivalric Quality", "desc": "Increases the Level of <color=#FFD780FF>Icetide Vortex</color> by 3.\nMaximum upgrade level is 15." },
+    {
+      "name": "NobleObligation",
+      "localeName": "Noble Obligation",
+      "desc": "Lightfall Swords created by <color=#FFD780FF>Glacial Illumination</color> start with 5 stacks of energy. Normal Attacks, Elemental Skills, and Elemental Bursts have a 50% chance to grant the Lightfall Sword an additional stack of energy.",
+      "values": [5, 0.5]
+    }
+  ],
+  "overviewItems": [
+    { "id": "ShivadaJadeGemstone", "localeName": "Shivada Jade Gemstone", "rarity": 5 },
+    { "id": "CrystallineBloom", "localeName": "Crystalline Bloom", "rarity": 4 },
+    { "id": "DandelionSeed", "localeName": "Dandelion Seed" },
+    { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3 },
+    { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4 },
+    { "id": "DragonLordsCrown", "localeName": "Dragon Lord's Crown", "rarity": 5 }
+  ]
+}

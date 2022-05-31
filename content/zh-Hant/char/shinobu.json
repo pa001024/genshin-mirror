@@ -1,0 +1,328 @@
+{
+  "uid": 10000065,
+  "id": "shinobu",
+  "name": "Kuki Shinobu",
+  "localeName": "久岐忍",
+  "desc": "幹練可靠的「荒瀧派」的副手——特別註明：幹練可靠形容的不是「荒瀧派」而是副手。",
+  "baseHP": 1030.3,
+  "baseATK": 17.808,
+  "baseDEF": 62.947,
+  "bodyType": 3,
+  "rarity": 4,
+  "weapon": 1,
+  "region": 3,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "VajradaAmethystSliver", "localeName": "最勝紫晶碎屑", "rarity": 2, "count": 1 },
+        { "id": "NakuWeed", "localeName": "鳴草", "count": 3 },
+        { "id": "SpectralHusk", "localeName": "浮游乾核", "rarity": 1, "count": 3 }
+      ],
+      "HP": 769.7,
+      "ATK": 13.304,
+      "DEF": 47.025,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "VajradaAmethystFragment", "localeName": "最勝紫晶斷片", "rarity": 3, "count": 3 },
+        { "id": "RunicFang", "localeName": "符紋之齒", "rarity": 4, "count": 2 },
+        { "id": "NakuWeed", "localeName": "鳴草", "count": 10 },
+        { "id": "SpectralHusk", "localeName": "浮游乾核", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1316.6,
+      "ATK": 22.757,
+      "DEF": 80.438,
+      "extra": 0.06
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "VajradaAmethystFragment", "localeName": "最勝紫晶斷片", "rarity": 3, "count": 6 },
+        { "id": "RunicFang", "localeName": "符紋之齒", "rarity": 4, "count": 4 },
+        { "id": "NakuWeed", "localeName": "鳴草", "count": 20 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 12 }
+      ],
+      "HP": 2045.8,
+      "ATK": 35.36,
+      "DEF": 124.99,
+      "extra": 0.12
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "VajradaAmethystChunk", "localeName": "最勝紫晶塊", "rarity": 4, "count": 3 },
+        { "id": "RunicFang", "localeName": "符紋之齒", "rarity": 4, "count": 8 },
+        { "id": "NakuWeed", "localeName": "鳴草", "count": 30 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2592.7,
+      "ATK": 44.813,
+      "DEF": 158.4,
+      "extra": 0.12
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "VajradaAmethystChunk", "localeName": "最勝紫晶塊", "rarity": 4, "count": 6 },
+        { "id": "RunicFang", "localeName": "符紋之齒", "rarity": 4, "count": 12 },
+        { "id": "NakuWeed", "localeName": "鳴草", "count": 45 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 12 }
+      ],
+      "HP": 3139.6,
+      "ATK": 54.265,
+      "DEF": 191.81,
+      "extra": 0.18
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "VajradaAmethystGemstone", "localeName": "最勝紫晶", "rarity": 5, "count": 6 },
+        { "id": "RunicFang", "localeName": "符紋之齒", "rarity": 4, "count": 20 },
+        { "id": "NakuWeed", "localeName": "鳴草", "count": 60 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 24 }
+      ],
+      "HP": 3686.5,
+      "ATK": 63.718,
+      "DEF": 225.23,
+      "extra": 0.24
+    }
+  ],
+  "ascensionType": 5,
+  "element": 3,
+  "elemSkill": {
+    "name": "SanctifyingRing",
+    "localeName": "越祓雷草之輪",
+    "desc": "編結越祓草輪，消耗一部分生命值，對周圍的敵人造成<color=#FFACFFFF>雷元素傷害</color>。\n\n<color=#FFD780FF>越祓草輪</color>\n將跟隨目前場上角色。每1.5秒，對周圍的敵人造成<color=#FFACFFFF>雷元素傷害</color>，並為範圍內的目前場上角色恢復生命值，回復量受益於久岐忍的生命值上限。\n\n施放該技能所消耗的生命值，至多使久岐忍的生命值降低至20%。\n\n<i>鳴草結環，繫於腰際，以驅邪祟。</i>",
+    "cd": 15,
+    "paramTpls": ["技能傷害|{param1:P}", "越祓草輪治療量|{param2:F1P}生命值上限+{param3:I}", "越祓草輪傷害|{param4:F1P}", "技能消耗|{param5:P}當前生命值", "持續時間|{param6:F1}秒", "冷卻時間|{param7:F1}秒"],
+    "paramVals": [
+      [0.75712, 0.03, 288.89, 0.2524, 0.3, 12, 15],
+      [0.8139, 0.03225, 317.78, 0.27133, 0.3, 12, 15],
+      [0.87069, 0.0345, 349.08, 0.29026, 0.3, 12, 15],
+      [0.9464, 0.0375, 382.79, 0.3155, 0.3, 12, 15],
+      [1.0032, 0.03975, 418.91, 0.33443, 0.3, 12, 15],
+      [1.06, 0.042, 457.43, 0.35336, 0.3, 12, 15],
+      [1.1357, 0.045, 498.37, 0.3786, 0.3, 12, 15],
+      [1.2114, 0.048, 541.71, 0.40384, 0.3, 12, 15],
+      [1.2871, 0.051, 587.45, 0.42908, 0.3, 12, 15],
+      [1.3628, 0.054, 635.61, 0.45432, 0.3, 12, 15],
+      [1.4385, 0.057, 686.17, 0.47956, 0.3, 12, 15],
+      [1.5142, 0.06, 739.14, 0.5048, 0.3, 12, 15],
+      [1.6089, 0.06375, 794.52, 0.53635, 0.3, 12, 15],
+      [1.7035, 0.0675, 852.31, 0.5679, 0.3, 12, 15],
+      [1.7982, 0.07125, 912.5, 0.59945, 0.3, 12, 15]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfElegance", "localeName": "「風雅」的教導", "rarity": 2, "count": 3 },
+        { "id": "SpectralHusk", "localeName": "浮游乾核", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "「風雅」的指引", "rarity": 3, "count": 2 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "「風雅」的指引", "rarity": 3, "count": 4 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "「風雅」的指引", "rarity": 3, "count": 6 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "「風雅」的指引", "rarity": 3, "count": 9 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4, "count": 4 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 4 },
+        { "id": "TearsOfTheCalamitousGod", "localeName": "禍神之禊淚", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4, "count": 6 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 6 },
+        { "id": "TearsOfTheCalamitousGod", "localeName": "禍神之禊淚", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4, "count": 12 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 9 },
+        { "id": "TearsOfTheCalamitousGod", "localeName": "禍神之禊淚", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4, "count": 16 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 12 },
+        { "id": "TearsOfTheCalamitousGod", "localeName": "禍神之禊淚", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "GyoeiNarukamiKariyamaRite",
+    "localeName": "御詠鳴神刈山祭",
+    "desc": "將退邪之刃刺入地面，在前方創造清淨邪物的結界，基於久岐忍的生命值上限，對其中的敵人持續造成<color=#FFACFFFF>雷元素傷害</color>。\n施放時，若久岐忍的生命值低於或等於50%，則結界的持續時間將會延長。\n\n<i>原本是用於割除雜草，祈禱來年豐收的祭禱之術，忍在結束巫女生涯後，也並未將此忘記。</i>",
+    "cd": 15,
+    "energyCost": 60,
+    "paramTpls": ["單次傷害|{param1:F1P}生命值上限", "總傷害|{param2:F1P}/{param3:F1P}生命值上限", "持續時間|{param4:F1}秒/{param5:F1}秒", "冷卻時間|{param6:F1}秒", "元素能量|{param7:I}"],
+    "paramVals": [
+      [0.036048, 0.25234, 0.43258, 2, 3.5, 15, 60],
+      [0.038752, 0.27126, 0.46502, 2, 3.5, 15, 60],
+      [0.041455, 0.29019, 0.49746, 2, 3.5, 15, 60],
+      [0.04506, 0.31542, 0.54072, 2, 3.5, 15, 60],
+      [0.047764, 0.33435, 0.57316, 2, 3.5, 15, 60],
+      [0.050467, 0.35327, 0.60561, 2, 3.5, 15, 60],
+      [0.054072, 0.3785, 0.64886, 2, 3.5, 15, 60],
+      [0.057677, 0.40374, 0.69212, 2, 3.5, 15, 60],
+      [0.061282, 0.42897, 0.73538, 2, 3.5, 15, 60],
+      [0.064886, 0.45421, 0.77864, 2, 3.5, 15, 60],
+      [0.068491, 0.47944, 0.82189, 2, 3.5, 15, 60],
+      [0.072096, 0.50467, 0.86515, 2, 3.5, 15, 60],
+      [0.076602, 0.53621, 0.91922, 2, 3.5, 15, 60],
+      [0.081108, 0.56776, 0.9733, 2, 3.5, 15, 60],
+      [0.085614, 0.5993, 1.0274, 2, 3.5, 15, 60]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfElegance", "localeName": "「風雅」的教導", "rarity": 2, "count": 3 },
+        { "id": "SpectralHusk", "localeName": "浮游乾核", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "「風雅」的指引", "rarity": 3, "count": 2 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "「風雅」的指引", "rarity": 3, "count": 4 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "「風雅」的指引", "rarity": 3, "count": 6 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "「風雅」的指引", "rarity": 3, "count": 9 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4, "count": 4 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 4 },
+        { "id": "TearsOfTheCalamitousGod", "localeName": "禍神之禊淚", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4, "count": 6 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 6 },
+        { "id": "TearsOfTheCalamitousGod", "localeName": "禍神之禊淚", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4, "count": 12 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 9 },
+        { "id": "TearsOfTheCalamitousGod", "localeName": "禍神之禊淚", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4, "count": 16 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 12 },
+        { "id": "TearsOfTheCalamitousGod", "localeName": "禍神之禊淚", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackShinobusShadowsword",
+    "localeName": "普通攻擊·忍流飛刃斬",
+    "desc": "<color=#FFD780FF>普通攻擊</color>\n進行至多四段的連續劍擊。\n\n<color=#FFD780FF>重擊</color>\n消耗一定體力，瞬間向前方揮出兩劍。\n\n<color=#FFD780FF>下落攻擊</color>\n從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。",
+    "cd": 0,
+    "paramTpls": ["一段傷害|{param1:F1P}", "二段傷害|{param2:F1P}", "三段傷害|{param3:F1P}", "四段傷害|{param4:F1P}", "重擊傷害|{param5:F1P}+{param6:F1P}", "重擊體力消耗|{param7:F1}點", "下墜期間傷害|{param8:F1P}", "低空/高空墜地衝擊傷害|{param9:P}/{param10:P}"],
+    "paramVals": [
+      [0.48762, 0.44548, 0.5934, 0.7611, 0.55633, 0.66765, 20, 0.63932, 1.2784, 1.5968],
+      [0.52731, 0.48174, 0.6417, 0.82305, 0.60162, 0.722, 20, 0.69136, 1.3824, 1.7267],
+      [0.567, 0.518, 0.69, 0.885, 0.6469, 0.77634, 20, 0.7434, 1.4865, 1.8567],
+      [0.6237, 0.5698, 0.759, 0.9735, 0.71159, 0.85397, 20, 0.81774, 1.6351, 2.0424],
+      [0.66339, 0.60606, 0.8073, 1.0354, 0.75687, 0.90832, 20, 0.86978, 1.7392, 2.1723],
+      [0.70875, 0.6475, 0.8625, 1.1063, 0.80862, 0.97043, 20, 0.92925, 1.8581, 2.3209],
+      [0.77112, 0.70448, 0.9384, 1.2036, 0.87978, 1.0558, 20, 1.011, 2.0216, 2.5251],
+      [0.83349, 0.76146, 1.0143, 1.301, 0.95094, 1.1412, 20, 1.0928, 2.1851, 2.7293],
+      [0.89586, 0.81844, 1.0902, 1.3983, 1.0221, 1.2266, 20, 1.1746, 2.3486, 2.9336],
+      [0.9639, 0.8806, 1.173, 1.5045, 1.0997, 1.3198, 20, 1.2638, 2.527, 3.1564],
+      [1.0319, 0.94276, 1.2558, 1.6107, 1.1774, 1.4129, 20, 1.353, 2.7054, 3.3792],
+      [1.1, 1.0049, 1.3386, 1.7169, 1.255, 1.5061, 20, 1.4422, 2.8838, 3.602],
+      [1.168, 1.0671, 1.4214, 1.8231, 1.3326, 1.5993, 20, 1.5314, 3.0622, 3.8248],
+      [1.2361, 1.1292, 1.5042, 1.9293, 1.4102, 1.6924, 20, 1.6206, 3.2405, 4.0476],
+      [1.3041, 1.1914, 1.587, 2.0355, 1.4879, 1.7856, 20, 1.7098, 3.4189, 4.2704]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfElegance", "localeName": "「風雅」的教導", "rarity": 2, "count": 3 },
+        { "id": "SpectralHusk", "localeName": "浮游乾核", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "「風雅」的指引", "rarity": 3, "count": 2 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "「風雅」的指引", "rarity": 3, "count": 4 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "「風雅」的指引", "rarity": 3, "count": 6 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToElegance", "localeName": "「風雅」的指引", "rarity": 3, "count": 9 },
+        { "id": "SpectralHeart", "localeName": "浮游幽核", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4, "count": 4 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 4 },
+        { "id": "TearsOfTheCalamitousGod", "localeName": "禍神之禊淚", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4, "count": 6 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 6 },
+        { "id": "TearsOfTheCalamitousGod", "localeName": "禍神之禊淚", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4, "count": 12 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 9 },
+        { "id": "TearsOfTheCalamitousGod", "localeName": "禍神之禊淚", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4, "count": 16 },
+        { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3, "count": 12 },
+        { "id": "TearsOfTheCalamitousGod", "localeName": "禍神之禊淚", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "BreakingFree", "localeName": "破籠之志", "desc": "久岐忍的生命值不高於50%時，治療加成提升15%。", "unlock": 1, "values": [0.5, 0.15] },
+    { "name": "HeartsRepose", "localeName": "安心之所", "desc": "基於久岐忍的元素精通，<color=#FFD780FF>越祓雷草之輪</color>獲得以下提升：\n·治療量提升值：元素精通的75%；\n·傷害提升值：元素精通的25%。", "unlock": 4, "values": [0.75, 0.25] },
+    { "name": "ProtractedPrayers", "localeName": "久時的祝禱", "desc": "在稻妻執行時長為20小時的探索派遣任務時，獲得的獎勵增加25%。" }
+  ],
+  "c13ns": [
+    { "name": "ToCloisterCompassion", "localeName": "割捨憐憫之心", "desc": "<color=#FFD780FF>御詠鳴神刈山祭</color>的影響範圍提升50%。" },
+    { "name": "ToForsakeFortune", "localeName": "割捨僥倖之心", "desc": "<color=#FFD780FF>越祓草輪</color>的持續時間延長3秒。", "values": [3] },
+    { "name": "ToSequesterSorrow", "localeName": "割捨痛苦之心", "desc": "<color=#FFD780FF>越祓雷草之輪</color>的技能等級提高3級。\n至多提升至15級。" },
+    {
+      "name": "ToSeverSealing",
+      "localeName": "割捨封閉之心",
+      "desc": "處於久岐忍自己的<color=#FFD780FF>越祓草輪</color>狀態下的角色，在普通攻擊、重擊或下落攻擊命中敵人時，雷草標將落在敵人所在的位置，基於久岐忍生命值上限的9.7%，造成<color=#FFACFFFF>雷元素範圍傷害</color>。\n該效果每5秒至多觸發一次。",
+      "values": [0.097, 5]
+    },
+    { "name": "ToCeaseCourtesies", "localeName": "割捨逢迎之心", "desc": "<color=#FFD780FF>御詠鳴神刈山祭</color>的技能等級提高3級。\n至多提升至15級。" },
+    {
+      "name": "ToWardWeakness",
+      "localeName": "割捨軟弱之心",
+      "desc": "久岐忍承受足以使她倒下的傷害時，該次傷害不會使她倒下。這個效果在久岐忍生命值為1時會自動觸發，每60秒只能觸發一次。\n久岐忍生命值降至25%以下時，會提升自身150點精通，持續15秒，該效果每60秒只能觸發一次。",
+      "values": [0.25, 15, 150, 60]
+    }
+  ],
+  "overviewItems": [
+    { "id": "VajradaAmethystGemstone", "localeName": "最勝紫晶", "rarity": 5 },
+    { "id": "RunicFang", "localeName": "符紋之齒", "rarity": 4 },
+    { "id": "NakuWeed", "localeName": "鳴草" },
+    { "id": "SpectralNucleus", "localeName": "浮游晶化核", "rarity": 3 },
+    { "id": "PhilosophiesOfElegance", "localeName": "「風雅」的哲學", "rarity": 4 },
+    { "id": "TearsOfTheCalamitousGod", "localeName": "禍神之禊淚", "rarity": 5 }
+  ]
+}

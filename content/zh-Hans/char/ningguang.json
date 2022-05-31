@@ -1,0 +1,318 @@
+{
+  "uid": 10000027,
+  "id": "ningguang",
+  "name": "Ningguang",
+  "localeName": "凝光",
+  "desc": "「璃月七星」中的「天权」，其名下财富之多，全大陆鲜有人能望其项背。",
+  "baseHP": 820.61,
+  "baseATK": 17.808,
+  "baseDEF": 48.069,
+  "bodyType": 4,
+  "rarity": 4,
+  "weapon": 5,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "PrithivaTopazSliver", "localeName": "坚牢黄玉碎屑", "rarity": 2, "count": 1 },
+        { "id": "GlazeLily", "localeName": "琉璃百合", "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽记", "rarity": 1, "count": 3 }
+      ],
+      "HP": 613.04,
+      "ATK": 13.304,
+      "DEF": 35.91,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "PrithivaTopazFragment", "localeName": "坚牢黄玉断片", "rarity": 3, "count": 3 },
+        { "id": "BasaltPillar", "localeName": "玄岩之塔", "rarity": 4, "count": 2 },
+        { "id": "GlazeLily", "localeName": "琉璃百合", "count": 10 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽记", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1048.6,
+      "ATK": 22.757,
+      "DEF": 61.425,
+      "extra": 0.06
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "PrithivaTopazFragment", "localeName": "坚牢黄玉断片", "rarity": 3, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "玄岩之塔", "rarity": 4, "count": 4 },
+        { "id": "GlazeLily", "localeName": "琉璃百合", "count": 20 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1629.4,
+      "ATK": 35.36,
+      "DEF": 95.445,
+      "extra": 0.12
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "PrithivaTopazChunk", "localeName": "坚牢黄玉块", "rarity": 4, "count": 3 },
+        { "id": "BasaltPillar", "localeName": "玄岩之塔", "rarity": 4, "count": 8 },
+        { "id": "GlazeLily", "localeName": "琉璃百合", "count": 30 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2065,
+      "ATK": 44.813,
+      "DEF": 120.96,
+      "extra": 0.12
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "PrithivaTopazChunk", "localeName": "坚牢黄玉块", "rarity": 4, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "玄岩之塔", "rarity": 4, "count": 12 },
+        { "id": "GlazeLily", "localeName": "琉璃百合", "count": 45 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 12 }
+      ],
+      "HP": 2500.6,
+      "ATK": 54.265,
+      "DEF": 146.48,
+      "extra": 0.18
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "PrithivaTopazGemstone", "localeName": "坚牢黄玉", "rarity": 5, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "玄岩之塔", "rarity": 4, "count": 20 },
+        { "id": "GlazeLily", "localeName": "琉璃百合", "count": 60 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 24 }
+      ],
+      "HP": 2936.1,
+      "ATK": 63.718,
+      "DEF": 171.99,
+      "extra": 0.24
+    }
+  ],
+  "ascensionType": 31,
+  "element": 2,
+  "elemSkill": {
+    "name": "JadeScreen",
+    "localeName": "璇玑屏",
+    "desc": "借由黄金、黑曜岩与强者的余裕，构建出坚固的璇玑屏，并造成<color=#FFE699FF>岩元素范围伤害</color>。\n\n<color=#FFD780FF>璇玑屏</color>\n·阻挡敌人发射的投射物；\n·耐久度按比例继承凝光的生命值上限。\n\n璇玑屏被视为<color=#FFE699FF>岩元素创造物</color>，可以阻挡部分攻击，不可攀爬。同时只能存在一个。\n\n<i>星罗棋布，璇玑合屏。</i>",
+    "cd": 12,
+    "paramTpls": ["继承生命|{param3:F1P}", "技能伤害|{param2:P}", "冷却时间|{param4:F1}秒"],
+    "paramVals": [
+      [-0.499, 2.304, 0.501, 12],
+      [-0.469, 2.4768, 0.531, 12],
+      [-0.439, 2.6496, 0.561, 12],
+      [-0.4, 2.88, 0.6, 12],
+      [-0.37, 3.0528, 0.63, 12],
+      [-0.34, 3.2256, 0.66, 12],
+      [-0.301, 3.456, 0.699, 12],
+      [-0.262, 3.6864, 0.738, 12],
+      [-0.223, 3.9168, 0.777, 12],
+      [-0.184, 4.1472, 0.816, 12],
+      [-0.145, 4.3776, 0.855, 12],
+      [-0.106, 4.608, 0.894, 12],
+      [-0.067, 4.896, 0.933, 12],
+      [-0.028, 5.184, 0.972, 12],
+      [0.011, 5.472, 1.011, 12]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfProsperity", "localeName": "「繁荣」的教导", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽记", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "Starshatter",
+    "localeName": "天权崩玉",
+    "desc": "凝光在身边凝聚诸多宝石，散之一瞬，自动索敌打击附近的敌人，造成大量<color=#FFE699FF>岩元素伤害</color>。\n施放天权崩玉时，如果附近有璇玑屏存在，璇玑屏将发射额外的宝石飞弹协同攻击。\n\n<i>星散玉崩，尽灭群丑。</i>",
+    "cd": 12,
+    "energyCost": 40,
+    "paramTpls": ["宝石伤害|每个{param1:F1P}", "冷却时间|{param2:F1}秒", "元素能量|{param3:I}"],
+    "paramVals": [
+      [0.8696, 12, 40],
+      [0.93482, 12, 40],
+      [1, 12, 40],
+      [1.087, 12, 40],
+      [1.1522, 12, 40],
+      [1.2174, 12, 40],
+      [1.3044, 12, 40],
+      [1.3914, 12, 40],
+      [1.4783, 12, 40],
+      [1.5653, 12, 40],
+      [1.6522, 12, 40],
+      [1.7392, 12, 40],
+      [1.8479, 12, 40],
+      [1.9566, 12, 40],
+      [2.0653, 12, 40]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfProsperity", "localeName": "「繁荣」的教导", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽记", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackSparklingScatter",
+    "localeName": "普通攻击·千金掷",
+    "desc": "<color=#FFD780FF>普通攻击</color>\n发射宝石，造成<color=#FFE699FF>岩元素伤害</color>。\n命中时，赋予凝光一枚星璇。\n\n<color=#FFD780FF>重击</color>\n消耗体力，发射一颗巨型宝石，造成<color=#FFE699FF>岩元素伤害</color>。\n若凝光拥有星璇，施放重击时会将所有星璇一同发射，造成额外的伤害。\n\n<color=#FFD780FF>下落攻击</color>\n凝聚晶岩的力量，从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成<color=#FFE699FF>岩元素范围伤害</color>。",
+    "cd": 0,
+    "paramTpls": ["普通攻击伤害|{param1:F1P}", "重击伤害|{param2:P}", "星璇伤害|每个{param3:F1P}", "重击体力消耗|{param4:F1}点", "下坠期间伤害|{param5:F1P}", "低空/高空坠地冲击伤害|{param6:P}/{param7:P}"],
+    "paramVals": [
+      [0.28, 1.7408, 0.496, 50, 0.56829, 1.1363, 1.4193],
+      [0.301, 1.8714, 0.5332, 50, 0.61454, 1.2288, 1.5349],
+      [0.322, 2.0019, 0.5704, 50, 0.6608, 1.3213, 1.6504],
+      [0.35, 2.176, 0.62, 50, 0.72688, 1.4535, 1.8154],
+      [0.371, 2.3066, 0.6572, 50, 0.77314, 1.5459, 1.931],
+      [0.392, 2.4371, 0.6944, 50, 0.826, 1.6516, 2.063],
+      [0.42, 2.6112, 0.744, 50, 0.89869, 1.797, 2.2445],
+      [0.448, 2.7853, 0.7936, 50, 0.97138, 1.9423, 2.4261],
+      [0.476, 2.9594, 0.8432, 50, 1.0441, 2.0877, 2.6076],
+      [0.504, 3.1334, 0.8928, 50, 1.1234, 2.2462, 2.8057],
+      [0.53312, 3.3145, 0.94438, 50, 1.2027, 2.4048, 3.0037],
+      [0.5712, 3.5512, 1.0118, 50, 1.282, 2.5634, 3.2018],
+      [0.60928, 3.788, 1.0793, 50, 1.3612, 2.7219, 3.3998],
+      [0.64736, 4.0247, 1.1468, 50, 1.4405, 2.8805, 3.5979],
+      [0.68544, 4.2615, 1.2142, 50, 1.5198, 3.039, 3.7959]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfProsperity", "localeName": "「繁荣」的教导", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵的徽记", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁荣」的指引", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官的徽记", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智识之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "BackupPlan", "localeName": "星移势转", "desc": "拥有星璇时，凝光的重击不会消耗体力。", "unlock": 1 },
+    { "name": "StrategicReserve", "localeName": "储之千日，用之一刻", "desc": "穿过<color=#FFD780FF>璇玑屏</color>的角色会获得12%<color=#FFE699FF>岩元素伤害加成</color>，持续10秒。", "unlock": 4, "values": [0.12, 10] },
+    { "name": "TroveOfMarvelousTreasures", "localeName": "奇石珠宝录", "desc": "在小地图上显示周围能产出<color=#FFD780FF>锻造用矿石的矿脉</color>位置。" }
+  ],
+  "c13ns": [
+    { "name": "PiercingFragments", "localeName": "悬星尽散击云碎", "desc": "普通攻击命中时，会造成范围伤害。" },
+    { "name": "ShockEffect", "localeName": "璇玑合璧镇昆仑", "desc": "<color=#FFD780FF>璇玑屏</color>碎裂时，会清除冷却时间。\n该效果每6秒只能触发一次。" },
+    { "name": "MajestyBeTheArrayOfStars", "localeName": "星罗宿列天权临", "desc": "<color=#FFD780FF>天权崩玉</color>的技能等级提高3级。\n至多提升至15级。" },
+    { "name": "ExquisiteBeTheJadeOutshiningAllBeneath", "localeName": "攻守易形著神机", "desc": "<color=#FFD780FF>璇玑屏</color>会使周围角色的所有元素抗性提升10%。" },
+    { "name": "InvincibleBeTheJadeScreen", "localeName": "琼屏千扇正天衡", "desc": "<color=#FFD780FF>璇玑屏</color>的技能等级提高3级。\n至多提升至15级。" },
+    { "name": "GrandeurBeTheSevenStars", "localeName": "七星璨璨凝流光", "desc": "施放<color=#FFD780FF>天权崩玉</color>时，会为凝光生成七枚星璇。" }
+  ],
+  "overviewItems": [
+    { "id": "PrithivaTopazGemstone", "localeName": "坚牢黄玉", "rarity": 5 },
+    { "id": "BasaltPillar", "localeName": "玄岩之塔", "rarity": 4 },
+    { "id": "GlazeLily", "localeName": "琉璃百合" },
+    { "id": "LieutenantsInsignia", "localeName": "尉官的徽记", "rarity": 3 },
+    { "id": "PhilosophiesOfProsperity", "localeName": "「繁荣」的哲学", "rarity": 4 },
+    { "id": "SpiritLocketOfBoreas", "localeName": "北风的魂匣", "rarity": 5 }
+  ]
+}

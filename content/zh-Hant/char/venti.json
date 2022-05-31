@@ -1,0 +1,333 @@
+{
+  "uid": 10000022,
+  "id": "venti",
+  "name": "Venti",
+  "localeName": "溫迪",
+  "desc": "蒙德城諸多吟遊詩人中的一位，自由自在地穿行在街頭巷尾。",
+  "baseHP": 819.86,
+  "baseATK": 20.482,
+  "baseDEF": 52.052,
+  "bodyType": 0,
+  "rarity": 5,
+  "weapon": 2,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "VayudaTurquoiseSliver", "localeName": "自在松石碎屑", "rarity": 2, "count": 1 },
+        { "id": "Cecilia", "localeName": "塞西莉亞花", "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "史萊姆凝液", "rarity": 1, "count": 3 }
+      ],
+      "HP": 702.95,
+      "ATK": 17.56,
+      "DEF": 44.631,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "VayudaTurquoiseFragment", "localeName": "自在松石斷片", "rarity": 3, "count": 3 },
+        { "id": "HurricaneSeed", "localeName": "颶風之種", "rarity": 4, "count": 2 },
+        { "id": "Cecilia", "localeName": "塞西莉亞花", "count": 10 },
+        { "id": "SlimeCondensate", "localeName": "史萊姆凝液", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1202.4,
+      "ATK": 30.037,
+      "DEF": 76.342,
+      "extra": 0.08
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "VayudaTurquoiseFragment", "localeName": "自在松石斷片", "rarity": 3, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "颶風之種", "rarity": 4, "count": 4 },
+        { "id": "Cecilia", "localeName": "塞西莉亞花", "count": 20 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1868.4,
+      "ATK": 46.673,
+      "DEF": 118.62,
+      "extra": 0.16
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "VayudaTurquoiseChunk", "localeName": "自在松石塊", "rarity": 4, "count": 3 },
+        { "id": "HurricaneSeed", "localeName": "颶風之種", "rarity": 4, "count": 8 },
+        { "id": "Cecilia", "localeName": "塞西莉亞花", "count": 30 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2367.8,
+      "ATK": 59.15,
+      "DEF": 150.34,
+      "extra": 0.16
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "VayudaTurquoiseChunk", "localeName": "自在松石塊", "rarity": 4, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "颶風之種", "rarity": 4, "count": 12 },
+        { "id": "Cecilia", "localeName": "塞西莉亞花", "count": 45 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 12 }
+      ],
+      "HP": 2867.3,
+      "ATK": 71.627,
+      "DEF": 182.05,
+      "extra": 0.24
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "VayudaTurquoiseGemstone", "localeName": "自在松石", "rarity": 5, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "颶風之種", "rarity": 4, "count": 20 },
+        { "id": "Cecilia", "localeName": "塞西莉亞花", "count": 60 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 24 }
+      ],
+      "HP": 3366.8,
+      "ATK": 84.104,
+      "DEF": 213.76,
+      "extra": 0.32
+    }
+  ],
+  "ascensionType": 10,
+  "element": 1,
+  "elemSkill": {
+    "name": "SkywardSonnet",
+    "localeName": "高天之歌",
+    "desc": "呼喚與詩和樂協鳴的風，將在塵泥中行走的事物送上高空吧。\n\n<color=#FFD780FF>點按</color>\n在敵人所在的位置喚出風域，造成<color=#80FFD7FF>風元素範圍傷害</color>，並擊飛其中的敵人。\n\n<color=#FFD780FF>長按</color>\n以自身為中心，喚出更大的風域，造成<color=#80FFD7FF>風元素範圍傷害</color>，並擊飛其中的敵人。\n長按施放後，溫迪會乘風飛到空中。\n\n被高天之歌擊飛的敵人，在短時間內會緩慢墜落。\n\n<i>在人與神還同行於大地的時代，無數的歌曲傳遍四方的天空。這是早已被遺忘的曲調。</i>",
+    "cd": 6,
+    "paramTpls": ["點按傷害|{param1:P}", "點按冷卻時間|{param2:F1}秒", "長按傷害|{param3:P}", "長按冷卻時間|{param4:F1}秒"],
+    "paramVals": [
+      [2.76, 6, 3.8, 15],
+      [2.967, 6, 4.085, 15],
+      [3.174, 6, 4.37, 15],
+      [3.45, 6, 4.75, 15],
+      [3.657, 6, 5.035, 15],
+      [3.864, 6, 5.32, 15],
+      [4.14, 6, 5.7, 15],
+      [4.416, 6, 6.08, 15],
+      [4.692, 6, 6.46, 15],
+      [4.968, 6, 6.84, 15],
+      [5.244, 6, 7.22, 15],
+      [5.52, 6, 7.6, 15],
+      [5.865, 6, 8.075, 15],
+      [6.21, 6, 8.55, 15],
+      [6.555, 6, 9.025, 15]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfBallad", "localeName": "「詩文」的教導", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "史萊姆凝液", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 4 },
+        { "id": "TailOfBoreas", "localeName": "北風之尾", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 6 },
+        { "id": "TailOfBoreas", "localeName": "北風之尾", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 9 },
+        { "id": "TailOfBoreas", "localeName": "北風之尾", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 12 },
+        { "id": "TailOfBoreas", "localeName": "北風之尾", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "WindsGrandOde",
+    "localeName": "風神之詩",
+    "desc": "射出千風彙聚而成的箭矢，在前方造出巨大的暴風之眼，將敵人捲入，持續造成<color=#80FFD7FF>風元素傷害</color>。\n\n<color=#FFD780FF>元素轉化</color>\n若暴風之眼在技能持續期間接觸了<color=#80C0FFFF>水元素</color>/<color=#FF9999FF>火元素</color>/<color=#99FFFFFF>冰元素</color>/<color=#FFACFFFF>雷元素</color>，則會獲得對應元素屬性，額外造成該元素的附加傷害。\n元素轉化在技能持續期間僅會發生一次。\n\n<i>稱頌風之神的詩篇有許多已經佚失。其中這一首描述的是他與風的力量。</i>",
+    "cd": 15,
+    "energyCost": 60,
+    "paramTpls": ["持續傷害|{param1:F1P}", "附加元素傷害|{param2:F1P}", "持續時間|{param3:F1}秒", "冷卻時間|{param4:F1}秒", "元素能量|{param5:I}"],
+    "paramVals": [
+      [0.376, 0.188, 8, 15, 60],
+      [0.4042, 0.2021, 8, 15, 60],
+      [0.4324, 0.2162, 8, 15, 60],
+      [0.47, 0.235, 8, 15, 60],
+      [0.4982, 0.2491, 8, 15, 60],
+      [0.5264, 0.2632, 8, 15, 60],
+      [0.564, 0.282, 8, 15, 60],
+      [0.6016, 0.3008, 8, 15, 60],
+      [0.6392, 0.3196, 8, 15, 60],
+      [0.6768, 0.3384, 8, 15, 60],
+      [0.7144, 0.3572, 8, 15, 60],
+      [0.752, 0.376, 8, 15, 60],
+      [0.799, 0.3995, 8, 15, 60],
+      [0.846, 0.423, 8, 15, 60],
+      [0.893, 0.4465, 8, 15, 60]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfBallad", "localeName": "「詩文」的教導", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "史萊姆凝液", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 4 },
+        { "id": "TailOfBoreas", "localeName": "北風之尾", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 6 },
+        { "id": "TailOfBoreas", "localeName": "北風之尾", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 9 },
+        { "id": "TailOfBoreas", "localeName": "北風之尾", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 12 },
+        { "id": "TailOfBoreas", "localeName": "北風之尾", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackDivineMarksmanship",
+    "localeName": "普通攻擊·神代射術",
+    "desc": "<color=#FFD780FF>普通攻擊</color>\n進行至多六段的連續弓箭射擊。\n\n<color=#FFD780FF>重擊</color>\n進行傷害更高、更為精準的<color=#FFD780FF>瞄準射擊</color>。\n瞄準時，眷顧天地的風會在箭矢上持續匯聚。聚滿了風之力的箭矢會造成<color=#80FFD7FF>風元素傷害</color>。\n\n<color=#FFD780FF>下落攻擊</color>\n從空中射出箭雨，並迅速下墜衝擊地面，在落地時造成範圍傷害。",
+    "cd": 0,
+    "paramTpls": [
+      "一段傷害|{param1:F1P}+{param1:F1P}",
+      "二段傷害|{param2:F1P}",
+      "三段傷害|{param3:F1P}",
+      "四段傷害|{param4:F1P}+{param4:F1P}",
+      "五段傷害|{param5:F1P}",
+      "六段傷害|{param6:F1P}",
+      "瞄準射擊|{param7:F1P}",
+      "滿蓄力瞄準射擊|{param8:P}",
+      "下墜期間傷害|{param9:F1P}",
+      "低空/高空墜地衝擊傷害|{param10:P}/{param11:P}"
+    ],
+    "paramVals": [
+      [0.20382, 0.44376, 0.52374, 0.26058, 0.50654, 0.7095, 0.4386, 1.24, 0.56829, 1.1363, 1.4193],
+      [0.22041, 0.47988, 0.56637, 0.28179, 0.54777, 0.76725, 0.4743, 1.333, 0.61454, 1.2288, 1.5349],
+      [0.237, 0.516, 0.609, 0.303, 0.589, 0.825, 0.51, 1.426, 0.6608, 1.3213, 1.6504],
+      [0.2607, 0.5676, 0.6699, 0.3333, 0.6479, 0.9075, 0.561, 1.55, 0.72688, 1.4535, 1.8154],
+      [0.27729, 0.60372, 0.71253, 0.35451, 0.68913, 0.96525, 0.5967, 1.643, 0.77314, 1.5459, 1.931],
+      [0.29625, 0.645, 0.76125, 0.37875, 0.73625, 1.0313, 0.6375, 1.736, 0.826, 1.6516, 2.063],
+      [0.32232, 0.70176, 0.82824, 0.41208, 0.80104, 1.122, 0.6936, 1.86, 0.89869, 1.797, 2.2445],
+      [0.34839, 0.75852, 0.89523, 0.44541, 0.86583, 1.2127, 0.7497, 1.984, 0.97138, 1.9423, 2.4261],
+      [0.37446, 0.81528, 0.96222, 0.47874, 0.93062, 1.3035, 0.8058, 2.108, 1.0441, 2.0877, 2.6076],
+      [0.4029, 0.8772, 1.0353, 0.5151, 1.0013, 1.4025, 0.867, 2.232, 1.1234, 2.2462, 2.8057],
+      [0.43549, 0.94815, 1.119, 0.55676, 1.0823, 1.5159, 0.93713, 2.361, 1.2027, 2.4048, 3.0037],
+      [0.47381, 1.0316, 1.2175, 0.60576, 1.1775, 1.6493, 1.0196, 2.5296, 1.282, 2.5634, 3.2018],
+      [0.51213, 1.115, 1.316, 0.65475, 1.2728, 1.7827, 1.1021, 2.6982, 1.3612, 2.7219, 3.3998],
+      [0.55046, 1.1985, 1.4145, 0.70375, 1.368, 1.9161, 1.1845, 2.8669, 1.4405, 2.8805, 3.5979],
+      [0.59226, 1.2895, 1.5219, 0.7572, 1.4719, 2.0617, 1.2745, 3.0355, 1.5198, 3.039, 3.7959]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfBallad", "localeName": "「詩文」的教導", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "史萊姆凝液", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "「詩文」的指引", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "史萊姆清", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 4 },
+        { "id": "TailOfBoreas", "localeName": "北風之尾", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 6 },
+        { "id": "TailOfBoreas", "localeName": "北風之尾", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 9 },
+        { "id": "TailOfBoreas", "localeName": "北風之尾", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3, "count": 12 },
+        { "id": "TailOfBoreas", "localeName": "北風之尾", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "智識之冕", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "EmbraceOfWinds", "localeName": "緒風之擁", "desc": "長按<color=#FFD780FF>高天之歌</color>後，會產生上升氣流，持續20秒。", "unlock": 1, "values": [20] },
+    { "name": "Stormeye", "localeName": "暴風之眼", "desc": "<color=#FFD780FF>風神之詩</color>效果結束後，會為溫迪恢復15點元素能量；\n若產生了元素轉化，則同樣為隊伍中所有對應元素的角色恢復15點元素能量。", "unlock": 4, "values": [15, 15] },
+    { "name": "Windrider", "localeName": "恆風隨行", "desc": "隊伍中自己的角色滑翔消耗的體力降低20%。\n無法與效果完全相同的固有天賦疊加。" }
+  ],
+  "c13ns": [
+    { "name": "SplittingGales", "localeName": "弦發的蒼風", "desc": "<color=#FFD780FF>瞄準射擊</color>會額外發射兩枚分裂箭，分別造成原本33%的傷害。" },
+    {
+      "name": "BreezeOfReminiscence",
+      "localeName": "眷戀的泠風",
+      "desc": "<color=#FFD780FF>高天之歌</color>會使敵人的<color=#80FFD7FF>風元素抗性</color>與物理抗性降低12%，持續10秒。\n被<color=#FFD780FF>高天之歌</color>擊飛的敵人在落地前，<color=#80FFD7FF>風元素抗性</color>與物理抗性額外降低12%。"
+    },
+    { "name": "OdeToThousandWinds", "localeName": "千風的詩篇", "desc": "<color=#FFD780FF>風神之詩</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "HurricaneOfFreedom", "localeName": "自由的凜風", "desc": "溫迪獲得元素晶球或元素微粒後，獲得25%<color=#80FFD7FF>風元素傷害加成</color>，持續10秒。" },
+    { "name": "ConcertoDalCielo", "localeName": "高天的協奏", "desc": "<color=#FFD780FF>高天之歌</color>的技能等級提高3級。\n至多提升至15級。" },
+    { "name": "StormOfDefiance", "localeName": "抗爭的暴風", "desc": "受<color=#FFD780FF>風神之詩</color>傷害的敵人，<color=#80FFD7FF>風元素抗性</color>降低20%；\n若產生了元素轉化，則使轉換的元素抗性也降低20%。" }
+  ],
+  "overviewItems": [
+    { "id": "VayudaTurquoiseGemstone", "localeName": "自在松石", "rarity": 5 },
+    { "id": "HurricaneSeed", "localeName": "颶風之種", "rarity": 4 },
+    { "id": "Cecilia", "localeName": "塞西莉亞花" },
+    { "id": "SlimeConcentrate", "localeName": "史萊姆原漿", "rarity": 3 },
+    { "id": "PhilosophiesOfBallad", "localeName": "「詩文」的哲學", "rarity": 4 },
+    { "id": "TailOfBoreas", "localeName": "北風之尾", "rarity": 5 }
+  ]
+}

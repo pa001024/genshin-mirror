@@ -1,0 +1,332 @@
+{
+  "uid": 10000015,
+  "id": "kaeya",
+  "name": "Kaeya",
+  "localeName": "Kaeya",
+  "desc": "An accomplished swordsman and a strategic thinker in the Knights of Favonius, rumored to hail from beyond Mondstadt.",
+  "baseHP": 975.62,
+  "baseATK": 18.698,
+  "baseDEF": 66.381,
+  "bodyType": 1,
+  "rarity": 4,
+  "weapon": 1,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "ShivadaJadeSliver", "localeName": "Shivada Jade Sliver", "rarity": 2, "count": 1 },
+        { "id": "CallaLily", "localeName": "Calla Lily", "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "Treasure Hoarder Insignia", "rarity": 1, "count": 3 }
+      ],
+      "HP": 728.84,
+      "ATK": 13.969,
+      "DEF": 49.59,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "ShivadaJadeFragment", "localeName": "Shivada Jade Fragment", "rarity": 3, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "Hoarfrost Core", "rarity": 4, "count": 2 },
+        { "id": "CallaLily", "localeName": "Calla Lily", "count": 10 },
+        { "id": "TreasureHoarderInsignia", "localeName": "Treasure Hoarder Insignia", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1246.7,
+      "ATK": 23.894,
+      "DEF": 84.825,
+      "extra": 0.0667
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "ShivadaJadeFragment", "localeName": "Shivada Jade Fragment", "rarity": 3, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "Hoarfrost Core", "rarity": 4, "count": 4 },
+        { "id": "CallaLily", "localeName": "Calla Lily", "count": 20 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 12 }
+      ],
+      "HP": 1937.2,
+      "ATK": 37.128,
+      "DEF": 131.8,
+      "extra": 0.1333
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "ShivadaJadeChunk", "localeName": "Shivada Jade Chunk", "rarity": 4, "count": 3 },
+        { "id": "HoarfrostCore", "localeName": "Hoarfrost Core", "rarity": 4, "count": 8 },
+        { "id": "CallaLily", "localeName": "Calla Lily", "count": 30 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 18 }
+      ],
+      "HP": 2455,
+      "ATK": 47.053,
+      "DEF": 167.04,
+      "extra": 0.1333
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "ShivadaJadeChunk", "localeName": "Shivada Jade Chunk", "rarity": 4, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "Hoarfrost Core", "rarity": 4, "count": 12 },
+        { "id": "CallaLily", "localeName": "Calla Lily", "count": 45 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 12 }
+      ],
+      "HP": 2972.9,
+      "ATK": 56.979,
+      "DEF": 202.27,
+      "extra": 0.2
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "ShivadaJadeGemstone", "localeName": "Shivada Jade Gemstone", "rarity": 5, "count": 6 },
+        { "id": "HoarfrostCore", "localeName": "Hoarfrost Core", "rarity": 4, "count": 20 },
+        { "id": "CallaLily", "localeName": "Calla Lily", "count": 60 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 24 }
+      ],
+      "HP": 3490.7,
+      "ATK": 66.904,
+      "DEF": 237.51,
+      "extra": 0.2667
+    }
+  ],
+  "ascensionType": 10,
+  "element": 7,
+  "elemSkill": {
+    "name": "Frostgnaw",
+    "localeName": "Frostgnaw",
+    "desc": "Unleashes a frigid blast, dealing <color=#99FFFFFF>Cryo DMG</color> to opponents in front of Kaeya.\n\n<i>Kaeya seems affable, but his nature is that of unyielding ice.</i>",
+    "cd": 6,
+    "paramTpls": ["Skill DMG|{param1:P}", "CD|{param2:F1}s"],
+    "paramVals": [
+      [1.912, 6],
+      [2.0554, 6],
+      [2.1988, 6],
+      [2.39, 6],
+      [2.5334, 6],
+      [2.6768, 6],
+      [2.868, 6],
+      [3.0592, 6],
+      [3.2504, 6],
+      [3.4416, 6],
+      [3.6328, 6],
+      [3.824, 6],
+      [4.063, 6],
+      [4.302, 6],
+      [4.541, 6]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfBallad", "localeName": "Teachings of Ballad", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "Treasure Hoarder Insignia", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "GlacialWaltz",
+    "localeName": "Glacial Waltz",
+    "desc": "Coalescing the frost in the air, Kaeya summons 3 icicles that revolve around him.\nThese icicles will follow the character around and deal <color=#99FFFFFF>Cryo DMG</color> to opponents in their path for the ability's duration.\n\n<i>A winsome smile, genial words, and the merciless hoarfrost that lies beneath... These are all Kaeya's weapons.</i>",
+    "cd": 15,
+    "energyCost": 60,
+    "paramTpls": ["Skill DMG|{param1:F1P}", "CD|{param2:F1}s", "Duration|{param3:F1}s", "Energy Cost|{param4:I}"],
+    "paramVals": [
+      [0.776, 15, 8, 60],
+      [0.8342, 15, 8, 60],
+      [0.8924, 15, 8, 60],
+      [0.97, 15, 8, 60],
+      [1.0282, 15, 8, 60],
+      [1.0864, 15, 8, 60],
+      [1.164, 15, 8, 60],
+      [1.2416, 15, 8, 60],
+      [1.3192, 15, 8, 60],
+      [1.3968, 15, 8, 60],
+      [1.4744, 15, 8, 60],
+      [1.552, 15, 8, 60],
+      [1.649, 15, 8, 60],
+      [1.746, 15, 8, 60],
+      [1.843, 15, 8, 60]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfBallad", "localeName": "Teachings of Ballad", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "Treasure Hoarder Insignia", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackCeremonialBladework",
+    "localeName": "Normal Attack: Ceremonial Bladework",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerform up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "cd": 0,
+    "paramTpls": [
+      "1-Hit DMG|{param1:F1P}",
+      "2-Hit DMG|{param2:F1P}",
+      "3-Hit DMG|{param3:F1P}",
+      "4-Hit DMG|{param4:F1P}",
+      "5-Hit DMG|{param5:F1P}",
+      "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+      "Charged Attack Stamina Cost|{param8:F1}",
+      "Plunge DMG|{param9:F1P}",
+      "Low/High Plunge DMG|{param10:P}/{param11:P}"
+    ],
+    "paramVals": [
+      [0.5375, 0.51686, 0.65274, 0.70864, 0.88236, 0.5504, 0.731, 20, 0.63932, 1.2784, 1.5968],
+      [0.58125, 0.55893, 0.70587, 0.76632, 0.95418, 0.5952, 0.7905, 20, 0.69136, 1.3824, 1.7267],
+      [0.625, 0.601, 0.759, 0.824, 1.026, 0.64, 0.85, 20, 0.7434, 1.4865, 1.8567],
+      [0.6875, 0.6611, 0.8349, 0.9064, 1.1286, 0.704, 0.935, 20, 0.81774, 1.6351, 2.0424],
+      [0.73125, 0.70317, 0.88803, 0.96408, 1.2004, 0.7488, 0.9945, 20, 0.86978, 1.7392, 2.1723],
+      [0.78125, 0.75125, 0.94875, 1.03, 1.2825, 0.8, 1.0625, 20, 0.92925, 1.8581, 2.3209],
+      [0.85, 0.81736, 1.0322, 1.1206, 1.3954, 0.8704, 1.156, 20, 1.011, 2.0216, 2.5251],
+      [0.91875, 0.88347, 1.1157, 1.2113, 1.5082, 0.9408, 1.2495, 20, 1.0928, 2.1851, 2.7293],
+      [0.9875, 0.94958, 1.1992, 1.3019, 1.6211, 1.0112, 1.343, 20, 1.1746, 2.3486, 2.9336],
+      [1.0625, 1.0217, 1.2903, 1.4008, 1.7442, 1.088, 1.445, 20, 1.2638, 2.527, 3.1564],
+      [1.1484, 1.1043, 1.3947, 1.5141, 1.8853, 1.176, 1.5619, 20, 1.353, 2.7054, 3.3792],
+      [1.2495, 1.2015, 1.5174, 1.6473, 2.0512, 1.2795, 1.6993, 20, 1.4422, 2.8838, 3.602],
+      [1.3506, 1.2987, 1.6401, 1.7806, 2.2171, 1.383, 1.8368, 20, 1.5314, 3.0622, 3.8248],
+      [1.4516, 1.3959, 1.7629, 1.9138, 2.383, 1.4865, 1.9742, 20, 1.6206, 3.2405, 4.0476],
+      [1.5619, 1.5019, 1.8967, 2.0592, 2.564, 1.5994, 2.1242, 20, 1.7098, 3.4189, 4.2704]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfBallad", "localeName": "Teachings of Ballad", "rarity": 2, "count": 3 },
+        { "id": "TreasureHoarderInsignia", "localeName": "Treasure Hoarder Insignia", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 2 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 4 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 6 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToBallad", "localeName": "Guide to Ballad", "rarity": 3, "count": 9 },
+        { "id": "SilverRavenInsignia", "localeName": "Silver Raven Insignia", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 4 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 4 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 6 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 6 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 12 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 9 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4, "count": 16 },
+        { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3, "count": 12 },
+        { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "ColdBloodedStrike", "localeName": "Cold-Blooded Strike", "desc": "Every hit with <color=#FFD780FF>Frostgnaw</color> regenerates HP for Kaeya equal to 15% of his ATK.", "unlock": 1 },
+    { "name": "GlacialHeart", "localeName": "Glacial Heart", "desc": "Opponents <color=#99FFFFFF>Frozen</color> by <color=#FFD780FF>Frostgnaw</color> will drop additional Elemental Particles.\nFrostgnaw may only produce a maximum of 2 additional Elemental Particles per use.", "unlock": 4 },
+    { "name": "HiddenStrength", "localeName": "Hidden Strength", "desc": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects." }
+  ],
+  "c13ns": [
+    { "name": "ExcellentBlood", "localeName": "Excellent Blood", "desc": "The CRIT Rate of Kaeya's Normal and Charge Attacks against opponents affected by <color=#99FFFFFF>Cryo</color> is increased by 15%." },
+    { "name": "NeverEndingPerformance", "localeName": "Never-Ending Performance", "desc": "Every time <color=#FFD780FF>Glacial Waltz</color> defeats an opponent during its duration, its duration is increased by 2.5s, up to a maximum of 15s." },
+    { "name": "DanceOfFrost", "localeName": "Dance of Frost", "desc": "Increases the Level of <color=#FFD780FF>Frostgnaw</color> by 3.\nMaximum upgrade level is 15." },
+    {
+      "name": "FrozenKiss",
+      "localeName": "Frozen Kiss",
+      "desc": "Triggers automatically when Kaeya's HP falls below 20%:\nCreates a shield that absorbs damage equal to 30% of Kaeya's Max HP. Lasts for 20s.\nThis shield absorbs <color=#99FFFFFF>Cryo DMG</color> with 250% efficiency.\nCan only occur once every 60s."
+    },
+    { "name": "FrostbitingEmbrace", "localeName": "Frostbiting Embrace", "desc": "Increases the Level of <color=#FFD780FF>Glacial Waltz</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "GlacialWhirlwind", "localeName": "Glacial Whirlwind", "desc": "<color=#FFD780FF>Glacial Waltz</color> will generate 1 additional icicle, and will regenerate 15 Energy when cast." }
+  ],
+  "overviewItems": [
+    { "id": "ShivadaJadeGemstone", "localeName": "Shivada Jade Gemstone", "rarity": 5 },
+    { "id": "HoarfrostCore", "localeName": "Hoarfrost Core", "rarity": 4 },
+    { "id": "CallaLily", "localeName": "Calla Lily" },
+    { "id": "GoldenRavenInsignia", "localeName": "Golden Raven Insignia", "rarity": 3 },
+    { "id": "PhilosophiesOfBallad", "localeName": "Philosophies of Ballad", "rarity": 4 },
+    { "id": "SpiritLocketOfBoreas", "localeName": "Spirit Locket of Boreas", "rarity": 5 }
+  ]
+}

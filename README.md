@@ -105,6 +105,10 @@ get code() {
 ## Build Setup
 
 ```bash
+# change git config
+git config core.ignorecase false --global
+git clone xxx --recurse-submodules
+
 # install dependencies
 $ yarn install
 

@@ -1,0 +1,339 @@
+{
+  "uid": 10000060,
+  "id": "yelan",
+  "name": "Yelan",
+  "localeName": "夜蘭",
+  "desc": "総務司所属を称する謎の人物。しかし、総務司の名簿上では「存在しない人」となっている。",
+  "baseHP": 1124.9,
+  "baseATK": 18.992,
+  "baseDEF": 42.659,
+  "bodyType": 4,
+  "rarity": 5,
+  "weapon": 2,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "VarunadaLazuriteSliver", "localeName": "澄明なラピスラズリ·砕屑", "rarity": 2, "count": 1 },
+        { "id": "Starconch", "localeName": "星螺", "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵の記章", "rarity": 1, "count": 3 }
+      ],
+      "HP": 964.52,
+      "ATK": 16.283,
+      "DEF": 36.577,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "VarunadaLazuriteFragment", "localeName": "澄明なラピスラズリ·欠片", "rarity": 3, "count": 3 },
+        { "id": "RunicFang", "localeName": "符文の歯車", "rarity": 4, "count": 2 },
+        { "id": "Starconch", "localeName": "星螺", "count": 10 },
+        { "id": "RecruitsInsignia", "localeName": "新兵の記章", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1649.8,
+      "ATK": 27.853,
+      "DEF": 62.566,
+      "extra": 0.048
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "VarunadaLazuriteFragment", "localeName": "澄明なラピスラズリ·欠片", "rarity": 3, "count": 6 },
+        { "id": "RunicFang", "localeName": "符文の歯車", "rarity": 4, "count": 4 },
+        { "id": "Starconch", "localeName": "星螺", "count": 20 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 12 }
+      ],
+      "HP": 2563.6,
+      "ATK": 43.279,
+      "DEF": 97.218,
+      "extra": 0.096
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "VarunadaLazuriteChunk", "localeName": "澄明なラピスラズリ·塊", "rarity": 4, "count": 3 },
+        { "id": "RunicFang", "localeName": "符文の歯車", "rarity": 4, "count": 8 },
+        { "id": "Starconch", "localeName": "星螺", "count": 30 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 18 }
+      ],
+      "HP": 3248.9,
+      "ATK": 54.848,
+      "DEF": 123.21,
+      "extra": 0.096
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "VarunadaLazuriteChunk", "localeName": "澄明なラピスラズリ·塊", "rarity": 4, "count": 6 },
+        { "id": "RunicFang", "localeName": "符文の歯車", "rarity": 4, "count": 12 },
+        { "id": "Starconch", "localeName": "星螺", "count": 45 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 12 }
+      ],
+      "HP": 3934.2,
+      "ATK": 66.418,
+      "DEF": 149.2,
+      "extra": 0.144
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "VarunadaLazuriteGemstone", "localeName": "澄明なラピスラズリ", "rarity": 5, "count": 6 },
+        { "id": "RunicFang", "localeName": "符文の歯車", "rarity": 4, "count": 20 },
+        { "id": "Starconch", "localeName": "星螺", "count": 60 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 24 }
+      ],
+      "HP": 4619.5,
+      "ATK": 77.987,
+      "DEF": 175.18,
+      "extra": 0.192
+    }
+  ],
+  "ascensionType": 12,
+  "element": 5,
+  "elemSkill": {
+    "name": "LingeringLifeline",
+    "localeName": "絡み合う命の糸",
+    "desc": "「命の糸」を引きながら疾走し、経路上の敵を絡めてマークする。\n疾走終了時、「命の糸」は爆発し、夜蘭のHP上限を基準に<color=#80C0FFFF>水元素ダメージ</color>をマークした敵に与える。\n\n<color=#FFD780FF>一回押し</color>\n驚異的なスピードで疾走し、前方へと一定距離移動する。\n\n<color=#FFD780FF>長押し</color>\n疾走を続け、かつ本状態中は中断耐性をアップさせる。\n継続時間中、夜蘭は進行方向を変えることができる。再び発動すると疾走状態を早期に終了できる。\n\nまた、「命の糸」が爆発する際、マークした敵1体につき、夜蘭が「打破」状態に入る確率が34%アップする。\n\n<i>彼女が糸に指を掛け、それを引いた時、陰謀を企てる悪党や賊たちは、初めて自分の定められた運命に気付く。</i>",
+    "cd": 10,
+    "paramTpls": ["スキルダメージ|{param1:F1P}HP上限", "長押し最大継続時間|{param3:F1}秒", "クールタイム|{param4:F1}秒"],
+    "paramVals": [
+      [0.22614, 0.34, 3, 10],
+      [0.2431, 0.34, 3, 10],
+      [0.26006, 0.34, 3, 10],
+      [0.28267, 0.34, 3, 10],
+      [0.29963, 0.34, 3, 10],
+      [0.31659, 0.34, 3, 10],
+      [0.3392, 0.34, 3, 10],
+      [0.36182, 0.34, 3, 10],
+      [0.38443, 0.34, 3, 10],
+      [0.40705, 0.34, 3, 10],
+      [0.42966, 0.34, 3, 10],
+      [0.45227, 0.34, 3, 10],
+      [0.48054, 0.34, 3, 10],
+      [0.50881, 0.34, 3, 10],
+      [0.53707, 0.34, 3, 10]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfProsperity", "localeName": "「繁栄」の教え", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵の記章", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 4 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 6 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 9 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 12 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "DepthClarionDice",
+    "localeName": "深謀玲瓏賽",
+    "desc": "<color=#80C0FFFF>水元素範囲ダメージ</color>を与えた後、「玲瓏一擲」を凝集させて戦闘を支援する。\n\n<color=#FFD780FF>玲瓏一擲</color>\nキャラクターに追従し、以下の状況で夜蘭のHP上限を基準に<color=#80C0FFFF>水元素ダメージ</color>の連携攻撃を発動する。\n·フィールド上でチーム内の自身キャラクターが通常攻撃を行う時、1秒につき1回発動する。\n·夜蘭自身が放った「命の糸」が爆発して敵に命中した時、連携攻撃を1回発動する。\n\n<i>「賭け事ばかりしていてはダメよ。胴元として、数の大小でそれを説明してあげるわ。サイコロを1つしか持たない君が、どうやって私が持つ7つのサイコロに勝つのかしら？」</i>",
+    "cd": 18,
+    "energyCost": 70,
+    "paramTpls": ["スキルダメージ|{param1:F2P}HP上限", "玲瓏一擲ダメージ|{param2:F2P}HP上限×3", "継続時間|{param3:F1}秒", "クールタイム|{param4:F1}秒", "元素エネルギー|{param5:I}"],
+    "paramVals": [
+      [0.07308, 0.04872, 15, 18, 70],
+      [0.078561, 0.052374, 15, 18, 70],
+      [0.084042, 0.056028, 15, 18, 70],
+      [0.09135, 0.0609, 15, 18, 70],
+      [0.096831, 0.064554, 15, 18, 70],
+      [0.10231, 0.068208, 15, 18, 70],
+      [0.10962, 0.07308, 15, 18, 70],
+      [0.11693, 0.077952, 15, 18, 70],
+      [0.12424, 0.082824, 15, 18, 70],
+      [0.13154, 0.087696, 15, 18, 70],
+      [0.13885, 0.092568, 15, 18, 70],
+      [0.14616, 0.09744, 15, 18, 70],
+      [0.15529, 0.10353, 15, 18, 70],
+      [0.16443, 0.10962, 15, 18, 70],
+      [0.17357, 0.11571, 15, 18, 70]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfProsperity", "localeName": "「繁栄」の教え", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵の記章", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 4 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 6 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 9 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 12 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackStealthyBowshot",
+    "localeName": "通常攻撃·匿影隠曜の弓",
+    "desc": "<color=#FFD780FF>通常攻撃</color>\n最大4段の連続射撃を行う。\n\n<color=#FFD780FF>重撃</color>\nダメージがより高く、より精確な<color=#FFD780FF>狙い撃ち</color>を発動する。\n照準時、流水を矢先に凝集させ、激流に満ちた矢で敵に<color=#80C0FFFF>水元素ダメージ</color>を与える。\n\n<color=#FFD780FF>打破</color>\n戦闘状態が解除されてから5秒経過すると「打破」状態に入り、次のフルチャージ狙い撃ちのチャージ時間-80%、かつフルチャージ時に「打破の矢」を放ち、夜蘭のHP上限を基準に<color=#80C0FFFF>水元素範囲ダメージ</color>を与える。\n\n<color=#FFD780FF>落下攻撃</color>\n空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。",
+    "cd": 0,
+    "paramTpls": [
+      "1段ダメージ|{param1:F1P}",
+      "2段ダメージ|{param2:F1P}",
+      "3段ダメージ|{param3:F1P}",
+      "4段ダメージ|{param4:F1P}+{param4:F1P}",
+      "狙い撃ち|{param5:F1P}",
+      "フルチャージ狙い撃ち|{param6:P}",
+      "打破の矢ダメージ|{param7:F2P}HP上限",
+      "落下期間のダメージ|{param8:F1P}",
+      "低空/高空落下攻撃ダメージ|{param9:P}/{param10:P}"
+    ],
+    "paramVals": [
+      [0.40678, 0.39044, 0.516, 0.32508, 0.4386, 1.24, 0.11576, 0.56829, 1.1363, 1.4193],
+      [0.43989, 0.42222, 0.558, 0.35154, 0.4743, 1.333, 0.12444, 0.61454, 1.2288, 1.5349],
+      [0.473, 0.454, 0.6, 0.378, 0.51, 1.426, 0.13312, 0.6608, 1.3213, 1.6504],
+      [0.5203, 0.4994, 0.66, 0.4158, 0.561, 1.55, 0.1447, 0.72688, 1.4535, 1.8154],
+      [0.55341, 0.53118, 0.702, 0.44226, 0.5967, 1.643, 0.15338, 0.77314, 1.5459, 1.931],
+      [0.59125, 0.5675, 0.75, 0.4725, 0.6375, 1.736, 0.16206, 0.826, 1.6516, 2.063],
+      [0.64328, 0.61744, 0.816, 0.51408, 0.6936, 1.86, 0.17364, 0.89869, 1.797, 2.2445],
+      [0.69531, 0.66738, 0.882, 0.55566, 0.7497, 1.984, 0.18522, 0.97138, 1.9423, 2.4261],
+      [0.74734, 0.71732, 0.948, 0.59724, 0.8058, 2.108, 0.19679, 1.0441, 2.0877, 2.6076],
+      [0.8041, 0.7718, 1.02, 0.6426, 0.867, 2.232, 0.20837, 1.1234, 2.2462, 2.8057],
+      [0.86086, 0.82628, 1.092, 0.68796, 0.9282, 2.356, 0.21994, 1.2027, 2.4048, 3.0037],
+      [0.91762, 0.88076, 1.164, 0.73332, 0.9894, 2.48, 0.23152, 1.282, 2.5634, 3.2018],
+      [0.97438, 0.93524, 1.236, 0.77868, 1.0506, 2.635, 0.24599, 1.3612, 2.7219, 3.3998],
+      [1.0311, 0.98972, 1.308, 0.82404, 1.1118, 2.79, 0.26046, 1.4405, 2.8805, 3.5979],
+      [1.0879, 1.0442, 1.38, 0.8694, 1.173, 2.945, 0.27493, 1.5198, 3.039, 3.7959]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfProsperity", "localeName": "「繁栄」の教え", "rarity": 2, "count": 3 },
+        { "id": "RecruitsInsignia", "localeName": "新兵の記章", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 2 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 4 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 6 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToProsperity", "localeName": "「繁栄」の導き", "rarity": 3, "count": 9 },
+        { "id": "SergeantsInsignia", "localeName": "士官の記章", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 4 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 4 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 6 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 6 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 12 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 9 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4, "count": 16 },
+        { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3, "count": 12 },
+        { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "知恵の冠", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "TurnControl", "localeName": "先後の決め手", "desc": "チーム内キャラクターの元素タイプが1/2/3/4種類の時、夜蘭自身のHP上限+6%/12%/18%/30%。", "unlock": 1, "values": [0.06, 0.12, 0.18, 0.3] },
+    {
+      "name": "AdaptWithEase",
+      "localeName": "気随気儘",
+      "desc": "<color=#FFD780FF>「玲瓏一擲」</color>継続時間中、フィールド上にいるチーム内の自身キャラクターの与えるダメージ+1%、1秒毎に3.5%アップする。最大で50%までアップする。\n継続時間中、深謀玲瓏賽を再発動すると、既存の上記効果が先にクリアされる。",
+      "unlock": 4,
+      "values": [0.01, 0.035, 1, 14]
+    },
+    { "name": "NecessaryCalculation", "localeName": "長考一手", "desc": "璃月で20時間かかる探索任務を完了した時、獲得する報酬+25%。" }
+  ],
+  "c13ns": [
+    { "name": "EnterThePlotters", "localeName": "共謀する者、以局征局", "desc": "<color=#FFD780FF>絡み合う命の糸</color>の使用可能回数+1。" },
+    { "name": "TakingAllComers", "localeName": "罠に陥る者、多々益善", "desc": "<color=#FFD780FF>「玲瓏一擲」</color>による連携攻撃を行った時、追加で水の矢を1本発射し、夜蘭のHP上限の14%に相当する水元素ダメージを与える。\n1.8秒毎に1回のみ発動可能。", "values": [0.14, 1.8] },
+    { "name": "BewareTheTrickstersDice", "localeName": "壺振り師、賽子詭計", "desc": "<color=#FFD780FF>深謀玲瓏賽</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    { "name": "BaitAndSwitch", "localeName": "騙し取る者、移花接木", "desc": "<color=#FFD780FF>「命の糸」</color>が爆発した時、マークした敵1体につき、チーム全員のHP上限+10%、継続時間25秒。この方式でアップできるHP上限は最大40%まで。", "values": [0.1, 25, 4] },
+    { "name": "DealersSleight", "localeName": "胴元になる者、三仙奇術", "desc": "<color=#FFD780FF>絡み合う命の糸</color>のスキルLv.+3。\n最大Lv.15まで。" },
+    {
+      "name": "WinnerTakesAll",
+      "localeName": "勝ち得る者、独り勝ち",
+      "desc": "<color=#FFD780FF>深謀玲瓏賽</color>を発動後、夜蘭は「権謀術数」状態に入る。\n通常攻撃は特殊な「打破の矢」に変化する。この矢は打破の矢に近い特性を持ち、与えるダメージは打破の矢の156%、かつ重撃ダメージとみなされる。\n\n「権謀術数」状態の継続時間は最大20秒となり、5本の矢が発射されると終了する。",
+      "values": [5, 20, 1.56]
+    }
+  ],
+  "overviewItems": [
+    { "id": "VarunadaLazuriteGemstone", "localeName": "澄明なラピスラズリ", "rarity": 5 },
+    { "id": "RunicFang", "localeName": "符文の歯車", "rarity": 4 },
+    { "id": "Starconch", "localeName": "星螺" },
+    { "id": "LieutenantsInsignia", "localeName": "尉官の記章", "rarity": 3 },
+    { "id": "PhilosophiesOfProsperity", "localeName": "「繁栄」の哲学", "rarity": 4 },
+    { "id": "GildedScale", "localeName": "鍍金の鱗", "rarity": 5 }
+  ]
+}

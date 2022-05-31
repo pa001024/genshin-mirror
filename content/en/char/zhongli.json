@@ -1,0 +1,348 @@
+{
+  "uid": 10000030,
+  "id": "zhongli",
+  "name": "Zhongli",
+  "localeName": "Zhongli",
+  "desc": "A mysterious expert contracted by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things.",
+  "baseHP": 1144,
+  "baseATK": 19.551,
+  "baseDEF": 57.437,
+  "bodyType": 1,
+  "rarity": 5,
+  "weapon": 3,
+  "region": 2,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "PrithivaTopazSliver", "localeName": "Prithiva Topaz Sliver", "rarity": 2, "count": 1 },
+        { "id": "CorLapis", "localeName": "Cor Lapis", "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 3 }
+      ],
+      "HP": 980.86,
+      "ATK": 16.762,
+      "DEF": 49.248,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "PrithivaTopazFragment", "localeName": "Prithiva Topaz Fragment", "rarity": 3, "count": 3 },
+        { "id": "BasaltPillar", "localeName": "Basalt Pillar", "rarity": 4, "count": 2 },
+        { "id": "CorLapis", "localeName": "Cor Lapis", "count": 10 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1677.8,
+      "ATK": 28.672,
+      "DEF": 84.24,
+      "extra": 0.072
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "PrithivaTopazFragment", "localeName": "Prithiva Topaz Fragment", "rarity": 3, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "Basalt Pillar", "rarity": 4, "count": 4 },
+        { "id": "CorLapis", "localeName": "Cor Lapis", "count": 20 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 12 }
+      ],
+      "HP": 2607,
+      "ATK": 44.552,
+      "DEF": 130.9,
+      "extra": 0.144
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "PrithivaTopazChunk", "localeName": "Prithiva Topaz Chunk", "rarity": 4, "count": 3 },
+        { "id": "BasaltPillar", "localeName": "Basalt Pillar", "rarity": 4, "count": 8 },
+        { "id": "CorLapis", "localeName": "Cor Lapis", "count": 30 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 18 }
+      ],
+      "HP": 3304,
+      "ATK": 56.461,
+      "DEF": 165.89,
+      "extra": 0.144
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "PrithivaTopazChunk", "localeName": "Prithiva Topaz Chunk", "rarity": 4, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "Basalt Pillar", "rarity": 4, "count": 12 },
+        { "id": "CorLapis", "localeName": "Cor Lapis", "count": 45 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 12 }
+      ],
+      "HP": 4000.9,
+      "ATK": 68.371,
+      "DEF": 200.88,
+      "extra": 0.216
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "PrithivaTopazGemstone", "localeName": "Prithiva Topaz Gemstone", "rarity": 5, "count": 6 },
+        { "id": "BasaltPillar", "localeName": "Basalt Pillar", "rarity": 4, "count": 20 },
+        { "id": "CorLapis", "localeName": "Cor Lapis", "count": 60 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 24 }
+      ],
+      "HP": 4697.8,
+      "ATK": 80.281,
+      "DEF": 235.87,
+      "extra": 0.288
+    }
+  ],
+  "ascensionType": 31,
+  "element": 2,
+  "elemSkill": {
+    "name": "DominusLapidis",
+    "localeName": "Dominus Lapidis",
+    "desc": "#Every mountain, rock and inch of land is filled with the power of Geo, but those who can wield such powers freely are few and far between.\n\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\nCommands the power of earth to create a Stone Stele.\n\n<color=#FFD780FF>Hold</color>\nCauses nearby Geo energy to explode, causing the following effects:\n·If their maximum number hasn't been reached, creates a Stone Stele.\n·Creates a shield of jade. The shield's DMG Absorption scales based on Zhongli's Max HP.\n·Deals <color=#FFE699FF>AoE Geo DMG</color>.\n·If there are nearby targets with the <color=#FFE699FF>Geo element</color>, it will drain a large amount of <color=#FFE699FF>Geo element</color> from a maximum of 2 such targets. This effect does not cause DMG.\n\n<color=#FFD780FF>Stone Stele</color>\nWhen created, deals <color=#FFE699FF>AoE Geo DMG</color>.\nAdditionally, it will intermittently resonate with other nearby <color=#FFE699FF>Geo constructs</color>, dealing <color=#FFE699FF>Geo DMG</color> to nearby opponents.\nThe Stone Stele is considered a <color=#FFE699FF>Geo construct</color> that can both be climbed and used to block attacks.\nOnly one Stele created by Zhongli himself may initially exist at any one time.\n\n<color=#FFD780FF>Jade Shield</color>\nPossesses 150% DMG Absorption against all Elemental and Physical DMG.\nCharacters protected by the Jade Shield will decrease the Elemental RES and Physical RES of opponents in a small AoE by 20%. This effect cannot be stacked.\n\n<i>A true master of stone may carve jade and shape gold.</i>",
+    "cd": 12,
+    "paramTpls": [
+      "Stone Stele/Resonance DMG|{param1:F1P}/{param2:F1P}",
+      "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
+      "Hold DMG|{param4:P}",
+      "Shield Base Absorption|{param5:I}",
+      "Additional Shield Absorption|{param6:F1P} Max HP",
+      "Shield Duration|{param7:F1}s",
+      "CD (hold)|{param8:F1}s"
+    ],
+    "paramVals": [
+      [0.16, 0.32, 4, 0.8, 1232.4, 0.128, 20, 12],
+      [0.172, 0.344, 4, 0.86, 1355.7, 0.1376, 20, 12],
+      [0.184, 0.368, 4, 0.92, 1489.2, 0.1472, 20, 12],
+      [0.2, 0.4, 4, 1, 1633, 0.16, 20, 12],
+      [0.212, 0.424, 4, 1.06, 1787.1, 0.1696, 20, 12],
+      [0.224, 0.448, 4, 1.12, 1951.4, 0.1792, 20, 12],
+      [0.24, 0.48, 4, 1.2, 2126, 0.192, 20, 12],
+      [0.256, 0.512, 4, 1.28, 2310.9, 0.2048, 20, 12],
+      [0.272, 0.544, 4, 1.36, 2506.1, 0.2176, 20, 12],
+      [0.288, 0.576, 4, 1.44, 2711.5, 0.2304, 20, 12],
+      [0.304, 0.608, 4, 1.52, 2927.2, 0.2432, 20, 12],
+      [0.32, 0.64, 4, 1.6, 3153.2, 0.256, 20, 12],
+      [0.34, 0.68, 4, 1.7, 3389.4, 0.272, 20, 12],
+      [0.36, 0.72, 4, 1.8, 3635.9, 0.288, 20, 12],
+      [0.38, 0.76, 4, 1.9, 3892.7, 0.304, 20, 12]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfGold", "localeName": "Teachings of Gold", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "Guide to Gold", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "Guide to Gold", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "Guide to Gold", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "Guide to Gold", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 4 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 6 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 9 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 12 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "PlanetBefall",
+    "localeName": "Planet Befall",
+    "desc": "Brings a falling meteor down to earth, dealing massive <color=#FFE699FF>Geo DMG</color> to opponents caught in its AoE and applying the <color=#FFE699FF>Petrification</color> status to them.\n\n<color=#FFD780FF>Petrification</color>\nOpponents affected by the <color=#FFE699FF>Petrification</color> status cannot move.\n\n<i>The falling meteor punishes the unjust.</i>",
+    "cd": 12,
+    "energyCost": 40,
+    "paramTpls": ["Skill DMG|{param1:P}", "Petrification Duration|{param2:F1}s", "CD|{param3:F1}s", "Energy Cost|{param4:I}"],
+    "paramVals": [
+      [4.0108, 3.1, 12, 40],
+      [4.4444, 3.2, 12, 40],
+      [4.878, 3.3, 12, 40],
+      [5.42, 3.4, 12, 40],
+      [5.9078, 3.5, 12, 40],
+      [6.3956, 3.6, 12, 40],
+      [7.046, 3.7, 12, 40],
+      [7.6964, 3.8, 12, 40],
+      [8.3468, 3.9, 12, 40],
+      [8.9972, 4, 12, 40],
+      [9.6476, 4, 12, 40],
+      [10.298, 4, 12, 40],
+      [10.84, 4, 12, 40],
+      [11.382, 4, 12, 40],
+      [11.924, 4, 12, 40]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfGold", "localeName": "Teachings of Gold", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "Guide to Gold", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "Guide to Gold", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "Guide to Gold", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "Guide to Gold", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 4 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 6 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 9 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 12 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackRainOfStone",
+    "localeName": "Normal Attack: Rain of Stone",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 6 consecutive spear strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to lunge forward, causing stone spears to fall along his path.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "cd": 0,
+    "paramTpls": [
+      "1-Hit DMG|{param1:F1P}",
+      "2-Hit DMG|{param2:F1P}",
+      "3-Hit DMG|{param3:F1P}",
+      "4-Hit DMG|{param4:F1P}",
+      "5-Hit DMG|{param5:F1P}×4",
+      "6-Hit DMG|{param6:F1P}",
+      "Charged Attack DMG|{param7:P}",
+      "Charged Attack Stamina Cost|{param8:F1}",
+      "Plunge DMG|{param9:F1P}",
+      "Low/High Plunge DMG|{param10:P}/{param11:P}"
+    ],
+    "paramVals": [
+      [0.30769, 0.31152, 0.38576, 0.42939, 0.1075, 0.54497, 1.1103, 25, 0.63932, 1.2784, 1.5968],
+      [0.33274, 0.33687, 0.41716, 0.46434, 0.11625, 0.58932, 1.2006, 25, 0.69136, 1.3824, 1.7267],
+      [0.35778, 0.36223, 0.44856, 0.49929, 0.125, 0.63368, 1.291, 25, 0.7434, 1.4865, 1.8567],
+      [0.39356, 0.39845, 0.49342, 0.54922, 0.1375, 0.69705, 1.4201, 25, 0.81774, 1.6351, 2.0424],
+      [0.4186, 0.42381, 0.52482, 0.58417, 0.14625, 0.74141, 1.5105, 25, 0.86978, 1.7392, 2.1723],
+      [0.44723, 0.45279, 0.5607, 0.62411, 0.15625, 0.7921, 1.6137, 25, 0.92925, 1.8581, 2.3209],
+      [0.48658, 0.49263, 0.61004, 0.67903, 0.17, 0.86181, 1.7558, 25, 1.011, 2.0216, 2.5251],
+      [0.52594, 0.53248, 0.65938, 0.73396, 0.18375, 0.93151, 1.8978, 25, 1.0928, 2.1851, 2.7293],
+      [0.56529, 0.57232, 0.70872, 0.78888, 0.1975, 1.0012, 2.0398, 25, 1.1746, 2.3486, 2.9336],
+      [0.60823, 0.61579, 0.76255, 0.84879, 0.2125, 1.0773, 2.1947, 25, 1.2638, 2.527, 3.1564],
+      [0.65742, 0.6656, 0.82423, 0.91745, 0.22969, 1.1644, 2.3722, 25, 1.353, 2.7054, 3.3792],
+      [0.71527, 0.72417, 0.89676, 0.99818, 0.2499, 1.2669, 2.581, 25, 1.4422, 2.8838, 3.602],
+      [0.77313, 0.78274, 0.96929, 1.0789, 0.27011, 1.3693, 2.7897, 25, 1.5314, 3.0622, 3.8248],
+      [0.83098, 0.84131, 1.0418, 1.1597, 0.29032, 1.4718, 2.9985, 25, 1.6206, 3.2405, 4.0476],
+      [0.89409, 0.90521, 1.121, 1.2477, 0.31238, 1.5836, 3.2262, 25, 1.7098, 3.4189, 4.2704]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfGold", "localeName": "Teachings of Gold", "rarity": 2, "count": 3 },
+        { "id": "SlimeCondensate", "localeName": "Slime Condensate", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "Guide to Gold", "rarity": 3, "count": 2 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "Guide to Gold", "rarity": 3, "count": 4 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "Guide to Gold", "rarity": 3, "count": 6 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToGold", "localeName": "Guide to Gold", "rarity": 3, "count": 9 },
+        { "id": "SlimeSecretions", "localeName": "Slime Secretions", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4, "count": 4 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 4 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4, "count": 6 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 6 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4, "count": 12 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 9 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4, "count": 16 },
+        { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3, "count": 12 },
+        { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "ResonantWaves", "localeName": "Resonant Waves", "desc": "When the Jade Shield takes DMG, it will Fortify:\n·Fortified characters have 5% increased Shield Strength.\nCan stack up to 5 times, and lasts until the Jade Shield disappears.", "unlock": 1, "values": [0.05] },
+    {
+      "name": "DominanceOfEarth",
+      "localeName": "Dominance of Earth",
+      "desc": "Zhongli deals bonus DMG based on his Max HP:\n·Normal Attack, Charged Attack, and Plunging Attack DMG is increased by 1.39% of Max HP.\n·<color=#FFD780FF>Dominus Lapidis'</color> Stone Stele, resonance, and hold DMG is increased by 1.9% of Max HP.\n·<color=#FFD780FF>Planet Befall's</color> DMG is increased by 33% of Max HP.",
+      "unlock": 4,
+      "values": [0.0139, 0.019, 0.33]
+    },
+    { "name": "ArcanumOfCrystal", "localeName": "Arcanum of Crystal", "desc": "Refunds 15% of the ore used when crafting Polearm-type weapons." }
+  ],
+  "c13ns": [
+    { "name": "RockTheBackboneOfEarth", "localeName": "Rock, the Backbone of Earth", "desc": "Increases the maximum number of Stone Steles created by <color=#FFD780FF>Dominus Lapidis</color> that may exist simultaneously to 2." },
+    { "name": "StoneTheCradleOfJade", "localeName": "Stone, the Cradle of Jade", "desc": "<color=#FFD780FF>Planet Befall</color> grants nearby characters on the field a Jade Shield when it descends." },
+    { "name": "JadeShimmeringThroughDarkness", "localeName": "Jade, Shimmering through Darkness", "desc": "Increases the Level of <color=#FFD780FF>Dominus Lapidis</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "TopazUnbreakableAndFearless", "localeName": "Topaz, Unbreakable and Fearless", "desc": "Increases <color=#FFD780FF>Planet Befall</color>'s AoE by 20% and increases the duration of Planet Befall's Petrification effect by 2s.", "values": [0.2, 2] },
+    { "name": "LazuliHeraldOfTheOrder", "localeName": "Lazuli, Herald of the Order", "desc": "Increases the Level of <color=#FFD780FF>Planet Befall</color> by 3.\nMaximum upgrade level is 15." },
+    {
+      "name": "ChrysosBountyOfDominator",
+      "localeName": "Chrysos, Bounty of Dominator",
+      "desc": "When the Jade Shield takes DMG, 40% of that incoming DMG is converted to HP for the current character.\nA single instance of regeneration cannot exceed 8% of that character's Max HP.",
+      "values": [0.4, 0.08]
+    }
+  ],
+  "overviewItems": [
+    { "id": "PrithivaTopazGemstone", "localeName": "Prithiva Topaz Gemstone", "rarity": 5 },
+    { "id": "BasaltPillar", "localeName": "Basalt Pillar", "rarity": 4 },
+    { "id": "CorLapis", "localeName": "Cor Lapis" },
+    { "id": "SlimeConcentrate", "localeName": "Slime Concentrate", "rarity": 3 },
+    { "id": "PhilosophiesOfGold", "localeName": "Philosophies of Gold", "rarity": 4 },
+    { "id": "TuskOfMonocerosCaeli", "localeName": "Tusk of Monoceros Caeli", "rarity": 5 }
+  ]
+}

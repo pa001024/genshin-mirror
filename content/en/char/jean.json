@@ -1,0 +1,323 @@
+{
+  "uid": 10000003,
+  "id": "jean",
+  "name": "Jean",
+  "localeName": "Jean",
+  "desc": "The righteous and rigorous Dandelion Knight, and Acting Grand Master of Mondstadt's Knights of Favonius.",
+  "baseHP": 1144,
+  "baseATK": 18.62,
+  "baseDEF": 59.83,
+  "bodyType": 4,
+  "rarity": 5,
+  "weapon": 1,
+  "region": 1,
+  "ascensions": [
+    {
+      "level": 1,
+      "itemCost": [
+        { "id": "VayudaTurquoiseSliver", "localeName": "Vayuda Turquoise Sliver", "rarity": 2, "count": 1 },
+        { "id": "DandelionSeed", "localeName": "Dandelion Seed", "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 3 }
+      ],
+      "HP": 980.86,
+      "ATK": 15.964,
+      "DEF": 51.3,
+      "extra": 0
+    },
+    {
+      "level": 2,
+      "itemCost": [
+        { "id": "VayudaTurquoiseFragment", "localeName": "Vayuda Turquoise Fragment", "rarity": 3, "count": 3 },
+        { "id": "HurricaneSeed", "localeName": "Hurricane Seed", "rarity": 4, "count": 2 },
+        { "id": "DandelionSeed", "localeName": "Dandelion Seed", "count": 10 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 15 }
+      ],
+      "HP": 1677.8,
+      "ATK": 27.306,
+      "DEF": 87.75,
+      "extra": 0.0554
+    },
+    {
+      "level": 3,
+      "itemCost": [
+        { "id": "VayudaTurquoiseFragment", "localeName": "Vayuda Turquoise Fragment", "rarity": 3, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "Hurricane Seed", "rarity": 4, "count": 4 },
+        { "id": "DandelionSeed", "localeName": "Dandelion Seed", "count": 20 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 12 }
+      ],
+      "HP": 2607,
+      "ATK": 42.43,
+      "DEF": 136.35,
+      "extra": 0.1108
+    },
+    {
+      "level": 4,
+      "itemCost": [
+        { "id": "VayudaTurquoiseChunk", "localeName": "Vayuda Turquoise Chunk", "rarity": 4, "count": 3 },
+        { "id": "HurricaneSeed", "localeName": "Hurricane Seed", "rarity": 4, "count": 8 },
+        { "id": "DandelionSeed", "localeName": "Dandelion Seed", "count": 30 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 18 }
+      ],
+      "HP": 3304,
+      "ATK": 53.773,
+      "DEF": 172.8,
+      "extra": 0.1108
+    },
+    {
+      "level": 5,
+      "itemCost": [
+        { "id": "VayudaTurquoiseChunk", "localeName": "Vayuda Turquoise Chunk", "rarity": 4, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "Hurricane Seed", "rarity": 4, "count": 12 },
+        { "id": "DandelionSeed", "localeName": "Dandelion Seed", "count": 45 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 }
+      ],
+      "HP": 4000.9,
+      "ATK": 65.116,
+      "DEF": 209.25,
+      "extra": 0.1662
+    },
+    {
+      "level": 6,
+      "itemCost": [
+        { "id": "VayudaTurquoiseGemstone", "localeName": "Vayuda Turquoise Gemstone", "rarity": 5, "count": 6 },
+        { "id": "HurricaneSeed", "localeName": "Hurricane Seed", "rarity": 4, "count": 20 },
+        { "id": "DandelionSeed", "localeName": "Dandelion Seed", "count": 60 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 24 }
+      ],
+      "HP": 4697.8,
+      "ATK": 76.458,
+      "DEF": 245.7,
+      "extra": 0.2215
+    }
+  ],
+  "ascensionType": 14,
+  "element": 1,
+  "elemSkill": {
+    "name": "GaleBlade",
+    "localeName": "Gale Blade",
+    "desc": "Focusing the might of the formless wind around her blade, Jean releases a miniature storm, launching opponents in the direction she aims at, dealing massive <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Hold</color>\nAt the cost of continued stamina consumption, Jean can command the whirlwind to pull surrounding opponents and objects towards her front.\nDirection can be adjusted.\nCharacter is immobile during skill duration.\n\n<i>That which follows Jean, the wholehearted defender, is a guardian wind that can banish danger from her comrades' presence.</i>",
+    "cd": 6,
+    "paramTpls": ["Skill DMG|{param1:P}", "Stamina Consumption|{param2:F1} Per Second", "Max Duration|{param3:F1}s", "CD|{param4:F1}s"],
+    "paramVals": [
+      [2.92, 20, 5, 6],
+      [3.139, 20, 5, 6],
+      [3.358, 20, 5, 6],
+      [3.65, 20, 5, 6],
+      [3.869, 20, 5, 6],
+      [4.088, 20, 5, 6],
+      [4.38, 20, 5, 6],
+      [4.672, 20, 5, 6],
+      [4.964, 20, 5, 6],
+      [5.256, 20, 5, 6],
+      [5.548, 20, 5, 6],
+      [5.84, 20, 5, 6],
+      [6.205, 20, 5, 6],
+      [6.57, 20, 5, 6],
+      [6.935, 20, 5, 6]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfResistance", "localeName": "Teachings of Resistance", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "elemBurst": {
+    "name": "DandelionBreeze",
+    "localeName": "Dandelion Breeze",
+    "desc": "Calling upon the wind's protection, Jean creates a swirling Dandelion Field, launching surrounding opponents and dealing <color=#80FFD7FF>Anemo DMG</color>.\nAt the same time, she instantly regenerates a large amount of HP for all party members. The amount of HP restored scales off Jean's ATK.\n\n<color=#FFD780FF>Dandelion Field</color>\n·Continuously regenerates HP of characters within the AoE and continuously imbues them with <color=#80FFD7FF>Anemo</color>.\n·Deals <color=#80FFD7FF>Anemo DMG</color> to opponents entering or exiting the Dandelion Field.\n\n<i>Jean's magnanimity is as vast as the dandelion fields, and it is the root of her wish to protect others.</i>",
+    "cd": 20,
+    "energyCost": 80,
+    "paramTpls": ["Elemental Burst DMG|{param1:P}", "Field Entering/Exiting DMG|{param2:F1P}", "Field Activation Healing|{param3:P} ATK+{param4:I}", "Continuous Regeneration|{param5:F2P} ATK+{param6:I}", "CD|{param7:F1}s", "Energy Cost|{param8:I}"],
+    "paramVals": [
+      [4.248, 0.784, 2.512, 1540.3, 0.2512, 154.03, 20, 80],
+      [4.5666, 0.8428, 2.7004, 1694.4, 0.27004, 169.44, 20, 80],
+      [4.8852, 0.9016, 2.8888, 1861.3, 0.28888, 186.13, 20, 80],
+      [5.31, 0.98, 3.14, 2041, 0.314, 204.1, 20, 80],
+      [5.6286, 1.0388, 3.3284, 2233.6, 0.33284, 223.36, 20, 80],
+      [5.9472, 1.0976, 3.5168, 2439, 0.35168, 243.9, 20, 80],
+      [6.372, 1.176, 3.768, 2657.2, 0.3768, 265.72, 20, 80],
+      [6.7968, 1.2544, 4.0192, 2888.3, 0.40192, 288.83, 20, 80],
+      [7.2216, 1.3328, 4.2704, 3132.2, 0.42704, 313.22, 20, 80],
+      [7.6464, 1.4112, 4.5216, 3389, 0.45216, 338.9, 20, 80],
+      [8.0712, 1.4896, 4.7728, 3658.6, 0.47728, 365.86, 20, 80],
+      [8.496, 1.568, 5.024, 3941, 0.5024, 394.1, 20, 80],
+      [9.027, 1.666, 5.338, 4236.3, 0.5338, 423.63, 20, 80],
+      [9.558, 1.764, 5.652, 4544.4, 0.5652, 454.44, 20, 80],
+      [10.089, 1.862, 5.966, 4865.3, 0.5966, 486.53, 20, 80]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfResistance", "localeName": "Teachings of Resistance", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "attackSkill": {
+    "name": "NormalAttackFavoniusBladework",
+    "localeName": "Normal Attack: Favonius Bladework",
+    "desc": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of stamina to launch an opponent using the power of wind.\nLaunched opponents will slowly fall to the ground.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "cd": 0,
+    "paramTpls": ["1-Hit DMG|{param1:F1P}", "2-Hit DMG|{param2:F1P}", "3-Hit DMG|{param3:F1P}", "4-Hit DMG|{param4:F1P}", "5-Hit DMG|{param5:F1P}", "Charged Attack DMG|{param6:P}", "Charged Attack Stamina Cost|{param7:F1}", "Plunge DMG|{param8:F1P}", "Low/High Plunge DMG|{param9:P}/{param10:P}"],
+    "paramVals": [
+      [0.48332, 0.4558, 0.60286, 0.65876, 0.79206, 1.6202, 20, 0.63932, 1.2784, 1.5968],
+      [0.52266, 0.4929, 0.65193, 0.71238, 0.85653, 1.7521, 20, 0.69136, 1.3824, 1.7267],
+      [0.562, 0.53, 0.701, 0.766, 0.921, 1.884, 20, 0.7434, 1.4865, 1.8567],
+      [0.6182, 0.583, 0.7711, 0.8426, 1.0131, 2.0724, 20, 0.81774, 1.6351, 2.0424],
+      [0.65754, 0.6201, 0.82017, 0.89622, 1.0776, 2.2043, 20, 0.86978, 1.7392, 2.1723],
+      [0.7025, 0.6625, 0.87625, 0.9575, 1.1513, 2.355, 20, 0.92925, 1.8581, 2.3209],
+      [0.76432, 0.7208, 0.95336, 1.0418, 1.2526, 2.5622, 20, 1.011, 2.0216, 2.5251],
+      [0.82614, 0.7791, 1.0305, 1.126, 1.3539, 2.7695, 20, 1.0928, 2.1851, 2.7293],
+      [0.88796, 0.8374, 1.1076, 1.2103, 1.4552, 2.9767, 20, 1.1746, 2.3486, 2.9336],
+      [0.9554, 0.901, 1.1917, 1.3022, 1.5657, 3.2028, 20, 1.2638, 2.527, 3.1564],
+      [1.0327, 0.97387, 1.2881, 1.4075, 1.6923, 3.4618, 20, 1.353, 2.7054, 3.3792],
+      [1.1236, 1.0596, 1.4014, 1.5314, 1.8413, 3.7665, 20, 1.4422, 2.8838, 3.602],
+      [1.2144, 1.1453, 1.5148, 1.6552, 1.9902, 4.0711, 20, 1.5314, 3.0622, 3.8248],
+      [1.3053, 1.231, 1.6281, 1.7791, 2.1391, 4.3758, 20, 1.6206, 3.2405, 4.0476],
+      [1.4044, 1.3245, 1.7518, 1.9142, 2.3016, 4.7081, 20, 1.7098, 3.4189, 4.2704]
+    ],
+    "costItems": [
+      [
+        { "id": "TeachingsOfResistance", "localeName": "Teachings of Resistance", "rarity": 2, "count": 3 },
+        { "id": "DamagedMask", "localeName": "Damaged Mask", "rarity": 1, "count": 6 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 2 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 3 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 4 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 4 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 6 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 6 }
+      ],
+      [
+        { "id": "GuideToResistance", "localeName": "Guide to Resistance", "rarity": 3, "count": 9 },
+        { "id": "StainedMask", "localeName": "Stained Mask", "rarity": 2, "count": 9 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 4 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 4 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 6 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 6 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 1 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 12 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 9 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 2 }
+      ],
+      [
+        { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4, "count": 16 },
+        { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3, "count": 12 },
+        { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5, "count": 2 },
+        { "id": "CrownOfInsight", "localeName": "Crown of Insight", "rarity": 5, "count": 1 }
+      ]
+    ]
+  },
+  "talents": [
+    { "name": "WindCompanion", "localeName": "Wind Companion", "desc": "On hit, Jean's Normal Attacks have a 50% chance to regenerate HP equal to 15% of Jean's ATK for all party members.", "unlock": 1, "values": [0.5, 0.15] },
+    { "name": "LetTheWindLead", "localeName": "Let the Wind Lead", "desc": "Using <color=#FFD780FF>Dandelion Breeze</color> will regenerate 20% of its Energy.", "unlock": 4, "values": [16] },
+    { "name": "GuidingBreeze", "localeName": "Guiding Breeze", "desc": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product." }
+  ],
+  "c13ns": [
+    { "name": "SpiralingTempest", "localeName": "Spiraling Tempest", "desc": "Increases the pulling speed of <color=#FFD780FF>Gale Blade</color> after holding for more than 1s, and increases the DMG dealt by 40%.", "values": [0.4] },
+    { "name": "PeoplesAegis", "localeName": "People's Aegis", "desc": "When Jean picks up an Elemental Orb/Particle, all party members have their Movement SPD and ATK SPD increased by 15% for 15s.", "values": [0.15, 0.15, 15] },
+    { "name": "WhenTheWestWindArises", "localeName": "When the West Wind Arises", "desc": "Increases the Level of <color=#FFD780FF>Dandelion Breeze</color> by 3.\nMaximum upgrade level is 15." },
+    { "name": "LandsOfDandelion", "localeName": "Lands of Dandelion", "desc": "Within the Field created by <color=#FFD780FF>Dandelion Breeze</color>, all opponents have their <color=#80FFD7FF>Anemo RES</color> decreased by 40%.", "values": [0.4] },
+    { "name": "OutburstingGust", "localeName": "Outbursting Gust", "desc": "Increases the Level of <color=#FFD780FF>Gale Blade</color> by 3.\nMaximum upgrade level is 15." },
+    {
+      "name": "LionsFangFairProtectorOfMondstadt",
+      "localeName": "Lion's Fang, Fair Protector of Mondstadt",
+      "desc": "Incoming DMG is decreased by 35% within the Field created by <color=#FFD780FF>Dandelion Breeze</color>. Upon leaving the Dandelion Field, this effect lasts for 3 attacks or 10s.",
+      "values": [0.35]
+    }
+  ],
+  "overviewItems": [
+    { "id": "VayudaTurquoiseGemstone", "localeName": "Vayuda Turquoise Gemstone", "rarity": 5 },
+    { "id": "HurricaneSeed", "localeName": "Hurricane Seed", "rarity": 4 },
+    { "id": "DandelionSeed", "localeName": "Dandelion Seed" },
+    { "id": "OminousMask", "localeName": "Ominous Mask", "rarity": 3 },
+    { "id": "PhilosophiesOfResistance", "localeName": "Philosophies of Resistance", "rarity": 4 },
+    { "id": "DvalinsPlume", "localeName": "Dvalin's Plume", "rarity": 5 }
+  ]
+}
